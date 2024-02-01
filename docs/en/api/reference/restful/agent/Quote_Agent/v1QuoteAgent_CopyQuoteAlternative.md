@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 833,
-  "QuoteAlternativeId": 566,
-  "QuoteAlternativeName": "Padberg LLC"
+  "QuoteVersionId": 521,
+  "QuoteAlternativeId": 724,
+  "QuoteAlternativeName": "Medhurst, Dickens and Larson"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 22,
-  "ERPQuoteAlternativeKey": "fuga",
-  "QuoteVersionId": 297,
-  "Name": "Kuvalis-Altenwerth",
-  "Description": "Business-focused needs-based core",
+  "QuoteAlternativeId": 41,
+  "ERPQuoteAlternativeKey": "provident",
+  "QuoteVersionId": 903,
+  "Name": "Kuhic LLC",
+  "Description": "Reduced cohesive complexity",
   "Status": "Error",
-  "Reason": "syndicate best-of-breed partnerships",
-  "ERPDiscountPercent": 27115.368,
-  "ERPDiscountAmount": 27660.683999999997,
-  "DiscountPercent": 21599.528,
-  "DiscountAmount": 17199.392,
+  "Reason": "",
+  "ERPDiscountPercent": 5465.696,
+  "ERPDiscountAmount": 18158.396,
+  "DiscountPercent": 4030.324,
+  "DiscountAmount": 27394.293999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "iure",
-  "VAT": 9229.63,
-  "EarningPercent": 3228.02,
-  "EarningAmount": 26313.064,
-  "SubTotal": 29428.26,
-  "TotalPrice": 27839.322,
-  "ExtraField1": "pariatur",
-  "ExtraField2": "nemo",
-  "ExtraField3": "magni",
-  "ExtraField4": "autem",
-  "ExtraField5": "rerum",
+  "VATInfo": "et",
+  "VAT": 817.97399999999993,
+  "EarningPercent": 25009.32,
+  "EarningAmount": 1018.55,
+  "SubTotal": 573.52199999999993,
+  "TotalPrice": 12451.382,
+  "ExtraField1": "quos",
+  "ExtraField2": "commodi",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "provident",
+  "ExtraField5": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 173
     }
   }
 }

@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Carroll, Wilderman and Schmitt",
+  "HistoryName": "Sporer, Strosin and Adams",
   "History": [
     {
-      "Rank": 864,
-      "Id": 503,
-      "HistoryName": "Hermann, Wunsch and Cassin",
-      "HistoryId": 10,
-      "AssociateId": 570,
-      "Name": "Haag-Walsh",
-      "ItemInfo": "commodi"
+      "Rank": 625,
+      "Id": 896,
+      "HistoryName": "Friesen, Mitchell and Kihn",
+      "HistoryId": 768,
+      "AssociateId": 513,
+      "Name": "Gibson-Conn",
+      "ItemInfo": "nihil"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 606,
-    "Id": 509,
-    "HistoryName": "Johnston-Kuhn",
-    "HistoryId": 566,
-    "AssociateId": 384,
-    "Name": "Bogan Inc and Sons",
-    "ItemInfo": "velit",
+    "Rank": 260,
+    "Id": 618,
+    "HistoryName": "Jast-Swaniawski",
+    "HistoryId": 147,
+    "AssociateId": 593,
+    "Name": "Funk-Cartwright",
+    "ItemInfo": "quod",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 570
       }
     }
   }

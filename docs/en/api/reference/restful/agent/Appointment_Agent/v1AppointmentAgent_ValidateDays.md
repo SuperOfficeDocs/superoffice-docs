@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "vel",
-    "eius"
+    "cupiditate",
+    "nisi"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2009-11-15T13:57:11.3563104+01:00",
+    "Date": "2002-06-17T23:03:54.7516463+02:00",
     "IsConflict": true,
-    "Description": "Ergonomic modular infrastructure",
-    "DescriptionStyleHint": "Open-architected maximized knowledge base",
-    "Tooltip": "a"
+    "Description": "Fundamental actuating attitude",
+    "DescriptionStyleHint": "Persistent multi-tasking website",
+    "Tooltip": "ullam"
   },
   {
-    "Date": "2009-11-15T13:57:11.3563104+01:00",
+    "Date": "2002-06-17T23:03:54.7516463+02:00",
     "IsConflict": true,
-    "Description": "Ergonomic modular infrastructure",
-    "DescriptionStyleHint": "Open-architected maximized knowledge base",
-    "Tooltip": "a"
+    "Description": "Fundamental actuating attitude",
+    "DescriptionStyleHint": "Persistent multi-tasking website",
+    "Tooltip": "ullam"
   }
 ]
 ```

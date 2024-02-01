@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "ut"
+  "MessageId": "voluptatem"
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 481,
-      "ContactName": "Dach, Barrows and Kuhic",
-      "PersonId": 207,
-      "PersonName": "Strosin, Raynor and Kessler",
-      "AssociateId": 836,
-      "Address": "est",
-      "EmailId": 499,
+      "ContactId": 475,
+      "ContactName": "Bradtke-Hettinger",
+      "PersonId": 945,
+      "PersonName": "Kihn Inc and Sons",
+      "AssociateId": 259,
+      "Address": "iure",
+      "EmailId": 964,
       "DuplicatePersonIds": [
-        255,
-        308
+        118,
+        411
       ],
-      "Name": "Parker, Schmitt and Bradtke",
+      "Name": "Cronin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 77
+          "FieldLength": 74
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 841,
-      "ContactName": "Rice, Okuneva and Cummerata",
-      "PersonId": 597,
-      "PersonName": "Spinka LLC",
-      "AssociateId": 734,
-      "Address": "et",
-      "EmailId": 64,
+      "ContactId": 810,
+      "ContactName": "Blick-Connelly",
+      "PersonId": 270,
+      "PersonName": "Russel, Koch and Runte",
+      "AssociateId": 697,
+      "Address": "distinctio",
+      "EmailId": 306,
       "DuplicatePersonIds": [
-        383,
-        300
+        618,
+        515
       ],
-      "Name": "Schinner Group",
+      "Name": "Swaniawski-Heller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldLength": 612
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 45,
-      "ContactName": "Mann-Nikolaus",
-      "PersonId": 416,
-      "PersonName": "Kuhic-Bashirian",
-      "AssociateId": 154,
-      "Address": "qui",
-      "EmailId": 142,
+      "ContactId": 534,
+      "ContactName": "Mraz LLC",
+      "PersonId": 21,
+      "PersonName": "Smith-Hegmann",
+      "AssociateId": 912,
+      "Address": "ullam",
+      "EmailId": 311,
       "DuplicatePersonIds": [
-        528,
-        231
+        2,
+        432
       ],
-      "Name": "Skiles Inc and Sons",
+      "Name": "Bruen-Marvin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldType": "System.String",
+          "FieldLength": 325
         }
       }
     }
   ],
-  "Subject": "repellat",
-  "HTMLBody": "et",
+  "Subject": "quidem",
+  "HTMLBody": "aliquid",
   "From": null,
-  "Sent": "2023-11-07T13:57:12.246749+01:00",
-  "Size": 475,
+  "Sent": "1998-05-24T23:03:55.8881308+02:00",
+  "Size": 288,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "asperiores",
+  "MessageID": "est",
+  "PlainBody": "id",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 841,
+  "ServerId": 812,
   "Attachments": [
     {
-      "Description": "Down-sized optimal leverage",
-      "Filename": "voluptas",
-      "Size": 644,
-      "Type": "ex",
-      "Encoding": "maiores",
-      "Id": "officiis",
-      "Disposition": "et",
+      "Description": "Organized modular data-warehouse",
+      "Filename": "ut",
+      "Size": 721,
+      "Type": "quas",
+      "Encoding": "consequatur",
+      "Id": "non",
+      "Disposition": "voluptatibus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 796
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Purdy LLC",
+      "Name": "Koss-Olson",
       "Values": [
-        "quis",
-        "voluptatem"
+        "omnis",
+        "placeat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldLength": 711
         }
       }
     },
     {
-      "Name": "Purdy LLC",
+      "Name": "Koss-Olson",
       "Values": [
-        "quis",
-        "voluptatem"
+        "omnis",
+        "placeat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldLength": 711
         }
       }
     }
   ],
-  "FolderName": "Prohaska LLC",
-  "EmailItemId": 690,
-  "AccountId": 219,
-  "ReceivedAt": "2017-10-22T13:57:12.246749+02:00",
+  "FolderName": "Champlin LLC",
+  "EmailItemId": 962,
+  "AccountId": 996,
+  "ReceivedAt": "2010-01-19T23:03:55.8886317+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-08-27T13:57:12.246749+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2019-08-26T23:03:55.8886317+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   }
 }

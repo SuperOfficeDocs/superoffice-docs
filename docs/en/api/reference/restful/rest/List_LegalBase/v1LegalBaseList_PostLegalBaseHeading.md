@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 590,
-  "Name": "Pagac, Prosacco and Bednar",
-  "Tooltip": "qui",
+  "HeadingId": 459,
+  "Name": "Gottlieb LLC",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 586,
-  "UdListDefinitionId": 840
+  "Rank": 640,
+  "UdListDefinitionId": 829
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 942,
-  "Name": "Hoeger, Jacobs and Ratke",
-  "Tooltip": "maiores",
+  "HeadingId": 395,
+  "Name": "Gusikowski Inc and Sons",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 162,
-  "UdListDefinitionId": 499,
+  "Rank": 744,
+  "UdListDefinitionId": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldType": "System.String",
+      "FieldLength": 727
     }
   }
 }

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 68,
+  "TargetDimensionId": 91,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "unde",
-  "DimensionListName": "Mayert-Bins",
-  "DimensionListId": 955,
-  "DimensionListLabel": "dolores",
+  "DimensionListField": "molestias",
+  "DimensionListName": "Weimann Group",
+  "DimensionListId": 676,
+  "DimensionListLabel": "totam",
   "SelectedDimensions": [
-    424,
-    120
+    232,
+    749
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 169,
+  "TargetDimensionId": 674,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "voluptate",
-  "DimensionListName": "Balistreri-Boyer",
-  "DimensionListId": 816,
-  "DimensionListLabel": "nisi",
+  "DimensionListField": "sed",
+  "DimensionListName": "Marks-Zemlak",
+  "DimensionListId": 842,
+  "DimensionListLabel": "sint",
   "SelectedDimensions": [
-    118,
-    332
+    719,
+    540
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   }
 }

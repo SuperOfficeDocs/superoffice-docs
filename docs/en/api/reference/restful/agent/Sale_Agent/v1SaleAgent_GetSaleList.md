@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Barrows, Spinka and Crona",
-    "SaleDate": "2001-05-28T13:57:13.1757129+02:00",
-    "SaleId": 996,
-    "Probability": 303,
-    "Title": "soluta",
-    "Amount": 16321.872,
-    "Currency": "eos",
-    "ProjectName": "Jacobs-Predovic",
-    "AssociateFullName": "Eduardo Alford Mosciski Sr.",
-    "Description": "Secured methodical local area network",
+    "ContactName": "Quigley, Gorczany and Hoppe",
+    "SaleDate": "2006-07-10T23:03:56.9196159+02:00",
+    "SaleId": 636,
+    "Probability": 875,
+    "Title": "rerum",
+    "Amount": 10439.354,
+    "Currency": "cumque",
+    "ProjectName": "Paucek, Rice and Thompson",
+    "AssociateFullName": "Ottilie Grant",
+    "Description": "Organized bottom-line project",
     "Status": "Lost",
-    "WeightedAmount": 31311.793999999998,
-    "ProjectId": 309,
-    "EarningPercent": 4973.6579999999994,
-    "Earning": 22991.023999999998,
-    "ContactId": 438,
-    "AssociateId": 659,
-    "PersonId": 943,
-    "SaleTypeId": 463,
-    "SaleTypeName": "Ullrich LLC",
-    "PersonFullName": "Hildegard Aufderhar",
+    "WeightedAmount": 7574.878,
+    "ProjectId": 681,
+    "EarningPercent": 5587.922,
+    "Earning": 24689.652,
+    "ContactId": 358,
+    "AssociateId": 517,
+    "PersonId": 689,
+    "SaleTypeId": 667,
+    "SaleTypeName": "Cummings-Turcotte",
+    "PersonFullName": "Pablo Sauer",
     "Completed": "Completed",
-    "ActiveErpLinks": 842,
-    "NextDueDate": "2012-02-05T13:57:13.1757129+01:00",
-    "Number": "1218501",
+    "ActiveErpLinks": 979,
+    "NextDueDate": "2023-06-07T23:03:56.9201167+02:00",
+    "Number": "1528693",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldLength": 611
       }
     }
   }

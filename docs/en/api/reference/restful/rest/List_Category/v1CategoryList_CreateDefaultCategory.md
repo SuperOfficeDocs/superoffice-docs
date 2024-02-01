@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 196,
-  "Name": "Maggio-Hermiston",
-  "Tooltip": "nostrum",
-  "Deleted": false,
-  "UdListDefinitionId": 511,
-  "Rank": 691,
+  "Id": 271,
+  "Name": "Nitzsche-Jenkins",
+  "Tooltip": "non",
+  "Deleted": true,
+  "UdListDefinitionId": 772,
+  "Rank": 539,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 170
+      "FieldType": "System.Int32",
+      "FieldLength": 552
     }
   }
 }

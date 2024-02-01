@@ -71,7 +71,7 @@ OK
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Senger Inc and Sons",
-  "DisplayName": "Parker Inc and Sons",
-  "Description": "Automated tertiary contingency",
-  "ShortLabel": "eaque",
+  "FieldName": "Ryan LLC",
+  "DisplayName": "Paucek, Streich and Johnson",
+  "Description": "Assimilated 3rd generation protocol",
+  "ShortLabel": "nobis",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 679,
-  "TemplateVariableName": "Emmerich Inc and Sons"
+  "IsExternal": false,
+  "Rank": 602,
+  "TemplateVariableName": "Feeney, Simonis and Feeney"
 }
 ```

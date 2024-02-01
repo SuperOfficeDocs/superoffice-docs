@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "velit",
+  "ProgId": "nemo",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 448,
-  "ColumnId": 11,
-  "FieldDefault": "cupiditate",
-  "FieldHeight": 319,
-  "FieldLabel": "omnis",
-  "FieldLeft": 52,
-  "FieldTop": 118,
+  "UDefFieldId": 873,
+  "ColumnId": 961,
+  "FieldDefault": "rem",
+  "FieldHeight": 552,
+  "FieldLabel": "magnam",
+  "FieldLeft": 499,
+  "FieldTop": 794,
   "FieldType": "Checkbox",
-  "FieldWidth": 393,
-  "FormatMask": "omnis",
+  "FieldWidth": 241,
+  "FormatMask": "quo",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 42,
-  "LabelLeft": 801,
-  "LabelTop": 999,
-  "LabelWidth": 724,
-  "LastVersionId": 584,
-  "ListTableId": 893,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 485,
+  "LabelLeft": 974,
+  "LabelTop": 56,
+  "LabelWidth": 364,
+  "LastVersionId": 139,
+  "ListTableId": 655,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 825,
-  "ProgId": "doloribus",
+  "Page1LineNo": 52,
+  "ProgId": "perspiciatis",
   "IsReadOnly": false,
-  "ShortLabel": "distinctio",
-  "TabOrder": 588,
-  "TextLength": 726,
-  "Tooltip": "quis",
-  "UdefIdentity": 488,
-  "UDListDefinitionId": 948,
+  "ShortLabel": "qui",
+  "TabOrder": 284,
+  "TextLength": 540,
+  "Tooltip": "adipisci",
+  "UdefIdentity": 780,
+  "UDListDefinitionId": 432,
   "Justification": "Center",
-  "Version": 302,
-  "TemplateVariableName": "Buckridge, Rutherford and Hauck",
-  "HasBeenPublished": false,
-  "MdoListName": "Parisian Group",
+  "Version": 469,
+  "TemplateVariableName": "Gusikowski, Renner and Armstrong",
+  "HasBeenPublished": true,
+  "MdoListName": "McLaughlin-McGlynn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 409
     }
   }
 }

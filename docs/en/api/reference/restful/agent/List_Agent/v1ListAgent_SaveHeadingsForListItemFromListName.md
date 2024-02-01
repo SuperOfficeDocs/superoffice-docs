@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bartoletti, Berge and Schinner",
-  "ListItemId": 660,
+  "UdListDefinitionName": "Stracke, Hudson and Hand",
+  "ListItemId": 883,
   "Headings": [
     {
-      "Id": 577,
-      "Name": "Corwin-Haag",
-      "ToolTip": "Ad ratione sit facere aut molestiae.",
+      "Id": 950,
+      "Name": "Fritsch, Goldner and Abernathy",
+      "ToolTip": "Repellendus tenetur minus consequatur et.",
       "Deleted": true,
-      "Rank": 776,
-      "Type": "voluptas",
-      "ColorBlock": 114,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2016-08-30T13:57:12.5286589+02:00",
+      "Rank": 688,
+      "Type": "animi",
+      "ColorBlock": 705,
+      "IconHint": "aperiam",
+      "Selected": false,
+      "LastChanged": "2003-04-10T23:03:56.2236269+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "placeat",
-      "Hidden": false,
-      "FullName": "Winona Eichmann"
+      "ExtraInfo": "dignissimos",
+      "StyleHint": "exercitationem",
+      "Hidden": true,
+      "FullName": "Rosella Schroeder III"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "Bauch-Langosh",
-    "ToolTip": "Quia debitis omnis suscipit.",
+    "Id": 841,
+    "Name": "Fadel Inc and Sons",
+    "ToolTip": "Hic eaque sit sed quia.",
     "Deleted": false,
-    "Rank": 858,
-    "Type": "recusandae",
-    "ColorBlock": 992,
-    "IconHint": "itaque",
+    "Rank": 859,
+    "Type": "qui",
+    "ColorBlock": 897,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2011-07-30T13:57:12.5286589+02:00",
+    "LastChanged": "2010-01-06T23:03:56.2246337+01:00",
     "ChildItems": [
       {
-        "Id": 307,
-        "Name": "Braun, Little and Harris",
-        "ToolTip": "Soluta sint blanditiis magnam.",
-        "Deleted": true,
-        "Rank": 717,
-        "Type": "enim",
-        "ColorBlock": 778,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2019-02-02T13:57:12.5286589+01:00",
+        "Id": 529,
+        "Name": "Rolfson-Swift",
+        "ToolTip": "Aspernatur quod voluptatem aliquam repellat.",
+        "Deleted": false,
+        "Rank": 984,
+        "Type": "nisi",
+        "ColorBlock": 981,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2020-12-02T23:03:56.2251253+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "dolor",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mrs. Clementine Wisozk",
+        "FullName": "Beryl Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 949
+            "FieldLength": 857
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Mary Monahan",
+    "ExtraInfo": "quasi",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Icie Margie Cronin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldType": "System.String",
+        "FieldLength": 922
       }
     }
   }

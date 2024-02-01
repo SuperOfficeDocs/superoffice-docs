@@ -27,7 +27,7 @@ Calls the Appointment agent service GetAllTaskListItem.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Task/Items?includeDeleted=False
+GET /api/v1/List/Task/Items?includeDeleted=True
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 22,
-    "Value": "saepe",
+    "TaskListItemId": 162,
+    "Value": "dolorem",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "saepe",
-    "Deleted": false,
-    "IntentId": 794,
-    "Rank": 702,
-    "IsDefaultAlldayEvent": false,
+    "Tooltip": "est",
+    "Deleted": true,
+    "IntentId": 584,
+    "Rank": 601,
+    "IsDefaultAlldayEvent": true,
     "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldType": "System.String",
+        "FieldLength": 876
       }
     }
   }

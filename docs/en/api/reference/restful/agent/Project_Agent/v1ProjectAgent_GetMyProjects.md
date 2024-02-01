@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 727,
-    "Name": "Runolfsson-Auer",
-    "Description": "Cross-group optimal matrix",
+    "ProjectId": 859,
+    "Name": "Zulauf-DuBuque",
+    "Description": "Enhanced even-keeled collaboration",
     "URL": "http://www.example.com/",
-    "Type": "debitis",
-    "AssociateId": 275,
-    "AssociateFullName": "Marcelina Witting",
-    "TypeId": 358,
-    "Updated": "2022-05-13T13:57:13.0011314+02:00",
-    "StatusId": 480,
-    "Status": "corporis",
-    "TextId": 462,
-    "PublishTo": "2001-01-25T13:57:13.0011314+01:00",
-    "PublishFrom": "2005-09-08T13:57:13.0011314+02:00",
+    "Type": "temporibus",
+    "AssociateId": 152,
+    "AssociateFullName": "Kathryn Hills",
+    "TypeId": 239,
+    "Updated": "2022-04-17T23:03:56.6831194+02:00",
+    "StatusId": 895,
+    "Status": "repudiandae",
+    "TextId": 912,
+    "PublishTo": "2001-06-26T23:03:56.6831194+02:00",
+    "PublishFrom": "2008-06-16T23:03:56.6831194+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "504908",
-    "ActiveErpLinks": 817,
+    "ProjectNumber": "1648067",
+    "ActiveErpLinks": 236,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 434
       }
     }
   }

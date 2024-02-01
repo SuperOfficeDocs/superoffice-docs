@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 386,
-  "AppointmentId": 370,
-  "ProjectId": 247,
-  "SaleId": 99,
-  "Archived": false,
-  "ArchivedAt": "2018-04-19T13:57:12.2779931+02:00",
-  "ArchivedBy": 902,
-  "ArchivedDisplayName": "Heathcote Group",
+  "DocumentId": 438,
+  "AppointmentId": 284,
+  "ProjectId": 922,
+  "SaleId": 718,
+  "Archived": true,
+  "ArchivedAt": "2018-04-08T23:03:55.9331294+02:00",
+  "ArchivedBy": 908,
+  "ArchivedDisplayName": "Kuvalis-Sawayn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 217
     }
   }
 }

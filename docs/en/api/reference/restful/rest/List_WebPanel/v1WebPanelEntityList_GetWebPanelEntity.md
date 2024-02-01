@@ -73,6 +73,7 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | bool | If set to true, the content will not reload on current changes, only applies to sidepanels |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -92,33 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 481,
-  "Name": "Considine, Stroman and Stokes",
-  "Tooltip": "ad",
+  "WebPanelId": 286,
+  "Name": "Christiansen Inc and Sons",
+  "Tooltip": "numquam",
   "Deleted": true,
-  "Rank": 279,
+  "Rank": 86,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Robel, Jakubowski and Bahringer",
+  "WindowName": "Legros-Hudson",
   "Url": "http://www.example.com/",
-  "ProgId": "omnis",
-  "Icon": 990,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "eaque",
+  "Icon": 551,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 694
     }
   }
 }

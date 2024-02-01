@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "ratione",
-  "MinDate": "2005-02-27T13:57:12.7812532+01:00",
-  "MaxDate": "2017-06-16T13:57:12.7812532+02:00"
+  "LastHash": "ut",
+  "MinDate": "2000-07-10T23:03:56.586121+02:00",
+  "MaxDate": "2003-06-29T23:03:56.586121+02:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "molestias",
+  "CallerIDHash": "cum",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 891,
-      "PersonId": 604,
-      "PersonName": "Cruickshank-O'Keefe",
-      "Mrmrs": "rerum",
-      "ContactId": 81,
-      "ContactName": "Kassulke-Rau"
+      "DialInPrefix": 298,
+      "PersonId": 420,
+      "PersonName": "Mante, Konopelski and Runte",
+      "Mrmrs": "aliquam",
+      "ContactId": 374,
+      "ContactName": "Kemmer Group"
     }
   ]
 }

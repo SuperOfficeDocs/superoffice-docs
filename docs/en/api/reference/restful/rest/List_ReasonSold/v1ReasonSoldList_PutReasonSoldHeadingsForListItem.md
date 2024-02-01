@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Conroy Inc and Sons",
-    "ToolTip": "Quo et similique tempora consequatur eius veniam distinctio.",
+    "Id": 107,
+    "Name": "Kreiger-Bergstrom",
+    "ToolTip": "Excepturi vitae dignissimos iste cupiditate.",
     "Deleted": false,
-    "Rank": 775,
-    "Type": "quod",
-    "ColorBlock": 502,
-    "IconHint": "mollitia",
+    "Rank": 723,
+    "Type": "dignissimos",
+    "ColorBlock": 346,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2013-05-17T13:57:20.0952749+02:00",
+    "LastChanged": "2022-04-19T23:04:05.7679954+02:00",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Schultz LLC",
-        "ToolTip": "Veritatis nam veniam exercitationem maxime quod dolore.",
-        "Deleted": true,
-        "Rank": 251,
-        "Type": "non",
-        "ColorBlock": 334,
-        "IconHint": "nam",
+        "Id": 342,
+        "Name": "Goodwin, Volkman and Zemlak",
+        "ToolTip": "Nam enim modi explicabo soluta.",
+        "Deleted": false,
+        "Rank": 971,
+        "Type": "eos",
+        "ColorBlock": 523,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2007-02-02T13:57:20.0952749+01:00",
+        "LastChanged": "2022-09-23T23:04:05.7679954+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Federico Howell Stracke Jr."
+        "ExtraInfo": "adipisci",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Alessia Katrine Haley V"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Etha Littel"
+    "ExtraInfo": "iusto",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Ryleigh Mraz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "McLaughlin Inc and Sons",
-    "ToolTip": "Iusto asperiores est exercitationem et error.",
+    "Id": 189,
+    "Name": "Kub-Effertz",
+    "ToolTip": "Dolores harum dolor quasi quis eveniet modi fuga.",
     "Deleted": false,
-    "Rank": 44,
-    "Type": "earum",
-    "ColorBlock": 248,
-    "IconHint": "dicta",
-    "Selected": true,
-    "LastChanged": "2003-07-01T13:57:20.0952749+02:00",
+    "Rank": 23,
+    "Type": "id",
+    "ColorBlock": 71,
+    "IconHint": "voluptatibus",
+    "Selected": false,
+    "LastChanged": "2002-01-02T23:04:05.7694962+01:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Daugherty-Schneider",
-        "ToolTip": "Nobis ad quisquam qui id unde illo.",
-        "Deleted": true,
-        "Rank": 291,
-        "Type": "architecto",
-        "ColorBlock": 873,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "2018-06-12T13:57:20.0952749+02:00",
+        "Id": 767,
+        "Name": "Sawayn-Ondricka",
+        "ToolTip": "Aperiam nostrum magnam corporis.",
+        "Deleted": false,
+        "Rank": 914,
+        "Type": "dignissimos",
+        "ColorBlock": 841,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2003-11-09T23:04:05.7694962+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "sapiente",
-        "Hidden": true,
-        "FullName": "Prof. Lolita Olga Stoltenberg III",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "doloribus",
+        "Hidden": false,
+        "FullName": "Meaghan Morar Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "debitis",
+    "ExtraInfo": "eum",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Grover Wehner",
+    "FullName": "Maybelle Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldType": "System.String",
+        "FieldLength": 551
       }
     }
   }

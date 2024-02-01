@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 141,
-  "Name": "Bosco-Kiehn",
-  "Tooltip": "molestiae",
-  "Rank": 855,
-  "Key": "at",
-  "MailTemplateId": 163,
-  "Deleted": false,
+  "ConsentSourceId": 855,
+  "Name": "Aufderhar, Krajcik and Donnelly",
+  "Tooltip": "vitae",
+  "Rank": 190,
+  "Key": "ea",
+  "MailTemplateId": 671,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   }
 }

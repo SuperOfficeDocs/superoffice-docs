@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 540,
-    "Name": "Bergnaum Group",
-    "Tooltip": "facilis",
+    "HeadingId": 815,
+    "Name": "Fisher-Adams",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 740,
-    "UdListDefinitionId": 837
+    "Rank": 886,
+    "UdListDefinitionId": 67
   },
   {
-    "HeadingId": 540,
-    "Name": "Bergnaum Group",
-    "Tooltip": "facilis",
+    "HeadingId": 815,
+    "Name": "Fisher-Adams",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 740,
-    "UdListDefinitionId": 837
+    "Rank": 886,
+    "UdListDefinitionId": 67
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 523,
-    "Name": "Champlin Inc and Sons",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "Rank": 243,
-    "UdListDefinitionId": 311,
+    "HeadingId": 663,
+    "Name": "Wyman, King and Brekke",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 844,
+    "UdListDefinitionId": 353,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 371
+        "FieldType": "System.Int32",
+        "FieldLength": 122
       }
     }
   }

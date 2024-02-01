@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 459,
-  "SaleId": 316,
-  "QuoteConnectionId": 951,
-  "ERPQuoteKey": "iusto",
-  "ERPOrderKey": "odit",
-  "ActiveQuoteVersionId": 99,
-  "AcceptedQuoteAlternativeId": 239,
-  "UseValuesFromQuote": 214,
-  "DocumentId": 532,
-  "PoNumber": "705564",
-  "OrderComment": "aut",
-  "PreferredEmailCulture": "julien_stroman@goodwin.biz",
+  "QuoteId": 521,
+  "SaleId": 132,
+  "QuoteConnectionId": 154,
+  "ERPQuoteKey": "error",
+  "ERPOrderKey": "qui",
+  "ActiveQuoteVersionId": 478,
+  "AcceptedQuoteAlternativeId": 353,
+  "UseValuesFromQuote": 204,
+  "DocumentId": 419,
+  "PoNumber": "1405805",
+  "OrderComment": "maxime",
+  "PreferredEmailCulture": "murl_oconner@macejkovic.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 853
+      "FieldLength": 22
     }
   }
 }

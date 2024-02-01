@@ -121,7 +121,8 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
-| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| TicketType | TicketType | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| ActiveStatusMonitorId | int32 | Active status monitor identity for related contact. This is a read-only property and is ignored on Save |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -133,11 +134,11 @@ OK
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 833,
+  "TicketEntityId": 35,
   "ReadStatus": "Green",
   "CheckEscalating": false
 }
@@ -150,21 +151,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 656,
-  "Title": "quas",
-  "CreatedAt": "1996-10-29T13:57:13.3802187+01:00",
-  "LastChanged": "1998-05-05T13:57:13.3802187+02:00",
-  "ReadByOwner": "1999-04-13T13:57:13.3802187+02:00",
-  "ReadByCustomer": "2011-04-01T13:57:13.3802187+02:00",
-  "FirstReadByOwner": "2004-07-09T13:57:13.3802187+02:00",
-  "FirstReadByUser": "2013-07-12T13:57:13.3802187+02:00",
-  "Activate": "2007-09-24T13:57:13.3802187+02:00",
-  "ClosedAt": "1998-02-24T13:57:13.3802187+01:00",
-  "RepliedAt": "2017-09-18T13:57:13.3802187+02:00",
-  "AlertTimeout": "2020-01-14T13:57:13.3802187+01:00",
-  "Deadline": "2000-03-20T13:57:13.3802187+01:00",
+  "TicketId": 582,
+  "Title": "sit",
+  "CreatedAt": "2005-03-06T23:03:57.3226138+01:00",
+  "LastChanged": "2017-11-26T23:03:57.3226138+01:00",
+  "ReadByOwner": "2002-06-13T23:03:57.3226138+02:00",
+  "ReadByCustomer": "2015-07-06T23:03:57.3226138+02:00",
+  "FirstReadByOwner": "2002-01-29T23:03:57.3226138+01:00",
+  "FirstReadByUser": "2021-03-24T23:03:57.3226138+01:00",
+  "Activate": "2009-06-24T23:03:57.3226138+02:00",
+  "ClosedAt": "2000-06-09T23:03:57.3226138+02:00",
+  "RepliedAt": "1998-08-09T23:03:57.3226138+02:00",
+  "AlertTimeout": "2000-06-28T23:03:57.3226138+02:00",
+  "Deadline": "2005-07-29T23:03:57.3226138+02:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "animi",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -175,161 +176,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "aspernatur",
-      "PersonId": 878,
-      "Mrmrs": "omnis",
-      "Firstname": "Johnathan",
-      "Lastname": "Homenick",
-      "MiddleName": "Wiza Inc and Sons",
-      "Title": "perspiciatis",
-      "Description": "Function-based grid-enabled leverage",
-      "Email": "fern_sipes@collier.co.uk",
-      "FullName": "Maryse Goldner",
-      "DirectPhone": "1-066-189-6242 x8255",
-      "FormalName": "Kertzmann, Keeling and Boyer",
-      "CountryId": 723,
-      "ContactId": 577,
-      "ContactName": "Torp LLC",
-      "Retired": 901,
-      "Rank": 121,
-      "ActiveInterests": 790,
-      "ContactDepartment": "exploit collaborative synergies",
-      "ContactCountryId": 680,
-      "ContactOrgNr": "899976",
-      "FaxPhone": "254.369.9079 x76375",
-      "MobilePhone": "364-345-9948",
-      "ContactPhone": "1-062-081-0955 x722",
-      "AssociateName": "Marvin LLC",
-      "AssociateId": 277,
+      "Position": "doloremque",
+      "PersonId": 609,
+      "Mrmrs": "aperiam",
+      "Firstname": "Hermann",
+      "Lastname": "Koelpin",
+      "MiddleName": "Wuckert-Gerhold",
+      "Title": "iste",
+      "Description": "Organized attitude-oriented algorithm",
+      "Email": "jamar@dooley.com",
+      "FullName": "Hilario Abshire",
+      "DirectPhone": "438-390-1647 x596",
+      "FormalName": "Ullrich Inc and Sons",
+      "CountryId": 274,
+      "ContactId": 576,
+      "ContactName": "Walter Inc and Sons",
+      "Retired": 550,
+      "Rank": 945,
+      "ActiveInterests": 177,
+      "ContactDepartment": "",
+      "ContactCountryId": 99,
+      "ContactOrgNr": "1525472",
+      "FaxPhone": "1-389-328-8758 x455",
+      "MobilePhone": "(015)133-8656",
+      "ContactPhone": "550.022.2257",
+      "AssociateName": "Mante Inc and Sons",
+      "AssociateId": 64,
       "UsePersonAddress": true,
-      "ContactFax": "minima",
-      "Kanafname": "error",
-      "Kanalname": "ex",
-      "Post1": "aut",
-      "Post2": "molestias",
-      "Post3": "reprehenderit",
-      "EmailName": "madelynn_feeney@witting.ca",
-      "ContactFullName": "Prof. Deja Klein DVM",
-      "ActiveErpLinks": 388,
-      "TicketPriorityId": 753,
-      "SupportLanguageId": 20,
-      "SupportAssociateId": 319,
+      "ContactFax": "qui",
+      "Kanafname": "impedit",
+      "Kanalname": "est",
+      "Post1": "exercitationem",
+      "Post2": "iure",
+      "Post3": "dolor",
+      "EmailName": "marilie@cummingsschmidt.uk",
+      "ContactFullName": "Brielle McCullough",
+      "ActiveErpLinks": 481,
+      "TicketPriorityId": 154,
+      "SupportLanguageId": 940,
+      "SupportAssociateId": 477,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldType": "System.Int32",
+          "FieldLength": 139
         }
       }
     }
   ],
-  "AlertLevel": 445,
-  "ConnectId": 990,
+  "AlertLevel": 520,
+  "ConnectId": 299,
   "ReadStatus": "Green",
-  "TimeToReply": 68,
-  "RealTimeToReply": 295,
-  "TimeToClose": 186,
-  "RealTimeToClose": 404,
-  "TimeSpentInternally": 537,
-  "TimeSpentExternally": 309,
-  "TimeSpentQueue": 276,
-  "RealTimeSpentInternally": 535,
-  "RealTimeSpentExternally": 305,
-  "RealTimeSpentQueue": 686,
-  "TimeSpent": 476,
+  "TimeToReply": 81,
+  "RealTimeToReply": 291,
+  "TimeToClose": 238,
+  "RealTimeToClose": 332,
+  "TimeSpentInternally": 409,
+  "TimeSpentExternally": 882,
+  "TimeSpentQueue": 682,
+  "RealTimeSpentInternally": 75,
+  "RealTimeSpentExternally": 625,
+  "RealTimeSpentQueue": 395,
+  "TimeSpent": 884,
   "HasAttachment": true,
-  "NumReplies": 859,
-  "NumMessages": 382,
-  "FromAddress": "veritatis",
+  "NumReplies": 187,
+  "NumMessages": 411,
+  "FromAddress": "non",
   "Messages": [
     {
-      "TicketMessageId": 650,
-      "CreatedAt": "2006-07-24T13:57:13.3802187+02:00",
+      "TicketMessageId": 944,
+      "CreatedAt": "2013-10-18T23:03:57.3276106+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "qui",
-      "PersonId": 190,
-      "PersonFullName": "Esmeralda Cooper Bechtelar DVM",
-      "ContactId": 796,
-      "ContactName": "Lockman Group",
+      "Author": "voluptas",
+      "PersonId": 997,
+      "PersonFullName": "Breanna Grimes",
+      "ContactId": 133,
+      "ContactName": "Dietrich Group",
       "ContactDepartment": "",
-      "NumAttachments": 200,
-      "EmailHeader": "fannie.daniel@bode.uk",
+      "NumAttachments": 614,
+      "EmailHeader": "kiera.turcotte@larsoncole.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "accusamus",
-      "Sentiment": 535,
-      "SentimentConfidence": 288,
-      "CreatedBy": 813,
-      "ChangedAt": "2006-10-10T13:57:13.3802187+02:00",
+      "Language": "autem",
+      "Sentiment": 504,
+      "SentimentConfidence": 269,
+      "CreatedBy": 948,
+      "ChangedAt": "2011-10-10T23:03:57.3276106+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 162
+          "FieldType": "System.Int32",
+          "FieldLength": 749
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 465,
-      "Name": "Stroman LLC",
-      "ToolTip": "Ratione distinctio voluptatem velit.",
+      "Id": 716,
+      "Name": "Mante, Krajcik and Fahey",
+      "ToolTip": "Ducimus quis tenetur.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 160
         }
       }
     },
     {
-      "Id": 465,
-      "Name": "Stroman LLC",
-      "ToolTip": "Ratione distinctio voluptatem velit.",
+      "Id": 716,
+      "Name": "Mante, Krajcik and Fahey",
+      "ToolTip": "Ducimus quis tenetur.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 160
         }
       }
     }
   ],
-  "Language": "nemo",
-  "Sentiment": 887,
-  "SentimentConfidence": 88,
-  "SuggestedCategoryId": 445,
+  "Language": "dolorum",
+  "Sentiment": 228,
+  "SentimentConfidence": 936,
+  "SuggestedCategoryId": 247,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 200,
-  "IconHint": "error",
+  "OrigHumanCategoryId": 960,
+  "IconHint": "est",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
+  "ActiveStatusMonitorId": 37,
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "ullam"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "neque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 472
     }
   }
 }

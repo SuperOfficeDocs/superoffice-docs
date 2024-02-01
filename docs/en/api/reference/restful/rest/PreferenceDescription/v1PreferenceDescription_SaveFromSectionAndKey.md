@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 810,
-  "Section": "sunt",
-  "Key": "id",
-  "Name": "Koss Group",
+  "PrefDescId": 547,
+  "Section": "voluptates",
+  "Key": "praesentium",
+  "Name": "Lehner Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Mandatory non-volatile benchmark",
+  "Description": "Adaptive client-server software",
   "IsBuiltin": true,
-  "TableName": "Bauch-Borer",
-  "UserDefinedListId": 142,
-  "Rank": 682,
-  "SubGroup": "adipisci",
-  "MinLevel": 166,
-  "MaxValue": 607,
-  "MinValue": 336,
-  "RequiredLicense": "iure"
+  "TableName": "Rutherford Inc and Sons",
+  "UserDefinedListId": 119,
+  "Rank": 921,
+  "SubGroup": "blanditiis",
+  "MinLevel": 525,
+  "MaxValue": 35,
+  "MinValue": 554,
+  "RequiredLicense": "fugiat"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 331,
-  "Section": "laboriosam",
-  "Key": "quam",
-  "Name": "Kunze, Lakin and Casper",
+  "PrefDescId": 543,
+  "Section": "sint",
+  "Key": "dolor",
+  "Name": "Rippin, Lakin and Roberts",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-architected bottom-line circuit",
-  "IsBuiltin": true,
-  "TableName": "Gleichner, Schneider and Hickle",
-  "UserDefinedListId": 533,
-  "Rank": 969,
-  "SubGroup": "deleniti",
-  "MinLevel": 679,
-  "MaxValue": 926,
-  "MinValue": 616,
-  "RequiredLicense": "qui",
+  "Description": "Intuitive web-enabled array",
+  "IsBuiltin": false,
+  "TableName": "Weber-Torphy",
+  "UserDefinedListId": 776,
+  "Rank": 905,
+  "SubGroup": "quam",
+  "MinLevel": 999,
+  "MaxValue": 474,
+  "MinValue": 128,
+  "RequiredLicense": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

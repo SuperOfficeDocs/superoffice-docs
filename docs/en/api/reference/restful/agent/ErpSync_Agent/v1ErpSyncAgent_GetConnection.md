@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 45
+  "ErpConnectionId": 627
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 656,
-  "ErpConnectorId": 124,
-  "DisplayName": "Bogisich, Towne and Dickens",
-  "DisplayDescription": "Decentralized secondary concept",
+  "ErpConnectionId": 331,
+  "ErpConnectorId": 668,
+  "DisplayName": "Halvorson Group",
+  "DisplayDescription": "Switchable bandwidth-monitored utilisation",
   "Active": false,
-  "ConnectionId": "est",
-  "MostRecentTimestamp": "maxime",
+  "ConnectionId": "soluta",
+  "MostRecentTimestamp": "reiciendis",
   "ConfigFields": {
-    "ConfigFields1": "ea",
-    "ConfigFields2": "iste"
+    "ConfigFields1": "magni",
+    "ConfigFields2": "odio"
   },
-  "Deleted": false,
-  "AllAccess": true,
+  "Deleted": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    198,
-    30
+    63,
+    905
   ],
   "AssociateAccessIds": [
-    909,
-    163
+    330,
+    329
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 843
     }
   }
 }

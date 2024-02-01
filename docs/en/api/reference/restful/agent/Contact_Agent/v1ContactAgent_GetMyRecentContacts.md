@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 795,
-    "Name": "Doyle, Runte and Jakubowski",
-    "OrgNr": "1159215",
+    "ContactId": 868,
+    "Name": "Leannon, Reinger and Frami",
+    "OrgNr": "244732",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "alias",
-    "DirectPhone": "631.251.7967",
-    "AssociateId": 704,
-    "CountryId": 765,
-    "EmailAddress": "virgil@lubowitz.ca",
-    "Kananame": "nulla",
-    "EmailAddressName": "maryam@wymanweber.info",
+    "City": "aut",
+    "DirectPhone": "1-129-936-6281 x997",
+    "AssociateId": 72,
+    "CountryId": 626,
+    "EmailAddress": "bulah@nitzsche.biz",
+    "Kananame": "reprehenderit",
+    "EmailAddressName": "kelly.kemmer@bruen.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Loy Hickle",
+    "AssociateFullName": "Sigurd Pouros",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "optio",
-    "FullName": "Phyllis Grady",
+    "FormattedAddress": "consequatur",
+    "FullName": "Ulices Edward Gerlach DVM",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 939,
-    "Number1": "1425802",
-    "Number2": "510136",
+    "ActiveErpLinks": 178,
+    "Number1": "1353534",
+    "Number2": "559445",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldLength": 467
       }
     }
   }

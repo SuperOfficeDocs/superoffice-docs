@@ -468,7 +468,7 @@ Shadow contact provider for the FormSubmission provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=associate/personEmail,person/personExtra/y_rental/id,contact/contactPhone/description,contact/postAddress/county
+GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=getAllRows,associate/simultaneousEjUser,person/personExtra/x_person_appointment_relation,person/personAssociate/isActive,person/correspondingAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -76,9 +76,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 828,
-  "OldPassword": "nulla",
-  "NewPassword": "sunt"
+  "AssociateId": 970,
+  "OldPassword": "illum",
+  "NewPassword": "facilis"
 }
 ```
 

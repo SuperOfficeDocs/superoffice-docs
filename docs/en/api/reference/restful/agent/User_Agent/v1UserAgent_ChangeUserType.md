@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 776,
-  "Name": "Schultz, Kling and Hermann",
-  "Rank": 843,
-  "Tooltip": "molestias",
+  "AssociateId": 459,
+  "Name": "Fritsch, Becker and Turcotte",
+  "Rank": 657,
+  "Tooltip": "doloremque",
   "LicenseOwners": [
     {
-      "Name": "Yundt, Rogahn and Wolff",
-      "Description": "Fundamental fault-tolerant complexity",
+      "Name": "Bernhard, Wolff and Bartoletti",
+      "Description": "Implemented mission-critical moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 410
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     },
     {
-      "Name": "Yundt, Rogahn and Wolff",
-      "Description": "Fundamental fault-tolerant complexity",
+      "Name": "Bernhard, Wolff and Bartoletti",
+      "Description": "Implemented mission-critical moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 410
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "occaecati",
-      "Tooltip": "vel",
-      "Id": 19,
-      "Rank": 496,
+      "Value": "itaque",
+      "Tooltip": "recusandae",
+      "Id": 625,
+      "Rank": 151,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 653
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2021-12-22T13:57:13.48959+01:00",
-  "Lastlogout": "2017-08-20T13:57:13.48959+02:00",
-  "EjUserId": 817,
-  "RequestSignature": "corrupti",
+  "Lastlogin": "2002-08-30T23:03:57.4936124+02:00",
+  "Lastlogout": "2013-07-24T23:03:57.4936124+02:00",
+  "EjUserId": 83,
+  "RequestSignature": "dolor",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "mollitia",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 533
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "rerum",
-      "DisplayValue": "mollitia",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 533
-        }
-      }
-    }
-  ],
-  "UserName": "Mayer Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 595,
-      "Name": "Jewess, Rosenbaum and Corkery",
-      "ToolTip": "Dolorum eos laboriosam aut est accusantium.",
-      "Deleted": false,
-      "Rank": 718,
-      "Type": "est",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "qui",
-      "ColorBlock": 307,
-      "ExtraInfo": "ullam",
-      "StyleHint": "aliquid",
-      "FullName": "Ms. Coby Gerhold DDS",
+      "Value": "dolorum",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 967
+          "FieldLength": 904
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "dolorum",
+      "DisplayValue": "voluptas",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 904
         }
       }
     }
   ],
-  "NickName": "Nitzsche Inc and Sons",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "expedita"
-  },
-  "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "autem"
-  },
-  "PostSaveCommands": [
+  "UserName": "Graham-Brown",
+  "TicketCategories": [
     {
-      "Name": "Reichert Inc and Sons",
-      "DisplayName": "Corkery, Rippin and West",
-      "Description": "User-centric bi-directional paradigm",
-      "ToolTip": "Voluptatum dolorem veniam et officiis ad aliquid autem.",
-      "Actions": "Implicit",
-      "ActionData": "iure",
+      "Id": 743,
+      "Name": "Bartoletti-Stanton",
+      "ToolTip": "Amet doloremque.",
+      "Deleted": true,
+      "Rank": 497,
+      "Type": "quo",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "ut",
+      "ColorBlock": 597,
+      "ExtraInfo": "numquam",
+      "StyleHint": "qui",
+      "FullName": "Magnus Labadie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 521
+        }
+      }
+    }
+  ],
+  "NickName": "Homenick Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "earum",
+    "ExtraFields2": "labore"
+  },
+  "CustomFields": {
+    "CustomFields1": "provident",
+    "CustomFields2": "ducimus"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Denesik, Heidenreich and Schimmel",
+      "DisplayName": "Hyatt Inc and Sons",
+      "Description": "De-engineered motivating contingency",
+      "ToolTip": "Est eos numquam saepe nulla reprehenderit sint laborum.",
+      "Actions": "Implicit",
+      "ActionData": "voluptatibus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 837
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 278
     }
   }
 }

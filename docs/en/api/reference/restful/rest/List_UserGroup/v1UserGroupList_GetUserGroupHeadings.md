@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 658,
-    "Name": "Schoen-Altenwerth",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 913,
-    "UdListDefinitionId": 527,
+    "HeadingId": 309,
+    "Name": "Pfeffer-Barrows",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 137,
+    "UdListDefinitionId": 920,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 888
       }
     }
   }

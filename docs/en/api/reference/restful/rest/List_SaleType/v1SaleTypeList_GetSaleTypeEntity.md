@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 481,
-  "Name": "Goyette Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 400,
+  "SaleTypeId": 1002,
+  "Name": "Swift, Mills and Miller",
+  "Tooltip": "hic",
+  "Rank": 187,
   "DurationUnit": "Century",
-  "SaleDuration": 595,
-  "SaleTypeCatId": 528,
+  "SaleDuration": 361,
+  "SaleTypeCatId": 128,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 504,
-  "QuoteLinesTemplate": 913,
-  "ConfirmationLinesTemplate": 223,
+  "DefaultQuoteValidity": 21,
+  "QuoteLinesTemplate": 107,
+  "ConfirmationLinesTemplate": 801,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 758,
-  "MinEarningPercent": 76,
-  "GroupQuoteLinesBy": 5,
-  "SortGroupLinesBy": 171,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 328,
+  "MinEarningPercent": 688,
+  "GroupQuoteLinesBy": 750,
+  "SortGroupLinesBy": 447,
   "Stages": [
     {
-      "Id": 352,
-      "Name": "Beier-Reichert",
-      "ToolTip": "Voluptatibus ipsam.",
+      "Id": 595,
+      "Name": "Spinka, Blick and O'Hara",
+      "ToolTip": "Animi corporis ipsa.",
       "Deleted": true,
-      "Rank": 413,
-      "Type": "est",
-      "ColorBlock": 932,
-      "IconHint": "nesciunt",
-      "Selected": false,
-      "LastChanged": "2022-05-06T13:57:20.1109105+02:00",
+      "Rank": 473,
+      "Type": "quia",
+      "ColorBlock": 768,
+      "IconHint": "atque",
+      "Selected": true,
+      "LastChanged": "2022-04-20T23:04:05.795495+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "assumenda",
-      "StyleHint": "deleniti",
+      "ExtraInfo": "sit",
+      "StyleHint": "voluptatibus",
       "Hidden": false,
-      "FullName": "Jayde Stiedemann",
+      "FullName": "Durward Armstrong",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldLength": 751
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 791
     }
   }
 }

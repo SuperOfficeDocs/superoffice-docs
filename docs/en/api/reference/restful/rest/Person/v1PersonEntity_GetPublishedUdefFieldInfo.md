@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 65,
-  "ColumnId": 252,
-  "FieldDefault": "debitis",
-  "FieldHeight": 116,
-  "FieldLabel": "nemo",
-  "FieldLeft": 682,
-  "FieldTop": 772,
+  "UDefFieldId": 815,
+  "ColumnId": 909,
+  "FieldDefault": "fugiat",
+  "FieldHeight": 965,
+  "FieldLabel": "necessitatibus",
+  "FieldLeft": 457,
+  "FieldTop": 126,
   "FieldType": "Checkbox",
-  "FieldWidth": 285,
-  "FormatMask": "modi",
+  "FieldWidth": 716,
+  "FormatMask": "quidem",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 624,
-  "LabelLeft": 899,
-  "LabelTop": 761,
-  "LabelWidth": 486,
-  "LastVersionId": 217,
-  "ListTableId": 466,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 123,
+  "LabelLeft": 557,
+  "LabelTop": 340,
+  "LabelWidth": 152,
+  "LastVersionId": 512,
+  "ListTableId": 558,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 67,
-  "ProgId": "voluptas",
+  "Page1LineNo": 29,
+  "ProgId": "perferendis",
   "IsReadOnly": false,
-  "ShortLabel": "culpa",
-  "TabOrder": 428,
-  "TextLength": 125,
-  "Tooltip": "rerum",
-  "UdefIdentity": 7,
-  "UDListDefinitionId": 976,
+  "ShortLabel": "illum",
+  "TabOrder": 717,
+  "TextLength": 109,
+  "Tooltip": "nisi",
+  "UdefIdentity": 561,
+  "UDListDefinitionId": 538,
   "Justification": "Center",
-  "Version": 648,
-  "TemplateVariableName": "Monahan, Wisozk and Murphy",
+  "Version": 549,
+  "TemplateVariableName": "Brown LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Kertzmann, Labadie and Beahan",
+  "MdoListName": "Weimann Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldLength": 641
     }
   }
 }

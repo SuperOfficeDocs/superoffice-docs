@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 174,
-  "NewName": "Lehner-Cartwright",
-  "ValidFrom": "2013-02-25T13:57:13.0492694+01:00",
-  "ValidTo": "2014-10-20T13:57:13.0492694+02:00",
-  "NewCurrencyId": 885,
+  "OriginalPriceListId": 827,
+  "NewName": "Braun, Wiegand and Greenfelder",
+  "ValidFrom": "1997-04-08T23:03:56.7461186+02:00",
+  "ValidTo": "2005-11-16T23:03:56.7461186+01:00",
+  "NewCurrencyId": 970,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 504,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 903,
-  "Name": "Bernhard-Schulist",
-  "Description": "Intuitive fault-tolerant standardization",
-  "Currency": "enim",
-  "CurrencyName": "Ryan, Harvey and VonRueden",
-  "ValidFrom": "2007-05-18T13:57:13.0492694+02:00",
-  "ValidTo": "2023-12-07T13:57:13.0492694+01:00",
-  "IsActive": false,
+  "PriceListId": 165,
+  "ERPPriceListKey": "sapiente",
+  "QuoteConnectionId": 39,
+  "Name": "Monahan, Stracke and Jacobs",
+  "Description": "Universal clear-thinking internet solution",
+  "Currency": "vero",
+  "CurrencyName": "Kovacek Group",
+  "ValidFrom": "2023-05-15T23:03:56.7461186+02:00",
+  "ValidTo": "2020-04-23T23:03:56.7466189+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldType": "System.String",
+      "FieldLength": 961
     }
   }
 }

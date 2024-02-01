@@ -98,16 +98,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Zulauf-Reichert",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "Rank": 465,
+  "Id": 908,
+  "Name": "Daugherty Group",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 942,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "saepe",
-  "InUseByUserDefinedFields": true
+  "ListType": "est",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 159,
-  "Name": "Schulist Inc and Sons",
-  "Tooltip": "cumque",
+  "Id": 600,
+  "Name": "Crooks, Rogahn and O'Connell",
+  "Tooltip": "at",
   "Deleted": true,
-  "Rank": 870,
+  "Rank": 788,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "excepturi",
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldType": "System.String",
+      "FieldLength": 187
     }
   },
   "_Links": {

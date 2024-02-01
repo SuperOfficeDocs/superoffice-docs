@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quis"
+  "UniqueIdentifier": "similique"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "iste",
-  "Name": "Sawayn Group",
-  "Description": "Decentralized mobile system engine",
-  "IncludeId": "odit",
-  "Source": "perferendis",
-  "Registered": "2009-10-17T13:57:11.9967528+02:00",
-  "RegisteredBy": "perspiciatis",
-  "Updated": "2011-04-03T13:57:11.9967528+02:00",
-  "UpdatedBy": "perferendis",
-  "Path": "pariatur",
+  "UniqueIdentifier": "aut",
+  "Name": "Barton-Buckridge",
+  "Description": "Cross-group interactive artificial intelligence",
+  "IncludeId": "hic",
+  "Source": "rerum",
+  "Registered": "2012-12-24T23:03:55.5731352+01:00",
+  "RegisteredBy": "saepe",
+  "Updated": "2018-05-04T23:03:55.5731352+02:00",
+  "UpdatedBy": "nobis",
+  "Path": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 384
     }
   }
 }

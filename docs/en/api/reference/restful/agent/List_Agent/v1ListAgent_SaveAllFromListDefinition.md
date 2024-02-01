@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 119,
+  "UdListDefinitionId": 719,
   "Items": [
     {
-      "Id": 795,
-      "Name": "Bode-Kuhn",
-      "Tooltip": "quo",
-      "Deleted": false,
-      "UdListDefinitionId": 878,
-      "Rank": 257
+      "Id": 145,
+      "Name": "Parker-Schultz",
+      "Tooltip": "architecto",
+      "Deleted": true,
+      "UdListDefinitionId": 444,
+      "Rank": 467
     },
     {
-      "Id": 795,
-      "Name": "Bode-Kuhn",
-      "Tooltip": "quo",
-      "Deleted": false,
-      "UdListDefinitionId": 878,
-      "Rank": 257
+      "Id": 145,
+      "Name": "Parker-Schultz",
+      "Tooltip": "architecto",
+      "Deleted": true,
+      "UdListDefinitionId": 444,
+      "Rank": 467
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Name": "Schoen Inc and Sons",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 670,
-    "Rank": 315,
+    "Id": 187,
+    "Name": "Kshlerin, Rutherford and Dickinson",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 850,
+    "Rank": 611,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldType": "System.Int32",
+        "FieldLength": 800
       }
     }
   }

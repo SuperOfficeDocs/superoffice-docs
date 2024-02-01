@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 328,
+    "TargetDimensionId": 690,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "odit",
-    "DimensionListName": "Koelpin-Hessel",
-    "DimensionListId": 25,
-    "DimensionListLabel": "nam",
+    "DimensionListField": "consequatur",
+    "DimensionListName": "Trantow Group",
+    "DimensionListId": 59,
+    "DimensionListLabel": "facilis",
     "SelectedDimensions": [
-      781,
-      902
+      368,
+      281
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldType": "System.String",
+        "FieldLength": 739
       }
     }
   }

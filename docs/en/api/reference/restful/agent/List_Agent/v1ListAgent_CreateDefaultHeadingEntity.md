@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 665,
-  "Name": "Sauer, Stokes and Jacobs",
-  "Tooltip": "et",
+  "HeadingId": 882,
+  "Name": "Kshlerin-Powlowski",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 119,
-  "UdListDefinitionId": 379,
+  "Rank": 269,
+  "UdListDefinitionId": 709,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 582,
-  "Name": "Kohler, Moore and Weimann",
-  "Tooltip": "fugit",
-  "PassiveText": "provident",
+  "ReldefId": 276,
+  "Name": "Lehner-Pollich",
+  "Tooltip": "hic",
+  "PassiveText": "dolores",
   "Deleted": false,
-  "Rank": 542,
+  "Rank": 127,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldLength": 879
     }
   },
   "_Links": {

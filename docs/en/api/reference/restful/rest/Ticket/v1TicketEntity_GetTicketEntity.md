@@ -118,7 +118,8 @@ TicketEntity found.
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
-| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| TicketType | TicketType | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| ActiveStatusMonitorId | int32 | Active status monitor identity for related contact. This is a read-only property and is ignored on Save |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -141,21 +142,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 270,
-  "Title": "dolorem",
-  "CreatedAt": "2005-06-15T13:57:19.3283997+02:00",
-  "LastChanged": "2008-04-14T13:57:19.3283997+02:00",
-  "ReadByOwner": "2019-03-17T13:57:19.3283997+01:00",
-  "ReadByCustomer": "2013-05-03T13:57:19.3283997+02:00",
-  "FirstReadByOwner": "2018-06-25T13:57:19.3283997+02:00",
-  "FirstReadByUser": "2021-11-05T13:57:19.3283997+01:00",
-  "Activate": "2008-08-05T13:57:19.3283997+02:00",
-  "ClosedAt": "2004-03-01T13:57:19.3283997+01:00",
-  "RepliedAt": "2008-09-07T13:57:19.3283997+02:00",
-  "AlertTimeout": "2018-06-20T13:57:19.3283997+02:00",
-  "Deadline": "2021-10-13T13:57:19.3283997+02:00",
+  "TicketId": 235,
+  "Title": "consectetur",
+  "CreatedAt": "2014-06-28T23:04:04.8645085+02:00",
+  "LastChanged": "2003-04-11T23:04:04.8645085+02:00",
+  "ReadByOwner": "1998-12-12T23:04:04.8645085+01:00",
+  "ReadByCustomer": "1997-11-08T23:04:04.8645085+01:00",
+  "FirstReadByOwner": "2000-09-23T23:04:04.8645085+02:00",
+  "FirstReadByUser": "2021-11-08T23:04:04.8645085+01:00",
+  "Activate": "1997-06-28T23:04:04.8645085+02:00",
+  "ClosedAt": "2006-08-10T23:04:04.8645085+02:00",
+  "RepliedAt": "2018-08-14T23:04:04.8645085+02:00",
+  "AlertTimeout": "2005-08-18T23:04:04.8645085+02:00",
+  "Deadline": "2023-09-03T23:04:04.8645085+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "dolor",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -166,166 +167,167 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sit",
-      "PersonId": 848,
-      "Mrmrs": "sunt",
-      "Firstname": "Angela",
-      "Lastname": "Schmitt",
-      "MiddleName": "Funk, Block and Fritsch",
-      "Title": "quo",
-      "Description": "Expanded mission-critical array",
-      "Email": "donald_glover@towne.biz",
-      "FullName": "Leora Edgardo Gutkowski DDS",
-      "DirectPhone": "(204)098-3595 x4902",
-      "FormalName": "Hills Inc and Sons",
-      "CountryId": 461,
-      "ContactId": 412,
-      "ContactName": "Lemke Inc and Sons",
-      "Retired": 723,
-      "Rank": 768,
-      "ActiveInterests": 402,
+      "Position": "nesciunt",
+      "PersonId": 32,
+      "Mrmrs": "quod",
+      "Firstname": "Marcelina",
+      "Lastname": "Walker",
+      "MiddleName": "Stokes LLC",
+      "Title": "molestias",
+      "Description": "Managed needs-based conglomeration",
+      "Email": "jayme_cormier@strosinhermiston.us",
+      "FullName": "Iva Jewess DVM",
+      "DirectPhone": "1-082-695-2104 x768",
+      "FormalName": "Reinger, Funk and Bins",
+      "CountryId": 262,
+      "ContactId": 214,
+      "ContactName": "Reichel LLC",
+      "Retired": 33,
+      "Rank": 194,
+      "ActiveInterests": 918,
       "ContactDepartment": "",
-      "ContactCountryId": 982,
-      "ContactOrgNr": "593473",
-      "FaxPhone": "843-220-7438 x8575",
-      "MobilePhone": "(097)574-5812",
-      "ContactPhone": "(101)730-7491 x83438",
-      "AssociateName": "Baumbach, Cummings and Feil",
-      "AssociateId": 251,
+      "ContactCountryId": 185,
+      "ContactOrgNr": "290348",
+      "FaxPhone": "(853)926-7048",
+      "MobilePhone": "316.710.5161 x0820",
+      "ContactPhone": "309-069-6947 x757",
+      "AssociateName": "Lebsack Group",
+      "AssociateId": 775,
       "UsePersonAddress": false,
-      "ContactFax": "quasi",
-      "Kanafname": "qui",
-      "Kanalname": "commodi",
-      "Post1": "eligendi",
-      "Post2": "necessitatibus",
-      "Post3": "voluptatum",
-      "EmailName": "tavares.orn@lowe.biz",
-      "ContactFullName": "Mrs. Rowland Laisha Leffler",
-      "ActiveErpLinks": 970,
-      "TicketPriorityId": 792,
-      "SupportLanguageId": 860,
-      "SupportAssociateId": 487,
+      "ContactFax": "asperiores",
+      "Kanafname": "repellat",
+      "Kanalname": "quae",
+      "Post1": "laboriosam",
+      "Post2": "quia",
+      "Post3": "aspernatur",
+      "EmailName": "marcelo_schulist@beahan.name",
+      "ContactFullName": "Ms. Nico Savion Kuhlman Sr.",
+      "ActiveErpLinks": 153,
+      "TicketPriorityId": 287,
+      "SupportLanguageId": 28,
+      "SupportAssociateId": 145,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldType": "System.String",
+          "FieldLength": 61
         }
       }
     }
   ],
-  "AlertLevel": 586,
-  "ConnectId": 725,
+  "AlertLevel": 248,
+  "ConnectId": 114,
   "ReadStatus": "Green",
-  "TimeToReply": 622,
-  "RealTimeToReply": 137,
-  "TimeToClose": 948,
-  "RealTimeToClose": 492,
-  "TimeSpentInternally": 725,
-  "TimeSpentExternally": 301,
-  "TimeSpentQueue": 26,
-  "RealTimeSpentInternally": 41,
-  "RealTimeSpentExternally": 624,
-  "RealTimeSpentQueue": 830,
-  "TimeSpent": 908,
+  "TimeToReply": 145,
+  "RealTimeToReply": 468,
+  "TimeToClose": 211,
+  "RealTimeToClose": 714,
+  "TimeSpentInternally": 899,
+  "TimeSpentExternally": 378,
+  "TimeSpentQueue": 146,
+  "RealTimeSpentInternally": 190,
+  "RealTimeSpentExternally": 297,
+  "RealTimeSpentQueue": 274,
+  "TimeSpent": 934,
   "HasAttachment": false,
-  "NumReplies": 654,
-  "NumMessages": 205,
-  "FromAddress": "inventore",
+  "NumReplies": 1001,
+  "NumMessages": 12,
+  "FromAddress": "dignissimos",
   "Messages": [
     {
-      "TicketMessageId": 919,
-      "CreatedAt": "2017-03-19T13:57:19.3283997+01:00",
+      "TicketMessageId": 42,
+      "CreatedAt": "2009-11-24T23:04:04.8690107+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "fuga",
-      "PersonId": 345,
-      "PersonFullName": "Kellen Mante",
-      "ContactId": 880,
-      "ContactName": "Kuhlman-Feest",
+      "Important": true,
+      "Author": "fugiat",
+      "PersonId": 241,
+      "PersonFullName": "Karen Swift",
+      "ContactId": 703,
+      "ContactName": "Crooks, Kris and Kling",
       "ContactDepartment": "",
-      "NumAttachments": 248,
-      "EmailHeader": "chester@crona.co.uk",
+      "NumAttachments": 999,
+      "EmailHeader": "bartholome_dach@braun.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "non",
-      "Sentiment": 463,
-      "SentimentConfidence": 159,
-      "CreatedBy": 234,
-      "ChangedAt": "2011-03-24T13:57:19.3283997+01:00",
+      "Language": "nemo",
+      "Sentiment": 546,
+      "SentimentConfidence": 45,
+      "CreatedBy": 982,
+      "ChangedAt": "2020-06-28T23:04:04.8695099+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldType": "System.String",
+          "FieldLength": 142
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 454,
-      "Name": "Balistreri, Collins and Zboncak",
-      "ToolTip": "Ex corrupti odio deserunt rem eaque et dolores.",
+      "Id": 387,
+      "Name": "Turcotte, Thompson and Carter",
+      "ToolTip": "Amet est veniam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 261
         }
       }
     },
     {
-      "Id": 454,
-      "Name": "Balistreri, Collins and Zboncak",
-      "ToolTip": "Ex corrupti odio deserunt rem eaque et dolores.",
+      "Id": 387,
+      "Name": "Turcotte, Thompson and Carter",
+      "ToolTip": "Amet est veniam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 261
         }
       }
     }
   ],
-  "Language": "et",
-  "Sentiment": 858,
-  "SentimentConfidence": 224,
-  "SuggestedCategoryId": 974,
+  "Language": "aliquam",
+  "Sentiment": 600,
+  "SentimentConfidence": 532,
+  "SuggestedCategoryId": 679,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 103,
-  "IconHint": "voluptatem",
+  "OrigHumanCategoryId": 340,
+  "IconHint": "aspernatur",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
+  "ActiveStatusMonitorId": 314,
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "in"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "officia"
+    "CustomFields1": "ipsa",
+    "CustomFields2": "pariatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

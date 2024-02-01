@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 224,
-  "LookupAddresses": true,
+  "MessageServerId": 649,
+  "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": false
 }
@@ -125,147 +125,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 740,
-      "ContactName": "Veum-Jones",
-      "PersonId": 838,
-      "PersonName": "Harvey, Purdy and Durgan",
-      "AssociateId": 833,
-      "Address": "eius",
-      "EmailId": 994,
+      "ContactId": 672,
+      "ContactName": "Abbott-Mitchell",
+      "PersonId": 568,
+      "PersonName": "Heidenreich-Wyman",
+      "AssociateId": 149,
+      "Address": "cumque",
+      "EmailId": 281,
       "DuplicatePersonIds": [
-        328,
-        616
+        479,
+        110
       ],
-      "Name": "Prosacco-Mann",
+      "Name": "Wilkinson, McKenzie and Emard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 289
+          "FieldType": "System.Int32",
+          "FieldLength": 768
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 607,
-      "ContactName": "Larson, Lubowitz and Roberts",
-      "PersonId": 885,
-      "PersonName": "Kohler Inc and Sons",
-      "AssociateId": 80,
-      "Address": "perspiciatis",
-      "EmailId": 298,
+      "ContactId": 788,
+      "ContactName": "Bosco LLC",
+      "PersonId": 406,
+      "PersonName": "Stiedemann-Heidenreich",
+      "AssociateId": 362,
+      "Address": "voluptas",
+      "EmailId": 469,
       "DuplicatePersonIds": [
-        798,
-        828
+        687,
+        148
       ],
-      "Name": "Herman Group",
+      "Name": "Heidenreich-Swaniawski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldLength": 52
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 625,
-      "ContactName": "Schamberger-Rowe",
-      "PersonId": 1002,
-      "PersonName": "Olson-Macejkovic",
-      "AssociateId": 581,
-      "Address": "quae",
-      "EmailId": 618,
+      "ContactId": 577,
+      "ContactName": "Hand LLC",
+      "PersonId": 2,
+      "PersonName": "Jones Group",
+      "AssociateId": 404,
+      "Address": "atque",
+      "EmailId": 319,
       "DuplicatePersonIds": [
-        140,
-        3
+        413,
+        251
       ],
-      "Name": "Beahan, Ondricka and Emard",
+      "Name": "Dietrich-Crist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldLength": 54
         }
       }
     }
   ],
-  "Subject": "distinctio",
-  "HTMLBody": "consequuntur",
+  "Subject": "voluptate",
+  "HTMLBody": "explicabo",
   "From": null,
-  "Sent": "2010-02-02T13:57:12.2936203+01:00",
-  "Size": 708,
+  "Sent": "2022-02-17T23:03:55.9621316+01:00",
+  "Size": 214,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "impedit",
-  "PlainBody": "pariatur",
+  "MessageID": "dolorem",
+  "PlainBody": "non",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 722,
+  "ServerId": 528,
   "Attachments": [
     {
-      "Description": "Open-source context-sensitive installation",
-      "Filename": "pariatur",
-      "Size": 850,
-      "Type": "consequuntur",
-      "Encoding": "reiciendis",
-      "Id": "aliquid",
-      "Disposition": "quibusdam",
-      "IsSafeFileExtension": false,
+      "Description": "Ameliorated responsive open architecture",
+      "Filename": "nam",
+      "Size": 234,
+      "Type": "animi",
+      "Encoding": "quaerat",
+      "Id": "quia",
+      "Disposition": "voluptatem",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 235
+          "FieldType": "System.Int32",
+          "FieldLength": 111
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Durgan-O'Hara",
+      "Name": "Boehm LLC",
       "Values": [
-        "ut",
-        "molestias"
+        "autem",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 610
         }
       }
     },
     {
-      "Name": "Durgan-O'Hara",
+      "Name": "Boehm LLC",
       "Values": [
-        "ut",
-        "molestias"
+        "autem",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 610
         }
       }
     }
   ],
-  "FolderName": "Hickle LLC",
-  "EmailItemId": 133,
-  "AccountId": 676,
-  "ReceivedAt": "2016-05-22T13:57:12.2936203+02:00",
+  "FolderName": "Stoltenberg-Ondricka",
+  "EmailItemId": 83,
+  "AccountId": 695,
+  "ReceivedAt": "1996-12-11T23:03:55.9621316+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-11-13T13:57:12.2936203+01:00",
+  "RepliedAt": "2014-12-19T23:03:55.9621316+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 874
     }
   }
 }

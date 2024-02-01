@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "earum",
-  "LineNumber": 61,
+  "ErrorMessage": "et",
+  "LineNumber": 231,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 737
     }
   }
 }

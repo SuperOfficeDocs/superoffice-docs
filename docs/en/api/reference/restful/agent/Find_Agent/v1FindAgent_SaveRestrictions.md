@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nihil",
-  "ProviderName": "Heidenreich, Ledner and Heidenreich",
-  "StorageKey": "ipsum",
+  "StorageType": "et",
+  "ProviderName": "Pollich-Kovacek",
+  "StorageKey": "omnis",
   "Restrictions": [
     {
-      "Name": "Heathcote-Cormier",
-      "Operator": "ut",
+      "Name": "Treutel Group",
+      "Operator": "sint",
       "Values": [
-        "labore",
-        "cum"
+        "et",
+        "iusto"
       ],
       "DisplayValues": [
-        "ea",
-        "reiciendis"
+        "aut",
+        "nemo"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 186,
+      "InterParenthesis": 269,
       "InterOperator": "And",
-      "UniqueHash": 815
+      "UniqueHash": 292
     }
   ]
 }

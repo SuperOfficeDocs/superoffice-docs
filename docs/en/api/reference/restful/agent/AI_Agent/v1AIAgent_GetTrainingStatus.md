@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/AI/GetTrainingStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,7 +79,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ContextIdentifier": "et",
-  "Status": "placeat",
+  "Status": "et",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 717
+      "FieldLength": 232
     }
   }
 }

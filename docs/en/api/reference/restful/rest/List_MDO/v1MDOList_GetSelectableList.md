@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=quae
+GET /api/v1/MDOList/{listname}/selectable?additional=magnam
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Mann-Hartmann",
-    "ToolTip": "Dicta dicta occaecati officiis facere saepe debitis.",
-    "Deleted": false,
-    "Rank": 87,
-    "Type": "autem",
-    "ColorBlock": 752,
+    "Id": 223,
+    "Name": "Schmidt-Beatty",
+    "ToolTip": "Sunt corporis placeat ut dolor iusto ratione a.",
+    "Deleted": true,
+    "Rank": 926,
+    "Type": "qui",
+    "ColorBlock": 620,
     "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2018-06-10T13:57:19.7815186+02:00",
+    "Selected": false,
+    "LastChanged": "2015-08-10T23:04:05.5125012+02:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Hyatt-Anderson",
-        "ToolTip": "Asperiores possimus iure debitis corporis debitis et commodi.",
-        "Deleted": true,
-        "Rank": 140,
-        "Type": "voluptas",
-        "ColorBlock": 397,
-        "IconHint": "animi",
-        "Selected": false,
-        "LastChanged": "2018-10-18T13:57:19.7815186+02:00",
+        "Id": 774,
+        "Name": "Batz-Toy",
+        "ToolTip": "Autem omnis aut quaerat impedit fuga voluptatum.",
+        "Deleted": false,
+        "Rank": 300,
+        "Type": "sequi",
+        "ColorBlock": 654,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2013-09-17T23:04:05.5125012+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "omnis",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Carlos Becker",
+        "FullName": "Dr. Sammie Audrey Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 905
+            "FieldType": "System.Int32",
+            "FieldLength": 461
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "voluptates",
-    "Hidden": true,
-    "FullName": "Dr. Brooke Chester Okuneva Jr.",
+    "ExtraInfo": "est",
+    "StyleHint": "nesciunt",
+    "Hidden": false,
+    "FullName": "Fae Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 233
+        "FieldLength": 334
       }
     }
   }

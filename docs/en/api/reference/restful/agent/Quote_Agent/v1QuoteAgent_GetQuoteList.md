@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "omnis"
+  "QuoteListType": "minus"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "accusantium",
-    "DisplayValue": "libero",
-    "DisplayDescription": "Focused uniform paradigm",
+    "ERPQuoteListItemKey": "molestiae",
+    "DisplayValue": "nesciunt",
+    "DisplayDescription": "Cross-group disintermediate architecture",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "accusantium",
-    "DisplayValue": "libero",
-    "DisplayDescription": "Focused uniform paradigm",
+    "ERPQuoteListItemKey": "molestiae",
+    "DisplayValue": "nesciunt",
+    "DisplayDescription": "Cross-group disintermediate architecture",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   }

@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "numquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "numquam",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 8,
-  "Name": "Morar Group",
-  "Tooltip": "suscipit",
-  "PassiveText": "fugiat",
-  "Deleted": false,
-  "Rank": 790,
+  "ReldefId": 402,
+  "Name": "Koss, Bosco and Kuhlman",
+  "Tooltip": "accusantium",
+  "PassiveText": "quisquam",
+  "Deleted": true,
+  "Rank": 663,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 1000
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 157,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2013-05-20T13:57:12.074872+02:00",
-  "EndTime": "2011-05-13T13:57:12.074872+02:00",
-  "Count": 819
+  "PersonId": 453,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2019-05-18T23:03:55.6676351+02:00",
+  "EndTime": "1998-01-07T23:03:55.6681328+01:00",
+  "Count": 335
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 488,
-    "Attention": "hic",
-    "Header": "nesciunt",
-    "Name": "Erdman, Morissette and Jast",
+    "DocumentId": 25,
+    "Attention": "et",
+    "Header": "doloremque",
+    "Name": "Breitenberg, Franecki and Lang",
     "OurRef": "est",
-    "YourRef": "atque",
-    "Description": "Profound next generation productivity",
-    "DocumentTemplate": "tempore",
+    "YourRef": "voluptates",
+    "Description": "Decentralized real-time Graphic Interface",
+    "DocumentTemplate": "sit",
     "IsPublished": false,
-    "PersonId": 570,
-    "PersonFullName": "Odie Hodkiewicz III",
-    "AssociateFullName": "Will Robert Hickle I",
-    "ContactId": 906,
-    "ContactName": "Denesik LLC",
-    "ProjectId": 869,
-    "ProjectName": "Windler-Pfannerstill",
-    "AssociateId": 217,
-    "Snum": 611,
-    "SaleId": 80,
-    "SaleName": "Goyette-Kris",
+    "PersonId": 710,
+    "PersonFullName": "Summer Koepp",
+    "AssociateFullName": "Miss Ambrose Schuyler Legros",
+    "ContactId": 919,
+    "ContactName": "Corwin Group",
+    "ProjectId": 842,
+    "ProjectName": "Shields-Kohler",
+    "AssociateId": 657,
+    "Snum": 430,
+    "SaleId": 118,
+    "SaleName": "Weber, Raynor and Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 782
       }
     }
   }

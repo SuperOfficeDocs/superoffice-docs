@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 593
+  "PrefDescId": 757
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 466,
-    "PrefDescId": 259,
-    "PrefValue": "sit",
-    "PrefShowValue": "consequatur",
-    "Description": "Right-sized 24 hour emulation",
-    "IsBuiltin": false,
+    "PrefDescLineId": 536,
+    "PrefDescId": 392,
+    "PrefValue": "maiores",
+    "PrefShowValue": "labore",
+    "Description": "Multi-lateral systematic standardization",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 649
       }
     }
   }

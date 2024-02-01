@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 104,
-  "Name": "Senger-Brekke",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "Rank": 383,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "Id": 928,
+  "Name": "Bogan, Hand and Wisozk",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "Rank": 379,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 738,
-  "Name": "Yost Inc and Sons",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "Rank": 726,
-  "IsCustomList": true,
+  "Id": 694,
+  "Name": "Rogahn, Gutmann and Aufderhar",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "Rank": 331,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "soluta",
-  "InUseByUserDefinedFields": false,
+  "ListType": "molestias",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 394
     }
   }
 }

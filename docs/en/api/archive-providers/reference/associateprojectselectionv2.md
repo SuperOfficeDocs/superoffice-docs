@@ -779,7 +779,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectSelectionV2?$select=projectPublish/isPublished,projectMember/personAssociate/contactCategory,projectMember/activeErpLinks,projectMember/contactAssociate/ejUserId,projectMember/contactAssociate/otherGroups
+GET /api/v1/archive/AssociateProjectSelectionV2?$select=sale/associate/isActiveText,appointment/appointmentUdef/SuperOffice:4,document/associate/middleName,projectMember/supportAssociate,projectMember/restrictionAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

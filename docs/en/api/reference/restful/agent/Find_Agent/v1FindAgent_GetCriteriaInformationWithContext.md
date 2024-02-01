@@ -86,14 +86,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vero",
-  "ProviderName": "Yundt-Gutkowski",
-  "StorageKey": "dolores",
+  "StorageType": "aliquid",
+  "ProviderName": "Hermann-Tillman",
+  "StorageKey": "eveniet",
   "StaticColumns": [
-    "officia",
-    "ullam"
+    "nemo",
+    "ut"
   ],
-  "Context": "esse"
+  "Context": "cum"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Flatley-Lindgren",
-      "Operator": "exercitationem",
+      "Name": "Graham Group",
+      "Operator": "qui",
       "Values": [
-        "deleniti",
-        "rerum"
+        "minima",
+        "officia"
       ],
       "DisplayValues": [
-        "et",
-        "rerum"
+        "unde",
+        "eos"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 674,
+      "InterParenthesis": 874,
       "InterOperator": "And",
-      "UniqueHash": 450
+      "UniqueHash": 651
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kuvalis-Reinger",
-      "DisplayTooltip": "aut",
-      "DisplayType": "quam",
+      "DisplayName": "Lowe LLC",
+      "DisplayTooltip": "quod",
+      "DisplayType": "nostrum",
       "CanOrderBy": true,
-      "Name": "Orn Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "fugit",
-      "RestrictionListName": "Walter, Wyman and Boyer",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "ipsa",
-      "IconHint": "totam",
-      "HeadingIconHint": "libero"
+      "Name": "Welch-Pouros",
+      "CanRestrictBy": true,
+      "RestrictionType": "enim",
+      "RestrictionListName": "Murray, Reilly and Kuhn",
+      "IsVisible": false,
+      "ExtraInfo": "recusandae",
+      "Width": "optio",
+      "IconHint": "doloremque",
+      "HeadingIconHint": "velit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Sanford-Armstrong",
-      "PrimaryKey": 630,
+      "EntityName": "Balistreri LLC",
+      "PrimaryKey": 512,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "deleniti",
-          "TooltipHint": "architecto",
-          "LinkHint": "perspiciatis"
+          "DisplayValue": "inventore",
+          "TooltipHint": "eaque",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "sit",
+      "LinkHint": "culpa",
+      "StyleHint": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 344
+          "FieldLength": 935
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Crona, Kihn and Barton",
-      "Description": "Cross-group systematic attitude",
-      "Rank": 195,
+      "Name": "Howell-Veum",
+      "Description": "Multi-lateral tangible migration",
+      "Rank": 999,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Crona, Kihn and Barton",
-      "Description": "Cross-group systematic attitude",
-      "Rank": 195,
+      "Name": "Howell-Veum",
+      "Description": "Multi-lateral tangible migration",
+      "Rank": 999,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 425
     }
   }
 }

@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "expedita",
-  "LineNumber": 383,
+  "ErrorMessage": "a",
+  "LineNumber": 391,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldLength": 399
     }
   }
 }

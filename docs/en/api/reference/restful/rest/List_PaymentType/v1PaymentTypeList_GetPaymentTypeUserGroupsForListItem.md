@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Hyatt Group",
-    "ToolTip": "Consequuntur enim esse.",
-    "Deleted": true,
-    "Rank": 683,
-    "Type": "dolorem",
-    "ColorBlock": 964,
-    "IconHint": "nihil",
+    "Id": 221,
+    "Name": "Ankunding-Lang",
+    "ToolTip": "Illo aut laudantium minima non.",
+    "Deleted": false,
+    "Rank": 196,
+    "Type": "cum",
+    "ColorBlock": 197,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2002-09-11T13:57:19.8127681+02:00",
+    "LastChanged": "2001-09-28T23:04:05.5529989+02:00",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Corwin, McCullough and Deckow",
-        "ToolTip": "Est dolore eaque in aut commodi omnis quae.",
-        "Deleted": false,
-        "Rank": 324,
-        "Type": "enim",
-        "ColorBlock": 313,
-        "IconHint": "reprehenderit",
+        "Id": 704,
+        "Name": "Doyle Group",
+        "ToolTip": "Numquam voluptas sunt vero quod voluptatem.",
+        "Deleted": true,
+        "Rank": 30,
+        "Type": "et",
+        "ColorBlock": 553,
+        "IconHint": "ex",
         "Selected": true,
-        "LastChanged": "2004-08-30T13:57:19.8127681+02:00",
+        "LastChanged": "2020-09-10T23:04:05.5535001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "perferendis",
-        "Hidden": false,
-        "FullName": "Henri Turcotte",
+        "ExtraInfo": "cumque",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Dr. Seamus Schmitt I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldLength": 196
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
+    "ExtraInfo": "qui",
+    "StyleHint": "minima",
     "Hidden": true,
-    "FullName": "Oren Arch Stamm I",
+    "FullName": "Summer Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 786
       }
     }
   }

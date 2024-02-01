@@ -82,8 +82,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "fuga",
-  "From": "et",
+  "SmtpUri": "ut",
+  "From": "deserunt",
   "UseStoredPassword": true
 }
 ```
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "ErrorMessage": "quae",
+  "ErrorMessage": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldLength": 603
     }
   }
 }

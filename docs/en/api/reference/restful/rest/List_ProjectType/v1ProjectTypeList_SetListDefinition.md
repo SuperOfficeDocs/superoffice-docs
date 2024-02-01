@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 288,
-  "Name": "Olson LLC",
-  "Tooltip": "beatae",
+  "Id": 530,
+  "Name": "Bode LLC",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 562,
+  "Rank": 824,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "reiciendis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 363,
-  "Name": "Gottlieb Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 77,
+  "Name": "Terry-Boehm",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 441,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": false,
+  "Rank": 993,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "recusandae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 562
     }
   }
 }

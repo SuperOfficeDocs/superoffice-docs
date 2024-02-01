@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "neque",
-  "ProviderName": "Bergnaum-Bailey",
-  "StorageKey": "qui",
-  "Restrictions": "at",
-  "StaticColumns": "veritatis"
+  "StorageType": "nostrum",
+  "ProviderName": "Schumm, Langworth and Hodkiewicz",
+  "StorageKey": "molestiae",
+  "Restrictions": "cum",
+  "StaticColumns": "voluptatum"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hodkiewicz, Schaefer and Satterfield",
-      "Operator": "illo",
+      "Name": "Jacobs, Schaefer and Hagenes",
+      "Operator": "quisquam",
       "Values": [
-        "soluta",
-        "culpa"
+        "qui",
+        "earum"
       ],
       "DisplayValues": [
-        "ut",
-        "et"
+        "vel",
+        "sunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 826,
+      "InterParenthesis": 241,
       "InterOperator": "And",
-      "UniqueHash": 342
+      "UniqueHash": 488
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Brakus, Botsford and Hirthe",
-      "DisplayTooltip": "asperiores",
-      "DisplayType": "quia",
-      "CanOrderBy": true,
-      "Name": "Bayer Group",
+      "DisplayName": "Bayer Inc and Sons",
+      "DisplayTooltip": "assumenda",
+      "DisplayType": "provident",
+      "CanOrderBy": false,
+      "Name": "Nolan-Grimes",
       "CanRestrictBy": false,
-      "RestrictionType": "earum",
-      "RestrictionListName": "Kertzmann Inc and Sons",
+      "RestrictionType": "eaque",
+      "RestrictionListName": "Jakubowski, Jacobi and Schamberger",
       "IsVisible": false,
-      "ExtraInfo": "reiciendis",
-      "Width": "corrupti",
-      "IconHint": "ipsam",
+      "ExtraInfo": "placeat",
+      "Width": "similique",
+      "IconHint": "est",
       "HeadingIconHint": "eos"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Volkman LLC",
-      "PrimaryKey": 403,
+      "EntityName": "Hayes, Batz and Wunsch",
+      "PrimaryKey": 234,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consectetur",
-          "TooltipHint": "est",
-          "LinkHint": "voluptate"
+          "DisplayValue": "nisi",
+          "TooltipHint": "eos",
+          "LinkHint": "expedita"
         }
       },
-      "LinkHint": "harum",
-      "StyleHint": "nobis",
+      "LinkHint": "architecto",
+      "StyleHint": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 209
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bradtke LLC",
-      "Description": "Cross-group leading edge flexibility",
-      "Rank": 107,
+      "Name": "Boyer-Mayert",
+      "Description": "Optimized bifurcated intranet",
+      "Rank": 147,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bradtke LLC",
-      "Description": "Cross-group leading edge flexibility",
-      "Rank": 107,
+      "Name": "Boyer-Mayert",
+      "Description": "Optimized bifurcated intranet",
+      "Rank": 147,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=placeat
+GET /api/v1/List/DocumentTemplate/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Nolan, Bahringer and Brekke",
-    "ToolTip": "Non expedita aut quia quia esse.",
+    "Id": 126,
+    "Name": "Schaden-Okuneva",
+    "ToolTip": "Autem voluptatem distinctio non.",
     "Deleted": true,
-    "Rank": 657,
-    "Type": "doloribus",
+    "Rank": 469,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Cormier, Tremblay and Kemmer",
-        "ToolTip": "Laboriosam in dolorum cum modi libero.",
+        "Id": 257,
+        "Name": "Adams Group",
+        "ToolTip": "Aut distinctio sed iusto voluptatum tempore officiis.",
         "Deleted": false,
-        "Rank": 843,
-        "Type": "quo",
+        "Rank": 909,
+        "Type": "similique",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 626,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "quam",
-        "FullName": "Adah Lakin",
+        "IconHint": "quia",
+        "ColorBlock": 405,
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "et",
+        "FullName": "Nathen Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 887
           }
         }
       }
     ],
-    "IconHint": "eaque",
-    "ColorBlock": 570,
-    "ExtraInfo": "vitae",
-    "StyleHint": "libero",
-    "FullName": "Mr. Yasmeen Rozella Ondricka PhD",
+    "IconHint": "iste",
+    "ColorBlock": 462,
+    "ExtraInfo": "quis",
+    "StyleHint": "iste",
+    "FullName": "Mr. Ethelyn London Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldType": "System.String",
+        "FieldLength": 387
       }
     }
   }

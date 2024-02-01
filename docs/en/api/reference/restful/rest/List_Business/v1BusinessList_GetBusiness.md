@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 201,
-  "Name": "Schumm, Hand and McCullough",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "UdListDefinitionId": 868,
-  "Rank": 526,
+  "Id": 121,
+  "Name": "Nicolas-Boyer",
+  "Tooltip": "aperiam",
+  "Deleted": false,
+  "UdListDefinitionId": 965,
+  "Rank": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldLength": 495
     }
   }
 }

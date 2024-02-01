@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 483,
-    "ParentId": 856,
-    "Name": "Pfannerstill, Erdman and Emard",
-    "Fullname": "autem",
-    "CategoryMaster": 830,
+    "TicketCategoryId": 298,
+    "ParentId": 394,
+    "Name": "Kuhn Group",
+    "Fullname": "quia",
+    "CategoryMaster": 219,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Hansen-Labadie",
+    "ExternalName": "Kessler, Walter and Jaskolski",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 383,
-    "ReplyTemplate": 605,
-    "NotificationEmail": "fay.kassulke@kertzmann.co.uk",
+    "AssignmentLag": 662,
+    "ReplyTemplate": 676,
+    "NotificationEmail": "rory_jacobs@mcclureschulist.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 859,
+    "EffectiveReplyTemplateId": 144,
     "ExtraFields": {
-      "ExtraFields1": "eveniet",
-      "ExtraFields2": "et"
+      "ExtraFields1": "praesentium",
+      "ExtraFields2": "autem"
     },
     "CustomFields": {
-      "CustomFields1": "officia",
-      "CustomFields2": "laboriosam"
+      "CustomFields1": "eum",
+      "CustomFields2": "eum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 609
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

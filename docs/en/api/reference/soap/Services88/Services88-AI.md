@@ -311,10 +311,12 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetChatbotResponse">
         <xs:complexType>
           <xs:sequence>
+            <xs:element minOccurs="0" name="ChatId" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="IsoLangCode" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="UserPrompt" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="PreviousTurns" nillable="true" type="tns:ArrayOfChatbotTurn" />
+            <xs:element minOccurs="0" name="ApiUrl" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -365,9 +367,7 @@ title: Services88.AIAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="IsoLangCode" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="SoProtocol" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="CurrentContactId" type="xs:int" />
-            <xs:element minOccurs="0" name="CurrentPersonId" type="xs:int" />
-            <xs:element minOccurs="0" name="CurrentProjectId" type="xs:int" />
+            <xs:element minOccurs="0" name="CurrentId" type="xs:int" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -376,6 +376,32 @@ title: Services88.AIAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ChatbotTurn" />
           </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetChatbotTurns">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ChatId" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetChatbotTurnsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfChatbotTurn" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ClearChatbotTurns">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ChatId" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ClearChatbotTurnsResponse">
+        <xs:complexType>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="DetectLanguage">
@@ -734,6 +760,40 @@ title: Services88.AIAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetChatbotTurnsRequest">
+    <wsdl:part name="parameters" element="tns:GetChatbotTurns" />
+  </wsdl:message>
+  <wsdl:message name="GetChatbotTurnsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetChatbotTurnsResponse">
+    <wsdl:part name="parameters" element="tns:GetChatbotTurnsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetChatbotTurnsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ClearChatbotTurnsRequest">
+    <wsdl:part name="parameters" element="tns:ClearChatbotTurns" />
+  </wsdl:message>
+  <wsdl:message name="ClearChatbotTurnsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ClearChatbotTurnsResponse">
+    <wsdl:part name="parameters" element="tns:ClearChatbotTurnsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ClearChatbotTurnsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="DetectLanguageRequest">
     <wsdl:part name="parameters" element="tns:DetectLanguage" />
   </wsdl:message>
@@ -937,6 +997,14 @@ title: Services88.AIAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GetChatbotPromptSuggestions" name="GetChatbotPromptSuggestionsRequest" message="tns:GetChatbotPromptSuggestionsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GetChatbotPromptSuggestionsResponse" name="GetChatbotPromptSuggestionsResponse" message="tns:GetChatbotPromptSuggestionsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetChatbotTurns">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GetChatbotTurns" name="GetChatbotTurnsRequest" message="tns:GetChatbotTurnsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GetChatbotTurnsResponse" name="GetChatbotTurnsResponse" message="tns:GetChatbotTurnsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearChatbotTurns">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/ClearChatbotTurns" name="ClearChatbotTurnsRequest" message="tns:ClearChatbotTurnsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/ClearChatbotTurnsResponse" name="ClearChatbotTurnsResponse" message="tns:ClearChatbotTurnsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="DetectLanguage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/DetectLanguage" name="DetectLanguageRequest" message="tns:DetectLanguageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/DetectLanguageResponse" name="DetectLanguageResponse" message="tns:DetectLanguageResponse" />
@@ -1105,6 +1173,38 @@ title: Services88.AIAgent WSDL
         <soap:header message="tns:GetChatbotPromptSuggestionsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetChatbotPromptSuggestionsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetChatbotPromptSuggestionsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChatbotTurns">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/GetChatbotTurns" style="document" />
+      <wsdl:input name="GetChatbotTurnsRequest">
+        <soap:header message="tns:GetChatbotTurnsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetChatbotTurnsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetChatbotTurnsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetChatbotTurnsResponse">
+        <soap:header message="tns:GetChatbotTurnsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetChatbotTurnsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetChatbotTurnsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetChatbotTurnsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearChatbotTurns">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/ClearChatbotTurns" style="document" />
+      <wsdl:input name="ClearChatbotTurnsRequest">
+        <soap:header message="tns:ClearChatbotTurnsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ClearChatbotTurnsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ClearChatbotTurnsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ClearChatbotTurnsResponse">
+        <soap:header message="tns:ClearChatbotTurnsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ClearChatbotTurnsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ClearChatbotTurnsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ClearChatbotTurnsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Torphy Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 325,
+  "Name": "Leannon-Doyle",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 96,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 355,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "ListType": "delectus",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848,
-  "Name": "Pouros, King and Fahey",
-  "Tooltip": "laboriosam",
+  "Id": 162,
+  "Name": "Fritsch-O'Keefe",
+  "Tooltip": "aspernatur",
   "Deleted": true,
-  "Rank": 412,
+  "Rank": 761,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "inventore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldType": "System.Int32",
+      "FieldLength": 261
     }
   }
 }

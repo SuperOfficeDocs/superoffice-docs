@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 849,
-  "Name": "Zemlak, Keeling and Hayes",
-  "AssociateId": 98,
-  "DetailsTable": 748,
-  "DetailsRecord": 908,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 635,
+  "Name": "Bergstrom-Connelly",
+  "AssociateId": 77,
+  "DetailsTable": 911,
+  "DetailsRecord": 224,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
     "ParameterObject1": "sunt",
-    "ParameterObject2": "sunt"
+    "ParameterObject2": "officia"
   },
-  "LastStarted": "2021-03-10T13:57:11.5594343+01:00",
-  "Created": "2006-04-11T13:57:11.5594343+02:00",
-  "StartCount": 395,
-  "DatabaseSerialNumber": "994548",
-  "Context": "dolor",
-  "Result": "porro",
+  "LastStarted": "2022-08-18T23:03:55.020644+02:00",
+  "Created": "2018-04-01T23:03:55.020644+02:00",
+  "StartCount": 686,
+  "DatabaseSerialNumber": "759576",
+  "Context": "sit",
+  "Result": "id",
   "State": "All",
-  "Description": "Customizable hybrid initiative",
-  "Response": "error",
-  "Request": "totam",
-  "ProgressDescription": "Distributed transitional challenge",
-  "ProgressPercent": 689,
-  "FileName": "Bode Group",
+  "Description": "Programmable 24/7 challenge",
+  "Response": "amet",
+  "Request": "dignissimos",
+  "ProgressDescription": "Synergistic transitional structure",
+  "ProgressPercent": 257,
+  "FileName": "Kreiger LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 151
     }
   }
 }

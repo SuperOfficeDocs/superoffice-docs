@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=fugit
-GET /api/v1/Contact?$top=784
-GET /api/v1/Contact?$skip=757
+GET /api/v1/Contact?$entities=quaerat
+GET /api/v1/Contact?$top=120
+GET /api/v1/Contact?$skip=821
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=ratione
+GET /api/v1/Contact?$context=unde
 GET /api/v1/Contact?$format=JSON
 GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "molestiae",
   "value": [
     {
-      "PrimaryKey": 4069,
+      "PrimaryKey": 4639,
       "EntityName": "person",
-      "personId": 4069,
-      "fullName": "Alice Lockman"
+      "personId": 4639,
+      "fullName": "Mrs. Donna Terry MD"
     },
     {
-      "PrimaryKey": 9788,
+      "PrimaryKey": 4440,
       "EntityName": "person",
-      "personId": 9788,
-      "fullName": "Ofelia Block"
+      "personId": 4440,
+      "fullName": "Reina Jacobi"
     }
   ]
 }

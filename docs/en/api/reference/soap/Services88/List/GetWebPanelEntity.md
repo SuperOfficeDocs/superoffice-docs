@@ -84,6 +84,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:ProgId xsi:type="xsd:string"></List:ProgId>
     <List:Icon xsi:type="xsd:short">0</List:Icon>
     <List:AlwaysReloadOnShow xsi:type="xsd:boolean">false</List:AlwaysReloadOnShow>
+    <List:NeverReloadOnCurrentChange xsi:type="xsd:boolean">false</List:NeverReloadOnCurrentChange>
    </List:Response>
   </List:GetWebPanelEntityResponse>
  </SOAP-ENV:Body>

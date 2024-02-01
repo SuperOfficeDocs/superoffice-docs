@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kilback, Hoppe and Dickinson",
-  "Id": 750
+  "HistoryName": "Moore Group",
+  "Id": 793
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 898,
-  "Id": 319,
-  "HistoryName": "Daugherty, Hegmann and Feil",
-  "HistoryId": 618,
-  "AssociateId": 281,
-  "Name": "Harber Inc and Sons",
-  "ItemInfo": "quia",
+  "Rank": 524,
+  "Id": 197,
+  "HistoryName": "Parker, McGlynn and Rosenbaum",
+  "HistoryId": 966,
+  "AssociateId": 96,
+  "Name": "Waelchi Group",
+  "ItemInfo": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

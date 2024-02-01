@@ -119,7 +119,8 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
-| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| TicketType | TicketType | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| ActiveStatusMonitorId | int32 | Active status monitor identity for related contact. This is a read-only property and is ignored on Save |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -131,11 +132,11 @@ OK
 POST /api/v1/Agents/Ticket/GetForRmUi
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 490
+  "TicketId": 115
 }
 ```
 
@@ -146,21 +147,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 993,
-  "Title": "excepturi",
-  "CreatedAt": "2007-06-21T13:57:13.3645965+02:00",
-  "LastChanged": "2003-05-12T13:57:13.3645965+02:00",
-  "ReadByOwner": "2021-11-26T13:57:13.3645965+01:00",
-  "ReadByCustomer": "2004-10-20T13:57:13.3645965+02:00",
-  "FirstReadByOwner": "2015-07-06T13:57:13.3645965+02:00",
-  "FirstReadByUser": "2002-12-09T13:57:13.3645965+01:00",
-  "Activate": "2019-12-11T13:57:13.3645965+01:00",
-  "ClosedAt": "2021-11-20T13:57:13.3645965+01:00",
-  "RepliedAt": "2019-05-14T13:57:13.3645965+02:00",
-  "AlertTimeout": "2001-02-26T13:57:13.3645965+01:00",
-  "Deadline": "2009-07-15T13:57:13.3645965+02:00",
+  "TicketId": 722,
+  "Title": "placeat",
+  "CreatedAt": "1999-03-14T23:03:57.3061113+01:00",
+  "LastChanged": "2001-11-18T23:03:57.3061113+01:00",
+  "ReadByOwner": "2016-05-05T23:03:57.3061113+02:00",
+  "ReadByCustomer": "2007-03-24T23:03:57.3061113+01:00",
+  "FirstReadByOwner": "2005-04-06T23:03:57.3061113+02:00",
+  "FirstReadByUser": "2022-11-18T23:03:57.3061113+01:00",
+  "Activate": "2018-04-10T23:03:57.3061113+02:00",
+  "ClosedAt": "2005-08-15T23:03:57.3061113+02:00",
+  "RepliedAt": "2006-02-09T23:03:57.3061113+01:00",
+  "AlertTimeout": "2013-11-07T23:03:57.3061113+01:00",
+  "Deadline": "2021-08-07T23:03:57.3061113+02:00",
   "CreatedBy": null,
-  "Author": "ipsum",
+  "Author": "molestiae",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -171,161 +172,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "eaque",
-      "PersonId": 858,
-      "Mrmrs": "omnis",
-      "Firstname": "Marquis",
-      "Lastname": "Reichert",
-      "MiddleName": "Nikolaus-Feil",
-      "Title": "sit",
-      "Description": "Universal assymetric open system",
-      "Email": "aurelie_sanford@fayjacobs.name",
-      "FullName": "Murphy Kerluke",
-      "DirectPhone": "1-768-078-4589",
-      "FormalName": "Bednar, Mante and Kunde",
-      "CountryId": 630,
-      "ContactId": 649,
-      "ContactName": "Feest Group",
-      "Retired": 285,
-      "Rank": 50,
-      "ActiveInterests": 179,
+      "Position": "dolor",
+      "PersonId": 265,
+      "Mrmrs": "sint",
+      "Firstname": "Aiyana",
+      "Lastname": "Heaney",
+      "MiddleName": "Schroeder-Terry",
+      "Title": "repudiandae",
+      "Description": "Balanced zero tolerance protocol",
+      "Email": "lucile@nolan.name",
+      "FullName": "Mrs. Jacinthe Nikolaus",
+      "DirectPhone": "1-235-288-9714",
+      "FormalName": "Kassulke, Blanda and Schaefer",
+      "CountryId": 604,
+      "ContactId": 872,
+      "ContactName": "Raynor LLC",
+      "Retired": 791,
+      "Rank": 258,
+      "ActiveInterests": 434,
       "ContactDepartment": "",
-      "ContactCountryId": 696,
-      "ContactOrgNr": "827392",
-      "FaxPhone": "673.777.4310 x9379",
-      "MobilePhone": "1-455-704-2322 x33939",
-      "ContactPhone": "039-120-1700 x73462",
-      "AssociateName": "Kshlerin, Hoppe and Jacobson",
-      "AssociateId": 133,
+      "ContactCountryId": 382,
+      "ContactOrgNr": "878284",
+      "FaxPhone": "1-667-921-1999 x2160",
+      "MobilePhone": "980-489-3101 x599",
+      "ContactPhone": "1-272-139-2882 x73635",
+      "AssociateName": "Hermiston-DuBuque",
+      "AssociateId": 624,
       "UsePersonAddress": false,
-      "ContactFax": "vel",
-      "Kanafname": "sint",
-      "Kanalname": "aut",
-      "Post1": "voluptas",
-      "Post2": "autem",
-      "Post3": "est",
-      "EmailName": "wilfred@skiles.co.uk",
-      "ContactFullName": "Janet Wisoky",
-      "ActiveErpLinks": 947,
-      "TicketPriorityId": 823,
-      "SupportLanguageId": 849,
-      "SupportAssociateId": 615,
+      "ContactFax": "quia",
+      "Kanafname": "qui",
+      "Kanalname": "et",
+      "Post1": "et",
+      "Post2": "nesciunt",
+      "Post3": "adipisci",
+      "EmailName": "arianna@abernathystokes.us",
+      "ContactFullName": "Riley Metz",
+      "ActiveErpLinks": 85,
+      "TicketPriorityId": 956,
+      "SupportLanguageId": 194,
+      "SupportAssociateId": 571,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldType": "System.Int32",
+          "FieldLength": 984
         }
       }
     }
   ],
-  "AlertLevel": 778,
-  "ConnectId": 633,
+  "AlertLevel": 547,
+  "ConnectId": 636,
   "ReadStatus": "Green",
-  "TimeToReply": 326,
-  "RealTimeToReply": 539,
-  "TimeToClose": 416,
-  "RealTimeToClose": 430,
-  "TimeSpentInternally": 7,
-  "TimeSpentExternally": 284,
-  "TimeSpentQueue": 458,
-  "RealTimeSpentInternally": 254,
-  "RealTimeSpentExternally": 728,
-  "RealTimeSpentQueue": 458,
-  "TimeSpent": 163,
+  "TimeToReply": 144,
+  "RealTimeToReply": 386,
+  "TimeToClose": 587,
+  "RealTimeToClose": 465,
+  "TimeSpentInternally": 694,
+  "TimeSpentExternally": 820,
+  "TimeSpentQueue": 51,
+  "RealTimeSpentInternally": 633,
+  "RealTimeSpentExternally": 172,
+  "RealTimeSpentQueue": 225,
+  "TimeSpent": 833,
   "HasAttachment": false,
-  "NumReplies": 782,
-  "NumMessages": 243,
-  "FromAddress": "ad",
+  "NumReplies": 116,
+  "NumMessages": 111,
+  "FromAddress": "impedit",
   "Messages": [
     {
-      "TicketMessageId": 296,
-      "CreatedAt": "2015-04-11T13:57:13.3645965+02:00",
+      "TicketMessageId": 745,
+      "CreatedAt": "2020-06-02T23:03:57.3106105+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "qui",
-      "PersonId": 652,
-      "PersonFullName": "Gianni Gerhold II",
-      "ContactId": 329,
-      "ContactName": "Fahey Group",
+      "Author": "modi",
+      "PersonId": 16,
+      "PersonFullName": "Eriberto Miller",
+      "ContactId": 14,
+      "ContactName": "Beer, Swaniawski and Abbott",
       "ContactDepartment": "",
-      "NumAttachments": 533,
-      "EmailHeader": "mina@maggiohegmann.info",
+      "NumAttachments": 873,
+      "EmailHeader": "jude@stehr.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "dolorum",
-      "Sentiment": 363,
-      "SentimentConfidence": 645,
-      "CreatedBy": 346,
-      "ChangedAt": "2016-01-02T13:57:13.3645965+01:00",
+      "Language": "qui",
+      "Sentiment": 13,
+      "SentimentConfidence": 593,
+      "CreatedBy": 847,
+      "ChangedAt": "2004-03-16T23:03:57.3111106+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldType": "System.Int32",
+          "FieldLength": 962
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 430,
-      "Name": "Sporer Inc and Sons",
-      "ToolTip": "Distinctio qui et quas praesentium at consequatur facilis.",
+      "Id": 933,
+      "Name": "Harvey, Harris and Waters",
+      "ToolTip": "Aperiam accusantium aut quos.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldLength": 275
         }
       }
     },
     {
-      "Id": 430,
-      "Name": "Sporer Inc and Sons",
-      "ToolTip": "Distinctio qui et quas praesentium at consequatur facilis.",
+      "Id": 933,
+      "Name": "Harvey, Harris and Waters",
+      "ToolTip": "Aperiam accusantium aut quos.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldLength": 275
         }
       }
     }
   ],
-  "Language": "dolorem",
-  "Sentiment": 853,
-  "SentimentConfidence": 120,
-  "SuggestedCategoryId": 989,
+  "Language": "quasi",
+  "Sentiment": 204,
+  "SentimentConfidence": 338,
+  "SuggestedCategoryId": 66,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 423,
-  "IconHint": "odio",
+  "OrigHumanCategoryId": 156,
+  "IconHint": "aut",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
+  "ActiveStatusMonitorId": 943,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "non"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "nulla"
+    "CustomFields1": "eum",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 989
     }
   }
 }

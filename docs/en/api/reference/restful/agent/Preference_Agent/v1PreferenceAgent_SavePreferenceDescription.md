@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 833,
-  "Section": "ut",
-  "Key": "reiciendis",
-  "Name": "Streich, Rau and Ziemann",
+  "PrefDescId": 305,
+  "Section": "aut",
+  "Key": "ut",
+  "Name": "Schulist-Lemke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented next generation complexity",
+  "Description": "Compatible logistical strategy",
   "IsBuiltin": false,
-  "TableName": "Boyer-Rogahn",
-  "UserDefinedListId": 334,
-  "Rank": 475,
-  "SubGroup": "dignissimos",
-  "MinLevel": 162,
-  "MaxValue": 598,
-  "MinValue": 7,
-  "RequiredLicense": "dolorem"
+  "TableName": "Jacobi LLC",
+  "UserDefinedListId": 601,
+  "Rank": 436,
+  "SubGroup": "natus",
+  "MinLevel": 287,
+  "MaxValue": 439,
+  "MinValue": 604,
+  "RequiredLicense": "quo"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 42,
-  "Section": "sint",
-  "Key": "vel",
-  "Name": "Vandervort, Larkin and Schamberger",
+  "PrefDescId": 404,
+  "Section": "dignissimos",
+  "Key": "et",
+  "Name": "Gerlach, Barrows and Huel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Business-focused neutral methodology",
-  "IsBuiltin": true,
-  "TableName": "Conroy-Schultz",
-  "UserDefinedListId": 309,
-  "Rank": 586,
-  "SubGroup": "ea",
-  "MinLevel": 484,
-  "MaxValue": 848,
-  "MinValue": 102,
-  "RequiredLicense": "enim",
+  "Description": "Persistent web-enabled data-warehouse",
+  "IsBuiltin": false,
+  "TableName": "Schroeder LLC",
+  "UserDefinedListId": 773,
+  "Rank": 469,
+  "SubGroup": "et",
+  "MinLevel": 712,
+  "MaxValue": 510,
+  "MinValue": 907,
+  "RequiredLicense": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   }
 }

@@ -66,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <AI:GetSummarizeContactPromptResponse>
    <AI:Response xsi:type="AI:ChatbotTurn">
-    <AI:Timestamp xsi:type="xsd:dateTime">2023-12-07T12:54:22Z</AI:Timestamp>
+    <AI:Timestamp xsi:type="xsd:dateTime">2024-01-18T22:00:59Z</AI:Timestamp>
     <AI:UserPrompt xsi:type="xsd:string"></AI:UserPrompt>
     <AI:UserDisplayText xsi:type="xsd:string"></AI:UserDisplayText>
     <AI:BotResponse xsi:type="xsd:string"></AI:BotResponse>

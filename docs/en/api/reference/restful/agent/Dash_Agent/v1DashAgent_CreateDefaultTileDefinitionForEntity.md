@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Cremin Inc and Sons"
+  "EntityName": "Koch-Parker"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 510,
-  "Name": "Bayer, Oberbrunner and Osinski",
-  "Description": "Assimilated interactive synergy",
-  "DefaultHeight": 824,
-  "DefaultWidth": 35,
+  "DashboardTileDefinitionId": 822,
+  "Name": "Raynor LLC",
+  "Description": "Open-source multi-state website",
+  "DefaultHeight": 820,
+  "DefaultWidth": 815,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Nikolaus-Ward",
-  "SelectionId": 843,
+  "EntityName": "Grimes LLC",
+  "SelectionId": 802,
   "CurrencyMode": "Base",
-  "CurrencyCode": "sed",
+  "CurrencyCode": "ut",
   "Measure": "Average",
-  "MeasureField": "aperiam",
-  "SortBy": "ut",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 510,
-  "MeasureByField": "necessitatibus",
+  "MeasureField": "nisi",
+  "SortBy": "aut",
+  "LayoutConfig": "modi",
+  "SecondarySelectionId": 295,
+  "MeasureByField": "reiciendis",
   "Usage": "Dashboard",
-  "ProviderName": "Heathcote, Tromp and Schowalter",
+  "ProviderName": "Jacobson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   }
 }

@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatibus",
+    "path": "minima",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatibus",
+    "path": "minima",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "expedita",
+  "SaleText": "voluptatum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-06-15T13:57:19.2190256+02:00",
-  "Amount": 22430.038,
-  "SaleId": 196,
-  "Earning": 25328.987999999998,
-  "EarningPercent": 28162.124,
-  "Heading": "voluptatem",
-  "Number": "810315",
-  "Probability": 743,
-  "CreatedDate": "2003-08-19T13:57:19.2190256+02:00",
-  "UpdatedDate": "2012-01-03T13:57:19.2190256+01:00",
+  "Saledate": "2021-04-01T23:04:04.7305114+02:00",
+  "Amount": 1062.426,
+  "SaleId": 575,
+  "Earning": 29023.974,
+  "EarningPercent": 19101.73,
+  "Heading": "sunt",
+  "Number": "1306266",
+  "Probability": 656,
+  "CreatedDate": "2000-04-11T23:04:04.7305114+02:00",
+  "UpdatedDate": "1998-11-27T23:04:04.7305114+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 444,
+  "ActiveLinks": 145,
   "Links": [
     {
-      "EntityName": "Kirlin Group",
-      "Id": 788,
-      "Description": "Quality-focused regional moderator",
-      "ExtraInfo": "facere",
-      "LinkId": 791,
+      "EntityName": "Hahn, Hirthe and Dickens",
+      "Id": 75,
+      "Description": "Re-contextualized coherent encryption",
+      "ExtraInfo": "ipsa",
+      "LinkId": 705,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 83
         }
       }
     }
   ],
-  "NextDueDate": "2017-02-21T13:57:19.2190256+01:00",
-  "Postit": "veniam",
+  "NextDueDate": "2013-04-13T23:04:04.7305114+02:00",
+  "Postit": "nostrum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2008-06-13T13:57:19.2190256+02:00",
+  "ReopenDate": "2004-07-13T23:04:04.7310105+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jerde Group",
-      "Comment": "consequatur",
-      "StakeholderRoleId": 361,
-      "CountryId": 189,
-      "PersonId": 317,
-      "EmailDescription": "flavie.cummings@romagueramills.com",
-      "EmailId": 188,
-      "EmailAddress": "lourdes.beier@stanton.biz",
-      "PhoneId": 496,
-      "ContactName": "Hoppe Inc and Sons",
-      "ContactId": 551,
-      "SaleId": 480,
-      "Mrmrs": "autem",
-      "Firstname": "Ernie",
-      "MiddleName": "Wunsch, Osinski and Schaefer",
-      "Lastname": "Crooks",
-      "SaleStakeholderId": 29,
-      "Rank": 53,
-      "Phone": "889-623-4501 x3117",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 568
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 55,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Ilene Cornell Reilly",
-    "SuperOffice:2": "Luigi Braun I"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "ut"
-  },
-  "CustomFields": {
-    "CustomFields1": "optio",
-    "CustomFields2": "dolorum"
-  },
-  "PublishEventDate": "2021-01-27T13:57:19.2190256+01:00",
-  "PublishTo": "2014-02-03T13:57:19.2190256+01:00",
-  "PublishFrom": "2008-11-18T13:57:19.2190256+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 256,
-      "Visibility": "All",
-      "DisplayValue": "veniam",
+      "StakeholderRoleName": "Brown-Leffler",
+      "Comment": "voluptatem",
+      "StakeholderRoleId": 732,
+      "CountryId": 775,
+      "PersonId": 400,
+      "EmailDescription": "olaf.weissnat@lowe.biz",
+      "EmailId": 672,
+      "EmailAddress": "bennie@schuppe.us",
+      "PhoneId": 440,
+      "ContactName": "DuBuque LLC",
+      "ContactId": 33,
+      "SaleId": 873,
+      "Mrmrs": "quia",
+      "Firstname": "Noemy",
+      "MiddleName": "Heathcote, O'Kon and Olson",
+      "Lastname": "DuBuque",
+      "SaleStakeholderId": 875,
+      "Rank": 276,
+      "Phone": "(389)774-3853",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldLength": 735
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 854,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Baron Rippin",
+    "SuperOffice:2": "519037316"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "sint"
+  },
+  "CustomFields": {
+    "CustomFields1": "at",
+    "CustomFields2": "nihil"
+  },
+  "PublishEventDate": "1999-07-24T23:04:04.731511+02:00",
+  "PublishTo": "2002-01-15T23:04:04.731511+01:00",
+  "PublishFrom": "2020-06-24T23:04:04.731511+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 502,
+      "Visibility": "All",
+      "DisplayValue": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     },
     {
-      "VisibleId": 256,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "veniam",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 497
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

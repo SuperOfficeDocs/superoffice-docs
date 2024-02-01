@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schmeler, McDermott and Bahringer",
+  "ProviderName": "Heller-Friesen",
   "Restrictions": [
     {
-      "Name": "Powlowski LLC",
-      "Operator": "molestiae",
+      "Name": "Prosacco LLC",
+      "Operator": "ipsa",
       "Values": [
-        "sequi",
-        "aut"
+        "praesentium",
+        "sit"
       ],
       "DisplayValues": [
-        "delectus",
-        "iusto"
+        "eligendi",
+        "vel"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 6,
+      "InterParenthesis": 105,
       "InterOperator": "And",
-      "UniqueHash": 438
+      "UniqueHash": 902
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Casper Inc and Sons",
-    "DisplayTooltip": "ut",
-    "DisplayType": "quibusdam",
-    "CanOrderBy": true,
-    "Name": "Effertz-Robel",
+    "DisplayName": "Balistreri, Cormier and Feil",
+    "DisplayTooltip": "voluptatem",
+    "DisplayType": "ducimus",
+    "CanOrderBy": false,
+    "Name": "Stiedemann LLC",
     "CanRestrictBy": false,
-    "RestrictionType": "vel",
-    "RestrictionListName": "Veum, Dickens and Jaskolski",
-    "IsVisible": true,
-    "ExtraInfo": "ullam",
-    "Width": "consequatur",
-    "IconHint": "est",
-    "HeadingIconHint": "vel"
+    "RestrictionType": "laudantium",
+    "RestrictionListName": "McCullough Group",
+    "IsVisible": false,
+    "ExtraInfo": "iusto",
+    "Width": "id",
+    "IconHint": "fugiat",
+    "HeadingIconHint": "ab"
   }
 ]
 ```

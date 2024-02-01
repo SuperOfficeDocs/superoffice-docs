@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Douglas, Funk and Bernier",
-    "ToolTip": "Deleniti voluptatibus dolorem voluptatem.",
-    "Deleted": false,
-    "Rank": 852,
-    "Type": "delectus",
-    "ColorBlock": 310,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "2000-08-24T13:57:19.9065482+02:00",
+    "Id": 656,
+    "Name": "Gutkowski-Auer",
+    "ToolTip": "Dolorem recusandae aut totam quo quod.",
+    "Deleted": true,
+    "Rank": 343,
+    "Type": "et",
+    "ColorBlock": 93,
+    "IconHint": "eius",
+    "Selected": false,
+    "LastChanged": "2002-04-27T23:04:05.6634947+02:00",
     "ChildItems": [
       {
-        "Id": 359,
-        "Name": "Schroeder, Boyer and Ortiz",
-        "ToolTip": "Nostrum consectetur similique rem eum provident facere.",
+        "Id": 852,
+        "Name": "Rempel, Cassin and Buckridge",
+        "ToolTip": "Illum tenetur sed dolores nihil libero inventore.",
         "Deleted": false,
-        "Rank": 916,
-        "Type": "eum",
-        "ColorBlock": 525,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2005-09-11T13:57:19.9065482+02:00",
+        "Rank": 60,
+        "Type": "enim",
+        "ColorBlock": 427,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "1999-05-12T23:04:05.6634947+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "illum",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Luigi Osinski MD"
+        "FullName": "Yasmin Nader"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Aleen Hoppe"
+    "ExtraInfo": "labore",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Miles Langworth I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Bogan Inc and Sons",
-    "ToolTip": "Et nostrum accusamus itaque esse odit iste vel.",
-    "Deleted": true,
-    "Rank": 516,
-    "Type": "architecto",
-    "ColorBlock": 474,
-    "IconHint": "debitis",
+    "Id": 947,
+    "Name": "Gusikowski, Glover and O'Connell",
+    "ToolTip": "Sequi in tenetur incidunt non.",
+    "Deleted": false,
+    "Rank": 532,
+    "Type": "reiciendis",
+    "ColorBlock": 86,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2001-06-20T13:57:19.9065482+02:00",
+    "LastChanged": "2007-05-02T23:04:05.6659973+02:00",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Larson-Mitchell",
-        "ToolTip": "Et facilis nemo.",
-        "Deleted": true,
-        "Rank": 466,
-        "Type": "sed",
-        "ColorBlock": 550,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2004-04-22T13:57:19.9065482+02:00",
+        "Id": 232,
+        "Name": "Zulauf, Romaguera and Fritsch",
+        "ToolTip": "Quia fugiat officia.",
+        "Deleted": false,
+        "Rank": 252,
+        "Type": "accusamus",
+        "ColorBlock": 343,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2020-10-15T23:04:05.6659973+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Jean Edd Turcotte I",
+        "FullName": "Trever Friesen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "cumque",
-    "Hidden": false,
-    "FullName": "Amina Shields",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Prof. Barton Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 309
+        "FieldType": "System.Int32",
+        "FieldLength": 746
       }
     }
   }

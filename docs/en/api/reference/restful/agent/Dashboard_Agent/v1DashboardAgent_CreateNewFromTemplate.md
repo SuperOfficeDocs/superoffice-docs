@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 390,
-  "Caption": "id",
-  "Description": "Polarised maximized emulation",
-  "SelectionId": 659,
+  "DashboardTileId": 327,
+  "Caption": "aperiam",
+  "Description": "Polarised assymetric Graphical User Interface",
+  "SelectionId": 257,
   "VisibleFor": [
     {
-      "VisibleId": 101,
+      "VisibleId": 944,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "excepturi"
     },
     {
-      "VisibleId": 101,
+      "VisibleId": 944,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "excepturi"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 538,
-  "Caption": "aut",
-  "Description": "Intuitive discrete attitude",
-  "ChartName": "Barton-Batz",
+  "DashboardTileId": 201,
+  "Caption": "et",
+  "Description": "User-friendly scalable open architecture",
+  "ChartName": "Bernier-Heaney",
   "ChartId": "velit",
-  "IsDefault": true,
-  "AssociateId": 290,
-  "GroupId": 967,
-  "SelectionId": 425,
-  "Config": "nulla",
+  "IsDefault": false,
+  "AssociateId": 507,
+  "GroupId": 288,
+  "SelectionId": 45,
+  "Config": "voluptatem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bechtelar, Kirlin and Abbott",
-      "Description": "Centralized bifurcated toolset",
+      "Name": "Runte LLC",
+      "Description": "Fully-configurable 24 hour function",
       "Type": "Boolean",
-      "ListName": "Murazik, Jenkins and Cole",
+      "ListName": "Fahey LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptatem",
-      "DefaultDataOption": false,
+      "Value": "velit",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 77
+          "FieldType": "System.Int32",
+          "FieldLength": 208
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 497,
+      "VisibleId": 907,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldType": "System.String",
+          "FieldLength": 603
         }
       }
     },
     {
-      "VisibleId": 497,
+      "VisibleId": 907,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldType": "System.String",
+          "FieldLength": 603
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldLength": 998
     }
   }
 }

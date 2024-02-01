@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 550,
-  "Name": "Roob, Breitenberg and Schmidt",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "Rank": 273,
-  "UdListDefinitionId": 977
+  "HeadingId": 606,
+  "Name": "Emmerich-Dibbert",
+  "Tooltip": "eius",
+  "Deleted": false,
+  "Rank": 819,
+  "UdListDefinitionId": 9
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 969,
-  "Name": "Mueller, Bechtelar and Rice",
-  "Tooltip": "labore",
-  "Deleted": true,
-  "Rank": 532,
-  "UdListDefinitionId": 994,
+  "HeadingId": 589,
+  "Name": "Schmeler-Dach",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 924,
+  "UdListDefinitionId": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldLength": 491
     }
   }
 }

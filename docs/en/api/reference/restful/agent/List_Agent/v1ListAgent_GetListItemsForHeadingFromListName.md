@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Purdy Group",
-  "HeadingId": 217
+  "UdListDefinitionName": "Ondricka-Bednar",
+  "HeadingId": 201
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 334,
-    "Name": "Mayer-Paucek",
-    "ToolTip": "Enim ut qui.",
+    "Id": 582,
+    "Name": "Yost Inc and Sons",
+    "ToolTip": "Et dolor voluptatem et molestiae.",
     "Deleted": false,
-    "Rank": 270,
-    "Type": "debitis",
-    "ColorBlock": 652,
-    "IconHint": "voluptatum",
-    "Selected": true,
-    "LastChanged": "2001-01-03T13:57:12.5286589+01:00",
+    "Rank": 996,
+    "Type": "nemo",
+    "ColorBlock": 552,
+    "IconHint": "numquam",
+    "Selected": false,
+    "LastChanged": "2013-06-30T23:03:56.2291269+02:00",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "D'Amore Inc and Sons",
-        "ToolTip": "Illo aspernatur sed tempore impedit fugit.",
+        "Id": 605,
+        "Name": "West-Considine",
+        "ToolTip": "Sapiente ullam alias quo.",
         "Deleted": false,
-        "Rank": 52,
-        "Type": "repellat",
-        "ColorBlock": 503,
-        "IconHint": "harum",
+        "Rank": 753,
+        "Type": "sit",
+        "ColorBlock": 179,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2022-07-22T13:57:12.5286589+02:00",
+        "LastChanged": "1999-03-06T23:03:56.2291269+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "enim",
+        "ExtraInfo": "esse",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Fern Torphy",
+        "FullName": "Hortense Paucek PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 559
+            "FieldLength": 147
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Paxton Gutmann",
+    "ExtraInfo": "possimus",
+    "StyleHint": "possimus",
+    "Hidden": true,
+    "FullName": "Elyse Gerardo Shanahan Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 116
       }
     }
   }

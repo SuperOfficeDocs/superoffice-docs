@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 314,
-    "Name": "Leffler, Koss and Hartmann",
-    "Value": "repellat",
-    "CreatedDate": "2009-07-21T13:57:11.5438073+02:00",
-    "UpdatedDate": "1999-06-24T13:57:11.5438073+02:00",
-    "CreatedBy": "ex",
-    "UpdatedBy": "aut",
+    "AudienceLayoutId": 543,
+    "Name": "Lind-Heller",
+    "Value": "autem",
+    "CreatedDate": "2001-11-04T23:03:55.006642+01:00",
+    "UpdatedDate": "1998-01-16T23:03:55.006642+01:00",
+    "CreatedBy": "mollitia",
+    "UpdatedBy": "dolores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldType": "System.String",
+        "FieldLength": 957
       }
     }
   }

@@ -60,7 +60,7 @@ This is the archive Provider for the QuoteConnection Archive in SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteConnection?$select=erpConnection/connector/updatedBy,updatedDate,erpConnection/description
+GET /api/v1/archive/QuoteConnection?$select=quoteConnectionId,updatedDate,updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

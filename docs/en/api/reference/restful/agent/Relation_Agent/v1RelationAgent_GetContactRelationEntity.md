@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=887
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=151
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 953,
-  "SourcePersonId": 623,
-  "DestinationContactId": 283,
-  "DestinationPersonId": 599,
-  "RelationId": 505,
-  "Comment": "harum",
-  "RelationDefinitionId": 821,
-  "Reversed": 319,
-  "UpdatedDate": "2003-07-10T13:57:13.0961896+02:00",
-  "CreatedDate": "2020-02-05T13:57:13.0961896+01:00",
+  "SourceContactId": 797,
+  "SourcePersonId": 605,
+  "DestinationContactId": 9,
+  "DestinationPersonId": 773,
+  "RelationId": 234,
+  "Comment": "dignissimos",
+  "RelationDefinitionId": 113,
+  "Reversed": 807,
+  "UpdatedDate": "2014-10-29T23:03:56.8106177+01:00",
+  "CreatedDate": "2011-04-28T23:03:56.8106177+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hayes Group",
-  "SourcePersonName": "Leuschke-Kunze",
-  "DestinationContactName": "Nader-Rohan",
-  "DestinationPersonName": "Lynch Inc and Sons",
-  "ActiveText": "qui",
-  "PassiveText": "voluptatem",
+  "SourceContactName": "Bartoletti Group",
+  "SourcePersonName": "Thiel, Robel and Ledner",
+  "DestinationContactName": "Simonis-Stark",
+  "DestinationPersonName": "Roob LLC",
+  "ActiveText": "aperiam",
+  "PassiveText": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

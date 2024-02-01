@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Dare-Bode",
-    "ToolTip": "Rem commodi sit nostrum.",
+    "Id": 646,
+    "Name": "Sawayn-Kunze",
+    "ToolTip": "Modi possimus commodi amet quia veritatis.",
     "Deleted": false,
-    "Rank": 611,
-    "Type": "est",
-    "ColorBlock": 890,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2020-01-24T13:57:19.1403101+01:00",
+    "Rank": 188,
+    "Type": "atque",
+    "ColorBlock": 803,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2020-07-05T23:04:04.6275112+02:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Ernser Inc and Sons",
-        "ToolTip": "Esse accusamus qui quis rerum et et qui.",
-        "Deleted": true,
-        "Rank": 36,
-        "Type": "autem",
-        "ColorBlock": 152,
-        "IconHint": "ut",
+        "Id": 988,
+        "Name": "Goyette, Keebler and Schneider",
+        "ToolTip": "Iste harum porro mollitia molestias dolores officia et.",
+        "Deleted": false,
+        "Rank": 540,
+        "Type": "sint",
+        "ColorBlock": 77,
+        "IconHint": "perspiciatis",
         "Selected": true,
-        "LastChanged": "2018-05-03T13:57:19.1403101+02:00",
+        "LastChanged": "2015-11-03T23:04:04.6280107+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Sallie Elta Quitzon Jr.",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "sequi",
+        "Hidden": false,
+        "FullName": "Justen Dare",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 700
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "doloremque",
-    "Hidden": false,
-    "FullName": "Josh Welch",
+    "ExtraInfo": "porro",
+    "StyleHint": "quod",
+    "Hidden": true,
+    "FullName": "Tyrese Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldType": "System.String",
+        "FieldLength": 761
       }
     }
   }

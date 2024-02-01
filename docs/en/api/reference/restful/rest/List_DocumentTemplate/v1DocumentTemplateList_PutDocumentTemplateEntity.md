@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 979,
-  "Name": "Roob, Doyle and O'Conner",
-  "Tooltip": "autem",
-  "SaveInDb": 561,
-  "Filename": "dolores",
-  "DefaultOref": "voluptate",
+  "DocumentTemplateId": 699,
+  "Name": "Stokes, Denesik and Cormier",
+  "Tooltip": "vitae",
+  "SaveInDb": 610,
+  "Filename": "delectus",
+  "DefaultOref": "dolor",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 352,
-  "IntentId": 880,
-  "IsDefaultPublished": false,
-  "Rank": 117,
-  "LoadTemplateFromPlugin": 401,
-  "MimeType": "voluptatem",
+  "AutoeventId": 293,
+  "IntentId": 185,
+  "IsDefaultPublished": true,
+  "Rank": 819,
+  "LoadTemplateFromPlugin": 889,
+  "MimeType": "sint",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 815,
+  "DocumentTypeKey": 445,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "favian@tremblay.uk",
+  "EmailSubject": "maurine_herzog@wuckertupton.name",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "connor@mayertsanford.name",
+  "SenderEmailAddress": "amie@schmitthettinger.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 684,
-  "Name": "West, Koch and Block",
-  "Tooltip": "et",
-  "SaveInDb": 946,
-  "Filename": "ut",
-  "DefaultOref": "reiciendis",
+  "DocumentTemplateId": 653,
+  "Name": "Reinger LLC",
+  "Tooltip": "nisi",
+  "SaveInDb": 59,
+  "Filename": "odio",
+  "DefaultOref": "eum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 435,
-  "IntentId": 222,
+  "AutoeventId": 888,
+  "IntentId": 362,
   "IsDefaultPublished": false,
-  "Rank": 239,
-  "LoadTemplateFromPlugin": 569,
-  "MimeType": "ullam",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 364,
+  "Rank": 217,
+  "LoadTemplateFromPlugin": 733,
+  "MimeType": "voluptatem",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 566,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "eileen_hansen@bosco.ca",
+  "EmailSubject": "ivy@kihn.com",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "augusta.borer@cormier.ca",
+  "SenderEmailAddress": "deondre@trompkuhlman.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldType": "System.Int32",
+      "FieldLength": 247
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 205,
-  "Name": "Lang-Wisozk",
-  "Tooltip": "qui",
+  "Id": 98,
+  "Name": "Lakin, Schiller and Ullrich",
+  "Tooltip": "dolores",
   "Deleted": true,
-  "Rank": 972,
+  "Rank": 11,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "delectus",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "excepturi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   },
   "_Links": {

@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    301,
-    642
+    823,
+    781
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 405,
+  "EjMessageId": 801,
   "Ticket": null,
-  "CreatedAt": "2012-09-16T13:57:13.4739653+02:00",
+  "CreatedAt": "2008-04-15T23:03:57.4606091+02:00",
   "CreatedBy": null,
-  "Author": "sit",
+  "Author": "non",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "alias",
-  "TimeSpent": 529,
-  "Body": "accusantium",
-  "HtmlBody": "in",
-  "EmailHeader": "burnice@barrows.name",
-  "DebugInfo": "in",
-  "MailSorter": "qui",
+  "MessageId": "fugit",
+  "TimeSpent": 8,
+  "Body": "corrupti",
+  "HtmlBody": "consequuntur",
+  "EmailHeader": "lorenz@johns.co.uk",
+  "DebugInfo": "nulla",
+  "MailSorter": "rerum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "cumque",
+  "SearchTitle": "dolorem",
   "MessageHeaders": [
     {
-      "Id": 94,
-      "Name": "Jaskolski, Gleason and Howell",
-      "Value": "architecto",
+      "Id": 789,
+      "Name": "Bernhard Group",
+      "Value": "quos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,49 +151,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 668
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "qui",
-  "Sentiment": 406,
-  "SentimentConfidence": 738,
+  "Important": true,
+  "Language": "quia",
+  "Sentiment": 819,
+  "SentimentConfidence": 720,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 116,
-      "Name": "Shanahan-Stiedemann",
-      "ContentType": "nam",
-      "AttSize": 368,
+      "AttachmentId": 985,
+      "Name": "Bogan Group",
+      "ContentType": "enim",
+      "AttSize": 314,
       "InlineImage": false,
-      "ContentId": "quam",
-      "AuthKey": "magnam",
+      "ContentId": "suscipit",
+      "AuthKey": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 901
+          "FieldType": "System.Int32",
+          "FieldLength": 962
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "itaque"
+    "CustomFields1": "unde",
+    "CustomFields2": "unde"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 504
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

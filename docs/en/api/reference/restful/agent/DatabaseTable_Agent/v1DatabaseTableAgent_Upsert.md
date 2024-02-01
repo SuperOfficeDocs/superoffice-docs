@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wisoky-Wisoky",
+  "TableName": "Johns, Schulist and Rodriguez",
   "Columns": [
-    "veniam",
-    "voluptate"
+    "neque",
+    "amet"
   ],
   "Keys": [
-    "dolor",
-    "voluptatem"
+    "dolorem",
+    "voluptas"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "consequatur",
-  "Inserts": 815,
-  "Updates": 174,
-  "Deletes": 336,
+  "Success": false,
+  "Message": "laborum",
+  "Inserts": 695,
+  "Updates": 793,
+  "Deletes": 309,
   "RowStatus": [
     {
-      "PrimaryKey": 198,
+      "PrimaryKey": 709,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "fugit",
-        "expedita"
+        "nesciunt",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldLength": 41
         }
       }
     },
     {
-      "PrimaryKey": 198,
+      "PrimaryKey": 709,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "fugit",
-        "expedita"
+        "nesciunt",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldLength": 41
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

@@ -91,22 +91,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 62,
-  "Name": "Tromp, Bayer and Goldner",
-  "Rank": 508,
-  "Tooltip": "blanditiis",
-  "Icon": "sed",
-  "DefaultTicketStatus": 900,
+  "TicketTypeId": 667,
+  "Name": "Gerlach Group",
+  "Rank": 353,
+  "Tooltip": "consectetur",
+  "Icon": "ratione",
+  "DefaultTicketStatus": 987,
   "TicketStatuses": [
-    773,
-    141
+    88,
+    444
   ],
-  "DefaultTicketPriority": 241,
+  "DefaultTicketPriority": 165,
   "TicketPriorities": [
-    713,
-    938
+    822,
+    85
   ],
-  "ReplyTemplate": 961,
+  "ReplyTemplate": 293,
   "IsExternalVisible": false,
   "IsDefault": false
 }
@@ -119,22 +119,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 96,
-  "Name": "Schamberger-Dibbert",
-  "Rank": 521,
-  "Tooltip": "tempora",
-  "Icon": "eligendi",
-  "DefaultTicketStatus": 970,
+  "TicketTypeId": 45,
+  "Name": "Feest-Kautzer",
+  "Rank": 230,
+  "Tooltip": "aut",
+  "Icon": "ab",
+  "DefaultTicketStatus": 98,
   "TicketStatuses": [
-    967,
-    945
+    551,
+    91
   ],
-  "DefaultTicketPriority": 39,
+  "DefaultTicketPriority": 385,
   "TicketPriorities": [
-    707,
-    510
+    217,
+    170
   ],
-  "ReplyTemplate": 903,
+  "ReplyTemplate": 455,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 351
     }
   }
 }

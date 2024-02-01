@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 457,
-  "GroupId": 214
+  "UdListDefinitionId": 806,
+  "GroupId": 660
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Blanda-Nienow",
-    "ToolTip": "Non et enim delectus quam voluptas.",
-    "Deleted": true,
-    "Rank": 174,
-    "Type": "rerum",
-    "ColorBlock": 682,
-    "IconHint": "explicabo",
-    "Selected": true,
-    "LastChanged": "2019-01-15T13:57:12.5118644+01:00",
+    "Id": 562,
+    "Name": "Orn LLC",
+    "ToolTip": "Et rem dicta in distinctio.",
+    "Deleted": false,
+    "Rank": 172,
+    "Type": "vitae",
+    "ColorBlock": 929,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2021-07-24T23:03:56.2141256+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Douglas Group",
-        "ToolTip": "Fuga dolor aut rerum odio et qui.",
-        "Deleted": true,
-        "Rank": 143,
-        "Type": "molestiae",
-        "ColorBlock": 779,
-        "IconHint": "odit",
+        "Id": 845,
+        "Name": "Smith-Murazik",
+        "ToolTip": "Fuga ratione.",
+        "Deleted": false,
+        "Rank": 1000,
+        "Type": "nemo",
+        "ColorBlock": 519,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2020-07-06T13:57:12.5118644+02:00",
+        "LastChanged": "2006-10-10T23:03:56.2141256+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "omnis",
+        "ExtraInfo": "est",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Kameron Ziemann",
+        "FullName": "Schuyler Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 952
+            "FieldType": "System.Int32",
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "qui",
+    "ExtraInfo": "rerum",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Miss Candace Rau DVM",
+    "FullName": "Helmer Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldLength": 894
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Morissette, Pollich and O'Keefe",
-    "ToolTip": "Possimus quaerat quisquam repudiandae placeat.",
+    "Id": 101,
+    "Name": "Ziemann-Goodwin",
+    "ToolTip": "Est maxime tempora sit consequatur consequatur explicabo.",
     "Deleted": false,
-    "Rank": 286,
-    "Type": "dolores",
-    "ColorBlock": 996,
-    "IconHint": "exercitationem",
+    "Rank": 80,
+    "Type": "suscipit",
+    "ColorBlock": 543,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2015-01-30T13:57:19.7502685+01:00",
+    "LastChanged": "2012-10-18T23:04:05.4610006+02:00",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Bradtke-VonRueden",
-        "ToolTip": "Alias quod beatae.",
+        "Id": 931,
+        "Name": "Sauer-Cummerata",
+        "ToolTip": "Nulla dolor aut qui corporis voluptatibus possimus.",
         "Deleted": false,
-        "Rank": 633,
-        "Type": "ipsa",
-        "ColorBlock": 277,
-        "IconHint": "corporis",
-        "Selected": false,
-        "LastChanged": "2004-09-06T13:57:19.7502685+02:00",
+        "Rank": 913,
+        "Type": "odit",
+        "ColorBlock": 711,
+        "IconHint": "libero",
+        "Selected": true,
+        "LastChanged": "2001-08-11T23:04:05.4620007+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "est",
+        "StyleHint": "maiores",
         "Hidden": true,
-        "FullName": "Lowell Ferry",
+        "FullName": "Yesenia Friedrich Wuckert V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 528
+            "FieldLength": 379
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Nyah Audie Hansen V",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "illo",
+    "Hidden": true,
+    "FullName": "Dr. Rodolfo Milan McDermott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldLength": 896
       }
     }
   }

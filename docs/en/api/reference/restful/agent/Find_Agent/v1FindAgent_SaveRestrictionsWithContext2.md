@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "temporibus",
-  "ProviderName": "Weissnat Group",
-  "StorageKey": "eius",
-  "Restrictions": "architecto",
-  "Context": "sint"
+  "StorageType": "accusantium",
+  "ProviderName": "Swift, Bednar and Tromp",
+  "StorageKey": "qui",
+  "Restrictions": "voluptatem",
+  "Context": "placeat"
 }
 ```
 

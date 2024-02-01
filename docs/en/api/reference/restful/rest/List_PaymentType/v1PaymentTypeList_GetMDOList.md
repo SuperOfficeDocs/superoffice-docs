@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=alias
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=quia
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Marvin-Ortiz",
-    "ToolTip": "Qui minus provident.",
+    "Id": 523,
+    "Name": "Upton-Reinger",
+    "ToolTip": "Numquam ipsum ut nam harum.",
     "Deleted": false,
-    "Rank": 902,
-    "Type": "rerum",
+    "Rank": 782,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Rempel LLC",
-        "ToolTip": "Quia et.",
-        "Deleted": true,
-        "Rank": 4,
-        "Type": "quam",
+        "Id": 738,
+        "Name": "Mante Inc and Sons",
+        "ToolTip": "Quod nam ab quaerat quia et ut dignissimos.",
+        "Deleted": false,
+        "Rank": 395,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eligendi",
-        "ColorBlock": 369,
-        "ExtraInfo": "culpa",
-        "StyleHint": "quisquam",
-        "FullName": "Ms. Clementine Kutch I",
+        "IconHint": "non",
+        "ColorBlock": 876,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "aut",
+        "FullName": "Mr. Maribel Moore III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldType": "System.String",
+            "FieldLength": 193
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 981,
-    "ExtraInfo": "odit",
-    "StyleHint": "voluptatem",
-    "FullName": "Dedric DuBuque",
+    "IconHint": "et",
+    "ColorBlock": 522,
+    "ExtraInfo": "quod",
+    "StyleHint": "laborum",
+    "FullName": "Prof. Bryce Lueilwitz DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldType": "System.Int32",
+        "FieldLength": 408
       }
     }
   }

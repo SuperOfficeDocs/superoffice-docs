@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 226,
-    "ColumnId": 338,
-    "FieldDefault": "aut",
-    "FieldHeight": 993,
-    "FieldLabel": "vitae",
-    "FieldLeft": 492,
-    "FieldTop": 492,
+    "UDefFieldId": 989,
+    "ColumnId": 927,
+    "FieldDefault": "quia",
+    "FieldHeight": 664,
+    "FieldLabel": "cupiditate",
+    "FieldLeft": 968,
+    "FieldTop": 459,
     "FieldType": "Checkbox",
-    "FieldWidth": 123,
-    "FormatMask": "consequatur",
+    "FieldWidth": 687,
+    "FormatMask": "et",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 50,
-    "LabelLeft": 501,
-    "LabelTop": 685,
-    "LabelWidth": 863,
-    "LastVersionId": 660,
-    "ListTableId": 473,
+    "IsIndexed": false,
+    "LabelHeight": 347,
+    "LabelLeft": 175,
+    "LabelTop": 146,
+    "LabelWidth": 668,
+    "LastVersionId": 495,
+    "ListTableId": 157,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 937,
-    "ProgId": "temporibus",
-    "IsReadOnly": false,
-    "ShortLabel": "illo",
-    "TabOrder": 853,
-    "TextLength": 868,
-    "Tooltip": "qui",
-    "UdefIdentity": 337,
-    "UDListDefinitionId": 205,
+    "Page1LineNo": 816,
+    "ProgId": "magni",
+    "IsReadOnly": true,
+    "ShortLabel": "quia",
+    "TabOrder": 738,
+    "TextLength": 786,
+    "Tooltip": "aspernatur",
+    "UdefIdentity": 208,
+    "UDListDefinitionId": 899,
     "Justification": "Center",
-    "Version": 69,
-    "TemplateVariableName": "Orn, Dibbert and Prohaska",
+    "Version": 832,
+    "TemplateVariableName": "Jaskolski Group",
     "HasBeenPublished": false,
-    "MdoListName": "Friesen-Hand",
+    "MdoListName": "Batz, Smitham and Shields",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 52
       }
     }
   }

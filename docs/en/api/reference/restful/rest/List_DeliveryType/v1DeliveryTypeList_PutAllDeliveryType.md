@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Conroy Group",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "UdListDefinitionId": 469,
-    "Rank": 157
+    "Id": 264,
+    "Name": "Gulgowski-Reichert",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "UdListDefinitionId": 804,
+    "Rank": 612
   },
   {
-    "Id": 312,
-    "Name": "Conroy Group",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "UdListDefinitionId": 469,
-    "Rank": 157
+    "Id": 264,
+    "Name": "Gulgowski-Reichert",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "UdListDefinitionId": 804,
+    "Rank": 612
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Kris Group",
-    "Tooltip": "eum",
+    "Id": 807,
+    "Name": "West-Howe",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 650,
-    "Rank": 534,
+    "UdListDefinitionId": 439,
+    "Rank": 784,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 912
+        "FieldType": "System.Int32",
+        "FieldLength": 947
       }
     }
   }

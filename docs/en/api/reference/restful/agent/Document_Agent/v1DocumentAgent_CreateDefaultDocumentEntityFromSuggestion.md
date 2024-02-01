@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 903
+  "SuggestedDocumentId": 225
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 318,
+  "DocumentId": 736,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "autem",
-  "Name": "Kihn-Kuvalis",
-  "OurRef": "perspiciatis",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2007-01-06T13:57:12.199869+01:00",
-  "UpdatedDate": "2012-12-22T13:57:12.199869+01:00",
-  "Description": "Self-enabling asynchronous approach",
+  "Attention": "hic",
+  "Header": "odio",
+  "Name": "Emmerich, Lowe and Ward",
+  "OurRef": "molestiae",
+  "YourRef": "animi",
+  "CreatedDate": "1998-01-21T23:03:55.8281379+01:00",
+  "UpdatedDate": "1998-11-18T23:03:55.8281379+01:00",
+  "Description": "Visionary assymetric encoding",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-05-18T13:57:12.199869+02:00",
-  "ExternalRef": "accusantium",
+  "Date": "2002-12-15T23:03:55.8316382+01:00",
+  "ExternalRef": "tenetur",
   "Completed": "Completed",
-  "ActiveLinks": 411,
+  "ActiveLinks": 683,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koss, Wuckert and Toy",
-      "Id": 999,
-      "Description": "Ameliorated even-keeled policy",
-      "ExtraInfo": "quidem",
-      "LinkId": 904,
+      "EntityName": "King Inc and Sons",
+      "Id": 866,
+      "Description": "Sharable zero defect open system",
+      "ExtraInfo": "quos",
+      "LinkId": 313,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 775
+          "FieldType": "System.Int32",
+          "FieldLength": 439
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 329,
-  "Snum": 828,
+  "SuggestedDocumentId": 288,
+  "Snum": 289,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jackie O'Hara",
-    "SuperOffice:2": "Mr. Roxanne Volkman V"
+    "SuperOffice:1": "824497580",
+    "SuperOffice:2": "Miss Soledad Heidenreich"
   },
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "quas",
+    "ExtraFields2": "commodi"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "fugit"
+    "CustomFields1": "minus",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "2010-12-21T13:57:12.199869+01:00",
-  "PublishTo": "1999-09-07T13:57:12.199869+02:00",
-  "PublishFrom": "2000-05-08T13:57:12.199869+02:00",
+  "PublishEventDate": "2012-07-05T23:03:55.8321334+02:00",
+  "PublishTo": "2016-03-12T23:03:55.8321334+01:00",
+  "PublishFrom": "2011-09-19T23:03:55.8321334+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 321,
+      "VisibleId": 596,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldType": "System.String",
+          "FieldLength": 309
         }
       }
     },
     {
-      "VisibleId": 321,
+      "VisibleId": 596,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldType": "System.String",
+          "FieldLength": 309
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 806
+      "FieldLength": 708
     }
   }
 }

@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 758,
-  "ColumnId": 598,
-  "FieldDefault": "odio",
-  "FieldHeight": 524,
-  "FieldLabel": "sequi",
-  "FieldLeft": 655,
-  "FieldTop": 881,
+  "UDefFieldId": 315,
+  "ColumnId": 301,
+  "FieldDefault": "magni",
+  "FieldHeight": 192,
+  "FieldLabel": "omnis",
+  "FieldLeft": 820,
+  "FieldTop": 868,
   "FieldType": "Checkbox",
-  "FieldWidth": 644,
-  "FormatMask": "sapiente",
+  "FieldWidth": 768,
+  "FormatMask": "et",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 72,
-  "LabelLeft": 804,
-  "LabelTop": 969,
-  "LabelWidth": 172,
-  "LastVersionId": 766,
-  "ListTableId": 577,
+  "LabelHeight": 835,
+  "LabelLeft": 965,
+  "LabelTop": 238,
+  "LabelWidth": 699,
+  "LastVersionId": 314,
+  "ListTableId": 918,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 280,
-  "ProgId": "autem",
-  "IsReadOnly": true,
-  "ShortLabel": "quae",
-  "TabOrder": 335,
-  "TextLength": 633,
-  "Tooltip": "facilis",
-  "UdefIdentity": 542,
-  "UDListDefinitionId": 110,
+  "Page1LineNo": 490,
+  "ProgId": "possimus",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatum",
+  "TabOrder": 832,
+  "TextLength": 120,
+  "Tooltip": "earum",
+  "UdefIdentity": 288,
+  "UDListDefinitionId": 749,
   "Justification": "Center",
-  "Version": 547,
-  "TemplateVariableName": "Olson-Schamberger",
+  "Version": 431,
+  "TemplateVariableName": "Sipes-Beer",
   "HasBeenPublished": false,
-  "MdoListName": "Kertzmann-Waelchi",
+  "MdoListName": "Gaylord-Witting",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 115
     }
   }
 }

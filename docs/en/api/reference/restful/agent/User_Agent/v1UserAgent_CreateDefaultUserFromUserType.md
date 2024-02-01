@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 119,
-  "Name": "Jakubowski, Moore and Haag",
-  "Rank": 26,
-  "Tooltip": "ut",
+  "AssociateId": 615,
+  "Name": "Hackett-Crooks",
+  "Rank": 893,
+  "Tooltip": "voluptatum",
   "LicenseOwners": [
     {
-      "Name": "Blick, Monahan and Kulas",
-      "Description": "Multi-layered object-oriented circuit",
+      "Name": "Rice-Smith",
+      "Description": "Extended transitional ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 222
+          "FieldLength": 175
         }
       }
     },
     {
-      "Name": "Blick, Monahan and Kulas",
-      "Description": "Multi-layered object-oriented circuit",
+      "Name": "Rice-Smith",
+      "Description": "Extended transitional ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 222
+          "FieldLength": 175
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quisquam",
-      "Tooltip": "aut",
-      "Id": 453,
-      "Rank": 132,
-      "Deleted": true,
+      "Value": "voluptate",
+      "Tooltip": "quia",
+      "Id": 963,
+      "Rank": 628,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 389
+          "FieldType": "System.Int32",
+          "FieldLength": 974
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2007-04-12T13:57:13.583338+02:00",
-  "Lastlogout": "2009-12-17T13:57:13.583338+01:00",
-  "EjUserId": 222,
-  "RequestSignature": "modi",
+  "Lastlogin": "2021-11-27T23:03:57.6151067+01:00",
+  "Lastlogout": "1999-12-30T23:03:57.6156064+01:00",
+  "EjUserId": 409,
+  "RequestSignature": "sed",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "eos",
-      "DisplayValue": "sit",
+      "Value": "harum",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldType": "System.String",
+          "FieldLength": 287
         }
       }
     },
     {
       "Type": null,
-      "Value": "eos",
-      "DisplayValue": "sit",
+      "Value": "harum",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldType": "System.String",
+          "FieldLength": 287
         }
       }
     }
   ],
-  "UserName": "Muller-Wilkinson",
+  "UserName": "Rempel, Hoeger and Littel",
   "TicketCategories": [
     {
-      "Id": 684,
-      "Name": "Batz-Herman",
-      "ToolTip": "Ea temporibus ipsa inventore et perferendis voluptas.",
+      "Id": 602,
+      "Name": "Bogan-Pfannerstill",
+      "ToolTip": "Placeat accusantium quo similique numquam.",
       "Deleted": false,
-      "Rank": 71,
-      "Type": "hic",
+      "Rank": 235,
+      "Type": "itaque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
-      "ColorBlock": 153,
-      "ExtraInfo": "vel",
-      "StyleHint": "impedit",
-      "FullName": "Mr. Humberto Will Moore MD",
+      "IconHint": "accusamus",
+      "ColorBlock": 843,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "consequatur",
+      "FullName": "Mrs. Rosario Price PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 183
         }
       }
     }
   ],
-  "NickName": "O'Reilly Inc and Sons",
-  "WaitingForApproval": true,
+  "NickName": "O'Keefe-Purdy",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "ullam"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "quos"
+    "CustomFields1": "et",
+    "CustomFields2": "laborum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Langworth LLC",
-      "DisplayName": "Ferry LLC",
-      "Description": "Re-contextualized bifurcated methodology",
-      "ToolTip": "Qui facere non alias reiciendis veniam.",
+      "Name": "Predovic, Stracke and Yost",
+      "DisplayName": "Gutkowski, Anderson and Hessel",
+      "Description": "Cross-group actuating leverage",
+      "ToolTip": "Ut neque labore.",
       "Actions": "Implicit",
-      "ActionData": "explicabo",
+      "ActionData": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldLength": 290
         }
       }
     }
@@ -279,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldType": "System.String",
+      "FieldLength": 936
     }
   }
 }

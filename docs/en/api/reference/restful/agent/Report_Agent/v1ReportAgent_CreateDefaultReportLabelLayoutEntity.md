@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 63,
-  "Name": "Hamill, Beatty and Nader",
-  "Description": "Decentralized motivating forecast",
+  "ReportLabelLayoutId": 234,
+  "Name": "Kertzmann, Bergnaum and Stark",
+  "Description": "Total asynchronous standardization",
   "Orientation": "Landscape",
-  "PaperWidth": 363,
-  "PaperHeight": 816,
-  "LeftMargin": 727,
-  "RightMargin": 699,
-  "TopMargin": 288,
-  "BottomMargin": 880,
-  "CountColumns": 436,
-  "CountRows": 358,
+  "PaperWidth": 813,
+  "PaperHeight": 844,
+  "LeftMargin": 858,
+  "RightMargin": 202,
+  "TopMargin": 530,
+  "BottomMargin": 994,
+  "CountColumns": 170,
+  "CountRows": 816,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldType": "System.Int32",
+      "FieldLength": 787
     }
   }
 }

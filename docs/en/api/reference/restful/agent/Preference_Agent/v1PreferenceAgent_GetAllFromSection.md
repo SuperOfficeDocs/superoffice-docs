@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "veritatis"
+  "Section": "tempore"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 804,
-    "Section": "modi",
-    "Key": "neque",
-    "Name": "Rice LLC",
+    "PrefDescId": 994,
+    "Section": "molestiae",
+    "Key": "et",
+    "Name": "Huel, Ziemann and Smith",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Team-oriented static solution",
-    "IsBuiltin": true,
-    "TableName": "Gorczany Group",
-    "UserDefinedListId": 210,
-    "Rank": 458,
-    "SubGroup": "recusandae",
-    "MinLevel": 520,
-    "MaxValue": 529,
-    "MinValue": 155,
-    "RequiredLicense": "quo",
+    "Description": "Monitored client-server capacity",
+    "IsBuiltin": false,
+    "TableName": "Lubowitz Group",
+    "UserDefinedListId": 569,
+    "Rank": 756,
+    "SubGroup": "explicabo",
+    "MinLevel": 314,
+    "MaxValue": 69,
+    "MinValue": 816,
+    "RequiredLicense": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 879
+        "FieldType": "System.Int32",
+        "FieldLength": 159
       }
     }
   }

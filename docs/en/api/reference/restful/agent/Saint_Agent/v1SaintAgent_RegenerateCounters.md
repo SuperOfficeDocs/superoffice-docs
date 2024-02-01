@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 246,
-  "Name": "Hessel, Schowalter and Runolfsdottir",
-  "AssociateId": 140,
-  "DetailsTable": 835,
-  "DetailsRecord": 441,
+  "Id": 147,
+  "Name": "O'Conner, McKenzie and Streich",
+  "AssociateId": 904,
+  "DetailsTable": 864,
+  "DetailsRecord": 979,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "officiis",
-    "ParameterObject2": "sed"
+    "ParameterObject1": "ratione",
+    "ParameterObject2": "autem"
   },
-  "LastStarted": "2005-12-05T13:57:13.1131378+01:00",
-  "Created": "2012-10-22T13:57:13.1131378+02:00",
-  "StartCount": 516,
-  "DatabaseSerialNumber": "1226512",
-  "Context": "esse",
+  "LastStarted": "1998-10-13T23:03:56.8486173+02:00",
+  "Created": "2006-10-05T23:03:56.8486173+02:00",
+  "StartCount": 637,
+  "DatabaseSerialNumber": "1563945",
+  "Context": "sed",
   "Result": "illum",
   "State": "All",
-  "Description": "Function-based exuding structure",
-  "Response": "soluta",
+  "Description": "Organized web-enabled benchmark",
+  "Response": "repellendus",
   "Request": "voluptatem",
-  "ProgressDescription": "Synchronised responsive service-desk",
-  "ProgressPercent": 543,
-  "FileName": "Gibson Inc and Sons",
+  "ProgressDescription": "Inverse maximized policy",
+  "ProgressPercent": 906,
+  "FileName": "Wisozk LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

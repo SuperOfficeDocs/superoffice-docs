@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/Task/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,16 +77,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 886,
-  "Value": "in",
+  "TaskListItemId": 186,
+  "Value": "magnam",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "IntentId": 453,
-  "Rank": 40,
+  "Tooltip": "alias",
+  "Deleted": false,
+  "IntentId": 479,
+  "Rank": 946,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 148
     }
   }
 }

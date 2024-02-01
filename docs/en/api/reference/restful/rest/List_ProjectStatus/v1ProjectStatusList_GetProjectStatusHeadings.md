@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 860,
-    "Name": "Rogahn Inc and Sons",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 364,
-    "UdListDefinitionId": 340,
+    "HeadingId": 613,
+    "Name": "Hane, Eichmann and Hayes",
+    "Tooltip": "eligendi",
+    "Deleted": true,
+    "Rank": 598,
+    "UdListDefinitionId": 85,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 46
       }
     }
   }

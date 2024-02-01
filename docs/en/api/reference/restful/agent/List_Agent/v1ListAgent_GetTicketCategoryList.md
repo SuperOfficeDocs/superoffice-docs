@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 467,
-    "ParentId": 857,
-    "Name": "Powlowski, Paucek and Cartwright",
-    "Fullname": "quaerat",
-    "CategoryMaster": 914,
+    "TicketCategoryId": 416,
+    "ParentId": 665,
+    "Name": "Schiller-Sanford",
+    "Fullname": "ratione",
+    "CategoryMaster": 712,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kunze, Heidenreich and Keeling",
+    "ExternalName": "Stoltenberg Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 675,
-    "ReplyTemplate": 126,
-    "NotificationEmail": "celestino.macejkovic@dickinson.info",
+    "AssignmentLag": 887,
+    "ReplyTemplate": 970,
+    "NotificationEmail": "raphael_bogan@farrell.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 178,
+    "EffectiveReplyTemplateId": 985,
     "ExtraFields": {
-      "ExtraFields1": "labore",
-      "ExtraFields2": "doloremque"
+      "ExtraFields1": "ducimus",
+      "ExtraFields2": "incidunt"
     },
     "CustomFields": {
-      "CustomFields1": "praesentium",
-      "CustomFields2": "itaque"
+      "CustomFields1": "dolores",
+      "CustomFields2": "voluptates"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 436
       }
     }
   }

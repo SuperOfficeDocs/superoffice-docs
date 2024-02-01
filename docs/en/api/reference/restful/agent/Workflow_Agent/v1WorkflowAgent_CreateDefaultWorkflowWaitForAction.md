@@ -1,34 +1,24 @@
 ---
-title: POST Agents/List/GetTicketType
-uid: v1ListAgent_GetTicketType
+title: POST Agents/Workflow/CreateDefaultWorkflowWaitForAction
+uid: v1WorkflowAgent_CreateDefaultWorkflowWaitForAction
 generated: true
 ---
 
-# POST Agents/List/GetTicketType
+# POST Agents/Workflow/CreateDefaultWorkflowWaitForAction
 
 ```http
-POST /api/v1/Agents/List/GetTicketType
+POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 ```
 
-Gets a TicketType object.
+Set default values into a new WorkflowWaitForAction.
+
+
+NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
 
 
-
-
-## Query String Parameters
-
-| Parameter Name | Type |  Description |
-|----------------|------|--------------|
-| ticketTypeId | int32 | **Required** The primary key. |
-| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
-
-```http
-POST /api/v1/Agents/List/GetTicketType?ticketTypeId=862
-POST /api/v1/Agents/List/GetTicketType?$select=name,department,category/id
-```
 
 
 ## Request Headers
@@ -53,23 +43,26 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TicketType
+### Response body: WorkflowWaitForAction
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The List Item Id |
-| Value | string | The List Item Value |
-| Tooltip | string | The List Item Tooltip |
+| WorkflowWaitForActionId | int32 | Primary key |
+| WorkflowStepId | int32 | The workflow step this instance belongs to |
+| WorkflowId | int32 | The flow this instance belongs to |
+| Rank | int32 | The rank of this action |
+| ActionType | string | The type of action |
+| RestrictionGroups | array | The restrictions (can be multiple groups) that make up the Workflow action criteria |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
 ```http!
-POST /api/v1/Agents/List/GetTicketType
+POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,15 +72,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 684,
-  "Value": "eius",
-  "Tooltip": "accusantium",
+  "WorkflowWaitForActionId": 956,
+  "WorkflowStepId": 305,
+  "WorkflowId": 750,
+  "Rank": 373,
+  "ActionType": "FormSubmitted",
+  "RestrictionGroups": [
+    {
+      "Name": "Luettgen-Wisoky",
+      "Description": "Devolved non-volatile installation",
+      "Rank": 340,
+      "Restrictions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "Name": "Luettgen-Wisoky",
+      "Description": "Devolved non-volatile installation",
+      "Rank": 340,
+      "Restrictions": [
+        {},
+        {}
+      ]
+    }
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

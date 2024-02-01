@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=praesentium
+GET /api/v1/List/PaymentTerm/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Haley, Sipes and Denesik",
-    "ToolTip": "Alias quis id similique sapiente distinctio.",
+    "Id": 53,
+    "Name": "Johnson, Bashirian and Douglas",
+    "ToolTip": "Deleniti qui qui cupiditate aut sed voluptates quia.",
     "Deleted": false,
-    "Rank": 772,
-    "Type": "unde",
+    "Rank": 813,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Rippin, Dibbert and Gorczany",
-        "ToolTip": "Vel impedit qui doloremque enim qui.",
-        "Deleted": true,
-        "Rank": 511,
-        "Type": "repudiandae",
+        "Id": 340,
+        "Name": "Langworth, Kshlerin and Prosacco",
+        "ToolTip": "Et minus facilis iste maxime nesciunt quis minus.",
+        "Deleted": false,
+        "Rank": 487,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 547,
-        "ExtraInfo": "quo",
-        "StyleHint": "ratione",
-        "FullName": "Kurtis Adams",
+        "IconHint": "aspernatur",
+        "ColorBlock": 182,
+        "ExtraInfo": "error",
+        "StyleHint": "rerum",
+        "FullName": "Mrs. Morgan Casper Bauch Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldType": "System.String",
+            "FieldLength": 912
           }
         }
       }
     ],
-    "IconHint": "ex",
-    "ColorBlock": 609,
-    "ExtraInfo": "et",
-    "StyleHint": "recusandae",
-    "FullName": "Ms. Aurelia Jovanny Heaney",
+    "IconHint": "provident",
+    "ColorBlock": 122,
+    "ExtraInfo": "eum",
+    "StyleHint": "aut",
+    "FullName": "Miss Louie Whitney Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldType": "System.String",
+        "FieldLength": 853
       }
     }
   }

@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 659,
-      "ContactName": "Hand Inc and Sons",
-      "PersonId": 622,
-      "PersonName": "Bernhard, Hane and Davis",
-      "AssociateId": 505,
-      "Address": "consectetur",
-      "EmailId": 247,
+      "ContactId": 7,
+      "ContactName": "Jakubowski LLC",
+      "PersonId": 728,
+      "PersonName": "Johnston LLC",
+      "AssociateId": 381,
+      "Address": "aliquam",
+      "EmailId": 982,
       "DuplicatePersonIds": [
-        56,
-        286
+        19,
+        680
       ],
-      "Name": "Satterfield, Leffler and Grant",
+      "Name": "Kutch, Welch and Schaefer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 447
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 198,
-      "ContactName": "Stehr, Bednar and Rodriguez",
-      "PersonId": 340,
-      "PersonName": "Schaden-Sawayn",
-      "AssociateId": 777,
-      "Address": "consequuntur",
-      "EmailId": 880,
+      "ContactId": 775,
+      "ContactName": "Pouros-Gleichner",
+      "PersonId": 367,
+      "PersonName": "Paucek-Flatley",
+      "AssociateId": 350,
+      "Address": "magnam",
+      "EmailId": 791,
       "DuplicatePersonIds": [
-        106,
-        306
+        668,
+        415
       ],
-      "Name": "Harvey, Torphy and Bradtke",
+      "Name": "Waelchi-Kub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldLength": 641
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 712,
-      "ContactName": "Pfannerstill-Monahan",
-      "PersonId": 322,
-      "PersonName": "Wolf-Volkman",
-      "AssociateId": 557,
-      "Address": "assumenda",
-      "EmailId": 176,
+      "ContactId": 957,
+      "ContactName": "Treutel, Kiehn and Streich",
+      "PersonId": 426,
+      "PersonName": "Cole Group",
+      "AssociateId": 586,
+      "Address": "id",
+      "EmailId": 95,
       "DuplicatePersonIds": [
-        250,
-        573
+        498,
+        734
       ],
-      "Name": "Barton Group",
+      "Name": "Skiles-Boehm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldLength": 529
         }
       }
     }
   ],
-  "Subject": "earum",
-  "HTMLBody": "ut",
+  "Subject": "et",
+  "HTMLBody": "cumque",
   "From": null,
-  "Sent": "2012-12-23T13:57:12.313052+01:00",
-  "Size": 947,
+  "Sent": "2023-03-09T23:03:55.9691296+01:00",
+  "Size": 427,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quasi",
-  "PlainBody": "minima",
+  "MessageID": "et",
+  "PlainBody": "accusamus",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 5,
+  "ServerId": 51,
   "Attachments": [
     {
-      "Description": "Operative methodical projection",
-      "Filename": "est",
-      "Size": 615,
-      "Type": "assumenda",
-      "Encoding": "et",
-      "Id": "minus",
-      "Disposition": "dolor",
+      "Description": "Cloned zero tolerance access",
+      "Filename": "sunt",
+      "Size": 198,
+      "Type": "nesciunt",
+      "Encoding": "sunt",
+      "Id": "praesentium",
+      "Disposition": "ullam",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 750
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schowalter-Oberbrunner",
+      "Name": "Cartwright-Walsh",
       "Values": [
-        "quidem",
-        "quod"
+        "et",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldLength": 85
         }
       }
     },
     {
-      "Name": "Schowalter-Oberbrunner",
+      "Name": "Cartwright-Walsh",
       "Values": [
-        "quidem",
-        "quod"
+        "et",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldLength": 85
         }
       }
     }
   ],
-  "FolderName": "Hahn Group",
-  "EmailItemId": 758,
-  "AccountId": 667,
-  "ReceivedAt": "2010-01-10T13:57:12.313052+01:00",
+  "FolderName": "Hand Inc and Sons",
+  "EmailItemId": 790,
+  "AccountId": 307,
+  "ReceivedAt": "2011-06-10T23:03:55.9691296+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-10-03T13:57:12.313052+02:00",
+  "RepliedAt": "2000-03-17T23:03:55.9691296+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 328
     }
   }
 }

@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 563,
-  "AttachmentId": "ea"
+  "DocId": 246,
+  "AttachmentId": "dolorum"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic neutral capability",
-  "Filename": "atque",
-  "Size": 396,
-  "Type": "aut",
-  "Encoding": "error",
-  "Id": "omnis",
-  "Disposition": "reiciendis",
+  "Description": "Organic eco-centric time-frame",
+  "Filename": "eius",
+  "Size": 165,
+  "Type": "dolorem",
+  "Encoding": "eum",
+  "Id": "unde",
+  "Disposition": "enim",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 14
     }
   }
 }

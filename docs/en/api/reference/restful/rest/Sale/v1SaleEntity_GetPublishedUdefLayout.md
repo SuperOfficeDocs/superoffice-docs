@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 230,
-    "ColumnId": 331,
-    "FieldDefault": "enim",
-    "FieldHeight": 197,
-    "FieldLabel": "qui",
-    "FieldLeft": 250,
-    "FieldTop": 228,
+    "UDefFieldId": 444,
+    "ColumnId": 750,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 65,
+    "FieldLabel": "labore",
+    "FieldLeft": 874,
+    "FieldTop": 280,
     "FieldType": "Checkbox",
-    "FieldWidth": 624,
-    "FormatMask": "et",
+    "FieldWidth": 741,
+    "FormatMask": "dolorum",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 729,
-    "LabelLeft": 771,
-    "LabelTop": 699,
-    "LabelWidth": 255,
-    "LastVersionId": 983,
-    "ListTableId": 994,
-    "IsMandatory": false,
+    "IsIndexed": true,
+    "LabelHeight": 939,
+    "LabelLeft": 956,
+    "LabelTop": 461,
+    "LabelWidth": 749,
+    "LastVersionId": 678,
+    "ListTableId": 844,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 77,
-    "ProgId": "dolorum",
+    "Page1LineNo": 880,
+    "ProgId": "quae",
     "IsReadOnly": false,
-    "ShortLabel": "eum",
-    "TabOrder": 215,
-    "TextLength": 641,
-    "Tooltip": "ea",
-    "UdefIdentity": 697,
-    "UDListDefinitionId": 320,
+    "ShortLabel": "ut",
+    "TabOrder": 268,
+    "TextLength": 397,
+    "Tooltip": "ut",
+    "UdefIdentity": 195,
+    "UDListDefinitionId": 807,
     "Justification": "Center",
-    "Version": 954,
-    "TemplateVariableName": "Kunze LLC",
+    "Version": 3,
+    "TemplateVariableName": "Rolfson Group",
     "HasBeenPublished": false,
-    "MdoListName": "Schroeder Inc and Sons",
+    "MdoListName": "Langosh, Strosin and Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

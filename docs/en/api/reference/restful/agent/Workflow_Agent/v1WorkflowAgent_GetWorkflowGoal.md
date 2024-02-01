@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=15
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=526
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 528,
-  "WorkflowId": 942,
+  "WorkflowGoalId": 231,
+  "WorkflowId": 180,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Towne, Halvorson and Walsh",
-      "Description": "Stand-alone tangible methodology",
-      "Rank": 985,
+      "Name": "Wiza-Ledner",
+      "Description": "Devolved global benchmark",
+      "Rank": 992,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Towne, Halvorson and Walsh",
-      "Description": "Stand-alone tangible methodology",
-      "Rank": 985,
+      "Name": "Wiza-Ledner",
+      "Description": "Devolved global benchmark",
+      "Rank": 992,
       "Restrictions": [
         {},
         {}
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   }
 }

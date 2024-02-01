@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 72,
-  "Name": "Watsica, Lebsack and Sipes",
-  "CreatedDate": "2020-10-26T13:57:18.8109737+01:00",
-  "UpdatedDate": "2001-11-23T13:57:18.8109737+01:00",
-  "AssociateFullName": "Prof. Eloise Shanie Ebert I",
-  "CreatedBy": "sapiente",
-  "UpdatedBy": "quidem",
-  "DeviceIdentifier": "cum",
-  "ForeignAppId": 488
+  "ForeignDeviceId": 918,
+  "Name": "Hartmann, Johns and Bergstrom",
+  "CreatedDate": "2007-01-25T23:04:04.2240168+01:00",
+  "UpdatedDate": "2011-08-15T23:04:04.2240168+02:00",
+  "AssociateFullName": "Ted Lupe O'Hara V",
+  "CreatedBy": "aliquid",
+  "UpdatedBy": "deserunt",
+  "DeviceIdentifier": "assumenda",
+  "ForeignAppId": 116
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 75,
-  "Name": "Stiedemann, Deckow and Weber",
-  "CreatedDate": "1998-03-06T13:57:18.8109737+01:00",
-  "UpdatedDate": "2011-08-29T13:57:18.8109737+02:00",
-  "AssociateFullName": "Zander Schimmel",
-  "CreatedBy": "temporibus",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "consequatur",
-  "ForeignAppId": 393,
+  "ForeignDeviceId": 565,
+  "Name": "Bode Inc and Sons",
+  "CreatedDate": "2019-06-12T23:04:04.2245178+02:00",
+  "UpdatedDate": "2002-09-08T23:04:04.2245178+02:00",
+  "AssociateFullName": "Wallace Kling",
+  "CreatedBy": "sint",
+  "UpdatedBy": "nihil",
+  "DeviceIdentifier": "saepe",
+  "ForeignAppId": 218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 517
     }
   }
 }

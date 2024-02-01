@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 45,
-  "LanguageId": 222,
-  "PersonId": 149,
-  "TicketId": 646
+  "ReplyTemplateId": 733,
+  "LanguageId": 639,
+  "PersonId": 1001,
+  "TicketId": 748
 }
 ```
 
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 255,
-  "PlainParsed": "omnis",
-  "HtmlParsed": "voluptas",
+  "ReplyTemplateId": 713,
+  "PlainParsed": "voluptates",
+  "HtmlParsed": "et",
   "Attachments": [
     {
-      "AttachmentId": 499,
-      "Name": "Ortiz, Rogahn and Conn",
-      "ContentType": "sint",
-      "AttSize": 37,
-      "InlineImage": true,
-      "ContentId": "aliquam",
-      "AuthKey": "eum",
+      "AttachmentId": 71,
+      "Name": "Hammes-Fay",
+      "ContentType": "nisi",
+      "AttSize": 28,
+      "InlineImage": false,
+      "ContentId": "distinctio",
+      "AuthKey": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldType": "System.String",
+          "FieldLength": 815
         }
       }
     }
   ],
-  "Subject": "voluptatem",
+  "Subject": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldLength": 10
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=773
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=210
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 482,
-  "FormKey": "aut",
-  "Name": "Kiehn, Kohler and Langworth",
-  "Description": "Multi-layered empowering moratorium",
-  "Config": "eos",
-  "FolderId": 496,
-  "ScriptId": 801,
-  "ResponseShipmentId": 542,
+  "FormId": 213,
+  "FormKey": "est",
+  "Name": "King Group",
+  "Description": "Polarised global help-desk",
+  "Config": "et",
+  "FolderId": 927,
+  "ScriptId": 189,
+  "ResponseShipmentId": 296,
   "Active": false,
-  "Expires": "2006-11-29T13:57:12.591212+01:00",
-  "MaxSubmits": 603,
+  "Expires": "2000-01-09T23:03:56.3286262+01:00",
+  "MaxSubmits": 559,
   "Type": "Normal",
-  "Recipe": "deleniti",
-  "GroupId": 349,
-  "NewTicket": true,
+  "Recipe": "harum",
+  "GroupId": 321,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2002-07-20T13:57:12.591212+02:00",
-  "RegisteredAssociateId": 262,
-  "Updated": "2005-02-20T13:57:12.591212+01:00",
-  "UpdatedAssociateId": 842,
-  "UpdatedCount": 412,
-  "FolderName": "Nader Inc and Sons",
+  "Registered": "2019-06-10T23:03:56.3286262+02:00",
+  "RegisteredAssociateId": 930,
+  "Updated": "2002-04-14T23:03:56.3286262+02:00",
+  "UpdatedAssociateId": 912,
+  "UpdatedCount": 229,
+  "FolderName": "Thiel-Lemke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 54
     }
   }
 }

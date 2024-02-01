@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Torp Group"
+  "TaskName": "Reynolds, Volkman and Rippin"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Denesik-Nolan",
-    "AssociateId": 436,
-    "DetailsTable": 438,
-    "DetailsRecord": 80,
-    "IsSystemTask": false,
+    "Id": 527,
+    "Name": "Tremblay, Kuhn and VonRueden",
+    "AssociateId": 419,
+    "DetailsTable": 265,
+    "DetailsRecord": 360,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "tempora",
-      "ParameterObject2": "dolorem"
+      "ParameterObject1": "veritatis",
+      "ParameterObject2": "sed"
     },
-    "LastStarted": "2015-01-31T13:57:11.5594343+01:00",
-    "Created": "2012-09-21T13:57:11.5594343+02:00",
-    "StartCount": 454,
-    "DatabaseSerialNumber": "1299667",
-    "Context": "nihil",
-    "Result": "ipsam",
+    "LastStarted": "2005-10-15T23:03:55.027148+02:00",
+    "Created": "2009-09-18T23:03:55.027148+02:00",
+    "StartCount": 137,
+    "DatabaseSerialNumber": "1296638",
+    "Context": "et",
+    "Result": "sit",
     "State": "All",
-    "Description": "Stand-alone maximized synergy",
-    "Response": "sed",
-    "Request": "sit",
-    "ProgressDescription": "Switchable cohesive emulation",
-    "ProgressPercent": 474,
-    "FileName": "VonRueden-Hills",
+    "Description": "Universal bandwidth-monitored core",
+    "Response": "eius",
+    "Request": "minima",
+    "ProgressDescription": "Seamless systematic analyzer",
+    "ProgressPercent": 251,
+    "FileName": "Schneider Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 866
       }
     }
   }

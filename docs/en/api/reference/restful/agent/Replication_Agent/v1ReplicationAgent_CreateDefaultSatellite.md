@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 430,
-  "Created": "2012-06-23T13:57:13.0961896+02:00",
+  "SatelliteId": 39,
+  "Created": "2019-01-28T23:03:56.8186172+01:00",
   "CreatedBy": null,
-  "Updated": "2003-02-05T13:57:13.0961896+01:00",
+  "Updated": "2002-01-22T23:03:56.8186172+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Lockman LLC",
-      "Description": "Assimilated systematic initiative",
+      "Name": "Friesen, Emmerich and Heathcote",
+      "Description": "De-engineered interactive neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     },
     {
-      "Name": "Lockman LLC",
-      "Description": "Assimilated systematic initiative",
+      "Name": "Friesen, Emmerich and Heathcote",
+      "Description": "De-engineered interactive neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 519
     }
   }
 }

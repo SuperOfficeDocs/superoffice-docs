@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 288,
-  "WritableUrl": false,
-  "LanguageCode": "voluptatem"
+  "DocumentTemplateId": 293,
+  "WritableUrl": true,
+  "LanguageCode": "iure"
 }
 ```
 

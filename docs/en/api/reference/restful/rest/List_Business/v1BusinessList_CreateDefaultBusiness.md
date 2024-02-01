@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Schaefer-Davis",
-  "Tooltip": "minus",
+  "Id": 883,
+  "Name": "Ward-Hauck",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 442,
-  "Rank": 603,
+  "UdListDefinitionId": 472,
+  "Rank": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 215
     }
   }
 }

@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Corkery-Wolf",
-    "DisplayName": "Considine Inc and Sons",
-    "DisplayTooltip": "alias",
+    "Name": "Zboncak-Kuhlman",
+    "DisplayName": "Bergnaum LLC",
+    "DisplayTooltip": "rerum",
     "IsActive": false
   },
   {
-    "Name": "Corkery-Wolf",
-    "DisplayName": "Considine Inc and Sons",
-    "DisplayTooltip": "alias",
+    "Name": "Zboncak-Kuhlman",
+    "DisplayName": "Bergnaum LLC",
+    "DisplayTooltip": "rerum",
     "IsActive": false
   }
 ]

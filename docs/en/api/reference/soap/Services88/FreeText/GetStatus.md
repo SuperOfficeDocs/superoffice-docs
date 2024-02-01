@@ -67,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <FreeText:MultiWordOperator xsi:type="FreeText:FreeTextOperator">Contains</FreeText:MultiWordOperator>
     <FreeText:CountWords xsi:type="xsd:int">0</FreeText:CountWords>
     <FreeText:Occurrences xsi:type="xsd:int">0</FreeText:Occurrences>
-    <FreeText:LastGenerated xsi:type="xsd:dateTime">2023-12-07T12:55:45Z</FreeText:LastGenerated>
+    <FreeText:LastGenerated xsi:type="xsd:dateTime">2024-01-18T22:02:27Z</FreeText:LastGenerated>
     <FreeText:AutoEnableTravelAreas xsi:type="xsd:boolean">false</FreeText:AutoEnableTravelAreas>
    </FreeText:Response>
   </FreeText:GetStatusResponse>

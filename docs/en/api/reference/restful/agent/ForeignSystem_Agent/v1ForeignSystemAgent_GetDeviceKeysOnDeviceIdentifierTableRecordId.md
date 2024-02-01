@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wyman LLC",
-  "DeviceName": "Auer-Senger",
-  "DeviceIdentifier": "quis",
-  "TableName": "Corkery-O'Hara",
-  "RecordId": 367
+  "ApplicationName": "Welch LLC",
+  "DeviceName": "Schaefer, Pfannerstill and Keeling",
+  "DeviceIdentifier": "veritatis",
+  "TableName": "Swaniawski, Ziemann and Jenkins",
+  "RecordId": 614
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "eum",
-    "Value": "totam",
-    "RecordId": 45,
-    "CreatedDate": "1996-11-27T13:57:12.4337359+01:00",
-    "UpdatedDate": "2018-01-10T13:57:12.4337359+01:00",
-    "UpdatedBy": "est",
-    "CreatedBy": "consequatur",
-    "TableName": "Erdman-Jast",
+    "Key": "vero",
+    "Value": "cum",
+    "RecordId": 280,
+    "CreatedDate": "2006-07-11T23:03:56.1251267+02:00",
+    "UpdatedDate": "2015-10-30T23:03:56.1251267+01:00",
+    "UpdatedBy": "repellendus",
+    "CreatedBy": "architecto",
+    "TableName": "Hyatt-Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 668
       }
     }
   }

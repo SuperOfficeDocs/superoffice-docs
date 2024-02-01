@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 688,
-  "Name": "Ebert Inc and Sons",
+  "SelectionId": 740,
+  "Name": "Nolan, Jacobs and Schulist",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored 3rd generation help-desk",
-  "Postit": "modi",
+  "Description": "Universal regional implementation",
+  "Postit": "distinctio",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 517,
-  "IncludePerson": 976,
-  "MemberCount": 827,
-  "Name": "Walsh, Jast and Ullrich",
-  "PostitTextId": 816,
-  "CreatedDate": "2014-10-29T13:57:13.2071528+01:00",
-  "SelectionId": 906,
-  "SoundEx": "quaerat",
-  "Source": 14,
-  "TextId": 624,
-  "UpdatedDate": "1999-11-06T13:57:13.2071528+01:00",
-  "UpdatedCount": 511,
-  "Visibility": 263,
+  "GroupIdx": 631,
+  "IncludePerson": 499,
+  "MemberCount": 51,
+  "Name": "Smitham, Beier and Nader",
+  "PostitTextId": 143,
+  "CreatedDate": "2017-11-03T23:03:57.1121135+01:00",
+  "SelectionId": 651,
+  "SoundEx": "quo",
+  "Source": 696,
+  "TextId": 22,
+  "UpdatedDate": "2010-08-17T23:03:57.1121135+02:00",
+  "UpdatedCount": 563,
+  "Visibility": 452,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 69,
-  "TargetTableName": "Gutkowski, Hermann and Crooks",
-  "Completed": false,
-  "LeftSelectionId": 813,
-  "RightSelectionId": 150,
+  "TargetTableNumber": 541,
+  "TargetTableName": "Crist Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 595,
+  "RightSelectionId": 254,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Balistreri LLC",
-  "ShadowProviderName": "Okuneva, Johnston and Konopelski",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2003-03-06T13:57:13.2071528+01:00",
-  "LastLoadedBy": 135,
+  "MainProviderName": "Tromp-Koch",
+  "ShadowProviderName": "Dibbert LLC",
+  "ChartKey": "unde",
+  "LastLoaded": "2011-10-01T23:03:57.1121135+02:00",
+  "LastLoadedBy": 89,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-07-04T13:57:13.2071528+02:00",
-  "LastMembershipChangeBy": 206,
+  "LastMembershipChange": "2021-09-11T23:03:57.1126145+02:00",
+  "LastMembershipChangeBy": 137,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quisquam",
-  "MemberTabHeading": "facere",
-  "MailingsProviderName": "Gaylord-Kertzmann",
-  "DashboardTileDefinitionId": 297,
+  "MainHeading": "impedit",
+  "MemberTabHeading": "tenetur",
+  "MailingsProviderName": "Prosacco Group",
+  "DashboardTileDefinitionId": 875,
   "VisibleFor": [
     {
-      "VisibleId": 285,
+      "VisibleId": 656,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldType": "System.Int32",
+          "FieldLength": 627
         }
       }
     },
     {
-      "VisibleId": 285,
+      "VisibleId": 656,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldType": "System.Int32",
+          "FieldLength": 627
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 742
     }
   }
 }

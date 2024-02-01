@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Collier, Bruen and Pfannerstill",
-    "ToolTip": "Optio maiores omnis adipisci amet maxime animi.",
+    "Id": 432,
+    "Name": "Mertz-Klocko",
+    "ToolTip": "Inventore modi nostrum hic explicabo iure.",
     "Deleted": false,
-    "Rank": 447,
-    "Type": "dicta",
-    "ColorBlock": 77,
-    "IconHint": "rerum",
+    "Rank": 500,
+    "Type": "ut",
+    "ColorBlock": 29,
+    "IconHint": "quaerat",
     "Selected": false,
-    "LastChanged": "2012-04-13T13:57:20.047138+02:00",
+    "LastChanged": "2005-03-09T23:04:05.7189961+01:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Schroeder-Walsh",
-        "ToolTip": "Rerum dolor.",
-        "Deleted": false,
-        "Rank": 560,
-        "Type": "error",
-        "ColorBlock": 311,
-        "IconHint": "numquam",
+        "Id": 922,
+        "Name": "Rutherford, Lubowitz and Wilderman",
+        "ToolTip": "Non consequatur incidunt.",
+        "Deleted": true,
+        "Rank": 758,
+        "Type": "eaque",
+        "ColorBlock": 707,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2023-06-06T13:57:20.047138+02:00",
+        "LastChanged": "2015-12-30T23:04:05.7189961+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quos",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Regan Pfeffer"
+        "FullName": "Einar Torphy"
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Kayleigh Romaguera"
+    "ExtraInfo": "et",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Mrs. Kamryn Rempel IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Gottlieb Group",
-    "ToolTip": "In repudiandae porro et.",
+    "Id": 154,
+    "Name": "Bechtelar, Bruen and Feest",
+    "ToolTip": "Voluptas quis voluptatem.",
     "Deleted": false,
-    "Rank": 833,
-    "Type": "ad",
-    "ColorBlock": 772,
-    "IconHint": "deleniti",
-    "Selected": false,
-    "LastChanged": "2008-12-30T13:57:20.0627631+01:00",
+    "Rank": 111,
+    "Type": "quis",
+    "ColorBlock": 10,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2004-08-31T23:04:05.7199966+02:00",
     "ChildItems": [
       {
-        "Id": 65,
-        "Name": "Beahan, Rau and Greenholt",
-        "ToolTip": "Aperiam facilis pariatur debitis quas nobis distinctio.",
-        "Deleted": true,
-        "Rank": 142,
-        "Type": "quos",
-        "ColorBlock": 108,
-        "IconHint": "et",
+        "Id": 260,
+        "Name": "Ullrich, Schuster and Mertz",
+        "ToolTip": "Voluptatibus accusamus quisquam et non quo recusandae maiores.",
+        "Deleted": false,
+        "Rank": 922,
+        "Type": "excepturi",
+        "ColorBlock": 475,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "1997-04-20T13:57:20.0627631+02:00",
+        "LastChanged": "2022-09-14T23:04:05.7199966+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Gaetano Larkin",
+        "ExtraInfo": "dolores",
+        "StyleHint": "ipsum",
+        "Hidden": true,
+        "FullName": "Demario Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 283
+            "FieldLength": 56
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Mikel Mabelle Pfeffer DDS",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Ms. Keshawn Viva DuBuque II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldLength": 283
       }
     }
   }

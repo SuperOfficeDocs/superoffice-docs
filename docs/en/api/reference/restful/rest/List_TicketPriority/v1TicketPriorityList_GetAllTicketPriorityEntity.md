@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 302,
-    "Name": "Heller LLC",
+    "TicketPriorityId": 731,
+    "Name": "Hyatt, Shields and Moen",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 388,
+    "SortOrder": 389,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 472,
-    "MonStart": "2023-04-24T13:57:20.1734375+02:00",
-    "MonStop": "1999-09-21T13:57:20.1734375+02:00",
-    "TueStart": "2023-12-01T13:57:20.1734375+01:00",
-    "TueStop": "2003-06-28T13:57:20.1734375+02:00",
-    "WedStart": "2021-06-19T13:57:20.1734375+02:00",
-    "WedStop": "2006-07-14T13:57:20.1734375+02:00",
-    "ThuStart": "2015-05-18T13:57:20.1734375+02:00",
-    "ThuStop": "2010-10-26T13:57:20.1734375+02:00",
-    "FriStart": "2003-07-20T13:57:20.1734375+02:00",
-    "FriStop": "2016-01-17T13:57:20.1734375+01:00",
-    "SatStart": "2009-03-06T13:57:20.1734375+01:00",
-    "SatStop": "1999-04-16T13:57:20.1734375+02:00",
-    "SunStart": "1998-10-22T13:57:20.1734375+02:00",
-    "SunStop": "2017-10-29T13:57:20.1734375+01:00",
+    "Deadline": 860,
+    "MonStart": "2018-02-17T23:04:06.0094936+01:00",
+    "MonStop": "1998-12-22T23:04:06.0094936+01:00",
+    "TueStart": "2000-03-08T23:04:06.0094936+01:00",
+    "TueStop": "1997-07-16T23:04:06.0094936+02:00",
+    "WedStart": "2018-03-22T23:04:06.0094936+01:00",
+    "WedStop": "2018-07-12T23:04:06.0094936+02:00",
+    "ThuStart": "2020-09-16T23:04:06.0094936+02:00",
+    "ThuStop": "2017-03-10T23:04:06.0094936+01:00",
+    "FriStart": "2018-12-16T23:04:06.0094936+01:00",
+    "FriStop": "2015-04-10T23:04:06.0094936+02:00",
+    "SatStart": "2001-05-05T23:04:06.0094936+02:00",
+    "SatStop": "2009-10-20T23:04:06.0094936+02:00",
+    "SunStart": "2024-01-15T23:04:06.0094936+01:00",
+    "SunStop": "2001-08-26T23:04:06.0094936+02:00",
     "NonDates": [
-      "eligendi",
-      "fugiat"
+      "occaecati",
+      "architecto"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 924,
-        "AlertLevel": 238,
-        "AlertTimeout": 43,
-        "Action": 85,
-        "DelegateTo": 810,
-        "ScriptId": 535,
-        "EmailTo": "kattie_gibson@jacobson.co.uk",
-        "SmsTo": "aut",
-        "ReplyTemplateIdCustomer": 271,
-        "ReplyTemplateIdUser": 198,
-        "ReplyTemplateIdCatmast": 266,
-        "ReplyTemplateIdEmail": 593,
-        "RtiCustomerSms": 775,
-        "ReplyTemplateIdUserSms": 610,
-        "ReplyTemplateIdCatmastSms": 419,
-        "ReplyTemplateIdSms": 384,
+        "TicketAlertId": 47,
+        "AlertLevel": 666,
+        "AlertTimeout": 809,
+        "Action": 814,
+        "DelegateTo": 999,
+        "ScriptId": 150,
+        "EmailTo": "nayeli.gottlieb@schowalter.co.uk",
+        "SmsTo": "maiores",
+        "ReplyTemplateIdCustomer": 438,
+        "ReplyTemplateIdUser": 894,
+        "ReplyTemplateIdCatmast": 765,
+        "ReplyTemplateIdEmail": 56,
+        "RtiCustomerSms": 714,
+        "ReplyTemplateIdUserSms": 232,
+        "ReplyTemplateIdCatmastSms": 283,
+        "ReplyTemplateIdSms": 590,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 174
+            "FieldType": "System.String",
+            "FieldLength": 242
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 813
       }
     }
   }

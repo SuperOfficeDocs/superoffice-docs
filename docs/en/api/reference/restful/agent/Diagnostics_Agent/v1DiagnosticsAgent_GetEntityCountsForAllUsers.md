@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Boyer, Berge and Wiegand",
-    "Records": 30,
+    "EntityName": "Kautzer Inc and Sons",
+    "Records": 977,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 856
       }
     }
   },
   {
-    "EntityName": "Boyer, Berge and Wiegand",
-    "Records": 30,
+    "EntityName": "Kautzer Inc and Sons",
+    "Records": 977,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 856
       }
     }
   }

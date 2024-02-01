@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Grimes Group",
-  "Context": "itaque"
+  "ProviderName": "Bergnaum-Altenwerth",
+  "Context": "ut"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Kuhic Group",
-    "ToolTip": "Enim eos tempora minima voluptatum cum architecto aut.",
-    "Deleted": false,
-    "Rank": 32,
-    "Type": "minus",
+    "Id": 388,
+    "Name": "Boyle-Cassin",
+    "ToolTip": "Quia porro nam voluptates dolorum.",
+    "Deleted": true,
+    "Rank": 441,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 278,
-        "Name": "Stokes, Haley and Stroman",
-        "ToolTip": "Est sequi rerum cum est.",
-        "Deleted": true,
-        "Rank": 476,
-        "Type": "vitae",
+        "Id": 748,
+        "Name": "Botsford-Lynch",
+        "ToolTip": "Dignissimos fuga ratione reiciendis.",
+        "Deleted": false,
+        "Rank": 822,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 602,
-        "ExtraInfo": "qui",
-        "StyleHint": "laborum",
-        "FullName": "Domingo Schuster",
+        "IconHint": "reiciendis",
+        "ColorBlock": 753,
+        "ExtraInfo": "ut",
+        "StyleHint": "incidunt",
+        "FullName": "Mrs. Izaiah Blanca Cormier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 800
+            "FieldType": "System.String",
+            "FieldLength": 823
           }
         }
       }
     ],
-    "IconHint": "quae",
-    "ColorBlock": 122,
-    "ExtraInfo": "consectetur",
-    "StyleHint": "eum",
-    "FullName": "Everette Gottlieb",
+    "IconHint": "sit",
+    "ColorBlock": 249,
+    "ExtraInfo": "vel",
+    "StyleHint": "debitis",
+    "FullName": "Christine Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 687
       }
     }
   }

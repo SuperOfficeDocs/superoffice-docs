@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 853
+  "DepartmentId": 120
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(903)426-1567 x33765",
-    "PersonCellPhone": "(152)371-6579 x5901",
-    "PersonPrivatePhone": "1-828-241-4348",
-    "PersonFaxNumber": "1230339",
-    "PersonPagerNumber": "635780",
-    "PersonEmail": "cecile_gusikowski@goyette.us",
-    "Id": 861,
-    "Name": "Jones-Boyer",
-    "Tooltip": "facilis",
-    "UniqueId": "rerum",
+    "PersonDirectPhone": "256.904.8361 x216",
+    "PersonCellPhone": "503.127.8453 x89246",
+    "PersonPrivatePhone": "950.624.0620 x9408",
+    "PersonFaxNumber": "1684204",
+    "PersonPagerNumber": "1034624",
+    "PersonEmail": "marcellus@aufderhar.co.uk",
+    "Id": 916,
+    "Name": "Lowe-Considine",
+    "Tooltip": "voluptatem",
+    "UniqueId": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

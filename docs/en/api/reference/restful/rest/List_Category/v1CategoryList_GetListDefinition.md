@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 756,
-  "Name": "Armstrong-Adams",
-  "Tooltip": "repellendus",
+  "Id": 640,
+  "Name": "O'Kon LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 522,
-  "IsCustomList": false,
+  "Rank": 23,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ex",
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldLength": 967
     }
   },
   "_Links": {

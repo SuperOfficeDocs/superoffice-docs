@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 851,
-    "UserName": "Johnston LLC",
-    "PersonId": 61,
-    "Rank": 950,
-    "Tooltip": "veritatis",
-    "UserGroupId": 82,
-    "EjUserId": 335,
+    "UserInfoId": 220,
+    "UserName": "Lowe LLC",
+    "PersonId": 264,
+    "Rank": 600,
+    "Tooltip": "ex",
+    "UserGroupId": 508,
+    "EjUserId": 256,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "qui",
-      "non"
+      "eveniet",
+      "eum"
     ],
     "CanLogon": false,
-    "RoleName": "Schultz-Witting",
-    "RoleTooltip": "at",
-    "UserGroupName": "Orn LLC",
-    "UserGroupTooltip": "in",
+    "RoleName": "Schiller Group",
+    "RoleTooltip": "sit",
+    "UserGroupName": "Kuhic-Gorczany",
+    "UserGroupTooltip": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

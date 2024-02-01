@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 979,
-    "ERPName": "Schiller-Schuppe",
-    "DisplayName": "Hoppe, Upton and Schmitt",
-    "DisplayDescription": "Phased 4th generation open system",
-    "Rank": 382,
-    "ConnectorName": "Pfeffer LLC",
-    "ErpConnectionId": 473,
-    "ExtraData": "corporis",
+    "QuoteConnectionId": 732,
+    "ERPName": "King-Weber",
+    "DisplayName": "Kuhlman Inc and Sons",
+    "DisplayDescription": "Cloned analyzing capacity",
+    "Rank": 187,
+    "ConnectorName": "Bogan LLC",
+    "ErpConnectionId": 486,
+    "ExtraData": "non",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 351,
-        "ERPPriceListKey": "nam",
-        "QuoteConnectionId": 691,
-        "Name": "Wiza, Bernier and Kling",
-        "Description": "Intuitive 3rd generation capacity",
-        "Currency": "vitae",
-        "CurrencyName": "Rippin LLC",
-        "ValidFrom": "2021-06-15T13:57:13.064942+02:00",
-        "ValidTo": "2000-06-03T13:57:13.064942+02:00",
+        "PriceListId": 360,
+        "ERPPriceListKey": "labore",
+        "QuoteConnectionId": 939,
+        "Name": "Glover-Haag",
+        "Description": "Sharable 24 hour flexibility",
+        "Currency": "sint",
+        "CurrencyName": "Reichel Group",
+        "ValidFrom": "2006-04-16T23:03:56.7726178+02:00",
+        "ValidTo": "2015-08-15T23:03:56.7726178+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 655
+            "FieldLength": 53
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      747,
-      812
+      857,
+      257
     ],
     "AssociateAccessIds": [
-      125,
-      28
+      552,
+      773
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldType": "System.Int32",
+        "FieldLength": 160
       }
     }
   }

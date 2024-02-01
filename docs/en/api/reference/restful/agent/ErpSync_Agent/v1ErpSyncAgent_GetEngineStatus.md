@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": false,
-  "StatusMessage": "dolorem",
-  "Interval": "incidunt",
+  "IsRunning": true,
+  "StatusMessage": "debitis",
+  "Interval": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 80,
-    "Name": "Dicki-Collins",
-    "Description": "Proactive incremental open architecture",
+    "ProjectId": 638,
+    "Name": "Parker, Baumbach and Becker",
+    "Description": "Distributed assymetric paradigm",
     "URL": "http://www.example.com/",
-    "Type": "deleniti",
-    "AssociateId": 322,
-    "AssociateFullName": "Dr. Euna Dusty Dare IV",
-    "TypeId": 707,
-    "Updated": "2018-10-13T13:57:13.0011314+02:00",
-    "StatusId": 700,
-    "Status": "iure",
-    "TextId": 165,
-    "PublishTo": "2003-10-06T13:57:13.0011314+02:00",
-    "PublishFrom": "2018-11-13T13:57:13.0011314+01:00",
+    "Type": "quo",
+    "AssociateId": 224,
+    "AssociateFullName": "Eliza Beier",
+    "TypeId": 234,
+    "Updated": "2009-03-11T23:03:56.6891194+01:00",
+    "StatusId": 490,
+    "Status": "est",
+    "TextId": 564,
+    "PublishTo": "2015-06-01T23:03:56.6891194+02:00",
+    "PublishFrom": "2002-06-04T23:03:56.6891194+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1264472",
-    "ActiveErpLinks": 93,
+    "ProjectNumber": "1521847",
+    "ActiveErpLinks": 752,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldLength": 186
       }
     }
   }

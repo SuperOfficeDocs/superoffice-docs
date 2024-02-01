@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 527
+  "ProductId": 840
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 483,
-  "BlobSize": 635,
-  "Description": "Reduced didactic model",
-  "ExtraInfo": "voluptas",
+  "BlobId": 988,
+  "BlobSize": 664,
+  "Description": "Synergistic interactive system engine",
+  "ExtraInfo": "ea",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "magnam",
-  "OriginalSize": 837,
-  "CreatedDate": "2004-09-22T13:57:11.5750576+02:00",
-  "UpdatedDate": "2003-11-22T13:57:11.5750576+01:00",
+  "MimeType": "est",
+  "OriginalSize": 679,
+  "CreatedDate": "2013-02-03T23:03:55.044642+01:00",
+  "UpdatedDate": "2012-04-02T23:03:55.044642+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "expedita",
+  "ConceptualType": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldLength": 106
     }
   }
 }

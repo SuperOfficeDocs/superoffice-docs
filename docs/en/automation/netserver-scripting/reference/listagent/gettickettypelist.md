@@ -14,7 +14,7 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.
 ## BeforeGetTicketTypeList
 ```cs
     static void BeforeGetTicketTypeList(
-       Int32[]  ticketTypeIds,
+       Int32[]  ticketTypeEntityIds,
        ref object  eventState
       );
 ```
@@ -25,8 +25,8 @@ Event state is not preserved between different service calls. It is set to null 
 ## AfterGetTicketTypeList
 ```cs
     static void AfterGetTicketTypeList(
-       Int32[]  ticketTypeIds,
-       ref TicketType[]  returnValue,
+       Int32[]  ticketTypeEntityIds,
+       ref TicketTypeEntity[]  returnValue,
        ref object  eventState
       );
 ```
@@ -36,8 +36,8 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ## AfterGetTicketTypeListAsync
 ```cs
     static void AfterGetTicketTypeListAsync(
-       Int32[]  ticketTypeIds,
-       ref TicketType[]  returnValue,
+       Int32[]  ticketTypeEntityIds,
+       ref TicketTypeEntity[]  returnValue,
        ref object  eventState
       );
 ```

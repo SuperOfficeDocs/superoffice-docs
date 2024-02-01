@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=814
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=5
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 651,
-  "ERPPriceListKey": "voluptatem",
-  "QuoteConnectionId": 199,
-  "Name": "Boehm Group",
-  "Description": "Assimilated secondary neural-net",
-  "Currency": "minus",
-  "CurrencyName": "Wolf, Rohan and Goodwin",
-  "ValidFrom": "2015-05-18T13:57:13.0492694+02:00",
-  "ValidTo": "2022-12-07T13:57:13.0492694+01:00",
-  "IsActive": false,
+  "PriceListId": 985,
+  "ERPPriceListKey": "deserunt",
+  "QuoteConnectionId": 941,
+  "Name": "Hagenes-Mueller",
+  "Description": "Switchable foreground protocol",
+  "Currency": "maiores",
+  "CurrencyName": "Graham-Sipes",
+  "ValidFrom": "2003-02-19T23:03:56.7456183+01:00",
+  "ValidTo": "2019-07-11T23:03:56.7456183+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 744
     }
   }
 }

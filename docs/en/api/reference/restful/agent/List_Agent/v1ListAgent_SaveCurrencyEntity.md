@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 873,
-  "Name": "Block Inc and Sons",
-  "Tooltip": "mollitia",
-  "Rank": 158,
-  "Rate": 21123.16,
-  "Units": 18678.64,
+  "CurrencyId": 644,
+  "Name": "Beer LLC",
+  "Tooltip": "officiis",
+  "Rank": 867,
+  "Rate": 15503.898,
+  "Units": 6550.0599999999995,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 105,
-  "Name": "Mertz Group",
-  "Tooltip": "adipisci",
-  "Rank": 474,
-  "Rate": 14858.294,
-  "Units": 26306.796,
-  "Deleted": true,
+  "CurrencyId": 704,
+  "Name": "Terry Group",
+  "Tooltip": "et",
+  "Rank": 415,
+  "Rate": 29738.525999999998,
+  "Units": 26604.525999999998,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

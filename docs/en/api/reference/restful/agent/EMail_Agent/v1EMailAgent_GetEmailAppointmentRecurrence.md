@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 600
+  "MailItemId": 140
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 239,
-  "StartDate": "2004-02-10T13:57:12.2623677+01:00",
-  "EndDate": "2017-05-06T13:57:12.2623677+02:00",
-  "RecurrenceCounter": 765,
+  "RecurrenceId": 198,
+  "StartDate": "2023-10-24T23:03:55.9086319+02:00",
+  "EndDate": "2000-05-25T23:03:55.9086319+02:00",
+  "RecurrenceCounter": 396,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1998-02-14T13:57:12.2623677+01:00",
-      "IsConflict": false,
-      "Description": "Enterprise-wide reciprocal moratorium",
-      "DescriptionStyleHint": "Stand-alone multi-tasking local area network",
-      "Tooltip": "ab"
+      "Date": "1997-04-18T23:03:55.9086319+02:00",
+      "IsConflict": true,
+      "Description": "Reverse-engineered eco-centric internet solution",
+      "DescriptionStyleHint": "Stand-alone fault-tolerant orchestration",
+      "Tooltip": "vel"
     },
     {
-      "Date": "1998-02-14T13:57:12.2623677+01:00",
-      "IsConflict": false,
-      "Description": "Enterprise-wide reciprocal moratorium",
-      "DescriptionStyleHint": "Stand-alone multi-tasking local area network",
-      "Tooltip": "ab"
+      "Date": "1997-04-18T23:03:55.9086319+02:00",
+      "IsConflict": true,
+      "Description": "Reverse-engineered eco-centric internet solution",
+      "DescriptionStyleHint": "Stand-alone fault-tolerant orchestration",
+      "Tooltip": "vel"
     }
   ],
   "IsRecurrence": false

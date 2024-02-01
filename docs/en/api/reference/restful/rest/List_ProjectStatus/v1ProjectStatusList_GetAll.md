@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Miller, Hickle and Gerlach",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "UdListDefinitionId": 100,
-    "Rank": 559,
+    "Id": 229,
+    "Name": "Graham, Crooks and Auer",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "UdListDefinitionId": 271,
+    "Rank": 279,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 422
+        "FieldType": "System.Int32",
+        "FieldLength": 892
       }
     }
   }

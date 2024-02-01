@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pouros Inc and Sons"
+  "Name": "Kirlin Group"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Stracke Group",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "Rank": 995,
-  "IsCustomList": false,
+  "Id": 586,
+  "Name": "Kuhn Inc and Sons",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "Rank": 853,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptate",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ratione",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 989
+      "FieldType": "System.Int32",
+      "FieldLength": 683
     }
   }
 }

@@ -79,13 +79,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 38,
-  "Name": "Jaskolski, Mohr and Kshlerin",
-  "Rank": 393,
-  "Tooltip": "tenetur",
+  "ResourceId": 668,
+  "Name": "Rice, Heathcote and Rempel",
+  "Rank": 5,
+  "Tooltip": "quis",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "praesentium"
+  "LocationAddress": "maiores"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 357,
-  "Name": "Gorczany-Ledner",
-  "Rank": 314,
-  "Tooltip": "ea",
+  "ResourceId": 175,
+  "Name": "Bailey, Will and Cassin",
+  "Rank": 279,
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "modi",
+  "IsLocation": true,
+  "LocationAddress": "blanditiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 155
     }
   }
 }

@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 651,
-  "ModuleOwner": "magnam",
+  "AssociateId": 428,
+  "ModuleOwner": "amet",
   "ModuleLicenseNames": [
-    "Ullrich, Grant and Bradtke",
-    "Schowalter Inc and Sons"
+    "Tremblay-Johnston",
+    "Howell-Abernathy"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 911,
-    "Tooltip": "nisi",
-    "CanAssign": false,
-    "Free": 847,
-    "InUse": 978,
-    "IsHidden": false,
+    "Total": 5,
+    "Tooltip": "rerum",
+    "CanAssign": true,
+    "Free": 685,
+    "InUse": 508,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 727,
-    "Name": "Spencer, Windler and Grimes",
-    "Description": "Profound fresh-thinking emulation",
-    "PrerequisiteModuleName": "Beatty-Trantow",
-    "SortOrder": 959,
-    "ExtraFlags": 809,
+    "ModuleLicenseId": 463,
+    "Name": "Skiles, Feest and Jast",
+    "Description": "Profound hybrid parallelism",
+    "PrerequisiteModuleName": "Schumm, Hoeger and Shanahan",
+    "SortOrder": 107,
+    "ExtraFlags": 792,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 301
       }
     }
   }

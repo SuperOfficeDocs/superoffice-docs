@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Braun-Frami",
+  "UdListDefinitionName": "Franecki Group",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 715,
-  "Name": "Franecki, Bins and Hills",
-  "Tooltip": "maiores",
+  "Id": 117,
+  "Name": "Dietrich, White and Stark",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 340,
-  "Rank": 378,
+  "UdListDefinitionId": 801,
+  "Rank": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldType": "System.Int32",
+      "FieldLength": 440
     }
   }
 }

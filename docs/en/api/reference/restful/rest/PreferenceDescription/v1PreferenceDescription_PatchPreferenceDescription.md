@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "alias",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "alias",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 549,
-  "Section": "sit",
-  "Key": "est",
-  "Name": "Kunze-Auer",
+  "PrefDescId": 880,
+  "Section": "deleniti",
+  "Key": "facere",
+  "Name": "Mayert Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured didactic service-desk",
-  "IsBuiltin": false,
-  "TableName": "West Group",
-  "UserDefinedListId": 870,
-  "Rank": 15,
-  "SubGroup": "et",
-  "MinLevel": 700,
-  "MaxValue": 23,
-  "MinValue": 12,
-  "RequiredLicense": "architecto",
+  "Description": "Upgradable grid-enabled array",
+  "IsBuiltin": true,
+  "TableName": "Hermiston-Senger",
+  "UserDefinedListId": 211,
+  "Rank": 828,
+  "SubGroup": "delectus",
+  "MinLevel": 209,
+  "MaxValue": 671,
+  "MinValue": 739,
+  "RequiredLicense": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldType": "System.String",
+      "FieldLength": 159
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

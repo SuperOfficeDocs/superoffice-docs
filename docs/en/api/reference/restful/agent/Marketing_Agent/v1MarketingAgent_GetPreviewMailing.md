@@ -68,6 +68,7 @@ OK
 | ShipmentId | int32 | Primary key |
 | ShipmentDescription | string | Describes the shipment |
 | FromAddress | string | Email address to put in the From header of the messages |
+| Configuration | int32 | This field indicates what kind of shipment this is. |
 | ContactId | int32 | Owning contact ID |
 | ContactName | string | Contact name |
 | PersonId | int32 | Primary key |
@@ -91,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 140
+  "ShipmentAddrId": 453
 }
 ```
 
@@ -102,27 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "1998-12-01T13:57:12.6068289+01:00",
+  "SendingTime": "2010-08-05T23:03:56.3301239+02:00",
   "Status": "Blocked",
-  "ShipmentId": 166,
-  "ShipmentDescription": "Face to face system-worthy definition",
-  "FromAddress": "et",
-  "ContactId": 162,
-  "ContactName": "Ortiz-Howell",
-  "PersonId": 496,
-  "PersonFullName": "Audreanne Flatley",
-  "ShipmentType": "voluptas",
-  "MessageId": 481,
-  "MessageSubject": "voluptas",
-  "DocumentMessageId": 445,
-  "Opened": "2007-01-06T13:57:12.6068289+01:00",
-  "LinkClicks": 855,
+  "ShipmentId": 522,
+  "ShipmentDescription": "User-centric optimal neural-net",
+  "FromAddress": "saepe",
+  "Configuration": 264,
+  "ContactId": 439,
+  "ContactName": "Konopelski Inc and Sons",
+  "PersonId": 504,
+  "PersonFullName": "Asia Hauck",
+  "ShipmentType": "voluptatem",
+  "MessageId": 807,
+  "MessageSubject": "velit",
+  "DocumentMessageId": 86,
+  "Opened": "2015-09-04T23:03:56.330626+02:00",
+  "LinkClicks": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Lehner, Gutmann and Rowe",
-  "Tooltip": "est",
+  "Id": 766,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "laboriosam",
   "Deleted": true,
-  "Rank": 677,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 373,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rem",
+  "ListType": "laborum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 365
     }
   },
   "_Links": {

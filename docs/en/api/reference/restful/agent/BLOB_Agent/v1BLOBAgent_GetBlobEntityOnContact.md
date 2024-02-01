@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 580
+  "ContactId": 379
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 672,
-  "BlobSize": 929,
-  "Description": "Sharable client-driven database",
-  "ExtraInfo": "consequatur",
+  "BlobId": 324,
+  "BlobSize": 817,
+  "Description": "Visionary heuristic challenge",
+  "ExtraInfo": "quia",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "vel",
-  "OriginalSize": 869,
-  "CreatedDate": "2016-11-04T13:57:11.5750576+01:00",
-  "UpdatedDate": "2020-07-05T13:57:11.5750576+02:00",
+  "MimeType": "possimus",
+  "OriginalSize": 803,
+  "CreatedDate": "2015-04-16T23:03:55.0481415+02:00",
+  "UpdatedDate": "2018-06-24T23:03:55.0481415+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "earum",
+  "ConceptualType": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 764
     }
   }
 }

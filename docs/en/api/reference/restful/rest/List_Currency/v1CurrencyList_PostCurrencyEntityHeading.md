@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 675,
-  "Name": "Zulauf Inc and Sons",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 162,
-  "UdListDefinitionId": 163
+  "HeadingId": 581,
+  "Name": "Mohr, Boyer and Hermann",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 561,
+  "UdListDefinitionId": 588
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 462,
-  "Name": "Simonis LLC",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "Rank": 789,
-  "UdListDefinitionId": 534,
+  "HeadingId": 28,
+  "Name": "Murazik-Ullrich",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "Rank": 817,
+  "UdListDefinitionId": 146,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 575
     }
   }
 }

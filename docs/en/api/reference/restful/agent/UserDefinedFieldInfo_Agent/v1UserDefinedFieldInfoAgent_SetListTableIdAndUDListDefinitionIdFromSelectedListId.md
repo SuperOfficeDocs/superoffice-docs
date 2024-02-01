@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 523
+  "SelectedListId": 219
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 486,
-  "ColumnId": 796,
-  "FieldDefault": "sit",
-  "FieldHeight": 184,
-  "FieldLabel": "velit",
-  "FieldLeft": 107,
-  "FieldTop": 685,
+  "UDefFieldId": 836,
+  "ColumnId": 432,
+  "FieldDefault": "enim",
+  "FieldHeight": 826,
+  "FieldLabel": "atque",
+  "FieldLeft": 761,
+  "FieldTop": 992,
   "FieldType": "Checkbox",
-  "FieldWidth": 710,
-  "FormatMask": "est",
-  "HideLabel": false,
+  "FieldWidth": 983,
+  "FormatMask": "saepe",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 456,
-  "LabelLeft": 276,
-  "LabelTop": 634,
-  "LabelWidth": 682,
-  "LastVersionId": 807,
-  "ListTableId": 763,
+  "LabelHeight": 724,
+  "LabelLeft": 836,
+  "LabelTop": 514,
+  "LabelWidth": 843,
+  "LastVersionId": 314,
+  "ListTableId": 87,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 343,
-  "ProgId": "excepturi",
-  "IsReadOnly": false,
-  "ShortLabel": "nobis",
-  "TabOrder": 628,
-  "TextLength": 737,
-  "Tooltip": "excepturi",
-  "UdefIdentity": 363,
-  "UDListDefinitionId": 436,
+  "Page1LineNo": 90,
+  "ProgId": "recusandae",
+  "IsReadOnly": true,
+  "ShortLabel": "magni",
+  "TabOrder": 675,
+  "TextLength": 759,
+  "Tooltip": "magni",
+  "UdefIdentity": 388,
+  "UDListDefinitionId": 905,
   "Justification": "Center",
-  "Version": 153,
-  "TemplateVariableName": "Koss, Schaden and Wiza",
+  "Version": 64,
+  "TemplateVariableName": "Senger, Powlowski and Schaefer",
   "HasBeenPublished": false,
-  "MdoListName": "Weissnat Group",
+  "MdoListName": "Senger Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 49
     }
   }
 }

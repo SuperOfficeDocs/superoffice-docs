@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=et
+GET /api/v1/List/DeliveryTerm/MDOItems?query=possimus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Wolf Group",
-    "ToolTip": "Et ut veniam.",
-    "Deleted": true,
-    "Rank": 66,
-    "Type": "quis",
+    "Id": 429,
+    "Name": "Jacobi-Reynolds",
+    "ToolTip": "Molestias beatae consequatur est.",
+    "Deleted": false,
+    "Rank": 192,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "McCullough Inc and Sons",
-        "ToolTip": "Asperiores tenetur.",
-        "Deleted": true,
-        "Rank": 707,
-        "Type": "est",
+        "Id": 509,
+        "Name": "Grant-Wolf",
+        "ToolTip": "Ab sint quas.",
+        "Deleted": false,
+        "Rank": 624,
+        "Type": "voluptatum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorum",
-        "ColorBlock": 202,
-        "ExtraInfo": "esse",
-        "StyleHint": "provident",
-        "FullName": "Veda Kuhlman",
+        "IconHint": "error",
+        "ColorBlock": 806,
+        "ExtraInfo": "aut",
+        "StyleHint": "similique",
+        "FullName": "Filomena Feil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldType": "System.String",
+            "FieldLength": 746
           }
         }
       }
     ],
-    "IconHint": "aperiam",
-    "ColorBlock": 22,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "corrupti",
-    "FullName": "Mr. Vilma Chance Medhurst II",
+    "IconHint": "quis",
+    "ColorBlock": 971,
+    "ExtraInfo": "optio",
+    "StyleHint": "quidem",
+    "FullName": "Mr. Rosina Rutherford III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

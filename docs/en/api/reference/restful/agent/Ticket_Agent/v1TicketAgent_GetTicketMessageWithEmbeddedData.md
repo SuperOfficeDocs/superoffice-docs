@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 952,
+  "Id": 697,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 761,
+  "EjMessageId": 896,
   "Ticket": null,
-  "CreatedAt": "2023-09-15T13:57:13.4739653+02:00",
+  "CreatedAt": "2015-07-24T23:03:57.4701101+02:00",
   "CreatedBy": null,
-  "Author": "explicabo",
+  "Author": "nesciunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolor",
-  "TimeSpent": 181,
-  "Body": "unde",
-  "HtmlBody": "amet",
-  "EmailHeader": "emmie@kovaceknicolas.biz",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "eligendi",
+  "MessageId": "id",
+  "TimeSpent": 136,
+  "Body": "facere",
+  "HtmlBody": "voluptatibus",
+  "EmailHeader": "kade_ernser@hammeshintz.biz",
+  "DebugInfo": "labore",
+  "MailSorter": "sapiente",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "labore",
+  "SearchTitle": "ut",
   "MessageHeaders": [
     {
-      "Id": 751,
-      "Name": "Rau LLC",
-      "Value": "quia",
+      "Id": 590,
+      "Name": "Hintz-Carroll",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -146,41 +146,41 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldLength": 910
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "voluptas",
-  "Sentiment": 663,
-  "SentimentConfidence": 157,
+  "Important": false,
+  "Language": "eligendi",
+  "Sentiment": 421,
+  "SentimentConfidence": 347,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 801,
-      "Name": "Block-Muller",
-      "ContentType": "sed",
-      "AttSize": 940,
-      "InlineImage": true,
-      "ContentId": "laborum",
-      "AuthKey": "autem",
+      "AttachmentId": 829,
+      "Name": "Nienow Inc and Sons",
+      "ContentType": "nam",
+      "AttSize": 266,
+      "InlineImage": false,
+      "ContentId": "quis",
+      "AuthKey": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldType": "System.String",
+          "FieldLength": 224
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "corrupti"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
+    "CustomFields1": "dolores",
     "CustomFields2": "adipisci"
   },
   "TableRight": null,
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 178
     }
   }
 }

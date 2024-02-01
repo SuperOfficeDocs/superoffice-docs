@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 150,
+  "DocumentId": 318,
   "AllowedReturnType": [
-    "incidunt",
-    "nisi"
+    "soluta",
+    "aperiam"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "beatae",
-  "VersionId": "nesciunt",
-  "Success": false,
+  "ExternalReference": "omnis",
+  "VersionId": "officia",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "ut",
-  "AdditionalInfo": "illum"
+  "Value": "quas",
+  "AdditionalInfo": "molestiae"
 }
 ```

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 915,
-    "Name": "Roberts-Abshire",
-    "Tooltip": "explicabo",
+    "HeadingId": 809,
+    "Name": "Hills, Homenick and Emmerich",
+    "Tooltip": "iste",
     "Deleted": true,
-    "Rank": 810,
-    "UdListDefinitionId": 259
+    "Rank": 803,
+    "UdListDefinitionId": 665
   },
   {
-    "HeadingId": 915,
-    "Name": "Roberts-Abshire",
-    "Tooltip": "explicabo",
+    "HeadingId": 809,
+    "Name": "Hills, Homenick and Emmerich",
+    "Tooltip": "iste",
     "Deleted": true,
-    "Rank": 810,
-    "UdListDefinitionId": 259
+    "Rank": 803,
+    "UdListDefinitionId": 665
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 266,
-    "Name": "Treutel, Lockman and Adams",
-    "Tooltip": "distinctio",
+    "HeadingId": 228,
+    "Name": "Herzog Inc and Sons",
+    "Tooltip": "accusamus",
     "Deleted": true,
-    "Rank": 598,
-    "UdListDefinitionId": 527,
+    "Rank": 490,
+    "UdListDefinitionId": 340,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 173
       }
     }
   }

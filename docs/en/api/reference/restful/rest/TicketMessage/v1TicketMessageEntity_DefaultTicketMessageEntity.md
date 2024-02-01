@@ -92,78 +92,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 434,
+  "EjMessageId": 283,
   "Ticket": null,
-  "CreatedAt": "2012-08-09T13:57:19.3753131+02:00",
+  "CreatedAt": "2014-10-16T23:04:04.9410136+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "occaecati",
-  "TimeSpent": 985,
-  "Body": "libero",
-  "HtmlBody": "veritatis",
-  "EmailHeader": "cydney.rau@lindgrenherzog.ca",
-  "DebugInfo": "quibusdam",
-  "MailSorter": "omnis",
+  "MessageId": "et",
+  "TimeSpent": 20,
+  "Body": "unde",
+  "HtmlBody": "expedita",
+  "EmailHeader": "marianna_rowe@rath.us",
+  "DebugInfo": "provident",
+  "MailSorter": "animi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "unde",
+  "SearchTitle": "eum",
   "MessageHeaders": [
     {
-      "Id": 451,
-      "Name": "Armstrong Group",
-      "Value": "et",
+      "Id": 115,
+      "Name": "Romaguera Inc and Sons",
+      "Value": "nostrum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 808
+          "FieldType": "System.Int32",
+          "FieldLength": 525
         }
       }
     }
   ],
   "Important": false,
-  "Language": "nobis",
-  "Sentiment": 251,
-  "SentimentConfidence": 422,
+  "Language": "fugiat",
+  "Sentiment": 454,
+  "SentimentConfidence": 603,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 137,
-      "Name": "Hilpert-Bruen",
-      "ContentType": "sit",
-      "AttSize": 288,
+      "AttachmentId": 444,
+      "Name": "Witting-Heller",
+      "ContentType": "error",
+      "AttSize": 283,
       "InlineImage": true,
-      "ContentId": "ut",
-      "AuthKey": "magnam",
+      "ContentId": "esse",
+      "AuthKey": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 996
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "beatae"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "commodi"
+    "CustomFields1": "possimus",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 92
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Zieme, Kunde and Kuphal",
-    "ToolTip": "Expedita eveniet eaque.",
+    "Id": 910,
+    "Name": "DuBuque, Casper and Schultz",
+    "ToolTip": "Est ad quam atque laborum et inventore.",
     "Deleted": false,
-    "Rank": 406,
-    "Type": "voluptates",
-    "ColorBlock": 418,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2015-06-24T13:57:20.1421596+02:00",
+    "Rank": 888,
+    "Type": "itaque",
+    "ColorBlock": 708,
+    "IconHint": "accusamus",
+    "Selected": false,
+    "LastChanged": "2002-12-23T23:04:05.9709933+01:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Upton-Williamson",
-        "ToolTip": "Alias non blanditiis.",
+        "Id": 64,
+        "Name": "Koss Group",
+        "ToolTip": "Excepturi dicta nobis velit et qui voluptate debitis.",
         "Deleted": false,
-        "Rank": 149,
-        "Type": "beatae",
-        "ColorBlock": 264,
-        "IconHint": "molestiae",
+        "Rank": 294,
+        "Type": "qui",
+        "ColorBlock": 740,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2010-08-11T13:57:20.1421596+02:00",
+        "LastChanged": "1996-11-27T23:04:05.9709933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Mrs. Elton Arden Fay",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "facere",
+        "Hidden": true,
+        "FullName": "Maybell Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 520
+            "FieldLength": 724
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Mr. Colten Jermaine Ward",
+    "ExtraInfo": "qui",
+    "StyleHint": "commodi",
+    "Hidden": true,
+    "FullName": "Daren Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

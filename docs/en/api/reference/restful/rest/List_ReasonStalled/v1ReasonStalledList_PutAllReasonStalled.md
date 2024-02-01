@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Fritsch, Terry and Vandervort",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 562,
-    "Rank": 961
+    "Id": 314,
+    "Name": "Leuschke, Kub and Herman",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 227,
+    "Rank": 808
   },
   {
-    "Id": 638,
-    "Name": "Fritsch, Terry and Vandervort",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 562,
-    "Rank": 961
+    "Id": 314,
+    "Name": "Leuschke, Kub and Herman",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 227,
+    "Rank": 808
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Gleason, Crona and Schinner",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "UdListDefinitionId": 549,
-    "Rank": 197,
+    "Id": 585,
+    "Name": "Haley Inc and Sons",
+    "Tooltip": "corrupti",
+    "Deleted": false,
+    "UdListDefinitionId": 138,
+    "Rank": 973,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 642
+        "FieldType": "System.Int32",
+        "FieldLength": 301
       }
     }
   }

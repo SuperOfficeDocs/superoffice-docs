@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "porro",
+  "RawValue": "dolorum",
   "Specification": null,
-  "DisplayValue": "nihil",
-  "DisplayTooltip": "necessitatibus",
+  "DisplayValue": "error",
+  "DisplayTooltip": "iste",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 444,
-  "PrefDescId": 692,
-  "TableName": "Cartwright Inc and Sons",
-  "UserPreferenceId": 186
+  "TargetId": 70,
+  "PrefDescId": 249,
+  "TableName": "Marvin-Bahringer",
+  "UserPreferenceId": 201
 }
 ```
 

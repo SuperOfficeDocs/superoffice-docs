@@ -126,7 +126,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 265,
+  "QuoteAlternativeId": 644,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 206,
-  "ERPQuoteLineKey": "ratione",
-  "QuoteAlternativeId": 811,
-  "ERPProductKey": "quo",
+  "QuoteLineId": 995,
+  "ERPQuoteLineKey": "ut",
+  "QuoteAlternativeId": 763,
+  "ERPProductKey": "dolor",
   "Status": "Error",
-  "Reason": "incubate holistic architectures",
-  "Quantity": 16190.243999999999,
-  "DeliveredQuantity": 16503.644,
-  "Rank": 840,
-  "Name": "Bayer LLC",
-  "Description": "Total transitional middleware",
-  "Code": "ut",
-  "QuantityUnit": "sit",
-  "PriceUnit": "voluptatem",
-  "ItemNumber": "1031327",
+  "Reason": "",
+  "Quantity": 16986.28,
+  "DeliveredQuantity": 4719.804,
+  "Rank": 487,
+  "Name": "Zulauf-Marks",
+  "Description": "Advanced bifurcated installation",
+  "Code": "magni",
+  "QuantityUnit": "ea",
+  "PriceUnit": "sed",
+  "ItemNumber": "790067",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "voluptatum",
-  "Supplier": "rerum",
-  "SupplierCode": "eius",
-  "Thumbnail": "nihil",
-  "VATInfo": "sint",
-  "VAT": 19925.971999999998,
-  "UnitCost": 21135.696,
-  "UnitMinimumPrice": 25410.471999999998,
-  "UnitListPrice": 17672.626,
+  "ProductFamilyKey": "animi",
+  "ProductTypeKey": "ut",
+  "Supplier": "ipsam",
+  "SupplierCode": "atque",
+  "Thumbnail": "quia",
+  "VATInfo": "nobis",
+  "VAT": 23392.176,
+  "UnitCost": 3691.852,
+  "UnitMinimumPrice": 29327.971999999998,
+  "UnitListPrice": 25028.124,
   "ExtraInfo": [
     {
-      "Name": "Heathcote-Parisian",
-      "Value": "pariatur",
+      "Name": "Brown, Harber and Torphy",
+      "Value": "ex",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldType": "System.Int32",
+          "FieldLength": 872
         }
       }
     },
     {
-      "Name": "Heathcote-Parisian",
-      "Value": "pariatur",
+      "Name": "Brown, Harber and Torphy",
+      "Value": "ex",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldType": "System.Int32",
+          "FieldLength": 872
         }
       }
     }
   ],
-  "RawExtraInfo": "quis",
+  "RawExtraInfo": "similique",
   "IsSubscription": false,
-  "SubscriptionUnit": "doloribus",
-  "SubscriptionQuantity": 31048.538,
-  "SubscriptionStart": "2014-09-17T13:57:13.0805627+02:00",
-  "ERPDiscountPercent": 7969.762,
-  "ERPDiscountAmount": 19120.534,
-  "DiscountPercent": 15582.248,
-  "DiscountAmount": 18800.865999999998,
+  "SubscriptionUnit": "dolor",
+  "SubscriptionQuantity": 16616.468,
+  "SubscriptionStart": "1999-04-11T23:03:56.7991184+02:00",
+  "ERPDiscountPercent": 9138.744,
+  "ERPDiscountAmount": 11241.658,
+  "DiscountPercent": 6252.33,
+  "DiscountAmount": 14789.346,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10097.748,
-  "EarningAmount": 26764.36,
-  "SubTotal": 19606.304,
-  "TotalPrice": 29766.732,
-  "Rights": "aperiam",
-  "Rule": "ut",
-  "ExtraField1": "consequuntur",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "dolores",
-  "ExtraField4": "dolores",
+  "EarningPercent": 25915.046,
+  "EarningAmount": 31039.136,
+  "SubTotal": 26168.899999999998,
+  "TotalPrice": 27287.737999999998,
+  "Rights": "est",
+  "Rule": "mollitia",
+  "ExtraField1": "eum",
+  "ExtraField2": "ut",
+  "ExtraField3": "consectetur",
+  "ExtraField4": "est",
   "ExtraField5": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldLength": 882
     }
   }
 }

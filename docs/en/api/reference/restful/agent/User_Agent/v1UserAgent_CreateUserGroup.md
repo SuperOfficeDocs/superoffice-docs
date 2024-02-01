@@ -81,17 +81,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "et",
-  "Tooltip": "ipsam",
-  "Id": 6,
-  "Rank": 525,
+  "Value": "autem",
+  "Tooltip": "quos",
+  "Id": 3,
+  "Rank": 639,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 43
     }
   }
 }

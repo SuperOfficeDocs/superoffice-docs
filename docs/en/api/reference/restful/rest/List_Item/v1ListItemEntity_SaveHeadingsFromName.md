@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 390,
-    "Name": "Kilback-Feest",
-    "Tooltip": "minus",
+    "HeadingId": 783,
+    "Name": "Steuber Group",
+    "Tooltip": "totam",
     "Deleted": false,
-    "Rank": 943,
-    "UdListDefinitionId": 227
+    "Rank": 399,
+    "UdListDefinitionId": 471
   },
   {
-    "HeadingId": 390,
-    "Name": "Kilback-Feest",
-    "Tooltip": "minus",
+    "HeadingId": 783,
+    "Name": "Steuber Group",
+    "Tooltip": "totam",
     "Deleted": false,
-    "Rank": 943,
-    "UdListDefinitionId": 227
+    "Rank": 399,
+    "UdListDefinitionId": 471
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 645,
-    "Name": "Littel-Gerhold",
-    "Tooltip": "quibusdam",
+    "HeadingId": 669,
+    "Name": "Fadel, Bauch and Pfeffer",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "Rank": 540,
-    "UdListDefinitionId": 867,
+    "Rank": 594,
+    "UdListDefinitionId": 680,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldLength": 894
       }
     }
   }

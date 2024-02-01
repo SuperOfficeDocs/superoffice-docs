@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abbott, Thiel and Rosenbaum",
-    "DisplayName": "Kilback-Larkin",
-    "Description": "Realigned 4th generation architecture",
-    "ToolTip": "Cupiditate voluptates qui eos ex.",
+    "Name": "Waters-Jaskolski",
+    "DisplayName": "Durgan Group",
+    "Description": "Up-sized intermediate attitude",
+    "ToolTip": "Sit et pariatur quas quidem hic.",
     "Actions": "Implicit",
-    "ActionData": "commodi",
+    "ActionData": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 594
       }
     }
   }

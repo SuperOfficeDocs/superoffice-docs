@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "minima",
-  "Value": "vel",
-  "RecordId": 278,
-  "CreatedDate": "2015-05-20T13:57:18.8265985+02:00",
-  "UpdatedDate": "2008-07-27T13:57:18.8265985+02:00",
-  "UpdatedBy": "nisi",
-  "CreatedBy": "amet",
-  "TableName": "Tromp Inc and Sons"
+  "Key": "velit",
+  "Value": "totam",
+  "RecordId": 490,
+  "CreatedDate": "2013-02-10T23:04:04.2290163+01:00",
+  "UpdatedDate": "2021-12-23T23:04:04.2290163+01:00",
+  "UpdatedBy": "ipsa",
+  "CreatedBy": "iure",
+  "TableName": "Anderson, Kunde and Kiehn"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "ut",
-  "RecordId": 195,
-  "CreatedDate": "2007-11-08T13:57:18.8265985+01:00",
-  "UpdatedDate": "2008-03-07T13:57:18.8265985+01:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "omnis",
-  "TableName": "Crona LLC",
+  "Key": "quo",
+  "Value": "beatae",
+  "RecordId": 671,
+  "CreatedDate": "2001-10-18T23:04:04.2295188+02:00",
+  "UpdatedDate": "2016-07-22T23:04:04.2295188+02:00",
+  "UpdatedBy": "voluptate",
+  "CreatedBy": "voluptatum",
+  "TableName": "Jacobson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

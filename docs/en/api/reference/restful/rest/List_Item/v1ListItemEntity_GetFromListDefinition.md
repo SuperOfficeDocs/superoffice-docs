@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 808,
-  "Name": "Kirlin Group",
-  "Tooltip": "error",
-  "Deleted": false,
-  "UdListDefinitionId": 150,
-  "Rank": 607,
+  "Id": 560,
+  "Name": "Ebert Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 21,
+  "Rank": 891,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 895
     }
   }
 }

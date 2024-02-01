@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ruecker-Treutel",
+  "TableName": "Bruen Group",
   "IncludeStandard": true
 }
 ```
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Rutherford, Wintheiser and Schamberger",
-    "DisplayName": "Schultz, Schuster and Abshire",
-    "Description": "Synergized neutral functionalities",
-    "ShortLabel": "sapiente",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
+    "FieldName": "Lakin-Kihn",
+    "DisplayName": "Franecki-Stoltenberg",
+    "Description": "Reverse-engineered fault-tolerant circuit",
+    "ShortLabel": "repudiandae",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 293,
-    "TemplateVariableName": "Rowe-Bogisich"
+    "IsExternal": false,
+    "Rank": 552,
+    "TemplateVariableName": "Walsh Inc and Sons"
   }
 ]
 ```

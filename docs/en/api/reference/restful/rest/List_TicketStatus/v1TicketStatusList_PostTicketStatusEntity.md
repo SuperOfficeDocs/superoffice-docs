@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 140,
-  "Name": "Labadie-Bradtke",
+  "TicketStatusId": 405,
+  "Name": "Trantow, Pfeffer and Buckridge",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": true,
+  "NoEmailReopen": false,
+  "IsDefault": false,
   "UsedInQueue": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 855,
-  "Name": "Willms LLC",
+  "TicketStatusId": 698,
+  "Name": "Rodriguez Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": false,
-  "UsedInQueue": false,
+  "NoEmailReopen": false,
+  "IsDefault": true,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldType": "System.Int32",
+      "FieldLength": 539
     }
   }
 }

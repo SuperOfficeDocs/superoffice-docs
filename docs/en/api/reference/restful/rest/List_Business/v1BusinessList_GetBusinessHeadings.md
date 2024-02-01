@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 899,
-    "Name": "Howe-Kulas",
-    "Tooltip": "consequatur",
+    "HeadingId": 298,
+    "Name": "Fritsch LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 345,
-    "UdListDefinitionId": 831,
+    "Rank": 688,
+    "UdListDefinitionId": 410,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldLength": 930
       }
     }
   }

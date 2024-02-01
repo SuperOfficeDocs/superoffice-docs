@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Quigley, Kling and Reilly",
-    "ToolTip": "Ipsum veniam nam dolorem atque.",
-    "Deleted": true,
-    "Rank": 193,
-    "Type": "fuga",
-    "ColorBlock": 163,
-    "IconHint": "eos",
+    "Id": 591,
+    "Name": "Stracke-Fritsch",
+    "ToolTip": "Sunt ipsam rerum dolor harum ab quia molestias.",
+    "Deleted": false,
+    "Rank": 607,
+    "Type": "facilis",
+    "ColorBlock": 601,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-01-13T13:57:20.0783884+01:00",
+    "LastChanged": "2004-02-11T23:04:05.7464958+01:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "VonRueden Inc and Sons",
-        "ToolTip": "Ipsa eos.",
+        "Id": 603,
+        "Name": "Lemke-Borer",
+        "ToolTip": "Assumenda voluptatum voluptates sunt ipsam velit.",
         "Deleted": true,
-        "Rank": 642,
-        "Type": "quia",
-        "ColorBlock": 183,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2019-02-10T13:57:20.0783884+01:00",
+        "Rank": 274,
+        "Type": "quod",
+        "ColorBlock": 587,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2020-02-13T23:04:05.7464958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
+        "ExtraInfo": "ea",
         "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Wilfredo Hettinger"
+        "FullName": "Dr. Johnson Wendy Corwin III"
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "aut",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Leora Swift"
+    "FullName": "Kamren Murazik"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Olson, Hermiston and Raynor",
-    "ToolTip": "Accusamus quo illum expedita blanditiis hic.",
-    "Deleted": true,
-    "Rank": 653,
-    "Type": "cupiditate",
-    "ColorBlock": 759,
-    "IconHint": "error",
+    "Id": 196,
+    "Name": "Bechtelar LLC",
+    "ToolTip": "Est modi consequatur odio consequatur sunt quia.",
+    "Deleted": false,
+    "Rank": 567,
+    "Type": "molestiae",
+    "ColorBlock": 61,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2013-01-11T13:57:20.0783884+01:00",
+    "LastChanged": "1996-11-29T23:04:05.747996+01:00",
     "ChildItems": [
       {
-        "Id": 485,
-        "Name": "Steuber, Hagenes and Senger",
-        "ToolTip": "Autem quasi quibusdam qui fugiat laudantium.",
-        "Deleted": true,
-        "Rank": 536,
-        "Type": "est",
-        "ColorBlock": 931,
-        "IconHint": "voluptatem",
+        "Id": 768,
+        "Name": "Pagac Group",
+        "ToolTip": "A id aliquid amet amet omnis perferendis aspernatur.",
+        "Deleted": false,
+        "Rank": 854,
+        "Type": "dolorem",
+        "ColorBlock": 977,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2008-02-19T13:57:20.0783884+01:00",
+        "LastChanged": "2018-03-06T23:04:05.747996+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "alias",
+        "StyleHint": "molestiae",
         "Hidden": true,
-        "FullName": "Gia Schumm",
+        "FullName": "Arch Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldLength": 314
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Madalyn Heathcote",
+    "ExtraInfo": "provident",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Prof. Selmer Barbara Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldType": "System.Int32",
+        "FieldLength": 886
       }
     }
   }

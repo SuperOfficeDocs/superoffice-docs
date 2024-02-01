@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aliquid",
-  "ProviderName": "Gislason-McKenzie",
-  "StorageKey": "dolores"
+  "StorageType": "aut",
+  "ProviderName": "Lang-Leuschke",
+  "StorageKey": "deleniti"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Lesch-Pagac",
-    "DisplayTooltip": "deleniti",
-    "DisplayType": "quidem",
+    "DisplayName": "Barton, Hansen and Mayert",
+    "DisplayTooltip": "quas",
+    "DisplayType": "at",
     "CanOrderBy": false,
-    "Name": "Fay LLC",
-    "CanRestrictBy": true,
-    "RestrictionType": "culpa",
-    "RestrictionListName": "Lang, Hodkiewicz and Kutch",
-    "IsVisible": true,
-    "ExtraInfo": "exercitationem",
-    "Width": "quo",
-    "IconHint": "explicabo",
-    "HeadingIconHint": "expedita"
+    "Name": "Hane, Hickle and Bergstrom",
+    "CanRestrictBy": false,
+    "RestrictionType": "placeat",
+    "RestrictionListName": "Altenwerth-Hoeger",
+    "IsVisible": false,
+    "ExtraInfo": "laboriosam",
+    "Width": "excepturi",
+    "IconHint": "autem",
+    "HeadingIconHint": "est"
   }
 ]
 ```

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 237,
-    "Name": "O'Conner-Boehm",
-    "Tooltip": "laudantium",
-    "Deleted": true,
-    "Rank": 777,
-    "UdListDefinitionId": 410,
+    "HeadingId": 452,
+    "Name": "Howe-Kutch",
+    "Tooltip": "consectetur",
+    "Deleted": false,
+    "Rank": 804,
+    "UdListDefinitionId": 460,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

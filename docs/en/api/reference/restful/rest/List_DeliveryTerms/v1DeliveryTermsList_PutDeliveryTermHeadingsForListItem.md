@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "McKenzie, Williamson and Ward",
-    "ToolTip": "Architecto earum.",
-    "Deleted": false,
-    "Rank": 775,
-    "Type": "aperiam",
-    "ColorBlock": 559,
-    "IconHint": "beatae",
+    "Id": 126,
+    "Name": "Bruen, Hartmann and Schumm",
+    "ToolTip": "Et dignissimos soluta dolor est.",
+    "Deleted": true,
+    "Rank": 563,
+    "Type": "sapiente",
+    "ColorBlock": 983,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2019-01-13T13:57:19.7346424+01:00",
+    "LastChanged": "1999-10-25T23:04:05.4450023+02:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Stracke LLC",
-        "ToolTip": "Ratione et cupiditate aut amet repudiandae.",
-        "Deleted": false,
-        "Rank": 24,
-        "Type": "necessitatibus",
-        "ColorBlock": 218,
-        "IconHint": "voluptatem",
+        "Id": 902,
+        "Name": "Brekke-Dooley",
+        "ToolTip": "Esse corrupti aut suscipit quasi libero id id.",
+        "Deleted": true,
+        "Rank": 261,
+        "Type": "aliquid",
+        "ColorBlock": 368,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "1999-01-25T13:57:19.7346424+01:00",
+        "LastChanged": "2019-11-24T23:04:05.4460006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "tempore",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Arvel Ondricka"
+        "FullName": "Mr. Samanta Alejandra Reinger DVM"
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Miss Ruby Christophe Maggio Sr."
+    "ExtraInfo": "dolor",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Brando Hyatt"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Cronin-Altenwerth",
-    "ToolTip": "Voluptatem impedit nihil et modi quisquam aut consequatur.",
+    "Id": 131,
+    "Name": "Leuschke, Mosciski and Stokes",
+    "ToolTip": "Corporis est minima deleniti itaque aut voluptatibus.",
     "Deleted": true,
-    "Rank": 585,
-    "Type": "aliquam",
-    "ColorBlock": 685,
-    "IconHint": "et",
+    "Rank": 124,
+    "Type": "repellat",
+    "ColorBlock": 780,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2009-10-01T13:57:19.7346424+02:00",
+    "LastChanged": "2001-07-02T23:04:05.4475024+02:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Johns-Christiansen",
-        "ToolTip": "Est est officia temporibus fuga labore ut id.",
+        "Id": 569,
+        "Name": "Bayer-Douglas",
+        "ToolTip": "Deleniti inventore dolor hic voluptas mollitia.",
         "Deleted": false,
-        "Rank": 306,
-        "Type": "a",
-        "ColorBlock": 411,
-        "IconHint": "et",
+        "Rank": 371,
+        "Type": "consequatur",
+        "ColorBlock": 190,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2000-09-03T13:57:19.7346424+02:00",
+        "LastChanged": "1996-11-11T23:04:05.4475024+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "qui",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Delbert Legros",
+        "FullName": "Mr. Yessenia Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 343
+            "FieldType": "System.Int32",
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "unde",
+    "ExtraInfo": "non",
+    "StyleHint": "explicabo",
     "Hidden": true,
-    "FullName": "Philip Kuhic",
+    "FullName": "Brayan Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 33
       }
     }
   }

@@ -108,29 +108,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 56,
-  "ParentId": 731,
-  "Name": "Gerlach Group",
-  "Fullname": "cumque",
-  "CategoryMaster": 541,
+  "TicketCategoryId": 328,
+  "ParentId": 23,
+  "Name": "Schimmel LLC",
+  "Fullname": "consequatur",
+  "CategoryMaster": 372,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Feeney, Cassin and Ondricka",
+  "ExternalName": "Goodwin LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 814,
-  "ReplyTemplate": 432,
-  "NotificationEmail": "reta_rau@beier.co.uk",
+  "AssignmentLag": 625,
+  "ReplyTemplate": 675,
+  "NotificationEmail": "ivah.kessler@hilperttorphy.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 546,
+  "EffectiveReplyTemplateId": 829,
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "assumenda"
   },
   "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "aliquam"
+    "CustomFields1": "harum",
+    "CustomFields2": "soluta"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 155,
-  "ParentId": 280,
-  "Name": "Schultz Group",
-  "Fullname": "repellendus",
-  "CategoryMaster": 495,
+  "TicketCategoryId": 53,
+  "ParentId": 639,
+  "Name": "Prosacco-Nicolas",
+  "Fullname": "dolores",
+  "CategoryMaster": 970,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Reichert, Gislason and Gleichner",
+  "ExternalName": "Kuphal-Jacobi",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 9,
-  "ReplyTemplate": 957,
-  "NotificationEmail": "vivian@hauck.com",
+  "AssignmentLag": 345,
+  "ReplyTemplate": 274,
+  "NotificationEmail": "amparo_dickens@nikolaus.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 923,
+  "EffectiveReplyTemplateId": 772,
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "at",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "dolor"
+    "CustomFields1": "alias",
+    "CustomFields2": "quae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldLength": 686
     }
   }
 }

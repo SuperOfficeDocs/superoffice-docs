@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Lubowitz, Nienow and Klocko",
-    "ToolTip": "Perspiciatis eum voluptatem esse.",
-    "Deleted": true,
-    "Rank": 597,
-    "Type": "illum",
-    "ColorBlock": 22,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2003-04-14T13:57:19.7346424+02:00",
+    "Id": 315,
+    "Name": "Haley Inc and Sons",
+    "ToolTip": "Minima et quos est voluptas harum voluptatem.",
+    "Deleted": false,
+    "Rank": 469,
+    "Type": "fugiat",
+    "ColorBlock": 440,
+    "IconHint": "animi",
+    "Selected": false,
+    "LastChanged": "2000-06-20T23:04:05.4440001+02:00",
     "ChildItems": [
       {
-        "Id": 944,
-        "Name": "Parisian-Zemlak",
-        "ToolTip": "Qui odit atque nostrum cum voluptas.",
-        "Deleted": true,
-        "Rank": 689,
-        "Type": "est",
-        "ColorBlock": 453,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2010-12-02T13:57:19.7346424+01:00",
+        "Id": 633,
+        "Name": "Hammes-Kohler",
+        "ToolTip": "Est aut totam fugit inventore.",
+        "Deleted": false,
+        "Rank": 933,
+        "Type": "quibusdam",
+        "ColorBlock": 653,
+        "IconHint": "aliquam",
+        "Selected": false,
+        "LastChanged": "1998-03-19T23:04:05.4445019+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "aut",
+        "ExtraInfo": "dolor",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Ms. D'angelo Nya Dare II",
+        "FullName": "Dorothy Lindgren III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldType": "System.Int32",
+            "FieldLength": 745
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "dicta",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Mattie Brown",
+    "FullName": "Eldred Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldType": "System.String",
+        "FieldLength": 784
       }
     }
   }

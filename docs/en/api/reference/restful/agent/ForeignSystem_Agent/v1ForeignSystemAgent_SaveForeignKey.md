@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Doyle Group",
-  "DeviceName": "Satterfield Inc and Sons",
-  "DeviceIdentifier": "repellat"
+  "ApplicationName": "Ruecker, Kutch and Boyer",
+  "DeviceName": "Jacobi Group",
+  "DeviceIdentifier": "necessitatibus"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ullam",
-  "Value": "pariatur",
-  "RecordId": 418,
-  "CreatedDate": "1997-07-28T13:57:12.4181107+02:00",
-  "UpdatedDate": "2008-10-11T13:57:12.4181107+02:00",
-  "UpdatedBy": "id",
-  "CreatedBy": "quia",
-  "TableName": "Considine, Gleichner and Ortiz",
+  "Key": "dolorem",
+  "Value": "sunt",
+  "RecordId": 450,
+  "CreatedDate": "1999-09-18T23:03:56.1171271+02:00",
+  "UpdatedDate": "2013-01-02T23:03:56.1171271+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "voluptatem",
+  "TableName": "Towne, Satterfield and Parker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 984
     }
   }
 }

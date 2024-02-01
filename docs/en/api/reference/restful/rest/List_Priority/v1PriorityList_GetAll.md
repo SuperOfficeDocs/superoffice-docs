@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Leannon-Kerluke",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "UdListDefinitionId": 937,
-    "Rank": 100,
+    "Id": 420,
+    "Name": "Nitzsche-White",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 681,
+    "Rank": 992,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 43
       }
     }
   }

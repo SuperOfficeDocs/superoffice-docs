@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 262,
-    "Name": "Nitzsche-Kautzer",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "Rank": 297,
-    "UdListDefinitionId": 83
+    "HeadingId": 817,
+    "Name": "Gerhold Group",
+    "Tooltip": "cum",
+    "Deleted": false,
+    "Rank": 977,
+    "UdListDefinitionId": 601
   },
   {
-    "HeadingId": 262,
-    "Name": "Nitzsche-Kautzer",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "Rank": 297,
-    "UdListDefinitionId": 83
+    "HeadingId": 817,
+    "Name": "Gerhold Group",
+    "Tooltip": "cum",
+    "Deleted": false,
+    "Rank": 977,
+    "UdListDefinitionId": 601
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 48,
-    "Name": "Stoltenberg-Kuhlman",
-    "Tooltip": "facere",
+    "HeadingId": 453,
+    "Name": "Bailey Group",
+    "Tooltip": "odit",
     "Deleted": true,
-    "Rank": 653,
-    "UdListDefinitionId": 320,
+    "Rank": 206,
+    "UdListDefinitionId": 86,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 535
       }
     }
   }

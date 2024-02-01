@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bayer-Windler",
-  "DeviceName": "Klocko-Braun",
-  "DeviceIdentifier": "in"
+  "ApplicationName": "Rippin, Hayes and Eichmann",
+  "DeviceName": "Waelchi Inc and Sons",
+  "DeviceIdentifier": "exercitationem"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 297,
-  "Name": "Schroeder, Haag and Ferry",
-  "CreatedDate": "2023-01-26T13:57:12.4181107+01:00",
-  "UpdatedDate": "2017-11-28T13:57:12.4181107+01:00",
-  "AssociateFullName": "Mrs. Okey Green",
-  "CreatedBy": "ut",
-  "UpdatedBy": "non",
-  "DeviceIdentifier": "qui",
-  "ForeignAppId": 301,
+  "ForeignDeviceId": 847,
+  "Name": "Pfeffer Inc and Sons",
+  "CreatedDate": "2001-08-07T23:03:56.1116282+02:00",
+  "UpdatedDate": "2002-08-15T23:03:56.1116282+02:00",
+  "AssociateFullName": "Prof. Liliane D'Amore MD",
+  "CreatedBy": "voluptates",
+  "UpdatedBy": "vel",
+  "DeviceIdentifier": "eius",
+  "ForeignAppId": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldType": "System.Int32",
+      "FieldLength": 170
     }
   }
 }

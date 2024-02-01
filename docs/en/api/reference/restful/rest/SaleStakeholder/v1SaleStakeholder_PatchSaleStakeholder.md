@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nulla",
+    "path": "ducimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nulla",
+    "path": "ducimus",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Flatley, Douglas and Willms",
-  "Comment": "reprehenderit",
-  "StakeholderRoleId": 468,
-  "CountryId": 352,
-  "PersonId": 347,
-  "EmailDescription": "jena@raynor.biz",
-  "EmailId": 35,
-  "EmailAddress": "fermin.runte@okuneva.info",
-  "PhoneId": 601,
-  "ContactName": "Durgan Inc and Sons",
-  "ContactId": 857,
-  "SaleId": 992,
-  "Mrmrs": "delectus",
-  "Firstname": "Cloyd",
-  "MiddleName": "Gorczany LLC",
-  "Lastname": "Kuvalis",
-  "SaleStakeholderId": 68,
-  "Rank": 308,
-  "Phone": "(204)620-6522 x08019",
+  "StakeholderRoleName": "Herman, Tillman and Jacobi",
+  "Comment": "nesciunt",
+  "StakeholderRoleId": 627,
+  "CountryId": 126,
+  "PersonId": 152,
+  "EmailDescription": "keyshawn.metz@hilpertschmeler.us",
+  "EmailId": 453,
+  "EmailAddress": "lottie@larkin.biz",
+  "PhoneId": 420,
+  "ContactName": "Hagenes-Koch",
+  "ContactId": 635,
+  "SaleId": 708,
+  "Mrmrs": "et",
+  "Firstname": "Samara",
+  "MiddleName": "Hills Inc and Sons",
+  "Lastname": "Zieme",
+  "SaleStakeholderId": 735,
+  "Rank": 453,
+  "Phone": "1-142-594-2313 x941",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 500
     }
   },
   "_Links": {

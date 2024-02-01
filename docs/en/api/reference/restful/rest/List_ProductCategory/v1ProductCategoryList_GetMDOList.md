@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=et
+GET /api/v1/List/ProductCategory/MDOItems?query=totam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 906,
-    "Name": "Grant Inc and Sons",
-    "ToolTip": "Sint consectetur quam.",
+    "Id": 168,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Consequuntur maiores.",
     "Deleted": false,
-    "Rank": 888,
-    "Type": "et",
+    "Rank": 565,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 755,
-        "Name": "Schaefer-Beier",
-        "ToolTip": "Illum eos deserunt eum reprehenderit.",
-        "Deleted": true,
-        "Rank": 416,
-        "Type": "quibusdam",
+        "Id": 697,
+        "Name": "Aufderhar-Mueller",
+        "ToolTip": "Dolores quidem mollitia quo.",
+        "Deleted": false,
+        "Rank": 308,
+        "Type": "suscipit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 610,
-        "ExtraInfo": "unde",
-        "StyleHint": "aut",
-        "FullName": "Opal Willms",
+        "IconHint": "ducimus",
+        "ColorBlock": 185,
+        "ExtraInfo": "tenetur",
+        "StyleHint": "voluptate",
+        "FullName": "Joany Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldType": "System.String",
+            "FieldLength": 21
           }
         }
       }
     ],
-    "IconHint": "tenetur",
-    "ColorBlock": 126,
-    "ExtraInfo": "laborum",
-    "StyleHint": "id",
-    "FullName": "Chaz Conroy",
+    "IconHint": "quidem",
+    "ColorBlock": 310,
+    "ExtraInfo": "et",
+    "StyleHint": "voluptate",
+    "FullName": "Rylee Schneider Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 675
       }
     }
   }

@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "est",
-  "Key": "et"
+  "Section": "dolorem",
+  "Key": "adipisci"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 519,
-  "Section": "nam",
-  "Key": "quam",
-  "Name": "Lakin-Klocko",
+  "PrefDescId": 73,
+  "Section": "rerum",
+  "Key": "consequuntur",
+  "Name": "Daugherty, Rau and Quigley",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Upgradable systematic product",
-  "IsBuiltin": true,
-  "TableName": "Wuckert, Hettinger and Willms",
-  "UserDefinedListId": 794,
-  "Rank": 998,
-  "SubGroup": "voluptates",
-  "MinLevel": 313,
-  "MaxValue": 512,
-  "MinValue": 274,
-  "RequiredLicense": "qui",
+  "Description": "Public-key homogeneous neural-net",
+  "IsBuiltin": false,
+  "TableName": "Padberg, Halvorson and Stroman",
+  "UserDefinedListId": 426,
+  "Rank": 244,
+  "SubGroup": "ut",
+  "MinLevel": 763,
+  "MaxValue": 545,
+  "MinValue": 167,
+  "RequiredLicense": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldLength": 586
     }
   }
 }

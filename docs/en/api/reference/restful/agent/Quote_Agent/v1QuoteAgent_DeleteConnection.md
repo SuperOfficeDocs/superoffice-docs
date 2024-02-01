@@ -68,7 +68,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 971
+  "QuoteConnectionId": 596
 }
 ```
 

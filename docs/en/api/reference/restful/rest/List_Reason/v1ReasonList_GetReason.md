@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 145,
-  "Name": "Wuckert Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 469,
-  "Rank": 151,
+  "Id": 366,
+  "Name": "Fay, Gleichner and Zulauf",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 453,
+  "Rank": 755,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 881
     }
   }
 }

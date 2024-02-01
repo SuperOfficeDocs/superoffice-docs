@@ -25,7 +25,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=True
+GET /api/v1/List/Category/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Gleason Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 915,
-    "Rank": 606,
+    "Id": 14,
+    "Name": "Gottlieb Group",
+    "Tooltip": "impedit",
+    "Deleted": true,
+    "UdListDefinitionId": 873,
+    "Rank": 549,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldLength": 390
       }
     }
   }

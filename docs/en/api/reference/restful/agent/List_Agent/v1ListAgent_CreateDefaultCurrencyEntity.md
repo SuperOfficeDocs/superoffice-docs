@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 503,
-  "Name": "O'Hara Group",
-  "Tooltip": "omnis",
-  "Rank": 729,
-  "Rate": 30622.314,
-  "Units": 14770.542,
+  "CurrencyId": 213,
+  "Name": "Powlowski, Upton and Murphy",
+  "Tooltip": "iure",
+  "Rank": 842,
+  "Rate": 6612.74,
+  "Units": 6471.71,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 354
     }
   }
 }

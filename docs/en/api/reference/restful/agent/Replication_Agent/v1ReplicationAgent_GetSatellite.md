@@ -28,7 +28,7 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=833
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=517
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,17 +86,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 904,
-  "Created": "2001-12-17T13:57:13.1118159+01:00",
+  "SatelliteId": 853,
+  "Created": "2018-08-13T23:03:56.8316191+02:00",
   "CreatedBy": null,
-  "Updated": "2018-02-09T13:57:13.1120967+01:00",
+  "Updated": "2004-01-21T23:03:56.8321147+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Flatley, Herman and Schroeder",
-      "Description": "Inverse 3rd generation internet solution",
+      "Name": "Nader Group",
+      "Description": "Implemented stable help-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -110,13 +110,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldLength": 675
         }
       }
     },
     {
-      "Name": "Flatley, Herman and Schroeder",
-      "Description": "Inverse 3rd generation internet solution",
+      "Name": "Nader Group",
+      "Description": "Implemented stable help-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldLength": 675
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 476
     }
   }
 }

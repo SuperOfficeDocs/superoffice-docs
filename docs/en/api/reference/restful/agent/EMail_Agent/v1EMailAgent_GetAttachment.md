@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 626,
-  "AttachmentId": "velit"
+  "MessageServerId": 350,
+  "AttachmentId": "molestiae"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive analyzing capability",
-  "Filename": "non",
-  "Size": 305,
-  "Type": "expedita",
-  "Encoding": "iusto",
-  "Id": "qui",
-  "Disposition": "quae",
+  "Description": "Networked dedicated artificial intelligence",
+  "Filename": "sed",
+  "Size": 247,
+  "Type": "voluptatem",
+  "Encoding": "esse",
+  "Id": "assumenda",
+  "Disposition": "dolor",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 837
     }
   }
 }

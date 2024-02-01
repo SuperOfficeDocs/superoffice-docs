@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 548,
+  "UdListDefinitionId": 708,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Macejkovic-Botsford",
-  "Tooltip": "cumque",
-  "Deleted": true,
-  "UdListDefinitionId": 916,
-  "Rank": 970,
+  "Id": 961,
+  "Name": "Walter-Herzog",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 193,
+  "Rank": 422,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 195
     }
   }
 }

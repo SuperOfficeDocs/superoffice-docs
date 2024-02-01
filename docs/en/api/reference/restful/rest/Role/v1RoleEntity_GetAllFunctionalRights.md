@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Fahey Group",
-    "ToolTip": "Qui est et sint voluptatem earum.",
-    "Deleted": false,
-    "Rank": 313,
-    "Type": "nisi",
-    "ColorBlock": 677,
-    "IconHint": "quam",
-    "Selected": true,
-    "LastChanged": "2003-02-28T13:57:19.1403101+01:00",
+    "Id": 505,
+    "Name": "Kuhic-DuBuque",
+    "ToolTip": "Voluptatem quod sunt.",
+    "Deleted": true,
+    "Rank": 497,
+    "Type": "quidem",
+    "ColorBlock": 20,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "1998-09-15T23:04:04.6300113+02:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Yost Inc and Sons",
-        "ToolTip": "Voluptatibus ad reiciendis sit et.",
-        "Deleted": false,
-        "Rank": 827,
-        "Type": "qui",
-        "ColorBlock": 787,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2003-02-05T13:57:19.1403101+01:00",
+        "Id": 38,
+        "Name": "Waelchi Inc and Sons",
+        "ToolTip": "Eum voluptatem consequatur labore.",
+        "Deleted": true,
+        "Rank": 473,
+        "Type": "eos",
+        "ColorBlock": 649,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2016-05-21T23:04:04.6300113+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "dolorem",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Deja Erick Schmitt DDS",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Annamae Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 279
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "vero",
+    "StyleHint": "cum",
     "Hidden": false,
-    "FullName": "Dr. Lyda Goldner",
+    "FullName": "Ally Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldType": "System.String",
+        "FieldLength": 449
       }
     }
   }

@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 993,
-  "Name": "Brown, Rodriguez and Schowalter",
-  "Tooltip": "modi",
-  "Rank": 791,
+  "SaleTypeId": 557,
+  "Name": "Goodwin-Herzog",
+  "Tooltip": "voluptas",
+  "Rank": 303,
   "DurationUnit": "Century",
-  "SaleDuration": 981,
-  "SaleTypeCatId": 404,
+  "SaleDuration": 243,
+  "SaleTypeCatId": 847,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 893,
-  "QuoteLinesTemplate": 492,
-  "ConfirmationLinesTemplate": 848,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 236,
+  "QuoteLinesTemplate": 540,
+  "ConfirmationLinesTemplate": 544,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 494,
-  "MinEarningPercent": 231,
-  "GroupQuoteLinesBy": 66,
-  "SortGroupLinesBy": 467,
+  "MaxDiscountPercent": 671,
+  "MinEarningPercent": 141,
+  "GroupQuoteLinesBy": 419,
+  "SortGroupLinesBy": 986,
   "Stages": [
     {
-      "Id": 35,
-      "Name": "Schaefer-Lubowitz",
-      "ToolTip": "Asperiores qui explicabo ut voluptates voluptas.",
-      "Deleted": false,
-      "Rank": 916,
-      "Type": "possimus",
-      "ColorBlock": 436,
-      "IconHint": "explicabo",
+      "Id": 394,
+      "Name": "Stehr-McLaughlin",
+      "ToolTip": "Nisi dignissimos.",
+      "Deleted": true,
+      "Rank": 906,
+      "Type": "iusto",
+      "ColorBlock": 55,
+      "IconHint": "hic",
       "Selected": false,
-      "LastChanged": "2008-12-15T13:57:20.1109105+01:00",
+      "LastChanged": "2013-08-08T23:04:05.794495+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "est",
-      "Hidden": false,
-      "FullName": "Ms. Maverick Manley Senger",
+      "ExtraInfo": "veritatis",
+      "StyleHint": "esse",
+      "Hidden": true,
+      "FullName": "Prof. Zita Rutherford V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 387
+      "FieldType": "System.Int32",
+      "FieldLength": 372
     }
   }
 }

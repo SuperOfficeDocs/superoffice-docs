@@ -96,8 +96,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "dolor",
-  "Key": "dolor",
+  "Section": "labore",
+  "Key": "perspiciatis",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 666,
-  "Section": "quo",
-  "Key": "quia",
-  "Name": "Langworth-Hoppe",
+  "PrefDescId": 918,
+  "Section": "dolor",
+  "Key": "praesentium",
+  "Name": "Kuvalis, Mohr and Ledner",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked explicit orchestration",
+  "Description": "Integrated background moderator",
   "IsBuiltin": false,
-  "TableName": "Larson Group",
-  "UserDefinedListId": 361,
-  "Rank": 866,
-  "SubGroup": "sequi",
-  "MinLevel": 372,
-  "MaxValue": 339,
-  "MinValue": 473,
-  "RequiredLicense": "atque",
+  "TableName": "Roob LLC",
+  "UserDefinedListId": 213,
+  "Rank": 687,
+  "SubGroup": "suscipit",
+  "MinLevel": 614,
+  "MaxValue": 87,
+  "MinValue": 276,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 891
+      "FieldLength": 838
     }
   }
 }

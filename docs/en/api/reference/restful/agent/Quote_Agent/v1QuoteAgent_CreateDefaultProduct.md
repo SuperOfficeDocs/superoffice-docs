@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 499,
-  "ERPProductKey": "a",
-  "ERPPriceListKey": "beatae",
-  "Name": "Klocko Group",
-  "Description": "Re-engineered 3rd generation process improvement",
-  "Code": "aut",
-  "PriceUnit": "nihil",
-  "QuantityUnit": "qui",
-  "IsSubscription": true,
-  "SubscriptionUnit": "aliquid",
-  "DefaultSubscriptionQuantity": 28967.561999999998,
-  "ItemNumber": "1041285",
+  "ProductId": 133,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "adipisci",
+  "Name": "Bailey-VonRueden",
+  "Description": "Team-oriented full-range solution",
+  "Code": "fuga",
+  "PriceUnit": "rerum",
+  "QuantityUnit": "quo",
+  "IsSubscription": false,
+  "SubscriptionUnit": "nam",
+  "DefaultSubscriptionQuantity": 2140.522,
+  "ItemNumber": "446855",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "ut",
-  "ProductTypeKey": "perferendis",
-  "VAT": 27002.543999999998,
-  "VATInfo": "consequatur",
-  "UnitCost": 1764.442,
-  "UnitMinimumPrice": 4679.062,
-  "UnitListPrice": 30832.291999999998,
+  "ProductTypeKey": "in",
+  "VAT": 25300.782,
+  "VATInfo": "porro",
+  "UnitCost": 4848.298,
+  "UnitMinimumPrice": 6731.8319999999994,
+  "UnitListPrice": 13040.573999999999,
   "InAssortment": false,
-  "Supplier": "aperiam",
-  "SupplierCode": "quibusdam",
-  "Rights": "et",
-  "Rule": "repellat",
+  "Supplier": "neque",
+  "SupplierCode": "consequuntur",
+  "Rights": "fugit",
+  "Rule": "molestias",
   "ExtraInfo": [
     {
-      "Name": "Dach-Gislason",
-      "Value": "eveniet",
+      "Name": "Pollich-Cormier",
+      "Value": "corrupti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     },
     {
-      "Name": "Dach-Gislason",
-      "Value": "eveniet",
+      "Name": "Pollich-Cormier",
+      "Value": "corrupti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     }
   ],
-  "RawExtraInfo": "accusamus",
-  "ExtraField1": "modi",
-  "ExtraField2": "ea",
-  "ExtraField3": "vel",
-  "ExtraField4": "optio",
-  "ExtraField5": "ea",
-  "InStock": 31145.692,
+  "RawExtraInfo": "consequatur",
+  "ExtraField1": "commodi",
+  "ExtraField2": "dolor",
+  "ExtraField3": "distinctio",
+  "ExtraField4": "aspernatur",
+  "ExtraField5": "ut",
+  "InStock": 28253.01,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldLength": 127
     }
   }
 }

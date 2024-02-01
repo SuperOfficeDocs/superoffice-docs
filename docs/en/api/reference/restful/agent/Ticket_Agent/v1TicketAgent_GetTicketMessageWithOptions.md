@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 277,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 339,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 377,
+  "EjMessageId": 7,
   "Ticket": null,
-  "CreatedAt": "2008-12-29T13:57:13.48959+01:00",
+  "CreatedAt": "2015-03-28T23:03:57.4786097+01:00",
   "CreatedBy": null,
-  "Author": "delectus",
+  "Author": "maxime",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aut",
-  "TimeSpent": 540,
-  "Body": "culpa",
-  "HtmlBody": "et",
-  "EmailHeader": "adonis_ankunding@schaefer.name",
-  "DebugInfo": "delectus",
-  "MailSorter": "debitis",
+  "MessageId": "iusto",
+  "TimeSpent": 368,
+  "Body": "veniam",
+  "HtmlBody": "omnis",
+  "EmailHeader": "rebeca@russel.biz",
+  "DebugInfo": "ut",
+  "MailSorter": "dignissimos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nemo",
+  "SearchTitle": "in",
   "MessageHeaders": [
     {
-      "Id": 98,
-      "Name": "Dickens, Dare and Dietrich",
-      "Value": "nobis",
+      "Id": 853,
+      "Name": "Gerlach, Strosin and Streich",
+      "Value": "eius",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 183
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "aliquid",
-  "Sentiment": 487,
-  "SentimentConfidence": 832,
+  "Important": true,
+  "Language": "earum",
+  "Sentiment": 708,
+  "SentimentConfidence": 722,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 722,
-      "Name": "Morissette, Davis and Windler",
-      "ContentType": "sapiente",
-      "AttSize": 63,
-      "InlineImage": false,
-      "ContentId": "assumenda",
-      "AuthKey": "sed",
+      "AttachmentId": 959,
+      "Name": "Beahan-Medhurst",
+      "ContentType": "doloremque",
+      "AttSize": 540,
+      "InlineImage": true,
+      "ContentId": "ad",
+      "AuthKey": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldType": "System.Int32",
+          "FieldLength": 351
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "possimus"
+    "CustomFields1": "quidem",
+    "CustomFields2": "cupiditate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 969
     }
   }
 }

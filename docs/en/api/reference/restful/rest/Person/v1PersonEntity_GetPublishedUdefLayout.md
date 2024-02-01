@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 738,
-    "ColumnId": 978,
-    "FieldDefault": "id",
-    "FieldHeight": 291,
-    "FieldLabel": "necessitatibus",
-    "FieldLeft": 111,
-    "FieldTop": 103,
+    "UDefFieldId": 236,
+    "ColumnId": 232,
+    "FieldDefault": "velit",
+    "FieldHeight": 531,
+    "FieldLabel": "repudiandae",
+    "FieldLeft": 735,
+    "FieldTop": 108,
     "FieldType": "Checkbox",
-    "FieldWidth": 522,
-    "FormatMask": "consequatur",
-    "HideLabel": true,
+    "FieldWidth": 429,
+    "FormatMask": "deleniti",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 710,
-    "LabelLeft": 303,
-    "LabelTop": 912,
-    "LabelWidth": 412,
-    "LastVersionId": 145,
-    "ListTableId": 33,
-    "IsMandatory": false,
+    "LabelHeight": 771,
+    "LabelLeft": 804,
+    "LabelTop": 244,
+    "LabelWidth": 746,
+    "LastVersionId": 975,
+    "ListTableId": 657,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 564,
-    "ProgId": "fugit",
-    "IsReadOnly": true,
-    "ShortLabel": "sequi",
-    "TabOrder": 698,
-    "TextLength": 320,
-    "Tooltip": "veritatis",
-    "UdefIdentity": 843,
-    "UDListDefinitionId": 816,
+    "Page1LineNo": 484,
+    "ProgId": "omnis",
+    "IsReadOnly": false,
+    "ShortLabel": "sapiente",
+    "TabOrder": 793,
+    "TextLength": 805,
+    "Tooltip": "labore",
+    "UdefIdentity": 10,
+    "UDListDefinitionId": 901,
     "Justification": "Center",
-    "Version": 778,
-    "TemplateVariableName": "Stroman, Kessler and Franecki",
+    "Version": 876,
+    "TemplateVariableName": "Bergnaum, Green and Turner",
     "HasBeenPublished": false,
-    "MdoListName": "Sawayn Inc and Sons",
+    "MdoListName": "Mitchell-Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 960
+        "FieldType": "System.String",
+        "FieldLength": 873
       }
     }
   }

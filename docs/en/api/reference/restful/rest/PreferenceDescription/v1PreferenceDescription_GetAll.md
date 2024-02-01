@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 774,
-    "Section": "aperiam",
-    "Key": "fugit",
-    "Name": "Pfannerstill, Murazik and Reilly",
+    "PrefDescId": 53,
+    "Section": "quo",
+    "Key": "officiis",
+    "Name": "Schulist, Hauck and Streich",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Robust uniform approach",
+    "Description": "Front-line disintermediate customer loyalty",
     "IsBuiltin": false,
-    "TableName": "Murray, Littel and McClure",
-    "UserDefinedListId": 524,
-    "Rank": 206,
-    "SubGroup": "dolor",
-    "MinLevel": 488,
-    "MaxValue": 591,
-    "MinValue": 387,
-    "RequiredLicense": "quo",
+    "TableName": "Auer LLC",
+    "UserDefinedListId": 572,
+    "Rank": 301,
+    "SubGroup": "magni",
+    "MinLevel": 547,
+    "MaxValue": 511,
+    "MinValue": 920,
+    "RequiredLicense": "tempore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldType": "System.Int32",
+        "FieldLength": 659
       }
     }
   }

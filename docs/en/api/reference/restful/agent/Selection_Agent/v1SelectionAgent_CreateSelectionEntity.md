@@ -117,7 +117,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Miller, Kuhn and Mann"
+  "TargetTableName": "Steuber, Fisher and Buckridge"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic national Graphical User Interface",
-  "Postit": "inventore",
+  "Description": "Extended asynchronous adapter",
+  "Postit": "sunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 370,
-  "IncludePerson": 886,
-  "MemberCount": 839,
-  "Name": "Raynor Group",
-  "PostitTextId": 23,
-  "CreatedDate": "2007-10-29T13:57:13.2071528+01:00",
-  "SelectionId": 454,
-  "SoundEx": "animi",
-  "Source": 900,
-  "TextId": 982,
-  "UpdatedDate": "2003-03-16T13:57:13.2071528+01:00",
-  "UpdatedCount": 612,
-  "Visibility": 159,
+  "GroupIdx": 152,
+  "IncludePerson": 103,
+  "MemberCount": 614,
+  "Name": "Hamill LLC",
+  "PostitTextId": 252,
+  "CreatedDate": "2014-03-25T23:03:57.1071142+01:00",
+  "SelectionId": 701,
+  "SoundEx": "delectus",
+  "Source": 769,
+  "TextId": 630,
+  "UpdatedDate": "2006-10-03T23:03:57.1071142+02:00",
+  "UpdatedCount": 907,
+  "Visibility": 38,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 942,
-  "TargetTableName": "Rutherford LLC",
-  "Completed": true,
-  "LeftSelectionId": 178,
-  "RightSelectionId": 384,
+  "TargetTableNumber": 612,
+  "TargetTableName": "Blanda, Walker and Kilback",
+  "Completed": false,
+  "LeftSelectionId": 578,
+  "RightSelectionId": 469,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Boehm Group",
-  "ShadowProviderName": "Hills, Brown and Thompson",
-  "ChartKey": "est",
-  "LastLoaded": "2021-01-08T13:57:13.2071528+01:00",
-  "LastLoadedBy": 697,
+  "MainProviderName": "Gerhold LLC",
+  "ShadowProviderName": "Hegmann-Gislason",
+  "ChartKey": "aliquid",
+  "LastLoaded": "2018-05-24T23:03:57.1071142+02:00",
+  "LastLoadedBy": 354,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-09-04T13:57:13.2071528+02:00",
-  "LastMembershipChangeBy": 976,
+  "LastMembershipChange": "2021-02-07T23:03:57.1076103+01:00",
+  "LastMembershipChangeBy": 117,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laboriosam",
-  "MemberTabHeading": "in",
-  "MailingsProviderName": "Spencer Group",
-  "DashboardTileDefinitionId": 780,
+  "MainHeading": "atque",
+  "MemberTabHeading": "dolorum",
+  "MailingsProviderName": "Hickle-Ruecker",
+  "DashboardTileDefinitionId": 343,
   "VisibleFor": [
     {
-      "VisibleId": 19,
+      "VisibleId": 617,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldType": "System.Int32",
+          "FieldLength": 547
         }
       }
     },
     {
-      "VisibleId": 19,
+      "VisibleId": 617,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldType": "System.Int32",
+          "FieldLength": 547
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 241
     }
   }
 }

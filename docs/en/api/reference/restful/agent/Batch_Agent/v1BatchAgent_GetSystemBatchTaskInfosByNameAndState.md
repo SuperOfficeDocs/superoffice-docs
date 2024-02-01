@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Oberbrunner-Hoeger",
+  "TaskName": "Anderson Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Kihn-Durgan",
-    "AssociateId": 48,
-    "DetailsTable": 600,
-    "DetailsRecord": 421,
+    "Id": 117,
+    "Name": "Hoppe Inc and Sons",
+    "AssociateId": 408,
+    "DetailsTable": 901,
+    "DetailsRecord": 518,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "saepe",
-      "ParameterObject2": "asperiores"
+      "ParameterObject1": "earum",
+      "ParameterObject2": "doloremque"
     },
-    "LastStarted": "2010-02-02T13:57:11.5594343+01:00",
-    "Created": "2011-06-16T13:57:11.5594343+02:00",
-    "StartCount": 286,
-    "DatabaseSerialNumber": "1708300",
-    "Context": "iusto",
-    "Result": "est",
+    "LastStarted": "2005-06-09T23:03:55.0291415+02:00",
+    "Created": "2013-05-20T23:03:55.0291415+02:00",
+    "StartCount": 285,
+    "DatabaseSerialNumber": "1453137",
+    "Context": "iste",
+    "Result": "commodi",
     "State": "All",
-    "Description": "Sharable empowering model",
-    "Response": "sint",
-    "Request": "qui",
-    "ProgressDescription": "Innovative multi-tasking attitude",
-    "ProgressPercent": 209,
-    "FileName": "Hermann, Morar and Barrows",
+    "Description": "Secured zero defect groupware",
+    "Response": "quas",
+    "Request": "cupiditate",
+    "ProgressDescription": "Proactive bifurcated system engine",
+    "ProgressPercent": 477,
+    "FileName": "Christiansen-Lebsack",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 11
+        "FieldLength": 74
       }
     }
   }

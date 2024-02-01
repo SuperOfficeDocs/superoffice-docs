@@ -21,7 +21,7 @@ Calls the List agent service GetTicketTypeEntity.
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| id | int32 | The id of the TicketType to return. **Required** |
+| id | int32 | The id of the TicketTypeEntity to return. **Required** |
 
 
 
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 256,
-  "Name": "Jaskolski, Boyle and Ebert",
-  "Rank": 60,
-  "Tooltip": "est",
-  "Icon": "consequatur",
-  "DefaultTicketStatus": 888,
+  "TicketTypeId": 573,
+  "Name": "Lubowitz, Swift and Schmitt",
+  "Rank": 688,
+  "Tooltip": "impedit",
+  "Icon": "soluta",
+  "DefaultTicketStatus": 64,
   "TicketStatuses": [
-    879,
-    5
+    772,
+    670
   ],
-  "DefaultTicketPriority": 817,
+  "DefaultTicketPriority": 188,
   "TicketPriorities": [
-    553,
-    648
+    582,
+    285
   ],
-  "ReplyTemplate": 399,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 381,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldLength": 519
     }
   }
 }

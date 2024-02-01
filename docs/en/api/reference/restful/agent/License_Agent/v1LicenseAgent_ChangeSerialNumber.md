@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Goldner, Muller and Kuhic",
-  "NewSerialNumber": "831494"
+  "NewCompanyName": "Dickinson, Boyer and Murphy",
+  "NewSerialNumber": "564556"
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 618
     }
   }
 }

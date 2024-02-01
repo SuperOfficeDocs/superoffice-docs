@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=71
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=101
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 6,
-  "Name": "Bahringer-Mohr",
+  "TicketPriorityId": 66,
+  "Name": "Boehm, Block and Yost",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 854,
+  "SortOrder": 621,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 312,
-  "MonStart": "2009-05-27T13:57:12.4649848+02:00",
-  "MonStop": "2012-12-13T13:57:12.4649848+01:00",
-  "TueStart": "2018-04-23T13:57:12.4649848+02:00",
-  "TueStop": "2021-05-07T13:57:12.4649848+02:00",
-  "WedStart": "2019-12-21T13:57:12.4649848+01:00",
-  "WedStop": "2022-04-18T13:57:12.4649848+02:00",
-  "ThuStart": "1998-04-03T13:57:12.4649848+02:00",
-  "ThuStop": "2015-01-08T13:57:12.4649848+01:00",
-  "FriStart": "2012-04-21T13:57:12.4649848+02:00",
-  "FriStop": "2007-07-28T13:57:12.4649848+02:00",
-  "SatStart": "2006-05-14T13:57:12.4649848+02:00",
-  "SatStop": "2013-04-24T13:57:12.4649848+02:00",
-  "SunStart": "2023-07-31T13:57:12.4649848+02:00",
-  "SunStop": "2015-07-21T13:57:12.4649848+02:00",
+  "Deadline": 601,
+  "MonStart": "2005-09-21T23:03:56.1581315+02:00",
+  "MonStop": "1999-08-01T23:03:56.1581315+02:00",
+  "TueStart": "1999-10-29T23:03:56.1581315+02:00",
+  "TueStop": "1998-11-12T23:03:56.1581315+01:00",
+  "WedStart": "2018-01-31T23:03:56.1581315+01:00",
+  "WedStop": "2022-10-09T23:03:56.1581315+02:00",
+  "ThuStart": "2018-02-07T23:03:56.1581315+01:00",
+  "ThuStop": "2003-03-21T23:03:56.1581315+01:00",
+  "FriStart": "1999-07-13T23:03:56.1581315+02:00",
+  "FriStop": "2010-04-17T23:03:56.1581315+02:00",
+  "SatStart": "2018-11-29T23:03:56.1581315+01:00",
+  "SatStop": "2010-12-20T23:03:56.1581315+01:00",
+  "SunStart": "2002-01-11T23:03:56.1581315+01:00",
+  "SunStop": "2014-08-21T23:03:56.1581315+02:00",
   "NonDates": [
-    "dolores",
-    "hic"
+    "iste",
+    "sed"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 828,
-      "AlertLevel": 612,
-      "AlertTimeout": 441,
-      "Action": 64,
-      "DelegateTo": 262,
-      "ScriptId": 89,
-      "EmailTo": "ivy@collier.name",
-      "SmsTo": "perspiciatis",
-      "ReplyTemplateIdCustomer": 301,
-      "ReplyTemplateIdUser": 224,
-      "ReplyTemplateIdCatmast": 143,
-      "ReplyTemplateIdEmail": 934,
-      "RtiCustomerSms": 402,
-      "ReplyTemplateIdUserSms": 957,
-      "ReplyTemplateIdCatmastSms": 912,
-      "ReplyTemplateIdSms": 470,
+      "TicketAlertId": 546,
+      "AlertLevel": 635,
+      "AlertTimeout": 66,
+      "Action": 328,
+      "DelegateTo": 552,
+      "ScriptId": 630,
+      "EmailTo": "flo@feeney.biz",
+      "SmsTo": "aut",
+      "ReplyTemplateIdCustomer": 249,
+      "ReplyTemplateIdUser": 17,
+      "ReplyTemplateIdCatmast": 477,
+      "ReplyTemplateIdEmail": 293,
+      "RtiCustomerSms": 207,
+      "ReplyTemplateIdUserSms": 345,
+      "ReplyTemplateIdCatmastSms": 209,
+      "ReplyTemplateIdSms": 791,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 691
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 237
+      "FieldLength": 108
     }
   }
 }

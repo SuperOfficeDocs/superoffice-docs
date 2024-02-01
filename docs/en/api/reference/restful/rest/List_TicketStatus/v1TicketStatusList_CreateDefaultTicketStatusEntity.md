@@ -71,8 +71,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 46,
-  "Name": "Erdman, Bashirian and Stiedemann",
+  "TicketStatusId": 363,
+  "Name": "O'Conner Group",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -83,7 +83,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldLength": 701
     }
   }
 }

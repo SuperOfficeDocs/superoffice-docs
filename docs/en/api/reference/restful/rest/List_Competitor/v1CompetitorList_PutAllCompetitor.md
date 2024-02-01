@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Sauer, Crooks and Muller",
-    "Tooltip": "commodi",
+    "Id": 369,
+    "Name": "Bergstrom Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 37,
-    "Rank": 135
+    "UdListDefinitionId": 577,
+    "Rank": 537
   },
   {
-    "Id": 711,
-    "Name": "Sauer, Crooks and Muller",
-    "Tooltip": "commodi",
+    "Id": 369,
+    "Name": "Bergstrom Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 37,
-    "Rank": 135
+    "UdListDefinitionId": 577,
+    "Rank": 537
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Christiansen Inc and Sons",
-    "Tooltip": "incidunt",
+    "Id": 551,
+    "Name": "Crona LLC",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "UdListDefinitionId": 257,
-    "Rank": 961,
+    "UdListDefinitionId": 301,
+    "Rank": 353,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

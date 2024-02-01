@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 321,
-    "Name": "Prosacco LLC",
-    "Tooltip": "optio",
-    "SaveInDb": 892,
-    "Filename": "non",
-    "DefaultOref": "deleniti",
+    "DocumentTemplateId": 113,
+    "Name": "Nader, Pacocha and Halvorson",
+    "Tooltip": "veritatis",
+    "SaveInDb": 526,
+    "Filename": "omnis",
+    "DefaultOref": "rerum",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 154,
-    "IntentId": 520,
-    "IsDefaultPublished": true,
-    "Rank": 797,
-    "LoadTemplateFromPlugin": 980,
-    "MimeType": "magnam",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 631,
+    "AutoeventId": 713,
+    "IntentId": 5,
+    "IsDefaultPublished": false,
+    "Rank": 773,
+    "LoadTemplateFromPlugin": 911,
+    "MimeType": "nihil",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 36,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "iliana_bogisich@klein.ca",
+    "EmailSubject": "otilia@fahey.name",
     "IncludeSignature": false,
-    "ShowCurrents": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "cheyenne.veum@daniel.uk",
+    "SenderEmailAddress": "earlene@ledner.biz",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldLength": 979
       }
     }
   }

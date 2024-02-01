@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 164,
-  "Name": "Dickens-Brekke",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 398,
-  "Rank": 650,
+  "Id": 11,
+  "Name": "Rowe Group",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "UdListDefinitionId": 91,
+  "Rank": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldLength": 974
     }
   }
 }

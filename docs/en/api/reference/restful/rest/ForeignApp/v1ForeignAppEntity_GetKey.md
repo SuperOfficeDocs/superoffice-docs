@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 04 Apr 1998 13:57:18 G4T
+Last-Modified: Sat, 20 Sep 2014 23:04:04 G9T
 
 {
-  "Key": "quo",
-  "Value": "nisi",
-  "RecordId": 20,
-  "CreatedDate": "2019-03-29T13:57:18.8109737+01:00",
-  "UpdatedDate": "1998-04-04T13:57:18.8109737+02:00",
-  "UpdatedBy": "est",
-  "CreatedBy": "et",
-  "TableName": "McDermott Group",
+  "Key": "voluptas",
+  "Value": "qui",
+  "RecordId": 583,
+  "CreatedDate": "2015-03-05T23:04:04.2275181+01:00",
+  "UpdatedDate": "2014-09-20T23:04:04.2275181+02:00",
+  "UpdatedBy": "accusantium",
+  "CreatedBy": "eaque",
+  "TableName": "Purdy LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 480
     }
   }
 }

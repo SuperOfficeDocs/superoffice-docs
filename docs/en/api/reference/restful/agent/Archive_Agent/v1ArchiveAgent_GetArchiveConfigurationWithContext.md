@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hane LLC",
-  "ProviderName": "Pfeffer Group",
-  "Context": "molestiae"
+  "GuiName": "Wisozk, Carter and Abernathy",
+  "ProviderName": "Fahey LLC",
+  "Context": "animi"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Anderson Inc and Sons",
-      "DisplayTooltip": "sequi",
-      "DisplayType": "quibusdam",
+      "DisplayName": "Bins LLC",
+      "DisplayTooltip": "necessitatibus",
+      "DisplayType": "nihil",
       "CanOrderBy": false,
-      "Name": "Aufderhar, Kessler and Hudson",
+      "Name": "Koepp LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "dicta",
-      "RestrictionListName": "Ebert Inc and Sons",
+      "RestrictionType": "et",
+      "RestrictionListName": "Bernhard Group",
       "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "enim",
-      "IconHint": "veniam",
-      "HeadingIconHint": "harum"
+      "ExtraInfo": "eligendi",
+      "Width": "qui",
+      "IconHint": "aut",
+      "HeadingIconHint": "inventore"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 648,
-      "Name": "Bednar Inc and Sons",
-      "ToolTip": "Sit voluptatum delectus.",
-      "Deleted": true,
-      "Rank": 851,
-      "Type": "nobis",
-      "ColorBlock": 988,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2019-10-09T13:57:11.512557+02:00",
+      "Id": 543,
+      "Name": "Schowalter, Beer and Nitzsche",
+      "ToolTip": "Saepe quasi modi ea ipsa reprehenderit labore ex.",
+      "Deleted": false,
+      "Rank": 598,
+      "Type": "sit",
+      "ColorBlock": 722,
+      "IconHint": "numquam",
+      "Selected": false,
+      "LastChanged": "2012-09-04T23:03:54.9636427+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "repellat",
+      "ExtraInfo": "est",
+      "StyleHint": "quam",
       "Hidden": false,
-      "FullName": "Alysson Feil MD",
+      "FullName": "Rossie Lemke DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldType": "System.String",
+          "FieldLength": 238
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Schultz, Bergstrom and Cremin",
+      "Name": "Effertz LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Schultz, Bergstrom and Cremin",
+      "Name": "Effertz LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "facilis",
+  "OwnerKeys": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldLength": 853
     }
   }
 }

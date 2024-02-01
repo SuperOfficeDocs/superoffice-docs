@@ -62,6 +62,7 @@ The WebPanelEntity to be created.
 | ProgId | String | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | Integer | The icon of the webpanel |
 | AlwaysReloadOnShow | Boolean | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | Boolean | If set to true, the content will not reload on current changes, only applies to sidepanels |
 
 ## Response:
 
@@ -96,6 +97,7 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | bool | If set to true, the content will not reload on current changes, only applies to sidepanels |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -109,42 +111,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 966,
-  "Name": "Stokes, Daniel and Lang",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 377,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Lind Inc and Sons",
-  "Url": "http://www.example.com/",
-  "ProgId": "error",
-  "Icon": 785,
-  "AlwaysReloadOnShow": false
-}
-```
-
-## Sample response
-
-```http_
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-
-{
-  "WebPanelId": 773,
-  "Name": "Treutel-Fritsch",
-  "Tooltip": "ad",
-  "Deleted": false,
-  "Rank": 202,
+  "WebPanelId": 916,
+  "Name": "Wehner Inc and Sons",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "Rank": 78,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
@@ -156,17 +127,50 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Miller-Conroy",
+  "WindowName": "Cartwright-Paucek",
   "Url": "http://www.example.com/",
   "ProgId": "non",
-  "Icon": 317,
+  "Icon": 985,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+  "WebPanelId": 684,
+  "Name": "White LLC",
+  "Tooltip": "pariatur",
+  "Deleted": false,
+  "Rank": 651,
+  "UrlEncoding": "ANSI",
+  "VisibleIn": "ActivityDialog",
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Powlowski Group",
+  "Url": "http://www.example.com/",
+  "ProgId": "quis",
+  "Icon": 138,
   "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldType": "System.Int32",
+      "FieldLength": 299
     }
   }
 }

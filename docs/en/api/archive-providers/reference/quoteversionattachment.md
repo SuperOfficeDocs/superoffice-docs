@@ -109,7 +109,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=subject,documentPublish/publishedTo
+GET /api/v1/archive/QuoteVersionAttachment?$select=time,associate/contactId,subject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

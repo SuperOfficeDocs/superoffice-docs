@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 115,
-  "WorkflowId": 776,
+  "WorkflowTriggerId": 414,
+  "WorkflowId": 185,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Kessler, Altenwerth and Stehr",
-      "Description": "Devolved web-enabled capability",
-      "Rank": 362,
+      "Name": "Mann-Walter",
+      "Description": "Cross-platform client-driven analyzer",
+      "Rank": 509,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kessler, Altenwerth and Stehr",
-      "Description": "Devolved web-enabled capability",
-      "Rank": 362,
+      "Name": "Mann-Walter",
+      "Description": "Cross-platform client-driven analyzer",
+      "Rank": 509,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 80,
-  "WorkflowId": 597,
+  "WorkflowTriggerId": 321,
+  "WorkflowId": 869,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Stokes-Gulgowski",
-      "Description": "Customer-focused global service-desk",
-      "Rank": 735,
+      "Name": "Hyatt, Stark and Douglas",
+      "Description": "Persistent background adapter",
+      "Rank": 415,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stokes-Gulgowski",
-      "Description": "Customer-focused global service-desk",
-      "Rank": 735,
+      "Name": "Hyatt, Stark and Douglas",
+      "Description": "Persistent background adapter",
+      "Rank": 415,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

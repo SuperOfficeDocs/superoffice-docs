@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2013-08-22T13:57:13.1757129+02:00",
-  "ToDate": "2006-05-27T13:57:13.1757129+02:00",
-  "AmountLimit": 793,
+  "FromDate": "2022-09-02T23:03:56.9251168+02:00",
+  "ToDate": "2020-08-31T23:03:56.9251168+02:00",
+  "AmountLimit": 493,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stanton-Beahan",
-    "SaleDate": "2001-08-08T13:57:13.1757129+02:00",
-    "SaleId": 359,
-    "Probability": 582,
-    "Title": "ut",
-    "Amount": 11902.931999999999,
-    "Currency": "consequatur",
-    "ProjectName": "Graham-Langosh",
-    "AssociateFullName": "Miss Thelma Vita Kessler V",
-    "Description": "Up-sized well-modulated project",
+    "ContactName": "Romaguera, Strosin and Jast",
+    "SaleDate": "2021-04-27T23:03:56.9261161+02:00",
+    "SaleId": 532,
+    "Probability": 199,
+    "Title": "veniam",
+    "Amount": 31205.237999999998,
+    "Currency": "voluptates",
+    "ProjectName": "Dickinson Inc and Sons",
+    "AssociateFullName": "Emery Nienow",
+    "Description": "Cloned content-based data-warehouse",
     "Status": "Lost",
-    "WeightedAmount": 5819.838,
-    "ProjectId": 809,
-    "EarningPercent": 4898.442,
-    "Earning": 12476.454,
-    "ContactId": 464,
-    "AssociateId": 890,
-    "PersonId": 242,
-    "SaleTypeId": 292,
-    "SaleTypeName": "Smith Group",
-    "PersonFullName": "Kristian Von",
+    "WeightedAmount": 15754.617999999999,
+    "ProjectId": 618,
+    "EarningPercent": 683.212,
+    "Earning": 4284.178,
+    "ContactId": 186,
+    "AssociateId": 617,
+    "PersonId": 746,
+    "SaleTypeId": 825,
+    "SaleTypeName": "Moore-Pollich",
+    "PersonFullName": "Alena Rylee Donnelly V",
     "Completed": "Completed",
-    "ActiveErpLinks": 980,
-    "NextDueDate": "1997-04-26T13:57:13.1757129+02:00",
-    "Number": "712407",
+    "ActiveErpLinks": 5,
+    "NextDueDate": "2007-07-17T23:03:56.926616+02:00",
+    "Number": "952307",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 184
       }
     }
   }

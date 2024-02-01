@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 150
+  "PersonId": 852
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 3,
-  "Name": "Zulauf, Franecki and Runolfsson",
-  "PersonId": 394,
-  "Rank": 37,
-  "Tooltip": "aut",
+  "AssociateId": 989,
+  "Name": "Kirlin-Reichert",
+  "PersonId": 367,
+  "Rank": 834,
+  "Tooltip": "repudiandae",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 203,
-  "FullName": "Stephanie Tristin Schroeder MD",
-  "FormalName": "Jast-Bins",
-  "Deleted": false,
-  "EjUserId": 64,
-  "UserName": "Hagenes Inc and Sons",
+  "GroupIdx": 130,
+  "FullName": "Dalton Lehner",
+  "FormalName": "White-Wisoky",
+  "Deleted": true,
+  "EjUserId": 717,
+  "UserName": "Armstrong Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

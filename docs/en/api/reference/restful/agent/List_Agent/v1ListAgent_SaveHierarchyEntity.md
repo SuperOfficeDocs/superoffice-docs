@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 316,
+  "HierarchyId": 858,
   "Domain": "Dashboards",
-  "Name": "Trantow, Marvin and Cronin",
-  "Fullname": "ratione",
-  "ParentId": 156,
+  "Name": "Vandervort, Baumbach and Eichmann",
+  "Fullname": "vel",
+  "ParentId": 851,
   "Children": [
     {
-      "HierarchyId": 694,
+      "HierarchyId": 291,
       "Domain": "Dashboards",
-      "Name": "Feil LLC",
-      "Fullname": "expedita",
-      "ParentId": 284,
+      "Name": "Leuschke Inc and Sons",
+      "Fullname": "ipsam",
+      "ParentId": 916,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-01-07T13:57:12.575585+01:00",
-      "RegisteredAssociateId": 361,
-      "Updated": "2009-03-21T13:57:12.575585+01:00",
-      "UpdatedAssociateId": 948
+      "Registered": "2001-12-24T23:03:56.2876254+01:00",
+      "RegisteredAssociateId": 754,
+      "Updated": "1997-03-13T23:03:56.2881248+01:00",
+      "UpdatedAssociateId": 876
     }
   ],
-  "Registered": "2003-06-12T13:57:12.575585+02:00",
-  "RegisteredAssociateId": 684,
-  "Updated": "2006-04-11T13:57:12.575585+02:00",
-  "UpdatedAssociateId": 265
+  "Registered": "2020-02-22T23:03:56.2881248+01:00",
+  "RegisteredAssociateId": 79,
+  "Updated": "2020-03-09T23:03:56.2881248+01:00",
+  "UpdatedAssociateId": 24
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 181,
+  "HierarchyId": 703,
   "Domain": "Dashboards",
-  "Name": "Jacobs, Nader and Bosco",
-  "Fullname": "perferendis",
-  "ParentId": 529,
+  "Name": "Bashirian Group",
+  "Fullname": "repellat",
+  "ParentId": 911,
   "Children": [
     {
-      "HierarchyId": 2,
+      "HierarchyId": 584,
       "Domain": "Dashboards",
-      "Name": "Kris, Hilll and Rau",
-      "Fullname": "numquam",
-      "ParentId": 152,
+      "Name": "Bechtelar Inc and Sons",
+      "Fullname": "id",
+      "ParentId": 701,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-11-24T13:57:12.575585+01:00",
-      "RegisteredAssociateId": 635,
-      "Updated": "1998-10-25T13:57:12.575585+01:00",
-      "UpdatedAssociateId": 268,
+      "Registered": "2011-06-29T23:03:56.2881248+02:00",
+      "RegisteredAssociateId": 39,
+      "Updated": "1997-11-07T23:03:56.2881248+01:00",
+      "UpdatedAssociateId": 894,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 647
         }
       }
     }
   ],
-  "Registered": "1998-07-17T13:57:12.575585+02:00",
-  "RegisteredAssociateId": 697,
-  "Updated": "2004-03-15T13:57:12.575585+01:00",
-  "UpdatedAssociateId": 449,
+  "Registered": "2011-09-06T23:03:56.2881248+02:00",
+  "RegisteredAssociateId": 411,
+  "Updated": "2016-07-07T23:03:56.2881248+02:00",
+  "UpdatedAssociateId": 354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 750
     }
   }
 }

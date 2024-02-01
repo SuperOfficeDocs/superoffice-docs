@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 451,
-    "Name": "Will, Larson and Shanahan",
-    "Tooltip": "ea",
-    "Rank": 3,
-    "Key": "ut",
-    "MailTemplateId": 448,
+    "ConsentSourceId": 910,
+    "Name": "Upton Inc and Sons",
+    "Tooltip": "qui",
+    "Rank": 243,
+    "Key": "vitae",
+    "MailTemplateId": 47,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 828
+        "FieldType": "System.Int32",
+        "FieldLength": 559
       }
     }
   }

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 477
+  "DocumentId": 476
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 26,
-      "ContactName": "Cummings LLC",
-      "PersonId": 320,
-      "PersonName": "Cruickshank Group",
-      "AssociateId": 571,
-      "Address": "numquam",
-      "EmailId": 230,
+      "ContactId": 566,
+      "ContactName": "Baumbach, Jerde and Considine",
+      "PersonId": 104,
+      "PersonName": "Schroeder-Douglas",
+      "AssociateId": 818,
+      "Address": "et",
+      "EmailId": 73,
       "DuplicatePersonIds": [
-        238,
-        778
+        880,
+        9
       ],
-      "Name": "Kreiger-Schaefer",
+      "Name": "Ondricka-Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 601
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 817,
-      "ContactName": "Gutmann, Fisher and Shields",
-      "PersonId": 416,
-      "PersonName": "Kling, Mraz and Funk",
-      "AssociateId": 923,
-      "Address": "et",
-      "EmailId": 396,
+      "ContactId": 1000,
+      "ContactName": "Bashirian-Klocko",
+      "PersonId": 171,
+      "PersonName": "Larson-DuBuque",
+      "AssociateId": 471,
+      "Address": "sint",
+      "EmailId": 250,
       "DuplicatePersonIds": [
-        755,
-        748
+        783,
+        375
       ],
-      "Name": "Kovacek-Nicolas",
+      "Name": "Murazik, Walsh and Watsica",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldType": "System.String",
+          "FieldLength": 89
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 357,
-      "ContactName": "Bartoletti-Schmidt",
-      "PersonId": 303,
-      "PersonName": "Bergnaum LLC",
-      "AssociateId": 825,
-      "Address": "quasi",
-      "EmailId": 860,
+      "ContactId": 56,
+      "ContactName": "Lueilwitz-Swift",
+      "PersonId": 135,
+      "PersonName": "Grady-Mueller",
+      "AssociateId": 3,
+      "Address": "et",
+      "EmailId": 756,
       "DuplicatePersonIds": [
-        547,
-        354
+        832,
+        204
       ],
-      "Name": "Beahan Group",
+      "Name": "Kulas-Jones",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 58
+          "FieldLength": 63
         }
       }
     }
   ],
-  "Subject": "voluptatem",
-  "HTMLBody": "aspernatur",
+  "Subject": "alias",
+  "HTMLBody": "nisi",
   "From": null,
-  "Sent": "2010-11-28T13:57:12.3187457+01:00",
-  "Size": 388,
+  "Sent": "2010-10-07T23:03:55.9776288+02:00",
+  "Size": 783,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aperiam",
-  "PlainBody": "porro",
+  "MessageID": "nobis",
+  "PlainBody": "dolores",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 853,
+  "ServerId": 895,
   "Attachments": [
     {
-      "Description": "Focused system-worthy budgetary management",
-      "Filename": "voluptatem",
-      "Size": 115,
-      "Type": "qui",
-      "Encoding": "est",
-      "Id": "quibusdam",
-      "Disposition": "aut",
-      "IsSafeFileExtension": false,
+      "Description": "Expanded reciprocal Graphic Interface",
+      "Filename": "ut",
+      "Size": 556,
+      "Type": "deserunt",
+      "Encoding": "autem",
+      "Id": "temporibus",
+      "Disposition": "facilis",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldLength": 528
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wisoky Group",
+      "Name": "Kessler, Hickle and Huels",
       "Values": [
-        "aperiam",
-        "earum"
+        "nam",
+        "occaecati"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 745
         }
       }
     },
     {
-      "Name": "Wisoky Group",
+      "Name": "Kessler, Hickle and Huels",
       "Values": [
-        "aperiam",
-        "earum"
+        "nam",
+        "occaecati"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 745
         }
       }
     }
   ],
-  "FolderName": "Muller Inc and Sons",
-  "EmailItemId": 777,
-  "AccountId": 262,
-  "ReceivedAt": "2009-04-26T13:57:12.3198859+02:00",
+  "FolderName": "O'Keefe, Gleason and Weimann",
+  "EmailItemId": 732,
+  "AccountId": 1000,
+  "ReceivedAt": "2004-11-13T23:03:55.9781289+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-05-22T13:57:12.3198859+02:00",
+  "RepliedAt": "2003-06-08T23:03:55.9781289+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 410
     }
   }
 }

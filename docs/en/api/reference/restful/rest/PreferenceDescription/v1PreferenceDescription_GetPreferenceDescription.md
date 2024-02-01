@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 442,
-  "Section": "qui",
-  "Key": "voluptas",
-  "Name": "O'Kon-Carroll",
+  "PrefDescId": 75,
+  "Section": "ipsam",
+  "Key": "blanditiis",
+  "Name": "Hahn Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-centric attitude-oriented infrastructure",
-  "IsBuiltin": true,
-  "TableName": "Howell Group",
-  "UserDefinedListId": 493,
-  "Rank": 641,
-  "SubGroup": "tempore",
-  "MinLevel": 987,
-  "MaxValue": 321,
-  "MinValue": 585,
-  "RequiredLicense": "expedita",
+  "Description": "Extended foreground hub",
+  "IsBuiltin": false,
+  "TableName": "Hodkiewicz Group",
+  "UserDefinedListId": 936,
+  "Rank": 47,
+  "SubGroup": "in",
+  "MinLevel": 891,
+  "MaxValue": 295,
+  "MinValue": 428,
+  "RequiredLicense": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   },
   "_Links": {

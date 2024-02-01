@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Will LLC",
-  "Tooltip": "non",
+  "Id": 362,
+  "Name": "Zboncak-Schulist",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 241,
-  "Rank": 562,
+  "UdListDefinitionId": 811,
+  "Rank": 732,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

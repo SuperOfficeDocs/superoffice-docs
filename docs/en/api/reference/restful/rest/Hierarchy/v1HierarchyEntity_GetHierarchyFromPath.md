@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=False
+GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
 
 
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 742,
+  "HierarchyId": 909,
   "Domain": "Dashboards",
-  "Name": "Lakin, Rolfson and Schumm",
-  "Fullname": "molestiae",
-  "ParentId": 832,
+  "Name": "Rodriguez-Lemke",
+  "Fullname": "aperiam",
+  "ParentId": 572,
   "Children": [
     {
-      "HierarchyId": 232,
+      "HierarchyId": 881,
       "Domain": "Dashboards",
-      "Name": "McCullough-Stamm",
-      "Fullname": "omnis",
-      "ParentId": 568,
+      "Name": "Larkin-Walsh",
+      "Fullname": "veniam",
+      "ParentId": 273,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-11-16T13:57:18.8265985+01:00",
-      "RegisteredAssociateId": 626,
-      "Updated": "2009-01-08T13:57:18.8265985+01:00",
-      "UpdatedAssociateId": 609,
+      "Registered": "2008-09-02T23:04:04.2385173+02:00",
+      "RegisteredAssociateId": 269,
+      "Updated": "1997-12-06T23:04:04.2385173+01:00",
+      "UpdatedAssociateId": 999,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldLength": 422
         }
       }
     }
   ],
-  "Registered": "2013-05-13T13:57:18.8265985+02:00",
-  "RegisteredAssociateId": 810,
-  "Updated": "1997-04-24T13:57:18.8265985+02:00",
-  "UpdatedAssociateId": 611,
+  "Registered": "1997-10-24T23:04:04.2385173+02:00",
+  "RegisteredAssociateId": 591,
+  "Updated": "2005-02-08T23:04:04.2385173+01:00",
+  "UpdatedAssociateId": 215,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 32
     }
   }
 }

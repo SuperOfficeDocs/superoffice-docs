@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 704,
-  "Name": "Howell-Shanahan",
-  "Tooltip": "qui",
+  "HeadingId": 407,
+  "Name": "Bode, Jaskolski and Douglas",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 669,
-  "UdListDefinitionId": 653
+  "Rank": 42,
+  "UdListDefinitionId": 135
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 970,
-  "Name": "Weimann Inc and Sons",
-  "Tooltip": "expedita",
+  "HeadingId": 942,
+  "Name": "Howell, Predovic and Rogahn",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 856,
-  "UdListDefinitionId": 482,
+  "Rank": 238,
+  "UdListDefinitionId": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 7
     }
   }
 }

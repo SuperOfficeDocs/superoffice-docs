@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "commodi",
+  "SearchString": "quod",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-705-067-0162 x52619",
-    "PersonCellPhone": "044.716.9009",
-    "PersonPrivatePhone": "1-444-638-4556 x920",
-    "PersonFaxNumber": "1114234",
-    "PersonPagerNumber": "359197",
-    "PersonEmail": "heaven@breitenberg.co.uk",
-    "Id": 791,
-    "Name": "Kuphal Group",
-    "Tooltip": "voluptatibus",
-    "UniqueId": "quos",
+    "PersonDirectPhone": "1-451-502-8372 x13247",
+    "PersonCellPhone": "1-231-400-4654",
+    "PersonPrivatePhone": "1-010-265-8238 x5064",
+    "PersonFaxNumber": "660670",
+    "PersonPagerNumber": "749275",
+    "PersonEmail": "fredy@welchherzog.name",
+    "Id": 671,
+    "Name": "Kirlin, Leannon and Marvin",
+    "Tooltip": "aut",
+    "UniqueId": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldLength": 3
       }
     }
   }

@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 681,
-  "ParentId": 169,
-  "Name": "Batz-Bruen",
+  "TicketCategoryId": 265,
+  "ParentId": 69,
+  "Name": "Kiehn LLC",
   "Fullname": "velit",
-  "CategoryMaster": 182,
+  "CategoryMaster": 697,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Sipes, Sawayn and Schmitt",
+  "ExternalName": "Aufderhar-O'Connell",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 655,
-  "ReplyTemplate": 910,
-  "NotificationEmail": "lisette_feil@zboncakblock.us",
+  "AssignmentLag": 242,
+  "ReplyTemplate": 747,
+  "NotificationEmail": "eldred.jewess@jewess.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 393,
+  "EffectiveReplyTemplateId": 559,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "sequi"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "facere"
+    "CustomFields1": "nihil",
+    "CustomFields2": "consequuntur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldType": "System.String",
+      "FieldLength": 139
     }
   }
 }

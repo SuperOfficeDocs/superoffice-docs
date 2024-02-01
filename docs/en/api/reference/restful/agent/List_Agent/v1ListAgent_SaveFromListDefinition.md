@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "UdListDefinitionId": 291,
+  "Id": 264,
+  "UdListDefinitionId": 969,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Bauch-Bartoletti",
-  "Tooltip": "ut",
+  "Id": 856,
+  "Name": "Steuber, Beer and Little",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "UdListDefinitionId": 706,
-  "Rank": 222,
+  "UdListDefinitionId": 843,
+  "Rank": 74,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldType": "System.Int32",
+      "FieldLength": 391
     }
   }
 }

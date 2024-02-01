@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,51 +92,51 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 105,
+  "HierarchyId": 173,
   "Domain": "Dashboards",
-  "Name": "Champlin-Hegmann",
-  "Fullname": "ab",
-  "ParentId": 501,
+  "Name": "Parisian LLC",
+  "Fullname": "earum",
+  "ParentId": 790,
   "Children": [
     {
-      "HierarchyId": 126,
+      "HierarchyId": 531,
       "Domain": "Dashboards",
-      "Name": "Walker, Gulgowski and Bergstrom",
-      "Fullname": "officiis",
-      "ParentId": 737,
+      "Name": "Sanford Inc and Sons",
+      "Fullname": "sequi",
+      "ParentId": 311,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-12-12T13:57:18.8265985+01:00",
-      "RegisteredAssociateId": 872,
-      "Updated": "2017-01-08T13:57:18.8265985+01:00",
-      "UpdatedAssociateId": 748,
+      "Registered": "2010-02-08T23:04:04.2345175+01:00",
+      "RegisteredAssociateId": 593,
+      "Updated": "1999-04-13T23:04:04.2345175+02:00",
+      "UpdatedAssociateId": 990,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldType": "System.String",
+          "FieldLength": 727
         }
       }
     }
   ],
-  "Registered": "2000-07-05T13:57:18.8265985+02:00",
-  "RegisteredAssociateId": 433,
-  "Updated": "2013-10-10T13:57:18.8265985+02:00",
-  "UpdatedAssociateId": 81,
+  "Registered": "2014-05-14T23:04:04.2345175+02:00",
+  "RegisteredAssociateId": 712,
+  "Updated": "2020-02-09T23:04:04.2345175+01:00",
+  "UpdatedAssociateId": 680,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldType": "System.Int32",
+      "FieldLength": 768
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

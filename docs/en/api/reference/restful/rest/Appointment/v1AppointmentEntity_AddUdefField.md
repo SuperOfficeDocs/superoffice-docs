@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 486,
-  "ColumnId": 934,
-  "FieldDefault": "laborum",
-  "FieldHeight": 198,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 231,
-  "FieldTop": 638,
+  "UDefFieldId": 133,
+  "ColumnId": 166,
+  "FieldDefault": "sed",
+  "FieldHeight": 642,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 806,
+  "FieldTop": 761,
   "FieldType": "Checkbox",
-  "FieldWidth": 987,
-  "FormatMask": "beatae",
-  "HideLabel": true,
+  "FieldWidth": 8,
+  "FormatMask": "quaerat",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 894,
-  "LabelLeft": 978,
-  "LabelTop": 496,
-  "LabelWidth": 959,
-  "LastVersionId": 202,
-  "ListTableId": 738,
-  "IsMandatory": true,
+  "LabelHeight": 752,
+  "LabelLeft": 624,
+  "LabelTop": 491,
+  "LabelWidth": 62,
+  "LastVersionId": 441,
+  "ListTableId": 740,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 280,
-  "ProgId": "non",
+  "Page1LineNo": 136,
+  "ProgId": "ut",
   "IsReadOnly": false,
-  "ShortLabel": "suscipit",
-  "TabOrder": 217,
-  "TextLength": 787,
-  "Tooltip": "adipisci",
-  "UdefIdentity": 806,
-  "UDListDefinitionId": 643,
+  "ShortLabel": "quod",
+  "TabOrder": 398,
+  "TextLength": 534,
+  "Tooltip": "laborum",
+  "UdefIdentity": 518,
+  "UDListDefinitionId": 721,
   "Justification": "Center",
-  "Version": 883,
-  "TemplateVariableName": "Shanahan Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Terry, Borer and Wiza",
+  "Version": 791,
+  "TemplateVariableName": "Cummings, Feil and Ullrich",
+  "HasBeenPublished": false,
+  "MdoListName": "Hoeger-Padberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldType": "System.String",
+      "FieldLength": 356
     }
   }
 }

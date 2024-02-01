@@ -41,9 +41,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <AI:GetChatbotPromptSuggestions>
     <AI:IsoLangCode xsi:type="xsd:string"></AI:IsoLangCode>
     <AI:SoProtocol xsi:type="xsd:string"></AI:SoProtocol>
-    <AI:CurrentContactId xsi:type="xsd:int">0</AI:CurrentContactId>
-    <AI:CurrentPersonId xsi:type="xsd:int">0</AI:CurrentPersonId>
-    <AI:CurrentProjectId xsi:type="xsd:int">0</AI:CurrentProjectId>
+    <AI:CurrentId xsi:type="xsd:int">0</AI:CurrentId>
    </AI:GetChatbotPromptSuggestions>
 
  </SOAP-ENV:Body>
@@ -67,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <AI:GetChatbotPromptSuggestionsResponse>
    <AI:Response xsi:type="AI:ChatbotTurn">
-    <AI:Timestamp xsi:type="xsd:dateTime">2023-12-07T12:54:22Z</AI:Timestamp>
+    <AI:Timestamp xsi:type="xsd:dateTime">2024-01-18T22:00:59Z</AI:Timestamp>
     <AI:UserPrompt xsi:type="xsd:string"></AI:UserPrompt>
     <AI:UserDisplayText xsi:type="xsd:string"></AI:UserDisplayText>
     <AI:BotResponse xsi:type="xsd:string"></AI:BotResponse>

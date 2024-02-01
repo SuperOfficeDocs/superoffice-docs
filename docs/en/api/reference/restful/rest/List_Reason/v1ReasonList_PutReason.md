@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Hahn-Effertz",
-  "Tooltip": "est",
+  "Id": 493,
+  "Name": "Nitzsche-Nienow",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "UdListDefinitionId": 858,
-  "Rank": 139
+  "UdListDefinitionId": 585,
+  "Rank": 248
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1002,
-  "Name": "Ward Group",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 391,
-  "Rank": 173,
+  "Id": 976,
+  "Name": "Huel-Kiehn",
+  "Tooltip": "minima",
+  "Deleted": false,
+  "UdListDefinitionId": 474,
+  "Rank": 670,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 681
+      "FieldType": "System.Int32",
+      "FieldLength": 565
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 938
+  "DashboardId": 37
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Klein, Mayer and Mueller",
-  "Description": "Switchable scalable workforce",
-  "OwnedByFullName": "Benny Dibbert IV",
-  "Registered": "2010-06-11T13:57:12.0436226+02:00",
+  "Name": "Conn LLC",
+  "Description": "Re-contextualized 24 hour emulation",
+  "OwnedByFullName": "Angelita Stehr",
+  "Registered": "2019-10-12T23:03:55.6356363+02:00",
   "Tiles": [
     {
-      "Name": "Schamberger, Blanda and Robel",
+      "Name": "Effertz Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 230
         }
       }
     },
     {
-      "Name": "Schamberger, Blanda and Robel",
+      "Name": "Effertz Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 230
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 210
     }
   }
 }

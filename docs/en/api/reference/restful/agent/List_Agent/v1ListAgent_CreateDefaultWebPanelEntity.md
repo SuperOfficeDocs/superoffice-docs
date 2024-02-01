@@ -68,6 +68,7 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | bool | If set to true, the content will not reload on current changes, only applies to sidepanels |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,11 +88,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 955,
-  "Name": "Bayer, Funk and Yost",
-  "Tooltip": "ratione",
+  "WebPanelId": 751,
+  "Name": "Weber-Koepp",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "Rank": 64,
+  "Rank": 986,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -103,17 +104,18 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Borer Group",
+  "WindowName": "Lemke, Murphy and Reynolds",
   "Url": "http://www.example.com/",
-  "ProgId": "officiis",
-  "Icon": 218,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "voluptatem",
+  "Icon": 169,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 292
     }
   }
 }

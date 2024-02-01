@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 966,
+  "Id": 460,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 447,
-  "Name": "Rath-Ondricka",
-  "Tooltip": "vero",
+  "HeadingId": 900,
+  "Name": "Goyette-Heller",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 415,
-  "UdListDefinitionId": 999,
+  "Rank": 709,
+  "UdListDefinitionId": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 583
     }
   }
 }

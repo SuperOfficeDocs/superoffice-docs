@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Name": "Skiles Inc and Sons",
-  "Tooltip": "mollitia",
+  "Id": 288,
+  "Name": "Willms, Windler and O'Conner",
+  "Tooltip": "earum",
   "Deleted": false,
-  "UdListDefinitionId": 956,
-  "Rank": 108,
+  "UdListDefinitionId": 780,
+  "Rank": 746,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 653,
-  "Name": "Dickinson-Mitchell",
+  "ScreenChooserId": 57,
+  "Name": "Crooks-Jewess",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "atque",
-  "Source": "necessitatibus",
-  "Registered": "2009-11-16T13:57:19.4221461+01:00",
-  "RegisteredAssociateId": 939,
-  "Updated": "2017-08-02T13:57:19.4221461+02:00",
-  "UpdatedAssociateId": 280,
+  "UniqueIdentifier": "facere",
+  "Source": "fugit",
+  "Registered": "2010-01-13T23:04:05.0015069+01:00",
+  "RegisteredAssociateId": 246,
+  "Updated": "2011-02-27T23:04:05.0015069+01:00",
+  "UpdatedAssociateId": 457,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 30
     }
   }
 }

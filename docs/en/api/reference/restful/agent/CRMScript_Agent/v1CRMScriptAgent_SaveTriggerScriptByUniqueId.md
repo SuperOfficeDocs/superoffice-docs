@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "consequatur",
+  "TriggerScriptUniqueId": "fugit",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 411,
-  "Name": "Luettgen, Becker and Kerluke",
+  "ScreenChooserId": 342,
+  "Name": "Schamberger-Predovic",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolor",
-  "Source": "deleniti",
-  "Registered": "2018-02-19T13:57:12.0123726+01:00",
-  "RegisteredAssociateId": 605,
-  "Updated": "1998-04-29T13:57:12.0123726+02:00",
-  "UpdatedAssociateId": 777,
+  "UniqueIdentifier": "a",
+  "Source": "amet",
+  "Registered": "1999-03-05T23:03:55.588634+01:00",
+  "RegisteredAssociateId": 723,
+  "Updated": "2002-11-28T23:03:55.588634+01:00",
+  "UpdatedAssociateId": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 955
+      "FieldType": "System.Int32",
+      "FieldLength": 910
     }
   }
 }

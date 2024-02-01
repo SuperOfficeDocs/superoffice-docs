@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 568,
-  "StartTime": "2009-12-29T13:57:12.074872+01:00",
-  "EndTime": "2020-11-22T13:57:12.074872+01:00",
-  "Count": 394,
+  "ProjectId": 628,
+  "StartTime": "2009-07-06T23:03:55.6776396+02:00",
+  "EndTime": "2002-12-26T23:03:55.6776396+01:00",
+  "Count": 562,
   "DocumentTemplateIds": [
-    417,
-    378
+    53,
+    704
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 590,
-    "Attention": "est",
-    "Header": "quo",
-    "Name": "Beatty-Hilll",
-    "OurRef": "at",
-    "YourRef": "rerum",
-    "Description": "Profit-focused actuating paradigm",
-    "DocumentTemplate": "magni",
+    "DocumentId": 65,
+    "Attention": "doloribus",
+    "Header": "magni",
+    "Name": "Langosh Group",
+    "OurRef": "explicabo",
+    "YourRef": "fugit",
+    "Description": "Self-enabling reciprocal internet solution",
+    "DocumentTemplate": "quia",
     "IsPublished": false,
-    "PersonId": 131,
-    "PersonFullName": "Mr. Clinton Destiney Considine IV",
-    "AssociateFullName": "Sabina Casper",
-    "ContactId": 99,
-    "ContactName": "Rowe-Larson",
-    "ProjectId": 419,
-    "ProjectName": "Gulgowski-Mitchell",
-    "AssociateId": 331,
-    "Snum": 632,
-    "SaleId": 978,
-    "SaleName": "Hane Inc and Sons",
+    "PersonId": 94,
+    "PersonFullName": "Ms. Jalyn Langworth",
+    "AssociateFullName": "Kasey Torey Leffler I",
+    "ContactId": 87,
+    "ContactName": "Little, Stroman and Ebert",
+    "ProjectId": 906,
+    "ProjectName": "Flatley-Lang",
+    "AssociateId": 999,
+    "Snum": 916,
+    "SaleId": 443,
+    "SaleName": "Koch Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldLength": 215
       }
     }
   }

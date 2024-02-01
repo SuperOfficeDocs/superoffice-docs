@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fadel, Ritchie and Yundt",
-  "AdditionalInfo": "voluptatem",
+  "Name": "Walker-Becker",
+  "AdditionalInfo": "at",
   "SelectableMDOList": [
     {
-      "Id": 816,
-      "Name": "Turcotte, Mitchell and Morissette",
-      "ToolTip": "Iste est.",
-      "Deleted": false,
-      "Rank": 474,
-      "Type": "amet",
-      "ColorBlock": 154,
-      "IconHint": "accusamus",
-      "Selected": true,
-      "LastChanged": "2011-08-05T13:57:12.6224541+02:00",
+      "Id": 892,
+      "Name": "Abbott-Purdy",
+      "ToolTip": "Impedit et itaque aut ut consequatur molestias.",
+      "Deleted": true,
+      "Rank": 199,
+      "Type": "dicta",
+      "ColorBlock": 68,
+      "IconHint": "iure",
+      "Selected": false,
+      "LastChanged": "2009-01-06T23:03:56.3531239+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "praesentium",
-      "StyleHint": "error",
-      "Hidden": true,
-      "FullName": "Kamille Oberbrunner"
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "itaque",
+      "Hidden": false,
+      "FullName": "Dr. Ambrose Bernadine Price"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Conroy-Koss",
-    "ToolTip": "In voluptas voluptas aut enim provident asperiores et.",
+    "Id": 275,
+    "Name": "Schroeder-Grady",
+    "ToolTip": "Laudantium esse sunt in.",
     "Deleted": false,
-    "Rank": 148,
-    "Type": "placeat",
-    "ColorBlock": 710,
-    "IconHint": "aperiam",
-    "Selected": false,
-    "LastChanged": "2021-10-09T13:57:12.6224541+02:00",
+    "Rank": 257,
+    "Type": "voluptatem",
+    "ColorBlock": 741,
+    "IconHint": "veniam",
+    "Selected": true,
+    "LastChanged": "2019-12-20T23:03:56.3541236+01:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Pollich-Hammes",
-        "ToolTip": "Vel odio totam sint sunt ab.",
-        "Deleted": false,
-        "Rank": 149,
-        "Type": "occaecati",
-        "ColorBlock": 382,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2016-07-02T13:57:12.6224541+02:00",
+        "Id": 72,
+        "Name": "Bauch Inc and Sons",
+        "ToolTip": "Et at nulla.",
+        "Deleted": true,
+        "Rank": 766,
+        "Type": "ipsam",
+        "ColorBlock": 816,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2009-01-07T23:03:56.3541236+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Malika Pacocha",
+        "ExtraInfo": "et",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Sandrine Glenna Blick II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 786
+            "FieldType": "System.Int32",
+            "FieldLength": 410
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "nihil",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Otis Jerde",
+    "FullName": "Laverne Mohr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 491
       }
     }
   }

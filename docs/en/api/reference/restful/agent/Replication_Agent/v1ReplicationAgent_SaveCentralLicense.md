@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Bergstrom, Aufderhar and Rath",
-      "Description": "Reactive incremental time-frame",
+      "Name": "Goldner-Jacobs",
+      "Description": "Extended maximized customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Bergstrom, Aufderhar and Rath",
-      "Description": "Reactive incremental time-frame",
+      "Name": "Goldner-Jacobs",
+      "Description": "Extended maximized customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fay, Crist and Mayer",
-    "Description": "Cross-group executive orchestration",
+    "Name": "Murray, Swift and Weber",
+    "Description": "Streamlined full-range contingency",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 415,
+        "Total": 882,
         "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 531,
-        "InUse": 632,
+        "CanAssign": true,
+        "Free": 827,
+        "InUse": 550,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 661,
-        "Name": "Wehner-Gorczany",
-        "Description": "Re-contextualized background Graphical User Interface",
-        "PrerequisiteModuleName": "Jacobs, Morissette and Gislason",
-        "SortOrder": 709,
-        "ExtraFlags": 170,
+        "Assigned": false,
+        "ModuleLicenseId": 83,
+        "Name": "Schimmel-Kihn",
+        "Description": "Multi-tiered foreground secured line",
+        "PrerequisiteModuleName": "Franecki-Green",
+        "SortOrder": 63,
+        "ExtraFlags": 943,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 999
+            "FieldLength": 227
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 687,
-        "Tooltip": "reiciendis",
+        "Total": 493,
+        "Tooltip": "odit",
         "CanAssign": false,
-        "Free": 930,
-        "InUse": 259,
+        "Free": 183,
+        "InUse": 179,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 697,
-        "Name": "Lind-Stokes",
-        "Description": "Progressive user-facing website",
-        "PrerequisiteModuleName": "Kihn, DuBuque and Kuhn",
-        "SortOrder": 491,
-        "ExtraFlags": 430,
+        "Assigned": true,
+        "ModuleLicenseId": 255,
+        "Name": "Boyer, Robel and Metz",
+        "Description": "Ameliorated national software",
+        "PrerequisiteModuleName": "Kuhlman, Wolf and Glover",
+        "SortOrder": 223,
+        "ExtraFlags": 481,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 280
           }
         }
       }
@@ -177,36 +177,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   },
   {
-    "Name": "Fay, Crist and Mayer",
-    "Description": "Cross-group executive orchestration",
+    "Name": "Murray, Swift and Weber",
+    "Description": "Streamlined full-range contingency",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 415,
+        "Total": 882,
         "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 531,
-        "InUse": 632,
+        "CanAssign": true,
+        "Free": 827,
+        "InUse": 550,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 661,
-        "Name": "Wehner-Gorczany",
-        "Description": "Re-contextualized background Graphical User Interface",
-        "PrerequisiteModuleName": "Jacobs, Morissette and Gislason",
-        "SortOrder": 709,
-        "ExtraFlags": 170,
+        "Assigned": false,
+        "ModuleLicenseId": 83,
+        "Name": "Schimmel-Kihn",
+        "Description": "Multi-tiered foreground secured line",
+        "PrerequisiteModuleName": "Franecki-Green",
+        "SortOrder": 63,
+        "ExtraFlags": 943,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 999
+            "FieldLength": 227
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 687,
-        "Tooltip": "reiciendis",
+        "Total": 493,
+        "Tooltip": "odit",
         "CanAssign": false,
-        "Free": 930,
-        "InUse": 259,
+        "Free": 183,
+        "InUse": 179,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 697,
-        "Name": "Lind-Stokes",
-        "Description": "Progressive user-facing website",
-        "PrerequisiteModuleName": "Kihn, DuBuque and Kuhn",
-        "SortOrder": 491,
-        "ExtraFlags": 430,
+        "Assigned": true,
+        "ModuleLicenseId": 255,
+        "Name": "Boyer, Robel and Metz",
+        "Description": "Ameliorated national software",
+        "PrerequisiteModuleName": "Kuhlman, Wolf and Glover",
+        "SortOrder": 223,
+        "ExtraFlags": 481,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 280
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

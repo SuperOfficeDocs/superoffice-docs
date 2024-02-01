@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 259,
-  "ERPQuoteAlternativeKey": "tempora",
-  "QuoteVersionId": 890,
-  "Name": "Zulauf, Schowalter and Runolfsson",
-  "Description": "Total optimal matrices",
+  "QuoteAlternativeId": 994,
+  "ERPQuoteAlternativeKey": "dignissimos",
+  "QuoteVersionId": 898,
+  "Name": "Olson Group",
+  "Description": "Cross-group optimal implementation",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 12617.484,
-  "ERPDiscountAmount": 25877.438,
-  "DiscountPercent": 23251.146,
-  "DiscountAmount": 11796.376,
+  "Reason": "leverage world-class ROI",
+  "ERPDiscountPercent": 19954.178,
+  "ERPDiscountAmount": 1410.3,
+  "DiscountPercent": 20032.528,
+  "DiscountAmount": 29384.384,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "accusantium",
-  "VAT": 5177.3679999999995,
-  "EarningPercent": 22204.39,
-  "EarningAmount": 12774.184,
-  "SubTotal": 21865.917999999998,
-  "TotalPrice": 9962.985999999999,
-  "ExtraField1": "consequatur",
-  "ExtraField2": "saepe",
-  "ExtraField3": "libero",
-  "ExtraField4": "qui",
-  "ExtraField5": "assumenda"
+  "VATInfo": "voluptatum",
+  "VAT": 2228.274,
+  "EarningPercent": 18236.746,
+  "EarningAmount": 2848.806,
+  "SubTotal": 19465.273999999998,
+  "TotalPrice": 15033.797999999999,
+  "ExtraField1": "provident",
+  "ExtraField2": "et",
+  "ExtraField3": "maxime",
+  "ExtraField4": "eveniet",
+  "ExtraField5": "et"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 688,
-  "ERPQuoteAlternativeKey": "adipisci",
-  "QuoteVersionId": 432,
-  "Name": "Block, Kohler and Keebler",
-  "Description": "Advanced secondary structure",
+  "QuoteAlternativeId": 93,
+  "ERPQuoteAlternativeKey": "laudantium",
+  "QuoteVersionId": 361,
+  "Name": "Trantow-Champlin",
+  "Description": "Open-architected solution-oriented groupware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 12736.576,
-  "ERPDiscountAmount": 28303.154,
-  "DiscountPercent": 24504.746,
-  "DiscountAmount": 5349.7379999999994,
+  "ERPDiscountPercent": 14535.492,
+  "ERPDiscountAmount": 17399.968,
+  "DiscountPercent": 18525.074,
+  "DiscountAmount": 15820.431999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "beatae",
-  "VAT": 5146.028,
-  "EarningPercent": 5813.57,
-  "EarningAmount": 16838.982,
-  "SubTotal": 4779.3499999999995,
-  "TotalPrice": 5882.518,
-  "ExtraField1": "necessitatibus",
-  "ExtraField2": "labore",
-  "ExtraField3": "optio",
-  "ExtraField4": "assumenda",
-  "ExtraField5": "omnis",
+  "VATInfo": "quae",
+  "VAT": 29020.84,
+  "EarningPercent": 30008.05,
+  "EarningAmount": 15638.66,
+  "SubTotal": 14256.565999999999,
+  "TotalPrice": 25911.912,
+  "ExtraField1": "voluptate",
+  "ExtraField2": "temporibus",
+  "ExtraField3": "cupiditate",
+  "ExtraField4": "et",
+  "ExtraField5": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 84
     }
   }
 }

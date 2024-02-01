@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Treutel-Buckridge",
-  "Tooltip": "quidem",
+  "Id": 851,
+  "Name": "Towne, Fisher and Ebert",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 513,
-  "Rank": 205,
+  "UdListDefinitionId": 533,
+  "Rank": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 887
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 627,
-    "Name": "Oberbrunner Group",
-    "Tooltip": "tempore",
+    "Id": 57,
+    "Name": "Spinka Group",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 500,
-    "Rank": 976
+    "UdListDefinitionId": 637,
+    "Rank": 492
   },
   {
-    "Id": 627,
-    "Name": "Oberbrunner Group",
-    "Tooltip": "tempore",
+    "Id": 57,
+    "Name": "Spinka Group",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 500,
-    "Rank": 976
+    "UdListDefinitionId": 637,
+    "Rank": 492
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 168,
-    "Name": "Gibson-Gerhold",
-    "Tooltip": "eveniet",
+    "Id": 935,
+    "Name": "Denesik-Willms",
+    "Tooltip": "alias",
     "Deleted": false,
-    "UdListDefinitionId": 230,
-    "Rank": 116,
+    "UdListDefinitionId": 103,
+    "Rank": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 427
       }
     }
   }

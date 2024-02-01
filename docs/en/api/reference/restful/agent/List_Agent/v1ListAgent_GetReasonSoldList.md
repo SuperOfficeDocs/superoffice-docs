@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Value": "facilis",
-    "Tooltip": "ipsa",
+    "Id": 137,
+    "Value": "veritatis",
+    "Tooltip": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 850
       }
     }
   },
   {
-    "Id": 893,
-    "Value": "facilis",
-    "Tooltip": "ipsa",
+    "Id": 137,
+    "Value": "veritatis",
+    "Tooltip": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 850
       }
     }
   }

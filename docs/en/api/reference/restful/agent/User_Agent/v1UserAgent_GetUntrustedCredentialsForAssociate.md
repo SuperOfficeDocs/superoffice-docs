@@ -88,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 135,
-  "Type": "dolores"
+  "AssociateId": 161,
+  "Type": "culpa"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2010-09-20T13:57:13.5677159+02:00",
-    "ValidTo": "1997-02-18T13:57:13.5677159+01:00",
-    "Comment": "aut",
-    "SecretValue": "mollitia",
-    "PublicValue": "atque",
+    "ValidFrom": "2017-09-15T23:03:57.5916065+02:00",
+    "ValidTo": "2007-02-09T23:03:57.5916065+01:00",
+    "Comment": "minus",
+    "SecretValue": "aliquam",
+    "PublicValue": "eos",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 589
+        "FieldType": "System.Int32",
+        "FieldLength": 775
       }
     }
   }

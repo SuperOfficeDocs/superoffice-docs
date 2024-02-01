@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 876,
-  "Name": "Littel, Erdman and Jacobs",
-  "Tooltip": "et",
+  "Id": 770,
+  "Name": "Stokes, Schroeder and Heller",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "UdListDefinitionId": 939,
-  "Rank": 551,
+  "UdListDefinitionId": 674,
+  "Rank": 995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 659
     }
   }
 }

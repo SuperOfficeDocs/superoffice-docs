@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 31,
-  "Name": "Haag, Green and Swaniawski",
-  "Description": "Horizontal homogeneous archive",
+  "ProjectId": 305,
+  "Name": "Pouros, Parker and McGlynn",
+  "Description": "Profound zero defect migration",
   "URL": "http://www.example.com/",
-  "Type": "nostrum",
-  "AssociateId": 382,
-  "AssociateFullName": "Mona McDermott",
-  "TypeId": 19,
-  "Updated": "2001-09-24T13:57:19.1090601+02:00",
-  "StatusId": 587,
-  "Status": "et",
-  "TextId": 170,
-  "PublishTo": "2006-01-07T13:57:19.1090601+01:00",
-  "PublishFrom": "2019-07-23T13:57:19.1090601+02:00",
+  "Type": "fugit",
+  "AssociateId": 975,
+  "AssociateFullName": "Maida Howell",
+  "TypeId": 750,
+  "Updated": "2013-06-21T23:04:04.5495129+02:00",
+  "StatusId": 79,
+  "Status": "est",
+  "TextId": 418,
+  "PublishTo": "2007-07-08T23:04:04.5495129+02:00",
+  "PublishFrom": "2014-02-12T23:04:04.5495129+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "830942",
-  "ActiveErpLinks": 526,
+  "ProjectNumber": "917106",
+  "ActiveErpLinks": 494,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

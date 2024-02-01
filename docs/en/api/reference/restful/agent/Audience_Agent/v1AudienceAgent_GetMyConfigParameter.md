@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Cummerata Inc and Sons"
+  "ParameterName": "Kutch Group"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 623,
-  "Name": "Dickens, Cassin and Gaylord",
-  "Value": "odio",
-  "CreatedDate": "2017-02-23T13:57:11.5438073+01:00",
-  "UpdatedDate": "2018-03-09T13:57:11.5438073+01:00",
-  "CreatedBy": "itaque",
-  "UpdatedBy": "esse",
+  "AudienceLayoutId": 882,
+  "Name": "Beier Group",
+  "Value": "natus",
+  "CreatedDate": "2014-07-09T23:03:55.0046428+02:00",
+  "UpdatedDate": "2013-07-12T23:03:55.0046428+02:00",
+  "CreatedBy": "voluptas",
+  "UpdatedBy": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 246
     }
   }
 }

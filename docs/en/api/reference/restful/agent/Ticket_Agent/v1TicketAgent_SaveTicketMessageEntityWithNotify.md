@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 567,
+  "EjMessageId": 322,
   "Ticket": null,
-  "CreatedAt": "2019-08-30T13:57:13.4739653+02:00",
+  "CreatedAt": "2006-12-22T23:03:57.4511119+01:00",
   "CreatedBy": null,
-  "Author": "odio",
+  "Author": "tenetur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "iure",
-  "TimeSpent": 189,
-  "Body": "neque",
-  "HtmlBody": "id",
-  "EmailHeader": "keyshawn@hintz.ca",
-  "DebugInfo": "quasi",
-  "MailSorter": "vitae",
+  "MessageId": "sed",
+  "TimeSpent": 1002,
+  "Body": "impedit",
+  "HtmlBody": "animi",
+  "EmailHeader": "noemy@schamberger.biz",
+  "DebugInfo": "omnis",
+  "MailSorter": "laborum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "omnis",
+  "SearchTitle": "eveniet",
   "MessageHeaders": [
     {
-      "Id": 763,
-      "Name": "Murazik, Ziemann and Rice",
-      "Value": "dolore",
+      "Id": 577,
+      "Name": "Rippin Inc and Sons",
+      "Value": "nostrum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldLength": 256
         }
       }
     }
   ],
   "Important": true,
-  "Language": "unde",
-  "Sentiment": 322,
-  "SentimentConfidence": 532,
+  "Language": "dolor",
+  "Sentiment": 573,
+  "SentimentConfidence": 33,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 401,
-      "Name": "Metz-Bartell",
-      "ContentType": "corrupti",
-      "AttSize": 370,
+      "AttachmentId": 241,
+      "Name": "Davis Inc and Sons",
+      "ContentType": "voluptate",
+      "AttSize": 36,
       "InlineImage": false,
-      "ContentId": "consequatur",
-      "AuthKey": "consequuntur",
+      "ContentId": "nulla",
+      "AuthKey": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 111
+          "FieldType": "System.Int32",
+          "FieldLength": 884
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "facilis"
+    "CustomFields1": "non",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   }
 }

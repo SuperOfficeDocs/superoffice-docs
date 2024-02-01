@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "O'Connell, Monahan and Donnelly",
-    "ToolTip": "Molestiae ut quidem ea omnis ex beatae explicabo.",
+    "Id": 903,
+    "Name": "Schmitt Inc and Sons",
+    "ToolTip": "Quo omnis quia itaque id est placeat.",
     "Deleted": false,
-    "Rank": 164,
-    "Type": "sint",
-    "ColorBlock": 811,
-    "IconHint": "veritatis",
+    "Rank": 685,
+    "Type": "eius",
+    "ColorBlock": 918,
+    "IconHint": "vel",
     "Selected": true,
-    "LastChanged": "2010-09-16T13:57:20.1421596+02:00",
+    "LastChanged": "1999-03-30T23:04:05.9679958+02:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Botsford, Lockman and O'Hara",
-        "ToolTip": "Numquam et labore soluta dolor.",
+        "Id": 467,
+        "Name": "Kertzmann Group",
+        "ToolTip": "Nulla in officiis.",
         "Deleted": false,
-        "Rank": 486,
-        "Type": "delectus",
-        "ColorBlock": 524,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2008-04-09T13:57:20.1421596+02:00",
+        "Rank": 493,
+        "Type": "necessitatibus",
+        "ColorBlock": 62,
+        "IconHint": "cum",
+        "Selected": false,
+        "LastChanged": "2006-01-31T23:04:05.9679958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "aut",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Prof. Hillard Alba Bayer I"
+        "FullName": "Alexanne Borer Sr."
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Domenica Carter"
+    "ExtraInfo": "accusamus",
+    "StyleHint": "similique",
+    "Hidden": true,
+    "FullName": "Darren Pacocha"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Purdy, Lesch and Moen",
-    "ToolTip": "Ut repellendus ea.",
+    "Id": 87,
+    "Name": "Shields, Ledner and Hyatt",
+    "ToolTip": "Doloremque sequi velit.",
     "Deleted": false,
-    "Rank": 858,
-    "Type": "at",
-    "ColorBlock": 502,
-    "IconHint": "sunt",
+    "Rank": 125,
+    "Type": "inventore",
+    "ColorBlock": 349,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2014-09-30T13:57:20.1421596+02:00",
+    "LastChanged": "2014-03-07T23:04:05.9689929+01:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Schroeder Inc and Sons",
-        "ToolTip": "Consequatur aliquam quis sint.",
-        "Deleted": false,
-        "Rank": 526,
-        "Type": "veritatis",
-        "ColorBlock": 266,
-        "IconHint": "exercitationem",
-        "Selected": false,
-        "LastChanged": "2000-11-01T13:57:20.1421596+01:00",
+        "Id": 602,
+        "Name": "Fisher, Wiza and McClure",
+        "ToolTip": "Et corrupti ut in omnis non sit deleniti.",
+        "Deleted": true,
+        "Rank": 515,
+        "Type": "itaque",
+        "ColorBlock": 862,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2023-09-15T23:04:05.9694955+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "at",
-        "Hidden": false,
-        "FullName": "Melvina Randal Heaney Jr.",
+        "ExtraInfo": "est",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Sheldon Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "laborum",
-    "Hidden": false,
-    "FullName": "Jolie Cassin",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "maiores",
+    "Hidden": true,
+    "FullName": "Ignatius Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 885
+        "FieldType": "System.Int32",
+        "FieldLength": 359
       }
     }
   }

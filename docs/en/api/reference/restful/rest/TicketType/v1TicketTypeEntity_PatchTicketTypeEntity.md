@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nesciunt",
+    "path": "aliquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nesciunt",
+    "path": "aliquam",
     "value": {}
   }
 ]
@@ -143,30 +143,30 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 103,
-  "Name": "Strosin Group",
-  "Rank": 25,
-  "Tooltip": "vitae",
-  "Icon": "necessitatibus",
-  "DefaultTicketStatus": 197,
+  "TicketTypeId": 729,
+  "Name": "Rohan, Daniel and Weissnat",
+  "Rank": 806,
+  "Tooltip": "quod",
+  "Icon": "consequatur",
+  "DefaultTicketStatus": 546,
   "TicketStatuses": [
-    293,
-    372
+    437,
+    647
   ],
-  "DefaultTicketPriority": 367,
+  "DefaultTicketPriority": 899,
   "TicketPriorities": [
-    211,
-    862
+    854,
+    447
   ],
-  "ReplyTemplate": 10,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 320,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 155
     }
   },
   "_Links": {

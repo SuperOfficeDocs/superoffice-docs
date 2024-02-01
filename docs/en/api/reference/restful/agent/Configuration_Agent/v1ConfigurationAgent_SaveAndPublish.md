@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 123,
-  "Name": "Hegmann, Batz and Nolan",
-  "Description": "Proactive directional standardization",
-  "DeltaJson": "consequatur",
+  "ConfigurableScreenDeltaId": 289,
+  "Name": "Veum, Kutch and Bashirian",
+  "Description": "Switchable zero administration interface",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "corporis",
-  "UpdatedDate": "2020-06-12T13:57:11.8393076+02:00",
-  "CreatedDate": "1998-12-20T13:57:11.8393076+01:00",
+  "RecipeId": "incidunt",
+  "UpdatedDate": "2012-02-28T23:03:55.2421388+01:00",
+  "CreatedDate": "2014-05-28T23:03:55.2421388+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    370,
-    363
+    636,
+    994
   ],
-  "AppliesToKey": "ut",
+  "AppliesToKey": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 24
     }
   }
 }

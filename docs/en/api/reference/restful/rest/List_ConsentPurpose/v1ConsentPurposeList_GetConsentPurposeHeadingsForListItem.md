@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Name": "Casper, Stanton and Boyle",
-    "ToolTip": "Vitae at excepturi cumque sit provident similique.",
+    "Id": 602,
+    "Name": "Franecki, Halvorson and Klein",
+    "ToolTip": "Laborum provident odit illo illo non vero consequatur.",
     "Deleted": false,
-    "Rank": 677,
-    "Type": "veritatis",
-    "ColorBlock": 843,
-    "IconHint": "ullam",
-    "Selected": true,
-    "LastChanged": "2009-12-29T13:57:19.6721792+01:00",
+    "Rank": 497,
+    "Type": "consequatur",
+    "ColorBlock": 622,
+    "IconHint": "deleniti",
+    "Selected": false,
+    "LastChanged": "2003-09-28T23:04:05.3605009+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Nienow Group",
-        "ToolTip": "Natus alias aut aut aut aut exercitationem.",
+        "Id": 176,
+        "Name": "Cremin-Corwin",
+        "ToolTip": "Maiores ut laboriosam tempora ut veniam.",
         "Deleted": false,
-        "Rank": 1001,
-        "Type": "possimus",
-        "ColorBlock": 25,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1997-08-29T13:57:19.6721792+02:00",
+        "Rank": 210,
+        "Type": "placeat",
+        "ColorBlock": 479,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2023-12-20T23:04:05.3605009+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Maryam Boehm",
+        "ExtraInfo": "sed",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Ana Mireille Will MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 378
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "optio",
+    "ExtraInfo": "iure",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Cecelia Hane",
+    "FullName": "Miss Piper Barry Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 189
       }
     }
   }

@@ -173,8 +173,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Konopelski, Runolfsson and Morissette",
-  "Restrictions": "aut"
+  "ProviderName": "Wisoky Group",
+  "Restrictions": "voluptates"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Jaskolski Inc and Sons",
-    "DisplayTooltip": "quo",
-    "DisplayType": "consequatur",
+    "DisplayName": "Stehr, Stark and Gibson",
+    "DisplayTooltip": "sed",
+    "DisplayType": "laudantium",
     "CanOrderBy": true,
-    "Name": "Johnson, Dietrich and Hessel",
-    "CanRestrictBy": false,
-    "RestrictionType": "qui",
-    "RestrictionListName": "Krajcik, Lowe and Weimann",
+    "Name": "Padberg LLC",
+    "CanRestrictBy": true,
+    "RestrictionType": "ullam",
+    "RestrictionListName": "Crist, Will and Legros",
     "IsVisible": false,
-    "ExtraInfo": "eligendi",
-    "Width": "et",
-    "IconHint": "consequatur",
-    "HeadingIconHint": "neque"
+    "ExtraInfo": "non",
+    "Width": "dignissimos",
+    "IconHint": "in",
+    "HeadingIconHint": "vitae"
   }
 ]
 ```

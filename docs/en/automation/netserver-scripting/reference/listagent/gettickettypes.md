@@ -24,7 +24,7 @@ Event state is not preserved between different service calls. It is set to null 
 ## AfterGetTicketTypes
 ```cs
     static void AfterGetTicketTypes(
-       ref TicketType[]  returnValue,
+       ref TicketTypeEntity[]  returnValue,
        ref object  eventState
       );
 ```
@@ -34,7 +34,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ## AfterGetTicketTypesAsync
 ```cs
     static void AfterGetTicketTypesAsync(
-       ref TicketType[]  returnValue,
+       ref TicketTypeEntity[]  returnValue,
        ref object  eventState
       );
 ```

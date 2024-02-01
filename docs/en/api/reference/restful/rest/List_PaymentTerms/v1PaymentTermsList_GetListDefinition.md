@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 354,
-  "Name": "Fadel, Wyman and Hyatt",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 173,
+  "Id": 866,
+  "Name": "Lang Inc and Sons",
+  "Tooltip": "vero",
+  "Deleted": false,
+  "Rank": 459,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "animi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   },
   "_Links": {

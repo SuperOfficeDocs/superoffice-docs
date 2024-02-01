@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 214
+  "UserGroupId": 449
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 22,
-    "ColumnId": 194,
-    "FieldDefault": "eligendi",
-    "FieldHeight": 884,
-    "FieldLabel": "praesentium",
-    "FieldLeft": 666,
-    "FieldTop": 130,
+    "UDefFieldId": 349,
+    "ColumnId": 768,
+    "FieldDefault": "eos",
+    "FieldHeight": 544,
+    "FieldLabel": "perferendis",
+    "FieldLeft": 720,
+    "FieldTop": 562,
     "FieldType": "Checkbox",
-    "FieldWidth": 272,
-    "FormatMask": "quia",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 738,
-    "LabelLeft": 7,
-    "LabelTop": 703,
-    "LabelWidth": 501,
-    "LastVersionId": 161,
-    "ListTableId": 17,
+    "FieldWidth": 692,
+    "FormatMask": "ullam",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 909,
+    "LabelLeft": 947,
+    "LabelTop": 890,
+    "LabelWidth": 921,
+    "LastVersionId": 315,
+    "ListTableId": 891,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 830,
-    "ProgId": "harum",
-    "IsReadOnly": false,
-    "ShortLabel": "aperiam",
-    "TabOrder": 476,
-    "TextLength": 33,
-    "Tooltip": "vitae",
-    "UdefIdentity": 336,
-    "UDListDefinitionId": 380,
+    "Page1LineNo": 200,
+    "ProgId": "officia",
+    "IsReadOnly": true,
+    "ShortLabel": "dolor",
+    "TabOrder": 768,
+    "TextLength": 396,
+    "Tooltip": "et",
+    "UdefIdentity": 141,
+    "UDListDefinitionId": 804,
     "Justification": "Center",
-    "Version": 272,
-    "TemplateVariableName": "Ledner-Jones",
-    "HasBeenPublished": false,
-    "MdoListName": "Zboncak LLC",
+    "Version": 469,
+    "TemplateVariableName": "Pfeffer Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Gusikowski-Schulist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 370
       }
     }
   }

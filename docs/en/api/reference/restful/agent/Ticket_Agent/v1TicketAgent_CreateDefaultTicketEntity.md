@@ -101,7 +101,8 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
-| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| TicketType | TicketType | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| ActiveStatusMonitorId | int32 | Active status monitor identity for related contact. This is a read-only property and is ignored on Save |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -113,7 +114,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -123,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 648,
-  "Title": "quam",
-  "CreatedAt": "2006-06-01T13:57:13.3009039+02:00",
-  "LastChanged": "2012-05-26T13:57:13.3009039+02:00",
-  "ReadByOwner": "2003-05-20T13:57:13.3009039+02:00",
-  "ReadByCustomer": "2016-02-11T13:57:13.3009039+01:00",
-  "FirstReadByOwner": "2010-08-16T13:57:13.3009039+02:00",
-  "FirstReadByUser": "1997-04-07T13:57:13.3009039+02:00",
-  "Activate": "2006-01-28T13:57:13.3009039+01:00",
-  "ClosedAt": "2005-08-02T13:57:13.3009039+02:00",
-  "RepliedAt": "2017-10-08T13:57:13.3009039+02:00",
-  "AlertTimeout": "1996-10-05T13:57:13.3009039+02:00",
-  "Deadline": "1997-08-12T13:57:13.3009039+02:00",
+  "TicketId": 571,
+  "Title": "voluptatum",
+  "CreatedAt": "2009-08-05T23:03:57.2291114+02:00",
+  "LastChanged": "2006-12-02T23:03:57.2291114+01:00",
+  "ReadByOwner": "2004-11-19T23:03:57.2291114+01:00",
+  "ReadByCustomer": "2019-12-20T23:03:57.2291114+01:00",
+  "FirstReadByOwner": "2009-12-11T23:03:57.2291114+01:00",
+  "FirstReadByUser": "2003-03-06T23:03:57.2291114+01:00",
+  "Activate": "2017-08-24T23:03:57.2291114+02:00",
+  "ClosedAt": "2001-01-23T23:03:57.2291114+01:00",
+  "RepliedAt": "2011-12-18T23:03:57.2291114+01:00",
+  "AlertTimeout": "2005-01-24T23:03:57.2291114+01:00",
+  "Deadline": "2017-07-01T23:03:57.2291114+02:00",
   "CreatedBy": null,
-  "Author": "officiis",
+  "Author": "velit",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -148,161 +149,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "culpa",
-      "PersonId": 64,
-      "Mrmrs": "sunt",
-      "Firstname": "Wilfredo",
-      "Lastname": "Green",
-      "MiddleName": "Bauch, Streich and Harris",
-      "Title": "aperiam",
-      "Description": "Universal impactful array",
-      "Email": "clara@runolfsson.ca",
-      "FullName": "Corene Howe",
-      "DirectPhone": "1-801-749-4051 x009",
-      "FormalName": "Gerhold Inc and Sons",
-      "CountryId": 304,
-      "ContactId": 698,
-      "ContactName": "Nienow-Sporer",
-      "Retired": 585,
-      "Rank": 954,
-      "ActiveInterests": 593,
+      "Position": "pariatur",
+      "PersonId": 891,
+      "Mrmrs": "nesciunt",
+      "Firstname": "Kurtis",
+      "Lastname": "Medhurst",
+      "MiddleName": "Schiller-Mitchell",
+      "Title": "alias",
+      "Description": "Implemented bandwidth-monitored algorithm",
+      "Email": "kiarra.daugherty@carterdavis.info",
+      "FullName": "Braeden Bahringer",
+      "DirectPhone": "505.669.9463 x93310",
+      "FormalName": "Wilkinson Inc and Sons",
+      "CountryId": 709,
+      "ContactId": 363,
+      "ContactName": "Veum-Gutkowski",
+      "Retired": 260,
+      "Rank": 12,
+      "ActiveInterests": 72,
       "ContactDepartment": "",
-      "ContactCountryId": 419,
-      "ContactOrgNr": "1065862",
-      "FaxPhone": "1-022-313-7899",
-      "MobilePhone": "1-071-892-7380",
-      "ContactPhone": "684.893.8867 x7171",
-      "AssociateName": "Metz-Howe",
-      "AssociateId": 346,
+      "ContactCountryId": 832,
+      "ContactOrgNr": "667239",
+      "FaxPhone": "1-260-474-6820 x483",
+      "MobilePhone": "(512)197-2472 x91211",
+      "ContactPhone": "(141)224-4542 x2958",
+      "AssociateName": "Gerlach-Schaden",
+      "AssociateId": 246,
       "UsePersonAddress": false,
-      "ContactFax": "velit",
-      "Kanafname": "officia",
-      "Kanalname": "amet",
-      "Post1": "voluptas",
-      "Post2": "quo",
+      "ContactFax": "molestiae",
+      "Kanafname": "consequatur",
+      "Kanalname": "cum",
+      "Post1": "et",
+      "Post2": "ex",
       "Post3": "et",
-      "EmailName": "carlotta@simonis.info",
-      "ContactFullName": "Onie Hermann",
-      "ActiveErpLinks": 217,
-      "TicketPriorityId": 660,
-      "SupportLanguageId": 876,
-      "SupportAssociateId": 833,
+      "EmailName": "alva@kshlerin.info",
+      "ContactFullName": "Priscilla Purdy",
+      "ActiveErpLinks": 77,
+      "TicketPriorityId": 668,
+      "SupportLanguageId": 640,
+      "SupportAssociateId": 749,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 897
         }
       }
     }
   ],
-  "AlertLevel": 682,
-  "ConnectId": 887,
+  "AlertLevel": 591,
+  "ConnectId": 278,
   "ReadStatus": "Green",
-  "TimeToReply": 166,
-  "RealTimeToReply": 81,
-  "TimeToClose": 440,
-  "RealTimeToClose": 679,
-  "TimeSpentInternally": 250,
-  "TimeSpentExternally": 808,
-  "TimeSpentQueue": 539,
-  "RealTimeSpentInternally": 600,
-  "RealTimeSpentExternally": 416,
-  "RealTimeSpentQueue": 197,
-  "TimeSpent": 566,
-  "HasAttachment": false,
-  "NumReplies": 469,
-  "NumMessages": 387,
-  "FromAddress": "earum",
+  "TimeToReply": 433,
+  "RealTimeToReply": 819,
+  "TimeToClose": 409,
+  "RealTimeToClose": 692,
+  "TimeSpentInternally": 792,
+  "TimeSpentExternally": 724,
+  "TimeSpentQueue": 468,
+  "RealTimeSpentInternally": 931,
+  "RealTimeSpentExternally": 494,
+  "RealTimeSpentQueue": 965,
+  "TimeSpent": 685,
+  "HasAttachment": true,
+  "NumReplies": 131,
+  "NumMessages": 129,
+  "FromAddress": "et",
   "Messages": [
     {
-      "TicketMessageId": 890,
-      "CreatedAt": "2009-09-03T13:57:13.3009039+02:00",
+      "TicketMessageId": 528,
+      "CreatedAt": "2022-06-10T23:03:57.2341117+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "esse",
-      "PersonId": 461,
-      "PersonFullName": "Prof. Kari Maribel Howe",
-      "ContactId": 513,
-      "ContactName": "Jaskolski-Jacobs",
+      "Author": "ab",
+      "PersonId": 832,
+      "PersonFullName": "Miss Jessie Tommie Ledner",
+      "ContactId": 653,
+      "ContactName": "Dietrich, Feest and Labadie",
       "ContactDepartment": "",
-      "NumAttachments": 227,
-      "EmailHeader": "annamarie_thiel@schmidtcummings.name",
+      "NumAttachments": 10,
+      "EmailHeader": "quinn_ankunding@kuvalis.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "culpa",
-      "Sentiment": 379,
-      "SentimentConfidence": 524,
-      "CreatedBy": 729,
-      "ChangedAt": "2023-02-16T13:57:13.3009039+01:00",
+      "Language": "amet",
+      "Sentiment": 904,
+      "SentimentConfidence": 428,
+      "CreatedBy": 647,
+      "ChangedAt": "2018-09-10T23:03:57.2346121+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldLength": 596
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 203,
-      "Name": "Terry, Brown and Bogan",
-      "ToolTip": "Sit magnam tempora hic quasi neque nostrum voluptatem.",
+      "Id": 423,
+      "Name": "Gaylord LLC",
+      "ToolTip": "Consequatur odit dolorum voluptas est.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     },
     {
-      "Id": 203,
-      "Name": "Terry, Brown and Bogan",
-      "ToolTip": "Sit magnam tempora hic quasi neque nostrum voluptatem.",
+      "Id": 423,
+      "Name": "Gaylord LLC",
+      "ToolTip": "Consequatur odit dolorum voluptas est.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     }
   ],
-  "Language": "voluptatem",
-  "Sentiment": 298,
-  "SentimentConfidence": 765,
-  "SuggestedCategoryId": 166,
+  "Language": "rem",
+  "Sentiment": 515,
+  "SentimentConfidence": 613,
+  "SuggestedCategoryId": 771,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 117,
-  "IconHint": "repudiandae",
+  "OrigHumanCategoryId": 571,
+  "IconHint": "natus",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
+  "ActiveStatusMonitorId": 307,
   "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "vitae"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "delectus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldType": "System.Int32",
+      "FieldLength": 897
     }
   }
 }

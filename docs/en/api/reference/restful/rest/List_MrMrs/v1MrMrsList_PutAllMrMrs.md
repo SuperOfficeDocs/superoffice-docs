@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 783,
-    "Name": "Dooley LLC",
-    "Tooltip": "iusto",
+    "Id": 2,
+    "Name": "Little Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 89,
-    "Rank": 734
+    "UdListDefinitionId": 666,
+    "Rank": 212
   },
   {
-    "Id": 783,
-    "Name": "Dooley LLC",
-    "Tooltip": "iusto",
+    "Id": 2,
+    "Name": "Little Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 89,
-    "Rank": 734
+    "UdListDefinitionId": 666,
+    "Rank": 212
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Murray LLC",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 938,
-    "Rank": 295,
+    "Id": 173,
+    "Name": "Bayer-Morar",
+    "Tooltip": "nesciunt",
+    "Deleted": false,
+    "UdListDefinitionId": 585,
+    "Rank": 188,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldType": "System.Int32",
+        "FieldLength": 91
       }
     }
   }

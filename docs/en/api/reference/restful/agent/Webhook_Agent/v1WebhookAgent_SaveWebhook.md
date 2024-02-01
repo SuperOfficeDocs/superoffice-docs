@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 656,
-  "Name": "Ratke-Douglas",
+  "WebhookId": 369,
+  "Name": "Howe-Bradtke",
   "Events": [
-    "impedit",
-    "soluta"
+    "commodi",
+    "quos"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "temporibus",
+  "Secret": "dolorum",
   "State": "Active",
-  "Type": "fugit",
+  "Type": "consequuntur",
   "Headers": {
-    "Headers1": "praesentium",
-    "Headers2": "ad"
+    "Headers1": "sunt",
+    "Headers2": "dignissimos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-05-14T13:57:13.6145882+02:00",
+  "Registered": "2003-07-12T23:03:57.6541068+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1997-05-07T13:57:13.6145882+02:00",
+  "Updated": "2005-05-31T23:03:57.6546104+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "aliyah@rolfsonfritsch.ca"
+  "ErrorsEmail": "kobe@morissette.co.uk"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 483,
-  "Name": "Glover, Green and Parisian",
+  "WebhookId": 527,
+  "Name": "Walker LLC",
   "Events": [
-    "magnam",
-    "voluptas"
+    "pariatur",
+    "occaecati"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "magnam",
+  "Secret": "sapiente",
   "State": "Active",
-  "Type": "ut",
+  "Type": "corrupti",
   "Headers": {
-    "Headers1": "repellat",
-    "Headers2": "perspiciatis"
+    "Headers1": "ut",
+    "Headers2": "ex"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-11-23T13:57:13.6145882+01:00",
+  "Registered": "1999-06-09T23:03:57.6561061+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2016-10-01T13:57:13.6145882+02:00",
+  "Updated": "2023-02-25T23:03:57.6571031+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "eva@lynch.biz"
+  "ErrorsEmail": "daryl@hudson.uk"
 }
 ```

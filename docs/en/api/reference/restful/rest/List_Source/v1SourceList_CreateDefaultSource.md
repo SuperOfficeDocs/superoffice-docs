@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Howe LLC",
-  "Tooltip": "delectus",
+  "Id": 498,
+  "Name": "Wilderman Group",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "UdListDefinitionId": 9,
-  "Rank": 117,
+  "UdListDefinitionId": 627,
+  "Rank": 775,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   }
 }

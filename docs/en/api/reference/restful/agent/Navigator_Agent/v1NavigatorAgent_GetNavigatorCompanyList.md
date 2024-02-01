@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Value": "omnis",
-    "Tooltip": "ea",
+    "Id": 189,
+    "Value": "recusandae",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 236
       }
     }
   },
   {
-    "Id": 423,
-    "Value": "omnis",
-    "Tooltip": "ea",
+    "Id": 189,
+    "Value": "recusandae",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 236
       }
     }
   }

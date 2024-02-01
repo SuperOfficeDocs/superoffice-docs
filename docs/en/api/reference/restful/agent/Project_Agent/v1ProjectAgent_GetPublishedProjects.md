@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    276,
-    750
+    428,
+    380
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 521,
-    "Name": "Larkin, Borer and Hammes",
-    "Description": "Automated asynchronous parallelism",
+    "ProjectId": 962,
+    "Name": "Rowe-Mertz",
+    "Description": "Profound impactful projection",
     "URL": "http://www.example.com/",
-    "Type": "ullam",
-    "AssociateId": 512,
-    "AssociateFullName": "Kyler Walker",
-    "TypeId": 759,
-    "Updated": "2021-09-18T13:57:13.0011314+02:00",
-    "StatusId": 467,
-    "Status": "est",
-    "TextId": 292,
-    "PublishTo": "2008-04-27T13:57:13.0011314+02:00",
-    "PublishFrom": "2004-06-07T13:57:13.0011314+02:00",
-    "IsPublished": false,
+    "Type": "modi",
+    "AssociateId": 189,
+    "AssociateFullName": "Ed Ellis Daniel V",
+    "TypeId": 103,
+    "Updated": "2008-05-12T23:03:56.6886232+02:00",
+    "StatusId": 964,
+    "Status": "tenetur",
+    "TextId": 532,
+    "PublishTo": "2003-03-12T23:03:56.6886232+01:00",
+    "PublishFrom": "2015-08-27T23:03:56.6886232+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "963940",
-    "ActiveErpLinks": 377,
+    "ProjectNumber": "968952",
+    "ActiveErpLinks": 551,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 862
       }
     }
   }

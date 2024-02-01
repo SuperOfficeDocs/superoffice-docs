@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 957,
-  "Name": "O'Conner, Adams and Stamm",
-  "CreatedDate": "2000-01-24T13:57:12.4024817+01:00",
-  "UpdatedDate": "2008-10-31T13:57:12.4024817+01:00",
+  "ForeignAppId": 356,
+  "Name": "Becker-Hermann",
+  "CreatedDate": "2015-05-22T23:03:56.0986272+02:00",
+  "UpdatedDate": "2005-12-07T23:03:56.0986272+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 352,
-      "Name": "White Inc and Sons",
-      "CreatedDate": "2013-05-01T13:57:12.4024817+02:00",
-      "UpdatedDate": "1998-05-24T13:57:12.4024817+02:00",
-      "AssociateFullName": "Stephen Block PhD",
-      "CreatedBy": "non",
-      "UpdatedBy": "voluptatem",
-      "DeviceIdentifier": "quia",
-      "ForeignAppId": 445
+      "ForeignDeviceId": 921,
+      "Name": "Doyle, Kling and Quitzon",
+      "CreatedDate": "2018-01-28T23:03:56.0996296+01:00",
+      "UpdatedDate": "2005-11-05T23:03:56.0996296+01:00",
+      "AssociateFullName": "Ms. Angelita Nickolas Glover Sr.",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "eaque",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 267
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 283,
-  "Name": "Powlowski-Bins",
-  "CreatedDate": "2021-07-07T13:57:12.4024817+02:00",
-  "UpdatedDate": "2019-11-11T13:57:12.4024817+01:00",
+  "ForeignAppId": 958,
+  "Name": "Bogisich, Lesch and Cronin",
+  "CreatedDate": "2000-05-23T23:03:56.1021275+02:00",
+  "UpdatedDate": "2003-05-05T23:03:56.1021275+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 111,
-      "Name": "Ratke-Hilpert",
-      "CreatedDate": "2016-10-23T13:57:12.4024817+02:00",
-      "UpdatedDate": "2003-06-13T13:57:12.4024817+02:00",
-      "AssociateFullName": "Mekhi Connor Dicki V",
-      "CreatedBy": "minima",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "officia",
-      "ForeignAppId": 616,
+      "ForeignDeviceId": 350,
+      "Name": "Nikolaus, DuBuque and Lebsack",
+      "CreatedDate": "2021-08-18T23:03:56.1026273+02:00",
+      "UpdatedDate": "1997-08-22T23:03:56.1026273+02:00",
+      "AssociateFullName": "Dr. Lyric Haley Sr.",
+      "CreatedBy": "nulla",
+      "UpdatedBy": "consectetur",
+      "DeviceIdentifier": "quaerat",
+      "ForeignAppId": 583,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 12
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

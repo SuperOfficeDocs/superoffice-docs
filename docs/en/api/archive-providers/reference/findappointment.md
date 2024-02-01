@@ -704,7 +704,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=contact/contactAssociate/portraitThumbnail,contact/contactUdef/SuperOffice:6,person/personUpdatedBy,person/hasCompany,person/hasStoreConsent
+GET /api/v1/archive/FindAppointment?$select=updatedDate,contact/code,person/personRegisteredBy,person/correspondingAssociate/isActiveText,appointmentUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

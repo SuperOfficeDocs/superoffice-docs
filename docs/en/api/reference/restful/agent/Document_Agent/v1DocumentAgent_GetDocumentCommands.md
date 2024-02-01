@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 90,
+  "DocumentId": 168,
   "AllowedReturnTypes": [
-    "minus",
-    "autem"
+    "recusandae",
+    "optio"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hartmann-Kub",
-    "DisplayName": "Moen-Ritchie",
-    "DisplayTooltip": "adipisci",
-    "IconHint": "sed",
+    "Name": "Friesen-Nitzsche",
+    "DisplayName": "Hickle, Reinger and Swift",
+    "DisplayTooltip": "repellendus",
+    "IconHint": "modi",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Hartmann-Kub",
-    "DisplayName": "Moen-Ritchie",
-    "DisplayTooltip": "adipisci",
-    "IconHint": "sed",
+    "Name": "Friesen-Nitzsche",
+    "DisplayName": "Hickle, Reinger and Swift",
+    "DisplayTooltip": "repellendus",
+    "IconHint": "modi",
     "ReturnType": "CustomGui"
   }
 ]

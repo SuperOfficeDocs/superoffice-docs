@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 834
+  "QuoteVersionId": 725
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 353,
-    "ERPQuoteAlternativeKey": "eligendi",
-    "QuoteVersionId": 47,
-    "Name": "Gislason, Medhurst and Hansen",
-    "Description": "Self-enabling client-driven throughput",
+    "QuoteAlternativeId": 951,
+    "ERPQuoteAlternativeKey": "non",
+    "QuoteVersionId": 952,
+    "Name": "Jaskolski-McGlynn",
+    "Description": "Operative leading edge contingency",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 13178.47,
-    "ERPDiscountAmount": 21812.64,
-    "DiscountPercent": 9966.119999999999,
-    "DiscountAmount": 19653.314,
+    "ERPDiscountPercent": 739.624,
+    "ERPDiscountAmount": 11909.199999999999,
+    "DiscountPercent": 25097.072,
+    "DiscountAmount": 20537.102,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "earum",
-    "VAT": 28375.236,
-    "EarningPercent": 1679.8239999999998,
-    "EarningAmount": 22771.644,
-    "SubTotal": 29986.111999999997,
-    "TotalPrice": 21167.036,
-    "ExtraField1": "facere",
-    "ExtraField2": "est",
-    "ExtraField3": "temporibus",
-    "ExtraField4": "ipsam",
-    "ExtraField5": "veniam",
+    "VATInfo": "omnis",
+    "VAT": 30885.57,
+    "EarningPercent": 22749.706,
+    "EarningAmount": 31205.237999999998,
+    "SubTotal": 18540.744,
+    "TotalPrice": 23050.57,
+    "ExtraField1": "et",
+    "ExtraField2": "voluptatem",
+    "ExtraField3": "sint",
+    "ExtraField4": "delectus",
+    "ExtraField5": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 940
+        "FieldType": "System.Int32",
+        "FieldLength": 203
       }
     }
   }

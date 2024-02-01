@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 824,
-  "Name": "Schuster, Kulas and Balistreri",
-  "CurrencyId": 256,
-  "EnglishName": "Borer-Wisozk",
+  "CountryId": 650,
+  "Name": "Bayer Group",
+  "CurrencyId": 643,
+  "EnglishName": "Carroll, Glover and Jakubowski",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Devolved cohesive approach",
-  "OrgNrText": "1005837",
-  "InterAreaPrefix": "quis",
-  "DialInPrefix": "ea",
-  "ZipPrefix": "deserunt",
-  "DomainName": "Yost-Jones",
-  "AddressLayoutId": 40,
-  "DomesticAddressLayoutId": 83,
-  "ForeignAddressLayoutId": 474,
-  "Rank": 351,
-  "Tooltip": "illo",
+  "ImageDescription": "Stand-alone uniform matrices",
+  "OrgNrText": "1332432",
+  "InterAreaPrefix": "optio",
+  "DialInPrefix": "ratione",
+  "ZipPrefix": "aut",
+  "DomainName": "Zemlak-Nitzsche",
+  "AddressLayoutId": 735,
+  "DomesticAddressLayoutId": 129,
+  "ForeignAddressLayoutId": 168,
+  "Rank": 658,
+  "Tooltip": "eum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 530
     }
   }
 }

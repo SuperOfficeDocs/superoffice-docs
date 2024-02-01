@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 356
+  "ContactId": 291
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptas",
-    "PersonId": 458,
-    "Mrmrs": "debitis",
-    "Firstname": "Cathrine",
-    "Lastname": "Blick",
-    "MiddleName": "Hettinger-Grimes",
-    "Title": "nihil",
-    "Description": "Distributed 24/7 task-force",
-    "Email": "christiana@muller.us",
-    "FullName": "Herbert Erdman",
-    "DirectPhone": "1-427-400-3223",
-    "FormalName": "Tromp, Weimann and Kerluke",
-    "CountryId": 776,
-    "ContactId": 404,
-    "ContactName": "Ratke-Schmeler",
-    "Retired": 917,
-    "Rank": 795,
-    "ActiveInterests": 613,
+    "Position": "molestias",
+    "PersonId": 726,
+    "Mrmrs": "et",
+    "Firstname": "Marilyne",
+    "Lastname": "Skiles",
+    "MiddleName": "Herman LLC",
+    "Title": "voluptates",
+    "Description": "Seamless zero defect strategy",
+    "Email": "reuben@stanton.com",
+    "FullName": "Alvis Greenholt",
+    "DirectPhone": "1-688-006-0950 x496",
+    "FormalName": "Harber, Abbott and Ernser",
+    "CountryId": 96,
+    "ContactId": 198,
+    "ContactName": "Towne-Lehner",
+    "Retired": 111,
+    "Rank": 744,
+    "ActiveInterests": 967,
     "ContactDepartment": "",
-    "ContactCountryId": 281,
-    "ContactOrgNr": "683213",
-    "FaxPhone": "(230)254-3554",
-    "MobilePhone": "1-845-033-2756 x3325",
-    "ContactPhone": "1-431-803-9038 x68744",
-    "AssociateName": "Johnston-Thiel",
-    "AssociateId": 829,
-    "UsePersonAddress": true,
-    "ContactFax": "ducimus",
-    "Kanafname": "voluptatem",
-    "Kanalname": "aut",
-    "Post1": "aut",
-    "Post2": "sunt",
-    "Post3": "ipsum",
-    "EmailName": "tania.blick@kihn.info",
-    "ContactFullName": "Mrs. Rosalee Connie Bogan",
-    "ActiveErpLinks": 278,
-    "TicketPriorityId": 996,
-    "SupportLanguageId": 868,
-    "SupportAssociateId": 432,
+    "ContactCountryId": 574,
+    "ContactOrgNr": "1249473",
+    "FaxPhone": "717.824.8515 x0739",
+    "MobilePhone": "262.582.0878 x7452",
+    "ContactPhone": "1-802-959-9725 x890",
+    "AssociateName": "Cummings Inc and Sons",
+    "AssociateId": 189,
+    "UsePersonAddress": false,
+    "ContactFax": "possimus",
+    "Kanafname": "porro",
+    "Kanalname": "eius",
+    "Post1": "mollitia",
+    "Post2": "earum",
+    "Post3": "aut",
+    "EmailName": "king.orn@breitenbergkessler.com",
+    "ContactFullName": "Alayna Gleichner",
+    "ActiveErpLinks": 849,
+    "TicketPriorityId": 390,
+    "SupportLanguageId": 732,
+    "SupportAssociateId": 969,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 678
       }
     }
   }

@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aliquid",
+  "RawValue": "odio",
   "Specification": null,
-  "DisplayValue": "id",
-  "DisplayTooltip": "nostrum",
+  "DisplayValue": "at",
+  "DisplayTooltip": "quisquam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 303,
-  "PrefDescId": 375,
-  "TableName": "Hilll, Bartell and Baumbach",
-  "UserPreferenceId": 472
+  "TargetId": 934,
+  "PrefDescId": 509,
+  "TableName": "Schmidt-Farrell",
+  "UserPreferenceId": 478
 }
 ```
 

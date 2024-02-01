@@ -583,7 +583,7 @@ Shadow contact provider for the Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingClickRate,mailingAddr/mailingAddrId,mailingAddr/person/subscription,selectionId
+GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingAddr/contact/contactNoMail,mailingAddr/contact/contactPhone/formattedNumber,mailingAddr/contact/postAddress/addressId,mailingAddr/contact/contactAssociate/personId,mailingAddr/contact/contactExtra/x_contact_contact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

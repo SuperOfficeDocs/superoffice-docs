@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 602,
-    "FieldName": "Paucek-Greenfelder",
-    "Label": "ducimus",
-    "Tooltip": "laborum",
-    "Editable": false,
+    "QuoteLineConfigurationId": 23,
+    "FieldName": "Wiegand-Shanahan",
+    "Label": "deleniti",
+    "Tooltip": "ducimus",
+    "Editable": true,
     "InUse": true,
-    "Mandatory": true,
-    "Rank": 410,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 109,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 375
       }
     }
   }

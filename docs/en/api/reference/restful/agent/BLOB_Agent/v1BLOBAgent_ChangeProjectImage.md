@@ -71,8 +71,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 402,
-  "BlobId": 697
+  "ProjectId": 465,
+  "BlobId": 602
 }
 ```
 

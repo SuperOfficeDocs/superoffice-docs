@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 516,
-  "Name": "Fadel, Kilback and Hauck",
-  "Tooltip": "eligendi",
+  "Id": 224,
+  "Name": "Waelchi Inc and Sons",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "UdListDefinitionId": 577,
-  "Rank": 312
+  "UdListDefinitionId": 903,
+  "Rank": 635
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "Name": "Schaefer-Batz",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "UdListDefinitionId": 472,
-  "Rank": 897,
+  "Id": 20,
+  "Name": "Morar LLC",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "UdListDefinitionId": 224,
+  "Rank": 324,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldLength": 133
     }
   }
 }

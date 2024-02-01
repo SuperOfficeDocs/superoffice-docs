@@ -883,6 +883,7 @@ Implementation of the provider for the combined selection
 |request/has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments|  |
 |request/tags| *None* |Tags: Tags connected to a request|  |
 |request/ownedBy| *None* |Owner: The owner of the request|  |
+|request/createdBy| *None* |Created by: Created by|  |
 |request/content| *None* |Content: Search for content in messages related to requests|  |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
 |request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
@@ -953,11 +954,11 @@ Implementation of the provider for the combined selection
 |request/extra/x\_ticket\_date| *None* |Extra date: Custom date field on Request. No default value|  |
 |request/extra/x\_ticket\_datetime| *None* |Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request|  |
 |request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.|  |
-|request/extra/x\_ticket\_boolean| *None* |Extra boolean: Custom boolean on Ticket.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_boolean| *None* |Extra boolean: Custom boolean on Ticket.|  |
 |request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props|  |
 |request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request|  |
 |request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot|  |
@@ -1057,11 +1058,11 @@ Implementation of the provider for the combined selection
 |projectMembers/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |projectMembers/saintSaleStatus| *None* |With status|  |
 |projectMembers/saintAmountClass| *None* |Amount class|  |
-|projectMembers/saintActivityType| *None* |SAINT type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintActivityType| *None* |SAINT type|  |
 |projectMembers/saintDirection| *None* |Direction|  |
 |projectMembers/saintIntention| *None* |Intention|  |
 |projectMembers/saintTicketStatus| *None* |Status|  |
@@ -1162,7 +1163,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=sourceRelation/code,sourceRelation/updatedBy,sourceRelation/csRelation,targetRelation/contactNoMail,targetRelation/personContactRelation
+GET /api/v1/archive/ContactSelectionCombined?$select=sourceRelation/hasInterests,sourceRelation/registeredByFullName,sale/associate/associateDbId,appointment/visibleFor,appointment/appointmentUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 112,
+  "TargetAssignmentInfoId": 414,
   "Values": [
-    388,
-    923
+    420,
+    602
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 508,
-  "DimensionListItemDisplayName": "Ankunding LLC",
+  "DimensionListItem": 952,
+  "DimensionListItemDisplayName": "Haag, Sipes and McKenzie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 282
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 316,
-    "Name": "O'Hara Group",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 158,
-    "UdListDefinitionId": 495
+    "HeadingId": 133,
+    "Name": "Feil, Tromp and Kuphal",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "Rank": 325,
+    "UdListDefinitionId": 42
   },
   {
-    "HeadingId": 316,
-    "Name": "O'Hara Group",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 158,
-    "UdListDefinitionId": 495
+    "HeadingId": 133,
+    "Name": "Feil, Tromp and Kuphal",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "Rank": 325,
+    "UdListDefinitionId": 42
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 236,
-    "Name": "Hyatt Inc and Sons",
-    "Tooltip": "quis",
+    "HeadingId": 346,
+    "Name": "Orn-Kemmer",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 693,
-    "UdListDefinitionId": 131,
+    "Rank": 294,
+    "UdListDefinitionId": 463,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 992
+        "FieldType": "System.Int32",
+        "FieldLength": 155
       }
     }
   }

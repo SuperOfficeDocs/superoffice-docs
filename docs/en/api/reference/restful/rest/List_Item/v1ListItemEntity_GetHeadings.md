@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Hilll Inc and Sons",
-    "ToolTip": "Provident sed harum earum doloremque enim ipsum numquam.",
+    "Id": 842,
+    "Name": "Bashirian Inc and Sons",
+    "ToolTip": "Placeat neque iure voluptas sint nam.",
     "Deleted": false,
-    "Rank": 474,
-    "Type": "distinctio",
-    "ColorBlock": 605,
-    "IconHint": "et",
+    "Rank": 158,
+    "Type": "unde",
+    "ColorBlock": 470,
+    "IconHint": "ab",
     "Selected": true,
-    "LastChanged": "2011-06-16T13:57:19.6096461+02:00",
+    "LastChanged": "2007-02-08T23:04:05.2635047+01:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Dooley, Gaylord and Langosh",
-        "ToolTip": "Expedita commodi exercitationem quis mollitia.",
-        "Deleted": true,
-        "Rank": 538,
-        "Type": "aut",
-        "ColorBlock": 416,
-        "IconHint": "voluptates",
-        "Selected": false,
-        "LastChanged": "2005-11-08T13:57:19.6096461+01:00",
+        "Id": 17,
+        "Name": "Tillman Inc and Sons",
+        "ToolTip": "A commodi dolores consectetur tenetur inventore sunt et.",
+        "Deleted": false,
+        "Rank": 657,
+        "Type": "sed",
+        "ColorBlock": 675,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2006-04-02T23:04:05.2635047+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Prof. Chasity Andreane Nikolaus",
+        "ExtraInfo": "itaque",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Hilma Cruickshank",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 826
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Prof. Sadye Bednar MD",
+    "ExtraInfo": "officia",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Dr. Lempi Schmeler Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 111
       }
     }
   }

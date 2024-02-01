@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deserunt",
-  "ProviderName": "Thompson-Walker",
-  "StorageKey": "qui",
-  "Restrictions": "et"
+  "StorageType": "rerum",
+  "ProviderName": "Hermann LLC",
+  "StorageKey": "dolorem",
+  "Restrictions": "harum"
 }
 ```
 

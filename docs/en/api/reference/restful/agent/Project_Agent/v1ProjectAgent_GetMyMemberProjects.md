@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 381,
-    "Name": "Lind, Abbott and Hamill",
-    "Description": "Triple-buffered explicit moderator",
+    "ProjectId": 522,
+    "Name": "Streich-Durgan",
+    "Description": "Automated next generation firmware",
     "URL": "http://www.example.com/",
-    "Type": "sint",
-    "AssociateId": 897,
-    "AssociateFullName": "Rita Carroll",
-    "TypeId": 439,
-    "Updated": "2020-10-17T13:57:13.0011314+02:00",
-    "StatusId": 298,
-    "Status": "maxime",
-    "TextId": 195,
-    "PublishTo": "2015-11-13T13:57:13.0011314+01:00",
-    "PublishFrom": "2009-08-09T13:57:13.0011314+02:00",
-    "IsPublished": false,
+    "Type": "enim",
+    "AssociateId": 145,
+    "AssociateFullName": "Terrence Baumbach",
+    "TypeId": 602,
+    "Updated": "2010-06-27T23:03:56.6841193+02:00",
+    "StatusId": 83,
+    "Status": "est",
+    "TextId": 453,
+    "PublishTo": "2014-07-26T23:03:56.6841193+02:00",
+    "PublishFrom": "2003-02-04T23:03:56.6841193+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "218402",
-    "ActiveErpLinks": 549,
+    "ProjectNumber": "720450",
+    "ActiveErpLinks": 735,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldType": "System.String",
+        "FieldLength": 981
       }
     }
   }

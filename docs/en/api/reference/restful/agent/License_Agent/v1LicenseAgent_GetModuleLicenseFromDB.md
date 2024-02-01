@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Strosin, Beatty and Kovacek",
-  "ModuleName": "Daugherty, Jast and O'Connell"
+  "OwnerName": "Von-Bogan",
+  "ModuleName": "Bartoletti-Effertz"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Yost Inc and Sons",
-  "ModuleName": "Crist, Heidenreich and Paucek",
-  "ModuleDescription": "Visionary tangible productivity",
-  "ModuleTooltip": "facilis",
-  "ModuleVersion": "eaque",
+  "OwnerName": "Purdy, Weber and Grady",
+  "ModuleName": "Daugherty, Tromp and Medhurst",
+  "ModuleDescription": "Fundamental composite matrices",
+  "ModuleTooltip": "ab",
+  "ModuleVersion": "deserunt",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 574,
-  "ExtraFlags": 981,
-  "ExtraInfo": "facilis",
-  "SortOrder": 875,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Klocko LLC",
-  "Signature": "ipsa"
+  "NumberOfLicenses": 345,
+  "ExtraFlags": 453,
+  "ExtraInfo": "animi",
+  "SortOrder": 521,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Blanda-Stark",
+  "Signature": "quo"
 }
 ```

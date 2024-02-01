@@ -77,6 +77,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       </CustomerService:StringKeyValuePair>
      </CustomerService:CgiVariables>
      <CustomerService:CgiContent xsi:type="xsd:string"></CustomerService:CgiContent>
+     <CustomerService:Headers xsi:type="CustomerService:StringDictionary">
+      <CustomerService:StringKeyValuePair>
+       <CustomerService:Key xsi:type="xsd:string"></CustomerService:Key>
+       <CustomerService:Value xsi:type="xsd:string"></CustomerService:Value>
+      </CustomerService:StringKeyValuePair>
+     </CustomerService:Headers>
     </CustomerService:EventData>
    </CustomerService:ExecuteEventHandlers>
 
@@ -138,6 +144,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      </CustomerService:StringKeyValuePair>
     </CustomerService:CgiVariables>
     <CustomerService:CgiContent xsi:type="xsd:string"></CustomerService:CgiContent>
+    <CustomerService:Headers xsi:type="CustomerService:StringDictionary">
+     <CustomerService:StringKeyValuePair>
+      <CustomerService:Key xsi:type="xsd:string"></CustomerService:Key>
+      <CustomerService:Value xsi:type="xsd:string"></CustomerService:Value>
+     </CustomerService:StringKeyValuePair>
+    </CustomerService:Headers>
    </CustomerService:Response>
   </CustomerService:ExecuteEventHandlersResponse>
  </SOAP-ENV:Body>

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Flatley, Lubowitz and Hirthe",
-    "ToolTip": "Modi amet ex natus quam.",
-    "Deleted": false,
-    "Rank": 842,
-    "Type": "et",
-    "ColorBlock": 387,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2015-01-28T13:57:19.8127681+01:00",
+    "Id": 724,
+    "Name": "Farrell-West",
+    "ToolTip": "Iste veniam at harum veniam aut.",
+    "Deleted": true,
+    "Rank": 124,
+    "Type": "nostrum",
+    "ColorBlock": 972,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2013-12-04T23:04:05.5364987+01:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Kautzer-Zulauf",
-        "ToolTip": "Qui culpa aspernatur.",
+        "Id": 929,
+        "Name": "Mertz-Crona",
+        "ToolTip": "Nobis iusto nam quam ut id perferendis.",
         "Deleted": false,
-        "Rank": 270,
-        "Type": "libero",
-        "ColorBlock": 548,
-        "IconHint": "voluptatem",
+        "Rank": 874,
+        "Type": "tenetur",
+        "ColorBlock": 107,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "1997-10-05T13:57:19.8127681+02:00",
+        "LastChanged": "2018-08-28T23:04:05.5364987+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Harry Littel",
+        "ExtraInfo": "vel",
+        "StyleHint": "molestias",
+        "Hidden": false,
+        "FullName": "Ms. Guillermo Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldType": "System.String",
+            "FieldLength": 562
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "quia",
+    "ExtraInfo": "aut",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Alfreda Predovic",
+    "FullName": "Prof. Helena Armstrong I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldType": "System.String",
+        "FieldLength": 879
       }
     }
   }

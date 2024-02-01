@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/History?$select=name,department,category/id
 GET /api/v1/Sale/{id}/History?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/History?$orderBy=name asc
-GET /api/v1/Sale/{id}/History?$entities=ab
-GET /api/v1/Sale/{id}/History?$top=126
-GET /api/v1/Sale/{id}/History?$skip=449
+GET /api/v1/Sale/{id}/History?$entities=autem
+GET /api/v1/Sale/{id}/History?$top=847
+GET /api/v1/Sale/{id}/History?$skip=460
 GET /api/v1/Sale/{id}/History?$mode=Full
 GET /api/v1/Sale/{id}/History?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/History?$context=vitae
+GET /api/v1/Sale/{id}/History?$context=dolorem
 GET /api/v1/Sale/{id}/History?$format=JSON
-GET /api/v1/Sale/{id}/History?$jsonSafe=True
+GET /api/v1/Sale/{id}/History?$jsonSafe=False
 GET /api/v1/Sale/{id}/History?$output=Display
 ```
 
@@ -134,19 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sit",
+  "odata.nextLink": "voluptatem",
   "value": [
     {
-      "PrimaryKey": 3833,
+      "PrimaryKey": 5953,
       "EntityName": "person",
-      "personId": 3833,
-      "fullName": "Chase Raynor"
+      "personId": 5953,
+      "fullName": "Mckenna Irving Bogisich III"
     },
     {
-      "PrimaryKey": 2420,
+      "PrimaryKey": 476,
       "EntityName": "person",
-      "personId": 2420,
-      "fullName": "Modesto Robel"
+      "personId": 476,
+      "fullName": "Prof. Austin Walker"
     }
   ]
 }

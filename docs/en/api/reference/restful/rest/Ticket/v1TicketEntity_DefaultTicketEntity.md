@@ -101,7 +101,8 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
-| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| TicketType | TicketType | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| ActiveStatusMonitorId | int32 | Active status monitor identity for related contact. This is a read-only property and is ignored on Save |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -123,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 91,
-  "Title": "sequi",
-  "CreatedAt": "2010-01-02T13:57:19.297149+01:00",
-  "LastChanged": "2023-10-30T13:57:19.297149+01:00",
-  "ReadByOwner": "2019-10-21T13:57:19.297149+02:00",
-  "ReadByCustomer": "2010-12-15T13:57:19.297149+01:00",
-  "FirstReadByOwner": "2006-11-10T13:57:19.297149+01:00",
-  "FirstReadByUser": "2006-08-19T13:57:19.297149+02:00",
-  "Activate": "2015-07-06T13:57:19.297149+02:00",
-  "ClosedAt": "2022-04-09T13:57:19.297149+02:00",
-  "RepliedAt": "2000-05-05T13:57:19.297149+02:00",
-  "AlertTimeout": "2015-10-13T13:57:19.297149+02:00",
-  "Deadline": "2006-07-15T13:57:19.297149+02:00",
+  "TicketId": 315,
+  "Title": "minus",
+  "CreatedAt": "2006-05-19T23:04:04.8260054+02:00",
+  "LastChanged": "2022-03-03T23:04:04.8260054+01:00",
+  "ReadByOwner": "2016-12-05T23:04:04.8260054+01:00",
+  "ReadByCustomer": "1999-01-18T23:04:04.8260054+01:00",
+  "FirstReadByOwner": "2007-08-07T23:04:04.8260054+02:00",
+  "FirstReadByUser": "1997-12-23T23:04:04.8260054+01:00",
+  "Activate": "1999-04-16T23:04:04.8260054+02:00",
+  "ClosedAt": "2001-03-26T23:04:04.8260054+02:00",
+  "RepliedAt": "2015-10-12T23:04:04.8260054+02:00",
+  "AlertTimeout": "2005-05-23T23:04:04.8260054+02:00",
+  "Deadline": "2012-07-05T23:04:04.8260054+02:00",
   "CreatedBy": null,
-  "Author": "perferendis",
+  "Author": "eaque",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -148,153 +149,154 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sint",
-      "PersonId": 66,
-      "Mrmrs": "consequatur",
-      "Firstname": "Bennie",
-      "Lastname": "Huels",
-      "MiddleName": "Bergnaum Inc and Sons",
-      "Title": "dignissimos",
-      "Description": "Intuitive even-keeled collaboration",
-      "Email": "wellington_herman@jonesklocko.name",
-      "FullName": "Gabriella Hegmann",
-      "DirectPhone": "(181)540-1676",
-      "FormalName": "Block-Reynolds",
-      "CountryId": 558,
-      "ContactId": 218,
-      "ContactName": "Legros Inc and Sons",
-      "Retired": 994,
-      "Rank": 987,
-      "ActiveInterests": 830,
+      "Position": "est",
+      "PersonId": 665,
+      "Mrmrs": "facere",
+      "Firstname": "Summer",
+      "Lastname": "Glover",
+      "MiddleName": "Anderson-Howell",
+      "Title": "quo",
+      "Description": "Multi-tiered clear-thinking open architecture",
+      "Email": "theodora@kunde.com",
+      "FullName": "Whitney Dooley",
+      "DirectPhone": "525.448.5120 x7061",
+      "FormalName": "Kirlin-Christiansen",
+      "CountryId": 929,
+      "ContactId": 630,
+      "ContactName": "O'Kon-Cummings",
+      "Retired": 728,
+      "Rank": 104,
+      "ActiveInterests": 203,
       "ContactDepartment": "",
-      "ContactCountryId": 892,
-      "ContactOrgNr": "621226",
-      "FaxPhone": "1-610-735-0226",
-      "MobilePhone": "821.770.7428",
-      "ContactPhone": "432.901.8033 x37058",
-      "AssociateName": "Goldner, Rolfson and Armstrong",
-      "AssociateId": 247,
-      "UsePersonAddress": true,
-      "ContactFax": "voluptatem",
-      "Kanafname": "qui",
-      "Kanalname": "architecto",
-      "Post1": "ipsa",
-      "Post2": "esse",
-      "Post3": "eos",
-      "EmailName": "mckenzie@mckenzie.com",
-      "ContactFullName": "Burdette Stokes",
-      "ActiveErpLinks": 635,
-      "TicketPriorityId": 406,
-      "SupportLanguageId": 548,
-      "SupportAssociateId": 56,
+      "ContactCountryId": 391,
+      "ContactOrgNr": "204848",
+      "FaxPhone": "127-242-1692 x0488",
+      "MobilePhone": "1-689-299-5482",
+      "ContactPhone": "358-529-8568 x7824",
+      "AssociateName": "Russel Group",
+      "AssociateId": 859,
+      "UsePersonAddress": false,
+      "ContactFax": "corrupti",
+      "Kanafname": "rerum",
+      "Kanalname": "rerum",
+      "Post1": "est",
+      "Post2": "expedita",
+      "Post3": "dolores",
+      "EmailName": "felipe@collins.info",
+      "ContactFullName": "Frankie Vandervort",
+      "ActiveErpLinks": 422,
+      "TicketPriorityId": 348,
+      "SupportLanguageId": 116,
+      "SupportAssociateId": 95,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldType": "System.Int32",
+          "FieldLength": 638
         }
       }
     }
   ],
-  "AlertLevel": 844,
-  "ConnectId": 582,
+  "AlertLevel": 421,
+  "ConnectId": 25,
   "ReadStatus": "Green",
-  "TimeToReply": 697,
-  "RealTimeToReply": 831,
-  "TimeToClose": 759,
-  "RealTimeToClose": 24,
-  "TimeSpentInternally": 418,
-  "TimeSpentExternally": 299,
-  "TimeSpentQueue": 873,
-  "RealTimeSpentInternally": 787,
-  "RealTimeSpentExternally": 654,
-  "RealTimeSpentQueue": 546,
-  "TimeSpent": 423,
+  "TimeToReply": 961,
+  "RealTimeToReply": 214,
+  "TimeToClose": 838,
+  "RealTimeToClose": 13,
+  "TimeSpentInternally": 988,
+  "TimeSpentExternally": 653,
+  "TimeSpentQueue": 682,
+  "RealTimeSpentInternally": 750,
+  "RealTimeSpentExternally": 129,
+  "RealTimeSpentQueue": 619,
+  "TimeSpent": 708,
   "HasAttachment": false,
-  "NumReplies": 790,
-  "NumMessages": 520,
-  "FromAddress": "inventore",
+  "NumReplies": 309,
+  "NumMessages": 755,
+  "FromAddress": "veritatis",
   "Messages": [
     {
-      "TicketMessageId": 713,
-      "CreatedAt": "2019-03-15T13:57:19.297149+01:00",
+      "TicketMessageId": 663,
+      "CreatedAt": "2002-04-07T23:04:04.8305102+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "molestias",
-      "PersonId": 10,
-      "PersonFullName": "Dr. Mason Jonathan Lang III",
-      "ContactId": 791,
-      "ContactName": "Blick LLC",
+      "Important": false,
+      "Author": "tempora",
+      "PersonId": 392,
+      "PersonFullName": "Jamel Jaskolski",
+      "ContactId": 47,
+      "ContactName": "Ritchie, McGlynn and Grady",
       "ContactDepartment": "",
-      "NumAttachments": 588,
-      "EmailHeader": "justine_purdy@shanahan.co.uk",
+      "NumAttachments": 459,
+      "EmailHeader": "wilford.johnston@jast.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "repellendus",
-      "Sentiment": 482,
-      "SentimentConfidence": 811,
-      "CreatedBy": 686,
-      "ChangedAt": "2014-05-01T13:57:19.297149+02:00",
+      "Language": "illo",
+      "Sentiment": 538,
+      "SentimentConfidence": 760,
+      "CreatedBy": 456,
+      "ChangedAt": "2004-09-11T23:04:04.831008+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 641
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 645,
-      "Name": "Murray-Leuschke",
-      "ToolTip": "Molestiae unde.",
+      "Id": 794,
+      "Name": "Wolff Group",
+      "ToolTip": "Et saepe dolores pariatur consequatur et ducimus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 787
+          "FieldType": "System.Int32",
+          "FieldLength": 955
         }
       }
     },
     {
-      "Id": 645,
-      "Name": "Murray-Leuschke",
-      "ToolTip": "Molestiae unde.",
+      "Id": 794,
+      "Name": "Wolff Group",
+      "ToolTip": "Et saepe dolores pariatur consequatur et ducimus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 787
+          "FieldType": "System.Int32",
+          "FieldLength": 955
         }
       }
     }
   ],
-  "Language": "amet",
-  "Sentiment": 489,
-  "SentimentConfidence": 735,
-  "SuggestedCategoryId": 891,
+  "Language": "fuga",
+  "Sentiment": 824,
+  "SentimentConfidence": 39,
+  "SuggestedCategoryId": 116,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 230,
-  "IconHint": "consequatur",
+  "OrigHumanCategoryId": 293,
+  "IconHint": "quia",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
+  "ActiveStatusMonitorId": 678,
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
+    "CustomFields1": "accusantium",
     "CustomFields2": "et"
   },
   "TableRight": null,
@@ -302,7 +304,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 300
     }
   }
 }

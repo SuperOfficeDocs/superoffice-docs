@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 686,
-  "Currency": "porro"
+  "QuoteConnectionId": 55,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 21,
-    "ERPPriceListKey": "vitae",
-    "QuoteConnectionId": 383,
-    "Name": "Anderson-Wehner",
-    "Description": "Inverse actuating secured line",
-    "Currency": "hic",
-    "CurrencyName": "Parker LLC",
-    "ValidFrom": "2022-12-30T13:57:13.064942+01:00",
-    "ValidTo": "2006-01-22T13:57:13.064942+01:00",
-    "IsActive": true,
+    "PriceListId": 335,
+    "ERPPriceListKey": "eveniet",
+    "QuoteConnectionId": 817,
+    "Name": "Monahan, Monahan and Spencer",
+    "Description": "Programmable interactive encryption",
+    "Currency": "et",
+    "CurrencyName": "Jakubowski-McDermott",
+    "ValidFrom": "2015-09-03T23:03:56.7826218+02:00",
+    "ValidTo": "2007-06-27T23:03:56.7826218+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldLength": 198
       }
     }
   }

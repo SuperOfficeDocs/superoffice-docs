@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 865,
-  "Name": "Leffler Group",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "Rank": 640,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false,
+  "Id": 464,
+  "Name": "Lueilwitz, Goldner and Nolan",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "Rank": 316,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 142
+      "FieldType": "System.Int32",
+      "FieldLength": 770
     }
   },
   "_Links": {

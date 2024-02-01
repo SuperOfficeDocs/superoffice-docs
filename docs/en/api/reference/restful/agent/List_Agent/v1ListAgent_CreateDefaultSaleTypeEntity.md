@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 103,
-  "Name": "Brown, Bechtelar and Heathcote",
-  "Tooltip": "a",
-  "Rank": 1002,
+  "SaleTypeId": 111,
+  "Name": "Littel, Stanton and Flatley",
+  "Tooltip": "consectetur",
+  "Rank": 736,
   "DurationUnit": "Century",
-  "SaleDuration": 406,
-  "SaleTypeCatId": 929,
-  "Deleted": false,
+  "SaleDuration": 383,
+  "SaleTypeCatId": 145,
+  "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 270,
-  "QuoteLinesTemplate": 304,
-  "ConfirmationLinesTemplate": 756,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 863,
+  "QuoteLinesTemplate": 334,
+  "ConfirmationLinesTemplate": 596,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 578,
-  "MinEarningPercent": 464,
-  "GroupQuoteLinesBy": 976,
-  "SortGroupLinesBy": 469,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 862,
+  "MinEarningPercent": 960,
+  "GroupQuoteLinesBy": 900,
+  "SortGroupLinesBy": 260,
   "Stages": [
     {
-      "Id": 558,
-      "Name": "Osinski, Bailey and Marquardt",
-      "ToolTip": "Debitis quo et ut.",
+      "Id": 334,
+      "Name": "Rodriguez-Boyer",
+      "ToolTip": "Atque odit rem quasi nihil non eum.",
       "Deleted": true,
-      "Rank": 950,
-      "Type": "cumque",
-      "ColorBlock": 339,
-      "IconHint": "in",
+      "Rank": 419,
+      "Type": "aut",
+      "ColorBlock": 92,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "2014-12-10T13:57:12.575585+01:00",
+      "LastChanged": "2007-04-04T23:03:56.2966252+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "quia",
-      "Hidden": true,
-      "FullName": "Mr. Alexandrea Harvey Sr.",
+      "ExtraInfo": "perspiciatis",
+      "StyleHint": "expedita",
+      "Hidden": false,
+      "FullName": "Yesenia Moore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 284
+          "FieldLength": 547
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 962
+      "FieldLength": 113
     }
   }
 }

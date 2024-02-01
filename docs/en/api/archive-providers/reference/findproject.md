@@ -772,7 +772,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=projectAssociate/contactFullName,sale/associate/contactId,appointment/appointmentUdef/SuperOffice:1,document/personId,projectMember/personAssociateId
+GET /api/v1/archive/FindProject?$select=sale/amount,sale/associate/contactFullName,sale/associate/ejDisplayName,appointment/rawStatus,appointment/appointment/agenda
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

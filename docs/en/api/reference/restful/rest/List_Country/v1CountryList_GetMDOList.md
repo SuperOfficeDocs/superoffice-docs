@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=nisi
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=soluta
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Douglas Group",
-    "ToolTip": "Harum inventore odio atque voluptate est dolores.",
-    "Deleted": false,
-    "Rank": 312,
-    "Type": "odio",
+    "Id": 774,
+    "Name": "Pouros, Wiza and Christiansen",
+    "ToolTip": "Tempore et dolore.",
+    "Deleted": true,
+    "Rank": 304,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Kuvalis-Bosco",
-        "ToolTip": "Est quisquam doloribus pariatur ducimus.",
-        "Deleted": true,
-        "Rank": 739,
-        "Type": "enim",
+        "Id": 575,
+        "Name": "Lang, Luettgen and Stehr",
+        "ToolTip": "Veritatis rerum ex in sapiente.",
+        "Deleted": false,
+        "Rank": 701,
+        "Type": "cupiditate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 971,
-        "ExtraInfo": "deserunt",
-        "StyleHint": "perferendis",
-        "FullName": "Jordon Boyle",
+        "IconHint": "rerum",
+        "ColorBlock": 622,
+        "ExtraInfo": "minima",
+        "StyleHint": "quaerat",
+        "FullName": "Ms. Jaime Vito Schaden Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 10
+            "FieldLength": 43
           }
         }
       }
     ],
-    "IconHint": "veritatis",
-    "ColorBlock": 119,
-    "ExtraInfo": "unde",
-    "StyleHint": "ut",
-    "FullName": "Dr. Owen Torphy",
+    "IconHint": "sequi",
+    "ColorBlock": 968,
+    "ExtraInfo": "sunt",
+    "StyleHint": "hic",
+    "FullName": "Cydney Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   }

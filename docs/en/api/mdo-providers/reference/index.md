@@ -81,7 +81,7 @@ so.envir: onsite, online
 | [appointmenttask](appointmenttask.md) |MDO list provider for the task list of the AppointmentDialog. This list extends the basic <see cref="T:SuperOffice.CRM.Rows.TaskRow" /> wit|
 | [appointmenttextid](appointmenttextid.md) |Special case of appointment list where we get the id value from the Text table. For use when we wan|
 | [appointmenttype](appointmenttype.md) |List of AppointmentType values: inDiary, inChecklist, Note, Document, SavedReport, BookingForDiary, BookingForChecklist|
-| [archiveprovider](archiveprovider.md) |MDO provider for available archive providera|
+| [archiveprovider](archiveprovider.md) |MDO provider for available archive providers for Configurable screens|
 | [area](area.md) |List of all defined areas.|
 | [associaterestrictions](associaterestrictions.md) |Public MDO provider based on the AssociateRestrictionsMDOProviderBase.|
 | [associatewithmail](associatewithmail.md) ||
@@ -183,7 +183,7 @@ so.envir: onsite, online
 | [fontsize](fontsize.md) |List of font types|
 | [fonttype](fonttype.md) |List of font types|
 | [form](form.md) |Get all forms with folder hierarchy. Set ExtraInfo to "onlyActive" if you only want to get active forms|
-| [formfolder](formfolder.md) |EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY|
+| [formfolder](formfolder.md) |FormFolderProvider creates a flat or tree list based on the table: s_picture_folder|
 | [formmailings](formmailings.md) ||
 | [formsubmissionstatusprovider](formsubmissionstatusprovider.md) ||
 | [freetextsearchentity](freetextsearchentity.md) |List provider that returns the entities supported by free text search. The extraInfo field contains th|

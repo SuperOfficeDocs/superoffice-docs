@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "mollitia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "mollitia",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 937,
-  "PrefDescId": 598,
-  "PrefValue": "dolorum",
+  "PrefDescLineId": 990,
+  "PrefDescId": 175,
+  "PrefValue": "earum",
   "PrefShowValue": "repellendus",
-  "Description": "Re-contextualized assymetric productivity",
-  "IsBuiltin": true,
+  "Description": "Vision-oriented system-worthy instruction set",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -21,7 +21,7 @@ The name of the MDO list is 'emailfolder'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Id of the account for which you want the folders| accountId|0|
-|Sort by rank| hierarchy|true|
+|Use hierarchy| hierarchy|true|
 
 Separator: &
 

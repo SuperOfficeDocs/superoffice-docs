@@ -26,8 +26,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=True
-GET /api/v1/List/Reason/MDOItems?query=perferendis
+GET /api/v1/List/Reason/MDOItems?flat=False
+GET /api/v1/List/Reason/MDOItems?query=asperiores
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Adams, Mayert and Schaefer",
-    "ToolTip": "Eum totam quaerat sequi ut perspiciatis odit.",
+    "Id": 668,
+    "Name": "Parker, Wintheiser and Johnston",
+    "ToolTip": "In architecto consequuntur aut ipsa laudantium.",
     "Deleted": false,
-    "Rank": 13,
-    "Type": "aut",
+    "Rank": 181,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Wuckert-Kutch",
-        "ToolTip": "Exercitationem voluptatem cupiditate expedita.",
-        "Deleted": true,
-        "Rank": 276,
-        "Type": "sequi",
+        "Id": 967,
+        "Name": "Goldner-Buckridge",
+        "ToolTip": "Veniam dolor ducimus.",
+        "Deleted": false,
+        "Rank": 620,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 771,
-        "ExtraInfo": "beatae",
-        "StyleHint": "officiis",
-        "FullName": "Cydney Deckow",
+        "IconHint": "optio",
+        "ColorBlock": 967,
+        "ExtraInfo": "totam",
+        "StyleHint": "libero",
+        "FullName": "Elinore Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 318
+            "FieldType": "System.Int32",
+            "FieldLength": 43
           }
         }
       }
     ],
-    "IconHint": "nemo",
-    "ColorBlock": 563,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "possimus",
-    "FullName": "Adela Cremin",
+    "IconHint": "vel",
+    "ColorBlock": 440,
+    "ExtraInfo": "in",
+    "StyleHint": "tenetur",
+    "FullName": "Parker Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldLength": 103
       }
     }
   }

@@ -105,7 +105,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
+  "Id": 293,
   "IncludeAttachments": false
 }
 ```
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 138,
-      "ContactName": "Sanford-Thiel",
-      "PersonId": 125,
-      "PersonName": "Robel-Reinger",
-      "AssociateId": 254,
-      "Address": "debitis",
-      "EmailId": 888,
+      "ContactId": 25,
+      "ContactName": "Carroll Group",
+      "PersonId": 467,
+      "PersonName": "Schmidt, Predovic and McCullough",
+      "AssociateId": 651,
+      "Address": "eius",
+      "EmailId": 934,
       "DuplicatePersonIds": [
-        819,
-        582
+        292,
+        542
       ],
-      "Name": "Abbott, Parisian and Spencer",
+      "Name": "Ryan LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldLength": 882
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 218,
-      "ContactName": "Wisoky LLC",
-      "PersonId": 712,
-      "PersonName": "Ledner, Purdy and Marvin",
-      "AssociateId": 857,
-      "Address": "ex",
-      "EmailId": 503,
+      "ContactId": 50,
+      "ContactName": "Morissette, Nicolas and Roob",
+      "PersonId": 129,
+      "PersonName": "Dooley LLC",
+      "AssociateId": 609,
+      "Address": "et",
+      "EmailId": 696,
       "DuplicatePersonIds": [
-        329,
-        748
+        247,
+        223
       ],
-      "Name": "Buckridge LLC",
+      "Name": "McLaughlin, Dooley and Frami",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 962
+          "FieldType": "System.Int32",
+          "FieldLength": 348
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 676,
-      "ContactName": "Daniel-Runte",
-      "PersonId": 567,
-      "PersonName": "Zulauf, Wyman and Marks",
-      "AssociateId": 244,
-      "Address": "non",
-      "EmailId": 72,
+      "ContactId": 333,
+      "ContactName": "Macejkovic, Buckridge and Kiehn",
+      "PersonId": 387,
+      "PersonName": "Bashirian Group",
+      "AssociateId": 685,
+      "Address": "vitae",
+      "EmailId": 362,
       "DuplicatePersonIds": [
-        686,
-        9
+        533,
+        41
       ],
-      "Name": "Bruen-Weber",
+      "Name": "Greenholt-Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 823
+          "FieldLength": 796
         }
       }
     }
   ],
-  "Subject": "sit",
-  "HTMLBody": "eum",
+  "Subject": "autem",
+  "HTMLBody": "dolor",
   "From": null,
-  "Sent": "2008-09-07T13:57:12.3399846+02:00",
-  "Size": 237,
+  "Sent": "2019-05-29T23:03:56.0156302+02:00",
+  "Size": 348,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "quis",
-  "IsSent": false,
+  "MessageID": "sit",
+  "PlainBody": "iste",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 707,
+  "ServerId": 600,
   "Attachments": [
     {
-      "Description": "User-friendly heuristic array",
-      "Filename": "ut",
-      "Size": 892,
-      "Type": "ut",
-      "Encoding": "doloremque",
-      "Id": "odit",
-      "Disposition": "quia",
+      "Description": "Organic bottom-line circuit",
+      "Filename": "eum",
+      "Size": 232,
+      "Type": "qui",
+      "Encoding": "asperiores",
+      "Id": "numquam",
+      "Disposition": "autem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 474
+          "FieldType": "System.Int32",
+          "FieldLength": 303
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Osinski Inc and Sons",
+      "Name": "Hintz-Halvorson",
       "Values": [
-        "magni",
-        "consequuntur"
+        "modi",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 724
+          "FieldType": "System.Int32",
+          "FieldLength": 951
         }
       }
     },
     {
-      "Name": "Osinski Inc and Sons",
+      "Name": "Hintz-Halvorson",
       "Values": [
-        "magni",
-        "consequuntur"
+        "modi",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 724
+          "FieldType": "System.Int32",
+          "FieldLength": 951
         }
       }
     }
   ],
-  "FolderName": "Brown, Ledner and Effertz",
-  "EmailItemId": 608,
-  "AccountId": 653,
-  "ReceivedAt": "2018-11-17T13:57:12.3399846+01:00",
+  "FolderName": "Kunde Inc and Sons",
+  "EmailItemId": 376,
+  "AccountId": 112,
+  "ReceivedAt": "2019-07-25T23:03:56.0166292+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-07-02T13:57:12.3399846+02:00",
+  "RepliedAt": "2008-04-12T23:03:56.0166292+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 715
+      "FieldLength": 362
     }
   }
 }

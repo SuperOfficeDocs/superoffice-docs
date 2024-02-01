@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 407,
-    "Name": "Pagac, Abbott and Treutel",
+    "HeadingId": 826,
+    "Name": "Leffler Inc and Sons",
     "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 246,
-    "UdListDefinitionId": 674,
+    "Deleted": false,
+    "Rank": 708,
+    "UdListDefinitionId": 847,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldType": "System.Int32",
+        "FieldLength": 333
       }
     }
   }

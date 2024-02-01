@@ -4,12 +4,25 @@ title: emailaddress
 keywords: mdoprovider mdo provider emailaddress
 description: List of e-mail addresses matching the search value
 Searches e-mail address, person name, company name.
-<para />
+
+
+
 E-mail address matches: return e-mail addresses + owner name (person or contact name)
-<para />
+
+
+
+
+
 Person name matches: return all e-mail addresses for matched persons
-<para />
+
+
+
+
+
 Company name matches. return all persons + first e-mail address for matched persons.
+
+
+
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -18,23 +31,52 @@ so.envir: onsite, online
 # "emailaddress" MDO List
 List of e-mail addresses matching the search value
 Searches e-mail address, person name, company name.
-<para />
+
+
+
 E-mail address matches: return e-mail addresses + owner name (person or contact name)
-<para />
+
+
+
+
+
 Person name matches: return all e-mail addresses for matched persons
-<para />
+
+
+
+
+
 Company name matches. return all persons + first e-mail address for matched persons.
 
+
+
+
 Returns: list item with
-<para />
-id = e-mail address id
-<para />
+
+
+
+Id = e-mail address id
+
+
+
+
+
 Name = name + e-mail
-<para />
+
+
+
+
+
 ExtraInfo = e-mail address
-<para />
+
+
+
+
+
 Type = "Person" or "Contact"
-<para />
+
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EmailAddressProvider">EmailAddressProvider</see> class.
 The name of the MDO list is 'emailaddress'.

@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 135,
-  "TopicId": 772,
+  "ChatSessionId": 788,
+  "TopicId": 149,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vel",
-  "CustomerHost": "minus",
-  "CustomerName": "Krajcik, Trantow and Reinger",
-  "CustomerEmail": "tatyana@kilback.uk",
-  "CustomerPhone": "136.921.2881 x445",
+  "CustomerAlias": "qui",
+  "CustomerHost": "tempora",
+  "CustomerName": "White Group",
+  "CustomerEmail": "ernestine@leannon.info",
+  "CustomerPhone": "1-847-458-1159 x28401",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Mitchell, Rice and Feil",
+  "CustomerCompanyName": "Medhurst-Kerluke",
   "Status": "Closed",
-  "FirstMessage": "dolor",
-  "LastMessage": "tempora",
-  "WhenRequested": "2006-02-10T13:57:18.4971905+01:00",
-  "WhenStarted": "2023-01-23T13:57:18.4971905+01:00",
-  "WhenEnded": "2021-04-12T13:57:18.4971905+02:00",
-  "WhenIdle": "2021-10-20T13:57:18.4971905+02:00",
-  "WhenFetched": "1997-10-27T13:57:18.4971905+01:00",
-  "SessionKey": "magni",
-  "InitialQueuePos": 152,
-  "AlertLevel": 985,
-  "Rank": 206,
+  "FirstMessage": "rerum",
+  "LastMessage": "et",
+  "WhenRequested": "2008-04-16T23:04:03.8040223+02:00",
+  "WhenStarted": "2016-06-23T23:04:03.8040223+02:00",
+  "WhenEnded": "2009-12-10T23:04:03.8040223+01:00",
+  "WhenIdle": "2014-06-06T23:04:03.8040223+02:00",
+  "WhenFetched": "2020-01-03T23:04:03.8040223+01:00",
+  "SessionKey": "sit",
+  "InitialQueuePos": 184,
+  "AlertLevel": 72,
+  "Rank": 573,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 561,
+  "ChatbotIsActive": false,
+  "Rating": 256,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 181
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=864
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=360
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -106,94 +106,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "qui",
-  "SignOffText": "nesciunt",
-  "SignOnConfirmationText": "et",
-  "SignOnText": "maiores",
-  "EventDate": "2000-08-15T13:57:12.9854979+02:00",
-  "Enabled": true,
-  "CreatedDate": "2020-10-05T13:57:12.9854979+02:00",
+  "SignOffConfirmationText": "vel",
+  "SignOffText": "aut",
+  "SignOnConfirmationText": "iste",
+  "SignOnText": "aut",
+  "EventDate": "2015-11-20T23:03:56.6721199+01:00",
+  "Enabled": false,
+  "CreatedDate": "2007-07-19T23:03:56.6721199+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 586,
-  "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOffTaskId": 708,
+  "SignOffTriggersAssign": true,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 176,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "1997-01-05T13:57:12.9854979+01:00",
+  "SignOnTaskId": 631,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2002-05-11T23:03:56.6721199+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 518,
-  "Id": 102,
-  "PublishFrom": "2011-09-03T13:57:12.9854979+02:00",
+  "ProjectId": 130,
+  "Id": 110,
+  "PublishFrom": "2021-06-16T23:03:56.672619+02:00",
   "PublishType": "External",
-  "PublishTo": "2013-06-03T13:57:12.9854979+02:00",
+  "PublishTo": "2013-07-03T23:03:56.672619+02:00",
   "VisibleForCategories": [
     {
-      "Id": 342,
-      "Name": "Wyman LLC",
-      "ToolTip": "Enim doloremque distinctio aut tenetur.",
-      "Deleted": false,
-      "Rank": 75,
-      "Type": "enim",
+      "Id": 483,
+      "Name": "Walter-Lueilwitz",
+      "ToolTip": "Maxime voluptatibus sed placeat nisi distinctio.",
+      "Deleted": true,
+      "Rank": 720,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sunt",
-      "ColorBlock": 459,
-      "ExtraInfo": "eum",
-      "StyleHint": "quia",
-      "FullName": "Margaret Brakus",
+      "IconHint": "quia",
+      "ColorBlock": 404,
+      "ExtraInfo": "sunt",
+      "StyleHint": "dolor",
+      "FullName": "Pearline Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 118
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 502,
-      "Name": "Kunze, Tremblay and Paucek",
-      "ToolTip": "Iusto officiis autem.",
+      "Id": 757,
+      "Name": "Walker LLC",
+      "ToolTip": "Magnam ut eum ducimus.",
       "Deleted": false,
-      "Rank": 971,
-      "Type": "ut",
+      "Rank": 701,
+      "Type": "cumque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "animi",
-      "ColorBlock": 617,
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "est",
-      "FullName": "Prof. Buck Kristian O'Hara IV",
+      "IconHint": "aliquam",
+      "ColorBlock": 874,
+      "ExtraInfo": "dolor",
+      "StyleHint": "at",
+      "FullName": "Ms. Yasmine Kuhlman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 962
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 392,
+  "ProjectEventId": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   }
 }

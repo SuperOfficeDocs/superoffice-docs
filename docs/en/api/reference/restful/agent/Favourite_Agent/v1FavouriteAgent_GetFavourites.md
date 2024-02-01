@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Barrows-Nitzsche",
-  "AssociateId": 135
+  "TableName": "Harber LLC",
+  "AssociateId": 72
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Nienow-Blick",
-    "RecordId": 66,
-    "AssociateId": 352,
-    "ExtraInfo": "consequuntur",
-    "Rank": 839,
+    "TableName": "Rice-Weissnat",
+    "RecordId": 182,
+    "AssociateId": 279,
+    "ExtraInfo": "voluptatem",
+    "Rank": 128,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldType": "System.String",
+        "FieldLength": 62
       }
     }
   }

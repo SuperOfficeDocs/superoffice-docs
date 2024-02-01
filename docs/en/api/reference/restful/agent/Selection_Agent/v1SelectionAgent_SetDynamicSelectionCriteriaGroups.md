@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 737,
+  "SelectionId": 981,
   "Criteria": [
     {
-      "Name": "Runolfsson, Deckow and Block",
-      "Description": "Cross-group static capacity",
-      "Rank": 691,
+      "Name": "Kozey LLC",
+      "Description": "Virtual discrete parallelism",
+      "Rank": 289,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Runolfsson, Deckow and Block",
-      "Description": "Cross-group static capacity",
-      "Rank": 691,
+      "Name": "Kozey LLC",
+      "Description": "Virtual discrete parallelism",
+      "Rank": 289,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gorczany, Yost and Bartell",
-    "Description": "Fundamental uniform complexity",
-    "Rank": 607,
+    "Name": "Mertz-Rau",
+    "Description": "Public-key bi-directional attitude",
+    "Rank": 130,
     "Restrictions": [
       {
-        "Name": "Romaguera-Braun",
-        "Operator": "ut",
+        "Name": "Bradtke LLC",
+        "Operator": "amet",
         "Values": [
-          "corrupti",
-          "provident"
+          "sed",
+          "illo"
         ],
         "DisplayValues": [
-          "commodi",
-          "debitis"
+          "autem",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 390,
+        "InterParenthesis": 173,
         "InterOperator": "And",
-        "UniqueHash": 936
+        "UniqueHash": 261
       }
     ]
   },
   {
-    "Name": "Gorczany, Yost and Bartell",
-    "Description": "Fundamental uniform complexity",
-    "Rank": 607,
+    "Name": "Mertz-Rau",
+    "Description": "Public-key bi-directional attitude",
+    "Rank": 130,
     "Restrictions": [
       {
-        "Name": "Romaguera-Braun",
-        "Operator": "ut",
+        "Name": "Bradtke LLC",
+        "Operator": "amet",
         "Values": [
-          "corrupti",
-          "provident"
+          "sed",
+          "illo"
         ],
         "DisplayValues": [
-          "commodi",
-          "debitis"
+          "autem",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 390,
+        "InterParenthesis": 173,
         "InterOperator": "And",
-        "UniqueHash": 936
+        "UniqueHash": 261
       }
     ]
   }

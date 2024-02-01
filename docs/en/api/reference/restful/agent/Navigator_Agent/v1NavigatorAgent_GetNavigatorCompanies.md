@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Labadie Inc and Sons"
+  "Name": "Monahan-Goodwin"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Value": "quia",
-    "Tooltip": "assumenda",
+    "Id": 877,
+    "Value": "eos",
+    "Tooltip": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   },
   {
-    "Id": 698,
-    "Value": "quia",
-    "Tooltip": "assumenda",
+    "Id": 877,
+    "Value": "eos",
+    "Tooltip": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   }

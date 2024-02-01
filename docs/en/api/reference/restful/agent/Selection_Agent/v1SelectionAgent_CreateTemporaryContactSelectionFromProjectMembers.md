@@ -117,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 93
+  "ProjectId": 457
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive bifurcated task-force",
-  "Postit": "nostrum",
+  "Description": "Cloned dedicated core",
+  "Postit": "quae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 913,
+  "GroupIdx": 463,
   "IncludePerson": 203,
-  "MemberCount": 107,
-  "Name": "Steuber-Wolff",
-  "PostitTextId": 837,
-  "CreatedDate": "2000-11-18T13:57:13.2227834+01:00",
-  "SelectionId": 485,
-  "SoundEx": "perferendis",
-  "Source": 215,
-  "TextId": 495,
-  "UpdatedDate": "2019-08-11T13:57:13.2227834+02:00",
-  "UpdatedCount": 516,
-  "Visibility": 393,
+  "MemberCount": 498,
+  "Name": "Casper Group",
+  "PostitTextId": 176,
+  "CreatedDate": "1999-05-02T23:03:57.1226131+02:00",
+  "SelectionId": 447,
+  "SoundEx": "velit",
+  "Source": 432,
+  "TextId": 284,
+  "UpdatedDate": "2005-03-01T23:03:57.1226131+01:00",
+  "UpdatedCount": 683,
+  "Visibility": 360,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 805,
-  "TargetTableName": "Paucek, Torp and Fahey",
-  "Completed": true,
-  "LeftSelectionId": 789,
-  "RightSelectionId": 670,
+  "CompanyUnique": false,
+  "TargetTableNumber": 904,
+  "TargetTableName": "Howe-Mann",
+  "Completed": false,
+  "LeftSelectionId": 5,
+  "RightSelectionId": 675,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hane, Adams and Sporer",
-  "ShadowProviderName": "Stracke, Powlowski and Blick",
-  "ChartKey": "ab",
-  "LastLoaded": "2000-07-02T13:57:13.2227834+02:00",
-  "LastLoadedBy": 856,
+  "MainProviderName": "Gulgowski, Corkery and Hessel",
+  "ShadowProviderName": "VonRueden-Homenick",
+  "ChartKey": "non",
+  "LastLoaded": "2023-07-23T23:03:57.1226131+02:00",
+  "LastLoadedBy": 600,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-08-11T13:57:13.2227834+02:00",
-  "LastMembershipChangeBy": 399,
+  "LastMembershipChange": "2021-10-06T23:03:57.123114+02:00",
+  "LastMembershipChangeBy": 487,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iusto",
-  "MemberTabHeading": "rem",
-  "MailingsProviderName": "Bechtelar-Erdman",
-  "DashboardTileDefinitionId": 355,
+  "MainHeading": "eligendi",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Zboncak-Gutkowski",
+  "DashboardTileDefinitionId": 958,
   "VisibleFor": [
     {
-      "VisibleId": 52,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldType": "System.String",
+          "FieldLength": 899
         }
       }
     },
     {
-      "VisibleId": 52,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldType": "System.String",
+          "FieldLength": 899
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   }
 }

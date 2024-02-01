@@ -732,7 +732,7 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=person/personUpdatedBy,person/personUdef/SuperOffice:2,contact/contactNoMail,contact/postAddress/state,contact/contactAssociate/usergroup
+GET /api/v1/archive/DiaryActivity?$select=person/email/emailHasBounced,contact/email/emailProtocol,contact/streetAddress/county,project/LastDoByActivity,associate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

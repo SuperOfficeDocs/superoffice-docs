@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 229,
+  "AppointmentId": 894,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-11-19T13:57:11.3875599+01:00",
+  "CreatedDate": "2001-05-05T23:03:54.8011449+02:00",
   "AppointmentId": 733,
-  "Description": "Multi-tiered hybrid pricing structure",
-  "Title": "sit",
-  "Agenda": "et",
-  "InternalNotes": "ratione",
-  "StartDate": "2001-09-09T13:57:11.3875599+02:00",
-  "EndDate": "2000-02-21T13:57:11.3875599+01:00",
+  "Description": "Synergized global implementation",
+  "Title": "ea",
+  "Agenda": "enim",
+  "InternalNotes": "non",
+  "StartDate": "2015-12-02T23:03:54.8011449+01:00",
+  "EndDate": "2015-05-19T23:03:54.8011449+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 372,
+  "MotherId": 685,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-10-05T13:57:11.4031843+02:00",
+  "UpdatedDate": "2022-06-15T23:03:54.8046462+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 935,
+  "ActiveLinks": 380,
   "Links": [
     {
-      "EntityName": "Thompson, Orn and Smitham",
-      "Id": 394,
-      "Description": "Optimized bifurcated infrastructure",
-      "ExtraInfo": "aut",
-      "LinkId": 712,
+      "EntityName": "Keeling, Bradtke and Fisher",
+      "Id": 767,
+      "Description": "Integrated client-server pricing structure",
+      "ExtraInfo": "odit",
+      "LinkId": 993,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 822
+          "FieldLength": 894
         }
       }
     }
   ],
-  "AlarmLeadTime": "suscipit",
+  "AlarmLeadTime": "aperiam",
   "HasAlarm": false,
-  "ColorIndex": 787,
-  "IsFree": true,
+  "ColorIndex": 101,
+  "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "omnis",
-  "LeadTime": "amet",
-  "Location": "explicabo",
-  "RejectCounter": 239,
+  "LagTime": "voluptatem",
+  "LeadTime": "repellendus",
+  "Location": "sed",
+  "RejectCounter": 237,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 848,
-      "PersonId": 815,
-      "ContactId": 780,
-      "EmailId": 336,
+      "AssociateId": 787,
+      "PersonId": 897,
+      "ContactId": 70,
+      "EmailId": 993,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "reinhold@buckridgewalsh.us",
-      "Description": "Up-sized upward-trending throughput"
+      "EmailAddress": "edmund.rice@lind.com",
+      "Description": "Face to face even-keeled ability"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-08-17T13:57:11.4031843+02:00",
+  "ActiveDate": "1997-02-03T23:03:54.8051433+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 167,
+  "PreferredTZLocation": 663,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 337,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 981,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laudantium",
+  "CentralserviceVideomeetId": "excepturi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Amira Wilkinson I",
-    "SuperOffice:2": "Miss Alysha Lamont Spinka V"
+    "SuperOffice:1": "Ms. Marty Brakus",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "reiciendis",
-    "ExtraFields2": "doloremque"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "eveniet"
   },
-  "PublishEventDate": "2021-08-16T13:57:11.4031843+02:00",
-  "PublishTo": "2003-04-15T13:57:11.4031843+02:00",
-  "PublishFrom": "2000-12-21T13:57:11.4031843+01:00",
+  "PublishEventDate": "1998-03-15T23:03:54.8081452+01:00",
+  "PublishTo": "1999-09-20T23:03:54.8081452+02:00",
+  "PublishFrom": "2011-11-04T23:03:54.8081452+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 561,
+      "VisibleId": 113,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldType": "System.String",
+          "FieldLength": 708
         }
       }
     },
     {
-      "VisibleId": 561,
+      "VisibleId": 113,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldType": "System.String",
+          "FieldLength": 708
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 81
     }
   }
 }

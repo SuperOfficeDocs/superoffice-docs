@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Howe, Heathcote and Kertzmann",
-    "DisplayName": "Gutmann Group",
-    "DisplayTooltip": "a",
-    "IsActive": true,
+    "Name": "Wolff-VonRueden",
+    "DisplayName": "Dooley, Hoppe and O'Reilly",
+    "DisplayTooltip": "unde",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 126
       }
     }
   },
   {
-    "Name": "Howe, Heathcote and Kertzmann",
-    "DisplayName": "Gutmann Group",
-    "DisplayTooltip": "a",
-    "IsActive": true,
+    "Name": "Wolff-VonRueden",
+    "DisplayName": "Dooley, Hoppe and O'Reilly",
+    "DisplayTooltip": "unde",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 126
       }
     }
   }

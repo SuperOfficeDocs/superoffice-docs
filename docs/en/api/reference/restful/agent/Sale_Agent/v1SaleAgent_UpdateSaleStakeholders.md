@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Auer-Stoltenberg",
-      "Comment": "sequi",
-      "StakeholderRoleId": 139,
-      "CountryId": 217,
-      "PersonId": 61,
-      "EmailDescription": "peter@collins.com",
-      "EmailId": 107,
-      "EmailAddress": "michaela_daniel@considine.uk",
-      "PhoneId": 565,
-      "ContactName": "Stanton-Price",
-      "ContactId": 126,
-      "SaleId": 726,
-      "Mrmrs": "aut",
-      "Firstname": "Nikolas",
-      "MiddleName": "Walter-O'Connell",
-      "Lastname": "Batz",
-      "SaleStakeholderId": 806,
-      "Rank": 427,
-      "Phone": "322-712-5005"
+      "StakeholderRoleName": "Lang LLC",
+      "Comment": "repudiandae",
+      "StakeholderRoleId": 112,
+      "CountryId": 909,
+      "PersonId": 996,
+      "EmailDescription": "ahmed@brown.us",
+      "EmailId": 976,
+      "EmailAddress": "heloise.hoppe@douglasboyer.com",
+      "PhoneId": 806,
+      "ContactName": "Boyer Inc and Sons",
+      "ContactId": 936,
+      "SaleId": 906,
+      "Mrmrs": "fugiat",
+      "Firstname": "Julien",
+      "MiddleName": "Muller, Trantow and DuBuque",
+      "Lastname": "Brekke",
+      "SaleStakeholderId": 24,
+      "Rank": 960,
+      "Phone": "(550)326-3432 x876"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Christiansen-Jaskolski",
-    "Comment": "quod",
-    "StakeholderRoleId": 843,
-    "CountryId": 366,
-    "PersonId": 570,
-    "EmailDescription": "isidro_nikolaus@pfannerstill.com",
-    "EmailId": 602,
-    "EmailAddress": "rusty_stokes@schmitt.info",
-    "PhoneId": 939,
-    "ContactName": "Stehr-Cummings",
-    "ContactId": 24,
-    "SaleId": 437,
-    "Mrmrs": "commodi",
-    "Firstname": "Candida",
-    "MiddleName": "Rempel-Gutkowski",
-    "Lastname": "Adams",
-    "SaleStakeholderId": 684,
-    "Rank": 486,
-    "Phone": "508-599-7003 x15926",
+    "StakeholderRoleName": "Kunze Inc and Sons",
+    "Comment": "illum",
+    "StakeholderRoleId": 1001,
+    "CountryId": 709,
+    "PersonId": 325,
+    "EmailDescription": "kristian_champlin@kuhn.com",
+    "EmailId": 660,
+    "EmailAddress": "elinor@bahringer.biz",
+    "PhoneId": 455,
+    "ContactName": "Ullrich LLC",
+    "ContactId": 224,
+    "SaleId": 764,
+    "Mrmrs": "omnis",
+    "Firstname": "Lonnie",
+    "MiddleName": "Kessler, Schoen and Will",
+    "Lastname": "Sipes",
+    "SaleStakeholderId": 554,
+    "Rank": 280,
+    "Phone": "654.853.0452 x9143",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 835
       }
     }
   }

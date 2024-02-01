@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Wiegand Inc and Sons",
-    "Goyette Group"
+    "Altenwerth Inc and Sons",
+    "Ledner-Gaylord"
   ],
-  "Culture": "sit"
+  "Culture": "in"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Feest-Lindgren",
-    "ResourceValue": "omnis",
-    "Culture": "repellendus",
-    "IsActive": true,
+    "ResourceName": "Franecki-Schuppe",
+    "ResourceValue": "et",
+    "Culture": "harum",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   },
   {
-    "ResourceName": "Feest-Lindgren",
-    "ResourceValue": "omnis",
-    "Culture": "repellendus",
-    "IsActive": true,
+    "ResourceName": "Franecki-Schuppe",
+    "ResourceValue": "et",
+    "Culture": "harum",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

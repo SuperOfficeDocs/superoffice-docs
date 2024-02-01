@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 423,
-    "Name": "Wunsch, Romaguera and Marquardt",
-    "Tooltip": "et",
+    "HeadingId": 505,
+    "Name": "Goodwin Group",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 539,
-    "UdListDefinitionId": 832,
+    "Rank": 612,
+    "UdListDefinitionId": 314,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 599
+        "FieldLength": 226
       }
     }
   }

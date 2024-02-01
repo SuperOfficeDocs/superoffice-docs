@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 339,
-  "IsActive": true,
+  "ErpConnectionId": 561,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 466,
-      "CrmFieldKey": "est",
-      "CrmDisplayName": "Mayer, Wunsch and Quigley",
-      "CrmDisplayTooltip": "non",
-      "ErpFieldKey": "distinctio",
+      "ErpFieldId": 386,
+      "CrmFieldKey": "sed",
+      "CrmDisplayName": "Marquardt, Kuhic and Jacobson",
+      "CrmDisplayTooltip": "quia",
+      "ErpFieldKey": "exercitationem",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Collier-Metz",
-      "ErpDisplayTooltip": "eligendi",
-      "SyncToCrm": false,
+      "ErpDisplayName": "Kautzer-Padberg",
+      "ErpDisplayTooltip": "aut",
+      "SyncToCrm": true,
       "SyncToErp": false,
-      "ShowInGui": true,
-      "ShowInSearch": false,
+      "ShowInGui": false,
+      "ShowInSearch": true,
       "AlreadyMapped": false,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "dicta",
+      "ListReference": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 415
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

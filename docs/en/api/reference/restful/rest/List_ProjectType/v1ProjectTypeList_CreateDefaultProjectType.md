@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 135,
-  "Name": "Schroeder Group",
-  "Tooltip": "voluptate",
+  "Id": 526,
+  "Name": "Leuschke-Christiansen",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 813,
-  "Rank": 672,
+  "UdListDefinitionId": 556,
+  "Rank": 100,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 546
     }
   }
 }

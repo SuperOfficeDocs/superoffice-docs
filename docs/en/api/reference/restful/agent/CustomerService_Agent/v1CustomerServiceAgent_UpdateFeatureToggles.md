@@ -70,12 +70,12 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Maggio, Hayes and Bednar",
-      "State": false
+      "Name": "Schiller LLC",
+      "State": true
     },
     {
-      "Name": "Maggio, Hayes and Bednar",
-      "State": false
+      "Name": "Schiller LLC",
+      "State": true
     }
   ]
 }

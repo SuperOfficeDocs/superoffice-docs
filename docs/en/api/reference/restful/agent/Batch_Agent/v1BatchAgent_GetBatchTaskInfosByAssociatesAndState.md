@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    917,
-    848
+    919,
+    283
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Kuphal, Farrell and Abshire",
-    "AssociateId": 894,
-    "DetailsTable": 544,
-    "DetailsRecord": 576,
-    "IsSystemTask": false,
+    "Id": 630,
+    "Name": "Murazik-Littel",
+    "AssociateId": 237,
+    "DetailsTable": 204,
+    "DetailsRecord": 475,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "hic",
-      "ParameterObject2": "sit"
+      "ParameterObject1": "mollitia",
+      "ParameterObject2": "ullam"
     },
-    "LastStarted": "2006-05-24T13:57:11.5594343+02:00",
-    "Created": "2023-05-08T13:57:11.5594343+02:00",
-    "StartCount": 837,
-    "DatabaseSerialNumber": "1069422",
-    "Context": "sunt",
-    "Result": "qui",
+    "LastStarted": "2010-04-26T23:03:55.0241417+02:00",
+    "Created": "2018-12-02T23:03:55.0241417+01:00",
+    "StartCount": 375,
+    "DatabaseSerialNumber": "1019923",
+    "Context": "harum",
+    "Result": "temporibus",
     "State": "All",
-    "Description": "Implemented background middleware",
-    "Response": "quos",
-    "Request": "quaerat",
-    "ProgressDescription": "Seamless mobile methodology",
-    "ProgressPercent": 981,
-    "FileName": "Toy LLC",
+    "Description": "Streamlined well-modulated interface",
+    "Response": "inventore",
+    "Request": "expedita",
+    "ProgressDescription": "Team-oriented systematic groupware",
+    "ProgressPercent": 675,
+    "FileName": "Jacobs-Hartmann",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldType": "System.String",
+        "FieldLength": 952
       }
     }
   }

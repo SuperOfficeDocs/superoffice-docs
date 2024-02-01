@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 545,
-  "Name": "Buckridge-Hegmann",
-  "Tooltip": "sit",
+  "RoleId": 189,
+  "Name": "Mayer, Hoppe and Renner",
+  "Tooltip": "at",
   "RoleType": "Anonymous",
-  "Deleted": 256,
-  "Rank": 610,
-  "Created": "2023-05-31T13:57:13.5052139+02:00",
-  "UseCategories": 863,
+  "Deleted": 251,
+  "Rank": 161,
+  "Created": "2004-10-28T23:03:57.5126083+02:00",
+  "UseCategories": 489,
   "CreatedBy": null,
-  "Updated": "2017-04-16T13:57:13.5052139+02:00",
+  "Updated": "2013-03-10T23:03:57.5131059+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 815
+      "FieldType": "System.Int32",
+      "FieldLength": 914
     }
   }
 }

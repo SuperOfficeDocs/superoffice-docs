@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Parisian, Kunde and Prosacco",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "UdListDefinitionId": 486,
-    "Rank": 776
+    "Id": 266,
+    "Name": "Halvorson Group",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 552,
+    "Rank": 276
   },
   {
-    "Id": 942,
-    "Name": "Parisian, Kunde and Prosacco",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "UdListDefinitionId": 486,
-    "Rank": 776
+    "Id": 266,
+    "Name": "Halvorson Group",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 552,
+    "Rank": 276
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Klocko, Ankunding and Shields",
-    "Tooltip": "magni",
+    "Id": 995,
+    "Name": "O'Hara Group",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "UdListDefinitionId": 139,
-    "Rank": 412,
+    "UdListDefinitionId": 316,
+    "Rank": 696,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 69
       }
     }
   }

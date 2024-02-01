@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 723,
+  "SystemEventId": 538,
   "Scope": "Database",
-  "Eta": "2019-01-28T13:57:11.8236525+01:00",
-  "Eventkey": "deserunt",
-  "Eventmess": "dolores",
-  "ExtraInfo": 202,
-  "Owner": 452,
-  "UpdatedCount": 117,
-  "Registered": "2018-08-08T13:57:11.8236525+02:00",
+  "Eta": "2023-10-05T23:03:55.2311391+02:00",
+  "Eventkey": "necessitatibus",
+  "Eventmess": "sunt",
+  "ExtraInfo": 199,
+  "Owner": 167,
+  "UpdatedCount": 565,
+  "Registered": "2013-07-12T23:03:55.2311391+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 229,
+  "SystemEventId": 36,
   "Scope": "Database",
-  "Eta": "2014-07-21T13:57:11.8236525+02:00",
-  "Eventkey": "laudantium",
-  "Eventmess": "minus",
-  "ExtraInfo": 50,
-  "Owner": 47,
-  "UpdatedCount": 20,
-  "Registered": "2015-01-17T13:57:11.8236525+01:00",
+  "Eta": "2004-01-14T23:03:55.2331388+01:00",
+  "Eventkey": "consectetur",
+  "Eventmess": "perspiciatis",
+  "ExtraInfo": 769,
+  "Owner": 556,
+  "UpdatedCount": 603,
+  "Registered": "2003-04-18T23:03:55.2331388+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 689
     }
   }
 }

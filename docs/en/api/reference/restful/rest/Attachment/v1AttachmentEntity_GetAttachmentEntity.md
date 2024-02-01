@@ -79,7 +79,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,19 +89,19 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 49,
-  "Name": "Adams, DuBuque and Jast",
-  "ContentType": "eos",
-  "AttSize": 804,
+  "AttachmentId": 351,
+  "Name": "Zemlak-Simonis",
+  "ContentType": "sint",
+  "AttSize": 894,
   "InlineImage": true,
-  "ContentId": "est",
-  "AuthKey": "aliquid",
+  "ContentId": "voluptatum",
+  "AuthKey": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 991
     }
   },
   "_Links": {

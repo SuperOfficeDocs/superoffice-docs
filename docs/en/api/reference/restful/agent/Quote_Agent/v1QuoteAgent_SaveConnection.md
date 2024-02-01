@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 291,
-  "ERPName": "Daniel Group",
-  "DisplayName": "Gleichner Group",
-  "DisplayDescription": "Implemented national info-mediaries",
-  "Rank": 977,
-  "ConnectorName": "Yost Group",
-  "ErpConnectionId": 532,
-  "ExtraData": "non",
+  "QuoteConnectionId": 342,
+  "ERPName": "Cremin-Robel",
+  "DisplayName": "Parker-Lindgren",
+  "DisplayDescription": "Organized holistic extranet",
+  "Rank": 26,
+  "ConnectorName": "Corkery, Morissette and Nienow",
+  "ErpConnectionId": 336,
+  "ExtraData": "delectus",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 106,
-      "ERPPriceListKey": "magni",
-      "QuoteConnectionId": 333,
-      "Name": "White, Sauer and Cole",
-      "Description": "Managed web-enabled encoding",
-      "Currency": "excepturi",
-      "CurrencyName": "Schulist, Eichmann and Abshire",
-      "ValidFrom": "2001-08-03T13:57:13.064942+02:00",
-      "ValidTo": "2006-09-17T13:57:13.064942+02:00",
+      "PriceListId": 666,
+      "ERPPriceListKey": "et",
+      "QuoteConnectionId": 423,
+      "Name": "Toy Group",
+      "Description": "Exclusive web-enabled capability",
+      "Currency": "similique",
+      "CurrencyName": "Balistreri, Raynor and Quigley",
+      "ValidFrom": "2006-02-25T23:03:56.7791178+01:00",
+      "ValidTo": "1997-02-18T23:03:56.7791178+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    620,
-    691
+    248,
+    99
   ],
   "AssociateAccessIds": [
-    648,
-    512
+    903,
+    827
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   }
 }

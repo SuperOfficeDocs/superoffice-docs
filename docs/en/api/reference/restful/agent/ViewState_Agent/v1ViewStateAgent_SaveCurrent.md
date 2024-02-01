@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 649,
-  "Id": 823,
-  "HistoryName": "Luettgen-Frami",
-  "HistoryId": 745,
-  "AssociateId": 19,
-  "Name": "Fay, Williamson and Predovic",
-  "ItemInfo": "perspiciatis",
+  "Rank": 92,
+  "Id": 635,
+  "HistoryName": "Bahringer, Ledner and Dach",
+  "HistoryId": 187,
+  "AssociateId": 36,
+  "Name": "Beahan, Larkin and Keeling",
+  "ItemInfo": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 150
     }
   }
 }

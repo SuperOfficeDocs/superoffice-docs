@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 626,
-    "ColumnId": 577,
-    "FieldDefault": "ut",
-    "FieldHeight": 154,
-    "FieldLabel": "tempora",
-    "FieldLeft": 542,
-    "FieldTop": 90,
+    "UDefFieldId": 449,
+    "ColumnId": 652,
+    "FieldDefault": "consequuntur",
+    "FieldHeight": 68,
+    "FieldLabel": "sed",
+    "FieldLeft": 945,
+    "FieldTop": 894,
     "FieldType": "Checkbox",
-    "FieldWidth": 800,
-    "FormatMask": "quasi",
-    "HideLabel": true,
+    "FieldWidth": 191,
+    "FormatMask": "qui",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 864,
-    "LabelLeft": 778,
-    "LabelTop": 487,
-    "LabelWidth": 109,
-    "LastVersionId": 117,
-    "ListTableId": 585,
-    "IsMandatory": true,
+    "LabelHeight": 547,
+    "LabelLeft": 40,
+    "LabelTop": 293,
+    "LabelWidth": 806,
+    "LastVersionId": 356,
+    "ListTableId": 628,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 40,
-    "ProgId": "omnis",
-    "IsReadOnly": true,
-    "ShortLabel": "voluptas",
-    "TabOrder": 987,
-    "TextLength": 728,
-    "Tooltip": "qui",
-    "UdefIdentity": 553,
-    "UDListDefinitionId": 337,
+    "Page1LineNo": 91,
+    "ProgId": "nam",
+    "IsReadOnly": false,
+    "ShortLabel": "tempore",
+    "TabOrder": 792,
+    "TextLength": 741,
+    "Tooltip": "dolor",
+    "UdefIdentity": 525,
+    "UDListDefinitionId": 607,
     "Justification": "Center",
-    "Version": 92,
-    "TemplateVariableName": "Mohr Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Kemmer Inc and Sons",
+    "Version": 736,
+    "TemplateVariableName": "Schmeler-Weimann",
+    "HasBeenPublished": false,
+    "MdoListName": "Feeney, Rodriguez and Macejkovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldType": "System.String",
+        "FieldLength": 763
       }
     }
   }

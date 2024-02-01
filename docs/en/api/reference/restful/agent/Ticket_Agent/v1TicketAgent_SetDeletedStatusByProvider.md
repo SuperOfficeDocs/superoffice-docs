@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gutmann-Reinger",
+  "ProviderName": "Greenfelder Group",
   "Restrictions": [
     {
-      "Name": "Lowe Group",
-      "Operator": "occaecati",
+      "Name": "Herzog Inc and Sons",
+      "Operator": "beatae",
       "Values": [
-        "veritatis",
-        "quidem"
+        "corporis",
+        "facere"
       ],
       "DisplayValues": [
-        "vitae",
-        "non"
+        "qui",
+        "pariatur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 961,
+      "InterParenthesis": 502,
       "InterOperator": "And",
-      "UniqueHash": 643
+      "UniqueHash": 417
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  411,
-  952
+  82,
+  770
 ]
 ```

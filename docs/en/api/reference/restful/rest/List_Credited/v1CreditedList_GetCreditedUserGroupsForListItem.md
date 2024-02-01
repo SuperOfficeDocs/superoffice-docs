@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Mann Group",
-    "ToolTip": "Quaerat incidunt modi vero quo deleniti numquam.",
-    "Deleted": false,
-    "Rank": 347,
-    "Type": "quo",
-    "ColorBlock": 635,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2022-06-06T13:57:19.7033929+02:00",
+    "Id": 945,
+    "Name": "Yundt-Huels",
+    "ToolTip": "Esse minus eaque ut architecto.",
+    "Deleted": true,
+    "Rank": 100,
+    "Type": "ullam",
+    "ColorBlock": 705,
+    "IconHint": "impedit",
+    "Selected": true,
+    "LastChanged": "2000-01-02T23:04:05.4065005+01:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Erdman, Macejkovic and Mueller",
-        "ToolTip": "Ducimus quos corrupti est consequuntur quis voluptatibus rerum.",
+        "Id": 49,
+        "Name": "Schroeder-McClure",
+        "ToolTip": "Sunt veniam at quaerat ipsa.",
         "Deleted": false,
-        "Rank": 322,
-        "Type": "ut",
-        "ColorBlock": 396,
-        "IconHint": "voluptatem",
+        "Rank": 64,
+        "Type": "eligendi",
+        "ColorBlock": 692,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2014-05-30T13:57:19.7033929+02:00",
+        "LastChanged": "2014-04-03T23:04:05.4065005+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Yessenia Mann",
+        "ExtraInfo": "dicta",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Mrs. Ezra Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldType": "System.String",
+            "FieldLength": 204
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "animi",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Prof. America Annette Lynch I",
+    "FullName": "Mrs. Alexandre Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 373
       }
     }
   }

@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    568,
-    219
+    831,
+    714
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 743,
-    "StartDate": "2013-11-07T13:57:11.1844296+01:00",
-    "EndDate": "1996-08-09T13:57:11.1844296+02:00",
+    "AppointmentId": 209,
+    "StartDate": "2005-02-03T23:03:54.5616463+01:00",
+    "EndDate": "2018-12-19T23:03:54.5616463+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsam",
-    "AssociateFullName": "Ford Waters",
-    "ContactName": "Gibson-Aufderhar",
-    "Description": "Right-sized static encryption",
-    "PersonFullName": "Maymie Cartwright",
-    "PersonId": 93,
-    "ContactId": 621,
-    "ProjectId": 238,
-    "ProjectName": "Collins LLC",
+    "Task": "ex",
+    "AssociateFullName": "Mrs. Ardella Abelardo Orn",
+    "ContactName": "Schroeder LLC",
+    "Description": "Right-sized uniform ability",
+    "PersonFullName": "Mrs. Brooks Orie Gislason IV",
+    "PersonId": 455,
+    "ContactId": 209,
+    "ProjectId": 375,
+    "ProjectName": "Padberg Group",
     "IsPublished": true,
-    "AssociateId": 154,
-    "ColorIndex": 228,
+    "AssociateId": 585,
+    "ColorIndex": 144,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 122,
-    "PriorityName": "Sipes, Corkery and Bins",
+    "PriorityId": 101,
+    "PriorityName": "Herman Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2009-02-24T13:57:11.1844296+01:00",
+    "ActiveDate": "2002-01-30T23:03:54.562148+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-09-22T13:57:11.1844296+02:00",
-    "RecurringEndDate": "2010-03-23T13:57:11.1844296+01:00",
-    "MotherId": 419,
-    "AssignedBy": 842,
-    "AssignedByFullName": "Blaise Rau",
-    "RejectReason": "streamline leading-edge e-markets",
-    "Location": "maxime",
-    "AlarmLeadTime": "alias",
-    "SaleId": 174,
-    "SaleName": "Zemlak, Friesen and Gorczany",
-    "AssociateName": "Kovacek, Jerde and Trantow",
-    "CreatedDate": "2012-02-16T13:57:11.1844296+01:00",
-    "CreatedBy": "pariatur",
-    "CreatedByFullName": "Crystel Darwin Adams I",
-    "CreatedByAssociateId": 712,
+    "RecurringStartDate": "2008-11-23T23:03:54.562148+01:00",
+    "RecurringEndDate": "2008-11-15T23:03:54.562148+01:00",
+    "MotherId": 226,
+    "AssignedBy": 25,
+    "AssignedByFullName": "Broderick Goodwin",
+    "RejectReason": "",
+    "Location": "aliquam",
+    "AlarmLeadTime": "corrupti",
+    "SaleId": 384,
+    "SaleName": "Pfannerstill, Krajcik and Gulgowski",
+    "AssociateName": "Davis, Terry and Haag",
+    "CreatedDate": "2022-12-19T23:03:54.562148+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Jerrold Batz",
+    "CreatedByAssociateId": 43,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 53,
-    "Title": "omnis",
-    "Agenda": "eos",
-    "InternalNotes": "laboriosam",
+    "PreferredTZLocation": 480,
+    "Title": "eius",
+    "Agenda": "et",
+    "InternalNotes": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 593
       }
     }
   }

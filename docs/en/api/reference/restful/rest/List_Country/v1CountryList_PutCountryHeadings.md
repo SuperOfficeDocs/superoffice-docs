@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 33,
-    "Name": "Oberbrunner LLC",
-    "Tooltip": "tempore",
+    "HeadingId": 201,
+    "Name": "Schinner LLC",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 527,
-    "UdListDefinitionId": 591
+    "Rank": 839,
+    "UdListDefinitionId": 539
   },
   {
-    "HeadingId": 33,
-    "Name": "Oberbrunner LLC",
-    "Tooltip": "tempore",
+    "HeadingId": 201,
+    "Name": "Schinner LLC",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 527,
-    "UdListDefinitionId": 591
+    "Rank": 839,
+    "UdListDefinitionId": 539
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 755,
-    "Name": "Rutherford, Kulas and Bogisich",
-    "Tooltip": "veniam",
+    "HeadingId": 163,
+    "Name": "Schmidt, Fay and Kunde",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 807,
-    "UdListDefinitionId": 89,
+    "Rank": 710,
+    "UdListDefinitionId": 888,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldType": "System.Int32",
+        "FieldLength": 551
       }
     }
   }

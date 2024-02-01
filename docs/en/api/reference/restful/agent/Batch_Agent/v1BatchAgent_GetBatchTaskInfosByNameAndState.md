@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kreiger-Harris",
+  "Name": "Hermiston, Friesen and Gaylord",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Heaney-Mante",
-    "AssociateId": 370,
-    "DetailsTable": 84,
-    "DetailsRecord": 967,
+    "Id": 701,
+    "Name": "Schowalter-Howell",
+    "AssociateId": 402,
+    "DetailsTable": 542,
+    "DetailsRecord": 540,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "commodi",
-      "ParameterObject2": "consectetur"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "eum"
     },
-    "LastStarted": "2006-04-26T13:57:11.5594343+02:00",
-    "Created": "2014-09-25T13:57:11.5594343+02:00",
-    "StartCount": 74,
-    "DatabaseSerialNumber": "928676",
-    "Context": "quae",
-    "Result": "id",
+    "LastStarted": "2011-02-24T23:03:55.0216424+01:00",
+    "Created": "2014-01-17T23:03:55.0216424+01:00",
+    "StartCount": 536,
+    "DatabaseSerialNumber": "637777",
+    "Context": "est",
+    "Result": "maxime",
     "State": "All",
-    "Description": "Polarised 4th generation Graphical User Interface",
-    "Response": "labore",
-    "Request": "incidunt",
-    "ProgressDescription": "Mandatory leading edge core",
-    "ProgressPercent": 297,
-    "FileName": "Gerlach, Quitzon and Parisian",
+    "Description": "Balanced mobile forecast",
+    "Response": "neque",
+    "Request": "voluptatem",
+    "ProgressDescription": "Adaptive 6th generation extranet",
+    "ProgressPercent": 793,
+    "FileName": "Kulas, Treutel and Bashirian",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldType": "System.String",
+        "FieldLength": 539
       }
     }
   }

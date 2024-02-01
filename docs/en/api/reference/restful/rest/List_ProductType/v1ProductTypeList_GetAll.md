@@ -25,7 +25,7 @@ Gets all the ProductType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductType/Items?includeDeleted=True
+GET /api/v1/List/ProductType/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Murray, Kreiger and Zulauf",
-    "Tooltip": "omnis",
+    "Id": 220,
+    "Name": "Littel, Labadie and Dicki",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "UdListDefinitionId": 931,
-    "Rank": 455,
+    "UdListDefinitionId": 152,
+    "Rank": 527,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 906
+        "FieldLength": 666
       }
     }
   }

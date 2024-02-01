@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 993,
-    "ResourceId": 46,
-    "Text": "beatae",
+    "LanguageId": 277,
+    "ResourceId": 487,
+    "Text": "porro",
     "Type": "Column",
-    "LocalizedTextId": 26,
+    "LocalizedTextId": 563,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldType": "System.String",
+        "FieldLength": 89
       }
     }
   }

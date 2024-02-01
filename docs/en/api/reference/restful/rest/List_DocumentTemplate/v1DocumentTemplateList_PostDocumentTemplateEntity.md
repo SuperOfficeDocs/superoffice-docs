@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 127,
-  "Name": "Halvorson, Schowalter and Batz",
-  "Tooltip": "quas",
-  "SaveInDb": 915,
-  "Filename": "est",
-  "DefaultOref": "quae",
+  "DocumentTemplateId": 612,
+  "Name": "Nicolas-Price",
+  "Tooltip": "quis",
+  "SaveInDb": 234,
+  "Filename": "sed",
+  "DefaultOref": "veniam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 797,
-  "IntentId": 139,
+  "AutoeventId": 643,
+  "IntentId": 36,
   "IsDefaultPublished": true,
-  "Rank": 186,
-  "LoadTemplateFromPlugin": 547,
-  "MimeType": "eum",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 775,
+  "Rank": 15,
+  "LoadTemplateFromPlugin": 479,
+  "MimeType": "et",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 929,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "bernhard.stracke@koelpin.info",
+  "EmailSubject": "brannon_gibson@stehrkris.ca",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kayli@hackett.biz",
+  "SenderEmailAddress": "amina_sawayn@spencerfeil.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 985,
-  "Name": "Jacobs, Marquardt and Grady",
-  "Tooltip": "animi",
-  "SaveInDb": 273,
-  "Filename": "impedit",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 846,
+  "Name": "Okuneva Group",
+  "Tooltip": "voluptas",
+  "SaveInDb": 874,
+  "Filename": "autem",
+  "DefaultOref": "in",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 947,
-  "IntentId": 946,
-  "IsDefaultPublished": true,
-  "Rank": 517,
-  "LoadTemplateFromPlugin": 221,
-  "MimeType": "doloremque",
+  "AutoeventId": 44,
+  "IntentId": 298,
+  "IsDefaultPublished": false,
+  "Rank": 369,
+  "LoadTemplateFromPlugin": 425,
+  "MimeType": "cum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 127,
+  "DocumentTypeKey": 575,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lisette_kreiger@lebsackthompson.co.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "trace@bednar.uk",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alexa@kuhlman.info",
+  "SenderEmailAddress": "wellington.boyer@rogahn.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 941
     }
   }
 }

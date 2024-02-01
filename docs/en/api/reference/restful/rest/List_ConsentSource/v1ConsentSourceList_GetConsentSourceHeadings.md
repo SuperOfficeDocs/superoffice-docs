@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 84,
-    "Name": "Lockman LLC",
-    "Tooltip": "est",
+    "HeadingId": 172,
+    "Name": "Howell-Haley",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 110,
-    "UdListDefinitionId": 559,
+    "Rank": 600,
+    "UdListDefinitionId": 607,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldType": "System.String",
+        "FieldLength": 269
       }
     }
   }

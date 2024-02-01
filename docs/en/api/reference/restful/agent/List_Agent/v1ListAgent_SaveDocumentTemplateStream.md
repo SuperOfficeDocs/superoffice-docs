@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 119,
+  "DocumentTemplateId": 510,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "enim",
-  "PluginId": 409
+  "LanguageCode": "ut",
+  "PluginId": 87
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Conroy Inc and Sons",
-  "Description": "Object-based intermediate Graphical User Interface",
-  "ExternalReference": "expedita",
-  "MimeType": "repudiandae",
-  "PluginId": 347
+  "Name": "Kuhn, Dooley and Trantow",
+  "Description": "Object-based dynamic secured line",
+  "ExternalReference": "quae",
+  "MimeType": "et",
+  "PluginId": 781
 }
 ```

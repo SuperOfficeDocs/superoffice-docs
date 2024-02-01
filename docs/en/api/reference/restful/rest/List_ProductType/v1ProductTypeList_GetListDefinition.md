@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Mertz-Franecki",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 236,
-  "IsCustomList": false,
+  "Id": 349,
+  "Name": "Runolfsdottir LLC",
+  "Tooltip": "earum",
+  "Deleted": false,
+  "Rank": 458,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "assumenda",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldType": "System.Int32",
+      "FieldLength": 23
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

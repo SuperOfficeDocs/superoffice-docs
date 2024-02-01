@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 159,
-  "StartTime": "2005-11-04T13:57:12.074872+01:00",
-  "EndTime": "2009-04-27T13:57:12.074872+02:00",
-  "Count": 706,
+  "PersonId": 363,
+  "StartTime": "2015-10-08T23:03:55.6716333+02:00",
+  "EndTime": "2003-08-09T23:03:55.6716333+02:00",
+  "Count": 133,
   "DocumentTemplateIds": [
-    833,
-    138
+    846,
+    906
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 306,
-    "Attention": "enim",
-    "Header": "impedit",
-    "Name": "Wilderman, Rau and Abbott",
-    "OurRef": "sapiente",
-    "YourRef": "nobis",
-    "Description": "User-friendly assymetric Graphical User Interface",
-    "DocumentTemplate": "enim",
+    "DocumentId": 179,
+    "Attention": "eaque",
+    "Header": "aut",
+    "Name": "Bernier, Emard and Mohr",
+    "OurRef": "accusamus",
+    "YourRef": "voluptatem",
+    "Description": "Vision-oriented incremental structure",
+    "DocumentTemplate": "dolorem",
     "IsPublished": false,
-    "PersonId": 323,
-    "PersonFullName": "Floy Moore",
-    "AssociateFullName": "Pearlie Hoppe",
-    "ContactId": 88,
-    "ContactName": "Witting LLC",
-    "ProjectId": 226,
-    "ProjectName": "Terry, Effertz and Monahan",
+    "PersonId": 140,
+    "PersonFullName": "Margret Hagenes",
+    "AssociateFullName": "Shawn Kuhlman",
+    "ContactId": 144,
+    "ContactName": "Reynolds-Goodwin",
+    "ProjectId": 911,
+    "ProjectName": "Towne, Fritsch and O'Reilly",
     "AssociateId": 421,
-    "Snum": 879,
-    "SaleId": 690,
-    "SaleName": "Towne-Herman",
+    "Snum": 239,
+    "SaleId": 388,
+    "SaleName": "Littel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 40
       }
     }
   }

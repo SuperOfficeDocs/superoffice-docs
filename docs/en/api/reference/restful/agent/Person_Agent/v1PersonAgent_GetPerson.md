@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=711
+POST /api/v1/Agents/Person/GetPerson?personId=707
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "aliquam",
-  "PersonId": 439,
-  "Mrmrs": "eaque",
-  "Firstname": "Burnice",
-  "Lastname": "Windler",
-  "MiddleName": "Morissette LLC",
-  "Title": "vel",
-  "Description": "Horizontal dedicated parallelism",
-  "Email": "delilah_hackett@johnston.biz",
-  "FullName": "Mrs. Carlee Daniel",
-  "DirectPhone": "(220)250-7910 x7784",
-  "FormalName": "Pollich, Kautzer and Fisher",
-  "CountryId": 961,
-  "ContactId": 576,
-  "ContactName": "Ferry LLC",
-  "Retired": 259,
-  "Rank": 635,
-  "ActiveInterests": 579,
+  "Position": "dicta",
+  "PersonId": 621,
+  "Mrmrs": "a",
+  "Firstname": "Leslie",
+  "Lastname": "Ward",
+  "MiddleName": "Ernser, Kilback and Jacobson",
+  "Title": "similique",
+  "Description": "Proactive client-server definition",
+  "Email": "tyreek@ebert.biz",
+  "FullName": "Ellie Demarco Stracke PhD",
+  "DirectPhone": "554-477-8599",
+  "FormalName": "Runte-Eichmann",
+  "CountryId": 726,
+  "ContactId": 548,
+  "ContactName": "Turcotte, Stokes and Adams",
+  "Retired": 408,
+  "Rank": 891,
+  "ActiveInterests": 907,
   "ContactDepartment": "",
-  "ContactCountryId": 976,
-  "ContactOrgNr": "1000931",
-  "FaxPhone": "(554)599-9230",
-  "MobilePhone": "224.239.7320",
-  "ContactPhone": "(985)951-1409 x99931",
-  "AssociateName": "Bogisich, Reichel and Blick",
-  "AssociateId": 521,
+  "ContactCountryId": 110,
+  "ContactOrgNr": "330116",
+  "FaxPhone": "188-112-6896",
+  "MobilePhone": "1-415-911-4970 x5869",
+  "ContactPhone": "(592)144-4402 x7523",
+  "AssociateName": "Schowalter-Schultz",
+  "AssociateId": 422,
   "UsePersonAddress": false,
-  "ContactFax": "pariatur",
-  "Kanafname": "laborum",
-  "Kanalname": "omnis",
-  "Post1": "nemo",
-  "Post2": "ea",
-  "Post3": "at",
-  "EmailName": "javonte@dickens.co.uk",
-  "ContactFullName": "Ellsworth Schultz",
-  "ActiveErpLinks": 992,
-  "TicketPriorityId": 759,
-  "SupportLanguageId": 962,
-  "SupportAssociateId": 395,
+  "ContactFax": "autem",
+  "Kanafname": "error",
+  "Kanalname": "aut",
+  "Post1": "qui",
+  "Post2": "quas",
+  "Post3": "temporibus",
+  "EmailName": "adele.lakin@kunze.name",
+  "ContactFullName": "Brayan Walsh",
+  "ActiveErpLinks": 659,
+  "TicketPriorityId": 436,
+  "SupportLanguageId": 930,
+  "SupportAssociateId": 611,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 881
     }
   }
 }

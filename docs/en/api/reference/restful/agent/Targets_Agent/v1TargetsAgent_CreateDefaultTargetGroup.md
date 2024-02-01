@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 555,
-  "Year": 301,
+  "TargetGroupId": 728,
+  "Year": 206,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 228,
+      "TargetAssignmentInfoId": 592,
       "Values": [
-        819,
-        579
+        548,
+        142
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 723,
-      "DimensionListItemDisplayName": "Heaney, Olson and Pacocha",
+      "DimensionListItem": 116,
+      "DimensionListItemDisplayName": "Klein Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 705
+          "FieldType": "System.Int32",
+          "FieldLength": 305
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldType": "System.String",
+      "FieldLength": 836
     }
   }
 }

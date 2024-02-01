@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=quia
-GET /api/v1/ForeignApp?$top=224
-GET /api/v1/ForeignApp?$skip=30
+GET /api/v1/ForeignApp?$entities=tempore
+GET /api/v1/ForeignApp?$top=656
+GET /api/v1/ForeignApp?$skip=157
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=quia
+GET /api/v1/ForeignApp?$context=voluptatem
 GET /api/v1/ForeignApp?$format=JSON
-GET /api/v1/ForeignApp?$jsonSafe=True
+GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sunt",
+  "odata.nextLink": "commodi",
   "value": [
     {
-      "PrimaryKey": 8096,
+      "PrimaryKey": 6106,
       "EntityName": "person",
-      "personId": 8096,
-      "fullName": "Miss Eliezer Abernathy"
+      "personId": 6106,
+      "fullName": "Angie Donnell Dach MD"
     },
     {
-      "PrimaryKey": 2183,
+      "PrimaryKey": 9392,
       "EntityName": "person",
-      "personId": 2183,
-      "fullName": "Elroy Ullrich"
+      "personId": 9392,
+      "fullName": "Miss Alexys Auer Sr."
     }
   ]
 }

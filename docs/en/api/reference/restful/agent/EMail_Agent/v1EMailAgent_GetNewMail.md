@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    399,
-    377
+    225,
+    920
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 100,
-    "MessageId": "odio",
-    "Subject": "suscipit",
+    "ServerId": 839,
+    "MessageId": "sed",
+    "Subject": "non",
     "From": null,
     "To": [
       {
-        "ContactId": 848,
-        "ContactName": "Mertz, Thiel and Kutch",
-        "PersonId": 678,
-        "PersonName": "Padberg, Conn and Herzog",
-        "AssociateId": 458,
-        "Address": "debitis",
-        "EmailId": 726,
+        "ContactId": 818,
+        "ContactName": "Rohan Inc and Sons",
+        "PersonId": 467,
+        "PersonName": "Strosin, Mayert and Kunze",
+        "AssociateId": 382,
+        "Address": "et",
+        "EmailId": 771,
         "DuplicatePersonIds": [
-          555,
-          491
+          225,
+          224
         ],
-        "Name": "Walter, Murazik and Reichert",
+        "Name": "Halvorson, Lang and Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 286
+            "FieldLength": 658
           }
         }
       }
     ],
-    "Sent": "2023-04-25T13:57:12.246749+02:00",
+    "Sent": "2009-12-06T23:03:55.8816302+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 124,
+    "Size": 200,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldType": "System.String",
+        "FieldLength": 391
       }
     }
   }

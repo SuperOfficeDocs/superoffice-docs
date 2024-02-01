@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "McCullough-Harber",
-    "DisplayName": "Gleichner, Walter and Glover",
-    "Description": "Organized zero administration archive",
-    "ShortLabel": "voluptatem",
-    "HideLabel": true,
+    "FieldName": "Kuhlman-Hodkiewicz",
+    "DisplayName": "Bernier-Stracke",
+    "Description": "Open-source eco-centric groupware",
+    "ShortLabel": "quasi",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 891,
-    "TemplateVariableName": "Wyman, Armstrong and Bailey"
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "Rank": 991,
+    "TemplateVariableName": "Gaylord, Fisher and Rosenbaum"
   }
 ]
 ```

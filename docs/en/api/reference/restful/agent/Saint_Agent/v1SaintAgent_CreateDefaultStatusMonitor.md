@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 131,
-  "Rank": 48,
-  "DefaultTask": 48,
-  "DefaultTaskText": "modi",
+  "OwnerTable": 450,
+  "Rank": 655,
+  "DefaultTask": 628,
+  "DefaultTaskText": "dolores",
   "IsVisual": false,
-  "LastGenerated": "2013-06-01T13:57:13.1131378+02:00",
-  "Description": "Profound value-added access",
-  "Name": "Klein, Jones and Bernhard",
-  "StatusMonitorId": 223,
-  "PictureId": 477,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 645,
-  "NumNeedUpdate": 249,
-  "GenerationStart": "2002-08-05T13:57:13.1131378+02:00",
+  "LastGenerated": "2013-11-01T23:03:56.8446147+01:00",
+  "Description": "Assimilated next generation project",
+  "Name": "Little, Beahan and Maggio",
+  "StatusMonitorId": 685,
+  "PictureId": 442,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 122,
+  "NumNeedUpdate": 594,
+  "GenerationStart": "1997-09-16T23:03:56.8446147+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 215
     }
   }
 }

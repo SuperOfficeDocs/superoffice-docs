@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 30 Jan 2010 13:57:18 G1T
+Last-Modified: Fri, 01 Mar 2013 23:04:04 G3T
 
 {
-  "BlobId": 293,
-  "BlobSize": 631,
-  "Description": "Vision-oriented 3rd generation flexibility",
-  "ExtraInfo": "voluptate",
-  "IsEncrypted": false,
+  "BlobId": 994,
+  "BlobSize": 8,
+  "Description": "Profit-focused eco-centric conglomeration",
+  "ExtraInfo": "adipisci",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 928,
-  "CreatedDate": "2002-02-14T13:57:18.9528139+01:00",
-  "UpdatedDate": "2010-01-30T13:57:18.9528139+01:00",
+  "MimeType": "rerum",
+  "OriginalSize": 654,
+  "CreatedDate": "2022-06-25T23:04:04.3850213+02:00",
+  "UpdatedDate": "2013-03-01T23:04:04.3850213+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fugiat",
+  "ConceptualType": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldType": "System.Int32",
+      "FieldLength": 72
     }
   }
 }

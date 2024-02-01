@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 252,
-  "Name": "Pacocha-Runolfsdottir",
-  "TZLocationCode": "unde",
-  "TZLocationCities": "consectetur",
-  "IsoNumber": 512,
+  "TZLocationID": 46,
+  "Name": "Kuhn Group",
+  "TZLocationCode": "minima",
+  "TZLocationCities": "fugiat",
+  "IsoNumber": 87,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 581,
-      "StartMonth": 192,
-      "EndDay": 561,
-      "EndMonth": 685,
-      "TZOffset": 936,
-      "StartRulePattern": "doloremque",
-      "EndRulePattern": "quaerat"
+      "StartDay": 898,
+      "StartMonth": 375,
+      "EndDay": 749,
+      "EndMonth": 95,
+      "TZOffset": 309,
+      "StartRulePattern": "iusto",
+      "EndRulePattern": "et"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 383,
-      "StartMonth": 181,
-      "EndDay": 623,
-      "EndMonth": 992,
-      "TZOffset": 173,
-      "StartRulePattern": "necessitatibus",
-      "EndRulePattern": "dolorem"
+      "StartDay": 37,
+      "StartMonth": 255,
+      "EndDay": 575,
+      "EndMonth": 363,
+      "TZOffset": 716,
+      "StartRulePattern": "eligendi",
+      "EndRulePattern": "aut"
     }
   }
 }

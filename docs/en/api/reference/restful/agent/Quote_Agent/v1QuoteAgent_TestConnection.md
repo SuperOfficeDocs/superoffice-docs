@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Zboncak, Parker and Miller",
+  "ConnectorName": "Kris-King",
   "ConnectionData": {
-    "ConnectionData1": "debitis",
-    "ConnectionData2": "officiis"
+    "ConnectionData1": "atque",
+    "ConnectionData2": "assumenda"
   }
 }
 ```
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "ad",
-  "TechExplanation": "accusantium",
-  "ErrorCode": "porro",
+  "UserExplanation": "iure",
+  "TechExplanation": "iste",
+  "ErrorCode": "doloribus",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

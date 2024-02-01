@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 354
+  "SelectionId": 791
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "White-Roberts",
-    "Description": "Phased heuristic Graphical User Interface",
-    "Rank": 145,
+    "Name": "Heller, Christiansen and Goyette",
+    "Description": "Enterprise-wide eco-centric encoding",
+    "Rank": 666,
     "Restrictions": [
       {
-        "Name": "Cassin Inc and Sons",
-        "Operator": "similique",
+        "Name": "Howell-Wilkinson",
+        "Operator": "ut",
         "Values": [
-          "consequatur",
-          "fugit"
+          "dolore",
+          "nihil"
         ],
         "DisplayValues": [
-          "debitis",
-          "qui"
+          "hic",
+          "assumenda"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 699,
+        "InterParenthesis": 523,
         "InterOperator": "And",
-        "UniqueHash": 299
+        "UniqueHash": 377
       }
     ]
   },
   {
-    "Name": "White-Roberts",
-    "Description": "Phased heuristic Graphical User Interface",
-    "Rank": 145,
+    "Name": "Heller, Christiansen and Goyette",
+    "Description": "Enterprise-wide eco-centric encoding",
+    "Rank": 666,
     "Restrictions": [
       {
-        "Name": "Cassin Inc and Sons",
-        "Operator": "similique",
+        "Name": "Howell-Wilkinson",
+        "Operator": "ut",
         "Values": [
-          "consequatur",
-          "fugit"
+          "dolore",
+          "nihil"
         ],
         "DisplayValues": [
-          "debitis",
-          "qui"
+          "hic",
+          "assumenda"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 699,
+        "InterParenthesis": 523,
         "InterOperator": "And",
-        "UniqueHash": 299
+        "UniqueHash": 377
       }
     ]
   }

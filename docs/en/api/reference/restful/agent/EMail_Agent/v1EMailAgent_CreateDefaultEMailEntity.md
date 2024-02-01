@@ -97,148 +97,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 640,
-      "ContactName": "Corkery, Haag and Watsica",
-      "PersonId": 39,
-      "PersonName": "Glover LLC",
-      "AssociateId": 925,
-      "Address": "molestiae",
-      "EmailId": 592,
+      "ContactId": 298,
+      "ContactName": "Pfeffer LLC",
+      "PersonId": 244,
+      "PersonName": "Bahringer, Schuster and Hirthe",
+      "AssociateId": 826,
+      "Address": "qui",
+      "EmailId": 334,
       "DuplicatePersonIds": [
-        250,
-        352
+        731,
+        746
       ],
-      "Name": "Legros LLC",
+      "Name": "Schneider-Dare",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 318
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 512,
-      "ContactName": "Kessler, Feil and Cummerata",
-      "PersonId": 354,
-      "PersonName": "Lang, Hand and Ferry",
-      "AssociateId": 878,
-      "Address": "laudantium",
-      "EmailId": 571,
+      "ContactId": 664,
+      "ContactName": "Bruen, Orn and Conn",
+      "PersonId": 394,
+      "PersonName": "Treutel, Hahn and Lockman",
+      "AssociateId": 453,
+      "Address": "voluptas",
+      "EmailId": 285,
       "DuplicatePersonIds": [
-        159,
-        741
+        703,
+        704
       ],
-      "Name": "Beatty, Reichel and Mertz",
+      "Name": "Sipes Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 669
+          "FieldType": "System.Int32",
+          "FieldLength": 197
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 215,
-      "ContactName": "Langosh-Hagenes",
-      "PersonId": 535,
-      "PersonName": "Satterfield LLC",
-      "AssociateId": 957,
-      "Address": "quo",
-      "EmailId": 540,
+      "ContactId": 674,
+      "ContactName": "Emmerich LLC",
+      "PersonId": 868,
+      "PersonName": "Ledner-Schamberger",
+      "AssociateId": 154,
+      "Address": "ipsam",
+      "EmailId": 364,
       "DuplicatePersonIds": [
-        900,
-        263
+        963,
+        912
       ],
-      "Name": "West Inc and Sons",
+      "Name": "Graham Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 77
         }
       }
     }
   ],
-  "Subject": "necessitatibus",
-  "HTMLBody": "fugit",
+  "Subject": "voluptate",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "2012-10-11T13:57:12.2779931+02:00",
-  "Size": 725,
+  "Sent": "2021-09-15T23:03:55.9306298+02:00",
+  "Size": 413,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "quibusdam",
+  "MessageID": "dolorum",
+  "PlainBody": "iusto",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 916,
+  "ServerId": 354,
   "Attachments": [
     {
-      "Description": "Up-sized methodical local area network",
-      "Filename": "sit",
-      "Size": 865,
-      "Type": "qui",
-      "Encoding": "quibusdam",
-      "Id": "ipsam",
-      "Disposition": "perspiciatis",
+      "Description": "Visionary 24/7 local area network",
+      "Filename": "iste",
+      "Size": 334,
+      "Type": "blanditiis",
+      "Encoding": "deleniti",
+      "Id": "accusamus",
+      "Disposition": "ea",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldType": "System.Int32",
+          "FieldLength": 50
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Christiansen Inc and Sons",
+      "Name": "Jacobson Group",
       "Values": [
-        "eius",
-        "commodi"
+        "inventore",
+        "animi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 771
+          "FieldType": "System.Int32",
+          "FieldLength": 863
         }
       }
     },
     {
-      "Name": "Christiansen Inc and Sons",
+      "Name": "Jacobson Group",
       "Values": [
-        "eius",
-        "commodi"
+        "inventore",
+        "animi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 771
+          "FieldType": "System.Int32",
+          "FieldLength": 863
         }
       }
     }
   ],
-  "FolderName": "Mohr Inc and Sons",
-  "EmailItemId": 459,
-  "AccountId": 158,
-  "ReceivedAt": "2007-03-09T13:57:12.2779931+01:00",
+  "FolderName": "Bogisich LLC",
+  "EmailItemId": 307,
+  "AccountId": 212,
+  "ReceivedAt": "1996-10-16T23:03:55.9311302+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-02-07T13:57:12.2779931+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-02-09T23:03:55.9311302+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 424
     }
   }
 }

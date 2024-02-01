@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    104,
-    782
+    19,
+    665
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 192,
-    "Name": "Zemlak-Lind",
-    "TargetTable": "natus",
-    "Registered": "2013-04-11T13:57:13.2540276+02:00",
-    "ProviderName": "Kling, Barton and Goyette"
+    "SelectionId": 801,
+    "Name": "Greenfelder-Armstrong",
+    "TargetTable": "debitis",
+    "Registered": "1997-02-16T23:03:57.1661153+01:00",
+    "ProviderName": "Lind, Roberts and Hansen"
   },
   {
-    "SelectionId": 192,
-    "Name": "Zemlak-Lind",
-    "TargetTable": "natus",
-    "Registered": "2013-04-11T13:57:13.2540276+02:00",
-    "ProviderName": "Kling, Barton and Goyette"
+    "SelectionId": 801,
+    "Name": "Greenfelder-Armstrong",
+    "TargetTable": "debitis",
+    "Registered": "1997-02-16T23:03:57.1661153+01:00",
+    "ProviderName": "Lind, Roberts and Hansen"
   }
 ]
 ```

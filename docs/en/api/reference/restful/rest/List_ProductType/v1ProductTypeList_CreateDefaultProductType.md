@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 762,
-  "Name": "Conn, Hauck and Gaylord",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 234,
-  "Rank": 835,
+  "Id": 136,
+  "Name": "Morissette, Jewess and Armstrong",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 898,
+  "Rank": 617,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 298
     }
   }
 }

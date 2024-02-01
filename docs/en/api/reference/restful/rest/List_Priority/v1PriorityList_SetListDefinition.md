@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Hintz Group",
-  "Tooltip": "sit",
+  "Id": 836,
+  "Name": "Breitenberg Group",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 702,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 979,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
-  "InUseByUserDefinedFields": true
+  "ListType": "at",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 520,
-  "Name": "Metz-Koepp",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 654,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 869,
+  "Name": "Smith, Ortiz and Jakubowski",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 738,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
+  "ListType": "vitae",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 666
     }
   }
 }

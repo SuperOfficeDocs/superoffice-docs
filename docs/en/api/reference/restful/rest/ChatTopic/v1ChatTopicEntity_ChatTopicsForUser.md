@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 745,
-    "Name": "Runolfsdottir, Weimann and Larkin",
-    "Description": "Decentralized mission-critical data-warehouse",
-    "WelcomeMessage": "earum",
+    "ChatTopicId": 71,
+    "Name": "Farrell, Shanahan and Hansen",
+    "Description": "Robust motivating capacity",
+    "WelcomeMessage": "nulla",
     "Language": null,
-    "LastAccept": "1999-05-08T13:57:18.5596847+02:00",
-    "SecondsPrAccept": 570,
-    "AlertRecipient": "et",
+    "LastAccept": "2021-10-24T23:04:03.8700217+02:00",
+    "SecondsPrAccept": 613,
+    "AlertRecipient": "facere",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "et",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "minus",
-    "WarnNewChatMinutes": 858,
-    "WarnManagerNewChatMinutes": 622,
+    "CollectConsent": false,
+    "BadgeHeader": "omnis",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "ut",
+    "WarnNewChatMinutes": 740,
+    "WarnManagerNewChatMinutes": 381,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 352,
-    "WarnManagerChatMessageMinutes": 544,
+    "WarnChatMessageMinutes": 934,
+    "WarnManagerChatMessageMinutes": 992,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 725,
-    "OfflineFormQueueLength": 382,
+    "OfflineFormTimeLimit": 848,
+    "OfflineFormQueueLength": 50,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "reiciendis",
+    "WidgetRatingText": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 343
       }
     }
   }

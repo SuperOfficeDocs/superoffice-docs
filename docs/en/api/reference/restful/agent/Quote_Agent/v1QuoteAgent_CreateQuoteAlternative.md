@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 39,
-  "QuoteAlternativeName": "Ziemann-Howell",
-  "QuoteAlternativeDescription": "Streamlined multimedia budgetary management"
+  "QuoteVersionId": 816,
+  "QuoteAlternativeName": "Larson-Hermiston",
+  "QuoteAlternativeDescription": "Face to face actuating Graphical User Interface"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 935,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 180,
-  "Name": "Mayert-Pfeffer",
-  "Description": "Fully-configurable tangible policy",
+  "QuoteAlternativeId": 516,
+  "ERPQuoteAlternativeKey": "hic",
+  "QuoteVersionId": 385,
+  "Name": "Jones Inc and Sons",
+  "Description": "Persistent analyzing intranet",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 29503.476,
-  "ERPDiscountAmount": 8474.336,
-  "DiscountPercent": 13476.199999999999,
-  "DiscountAmount": 6800.78,
+  "Reason": "whiteboard transparent portals",
+  "ERPDiscountPercent": 6155.1759999999995,
+  "ERPDiscountAmount": 4130.612,
+  "DiscountPercent": 26156.363999999998,
+  "DiscountAmount": 22746.572,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolorum",
-  "VAT": 20957.058,
-  "EarningPercent": 31289.856,
-  "EarningAmount": 17957.82,
-  "SubTotal": 24128.665999999997,
-  "TotalPrice": 3262.4939999999997,
-  "ExtraField1": "recusandae",
-  "ExtraField2": "quo",
-  "ExtraField3": "et",
-  "ExtraField4": "impedit",
-  "ExtraField5": "quod",
+  "VATInfo": "quae",
+  "VAT": 6227.258,
+  "EarningPercent": 10712.011999999999,
+  "EarningAmount": 2504.066,
+  "SubTotal": 11536.253999999999,
+  "TotalPrice": 30995.26,
+  "ExtraField1": "delectus",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "sed",
+  "ExtraField4": "non",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 138
     }
   }
 }

@@ -84,52 +84,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iste",
-  "ProviderName": "Lebsack-Bogisich",
-  "StorageKey": "illo",
+  "StorageType": "hic",
+  "ProviderName": "Kutch, Kertzmann and Kuhn",
+  "StorageKey": "quaerat",
   "ExtraRestrictions": [
     {
-      "Name": "McDermott-Lockman",
-      "Operator": "fuga",
+      "Name": "Parker Group",
+      "Operator": "eum",
       "Values": [
-        "molestiae",
-        "enim"
+        "explicabo",
+        "repudiandae"
       ],
       "DisplayValues": [
-        "magnam",
-        "enim"
+        "voluptatibus",
+        "sit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 675,
+      "InterParenthesis": 685,
       "InterOperator": "And",
-      "UniqueHash": 19
+      "UniqueHash": 897
     }
   ],
   "OrderBy": [
     {
-      "Name": "Baumbach-Lynch",
+      "Name": "Lowe, Strosin and Kris",
       "Direction": "ASC"
     },
     {
-      "Name": "Baumbach-Lynch",
+      "Name": "Lowe, Strosin and Kris",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "enim",
-    "sequi"
+    "at",
+    "reprehenderit"
   ],
-  "PageSize": 404,
-  "PageNumber": 104
+  "PageSize": 540,
+  "PageNumber": 641
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ryan-Kling",
-      "DisplayTooltip": "molestiae",
-      "DisplayType": "voluptatibus",
-      "CanOrderBy": false,
-      "Name": "Rath, Hettinger and Powlowski",
+      "DisplayName": "Jast, Adams and Swift",
+      "DisplayTooltip": "ut",
+      "DisplayType": "doloremque",
+      "CanOrderBy": true,
+      "Name": "McDermott, Breitenberg and Mitchell",
       "CanRestrictBy": true,
-      "RestrictionType": "optio",
-      "RestrictionListName": "Sauer, Grant and Hessel",
+      "RestrictionType": "voluptate",
+      "RestrictionListName": "Kuhic-O'Kon",
       "IsVisible": false,
-      "ExtraInfo": "magnam",
-      "Width": "eum",
-      "IconHint": "dolor",
-      "HeadingIconHint": "maiores"
+      "ExtraInfo": "dolore",
+      "Width": "minus",
+      "IconHint": "atque",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pagac, Kuhn and Heidenreich",
-      "PrimaryKey": 23,
+      "EntityName": "Smitham Group",
+      "PrimaryKey": 564,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "animi",
-          "TooltipHint": "voluptate",
-          "LinkHint": "voluptatibus"
+          "DisplayValue": "qui",
+          "TooltipHint": "omnis",
+          "LinkHint": "vitae"
         }
       },
-      "LinkHint": "sunt",
-      "StyleHint": "architecto",
+      "LinkHint": "rerum",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 550
+          "FieldLength": 146
         }
       }
     }
   ],
-  "RowCount": 168,
+  "RowCount": 260,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 241
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 429
+  "CountWords": 758
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Jewess, Bruen and Donnelly",
-    "ToolTip": "Et magnam velit ipsam repellendus.",
-    "Deleted": true,
-    "Rank": 937,
-    "Type": "quia",
+    "Id": 742,
+    "Name": "Toy, Reichert and Rogahn",
+    "ToolTip": "Explicabo recusandae occaecati aperiam eum eos rerum voluptatum.",
+    "Deleted": false,
+    "Rank": 319,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Feil Group",
-        "ToolTip": "Ratione ab rem.",
-        "Deleted": true,
-        "Rank": 721,
-        "Type": "qui",
+        "Id": 131,
+        "Name": "Stoltenberg-Ledner",
+        "ToolTip": "Voluptatibus ut beatae veniam nisi sed molestiae earum.",
+        "Deleted": false,
+        "Rank": 303,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 1001,
-        "ExtraInfo": "corrupti",
-        "StyleHint": "sed",
-        "FullName": "Prof. Ulices Conroy I",
+        "IconHint": "voluptas",
+        "ColorBlock": 199,
+        "ExtraInfo": "est",
+        "StyleHint": "asperiores",
+        "FullName": "Eugene Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 411
+            "FieldLength": 809
           }
         }
       }
     ],
-    "IconHint": "nam",
-    "ColorBlock": 629,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "rerum",
-    "FullName": "Lou Moore",
+    "IconHint": "ullam",
+    "ColorBlock": 449,
+    "ExtraInfo": "vel",
+    "StyleHint": "natus",
+    "FullName": "Mrs. Maximillian Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldLength": 84
       }
     }
   }

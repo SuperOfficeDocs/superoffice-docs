@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924
+  "Id": 683
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sequi",
+  "RawValue": "doloribus",
   "Specification": null,
-  "DisplayValue": "est",
-  "DisplayTooltip": "excepturi",
+  "DisplayValue": "minus",
+  "DisplayTooltip": "eligendi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 127,
-  "PrefDescId": 724,
-  "TableName": "Mante-Skiles",
-  "UserPreferenceId": 296,
+  "TargetId": 505,
+  "PrefDescId": 97,
+  "TableName": "Rempel, Witting and Tromp",
+  "UserPreferenceId": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 761
     }
   }
 }

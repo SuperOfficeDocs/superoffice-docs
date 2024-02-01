@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 115
+  "ErpFieldId": 566
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 106,
-  "DefaultValue": "aut",
+  "ErpFieldId": 724,
+  "DefaultValue": "minus",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "quas",
+  "FirstSyncDefaultValue": "et",
   "PromptUser": true,
-  "Mandatory": false,
-  "ErpFieldKey": "voluptate",
+  "Mandatory": true,
+  "ErpFieldKey": "laboriosam",
   "FieldType": "Checkbox",
-  "ListName": "Strosin, Windler and Grant",
+  "ListName": "O'Kon-Batz",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldLength": 986
     }
   }
 }

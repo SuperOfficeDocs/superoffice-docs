@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
     {
       "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "iusto",
-      "ValueType": "dolorem",
-      "Mandatory": true,
-      "EncodedDisplayName": "Hayes Inc and Sons",
-      "EncodedDisplayDescription": "Ergonomic asynchronous knowledge base",
-      "IconHint": "optio",
+      "DefaultShowInSelector": true,
+      "IsActive": false,
+      "Key": "hic",
+      "ValueType": "eos",
+      "Mandatory": false,
+      "EncodedDisplayName": "Oberbrunner-Rodriguez",
+      "EncodedDisplayDescription": "Progressive client-driven concept",
+      "IconHint": "nulla",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "necessitatibus",
-      "EncodedDataCaptionDescription": "Networked context-sensitive time-frame",
-      "CurrentOperationType": "quo",
+      "EncodedDataCaption": "sapiente",
+      "EncodedDataCaptionDescription": "Centralized static open architecture",
+      "CurrentOperationType": "dolorem",
       "Values": [
-        "officiis",
-        "dolorem"
+        "et",
+        "eos"
       ],
       "DisplayValues": [
-        "repellendus",
-        "aperiam"
+        "dolorem",
+        "in"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Hegmann Group",
-  "Context": "voluptate",
-  "Ids": "consequuntur"
+  "TableName": "Cruickshank, Murphy and Schroeder",
+  "Context": "ut",
+  "Ids": "quis"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-341
+683
 ```

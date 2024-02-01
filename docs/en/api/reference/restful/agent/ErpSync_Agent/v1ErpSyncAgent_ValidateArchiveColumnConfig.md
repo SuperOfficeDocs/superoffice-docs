@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "repellat",
-  "ErpConnectionId": 926
+  "ListOwner": "quas",
+  "ErpConnectionId": 134
 }
 ```
 

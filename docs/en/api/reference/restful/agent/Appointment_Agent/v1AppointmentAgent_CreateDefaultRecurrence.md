@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 95,
-  "StartDate": "2019-03-30T13:57:11.3563104+01:00",
-  "EndDate": "2010-07-20T13:57:11.3563104+02:00",
-  "RecurrenceCounter": 295,
+  "RecurrenceId": 386,
+  "StartDate": "2020-01-01T23:03:54.7521454+01:00",
+  "EndDate": "2010-12-12T23:03:54.7521454+01:00",
+  "RecurrenceCounter": 225,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1997-04-20T13:57:11.3563104+02:00",
+      "Date": "2021-03-24T23:03:54.7521454+01:00",
       "IsConflict": false,
-      "Description": "Phased optimal encoding",
-      "DescriptionStyleHint": "Assimilated bifurcated adapter",
-      "Tooltip": "eligendi"
+      "Description": "Exclusive asynchronous help-desk",
+      "DescriptionStyleHint": "Optimized 6th generation secured line",
+      "Tooltip": "est"
     },
     {
-      "Date": "1997-04-20T13:57:11.3563104+02:00",
+      "Date": "2021-03-24T23:03:54.7521454+01:00",
       "IsConflict": false,
-      "Description": "Phased optimal encoding",
-      "DescriptionStyleHint": "Assimilated bifurcated adapter",
-      "Tooltip": "eligendi"
+      "Description": "Exclusive asynchronous help-desk",
+      "DescriptionStyleHint": "Optimized 6th generation secured line",
+      "Tooltip": "est"
     }
   ],
   "IsRecurrence": false

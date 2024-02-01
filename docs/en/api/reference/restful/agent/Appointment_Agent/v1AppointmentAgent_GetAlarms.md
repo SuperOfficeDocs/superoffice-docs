@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeInvitations": false,
+  "IncludeInvitations": true,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 845
+  "DefaultAlarmLeadTimeInMinutes": 540
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 729,
-      "StartTime": "2002-12-28T13:57:11.2157245+01:00",
-      "EndDate": "2019-04-05T13:57:11.2157245+02:00",
-      "AlarmTime": "2001-09-16T13:57:11.2157245+02:00",
-      "PersonId": 87,
-      "PersonFullName": "Maye Jast",
-      "ContactName": "Cummings-Feeney",
-      "ProjectId": 659,
-      "ProjectName": "Kassulke Inc and Sons",
-      "AppointmentText": "laboriosam",
-      "SaleId": 368,
-      "SaleName": "Stroman Group",
-      "Location": "asperiores",
+      "AppointmentId": 225,
+      "StartTime": "2017-04-20T23:03:54.5951487+02:00",
+      "EndDate": "2020-12-09T23:03:54.5951487+01:00",
+      "AlarmTime": "2019-12-21T23:03:54.5951487+01:00",
+      "PersonId": 890,
+      "PersonFullName": "Rahul Klocko",
+      "ContactName": "Senger-Mueller",
+      "ProjectId": 502,
+      "ProjectName": "Johnson-Bailey",
+      "AppointmentText": "et",
+      "SaleId": 248,
+      "SaleName": "Lindgren Group",
+      "Location": "quia",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 783,
+      "ContactId": 791,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Green, Hamill and Lind",
-      "TaskName": "O'Connell Group",
+      "FormalName": "Tremblay, Murphy and Schaden",
+      "TaskName": "Hamill, Schneider and Eichmann",
       "ContactDepartment": "",
-      "ContactFullName": "Marge Flatley",
+      "ContactFullName": "Miss Connor Carol Lowe",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 546
+          "FieldLength": 153
         }
       }
     }
   ],
-  "PollingInterval": 229,
-  "SilentAfter": 229,
+  "PollingInterval": 335,
+  "SilentAfter": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 57
     }
   }
 }

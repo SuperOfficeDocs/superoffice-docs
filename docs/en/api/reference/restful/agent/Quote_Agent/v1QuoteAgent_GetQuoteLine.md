@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 720
+  "QuoteLineId": 211
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 495,
-  "ERPQuoteLineKey": "aspernatur",
-  "QuoteAlternativeId": 531,
-  "ERPProductKey": "assumenda",
+  "QuoteLineId": 691,
+  "ERPQuoteLineKey": "a",
+  "QuoteAlternativeId": 818,
+  "ERPProductKey": "ipsa",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 27692.023999999998,
-  "DeliveredQuantity": 19405.728,
-  "Rank": 254,
-  "Name": "Kemmer, Kling and Runte",
-  "Description": "Customer-focused maximized benchmark",
-  "Code": "minus",
-  "QuantityUnit": "ut",
-  "PriceUnit": "aperiam",
-  "ItemNumber": "913213",
+  "Quantity": 18174.066,
+  "DeliveredQuantity": 13012.368,
+  "Rank": 144,
+  "Name": "Fahey, Davis and Steuber",
+  "Description": "Public-key intangible capacity",
+  "Code": "sequi",
+  "QuantityUnit": "consequatur",
+  "PriceUnit": "soluta",
+  "ItemNumber": "880676",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "earum",
-  "ProductTypeKey": "et",
-  "Supplier": "sunt",
-  "SupplierCode": "rerum",
-  "Thumbnail": "occaecati",
-  "VATInfo": "ut",
-  "VAT": 19643.912,
-  "UnitCost": 20248.773999999998,
-  "UnitMinimumPrice": 29462.734,
-  "UnitListPrice": 996.612,
+  "ProductFamilyKey": "unde",
+  "ProductTypeKey": "qui",
+  "Supplier": "beatae",
+  "SupplierCode": "non",
+  "Thumbnail": "eum",
+  "VATInfo": "qui",
+  "VAT": 21496.106,
+  "UnitCost": 5167.9659999999994,
+  "UnitMinimumPrice": 2751.652,
+  "UnitListPrice": 13081.315999999999,
   "ExtraInfo": [
     {
-      "Name": "Lemke Group",
-      "Value": "est",
+      "Name": "Schumm, Herzog and Rogahn",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldType": "System.String",
+          "FieldLength": 978
         }
       }
     },
     {
-      "Name": "Lemke Group",
-      "Value": "est",
+      "Name": "Schumm, Herzog and Rogahn",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldType": "System.String",
+          "FieldLength": 978
         }
       }
     }
   ],
-  "RawExtraInfo": "asperiores",
-  "IsSubscription": true,
-  "SubscriptionUnit": "distinctio",
-  "SubscriptionQuantity": 827.376,
-  "SubscriptionStart": "2011-06-12T13:57:13.0805627+02:00",
-  "ERPDiscountPercent": 927.664,
-  "ERPDiscountAmount": 17691.43,
-  "DiscountPercent": 12103.508,
-  "DiscountAmount": 22273.338,
+  "RawExtraInfo": "aperiam",
+  "IsSubscription": false,
+  "SubscriptionUnit": "vero",
+  "SubscriptionQuantity": 235.04999999999998,
+  "SubscriptionStart": "2001-06-02T23:03:56.8056188+02:00",
+  "ERPDiscountPercent": 30349.656,
+  "ERPDiscountAmount": 29255.89,
+  "DiscountPercent": 22176.183999999997,
+  "DiscountAmount": 7985.432,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 6224.124,
-  "EarningAmount": 13507.539999999999,
-  "SubTotal": 17268.34,
-  "TotalPrice": 10724.547999999999,
-  "Rights": "maiores",
-  "Rule": "deserunt",
-  "ExtraField1": "ea",
-  "ExtraField2": "iste",
-  "ExtraField3": "quod",
-  "ExtraField4": "praesentium",
-  "ExtraField5": "beatae",
+  "EarningPercent": 9423.938,
+  "EarningAmount": 17180.588,
+  "SubTotal": 1632.8139999999999,
+  "TotalPrice": 2930.29,
+  "Rights": "enim",
+  "Rule": "rerum",
+  "ExtraField1": "repellendus",
+  "ExtraField2": "quod",
+  "ExtraField3": "eum",
+  "ExtraField4": "atque",
+  "ExtraField5": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

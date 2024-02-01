@@ -16,9 +16,7 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAIAgent.Ge
     static void BeforeGetChatbotPromptSuggestions(
        String  isoLangCode,
        String  soProtocol,
-       Int32  currentContactId,
-       Int32  currentPersonId,
-       Int32  currentProjectId,
+       Int32  currentId,
        ref object  eventState
       );
 ```
@@ -31,9 +29,7 @@ Event state is not preserved between different service calls. It is set to null 
     static void AfterGetChatbotPromptSuggestions(
        String  isoLangCode,
        String  soProtocol,
-       Int32  currentContactId,
-       Int32  currentPersonId,
-       Int32  currentProjectId,
+       Int32  currentId,
        ref ChatbotTurn  returnValue,
        ref object  eventState
       );
@@ -46,9 +42,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
     static void AfterGetChatbotPromptSuggestionsAsync(
        String  isoLangCode,
        String  soProtocol,
-       Int32  currentContactId,
-       Int32  currentPersonId,
-       Int32  currentProjectId,
+       Int32  currentId,
        ref ChatbotTurn  returnValue,
        ref object  eventState
       );

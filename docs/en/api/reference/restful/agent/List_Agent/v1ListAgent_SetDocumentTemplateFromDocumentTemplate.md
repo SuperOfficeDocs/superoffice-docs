@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 116,
+  "SourceDocumentTemplateId": 24,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 537,
-  "Name": "Schoen, Harvey and Schumm",
-  "Tooltip": "deleniti",
-  "SaveInDb": 892,
-  "Filename": "hic",
-  "DefaultOref": "quo",
+  "DocumentTemplateId": 363,
+  "Name": "Littel LLC",
+  "Tooltip": "voluptatum",
+  "SaveInDb": 323,
+  "Filename": "aut",
+  "DefaultOref": "iste",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 105,
-  "IntentId": 651,
+  "AutoeventId": 459,
+  "IntentId": 911,
   "IsDefaultPublished": false,
-  "Rank": 961,
-  "LoadTemplateFromPlugin": 693,
-  "MimeType": "fugit",
+  "Rank": 73,
+  "LoadTemplateFromPlugin": 935,
+  "MimeType": "consequatur",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 130,
+  "DocumentTypeKey": 21,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "eulah.swift@witting.com",
+  "EmailSubject": "maxime.gibson@thompson.name",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "charlene.flatley@heidenreich.co.uk",
+  "SenderEmailAddress": "gregoria@oconner.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldType": "System.String",
+      "FieldLength": 153
     }
   }
 }

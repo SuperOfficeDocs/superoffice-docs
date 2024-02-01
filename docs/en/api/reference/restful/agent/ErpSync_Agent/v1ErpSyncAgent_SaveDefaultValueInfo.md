@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 878,
-  "DefaultValue": "harum",
+  "ErpFieldId": 750,
+  "DefaultValue": "illo",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "ut",
+  "FirstSyncDefaultValue": "deserunt",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "eos",
+  "ErpFieldKey": "ex",
   "FieldType": "Checkbox",
-  "ListName": "Moore Inc and Sons",
+  "ListName": "O'Hara Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 467
     }
   }
 }

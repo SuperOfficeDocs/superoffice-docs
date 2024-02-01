@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Kilback-Greenfelder",
-    "ToolTip": "Eius consequatur error culpa distinctio.",
+    "Id": 725,
+    "Name": "Greenfelder, Wolf and Weimann",
+    "ToolTip": "Dolorem nulla dignissimos omnis placeat culpa excepturi accusamus.",
     "Deleted": false,
-    "Rank": 705,
-    "Type": "voluptatem",
-    "ColorBlock": 86,
-    "IconHint": "non",
+    "Rank": 140,
+    "Type": "ipsa",
+    "ColorBlock": 719,
+    "IconHint": "cumque",
     "Selected": false,
-    "LastChanged": "1997-01-16T13:57:19.9221765+01:00",
+    "LastChanged": "2009-11-25T23:04:05.6949975+01:00",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Stanton, Schimmel and Ledner",
-        "ToolTip": "Officiis doloremque minus.",
-        "Deleted": false,
-        "Rank": 859,
-        "Type": "pariatur",
-        "ColorBlock": 296,
-        "IconHint": "architecto",
+        "Id": 749,
+        "Name": "Considine, Wolf and Hahn",
+        "ToolTip": "In labore voluptatem rerum at odit officia quia.",
+        "Deleted": true,
+        "Rank": 351,
+        "Type": "ipsum",
+        "ColorBlock": 528,
+        "IconHint": "doloribus",
         "Selected": true,
-        "LastChanged": "2022-07-20T13:57:19.9221765+02:00",
+        "LastChanged": "2014-08-05T23:04:05.6954981+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Alverta Kuvalis",
+        "FullName": "Mrs. Amy Swaniawski MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 701
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "qui",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Dr. Henriette King IV",
+    "FullName": "Mollie Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldType": "System.String",
+        "FieldLength": 498
       }
     }
   }

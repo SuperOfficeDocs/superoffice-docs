@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=767
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=987
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "id",
+  "SaleText": "sint",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-03-16T13:57:13.1600641+01:00",
-  "Amount": 5243.182,
-  "SaleId": 214,
-  "Earning": 24514.147999999997,
-  "EarningPercent": 4791.8859999999995,
-  "Heading": "delectus",
-  "Number": "1284685",
-  "Probability": 553,
-  "CreatedDate": "2015-03-12T13:57:13.1600641+01:00",
-  "UpdatedDate": "2021-11-05T13:57:13.1600641+01:00",
+  "Saledate": "2017-03-15T23:03:56.9116166+01:00",
+  "Amount": 10016.264,
+  "SaleId": 480,
+  "Earning": 5271.388,
+  "EarningPercent": 28347.03,
+  "Heading": "velit",
+  "Number": "1385903",
+  "Probability": 427,
+  "CreatedDate": "2007-03-26T23:03:56.9116166+02:00",
+  "UpdatedDate": "2000-09-26T23:03:56.9116166+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 443,
+  "ActiveLinks": 395,
   "Links": [
     {
-      "EntityName": "Kiehn-Zemlak",
-      "Id": 991,
-      "Description": "Triple-buffered content-based budgetary management",
-      "ExtraInfo": "at",
-      "LinkId": 169,
+      "EntityName": "Lindgren-Cassin",
+      "Id": 115,
+      "Description": "Reduced real-time moderator",
+      "ExtraInfo": "reprehenderit",
+      "LinkId": 26,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 926
         }
       }
     }
   ],
-  "NextDueDate": "1997-09-11T13:57:13.1600641+02:00",
-  "Postit": "beatae",
+  "NextDueDate": "2005-08-26T23:03:56.9116166+02:00",
+  "Postit": "minus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-04-16T13:57:13.1600641+02:00",
+  "ReopenDate": "2009-09-10T23:03:56.9121163+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Medhurst, Wehner and Kiehn",
-      "Comment": "rerum",
-      "StakeholderRoleId": 394,
-      "CountryId": 489,
-      "PersonId": 176,
-      "EmailDescription": "ethel.cummings@labadie.ca",
-      "EmailId": 58,
-      "EmailAddress": "randall@wilkinsonsauer.com",
-      "PhoneId": 681,
-      "ContactName": "Dickens-Haley",
-      "ContactId": 976,
-      "SaleId": 985,
-      "Mrmrs": "quas",
-      "Firstname": "Ceasar",
-      "MiddleName": "Blanda, McClure and Connelly",
-      "Lastname": "Cartwright",
-      "SaleStakeholderId": 641,
-      "Rank": 421,
-      "Phone": "249-014-5202 x2652",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 2
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 697,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Callie McLaughlin"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "ad"
-  },
-  "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "architecto"
-  },
-  "PublishEventDate": "2015-07-13T13:57:13.1600641+02:00",
-  "PublishTo": "2001-11-24T13:57:13.1600641+01:00",
-  "PublishFrom": "2012-04-09T13:57:13.1600641+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 293,
-      "Visibility": "All",
-      "DisplayValue": "quidem",
+      "StakeholderRoleName": "Feest, Gottlieb and Pouros",
+      "Comment": "reiciendis",
+      "StakeholderRoleId": 154,
+      "CountryId": 919,
+      "PersonId": 321,
+      "EmailDescription": "hoyt_vonrueden@dooley.uk",
+      "EmailId": 297,
+      "EmailAddress": "lurline_connelly@danielrolfson.com",
+      "PhoneId": 369,
+      "ContactName": "Nicolas, Metz and Leffler",
+      "ContactId": 975,
+      "SaleId": 477,
+      "Mrmrs": "minus",
+      "Firstname": "Maryam",
+      "MiddleName": "Jakubowski LLC",
+      "Lastname": "Moen",
+      "SaleStakeholderId": 156,
+      "Rank": 152,
+      "Phone": "950-747-5292 x41700",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 886
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 45,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Barrett Bradtke"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "facere"
+  },
+  "CustomFields": {
+    "CustomFields1": "dolor",
+    "CustomFields2": "occaecati"
+  },
+  "PublishEventDate": "2000-02-11T23:03:56.9126165+01:00",
+  "PublishTo": "2010-01-30T23:03:56.9126165+01:00",
+  "PublishFrom": "2017-08-20T23:03:56.9126165+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 906,
+      "Visibility": "All",
+      "DisplayValue": "est",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 464
         }
       }
     },
     {
-      "VisibleId": 293,
+      "VisibleId": 906,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldType": "System.Int32",
+          "FieldLength": 464
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldType": "System.String",
+      "FieldLength": 446
     }
   }
 }

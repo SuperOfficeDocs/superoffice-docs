@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 711,
-  "StartTime": "2018-09-30T13:57:12.074872+02:00",
-  "EndTime": "2000-07-31T13:57:12.074872+02:00",
-  "Count": 863,
-  "DocumentTemplateId": 738
+  "ProjectId": 878,
+  "StartTime": "2006-06-28T23:03:55.6791326+02:00",
+  "EndTime": "2006-09-11T23:03:55.6791326+02:00",
+  "Count": 995,
+  "DocumentTemplateId": 869
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 70,
-    "Attention": "eius",
-    "Header": "maxime",
-    "Name": "Hoppe Inc and Sons",
-    "OurRef": "ut",
-    "YourRef": "magni",
-    "Description": "User-centric bottom-line support",
-    "DocumentTemplate": "quae",
+    "DocumentId": 784,
+    "Attention": "aut",
+    "Header": "optio",
+    "Name": "Greenfelder-Bruen",
+    "OurRef": "at",
+    "YourRef": "qui",
+    "Description": "Open-source systemic concept",
+    "DocumentTemplate": "consectetur",
     "IsPublished": true,
-    "PersonId": 88,
-    "PersonFullName": "Mortimer Zieme",
-    "AssociateFullName": "Mrs. Jaquelin Quigley",
-    "ContactId": 693,
-    "ContactName": "Davis, Larkin and Hilpert",
-    "ProjectId": 795,
-    "ProjectName": "Becker-Purdy",
-    "AssociateId": 798,
-    "Snum": 939,
-    "SaleId": 880,
-    "SaleName": "Considine-Frami",
+    "PersonId": 167,
+    "PersonFullName": "Prof. Michael Bechtelar",
+    "AssociateFullName": "Morgan Jacobi",
+    "ContactId": 312,
+    "ContactName": "Windler Inc and Sons",
+    "ProjectId": 584,
+    "ProjectName": "Gottlieb-Haley",
+    "AssociateId": 925,
+    "Snum": 413,
+    "SaleId": 637,
+    "SaleName": "Marvin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldType": "System.String",
+        "FieldLength": 616
       }
     }
   }

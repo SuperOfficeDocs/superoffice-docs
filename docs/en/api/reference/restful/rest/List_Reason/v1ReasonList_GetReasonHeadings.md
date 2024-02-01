@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 351,
-    "Name": "Hyatt, Hettinger and Haag",
-    "Tooltip": "quia",
+    "HeadingId": 418,
+    "Name": "O'Conner, Hartmann and Goldner",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "Rank": 493,
-    "UdListDefinitionId": 225,
+    "Rank": 37,
+    "UdListDefinitionId": 228,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 22
       }
     }
   }

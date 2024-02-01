@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 98,
-  "Name": "Volkman, Smith and Hauck",
-  "Tooltip": "perspiciatis",
-  "SaveInDb": 572,
-  "Filename": "rem",
-  "DefaultOref": "consequatur",
+  "DocumentTemplateId": 860,
+  "Name": "White-Fisher",
+  "Tooltip": "sed",
+  "SaveInDb": 38,
+  "Filename": "similique",
+  "DefaultOref": "atque",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 882,
-  "IntentId": 399,
-  "IsDefaultPublished": false,
-  "Rank": 1000,
-  "LoadTemplateFromPlugin": 51,
-  "MimeType": "occaecati",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 584,
+  "AutoeventId": 969,
+  "IntentId": 563,
+  "IsDefaultPublished": true,
+  "Rank": 906,
+  "LoadTemplateFromPlugin": 951,
+  "MimeType": "sit",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 153,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "giovanni.gibson@kuphalgrimes.biz",
+  "EmailSubject": "hector_nitzsche@wiza.info",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "rasheed@bayer.com",
+  "SenderEmailAddress": "skye.mraz@deckow.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 735
     }
   }
 }

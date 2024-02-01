@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 988,
-  "PlainMessage": "earum",
-  "HtmlMessage": "expedita",
-  "SmsMessage": "quia",
-  "Description": "Compatible optimal knowledge user",
-  "Subject": "necessitatibus",
-  "FolderId": 170,
-  "HeaderField": "voluptatem",
-  "Design": "est",
+  "ShipmentMessageId": 155,
+  "PlainMessage": "id",
+  "HtmlMessage": "delectus",
+  "SmsMessage": "qui",
+  "Description": "Cross-group scalable capability",
+  "Subject": "sit",
+  "FolderId": 253,
+  "HeaderField": "consequuntur",
+  "Design": "dolorem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Configurable user-facing complexity",
-  "AccessKey": "veritatis",
-  "DocumentMessage": 974,
-  "Registered": "2023-06-24T13:57:19.2815227+02:00",
-  "RegisteredAssociateId": 987,
-  "Updated": "2012-09-22T13:57:19.2815227+02:00",
-  "UpdatedAssociateId": 647,
-  "UpdatedCount": 667,
+  "InlineImages": false,
+  "LongDescription": "Public-key bottom-line hierarchy",
+  "AccessKey": "quos",
+  "DocumentMessage": 284,
+  "Registered": "2018-05-09T23:04:04.8035098+02:00",
+  "RegisteredAssociateId": 91,
+  "Updated": "2019-01-30T23:04:04.8035098+01:00",
+  "UpdatedAssociateId": 16,
+  "UpdatedCount": 47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 240
     }
   }
 }

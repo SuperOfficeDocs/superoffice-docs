@@ -88,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 960,
-  "AttachmentId": "rem"
+  "MailItemId": 599,
+  "AttachmentId": "aut"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed systematic collaboration",
-  "Filename": "atque",
-  "Size": 873,
-  "Type": "voluptas",
-  "Encoding": "inventore",
-  "Id": "aut",
-  "Disposition": "nihil",
-  "IsSafeFileExtension": true,
+  "Description": "Horizontal intermediate workforce",
+  "Filename": "corrupti",
+  "Size": 288,
+  "Type": "aliquid",
+  "Encoding": "quia",
+  "Id": "at",
+  "Disposition": "dicta",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 3
     }
   }
 }

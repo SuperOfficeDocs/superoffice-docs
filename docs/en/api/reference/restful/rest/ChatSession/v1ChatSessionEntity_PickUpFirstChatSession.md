@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 142,
-  "TopicId": 28,
+  "ChatSessionId": 251,
+  "TopicId": 785,
   "User": null,
   "Person": null,
-  "CustomerAlias": "recusandae",
-  "CustomerHost": "aliquam",
-  "CustomerName": "Botsford, Treutel and Kautzer",
-  "CustomerEmail": "bernita@kutch.ca",
-  "CustomerPhone": "120-222-9075",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Rice, Heathcote and Tremblay",
+  "CustomerAlias": "aliquid",
+  "CustomerHost": "sint",
+  "CustomerName": "Miller-Corwin",
+  "CustomerEmail": "lambert_schmitt@dietrichconn.co.uk",
+  "CustomerPhone": "1-416-841-8340",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Cole Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "error",
-  "LastMessage": "distinctio",
-  "WhenRequested": "2008-08-04T13:57:18.5284355+02:00",
-  "WhenStarted": "2023-08-08T13:57:18.5284355+02:00",
-  "WhenEnded": "2002-10-03T13:57:18.5284355+02:00",
-  "WhenIdle": "2023-08-26T13:57:18.5284355+02:00",
-  "WhenFetched": "2023-01-30T13:57:18.5284355+01:00",
-  "SessionKey": "ipsa",
-  "InitialQueuePos": 680,
-  "AlertLevel": 227,
-  "Rank": 662,
+  "FirstMessage": "rem",
+  "LastMessage": "sint",
+  "WhenRequested": "2004-01-31T23:04:03.829523+01:00",
+  "WhenStarted": "2002-01-16T23:04:03.829523+01:00",
+  "WhenEnded": "2003-02-22T23:04:03.829523+01:00",
+  "WhenIdle": "1996-10-21T23:04:03.829523+02:00",
+  "WhenFetched": "2005-03-16T23:04:03.829523+01:00",
+  "SessionKey": "rem",
+  "InitialQueuePos": 978,
+  "AlertLevel": 360,
+  "Rank": 337,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 11,
+  "ChatbotIsActive": false,
+  "Rating": 473,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

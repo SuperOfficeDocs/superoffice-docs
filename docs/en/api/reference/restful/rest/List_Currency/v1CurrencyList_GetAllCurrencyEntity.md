@@ -27,7 +27,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=True
+GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
 
 
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 15,
-    "Name": "Gaylord Inc and Sons",
-    "Tooltip": "magnam",
-    "Rank": 405,
-    "Rate": 30255.636,
-    "Units": 9267.238,
-    "Deleted": true,
+    "CurrencyId": 791,
+    "Name": "Bernier, Gusikowski and Rosenbaum",
+    "Tooltip": "molestiae",
+    "Rank": 356,
+    "Rate": 14739.202,
+    "Units": 24934.104,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldLength": 605
       }
     }
   }

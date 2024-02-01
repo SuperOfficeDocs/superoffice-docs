@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 611,
-    "Name": "Balistreri, Hahn and Hyatt",
-    "Tooltip": "qui",
+    "HeadingId": 468,
+    "Name": "Leffler Group",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 837
+    "Rank": 183,
+    "UdListDefinitionId": 506
   },
   {
-    "HeadingId": 611,
-    "Name": "Balistreri, Hahn and Hyatt",
-    "Tooltip": "qui",
+    "HeadingId": 468,
+    "Name": "Leffler Group",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 837
+    "Rank": 183,
+    "UdListDefinitionId": 506
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 157,
-    "Name": "Runte LLC",
-    "Tooltip": "vero",
-    "Deleted": true,
-    "Rank": 136,
-    "UdListDefinitionId": 276,
+    "HeadingId": 313,
+    "Name": "Ledner Inc and Sons",
+    "Tooltip": "ducimus",
+    "Deleted": false,
+    "Rank": 836,
+    "UdListDefinitionId": 492,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 439
       }
     }
   }

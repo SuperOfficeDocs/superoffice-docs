@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 936,
-  "Name": "Ortiz-Walsh",
-  "Tooltip": "distinctio",
+  "Id": 628,
+  "Name": "Pollich, Gleason and Hansen",
+  "Tooltip": "a",
   "Deleted": false,
-  "UdListDefinitionId": 357,
-  "Rank": 68,
+  "UdListDefinitionId": 664,
+  "Rank": 27,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 223
     }
   }
 }

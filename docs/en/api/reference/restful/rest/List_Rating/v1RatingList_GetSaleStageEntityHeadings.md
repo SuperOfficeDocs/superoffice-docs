@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 826,
-    "Name": "Pagac-Runolfsson",
-    "Tooltip": "dolore",
+    "HeadingId": 358,
+    "Name": "Kunde-Carter",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 928,
-    "UdListDefinitionId": 397,
+    "Rank": 706,
+    "UdListDefinitionId": 395,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 25
       }
     }
   }

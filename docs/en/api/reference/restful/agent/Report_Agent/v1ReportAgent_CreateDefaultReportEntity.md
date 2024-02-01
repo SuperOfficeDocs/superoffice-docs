@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 304,
+  "ReportId": 505,
   "ReportCategory": "All",
-  "Description": "Implemented cohesive superstructure",
+  "Description": "Profit-focused mobile focus group",
   "ReportLayout": "CalendarMonth",
-  "Name": "Bernhard LLC",
-  "AssociateId": 341,
-  "TemplateId": 98,
+  "Name": "Lowe, Littel and Hills",
+  "AssociateId": 335,
+  "TemplateId": 891,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 14
     }
   }
 }

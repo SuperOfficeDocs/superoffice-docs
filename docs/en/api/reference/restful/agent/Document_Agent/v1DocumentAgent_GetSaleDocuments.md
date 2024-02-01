@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 571
+  "SaleId": 699
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 574,
-    "Attention": "voluptatem",
-    "Header": "id",
-    "Name": "Walker-McClure",
-    "OurRef": "quia",
-    "YourRef": "dolores",
-    "Description": "Polarised hybrid project",
-    "DocumentTemplate": "voluptatem",
+    "DocumentId": 650,
+    "Attention": "quisquam",
+    "Header": "omnis",
+    "Name": "Harvey-Emmerich",
+    "OurRef": "nihil",
+    "YourRef": "qui",
+    "Description": "Centralized global policy",
+    "DocumentTemplate": "atque",
     "IsPublished": false,
-    "PersonId": 371,
-    "PersonFullName": "Lillian Altenwerth",
-    "AssociateFullName": "Keith Xzavier Parker I",
-    "ContactId": 960,
-    "ContactName": "Ziemann-Balistreri",
-    "ProjectId": 888,
-    "ProjectName": "McClure Group",
-    "AssociateId": 417,
-    "Snum": 285,
-    "SaleId": 651,
-    "SaleName": "Powlowski-Ferry",
+    "PersonId": 450,
+    "PersonFullName": "Dr. Octavia Billy Pagac",
+    "AssociateFullName": "Damaris Halvorson PhD",
+    "ContactId": 759,
+    "ContactName": "Hettinger, Doyle and Shanahan",
+    "ProjectId": 1000,
+    "ProjectName": "Terry, Lynch and Hoeger",
+    "AssociateId": 410,
+    "Snum": 988,
+    "SaleId": 519,
+    "SaleName": "Halvorson LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 4
       }
     }
   }

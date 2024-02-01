@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1001,
-    "Name": "Wilderman-Hayes",
-    "ToolTip": "Quod qui.",
+    "Id": 53,
+    "Name": "Douglas, Jerde and Grady",
+    "ToolTip": "Et est sint.",
     "Deleted": true,
-    "Rank": 768,
-    "Type": "totam",
-    "ColorBlock": 146,
-    "IconHint": "et",
+    "Rank": 363,
+    "Type": "laborum",
+    "ColorBlock": 14,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2021-04-22T13:57:19.6096461+02:00",
+    "LastChanged": "2000-01-12T23:04:05.2690024+01:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Littel Group",
-        "ToolTip": "Incidunt tempore dolorem iste aut.",
+        "Id": 949,
+        "Name": "Willms Group",
+        "ToolTip": "Culpa similique voluptatibus est aliquid voluptas adipisci perspiciatis.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "et",
-        "ColorBlock": 517,
-        "IconHint": "exercitationem",
-        "Selected": false,
-        "LastChanged": "2004-06-24T13:57:19.6096461+02:00",
+        "Rank": 524,
+        "Type": "rerum",
+        "ColorBlock": 507,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2001-01-12T23:04:05.2690024+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Ms. Guy O'Kon"
+        "ExtraInfo": "distinctio",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Lottie Wolff"
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "quas",
+    "ExtraInfo": "quam",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Una Bahringer"
+    "FullName": "Jeffry Littel"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Nitzsche-Okuneva",
-    "ToolTip": "Est natus at itaque qui excepturi dolorem.",
+    "Id": 187,
+    "Name": "Kreiger-Reynolds",
+    "ToolTip": "Necessitatibus sapiente sed.",
     "Deleted": false,
-    "Rank": 349,
-    "Type": "vel",
-    "ColorBlock": 823,
-    "IconHint": "culpa",
+    "Rank": 40,
+    "Type": "delectus",
+    "ColorBlock": 311,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2006-03-19T13:57:19.6096461+01:00",
+    "LastChanged": "2022-09-17T23:04:05.2715048+02:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Cartwright-Dooley",
-        "ToolTip": "Dolorem officiis nobis suscipit et tempora et similique.",
-        "Deleted": false,
-        "Rank": 166,
-        "Type": "sint",
-        "ColorBlock": 266,
-        "IconHint": "ut",
+        "Id": 984,
+        "Name": "Abbott-Feeney",
+        "ToolTip": "Aut alias accusantium voluptate laborum placeat doloremque.",
+        "Deleted": true,
+        "Rank": 425,
+        "Type": "repellendus",
+        "ColorBlock": 523,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "1999-11-15T13:57:19.6096461+01:00",
+        "LastChanged": "2002-06-26T23:04:05.2715048+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "aut",
+        "ExtraInfo": "nihil",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Gussie Gibson",
+        "FullName": "Rosalinda Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 419
+            "FieldLength": 346
           }
         }
       }
     ],
     "ExtraInfo": "sed",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Annabelle Zulauf",
+    "StyleHint": "consectetur",
+    "Hidden": true,
+    "FullName": "Elnora Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 594
       }
     }
   }

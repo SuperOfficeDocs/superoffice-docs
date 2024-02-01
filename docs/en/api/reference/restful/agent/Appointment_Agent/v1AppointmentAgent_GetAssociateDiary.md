@@ -128,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 262,
-  "StartTime": "1996-11-17T13:57:11.2001023+01:00",
-  "EndTime": "2005-09-19T13:57:11.2001023+02:00",
-  "Count": 384
+  "AssociateId": 459,
+  "StartTime": "2020-11-10T23:03:54.5716488+01:00",
+  "EndTime": "1998-05-31T23:03:54.5716488+02:00",
+  "Count": 182
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 413,
-    "StartDate": "2017-11-07T13:57:11.2001023+01:00",
-    "EndDate": "2013-10-12T13:57:11.2001023+02:00",
+    "AppointmentId": 757,
+    "StartDate": "1997-12-11T23:03:54.5731484+01:00",
+    "EndDate": "2007-06-29T23:03:54.5731484+02:00",
     "Type": "BookingForChecklist",
-    "Task": "possimus",
-    "AssociateFullName": "Neha Sonny Kihn Sr.",
-    "ContactName": "Wisozk, Kerluke and Stokes",
-    "Description": "Optimized multimedia flexibility",
-    "PersonFullName": "Reta Isaac Ondricka V",
-    "PersonId": 464,
-    "ContactId": 922,
-    "ProjectId": 163,
-    "ProjectName": "Kunze-Kovacek",
+    "Task": "voluptatem",
+    "AssociateFullName": "Zoie Swaniawski II",
+    "ContactName": "McKenzie Inc and Sons",
+    "Description": "Adaptive foreground policy",
+    "PersonFullName": "Thora Oma Rutherford DVM",
+    "PersonId": 373,
+    "ContactId": 980,
+    "ProjectId": 897,
+    "ProjectName": "Fritsch, Wilkinson and Will",
     "IsPublished": false,
-    "AssociateId": 771,
-    "ColorIndex": 490,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 660,
+    "ColorIndex": 50,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 87,
-    "PriorityName": "Jerde-Rice",
+    "PriorityId": 508,
+    "PriorityName": "Batz, Daugherty and Smitham",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2022-05-14T13:57:11.2001023+02:00",
+    "ActiveDate": "2014-01-14T23:03:54.5736483+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-08-13T13:57:11.2001023+02:00",
-    "RecurringEndDate": "2005-09-19T13:57:11.2001023+02:00",
-    "MotherId": 704,
-    "AssignedBy": 419,
-    "AssignedByFullName": "Mark Doyle",
+    "RecurringStartDate": "2008-08-01T23:03:54.5736483+02:00",
+    "RecurringEndDate": "2004-03-18T23:03:54.5736483+01:00",
+    "MotherId": 255,
+    "AssignedBy": 9,
+    "AssignedByFullName": "Frank Carter",
     "RejectReason": "",
-    "Location": "voluptas",
-    "AlarmLeadTime": "doloremque",
-    "SaleId": 458,
-    "SaleName": "Schmidt Group",
-    "AssociateName": "Boehm Inc and Sons",
-    "CreatedDate": "2019-12-10T13:57:11.2001023+01:00",
-    "CreatedBy": "blanditiis",
-    "CreatedByFullName": "Prof. Fletcher Williamson",
-    "CreatedByAssociateId": 666,
+    "Location": "ipsam",
+    "AlarmLeadTime": "autem",
+    "SaleId": 123,
+    "SaleName": "Casper, Ruecker and Blanda",
+    "AssociateName": "Konopelski, Medhurst and Kiehn",
+    "CreatedDate": "2011-09-11T23:03:54.5751479+02:00",
+    "CreatedBy": "consectetur",
+    "CreatedByFullName": "Ellsworth Dibbert I",
+    "CreatedByAssociateId": 490,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 917,
-    "Title": "velit",
-    "Agenda": "odit",
-    "InternalNotes": "illo",
+    "PreferredTZLocation": 510,
+    "Title": "aperiam",
+    "Agenda": "ipsam",
+    "InternalNotes": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

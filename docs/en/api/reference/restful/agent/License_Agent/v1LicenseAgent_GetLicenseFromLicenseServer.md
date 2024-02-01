@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rutherford, Grady and Schaden"
+  "OwnerName": "O'Keefe-Luettgen"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 720,
-      "NumberOfLicensesFree": 996,
-      "NumberOfLicensesAdded": 627,
-      "NumberOfLicensesNewTotal": 499,
-      "NumberOfLicensesNewFree": 522,
-      "NumberOfLicensesTotal": 938
+      "NumberOfLicensesInUse": 657,
+      "NumberOfLicensesFree": 385,
+      "NumberOfLicensesAdded": 547,
+      "NumberOfLicensesNewTotal": 991,
+      "NumberOfLicensesNewFree": 747,
+      "NumberOfLicensesTotal": 449
     }
   ],
-  "AccumulatedNextCheckDate": "1999-02-24T13:57:12.4337359+01:00"
+  "AccumulatedNextCheckDate": "2015-06-11T23:03:56.1351296+02:00"
 }
 ```

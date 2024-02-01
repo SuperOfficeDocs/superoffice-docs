@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 41,
-  "Created": "2008-06-24T13:57:13.0961896+02:00",
+  "SatelliteId": 75,
+  "Created": "1998-09-20T23:03:56.8201174+02:00",
   "CreatedBy": null,
-  "Updated": "2010-07-17T13:57:13.0961896+02:00",
+  "Updated": "2001-07-01T23:03:56.8206197+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Shields-Towne",
-      "Description": "Balanced cohesive circuit",
+      "Name": "Kessler-O'Hara",
+      "Description": "Object-based mobile circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Shields-Towne",
-      "Description": "Balanced cohesive circuit",
+      "Name": "Kessler-O'Hara",
+      "Description": "Object-based mobile circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 326,
-  "Created": "2018-10-25T13:57:13.0961896+02:00",
+  "SatelliteId": 927,
+  "Created": "2020-10-27T23:03:56.8256172+01:00",
   "CreatedBy": null,
-  "Updated": "2003-08-02T13:57:13.0961896+02:00",
+  "Updated": "2014-08-15T23:03:56.8256172+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Lebsack, Howe and Hilll",
-      "Description": "Synergistic assymetric complexity",
+      "Name": "Goldner Inc and Sons",
+      "Description": "Implemented tangible parallelism",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldType": "System.String",
+          "FieldLength": 94
         }
       }
     },
     {
-      "Name": "Lebsack, Howe and Hilll",
-      "Description": "Synergistic assymetric complexity",
+      "Name": "Goldner Inc and Sons",
+      "Description": "Implemented tangible parallelism",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldType": "System.String",
+          "FieldLength": 94
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 541
+      "FieldLength": 911
     }
   }
 }

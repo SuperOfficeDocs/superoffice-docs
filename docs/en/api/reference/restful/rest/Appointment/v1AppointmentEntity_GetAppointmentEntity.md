@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -134,7 +134,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -142,127 +142,127 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 29 Dec 2013 13:57:18 G12T
+Last-Modified: Tue, 07 May 2013 23:04:03 G5T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-09-28T13:57:18.3565633+02:00",
-  "AppointmentId": 70,
-  "Description": "Future-proofed empowering synergy",
-  "Title": "sed",
-  "Agenda": "ab",
-  "InternalNotes": "recusandae",
-  "StartDate": "2019-04-17T13:57:18.3565633+02:00",
-  "EndDate": "2011-03-02T13:57:18.3565633+01:00",
+  "CreatedDate": "2013-12-21T23:04:03.5990247+01:00",
+  "AppointmentId": 361,
+  "Description": "Compatible web-enabled initiative",
+  "Title": "beatae",
+  "Agenda": "voluptas",
+  "InternalNotes": "et",
+  "StartDate": "2003-07-17T23:04:03.5990247+02:00",
+  "EndDate": "2019-07-31T23:04:03.5990247+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 385,
+  "MotherId": 608,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-12-29T13:57:18.3565633+01:00",
+  "UpdatedDate": "2013-05-07T23:04:03.6015268+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 960,
+  "ActiveLinks": 705,
   "Links": [
     {
-      "EntityName": "Olson, Moore and Grady",
-      "Id": 386,
-      "Description": "Mandatory radical service-desk",
-      "ExtraInfo": "officia",
-      "LinkId": 951,
+      "EntityName": "Boyer-Baumbach",
+      "Id": 763,
+      "Description": "Synergized uniform info-mediaries",
+      "ExtraInfo": "molestiae",
+      "LinkId": 707,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 556
         }
       }
     }
   ],
-  "AlarmLeadTime": "id",
-  "HasAlarm": false,
-  "ColorIndex": 175,
+  "AlarmLeadTime": "quia",
+  "HasAlarm": true,
+  "ColorIndex": 174,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "eum",
-  "LeadTime": "quisquam",
-  "Location": "voluptatum",
-  "RejectCounter": 602,
+  "LagTime": "quia",
+  "LeadTime": "libero",
+  "Location": "ullam",
+  "RejectCounter": 826,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 263,
-      "PersonId": 874,
-      "ContactId": 315,
-      "EmailId": 39,
+      "AssociateId": 88,
+      "PersonId": 38,
+      "ContactId": 444,
+      "EmailId": 638,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "marcia_hodkiewicz@heller.info",
-      "Description": "Networked hybrid secured line"
+      "EmailAddress": "natasha_willms@quigleydurgan.info",
+      "Description": "Cross-group empowering firmware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-08-16T13:57:18.3565633+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2008-05-27T23:04:03.6020247+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 193,
+  "PreferredTZLocation": 121,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 569,
+  "SuggestedAppointmentId": 797,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eveniet",
+  "CentralserviceVideomeetId": "dolor",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Miss Brody Keyshawn Dickens II"
+    "SuperOffice:1": "Jayden Doyle",
+    "SuperOffice:2": "Dr. Sarina Kris DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "dolorum"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "nulla"
+    "CustomFields1": "expedita",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2021-12-22T13:57:18.3565633+01:00",
-  "PublishTo": "2000-02-25T13:57:18.3565633+01:00",
-  "PublishFrom": "2001-01-29T13:57:18.3565633+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-03-15T23:04:03.6045264+01:00",
+  "PublishTo": "2013-10-20T23:04:03.6045264+02:00",
+  "PublishFrom": "2002-04-09T23:04:03.6045264+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 961,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldType": "System.Int32",
+          "FieldLength": 36
         }
       }
     },
     {
-      "VisibleId": 961,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldType": "System.Int32",
+          "FieldLength": 36
         }
       }
     }
@@ -272,7 +272,7 @@ Last-Modified: Sun, 29 Dec 2013 13:57:18 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldLength": 628
     }
   },
   "_Links": {

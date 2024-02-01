@@ -85,27 +85,27 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 699,
-  "Name": "Gleason Group",
-  "Rank": 968,
-  "Tooltip": "enim",
-  "Icon": "sapiente",
-  "DefaultTicketStatus": 845,
+  "TicketTypeId": 483,
+  "Name": "Nikolaus-Raynor",
+  "Rank": 585,
+  "Tooltip": "esse",
+  "Icon": "ut",
+  "DefaultTicketStatus": 584,
   "TicketStatuses": [
-    341,
-    94
+    51,
+    583
   ],
-  "DefaultTicketPriority": 267,
+  "DefaultTicketPriority": 834,
   "TicketPriorities": [
-    12,
-    786
+    616,
+    151
   ],
-  "ReplyTemplate": 601,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 700,
+  "IsExternalVisible": false,
   "IsDefault": true
 }
 ```
@@ -117,30 +117,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 987,
-  "Name": "Kshlerin, O'Conner and Green",
-  "Rank": 701,
-  "Tooltip": "eligendi",
-  "Icon": "aut",
-  "DefaultTicketStatus": 441,
+  "TicketTypeId": 839,
+  "Name": "Parker-Ortiz",
+  "Rank": 164,
+  "Tooltip": "totam",
+  "Icon": "amet",
+  "DefaultTicketStatus": 693,
   "TicketStatuses": [
-    111,
-    194
+    48,
+    549
   ],
-  "DefaultTicketPriority": 430,
+  "DefaultTicketPriority": 931,
   "TicketPriorities": [
-    592,
-    980
+    452,
+    247
   ],
-  "ReplyTemplate": 442,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 216,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 720
     }
   }
 }

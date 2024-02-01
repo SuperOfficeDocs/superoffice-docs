@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 80,
-  "Currency": "ab"
+  "QuoteConnectionId": 36,
+  "Currency": "maxime"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 716,
-    "ERPPriceListKey": "sint",
-    "QuoteConnectionId": 57,
-    "Name": "Weimann LLC",
-    "Description": "Proactive tertiary strategy",
-    "Currency": "sint",
-    "CurrencyName": "Metz, Gutkowski and Kulas",
-    "ValidFrom": "2014-08-12T13:57:13.064942+02:00",
-    "ValidTo": "1999-12-05T13:57:13.064942+01:00",
+    "PriceListId": 410,
+    "ERPPriceListKey": "earum",
+    "QuoteConnectionId": 205,
+    "Name": "Bosco, Goodwin and Pouros",
+    "Description": "Reduced web-enabled benchmark",
+    "Currency": "id",
+    "CurrencyName": "Zemlak-Gorczany",
+    "ValidFrom": "1999-09-06T23:03:56.7811186+02:00",
+    "ValidTo": "2011-08-26T23:03:56.7811186+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldLength": 480
       }
     }
   }

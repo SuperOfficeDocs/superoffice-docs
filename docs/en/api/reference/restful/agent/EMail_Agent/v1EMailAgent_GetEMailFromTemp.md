@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Altenwerth LLC"
+  "FileName": "Lesch, Anderson and Crooks"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 426,
-      "ContactName": "Mertz-Gerhold",
-      "PersonId": 659,
-      "PersonName": "Blick Inc and Sons",
-      "AssociateId": 7,
-      "Address": "et",
-      "EmailId": 843,
+      "ContactId": 564,
+      "ContactName": "Von, King and Cruickshank",
+      "PersonId": 53,
+      "PersonName": "Tillman Inc and Sons",
+      "AssociateId": 723,
+      "Address": "ut",
+      "EmailId": 752,
       "DuplicatePersonIds": [
-        371,
-        992
+        532,
+        338
       ],
-      "Name": "Abshire, Morar and Mills",
+      "Name": "Tillman, Mills and Gleichner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 346
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 257,
-      "ContactName": "Yundt-Hermiston",
-      "PersonId": 236,
-      "PersonName": "Hoeger, Rutherford and Senger",
-      "AssociateId": 659,
-      "Address": "ex",
-      "EmailId": 493,
+      "ContactId": 138,
+      "ContactName": "Deckow, Powlowski and Nicolas",
+      "PersonId": 394,
+      "PersonName": "Beatty, Lehner and Denesik",
+      "AssociateId": 720,
+      "Address": "at",
+      "EmailId": 179,
       "DuplicatePersonIds": [
-        700,
-        567
+        206,
+        518
       ],
-      "Name": "Volkman, Torp and Marvin",
+      "Name": "Yost, Gutmann and Labadie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 823,
-      "ContactName": "Denesik, Macejkovic and Bergnaum",
-      "PersonId": 129,
-      "PersonName": "Stoltenberg, Rogahn and Franecki",
-      "AssociateId": 163,
-      "Address": "molestias",
-      "EmailId": 599,
+      "ContactId": 605,
+      "ContactName": "Nicolas-Gerlach",
+      "PersonId": 429,
+      "PersonName": "Heaney, Wyman and Rice",
+      "AssociateId": 94,
+      "Address": "accusantium",
+      "EmailId": 815,
       "DuplicatePersonIds": [
-        705,
-        150
+        317,
+        477
       ],
-      "Name": "Altenwerth Group",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 524
-        }
-      }
-    }
-  ],
-  "Subject": "quasi",
-  "HTMLBody": "qui",
-  "From": null,
-  "Sent": "2021-01-07T13:57:12.3399846+01:00",
-  "Size": 645,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "numquam",
-  "PlainBody": "quo",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 438,
-  "Attachments": [
-    {
-      "Description": "Multi-tiered client-server throughput",
-      "Filename": "quae",
-      "Size": 99,
-      "Type": "dolor",
-      "Encoding": "vero",
-      "Id": "non",
-      "Disposition": "rerum",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Smitham, Kemmer and Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldLength": 136
+        }
+      }
+    }
+  ],
+  "Subject": "maxime",
+  "HTMLBody": "velit",
+  "From": null,
+  "Sent": "2017-07-08T23:03:56.0101289+02:00",
+  "Size": 771,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "dolorum",
+  "PlainBody": "voluptates",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 680,
+  "Attachments": [
+    {
+      "Description": "Multi-layered fresh-thinking focus group",
+      "Filename": "odio",
+      "Size": 818,
+      "Type": "et",
+      "Encoding": "occaecati",
+      "Id": "maiores",
+      "Disposition": "nesciunt",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 809
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Daugherty, Jones and Denesik",
+      "Name": "Donnelly-Schultz",
       "Values": [
-        "dolores",
-        "accusamus"
+        "in",
+        "quis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 573
+          "FieldType": "System.Int32",
+          "FieldLength": 379
         }
       }
     },
     {
-      "Name": "Daugherty, Jones and Denesik",
+      "Name": "Donnelly-Schultz",
       "Values": [
-        "dolores",
-        "accusamus"
+        "in",
+        "quis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 573
+          "FieldType": "System.Int32",
+          "FieldLength": 379
         }
       }
     }
   ],
-  "FolderName": "Hettinger, Auer and Donnelly",
-  "EmailItemId": 279,
-  "AccountId": 965,
-  "ReceivedAt": "2006-04-21T13:57:12.3399846+02:00",
+  "FolderName": "Mann, Huel and Stanton",
+  "EmailItemId": 420,
+  "AccountId": 115,
+  "ReceivedAt": "2003-04-05T23:03:56.0106282+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-12-22T13:57:12.3399846+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2002-10-05T23:03:56.0106282+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 455
     }
   }
 }

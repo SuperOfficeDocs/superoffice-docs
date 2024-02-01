@@ -123,26 +123,26 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 147,
-  "Name": "Fisher, Bergnaum and Yundt",
-  "Description": "Switchable stable service-desk",
-  "WelcomeMessage": "dolorem",
+  "ChatTopicId": 177,
+  "Name": "Will Inc and Sons",
+  "Description": "Up-sized 24/7 emulation",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2012-07-06T13:57:11.6063063+02:00",
-  "SecondsPrAccept": 279,
-  "AlertRecipient": "quos",
+  "LastAccept": "2009-11-15T23:03:55.0906414+01:00",
+  "SecondsPrAccept": 801,
+  "AlertRecipient": "aperiam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "voluptas",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "dolorum",
-  "WarnNewChatMinutes": 222,
-  "WarnManagerNewChatMinutes": 187,
-  "TicketEnabled": false,
+  "BadgeHeader": "maxime",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "tempore",
+  "WarnNewChatMinutes": 410,
+  "WarnManagerNewChatMinutes": 412,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 219,
-  "WarnManagerChatMessageMinutes": 287,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 235,
-  "OfflineFormQueueLength": 612,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "sit"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 694,
+  "WarnManagerChatMessageMinutes": 284,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 370,
+  "OfflineFormQueueLength": 253,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "distinctio"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 103,
-  "Name": "Nolan-Ferry",
-  "Description": "Progressive analyzing policy",
-  "WelcomeMessage": "amet",
+  "ChatTopicId": 787,
+  "Name": "Mayert Inc and Sons",
+  "Description": "Switchable multi-state array",
+  "WelcomeMessage": "totam",
   "Language": null,
-  "LastAccept": "2010-03-24T13:57:11.6063063+01:00",
-  "SecondsPrAccept": 527,
-  "AlertRecipient": "repudiandae",
+  "LastAccept": "2015-03-19T23:03:55.0931408+01:00",
+  "SecondsPrAccept": 490,
+  "AlertRecipient": "iste",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "nulla",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "voluptates",
-  "WarnNewChatMinutes": 167,
-  "WarnManagerNewChatMinutes": 321,
+  "CollectConsent": false,
+  "BadgeHeader": "suscipit",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "laborum",
+  "WarnNewChatMinutes": 836,
+  "WarnManagerNewChatMinutes": 5,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 656,
-  "WarnManagerChatMessageMinutes": 184,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 403,
+  "WarnManagerChatMessageMinutes": 235,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 590,
-  "OfflineFormQueueLength": 382,
+  "OfflineFormTimeLimit": 790,
+  "OfflineFormQueueLength": 942,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "ut",
+  "WidgetRatingText": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 555
     }
   }
 }

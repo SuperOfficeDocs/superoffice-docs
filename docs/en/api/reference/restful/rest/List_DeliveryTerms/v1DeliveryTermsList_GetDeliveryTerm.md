@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 779,
-  "Name": "Lakin-Anderson",
-  "Tooltip": "alias",
+  "Id": 556,
+  "Name": "Boehm-Pacocha",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 381,
-  "Rank": 504,
+  "UdListDefinitionId": 722,
+  "Rank": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 92
     }
   }
 }

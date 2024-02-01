@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Lemke, Cremin and Runte",
-    "ToolTip": "Magni nemo voluptate aperiam dolores.",
+    "Id": 525,
+    "Name": "Gaylord, Grimes and Harvey",
+    "ToolTip": "Illo modi sequi praesentium minus tenetur inventore.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "et",
-    "ColorBlock": 781,
-    "IconHint": "sit",
+    "Rank": 171,
+    "Type": "nulla",
+    "ColorBlock": 947,
+    "IconHint": "labore",
     "Selected": true,
-    "LastChanged": "2019-01-06T13:57:20.1577843+01:00",
+    "LastChanged": "2006-12-08T23:04:05.9834945+01:00",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Haag LLC",
-        "ToolTip": "Aut cumque consequatur explicabo enim est.",
+        "Id": 347,
+        "Name": "Rempel, Wunsch and Ullrich",
+        "ToolTip": "Sed et voluptatum itaque dolor.",
         "Deleted": false,
-        "Rank": 242,
-        "Type": "quis",
-        "ColorBlock": 21,
-        "IconHint": "sit",
+        "Rank": 497,
+        "Type": "occaecati",
+        "ColorBlock": 676,
+        "IconHint": "sunt",
         "Selected": true,
-        "LastChanged": "2018-05-05T13:57:20.1577843+02:00",
+        "LastChanged": "2008-01-09T23:04:05.9849927+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "maiores",
+        "ExtraInfo": "impedit",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Rosalyn Halvorson",
+        "FullName": "Cameron Watsica IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldType": "System.String",
+            "FieldLength": 182
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "cumque",
+    "ExtraInfo": "nihil",
+    "StyleHint": "officia",
     "Hidden": true,
-    "FullName": "Jerel Hayes DVM",
+    "FullName": "Hobart Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldType": "System.String",
+        "FieldLength": 251
       }
     }
   }

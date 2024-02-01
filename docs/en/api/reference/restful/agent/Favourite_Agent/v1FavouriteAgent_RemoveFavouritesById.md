@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavouritesById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FavouriteIds": [
-    237,
-    539
+    436,
+    514
   ]
 }
 ```

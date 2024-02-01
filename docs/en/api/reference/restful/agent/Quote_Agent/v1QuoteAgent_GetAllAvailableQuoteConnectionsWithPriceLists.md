@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 692,
-    "ERPName": "Bergstrom, Lind and Hartmann",
-    "DisplayName": "Abshire, Schroeder and Green",
-    "DisplayDescription": "Secured holistic functionalities",
-    "Rank": 336,
-    "ConnectorName": "Ernser LLC",
-    "ErpConnectionId": 689,
-    "ExtraData": "quos",
+    "QuoteConnectionId": 953,
+    "ERPName": "Schulist-Simonis",
+    "DisplayName": "Fahey-Zboncak",
+    "DisplayDescription": "Right-sized tangible frame",
+    "Rank": 96,
+    "ConnectorName": "Quigley Group",
+    "ErpConnectionId": 456,
+    "ExtraData": "nisi",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 6,
-        "ERPPriceListKey": "facere",
-        "QuoteConnectionId": 909,
-        "Name": "Nikolaus Inc and Sons",
-        "Description": "Automated non-volatile middleware",
-        "Currency": "similique",
-        "CurrencyName": "Wiegand-Macejkovic",
-        "ValidFrom": "2006-05-31T13:57:13.064942+02:00",
-        "ValidTo": "2014-05-18T13:57:13.064942+02:00",
-        "IsActive": true,
+        "PriceListId": 116,
+        "ERPPriceListKey": "omnis",
+        "QuoteConnectionId": 740,
+        "Name": "Bayer, Bednar and Wehner",
+        "Description": "Cross-group intermediate firmware",
+        "Currency": "voluptatem",
+        "CurrencyName": "Lueilwitz, Willms and Bruen",
+        "ValidFrom": "2011-08-06T23:03:56.7751196+02:00",
+        "ValidTo": "1999-11-17T23:03:56.7751196+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      618,
-      224
+      648,
+      641
     ],
     "AssociateAccessIds": [
-      469,
-      462
+      5,
+      299
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 612
       }
     }
   }

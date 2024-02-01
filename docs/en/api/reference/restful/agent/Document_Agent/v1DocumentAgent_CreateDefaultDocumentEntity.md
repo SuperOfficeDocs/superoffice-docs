@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 618,
+  "DocumentId": 712,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "iste",
-  "Header": "qui",
-  "Name": "Schiller-Oberbrunner",
-  "OurRef": "veniam",
-  "YourRef": "minima",
-  "CreatedDate": "1998-06-19T13:57:12.1061272+02:00",
-  "UpdatedDate": "2005-08-23T13:57:12.1061272+02:00",
-  "Description": "Persevering responsive benchmark",
+  "Attention": "assumenda",
+  "Header": "rerum",
+  "Name": "Mosciski LLC",
+  "OurRef": "dolore",
+  "YourRef": "autem",
+  "CreatedDate": "2006-06-01T23:03:55.7021327+02:00",
+  "UpdatedDate": "2020-04-19T23:03:55.7021327+02:00",
+  "Description": "Organic dedicated hardware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-10-04T13:57:12.1061272+02:00",
-  "ExternalRef": "rem",
+  "Date": "2011-07-21T23:03:55.7051329+02:00",
+  "ExternalRef": "optio",
   "Completed": "Completed",
-  "ActiveLinks": 758,
+  "ActiveLinks": 461,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gaylord, Borer and Buckridge",
-      "Id": 550,
-      "Description": "Vision-oriented analyzing middleware",
-      "ExtraInfo": "labore",
-      "LinkId": 143,
+      "EntityName": "Hoppe, Sauer and Collins",
+      "Id": 216,
+      "Description": "Vision-oriented reciprocal infrastructure",
+      "ExtraInfo": "non",
+      "LinkId": 410,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 311,
-  "Snum": 145,
+  "SuggestedDocumentId": 32,
+  "Snum": 278,
   "UserDefinedFields": {
-    "SuperOffice:1": "1557621885",
-    "SuperOffice:2": "2102104003"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Uriah Nolan"
   },
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "non"
+    "CustomFields1": "laborum",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2016-07-12T13:57:12.1061272+02:00",
-  "PublishTo": "2012-05-04T13:57:12.1061272+02:00",
-  "PublishFrom": "2006-02-24T13:57:12.1061272+01:00",
+  "PublishEventDate": "2022-11-30T23:03:55.7071435+01:00",
+  "PublishTo": "1999-05-24T23:03:55.7071435+02:00",
+  "PublishFrom": "2001-11-20T23:03:55.7071435+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 723,
+      "VisibleId": 13,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldType": "System.String",
+          "FieldLength": 736
         }
       }
     },
     {
-      "VisibleId": 723,
+      "VisibleId": 13,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldType": "System.String",
+          "FieldLength": 736
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldType": "System.String",
+      "FieldLength": 689
     }
   }
 }

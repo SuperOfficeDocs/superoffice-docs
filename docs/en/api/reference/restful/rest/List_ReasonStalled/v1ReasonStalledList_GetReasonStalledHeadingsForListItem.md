@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Botsford Inc and Sons",
-    "ToolTip": "Animi perferendis quo ut.",
+    "Id": 751,
+    "Name": "Bosco-O'Connell",
+    "ToolTip": "Iusto iste adipisci rerum.",
     "Deleted": false,
-    "Rank": 657,
-    "Type": "suscipit",
-    "ColorBlock": 621,
-    "IconHint": "ut",
+    "Rank": 712,
+    "Type": "porro",
+    "ColorBlock": 174,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2018-12-18T13:57:20.1109105+01:00",
+    "LastChanged": "2009-08-10T23:04:05.7840016+02:00",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Gottlieb-Romaguera",
-        "ToolTip": "Illum officia harum voluptatum dolorum.",
+        "Id": 973,
+        "Name": "Mueller, Dooley and Volkman",
+        "ToolTip": "Cum suscipit quasi excepturi quos ea reiciendis expedita.",
         "Deleted": true,
-        "Rank": 674,
-        "Type": "repellat",
-        "ColorBlock": 698,
-        "IconHint": "ut",
+        "Rank": 894,
+        "Type": "eveniet",
+        "ColorBlock": 566,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2004-05-10T13:57:20.1109105+02:00",
+        "LastChanged": "2008-03-20T23:04:05.7840016+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "illum",
+        "ExtraInfo": "et",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Caleb Cordelia Koelpin III",
+        "FullName": "Miss Dax Senger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldType": "System.String",
+            "FieldLength": 798
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "temporibus",
-    "Hidden": false,
-    "FullName": "Lauriane Dicki",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Joe Crooks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 336
       }
     }
   }

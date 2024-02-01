@@ -12091,6 +12091,8 @@
   - name: AI
     href: Services88/AI/index.md
     items:
+    - name: ClearChatbotTurns
+      href: Services88/AI/ClearChatbotTurns.md
     - name: DetectLanguage
       href: Services88/AI/DetectLanguage.md
     - name: DetectSentiment
@@ -12101,6 +12103,8 @@
       href: Services88/AI/GetChatbotPromptSuggestions.md
     - name: GetChatbotResponse
       href: Services88/AI/GetChatbotResponse.md
+    - name: GetChatbotTurns
+      href: Services88/AI/GetChatbotTurns.md
     - name: GetSummarizeContactPrompt
       href: Services88/AI/GetSummarizeContactPrompt.md
     - name: GetSummarizeSalePrompt
@@ -14063,8 +14067,6 @@
       href: Services88/List/GetAllTasks.md
     - name: GetAllTicketPriorities
       href: Services88/List/GetAllTicketPriorities.md
-    - name: GetAllTicketTypeEntities
-      href: Services88/List/GetAllTicketTypeEntities.md
     - name: GetAmountClassEntity
       href: Services88/List/GetAmountClassEntity.md
     - name: GetAppTaskMenus
@@ -14385,8 +14387,6 @@
       href: Services88/List/GetTicketStatuses.md
     - name: GetTicketStatusList
       href: Services88/List/GetTicketStatusList.md
-    - name: GetTicketType
-      href: Services88/List/GetTicketType.md
     - name: GetTicketTypeEntity
       href: Services88/List/GetTicketTypeEntity.md
     - name: GetTicketTypeList
@@ -14519,6 +14519,8 @@
       href: Services88/List/SetTicketPrioritySortOrder.md
     - name: SetTicketStatusSortOrder
       href: Services88/List/SetTicketStatusSortOrder.md
+    - name: SetTicketTypeSortOrder
+      href: Services88/List/SetTicketTypeSortOrder.md
     - name: SetVisibleForUserGroup
       href: Services88/List/SetVisibleForUserGroup.md
     - name: SetVisibleForUserGroups
@@ -14548,6 +14550,8 @@
       href: Services88/Marketing/DeleteFormEntity.md
     - name: DeleteFormSubmissionEntity
       href: Services88/Marketing/DeleteFormSubmissionEntity.md
+    - name: DeleteMessageAndShipment
+      href: Services88/Marketing/DeleteMessageAndShipment.md
     - name: DeleteShipmentMessageBlockEntity
       href: Services88/Marketing/DeleteShipmentMessageBlockEntity.md
     - name: DeleteShipmentMessageEntity
@@ -14568,6 +14572,8 @@
       href: Services88/Marketing/GetShipmentMessageEntity.md
     - name: GetUserBlocks
       href: Services88/Marketing/GetUserBlocks.md
+    - name: RenameMailingByMessageId
+      href: Services88/Marketing/RenameMailingByMessageId.md
     - name: SaveFormEntity
       href: Services88/Marketing/SaveFormEntity.md
     - name: SaveFormSubmissionEntity
@@ -16083,6 +16089,8 @@
       href: Services88/Workflow/CreateDefaultWorkflowStepOptionFromType.md
     - name: CreateDefaultWorkflowTrigger
       href: Services88/Workflow/CreateDefaultWorkflowTrigger.md
+    - name: CreateDefaultWorkflowWaitForAction
+      href: Services88/Workflow/CreateDefaultWorkflowWaitForAction.md
     - name: CreateEmailFlowContent
       href: Services88/Workflow/CreateEmailFlowContent.md
     - name: DeleteEmailFlow
@@ -16091,6 +16099,8 @@
       href: Services88/Workflow/DeleteWorkflowGoal.md
     - name: DeleteWorkflowTrigger
       href: Services88/Workflow/DeleteWorkflowTrigger.md
+    - name: DeleteWorkflowWaitForAction
+      href: Services88/Workflow/DeleteWorkflowWaitForAction.md
     - name: GetEmailFlow
       href: Services88/Workflow/GetEmailFlow.md
     - name: GetWorkflowGoal
@@ -16101,6 +16111,8 @@
       href: Services88/Workflow/GetWorkflowStepOption.md
     - name: GetWorkflowTrigger
       href: Services88/Workflow/GetWorkflowTrigger.md
+    - name: GetWorkflowWaitForAction
+      href: Services88/Workflow/GetWorkflowWaitForAction.md
     - name: RemoveParticipantsFromEmailFlow
       href: Services88/Workflow/RemoveParticipantsFromEmailFlow.md
     - name: Run
@@ -16111,6 +16123,8 @@
       href: Services88/Workflow/SaveWorkflowGoal.md
     - name: SaveWorkflowTrigger
       href: Services88/Workflow/SaveWorkflowTrigger.md
+    - name: SaveWorkflowWaitForAction
+      href: Services88/Workflow/SaveWorkflowWaitForAction.md
     - name: SendEvent
       href: Services88/Workflow/SendEvent.md
     - name: TryAddPersonsToEmailFlow

@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=esse
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=a
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 04 Oct 2018 13:57:18 G10T
+Last-Modified: Thu, 09 Oct 2003 23:04:04 G10T
 
 {
   "Key": "quo",
-  "Value": "est",
-  "RecordId": 340,
-  "CreatedDate": "2006-11-20T13:57:18.8265985+01:00",
-  "UpdatedDate": "2018-10-04T13:57:18.8265985+02:00",
-  "UpdatedBy": "ullam",
-  "CreatedBy": "et",
-  "TableName": "Dicki Group",
+  "Value": "ut",
+  "RecordId": 799,
+  "CreatedDate": "2011-08-07T23:04:04.2325179+02:00",
+  "UpdatedDate": "2003-10-09T23:04:04.2325179+02:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "ratione",
+  "TableName": "Homenick LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   }
 }

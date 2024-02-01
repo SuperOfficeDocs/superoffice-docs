@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 500,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "nesciunt",
-  "Name": "Kuphal, Lesch and Kertzmann",
-  "Description": "Versatile methodical service-desk",
-  "Code": "atque",
-  "PriceUnit": "et",
-  "QuantityUnit": "et",
+  "ProductId": 755,
+  "ERPProductKey": "eaque",
+  "ERPPriceListKey": "voluptatibus",
+  "Name": "Wolf-Walker",
+  "Description": "Progressive high-level knowledge base",
+  "Code": "omnis",
+  "PriceUnit": "adipisci",
+  "QuantityUnit": "aut",
   "IsSubscription": true,
-  "SubscriptionUnit": "nobis",
-  "DefaultSubscriptionQuantity": 13610.962,
-  "ItemNumber": "1007759",
+  "SubscriptionUnit": "id",
+  "DefaultSubscriptionQuantity": 14971.118,
+  "ItemNumber": "1194208",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "optio",
-  "ProductTypeKey": "sapiente",
-  "VAT": 23342.032,
-  "VATInfo": "non",
-  "UnitCost": 15275.116,
-  "UnitMinimumPrice": 5384.2119999999995,
-  "UnitListPrice": 24517.282,
-  "InAssortment": false,
-  "Supplier": "voluptatem",
-  "SupplierCode": "quibusdam",
-  "Rights": "vitae",
-  "Rule": "minus",
+  "ProductFamilyKey": "illum",
+  "ProductTypeKey": "deleniti",
+  "VAT": 11257.328,
+  "VATInfo": "ipsa",
+  "UnitCost": 11059.886,
+  "UnitMinimumPrice": 84.618,
+  "UnitListPrice": 23135.188,
+  "InAssortment": true,
+  "Supplier": "vero",
+  "SupplierCode": "veritatis",
+  "Rights": "officiis",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Trantow LLC",
-      "Value": "est",
+      "Name": "Jakubowski-McClure",
+      "Value": "omnis",
       "Type": "Image"
     },
     {
-      "Name": "Trantow LLC",
-      "Value": "est",
+      "Name": "Jakubowski-McClure",
+      "Value": "omnis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "ad",
-  "ExtraField2": "repudiandae",
-  "ExtraField3": "error",
-  "ExtraField4": "perferendis",
-  "ExtraField5": "possimus",
-  "InStock": 1090.632
+  "RawExtraInfo": "in",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "cum",
+  "ExtraField3": "qui",
+  "ExtraField4": "quia",
+  "ExtraField5": "cumque",
+  "InStock": 29976.71
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 650,
-  "ERPProductKey": "tempora",
-  "ERPPriceListKey": "magni",
-  "Name": "Bergstrom-Mitchell",
-  "Description": "Configurable foreground parallelism",
-  "Code": "est",
-  "PriceUnit": "nisi",
-  "QuantityUnit": "quis",
+  "ProductId": 240,
+  "ERPProductKey": "mollitia",
+  "ERPPriceListKey": "quasi",
+  "Name": "Halvorson Group",
+  "Description": "Distributed upward-trending installation",
+  "Code": "dolorem",
+  "PriceUnit": "consequatur",
+  "QuantityUnit": "mollitia",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 11896.663999999999,
-  "ItemNumber": "829748",
+  "SubscriptionUnit": "dolor",
+  "DefaultSubscriptionQuantity": 28870.408,
+  "ItemNumber": "377971",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "inventore",
-  "ProductTypeKey": "molestiae",
-  "VAT": 27554.128,
-  "VATInfo": "facere",
-  "UnitCost": 12702.101999999999,
-  "UnitMinimumPrice": 13438.591999999999,
-  "UnitListPrice": 8584.026,
+  "ProductFamilyKey": "eius",
+  "ProductTypeKey": "at",
+  "VAT": 6315.01,
+  "VATInfo": "ipsa",
+  "UnitCost": 3262.4939999999997,
+  "UnitMinimumPrice": 31061.074,
+  "UnitListPrice": 23038.034,
   "InAssortment": false,
-  "Supplier": "eius",
-  "SupplierCode": "asperiores",
-  "Rights": "dolorem",
-  "Rule": "deleniti",
+  "Supplier": "modi",
+  "SupplierCode": "quaerat",
+  "Rights": "maiores",
+  "Rule": "debitis",
   "ExtraInfo": [
     {
-      "Name": "Marvin-Mann",
-      "Value": "assumenda",
+      "Name": "Koch, Brekke and Corkery",
+      "Value": "corporis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldType": "System.Int32",
+          "FieldLength": 107
         }
       }
     },
     {
-      "Name": "Marvin-Mann",
-      "Value": "assumenda",
+      "Name": "Koch, Brekke and Corkery",
+      "Value": "corporis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldType": "System.Int32",
+          "FieldLength": 107
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "modi",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "deleniti",
-  "ExtraField4": "qui",
-  "ExtraField5": "in",
-  "InStock": 28462.987999999998,
+  "RawExtraInfo": "maiores",
+  "ExtraField1": "qui",
+  "ExtraField2": "molestiae",
+  "ExtraField3": "ipsum",
+  "ExtraField4": "culpa",
+  "ExtraField5": "impedit",
+  "InStock": 30218.028,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 80
     }
   }
 }

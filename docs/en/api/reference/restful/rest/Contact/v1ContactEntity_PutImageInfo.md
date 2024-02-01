@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 127,
-  "BlobSize": 493,
-  "Description": "Reactive discrete instruction set",
-  "ExtraInfo": "laboriosam",
+  "BlobId": 8,
+  "BlobSize": 571,
+  "Description": "Decentralized exuding analyzer",
+  "ExtraInfo": "eveniet",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "adipisci",
-  "OriginalSize": 15,
-  "CreatedDate": "2013-07-17T13:57:18.5753123+02:00",
-  "UpdatedDate": "2019-10-27T13:57:18.5753123+01:00",
+  "IsZipped": true,
+  "MimeType": "enim",
+  "OriginalSize": 906,
+  "CreatedDate": "2015-06-23T23:04:03.8970209+02:00",
+  "UpdatedDate": "1998-11-15T23:04:03.8970209+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sed"
+  "ConceptualType": "tempore"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 614,
-  "BlobSize": 578,
-  "Description": "Ergonomic system-worthy project",
-  "ExtraInfo": "molestiae",
-  "IsEncrypted": true,
+  "BlobId": 554,
+  "BlobSize": 529,
+  "Description": "Synchronised foreground secured line",
+  "ExtraInfo": "occaecati",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "eius",
-  "OriginalSize": 213,
-  "CreatedDate": "2005-11-14T13:57:18.5753123+01:00",
-  "UpdatedDate": "1997-09-26T13:57:18.5753123+02:00",
+  "MimeType": "recusandae",
+  "OriginalSize": 522,
+  "CreatedDate": "2016-06-28T23:04:03.8985222+02:00",
+  "UpdatedDate": "2023-05-17T23:04:03.8985222+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ullam",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 35
     }
   }
 }

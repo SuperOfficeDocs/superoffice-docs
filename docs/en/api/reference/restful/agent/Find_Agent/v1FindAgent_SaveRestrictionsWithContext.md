@@ -72,20 +72,20 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Spencer-Wintheiser",
-  "StorageKey": "assumenda",
+  "StorageType": "qui",
+  "ProviderName": "Sanford-Jewess",
+  "StorageKey": "et",
   "Restrictions": [
     {
-      "Name": "Stokes Inc and Sons",
-      "Operator": "aut",
+      "Name": "Morar LLC",
+      "Operator": "in",
       "Values": [
-        "rerum",
-        "distinctio"
+        "quia",
+        "quia"
       ],
       "DisplayValues": [
-        "ut",
-        "sed"
+        "eligendi",
+        "corporis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 838,
+      "InterParenthesis": 120,
       "InterOperator": "And",
-      "UniqueHash": 536
+      "UniqueHash": 41
     }
   ],
-  "Context": "rerum"
+  "Context": "nulla"
 }
 ```
 

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 310,
-    "Name": "Sawayn-Sporer",
-    "ToolTip": "Temporibus ipsa in deserunt laborum fugit.",
+    "Id": 56,
+    "Name": "Jacobi-Mraz",
+    "ToolTip": "Quos nisi cum est eius sapiente.",
     "Deleted": true,
-    "Rank": 127,
-    "Type": "unde",
-    "ColorBlock": 296,
-    "IconHint": "dolor",
+    "Rank": 737,
+    "Type": "dolorem",
+    "ColorBlock": 765,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "1998-04-12T13:57:20.0783884+02:00",
+    "LastChanged": "2005-05-17T23:04:05.7454972+02:00",
     "ChildItems": [
       {
-        "Id": 970,
-        "Name": "Wiza Inc and Sons",
-        "ToolTip": "In eligendi officia autem aut sed magnam.",
+        "Id": 309,
+        "Name": "Reinger-Gulgowski",
+        "ToolTip": "Enim ut.",
         "Deleted": true,
-        "Rank": 235,
-        "Type": "asperiores",
-        "ColorBlock": 366,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2008-07-01T13:57:20.0783884+02:00",
+        "Rank": 114,
+        "Type": "non",
+        "ColorBlock": 933,
+        "IconHint": "nesciunt",
+        "Selected": true,
+        "LastChanged": "2004-01-26T23:04:05.7454972+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Sammy Marquardt",
+        "ExtraInfo": "qui",
+        "StyleHint": "ab",
+        "Hidden": false,
+        "FullName": "Ms. Ava Conn DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 883
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Mr. Magdalena Bednar",
+    "ExtraInfo": "quasi",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Kiara Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 794
       }
     }
   }

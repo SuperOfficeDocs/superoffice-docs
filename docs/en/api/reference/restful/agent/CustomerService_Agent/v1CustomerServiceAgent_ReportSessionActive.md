@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/CustomerService/ReportSessionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SessionKey": "libero"
+  "SessionKey": "quasi"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-603
+333
 ```

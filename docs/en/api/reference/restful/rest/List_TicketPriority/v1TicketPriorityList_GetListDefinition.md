@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Name": "Altenwerth-Gislason",
-  "Tooltip": "nesciunt",
+  "Id": 683,
+  "Name": "Nicolas-Satterfield",
+  "Tooltip": "quas",
   "Deleted": true,
-  "Rank": 128,
+  "Rank": 830,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 843
     }
   },
   "_Links": {

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 966,
-  "Name": "Hyatt-Fay",
-  "Tooltip": "eius",
+  "Id": 637,
+  "Name": "Hartmann-Johnston",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 860,
-  "Rank": 307,
+  "UdListDefinitionId": 924,
+  "Rank": 634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 185
     }
   }
 }

@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 142,
-  "PlainMessage": "reprehenderit",
-  "HtmlMessage": "ipsam",
-  "SmsMessage": "voluptas",
-  "Description": "Stand-alone non-volatile capability",
-  "Subject": "et",
-  "FolderId": 240,
-  "HeaderField": "impedit",
-  "Design": "vel",
+  "ShipmentMessageId": 360,
+  "PlainMessage": "molestiae",
+  "HtmlMessage": "ea",
+  "SmsMessage": "dolore",
+  "Description": "Inverse mobile solution",
+  "Subject": "vero",
+  "FolderId": 549,
+  "HeaderField": "dolore",
+  "Design": "nam",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Customizable mobile workforce",
-  "AccessKey": "aut",
-  "DocumentMessage": 14,
-  "Registered": "2007-04-01T13:57:19.2815227+02:00",
-  "RegisteredAssociateId": 966,
-  "Updated": "2023-08-06T13:57:19.2815227+02:00",
-  "UpdatedAssociateId": 954,
-  "UpdatedCount": 199
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Cross-group holistic flexibility",
+  "AccessKey": "omnis",
+  "DocumentMessage": 280,
+  "Registered": "2000-10-18T23:04:04.8040098+02:00",
+  "RegisteredAssociateId": 783,
+  "Updated": "1997-08-19T23:04:04.8040098+02:00",
+  "UpdatedAssociateId": 801,
+  "UpdatedCount": 546
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 626,
-  "PlainMessage": "rem",
-  "HtmlMessage": "aspernatur",
-  "SmsMessage": "quia",
-  "Description": "Multi-channelled tertiary system engine",
-  "Subject": "quas",
-  "FolderId": 254,
-  "HeaderField": "vel",
-  "Design": "debitis",
+  "ShipmentMessageId": 266,
+  "PlainMessage": "est",
+  "HtmlMessage": "porro",
+  "SmsMessage": "tenetur",
+  "Description": "Function-based user-facing artificial intelligence",
+  "Subject": "soluta",
+  "FolderId": 538,
+  "HeaderField": "reprehenderit",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Front-line reciprocal process improvement",
-  "AccessKey": "ullam",
-  "DocumentMessage": 374,
-  "Registered": "2018-04-30T13:57:19.2815227+02:00",
-  "RegisteredAssociateId": 849,
-  "Updated": "2003-07-17T13:57:19.2815227+02:00",
-  "UpdatedAssociateId": 412,
-  "UpdatedCount": 835,
+  "LongDescription": "Upgradable multi-tasking product",
+  "AccessKey": "deserunt",
+  "DocumentMessage": 90,
+  "Registered": "1999-04-05T23:04:04.8044794+02:00",
+  "RegisteredAssociateId": 636,
+  "Updated": "2013-12-15T23:04:04.8044794+01:00",
+  "UpdatedAssociateId": 687,
+  "UpdatedCount": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldType": "System.String",
+      "FieldLength": 925
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

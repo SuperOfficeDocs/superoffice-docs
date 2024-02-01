@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Leannon-Crist",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "UdListDefinitionId": 149,
-    "Rank": 932
+    "Id": 742,
+    "Name": "Schamberger, Miller and Sanford",
+    "Tooltip": "minima",
+    "Deleted": true,
+    "UdListDefinitionId": 8,
+    "Rank": 822
   },
   {
-    "Id": 482,
-    "Name": "Leannon-Crist",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "UdListDefinitionId": 149,
-    "Rank": 932
+    "Id": 742,
+    "Name": "Schamberger, Miller and Sanford",
+    "Tooltip": "minima",
+    "Deleted": true,
+    "UdListDefinitionId": 8,
+    "Rank": 822
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Breitenberg Group",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 64,
-    "Rank": 737,
+    "Id": 985,
+    "Name": "O'Hara-Cremin",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "UdListDefinitionId": 951,
+    "Rank": 415,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldLength": 34
       }
     }
   }

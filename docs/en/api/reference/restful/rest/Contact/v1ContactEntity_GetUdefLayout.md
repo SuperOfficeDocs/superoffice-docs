@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 458,
-    "ColumnId": 662,
-    "FieldDefault": "labore",
-    "FieldHeight": 587,
-    "FieldLabel": "veniam",
-    "FieldLeft": 569,
-    "FieldTop": 906,
+    "UDefFieldId": 334,
+    "ColumnId": 108,
+    "FieldDefault": "nihil",
+    "FieldHeight": 655,
+    "FieldLabel": "tempore",
+    "FieldLeft": 850,
+    "FieldTop": 284,
     "FieldType": "Checkbox",
-    "FieldWidth": 137,
-    "FormatMask": "reprehenderit",
+    "FieldWidth": 57,
+    "FormatMask": "ut",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 100,
-    "LabelLeft": 813,
-    "LabelTop": 685,
-    "LabelWidth": 444,
-    "LastVersionId": 456,
-    "ListTableId": 385,
+    "IsIndexed": true,
+    "LabelHeight": 214,
+    "LabelLeft": 257,
+    "LabelTop": 211,
+    "LabelWidth": 41,
+    "LastVersionId": 591,
+    "ListTableId": 296,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 349,
-    "ProgId": "quo",
-    "IsReadOnly": false,
-    "ShortLabel": "iusto",
-    "TabOrder": 674,
-    "TextLength": 112,
-    "Tooltip": "ipsam",
-    "UdefIdentity": 272,
-    "UDListDefinitionId": 120,
+    "Page1LineNo": 830,
+    "ProgId": "laboriosam",
+    "IsReadOnly": true,
+    "ShortLabel": "et",
+    "TabOrder": 641,
+    "TextLength": 900,
+    "Tooltip": "nihil",
+    "UdefIdentity": 122,
+    "UDListDefinitionId": 814,
     "Justification": "Center",
-    "Version": 390,
-    "TemplateVariableName": "Dickinson, Johnston and Macejkovic",
+    "Version": 215,
+    "TemplateVariableName": "Ledner-VonRueden",
     "HasBeenPublished": false,
-    "MdoListName": "Rath, Jones and Bahringer",
+    "MdoListName": "Roberts-Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldType": "System.Int32",
+        "FieldLength": 502
       }
     }
   }

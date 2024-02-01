@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 648,
-  "Name": "Blick Inc and Sons",
+  "HeadingId": 938,
+  "Name": "Mante-Pacocha",
   "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 893,
-  "UdListDefinitionId": 938
+  "Rank": 597,
+  "UdListDefinitionId": 175
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 200,
-  "Name": "Feeney-Jaskolski",
-  "Tooltip": "assumenda",
+  "HeadingId": 374,
+  "Name": "Gorczany-Tremblay",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 339,
-  "UdListDefinitionId": 424,
+  "Rank": 344,
+  "UdListDefinitionId": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 794
     }
   }
 }

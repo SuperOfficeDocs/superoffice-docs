@@ -89,16 +89,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 401,
-  "PrefDescId": 456,
-  "PrefValue": "ut",
-  "PrefShowValue": "aut",
-  "Description": "Mandatory transitional website",
-  "IsBuiltin": false
+  "PrefDescLineId": 722,
+  "PrefDescId": 817,
+  "PrefValue": "minima",
+  "PrefShowValue": "fugit",
+  "Description": "Configurable intangible system engine",
+  "IsBuiltin": true
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 510,
-  "PrefDescId": 918,
-  "PrefValue": "iusto",
-  "PrefShowValue": "ratione",
-  "Description": "Function-based 24 hour middleware",
-  "IsBuiltin": false,
+  "PrefDescLineId": 382,
+  "PrefDescId": 866,
+  "PrefValue": "ipsum",
+  "PrefShowValue": "voluptatum",
+  "Description": "Synchronised static emulation",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 725
     }
   },
   "_Links": {

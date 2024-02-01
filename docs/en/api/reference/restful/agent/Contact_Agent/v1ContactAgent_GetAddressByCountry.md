@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 349,
-  "CountryId": 485
+  "ContactId": 802,
+  "CountryId": 665
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 2084.11,
-  "Wgs84Longitude": 22611.809999999998,
+  "Wgs84Latitude": 19324.244,
+  "Wgs84Longitude": 3500.678,
   "LocalizedAddress": [
     [
       {
-        "Name": "Stanton-DuBuque",
-        "Value": "sint",
-        "Tooltip": "vel",
-        "Label": "deleniti",
-        "ValueLength": 58,
-        "AddressType": "rerum",
+        "Name": "Kulas, Crooks and Weimann",
+        "Value": "tempore",
+        "Tooltip": "consequuntur",
+        "Label": "aspernatur",
+        "ValueLength": 55,
+        "AddressType": "illo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 219
+            "FieldLength": 109
           }
         }
       }
     ],
     [
       {
-        "Name": "Cassin-Smith",
-        "Value": "est",
-        "Tooltip": "labore",
-        "Label": "repellendus",
-        "ValueLength": 105,
-        "AddressType": "saepe",
+        "Name": "Howe, Blanda and Pfannerstill",
+        "Value": "at",
+        "Tooltip": "libero",
+        "Label": "voluptatum",
+        "ValueLength": 976,
+        "AddressType": "sunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldLength": 812
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "suscipit",
+  "Formatted": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 757
     }
   }
 }

@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 511,
+  "ProjectEntityId": 39,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 831,
-      "ContactId": 722,
-      "ProjectId": 529,
-      "ContactName": "Abshire-Ullrich",
+      "ProjectmemberId": 127,
+      "ContactId": 395,
+      "ProjectId": 403,
+      "ContactName": "Parisian, Beer and Lowe",
       "ContactDepartment": "",
-      "ProjectName": "Senger, Johns and Bartoletti",
-      "EmailId": 991,
-      "EmailAddress": "cheyanne@swift.co.uk",
-      "CountryId": 627,
-      "Firstname": "Kacie",
-      "MiddleName": "Fisher-DuBuque",
-      "Lastname": "Franecki",
-      "PersonId": 826,
-      "Mrmrs": "ducimus",
-      "ProjectMemberTypeName": "Hoeger, Lemke and Bailey",
-      "Phone": "112-305-3644 x29267",
-      "PhoneId": 519,
-      "ProjectMemberTypeId": 983,
-      "EmailAddressName": "marley@beer.name",
-      "Comment": "quo",
-      "FullName": "Ms. Carlotta Buckridge"
+      "ProjectName": "Pfannerstill-Romaguera",
+      "EmailId": 563,
+      "EmailAddress": "bryon@turner.co.uk",
+      "CountryId": 300,
+      "Firstname": "Rebeca",
+      "MiddleName": "Harvey LLC",
+      "Lastname": "Kshlerin",
+      "PersonId": 697,
+      "Mrmrs": "deserunt",
+      "ProjectMemberTypeName": "Dibbert, Toy and Halvorson",
+      "Phone": "782-276-1274 x25549",
+      "PhoneId": 253,
+      "ProjectMemberTypeId": 221,
+      "EmailAddressName": "elda@ankunding.name",
+      "Comment": "similique",
+      "FullName": "Buck Herzog"
     }
   ]
 }

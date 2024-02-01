@@ -25,7 +25,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=False
+GET /api/v1/List/ProjectType/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "D'Amore, Schaden and Dach",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "UdListDefinitionId": 994,
-    "Rank": 951,
+    "Id": 773,
+    "Name": "Homenick Inc and Sons",
+    "Tooltip": "atque",
+    "Deleted": false,
+    "UdListDefinitionId": 741,
+    "Rank": 563,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 768
+        "FieldType": "System.Int32",
+        "FieldLength": 317
       }
     }
   }

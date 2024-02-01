@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 343,
-  "LeadDescription": "Exclusive bifurcated algorithm",
-  "Relation": "cumque",
-  "RelationId": 712,
-  "LeadContact": "quasi",
-  "LeadPersonFirstname": "Hulda",
-  "LeadPersonLastname": "Stracke",
-  "LeadPersonEmail": "rhea.fritsch@greenfelder.uk",
-  "LeadPhoneNumber": "90238",
-  "CreatorsContact": "eum",
-  "CreatorsFirstname": "Missouri",
-  "CreatorsLastname": "Kshlerin"
+  "AssociateIdForNewContact": 636,
+  "LeadDescription": "Up-sized full-range collaboration",
+  "Relation": "recusandae",
+  "RelationId": 298,
+  "LeadContact": "voluptas",
+  "LeadPersonFirstname": "Theron",
+  "LeadPersonLastname": "Ferry",
+  "LeadPersonEmail": "fletcher_hamill@abbott.uk",
+  "LeadPhoneNumber": "1551282",
+  "CreatorsContact": "beatae",
+  "CreatorsFirstname": "Franco",
+  "CreatorsLastname": "Roberts"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 7,
-      "Name": "Walker, Kling and Altenwerth",
-      "OrgNr": "371297",
+      "ContactId": 928,
+      "Name": "Block-Wilkinson",
+      "OrgNr": "619287",
       "Department": "",
       "URL": "http://www.example.com/",
       "City": "vel",
-      "DirectPhone": "924.066.2404 x9113",
-      "AssociateId": 962,
-      "CountryId": 244,
-      "EmailAddress": "golda@hettinger.ca",
-      "Kananame": "iste",
-      "EmailAddressName": "jasmin@kertzmann.name",
+      "DirectPhone": "674-870-7097",
+      "AssociateId": 8,
+      "CountryId": 536,
+      "EmailAddress": "brennon@osinskireynolds.name",
+      "Kananame": "veritatis",
+      "EmailAddressName": "sophie@bruen.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Wanda Hartmann",
+      "AssociateFullName": "Mallory Crooks",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "est",
-      "FullName": "Ansley Kiley Kiehn DDS",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 496,
-      "Number1": "466714",
-      "Number2": "921456",
+      "FormattedAddress": "officia",
+      "FullName": "Mr. Omari O'Keefe II",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 514,
+      "Number1": "1743172",
+      "Number2": "910665",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 132
+          "FieldLength": 502
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

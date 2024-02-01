@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 108,
-    "Name": "Champlin LLC",
-    "Tooltip": "temporibus",
+    "HeadingId": 856,
+    "Name": "Collier Group",
+    "Tooltip": "blanditiis",
     "Deleted": false,
-    "Rank": 484,
-    "UdListDefinitionId": 510
+    "Rank": 145,
+    "UdListDefinitionId": 190
   },
   {
-    "HeadingId": 108,
-    "Name": "Champlin LLC",
-    "Tooltip": "temporibus",
+    "HeadingId": 856,
+    "Name": "Collier Group",
+    "Tooltip": "blanditiis",
     "Deleted": false,
-    "Rank": 484,
-    "UdListDefinitionId": 510
+    "Rank": 145,
+    "UdListDefinitionId": 190
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 948,
-    "Name": "Yundt, Farrell and Parisian",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 794,
-    "UdListDefinitionId": 804,
+    "HeadingId": 151,
+    "Name": "Turcotte-Romaguera",
+    "Tooltip": "aliquid",
+    "Deleted": true,
+    "Rank": 73,
+    "UdListDefinitionId": 300,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldType": "System.Int32",
+        "FieldLength": 925
       }
     }
   }

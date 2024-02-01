@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 790,
+  "LatestKnownEventId": 947,
   "PublishEvents": [
     {
-      "EventId": 808,
-      "EventName": "Gulgowski Group",
-      "EntityType": "suscipit",
-      "EntityKey": 464,
-      "AssociateId": 924,
-      "AssociateName": "Waelchi, Schaefer and Haley",
-      "EventDateTime": "2023-10-17T13:57:13.6145882+02:00"
+      "EventId": 759,
+      "EventName": "D'Amore-Ryan",
+      "EntityType": "omnis",
+      "EntityKey": 939,
+      "AssociateId": 369,
+      "AssociateName": "McLaughlin Group",
+      "EventDateTime": "2004-09-04T23:03:57.6506067+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Schneider-Renner",
-      "Value": 77
+      "Name": "Lubowitz LLC",
+      "Value": 916
     },
     {
-      "Name": "Schneider-Renner",
-      "Value": 77
+      "Name": "Lubowitz LLC",
+      "Value": 916
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 735,
-    "EventName": "Barton-Bradtke",
-    "EntityType": "explicabo",
-    "EntityKey": 36,
-    "AssociateId": 619,
-    "AssociateName": "Quigley, Kassulke and Zulauf",
-    "EventDateTime": "2009-01-08T13:57:13.6145882+01:00",
+    "EventId": 268,
+    "EventName": "Carter Group",
+    "EntityType": "enim",
+    "EntityKey": 56,
+    "AssociateId": 463,
+    "AssociateName": "Langosh-Oberbrunner",
+    "EventDateTime": "2012-05-04T23:03:57.6511066+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldLength": 202
       }
     }
   }

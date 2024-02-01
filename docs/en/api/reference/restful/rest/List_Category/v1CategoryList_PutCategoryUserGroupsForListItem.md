@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Kuvalis LLC",
-    "ToolTip": "Corrupti molestias.",
+    "Id": 465,
+    "Name": "Flatley-Jewess",
+    "ToolTip": "Officia pariatur molestiae consequatur dolor ut id atque.",
     "Deleted": false,
-    "Rank": 398,
-    "Type": "ab",
-    "ColorBlock": 12,
-    "IconHint": "earum",
+    "Rank": 847,
+    "Type": "ullam",
+    "ColorBlock": 116,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2014-06-30T13:57:19.6409229+02:00",
+    "LastChanged": "2020-07-17T23:04:05.3145019+02:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Pfeffer-Herzog",
-        "ToolTip": "Voluptatem voluptatem.",
+        "Id": 371,
+        "Name": "Shields, Runolfsdottir and Fadel",
+        "ToolTip": "Eligendi commodi officiis deserunt occaecati.",
         "Deleted": false,
-        "Rank": 44,
-        "Type": "aut",
-        "ColorBlock": 259,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2011-03-29T13:57:19.6409229+02:00",
+        "Rank": 128,
+        "Type": "nesciunt",
+        "ColorBlock": 183,
+        "IconHint": "placeat",
+        "Selected": true,
+        "LastChanged": "2001-02-15T23:04:05.3149997+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Gertrude Hane"
+        "ExtraInfo": "est",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Donny Hintz"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Hettie Homenick"
+    "FullName": "Mr. Reyna Josiane Schimmel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Kulas, Vandervort and Monahan",
-    "ToolTip": "Modi cum voluptatem pariatur ad.",
+    "Id": 622,
+    "Name": "Jerde, Hintz and Rau",
+    "ToolTip": "Quo qui odio ipsum accusantium.",
     "Deleted": false,
-    "Rank": 298,
-    "Type": "quia",
-    "ColorBlock": 322,
-    "IconHint": "labore",
-    "Selected": false,
-    "LastChanged": "1998-10-12T13:57:19.6409229+02:00",
+    "Rank": 447,
+    "Type": "id",
+    "ColorBlock": 357,
+    "IconHint": "architecto",
+    "Selected": true,
+    "LastChanged": "2008-07-31T23:04:05.3165036+02:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Senger Inc and Sons",
-        "ToolTip": "Doloremque quia corporis.",
-        "Deleted": false,
-        "Rank": 332,
-        "Type": "non",
-        "ColorBlock": 167,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2006-09-24T13:57:19.6409229+02:00",
+        "Id": 673,
+        "Name": "Feeney-Turner",
+        "ToolTip": "Dolorum ea quisquam magnam.",
+        "Deleted": true,
+        "Rank": 184,
+        "Type": "tempora",
+        "ColorBlock": 491,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2010-04-13T23:04:05.3165036+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "ea",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Eddie Bins",
+        "FullName": "Mr. Maxwell Violet Goldner DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldLength": 551
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Alycia Spinka II",
+    "ExtraInfo": "quo",
+    "StyleHint": "hic",
+    "Hidden": false,
+    "FullName": "Mrs. Alan Koss DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldType": "System.String",
+        "FieldLength": 821
       }
     }
   }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cremin-Bradtke",
-  "AdditionalInfo": "voluptatem",
-  "SearchValue": "inventore"
+  "Name": "Sanford LLC",
+  "AdditionalInfo": "aut",
+  "SearchValue": "ut"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Mertz Group",
-    "ToolTip": "Ipsum dicta quis voluptas quos consequatur libero.",
+    "Id": 366,
+    "Name": "Labadie, Bode and Koss",
+    "ToolTip": "Animi qui quia voluptate fugit commodi dolor.",
     "Deleted": false,
-    "Rank": 485,
-    "Type": "provident",
+    "Rank": 391,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "Herzog Inc and Sons",
-        "ToolTip": "Corporis atque iure vel sed qui quis et.",
-        "Deleted": true,
-        "Rank": 793,
-        "Type": "praesentium",
+        "Id": 752,
+        "Name": "Aufderhar-Kshlerin",
+        "ToolTip": "Saepe nemo praesentium.",
+        "Deleted": false,
+        "Rank": 718,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 561,
-        "ExtraInfo": "explicabo",
-        "StyleHint": "aliquid",
-        "FullName": "Aimee Halvorson",
+        "IconHint": "ad",
+        "ColorBlock": 845,
+        "ExtraInfo": "dolores",
+        "StyleHint": "dolorem",
+        "FullName": "Clotilde Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 602
+            "FieldType": "System.String",
+            "FieldLength": 452
           }
         }
       }
     ],
-    "IconHint": "suscipit",
-    "ColorBlock": 779,
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "quia",
-    "FullName": "Dora Thompson",
+    "IconHint": "eveniet",
+    "ColorBlock": 851,
+    "ExtraInfo": "magni",
+    "StyleHint": "et",
+    "FullName": "Tyrique Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 599
       }
     }
   }

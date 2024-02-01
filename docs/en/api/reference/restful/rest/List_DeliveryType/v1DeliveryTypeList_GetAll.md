@@ -25,7 +25,7 @@ Gets all the DeliveryType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryType/Items?includeDeleted=False
+GET /api/v1/List/DeliveryType/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Ward-Barrows",
-    "Tooltip": "beatae",
+    "Id": 954,
+    "Name": "Abernathy-Torphy",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "UdListDefinitionId": 349,
-    "Rank": 235,
+    "UdListDefinitionId": 639,
+    "Rank": 543,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldLength": 879
       }
     }
   }

@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,49 +92,49 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 353,
-    "Name": "Botsford Inc and Sons",
-    "ToolTip": "Dolores illo.",
-    "Deleted": false,
-    "Rank": 986,
-    "Type": "autem",
+    "Name": "Crooks-Beier",
+    "ToolTip": "Maiores qui cumque et.",
+    "Deleted": true,
+    "Rank": 47,
+    "Type": "tempore",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Lemke-Wintheiser",
-        "ToolTip": "Incidunt adipisci sint recusandae esse quam.",
-        "Deleted": false,
-        "Rank": 915,
-        "Type": "sit",
+        "Id": 773,
+        "Name": "Glover-Littel",
+        "ToolTip": "Molestias nemo temporibus.",
+        "Deleted": true,
+        "Rank": 547,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 692,
-        "ExtraInfo": "culpa",
-        "StyleHint": "quaerat",
-        "FullName": "Assunta Donna Hermiston II",
+        "IconHint": "assumenda",
+        "ColorBlock": 842,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "doloribus",
+        "FullName": "Earl Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 397
+            "FieldType": "System.Int32",
+            "FieldLength": 346
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 740,
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "est",
-    "FullName": "Dean Zemlak",
+    "IconHint": "impedit",
+    "ColorBlock": 508,
+    "ExtraInfo": "qui",
+    "StyleHint": "veritatis",
+    "FullName": "Rozella Maya Kreiger Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 130
+        "FieldLength": 730
       }
     }
   }

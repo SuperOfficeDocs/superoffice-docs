@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "sapiente",
-  "PluginId": 1000
+  "LanguageCode": "animi",
+  "PluginId": 580
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 643,
-  "Name": "Hartmann Group",
-  "Tooltip": "magnam",
-  "SaveInDb": 638,
-  "Filename": "pariatur",
-  "DefaultOref": "iusto",
+  "DocumentTemplateId": 814,
+  "Name": "Nolan-Conroy",
+  "Tooltip": "ipsa",
+  "SaveInDb": 333,
+  "Filename": "consequuntur",
+  "DefaultOref": "maiores",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 250,
-  "IntentId": 64,
+  "AutoeventId": 630,
+  "IntentId": 690,
   "IsDefaultPublished": true,
-  "Rank": 408,
-  "LoadTemplateFromPlugin": 8,
-  "MimeType": "voluptate",
+  "Rank": 544,
+  "LoadTemplateFromPlugin": 708,
+  "MimeType": "quas",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 395,
+  "DocumentTypeKey": 767,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "noelia@weissnatnader.ca",
-  "IncludeSignature": true,
+  "EmailSubject": "vladimir.kling@lang.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kellie@homenick.biz",
+  "SenderEmailAddress": "maryjane.prohaska@wisozk.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldType": "System.String",
+      "FieldLength": 738
     }
   }
 }

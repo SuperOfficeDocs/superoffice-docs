@@ -1,16 +1,16 @@
 ---
-title: POST Agents/List/GetAllTicketTypeEntities
-uid: v1ListAgent_GetAllTicketTypeEntities
+title: POST Agents/Workflow/GetWorkflowWaitForAction
+uid: v1WorkflowAgent_GetWorkflowWaitForAction
 generated: true
 ---
 
-# POST Agents/List/GetAllTicketTypeEntities
+# POST Agents/Workflow/GetWorkflowWaitForAction
 
 ```http
-POST /api/v1/Agents/List/GetAllTicketTypeEntities
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 ```
 
-Get all TicketTypeEntities
+Gets a WorkflowWaitForAction object.
 
 
 
@@ -22,10 +22,12 @@ Get all TicketTypeEntities
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
+| workflowWaitForActionId | int32 | **Required** The primary key. |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAllTicketTypeEntities?$select=name,department,category/id
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=733
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
 
@@ -43,7 +45,7 @@ POST /api/v1/Agents/List/GetAllTicketTypeEntities?$select=name,department,catego
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
 
-## Response:array
+## Response:
 
 OK
 
@@ -51,32 +53,26 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: array
+### Response body: WorkflowWaitForAction
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TicketTypeId | int32 | Primary key |
-| Name | string | The list item |
-| Rank | int32 | Rank order |
-| Tooltip | string | Tooltip or other description |
-| Icon | string | Name of the icon |
-| DefaultTicketStatus | int32 | Default ticket status for new tickets |
-| TicketStatuses | array | Relevant/available ticket statuses for this Request type. Empty field means all statuses are available. |
-| DefaultTicketPriority | int32 | Default ticket priority for new tickets |
-| TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
-| ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
-| IsDefault | bool | Is this Ticket Type marked as default |
+| WorkflowWaitForActionId | int32 | Primary key |
+| WorkflowStepId | int32 | The workflow step this instance belongs to |
+| WorkflowId | int32 | The flow this instance belongs to |
+| Rank | int32 | The rank of this action |
+| ActionType | string | The type of action |
+| RestrictionGroups | array | The restrictions (can be multiple groups) that make up the Workflow action criteria |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
 ```http!
-POST /api/v1/Agents/List/GetAllTicketTypeEntities
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,34 +81,39 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-[
-  {
-    "TicketTypeId": 571,
-    "Name": "Stiedemann-Stehr",
-    "Rank": 545,
-    "Tooltip": "pariatur",
-    "Icon": "tempora",
-    "DefaultTicketStatus": 609,
-    "TicketStatuses": [
-      124,
-      70
-    ],
-    "DefaultTicketPriority": 552,
-    "TicketPriorities": [
-      626,
-      504
-    ],
-    "ReplyTemplate": 211,
-    "IsExternalVisible": false,
-    "IsDefault": false,
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 765
-      }
+{
+  "WorkflowWaitForActionId": 529,
+  "WorkflowStepId": 885,
+  "WorkflowId": 478,
+  "Rank": 105,
+  "ActionType": "FormSubmitted",
+  "RestrictionGroups": [
+    {
+      "Name": "Price, Collier and Reinger",
+      "Description": "Synergistic directional pricing structure",
+      "Rank": 169,
+      "Restrictions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "Name": "Price, Collier and Reinger",
+      "Description": "Synergistic directional pricing structure",
+      "Rank": 169,
+      "Restrictions": [
+        {},
+        {}
+      ]
+    }
+  ],
+  "TableRight": null,
+  "FieldProperties": {
+    "fieldName": {
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 394
     }
   }
-]
+}
 ```

@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=894
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=827
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": false,
-  "UserInfoId": 834,
-  "UserName": "Zemlak Group",
-  "PersonId": 858,
-  "Rank": 893,
-  "Tooltip": "est",
-  "UserGroupId": 254,
-  "EjUserId": 336,
+  "Deleted": true,
+  "UserInfoId": 823,
+  "UserName": "Champlin-Kiehn",
+  "PersonId": 700,
+  "Rank": 999,
+  "Tooltip": "temporibus",
+  "UserGroupId": 230,
+  "EjUserId": 231,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "quidem",
-    "repellat"
+    "cupiditate",
+    "in"
   ],
-  "CanLogon": true,
-  "RoleName": "Nolan LLC",
-  "RoleTooltip": "facilis",
-  "UserGroupName": "Nader Group",
-  "UserGroupTooltip": "delectus",
+  "CanLogon": false,
+  "RoleName": "Tillman, Wisoky and Walker",
+  "RoleTooltip": "repellendus",
+  "UserGroupName": "Hudson, Kub and Will",
+  "UserGroupTooltip": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 492
     }
   }
 }

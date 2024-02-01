@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=nesciunt
+GET /api/v1/List/Category/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Morar Inc and Sons",
-    "ToolTip": "Eos et cumque.",
-    "Deleted": false,
-    "Rank": 757,
-    "Type": "qui",
+    "Id": 935,
+    "Name": "Lebsack, Murphy and Smitham",
+    "ToolTip": "Atque deserunt.",
+    "Deleted": true,
+    "Rank": 381,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Ward-Treutel",
-        "ToolTip": "Ad eius qui est molestiae laborum totam.",
-        "Deleted": false,
-        "Rank": 693,
-        "Type": "non",
+        "Id": 504,
+        "Name": "Wiza-Farrell",
+        "ToolTip": "Repellendus aspernatur reprehenderit accusamus ut similique.",
+        "Deleted": true,
+        "Rank": 731,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 532,
-        "ExtraInfo": "autem",
-        "StyleHint": "aliquam",
-        "FullName": "Mrs. Delpha Lambert Halvorson",
+        "IconHint": "ut",
+        "ColorBlock": 519,
+        "ExtraInfo": "laborum",
+        "StyleHint": "assumenda",
+        "FullName": "Vivian Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 158
+            "FieldLength": 617
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 953,
-    "ExtraInfo": "labore",
-    "StyleHint": "non",
-    "FullName": "Braulio Stehr",
+    "IconHint": "eveniet",
+    "ColorBlock": 605,
+    "ExtraInfo": "accusamus",
+    "StyleHint": "ipsa",
+    "FullName": "Vickie Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 621
       }
     }
   }

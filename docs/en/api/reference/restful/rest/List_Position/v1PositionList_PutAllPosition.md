@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Mayert, Lockman and Beatty",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 746,
-    "Rank": 728
+    "Id": 176,
+    "Name": "Hoppe LLC",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "UdListDefinitionId": 868,
+    "Rank": 640
   },
   {
-    "Id": 237,
-    "Name": "Mayert, Lockman and Beatty",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 746,
-    "Rank": 728
+    "Id": 176,
+    "Name": "Hoppe LLC",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "UdListDefinitionId": 868,
+    "Rank": 640
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Ward, Smitham and Krajcik",
-    "Tooltip": "et",
+    "Id": 959,
+    "Name": "Moore, Brakus and Boehm",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "UdListDefinitionId": 388,
-    "Rank": 206,
+    "UdListDefinitionId": 657,
+    "Rank": 467,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldType": "System.String",
+        "FieldLength": 749
       }
     }
   }

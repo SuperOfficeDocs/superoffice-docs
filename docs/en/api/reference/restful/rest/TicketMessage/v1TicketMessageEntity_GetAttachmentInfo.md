@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 160,
-    "Name": "Krajcik-Jerde",
-    "ContentType": "labore",
-    "AttSize": 824,
+    "AttachmentId": 325,
+    "Name": "Franecki, Klocko and Cole",
+    "ContentType": "quisquam",
+    "AttSize": 3,
     "InlineImage": false,
-    "ContentId": "omnis",
-    "AuthKey": "et",
+    "ContentId": "et",
+    "AuthKey": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldLength": 845
       }
     }
   }

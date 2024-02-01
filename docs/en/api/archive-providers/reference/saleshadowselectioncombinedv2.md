@@ -1279,7 +1279,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionCombinedV2?$select=person/personExtra/y_rental/id,contact/email/emailLastBounce,contact/postAddress/county,associate/lastName,project/projectAssociate/userName
+GET /api/v1/archive/SaleShadowSelectionCombinedV2?$select=person/kanaFirstName,person/personMobilePhone/description,person/personAddress/formattedAddress,person/personAssociate/credentialType,person/personAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

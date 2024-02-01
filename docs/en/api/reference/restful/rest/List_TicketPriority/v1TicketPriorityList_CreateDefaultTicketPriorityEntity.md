@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 97,
-  "Name": "Zemlak Group",
+  "TicketPriorityId": 690,
+  "Name": "Barrows, Bernhard and Mayer",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 991,
+  "SortOrder": 439,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 383,
-  "MonStart": "2018-02-18T13:57:20.1734375+01:00",
-  "MonStop": "2002-09-08T13:57:20.1734375+02:00",
-  "TueStart": "2014-04-03T13:57:20.1734375+02:00",
-  "TueStop": "2017-04-30T13:57:20.1734375+02:00",
-  "WedStart": "2001-01-23T13:57:20.1734375+01:00",
-  "WedStop": "2020-08-18T13:57:20.1734375+02:00",
-  "ThuStart": "2013-05-21T13:57:20.1734375+02:00",
-  "ThuStop": "2005-07-09T13:57:20.1734375+02:00",
-  "FriStart": "1998-12-13T13:57:20.1734375+01:00",
-  "FriStop": "2015-01-26T13:57:20.1734375+01:00",
-  "SatStart": "2005-04-27T13:57:20.1734375+02:00",
-  "SatStop": "2015-02-24T13:57:20.1734375+01:00",
-  "SunStart": "2010-06-06T13:57:20.1734375+02:00",
-  "SunStop": "1999-07-05T13:57:20.1734375+02:00",
+  "Deadline": 16,
+  "MonStart": "2023-08-09T23:04:06.0114925+02:00",
+  "MonStop": "2021-01-13T23:04:06.0114925+01:00",
+  "TueStart": "1997-07-21T23:04:06.0114925+02:00",
+  "TueStop": "1997-01-15T23:04:06.0114925+01:00",
+  "WedStart": "2007-11-01T23:04:06.0114925+01:00",
+  "WedStop": "2016-07-03T23:04:06.0114925+02:00",
+  "ThuStart": "2024-01-15T23:04:06.0114925+01:00",
+  "ThuStop": "2021-11-16T23:04:06.0114925+01:00",
+  "FriStart": "2009-09-29T23:04:06.0114925+02:00",
+  "FriStop": "2002-05-04T23:04:06.0114925+02:00",
+  "SatStart": "2019-10-03T23:04:06.0114925+02:00",
+  "SatStop": "2023-10-21T23:04:06.0114925+02:00",
+  "SunStart": "2016-03-08T23:04:06.0114925+01:00",
+  "SunStop": "2005-08-25T23:04:06.0114925+02:00",
   "NonDates": [
-    "voluptatem",
-    "ex"
+    "repudiandae",
+    "eligendi"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 133,
-      "AlertLevel": 221,
-      "AlertTimeout": 105,
-      "Action": 913,
-      "DelegateTo": 887,
-      "ScriptId": 433,
-      "EmailTo": "lenna.haley@moen.info",
-      "SmsTo": "nesciunt",
-      "ReplyTemplateIdCustomer": 531,
-      "ReplyTemplateIdUser": 983,
-      "ReplyTemplateIdCatmast": 878,
-      "ReplyTemplateIdEmail": 186,
-      "RtiCustomerSms": 44,
-      "ReplyTemplateIdUserSms": 820,
-      "ReplyTemplateIdCatmastSms": 280,
-      "ReplyTemplateIdSms": 544,
+      "TicketAlertId": 130,
+      "AlertLevel": 900,
+      "AlertTimeout": 706,
+      "Action": 373,
+      "DelegateTo": 631,
+      "ScriptId": 281,
+      "EmailTo": "darren.stoltenberg@feest.us",
+      "SmsTo": "accusamus",
+      "ReplyTemplateIdCustomer": 1000,
+      "ReplyTemplateIdUser": 39,
+      "ReplyTemplateIdCatmast": 132,
+      "ReplyTemplateIdEmail": 340,
+      "RtiCustomerSms": 446,
+      "ReplyTemplateIdUserSms": 267,
+      "ReplyTemplateIdCatmastSms": 270,
+      "ReplyTemplateIdSms": 458,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldLength": 71
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 797
     }
   }
 }

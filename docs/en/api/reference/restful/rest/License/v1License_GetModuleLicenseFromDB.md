@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Jast, Tillman and Langosh",
-  "ModuleName": "Stanton LLC",
-  "ModuleDescription": "Diverse demand-driven orchestration",
-  "ModuleTooltip": "amet",
-  "ModuleVersion": "facere",
+  "OwnerName": "Thiel-Beer",
+  "ModuleName": "Kuhn Group",
+  "ModuleDescription": "Balanced executive pricing structure",
+  "ModuleTooltip": "ut",
+  "ModuleVersion": "dolore",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 93,
-  "ExtraFlags": 402,
-  "ExtraInfo": "quo",
-  "SortOrder": 907,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Schiller Inc and Sons",
-  "Signature": "impedit"
+  "NumberOfLicenses": 69,
+  "ExtraFlags": 919,
+  "ExtraInfo": "rerum",
+  "SortOrder": 709,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "King Inc and Sons",
+  "Signature": "doloribus"
 }
 ```

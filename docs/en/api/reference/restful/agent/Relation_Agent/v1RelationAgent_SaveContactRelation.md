@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 158,
-  "SourcePersonId": 47,
-  "DestinationContactId": 477,
-  "DestinationPersonId": 446,
-  "RelationId": 68,
-  "Comment": "optio",
-  "RelationDefinitionId": 35,
-  "Reversed": 654,
-  "UpdatedDate": "2022-01-13T13:57:13.0961896+01:00",
-  "CreatedDate": "2010-07-23T13:57:13.0961896+02:00",
+  "SourceContactId": 249,
+  "SourcePersonId": 803,
+  "DestinationContactId": 521,
+  "DestinationPersonId": 685,
+  "RelationId": 600,
+  "Comment": "iusto",
+  "RelationDefinitionId": 629,
+  "Reversed": 956,
+  "UpdatedDate": "2007-07-31T23:03:56.8136177+02:00",
+  "CreatedDate": "2001-08-04T23:03:56.8136177+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ruecker, Ward and Gottlieb",
-  "SourcePersonName": "O'Conner, Koss and Von",
-  "DestinationContactName": "Von, Bayer and Little",
-  "DestinationPersonName": "McDermott Group",
-  "ActiveText": "ex",
-  "PassiveText": "ullam",
+  "SourceContactName": "McKenzie, Wuckert and Skiles",
+  "SourcePersonName": "Kuhlman LLC",
+  "DestinationContactName": "Miller Group",
+  "DestinationPersonName": "Becker-Jewess",
+  "ActiveText": "maiores",
+  "PassiveText": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldLength": 879
     }
   }
 }

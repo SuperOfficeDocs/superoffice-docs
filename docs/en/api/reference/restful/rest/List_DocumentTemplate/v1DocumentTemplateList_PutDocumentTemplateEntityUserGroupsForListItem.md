@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "Gerhold Group",
-    "ToolTip": "Quia hic voluptatum expedita ipsa.",
-    "Deleted": false,
-    "Rank": 202,
-    "Type": "et",
-    "ColorBlock": 246,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2012-03-29T13:57:19.7658931+02:00",
+    "Id": 361,
+    "Name": "Jones Inc and Sons",
+    "ToolTip": "Ipsa aut cum sequi harum quasi amet distinctio.",
+    "Deleted": true,
+    "Rank": 770,
+    "Type": "est",
+    "ColorBlock": 761,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2007-11-15T23:04:05.4799999+01:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Blanda, Muller and Balistreri",
-        "ToolTip": "Sapiente placeat.",
+        "Id": 280,
+        "Name": "Hodkiewicz Group",
+        "ToolTip": "Non sed dolore qui voluptas.",
         "Deleted": false,
-        "Rank": 876,
-        "Type": "est",
-        "ColorBlock": 172,
-        "IconHint": "ducimus",
-        "Selected": true,
-        "LastChanged": "2012-06-18T13:57:19.7658931+02:00",
+        "Rank": 764,
+        "Type": "ipsum",
+        "ColorBlock": 266,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2001-09-12T23:04:05.4805035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Noemy Vandervort"
+        "ExtraInfo": "fugiat",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Ezequiel Strosin"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "a",
+    "ExtraInfo": "aut",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Adella Spencer"
+    "FullName": "Prof. Everardo Jessie Daniel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "O'Reilly-Corwin",
-    "ToolTip": "Ut error.",
+    "Id": 772,
+    "Name": "Schamberger-Bradtke",
+    "ToolTip": "Maiores quas consequuntur quam non voluptates molestias.",
     "Deleted": true,
-    "Rank": 933,
-    "Type": "animi",
-    "ColorBlock": 224,
-    "IconHint": "atque",
-    "Selected": true,
-    "LastChanged": "2021-02-18T13:57:19.7658931+01:00",
+    "Rank": 238,
+    "Type": "architecto",
+    "ColorBlock": 221,
+    "IconHint": "quasi",
+    "Selected": false,
+    "LastChanged": "2017-08-07T23:04:05.4815004+02:00",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Streich Group",
-        "ToolTip": "Et ipsum blanditiis voluptatem corrupti ut esse delectus.",
-        "Deleted": false,
-        "Rank": 505,
-        "Type": "magni",
-        "ColorBlock": 857,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2000-06-29T13:57:19.7658931+02:00",
+        "Id": 67,
+        "Name": "Rolfson-Strosin",
+        "ToolTip": "Minima et ut in enim.",
+        "Deleted": true,
+        "Rank": 133,
+        "Type": "ut",
+        "ColorBlock": 44,
+        "IconHint": "soluta",
+        "Selected": false,
+        "LastChanged": "2008-05-17T23:04:05.4819992+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "dolor",
+        "ExtraInfo": "tempora",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Gunner Hollie Keebler DVM",
+        "FullName": "Jayne Stella Mueller Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldType": "System.String",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "enim",
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Prof. Leslie Mitchell DVM",
+    "FullName": "Miss Dell Weissnat DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Reichel-Schoen",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "UdListDefinitionId": 518,
-  "Rank": 947
+  "Id": 110,
+  "Name": "Brekke Group",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "UdListDefinitionId": 986,
+  "Rank": 607
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 355,
-  "Name": "Dach-Pfeffer",
-  "Tooltip": "rem",
-  "Deleted": true,
-  "UdListDefinitionId": 930,
-  "Rank": 623,
+  "Id": 326,
+  "Name": "Herzog LLC",
+  "Tooltip": "nesciunt",
+  "Deleted": false,
+  "UdListDefinitionId": 773,
+  "Rank": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldLength": 112
     }
   }
 }

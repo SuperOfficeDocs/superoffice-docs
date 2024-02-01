@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 15,
-  "WorkflowId": 24,
+  "WorkflowGoalId": 479,
+  "WorkflowId": 551,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Moore LLC",
-      "Description": "Right-sized bandwidth-monitored moderator",
-      "Rank": 411,
+      "Name": "O'Conner, Tremblay and Christiansen",
+      "Description": "Reactive radical algorithm",
+      "Rank": 329,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Moore LLC",
-      "Description": "Right-sized bandwidth-monitored moderator",
-      "Rank": 411,
+      "Name": "O'Conner, Tremblay and Christiansen",
+      "Description": "Reactive radical algorithm",
+      "Rank": 329,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 673
     }
   }
 }

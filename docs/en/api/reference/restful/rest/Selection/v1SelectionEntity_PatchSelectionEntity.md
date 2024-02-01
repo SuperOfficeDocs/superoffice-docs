@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "a",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "a",
+    "path": "aspernatur",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Team-oriented bandwidth-monitored portal",
-  "Postit": "laborum",
+  "Description": "Multi-tiered demand-driven orchestration",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 609,
-  "IncludePerson": 320,
-  "MemberCount": 48,
-  "Name": "Reichert-Hettinger",
-  "PostitTextId": 5,
-  "CreatedDate": "2010-02-18T13:57:19.2658995+01:00",
-  "SelectionId": 968,
-  "SoundEx": "quisquam",
-  "Source": 312,
-  "TextId": 416,
-  "UpdatedDate": "2019-10-12T13:57:19.2658995+02:00",
-  "UpdatedCount": 783,
-  "Visibility": 491,
+  "GroupIdx": 405,
+  "IncludePerson": 547,
+  "MemberCount": 101,
+  "Name": "Terry, Heaney and Hahn",
+  "PostitTextId": 990,
+  "CreatedDate": "2002-12-16T23:04:04.790506+01:00",
+  "SelectionId": 59,
+  "SoundEx": "vel",
+  "Source": 895,
+  "TextId": 781,
+  "UpdatedDate": "2004-06-05T23:04:04.790506+02:00",
+  "UpdatedCount": 391,
+  "Visibility": 475,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 117,
-  "TargetTableName": "Kohler-Prohaska",
+  "TargetTableNumber": 600,
+  "TargetTableName": "Howell, Kutch and Champlin",
   "Completed": false,
-  "LeftSelectionId": 167,
-  "RightSelectionId": 347,
+  "LeftSelectionId": 808,
+  "RightSelectionId": 569,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Heaney-Parisian",
-  "ShadowProviderName": "Stamm, Smitham and Schultz",
-  "ChartKey": "optio",
-  "LastLoaded": "2011-10-30T13:57:19.2658995+01:00",
-  "LastLoadedBy": 121,
+  "MainProviderName": "Schaefer-Kessler",
+  "ShadowProviderName": "Jacobson-Bernier",
+  "ChartKey": "quia",
+  "LastLoaded": "2005-05-07T23:04:04.790506+02:00",
+  "LastLoadedBy": 1002,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-06-17T13:57:19.2658995+02:00",
-  "LastMembershipChangeBy": 643,
+  "LastMembershipChange": "2016-01-09T23:04:04.791009+01:00",
+  "LastMembershipChangeBy": 738,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "animi",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Streich-Prosacco",
-  "DashboardTileDefinitionId": 676,
+  "MainHeading": "illum",
+  "MemberTabHeading": "porro",
+  "MailingsProviderName": "Kemmer, Hettinger and Nicolas",
+  "DashboardTileDefinitionId": 733,
   "VisibleFor": [
     {
-      "VisibleId": 845,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldType": "System.String",
+          "FieldLength": 488
         }
       }
     },
     {
-      "VisibleId": 845,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldType": "System.String",
+          "FieldLength": 488
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 584
     }
   },
   "_Links": {

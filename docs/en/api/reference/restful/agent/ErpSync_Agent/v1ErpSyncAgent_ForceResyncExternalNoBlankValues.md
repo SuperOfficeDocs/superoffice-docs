@@ -89,11 +89,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 999,
+  "ErpConnectionId": 371,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "nesciunt",
-    "sed"
+    "perspiciatis",
+    "fuga"
   ]
 }
 ```
@@ -105,10 +105,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "laborum",
-  "TechExplanation": "ipsa",
-  "ErrorCode": "numquam",
+  "IsOk": false,
+  "UserExplanation": "aut",
+  "TechExplanation": "et",
+  "ErrorCode": "illo",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldLength": 820
     }
   }
 }

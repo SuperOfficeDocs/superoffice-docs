@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 389,
-  "ERPQuoteVersionKey": "sunt",
-  "QuoteId": 693,
-  "Description": "Vision-oriented foreground installation",
-  "Number": "362965",
+  "QuoteVersionId": 73,
+  "ERPQuoteVersionKey": "libero",
+  "QuoteId": 66,
+  "Description": "Organic stable neural-net",
+  "Number": "733006",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 195,
-  "SentDate": "2017-12-08T13:57:13.0324135+01:00",
-  "FollowupId": 988,
-  "ExpirationDate": "2003-02-12T13:57:13.0324135+01:00",
-  "DeliveryCountryId": 521,
+  "LikelyQuoteAlternativeId": 765,
+  "SentDate": "1999-03-25T23:03:56.7226191+01:00",
+  "FollowupId": 861,
+  "ExpirationDate": "2023-09-14T23:03:56.7226191+02:00",
+  "DeliveryCountryId": 665,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 175,
+  "InvoiceCountryId": 855,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "odio",
-  "ERPPaymentTypeKey": "aliquid",
-  "ERPDeliveryTermsKey": "molestiae",
-  "ERPDeliveryTypeKey": "numquam",
-  "Rank": 192,
-  "ApprovedBy": 497,
-  "ApprovedText": "pariatur",
-  "ApprovedRegisteredBy": 972,
-  "ApprovedRegisteredDate": "1999-08-21T13:57:13.0324135+02:00",
-  "ExtraField1": "ea",
-  "ExtraField2": "sunt",
-  "ExtraField3": "laborum",
-  "ExtraField4": "eius",
-  "ExtraField5": "quo",
-  "LastRecalculated": "2021-12-17T13:57:13.0324135+01:00",
-  "Updated": "2015-11-06T13:57:13.0324135+01:00",
-  "UpdatedAssociateId": 591,
-  "Registered": "2007-04-12T13:57:13.0324135+02:00",
-  "RegisteredAssociateId": 243,
-  "RequestAssociateId": 970,
-  "RequestComment": "fugit",
+  "ERPPaymentTermsKey": "et",
+  "ERPPaymentTypeKey": "culpa",
+  "ERPDeliveryTermsKey": "qui",
+  "ERPDeliveryTypeKey": "reprehenderit",
+  "Rank": 696,
+  "ApprovedBy": 745,
+  "ApprovedText": "recusandae",
+  "ApprovedRegisteredBy": 624,
+  "ApprovedRegisteredDate": "2011-03-17T23:03:56.7226191+01:00",
+  "ExtraField1": "ab",
+  "ExtraField2": "tempore",
+  "ExtraField3": "alias",
+  "ExtraField4": "dolor",
+  "ExtraField5": "in",
+  "LastRecalculated": "2016-01-30T23:03:56.7231184+01:00",
+  "Updated": "2001-11-03T23:03:56.7231184+01:00",
+  "UpdatedAssociateId": 526,
+  "Registered": "1999-01-04T23:03:56.7231184+01:00",
+  "RegisteredAssociateId": 121,
+  "RequestAssociateId": 166,
+  "RequestComment": "quia",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 360,
-      "ERPQuoteAlternativeKey": "quia",
-      "QuoteVersionId": 43,
-      "Name": "Reilly, Dooley and Kirlin",
-      "Description": "Re-contextualized high-level framework",
+      "QuoteAlternativeId": 477,
+      "ERPQuoteAlternativeKey": "quis",
+      "QuoteVersionId": 995,
+      "Name": "Gislason, Lesch and McClure",
+      "Description": "Re-engineered global attitude",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 15914.452,
-      "ERPDiscountAmount": 2200.0679999999998,
-      "DiscountPercent": 30998.394,
-      "DiscountAmount": 18340.167999999998,
+      "ERPDiscountPercent": 7969.762,
+      "ERPDiscountAmount": 10990.938,
+      "DiscountPercent": 31126.888,
+      "DiscountAmount": 26855.246,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quo",
-      "VAT": 1986.956,
-      "EarningPercent": 3268.7619999999997,
-      "EarningAmount": 6603.338,
-      "SubTotal": 319.668,
-      "TotalPrice": 3973.912,
+      "VATInfo": "voluptatum",
+      "VAT": 31036.002,
+      "EarningPercent": 23705.576,
+      "EarningAmount": 12175.59,
+      "SubTotal": 20790.956,
+      "TotalPrice": 10348.467999999999,
       "ExtraField1": "sunt",
-      "ExtraField2": "quia",
-      "ExtraField3": "voluptatibus",
-      "ExtraField4": "culpa",
-      "ExtraField5": "cumque",
+      "ExtraField2": "voluptatum",
+      "ExtraField3": "nesciunt",
+      "ExtraField4": "veritatis",
+      "ExtraField5": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 466
+          "FieldType": "System.Int32",
+          "FieldLength": 158
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldType": "System.String",
+      "FieldLength": 328
     }
   }
 }

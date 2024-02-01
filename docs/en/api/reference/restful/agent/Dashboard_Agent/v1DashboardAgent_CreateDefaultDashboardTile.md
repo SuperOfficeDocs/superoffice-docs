@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 233,
-  "Caption": "consequatur",
-  "Description": "Right-sized well-modulated frame",
-  "ChartName": "Wiza-Reinger",
-  "ChartId": "neque",
+  "DashboardTileId": 517,
+  "Caption": "veritatis",
+  "Description": "Profound actuating knowledge base",
+  "ChartName": "Doyle Inc and Sons",
+  "ChartId": "possimus",
   "IsDefault": false,
-  "AssociateId": 175,
-  "GroupId": 311,
-  "SelectionId": 143,
-  "Config": "quibusdam",
+  "AssociateId": 765,
+  "GroupId": 93,
+  "SelectionId": 246,
+  "Config": "dolores",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bosco-Wolff",
-      "Description": "User-centric well-modulated policy",
+      "Name": "Haley-Dach",
+      "Description": "Visionary transitional groupware",
       "Type": "Boolean",
-      "ListName": "Kessler-Bode",
+      "ListName": "Wisoky Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eius",
+      "Value": "voluptas",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 390
+          "FieldType": "System.Int32",
+          "FieldLength": 329
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 375,
+      "VisibleId": 386,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldLength": 58
         }
       }
     },
     {
-      "VisibleId": 375,
+      "VisibleId": 386,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldLength": 58
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 684
     }
   }
 }

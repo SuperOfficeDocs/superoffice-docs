@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=893
+PUT /api/v1/Project/{id}/ImageInfo?projectId=925
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 423,
-  "BlobSize": 832,
-  "Description": "Mandatory bandwidth-monitored hierarchy",
-  "ExtraInfo": "modi",
+  "BlobId": 491,
+  "BlobSize": 818,
+  "Description": "Customer-focused stable open architecture",
+  "ExtraInfo": "atque",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "numquam",
-  "OriginalSize": 83,
-  "CreatedDate": "2018-04-28T13:57:19.1246846+02:00",
-  "UpdatedDate": "2022-08-26T13:57:19.1246846+02:00",
+  "IsZipped": true,
+  "MimeType": "dolores",
+  "OriginalSize": 234,
+  "CreatedDate": "2002-01-08T23:04:04.6035124+01:00",
+  "UpdatedDate": "2013-06-02T23:04:04.6035124+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatem"
+  "ConceptualType": "animi"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 943,
-  "BlobSize": 479,
-  "Description": "Down-sized homogeneous infrastructure",
-  "ExtraInfo": "velit",
+  "BlobId": 899,
+  "BlobSize": 601,
+  "Description": "Quality-focused impactful archive",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "harum",
-  "OriginalSize": 791,
-  "CreatedDate": "2023-05-12T13:57:19.1246846+02:00",
-  "UpdatedDate": "2002-12-23T13:57:19.1246846+01:00",
+  "MimeType": "excepturi",
+  "OriginalSize": 692,
+  "CreatedDate": "2017-03-19T23:04:04.6060115+01:00",
+  "UpdatedDate": "2008-06-21T23:04:04.6060115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestias",
+  "ConceptualType": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldType": "System.Int32",
+      "FieldLength": 39
     }
   }
 }

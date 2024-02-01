@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "Champlin, Denesik and Stehr",
-    "ToolTip": "Dolorem praesentium molestias veniam.",
+    "Id": 57,
+    "Name": "Ledner Group",
+    "ToolTip": "Distinctio perspiciatis vel veniam consectetur reprehenderit.",
     "Deleted": false,
-    "Rank": 906,
-    "Type": "architecto",
-    "ColorBlock": 93,
-    "IconHint": "adipisci",
-    "Selected": false,
-    "LastChanged": "2000-10-11T13:57:19.6409229+02:00",
+    "Rank": 800,
+    "Type": "doloribus",
+    "ColorBlock": 775,
+    "IconHint": "aspernatur",
+    "Selected": true,
+    "LastChanged": "2006-05-02T23:04:05.3180024+02:00",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "McGlynn-Prohaska",
-        "ToolTip": "Quibusdam minus ut doloremque quis vero corrupti aperiam.",
-        "Deleted": false,
-        "Rank": 65,
-        "Type": "tempore",
-        "ColorBlock": 437,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2013-01-12T13:57:19.6409229+01:00",
+        "Id": 709,
+        "Name": "Schoen-Hand",
+        "ToolTip": "Numquam molestiae iure totam illum quisquam voluptatem ut.",
+        "Deleted": true,
+        "Rank": 222,
+        "Type": "harum",
+        "ColorBlock": 231,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2017-11-22T23:04:05.3180024+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Mable Langosh",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "veritatis",
+        "Hidden": true,
+        "FullName": "Ms. Keshaun Buckridge MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 374
+            "FieldType": "System.Int32",
+            "FieldLength": 862
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "possimus",
+    "ExtraInfo": "tempore",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Anderson Gislason",
+    "FullName": "Lorena Roob",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldType": "System.String",
+        "FieldLength": 167
       }
     }
   }

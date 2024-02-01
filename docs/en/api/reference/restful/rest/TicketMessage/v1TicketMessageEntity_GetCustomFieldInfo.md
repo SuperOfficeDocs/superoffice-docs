@@ -71,7 +71,7 @@ OK
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Yost Group",
-  "DisplayName": "Kunze LLC",
-  "Description": "Implemented optimal matrices",
-  "ShortLabel": "amet",
+  "FieldName": "Nitzsche, Runte and Kertzmann",
+  "DisplayName": "Kutch Inc and Sons",
+  "Description": "Future-proofed didactic adapter",
+  "ShortLabel": "est",
   "HideLabel": true,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 637,
-  "TemplateVariableName": "Pagac, Wuckert and Wiza"
+  "IsReadOnly": false,
+  "IsExternal": false,
+  "Rank": 683,
+  "TemplateVariableName": "Boyer, Ferry and Cartwright"
 }
 ```

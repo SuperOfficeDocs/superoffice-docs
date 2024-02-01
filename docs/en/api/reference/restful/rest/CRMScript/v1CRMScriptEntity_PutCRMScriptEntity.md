@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 282,
-  "UniqueIdentifier": "est",
-  "Name": "Gulgowski Group",
-  "Description": "Secured encompassing encryption",
-  "IncludeId": "excepturi",
-  "HierarchyId": 806,
-  "Source": "in",
-  "Registered": "2007-10-04T13:57:18.6846845+02:00",
-  "RegisteredAssociateId": 495,
-  "Updated": "2005-05-11T13:57:18.6846845+02:00",
-  "UpdatedAssociateId": 396
+  "EjscriptId": 786,
+  "UniqueIdentifier": "nesciunt",
+  "Name": "Leannon, Robel and Windler",
+  "Description": "Re-engineered holistic database",
+  "IncludeId": "necessitatibus",
+  "HierarchyId": 200,
+  "Source": "iure",
+  "Registered": "2023-03-27T23:04:04.0680188+02:00",
+  "RegisteredAssociateId": 522,
+  "Updated": "2011-01-19T23:04:04.0680188+01:00",
+  "UpdatedAssociateId": 30
 }
 ```
 
@@ -126,28 +126,28 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 607,
-  "UniqueIdentifier": "dolorum",
-  "Name": "Leannon-Balistreri",
-  "Description": "Expanded context-sensitive capacity",
-  "IncludeId": "dolorum",
-  "HierarchyId": 913,
-  "Source": "deserunt",
-  "Registered": "1998-02-25T13:57:18.6846845+01:00",
-  "RegisteredAssociateId": 203,
-  "Updated": "2001-05-04T13:57:18.6846845+02:00",
-  "UpdatedAssociateId": 854,
+  "EjscriptId": 355,
+  "UniqueIdentifier": "et",
+  "Name": "Gusikowski LLC",
+  "Description": "Inverse eco-centric methodology",
+  "IncludeId": "corrupti",
+  "HierarchyId": 612,
+  "Source": "nam",
+  "Registered": "2023-09-19T23:04:04.0685211+02:00",
+  "RegisteredAssociateId": 591,
+  "Updated": "1998-09-12T23:04:04.0685211+02:00",
+  "UpdatedAssociateId": 772,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 555
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

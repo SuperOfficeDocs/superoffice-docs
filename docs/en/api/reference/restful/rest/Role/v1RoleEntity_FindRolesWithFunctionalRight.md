@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Macejkovic Group",
-    "ToolTip": "Temporibus id atque molestiae.",
+    "Id": 72,
+    "Name": "Cremin Inc and Sons",
+    "ToolTip": "Possimus commodi velit.",
     "Deleted": true,
-    "Rank": 932,
-    "Type": "occaecati",
+    "Rank": 169,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Walker LLC",
-        "ToolTip": "Qui a nesciunt eos voluptas ut.",
-        "Deleted": false,
-        "Rank": 774,
-        "Type": "quo",
+        "Id": 484,
+        "Name": "Zboncak-Keebler",
+        "ToolTip": "Aliquam est voluptas ab quae.",
+        "Deleted": true,
+        "Rank": 74,
+        "Type": "temporibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 794,
+        "IconHint": "esse",
+        "ColorBlock": 288,
         "ExtraInfo": "et",
-        "StyleHint": "sint",
-        "FullName": "Ms. Stacey Kira Leffler",
+        "StyleHint": "est",
+        "FullName": "Mrs. Rosetta Langworth V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldLength": 214
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 462,
-    "ExtraInfo": "expedita",
-    "StyleHint": "eveniet",
-    "FullName": "Salvador Sporer",
+    "IconHint": "quia",
+    "ColorBlock": 477,
+    "ExtraInfo": "eius",
+    "StyleHint": "laudantium",
+    "FullName": "Dr. Mckenzie Darion Runolfsdottir II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 633
+        "FieldLength": 512
       }
     }
   }

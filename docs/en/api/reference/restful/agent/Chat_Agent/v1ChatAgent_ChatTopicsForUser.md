@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 250,
-    "Name": "Smith, Berge and Ernser",
-    "Description": "Up-sized transitional groupware",
-    "WelcomeMessage": "est",
+    "ChatTopicId": 852,
+    "Name": "Hettinger-Terry",
+    "Description": "Programmable neutral parallelism",
+    "WelcomeMessage": "nisi",
     "Language": null,
-    "LastAccept": "2005-12-01T13:57:11.7923994+01:00",
-    "SecondsPrAccept": 514,
-    "AlertRecipient": "suscipit",
+    "LastAccept": "2016-08-30T23:03:55.199141+02:00",
+    "SecondsPrAccept": 759,
+    "AlertRecipient": "repudiandae",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "nobis",
+    "BadgeHeader": "recusandae",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "eos",
-    "WarnNewChatMinutes": 875,
-    "WarnManagerNewChatMinutes": 355,
-    "TicketEnabled": true,
+    "CustomQueueText": "delectus",
+    "WarnNewChatMinutes": 749,
+    "WarnManagerNewChatMinutes": 102,
+    "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": true,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 422,
-    "WarnManagerChatMessageMinutes": 590,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 682,
-    "OfflineFormQueueLength": 771,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "nisi",
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 453,
+    "WarnManagerChatMessageMinutes": 179,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 189,
+    "OfflineFormQueueLength": 663,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 623
       }
     }
   }

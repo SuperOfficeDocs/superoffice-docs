@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 95,
-  "ContactName": "Reichel, Stamm and McClure",
-  "PersonId": 723,
-  "PersonName": "Bailey Group",
-  "AssociateId": 414,
-  "Address": "qui",
-  "EmailId": 829,
+  "ContactId": 949,
+  "ContactName": "Homenick-Corwin",
+  "PersonId": 974,
+  "PersonName": "Schoen, Parisian and Aufderhar",
+  "AssociateId": 700,
+  "Address": "enim",
+  "EmailId": 139,
   "DuplicatePersonIds": [
-    272,
-    219
+    398,
+    596
   ],
-  "Name": "Bashirian-Dach",
+  "Name": "Watsica-Wisoky",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldType": "System.String",
+      "FieldLength": 636
     }
   }
 }

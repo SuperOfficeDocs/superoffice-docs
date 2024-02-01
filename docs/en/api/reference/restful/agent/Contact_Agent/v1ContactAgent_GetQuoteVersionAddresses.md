@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 122
+  "QuoteVersionId": 857
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 11254.194,
-    "Wgs84Longitude": 9398.866,
+    "Wgs84Latitude": 13391.582,
+    "Wgs84Longitude": 20615.452,
     "LocalizedAddress": [
       [
         {
-          "Name": "Daugherty Group",
-          "Value": "vel",
-          "Tooltip": "vel",
-          "Label": "expedita",
-          "ValueLength": 956,
-          "AddressType": "eum",
+          "Name": "Lubowitz, Lubowitz and Braun",
+          "Value": "maiores",
+          "Tooltip": "voluptatem",
+          "Label": "illo",
+          "ValueLength": 7,
+          "AddressType": "sint",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 814
+              "FieldLength": 109
             }
           }
         }
       ],
       [
         {
-          "Name": "Wilkinson, Greenfelder and Johnston",
-          "Value": "quia",
-          "Tooltip": "non",
-          "Label": "non",
-          "ValueLength": 342,
-          "AddressType": "et",
+          "Name": "Bernhard-Donnelly",
+          "Value": "blanditiis",
+          "Tooltip": "repellat",
+          "Label": "voluptas",
+          "ValueLength": 702,
+          "AddressType": "itaque",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 267
+              "FieldLength": 21
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "aspernatur",
+    "Formatted": "culpa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 778
       }
     }
   }

@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Walter, Smith and Pacocha",
-  "ProviderName": "Farrell Group",
-  "SortOrder": "deleniti",
-  "Restriction": "doloremque",
-  "Entities": "et",
-  "Page": 938,
-  "PageSize": 888
+  "GuiName": "Jerde-Beer",
+  "ProviderName": "Lubowitz Inc and Sons",
+  "SortOrder": "praesentium",
+  "Restriction": "amet",
+  "Entities": "quasi",
+  "Page": 218,
+  "PageSize": 442
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gorczany, Murphy and Roberts",
-    "PrimaryKey": 165,
+    "EntityName": "Daugherty-Kuvalis",
+    "PrimaryKey": 789,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "molestiae",
-        "TooltipHint": "quia",
-        "LinkHint": "quod"
+        "DisplayValue": "natus",
+        "TooltipHint": "adipisci",
+        "LinkHint": "expedita"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "velit",
+    "LinkHint": "incidunt",
+    "StyleHint": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 188
       }
     }
   }

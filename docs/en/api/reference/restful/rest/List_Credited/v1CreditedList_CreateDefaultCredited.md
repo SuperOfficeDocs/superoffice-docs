@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 618,
-  "Name": "Fritsch Group",
-  "Tooltip": "fugiat",
-  "Deleted": false,
-  "UdListDefinitionId": 668,
-  "Rank": 559,
+  "Id": 838,
+  "Name": "Kuhn Inc and Sons",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "UdListDefinitionId": 394,
+  "Rank": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 137
     }
   }
 }

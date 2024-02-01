@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 961,
-      "ContactId": 237
+      "PersonId": 465,
+      "ContactId": 481
     },
     {
-      "PersonId": 961,
-      "ContactId": 237
+      "PersonId": 465,
+      "ContactId": 481
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse static service-desk",
-  "Postit": "voluptas",
+  "Description": "Optional contextually-based secured line",
+  "Postit": "modi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 97,
-  "IncludePerson": 578,
-  "MemberCount": 57,
-  "Name": "Aufderhar-Nicolas",
-  "PostitTextId": 426,
-  "CreatedDate": "2019-11-03T13:57:13.2227834+01:00",
-  "SelectionId": 741,
-  "SoundEx": "culpa",
-  "Source": 713,
-  "TextId": 100,
-  "UpdatedDate": "2009-01-25T13:57:13.2227834+01:00",
-  "UpdatedCount": 770,
-  "Visibility": 697,
+  "GroupIdx": 904,
+  "IncludePerson": 238,
+  "MemberCount": 841,
+  "Name": "Zemlak, Willms and Kreiger",
+  "PostitTextId": 148,
+  "CreatedDate": "2013-05-13T23:03:57.1171134+02:00",
+  "SelectionId": 736,
+  "SoundEx": "natus",
+  "Source": 557,
+  "TextId": 273,
+  "UpdatedDate": "1998-03-25T23:03:57.117614+01:00",
+  "UpdatedCount": 946,
+  "Visibility": 102,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 674,
-  "TargetTableName": "Kovacek-Smitham",
+  "CompanyUnique": false,
+  "TargetTableNumber": 829,
+  "TargetTableName": "Yost, Dooley and Lind",
   "Completed": false,
-  "LeftSelectionId": 293,
-  "RightSelectionId": 701,
+  "LeftSelectionId": 42,
+  "RightSelectionId": 2,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Christiansen Inc and Sons",
-  "ShadowProviderName": "Jacobson-O'Connell",
-  "ChartKey": "praesentium",
-  "LastLoaded": "2019-01-27T13:57:13.2227834+01:00",
-  "LastLoadedBy": 735,
+  "MainProviderName": "Jaskolski LLC",
+  "ShadowProviderName": "Hills, Schowalter and Hettinger",
+  "ChartKey": "quo",
+  "LastLoaded": "2020-11-12T23:03:57.117614+01:00",
+  "LastLoadedBy": 217,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-03-13T13:57:13.2227834+01:00",
-  "LastMembershipChangeBy": 721,
+  "LastMembershipChange": "2015-05-03T23:03:57.117614+02:00",
+  "LastMembershipChangeBy": 365,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "voluptatem",
-  "MemberTabHeading": "quo",
-  "MailingsProviderName": "Reichert Inc and Sons",
-  "DashboardTileDefinitionId": 211,
+  "MemberTabHeading": "optio",
+  "MailingsProviderName": "Schumm, Haag and O'Kon",
+  "DashboardTileDefinitionId": 921,
   "VisibleFor": [
     {
-      "VisibleId": 150,
+      "VisibleId": 647,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldType": "System.Int32",
+          "FieldLength": 493
         }
       }
     },
     {
-      "VisibleId": 150,
+      "VisibleId": 647,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 973
+          "FieldType": "System.Int32",
+          "FieldLength": 493
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 506
     }
   }
 }

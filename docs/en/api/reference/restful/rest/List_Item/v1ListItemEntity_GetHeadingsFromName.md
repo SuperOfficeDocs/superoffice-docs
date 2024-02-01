@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Ratke-Weissnat",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 741,
-    "UdListDefinitionId": 280,
+    "HeadingId": 143,
+    "Name": "Luettgen-Tromp",
+    "Tooltip": "reprehenderit",
+    "Deleted": false,
+    "Rank": 627,
+    "UdListDefinitionId": 651,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 12
       }
     }
   }

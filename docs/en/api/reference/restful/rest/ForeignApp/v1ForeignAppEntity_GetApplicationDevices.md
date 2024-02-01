@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 25 Jul 2001 13:57:18 G7T
+Last-Modified: Fri, 10 Dec 1999 23:04:04 G12T
 
 [
   {
-    "ForeignDeviceId": 633,
-    "Name": "Quitzon Inc and Sons",
-    "CreatedDate": "2009-12-08T13:57:18.8109737+01:00",
-    "UpdatedDate": "2001-07-25T13:57:18.8109737+02:00",
-    "AssociateFullName": "Nicolas Lowe DVM",
-    "CreatedBy": "est",
-    "UpdatedBy": "fugiat",
-    "DeviceIdentifier": "quidem",
-    "ForeignAppId": 443,
+    "ForeignDeviceId": 744,
+    "Name": "Kulas, Grant and Cremin",
+    "CreatedDate": "1999-10-01T23:04:04.2225178+02:00",
+    "UpdatedDate": "1999-12-10T23:04:04.2225178+01:00",
+    "AssociateFullName": "Prof. Forest Jacey Veum I",
+    "CreatedBy": "sed",
+    "UpdatedBy": "iure",
+    "DeviceIdentifier": "reiciendis",
+    "ForeignAppId": 27,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 204
       }
     }
   }

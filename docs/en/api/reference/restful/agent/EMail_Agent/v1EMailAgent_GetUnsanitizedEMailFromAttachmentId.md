@@ -105,14 +105,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 935,
+  "EmailId": 342,
   "AttachmentIds": [
-    "veritatis",
-    "rerum"
+    "recusandae",
+    "quo"
   ],
   "IncludeAttachments": false
 }
@@ -127,96 +127,96 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 30,
-      "ContactName": "Hilpert LLC",
-      "PersonId": 775,
-      "PersonName": "Hessel Group",
-      "AssociateId": 231,
-      "Address": "amet",
-      "EmailId": 426,
+      "ContactId": 624,
+      "ContactName": "Parker Inc and Sons",
+      "PersonId": 956,
+      "PersonName": "Kuhlman, Anderson and Grady",
+      "AssociateId": 118,
+      "Address": "cupiditate",
+      "EmailId": 712,
       "DuplicatePersonIds": [
-        193,
-        903
+        18,
+        91
       ],
-      "Name": "Mills-Kemmer",
+      "Name": "Braun, Erdman and Grimes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 607
+          "FieldLength": 458
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 908,
-      "ContactName": "Bashirian-Brakus",
-      "PersonId": 225,
-      "PersonName": "Zieme, Boyer and Kassulke",
-      "AssociateId": 300,
-      "Address": "autem",
-      "EmailId": 375,
+      "ContactId": 852,
+      "ContactName": "Lebsack, Schmidt and Swift",
+      "PersonId": 422,
+      "PersonName": "Wolf, Goldner and Okuneva",
+      "AssociateId": 819,
+      "Address": "esse",
+      "EmailId": 166,
       "DuplicatePersonIds": [
-        293,
-        480
+        780,
+        275
       ],
-      "Name": "Murphy LLC",
+      "Name": "Harber Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 164
+          "FieldType": "System.Int32",
+          "FieldLength": 147
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 715,
-      "ContactName": "Conn-Willms",
-      "PersonId": 356,
-      "PersonName": "Erdman-Walter",
-      "AssociateId": 400,
-      "Address": "unde",
-      "EmailId": 802,
+      "ContactId": 1000,
+      "ContactName": "Monahan Group",
+      "PersonId": 245,
+      "PersonName": "Kilback-Ledner",
+      "AssociateId": 14,
+      "Address": "placeat",
+      "EmailId": 50,
       "DuplicatePersonIds": [
-        354,
-        729
+        13,
+        157
       ],
-      "Name": "Pfeffer Inc and Sons",
+      "Name": "Morissette Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     }
   ],
-  "Subject": "praesentium",
-  "HTMLBody": "ut",
+  "Subject": "error",
+  "HTMLBody": "quo",
   "From": null,
-  "Sent": "2001-10-09T13:57:12.3243156+02:00",
-  "Size": 902,
+  "Sent": "2008-05-08T23:03:55.9876295+02:00",
+  "Size": 356,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "natus",
-  "PlainBody": "commodi",
+  "MessageID": "praesentium",
+  "PlainBody": "ad",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 812,
+  "ServerId": 342,
   "Attachments": [
     {
-      "Description": "Fully-configurable dedicated product",
-      "Filename": "sint",
-      "Size": 263,
-      "Type": "praesentium",
-      "Encoding": "a",
-      "Id": "repudiandae",
+      "Description": "Front-line directional capability",
+      "Filename": "nesciunt",
+      "Size": 950,
+      "Type": "esse",
+      "Encoding": "tempore",
+      "Id": "placeat",
       "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
@@ -224,51 +224,51 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 936
+          "FieldType": "System.Int32",
+          "FieldLength": 271
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "McKenzie Inc and Sons",
+      "Name": "Smith Group",
       "Values": [
-        "quibusdam",
-        "et"
+        "fugiat",
+        "asperiores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 432
         }
       }
     },
     {
-      "Name": "McKenzie Inc and Sons",
+      "Name": "Smith Group",
       "Values": [
-        "quibusdam",
-        "et"
+        "fugiat",
+        "asperiores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 432
         }
       }
     }
   ],
-  "FolderName": "Lesch-Trantow",
-  "EmailItemId": 225,
-  "AccountId": 554,
-  "ReceivedAt": "2007-07-25T13:57:12.3243156+02:00",
+  "FolderName": "Bosco Inc and Sons",
+  "EmailItemId": 193,
+  "AccountId": 477,
+  "ReceivedAt": "2011-12-01T23:03:55.9881287+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-02-03T13:57:12.3243156+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2006-05-23T23:03:55.9881287+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldLength": 508
     }
   }
 }

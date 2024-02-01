@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 737,
+  "SelectionId": 936,
   "Criteria": [
     {
-      "Name": "Kemmer, Hansen and Orn",
-      "Operator": "sit",
+      "Name": "Renner-Rosenbaum",
+      "Operator": "mollitia",
       "Values": [
-        "delectus",
-        "dolor"
+        "provident",
+        "id"
       ],
       "DisplayValues": [
-        "reiciendis",
-        "incidunt"
+        "eos",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 210,
+      "InterParenthesis": 818,
       "InterOperator": "And",
-      "UniqueHash": 708
+      "UniqueHash": 679
     }
   ],
-  "Filter": "optio"
+  "Filter": "minus"
 }
 ```
 
@@ -124,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolff, Lind and Cormier",
-    "Operator": "aut",
+    "Name": "Huel, Lueilwitz and Botsford",
+    "Operator": "quo",
     "Values": [
       "ut",
-      "non"
+      "aut"
     ],
     "DisplayValues": [
-      "eos",
-      "doloribus"
+      "excepturi",
+      "sunt"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "O'Kon-Blanda",
-        "Operator": "eos",
+        "Name": "Flatley Inc and Sons",
+        "Operator": "ut",
         "Values": [
-          "cum",
-          "dolorem"
+          "sed",
+          "adipisci"
         ],
         "DisplayValues": [
-          "cupiditate",
-          "et"
+          "ut",
+          "enim"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 958,
+        "InterParenthesis": 444,
         "InterOperator": "And",
-        "UniqueHash": 551
+        "UniqueHash": 162
       }
     ],
-    "InterParenthesis": 909,
+    "InterParenthesis": 218,
     "InterOperator": "And",
-    "UniqueHash": 570
+    "UniqueHash": 414
   }
 ]
 ```

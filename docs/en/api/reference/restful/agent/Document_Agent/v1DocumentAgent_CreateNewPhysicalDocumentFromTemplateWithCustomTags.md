@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 49,
-  "PersonId": 247,
-  "AppointmentId": 540,
-  "DocumentId": 81,
-  "SaleId": 943,
-  "SelectionId": 355,
-  "ProjectId": 671,
+  "ContactId": 219,
+  "PersonId": 912,
+  "AppointmentId": 329,
+  "DocumentId": 565,
+  "SaleId": 662,
+  "SelectionId": 949,
+  "ProjectId": 40,
   "CustomTags": [
-    "animi",
-    "vel"
+    "dolores",
+    "nemo"
   ],
   "CustomValues": [
-    "eligendi",
-    "voluptatem"
+    "illum",
+    "debitis"
   ],
-  "UiCulture": "repudiandae"
+  "UiCulture": "autem"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 757,
+  "DocumentId": 72,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "aliquam",
-  "Name": "Hartmann Group",
-  "OurRef": "quia",
-  "YourRef": "amet",
-  "CreatedDate": "2020-06-22T13:57:12.1686185+02:00",
-  "UpdatedDate": "2004-05-18T13:57:12.1686185+02:00",
-  "Description": "Total modular website",
+  "Attention": "iusto",
+  "Header": "repellat",
+  "Name": "Koch LLC",
+  "OurRef": "esse",
+  "YourRef": "possimus",
+  "CreatedDate": "2014-03-29T23:03:55.7821321+01:00",
+  "UpdatedDate": "2022-11-15T23:03:55.7821321+01:00",
+  "Description": "Enterprise-wide disintermediate middleware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-02-23T13:57:12.1686185+01:00",
-  "ExternalRef": "tempora",
+  "Date": "1998-11-10T23:03:55.784635+01:00",
+  "ExternalRef": "atque",
   "Completed": "Completed",
-  "ActiveLinks": 285,
+  "ActiveLinks": 94,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wunsch Group",
-      "Id": 87,
-      "Description": "Cross-platform 5th generation process improvement",
-      "ExtraInfo": "aperiam",
-      "LinkId": 478,
+      "EntityName": "Lowe LLC",
+      "Id": 931,
+      "Description": "Assimilated dedicated synergy",
+      "ExtraInfo": "vero",
+      "LinkId": 598,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldLength": 882
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 822,
-  "Snum": 413,
+  "SuggestedDocumentId": 548,
+  "Snum": 360,
   "UserDefinedFields": {
-    "SuperOffice:1": "2096986496",
-    "SuperOffice:2": "Brian Pacocha"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Hosea Osinski"
   },
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "earum"
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "et"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "corporis"
   },
-  "PublishEventDate": "2022-05-26T13:57:12.1686185+02:00",
-  "PublishTo": "2012-12-08T13:57:12.1686185+01:00",
-  "PublishFrom": "2013-07-06T13:57:12.1686185+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-11-24T23:03:55.7866294+01:00",
+  "PublishTo": "2008-11-23T23:03:55.7866294+01:00",
+  "PublishFrom": "1999-09-27T23:03:55.7866294+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 984,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 160
         }
       }
     },
     {
-      "VisibleId": 984,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "reiciendis",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 160
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldType": "System.String",
+      "FieldLength": 911
     }
   }
 }

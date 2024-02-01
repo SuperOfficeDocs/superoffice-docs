@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 549,
-  "Name": "Fahey Inc and Sons",
-  "Description": "Fundamental 6th generation structure",
-  "WelcomeMessage": "eaque",
+  "ChatTopicId": 912,
+  "Name": "Reinger-Kohler",
+  "Description": "Synergized reciprocal encoding",
+  "WelcomeMessage": "est",
   "Language": null,
-  "LastAccept": "2014-10-19T13:57:18.5440601+02:00",
-  "SecondsPrAccept": 18,
-  "AlertRecipient": "dolorem",
+  "LastAccept": "2009-01-12T23:04:03.849524+01:00",
+  "SecondsPrAccept": 457,
+  "AlertRecipient": "totam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "doloribus",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "quis",
-  "WarnNewChatMinutes": 779,
-  "WarnManagerNewChatMinutes": 570,
-  "TicketEnabled": true,
+  "BadgeHeader": "enim",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "aperiam",
+  "WarnNewChatMinutes": 613,
+  "WarnManagerNewChatMinutes": 166,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 691,
-  "WarnManagerChatMessageMinutes": 505,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 840,
-  "OfflineFormQueueLength": 14,
+  "WarnChatMessageMinutes": 934,
+  "WarnManagerChatMessageMinutes": 106,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 937,
+  "OfflineFormQueueLength": 186,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "dolores",
+  "WidgetRatingText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 198
     }
   }
 }

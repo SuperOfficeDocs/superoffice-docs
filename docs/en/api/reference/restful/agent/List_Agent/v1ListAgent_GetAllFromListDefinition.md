@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 741,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 431,
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Howe Group",
-    "Tooltip": "dicta",
-    "Deleted": true,
-    "UdListDefinitionId": 502,
-    "Rank": 831,
+    "Id": 26,
+    "Name": "Murazik Group",
+    "Tooltip": "ullam",
+    "Deleted": false,
+    "UdListDefinitionId": 92,
+    "Rank": 823,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 986
       }
     }
   }

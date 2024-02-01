@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 328,
-  "ParentId": 586,
-  "Name": "Jones, Hauck and Trantow",
-  "Fullname": "est",
-  "CategoryMaster": 225,
+  "TicketCategoryId": 481,
+  "ParentId": 931,
+  "Name": "Pfannerstill-Emard",
+  "Fullname": "cum",
+  "CategoryMaster": 259,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kub-Dare",
+  "ExternalName": "Bogan LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 935,
-  "ReplyTemplate": 905,
-  "NotificationEmail": "broderick@mckenzie.us",
+  "AssignmentLag": 899,
+  "ReplyTemplate": 270,
+  "NotificationEmail": "gunnar_howe@stamm.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 51,
+  "EffectiveReplyTemplateId": 853,
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "recusandae"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 843,
-  "ParentId": 956,
-  "Name": "Pfeffer, Orn and Franecki",
-  "Fullname": "odio",
-  "CategoryMaster": 361,
+  "TicketCategoryId": 259,
+  "ParentId": 616,
+  "Name": "Kuvalis, Renner and Mann",
+  "Fullname": "repellat",
+  "CategoryMaster": 830,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Oberbrunner-Feest",
+  "ExternalName": "Torphy-Rodriguez",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 806,
-  "ReplyTemplate": 79,
-  "NotificationEmail": "lavern@walter.ca",
+  "AssignmentLag": 838,
+  "ReplyTemplate": 46,
+  "NotificationEmail": "sincere@fadel.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 98,
+  "EffectiveReplyTemplateId": 96,
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "accusantium",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "sed"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "non"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldType": "System.Int32",
+      "FieldLength": 296
     }
   }
 }

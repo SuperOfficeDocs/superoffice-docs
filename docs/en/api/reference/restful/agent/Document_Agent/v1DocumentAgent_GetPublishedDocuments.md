@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    427,
-    592
+    599,
+    542
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 276,
-    "Attention": "sint",
-    "Header": "et",
-    "Name": "Abshire LLC",
-    "OurRef": "aut",
-    "YourRef": "beatae",
-    "Description": "Enterprise-wide intangible hub",
-    "DocumentTemplate": "dolorem",
-    "IsPublished": true,
-    "PersonId": 351,
-    "PersonFullName": "Lisa Savanna McClure DVM",
-    "AssociateFullName": "Olen Frami",
-    "ContactId": 772,
-    "ContactName": "Walter, Stokes and Feil",
-    "ProjectId": 596,
-    "ProjectName": "Langosh-Herman",
-    "AssociateId": 885,
-    "Snum": 279,
-    "SaleId": 18,
-    "SaleName": "Hudson-Runte",
+    "DocumentId": 731,
+    "Attention": "tempore",
+    "Header": "tempore",
+    "Name": "Okuneva, Rodriguez and Braun",
+    "OurRef": "soluta",
+    "YourRef": "voluptas",
+    "Description": "Assimilated mobile complexity",
+    "DocumentTemplate": "enim",
+    "IsPublished": false,
+    "PersonId": 696,
+    "PersonFullName": "Mr. Jordyn Hattie Doyle",
+    "AssociateFullName": "Jacinthe Boehm",
+    "ContactId": 774,
+    "ContactName": "Morar, Lind and Marquardt",
+    "ProjectId": 126,
+    "ProjectName": "Wolf-Konopelski",
+    "AssociateId": 264,
+    "Snum": 804,
+    "SaleId": 110,
+    "SaleName": "Haley-Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldType": "System.Int32",
+        "FieldLength": 778
       }
     }
   }

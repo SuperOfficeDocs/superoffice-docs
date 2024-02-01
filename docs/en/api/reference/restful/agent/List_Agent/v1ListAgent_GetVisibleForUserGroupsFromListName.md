@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Monahan-Wintheiser",
-  "ListItemId": 249
+  "UdListDefinitionName": "Blanda-Connelly",
+  "ListItemId": 383
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Cronin Inc and Sons",
-    "ToolTip": "Consequatur magnam nihil.",
+    "Id": 548,
+    "Name": "Gibson, Windler and Block",
+    "ToolTip": "Quibusdam et et aperiam nam cupiditate magni quo.",
     "Deleted": false,
-    "Rank": 455,
-    "Type": "voluptatem",
-    "ColorBlock": 579,
-    "IconHint": "amet",
+    "Rank": 580,
+    "Type": "nesciunt",
+    "ColorBlock": 166,
+    "IconHint": "numquam",
     "Selected": true,
-    "LastChanged": "1997-08-10T13:57:12.5118644+02:00",
+    "LastChanged": "2021-03-17T23:03:56.2081259+01:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Wilkinson Inc and Sons",
-        "ToolTip": "Temporibus ipsam ipsam dolorem laborum cum id.",
+        "Id": 854,
+        "Name": "Shanahan-Mohr",
+        "ToolTip": "Deserunt non qui reprehenderit est.",
         "Deleted": false,
-        "Rank": 834,
-        "Type": "quo",
-        "ColorBlock": 649,
-        "IconHint": "quam",
+        "Rank": 251,
+        "Type": "dolor",
+        "ColorBlock": 28,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2007-01-18T13:57:12.5118644+01:00",
+        "LastChanged": "2023-08-19T23:03:56.2086263+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "similique",
+        "ExtraInfo": "quo",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Domingo Isidro Wunsch V",
+        "FullName": "Micaela Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 582
+            "FieldLength": 53
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "impedit",
+    "ExtraInfo": "quia",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Dino Sawayn",
+    "FullName": "Chance Hansen IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 19
       }
     }
   }

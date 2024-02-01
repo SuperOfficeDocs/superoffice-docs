@@ -20,6 +20,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |"appointmentCancelled"|Appointment|
 |"appointmentAccepted"|Appointment|
 |"appointmentRejected"|Appointment|
+|"appointmentRejectedByAssociate"|Appointment|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy

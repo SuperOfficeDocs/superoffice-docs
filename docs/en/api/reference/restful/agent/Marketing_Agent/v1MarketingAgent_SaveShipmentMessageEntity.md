@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 781,
-  "PlainMessage": "ipsam",
+  "ShipmentMessageId": 188,
+  "PlainMessage": "ad",
   "HtmlMessage": "est",
-  "SmsMessage": "qui",
-  "Description": "Operative transitional projection",
+  "SmsMessage": "quaerat",
+  "Description": "Vision-oriented clear-thinking workforce",
   "Subject": "ut",
-  "FolderId": 188,
-  "HeaderField": "eos",
-  "Design": "tenetur",
+  "FolderId": 315,
+  "HeaderField": "sit",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Streamlined attitude-oriented portal",
-  "AccessKey": "natus",
-  "DocumentMessage": 230,
-  "Registered": "1999-02-12T13:57:12.591212+01:00",
-  "RegisteredAssociateId": 690,
-  "Updated": "2017-07-05T13:57:12.591212+02:00",
-  "UpdatedAssociateId": 860,
-  "UpdatedCount": 359
+  "LongDescription": "Down-sized client-server projection",
+  "AccessKey": "laboriosam",
+  "DocumentMessage": 53,
+  "Registered": "2001-06-09T23:03:56.3276245+02:00",
+  "RegisteredAssociateId": 767,
+  "Updated": "2009-07-20T23:03:56.3276245+02:00",
+  "UpdatedAssociateId": 616,
+  "UpdatedCount": 783
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 840,
-  "PlainMessage": "aut",
-  "HtmlMessage": "tempora",
-  "SmsMessage": "asperiores",
-  "Description": "Focused empowering definition",
-  "Subject": "porro",
-  "FolderId": 991,
-  "HeaderField": "reiciendis",
-  "Design": "veritatis",
+  "ShipmentMessageId": 303,
+  "PlainMessage": "et",
+  "HtmlMessage": "et",
+  "SmsMessage": "ab",
+  "Description": "Quality-focused actuating alliance",
+  "Subject": "vitae",
+  "FolderId": 939,
+  "HeaderField": "ipsa",
+  "Design": "praesentium",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Compatible attitude-oriented support",
-  "AccessKey": "eos",
-  "DocumentMessage": 658,
-  "Registered": "2010-05-09T13:57:12.591212+02:00",
-  "RegisteredAssociateId": 703,
-  "Updated": "2018-01-16T13:57:12.591212+01:00",
-  "UpdatedAssociateId": 791,
-  "UpdatedCount": 960,
+  "LongDescription": "Seamless actuating support",
+  "AccessKey": "voluptas",
+  "DocumentMessage": 719,
+  "Registered": "2010-12-17T23:03:56.328124+01:00",
+  "RegisteredAssociateId": 385,
+  "Updated": "2005-08-08T23:03:56.328124+02:00",
+  "UpdatedAssociateId": 269,
+  "UpdatedCount": 433,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 617
     }
   }
 }

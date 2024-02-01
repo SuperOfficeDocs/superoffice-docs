@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Kshlerin, Miller and Haag",
-      "Description": "Cross-group incremental hub",
-      "Rank": 230,
+      "Name": "Lubowitz Inc and Sons",
+      "Description": "Ameliorated zero administration capability",
+      "Rank": 215,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kshlerin, Miller and Haag",
-      "Description": "Cross-group incremental hub",
-      "Rank": 230,
+      "Name": "Lubowitz Inc and Sons",
+      "Description": "Ameliorated zero administration capability",
+      "Rank": 215,
       "Restrictions": [
         {},
         {}
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

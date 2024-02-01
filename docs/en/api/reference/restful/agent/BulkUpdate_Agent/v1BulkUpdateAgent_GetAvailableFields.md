@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,74 +105,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "cupiditate",
-    "ValueType": "dicta",
+    "Key": "optio",
+    "ValueType": "consectetur",
     "Mandatory": false,
-    "EncodedDisplayName": "Hansen Inc and Sons",
-    "EncodedDisplayDescription": "Up-sized high-level software",
+    "EncodedDisplayName": "Kertzmann Group",
+    "EncodedDisplayDescription": "Self-enabling logistical parallelism",
     "IconHint": "ut",
     "ControlInfos": [
       {
-        "Type": "error",
-        "Label": "dolorem",
-        "Dimension": 101,
-        "ListProviderName": "Dicki Inc and Sons",
-        "ListProviderExtraInfo": "culpa",
-        "ListProviderPrimaryKeyName": "Altenwerth, Weimann and Turner",
-        "ListLeadText": "consectetur",
+        "Type": "molestiae",
+        "Label": "mollitia",
+        "Dimension": 630,
+        "ListProviderName": "Thompson-Windler",
+        "ListProviderExtraInfo": "velit",
+        "ListProviderPrimaryKeyName": "Russel, Gibson and Deckow",
+        "ListLeadText": "nulla",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 291
+            "FieldLength": 280
           }
         }
       }
     ],
-    "EncodedDataCaption": "id",
-    "EncodedDataCaptionDescription": "Reduced encompassing strategy",
-    "CurrentOperationType": "sequi",
+    "EncodedDataCaption": "sit",
+    "EncodedDataCaptionDescription": "Extended composite support",
+    "CurrentOperationType": "ex",
     "Values": [
-      "odio",
-      "est"
+      "sequi",
+      "quia"
     ],
     "DisplayValues": [
-      "officia",
-      "ut"
+      "est",
+      "ducimus"
     ],
     "OperationInfos": [
       {
-        "Key": "a",
-        "EncodedDisplayName": "Conroy, Kulas and Stanton",
+        "Key": "soluta",
+        "EncodedDisplayName": "Jones-O'Reilly",
         "EncodedLeadTexts": [
-          "vel",
-          "voluptas"
+          "unde",
+          "aliquam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 931
+            "FieldType": "System.String",
+            "FieldLength": 619
           }
         }
       },
       {
-        "Key": "a",
-        "EncodedDisplayName": "Conroy, Kulas and Stanton",
+        "Key": "soluta",
+        "EncodedDisplayName": "Jones-O'Reilly",
         "EncodedLeadTexts": [
-          "vel",
-          "voluptas"
+          "unde",
+          "aliquam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 931
+            "FieldType": "System.String",
+            "FieldLength": 619
           }
         }
       }

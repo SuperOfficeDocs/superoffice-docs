@@ -80,6 +80,8 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="Goals" nillable="true" type="tns:ArrayOfWorkflowGoal" />
               <xs:element minOccurs="0" name="Filter" nillable="true" type="tns:WorkflowFilter" />
               <xs:element minOccurs="0" name="BlockLists" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="ExitFlowId" type="xs:int" />
+              <xs:element minOccurs="0" name="ExitSuccessFlowId" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
               <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
               <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
@@ -475,6 +477,7 @@ title: Services88.WorkflowAgent WSDL
           <xs:enumeration value="FirstAvailableAfter" />
           <xs:enumeration value="Today" />
           <xs:enumeration value="After" />
+          <xs:enumeration value="Estimated" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="WorkflowActionType" nillable="true" type="tns:WorkflowActionType" />
@@ -521,6 +524,7 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="Priority" type="xs:int" />
               <xs:element minOccurs="0" name="Status" type="xs:int" />
               <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Owner" type="xs:int" />
             </xs:sequence>
           </xs:extension>
@@ -538,7 +542,9 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="Currency" type="xs:int" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Project" type="xs:int" />
-              <xs:element minOccurs="0" name="SaleDateType" type="tns:WorkflowSaleDateType" />
+              <xs:element minOccurs="0" name="ActionType" type="tns:WorkflowActionType" />
+              <xs:element minOccurs="0" name="ActionTime" type="xs:int" />
+              <xs:element minOccurs="0" name="ActionTimeUnit" type="tns:WorkflowTimeWaitIntervalType" />
               <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Owner" type="xs:int" />
             </xs:sequence>
@@ -546,13 +552,6 @@ title: Services88.WorkflowAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepCreateSale" nillable="true" type="tns:WorkflowStepCreateSale" />
-      <xs:simpleType name="WorkflowSaleDateType">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Estimated" />
-          <xs:enumeration value="Equals" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="WorkflowSaleDateType" nillable="true" type="tns:WorkflowSaleDateType" />
       <xs:complexType name="WorkflowStepNotifyByEmail">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -621,6 +620,8 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
               <xs:element minOccurs="0" name="Options" nillable="true" type="tns:ArrayOfWorkflowStepOptionBase" />
               <xs:element minOccurs="0" name="ExitFlow" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExitToFlowId" type="xs:int" />
+              <xs:element minOccurs="0" name="ExitToSelectionId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -771,37 +772,131 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence>
-              <xs:element minOccurs="0" name="FieldValues" nillable="true" type="tns:ArrayOfFieldValue" />
+              <xs:element minOccurs="0" name="FieldValuesPerson" nillable="true" type="tns:ArrayOfFieldValueInfo" />
+              <xs:element minOccurs="0" name="FieldValuesCompany" nillable="true" type="tns:ArrayOfFieldValueInfo" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepUpdateParticipant" nillable="true" type="tns:WorkflowStepUpdateParticipant" />
-      <xs:complexType name="ArrayOfFieldValue">
+      <xs:complexType name="ArrayOfFieldValueInfo">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="FieldValue" nillable="true" type="tns:FieldValue" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="FieldValueInfo" nillable="true" type="tns:FieldValueInfo" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfFieldValue" nillable="true" type="tns:ArrayOfFieldValue" />
-      <xs:complexType name="FieldValue">
+      <xs:element name="ArrayOfFieldValueInfo" nillable="true" type="tns:ArrayOfFieldValueInfo" />
+      <xs:complexType name="FieldValueInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CanSupportMultiUse" type="xs:boolean" />
+          <xs:element minOccurs="0" name="DefaultShowInGui" type="xs:boolean" />
+          <xs:element minOccurs="0" name="DefaultShowInSelector" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ValueType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Mandatory" type="xs:boolean" />
+          <xs:element minOccurs="0" name="EncodedDisplayName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EncodedDisplayDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ControlInfos" nillable="true" type="tns:ArrayOfControlInfo" />
+          <xs:element minOccurs="0" name="EncodedDataCaption" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EncodedDataCaptionDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CurrentOperationType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="OperationInfos" nillable="true" type="tns:ArrayOfOperationInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FieldValueInfo" nillable="true" type="tns:FieldValueInfo" />
+      <xs:complexType name="ArrayOfControlInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ControlInfo" nillable="true" type="tns:ControlInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfControlInfo" nillable="true" type="tns:ArrayOfControlInfo" />
+      <xs:complexType name="ControlInfo">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Values" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Label" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Dimension" type="xs:int" />
+              <xs:element minOccurs="0" name="ListProviderName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ListProviderExtraInfo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ListProviderPrimaryKeyName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ListLeadText" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="FieldValue" nillable="true" type="tns:FieldValue" />
+      <xs:element name="ControlInfo" nillable="true" type="tns:ControlInfo" />
+      <xs:complexType name="ArrayOfOperationInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="OperationInfo" nillable="true" type="tns:OperationInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfOperationInfo" nillable="true" type="tns:ArrayOfOperationInfo" />
+      <xs:complexType name="OperationInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EncodedDisplayName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EncodedLeadTexts" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="OperationInfo" nillable="true" type="tns:OperationInfo" />
       <xs:complexType name="WorkflowStepWaitForAction">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
-            <xs:sequence />
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ExitFlow" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExitToFlowId" type="xs:int" />
+              <xs:element minOccurs="0" name="ExitToSelectionId" type="xs:int" />
+              <xs:element minOccurs="0" name="ActionTimeout" type="xs:int" />
+              <xs:element minOccurs="0" name="WaitForTimeout" type="xs:boolean" />
+              <xs:element minOccurs="0" name="TimeoutIntervalType" type="tns:WorkflowTimeWaitIntervalType" />
+              <xs:element minOccurs="0" name="Actions" nillable="true" type="tns:ArrayOfWorkflowWaitForAction" />
+            </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepWaitForAction" nillable="true" type="tns:WorkflowStepWaitForAction" />
+      <xs:complexType name="ArrayOfWorkflowWaitForAction">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkflowWaitForAction" nillable="true" type="tns:WorkflowWaitForAction" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfWorkflowWaitForAction" nillable="true" type="tns:ArrayOfWorkflowWaitForAction" />
+      <xs:complexType name="WorkflowWaitForAction">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="WorkflowWaitForActionId" type="xs:int" />
+              <xs:element minOccurs="0" name="WorkflowStepId" type="xs:int" />
+              <xs:element minOccurs="0" name="WorkflowId" type="xs:int" />
+              <xs:element minOccurs="0" name="Rank" type="xs:int" />
+              <xs:element minOccurs="0" name="ActionType" type="tns:WorkflowWaitForActionType" />
+              <xs:element minOccurs="0" name="RestrictionGroups" nillable="true" type="tns:ArrayOfArchiveRestrictionGroup" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowWaitForAction" nillable="true" type="tns:WorkflowWaitForAction" />
+      <xs:simpleType name="WorkflowWaitForActionType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="LinkClicked" />
+          <xs:enumeration value="FormSubmitted" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowWaitForActionType" nillable="true" type="tns:WorkflowWaitForActionType" />
       <xs:complexType name="WorkflowStepWaitForTime">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -1252,6 +1347,44 @@ title: Services88.WorkflowAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateDefaultWorkflowWaitForAction">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultWorkflowWaitForActionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowWaitForAction" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveWorkflowWaitForAction">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="WorkflowWaitForAction" nillable="true" type="tns:WorkflowWaitForAction" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveWorkflowWaitForActionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowWaitForAction" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteWorkflowWaitForAction">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="WorkflowWaitForActionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteWorkflowWaitForActionResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetEmailFlow">
         <xs:complexType>
           <xs:sequence>
@@ -1270,14 +1403,14 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q9:ArrayOfint" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="TryAddPersonsToEmailFlowResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q8:ArrayOfboolean" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q10:ArrayOfboolean" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1285,7 +1418,7 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailFlowId" type="xs:int" />
-            <xs:element minOccurs="0" name="WorkflowInstanceIds" nillable="true" type="q9:ArrayOfint" xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="WorkflowInstanceIds" nillable="true" type="q11:ArrayOfint" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1459,6 +1592,20 @@ title: Services88.WorkflowAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowTrigger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetWorkflowWaitForAction">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="WorkflowWaitForActionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetWorkflowWaitForActionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:WorkflowWaitForAction" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1729,6 +1876,57 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateDefaultWorkflowWaitForActionRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultWorkflowWaitForAction" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultWorkflowWaitForActionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultWorkflowWaitForActionResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultWorkflowWaitForActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultWorkflowWaitForActionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveWorkflowWaitForActionRequest">
+    <wsdl:part name="parameters" element="tns:SaveWorkflowWaitForAction" />
+  </wsdl:message>
+  <wsdl:message name="SaveWorkflowWaitForActionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveWorkflowWaitForActionResponse">
+    <wsdl:part name="parameters" element="tns:SaveWorkflowWaitForActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveWorkflowWaitForActionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteWorkflowWaitForActionRequest">
+    <wsdl:part name="parameters" element="tns:DeleteWorkflowWaitForAction" />
+  </wsdl:message>
+  <wsdl:message name="DeleteWorkflowWaitForActionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteWorkflowWaitForActionResponse">
+    <wsdl:part name="parameters" element="tns:DeleteWorkflowWaitForActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteWorkflowWaitForActionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetEmailFlowRequest">
     <wsdl:part name="parameters" element="tns:GetEmailFlow" />
   </wsdl:message>
@@ -1984,6 +2182,23 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetWorkflowWaitForActionRequest">
+    <wsdl:part name="parameters" element="tns:GetWorkflowWaitForAction" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkflowWaitForActionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkflowWaitForActionResponse">
+    <wsdl:part name="parameters" element="tns:GetWorkflowWaitForActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkflowWaitForActionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Workflow">
     <wsdl:operation name="CreateDefaultEmailFlow">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultEmailFlow" name="CreateDefaultEmailFlowRequest" message="tns:CreateDefaultEmailFlowRequest" />
@@ -2032,6 +2247,18 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:operation name="DeleteWorkflowTrigger">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowTrigger" name="DeleteWorkflowTriggerRequest" message="tns:DeleteWorkflowTriggerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowTriggerResponse" name="DeleteWorkflowTriggerResponse" message="tns:DeleteWorkflowTriggerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultWorkflowWaitForAction">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowWaitForAction" name="CreateDefaultWorkflowWaitForActionRequest" message="tns:CreateDefaultWorkflowWaitForActionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowWaitForActionResponse" name="CreateDefaultWorkflowWaitForActionResponse" message="tns:CreateDefaultWorkflowWaitForActionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveWorkflowWaitForAction">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SaveWorkflowWaitForAction" name="SaveWorkflowWaitForActionRequest" message="tns:SaveWorkflowWaitForActionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SaveWorkflowWaitForActionResponse" name="SaveWorkflowWaitForActionResponse" message="tns:SaveWorkflowWaitForActionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteWorkflowWaitForAction">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowWaitForAction" name="DeleteWorkflowWaitForActionRequest" message="tns:DeleteWorkflowWaitForActionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowWaitForActionResponse" name="DeleteWorkflowWaitForActionResponse" message="tns:DeleteWorkflowWaitForActionResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetEmailFlow">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetEmailFlow" name="GetEmailFlowRequest" message="tns:GetEmailFlowRequest" />
@@ -2092,6 +2319,10 @@ title: Services88.WorkflowAgent WSDL
     <wsdl:operation name="GetWorkflowTrigger">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowTrigger" name="GetWorkflowTriggerRequest" message="tns:GetWorkflowTriggerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowTriggerResponse" name="GetWorkflowTriggerResponse" message="tns:GetWorkflowTriggerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkflowWaitForAction">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowWaitForAction" name="GetWorkflowWaitForActionRequest" message="tns:GetWorkflowWaitForActionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowWaitForActionResponse" name="GetWorkflowWaitForActionResponse" message="tns:GetWorkflowWaitForActionResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Workflow" type="tns:Workflow">
@@ -2285,6 +2516,54 @@ title: Services88.WorkflowAgent WSDL
         <soap:header message="tns:DeleteWorkflowTriggerResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteWorkflowTriggerResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteWorkflowTriggerResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultWorkflowWaitForAction">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CreateDefaultWorkflowWaitForAction" style="document" />
+      <wsdl:input name="CreateDefaultWorkflowWaitForActionRequest">
+        <soap:header message="tns:CreateDefaultWorkflowWaitForActionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowWaitForActionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowWaitForActionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultWorkflowWaitForActionResponse">
+        <soap:header message="tns:CreateDefaultWorkflowWaitForActionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowWaitForActionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowWaitForActionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultWorkflowWaitForActionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveWorkflowWaitForAction">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/SaveWorkflowWaitForAction" style="document" />
+      <wsdl:input name="SaveWorkflowWaitForActionRequest">
+        <soap:header message="tns:SaveWorkflowWaitForActionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveWorkflowWaitForActionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveWorkflowWaitForActionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveWorkflowWaitForActionResponse">
+        <soap:header message="tns:SaveWorkflowWaitForActionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveWorkflowWaitForActionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveWorkflowWaitForActionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveWorkflowWaitForActionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteWorkflowWaitForAction">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/DeleteWorkflowWaitForAction" style="document" />
+      <wsdl:input name="DeleteWorkflowWaitForActionRequest">
+        <soap:header message="tns:DeleteWorkflowWaitForActionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteWorkflowWaitForActionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteWorkflowWaitForActionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteWorkflowWaitForActionResponse">
+        <soap:header message="tns:DeleteWorkflowWaitForActionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteWorkflowWaitForActionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteWorkflowWaitForActionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteWorkflowWaitForActionResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2525,6 +2804,22 @@ title: Services88.WorkflowAgent WSDL
         <soap:header message="tns:GetWorkflowTriggerResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetWorkflowTriggerResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetWorkflowTriggerResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkflowWaitForAction">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowWaitForAction" style="document" />
+      <wsdl:input name="GetWorkflowWaitForActionRequest">
+        <soap:header message="tns:GetWorkflowWaitForActionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetWorkflowWaitForActionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetWorkflowWaitForActionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetWorkflowWaitForActionResponse">
+        <soap:header message="tns:GetWorkflowWaitForActionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetWorkflowWaitForActionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetWorkflowWaitForActionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetWorkflowWaitForActionResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

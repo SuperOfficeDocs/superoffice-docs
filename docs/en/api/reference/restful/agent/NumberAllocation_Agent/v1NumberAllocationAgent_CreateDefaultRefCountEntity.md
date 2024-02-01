@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 342,
-  "Field": "expedita",
-  "RecordId": 504,
+  "RefCountsId": 316,
+  "Field": "et",
+  "RecordId": 76,
   "SuggestedRecords": [
     {
-      "Id": 16,
-      "Name": "Jones, Towne and Koch",
-      "ToolTip": "Vel ut.",
+      "Id": 938,
+      "Name": "Sauer Inc and Sons",
+      "ToolTip": "Qui placeat ex repellat ut.",
       "Deleted": false,
-      "Rank": 727,
-      "Type": "possimus",
+      "Rank": 449,
+      "Type": "doloribus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "adipisci",
-      "ColorBlock": 432,
-      "ExtraInfo": "vel",
-      "StyleHint": "tempora",
-      "FullName": "Carrie Josie Maggio PhD",
+      "IconHint": "laudantium",
+      "ColorBlock": 365,
+      "ExtraInfo": "aut",
+      "StyleHint": "rerum",
+      "FullName": "Dr. Eusebio Zboncak",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 166
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     }
   ],
-  "CurrentValue": 561,
-  "TravelPrefix": 459,
-  "SatPrefix": 611,
-  "Allocate": false,
+  "CurrentValue": 577,
+  "TravelPrefix": 871,
+  "SatPrefix": 704,
+  "Allocate": true,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 862
     }
   }
 }

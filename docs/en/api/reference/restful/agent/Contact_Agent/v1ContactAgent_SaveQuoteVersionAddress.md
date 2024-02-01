@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 568,
+  "QuoteVersionId": 6,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 343
+  "CountryId": 61
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 6158.3099999999995,
-  "Wgs84Longitude": 16453.5,
+  "Wgs84Latitude": 21239.118,
+  "Wgs84Longitude": 5390.48,
   "LocalizedAddress": [
     [
       {
-        "Name": "Casper Inc and Sons",
-        "Value": "excepturi",
-        "Tooltip": "voluptates",
-        "Label": "ullam",
-        "ValueLength": 868,
-        "AddressType": "quod",
+        "Name": "Bayer-Parisian",
+        "Value": "et",
+        "Tooltip": "soluta",
+        "Label": "aut",
+        "ValueLength": 400,
+        "AddressType": "veritatis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 942
+            "FieldLength": 551
           }
         }
       }
     ],
     [
       {
-        "Name": "Aufderhar-Klocko",
-        "Value": "voluptates",
-        "Tooltip": "quia",
-        "Label": "cumque",
-        "ValueLength": 613,
-        "AddressType": "soluta",
+        "Name": "Brown, Metz and Hayes",
+        "Value": "ducimus",
+        "Tooltip": "illum",
+        "Label": "ad",
+        "ValueLength": 57,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 616
+            "FieldType": "System.Int32",
+            "FieldLength": 372
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "ut",
+  "Formatted": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 34
+      "FieldLength": 593
     }
   }
 }

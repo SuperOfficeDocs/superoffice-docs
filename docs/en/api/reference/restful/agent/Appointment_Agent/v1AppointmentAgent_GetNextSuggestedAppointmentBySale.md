@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 77,
-  "CurrentAppointmentId": 636,
-  "SkipCompleteCheck": false
+  "SaleId": 314,
+  "CurrentAppointmentId": 916,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 234,
-  "Deleted": 989,
-  "DaysFuture": 217,
-  "Tooltip": "dolores",
-  "Text": "excepturi",
-  "TaskId": 293,
-  "SuggestedAppointmentId": 410,
-  "SaleTypeStageLinkId": 244,
-  "RegisteredAssociateId": 38,
-  "Rank": 408,
-  "ProjectTypeStatusLinkId": 428,
-  "Name": "Crooks-Reynolds",
-  "Duration": 605,
+  "AutoSuggest": 571,
+  "Deleted": 235,
+  "DaysFuture": 85,
+  "Tooltip": "aut",
+  "Text": "quia",
+  "TaskId": 912,
+  "SuggestedAppointmentId": 308,
+  "SaleTypeStageLinkId": 81,
+  "RegisteredAssociateId": 287,
+  "Rank": 887,
+  "ProjectTypeStatusLinkId": 516,
+  "Name": "Steuber Group",
+  "Duration": 632,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

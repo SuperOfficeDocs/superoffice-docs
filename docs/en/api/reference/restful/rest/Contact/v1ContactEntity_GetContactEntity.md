@@ -119,7 +119,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,160 +127,160 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 Aug 1996 13:57:18 G8T
+Last-Modified: Sun, 13 Feb 2011 23:04:03 G2T
 
 {
-  "ContactId": 89,
-  "Name": "Emmerich LLC",
+  "ContactId": 289,
+  "Name": "Russel, Schulist and Boyer",
   "Department": "",
-  "OrgNr": "623785",
-  "Number1": "1442490",
-  "Number2": "1087491",
-  "UpdatedDate": "1996-08-13T13:57:18.6065583+02:00",
-  "CreatedDate": "2007-08-22T13:57:18.6065583+02:00",
+  "OrgNr": "474891",
+  "Number1": "592952",
+  "Number2": "266356",
+  "UpdatedDate": "2011-02-13T23:04:03.9560202+01:00",
+  "CreatedDate": "2017-09-11T23:04:03.9560202+02:00",
   "Emails": [
     {
-      "Value": "aut",
-      "StrippedValue": "modi",
-      "Description": "Upgradable 5th generation time-frame",
+      "Value": "nemo",
+      "StrippedValue": "eum",
+      "Description": "Programmable executive access",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldLength": 718
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "modi",
-      "Description": "Upgradable 5th generation time-frame",
+      "Value": "nemo",
+      "StrippedValue": "eum",
+      "Description": "Programmable executive access",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldLength": 718
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 699,
-      "Name": "Monahan LLC",
-      "ToolTip": "Doloremque voluptatem.",
+      "Id": 99,
+      "Name": "Sipes Group",
+      "ToolTip": "Molestiae magni qui voluptate fugiat cum.",
       "Deleted": false,
-      "Rank": 888,
-      "Type": "voluptas",
-      "ColorBlock": 247,
-      "IconHint": "veritatis",
-      "Selected": true,
-      "LastChanged": "2014-04-05T13:57:18.6065583+02:00",
+      "Rank": 856,
+      "Type": "atque",
+      "ColorBlock": 646,
+      "IconHint": "non",
+      "Selected": false,
+      "LastChanged": "2015-12-15T23:04:03.9565212+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "ut",
+      "ExtraInfo": "temporibus",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Braxton Karen Breitenberg Jr.",
+      "FullName": "Mrs. Efrain Keebler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 554
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "in",
-      "StrippedValue": "non",
-      "Description": "Compatible next generation utilisation",
+      "Value": "omnis",
+      "StrippedValue": "odit",
+      "Description": "Multi-layered neutral instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldLength": 487
         }
       }
     },
     {
-      "Value": "in",
-      "StrippedValue": "non",
-      "Description": "Compatible next generation utilisation",
+      "Value": "omnis",
+      "StrippedValue": "odit",
+      "Description": "Multi-layered neutral instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldLength": 487
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "a",
-      "StrippedValue": "dolorem",
-      "Description": "Universal intangible functionalities",
+      "Value": "maiores",
+      "StrippedValue": "non",
+      "Description": "Automated logistical benchmark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldLength": 290
         }
       }
     },
     {
-      "Value": "a",
-      "StrippedValue": "dolorem",
-      "Description": "Universal intangible functionalities",
+      "Value": "maiores",
+      "StrippedValue": "non",
+      "Description": "Automated logistical benchmark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldLength": 290
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "sed",
-      "StrippedValue": "vitae",
-      "Description": "Realigned homogeneous capability",
+      "Value": "aut",
+      "StrippedValue": "et",
+      "Description": "Intuitive 4th generation success",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldLength": 948
         }
       }
     },
     {
-      "Value": "sed",
-      "StrippedValue": "vitae",
-      "Description": "Realigned homogeneous capability",
+      "Value": "aut",
+      "StrippedValue": "et",
+      "Description": "Intuitive 4th generation success",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldLength": 948
         }
       }
     }
   ],
-  "Description": "Enhanced encompassing project",
+  "Description": "Diverse value-added model",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,105 +289,105 @@ Last-Modified: Tue, 13 Aug 1996 13:57:18 G8T
   "Country": null,
   "Persons": [
     {
-      "Position": "voluptate",
-      "PersonId": 852,
-      "Mrmrs": "odit",
-      "Firstname": "Kaley",
-      "Lastname": "Frami",
-      "MiddleName": "Bartoletti, Kassulke and Conroy",
-      "Title": "iure",
-      "Description": "Horizontal reciprocal local area network",
-      "Email": "morris_schuppe@brown.us",
-      "FullName": "Alden Lemke",
-      "DirectPhone": "1-552-686-4173 x08071",
-      "FormalName": "Feil, Auer and Kertzmann",
-      "CountryId": 811,
-      "ContactId": 457,
-      "ContactName": "Klein Group",
-      "Retired": 665,
-      "Rank": 528,
-      "ActiveInterests": 339,
+      "Position": "earum",
+      "PersonId": 800,
+      "Mrmrs": "eos",
+      "Firstname": "Antonetta",
+      "Lastname": "Stamm",
+      "MiddleName": "Jacobs, West and Rodriguez",
+      "Title": "dolor",
+      "Description": "Down-sized grid-enabled internet solution",
+      "Email": "hector@wittingharris.info",
+      "FullName": "Cara Hintz",
+      "DirectPhone": "1-794-930-1973 x73167",
+      "FormalName": "Greenfelder Group",
+      "CountryId": 676,
+      "ContactId": 725,
+      "ContactName": "Schiller Group",
+      "Retired": 198,
+      "Rank": 160,
+      "ActiveInterests": 746,
       "ContactDepartment": "",
-      "ContactCountryId": 912,
-      "ContactOrgNr": "632828",
-      "FaxPhone": "278-517-0322 x96075",
-      "MobilePhone": "(311)316-8404",
-      "ContactPhone": "492.867.3850 x1889",
-      "AssociateName": "Wyman-Cartwright",
-      "AssociateId": 466,
+      "ContactCountryId": 179,
+      "ContactOrgNr": "556936",
+      "FaxPhone": "1-584-970-1910 x10113",
+      "MobilePhone": "(648)011-2689 x1189",
+      "ContactPhone": "(659)676-7740",
+      "AssociateName": "Koepp Inc and Sons",
+      "AssociateId": 188,
       "UsePersonAddress": false,
-      "ContactFax": "laboriosam",
-      "Kanafname": "sit",
-      "Kanalname": "asperiores",
-      "Post1": "possimus",
-      "Post2": "qui",
-      "Post3": "molestiae",
-      "EmailName": "earnest@langosh.info",
-      "ContactFullName": "Margaret Gulgowski",
-      "ActiveErpLinks": 704,
-      "TicketPriorityId": 372,
-      "SupportLanguageId": 151,
-      "SupportAssociateId": 484,
+      "ContactFax": "recusandae",
+      "Kanafname": "distinctio",
+      "Kanalname": "voluptate",
+      "Post1": "consequatur",
+      "Post2": "voluptatum",
+      "Post3": "omnis",
+      "EmailName": "bertrand@johns.name",
+      "ContactFullName": "Lucio Stark",
+      "ActiveErpLinks": 745,
+      "TicketPriorityId": 358,
+      "SupportLanguageId": 150,
+      "SupportAssociateId": 355,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldLength": 990
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "cupiditate",
-  "Xstop": false,
-  "ActiveInterests": 941,
-  "GroupId": 101,
-  "ActiveStatusMonitorId": 740,
+  "Kananame": "dolore",
+  "Xstop": true,
+  "ActiveInterests": 373,
+  "GroupId": 355,
+  "ActiveStatusMonitorId": 647,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 425,
-  "DbiAgentId": 781,
-  "DbiLastSyncronized": "2004-03-21T13:57:18.6065583+01:00",
-  "DbiKey": "ut",
-  "DbiLastModified": "1997-05-25T13:57:18.6065583+02:00",
+  "Deleted": 953,
+  "DbiAgentId": 393,
+  "DbiLastSyncronized": "2004-02-02T23:04:03.9605201+01:00",
+  "DbiKey": "assumenda",
+  "DbiLastModified": "2009-05-21T23:04:03.9610199+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 550,
-  "ActiveErpLinks": 94,
+  "Source": 130,
+  "ActiveErpLinks": 327,
   "BounceEmails": [
-    "keenan.morar@fritsch.name",
-    "andre@murazik.com"
+    "tomas@feil.info",
+    "dayana@breitenberg.com"
   ],
   "Domains": [
-    "perspiciatis",
-    "in"
+    "mollitia",
+    "quia"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
+    "SuperOffice:1": "394103208",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "possimus"
   },
   "CustomFields": {
-    "CustomFields1": "blanditiis",
-    "CustomFields2": "velit"
+    "CustomFields1": "id",
+    "CustomFields2": "numquam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 893
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

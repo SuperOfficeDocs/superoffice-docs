@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 895,
-  "ERPPriceListKey": "aliquid",
-  "QuoteConnectionId": 466,
-  "Name": "Smitham, Crist and Nitzsche",
-  "Description": "Right-sized bi-directional ability",
-  "Currency": "libero",
-  "CurrencyName": "Rowe Inc and Sons",
-  "ValidFrom": "1998-06-29T13:57:13.0324135+02:00",
-  "ValidTo": "2022-03-05T13:57:13.0324135+01:00",
-  "IsActive": true,
+  "PriceListId": 456,
+  "ERPPriceListKey": "corporis",
+  "QuoteConnectionId": 607,
+  "Name": "Hammes LLC",
+  "Description": "Digitized assymetric secured line",
+  "Currency": "eos",
+  "CurrencyName": "Cremin-Abbott",
+  "ValidFrom": "2023-12-14T23:03:56.7356185+01:00",
+  "ValidTo": "2003-08-09T23:03:56.7356185+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 709
     }
   }
 }

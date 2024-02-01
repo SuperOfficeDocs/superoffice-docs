@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetOwnerCompanysCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
-  "Value": "voluptatem",
-  "Tooltip": "est",
+  "Id": 346,
+  "Value": "eum",
+  "Tooltip": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 312
     }
   }
 }

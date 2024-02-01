@@ -81,18 +81,18 @@ OK
 POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": true,
+  "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "candace@breitenberg.biz",
-  "Subject": "natus",
-  "TemplateLanguage": "neque"
+  "EmailBody": "cale@hegmann.co.uk",
+  "Subject": "ut",
+  "TemplateLanguage": "aliquam"
 }
 ```
 
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "EmailCreated": false,
+  "EmailCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 356
     }
   }
 }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 560,
-  "Name": "Kassulke Group"
+  "DashboardId": 758,
+  "Name": "Ryan-Cummings"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 24,
-  "UniqueId": "tempora",
-  "Name": "Little, Cassin and Borer",
-  "Description": "Future-proofed object-oriented core",
-  "AssociateId": 629,
-  "Columns": 594,
+  "DashboardId": 964,
+  "UniqueId": "odit",
+  "Name": "Schuppe-Becker",
+  "Description": "Synergized background software",
+  "AssociateId": 315,
+  "Columns": 417,
   "Theme": null,
-  "VisibleForAll": 800,
+  "VisibleForAll": 435,
   "VisibleForAssociates": [
-    86,
-    207
+    794,
+    69
   ],
   "VisibleForGroups": [
-    208,
-    819
+    580,
+    534
   ],
-  "PinForAll": 958,
+  "PinForAll": 16,
   "PinForAssociates": [
-    1000,
-    500
+    81,
+    175
   ],
   "PinForGroups": [
-    150,
-    999
+    190,
+    585
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 837
     }
   }
 }

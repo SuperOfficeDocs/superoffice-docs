@@ -83,6 +83,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       </CRMScript:StringKeyValuePair>
      </CRMScript:CgiVariables>
      <CRMScript:CgiContent xsi:type="xsd:string"></CRMScript:CgiContent>
+     <CRMScript:Headers xsi:type="CRMScript:StringDictionary">
+      <CRMScript:StringKeyValuePair>
+       <CRMScript:Key xsi:type="xsd:string"></CRMScript:Key>
+       <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
+      </CRMScript:StringKeyValuePair>
+     </CRMScript:Headers>
     </CRMScript:EventData>
    </CRMScript:ExecuteScriptByString>
 
@@ -114,8 +120,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      </CRMScript:StringKeyValuePair>
     </CRMScript:Parameters>
     <CRMScript:TraceRun xsi:type="CRMScript:CRMScriptTraceRun">
-     <CRMScript:StartedAt xsi:type="xsd:dateTime">2023-12-07T12:55:03Z</CRMScript:StartedAt>
-     <CRMScript:EndedAt xsi:type="xsd:dateTime">2023-12-07T12:55:03Z</CRMScript:EndedAt>
+     <CRMScript:StartedAt xsi:type="xsd:dateTime">2024-01-18T22:01:45Z</CRMScript:StartedAt>
+     <CRMScript:EndedAt xsi:type="xsd:dateTime">2024-01-18T22:01:45Z</CRMScript:EndedAt>
      <CRMScript:ExecutionTime xsi:type="xsd:int">0</CRMScript:ExecutionTime>
      <CRMScript:UserExecutionTime xsi:type="xsd:int">0</CRMScript:UserExecutionTime>
      <CRMScript:PeakMemory xsi:type="xsd:int">0</CRMScript:PeakMemory>
@@ -164,6 +170,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       </CRMScript:StringKeyValuePair>
      </CRMScript:CgiVariables>
      <CRMScript:CgiContent xsi:type="xsd:string"></CRMScript:CgiContent>
+     <CRMScript:Headers xsi:type="CRMScript:StringDictionary">
+      <CRMScript:StringKeyValuePair>
+       <CRMScript:Key xsi:type="xsd:string"></CRMScript:Key>
+       <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
+      </CRMScript:StringKeyValuePair>
+     </CRMScript:Headers>
     </CRMScript:Eventdata>
     <CRMScript:Success xsi:type="xsd:boolean">false</CRMScript:Success>
     <CRMScript:ErrorInformation xsi:type="CRMScript:CRMScriptErrorInfo">

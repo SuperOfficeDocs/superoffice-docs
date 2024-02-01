@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Simonis LLC",
-    "ToolTip": "Debitis sed quidem voluptates sunt aut.",
-    "Deleted": true,
-    "Rank": 781,
-    "Type": "at",
-    "ColorBlock": 297,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2013-02-20T13:57:19.6252691+01:00",
+    "Id": 437,
+    "Name": "Streich-Hoeger",
+    "ToolTip": "Corrupti nemo quod velit.",
+    "Deleted": false,
+    "Rank": 545,
+    "Type": "nobis",
+    "ColorBlock": 660,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2010-06-14T23:04:05.2960035+02:00",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Dibbert LLC",
-        "ToolTip": "Voluptas est itaque facere nobis quam vero neque.",
+        "Id": 261,
+        "Name": "Crooks-Schneider",
+        "ToolTip": "Quo corrupti dolore iure ducimus cupiditate suscipit.",
         "Deleted": false,
-        "Rank": 265,
-        "Type": "aut",
-        "ColorBlock": 789,
-        "IconHint": "eveniet",
-        "Selected": true,
-        "LastChanged": "2017-12-11T13:57:19.6252691+01:00",
+        "Rank": 322,
+        "Type": "neque",
+        "ColorBlock": 24,
+        "IconHint": "recusandae",
+        "Selected": false,
+        "LastChanged": "2002-08-07T23:04:05.2960035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "delectus",
-        "Hidden": true,
-        "FullName": "Jonathan Mertie Will I"
+        "ExtraInfo": "repellendus",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Leonard Grimes V"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "ducimus",
-    "Hidden": false,
-    "FullName": "Ms. Wayne Ruecker Jr."
+    "ExtraInfo": "in",
+    "StyleHint": "voluptate",
+    "Hidden": true,
+    "FullName": "Raven Beier"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Barrows LLC",
-    "ToolTip": "Sit commodi itaque aliquid eum qui quia.",
-    "Deleted": false,
-    "Rank": 752,
-    "Type": "ex",
-    "ColorBlock": 934,
-    "IconHint": "voluptatibus",
+    "Id": 740,
+    "Name": "Hamill, Hickle and Kub",
+    "ToolTip": "Eum molestias ut aliquid.",
+    "Deleted": true,
+    "Rank": 66,
+    "Type": "consequatur",
+    "ColorBlock": 90,
+    "IconHint": "blanditiis",
     "Selected": true,
-    "LastChanged": "2019-06-03T13:57:19.6252691+02:00",
+    "LastChanged": "2015-01-23T23:04:05.2990021+01:00",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Blanda Inc and Sons",
-        "ToolTip": "Voluptas et.",
+        "Id": 528,
+        "Name": "Block, Oberbrunner and McLaughlin",
+        "ToolTip": "Sunt minima aut aliquid et facilis nihil.",
         "Deleted": false,
-        "Rank": 443,
-        "Type": "accusamus",
-        "ColorBlock": 763,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2003-08-14T13:57:19.6252691+02:00",
+        "Rank": 308,
+        "Type": "dolores",
+        "ColorBlock": 696,
+        "IconHint": "quibusdam",
+        "Selected": true,
+        "LastChanged": "2000-05-11T23:04:05.2990021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Geovanni Swaniawski",
+        "ExtraInfo": "rerum",
+        "StyleHint": "eveniet",
+        "Hidden": true,
+        "FullName": "Miss Alexander Howard Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 454
+            "FieldType": "System.Int32",
+            "FieldLength": 480
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Heidi Kuvalis",
+    "ExtraInfo": "quasi",
+    "StyleHint": "maiores",
+    "Hidden": false,
+    "FullName": "Mr. Isadore Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldLength": 269
       }
     }
   }

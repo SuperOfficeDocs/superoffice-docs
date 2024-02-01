@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 293,
-  "SaleId": 571,
-  "QuoteConnectionId": 408,
-  "ERPQuoteKey": "sint",
-  "ERPOrderKey": "omnis",
-  "ActiveQuoteVersionId": 774,
-  "AcceptedQuoteAlternativeId": 295,
-  "UseValuesFromQuote": 632,
-  "DocumentId": 919,
-  "PoNumber": "227450",
-  "OrderComment": "aspernatur",
-  "PreferredEmailCulture": "robbie.renner@altenwerth.us",
+  "QuoteId": 363,
+  "SaleId": 875,
+  "QuoteConnectionId": 7,
+  "ERPQuoteKey": "velit",
+  "ERPOrderKey": "qui",
+  "ActiveQuoteVersionId": 896,
+  "AcceptedQuoteAlternativeId": 146,
+  "UseValuesFromQuote": 799,
+  "DocumentId": 752,
+  "PoNumber": "919601",
+  "OrderComment": "sit",
+  "PreferredEmailCulture": "shanon@bartellwalter.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 66,
-      "ERPQuoteVersionKey": "vel",
-      "QuoteId": 984,
-      "Description": "Versatile static extranet",
-      "Number": "928331",
+      "QuoteVersionId": 704,
+      "ERPQuoteVersionKey": "consequuntur",
+      "QuoteId": 623,
+      "Description": "Cross-platform mobile throughput",
+      "Number": "318371",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 967,
-      "SentDate": "2005-10-01T13:57:13.0805627+02:00",
-      "FollowupId": 803,
-      "ExpirationDate": "1997-06-20T13:57:13.0805627+02:00",
-      "DeliveryCountryId": 793,
+      "LikelyQuoteAlternativeId": 207,
+      "SentDate": "2023-03-01T23:03:56.7911177+01:00",
+      "FollowupId": 351,
+      "ExpirationDate": "2008-07-27T23:03:56.7911177+02:00",
+      "DeliveryCountryId": 685,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 193,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "et",
-      "ERPPaymentTypeKey": "omnis",
-      "ERPDeliveryTermsKey": "vitae",
-      "ERPDeliveryTypeKey": "nobis",
-      "Rank": 657,
-      "ApprovedBy": 618,
-      "ApprovedText": "nostrum",
-      "ApprovedRegisteredBy": 211,
-      "ApprovedRegisteredDate": "2022-02-28T13:57:13.0805627+01:00",
-      "ExtraField1": "eveniet",
-      "ExtraField2": "velit",
-      "ExtraField3": "distinctio",
-      "ExtraField4": "amet",
-      "ExtraField5": "dolor",
-      "LastRecalculated": "2012-08-01T13:57:13.0805627+02:00",
-      "Updated": "2023-11-07T13:57:13.0805627+01:00",
-      "UpdatedAssociateId": 538,
-      "Registered": "2017-03-09T13:57:13.0805627+01:00",
-      "RegisteredAssociateId": 782,
-      "RequestAssociateId": 641,
-      "RequestComment": "id",
+      "InvoiceCountryId": 63,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "repellat",
+      "ERPPaymentTypeKey": "sit",
+      "ERPDeliveryTermsKey": "qui",
+      "ERPDeliveryTypeKey": "fuga",
+      "Rank": 788,
+      "ApprovedBy": 297,
+      "ApprovedText": "quasi",
+      "ApprovedRegisteredBy": 860,
+      "ApprovedRegisteredDate": "2019-08-14T23:03:56.7911177+02:00",
+      "ExtraField1": "fugiat",
+      "ExtraField2": "quia",
+      "ExtraField3": "nisi",
+      "ExtraField4": "a",
+      "ExtraField5": "quo",
+      "LastRecalculated": "2009-09-03T23:03:56.7916198+02:00",
+      "Updated": "2023-03-24T23:03:56.7916198+01:00",
+      "UpdatedAssociateId": 149,
+      "Registered": "2008-05-03T23:03:56.7916198+02:00",
+      "RegisteredAssociateId": 686,
+      "RequestAssociateId": 498,
+      "RequestComment": "rerum",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 914
+          "FieldLength": 14
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 279
     }
   }
 }

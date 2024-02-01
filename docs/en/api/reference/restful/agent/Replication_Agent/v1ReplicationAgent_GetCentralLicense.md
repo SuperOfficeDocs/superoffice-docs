@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Harber, Zemlak and Harber",
-    "Description": "Switchable client-server adapter",
+    "Name": "Pfannerstill, Dach and Nienow",
+    "Description": "Innovative web-enabled projection",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 985,
-        "Tooltip": "est",
-        "CanAssign": false,
-        "Free": 814,
-        "InUse": 240,
+        "Unrestricted": false,
+        "Total": 543,
+        "Tooltip": "nihil",
+        "CanAssign": true,
+        "Free": 177,
+        "InUse": 539,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 758,
-        "Name": "Quitzon, Fahey and Labadie",
-        "Description": "Implemented assymetric internet solution",
-        "PrerequisiteModuleName": "Sporer, Bergnaum and Maggio",
-        "SortOrder": 80,
-        "ExtraFlags": 476,
+        "Assigned": false,
+        "ModuleLicenseId": 280,
+        "Name": "Yundt Group",
+        "Description": "Triple-buffered non-volatile customer loyalty",
+        "PrerequisiteModuleName": "Hirthe, Rempel and Keeling",
+        "SortOrder": 337,
+        "ExtraFlags": 953,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldType": "System.String",
+            "FieldLength": 368
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 741,
-        "Tooltip": "voluptas",
-        "CanAssign": false,
-        "Free": 676,
-        "InUse": 915,
+        "Unrestricted": true,
+        "Total": 680,
+        "Tooltip": "nostrum",
+        "CanAssign": true,
+        "Free": 845,
+        "InUse": 56,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 725,
-        "Name": "Mohr, Marks and Waters",
-        "Description": "Right-sized exuding firmware",
-        "PrerequisiteModuleName": "Bayer, O'Hara and Walker",
-        "SortOrder": 517,
-        "ExtraFlags": 438,
+        "Assigned": true,
+        "ModuleLicenseId": 298,
+        "Name": "Bruen, Tremblay and Armstrong",
+        "Description": "Cross-group modular data-warehouse",
+        "PrerequisiteModuleName": "Huel, Donnelly and Berge",
+        "SortOrder": 884,
+        "ExtraFlags": 421,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 972
+            "FieldType": "System.String",
+            "FieldLength": 94
           }
         }
       }
@@ -139,62 +139,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 461
+        "FieldType": "System.Int32",
+        "FieldLength": 415
       }
     }
   },
   {
-    "Name": "Harber, Zemlak and Harber",
-    "Description": "Switchable client-server adapter",
+    "Name": "Pfannerstill, Dach and Nienow",
+    "Description": "Innovative web-enabled projection",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 985,
-        "Tooltip": "est",
-        "CanAssign": false,
-        "Free": 814,
-        "InUse": 240,
+        "Unrestricted": false,
+        "Total": 543,
+        "Tooltip": "nihil",
+        "CanAssign": true,
+        "Free": 177,
+        "InUse": 539,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 758,
-        "Name": "Quitzon, Fahey and Labadie",
-        "Description": "Implemented assymetric internet solution",
-        "PrerequisiteModuleName": "Sporer, Bergnaum and Maggio",
-        "SortOrder": 80,
-        "ExtraFlags": 476,
+        "Assigned": false,
+        "ModuleLicenseId": 280,
+        "Name": "Yundt Group",
+        "Description": "Triple-buffered non-volatile customer loyalty",
+        "PrerequisiteModuleName": "Hirthe, Rempel and Keeling",
+        "SortOrder": 337,
+        "ExtraFlags": 953,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldType": "System.String",
+            "FieldLength": 368
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 741,
-        "Tooltip": "voluptas",
-        "CanAssign": false,
-        "Free": 676,
-        "InUse": 915,
+        "Unrestricted": true,
+        "Total": 680,
+        "Tooltip": "nostrum",
+        "CanAssign": true,
+        "Free": 845,
+        "InUse": 56,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 725,
-        "Name": "Mohr, Marks and Waters",
-        "Description": "Right-sized exuding firmware",
-        "PrerequisiteModuleName": "Bayer, O'Hara and Walker",
-        "SortOrder": 517,
-        "ExtraFlags": 438,
+        "Assigned": true,
+        "ModuleLicenseId": 298,
+        "Name": "Bruen, Tremblay and Armstrong",
+        "Description": "Cross-group modular data-warehouse",
+        "PrerequisiteModuleName": "Huel, Donnelly and Berge",
+        "SortOrder": 884,
+        "ExtraFlags": 421,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 972
+            "FieldType": "System.String",
+            "FieldLength": 94
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 461
+        "FieldType": "System.Int32",
+        "FieldLength": 415
       }
     }
   }

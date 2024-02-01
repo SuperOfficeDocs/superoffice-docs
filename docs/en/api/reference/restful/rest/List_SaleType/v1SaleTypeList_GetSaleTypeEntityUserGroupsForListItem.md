@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Hermann Group",
-    "ToolTip": "Laboriosam quo.",
+    "Id": 371,
+    "Name": "Hauck Group",
+    "ToolTip": "Enim accusamus doloribus quia adipisci harum nulla et.",
     "Deleted": false,
-    "Rank": 975,
-    "Type": "laudantium",
-    "ColorBlock": 923,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "1999-04-25T13:57:20.1109105+02:00",
+    "Rank": 640,
+    "Type": "eum",
+    "ColorBlock": 476,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2010-08-21T23:04:05.8004923+02:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Torphy Inc and Sons",
-        "ToolTip": "Corporis rerum voluptatum eum nobis.",
-        "Deleted": false,
-        "Rank": 566,
-        "Type": "dolorem",
-        "ColorBlock": 755,
-        "IconHint": "illo",
-        "Selected": true,
-        "LastChanged": "1996-07-31T13:57:20.1109105+02:00",
+        "Id": 888,
+        "Name": "Schmitt LLC",
+        "ToolTip": "Qui quae omnis sint ut.",
+        "Deleted": true,
+        "Rank": 525,
+        "Type": "qui",
+        "ColorBlock": 667,
+        "IconHint": "tempore",
+        "Selected": false,
+        "LastChanged": "2016-12-13T23:04:05.8004923+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Dr. Kianna Gabe Crooks DVM",
+        "ExtraInfo": "eos",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Ms. Edmond King",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 750
+            "FieldType": "System.Int32",
+            "FieldLength": 501
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Cathryn Kuhic",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "fuga",
+    "Hidden": true,
+    "FullName": "Mrs. Pearlie Jerrod Flatley DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 759
+        "FieldType": "System.Int32",
+        "FieldLength": 745
       }
     }
   }

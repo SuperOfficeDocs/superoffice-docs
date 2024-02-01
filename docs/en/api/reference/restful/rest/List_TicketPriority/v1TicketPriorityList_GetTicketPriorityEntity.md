@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 16,
-  "Name": "Swift Inc and Sons",
+  "TicketPriorityId": 425,
+  "Name": "Tromp Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 42,
+  "SortOrder": 427,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 108,
-  "MonStart": "2023-08-25T13:57:20.1734375+02:00",
-  "MonStop": "2009-04-22T13:57:20.1734375+02:00",
-  "TueStart": "2009-12-16T13:57:20.1734375+01:00",
-  "TueStop": "1998-02-16T13:57:20.1734375+01:00",
-  "WedStart": "2008-05-26T13:57:20.1734375+02:00",
-  "WedStop": "2018-09-20T13:57:20.1734375+02:00",
-  "ThuStart": "2019-10-17T13:57:20.1734375+02:00",
-  "ThuStop": "2014-12-31T13:57:20.1734375+01:00",
-  "FriStart": "2007-02-24T13:57:20.1734375+01:00",
-  "FriStop": "2020-08-10T13:57:20.1734375+02:00",
-  "SatStart": "2012-06-23T13:57:20.1734375+02:00",
-  "SatStop": "2023-03-10T13:57:20.1734375+01:00",
-  "SunStart": "2015-03-02T13:57:20.1734375+01:00",
-  "SunStop": "2023-06-08T13:57:20.1734375+02:00",
+  "Deadline": 213,
+  "MonStart": "2005-07-01T23:04:06.0184939+02:00",
+  "MonStop": "2017-10-31T23:04:06.0184939+01:00",
+  "TueStart": "2013-01-01T23:04:06.0184939+01:00",
+  "TueStop": "2022-02-22T23:04:06.0184939+01:00",
+  "WedStart": "2002-06-28T23:04:06.0184939+02:00",
+  "WedStop": "2001-04-12T23:04:06.0184939+02:00",
+  "ThuStart": "2010-01-07T23:04:06.0184939+01:00",
+  "ThuStop": "2003-12-27T23:04:06.0184939+01:00",
+  "FriStart": "2022-02-15T23:04:06.0184939+01:00",
+  "FriStop": "2007-03-07T23:04:06.0184939+01:00",
+  "SatStart": "1996-11-10T23:04:06.0184939+01:00",
+  "SatStop": "2022-07-28T23:04:06.0184939+02:00",
+  "SunStart": "2021-02-16T23:04:06.0184939+01:00",
+  "SunStop": "2012-01-09T23:04:06.0184939+01:00",
   "NonDates": [
-    "quidem",
-    "et"
+    "non",
+    "dolores"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 479,
-      "AlertLevel": 301,
-      "AlertTimeout": 250,
-      "Action": 521,
-      "DelegateTo": 65,
-      "ScriptId": 983,
-      "EmailTo": "kim@bauchkuhic.ca",
-      "SmsTo": "debitis",
-      "ReplyTemplateIdCustomer": 162,
-      "ReplyTemplateIdUser": 381,
-      "ReplyTemplateIdCatmast": 49,
-      "ReplyTemplateIdEmail": 373,
-      "RtiCustomerSms": 669,
-      "ReplyTemplateIdUserSms": 265,
-      "ReplyTemplateIdCatmastSms": 864,
-      "ReplyTemplateIdSms": 814,
+      "TicketAlertId": 369,
+      "AlertLevel": 710,
+      "AlertTimeout": 612,
+      "Action": 62,
+      "DelegateTo": 319,
+      "ScriptId": 41,
+      "EmailTo": "mateo@walker.ca",
+      "SmsTo": "asperiores",
+      "ReplyTemplateIdCustomer": 487,
+      "ReplyTemplateIdUser": 388,
+      "ReplyTemplateIdCatmast": 273,
+      "ReplyTemplateIdEmail": 368,
+      "RtiCustomerSms": 476,
+      "ReplyTemplateIdUserSms": 495,
+      "ReplyTemplateIdCatmastSms": 809,
+      "ReplyTemplateIdSms": 237,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldType": "System.Int32",
+          "FieldLength": 200
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 748
     }
   }
 }

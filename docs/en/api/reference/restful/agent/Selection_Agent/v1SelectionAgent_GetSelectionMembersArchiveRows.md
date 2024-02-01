@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 475,
-  "Select": "molestias"
+  "SelectionId": 190,
+  "Select": "repellendus"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gulgowski, Kertzmann and Hodkiewicz",
-    "PrimaryKey": 966,
+    "EntityName": "Graham Inc and Sons",
+    "PrimaryKey": 763,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "sed",
-        "LinkHint": "tenetur"
+        "DisplayValue": "minima",
+        "TooltipHint": "odio",
+        "LinkHint": "non"
       }
     },
-    "LinkHint": "quo",
-    "StyleHint": "voluptas",
+    "LinkHint": "saepe",
+    "StyleHint": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 892
+        "FieldLength": 485
       }
     }
   }

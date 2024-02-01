@@ -25,7 +25,7 @@ Gets all the Source items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Source/Items?includeDeleted=True
+GET /api/v1/List/Source/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Hilpert-Corwin",
-    "Tooltip": "est",
+    "Id": 566,
+    "Name": "Goyette Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 833,
-    "Rank": 852,
+    "UdListDefinitionId": 954,
+    "Rank": 611,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 569
       }
     }
   }

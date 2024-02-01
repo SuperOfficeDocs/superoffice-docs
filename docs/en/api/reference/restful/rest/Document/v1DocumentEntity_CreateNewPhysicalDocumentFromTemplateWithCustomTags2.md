@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=32
-POST /api/v1/Document/{documentId}/Content?personId=85
-POST /api/v1/Document/{documentId}/Content?appointmentId=360
-POST /api/v1/Document/{documentId}/Content?saleId=40
-POST /api/v1/Document/{documentId}/Content?selectionId=904
-POST /api/v1/Document/{documentId}/Content?projectId=868
-POST /api/v1/Document/{documentId}/Content?uiCulture=aut
+POST /api/v1/Document/{documentId}/Content?contactId=843
+POST /api/v1/Document/{documentId}/Content?personId=818
+POST /api/v1/Document/{documentId}/Content?appointmentId=846
+POST /api/v1/Document/{documentId}/Content?saleId=590
+POST /api/v1/Document/{documentId}/Content?selectionId=473
+POST /api/v1/Document/{documentId}/Content?projectId=827
+POST /api/v1/Document/{documentId}/Content?uiCulture=dolor
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 800,
+  "DocumentId": 733,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nostrum",
-  "Header": "possimus",
-  "Name": "Schinner-Halvorson",
-  "OurRef": "quod",
-  "YourRef": "laudantium",
-  "CreatedDate": "2012-01-15T13:57:18.7797241+01:00",
-  "UpdatedDate": "2005-08-04T13:57:18.7797241+02:00",
-  "Description": "Function-based dedicated flexibility",
+  "Attention": "sit",
+  "Header": "omnis",
+  "Name": "Larson-Herman",
+  "OurRef": "voluptatem",
+  "YourRef": "vel",
+  "CreatedDate": "1998-05-20T23:04:04.17152+02:00",
+  "UpdatedDate": "2004-11-24T23:04:04.17152+01:00",
+  "Description": "Seamless impactful customer loyalty",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-02-09T13:57:18.7797241+01:00",
-  "ExternalRef": "omnis",
+  "Date": "2018-03-15T23:04:04.1750173+01:00",
+  "ExternalRef": "ducimus",
   "Completed": "Completed",
-  "ActiveLinks": 688,
+  "ActiveLinks": 921,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Murazik-Witting",
-      "Id": 580,
-      "Description": "Balanced responsive matrix",
-      "ExtraInfo": "asperiores",
-      "LinkId": 553,
+      "EntityName": "Christiansen Inc and Sons",
+      "Id": 130,
+      "Description": "Versatile encompassing benchmark",
+      "ExtraInfo": "porro",
+      "LinkId": 678,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldType": "System.String",
+          "FieldLength": 760
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 189,
-  "Snum": 30,
+  "SuggestedDocumentId": 322,
+  "Snum": 204,
   "UserDefinedFields": {
-    "SuperOffice:1": "Hilbert Murray",
-    "SuperOffice:2": "Edison Bailey"
+    "SuperOffice:1": "Miss Howell Waters II",
+    "SuperOffice:2": "Margret Gutmann"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "accusamus"
   },
   "CustomFields": {
-    "CustomFields1": "in",
+    "CustomFields1": "laudantium",
     "CustomFields2": "dolorum"
   },
-  "PublishEventDate": "2012-07-25T13:57:18.7797241+02:00",
-  "PublishTo": "2000-08-19T13:57:18.7797241+02:00",
-  "PublishFrom": "2006-01-20T13:57:18.7797241+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-04-08T23:04:04.1760176+02:00",
+  "PublishTo": "2001-06-16T23:04:04.1760176+02:00",
+  "PublishFrom": "2000-12-24T23:04:04.1760176+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 893,
+      "VisibleId": 290,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldLength": 957
         }
       }
     },
     {
-      "VisibleId": 893,
+      "VisibleId": 290,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldLength": 957
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 629
     }
   }
 }

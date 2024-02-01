@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Feil LLC",
-    "Id": 811,
-    "Description": "Synergized interactive flexibility",
-    "ExtraInfo": "veniam",
-    "LinkId": 637,
+    "EntityName": "Lemke Inc and Sons",
+    "Id": 467,
+    "Description": "Optional intangible function",
+    "ExtraInfo": "cupiditate",
+    "LinkId": 92,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldType": "System.String",
+        "FieldLength": 219
       }
     }
   }

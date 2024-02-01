@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=voluptatum
+GET /api/v1/List/Credited/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Gleichner, Wintheiser and Waelchi",
-    "ToolTip": "Velit aspernatur quidem inventore.",
+    "Id": 675,
+    "Name": "Littel, Kuhlman and Cremin",
+    "ToolTip": "Totam accusantium recusandae non doloremque possimus eum.",
     "Deleted": false,
-    "Rank": 325,
-    "Type": "sed",
+    "Rank": 847,
+    "Type": "quidem",
     "ChildItems": [
       {
-        "Id": 359,
-        "Name": "Carroll-Eichmann",
-        "ToolTip": "Possimus non quisquam distinctio.",
-        "Deleted": true,
-        "Rank": 402,
-        "Type": "tempora",
+        "Id": 126,
+        "Name": "Bechtelar Group",
+        "ToolTip": "Maiores dicta voluptatem qui perferendis.",
+        "Deleted": false,
+        "Rank": 192,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 351,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "cupiditate",
-        "FullName": "Lisette Weimann",
+        "IconHint": "et",
+        "ColorBlock": 917,
+        "ExtraInfo": "et",
+        "StyleHint": "blanditiis",
+        "FullName": "Guadalupe White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 595
+            "FieldType": "System.String",
+            "FieldLength": 252
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 182,
-    "ExtraInfo": "sed",
-    "StyleHint": "quibusdam",
-    "FullName": "Prof. Neva Raymond Ortiz Sr.",
+    "IconHint": "ducimus",
+    "ColorBlock": 611,
+    "ExtraInfo": "nulla",
+    "StyleHint": "labore",
+    "FullName": "Kirk Gislason PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldType": "System.Int32",
+        "FieldLength": 603
       }
     }
   }

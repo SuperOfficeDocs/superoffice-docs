@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 304,
-  "ParentId": 352,
-  "Name": "Cormier-Schmidt",
-  "Fullname": "esse",
-  "CategoryMaster": 214,
+  "TicketCategoryId": 295,
+  "ParentId": 483,
+  "Name": "Friesen, Willms and Daniel",
+  "Fullname": "blanditiis",
+  "CategoryMaster": 947,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Senger Inc and Sons",
+  "ExternalName": "Walter, Hodkiewicz and Kuphal",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 264,
-  "ReplyTemplate": 154,
-  "NotificationEmail": "jerrell.morissette@gerlach.uk",
+  "AssignmentLag": 548,
+  "ReplyTemplate": 365,
+  "NotificationEmail": "elwin_spinka@raynorkemmer.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 741,
+  "EffectiveReplyTemplateId": 41,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "aliquam"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "qui"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "vitae"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 476,
-  "ParentId": 245,
-  "Name": "Kiehn, Ortiz and Lueilwitz",
-  "Fullname": "praesentium",
-  "CategoryMaster": 302,
+  "TicketCategoryId": 193,
+  "ParentId": 296,
+  "Name": "Cronin Group",
+  "Fullname": "odit",
+  "CategoryMaster": 503,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Vandervort-Effertz",
+  "ExternalName": "Bauch-Leuschke",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 768,
-  "ReplyTemplate": 768,
-  "NotificationEmail": "karl_bauch@gusikowski.info",
+  "AssignmentLag": 936,
+  "ReplyTemplate": 45,
+  "NotificationEmail": "dovie@brakusblock.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 623,
+  "EffectiveReplyTemplateId": 189,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "ab"
+    "CustomFields1": "est",
+    "CustomFields2": "mollitia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldType": "System.Int32",
+      "FieldLength": 874
     }
   }
 }

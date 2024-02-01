@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 261,
-  "Name": "Bosco, Littel and Bartoletti",
-  "TZLocationCode": "maxime",
-  "TZLocationCities": "rerum",
-  "IsoNumber": 987,
+  "TZLocationID": 813,
+  "Name": "Koepp, Toy and Cormier",
+  "TZLocationCode": "sunt",
+  "TZLocationCities": "repellendus",
+  "IsoNumber": 137,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 629,
-      "StartMonth": 484,
-      "EndDay": 106,
-      "EndMonth": 965,
-      "TZOffset": 543,
-      "StartRulePattern": "libero",
-      "EndRulePattern": "voluptates"
+      "StartDay": 599,
+      "StartMonth": 266,
+      "EndDay": 506,
+      "EndMonth": 176,
+      "TZOffset": 721,
+      "StartRulePattern": "voluptate",
+      "EndRulePattern": "exercitationem"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 688,
-      "StartMonth": 696,
-      "EndDay": 152,
-      "EndMonth": 983,
-      "TZOffset": 460,
-      "StartRulePattern": "qui",
-      "EndRulePattern": "quam"
+      "StartDay": 569,
+      "StartMonth": 669,
+      "EndDay": 849,
+      "EndMonth": 143,
+      "TZOffset": 187,
+      "StartRulePattern": "excepturi",
+      "EndRulePattern": "est"
     }
   }
 }

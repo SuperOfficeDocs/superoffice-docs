@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 183,
-  "Name": "Deckow-Powlowski",
-  "Tooltip": "deleniti",
+  "Id": 543,
+  "Name": "Bartoletti-Durgan",
+  "Tooltip": "ex",
   "Deleted": true,
-  "Rank": 294,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 838,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "dolore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldType": "System.Int32",
+      "FieldLength": 141
     }
   },
   "_Links": {

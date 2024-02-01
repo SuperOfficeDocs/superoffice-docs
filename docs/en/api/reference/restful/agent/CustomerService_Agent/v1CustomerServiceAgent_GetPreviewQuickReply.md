@@ -80,7 +80,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 91
+  "QuickReplyId": 986
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gaylord Inc and Sons",
-  "UpdatedByFullName": "Karlie Lesch",
-  "Updated": "2001-11-13T13:57:12.0280012+01:00",
-  "HtmlBody": "rerum",
+  "Name": "Cremin-Spencer",
+  "UpdatedByFullName": "Keegan Darius Kuhic DDS",
+  "Updated": "2019-10-24T23:03:55.6011341+02:00",
+  "HtmlBody": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

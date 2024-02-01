@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 721
+  "QuoteVersionId": 534
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 549,
-  "ERPQuoteVersionKey": "rerum",
-  "QuoteId": 55,
-  "Description": "Streamlined heuristic migration",
-  "Number": "1269851",
+  "QuoteVersionId": 77,
+  "ERPQuoteVersionKey": "reiciendis",
+  "QuoteId": 803,
+  "Description": "Multi-tiered high-level ability",
+  "Number": "339666",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 814,
-  "SentDate": "1999-07-10T13:57:13.0324135+02:00",
-  "FollowupId": 365,
-  "ExpirationDate": "2023-08-05T13:57:13.0324135+02:00",
-  "DeliveryCountryId": 551,
+  "LikelyQuoteAlternativeId": 8,
+  "SentDate": "2014-08-11T23:03:56.7171186+02:00",
+  "FollowupId": 981,
+  "ExpirationDate": "2018-08-13T23:03:56.7171186+02:00",
+  "DeliveryCountryId": 748,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 123,
+  "InvoiceCountryId": 820,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "ab",
-  "ERPPaymentTypeKey": "quia",
-  "ERPDeliveryTermsKey": "illo",
-  "ERPDeliveryTypeKey": "consequatur",
-  "Rank": 56,
-  "ApprovedBy": 598,
-  "ApprovedText": "quasi",
-  "ApprovedRegisteredBy": 617,
-  "ApprovedRegisteredDate": "2012-10-25T13:57:13.0324135+02:00",
-  "ExtraField1": "velit",
-  "ExtraField2": "id",
-  "ExtraField3": "qui",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "ea",
-  "LastRecalculated": "2019-09-25T13:57:13.0324135+02:00",
-  "Updated": "2004-07-01T13:57:13.0324135+02:00",
-  "UpdatedAssociateId": 763,
-  "Registered": "1998-05-22T13:57:13.0324135+02:00",
-  "RegisteredAssociateId": 864,
-  "RequestAssociateId": 879,
-  "RequestComment": "et",
+  "ERPPaymentTermsKey": "quos",
+  "ERPPaymentTypeKey": "consectetur",
+  "ERPDeliveryTermsKey": "et",
+  "ERPDeliveryTypeKey": "maiores",
+  "Rank": 896,
+  "ApprovedBy": 861,
+  "ApprovedText": "error",
+  "ApprovedRegisteredBy": 398,
+  "ApprovedRegisteredDate": "2010-09-27T23:03:56.7171186+02:00",
+  "ExtraField1": "modi",
+  "ExtraField2": "quidem",
+  "ExtraField3": "et",
+  "ExtraField4": "sit",
+  "ExtraField5": "quae",
+  "LastRecalculated": "1997-12-16T23:03:56.7171186+01:00",
+  "Updated": "2001-07-23T23:03:56.7171186+02:00",
+  "UpdatedAssociateId": 27,
+  "Registered": "2008-02-03T23:03:56.7171186+01:00",
+  "RegisteredAssociateId": 130,
+  "RequestAssociateId": 664,
+  "RequestComment": "quia",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 160,
-      "ERPQuoteAlternativeKey": "tempora",
-      "QuoteVersionId": 786,
-      "Name": "Jones, Stanton and Mann",
-      "Description": "Open-source well-modulated local area network",
+      "QuoteAlternativeId": 71,
+      "ERPQuoteAlternativeKey": "saepe",
+      "QuoteVersionId": 634,
+      "Name": "Deckow, Mayer and Cassin",
+      "Description": "Persevering optimal projection",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 20872.44,
-      "ERPDiscountAmount": 1827.1219999999998,
-      "DiscountPercent": 15735.814,
-      "DiscountAmount": 25714.469999999998,
+      "ERPDiscountPercent": 11821.448,
+      "ERPDiscountAmount": 28325.092,
+      "DiscountPercent": 27334.748,
+      "DiscountAmount": 27243.861999999997,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "molestiae",
-      "VAT": 12755.38,
-      "EarningPercent": 18377.775999999998,
-      "EarningAmount": 22928.344,
-      "SubTotal": 25799.088,
-      "TotalPrice": 3231.154,
-      "ExtraField1": "eos",
-      "ExtraField2": "quis",
-      "ExtraField3": "voluptatem",
-      "ExtraField4": "eum",
-      "ExtraField5": "culpa",
+      "VATInfo": "eos",
+      "VAT": 10198.036,
+      "EarningPercent": 9458.412,
+      "EarningAmount": 2817.466,
+      "SubTotal": 10141.624,
+      "TotalPrice": 1228.528,
+      "ExtraField1": "consequatur",
+      "ExtraField2": "unde",
+      "ExtraField3": "et",
+      "ExtraField4": "qui",
+      "ExtraField5": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 536
+          "FieldLength": 283
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 381
     }
   }
 }

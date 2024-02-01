@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Kris Inc and Sons",
-  "Culture": "beatae",
+  "ResourceName": "Hagenes, Mohr and Jast",
+  "Culture": "provident",
   "IsActive": false
 }
 ```

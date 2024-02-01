@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Dickinson, Lehner and Cremin",
-    "Tooltip": "esse",
+    "Id": 992,
+    "Name": "Ward Inc and Sons",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 440,
-    "Rank": 483
+    "UdListDefinitionId": 869,
+    "Rank": 94
   },
   {
-    "Id": 269,
-    "Name": "Dickinson, Lehner and Cremin",
-    "Tooltip": "esse",
+    "Id": 992,
+    "Name": "Ward Inc and Sons",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 440,
-    "Rank": 483
+    "UdListDefinitionId": 869,
+    "Rank": 94
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Windler-Grimes",
-    "Tooltip": "excepturi",
+    "Id": 152,
+    "Name": "Erdman Group",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 51,
-    "Rank": 567,
+    "UdListDefinitionId": 950,
+    "Rank": 980,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 185
       }
     }
   }

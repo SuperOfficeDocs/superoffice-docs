@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=961
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=150
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -87,40 +87,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 769,
-  "Field": "qui",
-  "RecordId": 83,
+  "RefCountsId": 572,
+  "Field": "a",
+  "RecordId": 989,
   "SuggestedRecords": [
     {
-      "Id": 781,
-      "Name": "Hermiston, Smith and Runolfsson",
-      "ToolTip": "Laudantium numquam dolores autem optio velit.",
+      "Id": 467,
+      "Name": "Goodwin-Ondricka",
+      "ToolTip": "Molestiae doloribus optio eius aliquid ut itaque nihil.",
       "Deleted": true,
-      "Rank": 697,
-      "Type": "vel",
+      "Rank": 297,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 129,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "soluta",
-      "FullName": "Toney Ryan",
+      "IconHint": "nam",
+      "ColorBlock": 181,
+      "ExtraInfo": "ut",
+      "StyleHint": "odio",
+      "FullName": "Elbert Watsica",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldType": "System.Int32",
+          "FieldLength": 535
         }
       }
     }
   ],
-  "CurrentValue": 474,
-  "TravelPrefix": 514,
-  "SatPrefix": 132,
-  "Allocate": true,
+  "CurrentValue": 437,
+  "TravelPrefix": 38,
+  "SatPrefix": 491,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 489
     }
   }
 }

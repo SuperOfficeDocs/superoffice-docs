@@ -92,22 +92,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 572,
-  "Name": "Pouros-Borer",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 603,
+  "Id": 918,
+  "Name": "Bradtke Inc and Sons",
+  "Tooltip": "error",
+  "Deleted": false,
+  "Rank": 935,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aliquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 915
     }
   },
   "_Links": {

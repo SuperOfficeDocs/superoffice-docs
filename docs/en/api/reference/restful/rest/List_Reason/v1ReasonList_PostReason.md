@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 850,
-  "Name": "Crona Group",
-  "Tooltip": "eum",
+  "Id": 973,
+  "Name": "Ebert, D'Amore and Rodriguez",
+  "Tooltip": "neque",
   "Deleted": false,
-  "UdListDefinitionId": 428,
-  "Rank": 779
+  "UdListDefinitionId": 559,
+  "Rank": 17
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 274,
-  "Name": "Jacobs LLC",
-  "Tooltip": "ipsam",
+  "Id": 466,
+  "Name": "Turcotte, Shields and Homenick",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 636,
-  "Rank": 730,
+  "UdListDefinitionId": 176,
+  "Rank": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

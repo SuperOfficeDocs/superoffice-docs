@@ -84,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 113
+  "AssociateId": 664
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 138,
-    "AssociateId": 585,
-    "Block": "ducimus",
-    "Registered": "2002-12-29T13:57:12.6068289+01:00",
-    "RegisteredAssociateId": 99,
-    "Updated": "2006-06-04T13:57:12.6068289+02:00",
-    "UpdatedAssociateId": 807,
-    "UpdatedCount": 89,
+    "ShipmentMessageBlockId": 404,
+    "AssociateId": 580,
+    "Block": "corrupti",
+    "Registered": "2020-03-06T23:03:56.3331248+01:00",
+    "RegisteredAssociateId": 440,
+    "Updated": "2001-07-29T23:03:56.3331248+02:00",
+    "UpdatedAssociateId": 131,
+    "UpdatedCount": 501,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

@@ -10,7 +10,7 @@ generated: true
 POST /api/v1/Agents/List/GetTicketTypeList
 ```
 
-Gets an array of TicketType objects.
+Gets an array of TicketTypeEntity objects.
 
 
 
@@ -43,7 +43,7 @@ POST /api/v1/Agents/List/GetTicketTypeList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: ticketTypeIds 
+## Request Body: ticketTypeEntityIds 
 
 The primary keys. 
 
@@ -60,9 +60,18 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The List Item Id |
-| Value | string | The List Item Value |
-| Tooltip | string | The List Item Tooltip |
+| TicketTypeId | int32 | Primary key |
+| Name | string | The list item |
+| Rank | int32 | Rank order |
+| Tooltip | string | Tooltip or other description |
+| Icon | string | Name of the icon |
+| DefaultTicketStatus | int32 | Default ticket status for new tickets |
+| TicketStatuses | array | Relevant/available ticket statuses for this Request type. Empty field means all statuses are available. |
+| DefaultTicketPriority | int32 | Default ticket priority for new tickets |
+| TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
+| ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -72,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Value": "illo",
-    "Tooltip": "minima",
+    "TicketTypeId": 155,
+    "Name": "Gutkowski LLC",
+    "Rank": 599,
+    "Tooltip": "consequuntur",
+    "Icon": "quam",
+    "DefaultTicketStatus": 268,
+    "TicketStatuses": [
+      432,
+      96
+    ],
+    "DefaultTicketPriority": 258,
+    "TicketPriorities": [
+      17,
+      876
+    ],
+    "ReplyTemplate": 237,
+    "IsExternalVisible": true,
+    "IsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
-      }
-    }
-  },
-  {
-    "Id": 839,
-    "Value": "illo",
-    "Tooltip": "minima",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 637
       }
     }
   }

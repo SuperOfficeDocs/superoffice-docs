@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "laboriosam",
-  "Value": "quia",
-  "RecordId": 707,
-  "CreatedDate": "2020-03-22T13:57:18.8265985+01:00",
-  "UpdatedDate": "2011-05-02T13:57:18.8265985+02:00",
-  "UpdatedBy": "doloribus",
-  "CreatedBy": "rerum",
-  "TableName": "Berge Inc and Sons"
+  "Key": "ipsa",
+  "Value": "sit",
+  "RecordId": 65,
+  "CreatedDate": "2016-07-01T23:04:04.2300165+02:00",
+  "UpdatedDate": "2015-12-30T23:04:04.2300165+01:00",
+  "UpdatedBy": "ipsum",
+  "CreatedBy": "quis",
+  "TableName": "Goldner-Grady"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut",
-  "Value": "eligendi",
-  "RecordId": 312,
-  "CreatedDate": "2017-08-07T13:57:18.8265985+02:00",
-  "UpdatedDate": "2008-04-13T13:57:18.8265985+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "nostrum",
-  "TableName": "Bechtelar, Dicki and Stamm",
+  "Key": "dignissimos",
+  "Value": "distinctio",
+  "RecordId": 744,
+  "CreatedDate": "1997-08-10T23:04:04.2300165+02:00",
+  "UpdatedDate": "2006-05-03T23:04:04.2300165+02:00",
+  "UpdatedBy": "sint",
+  "CreatedBy": "et",
+  "TableName": "Pfeffer LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 306
     }
   }
 }

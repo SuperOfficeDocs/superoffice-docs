@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "magnam",
-  "Name": "Veum, Torphy and Gibson"
+  "Path": "assumenda",
+  "Name": "DuBuque, Schumm and Effertz"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 578,
+  "HierarchyId": 267,
   "Domain": "Dashboards",
-  "Name": "Leuschke, Gibson and Waelchi",
-  "Fullname": "consequatur",
-  "ParentId": 44,
+  "Name": "Bruen Group",
+  "Fullname": "occaecati",
+  "ParentId": 265,
   "Children": [
     {
-      "HierarchyId": 257,
+      "HierarchyId": 222,
       "Domain": "Dashboards",
-      "Name": "Torphy Group",
-      "Fullname": "dolores",
-      "ParentId": 976,
+      "Name": "McDermott-Hoeger",
+      "Fullname": "qui",
+      "ParentId": 749,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-09-09T13:57:12.5599631+02:00",
-      "RegisteredAssociateId": 607,
-      "Updated": "1997-12-05T13:57:12.5599631+01:00",
-      "UpdatedAssociateId": 794,
+      "Registered": "2018-11-18T23:03:56.2756221+01:00",
+      "RegisteredAssociateId": 8,
+      "Updated": "2000-12-14T23:03:56.2756221+01:00",
+      "UpdatedAssociateId": 809,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 768
+          "FieldType": "System.Int32",
+          "FieldLength": 237
         }
       }
     }
   ],
-  "Registered": "2001-12-01T13:57:12.5599631+01:00",
-  "RegisteredAssociateId": 442,
-  "Updated": "2005-02-10T13:57:12.5599631+01:00",
-  "UpdatedAssociateId": 241,
+  "Registered": "2002-03-10T23:03:56.2756221+01:00",
+  "RegisteredAssociateId": 250,
+  "Updated": "1997-08-01T23:03:56.2756221+02:00",
+  "UpdatedAssociateId": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 948
     }
   }
 }

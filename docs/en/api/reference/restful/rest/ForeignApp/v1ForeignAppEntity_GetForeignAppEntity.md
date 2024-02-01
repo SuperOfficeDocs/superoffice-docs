@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 30 Dec 2008 13:57:18 G12T
+Last-Modified: Thu, 08 Jan 2015 23:04:04 G1T
 
 {
-  "ForeignAppId": 227,
-  "Name": "Towne, Daniel and Howell",
-  "CreatedDate": "2022-12-06T13:57:18.7953465+01:00",
-  "UpdatedDate": "2008-12-30T13:57:18.7953465+01:00",
+  "ForeignAppId": 313,
+  "Name": "Cremin-Dicki",
+  "CreatedDate": "2002-04-05T23:04:04.2120167+02:00",
+  "UpdatedDate": "2015-01-08T23:04:04.2120167+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 687,
-      "Name": "Emmerich LLC",
-      "CreatedDate": "2005-08-28T13:57:18.8109737+02:00",
-      "UpdatedDate": "2019-06-27T13:57:18.8109737+02:00",
-      "AssociateFullName": "Flossie Delmer Grant MD",
-      "CreatedBy": "odio",
-      "UpdatedBy": "cum",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 596,
+      "ForeignDeviceId": 875,
+      "Name": "Grant, Murray and Ernser",
+      "CreatedDate": "2021-11-22T23:04:04.2125219+01:00",
+      "UpdatedDate": "2018-07-14T23:04:04.2125219+02:00",
+      "AssociateFullName": "Bertrand Tremblay V",
+      "CreatedBy": "saepe",
+      "UpdatedBy": "ex",
+      "DeviceIdentifier": "id",
+      "ForeignAppId": 805,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 419
+          "FieldType": "System.Int32",
+          "FieldLength": 1001
         }
       }
     }
@@ -123,7 +123,7 @@ Last-Modified: Tue, 30 Dec 2008 13:57:18 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 417
     }
   },
   "_Links": {

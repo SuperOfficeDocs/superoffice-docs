@@ -151,7 +151,8 @@ TicketEntity  updated.
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
-| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| TicketType | TicketType | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| ActiveStatusMonitorId | int32 | Active status monitor identity for related contact. This is a read-only property and is ignored on Save |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -170,12 +171,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quas",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quas",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -188,21 +189,21 @@ HTTP/1.1 200 TicketEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 586,
-  "Title": "pariatur",
-  "CreatedAt": "2004-04-04T13:57:19.3440255+02:00",
-  "LastChanged": "2023-10-17T13:57:19.3440255+02:00",
-  "ReadByOwner": "2001-09-26T13:57:19.3440255+02:00",
-  "ReadByCustomer": "2015-10-21T13:57:19.3440255+02:00",
-  "FirstReadByOwner": "2001-01-24T13:57:19.3440255+01:00",
-  "FirstReadByUser": "2010-12-10T13:57:19.3440255+01:00",
-  "Activate": "2001-09-29T13:57:19.3440255+02:00",
-  "ClosedAt": "2018-10-21T13:57:19.3440255+02:00",
-  "RepliedAt": "2007-03-16T13:57:19.3440255+01:00",
-  "AlertTimeout": "2015-10-15T13:57:19.3440255+02:00",
-  "Deadline": "2011-11-03T13:57:19.3440255+01:00",
+  "TicketId": 564,
+  "Title": "iure",
+  "CreatedAt": "2006-09-26T23:04:04.9025055+02:00",
+  "LastChanged": "2016-11-26T23:04:04.9025055+01:00",
+  "ReadByOwner": "2013-09-27T23:04:04.9025055+02:00",
+  "ReadByCustomer": "2006-11-01T23:04:04.9025055+01:00",
+  "FirstReadByOwner": "2012-05-28T23:04:04.9025055+02:00",
+  "FirstReadByUser": "2006-11-18T23:04:04.9025055+01:00",
+  "Activate": "2022-05-14T23:04:04.9025055+02:00",
+  "ClosedAt": "2013-09-21T23:04:04.9025055+02:00",
+  "RepliedAt": "2022-12-15T23:04:04.9025055+01:00",
+  "AlertTimeout": "1999-01-13T23:04:04.9025055+01:00",
+  "Deadline": "2021-05-29T23:04:04.9025055+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "pariatur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -213,161 +214,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "consequatur",
-      "PersonId": 138,
-      "Mrmrs": "nam",
-      "Firstname": "Elisha",
-      "Lastname": "Schmeler",
-      "MiddleName": "Sauer Group",
-      "Title": "quisquam",
-      "Description": "Upgradable optimizing customer loyalty",
-      "Email": "henriette@terry.info",
-      "FullName": "Dr. Lempi Price Schaden",
-      "DirectPhone": "(970)433-6998 x860",
-      "FormalName": "Rempel, Bashirian and Dach",
-      "CountryId": 420,
-      "ContactId": 104,
-      "ContactName": "Lemke, Strosin and Conn",
-      "Retired": 597,
-      "Rank": 263,
-      "ActiveInterests": 607,
+      "Position": "soluta",
+      "PersonId": 571,
+      "Mrmrs": "consequatur",
+      "Firstname": "Fanny",
+      "Lastname": "Schiller",
+      "MiddleName": "Reinger LLC",
+      "Title": "veniam",
+      "Description": "Focused context-sensitive data-warehouse",
+      "Email": "jarrett.roberts@rau.info",
+      "FullName": "Jarrell Marks",
+      "DirectPhone": "1-337-932-2996",
+      "FormalName": "Romaguera Inc and Sons",
+      "CountryId": 933,
+      "ContactId": 869,
+      "ContactName": "Hyatt LLC",
+      "Retired": 322,
+      "Rank": 446,
+      "ActiveInterests": 516,
       "ContactDepartment": "",
-      "ContactCountryId": 788,
-      "ContactOrgNr": "103616",
-      "FaxPhone": "(650)102-0768 x145",
-      "MobilePhone": "618.288.7738 x823",
-      "ContactPhone": "1-450-758-4664 x7363",
-      "AssociateName": "Langworth Inc and Sons",
-      "AssociateId": 75,
+      "ContactCountryId": 141,
+      "ContactOrgNr": "1337252",
+      "FaxPhone": "379-473-4720 x71349",
+      "MobilePhone": "(525)563-8885",
+      "ContactPhone": "146-039-3162 x83394",
+      "AssociateName": "Hessel, Wiegand and Watsica",
+      "AssociateId": 698,
       "UsePersonAddress": false,
-      "ContactFax": "qui",
-      "Kanafname": "exercitationem",
-      "Kanalname": "necessitatibus",
-      "Post1": "similique",
-      "Post2": "hic",
-      "Post3": "autem",
-      "EmailName": "adelia@jacobszieme.uk",
-      "ContactFullName": "Horacio Padberg",
-      "ActiveErpLinks": 67,
-      "TicketPriorityId": 604,
-      "SupportLanguageId": 71,
-      "SupportAssociateId": 73,
+      "ContactFax": "consequatur",
+      "Kanafname": "in",
+      "Kanalname": "animi",
+      "Post1": "et",
+      "Post2": "qui",
+      "Post3": "corrupti",
+      "EmailName": "isom@prohaska.name",
+      "ContactFullName": "Marcelo Heaney",
+      "ActiveErpLinks": 907,
+      "TicketPriorityId": 809,
+      "SupportLanguageId": 1000,
+      "SupportAssociateId": 977,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldType": "System.String",
+          "FieldLength": 765
         }
       }
     }
   ],
-  "AlertLevel": 602,
-  "ConnectId": 29,
+  "AlertLevel": 461,
+  "ConnectId": 664,
   "ReadStatus": "Green",
-  "TimeToReply": 455,
-  "RealTimeToReply": 24,
-  "TimeToClose": 786,
-  "RealTimeToClose": 597,
-  "TimeSpentInternally": 644,
-  "TimeSpentExternally": 107,
-  "TimeSpentQueue": 551,
-  "RealTimeSpentInternally": 808,
-  "RealTimeSpentExternally": 997,
-  "RealTimeSpentQueue": 979,
-  "TimeSpent": 739,
-  "HasAttachment": false,
-  "NumReplies": 776,
-  "NumMessages": 637,
-  "FromAddress": "fugiat",
+  "TimeToReply": 671,
+  "RealTimeToReply": 550,
+  "TimeToClose": 534,
+  "RealTimeToClose": 936,
+  "TimeSpentInternally": 246,
+  "TimeSpentExternally": 469,
+  "TimeSpentQueue": 732,
+  "RealTimeSpentInternally": 921,
+  "RealTimeSpentExternally": 837,
+  "RealTimeSpentQueue": 633,
+  "TimeSpent": 456,
+  "HasAttachment": true,
+  "NumReplies": 124,
+  "NumMessages": 360,
+  "FromAddress": "neque",
   "Messages": [
     {
-      "TicketMessageId": 8,
-      "CreatedAt": "2022-09-08T13:57:19.35965+02:00",
+      "TicketMessageId": 916,
+      "CreatedAt": "2023-12-04T23:04:04.9075077+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "voluptas",
-      "PersonId": 744,
-      "PersonFullName": "Dwight Zander Hodkiewicz I",
-      "ContactId": 726,
-      "ContactName": "Reichert-Weissnat",
+      "Important": false,
+      "Author": "necessitatibus",
+      "PersonId": 206,
+      "PersonFullName": "Joan Heathcote",
+      "ContactId": 297,
+      "ContactName": "Pagac-Upton",
       "ContactDepartment": "",
-      "NumAttachments": 371,
-      "EmailHeader": "tyler@schuster.us",
+      "NumAttachments": 142,
+      "EmailHeader": "emory@cummeratadare.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "enim",
-      "Sentiment": 510,
-      "SentimentConfidence": 176,
-      "CreatedBy": 322,
-      "ChangedAt": "2011-03-23T13:57:19.35965+01:00",
+      "Language": "sint",
+      "Sentiment": 631,
+      "SentimentConfidence": 762,
+      "CreatedBy": 318,
+      "ChangedAt": "2004-09-09T23:04:04.908007+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 595,
-      "Name": "Brakus Group",
-      "ToolTip": "Eaque animi odit provident totam ea odio.",
+      "Id": 322,
+      "Name": "Roberts Inc and Sons",
+      "ToolTip": "Corporis adipisci sapiente ex et rerum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldType": "System.Int32",
+          "FieldLength": 431
         }
       }
     },
     {
-      "Id": 595,
-      "Name": "Brakus Group",
-      "ToolTip": "Eaque animi odit provident totam ea odio.",
+      "Id": 322,
+      "Name": "Roberts Inc and Sons",
+      "ToolTip": "Corporis adipisci sapiente ex et rerum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldType": "System.Int32",
+          "FieldLength": 431
         }
       }
     }
   ],
-  "Language": "non",
-  "Sentiment": 98,
-  "SentimentConfidence": 340,
-  "SuggestedCategoryId": 741,
+  "Language": "enim",
+  "Sentiment": 241,
+  "SentimentConfidence": 301,
+  "SuggestedCategoryId": 188,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 339,
-  "IconHint": "quo",
+  "OrigHumanCategoryId": 312,
+  "IconHint": "modi",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
+  "ActiveStatusMonitorId": 126,
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "quia",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldLength": 327
     }
   },
   "_Links": {

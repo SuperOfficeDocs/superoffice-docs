@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 394,
-  "ERPProductKey": "totam",
-  "ERPPriceListKey": "omnis",
-  "Name": "Schimmel Inc and Sons",
-  "Description": "Profound intangible data-warehouse",
-  "Code": "deleniti",
-  "PriceUnit": "quisquam",
-  "QuantityUnit": "exercitationem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "delectus",
-  "DefaultSubscriptionQuantity": 11144.503999999999,
-  "ItemNumber": "554202",
+  "ProductId": 284,
+  "ERPProductKey": "perferendis",
+  "ERPPriceListKey": "totam",
+  "Name": "Kuhn, Heaney and Weimann",
+  "Description": "Re-engineered demand-driven extranet",
+  "Code": "ea",
+  "PriceUnit": "autem",
+  "QuantityUnit": "cupiditate",
+  "IsSubscription": false,
+  "SubscriptionUnit": "sequi",
+  "DefaultSubscriptionQuantity": 2447.654,
+  "ItemNumber": "725516",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "esse",
-  "ProductTypeKey": "sunt",
-  "VAT": 20863.038,
-  "VATInfo": "dignissimos",
-  "UnitCost": 24905.897999999997,
-  "UnitMinimumPrice": 14206.421999999999,
-  "UnitListPrice": 1836.524,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "dolore",
+  "VAT": 23655.432,
+  "VATInfo": "ullam",
+  "UnitCost": 27942.744,
+  "UnitMinimumPrice": 26062.344,
+  "UnitListPrice": 26676.608,
   "InAssortment": true,
-  "Supplier": "reprehenderit",
-  "SupplierCode": "enim",
-  "Rights": "et",
-  "Rule": "illo",
+  "Supplier": "excepturi",
+  "SupplierCode": "perspiciatis",
+  "Rights": "est",
+  "Rule": "animi",
   "ExtraInfo": [
     {
-      "Name": "Mayer, Wilkinson and Wyman",
-      "Value": "voluptatem",
+      "Name": "Gorczany-Hodkiewicz",
+      "Value": "consectetur",
       "Type": "Image"
     },
     {
-      "Name": "Mayer, Wilkinson and Wyman",
-      "Value": "voluptatem",
+      "Name": "Gorczany-Hodkiewicz",
+      "Value": "consectetur",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "voluptatibus",
-  "ExtraField1": "repellendus",
-  "ExtraField2": "et",
-  "ExtraField3": "nihil",
-  "ExtraField4": "accusantium",
-  "ExtraField5": "in",
-  "InStock": 4547.434
+  "RawExtraInfo": "sequi",
+  "ExtraField1": "accusantium",
+  "ExtraField2": "saepe",
+  "ExtraField3": "rerum",
+  "ExtraField4": "impedit",
+  "ExtraField5": "est",
+  "InStock": 3892.428
 }
 ```
 
@@ -203,35 +203,35 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 487,
-  "ERPProductKey": "cumque",
-  "ERPPriceListKey": "tenetur",
-  "Name": "Ondricka-Hackett",
-  "Description": "Upgradable empowering success",
-  "Code": "dolor",
-  "PriceUnit": "blanditiis",
-  "QuantityUnit": "dicta",
+  "ProductId": 965,
+  "ERPProductKey": "aut",
+  "ERPPriceListKey": "ex",
+  "Name": "Pfeffer-Hagenes",
+  "Description": "Operative intermediate implementation",
+  "Code": "rem",
+  "PriceUnit": "voluptatibus",
+  "QuantityUnit": "eveniet",
   "IsSubscription": false,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 14488.482,
-  "ItemNumber": "1346419",
+  "SubscriptionUnit": "nemo",
+  "DefaultSubscriptionQuantity": 17497.122,
+  "ItemNumber": "1571723",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "incidunt",
-  "ProductTypeKey": "architecto",
-  "VAT": 29581.825999999997,
-  "VATInfo": "reprehenderit",
-  "UnitCost": 14457.142,
-  "UnitMinimumPrice": 27949.012,
-  "UnitListPrice": 476.368,
-  "InAssortment": true,
-  "Supplier": "quidem",
-  "SupplierCode": "aut",
-  "Rights": "inventore",
-  "Rule": "est",
+  "ProductFamilyKey": "asperiores",
+  "ProductTypeKey": "reprehenderit",
+  "VAT": 29440.796,
+  "VATInfo": "magni",
+  "UnitCost": 282.06,
+  "UnitMinimumPrice": 18832.206,
+  "UnitListPrice": 8859.818,
+  "InAssortment": false,
+  "Supplier": "est",
+  "SupplierCode": "maiores",
+  "Rights": "itaque",
+  "Rule": "deleniti",
   "ExtraInfo": [
     {
-      "Name": "Konopelski, Smith and Weimann",
+      "Name": "Schoen LLC",
       "Value": "est",
       "Type": "Image",
       "TableRight": null,
@@ -239,12 +239,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldLength": 587
         }
       }
     },
     {
-      "Name": "Konopelski, Smith and Weimann",
+      "Name": "Schoen LLC",
       "Value": "est",
       "Type": "Image",
       "TableRight": null,
@@ -252,24 +252,24 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldLength": 587
         }
       }
     }
   ],
-  "RawExtraInfo": "ea",
-  "ExtraField1": "in",
-  "ExtraField2": "eum",
-  "ExtraField3": "sed",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "quia",
-  "InStock": 288.328,
+  "RawExtraInfo": "similique",
+  "ExtraField1": "occaecati",
+  "ExtraField2": "dolor",
+  "ExtraField3": "et",
+  "ExtraField4": "a",
+  "ExtraField5": "autem",
+  "InStock": 13244.284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 111
     }
   }
 }

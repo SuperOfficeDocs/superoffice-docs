@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Blanda, Waelchi and Thompson",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "UdListDefinitionId": 505,
-    "Rank": 886
+    "Id": 925,
+    "Name": "Medhurst, Bogisich and Lesch",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "UdListDefinitionId": 941,
+    "Rank": 837
   },
   {
-    "Id": 126,
-    "Name": "Blanda, Waelchi and Thompson",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "UdListDefinitionId": 505,
-    "Rank": 886
+    "Id": 925,
+    "Name": "Medhurst, Bogisich and Lesch",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "UdListDefinitionId": 941,
+    "Rank": 837
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Schultz, Kunde and Koch",
-    "Tooltip": "nisi",
+    "Id": 155,
+    "Name": "Goldner Inc and Sons",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 486,
-    "Rank": 940,
+    "UdListDefinitionId": 428,
+    "Rank": 36,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 739
       }
     }
   }

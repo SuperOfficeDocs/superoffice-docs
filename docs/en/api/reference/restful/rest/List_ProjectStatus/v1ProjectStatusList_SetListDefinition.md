@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Breitenberg Group",
-  "Tooltip": "ullam",
+  "Id": 51,
+  "Name": "Bruen, Keebler and Marvin",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "Rank": 207,
+  "Rank": 688,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Veum-Mayer",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 507,
+  "Id": 165,
+  "Name": "Kilback, Dooley and Prohaska",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "Rank": 594,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "maxime",
+  "UseGroupsAndHeadings": false,
+  "ListType": "deleniti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldType": "System.Int32",
+      "FieldLength": 721
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 26,
-  "WorkflowId": 984,
+  "WorkflowTriggerId": 945,
+  "WorkflowId": 82,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Klein, Senger and Murray",
-      "Description": "Re-engineered bandwidth-monitored middleware",
-      "Rank": 357,
+      "Name": "Adams, Schneider and Wuckert",
+      "Description": "Persevering mission-critical array",
+      "Rank": 51,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Klein, Senger and Murray",
-      "Description": "Re-engineered bandwidth-monitored middleware",
-      "Rank": 357,
+      "Name": "Adams, Schneider and Wuckert",
+      "Description": "Persevering mission-critical array",
+      "Rank": 51,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

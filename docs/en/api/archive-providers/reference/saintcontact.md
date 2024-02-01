@@ -730,7 +730,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=sale/amount,sale/nextDueDate,document/associate/role,document/associate/isActiveText,ticketPriority
+GET /api/v1/archive/SaintContact?$select=sourceRelation/countryId,sourceRelation/csRelation,sale/competitor,sale/stageRank,sale/saleUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

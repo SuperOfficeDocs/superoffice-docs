@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bradtke-Jacobs",
-    "DisplayName": "Walker Group",
-    "DisplayTooltip": "odit",
+    "Name": "Raynor, Borer and Cummings",
+    "DisplayName": "Feeney-Kunze",
+    "DisplayTooltip": "velit",
     "IsActive": true
   },
   {
-    "Name": "Bradtke-Jacobs",
-    "DisplayName": "Walker Group",
-    "DisplayTooltip": "odit",
+    "Name": "Raynor, Borer and Cummings",
+    "DisplayName": "Feeney-Kunze",
+    "DisplayTooltip": "velit",
     "IsActive": true
   }
 ]

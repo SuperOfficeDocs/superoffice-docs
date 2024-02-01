@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wehner Inc and Sons",
-  "DeviceName": "Parisian-Kutch"
+  "ApplicationName": "Kirlin LLC",
+  "DeviceName": "Treutel-Cummerata"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "aut",
-    "Value": "quis",
-    "RecordId": 722,
-    "CreatedDate": "2011-04-26T13:57:12.4337359+02:00",
-    "UpdatedDate": "2010-12-21T13:57:12.4337359+01:00",
-    "UpdatedBy": "alias",
-    "CreatedBy": "nam",
-    "TableName": "Greenfelder-Cremin",
+    "Key": "ipsam",
+    "Value": "possimus",
+    "RecordId": 342,
+    "CreatedDate": "2009-01-31T23:03:56.123127+01:00",
+    "UpdatedDate": "2007-09-24T23:03:56.123127+02:00",
+    "UpdatedBy": "architecto",
+    "CreatedBy": "nesciunt",
+    "TableName": "Hettinger Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 468
       }
     }
   }

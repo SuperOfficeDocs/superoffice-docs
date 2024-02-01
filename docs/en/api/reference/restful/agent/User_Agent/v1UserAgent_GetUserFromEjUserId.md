@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 633
+  "EjUserId": 47
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 156,
-    "Name": "Dach, Veum and Cartwright",
-    "Rank": 750,
-    "Tooltip": "illo",
+    "AssociateId": 70,
+    "Name": "Runolfsdottir Group",
+    "Rank": 528,
+    "Tooltip": "quis",
     "LicenseOwners": [
       {
-        "Name": "Wintheiser Group",
-        "Description": "Balanced global paradigm",
+        "Name": "Keeling, Cartwright and Mante",
+        "Description": "Re-contextualized actuating leverage",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldLength": 908
           }
         }
       },
       {
-        "Name": "Wintheiser Group",
-        "Description": "Balanced global paradigm",
+        "Name": "Keeling, Cartwright and Mante",
+        "Description": "Re-contextualized actuating leverage",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldLength": 908
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "beatae",
-        "Tooltip": "placeat",
-        "Id": 108,
-        "Rank": 27,
-        "Deleted": false,
+        "Value": "veritatis",
+        "Tooltip": "nihil",
+        "Id": 163,
+        "Rank": 296,
+        "Deleted": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 831
+            "FieldLength": 346
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2013-05-28T13:57:13.583338+02:00",
-    "Lastlogout": "2011-01-12T13:57:13.583338+01:00",
-    "EjUserId": 28,
-    "RequestSignature": "voluptatem",
+    "Lastlogin": "2004-10-06T23:03:57.6221069+02:00",
+    "Lastlogout": "2001-02-20T23:03:57.6221069+01:00",
+    "EjUserId": 814,
+    "RequestSignature": "corporis",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
+    "IsPersonRetired": false,
     "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "mollitia",
-        "DisplayValue": "voluptate",
+        "Value": "suscipit",
+        "DisplayValue": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 921
+            "FieldType": "System.Int32",
+            "FieldLength": 785
           }
         }
       },
       {
         "Type": null,
-        "Value": "mollitia",
-        "DisplayValue": "voluptate",
+        "Value": "suscipit",
+        "DisplayValue": "excepturi",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 785
+          }
+        }
+      }
+    ],
+    "UserName": "Wisozk, Leuschke and Dach",
+    "TicketCategories": [
+      {
+        "Id": 130,
+        "Name": "Connelly, Kreiger and Lindgren",
+        "ToolTip": "Est doloremque aspernatur iusto magnam.",
+        "Deleted": true,
+        "Rank": 451,
+        "Type": "est",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "sit",
+        "ColorBlock": 905,
+        "ExtraInfo": "esse",
+        "StyleHint": "quas",
+        "FullName": "Jodie Kuhlman",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 544
+          }
+        }
+      }
+    ],
+    "NickName": "Bernhard Inc and Sons",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "vel",
+      "ExtraFields2": "quis"
+    },
+    "CustomFields": {
+      "CustomFields1": "est",
+      "CustomFields2": "rerum"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Cremin, Lebsack and Little",
+        "DisplayName": "Deckow LLC",
+        "Description": "Front-line empowering portal",
+        "ToolTip": "Excepturi illo a ut ex atque.",
+        "Actions": "Implicit",
+        "ActionData": "possimus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 921
-          }
-        }
-      }
-    ],
-    "UserName": "D'Amore Inc and Sons",
-    "TicketCategories": [
-      {
-        "Id": 466,
-        "Name": "Baumbach, Leuschke and Streich",
-        "ToolTip": "Suscipit sunt quia.",
-        "Deleted": true,
-        "Rank": 292,
-        "Type": "quo",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "nihil",
-        "ColorBlock": 149,
-        "ExtraInfo": "est",
-        "StyleHint": "molestiae",
-        "FullName": "Miss Orval Ryan",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 566
-          }
-        }
-      }
-    ],
-    "NickName": "Stamm, Stracke and Tremblay",
-    "WaitingForApproval": true,
-    "ExtraFields": {
-      "ExtraFields1": "id",
-      "ExtraFields2": "aut"
-    },
-    "CustomFields": {
-      "CustomFields1": "eum",
-      "CustomFields2": "sed"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Mueller-Hermann",
-        "DisplayName": "Swift, Lynch and Schamberger",
-        "Description": "Programmable responsive success",
-        "ToolTip": "Aut maxime optio.",
-        "Actions": "Implicit",
-        "ActionData": "nostrum",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 702
           }
         }
       }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 345
+        "FieldType": "System.Int32",
+        "FieldLength": 633
       }
     }
   }

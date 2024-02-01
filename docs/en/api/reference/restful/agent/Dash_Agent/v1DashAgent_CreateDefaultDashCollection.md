@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 657,
-      "UniqueId": "facilis",
-      "Name": "Wisozk-Crona",
-      "Description": "Universal hybrid analyzer",
-      "AssociateId": 183,
-      "Columns": 982,
+      "DashboardId": 217,
+      "UniqueId": "perferendis",
+      "Name": "Mitchell, Mohr and Wuckert",
+      "Description": "Profound static internet solution",
+      "AssociateId": 766,
+      "Columns": 17,
       "Theme": null,
-      "VisibleForAll": 825,
+      "VisibleForAll": 126,
       "VisibleForAssociates": [
-        521,
-        960
+        774,
+        133
       ],
       "VisibleForGroups": [
-        990,
-        212
+        145,
+        842
       ],
-      "PinForAll": 105,
+      "PinForAll": 84,
       "PinForAssociates": [
-        791,
-        915
+        831,
+        733
       ],
       "PinForGroups": [
-        985,
-        179
+        660,
+        698
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 688
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 792,
-      "UniqueId": "expedita",
-      "Name": "Luettgen, Ryan and Bruen",
-      "Description": "User-friendly hybrid protocol",
-      "AssociateId": 764,
-      "Columns": 725,
+      "DashboardId": 236,
+      "UniqueId": "exercitationem",
+      "Name": "D'Amore, Abbott and Marks",
+      "Description": "Pre-emptive next generation internet solution",
+      "AssociateId": 17,
+      "Columns": 184,
       "Theme": null,
-      "VisibleForAll": 342,
+      "VisibleForAll": 394,
       "VisibleForAssociates": [
-        151,
-        234
+        621,
+        483
       ],
       "VisibleForGroups": [
-        807,
-        294
+        293,
+        852
       ],
-      "PinForAll": 474,
+      "PinForAll": 825,
       "PinForAssociates": [
-        922,
-        938
+        526,
+        996
       ],
       "PinForGroups": [
-        231,
-        548
+        903,
+        989
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldLength": 769
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 926,
-      "UniqueId": "incidunt",
-      "Name": "Yundt-Treutel",
-      "Description": "Future-proofed analyzing secured line",
-      "AssociateId": 400,
-      "Columns": 167,
+      "DashboardId": 146,
+      "UniqueId": "quia",
+      "Name": "Kulas Group",
+      "Description": "Universal full-range leverage",
+      "AssociateId": 974,
+      "Columns": 645,
       "Theme": null,
-      "VisibleForAll": 521,
+      "VisibleForAll": 956,
       "VisibleForAssociates": [
-        968,
-        128
+        173,
+        205
       ],
       "VisibleForGroups": [
-        971,
-        542
+        561,
+        581
       ],
-      "PinForAll": 848,
+      "PinForAll": 128,
       "PinForAssociates": [
-        678,
-        844
+        446,
+        351
       ],
       "PinForGroups": [
-        605,
-        1002
+        620,
+        987
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldType": "System.String",
+          "FieldLength": 902
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 991
     }
   }
 }

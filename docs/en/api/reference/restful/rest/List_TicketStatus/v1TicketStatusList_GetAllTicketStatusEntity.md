@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 488,
-    "Name": "Tromp Inc and Sons",
+    "TicketStatusId": 771,
+    "Name": "Jenkins-Torphy",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
     "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

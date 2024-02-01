@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    726,
-    639
+    577,
+    121
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 367,
-    "MessageId": "qui",
-    "Subject": "nihil",
+    "ServerId": 877,
+    "MessageId": "eligendi",
+    "Subject": "accusamus",
     "From": null,
     "To": [
       {
-        "ContactId": 20,
-        "ContactName": "Pouros LLC",
-        "PersonId": 237,
-        "PersonName": "Lowe Inc and Sons",
-        "AssociateId": 486,
-        "Address": "quia",
-        "EmailId": 593,
+        "ContactId": 243,
+        "ContactName": "Kessler-Abbott",
+        "PersonId": 848,
+        "PersonName": "Bednar-Mante",
+        "AssociateId": 990,
+        "Address": "quas",
+        "EmailId": 261,
         "DuplicatePersonIds": [
-          612,
-          401
+          266,
+          396
         ],
-        "Name": "Marks, Zieme and Rath",
+        "Name": "Casper, West and Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 635
+            "FieldType": "System.Int32",
+            "FieldLength": 908
           }
         }
       }
     ],
-    "Sent": "2023-08-25T13:57:12.3243156+02:00",
+    "Sent": "1997-07-01T23:03:55.9966311+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 12,
+    "Size": 852,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 733
+        "FieldLength": 501
       }
     }
   }

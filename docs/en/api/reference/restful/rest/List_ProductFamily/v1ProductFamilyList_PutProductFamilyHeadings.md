@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 308,
-    "Name": "Armstrong, Prohaska and Douglas",
-    "Tooltip": "id",
+    "HeadingId": 171,
+    "Name": "Funk Group",
+    "Tooltip": "perspiciatis",
     "Deleted": false,
-    "Rank": 774,
-    "UdListDefinitionId": 813
+    "Rank": 333,
+    "UdListDefinitionId": 750
   },
   {
-    "HeadingId": 308,
-    "Name": "Armstrong, Prohaska and Douglas",
-    "Tooltip": "id",
+    "HeadingId": 171,
+    "Name": "Funk Group",
+    "Tooltip": "perspiciatis",
     "Deleted": false,
-    "Rank": 774,
-    "UdListDefinitionId": 813
+    "Rank": 333,
+    "UdListDefinitionId": 750
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 547,
-    "Name": "Weber-Crist",
-    "Tooltip": "et",
+    "HeadingId": 857,
+    "Name": "Turcotte, Bradtke and Schmeler",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 199,
-    "UdListDefinitionId": 112,
+    "Rank": 290,
+    "UdListDefinitionId": 812,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 907
       }
     }
   }

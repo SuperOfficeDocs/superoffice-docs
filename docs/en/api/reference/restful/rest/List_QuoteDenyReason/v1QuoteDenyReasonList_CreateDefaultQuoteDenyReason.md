@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 59,
-  "Name": "Metz-Wintheiser",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "UdListDefinitionId": 13,
-  "Rank": 532,
+  "Id": 236,
+  "Name": "Veum, Kulas and Collier",
+  "Tooltip": "ipsa",
+  "Deleted": false,
+  "UdListDefinitionId": 291,
+  "Rank": 380,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 737
     }
   }
 }

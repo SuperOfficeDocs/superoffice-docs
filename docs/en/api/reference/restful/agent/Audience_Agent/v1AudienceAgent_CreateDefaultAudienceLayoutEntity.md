@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 877,
-  "InstanceLayout": "sint",
-  "InstanceName": "Zboncak-VonRueden",
-  "CreatedDate": "2009-12-21T13:57:11.5438073+01:00",
-  "UpdatedDate": "2015-01-29T13:57:11.5438073+01:00",
+  "AudienceLayoutId": 917,
+  "InstanceLayout": "pariatur",
+  "InstanceName": "Schamberger Group",
+  "CreatedDate": "1998-03-05T23:03:54.999142+01:00",
+  "UpdatedDate": "2003-08-31T23:03:54.999142+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 936
     }
   }
 }

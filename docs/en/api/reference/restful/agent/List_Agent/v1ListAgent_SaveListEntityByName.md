@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/List/SaveListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hintz-Stanton",
+  "Name": "Mayer Group",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Wilkinson LLC",
-  "Tooltip": "nulla",
+  "Id": 318,
+  "Name": "McLaughlin-Kshlerin",
+  "Tooltip": "laboriosam",
   "Deleted": true,
-  "Rank": 315,
+  "Rank": 714,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": false,
+  "ListType": "officia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 575
     }
   }
 }

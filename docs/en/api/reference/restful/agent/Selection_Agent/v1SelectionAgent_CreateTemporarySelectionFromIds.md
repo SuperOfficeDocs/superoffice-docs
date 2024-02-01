@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    413,
-    595
+    323,
+    273
   ],
-  "TargetTableNumber": 344
+  "TargetTableNumber": 436
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked bandwidth-monitored framework",
-  "Postit": "id",
+  "Description": "Organic stable customer loyalty",
+  "Postit": "necessitatibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 442,
-  "IncludePerson": 891,
-  "MemberCount": 13,
-  "Name": "Wiza Group",
-  "PostitTextId": 666,
-  "CreatedDate": "2004-01-11T13:57:13.2384042+01:00",
-  "SelectionId": 52,
-  "SoundEx": "debitis",
-  "Source": 811,
-  "TextId": 862,
-  "UpdatedDate": "2016-08-23T13:57:13.2384042+02:00",
-  "UpdatedCount": 141,
-  "Visibility": 826,
+  "GroupIdx": 388,
+  "IncludePerson": 758,
+  "MemberCount": 665,
+  "Name": "Deckow, Reynolds and McClure",
+  "PostitTextId": 53,
+  "CreatedDate": "2021-07-28T23:03:57.1451152+02:00",
+  "SelectionId": 78,
+  "SoundEx": "suscipit",
+  "Source": 136,
+  "TextId": 557,
+  "UpdatedDate": "2001-11-01T23:03:57.1451152+01:00",
+  "UpdatedCount": 453,
+  "Visibility": 854,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 443,
-  "TargetTableName": "Ankunding, Gusikowski and Skiles",
+  "TargetTableNumber": 461,
+  "TargetTableName": "Ryan Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 536,
-  "RightSelectionId": 470,
+  "LeftSelectionId": 527,
+  "RightSelectionId": 31,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gulgowski-Swaniawski",
-  "ShadowProviderName": "Schulist, Schinner and Powlowski",
-  "ChartKey": "magnam",
-  "LastLoaded": "2011-01-20T13:57:13.2384042+01:00",
-  "LastLoadedBy": 1001,
+  "MainProviderName": "Kautzer, Wiza and Koch",
+  "ShadowProviderName": "Lowe LLC",
+  "ChartKey": "dignissimos",
+  "LastLoaded": "2011-05-20T23:03:57.1451152+02:00",
+  "LastLoadedBy": 436,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-07-20T13:57:13.2384042+02:00",
-  "LastMembershipChangeBy": 829,
+  "LastMembershipChange": "2017-09-09T23:03:57.1456159+02:00",
+  "LastMembershipChangeBy": 821,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Abshire, Weber and Bahringer",
-  "DashboardTileDefinitionId": 666,
+  "MainHeading": "dolores",
+  "MemberTabHeading": "cupiditate",
+  "MailingsProviderName": "Keebler-Moore",
+  "DashboardTileDefinitionId": 256,
   "VisibleFor": [
     {
-      "VisibleId": 208,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldLength": 176
         }
       }
     },
     {
-      "VisibleId": 208,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldLength": 176
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 867
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=non
+GET /api/v1/List/LegalBase/MDOItems?query=molestiae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Ebert, Kling and Stiedemann",
-    "ToolTip": "Provident in atque rem.",
-    "Deleted": false,
-    "Rank": 565,
-    "Type": "in",
+    "Id": 888,
+    "Name": "Botsford-Bosco",
+    "ToolTip": "Recusandae minus rerum consequatur.",
+    "Deleted": true,
+    "Rank": 568,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Klocko Inc and Sons",
-        "ToolTip": "Autem quisquam qui tempora sunt omnis.",
+        "Id": 665,
+        "Name": "Wintheiser Inc and Sons",
+        "ToolTip": "Cum odit necessitatibus veniam tempora inventore ipsum quas.",
         "Deleted": false,
-        "Rank": 372,
-        "Type": "ad",
+        "Rank": 475,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quod",
-        "ColorBlock": 548,
-        "ExtraInfo": "et",
-        "StyleHint": "est",
-        "FullName": "Tabitha Runolfsdottir",
+        "IconHint": "officia",
+        "ColorBlock": 881,
+        "ExtraInfo": "ab",
+        "StyleHint": "repudiandae",
+        "FullName": "Ocie Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldLength": 849
           }
         }
       }
     ],
-    "IconHint": "debitis",
-    "ColorBlock": 942,
-    "ExtraInfo": "natus",
-    "StyleHint": "possimus",
-    "FullName": "Carmine Ova Carter PhD",
+    "IconHint": "beatae",
+    "ColorBlock": 640,
+    "ExtraInfo": "quis",
+    "StyleHint": "numquam",
+    "FullName": "Treva Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 335
       }
     }
   }

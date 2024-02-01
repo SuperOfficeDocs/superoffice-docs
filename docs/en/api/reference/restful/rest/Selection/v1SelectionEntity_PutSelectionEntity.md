@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered heuristic system engine",
-  "Postit": "sit",
+  "Description": "Stand-alone homogeneous adapter",
+  "Postit": "cumque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 335,
-  "IncludePerson": 160,
-  "MemberCount": 550,
-  "Name": "Bailey, Kiehn and Wintheiser",
-  "PostitTextId": 763,
-  "CreatedDate": "2008-08-18T13:57:19.2658995+02:00",
-  "SelectionId": 550,
-  "SoundEx": "ipsa",
-  "Source": 252,
-  "TextId": 683,
-  "UpdatedDate": "2023-02-06T13:57:19.2658995+01:00",
-  "UpdatedCount": 818,
-  "Visibility": 66,
+  "GroupIdx": 518,
+  "IncludePerson": 945,
+  "MemberCount": 521,
+  "Name": "O'Keefe-Ziemann",
+  "PostitTextId": 267,
+  "CreatedDate": "2019-07-12T23:04:04.7795103+02:00",
+  "SelectionId": 899,
+  "SoundEx": "non",
+  "Source": 350,
+  "TextId": 691,
+  "UpdatedDate": "2001-08-19T23:04:04.7795103+02:00",
+  "UpdatedCount": 778,
+  "Visibility": 175,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 576,
-  "TargetTableName": "Bednar, VonRueden and Powlowski",
-  "Completed": false,
-  "LeftSelectionId": 797,
-  "RightSelectionId": 327,
+  "CompanyUnique": true,
+  "TargetTableNumber": 990,
+  "TargetTableName": "Gaylord-Crooks",
+  "Completed": true,
+  "LeftSelectionId": 781,
+  "RightSelectionId": 401,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Batz, Graham and Mueller",
-  "ShadowProviderName": "Spencer, Flatley and Torphy",
-  "ChartKey": "sunt",
-  "LastLoaded": "2018-01-31T13:57:19.2658995+01:00",
-  "LastLoadedBy": 857,
+  "MainProviderName": "Walter-Toy",
+  "ShadowProviderName": "Maggio, Sauer and Beahan",
+  "ChartKey": "velit",
+  "LastLoaded": "2023-04-01T23:04:04.7800091+02:00",
+  "LastLoadedBy": 245,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-01-15T13:57:19.2658995+01:00",
-  "LastMembershipChangeBy": 653,
+  "LastMembershipChange": "1998-05-20T23:04:04.7800091+02:00",
+  "LastMembershipChangeBy": 193,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "libero",
-  "MemberTabHeading": "amet",
-  "MailingsProviderName": "Cronin LLC",
-  "DashboardTileDefinitionId": 627,
+  "MainHeading": "optio",
+  "MemberTabHeading": "ex",
+  "MailingsProviderName": "Eichmann-Bergstrom",
+  "DashboardTileDefinitionId": 8,
   "VisibleFor": [
     {
-      "VisibleId": 766,
+      "VisibleId": 407,
       "Visibility": "All",
-      "DisplayValue": "sed"
+      "DisplayValue": "accusamus"
     },
     {
-      "VisibleId": 766,
+      "VisibleId": 407,
       "Visibility": "All",
-      "DisplayValue": "sed"
+      "DisplayValue": "accusamus"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reverse-engineered composite help-desk",
-  "Postit": "quas",
+  "Description": "Automated real-time conglomeration",
+  "Postit": "repellendus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 831,
-  "IncludePerson": 868,
-  "MemberCount": 242,
-  "Name": "Russel-Lueilwitz",
-  "PostitTextId": 235,
-  "CreatedDate": "2005-08-10T13:57:19.2658995+02:00",
-  "SelectionId": 364,
-  "SoundEx": "dolor",
-  "Source": 667,
-  "TextId": 822,
-  "UpdatedDate": "2013-12-12T13:57:19.2658995+01:00",
-  "UpdatedCount": 474,
-  "Visibility": 226,
+  "GroupIdx": 188,
+  "IncludePerson": 340,
+  "MemberCount": 297,
+  "Name": "Hartmann-Boyer",
+  "PostitTextId": 99,
+  "CreatedDate": "2002-03-29T23:04:04.7845088+01:00",
+  "SelectionId": 661,
+  "SoundEx": "laboriosam",
+  "Source": 510,
+  "TextId": 403,
+  "UpdatedDate": "2021-02-05T23:04:04.7845088+01:00",
+  "UpdatedCount": 382,
+  "Visibility": 956,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 845,
-  "TargetTableName": "Wisozk-Haley",
+  "TargetTableNumber": 424,
+  "TargetTableName": "Haag, Predovic and Kunde",
   "Completed": false,
-  "LeftSelectionId": 141,
-  "RightSelectionId": 156,
+  "LeftSelectionId": 438,
+  "RightSelectionId": 357,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmeler Group",
-  "ShadowProviderName": "Dare, Rau and Strosin",
-  "ChartKey": "esse",
-  "LastLoaded": "2018-08-30T13:57:19.2658995+02:00",
-  "LastLoadedBy": 654,
+  "MainProviderName": "Mertz, Rice and Wunsch",
+  "ShadowProviderName": "McKenzie Group",
+  "ChartKey": "beatae",
+  "LastLoaded": "1999-07-14T23:04:04.7845088+02:00",
+  "LastLoadedBy": 958,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-04-15T13:57:19.2658995+02:00",
-  "LastMembershipChangeBy": 948,
+  "LastMembershipChange": "2006-08-22T23:04:04.7855106+02:00",
+  "LastMembershipChangeBy": 6,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "illum",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Rodriguez-Dooley",
-  "DashboardTileDefinitionId": 659,
+  "MainHeading": "at",
+  "MemberTabHeading": "tempora",
+  "MailingsProviderName": "Wilderman-McLaughlin",
+  "DashboardTileDefinitionId": 725,
   "VisibleFor": [
     {
-      "VisibleId": 249,
+      "VisibleId": 488,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 257
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     },
     {
-      "VisibleId": 249,
+      "VisibleId": 488,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 257
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
@@ -299,12 +299,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 831
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

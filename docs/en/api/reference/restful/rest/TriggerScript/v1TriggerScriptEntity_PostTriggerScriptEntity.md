@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 246,
-  "Name": "Kuhic-Becker",
+  "ScreenChooserId": 354,
+  "Name": "Crona, Pouros and Gottlieb",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "eaque",
-  "Registered": "1997-05-02T13:57:19.4221461+02:00",
-  "RegisteredAssociateId": 283,
-  "Updated": "2018-06-26T13:57:19.4221461+02:00",
-  "UpdatedAssociateId": 860
+  "UniqueIdentifier": "vitae",
+  "Source": "qui",
+  "Registered": "2006-04-02T23:04:04.9960139+02:00",
+  "RegisteredAssociateId": 224,
+  "Updated": "2002-11-18T23:04:04.9960139+01:00",
+  "UpdatedAssociateId": 243
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 357,
-  "Name": "Hegmann, Douglas and Torp",
+  "ScreenChooserId": 606,
+  "Name": "Schmitt LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "non",
-  "Source": "unde",
-  "Registered": "2002-02-07T13:57:19.4221461+01:00",
-  "RegisteredAssociateId": 458,
-  "Updated": "2008-11-09T13:57:19.4221461+01:00",
-  "UpdatedAssociateId": 636,
+  "UniqueIdentifier": "et",
+  "Source": "voluptatibus",
+  "Registered": "2015-10-07T23:04:04.9970084+02:00",
+  "RegisteredAssociateId": 659,
+  "Updated": "2006-03-12T23:04:04.9970084+01:00",
+  "UpdatedAssociateId": 282,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 666
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

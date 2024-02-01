@@ -25,7 +25,7 @@ Gets all the Position items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Position/Items?includeDeleted=True
+GET /api/v1/List/Position/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Dare Inc and Sons",
-    "Tooltip": "rerum",
+    "Id": 154,
+    "Name": "Sauer Group",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "UdListDefinitionId": 369,
-    "Rank": 567,
+    "UdListDefinitionId": 194,
+    "Rank": 792,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 755
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

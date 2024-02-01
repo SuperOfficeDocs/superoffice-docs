@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Schultz, Becker and Veum",
-  "ResourceValues": "et",
-  "Culture": "distinctio",
-  "IsActive": false
+  "ResourceName": "Ernser-Goldner",
+  "ResourceValues": "enim",
+  "Culture": "asperiores",
+  "IsActive": true
 }
 ```
 

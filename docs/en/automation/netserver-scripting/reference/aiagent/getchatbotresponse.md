@@ -14,10 +14,12 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAIAgent.Ge
 ## BeforeGetChatbotResponse
 ```cs
     static void BeforeGetChatbotResponse(
+       String  chatId,
        String  isoLangCode,
        String  userPrompt,
        String  displayValue,
        ChatbotTurn[]  previousTurns,
+       String  apiUrl,
        ref object  eventState
       );
 ```
@@ -28,10 +30,12 @@ Event state is not preserved between different service calls. It is set to null 
 ## AfterGetChatbotResponse
 ```cs
     static void AfterGetChatbotResponse(
+       String  chatId,
        String  isoLangCode,
        String  userPrompt,
        String  displayValue,
        ChatbotTurn[]  previousTurns,
+       String  apiUrl,
        ref ChatbotTurn  returnValue,
        ref object  eventState
       );
@@ -42,10 +46,12 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ## AfterGetChatbotResponseAsync
 ```cs
     static void AfterGetChatbotResponseAsync(
+       String  chatId,
        String  isoLangCode,
        String  userPrompt,
        String  displayValue,
        ChatbotTurn[]  previousTurns,
+       String  apiUrl,
        ref ChatbotTurn  returnValue,
        ref object  eventState
       );

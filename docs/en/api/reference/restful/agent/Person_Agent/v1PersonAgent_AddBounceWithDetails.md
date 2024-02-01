@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "patricia_kemmer@bernhardjacobi.name",
-  "Counts": 292,
-  "Code": 671,
-  "Reason": ""
+  "EmailAddress": "oma.gleichner@kessler.co.uk",
+  "Counts": 865,
+  "Code": 541,
+  "Reason": "architect global technologies"
 }
 ```
 

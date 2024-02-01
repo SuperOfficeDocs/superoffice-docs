@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Nolan, Murphy and Lubowitz",
-    "ToolTip": "Qui commodi impedit ex dolorem atque quasi et.",
+    "Id": 391,
+    "Name": "Leannon Inc and Sons",
+    "ToolTip": "Non veritatis ad dolorem.",
     "Deleted": false,
-    "Rank": 609,
-    "Type": "hic",
-    "ColorBlock": 488,
-    "IconHint": "ut",
+    "Rank": 685,
+    "Type": "quam",
+    "ColorBlock": 277,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2010-08-21T13:57:19.7658931+02:00",
+    "LastChanged": "2007-07-16T23:04:05.4794997+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Kessler, Wilderman and Champlin",
-        "ToolTip": "Laboriosam molestiae nesciunt quia eligendi.",
-        "Deleted": true,
-        "Rank": 494,
-        "Type": "omnis",
-        "ColorBlock": 745,
-        "IconHint": "et",
+        "Id": 993,
+        "Name": "Crooks-Grant",
+        "ToolTip": "Enim molestiae nam.",
+        "Deleted": false,
+        "Rank": 351,
+        "Type": "hic",
+        "ColorBlock": 62,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2021-07-29T13:57:19.7658931+02:00",
+        "LastChanged": "2023-12-01T23:04:05.4794997+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Kara Nikolaus",
+        "ExtraInfo": "vitae",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Crystel Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 888
+            "FieldLength": 348
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Aleen Murray",
+    "FullName": "Noemie Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 192
       }
     }
   }

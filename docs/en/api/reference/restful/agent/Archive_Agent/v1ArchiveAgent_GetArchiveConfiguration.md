@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kub, Shields and Kertzmann",
-  "ProviderName": "Hessel, Hettinger and Wehner"
+  "GuiName": "Pfannerstill-Boyer",
+  "ProviderName": "Kohler Group"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Keebler Group",
-      "DisplayTooltip": "eaque",
-      "DisplayType": "error",
+      "DisplayName": "Nitzsche, Gusikowski and Marks",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "ipsam",
       "CanOrderBy": false,
-      "Name": "Hessel LLC",
+      "Name": "Bosco, Homenick and Dicki",
       "CanRestrictBy": false,
-      "RestrictionType": "amet",
-      "RestrictionListName": "Runolfsdottir Group",
-      "IsVisible": false,
-      "ExtraInfo": "id",
-      "Width": "adipisci",
-      "IconHint": "perferendis",
-      "HeadingIconHint": "aut"
+      "RestrictionType": "assumenda",
+      "RestrictionListName": "Nicolas-Cremin",
+      "IsVisible": true,
+      "ExtraInfo": "qui",
+      "Width": "sit",
+      "IconHint": "quis",
+      "HeadingIconHint": "dolor"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 381,
-      "Name": "Gleason-Kulas",
-      "ToolTip": "Qui perferendis dolorem consequuntur ipsum quaerat.",
+      "Id": 834,
+      "Name": "Bosco, Crona and Roob",
+      "ToolTip": "Qui aspernatur id ipsum.",
       "Deleted": false,
-      "Rank": 309,
-      "Type": "sed",
-      "ColorBlock": 116,
-      "IconHint": "sint",
+      "Rank": 40,
+      "Type": "corporis",
+      "ColorBlock": 546,
+      "IconHint": "beatae",
       "Selected": false,
-      "LastChanged": "2000-05-13T13:57:11.512557+02:00",
+      "LastChanged": "2014-05-07T23:03:54.9611427+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempore",
-      "StyleHint": "voluptatibus",
-      "Hidden": false,
-      "FullName": "Brianne Emard",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Miss Hayley Libby Schaefer Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldType": "System.Int32",
+          "FieldLength": 304
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Boehm, Langosh and Spencer",
+      "Name": "Reilly Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Boehm, Langosh and Spencer",
+      "Name": "Reilly Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "accusamus",
+  "OwnerKeys": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 384
     }
   }
 }

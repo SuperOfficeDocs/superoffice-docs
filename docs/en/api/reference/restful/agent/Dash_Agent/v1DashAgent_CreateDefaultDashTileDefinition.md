@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 37,
-  "Name": "Douglas-Stiedemann",
-  "Description": "Compatible next generation focus group",
-  "DefaultHeight": 87,
-  "DefaultWidth": 7,
+  "DashboardTileDefinitionId": 518,
+  "Name": "Beier Inc and Sons",
+  "Description": "Organized local policy",
+  "DefaultHeight": 18,
+  "DefaultWidth": 188,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Schmeler LLC",
-  "SelectionId": 322,
+  "EntityName": "Reynolds Inc and Sons",
+  "SelectionId": 427,
   "CurrencyMode": "Base",
-  "CurrencyCode": "modi",
+  "CurrencyCode": "nihil",
   "Measure": "Average",
-  "MeasureField": "quasi",
-  "SortBy": "quidem",
-  "LayoutConfig": "debitis",
-  "SecondarySelectionId": 463,
-  "MeasureByField": "corrupti",
+  "MeasureField": "quo",
+  "SortBy": "nisi",
+  "LayoutConfig": "culpa",
+  "SecondarySelectionId": 587,
+  "MeasureByField": "temporibus",
   "Usage": "Dashboard",
-  "ProviderName": "Considine LLC",
+  "ProviderName": "McDermott, Wisozk and Kuvalis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 139
     }
   }
 }

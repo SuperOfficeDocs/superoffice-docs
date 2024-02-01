@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 314,
-  "UniqueId": "adipisci",
-  "Name": "Osinski Group",
-  "Description": "Cross-platform modular migration",
-  "AssociateId": 386,
-  "Columns": 903,
+  "DashboardId": 744,
+  "UniqueId": "odit",
+  "Name": "Gutmann, Yundt and Erdman",
+  "Description": "Expanded non-volatile application",
+  "AssociateId": 213,
+  "Columns": 188,
   "Theme": null,
-  "VisibleForAll": 555,
+  "VisibleForAll": 804,
   "VisibleForAssociates": [
-    787,
-    568
+    590,
+    749
   ],
   "VisibleForGroups": [
-    536,
-    570
+    31,
+    753
   ],
-  "PinForAll": 801,
+  "PinForAll": 401,
   "PinForAssociates": [
-    99,
-    37
+    266,
+    468
   ],
   "PinForGroups": [
-    787,
-    502
+    222,
+    575
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 160,
-  "UniqueId": "maiores",
-  "Name": "D'Amore, Wehner and Jones",
-  "Description": "Re-engineered well-modulated benchmark",
-  "AssociateId": 332,
-  "Columns": 414,
+  "DashboardId": 466,
+  "UniqueId": "amet",
+  "Name": "Smitham, Kohler and Heller",
+  "Description": "Face to face interactive access",
+  "AssociateId": 91,
+  "Columns": 252,
   "Theme": null,
-  "VisibleForAll": 138,
+  "VisibleForAll": 8,
   "VisibleForAssociates": [
-    405,
-    993
+    557,
+    437
   ],
   "VisibleForGroups": [
-    634,
-    630
+    76,
+    11
   ],
-  "PinForAll": 446,
+  "PinForAll": 945,
   "PinForAssociates": [
-    98,
-    909
+    695,
+    56
   ],
   "PinForGroups": [
-    958,
-    524
+    100,
+    829
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 546
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

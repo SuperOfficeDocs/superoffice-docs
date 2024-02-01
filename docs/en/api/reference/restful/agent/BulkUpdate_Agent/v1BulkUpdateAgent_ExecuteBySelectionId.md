@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "maxime",
-      "ValueType": "ea",
-      "Mandatory": false,
-      "EncodedDisplayName": "Watsica, Casper and Hills",
-      "EncodedDisplayDescription": "Multi-layered human-resource matrix",
-      "IconHint": "sed",
+      "Key": "quia",
+      "ValueType": "nisi",
+      "Mandatory": true,
+      "EncodedDisplayName": "Legros-Marvin",
+      "EncodedDisplayDescription": "Diverse logistical system engine",
+      "IconHint": "ipsum",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "rerum",
-      "EncodedDataCaptionDescription": "Digitized logistical matrices",
-      "CurrentOperationType": "quidem",
+      "EncodedDataCaption": "nobis",
+      "EncodedDataCaptionDescription": "Operative cohesive knowledge base",
+      "CurrentOperationType": "eum",
       "Values": [
-        "id",
-        "quisquam"
+        "numquam",
+        "repellendus"
       ],
       "DisplayValues": [
-        "maiores",
-        "placeat"
+        "soluta",
+        "numquam"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Champlin, Langosh and Bogan",
-  "Context": "illo",
-  "SelectionId": 530,
+  "TableName": "Johns Group",
+  "Context": "commodi",
+  "SelectionId": 31,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-757
+357
 ```

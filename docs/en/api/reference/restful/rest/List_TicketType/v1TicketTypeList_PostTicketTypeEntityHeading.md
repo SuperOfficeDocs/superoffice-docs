@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 539,
-  "Name": "Hickle-Stehr",
-  "Tooltip": "error",
-  "Deleted": true,
-  "Rank": 233,
-  "UdListDefinitionId": 672
+  "HeadingId": 619,
+  "Name": "Rutherford Inc and Sons",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "Rank": 696,
+  "UdListDefinitionId": 968
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 88,
-  "Name": "Oberbrunner LLC",
-  "Tooltip": "harum",
+  "HeadingId": 168,
+  "Name": "Gulgowski-Wolf",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 982,
-  "UdListDefinitionId": 405,
+  "Rank": 805,
+  "UdListDefinitionId": 501,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 278
     }
   }
 }

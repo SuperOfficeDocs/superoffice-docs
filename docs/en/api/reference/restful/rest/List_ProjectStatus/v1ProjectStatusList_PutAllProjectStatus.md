@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Murray Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 177,
-    "Rank": 849
+    "Id": 988,
+    "Name": "Borer-Kohler",
+    "Tooltip": "dolore",
+    "Deleted": true,
+    "UdListDefinitionId": 5,
+    "Rank": 380
   },
   {
-    "Id": 612,
-    "Name": "Murray Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 177,
-    "Rank": 849
+    "Id": 988,
+    "Name": "Borer-Kohler",
+    "Tooltip": "dolore",
+    "Deleted": true,
+    "UdListDefinitionId": 5,
+    "Rank": 380
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Schuster LLC",
-    "Tooltip": "neque",
-    "Deleted": true,
-    "UdListDefinitionId": 894,
-    "Rank": 919,
+    "Id": 657,
+    "Name": "Cremin, Medhurst and Koss",
+    "Tooltip": "quam",
+    "Deleted": false,
+    "UdListDefinitionId": 870,
+    "Rank": 368,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 198
       }
     }
   }

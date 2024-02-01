@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "McKenzie-Nitzsche",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "UdListDefinitionId": 261,
-  "Rank": 315
+  "Id": 603,
+  "Name": "Raynor, Lesch and Lynch",
+  "Tooltip": "quidem",
+  "Deleted": true,
+  "UdListDefinitionId": 373,
+  "Rank": 481
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 425,
-  "Name": "Hudson Inc and Sons",
-  "Tooltip": "molestiae",
+  "Id": 441,
+  "Name": "Botsford-Koepp",
+  "Tooltip": "quo",
   "Deleted": false,
-  "UdListDefinitionId": 680,
-  "Rank": 482,
+  "UdListDefinitionId": 968,
+  "Rank": 816,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 652
     }
   }
 }

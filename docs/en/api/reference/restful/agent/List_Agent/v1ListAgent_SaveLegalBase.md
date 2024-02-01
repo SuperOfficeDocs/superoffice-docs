@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 469,
-  "Name": "Hirthe-Morissette",
-  "Tooltip": "beatae",
-  "Rank": 881,
-  "Key": "deleniti",
-  "Deleted": false,
+  "LegalBaseId": 559,
+  "Name": "Jerde, Hettinger and Denesik",
+  "Tooltip": "possimus",
+  "Rank": 860,
+  "Key": "cum",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 478
     }
   }
 }

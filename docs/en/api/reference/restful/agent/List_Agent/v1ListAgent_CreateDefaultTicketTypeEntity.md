@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 76,
-  "Name": "Goldner Group",
-  "Rank": 750,
+  "TicketTypeId": 893,
+  "Name": "Gislason, Veum and Raynor",
+  "Rank": 535,
   "Tooltip": "voluptatem",
-  "Icon": "sed",
-  "DefaultTicketStatus": 445,
+  "Icon": "quo",
+  "DefaultTicketStatus": 309,
   "TicketStatuses": [
-    758,
-    196
+    267,
+    793
   ],
-  "DefaultTicketPriority": 230,
+  "DefaultTicketPriority": 701,
   "TicketPriorities": [
-    334,
-    929
+    621,
+    382
   ],
-  "ReplyTemplate": 104,
+  "ReplyTemplate": 814,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   }
 }

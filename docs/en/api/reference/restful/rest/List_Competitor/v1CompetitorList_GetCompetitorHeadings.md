@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 478,
-    "Name": "Will, Beahan and Pouros",
-    "Tooltip": "placeat",
+    "HeadingId": 770,
+    "Name": "Sauer LLC",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "Rank": 352,
-    "UdListDefinitionId": 664,
+    "Rank": 463,
+    "UdListDefinitionId": 177,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldType": "System.String",
+        "FieldLength": 500
       }
     }
   }

@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 544,
+  "TicketId": 48,
   "MessageActionType": "Forward",
-  "TicketMessageId": 65,
-  "TicketTypeId": 289
+  "TicketMessageId": 133,
+  "TicketTypeId": 734
 }
 ```
 
@@ -93,22 +93,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "illo",
+  "Body": "velit",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 165,
-      "Name": "Turcotte, Beatty and Johnston",
-      "ContentType": "laboriosam",
-      "AttSize": 504,
-      "InlineImage": false,
-      "ContentId": "impedit",
-      "AuthKey": "quia",
+      "AttachmentId": 935,
+      "Name": "Schneider-Rosenbaum",
+      "ContentType": "aut",
+      "AttSize": 807,
+      "InlineImage": true,
+      "ContentId": "eum",
+      "AuthKey": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldLength": 451
         }
       }
     }

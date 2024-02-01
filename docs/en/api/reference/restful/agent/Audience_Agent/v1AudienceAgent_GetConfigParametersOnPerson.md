@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 666
+  "PersonId": 706
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 829,
-    "Name": "Thiel, Quitzon and Hodkiewicz",
-    "Value": "id",
-    "CreatedDate": "2001-12-10T13:57:11.5438073+01:00",
-    "UpdatedDate": "2019-12-06T13:57:11.5438073+01:00",
-    "CreatedBy": "aliquid",
-    "UpdatedBy": "quo",
+    "AudienceLayoutId": 306,
+    "Name": "Eichmann Inc and Sons",
+    "Value": "culpa",
+    "CreatedDate": "2002-08-06T23:03:55.0076418+02:00",
+    "UpdatedDate": "1999-05-31T23:03:55.0076418+02:00",
+    "CreatedBy": "provident",
+    "UpdatedBy": "sequi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldLength": 2
       }
     }
   }

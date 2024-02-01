@@ -39,12 +39,13 @@ Application tokens must be specified if calling an Online installation. Applicat
   </AI:Credentials>
  <SOAP-ENV:Body>
    <AI:GetChatbotResponse>
+    <AI:ChatId xsi:type="xsd:string"></AI:ChatId>
     <AI:IsoLangCode xsi:type="xsd:string"></AI:IsoLangCode>
     <AI:UserPrompt xsi:type="xsd:string"></AI:UserPrompt>
     <AI:DisplayValue xsi:type="xsd:string"></AI:DisplayValue>
     <AI:PreviousTurns xsi:type="AI:ArrayOfChatbotTurn">
      <AI:ChatbotTurn xsi:type="AI:ChatbotTurn">
-      <AI:Timestamp xsi:type="xsd:dateTime">2023-12-07T12:54:22Z</AI:Timestamp>
+      <AI:Timestamp xsi:type="xsd:dateTime">2024-01-18T22:00:59Z</AI:Timestamp>
       <AI:UserPrompt xsi:type="xsd:string"></AI:UserPrompt>
       <AI:UserDisplayText xsi:type="xsd:string"></AI:UserDisplayText>
       <AI:BotResponse xsi:type="xsd:string"></AI:BotResponse>
@@ -59,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       </AI:Attachments>
      </AI:ChatbotTurn>
     </AI:PreviousTurns>
+    <AI:ApiUrl xsi:type="xsd:string"></AI:ApiUrl>
    </AI:GetChatbotResponse>
 
  </SOAP-ENV:Body>
@@ -82,7 +84,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <AI:GetChatbotResponseResponse>
    <AI:Response xsi:type="AI:ChatbotTurn">
-    <AI:Timestamp xsi:type="xsd:dateTime">2023-12-07T12:54:22Z</AI:Timestamp>
+    <AI:Timestamp xsi:type="xsd:dateTime">2024-01-18T22:00:59Z</AI:Timestamp>
     <AI:UserPrompt xsi:type="xsd:string"></AI:UserPrompt>
     <AI:UserDisplayText xsi:type="xsd:string"></AI:UserDisplayText>
     <AI:BotResponse xsi:type="xsd:string"></AI:BotResponse>

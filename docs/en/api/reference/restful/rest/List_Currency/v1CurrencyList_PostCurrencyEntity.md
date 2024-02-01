@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 280,
-  "Name": "Kuhic Inc and Sons",
-  "Tooltip": "sequi",
-  "Rank": 614,
-  "Rate": 23279.352,
-  "Units": 28544.471999999998,
-  "Deleted": false
+  "CurrencyId": 961,
+  "Name": "Jenkins, Wintheiser and Schmitt",
+  "Tooltip": "animi",
+  "Rank": 864,
+  "Rate": 8242.42,
+  "Units": 14554.296,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 330,
-  "Name": "Langworth, Parker and Bayer",
-  "Tooltip": "tempore",
-  "Rank": 366,
-  "Rate": 2717.178,
-  "Units": 19211.42,
+  "CurrencyId": 926,
+  "Name": "Brekke LLC",
+  "Tooltip": "impedit",
+  "Rank": 714,
+  "Rate": 8709.386,
+  "Units": 8446.13,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 925
     }
   }
 }

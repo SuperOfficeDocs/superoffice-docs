@@ -81,12 +81,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 176,
-  "Name": "Koepp, Keeling and Mraz",
-  "Tooltip": "unde",
+  "Id": 779,
+  "Name": "Schinner, Senger and Jacobson",
+  "Tooltip": "consectetur",
   "Deleted": false,
-  "UdListDefinitionId": 796,
-  "Rank": 731
+  "UdListDefinitionId": 174,
+  "Rank": 353
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 376,
-  "Name": "Lesch-Senger",
-  "Tooltip": "debitis",
-  "Deleted": false,
-  "UdListDefinitionId": 769,
-  "Rank": 670,
+  "Id": 981,
+  "Name": "Green-Waters",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "UdListDefinitionId": 154,
+  "Rank": 110,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 371
     }
   }
 }

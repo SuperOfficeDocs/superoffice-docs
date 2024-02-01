@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Paucek Group",
-  "UsergroupId": 275,
+  "UdListDefinitionName": "Schmidt, Wyman and Baumbach",
+  "UsergroupId": 277,
   "ListItemsID": [
-    190,
-    569
+    948,
+    930
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Weissnat, Hilll and Pfannerstill"
+  "TaskName": "Runolfsson LLC"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Brakus-Davis",
-    "AssociateId": 457,
-    "DetailsTable": 518,
-    "DetailsRecord": 573,
+    "Id": 340,
+    "Name": "Marvin, Bechtelar and Hettinger",
+    "AssociateId": 935,
+    "DetailsTable": 779,
+    "DetailsRecord": 45,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ex",
-      "ParameterObject2": "sit"
+      "ParameterObject1": "quos",
+      "ParameterObject2": "eos"
     },
-    "LastStarted": "2014-12-03T13:57:11.5594343+01:00",
-    "Created": "2023-10-23T13:57:11.5594343+02:00",
-    "StartCount": 688,
-    "DatabaseSerialNumber": "1449434",
-    "Context": "earum",
-    "Result": "ut",
+    "LastStarted": "2012-04-03T23:03:55.0251417+02:00",
+    "Created": "2020-10-16T23:03:55.0251417+02:00",
+    "StartCount": 264,
+    "DatabaseSerialNumber": "978654",
+    "Context": "quasi",
+    "Result": "sint",
     "State": "All",
-    "Description": "Persevering systemic methodology",
-    "Response": "vero",
-    "Request": "ea",
-    "ProgressDescription": "Organized high-level attitude",
-    "ProgressPercent": 405,
-    "FileName": "Stokes LLC",
+    "Description": "Balanced mobile infrastructure",
+    "Response": "quia",
+    "Request": "est",
+    "ProgressDescription": "Stand-alone zero tolerance application",
+    "ProgressPercent": 180,
+    "FileName": "Grady LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldType": "System.String",
+        "FieldLength": 791
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "West Group",
-    "ToolTip": "Atque impedit libero id.",
+    "Id": 236,
+    "Name": "Daniel LLC",
+    "ToolTip": "Ut nostrum magni eveniet totam officia.",
     "Deleted": false,
-    "Rank": 158,
-    "Type": "dolorum",
-    "ColorBlock": 507,
-    "IconHint": "pariatur",
+    "Rank": 368,
+    "Type": "cumque",
+    "ColorBlock": 160,
+    "IconHint": "quis",
     "Selected": true,
-    "LastChanged": "2015-05-21T13:57:19.6721792+02:00",
+    "LastChanged": "2012-12-06T23:04:05.352002+01:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Altenwerth, Romaguera and Schmidt",
-        "ToolTip": "Voluptatem soluta aliquam perspiciatis aut voluptatum tenetur blanditiis.",
-        "Deleted": false,
-        "Rank": 268,
-        "Type": "totam",
-        "ColorBlock": 317,
-        "IconHint": "quis",
+        "Id": 341,
+        "Name": "Greenfelder LLC",
+        "ToolTip": "Assumenda quidem.",
+        "Deleted": true,
+        "Rank": 36,
+        "Type": "provident",
+        "ColorBlock": 122,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2001-11-06T13:57:19.6721792+01:00",
+        "LastChanged": "2008-06-23T23:04:05.352002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "et",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "nobis",
         "Hidden": true,
-        "FullName": "Travis Schinner",
+        "FullName": "Norberto Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 975
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "iste",
+    "ExtraInfo": "debitis",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Margarete Gus Mohr III",
+    "FullName": "Ms. Orpha Homenick IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 89
       }
     }
   }

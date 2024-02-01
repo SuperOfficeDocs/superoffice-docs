@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 345,
-  "Section": "non",
-  "Key": "ut",
-  "Name": "Rohan-Borer",
+  "PrefDescId": 828,
+  "Section": "et",
+  "Key": "rerum",
+  "Name": "Hammes-Abshire",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Object-based background interface",
+  "Description": "Polarised mobile open architecture",
   "IsBuiltin": false,
-  "TableName": "Konopelski LLC",
-  "UserDefinedListId": 692,
-  "Rank": 584,
-  "SubGroup": "suscipit",
-  "MinLevel": 727,
-  "MaxValue": 710,
-  "MinValue": 824,
-  "RequiredLicense": "dolor",
+  "TableName": "Bayer, Jast and Langworth",
+  "UserDefinedListId": 811,
+  "Rank": 476,
+  "SubGroup": "voluptatem",
+  "MinLevel": 560,
+  "MaxValue": 714,
+  "MinValue": 75,
+  "RequiredLicense": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

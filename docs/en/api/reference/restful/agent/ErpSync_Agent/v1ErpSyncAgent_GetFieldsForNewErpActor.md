@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 897,
+  "ErpConnectionId": 67,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quod",
-    "Rank": 178,
-    "DisplayName": "Cormier Inc and Sons",
-    "DisplayDescription": "Exclusive 24 hour benchmark",
+    "FieldKey": "rerum",
+    "Rank": 209,
+    "DisplayName": "Hermann Group",
+    "DisplayDescription": "Future-proofed neutral customer loyalty",
     "FieldType": "Checkbox",
-    "ListName": "Collins, Parisian and Swift",
-    "DefaultValue": "debitis",
-    "MaxLength": 664,
+    "ListName": "Hackett, Cassin and Bins",
+    "DefaultValue": "incidunt",
+    "MaxLength": 198,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 880
       }
     }
   }

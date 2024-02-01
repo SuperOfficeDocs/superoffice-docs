@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,30 +76,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 242,
-  "Name": "Nitzsche Group",
-  "Rank": 355,
-  "Tooltip": "earum",
-  "Icon": "accusantium",
-  "DefaultTicketStatus": 138,
+  "TicketTypeId": 398,
+  "Name": "Kreiger LLC",
+  "Rank": 890,
+  "Tooltip": "in",
+  "Icon": "quibusdam",
+  "DefaultTicketStatus": 234,
   "TicketStatuses": [
-    382,
-    82
+    928,
+    283
   ],
-  "DefaultTicketPriority": 380,
+  "DefaultTicketPriority": 469,
   "TicketPriorities": [
-    310,
-    75
+    976,
+    665
   ],
-  "ReplyTemplate": 649,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 837,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 706
     }
   }
 }

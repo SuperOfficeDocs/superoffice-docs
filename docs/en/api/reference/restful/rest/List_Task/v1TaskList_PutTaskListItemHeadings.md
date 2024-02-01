@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 261,
-    "Name": "Pfeffer-Little",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 43,
-    "UdListDefinitionId": 915
+    "HeadingId": 545,
+    "Name": "Koelpin-Jacobs",
+    "Tooltip": "adipisci",
+    "Deleted": false,
+    "Rank": 463,
+    "UdListDefinitionId": 882
   },
   {
-    "HeadingId": 261,
-    "Name": "Pfeffer-Little",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 43,
-    "UdListDefinitionId": 915
+    "HeadingId": 545,
+    "Name": "Koelpin-Jacobs",
+    "Tooltip": "adipisci",
+    "Deleted": false,
+    "Rank": 463,
+    "UdListDefinitionId": 882
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 179,
-    "Name": "McClure-O'Kon",
-    "Tooltip": "magni",
-    "Deleted": true,
-    "Rank": 941,
-    "UdListDefinitionId": 623,
+    "HeadingId": 139,
+    "Name": "McKenzie Inc and Sons",
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "Rank": 316,
+    "UdListDefinitionId": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldLength": 860
       }
     }
   }

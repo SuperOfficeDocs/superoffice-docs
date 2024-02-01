@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Blanda, Wiegand and Bruen",
+  "Name": "VonRueden-Hegmann",
   "ForceFlatList": false,
-  "AdditionalInfo": "quisquam",
+  "AdditionalInfo": "quia",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 488,
-    "Name": "Jewess-Brakus",
-    "ToolTip": "Optio temporibus qui et et.",
-    "Deleted": false,
-    "Rank": 616,
-    "Type": "voluptas",
-    "ColorBlock": 629,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2022-09-25T13:57:12.6068289+02:00",
+    "Id": 61,
+    "Name": "Lebsack-Breitenberg",
+    "ToolTip": "Quam voluptatem qui quia et.",
+    "Deleted": true,
+    "Rank": 80,
+    "Type": "temporibus",
+    "ColorBlock": 274,
+    "IconHint": "laboriosam",
+    "Selected": false,
+    "LastChanged": "2023-08-29T23:03:56.3511236+02:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Borer Inc and Sons",
-        "ToolTip": "Suscipit sit est in sunt est mollitia.",
-        "Deleted": false,
-        "Rank": 962,
-        "Type": "suscipit",
-        "ColorBlock": 397,
-        "IconHint": "pariatur",
+        "Id": 114,
+        "Name": "Kling-Jakubowski",
+        "ToolTip": "Rerum nemo laudantium dolor sit hic non tempora.",
+        "Deleted": true,
+        "Rank": 454,
+        "Type": "voluptatem",
+        "ColorBlock": 760,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2019-05-18T13:57:12.6068289+02:00",
+        "LastChanged": "2012-11-19T23:03:56.3516282+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Alan Turcotte",
+        "ExtraInfo": "eos",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Norbert Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 811
+            "FieldLength": 810
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Marlen Colleen Abbott V",
+    "ExtraInfo": "et",
+    "StyleHint": "excepturi",
+    "Hidden": false,
+    "FullName": "Orion Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

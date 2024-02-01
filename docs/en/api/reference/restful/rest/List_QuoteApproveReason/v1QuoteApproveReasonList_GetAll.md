@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Corkery, O'Conner and Runolfsson",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "UdListDefinitionId": 964,
-    "Rank": 414,
+    "Id": 283,
+    "Name": "Schimmel, Hauck and Larson",
+    "Tooltip": "ipsum",
+    "Deleted": true,
+    "UdListDefinitionId": 299,
+    "Rank": 589,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 437
       }
     }
   }

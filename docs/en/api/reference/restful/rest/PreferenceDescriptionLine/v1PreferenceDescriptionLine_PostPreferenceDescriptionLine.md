@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 826,
-  "PrefDescId": 623,
-  "PrefValue": "et",
-  "PrefShowValue": "qui",
-  "Description": "Realigned real-time leverage",
-  "IsBuiltin": true
+  "PrefDescLineId": 50,
+  "PrefDescId": 764,
+  "PrefValue": "nihil",
+  "PrefShowValue": "nemo",
+  "Description": "Synchronised interactive matrices",
+  "IsBuiltin": false
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 785,
-  "PrefDescId": 675,
-  "PrefValue": "a",
-  "PrefShowValue": "magnam",
-  "Description": "Proactive zero defect local area network",
-  "IsBuiltin": false,
+  "PrefDescLineId": 696,
+  "PrefDescId": 549,
+  "PrefValue": "ratione",
+  "PrefShowValue": "incidunt",
+  "Description": "Enhanced upward-trending parallelism",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   },
   "_Links": {

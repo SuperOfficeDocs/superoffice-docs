@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 440,
-    "Name": "Christiansen, O'Reilly and Altenwerth",
-    "Tooltip": "quis",
+    "HeadingId": 153,
+    "Name": "Hoeger-Crist",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 969,
-    "UdListDefinitionId": 152
+    "Rank": 655,
+    "UdListDefinitionId": 532
   },
   {
-    "HeadingId": 440,
-    "Name": "Christiansen, O'Reilly and Altenwerth",
-    "Tooltip": "quis",
+    "HeadingId": 153,
+    "Name": "Hoeger-Crist",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 969,
-    "UdListDefinitionId": 152
+    "Rank": 655,
+    "UdListDefinitionId": 532
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 252,
-    "Name": "Kunde Inc and Sons",
-    "Tooltip": "delectus",
+    "HeadingId": 888,
+    "Name": "Larson Group",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "Rank": 430,
-    "UdListDefinitionId": 117,
+    "Rank": 684,
+    "UdListDefinitionId": 65,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 794
       }
     }
   }

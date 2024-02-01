@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=possimus
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=explicabo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Name": "Heaney-Howe",
-    "ToolTip": "Quisquam laboriosam commodi maxime.",
-    "Deleted": true,
-    "Rank": 772,
-    "Type": "aspernatur",
+    "Id": 112,
+    "Name": "Carroll, Lakin and Schimmel",
+    "ToolTip": "Soluta possimus occaecati aut dolor porro sed.",
+    "Deleted": false,
+    "Rank": 741,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Ankunding-Hoppe",
-        "ToolTip": "Et et iure explicabo numquam nihil.",
+        "Id": 108,
+        "Name": "McCullough Inc and Sons",
+        "ToolTip": "Exercitationem eveniet dolore.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "quia",
+        "Rank": 533,
+        "Type": "aspernatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 25,
-        "ExtraInfo": "harum",
-        "StyleHint": "qui",
-        "FullName": "Zita Corwin",
+        "IconHint": "at",
+        "ColorBlock": 797,
+        "ExtraInfo": "quia",
+        "StyleHint": "quis",
+        "FullName": "Demetris Leone Runolfsson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldType": "System.String",
+            "FieldLength": 284
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 327,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "nihil",
-    "FullName": "Prof. Helena Durgan",
+    "IconHint": "odit",
+    "ColorBlock": 114,
+    "ExtraInfo": "officiis",
+    "StyleHint": "fugiat",
+    "FullName": "Miss Nicolas Weissnat I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldType": "System.String",
+        "FieldLength": 99
       }
     }
   }

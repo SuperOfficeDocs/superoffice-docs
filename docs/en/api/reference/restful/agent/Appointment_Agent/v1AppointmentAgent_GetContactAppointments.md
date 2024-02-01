@@ -130,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 206,
-  "StartTime": "1997-03-24T13:57:11.1368988+01:00",
-  "EndTime": "2021-11-14T13:57:11.1368988+01:00",
-  "Count": 476
+  "ContactId": 562,
+  "StartTime": "1997-01-13T23:03:54.3831507+01:00",
+  "EndTime": "2017-03-03T23:03:54.3831507+01:00",
+  "Count": 206
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 319,
-    "StartDate": "2004-06-13T13:57:11.1368988+02:00",
-    "EndDate": "2015-09-11T13:57:11.1368988+02:00",
+    "AppointmentId": 200,
+    "StartDate": "1998-01-21T23:03:54.3851515+01:00",
+    "EndDate": "2010-09-07T23:03:54.3851515+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nesciunt",
-    "AssociateFullName": "Dr. Brielle Khalil Friesen",
-    "ContactName": "Skiles-Mitchell",
-    "Description": "Ergonomic analyzing orchestration",
-    "PersonFullName": "Ms. Graciela Hilton Eichmann",
-    "PersonId": 281,
-    "ContactId": 246,
-    "ProjectId": 532,
-    "ProjectName": "Emard LLC",
+    "Task": "fugiat",
+    "AssociateFullName": "Prof. Felix Beer II",
+    "ContactName": "Legros-Bayer",
+    "Description": "Horizontal secondary portal",
+    "PersonFullName": "Mr. Anissa Leilani Ratke",
+    "PersonId": 241,
+    "ContactId": 261,
+    "ProjectId": 623,
+    "ProjectName": "Langworth-Bradtke",
     "IsPublished": false,
-    "AssociateId": 230,
-    "ColorIndex": 251,
-    "IsFree": false,
+    "AssociateId": 708,
+    "ColorIndex": 266,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 748,
-    "PriorityName": "Barrows, Treutel and Satterfield",
+    "PriorityId": 474,
+    "PriorityName": "Wunsch, Cole and Jones",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2015-05-25T13:57:11.1368988+02:00",
+    "ActiveDate": "2022-10-23T23:03:54.3856531+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-03-01T13:57:11.1368988+01:00",
-    "RecurringEndDate": "2021-03-02T13:57:11.1368988+01:00",
-    "MotherId": 550,
-    "AssignedBy": 45,
-    "AssignedByFullName": "Moriah Ratke I",
+    "RecurringStartDate": "2019-11-20T23:03:54.3856531+01:00",
+    "RecurringEndDate": "2003-08-02T23:03:54.3856531+02:00",
+    "MotherId": 529,
+    "AssignedBy": 742,
+    "AssignedByFullName": "Juliet Leannon",
     "RejectReason": "",
-    "Location": "doloribus",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 91,
-    "SaleName": "Fritsch-Lakin",
-    "AssociateName": "Funk, Muller and Cremin",
-    "CreatedDate": "2017-02-15T13:57:11.1368988+01:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "August Lehner",
-    "CreatedByAssociateId": 201,
+    "Location": "maxime",
+    "AlarmLeadTime": "quia",
+    "SaleId": 614,
+    "SaleName": "Mayer-Runolfsdottir",
+    "AssociateName": "Durgan-Crona",
+    "CreatedDate": "2000-07-11T23:03:54.3856531+02:00",
+    "CreatedBy": "velit",
+    "CreatedByFullName": "Christop Walker",
+    "CreatedByAssociateId": 962,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 775,
-    "Title": "ullam",
-    "Agenda": "animi",
-    "InternalNotes": "suscipit",
+    "PreferredTZLocation": 105,
+    "Title": "autem",
+    "Agenda": "dolorem",
+    "InternalNotes": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldType": "System.Int32",
+        "FieldLength": 566
       }
     }
   }

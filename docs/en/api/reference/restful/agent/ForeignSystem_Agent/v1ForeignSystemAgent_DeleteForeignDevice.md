@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Moen, Corwin and Connelly"
+  "ApplicationName": "Rice LLC"
 }
 ```
 

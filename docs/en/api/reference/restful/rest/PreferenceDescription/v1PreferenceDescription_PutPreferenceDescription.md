@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 9,
-  "Section": "omnis",
-  "Key": "est",
-  "Name": "Denesik, Stiedemann and Green",
+  "PrefDescId": 979,
+  "Section": "voluptatem",
+  "Key": "et",
+  "Name": "Orn, Johnson and Hegmann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse stable moratorium",
-  "IsBuiltin": false,
-  "TableName": "Corwin, Gorczany and Hills",
-  "UserDefinedListId": 739,
-  "Rank": 938,
-  "SubGroup": "nisi",
-  "MinLevel": 305,
-  "MaxValue": 731,
-  "MinValue": 2,
-  "RequiredLicense": "nihil"
+  "Description": "Quality-focused 3rd generation challenge",
+  "IsBuiltin": true,
+  "TableName": "Armstrong Group",
+  "UserDefinedListId": 243,
+  "Rank": 460,
+  "SubGroup": "omnis",
+  "MinLevel": 336,
+  "MaxValue": 852,
+  "MinValue": 794,
+  "RequiredLicense": "tenetur"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 962,
-  "Section": "debitis",
-  "Key": "ullam",
-  "Name": "Price, Welch and Kovacek",
+  "PrefDescId": 39,
+  "Section": "odit",
+  "Key": "dolorum",
+  "Name": "Stokes-Keeling",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual systemic task-force",
-  "IsBuiltin": true,
-  "TableName": "Hammes Group",
-  "UserDefinedListId": 6,
-  "Rank": 83,
-  "SubGroup": "ipsum",
-  "MinLevel": 587,
-  "MaxValue": 135,
-  "MinValue": 740,
-  "RequiredLicense": "autem",
+  "Description": "Seamless coherent hierarchy",
+  "IsBuiltin": false,
+  "TableName": "Murazik Group",
+  "UserDefinedListId": 712,
+  "Rank": 359,
+  "SubGroup": "hic",
+  "MinLevel": 691,
+  "MaxValue": 559,
+  "MinValue": 613,
+  "RequiredLicense": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldType": "System.String",
+      "FieldLength": 908
     }
   },
   "_Links": {

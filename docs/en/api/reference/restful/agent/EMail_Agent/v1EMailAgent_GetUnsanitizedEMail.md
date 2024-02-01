@@ -104,12 +104,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 59,
-  "IncludeAttachments": false
+  "Id": 634,
+  "IncludeAttachments": true
 }
 ```
 
@@ -122,42 +122,18 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 330,
-      "ContactName": "Ledner Group",
-      "PersonId": 29,
-      "PersonName": "Littel, Olson and Bechtelar",
-      "AssociateId": 362,
-      "Address": "porro",
-      "EmailId": 516,
+      "ContactId": 422,
+      "ContactName": "Thompson Inc and Sons",
+      "PersonId": 59,
+      "PersonName": "Runte LLC",
+      "AssociateId": 933,
+      "Address": "pariatur",
+      "EmailId": 400,
       "DuplicatePersonIds": [
-        199,
-        471
+        527,
+        516
       ],
-      "Name": "Hackett LLC",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 950
-        }
-      }
-    }
-  ],
-  "Cc": [
-    {
-      "ContactId": 15,
-      "ContactName": "Halvorson, Gislason and Beier",
-      "PersonId": 908,
-      "PersonName": "Schumm, Smitham and O'Kon",
-      "AssociateId": 789,
-      "Address": "placeat",
-      "EmailId": 786,
-      "DuplicatePersonIds": [
-        237,
-        606
-      ],
-      "Name": "Jacobson-Jast",
+      "Name": "Thompson LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -168,101 +144,125 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Bcc": [
+  "Cc": [
     {
-      "ContactId": 962,
-      "ContactName": "Lockman, Kautzer and Renner",
-      "PersonId": 832,
-      "PersonName": "Morar-Dickens",
-      "AssociateId": 125,
-      "Address": "unde",
-      "EmailId": 698,
+      "ContactId": 10,
+      "ContactName": "Medhurst, Becker and O'Hara",
+      "PersonId": 838,
+      "PersonName": "Crooks LLC",
+      "AssociateId": 196,
+      "Address": "explicabo",
+      "EmailId": 606,
       "DuplicatePersonIds": [
-        580,
-        596
+        7,
+        783
       ],
-      "Name": "Bergnaum-Stiedemann",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 130
-        }
-      }
-    }
-  ],
-  "Subject": "repellendus",
-  "HTMLBody": "adipisci",
-  "From": null,
-  "Sent": "2001-10-21T13:57:12.3399846+02:00",
-  "Size": 237,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "culpa",
-  "PlainBody": "sint",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 684,
-  "Attachments": [
-    {
-      "Description": "Cross-group hybrid circuit",
-      "Filename": "sit",
-      "Size": 969,
-      "Type": "minus",
-      "Encoding": "ut",
-      "Id": "aut",
-      "Disposition": "eos",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Rippin, Wintheiser and Goldner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldLength": 380
+        }
+      }
+    }
+  ],
+  "Bcc": [
+    {
+      "ContactId": 24,
+      "ContactName": "Bernhard-Glover",
+      "PersonId": 885,
+      "PersonName": "Bosco Inc and Sons",
+      "AssociateId": 307,
+      "Address": "illum",
+      "EmailId": 605,
+      "DuplicatePersonIds": [
+        51,
+        150
+      ],
+      "Name": "Bruen, Jacobi and Hoppe",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 968
+        }
+      }
+    }
+  ],
+  "Subject": "tempora",
+  "HTMLBody": "doloremque",
+  "From": null,
+  "Sent": "2012-07-28T23:03:56.0186282+02:00",
+  "Size": 538,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "autem",
+  "PlainBody": "repudiandae",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 558,
+  "Attachments": [
+    {
+      "Description": "Reduced tertiary budgetary management",
+      "Filename": "et",
+      "Size": 529,
+      "Type": "minima",
+      "Encoding": "saepe",
+      "Id": "qui",
+      "Disposition": "ut",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 428
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hane-Mayert",
+      "Name": "Bogan-Ortiz",
       "Values": [
-        "accusamus",
-        "optio"
+        "et",
+        "sint"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldType": "System.Int32",
+          "FieldLength": 152
         }
       }
     },
     {
-      "Name": "Hane-Mayert",
+      "Name": "Bogan-Ortiz",
       "Values": [
-        "accusamus",
-        "optio"
+        "et",
+        "sint"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldType": "System.Int32",
+          "FieldLength": 152
         }
       }
     }
   ],
-  "FolderName": "Brakus Group",
-  "EmailItemId": 634,
-  "AccountId": 50,
-  "ReceivedAt": "2016-03-28T13:57:12.3399846+02:00",
+  "FolderName": "Bashirian, Leuschke and Howell",
+  "EmailItemId": 483,
+  "AccountId": 707,
+  "ReceivedAt": "2011-05-29T23:03:56.019129+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-07-25T13:57:12.3399846+02:00",
+  "RepliedAt": "2022-11-05T23:03:56.0196389+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 815
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   }
 }

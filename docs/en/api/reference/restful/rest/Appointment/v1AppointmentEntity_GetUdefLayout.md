@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 51,
-    "ColumnId": 336,
-    "FieldDefault": "eius",
-    "FieldHeight": 571,
-    "FieldLabel": "voluptatem",
-    "FieldLeft": 591,
-    "FieldTop": 302,
+    "UDefFieldId": 755,
+    "ColumnId": 866,
+    "FieldDefault": "distinctio",
+    "FieldHeight": 418,
+    "FieldLabel": "natus",
+    "FieldLeft": 730,
+    "FieldTop": 480,
     "FieldType": "Checkbox",
-    "FieldWidth": 242,
-    "FormatMask": "est",
-    "HideLabel": true,
+    "FieldWidth": 743,
+    "FormatMask": "illo",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 441,
-    "LabelLeft": 357,
-    "LabelTop": 82,
-    "LabelWidth": 29,
-    "LastVersionId": 161,
-    "ListTableId": 324,
-    "IsMandatory": true,
+    "LabelHeight": 574,
+    "LabelLeft": 307,
+    "LabelTop": 343,
+    "LabelWidth": 244,
+    "LastVersionId": 101,
+    "ListTableId": 23,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 499,
-    "ProgId": "non",
+    "Page1LineNo": 196,
+    "ProgId": "occaecati",
     "IsReadOnly": false,
-    "ShortLabel": "voluptas",
-    "TabOrder": 790,
-    "TextLength": 737,
-    "Tooltip": "eum",
-    "UdefIdentity": 362,
-    "UDListDefinitionId": 673,
+    "ShortLabel": "nisi",
+    "TabOrder": 90,
+    "TextLength": 897,
+    "Tooltip": "exercitationem",
+    "UdefIdentity": 158,
+    "UDListDefinitionId": 591,
     "Justification": "Center",
-    "Version": 958,
-    "TemplateVariableName": "D'Amore-Grady",
-    "HasBeenPublished": true,
-    "MdoListName": "Luettgen, Gleichner and Crona",
+    "Version": 847,
+    "TemplateVariableName": "Muller-Schultz",
+    "HasBeenPublished": false,
+    "MdoListName": "Romaguera-Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 433
       }
     }
   }

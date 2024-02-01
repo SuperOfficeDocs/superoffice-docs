@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 527,
-    "Section": "sed",
-    "Key": "quasi",
-    "Name": "Hickle LLC",
+    "PrefDescId": 237,
+    "Section": "ea",
+    "Key": "pariatur",
+    "Name": "Frami LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Grass-roots well-modulated utilisation",
-    "IsBuiltin": true,
-    "TableName": "Keeling, Dach and Schultz",
-    "UserDefinedListId": 948,
-    "Rank": 426,
-    "SubGroup": "beatae",
-    "MinLevel": 72,
-    "MaxValue": 865,
-    "MinValue": 211,
-    "RequiredLicense": "nemo",
+    "Description": "Persistent secondary secured line",
+    "IsBuiltin": false,
+    "TableName": "Ruecker LLC",
+    "UserDefinedListId": 726,
+    "Rank": 155,
+    "SubGroup": "et",
+    "MinLevel": 358,
+    "MaxValue": 744,
+    "MinValue": 829,
+    "RequiredLicense": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

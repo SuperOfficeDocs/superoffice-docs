@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 360,
-    "Name": "Zieme Inc and Sons",
-    "Tooltip": "et",
-    "Rank": 544,
+    "SaleTypeId": 867,
+    "Name": "Kutch, Shanahan and Stracke",
+    "Tooltip": "architecto",
+    "Rank": 665,
     "DurationUnit": "Century",
-    "SaleDuration": 970,
-    "SaleTypeCatId": 302,
+    "SaleDuration": 693,
+    "SaleTypeCatId": 421,
     "Deleted": false,
-    "HasGuide": true,
-    "HasStakeholders": true,
-    "IsAutoAdvance": true,
+    "HasGuide": false,
+    "HasStakeholders": false,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 237,
-    "QuoteLinesTemplate": 247,
-    "ConfirmationLinesTemplate": 523,
-    "MaxDiscountPercentSet": true,
+    "DefaultQuoteValidity": 988,
+    "QuoteLinesTemplate": 74,
+    "ConfirmationLinesTemplate": 427,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 606,
-    "MinEarningPercent": 836,
-    "GroupQuoteLinesBy": 695,
-    "SortGroupLinesBy": 630,
+    "MaxDiscountPercent": 245,
+    "MinEarningPercent": 878,
+    "GroupQuoteLinesBy": 667,
+    "SortGroupLinesBy": 52,
     "Stages": [
       {
-        "Id": 301,
-        "Name": "Auer-Schaden",
-        "ToolTip": "Deleniti soluta rerum aliquam vel.",
+        "Id": 455,
+        "Name": "Friesen, Schumm and Prohaska",
+        "ToolTip": "Est sed sunt.",
         "Deleted": false,
-        "Rank": 817,
-        "Type": "asperiores",
-        "ColorBlock": 336,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "2022-05-22T13:57:20.1109105+02:00",
+        "Rank": 397,
+        "Type": "delectus",
+        "ColorBlock": 794,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "1998-12-13T23:04:05.7909953+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Ms. Yasmine Dolly Padberg",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Mireille Wiegand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 979
+            "FieldLength": 250
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 764
       }
     }
   }

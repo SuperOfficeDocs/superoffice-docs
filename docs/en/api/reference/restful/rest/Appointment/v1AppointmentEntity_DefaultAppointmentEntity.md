@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 15 Nov 2003 13:57:18 G11T
+Last-Modified: Tue, 06 Oct 1998 23:04:03 G10T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-09-27T13:57:18.3096854+02:00",
-  "AppointmentId": 62,
-  "Description": "Decentralized solution-oriented hardware",
-  "Title": "ipsam",
-  "Agenda": "unde",
-  "InternalNotes": "ut",
-  "StartDate": "1997-04-27T13:57:18.3096854+02:00",
-  "EndDate": "2004-01-20T13:57:18.3096854+01:00",
+  "CreatedDate": "2003-08-04T23:04:03.5415258+02:00",
+  "AppointmentId": 346,
+  "Description": "Integrated 24 hour leverage",
+  "Title": "incidunt",
+  "Agenda": "et",
+  "InternalNotes": "numquam",
+  "StartDate": "2022-08-15T23:04:03.5415258+02:00",
+  "EndDate": "2001-05-15T23:04:03.5415258+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 17,
+  "MotherId": 964,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-11-15T13:57:18.3096854+01:00",
+  "UpdatedDate": "1998-10-06T23:04:03.5445256+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 729,
+  "ActiveLinks": 303,
   "Links": [
     {
-      "EntityName": "Heathcote Inc and Sons",
-      "Id": 753,
-      "Description": "Integrated holistic capability",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 811,
+      "EntityName": "Cummings-Feil",
+      "Id": 481,
+      "Description": "Open-architected zero defect focus group",
+      "ExtraInfo": "ipsa",
+      "LinkId": 974,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldLength": 149
         }
       }
     }
   ],
-  "AlarmLeadTime": "ipsam",
+  "AlarmLeadTime": "mollitia",
   "HasAlarm": true,
-  "ColorIndex": 107,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "est",
-  "LeadTime": "doloremque",
-  "Location": "tenetur",
-  "RejectCounter": 525,
+  "ColorIndex": 242,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "aut",
+  "LeadTime": "dolor",
+  "Location": "quis",
+  "RejectCounter": 733,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 685,
-      "PersonId": 496,
-      "ContactId": 76,
-      "EmailId": 570,
+      "AssociateId": 130,
+      "PersonId": 654,
+      "ContactId": 160,
+      "EmailId": 183,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kaylin.howe@turner.biz",
-      "Description": "Centralized executive synergy"
+      "EmailAddress": "cornelius@daugherty.us",
+      "Description": "Intuitive eco-centric complexity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-03-29T13:57:18.3096854+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2003-07-19T23:04:03.5455262+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 69,
+  "PreferredTZLocation": 166,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 361,
+  "SuggestedAppointmentId": 181,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptatum",
+  "CentralserviceVideomeetId": "sit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Princess Kuhic",
-    "SuperOffice:2": "1097583609"
+    "SuperOffice:1": "1769849483",
+    "SuperOffice:2": "1779272345"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "hic"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2019-10-23T13:57:18.3096854+02:00",
-  "PublishTo": "2001-10-16T13:57:18.3096854+02:00",
-  "PublishFrom": "2018-12-08T13:57:18.3096854+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2009-01-21T23:04:03.5470254+01:00",
+  "PublishTo": "2018-04-27T23:04:03.5470254+02:00",
+  "PublishFrom": "1999-01-16T23:04:03.5470254+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 625,
+      "VisibleId": 163,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldType": "System.Int32",
+          "FieldLength": 844
         }
       }
     },
     {
-      "VisibleId": 625,
+      "VisibleId": 163,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldType": "System.Int32",
+          "FieldLength": 844
         }
       }
     }
@@ -252,8 +252,8 @@ Last-Modified: Sat, 15 Nov 2003 13:57:18 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

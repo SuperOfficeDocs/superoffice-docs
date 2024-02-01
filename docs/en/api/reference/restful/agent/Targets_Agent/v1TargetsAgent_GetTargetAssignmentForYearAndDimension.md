@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 605,
+  "TargetYear": 501,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 306,
-  "DimensionId": 948
+  "Id": 656,
+  "DimensionId": 679
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 279,
+  "TargetAssignmentInfoId": 40,
   "Values": [
-    662,
-    660
+    242,
+    254
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 401,
-  "DimensionListItemDisplayName": "Ryan, Lubowitz and Smith",
+  "DimensionListItem": 270,
+  "DimensionListItemDisplayName": "Cormier-Hermann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

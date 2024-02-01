@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Ankunding-Dickens",
-    "ToolTip": "Beatae ratione.",
-    "Deleted": false,
-    "Rank": 921,
-    "Type": "eaque",
-    "ColorBlock": 953,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2015-10-29T13:57:19.7815186+01:00",
+    "Id": 259,
+    "Name": "Douglas LLC",
+    "ToolTip": "Aut sapiente.",
+    "Deleted": true,
+    "Rank": 826,
+    "Type": "explicabo",
+    "ColorBlock": 612,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2020-12-06T23:04:05.4980003+01:00",
     "ChildItems": [
       {
-        "Id": 473,
-        "Name": "Nikolaus Group",
-        "ToolTip": "Rerum omnis blanditiis magni quia.",
-        "Deleted": true,
-        "Rank": 995,
-        "Type": "voluptates",
-        "ColorBlock": 226,
-        "IconHint": "non",
+        "Id": 933,
+        "Name": "O'Conner, Beatty and Conroy",
+        "ToolTip": "Tempora totam eaque provident sapiente autem expedita sunt.",
+        "Deleted": false,
+        "Rank": 238,
+        "Type": "incidunt",
+        "ColorBlock": 552,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2013-09-02T13:57:19.7815186+02:00",
+        "LastChanged": "2015-09-25T23:04:05.500999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "qui",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Chelsie Gutmann"
+        "FullName": "Khalid O'Connell"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Osbaldo Rowe DDS"
+    "ExtraInfo": "corporis",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Dr. Alessandro Swift"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Robel-Nikolaus",
-    "ToolTip": "Neque quasi suscipit placeat aut.",
+    "Id": 371,
+    "Name": "Koss, Ferry and Homenick",
+    "ToolTip": "Laudantium velit omnis molestiae.",
     "Deleted": false,
-    "Rank": 554,
-    "Type": "et",
-    "ColorBlock": 172,
-    "IconHint": "quaerat",
-    "Selected": false,
-    "LastChanged": "2000-10-05T13:57:19.7815186+02:00",
+    "Rank": 491,
+    "Type": "est",
+    "ColorBlock": 930,
+    "IconHint": "reiciendis",
+    "Selected": true,
+    "LastChanged": "2022-10-18T23:04:05.5024991+02:00",
     "ChildItems": [
       {
-        "Id": 681,
-        "Name": "Bashirian Inc and Sons",
-        "ToolTip": "Nesciunt quo non voluptates.",
-        "Deleted": true,
-        "Rank": 416,
-        "Type": "et",
-        "ColorBlock": 976,
-        "IconHint": "ducimus",
+        "Id": 423,
+        "Name": "Daugherty, Fay and Gerlach",
+        "ToolTip": "Facilis qui.",
+        "Deleted": false,
+        "Rank": 169,
+        "Type": "voluptatum",
+        "ColorBlock": 511,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2018-09-05T13:57:19.7815186+02:00",
+        "LastChanged": "2019-06-12T23:04:05.5024991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "ullam",
-        "Hidden": false,
-        "FullName": "Cole Hayes",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Ms. Werner Kaela Bauch I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 884
+            "FieldLength": 939
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "ipsum",
-    "Hidden": true,
-    "FullName": "Clarabelle Ryan",
+    "ExtraInfo": "illo",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Marina Schuster Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 361
       }
     }
   }

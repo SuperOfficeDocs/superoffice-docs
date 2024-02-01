@@ -2,14 +2,14 @@
 uid: formfolder
 title: formfolder
 keywords: mdoprovider mdo provider formfolder
-description: EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY
+description: FormFolderProvider creates a flat or tree list based on the table: s_picture_folder
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
 ---
 
 # "formfolder" MDO List
-EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY
+FormFolderProvider creates a flat or tree list based on the table: s_picture_folder
 
 
 

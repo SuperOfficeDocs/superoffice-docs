@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=velit
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aspernatur
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 25 Jan 2008 13:57:18 G1T
+Last-Modified: Wed, 12 Sep 2018 23:04:04 G9T
 
 {
-  "Key": "doloremque",
-  "Value": "labore",
-  "RecordId": 33,
-  "CreatedDate": "2022-03-21T13:57:18.8265985+01:00",
-  "UpdatedDate": "2008-01-25T13:57:18.8265985+01:00",
-  "UpdatedBy": "quos",
-  "CreatedBy": "nesciunt",
-  "TableName": "Jacobs LLC",
+  "Key": "facilis",
+  "Value": "omnis",
+  "RecordId": 442,
+  "CreatedDate": "2013-03-15T23:04:04.2315182+01:00",
+  "UpdatedDate": "2018-09-12T23:04:04.2315182+02:00",
+  "UpdatedBy": "quibusdam",
+  "CreatedBy": "dignissimos",
+  "TableName": "Lindgren-Barrows",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldType": "System.String",
+      "FieldLength": 944
     }
   }
 }

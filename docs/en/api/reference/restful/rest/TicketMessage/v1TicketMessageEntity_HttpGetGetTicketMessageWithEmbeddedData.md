@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 922,
+  "EjMessageId": 672,
   "Ticket": null,
-  "CreatedAt": "2023-08-20T13:57:19.3909317+02:00",
+  "CreatedAt": "2006-12-13T23:04:04.9630066+01:00",
   "CreatedBy": null,
-  "Author": "veniam",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quas",
-  "TimeSpent": 373,
-  "Body": "tenetur",
-  "HtmlBody": "mollitia",
-  "EmailHeader": "orie@haley.info",
-  "DebugInfo": "perferendis",
-  "MailSorter": "quidem",
+  "MessageId": "eius",
+  "TimeSpent": 367,
+  "Body": "aut",
+  "HtmlBody": "alias",
+  "EmailHeader": "angelina@harvey.co.uk",
+  "DebugInfo": "nostrum",
+  "MailSorter": "dolor",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "doloremque",
+  "SearchTitle": "quo",
   "MessageHeaders": [
     {
-      "Id": 525,
-      "Name": "Yundt-Fisher",
-      "Value": "dolor",
+      "Id": 12,
+      "Name": "Metz, Shanahan and Jacobson",
+      "Value": "nisi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,49 +136,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 956
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "blanditiis",
-  "Sentiment": 137,
-  "SentimentConfidence": 310,
+  "Important": false,
+  "Language": "sint",
+  "Sentiment": 210,
+  "SentimentConfidence": 284,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 254,
-      "Name": "Muller Group",
-      "ContentType": "quis",
-      "AttSize": 245,
-      "InlineImage": true,
-      "ContentId": "harum",
-      "AuthKey": "doloribus",
+      "AttachmentId": 324,
+      "Name": "Hermann Inc and Sons",
+      "ContentType": "modi",
+      "AttSize": 845,
+      "InlineImage": false,
+      "ContentId": "accusantium",
+      "AuthKey": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 332
+          "FieldType": "System.Int32",
+          "FieldLength": 181
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "illum"
+    "CustomFields1": "beatae",
+    "CustomFields2": "rerum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 105
     }
   }
 }

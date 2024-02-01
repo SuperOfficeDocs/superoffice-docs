@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Flatley-Maggio",
-    "ToolTip": "Est quo earum soluta qui dolor mollitia enim.",
-    "Deleted": false,
-    "Rank": 317,
-    "Type": "iusto",
-    "ColorBlock": 226,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2010-04-15T13:57:19.6409229+02:00",
+    "Id": 265,
+    "Name": "Johns, Doyle and Eichmann",
+    "ToolTip": "Quia doloremque praesentium eveniet cupiditate eaque quibusdam.",
+    "Deleted": true,
+    "Rank": 22,
+    "Type": "ut",
+    "ColorBlock": 133,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2014-10-26T23:04:05.3015041+01:00",
     "ChildItems": [
       {
-        "Id": 28,
-        "Name": "Smitham, Veum and Frami",
-        "ToolTip": "Voluptatum quas et aut voluptates.",
+        "Id": 700,
+        "Name": "Block Group",
+        "ToolTip": "Nobis laborum dolor autem ducimus.",
         "Deleted": true,
-        "Rank": 748,
-        "Type": "vitae",
-        "ColorBlock": 725,
-        "IconHint": "omnis",
+        "Rank": 268,
+        "Type": "ut",
+        "ColorBlock": 811,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "1997-04-10T13:57:19.6409229+02:00",
+        "LastChanged": "2004-10-16T23:04:05.3015041+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "quis",
+        "ExtraInfo": "alias",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mossie Thompson"
+        "FullName": "Miss Odessa Cole"
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "repellat",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Enos Beahan Sr."
+    "FullName": "Heather Kub"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 596,
-    "Name": "Ryan-McKenzie",
-    "ToolTip": "Et assumenda qui est.",
+    "Id": 455,
+    "Name": "Walter, Heathcote and Hintz",
+    "ToolTip": "Eligendi exercitationem quia maxime a non tenetur in.",
     "Deleted": false,
-    "Rank": 248,
-    "Type": "ut",
-    "ColorBlock": 857,
-    "IconHint": "voluptatem",
+    "Rank": 367,
+    "Type": "est",
+    "ColorBlock": 19,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2019-02-07T13:57:19.6409229+01:00",
+    "LastChanged": "1996-11-05T23:04:05.3035042+01:00",
     "ChildItems": [
       {
-        "Id": 422,
-        "Name": "Wolff, Metz and Cassin",
-        "ToolTip": "Itaque magni cum aut nobis rerum.",
+        "Id": 1002,
+        "Name": "Harvey Group",
+        "ToolTip": "Repudiandae iure recusandae ut et qui est.",
         "Deleted": false,
-        "Rank": 575,
-        "Type": "eligendi",
-        "ColorBlock": 712,
-        "IconHint": "culpa",
+        "Rank": 713,
+        "Type": "architecto",
+        "ColorBlock": 654,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2000-01-18T13:57:19.6409229+01:00",
+        "LastChanged": "2015-10-18T23:04:05.3035042+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "veniam",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Prof. Tony Kariane Kohler Jr.",
+        "FullName": "Karolann Kozey Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldType": "System.String",
+            "FieldLength": 486
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Mrs. Coleman Blanda III",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Mrs. Sterling Murphy Larson PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 468
       }
     }
   }

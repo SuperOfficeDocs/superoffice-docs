@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 869,
+  "ReportId": 106,
   "ReportCategory": "All",
-  "Description": "Implemented assymetric model",
+  "Description": "Networked coherent pricing structure",
   "ReportLayout": "CalendarMonth",
-  "Name": "Kuphal Inc and Sons",
-  "AssociateId": 828,
-  "TemplateId": 966,
+  "Name": "Boyle, Nikolaus and Kessler",
+  "AssociateId": 327,
+  "TemplateId": 936,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 895
     }
   }
 }

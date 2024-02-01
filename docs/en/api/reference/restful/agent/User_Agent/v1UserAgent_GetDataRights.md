@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 745,
-  "TableName": "Wisozk LLC"
+  "RoleId": 792,
+  "TableName": "Robel-Harvey"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "doloremque",
-  "2": "perspiciatis"
+  "1": "dolorem",
+  "2": "voluptates"
 }
 ```

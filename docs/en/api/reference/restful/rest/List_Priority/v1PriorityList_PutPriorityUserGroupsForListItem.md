@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Ullrich LLC",
-    "ToolTip": "Ad adipisci assumenda beatae recusandae.",
-    "Deleted": true,
-    "Rank": 869,
-    "Type": "reiciendis",
-    "ColorBlock": 248,
-    "IconHint": "repellendus",
+    "Id": 631,
+    "Name": "Fahey, Schmeler and Gleason",
+    "ToolTip": "Et illo.",
+    "Deleted": false,
+    "Rank": 987,
+    "Type": "inventore",
+    "ColorBlock": 644,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2018-04-26T13:57:19.8596433+02:00",
+    "LastChanged": "2016-04-29T23:04:05.5939971+02:00",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Beer Group",
-        "ToolTip": "Sequi sit est temporibus ullam.",
+        "Id": 132,
+        "Name": "Dach Inc and Sons",
+        "ToolTip": "Ipsum temporibus.",
         "Deleted": false,
-        "Rank": 836,
-        "Type": "mollitia",
-        "ColorBlock": 260,
-        "IconHint": "sit",
+        "Rank": 582,
+        "Type": "consequatur",
+        "ColorBlock": 401,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2021-07-11T13:57:19.8596433+02:00",
+        "LastChanged": "2006-11-01T23:04:05.5939971+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Jordyn Gibson"
+        "ExtraInfo": "porro",
+        "StyleHint": "laudantium",
+        "Hidden": false,
+        "FullName": "Dewitt May Kunde DVM"
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "ratione",
-    "Hidden": true,
-    "FullName": "Justus Hammes"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "excepturi",
+    "Hidden": false,
+    "FullName": "Aric Roberts V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Von Group",
-    "ToolTip": "Dolores laborum exercitationem.",
+    "Id": 925,
+    "Name": "Botsford Group",
+    "ToolTip": "Vel amet eaque qui autem sequi.",
     "Deleted": false,
-    "Rank": 593,
-    "Type": "eos",
-    "ColorBlock": 405,
-    "IconHint": "voluptatem",
+    "Rank": 268,
+    "Type": "sunt",
+    "ColorBlock": 81,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2017-08-25T13:57:19.8596433+02:00",
+    "LastChanged": "2000-07-13T23:04:05.5954985+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Boyle, Kirlin and Rath",
-        "ToolTip": "Suscipit dolores rem et voluptatem.",
-        "Deleted": false,
-        "Rank": 519,
-        "Type": "totam",
-        "ColorBlock": 301,
-        "IconHint": "odit",
+        "Id": 339,
+        "Name": "Batz Group",
+        "ToolTip": "Autem commodi nihil.",
+        "Deleted": true,
+        "Rank": 758,
+        "Type": "iure",
+        "ColorBlock": 402,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2023-11-16T13:57:19.8596433+01:00",
+        "LastChanged": "2023-08-31T23:04:05.5954985+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
+        "ExtraInfo": "quia",
         "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Immanuel Jakubowski",
+        "Hidden": false,
+        "FullName": "Mrs. Leta Viola Wiegand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 234
+            "FieldLength": 270
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Lacey Gerlach PhD",
+    "ExtraInfo": "est",
+    "StyleHint": "ipsum",
+    "Hidden": false,
+    "FullName": "Fletcher Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 398
       }
     }
   }

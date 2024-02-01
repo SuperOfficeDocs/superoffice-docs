@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 35,
-    "Name": "Koepp-Tromp",
-    "Tooltip": "adipisci",
+    "HeadingId": 567,
+    "Name": "Trantow LLC",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 750,
-    "UdListDefinitionId": 124
+    "Rank": 148,
+    "UdListDefinitionId": 48
   },
   {
-    "HeadingId": 35,
-    "Name": "Koepp-Tromp",
-    "Tooltip": "adipisci",
+    "HeadingId": 567,
+    "Name": "Trantow LLC",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 750,
-    "UdListDefinitionId": 124
+    "Rank": 148,
+    "UdListDefinitionId": 48
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 738,
-    "Name": "Eichmann, Volkman and Legros",
-    "Tooltip": "dolores",
+    "HeadingId": 327,
+    "Name": "Maggio Group",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 231,
-    "UdListDefinitionId": 700,
+    "Rank": 148,
+    "UdListDefinitionId": 95,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldType": "System.Int32",
+        "FieldLength": 240
       }
     }
   }

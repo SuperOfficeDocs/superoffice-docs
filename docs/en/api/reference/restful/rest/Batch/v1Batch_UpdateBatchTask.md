@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "Name": "Abbott Inc and Sons",
-  "AssociateId": 206,
-  "DetailsTable": 884,
-  "DetailsRecord": 374,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 1001,
+  "Name": "Gaylord-Friesen",
+  "AssociateId": 651,
+  "DetailsTable": 430,
+  "DetailsRecord": 662,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nihil",
-    "ParameterObject2": "atque"
+    "ParameterObject1": "maiores",
+    "ParameterObject2": "nihil"
   },
-  "LastStarted": "2011-08-03T13:57:19.4221461+02:00",
-  "Created": "2021-01-04T13:57:19.4221461+01:00",
-  "StartCount": 939,
-  "DatabaseSerialNumber": "1047704",
-  "Context": "dolores",
-  "Result": "vel",
+  "LastStarted": "2012-02-18T23:04:05.0100056+01:00",
+  "Created": "2008-06-14T23:04:05.0100056+02:00",
+  "StartCount": 570,
+  "DatabaseSerialNumber": "763993",
+  "Context": "ut",
+  "Result": "animi",
   "State": "All",
-  "Description": "Enhanced homogeneous project",
-  "Response": "ullam",
-  "Request": "est",
-  "ProgressDescription": "Open-architected next generation open architecture",
-  "ProgressPercent": 727,
-  "FileName": "Schneider Inc and Sons",
+  "Description": "Face to face 3rd generation orchestration",
+  "Response": "quos",
+  "Request": "dignissimos",
+  "ProgressDescription": "Distributed tangible budgetary management",
+  "ProgressPercent": 400,
+  "FileName": "Huel-Robel",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 528,
-  "Name": "Kautzer-Turcotte",
-  "AssociateId": 78,
-  "DetailsTable": 313,
-  "DetailsRecord": 439,
-  "IsSystemTask": true,
+  "Id": 864,
+  "Name": "Satterfield, Cummings and Kirlin",
+  "AssociateId": 592,
+  "DetailsTable": 946,
+  "DetailsRecord": 144,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "eum"
+    "ParameterObject1": "eveniet",
+    "ParameterObject2": "voluptatum"
   },
-  "LastStarted": "2018-09-08T13:57:19.4221461+02:00",
-  "Created": "1996-10-21T13:57:19.4221461+02:00",
-  "StartCount": 299,
-  "DatabaseSerialNumber": "1667918",
-  "Context": "tempora",
-  "Result": "vero",
+  "LastStarted": "2005-03-19T23:04:05.0105079+01:00",
+  "Created": "2006-09-15T23:04:05.0105079+02:00",
+  "StartCount": 899,
+  "DatabaseSerialNumber": "1023944",
+  "Context": "saepe",
+  "Result": "incidunt",
   "State": "All",
-  "Description": "Polarised value-added synergy",
-  "Response": "dolorem",
+  "Description": "Seamless hybrid adapter",
+  "Response": "est",
   "Request": "vel",
-  "ProgressDescription": "Optional bifurcated application",
-  "ProgressPercent": 638,
-  "FileName": "Kautzer Group",
+  "ProgressDescription": "Adaptive bandwidth-monitored algorithm",
+  "ProgressPercent": 406,
+  "FileName": "Wintheiser-Schiller",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 715
     }
   }
 }

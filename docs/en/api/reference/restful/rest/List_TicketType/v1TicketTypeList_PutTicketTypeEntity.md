@@ -96,23 +96,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 765,
-  "Name": "Rath LLC",
-  "Rank": 637,
-  "Tooltip": "quidem",
-  "Icon": "voluptates",
-  "DefaultTicketStatus": 30,
+  "TicketTypeId": 208,
+  "Name": "Paucek, Lesch and West",
+  "Rank": 252,
+  "Tooltip": "in",
+  "Icon": "mollitia",
+  "DefaultTicketStatus": 647,
   "TicketStatuses": [
-    601,
-    586
+    487,
+    212
   ],
-  "DefaultTicketPriority": 752,
+  "DefaultTicketPriority": 803,
   "TicketPriorities": [
-    624,
-    711
+    998,
+    124
   ],
-  "ReplyTemplate": 834,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 335,
+  "IsExternalVisible": true,
   "IsDefault": false
 }
 ```
@@ -124,30 +124,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 473,
-  "Name": "Schaefer, Ullrich and Conroy",
-  "Rank": 1001,
-  "Tooltip": "magnam",
-  "Icon": "temporibus",
-  "DefaultTicketStatus": 965,
+  "TicketTypeId": 372,
+  "Name": "Bergnaum Inc and Sons",
+  "Rank": 836,
+  "Tooltip": "et",
+  "Icon": "sed",
+  "DefaultTicketStatus": 820,
   "TicketStatuses": [
-    924,
-    961
+    336,
+    764
   ],
-  "DefaultTicketPriority": 200,
+  "DefaultTicketPriority": 502,
   "TicketPriorities": [
-    753,
-    911
+    500,
+    890
   ],
-  "ReplyTemplate": 345,
+  "ReplyTemplate": 201,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   }
 }

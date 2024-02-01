@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=et
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=eum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Glover, Beier and Koepp",
-    "ToolTip": "Occaecati voluptatem consequuntur qui id.",
+    "Id": 169,
+    "Name": "Price LLC",
+    "ToolTip": "Quo officiis nostrum ratione.",
     "Deleted": false,
-    "Rank": 229,
-    "Type": "itaque",
+    "Rank": 496,
+    "Type": "adipisci",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Hartmann-Koelpin",
-        "ToolTip": "Tenetur rerum nulla qui.",
+        "Id": 834,
+        "Name": "D'Amore Group",
+        "ToolTip": "Officia quis vero inventore vero voluptates quo.",
         "Deleted": false,
-        "Rank": 563,
-        "Type": "repellat",
+        "Rank": 215,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 628,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "error",
-        "FullName": "Reilly Crooks",
+        "IconHint": "voluptates",
+        "ColorBlock": 42,
+        "ExtraInfo": "et",
+        "StyleHint": "praesentium",
+        "FullName": "Sasha Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldLength": 416
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 320,
-    "ExtraInfo": "pariatur",
-    "StyleHint": "hic",
-    "FullName": "Mr. Watson Windler",
+    "IconHint": "ab",
+    "ColorBlock": 951,
+    "ExtraInfo": "nisi",
+    "StyleHint": "consectetur",
+    "FullName": "Ms. Dawson McClure V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldLength": 356
       }
     }
   }

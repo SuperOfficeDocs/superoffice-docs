@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 211,
+  "ContactId": 5,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bayer, Turner and Schiller",
-    "SaleDate": "2008-12-01T13:57:13.1757129+01:00",
-    "SaleId": 358,
-    "Probability": 269,
-    "Title": "qui",
-    "Amount": 5305.862,
-    "Currency": "commodi",
-    "ProjectName": "Torp-Cronin",
-    "AssociateFullName": "Hannah Johnston",
-    "Description": "Robust tangible website",
+    "ContactName": "Sawayn, Jacobs and Stark",
+    "SaleDate": "2018-12-29T23:03:56.9286176+01:00",
+    "SaleId": 783,
+    "Probability": 788,
+    "Title": "sunt",
+    "Amount": 16475.438,
+    "Currency": "maiores",
+    "ProjectName": "Grant, Konopelski and Ruecker",
+    "AssociateFullName": "Hadley Rosario Sanford DDS",
+    "Description": "Balanced full-range info-mediaries",
     "Status": "Lost",
-    "WeightedAmount": 2162.46,
-    "ProjectId": 502,
-    "EarningPercent": 4754.278,
-    "Earning": 18675.505999999998,
-    "ContactId": 392,
-    "AssociateId": 911,
-    "PersonId": 960,
-    "SaleTypeId": 202,
-    "SaleTypeName": "Sipes, Nicolas and Daniel",
-    "PersonFullName": "Alec Ziemann DVM",
+    "WeightedAmount": 7885.1439999999993,
+    "ProjectId": 602,
+    "EarningPercent": 3760.7999999999997,
+    "Earning": 26143.827999999998,
+    "ContactId": 446,
+    "AssociateId": 781,
+    "PersonId": 504,
+    "SaleTypeId": 403,
+    "SaleTypeName": "Schultz, Gutmann and Howell",
+    "PersonFullName": "Maude Ruecker",
     "Completed": "Completed",
-    "ActiveErpLinks": 452,
-    "NextDueDate": "2006-11-14T13:57:13.1757129+01:00",
-    "Number": "1241041",
+    "ActiveErpLinks": 394,
+    "NextDueDate": "2004-01-15T23:03:56.930119+01:00",
+    "Number": "649652",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldType": "System.String",
+        "FieldLength": 415
       }
     }
   }

@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 669,
-  "Name": "Kovacek-Rau",
-  "Description": "Sharable foreground moderator",
-  "DefaultHeight": 855,
-  "DefaultWidth": 597,
+  "DashboardTileDefinitionId": 368,
+  "Name": "Borer-Koepp",
+  "Description": "Multi-lateral 3rd generation customer loyalty",
+  "DefaultHeight": 340,
+  "DefaultWidth": 676,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Padberg, Weimann and Stehr",
-  "SelectionId": 31,
+  "EntityName": "Denesik, D'Amore and Labadie",
+  "SelectionId": 44,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "eos",
   "Measure": "Average",
-  "MeasureField": "quis",
-  "SortBy": "et",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 993,
-  "MeasureByField": "qui",
+  "MeasureField": "laudantium",
+  "SortBy": "assumenda",
+  "LayoutConfig": "doloremque",
+  "SecondarySelectionId": 317,
+  "MeasureByField": "minima",
   "Usage": "Dashboard",
-  "ProviderName": "O'Reilly-Gislason",
+  "ProviderName": "Kozey Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 333
     }
   }
 }

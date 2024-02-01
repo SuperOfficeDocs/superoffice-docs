@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 59,
-  "ListItemId": 851,
+  "UdListDefinitionId": 488,
+  "ListItemId": 414,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Grimes-Marvin",
-    "ToolTip": "Dicta doloremque impedit ut.",
-    "Deleted": false,
-    "Rank": 550,
-    "Type": "praesentium",
-    "ColorBlock": 288,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2000-06-12T13:57:12.5118644+02:00",
+    "Id": 283,
+    "Name": "Bailey-Pagac",
+    "ToolTip": "Sunt dolores sunt voluptatum.",
+    "Deleted": true,
+    "Rank": 570,
+    "Type": "sint",
+    "ColorBlock": 242,
+    "IconHint": "tempore",
+    "Selected": true,
+    "LastChanged": "2008-08-03T23:03:56.2186231+02:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Treutel, McLaughlin and Wolf",
-        "ToolTip": "Qui et voluptas aut temporibus totam rerum.",
-        "Deleted": true,
-        "Rank": 816,
-        "Type": "maxime",
-        "ColorBlock": 858,
-        "IconHint": "ab",
+        "Id": 801,
+        "Name": "O'Connell Group",
+        "ToolTip": "Sint aliquid sit.",
+        "Deleted": false,
+        "Rank": 877,
+        "Type": "et",
+        "ColorBlock": 25,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2021-09-29T13:57:12.5118644+02:00",
+        "LastChanged": "2016-10-22T23:03:56.2186231+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "eius",
+        "ExtraInfo": "tempora",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Ms. Luna Terry",
+        "FullName": "Ms. Florencio Kristian Nienow DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 659
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Mr. Stacey Lauretta Pfeffer",
+    "ExtraInfo": "qui",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Hershel Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 551
       }
     }
   }

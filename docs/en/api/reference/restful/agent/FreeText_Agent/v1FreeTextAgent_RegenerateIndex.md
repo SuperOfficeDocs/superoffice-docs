@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "Luettgen-Homenick",
-  "AssociateId": 904,
-  "DetailsTable": 872,
-  "DetailsRecord": 245,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 42,
+  "Name": "Kertzmann-Carroll",
+  "AssociateId": 192,
+  "DetailsTable": 879,
+  "DetailsRecord": 609,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "consequatur",
-    "ParameterObject2": "quis"
+    "ParameterObject1": "amet",
+    "ParameterObject2": "deleniti"
   },
-  "LastStarted": "2004-10-08T13:57:12.4337359+02:00",
-  "Created": "2000-09-26T13:57:12.4337359+02:00",
-  "StartCount": 774,
-  "DatabaseSerialNumber": "807687",
-  "Context": "error",
-  "Result": "ipsam",
+  "LastStarted": "2013-10-22T23:03:56.1296273+02:00",
+  "Created": "2021-04-08T23:03:56.1296273+02:00",
+  "StartCount": 386,
+  "DatabaseSerialNumber": "74980",
+  "Context": "quibusdam",
+  "Result": "architecto",
   "State": "All",
-  "Description": "Realigned solution-oriented paradigm",
-  "Response": "reprehenderit",
-  "Request": "delectus",
-  "ProgressDescription": "Open-source fresh-thinking installation",
-  "ProgressPercent": 87,
-  "FileName": "Cronin Group",
+  "Description": "Intuitive interactive internet solution",
+  "Response": "nihil",
+  "Request": "harum",
+  "ProgressDescription": "Re-engineered reciprocal task-force",
+  "ProgressPercent": 320,
+  "FileName": "Bednar Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldType": "System.String",
+      "FieldLength": 342
     }
   }
 }

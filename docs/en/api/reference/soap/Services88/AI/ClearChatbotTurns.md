@@ -1,27 +1,27 @@
 ---
-title: Services88.ListAgent.GetTicketType SOAP
+title: Services88.AIAgent.ClearChatbotTurns SOAP
 generated: true
-uid: Services88-List-GetTicketType
+uid: Services88-AI-ClearChatbotTurns
 ---
 
-# Services88 List GetTicketType
+# Services88 AI ClearChatbotTurns
 
-SOAP request and response examples **Remote/Services88/List.svc**
-Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetTicketType">SuperOffice.Services88.IListAgent.GetTicketType</see> method.
+SOAP request and response examples **Remote/Services88/AI.svc**
+Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.ClearChatbotTurns">SuperOffice.Services88.IAIAgent.ClearChatbotTurns</see> method.
 
-## GetTicketType
-
-
+## ClearChatbotTurns
 
 
 
-[WSDL file for Services88/List](../Services88-List.md)
+
+
+[WSDL file for Services88/AI](../Services88-AI.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
 
 Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
 
-## GetTicketType Request
+## ClearChatbotTurns Request
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -32,15 +32,15 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
- xmlns:List="http://www.superoffice.net/ws/crm/NetServer/Services88">
-  <List:ApplicationToken>1234567-1234-9876</List:ApplicationToken>
-  <List:Credentials>
-    <List:Ticket>7T:1234abcxyzExample==</List:Ticket>
-  </List:Credentials>
+ xmlns:AI="http://www.superoffice.net/ws/crm/NetServer/Services88">
+  <AI:ApplicationToken>1234567-1234-9876</AI:ApplicationToken>
+  <AI:Credentials>
+    <AI:Ticket>7T:1234abcxyzExample==</AI:Ticket>
+  </AI:Credentials>
  <SOAP-ENV:Body>
-   <List:GetTicketType>
-    <List:TicketTypeId xsi:type="xsd:int">0</List:TicketTypeId>
-   </List:GetTicketType>
+   <AI:ClearChatbotTurns>
+    <AI:ChatId xsi:type="xsd:string"></AI:ChatId>
+   </AI:ClearChatbotTurns>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
@@ -48,7 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 ```
 
 
-## GetTicketType Response
+## ClearChatbotTurns Response
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -59,15 +59,10 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
  xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
- xmlns:List="http://www.superoffice.net/ws/crm/NetServer/Services88">
+ xmlns:AI="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
-  <List:GetTicketTypeResponse>
-   <List:Response xsi:type="List:TicketType">
-    <List:Id xsi:type="xsd:int">0</List:Id>
-    <List:Value xsi:type="xsd:string"></List:Value>
-    <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
-   </List:Response>
-  </List:GetTicketTypeResponse>
+  <AI:ClearChatbotTurnsResponse>
+  </AI:ClearChatbotTurnsResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 

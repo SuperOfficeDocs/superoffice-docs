@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 629,
-  "TopicId": 634,
+  "ChatSessionId": 65,
+  "TopicId": 784,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolores",
-  "CustomerHost": "qui",
-  "CustomerName": "Mraz-Durgan",
-  "CustomerEmail": "una@greenholt.biz",
-  "CustomerPhone": "1-203-972-7692",
+  "CustomerAlias": "sunt",
+  "CustomerHost": "et",
+  "CustomerName": "Bednar, Jenkins and Kreiger",
+  "CustomerEmail": "zetta.doyle@vandervort.co.uk",
+  "CustomerPhone": "375-994-2942 x540",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Harris LLC",
+  "CustomerCompanyName": "Erdman LLC",
   "Status": "Closed",
-  "FirstMessage": "tempore",
+  "FirstMessage": "impedit",
   "LastMessage": "qui",
-  "WhenRequested": "2019-06-11T13:57:18.4190587+02:00",
-  "WhenStarted": "2001-09-26T13:57:18.4190587+02:00",
-  "WhenEnded": "2022-04-19T13:57:18.4190587+02:00",
-  "WhenIdle": "2008-05-13T13:57:18.4190587+02:00",
-  "WhenFetched": "2002-03-26T13:57:18.4190587+01:00",
-  "SessionKey": "ipsa",
-  "InitialQueuePos": 717,
-  "AlertLevel": 616,
-  "Rank": 660,
+  "WhenRequested": "2014-07-31T23:04:03.686527+02:00",
+  "WhenStarted": "1997-07-17T23:04:03.686527+02:00",
+  "WhenEnded": "2018-10-10T23:04:03.686527+02:00",
+  "WhenIdle": "2016-08-21T23:04:03.686527+02:00",
+  "WhenFetched": "2011-06-17T23:04:03.686527+02:00",
+  "SessionKey": "tempora",
+  "InitialQueuePos": 734,
+  "AlertLevel": 511,
+  "Rank": 252,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 89,
+  "ChatbotIsActive": true,
+  "Rating": 636,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 307
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

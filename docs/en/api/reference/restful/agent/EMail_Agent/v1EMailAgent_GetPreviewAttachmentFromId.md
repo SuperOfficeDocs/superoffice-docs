@@ -93,10 +93,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 99,
-  "AttachmentId": "omnis",
-  "AttachmentType": "sed",
-  "AttachmentFilename": "veniam"
+  "MailItemId": 439,
+  "AttachmentId": "explicabo",
+  "AttachmentType": "id",
+  "AttachmentFilename": "temporibus"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated discrete concept",
-  "Filename": "voluptatum",
-  "Size": 570,
-  "Type": "reprehenderit",
-  "Encoding": "provident",
-  "Id": "maxime",
-  "Disposition": "aspernatur",
+  "Description": "Phased dynamic standardization",
+  "Filename": "consectetur",
+  "Size": 828,
+  "Type": "nam",
+  "Encoding": "dolore",
+  "Id": "eum",
+  "Disposition": "fuga",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 756
     }
   }
 }

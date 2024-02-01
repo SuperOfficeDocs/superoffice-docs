@@ -139,41 +139,41 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 372,
-  "TopicId": 919,
+  "ChatSessionId": 964,
+  "TopicId": 827,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorem",
-  "CustomerHost": "fuga",
-  "CustomerName": "Blick, Murray and Lang",
-  "CustomerEmail": "flavio@conn.com",
-  "CustomerPhone": "242.932.1097 x15919",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Johns-Tillman",
+  "CustomerAlias": "quia",
+  "CustomerHost": "placeat",
+  "CustomerName": "Cole, Mitchell and Roberts",
+  "CustomerEmail": "tressie_sanford@hoeger.us",
+  "CustomerPhone": "994-500-2837 x0985",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Koepp, Casper and Bosco",
   "Status": "Closed",
-  "FirstMessage": "reprehenderit",
-  "LastMessage": "non",
-  "WhenRequested": "2015-12-29T13:57:18.4503108+01:00",
-  "WhenStarted": "2022-01-16T13:57:18.4503108+01:00",
-  "WhenEnded": "2004-08-03T13:57:18.4503108+02:00",
-  "WhenIdle": "2016-10-11T13:57:18.4503108+02:00",
-  "WhenFetched": "2021-07-29T13:57:18.4503108+02:00",
-  "SessionKey": "voluptates",
-  "InitialQueuePos": 508,
-  "AlertLevel": 536,
-  "Rank": 129,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "possimus",
+  "WhenRequested": "2018-05-14T23:04:03.726525+02:00",
+  "WhenStarted": "2011-12-14T23:04:03.726525+01:00",
+  "WhenEnded": "2002-10-06T23:04:03.726525+02:00",
+  "WhenIdle": "2004-05-06T23:04:03.726525+02:00",
+  "WhenFetched": "2021-10-25T23:04:03.726525+02:00",
+  "SessionKey": "blanditiis",
+  "InitialQueuePos": 862,
+  "AlertLevel": 385,
+  "Rank": 260,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 186
+  "ChatbotIsActive": false,
+  "Rating": 388
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 128,
-  "TopicId": 993,
+  "ChatSessionId": 290,
+  "TopicId": 451,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aliquam",
-  "CustomerHost": "ea",
-  "CustomerName": "Jacobi-Prosacco",
-  "CustomerEmail": "jessie@russel.com",
-  "CustomerPhone": "698-348-1739 x43567",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Leuschke-Jacobs",
+  "CustomerAlias": "maiores",
+  "CustomerHost": "molestias",
+  "CustomerName": "Trantow Inc and Sons",
+  "CustomerEmail": "kaley@heaney.name",
+  "CustomerPhone": "166.877.3124 x857",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Bode, Nitzsche and Graham",
   "Status": "Closed",
-  "FirstMessage": "facilis",
-  "LastMessage": "magni",
-  "WhenRequested": "2018-06-06T13:57:18.4503108+02:00",
-  "WhenStarted": "2007-10-20T13:57:18.4503108+02:00",
-  "WhenEnded": "2017-10-31T13:57:18.4503108+01:00",
-  "WhenIdle": "2005-03-15T13:57:18.4503108+01:00",
-  "WhenFetched": "2019-11-12T13:57:18.4503108+01:00",
-  "SessionKey": "vitae",
-  "InitialQueuePos": 605,
-  "AlertLevel": 885,
-  "Rank": 912,
+  "FirstMessage": "sed",
+  "LastMessage": "recusandae",
+  "WhenRequested": "2020-09-25T23:04:03.7375232+02:00",
+  "WhenStarted": "2022-11-30T23:04:03.7375232+01:00",
+  "WhenEnded": "1997-01-01T23:04:03.7375232+01:00",
+  "WhenIdle": "2022-09-04T23:04:03.7375232+02:00",
+  "WhenFetched": "2006-08-05T23:04:03.7375232+02:00",
+  "SessionKey": "nesciunt",
+  "InitialQueuePos": 922,
+  "AlertLevel": 816,
+  "Rank": 758,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 438,
+  "ChatbotIsActive": false,
+  "Rating": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

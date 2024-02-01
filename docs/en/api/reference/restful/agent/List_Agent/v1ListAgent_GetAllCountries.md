@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 75,
-    "Name": "Schroeder-Parisian",
-    "CurrencyId": 316,
-    "EnglishName": "Heaney-Kovacek",
+    "CountryId": 287,
+    "Name": "Lindgren-Flatley",
+    "CurrencyId": 810,
+    "EnglishName": "Gorczany, Feil and Halvorson",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Multi-layered multi-state synergy",
-    "OrgNrText": "179792",
-    "InterAreaPrefix": "qui",
-    "DialInPrefix": "ab",
-    "ZipPrefix": "voluptatem",
-    "DomainName": "Lang, Turner and Keeling",
-    "AddressLayoutId": 503,
-    "DomesticAddressLayoutId": 850,
-    "ForeignAddressLayoutId": 128,
-    "Rank": 346,
-    "Tooltip": "ipsum",
-    "Deleted": true,
+    "ImageDescription": "Implemented real-time matrix",
+    "OrgNrText": "1294121",
+    "InterAreaPrefix": "saepe",
+    "DialInPrefix": "eveniet",
+    "ZipPrefix": "soluta",
+    "DomainName": "Russel-Ondricka",
+    "AddressLayoutId": 746,
+    "DomesticAddressLayoutId": 661,
+    "ForeignAddressLayoutId": 878,
+    "Rank": 767,
+    "Tooltip": "fuga",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 441
       }
     }
   }

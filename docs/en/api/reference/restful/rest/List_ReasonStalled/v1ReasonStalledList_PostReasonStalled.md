@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Hessel Group",
-  "Tooltip": "eum",
+  "Id": 959,
+  "Name": "Ondricka Inc and Sons",
+  "Tooltip": "repellat",
   "Deleted": true,
-  "UdListDefinitionId": 729,
-  "Rank": 463
+  "UdListDefinitionId": 804,
+  "Rank": 653
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 591,
-  "Name": "Sipes, Veum and Schuster",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "UdListDefinitionId": 441,
-  "Rank": 132,
+  "Id": 534,
+  "Name": "Morar LLC",
+  "Tooltip": "facere",
+  "Deleted": true,
+  "UdListDefinitionId": 604,
+  "Rank": 981,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 448
     }
   }
 }

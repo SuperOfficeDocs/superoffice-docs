@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Weber-Hilll",
-    "ToolTip": "Quis quod aut eum adipisci rerum ut totam.",
-    "Deleted": false,
-    "Rank": 329,
-    "Type": "et",
-    "ColorBlock": 845,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2013-11-28T13:57:19.8596433+01:00",
+    "Id": 650,
+    "Name": "Veum-Schuster",
+    "ToolTip": "Autem vitae.",
+    "Deleted": true,
+    "Rank": 21,
+    "Type": "placeat",
+    "ColorBlock": 640,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2012-04-02T23:04:05.6115+02:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Witting, Monahan and Rowe",
-        "ToolTip": "Quo reprehenderit.",
-        "Deleted": false,
-        "Rank": 396,
-        "Type": "aspernatur",
-        "ColorBlock": 14,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2001-08-12T13:57:19.8596433+02:00",
+        "Id": 373,
+        "Name": "Crist-O'Keefe",
+        "ToolTip": "Praesentium voluptatibus quia consectetur ab.",
+        "Deleted": true,
+        "Rank": 692,
+        "Type": "labore",
+        "ColorBlock": 495,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2002-10-23T23:04:05.6115+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "aut",
+        "ExtraInfo": "hic",
+        "StyleHint": "ad",
         "Hidden": true,
-        "FullName": "Ms. Gennaro Stamm"
+        "FullName": "Eliseo Rice"
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "maiores",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Ms. Jovani Serena Hagenes"
+    "FullName": "Courtney Torphy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Grant, Spencer and Bergstrom",
-    "ToolTip": "Unde qui velit sed quaerat.",
+    "Id": 515,
+    "Name": "Zulauf Inc and Sons",
+    "ToolTip": "Sit iste officiis.",
     "Deleted": false,
-    "Rank": 891,
-    "Type": "asperiores",
-    "ColorBlock": 864,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2007-11-19T13:57:19.8596433+01:00",
+    "Rank": 519,
+    "Type": "reiciendis",
+    "ColorBlock": 581,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2007-09-08T23:04:05.6129988+02:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Morissette, Lueilwitz and Schaefer",
-        "ToolTip": "Aut ea nam.",
+        "Id": 660,
+        "Name": "Mills, Beier and Ruecker",
+        "ToolTip": "Corporis ut deserunt.",
         "Deleted": false,
-        "Rank": 495,
-        "Type": "deserunt",
-        "ColorBlock": 17,
-        "IconHint": "et",
+        "Rank": 846,
+        "Type": "iure",
+        "ColorBlock": 130,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2013-04-03T13:57:19.8596433+02:00",
+        "LastChanged": "2003-09-03T23:04:05.6129988+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "in",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Ervin Lemke",
+        "FullName": "Clifford Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldType": "System.Int32",
+            "FieldLength": 837
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "esse",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Annie Spinka",
+    "FullName": "Dr. Ervin Bridgette Medhurst II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldType": "System.Int32",
+        "FieldLength": 974
       }
     }
   }

@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 927,
-  "ERPQuoteAlternativeKey": "quisquam",
-  "QuoteVersionId": 937,
-  "Name": "Batz, Nader and Rau",
-  "Description": "Persevering uniform middleware",
+  "QuoteAlternativeId": 126,
+  "ERPQuoteAlternativeKey": "facere",
+  "QuoteVersionId": 181,
+  "Name": "Champlin, Legros and Connelly",
+  "Description": "Re-contextualized tertiary orchestration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 31321.196,
-  "ERPDiscountAmount": 9492.886,
-  "DiscountPercent": 20076.404,
-  "DiscountAmount": 21790.701999999997,
+  "ERPDiscountPercent": 26942.998,
+  "ERPDiscountAmount": 28265.546,
+  "DiscountPercent": 10865.578,
+  "DiscountAmount": 11191.514,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "accusamus",
-  "VAT": 5086.482,
-  "EarningPercent": 13773.93,
-  "EarningAmount": 3983.314,
-  "SubTotal": 11335.678,
-  "TotalPrice": 18358.971999999998,
-  "ExtraField1": "rerum",
-  "ExtraField2": "nemo",
-  "ExtraField3": "alias",
-  "ExtraField4": "voluptatibus",
-  "ExtraField5": "deleniti",
+  "VATInfo": "qui",
+  "VAT": 21511.775999999998,
+  "EarningPercent": 7860.072,
+  "EarningAmount": 5656.87,
+  "SubTotal": 17055.228,
+  "TotalPrice": 8631.036,
+  "ExtraField1": "fugiat",
+  "ExtraField2": "asperiores",
+  "ExtraField3": "repudiandae",
+  "ExtraField4": "tenetur",
+  "ExtraField5": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=veniam
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=id
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Kertzmann LLC",
-    "ToolTip": "Aut eveniet exercitationem culpa ullam ducimus est.",
-    "Deleted": false,
-    "Rank": 394,
-    "Type": "qui",
+    "Id": 903,
+    "Name": "Shanahan Group",
+    "ToolTip": "Doloribus vel recusandae illo soluta libero voluptates alias.",
+    "Deleted": true,
+    "Rank": 495,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Hilll-Rice",
-        "ToolTip": "Veniam ad.",
+        "Id": 779,
+        "Name": "Zulauf, Wunsch and Hauck",
+        "ToolTip": "Odio nobis ipsum et eveniet.",
         "Deleted": false,
-        "Rank": 922,
-        "Type": "unde",
+        "Rank": 951,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 94,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eaque",
-        "FullName": "Clarabelle Jacobi",
+        "IconHint": "nesciunt",
+        "ColorBlock": 156,
+        "ExtraInfo": "magnam",
+        "StyleHint": "libero",
+        "FullName": "Fannie D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 348
+            "FieldLength": 371
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 653,
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "inventore",
-    "FullName": "Ms. Brady Satterfield III",
+    "IconHint": "soluta",
+    "ColorBlock": 541,
+    "ExtraInfo": "provident",
+    "StyleHint": "quae",
+    "FullName": "Nathaniel Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 784
       }
     }
   }

@@ -83,15 +83,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 847,
-  "PersonName": "Ondricka Inc and Sons",
+  "ContactId": 462,
+  "PersonName": "Kuhic, Considine and Homenick",
   "PhoneNumbers": [
-    "942060",
-    "1057151"
+    "1347876",
+    "1026453"
   ],
   "Emails": [
-    "ulices@osinski.ca",
-    "nathanial@schmeler.info"
+    "irma_huels@gradyhilpert.co.uk",
+    "sallie_osinski@howell.us"
   ]
 }
 ```
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

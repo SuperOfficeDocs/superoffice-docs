@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 243,
-    "Name": "Grant Group",
-    "Description": "Visionary real-time success",
-    "DeltaJson": "aut",
+    "ConfigurableScreenDeltaId": 43,
+    "Name": "Jast-Little",
+    "Description": "Cloned transitional archive",
+    "DeltaJson": "quia",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "nihil",
-    "UpdatedDate": "2008-12-27T13:57:11.8393076+01:00",
-    "CreatedDate": "1997-03-10T13:57:11.8393076+01:00",
+    "RecipeId": "accusantium",
+    "UpdatedDate": "2008-07-29T23:03:55.2401392+02:00",
+    "CreatedDate": "1997-04-09T23:03:55.2401392+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      900,
-      567
+      965,
+      441
     ],
-    "AppliesToKey": "excepturi",
+    "AppliesToKey": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 649
       }
     }
   }

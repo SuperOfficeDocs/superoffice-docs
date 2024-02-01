@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=consequatur
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=officia
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Gutkowski-Orn",
-    "ToolTip": "Autem libero.",
+    "Id": 185,
+    "Name": "Aufderhar-Cormier",
+    "ToolTip": "Voluptatibus voluptatem impedit occaecati dolor vel sunt.",
     "Deleted": false,
-    "Rank": 238,
-    "Type": "totam",
+    "Rank": 260,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 385,
-        "Name": "Schimmel-Greenholt",
-        "ToolTip": "Corrupti ut in dolorum.",
+        "Id": 772,
+        "Name": "Conn LLC",
+        "ToolTip": "Neque beatae sint velit aut repellat.",
         "Deleted": false,
-        "Rank": 284,
-        "Type": "numquam",
+        "Rank": 493,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 872,
-        "ExtraInfo": "iure",
-        "StyleHint": "vel",
-        "FullName": "Ila Huels",
+        "IconHint": "fuga",
+        "ColorBlock": 545,
+        "ExtraInfo": "aut",
+        "StyleHint": "quia",
+        "FullName": "Chelsey Lola Bechtelar MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 451
+            "FieldType": "System.Int32",
+            "FieldLength": 365
           }
         }
       }
     ],
-    "IconHint": "vitae",
-    "ColorBlock": 419,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "tenetur",
-    "FullName": "Sidney Thompson",
+    "IconHint": "esse",
+    "ColorBlock": 700,
+    "ExtraInfo": "architecto",
+    "StyleHint": "placeat",
+    "FullName": "Miss Quinn Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldType": "System.Int32",
+        "FieldLength": 586
       }
     }
   }

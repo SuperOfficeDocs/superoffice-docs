@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "laboriosam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "laboriosam",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 716,
-  "DashboardId": 664,
-  "Height": 386,
-  "Width": 501,
-  "Rank": 780,
+  "DashboardTileId": 474,
+  "DashboardId": 371,
+  "Height": 379,
+  "Width": 699,
+  "Rank": 563,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 667
     }
   },
   "_Links": {

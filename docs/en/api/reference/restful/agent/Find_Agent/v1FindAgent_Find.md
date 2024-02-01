@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quidem",
-  "ProviderName": "Bailey LLC",
-  "StorageKey": "et",
-  "PageSize": 286,
-  "PageNumber": 963
+  "StorageType": "ipsam",
+  "ProviderName": "Lynch, Osinski and Lubowitz",
+  "StorageKey": "blanditiis",
+  "PageSize": 91,
+  "PageNumber": 773
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Dooley, Goyette and Olson",
-      "DisplayTooltip": "earum",
-      "DisplayType": "sint",
+      "DisplayName": "White LLC",
+      "DisplayTooltip": "facilis",
+      "DisplayType": "quis",
       "CanOrderBy": false,
-      "Name": "Waters-Sauer",
+      "Name": "Bahringer-Bernier",
       "CanRestrictBy": false,
-      "RestrictionType": "alias",
-      "RestrictionListName": "Hand, Bernier and Ernser",
+      "RestrictionType": "incidunt",
+      "RestrictionListName": "Fadel, Hodkiewicz and Larkin",
       "IsVisible": false,
-      "ExtraInfo": "molestiae",
-      "Width": "rem",
-      "IconHint": "qui",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "at",
+      "Width": "hic",
+      "IconHint": "placeat",
+      "HeadingIconHint": "vero"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rutherford Group",
-      "PrimaryKey": 814,
+      "EntityName": "McDermott Group",
+      "PrimaryKey": 687,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "neque",
-          "LinkHint": "odit"
+          "DisplayValue": "voluptatibus",
+          "TooltipHint": "voluptas",
+          "LinkHint": "doloremque"
         }
       },
-      "LinkHint": "commodi",
-      "StyleHint": "est",
+      "LinkHint": "et",
+      "StyleHint": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldType": "System.String",
+          "FieldLength": 436
         }
       }
     }
   ],
-  "RowCount": 606,
+  "RowCount": 49,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 224
     }
   }
 }

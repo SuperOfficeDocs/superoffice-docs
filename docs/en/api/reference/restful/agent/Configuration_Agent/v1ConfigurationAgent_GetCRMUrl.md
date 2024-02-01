@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "commodi",
-  "Currents": "porro",
-  "Frameless": false
+  "SoProtocol": "dolorem",
+  "Currents": "id",
+  "Frameless": true
 }
 ```
 

@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abernathy-Nienow",
-  "ForceFlatList": false,
-  "AdditionalInfo": "nam",
+  "Name": "Reynolds LLC",
+  "ForceFlatList": true,
+  "AdditionalInfo": "soluta",
   "HistoryItems": [
-    676,
-    330
+    452,
+    237
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Prosacco-Schmidt",
-    "ToolTip": "Quis totam dolorem quisquam voluptas.",
-    "Deleted": true,
-    "Rank": 613,
-    "Type": "eveniet",
+    "Id": 255,
+    "Name": "Gerlach, Mertz and Prosacco",
+    "ToolTip": "Et sit iste iure qui aut quidem.",
+    "Deleted": false,
+    "Rank": 315,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Bashirian, Weimann and Franecki",
-        "ToolTip": "Rerum at commodi vel quisquam.",
-        "Deleted": true,
-        "Rank": 132,
-        "Type": "tempore",
+        "Id": 457,
+        "Name": "Rath Group",
+        "ToolTip": "Quis facere nihil aut ab.",
+        "Deleted": false,
+        "Rank": 251,
+        "Type": "pariatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quasi",
-        "ColorBlock": 931,
-        "ExtraInfo": "aut",
-        "StyleHint": "quod",
-        "FullName": "Ms. Crawford Cruickshank MD",
+        "IconHint": "qui",
+        "ColorBlock": 939,
+        "ExtraInfo": "ut",
+        "StyleHint": "hic",
+        "FullName": "Miss Edwin Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 598
+            "FieldLength": 952
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 821,
-    "ExtraInfo": "adipisci",
-    "StyleHint": "odio",
-    "FullName": "Sherman Kessler",
+    "IconHint": "sit",
+    "ColorBlock": 56,
+    "ExtraInfo": "assumenda",
+    "StyleHint": "consequatur",
+    "FullName": "Jake Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 650
+        "FieldLength": 398
       }
     }
   }

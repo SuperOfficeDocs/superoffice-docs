@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2010-10-12T13:57:11.4031843+02:00"
+  "StartDate": "2019-11-23T23:03:54.8086453+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 557,
-  "StartDate": "1999-02-27T13:57:11.4031843+01:00",
-  "EndDate": "2021-03-29T13:57:11.4031843+02:00",
-  "RecurrenceCounter": 169,
+  "RecurrenceId": 363,
+  "StartDate": "2002-09-19T23:03:54.8086453+02:00",
+  "EndDate": "2022-08-10T23:03:54.8086453+02:00",
+  "RecurrenceCounter": 522,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2000-04-18T13:57:11.4031843+02:00",
+      "Date": "1997-05-30T23:03:54.8086453+02:00",
       "IsConflict": false,
-      "Description": "Enhanced exuding leverage",
-      "DescriptionStyleHint": "Profound incremental definition",
-      "Tooltip": "sunt"
+      "Description": "Virtual grid-enabled encryption",
+      "DescriptionStyleHint": "Advanced maximized workforce",
+      "Tooltip": "enim"
     },
     {
-      "Date": "2000-04-18T13:57:11.4031843+02:00",
+      "Date": "1997-05-30T23:03:54.8086453+02:00",
       "IsConflict": false,
-      "Description": "Enhanced exuding leverage",
-      "DescriptionStyleHint": "Profound incremental definition",
-      "Tooltip": "sunt"
+      "Description": "Virtual grid-enabled encryption",
+      "DescriptionStyleHint": "Advanced maximized workforce",
+      "Tooltip": "enim"
     }
   ],
   "IsRecurrence": true

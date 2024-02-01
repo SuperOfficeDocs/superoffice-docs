@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 877
+  "ProjectId": 576
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 193,
-  "StartDate": "2022-09-12T13:57:12.9854979+02:00",
-  "EndDate": "2014-09-27T13:57:12.9854979+02:00",
+  "AppointmentId": 906,
+  "StartDate": "2005-03-28T23:03:56.6661193+02:00",
+  "EndDate": "2018-06-10T23:03:56.6661193+02:00",
   "Type": "BookingForChecklist",
-  "Task": "est",
-  "AssociateFullName": "Mrs. Makenzie Isabel Pfeffer",
-  "ContactName": "McDermott, Collins and Emmerich",
-  "Description": "Enhanced full-range attitude",
-  "PersonFullName": "Rosalyn Estella Torphy MD",
-  "PersonId": 510,
-  "ContactId": 649,
-  "ProjectId": 373,
-  "ProjectName": "Reynolds, Heathcote and West",
+  "Task": "occaecati",
+  "AssociateFullName": "Aliya Kovacek",
+  "ContactName": "Cassin-Lemke",
+  "Description": "Enterprise-wide 5th generation firmware",
+  "PersonFullName": "Raoul Mayert",
+  "PersonId": 425,
+  "ContactId": 880,
+  "ProjectId": 530,
+  "ProjectName": "Oberbrunner Inc and Sons",
   "IsPublished": true,
-  "AssociateId": 173,
-  "ColorIndex": 227,
-  "IsFree": false,
+  "AssociateId": 772,
+  "ColorIndex": 463,
+  "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 333,
-  "PriorityName": "Medhurst LLC",
+  "PriorityId": 383,
+  "PriorityName": "McDermott LLC",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "1999-12-21T13:57:12.9854979+01:00",
+  "IsBooking": false,
+  "ActiveDate": "2007-11-30T23:03:56.6661193+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2011-09-15T13:57:12.9854979+02:00",
-  "RecurringEndDate": "1998-04-16T13:57:12.9854979+02:00",
-  "MotherId": 774,
-  "AssignedBy": 77,
-  "AssignedByFullName": "Lelah Gorczany",
+  "RecurringStartDate": "2020-01-17T23:03:56.6666204+01:00",
+  "RecurringEndDate": "1999-08-10T23:03:56.6666204+02:00",
+  "MotherId": 764,
+  "AssignedBy": 455,
+  "AssignedByFullName": "Yadira Langosh",
   "RejectReason": "",
-  "Location": "nihil",
-  "AlarmLeadTime": "fugit",
-  "SaleId": 491,
-  "SaleName": "Green-Champlin",
-  "AssociateName": "Rippin-Trantow",
-  "CreatedDate": "2010-11-06T13:57:12.9854979+01:00",
-  "CreatedBy": "maxime",
-  "CreatedByFullName": "Ambrose Hartmann",
-  "CreatedByAssociateId": 663,
+  "Location": "beatae",
+  "AlarmLeadTime": "sint",
+  "SaleId": 695,
+  "SaleName": "Rolfson Group",
+  "AssociateName": "Casper Group",
+  "CreatedDate": "2000-08-30T23:03:56.6666204+02:00",
+  "CreatedBy": "aspernatur",
+  "CreatedByFullName": "Mona Block",
+  "CreatedByAssociateId": 966,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 742,
-  "Title": "nemo",
-  "Agenda": "iusto",
-  "InternalNotes": "voluptatem",
+  "PreferredTZLocation": 709,
+  "Title": "voluptatem",
+  "Agenda": "voluptatem",
+  "InternalNotes": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

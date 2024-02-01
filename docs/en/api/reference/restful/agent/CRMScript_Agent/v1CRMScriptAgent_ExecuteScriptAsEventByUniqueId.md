@@ -81,6 +81,7 @@ OK
 | ParserValues | object | Parser values sent to the event handler |
 | CgiVariables | object | Cgi variables sent by some events |
 | CgiContent | string | The Cgi content/body, sent by some events |
+| Headers | object | Incoming headers if sent by the context which the script is executed from |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "et",
+  "CRMScriptUniqueId": "omnis",
   "EventData": null
 }
 ```
@@ -108,37 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "esse",
-    "InputValues2": "eos"
+    "InputValues1": "asperiores",
+    "InputValues2": "ea"
   },
-  "BlockExecution": false,
-  "NavigateTo": "est",
-  "Message": "veritatis",
-  "ShowDialog": "officiis",
+  "BlockExecution": true,
+  "NavigateTo": "voluptatum",
+  "Message": "harum",
+  "ShowDialog": "voluptatem",
   "OutputValues": {
-    "OutputValues1": "et",
+    "OutputValues1": "in",
     "OutputValues2": "sint"
   },
   "StateValues": {
-    "StateValues1": "nulla",
-    "StateValues2": "omnis"
+    "StateValues1": "ab",
+    "StateValues2": "modi"
   },
-  "Exception": "velit",
+  "Exception": "eaque",
   "ParserValues": {
-    "ParserValues1": "dolore",
-    "ParserValues2": "voluptas"
+    "ParserValues1": "fugit",
+    "ParserValues2": "autem"
   },
   "CgiVariables": {
-    "CgiVariables1": "doloremque",
-    "CgiVariables2": "natus"
+    "CgiVariables1": "enim",
+    "CgiVariables2": "aspernatur"
   },
-  "CgiContent": "non",
+  "CgiContent": "molestias",
+  "Headers": {
+    "Headers1": "ut",
+    "Headers2": "nihil"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 733
     }
   }
 }

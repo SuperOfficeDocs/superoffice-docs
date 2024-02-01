@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ruecker Group"
+  "ApplicationName": "Harber Group"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 780,
-  "Name": "Schowalter, McKenzie and Volkman",
-  "CreatedDate": "2021-07-28T13:57:12.4181107+02:00",
-  "UpdatedDate": "2009-12-03T13:57:12.4181107+01:00",
+  "ForeignAppId": 898,
+  "Name": "Rogahn Group",
+  "CreatedDate": "2004-05-25T23:03:56.1061274+02:00",
+  "UpdatedDate": "1999-02-07T23:03:56.1061274+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 734,
-      "Name": "Jacobson, Boyer and Greenholt",
-      "CreatedDate": "2013-01-26T13:57:12.4181107+01:00",
-      "UpdatedDate": "2012-07-08T13:57:12.4181107+02:00",
-      "AssociateFullName": "Darrell Barton",
-      "CreatedBy": "sed",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "quo",
-      "ForeignAppId": 285,
+      "ForeignDeviceId": 448,
+      "Name": "Kulas, Padberg and Dibbert",
+      "CreatedDate": "2021-06-09T23:03:56.1081278+02:00",
+      "UpdatedDate": "2017-04-28T23:03:56.1081278+02:00",
+      "AssociateFullName": "Mrs. Rollin Schultz",
+      "CreatedBy": "molestiae",
+      "UpdatedBy": "praesentium",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 190,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 854
+          "FieldLength": 519
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldType": "System.String",
+      "FieldLength": 705
     }
   }
 }

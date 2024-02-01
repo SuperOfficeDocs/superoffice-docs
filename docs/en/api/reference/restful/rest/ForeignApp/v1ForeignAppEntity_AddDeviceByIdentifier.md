@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 142,
-  "Name": "Grimes Inc and Sons",
-  "CreatedDate": "2020-03-07T13:57:18.8109737+01:00",
-  "UpdatedDate": "2018-02-17T13:57:18.8109737+01:00",
-  "AssociateFullName": "Fanny Hyatt",
-  "CreatedBy": "maxime",
-  "UpdatedBy": "omnis",
-  "DeviceIdentifier": "blanditiis",
-  "ForeignAppId": 103,
+  "ForeignDeviceId": 79,
+  "Name": "Hilpert-Wisozk",
+  "CreatedDate": "1998-08-12T23:04:04.2255173+02:00",
+  "UpdatedDate": "1999-02-10T23:04:04.2255173+01:00",
+  "AssociateFullName": "Angelica Emard",
+  "CreatedBy": "possimus",
+  "UpdatedBy": "culpa",
+  "DeviceIdentifier": "quibusdam",
+  "ForeignAppId": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldLength": 481
     }
   }
 }

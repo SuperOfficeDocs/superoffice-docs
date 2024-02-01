@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Schaefer Inc and Sons",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 241,
+  "Id": 735,
+  "Name": "Schultz, Dare and Kulas",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "Rank": 606,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 601,
-  "Name": "Crona, Gerhold and Streich",
-  "Tooltip": "fugit",
+  "Id": 233,
+  "Name": "Ratke, Murazik and Larson",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 340,
-  "IsCustomList": true,
+  "Rank": 596,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "soluta",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "accusamus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 67
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=66
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=603
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jakubowski, Johns and Kilback",
-  "Comment": "dolore",
-  "StakeholderRoleId": 858,
-  "CountryId": 315,
-  "PersonId": 111,
-  "EmailDescription": "aglae@reillymcclure.name",
-  "EmailId": 126,
-  "EmailAddress": "arvilla@torphy.com",
-  "PhoneId": 533,
-  "ContactName": "Smith LLC",
-  "ContactId": 342,
-  "SaleId": 429,
-  "Mrmrs": "placeat",
-  "Firstname": "Alf",
-  "MiddleName": "Hammes LLC",
-  "Lastname": "Schowalter",
-  "SaleStakeholderId": 252,
-  "Rank": 215,
-  "Phone": "1-713-859-9789 x396",
+  "StakeholderRoleName": "Breitenberg Inc and Sons",
+  "Comment": "sequi",
+  "StakeholderRoleId": 716,
+  "CountryId": 162,
+  "PersonId": 26,
+  "EmailDescription": "sonia@farrellvonrueden.name",
+  "EmailId": 721,
+  "EmailAddress": "kara@bashirian.biz",
+  "PhoneId": 283,
+  "ContactName": "Flatley Inc and Sons",
+  "ContactId": 266,
+  "SaleId": 255,
+  "Mrmrs": "quisquam",
+  "Firstname": "Tiffany",
+  "MiddleName": "Rippin-Gleichner",
+  "Lastname": "Littel",
+  "SaleStakeholderId": 579,
+  "Rank": 812,
+  "Phone": "(146)313-4350 x0454",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 317
     }
   }
 }

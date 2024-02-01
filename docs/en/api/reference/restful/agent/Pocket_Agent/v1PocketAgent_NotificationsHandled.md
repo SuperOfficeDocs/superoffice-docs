@@ -71,11 +71,11 @@ Content-Type: application/json; charset=utf-8
   "NotificationEvents": [
     {
       "Type": "AppointmentCancelled",
-      "Id": 685
+      "Id": 811
     },
     {
       "Type": "AppointmentCancelled",
-      "Id": 685
+      "Id": 811
     }
   ]
 }

@@ -76,6 +76,7 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | bool | If set to true, the content will not reload on current changes, only applies to sidepanels |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -96,33 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 25,
-    "Name": "Daniel-Huel",
-    "Tooltip": "ipsa",
+    "WebPanelId": 824,
+    "Name": "Murphy LLC",
+    "Tooltip": "ad",
     "Deleted": false,
-    "Rank": 90,
+    "Rank": 389,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
-    "OnSatellite": false,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
+    "OnSatellite": true,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Herzog-Vandervort",
+    "WindowName": "Schowalter-Effertz",
     "Url": "http://www.example.com/",
-    "ProgId": "fugiat",
-    "Icon": 184,
+    "ProgId": "tenetur",
+    "Icon": 702,
     "AlwaysReloadOnShow": true,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

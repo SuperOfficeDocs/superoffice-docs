@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Luettgen, Murazik and Brakus"
+  "TableName": "Parisian, Durgan and Padberg"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ex",
-  "Inserts": 635,
-  "Updates": 969,
-  "Deletes": 21,
+  "Message": "sunt",
+  "Inserts": 832,
+  "Updates": 217,
+  "Deletes": 500,
   "RowStatus": [
     {
-      "PrimaryKey": 665,
+      "PrimaryKey": 627,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quod",
-        "ea"
+        "autem",
+        "aliquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 210
+          "FieldType": "System.Int32",
+          "FieldLength": 562
         }
       }
     },
     {
-      "PrimaryKey": 665,
+      "PrimaryKey": 627,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quod",
-        "ea"
+        "autem",
+        "aliquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 210
+          "FieldType": "System.Int32",
+          "FieldLength": 562
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 181
     }
   }
 }

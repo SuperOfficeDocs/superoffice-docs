@@ -97,29 +97,29 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 160,
-  "Name": "Franecki, Hermiston and Spinka",
-  "Tooltip": "et",
+  "RoleId": 889,
+  "Name": "Kreiger, Dickens and Batz",
+  "Tooltip": "nihil",
   "RoleType": "Anonymous",
-  "Deleted": 53,
-  "Rank": 928,
-  "Created": "2006-12-20T13:57:19.1403101+01:00",
-  "UseCategories": 400,
+  "Deleted": 153,
+  "Rank": 752,
+  "Created": "2008-03-28T23:04:04.6195121+01:00",
+  "UseCategories": 161,
   "CreatedBy": null,
-  "Updated": "2003-07-28T13:57:19.1403101+02:00",
+  "Updated": "2022-03-08T23:04:04.6200133+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

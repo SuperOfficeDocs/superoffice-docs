@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hammes, Swift and Kshlerin",
-  "HeadingId": 761,
+  "UdListDefinitionName": "Reichel Group",
+  "HeadingId": 81,
   "ListItemIds": [
-    23,
-    387
+    568,
+    132
   ],
   "Enable": false
 }

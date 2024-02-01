@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Name": "Hodkiewicz LLC",
-    "Tooltip": "qui",
+    "Id": 936,
+    "Name": "Gorczany, Wiza and Koch",
+    "Tooltip": "minus",
     "Deleted": true,
-    "UdListDefinitionId": 30,
-    "Rank": 551,
+    "UdListDefinitionId": 272,
+    "Rank": 420,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 188
+        "FieldType": "System.Int32",
+        "FieldLength": 901
       }
     }
   }

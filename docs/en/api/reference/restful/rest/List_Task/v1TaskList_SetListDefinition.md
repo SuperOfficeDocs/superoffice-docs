@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 328,
-  "Name": "Beatty-VonRueden",
-  "Tooltip": "et",
+  "Id": 16,
+  "Name": "Hickle Group",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 794,
+  "Rank": 810,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 315,
-  "Name": "Kuphal, Watsica and Stroman",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "Rank": 598,
+  "Id": 882,
+  "Name": "Kohler, Kovacek and Feest",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "Rank": 178,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

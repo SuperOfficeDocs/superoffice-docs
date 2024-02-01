@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kuphal-Morissette",
-  "ProviderName": "Crona-Doyle",
-  "Context": "facilis",
-  "OwnerKeys": "eveniet"
+  "GuiName": "Roberts Inc and Sons",
+  "ProviderName": "Gaylord, Hand and Haley",
+  "Context": "ducimus",
+  "OwnerKeys": "est"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Macejkovic, Daugherty and Predovic",
-      "DisplayTooltip": "eos",
-      "DisplayType": "quo",
-      "CanOrderBy": true,
-      "Name": "Grady, Bartoletti and Hills",
+      "DisplayName": "Murray-Schiller",
+      "DisplayTooltip": "quia",
+      "DisplayType": "nihil",
+      "CanOrderBy": false,
+      "Name": "Adams, Botsford and McClure",
       "CanRestrictBy": true,
-      "RestrictionType": "dignissimos",
-      "RestrictionListName": "Legros-O'Hara",
+      "RestrictionType": "possimus",
+      "RestrictionListName": "Spencer-Cartwright",
       "IsVisible": false,
-      "ExtraInfo": "sit",
-      "Width": "cumque",
-      "IconHint": "asperiores",
-      "HeadingIconHint": "voluptatum"
+      "ExtraInfo": "dicta",
+      "Width": "sunt",
+      "IconHint": "expedita",
+      "HeadingIconHint": "magnam"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 443,
-      "Name": "Greenholt-Emard",
-      "ToolTip": "Explicabo quas natus praesentium autem non.",
+      "Id": 363,
+      "Name": "Wolf LLC",
+      "ToolTip": "Molestiae rerum modi suscipit.",
       "Deleted": false,
-      "Rank": 186,
-      "Type": "aliquid",
-      "ColorBlock": 984,
-      "IconHint": "autem",
+      "Rank": 690,
+      "Type": "voluptatem",
+      "ColorBlock": 535,
+      "IconHint": "vel",
       "Selected": true,
-      "LastChanged": "2017-06-16T13:57:11.512557+02:00",
+      "LastChanged": "2012-01-24T23:03:54.9661429+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cum",
-      "StyleHint": "iste",
+      "ExtraInfo": "sapiente",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Prof. Trent Abdullah Heidenreich",
+      "FullName": "Roel Cummerata I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldLength": 56
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Russel-Nader",
+      "Name": "Borer LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Russel-Nader",
+      "Name": "Borer LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "quis",
+  "OwnerKeys": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

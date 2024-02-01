@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 269,
-  "SourcePersonId": 680,
-  "DestinationContactId": 524,
-  "DestinationPersonId": 312,
-  "RelationId": 859,
-  "Comment": "minus",
-  "RelationDefinitionId": 466,
-  "Reversed": 646,
-  "UpdatedDate": "2004-09-10T13:57:13.0805627+02:00",
-  "CreatedDate": "2006-11-06T13:57:13.0805627+01:00",
+  "SourceContactId": 977,
+  "SourcePersonId": 244,
+  "DestinationContactId": 493,
+  "DestinationPersonId": 900,
+  "RelationId": 559,
+  "Comment": "at",
+  "RelationDefinitionId": 219,
+  "Reversed": 752,
+  "UpdatedDate": "2015-10-28T23:03:56.8086174+01:00",
+  "CreatedDate": "1996-10-12T23:03:56.8086174+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Spinka LLC",
-  "SourcePersonName": "Schultz Inc and Sons",
-  "DestinationContactName": "Kertzmann Inc and Sons",
-  "DestinationPersonName": "Schamberger-Torphy",
-  "ActiveText": "sed",
-  "PassiveText": "tempora",
+  "SourceContactName": "Larkin Inc and Sons",
+  "SourcePersonName": "Bode-Bauch",
+  "DestinationContactName": "Abernathy LLC",
+  "DestinationPersonName": "Roberts, Gusikowski and McCullough",
+  "ActiveText": "necessitatibus",
+  "PassiveText": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

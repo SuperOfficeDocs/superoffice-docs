@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Schimmel-Kuhlman",
-    "ToolTip": "Omnis consequatur qui ut aliquam doloribus architecto sit.",
-    "Deleted": false,
-    "Rank": 542,
-    "Type": "et",
-    "ColorBlock": 442,
-    "IconHint": "officia",
-    "Selected": false,
-    "LastChanged": "2003-02-27T13:57:20.1265357+01:00",
+    "Id": 329,
+    "Name": "Berge-Nolan",
+    "ToolTip": "Dolorem voluptatem ex doloribus ipsum.",
+    "Deleted": true,
+    "Rank": 758,
+    "Type": "voluptatem",
+    "ColorBlock": 151,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2017-03-15T23:04:05.8054971+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Gleason, Sporer and Runolfsson",
-        "ToolTip": "Nulla accusantium.",
+        "Id": 741,
+        "Name": "Fisher, Trantow and Feil",
+        "ToolTip": "Itaque soluta eos velit eligendi accusamus ut voluptatum.",
         "Deleted": false,
-        "Rank": 591,
-        "Type": "qui",
-        "ColorBlock": 732,
-        "IconHint": "ea",
+        "Rank": 870,
+        "Type": "nam",
+        "ColorBlock": 885,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "1998-07-17T13:57:20.1265357+02:00",
+        "LastChanged": "2003-02-04T23:04:05.8054971+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "rerum",
+        "ExtraInfo": "vero",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Ms. Anibal Anissa Kirlin",
+        "FullName": "Adrien Reilly PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 147
+            "FieldLength": 797
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Lilly Yundt",
+    "ExtraInfo": "eius",
+    "StyleHint": "placeat",
+    "Hidden": true,
+    "FullName": "Julius Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldLength": 817
       }
     }
   }

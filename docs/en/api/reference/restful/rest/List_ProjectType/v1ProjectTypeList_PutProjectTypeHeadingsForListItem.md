@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Name": "Flatley LLC",
-    "ToolTip": "Quia nostrum quo dolorem.",
+    "Id": 508,
+    "Name": "Shanahan, Nitzsche and Franecki",
+    "ToolTip": "Ut fuga qui molestias ut.",
     "Deleted": false,
-    "Rank": 514,
-    "Type": "at",
-    "ColorBlock": 990,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "1998-12-13T13:57:19.9221765+01:00",
+    "Rank": 328,
+    "Type": "voluptatum",
+    "ColorBlock": 418,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "2020-07-25T23:04:05.684499+02:00",
     "ChildItems": [
       {
-        "Id": 971,
-        "Name": "Nolan LLC",
-        "ToolTip": "Hic ut quaerat omnis et quisquam alias.",
+        "Id": 815,
+        "Name": "DuBuque, Tillman and Borer",
+        "ToolTip": "Est aut neque.",
         "Deleted": false,
-        "Rank": 955,
-        "Type": "est",
-        "ColorBlock": 201,
-        "IconHint": "minima",
+        "Rank": 653,
+        "Type": "et",
+        "ColorBlock": 726,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2008-08-03T13:57:19.9221765+02:00",
+        "LastChanged": "2013-09-17T23:04:05.684499+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Roslyn Keeling"
+        "ExtraInfo": "eveniet",
+        "StyleHint": "quasi",
+        "Hidden": false,
+        "FullName": "Mr. Serena Hayes Jr."
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "impedit",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Miss Flossie Hagenes"
+    "FullName": "Dudley Casper"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Swaniawski Inc and Sons",
-    "ToolTip": "Et vel et amet minus.",
+    "Id": 144,
+    "Name": "Miller, Legros and Conn",
+    "ToolTip": "Consectetur praesentium culpa ut consectetur et cupiditate fugit.",
     "Deleted": false,
-    "Rank": 477,
-    "Type": "quibusdam",
-    "ColorBlock": 96,
-    "IconHint": "quae",
-    "Selected": false,
-    "LastChanged": "2005-08-31T13:57:19.9221765+02:00",
+    "Rank": 62,
+    "Type": "autem",
+    "ColorBlock": 453,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2011-05-14T23:04:05.6865019+02:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Bode Inc and Sons",
-        "ToolTip": "Qui odit.",
+        "Id": 495,
+        "Name": "Pfeffer LLC",
+        "ToolTip": "Et consequatur.",
         "Deleted": false,
-        "Rank": 456,
+        "Rank": 798,
         "Type": "aut",
-        "ColorBlock": 814,
-        "IconHint": "modi",
+        "ColorBlock": 555,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2010-12-19T13:57:19.9221765+01:00",
+        "LastChanged": "2003-09-11T23:04:05.6865019+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Karolann Wolf",
+        "ExtraInfo": "expedita",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Ellie Hammes IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 719
+            "FieldLength": 769
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Robyn Heathcote",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Jaquan Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldLength": 494
       }
     }
   }

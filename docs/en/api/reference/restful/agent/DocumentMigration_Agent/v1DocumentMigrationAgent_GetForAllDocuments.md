@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 274,
-  "IncludeEmails": false
+  "DocumentPluginId": 318,
+  "IncludeEmails": true
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 619,
-  "NumDocumentsAlreadyMigrated": 494,
+  "NumDocumentsOmitted": 565,
+  "NumDocumentsAlreadyMigrated": 74,
   "Documents": [
     {
-      "DocumentId": 502,
-      "ContactId": 122,
-      "PersonId": 287,
-      "SaleId": 27,
-      "ProjectId": 13,
-      "DocTmplId": 943,
-      "AssociateId": 998,
-      "UserGroupId": 442,
-      "VisibleForId": 552
+      "DocumentId": 211,
+      "ContactId": 626,
+      "PersonId": 914,
+      "SaleId": 854,
+      "ProjectId": 450,
+      "DocTmplId": 211,
+      "AssociateId": 698,
+      "UserGroupId": 71,
+      "VisibleForId": 602
     }
   ],
   "Associates": [
     {
-      "AssociateId": 623,
-      "EmailAddress": "nathanael.denesik@mueller.com"
+      "AssociateId": 613,
+      "EmailAddress": "juliet_hammes@brown.us"
     },
     {
-      "AssociateId": 623,
-      "EmailAddress": "nathanael.denesik@mueller.com"
+      "AssociateId": 613,
+      "EmailAddress": "juliet_hammes@brown.us"
     }
   ]
 }

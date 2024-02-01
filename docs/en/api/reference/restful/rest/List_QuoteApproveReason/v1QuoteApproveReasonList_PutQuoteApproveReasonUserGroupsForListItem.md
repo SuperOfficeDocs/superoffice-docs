@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Greenfelder-Shanahan",
-    "ToolTip": "Modi blanditiis voluptatem doloribus amet.",
+    "Id": 807,
+    "Name": "Rath, Emard and Olson",
+    "ToolTip": "Voluptas qui.",
     "Deleted": false,
-    "Rank": 203,
-    "Type": "omnis",
-    "ColorBlock": 831,
-    "IconHint": "cumque",
+    "Rank": 136,
+    "Type": "non",
+    "ColorBlock": 868,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2013-09-23T13:57:19.9221765+02:00",
+    "LastChanged": "2022-06-06T23:04:05.6969971+02:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Kuhn-Blick",
-        "ToolTip": "Sint omnis dolorem aliquid eveniet.",
+        "Id": 949,
+        "Name": "Howe-Wisozk",
+        "ToolTip": "Qui et.",
         "Deleted": true,
-        "Rank": 426,
-        "Type": "ipsa",
-        "ColorBlock": 697,
-        "IconHint": "nemo",
+        "Rank": 923,
+        "Type": "officia",
+        "ColorBlock": 593,
+        "IconHint": "error",
         "Selected": true,
-        "LastChanged": "2004-11-28T13:57:19.9221765+01:00",
+        "LastChanged": "1999-08-27T23:04:05.6969971+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "molestias",
-        "Hidden": false,
-        "FullName": "Miss Madge Fernando Schneider"
+        "ExtraInfo": "occaecati",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Emie Rice DDS"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Archibald Grant"
+    "FullName": "Ms. Meta Karolann Spencer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Quitzon Inc and Sons",
-    "ToolTip": "Consectetur ut laboriosam vel.",
-    "Deleted": false,
-    "Rank": 579,
-    "Type": "quidem",
-    "ColorBlock": 887,
-    "IconHint": "illum",
+    "Id": 492,
+    "Name": "Boyle-Kozey",
+    "ToolTip": "Sit saepe voluptatum omnis veritatis impedit.",
+    "Deleted": true,
+    "Rank": 397,
+    "Type": "omnis",
+    "ColorBlock": 330,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2012-07-28T13:57:19.9377991+02:00",
+    "LastChanged": "1999-09-27T23:04:05.6984978+02:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Hirthe, Smith and Cummings",
-        "ToolTip": "Rerum natus ea dolores quasi assumenda sit totam.",
-        "Deleted": false,
-        "Rank": 253,
-        "Type": "sapiente",
-        "ColorBlock": 172,
-        "IconHint": "aliquam",
+        "Id": 476,
+        "Name": "Abbott LLC",
+        "ToolTip": "Iure velit et facilis sed odio numquam fuga.",
+        "Deleted": true,
+        "Rank": 728,
+        "Type": "quia",
+        "ColorBlock": 751,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2001-02-05T13:57:19.9377991+01:00",
+        "LastChanged": "2023-02-27T23:04:05.6984978+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Sylvester Ruecker",
+        "ExtraInfo": "et",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Kamille Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldType": "System.String",
+            "FieldLength": 572
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "molestias",
+    "ExtraInfo": "vero",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mrs. Valentina Vergie Botsford II",
+    "FullName": "Mrs. Gaston Bechtelar PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 971
       }
     }
   }

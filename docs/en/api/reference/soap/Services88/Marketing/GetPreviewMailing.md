@@ -61,11 +61,12 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <Marketing:GetPreviewMailingResponse>
    <Marketing:Response xsi:type="Marketing:PreviewMailing">
-    <Marketing:SendingTime xsi:type="xsd:dateTime">2023-12-07T12:56:02Z</Marketing:SendingTime>
+    <Marketing:SendingTime xsi:type="xsd:dateTime">2024-01-18T22:02:44Z</Marketing:SendingTime>
     <Marketing:Status xsi:type="Marketing:ShipmentAddrStatus">Unknown</Marketing:Status>
     <Marketing:ShipmentId xsi:type="xsd:int">0</Marketing:ShipmentId>
     <Marketing:ShipmentDescription xsi:type="xsd:string"></Marketing:ShipmentDescription>
     <Marketing:FromAddress xsi:type="xsd:string"></Marketing:FromAddress>
+    <Marketing:Configuration xsi:type="xsd:int">0</Marketing:Configuration>
     <Marketing:ContactId xsi:type="xsd:int">0</Marketing:ContactId>
     <Marketing:ContactName xsi:type="xsd:string"></Marketing:ContactName>
     <Marketing:PersonId xsi:type="xsd:int">0</Marketing:PersonId>
@@ -74,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:MessageId xsi:type="xsd:int">0</Marketing:MessageId>
     <Marketing:MessageSubject xsi:type="xsd:string"></Marketing:MessageSubject>
     <Marketing:DocumentMessageId xsi:type="xsd:int">0</Marketing:DocumentMessageId>
-    <Marketing:Opened xsi:type="xsd:dateTime">2023-12-07T12:56:02Z</Marketing:Opened>
+    <Marketing:Opened xsi:type="xsd:dateTime">2024-01-18T22:02:44Z</Marketing:Opened>
     <Marketing:LinkClicks xsi:type="xsd:int">0</Marketing:LinkClicks>
    </Marketing:Response>
   </Marketing:GetPreviewMailingResponse>

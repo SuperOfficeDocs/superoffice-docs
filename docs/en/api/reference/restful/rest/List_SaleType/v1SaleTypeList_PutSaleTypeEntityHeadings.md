@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 657,
-    "Name": "Bogan-Rau",
-    "Tooltip": "placeat",
+    "HeadingId": 631,
+    "Name": "Gutkowski Group",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 805,
-    "UdListDefinitionId": 945
+    "Rank": 167,
+    "UdListDefinitionId": 476
   },
   {
-    "HeadingId": 657,
-    "Name": "Bogan-Rau",
-    "Tooltip": "placeat",
+    "HeadingId": 631,
+    "Name": "Gutkowski Group",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 805,
-    "UdListDefinitionId": 945
+    "Rank": 167,
+    "UdListDefinitionId": 476
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 480,
-    "Name": "Ratke LLC",
+    "HeadingId": 591,
+    "Name": "Wisozk-Bernier",
     "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 409,
-    "UdListDefinitionId": 74,
+    "Rank": 178,
+    "UdListDefinitionId": 202,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 258
       }
     }
   }

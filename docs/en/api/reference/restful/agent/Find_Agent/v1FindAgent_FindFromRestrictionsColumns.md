@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Huels Inc and Sons",
-      "Operator": "doloremque",
+      "Name": "Beier-Brakus",
+      "Operator": "voluptas",
       "Values": [
-        "alias",
-        "quos"
+        "quia",
+        "consequuntur"
       ],
       "DisplayValues": [
-        "et",
-        "natus"
+        "ratione",
+        "cum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 265,
+      "InterParenthesis": 27,
       "InterOperator": "And",
-      "UniqueHash": 102
+      "UniqueHash": 775
     }
   ],
-  "ProviderName": "Marvin Inc and Sons",
+  "ProviderName": "Weber-Krajcik",
   "DesiredColumns": [
-    "officia",
-    "reiciendis"
+    "dignissimos",
+    "odio"
   ],
-  "PageSize": 347,
-  "PageNumber": 751
+  "PageSize": 684,
+  "PageNumber": 333
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Osinski, Mueller and Ward",
-      "DisplayTooltip": "error",
-      "DisplayType": "sequi",
-      "CanOrderBy": false,
-      "Name": "Kovacek Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "maxime",
-      "RestrictionListName": "Terry, Quigley and Johnson",
+      "DisplayName": "Keebler-Wuckert",
+      "DisplayTooltip": "perspiciatis",
+      "DisplayType": "modi",
+      "CanOrderBy": true,
+      "Name": "Marks Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "nulla",
+      "RestrictionListName": "Kerluke, Treutel and Dibbert",
       "IsVisible": false,
-      "ExtraInfo": "accusantium",
-      "Width": "numquam",
-      "IconHint": "animi",
-      "HeadingIconHint": "sit"
+      "ExtraInfo": "unde",
+      "Width": "ut",
+      "IconHint": "quo",
+      "HeadingIconHint": "mollitia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Braun Group",
-      "PrimaryKey": 334,
+      "EntityName": "Jacobi-Lind",
+      "PrimaryKey": 517,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "odit",
-          "TooltipHint": "quasi",
-          "LinkHint": "non"
+          "DisplayValue": "nemo",
+          "TooltipHint": "eveniet",
+          "LinkHint": "at"
         }
       },
-      "LinkHint": "cumque",
-      "StyleHint": "esse",
+      "LinkHint": "veniam",
+      "StyleHint": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 829
         }
       }
     }
   ],
-  "RowCount": 381,
+  "RowCount": 74,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

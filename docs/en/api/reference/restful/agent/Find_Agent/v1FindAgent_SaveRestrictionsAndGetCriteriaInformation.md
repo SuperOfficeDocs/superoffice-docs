@@ -86,35 +86,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "D'Amore, Blanda and Huels",
-  "StorageKey": "sit",
+  "StorageType": "non",
+  "ProviderName": "Littel Inc and Sons",
+  "StorageKey": "maxime",
   "Restrictions": [
     {
-      "Name": "Schimmel, Cole and Toy",
-      "Operator": "sint",
+      "Name": "Schulist Inc and Sons",
+      "Operator": "veritatis",
       "Values": [
-        "beatae",
-        "molestiae"
+        "quo",
+        "harum"
       ],
       "DisplayValues": [
-        "sed",
-        "nesciunt"
+        "aperiam",
+        "atque"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 928,
+      "InterParenthesis": 105,
       "InterOperator": "And",
-      "UniqueHash": 108
+      "UniqueHash": 89
     }
   ],
   "StaticColumns": [
-    "repellat",
-    "eligendi"
+    "in",
+    "dicta"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Collins, Carroll and Mills",
-      "Operator": "deleniti",
+      "Name": "Waelchi, Hermann and Marquardt",
+      "Operator": "consectetur",
       "Values": [
-        "illum",
-        "magni"
+        "quia",
+        "veritatis"
       ],
       "DisplayValues": [
-        "culpa",
-        "assumenda"
+        "qui",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 178,
+      "InterParenthesis": 884,
       "InterOperator": "And",
-      "UniqueHash": 716
+      "UniqueHash": 476
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Wiegand-Cummerata",
-      "DisplayTooltip": "aut",
-      "DisplayType": "mollitia",
+      "DisplayName": "Schaden-Schuster",
+      "DisplayTooltip": "quia",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Rolfson, Spinka and Denesik",
+      "Name": "Thiel-Wiegand",
       "CanRestrictBy": false,
-      "RestrictionType": "cupiditate",
-      "RestrictionListName": "Rau, O'Hara and Effertz",
+      "RestrictionType": "vero",
+      "RestrictionListName": "Monahan-Fay",
       "IsVisible": false,
-      "ExtraInfo": "deleniti",
-      "Width": "est",
-      "IconHint": "illo",
-      "HeadingIconHint": "perferendis"
+      "ExtraInfo": "voluptate",
+      "Width": "eaque",
+      "IconHint": "et",
+      "HeadingIconHint": "qui"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Orn, Collins and Goyette",
-      "PrimaryKey": 11,
+      "EntityName": "Brakus-Bergnaum",
+      "PrimaryKey": 331,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "repellat",
-          "TooltipHint": "saepe",
-          "LinkHint": "aliquam"
+          "DisplayValue": "minima",
+          "TooltipHint": "rem",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "quia",
+      "LinkHint": "velit",
+      "StyleHint": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldType": "System.Int32",
+          "FieldLength": 900
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Koss LLC",
-      "Description": "Fundamental attitude-oriented encoding",
-      "Rank": 49,
+      "Name": "Runte-Larson",
+      "Description": "Business-focused client-driven service-desk",
+      "Rank": 94,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koss LLC",
-      "Description": "Fundamental attitude-oriented encoding",
-      "Rank": 49,
+      "Name": "Runte-Larson",
+      "Description": "Business-focused client-driven service-desk",
+      "Rank": 94,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 771
     }
   }
 }

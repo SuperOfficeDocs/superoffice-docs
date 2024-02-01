@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 389,
-    "Name": "Hartmann Inc and Sons",
-    "Tooltip": "libero",
+    "HeadingId": 254,
+    "Name": "Yundt-Pollich",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "Rank": 529,
-    "UdListDefinitionId": 342
+    "Rank": 707,
+    "UdListDefinitionId": 883
   },
   {
-    "HeadingId": 389,
-    "Name": "Hartmann Inc and Sons",
-    "Tooltip": "libero",
+    "HeadingId": 254,
+    "Name": "Yundt-Pollich",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "Rank": 529,
-    "UdListDefinitionId": 342
+    "Rank": 707,
+    "UdListDefinitionId": 883
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 545,
-    "Name": "Doyle, Bauch and Reynolds",
-    "Tooltip": "expedita",
-    "Deleted": false,
-    "Rank": 178,
-    "UdListDefinitionId": 335,
+    "HeadingId": 515,
+    "Name": "Kirlin-Lakin",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 462,
+    "UdListDefinitionId": 965,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 718
       }
     }
   }

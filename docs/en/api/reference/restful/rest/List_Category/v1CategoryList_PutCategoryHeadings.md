@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 111,
-    "Name": "Kuvalis-Satterfield",
-    "Tooltip": "architecto",
+    "HeadingId": 313,
+    "Name": "Rippin, Christiansen and Sporer",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 743,
-    "UdListDefinitionId": 871
+    "Rank": 689,
+    "UdListDefinitionId": 979
   },
   {
-    "HeadingId": 111,
-    "Name": "Kuvalis-Satterfield",
-    "Tooltip": "architecto",
+    "HeadingId": 313,
+    "Name": "Rippin, Christiansen and Sporer",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 743,
-    "UdListDefinitionId": 871
+    "Rank": 689,
+    "UdListDefinitionId": 979
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 679,
-    "Name": "Dicki Inc and Sons",
-    "Tooltip": "aspernatur",
+    "HeadingId": 289,
+    "Name": "Dibbert-Ondricka",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "Rank": 901,
-    "UdListDefinitionId": 604,
+    "Rank": 660,
+    "UdListDefinitionId": 282,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 277
       }
     }
   }

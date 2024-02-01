@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Rohan-Walsh",
-    "Tooltip": "rerum",
+    "Id": 660,
+    "Name": "Connelly, McDermott and O'Connell",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 82,
-    "Rank": 880
+    "UdListDefinitionId": 95,
+    "Rank": 829
   },
   {
-    "Id": 686,
-    "Name": "Rohan-Walsh",
-    "Tooltip": "rerum",
+    "Id": 660,
+    "Name": "Connelly, McDermott and O'Connell",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 82,
-    "Rank": 880
+    "UdListDefinitionId": 95,
+    "Rank": 829
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Feeney-Okuneva",
-    "Tooltip": "odit",
-    "Deleted": true,
-    "UdListDefinitionId": 196,
-    "Rank": 458,
+    "Id": 799,
+    "Name": "Runte-Cronin",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 390,
+    "Rank": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldLength": 557
       }
     }
   }

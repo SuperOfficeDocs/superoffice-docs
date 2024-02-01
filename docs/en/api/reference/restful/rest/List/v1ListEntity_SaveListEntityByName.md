@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Hahn Group",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 258,
+  "Id": 251,
+  "Name": "Thompson, Runolfsdottir and Sanford",
+  "Tooltip": "perspiciatis",
+  "Deleted": true,
+  "Rank": 700,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
+  "ListType": "sint",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 902,
-  "Name": "Williamson Group",
-  "Tooltip": "recusandae",
-  "Deleted": true,
-  "Rank": 850,
+  "Id": 949,
+  "Name": "Ullrich, Stamm and Cartwright",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 882,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 606
     }
   }
 }

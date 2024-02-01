@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "et",
-    "nemo"
+    "mollitia",
+    "corporis"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 248,
-    "ColumnId": 972,
-    "FieldDefault": "necessitatibus",
-    "FieldHeight": 177,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 400,
-    "FieldTop": 832,
+    "UDefFieldId": 964,
+    "ColumnId": 743,
+    "FieldDefault": "laudantium",
+    "FieldHeight": 87,
+    "FieldLabel": "et",
+    "FieldLeft": 449,
+    "FieldTop": 374,
     "FieldType": "Checkbox",
-    "FieldWidth": 647,
-    "FormatMask": "accusantium",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 66,
-    "LabelLeft": 23,
-    "LabelTop": 601,
-    "LabelWidth": 662,
-    "LastVersionId": 649,
-    "ListTableId": 508,
-    "IsMandatory": true,
+    "FieldWidth": 915,
+    "FormatMask": "dolore",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 703,
+    "LabelLeft": 434,
+    "LabelTop": 877,
+    "LabelWidth": 774,
+    "LastVersionId": 804,
+    "ListTableId": 291,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 991,
-    "ProgId": "ratione",
+    "Page1LineNo": 378,
+    "ProgId": "dolorem",
     "IsReadOnly": false,
-    "ShortLabel": "ut",
-    "TabOrder": 239,
-    "TextLength": 944,
-    "Tooltip": "velit",
-    "UdefIdentity": 590,
-    "UDListDefinitionId": 622,
+    "ShortLabel": "atque",
+    "TabOrder": 710,
+    "TextLength": 89,
+    "Tooltip": "sunt",
+    "UdefIdentity": 395,
+    "UDListDefinitionId": 928,
     "Justification": "Center",
-    "Version": 253,
-    "TemplateVariableName": "Friesen, Kautzer and Nicolas",
+    "Version": 537,
+    "TemplateVariableName": "Larkin LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Lynch-Jacobi",
+    "MdoListName": "Leannon Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldLength": 530
       }
     }
   }

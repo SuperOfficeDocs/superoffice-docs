@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Stark, Dooley and Spinka",
-    "Tooltip": "quo",
+    "HeadingId": 186,
+    "Name": "Goyette-Hagenes",
+    "Tooltip": "ad",
     "Deleted": true,
-    "Rank": 124,
-    "UdListDefinitionId": 850
+    "Rank": 904,
+    "UdListDefinitionId": 279
   },
   {
-    "HeadingId": 328,
-    "Name": "Stark, Dooley and Spinka",
-    "Tooltip": "quo",
+    "HeadingId": 186,
+    "Name": "Goyette-Hagenes",
+    "Tooltip": "ad",
     "Deleted": true,
-    "Rank": 124,
-    "UdListDefinitionId": 850
+    "Rank": 904,
+    "UdListDefinitionId": 279
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 61,
-    "Name": "O'Reilly LLC",
-    "Tooltip": "dolore",
-    "Deleted": false,
-    "Rank": 366,
-    "UdListDefinitionId": 539,
+    "HeadingId": 907,
+    "Name": "Stehr, Lebsack and Buckridge",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 965,
+    "UdListDefinitionId": 271,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldType": "System.String",
+        "FieldLength": 445
       }
     }
   }

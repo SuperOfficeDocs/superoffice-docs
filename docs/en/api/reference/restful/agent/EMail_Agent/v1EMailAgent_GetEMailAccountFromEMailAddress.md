@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "velit"
+  "FromAddress": "dolores"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 262,
-  "EMailAddress": "quaerat",
-  "AssociateId": 224,
+  "EMailAccountId": 80,
+  "EMailAddress": "porro",
+  "AssociateId": 425,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 227,
-  "ErrorCount": 507,
-  "ErrorReason": "",
-  "InboxFolder": "dolor",
-  "SentFolder": "facilis",
+  "AccountStatus": 170,
+  "ErrorCount": 520,
+  "ErrorReason": "harness impactful infrastructures",
+  "InboxFolder": "perspiciatis",
+  "SentFolder": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

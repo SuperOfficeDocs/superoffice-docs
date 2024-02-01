@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 825,
-    "Name": "Keeling-Brakus",
-    "Tooltip": "vel",
-    "Rank": 446,
-    "Rate": 11752.5,
-    "Units": 10263.85,
+    "CurrencyId": 485,
+    "Name": "McGlynn Group",
+    "Tooltip": "id",
+    "Rank": 667,
+    "Rate": 6615.874,
+    "Units": 4738.608,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldType": "System.String",
+        "FieldLength": 727
       }
     }
   }

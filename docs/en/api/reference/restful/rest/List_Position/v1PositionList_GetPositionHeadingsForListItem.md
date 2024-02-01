@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "King-Daugherty",
-    "ToolTip": "Qui nesciunt expedita voluptatem libero suscipit ut.",
+    "Id": 700,
+    "Name": "Rath, Wolf and Welch",
+    "ToolTip": "Exercitationem error sit.",
     "Deleted": false,
-    "Rank": 864,
-    "Type": "ex",
-    "ColorBlock": 884,
-    "IconHint": "excepturi",
-    "Selected": false,
-    "LastChanged": "2009-10-01T13:57:19.8283923+02:00",
+    "Rank": 165,
+    "Type": "reiciendis",
+    "ColorBlock": 231,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2018-11-09T23:04:05.5739993+01:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Simonis-Ledner",
-        "ToolTip": "Animi et vel fugit eos voluptatem consequuntur laborum.",
+        "Id": 661,
+        "Name": "Ortiz Group",
+        "ToolTip": "Quaerat quia corporis eaque laborum eligendi.",
         "Deleted": false,
-        "Rank": 291,
-        "Type": "a",
-        "ColorBlock": 599,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2019-09-20T13:57:19.8283923+02:00",
+        "Rank": 365,
+        "Type": "quod",
+        "ColorBlock": 394,
+        "IconHint": "necessitatibus",
+        "Selected": true,
+        "LastChanged": "2021-08-18T23:04:05.5739993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "non",
+        "ExtraInfo": "rem",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Dr. Grady Stokes I",
+        "FullName": "Prof. Darien Schiller V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldLength": 244
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Lorna Prosacco",
+    "ExtraInfo": "quia",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Pat Kozey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 548
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 113,
-    "Name": "Smith-Hintz",
-    "Tooltip": "iste",
-    "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 793,
+    "HeadingId": 635,
+    "Name": "Hoppe, Nader and Jewess",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 206,
+    "UdListDefinitionId": 240,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 843
       }
     }
   }

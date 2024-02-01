@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 504,
-  "Name": "Boehm-Veum",
-  "Tooltip": "cupiditate",
+  "HeadingId": 884,
+  "Name": "Maggio Group",
+  "Tooltip": "earum",
   "Deleted": true,
-  "Rank": 786,
-  "UdListDefinitionId": 822
+  "Rank": 484,
+  "UdListDefinitionId": 317
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 37,
-  "Name": "Leffler-Pfannerstill",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 582,
-  "UdListDefinitionId": 849,
+  "HeadingId": 694,
+  "Name": "Pouros-Hammes",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "Rank": 139,
+  "UdListDefinitionId": 814,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 517
     }
   }
 }

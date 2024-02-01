@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "maiores",
-      "HTMLBody": "qui",
+      "Subject": "non",
+      "HTMLBody": "ipsum",
       "From": null,
-      "Sent": "2006-04-28T13:57:12.2936203+02:00",
-      "Size": 412,
+      "Sent": "1996-10-23T23:03:55.9626373+02:00",
+      "Size": 588,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "et",
-      "PlainBody": "ipsa",
-      "IsSent": true,
+      "MessageID": "similique",
+      "PlainBody": "tempora",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 105,
+      "ServerId": 168,
       "Attachments": [
         {},
         {}
@@ -141,12 +141,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Emmerich-Corkery",
-      "EmailItemId": 503,
-      "AccountId": 721,
-      "ReceivedAt": "2022-04-17T13:57:12.2936203+02:00",
+      "FolderName": "Hodkiewicz Group",
+      "EmailItemId": 745,
+      "AccountId": 642,
+      "ReceivedAt": "2019-04-18T23:03:55.9626373+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2021-01-16T13:57:12.2936203+01:00",
+      "RepliedAt": "2006-01-01T23:03:55.9626373+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -166,148 +166,148 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 71,
-        "ContactName": "Abshire-Conn",
-        "PersonId": 509,
-        "PersonName": "Klocko, Schoen and Schmitt",
-        "AssociateId": 957,
-        "Address": "accusantium",
-        "EmailId": 897,
+        "ContactId": 548,
+        "ContactName": "McClure-McKenzie",
+        "PersonId": 380,
+        "PersonName": "Dooley LLC",
+        "AssociateId": 441,
+        "Address": "aliquam",
+        "EmailId": 595,
         "DuplicatePersonIds": [
-          608,
-          549
+          549,
+          25
         ],
-        "Name": "Herman, Breitenberg and Connelly",
+        "Name": "Koelpin-Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 369
+            "FieldType": "System.Int32",
+            "FieldLength": 618
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 984,
-        "ContactName": "Stiedemann, Streich and Bayer",
-        "PersonId": 961,
-        "PersonName": "Howell-Gottlieb",
-        "AssociateId": 268,
-        "Address": "quia",
-        "EmailId": 904,
+        "ContactId": 822,
+        "ContactName": "Terry-Lebsack",
+        "PersonId": 542,
+        "PersonName": "Mertz-Bode",
+        "AssociateId": 561,
+        "Address": "natus",
+        "EmailId": 939,
         "DuplicatePersonIds": [
-          825,
-          344
+          104,
+          203
         ],
-        "Name": "Braun Inc and Sons",
+        "Name": "Runolfsson, Bogisich and Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 338
+            "FieldType": "System.String",
+            "FieldLength": 924
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 432,
-        "ContactName": "Mann, Conn and Stamm",
-        "PersonId": 775,
-        "PersonName": "Ullrich, Morar and Mayert",
-        "AssociateId": 56,
-        "Address": "illo",
-        "EmailId": 18,
+        "ContactId": 617,
+        "ContactName": "Leffler LLC",
+        "PersonId": 84,
+        "PersonName": "Christiansen Group",
+        "AssociateId": 438,
+        "Address": "quisquam",
+        "EmailId": 121,
         "DuplicatePersonIds": [
-          19,
-          880
+          934,
+          138
         ],
-        "Name": "Vandervort-Rohan",
+        "Name": "Treutel-Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 777
+            "FieldType": "System.Int32",
+            "FieldLength": 531
           }
         }
       }
     ],
-    "Subject": "deserunt",
-    "HTMLBody": "doloribus",
+    "Subject": "neque",
+    "HTMLBody": "mollitia",
     "From": null,
-    "Sent": "1999-02-18T13:57:12.309652+01:00",
-    "Size": 333,
+    "Sent": "2022-09-08T23:03:55.9651292+02:00",
+    "Size": 90,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "similique",
-    "PlainBody": "mollitia",
-    "IsSent": true,
+    "MessageID": "maiores",
+    "PlainBody": "nulla",
+    "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 39,
+    "ServerId": 36,
     "Attachments": [
       {
-        "Description": "Re-contextualized static knowledge base",
-        "Filename": "rerum",
-        "Size": 170,
-        "Type": "blanditiis",
-        "Encoding": "corrupti",
-        "Id": "doloremque",
-        "Disposition": "odit",
-        "IsSafeFileExtension": true,
+        "Description": "Total object-oriented synergy",
+        "Filename": "id",
+        "Size": 411,
+        "Type": "fuga",
+        "Encoding": "vel",
+        "Id": "fugiat",
+        "Disposition": "voluptatum",
+        "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 530
+            "FieldLength": 322
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Brown-Conroy",
+        "Name": "Hirthe, Kshlerin and Quigley",
         "Values": [
-          "laboriosam",
-          "sunt"
+          "molestiae",
+          "consequatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 592
           }
         }
       },
       {
-        "Name": "Brown-Conroy",
+        "Name": "Hirthe, Kshlerin and Quigley",
         "Values": [
-          "laboriosam",
-          "sunt"
+          "molestiae",
+          "consequatur"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 592
           }
         }
       }
     ],
-    "FolderName": "Parisian, Ferry and Tremblay",
-    "EmailItemId": 689,
-    "AccountId": 34,
-    "ReceivedAt": "2015-05-22T13:57:12.309652+02:00",
+    "FolderName": "Borer, Stiedemann and Hamill",
+    "EmailItemId": 900,
+    "AccountId": 19,
+    "ReceivedAt": "2005-07-07T23:03:55.9666296+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2000-10-15T13:57:12.309652+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2008-11-20T23:03:55.9666296+01:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -315,7 +315,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 462
       }
     }
   }

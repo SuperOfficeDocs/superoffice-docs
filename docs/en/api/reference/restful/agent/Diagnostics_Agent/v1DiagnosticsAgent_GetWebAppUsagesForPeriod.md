@@ -85,9 +85,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2006-09-15T13:57:12.0592427+02:00",
-  "ToDate": "2015-07-19T13:57:12.0592427+02:00",
-  "SearchTerm": "est"
+  "FromDate": "2012-04-13T23:03:55.6581335+02:00",
+  "ToDate": "2014-03-04T23:03:55.6581335+01:00",
+  "SearchTerm": "quidem"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 92,
-    "AssocId": 919,
-    "Timestamp": "2010-03-29T13:57:12.0592427+02:00",
-    "ViewState": "sit",
-    "AggregateCount": 765,
-    "AggregateBin": 682,
-    "Version": 820,
+    "WebAppUsageId": 726,
+    "AssocId": 702,
+    "Timestamp": "2022-04-28T23:03:55.6581335+02:00",
+    "ViewState": "et",
+    "AggregateCount": 650,
+    "AggregateBin": 66,
+    "Version": 221,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 237
       }
     }
   }

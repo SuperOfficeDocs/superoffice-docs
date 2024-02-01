@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 826,
-    "Name": "Dare Group",
-    "Tooltip": "dicta",
-    "Rank": 419,
-    "Key": "a",
-    "MailTemplateId": 186,
-    "Deleted": true,
+    "ConsentSourceId": 171,
+    "Name": "Klocko LLC",
+    "Tooltip": "aut",
+    "Rank": 129,
+    "Key": "cum",
+    "MailTemplateId": 408,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 374
       }
     }
   }

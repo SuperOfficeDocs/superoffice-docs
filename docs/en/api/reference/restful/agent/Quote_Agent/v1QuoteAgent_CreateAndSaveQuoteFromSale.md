@@ -90,8 +90,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 995,
-  "CopyToSaleId": 115
+  "CopyFromSaleId": 796,
+  "CopyToSaleId": 984
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 455,
-  "SaleId": 137,
-  "QuoteConnectionId": 991,
-  "ERPQuoteKey": "aut",
-  "ERPOrderKey": "quis",
-  "ActiveQuoteVersionId": 311,
-  "AcceptedQuoteAlternativeId": 200,
-  "UseValuesFromQuote": 948,
-  "DocumentId": 677,
-  "PoNumber": "283966",
-  "OrderComment": "inventore",
-  "PreferredEmailCulture": "claudia@oconner.ca",
+  "QuoteId": 75,
+  "SaleId": 319,
+  "QuoteConnectionId": 755,
+  "ERPQuoteKey": "nam",
+  "ERPOrderKey": "ut",
+  "ActiveQuoteVersionId": 651,
+  "AcceptedQuoteAlternativeId": 724,
+  "UseValuesFromQuote": 644,
+  "DocumentId": 449,
+  "PoNumber": "930661",
+  "OrderComment": "ullam",
+  "PreferredEmailCulture": "anjali.schroeder@botsfordcollins.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 31,
-      "ERPQuoteVersionKey": "ut",
-      "QuoteId": 449,
-      "Description": "Customer-focused composite encryption",
-      "Number": "979313",
+      "QuoteVersionId": 95,
+      "ERPQuoteVersionKey": "eum",
+      "QuoteId": 684,
+      "Description": "Multi-layered foreground Graphic Interface",
+      "Number": "949809",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 518,
-      "SentDate": "2006-06-18T13:57:13.0805627+02:00",
-      "FollowupId": 689,
-      "ExpirationDate": "2017-06-15T13:57:13.0805627+02:00",
-      "DeliveryCountryId": 801,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 845,
+      "LikelyQuoteAlternativeId": 91,
+      "SentDate": "2000-07-17T23:03:56.7936194+02:00",
+      "FollowupId": 379,
+      "ExpirationDate": "2021-11-12T23:03:56.7936194+01:00",
+      "DeliveryCountryId": 696,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 643,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "soluta",
-      "ERPPaymentTypeKey": "ex",
-      "ERPDeliveryTermsKey": "perferendis",
-      "ERPDeliveryTypeKey": "possimus",
-      "Rank": 61,
-      "ApprovedBy": 470,
-      "ApprovedText": "tempore",
-      "ApprovedRegisteredBy": 493,
-      "ApprovedRegisteredDate": "2000-05-09T13:57:13.0805627+02:00",
-      "ExtraField1": "non",
-      "ExtraField2": "et",
-      "ExtraField3": "et",
-      "ExtraField4": "sit",
-      "ExtraField5": "aut",
-      "LastRecalculated": "1998-12-21T13:57:13.0805627+01:00",
-      "Updated": "2005-09-02T13:57:13.0805627+02:00",
-      "UpdatedAssociateId": 607,
-      "Registered": "1999-01-01T13:57:13.0805627+01:00",
-      "RegisteredAssociateId": 230,
-      "RequestAssociateId": 820,
-      "RequestComment": "nesciunt",
+      "ERPPaymentTermsKey": "accusantium",
+      "ERPPaymentTypeKey": "aut",
+      "ERPDeliveryTermsKey": "vero",
+      "ERPDeliveryTypeKey": "esse",
+      "Rank": 592,
+      "ApprovedBy": 168,
+      "ApprovedText": "est",
+      "ApprovedRegisteredBy": 816,
+      "ApprovedRegisteredDate": "2015-02-21T23:03:56.7936194+01:00",
+      "ExtraField1": "dolor",
+      "ExtraField2": "rerum",
+      "ExtraField3": "laudantium",
+      "ExtraField4": "veritatis",
+      "ExtraField5": "magnam",
+      "LastRecalculated": "2006-08-21T23:03:56.7936194+02:00",
+      "Updated": "2005-06-20T23:03:56.7936194+02:00",
+      "UpdatedAssociateId": 18,
+      "Registered": "2010-01-06T23:03:56.7936194+01:00",
+      "RegisteredAssociateId": 947,
+      "RequestAssociateId": 704,
+      "RequestComment": "molestias",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldLength": 570
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldLength": 419
     }
   }
 }

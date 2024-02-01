@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 916,
-  "BlobSize": 787,
-  "Description": "Synchronised analyzing intranet",
-  "ExtraInfo": "nesciunt",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "eum",
-  "OriginalSize": 841,
-  "CreatedDate": "1996-09-16T13:57:18.9528139+02:00",
-  "UpdatedDate": "2002-01-25T13:57:18.9528139+01:00",
+  "BlobId": 5,
+  "BlobSize": 127,
+  "Description": "Devolved hybrid website",
+  "ExtraInfo": "voluptate",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "ratione",
+  "OriginalSize": 112,
+  "CreatedDate": "2011-10-15T23:04:04.3860145+02:00",
+  "UpdatedDate": "2012-05-16T23:04:04.3860145+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quam"
+  "ConceptualType": "facere"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 521,
-  "BlobSize": 533,
-  "Description": "Optional explicit website",
-  "ExtraInfo": "voluptas",
+  "BlobId": 21,
+  "BlobSize": 394,
+  "Description": "Optional discrete service-desk",
+  "ExtraInfo": "placeat",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "laboriosam",
-  "OriginalSize": 388,
-  "CreatedDate": "2002-10-19T13:57:18.9528139+02:00",
-  "UpdatedDate": "2006-07-12T13:57:18.9528139+02:00",
+  "IsZipped": true,
+  "MimeType": "sed",
+  "OriginalSize": 957,
+  "CreatedDate": "1998-08-30T23:04:04.3875141+02:00",
+  "UpdatedDate": "2008-08-18T23:04:04.3875141+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 308
     }
   }
 }

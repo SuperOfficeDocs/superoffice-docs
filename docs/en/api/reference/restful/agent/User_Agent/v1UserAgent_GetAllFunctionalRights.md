@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Corkery, Blick and Farrell",
-    "ToolTip": "Expedita quia vitae iste.",
+    "Id": 935,
+    "Name": "Ebert-Lehner",
+    "ToolTip": "Sint sunt facere minima.",
     "Deleted": false,
-    "Rank": 48,
-    "Type": "ea",
-    "ColorBlock": 6,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2004-09-17T13:57:13.5364634+02:00",
+    "Rank": 196,
+    "Type": "velit",
+    "ColorBlock": 406,
+    "IconHint": "iste",
+    "Selected": true,
+    "LastChanged": "2001-04-30T23:03:57.5506099+02:00",
     "ChildItems": [
       {
-        "Id": 412,
-        "Name": "Boehm-Watsica",
-        "ToolTip": "Ut qui qui voluptas eos.",
+        "Id": 831,
+        "Name": "Ward-Monahan",
+        "ToolTip": "Ex voluptates.",
         "Deleted": false,
-        "Rank": 365,
-        "Type": "amet",
-        "ColorBlock": 161,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2022-08-01T13:57:13.5364634+02:00",
+        "Rank": 785,
+        "Type": "non",
+        "ColorBlock": 500,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2022-05-14T23:03:57.5511077+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Prof. Dawn Skiles DVM",
+        "ExtraInfo": "in",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Morton Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldType": "System.Int32",
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "quia",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Reba Graham",
+    "FullName": "Hollis Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 388
       }
     }
   }

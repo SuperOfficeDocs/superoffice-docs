@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 657,
-  "Name": "Zieme LLC",
-  "Tooltip": "impedit",
+  "RoleId": 159,
+  "Name": "Morissette, Grant and Moen",
+  "Tooltip": "vitae",
   "RoleType": "Anonymous",
-  "Deleted": 495,
-  "Rank": 606,
-  "Created": "2004-02-07T13:57:19.1403101+01:00",
-  "UseCategories": 189,
+  "Deleted": 187,
+  "Rank": 350,
+  "Created": "1999-07-09T23:04:04.6205119+02:00",
+  "UseCategories": 92,
   "CreatedBy": null,
-  "Updated": "1999-07-12T13:57:19.1403101+02:00",
+  "Updated": "2004-03-08T23:04:04.6210175+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 949,
-  "Name": "Fisher LLC",
-  "Tooltip": "architecto",
+  "RoleId": 397,
+  "Name": "Muller Group",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 254,
-  "Rank": 779,
-  "Created": "1998-07-09T13:57:19.1403101+02:00",
-  "UseCategories": 404,
+  "Deleted": 796,
+  "Rank": 155,
+  "Created": "2001-05-29T23:04:04.6225116+02:00",
+  "UseCategories": 434,
   "CreatedBy": null,
-  "Updated": "2006-07-18T13:57:19.1403101+02:00",
+  "Updated": "2020-02-04T23:04:04.6230112+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 436
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Schroeder, Borer and Champlin",
-    "Tooltip": "doloremque",
+    "HeadingId": 739,
+    "Name": "Hane Inc and Sons",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 448,
-    "UdListDefinitionId": 150,
+    "Rank": 203,
+    "UdListDefinitionId": 710,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 531
       }
     }
   }

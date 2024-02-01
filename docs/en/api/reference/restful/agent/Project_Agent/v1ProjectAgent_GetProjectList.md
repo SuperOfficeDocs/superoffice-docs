@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 220,
-    "Name": "Dare LLC",
-    "Description": "Multi-layered didactic process improvement",
+    "ProjectId": 608,
+    "Name": "Abbott, Heathcote and Kilback",
+    "Description": "Reactive real-time migration",
     "URL": "http://www.example.com/",
-    "Type": "consequatur",
-    "AssociateId": 594,
-    "AssociateFullName": "Benton Prosacco",
-    "TypeId": 398,
-    "Updated": "2000-04-13T13:57:13.0011314+02:00",
-    "StatusId": 393,
-    "Status": "harum",
-    "TextId": 487,
-    "PublishTo": "2014-07-09T13:57:13.0011314+02:00",
-    "PublishFrom": "2000-08-21T13:57:13.0011314+02:00",
-    "IsPublished": true,
+    "Type": "ullam",
+    "AssociateId": 42,
+    "AssociateFullName": "Conor Ruecker",
+    "TypeId": 228,
+    "Updated": "2014-03-05T23:03:56.6826201+01:00",
+    "StatusId": 450,
+    "Status": "culpa",
+    "TextId": 790,
+    "PublishTo": "2017-10-20T23:03:56.6826201+02:00",
+    "PublishFrom": "2012-07-07T23:03:56.6826201+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1564640",
-    "ActiveErpLinks": 262,
+    "ProjectNumber": "1202581",
+    "ActiveErpLinks": 491,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldLength": 91
       }
     }
   }

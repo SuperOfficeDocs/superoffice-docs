@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 376
+  "PersonId": 139
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 261,
-  "Name": "Bauch, Legros and McLaughlin",
-  "Rank": 704,
-  "Tooltip": "odio",
+  "AssociateId": 188,
+  "Name": "Oberbrunner-Bernier",
+  "Rank": 547,
+  "Tooltip": "placeat",
   "LicenseOwners": [
     {
-      "Name": "Bailey, Wunsch and Hane",
-      "Description": "Mandatory client-server challenge",
+      "Name": "O'Keefe-Halvorson",
+      "Description": "Innovative heuristic success",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 251
         }
       }
     },
     {
-      "Name": "Bailey, Wunsch and Hane",
-      "Description": "Mandatory client-server challenge",
+      "Name": "O'Keefe-Halvorson",
+      "Description": "Innovative heuristic success",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 251
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quia",
-      "Tooltip": "ea",
-      "Id": 111,
-      "Rank": 251,
-      "Deleted": true,
+      "Value": "laborum",
+      "Tooltip": "veritatis",
+      "Id": 300,
+      "Rank": 128,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 249
+          "FieldType": "System.Int32",
+          "FieldLength": 504
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2002-05-28T13:57:13.583338+02:00",
-  "Lastlogout": "2018-04-15T13:57:13.583338+02:00",
-  "EjUserId": 901,
-  "RequestSignature": "eligendi",
+  "Deleted": true,
+  "Lastlogin": "1997-07-01T23:03:57.6081067+02:00",
+  "Lastlogout": "2015-02-13T23:03:57.6081067+01:00",
+  "EjUserId": 406,
+  "RequestSignature": "quaerat",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "cupiditate",
-      "DisplayValue": "neque",
+      "Value": "ut",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 350
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     },
     {
       "Type": null,
-      "Value": "cupiditate",
-      "DisplayValue": "neque",
+      "Value": "ut",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 350
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     }
   ],
-  "UserName": "Wiza-Waters",
+  "UserName": "Ondricka LLC",
   "TicketCategories": [
     {
-      "Id": 297,
-      "Name": "Waters Group",
-      "ToolTip": "Facere consequatur atque tenetur quod voluptatem praesentium.",
+      "Id": 584,
+      "Name": "Strosin-Schmidt",
+      "ToolTip": "Quod incidunt aperiam et.",
       "Deleted": false,
-      "Rank": 402,
-      "Type": "in",
+      "Rank": 499,
+      "Type": "alias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
-      "ColorBlock": 952,
-      "ExtraInfo": "aut",
-      "StyleHint": "praesentium",
-      "FullName": "Angelina Gerhold",
+      "IconHint": "repellat",
+      "ColorBlock": 456,
+      "ExtraInfo": "tempora",
+      "StyleHint": "rerum",
+      "FullName": "Mr. Eldora Boyer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 742
         }
       }
     }
   ],
-  "NickName": "Kuphal-Kunde",
+  "NickName": "Runolfsson-Bernhard",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "sunt"
+    "CustomFields1": "enim",
+    "CustomFields2": "necessitatibus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hartmann Inc and Sons",
-      "DisplayName": "Koch-Collins",
-      "Description": "Proactive demand-driven website",
-      "ToolTip": "Aut corporis dolorem.",
+      "Name": "Dooley-Cartwright",
+      "DisplayName": "Terry Inc and Sons",
+      "Description": "Right-sized client-server monitoring",
+      "ToolTip": "Ut exercitationem aperiam eligendi eos tempore earum consequuntur.",
       "Actions": "Implicit",
-      "ActionData": "quam",
+      "ActionData": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldLength": 384
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 211,
-  "Name": "Boehm LLC",
-  "Tooltip": "iure",
+  "RoleId": 632,
+  "Name": "Collier, Bernier and Greenfelder",
+  "Tooltip": "cum",
   "RoleType": "Anonymous",
-  "Deleted": 612,
-  "Rank": 404,
-  "Created": "2020-08-18T13:57:19.1246846+02:00",
-  "UseCategories": 906,
+  "Deleted": 970,
+  "Rank": 109,
+  "Created": "2020-04-26T23:04:04.6145128+02:00",
+  "UseCategories": 466,
   "CreatedBy": null,
-  "Updated": "2005-09-02T13:57:19.1246846+02:00",
+  "Updated": "2000-05-26T23:04:04.6145128+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 200,
-  "Name": "Lubowitz LLC",
-  "Tooltip": "adipisci",
+  "RoleId": 597,
+  "Name": "Johnson-Upton",
+  "Tooltip": "unde",
   "RoleType": "Anonymous",
-  "Deleted": 559,
-  "Rank": 569,
-  "Created": "2011-05-14T13:57:19.1403101+02:00",
-  "UseCategories": 337,
+  "Deleted": 830,
+  "Rank": 828,
+  "Created": "1999-09-04T23:04:04.6160121+02:00",
+  "UseCategories": 867,
   "CreatedBy": null,
-  "Updated": "2018-08-16T13:57:19.1403101+02:00",
+  "Updated": "2023-05-01T23:04:04.6165131+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   },
   "_Links": {

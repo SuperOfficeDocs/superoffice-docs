@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 25 Sep 1996 13:57:18 G9T
+Last-Modified: Sat, 05 Apr 2014 23:04:04 G4T
 
 {
-  "DocumentId": 758,
+  "DocumentId": 909,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "modi",
-  "Header": "repudiandae",
-  "Name": "Schuppe Group",
-  "OurRef": "amet",
-  "YourRef": "amet",
-  "CreatedDate": "2020-07-14T13:57:18.7328156+02:00",
-  "UpdatedDate": "1996-09-25T13:57:18.7328156+02:00",
-  "Description": "Multi-tiered multi-tasking installation",
+  "Attention": "eum",
+  "Header": "perferendis",
+  "Name": "Zulauf Inc and Sons",
+  "OurRef": "beatae",
+  "YourRef": "rerum",
+  "CreatedDate": "2012-07-16T23:04:04.1160262+02:00",
+  "UpdatedDate": "2014-04-05T23:04:04.1160262+02:00",
+  "Description": "Synergized multimedia portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-10-13T13:57:18.7328156+02:00",
-  "ExternalRef": "sed",
+  "Date": "2002-07-22T23:04:04.1185191+02:00",
+  "ExternalRef": "voluptas",
   "Completed": "Completed",
-  "ActiveLinks": 435,
+  "ActiveLinks": 820,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Paucek Group",
-      "Id": 276,
-      "Description": "Function-based zero defect framework",
-      "ExtraInfo": "odit",
-      "LinkId": 688,
+      "EntityName": "Rodriguez-Jakubowski",
+      "Id": 742,
+      "Description": "Right-sized responsive installation",
+      "ExtraInfo": "architecto",
+      "LinkId": 679,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldLength": 918
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 267,
-  "Snum": 276,
+  "SuggestedDocumentId": 114,
+  "Snum": 305,
   "UserDefinedFields": {
-    "SuperOffice:1": "Neal Cleo Williamson Sr.",
-    "SuperOffice:2": "Brianne Ritchie"
+    "SuperOffice:1": "Eloy Toy",
+    "SuperOffice:2": "2039302320"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "minus"
   },
-  "PublishEventDate": "2020-02-08T13:57:18.7328156+01:00",
-  "PublishTo": "1999-11-11T13:57:18.7328156+01:00",
-  "PublishFrom": "2011-04-09T13:57:18.7328156+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-08-08T23:04:04.119519+02:00",
+  "PublishTo": "1999-07-12T23:04:04.119519+02:00",
+  "PublishFrom": "2014-02-22T23:04:04.119519+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 524,
+      "VisibleId": 655,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 307
         }
       }
     },
     {
-      "VisibleId": 524,
+      "VisibleId": 655,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 307
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Wed, 25 Sep 1996 13:57:18 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldLength": 370
     }
   },
   "_Links": {

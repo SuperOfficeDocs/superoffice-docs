@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 337,
-  "Name": "Ward-King",
+  "Id": 641,
+  "Name": "Hettinger-Franecki",
   "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 861,
+  "Rank": 189,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 777,
-  "Name": "Emmerich, Raynor and Gerhold",
-  "Tooltip": "voluptatem",
+  "Id": 869,
+  "Name": "Lind-Balistreri",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 846,
-  "IsCustomList": true,
+  "Rank": 702,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldType": "System.Int32",
+      "FieldLength": 136
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 487,
-    "Name": "Schoen Group",
-    "Tooltip": "nesciunt",
+    "HeadingId": 908,
+    "Name": "Lindgren-Emard",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 503,
-    "UdListDefinitionId": 114
+    "Rank": 829,
+    "UdListDefinitionId": 5
   },
   {
-    "HeadingId": 487,
-    "Name": "Schoen Group",
-    "Tooltip": "nesciunt",
+    "HeadingId": 908,
+    "Name": "Lindgren-Emard",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 503,
-    "UdListDefinitionId": 114
+    "Rank": 829,
+    "UdListDefinitionId": 5
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 345,
-    "Name": "Herman LLC",
-    "Tooltip": "ipsa",
+    "HeadingId": 598,
+    "Name": "Greenholt-Bernhard",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 386,
-    "UdListDefinitionId": 739,
+    "Rank": 300,
+    "UdListDefinitionId": 480,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldLength": 439
       }
     }
   }

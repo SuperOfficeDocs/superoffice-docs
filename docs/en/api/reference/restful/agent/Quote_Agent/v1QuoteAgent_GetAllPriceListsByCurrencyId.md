@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 92,
-  "CurrencyId": 757
+  "QuoteConnectionId": 286,
+  "CurrencyId": 608
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 259,
-    "ERPPriceListKey": "nisi",
-    "QuoteConnectionId": 308,
-    "Name": "Barton, Kihn and Koch",
-    "Description": "Realigned client-driven methodology",
-    "Currency": "rerum",
-    "CurrencyName": "Leffler-Stroman",
-    "ValidFrom": "2005-08-25T13:57:13.064942+02:00",
-    "ValidTo": "2002-04-05T13:57:13.064942+02:00",
-    "IsActive": false,
+    "PriceListId": 649,
+    "ERPPriceListKey": "quae",
+    "QuoteConnectionId": 952,
+    "Name": "Jacobi Inc and Sons",
+    "Description": "Focused homogeneous contingency",
+    "Currency": "laborum",
+    "CurrencyName": "Grant Group",
+    "ValidFrom": "2004-12-12T23:03:56.7831181+01:00",
+    "ValidTo": "2007-11-05T23:03:56.7831181+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldLength": 957
       }
     }
   }

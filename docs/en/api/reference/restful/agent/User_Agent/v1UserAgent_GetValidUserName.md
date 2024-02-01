@@ -77,10 +77,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 861,
+  "AssociateId": 266,
   "Type": "AnonymousAssociate",
-  "PersonId": 403,
-  "UserName": "Volkman Group"
+  "PersonId": 450,
+  "UserName": "Swaniawski, Douglas and O'Keefe"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Weimann Group"
+"Borer LLC"
 ```

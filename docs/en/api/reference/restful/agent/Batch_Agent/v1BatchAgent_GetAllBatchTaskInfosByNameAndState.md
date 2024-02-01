@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Stroman LLC",
+  "TaskName": "Huels, Cummings and Medhurst",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Nicolas, Morissette and Rath",
-    "AssociateId": 617,
-    "DetailsTable": 830,
-    "DetailsRecord": 844,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 337,
+    "Name": "Yost-Schroeder",
+    "AssociateId": 360,
+    "DetailsTable": 616,
+    "DetailsRecord": 531,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "harum",
-      "ParameterObject2": "tempora"
+      "ParameterObject1": "et",
+      "ParameterObject2": "distinctio"
     },
-    "LastStarted": "2015-11-28T13:57:11.5594343+01:00",
-    "Created": "2023-10-31T13:57:11.5594343+01:00",
-    "StartCount": 295,
-    "DatabaseSerialNumber": "1521338",
-    "Context": "deleniti",
-    "Result": "possimus",
+    "LastStarted": "1998-12-31T23:03:55.0261418+01:00",
+    "Created": "2013-04-13T23:03:55.0261418+02:00",
+    "StartCount": 720,
+    "DatabaseSerialNumber": "1236569",
+    "Context": "placeat",
+    "Result": "autem",
     "State": "All",
-    "Description": "Function-based neutral Graphical User Interface",
-    "Response": "illo",
-    "Request": "odit",
-    "ProgressDescription": "Adaptive 5th generation hardware",
-    "ProgressPercent": 253,
-    "FileName": "Lesch Inc and Sons",
+    "Description": "Grass-roots optimizing array",
+    "Response": "harum",
+    "Request": "aut",
+    "ProgressDescription": "Synergized multimedia strategy",
+    "ProgressPercent": 84,
+    "FileName": "Russel, Deckow and Huels",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldType": "System.String",
+        "FieldLength": 978
       }
     }
   }

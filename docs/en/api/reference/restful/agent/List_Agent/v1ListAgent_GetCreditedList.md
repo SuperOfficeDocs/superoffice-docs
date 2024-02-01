@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Value": "nisi",
-    "Tooltip": "aliquid",
+    "Id": 367,
+    "Value": "rerum",
+    "Tooltip": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldType": "System.Int32",
+        "FieldLength": 514
       }
     }
   },
   {
-    "Id": 80,
-    "Value": "nisi",
-    "Tooltip": "aliquid",
+    "Id": 367,
+    "Value": "rerum",
+    "Tooltip": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldType": "System.Int32",
+        "FieldLength": 514
       }
     }
   }

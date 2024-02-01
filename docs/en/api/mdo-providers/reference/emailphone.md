@@ -4,12 +4,25 @@ title: emailphone
 keywords: mdoprovider mdo provider emailphone
 description: List of e-mail addresses and phone numbers matching the search value
 Searches e-mail address, phone number, person name, company name.
-<para />
+
+
+
 E-mail address/phone number matches: return e-mail addresses/phone numbers + owner name (person or contact name)
-<para />
+
+
+
+
+
 Person name matches: return all e-mail addresses/phone numbers for matched persons
-<para />
+
+
+
+
+
 Company name matches. return all persons + first e-mail address/phone number for matched persons.
+
+
+
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -18,23 +31,52 @@ so.envir: onsite, online
 # "emailphone" MDO List
 List of e-mail addresses and phone numbers matching the search value
 Searches e-mail address, phone number, person name, company name.
-<para />
+
+
+
 E-mail address/phone number matches: return e-mail addresses/phone numbers + owner name (person or contact name)
-<para />
+
+
+
+
+
 Person name matches: return all e-mail addresses/phone numbers for matched persons
-<para />
+
+
+
+
+
 Company name matches. return all persons + first e-mail address/phone number for matched persons.
 
+
+
+
 Returns: list item with
-<para />
-id = e-mail address/phone number id
-<para />
+
+
+
+Id = e-mail address/phone number id
+
+
+
+
+
 Name = name + e-mail/phone
-<para />
+
+
+
+
+
 ExtraInfo = e-mail address/phone number
-<para />
+
+
+
+
+
 Type = "Email" or "Phone"
-<para />
+
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EmailPhoneProvider">EmailPhoneProvider</see> class.
 The name of the MDO list is 'emailphone'.

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 478,
-  "CurrencyId": 112
+  "QuoteConnectionId": 801,
+  "CurrencyId": 588
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 173,
-    "ERPPriceListKey": "sed",
-    "QuoteConnectionId": 81,
-    "Name": "Spencer LLC",
-    "Description": "Team-oriented cohesive product",
-    "Currency": "sit",
-    "CurrencyName": "Quitzon Inc and Sons",
-    "ValidFrom": "2007-11-23T13:57:13.064942+01:00",
-    "ValidTo": "1996-07-27T13:57:13.064942+02:00",
+    "PriceListId": 996,
+    "ERPPriceListKey": "inventore",
+    "QuoteConnectionId": 278,
+    "Name": "Cormier Inc and Sons",
+    "Description": "Cross-group value-added parallelism",
+    "Currency": "ut",
+    "CurrencyName": "Barrows Inc and Sons",
+    "ValidFrom": "2010-06-16T23:03:56.7821217+02:00",
+    "ValidTo": "2001-07-24T23:03:56.7821217+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 296
+        "FieldLength": 477
       }
     }
   }

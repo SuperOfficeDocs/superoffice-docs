@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=500
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=340
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 573,
-  "StartDate": "1997-02-25T13:57:11.3094384+01:00",
-  "EndDate": "2012-12-04T13:57:11.3094384+01:00",
+  "AppointmentId": 198,
+  "StartDate": "2012-11-15T23:03:54.6706489+01:00",
+  "EndDate": "1997-03-27T23:03:54.6706489+01:00",
   "Type": "BookingForChecklist",
-  "Task": "incidunt",
-  "AssociateFullName": "Marina Brakus",
-  "ContactName": "Bartell Inc and Sons",
-  "Description": "Future-proofed asynchronous archive",
-  "PersonFullName": "Merle Stamm",
-  "PersonId": 157,
-  "ContactId": 504,
-  "ProjectId": 380,
-  "ProjectName": "Denesik-Sanford",
+  "Task": "nemo",
+  "AssociateFullName": "Parker Cassin Sr.",
+  "ContactName": "Bode-Walker",
+  "Description": "Implemented bottom-line interface",
+  "PersonFullName": "Josue Altenwerth",
+  "PersonId": 25,
+  "ContactId": 252,
+  "ProjectId": 567,
+  "ProjectName": "Gaylord, Gusikowski and O'Hara",
   "IsPublished": false,
-  "AssociateId": 427,
-  "ColorIndex": 370,
-  "IsFree": false,
+  "AssociateId": 441,
+  "ColorIndex": 877,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 610,
-  "PriorityName": "Larkin, Glover and Franecki",
+  "PriorityId": 47,
+  "PriorityName": "Gerhold LLC",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2006-06-03T13:57:11.3094384+02:00",
+  "IsRecurrence": true,
+  "IsBooking": true,
+  "ActiveDate": "1997-01-08T23:03:54.6711483+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2019-09-28T13:57:11.3094384+02:00",
-  "RecurringEndDate": "2016-01-20T13:57:11.3094384+01:00",
-  "MotherId": 165,
-  "AssignedBy": 544,
-  "AssignedByFullName": "Prof. Mikel Naomi Gottlieb",
+  "RecurringStartDate": "2009-01-15T23:03:54.6711483+01:00",
+  "RecurringEndDate": "1997-08-17T23:03:54.6711483+02:00",
+  "MotherId": 214,
+  "AssignedBy": 238,
+  "AssignedByFullName": "Veda Adriana Harris DDS",
   "RejectReason": "",
-  "Location": "quod",
-  "AlarmLeadTime": "et",
-  "SaleId": 965,
-  "SaleName": "Grimes, Gottlieb and Homenick",
-  "AssociateName": "Borer-Steuber",
-  "CreatedDate": "2022-01-04T13:57:11.3094384+01:00",
-  "CreatedBy": "voluptatem",
-  "CreatedByFullName": "Cesar Hermann",
-  "CreatedByAssociateId": 875,
+  "Location": "officiis",
+  "AlarmLeadTime": "rerum",
+  "SaleId": 981,
+  "SaleName": "Wunsch Inc and Sons",
+  "AssociateName": "Luettgen Group",
+  "CreatedDate": "2018-11-01T23:03:54.6716464+01:00",
+  "CreatedBy": "neque",
+  "CreatedByFullName": "Dr. Pinkie Willard Marquardt Sr.",
+  "CreatedByAssociateId": 211,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 168,
-  "Title": "inventore",
-  "Agenda": "accusantium",
-  "InternalNotes": "omnis",
+  "PreferredTZLocation": 68,
+  "Title": "dolore",
+  "Agenda": "quidem",
+  "InternalNotes": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 365
     }
   }
 }

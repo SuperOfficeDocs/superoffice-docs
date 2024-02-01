@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "occaecati",
+      "RawValue": "a",
       "Specification": null,
-      "DisplayValue": "quae",
-      "DisplayTooltip": "quibusdam",
+      "DisplayValue": "impedit",
+      "DisplayTooltip": "mollitia",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 423,
-      "PrefDescId": 366,
-      "TableName": "Feeney LLC",
-      "UserPreferenceId": 303
+      "TargetId": 831,
+      "PrefDescId": 484,
+      "TableName": "Feeney Inc and Sons",
+      "UserPreferenceId": 363
     }
   ],
   "RemoveLowerLevels": false

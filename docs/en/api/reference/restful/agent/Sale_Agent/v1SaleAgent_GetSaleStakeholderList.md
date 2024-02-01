@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Rau-Prohaska",
-    "Comment": "quis",
-    "StakeholderRoleId": 925,
-    "CountryId": 488,
-    "PersonId": 201,
-    "EmailDescription": "ada@wardprosacco.biz",
-    "EmailId": 156,
-    "EmailAddress": "porter.gislason@beer.ca",
-    "PhoneId": 241,
-    "ContactName": "Jerde, Strosin and Bechtelar",
-    "ContactId": 965,
-    "SaleId": 631,
-    "Mrmrs": "cumque",
-    "Firstname": "Dannie",
-    "MiddleName": "Christiansen, Borer and Runte",
-    "Lastname": "Herman",
-    "SaleStakeholderId": 304,
-    "Rank": 529,
-    "Phone": "827.212.1722",
+    "StakeholderRoleName": "Connelly, Smitham and Russel",
+    "Comment": "ad",
+    "StakeholderRoleId": 609,
+    "CountryId": 228,
+    "PersonId": 488,
+    "EmailDescription": "maymie.cole@thiel.com",
+    "EmailId": 610,
+    "EmailAddress": "desiree@gorczanycasper.name",
+    "PhoneId": 569,
+    "ContactName": "Funk Group",
+    "ContactId": 564,
+    "SaleId": 816,
+    "Mrmrs": "facere",
+    "Firstname": "Pete",
+    "MiddleName": "Cummings-Champlin",
+    "Lastname": "Hackett",
+    "SaleStakeholderId": 853,
+    "Rank": 382,
+    "Phone": "1-972-873-4122 x3423",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 306
       }
     }
   }

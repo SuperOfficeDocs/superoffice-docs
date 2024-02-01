@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kemmer-Bogisich",
-    "Operator": "ut",
+    "Name": "Gulgowski Group",
+    "Operator": "exercitationem",
     "Values": [
-      "nemo",
-      "mollitia"
+      "eum",
+      "temporibus"
     ],
     "DisplayValues": [
-      "accusantium",
-      "repudiandae"
+      "architecto",
+      "expedita"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Brown LLC",
-        "Operator": "ullam",
+        "Name": "Ferry Group",
+        "Operator": "in",
         "Values": [
-          "minima",
-          "qui"
+          "ducimus",
+          "id"
         ],
         "DisplayValues": [
-          "aut",
-          "et"
+          "laudantium",
+          "pariatur"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 150,
+        "InterParenthesis": 365,
         "InterOperator": "And",
-        "UniqueHash": 331
+        "UniqueHash": 7
       }
     ],
-    "InterParenthesis": 978,
+    "InterParenthesis": 477,
     "InterOperator": "And",
-    "UniqueHash": 230
+    "UniqueHash": 797
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lakin-Bailey",
-    "Operator": "praesentium",
+    "Name": "Spinka, Frami and Purdy",
+    "Operator": "perspiciatis",
     "Values": [
-      "incidunt",
-      "maxime"
+      "qui",
+      "sapiente"
     ],
     "DisplayValues": [
-      "possimus",
-      "dolore"
+      "maxime",
+      "et"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Metz, Paucek and Gottlieb",
-        "Operator": "est",
+        "Name": "Lind-Zieme",
+        "Operator": "blanditiis",
         "Values": [
-          "et",
-          "sed"
+          "veritatis",
+          "non"
         ],
         "DisplayValues": [
-          "ad",
-          "sit"
+          "expedita",
+          "mollitia"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 295,
+        "InterParenthesis": 588,
         "InterOperator": "And",
-        "UniqueHash": 202
+        "UniqueHash": 168
       }
     ],
-    "InterParenthesis": 8,
+    "InterParenthesis": 83,
     "InterOperator": "And",
-    "UniqueHash": 109
+    "UniqueHash": 647
   }
 ]
 ```

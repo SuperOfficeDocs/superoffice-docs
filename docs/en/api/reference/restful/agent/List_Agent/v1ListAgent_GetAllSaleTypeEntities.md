@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 733,
-    "Name": "Hamill Inc and Sons",
-    "Tooltip": "qui",
-    "Rank": 254,
+    "SaleTypeId": 958,
+    "Name": "Lindgren, Schowalter and Runolfsson",
+    "Tooltip": "possimus",
+    "Rank": 845,
     "DurationUnit": "Century",
-    "SaleDuration": 612,
-    "SaleTypeCatId": 519,
+    "SaleDuration": 13,
+    "SaleTypeCatId": 815,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": true,
     "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 248,
-    "QuoteLinesTemplate": 289,
-    "ConfirmationLinesTemplate": 60,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 305,
-    "MinEarningPercent": 290,
-    "GroupQuoteLinesBy": 671,
-    "SortGroupLinesBy": 219,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 739,
+    "QuoteLinesTemplate": 61,
+    "ConfirmationLinesTemplate": 651,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 329,
+    "MinEarningPercent": 617,
+    "GroupQuoteLinesBy": 987,
+    "SortGroupLinesBy": 649,
     "Stages": [
       {
-        "Id": 245,
-        "Name": "Mertz Inc and Sons",
-        "ToolTip": "Debitis autem.",
-        "Deleted": false,
-        "Rank": 815,
-        "Type": "qui",
-        "ColorBlock": 77,
-        "IconHint": "est",
+        "Id": 45,
+        "Name": "Goyette Inc and Sons",
+        "ToolTip": "Quae provident.",
+        "Deleted": true,
+        "Rank": 77,
+        "Type": "quia",
+        "ColorBlock": 147,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2018-08-18T13:57:12.4962375+02:00",
+        "LastChanged": "2002-03-13T23:03:56.196132+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Nella Wehner",
+        "ExtraInfo": "quod",
+        "StyleHint": "cumque",
+        "Hidden": false,
+        "FullName": "Travis Gerhold",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 98
+            "FieldType": "System.String",
+            "FieldLength": 896
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldLength": 186
       }
     }
   }

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Value": "assumenda",
-    "Tooltip": "magni",
+    "Id": 880,
+    "Value": "tempore",
+    "Tooltip": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldLength": 259
       }
     }
   },
   {
-    "Id": 958,
-    "Value": "assumenda",
-    "Tooltip": "magni",
+    "Id": 880,
+    "Value": "tempore",
+    "Tooltip": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldLength": 259
       }
     }
   }

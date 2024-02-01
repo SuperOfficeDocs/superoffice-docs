@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Value": "unde",
-    "Tooltip": "modi",
+    "Id": 450,
+    "Value": "in",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 568
+        "FieldType": "System.Int32",
+        "FieldLength": 906
       }
     }
   },
   {
-    "Id": 355,
-    "Value": "unde",
-    "Tooltip": "modi",
+    "Id": 450,
+    "Value": "in",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 568
+        "FieldType": "System.Int32",
+        "FieldLength": 906
       }
     }
   }

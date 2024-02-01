@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 809
+  "RoleId": 136
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Sporer, Pfeffer and Moen",
-    "ToolTip": "Omnis at cumque illo quas ducimus temporibus dolorum.",
-    "Deleted": false,
-    "Rank": 733,
-    "Type": "qui",
-    "ColorBlock": 402,
-    "IconHint": "similique",
+    "Id": 878,
+    "Name": "Fay LLC",
+    "ToolTip": "Explicabo a cum ut quo.",
+    "Deleted": true,
+    "Rank": 113,
+    "Type": "tenetur",
+    "ColorBlock": 940,
+    "IconHint": "explicabo",
     "Selected": false,
-    "LastChanged": "2017-11-16T13:57:13.5364634+01:00",
+    "LastChanged": "2022-08-03T23:03:57.552108+02:00",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Tremblay-Hand",
-        "ToolTip": "Dolore sed sint ea impedit iste consectetur quisquam.",
+        "Id": 267,
+        "Name": "Gorczany-Schowalter",
+        "ToolTip": "Esse reiciendis quibusdam.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "iusto",
-        "ColorBlock": 988,
-        "IconHint": "ex",
-        "Selected": false,
-        "LastChanged": "1998-12-12T13:57:13.5364634+01:00",
+        "Rank": 498,
+        "Type": "quo",
+        "ColorBlock": 770,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2012-08-12T23:03:57.5531074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quis",
+        "ExtraInfo": "sit",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Mrs. Maia Beier PhD",
+        "FullName": "Montana Tressa Cruickshank V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 34
+            "FieldLength": 448
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "sunt",
+    "ExtraInfo": "nam",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Mr. Agnes Fadel Jr.",
+    "FullName": "Tillman Schmeler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 103
       }
     }
   }

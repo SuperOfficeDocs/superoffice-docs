@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hansen LLC",
-  "RecordId": 651,
-  "AssociateId": 556,
-  "ExtraInfo": "perspiciatis"
+  "TableName": "O'Reilly-Cronin",
+  "RecordId": 333,
+  "AssociateId": 915,
+  "ExtraInfo": "laboriosam"
 }
 ```
 

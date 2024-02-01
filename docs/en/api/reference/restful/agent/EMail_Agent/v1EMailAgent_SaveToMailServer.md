@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 326,
-      "ContactName": "Bailey-Auer",
-      "PersonId": 460,
-      "PersonName": "Senger-Wilderman",
-      "AssociateId": 782,
-      "Address": "recusandae",
-      "EmailId": 309,
+      "ContactId": 618,
+      "ContactName": "Lubowitz-Kreiger",
+      "PersonId": 173,
+      "PersonName": "Sipes Inc and Sons",
+      "AssociateId": 430,
+      "Address": "odit",
+      "EmailId": 367,
       "DuplicatePersonIds": [
-        748,
-        16
+        306,
+        579
       ],
-      "Name": "Schmitt Inc and Sons",
+      "Name": "Toy Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldType": "System.String",
+          "FieldLength": 880
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 911,
-      "ContactName": "Bayer, Baumbach and Koch",
-      "PersonId": 857,
-      "PersonName": "Ebert, Zulauf and Kutch",
-      "AssociateId": 800,
-      "Address": "tenetur",
-      "EmailId": 2,
+      "ContactId": 587,
+      "ContactName": "Robel, Dickinson and Christiansen",
+      "PersonId": 676,
+      "PersonName": "Friesen Group",
+      "AssociateId": 419,
+      "Address": "porro",
+      "EmailId": 200,
       "DuplicatePersonIds": [
-        783,
-        657
+        432,
+        766
       ],
-      "Name": "Dibbert Inc and Sons",
+      "Name": "Kihn-Rohan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 673
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 680,
-      "ContactName": "Jaskolski LLC",
-      "PersonId": 322,
-      "PersonName": "Gerlach Group",
-      "AssociateId": 418,
-      "Address": "distinctio",
-      "EmailId": 646,
+      "ContactId": 868,
+      "ContactName": "Nitzsche Inc and Sons",
+      "PersonId": 715,
+      "PersonName": "Stanton, Klocko and Dibbert",
+      "AssociateId": 183,
+      "Address": "quidem",
+      "EmailId": 609,
       "DuplicatePersonIds": [
-        516,
-        36
+        668,
+        18
       ],
-      "Name": "Terry, McLaughlin and Lebsack",
+      "Name": "Barrows-Wintheiser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 192
+          "FieldLength": 635
         }
       }
     }
   ],
-  "Subject": "esse",
-  "HTMLBody": "ut",
+  "Subject": "tenetur",
+  "HTMLBody": "explicabo",
   "From": null,
-  "Sent": "2002-04-16T13:57:12.2311227+02:00",
-  "Size": 769,
+  "Sent": "2023-10-19T23:03:55.8696326+02:00",
+  "Size": 646,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quibusdam",
-  "PlainBody": "numquam",
+  "MessageID": "voluptatibus",
+  "PlainBody": "minima",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 850,
+  "ServerId": 438,
   "Attachments": [
     {
-      "Description": "Proactive bifurcated challenge",
-      "Filename": "tempore",
-      "Size": 615,
-      "Type": "iste",
-      "Encoding": "eum",
-      "Id": "nemo",
-      "Disposition": "ullam",
-      "IsSafeFileExtension": false,
+      "Description": "Synergistic content-based monitoring",
+      "Filename": "ducimus",
+      "Size": 57,
+      "Type": "architecto",
+      "Encoding": "voluptas",
+      "Id": "est",
+      "Disposition": "reiciendis",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 645
+          "FieldLength": 970
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Weimann Inc and Sons",
+      "Name": "Purdy, Zulauf and Heidenreich",
       "Values": [
-        "vel",
-        "officia"
+        "voluptatum",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 433
         }
       }
     },
     {
-      "Name": "Weimann Inc and Sons",
+      "Name": "Purdy, Zulauf and Heidenreich",
       "Values": [
-        "vel",
-        "officia"
+        "voluptatum",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 433
         }
       }
     }
   ],
-  "FolderName": "Pouros Inc and Sons",
-  "EmailItemId": 686,
-  "AccountId": 120,
-  "ReceivedAt": "1999-06-25T13:57:12.2311227+02:00",
+  "FolderName": "Daniel-Parisian",
+  "EmailItemId": 862,
+  "AccountId": 922,
+  "ReceivedAt": "2015-11-20T23:03:55.8701376+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-02-21T13:57:12.2311227+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2005-11-20T23:03:55.8701376+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 782
     }
   }
 }

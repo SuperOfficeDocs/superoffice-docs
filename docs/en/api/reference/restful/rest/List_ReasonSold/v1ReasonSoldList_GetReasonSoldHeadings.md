@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 249,
-    "Name": "Gerhold, Wilderman and Kshlerin",
-    "Tooltip": "aut",
+    "HeadingId": 203,
+    "Name": "Padberg, VonRueden and Maggio",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 175,
-    "UdListDefinitionId": 135,
+    "Rank": 853,
+    "UdListDefinitionId": 758,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldLength": 718
       }
     }
   }

@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 955,
-  "ColumnId": 860,
-  "FieldDefault": "enim",
-  "FieldHeight": 75,
-  "FieldLabel": "expedita",
-  "FieldLeft": 395,
-  "FieldTop": 543,
+  "UDefFieldId": 962,
+  "ColumnId": 6,
+  "FieldDefault": "suscipit",
+  "FieldHeight": 360,
+  "FieldLabel": "dolorem",
+  "FieldLeft": 322,
+  "FieldTop": 958,
   "FieldType": "Checkbox",
-  "FieldWidth": 714,
-  "FormatMask": "quia",
-  "HideLabel": true,
+  "FieldWidth": 40,
+  "FormatMask": "laudantium",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 670,
-  "LabelLeft": 15,
-  "LabelTop": 727,
-  "LabelWidth": 304,
-  "LastVersionId": 290,
-  "ListTableId": 31,
+  "LabelHeight": 48,
+  "LabelLeft": 895,
+  "LabelTop": 541,
+  "LabelWidth": 783,
+  "LastVersionId": 150,
+  "ListTableId": 316,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 942,
-  "ProgId": "facere",
-  "IsReadOnly": false,
-  "ShortLabel": "minus",
-  "TabOrder": 488,
-  "TextLength": 176,
-  "Tooltip": "eum",
-  "UdefIdentity": 498,
-  "UDListDefinitionId": 293,
+  "Page1LineNo": 88,
+  "ProgId": "doloremque",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 875,
+  "TextLength": 19,
+  "Tooltip": "sit",
+  "UdefIdentity": 185,
+  "UDListDefinitionId": 842,
   "Justification": "Center",
-  "Version": 390,
-  "TemplateVariableName": "Schumm, Cremin and Schimmel",
+  "Version": 866,
+  "TemplateVariableName": "McDermott, Bashirian and Herman",
   "HasBeenPublished": false,
-  "MdoListName": "Romaguera, Veum and Fadel",
+  "MdoListName": "Carroll Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 64
     }
   }
 }

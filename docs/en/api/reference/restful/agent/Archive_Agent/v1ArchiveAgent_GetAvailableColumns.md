@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schiller Group",
-  "Context": "error"
+  "ProviderName": "Funk, Rippin and Ferry",
+  "Context": "et"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Little LLC",
-    "DisplayTooltip": "vel",
-    "DisplayType": "voluptas",
-    "CanOrderBy": false,
-    "Name": "Cummerata LLC",
+    "DisplayName": "Schamberger-Zieme",
+    "DisplayTooltip": "velit",
+    "DisplayType": "id",
+    "CanOrderBy": true,
+    "Name": "Hyatt Group",
     "CanRestrictBy": false,
-    "RestrictionType": "dolore",
-    "RestrictionListName": "Balistreri-Kassulke",
+    "RestrictionType": "ad",
+    "RestrictionListName": "Auer-Kling",
     "IsVisible": false,
-    "ExtraInfo": "quod",
-    "Width": "consequatur",
-    "IconHint": "pariatur",
-    "HeadingIconHint": "quia"
+    "ExtraInfo": "debitis",
+    "Width": "amet",
+    "IconHint": "nihil",
+    "HeadingIconHint": "iusto"
   }
 ]
 ```

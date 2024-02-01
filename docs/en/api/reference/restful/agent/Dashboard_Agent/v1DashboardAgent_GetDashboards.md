@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 727
+  "AssociateId": 926
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 271,
-    "AssociateId": 496,
-    "Caption": "accusantium",
+    "DashboardId": 816,
+    "AssociateId": 964,
+    "Caption": "quidem",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 357,
-        "Caption": "sunt",
-        "Description": "Fully-configurable exuding moderator",
-        "ChartName": "Wisozk, Keeling and Doyle",
-        "ChartId": "ratione",
-        "IsDefault": true,
-        "AssociateId": 284,
-        "GroupId": 99,
-        "SelectionId": 234,
-        "Config": "rerum",
+        "DashboardTileId": 31,
+        "Caption": "dolorem",
+        "Description": "Re-engineered context-sensitive algorithm",
+        "ChartName": "Schmidt, Reichel and Dibbert",
+        "ChartId": "accusantium",
+        "IsDefault": false,
+        "AssociateId": 787,
+        "GroupId": 40,
+        "SelectionId": 498,
+        "Config": "illum",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldLength": 889
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

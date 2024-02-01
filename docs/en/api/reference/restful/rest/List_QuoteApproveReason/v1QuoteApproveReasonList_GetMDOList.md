@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=mollitia
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=magnam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Lehner LLC",
-    "ToolTip": "Et saepe enim suscipit ducimus quisquam et voluptatem.",
-    "Deleted": false,
-    "Rank": 658,
-    "Type": "placeat",
+    "Id": 589,
+    "Name": "Sanford Inc and Sons",
+    "ToolTip": "Quibusdam exercitationem.",
+    "Deleted": true,
+    "Rank": 500,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Smitham Group",
-        "ToolTip": "Enim laboriosam illo fuga cumque est velit dolores.",
-        "Deleted": true,
-        "Rank": 290,
-        "Type": "consectetur",
+        "Id": 755,
+        "Name": "Bradtke-Howell",
+        "ToolTip": "Nam recusandae consectetur et nihil nihil placeat.",
+        "Deleted": false,
+        "Rank": 787,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 691,
-        "ExtraInfo": "dicta",
-        "StyleHint": "vitae",
-        "FullName": "Mr. Hildegard Mante",
+        "IconHint": "aut",
+        "ColorBlock": 483,
+        "ExtraInfo": "officia",
+        "StyleHint": "sapiente",
+        "FullName": "Abe Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 128
+            "FieldLength": 170
           }
         }
       }
     ],
-    "IconHint": "reiciendis",
-    "ColorBlock": 988,
-    "ExtraInfo": "corporis",
-    "StyleHint": "eum",
-    "FullName": "Mr. Omari Furman Medhurst",
+    "IconHint": "est",
+    "ColorBlock": 286,
+    "ExtraInfo": "soluta",
+    "StyleHint": "illum",
+    "FullName": "Augustus Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 950
       }
     }
   }

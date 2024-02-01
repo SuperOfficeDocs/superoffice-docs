@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 942,
-  "Name": "Buckridge, Grant and Ratke",
-  "Tooltip": "officiis",
+  "RoleId": 686,
+  "Name": "Howe, Goyette and Murazik",
+  "Tooltip": "animi",
   "RoleType": "Anonymous",
-  "Deleted": 96,
-  "Rank": 849,
-  "Created": "1998-07-10T13:57:19.1403101+02:00",
-  "UseCategories": 571,
+  "Deleted": 154,
+  "Rank": 610,
+  "Created": "2013-05-10T23:04:04.6350109+02:00",
+  "UseCategories": 34,
   "CreatedBy": null,
-  "Updated": "2001-03-20T13:57:19.1403101+01:00",
+  "Updated": "2005-03-09T23:04:04.6355125+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldType": "System.String",
+      "FieldLength": 62
     }
   }
 }

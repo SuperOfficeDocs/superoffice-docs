@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 855,
-  "ColumnId": 910,
-  "FieldDefault": "exercitationem",
-  "FieldHeight": 397,
-  "FieldLabel": "et",
-  "FieldLeft": 85,
-  "FieldTop": 638,
+  "UDefFieldId": 792,
+  "ColumnId": 588,
+  "FieldDefault": "non",
+  "FieldHeight": 573,
+  "FieldLabel": "facilis",
+  "FieldLeft": 423,
+  "FieldTop": 513,
   "FieldType": "Checkbox",
-  "FieldWidth": 234,
-  "FormatMask": "culpa",
+  "FieldWidth": 804,
+  "FormatMask": "magni",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 266,
-  "LabelLeft": 749,
-  "LabelTop": 390,
-  "LabelWidth": 612,
-  "LastVersionId": 9,
-  "ListTableId": 586,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 29,
+  "LabelLeft": 927,
+  "LabelTop": 322,
+  "LabelWidth": 212,
+  "LastVersionId": 452,
+  "ListTableId": 60,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 825,
-  "ProgId": "blanditiis",
+  "Page1LineNo": 342,
+  "ProgId": "consectetur",
   "IsReadOnly": false,
-  "ShortLabel": "rem",
-  "TabOrder": 535,
-  "TextLength": 159,
-  "Tooltip": "soluta",
-  "UdefIdentity": 690,
-  "UDListDefinitionId": 158,
+  "ShortLabel": "est",
+  "TabOrder": 475,
+  "TextLength": 591,
+  "Tooltip": "molestias",
+  "UdefIdentity": 293,
+  "UDListDefinitionId": 245,
   "Justification": "Center",
-  "Version": 22,
-  "TemplateVariableName": "Tromp, Marvin and Spencer",
-  "HasBeenPublished": false,
-  "MdoListName": "Hoeger-Kirlin",
+  "Version": 719,
+  "TemplateVariableName": "Stamm Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Crooks-Stoltenberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldType": "System.String",
+      "FieldLength": 121
     }
   }
 }

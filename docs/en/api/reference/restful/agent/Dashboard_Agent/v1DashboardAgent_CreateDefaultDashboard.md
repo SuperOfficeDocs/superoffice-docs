@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 278,
-  "AssociateId": 862,
-  "Caption": "voluptatibus",
+  "DashboardId": 275,
+  "AssociateId": 176,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 304,
-      "Caption": "sed",
-      "Description": "Optional logistical moratorium",
-      "ChartName": "Hills LLC",
-      "ChartId": "optio",
-      "IsDefault": false,
-      "AssociateId": 779,
-      "GroupId": 170,
-      "SelectionId": 892,
-      "Config": "dicta",
+      "DashboardTileId": 116,
+      "Caption": "dignissimos",
+      "Description": "Centralized scalable orchestration",
+      "ChartName": "Altenwerth, Schuppe and Kulas",
+      "ChartId": "corporis",
+      "IsDefault": true,
+      "AssociateId": 143,
+      "GroupId": 634,
+      "SelectionId": 145,
+      "Config": "sunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 537
+          "FieldType": "System.Int32",
+          "FieldLength": 139
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 530
     }
   }
 }

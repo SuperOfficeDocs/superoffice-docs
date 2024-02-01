@@ -475,7 +475,7 @@ This is the archive Provider for the Selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationSelectionV2?$select=duration,person/personExtra/x_person_request_relation,contact/NumberOfTicketsInPeriod
+GET /api/v1/archive/ChatConversationSelectionV2?$select=registeredDate,person/firstName,person/lastName,person/restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

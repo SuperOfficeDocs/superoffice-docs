@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Feest LLC",
+  "TableName": "Medhurst Group",
   "RecordIds": [
-    476,
-    116
+    149,
+    173
   ],
-  "AssociateId": 706,
-  "ExtraInfo": "nemo"
+  "AssociateId": 545,
+  "ExtraInfo": "enim"
 }
 ```
 

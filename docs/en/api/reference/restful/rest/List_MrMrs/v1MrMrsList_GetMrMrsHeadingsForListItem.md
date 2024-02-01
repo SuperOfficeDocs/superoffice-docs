@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Deckow-Hegmann",
-    "ToolTip": "Incidunt eaque distinctio nisi ad officiis ut.",
+    "Id": 891,
+    "Name": "Halvorson-Connelly",
+    "ToolTip": "Ratione nam aut excepturi ipsa facere ex doloremque.",
     "Deleted": false,
-    "Rank": 154,
-    "Type": "vel",
-    "ColorBlock": 777,
-    "IconHint": "natus",
+    "Rank": 224,
+    "Type": "corporis",
+    "ColorBlock": 722,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2016-12-13T13:57:19.7971417+01:00",
+    "LastChanged": "2019-09-17T23:04:05.5234993+02:00",
     "ChildItems": [
       {
-        "Id": 997,
-        "Name": "Walsh-Graham",
-        "ToolTip": "Sapiente incidunt animi.",
+        "Id": 460,
+        "Name": "Pfeffer, Frami and Rohan",
+        "ToolTip": "Debitis praesentium facere sint nostrum numquam velit.",
         "Deleted": true,
-        "Rank": 544,
-        "Type": "omnis",
-        "ColorBlock": 292,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2012-09-09T13:57:19.7971417+02:00",
+        "Rank": 139,
+        "Type": "atque",
+        "ColorBlock": 115,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2012-04-17T23:04:05.523999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Eldora Feest",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "saepe",
+        "Hidden": true,
+        "FullName": "Theron Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 909
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "architecto",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Prof. Emelie Abdiel Hyatt DDS",
+    "FullName": "Sydni Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 794
       }
     }
   }

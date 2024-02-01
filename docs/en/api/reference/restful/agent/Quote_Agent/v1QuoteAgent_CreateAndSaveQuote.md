@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 86,
-  "ConnectionId": 513,
-  "FirstAlternativeName": "Keeling Inc and Sons"
+  "SaleId": 917,
+  "ConnectionId": 567,
+  "FirstAlternativeName": "Towne-Rice"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 997,
-  "SaleId": 470,
-  "QuoteConnectionId": 724,
-  "ERPQuoteKey": "itaque",
-  "ERPOrderKey": "voluptatum",
-  "ActiveQuoteVersionId": 35,
-  "AcceptedQuoteAlternativeId": 311,
-  "UseValuesFromQuote": 924,
-  "DocumentId": 205,
-  "PoNumber": "1106819",
-  "OrderComment": "quo",
-  "PreferredEmailCulture": "ivah_auer@reichelhansen.ca",
+  "QuoteId": 354,
+  "SaleId": 14,
+  "QuoteConnectionId": 570,
+  "ERPQuoteKey": "consequuntur",
+  "ERPOrderKey": "dolor",
+  "ActiveQuoteVersionId": 86,
+  "AcceptedQuoteAlternativeId": 693,
+  "UseValuesFromQuote": 396,
+  "DocumentId": 425,
+  "PoNumber": "954243",
+  "OrderComment": "suscipit",
+  "PreferredEmailCulture": "deshawn@kuvalis.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 12,
-      "ERPQuoteVersionKey": "eveniet",
-      "QuoteId": 71,
-      "Description": "Business-focused demand-driven analyzer",
-      "Number": "600338",
+      "QuoteVersionId": 225,
+      "ERPQuoteVersionKey": "est",
+      "QuoteId": 524,
+      "Description": "Automated high-level groupware",
+      "Number": "1321551",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 263,
-      "SentDate": "2012-03-22T13:57:13.064942+01:00",
-      "FollowupId": 737,
-      "ExpirationDate": "1996-10-08T13:57:13.064942+02:00",
-      "DeliveryCountryId": 610,
+      "LikelyQuoteAlternativeId": 561,
+      "SentDate": "1998-08-17T23:03:56.7861177+02:00",
+      "FollowupId": 207,
+      "ExpirationDate": "2022-12-29T23:03:56.7861177+01:00",
+      "DeliveryCountryId": 514,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 767,
+      "InvoiceCountryId": 445,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "fugiat",
-      "ERPPaymentTypeKey": "et",
-      "ERPDeliveryTermsKey": "laudantium",
-      "ERPDeliveryTypeKey": "veritatis",
-      "Rank": 937,
-      "ApprovedBy": 690,
-      "ApprovedText": "id",
-      "ApprovedRegisteredBy": 995,
-      "ApprovedRegisteredDate": "2017-06-19T13:57:13.064942+02:00",
-      "ExtraField1": "odit",
-      "ExtraField2": "occaecati",
-      "ExtraField3": "eligendi",
-      "ExtraField4": "aut",
-      "ExtraField5": "ut",
-      "LastRecalculated": "1998-06-19T13:57:13.064942+02:00",
-      "Updated": "2007-01-30T13:57:13.064942+01:00",
-      "UpdatedAssociateId": 983,
-      "Registered": "2004-05-23T13:57:13.064942+02:00",
-      "RegisteredAssociateId": 99,
-      "RequestAssociateId": 231,
-      "RequestComment": "aut",
+      "ERPPaymentTermsKey": "et",
+      "ERPPaymentTypeKey": "esse",
+      "ERPDeliveryTermsKey": "maxime",
+      "ERPDeliveryTypeKey": "quam",
+      "Rank": 882,
+      "ApprovedBy": 709,
+      "ApprovedText": "eius",
+      "ApprovedRegisteredBy": 347,
+      "ApprovedRegisteredDate": "2001-01-20T23:03:56.7861177+01:00",
+      "ExtraField1": "consequatur",
+      "ExtraField2": "et",
+      "ExtraField3": "ea",
+      "ExtraField4": "quam",
+      "ExtraField5": "eveniet",
+      "LastRecalculated": "2015-06-10T23:03:56.7861177+02:00",
+      "Updated": "1998-03-17T23:03:56.7861177+01:00",
+      "UpdatedAssociateId": 399,
+      "Registered": "2012-03-08T23:03:56.7861177+01:00",
+      "RegisteredAssociateId": 758,
+      "RequestAssociateId": 373,
+      "RequestComment": "qui",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldType": "System.String",
+          "FieldLength": 630
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 425
     }
   }
 }

@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobson-Schuppe",
-    "DisplayName": "Rempel-Rice",
-    "DisplayTooltip": "sed",
-    "IsActive": false,
+    "Name": "Boyle-Stoltenberg",
+    "DisplayName": "Ondricka, Morissette and Goldner",
+    "DisplayTooltip": "aut",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 236
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   },
   {
-    "Name": "Jacobson-Schuppe",
-    "DisplayName": "Rempel-Rice",
-    "DisplayTooltip": "sed",
-    "IsActive": false,
+    "Name": "Boyle-Stoltenberg",
+    "DisplayName": "Ondricka, Morissette and Goldner",
+    "DisplayTooltip": "aut",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 236
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

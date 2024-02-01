@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quia",
+  "SaleText": "consequatur",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-12-21T13:57:19.2346514+01:00",
-  "Amount": 15864.307999999999,
-  "SaleId": 259,
-  "Earning": 12905.812,
-  "EarningPercent": 419.95599999999996,
-  "Heading": "aperiam",
-  "Number": "1473598",
-  "Probability": 943,
-  "CreatedDate": "2020-04-10T13:57:19.2346514+02:00",
-  "UpdatedDate": "2014-06-19T13:57:19.2346514+02:00",
+  "Saledate": "2013-01-26T23:04:04.7470094+01:00",
+  "Amount": 15040.065999999999,
+  "SaleId": 373,
+  "Earning": 28111.98,
+  "EarningPercent": 14723.532,
+  "Heading": "rem",
+  "Number": "1009184",
+  "Probability": 138,
+  "CreatedDate": "2016-11-02T23:04:04.7470094+01:00",
+  "UpdatedDate": "2021-08-15T23:04:04.7470094+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 517,
+  "ActiveLinks": 676,
   "Links": [
     {
-      "EntityName": "Cronin-Jast",
-      "Id": 682,
-      "Description": "Programmable full-range function",
-      "ExtraInfo": "ipsa",
-      "LinkId": 905
+      "EntityName": "Wilkinson LLC",
+      "Id": 818,
+      "Description": "Down-sized directional conglomeration",
+      "ExtraInfo": "ipsum",
+      "LinkId": 441
     },
     {
-      "EntityName": "Cronin-Jast",
-      "Id": 682,
-      "Description": "Programmable full-range function",
-      "ExtraInfo": "ipsa",
-      "LinkId": 905
+      "EntityName": "Wilkinson LLC",
+      "Id": 818,
+      "Description": "Down-sized directional conglomeration",
+      "ExtraInfo": "ipsum",
+      "LinkId": 441
     }
   ],
-  "NextDueDate": "2007-09-13T13:57:19.2346514+02:00",
-  "Postit": "esse",
+  "NextDueDate": "2000-02-19T23:04:04.7470094+01:00",
+  "Postit": "minus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-01-13T13:57:19.2346514+01:00",
+  "ReopenDate": "1996-09-08T23:04:04.7470094+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Balistreri-Roob",
-      "Comment": "tenetur",
-      "StakeholderRoleId": 497,
-      "CountryId": 103,
-      "PersonId": 321,
-      "EmailDescription": "sasha_pouros@heidenreich.co.uk",
-      "EmailId": 389,
-      "EmailAddress": "jeanie_bahringer@kulas.ca",
-      "PhoneId": 993,
-      "ContactName": "McCullough, Wiza and Rau",
-      "ContactId": 400,
-      "SaleId": 381,
-      "Mrmrs": "iure",
-      "Firstname": "Alexandrea",
-      "MiddleName": "Douglas Group",
-      "Lastname": "Harvey",
-      "SaleStakeholderId": 102,
-      "Rank": 517,
-      "Phone": "200.790.5570 x11465"
+      "StakeholderRoleName": "Schroeder, Purdy and Sauer",
+      "Comment": "et",
+      "StakeholderRoleId": 159,
+      "CountryId": 683,
+      "PersonId": 913,
+      "EmailDescription": "raphaelle_green@ortiznienow.uk",
+      "EmailId": 965,
+      "EmailAddress": "rosanna@hauck.info",
+      "PhoneId": 916,
+      "ContactName": "Leuschke, Bradtke and Jones",
+      "ContactId": 467,
+      "SaleId": 528,
+      "Mrmrs": "aut",
+      "Firstname": "Gerda",
+      "MiddleName": "Oberbrunner, Kemmer and Kessler",
+      "Lastname": "Doyle",
+      "SaleStakeholderId": 783,
+      "Rank": 325,
+      "Phone": "328-541-2464 x474"
     }
   ],
-  "ActiveErpLinks": 79,
+  "ActiveErpLinks": 958,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Grady Lemke",
-    "SuperOffice:2": "573193435"
+    "SuperOffice:1": "1443528346",
+    "SuperOffice:2": "Dwight Balistreri"
   },
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "vel"
+    "CustomFields1": "beatae",
+    "CustomFields2": "molestiae"
   },
-  "PublishEventDate": "2004-11-05T13:57:19.2346514+01:00",
-  "PublishTo": "2014-08-21T13:57:19.2346514+02:00",
-  "PublishFrom": "2022-04-04T13:57:19.2346514+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2016-05-06T23:04:04.7480125+02:00",
+  "PublishTo": "2007-10-16T23:04:04.7480125+02:00",
+  "PublishFrom": "2016-07-22T23:04:04.7480125+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 442,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "ducimus"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 442,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "ducimus"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "cupiditate",
-  "2": "facilis"
+  "1": "rem",
+  "2": "sapiente"
 }
 ```

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 603,
-  "Name": "McClure-Smitham",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 809,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 187,
+  "Name": "Swift Group",
+  "Tooltip": "reiciendis",
+  "Deleted": true,
+  "Rank": 393,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Walsh-Bode",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 147,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eaque",
-  "InUseByUserDefinedFields": true,
+  "Id": 551,
+  "Name": "Lind-Murazik",
+  "Tooltip": "rem",
+  "Deleted": true,
+  "Rank": 315,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dicta",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

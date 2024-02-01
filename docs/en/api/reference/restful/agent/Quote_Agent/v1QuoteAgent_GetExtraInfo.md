@@ -79,7 +79,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "magnam"
+  "QuoteLineExtraData": "porro"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Torp-Stracke",
-    "Value": "nemo",
+    "Name": "Bergstrom LLC",
+    "Value": "fugiat",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   },
   {
-    "Name": "Torp-Stracke",
-    "Value": "nemo",
+    "Name": "Bergstrom LLC",
+    "Value": "fugiat",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   }

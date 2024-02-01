@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 774,
-    "Name": "Prohaska Group",
-    "Tooltip": "maiores",
-    "Rank": 968,
-    "Key": "rerum",
+    "LegalBaseId": 819,
+    "Name": "Rohan-Schultz",
+    "Tooltip": "repudiandae",
+    "Rank": 411,
+    "Key": "nesciunt",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 994
       }
     }
   }

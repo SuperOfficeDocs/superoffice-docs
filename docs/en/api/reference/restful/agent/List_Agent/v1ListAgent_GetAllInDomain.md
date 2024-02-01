@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": false
+  "Children": true
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 291,
+    "HierarchyId": 553,
     "Domain": "Dashboards",
-    "Name": "Braun, Spencer and Veum",
-    "Fullname": "totam",
-    "ParentId": 157,
+    "Name": "Mueller, Goyette and Hahn",
+    "Fullname": "rem",
+    "ParentId": 829,
     "Children": [
       {
-        "HierarchyId": 977,
+        "HierarchyId": 107,
         "Domain": "Dashboards",
-        "Name": "Towne Group",
-        "Fullname": "qui",
-        "ParentId": 188,
+        "Name": "Ward-Breitenberg",
+        "Fullname": "autem",
+        "ParentId": 749,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2001-02-05T13:57:12.5599631+01:00",
-        "RegisteredAssociateId": 779,
-        "Updated": "2012-12-12T13:57:12.5599631+01:00",
-        "UpdatedAssociateId": 321,
+        "Registered": "2003-08-15T23:03:56.2741249+02:00",
+        "RegisteredAssociateId": 405,
+        "Updated": "1996-10-18T23:03:56.2741249+02:00",
+        "UpdatedAssociateId": 106,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldLength": 317
           }
         }
       }
     ],
-    "Registered": "2002-06-13T13:57:12.5599631+02:00",
-    "RegisteredAssociateId": 779,
-    "Updated": "1997-05-29T13:57:12.5599631+02:00",
-    "UpdatedAssociateId": 628,
+    "Registered": "2007-09-12T23:03:56.2741249+02:00",
+    "RegisteredAssociateId": 991,
+    "Updated": "2001-06-01T23:03:56.2741249+02:00",
+    "UpdatedAssociateId": 848,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Gerhold, Connelly and Conroy",
-    "Tooltip": "consequatur",
+    "Id": 630,
+    "Name": "Wunsch-Okuneva",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 573,
+    "Rank": 360,
     "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": true,
-    "ListType": "reiciendis",
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": false,
+    "ListType": "quis",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 118
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

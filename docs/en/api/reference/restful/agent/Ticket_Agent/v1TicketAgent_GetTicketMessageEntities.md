@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 961,
+  "TicketId": 1000,
   "MessageIds": [
-    427,
-    193
+    639,
+    768
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 165,
+    "EjMessageId": 885,
     "Ticket": null,
-    "CreatedAt": "2013-02-12T13:57:13.4583399+01:00",
+    "CreatedAt": "1998-11-10T23:03:57.4296205+01:00",
     "CreatedBy": null,
-    "Author": "cumque",
+    "Author": "porro",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "corrupti",
-    "TimeSpent": 999,
-    "Body": "nam",
-    "HtmlBody": "culpa",
-    "EmailHeader": "cortez@klein.info",
-    "DebugInfo": "possimus",
-    "MailSorter": "pariatur",
+    "MessageId": "quia",
+    "TimeSpent": 754,
+    "Body": "possimus",
+    "HtmlBody": "tenetur",
+    "EmailHeader": "emil.leannon@borer.com",
+    "DebugInfo": "esse",
+    "MailSorter": "molestias",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "est",
+    "SearchTitle": "eos",
     "MessageHeaders": [
       {
-        "Id": 677,
-        "Name": "Kuhic, White and Rice",
-        "Value": "necessitatibus",
+        "Id": 924,
+        "Name": "Anderson, Schultz and Mitchell",
+        "Value": "assumenda",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,49 +148,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 608
           }
         }
       }
     ],
-    "Important": false,
-    "Language": "dolore",
-    "Sentiment": 424,
-    "SentimentConfidence": 478,
+    "Important": true,
+    "Language": "vel",
+    "Sentiment": 325,
+    "SentimentConfidence": 897,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 692,
-        "Name": "Reynolds-Mills",
-        "ContentType": "autem",
-        "AttSize": 66,
-        "InlineImage": false,
-        "ContentId": "eligendi",
-        "AuthKey": "eum",
+        "AttachmentId": 113,
+        "Name": "Beahan-Rempel",
+        "ContentType": "enim",
+        "AttSize": 502,
+        "InlineImage": true,
+        "ContentId": "et",
+        "AuthKey": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 48
+            "FieldLength": 855
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "illum",
-      "ExtraFields2": "voluptatem"
+      "ExtraFields1": "ut",
+      "ExtraFields2": "deleniti"
     },
     "CustomFields": {
-      "CustomFields1": "enim",
-      "CustomFields2": "quia"
+      "CustomFields1": "quo",
+      "CustomFields2": "suscipit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 250
       }
     }
   }

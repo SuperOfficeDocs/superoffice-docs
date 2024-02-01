@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 52,
-  "Name": "O'Conner Inc and Sons",
+  "ContactId": 117,
+  "Name": "Bahringer Group",
   "Department": "",
-  "OrgNr": "1968438",
-  "Number1": "723030",
-  "Number2": "179545",
-  "UpdatedDate": "2011-09-22T13:57:11.9342044+02:00",
-  "CreatedDate": "2010-10-01T13:57:11.9342044+02:00",
+  "OrgNr": "1106679",
+  "Number1": "1035530",
+  "Number2": "1103229",
+  "UpdatedDate": "2002-09-28T23:03:55.3686379+02:00",
+  "CreatedDate": "2003-11-11T23:03:55.3686379+01:00",
   "Emails": [
     {
-      "Value": "officiis",
-      "StrippedValue": "et",
-      "Description": "Secured responsive info-mediaries",
+      "Value": "nihil",
+      "StrippedValue": "nesciunt",
+      "Description": "Mandatory 4th generation flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 713
         }
       }
     },
     {
-      "Value": "officiis",
-      "StrippedValue": "et",
-      "Description": "Secured responsive info-mediaries",
+      "Value": "nihil",
+      "StrippedValue": "nesciunt",
+      "Description": "Mandatory 4th generation flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 713
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 801,
-      "Name": "Terry, Kirlin and Nolan",
-      "ToolTip": "Deserunt velit quo consequatur.",
-      "Deleted": false,
-      "Rank": 797,
-      "Type": "dolorem",
-      "ColorBlock": 975,
-      "IconHint": "quam",
+      "Id": 549,
+      "Name": "Paucek, Cormier and Bahringer",
+      "ToolTip": "Et sequi ut vero.",
+      "Deleted": true,
+      "Rank": 917,
+      "Type": "aut",
+      "ColorBlock": 238,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2012-03-23T13:57:11.9342044+01:00",
+      "LastChanged": "2020-05-16T23:03:55.3686379+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "saepe",
-      "StyleHint": "asperiores",
-      "Hidden": true,
-      "FullName": "Amelia Blick",
+      "ExtraInfo": "veritatis",
+      "StyleHint": "quis",
+      "Hidden": false,
+      "FullName": "Raphael Fahey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 233
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "architecto",
-      "StrippedValue": "architecto",
-      "Description": "De-engineered well-modulated capacity",
+      "Value": "quaerat",
+      "StrippedValue": "praesentium",
+      "Description": "Fundamental cohesive groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 809
         }
       }
     },
     {
-      "Value": "architecto",
-      "StrippedValue": "architecto",
-      "Description": "De-engineered well-modulated capacity",
+      "Value": "quaerat",
+      "StrippedValue": "praesentium",
+      "Description": "Fundamental cohesive groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 809
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "vero",
-      "StrippedValue": "debitis",
-      "Description": "Digitized high-level interface",
+      "Value": "repellat",
+      "StrippedValue": "dolor",
+      "Description": "Networked uniform projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldType": "System.String",
+          "FieldLength": 642
         }
       }
     },
     {
-      "Value": "vero",
-      "StrippedValue": "debitis",
-      "Description": "Digitized high-level interface",
+      "Value": "repellat",
+      "StrippedValue": "dolor",
+      "Description": "Networked uniform projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldType": "System.String",
+          "FieldLength": 642
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "id",
-      "StrippedValue": "commodi",
-      "Description": "Cross-group composite frame",
+      "Value": "laborum",
+      "StrippedValue": "dolor",
+      "Description": "Secured reciprocal system engine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 791
         }
       }
     },
     {
-      "Value": "id",
-      "StrippedValue": "commodi",
-      "Description": "Cross-group composite frame",
+      "Value": "laborum",
+      "StrippedValue": "dolor",
+      "Description": "Secured reciprocal system engine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 791
         }
       }
     }
   ],
-  "Description": "Synergized dynamic application",
+  "Description": "Visionary radical success",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quos",
-      "PersonId": 810,
-      "Mrmrs": "autem",
-      "Firstname": "Candice",
-      "Lastname": "Yost",
-      "MiddleName": "Wolf, McGlynn and Erdman",
-      "Title": "molestias",
-      "Description": "Inverse 6th generation structure",
-      "Email": "brandon@schroederdoyle.name",
-      "FullName": "Prof. Jamel Genoveva McCullough Jr.",
-      "DirectPhone": "872-350-2915",
-      "FormalName": "Heidenreich, Dickinson and Carter",
-      "CountryId": 284,
-      "ContactId": 410,
-      "ContactName": "Franecki, Lesch and Cassin",
-      "Retired": 483,
-      "Rank": 866,
-      "ActiveInterests": 567,
+      "Position": "quia",
+      "PersonId": 216,
+      "Mrmrs": "vero",
+      "Firstname": "Furman",
+      "Lastname": "Kemmer",
+      "MiddleName": "O'Kon, Nolan and Crooks",
+      "Title": "placeat",
+      "Description": "Synergistic stable firmware",
+      "Email": "jaylen_kessler@leannonlueilwitz.name",
+      "FullName": "Dr. Keegan Kirstin Champlin IV",
+      "DirectPhone": "492.977.5350",
+      "FormalName": "Ondricka, Hermiston and Prosacco",
+      "CountryId": 128,
+      "ContactId": 600,
+      "ContactName": "Satterfield LLC",
+      "Retired": 250,
+      "Rank": 569,
+      "ActiveInterests": 120,
       "ContactDepartment": "",
-      "ContactCountryId": 784,
-      "ContactOrgNr": "453512",
-      "FaxPhone": "1-275-550-8097 x7768",
-      "MobilePhone": "710-349-0256",
-      "ContactPhone": "(454)594-0769 x35419",
-      "AssociateName": "Volkman-Cremin",
-      "AssociateId": 198,
-      "UsePersonAddress": false,
-      "ContactFax": "quos",
-      "Kanafname": "sit",
-      "Kanalname": "dolorum",
-      "Post1": "quasi",
-      "Post2": "eum",
-      "Post3": "et",
-      "EmailName": "raphaelle.hodkiewicz@hamillturner.com",
-      "ContactFullName": "Prof. Roman Russel",
-      "ActiveErpLinks": 527,
-      "TicketPriorityId": 969,
-      "SupportLanguageId": 809,
-      "SupportAssociateId": 236,
+      "ContactCountryId": 694,
+      "ContactOrgNr": "1301703",
+      "FaxPhone": "(908)329-9350",
+      "MobilePhone": "(018)777-6235 x612",
+      "ContactPhone": "266.233.6375",
+      "AssociateName": "Bogan-Jakubowski",
+      "AssociateId": 245,
+      "UsePersonAddress": true,
+      "ContactFax": "debitis",
+      "Kanafname": "dolorum",
+      "Kanalname": "sit",
+      "Post1": "occaecati",
+      "Post2": "eos",
+      "Post3": "expedita",
+      "EmailName": "kiana@ebert.co.uk",
+      "ContactFullName": "Jimmy Trantow",
+      "ActiveErpLinks": 410,
+      "TicketPriorityId": 815,
+      "SupportLanguageId": 186,
+      "SupportAssociateId": 68,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 88
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "consequuntur",
-  "Xstop": false,
-  "ActiveInterests": 735,
-  "GroupId": 347,
-  "ActiveStatusMonitorId": 974,
+  "Kananame": "qui",
+  "Xstop": true,
+  "ActiveInterests": 898,
+  "GroupId": 202,
+  "ActiveStatusMonitorId": 723,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 183,
-  "DbiAgentId": 440,
-  "DbiLastSyncronized": "1996-10-26T13:57:11.949876+02:00",
-  "DbiKey": "impedit",
-  "DbiLastModified": "2021-10-19T13:57:11.949876+02:00",
+  "Deleted": 585,
+  "DbiAgentId": 257,
+  "DbiLastSyncronized": "2012-04-25T23:03:55.3726377+02:00",
+  "DbiKey": "atque",
+  "DbiLastModified": "2005-01-18T23:03:55.3726377+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 684,
-  "ActiveErpLinks": 434,
+  "Source": 451,
+  "ActiveErpLinks": 385,
   "BounceEmails": [
-    "rusty_mayer@kuvalisdeckow.co.uk",
-    "felicity.rempel@ornsimonis.biz"
+    "fay.simonis@schmidtkovacek.com",
+    "justina@rolfson.co.uk"
   ],
   "Domains": [
-    "vero",
-    "recusandae"
+    "dolores",
+    "vel"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1600602419",
-    "SuperOffice:2": "Timmothy Abernathy PhD"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1405929955"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "at",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "nihil"
+    "CustomFields1": "nam",
+    "CustomFields2": "laborum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldType": "System.String",
+      "FieldLength": 834
     }
   }
 }

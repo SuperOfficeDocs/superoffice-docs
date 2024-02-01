@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 448,
-    "Name": "Sawayn, Nienow and Quigley",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 198,
-    "UdListDefinitionId": 14,
+    "HeadingId": 443,
+    "Name": "Pfeffer, McGlynn and Raynor",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 287,
+    "UdListDefinitionId": 653,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   }

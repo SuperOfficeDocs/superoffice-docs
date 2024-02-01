@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 448
+  "UdListDefinitionId": 246
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 847,
-  "Name": "Larkin Inc and Sons",
-  "Tooltip": "minima",
+  "HeadingId": 816,
+  "Name": "Turcotte-Von",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 172,
-  "UdListDefinitionId": 430,
+  "Rank": 896,
+  "UdListDefinitionId": 617,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 280
     }
   }
 }

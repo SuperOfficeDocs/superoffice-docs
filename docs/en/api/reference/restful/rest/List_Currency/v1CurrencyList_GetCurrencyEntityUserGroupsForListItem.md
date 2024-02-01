@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Yundt, Krajcik and Schulist",
-    "ToolTip": "Laudantium placeat in et aliquid ea nulla.",
-    "Deleted": false,
-    "Rank": 97,
-    "Type": "unde",
-    "ColorBlock": 702,
-    "IconHint": "sint",
+    "Id": 545,
+    "Name": "Schoen-Hirthe",
+    "ToolTip": "At sed nam aut odio.",
+    "Deleted": true,
+    "Rank": 936,
+    "Type": "vero",
+    "ColorBlock": 103,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2008-11-07T13:57:19.719018+01:00",
+    "LastChanged": "2018-07-25T23:04:05.4230012+02:00",
     "ChildItems": [
       {
-        "Id": 586,
-        "Name": "Ernser Group",
-        "ToolTip": "Dignissimos voluptate quo quaerat sapiente incidunt occaecati.",
-        "Deleted": false,
-        "Rank": 783,
-        "Type": "et",
-        "ColorBlock": 660,
-        "IconHint": "nostrum",
-        "Selected": false,
-        "LastChanged": "1999-12-30T13:57:19.719018+01:00",
+        "Id": 732,
+        "Name": "Barton Group",
+        "ToolTip": "Animi magnam eligendi explicabo autem cumque iure.",
+        "Deleted": true,
+        "Rank": 470,
+        "Type": "omnis",
+        "ColorBlock": 432,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2009-06-03T23:04:05.4230012+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "odio",
+        "ExtraInfo": "aut",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Silas Walker",
+        "FullName": "Prof. Terence Homenick PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 988
+            "FieldLength": 49
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "corrupti",
-    "Hidden": true,
-    "FullName": "Bonnie Jewess",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Dr. Elisha Michelle Hagenes III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 409
       }
     }
   }

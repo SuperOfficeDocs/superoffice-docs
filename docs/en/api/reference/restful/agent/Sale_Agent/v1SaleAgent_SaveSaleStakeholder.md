@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jacobson-Wolf",
-  "Comment": "at",
-  "StakeholderRoleId": 166,
-  "CountryId": 914,
-  "PersonId": 833,
-  "EmailDescription": "kristopher@larkinmraz.biz",
-  "EmailId": 697,
-  "EmailAddress": "don@schuster.name",
-  "PhoneId": 445,
-  "ContactName": "Koss Inc and Sons",
-  "ContactId": 146,
-  "SaleId": 54,
-  "Mrmrs": "facere",
-  "Firstname": "Lilliana",
-  "MiddleName": "Lynch-Quigley",
-  "Lastname": "Yundt",
-  "SaleStakeholderId": 682,
-  "Rank": 768,
-  "Phone": "(082)739-2310"
+  "StakeholderRoleName": "Stokes-Langosh",
+  "Comment": "tempore",
+  "StakeholderRoleId": 118,
+  "CountryId": 983,
+  "PersonId": 633,
+  "EmailDescription": "johnathon@oconnellchristiansen.name",
+  "EmailId": 678,
+  "EmailAddress": "ola.kautzer@weimann.co.uk",
+  "PhoneId": 534,
+  "ContactName": "Runolfsson, Heller and Cole",
+  "ContactId": 511,
+  "SaleId": 989,
+  "Mrmrs": "voluptatibus",
+  "Firstname": "Blaise",
+  "MiddleName": "Russel-Howe",
+  "Lastname": "Schinner",
+  "SaleStakeholderId": 449,
+  "Rank": 466,
+  "Phone": "(401)260-5013"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Ward, Hand and Williamson",
-  "Comment": "harum",
-  "StakeholderRoleId": 491,
-  "CountryId": 881,
-  "PersonId": 321,
-  "EmailDescription": "johnny@pollich.biz",
-  "EmailId": 312,
-  "EmailAddress": "florida@keebler.info",
-  "PhoneId": 148,
-  "ContactName": "West, Schowalter and Fritsch",
-  "ContactId": 340,
-  "SaleId": 983,
-  "Mrmrs": "omnis",
-  "Firstname": "Beau",
-  "MiddleName": "Torphy-Bernhard",
-  "Lastname": "Hahn",
-  "SaleStakeholderId": 361,
-  "Rank": 44,
-  "Phone": "(107)265-4250 x575",
+  "StakeholderRoleName": "Larkin, Schamberger and Rolfson",
+  "Comment": "ipsum",
+  "StakeholderRoleId": 175,
+  "CountryId": 864,
+  "PersonId": 526,
+  "EmailDescription": "leland@stroman.ca",
+  "EmailId": 17,
+  "EmailAddress": "ulices@shanahan.com",
+  "PhoneId": 4,
+  "ContactName": "Pfannerstill, Kautzer and Leuschke",
+  "ContactId": 562,
+  "SaleId": 295,
+  "Mrmrs": "ea",
+  "Firstname": "Madisyn",
+  "MiddleName": "Steuber Group",
+  "Lastname": "Crona",
+  "SaleStakeholderId": 180,
+  "Rank": 641,
+  "Phone": "(819)850-4661 x05761",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldLength": 519
     }
   }
 }

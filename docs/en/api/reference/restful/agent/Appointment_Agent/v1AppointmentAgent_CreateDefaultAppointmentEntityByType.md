@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-10-07T13:57:11.3250621+02:00",
-  "AppointmentId": 283,
-  "Description": "Persistent even-keeled parallelism",
-  "Title": "itaque",
-  "Agenda": "occaecati",
-  "InternalNotes": "tempore",
-  "StartDate": "2015-09-22T13:57:11.3250621+02:00",
-  "EndDate": "2023-07-06T13:57:11.3250621+02:00",
+  "CreatedDate": "2019-03-12T23:03:54.7041465+01:00",
+  "AppointmentId": 429,
+  "Description": "Universal optimizing monitoring",
+  "Title": "ut",
+  "Agenda": "recusandae",
+  "InternalNotes": "ratione",
+  "StartDate": "2005-02-06T23:03:54.7041465+01:00",
+  "EndDate": "1998-07-09T23:03:54.7041465+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 834,
+  "MotherId": 201,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-09-19T13:57:11.3250621+02:00",
+  "UpdatedDate": "2023-10-21T23:03:54.7081468+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 887,
+  "ActiveLinks": 103,
   "Links": [
     {
-      "EntityName": "Schmidt-Kuhic",
-      "Id": 276,
-      "Description": "Re-contextualized directional model",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 940,
+      "EntityName": "Collier Group",
+      "Id": 388,
+      "Description": "Persistent contextually-based encoding",
+      "ExtraInfo": "dolor",
+      "LinkId": 622,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldLength": 721
         }
       }
     }
   ],
-  "AlarmLeadTime": "nam",
-  "HasAlarm": true,
-  "ColorIndex": 590,
-  "IsFree": false,
+  "AlarmLeadTime": "dolore",
+  "HasAlarm": false,
+  "ColorIndex": 563,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "aliquam",
-  "LeadTime": "et",
-  "Location": "cupiditate",
-  "RejectCounter": 461,
+  "LagTime": "sequi",
+  "LeadTime": "atque",
+  "Location": "dignissimos",
+  "RejectCounter": 985,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 624,
-      "PersonId": 611,
-      "ContactId": 74,
-      "EmailId": 728,
-      "SendEmail": true,
+      "AssociateId": 642,
+      "PersonId": 609,
+      "ContactId": 68,
+      "EmailId": 131,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "clarissa_bernier@cruickshank.name",
-      "Description": "Centralized local projection"
+      "EmailAddress": "carey@miller.biz",
+      "Description": "Universal uniform matrices"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-03-20T13:57:11.3250621+01:00",
+  "ActiveDate": "2020-01-01T23:03:54.7086483+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 657,
+  "PreferredTZLocation": 217,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 826,
+  "SuggestedAppointmentId": 852,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ea",
+  "CentralserviceVideomeetId": "sunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "2105867778"
+    "SuperOffice:1": "Sierra Ernser",
+    "SuperOffice:2": "Deven Aufderhar"
   },
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "et"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "minus"
   },
-  "PublishEventDate": "2022-11-24T13:57:11.3250621+01:00",
-  "PublishTo": "2008-10-29T13:57:11.3250621+01:00",
-  "PublishFrom": "2003-12-22T13:57:11.3250621+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-05-28T23:03:54.710146+02:00",
+  "PublishTo": "2013-03-10T23:03:54.710146+01:00",
+  "PublishFrom": "2020-11-18T23:03:54.710146+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 865,
+      "VisibleId": 116,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 977
         }
       }
     },
     {
-      "VisibleId": 865,
+      "VisibleId": 116,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 977
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 834
     }
   }
 }

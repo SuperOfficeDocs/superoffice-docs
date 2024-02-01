@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 75,
-    "Tooltip": "sunt",
+    "Total": 177,
+    "Tooltip": "nostrum",
     "CanAssign": false,
-    "Free": 442,
-    "InUse": 89,
-    "IsHidden": false,
+    "Free": 956,
+    "InUse": 645,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 791,
-    "Name": "Windler-Beatty",
-    "Description": "Optimized high-level product",
-    "PrerequisiteModuleName": "Miller-Thompson",
-    "SortOrder": 885,
-    "ExtraFlags": 770,
+    "ModuleLicenseId": 258,
+    "Name": "Keebler, Becker and Pagac",
+    "Description": "Up-sized demand-driven process improvement",
+    "PrerequisiteModuleName": "Balistreri-Turner",
+    "SortOrder": 5,
+    "ExtraFlags": 294,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 741
+        "FieldLength": 55
       }
     }
   }

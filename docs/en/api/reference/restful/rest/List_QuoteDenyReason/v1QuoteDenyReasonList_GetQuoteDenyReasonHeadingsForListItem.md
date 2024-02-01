@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Name": "Ratke, Bailey and Zemlak",
-    "ToolTip": "Vero inventore aut veniam reprehenderit ut.",
+    "Id": 534,
+    "Name": "King, Schulist and Rath",
+    "ToolTip": "Nulla id perferendis voluptas.",
     "Deleted": true,
-    "Rank": 641,
-    "Type": "molestiae",
-    "ColorBlock": 906,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2018-06-10T13:57:20.031514+02:00",
+    "Rank": 233,
+    "Type": "minima",
+    "ColorBlock": 714,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2004-01-31T23:04:05.7169976+01:00",
     "ChildItems": [
       {
-        "Id": 254,
-        "Name": "Ortiz-Price",
-        "ToolTip": "Occaecati rem ipsa quo aut a facilis.",
-        "Deleted": true,
-        "Rank": 319,
-        "Type": "eligendi",
-        "ColorBlock": 626,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "2000-01-06T13:57:20.031514+01:00",
+        "Id": 285,
+        "Name": "Price Inc and Sons",
+        "ToolTip": "Enim in.",
+        "Deleted": false,
+        "Rank": 839,
+        "Type": "in",
+        "ColorBlock": 473,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2000-01-22T23:04:05.7179963+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Carolanne Stamm",
+        "ExtraInfo": "qui",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Lavinia Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 309
+            "FieldType": "System.String",
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Ara Morar",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "pariatur",
+    "Hidden": false,
+    "FullName": "Camryn Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 243
       }
     }
   }

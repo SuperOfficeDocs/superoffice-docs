@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "vel",
-  "Children": true
+  "Path": "incidunt",
+  "Children": false
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 323,
+  "HierarchyId": 745,
   "Domain": "Dashboards",
-  "Name": "Frami, Harber and Kris",
-  "Fullname": "recusandae",
-  "ParentId": 863,
+  "Name": "Boyle-Terry",
+  "Fullname": "fugiat",
+  "ParentId": 78,
   "Children": [
     {
-      "HierarchyId": 207,
+      "HierarchyId": 545,
       "Domain": "Dashboards",
-      "Name": "Crooks-Huel",
-      "Fullname": "natus",
-      "ParentId": 53,
+      "Name": "Jaskolski-Keeling",
+      "Fullname": "voluptas",
+      "ParentId": 525,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-10-01T13:57:12.5599631+02:00",
-      "RegisteredAssociateId": 527,
-      "Updated": "2006-08-06T13:57:12.5599631+02:00",
-      "UpdatedAssociateId": 645,
+      "Registered": "2001-10-03T23:03:56.2751256+02:00",
+      "RegisteredAssociateId": 715,
+      "Updated": "1997-07-23T23:03:56.2751256+02:00",
+      "UpdatedAssociateId": 767,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 181
         }
       }
     }
   ],
-  "Registered": "2014-11-13T13:57:12.5599631+01:00",
-  "RegisteredAssociateId": 941,
-  "Updated": "2005-10-20T13:57:12.5599631+02:00",
-  "UpdatedAssociateId": 721,
+  "Registered": "1996-11-08T23:03:56.2751256+01:00",
+  "RegisteredAssociateId": 989,
+  "Updated": "2002-02-02T23:03:56.2751256+01:00",
+  "UpdatedAssociateId": 479,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "illum",
-    "fugit"
+    "eveniet",
+    "blanditiis"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grady Inc and Sons",
-    "Delimiter": "dolorem",
-    "Flags": "et",
-    "TotalItems": 441,
-    "UnreadItems": 129,
+    "Name": "Monahan-Murazik",
+    "Delimiter": "exercitationem",
+    "Flags": "dolorem",
+    "TotalItems": 59,
+    "UnreadItems": 682,
     "Subscribed": false,
-    "EmailFolderId": 942,
+    "EmailFolderId": 607,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 827
+        "FieldLength": 326
       }
     }
   }

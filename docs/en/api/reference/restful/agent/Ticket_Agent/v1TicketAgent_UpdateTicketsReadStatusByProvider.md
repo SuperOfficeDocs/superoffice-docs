@@ -74,28 +74,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "nostrum",
+  "Provider": "non",
   "Restrictions": [
     {
-      "Name": "Crooks-Schaefer",
-      "Operator": "repellendus",
+      "Name": "Barton-Bahringer",
+      "Operator": "nihil",
       "Values": [
-        "tenetur",
-        "odit"
+        "dolore",
+        "illo"
       ],
       "DisplayValues": [
-        "neque",
-        "non"
+        "eos",
+        "placeat"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 262,
+      "InterParenthesis": 410,
       "InterOperator": "And",
-      "UniqueHash": 815
+      "UniqueHash": 399
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  226,
-  864
+  655,
+  824
 ]
 ```

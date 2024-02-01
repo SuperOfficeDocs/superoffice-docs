@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 62,
+  "Id": 660,
   "Entities": [
     {
-      "HeadingId": 221,
-      "Name": "Rohan-Toy",
-      "Tooltip": "consequuntur",
+      "HeadingId": 502,
+      "Name": "Bartell Inc and Sons",
+      "Tooltip": "dolores",
       "Deleted": true,
-      "Rank": 874,
-      "UdListDefinitionId": 678
+      "Rank": 984,
+      "UdListDefinitionId": 121
     },
     {
-      "HeadingId": 221,
-      "Name": "Rohan-Toy",
-      "Tooltip": "consequuntur",
+      "HeadingId": 502,
+      "Name": "Bartell Inc and Sons",
+      "Tooltip": "dolores",
       "Deleted": true,
-      "Rank": 874,
-      "UdListDefinitionId": 678
+      "Rank": 984,
+      "UdListDefinitionId": 121
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 543,
-    "Name": "Ratke, Wolff and White",
-    "Tooltip": "tempore",
-    "Deleted": false,
-    "Rank": 273,
-    "UdListDefinitionId": 852,
+    "HeadingId": 702,
+    "Name": "Streich-Treutel",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "Rank": 269,
+    "UdListDefinitionId": 796,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldType": "System.Int32",
+        "FieldLength": 938
       }
     }
   }

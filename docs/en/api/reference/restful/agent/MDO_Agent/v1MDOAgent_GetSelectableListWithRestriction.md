@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gislason-Kerluke",
-  "AdditionalInfo": "voluptatem",
-  "SearchValue": "dolorem"
+  "Name": "Wolf Group",
+  "AdditionalInfo": "sed",
+  "SearchValue": "vitae"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Padberg Group",
-    "ToolTip": "Quidem vero accusantium non hic molestiae repellat.",
+    "Id": 621,
+    "Name": "Hamill-Bashirian",
+    "ToolTip": "Quod sed repellat perspiciatis rerum nihil ut perspiciatis.",
     "Deleted": false,
-    "Rank": 892,
-    "Type": "nulla",
-    "ColorBlock": 494,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2012-01-29T13:57:12.6068289+01:00",
+    "Rank": 513,
+    "Type": "neque",
+    "ColorBlock": 506,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2009-11-19T23:03:56.3481239+01:00",
     "ChildItems": [
       {
-        "Id": 92,
+        "Id": 527,
         "Name": "Jewess Group",
-        "ToolTip": "Harum suscipit eum aliquid et deleniti.",
-        "Deleted": true,
-        "Rank": 622,
-        "Type": "placeat",
-        "ColorBlock": 631,
-        "IconHint": "qui",
+        "ToolTip": "Provident et voluptatem fugit commodi corrupti.",
+        "Deleted": false,
+        "Rank": 384,
+        "Type": "repudiandae",
+        "ColorBlock": 636,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "1998-03-25T13:57:12.6068289+01:00",
+        "LastChanged": "2016-02-19T23:03:56.3481239+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Miss Lucienne Hirthe",
+        "ExtraInfo": "modi",
+        "StyleHint": "laudantium",
+        "Hidden": true,
+        "FullName": "Giovani Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 639
+            "FieldLength": 649
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Miss Fiona Ledner",
+    "ExtraInfo": "provident",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Fiona Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 594
       }
     }
   }

@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 606
+  "TargetGroupId": 744
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 938,
-  "FileName": "Grady LLC",
-  "Message": "laboriosam",
+  "BatchTaskId": 224,
+  "FileName": "Daniel, Koch and Hane",
+  "Message": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 547
     }
   }
 }

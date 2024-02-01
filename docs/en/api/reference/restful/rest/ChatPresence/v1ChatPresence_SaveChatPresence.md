@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 793,
-    "DisplayName": "Padberg Group",
-    "OngoingChats": 805,
+    "UserId": 139,
+    "DisplayName": "King, Thiel and Crooks",
+    "OngoingChats": 498,
     "Present": false,
     "ChatTopics": [
-      879,
-      741
+      113,
+      723
     ]
   },
   {
-    "UserId": 793,
-    "DisplayName": "Padberg Group",
-    "OngoingChats": 805,
+    "UserId": 139,
+    "DisplayName": "King, Thiel and Crooks",
+    "OngoingChats": 498,
     "Present": false,
     "ChatTopics": [
-      879,
-      741
+      113,
+      723
     ]
   }
 ]

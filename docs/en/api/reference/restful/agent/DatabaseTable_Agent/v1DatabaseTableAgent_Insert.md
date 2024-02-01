@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bergstrom, Larkin and O'Hara",
+  "TableName": "Reichel-Dooley",
   "Columns": [
-    "accusantium",
+    "numquam",
     "et"
   ],
   "Data": [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "et",
-  "Inserts": 265,
-  "Updates": 749,
-  "Deletes": 257,
+  "Message": "magnam",
+  "Inserts": 145,
+  "Updates": 331,
+  "Deletes": 744,
   "RowStatus": [
     {
-      "PrimaryKey": 999,
+      "PrimaryKey": 844,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "voluptas",
-        "fuga"
+        "deserunt",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 160
+          "FieldLength": 331
         }
       }
     },
     {
-      "PrimaryKey": 999,
+      "PrimaryKey": 844,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "voluptas",
-        "fuga"
+        "deserunt",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 160
+          "FieldLength": 331
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   }
 }

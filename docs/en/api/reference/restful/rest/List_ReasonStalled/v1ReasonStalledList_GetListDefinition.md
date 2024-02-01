@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 498,
-  "Name": "Bernhard LLC",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 133,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 380,
+  "Name": "Brown, Hartmann and Padberg",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "Rank": 893,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dignissimos",
-  "InUseByUserDefinedFields": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 30
     }
   },
   "_Links": {

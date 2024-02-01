@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 520
+  "ErpConnectionId": 967
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Nader Group",
+      "ErpListName": "Stark, Crona and Weimann",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Kertzmann-Becker",
-      "ErpFieldId": 59,
+      "ErpActorTypeName": "VonRueden-Bayer",
+      "ErpFieldId": 26,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 709
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     }
   ],
-  "ErpConnectionId": 625,
-  "ErpConnectionName": "Hoeger-Treutel",
+  "ErpConnectionId": 460,
+  "ErpConnectionName": "Jaskolski-Vandervort",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldLength": 868
     }
   }
 }

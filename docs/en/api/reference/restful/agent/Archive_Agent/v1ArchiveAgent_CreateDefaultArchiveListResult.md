@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 281,
+  "RowCount": 734,
   "Rows": [
     {
-      "EntityName": "Hills Group",
-      "PrimaryKey": 492,
+      "EntityName": "Borer Inc and Sons",
+      "PrimaryKey": 252,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "facere",
-          "TooltipHint": "in",
-          "LinkHint": "sint"
+          "DisplayValue": "quidem",
+          "TooltipHint": "blanditiis",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "laborum",
+      "LinkHint": "eos",
+      "StyleHint": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldType": "System.String",
+          "FieldLength": 925
         }
       }
     }
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldType": "System.String",
+      "FieldLength": 711
     }
   }
 }

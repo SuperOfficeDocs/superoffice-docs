@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Brekke Group",
-    "ToolTip": "Dignissimos eum eos aut eos ullam vel.",
-    "Deleted": true,
-    "Rank": 665,
-    "Type": "laudantium",
-    "ColorBlock": 699,
-    "IconHint": "ea",
+    "Id": 445,
+    "Name": "Spencer-Cruickshank",
+    "ToolTip": "Occaecati voluptas est deserunt.",
+    "Deleted": false,
+    "Rank": 138,
+    "Type": "voluptatem",
+    "ColorBlock": 228,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2015-06-14T13:57:19.8127681+02:00",
+    "LastChanged": "2001-09-27T23:04:05.5375013+02:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Heaney, King and Hane",
-        "ToolTip": "Voluptas voluptatem veniam repellat hic iure.",
+        "Id": 205,
+        "Name": "Kshlerin-Gorczany",
+        "ToolTip": "Mollitia est voluptatibus aut deserunt.",
         "Deleted": false,
-        "Rank": 821,
-        "Type": "ut",
-        "ColorBlock": 159,
-        "IconHint": "praesentium",
+        "Rank": 858,
+        "Type": "occaecati",
+        "ColorBlock": 402,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "1997-07-27T13:57:19.8127681+02:00",
+        "LastChanged": "2001-06-05T23:04:05.5375013+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Mr. Rodolfo Addison Dare II"
+        "FullName": "Mr. Hermina Ona Bergstrom"
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "non",
+    "ExtraInfo": "quo",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Simeon Gerlach"
+    "FullName": "Mr. Magdalen Teresa Braun III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Mann Group",
-    "ToolTip": "Voluptates illum eos eaque cupiditate reprehenderit est.",
+    "Id": 499,
+    "Name": "Grimes Group",
+    "ToolTip": "Aliquid expedita magnam quibusdam totam qui qui qui.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "sed",
-    "ColorBlock": 469,
-    "IconHint": "asperiores",
-    "Selected": false,
-    "LastChanged": "2007-12-07T13:57:19.8127681+01:00",
+    "Rank": 336,
+    "Type": "voluptatum",
+    "ColorBlock": 267,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2017-08-14T23:04:05.5389991+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Johns-Krajcik",
-        "ToolTip": "Beatae dolores iure atque rerum corporis.",
+        "Id": 261,
+        "Name": "Collins-Hettinger",
+        "ToolTip": "Dolorem rerum cumque recusandae repudiandae accusamus laborum ut.",
         "Deleted": false,
-        "Rank": 577,
-        "Type": "ullam",
-        "ColorBlock": 417,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2022-08-03T13:57:19.8127681+02:00",
+        "Rank": 274,
+        "Type": "quibusdam",
+        "ColorBlock": 972,
+        "IconHint": "dolore",
+        "Selected": false,
+        "LastChanged": "2012-10-14T23:04:05.5389991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Miss Julian Witting",
+        "ExtraInfo": "sunt",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Cloyd O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldType": "System.String",
+            "FieldLength": 827
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "quam",
+    "StyleHint": "expedita",
     "Hidden": true,
-    "FullName": "Howell Corkery",
+    "FullName": "Hildegard Lyla Swift IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 798
       }
     }
   }

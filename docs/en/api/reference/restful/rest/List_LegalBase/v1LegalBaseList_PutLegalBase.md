@@ -84,11 +84,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 675,
-  "Name": "Hackett, Carter and Lebsack",
-  "Tooltip": "accusamus",
-  "Rank": 938,
-  "Key": "reprehenderit",
+  "LegalBaseId": 291,
+  "Name": "Funk Group",
+  "Tooltip": "pariatur",
+  "Rank": 545,
+  "Key": "expedita",
   "Deleted": false
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 143,
-  "Name": "Williamson-Cruickshank",
-  "Tooltip": "odio",
-  "Rank": 988,
-  "Key": "vel",
+  "LegalBaseId": 875,
+  "Name": "Wuckert Group",
+  "Tooltip": "sequi",
+  "Rank": 512,
+  "Key": "quod",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   }
 }

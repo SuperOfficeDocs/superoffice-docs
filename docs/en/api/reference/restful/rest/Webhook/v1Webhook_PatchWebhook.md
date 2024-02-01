@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ea",
+    "path": "porro",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ea",
+    "path": "porro",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 901,
-  "Name": "Bogan Group",
+  "WebhookId": 334,
+  "Name": "Sanford Group",
   "Events": [
-    "et",
-    "deleniti"
+    "omnis",
+    "labore"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "odio",
+  "Secret": "doloremque",
   "State": "Active",
-  "Type": "vitae",
+  "Type": "perspiciatis",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "iste"
+    "Headers1": "omnis",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-10-29T13:57:19.5940221+01:00",
+  "Registered": "2018-01-06T23:04:05.2445029+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1999-05-07T13:57:19.5940221+02:00",
+  "Updated": "2010-11-01T23:04:05.2445029+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "javier@deckow.co.uk",
+  "ErrorsEmail": "domenick_greenholt@pfannerstill.ca",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

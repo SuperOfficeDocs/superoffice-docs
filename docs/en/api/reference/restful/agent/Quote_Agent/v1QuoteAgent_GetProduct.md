@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 220,
-  "ERPProductKey": "quia"
+  "QuoteConnectionId": 104,
+  "ERPProductKey": "itaque"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 463,
-  "ERPProductKey": "enim",
-  "ERPPriceListKey": "harum",
-  "Name": "Hackett-Davis",
-  "Description": "Cross-group non-volatile Graphical User Interface",
-  "Code": "est",
-  "PriceUnit": "aut",
-  "QuantityUnit": "tenetur",
+  "ProductId": 748,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "omnis",
+  "Name": "Mayer LLC",
+  "Description": "Digitized bandwidth-monitored encoding",
+  "Code": "repellat",
+  "PriceUnit": "omnis",
+  "QuantityUnit": "reprehenderit",
   "IsSubscription": true,
-  "SubscriptionUnit": "deserunt",
-  "DefaultSubscriptionQuantity": 10489.498,
-  "ItemNumber": "1395487",
+  "SubscriptionUnit": "esse",
+  "DefaultSubscriptionQuantity": 18719.381999999998,
+  "ItemNumber": "1459247",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quia",
-  "ProductTypeKey": "est",
-  "VAT": 14576.234,
-  "VATInfo": "ipsam",
-  "UnitCost": 4816.958,
-  "UnitMinimumPrice": 24473.406,
-  "UnitListPrice": 8609.098,
+  "ProductFamilyKey": "sequi",
+  "ProductTypeKey": "quae",
+  "VAT": 5111.554,
+  "VATInfo": "sint",
+  "UnitCost": 18067.51,
+  "UnitMinimumPrice": 5985.94,
+  "UnitListPrice": 10138.49,
   "InAssortment": true,
-  "Supplier": "eveniet",
-  "SupplierCode": "qui",
-  "Rights": "adipisci",
-  "Rule": "sapiente",
+  "Supplier": "blanditiis",
+  "SupplierCode": "quaerat",
+  "Rights": "nemo",
+  "Rule": "vitae",
   "ExtraInfo": [
     {
-      "Name": "Wiegand Inc and Sons",
-      "Value": "totam",
+      "Name": "Aufderhar, Mueller and Huel",
+      "Value": "enim",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 501
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     },
     {
-      "Name": "Wiegand Inc and Sons",
-      "Value": "totam",
+      "Name": "Aufderhar, Mueller and Huel",
+      "Value": "enim",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 501
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "doloremque",
-  "ExtraField2": "nobis",
-  "ExtraField3": "voluptatibus",
-  "ExtraField4": "velit",
-  "ExtraField5": "reprehenderit",
-  "InStock": 22922.076,
+  "RawExtraInfo": "dolorem",
+  "ExtraField1": "atque",
+  "ExtraField2": "fugiat",
+  "ExtraField3": "molestiae",
+  "ExtraField4": "dolorem",
+  "ExtraField5": "perspiciatis",
+  "InStock": 27980.352,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 462
+      "FieldLength": 358
     }
   }
 }

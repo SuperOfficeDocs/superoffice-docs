@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 207,
-  "Name": "Bogan Group",
-  "Tooltip": "omnis",
+  "HeadingId": 396,
+  "Name": "McCullough, Funk and Nader",
+  "Tooltip": "reprehenderit",
   "Deleted": true,
-  "Rank": 635,
-  "UdListDefinitionId": 904
+  "Rank": 225,
+  "UdListDefinitionId": 32
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 131,
-  "Name": "Shanahan, Herman and Fay",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 261,
-  "UdListDefinitionId": 69,
+  "HeadingId": 406,
+  "Name": "Mraz, Metz and Berge",
+  "Tooltip": "quod",
+  "Deleted": false,
+  "Rank": 963,
+  "UdListDefinitionId": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

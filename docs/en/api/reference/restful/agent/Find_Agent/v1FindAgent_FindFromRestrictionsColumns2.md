@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "dolor",
-  "ProviderName": "Bosco, McDermott and Willms",
-  "DesiredColumns": "eos",
-  "PageSize": 424,
-  "PageNumber": 242
+  "Restrictions": "velit",
+  "ProviderName": "Willms-Cronin",
+  "DesiredColumns": "et",
+  "PageSize": 429,
+  "PageNumber": 400
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bednar, Hoppe and Schowalter",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "est",
-      "CanOrderBy": true,
-      "Name": "Collier-Bauch",
+      "DisplayName": "Lindgren, Reilly and Osinski",
+      "DisplayTooltip": "maiores",
+      "DisplayType": "eum",
+      "CanOrderBy": false,
+      "Name": "Eichmann-Balistreri",
       "CanRestrictBy": true,
-      "RestrictionType": "magni",
-      "RestrictionListName": "Schmitt, Cormier and Gibson",
-      "IsVisible": true,
-      "ExtraInfo": "soluta",
-      "Width": "et",
-      "IconHint": "aut",
-      "HeadingIconHint": "ullam"
+      "RestrictionType": "laudantium",
+      "RestrictionListName": "Bailey LLC",
+      "IsVisible": false,
+      "ExtraInfo": "aut",
+      "Width": "aliquid",
+      "IconHint": "ipsa",
+      "HeadingIconHint": "ratione"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Medhurst, Bashirian and Kilback",
-      "PrimaryKey": 16,
+      "EntityName": "Orn, Fritsch and Corwin",
+      "PrimaryKey": 275,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolores",
-          "TooltipHint": "molestiae",
-          "LinkHint": "sed"
+          "DisplayValue": "non",
+          "TooltipHint": "ab",
+          "LinkHint": "consectetur"
         }
       },
-      "LinkHint": "tempora",
-      "StyleHint": "fuga",
+      "LinkHint": "et",
+      "StyleHint": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldType": "System.String",
+          "FieldLength": 733
         }
       }
     }
   ],
-  "RowCount": 822,
+  "RowCount": 207,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 76
     }
   }
 }

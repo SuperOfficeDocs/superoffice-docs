@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 708
+  "SaleId": 232
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Streich LLC",
-    "Comment": "non",
-    "StakeholderRoleId": 179,
-    "CountryId": 167,
-    "PersonId": 644,
-    "EmailDescription": "jayden_tromp@willms.uk",
-    "EmailId": 828,
-    "EmailAddress": "berenice_bruen@kirlinheathcote.biz",
-    "PhoneId": 938,
-    "ContactName": "Greenholt Group",
+    "StakeholderRoleName": "Moen-Wolff",
+    "Comment": "ad",
+    "StakeholderRoleId": 930,
+    "CountryId": 770,
+    "PersonId": 59,
+    "EmailDescription": "camden@donnelly.name",
+    "EmailId": 692,
+    "EmailAddress": "dangelo@larsonrolfson.biz",
+    "PhoneId": 73,
+    "ContactName": "Littel, Mraz and Langosh",
     "ContactId": 477,
-    "SaleId": 474,
-    "Mrmrs": "commodi",
-    "Firstname": "Mia",
-    "MiddleName": "Jacobson, Mueller and Ernser",
-    "Lastname": "Bogan",
-    "SaleStakeholderId": 460,
-    "Rank": 668,
-    "Phone": "(021)524-2464",
+    "SaleId": 584,
+    "Mrmrs": "magni",
+    "Firstname": "Harvey",
+    "MiddleName": "Kris, Pfannerstill and Wolff",
+    "Lastname": "O'Kon",
+    "SaleStakeholderId": 411,
+    "Rank": 928,
+    "Phone": "566.294.0274",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldLength": 753
       }
     }
   }

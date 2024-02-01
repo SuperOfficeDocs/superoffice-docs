@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,11 +82,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 400,
-    "Name": "Lubowitz Inc and Sons",
+    "TicketStatusId": 626,
+    "Name": "Huel Inc and Sons",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
+    "NoEmailReopen": false,
     "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldLength": 745
       }
     }
   }

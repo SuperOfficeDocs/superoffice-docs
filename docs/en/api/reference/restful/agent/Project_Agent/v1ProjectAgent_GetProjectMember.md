@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=637
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=945
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 536,
-  "ContactId": 330,
-  "ProjectId": 430,
-  "ContactName": "Walsh-Rau",
+  "ProjectmemberId": 751,
+  "ContactId": 942,
+  "ProjectId": 51,
+  "ContactName": "Spinka-Robel",
   "ContactDepartment": "",
-  "ProjectName": "Halvorson-Rau",
-  "EmailId": 501,
-  "EmailAddress": "harold@white.com",
-  "CountryId": 789,
-  "Firstname": "Coby",
-  "MiddleName": "Bradtke-Welch",
-  "Lastname": "VonRueden",
-  "PersonId": 47,
-  "Mrmrs": "sapiente",
-  "ProjectMemberTypeName": "Kling Inc and Sons",
-  "Phone": "(019)073-2704 x0137",
-  "PhoneId": 880,
-  "ProjectMemberTypeId": 206,
-  "EmailAddressName": "birdie_lynch@hansen.biz",
-  "Comment": "magnam",
-  "FullName": "Dr. Jared Olson DDS",
+  "ProjectName": "Buckridge Inc and Sons",
+  "EmailId": 294,
+  "EmailAddress": "nick_mann@gerhold.ca",
+  "CountryId": 420,
+  "Firstname": "Wilbert",
+  "MiddleName": "Leffler-Spencer",
+  "Lastname": "Gorczany",
+  "PersonId": 592,
+  "Mrmrs": "et",
+  "ProjectMemberTypeName": "Lakin Group",
+  "Phone": "064.223.9334",
+  "PhoneId": 859,
+  "ProjectMemberTypeId": 314,
+  "EmailAddressName": "nikita@mayertgrimes.uk",
+  "Comment": "ut",
+  "FullName": "Wilson Dibbert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 366
     }
   }
 }

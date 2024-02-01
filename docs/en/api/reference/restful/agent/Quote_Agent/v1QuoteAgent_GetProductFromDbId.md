@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 711
+  "ProductId": 250
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 548,
-  "ERPProductKey": "non",
-  "ERPPriceListKey": "ea",
-  "Name": "Schowalter-Rosenbaum",
-  "Description": "Fundamental incremental task-force",
-  "Code": "deserunt",
-  "PriceUnit": "voluptates",
-  "QuantityUnit": "impedit",
-  "IsSubscription": false,
-  "SubscriptionUnit": "similique",
-  "DefaultSubscriptionQuantity": 19023.38,
-  "ItemNumber": "1148519",
+  "ProductId": 103,
+  "ERPProductKey": "sapiente",
+  "ERPPriceListKey": "animi",
+  "Name": "Hudson, Bartell and Spencer",
+  "Description": "Seamless motivating utilisation",
+  "Code": "veritatis",
+  "PriceUnit": "soluta",
+  "QuantityUnit": "sit",
+  "IsSubscription": true,
+  "SubscriptionUnit": "exercitationem",
+  "DefaultSubscriptionQuantity": 17208.793999999998,
+  "ItemNumber": "1082888",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "harum",
-  "ProductTypeKey": "ea",
-  "VAT": 6434.102,
-  "VATInfo": "assumenda",
-  "UnitCost": 13285.026,
-  "UnitMinimumPrice": 11683.552,
-  "UnitListPrice": 21304.932,
-  "InAssortment": true,
-  "Supplier": "velit",
-  "SupplierCode": "quia",
-  "Rights": "libero",
-  "Rule": "sed",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "voluptas",
+  "VAT": 28488.059999999998,
+  "VATInfo": "eveniet",
+  "UnitCost": 25338.39,
+  "UnitMinimumPrice": 10016.264,
+  "UnitListPrice": 16042.946,
+  "InAssortment": false,
+  "Supplier": "qui",
+  "SupplierCode": "omnis",
+  "Rights": "autem",
+  "Rule": "quis",
   "ExtraInfo": [
     {
-      "Name": "Cruickshank-Nitzsche",
-      "Value": "accusantium",
+      "Name": "Osinski LLC",
+      "Value": "commodi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 156
+          "FieldLength": 38
         }
       }
     },
     {
-      "Name": "Cruickshank-Nitzsche",
-      "Value": "accusantium",
+      "Name": "Osinski LLC",
+      "Value": "commodi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 156
+          "FieldLength": 38
         }
       }
     }
   ],
-  "RawExtraInfo": "dignissimos",
-  "ExtraField1": "occaecati",
-  "ExtraField2": "dolor",
-  "ExtraField3": "ut",
-  "ExtraField4": "quo",
-  "ExtraField5": "sapiente",
-  "InStock": 6355.7519999999995,
+  "RawExtraInfo": "necessitatibus",
+  "ExtraField1": "qui",
+  "ExtraField2": "et",
+  "ExtraField3": "pariatur",
+  "ExtraField4": "tenetur",
+  "ExtraField5": "excepturi",
+  "InStock": 7402.508,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 690
     }
   }
 }

@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 797,
-  "Name": "Hegmann-Dare",
-  "Tooltip": "inventore",
-  "Rank": 143,
+  "SaleTypeId": 454,
+  "Name": "Dietrich-Labadie",
+  "Tooltip": "est",
+  "Rank": 73,
   "DurationUnit": "Century",
-  "SaleDuration": 471,
-  "SaleTypeCatId": 991,
+  "SaleDuration": 937,
+  "SaleTypeCatId": 895,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 303,
-  "QuoteLinesTemplate": 953,
-  "ConfirmationLinesTemplate": 416,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 388,
-  "MinEarningPercent": 620,
-  "GroupQuoteLinesBy": 512,
-  "SortGroupLinesBy": 591,
+  "DefaultQuoteValidity": 325,
+  "QuoteLinesTemplate": 671,
+  "ConfirmationLinesTemplate": 364,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 637,
+  "MinEarningPercent": 561,
+  "GroupQuoteLinesBy": 861,
+  "SortGroupLinesBy": 731,
   "Stages": [
     {
-      "Id": 109,
-      "Name": "Gutmann, Eichmann and Leannon",
-      "ToolTip": "Voluptates dolorem est accusamus aut facilis voluptates.",
-      "Deleted": false,
-      "Rank": 736,
-      "Type": "corrupti",
-      "ColorBlock": 796,
-      "IconHint": "dolores",
+      "Id": 730,
+      "Name": "Block, Gibson and Abbott",
+      "ToolTip": "Porro doloribus excepturi dolore laborum.",
+      "Deleted": true,
+      "Rank": 643,
+      "Type": "et",
+      "ColorBlock": 480,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2021-05-23T13:57:20.1109105+02:00",
+      "LastChanged": "2004-01-08T23:04:05.795995+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "impedit",
-      "StyleHint": "voluptatibus",
+      "ExtraInfo": "corrupti",
+      "StyleHint": "quisquam",
       "Hidden": false,
-      "FullName": "Mrs. Suzanne Braun"
+      "FullName": "Tiffany Carroll"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 74,
-  "Name": "Dooley-Hegmann",
-  "Tooltip": "occaecati",
-  "Rank": 607,
+  "SaleTypeId": 968,
+  "Name": "Mohr LLC",
+  "Tooltip": "cumque",
+  "Rank": 747,
   "DurationUnit": "Century",
-  "SaleDuration": 46,
-  "SaleTypeCatId": 744,
-  "Deleted": true,
+  "SaleDuration": 907,
+  "SaleTypeCatId": 515,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 178,
-  "QuoteLinesTemplate": 53,
-  "ConfirmationLinesTemplate": 991,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 655,
-  "MinEarningPercent": 532,
-  "GroupQuoteLinesBy": 805,
-  "SortGroupLinesBy": 654,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 835,
+  "QuoteLinesTemplate": 348,
+  "ConfirmationLinesTemplate": 152,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 31,
+  "MinEarningPercent": 513,
+  "GroupQuoteLinesBy": 458,
+  "SortGroupLinesBy": 401,
   "Stages": [
     {
-      "Id": 626,
-      "Name": "Gutmann, Collier and Feil",
-      "ToolTip": "Sint iste est qui reprehenderit.",
-      "Deleted": false,
-      "Rank": 609,
-      "Type": "facilis",
-      "ColorBlock": 402,
-      "IconHint": "architecto",
+      "Id": 706,
+      "Name": "Langosh LLC",
+      "ToolTip": "Omnis in ad dignissimos.",
+      "Deleted": true,
+      "Rank": 139,
+      "Type": "quo",
+      "ColorBlock": 949,
+      "IconHint": "pariatur",
       "Selected": false,
-      "LastChanged": "2018-07-15T13:57:20.1109105+02:00",
+      "LastChanged": "2015-11-05T23:04:05.7979952+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "a",
-      "StyleHint": "qui",
+      "ExtraInfo": "fugiat",
+      "StyleHint": "dolorem",
       "Hidden": false,
-      "FullName": "Dr. Mya Mohr DDS",
+      "FullName": "Janice Quigley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 128
+          "FieldLength": 984
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   }
 }

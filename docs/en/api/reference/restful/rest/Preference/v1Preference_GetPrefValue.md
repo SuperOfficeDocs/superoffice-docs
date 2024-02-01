@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ea",
+  "RawValue": "omnis",
   "Specification": null,
-  "DisplayValue": "aut",
-  "DisplayTooltip": "ratione",
+  "DisplayValue": "nesciunt",
+  "DisplayTooltip": "beatae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 718,
-  "PrefDescId": 883,
-  "TableName": "Brekke LLC",
-  "UserPreferenceId": 19,
+  "TargetId": 5,
+  "PrefDescId": 525,
+  "TableName": "Hettinger, Abshire and Stark",
+  "UserPreferenceId": 727,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 207
     }
   }
 }

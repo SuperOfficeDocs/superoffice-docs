@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 713,
-    "Name": "Cronin, Greenholt and Johns",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 22,
-    "UdListDefinitionId": 663
+    "HeadingId": 988,
+    "Name": "Deckow LLC",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 735,
+    "UdListDefinitionId": 423
   },
   {
-    "HeadingId": 713,
-    "Name": "Cronin, Greenholt and Johns",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 22,
-    "UdListDefinitionId": 663
+    "HeadingId": 988,
+    "Name": "Deckow LLC",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 735,
+    "UdListDefinitionId": 423
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 709,
-    "Name": "Rowe LLC",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 451,
+    "Name": "Prosacco LLC",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "Rank": 858,
-    "UdListDefinitionId": 473,
+    "Rank": 455,
+    "UdListDefinitionId": 266,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldLength": 701
       }
     }
   }

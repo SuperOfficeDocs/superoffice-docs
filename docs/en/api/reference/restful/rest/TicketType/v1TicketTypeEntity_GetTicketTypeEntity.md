@@ -94,22 +94,22 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 245,
-  "Name": "Graham-Steuber",
-  "Rank": 3,
-  "Tooltip": "sit",
-  "Icon": "sit",
-  "DefaultTicketStatus": 503,
+  "TicketTypeId": 71,
+  "Name": "Shields-Fahey",
+  "Rank": 127,
+  "Tooltip": "eius",
+  "Icon": "nobis",
+  "DefaultTicketStatus": 218,
   "TicketStatuses": [
-    690,
-    216
+    236,
+    377
   ],
-  "DefaultTicketPriority": 440,
+  "DefaultTicketPriority": 578,
   "TicketPriorities": [
-    982,
-    545
+    172,
+    299
   ],
-  "ReplyTemplate": 44,
+  "ReplyTemplate": 425,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -117,12 +117,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 244
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

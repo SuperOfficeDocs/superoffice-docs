@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 56,
-    "TopicId": 22,
+    "ChatSessionId": 871,
+    "TopicId": 640,
     "User": null,
     "Person": null,
-    "CustomerAlias": "sit",
-    "CustomerHost": "eaque",
-    "CustomerName": "Schmidt Group",
-    "CustomerEmail": "kolby.larson@fritschullrich.uk",
-    "CustomerPhone": "1-352-534-3626",
+    "CustomerAlias": "cumque",
+    "CustomerHost": "commodi",
+    "CustomerName": "Kunde Group",
+    "CustomerEmail": "molly@murray.com",
+    "CustomerPhone": "1-914-670-8915",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Bradtke, Bruen and Rice",
+    "CustomerCompanyName": "Hauck Group",
     "Status": "Closed",
-    "FirstMessage": "consequatur",
-    "LastMessage": "sunt",
-    "WhenRequested": "2013-07-12T13:57:18.4815585+02:00",
-    "WhenStarted": "2015-07-09T13:57:18.4815585+02:00",
-    "WhenEnded": "2003-01-28T13:57:18.4815585+01:00",
-    "WhenIdle": "2023-09-05T13:57:18.4815585+02:00",
-    "WhenFetched": "2011-06-30T13:57:18.4815585+02:00",
-    "SessionKey": "alias",
-    "InitialQueuePos": 74,
-    "AlertLevel": 884,
-    "Rank": 986,
+    "FirstMessage": "aut",
+    "LastMessage": "qui",
+    "WhenRequested": "2006-11-19T23:04:03.7640226+01:00",
+    "WhenStarted": "2019-08-21T23:04:03.7640226+02:00",
+    "WhenEnded": "2015-10-10T23:04:03.7640226+02:00",
+    "WhenIdle": "2010-06-02T23:04:03.7640226+02:00",
+    "WhenFetched": "2007-05-17T23:04:03.7640226+02:00",
+    "SessionKey": "cupiditate",
+    "InitialQueuePos": 252,
+    "AlertLevel": 207,
+    "Rank": 307,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -128,13 +128,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 660,
+    "Rating": 701,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 751
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 198,
-  "Name": "Durgan Inc and Sons",
-  "Config": "non",
-  "Rank": 300,
-  "Client": "commodi",
-  "Style": "quas",
+  "DashboardThemeId": 763,
+  "Name": "Smith Group",
+  "Config": "aut",
+  "Rank": 237,
+  "Client": "magni",
+  "Style": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldLength": 448
     }
   }
 }

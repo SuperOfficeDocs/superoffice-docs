@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 201,
-    "Name": "Sporer Inc and Sons",
-    "Tooltip": "exercitationem",
-    "Deleted": false,
-    "Rank": 139,
-    "UdListDefinitionId": 856
+    "HeadingId": 99,
+    "Name": "Parisian-Hodkiewicz",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "Rank": 724,
+    "UdListDefinitionId": 639
   },
   {
-    "HeadingId": 201,
-    "Name": "Sporer Inc and Sons",
-    "Tooltip": "exercitationem",
-    "Deleted": false,
-    "Rank": 139,
-    "UdListDefinitionId": 856
+    "HeadingId": 99,
+    "Name": "Parisian-Hodkiewicz",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "Rank": 724,
+    "UdListDefinitionId": 639
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 803,
-    "Name": "Hoppe Inc and Sons",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "Rank": 904,
-    "UdListDefinitionId": 165,
+    "HeadingId": 93,
+    "Name": "Auer, Dibbert and Bailey",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "Rank": 546,
+    "UdListDefinitionId": 980,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 261
       }
     }
   }

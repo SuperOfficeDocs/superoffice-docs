@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 868,
-  "Name": "Jaskolski, Nitzsche and Hoppe",
-  "AssociateId": 184,
-  "DetailsTable": 84,
-  "DetailsRecord": 313,
+  "Id": 735,
+  "Name": "Bahringer-Kuvalis",
+  "AssociateId": 500,
+  "DetailsTable": 205,
+  "DetailsRecord": 654,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ea",
-    "ParameterObject2": "magni"
+    "ParameterObject1": "voluptatem",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2001-02-22T13:57:19.4221461+01:00",
-  "Created": "2018-05-22T13:57:19.4221461+02:00",
-  "StartCount": 814,
-  "DatabaseSerialNumber": "1403269",
-  "Context": "quidem",
-  "Result": "placeat",
+  "LastStarted": "2020-01-05T23:04:05.0080105+01:00",
+  "Created": "2019-12-03T23:04:05.0080105+01:00",
+  "StartCount": 554,
+  "DatabaseSerialNumber": "830357",
+  "Context": "sunt",
+  "Result": "temporibus",
   "State": "All",
-  "Description": "Expanded zero administration Graphical User Interface",
-  "Response": "molestiae",
-  "Request": "corrupti",
-  "ProgressDescription": "Cross-group content-based open architecture",
-  "ProgressPercent": 955,
-  "FileName": "Kirlin LLC",
+  "Description": "Extended local website",
+  "Response": "consequatur",
+  "Request": "natus",
+  "ProgressDescription": "Realigned cohesive infrastructure",
+  "ProgressPercent": 678,
+  "FileName": "Metz-Frami",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-184
+571
 ```

@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mante-Heller",
-  "DeviceName": "Wehner-Wyman",
-  "DeviceIdentifier": "sed"
+  "ApplicationName": "Lueilwitz, Goyette and Wuckert",
+  "DeviceName": "Deckow-Jacobs",
+  "DeviceIdentifier": "libero"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quo",
-    "Value": "similique",
-    "RecordId": 351,
-    "CreatedDate": "2001-04-19T13:57:12.4337359+02:00",
-    "UpdatedDate": "2005-08-16T13:57:12.4337359+02:00",
-    "UpdatedBy": "itaque",
-    "CreatedBy": "fugiat",
-    "TableName": "Bergstrom, Barton and Dickens",
+    "Key": "harum",
+    "Value": "provident",
+    "RecordId": 213,
+    "CreatedDate": "1998-02-09T23:03:56.1241267+01:00",
+    "UpdatedDate": "2002-04-06T23:03:56.1241267+02:00",
+    "UpdatedBy": "ut",
+    "CreatedBy": "voluptatibus",
+    "TableName": "Cormier LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldType": "System.Int32",
+        "FieldLength": 777
       }
     }
   }

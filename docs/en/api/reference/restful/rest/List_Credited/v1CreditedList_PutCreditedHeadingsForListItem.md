@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Nienow-Brakus",
-    "ToolTip": "Nulla aut provident quo nostrum.",
-    "Deleted": true,
-    "Rank": 100,
-    "Type": "ullam",
-    "ColorBlock": 216,
-    "IconHint": "maiores",
-    "Selected": false,
-    "LastChanged": "2023-02-09T13:57:19.719018+01:00",
+    "Id": 606,
+    "Name": "Hayes Group",
+    "ToolTip": "Nesciunt quisquam est.",
+    "Deleted": false,
+    "Rank": 918,
+    "Type": "vel",
+    "ColorBlock": 823,
+    "IconHint": "cum",
+    "Selected": true,
+    "LastChanged": "2004-10-30T23:04:05.4125002+02:00",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Kreiger, Bogan and Cartwright",
-        "ToolTip": "Velit ipsum impedit et aut.",
-        "Deleted": true,
-        "Rank": 793,
-        "Type": "cumque",
-        "ColorBlock": 384,
-        "IconHint": "sunt",
+        "Id": 448,
+        "Name": "Schimmel-Bayer",
+        "ToolTip": "Qui vel excepturi aut.",
+        "Deleted": false,
+        "Rank": 94,
+        "Type": "eveniet",
+        "ColorBlock": 83,
+        "IconHint": "numquam",
         "Selected": true,
-        "LastChanged": "2021-05-08T13:57:19.719018+02:00",
+        "LastChanged": "2003-01-03T23:04:05.4125002+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "esse",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Gordon Angela O'Connell Sr."
+        "FullName": "Maxwell Cielo Halvorson MD"
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Dr. Alize Mitchell"
+    "ExtraInfo": "rerum",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Mrs. Marco Rebekah Pollich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Schowalter Group",
-    "ToolTip": "Veniam aut quia.",
-    "Deleted": false,
-    "Rank": 820,
-    "Type": "occaecati",
-    "ColorBlock": 61,
-    "IconHint": "cupiditate",
+    "Id": 593,
+    "Name": "Stanton LLC",
+    "ToolTip": "Sint minus officiis quo assumenda repellat aspernatur.",
+    "Deleted": true,
+    "Rank": 477,
+    "Type": "unde",
+    "ColorBlock": 981,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2000-01-14T13:57:19.719018+01:00",
+    "LastChanged": "2019-06-16T23:04:05.4145014+02:00",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Volkman Group",
-        "ToolTip": "Enim possimus eligendi accusantium ullam animi beatae sapiente.",
-        "Deleted": true,
-        "Rank": 530,
-        "Type": "beatae",
-        "ColorBlock": 260,
-        "IconHint": "voluptatem",
+        "Id": 742,
+        "Name": "Marquardt-Upton",
+        "ToolTip": "Error placeat beatae vitae ea.",
+        "Deleted": false,
+        "Rank": 414,
+        "Type": "maxime",
+        "ColorBlock": 267,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2016-06-12T13:57:19.719018+02:00",
+        "LastChanged": "2015-09-05T23:04:05.4145014+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Prof. Anne Cameron Braun",
+        "FullName": "Wilmer Ledner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 998
+            "FieldType": "System.Int32",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "at",
-    "Hidden": true,
-    "FullName": "Cody Kihn V",
+    "ExtraInfo": "sit",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Marietta Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 93,
-  "Name": "Daugherty-Shanahan",
-  "Tooltip": "aliquid",
+  "HeadingId": 271,
+  "Name": "Ebert, Kohler and Carter",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 841,
-  "UdListDefinitionId": 672
+  "Rank": 104,
+  "UdListDefinitionId": 531
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 203,
-  "Name": "Kuphal LLC",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 580,
-  "UdListDefinitionId": 373,
+  "HeadingId": 292,
+  "Name": "Wilderman-Keeling",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 747,
+  "UdListDefinitionId": 259,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 733
     }
   }
 }

@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Zulauf Group",
-    "SoPrimaryKey": 173,
-    "EntryName": "Davis LLC",
-    "EntryIdentifier": "quia",
-    "RuleDisplayName": "Stehr, Feil and Rippin",
+    "RuleName": "Huels LLC",
+    "SoPrimaryKey": 676,
+    "EntryName": "Strosin Inc and Sons",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Kunze-Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 60
       }
     }
   }

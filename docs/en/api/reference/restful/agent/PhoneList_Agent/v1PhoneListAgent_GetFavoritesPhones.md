@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "465-656-0497",
-    "PersonCellPhone": "543-795-0799 x1414",
-    "PersonPrivatePhone": "1-310-362-8387",
-    "PersonFaxNumber": "965739",
-    "PersonPagerNumber": "1145052",
-    "PersonEmail": "trever@goyettebarton.ca",
-    "Id": 96,
-    "Name": "Bergstrom-Upton",
-    "Tooltip": "in",
-    "UniqueId": "sit",
+    "PersonDirectPhone": "761-570-3064 x540",
+    "PersonCellPhone": "311-597-6030 x4036",
+    "PersonPrivatePhone": "183.099.4258",
+    "PersonFaxNumber": "887737",
+    "PersonPagerNumber": "1468902",
+    "PersonEmail": "alena.goldner@wuckertbarton.ca",
+    "Id": 716,
+    "Name": "Kunze Group",
+    "Tooltip": "qui",
+    "UniqueId": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldType": "System.String",
+        "FieldLength": 26
       }
     }
   }

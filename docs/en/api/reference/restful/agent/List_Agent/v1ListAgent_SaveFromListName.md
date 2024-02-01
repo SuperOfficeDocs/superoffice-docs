@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 271,
-  "UdListDefinitionName": "Gusikowski, Robel and Leuschke",
+  "Id": 104,
+  "UdListDefinitionName": "Reinger-Nikolaus",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Name": "Littel LLC",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "UdListDefinitionId": 278,
-  "Rank": 564,
+  "Id": 32,
+  "Name": "Ankunding Inc and Sons",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 684,
+  "Rank": 469,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 293
+      "FieldLength": 653
     }
   }
 }

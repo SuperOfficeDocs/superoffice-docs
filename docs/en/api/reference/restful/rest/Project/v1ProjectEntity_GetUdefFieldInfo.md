@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 470,
-  "ColumnId": 956,
-  "FieldDefault": "et",
-  "FieldHeight": 663,
-  "FieldLabel": "sunt",
-  "FieldLeft": 89,
-  "FieldTop": 832,
+  "UDefFieldId": 467,
+  "ColumnId": 22,
+  "FieldDefault": "nulla",
+  "FieldHeight": 187,
+  "FieldLabel": "omnis",
+  "FieldLeft": 50,
+  "FieldTop": 594,
   "FieldType": "Checkbox",
-  "FieldWidth": 43,
-  "FormatMask": "minima",
+  "FieldWidth": 335,
+  "FormatMask": "consequatur",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 606,
-  "LabelLeft": 44,
-  "LabelTop": 426,
-  "LabelWidth": 553,
-  "LastVersionId": 807,
-  "ListTableId": 36,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 592,
+  "LabelLeft": 874,
+  "LabelTop": 108,
+  "LabelWidth": 55,
+  "LastVersionId": 958,
+  "ListTableId": 645,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 754,
-  "ProgId": "quisquam",
+  "Page1LineNo": 250,
+  "ProgId": "rerum",
   "IsReadOnly": false,
-  "ShortLabel": "tenetur",
-  "TabOrder": 498,
-  "TextLength": 16,
-  "Tooltip": "praesentium",
-  "UdefIdentity": 762,
-  "UDListDefinitionId": 752,
+  "ShortLabel": "illo",
+  "TabOrder": 715,
+  "TextLength": 796,
+  "Tooltip": "et",
+  "UdefIdentity": 1000,
+  "UDListDefinitionId": 667,
   "Justification": "Center",
-  "Version": 560,
-  "TemplateVariableName": "Boehm Group",
+  "Version": 936,
+  "TemplateVariableName": "Breitenberg Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Bashirian-Kunde",
+  "MdoListName": "Bartell Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 104
+      "FieldLength": 559
     }
   }
 }

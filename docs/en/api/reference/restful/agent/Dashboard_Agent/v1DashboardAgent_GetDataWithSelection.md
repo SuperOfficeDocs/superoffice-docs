@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 867,
-  "SelectionId": 978,
-  "Restrictions": "eveniet"
+  "DashboardTileId": 232,
+  "SelectionId": 387,
+  "Restrictions": "enim"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Cummings, Cassin and Turcotte",
-        "DisplayTooltip": "qui",
-        "DisplayType": "debitis",
-        "CanOrderBy": true,
-        "Name": "Bechtelar-McGlynn",
+        "DisplayName": "McGlynn-Windler",
+        "DisplayTooltip": "sit",
+        "DisplayType": "quos",
+        "CanOrderBy": false,
+        "Name": "Rolfson Group",
         "CanRestrictBy": false,
-        "RestrictionType": "id",
-        "RestrictionListName": "Botsford-Douglas",
-        "IsVisible": false,
-        "ExtraInfo": "sed",
-        "Width": "odio",
-        "IconHint": "magni",
-        "HeadingIconHint": "vitae"
+        "RestrictionType": "hic",
+        "RestrictionListName": "Abernathy-D'Amore",
+        "IsVisible": true,
+        "ExtraInfo": "dignissimos",
+        "Width": "voluptatem",
+        "IconHint": "ducimus",
+        "HeadingIconHint": "est"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Cummings, Cassin and Turcotte",
-        "DisplayTooltip": "qui",
-        "DisplayType": "debitis",
-        "CanOrderBy": true,
-        "Name": "Bechtelar-McGlynn",
+        "DisplayName": "McGlynn-Windler",
+        "DisplayTooltip": "sit",
+        "DisplayType": "quos",
+        "CanOrderBy": false,
+        "Name": "Rolfson Group",
         "CanRestrictBy": false,
-        "RestrictionType": "id",
-        "RestrictionListName": "Botsford-Douglas",
-        "IsVisible": false,
-        "ExtraInfo": "sed",
-        "Width": "odio",
-        "IconHint": "magni",
-        "HeadingIconHint": "vitae"
+        "RestrictionType": "hic",
+        "RestrictionListName": "Abernathy-D'Amore",
+        "IsVisible": true,
+        "ExtraInfo": "dignissimos",
+        "Width": "voluptatem",
+        "IconHint": "ducimus",
+        "HeadingIconHint": "est"
       }
     ],
     "Result": null

@@ -71,16 +71,16 @@ No Content
 POST /api/v1/Agents/Diagnostics/ChangeLogSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LogWarning": false,
+  "LogWarning": true,
   "LogInformation": false,
   "LogSuccessAudit": false,
-  "LogFailureAudit": false,
+  "LogFailureAudit": true,
   "LogToEventLog": true,
-  "LogToSuperOffice": true,
+  "LogToSuperOffice": false,
   "LogToFile": true,
   "LogToTrace": false
 }

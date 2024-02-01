@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Selection/RemoveSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 452,
-  "StorageKey": "ab"
+  "SelectionId": 490,
+  "StorageKey": "fugit"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-191
+474
 ```

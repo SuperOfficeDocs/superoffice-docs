@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 586,
-  "Name": "Crooks LLC",
-  "Tooltip": "magni",
-  "Rank": 455,
+  "SaleTypeId": 565,
+  "Name": "Koelpin, Padberg and Jerde",
+  "Tooltip": "tempora",
+  "Rank": 227,
   "DurationUnit": "Century",
-  "SaleDuration": 615,
-  "SaleTypeCatId": 313,
+  "SaleDuration": 637,
+  "SaleTypeCatId": 342,
   "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 834,
-  "QuoteLinesTemplate": 767,
-  "ConfirmationLinesTemplate": 552,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 343,
-  "MinEarningPercent": 460,
-  "GroupQuoteLinesBy": 201,
-  "SortGroupLinesBy": 536,
+  "DefaultQuoteValidity": 643,
+  "QuoteLinesTemplate": 182,
+  "ConfirmationLinesTemplate": 106,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 661,
+  "MinEarningPercent": 308,
+  "GroupQuoteLinesBy": 825,
+  "SortGroupLinesBy": 144,
   "Stages": [
     {
-      "Id": 63,
-      "Name": "Renner, Stark and Bailey",
-      "ToolTip": "Dignissimos animi vero quas magni.",
-      "Deleted": false,
-      "Rank": 142,
-      "Type": "ea",
-      "ColorBlock": 760,
-      "IconHint": "tempora",
+      "Id": 703,
+      "Name": "Hauck Group",
+      "ToolTip": "Non consequatur impedit voluptate recusandae aut ad vel.",
+      "Deleted": true,
+      "Rank": 940,
+      "Type": "et",
+      "ColorBlock": 357,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "1999-02-20T13:57:12.575585+01:00",
+      "LastChanged": "1999-07-10T23:03:56.2976245+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "aperiam",
+      "ExtraInfo": "fuga",
+      "StyleHint": "facilis",
       "Hidden": false,
-      "FullName": "Roderick Wunsch"
+      "FullName": "Ms. Damion McCullough DVM"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 988,
-  "Name": "Hackett Inc and Sons",
-  "Tooltip": "voluptas",
-  "Rank": 280,
+  "SaleTypeId": 571,
+  "Name": "Skiles Group",
+  "Tooltip": "non",
+  "Rank": 780,
   "DurationUnit": "Century",
-  "SaleDuration": 60,
-  "SaleTypeCatId": 828,
+  "SaleDuration": 93,
+  "SaleTypeCatId": 964,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 750,
-  "QuoteLinesTemplate": 994,
-  "ConfirmationLinesTemplate": 955,
+  "DefaultQuoteValidity": 758,
+  "QuoteLinesTemplate": 661,
+  "ConfirmationLinesTemplate": 359,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 532,
-  "MinEarningPercent": 548,
-  "GroupQuoteLinesBy": 362,
-  "SortGroupLinesBy": 929,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 610,
+  "MinEarningPercent": 701,
+  "GroupQuoteLinesBy": 582,
+  "SortGroupLinesBy": 353,
   "Stages": [
     {
-      "Id": 501,
-      "Name": "Schneider-Nader",
-      "ToolTip": "Voluptatem voluptatem.",
+      "Id": 689,
+      "Name": "Sipes-Fisher",
+      "ToolTip": "Voluptatibus in deserunt consequuntur et.",
       "Deleted": true,
-      "Rank": 165,
-      "Type": "in",
-      "ColorBlock": 504,
-      "IconHint": "enim",
+      "Rank": 334,
+      "Type": "id",
+      "ColorBlock": 382,
+      "IconHint": "ipsum",
       "Selected": false,
-      "LastChanged": "1996-08-18T13:57:12.575585+02:00",
+      "LastChanged": "2004-12-21T23:03:56.3016249+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptate",
-      "StyleHint": "et",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Breanna Prohaska",
+      "FullName": "Lois Bins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 125
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 329
     }
   }
 }

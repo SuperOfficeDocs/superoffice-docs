@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Cronin-Ferry",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 259,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 746,
+  "Name": "Koch, Hyatt and Beier",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 396,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   },
   "_Links": {

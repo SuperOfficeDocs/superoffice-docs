@@ -78,8 +78,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Torp-Daniel",
-  "Id": 212
+  "TableName": "Keebler-Adams",
+  "Id": 176
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "ut",
-    "Values2": "non"
+    "Values1": "consequatur",
+    "Values2": "excepturi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   }
 }

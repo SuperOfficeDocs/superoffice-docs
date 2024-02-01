@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TrainCategoryGuesser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 8,
-  "MaxItems": 124,
-  "MaxTextLength": 14
+  "SelectionId": 95,
+  "MaxItems": 151,
+  "MaxTextLength": 516
 }
 ```
 

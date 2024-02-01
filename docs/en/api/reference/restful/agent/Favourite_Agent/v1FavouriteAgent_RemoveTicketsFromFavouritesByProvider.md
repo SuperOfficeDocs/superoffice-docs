@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Koelpin LLC",
+  "ProviderName": "Larkin, Schulist and Kris",
   "Restrictions": [
     {
-      "Name": "Zulauf Group",
-      "Operator": "iusto",
+      "Name": "Hamill, Simonis and Heidenreich",
+      "Operator": "mollitia",
       "Values": [
-        "praesentium",
-        "excepturi"
+        "est",
+        "rerum"
       ],
       "DisplayValues": [
-        "quasi",
-        "error"
+        "aut",
+        "corrupti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 817,
+      "InterParenthesis": 442,
       "InterOperator": "And",
-      "UniqueHash": 395
+      "UniqueHash": 487
     }
   ],
-  "AssociateId": 108
+  "AssociateId": 246
 }
 ```
 

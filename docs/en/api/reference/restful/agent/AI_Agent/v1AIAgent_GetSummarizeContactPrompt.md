@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 930,
-  "NumSentences": 873,
-  "Summary": "aut",
-  "IsoLangCode": "expedita"
+  "ContactId": 125,
+  "NumSentences": 323,
+  "Summary": "eum",
+  "IsoLangCode": "voluptatum"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2011-05-09T13:57:11.1056483+02:00",
-  "UserPrompt": "ad",
-  "UserDisplayText": "repellendus",
-  "BotResponse": "cupiditate",
+  "Timestamp": "2020-05-23T23:03:54.3596523+02:00",
+  "UserPrompt": "sit",
+  "UserDisplayText": "ratione",
+  "BotResponse": "tenetur",
   "BotActions": {
-    "BotActions1": "iste",
-    "BotActions2": "non"
+    "BotActions1": "autem",
+    "BotActions2": "ipsum"
   },
   "Attachments": [
-    "eveniet",
-    "et"
+    "aut",
+    "voluptate"
   ]
 }
 ```

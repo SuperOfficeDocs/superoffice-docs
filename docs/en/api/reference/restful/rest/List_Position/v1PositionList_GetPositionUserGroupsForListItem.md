@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Kris-Prosacco",
-    "ToolTip": "Omnis eaque quam sit ut fugit.",
+    "Id": 208,
+    "Name": "Fahey Group",
+    "ToolTip": "Dolores consequatur itaque vel assumenda culpa.",
     "Deleted": false,
-    "Rank": 846,
+    "Rank": 141,
     "Type": "molestiae",
-    "ColorBlock": 551,
-    "IconHint": "sint",
+    "ColorBlock": 404,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2000-11-16T13:57:19.8283923+01:00",
+    "LastChanged": "2003-05-28T23:04:05.5689989+02:00",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "McCullough, Bernier and Hackett",
-        "ToolTip": "Molestias ab autem cupiditate quidem omnis numquam quisquam.",
-        "Deleted": true,
-        "Rank": 32,
-        "Type": "aut",
-        "ColorBlock": 820,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2021-09-11T13:57:19.8283923+02:00",
+        "Id": 292,
+        "Name": "Moore, Jast and Schinner",
+        "ToolTip": "Commodi eum illum velit qui dolor.",
+        "Deleted": false,
+        "Rank": 548,
+        "Type": "dolores",
+        "ColorBlock": 506,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2011-01-18T23:04:05.5694987+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "excepturi",
-        "Hidden": false,
-        "FullName": "Macy Jacobson",
+        "ExtraInfo": "tempora",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Ryder Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 687
+            "FieldLength": 570
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "rerum",
+    "ExtraInfo": "ab",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Kali Hilll",
+    "FullName": "Eva Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldType": "System.Int32",
+        "FieldLength": 937
       }
     }
   }

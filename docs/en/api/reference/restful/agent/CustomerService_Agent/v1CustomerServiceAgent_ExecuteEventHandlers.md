@@ -75,6 +75,7 @@ OK
 | ParserValues | object | Parser values sent to the event handler |
 | CgiVariables | object | Cgi variables sent by some events |
 | CgiContent | string | The Cgi content/body, sent by some events |
+| Headers | object | Incoming headers if sent by the context which the script is executed from |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,37 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "laudantium",
-    "InputValues2": "enim"
+    "InputValues1": "necessitatibus",
+    "InputValues2": "dolorem"
   },
   "BlockExecution": false,
-  "NavigateTo": "a",
-  "Message": "nihil",
-  "ShowDialog": "animi",
+  "NavigateTo": "voluptate",
+  "Message": "quos",
+  "ShowDialog": "excepturi",
   "OutputValues": {
-    "OutputValues1": "est",
-    "OutputValues2": "in"
+    "OutputValues1": "id",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "est",
-    "StateValues2": "et"
+    "StateValues1": "ut",
+    "StateValues2": "harum"
   },
-  "Exception": "veniam",
+  "Exception": "voluptatem",
   "ParserValues": {
-    "ParserValues1": "quidem",
-    "ParserValues2": "ut"
+    "ParserValues1": "dolorem",
+    "ParserValues2": "iure"
   },
   "CgiVariables": {
-    "CgiVariables1": "commodi",
-    "CgiVariables2": "sed"
+    "CgiVariables1": "occaecati",
+    "CgiVariables2": "consequatur"
   },
-  "CgiContent": "eveniet",
+  "CgiContent": "omnis",
+  "Headers": {
+    "Headers1": "quidem",
+    "Headers2": "consequatur"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 97
     }
   }
 }

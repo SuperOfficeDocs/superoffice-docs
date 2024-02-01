@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=omnis
-GET /api/v1/MDOList/{listname}?query=quod
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=corporis
+GET /api/v1/MDOList/{listname}?query=atque
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Rempel, Goodwin and Berge",
-    "ToolTip": "Voluptatibus debitis quia est est earum.",
-    "Deleted": false,
-    "Rank": 834,
-    "Type": "architecto",
+    "Id": 85,
+    "Name": "Feest Group",
+    "ToolTip": "Ut ab incidunt officiis.",
+    "Deleted": true,
+    "Rank": 757,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Goyette LLC",
-        "ToolTip": "Facere eum.",
+        "Id": 949,
+        "Name": "Vandervort-Lindgren",
+        "ToolTip": "Quis consectetur.",
         "Deleted": true,
-        "Rank": 723,
-        "Type": "aut",
+        "Rank": 988,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 950,
-        "ExtraInfo": "esse",
+        "IconHint": "qui",
+        "ColorBlock": 908,
+        "ExtraInfo": "non",
         "StyleHint": "sit",
-        "FullName": "Genesis Roel Bins IV",
+        "FullName": "Russ Flatley MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 433
+            "FieldType": "System.Int32",
+            "FieldLength": 504
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 768,
-    "ExtraInfo": "dolores",
-    "StyleHint": "consequatur",
-    "FullName": "Miss Adella Rath Jr.",
+    "IconHint": "sit",
+    "ColorBlock": 430,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "tenetur",
+    "FullName": "Maggie Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldType": "System.String",
+        "FieldLength": 649
       }
     }
   }

@@ -28,7 +28,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=282
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=29
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Webhook/GetWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,27 +90,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 11,
-  "Name": "Kemmer Inc and Sons",
+  "WebhookId": 254,
+  "Name": "Stamm, Stoltenberg and Walsh",
   "Events": [
-    "sint",
-    "autem"
+    "illum",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "reiciendis",
+  "Secret": "nam",
   "State": "Active",
-  "Type": "recusandae",
+  "Type": "delectus",
   "Headers": {
-    "Headers1": "officiis",
-    "Headers2": "facilis"
+    "Headers1": "voluptate",
+    "Headers2": "harum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-09-17T13:57:13.6145882+02:00",
+  "Registered": "2018-06-01T23:03:57.6591065+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2004-10-08T13:57:13.6145882+02:00",
+  "Updated": "2006-02-27T23:03:57.6591065+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "casimir@friesenbode.ca"
+  "ErrorsEmail": "neal@blick.ca"
 }
 ```

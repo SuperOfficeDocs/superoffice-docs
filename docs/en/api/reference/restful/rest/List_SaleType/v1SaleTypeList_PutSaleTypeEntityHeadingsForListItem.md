@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Cole LLC",
-    "ToolTip": "Eos qui inventore.",
-    "Deleted": false,
-    "Rank": 616,
-    "Type": "eius",
-    "ColorBlock": 354,
-    "IconHint": "impedit",
+    "Id": 505,
+    "Name": "Mosciski, Steuber and Stehr",
+    "ToolTip": "At excepturi rem voluptates enim deserunt ullam.",
+    "Deleted": true,
+    "Rank": 56,
+    "Type": "sunt",
+    "ColorBlock": 574,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "1999-04-04T13:57:20.1265357+02:00",
+    "LastChanged": "2007-01-30T23:04:05.8064964+01:00",
     "ChildItems": [
       {
-        "Id": 414,
-        "Name": "Stracke, Rice and Sauer",
-        "ToolTip": "Voluptas ea itaque.",
+        "Id": 166,
+        "Name": "Hickle-Schulist",
+        "ToolTip": "Modi non in.",
         "Deleted": false,
-        "Rank": 714,
-        "Type": "molestiae",
-        "ColorBlock": 405,
-        "IconHint": "quia",
+        "Rank": 426,
+        "Type": "voluptas",
+        "ColorBlock": 705,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "1998-09-24T13:57:20.1265357+02:00",
+        "LastChanged": "2012-01-13T23:04:05.8064964+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
+        "ExtraInfo": "rerum",
         "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Juvenal Kovacek"
+        "FullName": "Kyra Darron Schuster IV"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Tiara Marvin"
+    "ExtraInfo": "ea",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Cullen Aufderhar"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Yost, Runolfsdottir and Walter",
-    "ToolTip": "Cumque non qui quo.",
+    "Id": 23,
+    "Name": "Purdy LLC",
+    "ToolTip": "Culpa nobis eum.",
     "Deleted": true,
-    "Rank": 497,
-    "Type": "eaque",
-    "ColorBlock": 648,
-    "IconHint": "non",
+    "Rank": 261,
+    "Type": "aspernatur",
+    "ColorBlock": 342,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2015-09-14T13:57:20.1265357+02:00",
+    "LastChanged": "2018-08-23T23:04:05.8084959+02:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Hackett, Hoppe and Koss",
-        "ToolTip": "Repudiandae at necessitatibus corporis aut molestias iusto aliquid.",
-        "Deleted": false,
-        "Rank": 753,
-        "Type": "aliquid",
-        "ColorBlock": 890,
-        "IconHint": "esse",
+        "Id": 777,
+        "Name": "Tremblay Group",
+        "ToolTip": "Vel neque tenetur quia maiores porro esse dolore.",
+        "Deleted": true,
+        "Rank": 967,
+        "Type": "qui",
+        "ColorBlock": 945,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2013-06-09T13:57:20.1265357+02:00",
+        "LastChanged": "2008-09-28T23:04:05.8090015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "veniam",
+        "ExtraInfo": "a",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Margarete Donnelly",
+        "FullName": "Grace Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldLength": 354
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Teresa Reichel",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "expedita",
+    "Hidden": true,
+    "FullName": "Reyes Jakubowski MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldType": "System.String",
+        "FieldLength": 13
       }
     }
   }

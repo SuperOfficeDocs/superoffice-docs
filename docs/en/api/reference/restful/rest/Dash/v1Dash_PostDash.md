@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 374,
-  "UniqueId": "sunt",
-  "Name": "Runolfsdottir, O'Reilly and Lehner",
-  "Description": "Inverse full-range internet solution",
-  "AssociateId": 73,
-  "Columns": 706,
+  "DashboardId": 35,
+  "UniqueId": "eum",
+  "Name": "Bayer Inc and Sons",
+  "Description": "Up-sized dynamic help-desk",
+  "AssociateId": 111,
+  "Columns": 447,
   "Theme": null,
-  "VisibleForAll": 898,
+  "VisibleForAll": 481,
   "VisibleForAssociates": [
-    212,
-    844
+    179,
+    110
   ],
   "VisibleForGroups": [
-    902,
-    967
+    835,
+    171
   ],
-  "PinForAll": 413,
+  "PinForAll": 865,
   "PinForAssociates": [
-    580,
-    322
+    668,
+    986
   ],
   "PinForGroups": [
-    190,
-    833
+    159,
+    260
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 735,
-  "UniqueId": "quidem",
-  "Name": "Kutch Inc and Sons",
-  "Description": "Advanced well-modulated analyzer",
-  "AssociateId": 280,
-  "Columns": 121,
+  "DashboardId": 946,
+  "UniqueId": "voluptate",
+  "Name": "Rodriguez LLC",
+  "Description": "Managed multimedia core",
+  "AssociateId": 370,
+  "Columns": 492,
   "Theme": null,
-  "VisibleForAll": 962,
+  "VisibleForAll": 994,
   "VisibleForAssociates": [
-    109,
-    665
+    291,
+    988
   ],
   "VisibleForGroups": [
-    645,
-    969
+    131,
+    112
   ],
-  "PinForAll": 938,
+  "PinForAll": 252,
   "PinForAssociates": [
-    134,
-    941
+    76,
+    598
   ],
   "PinForGroups": [
-    667,
-    126
+    319,
+    473
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldType": "System.Int32",
+      "FieldLength": 520
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=904
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=876
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 143,
-  "ColumnId": 689,
-  "FieldDefault": "et",
-  "FieldHeight": 701,
-  "FieldLabel": "sit",
-  "FieldLeft": 158,
-  "FieldTop": 120,
+  "UDefFieldId": 672,
+  "ColumnId": 848,
+  "FieldDefault": "delectus",
+  "FieldHeight": 744,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 68,
+  "FieldTop": 208,
   "FieldType": "Checkbox",
-  "FieldWidth": 135,
-  "FormatMask": "mollitia",
+  "FieldWidth": 751,
+  "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 884,
-  "LabelLeft": 570,
-  "LabelTop": 673,
-  "LabelWidth": 392,
-  "LastVersionId": 195,
-  "ListTableId": 384,
+  "LabelHeight": 999,
+  "LabelLeft": 595,
+  "LabelTop": 893,
+  "LabelWidth": 757,
+  "LastVersionId": 861,
+  "ListTableId": 753,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 999,
-  "ProgId": "est",
-  "IsReadOnly": false,
-  "ShortLabel": "consequatur",
-  "TabOrder": 516,
-  "TextLength": 615,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 687,
-  "UDListDefinitionId": 702,
+  "Page1LineNo": 544,
+  "ProgId": "quae",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptate",
+  "TabOrder": 723,
+  "TextLength": 206,
+  "Tooltip": "ut",
+  "UdefIdentity": 767,
+  "UDListDefinitionId": 384,
   "Justification": "Center",
-  "Version": 821,
-  "TemplateVariableName": "Zemlak, Pacocha and Beatty",
-  "HasBeenPublished": true,
-  "MdoListName": "Weimann LLC",
+  "Version": 103,
+  "TemplateVariableName": "Carroll-Steuber",
+  "HasBeenPublished": false,
+  "MdoListName": "Christiansen, Daniel and Conroy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 836
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

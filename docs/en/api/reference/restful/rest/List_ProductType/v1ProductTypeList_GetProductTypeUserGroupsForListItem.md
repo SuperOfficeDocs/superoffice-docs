@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Ward-Klein",
-    "ToolTip": "Voluptatum culpa eveniet libero itaque.",
+    "Id": 336,
+    "Name": "Leannon Inc and Sons",
+    "ToolTip": "Est quis tempore exercitationem ipsum cumque.",
     "Deleted": false,
-    "Rank": 722,
-    "Type": "delectus",
-    "ColorBlock": 26,
-    "IconHint": "repudiandae",
-    "Selected": true,
-    "LastChanged": "2016-12-20T13:57:19.8908927+01:00",
+    "Rank": 907,
+    "Type": "nesciunt",
+    "ColorBlock": 50,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "2003-02-26T23:04:05.645498+01:00",
     "ChildItems": [
       {
-        "Id": 717,
-        "Name": "Lockman-D'Amore",
-        "ToolTip": "Voluptatem corrupti ea nesciunt eum et.",
-        "Deleted": false,
-        "Rank": 944,
-        "Type": "in",
-        "ColorBlock": 620,
-        "IconHint": "sed",
+        "Id": 36,
+        "Name": "Hoppe-Haag",
+        "ToolTip": "Totam nesciunt amet doloribus eum illum.",
+        "Deleted": true,
+        "Rank": 964,
+        "Type": "harum",
+        "ColorBlock": 349,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2005-08-13T13:57:19.8908927+02:00",
+        "LastChanged": "2015-03-13T23:04:05.6459972+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "architecto",
+        "ExtraInfo": "iure",
+        "StyleHint": "mollitia",
         "Hidden": true,
-        "FullName": "Beatrice Smith",
+        "FullName": "Antone Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldLength": 186
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "et",
+    "ExtraInfo": "quasi",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ms. Lora Lockman",
+    "FullName": "Mrs. Dewayne Crystel Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldType": "System.String",
+        "FieldLength": 934
       }
     }
   }

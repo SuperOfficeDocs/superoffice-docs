@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Donnelly, Oberbrunner and Wolf",
-    "ToolTip": "Et dicta repellendus illum qui accusantium ducimus.",
-    "Deleted": true,
-    "Rank": 989,
-    "Type": "quidem",
-    "ColorBlock": 311,
-    "IconHint": "debitis",
+    "Id": 913,
+    "Name": "Spinka-Luettgen",
+    "ToolTip": "Reiciendis deleniti ut delectus molestiae maxime.",
+    "Deleted": false,
+    "Rank": 388,
+    "Type": "eum",
+    "ColorBlock": 522,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "1997-04-16T13:57:13.5364634+02:00",
+    "LastChanged": "2022-06-29T23:03:57.5491072+02:00",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Kunze Group",
-        "ToolTip": "Ea temporibus dolores mollitia nihil nesciunt ut animi.",
+        "Id": 750,
+        "Name": "Mante-Hilll",
+        "ToolTip": "Perspiciatis placeat.",
         "Deleted": false,
-        "Rank": 321,
-        "Type": "distinctio",
-        "ColorBlock": 507,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "2016-09-29T13:57:13.5364634+02:00",
+        "Rank": 467,
+        "Type": "iure",
+        "ColorBlock": 901,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2019-12-19T23:03:57.5491072+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "velit",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Monique Adams",
+        "FullName": "Natalia Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 682
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Mrs. Dorcas Christiansen III",
+    "FullName": "Mrs. Meta Rau Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldType": "System.String",
+        "FieldLength": 425
       }
     }
   }

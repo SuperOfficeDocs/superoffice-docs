@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "quia",
+  "SourceInput": "dolor",
   "Encoding": "Html",
   "CultureName": "sv",
-  "ContactId": 400,
-  "PersonId": 500,
-  "ProjectId": 148,
-  "SelectionId": 602,
-  "AppointmentId": 2,
-  "DocumentId": 183,
-  "SaleId": 36,
-  "QuoteLineId": 681,
-  "QuoteAlternativeId": 916,
-  "ProductKey": "excepturi",
+  "ContactId": 174,
+  "PersonId": 477,
+  "ProjectId": 527,
+  "SelectionId": 468,
+  "AppointmentId": 346,
+  "DocumentId": 271,
+  "SaleId": 516,
+  "QuoteLineId": 972,
+  "QuoteAlternativeId": 856,
+  "ProductKey": "et",
   "CustomTags": [
     [
       {}
@@ -103,14 +103,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 246,
+  "TicketId": 649,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 971
     }
   }
 }

@@ -10,7 +10,7 @@ generated: true
 PUT /api/v1/List/TicketType
 ```
 
-Save the description of TicketType list
+Save the description of TicketTypeEntity list
 
 
 
@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 188,
-  "Name": "Reilly, Moore and Olson",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 996,
+  "Id": 180,
+  "Name": "Langosh, Witting and Gutkowski",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 643,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quos",
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122,
-  "Name": "Abernathy, Skiles and Kassulke",
-  "Tooltip": "fugiat",
+  "Id": 45,
+  "Name": "Zboncak, Lebsack and Rutherford",
+  "Tooltip": "vitae",
   "Deleted": true,
-  "Rank": 335,
-  "IsCustomList": true,
+  "Rank": 48,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dignissimos",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   }
 }

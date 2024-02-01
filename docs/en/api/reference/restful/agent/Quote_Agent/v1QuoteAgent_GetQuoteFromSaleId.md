@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 122
+  "SaleId": 35
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 358,
-  "SaleId": 1002,
-  "QuoteConnectionId": 672,
-  "ERPQuoteKey": "qui",
-  "ERPOrderKey": "vero",
-  "ActiveQuoteVersionId": 957,
-  "AcceptedQuoteAlternativeId": 672,
-  "UseValuesFromQuote": 743,
-  "DocumentId": 350,
-  "PoNumber": "1245486",
-  "OrderComment": "et",
-  "PreferredEmailCulture": "reyes@wisozk.co.uk",
+  "QuoteId": 611,
+  "SaleId": 359,
+  "QuoteConnectionId": 519,
+  "ERPQuoteKey": "consequatur",
+  "ERPOrderKey": "error",
+  "ActiveQuoteVersionId": 618,
+  "AcceptedQuoteAlternativeId": 978,
+  "UseValuesFromQuote": 575,
+  "DocumentId": 460,
+  "PoNumber": "1109491",
+  "OrderComment": "sed",
+  "PreferredEmailCulture": "pedro@hagenes.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 635
+      "FieldType": "System.Int32",
+      "FieldLength": 729
     }
   }
 }

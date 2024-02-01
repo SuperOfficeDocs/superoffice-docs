@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 723,
-  "TargetDimensionId": 96
+  "UserGroupId": 237,
+  "TargetDimensionId": 580
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 786,
+    "TargetAssignmentInfoId": 304,
     "Values": [
-      163,
-      73
+      259,
+      521
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 284,
-    "DimensionListItemDisplayName": "Wolf, Prosacco and Wolf",
+    "DimensionListItem": 225,
+    "DimensionListItemDisplayName": "Schneider LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

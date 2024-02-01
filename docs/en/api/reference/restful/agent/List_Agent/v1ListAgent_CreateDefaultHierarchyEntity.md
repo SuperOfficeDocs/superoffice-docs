@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 458,
+  "HierarchyId": 267,
   "Domain": "Dashboards",
-  "Name": "Gulgowski LLC",
-  "Fullname": "suscipit",
-  "ParentId": 690,
+  "Name": "Bode Inc and Sons",
+  "Fullname": "ratione",
+  "ParentId": 459,
   "Children": [
     {
-      "HierarchyId": 415,
+      "HierarchyId": 297,
       "Domain": "Dashboards",
-      "Name": "Becker Group",
-      "Fullname": "quos",
-      "ParentId": 12,
+      "Name": "Hammes-Lind",
+      "Fullname": "repellendus",
+      "ParentId": 100,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-07-04T13:57:12.575585+02:00",
-      "RegisteredAssociateId": 206,
-      "Updated": "2014-01-19T13:57:12.575585+01:00",
-      "UpdatedAssociateId": 890,
+      "Registered": "2010-04-20T23:03:56.2876254+02:00",
+      "RegisteredAssociateId": 126,
+      "Updated": "2016-11-05T23:03:56.2876254+01:00",
+      "UpdatedAssociateId": 419,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldLength": 814
         }
       }
     }
   ],
-  "Registered": "2010-08-01T13:57:12.575585+02:00",
-  "RegisteredAssociateId": 113,
-  "Updated": "2007-11-12T13:57:12.575585+01:00",
-  "UpdatedAssociateId": 244,
+  "Registered": "2013-01-27T23:03:56.2876254+01:00",
+  "RegisteredAssociateId": 954,
+  "Updated": "2012-02-16T23:03:56.2876254+01:00",
+  "UpdatedAssociateId": 203,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

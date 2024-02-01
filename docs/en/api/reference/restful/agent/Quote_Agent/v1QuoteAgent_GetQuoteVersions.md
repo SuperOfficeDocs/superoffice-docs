@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 861
+  "QuoteId": 932
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 31,
-    "ERPQuoteVersionKey": "commodi",
-    "QuoteId": 257,
-    "Description": "Ergonomic object-oriented pricing structure",
-    "Number": "1387556",
+    "QuoteVersionId": 652,
+    "ERPQuoteVersionKey": "omnis",
+    "QuoteId": 610,
+    "Description": "Down-sized 24 hour knowledge user",
+    "Number": "304224",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 942,
-    "SentDate": "2015-01-20T13:57:13.0324135+01:00",
-    "FollowupId": 972,
-    "ExpirationDate": "2021-04-09T13:57:13.0324135+02:00",
-    "DeliveryCountryId": 897,
+    "LikelyQuoteAlternativeId": 240,
+    "SentDate": "2017-10-18T23:03:56.7206202+02:00",
+    "FollowupId": 306,
+    "ExpirationDate": "1998-06-30T23:03:56.7206202+02:00",
+    "DeliveryCountryId": 797,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 461,
+    "InvoiceCountryId": 698,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "quo",
-    "ERPPaymentTypeKey": "harum",
-    "ERPDeliveryTermsKey": "delectus",
-    "ERPDeliveryTypeKey": "cupiditate",
-    "Rank": 472,
-    "ApprovedBy": 856,
-    "ApprovedText": "magnam",
-    "ApprovedRegisteredBy": 906,
-    "ApprovedRegisteredDate": "2022-05-12T13:57:13.0324135+02:00",
-    "ExtraField1": "tempore",
-    "ExtraField2": "est",
-    "ExtraField3": "beatae",
-    "ExtraField4": "inventore",
-    "ExtraField5": "quo",
-    "LastRecalculated": "2012-01-17T13:57:13.0324135+01:00",
-    "Updated": "2018-09-08T13:57:13.0324135+02:00",
-    "UpdatedAssociateId": 5,
-    "Registered": "1999-01-07T13:57:13.0324135+01:00",
-    "RegisteredAssociateId": 509,
-    "RequestAssociateId": 69,
-    "RequestComment": "et",
+    "ERPPaymentTermsKey": "cumque",
+    "ERPPaymentTypeKey": "autem",
+    "ERPDeliveryTermsKey": "rerum",
+    "ERPDeliveryTypeKey": "ut",
+    "Rank": 858,
+    "ApprovedBy": 77,
+    "ApprovedText": "doloribus",
+    "ApprovedRegisteredBy": 530,
+    "ApprovedRegisteredDate": "2006-02-09T23:03:56.7206202+01:00",
+    "ExtraField1": "vitae",
+    "ExtraField2": "quis",
+    "ExtraField3": "est",
+    "ExtraField4": "sed",
+    "ExtraField5": "dignissimos",
+    "LastRecalculated": "1999-07-05T23:03:56.7206202+02:00",
+    "Updated": "2000-11-23T23:03:56.7206202+01:00",
+    "UpdatedAssociateId": 87,
+    "Registered": "2019-08-14T23:03:56.7206202+02:00",
+    "RegisteredAssociateId": 559,
+    "RequestAssociateId": 174,
+    "RequestComment": "dolorem",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 889,
-        "ERPQuoteAlternativeKey": "a",
-        "QuoteVersionId": 53,
-        "Name": "Stiedemann Inc and Sons",
-        "Description": "Customer-focused didactic concept",
+        "QuoteAlternativeId": 477,
+        "ERPQuoteAlternativeKey": "rerum",
+        "QuoteVersionId": 789,
+        "Name": "West LLC",
+        "Description": "Enterprise-wide asynchronous extranet",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 13197.274,
-        "ERPDiscountAmount": 20753.347999999998,
-        "DiscountPercent": 13241.15,
-        "DiscountAmount": 30929.446,
+        "ERPDiscountPercent": 8521.346,
+        "ERPDiscountAmount": 18675.505999999998,
+        "DiscountPercent": 23874.811999999998,
+        "DiscountAmount": 19603.17,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "quo",
-        "VAT": 17362.36,
-        "EarningPercent": 4613.248,
-        "EarningAmount": 24470.272,
-        "SubTotal": 11768.17,
-        "TotalPrice": 25623.584,
-        "ExtraField1": "quasi",
-        "ExtraField2": "sint",
-        "ExtraField3": "dolorem",
-        "ExtraField4": "aut",
-        "ExtraField5": "animi",
+        "VATInfo": "aliquam",
+        "VAT": 20847.368,
+        "EarningPercent": 25921.314,
+        "EarningAmount": 651.872,
+        "SubTotal": 31004.662,
+        "TotalPrice": 14532.358,
+        "ExtraField1": "recusandae",
+        "ExtraField2": "sit",
+        "ExtraField3": "aut",
+        "ExtraField4": "neque",
+        "ExtraField5": "sed",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldType": "System.String",
+            "FieldLength": 266
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 894
       }
     }
   }

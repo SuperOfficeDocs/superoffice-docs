@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Gerlach LLC",
-    "Tooltip": "deleniti",
+    "Id": 556,
+    "Name": "Glover Inc and Sons",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 43,
-    "Rank": 15
+    "UdListDefinitionId": 517,
+    "Rank": 641
   },
   {
-    "Id": 370,
-    "Name": "Gerlach LLC",
-    "Tooltip": "deleniti",
+    "Id": 556,
+    "Name": "Glover Inc and Sons",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 43,
-    "Rank": 15
+    "UdListDefinitionId": 517,
+    "Rank": 641
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Torphy Group",
-    "Tooltip": "atque",
+    "Id": 854,
+    "Name": "Brekke Inc and Sons",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 107,
-    "Rank": 759,
+    "UdListDefinitionId": 124,
+    "Rank": 984,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldLength": 53
       }
     }
   }

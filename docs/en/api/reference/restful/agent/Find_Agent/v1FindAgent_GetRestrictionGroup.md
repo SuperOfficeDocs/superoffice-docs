@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laudantium",
-  "ProviderName": "Pollich LLC",
-  "StorageKey": "facilis",
-  "Rank": 823,
-  "Context": "quidem"
+  "StorageType": "qui",
+  "ProviderName": "Haley, Funk and Fay",
+  "StorageKey": "molestias",
+  "Rank": 875,
+  "Context": "aliquam"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wunsch-Bogan",
-  "Description": "Configurable client-driven adapter",
-  "Rank": 265,
+  "Name": "Abernathy Inc and Sons",
+  "Description": "Extended explicit hierarchy",
+  "Rank": 615,
   "Restrictions": [
     {
-      "Name": "Gibson, Pagac and Krajcik",
-      "Operator": "iste",
+      "Name": "Conn LLC",
+      "Operator": "sed",
       "Values": [
-        "voluptates",
-        "voluptatem"
+        "exercitationem",
+        "ad"
       ],
       "DisplayValues": [
-        "quo",
-        "iste"
+        "eum",
+        "distinctio"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 629,
+      "InterParenthesis": 430,
       "InterOperator": "And",
-      "UniqueHash": 97
+      "UniqueHash": 209
     }
   ]
 }

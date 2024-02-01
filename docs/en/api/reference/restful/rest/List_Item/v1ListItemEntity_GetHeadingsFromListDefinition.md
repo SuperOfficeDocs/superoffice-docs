@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 258,
-    "Name": "Goyette Group",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "Rank": 217,
-    "UdListDefinitionId": 838,
+    "HeadingId": 170,
+    "Name": "Gusikowski, Stiedemann and Fahey",
+    "Tooltip": "tempora",
+    "Deleted": false,
+    "Rank": 884,
+    "UdListDefinitionId": 879,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldLength": 547
       }
     }
   }

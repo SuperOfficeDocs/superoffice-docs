@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolores",
+    "path": "magni",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolores",
+    "path": "magni",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 594,
-  "PlainMessage": "consequuntur",
-  "HtmlMessage": "harum",
-  "SmsMessage": "enim",
-  "Description": "Persistent interactive interface",
-  "Subject": "quo",
-  "FolderId": 738,
-  "HeaderField": "maxime",
-  "Design": "nisi",
+  "ShipmentMessageId": 343,
+  "PlainMessage": "quam",
+  "HtmlMessage": "repudiandae",
+  "SmsMessage": "magni",
+  "Description": "Right-sized even-keeled website",
+  "Subject": "eveniet",
+  "FolderId": 513,
+  "HeaderField": "suscipit",
+  "Design": "voluptas",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Innovative tangible open system",
-  "AccessKey": "consequuntur",
-  "DocumentMessage": 21,
-  "Registered": "2008-09-28T13:57:19.2815227+02:00",
-  "RegisteredAssociateId": 309,
-  "Updated": "1998-05-03T13:57:19.2815227+02:00",
-  "UpdatedAssociateId": 272,
-  "UpdatedCount": 471,
+  "LongDescription": "Decentralized analyzing instruction set",
+  "AccessKey": "quod",
+  "DocumentMessage": 291,
+  "Registered": "2014-09-25T23:04:04.8080099+02:00",
+  "RegisteredAssociateId": 207,
+  "Updated": "2003-05-16T23:04:04.8080099+02:00",
+  "UpdatedAssociateId": 937,
+  "UpdatedCount": 298,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 629
+      "FieldLength": 22
     }
   },
   "_Links": {

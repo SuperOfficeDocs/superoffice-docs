@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 930
+  "DocumentId": 523
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ExternalReference": "et",
-    "DocumentId": 439,
-    "VersionId": "quod",
-    "CheckedInDate": "2022-05-23T13:57:12.199869+02:00",
-    "CheckedInByName": "Mayer-Hilpert",
-    "CheckedInByAssociateId": 266,
-    "Description": "Adaptive heuristic task-force",
-    "DisplayText": "officiis",
+    "DocumentId": 150,
+    "VersionId": "sapiente",
+    "CheckedInDate": "2010-02-02T23:03:55.8171321+01:00",
+    "CheckedInByName": "Jakubowski, Mayer and Towne",
+    "CheckedInByAssociateId": 223,
+    "Description": "Reactive clear-thinking pricing structure",
+    "DisplayText": "tempore",
     "ExtraFields": [
-      "autem",
-      "omnis"
+      "ratione",
+      "earum"
     ]
   }
 ]

@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 754,
-  "Name": "Flatley, Graham and Gerlach",
-  "CreatedDate": "1998-08-31T13:57:18.7953465+02:00",
-  "UpdatedDate": "2017-12-09T13:57:18.7953465+01:00",
+  "ForeignAppId": 943,
+  "Name": "Cassin-Rempel",
+  "CreatedDate": "2017-09-25T23:04:04.1970168+02:00",
+  "UpdatedDate": "2007-03-09T23:04:04.1970168+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 125,
-      "Name": "Kilback-Towne",
-      "CreatedDate": "2023-01-05T13:57:18.7953465+01:00",
-      "UpdatedDate": "2018-06-18T13:57:18.7953465+02:00",
-      "AssociateFullName": "Ms. Maymie Toney Mohr IV",
-      "CreatedBy": "expedita",
-      "UpdatedBy": "quis",
-      "DeviceIdentifier": "optio",
-      "ForeignAppId": 219,
+      "ForeignDeviceId": 19,
+      "Name": "Collier-Donnelly",
+      "CreatedDate": "2007-03-12T23:04:04.1980177+01:00",
+      "UpdatedDate": "2023-03-11T23:04:04.1980177+01:00",
+      "AssociateFullName": "Victoria Isidro Dickens Sr.",
+      "CreatedBy": "ad",
+      "UpdatedBy": "temporibus",
+      "DeviceIdentifier": "accusamus",
+      "ForeignAppId": 378,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 627
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 93
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 847,
-    "ColumnId": 893,
-    "FieldDefault": "veritatis",
-    "FieldHeight": 563,
-    "FieldLabel": "minima",
-    "FieldLeft": 686,
-    "FieldTop": 377,
+    "UDefFieldId": 544,
+    "ColumnId": 639,
+    "FieldDefault": "qui",
+    "FieldHeight": 218,
+    "FieldLabel": "ratione",
+    "FieldLeft": 471,
+    "FieldTop": 577,
     "FieldType": "Checkbox",
-    "FieldWidth": 832,
-    "FormatMask": "rem",
+    "FieldWidth": 810,
+    "FormatMask": "eum",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 28,
-    "LabelLeft": 699,
-    "LabelTop": 319,
-    "LabelWidth": 360,
-    "LastVersionId": 610,
-    "ListTableId": 772,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "LabelHeight": 897,
+    "LabelLeft": 215,
+    "LabelTop": 117,
+    "LabelWidth": 414,
+    "LastVersionId": 31,
+    "ListTableId": 16,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 879,
-    "ProgId": "facere",
+    "Page1LineNo": 453,
+    "ProgId": "est",
     "IsReadOnly": false,
-    "ShortLabel": "blanditiis",
-    "TabOrder": 382,
-    "TextLength": 633,
-    "Tooltip": "qui",
-    "UdefIdentity": 366,
-    "UDListDefinitionId": 83,
+    "ShortLabel": "qui",
+    "TabOrder": 467,
+    "TextLength": 603,
+    "Tooltip": "quo",
+    "UdefIdentity": 623,
+    "UDListDefinitionId": 442,
     "Justification": "Center",
-    "Version": 388,
-    "TemplateVariableName": "Wisozk-Weissnat",
+    "Version": 500,
+    "TemplateVariableName": "Keebler Group",
     "HasBeenPublished": true,
-    "MdoListName": "Pollich, Koelpin and Pfannerstill",
+    "MdoListName": "Jerde, Feeney and Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldType": "System.String",
+        "FieldLength": 896
       }
     }
   }

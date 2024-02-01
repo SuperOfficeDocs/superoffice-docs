@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 391,
-  "Name": "Thiel Group",
-  "CurrencyId": 628,
-  "EnglishName": "Kiehn Group",
+  "CountryId": 608,
+  "Name": "Bogan, Lynch and Grant",
+  "CurrencyId": 355,
+  "EnglishName": "Hickle LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Progressive tangible archive",
-  "OrgNrText": "937983",
-  "InterAreaPrefix": "est",
-  "DialInPrefix": "aperiam",
-  "ZipPrefix": "aperiam",
-  "DomainName": "Bradtke LLC",
-  "AddressLayoutId": 193,
-  "DomesticAddressLayoutId": 845,
-  "ForeignAddressLayoutId": 408,
-  "Rank": 55,
-  "Tooltip": "voluptatum",
+  "ImageDescription": "Fully-configurable real-time extranet",
+  "OrgNrText": "275759",
+  "InterAreaPrefix": "facilis",
+  "DialInPrefix": "et",
+  "ZipPrefix": "molestias",
+  "DomainName": "Wiegand, Carroll and Kuhlman",
+  "AddressLayoutId": 338,
+  "DomesticAddressLayoutId": 853,
+  "ForeignAddressLayoutId": 356,
+  "Rank": 314,
+  "Tooltip": "quam",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldType": "System.Int32",
+      "FieldLength": 167
     }
   }
 }

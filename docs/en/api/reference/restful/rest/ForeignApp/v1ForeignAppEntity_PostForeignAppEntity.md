@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 187,
-  "Name": "Tromp-Gutkowski",
-  "CreatedDate": "2020-11-17T13:57:18.7953465+01:00",
-  "UpdatedDate": "2010-09-01T13:57:18.7953465+02:00",
+  "ForeignAppId": 717,
+  "Name": "Powlowski, Lubowitz and Gislason",
+  "CreatedDate": "2012-12-04T23:04:04.2065173+01:00",
+  "UpdatedDate": "2012-06-08T23:04:04.2065173+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 434,
-      "Name": "Hilpert, Turcotte and Greenholt",
-      "CreatedDate": "2011-08-08T13:57:18.7953465+02:00",
-      "UpdatedDate": "2004-09-14T13:57:18.7953465+02:00",
-      "AssociateFullName": "Jane Lockman",
-      "CreatedBy": "illo",
-      "UpdatedBy": "saepe",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 815
+      "ForeignDeviceId": 833,
+      "Name": "Bashirian, Gutmann and Wisozk",
+      "CreatedDate": "2009-07-03T23:04:04.207018+02:00",
+      "UpdatedDate": "1999-06-14T23:04:04.207018+02:00",
+      "AssociateFullName": "Dr. Jan Morar",
+      "CreatedBy": "dolorem",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "labore",
+      "ForeignAppId": 62
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 138,
-  "Name": "Rowe Inc and Sons",
-  "CreatedDate": "2021-09-05T13:57:18.7953465+02:00",
-  "UpdatedDate": "2008-03-31T13:57:18.7953465+02:00",
+  "ForeignAppId": 880,
+  "Name": "Kovacek-Heidenreich",
+  "CreatedDate": "2016-09-24T23:04:04.2085176+02:00",
+  "UpdatedDate": "2007-05-19T23:04:04.2085176+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 113,
-      "Name": "Lehner Inc and Sons",
-      "CreatedDate": "2002-10-14T13:57:18.7953465+02:00",
-      "UpdatedDate": "2017-04-24T13:57:18.7953465+02:00",
-      "AssociateFullName": "Dean Ortiz",
-      "CreatedBy": "inventore",
-      "UpdatedBy": "libero",
-      "DeviceIdentifier": "dolorem",
-      "ForeignAppId": 467,
+      "ForeignDeviceId": 556,
+      "Name": "Feil LLC",
+      "CreatedDate": "2013-08-21T23:04:04.209017+02:00",
+      "UpdatedDate": "2012-05-22T23:04:04.209017+02:00",
+      "AssociateFullName": "Chasity Wunsch Sr.",
+      "CreatedBy": "natus",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 559,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 998
+          "FieldLength": 901
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 151
     }
   },
   "_Links": {

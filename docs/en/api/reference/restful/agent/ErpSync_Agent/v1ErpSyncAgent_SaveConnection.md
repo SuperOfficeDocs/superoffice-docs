@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 10,
-  "ErpConnectorId": 70,
-  "DisplayName": "Brakus, Barton and Schmeler",
-  "DisplayDescription": "Multi-channelled systematic standardization",
+  "ErpConnectionId": 638,
+  "ErpConnectorId": 425,
+  "DisplayName": "Bogan, Homenick and Lind",
+  "DisplayDescription": "Optimized mobile throughput",
   "Active": false,
-  "ConnectionId": "itaque",
-  "MostRecentTimestamp": "distinctio",
+  "ConnectionId": "ut",
+  "MostRecentTimestamp": "sed",
   "ConfigFields": {
-    "ConfigFields1": "porro",
-    "ConfigFields2": "et"
+    "ConfigFields1": "sint",
+    "ConfigFields2": "odit"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    125,
-    24
+    649,
+    485
   ],
   "AssociateAccessIds": [
-    125,
-    685
+    805,
+    200
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 285
     }
   }
 }

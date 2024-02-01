@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 892,
-    "Name": "Abshire, Heidenreich and McCullough",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 814,
-    "UdListDefinitionId": 185
+    "HeadingId": 935,
+    "Name": "Beahan-Harber",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "Rank": 673,
+    "UdListDefinitionId": 654
   },
   {
-    "HeadingId": 892,
-    "Name": "Abshire, Heidenreich and McCullough",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 814,
-    "UdListDefinitionId": 185
+    "HeadingId": 935,
+    "Name": "Beahan-Harber",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "Rank": 673,
+    "UdListDefinitionId": 654
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 481,
-    "Name": "Hilpert LLC",
-    "Tooltip": "occaecati",
-    "Deleted": true,
-    "Rank": 219,
-    "UdListDefinitionId": 470,
+    "HeadingId": 192,
+    "Name": "Wiegand-Roob",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "Rank": 545,
+    "UdListDefinitionId": 76,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 123
+        "FieldType": "System.Int32",
+        "FieldLength": 653
       }
     }
   }

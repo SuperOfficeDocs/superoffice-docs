@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    480,
-    430
+    357,
+    3
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 342,
-    "UniqueId": "saepe",
-    "Name": "Bins-Hayes",
-    "Description": "Self-enabling fresh-thinking groupware",
-    "AssociateId": 713,
-    "Columns": 168,
+    "DashboardId": 523,
+    "UniqueId": "autem",
+    "Name": "Osinski, Zulauf and Jenkins",
+    "Description": "Team-oriented bottom-line toolset",
+    "AssociateId": 307,
+    "Columns": 777,
     "Theme": null,
-    "VisibleForAll": 762,
+    "VisibleForAll": 425,
     "VisibleForAssociates": [
-      458,
-      304
+      796,
+      65
     ],
     "VisibleForGroups": [
-      362,
-      272
+      739,
+      329
     ],
-    "PinForAll": 856,
+    "PinForAll": 896,
     "PinForAssociates": [
-      85,
-      729
+      895,
+      881
     ],
     "PinForGroups": [
-      651,
-      268
+      869,
+      759
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldLength": 149
       }
     }
   }

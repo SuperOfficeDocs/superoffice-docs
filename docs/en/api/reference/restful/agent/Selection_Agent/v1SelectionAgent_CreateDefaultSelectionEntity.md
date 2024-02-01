@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Universal grid-enabled groupware",
-  "Postit": "occaecati",
+  "Description": "Exclusive motivating hub",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 957,
-  "IncludePerson": 972,
-  "MemberCount": 588,
-  "Name": "Muller Group",
-  "PostitTextId": 284,
-  "CreatedDate": "2001-05-03T13:57:13.1914846+02:00",
-  "SelectionId": 912,
-  "SoundEx": "eaque",
-  "Source": 361,
-  "TextId": 319,
-  "UpdatedDate": "2012-05-09T13:57:13.1914846+02:00",
-  "UpdatedCount": 584,
-  "Visibility": 412,
+  "GroupIdx": 11,
+  "IncludePerson": 703,
+  "MemberCount": 272,
+  "Name": "Emard-Lowe",
+  "PostitTextId": 770,
+  "CreatedDate": "1999-06-22T23:03:57.0856152+02:00",
+  "SelectionId": 206,
+  "SoundEx": "voluptas",
+  "Source": 994,
+  "TextId": 408,
+  "UpdatedDate": "2001-01-01T23:03:57.0856152+01:00",
+  "UpdatedCount": 683,
+  "Visibility": 655,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 354,
-  "TargetTableName": "Schowalter LLC",
-  "Completed": true,
-  "LeftSelectionId": 450,
-  "RightSelectionId": 844,
+  "CompanyUnique": true,
+  "TargetTableNumber": 219,
+  "TargetTableName": "Wintheiser-Dibbert",
+  "Completed": false,
+  "LeftSelectionId": 681,
+  "RightSelectionId": 529,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Witting-Trantow",
-  "ShadowProviderName": "Cormier Group",
-  "ChartKey": "veritatis",
-  "LastLoaded": "2023-07-30T13:57:13.1914846+02:00",
-  "LastLoadedBy": 118,
+  "MainProviderName": "Kirlin, Boyle and Dickinson",
+  "ShadowProviderName": "Nolan-Fritsch",
+  "ChartKey": "nostrum",
+  "LastLoaded": "2007-03-22T23:03:57.0861165+01:00",
+  "LastLoadedBy": 105,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-02-07T13:57:13.1914846+01:00",
-  "LastMembershipChangeBy": 912,
+  "LastMembershipChange": "2018-11-19T23:03:57.0866169+01:00",
+  "LastMembershipChangeBy": 967,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Dickinson, Daugherty and Kuvalis",
-  "DashboardTileDefinitionId": 518,
+  "MainHeading": "reiciendis",
+  "MemberTabHeading": "praesentium",
+  "MailingsProviderName": "Frami-Herman",
+  "DashboardTileDefinitionId": 295,
   "VisibleFor": [
     {
-      "VisibleId": 486,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldType": "System.String",
+          "FieldLength": 96
         }
       }
     },
     {
-      "VisibleId": 486,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldType": "System.String",
+          "FieldLength": 96
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldType": "System.String",
+      "FieldLength": 257
     }
   }
 }

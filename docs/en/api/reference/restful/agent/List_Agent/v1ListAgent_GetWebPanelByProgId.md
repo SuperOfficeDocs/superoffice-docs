@@ -84,6 +84,7 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | bool | If set to true, the content will not reload on current changes, only applies to sidepanels |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "beatae"
+  "ProgId": "quia"
 }
 ```
 
@@ -108,33 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 860,
-  "Name": "Koch LLC",
-  "Tooltip": "placeat",
+  "WebPanelId": 11,
+  "Name": "D'Amore-Nitzsche",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 435,
+  "Rank": 871,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Osinski-Harber",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Corkery, Senger and Lindgren",
   "Url": "http://www.example.com/",
-  "ProgId": "optio",
-  "Icon": 733,
+  "ProgId": "debitis",
+  "Icon": 418,
   "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldType": "System.String",
+      "FieldLength": 690
     }
   }
 }

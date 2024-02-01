@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aspernatur"
+  "Key": "in"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "temporibus",
-  "AccessToken": "adipisci",
-  "RefreshToken": "tenetur",
+  "Provider": "vel",
+  "AccessToken": "ipsa",
+  "RefreshToken": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 646
     }
   }
 }

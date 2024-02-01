@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 293,
-    "Name": "Hettinger-Hilll",
-    "Tooltip": "officiis",
+    "HeadingId": 520,
+    "Name": "Walsh Group",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 147
+    "Rank": 95,
+    "UdListDefinitionId": 387
   },
   {
-    "HeadingId": 293,
-    "Name": "Hettinger-Hilll",
-    "Tooltip": "officiis",
+    "HeadingId": 520,
+    "Name": "Walsh Group",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 147
+    "Rank": 95,
+    "UdListDefinitionId": 387
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Reichel Inc and Sons",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 799,
-    "UdListDefinitionId": 474,
+    "HeadingId": 539,
+    "Name": "Cummerata LLC",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "Rank": 529,
+    "UdListDefinitionId": 977,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

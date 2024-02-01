@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Moen-Brekke",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 74,
+  "Id": 987,
+  "Name": "Rempel-Schuppe",
+  "Tooltip": "natus",
+  "Deleted": true,
+  "Rank": 844,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "ListType": "iusto",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   },
   "_Links": {

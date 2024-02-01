@@ -79,8 +79,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 514,
-  "LanguageCode": "odit"
+  "DashboardTileDefinitionId": 366,
+  "LanguageCode": "quisquam"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "id",
-  "Html": "labore",
+  "LanguageCode": "tempore",
+  "Html": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

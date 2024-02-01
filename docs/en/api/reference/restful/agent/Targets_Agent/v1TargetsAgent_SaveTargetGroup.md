@@ -77,24 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 875,
-  "Year": 964,
+  "TargetGroupId": 594,
+  "Year": 561,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 812,
+      "TargetAssignmentInfoId": 152,
       "Values": [
-        29,
-        144
+        654,
+        384
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 453,
-      "DimensionListItemDisplayName": "Armstrong-Jerde"
+      "DimensionListItem": 669,
+      "DimensionListItemDisplayName": "Feil-Stark"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 40,
-  "Year": 252,
+  "TargetGroupId": 325,
+  "Year": 291,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 465,
+      "TargetAssignmentInfoId": 989,
       "Values": [
-        646,
-        77
+        893,
+        159
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 794,
-      "DimensionListItemDisplayName": "Borer-Christiansen",
+      "DimensionListItem": 210,
+      "DimensionListItemDisplayName": "Dickens, McKenzie and Jacobi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 909
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   }
 }

@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 426,
-  "Caption": "voluptatibus",
-  "Description": "Reverse-engineered global infrastructure",
-  "ChartName": "Jakubowski LLC",
-  "ChartId": "eum",
-  "IsDefault": true,
-  "AssociateId": 417,
-  "GroupId": 126,
-  "SelectionId": 331,
-  "Config": "corrupti",
+  "DashboardTileId": 157,
+  "Caption": "dolorem",
+  "Description": "Integrated multi-tasking monitoring",
+  "ChartName": "Collier-Romaguera",
+  "ChartId": "provident",
+  "IsDefault": false,
+  "AssociateId": 488,
+  "GroupId": 752,
+  "SelectionId": 279,
+  "Config": "cupiditate",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kemmer-Glover",
-      "Description": "Upgradable value-added methodology",
+      "Name": "Leannon LLC",
+      "Description": "User-friendly upward-trending array",
       "Type": "Boolean",
-      "ListName": "Zboncak Group",
+      "ListName": "Grimes-Connelly",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "officiis",
-      "DefaultDataOption": true
+      "Value": "perspiciatis",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 377,
+      "VisibleId": 27,
       "Visibility": "All",
-      "DisplayValue": "vel"
+      "DisplayValue": "reiciendis"
     },
     {
-      "VisibleId": 377,
+      "VisibleId": 27,
       "Visibility": "All",
-      "DisplayValue": "vel"
+      "DisplayValue": "reiciendis"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 966,
-  "Caption": "culpa",
-  "Description": "Ergonomic composite algorithm",
-  "ChartName": "Mayer Group",
-  "ChartId": "voluptatem",
-  "IsDefault": false,
-  "AssociateId": 454,
-  "GroupId": 714,
-  "SelectionId": 205,
-  "Config": "quis",
+  "DashboardTileId": 797,
+  "Caption": "occaecati",
+  "Description": "Future-proofed radical matrices",
+  "ChartName": "Yundt, Marks and Champlin",
+  "ChartId": "illo",
+  "IsDefault": true,
+  "AssociateId": 108,
+  "GroupId": 420,
+  "SelectionId": 994,
+  "Config": "numquam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wehner, Marvin and Lesch",
-      "Description": "Focused methodical leverage",
+      "Name": "Dibbert, Upton and DuBuque",
+      "Description": "Organized dynamic core",
       "Type": "Boolean",
-      "ListName": "Kemmer LLC",
+      "ListName": "Dickinson Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "molestiae",
+      "Value": "aspernatur",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 123
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 517,
+      "VisibleId": 512,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldLength": 715
         }
       }
     },
     {
-      "VisibleId": 517,
+      "VisibleId": 512,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldLength": 715
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldLength": 814
     }
   }
 }

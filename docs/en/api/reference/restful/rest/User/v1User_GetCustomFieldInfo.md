@@ -71,7 +71,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Cartwright, Waters and Shanahan",
-  "DisplayName": "Stokes Inc and Sons",
-  "Description": "Extended leading edge adapter",
-  "ShortLabel": "adipisci",
-  "HideLabel": true,
+  "FieldName": "Boyle Group",
+  "DisplayName": "Carter-Swift",
+  "Description": "Multi-lateral leading edge workforce",
+  "ShortLabel": "praesentium",
+  "HideLabel": false,
   "HideField": true,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 384,
-  "TemplateVariableName": "Donnelly, Reichel and Baumbach"
+  "Rank": 400,
+  "TemplateVariableName": "Jacobson-McDermott"
 }
 ```

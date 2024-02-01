@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 874,
-    "Name": "Pacocha Inc and Sons",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 311,
-    "UdListDefinitionId": 821,
+    "HeadingId": 744,
+    "Name": "Lubowitz, Hayes and Gulgowski",
+    "Tooltip": "aliquid",
+    "Deleted": true,
+    "Rank": 259,
+    "UdListDefinitionId": 127,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldType": "System.String",
+        "FieldLength": 547
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=732
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=656
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 118,
-  "Name": "Swaniawski Inc and Sons",
-  "Description": "Versatile optimizing pricing structure",
+  "ReportLabelLayoutId": 157,
+  "Name": "Marks-Cremin",
+  "Description": "Secured client-server methodology",
   "Orientation": "Landscape",
-  "PaperWidth": 927,
-  "PaperHeight": 939,
-  "LeftMargin": 438,
-  "RightMargin": 572,
-  "TopMargin": 753,
-  "BottomMargin": 705,
-  "CountColumns": 908,
-  "CountRows": 675,
+  "PaperWidth": 137,
+  "PaperHeight": 763,
+  "LeftMargin": 880,
+  "RightMargin": 388,
+  "TopMargin": 610,
+  "BottomMargin": 34,
+  "CountColumns": 825,
+  "CountRows": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldLength": 154
     }
   }
 }

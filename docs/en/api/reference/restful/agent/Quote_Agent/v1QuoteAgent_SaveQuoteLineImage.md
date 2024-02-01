@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Quote/SaveQuoteLineImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 144,
+  "QuoteLineId": 773,
   "Image": "GIF89....File contents as raw bytes...",
-  "Rank": 674
+  "Rank": 546
 }
 ```
 

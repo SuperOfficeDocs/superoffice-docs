@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hoppe, Lowe and Torphy",
-  "DeviceName": "White LLC",
-  "DeviceIdentifier": "facilis"
+  "ApplicationName": "Altenwerth Group",
+  "DeviceName": "Schuster-Stamm",
+  "DeviceIdentifier": "itaque"
 }
 ```
 

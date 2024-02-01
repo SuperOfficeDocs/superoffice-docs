@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Breitenberg-Runte",
-    "ToolTip": "Voluptates nulla eius voluptatem.",
+    "Id": 816,
+    "Name": "Cruickshank, Romaguera and Bradtke",
+    "ToolTip": "Exercitationem aut.",
     "Deleted": false,
-    "Rank": 398,
-    "Type": "molestiae",
-    "ColorBlock": 312,
-    "IconHint": "ducimus",
+    "Rank": 731,
+    "Type": "minus",
+    "ColorBlock": 510,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2000-07-22T13:57:19.7971417+02:00",
+    "LastChanged": "2002-06-29T23:04:05.518999+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Koepp, Wolff and Gusikowski",
-        "ToolTip": "Ipsa laudantium.",
+        "Id": 953,
+        "Name": "Hessel-Heathcote",
+        "ToolTip": "Aut et sunt dolor quos occaecati.",
         "Deleted": false,
-        "Rank": 59,
-        "Type": "est",
-        "ColorBlock": 868,
-        "IconHint": "rerum",
+        "Rank": 192,
+        "Type": "non",
+        "ColorBlock": 292,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "1998-09-08T13:57:19.7971417+02:00",
+        "LastChanged": "2008-11-30T23:04:05.518999+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "provident",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Felix Kutch",
+        "FullName": "Ms. Jabari Cheyanne Ryan I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 246
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "a",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Susana Olson",
+    "FullName": "Lennie Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 492
       }
     }
   }

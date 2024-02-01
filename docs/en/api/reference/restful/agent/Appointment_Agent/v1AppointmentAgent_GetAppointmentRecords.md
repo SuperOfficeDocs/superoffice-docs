@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 495,
-  "RecurrenceRuleId": 167
+  "MotherId": 555,
+  "RecurrenceRuleId": 488
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 117,
-    "StartDate": "2013-04-30T13:57:11.2157245+02:00",
-    "EndDate": "2021-10-13T13:57:11.2157245+02:00",
+    "AppointmentId": 374,
+    "StartDate": "2008-01-09T23:03:54.5856484+01:00",
+    "EndDate": "2015-06-17T23:03:54.5856484+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quidem",
-    "AssociateFullName": "Dr. Demario Breitenberg III",
-    "ContactName": "Stracke, Swift and Bahringer",
-    "Description": "Seamless exuding superstructure",
-    "PersonFullName": "Dr. Santa Genoveva Boehm",
-    "PersonId": 349,
-    "ContactId": 634,
-    "ProjectId": 240,
-    "ProjectName": "Treutel-Hagenes",
-    "IsPublished": false,
-    "AssociateId": 417,
-    "ColorIndex": 502,
-    "IsFree": false,
+    "Task": "explicabo",
+    "AssociateFullName": "Stewart Ratke",
+    "ContactName": "Ortiz, Feest and Nikolaus",
+    "Description": "Reverse-engineered upward-trending hub",
+    "PersonFullName": "Merl Beier",
+    "PersonId": 872,
+    "ContactId": 151,
+    "ProjectId": 612,
+    "ProjectName": "Welch-Hettinger",
+    "IsPublished": true,
+    "AssociateId": 866,
+    "ColorIndex": 637,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 309,
-    "PriorityName": "Collins, Lemke and Bartell",
+    "PriorityId": 205,
+    "PriorityName": "Torp, Dibbert and Rosenbaum",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2001-07-17T13:57:11.2157245+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2020-06-12T23:03:54.5861488+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-08-06T13:57:11.2157245+02:00",
-    "RecurringEndDate": "2009-01-16T13:57:11.2157245+01:00",
-    "MotherId": 148,
-    "AssignedBy": 685,
-    "AssignedByFullName": "Elijah Schuppe",
+    "RecurringStartDate": "2004-04-13T23:03:54.5861488+02:00",
+    "RecurringEndDate": "2017-12-24T23:03:54.5861488+01:00",
+    "MotherId": 501,
+    "AssignedBy": 536,
+    "AssignedByFullName": "Sammie Parisian",
     "RejectReason": "",
-    "Location": "officia",
-    "AlarmLeadTime": "cum",
-    "SaleId": 295,
-    "SaleName": "Aufderhar, Boyle and Treutel",
-    "AssociateName": "Morar, Durgan and Stroman",
-    "CreatedDate": "2021-01-02T13:57:11.2157245+01:00",
-    "CreatedBy": "neque",
-    "CreatedByFullName": "Avis Quitzon I",
-    "CreatedByAssociateId": 392,
+    "Location": "neque",
+    "AlarmLeadTime": "ipsa",
+    "SaleId": 63,
+    "SaleName": "Abshire-Reichel",
+    "AssociateName": "Boyer LLC",
+    "CreatedDate": "2010-03-19T23:03:54.5866484+01:00",
+    "CreatedBy": "maiores",
+    "CreatedByFullName": "Prof. Dedrick Brandt Wilderman I",
+    "CreatedByAssociateId": 515,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 349,
-    "Title": "eum",
-    "Agenda": "aut",
-    "InternalNotes": "velit",
+    "PreferredTZLocation": 343,
+    "Title": "voluptatem",
+    "Agenda": "commodi",
+    "InternalNotes": "quos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldLength": 366
       }
     }
   }

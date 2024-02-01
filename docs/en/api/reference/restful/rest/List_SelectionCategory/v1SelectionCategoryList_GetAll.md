@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Shanahan Group",
-    "Tooltip": "est",
+    "Id": 815,
+    "Name": "Friesen-Mante",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "UdListDefinitionId": 759,
-    "Rank": 65,
+    "UdListDefinitionId": 320,
+    "Rank": 827,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 616
       }
     }
   }

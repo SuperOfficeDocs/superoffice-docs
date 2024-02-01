@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    559,
-    953
+    738,
+    91
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 948,
-    "ColumnId": 975,
-    "FieldDefault": "maxime",
-    "FieldHeight": 644,
-    "FieldLabel": "pariatur",
-    "FieldLeft": 768,
-    "FieldTop": 317,
+    "UDefFieldId": 381,
+    "ColumnId": 411,
+    "FieldDefault": "ex",
+    "FieldHeight": 294,
+    "FieldLabel": "libero",
+    "FieldLeft": 176,
+    "FieldTop": 773,
     "FieldType": "Checkbox",
-    "FieldWidth": 17,
-    "FormatMask": "omnis",
+    "FieldWidth": 424,
+    "FormatMask": "laudantium",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 137,
-    "LabelLeft": 331,
-    "LabelTop": 517,
-    "LabelWidth": 431,
-    "LastVersionId": 426,
-    "ListTableId": 197,
+    "IsIndexed": false,
+    "LabelHeight": 208,
+    "LabelLeft": 398,
+    "LabelTop": 708,
+    "LabelWidth": 199,
+    "LastVersionId": 259,
+    "ListTableId": 954,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 259,
-    "ProgId": "aut",
+    "Page1LineNo": 401,
+    "ProgId": "ullam",
     "IsReadOnly": false,
-    "ShortLabel": "autem",
-    "TabOrder": 62,
-    "TextLength": 13,
-    "Tooltip": "accusantium",
-    "UdefIdentity": 505,
-    "UDListDefinitionId": 411,
+    "ShortLabel": "maxime",
+    "TabOrder": 301,
+    "TextLength": 70,
+    "Tooltip": "doloribus",
+    "UdefIdentity": 788,
+    "UDListDefinitionId": 880,
     "Justification": "Center",
-    "Version": 848,
-    "TemplateVariableName": "Wolf-Rosenbaum",
+    "Version": 343,
+    "TemplateVariableName": "Sanford-Keeling",
     "HasBeenPublished": false,
-    "MdoListName": "Ullrich, Ortiz and Lynch",
+    "MdoListName": "Botsford Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldType": "System.String",
+        "FieldLength": 218
       }
     }
   }

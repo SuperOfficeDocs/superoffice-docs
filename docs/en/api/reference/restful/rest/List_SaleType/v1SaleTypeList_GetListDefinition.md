@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Schowalter, Renner and Yundt",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 397,
+  "Id": 162,
+  "Name": "McCullough, Feeney and Bechtelar",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 244,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
-  "InUseByUserDefinedFields": false,
+  "ListType": "accusamus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   },
   "_Links": {

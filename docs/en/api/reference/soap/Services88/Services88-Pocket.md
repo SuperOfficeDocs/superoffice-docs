@@ -351,6 +351,7 @@ title: Services88.PocketAgent WSDL
               <xs:element minOccurs="0" name="ProgId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Icon" type="xs:short" />
               <xs:element minOccurs="0" name="AlwaysReloadOnShow" type="xs:boolean" />
+              <xs:element minOccurs="0" name="NeverReloadOnCurrentChange" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

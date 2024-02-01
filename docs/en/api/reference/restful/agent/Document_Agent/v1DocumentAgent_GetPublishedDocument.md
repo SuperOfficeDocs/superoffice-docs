@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 897
+  "DocumentId": 561
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 188,
-  "Attention": "sint",
-  "Header": "esse",
-  "Name": "Gutkowski-Lowe",
-  "OurRef": "expedita",
-  "YourRef": "voluptas",
-  "Description": "Inverse bi-directional functionalities",
-  "DocumentTemplate": "aliquam",
+  "DocumentId": 483,
+  "Attention": "ad",
+  "Header": "aut",
+  "Name": "Franecki-Collins",
+  "OurRef": "odit",
+  "YourRef": "deserunt",
+  "Description": "Exclusive optimizing portal",
+  "DocumentTemplate": "nisi",
   "IsPublished": false,
-  "PersonId": 108,
-  "PersonFullName": "Allie Waelchi",
-  "AssociateFullName": "Gloria Schimmel",
-  "ContactId": 858,
-  "ContactName": "Corkery-Collier",
-  "ProjectId": 572,
-  "ProjectName": "Toy, Schumm and Keeling",
-  "AssociateId": 246,
-  "Snum": 282,
+  "PersonId": 366,
+  "PersonFullName": "Kennedi Yost",
+  "AssociateFullName": "Ms. Arden Pfannerstill",
+  "ContactId": 737,
+  "ContactName": "Gutmann-Balistreri",
+  "ProjectId": 119,
+  "ProjectName": "Kunze-Breitenberg",
+  "AssociateId": 469,
+  "Snum": 131,
   "SaleId": 68,
-  "SaleName": "Schoen-McClure",
+  "SaleName": "Daniel Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 759
     }
   }
 }

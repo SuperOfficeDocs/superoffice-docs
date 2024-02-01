@@ -1183,32 +1183,6 @@ title: Services88.ListAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetTicketType">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="TicketTypeId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetTicketTypeResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketType" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="TicketType">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="TicketType" nillable="true" type="tns:TicketType" />
       <xs:element name="GetTicketTypeEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1244,24 +1218,6 @@ title: Services88.ListAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="TicketTypeEntity" nillable="true" type="tns:TicketTypeEntity" />
-      <xs:element name="GetAllTicketTypeEntities">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetAllTicketTypeEntitiesResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketTypeEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfTicketTypeEntity">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketTypeEntity" nillable="true" type="tns:TicketTypeEntity" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfTicketTypeEntity" nillable="true" type="tns:ArrayOfTicketTypeEntity" />
       <xs:element name="GlobalChangeTicketType">
         <xs:complexType>
           <xs:sequence>
@@ -1275,26 +1231,39 @@ title: Services88.ListAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="SetTicketTypeSortOrder">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketTypeId" type="xs:int" />
+            <xs:element minOccurs="0" name="SortOrder" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetTicketTypeSortOrderResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetTicketTypeList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketTypeIds" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketTypeEntityIds" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetTicketTypeListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketType" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketTypeEntity" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="ArrayOfTicketType">
+      <xs:complexType name="ArrayOfTicketTypeEntity">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketType" nillable="true" type="tns:TicketType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketTypeEntity" nillable="true" type="tns:TicketTypeEntity" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfTicketType" nillable="true" type="tns:ArrayOfTicketType" />
+      <xs:element name="ArrayOfTicketTypeEntity" nillable="true" type="tns:ArrayOfTicketTypeEntity" />
       <xs:element name="GetTicketTypes">
         <xs:complexType>
           <xs:sequence />
@@ -1303,7 +1272,7 @@ title: Services88.ListAgent WSDL
       <xs:element name="GetTicketTypesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketType" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketTypeEntity" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1346,6 +1315,7 @@ title: Services88.ListAgent WSDL
               <xs:element minOccurs="0" name="ProgId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Icon" type="xs:short" />
               <xs:element minOccurs="0" name="AlwaysReloadOnShow" type="xs:boolean" />
+              <xs:element minOccurs="0" name="NeverReloadOnCurrentChange" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -6974,23 +6944,6 @@ title: Services88.ListAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetTicketTypeRequest">
-    <wsdl:part name="parameters" element="tns:GetTicketType" />
-  </wsdl:message>
-  <wsdl:message name="GetTicketTypeRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetTicketTypeResponse">
-    <wsdl:part name="parameters" element="tns:GetTicketTypeResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetTicketTypeResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetTicketTypeEntityRequest">
     <wsdl:part name="parameters" element="tns:GetTicketTypeEntity" />
   </wsdl:message>
@@ -7008,23 +6961,6 @@ title: Services88.ListAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetAllTicketTypeEntitiesRequest">
-    <wsdl:part name="parameters" element="tns:GetAllTicketTypeEntities" />
-  </wsdl:message>
-  <wsdl:message name="GetAllTicketTypeEntitiesRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetAllTicketTypeEntitiesResponse">
-    <wsdl:part name="parameters" element="tns:GetAllTicketTypeEntitiesResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetAllTicketTypeEntitiesResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GlobalChangeTicketTypeRequest">
     <wsdl:part name="parameters" element="tns:GlobalChangeTicketType" />
   </wsdl:message>
@@ -7037,6 +6973,23 @@ title: Services88.ListAgent WSDL
     <wsdl:part name="parameters" element="tns:GlobalChangeTicketTypeResponse" />
   </wsdl:message>
   <wsdl:message name="GlobalChangeTicketTypeResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetTicketTypeSortOrderRequest">
+    <wsdl:part name="parameters" element="tns:SetTicketTypeSortOrder" />
+  </wsdl:message>
+  <wsdl:message name="SetTicketTypeSortOrderRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetTicketTypeSortOrderResponse">
+    <wsdl:part name="parameters" element="tns:SetTicketTypeSortOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetTicketTypeSortOrderResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -11668,21 +11621,17 @@ title: Services88.ListAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketStatuses" name="GetTicketStatusesRequest" message="tns:GetTicketStatusesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketStatusesResponse" name="GetTicketStatusesResponse" message="tns:GetTicketStatusesResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetTicketType">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketType" name="GetTicketTypeRequest" message="tns:GetTicketTypeRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketTypeResponse" name="GetTicketTypeResponse" message="tns:GetTicketTypeResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetTicketTypeEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketTypeEntity" name="GetTicketTypeEntityRequest" message="tns:GetTicketTypeEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketTypeEntityResponse" name="GetTicketTypeEntityResponse" message="tns:GetTicketTypeEntityResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetAllTicketTypeEntities">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllTicketTypeEntities" name="GetAllTicketTypeEntitiesRequest" message="tns:GetAllTicketTypeEntitiesRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllTicketTypeEntitiesResponse" name="GetAllTicketTypeEntitiesResponse" message="tns:GetAllTicketTypeEntitiesResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GlobalChangeTicketType">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GlobalChangeTicketType" name="GlobalChangeTicketTypeRequest" message="tns:GlobalChangeTicketTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GlobalChangeTicketTypeResponse" name="GlobalChangeTicketTypeResponse" message="tns:GlobalChangeTicketTypeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetTicketTypeSortOrder">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetTicketTypeSortOrder" name="SetTicketTypeSortOrderRequest" message="tns:SetTicketTypeSortOrderRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetTicketTypeSortOrderResponse" name="SetTicketTypeSortOrderResponse" message="tns:SetTicketTypeSortOrderResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketTypeList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketTypeList" name="GetTicketTypeListRequest" message="tns:GetTicketTypeListRequest" />
@@ -13227,22 +13176,6 @@ title: Services88.ListAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetTicketType">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketType" style="document" />
-      <wsdl:input name="GetTicketTypeRequest">
-        <soap:header message="tns:GetTicketTypeRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetTicketTypeRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetTicketTypeRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetTicketTypeResponse">
-        <soap:header message="tns:GetTicketTypeResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetTicketTypeResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetTicketTypeResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetTicketTypeResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GetTicketTypeEntity">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketTypeEntity" style="document" />
       <wsdl:input name="GetTicketTypeEntityRequest">
@@ -13259,22 +13192,6 @@ title: Services88.ListAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetAllTicketTypeEntities">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllTicketTypeEntities" style="document" />
-      <wsdl:input name="GetAllTicketTypeEntitiesRequest">
-        <soap:header message="tns:GetAllTicketTypeEntitiesRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetAllTicketTypeEntitiesRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetAllTicketTypeEntitiesRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetAllTicketTypeEntitiesResponse">
-        <soap:header message="tns:GetAllTicketTypeEntitiesResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetAllTicketTypeEntitiesResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetAllTicketTypeEntitiesResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetAllTicketTypeEntitiesResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GlobalChangeTicketType">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GlobalChangeTicketType" style="document" />
       <wsdl:input name="GlobalChangeTicketTypeRequest">
@@ -13288,6 +13205,22 @@ title: Services88.ListAgent WSDL
         <soap:header message="tns:GlobalChangeTicketTypeResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GlobalChangeTicketTypeResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GlobalChangeTicketTypeResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetTicketTypeSortOrder">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetTicketTypeSortOrder" style="document" />
+      <wsdl:input name="SetTicketTypeSortOrderRequest">
+        <soap:header message="tns:SetTicketTypeSortOrderRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetTicketTypeSortOrderRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetTicketTypeSortOrderRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetTicketTypeSortOrderResponse">
+        <soap:header message="tns:SetTicketTypeSortOrderResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetTicketTypeSortOrderResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetTicketTypeSortOrderResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetTicketTypeSortOrderResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

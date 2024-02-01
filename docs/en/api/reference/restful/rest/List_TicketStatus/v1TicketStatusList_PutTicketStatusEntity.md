@@ -86,13 +86,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 348,
-  "Name": "Reinger-Green",
+  "TicketStatusId": 383,
+  "Name": "Schmitt LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
   "IsDefault": true,
-  "UsedInQueue": false
+  "UsedInQueue": true
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 847,
-  "Name": "Boyle-Ruecker",
+  "TicketStatusId": 716,
+  "Name": "Witting LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
-  "UsedInQueue": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 630
     }
   }
 }

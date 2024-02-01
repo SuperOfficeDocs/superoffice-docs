@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 583,
-    "ErpConnectorId": 267,
-    "DisplayName": "Hegmann, Blanda and Moen",
-    "DisplayDescription": "Polarised hybrid structure",
+    "ErpConnectionId": 290,
+    "ErpConnectorId": 912,
+    "DisplayName": "Borer-Predovic",
+    "DisplayDescription": "Progressive attitude-oriented frame",
     "Active": true,
-    "ConnectionId": "illo",
-    "MostRecentTimestamp": "harum",
+    "ConnectionId": "minus",
+    "MostRecentTimestamp": "deleniti",
     "ConfigFields": {
-      "ConfigFields1": "commodi",
-      "ConfigFields2": "odit"
+      "ConfigFields1": "cum",
+      "ConfigFields2": "corrupti"
     },
     "Deleted": false,
-    "AllAccess": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      741,
-      729
+      116,
+      336
     ],
     "AssociateAccessIds": [
-      28,
-      959
+      256,
+      958
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 143
       }
     }
   }

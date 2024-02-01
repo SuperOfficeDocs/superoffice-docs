@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 202,
-    "Name": "Kuhlman, Boehm and Leannon",
-    "Tooltip": "asperiores",
-    "SaveInDb": 796,
-    "Filename": "laudantium",
-    "DefaultOref": "sint",
+    "DocumentTemplateId": 390,
+    "Name": "Huels Group",
+    "Tooltip": "dolores",
+    "SaveInDb": 581,
+    "Filename": "ducimus",
+    "DefaultOref": "asperiores",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 371,
-    "IntentId": 122,
-    "IsDefaultPublished": true,
-    "Rank": 589,
-    "LoadTemplateFromPlugin": 325,
-    "MimeType": "inventore",
+    "AutoeventId": 289,
+    "IntentId": 21,
+    "IsDefaultPublished": false,
+    "Rank": 176,
+    "LoadTemplateFromPlugin": 658,
+    "MimeType": "aspernatur",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 781,
+    "DocumentTypeKey": 294,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "haskell@mosciski.uk",
-    "IncludeSignature": true,
-    "ShowCurrents": false,
+    "EmailSubject": "cleta_sanford@oberbrunnerritchie.name",
+    "IncludeSignature": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jonathan.leannon@lemke.ca",
+    "SenderEmailAddress": "dandre_bauch@pacochalemke.com",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 747
       }
     }
   }

@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 116,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2008-10-28T13:57:12.090499+01:00",
-  "EndTime": "2006-10-31T13:57:12.090499+01:00",
-  "Count": 426,
-  "DocumentTemplateId": 113
+  "PersonId": 545,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2011-01-30T23:03:55.6866327+01:00",
+  "EndTime": "2011-05-09T23:03:55.6866327+02:00",
+  "Count": 920,
+  "DocumentTemplateId": 225
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 826,
-    "Attention": "aut",
-    "Header": "est",
-    "Name": "Hansen, Pfeffer and Murphy",
-    "OurRef": "similique",
-    "YourRef": "sit",
-    "Description": "Cross-group directional productivity",
-    "DocumentTemplate": "accusantium",
+    "DocumentId": 897,
+    "Attention": "laborum",
+    "Header": "consectetur",
+    "Name": "Friesen-Boyle",
+    "OurRef": "eos",
+    "YourRef": "totam",
+    "Description": "User-centric transitional portal",
+    "DocumentTemplate": "neque",
     "IsPublished": false,
-    "PersonId": 248,
-    "PersonFullName": "Perry O'Connell",
-    "AssociateFullName": "Miss Denis Yesenia Kunze",
-    "ContactId": 826,
-    "ContactName": "Huel-Cassin",
-    "ProjectId": 784,
-    "ProjectName": "Wiza, Jakubowski and Wehner",
-    "AssociateId": 626,
-    "Snum": 29,
-    "SaleId": 370,
-    "SaleName": "Wunsch, Breitenberg and Hilpert",
+    "PersonId": 701,
+    "PersonFullName": "Mariah Ruecker",
+    "AssociateFullName": "Kathleen Donnelly",
+    "ContactId": 964,
+    "ContactName": "Altenwerth-Satterfield",
+    "ProjectId": 256,
+    "ProjectName": "Mitchell, Champlin and Borer",
+    "AssociateId": 801,
+    "Snum": 177,
+    "SaleId": 884,
+    "SaleName": "Hand, Goyette and Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldLength": 922
       }
     }
   }

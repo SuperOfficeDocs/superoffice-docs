@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "atque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "atque",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 803,
-  "SourcePersonId": 542,
-  "DestinationContactId": 829,
-  "DestinationPersonId": 281,
-  "RelationId": 224,
-  "Comment": "tempore",
-  "RelationDefinitionId": 752,
-  "Reversed": 951,
-  "UpdatedDate": "2018-03-23T13:57:18.6846845+01:00",
-  "CreatedDate": "2014-12-04T13:57:18.6846845+01:00",
+  "SourceContactId": 227,
+  "SourcePersonId": 888,
+  "DestinationContactId": 951,
+  "DestinationPersonId": 779,
+  "RelationId": 730,
+  "Comment": "animi",
+  "RelationDefinitionId": 145,
+  "Reversed": 221,
+  "UpdatedDate": "2003-08-07T23:04:04.0635231+02:00",
+  "CreatedDate": "1997-11-04T23:04:04.0635231+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kutch Group",
-  "SourcePersonName": "Hettinger, Ritchie and Satterfield",
-  "DestinationContactName": "Beier, Kihn and Conn",
-  "DestinationPersonName": "Rohan Inc and Sons",
-  "ActiveText": "dolores",
-  "PassiveText": "eos",
+  "SourceContactName": "Russel LLC",
+  "SourcePersonName": "Satterfield-Hodkiewicz",
+  "DestinationContactName": "Gutkowski-Effertz",
+  "DestinationPersonName": "Lockman, Mosciski and Lockman",
+  "ActiveText": "deleniti",
+  "PassiveText": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldLength": 866
     }
   },
   "_Links": {

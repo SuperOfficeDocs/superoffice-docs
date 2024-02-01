@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Yundt-Kirlin",
-  "Tooltip": "vel",
+  "Id": 610,
+  "Name": "Thompson, Johnson and Tremblay",
+  "Tooltip": "amet",
   "Deleted": true,
-  "UdListDefinitionId": 931,
-  "Rank": 133,
+  "UdListDefinitionId": 161,
+  "Rank": 230,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

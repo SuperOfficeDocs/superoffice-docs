@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "commodi"
+  "MessageId": "voluptatem"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 678,
-      "ContactName": "Metz-Leuschke",
-      "PersonId": 477,
-      "PersonName": "Schinner-Miller",
-      "AssociateId": 440,
-      "Address": "at",
-      "EmailId": 774,
+      "ContactId": 557,
+      "ContactName": "Tremblay-Keeling",
+      "PersonId": 212,
+      "PersonName": "Abernathy-Jerde",
+      "AssociateId": 931,
+      "Address": "similique",
+      "EmailId": 375,
       "DuplicatePersonIds": [
-        648,
-        82
+        132,
+        258
       ],
-      "Name": "Shanahan, Gulgowski and Auer",
+      "Name": "Deckow-Homenick",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 755
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 792,
-      "ContactName": "Walker-Morissette",
-      "PersonId": 649,
-      "PersonName": "Hilll-Pagac",
-      "AssociateId": 368,
-      "Address": "eligendi",
-      "EmailId": 723,
+      "ContactId": 977,
+      "ContactName": "Tromp Group",
+      "PersonId": 342,
+      "PersonName": "Dickens Inc and Sons",
+      "AssociateId": 227,
+      "Address": "modi",
+      "EmailId": 214,
       "DuplicatePersonIds": [
-        395,
-        675
+        527,
+        71
       ],
-      "Name": "Ankunding Group",
+      "Name": "Hayes-Mann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldLength": 227
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 830,
-      "ContactName": "Pouros, Beer and Hilpert",
-      "PersonId": 485,
-      "PersonName": "Osinski-Lakin",
-      "AssociateId": 918,
-      "Address": "corrupti",
-      "EmailId": 573,
+      "ContactId": 27,
+      "ContactName": "Pollich LLC",
+      "PersonId": 209,
+      "PersonName": "Botsford-Zieme",
+      "AssociateId": 505,
+      "Address": "dolores",
+      "EmailId": 129,
       "DuplicatePersonIds": [
-        385,
-        225
+        213,
+        353
       ],
-      "Name": "Dibbert-Langosh",
+      "Name": "Wiza-Hodkiewicz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldType": "System.Int32",
+          "FieldLength": 219
         }
       }
     }
   ],
-  "Subject": "atque",
-  "HTMLBody": "facilis",
+  "Subject": "ea",
+  "HTMLBody": "vero",
   "From": null,
-  "Sent": "2018-11-02T13:57:12.246749+01:00",
-  "Size": 738,
+  "Sent": "2005-11-22T23:03:55.8856381+01:00",
+  "Size": 567,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "delectus",
-  "PlainBody": "voluptas",
+  "MessageID": "ut",
+  "PlainBody": "quidem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 730,
+  "ServerId": 420,
   "Attachments": [
     {
-      "Description": "Programmable web-enabled encoding",
-      "Filename": "debitis",
-      "Size": 649,
-      "Type": "sed",
-      "Encoding": "dolorem",
-      "Id": "voluptas",
-      "Disposition": "id",
+      "Description": "Focused real-time intranet",
+      "Filename": "voluptas",
+      "Size": 744,
+      "Type": "assumenda",
+      "Encoding": "possimus",
+      "Id": "earum",
+      "Disposition": "placeat",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldType": "System.String",
+          "FieldLength": 636
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bruen, Marks and Bernier",
+      "Name": "Waters-Dach",
       "Values": [
-        "consequatur",
-        "ea"
+        "doloribus",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldLength": 139
         }
       }
     },
     {
-      "Name": "Bruen, Marks and Bernier",
+      "Name": "Waters-Dach",
       "Values": [
-        "consequatur",
-        "ea"
+        "doloribus",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldLength": 139
         }
       }
     }
   ],
-  "FolderName": "Stark-Mertz",
-  "EmailItemId": 486,
-  "AccountId": 393,
-  "ReceivedAt": "2014-06-14T13:57:12.246749+02:00",
+  "FolderName": "Smith-Reinger",
+  "EmailItemId": 911,
+  "AccountId": 506,
+  "ReceivedAt": "1997-04-10T23:03:55.8856381+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-12-22T13:57:12.246749+01:00",
+  "RepliedAt": "2013-11-26T23:03:55.8861275+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 539
     }
   }
 }

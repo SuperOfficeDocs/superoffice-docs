@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 121,
-  "ColumnId": 446,
-  "FieldDefault": "expedita",
-  "FieldHeight": 235,
-  "FieldLabel": "autem",
-  "FieldLeft": 186,
-  "FieldTop": 22,
+  "UDefFieldId": 698,
+  "ColumnId": 7,
+  "FieldDefault": "et",
+  "FieldHeight": 843,
+  "FieldLabel": "fugiat",
+  "FieldLeft": 4,
+  "FieldTop": 663,
   "FieldType": "Checkbox",
-  "FieldWidth": 694,
-  "FormatMask": "vel",
+  "FieldWidth": 152,
+  "FormatMask": "dolor",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 242,
-  "LabelLeft": 916,
-  "LabelTop": 358,
-  "LabelWidth": 147,
-  "LastVersionId": 719,
-  "ListTableId": 717,
-  "IsMandatory": true,
+  "LabelHeight": 836,
+  "LabelLeft": 857,
+  "LabelTop": 451,
+  "LabelWidth": 419,
+  "LastVersionId": 90,
+  "ListTableId": 481,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 421,
-  "ProgId": "rerum",
-  "IsReadOnly": true,
-  "ShortLabel": "omnis",
-  "TabOrder": 775,
-  "TextLength": 183,
-  "Tooltip": "eveniet",
-  "UdefIdentity": 79,
-  "UDListDefinitionId": 495,
+  "Page1LineNo": 128,
+  "ProgId": "reiciendis",
+  "IsReadOnly": false,
+  "ShortLabel": "sunt",
+  "TabOrder": 587,
+  "TextLength": 591,
+  "Tooltip": "ut",
+  "UdefIdentity": 547,
+  "UDListDefinitionId": 200,
   "Justification": "Center",
-  "Version": 35,
-  "TemplateVariableName": "Carter-Halvorson",
+  "Version": 492,
+  "TemplateVariableName": "Schaden Group",
   "HasBeenPublished": false,
-  "MdoListName": "Hessel Group",
+  "MdoListName": "Pollich LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 58
     }
   }
 }

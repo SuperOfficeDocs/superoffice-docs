@@ -123,27 +123,27 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 475,
-  "PlainMessage": "saepe",
-  "HtmlMessage": "sit",
-  "SmsMessage": "fugit",
-  "Description": "Open-source client-server middleware",
-  "Subject": "consequatur",
-  "FolderId": 883,
-  "HeaderField": "quidem",
-  "Design": "nesciunt",
+  "ShipmentMessageId": 581,
+  "PlainMessage": "accusantium",
+  "HtmlMessage": "corporis",
+  "SmsMessage": "ut",
+  "Description": "Advanced value-added firmware",
+  "Subject": "et",
+  "FolderId": 398,
+  "HeaderField": "sunt",
+  "Design": "nam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Public-key modular interface",
-  "AccessKey": "velit",
-  "DocumentMessage": 136,
-  "Registered": "2021-06-20T13:57:19.2815227+02:00",
-  "RegisteredAssociateId": 673,
-  "Updated": "2016-02-07T13:57:19.2815227+01:00",
-  "UpdatedAssociateId": 385,
-  "UpdatedCount": 666
+  "InlineImages": true,
+  "LongDescription": "Business-focused zero administration instruction set",
+  "AccessKey": "et",
+  "DocumentMessage": 94,
+  "Registered": "2015-06-21T23:04:04.8065107+02:00",
+  "RegisteredAssociateId": 470,
+  "Updated": "2017-10-31T23:04:04.8065107+01:00",
+  "UpdatedAssociateId": 732,
+  "UpdatedCount": 810
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 938,
-  "PlainMessage": "velit",
-  "HtmlMessage": "in",
-  "SmsMessage": "iure",
-  "Description": "Optional assymetric toolset",
-  "Subject": "temporibus",
-  "FolderId": 775,
-  "HeaderField": "et",
-  "Design": "qui",
+  "ShipmentMessageId": 972,
+  "PlainMessage": "qui",
+  "HtmlMessage": "temporibus",
+  "SmsMessage": "adipisci",
+  "Description": "Decentralized fault-tolerant initiative",
+  "Subject": "aut",
+  "FolderId": 83,
+  "HeaderField": "non",
+  "Design": "ad",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Optional context-sensitive artificial intelligence",
-  "AccessKey": "mollitia",
-  "DocumentMessage": 655,
-  "Registered": "1999-12-09T13:57:19.2815227+01:00",
-  "RegisteredAssociateId": 644,
-  "Updated": "2023-08-25T13:57:19.2815227+02:00",
-  "UpdatedAssociateId": 139,
-  "UpdatedCount": 876,
+  "InlineImages": false,
+  "LongDescription": "Function-based executive application",
+  "AccessKey": "et",
+  "DocumentMessage": 479,
+  "Registered": "2018-06-14T23:04:04.8070092+02:00",
+  "RegisteredAssociateId": 691,
+  "Updated": "2008-04-28T23:04:04.8070092+02:00",
+  "UpdatedAssociateId": 32,
+  "UpdatedCount": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 28
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

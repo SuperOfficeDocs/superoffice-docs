@@ -99,33 +99,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 21 Sep 1997 13:57:18 G9T
+Last-Modified: Tue, 14 Dec 1999 23:04:04 G12T
 
 {
-  "SourceContactId": 432,
-  "SourcePersonId": 662,
-  "DestinationContactId": 565,
-  "DestinationPersonId": 83,
-  "RelationId": 223,
-  "Comment": "nihil",
-  "RelationDefinitionId": 728,
-  "Reversed": 910,
-  "UpdatedDate": "1997-09-21T13:57:18.6846845+02:00",
-  "CreatedDate": "2009-10-17T13:57:18.6846845+02:00",
+  "SourceContactId": 785,
+  "SourcePersonId": 248,
+  "DestinationContactId": 658,
+  "DestinationPersonId": 231,
+  "RelationId": 800,
+  "Comment": "reiciendis",
+  "RelationDefinitionId": 350,
+  "Reversed": 509,
+  "UpdatedDate": "1999-12-14T23:04:04.0585213+01:00",
+  "CreatedDate": "2018-08-01T23:04:04.0585213+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Cassin, Kuhic and Wilderman",
-  "SourcePersonName": "Durgan Inc and Sons",
-  "DestinationContactName": "Ullrich, Blanda and Schumm",
-  "DestinationPersonName": "Schulist Inc and Sons",
-  "ActiveText": "assumenda",
-  "PassiveText": "corrupti",
+  "SourceContactName": "Gottlieb-Bayer",
+  "SourcePersonName": "Koepp-DuBuque",
+  "DestinationContactName": "McLaughlin LLC",
+  "DestinationPersonName": "Runolfsson Group",
+  "ActiveText": "sunt",
+  "PassiveText": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 744
     }
   },
   "_Links": {

@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=834
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=844
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 693,
+  "DocumentId": 639,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "velit",
-  "Name": "Farrell-Lemke",
-  "OurRef": "vero",
-  "YourRef": "ut",
-  "CreatedDate": "2012-08-26T13:57:12.1373695+02:00",
-  "UpdatedDate": "2002-12-02T13:57:12.1373695+01:00",
-  "Description": "Multi-layered logistical parallelism",
+  "Attention": "vero",
+  "Header": "ea",
+  "Name": "Kunze LLC",
+  "OurRef": "dolor",
+  "YourRef": "dolor",
+  "CreatedDate": "2014-12-05T23:03:55.7401322+01:00",
+  "UpdatedDate": "2014-08-13T23:03:55.7401322+02:00",
+  "Description": "Profit-focused mobile standardization",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-01-21T13:57:12.1373695+01:00",
-  "ExternalRef": "voluptate",
+  "Date": "2008-03-07T23:03:55.7436332+01:00",
+  "ExternalRef": "error",
   "Completed": "Completed",
-  "ActiveLinks": 71,
+  "ActiveLinks": 107,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Borer, Walker and Hegmann",
-      "Id": 652,
-      "Description": "Stand-alone bifurcated focus group",
-      "ExtraInfo": "sed",
-      "LinkId": 471,
+      "EntityName": "Hegmann, Reilly and Pacocha",
+      "Id": 729,
+      "Description": "Centralized interactive synergy",
+      "ExtraInfo": "esse",
+      "LinkId": 713,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldLength": 641
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 95,
-  "Snum": 819,
+  "SuggestedDocumentId": 43,
+  "Snum": 456,
   "UserDefinedFields": {
-    "SuperOffice:1": "Demetrius Heathcote",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Reynold Pouros",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "similique",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "non"
+    "CustomFields1": "architecto",
+    "CustomFields2": "quaerat"
   },
-  "PublishEventDate": "2001-10-10T13:57:12.1373695+02:00",
-  "PublishTo": "2018-03-04T13:57:12.1373695+01:00",
-  "PublishFrom": "2007-10-21T13:57:12.1373695+02:00",
+  "PublishEventDate": "2001-12-21T23:03:55.7446336+01:00",
+  "PublishTo": "2002-05-15T23:03:55.7446336+02:00",
+  "PublishFrom": "2017-11-02T23:03:55.7446336+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 983,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 574
         }
       }
     },
     {
-      "VisibleId": 983,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 574
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

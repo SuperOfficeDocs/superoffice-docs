@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 981,
-    "Name": "Bergnaum-Kreiger",
-    "Tooltip": "et",
+    "HeadingId": 2,
+    "Name": "McClure-Jacobson",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 535,
-    "UdListDefinitionId": 157,
+    "Rank": 328,
+    "UdListDefinitionId": 442,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldLength": 665
       }
     }
   }

@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 987,
-  "MinDate": "2019-04-26T13:57:12.2311227+02:00",
-  "MaxDate": "2003-04-18T13:57:12.2311227+02:00",
+  "DocumentPluginId": 486,
+  "MinDate": "1999-08-19T23:03:55.8606304+02:00",
+  "MaxDate": "1999-12-13T23:03:55.8606304+01:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 746,
-  "NumDocumentsAlreadyMigrated": 508,
+  "NumDocumentsOmitted": 436,
+  "NumDocumentsAlreadyMigrated": 445,
   "Documents": [
     {
-      "DocumentId": 709,
-      "ContactId": 650,
-      "PersonId": 794,
-      "SaleId": 407,
-      "ProjectId": 474,
-      "DocTmplId": 81,
-      "AssociateId": 649,
-      "UserGroupId": 989,
-      "VisibleForId": 482
+      "DocumentId": 511,
+      "ContactId": 892,
+      "PersonId": 859,
+      "SaleId": 87,
+      "ProjectId": 74,
+      "DocTmplId": 606,
+      "AssociateId": 446,
+      "UserGroupId": 563,
+      "VisibleForId": 795
     }
   ],
   "Associates": [
     {
-      "AssociateId": 448,
-      "EmailAddress": "ronaldo@toy.co.uk"
+      "AssociateId": 323,
+      "EmailAddress": "harmon@kuphallebsack.com"
     },
     {
-      "AssociateId": 448,
-      "EmailAddress": "ronaldo@toy.co.uk"
+      "AssociateId": 323,
+      "EmailAddress": "harmon@kuphallebsack.com"
     }
   ]
 }

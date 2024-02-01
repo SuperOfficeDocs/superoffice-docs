@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 658,
+  "DocumentTemplateId": 678,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "optio",
-  "PluginId": 322
+  "LanguageCode": "voluptatem",
+  "PluginId": 75
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lehner, Borer and Kovacek",
-  "Description": "Configurable heuristic circuit",
-  "ExternalReference": "at",
-  "MimeType": "eaque",
-  "PluginId": 581
+  "Name": "Eichmann-DuBuque",
+  "Description": "Secured static software",
+  "ExternalReference": "provident",
+  "MimeType": "ut",
+  "PluginId": 789
 }
 ```

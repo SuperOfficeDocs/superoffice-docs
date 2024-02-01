@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Reinger LLC",
-    "ToolTip": "Sit commodi.",
+    "Id": 53,
+    "Name": "Schaefer Group",
+    "ToolTip": "Enim repellendus eveniet est perspiciatis placeat quae et.",
     "Deleted": false,
-    "Rank": 648,
-    "Type": "quisquam",
+    "Rank": 841,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Hammes-Kuvalis",
-        "ToolTip": "Rerum et.",
+        "Id": 40,
+        "Name": "Crist Group",
+        "ToolTip": "Ipsam quasi minus.",
         "Deleted": false,
-        "Rank": 385,
-        "Type": "dolor",
+        "Rank": 531,
+        "Type": "minima",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
+        "IconHint": "fugiat",
         "ColorBlock": 727,
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatem",
-        "FullName": "Rene Raynor",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "at",
+        "FullName": "Rosario O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 259
+            "FieldLength": 47
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 112,
-    "ExtraInfo": "iure",
-    "StyleHint": "et",
-    "FullName": "Miguel Dayne Runte IV",
+    "IconHint": "quisquam",
+    "ColorBlock": 36,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "itaque",
+    "FullName": "Brian Jefferey Christiansen I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 197
       }
     }
   }

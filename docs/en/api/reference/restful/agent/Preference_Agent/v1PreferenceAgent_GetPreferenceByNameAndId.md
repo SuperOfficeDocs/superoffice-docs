@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "eius",
-  "PrefKey": "est",
+  "PrefSection": "sint",
+  "PrefKey": "consequatur",
   "PrefLevel": "Database",
-  "OwnerId": 989
+  "OwnerId": 906
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "velit",
+  "RawValue": "qui",
   "Specification": null,
-  "DisplayValue": "nostrum",
-  "DisplayTooltip": "et",
+  "DisplayValue": "aperiam",
+  "DisplayTooltip": "porro",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 822,
-  "PrefDescId": 833,
-  "TableName": "Goodwin, Kutch and Heller",
-  "UserPreferenceId": 733,
+  "TargetId": 150,
+  "PrefDescId": 194,
+  "TableName": "Hauck-Schulist",
+  "UserPreferenceId": 666,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldLength": 961
     }
   }
 }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Blick, Stanton and Torphy",
-  "TypicalSearchId": 491
+  "EntityName": "Hirthe Inc and Sons",
+  "TypicalSearchId": 903
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nitzsche Group",
-  "SelectionId": 26,
-  "CanSaveAsSelection": true,
-  "MainHeading": "id",
-  "FilterScreenHeading": "voluptate",
-  "SelectionEntityHeading": "illum",
+  "ProviderName": "Miller LLC",
+  "SelectionId": 571,
+  "CanSaveAsSelection": false,
+  "MainHeading": "et",
+  "FilterScreenHeading": "omnis",
+  "SelectionEntityHeading": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   }
 }

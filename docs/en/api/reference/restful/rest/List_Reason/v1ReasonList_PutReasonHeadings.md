@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Hagenes, Powlowski and Windler",
-    "Tooltip": "ratione",
+    "HeadingId": 115,
+    "Name": "McCullough, Hane and Bauch",
+    "Tooltip": "animi",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 464
+    "Rank": 139,
+    "UdListDefinitionId": 747
   },
   {
-    "HeadingId": 985,
-    "Name": "Hagenes, Powlowski and Windler",
-    "Tooltip": "ratione",
+    "HeadingId": 115,
+    "Name": "McCullough, Hane and Bauch",
+    "Tooltip": "animi",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 464
+    "Rank": 139,
+    "UdListDefinitionId": 747
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 225,
-    "Name": "Hansen LLC",
-    "Tooltip": "possimus",
+    "HeadingId": 785,
+    "Name": "Bernier Group",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 322,
-    "UdListDefinitionId": 943,
+    "Rank": 794,
+    "UdListDefinitionId": 501,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldType": "System.Int32",
+        "FieldLength": 122
       }
     }
   }

@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kertzmann, Keeling and Brakus",
-  "ProviderName": "Kohler Group",
-  "Context": "hic",
-  "OwnerKeys": "magnam",
+  "GuiName": "Wintheiser Inc and Sons",
+  "ProviderName": "Crist LLC",
+  "Context": "non",
+  "OwnerKeys": "eos",
   "Entities": [
-    "aut",
-    "odit"
+    "dolores",
+    "nemo"
   ]
 }
 ```

@@ -83,11 +83,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Johnson-Ebert",
-    "Borer-Kautzer"
+    "Lindgren Group",
+    "Wolf, Ondricka and Waelchi"
   ],
-  "Culture": "quis",
-  "ActiveOnly": false
+  "Culture": "ab",
+  "ActiveOnly": true
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Murazik, Hauck and Greenholt",
-    "ResourceValue": "animi",
-    "Culture": "aspernatur",
+    "ResourceName": "Wilkinson-Friesen",
+    "ResourceValue": "modi",
+    "Culture": "in",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldType": "System.String",
+        "FieldLength": 797
       }
     }
   },
   {
-    "ResourceName": "Murazik, Hauck and Greenholt",
-    "ResourceValue": "animi",
-    "Culture": "aspernatur",
+    "ResourceName": "Wilkinson-Friesen",
+    "ResourceValue": "modi",
+    "Culture": "in",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldType": "System.String",
+        "FieldLength": 797
       }
     }
   }

@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wisozk, Heaney and Reinger",
-  "ProviderName": "Lehner Group",
+  "GuiName": "Shanahan-O'Hara",
+  "ProviderName": "Kuvalis, Hahn and Kreiger",
   "ChosenColumns": [
-    "aut",
-    "sed"
+    "vitae",
+    "doloremque"
   ]
 }
 ```

@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 92,
-    "Name": "Larkin Inc and Sons",
+    "TicketStatusId": 242,
+    "Name": "Kuhic-Dare",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
     "IsDefault": true,
-    "UsedInQueue": true,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 810
       }
     }
   }

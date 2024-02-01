@@ -67,7 +67,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Morar, McKenzie and Lubowitz",
-    "DisplayName": "Schuppe, Herzog and Fritsch",
-    "Description": "Ameliorated multimedia knowledge base",
-    "ShortLabel": "hic",
+    "FieldName": "Mayer, Treutel and Rath",
+    "DisplayName": "Beatty Inc and Sons",
+    "Description": "Profound empowering local area network",
+    "ShortLabel": "fuga",
     "HideLabel": true,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 406,
-    "TemplateVariableName": "Collier-Bauch"
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "Rank": 450,
+    "TemplateVariableName": "Kiehn Group"
   }
 ]
 ```

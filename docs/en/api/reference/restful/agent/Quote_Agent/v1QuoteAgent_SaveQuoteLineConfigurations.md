@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 393,
-      "FieldName": "Rutherford Group",
-      "Label": "earum",
-      "Tooltip": "quisquam",
+      "QuoteLineConfigurationId": 239,
+      "FieldName": "Berge-Carter",
+      "Label": "voluptatum",
+      "Tooltip": "consequuntur",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 406,
+      "Rank": 126,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 206,
-    "FieldName": "Rosenbaum, Rippin and Lockman",
-    "Label": "voluptas",
-    "Tooltip": "tempora",
+    "QuoteLineConfigurationId": 519,
+    "FieldName": "Braun, Rolfson and Zulauf",
+    "Label": "maiores",
+    "Tooltip": "aspernatur",
     "Editable": false,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": true,
-    "Rank": 322,
+    "Rank": 159,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 133
+        "FieldLength": 236
       }
     }
   }

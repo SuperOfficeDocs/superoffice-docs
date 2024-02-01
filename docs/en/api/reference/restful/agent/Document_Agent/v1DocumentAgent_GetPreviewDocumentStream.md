@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 236
+  "DocumentId": 347
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cole-Daugherty",
-  "Type": "velit",
-  "Size": 724,
+  "Name": "Mohr, Smith and Bogisich",
+  "Type": "aliquam",
+  "Size": 841,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldLength": 103
     }
   }
 }

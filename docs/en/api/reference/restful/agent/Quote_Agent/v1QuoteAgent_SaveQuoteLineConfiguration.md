@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 767,
-  "FieldName": "Hand LLC",
-  "Label": "cupiditate",
-  "Tooltip": "sed",
+  "QuoteLineConfigurationId": 139,
+  "FieldName": "McClure, Brakus and O'Reilly",
+  "Label": "quae",
+  "Tooltip": "ut",
   "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 175,
+  "Rank": 441,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   }
 }

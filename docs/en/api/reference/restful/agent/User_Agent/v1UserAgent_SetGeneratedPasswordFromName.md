@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/User/SetGeneratedPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "O'Keefe, Franecki and Beatty"
+  "AssociateName": "Leuschke Group"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Moen, Sauer and Johnson"
+"Toy, Kilback and Braun"
 ```

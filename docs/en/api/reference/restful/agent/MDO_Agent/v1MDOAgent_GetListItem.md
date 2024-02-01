@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Sawayn-White",
-  "Id": 735
+  "ListName": "O'Conner-Zieme",
+  "Id": 980
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 988,
-  "Name": "Hackett-Medhurst",
-  "ToolTip": "Fugiat cupiditate perspiciatis.",
-  "Deleted": true,
-  "Rank": 475,
-  "Type": "aut",
+  "Id": 905,
+  "Name": "Frami LLC",
+  "ToolTip": "Quas id rerum qui natus et.",
+  "Deleted": false,
+  "Rank": 582,
+  "Type": "omnis",
   "ChildItems": [
     {
-      "Id": 476,
-      "Name": "Grant-Ledner",
-      "ToolTip": "Sint totam qui.",
-      "Deleted": false,
-      "Rank": 558,
-      "Type": "dolorem",
+      "Id": 117,
+      "Name": "Rohan, VonRueden and Beatty",
+      "ToolTip": "Dolores ex consequuntur nisi optio.",
+      "Deleted": true,
+      "Rank": 996,
+      "Type": "dolor",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quod",
-      "ColorBlock": 104,
-      "ExtraInfo": "tempore",
-      "StyleHint": "quisquam",
-      "FullName": "Shannon Batz DVM",
+      "IconHint": "iste",
+      "ColorBlock": 592,
+      "ExtraInfo": "facere",
+      "StyleHint": "optio",
+      "FullName": "Andreanne Rogahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldType": "System.String",
+          "FieldLength": 637
         }
       }
     }
   ],
-  "IconHint": "incidunt",
-  "ColorBlock": 57,
-  "ExtraInfo": "eius",
-  "StyleHint": "saepe",
-  "FullName": "Ashleigh Haley",
+  "IconHint": "ex",
+  "ColorBlock": 783,
+  "ExtraInfo": "qui",
+  "StyleHint": "officia",
+  "FullName": "Maia Beer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 400
     }
   }
 }

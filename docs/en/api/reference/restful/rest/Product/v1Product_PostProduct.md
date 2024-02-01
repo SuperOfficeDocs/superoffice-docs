@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 503,
-  "ERPProductKey": "dolorem",
-  "ERPPriceListKey": "sint",
-  "Name": "Mayer, Medhurst and Lesch",
-  "Description": "Adaptive fresh-thinking paradigm",
-  "Code": "ut",
-  "PriceUnit": "quam",
-  "QuantityUnit": "libero",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptas",
-  "DefaultSubscriptionQuantity": 14168.814,
-  "ItemNumber": "405439",
+  "ProductId": 484,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "iusto",
+  "Name": "Lehner, Dare and Farrell",
+  "Description": "Exclusive asynchronous focus group",
+  "Code": "optio",
+  "PriceUnit": "qui",
+  "QuantityUnit": "unde",
+  "IsSubscription": false,
+  "SubscriptionUnit": "iure",
+  "DefaultSubscriptionQuantity": 23821.534,
+  "ItemNumber": "688549",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "neque",
-  "ProductTypeKey": "beatae",
-  "VAT": 7775.454,
-  "VATInfo": "praesentium",
-  "UnitCost": 7239.54,
-  "UnitMinimumPrice": 16447.232,
-  "UnitListPrice": 31267.917999999998,
+  "ProductFamilyKey": "laboriosam",
+  "ProductTypeKey": "repellat",
+  "VAT": 8809.6739999999991,
+  "VATInfo": "odio",
+  "UnitCost": 28347.03,
+  "UnitMinimumPrice": 5553.4479999999994,
+  "UnitListPrice": 24467.138,
   "InAssortment": false,
-  "Supplier": "incidunt",
-  "SupplierCode": "quod",
-  "Rights": "quis",
-  "Rule": "nemo",
+  "Supplier": "dolorem",
+  "SupplierCode": "deleniti",
+  "Rights": "in",
+  "Rule": "quos",
   "ExtraInfo": [
     {
-      "Name": "Herzog LLC",
-      "Value": "reprehenderit",
+      "Name": "Blanda, Dare and McClure",
+      "Value": "numquam",
       "Type": "Image"
     },
     {
-      "Name": "Herzog LLC",
-      "Value": "reprehenderit",
+      "Name": "Blanda, Dare and McClure",
+      "Value": "numquam",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "repudiandae",
-  "ExtraField1": "ut",
-  "ExtraField2": "molestiae",
-  "ExtraField3": "maiores",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "ipsam",
-  "InStock": 10125.954
+  "RawExtraInfo": "odit",
+  "ExtraField1": "velit",
+  "ExtraField2": "eligendi",
+  "ExtraField3": "quo",
+  "ExtraField4": "ullam",
+  "ExtraField5": "maiores",
+  "InStock": 11335.678
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 976,
-  "ERPProductKey": "error",
-  "ERPPriceListKey": "laudantium",
-  "Name": "Friesen, Lockman and DuBuque",
-  "Description": "Compatible scalable paradigm",
-  "Code": "magnam",
-  "PriceUnit": "molestiae",
-  "QuantityUnit": "odio",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sint",
-  "DefaultSubscriptionQuantity": 4870.236,
-  "ItemNumber": "968322",
+  "ProductId": 498,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "quod",
+  "Name": "Greenholt LLC",
+  "Description": "Profound background emulation",
+  "Code": "voluptatem",
+  "PriceUnit": "minima",
+  "QuantityUnit": "velit",
+  "IsSubscription": true,
+  "SubscriptionUnit": "occaecati",
+  "DefaultSubscriptionQuantity": 6766.306,
+  "ItemNumber": "858577",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "asperiores",
-  "ProductTypeKey": "et",
-  "VAT": 15485.094,
-  "VATInfo": "velit",
-  "UnitCost": 20029.394,
-  "UnitMinimumPrice": 31261.649999999998,
-  "UnitListPrice": 5741.4879999999994,
-  "InAssortment": false,
-  "Supplier": "consequatur",
-  "SupplierCode": "nostrum",
-  "Rights": "rerum",
-  "Rule": "maiores",
+  "ProductFamilyKey": "tenetur",
+  "ProductTypeKey": "ipsum",
+  "VAT": 28281.216,
+  "VATInfo": "aut",
+  "UnitCost": 7465.188,
+  "UnitMinimumPrice": 24727.26,
+  "UnitListPrice": 17403.102,
+  "InAssortment": true,
+  "Supplier": "aliquam",
+  "SupplierCode": "minima",
+  "Rights": "necessitatibus",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Dickens-Braun",
-      "Value": "neque",
+      "Name": "Bogan LLC",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 324
         }
       }
     },
     {
-      "Name": "Dickens-Braun",
-      "Value": "neque",
+      "Name": "Bogan LLC",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 324
         }
       }
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "quia",
-  "ExtraField2": "rerum",
-  "ExtraField3": "molestias",
-  "ExtraField4": "quia",
-  "ExtraField5": "praesentium",
-  "InStock": 5707.014,
+  "RawExtraInfo": "et",
+  "ExtraField1": "beatae",
+  "ExtraField2": "deserunt",
+  "ExtraField3": "maxime",
+  "ExtraField4": "et",
+  "ExtraField5": "similique",
+  "InStock": 25943.252,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 494
     }
   }
 }

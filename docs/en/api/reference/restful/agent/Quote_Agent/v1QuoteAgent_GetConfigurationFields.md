@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 154,
-  "ConnectorName": "Borer-Raynor"
+  "ConnectionId": 844,
+  "ConnectorName": "Schmidt, Ward and Simonis"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "et",
-    "Rank": 659,
-    "DisplayName": "Douglas Group",
-    "DisplayDescription": "Managed intangible throughput",
+    "FieldKey": "temporibus",
+    "Rank": 994,
+    "DisplayName": "Littel-Osinski",
+    "DisplayDescription": "Mandatory dedicated hub",
     "FieldType": "Checkbox",
-    "ListName": "Dooley, Paucek and O'Kon",
-    "DefaultValue": "quasi",
-    "MaxLength": 247,
+    "ListName": "O'Connell Inc and Sons",
+    "DefaultValue": "voluptatem",
+    "MaxLength": 152,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

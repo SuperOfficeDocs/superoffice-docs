@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Streich-Sauer"
+  "ConnectorName": "McGlynn Group"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 624,
-  "ERPName": "Friesen, Corkery and Pacocha",
-  "DisplayName": "Klocko-Hansen",
-  "DisplayDescription": "Exclusive mobile functionalities",
-  "Rank": 88,
-  "ConnectorName": "Predovic LLC",
-  "ErpConnectionId": 940,
-  "ExtraData": "error",
-  "IsAvailable": false,
+  "QuoteConnectionId": 640,
+  "ERPName": "Stamm, Mosciski and Bruen",
+  "DisplayName": "Roob-Muller",
+  "DisplayDescription": "Inverse 24 hour secured line",
+  "Rank": 817,
+  "ConnectorName": "Gerhold LLC",
+  "ErpConnectionId": 554,
+  "ExtraData": "expedita",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 36,
-      "ERPPriceListKey": "tempora",
-      "QuoteConnectionId": 523,
-      "Name": "Davis LLC",
-      "Description": "Visionary eco-centric superstructure",
-      "Currency": "minima",
-      "CurrencyName": "Bergnaum Group",
-      "ValidFrom": "2012-12-23T13:57:13.064942+01:00",
-      "ValidTo": "2019-06-13T13:57:13.064942+02:00",
+      "PriceListId": 948,
+      "ERPPriceListKey": "rem",
+      "QuoteConnectionId": 691,
+      "Name": "Christiansen, Sporer and Kovacek",
+      "Description": "Versatile maximized monitoring",
+      "Currency": "dicta",
+      "CurrencyName": "Rutherford LLC",
+      "ValidFrom": "2005-05-16T23:03:56.7766201+02:00",
+      "ValidTo": "2017-11-17T23:03:56.7766201+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 332
+          "FieldType": "System.Int32",
+          "FieldLength": 891
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    964,
-    219
+    215,
+    597
   ],
   "AssociateAccessIds": [
-    554,
-    421
+    581,
+    679
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 804
     }
   }
 }

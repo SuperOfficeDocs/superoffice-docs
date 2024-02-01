@@ -26,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=171
+POST /api/v1/Agents/Associate/GetAssociate?associateId=995
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 991,
-  "Name": "Kozey Inc and Sons",
-  "PersonId": 444,
-  "Rank": 981,
-  "Tooltip": "eius",
+  "AssociateId": 198,
+  "Name": "Vandervort LLC",
+  "PersonId": 583,
+  "Rank": 947,
+  "Tooltip": "dolor",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 862,
-  "FullName": "Dahlia Howe",
-  "FormalName": "DuBuque, Goodwin and Brown",
+  "GroupIdx": 505,
+  "FullName": "Arielle Bergstrom DDS",
+  "FormalName": "Nitzsche, Lesch and Botsford",
   "Deleted": false,
-  "EjUserId": 875,
-  "UserName": "Veum, Okuneva and Block",
+  "EjUserId": 709,
+  "UserName": "Murray-Sawayn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 229
+      "FieldType": "System.Int32",
+      "FieldLength": 365
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 948,
-    "Name": "Cormier Group",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 809,
-    "UdListDefinitionId": 802,
+    "HeadingId": 66,
+    "Name": "Kris, Schinner and Graham",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 207,
+    "UdListDefinitionId": 948,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 751
       }
     }
   }

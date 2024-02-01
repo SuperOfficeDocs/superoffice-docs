@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=dignissimos
+GET /api/v1/List/ConsentSource/MDOItems?query=culpa
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "Waelchi, Hamill and Barrows",
-    "ToolTip": "Quae est.",
-    "Deleted": true,
-    "Rank": 416,
+    "Id": 185,
+    "Name": "Wisoky-Mitchell",
+    "ToolTip": "Omnis exercitationem.",
+    "Deleted": false,
+    "Rank": 157,
     "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Torp-Kulas",
-        "ToolTip": "Est placeat.",
+        "Id": 956,
+        "Name": "Huels-Kutch",
+        "ToolTip": "Temporibus debitis eum quod quisquam.",
         "Deleted": false,
-        "Rank": 489,
-        "Type": "delectus",
+        "Rank": 926,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellendus",
-        "ColorBlock": 774,
-        "ExtraInfo": "eligendi",
-        "StyleHint": "nihil",
-        "FullName": "Mrs. Deja Jerrell Klein",
+        "IconHint": "sequi",
+        "ColorBlock": 986,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "dignissimos",
+        "FullName": "Mr. Jammie Palma Torp II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 666
+            "FieldLength": 432
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 669,
-    "ExtraInfo": "a",
-    "StyleHint": "voluptatum",
-    "FullName": "Dorris Bogan",
+    "IconHint": "id",
+    "ColorBlock": 973,
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "quis",
+    "FullName": "Gino Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldLength": 465
       }
     }
   }

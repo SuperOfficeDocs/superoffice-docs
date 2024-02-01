@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 995,
-  "Name": "Reilly-Bartoletti",
-  "AssociateId": 545,
-  "DetailsTable": 215,
-  "DetailsRecord": 525,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 184,
+  "Name": "Bartoletti-Grimes",
+  "AssociateId": 795,
+  "DetailsTable": 153,
+  "DetailsRecord": 379,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "temporibus",
-    "ParameterObject2": "modi"
+    "ParameterObject1": "ex",
+    "ParameterObject2": "eos"
   },
-  "LastStarted": "2007-04-02T13:57:19.4221461+02:00",
-  "Created": "2023-09-05T13:57:19.4221461+02:00",
-  "StartCount": 724,
-  "DatabaseSerialNumber": "1291953",
-  "Context": "corporis",
-  "Result": "ullam",
+  "LastStarted": "2018-10-21T23:04:05.0090095+02:00",
+  "Created": "2015-01-17T23:04:05.0090095+01:00",
+  "StartCount": 238,
+  "DatabaseSerialNumber": "725556",
+  "Context": "adipisci",
+  "Result": "cumque",
   "State": "All",
-  "Description": "Sharable methodical hub",
-  "Response": "tempora",
-  "Request": "sunt",
-  "ProgressDescription": "Virtual holistic hierarchy",
-  "ProgressPercent": 459,
-  "FileName": "Parker, Kovacek and Buckridge",
+  "Description": "Integrated reciprocal time-frame",
+  "Response": "voluptatum",
+  "Request": "et",
+  "ProgressDescription": "Monitored 24/7 budgetary management",
+  "ProgressPercent": 727,
+  "FileName": "Mann LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 221
     }
   }
 }

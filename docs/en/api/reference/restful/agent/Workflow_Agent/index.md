@@ -34,6 +34,12 @@ generated: true
 
 * [POST Agents/Workflow/DeleteWorkflowTrigger](v1WorkflowAgent_DeleteWorkflowTrigger.md)
 
+* [POST Agents/Workflow/CreateDefaultWorkflowWaitForAction](v1WorkflowAgent_CreateDefaultWorkflowWaitForAction.md)
+
+* [POST Agents/Workflow/SaveWorkflowWaitForAction](v1WorkflowAgent_SaveWorkflowWaitForAction.md)
+
+* [POST Agents/Workflow/DeleteWorkflowWaitForAction](v1WorkflowAgent_DeleteWorkflowWaitForAction.md)
+
 * [POST Agents/Workflow/GetEmailFlow](v1WorkflowAgent_GetEmailFlow.md)
 
 * [POST Agents/Workflow/TryAddPersonsToEmailFlow](v1WorkflowAgent_TryAddPersonsToEmailFlow.md)
@@ -63,3 +69,5 @@ generated: true
 * [POST Agents/Workflow/GetWorkflowStepOption](v1WorkflowAgent_GetWorkflowStepOption.md)
 
 * [POST Agents/Workflow/GetWorkflowTrigger](v1WorkflowAgent_GetWorkflowTrigger.md)
+
+* [POST Agents/Workflow/GetWorkflowWaitForAction](v1WorkflowAgent_GetWorkflowWaitForAction.md)

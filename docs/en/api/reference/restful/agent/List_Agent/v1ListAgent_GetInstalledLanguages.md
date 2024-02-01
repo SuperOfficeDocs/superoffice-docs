@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 635,
-    "LCID": 289,
-    "EnglishName": "Lynch-Bednar",
-    "NativeName": "Padberg-Eichmann",
-    "ThreeLetterISOLanguageName": "Pfeffer, Jones and Glover",
-    "TwoLetterISOLanguageName": "Halvorson Group",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 577,
+    "LCID": 160,
+    "EnglishName": "Armstrong Group",
+    "NativeName": "Beier Group",
+    "ThreeLetterISOLanguageName": "Zulauf Inc and Sons",
+    "TwoLetterISOLanguageName": "Ortiz Inc and Sons",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 245
       }
     }
   }

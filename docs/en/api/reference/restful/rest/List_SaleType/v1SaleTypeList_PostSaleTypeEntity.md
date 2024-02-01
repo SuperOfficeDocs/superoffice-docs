@@ -111,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 106,
-  "Name": "Abernathy, Tillman and Wyman",
-  "Tooltip": "sit",
-  "Rank": 39,
+  "SaleTypeId": 2,
+  "Name": "Goyette-Hessel",
+  "Tooltip": "ut",
+  "Rank": 974,
   "DurationUnit": "Century",
-  "SaleDuration": 149,
-  "SaleTypeCatId": 199,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 444,
+  "SaleTypeCatId": 607,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 374,
-  "QuoteLinesTemplate": 673,
-  "ConfirmationLinesTemplate": 481,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 760,
+  "QuoteLinesTemplate": 617,
+  "ConfirmationLinesTemplate": 213,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 38,
-  "MinEarningPercent": 829,
-  "GroupQuoteLinesBy": 679,
-  "SortGroupLinesBy": 932,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 476,
+  "MinEarningPercent": 848,
+  "GroupQuoteLinesBy": 619,
+  "SortGroupLinesBy": 486,
   "Stages": [
     {
-      "Id": 937,
-      "Name": "Schumm LLC",
-      "ToolTip": "Voluptas vitae odit officia dicta quis.",
+      "Id": 94,
+      "Name": "Zemlak LLC",
+      "ToolTip": "Et est quis deleniti.",
       "Deleted": false,
-      "Rank": 85,
-      "Type": "at",
-      "ColorBlock": 833,
-      "IconHint": "nihil",
-      "Selected": true,
-      "LastChanged": "2013-12-27T13:57:20.1109105+01:00",
+      "Rank": 151,
+      "Type": "pariatur",
+      "ColorBlock": 16,
+      "IconHint": "sequi",
+      "Selected": false,
+      "LastChanged": "2006-10-19T23:04:05.792497+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Ms. Ashly Toy V"
+      "ExtraInfo": "quod",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Winston Thiel"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 720,
-  "Name": "Bogan, Heathcote and Grimes",
-  "Tooltip": "consequuntur",
-  "Rank": 792,
+  "SaleTypeId": 658,
+  "Name": "Corwin-Stiedemann",
+  "Tooltip": "praesentium",
+  "Rank": 736,
   "DurationUnit": "Century",
-  "SaleDuration": 827,
-  "SaleTypeCatId": 639,
-  "Deleted": true,
+  "SaleDuration": 174,
+  "SaleTypeCatId": 728,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 423,
-  "QuoteLinesTemplate": 324,
-  "ConfirmationLinesTemplate": 488,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 636,
+  "QuoteLinesTemplate": 50,
+  "ConfirmationLinesTemplate": 443,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 489,
-  "MinEarningPercent": 562,
-  "GroupQuoteLinesBy": 500,
-  "SortGroupLinesBy": 953,
+  "MaxDiscountPercent": 991,
+  "MinEarningPercent": 94,
+  "GroupQuoteLinesBy": 876,
+  "SortGroupLinesBy": 853,
   "Stages": [
     {
-      "Id": 465,
-      "Name": "Smith, Macejkovic and Balistreri",
-      "ToolTip": "Voluptatem minima sint cumque dicta nobis recusandae alias.",
+      "Id": 957,
+      "Name": "Goyette, Greenfelder and Hansen",
+      "ToolTip": "In et.",
       "Deleted": false,
-      "Rank": 374,
-      "Type": "et",
-      "ColorBlock": 833,
-      "IconHint": "quia",
-      "Selected": false,
-      "LastChanged": "2014-03-26T13:57:20.1109105+01:00",
+      "Rank": 512,
+      "Type": "a",
+      "ColorBlock": 484,
+      "IconHint": "illo",
+      "Selected": true,
+      "LastChanged": "2008-04-04T23:04:05.793499+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "dolorem",
+      "ExtraInfo": "id",
+      "StyleHint": "deserunt",
       "Hidden": false,
-      "FullName": "Clarabelle Johan Hartmann II",
+      "FullName": "Dr. Einar Anderson Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 877
+          "FieldLength": 828
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldType": "System.String",
+      "FieldLength": 820
     }
   }
 }

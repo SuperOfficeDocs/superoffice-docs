@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-04-06T13:57:13.1288062+02:00",
-  "Amount": 11805.778,
-  "SaleId": 794,
-  "Earning": 2381.84,
-  "EarningPercent": 23950.028,
-  "Heading": "totam",
-  "Number": "1421038",
-  "Probability": 882,
-  "CreatedDate": "2001-07-23T13:57:13.1288062+02:00",
-  "UpdatedDate": "2000-12-21T13:57:13.1288062+01:00",
+  "Saledate": "1998-05-27T23:03:56.8641173+02:00",
+  "Amount": 8834.746,
+  "SaleId": 92,
+  "Earning": 15425.547999999999,
+  "EarningPercent": 27911.404,
+  "Heading": "vel",
+  "Number": "811402",
+  "Probability": 843,
+  "CreatedDate": "2004-08-13T23:03:56.8641173+02:00",
+  "UpdatedDate": "1999-11-23T23:03:56.8641173+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 279,
+  "ActiveLinks": 213,
   "Links": [
     {
-      "EntityName": "Simonis Inc and Sons",
-      "Id": 625,
-      "Description": "Managed value-added customer loyalty",
-      "ExtraInfo": "aperiam",
-      "LinkId": 239,
+      "EntityName": "Rosenbaum Group",
+      "Id": 50,
+      "Description": "Right-sized context-sensitive Graphical User Interface",
+      "ExtraInfo": "est",
+      "LinkId": 694,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 316
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2009-11-05T23:03:56.8641173+01:00",
+  "Postit": "tenetur",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "1999-12-06T23:03:56.8641173+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Hilpert, Lemke and Hand",
+      "Comment": "sapiente",
+      "StakeholderRoleId": 92,
+      "CountryId": 649,
+      "PersonId": 644,
+      "EmailDescription": "coy@prohaskamcglynn.name",
+      "EmailId": 9,
+      "EmailAddress": "frederic.cole@zboncak.us",
+      "PhoneId": 608,
+      "ContactName": "Gottlieb, Ortiz and Barton",
+      "ContactId": 113,
+      "SaleId": 828,
+      "Mrmrs": "modi",
+      "Firstname": "Susie",
+      "MiddleName": "Hilll, Volkman and Stehr",
+      "Lastname": "Gottlieb",
+      "SaleStakeholderId": 474,
+      "Rank": 996,
+      "Phone": "(300)840-3433",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldLength": 795
         }
       }
     }
   ],
-  "NextDueDate": "2003-05-12T13:57:13.1288062+02:00",
-  "Postit": "reiciendis",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2003-05-28T13:57:13.1288062+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Muller-Lubowitz",
-      "Comment": "perspiciatis",
-      "StakeholderRoleId": 516,
-      "CountryId": 45,
-      "PersonId": 448,
-      "EmailDescription": "oma@hodkiewicznader.info",
-      "EmailId": 32,
-      "EmailAddress": "cassandra.kilback@leuschke.us",
-      "PhoneId": 536,
-      "ContactName": "Torp, Dare and Bechtelar",
-      "ContactId": 281,
-      "SaleId": 404,
-      "Mrmrs": "rerum",
-      "Firstname": "Hipolito",
-      "MiddleName": "Schimmel, Gerlach and Nolan",
-      "Lastname": "Jerde",
-      "SaleStakeholderId": 808,
-      "Rank": 865,
-      "Phone": "151-524-0111 x96715",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 988
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 623,
+  "ActiveErpLinks": 802,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lee Kuvalis I",
-    "SuperOffice:2": "Mrs. Lon Zoie Lind"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Adalberto Harris"
   },
   "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "et"
+    "CustomFields1": "iusto",
+    "CustomFields2": "cumque"
   },
-  "PublishEventDate": "1999-11-25T13:57:13.1288062+01:00",
-  "PublishTo": "2002-11-05T13:57:13.1288062+01:00",
-  "PublishFrom": "1998-11-08T13:57:13.1288062+01:00",
+  "PublishEventDate": "2013-07-05T23:03:56.8651168+02:00",
+  "PublishTo": "2008-09-11T23:03:56.8651168+02:00",
+  "PublishFrom": "2006-06-16T23:03:56.8651168+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 852,
+      "VisibleId": 534,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldLength": 917
         }
       }
     },
     {
-      "VisibleId": 852,
+      "VisibleId": 534,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldLength": 917
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 166
     }
   }
 }

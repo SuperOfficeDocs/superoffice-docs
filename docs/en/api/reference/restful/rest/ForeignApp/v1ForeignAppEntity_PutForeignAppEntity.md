@@ -96,23 +96,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 900,
-  "Name": "Kuphal, Heathcote and Corkery",
-  "CreatedDate": "2017-03-01T13:57:18.8109737+01:00",
-  "UpdatedDate": "2003-03-17T13:57:18.8109737+01:00",
+  "ForeignAppId": 307,
+  "Name": "Fritsch-Dicki",
+  "CreatedDate": "2010-05-24T23:04:04.2130169+02:00",
+  "UpdatedDate": "2005-03-01T23:04:04.2130169+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 717,
-      "Name": "Brakus-Medhurst",
-      "CreatedDate": "2001-01-19T13:57:18.8109737+01:00",
-      "UpdatedDate": "2004-11-12T13:57:18.8109737+01:00",
-      "AssociateFullName": "Mrs. Jayda Ellis Dickens II",
-      "CreatedBy": "deserunt",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "doloremque",
-      "ForeignAppId": 222
+      "ForeignDeviceId": 568,
+      "Name": "Russel, Walter and Rosenbaum",
+      "CreatedDate": "2020-10-29T23:04:04.2135167+01:00",
+      "UpdatedDate": "2000-11-14T23:04:04.2135167+01:00",
+      "AssociateFullName": "Wendy Witting IV",
+      "CreatedBy": "quasi",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 945
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 297,
-  "Name": "Dibbert-Rippin",
-  "CreatedDate": "2000-10-02T13:57:18.8109737+02:00",
-  "UpdatedDate": "2000-01-03T13:57:18.8109737+01:00",
+  "ForeignAppId": 568,
+  "Name": "Hagenes Inc and Sons",
+  "CreatedDate": "1998-12-25T23:04:04.2150196+01:00",
+  "UpdatedDate": "2020-01-26T23:04:04.2150196+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 259,
-      "Name": "Gutkowski-Mills",
-      "CreatedDate": "2007-12-17T13:57:18.8109737+01:00",
-      "UpdatedDate": "2005-07-11T13:57:18.8109737+02:00",
-      "AssociateFullName": "Mrs. Jade Eli Frami",
-      "CreatedBy": "saepe",
-      "UpdatedBy": "quibusdam",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 871,
+      "ForeignDeviceId": 4,
+      "Name": "Schmidt LLC",
+      "CreatedDate": "2006-02-02T23:04:04.2155169+01:00",
+      "UpdatedDate": "2019-09-13T23:04:04.2155169+02:00",
+      "AssociateFullName": "Dr. Arnulfo Anderson Goyette",
+      "CreatedBy": "quo",
+      "UpdatedBy": "doloribus",
+      "DeviceIdentifier": "dolor",
+      "ForeignAppId": 408,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   },
   "_Links": {

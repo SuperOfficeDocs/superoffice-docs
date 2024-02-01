@@ -97,36 +97,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 777,
+  "HierarchyId": 355,
   "Domain": "Dashboards",
-  "Name": "Gottlieb-Kuphal",
-  "Fullname": "commodi",
-  "ParentId": 560,
+  "Name": "Gutmann Inc and Sons",
+  "Fullname": "qui",
+  "ParentId": 404,
   "Children": [
     {
-      "HierarchyId": 605,
+      "HierarchyId": 966,
       "Domain": "Dashboards",
-      "Name": "Ward, Jast and Brakus",
-      "Fullname": "praesentium",
-      "ParentId": 9,
+      "Name": "Fritsch Inc and Sons",
+      "Fullname": "enim",
+      "ParentId": 512,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-12-09T13:57:18.8265985+01:00",
-      "RegisteredAssociateId": 251,
-      "Updated": "2009-08-05T13:57:18.8265985+02:00",
-      "UpdatedAssociateId": 620
+      "Registered": "2003-09-18T23:04:04.2345175+02:00",
+      "RegisteredAssociateId": 126,
+      "Updated": "2014-07-26T23:04:04.2345175+02:00",
+      "UpdatedAssociateId": 855
     }
   ],
-  "Registered": "2005-07-21T13:57:18.8265985+02:00",
-  "RegisteredAssociateId": 995,
-  "Updated": "1998-03-28T13:57:18.8265985+01:00",
-  "UpdatedAssociateId": 955
+  "Registered": "2002-05-17T23:04:04.2345175+02:00",
+  "RegisteredAssociateId": 659,
+  "Updated": "2023-11-23T23:04:04.2345175+01:00",
+  "UpdatedAssociateId": 781
 }
 ```
 
@@ -137,46 +137,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 760,
+  "HierarchyId": 76,
   "Domain": "Dashboards",
-  "Name": "Turcotte, Kuhlman and Stamm",
-  "Fullname": "temporibus",
-  "ParentId": 9,
+  "Name": "Price, Ebert and Mitchell",
+  "Fullname": "vel",
+  "ParentId": 885,
   "Children": [
     {
-      "HierarchyId": 472,
+      "HierarchyId": 484,
       "Domain": "Dashboards",
-      "Name": "Halvorson Inc and Sons",
-      "Fullname": "eum",
-      "ParentId": 966,
+      "Name": "Renner Group",
+      "Fullname": "incidunt",
+      "ParentId": 304,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-05-16T13:57:18.8265985+02:00",
-      "RegisteredAssociateId": 137,
-      "Updated": "2013-05-31T13:57:18.8265985+02:00",
-      "UpdatedAssociateId": 352,
+      "Registered": "2008-09-05T23:04:04.2350171+02:00",
+      "RegisteredAssociateId": 7,
+      "Updated": "2009-03-22T23:04:04.2350171+01:00",
+      "UpdatedAssociateId": 939,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 514
+          "FieldType": "System.Int32",
+          "FieldLength": 383
         }
       }
     }
   ],
-  "Registered": "2005-10-11T13:57:18.8265985+02:00",
-  "RegisteredAssociateId": 89,
-  "Updated": "2013-09-25T13:57:18.8265985+02:00",
-  "UpdatedAssociateId": 609,
+  "Registered": "2020-08-16T23:04:04.2350171+02:00",
+  "RegisteredAssociateId": 896,
+  "Updated": "1998-09-16T23:04:04.2350171+02:00",
+  "UpdatedAssociateId": 396,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   },
   "_Links": {

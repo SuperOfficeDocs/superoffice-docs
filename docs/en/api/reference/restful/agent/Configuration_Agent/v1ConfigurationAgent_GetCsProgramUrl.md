@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "nobis",
-  "ProgramName": "Kunde Inc and Sons",
-  "Action": "earum",
-  "ExtraParameters": "natus"
+  "Language": "commodi",
+  "ProgramName": "Considine-Erdman",
+  "Action": "rerum",
+  "ExtraParameters": "rerum"
 }
 ```
 

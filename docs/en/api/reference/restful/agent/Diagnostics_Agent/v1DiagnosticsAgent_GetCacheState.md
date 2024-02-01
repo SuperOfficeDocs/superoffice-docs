@@ -75,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Kuhlman Inc and Sons",
-    "Volkman Inc and Sons"
+    "Mueller, Kilback and Langosh",
+    "Bergstrom-Weissnat"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"repellendus"
 ```

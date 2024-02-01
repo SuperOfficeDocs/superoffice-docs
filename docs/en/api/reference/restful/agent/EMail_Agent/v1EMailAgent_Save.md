@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 206,
-      "ContactName": "Braun, Kirlin and Bode",
-      "PersonId": 381,
-      "PersonName": "Moore LLC",
-      "AssociateId": 984,
-      "Address": "earum",
-      "EmailId": 642,
+      "ContactId": 471,
+      "ContactName": "Maggio-Cole",
+      "PersonId": 837,
+      "PersonName": "Dach, Trantow and Harber",
+      "AssociateId": 348,
+      "Address": "non",
+      "EmailId": 63,
       "DuplicatePersonIds": [
-        34,
-        386
+        444,
+        104
       ],
-      "Name": "Ebert, Ruecker and Koch",
+      "Name": "Windler-Dibbert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldType": "System.Int32",
+          "FieldLength": 941
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 931,
-      "ContactName": "Carroll, Deckow and Torp",
-      "PersonId": 780,
-      "PersonName": "Marks, Pfeffer and Yost",
-      "AssociateId": 949,
-      "Address": "optio",
-      "EmailId": 86,
+      "ContactId": 672,
+      "ContactName": "Gulgowski Inc and Sons",
+      "PersonId": 187,
+      "PersonName": "Daniel Inc and Sons",
+      "AssociateId": 221,
+      "Address": "consequatur",
+      "EmailId": 137,
       "DuplicatePersonIds": [
-        353,
-        633
+        974,
+        726
       ],
-      "Name": "Rath Inc and Sons",
+      "Name": "Hilpert LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 264
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 493,
-      "ContactName": "Runolfsdottir, Gulgowski and Hegmann",
-      "PersonId": 659,
-      "PersonName": "Crist-Aufderhar",
-      "AssociateId": 99,
-      "Address": "dicta",
-      "EmailId": 654,
+      "ContactId": 863,
+      "ContactName": "Bashirian, Yost and Sporer",
+      "PersonId": 512,
+      "PersonName": "Cormier-Batz",
+      "AssociateId": 514,
+      "Address": "quia",
+      "EmailId": 414,
       "DuplicatePersonIds": [
-        348,
-        725
+        14,
+        610
       ],
-      "Name": "Fadel Inc and Sons",
+      "Name": "Dickinson Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldType": "System.String",
+          "FieldLength": 548
         }
       }
     }
   ],
-  "Subject": "voluptatem",
-  "HTMLBody": "facilis",
+  "Subject": "suscipit",
+  "HTMLBody": "quia",
   "From": null,
-  "Sent": "2014-01-22T13:57:12.2311227+01:00",
-  "Size": 405,
+  "Sent": "2012-06-16T23:03:55.8656308+02:00",
+  "Size": 397,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "in",
-  "PlainBody": "blanditiis",
+  "MessageID": "quaerat",
+  "PlainBody": "sunt",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 260,
+  "ServerId": 716,
   "Attachments": [
     {
-      "Description": "Enterprise-wide directional initiative",
+      "Description": "Quality-focused foreground architecture",
       "Filename": "est",
-      "Size": 227,
-      "Type": "velit",
-      "Encoding": "ut",
-      "Id": "laborum",
-      "Disposition": "quia",
+      "Size": 389,
+      "Type": "qui",
+      "Encoding": "ea",
+      "Id": "nihil",
+      "Disposition": "laudantium",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldType": "System.String",
+          "FieldLength": 511
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Waters, Langworth and Balistreri",
+      "Name": "Hahn-Dooley",
       "Values": [
-        "quaerat",
-        "reiciendis"
+        "et",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldLength": 748
         }
       }
     },
     {
-      "Name": "Waters, Langworth and Balistreri",
+      "Name": "Hahn-Dooley",
       "Values": [
-        "quaerat",
-        "reiciendis"
+        "et",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldLength": 748
         }
       }
     }
   ],
-  "FolderName": "Bauch-Friesen",
-  "EmailItemId": 558,
-  "AccountId": 849,
-  "ReceivedAt": "2022-04-27T13:57:12.2311227+02:00",
+  "FolderName": "McLaughlin, Heaney and Schuster",
+  "EmailItemId": 568,
+  "AccountId": 216,
+  "ReceivedAt": "2018-05-03T23:03:55.8661317+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-06-20T13:57:12.2311227+02:00",
+  "RepliedAt": "2002-02-06T23:03:55.8661317+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 143
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Brakus, Konopelski and Keeling",
-    "ToolTip": "Iure veritatis vitae excepturi enim voluptatibus iste.",
+    "Id": 644,
+    "Name": "Glover-Nitzsche",
+    "ToolTip": "Repudiandae qui.",
     "Deleted": true,
-    "Rank": 177,
-    "Type": "alias",
-    "ColorBlock": 874,
-    "IconHint": "sed",
+    "Rank": 994,
+    "Type": "qui",
+    "ColorBlock": 680,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2004-08-15T13:57:20.1421596+02:00",
+    "LastChanged": "2010-06-18T23:04:05.9659932+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Lubowitz-Schmidt",
-        "ToolTip": "Et aut.",
+        "Id": 383,
+        "Name": "Johnson, Heller and Macejkovic",
+        "ToolTip": "Sapiente tempora dicta rerum.",
         "Deleted": false,
-        "Rank": 25,
-        "Type": "laborum",
-        "ColorBlock": 677,
-        "IconHint": "quidem",
+        "Rank": 743,
+        "Type": "laboriosam",
+        "ColorBlock": 775,
+        "IconHint": "quas",
         "Selected": true,
-        "LastChanged": "2011-06-06T13:57:20.1421596+02:00",
+        "LastChanged": "2016-03-10T23:04:05.9659932+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "qui",
+        "ExtraInfo": "quo",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Prof. Nelson Wilkinson",
+        "FullName": "Jimmie Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldLength": 596
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "minus",
+    "ExtraInfo": "facere",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Dayton Hellen Lesch Jr.",
+    "FullName": "Meaghan Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 257
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 645,
-  "TopicId": 824,
+  "ChatSessionId": 322,
+  "TopicId": 709,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eaque",
-  "CustomerHost": "iusto",
-  "CustomerName": "Hintz-Ryan",
-  "CustomerEmail": "arthur_crona@roob.info",
-  "CustomerPhone": "416.263.3204 x03935",
+  "CustomerAlias": "ducimus",
+  "CustomerHost": "eius",
+  "CustomerName": "Feest-Schiller",
+  "CustomerEmail": "aditya@kuhicyundt.biz",
+  "CustomerPhone": "1-221-763-1718 x7813",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bernier, Raynor and Littel",
+  "CustomerCompanyName": "Tillman Group",
   "Status": "Closed",
-  "FirstMessage": "cumque",
-  "LastMessage": "voluptate",
-  "WhenRequested": "2011-11-14T13:57:11.590683+01:00",
-  "WhenStarted": "2018-06-22T13:57:11.590683+02:00",
-  "WhenEnded": "1998-03-20T13:57:11.590683+01:00",
-  "WhenIdle": "2011-05-14T13:57:11.590683+02:00",
-  "WhenFetched": "2006-01-19T13:57:11.590683+01:00",
-  "SessionKey": "quia",
-  "InitialQueuePos": 911,
-  "AlertLevel": 147,
-  "Rank": 140,
+  "FirstMessage": "at",
+  "LastMessage": "perferendis",
+  "WhenRequested": "2001-07-25T23:03:55.0661411+02:00",
+  "WhenStarted": "2001-12-03T23:03:55.0661411+01:00",
+  "WhenEnded": "2000-06-21T23:03:55.0661411+02:00",
+  "WhenIdle": "2013-04-27T23:03:55.0661411+02:00",
+  "WhenFetched": "1997-08-28T23:03:55.0661411+02:00",
+  "SessionKey": "odit",
+  "InitialQueuePos": 86,
+  "AlertLevel": 824,
+  "Rank": 733,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 364,
+  "Rating": 154,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldType": "System.String",
+      "FieldLength": 884
     }
   }
 }

@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 789,
-  "ERPProductKey": "voluptas",
-  "ERPPriceListKey": "sint",
-  "Name": "Rosenbaum Group",
-  "Description": "Down-sized encompassing function",
-  "Code": "voluptates",
-  "PriceUnit": "eius",
-  "QuantityUnit": "voluptate",
+  "ProductId": 637,
+  "ERPProductKey": "id",
+  "ERPPriceListKey": "aspernatur",
+  "Name": "Weimann LLC",
+  "Description": "Exclusive tangible success",
+  "Code": "ut",
+  "PriceUnit": "temporibus",
+  "QuantityUnit": "consequuntur",
   "IsSubscription": false,
-  "SubscriptionUnit": "quos",
-  "DefaultSubscriptionQuantity": 20922.584,
-  "ItemNumber": "1737549",
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 29409.456,
+  "ItemNumber": "1133736",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "neque",
-  "ProductTypeKey": "delectus",
-  "VAT": 21430.291999999998,
-  "VATInfo": "amet",
-  "UnitCost": 28256.144,
-  "UnitMinimumPrice": 19888.363999999998,
-  "UnitListPrice": 9787.482,
-  "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "hic",
-  "Rights": "enim",
-  "Rule": "est",
+  "ProductFamilyKey": "recusandae",
+  "ProductTypeKey": "animi",
+  "VAT": 15387.939999999999,
+  "VATInfo": "voluptate",
+  "UnitCost": 31070.476,
+  "UnitMinimumPrice": 20088.94,
+  "UnitListPrice": 27801.714,
+  "InAssortment": true,
+  "Supplier": "asperiores",
+  "SupplierCode": "dolores",
+  "Rights": "cum",
+  "Rule": "id",
   "ExtraInfo": [
     {
-      "Name": "Smith, Lubowitz and Farrell",
-      "Value": "ut",
+      "Name": "Hane, Brown and D'Amore",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 756
+          "FieldType": "System.Int32",
+          "FieldLength": 915
         }
       }
     },
     {
-      "Name": "Smith, Lubowitz and Farrell",
-      "Value": "ut",
+      "Name": "Hane, Brown and D'Amore",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 756
+          "FieldType": "System.Int32",
+          "FieldLength": 915
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "ipsam",
-  "ExtraField3": "enim",
-  "ExtraField4": "temporibus",
-  "ExtraField5": "et",
-  "InStock": 16487.974,
+  "RawExtraInfo": "distinctio",
+  "ExtraField1": "expedita",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "molestias",
+  "ExtraField4": "dolor",
+  "ExtraField5": "voluptatum",
+  "InStock": 13620.364,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 762
     }
   }
 }

@@ -73,63 +73,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wyman-Emard",
-    "Description": "Versatile impactful task-force",
-    "Rank": 488,
+    "Name": "Jacobi Inc and Sons",
+    "Description": "Synchronised human-resource encoding",
+    "Rank": 147,
     "Restrictions": [
       {
-        "Name": "Bergstrom, Mosciski and Doyle",
-        "Operator": "voluptas",
+        "Name": "Wiza Group",
+        "Operator": "sint",
         "Values": [
-          "quaerat",
-          "repellat"
+          "nesciunt",
+          "error"
         ],
         "DisplayValues": [
-          "incidunt",
-          "dolores"
+          "quisquam",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 681,
+        "InterParenthesis": 607,
         "InterOperator": "And",
-        "UniqueHash": 733
+        "UniqueHash": 363
       }
     ]
   },
   {
-    "Name": "Wyman-Emard",
-    "Description": "Versatile impactful task-force",
-    "Rank": 488,
+    "Name": "Jacobi Inc and Sons",
+    "Description": "Synchronised human-resource encoding",
+    "Rank": 147,
     "Restrictions": [
       {
-        "Name": "Bergstrom, Mosciski and Doyle",
-        "Operator": "voluptas",
+        "Name": "Wiza Group",
+        "Operator": "sint",
         "Values": [
-          "quaerat",
-          "repellat"
+          "nesciunt",
+          "error"
         ],
         "DisplayValues": [
-          "incidunt",
-          "dolores"
+          "quisquam",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 681,
+        "InterParenthesis": 607,
         "InterOperator": "And",
-        "UniqueHash": 733
+        "UniqueHash": 363
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rippin LLC",
-    "Description": "Balanced incremental middleware",
-    "Rank": 895,
+    "Name": "Schowalter-Ondricka",
+    "Description": "Organized next generation conglomeration",
+    "Rank": 663,
     "Restrictions": [
       {
-        "Name": "Corkery, Schiller and Terry",
-        "Operator": "dolor",
+        "Name": "Brekke Inc and Sons",
+        "Operator": "explicabo",
         "Values": [
-          "vero",
-          "quibusdam"
+          "veniam",
+          "nisi"
         ],
         "DisplayValues": [
-          "suscipit",
-          "dolores"
+          "aliquid",
+          "nemo"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 581,
+        "InterParenthesis": 938,
         "InterOperator": "And",
-        "UniqueHash": 664
+        "UniqueHash": 877
       }
     ]
   },
   {
-    "Name": "Rippin LLC",
-    "Description": "Balanced incremental middleware",
-    "Rank": 895,
+    "Name": "Schowalter-Ondricka",
+    "Description": "Organized next generation conglomeration",
+    "Rank": 663,
     "Restrictions": [
       {
-        "Name": "Corkery, Schiller and Terry",
-        "Operator": "dolor",
+        "Name": "Brekke Inc and Sons",
+        "Operator": "explicabo",
         "Values": [
-          "vero",
-          "quibusdam"
+          "veniam",
+          "nisi"
         ],
         "DisplayValues": [
-          "suscipit",
-          "dolores"
+          "aliquid",
+          "nemo"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 581,
+        "InterParenthesis": 938,
         "InterOperator": "And",
-        "UniqueHash": 664
+        "UniqueHash": 877
       }
     ]
   }

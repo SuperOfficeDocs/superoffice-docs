@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 705,
-  "AssociateId": 546,
-  "Comment": "exercitationem"
+  "QuoteVersionId": 338,
+  "AssociateId": 478,
+  "Comment": "esse"
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "porro",
-  "TechExplanation": "cumque",
-  "ErrorCode": "deleniti",
+  "IsOk": false,
+  "UserExplanation": "sit",
+  "TechExplanation": "perferendis",
+  "ErrorCode": "beatae",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 775,
-  "ParentId": 490,
-  "Name": "Douglas LLC",
-  "Fullname": "odio",
-  "CategoryMaster": 303,
+  "TicketCategoryId": 522,
+  "ParentId": 841,
+  "Name": "Parisian, Bins and Rodriguez",
+  "Fullname": "ut",
+  "CategoryMaster": 527,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wiza-Stracke",
+  "ExternalName": "Stroman, Veum and Cole",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 819,
-  "ReplyTemplate": 685,
-  "NotificationEmail": "kirstin@ullrich.com",
+  "AssignmentLag": 517,
+  "ReplyTemplate": 598,
+  "NotificationEmail": "stephon@darekiehn.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 1001,
+  "EffectiveReplyTemplateId": 438,
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "rem"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "distinctio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 942
     }
   }
 }

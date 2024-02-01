@@ -71,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kutch Group",
+  "ProviderName": "Lesch LLC",
   "Restrictions": [
     {
-      "Name": "Jast Inc and Sons",
-      "Operator": "omnis",
+      "Name": "Bechtelar, Reilly and Schowalter",
+      "Operator": "molestiae",
       "Values": [
-        "alias",
-        "laudantium"
+        "id",
+        "saepe"
       ],
       "DisplayValues": [
-        "quod",
-        "est"
+        "eos",
+        "reiciendis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 896,
+      "InterParenthesis": 761,
       "InterOperator": "And",
-      "UniqueHash": 168
+      "UniqueHash": 551
     }
   ],
-  "AssociateId": 256,
-  "ExtraInfo": "rem"
+  "AssociateId": 932,
+  "ExtraInfo": "id"
 }
 ```
 

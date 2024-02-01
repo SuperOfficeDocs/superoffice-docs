@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 149,
-  "Name": "Ward, Wunsch and Friesen",
+  "ScreenChooserId": 919,
+  "Name": "Schuster LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "saepe",
-  "Source": "laudantium",
-  "Registered": "2016-09-16T13:57:11.9967528+02:00",
-  "RegisteredAssociateId": 833,
-  "Updated": "1999-05-14T13:57:11.9967528+02:00",
-  "UpdatedAssociateId": 263
+  "Enabled": false,
+  "UniqueIdentifier": "natus",
+  "Source": "est",
+  "Registered": "2014-12-19T23:03:55.5716368+01:00",
+  "RegisteredAssociateId": 434,
+  "Updated": "2011-11-10T23:03:55.5716368+01:00",
+  "UpdatedAssociateId": 783
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 535,
-  "Name": "Reinger Inc and Sons",
+  "ScreenChooserId": 207,
+  "Name": "Bradtke LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "recusandae",
-  "Source": "voluptate",
-  "Registered": "1998-05-27T13:57:11.9967528+02:00",
-  "RegisteredAssociateId": 829,
-  "Updated": "2010-08-16T13:57:11.9967528+02:00",
-  "UpdatedAssociateId": 459,
+  "Enabled": true,
+  "UniqueIdentifier": "quibusdam",
+  "Source": "aliquam",
+  "Registered": "2005-12-16T23:03:55.5721347+01:00",
+  "RegisteredAssociateId": 846,
+  "Updated": "1997-11-23T23:03:55.5721347+01:00",
+  "UpdatedAssociateId": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 282
     }
   }
 }

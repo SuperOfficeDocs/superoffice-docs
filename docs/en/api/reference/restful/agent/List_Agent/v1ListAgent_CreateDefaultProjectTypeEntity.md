@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 955,
-  "Name": "Reilly, Stiedemann and Kautzer",
-  "Tooltip": "maiores",
-  "Rank": 874,
+  "ProjTypeId": 650,
+  "Name": "Hudson Inc and Sons",
+  "Tooltip": "quas",
+  "Rank": 445,
   "DurationUnit": "Century",
-  "ProjectDuration": 739,
-  "Deleted": true,
+  "ProjectDuration": 389,
+  "Deleted": false,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 211,
-      "Name": "Christiansen, Rodriguez and Kuphal",
-      "ToolTip": "Omnis rerum voluptate eum labore.",
+      "Id": 727,
+      "Name": "Goyette Inc and Sons",
+      "ToolTip": "Quo qui voluptas est consequatur.",
       "Deleted": false,
-      "Rank": 782,
-      "Type": "dolore",
-      "ColorBlock": 620,
-      "IconHint": "et",
+      "Rank": 50,
+      "Type": "aliquam",
+      "ColorBlock": 833,
+      "IconHint": "voluptatem",
       "Selected": false,
-      "LastChanged": "2001-02-17T13:57:12.575585+01:00",
+      "LastChanged": "2012-06-13T23:03:56.2906265+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "unde",
-      "StyleHint": "qui",
+      "ExtraInfo": "aut",
+      "StyleHint": "delectus",
       "Hidden": true,
-      "FullName": "Lurline Dario O'Reilly MD",
+      "FullName": "Tatyana Shanahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 642
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldType": "System.String",
+      "FieldLength": 679
     }
   }
 }

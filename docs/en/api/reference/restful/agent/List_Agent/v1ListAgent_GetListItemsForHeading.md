@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 194,
-  "HeadingId": 59
+  "UdListDefinitionId": 411,
+  "HeadingId": 567
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Balistreri, Krajcik and Cummings",
-    "ToolTip": "Minima pariatur quidem iure in necessitatibus facere.",
-    "Deleted": false,
-    "Rank": 758,
-    "Type": "sed",
-    "ColorBlock": 20,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2009-08-10T13:57:12.5286589+02:00",
+    "Id": 97,
+    "Name": "Predovic Group",
+    "ToolTip": "Et odit tempore sunt repudiandae culpa perspiciatis temporibus.",
+    "Deleted": true,
+    "Rank": 318,
+    "Type": "et",
+    "ColorBlock": 233,
+    "IconHint": "libero",
+    "Selected": false,
+    "LastChanged": "2009-07-27T23:03:56.2271254+02:00",
     "ChildItems": [
       {
-        "Id": 422,
-        "Name": "Bayer-O'Connell",
-        "ToolTip": "Architecto nulla omnis.",
-        "Deleted": false,
-        "Rank": 637,
-        "Type": "voluptatum",
-        "ColorBlock": 161,
-        "IconHint": "atque",
+        "Id": 181,
+        "Name": "Kuvalis-Lebsack",
+        "ToolTip": "Quae facilis dolorem incidunt deserunt fugit unde dolorum.",
+        "Deleted": true,
+        "Rank": 877,
+        "Type": "nostrum",
+        "ColorBlock": 487,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2021-11-25T13:57:12.5286589+01:00",
+        "LastChanged": "2019-11-16T23:03:56.2276236+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Ova Breitenberg",
+        "FullName": "Francisca Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 35
+            "FieldLength": 913
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "iste",
+    "ExtraInfo": "quia",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mr. Derick McGlynn I",
+    "FullName": "Kristian Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 744
+        "FieldLength": 508
       }
     }
   }

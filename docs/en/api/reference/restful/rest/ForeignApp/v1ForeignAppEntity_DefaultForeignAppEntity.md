@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 04 Apr 2018 13:57:18 G4T
+Last-Modified: Sun, 19 Sep 2021 23:04:04 G9T
 
 {
-  "ForeignAppId": 576,
-  "Name": "Pagac, Farrell and Johnson",
-  "CreatedDate": "2000-12-26T13:57:18.7953465+01:00",
-  "UpdatedDate": "2018-04-04T13:57:18.7953465+02:00",
+  "ForeignAppId": 499,
+  "Name": "Medhurst-Gibson",
+  "CreatedDate": "2004-06-08T23:04:04.2030166+02:00",
+  "UpdatedDate": "2021-09-19T23:04:04.2030166+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 581,
-      "Name": "Lowe, Herman and Gibson",
-      "CreatedDate": "2012-04-18T13:57:18.7953465+02:00",
-      "UpdatedDate": "1997-08-12T13:57:18.7953465+02:00",
-      "AssociateFullName": "Brandon Schimmel IV",
-      "CreatedBy": "repellendus",
-      "UpdatedBy": "rerum",
-      "DeviceIdentifier": "nam",
-      "ForeignAppId": 354,
+      "ForeignDeviceId": 584,
+      "Name": "Reynolds, Mante and Crona",
+      "CreatedDate": "2022-05-02T23:04:04.2035183+02:00",
+      "UpdatedDate": "2017-03-26T23:04:04.2035183+02:00",
+      "AssociateFullName": "Virgil Kilback",
+      "CreatedBy": "non",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "minus",
+      "ForeignAppId": 535,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 979
+          "FieldType": "System.Int32",
+          "FieldLength": 108
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Wed, 04 Apr 2018 13:57:18 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 672
     }
   }
 }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 707,
-  "Name": "Zboncak Inc and Sons",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "Rank": 231,
-  "IsCustomList": true,
+  "Id": 810,
+  "Name": "Wolf-O'Connell",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 436,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minima",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "praesentium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 300,
-  "Name": "Dickinson-Klocko",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 188,
+  "Id": 334,
+  "Name": "Hoeger LLC",
+  "Tooltip": "iste",
+  "Deleted": false,
+  "Rank": 597,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
+      "FieldType": "System.Int32",
+      "FieldLength": 993
     }
   }
 }

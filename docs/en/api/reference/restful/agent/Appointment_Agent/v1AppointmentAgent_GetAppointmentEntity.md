@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=302
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=869
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-02-24T13:57:11.3094384+01:00",
-  "AppointmentId": 943,
-  "Description": "Exclusive national database",
-  "Title": "non",
-  "Agenda": "velit",
-  "InternalNotes": "illum",
-  "StartDate": "2011-10-30T13:57:11.3094384+01:00",
-  "EndDate": "1999-08-17T13:57:11.3094384+02:00",
+  "CreatedDate": "2019-01-15T23:03:54.6871465+01:00",
+  "AppointmentId": 633,
+  "Description": "Reverse-engineered zero administration ability",
+  "Title": "dicta",
+  "Agenda": "dolores",
+  "InternalNotes": "enim",
+  "StartDate": "2005-08-19T23:03:54.6876472+02:00",
+  "EndDate": "2004-05-24T23:03:54.6876472+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 337,
+  "MotherId": 137,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-12-23T13:57:11.3094384+01:00",
+  "UpdatedDate": "2013-07-30T23:03:54.6901472+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 335,
+  "ActiveLinks": 995,
   "Links": [
     {
-      "EntityName": "Bosco-Christiansen",
-      "Id": 602,
-      "Description": "Public-key intangible emulation",
-      "ExtraInfo": "consequatur",
-      "LinkId": 376,
+      "EntityName": "Walsh, Rath and Boyle",
+      "Id": 569,
+      "Description": "Ameliorated encompassing help-desk",
+      "ExtraInfo": "molestiae",
+      "LinkId": 370,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 199
         }
       }
     }
   ],
-  "AlarmLeadTime": "quisquam",
+  "AlarmLeadTime": "fugit",
   "HasAlarm": false,
-  "ColorIndex": 298,
+  "ColorIndex": 665,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "est",
-  "LeadTime": "tempora",
-  "Location": "quos",
-  "RejectCounter": 541,
+  "IsAlldayEvent": true,
+  "LagTime": "cupiditate",
+  "LeadTime": "eveniet",
+  "Location": "illo",
+  "RejectCounter": 329,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 645,
-      "PersonId": 214,
-      "ContactId": 342,
-      "EmailId": 132,
+      "AssociateId": 815,
+      "PersonId": 766,
+      "ContactId": 675,
+      "EmailId": 157,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "quincy_marks@abshiremante.biz",
-      "Description": "Synergistic cohesive array"
+      "EmailAddress": "alanna@cartwright.info",
+      "Description": "Secured zero defect neural-net"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-05-15T13:57:11.3250621+02:00",
+  "ActiveDate": "2020-08-17T23:03:54.6911499+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 963,
+  "PreferredTZLocation": 494,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 345,
+  "SuggestedAppointmentId": 693,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eos",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Jaylen Eliseo Greenholt V",
-    "SuperOffice:2": "776984509"
+    "SuperOffice:1": "Ernie Christiansen",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "enim"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2001-07-16T13:57:11.3250621+02:00",
-  "PublishTo": "1997-08-30T13:57:11.3250621+02:00",
-  "PublishFrom": "2007-03-23T13:57:11.3250621+01:00",
+  "PublishEventDate": "2003-01-06T23:03:54.6926466+01:00",
+  "PublishTo": "2014-04-07T23:03:54.6926466+02:00",
+  "PublishFrom": "2003-02-08T23:03:54.6926466+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 816,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 245
         }
       }
     },
     {
-      "VisibleId": 816,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 245
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 798
     }
   }
 }

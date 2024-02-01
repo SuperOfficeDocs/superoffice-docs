@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 192,
-  "PlainMessage": "molestiae",
-  "HtmlMessage": "ut",
-  "SmsMessage": "repellendus",
-  "Description": "Multi-layered reciprocal open system",
-  "Subject": "quod",
-  "FolderId": 389,
-  "HeaderField": "ex",
-  "Design": "nostrum",
+  "ShipmentMessageId": 882,
+  "PlainMessage": "vel",
+  "HtmlMessage": "quo",
+  "SmsMessage": "nihil",
+  "Description": "Seamless client-server focus group",
+  "Subject": "ad",
+  "FolderId": 201,
+  "HeaderField": "dolor",
+  "Design": "nobis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Proactive dedicated support",
-  "AccessKey": "et",
-  "DocumentMessage": 418,
-  "Registered": "2017-03-20T13:57:12.591212+01:00",
-  "RegisteredAssociateId": 61,
-  "Updated": "2011-07-26T13:57:12.591212+02:00",
-  "UpdatedAssociateId": 970,
-  "UpdatedCount": 987,
+  "InlineImages": true,
+  "LongDescription": "Customer-focused regional portal",
+  "AccessKey": "nobis",
+  "DocumentMessage": 843,
+  "Registered": "2006-10-27T23:03:56.3271223+02:00",
+  "RegisteredAssociateId": 986,
+  "Updated": "2007-08-12T23:03:56.3271223+02:00",
+  "UpdatedAssociateId": 618,
+  "UpdatedCount": 174,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   }
 }

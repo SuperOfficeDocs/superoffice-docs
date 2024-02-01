@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 676,
+  "EjMessageId": 247,
   "Ticket": null,
-  "CreatedAt": "2017-07-26T13:57:13.3333445+02:00",
+  "CreatedAt": "2002-11-25T23:03:57.2631113+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "dicta",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 766,
-  "Body": "maxime",
-  "HtmlBody": "praesentium",
-  "EmailHeader": "lupe_dooley@stehr.com",
-  "DebugInfo": "at",
-  "MailSorter": "exercitationem",
+  "MessageId": "omnis",
+  "TimeSpent": 24,
+  "Body": "corporis",
+  "HtmlBody": "sunt",
+  "EmailHeader": "gail_stoltenberg@kulas.uk",
+  "DebugInfo": "commodi",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nemo",
+  "SearchTitle": "magnam",
   "MessageHeaders": [
     {
-      "Id": 234,
-      "Name": "Jacobi-Romaguera",
-      "Value": "est",
+      "Id": 566,
+      "Name": "Strosin-Marquardt",
+      "Value": "repellendus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 853
+          "FieldLength": 875
         }
       }
     }
   ],
   "Important": false,
-  "Language": "reiciendis",
-  "Sentiment": 427,
-  "SentimentConfidence": 968,
+  "Language": "sed",
+  "Sentiment": 617,
+  "SentimentConfidence": 87,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 518,
-      "Name": "Langosh-Hettinger",
-      "ContentType": "unde",
-      "AttSize": 830,
+      "AttachmentId": 702,
+      "Name": "Hammes-Nolan",
+      "ContentType": "deserunt",
+      "AttSize": 594,
       "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "et",
+      "ContentId": "delectus",
+      "AuthKey": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 97
+          "FieldType": "System.Int32",
+          "FieldLength": 145
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "nobis"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "ipsum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 9
     }
   }
 }

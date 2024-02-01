@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 783,
-  "Name": "O'Reilly, Aufderhar and Schaefer",
+  "ScreenChooserId": 360,
+  "Name": "Corwin-Lindgren",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "velit",
-  "Source": "saepe",
-  "Registered": "2014-10-18T13:57:19.4221461+02:00",
-  "RegisteredAssociateId": 847,
-  "Updated": "1999-04-06T13:57:19.4221461+02:00",
-  "UpdatedAssociateId": 424,
+  "UniqueIdentifier": "nesciunt",
+  "Source": "incidunt",
+  "Registered": "2023-05-09T23:04:04.9930118+02:00",
+  "RegisteredAssociateId": 520,
+  "Updated": "2000-09-07T23:04:04.9930118+02:00",
+  "UpdatedAssociateId": 270,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldLength": 363
     }
   }
 }

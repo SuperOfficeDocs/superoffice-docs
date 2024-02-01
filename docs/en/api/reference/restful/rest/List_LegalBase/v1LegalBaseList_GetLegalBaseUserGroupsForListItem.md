@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Boyle, Koch and Swaniawski",
-    "ToolTip": "Explicabo minima excepturi molestias voluptates ratione impedit praesentium.",
-    "Deleted": false,
-    "Rank": 148,
-    "Type": "illum",
-    "ColorBlock": 511,
-    "IconHint": "modi",
+    "Id": 100,
+    "Name": "Koepp-Batz",
+    "ToolTip": "Ducimus repudiandae perferendis illo magni.",
+    "Deleted": true,
+    "Rank": 315,
+    "Type": "debitis",
+    "ColorBlock": 362,
+    "IconHint": "quisquam",
     "Selected": false,
-    "LastChanged": "2000-07-02T13:57:19.7815186+02:00",
+    "LastChanged": "2006-12-24T23:04:05.4969991+01:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Grimes, Mante and Gulgowski",
-        "ToolTip": "Expedita laboriosam quis.",
-        "Deleted": true,
-        "Rank": 834,
-        "Type": "praesentium",
-        "ColorBlock": 592,
-        "IconHint": "eius",
+        "Id": 905,
+        "Name": "Kozey LLC",
+        "ToolTip": "Quis voluptatum repellendus.",
+        "Deleted": false,
+        "Rank": 281,
+        "Type": "ut",
+        "ColorBlock": 974,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2007-08-14T13:57:19.7815186+02:00",
+        "LastChanged": "2021-02-22T23:04:05.4969991+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "accusamus",
-        "Hidden": false,
-        "FullName": "Raymond Schimmel",
+        "ExtraInfo": "natus",
+        "StyleHint": "laudantium",
+        "Hidden": true,
+        "FullName": "Domenica Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 246
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Dallas Gloria Maggio Sr.",
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Clovis Mohr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 762
       }
     }
   }

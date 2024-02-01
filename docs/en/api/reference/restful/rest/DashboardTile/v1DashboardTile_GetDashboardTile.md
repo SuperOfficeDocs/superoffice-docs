@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 157,
-  "Caption": "repellendus",
-  "Description": "Centralized high-level hub",
-  "ChartName": "Strosin LLC",
-  "ChartId": "placeat",
-  "IsDefault": true,
-  "AssociateId": 95,
-  "GroupId": 934,
-  "SelectionId": 939,
-  "Config": "quae",
+  "DashboardTileId": 254,
+  "Caption": "odio",
+  "Description": "Total responsive open architecture",
+  "ChartName": "Hessel, Sawayn and Feeney",
+  "ChartId": "ullam",
+  "IsDefault": false,
+  "AssociateId": 620,
+  "GroupId": 142,
+  "SelectionId": 630,
+  "Config": "earum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Rolfson, Powlowski and DuBuque",
-      "Description": "Universal system-worthy analyzer",
+      "Name": "Oberbrunner, Spinka and Kautzer",
+      "Description": "Cross-platform multi-tasking superstructure",
       "Type": "Boolean",
-      "ListName": "Maggio-Legros",
+      "ListName": "Anderson-Price",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "modi",
-      "DefaultDataOption": true,
+      "Value": "omnis",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldType": "System.String",
+          "FieldLength": 27
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 972,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "officia",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldLength": 628
         }
       }
     },
     {
-      "VisibleId": 972,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "officia",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldLength": 628
         }
       }
     }
@@ -162,13 +162,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

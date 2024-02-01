@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lueilwitz Inc and Sons",
-  "DeviceName": "Boyer, Douglas and Block",
-  "DeviceIdentifier": "dolorem",
-  "KeyName": "White-Fadel",
-  "TableName": "Hane Group",
-  "RecordId": 263
+  "ApplicationName": "Nitzsche-Raynor",
+  "DeviceName": "Langworth, Jerde and Russel",
+  "DeviceIdentifier": "voluptatem",
+  "KeyName": "Altenwerth, Marquardt and Jones",
+  "TableName": "Boehm-Kessler",
+  "RecordId": 911
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "fuga",
-  "Value": "labore",
-  "RecordId": 731,
-  "CreatedDate": "2021-09-22T13:57:12.4181107+02:00",
-  "UpdatedDate": "2005-01-17T13:57:12.4181107+01:00",
-  "UpdatedBy": "dolore",
-  "CreatedBy": "dignissimos",
-  "TableName": "Haag LLC",
+  "Key": "tempore",
+  "Value": "magni",
+  "RecordId": 264,
+  "CreatedDate": "2020-05-14T23:03:56.1151274+02:00",
+  "UpdatedDate": "2011-05-02T23:03:56.1151274+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "velit",
+  "TableName": "Bechtelar Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 844
     }
   }
 }

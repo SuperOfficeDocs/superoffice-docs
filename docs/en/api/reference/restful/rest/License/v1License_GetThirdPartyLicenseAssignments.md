@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 94,
-    "Tooltip": "praesentium",
+    "Unrestricted": true,
+    "Total": 167,
+    "Tooltip": "ipsa",
     "CanAssign": false,
-    "Free": 229,
-    "InUse": 829,
+    "Free": 887,
+    "InUse": 937,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 378,
-    "Name": "D'Amore LLC",
-    "Description": "Innovative context-sensitive time-frame",
-    "PrerequisiteModuleName": "Schmidt, Davis and Schroeder",
-    "SortOrder": 940,
-    "ExtraFlags": 791,
+    "Assigned": false,
+    "ModuleLicenseId": 113,
+    "Name": "Fahey Inc and Sons",
+    "Description": "Profit-focused leading edge approach",
+    "PrerequisiteModuleName": "Kunze-Corkery",
+    "SortOrder": 544,
+    "ExtraFlags": 851,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 445
+        "FieldType": "System.Int32",
+        "FieldLength": 959
       }
     }
   }

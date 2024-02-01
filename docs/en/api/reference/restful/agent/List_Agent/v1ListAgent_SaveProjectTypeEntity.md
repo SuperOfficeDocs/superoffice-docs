@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 416,
-  "Name": "Collier, Ferry and Parker",
-  "Tooltip": "omnis",
-  "Rank": 599,
+  "ProjTypeId": 117,
+  "Name": "Grady LLC",
+  "Tooltip": "reprehenderit",
+  "Rank": 623,
   "DurationUnit": "Century",
-  "ProjectDuration": 657,
-  "Deleted": true,
-  "HasGuide": false,
+  "ProjectDuration": 645,
+  "Deleted": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 662,
-      "Name": "Cormier, Veum and Jaskolski",
-      "ToolTip": "Eaque qui distinctio voluptates sapiente.",
-      "Deleted": true,
-      "Rank": 587,
-      "Type": "error",
-      "ColorBlock": 384,
-      "IconHint": "error",
+      "Id": 996,
+      "Name": "Quitzon Group",
+      "ToolTip": "Perferendis veritatis dolores numquam ea.",
+      "Deleted": false,
+      "Rank": 258,
+      "Type": "aut",
+      "ColorBlock": 469,
+      "IconHint": "animi",
       "Selected": true,
-      "LastChanged": "2015-07-02T13:57:12.575585+02:00",
+      "LastChanged": "2004-01-03T23:03:56.291125+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quisquam",
-      "StyleHint": "quo",
+      "ExtraInfo": "aliquam",
+      "StyleHint": "sunt",
       "Hidden": true,
-      "FullName": "Prof. Terence Darren Walker"
+      "FullName": "Shawna Bechtelar"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 384,
-  "Name": "Ritchie Inc and Sons",
-  "Tooltip": "earum",
-  "Rank": 493,
+  "ProjTypeId": 565,
+  "Name": "Renner, Schaden and Medhurst",
+  "Tooltip": "sequi",
+  "Rank": 154,
   "DurationUnit": "Century",
-  "ProjectDuration": 780,
-  "Deleted": false,
-  "HasGuide": false,
+  "ProjectDuration": 182,
+  "Deleted": true,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 270,
-      "Name": "Ruecker, King and Emard",
-      "ToolTip": "In optio veniam.",
-      "Deleted": true,
-      "Rank": 191,
-      "Type": "distinctio",
-      "ColorBlock": 540,
-      "IconHint": "non",
+      "Id": 428,
+      "Name": "Shields Inc and Sons",
+      "ToolTip": "Aut voluptate vel asperiores.",
+      "Deleted": false,
+      "Rank": 169,
+      "Type": "quas",
+      "ColorBlock": 136,
+      "IconHint": "alias",
       "Selected": false,
-      "LastChanged": "2003-10-06T13:57:12.575585+02:00",
+      "LastChanged": "2000-06-16T23:03:56.2931246+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quas",
-      "StyleHint": "laboriosam",
+      "ExtraInfo": "eveniet",
+      "StyleHint": "nesciunt",
       "Hidden": false,
-      "FullName": "Marisa Terry",
+      "FullName": "Kyler Kertzmann I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 969
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 423
     }
   }
 }

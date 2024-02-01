@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 532
+  "Count": 164
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kuphal-Crooks",
-    "SaleDate": "2013-11-30T13:57:13.1757129+01:00",
-    "SaleId": 537,
-    "Probability": 234,
-    "Title": "cupiditate",
-    "Amount": 2099.7799999999997,
-    "Currency": "quo",
-    "ProjectName": "Senger Group",
-    "AssociateFullName": "Bobbie Dietrich",
-    "Description": "Integrated discrete moratorium",
+    "ContactName": "Gottlieb, Hintz and Bosco",
+    "SaleDate": "2001-09-17T23:03:56.9206161+02:00",
+    "SaleId": 74,
+    "Probability": 2,
+    "Title": "veniam",
+    "Amount": 3917.5,
+    "Currency": "reiciendis",
+    "ProjectName": "Luettgen Inc and Sons",
+    "AssociateFullName": "Hope Jast",
+    "Description": "Vision-oriented disintermediate internet solution",
     "Status": "Lost",
-    "WeightedAmount": 28469.255999999998,
-    "ProjectId": 175,
-    "EarningPercent": 5001.864,
-    "Earning": 12501.526,
-    "ContactId": 675,
-    "AssociateId": 126,
-    "PersonId": 17,
-    "SaleTypeId": 69,
-    "SaleTypeName": "Hintz Inc and Sons",
-    "PersonFullName": "Miss Demetris Zackary Grant MD",
+    "WeightedAmount": 1767.576,
+    "ProjectId": 586,
+    "EarningPercent": 21486.703999999998,
+    "Earning": 19969.847999999998,
+    "ContactId": 1002,
+    "AssociateId": 208,
+    "PersonId": 797,
+    "SaleTypeId": 976,
+    "SaleTypeName": "Keeling-Johns",
+    "PersonFullName": "Mr. Marianne Darby Sauer",
     "Completed": "Completed",
-    "ActiveErpLinks": 255,
-    "NextDueDate": "2014-05-01T13:57:13.1757129+02:00",
-    "Number": "1488958",
+    "ActiveErpLinks": 68,
+    "NextDueDate": "2001-12-01T23:03:56.921116+01:00",
+    "Number": "1284914",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 543
       }
     }
   }

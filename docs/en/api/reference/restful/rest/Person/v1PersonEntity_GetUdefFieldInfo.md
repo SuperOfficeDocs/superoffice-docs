@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 513,
-  "ColumnId": 901,
-  "FieldDefault": "aut",
-  "FieldHeight": 892,
-  "FieldLabel": "quia",
-  "FieldLeft": 124,
-  "FieldTop": 108,
+  "UDefFieldId": 730,
+  "ColumnId": 463,
+  "FieldDefault": "ut",
+  "FieldHeight": 971,
+  "FieldLabel": "modi",
+  "FieldLeft": 1000,
+  "FieldTop": 716,
   "FieldType": "Checkbox",
-  "FieldWidth": 730,
-  "FormatMask": "illo",
+  "FieldWidth": 555,
+  "FormatMask": "ex",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 60,
-  "LabelLeft": 808,
-  "LabelTop": 853,
-  "LabelWidth": 360,
-  "LastVersionId": 563,
-  "ListTableId": 971,
+  "IsIndexed": false,
+  "LabelHeight": 410,
+  "LabelLeft": 948,
+  "LabelTop": 611,
+  "LabelWidth": 886,
+  "LastVersionId": 458,
+  "ListTableId": 251,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 467,
-  "ProgId": "dolorum",
-  "IsReadOnly": false,
-  "ShortLabel": "fuga",
-  "TabOrder": 124,
-  "TextLength": 642,
-  "Tooltip": "pariatur",
-  "UdefIdentity": 155,
-  "UDListDefinitionId": 948,
+  "Page1LineNo": 752,
+  "ProgId": "hic",
+  "IsReadOnly": true,
+  "ShortLabel": "repellat",
+  "TabOrder": 616,
+  "TextLength": 438,
+  "Tooltip": "eveniet",
+  "UdefIdentity": 112,
+  "UDListDefinitionId": 337,
   "Justification": "Center",
-  "Version": 166,
-  "TemplateVariableName": "Williamson-Bednar",
+  "Version": 951,
+  "TemplateVariableName": "Cronin-Collins",
   "HasBeenPublished": false,
-  "MdoListName": "Prosacco Inc and Sons",
+  "MdoListName": "Ebert Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldLength": 907
     }
   }
 }

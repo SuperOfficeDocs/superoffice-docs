@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hackett LLC",
-  "DeviceName": "Kilback-Robel",
-  "DeviceIdentifier": "architecto",
-  "TableName": "Jaskolski, Fahey and Boyer"
+  "ApplicationName": "Collins-Boehm",
+  "DeviceName": "Crist Inc and Sons",
+  "DeviceIdentifier": "ipsa",
+  "TableName": "Bednar-Stracke"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolorem",
-    "Value": "nemo",
-    "RecordId": 577,
-    "CreatedDate": "2007-02-28T13:57:12.4337359+01:00",
-    "UpdatedDate": "2021-07-25T13:57:12.4337359+02:00",
-    "UpdatedBy": "tenetur",
+    "Key": "in",
+    "Value": "consequatur",
+    "RecordId": 581,
+    "CreatedDate": "1997-08-23T23:03:56.1246277+02:00",
+    "UpdatedDate": "1996-09-18T23:03:56.1246277+02:00",
+    "UpdatedBy": "iure",
     "CreatedBy": "molestiae",
-    "TableName": "Littel, Runolfsdottir and Spencer",
+    "TableName": "Huel LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 604
       }
     }
   }

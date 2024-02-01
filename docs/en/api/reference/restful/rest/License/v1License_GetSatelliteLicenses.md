@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Feil-Blanda",
-    "Description": "Horizontal multi-state hierarchy",
+    "Name": "O'Keefe LLC",
+    "Description": "Ergonomic disintermediate leverage",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 381,
-        "Tooltip": "nobis",
+        "Total": 323,
+        "Tooltip": "impedit",
         "CanAssign": false,
-        "Free": 672,
-        "InUse": 307,
-        "IsHidden": true,
+        "Free": 923,
+        "InUse": 99,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 13,
-        "Name": "Botsford Inc and Sons",
-        "Description": "Devolved multimedia local area network",
-        "PrerequisiteModuleName": "Dach-Schulist",
-        "SortOrder": 626,
-        "ExtraFlags": 664,
+        "ModuleLicenseId": 864,
+        "Name": "Hoeger-Kovacek",
+        "Description": "Right-sized global portal",
+        "PrerequisiteModuleName": "Hand-Dickens",
+        "SortOrder": 427,
+        "ExtraFlags": 998,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 663
+            "FieldType": "System.String",
+            "FieldLength": 274
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 681,
-        "Tooltip": "sed",
+        "Unrestricted": false,
+        "Total": 730,
+        "Tooltip": "dolor",
         "CanAssign": false,
-        "Free": 807,
-        "InUse": 19,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 668,
-        "Name": "Hegmann, Lakin and Kunde",
-        "Description": "Business-focused homogeneous contingency",
-        "PrerequisiteModuleName": "Hyatt, Terry and Kovacek",
-        "SortOrder": 899,
-        "ExtraFlags": 366,
+        "Free": 857,
+        "InUse": 149,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 384,
+        "Name": "Shanahan, O'Reilly and Weimann",
+        "Description": "Decentralized explicit time-frame",
+        "PrerequisiteModuleName": "Padberg Group",
+        "SortOrder": 969,
+        "ExtraFlags": 831,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 278
+            "FieldLength": 711
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 781
+        "FieldLength": 367
       }
     }
   },
   {
-    "Name": "Feil-Blanda",
-    "Description": "Horizontal multi-state hierarchy",
+    "Name": "O'Keefe LLC",
+    "Description": "Ergonomic disintermediate leverage",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 381,
-        "Tooltip": "nobis",
+        "Total": 323,
+        "Tooltip": "impedit",
         "CanAssign": false,
-        "Free": 672,
-        "InUse": 307,
-        "IsHidden": true,
+        "Free": 923,
+        "InUse": 99,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 13,
-        "Name": "Botsford Inc and Sons",
-        "Description": "Devolved multimedia local area network",
-        "PrerequisiteModuleName": "Dach-Schulist",
-        "SortOrder": 626,
-        "ExtraFlags": 664,
+        "ModuleLicenseId": 864,
+        "Name": "Hoeger-Kovacek",
+        "Description": "Right-sized global portal",
+        "PrerequisiteModuleName": "Hand-Dickens",
+        "SortOrder": 427,
+        "ExtraFlags": 998,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 663
+            "FieldType": "System.String",
+            "FieldLength": 274
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 681,
-        "Tooltip": "sed",
+        "Unrestricted": false,
+        "Total": 730,
+        "Tooltip": "dolor",
         "CanAssign": false,
-        "Free": 807,
-        "InUse": 19,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 668,
-        "Name": "Hegmann, Lakin and Kunde",
-        "Description": "Business-focused homogeneous contingency",
-        "PrerequisiteModuleName": "Hyatt, Terry and Kovacek",
-        "SortOrder": 899,
-        "ExtraFlags": 366,
+        "Free": 857,
+        "InUse": 149,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 384,
+        "Name": "Shanahan, O'Reilly and Weimann",
+        "Description": "Decentralized explicit time-frame",
+        "PrerequisiteModuleName": "Padberg Group",
+        "SortOrder": 969,
+        "ExtraFlags": 831,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 278
+            "FieldLength": 711
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 781
+        "FieldLength": 367
       }
     }
   }

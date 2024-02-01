@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 623,
-    "Name": "Tremblay-Hirthe",
-    "Tooltip": "iure",
-    "Deleted": false,
-    "UdListDefinitionId": 250,
-    "Rank": 927,
+    "Id": 971,
+    "Name": "Ondricka, Ledner and Klocko",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 450,
+    "Rank": 689,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 273
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 31 Oct 2000 13:57:18 G10T
+Last-Modified: Sun, 07 Dec 2014 23:04:04 G12T
 
 {
-  "ForeignAppId": 748,
-  "Name": "Lang Group",
-  "CreatedDate": "2008-11-28T13:57:18.8109737+01:00",
-  "UpdatedDate": "2000-10-31T13:57:18.8109737+01:00",
+  "ForeignAppId": 63,
+  "Name": "Schaefer LLC",
+  "CreatedDate": "2004-08-31T23:04:04.22002+02:00",
+  "UpdatedDate": "2014-12-07T23:04:04.22002+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 744,
-      "Name": "Nicolas-Smith",
-      "CreatedDate": "2000-03-03T13:57:18.8109737+01:00",
-      "UpdatedDate": "2023-01-26T13:57:18.8109737+01:00",
-      "AssociateFullName": "Miss Gustave Yvonne Bergnaum III",
-      "CreatedBy": "maiores",
-      "UpdatedBy": "aperiam",
-      "DeviceIdentifier": "vel",
-      "ForeignAppId": 492,
+      "ForeignDeviceId": 423,
+      "Name": "Kilback-Kling",
+      "CreatedDate": "2011-05-03T23:04:04.2215193+02:00",
+      "UpdatedDate": "2016-09-03T23:04:04.2215193+02:00",
+      "AssociateFullName": "Zane Littel",
+      "CreatedBy": "quidem",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "impedit",
+      "ForeignAppId": 504,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldLength": 518
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Tue, 31 Oct 2000 13:57:18 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 878
     }
   }
 }

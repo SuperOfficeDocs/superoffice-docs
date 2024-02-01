@@ -65,7 +65,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 814,
-    "Name": "Lehner, Deckow and Thiel",
-    "ContentType": "facilis",
-    "AttSize": 33,
+    "AttachmentId": 10,
+    "Name": "Kautzer, Ferry and O'Kon",
+    "ContentType": "quam",
+    "AttSize": 51,
     "InlineImage": false,
-    "ContentId": "sed",
-    "AuthKey": "velit",
+    "ContentId": "voluptatum",
+    "AuthKey": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldLength": 686
       }
     }
   }

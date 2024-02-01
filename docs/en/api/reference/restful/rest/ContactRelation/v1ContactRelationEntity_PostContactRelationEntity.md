@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 116,
-  "SourcePersonId": 284,
-  "DestinationContactId": 214,
-  "DestinationPersonId": 628,
-  "RelationId": 698,
-  "Comment": "assumenda",
-  "RelationDefinitionId": 529,
-  "Reversed": 174,
-  "UpdatedDate": "2008-03-31T13:57:18.669059+02:00",
-  "CreatedDate": "2020-03-15T13:57:18.669059+01:00",
+  "SourceContactId": 501,
+  "SourcePersonId": 731,
+  "DestinationContactId": 637,
+  "DestinationPersonId": 200,
+  "RelationId": 602,
+  "Comment": "blanditiis",
+  "RelationDefinitionId": 261,
+  "Reversed": 435,
+  "UpdatedDate": "1998-09-04T23:04:04.0540194+02:00",
+  "CreatedDate": "2011-08-27T23:04:04.0540194+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Parker Inc and Sons",
-  "SourcePersonName": "Rosenbaum-Bernhard",
-  "DestinationContactName": "Powlowski-Schimmel",
-  "DestinationPersonName": "Crooks LLC",
-  "ActiveText": "magni",
-  "PassiveText": "adipisci"
+  "SourceContactName": "Bashirian-McGlynn",
+  "SourcePersonName": "Rempel-Waters",
+  "DestinationContactName": "Donnelly, Mante and Hilpert",
+  "DestinationPersonName": "Carter LLC",
+  "ActiveText": "ipsum",
+  "PassiveText": "non"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 19,
-  "SourcePersonId": 337,
-  "DestinationContactId": 153,
-  "DestinationPersonId": 84,
-  "RelationId": 819,
-  "Comment": "enim",
-  "RelationDefinitionId": 560,
-  "Reversed": 355,
-  "UpdatedDate": "2012-11-22T13:57:18.6846845+01:00",
-  "CreatedDate": "2017-10-10T13:57:18.6846845+02:00",
+  "SourceContactId": 692,
+  "SourcePersonId": 504,
+  "DestinationContactId": 976,
+  "DestinationPersonId": 940,
+  "RelationId": 795,
+  "Comment": "cupiditate",
+  "RelationDefinitionId": 52,
+  "Reversed": 325,
+  "UpdatedDate": "2008-12-07T23:04:04.0565235+01:00",
+  "CreatedDate": "2020-08-15T23:04:04.0565235+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Leffler, Bashirian and Little",
-  "SourcePersonName": "Christiansen LLC",
-  "DestinationContactName": "Stehr Inc and Sons",
-  "DestinationPersonName": "Stanton Inc and Sons",
-  "ActiveText": "totam",
-  "PassiveText": "esse",
+  "SourceContactName": "Stanton, McCullough and Jaskolski",
+  "SourcePersonName": "Johnson Inc and Sons",
+  "DestinationContactName": "Kertzmann-Feil",
+  "DestinationPersonName": "Abbott LLC",
+  "ActiveText": "enim",
+  "PassiveText": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 394
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 30
+  "EntityId": 356
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 193,
-    "ConnectionName": "Harvey-Cormier",
+    "ErpConnectionId": 42,
+    "ConnectionName": "Bins, Koss and Hackett",
     "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "autem",
-        "Rank": 114,
-        "DisplayName": "Effertz-Leffler",
-        "DisplayDescription": "Down-sized bandwidth-monitored local area network",
+        "FieldKey": "temporibus",
+        "Rank": 429,
+        "DisplayName": "Wisozk, Bartoletti and Denesik",
+        "DisplayDescription": "Synchronised discrete Graphic Interface",
         "FieldType": "Checkbox",
-        "ListName": "Stracke, Rowe and Crist",
-        "DefaultValue": "occaecati",
-        "MaxLength": 28,
+        "ListName": "Koepp, Watsica and Dibbert",
+        "DefaultValue": "itaque",
+        "MaxLength": 756,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 868
+            "FieldType": "System.Int32",
+            "FieldLength": 758
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "voluptas",
-      "voluptatibus"
+      "ab",
+      "atque"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 884
       }
     }
   }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 712
+  "AssociateId": 138
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lang, Howell and Berge",
-    "Description": "Multi-lateral dynamic success",
+    "Name": "Robel, Beatty and Bergstrom",
+    "Description": "Programmable motivating superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 33,
-        "Tooltip": "modi",
+        "Unrestricted": false,
+        "Total": 639,
+        "Tooltip": "eveniet",
         "CanAssign": false,
-        "Free": 919,
-        "InUse": 767,
-        "IsHidden": true,
+        "Free": 500,
+        "InUse": 56,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 797,
-        "Name": "Marks, Schimmel and Schoen",
-        "Description": "Horizontal needs-based moratorium",
-        "PrerequisiteModuleName": "Kuhlman-Crooks",
-        "SortOrder": 739,
-        "ExtraFlags": 768,
+        "ModuleLicenseId": 267,
+        "Name": "Bashirian-Nicolas",
+        "Description": "User-centric zero tolerance workforce",
+        "PrerequisiteModuleName": "Vandervort, Cormier and Bruen",
+        "SortOrder": 14,
+        "ExtraFlags": 454,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 361
+            "FieldType": "System.String",
+            "FieldLength": 555
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 475,
-        "Tooltip": "eaque",
-        "CanAssign": false,
-        "Free": 916,
-        "InUse": 163,
+        "Unrestricted": true,
+        "Total": 56,
+        "Tooltip": "excepturi",
+        "CanAssign": true,
+        "Free": 176,
+        "InUse": 573,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 970,
-        "Name": "Grimes-Ryan",
-        "Description": "Cross-platform bottom-line matrix",
-        "PrerequisiteModuleName": "Abbott LLC",
-        "SortOrder": 166,
-        "ExtraFlags": 158,
+        "ModuleLicenseId": 189,
+        "Name": "Grimes, Hammes and Monahan",
+        "Description": "Front-line systemic portal",
+        "PrerequisiteModuleName": "Flatley Group",
+        "SortOrder": 925,
+        "ExtraFlags": 488,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 986
+            "FieldType": "System.Int32",
+            "FieldLength": 599
           }
         }
       }
@@ -150,62 +150,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldType": "System.String",
+        "FieldLength": 194
       }
     }
   },
   {
-    "Name": "Lang, Howell and Berge",
-    "Description": "Multi-lateral dynamic success",
+    "Name": "Robel, Beatty and Bergstrom",
+    "Description": "Programmable motivating superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 33,
-        "Tooltip": "modi",
+        "Unrestricted": false,
+        "Total": 639,
+        "Tooltip": "eveniet",
         "CanAssign": false,
-        "Free": 919,
-        "InUse": 767,
-        "IsHidden": true,
+        "Free": 500,
+        "InUse": 56,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 797,
-        "Name": "Marks, Schimmel and Schoen",
-        "Description": "Horizontal needs-based moratorium",
-        "PrerequisiteModuleName": "Kuhlman-Crooks",
-        "SortOrder": 739,
-        "ExtraFlags": 768,
+        "ModuleLicenseId": 267,
+        "Name": "Bashirian-Nicolas",
+        "Description": "User-centric zero tolerance workforce",
+        "PrerequisiteModuleName": "Vandervort, Cormier and Bruen",
+        "SortOrder": 14,
+        "ExtraFlags": 454,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 361
+            "FieldType": "System.String",
+            "FieldLength": 555
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 475,
-        "Tooltip": "eaque",
-        "CanAssign": false,
-        "Free": 916,
-        "InUse": 163,
+        "Unrestricted": true,
+        "Total": 56,
+        "Tooltip": "excepturi",
+        "CanAssign": true,
+        "Free": 176,
+        "InUse": 573,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 970,
-        "Name": "Grimes-Ryan",
-        "Description": "Cross-platform bottom-line matrix",
-        "PrerequisiteModuleName": "Abbott LLC",
-        "SortOrder": 166,
-        "ExtraFlags": 158,
+        "ModuleLicenseId": 189,
+        "Name": "Grimes, Hammes and Monahan",
+        "Description": "Front-line systemic portal",
+        "PrerequisiteModuleName": "Flatley Group",
+        "SortOrder": 925,
+        "ExtraFlags": 488,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 986
+            "FieldType": "System.Int32",
+            "FieldLength": 599
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldType": "System.String",
+        "FieldLength": 194
       }
     }
   }

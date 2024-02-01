@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Ankunding, Harber and Armstrong",
-    "ToolTip": "At quo quo non accusantium odit minus blanditiis.",
-    "Deleted": false,
-    "Rank": 406,
-    "Type": "quae",
-    "ColorBlock": 776,
-    "IconHint": "vitae",
+    "Id": 309,
+    "Name": "Funk Inc and Sons",
+    "ToolTip": "Ipsam consequuntur illum distinctio voluptatem.",
+    "Deleted": true,
+    "Rank": 360,
+    "Type": "voluptas",
+    "ColorBlock": 710,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "1997-07-11T13:57:20.0783884+02:00",
+    "LastChanged": "2022-10-16T23:04:05.7624958+02:00",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Stark, Donnelly and Predovic",
-        "ToolTip": "Magni ut labore accusamus numquam non.",
-        "Deleted": false,
-        "Rank": 281,
-        "Type": "accusamus",
-        "ColorBlock": 934,
-        "IconHint": "excepturi",
+        "Id": 127,
+        "Name": "Howell Inc and Sons",
+        "ToolTip": "Sed consequatur.",
+        "Deleted": true,
+        "Rank": 788,
+        "Type": "at",
+        "ColorBlock": 311,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "1998-12-08T13:57:20.0783884+01:00",
+        "LastChanged": "2015-03-18T23:04:05.7624958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Marc Pagac",
+        "ExtraInfo": "veniam",
+        "StyleHint": "vitae",
+        "Hidden": false,
+        "FullName": "Ashtyn Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 41
+            "FieldType": "System.Int32",
+            "FieldLength": 317
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Ms. Ashton Grimes IV",
+    "ExtraInfo": "maxime",
+    "StyleHint": "excepturi",
+    "Hidden": false,
+    "FullName": "Mr. Ari Bella Kris II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 606
       }
     }
   }

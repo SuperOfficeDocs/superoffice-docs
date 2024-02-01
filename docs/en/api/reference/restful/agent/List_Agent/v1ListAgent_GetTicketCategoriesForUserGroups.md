@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    863,
-    271
+    360,
+    937
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "O'Conner-Dare",
-    "ToolTip": "Quibusdam tempora nesciunt deserunt vitae exercitationem voluptas.",
+    "Id": 503,
+    "Name": "Jenkins LLC",
+    "ToolTip": "Suscipit ex consequatur perferendis sed ea et.",
     "Deleted": false,
-    "Rank": 611,
-    "Type": "doloribus",
+    "Rank": 500,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 673,
-        "Name": "Boehm-Kemmer",
-        "ToolTip": "Vel asperiores repellat eos et voluptates.",
+        "Id": 942,
+        "Name": "Harvey, VonRueden and Toy",
+        "ToolTip": "Enim et quia.",
         "Deleted": false,
-        "Rank": 467,
-        "Type": "ducimus",
+        "Rank": 910,
+        "Type": "error",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "suscipit",
-        "ColorBlock": 316,
-        "ExtraInfo": "deleniti",
-        "StyleHint": "est",
-        "FullName": "Miss Ardith Sigurd Wehner",
+        "IconHint": "vel",
+        "ColorBlock": 880,
+        "ExtraInfo": "et",
+        "StyleHint": "eveniet",
+        "FullName": "Mr. Jameson Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 941
+            "FieldType": "System.Int32",
+            "FieldLength": 184
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 198,
-    "ExtraInfo": "qui",
-    "StyleHint": "excepturi",
-    "FullName": "Ms. Lemuel Olson",
+    "IconHint": "voluptatem",
+    "ColorBlock": 930,
+    "ExtraInfo": "quas",
+    "StyleHint": "et",
+    "FullName": "Kim Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 575
       }
     }
   }

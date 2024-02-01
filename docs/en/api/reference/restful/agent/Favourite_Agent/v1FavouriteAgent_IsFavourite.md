@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hintz-Haag",
-  "RecordId": 691,
-  "AssociateId": 372
+  "TableName": "Luettgen-Shanahan",
+  "RecordId": 776,
+  "AssociateId": 649
 }
 ```
 

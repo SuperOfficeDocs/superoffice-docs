@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Value": "accusantium",
-    "Tooltip": "rerum",
+    "Id": 618,
+    "Value": "consectetur",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 57
       }
     }
   },
   {
-    "Id": 120,
-    "Value": "accusantium",
-    "Tooltip": "rerum",
+    "Id": 618,
+    "Value": "consectetur",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 57
       }
     }
   }

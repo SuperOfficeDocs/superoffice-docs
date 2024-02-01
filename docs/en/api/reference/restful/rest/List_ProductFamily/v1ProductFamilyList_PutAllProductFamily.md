@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Keebler LLC",
-    "Tooltip": "quaerat",
+    "Id": 683,
+    "Name": "Pouros, Torp and Dietrich",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 889,
-    "Rank": 58
+    "UdListDefinitionId": 751,
+    "Rank": 478
   },
   {
-    "Id": 738,
-    "Name": "Keebler LLC",
-    "Tooltip": "quaerat",
+    "Id": 683,
+    "Name": "Pouros, Torp and Dietrich",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 889,
-    "Rank": 58
+    "UdListDefinitionId": 751,
+    "Rank": 478
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Thompson Group",
-    "Tooltip": "esse",
+    "Id": 645,
+    "Name": "Mann Inc and Sons",
+    "Tooltip": "odio",
     "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 149,
+    "UdListDefinitionId": 68,
+    "Rank": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 713
       }
     }
   }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 736,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2020-02-21T13:57:12.0592427+01:00",
-  "EndTime": "2002-06-20T13:57:12.0592427+02:00",
-  "Count": 485
+  "PersonId": 175,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2000-09-09T23:03:55.659633+02:00",
+  "EndTime": "2003-12-15T23:03:55.659633+01:00",
+  "Count": 527
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 753,
-    "Attention": "maiores",
-    "Header": "animi",
-    "Name": "Rath, Barton and Feest",
-    "OurRef": "aut",
-    "YourRef": "corrupti",
-    "Description": "Phased system-worthy software",
-    "DocumentTemplate": "voluptas",
+    "DocumentId": 20,
+    "Attention": "voluptatem",
+    "Header": "eos",
+    "Name": "Thiel, Heaney and Schroeder",
+    "OurRef": "culpa",
+    "YourRef": "unde",
+    "Description": "Focused client-server open architecture",
+    "DocumentTemplate": "animi",
     "IsPublished": false,
-    "PersonId": 621,
-    "PersonFullName": "Modesto Crona IV",
-    "AssociateFullName": "Magnus Maggio",
-    "ContactId": 157,
-    "ContactName": "Oberbrunner Group",
-    "ProjectId": 672,
-    "ProjectName": "Schmidt Group",
-    "AssociateId": 580,
-    "Snum": 39,
-    "SaleId": 377,
-    "SaleName": "Romaguera-Hudson",
+    "PersonId": 901,
+    "PersonFullName": "Maurine Hyatt",
+    "AssociateFullName": "Miss Tremaine Bergstrom",
+    "ContactId": 370,
+    "ContactName": "Spinka Group",
+    "ProjectId": 965,
+    "ProjectName": "Rodriguez Group",
+    "AssociateId": 543,
+    "Snum": 245,
+    "SaleId": 518,
+    "SaleName": "Reilly Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 105
       }
     }
   }

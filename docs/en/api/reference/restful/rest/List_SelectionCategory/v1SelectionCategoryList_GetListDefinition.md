@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Orn Inc and Sons",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "Rank": 924,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 886,
+  "Name": "Rempel, Smith and Bernhard",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "Rank": 10,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "natus",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 252
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 339,
-    "Name": "Barrows, Trantow and Harris",
-    "Tooltip": "veritatis",
-    "TableName": "Kunde, Hansen and Flatley",
-    "Area": "et",
+    "TaskMenuId": 585,
+    "Name": "Roberts, Kertzmann and Morar",
+    "Tooltip": "nemo",
+    "TableName": "Bogisich Group",
+    "Area": "quod",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 462,
+    "CrmScriptId": 587,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 850,
+    "Rank": 439,
     "Encoding": "ANSI",
-    "ProgId": "sed",
+    "ProgId": "numquam",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldLength": 623
       }
     }
   }

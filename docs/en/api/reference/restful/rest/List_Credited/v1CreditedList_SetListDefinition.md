@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 913,
-  "Name": "Thiel, Jast and Beer",
-  "Tooltip": "alias",
+  "Id": 79,
+  "Name": "Gleason Group",
+  "Tooltip": "sapiente",
   "Deleted": true,
-  "Rank": 525,
-  "IsCustomList": false,
+  "Rank": 858,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "neque",
+  "UseGroupsAndHeadings": false,
+  "ListType": "corporis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "Brakus-Conroy",
-  "Tooltip": "earum",
+  "Id": 215,
+  "Name": "Abernathy Group",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 690,
+  "Rank": 435,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quod",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 738
     }
   }
 }

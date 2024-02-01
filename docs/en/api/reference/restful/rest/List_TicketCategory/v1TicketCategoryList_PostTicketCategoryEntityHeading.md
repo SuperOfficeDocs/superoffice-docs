@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 630,
-  "Name": "Jacobson-Braun",
-  "Tooltip": "magnam",
+  "HeadingId": 759,
+  "Name": "McGlynn Group",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 751,
-  "UdListDefinitionId": 115
+  "Rank": 680,
+  "UdListDefinitionId": 804
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 424,
-  "Name": "Kshlerin-Cronin",
-  "Tooltip": "quos",
+  "HeadingId": 191,
+  "Name": "Konopelski, Rippin and Boyer",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 513,
-  "UdListDefinitionId": 69,
+  "Rank": 282,
+  "UdListDefinitionId": 298,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 884
     }
   }
 }

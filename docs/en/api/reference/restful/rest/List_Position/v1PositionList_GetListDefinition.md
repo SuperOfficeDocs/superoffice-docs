@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Gutkowski LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 858,
+  "Id": 735,
+  "Name": "Brekke, West and Daugherty",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 68,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "vero",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   },
   "_Links": {

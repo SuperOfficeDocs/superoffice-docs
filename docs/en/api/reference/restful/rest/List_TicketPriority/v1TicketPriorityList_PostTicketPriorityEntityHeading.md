@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 752,
-  "Name": "Wilkinson, Wintheiser and Gusikowski",
-  "Tooltip": "doloribus",
+  "HeadingId": 822,
+  "Name": "Ward LLC",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "Rank": 884,
-  "UdListDefinitionId": 711
+  "Rank": 636,
+  "UdListDefinitionId": 297
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 538,
-  "Name": "Gusikowski Group",
-  "Tooltip": "laboriosam",
+  "HeadingId": 978,
+  "Name": "Dickens, Lang and Reilly",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 233,
-  "UdListDefinitionId": 970,
+  "Rank": 33,
+  "UdListDefinitionId": 103,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldLength": 691
     }
   }
 }

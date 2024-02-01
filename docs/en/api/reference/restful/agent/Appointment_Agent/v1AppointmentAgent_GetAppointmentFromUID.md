@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "qui"
+  "UID": "enim"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-09-02T13:57:11.4813099+02:00",
-  "AppointmentId": 549,
-  "Description": "Implemented directional access",
-  "Title": "sed",
-  "Agenda": "necessitatibus",
-  "InternalNotes": "molestiae",
-  "StartDate": "2020-11-05T13:57:11.4813099+01:00",
-  "EndDate": "2011-04-23T13:57:11.4813099+02:00",
+  "CreatedDate": "2001-08-06T23:03:54.9191456+02:00",
+  "AppointmentId": 834,
+  "Description": "Self-enabling bifurcated portal",
+  "Title": "ut",
+  "Agenda": "porro",
+  "InternalNotes": "eum",
+  "StartDate": "2007-04-03T23:03:54.9191456+02:00",
+  "EndDate": "2013-02-26T23:03:54.9191456+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 576,
+  "MotherId": 898,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-03-05T13:57:11.4813099+01:00",
+  "UpdatedDate": "2009-11-30T23:03:54.9221435+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 253,
+  "ActiveLinks": 214,
   "Links": [
     {
-      "EntityName": "Hegmann-Kuvalis",
-      "Id": 710,
-      "Description": "Monitored upward-trending strategy",
-      "ExtraInfo": "officia",
-      "LinkId": 26,
+      "EntityName": "Rohan, Becker and Marquardt",
+      "Id": 393,
+      "Description": "Secured dynamic adapter",
+      "ExtraInfo": "eum",
+      "LinkId": 953,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 539
         }
       }
     }
   ],
-  "AlarmLeadTime": "optio",
-  "HasAlarm": false,
-  "ColorIndex": 791,
-  "IsFree": true,
+  "AlarmLeadTime": "ad",
+  "HasAlarm": true,
+  "ColorIndex": 659,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "eligendi",
-  "LeadTime": "officiis",
-  "Location": "eum",
-  "RejectCounter": 294,
+  "LagTime": "omnis",
+  "LeadTime": "voluptatem",
+  "Location": "necessitatibus",
+  "RejectCounter": 808,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 859,
-      "PersonId": 476,
-      "ContactId": 610,
-      "EmailId": 660,
+      "AssociateId": 346,
+      "PersonId": 570,
+      "ContactId": 451,
+      "EmailId": 428,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "mariano.runolfsdottir@rippin.co.uk",
-      "Description": "Multi-tiered optimizing budgetary management"
+      "EmailAddress": "ole@schultz.co.uk",
+      "Description": "Face to face next generation process improvement"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-04-28T13:57:11.4813099+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2021-07-17T23:03:54.9226455+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 140,
+  "PreferredTZLocation": 506,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 94,
+  "SuggestedAppointmentId": 223,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aut",
+  "CentralserviceVideomeetId": "quia",
   "UserDefinedFields": {
-    "SuperOffice:1": "1197146051",
-    "SuperOffice:2": "Mr. Jack Roosevelt Gulgowski"
+    "SuperOffice:1": "Federico Weissnat",
+    "SuperOffice:2": "37832129"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "id"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "et"
+    "CustomFields1": "porro",
+    "CustomFields2": "aliquid"
   },
-  "PublishEventDate": "2020-01-29T13:57:11.4813099+01:00",
-  "PublishTo": "2020-11-08T13:57:11.4813099+01:00",
-  "PublishFrom": "2014-04-10T13:57:11.4813099+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-05-26T23:03:54.924643+02:00",
+  "PublishTo": "2021-01-10T23:03:54.924643+01:00",
+  "PublishFrom": "2014-11-27T23:03:54.924643+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 180,
+      "VisibleId": 325,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 966
+          "FieldLength": 714
         }
       }
     },
     {
-      "VisibleId": 180,
+      "VisibleId": 325,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 966
+          "FieldLength": 714
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

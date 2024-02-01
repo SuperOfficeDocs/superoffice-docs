@@ -706,7 +706,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=contact/number,contact/contactUdef/SuperOffice:9,person/isProjectMember,person/consentSourceEmarketing,appointmentUdef/SuperOffice:3
+GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=time,registeredBy,contact/email/emailId,person/restrictionAddress/formattedAddress,sale/text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

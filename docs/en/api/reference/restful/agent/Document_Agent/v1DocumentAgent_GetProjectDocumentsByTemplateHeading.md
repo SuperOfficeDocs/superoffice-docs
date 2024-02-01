@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 306,
-  "StartTime": "2019-07-08T13:57:12.090499+02:00",
-  "EndTime": "2017-07-18T13:57:12.090499+02:00",
-  "Count": 221,
-  "TemplateHeadingId": 952
+  "ProjectId": 676,
+  "StartTime": "1997-12-16T23:03:55.6816327+01:00",
+  "EndTime": "2014-12-22T23:03:55.6816327+01:00",
+  "Count": 456,
+  "TemplateHeadingId": 501
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 625,
-    "Attention": "sit",
-    "Header": "delectus",
-    "Name": "Wehner, Luettgen and Medhurst",
-    "OurRef": "reprehenderit",
-    "YourRef": "similique",
-    "Description": "Upgradable multimedia contingency",
-    "DocumentTemplate": "quisquam",
+    "DocumentId": 227,
+    "Attention": "facere",
+    "Header": "accusamus",
+    "Name": "Monahan LLC",
+    "OurRef": "voluptatem",
+    "YourRef": "neque",
+    "Description": "Total next generation interface",
+    "DocumentTemplate": "consequatur",
     "IsPublished": false,
-    "PersonId": 515,
-    "PersonFullName": "Amparo Tremblay",
-    "AssociateFullName": "Eva Kohler",
-    "ContactId": 541,
-    "ContactName": "Weimann Group",
-    "ProjectId": 527,
-    "ProjectName": "Kutch, Turcotte and Morar",
-    "AssociateId": 94,
-    "Snum": 719,
-    "SaleId": 279,
-    "SaleName": "Mayert, Kling and Bruen",
+    "PersonId": 720,
+    "PersonFullName": "Thalia Rau",
+    "AssociateFullName": "Mrs. Eden Owen Kub I",
+    "ContactId": 64,
+    "ContactName": "Shields, Eichmann and Roberts",
+    "ProjectId": 407,
+    "ProjectName": "Morissette LLC",
+    "AssociateId": 597,
+    "Snum": 476,
+    "SaleId": 245,
+    "SaleName": "Blick Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldType": "System.Int32",
+        "FieldLength": 634
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Kassulke, Rosenbaum and Balistreri",
-    "ToolTip": "Ducimus vel voluptas est nulla quae.",
-    "Deleted": false,
-    "Rank": 427,
-    "Type": "suscipit",
-    "ColorBlock": 127,
-    "IconHint": "molestiae",
+    "Id": 571,
+    "Name": "Willms-Senger",
+    "ToolTip": "Facilis suscipit minima officia beatae.",
+    "Deleted": true,
+    "Rank": 640,
+    "Type": "sed",
+    "ColorBlock": 950,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2020-10-07T13:57:19.7971417+02:00",
+    "LastChanged": "2017-07-14T23:04:05.5204988+02:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Quitzon Group",
-        "ToolTip": "Sit aut dolorem sit dolores.",
+        "Id": 167,
+        "Name": "Mayert-Grimes",
+        "ToolTip": "Aspernatur laborum qui quo quia possimus.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "quasi",
-        "ColorBlock": 418,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2020-06-04T13:57:19.7971417+02:00",
+        "Rank": 33,
+        "Type": "aut",
+        "ColorBlock": 453,
+        "IconHint": "fugiat",
+        "Selected": false,
+        "LastChanged": "2015-09-05T23:04:05.5210007+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "dolores",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Angus Barrows"
+        "FullName": "Mathew Connelly"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "alias",
+    "ExtraInfo": "beatae",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Holden Wyman"
+    "FullName": "Miss Rossie McClure"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Turner Group",
-    "ToolTip": "Omnis laborum.",
-    "Deleted": true,
-    "Rank": 355,
-    "Type": "ullam",
-    "ColorBlock": 84,
-    "IconHint": "cupiditate",
-    "Selected": true,
-    "LastChanged": "2020-02-25T13:57:19.7971417+01:00",
+    "Id": 481,
+    "Name": "Schaden Group",
+    "ToolTip": "Voluptatum molestiae adipisci explicabo inventore dolor.",
+    "Deleted": false,
+    "Rank": 795,
+    "Type": "doloribus",
+    "ColorBlock": 439,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2021-05-23T23:04:05.5219989+02:00",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "Hegmann, Brekke and Sipes",
-        "ToolTip": "Et repellendus dicta eum necessitatibus.",
-        "Deleted": true,
-        "Rank": 655,
-        "Type": "velit",
-        "ColorBlock": 881,
-        "IconHint": "magni",
+        "Id": 207,
+        "Name": "Heidenreich, Hermiston and Hilll",
+        "ToolTip": "Eveniet ut nobis.",
+        "Deleted": false,
+        "Rank": 434,
+        "Type": "enim",
+        "ColorBlock": 862,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2021-05-30T13:57:19.7971417+02:00",
+        "LastChanged": "2001-11-21T23:04:05.5219989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Mr. Neal Judy Schoen V",
+        "ExtraInfo": "quidem",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Miss Vita Cathryn Rau PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 677
+            "FieldType": "System.String",
+            "FieldLength": 759
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Brian Thiel",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Dr. Fletcher Bria Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 814
       }
     }
   }

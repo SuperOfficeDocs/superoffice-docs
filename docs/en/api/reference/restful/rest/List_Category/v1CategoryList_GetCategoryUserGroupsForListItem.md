@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 623,
-    "Name": "Stroman Inc and Sons",
-    "ToolTip": "Hic non aut laboriosam et est.",
-    "Deleted": false,
-    "Rank": 851,
-    "Type": "dicta",
-    "ColorBlock": 589,
-    "IconHint": "debitis",
-    "Selected": true,
-    "LastChanged": "1996-12-07T13:57:19.6409229+01:00",
+    "Id": 859,
+    "Name": "Stehr, Murazik and Klein",
+    "ToolTip": "Sit dolores.",
+    "Deleted": true,
+    "Rank": 145,
+    "Type": "quasi",
+    "ColorBlock": 12,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2003-12-18T23:04:05.3129719+01:00",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Bartoletti LLC",
-        "ToolTip": "Ut deleniti enim doloremque.",
+        "Id": 957,
+        "Name": "Aufderhar LLC",
+        "ToolTip": "Pariatur provident expedita.",
         "Deleted": false,
-        "Rank": 280,
-        "Type": "placeat",
-        "ColorBlock": 676,
-        "IconHint": "ducimus",
+        "Rank": 1002,
+        "Type": "totam",
+        "ColorBlock": 568,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2022-08-02T13:57:19.6409229+02:00",
+        "LastChanged": "2002-03-30T23:04:05.3129719+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Ludwig Harber I",
+        "ExtraInfo": "soluta",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mr. Monserrate Orion Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 646
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Rowena Shields MD",
+    "ExtraInfo": "quae",
+    "StyleHint": "saepe",
+    "Hidden": false,
+    "FullName": "Miss Kraig Lesly Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 160
       }
     }
   }

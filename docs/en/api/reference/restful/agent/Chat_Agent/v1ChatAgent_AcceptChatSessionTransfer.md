@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 875
+  "ChatSessionId": 666
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 194,
-  "TopicId": 874,
+  "ChatSessionId": 513,
+  "TopicId": 230,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "magni",
-  "CustomerName": "Dickens, Stark and Cartwright",
-  "CustomerEmail": "lou@hintzroob.us",
-  "CustomerPhone": "472.025.8170 x11206",
+  "CustomerAlias": "dolores",
+  "CustomerHost": "saepe",
+  "CustomerName": "Hoeger, Ferry and Walsh",
+  "CustomerEmail": "marcia@franeckidibbert.biz",
+  "CustomerPhone": "1-827-584-5965",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Mohr-Pouros",
+  "CustomerCompanyName": "Russel Group",
   "Status": "Closed",
-  "FirstMessage": "culpa",
-  "LastMessage": "ullam",
-  "WhenRequested": "2012-01-05T13:57:11.65318+01:00",
-  "WhenStarted": "2014-09-13T13:57:11.65318+02:00",
-  "WhenEnded": "2020-06-01T13:57:11.65318+02:00",
-  "WhenIdle": "2019-10-29T13:57:11.65318+01:00",
-  "WhenFetched": "2007-07-06T13:57:11.65318+02:00",
-  "SessionKey": "ipsam",
-  "InitialQueuePos": 707,
-  "AlertLevel": 429,
-  "Rank": 992,
+  "FirstMessage": "dolorem",
+  "LastMessage": "id",
+  "WhenRequested": "2000-03-10T23:03:55.1406456+01:00",
+  "WhenStarted": "1998-06-04T23:03:55.1406456+02:00",
+  "WhenEnded": "2009-06-25T23:03:55.1406456+02:00",
+  "WhenIdle": "2011-04-12T23:03:55.1406456+02:00",
+  "WhenFetched": "2018-08-21T23:03:55.1406456+02:00",
+  "SessionKey": "quam",
+  "InitialQueuePos": 602,
+  "AlertLevel": 613,
+  "Rank": 562,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 32,
+  "Rating": 96,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 73
     }
   }
 }

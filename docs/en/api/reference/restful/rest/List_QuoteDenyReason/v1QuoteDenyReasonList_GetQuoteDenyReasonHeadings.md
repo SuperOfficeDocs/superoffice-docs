@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 60,
-    "Name": "Lindgren Group",
-    "Tooltip": "adipisci",
-    "Deleted": true,
-    "Rank": 60,
-    "UdListDefinitionId": 24,
+    "HeadingId": 651,
+    "Name": "Halvorson, Abbott and Wolff",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 30,
+    "UdListDefinitionId": 883,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 545
       }
     }
   }

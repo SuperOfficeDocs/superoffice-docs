@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Brekke Group"
+  "OwnerName": "Jacobson Inc and Sons"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
-  "CanBeActivated": false,
+  "Reason": "scale killer partnerships",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 991,
-      "NumberOfLicensesFree": 879,
-      "NumberOfLicensesAdded": 851,
-      "NumberOfLicensesNewTotal": 874,
-      "NumberOfLicensesNewFree": 589,
-      "NumberOfLicensesTotal": 101
+      "NumberOfLicensesInUse": 189,
+      "NumberOfLicensesFree": 767,
+      "NumberOfLicensesAdded": 993,
+      "NumberOfLicensesNewTotal": 158,
+      "NumberOfLicensesNewFree": 49,
+      "NumberOfLicensesTotal": 420
     }
   ],
-  "AccumulatedNextCheckDate": "1996-10-22T13:57:12.4493603+02:00"
+  "AccumulatedNextCheckDate": "2012-12-10T23:03:56.1366268+01:00"
 }
 ```

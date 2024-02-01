@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 130,
-    "Name": "Murphy-Jaskolski",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "Rank": 478,
-    "UdListDefinitionId": 985,
+    "HeadingId": 330,
+    "Name": "Murazik-Quigley",
+    "Tooltip": "hic",
+    "Deleted": true,
+    "Rank": 980,
+    "UdListDefinitionId": 651,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 141
+        "FieldType": "System.Int32",
+        "FieldLength": 864
       }
     }
   }

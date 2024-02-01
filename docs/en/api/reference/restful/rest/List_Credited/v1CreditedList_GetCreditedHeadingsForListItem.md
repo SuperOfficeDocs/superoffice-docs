@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Simonis Inc and Sons",
-    "ToolTip": "Est quidem quia quibusdam qui nobis aut.",
+    "Id": 771,
+    "Name": "Adams, McCullough and Bartell",
+    "ToolTip": "Odit sequi.",
     "Deleted": false,
-    "Rank": 455,
-    "Type": "eum",
-    "ColorBlock": 152,
-    "IconHint": "incidunt",
+    "Rank": 104,
+    "Type": "alias",
+    "ColorBlock": 624,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2006-06-03T13:57:19.7033929+02:00",
+    "LastChanged": "2006-06-07T23:04:05.411501+02:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Rippin-Becker",
-        "ToolTip": "Soluta voluptatem velit eligendi repellendus id.",
+        "Id": 276,
+        "Name": "Reichel-Okuneva",
+        "ToolTip": "Hic dolores.",
         "Deleted": false,
-        "Rank": 322,
-        "Type": "non",
-        "ColorBlock": 925,
-        "IconHint": "et",
+        "Rank": 56,
+        "Type": "quisquam",
+        "ColorBlock": 528,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2021-09-04T13:57:19.719018+02:00",
+        "LastChanged": "2002-01-17T23:04:05.411501+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Chaz Amalia Kilback MD",
+        "ExtraInfo": "quia",
+        "StyleHint": "ex",
+        "Hidden": true,
+        "FullName": "Katrine Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 65
+            "FieldType": "System.String",
+            "FieldLength": 93
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "omnis",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Katherine Hermiston",
+    "FullName": "Dillan Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 370
       }
     }
   }

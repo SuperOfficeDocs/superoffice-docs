@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "O'Reilly, Greenfelder and Franecki",
-    "Tooltip": "neque",
+    "Id": 269,
+    "Name": "Nicolas LLC",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 773,
-    "Rank": 867,
+    "UdListDefinitionId": 935,
+    "Rank": 967,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 953
       }
     }
   }

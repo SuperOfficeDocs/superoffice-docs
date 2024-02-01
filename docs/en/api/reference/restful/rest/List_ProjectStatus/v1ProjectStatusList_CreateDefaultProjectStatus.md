@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 826,
-  "Name": "Luettgen, Schumm and Pfeffer",
-  "Tooltip": "magnam",
+  "Id": 986,
+  "Name": "Schinner-Bayer",
+  "Tooltip": "provident",
   "Deleted": true,
-  "UdListDefinitionId": 455,
-  "Rank": 490,
+  "UdListDefinitionId": 916,
+  "Rank": 992,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldLength": 571
     }
   }
 }

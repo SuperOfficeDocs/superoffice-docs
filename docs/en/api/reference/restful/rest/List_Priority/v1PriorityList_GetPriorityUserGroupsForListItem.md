@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Weissnat, Kutch and Cormier",
-    "ToolTip": "Facere aut pariatur et aliquam sint.",
-    "Deleted": true,
-    "Rank": 488,
-    "Type": "aut",
-    "ColorBlock": 496,
-    "IconHint": "fugit",
+    "Id": 918,
+    "Name": "Jenkins, McLaughlin and Metz",
+    "ToolTip": "Et et officia sed eius earum fuga necessitatibus.",
+    "Deleted": false,
+    "Rank": 859,
+    "Type": "officia",
+    "ColorBlock": 896,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "1999-01-02T13:57:19.8440154+01:00",
+    "LastChanged": "2018-11-24T23:04:05.592497+01:00",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Littel-Mitchell",
-        "ToolTip": "Et unde illo necessitatibus voluptate.",
+        "Id": 166,
+        "Name": "Mosciski LLC",
+        "ToolTip": "Ut ut velit voluptatibus laborum culpa.",
         "Deleted": false,
-        "Rank": 509,
-        "Type": "nam",
-        "ColorBlock": 504,
-        "IconHint": "officia",
+        "Rank": 974,
+        "Type": "qui",
+        "ColorBlock": 127,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2000-09-19T13:57:19.8596433+02:00",
+        "LastChanged": "2018-03-26T23:04:05.592497+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Dr. Demarco Celia Hickle",
+        "ExtraInfo": "a",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Nyasia Dibbert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 161
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "et",
+    "ExtraInfo": "vel",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Darlene Witting",
+    "FullName": "Mrs. Arno Prosacco IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldLength": 142
       }
     }
   }

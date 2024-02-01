@@ -45,15 +45,13 @@ POST /api/v1/Agents/AI/GetChatbotPromptSuggestions?$select=name,department,categ
 
 ## Request Body: request 
 
-IsoLangCode, SoProtocol, CurrentContactId, CurrentPersonId, CurrentProjectId 
+IsoLangCode, SoProtocol, CurrentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IsoLangCode | String |  |
 | SoProtocol | String |  |
-| CurrentContactId | Integer |  |
-| CurrentPersonId | Integer |  |
-| CurrentProjectId | Integer |  |
+| CurrentId | Integer |  |
 
 ## Response:
 
@@ -84,11 +82,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "eaque",
-  "SoProtocol": "quis",
-  "CurrentContactId": 171,
-  "CurrentPersonId": 82,
-  "CurrentProjectId": 662
+  "IsoLangCode": "quia",
+  "SoProtocol": "temporibus",
+  "CurrentId": 902
 }
 ```
 
@@ -99,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2017-01-18T13:57:11.1056483+01:00",
-  "UserPrompt": "eos",
-  "UserDisplayText": "quae",
-  "BotResponse": "dolores",
+  "Timestamp": "2015-07-25T23:03:54.3551508+02:00",
+  "UserPrompt": "excepturi",
+  "UserDisplayText": "illo",
+  "BotResponse": "non",
   "BotActions": {
-    "BotActions1": "assumenda",
-    "BotActions2": "voluptatem"
+    "BotActions1": "sunt",
+    "BotActions2": "doloremque"
   },
   "Attachments": [
-    "eos",
-    "numquam"
+    "at",
+    "sit"
   ]
 }
 ```

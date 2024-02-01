@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 754
+  "PersonId": 884
 }
 ```
 
@@ -92,35 +92,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 818,
-  "PlainParsed": "aut",
-  "HtmlParsed": "ad",
+  "ReplyTemplateId": 84,
+  "PlainParsed": "quos",
+  "HtmlParsed": "delectus",
   "Attachments": [
     {
-      "AttachmentId": 791,
-      "Name": "Kris-Jenkins",
-      "ContentType": "aut",
-      "AttSize": 609,
+      "AttachmentId": 885,
+      "Name": "Trantow, Hermiston and Mertz",
+      "ContentType": "dolorem",
+      "AttSize": 953,
       "InlineImage": true,
-      "ContentId": "sunt",
-      "AuthKey": "esse",
+      "ContentId": "id",
+      "AuthKey": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 363
         }
       }
     }
   ],
-  "Subject": "iusto",
+  "Subject": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   }
 }

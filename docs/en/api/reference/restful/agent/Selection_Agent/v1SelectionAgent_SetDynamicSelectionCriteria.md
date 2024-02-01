@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 520,
+  "SelectionId": 196,
   "Criteria": [
     {
-      "Name": "McLaughlin-Walker",
-      "Operator": "et",
+      "Name": "Marvin LLC",
+      "Operator": "rem",
       "Values": [
-        "quos",
-        "ipsum"
+        "ut",
+        "amet"
       ],
       "DisplayValues": [
-        "suscipit",
-        "sunt"
+        "et",
+        "quae"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 313,
+      "InterParenthesis": 551,
       "InterOperator": "And",
-      "UniqueHash": 129
+      "UniqueHash": 757
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Smitham, Toy and Howell",
-    "Operator": "qui",
+    "Name": "Reinger LLC",
+    "Operator": "ullam",
     "Values": [
-      "perferendis",
-      "voluptate"
+      "sed",
+      "blanditiis"
     ],
     "DisplayValues": [
-      "labore",
-      "accusamus"
+      "aut",
+      "beatae"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Russel, Yundt and Adams",
-        "Operator": "ea",
+        "Name": "Haag Inc and Sons",
+        "Operator": "nobis",
         "Values": [
-          "ea",
-          "voluptas"
+          "minus",
+          "facere"
         ],
         "DisplayValues": [
-          "non",
-          "sit"
+          "illo",
+          "voluptas"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 660,
+        "InterParenthesis": 958,
         "InterOperator": "And",
-        "UniqueHash": 914
+        "UniqueHash": 200
       }
     ],
-    "InterParenthesis": 406,
+    "InterParenthesis": 180,
     "InterOperator": "And",
-    "UniqueHash": 377
+    "UniqueHash": 150
   }
 ]
 ```

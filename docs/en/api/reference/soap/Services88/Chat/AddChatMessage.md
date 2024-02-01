@@ -49,7 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2023-12-07T12:54:48Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2024-01-18T22:01:30Z</Chat:WhenPosted>
     </Chat:Message>
    </Chat:AddChatMessage>
 
@@ -82,7 +82,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
     <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
     <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-    <Chat:WhenPosted xsi:type="xsd:dateTime">2023-12-07T12:54:48Z</Chat:WhenPosted>
+    <Chat:WhenPosted xsi:type="xsd:dateTime">2024-01-18T22:01:30Z</Chat:WhenPosted>
    </Chat:Response>
   </Chat:AddChatMessageResponse>
  </SOAP-ENV:Body>

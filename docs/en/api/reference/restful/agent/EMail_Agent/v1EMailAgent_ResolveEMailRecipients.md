@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "imani_corkery@barrows.com"
+  "EmailAddress": "angeline@robel.biz"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 959,
-    "ContactName": "Macejkovic-Heathcote",
-    "PersonId": 914,
-    "PersonName": "Hessel-Kirlin",
-    "AssociateId": 637,
-    "Address": "aliquid",
-    "EmailId": 624,
+    "ContactId": 480,
+    "ContactName": "Morar, Kovacek and Schaden",
+    "PersonId": 615,
+    "PersonName": "Torp, Anderson and Gleichner",
+    "AssociateId": 463,
+    "Address": "sed",
+    "EmailId": 859,
     "DuplicatePersonIds": [
-      20,
-      676
+      41,
+      151
     ],
-    "Name": "Wehner-Vandervort",
+    "Name": "Roberts, Harvey and Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 163
+        "FieldType": "System.String",
+        "FieldLength": 776
       }
     }
   }

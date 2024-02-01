@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 994,
-    "ParentId": 101,
-    "Name": "Nolan-Wilkinson",
-    "Fullname": "perspiciatis",
-    "CategoryMaster": 764,
+    "TicketCategoryId": 935,
+    "ParentId": 62,
+    "Name": "Connelly, Senger and Zulauf",
+    "Fullname": "laborum",
+    "CategoryMaster": 751,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Graham LLC",
+    "ExternalName": "Jones, Gottlieb and Ondricka",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 586,
-    "ReplyTemplate": 801,
-    "NotificationEmail": "constantin@herman.us",
+    "AssignmentLag": 510,
+    "ReplyTemplate": 929,
+    "NotificationEmail": "duncan.hilll@wunsch.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 432,
+    "EffectiveReplyTemplateId": 785,
     "ExtraFields": {
-      "ExtraFields1": "quia",
-      "ExtraFields2": "dolor"
+      "ExtraFields1": "ex",
+      "ExtraFields2": "iusto"
     },
     "CustomFields": {
-      "CustomFields1": "voluptas",
-      "CustomFields2": "praesentium"
+      "CustomFields1": "quia",
+      "CustomFields2": "nulla"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 763
       }
     }
   }

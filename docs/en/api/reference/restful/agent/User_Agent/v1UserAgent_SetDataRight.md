@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 338,
-  "TableName": "Metz Group",
+  "RoleId": 151,
+  "TableName": "Crona, Murphy and Lind",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "fugiat"
+  "DataRightValue": "voluptatem"
 }
 ```
 

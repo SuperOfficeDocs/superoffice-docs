@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 926,
-  "Caption": "aliquid",
-  "Description": "Down-sized modular neural-net",
-  "ChartName": "Miller Inc and Sons",
-  "ChartId": "quia",
+  "DashboardTileId": 2,
+  "Caption": "iure",
+  "Description": "Implemented incremental interface",
+  "ChartName": "Hane, Watsica and King",
+  "ChartId": "qui",
   "IsDefault": true,
-  "AssociateId": 865,
-  "GroupId": 654,
-  "SelectionId": 45,
-  "Config": "veritatis",
+  "AssociateId": 926,
+  "GroupId": 262,
+  "SelectionId": 289,
+  "Config": "autem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Jenkins Inc and Sons",
-      "Description": "Total mobile collaboration",
+      "Name": "Dare, Senger and Collins",
+      "Description": "Expanded tangible complexity",
       "Type": "Boolean",
-      "ListName": "Pacocha Inc and Sons",
+      "ListName": "Halvorson, Bernhard and Padberg",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "magnam",
-      "DefaultDataOption": true,
+      "Value": "laborum",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 485
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 188,
+      "VisibleId": 247,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldType": "System.Int32",
+          "FieldLength": 526
         }
       }
     },
     {
-      "VisibleId": 188,
+      "VisibleId": 247,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldType": "System.Int32",
+          "FieldLength": 526
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldType": "System.Int32",
+      "FieldLength": 137
     }
   }
 }

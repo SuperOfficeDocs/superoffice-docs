@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 23,
-    "Name": "Ziemann, Koelpin and Bahringer",
-    "ToolTip": "Est explicabo fugit.",
-    "Deleted": true,
-    "Rank": 440,
-    "Type": "qui",
-    "ColorBlock": 480,
-    "IconHint": "et",
+    "Id": 318,
+    "Name": "O'Conner, Stokes and Rice",
+    "ToolTip": "Voluptatum ratione eum nulla.",
+    "Deleted": false,
+    "Rank": 268,
+    "Type": "nemo",
+    "ColorBlock": 293,
+    "IconHint": "repellendus",
     "Selected": true,
-    "LastChanged": "2007-06-21T13:57:19.9690149+02:00",
+    "LastChanged": "1997-04-01T23:04:05.7134989+02:00",
     "ChildItems": [
       {
-        "Id": 471,
-        "Name": "Spinka Group",
-        "ToolTip": "Doloribus esse neque.",
+        "Id": 201,
+        "Name": "Littel Inc and Sons",
+        "ToolTip": "Id qui commodi odit consectetur consequatur recusandae.",
         "Deleted": false,
-        "Rank": 955,
-        "Type": "non",
-        "ColorBlock": 927,
-        "IconHint": "fugiat",
+        "Rank": 503,
+        "Type": "porro",
+        "ColorBlock": 413,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2021-06-25T13:57:19.9690149+02:00",
+        "LastChanged": "2019-09-14T23:04:05.7134989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "asperiores",
-        "Hidden": false,
-        "FullName": "Miss Kyra Kuvalis"
+        "ExtraInfo": "saepe",
+        "StyleHint": "odit",
+        "Hidden": true,
+        "FullName": "Prof. Haskell Toni Keeling I"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Nigel Walsh"
+    "ExtraInfo": "et",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Jarvis Hammes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Williamson LLC",
-    "ToolTip": "Voluptatem perspiciatis.",
+    "Id": 902,
+    "Name": "Tremblay, Crist and Bernier",
+    "ToolTip": "Quam cum qui officiis.",
     "Deleted": false,
-    "Rank": 159,
-    "Type": "porro",
-    "ColorBlock": 12,
-    "IconHint": "ad",
+    "Rank": 932,
+    "Type": "sed",
+    "ColorBlock": 197,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2013-08-22T13:57:20.0002637+02:00",
+    "LastChanged": "2002-09-11T23:04:05.7149977+02:00",
     "ChildItems": [
       {
-        "Id": 588,
-        "Name": "Toy, Parisian and Miller",
-        "ToolTip": "Est ipsam aut vitae porro sapiente doloremque.",
-        "Deleted": false,
-        "Rank": 213,
-        "Type": "reiciendis",
-        "ColorBlock": 893,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2002-07-20T13:57:20.0002637+02:00",
+        "Id": 528,
+        "Name": "Kiehn, Ledner and Goldner",
+        "ToolTip": "Ut sed magni in officia consequatur voluptatem.",
+        "Deleted": true,
+        "Rank": 773,
+        "Type": "sunt",
+        "ColorBlock": 257,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2021-07-16T23:04:05.7149977+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Agustin Buckridge IV",
+        "ExtraInfo": "est",
+        "StyleHint": "iusto",
+        "Hidden": false,
+        "FullName": "Serena Wolf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 132
+            "FieldLength": 18
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "unde",
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptates",
     "Hidden": true,
-    "FullName": "Randi Hodkiewicz",
+    "FullName": "Dr. Lenna Isabella Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 509
       }
     }
   }

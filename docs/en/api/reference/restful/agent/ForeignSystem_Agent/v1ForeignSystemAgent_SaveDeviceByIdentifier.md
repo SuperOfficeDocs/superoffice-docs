@@ -88,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rowe, Wyman and Upton",
-  "DeviceName": "Huel, Schoen and Luettgen",
-  "DeviceIdentifier": "provident",
+  "ApplicationName": "Bergnaum, Murphy and Johnston",
+  "DeviceName": "Pouros LLC",
+  "DeviceIdentifier": "quibusdam",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 519,
-  "Name": "Pagac, Parisian and Wiza",
-  "CreatedDate": "1997-05-03T13:57:12.4181107+02:00",
-  "UpdatedDate": "2001-07-07T13:57:12.4181107+02:00",
-  "AssociateFullName": "Isom Johnston",
-  "CreatedBy": "qui",
-  "UpdatedBy": "nulla",
-  "DeviceIdentifier": "a",
-  "ForeignAppId": 395,
+  "ForeignDeviceId": 787,
+  "Name": "Fadel Inc and Sons",
+  "CreatedDate": "2019-04-01T23:03:56.1131275+02:00",
+  "UpdatedDate": "2015-09-12T23:03:56.1131275+02:00",
+  "AssociateFullName": "Eula Rath",
+  "CreatedBy": "quia",
+  "UpdatedBy": "ipsam",
+  "DeviceIdentifier": "quidem",
+  "ForeignAppId": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldLength": 410
     }
   }
 }

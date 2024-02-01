@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "ut",
+  "FieldLabel": "et",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 950,
-  "ColumnId": 338,
-  "FieldDefault": "molestiae",
-  "FieldHeight": 335,
-  "FieldLabel": "molestias",
-  "FieldLeft": 112,
-  "FieldTop": 35,
+  "UDefFieldId": 292,
+  "ColumnId": 560,
+  "FieldDefault": "et",
+  "FieldHeight": 927,
+  "FieldLabel": "molestiae",
+  "FieldLeft": 738,
+  "FieldTop": 580,
   "FieldType": "Checkbox",
-  "FieldWidth": 744,
-  "FormatMask": "magni",
-  "HideLabel": true,
+  "FieldWidth": 966,
+  "FormatMask": "qui",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 174,
-  "LabelLeft": 969,
-  "LabelTop": 854,
-  "LabelWidth": 817,
-  "LastVersionId": 147,
-  "ListTableId": 863,
+  "LabelHeight": 928,
+  "LabelLeft": 426,
+  "LabelTop": 224,
+  "LabelWidth": 688,
+  "LastVersionId": 276,
+  "ListTableId": 678,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 344,
-  "ProgId": "est",
+  "Page1LineNo": 264,
+  "ProgId": "eum",
   "IsReadOnly": false,
-  "ShortLabel": "fugit",
-  "TabOrder": 748,
-  "TextLength": 739,
-  "Tooltip": "iste",
-  "UdefIdentity": 325,
-  "UDListDefinitionId": 421,
+  "ShortLabel": "eos",
+  "TabOrder": 957,
+  "TextLength": 62,
+  "Tooltip": "est",
+  "UdefIdentity": 792,
+  "UDListDefinitionId": 331,
   "Justification": "Center",
-  "Version": 769,
-  "TemplateVariableName": "Schaden LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Hane, Will and Hamill",
+  "Version": 303,
+  "TemplateVariableName": "Fisher-Kris",
+  "HasBeenPublished": true,
+  "MdoListName": "Bernier-Hodkiewicz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 100
     }
   }
 }

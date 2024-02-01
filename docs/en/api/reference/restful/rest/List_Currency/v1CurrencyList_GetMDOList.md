@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=aut
+GET /api/v1/List/Currency/MDOItems?query=nesciunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Skiles-Kautzer",
-    "ToolTip": "Aperiam velit impedit consequatur.",
+    "Id": 924,
+    "Name": "Herzog LLC",
+    "ToolTip": "Reiciendis dolorem ex molestiae rerum.",
     "Deleted": false,
-    "Rank": 666,
-    "Type": "inventore",
+    "Rank": 569,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Barton Inc and Sons",
-        "ToolTip": "Aperiam iusto est.",
+        "Id": 972,
+        "Name": "Kerluke LLC",
+        "ToolTip": "Molestias voluptates et ut.",
         "Deleted": false,
-        "Rank": 964,
-        "Type": "facere",
+        "Rank": 865,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 310,
-        "ExtraInfo": "eligendi",
-        "StyleHint": "eum",
-        "FullName": "Mrs. Shanon Franecki",
+        "IconHint": "itaque",
+        "ColorBlock": 938,
+        "ExtraInfo": "vel",
+        "StyleHint": "quo",
+        "FullName": "Prof. Edgardo Carlo Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 380
+            "FieldLength": 970
           }
         }
       }
     ],
-    "IconHint": "corporis",
-    "ColorBlock": 221,
-    "ExtraInfo": "in",
-    "StyleHint": "earum",
-    "FullName": "Dejuan Ulices Auer III",
+    "IconHint": "vero",
+    "ColorBlock": 177,
+    "ExtraInfo": "cum",
+    "StyleHint": "voluptatibus",
+    "FullName": "Jocelyn Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldLength": 160
       }
     }
   }

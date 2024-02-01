@@ -60,6 +60,7 @@ The WebPanelEntity to be saved.
 | ProgId | String | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | Integer | The icon of the webpanel |
 | AlwaysReloadOnShow | Boolean | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | Boolean | If set to true, the content will not reload on current changes, only applies to sidepanels |
 
 ## Response:
 
@@ -94,6 +95,7 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | bool | If set to true, the content will not reload on current changes, only applies to sidepanels |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -103,31 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 689,
-  "Name": "Hessel LLC",
-  "Tooltip": "error",
+  "WebPanelId": 3,
+  "Name": "Bergstrom, Zieme and Feest",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 3,
+  "Rank": 63,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Stracke Group",
+  "WindowName": "Kessler Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "sunt",
-  "Icon": 19,
-  "AlwaysReloadOnShow": false
+  "ProgId": "rerum",
+  "Icon": 973,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -138,33 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 442,
-  "Name": "Stokes, Rodriguez and Cole",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "Rank": 703,
+  "WebPanelId": 561,
+  "Name": "Heller LLC",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 952,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Roob, Cartwright and Jacobs",
+  "WindowName": "Ryan, Weber and Lehner",
   "Url": "http://www.example.com/",
-  "ProgId": "esse",
-  "Icon": 58,
+  "ProgId": "aliquam",
+  "Icon": 809,
   "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 297
     }
   }
 }

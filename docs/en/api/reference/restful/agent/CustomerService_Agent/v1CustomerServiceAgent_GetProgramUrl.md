@@ -73,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Block, Tromp and Hettinger",
+  "ProgramName": "Walsh Group",
   "External": false
 }
 ```

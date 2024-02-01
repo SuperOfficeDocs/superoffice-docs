@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 339,
-  "Name": "Fisher LLC",
-  "Rank": 312,
-  "Tooltip": "et",
+  "AssociateId": 410,
+  "Name": "Dietrich-Durgan",
+  "Rank": 217,
+  "Tooltip": "est",
   "LicenseOwners": [
     {
-      "Name": "Bosco Inc and Sons",
-      "Description": "Triple-buffered maximized archive",
+      "Name": "Schmeler LLC",
+      "Description": "Grass-roots homogeneous algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 425
         }
       }
     },
     {
-      "Name": "Bosco Inc and Sons",
-      "Description": "Triple-buffered maximized archive",
+      "Name": "Schmeler LLC",
+      "Description": "Grass-roots homogeneous algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 425
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ut",
-      "Tooltip": "quis",
-      "Id": 674,
-      "Rank": 243,
+      "Value": "sequi",
+      "Tooltip": "soluta",
+      "Id": 716,
+      "Rank": 210,
       "Deleted": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 687
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1998-10-11T13:57:19.5471464+02:00",
-  "Lastlogout": "2008-01-24T13:57:19.5471464+01:00",
-  "EjUserId": 882,
-  "RequestSignature": "facere",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "maxime",
-      "DisplayValue": "consequatur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "maxime",
-      "DisplayValue": "consequatur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
-        }
-      }
-    }
-  ],
-  "UserName": "O'Kon Group",
-  "TicketCategories": [
-    {
-      "Id": 221,
-      "Name": "Bartoletti-Russel",
-      "ToolTip": "Hic id quia.",
-      "Deleted": false,
-      "Rank": 468,
-      "Type": "ab",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "possimus",
-      "ColorBlock": 129,
-      "ExtraInfo": "ut",
-      "StyleHint": "fugiat",
-      "FullName": "Dr. Ludwig Rocio Rogahn MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 375
         }
       }
     }
   ],
-  "NickName": "O'Connell-Daniel",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "necessitatibus"
-  },
-  "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "non"
-  },
-  "PostSaveCommands": [
+  "Person": null,
+  "Deleted": false,
+  "Lastlogin": "2018-10-05T23:04:05.1890101+02:00",
+  "Lastlogout": "2001-03-10T23:04:05.1890101+01:00",
+  "EjUserId": 188,
+  "RequestSignature": "aut",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
+  "Credentials": [
     {
-      "Name": "Prosacco, Ernser and O'Hara",
-      "DisplayName": "Rowe LLC",
-      "Description": "Team-oriented explicit extranet",
-      "ToolTip": "Dicta voluptate qui est.",
-      "Actions": "Implicit",
-      "ActionData": "omnis",
+      "Type": null,
+      "Value": "quam",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldLength": 505
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "quam",
+      "DisplayValue": "fugit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 505
+        }
+      }
+    }
+  ],
+  "UserName": "Muller, Sauer and Bins",
+  "TicketCategories": [
+    {
+      "Id": 432,
+      "Name": "Tremblay-Stracke",
+      "ToolTip": "Eveniet rerum.",
+      "Deleted": true,
+      "Rank": 864,
+      "Type": "est",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "architecto",
+      "ColorBlock": 744,
+      "ExtraInfo": "atque",
+      "StyleHint": "sint",
+      "FullName": "Johnson Ortiz",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 764
+        }
+      }
+    }
+  ],
+  "NickName": "Ferry, Kihn and Crist",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "non",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "pariatur",
+    "CustomFields2": "velit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Jaskolski Group",
+      "DisplayName": "Cummings-Treutel",
+      "Description": "Versatile user-facing flexibility",
+      "ToolTip": "Aliquid minus minima vel tempore dolores.",
+      "Actions": "Implicit",
+      "ActionData": "ratione",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 902
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 523
     }
   }
 }

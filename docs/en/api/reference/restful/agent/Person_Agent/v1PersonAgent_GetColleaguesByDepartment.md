@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 727
+  "DepartmentId": 212
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "dolorem",
-    "PersonId": 449,
-    "Mrmrs": "et",
-    "Firstname": "Patsy",
-    "Lastname": "Waelchi",
-    "MiddleName": "Davis, Stroman and McClure",
-    "Title": "nulla",
-    "Description": "Phased optimal software",
-    "Email": "rachel_okeefe@brown.co.uk",
-    "FullName": "Stevie Westley Morissette MD",
-    "DirectPhone": "(449)634-4419",
-    "FormalName": "Huels-Bernhard",
-    "CountryId": 902,
-    "ContactId": 363,
-    "ContactName": "Hermann LLC",
-    "Retired": 546,
-    "Rank": 165,
-    "ActiveInterests": 634,
-    "ContactDepartment": "architect killer mindshare",
-    "ContactCountryId": 714,
-    "ContactOrgNr": "868837",
-    "FaxPhone": "482.311.4350",
-    "MobilePhone": "1-774-875-9684 x97735",
-    "ContactPhone": "697.881.9570",
-    "AssociateName": "Volkman, Rowe and Metz",
-    "AssociateId": 809,
-    "UsePersonAddress": true,
-    "ContactFax": "rem",
-    "Kanafname": "provident",
-    "Kanalname": "voluptates",
-    "Post1": "enim",
-    "Post2": "fugiat",
-    "Post3": "dicta",
-    "EmailName": "alaina@schinner.ca",
-    "ContactFullName": "Mrs. Joanie Moen DVM",
-    "ActiveErpLinks": 896,
-    "TicketPriorityId": 639,
-    "SupportLanguageId": 62,
-    "SupportAssociateId": 770,
+    "Position": "repudiandae",
+    "PersonId": 446,
+    "Mrmrs": "non",
+    "Firstname": "Madonna",
+    "Lastname": "Walter",
+    "MiddleName": "Huel Group",
+    "Title": "ut",
+    "Description": "Organized tangible adapter",
+    "Email": "mia.moen@pourosrempel.com",
+    "FullName": "Jude Carroll",
+    "DirectPhone": "742.713.1469 x04703",
+    "FormalName": "Sipes, Prohaska and Oberbrunner",
+    "CountryId": 778,
+    "ContactId": 193,
+    "ContactName": "Volkman Inc and Sons",
+    "Retired": 923,
+    "Rank": 144,
+    "ActiveInterests": 288,
+    "ContactDepartment": "",
+    "ContactCountryId": 742,
+    "ContactOrgNr": "739748",
+    "FaxPhone": "400-089-8833 x5306",
+    "MobilePhone": "(286)576-6395",
+    "ContactPhone": "(790)269-5873 x0395",
+    "AssociateName": "Veum Inc and Sons",
+    "AssociateId": 123,
+    "UsePersonAddress": false,
+    "ContactFax": "nihil",
+    "Kanafname": "veniam",
+    "Kanalname": "nobis",
+    "Post1": "sit",
+    "Post2": "ut",
+    "Post3": "sunt",
+    "EmailName": "samir@denesik.us",
+    "ContactFullName": "Dr. Lorine Schuster V",
+    "ActiveErpLinks": 944,
+    "TicketPriorityId": 634,
+    "SupportLanguageId": 861,
+    "SupportAssociateId": 659,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 938
       }
     }
   }

@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 762,
-  "ERPProductKey": "magni"
+  "QuoteAlternativeId": 529,
+  "ERPProductKey": "quia"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 664,
-  "ERPQuoteLineKey": "officia",
-  "QuoteAlternativeId": 552,
-  "ERPProductKey": "corrupti",
+  "QuoteLineId": 415,
+  "ERPQuoteLineKey": "harum",
+  "QuoteAlternativeId": 106,
+  "ERPProductKey": "perferendis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 16140.1,
-  "DeliveredQuantity": 4961.1219999999994,
-  "Rank": 995,
-  "Name": "Greenholt Group",
-  "Description": "Open-source content-based instruction set",
-  "Code": "voluptatem",
-  "QuantityUnit": "asperiores",
-  "PriceUnit": "non",
-  "ItemNumber": "599573",
+  "Quantity": 28243.608,
+  "DeliveredQuantity": 26591.989999999998,
+  "Rank": 472,
+  "Name": "Schultz, Lindgren and Mohr",
+  "Description": "Fundamental radical leverage",
+  "Code": "ipsa",
+  "QuantityUnit": "cupiditate",
+  "PriceUnit": "cum",
+  "ItemNumber": "948580",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "odio",
-  "ProductTypeKey": "mollitia",
-  "Supplier": "voluptatem",
-  "SupplierCode": "et",
-  "Thumbnail": "illo",
-  "VATInfo": "quia",
-  "VAT": 8668.644,
-  "UnitCost": 30205.492,
-  "UnitMinimumPrice": 22213.791999999998,
-  "UnitListPrice": 2265.882,
+  "ProductFamilyKey": "officia",
+  "ProductTypeKey": "est",
+  "Supplier": "quisquam",
+  "SupplierCode": "iusto",
+  "Thumbnail": "vel",
+  "VATInfo": "sed",
+  "VAT": 6756.9039999999995,
+  "UnitCost": 13751.992,
+  "UnitMinimumPrice": 13222.346,
+  "UnitListPrice": 14955.448,
   "ExtraInfo": [
     {
-      "Name": "Mueller Inc and Sons",
-      "Value": "qui",
+      "Name": "Jewess-Hand",
+      "Value": "quo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldType": "System.Int32",
+          "FieldLength": 977
         }
       }
     },
     {
-      "Name": "Mueller Inc and Sons",
-      "Value": "qui",
+      "Name": "Jewess-Hand",
+      "Value": "quo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldType": "System.Int32",
+          "FieldLength": 977
         }
       }
     }
   ],
-  "RawExtraInfo": "distinctio",
-  "IsSubscription": false,
-  "SubscriptionUnit": "aut",
-  "SubscriptionQuantity": 6935.5419999999995,
-  "SubscriptionStart": "2017-12-10T13:57:13.0805627+01:00",
-  "ERPDiscountPercent": 21530.579999999998,
-  "ERPDiscountAmount": 6766.306,
-  "DiscountPercent": 8186.008,
-  "DiscountAmount": 31048.538,
+  "RawExtraInfo": "placeat",
+  "IsSubscription": true,
+  "SubscriptionUnit": "reiciendis",
+  "SubscriptionQuantity": 25354.059999999998,
+  "SubscriptionStart": "1998-05-04T23:03:56.7961175+02:00",
+  "ERPDiscountPercent": 4302.982,
+  "ERPDiscountAmount": 13921.228,
+  "DiscountPercent": 30186.688,
+  "DiscountAmount": 6177.114,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 9643.318,
-  "EarningAmount": 24357.448,
-  "SubTotal": 3362.7819999999997,
-  "TotalPrice": 24269.696,
-  "Rights": "sequi",
-  "Rule": "quibusdam",
-  "ExtraField1": "ex",
-  "ExtraField2": "omnis",
-  "ExtraField3": "sint",
-  "ExtraField4": "possimus",
-  "ExtraField5": "nisi",
+  "EarningPercent": 22201.255999999998,
+  "EarningAmount": 25698.8,
+  "SubTotal": 11993.818,
+  "TotalPrice": 8590.294,
+  "Rights": "voluptatibus",
+  "Rule": "exercitationem",
+  "ExtraField1": "dolores",
+  "ExtraField2": "modi",
+  "ExtraField3": "velit",
+  "ExtraField4": "animi",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 396,
-    "Name": "Hyatt, Kihn and Fritsch",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 418,
-    "UdListDefinitionId": 532
+    "HeadingId": 172,
+    "Name": "Dicki, Brown and Zboncak",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 539,
+    "UdListDefinitionId": 4
   },
   {
-    "HeadingId": 396,
-    "Name": "Hyatt, Kihn and Fritsch",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 418,
-    "UdListDefinitionId": 532
+    "HeadingId": 172,
+    "Name": "Dicki, Brown and Zboncak",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 539,
+    "UdListDefinitionId": 4
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 489,
-    "Name": "Smith Group",
-    "Tooltip": "nihil",
+    "HeadingId": 185,
+    "Name": "Kassulke Inc and Sons",
+    "Tooltip": "odio",
     "Deleted": false,
-    "Rank": 760,
-    "UdListDefinitionId": 553,
+    "Rank": 71,
+    "UdListDefinitionId": 200,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldLength": 408
       }
     }
   }

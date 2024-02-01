@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Heaney LLC",
-  "Tooltip": "enim",
+  "Id": 635,
+  "Name": "Maggio LLC",
+  "Tooltip": "sint",
   "Deleted": true,
-  "Rank": 779,
+  "Rank": 604,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "enim",
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 31,
-  "Name": "Kris-Runolfsson",
-  "Tooltip": "quis",
+  "Id": 200,
+  "Name": "Stracke Group",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 446,
-  "IsCustomList": true,
+  "Rank": 1002,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sunt",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 937
+      "FieldType": "System.Int32",
+      "FieldLength": 649
     }
   }
 }

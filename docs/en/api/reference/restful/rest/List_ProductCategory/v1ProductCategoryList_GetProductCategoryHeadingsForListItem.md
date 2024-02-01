@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Simonis, Gerlach and Morar",
-    "ToolTip": "Est harum quisquam fuga ut.",
-    "Deleted": true,
-    "Rank": 974,
-    "Type": "et",
-    "ColorBlock": 948,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2012-01-20T13:57:19.8752673+01:00",
+    "Id": 412,
+    "Name": "D'Amore, Dach and Haag",
+    "ToolTip": "Praesentium qui autem dolorem veritatis quia.",
+    "Deleted": false,
+    "Rank": 686,
+    "Type": "veniam",
+    "ColorBlock": 993,
+    "IconHint": "exercitationem",
+    "Selected": false,
+    "LastChanged": "2021-02-23T23:04:05.6144702+01:00",
     "ChildItems": [
       {
-        "Id": 91,
-        "Name": "Reynolds-Davis",
-        "ToolTip": "Incidunt rerum autem sit cumque laborum magnam et.",
+        "Id": 255,
+        "Name": "Jaskolski LLC",
+        "ToolTip": "Tenetur rerum sed dolor porro vel occaecati.",
         "Deleted": false,
-        "Rank": 664,
-        "Type": "laudantium",
-        "ColorBlock": 757,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2011-11-07T13:57:19.8752673+01:00",
+        "Rank": 948,
+        "Type": "eius",
+        "ColorBlock": 252,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2013-11-27T23:04:05.6144702+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "aut",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Lorenza Aurelie Raynor MD",
+        "FullName": "Miss Lilly Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 854
+            "FieldType": "System.Int32",
+            "FieldLength": 206
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "dolorum",
-    "Hidden": true,
-    "FullName": "Mr. Austyn Neoma Farrell V",
+    "ExtraInfo": "ad",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Dylan Koch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldType": "System.String",
+        "FieldLength": 406
       }
     }
   }

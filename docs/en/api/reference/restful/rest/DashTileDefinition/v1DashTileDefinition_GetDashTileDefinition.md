@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 976,
-  "Name": "Marvin LLC",
-  "Description": "Horizontal value-added customer loyalty",
-  "DefaultHeight": 1002,
-  "DefaultWidth": 152,
+  "DashboardTileDefinitionId": 88,
+  "Name": "Emmerich, Kuhlman and Shanahan",
+  "Description": "Object-based static encoding",
+  "DefaultHeight": 737,
+  "DefaultWidth": 690,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rolfson-Greenfelder",
-  "SelectionId": 30,
+  "EntityName": "Nolan, Murazik and Cormier",
+  "SelectionId": 975,
   "CurrencyMode": "Base",
-  "CurrencyCode": "magnam",
+  "CurrencyCode": "vitae",
   "Measure": "Average",
-  "MeasureField": "maxime",
-  "SortBy": "sed",
-  "LayoutConfig": "voluptates",
-  "SecondarySelectionId": 848,
-  "MeasureByField": "magni",
+  "MeasureField": "voluptas",
+  "SortBy": "laborum",
+  "LayoutConfig": "omnis",
+  "SecondarySelectionId": 318,
+  "MeasureByField": "accusamus",
   "Usage": "Dashboard",
-  "ProviderName": "Douglas-Graham",
+  "ProviderName": "Stroman-Hoppe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 894
     }
   },
   "_Links": {

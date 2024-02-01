@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Anderson-Wintheiser",
-    "ToolTip": "Fugiat ratione eum tempore repellendus distinctio.",
+    "Id": 896,
+    "Name": "Stark-Stark",
+    "ToolTip": "Nesciunt sit.",
     "Deleted": false,
-    "Rank": 357,
-    "Type": "assumenda",
-    "ColorBlock": 521,
-    "IconHint": "in",
+    "Rank": 901,
+    "Type": "dignissimos",
+    "ColorBlock": 978,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2015-11-26T13:57:19.7346424+01:00",
+    "LastChanged": "2023-02-26T23:04:05.439+01:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Torphy-Stoltenberg",
-        "ToolTip": "Consequatur incidunt aliquid illo.",
-        "Deleted": false,
-        "Rank": 57,
-        "Type": "delectus",
-        "ColorBlock": 79,
-        "IconHint": "assumenda",
+        "Id": 475,
+        "Name": "Lehner-Torp",
+        "ToolTip": "Et quam maiores ipsa animi.",
+        "Deleted": true,
+        "Rank": 500,
+        "Type": "perferendis",
+        "ColorBlock": 658,
+        "IconHint": "facilis",
         "Selected": true,
-        "LastChanged": "2002-08-25T13:57:19.7346424+02:00",
+        "LastChanged": "2014-03-14T23:04:05.4395012+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Agnes Beatty",
+        "ExtraInfo": "ut",
+        "StyleHint": "aperiam",
+        "Hidden": false,
+        "FullName": "Dr. Eleanora Jaron Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 253
+            "FieldType": "System.Int32",
+            "FieldLength": 144
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "earum",
+    "ExtraInfo": "placeat",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Audrey Kiehn DVM",
+    "FullName": "Jerad Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 591
       }
     }
   }

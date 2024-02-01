@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "debitis",
-  "ProviderName": "Keebler-Schumm",
-  "StorageKey": "voluptas",
+  "StorageType": "ut",
+  "ProviderName": "Kihn-Mayert",
+  "StorageKey": "ea",
   "DesiredColumnNames": [
-    "Kunde, Bode and Runte",
-    "Lakin, Reilly and Kshlerin"
+    "Strosin, Kunze and Orn",
+    "McClure-Beatty"
   ],
   "StaticColumns": [
-    "sed",
-    "quidem"
+    "eaque",
+    "rerum"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Klein, Tromp and Nikolaus",
-      "Operator": "ea",
+      "Name": "Langworth-Konopelski",
+      "Operator": "necessitatibus",
       "Values": [
-        "a",
-        "saepe"
+        "sunt",
+        "sequi"
       ],
       "DisplayValues": [
-        "accusantium",
-        "eaque"
+        "debitis",
+        "aspernatur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 983,
+      "InterParenthesis": 796,
       "InterOperator": "And",
-      "UniqueHash": 757
+      "UniqueHash": 558
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hessel, Sporer and Greenfelder",
-      "DisplayTooltip": "qui",
-      "DisplayType": "facere",
+      "DisplayName": "O'Reilly-Herman",
+      "DisplayTooltip": "voluptatum",
+      "DisplayType": "explicabo",
       "CanOrderBy": false,
-      "Name": "Leannon-Wilderman",
-      "CanRestrictBy": true,
-      "RestrictionType": "nesciunt",
-      "RestrictionListName": "Krajcik, Jacobs and Carter",
-      "IsVisible": true,
-      "ExtraInfo": "consectetur",
-      "Width": "esse",
-      "IconHint": "aut",
-      "HeadingIconHint": "quaerat"
+      "Name": "Keeling Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "eius",
+      "RestrictionListName": "Haley, Stehr and Dare",
+      "IsVisible": false,
+      "ExtraInfo": "fugiat",
+      "Width": "et",
+      "IconHint": "fugit",
+      "HeadingIconHint": "sit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Oberbrunner LLC",
-      "PrimaryKey": 144,
+      "EntityName": "Keebler, Greenholt and Stanton",
+      "PrimaryKey": 840,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "earum",
-          "TooltipHint": "reprehenderit",
-          "LinkHint": "et"
+          "DisplayValue": "ut",
+          "TooltipHint": "tenetur",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "non",
+      "LinkHint": "enim",
+      "StyleHint": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 363
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Thompson-Kuvalis",
-      "Description": "Focused incremental synergy",
-      "Rank": 60,
+      "Name": "Kiehn-Quitzon",
+      "Description": "Future-proofed object-oriented internet solution",
+      "Rank": 206,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Thompson-Kuvalis",
-      "Description": "Focused incremental synergy",
-      "Rank": 60,
+      "Name": "Kiehn-Quitzon",
+      "Description": "Future-proofed object-oriented internet solution",
+      "Rank": 206,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldLength": 294
     }
   }
 }

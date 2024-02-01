@@ -114,18 +114,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "magni",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "magni",
     "value": {}
   }
 ]
@@ -138,19 +138,19 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 312,
-  "Name": "Quitzon Group",
-  "ContentType": "autem",
-  "AttSize": 5,
+  "AttachmentId": 333,
+  "Name": "Heaney, Ledner and Dickinson",
+  "ContentType": "harum",
+  "AttSize": 843,
   "InlineImage": false,
-  "ContentId": "blanditiis",
-  "AuthKey": "doloribus",
+  "ContentId": "ea",
+  "AuthKey": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldLength": 724
     }
   },
   "_Links": {

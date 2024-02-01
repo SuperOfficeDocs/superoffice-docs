@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 972,
-  "ERPProductKey": "asperiores",
-  "ERPPriceListKey": "magni",
-  "Name": "West-Gaylord",
-  "Description": "Versatile intermediate task-force",
-  "Code": "harum",
-  "PriceUnit": "doloremque",
-  "QuantityUnit": "autem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "consectetur",
-  "DefaultSubscriptionQuantity": 24661.446,
-  "ItemNumber": "1140314",
+  "ProductId": 127,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "ducimus",
+  "Name": "Rohan LLC",
+  "Description": "Configurable 4th generation pricing structure",
+  "Code": "vel",
+  "PriceUnit": "natus",
+  "QuantityUnit": "voluptatem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 9176.351999999999,
+  "ItemNumber": "988459",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "corrupti",
-  "VAT": 12736.576,
+  "ProductFamilyKey": "enim",
+  "ProductTypeKey": "est",
+  "VAT": 6891.666,
   "VATInfo": "cupiditate",
-  "UnitCost": 30832.291999999998,
-  "UnitMinimumPrice": 13799.002,
-  "UnitListPrice": 29086.654,
-  "InAssortment": true,
-  "Supplier": "dolores",
-  "SupplierCode": "aut",
-  "Rights": "sit",
-  "Rule": "autem",
+  "UnitCost": 28046.165999999997,
+  "UnitMinimumPrice": 11667.882,
+  "UnitListPrice": 19753.602,
+  "InAssortment": false,
+  "Supplier": "officia",
+  "SupplierCode": "et",
+  "Rights": "eum",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Macejkovic-Conn",
-      "Value": "amet",
+      "Name": "Ryan, Block and Breitenberg",
+      "Value": "velit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 345
         }
       }
     },
     {
-      "Name": "Macejkovic-Conn",
-      "Value": "amet",
+      "Name": "Ryan, Block and Breitenberg",
+      "Value": "velit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 345
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "vero",
-  "ExtraField2": "voluptates",
-  "ExtraField3": "aut",
-  "ExtraField4": "enim",
-  "ExtraField5": "occaecati",
-  "InStock": 15118.416,
+  "RawExtraInfo": "culpa",
+  "ExtraField1": "et",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "nesciunt",
+  "ExtraField4": "aspernatur",
+  "ExtraField5": "velit",
+  "InStock": 5528.376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 360
     }
   }
 }

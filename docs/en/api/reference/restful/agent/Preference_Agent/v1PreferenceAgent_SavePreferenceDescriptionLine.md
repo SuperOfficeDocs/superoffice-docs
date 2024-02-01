@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 726,
-  "PrefDescId": 243,
-  "PrefValue": "dignissimos",
-  "PrefShowValue": "molestiae",
-  "Description": "Operative directional matrix",
+  "PrefDescLineId": 912,
+  "PrefDescId": 418,
+  "PrefValue": "facere",
+  "PrefShowValue": "non",
+  "Description": "Optional bi-directional definition",
   "IsBuiltin": true
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 883,
-  "PrefDescId": 416,
-  "PrefValue": "et",
-  "PrefShowValue": "necessitatibus",
-  "Description": "Centralized static local area network",
-  "IsBuiltin": false,
+  "PrefDescLineId": 635,
+  "PrefDescId": 669,
+  "PrefValue": "enim",
+  "PrefShowValue": "voluptatem",
+  "Description": "Enhanced multimedia circuit",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 130
     }
   }
 }

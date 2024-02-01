@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "natus",
-    "commodi"
+    "occaecati",
+    "quia"
   ],
-  "CurrentClientTime": "2005-11-02T13:57:12.7812532+01:00"
+  "CurrentClientTime": "2015-04-23T23:03:56.5871204+02:00"
 }
 ```
 
@@ -102,42 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "magni",
-    "earum"
+    "sint",
+    "odit"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 320,
-  "NotificationsCount": 815,
+  "OverdueSalesCount": 135,
+  "NotificationsCount": 381,
   "SystemWebPanels": [
     {
-      "WebPanelId": 5,
-      "Name": "Greenfelder LLC",
-      "Tooltip": "qui",
-      "Deleted": false,
-      "Rank": 313,
+      "WebPanelId": 776,
+      "Name": "Kuhn Group",
+      "Tooltip": "eos",
+      "Deleted": true,
+      "Rank": 358,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
-      "OnTravel": false,
-      "OnSalesMarketingWeb": true,
+      "OnTravel": true,
+      "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": false,
+      "ShowInMenuBar": true,
       "ShowInToolBar": false,
       "ShowInAddressBar": true,
       "ShowInStatusBar": true,
-      "WindowName": "Hyatt Inc and Sons",
+      "WindowName": "Hamill, Spencer and Schroeder",
       "Url": "http://www.example.com/",
-      "ProgId": "delectus",
-      "Icon": 465,
+      "ProgId": "iure",
+      "Icon": 284,
       "AlwaysReloadOnShow": false,
+      "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 803
+          "FieldLength": 70
         }
       }
     }
@@ -145,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "maxime",
+      "RawValue": "ut",
       "Specification": null,
-      "DisplayValue": "vel",
-      "DisplayTooltip": "eaque",
+      "DisplayValue": "harum",
+      "DisplayTooltip": "commodi",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 312,
-      "PrefDescId": 405,
-      "TableName": "Jaskolski-Bergstrom",
-      "UserPreferenceId": 179,
+      "TargetId": 801,
+      "PrefDescId": 400,
+      "TableName": "Dibbert, Windler and Padberg",
+      "UserPreferenceId": 352,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 505
+          "FieldType": "System.Int32",
+          "FieldLength": 74
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "magni",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 649
     }
   }
 }

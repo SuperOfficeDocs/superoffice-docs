@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=439
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=95
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 509,
-  "Name": "Hane-Cronin",
-  "Description": "Optimized systemic conglomeration",
-  "DefaultHeight": 489,
-  "DefaultWidth": 987,
+  "DashboardTileDefinitionId": 540,
+  "Name": "Quitzon, Bergnaum and Green",
+  "Description": "Robust transitional artificial intelligence",
+  "DefaultHeight": 345,
+  "DefaultWidth": 477,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hoeger Inc and Sons",
-  "SelectionId": 521,
+  "EntityName": "Hoppe, Watsica and Durgan",
+  "SelectionId": 299,
   "CurrencyMode": "Base",
-  "CurrencyCode": "animi",
+  "CurrencyCode": "omnis",
   "Measure": "Average",
-  "MeasureField": "doloremque",
-  "SortBy": "cupiditate",
-  "LayoutConfig": "dolorem",
-  "SecondarySelectionId": 249,
-  "MeasureByField": "non",
+  "MeasureField": "totam",
+  "SortBy": "quisquam",
+  "LayoutConfig": "eligendi",
+  "SecondarySelectionId": 312,
+  "MeasureByField": "nulla",
   "Usage": "Dashboard",
-  "ProviderName": "Grimes, Cole and Cruickshank",
+  "ProviderName": "Weissnat-Gulgowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 622
     }
   }
 }

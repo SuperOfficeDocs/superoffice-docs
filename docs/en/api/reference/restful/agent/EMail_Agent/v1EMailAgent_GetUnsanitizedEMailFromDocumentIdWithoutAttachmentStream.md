@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 828
+  "DocumentId": 340
 }
 ```
 
@@ -120,156 +120,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 378,
-      "ContactName": "Lehner LLC",
-      "PersonId": 493,
-      "PersonName": "Kreiger, Schuster and Ziemann",
-      "AssociateId": 239,
-      "Address": "quo",
-      "EmailId": 405,
+      "ContactId": 16,
+      "ContactName": "Gusikowski-Lind",
+      "PersonId": 158,
+      "PersonName": "Koepp Group",
+      "AssociateId": 897,
+      "Address": "et",
+      "EmailId": 556,
       "DuplicatePersonIds": [
-        805,
-        481
+        794,
+        573
       ],
-      "Name": "Herzog, Cruickshank and Bernhard",
+      "Name": "Weissnat, Ziemann and Legros",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldLength": 718
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 82,
-      "ContactName": "Pacocha, Farrell and Stoltenberg",
-      "PersonId": 976,
-      "PersonName": "Waelchi Inc and Sons",
-      "AssociateId": 721,
-      "Address": "est",
-      "EmailId": 183,
+      "ContactId": 857,
+      "ContactName": "Toy Group",
+      "PersonId": 887,
+      "PersonName": "Berge Inc and Sons",
+      "AssociateId": 862,
+      "Address": "aut",
+      "EmailId": 635,
       "DuplicatePersonIds": [
-        626,
-        371
+        80,
+        310
       ],
-      "Name": "Blick-Bartoletti",
+      "Name": "Stamm, Crooks and Sawayn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldType": "System.String",
+          "FieldLength": 22
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 523,
-      "ContactName": "Littel-Rodriguez",
-      "PersonId": 678,
-      "PersonName": "Batz, Effertz and Ebert",
-      "AssociateId": 762,
-      "Address": "voluptatem",
-      "EmailId": 890,
+      "ContactId": 505,
+      "ContactName": "Larkin-Dibbert",
+      "PersonId": 147,
+      "PersonName": "Corwin, Collins and Cartwright",
+      "AssociateId": 133,
+      "Address": "doloribus",
+      "EmailId": 115,
       "DuplicatePersonIds": [
-        595,
-        459
+        126,
+        226
       ],
-      "Name": "Bergstrom Inc and Sons",
+      "Name": "Schuppe-Kunze",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 746
         }
       }
     }
   ],
-  "Subject": "impedit",
-  "HTMLBody": "beatae",
+  "Subject": "cum",
+  "HTMLBody": "nam",
   "From": null,
-  "Sent": "2020-10-24T13:57:12.2623677+02:00",
-  "Size": 146,
+  "Sent": "2010-01-27T23:03:55.9011299+01:00",
+  "Size": 199,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "facilis",
-  "PlainBody": "et",
-  "IsSent": false,
+  "MessageID": "ipsam",
+  "PlainBody": "voluptatem",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 863,
+  "ServerId": 693,
   "Attachments": [
     {
-      "Description": "Persevering tertiary data-warehouse",
-      "Filename": "ipsum",
-      "Size": 245,
-      "Type": "iste",
+      "Description": "Virtual context-sensitive contingency",
+      "Filename": "impedit",
+      "Size": 435,
+      "Type": "est",
       "Encoding": "est",
-      "Id": "numquam",
-      "Disposition": "id",
-      "IsSafeFileExtension": false,
+      "Id": "dignissimos",
+      "Disposition": "nihil",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 570
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schiller-Bins",
+      "Name": "Lueilwitz, Crooks and Kreiger",
       "Values": [
-        "numquam",
-        "nulla"
+        "tempore",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldType": "System.String",
+          "FieldLength": 286
         }
       }
     },
     {
-      "Name": "Schiller-Bins",
+      "Name": "Lueilwitz, Crooks and Kreiger",
       "Values": [
-        "numquam",
-        "nulla"
+        "tempore",
+        "illum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldType": "System.String",
+          "FieldLength": 286
         }
       }
     }
   ],
-  "FolderName": "Sipes Inc and Sons",
-  "EmailItemId": 882,
-  "AccountId": 312,
-  "ReceivedAt": "2005-04-10T13:57:12.2623677+02:00",
+  "FolderName": "Ferry-Reilly",
+  "EmailItemId": 615,
+  "AccountId": 442,
+  "ReceivedAt": "2017-08-11T23:03:55.9016297+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-02-20T13:57:12.2623677+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1999-07-14T23:03:55.9016297+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

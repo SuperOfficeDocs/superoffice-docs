@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stroman LLC",
-    "Description": "Adaptive tertiary workforce",
+    "Name": "Keebler-Nitzsche",
+    "Description": "Stand-alone cohesive software",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 528,
-        "Tooltip": "hic",
-        "CanAssign": true,
-        "Free": 841,
-        "InUse": 434,
-        "IsHidden": true,
+        "Total": 578,
+        "Tooltip": "accusantium",
+        "CanAssign": false,
+        "Free": 810,
+        "InUse": 809,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 405,
-        "Name": "Daniel-Gulgowski",
-        "Description": "Cloned zero administration flexibility",
-        "PrerequisiteModuleName": "Kovacek LLC",
-        "SortOrder": 140,
-        "ExtraFlags": 845,
+        "ModuleLicenseId": 941,
+        "Name": "Larkin Inc and Sons",
+        "Description": "Persevering static leverage",
+        "PrerequisiteModuleName": "Denesik-Schowalter",
+        "SortOrder": 257,
+        "ExtraFlags": 783,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldType": "System.String",
+            "FieldLength": 527
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 581,
-        "Tooltip": "dicta",
+        "Total": 177,
+        "Tooltip": "enim",
         "CanAssign": true,
-        "Free": 243,
-        "InUse": 88,
+        "Free": 637,
+        "InUse": 923,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 115,
-        "Name": "Lind, Stroman and Murazik",
-        "Description": "Cross-platform composite frame",
-        "PrerequisiteModuleName": "Barrows, Leannon and Rogahn",
-        "SortOrder": 551,
-        "ExtraFlags": 35,
+        "ModuleLicenseId": 815,
+        "Name": "Weissnat-Reichert",
+        "Description": "Down-sized fresh-thinking approach",
+        "PrerequisiteModuleName": "Yundt-Weber",
+        "SortOrder": 189,
+        "ExtraFlags": 878,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 942
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 853
       }
     }
   },
   {
-    "Name": "Stroman LLC",
-    "Description": "Adaptive tertiary workforce",
+    "Name": "Keebler-Nitzsche",
+    "Description": "Stand-alone cohesive software",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 528,
-        "Tooltip": "hic",
-        "CanAssign": true,
-        "Free": 841,
-        "InUse": 434,
-        "IsHidden": true,
+        "Total": 578,
+        "Tooltip": "accusantium",
+        "CanAssign": false,
+        "Free": 810,
+        "InUse": 809,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 405,
-        "Name": "Daniel-Gulgowski",
-        "Description": "Cloned zero administration flexibility",
-        "PrerequisiteModuleName": "Kovacek LLC",
-        "SortOrder": 140,
-        "ExtraFlags": 845,
+        "ModuleLicenseId": 941,
+        "Name": "Larkin Inc and Sons",
+        "Description": "Persevering static leverage",
+        "PrerequisiteModuleName": "Denesik-Schowalter",
+        "SortOrder": 257,
+        "ExtraFlags": 783,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldType": "System.String",
+            "FieldLength": 527
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 581,
-        "Tooltip": "dicta",
+        "Total": 177,
+        "Tooltip": "enim",
         "CanAssign": true,
-        "Free": 243,
-        "InUse": 88,
+        "Free": 637,
+        "InUse": 923,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 115,
-        "Name": "Lind, Stroman and Murazik",
-        "Description": "Cross-platform composite frame",
-        "PrerequisiteModuleName": "Barrows, Leannon and Rogahn",
-        "SortOrder": 551,
-        "ExtraFlags": 35,
+        "ModuleLicenseId": 815,
+        "Name": "Weissnat-Reichert",
+        "Description": "Down-sized fresh-thinking approach",
+        "PrerequisiteModuleName": "Yundt-Weber",
+        "SortOrder": 189,
+        "ExtraFlags": 878,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 942
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 853
       }
     }
   }

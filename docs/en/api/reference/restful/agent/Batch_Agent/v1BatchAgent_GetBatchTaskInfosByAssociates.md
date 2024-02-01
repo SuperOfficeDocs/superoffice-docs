@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    623,
-    497
+    225,
+    357
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Pagac-Schaefer",
-    "AssociateId": 276,
-    "DetailsTable": 749,
-    "DetailsRecord": 729,
+    "Id": 18,
+    "Name": "Ryan, Kautzer and Goldner",
+    "AssociateId": 446,
+    "DetailsTable": 582,
+    "DetailsRecord": 521,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "ipsa",
-      "ParameterObject2": "quaerat"
+      "ParameterObject1": "est",
+      "ParameterObject2": "tenetur"
     },
-    "LastStarted": "2019-11-12T13:57:11.5438073+01:00",
-    "Created": "1998-10-20T13:57:11.5438073+02:00",
-    "StartCount": 699,
-    "DatabaseSerialNumber": "621130",
-    "Context": "est",
-    "Result": "veniam",
+    "LastStarted": "2020-10-28T23:03:55.0186416+01:00",
+    "Created": "2005-11-12T23:03:55.0186416+01:00",
+    "StartCount": 213,
+    "DatabaseSerialNumber": "1001285",
+    "Context": "et",
+    "Result": "qui",
     "State": "All",
-    "Description": "Integrated mobile moratorium",
-    "Response": "voluptatem",
-    "Request": "et",
-    "ProgressDescription": "Extended high-level function",
-    "ProgressPercent": 659,
-    "FileName": "Kertzmann, McDermott and Huels",
+    "Description": "Mandatory local archive",
+    "Response": "perspiciatis",
+    "Request": "voluptate",
+    "ProgressDescription": "Streamlined systemic data-warehouse",
+    "ProgressPercent": 322,
+    "FileName": "Abernathy-Predovic",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 964
       }
     }
   }

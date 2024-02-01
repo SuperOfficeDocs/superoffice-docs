@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 134,
-  "Name": "Waelchi, Stanton and Hermiston",
-  "Tooltip": "corrupti",
+  "Id": 435,
+  "Name": "Leuschke Inc and Sons",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "Rank": 961,
+  "Rank": 53,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "modi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
-  "Name": "D'Amore LLC",
-  "Tooltip": "cum",
-  "Deleted": false,
-  "Rank": 360,
-  "IsCustomList": true,
+  "Id": 424,
+  "Name": "Lowe-Padberg",
+  "Tooltip": "debitis",
+  "Deleted": true,
+  "Rank": 315,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

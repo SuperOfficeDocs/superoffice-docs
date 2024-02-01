@@ -102,46 +102,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 129,
-  "Caption": "sit",
-  "Description": "Versatile composite throughput",
-  "ChartName": "Hand, Parker and Rau",
-  "ChartId": "est",
+  "DashboardTileId": 620,
+  "Caption": "sint",
+  "Description": "De-engineered leading edge internet solution",
+  "ChartName": "Marks Group",
+  "ChartId": "magnam",
   "IsDefault": false,
-  "AssociateId": 181,
-  "GroupId": 559,
-  "SelectionId": 903,
-  "Config": "qui",
+  "AssociateId": 31,
+  "GroupId": 807,
+  "SelectionId": 577,
+  "Config": "perspiciatis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hayes Inc and Sons",
-      "Description": "Ameliorated demand-driven artificial intelligence",
+      "Name": "Nolan Inc and Sons",
+      "Description": "Synergized incremental neural-net",
       "Type": "Boolean",
-      "ListName": "Stamm LLC",
+      "ListName": "Muller Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "est",
-      "DefaultDataOption": true
+      "Value": "facere",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 643,
+      "VisibleId": 434,
       "Visibility": "All",
-      "DisplayValue": "reiciendis"
+      "DisplayValue": "architecto"
     },
     {
-      "VisibleId": 643,
+      "VisibleId": 434,
       "Visibility": "All",
-      "DisplayValue": "reiciendis"
+      "DisplayValue": "architecto"
     }
   ]
 }
@@ -154,64 +154,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 953,
-  "Caption": "porro",
-  "Description": "Innovative full-range benchmark",
-  "ChartName": "Graham, Romaguera and Schimmel",
-  "ChartId": "rerum",
-  "IsDefault": true,
-  "AssociateId": 772,
-  "GroupId": 633,
-  "SelectionId": 875,
-  "Config": "qui",
+  "DashboardTileId": 415,
+  "Caption": "laborum",
+  "Description": "Front-line demand-driven approach",
+  "ChartName": "Rau Group",
+  "ChartId": "laudantium",
+  "IsDefault": false,
+  "AssociateId": 245,
+  "GroupId": 249,
+  "SelectionId": 611,
+  "Config": "labore",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kreiger Inc and Sons",
-      "Description": "Reactive optimal protocol",
+      "Name": "Hartmann, Sporer and Beer",
+      "Description": "Cloned tangible service-desk",
       "Type": "Boolean",
-      "ListName": "White Group",
+      "ListName": "Kozey LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "non",
+      "Value": "consectetur",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldLength": 862
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 176,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldType": "System.String",
+          "FieldLength": 305
         }
       }
     },
     {
-      "VisibleId": 176,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldType": "System.String",
+          "FieldLength": 305
         }
       }
     }
@@ -220,13 +220,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldType": "System.String",
+      "FieldLength": 798
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

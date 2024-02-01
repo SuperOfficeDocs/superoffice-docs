@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 138,
-  "Name": "McClure, Abshire and Morissette",
-  "Tooltip": "ea",
+  "Id": 846,
+  "Name": "Orn LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 496,
-  "Rank": 591,
+  "UdListDefinitionId": 411,
+  "Rank": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldType": "System.String",
+      "FieldLength": 397
     }
   }
 }

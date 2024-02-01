@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=447
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=461
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 659,
-  "Name": "Willms Group",
-  "Tooltip": "et",
-  "SaveInDb": 791,
-  "Filename": "id",
-  "DefaultOref": "dolor",
+  "DocumentTemplateId": 846,
+  "Name": "Kreiger LLC",
+  "Tooltip": "qui",
+  "SaveInDb": 824,
+  "Filename": "voluptatum",
+  "DefaultOref": "voluptas",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 899,
-  "IntentId": 241,
+  "AutoeventId": 699,
+  "IntentId": 622,
   "IsDefaultPublished": false,
-  "Rank": 926,
-  "LoadTemplateFromPlugin": 812,
-  "MimeType": "ratione",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 31,
+  "Rank": 632,
+  "LoadTemplateFromPlugin": 328,
+  "MimeType": "sint",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 842,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "estelle.schmeler@wilkinson.com",
+  "EmailSubject": "carlos@kohlerhilll.co.uk",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "scarlett.hintz@shieldsbreitenberg.uk",
+  "SenderEmailAddress": "noemie_rogahn@armstrong.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldLength": 597
     }
   }
 }

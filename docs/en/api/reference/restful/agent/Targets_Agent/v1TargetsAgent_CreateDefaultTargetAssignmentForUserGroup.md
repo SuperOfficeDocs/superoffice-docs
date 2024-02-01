@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 756
+  "UserGroupId": 90
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 800,
+    "TargetAssignmentInfoId": 278,
     "Values": [
-      923,
-      964
+      37,
+      724
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 964,
-    "DimensionListItemDisplayName": "Bernier-Lebsack",
+    "DimensionListItem": 269,
+    "DimensionListItemDisplayName": "Quitzon-McGlynn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldType": "System.String",
+        "FieldLength": 923
       }
     }
   }

@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Heathcote, Hettinger and Paucek",
-      "Delimiter": "fugit",
-      "Flags": "dolores",
-      "TotalItems": 389,
-      "UnreadItems": 798,
-      "Subscribed": false,
-      "EmailFolderId": 554
+      "Name": "Corwin, Smitham and Ebert",
+      "Delimiter": "quasi",
+      "Flags": "eveniet",
+      "TotalItems": 648,
+      "UnreadItems": 1002,
+      "Subscribed": true,
+      "EmailFolderId": 839
     }
   ]
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 216,
-  "Name": "Bailey-Pouros",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "UdListDefinitionId": 13,
-  "Rank": 970
+  "Id": 713,
+  "Name": "Vandervort, White and Pollich",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "UdListDefinitionId": 883,
+  "Rank": 54
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Schmitt Inc and Sons",
-  "Tooltip": "est",
+  "Id": 490,
+  "Name": "Harber-Kuhic",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 721,
-  "Rank": 955,
+  "UdListDefinitionId": 425,
+  "Rank": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 232
     }
   }
 }

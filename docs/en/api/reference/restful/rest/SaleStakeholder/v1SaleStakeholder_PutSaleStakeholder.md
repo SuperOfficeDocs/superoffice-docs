@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Tillman-Kling",
-  "Comment": "laudantium",
-  "StakeholderRoleId": 491,
-  "CountryId": 869,
-  "PersonId": 957,
-  "EmailDescription": "dahlia@dicki.info",
-  "EmailId": 771,
-  "EmailAddress": "alek@berniergrimes.name",
-  "PhoneId": 998,
-  "ContactName": "Schneider, Zieme and Lynch",
-  "ContactId": 105,
-  "SaleId": 405,
-  "Mrmrs": "consequatur",
-  "Firstname": "Tomasa",
-  "MiddleName": "Brekke, Dibbert and Lynch",
-  "Lastname": "Gorczany",
-  "SaleStakeholderId": 214,
-  "Rank": 888,
-  "Phone": "1-606-836-5161"
+  "StakeholderRoleName": "Herman, Nicolas and Mayert",
+  "Comment": "aut",
+  "StakeholderRoleId": 880,
+  "CountryId": 893,
+  "PersonId": 91,
+  "EmailDescription": "alphonso.kuhn@bartolettiullrich.name",
+  "EmailId": 280,
+  "EmailAddress": "cydney@ruecker.uk",
+  "PhoneId": 835,
+  "ContactName": "Hegmann-Hahn",
+  "ContactId": 79,
+  "SaleId": 591,
+  "Mrmrs": "occaecati",
+  "Firstname": "Alexa",
+  "MiddleName": "Ledner-Miller",
+  "Lastname": "Steuber",
+  "SaleStakeholderId": 344,
+  "Rank": 524,
+  "Phone": "(055)399-2620 x6389"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kunde-Sipes",
-  "Comment": "omnis",
-  "StakeholderRoleId": 176,
-  "CountryId": 905,
-  "PersonId": 521,
-  "EmailDescription": "lavinia.reichel@spencerbradtke.us",
-  "EmailId": 781,
-  "EmailAddress": "citlalli_rippin@pollich.uk",
-  "PhoneId": 602,
-  "ContactName": "West, O'Kon and Rippin",
-  "ContactId": 832,
-  "SaleId": 712,
-  "Mrmrs": "cupiditate",
-  "Firstname": "Daryl",
-  "MiddleName": "Deckow-Mitchell",
-  "Lastname": "Greenfelder",
-  "SaleStakeholderId": 323,
-  "Rank": 951,
-  "Phone": "610.919.8170 x36524",
+  "StakeholderRoleName": "Russel Group",
+  "Comment": "officiis",
+  "StakeholderRoleId": 532,
+  "CountryId": 787,
+  "PersonId": 674,
+  "EmailDescription": "jarrell@reichel.us",
+  "EmailId": 865,
+  "EmailAddress": "johnathon_schinner@lebsack.com",
+  "PhoneId": 51,
+  "ContactName": "Cormier-Wiegand",
+  "ContactId": 981,
+  "SaleId": 334,
+  "Mrmrs": "in",
+  "Firstname": "Kali",
+  "MiddleName": "Swift Inc and Sons",
+  "Lastname": "Cartwright",
+  "SaleStakeholderId": 116,
+  "Rank": 311,
+  "Phone": "(886)996-1117",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

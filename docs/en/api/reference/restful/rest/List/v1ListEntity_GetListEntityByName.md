@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 141,
-  "Name": "Bogan-Kutch",
-  "Tooltip": "numquam",
+  "Id": 546,
+  "Name": "Hauck, Johnson and Schaefer",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 115,
+  "Rank": 110,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "deleniti",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "occaecati",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 166
     }
   }
 }

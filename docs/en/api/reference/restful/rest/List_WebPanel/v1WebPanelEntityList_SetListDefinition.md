@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Rau Group",
-  "Tooltip": "ullam",
-  "Deleted": true,
-  "Rank": 125,
+  "Id": 143,
+  "Name": "King LLC",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 472,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Denesik, Larson and Dickens",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "Rank": 620,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 720,
+  "Name": "Mante Group",
+  "Tooltip": "earum",
+  "Deleted": false,
+  "Rank": 115,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "maxime",
+  "ListType": "a",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 652
     }
   }
 }

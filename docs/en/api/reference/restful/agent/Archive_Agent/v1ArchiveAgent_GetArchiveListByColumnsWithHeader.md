@@ -106,32 +106,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kiehn-Larkin",
+  "ProviderName": "Wiegand-Fisher",
   "Columns": [
-    "distinctio",
-    "blanditiis"
+    "quia",
+    "accusantium"
   ],
   "SortOrder": [
     {
-      "Name": "Fay, Murphy and Anderson",
+      "Name": "Bartell-Stark",
       "Direction": "ASC"
     },
     {
-      "Name": "Fay, Murphy and Anderson",
+      "Name": "Bartell-Stark",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rosenbaum Group",
-      "Operator": "modi",
+      "Name": "Gaylord-Monahan",
+      "Operator": "mollitia",
       "Values": [
-        "suscipit",
-        "doloribus"
+        "saepe",
+        "est"
       ],
       "DisplayValues": [
-        "natus",
-        "odio"
+        "est",
+        "voluptates"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 208,
+      "InterParenthesis": 311,
       "InterOperator": "And",
-      "UniqueHash": 317
+      "UniqueHash": 272
     }
   ],
   "Entities": [
-    "unde",
-    "quis"
+    "eos",
+    "hic"
   ],
-  "Page": 598,
-  "PageSize": 148,
-  "Options": "sunt"
+  "Page": 343,
+  "PageSize": 21,
+  "Options": "numquam"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 117,
+  "RowCount": 665,
   "Rows": [
     {
-      "EntityName": "Toy-Hansen",
-      "PrimaryKey": 405,
+      "EntityName": "Pfeffer-Adams",
+      "PrimaryKey": 559,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "numquam",
-          "TooltipHint": "repellendus",
-          "LinkHint": "id"
+          "DisplayValue": "fugiat",
+          "TooltipHint": "quas",
+          "LinkHint": "temporibus"
         }
       },
-      "LinkHint": "facere",
-      "StyleHint": "libero",
+      "LinkHint": "esse",
+      "StyleHint": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldType": "System.Int32",
+          "FieldLength": 618
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 399
     }
   }
 }

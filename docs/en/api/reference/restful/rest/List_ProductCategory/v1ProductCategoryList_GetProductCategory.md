@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 815,
-  "Name": "Mraz-Nicolas",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 356,
-  "Rank": 235,
+  "Id": 654,
+  "Name": "Rogahn Group",
+  "Tooltip": "aspernatur",
+  "Deleted": false,
+  "UdListDefinitionId": 661,
+  "Rank": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldLength": 408
     }
   }
 }

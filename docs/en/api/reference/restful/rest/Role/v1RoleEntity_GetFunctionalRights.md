@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Larkin, McClure and Jenkins",
-    "ToolTip": "Aspernatur amet fuga.",
-    "Deleted": true,
-    "Rank": 248,
-    "Type": "vel",
-    "ColorBlock": 163,
-    "IconHint": "occaecati",
+    "Id": 965,
+    "Name": "Reilly Group",
+    "ToolTip": "Recusandae quibusdam.",
+    "Deleted": false,
+    "Rank": 261,
+    "Type": "dolorem",
+    "ColorBlock": 4,
+    "IconHint": "tempore",
     "Selected": true,
-    "LastChanged": "1997-10-13T13:57:19.1403101+02:00",
+    "LastChanged": "1999-04-12T23:04:04.6315132+02:00",
     "ChildItems": [
       {
-        "Id": 936,
-        "Name": "Hickle, Kunze and Leannon",
-        "ToolTip": "Quia nobis quia quo ut natus facilis ipsa.",
-        "Deleted": false,
-        "Rank": 274,
-        "Type": "veniam",
-        "ColorBlock": 751,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2019-10-31T13:57:19.1403101+01:00",
+        "Id": 484,
+        "Name": "Gorczany Inc and Sons",
+        "ToolTip": "Qui natus deleniti quia quos quisquam rem.",
+        "Deleted": true,
+        "Rank": 515,
+        "Type": "quo",
+        "ColorBlock": 694,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2020-11-15T23:04:04.6320133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Alessandra Graham",
+        "ExtraInfo": "dolor",
+        "StyleHint": "voluptate",
+        "Hidden": false,
+        "FullName": "Romaine Leora Weimann IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 336
+            "FieldType": "System.Int32",
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "culpa",
+    "StyleHint": "veritatis",
     "Hidden": false,
-    "FullName": "Miss Rafaela Betty Stehr",
+    "FullName": "Dr. Shad Myrna Eichmann Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldType": "System.String",
+        "FieldLength": 103
       }
     }
   }

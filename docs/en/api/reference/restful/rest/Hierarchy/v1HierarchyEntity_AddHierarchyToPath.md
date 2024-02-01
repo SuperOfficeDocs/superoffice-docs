@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 667,
+  "HierarchyId": 466,
   "Domain": "Dashboards",
-  "Name": "Kuhic, Cronin and O'Keefe",
-  "Fullname": "harum",
-  "ParentId": 324,
+  "Name": "Mosciski-McLaughlin",
+  "Fullname": "quia",
+  "ParentId": 794,
   "Children": [
     {
-      "HierarchyId": 946,
+      "HierarchyId": 840,
       "Domain": "Dashboards",
-      "Name": "Considine LLC",
-      "Fullname": "voluptate",
-      "ParentId": 731,
+      "Name": "Kreiger, Barton and Conn",
+      "Fullname": "amet",
+      "ParentId": 466,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-05-27T13:57:18.8265985+02:00",
-      "RegisteredAssociateId": 824,
-      "Updated": "2011-02-13T13:57:18.8265985+01:00",
-      "UpdatedAssociateId": 193,
+      "Registered": "2012-02-29T23:04:04.2400162+01:00",
+      "RegisteredAssociateId": 377,
+      "Updated": "2000-06-23T23:04:04.2400162+02:00",
+      "UpdatedAssociateId": 714,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldType": "System.String",
+          "FieldLength": 108
         }
       }
     }
   ],
-  "Registered": "2003-07-09T13:57:18.8265985+02:00",
-  "RegisteredAssociateId": 377,
-  "Updated": "2017-09-09T13:57:18.8265985+02:00",
-  "UpdatedAssociateId": 287,
+  "Registered": "2014-02-05T23:04:04.2400162+01:00",
+  "RegisteredAssociateId": 884,
+  "Updated": "2005-04-11T23:04:04.2400162+02:00",
+  "UpdatedAssociateId": 627,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 160
     }
   }
 }

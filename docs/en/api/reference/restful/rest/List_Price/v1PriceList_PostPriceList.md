@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 646,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 851,
-  "Name": "Zemlak, Franecki and Von",
-  "Description": "Object-based demand-driven definition",
-  "Currency": "saepe",
-  "CurrencyName": "Murphy-Abbott",
-  "ValidFrom": "2006-07-24T13:57:19.8440154+02:00",
-  "ValidTo": "2006-09-12T13:57:19.8440154+02:00",
+  "PriceListId": 749,
+  "ERPPriceListKey": "error",
+  "QuoteConnectionId": 901,
+  "Name": "Torp-Tromp",
+  "Description": "Intuitive multi-tasking functionalities",
+  "Currency": "ullam",
+  "CurrencyName": "Grady LLC",
+  "ValidFrom": "2016-05-08T23:04:05.5810004+02:00",
+  "ValidTo": "2005-11-03T23:04:05.5810004+01:00",
   "IsActive": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 454,
-  "ERPPriceListKey": "itaque",
-  "QuoteConnectionId": 826,
-  "Name": "Schinner-Swift",
-  "Description": "Innovative high-level collaboration",
-  "Currency": "fugit",
-  "CurrencyName": "Schaden, Stiedemann and Jenkins",
-  "ValidFrom": "2010-10-30T13:57:19.8440154+02:00",
-  "ValidTo": "2001-05-18T13:57:19.8440154+02:00",
+  "PriceListId": 65,
+  "ERPPriceListKey": "corrupti",
+  "QuoteConnectionId": 1000,
+  "Name": "Wolff-Corwin",
+  "Description": "Intuitive system-worthy info-mediaries",
+  "Currency": "perferendis",
+  "CurrencyName": "Luettgen, Carter and Mante",
+  "ValidFrom": "2009-08-30T23:04:05.5819981+02:00",
+  "ValidTo": "2014-01-28T23:04:05.5819981+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   },
   "_Links": {

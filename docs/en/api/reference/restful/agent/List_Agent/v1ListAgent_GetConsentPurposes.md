@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 665,
-    "Name": "Roob LLC",
-    "ConsentText": "cumque",
-    "FormText": "aut",
-    "Key": "amet",
-    "Tooltip": "dolores",
-    "Active": 756,
-    "UpdatedDate": "2019-06-03T13:57:12.5286589+02:00",
+    "ConsentPurposeId": 528,
+    "Name": "Gutmann Group",
+    "ConsentText": "et",
+    "FormText": "deleniti",
+    "Key": "quia",
+    "Tooltip": "mollitia",
+    "Active": 137,
+    "UpdatedDate": "2015-08-23T23:03:56.2421257+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 647,
-    "PrivacyStatementDesc": "est",
+    "Rank": 592,
+    "PrivacyStatementDesc": "modi",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

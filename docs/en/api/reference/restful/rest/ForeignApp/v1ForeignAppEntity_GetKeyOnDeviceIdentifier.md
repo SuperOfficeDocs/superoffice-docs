@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 24 Sep 2001 13:57:18 G9T
+Last-Modified: Thu, 26 Aug 2021 23:04:04 G8T
 
 {
-  "Key": "neque",
-  "Value": "laudantium",
-  "RecordId": 656,
-  "CreatedDate": "2001-01-05T13:57:18.8265985+01:00",
-  "UpdatedDate": "2001-09-24T13:57:18.8265985+02:00",
-  "UpdatedBy": "fugiat",
-  "CreatedBy": "dolor",
-  "TableName": "Simonis Group",
+  "Key": "tempora",
+  "Value": "cumque",
+  "RecordId": 611,
+  "CreatedDate": "2005-12-18T23:04:04.2280165+01:00",
+  "UpdatedDate": "2021-08-26T23:04:04.2280165+02:00",
+  "UpdatedBy": "cumque",
+  "CreatedBy": "et",
+  "TableName": "Hermann-Walsh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldType": "System.Int32",
+      "FieldLength": 506
     }
   }
 }

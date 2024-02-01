@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tempore",
-  "ProviderName": "Mayert LLC",
-  "StorageKey": "eius",
+  "StorageType": "recusandae",
+  "ProviderName": "Wintheiser-Stroman",
+  "StorageKey": "voluptatem",
   "DesiredColumnNames": [
-    "Stroman Group",
-    "Kunde LLC"
+    "Senger Inc and Sons",
+    "Kerluke, Schinner and Mitchell"
   ],
   "StaticColumns": [
-    "cupiditate",
-    "sit"
+    "id",
+    "est"
   ],
-  "Context": "sed"
+  "Context": "id"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rau Inc and Sons",
-      "Operator": "quas",
+      "Name": "Larson, Runolfsdottir and Ernser",
+      "Operator": "quidem",
       "Values": [
-        "dicta",
-        "tempore"
+        "delectus",
+        "molestiae"
       ],
       "DisplayValues": [
-        "provident",
-        "placeat"
+        "culpa",
+        "amet"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 111,
+      "InterParenthesis": 260,
       "InterOperator": "And",
-      "UniqueHash": 642
+      "UniqueHash": 840
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Deckow, Runolfsdottir and Renner",
-      "DisplayTooltip": "sit",
-      "DisplayType": "in",
-      "CanOrderBy": true,
-      "Name": "Wisoky-Kshlerin",
-      "CanRestrictBy": true,
-      "RestrictionType": "magni",
-      "RestrictionListName": "Kuphal-Gleason",
+      "DisplayName": "Walker LLC",
+      "DisplayTooltip": "laudantium",
+      "DisplayType": "reiciendis",
+      "CanOrderBy": false,
+      "Name": "Murray Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "officiis",
+      "RestrictionListName": "Morissette, Batz and Halvorson",
       "IsVisible": true,
-      "ExtraInfo": "perferendis",
-      "Width": "quia",
-      "IconHint": "omnis",
-      "HeadingIconHint": "eum"
+      "ExtraInfo": "et",
+      "Width": "earum",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "facilis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Erdman, Morar and Altenwerth",
-      "PrimaryKey": 877,
+      "EntityName": "Kautzer, O'Keefe and Bayer",
+      "PrimaryKey": 874,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quasi",
-          "TooltipHint": "aliquam",
-          "LinkHint": "maiores"
+          "DisplayValue": "aliquid",
+          "TooltipHint": "incidunt",
+          "LinkHint": "numquam"
         }
       },
-      "LinkHint": "quis",
-      "StyleHint": "consequuntur",
+      "LinkHint": "est",
+      "StyleHint": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 451
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Waelchi Inc and Sons",
-      "Description": "Devolved multi-tasking definition",
-      "Rank": 269,
+      "Name": "Schuppe Group",
+      "Description": "Cross-platform fresh-thinking database",
+      "Rank": 482,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Waelchi Inc and Sons",
-      "Description": "Devolved multi-tasking definition",
-      "Rank": 269,
+      "Name": "Schuppe Group",
+      "Description": "Cross-platform fresh-thinking database",
+      "Rank": 482,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 233
     }
   }
 }

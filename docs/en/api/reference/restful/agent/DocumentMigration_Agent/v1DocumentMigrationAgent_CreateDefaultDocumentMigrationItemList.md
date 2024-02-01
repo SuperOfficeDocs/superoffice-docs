@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 497,
-  "NumDocumentsAlreadyMigrated": 722,
+  "NumDocumentsOmitted": 857,
+  "NumDocumentsAlreadyMigrated": 503,
   "Documents": [
     {
-      "DocumentId": 483,
-      "ContactId": 730,
-      "PersonId": 242,
-      "SaleId": 749,
-      "ProjectId": 834,
-      "DocTmplId": 175,
-      "AssociateId": 307,
-      "UserGroupId": 84,
-      "VisibleForId": 650
+      "DocumentId": 152,
+      "ContactId": 259,
+      "PersonId": 418,
+      "SaleId": 146,
+      "ProjectId": 481,
+      "DocTmplId": 709,
+      "AssociateId": 546,
+      "UserGroupId": 135,
+      "VisibleForId": 512
     }
   ],
   "Associates": [
     {
-      "AssociateId": 569,
-      "EmailAddress": "terrance.effertz@balistrerijacobi.us"
+      "AssociateId": 495,
+      "EmailAddress": "wyman_lehner@senger.com"
     },
     {
-      "AssociateId": 569,
-      "EmailAddress": "terrance.effertz@balistrerijacobi.us"
+      "AssociateId": 495,
+      "EmailAddress": "wyman_lehner@senger.com"
     }
   ]
 }

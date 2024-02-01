@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 864,
-  "PersonName": "Corkery, Johnson and Pfannerstill",
+  "ContactId": 949,
+  "PersonName": "Hagenes LLC",
   "PhoneNumbers": [
-    "331441",
-    "818691"
+    "1333459",
+    "749245"
   ],
   "Emails": [
-    "ethelyn@beatty.uk",
-    "karolann_mraz@feil.info"
+    "cathryn.aufderhar@terrymueller.us",
+    "isobel@heathcote.co.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 195
     }
   }
 }

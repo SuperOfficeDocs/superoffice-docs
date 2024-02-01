@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 815,
-  "Name": "Boyer Inc and Sons",
-  "Tooltip": "maxime",
-  "Deleted": false,
-  "Rank": 119,
+  "Id": 823,
+  "Name": "Runte Inc and Sons",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 580,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 913,
-  "Name": "Hoeger, Satterfield and Lueilwitz",
-  "Tooltip": "nam",
+  "Id": 604,
+  "Name": "Gislason Inc and Sons",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 487,
-  "IsCustomList": true,
+  "Rank": 422,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "et",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldLength": 651
     }
   }
 }

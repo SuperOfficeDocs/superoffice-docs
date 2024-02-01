@@ -109,12 +109,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 478,
+  "DocId": 961,
   "AttachmentIds": [
-    "laudantium",
-    "est"
+    "sapiente",
+    "laborum"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -127,97 +127,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 731,
-      "ContactName": "Crona-Erdman",
-      "PersonId": 958,
-      "PersonName": "Rodriguez Group",
-      "AssociateId": 438,
-      "Address": "ut",
-      "EmailId": 621,
+      "ContactId": 384,
+      "ContactName": "Hermiston-Osinski",
+      "PersonId": 321,
+      "PersonName": "Walter, Baumbach and Lueilwitz",
+      "AssociateId": 277,
+      "Address": "eum",
+      "EmailId": 634,
       "DuplicatePersonIds": [
-        807,
-        761
+        808,
+        312
       ],
-      "Name": "Kuhlman Group",
+      "Name": "Pfannerstill, Walter and Connelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 698
+          "FieldType": "System.Int32",
+          "FieldLength": 511
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 150,
-      "ContactName": "Wyman LLC",
-      "PersonId": 617,
-      "PersonName": "Goyette, Wuckert and Gulgowski",
-      "AssociateId": 299,
-      "Address": "consequatur",
-      "EmailId": 733,
+      "ContactId": 255,
+      "ContactName": "Auer LLC",
+      "PersonId": 189,
+      "PersonName": "Ratke LLC",
+      "AssociateId": 319,
+      "Address": "error",
+      "EmailId": 831,
       "DuplicatePersonIds": [
-        383,
-        469
+        236,
+        154
       ],
-      "Name": "Denesik-Denesik",
+      "Name": "Goldner-Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldLength": 159
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 330,
-      "ContactName": "Daniel Inc and Sons",
-      "PersonId": 505,
-      "PersonName": "Hermann Inc and Sons",
-      "AssociateId": 100,
-      "Address": "explicabo",
-      "EmailId": 451,
+      "ContactId": 204,
+      "ContactName": "Schaefer-Zieme",
+      "PersonId": 913,
+      "PersonName": "Conn Group",
+      "AssociateId": 57,
+      "Address": "autem",
+      "EmailId": 126,
       "DuplicatePersonIds": [
-        308,
-        601
+        598,
+        858
       ],
-      "Name": "Towne, Farrell and Blick",
+      "Name": "Medhurst-O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 103
+          "FieldType": "System.Int32",
+          "FieldLength": 400
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "cumque",
+  "Subject": "voluptas",
+  "HTMLBody": "dolor",
   "From": null,
-  "Sent": "2001-09-13T13:57:12.3243156+02:00",
-  "Size": 418,
+  "Sent": "2006-05-07T23:03:55.9941288+02:00",
+  "Size": 185,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eos",
-  "PlainBody": "voluptate",
+  "MessageID": "delectus",
+  "PlainBody": "quas",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 877,
+  "ServerId": 554,
   "Attachments": [
     {
-      "Description": "Virtual didactic artificial intelligence",
-      "Filename": "distinctio",
-      "Size": 883,
-      "Type": "id",
-      "Encoding": "labore",
-      "Id": "earum",
-      "Disposition": "porro",
+      "Description": "Reduced web-enabled productivity",
+      "Filename": "nobis",
+      "Size": 827,
+      "Type": "ut",
+      "Encoding": "quisquam",
+      "Id": "ut",
+      "Disposition": "quas",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -225,50 +225,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 597
+          "FieldLength": 124
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Eichmann-Wolf",
+      "Name": "Kuhn, Osinski and Lebsack",
       "Values": [
-        "non",
-        "expedita"
+        "voluptatibus",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 561
         }
       }
     },
     {
-      "Name": "Eichmann-Wolf",
+      "Name": "Kuhn, Osinski and Lebsack",
       "Values": [
-        "non",
-        "expedita"
+        "voluptatibus",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 561
         }
       }
     }
   ],
-  "FolderName": "Christiansen-Howe",
-  "EmailItemId": 771,
-  "AccountId": 225,
-  "ReceivedAt": "2011-08-08T13:57:12.3243156+02:00",
+  "FolderName": "Waelchi LLC",
+  "EmailItemId": 92,
+  "AccountId": 145,
+  "ReceivedAt": "2006-11-09T23:03:55.9941288+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-09-28T13:57:12.3243156+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2023-06-04T23:03:55.9941288+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 880
     }
   }
 }

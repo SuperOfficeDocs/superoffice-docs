@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=dolorem
+GET /api/v1/List/SaleType/MDOItems?query=vitae
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Romaguera, Howe and Jerde",
-    "ToolTip": "Aspernatur omnis laborum nemo quidem quasi dolores.",
+    "Id": 581,
+    "Name": "Wisozk Inc and Sons",
+    "ToolTip": "Ut quo modi est.",
     "Deleted": false,
-    "Rank": 610,
-    "Type": "ut",
+    "Rank": 565,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Block-Wisozk",
-        "ToolTip": "Quod est a velit dolorem ullam molestias eum.",
+        "Id": 74,
+        "Name": "Cremin, Stanton and Wiegand",
+        "ToolTip": "Enim aut est ut omnis est ad consectetur.",
         "Deleted": false,
-        "Rank": 136,
-        "Type": "inventore",
+        "Rank": 505,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 353,
-        "ExtraInfo": "a",
-        "StyleHint": "velit",
-        "FullName": "Trystan Marielle Turcotte Jr.",
+        "IconHint": "excepturi",
+        "ColorBlock": 989,
+        "ExtraInfo": "dolores",
+        "StyleHint": "ut",
+        "FullName": "Ms. Toni Langworth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 390
+            "FieldLength": 892
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 284,
-    "ExtraInfo": "culpa",
-    "StyleHint": "numquam",
-    "FullName": "Wilson Goodwin",
+    "IconHint": "laudantium",
+    "ColorBlock": 255,
+    "ExtraInfo": "illum",
+    "StyleHint": "atque",
+    "FullName": "Brenda Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldLength": 602
       }
     }
   }

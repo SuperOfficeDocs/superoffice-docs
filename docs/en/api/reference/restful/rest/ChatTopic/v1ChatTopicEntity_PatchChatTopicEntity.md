@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "officia",
+    "path": "adipisci",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officia",
+    "path": "adipisci",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 688,
-  "Name": "Cummings-Reichert",
-  "Description": "Virtual explicit support",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 730,
+  "Name": "Roberts LLC",
+  "Description": "Operative client-server solution",
+  "WelcomeMessage": "nobis",
   "Language": null,
-  "LastAccept": "2007-08-15T13:57:18.5440601+02:00",
-  "SecondsPrAccept": 239,
-  "AlertRecipient": "voluptatum",
+  "LastAccept": "2003-06-07T23:04:03.8650215+02:00",
+  "SecondsPrAccept": 669,
+  "AlertRecipient": "voluptatibus",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quisquam",
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "earum",
-  "WarnNewChatMinutes": 298,
-  "WarnManagerNewChatMinutes": 494,
-  "TicketEnabled": true,
+  "CustomQueueText": "aliquid",
+  "WarnNewChatMinutes": 515,
+  "WarnManagerNewChatMinutes": 714,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 201,
-  "WarnManagerChatMessageMinutes": 70,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 504,
+  "WarnManagerChatMessageMinutes": 34,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 18,
-  "OfflineFormQueueLength": 879,
+  "OfflineFormTimeLimit": 448,
+  "OfflineFormQueueLength": 785,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "cum",
+  "WidgetRatingText": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 413
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

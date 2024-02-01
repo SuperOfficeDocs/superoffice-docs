@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 623,
-  "Name": "Lockman Inc and Sons",
-  "Tooltip": "nemo",
+  "Id": 244,
+  "Name": "Dare, Torphy and Schamberger",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 229,
+  "Rank": 818,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "McClure, Bernier and Herzog",
-  "Tooltip": "rerum",
+  "Id": 745,
+  "Name": "Wilkinson LLC",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 208,
+  "Rank": 682,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officia",
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 973
     }
   }
 }

@@ -10,8 +10,10 @@ generated: true
 POST /api/v1/Agents/AI/GetChatbotResponse
 ```
 
-Return a chatbot response given prompt and previous turns
+Return a chatbot response given prompt and previous turns.
 
+
+Stores the new turn in the history for the chatId
 
 
 
@@ -45,14 +47,16 @@ POST /api/v1/Agents/AI/GetChatbotResponse?$select=name,department,category/id
 
 ## Request Body: request 
 
-IsoLangCode, UserPrompt, DisplayValue, PreviousTurns 
+ChatId, IsoLangCode, UserPrompt, DisplayValue, PreviousTurns, ApiUrl 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
+| ChatId | String |  |
 | IsoLangCode | String |  |
 | UserPrompt | String |  |
 | DisplayValue | String |  |
 | PreviousTurns | Array |  |
+| ApiUrl | String |  |
 
 ## Response:
 
@@ -79,43 +83,45 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "itaque",
-  "UserPrompt": "accusamus",
-  "DisplayValue": "quaerat",
+  "ChatId": "nihil",
+  "IsoLangCode": "sed",
+  "UserPrompt": "dolores",
+  "DisplayValue": "pariatur",
   "PreviousTurns": [
     {
-      "Timestamp": "2009-01-16T13:57:11.1056483+01:00",
-      "UserPrompt": "dolores",
-      "UserDisplayText": "et",
-      "BotResponse": "corporis",
+      "Timestamp": "2014-06-06T23:03:54.3526513+02:00",
+      "UserPrompt": "provident",
+      "UserDisplayText": "nemo",
+      "BotResponse": "vel",
       "BotActions": {
-        "BotActions1": "dolorem",
-        "BotActions2": "modi"
+        "BotActions1": "autem",
+        "BotActions2": "hic"
       },
       "Attachments": [
-        "accusamus",
-        "mollitia"
+        "dolores",
+        "iure"
       ]
     },
     {
-      "Timestamp": "2009-01-16T13:57:11.1056483+01:00",
-      "UserPrompt": "dolores",
-      "UserDisplayText": "et",
-      "BotResponse": "corporis",
+      "Timestamp": "2014-06-06T23:03:54.3526513+02:00",
+      "UserPrompt": "provident",
+      "UserDisplayText": "nemo",
+      "BotResponse": "vel",
       "BotActions": {
-        "BotActions1": "dolorem",
-        "BotActions2": "modi"
+        "BotActions1": "autem",
+        "BotActions2": "hic"
       },
       "Attachments": [
-        "accusamus",
-        "mollitia"
+        "dolores",
+        "iure"
       ]
     }
-  ]
+  ],
+  "ApiUrl": "http://www.example.com/"
 }
 ```
 
@@ -126,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2022-09-23T13:57:11.1056483+02:00",
-  "UserPrompt": "reiciendis",
-  "UserDisplayText": "tenetur",
-  "BotResponse": "ea",
+  "Timestamp": "2012-05-31T23:03:54.3546523+02:00",
+  "UserPrompt": "consequatur",
+  "UserDisplayText": "labore",
+  "BotResponse": "animi",
   "BotActions": {
-    "BotActions1": "odit",
-    "BotActions2": "exercitationem"
+    "BotActions1": "debitis",
+    "BotActions2": "veritatis"
   },
   "Attachments": [
-    "sunt",
-    "libero"
+    "qui",
+    "vel"
   ]
 }
 ```

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sanford Inc and Sons"
+  "ApplicationName": "Dickens-Lubowitz"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 602,
-    "Name": "Lubowitz Group",
-    "CreatedDate": "1998-09-10T13:57:12.4181107+02:00",
-    "UpdatedDate": "2013-04-24T13:57:12.4181107+02:00",
-    "AssociateFullName": "Ms. Brandt Braun",
-    "CreatedBy": "et",
-    "UpdatedBy": "laudantium",
-    "DeviceIdentifier": "et",
-    "ForeignAppId": 289,
+    "ForeignDeviceId": 949,
+    "Name": "Wolf Inc and Sons",
+    "CreatedDate": "2018-11-26T23:03:56.1086289+01:00",
+    "UpdatedDate": "2011-12-12T23:03:56.1086289+01:00",
+    "AssociateFullName": "Mr. Darren Murphy Waelchi Jr.",
+    "CreatedBy": "enim",
+    "UpdatedBy": "nulla",
+    "DeviceIdentifier": "sint",
+    "ForeignAppId": 672,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldType": "System.String",
+        "FieldLength": 898
       }
     }
   }

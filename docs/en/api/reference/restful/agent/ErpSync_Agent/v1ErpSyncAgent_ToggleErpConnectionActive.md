@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 19
+  "ErpConnectionId": 481
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "omnis",
-  "numquam"
+  "pariatur",
+  "voluptas"
 ]
 ```

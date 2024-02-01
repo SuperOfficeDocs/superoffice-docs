@@ -120,8 +120,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 848,
-  "Name": "Parisian-Smitham",
+  "SelectionId": 394,
+  "Name": "Kunde, Satterfield and Schuster",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized next generation matrices",
-  "Postit": "vel",
+  "Description": "Ergonomic analyzing model",
+  "Postit": "nisi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 462,
-  "IncludePerson": 752,
-  "MemberCount": 273,
-  "Name": "Leannon Inc and Sons",
-  "PostitTextId": 879,
-  "CreatedDate": "2019-11-26T13:57:13.2384042+01:00",
-  "SelectionId": 297,
-  "SoundEx": "voluptas",
-  "Source": 313,
-  "TextId": 835,
-  "UpdatedDate": "2016-04-01T13:57:13.2384042+02:00",
-  "UpdatedCount": 388,
-  "Visibility": 781,
+  "GroupIdx": 679,
+  "IncludePerson": 34,
+  "MemberCount": 768,
+  "Name": "Casper, Rogahn and Yost",
+  "PostitTextId": 396,
+  "CreatedDate": "2003-11-02T23:03:57.1506148+01:00",
+  "SelectionId": 827,
+  "SoundEx": "esse",
+  "Source": 879,
+  "TextId": 493,
+  "UpdatedDate": "2015-02-15T23:03:57.1506148+01:00",
+  "UpdatedCount": 738,
+  "Visibility": 162,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 432,
-  "TargetTableName": "Grady LLC",
+  "TargetTableNumber": 955,
+  "TargetTableName": "Gleason-Ondricka",
   "Completed": false,
-  "LeftSelectionId": 696,
-  "RightSelectionId": 620,
+  "LeftSelectionId": 806,
+  "RightSelectionId": 38,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gerlach, Eichmann and Mayert",
-  "ShadowProviderName": "Ryan Inc and Sons",
-  "ChartKey": "id",
-  "LastLoaded": "2002-06-05T13:57:13.2384042+02:00",
-  "LastLoadedBy": 864,
+  "MainProviderName": "Osinski LLC",
+  "ShadowProviderName": "Walter, Deckow and DuBuque",
+  "ChartKey": "amet",
+  "LastLoaded": "2017-03-06T23:03:57.1506148+01:00",
+  "LastLoadedBy": 52,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-11-20T13:57:13.2384042+01:00",
-  "LastMembershipChangeBy": 102,
+  "LastMembershipChange": "2018-04-01T23:03:57.1506148+02:00",
+  "LastMembershipChangeBy": 576,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "cumque",
-  "MailingsProviderName": "Hettinger, Runolfsdottir and Bartell",
-  "DashboardTileDefinitionId": 246,
+  "MainHeading": "minus",
+  "MemberTabHeading": "autem",
+  "MailingsProviderName": "Blanda, Bogan and Stiedemann",
+  "DashboardTileDefinitionId": 602,
   "VisibleFor": [
     {
-      "VisibleId": 387,
+      "VisibleId": 692,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 516
         }
       }
     },
     {
-      "VisibleId": 387,
+      "VisibleId": 692,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 516
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 715
     }
   }
 }

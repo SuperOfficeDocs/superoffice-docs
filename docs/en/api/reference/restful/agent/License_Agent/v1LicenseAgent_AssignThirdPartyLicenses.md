@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 592,
-  "ModuleOwner": "eos",
+  "AssociateId": 556,
+  "ModuleOwner": "nihil",
   "ModuleLicenseNames": [
-    "Shields, Lemke and Senger",
-    "Hartmann Inc and Sons"
+    "Ward-Mayer",
+    "Adams, Jakubowski and Reilly"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 844,
-    "Tooltip": "voluptatem",
+    "Total": 136,
+    "Tooltip": "eos",
     "CanAssign": false,
-    "Free": 566,
-    "InUse": 730,
-    "IsHidden": false,
+    "Free": 46,
+    "InUse": 590,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 806,
-    "Name": "Greenholt, McKenzie and Hackett",
-    "Description": "Public-key eco-centric function",
-    "PrerequisiteModuleName": "O'Reilly-Kreiger",
-    "SortOrder": 530,
-    "ExtraFlags": 554,
+    "ModuleLicenseId": 452,
+    "Name": "Miller, Wyman and Oberbrunner",
+    "Description": "Universal radical definition",
+    "PrerequisiteModuleName": "Smith Inc and Sons",
+    "SortOrder": 232,
+    "ExtraFlags": 962,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

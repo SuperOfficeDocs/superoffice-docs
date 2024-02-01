@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 394,
-    "Attention": "est",
-    "Header": "et",
-    "Name": "Ritchie, Beahan and Lesch",
-    "OurRef": "ut",
-    "YourRef": "voluptas",
-    "Description": "Object-based solution-oriented framework",
-    "DocumentTemplate": "sit",
+    "DocumentId": 698,
+    "Attention": "recusandae",
+    "Header": "nobis",
+    "Name": "Hickle Group",
+    "OurRef": "autem",
+    "YourRef": "maiores",
+    "Description": "Balanced responsive function",
+    "DocumentTemplate": "dolor",
     "IsPublished": false,
-    "PersonId": 430,
-    "PersonFullName": "Jermey Olson",
-    "AssociateFullName": "Johnathon Rogahn Sr.",
-    "ContactId": 121,
-    "ContactName": "Hermiston, Murazik and Rath",
-    "ProjectId": 418,
-    "ProjectName": "Gusikowski, Prosacco and Wiza",
-    "AssociateId": 749,
-    "Snum": 696,
-    "SaleId": 919,
-    "SaleName": "Walter, Bergnaum and Jones",
+    "PersonId": 2,
+    "PersonFullName": "Chandler Schuppe",
+    "AssociateFullName": "Horace Robel",
+    "ContactId": 707,
+    "ContactName": "Ryan Group",
+    "ProjectId": 187,
+    "ProjectName": "McDermott Inc and Sons",
+    "AssociateId": 982,
+    "Snum": 979,
+    "SaleId": 811,
+    "SaleName": "Farrell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 636
+        "FieldLength": 583
       }
     }
   }

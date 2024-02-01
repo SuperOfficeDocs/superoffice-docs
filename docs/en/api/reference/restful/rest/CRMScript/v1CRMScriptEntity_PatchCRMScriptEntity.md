@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "similique",
+    "path": "maxime",
     "value": {}
   },
   {
     "op": "add",
-    "path": "similique",
+    "path": "maxime",
     "value": {}
   }
 ]
@@ -145,23 +145,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 411,
-  "UniqueIdentifier": "distinctio",
-  "Name": "Stanton, Langworth and Becker",
-  "Description": "Digitized solution-oriented paradigm",
-  "IncludeId": "officia",
-  "HierarchyId": 169,
-  "Source": "corporis",
-  "Registered": "2006-10-24T13:57:18.6846845+02:00",
-  "RegisteredAssociateId": 956,
-  "Updated": "1998-12-23T13:57:18.6846845+01:00",
-  "UpdatedAssociateId": 474,
+  "EjscriptId": 1002,
+  "UniqueIdentifier": "placeat",
+  "Name": "Bauch, Feil and Vandervort",
+  "Description": "Multi-channelled multimedia artificial intelligence",
+  "IncludeId": "repellat",
+  "HierarchyId": 383,
+  "Source": "pariatur",
+  "Registered": "2008-06-27T23:04:04.0690191+02:00",
+  "RegisteredAssociateId": 995,
+  "Updated": "2009-04-05T23:04:04.0690191+02:00",
+  "UpdatedAssociateId": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 248
     }
   },
   "_Links": {

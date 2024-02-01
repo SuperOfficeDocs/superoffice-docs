@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "harum",
   "Specification": null,
-  "DisplayValue": "harum",
-  "DisplayTooltip": "nulla",
+  "DisplayValue": "similique",
+  "DisplayTooltip": "dolor",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 960,
-  "PrefDescId": 791,
-  "TableName": "Bernier, Veum and Jacobi",
-  "UserPreferenceId": 353,
+  "TargetId": 500,
+  "PrefDescId": 981,
+  "TableName": "Gottlieb, Kreiger and Jewess",
+  "UserPreferenceId": 84,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 56
     }
   }
 }

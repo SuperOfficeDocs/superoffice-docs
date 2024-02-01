@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Barrows, Prosacco and Stracke",
-    "ToolTip": "Qui adipisci voluptatem nihil deleniti laudantium.",
-    "Deleted": true,
-    "Rank": 49,
-    "Type": "eos",
-    "ColorBlock": 814,
-    "IconHint": "delectus",
-    "Selected": true,
-    "LastChanged": "2000-09-09T13:57:19.6877703+02:00",
+    "Id": 907,
+    "Name": "Schamberger, Turner and Jenkins",
+    "ToolTip": "Adipisci laudantium ad.",
+    "Deleted": false,
+    "Rank": 932,
+    "Type": "voluptas",
+    "ColorBlock": 519,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2020-08-05T23:04:05.3755027+02:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Lindgren, Trantow and Volkman",
-        "ToolTip": "Totam ut.",
+        "Id": 301,
+        "Name": "Boyer-Olson",
+        "ToolTip": "Quis autem quisquam perspiciatis maiores.",
         "Deleted": false,
-        "Rank": 222,
-        "Type": "deserunt",
-        "ColorBlock": 677,
-        "IconHint": "quae",
+        "Rank": 854,
+        "Type": "enim",
+        "ColorBlock": 623,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2004-03-04T13:57:19.6877703+01:00",
+        "LastChanged": "2020-10-18T23:04:05.3755027+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "molestiae",
+        "StyleHint": "debitis",
         "Hidden": true,
-        "FullName": "Ezequiel Olson",
+        "FullName": "Durward Macey Hoeger I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 102
+            "FieldLength": 379
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "provident",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Miss Maureen Orville Moen MD",
+    "FullName": "Mr. Hailie Henri Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 145
       }
     }
   }

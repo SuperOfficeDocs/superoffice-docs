@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhlman Inc and Sons",
-    "Description": "Profit-focused needs-based monitoring",
-    "Rank": 662,
+    "Name": "Kulas-Schaefer",
+    "Description": "Streamlined responsive Graphic Interface",
+    "Rank": 795,
     "Restrictions": [
       {
-        "Name": "Cummings, Zboncak and Emmerich",
-        "Operator": "aspernatur",
+        "Name": "Cremin-Glover",
+        "Operator": "nemo",
         "Values": [
-          "in",
-          "eaque"
+          "qui",
+          "et"
         ],
         "DisplayValues": [
-          "dolorem",
-          "modi"
+          "eos",
+          "odit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 457,
+        "InterParenthesis": 651,
         "InterOperator": "And",
-        "UniqueHash": 136
+        "UniqueHash": 9
       }
     ]
   },
   {
-    "Name": "Kuhlman Inc and Sons",
-    "Description": "Profit-focused needs-based monitoring",
-    "Rank": 662,
+    "Name": "Kulas-Schaefer",
+    "Description": "Streamlined responsive Graphic Interface",
+    "Rank": 795,
     "Restrictions": [
       {
-        "Name": "Cummings, Zboncak and Emmerich",
-        "Operator": "aspernatur",
+        "Name": "Cremin-Glover",
+        "Operator": "nemo",
         "Values": [
-          "in",
-          "eaque"
+          "qui",
+          "et"
         ],
         "DisplayValues": [
-          "dolorem",
-          "modi"
+          "eos",
+          "odit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 457,
+        "InterParenthesis": 651,
         "InterOperator": "And",
-        "UniqueHash": 136
+        "UniqueHash": 9
       }
     ]
   }

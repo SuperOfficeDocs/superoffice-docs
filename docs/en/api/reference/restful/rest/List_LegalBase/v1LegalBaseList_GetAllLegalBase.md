@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 32,
-    "Name": "Reinger-Pacocha",
-    "Tooltip": "mollitia",
-    "Rank": 887,
-    "Key": "sit",
+    "LegalBaseId": 94,
+    "Name": "Ritchie LLC",
+    "Tooltip": "optio",
+    "Rank": 148,
+    "Key": "ab",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 63
+        "FieldType": "System.Int32",
+        "FieldLength": 967
       }
     }
   }

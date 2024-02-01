@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 564,
-  "Name": "Dickens-Kutch",
+  "WebhookId": 825,
+  "Name": "West, Quigley and Orn",
   "Events": [
-    "soluta",
-    "voluptatum"
+    "veniam",
+    "tenetur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "cupiditate",
+  "Secret": "animi",
   "State": "Active",
-  "Type": "occaecati",
+  "Type": "natus",
   "Headers": {
-    "Headers1": "nobis",
-    "Headers2": "dolor"
+    "Headers1": "maiores",
+    "Headers2": "cumque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-12-28T13:57:13.6145882+01:00",
+  "Registered": "2014-06-28T23:03:57.6531069+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-07-31T13:57:13.6145882+02:00",
+  "Updated": "2009-05-18T23:03:57.6531069+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "kitty.mertz@huels.name"
+  "ErrorsEmail": "cassidy.reichert@bruen.biz"
 }
 ```

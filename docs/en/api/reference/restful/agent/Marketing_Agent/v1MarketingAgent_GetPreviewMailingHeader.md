@@ -68,6 +68,7 @@ OK
 | ShipmentId | int32 | Primary key |
 | ShipmentDescription | string | Describes the shipment |
 | FromAddress | string | Email address to put in the From header of the messages |
+| Configuration | int32 | This field indicates what kind of shipment this is. |
 | PersonId | int32 | Primary key |
 | PersonFullName | string | Get the persons full name (internal name used in clients for employees). |
 | ShipmentType | string | The list item |
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 428
+  "ShipmentId": 759
 }
 ```
 
@@ -102,27 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1998-02-25T13:57:12.6068289+01:00",
+  "StartDate": "2019-02-15T23:03:56.3311239+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 809,
-  "ShipmentDescription": "Up-sized global capacity",
-  "FromAddress": "incidunt",
-  "PersonId": 817,
-  "PersonFullName": "Mr. Reta Jacobson V",
-  "ShipmentType": "consequatur",
-  "MessageId": 249,
-  "MessageSubject": "perspiciatis",
-  "DocumentMessageId": 446,
-  "NumSent": 377,
-  "NumOpened": 580,
-  "NumBounced": 680,
-  "NumClicks": 573,
+  "ShipmentId": 801,
+  "ShipmentDescription": "Enterprise-wide radical architecture",
+  "FromAddress": "rerum",
+  "Configuration": 931,
+  "PersonId": 401,
+  "PersonFullName": "Francisca Rolfson",
+  "ShipmentType": "tenetur",
+  "MessageId": 724,
+  "MessageSubject": "voluptates",
+  "DocumentMessageId": 567,
+  "NumSent": 421,
+  "NumOpened": 896,
+  "NumBounced": 237,
+  "NumClicks": 360,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldType": "System.Int32",
+      "FieldLength": 837
     }
   }
 }

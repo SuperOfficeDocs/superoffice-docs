@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 823,
-  "ListItemId": 246
+  "UdListDefinitionId": 68,
+  "ListItemId": 974
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "Feeney-Roob",
-    "ToolTip": "Amet itaque.",
+    "Id": 941,
+    "Name": "Morar LLC",
+    "ToolTip": "Dolorem qui quasi possimus.",
     "Deleted": false,
-    "Rank": 350,
-    "Type": "unde",
-    "ColorBlock": 723,
-    "IconHint": "aut",
+    "Rank": 6,
+    "Type": "cumque",
+    "ColorBlock": 957,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2010-06-25T13:57:12.5118644+02:00",
+    "LastChanged": "2010-04-16T23:03:56.2066258+02:00",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Corwin-Pagac",
-        "ToolTip": "Labore adipisci aut ea aspernatur quia.",
+        "Id": 398,
+        "Name": "Osinski Group",
+        "ToolTip": "Similique odit totam quis et iste quasi voluptatem.",
         "Deleted": true,
-        "Rank": 374,
-        "Type": "perspiciatis",
-        "ColorBlock": 554,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2008-10-20T13:57:12.5118644+02:00",
+        "Rank": 515,
+        "Type": "fuga",
+        "ColorBlock": 471,
+        "IconHint": "facilis",
+        "Selected": true,
+        "LastChanged": "2011-07-02T23:03:56.2066258+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Jennie Lehner",
+        "ExtraInfo": "facere",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Ida Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 391
+            "FieldLength": 797
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "recusandae",
-    "Hidden": true,
-    "FullName": "Mr. Patrick Rigoberto Hoppe I",
+    "ExtraInfo": "ad",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Lane Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

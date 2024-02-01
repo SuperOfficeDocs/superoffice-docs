@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=non
-GET /api/v1/Webhook?eventFilter=dolorem
+GET /api/v1/Webhook?nameFilter=qui
+GET /api/v1/Webhook?eventFilter=est
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 673,
-    "Name": "Hahn-Windler",
+    "WebhookId": 198,
+    "Name": "Koss, Hintz and Bartoletti",
     "Events": [
-      "perferendis",
-      "provident"
+      "sequi",
+      "est"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "et",
+    "Secret": "quia",
     "State": "Active",
-    "Type": "reprehenderit",
+    "Type": "assumenda",
     "Headers": {
-      "Headers1": "quas",
-      "Headers2": "adipisci"
+      "Headers1": "labore",
+      "Headers2": "facere"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2019-01-19T13:57:19.5783953+01:00",
+    "Registered": "2017-10-15T23:04:05.230504+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2017-07-30T13:57:19.5783953+02:00",
+    "Updated": "2010-08-07T23:04:05.2310033+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "jeanie@abernathy.com"
+    "ErrorsEmail": "casimir.hartmann@cummeratayundt.biz"
   }
 ]
 ```

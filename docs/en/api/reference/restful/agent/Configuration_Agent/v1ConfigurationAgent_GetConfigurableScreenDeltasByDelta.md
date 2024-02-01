@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 931,
-    "Name": "DuBuque, Yundt and Jones",
-    "Description": "Business-focused empowering structure",
-    "DeltaJson": "nemo",
+    "ConfigurableScreenDeltaId": 203,
+    "Name": "Rolfson Inc and Sons",
+    "Description": "User-centric human-resource installation",
+    "DeltaJson": "voluptatem",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "dolores",
-    "UpdatedDate": "2009-01-06T13:57:11.8393076+01:00",
-    "CreatedDate": "2015-07-16T13:57:11.8393076+02:00",
+    "RecipeId": "rem",
+    "UpdatedDate": "2010-01-22T23:03:55.2366391+01:00",
+    "CreatedDate": "2017-03-04T23:03:55.2366391+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      237,
-      624
+      223,
+      326
     ],
-    "AppliesToKey": "modi",
+    "AppliesToKey": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 352
       }
     }
   }

@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 410,
-  "AssociateId": 208
+  "AppointmentId": 517,
+  "AssociateId": 378
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-08-06T13:57:11.3406859+02:00",
-  "AppointmentId": 69,
-  "Description": "Cross-group background knowledge user",
-  "Title": "voluptas",
-  "Agenda": "laboriosam",
-  "InternalNotes": "reprehenderit",
-  "StartDate": "2016-10-11T13:57:11.3406859+02:00",
-  "EndDate": "2018-09-04T13:57:11.3406859+02:00",
+  "CreatedDate": "2017-08-01T23:03:54.7236468+02:00",
+  "AppointmentId": 198,
+  "Description": "Intuitive national focus group",
+  "Title": "unde",
+  "Agenda": "exercitationem",
+  "InternalNotes": "nam",
+  "StartDate": "1998-09-18T23:03:54.7236468+02:00",
+  "EndDate": "2005-01-08T23:03:54.7236468+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 735,
+  "MotherId": 281,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-05-30T13:57:11.3406859+02:00",
+  "UpdatedDate": "2022-12-21T23:03:54.726146+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 960,
+  "ActiveLinks": 12,
   "Links": [
     {
-      "EntityName": "Sporer-Stroman",
-      "Id": 361,
-      "Description": "Re-contextualized value-added intranet",
-      "ExtraInfo": "et",
-      "LinkId": 144,
+      "EntityName": "Bashirian, Ritchie and Barrows",
+      "Id": 324,
+      "Description": "Optimized zero administration methodology",
+      "ExtraInfo": "sint",
+      "LinkId": 668,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     }
   ],
-  "AlarmLeadTime": "eum",
+  "AlarmLeadTime": "illo",
   "HasAlarm": false,
-  "ColorIndex": 693,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "modi",
-  "LeadTime": "temporibus",
-  "Location": "sunt",
-  "RejectCounter": 556,
+  "ColorIndex": 336,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "quae",
+  "LeadTime": "dolorem",
+  "Location": "rem",
+  "RejectCounter": 895,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 154,
-      "PersonId": 821,
-      "ContactId": 472,
-      "EmailId": 635,
+      "AssociateId": 33,
+      "PersonId": 416,
+      "ContactId": 351,
+      "EmailId": 387,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "chelsey.monahan@whitedietrich.name",
-      "Description": "Digitized regional parallelism"
+      "EmailAddress": "carol@baileybrown.uk",
+      "Description": "Extended secondary system engine"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-08-12T13:57:11.3406859+02:00",
+  "ActiveDate": "2001-03-16T23:03:54.726648+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 17,
+  "PreferredTZLocation": 616,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 392,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 896,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "CentralserviceVideomeetId": "nostrum",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Ashlee Goyette"
+    "SuperOffice:1": "1437360663",
+    "SuperOffice:2": "Beatrice Sawayn"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "culpa",
+    "CustomFields2": "esse"
   },
-  "PublishEventDate": "2023-03-07T13:57:11.3406859+01:00",
-  "PublishTo": "2011-11-05T13:57:11.3406859+01:00",
-  "PublishFrom": "2000-06-14T13:57:11.3406859+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-04-06T23:03:54.7291456+02:00",
+  "PublishTo": "2013-08-22T23:03:54.7291456+02:00",
+  "PublishFrom": "2020-03-27T23:03:54.7291456+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 274,
+      "VisibleId": 471,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 509
+          "FieldLength": 162
         }
       }
     },
     {
-      "VisibleId": 274,
+      "VisibleId": 471,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 509
+          "FieldLength": 162
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 208
     }
   }
 }

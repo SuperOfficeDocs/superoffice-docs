@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Ritchie-Stark",
-    "ToolTip": "Magni deleniti id.",
-    "Deleted": true,
-    "Rank": 483,
-    "Type": "pariatur",
-    "ColorBlock": 679,
-    "IconHint": "fugit",
+    "Id": 353,
+    "Name": "Wolff LLC",
+    "ToolTip": "Qui ipsam dignissimos repellat blanditiis cupiditate sed.",
+    "Deleted": false,
+    "Rank": 120,
+    "Type": "quis",
+    "ColorBlock": 392,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2018-06-21T13:57:20.1577843+02:00",
+    "LastChanged": "2016-06-04T23:04:05.9889938+02:00",
     "ChildItems": [
       {
-        "Id": 494,
-        "Name": "Keebler, O'Hara and Satterfield",
-        "ToolTip": "Eius et ad sed hic cum ad.",
-        "Deleted": false,
-        "Rank": 974,
-        "Type": "aspernatur",
-        "ColorBlock": 459,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2004-05-12T13:57:20.1577843+02:00",
+        "Id": 920,
+        "Name": "Mraz-Nikolaus",
+        "ToolTip": "Iste et ad et culpa cum quis.",
+        "Deleted": true,
+        "Rank": 550,
+        "Type": "illo",
+        "ColorBlock": 43,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2020-10-10T23:04:05.9889938+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "recusandae",
-        "Hidden": false,
-        "FullName": "Corine Heaney",
+        "ExtraInfo": "cum",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Fermin Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 959
+            "FieldType": "System.Int32",
+            "FieldLength": 777
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "possimus",
+    "ExtraInfo": "dolores",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Mrs. Pearl Viva Feest DVM",
+    "FullName": "Sabrina Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldType": "System.String",
+        "FieldLength": 492
       }
     }
   }

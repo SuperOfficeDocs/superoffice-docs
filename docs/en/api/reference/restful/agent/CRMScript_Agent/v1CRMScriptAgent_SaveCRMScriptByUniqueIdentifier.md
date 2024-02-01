@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "qui",
+  "UniqueIdentifier": "non",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "architecto",
-  "Name": "Ebert Inc and Sons",
-  "Description": "Focused explicit capability",
-  "IncludeId": "ab",
-  "Source": "nihil",
-  "Registered": "2018-08-02T13:57:11.9967528+02:00",
-  "RegisteredBy": "tempore",
-  "Updated": "2012-03-01T13:57:11.9967528+01:00",
-  "UpdatedBy": "sapiente",
-  "Path": "repudiandae",
+  "UniqueIdentifier": "aut",
+  "Name": "Fadel, Moore and Gleichner",
+  "Description": "Multi-layered real-time software",
+  "IncludeId": "officia",
+  "Source": "veritatis",
+  "Registered": "2007-04-11T23:03:55.5736344+02:00",
+  "RegisteredBy": "minima",
+  "Updated": "2015-01-24T23:03:55.5736344+01:00",
+  "UpdatedBy": "explicabo",
+  "Path": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 693
     }
   }
 }

@@ -81,7 +81,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 797
+  "KbEntryId": 466
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "nihil",
-  "RegisteredByFullName": "Prof. Malinda Dach",
-  "Updated": "2011-04-04T13:57:12.0280012+02:00",
-  "Question": "quos",
-  "Answer": "consequuntur",
+  "Title": "tenetur",
+  "RegisteredByFullName": "Mrs. Chaz Amie Crist",
+  "Updated": "2002-02-25T23:03:55.6006341+01:00",
+  "Question": "iusto",
+  "Answer": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldLength": 332
     }
   }
 }

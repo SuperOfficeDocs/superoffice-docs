@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "Runolfsdottir LLC",
-  "Tooltip": "sit",
+  "Id": 765,
+  "Name": "Lang, Grant and Price",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 929,
-  "Rank": 94
+  "UdListDefinitionId": 566,
+  "Rank": 472
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Name": "Waelchi Inc and Sons",
-  "Tooltip": "placeat",
+  "Id": 926,
+  "Name": "Conroy Group",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 160,
-  "Rank": 464,
+  "UdListDefinitionId": 402,
+  "Rank": 304,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldType": "System.Int32",
+      "FieldLength": 918
     }
   }
 }

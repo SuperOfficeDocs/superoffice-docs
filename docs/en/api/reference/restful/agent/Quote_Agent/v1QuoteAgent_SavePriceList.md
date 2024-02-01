@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 133,
-  "ERPPriceListKey": "veniam",
-  "QuoteConnectionId": 867,
-  "Name": "Pagac-Pacocha",
-  "Description": "Customer-focused analyzing hierarchy",
-  "Currency": "ducimus",
-  "CurrencyName": "Langosh-Champlin",
-  "ValidFrom": "2002-03-10T13:57:13.0324135+01:00",
-  "ValidTo": "2020-04-19T13:57:13.0324135+02:00",
-  "IsActive": true
+  "PriceListId": 108,
+  "ERPPriceListKey": "cum",
+  "QuoteConnectionId": 689,
+  "Name": "Lakin Group",
+  "Description": "Ergonomic eco-centric neural-net",
+  "Currency": "unde",
+  "CurrencyName": "Beier, Larson and Ward",
+  "ValidFrom": "2008-11-18T23:03:56.7356185+01:00",
+  "ValidTo": "2014-04-19T23:03:56.7356185+02:00",
+  "IsActive": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 652,
-  "ERPPriceListKey": "repellendus",
-  "QuoteConnectionId": 980,
-  "Name": "O'Kon LLC",
-  "Description": "Re-contextualized composite hardware",
-  "Currency": "maiores",
-  "CurrencyName": "Kub, Kozey and Ullrich",
-  "ValidFrom": "2023-04-28T13:57:13.0324135+02:00",
-  "ValidTo": "2016-01-22T13:57:13.0324135+01:00",
-  "IsActive": true,
+  "PriceListId": 314,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 529,
+  "Name": "Sauer-Heidenreich",
+  "Description": "User-centric attitude-oriented application",
+  "Currency": "sit",
+  "CurrencyName": "Stehr-Herman",
+  "ValidFrom": "1998-05-10T23:03:56.7376213+02:00",
+  "ValidTo": "2018-02-25T23:03:56.7376213+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 766
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 374,
-  "Name": "Grady Group",
-  "Tooltip": "et",
+  "Id": 549,
+  "Name": "D'Amore, Armstrong and Cartwright",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "UdListDefinitionId": 313,
-  "Rank": 700
+  "UdListDefinitionId": 328,
+  "Rank": 623
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Stoltenberg LLC",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 824,
-  "Rank": 411,
+  "Id": 832,
+  "Name": "Schowalter, Veum and Moore",
+  "Tooltip": "inventore",
+  "Deleted": true,
+  "UdListDefinitionId": 383,
+  "Rank": 394,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 109
     }
   }
 }

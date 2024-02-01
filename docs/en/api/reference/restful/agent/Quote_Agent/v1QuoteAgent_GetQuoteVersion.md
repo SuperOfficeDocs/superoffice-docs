@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 837
+  "QuoteVersionId": 629
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 513,
-  "ERPQuoteVersionKey": "est",
-  "QuoteId": 877,
-  "Description": "Robust neutral flexibility",
-  "Number": "929927",
+  "QuoteVersionId": 999,
+  "ERPQuoteVersionKey": "nobis",
+  "QuoteId": 911,
+  "Description": "Realigned impactful strategy",
+  "Number": "629470",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 241,
-  "SentDate": "1999-02-22T13:57:13.0324135+01:00",
-  "FollowupId": 22,
-  "ExpirationDate": "2006-11-11T13:57:13.0324135+01:00",
-  "DeliveryCountryId": 499,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 169,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "assumenda",
-  "ERPPaymentTypeKey": "nemo",
-  "ERPDeliveryTermsKey": "excepturi",
-  "ERPDeliveryTypeKey": "cumque",
-  "Rank": 411,
-  "ApprovedBy": 212,
-  "ApprovedText": "voluptatem",
-  "ApprovedRegisteredBy": 761,
-  "ApprovedRegisteredDate": "2020-05-07T13:57:13.0324135+02:00",
-  "ExtraField1": "eius",
-  "ExtraField2": "atque",
-  "ExtraField3": "eius",
-  "ExtraField4": "totam",
-  "ExtraField5": "esse",
-  "LastRecalculated": "2022-12-01T13:57:13.0324135+01:00",
-  "Updated": "2011-06-11T13:57:13.0324135+02:00",
-  "UpdatedAssociateId": 706,
-  "Registered": "2008-02-09T13:57:13.0324135+01:00",
-  "RegisteredAssociateId": 919,
-  "RequestAssociateId": 869,
-  "RequestComment": "temporibus",
+  "LikelyQuoteAlternativeId": 984,
+  "SentDate": "2010-10-31T23:03:56.7191189+01:00",
+  "FollowupId": 389,
+  "ExpirationDate": "2000-02-24T23:03:56.7196199+01:00",
+  "DeliveryCountryId": 569,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 414,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "minus",
+  "ERPPaymentTypeKey": "et",
+  "ERPDeliveryTermsKey": "expedita",
+  "ERPDeliveryTypeKey": "dolor",
+  "Rank": 485,
+  "ApprovedBy": 752,
+  "ApprovedText": "deleniti",
+  "ApprovedRegisteredBy": 892,
+  "ApprovedRegisteredDate": "1999-04-16T23:03:56.7196199+02:00",
+  "ExtraField1": "inventore",
+  "ExtraField2": "quia",
+  "ExtraField3": "rerum",
+  "ExtraField4": "rerum",
+  "ExtraField5": "ullam",
+  "LastRecalculated": "1997-07-12T23:03:56.7196199+02:00",
+  "Updated": "2009-08-05T23:03:56.7196199+02:00",
+  "UpdatedAssociateId": 623,
+  "Registered": "2007-07-29T23:03:56.7196199+02:00",
+  "RegisteredAssociateId": 801,
+  "RequestAssociateId": 301,
+  "RequestComment": "voluptates",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 293,
-      "ERPQuoteAlternativeKey": "expedita",
-      "QuoteVersionId": 182,
-      "Name": "Cronin-Stokes",
-      "Description": "Intuitive human-resource service-desk",
+      "QuoteAlternativeId": 592,
+      "ERPQuoteAlternativeKey": "nemo",
+      "QuoteVersionId": 519,
+      "Name": "Renner, Hermiston and Renner",
+      "Description": "Advanced fault-tolerant alliance",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 4547.434,
-      "ERPDiscountAmount": 30017.451999999997,
-      "DiscountPercent": 19828.818,
-      "DiscountAmount": 1519.99,
+      "ERPDiscountPercent": 2964.764,
+      "ERPDiscountAmount": 18518.806,
+      "DiscountPercent": 9756.142,
+      "DiscountAmount": 22251.399999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "consequatur",
-      "VAT": 23536.34,
-      "EarningPercent": 6747.5019999999995,
-      "EarningAmount": 13006.1,
-      "SubTotal": 14826.954,
-      "TotalPrice": 28174.66,
-      "ExtraField1": "omnis",
-      "ExtraField2": "quibusdam",
-      "ExtraField3": "aut",
-      "ExtraField4": "voluptates",
-      "ExtraField5": "a",
+      "VATInfo": "ut",
+      "VAT": 12159.92,
+      "EarningPercent": 24558.023999999998,
+      "EarningAmount": 29089.788,
+      "SubTotal": 26751.824,
+      "TotalPrice": 24786.806,
+      "ExtraField1": "excepturi",
+      "ExtraField2": "minima",
+      "ExtraField3": "exercitationem",
+      "ExtraField4": "et",
+      "ExtraField5": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 95
+          "FieldType": "System.Int32",
+          "FieldLength": 247
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

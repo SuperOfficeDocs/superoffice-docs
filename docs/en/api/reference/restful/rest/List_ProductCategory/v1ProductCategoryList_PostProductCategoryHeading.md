@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 248,
-  "Name": "Kling-Macejkovic",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 112,
-  "UdListDefinitionId": 991
+  "HeadingId": 215,
+  "Name": "Bashirian LLC",
+  "Tooltip": "iste",
+  "Deleted": false,
+  "Rank": 306,
+  "UdListDefinitionId": 385
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 66,
-  "Name": "Harvey, Kertzmann and Cronin",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "Rank": 426,
-  "UdListDefinitionId": 606,
+  "HeadingId": 580,
+  "Name": "Towne-Volkman",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "Rank": 20,
+  "UdListDefinitionId": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

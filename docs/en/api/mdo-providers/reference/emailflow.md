@@ -16,6 +16,15 @@ List provider for EmailFlow
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EmailFlowListProvider">EmailFlowListProvider</see> class.
 The name of the MDO list is 'emailflow'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Specified workflow statuses| statuses||
+
+Separator: &
+
+
 
 
 

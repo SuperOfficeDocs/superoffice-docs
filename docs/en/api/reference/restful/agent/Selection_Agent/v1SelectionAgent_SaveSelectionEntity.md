@@ -143,58 +143,58 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Progressive intermediate adapter",
-  "Postit": "porro",
+  "Description": "Assimilated background hardware",
+  "Postit": "vitae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 709,
-  "IncludePerson": 859,
-  "MemberCount": 524,
-  "Name": "Bednar-Wolf",
-  "PostitTextId": 220,
-  "CreatedDate": "2006-10-12T13:57:13.1914846+02:00",
-  "SelectionId": 111,
-  "SoundEx": "rem",
-  "Source": 389,
-  "TextId": 362,
-  "UpdatedDate": "2020-04-21T13:57:13.1914846+02:00",
-  "UpdatedCount": 515,
-  "Visibility": 423,
+  "GroupIdx": 935,
+  "IncludePerson": 446,
+  "MemberCount": 23,
+  "Name": "Brakus-Brekke",
+  "PostitTextId": 668,
+  "CreatedDate": "2008-08-09T23:03:57.0926158+02:00",
+  "SelectionId": 882,
+  "SoundEx": "provident",
+  "Source": 917,
+  "TextId": 386,
+  "UpdatedDate": "2014-05-29T23:03:57.0926158+02:00",
+  "UpdatedCount": 524,
+  "Visibility": 529,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 334,
-  "TargetTableName": "Heathcote Group",
-  "Completed": false,
-  "LeftSelectionId": 667,
-  "RightSelectionId": 306,
+  "CompanyUnique": false,
+  "TargetTableNumber": 945,
+  "TargetTableName": "Rogahn Group",
+  "Completed": true,
+  "LeftSelectionId": 847,
+  "RightSelectionId": 34,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hahn-Wisoky",
-  "ShadowProviderName": "Satterfield, Wunsch and Jewess",
-  "ChartKey": "facilis",
-  "LastLoaded": "2009-08-11T13:57:13.1914846+02:00",
-  "LastLoadedBy": 923,
+  "MainProviderName": "Howe-Green",
+  "ShadowProviderName": "Schmitt, Mayer and Gislason",
+  "ChartKey": "suscipit",
+  "LastLoaded": "2009-02-19T23:03:57.0926158+01:00",
+  "LastLoadedBy": 551,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-06-26T13:57:13.1914846+02:00",
-  "LastMembershipChangeBy": 246,
+  "LastMembershipChange": "2004-07-29T23:03:57.0931163+02:00",
+  "LastMembershipChangeBy": 523,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quam",
-  "MemberTabHeading": "enim",
-  "MailingsProviderName": "Turcotte, Stanton and Parisian",
-  "DashboardTileDefinitionId": 212,
+  "MainHeading": "error",
+  "MemberTabHeading": "labore",
+  "MailingsProviderName": "Yundt, Rogahn and Koepp",
+  "DashboardTileDefinitionId": 752,
   "VisibleFor": [
     {
-      "VisibleId": 797,
+      "VisibleId": 952,
       "Visibility": "All",
       "DisplayValue": "omnis"
     },
     {
-      "VisibleId": 797,
+      "VisibleId": 952,
       "Visibility": "All",
       "DisplayValue": "omnis"
     }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled bifurcated contingency",
-  "Postit": "incidunt",
+  "Description": "Persistent executive attitude",
+  "Postit": "aliquid",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 13,
-  "IncludePerson": 944,
-  "MemberCount": 651,
-  "Name": "Lang, Schmitt and Daniel",
-  "PostitTextId": 165,
-  "CreatedDate": "2013-07-12T13:57:13.2071528+02:00",
-  "SelectionId": 142,
-  "SoundEx": "sit",
-  "Source": 199,
-  "TextId": 720,
-  "UpdatedDate": "2013-07-13T13:57:13.2071528+02:00",
-  "UpdatedCount": 78,
-  "Visibility": 237,
+  "GroupIdx": 496,
+  "IncludePerson": 958,
+  "MemberCount": 219,
+  "Name": "Herman Group",
+  "PostitTextId": 834,
+  "CreatedDate": "2019-11-25T23:03:57.097114+01:00",
+  "SelectionId": 924,
+  "SoundEx": "blanditiis",
+  "Source": 648,
+  "TextId": 981,
+  "UpdatedDate": "2017-11-09T23:03:57.097114+01:00",
+  "UpdatedCount": 419,
+  "Visibility": 165,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 544,
-  "TargetTableName": "Hoppe, Keeling and Hills",
-  "Completed": true,
-  "LeftSelectionId": 296,
-  "RightSelectionId": 874,
+  "CompanyUnique": false,
+  "TargetTableNumber": 904,
+  "TargetTableName": "Windler LLC",
+  "Completed": false,
+  "LeftSelectionId": 361,
+  "RightSelectionId": 665,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McCullough Group",
-  "ShadowProviderName": "Borer, Cassin and Hessel",
-  "ChartKey": "nihil",
-  "LastLoaded": "2005-07-11T13:57:13.2071528+02:00",
-  "LastLoadedBy": 277,
+  "MainProviderName": "Kreiger, Bergnaum and Romaguera",
+  "ShadowProviderName": "Beatty, Kuvalis and Wunsch",
+  "ChartKey": "dolorum",
+  "LastLoaded": "2015-02-12T23:03:57.097114+01:00",
+  "LastLoadedBy": 887,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-03-31T13:57:13.2071528+02:00",
-  "LastMembershipChangeBy": 712,
+  "LastMembershipChange": "2014-10-07T23:03:57.0976143+02:00",
+  "LastMembershipChangeBy": 596,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quibusdam",
-  "MemberTabHeading": "soluta",
-  "MailingsProviderName": "Gorczany LLC",
-  "DashboardTileDefinitionId": 262,
+  "MainHeading": "in",
+  "MemberTabHeading": "eos",
+  "MailingsProviderName": "Price Group",
+  "DashboardTileDefinitionId": 266,
   "VisibleFor": [
     {
-      "VisibleId": 824,
+      "VisibleId": 664,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 797
         }
       }
     },
     {
-      "VisibleId": 824,
+      "VisibleId": 664,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 797
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldLength": 652
     }
   }
 }

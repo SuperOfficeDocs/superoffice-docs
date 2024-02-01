@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "hic",
+    "path": "saepe",
     "value": {}
   },
   {
     "op": "add",
-    "path": "hic",
+    "path": "saepe",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 686,
-  "ERPPriceListKey": "mollitia",
-  "QuoteConnectionId": 619,
-  "Name": "Okuneva-Murray",
-  "Description": "Multi-layered user-facing core",
-  "Currency": "consequatur",
-  "CurrencyName": "Wehner, Maggio and VonRueden",
-  "ValidFrom": "2017-03-06T13:57:19.8440154+01:00",
-  "ValidTo": "2023-11-09T13:57:19.8440154+01:00",
-  "IsActive": false,
+  "PriceListId": 830,
+  "ERPPriceListKey": "labore",
+  "QuoteConnectionId": 600,
+  "Name": "Corkery, Dooley and Cummerata",
+  "Description": "Future-proofed optimal productivity",
+  "Currency": "neque",
+  "CurrencyName": "Baumbach Inc and Sons",
+  "ValidFrom": "2019-03-17T23:04:05.5839999+01:00",
+  "ValidTo": "2000-01-25T23:04:05.5839999+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

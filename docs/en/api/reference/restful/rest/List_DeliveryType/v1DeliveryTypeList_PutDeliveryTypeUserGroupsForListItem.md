@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Rice-Kunze",
-    "ToolTip": "Sunt nemo inventore omnis quis.",
+    "Id": 669,
+    "Name": "Windler, Parisian and King",
+    "ToolTip": "Dolorum nisi.",
     "Deleted": false,
-    "Rank": 117,
-    "Type": "aspernatur",
-    "ColorBlock": 560,
-    "IconHint": "facere",
+    "Rank": 104,
+    "Type": "in",
+    "ColorBlock": 965,
+    "IconHint": "corporis",
     "Selected": true,
-    "LastChanged": "2003-09-05T13:57:19.7502685+02:00",
+    "LastChanged": "2013-11-09T23:04:05.4575026+01:00",
     "ChildItems": [
       {
-        "Id": 595,
-        "Name": "Volkman, Schultz and Luettgen",
-        "ToolTip": "Esse at quo nam.",
-        "Deleted": true,
-        "Rank": 927,
-        "Type": "tenetur",
-        "ColorBlock": 446,
-        "IconHint": "animi",
-        "Selected": false,
-        "LastChanged": "2021-01-16T13:57:19.7502685+01:00",
+        "Id": 524,
+        "Name": "Ferry LLC",
+        "ToolTip": "Totam atque accusantium quasi est et iusto magni.",
+        "Deleted": false,
+        "Rank": 543,
+        "Type": "doloribus",
+        "ColorBlock": 731,
+        "IconHint": "quibusdam",
+        "Selected": true,
+        "LastChanged": "2022-03-30T23:04:05.4579997+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "similique",
-        "Hidden": true,
-        "FullName": "Prof. Stephen Mayert IV"
+        "ExtraInfo": "velit",
+        "StyleHint": "iusto",
+        "Hidden": false,
+        "FullName": "Bo Tierra Kirlin PhD"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "facilis",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Jordane Greenholt MD"
+    "FullName": "Mr. Violet Waino Beer I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Carter-Jacobi",
-    "ToolTip": "Ex ea facere aut laudantium cum.",
-    "Deleted": false,
-    "Rank": 94,
-    "Type": "vero",
-    "ColorBlock": 547,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2013-04-29T13:57:19.7502685+02:00",
+    "Id": 5,
+    "Name": "Effertz Group",
+    "ToolTip": "Amet laboriosam voluptas.",
+    "Deleted": true,
+    "Rank": 689,
+    "Type": "adipisci",
+    "ColorBlock": 86,
+    "IconHint": "doloremque",
+    "Selected": true,
+    "LastChanged": "2008-04-07T23:04:05.4594998+02:00",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Hilpert LLC",
-        "ToolTip": "Et eligendi iusto culpa voluptatem.",
+        "Id": 826,
+        "Name": "Trantow-Abbott",
+        "ToolTip": "Cum maxime quisquam id.",
         "Deleted": true,
-        "Rank": 248,
-        "Type": "accusantium",
-        "ColorBlock": 309,
-        "IconHint": "architecto",
+        "Rank": 833,
+        "Type": "sint",
+        "ColorBlock": 186,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2006-10-18T13:57:19.7502685+02:00",
+        "LastChanged": "2009-05-08T23:04:05.4594998+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Major Huel",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Maybell Bernice Kuhic Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 695
+            "FieldType": "System.Int32",
+            "FieldLength": 525
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "ut",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Sydnie Hintz DDS",
+    "FullName": "Tevin Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 383
       }
     }
   }

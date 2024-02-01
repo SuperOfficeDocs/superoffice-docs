@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 Sep 2010 13:57:19 G9T
+Last-Modified: Thu, 05 Oct 2017 23:04:04 G10T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Thu, 23 Sep 2010 13:57:19 G9T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "hic",
+  "SaleText": "beatae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,92 +145,92 @@ Last-Modified: Thu, 23 Sep 2010 13:57:19 G9T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-08-18T13:57:19.1871497+02:00",
-  "Amount": 22420.636,
-  "SaleId": 293,
-  "Earning": 20458.752,
-  "EarningPercent": 25488.822,
-  "Heading": "consectetur",
-  "Number": "1234965",
-  "Probability": 465,
-  "CreatedDate": "2022-04-27T13:57:19.1871497+02:00",
-  "UpdatedDate": "2010-09-23T13:57:19.1871497+02:00",
+  "Saledate": "2000-01-16T23:04:04.69251+01:00",
+  "Amount": 4672.794,
+  "SaleId": 10,
+  "Earning": 16042.946,
+  "EarningPercent": 22191.854,
+  "Heading": "laudantium",
+  "Number": "955821",
+  "Probability": 862,
+  "CreatedDate": "2014-02-01T23:04:04.69251+01:00",
+  "UpdatedDate": "2017-10-05T23:04:04.69251+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 291,
+  "ActiveLinks": 681,
   "Links": [
     {
-      "EntityName": "Hudson Group",
-      "Id": 863,
-      "Description": "Secured homogeneous projection",
-      "ExtraInfo": "inventore",
-      "LinkId": 149,
+      "EntityName": "Jewess, Keebler and O'Keefe",
+      "Id": 770,
+      "Description": "Object-based fresh-thinking adapter",
+      "ExtraInfo": "qui",
+      "LinkId": 383,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 714
         }
       }
     }
   ],
-  "NextDueDate": "2001-05-28T13:57:19.1871497+02:00",
-  "Postit": "qui",
+  "NextDueDate": "2004-04-02T23:04:04.69251+02:00",
+  "Postit": "voluptatem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-08-29T13:57:19.1871497+02:00",
+  "ReopenDate": "2006-08-11T23:04:04.6930107+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Sauer, Watsica and Stiedemann",
-      "Comment": "magnam",
-      "StakeholderRoleId": 201,
-      "CountryId": 147,
-      "PersonId": 426,
-      "EmailDescription": "marshall_gleason@spinka.uk",
-      "EmailId": 165,
-      "EmailAddress": "herta_mayer@bradtke.name",
-      "PhoneId": 256,
-      "ContactName": "Kohler Group",
-      "ContactId": 76,
-      "SaleId": 499,
-      "Mrmrs": "soluta",
-      "Firstname": "Ubaldo",
-      "MiddleName": "Rau Group",
-      "Lastname": "Kreiger",
-      "SaleStakeholderId": 653,
-      "Rank": 95,
-      "Phone": "037.699.4591 x2705",
+      "StakeholderRoleName": "Jaskolski LLC",
+      "Comment": "officia",
+      "StakeholderRoleId": 803,
+      "CountryId": 656,
+      "PersonId": 233,
+      "EmailDescription": "oran_zieme@breitenberg.info",
+      "EmailId": 626,
+      "EmailAddress": "martina_willms@larson.us",
+      "PhoneId": 403,
+      "ContactName": "Stanton-Fahey",
+      "ContactId": 64,
+      "SaleId": 52,
+      "Mrmrs": "in",
+      "Firstname": "Consuelo",
+      "MiddleName": "Kozey-Feil",
+      "Lastname": "Schroeder",
+      "SaleStakeholderId": 440,
+      "Rank": 446,
+      "Phone": "1-390-966-2934 x02496",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 966
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
   ],
-  "ActiveErpLinks": 572,
+  "ActiveErpLinks": 729,
   "UserDefinedFields": {
-    "SuperOffice:1": "Paxton Waelchi",
-    "SuperOffice:2": "Emilia Swaniawski"
+    "SuperOffice:1": "117182760",
+    "SuperOffice:2": "Elmira Hills"
   },
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "eos"
+    "CustomFields1": "deleniti",
+    "CustomFields2": "vitae"
   },
-  "PublishEventDate": "2020-06-04T13:57:19.1871497+02:00",
-  "PublishTo": "2017-05-12T13:57:19.1871497+02:00",
-  "PublishFrom": "2006-05-13T13:57:19.1871497+02:00",
+  "PublishEventDate": "2004-10-04T23:04:04.6935113+02:00",
+  "PublishTo": "2003-12-03T23:04:04.6935113+01:00",
+  "PublishFrom": "1999-08-06T23:04:04.6935113+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 438,
+      "VisibleId": 15,
       "Visibility": "All",
       "DisplayValue": "aut",
       "TableRight": null,
@@ -238,12 +238,12 @@ Last-Modified: Thu, 23 Sep 2010 13:57:19 G9T
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 179
         }
       }
     },
     {
-      "VisibleId": 438,
+      "VisibleId": 15,
       "Visibility": "All",
       "DisplayValue": "aut",
       "TableRight": null,
@@ -251,7 +251,7 @@ Last-Modified: Thu, 23 Sep 2010 13:57:19 G9T
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 179
         }
       }
     }
@@ -260,8 +260,8 @@ Last-Modified: Thu, 23 Sep 2010 13:57:19 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   },
   "_Links": {

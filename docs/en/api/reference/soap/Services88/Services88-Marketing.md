@@ -594,6 +594,7 @@ title: Services88.MarketingAgent WSDL
               <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
               <xs:element minOccurs="0" name="ShipmentDescription" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="FromAddress" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Configuration" type="xs:int" />
               <xs:element minOccurs="0" name="ContactId" type="xs:int" />
               <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PersonId" type="xs:int" />
@@ -654,6 +655,7 @@ title: Services88.MarketingAgent WSDL
               <xs:element minOccurs="0" name="ShipmentId" type="xs:int" />
               <xs:element minOccurs="0" name="ShipmentDescription" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="FromAddress" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Configuration" type="xs:int" />
               <xs:element minOccurs="0" name="PersonId" type="xs:int" />
               <xs:element minOccurs="0" name="PersonFullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ShipmentType" nillable="true" type="xs:string" />
@@ -739,6 +741,31 @@ title: Services88.MarketingAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ShipmentMessageEntity" />
           </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RenameMailingByMessageId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="MessageId" type="xs:int" />
+            <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RenameMailingByMessageIdResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteMessageAndShipment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="MessageId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteMessageAndShipmentResponse">
+        <xs:complexType>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
     </xs:schema>
@@ -1158,6 +1185,40 @@ title: Services88.MarketingAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="RenameMailingByMessageIdRequest">
+    <wsdl:part name="parameters" element="tns:RenameMailingByMessageId" />
+  </wsdl:message>
+  <wsdl:message name="RenameMailingByMessageIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RenameMailingByMessageIdResponse">
+    <wsdl:part name="parameters" element="tns:RenameMailingByMessageIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="RenameMailingByMessageIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMessageAndShipmentRequest">
+    <wsdl:part name="parameters" element="tns:DeleteMessageAndShipment" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMessageAndShipmentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMessageAndShipmentResponse">
+    <wsdl:part name="parameters" element="tns:DeleteMessageAndShipmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMessageAndShipmentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Marketing">
     <wsdl:operation name="CreateDefaultFormEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultFormEntity" name="CreateDefaultFormEntityRequest" message="tns:CreateDefaultFormEntityRequest" />
@@ -1246,6 +1307,14 @@ title: Services88.MarketingAgent WSDL
     <wsdl:operation name="GetShipmentMessageEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetShipmentMessageEntity" name="GetShipmentMessageEntityRequest" message="tns:GetShipmentMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetShipmentMessageEntityResponse" name="GetShipmentMessageEntityResponse" message="tns:GetShipmentMessageEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RenameMailingByMessageId">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/RenameMailingByMessageId" name="RenameMailingByMessageIdRequest" message="tns:RenameMailingByMessageIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/RenameMailingByMessageIdResponse" name="RenameMailingByMessageIdResponse" message="tns:RenameMailingByMessageIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMessageAndShipment">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteMessageAndShipment" name="DeleteMessageAndShipmentRequest" message="tns:DeleteMessageAndShipmentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteMessageAndShipmentResponse" name="DeleteMessageAndShipmentResponse" message="tns:DeleteMessageAndShipmentResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Marketing" type="tns:Marketing">
@@ -1599,6 +1668,38 @@ title: Services88.MarketingAgent WSDL
         <soap:header message="tns:GetShipmentMessageEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetShipmentMessageEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetShipmentMessageEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenameMailingByMessageId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/RenameMailingByMessageId" style="document" />
+      <wsdl:input name="RenameMailingByMessageIdRequest">
+        <soap:header message="tns:RenameMailingByMessageIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RenameMailingByMessageIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RenameMailingByMessageIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RenameMailingByMessageIdResponse">
+        <soap:header message="tns:RenameMailingByMessageIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RenameMailingByMessageIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RenameMailingByMessageIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RenameMailingByMessageIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMessageAndShipment">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteMessageAndShipment" style="document" />
+      <wsdl:input name="DeleteMessageAndShipmentRequest">
+        <soap:header message="tns:DeleteMessageAndShipmentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteMessageAndShipmentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteMessageAndShipmentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteMessageAndShipmentResponse">
+        <soap:header message="tns:DeleteMessageAndShipmentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteMessageAndShipmentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteMessageAndShipmentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteMessageAndShipmentResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

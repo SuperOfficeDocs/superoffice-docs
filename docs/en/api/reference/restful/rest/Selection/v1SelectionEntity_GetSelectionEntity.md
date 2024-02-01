@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 Jul 2004 13:57:19 G7T
+Last-Modified: Fri, 12 Mar 2010 23:04:04 G3T
 
 {
-  "Description": "Balanced composite local area network",
-  "Postit": "accusantium",
+  "Description": "Robust upward-trending approach",
+  "Postit": "ea",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 841,
-  "IncludePerson": 585,
-  "MemberCount": 619,
-  "Name": "Nicolas Group",
-  "PostitTextId": 70,
-  "CreatedDate": "2022-06-21T13:57:19.2502736+02:00",
-  "SelectionId": 611,
-  "SoundEx": "porro",
-  "Source": 383,
-  "TextId": 160,
-  "UpdatedDate": "2004-07-13T13:57:19.2502736+02:00",
-  "UpdatedCount": 766,
-  "Visibility": 687,
+  "GroupIdx": 593,
+  "IncludePerson": 748,
+  "MemberCount": 513,
+  "Name": "Parker, Ankunding and Jast",
+  "PostitTextId": 66,
+  "CreatedDate": "1997-10-28T23:04:04.7770086+01:00",
+  "SelectionId": 348,
+  "SoundEx": "earum",
+  "Source": 121,
+  "TextId": 851,
+  "UpdatedDate": "2010-03-12T23:04:04.7770086+01:00",
+  "UpdatedCount": 611,
+  "Visibility": 560,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 812,
-  "TargetTableName": "Pagac, Mosciski and Krajcik",
+  "TargetTableNumber": 626,
+  "TargetTableName": "O'Hara LLC",
   "Completed": false,
-  "LeftSelectionId": 392,
-  "RightSelectionId": 101,
+  "LeftSelectionId": 581,
+  "RightSelectionId": 136,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nader LLC",
-  "ShadowProviderName": "Bartoletti LLC",
-  "ChartKey": "vel",
-  "LastLoaded": "1997-02-20T13:57:19.2502736+01:00",
-  "LastLoadedBy": 101,
+  "MainProviderName": "Bashirian Group",
+  "ShadowProviderName": "Hermiston-Lakin",
+  "ChartKey": "nobis",
+  "LastLoaded": "2002-12-13T23:04:04.7775105+01:00",
+  "LastLoadedBy": 20,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1996-11-17T13:57:19.2502736+01:00",
-  "LastMembershipChangeBy": 250,
+  "LastMembershipChange": "2012-03-22T23:04:04.7775105+01:00",
+  "LastMembershipChangeBy": 748,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quasi",
-  "MemberTabHeading": "doloribus",
-  "MailingsProviderName": "Willms-McClure",
-  "DashboardTileDefinitionId": 17,
+  "MainHeading": "ducimus",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Medhurst, Reilly and Swift",
+  "DashboardTileDefinitionId": 284,
   "VisibleFor": [
     {
-      "VisibleId": 3,
+      "VisibleId": 554,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 343
+          "FieldLength": 516
         }
       }
     },
     {
-      "VisibleId": 3,
+      "VisibleId": 554,
       "Visibility": "All",
-      "DisplayValue": "maxime",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 343
+          "FieldLength": 516
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Tue, 13 Jul 2004 13:57:19 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   },
   "_Links": {

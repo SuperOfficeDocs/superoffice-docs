@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kling Inc and Sons",
+  "LayoutName": "Huel-Miller",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 95,
-  "Name": "Langworth LLC",
-  "Value": "iste",
-  "CreatedDate": "2015-10-26T13:57:11.5438073+01:00",
-  "UpdatedDate": "2010-08-20T13:57:11.5438073+02:00",
-  "CreatedBy": "quidem",
-  "UpdatedBy": "architecto",
+  "AudienceLayoutId": 828,
+  "Name": "Mills-Greenfelder",
+  "Value": "nulla",
+  "CreatedDate": "1998-02-13T23:03:55.0031421+01:00",
+  "UpdatedDate": "2022-03-28T23:03:55.0031421+02:00",
+  "CreatedBy": "earum",
+  "UpdatedBy": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldType": "System.Int32",
+      "FieldLength": 675
     }
   }
 }

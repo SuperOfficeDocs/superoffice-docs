@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 794,
-  "WorkflowId": 422,
+  "WorkflowGoalId": 140,
+  "WorkflowId": 998,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Daugherty Group",
-      "Description": "Virtual next generation instruction set",
-      "Rank": 402,
+      "Name": "DuBuque Group",
+      "Description": "Ameliorated intermediate contingency",
+      "Rank": 572,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Daugherty Group",
-      "Description": "Virtual next generation instruction set",
-      "Rank": 402,
+      "Name": "DuBuque Group",
+      "Description": "Ameliorated intermediate contingency",
+      "Rank": 572,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 149,
-  "WorkflowId": 667,
+  "WorkflowGoalId": 177,
+  "WorkflowId": 651,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Altenwerth-Emmerich",
-      "Description": "Cross-group web-enabled capability",
-      "Rank": 664,
+      "Name": "Gibson, Von and Pollich",
+      "Description": "Virtual solution-oriented methodology",
+      "Rank": 817,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Altenwerth-Emmerich",
-      "Description": "Cross-group web-enabled capability",
-      "Rank": 664,
+      "Name": "Gibson, Von and Pollich",
+      "Description": "Virtual solution-oriented methodology",
+      "Rank": 817,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 326
     }
   }
 }

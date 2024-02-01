@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Prosacco Group",
-    "ToolTip": "Omnis non.",
-    "Deleted": false,
-    "Rank": 733,
-    "Type": "labore",
-    "ColorBlock": 593,
-    "IconHint": "voluptatum",
-    "Selected": false,
-    "LastChanged": "2001-03-08T13:57:19.6877703+01:00",
+    "Id": 504,
+    "Name": "Skiles-Harber",
+    "ToolTip": "Deleniti aliquid illum velit qui necessitatibus voluptatem.",
+    "Deleted": true,
+    "Rank": 715,
+    "Type": "cum",
+    "ColorBlock": 641,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "1998-10-02T23:04:05.3725029+02:00",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Dare-Luettgen",
-        "ToolTip": "Molestias expedita.",
-        "Deleted": false,
-        "Rank": 577,
-        "Type": "aut",
-        "ColorBlock": 17,
-        "IconHint": "qui",
+        "Id": 812,
+        "Name": "Hamill-Funk",
+        "ToolTip": "Minus aut molestiae sed quibusdam.",
+        "Deleted": true,
+        "Rank": 246,
+        "Type": "quisquam",
+        "ColorBlock": 136,
+        "IconHint": "earum",
         "Selected": true,
-        "LastChanged": "2020-08-09T13:57:19.6877703+02:00",
+        "LastChanged": "2017-12-17T23:04:05.3725029+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ratione",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Prof. Houston Bechtelar Sr."
+        "FullName": "Rupert McLaughlin"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "aut",
+    "ExtraInfo": "rem",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Dr. Dominique Alysha Ziemann V"
+    "FullName": "Miss Myrtice Murphy Bergstrom"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Lowe-Medhurst",
-    "ToolTip": "Magni excepturi quasi.",
-    "Deleted": true,
-    "Rank": 524,
-    "Type": "tempora",
-    "ColorBlock": 76,
+    "Id": 260,
+    "Name": "Pacocha, Kautzer and Pouros",
+    "ToolTip": "Libero sed quia tempore ex beatae.",
+    "Deleted": false,
+    "Rank": 474,
+    "Type": "earum",
+    "ColorBlock": 311,
     "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2020-08-12T13:57:19.6877703+02:00",
+    "LastChanged": "2009-03-09T23:04:05.374004+01:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Welch Inc and Sons",
-        "ToolTip": "Molestiae qui.",
+        "Id": 930,
+        "Name": "Hartmann LLC",
+        "ToolTip": "Nesciunt ullam est.",
         "Deleted": true,
-        "Rank": 30,
-        "Type": "ut",
-        "ColorBlock": 100,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2014-03-03T13:57:19.6877703+01:00",
+        "Rank": 913,
+        "Type": "dolorem",
+        "ColorBlock": 10,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2000-09-28T23:04:05.374004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "facilis",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Kaden D'Amore",
+        "FullName": "Flavio Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 102
+            "FieldLength": 187
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "quidem",
+    "ExtraInfo": "dicta",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Mr. Isaiah Chance Little II",
+    "FullName": "Myrtie Glover DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 272
       }
     }
   }

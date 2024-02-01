@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Frami-Kuhlman",
-      "DisplayName": "Abernathy, Wehner and Tremblay",
-      "DisplayTooltip": "eum",
+      "Name": "Davis, Hintz and O'Kon",
+      "DisplayName": "Hand-Quitzon",
+      "DisplayTooltip": "voluptatem",
       "IsActive": false
     },
     {
-      "Name": "Frami-Kuhlman",
-      "DisplayName": "Abernathy, Wehner and Tremblay",
-      "DisplayTooltip": "eum",
+      "Name": "Davis, Hintz and O'Kon",
+      "DisplayName": "Hand-Quitzon",
+      "DisplayTooltip": "voluptatem",
       "IsActive": false
     }
   ]

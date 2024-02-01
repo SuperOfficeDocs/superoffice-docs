@@ -4,6 +4,8 @@ items:
 - name: AIAgent
   href: aiagent/index.md
   items:
+  - name: ClearChatbotTurns
+    href: aiagent/clearchatbotturns.md
   - name: DetectLanguage
     href: aiagent/detectlanguage.md
   - name: DetectSentiment
@@ -14,6 +16,8 @@ items:
     href: aiagent/getchatbotpromptsuggestions.md
   - name: GetChatbotResponse
     href: aiagent/getchatbotresponse.md
+  - name: GetChatbotTurns
+    href: aiagent/getchatbotturns.md
   - name: GetSummarizeContactPrompt
     href: aiagent/getsummarizecontactprompt.md
   - name: GetSummarizeSalePrompt
@@ -1837,8 +1841,6 @@ items:
     href: listagent/getalltasks.md
   - name: GetAllTicketPriorities
     href: listagent/getallticketpriorities.md
-  - name: GetAllTicketTypeEntities
-    href: listagent/getalltickettypeentities.md
   - name: GetAmountClassEntity
     href: listagent/getamountclassentity.md
   - name: GetAppTaskMenus
@@ -2159,8 +2161,6 @@ items:
     href: listagent/getticketstatuses.md
   - name: GetTicketStatusList
     href: listagent/getticketstatuslist.md
-  - name: GetTicketType
-    href: listagent/gettickettype.md
   - name: GetTicketTypeEntity
     href: listagent/gettickettypeentity.md
   - name: GetTicketTypeList
@@ -2293,6 +2293,8 @@ items:
     href: listagent/setticketprioritysortorder.md
   - name: SetTicketStatusSortOrder
     href: listagent/setticketstatussortorder.md
+  - name: SetTicketTypeSortOrder
+    href: listagent/settickettypesortorder.md
   - name: SetVisibleForUserGroup
     href: listagent/setvisibleforusergroup.md
   - name: SetVisibleForUserGroups
@@ -2322,6 +2324,8 @@ items:
     href: marketingagent/deleteformentity.md
   - name: DeleteFormSubmissionEntity
     href: marketingagent/deleteformsubmissionentity.md
+  - name: DeleteMessageAndShipment
+    href: marketingagent/deletemessageandshipment.md
   - name: DeleteShipmentMessageBlockEntity
     href: marketingagent/deleteshipmentmessageblockentity.md
   - name: DeleteShipmentMessageEntity
@@ -2342,6 +2346,8 @@ items:
     href: marketingagent/getshipmentmessageentity.md
   - name: GetUserBlocks
     href: marketingagent/getuserblocks.md
+  - name: RenameMailingByMessageId
+    href: marketingagent/renamemailingbymessageid.md
   - name: SaveFormEntity
     href: marketingagent/saveformentity.md
   - name: SaveFormSubmissionEntity
@@ -3823,6 +3829,8 @@ items:
     href: workflowagent/createdefaultworkflowstepoptionfromtype.md
   - name: CreateDefaultWorkflowTrigger
     href: workflowagent/createdefaultworkflowtrigger.md
+  - name: CreateDefaultWorkflowWaitForAction
+    href: workflowagent/createdefaultworkflowwaitforaction.md
   - name: CreateEmailFlowContent
     href: workflowagent/createemailflowcontent.md
   - name: DeleteEmailFlow
@@ -3831,6 +3839,8 @@ items:
     href: workflowagent/deleteworkflowgoal.md
   - name: DeleteWorkflowTrigger
     href: workflowagent/deleteworkflowtrigger.md
+  - name: DeleteWorkflowWaitForAction
+    href: workflowagent/deleteworkflowwaitforaction.md
   - name: GetEmailFlow
     href: workflowagent/getemailflow.md
   - name: GetWorkflowGoal
@@ -3841,6 +3851,8 @@ items:
     href: workflowagent/getworkflowstepoption.md
   - name: GetWorkflowTrigger
     href: workflowagent/getworkflowtrigger.md
+  - name: GetWorkflowWaitForAction
+    href: workflowagent/getworkflowwaitforaction.md
   - name: RemoveParticipantsFromEmailFlow
     href: workflowagent/removeparticipantsfromemailflow.md
   - name: Run
@@ -3851,6 +3863,8 @@ items:
     href: workflowagent/saveworkflowgoal.md
   - name: SaveWorkflowTrigger
     href: workflowagent/saveworkflowtrigger.md
+  - name: SaveWorkflowWaitForAction
+    href: workflowagent/saveworkflowwaitforaction.md
   - name: SendEvent
     href: workflowagent/sendevent.md
   - name: TryAddPersonsToEmailFlow

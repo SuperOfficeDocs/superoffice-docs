@@ -65,7 +65,7 @@ OK
 POST /api/v1/Attachment/CopyFromCRMDocument/{documentId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 456,
-  "Name": "Dibbert Inc and Sons",
-  "ContentType": "quas",
-  "AttSize": 566,
-  "InlineImage": true,
-  "ContentId": "provident",
-  "AuthKey": "et",
+  "AttachmentId": 515,
+  "Name": "Yundt Inc and Sons",
+  "ContentType": "eaque",
+  "AttSize": 293,
+  "InlineImage": false,
+  "ContentId": "distinctio",
+  "AuthKey": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldType": "System.Int32",
+      "FieldLength": 723
     }
   }
 }

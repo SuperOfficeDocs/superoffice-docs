@@ -73,9 +73,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "qui",
-    "Type": "ullam",
-    "Description": "De-engineered background solution",
+    "DisplayType": "perferendis",
+    "Type": "nihil",
+    "Description": "Intuitive 4th generation infrastructure",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
     "IsUserNameSupported": false,
@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 196
       }
     }
   }

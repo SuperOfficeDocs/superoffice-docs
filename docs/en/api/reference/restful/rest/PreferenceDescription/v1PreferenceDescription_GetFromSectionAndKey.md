@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 887,
-  "Section": "consequatur",
-  "Key": "quis",
-  "Name": "Dickens-Rodriguez",
+  "PrefDescId": 504,
+  "Section": "id",
+  "Key": "odit",
+  "Name": "Larson, Satterfield and Larson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Implemented context-sensitive migration",
-  "IsBuiltin": false,
-  "TableName": "Collier, Sipes and Kunze",
-  "UserDefinedListId": 161,
-  "Rank": 743,
-  "SubGroup": "ut",
-  "MinLevel": 869,
-  "MaxValue": 604,
-  "MinValue": 600,
-  "RequiredLicense": "natus",
+  "Description": "Proactive object-oriented portal",
+  "IsBuiltin": true,
+  "TableName": "Kautzer Inc and Sons",
+  "UserDefinedListId": 233,
+  "Rank": 426,
+  "SubGroup": "mollitia",
+  "MinLevel": 762,
+  "MaxValue": 863,
+  "MinValue": 605,
+  "RequiredLicense": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 213
     }
   }
 }

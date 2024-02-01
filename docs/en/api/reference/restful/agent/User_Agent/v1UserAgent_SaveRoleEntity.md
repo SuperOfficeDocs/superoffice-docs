@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 309,
-  "Name": "Rath LLC",
-  "Tooltip": "dolorum",
+  "RoleId": 41,
+  "Name": "Deckow, Rogahn and Ullrich",
+  "Tooltip": "sed",
   "RoleType": "Anonymous",
-  "Deleted": 368,
-  "Rank": 300,
-  "Created": "2023-04-24T13:57:13.5052139+02:00",
-  "UseCategories": 487,
+  "Deleted": 22,
+  "Rank": 487,
+  "Created": "1996-10-26T23:03:57.5136077+02:00",
+  "UseCategories": 469,
   "CreatedBy": null,
-  "Updated": "2000-03-30T13:57:13.5052139+02:00",
+  "Updated": "2022-06-16T23:03:57.514108+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 777,
-  "Name": "Dibbert LLC",
-  "Tooltip": "consequatur",
+  "RoleId": 432,
+  "Name": "Becker, Oberbrunner and Wunsch",
+  "Tooltip": "quaerat",
   "RoleType": "Anonymous",
-  "Deleted": 660,
-  "Rank": 823,
-  "Created": "2009-06-21T13:57:13.5208394+02:00",
-  "UseCategories": 798,
+  "Deleted": 389,
+  "Rank": 285,
+  "Created": "2004-11-07T23:03:57.5156076+01:00",
+  "UseCategories": 518,
   "CreatedBy": null,
-  "Updated": "2001-10-16T13:57:13.5208394+02:00",
+  "Updated": "2017-02-22T23:03:57.5171086+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kuhn-Kautzer",
-  "Comment": "est",
-  "StakeholderRoleId": 922,
-  "CountryId": 622,
-  "PersonId": 714,
-  "EmailDescription": "lyla.jacobson@shanahanpredovic.co.uk",
-  "EmailId": 615,
-  "EmailAddress": "june_gottlieb@kuhnlangworth.com",
-  "PhoneId": 438,
-  "ContactName": "Cartwright-Ondricka",
-  "ContactId": 982,
-  "SaleId": 627,
-  "Mrmrs": "dicta",
-  "Firstname": "Jordi",
-  "MiddleName": "Mertz LLC",
-  "Lastname": "Schulist",
-  "SaleStakeholderId": 99,
-  "Rank": 389,
-  "Phone": "1-780-810-0555"
+  "StakeholderRoleName": "Pfannerstill Group",
+  "Comment": "temporibus",
+  "StakeholderRoleId": 68,
+  "CountryId": 563,
+  "PersonId": 79,
+  "EmailDescription": "santino.cruickshank@boehmhane.info",
+  "EmailId": 519,
+  "EmailAddress": "terrell_treutel@ratke.biz",
+  "PhoneId": 786,
+  "ContactName": "Wisozk, Bauch and Kuhic",
+  "ContactId": 957,
+  "SaleId": 948,
+  "Mrmrs": "qui",
+  "Firstname": "Shanny",
+  "MiddleName": "Weimann, King and Weber",
+  "Lastname": "Rau",
+  "SaleStakeholderId": 380,
+  "Rank": 895,
+  "Phone": "273-312-0162"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jacobi LLC",
-  "Comment": "dolore",
-  "StakeholderRoleId": 233,
-  "CountryId": 144,
-  "PersonId": 984,
-  "EmailDescription": "beau@thompsonhammes.biz",
-  "EmailId": 531,
-  "EmailAddress": "dedrick_kunde@okeeferaynor.uk",
-  "PhoneId": 414,
-  "ContactName": "Dickens Inc and Sons",
-  "ContactId": 290,
-  "SaleId": 862,
-  "Mrmrs": "dolor",
-  "Firstname": "Jameson",
-  "MiddleName": "Maggio-Denesik",
-  "Lastname": "Upton",
-  "SaleStakeholderId": 961,
-  "Rank": 233,
-  "Phone": "541.143.8630",
+  "StakeholderRoleName": "Tromp-Littel",
+  "Comment": "odit",
+  "StakeholderRoleId": 894,
+  "CountryId": 295,
+  "PersonId": 488,
+  "EmailDescription": "claude_grady@mcclure.biz",
+  "EmailId": 127,
+  "EmailAddress": "tyshawn@crist.uk",
+  "PhoneId": 712,
+  "ContactName": "Hintz, Koepp and Prosacco",
+  "ContactId": 617,
+  "SaleId": 19,
+  "Mrmrs": "hic",
+  "Firstname": "Moses",
+  "MiddleName": "Frami Inc and Sons",
+  "Lastname": "Fahey",
+  "SaleStakeholderId": 493,
+  "Rank": 187,
+  "Phone": "1-975-752-8015",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 596
     }
   },
   "_Links": {

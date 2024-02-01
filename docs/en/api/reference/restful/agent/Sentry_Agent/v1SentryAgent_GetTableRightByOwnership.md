@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Fay Group",
-  "ContactGroupId": 640,
-  "ContactAssociateId": 342
+  "TableName": "Deckow Inc and Sons",
+  "ContactGroupId": 321,
+  "ContactAssociateId": 216
 }
 ```
 
@@ -92,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": "innovate granular systems"
+  "Reason": ""
 }
 ```

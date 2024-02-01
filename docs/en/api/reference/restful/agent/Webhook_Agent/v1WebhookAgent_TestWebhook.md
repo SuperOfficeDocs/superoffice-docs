@@ -92,13 +92,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "quisquam",
+  "Message": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldType": "System.String",
+      "FieldLength": 356
     }
   }
 }

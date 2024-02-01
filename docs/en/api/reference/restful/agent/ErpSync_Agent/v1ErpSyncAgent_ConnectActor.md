@@ -75,27 +75,27 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 716,
-  "CrmRecordId": 788,
+  "ErpConnectionId": 961,
+  "CrmRecordId": 394,
   "CrmActorType": "Contact",
-  "ErpKey": "exercitationem",
+  "ErpKey": "ea",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Murphy Inc and Sons",
-      "CrmFieldKey": "sit",
-      "Value": "rem",
-      "DisplayValue": "eaque",
-      "SyncToCrm": true,
-      "SyncToErp": true
+      "DisplayName": "Bechtelar Group",
+      "CrmFieldKey": "mollitia",
+      "Value": "quibusdam",
+      "DisplayValue": "iste",
+      "SyncToCrm": false,
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Murphy Inc and Sons",
-      "CrmFieldKey": "sit",
-      "Value": "rem",
-      "DisplayValue": "eaque",
-      "SyncToCrm": true,
-      "SyncToErp": true
+      "DisplayName": "Bechtelar Group",
+      "CrmFieldKey": "mollitia",
+      "Value": "quibusdam",
+      "DisplayValue": "iste",
+      "SyncToCrm": false,
+      "SyncToErp": false
     }
   ]
 }

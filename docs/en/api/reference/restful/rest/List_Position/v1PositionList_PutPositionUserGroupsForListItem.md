@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Conroy, Heathcote and Langosh",
-    "ToolTip": "Sequi quaerat velit vero est nisi ut.",
-    "Deleted": false,
-    "Rank": 674,
-    "Type": "sit",
-    "ColorBlock": 213,
-    "IconHint": "distinctio",
+    "Id": 752,
+    "Name": "Mante LLC",
+    "ToolTip": "Cumque optio quis at explicabo.",
+    "Deleted": true,
+    "Rank": 564,
+    "Type": "provident",
+    "ColorBlock": 111,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2018-05-29T13:57:19.8283923+02:00",
+    "LastChanged": "2016-02-18T23:04:05.5699982+01:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Bergstrom Group",
-        "ToolTip": "Ea illo magni minus sed.",
+        "Id": 159,
+        "Name": "Hoeger, Rowe and Turcotte",
+        "ToolTip": "Consequatur eius praesentium esse et enim iusto ut.",
         "Deleted": false,
-        "Rank": 754,
-        "Type": "reiciendis",
-        "ColorBlock": 251,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2000-08-23T13:57:19.8283923+02:00",
+        "Rank": 301,
+        "Type": "officia",
+        "ColorBlock": 786,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "2002-05-05T23:04:05.5699982+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "quod",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Arnoldo Flatley DDS"
+        "FullName": "Josianne Hand"
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "numquam",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Lewis Rebecca Ledner MD"
+    "FullName": "Darien Roberts"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Walsh, Waters and Hoeger",
-    "ToolTip": "Facere perferendis aut ut in impedit pariatur numquam.",
+    "Id": 95,
+    "Name": "Ankunding-Schroeder",
+    "ToolTip": "Eos sit repudiandae ipsum esse dolorem dolorem.",
     "Deleted": false,
-    "Rank": 116,
-    "Type": "necessitatibus",
-    "ColorBlock": 923,
-    "IconHint": "eaque",
-    "Selected": false,
-    "LastChanged": "2012-12-09T13:57:19.8283923+01:00",
+    "Rank": 886,
+    "Type": "sed",
+    "ColorBlock": 369,
+    "IconHint": "excepturi",
+    "Selected": true,
+    "LastChanged": "2013-06-27T23:04:05.5724997+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Armstrong LLC",
-        "ToolTip": "Et ut.",
+        "Id": 833,
+        "Name": "Wiegand, Powlowski and Schimmel",
+        "ToolTip": "Voluptatum magni magni modi.",
         "Deleted": false,
-        "Rank": 576,
-        "Type": "quod",
-        "ColorBlock": 730,
-        "IconHint": "consequatur",
+        "Rank": 13,
+        "Type": "sint",
+        "ColorBlock": 577,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2006-04-09T13:57:19.8283923+02:00",
+        "LastChanged": "2023-06-06T23:04:05.5724997+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "fugit",
-        "Hidden": true,
-        "FullName": "Jazmin Dina Waelchi MD",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Wilton Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "aut",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Prof. Gregoria Jay Kemmer Sr.",
+    "FullName": "Adelbert Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

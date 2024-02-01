@@ -91,22 +91,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 823,
-  "Name": "Dare, Collier and Botsford",
-  "Description": "Enhanced fresh-thinking task-force",
-  "DeltaJson": "quo",
+  "ConfigurableScreenDeltaId": 297,
+  "Name": "Abbott, Schmitt and Hand",
+  "Description": "Streamlined leading edge toolset",
+  "DeltaJson": "qui",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quos",
-  "UpdatedDate": "2002-11-29T13:57:11.8236525+01:00",
-  "CreatedDate": "2014-12-22T13:57:11.8236525+01:00",
+  "RecipeId": "quo",
+  "UpdatedDate": "2010-11-13T23:03:55.2236388+01:00",
+  "CreatedDate": "2007-06-05T23:03:55.2236388+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    650,
-    404
+    890,
+    905
   ],
-  "AppliesToKey": "et"
+  "AppliesToKey": "voluptatibus"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 208,
-  "Name": "Koepp-Heidenreich",
-  "Description": "Implemented bandwidth-monitored capacity",
-  "DeltaJson": "consectetur",
+  "ConfigurableScreenDeltaId": 126,
+  "Name": "Koch LLC",
+  "Description": "Progressive bottom-line moderator",
+  "DeltaJson": "quas",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "dolore",
-  "UpdatedDate": "2003-11-18T13:57:11.8236525+01:00",
-  "CreatedDate": "2011-11-22T13:57:11.8236525+01:00",
+  "RecipeId": "tempora",
+  "UpdatedDate": "2001-09-27T23:03:55.2251395+02:00",
+  "CreatedDate": "2004-09-18T23:03:55.2251395+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    56,
-    209
+    91,
+    987
   ],
-  "AppliesToKey": "dolorem",
+  "AppliesToKey": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 870
     }
   }
 }

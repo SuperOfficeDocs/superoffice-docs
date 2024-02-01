@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 693,
-  "Name": "Jaskolski, Crooks and Moen",
-  "Tooltip": "temporibus",
-  "Rank": 341,
-  "AmountFrom": 11373.286,
-  "AmountTo": 3246.824,
-  "Deleted": true,
-  "CurrencyId": 111
+  "AmountClassId": 278,
+  "Name": "Eichmann Group",
+  "Tooltip": "dolore",
+  "Rank": 507,
+  "AmountFrom": 24611.302,
+  "AmountTo": 2008.894,
+  "Deleted": false,
+  "CurrencyId": 164
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 467,
-  "Name": "Glover-Harris",
-  "Tooltip": "odio",
-  "Rank": 788,
-  "AmountFrom": 27080.894,
-  "AmountTo": 11367.018,
-  "Deleted": false,
-  "CurrencyId": 732,
+  "AmountClassId": 412,
+  "Name": "Cole-Bergnaum",
+  "Tooltip": "ut",
+  "Rank": 705,
+  "AmountFrom": 18882.35,
+  "AmountTo": 31327.464,
+  "Deleted": true,
+  "CurrencyId": 774,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 573
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

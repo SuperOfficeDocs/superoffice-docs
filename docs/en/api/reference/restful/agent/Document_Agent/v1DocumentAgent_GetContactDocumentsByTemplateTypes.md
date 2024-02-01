@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 370,
-  "StartTime": "2011-11-26T13:57:12.074872+01:00",
-  "EndTime": "2009-09-05T13:57:12.074872+02:00",
-  "Count": 635,
+  "ContactId": 627,
+  "StartTime": "2006-01-07T23:03:55.6616334+01:00",
+  "EndTime": "2003-12-29T23:03:55.6616334+01:00",
+  "Count": 499,
   "DocumentTemplateIds": [
-    65,
-    674
+    797,
+    578
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 751,
-    "Attention": "vel",
-    "Header": "voluptas",
-    "Name": "DuBuque LLC",
-    "OurRef": "recusandae",
-    "YourRef": "est",
-    "Description": "Sharable client-driven process improvement",
-    "DocumentTemplate": "quas",
+    "DocumentId": 970,
+    "Attention": "enim",
+    "Header": "ab",
+    "Name": "Beier Inc and Sons",
+    "OurRef": "ut",
+    "YourRef": "iure",
+    "Description": "Quality-focused 3rd generation extranet",
+    "DocumentTemplate": "voluptatum",
     "IsPublished": true,
-    "PersonId": 433,
-    "PersonFullName": "Mrs. Triston Zboncak DVM",
-    "AssociateFullName": "Dr. Burley Gleason",
-    "ContactId": 598,
-    "ContactName": "Keebler, Volkman and Schimmel",
-    "ProjectId": 44,
-    "ProjectName": "Brekke-Kemmer",
-    "AssociateId": 427,
-    "Snum": 394,
-    "SaleId": 828,
-    "SaleName": "Jones LLC",
+    "PersonId": 644,
+    "PersonFullName": "Darrick Lesch",
+    "AssociateFullName": "Mrs. Linda Lehner I",
+    "ContactId": 260,
+    "ContactName": "Kihn Inc and Sons",
+    "ProjectId": 178,
+    "ProjectName": "Carroll-Runolfsson",
+    "AssociateId": 825,
+    "Snum": 24,
+    "SaleId": 48,
+    "SaleName": "Zulauf, Lang and Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 683
+        "FieldType": "System.Int32",
+        "FieldLength": 603
       }
     }
   }

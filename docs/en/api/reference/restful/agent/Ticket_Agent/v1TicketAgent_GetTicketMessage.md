@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=694
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=908
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 710,
-  "CreatedAt": "2005-11-10T13:57:13.4583399+01:00",
+  "TicketMessageId": 290,
+  "CreatedAt": "2014-12-16T23:03:57.4321139+01:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "eos",
-  "PersonId": 183,
-  "PersonFullName": "Jalon Senger",
-  "ContactId": 145,
-  "ContactName": "Oberbrunner, Beer and Fay",
+  "Important": false,
+  "Author": "quaerat",
+  "PersonId": 907,
+  "PersonFullName": "Onie Bartoletti",
+  "ContactId": 278,
+  "ContactName": "Pfannerstill Group",
   "ContactDepartment": "",
-  "NumAttachments": 828,
-  "EmailHeader": "shyann@nolanfeil.co.uk",
+  "NumAttachments": 788,
+  "EmailHeader": "dashawn.abernathy@nicolas.uk",
   "MessageHeaders": [
     {
-      "Id": 591,
-      "Name": "Feest-Smitham",
-      "Value": "porro",
+      "Id": 167,
+      "Name": "Bauch-Carter",
+      "Value": "natus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 977
         }
       }
     }
   ],
-  "Language": "rerum",
-  "Sentiment": 669,
-  "SentimentConfidence": 53,
-  "CreatedBy": 923,
-  "ChangedAt": "2022-11-15T13:57:13.4583399+01:00",
+  "Language": "expedita",
+  "Sentiment": 126,
+  "SentimentConfidence": 1002,
+  "CreatedBy": 396,
+  "ChangedAt": "2023-05-29T23:03:57.4326095+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldLength": 601
     }
   }
 }

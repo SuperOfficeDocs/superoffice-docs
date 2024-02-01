@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 126
+  "AssociateId": 513
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Simonis, Harber and Von",
-    "DeviceIdentifier": "sed",
-    "PocketVersion": "modi",
-    "Language": "beatae",
-    "PNSHandle": "vitae",
+    "DeviceName": "Gislason-Hane",
+    "DeviceIdentifier": "eligendi",
+    "PocketVersion": "est",
+    "Language": "ea",
+    "PNSHandle": "quia",
     "Platform": "Apple",
-    "OSVersion": "ipsum",
-    "TimeZoneId": 990
+    "OSVersion": "sint",
+    "TimeZoneId": 703
   }
 ]
 ```

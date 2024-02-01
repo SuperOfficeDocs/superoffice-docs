@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "praesentium",
-    "eius"
+    "omnis",
+    "totam"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 43,
-  "ERPQuoteLineKey": "vitae",
-  "QuoteAlternativeId": 113,
-  "ERPProductKey": "quis",
+  "QuoteLineId": 277,
+  "ERPQuoteLineKey": "sunt",
+  "QuoteAlternativeId": 793,
+  "ERPProductKey": "vel",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 8725.056,
-  "DeliveredQuantity": 26557.516,
-  "Rank": 176,
-  "Name": "Quigley-Gorczany",
-  "Description": "Polarised neutral local area network",
-  "Code": "aut",
-  "QuantityUnit": "sint",
-  "PriceUnit": "vel",
-  "ItemNumber": "1430928",
+  "Quantity": 6242.928,
+  "DeliveredQuantity": 30597.242,
+  "Rank": 273,
+  "Name": "Schmeler Group",
+  "Description": "Up-sized heuristic focus group",
+  "Code": "omnis",
+  "QuantityUnit": "adipisci",
+  "PriceUnit": "facere",
+  "ItemNumber": "1573277",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "enim",
-  "ProductTypeKey": "odit",
-  "Supplier": "eligendi",
-  "SupplierCode": "aut",
-  "Thumbnail": "voluptatibus",
-  "VATInfo": "voluptas",
-  "VAT": 18985.772,
-  "UnitCost": 4760.546,
-  "UnitMinimumPrice": 24313.572,
-  "UnitListPrice": 26604.525999999998,
+  "ProductFamilyKey": "assumenda",
+  "ProductTypeKey": "quas",
+  "Supplier": "enim",
+  "SupplierCode": "ducimus",
+  "Thumbnail": "magni",
+  "VATInfo": "maiores",
+  "VAT": 14967.984,
+  "UnitCost": 8364.6459999999988,
+  "UnitMinimumPrice": 5794.766,
+  "UnitListPrice": 13068.779999999999,
   "ExtraInfo": [
     {
-      "Name": "Russel, Reilly and Douglas",
-      "Value": "ut",
+      "Name": "Bode Inc and Sons",
+      "Value": "temporibus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 719
         }
       }
     },
     {
-      "Name": "Russel, Reilly and Douglas",
-      "Value": "ut",
+      "Name": "Bode Inc and Sons",
+      "Value": "temporibus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 719
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
+  "RawExtraInfo": "error",
   "IsSubscription": false,
-  "SubscriptionUnit": "id",
-  "SubscriptionQuantity": 15939.524,
-  "SubscriptionStart": "1998-05-21T13:57:13.0167902+02:00",
-  "ERPDiscountPercent": 21796.969999999998,
-  "ERPDiscountAmount": 6180.248,
-  "DiscountPercent": 26027.87,
-  "DiscountAmount": 7364.9,
+  "SubscriptionUnit": "provident",
+  "SubscriptionQuantity": 18882.35,
+  "SubscriptionStart": "2023-11-27T23:03:56.7081188+01:00",
+  "ERPDiscountPercent": 8555.82,
+  "ERPDiscountAmount": 10285.788,
+  "DiscountPercent": 3428.596,
+  "DiscountAmount": 19574.964,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10395.478,
-  "EarningAmount": 4926.648,
-  "SubTotal": 5368.5419999999995,
-  "TotalPrice": 30180.42,
-  "Rights": "nihil",
-  "Rule": "voluptatibus",
-  "ExtraField1": "et",
-  "ExtraField2": "quia",
-  "ExtraField3": "debitis",
-  "ExtraField4": "omnis",
-  "ExtraField5": "modi",
+  "EarningPercent": 21192.108,
+  "EarningAmount": 23887.347999999998,
+  "SubTotal": 18976.37,
+  "TotalPrice": 9392.598,
+  "Rights": "est",
+  "Rule": "reiciendis",
+  "ExtraField1": "sit",
+  "ExtraField2": "possimus",
+  "ExtraField3": "laboriosam",
+  "ExtraField4": "quia",
+  "ExtraField5": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 432
     }
   }
 }

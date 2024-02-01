@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 939,
+  "TargetYear": 817,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 64
+  "Id": 916
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 465,
+  "TargetAssignmentInfoId": 567,
   "Values": [
-    144,
-    416
+    57,
+    629
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 884,
-  "DimensionListItemDisplayName": "Beer-Deckow",
+  "DimensionListItem": 876,
+  "DimensionListItemDisplayName": "Schneider, Bechtelar and Eichmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

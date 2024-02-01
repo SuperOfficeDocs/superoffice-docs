@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=895
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=828
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 457,
-  "Name": "Kessler, Lesch and Wunsch",
-  "Tooltip": "culpa",
-  "Rank": 443,
+  "SaleTypeId": 375,
+  "Name": "Lemke, Parker and Zemlak",
+  "Tooltip": "labore",
+  "Rank": 781,
   "DurationUnit": "Century",
-  "SaleDuration": 258,
-  "SaleTypeCatId": 682,
-  "Deleted": true,
+  "SaleDuration": 320,
+  "SaleTypeCatId": 476,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 165,
-  "QuoteLinesTemplate": 516,
-  "ConfirmationLinesTemplate": 234,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 95,
+  "QuoteLinesTemplate": 254,
+  "ConfirmationLinesTemplate": 863,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 852,
-  "MinEarningPercent": 107,
-  "GroupQuoteLinesBy": 983,
-  "SortGroupLinesBy": 441,
+  "MaxDiscountPercent": 783,
+  "MinEarningPercent": 766,
+  "GroupQuoteLinesBy": 905,
+  "SortGroupLinesBy": 901,
   "Stages": [
     {
-      "Id": 105,
-      "Name": "Baumbach, Wintheiser and West",
-      "ToolTip": "Qui eum ut et.",
-      "Deleted": false,
-      "Rank": 814,
-      "Type": "odio",
-      "ColorBlock": 791,
-      "IconHint": "temporibus",
+      "Id": 622,
+      "Name": "Simonis Inc and Sons",
+      "ToolTip": "Dolorum et voluptatum sunt.",
+      "Deleted": true,
+      "Rank": 88,
+      "Type": "voluptate",
+      "ColorBlock": 407,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2002-08-02T13:57:12.4962375+02:00",
+      "LastChanged": "2020-09-18T23:03:56.1901274+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "eius",
-      "Hidden": false,
-      "FullName": "Benton Konopelski",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Rick Wiza",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 544
+          "FieldType": "System.Int32",
+          "FieldLength": 188
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 911
     }
   }
 }

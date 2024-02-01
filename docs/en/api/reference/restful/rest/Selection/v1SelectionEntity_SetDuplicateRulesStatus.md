@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blick, Shields and Schroeder",
-    "DisplayName": "Hilpert Inc and Sons",
-    "DisplayTooltip": "veniam",
+    "Name": "Kovacek-Tillman",
+    "DisplayName": "Lehner, Fay and VonRueden",
+    "DisplayTooltip": "totam",
     "IsActive": false
   },
   {
-    "Name": "Blick, Shields and Schroeder",
-    "DisplayName": "Hilpert Inc and Sons",
-    "DisplayTooltip": "veniam",
+    "Name": "Kovacek-Tillman",
+    "DisplayName": "Lehner, Fay and VonRueden",
+    "DisplayTooltip": "totam",
     "IsActive": false
   }
 ]

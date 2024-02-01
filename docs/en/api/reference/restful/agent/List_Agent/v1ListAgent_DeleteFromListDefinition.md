@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "UdListDefinitionId": 475
+  "Id": 87,
+  "UdListDefinitionId": 178
 }
 ```
 

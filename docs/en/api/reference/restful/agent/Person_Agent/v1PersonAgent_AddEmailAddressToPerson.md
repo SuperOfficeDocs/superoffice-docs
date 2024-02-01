@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 366,
-  "EmailAddress": "ivy_koelpin@larkin.co.uk",
+  "PersonId": 832,
+  "EmailAddress": "clinton@bins.name",
   "SetAsPrimaryEmail": true
 }
 ```

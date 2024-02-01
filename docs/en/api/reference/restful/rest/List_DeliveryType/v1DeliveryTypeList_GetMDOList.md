@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=similique
+GET /api/v1/List/DeliveryType/MDOItems?query=error
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Krajcik Group",
-    "ToolTip": "Animi et veniam voluptatem vel voluptatum.",
+    "Id": 623,
+    "Name": "Dach Inc and Sons",
+    "ToolTip": "Dolores rerum quia excepturi cum.",
     "Deleted": false,
-    "Rank": 648,
-    "Type": "aut",
+    "Rank": 434,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Bahringer-Auer",
-        "ToolTip": "Dolorum ipsa.",
-        "Deleted": true,
-        "Rank": 416,
-        "Type": "voluptas",
+        "Id": 466,
+        "Name": "Turner-Wintheiser",
+        "ToolTip": "Accusantium voluptas sapiente quas.",
+        "Deleted": false,
+        "Rank": 871,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 668,
-        "ExtraInfo": "nobis",
-        "StyleHint": "dolorem",
-        "FullName": "Dahlia Moore",
+        "IconHint": "et",
+        "ColorBlock": 274,
+        "ExtraInfo": "tempore",
+        "StyleHint": "velit",
+        "FullName": "Boyd Betty Mueller I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 186
+            "FieldType": "System.String",
+            "FieldLength": 969
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 916,
-    "ExtraInfo": "et",
-    "StyleHint": "architecto",
-    "FullName": "Ms. Raoul Vandervort IV",
+    "IconHint": "adipisci",
+    "ColorBlock": 751,
+    "ExtraInfo": "eos",
+    "StyleHint": "natus",
+    "FullName": "Jaiden Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Stracke-Zemlak",
-    "ToolTip": "Iste laudantium consectetur est.",
-    "Deleted": true,
-    "Rank": 227,
-    "Type": "temporibus",
-    "ColorBlock": 907,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2017-05-04T13:57:19.8908927+02:00",
+    "Id": 676,
+    "Name": "Ledner, Ankunding and Gorczany",
+    "ToolTip": "Et consequatur pariatur.",
+    "Deleted": false,
+    "Rank": 356,
+    "Type": "perspiciatis",
+    "ColorBlock": 875,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2002-10-27T23:04:05.6464985+01:00",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Leuschke-Shanahan",
-        "ToolTip": "Est optio fugiat.",
+        "Id": 155,
+        "Name": "O'Reilly, Osinski and Padberg",
+        "ToolTip": "Corrupti iure doloribus et omnis enim velit.",
         "Deleted": false,
-        "Rank": 793,
-        "Type": "quae",
-        "ColorBlock": 571,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "2002-11-11T13:57:19.8908927+01:00",
+        "Rank": 778,
+        "Type": "expedita",
+        "ColorBlock": 325,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "1998-03-26T23:04:05.646997+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "a",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Prof. Garrett Marina Cassin Jr."
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Mr. Garett Micaela Nienow"
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "dicta",
+    "ExtraInfo": "magnam",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Dejah Schroeder V"
+    "FullName": "Maiya Dach"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Walsh Group",
-    "ToolTip": "Quisquam quos ea voluptatibus expedita fuga natus.",
+    "Id": 758,
+    "Name": "Hills, Treutel and Jewess",
+    "ToolTip": "Non assumenda voluptas.",
     "Deleted": false,
-    "Rank": 634,
-    "Type": "aut",
-    "ColorBlock": 869,
-    "IconHint": "debitis",
+    "Rank": 834,
+    "Type": "qui",
+    "ColorBlock": 943,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2016-05-28T13:57:19.8908927+02:00",
+    "LastChanged": "2022-05-24T23:04:05.6479968+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Swift LLC",
-        "ToolTip": "Officia accusantium qui cupiditate labore est.",
+        "Id": 601,
+        "Name": "Kreiger, Bradtke and Hills",
+        "ToolTip": "Nesciunt aliquid excepturi fugit facere ut est.",
         "Deleted": false,
-        "Rank": 276,
-        "Type": "voluptatem",
-        "ColorBlock": 653,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2020-11-13T13:57:19.8908927+01:00",
+        "Rank": 654,
+        "Type": "nostrum",
+        "ColorBlock": 969,
+        "IconHint": "odio",
+        "Selected": false,
+        "LastChanged": "2017-02-09T23:04:05.648497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Raina Bernier",
+        "ExtraInfo": "magni",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Carlo Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 195
+            "FieldLength": 896
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Myron Von",
+    "FullName": "Ferne Jazmin Jast III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldLength": 682
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eligendi",
-  "ProviderName": "Glover Group",
-  "StorageKey": "magnam",
+  "StorageType": "quis",
+  "ProviderName": "Leannon-Rosenbaum",
+  "StorageKey": "tenetur",
   "RestrictionGroup": null,
-  "Context": "expedita"
+  "Context": "impedit"
 }
 ```
 

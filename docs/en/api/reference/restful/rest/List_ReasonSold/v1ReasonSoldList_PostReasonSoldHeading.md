@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 865,
-  "Name": "Hettinger Group",
-  "Tooltip": "nostrum",
-  "Deleted": true,
-  "Rank": 828,
-  "UdListDefinitionId": 256
+  "HeadingId": 356,
+  "Name": "McLaughlin Inc and Sons",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "Rank": 942,
+  "UdListDefinitionId": 665
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 943,
-  "Name": "Cartwright, Kihn and Jewess",
-  "Tooltip": "blanditiis",
+  "HeadingId": 401,
+  "Name": "Ziemann-Walsh",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 606,
-  "UdListDefinitionId": 663,
+  "Rank": 313,
+  "UdListDefinitionId": 496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 169
+      "FieldType": "System.Int32",
+      "FieldLength": 729
     }
   }
 }

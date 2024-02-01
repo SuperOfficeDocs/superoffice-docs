@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "fuga",
-      "HTMLBody": "rerum",
+      "Subject": "enim",
+      "HTMLBody": "minus",
       "From": null,
-      "Sent": "2004-06-07T13:57:12.2311227+02:00",
-      "Size": 1000,
+      "Sent": "2011-12-20T23:03:55.8701376+01:00",
+      "Size": 756,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "odit",
-      "PlainBody": "repellendus",
-      "IsSent": true,
+      "MessageID": "voluptas",
+      "PlainBody": "repellat",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 321,
+      "ServerId": 30,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Stark-Gislason",
-      "EmailItemId": 919,
-      "AccountId": 765,
-      "ReceivedAt": "2016-02-05T13:57:12.2311227+01:00",
+      "FolderName": "Torp Inc and Sons",
+      "EmailItemId": 193,
+      "AccountId": 934,
+      "ReceivedAt": "1999-01-02T23:03:55.8701376+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2008-07-24T13:57:12.2311227+02:00",
+      "RepliedAt": "2021-06-07T23:03:55.8701376+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -162,147 +162,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 584,
-        "ContactName": "Casper-Rippin",
-        "PersonId": 259,
-        "PersonName": "Monahan-Lakin",
-        "AssociateId": 636,
-        "Address": "at",
-        "EmailId": 429,
+        "ContactId": 420,
+        "ContactName": "Daugherty-Sipes",
+        "PersonId": 965,
+        "PersonName": "Kuphal-Hauck",
+        "AssociateId": 810,
+        "Address": "maxime",
+        "EmailId": 228,
         "DuplicatePersonIds": [
-          334,
-          482
+          606,
+          523
         ],
-        "Name": "Baumbach-Hansen",
+        "Name": "Beahan-Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 447
+            "FieldLength": 296
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 17,
-        "ContactName": "Fadel Inc and Sons",
-        "PersonId": 603,
-        "PersonName": "Weissnat Group",
-        "AssociateId": 244,
-        "Address": "unde",
-        "EmailId": 735,
+        "ContactId": 984,
+        "ContactName": "Crist, Mayert and Heaney",
+        "PersonId": 439,
+        "PersonName": "Glover-Howe",
+        "AssociateId": 135,
+        "Address": "minus",
+        "EmailId": 545,
         "DuplicatePersonIds": [
-          802,
-          476
+          553,
+          836
         ],
-        "Name": "Dibbert Inc and Sons",
+        "Name": "Gutkowski, Lang and Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 118
+            "FieldLength": 561
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 523,
-        "ContactName": "Mann Group",
-        "PersonId": 110,
-        "PersonName": "Cruickshank-Boyer",
-        "AssociateId": 345,
-        "Address": "eligendi",
-        "EmailId": 576,
+        "ContactId": 761,
+        "ContactName": "Emard-Funk",
+        "PersonId": 262,
+        "PersonName": "Terry, Abshire and Osinski",
+        "AssociateId": 98,
+        "Address": "ut",
+        "EmailId": 855,
         "DuplicatePersonIds": [
-          765,
-          392
+          628,
+          46
         ],
-        "Name": "Kulas-Mayert",
+        "Name": "Lindgren Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldLength": 879
           }
         }
       }
     ],
-    "Subject": "consectetur",
-    "HTMLBody": "quis",
+    "Subject": "quo",
+    "HTMLBody": "et",
     "From": null,
-    "Sent": "2014-08-14T13:57:12.2311227+02:00",
-    "Size": 735,
+    "Sent": "2012-11-10T23:03:55.8721428+01:00",
+    "Size": 953,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "qui",
-    "PlainBody": "in",
+    "MessageID": "aliquid",
+    "PlainBody": "vero",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 302,
+    "ServerId": 599,
     "Attachments": [
       {
-        "Description": "Diverse grid-enabled definition",
-        "Filename": "et",
-        "Size": 655,
-        "Type": "et",
-        "Encoding": "consequatur",
-        "Id": "et",
-        "Disposition": "numquam",
-        "IsSafeFileExtension": true,
+        "Description": "Distributed radical Graphical User Interface",
+        "Filename": "ab",
+        "Size": 792,
+        "Type": "deserunt",
+        "Encoding": "nam",
+        "Id": "repellat",
+        "Disposition": "recusandae",
+        "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldType": "System.String",
+            "FieldLength": 492
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Harris, Shanahan and Runolfsdottir",
+        "Name": "Ernser, Leuschke and Glover",
         "Values": [
-          "explicabo",
-          "optio"
+          "voluptatum",
+          "unde"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 794
           }
         }
       },
       {
-        "Name": "Harris, Shanahan and Runolfsdottir",
+        "Name": "Ernser, Leuschke and Glover",
         "Values": [
-          "explicabo",
-          "optio"
+          "voluptatum",
+          "unde"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 794
           }
         }
       }
     ],
-    "FolderName": "Spencer, Wintheiser and Yundt",
-    "EmailItemId": 417,
-    "AccountId": 103,
-    "ReceivedAt": "2006-02-23T13:57:12.2311227+01:00",
+    "FolderName": "Hahn, Beier and Yost",
+    "EmailItemId": 878,
+    "AccountId": 689,
+    "ReceivedAt": "2020-08-30T23:03:55.8726304+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2023-02-09T13:57:12.2311227+01:00",
+    "RepliedAt": "2017-09-30T23:03:55.8726304+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 903
       }
     }
   }

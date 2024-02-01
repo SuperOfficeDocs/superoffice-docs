@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kris Group",
-  "Columns": "eligendi",
-  "SortOrder": "cum",
-  "Restrictions": "maxime",
-  "Entities": "tempora",
-  "Page": 270,
-  "PageSize": 735
+  "ProviderName": "Satterfield-Koss",
+  "Columns": "deleniti",
+  "SortOrder": "ea",
+  "Restrictions": "in",
+  "Entities": "rerum",
+  "Page": 90,
+  "PageSize": 709
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schiller Inc and Sons",
-    "PrimaryKey": 275,
+    "EntityName": "Bednar, Johns and King",
+    "PrimaryKey": 146,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quisquam",
-        "TooltipHint": "sed",
-        "LinkHint": "sit"
+        "DisplayValue": "fugiat",
+        "TooltipHint": "laborum",
+        "LinkHint": "consectetur"
       }
     },
-    "LinkHint": "itaque",
-    "StyleHint": "qui",
+    "LinkHint": "hic",
+    "StyleHint": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 295
+        "FieldLength": 239
       }
     }
   }

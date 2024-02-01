@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 229,
-    "Name": "Purdy LLC",
-    "Tooltip": "qui",
+    "HeadingId": 180,
+    "Name": "Batz Inc and Sons",
+    "Tooltip": "molestias",
     "Deleted": true,
-    "Rank": 464,
-    "UdListDefinitionId": 71,
+    "Rank": 34,
+    "UdListDefinitionId": 834,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 64
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive heuristic orchestration",
-  "Postit": "numquam",
+  "Description": "Diverse clear-thinking data-warehouse",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 699,
+  "GroupIdx": 971,
   "IncludePerson": 222,
-  "MemberCount": 125,
-  "Name": "Koch, Stamm and Schuster",
-  "PostitTextId": 858,
-  "CreatedDate": "2022-07-15T13:57:13.2227834+02:00",
-  "SelectionId": 358,
-  "SoundEx": "quia",
-  "Source": 211,
-  "TextId": 339,
-  "UpdatedDate": "2003-05-21T13:57:13.2227834+02:00",
-  "UpdatedCount": 288,
-  "Visibility": 46,
+  "MemberCount": 864,
+  "Name": "Price, Streich and Turcotte",
+  "PostitTextId": 405,
+  "CreatedDate": "1999-03-31T23:03:57.130113+02:00",
+  "SelectionId": 56,
+  "SoundEx": "earum",
+  "Source": 513,
+  "TextId": 183,
+  "UpdatedDate": "2013-02-07T23:03:57.130113+01:00",
+  "UpdatedCount": 512,
+  "Visibility": 343,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 972,
-  "TargetTableName": "Kihn, Weber and Kuhn",
+  "TargetTableNumber": 454,
+  "TargetTableName": "Murphy Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 668,
-  "RightSelectionId": 132,
+  "LeftSelectionId": 119,
+  "RightSelectionId": 517,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Krajcik, Sauer and Koch",
-  "ShadowProviderName": "Eichmann LLC",
-  "ChartKey": "hic",
-  "LastLoaded": "2005-08-27T13:57:13.2227834+02:00",
-  "LastLoadedBy": 855,
+  "MainProviderName": "Farrell LLC",
+  "ShadowProviderName": "Schroeder-Cremin",
+  "ChartKey": "inventore",
+  "LastLoaded": "2023-12-22T23:03:57.130113+01:00",
+  "LastLoadedBy": 312,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-10-04T13:57:13.2227834+02:00",
-  "LastMembershipChangeBy": 301,
+  "LastMembershipChange": "2011-12-10T23:03:57.1306172+01:00",
+  "LastMembershipChangeBy": 180,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptates",
+  "MainHeading": "veritatis",
   "MemberTabHeading": "aut",
-  "MailingsProviderName": "McClure Inc and Sons",
-  "DashboardTileDefinitionId": 643,
+  "MailingsProviderName": "Rogahn-Feil",
+  "DashboardTileDefinitionId": 972,
   "VisibleFor": [
     {
-      "VisibleId": 21,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 374
         }
       }
     },
     {
-      "VisibleId": 21,
+      "VisibleId": 526,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 888
+          "FieldLength": 374
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 385
     }
   }
 }

@@ -73,8 +73,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 588,
-  "Name": "Konopelski, Jones and Gerlach",
+  "TicketStatusId": 927,
+  "Name": "Ernser, Stiedemann and Baumbach",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 984
     }
   }
 }

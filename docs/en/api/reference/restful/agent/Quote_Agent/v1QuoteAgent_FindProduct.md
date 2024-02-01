@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 472,
-  "UserInput": "rerum",
-  "PriceListKey": "quidem"
+  "QuoteAlternativeId": 666,
+  "UserInput": "harum",
+  "PriceListKey": "voluptas"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 57,
-    "ERPProductKey": "dignissimos",
-    "ERPPriceListKey": "dolores",
-    "Name": "Hane-Kub",
-    "Description": "Focused zero administration implementation",
-    "Code": "esse",
-    "PriceUnit": "sed",
-    "QuantityUnit": "tempore",
+    "ProductId": 379,
+    "ERPProductKey": "sequi",
+    "ERPPriceListKey": "reprehenderit",
+    "Name": "Hills Inc and Sons",
+    "Description": "Right-sized clear-thinking approach",
+    "Code": "qui",
+    "PriceUnit": "eligendi",
+    "QuantityUnit": "quod",
     "IsSubscription": true,
-    "SubscriptionUnit": "placeat",
-    "DefaultSubscriptionQuantity": 20317.721999999998,
-    "ItemNumber": "846871",
+    "SubscriptionUnit": "rerum",
+    "DefaultSubscriptionQuantity": 6891.666,
+    "ItemNumber": "1349184",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "atque",
-    "ProductTypeKey": "excepturi",
-    "VAT": 13454.261999999999,
-    "VATInfo": "et",
-    "UnitCost": 25498.224,
-    "UnitMinimumPrice": 15246.91,
-    "UnitListPrice": 12921.482,
-    "InAssortment": true,
-    "Supplier": "tenetur",
-    "SupplierCode": "qui",
-    "Rights": "repellendus",
-    "Rule": "sit",
+    "ProductFamilyKey": "eos",
+    "ProductTypeKey": "est",
+    "VAT": 15901.916,
+    "VATInfo": "delectus",
+    "UnitCost": 25106.474,
+    "UnitMinimumPrice": 29039.644,
+    "UnitListPrice": 1776.9779999999998,
+    "InAssortment": false,
+    "Supplier": "expedita",
+    "SupplierCode": "a",
+    "Rights": "omnis",
+    "Rule": "ex",
     "ExtraInfo": [
       {
-        "Name": "Hirthe Inc and Sons",
-        "Value": "aliquam",
+        "Name": "Jacobs, Stamm and Wilkinson",
+        "Value": "vitae",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 765
+            "FieldLength": 431
           }
         }
       },
       {
-        "Name": "Hirthe Inc and Sons",
-        "Value": "aliquam",
+        "Name": "Jacobs, Stamm and Wilkinson",
+        "Value": "vitae",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 765
+            "FieldLength": 431
           }
         }
       }
     ],
-    "RawExtraInfo": "distinctio",
-    "ExtraField1": "voluptas",
-    "ExtraField2": "magni",
-    "ExtraField3": "voluptate",
-    "ExtraField4": "velit",
-    "ExtraField5": "laboriosam",
-    "InStock": 16350.078,
+    "RawExtraInfo": "iusto",
+    "ExtraField1": "quas",
+    "ExtraField2": "ut",
+    "ExtraField3": "a",
+    "ExtraField4": "aspernatur",
+    "ExtraField5": "et",
+    "InStock": 13316.366,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldLength": 542
       }
     }
   }

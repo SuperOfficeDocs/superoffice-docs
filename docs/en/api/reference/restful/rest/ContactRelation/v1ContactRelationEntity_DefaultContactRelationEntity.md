@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 16 Jun 2014 13:57:18 G6T
+Last-Modified: Thu, 26 Nov 2009 23:04:04 G11T
 
 {
-  "SourceContactId": 295,
-  "SourcePersonId": 218,
-  "DestinationContactId": 451,
-  "DestinationPersonId": 946,
-  "RelationId": 605,
-  "Comment": "asperiores",
-  "RelationDefinitionId": 270,
-  "Reversed": 235,
-  "UpdatedDate": "2014-06-16T13:57:18.669059+02:00",
-  "CreatedDate": "1998-03-02T13:57:18.669059+01:00",
+  "SourceContactId": 738,
+  "SourcePersonId": 521,
+  "DestinationContactId": 480,
+  "DestinationPersonId": 910,
+  "RelationId": 90,
+  "Comment": "harum",
+  "RelationDefinitionId": 796,
+  "Reversed": 423,
+  "UpdatedDate": "2009-11-26T23:04:04.0520234+01:00",
+  "CreatedDate": "2016-10-06T23:04:04.0520234+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ledner LLC",
-  "SourcePersonName": "Jerde, Turcotte and Mitchell",
-  "DestinationContactName": "Quitzon-Gerhold",
-  "DestinationPersonName": "Kuhn Inc and Sons",
-  "ActiveText": "qui",
-  "PassiveText": "iste",
+  "SourceContactName": "Konopelski LLC",
+  "SourcePersonName": "Collins, Keeling and Breitenberg",
+  "DestinationContactName": "Erdman Inc and Sons",
+  "DestinationPersonName": "Luettgen-Veum",
+  "ActiveText": "non",
+  "PassiveText": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldLength": 953
     }
   }
 }

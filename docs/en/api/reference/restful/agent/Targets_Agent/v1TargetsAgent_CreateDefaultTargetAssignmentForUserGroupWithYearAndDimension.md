@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 628,
-  "Year": 505,
-  "TargetDimensionId": 481
+  "UserGroupId": 54,
+  "Year": 562,
+  "TargetDimensionId": 923
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 443,
+    "TargetAssignmentInfoId": 153,
     "Values": [
-      16,
-      893
+      603,
+      786
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 99,
-    "DimensionListItemDisplayName": "Sauer-Denesik",
+    "DimensionListItem": 897,
+    "DimensionListItemDisplayName": "Feeney-Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 560
       }
     }
   }

@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Champlin-Bauch",
-  "ForceFlatList": false,
-  "AdditionalInfo": "molestiae",
-  "OnlyHistory": true
+  "Name": "Hilpert, Parisian and Boehm",
+  "ForceFlatList": true,
+  "AdditionalInfo": "corrupti",
+  "OnlyHistory": false
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Lemke-Schinner",
-    "ToolTip": "Repudiandae velit saepe distinctio doloribus voluptate harum libero.",
-    "Deleted": false,
-    "Rank": 132,
-    "Type": "ad",
+    "Id": 641,
+    "Name": "Kling, Hansen and Block",
+    "ToolTip": "Assumenda aut dolor ab sed a mollitia harum.",
+    "Deleted": true,
+    "Rank": 908,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 386,
-        "Name": "Mosciski-Lockman",
-        "ToolTip": "Ad et deserunt et.",
+        "Id": 38,
+        "Name": "Kilback, Collins and Wisozk",
+        "ToolTip": "Tempore quasi velit omnis qui.",
         "Deleted": false,
-        "Rank": 808,
-        "Type": "aut",
+        "Rank": 594,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 137,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "blanditiis",
-        "FullName": "Miss Randy Rubye Ullrich",
+        "IconHint": "ex",
+        "ColorBlock": 985,
+        "ExtraInfo": "corporis",
+        "StyleHint": "minima",
+        "FullName": "Ms. Josie Otho Morar Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 532
+            "FieldLength": 357
           }
         }
       }
     ],
-    "IconHint": "mollitia",
-    "ColorBlock": 966,
-    "ExtraInfo": "aliquid",
-    "StyleHint": "nam",
-    "FullName": "Ms. Felicia Schulist DDS",
+    "IconHint": "dicta",
+    "ColorBlock": 83,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "commodi",
+    "FullName": "Jarvis Wilkinson III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 230
       }
     }
   }

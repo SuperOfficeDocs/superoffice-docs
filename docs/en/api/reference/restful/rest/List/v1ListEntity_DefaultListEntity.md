@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 613,
-  "Name": "Price Inc and Sons",
-  "Tooltip": "vitae",
-  "Deleted": false,
-  "Rank": 613,
+  "Id": 329,
+  "Name": "Kohler-Boyle",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "Rank": 465,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "molestias",
+  "ListType": "a",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

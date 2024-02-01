@@ -81,6 +81,7 @@ OK
 | ParserValues | object | Parser values sent to the event handler |
 | CgiVariables | object | Cgi variables sent by some events |
 | CgiContent | string | The Cgi content/body, sent by some events |
+| Headers | object | Incoming headers if sent by the context which the script is executed from |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 190,
+  "CRMScriptId": 528,
   "EventData": null
 }
 ```
@@ -108,37 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "at",
-    "InputValues2": "sed"
+    "InputValues1": "tenetur",
+    "InputValues2": "omnis"
   },
   "BlockExecution": false,
-  "NavigateTo": "consequatur",
-  "Message": "consectetur",
-  "ShowDialog": "similique",
+  "NavigateTo": "atque",
+  "Message": "a",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "possimus",
-    "OutputValues2": "enim"
+    "OutputValues1": "suscipit",
+    "OutputValues2": "sequi"
   },
   "StateValues": {
-    "StateValues1": "qui",
-    "StateValues2": "id"
+    "StateValues1": "accusantium",
+    "StateValues2": "sit"
   },
-  "Exception": "recusandae",
+  "Exception": "qui",
   "ParserValues": {
-    "ParserValues1": "corporis",
-    "ParserValues2": "id"
+    "ParserValues1": "est",
+    "ParserValues2": "qui"
   },
   "CgiVariables": {
-    "CgiVariables1": "cupiditate",
-    "CgiVariables2": "molestiae"
+    "CgiVariables1": "et",
+    "CgiVariables2": "ut"
   },
-  "CgiContent": "et",
+  "CgiContent": "repellendus",
+  "Headers": {
+    "Headers1": "ab",
+    "Headers2": "harum"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 961
     }
   }
 }

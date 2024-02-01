@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,28 +96,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 50,
-  "UniqueIdentifier": "animi",
-  "Name": "Mitchell Inc and Sons",
-  "Description": "Compatible explicit methodology",
-  "IncludeId": "sed",
-  "HierarchyId": 246,
-  "Source": "reiciendis",
-  "Registered": "2022-08-09T13:57:18.6846845+02:00",
-  "RegisteredAssociateId": 278,
-  "Updated": "2017-08-16T13:57:18.6846845+02:00",
-  "UpdatedAssociateId": 579,
+  "EjscriptId": 313,
+  "UniqueIdentifier": "quae",
+  "Name": "Nicolas Group",
+  "Description": "Sharable user-facing conglomeration",
+  "IncludeId": "veritatis",
+  "HierarchyId": 287,
+  "Source": "reprehenderit",
+  "Registered": "2013-09-20T23:04:04.0680188+02:00",
+  "RegisteredAssociateId": 254,
+  "Updated": "2014-10-11T23:04:04.0680188+02:00",
+  "UpdatedAssociateId": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 746
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

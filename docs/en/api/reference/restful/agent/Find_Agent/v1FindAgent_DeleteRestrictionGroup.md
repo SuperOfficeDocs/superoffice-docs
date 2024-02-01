@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "impedit",
-  "ProviderName": "Leuschke, Jewess and Carroll",
-  "StorageKey": "odio",
-  "Rank": 13,
-  "Context": "voluptatem"
+  "StorageType": "et",
+  "ProviderName": "Ledner Inc and Sons",
+  "StorageKey": "eum",
+  "Rank": 929,
+  "Context": "culpa"
 }
 ```
 

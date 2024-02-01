@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 756,
-    "Name": "Funk LLC",
-    "MaxDataAge": 544,
-    "NumberOfUsers": 264,
-    "NumberOfLogins": 745,
-    "FreetextEnabeled": true,
+    "AreaId": 58,
+    "Name": "Abshire Group",
+    "MaxDataAge": 828,
+    "NumberOfUsers": 543,
+    "NumberOfLogins": 997,
+    "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 331
+        "FieldType": "System.Int32",
+        "FieldLength": 165
       }
     }
   }

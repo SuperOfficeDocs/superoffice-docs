@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 842,
-  "Name": "Jenkins Inc and Sons",
-  "Tooltip": "consequatur",
+  "Id": 403,
+  "Name": "Koelpin-Bahringer",
+  "Tooltip": "iure",
   "Deleted": false,
-  "Rank": 313,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "Rank": 613,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "alias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   },
   "_Links": {

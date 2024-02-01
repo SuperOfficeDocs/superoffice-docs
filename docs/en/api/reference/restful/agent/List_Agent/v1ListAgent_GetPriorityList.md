@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Value": "architecto",
-    "Tooltip": "dolor",
+    "Id": 527,
+    "Value": "voluptatum",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldLength": 148
       }
     }
   },
   {
-    "Id": 936,
-    "Value": "architecto",
-    "Tooltip": "dolor",
+    "Id": 527,
+    "Value": "voluptatum",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldLength": 148
       }
     }
   }

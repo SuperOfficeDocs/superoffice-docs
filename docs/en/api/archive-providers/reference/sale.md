@@ -1099,7 +1099,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=person/personUdef/SuperOffice:10,person/correspondingAssociate/contactDepartment,contact/restrictionAddress/zip,associate/credentialType,associate/personEmail
+GET /api/v1/archive/Sale?$select=person/personAssociate/otherGroups,contact/contactExtra/x_contact_shorttext,associate/fullName,saleUdef/SuperOffice:1,saleStakeholder/person/personAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

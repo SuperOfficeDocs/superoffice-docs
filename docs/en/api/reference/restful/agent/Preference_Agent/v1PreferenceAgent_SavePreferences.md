@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "in",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "aut",
-      "DisplayTooltip": "qui",
+      "DisplayValue": "tempore",
+      "DisplayTooltip": "consectetur",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 869,
-      "PrefDescId": 739,
-      "TableName": "Muller, Crooks and Hammes",
-      "UserPreferenceId": 281
+      "TargetId": 552,
+      "PrefDescId": 574,
+      "TableName": "Crooks-Hodkiewicz",
+      "UserPreferenceId": 987
     }
   ]
 }

@@ -83,38 +83,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 644,
-  "Field": "non",
-  "RecordId": 273,
+  "RefCountsId": 792,
+  "Field": "vel",
+  "RecordId": 188,
   "SuggestedRecords": [
     {
-      "Id": 694,
-      "Name": "Fadel, Boyer and Quitzon",
-      "ToolTip": "Dolorem est minima et ducimus consequatur repellendus.",
-      "Deleted": false,
-      "Rank": 105,
-      "Type": "eius",
+      "Id": 22,
+      "Name": "Bins-Metz",
+      "ToolTip": "Quaerat maxime.",
+      "Deleted": true,
+      "Rank": 539,
+      "Type": "aliquam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "blanditiis",
-      "ColorBlock": 89,
-      "ExtraInfo": "sunt",
-      "StyleHint": "id",
-      "FullName": "Mrs. Darrell Shirley Schaden Sr."
+      "IconHint": "qui",
+      "ColorBlock": 99,
+      "ExtraInfo": "ex",
+      "StyleHint": "eum",
+      "FullName": "Ruby Yundt"
     }
   ],
-  "CurrentValue": 442,
-  "TravelPrefix": 336,
-  "SatPrefix": 660,
+  "CurrentValue": 617,
+  "TravelPrefix": 885,
+  "SatPrefix": 855,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": true
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 106,
-  "Field": "accusantium",
-  "RecordId": 986,
+  "RefCountsId": 797,
+  "Field": "nemo",
+  "RecordId": 803,
   "SuggestedRecords": [
     {
-      "Id": 79,
-      "Name": "Keeling-Schmeler",
-      "ToolTip": "Minus laudantium consectetur.",
+      "Id": 982,
+      "Name": "Douglas-Graham",
+      "ToolTip": "Veniam in dicta.",
       "Deleted": false,
-      "Rank": 734,
-      "Type": "quasi",
+      "Rank": 81,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolor",
-      "ColorBlock": 208,
-      "ExtraInfo": "quibusdam",
-      "StyleHint": "quos",
-      "FullName": "Syble Schimmel",
+      "IconHint": "eius",
+      "ColorBlock": 807,
+      "ExtraInfo": "in",
+      "StyleHint": "aut",
+      "FullName": "Prof. Agustin Jacobs V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 584
         }
       }
     }
   ],
-  "CurrentValue": 913,
-  "TravelPrefix": 212,
-  "SatPrefix": 89,
+  "CurrentValue": 743,
+  "TravelPrefix": 659,
+  "SatPrefix": 253,
   "Allocate": false,
-  "Unique": true,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

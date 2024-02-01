@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobson Group",
+  "Name": "Leuschke, Runolfsson and Haley",
   "ForceFlatList": false,
-  "AdditionalInfo": "deserunt",
+  "AdditionalInfo": "magnam",
   "HistoryItems": [
-    610,
-    297
+    809,
+    312
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Skiles, Friesen and Ferry",
-    "ToolTip": "Saepe quis velit.",
+    "Id": 586,
+    "Name": "Davis-Hessel",
+    "ToolTip": "Blanditiis totam.",
     "Deleted": false,
-    "Rank": 489,
-    "Type": "voluptatem",
-    "ColorBlock": 828,
-    "IconHint": "adipisci",
-    "Selected": true,
-    "LastChanged": "2000-04-10T13:57:12.6068289+02:00",
+    "Rank": 61,
+    "Type": "dolorum",
+    "ColorBlock": 504,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2010-05-28T23:03:56.3496238+02:00",
     "ChildItems": [
       {
-        "Id": 478,
-        "Name": "Shields-Ondricka",
-        "ToolTip": "Enim eveniet officiis omnis et eos voluptas.",
+        "Id": 553,
+        "Name": "Bogan, Hessel and McKenzie",
+        "ToolTip": "Vitae dolores nobis natus.",
         "Deleted": false,
-        "Rank": 2,
-        "Type": "explicabo",
-        "ColorBlock": 952,
-        "IconHint": "assumenda",
+        "Rank": 282,
+        "Type": "ut",
+        "ColorBlock": 776,
+        "IconHint": "exercitationem",
         "Selected": true,
-        "LastChanged": "1999-04-20T13:57:12.6068289+02:00",
+        "LastChanged": "2010-05-12T23:03:56.3496238+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "aliquid",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Freddie Roob",
+        "FullName": "Pauline Kerluke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldLength": 599
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "ratione",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "expedita",
     "Hidden": true,
-    "FullName": "Mitchell Crona",
+    "FullName": "Creola Griffin Metz II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 72
       }
     }
   }

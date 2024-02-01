@@ -102,24 +102,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 170,
-  "Name": "Leannon LLC",
-  "Rank": 579,
-  "Tooltip": "est",
-  "Icon": "ratione",
-  "DefaultTicketStatus": 702,
+  "TicketTypeId": 486,
+  "Name": "Rippin, Heller and Rogahn",
+  "Rank": 32,
+  "Tooltip": "ratione",
+  "Icon": "expedita",
+  "DefaultTicketStatus": 547,
   "TicketStatuses": [
-    554,
-    690
+    269,
+    250
   ],
-  "DefaultTicketPriority": 355,
+  "DefaultTicketPriority": 343,
   "TicketPriorities": [
-    155,
-    529
+    680,
+    896
   ],
-  "ReplyTemplate": 146,
+  "ReplyTemplate": 542,
   "IsExternalVisible": false,
-  "IsDefault": false
+  "IsDefault": true
 }
 ```
 
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 990,
-  "Name": "Zemlak, Carroll and Reichert",
-  "Rank": 605,
-  "Tooltip": "necessitatibus",
-  "Icon": "fugiat",
-  "DefaultTicketStatus": 679,
+  "TicketTypeId": 157,
+  "Name": "Collier, Fahey and Schowalter",
+  "Rank": 920,
+  "Tooltip": "quidem",
+  "Icon": "omnis",
+  "DefaultTicketStatus": 13,
   "TicketStatuses": [
-    744,
-    846
+    331,
+    237
   ],
-  "DefaultTicketPriority": 481,
+  "DefaultTicketPriority": 993,
   "TicketPriorities": [
-    836,
-    102
+    618,
+    88
   ],
-  "ReplyTemplate": 77,
+  "ReplyTemplate": 82,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 417
     }
   },
   "_Links": {

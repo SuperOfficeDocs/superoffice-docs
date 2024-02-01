@@ -135,7 +135,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 967
+  "SaleId": 11
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-10-25T13:57:11.4344336+02:00",
-  "AppointmentId": 439,
-  "Description": "De-engineered incremental initiative",
-  "Title": "velit",
-  "Agenda": "sint",
-  "InternalNotes": "nihil",
-  "StartDate": "1997-03-31T13:57:11.4344336+02:00",
-  "EndDate": "2005-09-25T13:57:11.4344336+02:00",
+  "CreatedDate": "2011-08-10T23:03:54.8591444+02:00",
+  "AppointmentId": 220,
+  "Description": "Public-key fault-tolerant algorithm",
+  "Title": "ducimus",
+  "Agenda": "explicabo",
+  "InternalNotes": "ea",
+  "StartDate": "2001-10-12T23:03:54.8596446+02:00",
+  "EndDate": "2023-01-13T23:03:54.8596446+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 232,
+  "MotherId": 362,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-01-18T13:57:11.4344336+01:00",
+  "UpdatedDate": "2008-02-23T23:03:54.8631442+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 533,
+  "ActiveLinks": 898,
   "Links": [
     {
-      "EntityName": "Zulauf, Bogisich and Adams",
-      "Id": 184,
-      "Description": "Persistent analyzing focus group",
-      "ExtraInfo": "nam",
-      "LinkId": 51,
+      "EntityName": "Kovacek Group",
+      "Id": 486,
+      "Description": "Robust high-level moderator",
+      "ExtraInfo": "commodi",
+      "LinkId": 841,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldLength": 95
         }
       }
     }
   ],
-  "AlarmLeadTime": "omnis",
-  "HasAlarm": true,
-  "ColorIndex": 408,
+  "AlarmLeadTime": "numquam",
+  "HasAlarm": false,
+  "ColorIndex": 163,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "vitae",
-  "LeadTime": "id",
-  "Location": "ut",
-  "RejectCounter": 659,
+  "LagTime": "nemo",
+  "LeadTime": "ut",
+  "Location": "neque",
+  "RejectCounter": 188,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 277,
-      "PersonId": 35,
-      "ContactId": 461,
-      "EmailId": 350,
-      "SendEmail": false,
+      "AssociateId": 942,
+      "PersonId": 418,
+      "ContactId": 136,
+      "EmailId": 214,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "eloy@haleycronin.name",
-      "Description": "Enterprise-wide national process improvement"
+      "EmailAddress": "dawn.stracke@macejkovic.us",
+      "Description": "Monitored high-level knowledge base"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-02-03T13:57:11.4344336+01:00",
-  "HasConflict": false,
+  "ActiveDate": "1996-10-26T23:03:54.8636447+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 538,
+  "PreferredTZLocation": 37,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 744,
+  "SuggestedAppointmentId": 542,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "corrupti",
+  "CentralserviceVideomeetId": "aut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Cleora Ephraim Schiller",
-    "SuperOffice:2": "Mr. Jaqueline Kallie Keebler I"
+    "SuperOffice:1": "Joanie Herman",
+    "SuperOffice:2": "Karolann Dooley"
   },
   "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "magnam"
+    "CustomFields1": "magnam",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2021-11-12T13:57:11.4344336+01:00",
-  "PublishTo": "2019-08-24T13:57:11.4344336+02:00",
-  "PublishFrom": "2012-07-28T13:57:11.4344336+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-09-28T23:03:54.8656448+02:00",
+  "PublishTo": "2019-03-01T23:03:54.8656448+01:00",
+  "PublishFrom": "2009-12-06T23:03:54.8656448+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 961,
+      "VisibleId": 492,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 712
         }
       }
     },
     {
-      "VisibleId": 961,
+      "VisibleId": 492,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 712
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

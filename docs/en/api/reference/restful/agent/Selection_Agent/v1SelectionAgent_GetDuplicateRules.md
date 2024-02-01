@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schaden Group",
-    "DisplayName": "Hirthe Inc and Sons",
-    "DisplayTooltip": "nesciunt",
-    "IsActive": true,
+    "Name": "Nitzsche, Friesen and Kub",
+    "DisplayName": "Krajcik, Lakin and Padberg",
+    "DisplayTooltip": "eius",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 334
       }
     }
   },
   {
-    "Name": "Schaden Group",
-    "DisplayName": "Hirthe Inc and Sons",
-    "DisplayTooltip": "nesciunt",
-    "IsActive": true,
+    "Name": "Nitzsche, Friesen and Kub",
+    "DisplayName": "Krajcik, Lakin and Padberg",
+    "DisplayTooltip": "eius",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 334
       }
     }
   }

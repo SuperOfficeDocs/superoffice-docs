@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 850,
-  "Name": "Hayes LLC",
-  "Tooltip": "incidunt",
+  "HeadingId": 91,
+  "Name": "Lueilwitz-Willms",
+  "Tooltip": "nulla",
   "Deleted": true,
-  "Rank": 656,
-  "UdListDefinitionId": 805
+  "Rank": 122,
+  "UdListDefinitionId": 242
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 26,
-  "Name": "Koepp-Beer",
-  "Tooltip": "voluptatibus",
+  "HeadingId": 473,
+  "Name": "Hickle Inc and Sons",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 269,
-  "UdListDefinitionId": 695,
+  "Rank": 254,
+  "UdListDefinitionId": 223,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 8
     }
   }
 }

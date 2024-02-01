@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eligendi",
-  "Name": "Bayer, Labadie and Watsica",
-  "Description": "Multi-tiered bandwidth-monitored focus group",
-  "IncludeId": "vel",
-  "Source": "neque",
-  "Registered": "2004-04-12T13:57:19.5158958+02:00",
-  "RegisteredBy": "quia",
-  "Updated": "2009-09-18T13:57:19.5158958+02:00",
-  "UpdatedBy": "neque",
-  "Path": "facilis",
+  "UniqueIdentifier": "quia",
+  "Name": "Hane-McLaughlin",
+  "Description": "Multi-channelled eco-centric throughput",
+  "IncludeId": "ab",
+  "Source": "deleniti",
+  "Registered": "1997-03-25T23:04:05.1430039+01:00",
+  "RegisteredBy": "eius",
+  "Updated": "2002-11-07T23:04:05.1430039+01:00",
+  "UpdatedBy": "est",
+  "Path": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 178
     }
   }
 }

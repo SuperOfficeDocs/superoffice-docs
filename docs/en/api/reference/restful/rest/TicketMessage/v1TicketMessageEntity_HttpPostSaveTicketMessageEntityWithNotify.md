@@ -123,66 +123,66 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 325,
+  "EjMessageId": 772,
   "Ticket": null,
-  "CreatedAt": "2014-11-09T13:57:19.3909317+01:00",
+  "CreatedAt": "1998-11-16T23:04:04.9460068+01:00",
   "CreatedBy": null,
-  "Author": "sint",
+  "Author": "id",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "numquam",
-  "TimeSpent": 861,
-  "Body": "saepe",
-  "HtmlBody": "itaque",
-  "EmailHeader": "caden_gusikowski@johnson.ca",
-  "DebugInfo": "nulla",
-  "MailSorter": "ea",
+  "MessageId": "doloremque",
+  "TimeSpent": 145,
+  "Body": "voluptates",
+  "HtmlBody": "similique",
+  "EmailHeader": "andrew@boehmvandervort.us",
+  "DebugInfo": "iure",
+  "MailSorter": "quas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reprehenderit",
+  "SearchTitle": "ut",
   "MessageHeaders": [
     {
-      "Id": 747,
-      "Name": "Gislason-Jewess",
-      "Value": "laboriosam",
+      "Id": 646,
+      "Name": "Weimann, Wuckert and Windler",
+      "Value": "dolorum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 747,
-      "Name": "Gislason-Jewess",
-      "Value": "laboriosam",
+      "Id": 646,
+      "Name": "Weimann, Wuckert and Windler",
+      "Value": "dolorum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "qui",
-  "Sentiment": 971,
-  "SentimentConfidence": 87,
+  "Language": "velit",
+  "Sentiment": 975,
+  "SentimentConfidence": 81,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 624,
-      "Name": "Feil Inc and Sons",
-      "ContentType": "sit",
-      "AttSize": 794,
-      "InlineImage": true,
-      "ContentId": "dolore",
-      "AuthKey": "at"
+      "AttachmentId": 651,
+      "Name": "Schowalter, Turner and Prosacco",
+      "ContentType": "accusamus",
+      "AttSize": 604,
+      "InlineImage": false,
+      "ContentId": "est",
+      "AuthKey": "sint"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "qui",
+    "CustomFields2": "veritatis"
   }
 }
 ```
@@ -194,78 +194,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 709,
+  "EjMessageId": 382,
   "Ticket": null,
-  "CreatedAt": "2009-04-16T13:57:19.3909317+02:00",
+  "CreatedAt": "2019-09-12T23:04:04.9540084+02:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "sint",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 187,
-  "Body": "quos",
-  "HtmlBody": "ea",
-  "EmailHeader": "rosalee@hayes.us",
-  "DebugInfo": "aut",
-  "MailSorter": "repudiandae",
+  "MessageId": "error",
+  "TimeSpent": 872,
+  "Body": "sunt",
+  "HtmlBody": "ex",
+  "EmailHeader": "myrtle@schaeferdare.ca",
+  "DebugInfo": "voluptate",
+  "MailSorter": "illo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "numquam",
+  "SearchTitle": "beatae",
   "MessageHeaders": [
     {
-      "Id": 880,
-      "Name": "Zemlak-Reinger",
-      "Value": "labore",
+      "Id": 110,
+      "Name": "Hauck-Stokes",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 97
+          "FieldType": "System.Int32",
+          "FieldLength": 810
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "quas",
-  "Sentiment": 961,
-  "SentimentConfidence": 267,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 701,
+  "SentimentConfidence": 810,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 901,
-      "Name": "Rice, Barrows and Rolfson",
-      "ContentType": "amet",
-      "AttSize": 488,
-      "InlineImage": true,
-      "ContentId": "repellat",
-      "AuthKey": "autem",
+      "AttachmentId": 699,
+      "Name": "Kuhlman-Blick",
+      "ContentType": "quo",
+      "AttSize": 603,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 71
+          "FieldType": "System.Int32",
+          "FieldLength": 613
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "beatae"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "ad"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

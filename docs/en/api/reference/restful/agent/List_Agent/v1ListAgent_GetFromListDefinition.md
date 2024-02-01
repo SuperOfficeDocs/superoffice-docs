@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 985,
-  "UdListDefinitionId": 646
+  "Id": 780,
+  "UdListDefinitionId": 879
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 75,
-  "Name": "Schiller-Hudson",
-  "Tooltip": "impedit",
+  "Id": 177,
+  "Name": "Reilly Inc and Sons",
+  "Tooltip": "natus",
   "Deleted": true,
-  "UdListDefinitionId": 924,
-  "Rank": 672,
+  "UdListDefinitionId": 685,
+  "Rank": 67,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 844
     }
   }
 }

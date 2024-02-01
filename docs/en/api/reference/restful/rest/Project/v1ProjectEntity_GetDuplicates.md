@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Stroman-Lueilwitz",
-    "SoPrimaryKey": 124,
-    "EntryName": "Douglas LLC",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Gusikowski LLC",
+    "RuleName": "Labadie-Wyman",
+    "SoPrimaryKey": 449,
+    "EntryName": "Mitchell, Torp and Trantow",
+    "EntryIdentifier": "perspiciatis",
+    "RuleDisplayName": "Schmidt LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

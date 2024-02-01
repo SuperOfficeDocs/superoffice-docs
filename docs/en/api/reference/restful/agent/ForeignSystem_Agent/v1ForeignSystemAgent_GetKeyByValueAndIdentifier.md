@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heller, Shields and Johns",
-  "DeviceName": "Morar, Heathcote and Conn",
-  "DeviceIdentifier": "et",
-  "KeyName": "Botsford-Predovic",
-  "KeyValue": "hic",
-  "TableName": "Fay-Kozey"
+  "ApplicationName": "Upton, Moore and Crooks",
+  "DeviceName": "Mertz-Gusikowski",
+  "DeviceIdentifier": "quia",
+  "KeyName": "Baumbach-Cremin",
+  "KeyValue": "suscipit",
+  "TableName": "Fisher LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsum",
-  "Value": "minus",
-  "RecordId": 802,
-  "CreatedDate": "2020-08-06T13:57:12.4181107+02:00",
-  "UpdatedDate": "2007-03-13T13:57:12.4181107+01:00",
-  "UpdatedBy": "soluta",
-  "CreatedBy": "tempora",
-  "TableName": "McCullough-Wyman",
+  "Key": "molestiae",
+  "Value": "quidem",
+  "RecordId": 580,
+  "CreatedDate": "2022-03-19T23:03:56.1191291+01:00",
+  "UpdatedDate": "2004-12-09T23:03:56.1191291+01:00",
+  "UpdatedBy": "nam",
+  "CreatedBy": "dolores",
+  "TableName": "Hermiston, Morar and Connelly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 84
     }
   }
 }

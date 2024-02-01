@@ -67,7 +67,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Leuschke-Blick",
-    "DisplayName": "Durgan-Ortiz",
-    "Description": "Expanded reciprocal knowledge base",
-    "ShortLabel": "reiciendis",
-    "HideLabel": false,
+    "FieldName": "VonRueden Inc and Sons",
+    "DisplayName": "Bergnaum LLC",
+    "Description": "Multi-lateral global productivity",
+    "ShortLabel": "blanditiis",
+    "HideLabel": true,
     "HideField": true,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 287,
-    "TemplateVariableName": "Renner-Ortiz"
+    "Rank": 564,
+    "TemplateVariableName": "O'Connell Inc and Sons"
   }
 ]
 ```

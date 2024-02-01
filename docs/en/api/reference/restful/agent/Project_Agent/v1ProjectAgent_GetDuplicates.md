@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harber Group"
+  "Name": "Fisher Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Adams Group",
-    "SoPrimaryKey": 284,
-    "EntryName": "Schuster, Hagenes and Ebert",
-    "EntryIdentifier": "aliquam",
-    "RuleDisplayName": "Gottlieb, Borer and Brown",
+    "RuleName": "Stehr-Hermann",
+    "SoPrimaryKey": 239,
+    "EntryName": "Kutch-Hane",
+    "EntryIdentifier": "alias",
+    "RuleDisplayName": "Cronin, Romaguera and Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldType": "System.String",
+        "FieldLength": 271
       }
     }
   }

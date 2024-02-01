@@ -908,6 +908,7 @@ a non-null value for those contacts or persons that exist in the given static se
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
+|request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -978,11 +979,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |request/extra/x\_ticket\_date|date|Extra date: Custom date field on Request. No default value| x |
 |request/extra/x\_ticket\_datetime|datetime|Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
 |request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
-|request/extra/x\_ticket\_boolean|bool|Extra boolean: Custom boolean on Ticket.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_boolean|bool|Extra boolean: Custom boolean on Ticket.| x |
 |request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
@@ -1082,11 +1083,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |projectMembers/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |projectMembers/saintSaleStatus|listAny|With status|  |
 |projectMembers/saintAmountClass|listAny|Amount class|  |
-|projectMembers/saintActivityType|listAny|SAINT type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintActivityType|listAny|SAINT type|  |
 |projectMembers/saintDirection|listAny|Direction|  |
 |projectMembers/saintIntention|listAny|Intention|  |
 |projectMembers/saintTicketStatus|listAny|Status|  |
@@ -1187,7 +1188,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=appointment/duration,appointment/appointmentUdef/SuperOffice:8,personSourceRelation/personId,personSourceRelation/restrictionPersonId,personTargetRelation/supportAssociateFullName
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=contactExtra/x_contact_datetime,sale/source,sale/associate/ejDisplayName,sale/associate/personEmail,appointment/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

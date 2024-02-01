@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "sint",
-      "Key": "maxime"
+      "Section": "eius",
+      "Key": "voluptas"
     },
     {
-      "Section": "sint",
-      "Key": "maxime"
+      "Section": "eius",
+      "Key": "voluptas"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "accusantium",
+    "RawValue": "dolor",
     "Specification": null,
-    "DisplayValue": "similique",
-    "DisplayTooltip": "aut",
+    "DisplayValue": "nobis",
+    "DisplayTooltip": "libero",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 121,
-    "PrefDescId": 694,
-    "TableName": "Wunsch-Wilkinson",
-    "UserPreferenceId": 593,
+    "TargetId": 811,
+    "PrefDescId": 21,
+    "TableName": "Nikolaus LLC",
+    "UserPreferenceId": 731,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldLength": 159
       }
     }
   }

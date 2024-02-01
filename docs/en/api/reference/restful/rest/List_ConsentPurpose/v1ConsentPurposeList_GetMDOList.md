@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=asperiores
+GET /api/v1/List/ConsentPurpose/MDOItems?query=omnis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Keeling, Kovacek and Murray",
-    "ToolTip": "Itaque eius.",
+    "Id": 740,
+    "Name": "Gusikowski-Blanda",
+    "ToolTip": "Saepe unde.",
     "Deleted": false,
-    "Rank": 453,
-    "Type": "quos",
+    "Rank": 256,
+    "Type": "culpa",
     "ChildItems": [
       {
-        "Id": 437,
-        "Name": "Denesik, Moore and Haley",
-        "ToolTip": "Aliquid maiores exercitationem aut.",
-        "Deleted": true,
-        "Rank": 968,
-        "Type": "et",
+        "Id": 341,
+        "Name": "Runolfsson, Franecki and Murazik",
+        "ToolTip": "Repellendus dolore labore quae.",
+        "Deleted": false,
+        "Rank": 737,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 856,
-        "ExtraInfo": "non",
-        "StyleHint": "modi",
-        "FullName": "Bruce Wolff",
+        "IconHint": "mollitia",
+        "ColorBlock": 288,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "et",
+        "FullName": "Teagan Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 738
+            "FieldType": "System.String",
+            "FieldLength": 416
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 599,
-    "ExtraInfo": "ut",
-    "StyleHint": "saepe",
-    "FullName": "Annette Ledner",
+    "IconHint": "enim",
+    "ColorBlock": 461,
+    "ExtraInfo": "et",
+    "StyleHint": "error",
+    "FullName": "Prof. Caroline Okuneva MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldType": "System.String",
+        "FieldLength": 48
       }
     }
   }

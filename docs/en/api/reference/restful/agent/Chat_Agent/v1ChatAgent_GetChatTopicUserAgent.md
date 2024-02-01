@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 385,
-  "Username": "earum"
+  "ChatTopicId": 604,
+  "Username": "perferendis"
 }
 ```
 
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 328,
+  "TopicId": 265,
   "User": null,
   "CanListen": false,
-  "CanRespond": true,
-  "CanManage": false,
+  "CanRespond": false,
+  "CanManage": true,
   "CanNotify": true
 }
 ```

@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 367,
-  "Name": "Prosacco, Bergstrom and Leffler",
+  "ScreenChooserId": 174,
+  "Name": "Swaniawski, Crist and Kulas",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "molestiae",
-  "Source": "labore",
-  "Registered": "2020-02-21T13:57:19.4221461+01:00",
-  "RegisteredAssociateId": 428,
-  "Updated": "2010-01-08T13:57:19.4221461+01:00",
-  "UpdatedAssociateId": 292
+  "UniqueIdentifier": "facere",
+  "Source": "consequatur",
+  "Registered": "2022-11-16T23:04:05.0020072+01:00",
+  "RegisteredAssociateId": 978,
+  "Updated": "2004-08-16T23:04:05.0020072+02:00",
+  "UpdatedAssociateId": 132
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 538,
-  "Name": "Windler, Schneider and Funk",
+  "ScreenChooserId": 441,
+  "Name": "Wisoky, O'Kon and Veum",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "facere",
-  "Source": "quisquam",
-  "Registered": "2013-11-01T13:57:19.4221461+01:00",
-  "RegisteredAssociateId": 867,
-  "Updated": "2015-03-20T13:57:19.4221461+01:00",
-  "UpdatedAssociateId": 657,
+  "UniqueIdentifier": "adipisci",
+  "Source": "asperiores",
+  "Registered": "2017-01-31T23:04:05.0030058+01:00",
+  "RegisteredAssociateId": 207,
+  "Updated": "2022-11-24T23:04:05.0030058+01:00",
+  "UpdatedAssociateId": 827,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

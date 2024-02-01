@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 58
+  "AppointmentId": 90
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 543,
-  "StartDate": "2015-09-30T13:57:11.1844296+02:00",
-  "EndDate": "2004-12-13T13:57:11.1844296+01:00",
+  "AppointmentId": 879,
+  "StartDate": "2023-01-20T23:03:54.559148+01:00",
+  "EndDate": "2003-01-30T23:03:54.559148+01:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Carleton Glover",
-  "ContactName": "Smitham Group",
-  "Description": "Assimilated discrete data-warehouse",
-  "PersonFullName": "Jordan Sawayn III",
-  "PersonId": 30,
-  "ContactId": 201,
-  "ProjectId": 982,
-  "ProjectName": "Cummings Group",
-  "IsPublished": false,
-  "AssociateId": 978,
-  "ColorIndex": 83,
+  "Task": "qui",
+  "AssociateFullName": "Kaylie Mraz",
+  "ContactName": "Cole, Ortiz and Gibson",
+  "Description": "Fully-configurable 6th generation migration",
+  "PersonFullName": "Pauline Gerlach",
+  "PersonId": 99,
+  "ContactId": 510,
+  "ProjectId": 119,
+  "ProjectName": "Tromp Inc and Sons",
+  "IsPublished": true,
+  "AssociateId": 680,
+  "ColorIndex": 220,
   "IsFree": true,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "HasAlarm": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 668,
-  "PriorityName": "Marvin-Waters",
+  "PriorityId": 401,
+  "PriorityName": "Ryan-Kovacek",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "1997-05-24T13:57:11.1844296+02:00",
+  "IsRecurrence": true,
+  "IsBooking": false,
+  "ActiveDate": "2019-06-23T23:03:54.5596485+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-07-03T13:57:11.1844296+02:00",
-  "RecurringEndDate": "1998-09-30T13:57:11.1844296+02:00",
-  "MotherId": 763,
-  "AssignedBy": 175,
-  "AssignedByFullName": "Wilbert Watsica",
+  "RecurringStartDate": "2018-05-10T23:03:54.5596485+02:00",
+  "RecurringEndDate": "2003-05-12T23:03:54.5596485+02:00",
+  "MotherId": 234,
+  "AssignedBy": 257,
+  "AssignedByFullName": "Richie Durgan Sr.",
   "RejectReason": "",
-  "Location": "error",
-  "AlarmLeadTime": "cupiditate",
-  "SaleId": 351,
-  "SaleName": "Brown-Schulist",
-  "AssociateName": "VonRueden-Parisian",
-  "CreatedDate": "2016-01-25T13:57:11.1844296+01:00",
-  "CreatedBy": "ipsa",
-  "CreatedByFullName": "Dr. Vicente Fritsch",
-  "CreatedByAssociateId": 873,
+  "Location": "rem",
+  "AlarmLeadTime": "sapiente",
+  "SaleId": 861,
+  "SaleName": "Cronin-Block",
+  "AssociateName": "Larkin-Tremblay",
+  "CreatedDate": "2015-05-06T23:03:54.5601487+02:00",
+  "CreatedBy": "quisquam",
+  "CreatedByFullName": "Aryanna Harvey",
+  "CreatedByAssociateId": 733,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 131,
-  "Title": "sit",
-  "Agenda": "aspernatur",
-  "InternalNotes": "minima",
+  "PreferredTZLocation": 991,
+  "Title": "aliquid",
+  "Agenda": "non",
+  "InternalNotes": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldType": "System.String",
+      "FieldLength": 221
     }
   }
 }

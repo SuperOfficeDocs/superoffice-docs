@@ -113,66 +113,66 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 810,
+  "EjMessageId": 710,
   "Ticket": null,
-  "CreatedAt": "2010-12-27T13:57:13.3333445+01:00",
+  "CreatedAt": "2012-07-21T23:03:57.2666111+02:00",
   "CreatedBy": null,
-  "Author": "veniam",
+  "Author": "ab",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 293,
-  "Body": "sed",
-  "HtmlBody": "reprehenderit",
-  "EmailHeader": "cleo_muller@dietrich.biz",
-  "DebugInfo": "laboriosam",
-  "MailSorter": "eos",
+  "MessageId": "quasi",
+  "TimeSpent": 684,
+  "Body": "dicta",
+  "HtmlBody": "suscipit",
+  "EmailHeader": "archibald_simonis@hermistongottlieb.us",
+  "DebugInfo": "neque",
+  "MailSorter": "dolorum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aliquam",
+  "SearchTitle": "natus",
   "MessageHeaders": [
     {
-      "Id": 384,
-      "Name": "Osinski, Kiehn and Lakin",
-      "Value": "autem",
+      "Id": 738,
+      "Name": "Purdy, Lind and Franecki",
+      "Value": "nostrum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 384,
-      "Name": "Osinski, Kiehn and Lakin",
-      "Value": "autem",
+      "Id": 738,
+      "Name": "Purdy, Lind and Franecki",
+      "Value": "nostrum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "est",
-  "Sentiment": 75,
-  "SentimentConfidence": 480,
+  "Important": false,
+  "Language": "maxime",
+  "Sentiment": 350,
+  "SentimentConfidence": 530,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 818,
-      "Name": "Torp LLC",
-      "ContentType": "et",
-      "AttSize": 589,
-      "InlineImage": false,
-      "ContentId": "quam",
-      "AuthKey": "neque"
+      "AttachmentId": 890,
+      "Name": "Quitzon, Rowe and Hagenes",
+      "ContentType": "est",
+      "AttSize": 576,
+      "InlineImage": true,
+      "ContentId": "ab",
+      "AuthKey": "eum"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "odio"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "alias",
-    "CustomFields2": "error"
+    "CustomFields1": "animi",
+    "CustomFields2": "eum"
   }
 }
 ```
@@ -184,78 +184,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 285,
+  "EjMessageId": 84,
   "Ticket": null,
-  "CreatedAt": "2000-09-14T13:57:13.3333445+02:00",
+  "CreatedAt": "2008-08-11T23:03:57.2741114+02:00",
   "CreatedBy": null,
-  "Author": "sapiente",
+  "Author": "consequatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 269,
-  "Body": "tempora",
-  "HtmlBody": "voluptatum",
-  "EmailHeader": "gladys.pacocha@orn.biz",
-  "DebugInfo": "cupiditate",
-  "MailSorter": "est",
+  "MessageId": "rerum",
+  "TimeSpent": 698,
+  "Body": "nam",
+  "HtmlBody": "id",
+  "EmailHeader": "amos@frami.us",
+  "DebugInfo": "velit",
+  "MailSorter": "eveniet",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "maxime",
+  "SearchTitle": "delectus",
   "MessageHeaders": [
     {
-      "Id": 188,
-      "Name": "Marks Inc and Sons",
-      "Value": "voluptas",
+      "Id": 26,
+      "Name": "Hartmann Inc and Sons",
+      "Value": "vero",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 46
         }
       }
     }
   ],
   "Important": false,
-  "Language": "possimus",
-  "Sentiment": 44,
-  "SentimentConfidence": 934,
+  "Language": "porro",
+  "Sentiment": 802,
+  "SentimentConfidence": 993,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 643,
-      "Name": "Jerde LLC",
-      "ContentType": "enim",
-      "AttSize": 239,
+      "AttachmentId": 627,
+      "Name": "Gorczany-Cole",
+      "ContentType": "illo",
+      "AttSize": 48,
       "InlineImage": false,
-      "ContentId": "consequatur",
-      "AuthKey": "culpa",
+      "ContentId": "et",
+      "AuthKey": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldType": "System.String",
+          "FieldLength": 255
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "repudiandae",
-    "ExtraFields2": "non"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "ad",
-    "CustomFields2": "sed"
+    "CustomFields1": "totam",
+    "CustomFields2": "libero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldType": "System.Int32",
+      "FieldLength": 294
     }
   }
 }

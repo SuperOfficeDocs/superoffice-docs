@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "iste",
-  "SignOffText": "magnam",
-  "SignOnConfirmationText": "officia",
-  "SignOnText": "consectetur",
-  "EventDate": "2011-06-05T13:57:12.8750117+02:00",
+  "SignOffConfirmationText": "commodi",
+  "SignOffText": "beatae",
+  "SignOnConfirmationText": "culpa",
+  "SignOnText": "reiciendis",
+  "EventDate": "2010-03-15T23:03:56.6351202+01:00",
   "Enabled": false,
-  "CreatedDate": "2020-04-15T13:57:12.8750117+02:00",
+  "CreatedDate": "2018-11-01T23:03:56.6351202+01:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 176,
-  "SignOffTriggersAssign": true,
-  "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 859,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2012-02-03T13:57:12.8750117+01:00",
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 966,
+  "SignOffTriggersAssign": false,
+  "SignOn": true,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 896,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2011-09-24T23:03:56.6351202+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 178,
-  "Id": 995,
-  "PublishFrom": "2005-10-25T13:57:12.8906374+02:00",
+  "ProjectId": 973,
+  "Id": 401,
+  "PublishFrom": "2007-04-29T23:03:56.63562+02:00",
   "PublishType": "External",
-  "PublishTo": "2003-02-02T13:57:12.8906374+01:00",
+  "PublishTo": "1996-09-17T23:03:56.63562+02:00",
   "VisibleForCategories": [
     {
-      "Id": 202,
-      "Name": "Wilderman, Batz and O'Conner",
-      "ToolTip": "Ipsa atque quasi voluptatem voluptatem ullam aut.",
+      "Id": 255,
+      "Name": "West, Ritchie and Oberbrunner",
+      "ToolTip": "Ratione et aut quaerat est et.",
       "Deleted": true,
-      "Rank": 850,
-      "Type": "veniam",
+      "Rank": 767,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 827,
-      "ExtraInfo": "quo",
-      "StyleHint": "nesciunt",
-      "FullName": "Reymundo Beier",
+      "IconHint": "inventore",
+      "ColorBlock": 234,
+      "ExtraInfo": "asperiores",
+      "StyleHint": "quasi",
+      "FullName": "Lane Fritsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 339
+          "FieldType": "System.Int32",
+          "FieldLength": 552
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 512,
-      "Name": "Terry-Skiles",
-      "ToolTip": "Et dolorem consequatur distinctio dolor accusantium eum magni.",
-      "Deleted": false,
-      "Rank": 258,
-      "Type": "hic",
+      "Id": 588,
+      "Name": "Terry Group",
+      "ToolTip": "Incidunt sed atque alias sint rerum unde nihil.",
+      "Deleted": true,
+      "Rank": 506,
+      "Type": "ipsum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "assumenda",
-      "ColorBlock": 770,
-      "ExtraInfo": "ipsam",
-      "StyleHint": "autem",
-      "FullName": "Prof. Stone Hegmann",
+      "IconHint": "asperiores",
+      "ColorBlock": 699,
+      "ExtraInfo": "tempore",
+      "StyleHint": "rerum",
+      "FullName": "Oren Mayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 773
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 498,
+  "ProjectEventId": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 606
     }
   }
 }

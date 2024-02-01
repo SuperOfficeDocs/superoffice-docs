@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 587,
-  "UniqueIdentifier": "doloremque",
-  "Name": "Predovic-Heathcote",
-  "Description": "Diverse zero defect analyzer",
-  "IncludeId": "expedita",
-  "HierarchyId": 260,
-  "Source": "aliquam",
-  "Registered": "2004-11-22T13:57:11.9967528+01:00",
-  "RegisteredAssociateId": 261,
-  "Updated": "2003-08-04T13:57:11.9967528+02:00",
-  "UpdatedAssociateId": 542
+  "EjscriptId": 877,
+  "UniqueIdentifier": "id",
+  "Name": "Stamm-Medhurst",
+  "Description": "Adaptive asynchronous secured line",
+  "IncludeId": "sapiente",
+  "HierarchyId": 367,
+  "Source": "voluptatem",
+  "Registered": "2008-07-25T23:03:55.5696352+02:00",
+  "RegisteredAssociateId": 854,
+  "Updated": "2004-12-04T23:03:55.5696352+01:00",
+  "UpdatedAssociateId": 410
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 319,
-  "UniqueIdentifier": "alias",
-  "Name": "Kozey, O'Kon and Renner",
-  "Description": "Synergistic zero tolerance instruction set",
-  "IncludeId": "rerum",
-  "HierarchyId": 449,
-  "Source": "quos",
-  "Registered": "2005-03-02T13:57:11.9967528+01:00",
-  "RegisteredAssociateId": 159,
-  "Updated": "2022-09-08T13:57:11.9967528+02:00",
-  "UpdatedAssociateId": 170,
+  "EjscriptId": 749,
+  "UniqueIdentifier": "molestiae",
+  "Name": "Wehner, Langosh and Heathcote",
+  "Description": "Reverse-engineered fresh-thinking budgetary management",
+  "IncludeId": "aut",
+  "HierarchyId": 334,
+  "Source": "eum",
+  "Registered": "2007-11-12T23:03:55.5696352+01:00",
+  "RegisteredAssociateId": 959,
+  "Updated": "2021-05-07T23:03:55.5696352+02:00",
+  "UpdatedAssociateId": 410,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 748
     }
   }
 }

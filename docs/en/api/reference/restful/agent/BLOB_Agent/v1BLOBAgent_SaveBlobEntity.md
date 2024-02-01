@@ -91,19 +91,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 438,
-  "BlobSize": 643,
-  "Description": "Fundamental interactive analyzer",
-  "ExtraInfo": "quis",
+  "BlobId": 760,
+  "BlobSize": 515,
+  "Description": "Synergistic content-based monitoring",
+  "ExtraInfo": "est",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ad",
-  "OriginalSize": 422,
-  "CreatedDate": "2003-04-26T13:57:11.5594343+02:00",
-  "UpdatedDate": "1999-07-09T13:57:11.5594343+02:00",
+  "MimeType": "aut",
+  "OriginalSize": 293,
+  "CreatedDate": "2008-07-01T23:03:55.0311498+02:00",
+  "UpdatedDate": "2012-01-09T23:03:55.0311498+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "placeat"
+  "ConceptualType": "consectetur"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 477,
-  "BlobSize": 327,
-  "Description": "Innovative intangible collaboration",
-  "ExtraInfo": "eum",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "facilis",
-  "OriginalSize": 656,
-  "CreatedDate": "2018-07-27T13:57:11.5594343+02:00",
-  "UpdatedDate": "2004-09-03T13:57:11.5594343+02:00",
+  "BlobId": 217,
+  "BlobSize": 847,
+  "Description": "User-friendly scalable customer loyalty",
+  "ExtraInfo": "eaque",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "blanditiis",
+  "OriginalSize": 676,
+  "CreatedDate": "2009-07-28T23:03:55.0326432+02:00",
+  "UpdatedDate": "2019-08-15T23:03:55.0326432+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "labore",
+  "ConceptualType": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldType": "System.String",
+      "FieldLength": 548
     }
   }
 }

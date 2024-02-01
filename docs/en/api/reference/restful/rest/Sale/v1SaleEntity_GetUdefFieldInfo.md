@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 271,
-  "ColumnId": 630,
-  "FieldDefault": "quia",
-  "FieldHeight": 667,
-  "FieldLabel": "qui",
-  "FieldLeft": 502,
-  "FieldTop": 313,
+  "UDefFieldId": 545,
+  "ColumnId": 784,
+  "FieldDefault": "quis",
+  "FieldHeight": 959,
+  "FieldLabel": "odit",
+  "FieldLeft": 345,
+  "FieldTop": 255,
   "FieldType": "Checkbox",
-  "FieldWidth": 549,
-  "FormatMask": "quis",
+  "FieldWidth": 478,
+  "FormatMask": "voluptas",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 931,
-  "LabelLeft": 914,
-  "LabelTop": 565,
-  "LabelWidth": 94,
-  "LastVersionId": 864,
-  "ListTableId": 552,
-  "IsMandatory": false,
+  "LabelHeight": 877,
+  "LabelLeft": 484,
+  "LabelTop": 354,
+  "LabelWidth": 142,
+  "LastVersionId": 523,
+  "ListTableId": 132,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 606,
-  "ProgId": "corporis",
-  "IsReadOnly": true,
-  "ShortLabel": "nobis",
-  "TabOrder": 102,
-  "TextLength": 258,
-  "Tooltip": "quia",
-  "UdefIdentity": 594,
-  "UDListDefinitionId": 420,
+  "Page1LineNo": 618,
+  "ProgId": "qui",
+  "IsReadOnly": false,
+  "ShortLabel": "consequuntur",
+  "TabOrder": 693,
+  "TextLength": 671,
+  "Tooltip": "excepturi",
+  "UdefIdentity": 865,
+  "UDListDefinitionId": 453,
   "Justification": "Center",
-  "Version": 805,
-  "TemplateVariableName": "Bode-Rohan",
+  "Version": 801,
+  "TemplateVariableName": "Maggio, Mraz and King",
   "HasBeenPublished": false,
-  "MdoListName": "Eichmann-Johns",
+  "MdoListName": "Conroy, Dare and Larkin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldLength": 511
     }
   }
 }

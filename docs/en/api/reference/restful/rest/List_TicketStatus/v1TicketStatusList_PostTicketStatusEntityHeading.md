@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 572,
-  "Name": "O'Connell, Jast and Bruen",
-  "Tooltip": "minima",
-  "Deleted": false,
-  "Rank": 767,
-  "UdListDefinitionId": 259
+  "HeadingId": 950,
+  "Name": "Brekke-Lueilwitz",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "Rank": 419,
+  "UdListDefinitionId": 988
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 414,
-  "Name": "Schaefer Group",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "Rank": 553,
-  "UdListDefinitionId": 532,
+  "HeadingId": 55,
+  "Name": "Ward Group",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "Rank": 442,
+  "UdListDefinitionId": 61,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldType": "System.Int32",
+      "FieldLength": 507
     }
   }
 }

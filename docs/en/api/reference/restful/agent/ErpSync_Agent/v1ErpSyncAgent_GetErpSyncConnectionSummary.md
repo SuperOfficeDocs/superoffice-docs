@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 101
+  "ErpSyncConnectionId": 795
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Welch-O'Connell",
-  "DisplayDescription": "Enhanced logistical project",
-  "Active": false,
+  "DisplayName": "Nicolas, Ryan and Trantow",
+  "DisplayDescription": "Monitored zero administration local area network",
+  "Active": true,
   "Deleted": true,
-  "LastSync": "2020-09-10T13:57:12.3556107+02:00",
+  "LastSync": "2011-03-17T23:03:56.0356282+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "eos",
-      "Mappings": "ut",
+      "Defaults": "cum",
+      "Mappings": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldType": "System.String",
+          "FieldLength": 640
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "eos",
-      "Mappings": "ut",
+      "Defaults": "cum",
+      "Mappings": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldType": "System.String",
+          "FieldLength": 640
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 366
     }
   }
 }

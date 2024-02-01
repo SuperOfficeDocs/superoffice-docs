@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 988,
-  "ERPPriceListKey": "sed",
-  "QuoteConnectionId": 633,
-  "Name": "Cruickshank Inc and Sons",
-  "Description": "Customer-focused interactive product",
-  "Currency": "excepturi",
-  "CurrencyName": "Gutmann-Pfannerstill",
-  "ValidFrom": "2007-09-29T13:57:19.8440154+02:00",
-  "ValidTo": "2000-01-28T13:57:19.8440154+01:00",
-  "IsActive": false
+  "PriceListId": 244,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 485,
+  "Name": "Powlowski, Considine and Hagenes",
+  "Description": "Digitized coherent leverage",
+  "Currency": "commodi",
+  "CurrencyName": "Funk-Gleason",
+  "ValidFrom": "2016-05-20T23:04:05.5830006+02:00",
+  "ValidTo": "2022-09-20T23:04:05.5830006+02:00",
+  "IsActive": true
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 204,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 878,
-  "Name": "Shanahan Group",
-  "Description": "Inverse content-based implementation",
-  "Currency": "et",
-  "CurrencyName": "Kuvalis, Dach and Rempel",
-  "ValidFrom": "2016-04-01T13:57:19.8440154+02:00",
-  "ValidTo": "2020-05-20T13:57:19.8440154+02:00",
-  "IsActive": true,
+  "PriceListId": 659,
+  "ERPPriceListKey": "occaecati",
+  "QuoteConnectionId": 646,
+  "Name": "Lynch, Hermiston and Hilll",
+  "Description": "Triple-buffered bandwidth-monitored collaboration",
+  "Currency": "non",
+  "CurrencyName": "Daniel, Little and Beahan",
+  "ValidFrom": "1997-02-04T23:04:05.5834996+01:00",
+  "ValidTo": "2007-01-22T23:04:05.5834996+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldType": "System.String",
+      "FieldLength": 849
     }
   },
   "_Links": {

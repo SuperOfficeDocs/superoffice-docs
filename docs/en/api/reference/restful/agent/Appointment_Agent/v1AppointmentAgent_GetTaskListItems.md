@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Appointment/GetTaskListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 976,
-    "Value": "voluptatibus",
+    "TaskListItemId": 715,
+    "Value": "ea",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "animi",
-    "Deleted": true,
-    "IntentId": 981,
-    "Rank": 650,
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "IntentId": 139,
+    "Rank": 249,
     "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
     "IsDefaultPublished": false,
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 66
       }
     }
   }

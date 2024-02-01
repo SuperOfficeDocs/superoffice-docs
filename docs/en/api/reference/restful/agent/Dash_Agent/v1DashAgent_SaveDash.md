@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 362,
-  "UniqueId": "dignissimos",
-  "Name": "Von, Walsh and Lockman",
-  "Description": "Digitized full-range model",
-  "AssociateId": 255,
-  "Columns": 22,
+  "DashboardId": 228,
+  "UniqueId": "incidunt",
+  "Name": "Conn-Gusikowski",
+  "Description": "Fully-configurable modular throughput",
+  "AssociateId": 26,
+  "Columns": 571,
   "Theme": null,
-  "VisibleForAll": 356,
+  "VisibleForAll": 889,
   "VisibleForAssociates": [
-    837,
-    489
+    82,
+    319
   ],
   "VisibleForGroups": [
-    688,
-    939
+    311,
+    139
   ],
-  "PinForAll": 461,
+  "PinForAll": 526,
   "PinForAssociates": [
-    515,
-    995
+    707,
+    145
   ],
   "PinForGroups": [
-    157,
-    946
+    708,
+    45
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 628,
-  "UniqueId": "officia",
-  "Name": "Friesen-Kilback",
-  "Description": "Business-focused multi-tasking firmware",
-  "AssociateId": 34,
-  "Columns": 979,
+  "DashboardId": 763,
+  "UniqueId": "quos",
+  "Name": "Murray, Lueilwitz and Batz",
+  "Description": "Enterprise-wide secondary implementation",
+  "AssociateId": 49,
+  "Columns": 996,
   "Theme": null,
-  "VisibleForAll": 502,
+  "VisibleForAll": 366,
   "VisibleForAssociates": [
-    399,
-    681
+    227,
+    510
   ],
   "VisibleForGroups": [
-    385,
-    577
+    586,
+    966
   ],
-  "PinForAll": 157,
+  "PinForAll": 806,
   "PinForAssociates": [
-    278,
-    926
+    547,
+    954
   ],
   "PinForGroups": [
-    97,
-    255
+    191,
+    736
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

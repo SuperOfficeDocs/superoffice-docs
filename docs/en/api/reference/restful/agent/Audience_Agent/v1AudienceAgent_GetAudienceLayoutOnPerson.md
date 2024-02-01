@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 441
+  "PersonId": 840
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 142,
-  "InstanceLayout": "et",
-  "InstanceName": "McGlynn, Konopelski and Hagenes",
-  "CreatedDate": "1998-08-29T13:57:11.5438073+02:00",
-  "UpdatedDate": "2009-11-08T13:57:11.5438073+01:00",
+  "AudienceLayoutId": 451,
+  "InstanceLayout": "eius",
+  "InstanceName": "O'Conner, Ryan and Tremblay",
+  "CreatedDate": "2008-02-23T23:03:55.0146418+01:00",
+  "UpdatedDate": "2019-01-02T23:03:55.0146418+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 32
     }
   }
 }

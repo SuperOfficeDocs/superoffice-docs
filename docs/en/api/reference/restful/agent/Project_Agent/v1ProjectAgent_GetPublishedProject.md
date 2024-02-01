@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 338
+  "ProjectId": 899
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 804,
-  "Name": "Hills Inc and Sons",
-  "Description": "Cloned empowering complexity",
+  "ProjectId": 313,
+  "Name": "Rolfson, Gutmann and Stehr",
+  "Description": "Reactive impactful artificial intelligence",
   "URL": "http://www.example.com/",
-  "Type": "eveniet",
-  "AssociateId": 963,
-  "AssociateFullName": "Ms. Wiley Powlowski V",
-  "TypeId": 932,
-  "Updated": "2023-02-21T13:57:13.0011314+01:00",
-  "StatusId": 148,
-  "Status": "quam",
-  "TextId": 208,
-  "PublishTo": "2013-01-17T13:57:13.0011314+01:00",
-  "PublishFrom": "2009-03-31T13:57:13.0011314+02:00",
+  "Type": "autem",
+  "AssociateId": 137,
+  "AssociateFullName": "Mireille Cronin",
+  "TypeId": 294,
+  "Updated": "1997-12-27T23:03:56.6876193+01:00",
+  "StatusId": 376,
+  "Status": "consequatur",
+  "TextId": 898,
+  "PublishTo": "2018-01-26T23:03:56.6876193+01:00",
+  "PublishFrom": "2006-09-07T23:03:56.6876193+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "928360",
-  "ActiveErpLinks": 455,
+  "ProjectNumber": "606470",
+  "ActiveErpLinks": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 211
     }
   }
 }

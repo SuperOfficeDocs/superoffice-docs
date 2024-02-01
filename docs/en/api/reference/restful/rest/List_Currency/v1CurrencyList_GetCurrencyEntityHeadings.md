@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 486,
-    "Name": "Dooley, Aufderhar and Corkery",
-    "Tooltip": "modi",
-    "Deleted": false,
-    "Rank": 568,
-    "UdListDefinitionId": 765,
+    "HeadingId": 577,
+    "Name": "Blanda, Fisher and Russel",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 873,
+    "UdListDefinitionId": 426,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 812
+        "FieldType": "System.Int32",
+        "FieldLength": 832
       }
     }
   }

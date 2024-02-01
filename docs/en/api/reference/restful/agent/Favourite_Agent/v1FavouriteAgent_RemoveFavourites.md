@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cormier LLC",
+  "TableName": "Fahey, O'Hara and Durgan",
   "RecordIds": [
-    706,
-    755
+    183,
+    405
   ],
-  "AssociateId": 747
+  "AssociateId": 430
 }
 ```
 

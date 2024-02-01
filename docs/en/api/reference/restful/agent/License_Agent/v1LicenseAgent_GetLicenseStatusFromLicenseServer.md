@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "McClure-Macejkovic"
+  "OwnerName": "Streich Group"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "explicabo",
+  "Message": "fugit",
   "Url": "http://www.example.com/"
 }
 ```

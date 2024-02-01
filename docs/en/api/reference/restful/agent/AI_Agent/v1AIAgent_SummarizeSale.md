@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 673,
-  "NumSentences": 116,
-  "IsoLangCode": "officiis"
+  "SaleId": 896,
+  "NumSentences": 400,
+  "IsoLangCode": "doloribus"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ipsum"
+"nulla"
 ```

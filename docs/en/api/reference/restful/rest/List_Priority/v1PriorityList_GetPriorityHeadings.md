@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 980,
-    "Name": "Grimes LLC",
-    "Tooltip": "tempora",
+    "HeadingId": 408,
+    "Name": "Hayes, Harris and Nikolaus",
+    "Tooltip": "quia",
     "Deleted": true,
-    "Rank": 70,
-    "UdListDefinitionId": 257,
+    "Rank": 3,
+    "UdListDefinitionId": 449,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 383
+        "FieldType": "System.Int32",
+        "FieldLength": 238
       }
     }
   }

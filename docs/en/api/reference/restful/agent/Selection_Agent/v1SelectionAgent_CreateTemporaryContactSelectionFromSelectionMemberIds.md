@@ -118,10 +118,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 361,
+  "SelectionId": 519,
   "SelectionMemberIds": [
-    356,
-    797
+    518,
+    678
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered zero tolerance matrices",
-  "Postit": "enim",
+  "Description": "Digitized value-added groupware",
+  "Postit": "pariatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 230,
-  "IncludePerson": 274,
-  "MemberCount": 426,
-  "Name": "Hahn Group",
-  "PostitTextId": 142,
-  "CreatedDate": "2011-10-29T13:57:13.2227834+02:00",
-  "SelectionId": 102,
-  "SoundEx": "rerum",
-  "Source": 9,
-  "TextId": 587,
-  "UpdatedDate": "2005-10-14T13:57:13.2227834+02:00",
-  "UpdatedCount": 715,
-  "Visibility": 216,
+  "GroupIdx": 764,
+  "IncludePerson": 650,
+  "MemberCount": 60,
+  "Name": "Fay Group",
+  "PostitTextId": 355,
+  "CreatedDate": "2003-06-04T23:03:57.1351133+02:00",
+  "SelectionId": 285,
+  "SoundEx": "magni",
+  "Source": 942,
+  "TextId": 335,
+  "UpdatedDate": "2008-11-12T23:03:57.1351133+01:00",
+  "UpdatedCount": 937,
+  "Visibility": 638,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 951,
-  "TargetTableName": "Maggio LLC",
+  "TargetTableNumber": 522,
+  "TargetTableName": "Cassin Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 165,
-  "RightSelectionId": 151,
+  "LeftSelectionId": 913,
+  "RightSelectionId": 424,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Murphy, Torp and Barrows",
-  "ShadowProviderName": "Ledner-Turner",
-  "ChartKey": "amet",
-  "LastLoaded": "2020-03-10T13:57:13.2227834+01:00",
-  "LastLoadedBy": 590,
+  "MainProviderName": "Jacobson, Hickle and Carter",
+  "ShadowProviderName": "Keeling LLC",
+  "ChartKey": "nostrum",
+  "LastLoaded": "2010-03-04T23:03:57.1356135+01:00",
+  "LastLoadedBy": 342,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-09-27T13:57:13.2227834+02:00",
-  "LastMembershipChangeBy": 47,
+  "LastMembershipChange": "2021-12-01T23:03:57.1356135+01:00",
+  "LastMembershipChangeBy": 519,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Schmidt, Price and Volkman",
-  "DashboardTileDefinitionId": 386,
+  "MainHeading": "sapiente",
+  "MemberTabHeading": "tenetur",
+  "MailingsProviderName": "Zieme-Keebler",
+  "DashboardTileDefinitionId": 326,
   "VisibleFor": [
     {
-      "VisibleId": 295,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 537
         }
       }
     },
     {
-      "VisibleId": 295,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "dolore",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 537
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 805
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Mueller Inc and Sons",
-    "ToolTip": "Vel voluptatem.",
+    "Id": 229,
+    "Name": "Kuvalis Group",
+    "ToolTip": "Et et veniam consectetur ad sunt dolor.",
     "Deleted": false,
-    "Rank": 624,
-    "Type": "occaecati",
-    "ColorBlock": 72,
-    "IconHint": "et",
+    "Rank": 1002,
+    "Type": "ut",
+    "ColorBlock": 925,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2012-12-06T13:57:19.7346424+01:00",
+    "LastChanged": "2015-10-17T23:04:05.4409998+02:00",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Wunsch-Ferry",
-        "ToolTip": "Voluptatem adipisci laborum placeat veniam.",
-        "Deleted": true,
-        "Rank": 713,
-        "Type": "non",
-        "ColorBlock": 350,
-        "IconHint": "voluptatem",
+        "Id": 500,
+        "Name": "Beatty Group",
+        "ToolTip": "Repellat sed nemo facilis nulla alias sapiente corrupti.",
+        "Deleted": false,
+        "Rank": 577,
+        "Type": "aut",
+        "ColorBlock": 762,
+        "IconHint": "ipsum",
         "Selected": true,
-        "LastChanged": "2013-06-26T13:57:19.7346424+02:00",
+        "LastChanged": "2023-09-28T23:04:05.4415+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Enrique Rolfson"
+        "ExtraInfo": "molestiae",
+        "StyleHint": "dolore",
+        "Hidden": false,
+        "FullName": "Miss Murphy Arno Sawayn"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Rebekah Gottlieb"
+    "ExtraInfo": "beatae",
+    "StyleHint": "iusto",
+    "Hidden": true,
+    "FullName": "Nyasia Jenkins"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Monahan, Barton and Thiel",
-    "ToolTip": "Culpa et neque.",
+    "Id": 319,
+    "Name": "Ledner, Reichel and Crona",
+    "ToolTip": "Dicta eos culpa.",
     "Deleted": false,
-    "Rank": 379,
-    "Type": "itaque",
-    "ColorBlock": 996,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2004-04-29T13:57:19.7346424+02:00",
+    "Rank": 94,
+    "Type": "ad",
+    "ColorBlock": 670,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2016-12-21T23:04:05.4425001+01:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Renner, Abernathy and Pfeffer",
-        "ToolTip": "Distinctio voluptatum aut molestias laborum assumenda ullam omnis.",
+        "Id": 246,
+        "Name": "Streich Inc and Sons",
+        "ToolTip": "Molestiae enim placeat id.",
         "Deleted": false,
-        "Rank": 658,
-        "Type": "beatae",
-        "ColorBlock": 976,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2017-12-27T13:57:19.7346424+01:00",
+        "Rank": 130,
+        "Type": "distinctio",
+        "ColorBlock": 808,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "2020-05-04T23:04:05.4425001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "ad",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Megane Rempel",
+        "FullName": "Isom Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 696
+            "FieldType": "System.Int32",
+            "FieldLength": 547
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ea",
+    "ExtraInfo": "illo",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Mr. Bradley Tremblay Sr.",
+    "FullName": "Eriberto Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 535
       }
     }
   }

@@ -103,17 +103,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 651,
-  "UniqueIdentifier": "iusto",
-  "Name": "Tromp-Turcotte",
-  "Description": "Re-engineered assymetric portal",
-  "IncludeId": "explicabo",
-  "HierarchyId": 181,
-  "Source": "ea",
-  "Registered": "2006-08-02T13:57:18.6846845+02:00",
-  "RegisteredAssociateId": 595,
-  "Updated": "2022-10-10T13:57:18.6846845+02:00",
-  "UpdatedAssociateId": 549
+  "EjscriptId": 88,
+  "UniqueIdentifier": "est",
+  "Name": "Weber Inc and Sons",
+  "Description": "Sharable heuristic secured line",
+  "IncludeId": "qui",
+  "HierarchyId": 545,
+  "Source": "sit",
+  "Registered": "2000-04-29T23:04:04.0670187+02:00",
+  "RegisteredAssociateId": 90,
+  "Updated": "2001-07-15T23:04:04.0670187+02:00",
+  "UpdatedAssociateId": 443
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 938,
-  "UniqueIdentifier": "voluptatibus",
-  "Name": "Lubowitz, Renner and Heidenreich",
-  "Description": "Decentralized content-based support",
-  "IncludeId": "est",
-  "HierarchyId": 584,
-  "Source": "ea",
-  "Registered": "2021-06-23T13:57:18.6846845+02:00",
-  "RegisteredAssociateId": 25,
-  "Updated": "2009-05-24T13:57:18.6846845+02:00",
-  "UpdatedAssociateId": 960,
+  "EjscriptId": 191,
+  "UniqueIdentifier": "facilis",
+  "Name": "Pollich Group",
+  "Description": "Configurable well-modulated time-frame",
+  "IncludeId": "et",
+  "HierarchyId": 673,
+  "Source": "modi",
+  "Registered": "2010-05-17T23:04:04.0670187+02:00",
+  "RegisteredAssociateId": 256,
+  "Updated": "2015-07-23T23:04:04.0670187+02:00",
+  "UpdatedAssociateId": 67,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   },
   "_Links": {

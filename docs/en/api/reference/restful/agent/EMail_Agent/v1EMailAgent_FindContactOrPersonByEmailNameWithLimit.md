@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Marks, Jewess and Oberbrunner",
-  "EmailAddress": "roscoe@king.ca",
-  "NumberOfContacts": 611,
-  "NumberOfPersons": 917
+  "Name": "O'Kon-Hammes",
+  "EmailAddress": "quinn_bergnaum@schneider.co.uk",
+  "NumberOfContacts": 943,
+  "NumberOfPersons": 23
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 682,
-    "FullName": "Lesly Wuckert",
-    "EmailAddress": "vernie.schneider@rowe.biz",
-    "ContactId": 882,
-    "ContactName": "Hermann LLC",
+    "PersonId": 410,
+    "FullName": "Mr. Billie Reymundo Smitham V",
+    "EmailAddress": "elisa@dietrich.co.uk",
+    "ContactId": 224,
+    "ContactName": "Jacobs-Feest",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Kshlerin, Durgan and Marks",
+    "SortName": "Kertzmann Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

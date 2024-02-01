@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Value": "quia",
-    "Tooltip": "earum",
+    "Id": 192,
+    "Value": "eligendi",
+    "Tooltip": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   },
   {
-    "Id": 254,
-    "Value": "quia",
-    "Tooltip": "earum",
+    "Id": 192,
+    "Value": "eligendi",
+    "Tooltip": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

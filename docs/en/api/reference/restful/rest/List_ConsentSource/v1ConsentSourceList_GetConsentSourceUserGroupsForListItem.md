@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 50,
-    "Name": "Goyette-Dickinson",
-    "ToolTip": "Illum et autem in.",
+    "Id": 391,
+    "Name": "O'Kon Inc and Sons",
+    "ToolTip": "Sit dignissimos quia expedita est omnis.",
     "Deleted": false,
-    "Rank": 456,
-    "Type": "animi",
-    "ColorBlock": 398,
-    "IconHint": "aut",
+    "Rank": 593,
+    "Type": "nostrum",
+    "ColorBlock": 399,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2023-01-05T13:57:19.6877703+01:00",
+    "LastChanged": "1996-12-27T23:04:05.371001+01:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Marks-Fay",
-        "ToolTip": "Sapiente corrupti necessitatibus dolore eum.",
+        "Id": 986,
+        "Name": "Batz Inc and Sons",
+        "ToolTip": "Quos corrupti.",
         "Deleted": false,
-        "Rank": 349,
-        "Type": "deleniti",
-        "ColorBlock": 57,
-        "IconHint": "dolores",
+        "Rank": 467,
+        "Type": "pariatur",
+        "ColorBlock": 719,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2017-11-07T13:57:19.6877703+01:00",
+        "LastChanged": "2017-05-27T23:04:05.371001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "at",
+        "ExtraInfo": "ex",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Litzy Heller",
+        "FullName": "Cicero McClure IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
+    "ExtraInfo": "aut",
+    "StyleHint": "consectetur",
     "Hidden": true,
-    "FullName": "Luther Bruen",
+    "FullName": "Mr. Greyson Lura Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 601
+        "FieldType": "System.Int32",
+        "FieldLength": 501
       }
     }
   }

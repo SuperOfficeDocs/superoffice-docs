@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Streich-Schaefer",
-    "ToolTip": "Possimus qui numquam qui magni assumenda.",
+    "Id": 256,
+    "Name": "Walsh-Abernathy",
+    "ToolTip": "Labore est vel.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "officia",
-    "ColorBlock": 894,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2018-12-18T13:57:20.0627631+01:00",
+    "Rank": 813,
+    "Type": "nostrum",
+    "ColorBlock": 1001,
+    "IconHint": "minima",
+    "Selected": false,
+    "LastChanged": "2000-10-18T23:04:05.7289986+02:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Sawayn-West",
-        "ToolTip": "Repellendus ducimus aut autem et.",
-        "Deleted": true,
-        "Rank": 188,
-        "Type": "molestias",
-        "ColorBlock": 487,
-        "IconHint": "eaque",
+        "Id": 346,
+        "Name": "Marvin-Tillman",
+        "ToolTip": "Laboriosam explicabo.",
+        "Deleted": false,
+        "Rank": 51,
+        "Type": "voluptas",
+        "ColorBlock": 928,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2022-06-17T13:57:20.0627631+02:00",
+        "LastChanged": "2023-09-09T23:04:05.7289986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "corporis",
+        "ExtraInfo": "at",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Harold Runte",
+        "FullName": "Miss Hattie Schumm Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 87
+            "FieldLength": 294
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "mollitia",
     "Hidden": true,
-    "FullName": "Prof. Frederic Gutkowski I",
+    "FullName": "Mr. Roslyn Daugherty IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldLength": 386
       }
     }
   }

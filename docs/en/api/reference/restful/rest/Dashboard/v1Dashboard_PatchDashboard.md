@@ -112,18 +112,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "commodi",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "commodi",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 600,
-  "AssociateId": 283,
-  "Caption": "et",
+  "DashboardId": 831,
+  "AssociateId": 526,
+  "Caption": "accusamus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 604,
-      "Caption": "nulla",
-      "Description": "Front-line exuding support",
-      "ChartName": "Kirlin-Daniel",
-      "ChartId": "enim",
+      "DashboardTileId": 512,
+      "Caption": "ex",
+      "Description": "Sharable 24 hour interface",
+      "ChartName": "Huels, Toy and Wisoky",
+      "ChartId": "ipsum",
       "IsDefault": false,
-      "AssociateId": 720,
-      "GroupId": 283,
-      "SelectionId": 636,
-      "Config": "corrupti",
+      "AssociateId": 635,
+      "GroupId": 63,
+      "SelectionId": 17,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 871
         }
       }
     }
@@ -177,12 +177,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 65
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

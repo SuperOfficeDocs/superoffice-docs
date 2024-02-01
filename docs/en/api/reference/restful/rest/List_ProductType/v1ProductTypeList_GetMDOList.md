@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=aperiam
+GET /api/v1/List/ProductType/MDOItems?query=ipsa
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Lemke, Upton and D'Amore",
-    "ToolTip": "Vel adipisci dicta.",
+    "Id": 91,
+    "Name": "Emmerich, Cormier and Botsford",
+    "ToolTip": "Et est ipsa quidem.",
     "Deleted": false,
-    "Rank": 993,
-    "Type": "quasi",
+    "Rank": 926,
+    "Type": "nulla",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Turner-Homenick",
-        "ToolTip": "Distinctio dolorum asperiores numquam rerum totam harum.",
-        "Deleted": true,
-        "Rank": 714,
-        "Type": "repellat",
+        "Id": 39,
+        "Name": "Hickle-Ritchie",
+        "ToolTip": "Fugit voluptate.",
+        "Deleted": false,
+        "Rank": 20,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 15,
-        "ExtraInfo": "illo",
-        "StyleHint": "amet",
-        "FullName": "Pattie Romaguera",
+        "IconHint": "dicta",
+        "ColorBlock": 556,
+        "ExtraInfo": "odit",
+        "StyleHint": "dolorem",
+        "FullName": "Dr. Caitlyn Dominic Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldType": "System.String",
+            "FieldLength": 583
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 212,
-    "ExtraInfo": "enim",
-    "StyleHint": "quod",
-    "FullName": "Ms. Breanne Ondricka I",
+    "IconHint": "nam",
+    "ColorBlock": 461,
+    "ExtraInfo": "sit",
+    "StyleHint": "beatae",
+    "FullName": "Ottilie Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 223
       }
     }
   }

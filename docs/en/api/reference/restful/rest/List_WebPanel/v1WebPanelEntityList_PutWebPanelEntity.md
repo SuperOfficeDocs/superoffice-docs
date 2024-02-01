@@ -66,6 +66,7 @@ The details of WebPanelEntity to be saved.
 | ProgId | String | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | Integer | The icon of the webpanel |
 | AlwaysReloadOnShow | Boolean | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | Boolean | If set to true, the content will not reload on current changes, only applies to sidepanels |
 
 ## Response:
 
@@ -101,6 +102,7 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | bool | If set to true, the content will not reload on current changes, only applies to sidepanels |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -114,27 +116,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 536,
-  "Name": "Boehm-O'Kon",
-  "Tooltip": "suscipit",
+  "WebPanelId": 516,
+  "Name": "Weissnat Inc and Sons",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 845,
+  "Rank": 812,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Dibbert-Satterfield",
+  "ShowInStatusBar": true,
+  "WindowName": "Jerde, Metz and Buckridge",
   "Url": "http://www.example.com/",
-  "ProgId": "aut",
-  "Icon": 738,
-  "AlwaysReloadOnShow": false
+  "ProgId": "dolorum",
+  "Icon": 324,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -145,33 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 731,
-  "Name": "Murazik, Quitzon and Koelpin",
-  "Tooltip": "perspiciatis",
+  "WebPanelId": 586,
+  "Name": "Corkery-Kunde",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 881,
+  "Rank": 431,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Toy-Ondricka",
+  "WindowName": "Hirthe Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsa",
-  "Icon": 922,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "ducimus",
+  "Icon": 559,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   }
 }

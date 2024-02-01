@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "dolorum"
+  "FileContent": "ipsam"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
-  "CanBeActivated": false,
+  "Reason": "expedite 24/365 networks",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 433,
-      "NumberOfLicensesFree": 19,
-      "NumberOfLicensesAdded": 619,
-      "NumberOfLicensesNewTotal": 20,
-      "NumberOfLicensesNewFree": 645,
-      "NumberOfLicensesTotal": 529
+      "NumberOfLicensesInUse": 726,
+      "NumberOfLicensesFree": 524,
+      "NumberOfLicensesAdded": 408,
+      "NumberOfLicensesNewTotal": 712,
+      "NumberOfLicensesNewFree": 389,
+      "NumberOfLicensesTotal": 80
     }
   ],
-  "AccumulatedNextCheckDate": "2022-07-04T13:57:12.4493603+02:00"
+  "AccumulatedNextCheckDate": "2021-08-11T23:03:56.1416328+02:00"
 }
 ```

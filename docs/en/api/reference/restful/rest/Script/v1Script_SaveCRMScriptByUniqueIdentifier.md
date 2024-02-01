@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sint",
-  "Name": "Wisoky, Greenfelder and Hudson",
-  "Description": "Fully-configurable homogeneous workforce",
-  "IncludeId": "tempora",
-  "Source": "unde",
-  "Registered": "1997-07-14T13:57:19.5158958+02:00",
-  "RegisteredBy": "quia",
-  "Updated": "2015-03-16T13:57:19.5158958+01:00",
-  "UpdatedBy": "ab",
-  "Path": "ea"
+  "UniqueIdentifier": "qui",
+  "Name": "Feeney Inc and Sons",
+  "Description": "Reactive multimedia analyzer",
+  "IncludeId": "quis",
+  "Source": "et",
+  "Registered": "1997-02-11T23:04:05.1435042+01:00",
+  "RegisteredBy": "dicta",
+  "Updated": "2017-10-12T23:04:05.1435042+02:00",
+  "UpdatedBy": "praesentium",
+  "Path": "dolores"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dolorem",
-  "Name": "Sipes-DuBuque",
-  "Description": "Virtual disintermediate product",
-  "IncludeId": "reprehenderit",
-  "Source": "odio",
-  "Registered": "2023-10-09T13:57:19.5158958+02:00",
-  "RegisteredBy": "laudantium",
-  "Updated": "2018-08-26T13:57:19.5158958+02:00",
-  "UpdatedBy": "deleniti",
-  "Path": "excepturi",
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Reichert, Murazik and Kihn",
+  "Description": "Multi-tiered clear-thinking utilisation",
+  "IncludeId": "rem",
+  "Source": "dolores",
+  "Registered": "2002-07-20T23:04:05.1435042+02:00",
+  "RegisteredBy": "inventore",
+  "Updated": "2001-03-05T23:04:05.1435042+01:00",
+  "UpdatedBy": "non",
+  "Path": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 757
     }
   }
 }

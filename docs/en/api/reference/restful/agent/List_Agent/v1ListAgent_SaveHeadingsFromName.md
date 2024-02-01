@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grant, Wilkinson and Hudson",
+  "Name": "D'Amore-Heidenreich",
   "Entities": [
     {
-      "HeadingId": 833,
-      "Name": "Heidenreich-Baumbach",
-      "Tooltip": "et",
+      "HeadingId": 406,
+      "Name": "Ward LLC",
+      "Tooltip": "quia",
       "Deleted": false,
-      "Rank": 862,
-      "UdListDefinitionId": 122
+      "Rank": 117,
+      "UdListDefinitionId": 787
     },
     {
-      "HeadingId": 833,
-      "Name": "Heidenreich-Baumbach",
-      "Tooltip": "et",
+      "HeadingId": 406,
+      "Name": "Ward LLC",
+      "Tooltip": "quia",
       "Deleted": false,
-      "Rank": 862,
-      "UdListDefinitionId": 122
+      "Rank": 117,
+      "UdListDefinitionId": 787
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 670,
-    "Name": "Ortiz, Anderson and Homenick",
-    "Tooltip": "error",
-    "Deleted": false,
-    "Rank": 441,
-    "UdListDefinitionId": 40,
+    "HeadingId": 638,
+    "Name": "Reilly Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 42,
+    "UdListDefinitionId": 105,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 802
       }
     }
   }

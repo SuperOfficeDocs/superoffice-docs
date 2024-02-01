@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 780,
-  "Name": "Lubowitz, Kihn and Legros",
-  "ContentType": "in",
-  "AttSize": 1000,
-  "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "quo",
+  "AttachmentId": 739,
+  "Name": "Bednar-Bradtke",
+  "ContentType": "sed",
+  "AttSize": 947,
+  "InlineImage": true,
+  "ContentId": "praesentium",
+  "AuthKey": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 421
     }
   }
 }

@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 400,
-  "Name": "Harber Group",
+  "ScreenChooserId": 229,
+  "Name": "Koelpin-Nader",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quod",
-  "Source": "ipsa",
-  "Registered": "2007-07-06T13:57:19.4221461+02:00",
-  "RegisteredAssociateId": 658,
-  "Updated": "2002-12-12T13:57:19.4221461+01:00",
-  "UpdatedAssociateId": 722
+  "UniqueIdentifier": "ullam",
+  "Source": "et",
+  "Registered": "2000-02-04T23:04:04.9985074+01:00",
+  "RegisteredAssociateId": 610,
+  "Updated": "2018-03-12T23:04:04.9985074+01:00",
+  "UpdatedAssociateId": 254
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 298,
-  "Name": "Bayer LLC",
+  "ScreenChooserId": 974,
+  "Name": "Metz LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ex",
-  "Source": "ut",
-  "Registered": "2013-01-01T13:57:19.4221461+01:00",
-  "RegisteredAssociateId": 617,
-  "Updated": "2015-09-12T13:57:19.4221461+02:00",
-  "UpdatedAssociateId": 846,
+  "UniqueIdentifier": "repellat",
+  "Source": "ratione",
+  "Registered": "2002-03-12T23:04:04.9990066+01:00",
+  "RegisteredAssociateId": 218,
+  "Updated": "2006-08-28T23:04:04.9990066+02:00",
+  "UpdatedAssociateId": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 55
     }
   },
   "_Links": {

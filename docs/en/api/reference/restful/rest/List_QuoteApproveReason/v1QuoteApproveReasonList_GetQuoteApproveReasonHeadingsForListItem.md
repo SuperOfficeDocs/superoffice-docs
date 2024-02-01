@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Hagenes, Bartell and Feeney",
-    "ToolTip": "Quis ipsa.",
+    "Id": 239,
+    "Name": "Murphy-Hahn",
+    "ToolTip": "Quo distinctio optio qui illum et consequatur et.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "quisquam",
-    "ColorBlock": 887,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2008-02-05T13:57:19.9377991+01:00",
+    "Rank": 758,
+    "Type": "debitis",
+    "ColorBlock": 673,
+    "IconHint": "tempora",
+    "Selected": false,
+    "LastChanged": "2019-11-06T23:04:05.6999971+01:00",
     "ChildItems": [
       {
-        "Id": 914,
-        "Name": "Flatley-Hagenes",
-        "ToolTip": "Nisi dolor possimus accusamus mollitia sunt.",
+        "Id": 52,
+        "Name": "Fay Inc and Sons",
+        "ToolTip": "Aut explicabo.",
         "Deleted": false,
-        "Rank": 379,
-        "Type": "soluta",
-        "ColorBlock": 984,
-        "IconHint": "temporibus",
-        "Selected": false,
-        "LastChanged": "2011-07-12T13:57:19.9377991+02:00",
+        "Rank": 964,
+        "Type": "eum",
+        "ColorBlock": 983,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2012-01-15T23:04:05.6999971+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "corporis",
+        "ExtraInfo": "est",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Ms. Christa Reichel IV",
+        "FullName": "Brannon Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 704
+            "FieldType": "System.String",
+            "FieldLength": 469
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "fugiat",
-    "Hidden": false,
-    "FullName": "Declan Schuppe V",
+    "ExtraInfo": "atque",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Esta Mann Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 32
       }
     }
   }

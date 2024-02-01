@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Mueller Group",
-      "Operator": "omnis",
+      "Name": "Prosacco-Grant",
+      "Operator": "est",
       "Values": [
-        "expedita",
-        "odit"
+        "autem",
+        "qui"
       ],
       "DisplayValues": [
-        "maiores",
-        "quod"
+        "voluptatem",
+        "non"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 11,
+      "InterParenthesis": 847,
       "InterOperator": "And",
-      "UniqueHash": 672
+      "UniqueHash": 953
     }
   ],
   "Columns": [
-    "doloremque",
-    "veniam"
+    "omnis",
+    "maiores"
   ],
-  "ConnectionId": 779,
+  "ConnectionId": 771,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "eos",
-        "est"
+        "deserunt",
+        "et"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "dolorem",
+      "ExternalKey": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 845
+          "FieldLength": 800
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Parker, Wolf and Reilly",
-      "DisplayName": "Dach Group",
+      "Name": "Graham, Connelly and Abbott",
+      "DisplayName": "Brekke, Dooley and Bradtke",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldLength": 283
         }
       }
     },
     {
-      "Name": "Parker, Wolf and Reilly",
-      "DisplayName": "Dach Group",
+      "Name": "Graham, Connelly and Abbott",
+      "DisplayName": "Brekke, Dooley and Bradtke",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldLength": 283
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 415
     }
   }
 }

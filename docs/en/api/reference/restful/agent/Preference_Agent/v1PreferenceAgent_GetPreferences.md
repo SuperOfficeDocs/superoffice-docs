@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quaerat",
-      "Key": "rerum"
+      "Section": "est",
+      "Key": "sapiente"
     },
     {
-      "Section": "quaerat",
-      "Key": "rerum"
+      "Section": "est",
+      "Key": "sapiente"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "nam",
+    "RawValue": "necessitatibus",
     "Specification": null,
-    "DisplayValue": "rem",
-    "DisplayTooltip": "et",
+    "DisplayValue": "id",
+    "DisplayTooltip": "tempora",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 64,
-    "PrefDescId": 59,
-    "TableName": "Hackett Inc and Sons",
-    "UserPreferenceId": 363,
+    "TargetId": 340,
+    "PrefDescId": 847,
+    "TableName": "Rempel-Kassulke",
+    "UserPreferenceId": 449,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldLength": 777
       }
     }
   }

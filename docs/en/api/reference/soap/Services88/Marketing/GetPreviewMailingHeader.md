@@ -61,11 +61,12 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <Marketing:GetPreviewMailingHeaderResponse>
    <Marketing:Response xsi:type="Marketing:PreviewMailingHeader">
-    <Marketing:StartDate xsi:type="xsd:dateTime">2023-12-07T12:56:02Z</Marketing:StartDate>
+    <Marketing:StartDate xsi:type="xsd:dateTime">2024-01-18T22:02:44Z</Marketing:StartDate>
     <Marketing:Status xsi:type="Marketing:ShipmentStatus">None</Marketing:Status>
     <Marketing:ShipmentId xsi:type="xsd:int">0</Marketing:ShipmentId>
     <Marketing:ShipmentDescription xsi:type="xsd:string"></Marketing:ShipmentDescription>
     <Marketing:FromAddress xsi:type="xsd:string"></Marketing:FromAddress>
+    <Marketing:Configuration xsi:type="xsd:int">0</Marketing:Configuration>
     <Marketing:PersonId xsi:type="xsd:int">0</Marketing:PersonId>
     <Marketing:PersonFullName xsi:type="xsd:string"></Marketing:PersonFullName>
     <Marketing:ShipmentType xsi:type="xsd:string"></Marketing:ShipmentType>

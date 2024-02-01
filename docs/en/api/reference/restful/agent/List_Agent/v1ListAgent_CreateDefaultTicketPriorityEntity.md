@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 507,
-  "Name": "Mayer-Ziemann",
+  "TicketPriorityId": 272,
+  "Name": "Abshire Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 891,
+  "SortOrder": 422,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 264,
-  "MonStart": "2022-11-10T13:57:12.575585+01:00",
-  "MonStop": "2002-12-30T13:57:12.575585+01:00",
-  "TueStart": "1997-08-28T13:57:12.575585+02:00",
-  "TueStop": "2004-06-12T13:57:12.575585+02:00",
-  "WedStart": "2017-10-18T13:57:12.575585+02:00",
-  "WedStop": "2017-11-11T13:57:12.575585+01:00",
-  "ThuStart": "2009-02-02T13:57:12.575585+01:00",
-  "ThuStop": "2012-06-08T13:57:12.575585+02:00",
-  "FriStart": "2000-06-06T13:57:12.575585+02:00",
-  "FriStop": "2010-04-21T13:57:12.575585+02:00",
-  "SatStart": "2006-11-09T13:57:12.575585+01:00",
-  "SatStop": "2022-09-05T13:57:12.575585+02:00",
-  "SunStart": "2004-11-19T13:57:12.575585+01:00",
-  "SunStop": "2013-04-04T13:57:12.575585+02:00",
+  "Deadline": 822,
+  "MonStart": "1999-08-22T23:03:56.3061245+02:00",
+  "MonStop": "2014-06-07T23:03:56.3061245+02:00",
+  "TueStart": "2018-02-07T23:03:56.3061245+01:00",
+  "TueStop": "2013-05-08T23:03:56.3061245+02:00",
+  "WedStart": "1997-02-23T23:03:56.3061245+01:00",
+  "WedStop": "2011-04-08T23:03:56.3061245+02:00",
+  "ThuStart": "2010-04-08T23:03:56.3061245+02:00",
+  "ThuStop": "2002-02-07T23:03:56.3061245+01:00",
+  "FriStart": "2005-01-31T23:03:56.3061245+01:00",
+  "FriStop": "2010-10-16T23:03:56.3061245+02:00",
+  "SatStart": "2016-07-01T23:03:56.3061245+02:00",
+  "SatStop": "2006-02-22T23:03:56.3061245+01:00",
+  "SunStart": "2020-07-27T23:03:56.3061245+02:00",
+  "SunStop": "2017-05-17T23:03:56.3061245+02:00",
   "NonDates": [
-    "perferendis",
-    "suscipit"
+    "iure",
+    "aliquid"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 614,
-      "AlertLevel": 181,
-      "AlertTimeout": 958,
-      "Action": 299,
-      "DelegateTo": 630,
-      "ScriptId": 546,
-      "EmailTo": "deshaun@mclaughlin.ca",
-      "SmsTo": "voluptatum",
-      "ReplyTemplateIdCustomer": 114,
-      "ReplyTemplateIdUser": 752,
-      "ReplyTemplateIdCatmast": 900,
-      "ReplyTemplateIdEmail": 360,
-      "RtiCustomerSms": 583,
-      "ReplyTemplateIdUserSms": 231,
-      "ReplyTemplateIdCatmastSms": 214,
-      "ReplyTemplateIdSms": 519,
+      "TicketAlertId": 300,
+      "AlertLevel": 470,
+      "AlertTimeout": 670,
+      "Action": 966,
+      "DelegateTo": 396,
+      "ScriptId": 623,
+      "EmailTo": "lucio@schuster.com",
+      "SmsTo": "rerum",
+      "ReplyTemplateIdCustomer": 695,
+      "ReplyTemplateIdUser": 273,
+      "ReplyTemplateIdCatmast": 170,
+      "ReplyTemplateIdEmail": 979,
+      "RtiCustomerSms": 57,
+      "ReplyTemplateIdUserSms": 147,
+      "ReplyTemplateIdCatmastSms": 594,
+      "ReplyTemplateIdSms": 609,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 619
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

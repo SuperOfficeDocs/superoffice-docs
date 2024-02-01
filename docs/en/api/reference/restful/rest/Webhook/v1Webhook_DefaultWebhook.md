@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 607,
-  "Name": "Kessler Inc and Sons",
+  "WebhookId": 465,
+  "Name": "Dicki, O'Kon and Brakus",
   "Events": [
-    "qui",
-    "ut"
+    "repellendus",
+    "quia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "rerum",
+  "Secret": "omnis",
   "State": "Active",
-  "Type": "minima",
+  "Type": "blanditiis",
   "Headers": {
-    "Headers1": "voluptatem",
-    "Headers2": "ut"
+    "Headers1": "vero",
+    "Headers2": "quis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-09-07T13:57:19.5783953+02:00",
+  "Registered": "1998-11-30T23:04:05.2275029+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-04-18T13:57:19.5783953+02:00",
+  "Updated": "2017-02-16T23:04:05.2280029+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "ozella.koepp@reynolds.us"
+  "ErrorsEmail": "priscilla_reynolds@shanahankeeling.biz"
 }
 ```

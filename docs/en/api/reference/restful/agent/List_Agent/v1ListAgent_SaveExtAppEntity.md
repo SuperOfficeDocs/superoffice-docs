@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 959,
-  "Name": "Schoen, Stanton and Grant",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 414,
-  "Filename": "sint",
-  "Parameters": "tempore",
-  "Workdir": "praesentium",
+  "ExtAppId": 249,
+  "Name": "Reynolds Group",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "Rank": 843,
+  "Filename": "et",
+  "Parameters": "fugit",
+  "Workdir": "sed",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 20,
+  "Icon": 568,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "beatae"
+  "Path": "harum"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 216,
-  "Name": "Hirthe-Gibson",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 160,
-  "Filename": "temporibus",
-  "Parameters": "omnis",
-  "Workdir": "necessitatibus",
+  "ExtAppId": 916,
+  "Name": "Corkery, Lueilwitz and Blick",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 586,
+  "Filename": "quos",
+  "Parameters": "delectus",
+  "Workdir": "consequuntur",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 496,
-  "WaitToFinish": true,
+  "ShowInStatusBar": false,
+  "Icon": 69,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptatibus",
+  "Path": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 614
     }
   }
 }

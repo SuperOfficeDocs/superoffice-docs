@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 920
+  "TicketMessageEntityId": 257
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 310,
-    "Name": "Wisozk-Oberbrunner",
-    "ContentType": "aspernatur",
-    "AttSize": 224,
-    "InlineImage": true,
-    "ContentId": "et",
-    "AuthKey": "in",
+    "AttachmentId": 829,
+    "Name": "Macejkovic LLC",
+    "ContentType": "delectus",
+    "AttSize": 494,
+    "InlineImage": false,
+    "ContentId": "est",
+    "AuthKey": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldLength": 102
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "veniam",
-  "PrefKey": "non",
+  "PrefSection": "eos",
+  "PrefKey": "occaecati",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "quisquam",
   "Specification": null,
-  "DisplayValue": "ut",
-  "DisplayTooltip": "quidem",
+  "DisplayValue": "reiciendis",
+  "DisplayTooltip": "quo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 47,
-  "PrefDescId": 521,
-  "TableName": "Wyman Inc and Sons",
-  "UserPreferenceId": 280,
+  "TargetId": 578,
+  "PrefDescId": 845,
+  "TableName": "Aufderhar Group",
+  "UserPreferenceId": 699,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 264
     }
   }
 }

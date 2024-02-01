@@ -578,7 +578,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/streetAddress/formattedMultiLineAddress,mailingAddr/person/isStakeholder,mailingAddr/person/correspondingAssociate/fullName,associate/credentialType
+GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/email/emailBounceCount,mailingAddr/contact/contactAssociate/title,mailingAddr/contact/contactAssociate/associateDbId,mailingAddr/person/personExtra/x_person_time,mailingAddr/person/correspondingAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

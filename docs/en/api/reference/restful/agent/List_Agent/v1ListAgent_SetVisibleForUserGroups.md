@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 489,
-  "ListItemId": 800,
+  "UdListDefinitionId": 154,
+  "ListItemId": 347,
   "UserGroups": [
     {
-      "Id": 289,
-      "Name": "Dietrich, Hermann and Blick",
-      "ToolTip": "Laudantium nam itaque sed.",
+      "Id": 576,
+      "Name": "Hane LLC",
+      "ToolTip": "Sequi ipsum quidem.",
       "Deleted": true,
-      "Rank": 487,
-      "Type": "et",
-      "ColorBlock": 739,
-      "IconHint": "eum",
-      "Selected": false,
-      "LastChanged": "2002-03-11T13:57:12.5118644+01:00",
+      "Rank": 419,
+      "Type": "cupiditate",
+      "ColorBlock": 173,
+      "IconHint": "consequatur",
+      "Selected": true,
+      "LastChanged": "2014-06-01T23:03:56.209126+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "autem",
-      "Hidden": false,
-      "FullName": "Brody Marvin"
+      "ExtraInfo": "sapiente",
+      "StyleHint": "enim",
+      "Hidden": true,
+      "FullName": "Miss Ozella Turcotte"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Schmidt-Beatty",
-    "ToolTip": "Nam aut vel autem saepe officia et.",
-    "Deleted": false,
-    "Rank": 744,
-    "Type": "et",
-    "ColorBlock": 768,
-    "IconHint": "ea",
+    "Id": 381,
+    "Name": "Mohr LLC",
+    "ToolTip": "Et provident.",
+    "Deleted": true,
+    "Rank": 408,
+    "Type": "repellat",
+    "ColorBlock": 42,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "2022-05-16T13:57:12.5118644+02:00",
+    "LastChanged": "2004-12-22T23:03:56.2101257+01:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Padberg Group",
-        "ToolTip": "Quibusdam harum ratione molestiae assumenda voluptas consequatur.",
-        "Deleted": true,
-        "Rank": 664,
-        "Type": "rem",
-        "ColorBlock": 184,
-        "IconHint": "repellat",
+        "Id": 47,
+        "Name": "Wolf Group",
+        "ToolTip": "Voluptatem quidem mollitia dolores iure neque.",
+        "Deleted": false,
+        "Rank": 596,
+        "Type": "odio",
+        "ColorBlock": 962,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2016-04-05T13:57:12.5118644+02:00",
+        "LastChanged": "2023-07-16T23:03:56.2101257+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "deserunt",
-        "Hidden": false,
-        "FullName": "Breanna Dickens",
+        "ExtraInfo": "facere",
+        "StyleHint": "illo",
+        "Hidden": true,
+        "FullName": "Dr. Lesley Lueilwitz Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 775
+            "FieldType": "System.String",
+            "FieldLength": 605
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Valerie Zieme",
+    "ExtraInfo": "omnis",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Miss Jackson Upton Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldType": "System.Int32",
+        "FieldLength": 910
       }
     }
   }

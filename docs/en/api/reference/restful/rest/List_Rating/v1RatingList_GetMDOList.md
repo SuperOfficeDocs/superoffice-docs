@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=aut
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Schuppe LLC",
-    "ToolTip": "Provident sint amet rerum iure distinctio dolores asperiores.",
-    "Deleted": true,
-    "Rank": 706,
-    "Type": "officiis",
+    "Id": 256,
+    "Name": "Yost, Pouros and Crooks",
+    "ToolTip": "Magnam voluptatem libero enim beatae facilis.",
+    "Deleted": false,
+    "Rank": 134,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Macejkovic-Fahey",
-        "ToolTip": "Autem in quas.",
+        "Id": 526,
+        "Name": "Labadie, Anderson and Bergnaum",
+        "ToolTip": "Quam in maxime aut.",
         "Deleted": true,
-        "Rank": 58,
-        "Type": "ut",
+        "Rank": 124,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 253,
-        "ExtraInfo": "non",
-        "StyleHint": "eos",
-        "FullName": "Mrs. Helena Waelchi V",
+        "IconHint": "fugiat",
+        "ColorBlock": 181,
+        "ExtraInfo": "tempora",
+        "StyleHint": "dolores",
+        "FullName": "Montana Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 732
+            "FieldLength": 481
           }
         }
       }
     ],
-    "IconHint": "quidem",
-    "ColorBlock": 132,
-    "ExtraInfo": "quos",
-    "StyleHint": "qui",
-    "FullName": "Josue Altenwerth",
+    "IconHint": "aspernatur",
+    "ColorBlock": 701,
+    "ExtraInfo": "delectus",
+    "StyleHint": "velit",
+    "FullName": "Shany Koelpin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 992
+        "FieldLength": 413
       }
     }
   }

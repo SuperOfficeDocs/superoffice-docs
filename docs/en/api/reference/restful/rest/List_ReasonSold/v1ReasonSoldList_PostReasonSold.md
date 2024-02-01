@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "McClure Inc and Sons",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "UdListDefinitionId": 168,
-  "Rank": 390
+  "Id": 199,
+  "Name": "Waelchi-Gulgowski",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "UdListDefinitionId": 423,
+  "Rank": 261
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 897,
-  "Name": "Maggio-Spencer",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 346,
-  "Rank": 513,
+  "Id": 477,
+  "Name": "Bosco-Schinner",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 485,
+  "Rank": 10,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldType": "System.String",
+      "FieldLength": 423
     }
   }
 }

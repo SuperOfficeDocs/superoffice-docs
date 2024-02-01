@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": false
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Schumm Group",
-    "ToolTip": "Minus a vitae.",
-    "Deleted": true,
-    "Rank": 150,
-    "Type": "ut",
+    "Id": 840,
+    "Name": "Bartell-Kemmer",
+    "ToolTip": "Fugiat perferendis.",
+    "Deleted": false,
+    "Rank": 37,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Fisher-Zemlak",
-        "ToolTip": "Enim natus dolorum natus corporis hic et.",
-        "Deleted": false,
-        "Rank": 69,
-        "Type": "magni",
+        "Id": 171,
+        "Name": "Wilkinson-Schinner",
+        "ToolTip": "Dicta molestiae vitae sunt ipsa vel officia.",
+        "Deleted": true,
+        "Rank": 898,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "animi",
-        "ColorBlock": 64,
-        "ExtraInfo": "facilis",
-        "StyleHint": "doloribus",
-        "FullName": "Freddie Mraz",
+        "IconHint": "et",
+        "ColorBlock": 465,
+        "ExtraInfo": "est",
+        "StyleHint": "quaerat",
+        "FullName": "Lupe Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 387
+            "FieldLength": 776
           }
         }
       }
     ],
-    "IconHint": "reprehenderit",
-    "ColorBlock": 269,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "eveniet",
-    "FullName": "Dr. Clemmie Lisa Abshire",
+    "IconHint": "neque",
+    "ColorBlock": 129,
+    "ExtraInfo": "libero",
+    "StyleHint": "nulla",
+    "FullName": "Miss Shyanne Precious Krajcik DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 475
       }
     }
   }

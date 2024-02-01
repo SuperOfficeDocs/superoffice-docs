@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Heathcote Group",
-      "DisplayName": "Simonis, Crona and Hintz",
-      "DisplayTooltip": "eaque",
+      "Name": "Nicolas-Runolfsdottir",
+      "DisplayName": "Emmerich-Goyette",
+      "DisplayTooltip": "dolor",
       "IsActive": true
     },
     {
-      "Name": "Heathcote Group",
-      "DisplayName": "Simonis, Crona and Hintz",
-      "DisplayTooltip": "eaque",
+      "Name": "Nicolas-Runolfsdottir",
+      "DisplayName": "Emmerich-Goyette",
+      "DisplayTooltip": "dolor",
       "IsActive": true
     }
   ]

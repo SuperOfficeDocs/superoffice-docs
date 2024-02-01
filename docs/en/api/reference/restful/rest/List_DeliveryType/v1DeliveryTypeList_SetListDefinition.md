@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 448,
-  "Name": "Jerde Inc and Sons",
-  "Tooltip": "aperiam",
+  "Id": 887,
+  "Name": "Schimmel, Christiansen and Harvey",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 946,
+  "Rank": 465,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "provident",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 328,
-  "Name": "Funk, Durgan and Cartwright",
-  "Tooltip": "ut",
+  "Id": 207,
+  "Name": "Emard, Kuphal and O'Conner",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 24,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "autem",
+  "Rank": 162,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "itaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldType": "System.String",
+      "FieldLength": 152
     }
   }
 }

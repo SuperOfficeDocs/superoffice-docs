@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 792
+  "ErpConnectorId": 806
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "optio",
-    "Rank": 947,
-    "DisplayName": "Lemke Inc and Sons",
-    "DisplayDescription": "Horizontal well-modulated orchestration",
+    "FieldKey": "soluta",
+    "Rank": 181,
+    "DisplayName": "Bartell Inc and Sons",
+    "DisplayDescription": "Total exuding circuit",
     "FieldType": "Checkbox",
-    "ListName": "Goodwin Group",
-    "DefaultValue": "necessitatibus",
-    "MaxLength": 435,
+    "ListName": "Stanton, Auer and Harvey",
+    "DefaultValue": "aut",
+    "MaxLength": 892,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldLength": 246
       }
     }
   }

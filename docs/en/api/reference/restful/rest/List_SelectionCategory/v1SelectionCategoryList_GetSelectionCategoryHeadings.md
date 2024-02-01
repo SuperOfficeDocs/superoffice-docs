@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 532,
-    "Name": "Roob-Gusikowski",
-    "Tooltip": "ipsa",
-    "Deleted": true,
-    "Rank": 109,
-    "UdListDefinitionId": 431,
+    "HeadingId": 174,
+    "Name": "Nolan, Raynor and Cormier",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 505,
+    "UdListDefinitionId": 767,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldType": "System.String",
+        "FieldLength": 163
       }
     }
   }

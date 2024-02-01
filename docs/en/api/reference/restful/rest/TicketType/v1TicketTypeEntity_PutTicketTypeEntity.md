@@ -105,22 +105,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 709,
-  "Name": "Padberg-Eichmann",
-  "Rank": 302,
-  "Tooltip": "ut",
-  "Icon": "aperiam",
-  "DefaultTicketStatus": 657,
+  "TicketTypeId": 603,
+  "Name": "Goldner Inc and Sons",
+  "Rank": 566,
+  "Tooltip": "porro",
+  "Icon": "doloremque",
+  "DefaultTicketStatus": 222,
   "TicketStatuses": [
-    1001,
-    604
+    335,
+    170
   ],
-  "DefaultTicketPriority": 95,
+  "DefaultTicketPriority": 222,
   "TicketPriorities": [
-    219,
-    222
+    322,
+    858
   ],
-  "ReplyTemplate": 160,
+  "ReplyTemplate": 437,
   "IsExternalVisible": true,
   "IsDefault": false
 }
@@ -133,30 +133,30 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 196,
-  "Name": "Kuhic, Jenkins and Volkman",
-  "Rank": 304,
-  "Tooltip": "eum",
-  "Icon": "eius",
-  "DefaultTicketStatus": 298,
+  "TicketTypeId": 32,
+  "Name": "Dare LLC",
+  "Rank": 847,
+  "Tooltip": "rem",
+  "Icon": "nam",
+  "DefaultTicketStatus": 440,
   "TicketStatuses": [
-    299,
-    392
+    651,
+    484
   ],
-  "DefaultTicketPriority": 871,
+  "DefaultTicketPriority": 399,
   "TicketPriorities": [
-    151,
-    140
+    384,
+    383
   ],
-  "ReplyTemplate": 544,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 190,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldLength": 841
     }
   },
   "_Links": {

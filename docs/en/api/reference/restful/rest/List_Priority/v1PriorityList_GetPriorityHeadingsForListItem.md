@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Davis, Franecki and VonRueden",
-    "ToolTip": "Corporis illum.",
-    "Deleted": true,
-    "Rank": 765,
-    "Type": "labore",
-    "ColorBlock": 501,
-    "IconHint": "ut",
+    "Id": 609,
+    "Name": "Hackett, Rogahn and Farrell",
+    "ToolTip": "Sed voluptas.",
+    "Deleted": false,
+    "Rank": 425,
+    "Type": "laborum",
+    "ColorBlock": 124,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2016-07-06T13:57:19.8596433+02:00",
+    "LastChanged": "2011-05-17T23:04:05.5969982+02:00",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Eichmann Group",
-        "ToolTip": "Qui maxime.",
+        "Id": 657,
+        "Name": "Wisozk LLC",
+        "ToolTip": "Quos et culpa et magnam molestiae.",
         "Deleted": true,
-        "Rank": 878,
-        "Type": "numquam",
-        "ColorBlock": 783,
-        "IconHint": "expedita",
-        "Selected": false,
-        "LastChanged": "2001-07-14T13:57:19.8596433+02:00",
+        "Rank": 326,
+        "Type": "et",
+        "ColorBlock": 777,
+        "IconHint": "facere",
+        "Selected": true,
+        "LastChanged": "2003-07-29T23:04:05.5969982+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Marcelo Langosh",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Prof. Makayla Wilton Johnston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldType": "System.String",
+            "FieldLength": 898
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Kareem Huel Jr.",
+    "ExtraInfo": "dolores",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Dr. Rafaela O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 975
       }
     }
   }

@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "sint"
+  "UID": "nam"
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-06-22T13:57:11.4656836+02:00",
-  "AppointmentId": 653,
-  "Description": "Right-sized asynchronous moderator",
-  "Title": "sit",
-  "Agenda": "placeat",
-  "InternalNotes": "sunt",
-  "StartDate": "2001-08-15T13:57:11.4656836+02:00",
-  "EndDate": "2011-11-23T13:57:11.4656836+01:00",
+  "CreatedDate": "2007-01-12T23:03:54.8971435+01:00",
+  "AppointmentId": 458,
+  "Description": "Multi-tiered holistic customer loyalty",
+  "Title": "occaecati",
+  "Agenda": "sint",
+  "InternalNotes": "quo",
+  "StartDate": "2000-08-18T23:03:54.8971435+02:00",
+  "EndDate": "2003-01-10T23:03:54.8971435+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 387,
+  "MotherId": 827,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-08-14T13:57:11.4656836+02:00",
+  "UpdatedDate": "2017-03-11T23:03:54.9056442+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 185,
+  "ActiveLinks": 164,
   "Links": [
     {
-      "EntityName": "Blick-Rempel",
-      "Id": 146,
-      "Description": "Face to face human-resource algorithm",
-      "ExtraInfo": "est",
-      "LinkId": 439,
+      "EntityName": "Lowe, Stoltenberg and Blanda",
+      "Id": 425,
+      "Description": "Diverse clear-thinking neural-net",
+      "ExtraInfo": "et",
+      "LinkId": 301,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldType": "System.String",
+          "FieldLength": 680
         }
       }
     }
   ],
-  "AlarmLeadTime": "quis",
-  "HasAlarm": false,
-  "ColorIndex": 560,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptas",
-  "LeadTime": "facere",
-  "Location": "aut",
-  "RejectCounter": 274,
+  "AlarmLeadTime": "laboriosam",
+  "HasAlarm": true,
+  "ColorIndex": 290,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "eveniet",
+  "LeadTime": "officia",
+  "Location": "molestiae",
+  "RejectCounter": 291,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 823,
-      "PersonId": 893,
-      "ContactId": 723,
-      "EmailId": 961,
-      "SendEmail": false,
+      "AssociateId": 73,
+      "PersonId": 157,
+      "ContactId": 532,
+      "EmailId": 255,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "xzavier@brakussmith.info",
-      "Description": "Open-source zero defect circuit"
+      "EmailAddress": "amara_hamill@orn.info",
+      "Description": "Exclusive multi-state Graphic Interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-06-19T13:57:11.4656836+02:00",
+  "ActiveDate": "1997-09-08T23:03:54.9061434+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 974,
+  "PreferredTZLocation": 626,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 214,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 966,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ad",
+  "CentralserviceVideomeetId": "numquam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Pete Flatley",
-    "SuperOffice:2": "Kayla Sporer"
+    "SuperOffice:1": "1679792232",
+    "SuperOffice:2": "Merlin Lowe"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "veritatis",
-    "CustomFields2": "et"
+    "CustomFields1": "ut",
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "2000-02-22T13:57:11.4656836+01:00",
-  "PublishTo": "2021-03-20T13:57:11.4656836+01:00",
-  "PublishFrom": "2009-04-01T13:57:11.4656836+02:00",
+  "PublishEventDate": "2016-05-17T23:03:54.907644+02:00",
+  "PublishTo": "2008-05-28T23:03:54.907644+02:00",
+  "PublishFrom": "2004-02-04T23:03:54.907644+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 613,
+      "VisibleId": 827,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 347
+          "FieldType": "System.Int32",
+          "FieldLength": 443
         }
       }
     },
     {
-      "VisibleId": 613,
+      "VisibleId": 827,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 347
+          "FieldType": "System.Int32",
+          "FieldLength": 443
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

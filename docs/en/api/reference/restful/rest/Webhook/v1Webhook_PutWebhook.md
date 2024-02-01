@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 222,
-  "Name": "Lockman-Smitham",
+  "WebhookId": 295,
+  "Name": "Ryan-Baumbach",
   "Events": [
-    "sit",
-    "consequatur"
+    "quis",
+    "reprehenderit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "fugiat",
+  "Secret": "ratione",
   "State": "Active",
-  "Type": "ad",
+  "Type": "blanditiis",
   "Headers": {
-    "Headers1": "ipsa",
-    "Headers2": "aut"
+    "Headers1": "fugiat",
+    "Headers2": "aspernatur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-09-04T13:57:19.5940221+02:00",
+  "Registered": "2004-06-16T23:04:05.238003+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1996-11-14T13:57:19.5940221+01:00",
+  "Updated": "2023-10-19T23:04:05.2385047+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "tad.oconner@brown.co.uk"
+  "ErrorsEmail": "cayla.hessel@walker.co.uk"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 630,
-  "Name": "Lynch Inc and Sons",
+  "WebhookId": 33,
+  "Name": "McCullough Group",
   "Events": [
-    "dolor",
-    "est"
+    "velit",
+    "quod"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sed",
+  "Secret": "et",
   "State": "Active",
-  "Type": "ut",
+  "Type": "velit",
   "Headers": {
-    "Headers1": "sint",
-    "Headers2": "omnis"
+    "Headers1": "sit",
+    "Headers2": "tempore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-08-30T13:57:19.5940221+02:00",
+  "Registered": "2017-03-04T23:04:05.2410031+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-04-05T13:57:19.5940221+02:00",
+  "Updated": "2012-03-24T23:04:05.2415031+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "carmela.renner@ward.info",
+  "ErrorsEmail": "jessy.quitzon@roberts.com",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 157,
-  "Name": "Muller, Wolf and Wilderman",
+  "ScreenChooserId": 168,
+  "Name": "Koelpin Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ut",
-  "Source": "repellendus",
-  "Registered": "2021-12-20T13:57:19.4221461+01:00",
-  "RegisteredAssociateId": 210,
-  "Updated": "2016-05-20T13:57:19.4221461+02:00",
-  "UpdatedAssociateId": 195,
+  "Enabled": false,
+  "UniqueIdentifier": "harum",
+  "Source": "fuga",
+  "Registered": "2007-09-13T23:04:04.9980061+02:00",
+  "RegisteredAssociateId": 888,
+  "Updated": "1997-10-13T23:04:04.9980061+02:00",
+  "UpdatedAssociateId": 276,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 682
     }
   },
   "_Links": {

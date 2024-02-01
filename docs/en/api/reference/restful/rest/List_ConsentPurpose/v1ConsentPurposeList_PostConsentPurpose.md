@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 974,
-  "Name": "Mraz Group",
-  "ConsentText": "quidem",
-  "FormText": "dolores",
-  "Key": "aut",
+  "ConsentPurposeId": 282,
+  "Name": "Abshire Inc and Sons",
+  "ConsentText": "ut",
+  "FormText": "harum",
+  "Key": "sit",
   "Tooltip": "odit",
-  "Active": 597,
-  "UpdatedDate": "1998-06-19T13:57:19.6565553+02:00",
+  "Active": 314,
+  "UpdatedDate": "2006-08-22T23:04:05.3450058+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 78,
-  "PrivacyStatementDesc": "quibusdam",
+  "Rank": 279,
+  "PrivacyStatementDesc": "aut",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 741,
-  "Name": "Dibbert Inc and Sons",
-  "ConsentText": "itaque",
-  "FormText": "ducimus",
-  "Key": "non",
-  "Tooltip": "expedita",
-  "Active": 640,
-  "UpdatedDate": "2023-11-23T13:57:19.6565553+01:00",
+  "ConsentPurposeId": 226,
+  "Name": "Mills Group",
+  "ConsentText": "accusantium",
+  "FormText": "voluptatem",
+  "Key": "dolor",
+  "Tooltip": "eum",
+  "Active": 387,
+  "UpdatedDate": "2005-04-07T23:04:05.3460011+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 218,
-  "PrivacyStatementDesc": "nostrum",
+  "Rank": 598,
+  "PrivacyStatementDesc": "dicta",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 625
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 844
+  "TicketEntityId": 192
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 371,
-    "Name": "Wisozk Inc and Sons",
-    "ContentType": "quam",
-    "AttSize": 383,
+    "AttachmentId": 561,
+    "Name": "Champlin-Kemmer",
+    "ContentType": "excepturi",
+    "AttSize": 302,
     "InlineImage": false,
-    "ContentId": "cupiditate",
-    "AuthKey": "velit",
+    "ContentId": "id",
+    "AuthKey": "ad",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 424
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

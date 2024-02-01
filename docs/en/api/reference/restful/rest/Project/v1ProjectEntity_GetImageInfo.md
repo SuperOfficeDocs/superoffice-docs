@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 19 Jan 2019 13:57:19 G1T
+Last-Modified: Sat, 24 Mar 2007 23:04:04 G3T
 
 {
-  "BlobId": 150,
-  "BlobSize": 238,
-  "Description": "Multi-channelled leading edge methodology",
-  "ExtraInfo": "eveniet",
+  "BlobId": 950,
+  "BlobSize": 445,
+  "Description": "Decentralized composite Graphic Interface",
+  "ExtraInfo": "temporibus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 639,
-  "CreatedDate": "2019-08-01T13:57:19.1246846+02:00",
-  "UpdatedDate": "2019-01-19T13:57:19.1246846+01:00",
+  "MimeType": "distinctio",
+  "OriginalSize": 311,
+  "CreatedDate": "2019-09-02T23:04:04.6025116+02:00",
+  "UpdatedDate": "2007-03-24T23:04:04.6025116+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "in",
+  "ConceptualType": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 21
     }
   }
 }

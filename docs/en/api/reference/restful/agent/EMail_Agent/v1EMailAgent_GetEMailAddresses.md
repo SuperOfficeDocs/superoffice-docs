@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    12,
-    567
+    804,
+    774
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 530,
-    "ContactName": "Satterfield Group",
-    "PersonId": 219,
-    "PersonName": "Steuber Group",
-    "AssociateId": 601,
-    "Address": "recusandae",
-    "EmailId": 468,
+    "ContactId": 946,
+    "ContactName": "Jenkins-Leffler",
+    "PersonId": 280,
+    "PersonName": "Kub, Hirthe and Klein",
+    "AssociateId": 644,
+    "Address": "fuga",
+    "EmailId": 901,
     "DuplicatePersonIds": [
-      550,
-      969
+      408,
+      685
     ],
-    "Name": "Leffler, King and Corwin",
+    "Name": "Marks, Bosco and Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 350
       }
     }
   }

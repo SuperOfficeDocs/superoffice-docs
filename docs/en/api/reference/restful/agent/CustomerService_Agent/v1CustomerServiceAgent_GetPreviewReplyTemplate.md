@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 60
+  "ReplyTemplateId": 357
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crooks-Friesen",
-  "Description": "Programmable maximized archive",
-  "OwnedByFullName": "Lucie Boehm V",
-  "Updated": "2017-07-20T13:57:12.0280012+02:00",
-  "Body": "odit",
-  "IsHtml": false,
+  "Name": "Kunze, O'Connell and Denesik",
+  "Description": "Networked content-based methodology",
+  "OwnedByFullName": "Miss Asia Dach IV",
+  "Updated": "2007-07-13T23:03:55.6021345+02:00",
+  "Body": "quo",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 673
     }
   }
 }

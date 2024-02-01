@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Cummings LLC",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 94,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 613,
+  "Name": "Conroy Inc and Sons",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 42,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
+  "ListType": "rem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 372,
-  "Name": "Rowe Group",
-  "Tooltip": "voluptatibus",
+  "Id": 148,
+  "Name": "Stiedemann Inc and Sons",
+  "Tooltip": "soluta",
   "Deleted": true,
-  "Rank": 66,
+  "Rank": 783,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 581
     }
   }
 }

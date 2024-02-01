@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 562,
-  "Name": "Robel Inc and Sons",
-  "Tooltip": "mollitia",
+  "HeadingId": 149,
+  "Name": "Labadie Group",
+  "Tooltip": "distinctio",
   "Deleted": true,
-  "Rank": 528,
-  "UdListDefinitionId": 651
+  "Rank": 157,
+  "UdListDefinitionId": 307
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 174,
-  "Name": "Kunde, Bergnaum and Breitenberg",
-  "Tooltip": "recusandae",
-  "Deleted": true,
-  "Rank": 341,
-  "UdListDefinitionId": 13,
+  "HeadingId": 792,
+  "Name": "Erdman-O'Hara",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 770,
+  "UdListDefinitionId": 634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   }
 }

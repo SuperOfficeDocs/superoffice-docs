@@ -76,6 +76,7 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
+| NeverReloadOnCurrentChange | bool | If set to true, the content will not reload on current changes, only applies to sidepanels |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,33 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 653,
-    "Name": "Thompson, Pfannerstill and Barrows",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 369,
+    "WebPanelId": 517,
+    "Name": "Lang, Gerlach and Walsh",
+    "Tooltip": "laborum",
+    "Deleted": false,
+    "Rank": 912,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
+    "OnCentral": true,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Kuvalis-Bashirian",
+    "WindowName": "Rutherford, Stokes and Nienow",
     "Url": "http://www.example.com/",
-    "ProgId": "quidem",
-    "Icon": 247,
+    "ProgId": "quia",
+    "Icon": 478,
     "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldType": "System.Int32",
+        "FieldLength": 65
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 764,
-      "ContactName": "O'Kon, Volkman and Bergstrom",
-      "PersonId": 492,
-      "PersonName": "Cole LLC",
-      "AssociateId": 705,
-      "Address": "vel",
-      "EmailId": 561,
+      "ContactId": 469,
+      "ContactName": "Robel Group",
+      "PersonId": 530,
+      "PersonName": "Wilderman Group",
+      "AssociateId": 156,
+      "Address": "quisquam",
+      "EmailId": 937,
       "DuplicatePersonIds": [
-        549,
-        976
+        978,
+        291
       ],
-      "Name": "Spinka LLC",
+      "Name": "Abbott, Dibbert and Borer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 80
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 117,
-      "ContactName": "Kunde Inc and Sons",
-      "PersonId": 657,
-      "PersonName": "Wiza Inc and Sons",
-      "AssociateId": 786,
-      "Address": "tempore",
-      "EmailId": 414,
+      "ContactId": 682,
+      "ContactName": "Stiedemann-Fadel",
+      "PersonId": 768,
+      "PersonName": "Kilback, Bechtelar and Franecki",
+      "AssociateId": 350,
+      "Address": "at",
+      "EmailId": 889,
       "DuplicatePersonIds": [
-        527,
-        569
+        572,
+        686
       ],
-      "Name": "D'Amore-Batz",
+      "Name": "Padberg-Schuster",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 350
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 600,
-      "ContactName": "Farrell LLC",
-      "PersonId": 28,
-      "PersonName": "Reynolds, Towne and Harber",
-      "AssociateId": 325,
-      "Address": "rem",
-      "EmailId": 536,
+      "ContactId": 599,
+      "ContactName": "Waters, Botsford and Ondricka",
+      "PersonId": 299,
+      "PersonName": "Jerde-Sporer",
+      "AssociateId": 692,
+      "Address": "aut",
+      "EmailId": 331,
       "DuplicatePersonIds": [
-        258,
-        610
+        642,
+        227
       ],
-      "Name": "Wolf-Leannon",
+      "Name": "Gutkowski LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 765
         }
       }
     }
   ],
-  "Subject": "dolores",
-  "HTMLBody": "dolor",
+  "Subject": "minus",
+  "HTMLBody": "reiciendis",
   "From": null,
-  "Sent": "2014-04-22T13:57:12.246749+02:00",
-  "Size": 23,
+  "Sent": "2000-08-27T23:03:55.8931296+02:00",
+  "Size": 224,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "voluptas",
+  "MessageID": "qui",
+  "PlainBody": "vitae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 468,
+  "ServerId": 489,
   "Attachments": [
     {
-      "Description": "Organized heuristic hardware",
-      "Filename": "et",
-      "Size": 554,
-      "Type": "sed",
-      "Encoding": "deleniti",
-      "Id": "voluptates",
-      "Disposition": "rerum",
+      "Description": "Universal needs-based help-desk",
+      "Filename": "quos",
+      "Size": 630,
+      "Type": "perspiciatis",
+      "Encoding": "expedita",
+      "Id": "aspernatur",
+      "Disposition": "vel",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldLength": 887
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Thiel Inc and Sons",
+      "Name": "Feeney LLC",
       "Values": [
-        "maxime",
-        "eveniet"
+        "necessitatibus",
+        "quidem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     },
     {
-      "Name": "Thiel Inc and Sons",
+      "Name": "Feeney LLC",
       "Values": [
-        "maxime",
-        "eveniet"
+        "necessitatibus",
+        "quidem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
   ],
-  "FolderName": "Roberts Group",
-  "EmailItemId": 576,
-  "AccountId": 847,
-  "ReceivedAt": "2022-11-01T13:57:12.246749+01:00",
+  "FolderName": "Pouros Group",
+  "EmailItemId": 403,
+  "AccountId": 119,
+  "ReceivedAt": "2002-05-26T23:03:55.8936303+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-06-03T13:57:12.246749+02:00",
+  "RepliedAt": "1996-11-03T23:03:55.8936303+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 79
     }
   }
 }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Huel, Gerhold and Powlowski",
-    "ToolTip": "Fuga enim exercitationem aut dolor at fugit.",
-    "Deleted": true,
-    "Rank": 288,
-    "Type": "fuga",
-    "ColorBlock": 970,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "1998-04-23T13:57:19.5940221+02:00",
+    "Id": 533,
+    "Name": "Kulas-Price",
+    "ToolTip": "Excepturi sapiente consectetur et aut unde sapiente.",
+    "Deleted": false,
+    "Rank": 165,
+    "Type": "assumenda",
+    "ColorBlock": 554,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2006-07-22T23:04:05.2545027+02:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Stoltenberg, Rosenbaum and Swift",
-        "ToolTip": "Consequatur error eum error quas alias.",
+        "Id": 388,
+        "Name": "Stamm LLC",
+        "ToolTip": "Nemo totam numquam ea assumenda quidem.",
         "Deleted": false,
-        "Rank": 536,
-        "Type": "quis",
-        "ColorBlock": 375,
-        "IconHint": "repellat",
+        "Rank": 270,
+        "Type": "laudantium",
+        "ColorBlock": 914,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2001-02-18T13:57:19.5940221+01:00",
+        "LastChanged": "2023-06-28T23:04:05.2545027+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Fernando Hagenes"
+        "ExtraInfo": "non",
+        "StyleHint": "cum",
+        "Hidden": true,
+        "FullName": "Friedrich Batz"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Piper McClure"
+    "ExtraInfo": "magni",
+    "StyleHint": "nisi",
+    "Hidden": false,
+    "FullName": "Prof. Brisa Craig Dach"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Schuster-Berge",
-    "ToolTip": "Iure vel quia quisquam repellat.",
-    "Deleted": false,
-    "Rank": 456,
-    "Type": "perferendis",
-    "ColorBlock": 732,
-    "IconHint": "fuga",
-    "Selected": true,
-    "LastChanged": "2019-08-26T13:57:19.5940221+02:00",
+    "Id": 683,
+    "Name": "Hirthe Group",
+    "ToolTip": "Quidem voluptatem sunt laudantium culpa dolor.",
+    "Deleted": true,
+    "Rank": 279,
+    "Type": "aliquid",
+    "ColorBlock": 832,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2015-08-17T23:04:05.2570027+02:00",
     "ChildItems": [
       {
-        "Id": 263,
-        "Name": "Hermann LLC",
-        "ToolTip": "Architecto illum maiores dolorum.",
-        "Deleted": false,
-        "Rank": 632,
-        "Type": "consequatur",
-        "ColorBlock": 121,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2016-10-01T13:57:19.5940221+02:00",
+        "Id": 883,
+        "Name": "Walsh, Gerhold and Hettinger",
+        "ToolTip": "Cum nesciunt.",
+        "Deleted": true,
+        "Rank": 516,
+        "Type": "minima",
+        "ColorBlock": 400,
+        "IconHint": "veritatis",
+        "Selected": true,
+        "LastChanged": "2014-03-04T23:04:05.2570027+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Kara Littel",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "error",
+        "Hidden": true,
+        "FullName": "Priscilla Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 739
+            "FieldType": "System.Int32",
+            "FieldLength": 734
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Ms. Shania Melisa Barton",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Mr. Esta Kshlerin I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 165
       }
     }
   }

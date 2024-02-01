@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=nisi
-GET /api/v1/Sale?$top=515
-GET /api/v1/Sale?$skip=520
+GET /api/v1/Sale?$entities=quidem
+GET /api/v1/Sale?$top=112
+GET /api/v1/Sale?$skip=666
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=voluptas
+GET /api/v1/Sale?$context=recusandae
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "fugiat",
+  "odata.nextLink": "repudiandae",
   "value": [
     {
-      "PrimaryKey": 1355,
+      "PrimaryKey": 3544,
       "EntityName": "person",
-      "personId": 1355,
-      "fullName": "Harley Zulauf"
+      "personId": 3544,
+      "fullName": "Alexander McCullough"
     },
     {
-      "PrimaryKey": 6196,
+      "PrimaryKey": 891,
       "EntityName": "person",
-      "personId": 6196,
-      "fullName": "Miss Mylene Willy Fadel"
+      "personId": 891,
+      "fullName": "Miss Xzavier Kirlin"
     }
   ]
 }

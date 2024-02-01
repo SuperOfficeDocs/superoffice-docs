@@ -65,7 +65,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 487,
-    "Name": "Herman-Kutch",
-    "ContentType": "aut",
-    "AttSize": 187,
+    "AttachmentId": 266,
+    "Name": "Stanton LLC",
+    "ContentType": "expedita",
+    "AttSize": 317,
     "InlineImage": true,
-    "ContentId": "beatae",
-    "AuthKey": "recusandae",
+    "ContentId": "ut",
+    "AuthKey": "labore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldLength": 823
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 391,
-    "Name": "Kris-Herzog",
-    "ConsentText": "consequatur",
-    "FormText": "provident",
-    "Key": "ea",
-    "Tooltip": "et",
-    "Active": 606,
-    "UpdatedDate": "2005-09-18T13:57:19.6565553+02:00",
+    "ConsentPurposeId": 426,
+    "Name": "Crooks Inc and Sons",
+    "ConsentText": "ipsa",
+    "FormText": "sunt",
+    "Key": "officia",
+    "Tooltip": "non",
+    "Active": 471,
+    "UpdatedDate": "2023-11-14T23:04:05.3445013+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 656,
-    "PrivacyStatementDesc": "quibusdam",
+    "Rank": 652,
+    "PrivacyStatementDesc": "inventore",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 633
+        "FieldLength": 269
       }
     }
   }

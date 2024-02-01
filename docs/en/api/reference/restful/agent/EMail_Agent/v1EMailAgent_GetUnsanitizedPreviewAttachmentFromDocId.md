@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 693,
-  "AttachmentId": "quibusdam"
+  "DocId": 918,
+  "AttachmentId": "at"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured bandwidth-monitored customer loyalty",
-  "Filename": "officiis",
-  "Size": 499,
-  "Type": "hic",
-  "Encoding": "consequuntur",
-  "Id": "odit",
-  "Disposition": "ut",
+  "Description": "Assimilated discrete portal",
+  "Filename": "qui",
+  "Size": 42,
+  "Type": "qui",
+  "Encoding": "facere",
+  "Id": "quo",
+  "Disposition": "fugit",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

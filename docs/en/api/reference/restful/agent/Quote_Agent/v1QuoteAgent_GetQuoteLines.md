@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 297
+  "QuoteAlternativeId": 229
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 877,
-    "ERPQuoteLineKey": "voluptas",
-    "QuoteAlternativeId": 1002,
-    "ERPProductKey": "consequatur",
+    "QuoteLineId": 488,
+    "ERPQuoteLineKey": "ipsa",
+    "QuoteAlternativeId": 181,
+    "ERPProductKey": "maiores",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 25871.17,
-    "DeliveredQuantity": 21511.775999999998,
-    "Rank": 218,
-    "Name": "Rosenbaum-Weber",
-    "Description": "Up-sized human-resource approach",
-    "Code": "qui",
-    "QuantityUnit": "rerum",
-    "PriceUnit": "praesentium",
-    "ItemNumber": "1518563",
+    "Quantity": 3920.634,
+    "DeliveredQuantity": 29666.444,
+    "Rank": 394,
+    "Name": "Streich Inc and Sons",
+    "Description": "Inverse holistic flexibility",
+    "Code": "alias",
+    "QuantityUnit": "qui",
+    "PriceUnit": "mollitia",
+    "ItemNumber": "1181581",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "quis",
-    "ProductTypeKey": "consequatur",
-    "Supplier": "consequatur",
-    "SupplierCode": "eum",
-    "Thumbnail": "nostrum",
-    "VATInfo": "magni",
-    "VAT": 30625.448,
-    "UnitCost": 20173.558,
-    "UnitMinimumPrice": 20888.11,
-    "UnitListPrice": 16252.923999999999,
+    "ProductFamilyKey": "eius",
+    "ProductTypeKey": "natus",
+    "Supplier": "neque",
+    "SupplierCode": "ullam",
+    "Thumbnail": "repudiandae",
+    "VATInfo": "facilis",
+    "VAT": 20019.992,
+    "UnitCost": 19176.946,
+    "UnitMinimumPrice": 23056.838,
+    "UnitListPrice": 13802.136,
     "ExtraInfo": [
       {
-        "Name": "Howe-Ledner",
-        "Value": "ratione",
+        "Name": "Kling Inc and Sons",
+        "Value": "minima",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 876
+            "FieldLength": 899
           }
         }
       },
       {
-        "Name": "Howe-Ledner",
-        "Value": "ratione",
+        "Name": "Kling Inc and Sons",
+        "Value": "minima",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 876
+            "FieldLength": 899
           }
         }
       }
     ],
-    "RawExtraInfo": "eaque",
-    "IsSubscription": false,
-    "SubscriptionUnit": "quasi",
-    "SubscriptionQuantity": 23216.672,
-    "SubscriptionStart": "1998-12-01T13:57:13.0805627+01:00",
-    "ERPDiscountPercent": 843.04599999999994,
-    "ERPDiscountAmount": 15701.34,
-    "DiscountPercent": 5970.2699999999995,
-    "DiscountAmount": 11711.758,
+    "RawExtraInfo": "repellat",
+    "IsSubscription": true,
+    "SubscriptionUnit": "inventore",
+    "SubscriptionQuantity": 21311.2,
+    "SubscriptionStart": "1998-04-11T23:03:56.8071247+02:00",
+    "ERPDiscountPercent": 11420.296,
+    "ERPDiscountAmount": 9179.485999999999,
+    "DiscountPercent": 25679.996,
+    "DiscountAmount": 18615.96,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 24564.291999999998,
-    "EarningAmount": 12373.032,
-    "SubTotal": 25717.604,
-    "TotalPrice": 27563.53,
-    "Rights": "vero",
-    "Rule": "at",
-    "ExtraField1": "consequatur",
-    "ExtraField2": "exercitationem",
-    "ExtraField3": "nam",
-    "ExtraField4": "accusamus",
-    "ExtraField5": "a",
+    "EarningPercent": 17246.402,
+    "EarningAmount": 10364.137999999999,
+    "SubTotal": 11191.514,
+    "TotalPrice": 9132.476,
+    "Rights": "est",
+    "Rule": "alias",
+    "ExtraField1": "provident",
+    "ExtraField2": "nam",
+    "ExtraField3": "in",
+    "ExtraField4": "eligendi",
+    "ExtraField5": "dolores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldType": "System.Int32",
+        "FieldLength": 306
       }
     }
   }

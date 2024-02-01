@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 897,
+  "ErpConnectionId": 435,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 45,
+  "ErpConnectionId": 748,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 417,
-      "CrmFieldKey": "eveniet",
-      "CrmDisplayName": "Romaguera LLC",
-      "CrmDisplayTooltip": "corporis",
-      "ErpFieldKey": "aut",
+      "ErpFieldId": 923,
+      "CrmFieldKey": "ut",
+      "CrmDisplayName": "Bailey, Bergnaum and Kirlin",
+      "CrmDisplayTooltip": "voluptas",
+      "ErpFieldKey": "sunt",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Kunde-Cassin",
-      "ErpDisplayTooltip": "maxime",
-      "SyncToCrm": true,
-      "SyncToErp": true,
+      "ErpDisplayName": "Schultz Inc and Sons",
+      "ErpDisplayTooltip": "autem",
+      "SyncToCrm": false,
+      "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": true,
-      "AlreadyMapped": true,
-      "MissingInERP": true,
-      "MissingInCRM": true,
+      "AlreadyMapped": false,
+      "MissingInERP": false,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "inventore",
+      "ListReference": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 940
+          "FieldType": "System.Int32",
+          "FieldLength": 901
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldType": "System.Int32",
+      "FieldLength": 42
     }
   }
 }

@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=259
+GET /api/v1/Contact/{contactId}/Summary?limit=46
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 208,
-      "TicketStatus": 962,
-      "Title": "quae",
-      "Registered": "2000-09-11T13:57:18.6534365+02:00",
-      "IconHint": "eligendi"
+      "TicketId": 27,
+      "TicketStatus": 166,
+      "Title": "quasi",
+      "Registered": "2006-10-18T23:04:04.0219892+02:00",
+      "IconHint": "dolores"
     },
     {
-      "TicketId": 208,
-      "TicketStatus": 962,
-      "Title": "quae",
-      "Registered": "2000-09-11T13:57:18.6534365+02:00",
-      "IconHint": "eligendi"
+      "TicketId": 27,
+      "TicketStatus": 166,
+      "Title": "quasi",
+      "Registered": "2006-10-18T23:04:04.0219892+02:00",
+      "IconHint": "dolores"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 834,
-      "DocumentId": 733,
-      "Date": "2011-11-25T13:57:18.6534365+01:00",
-      "Description": "Balanced background installation",
+      "AppointmentId": 651,
+      "DocumentId": 562,
+      "Date": "2015-08-22T23:04:04.0219892+02:00",
+      "Description": "Quality-focused asynchronous parallelism",
       "Completed": "Completed",
-      "Registered": "2017-08-14T13:57:18.6534365+02:00"
+      "Registered": "2001-11-05T23:04:04.0219892+01:00"
     },
     {
-      "AppointmentId": 834,
-      "DocumentId": 733,
-      "Date": "2011-11-25T13:57:18.6534365+01:00",
-      "Description": "Balanced background installation",
+      "AppointmentId": 651,
+      "DocumentId": 562,
+      "Date": "2015-08-22T23:04:04.0219892+02:00",
+      "Description": "Quality-focused asynchronous parallelism",
       "Completed": "Completed",
-      "Registered": "2017-08-14T13:57:18.6534365+02:00"
+      "Registered": "2001-11-05T23:04:04.0219892+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 261,
-      "DocumentId": 917,
-      "Date": "2021-06-14T13:57:18.6534365+02:00",
-      "Description": "Virtual 4th generation ability",
+      "AppointmentId": 538,
+      "DocumentId": 661,
+      "Date": "2000-05-13T23:04:04.0219892+02:00",
+      "Description": "Extended hybrid system engine",
       "Completed": "Completed",
-      "Registered": "2015-04-21T13:57:18.6534365+02:00"
+      "Registered": "2013-08-20T23:04:04.0219892+02:00"
     },
     {
-      "AppointmentId": 261,
-      "DocumentId": 917,
-      "Date": "2021-06-14T13:57:18.6534365+02:00",
-      "Description": "Virtual 4th generation ability",
+      "AppointmentId": 538,
+      "DocumentId": 661,
+      "Date": "2000-05-13T23:04:04.0219892+02:00",
+      "Description": "Extended hybrid system engine",
       "Completed": "Completed",
-      "Registered": "2015-04-21T13:57:18.6534365+02:00"
+      "Registered": "2013-08-20T23:04:04.0219892+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 239,
-      "SaleDate": "2011-09-14T13:57:18.6534365+02:00",
-      "Probability": 978,
-      "Heading": "cumque",
-      "Amount": 26949.266,
-      "Currency": "a",
-      "AmountInBaseCurrency": 16393.953999999998,
+      "SaleId": 705,
+      "SaleDate": "2004-04-03T23:04:04.0219892+02:00",
+      "Probability": 421,
+      "Heading": "est",
+      "Amount": 2453.922,
+      "Currency": "eum",
+      "AmountInBaseCurrency": 27237.593999999997,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2008-11-10T13:57:18.6534365+01:00"
+      "Registered": "2018-08-21T23:04:04.0219892+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 727,
-      "Name": "Schneider-Friesen",
-      "CompanyName": "Lakin-Schiller",
-      "FirstMessage": "deserunt",
-      "LastMessage": "quam",
-      "WhenRequested": "2007-04-07T13:57:18.6534365+02:00",
-      "WhenEnded": "2010-03-28T13:57:18.6534365+02:00"
+      "ChatSessionId": 181,
+      "Name": "Hansen LLC",
+      "CompanyName": "Haag-Cummerata",
+      "FirstMessage": "perspiciatis",
+      "LastMessage": "molestiae",
+      "WhenRequested": "1998-11-12T23:04:04.0219892+01:00",
+      "WhenEnded": "2000-11-09T23:04:04.0219892+01:00"
     }
   ]
 }

@@ -70,9 +70,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Romaguera-Mann",
-  "RecordId": 23,
-  "AssociateId": 104
+  "TableName": "Breitenberg Inc and Sons",
+  "RecordId": 314,
+  "AssociateId": 861
 }
 ```
 

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 125,
-    "Name": "O'Connell-Strosin",
-    "ToolTip": "Natus sapiente et.",
+    "Id": 482,
+    "Name": "Barrows Inc and Sons",
+    "ToolTip": "Quae quos dolor exercitationem esse dolorem est sed.",
     "Deleted": false,
-    "Rank": 524,
-    "Type": "minima",
-    "ColorBlock": 897,
-    "IconHint": "provident",
+    "Rank": 640,
+    "Type": "vitae",
+    "ColorBlock": 835,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "2023-04-25T13:57:19.9377991+02:00",
+    "LastChanged": "2019-12-26T23:04:05.7004973+01:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Russel LLC",
-        "ToolTip": "Et ex.",
-        "Deleted": true,
-        "Rank": 807,
-        "Type": "non",
-        "ColorBlock": 458,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2014-11-23T13:57:19.9377991+01:00",
+        "Id": 528,
+        "Name": "Feeney Inc and Sons",
+        "ToolTip": "Vitae eum dolore voluptate.",
+        "Deleted": false,
+        "Rank": 633,
+        "Type": "rerum",
+        "ColorBlock": 633,
+        "IconHint": "minima",
+        "Selected": false,
+        "LastChanged": "2013-06-29T23:04:05.7014973+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "maiores",
-        "Hidden": true,
-        "FullName": "Leilani Bogan"
+        "ExtraInfo": "quidem",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Maynard Gorczany"
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "sint",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Gretchen Zora Harvey I"
+    "FullName": "Carolanne Mante"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Feest, Luettgen and Barton",
-    "ToolTip": "Commodi cum explicabo molestias aut odio.",
+    "Id": 963,
+    "Name": "Wintheiser Inc and Sons",
+    "ToolTip": "Officia cum quas.",
     "Deleted": false,
-    "Rank": 195,
-    "Type": "et",
-    "ColorBlock": 439,
-    "IconHint": "officia",
+    "Rank": 270,
+    "Type": "autem",
+    "ColorBlock": 738,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2007-10-24T13:57:19.9377991+02:00",
+    "LastChanged": "1999-05-07T23:04:05.7024978+02:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Mosciski-Monahan",
-        "ToolTip": "Fugiat labore laudantium architecto voluptate.",
+        "Id": 184,
+        "Name": "Hackett LLC",
+        "ToolTip": "In sint.",
         "Deleted": false,
-        "Rank": 269,
-        "Type": "sunt",
-        "ColorBlock": 324,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2000-05-27T13:57:19.9377991+02:00",
+        "Rank": 712,
+        "Type": "temporibus",
+        "ColorBlock": 114,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "2007-01-02T23:04:05.7029971+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Lavina Ford Rice II",
+        "FullName": "Prof. Marcelo Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 531
+            "FieldLength": 718
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Lucile Goldner",
+    "ExtraInfo": "id",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Mrs. Emil Tromp III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 774
       }
     }
   }

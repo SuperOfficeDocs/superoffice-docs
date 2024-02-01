@@ -134,6 +134,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [externaldocuments](externaldocuments.md)
 * [ExternalPersons](ExternalPersons.md)
 * [ExternalUsers](ExternalUsers.md)
+* [ExtraTable](ExtraTable.md)
 * [Favourites](Favourites.md)
 * [FavouriteTickets](FavouriteTickets.md)
 * [FindAppointment](FindAppointment.md)

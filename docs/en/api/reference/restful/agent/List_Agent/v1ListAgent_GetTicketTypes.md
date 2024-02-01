@@ -55,9 +55,18 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The List Item Id |
-| Value | string | The List Item Value |
-| Tooltip | string | The List Item Tooltip |
+| TicketTypeId | int32 | Primary key |
+| Name | string | The list item |
+| Rank | int32 | Rank order |
+| Tooltip | string | Tooltip or other description |
+| Icon | string | Name of the icon |
+| DefaultTicketStatus | int32 | Default ticket status for new tickets |
+| TicketStatuses | array | Relevant/available ticket statuses for this Request type. Empty field means all statuses are available. |
+| DefaultTicketPriority | int32 | Default ticket priority for new tickets |
+| TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
+| ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -78,28 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Value": "aut",
-    "Tooltip": "odit",
+    "TicketTypeId": 8,
+    "Name": "Mante LLC",
+    "Rank": 359,
+    "Tooltip": "aspernatur",
+    "Icon": "aperiam",
+    "DefaultTicketStatus": 670,
+    "TicketStatuses": [
+      332,
+      849
+    ],
+    "DefaultTicketPriority": 590,
+    "TicketPriorities": [
+      737,
+      323
+    ],
+    "ReplyTemplate": 118,
+    "IsExternalVisible": false,
+    "IsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
-      }
-    }
-  },
-  {
-    "Id": 75,
-    "Value": "aut",
-    "Tooltip": "odit",
-    "TableRight": null,
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 992
       }
     }
   }

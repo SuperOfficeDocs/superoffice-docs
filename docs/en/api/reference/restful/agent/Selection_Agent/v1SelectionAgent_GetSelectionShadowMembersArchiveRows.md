@@ -84,8 +84,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 456,
-  "Select": "consequatur"
+  "SelectionId": 957,
+  "Select": "distinctio"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Emard-Dibbert",
-    "PrimaryKey": 197,
+    "EntityName": "Paucek-Berge",
+    "PrimaryKey": 100,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "debitis",
-        "TooltipHint": "officiis",
-        "LinkHint": "aliquid"
+        "DisplayValue": "accusamus",
+        "TooltipHint": "neque",
+        "LinkHint": "possimus"
       }
     },
-    "LinkHint": "sequi",
-    "StyleHint": "quia",
+    "LinkHint": "illo",
+    "StyleHint": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 830
+        "FieldType": "System.String",
+        "FieldLength": 41
       }
     }
   }

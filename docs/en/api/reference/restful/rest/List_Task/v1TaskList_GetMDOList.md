@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=aut
+GET /api/v1/List/Task/MDOItems?query=ea
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Sanford-Jenkins",
-    "ToolTip": "Saepe dolor veritatis.",
+    "Id": 984,
+    "Name": "Zboncak-Eichmann",
+    "ToolTip": "Rerum dolor.",
     "Deleted": false,
-    "Rank": 429,
-    "Type": "dolor",
+    "Rank": 823,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Hettinger Inc and Sons",
-        "ToolTip": "Modi quo.",
-        "Deleted": true,
-        "Rank": 807,
-        "Type": "qui",
+        "Id": 55,
+        "Name": "Friesen Group",
+        "ToolTip": "Voluptate natus incidunt cupiditate id assumenda animi unde.",
+        "Deleted": false,
+        "Rank": 38,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 130,
-        "ExtraInfo": "quasi",
-        "StyleHint": "similique",
-        "FullName": "Thaddeus Schmeler",
+        "IconHint": "quia",
+        "ColorBlock": 289,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "beatae",
+        "FullName": "Samanta Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldLength": 295
           }
         }
       }
     ],
-    "IconHint": "culpa",
-    "ColorBlock": 664,
-    "ExtraInfo": "fugit",
-    "StyleHint": "atque",
-    "FullName": "Miss Sylvan Senger MD",
+    "IconHint": "illo",
+    "ColorBlock": 23,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "consequatur",
+    "FullName": "Mario Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

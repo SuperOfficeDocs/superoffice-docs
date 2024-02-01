@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 173,
-  "Section": "et",
-  "Key": "sint",
-  "Name": "Carroll-Pollich",
+  "PrefDescId": 797,
+  "Section": "quaerat",
+  "Key": "in",
+  "Name": "Reilly, Wyman and Roob",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persistent empowering contingency",
-  "IsBuiltin": true,
-  "TableName": "Koss, Grant and Hessel",
-  "UserDefinedListId": 276,
-  "Rank": 716,
-  "SubGroup": "molestiae",
-  "MinLevel": 904,
-  "MaxValue": 878,
-  "MinValue": 222,
-  "RequiredLicense": "qui",
+  "Description": "Realigned zero tolerance project",
+  "IsBuiltin": false,
+  "TableName": "Rowe, Ritchie and Bernhard",
+  "UserDefinedListId": 129,
+  "Rank": 752,
+  "SubGroup": "quam",
+  "MinLevel": 801,
+  "MaxValue": 34,
+  "MinValue": 532,
+  "RequiredLicense": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldType": "System.Int32",
+      "FieldLength": 910
     }
   }
 }

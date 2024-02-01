@@ -73,36 +73,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 231,
-  "LabelLayoutId": 142,
-  "Filename": "recusandae",
-  "Language": "sint",
-  "FileType": "sequi",
+  "ReportId": 59,
+  "LabelLayoutId": 572,
+  "Filename": "cumque",
+  "Language": "praesentium",
+  "FileType": "ut",
   "Restrictions": [
     {
-      "Name": "Powlowski, Anderson and Botsford",
-      "Operator": "tempora",
+      "Name": "Tillman, Conroy and Waters",
+      "Operator": "autem",
       "Values": [
-        "blanditiis",
-        "magni"
+        "et",
+        "et"
       ],
       "DisplayValues": [
-        "voluptas",
-        "animi"
+        "quo",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 765,
+      "InterParenthesis": 984,
       "InterOperator": "And",
-      "UniqueHash": 779
+      "UniqueHash": 711
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nesciunt"
+"et"
 ```

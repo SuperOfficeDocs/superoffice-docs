@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Adams-Medhurst",
-    "ToolTip": "Autem tempora aspernatur corrupti ut sequi occaecati laborum.",
-    "Deleted": true,
-    "Rank": 716,
-    "Type": "laboriosam",
-    "ColorBlock": 4,
-    "IconHint": "recusandae",
+    "Id": 470,
+    "Name": "Christiansen, Schinner and Barrows",
+    "ToolTip": "Voluptates sint reiciendis enim aut.",
+    "Deleted": false,
+    "Rank": 526,
+    "Type": "quis",
+    "ColorBlock": 993,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2023-10-10T13:57:20.1265357+02:00",
+    "LastChanged": "2012-12-27T23:04:05.8174947+01:00",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Brekke-Jones",
-        "ToolTip": "Sed tempora et quasi.",
+        "Id": 683,
+        "Name": "Schmidt Inc and Sons",
+        "ToolTip": "Ut id illum iste voluptatem est.",
         "Deleted": false,
-        "Rank": 309,
-        "Type": "nisi",
-        "ColorBlock": 174,
-        "IconHint": "eligendi",
+        "Rank": 390,
+        "Type": "sequi",
+        "ColorBlock": 223,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2011-06-23T13:57:20.1265357+02:00",
+        "LastChanged": "1998-01-25T23:04:05.8174947+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "provident",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Catalina Nolan",
+        "FullName": "Ms. Else Funk MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 999
+            "FieldLength": 807
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "aut",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Elnora Emard",
+    "FullName": "Kennedi Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 335
       }
     }
   }

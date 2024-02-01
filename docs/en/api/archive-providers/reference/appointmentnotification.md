@@ -20,6 +20,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |"appointmentCancelled"|Appointment|
 |"appointmentAccepted"|Appointment|
 |"appointmentRejected"|Appointment|
+|"appointmentRejectedByAssociate"|Appointment|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -47,7 +48,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotification?$select=isRecurring,title,endDateTime
+GET /api/v1/archive/AppointmentNotification?$select=title,endDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

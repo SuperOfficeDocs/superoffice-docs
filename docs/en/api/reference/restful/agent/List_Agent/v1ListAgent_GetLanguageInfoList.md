@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 313,
-    "LCID": 496,
-    "EnglishName": "O'Connell Inc and Sons",
-    "NativeName": "Pouros Inc and Sons",
-    "ThreeLetterISOLanguageName": "Trantow Group",
-    "TwoLetterISOLanguageName": "Kuhlman, Williamson and Kuhic",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 278,
+    "LCID": 488,
+    "EnglishName": "Wolff Group",
+    "NativeName": "Eichmann LLC",
+    "ThreeLetterISOLanguageName": "Fritsch-Abshire",
+    "TwoLetterISOLanguageName": "Leannon, Mueller and Brakus",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldType": "System.Int32",
+        "FieldLength": 40
       }
     }
   }

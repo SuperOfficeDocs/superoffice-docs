@@ -133,18 +133,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "architecto",
     "value": {}
   },
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "architecto",
     "value": {}
   }
 ]
@@ -157,28 +157,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 66,
+  "EjMessageId": 260,
   "Ticket": null,
-  "CreatedAt": "2005-12-30T13:57:19.4065594+01:00",
+  "CreatedAt": "2005-11-08T23:04:04.9835079+01:00",
   "CreatedBy": null,
-  "Author": "consequuntur",
+  "Author": "porro",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 420,
-  "Body": "aliquid",
-  "HtmlBody": "ipsum",
-  "EmailHeader": "taylor@stracke.com",
-  "DebugInfo": "et",
-  "MailSorter": "veritatis",
+  "MessageId": "molestias",
+  "TimeSpent": 991,
+  "Body": "laboriosam",
+  "HtmlBody": "non",
+  "EmailHeader": "zoe@vandervort.com",
+  "DebugInfo": "accusantium",
+  "MailSorter": "eaque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "blanditiis",
+  "SearchTitle": "illum",
   "MessageHeaders": [
     {
-      "Id": 598,
-      "Name": "Schaden-Schumm",
-      "Value": "dolor",
+      "Id": 654,
+      "Name": "O'Connell-Weissnat",
+      "Value": "quia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -186,54 +186,54 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 811
         }
       }
     }
   ],
-  "Important": false,
+  "Important": true,
   "Language": "quis",
-  "Sentiment": 320,
-  "SentimentConfidence": 136,
+  "Sentiment": 7,
+  "SentimentConfidence": 287,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 97,
-      "Name": "Raynor, Will and Fisher",
-      "ContentType": "expedita",
-      "AttSize": 438,
+      "AttachmentId": 493,
+      "Name": "Von Inc and Sons",
+      "ContentType": "eos",
+      "AttSize": 494,
       "InlineImage": false,
-      "ContentId": "facilis",
-      "AuthKey": "natus",
+      "ContentId": "enim",
+      "AuthKey": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 317
+          "FieldType": "System.Int32",
+          "FieldLength": 486
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "est"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "ex"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 542
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

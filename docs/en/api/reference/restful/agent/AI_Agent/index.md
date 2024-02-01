@@ -26,6 +26,10 @@ generated: true
 
 * [POST Agents/AI/GetChatbotPromptSuggestions](v1AIAgent_GetChatbotPromptSuggestions.md)
 
+* [POST Agents/AI/GetChatbotTurns](v1AIAgent_GetChatbotTurns.md)
+
+* [POST Agents/AI/ClearChatbotTurns](v1AIAgent_ClearChatbotTurns.md)
+
 * [POST Agents/AI/DetectLanguage](v1AIAgent_DetectLanguage.md)
 
 * [POST Agents/AI/DetectSentiment](v1AIAgent_DetectSentiment.md)

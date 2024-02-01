@@ -25,7 +25,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=True
+GET /api/v1/List/Credited/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Goyette, Okuneva and Bartoletti",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "UdListDefinitionId": 808,
-    "Rank": 417,
+    "Id": 498,
+    "Name": "Carroll-Lang",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 399,
+    "Rank": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldType": "System.String",
+        "FieldLength": 992
       }
     }
   }

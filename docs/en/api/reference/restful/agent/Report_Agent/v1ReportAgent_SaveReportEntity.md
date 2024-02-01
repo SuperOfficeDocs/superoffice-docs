@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 203,
+  "ReportId": 72,
   "ReportCategory": "All",
-  "Description": "Exclusive client-server data-warehouse",
+  "Description": "Innovative user-facing circuit",
   "ReportLayout": "CalendarMonth",
-  "Name": "Rolfson, Schoen and O'Connell",
-  "AssociateId": 301,
-  "TemplateId": 182,
+  "Name": "Huel-Thiel",
+  "AssociateId": 473,
+  "TemplateId": 740,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 888,
+  "ReportId": 405,
   "ReportCategory": "All",
-  "Description": "Reduced 24 hour circuit",
+  "Description": "Synchronised radical open architecture",
   "ReportLayout": "CalendarMonth",
-  "Name": "Farrell Group",
-  "AssociateId": 519,
-  "TemplateId": 110,
+  "Name": "Weimann, Marks and Barrows",
+  "AssociateId": 394,
+  "TemplateId": 516,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 443
     }
   }
 }

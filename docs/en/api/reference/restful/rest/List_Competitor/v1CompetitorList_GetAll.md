@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Name": "Marquardt-Howell",
-    "Tooltip": "ex",
-    "Deleted": true,
-    "UdListDefinitionId": 411,
-    "Rank": 888,
+    "Id": 839,
+    "Name": "Sauer Group",
+    "Tooltip": "aliquam",
+    "Deleted": false,
+    "UdListDefinitionId": 733,
+    "Rank": 337,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldLength": 644
       }
     }
   }

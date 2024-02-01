@@ -79,11 +79,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 421,
-  "InstanceLayout": "asperiores",
-  "InstanceName": "Keeling-Turcotte",
-  "CreatedDate": "1998-03-18T13:57:11.5438073+01:00",
-  "UpdatedDate": "2016-08-18T13:57:11.5438073+02:00",
+  "AudienceLayoutId": 636,
+  "InstanceLayout": "dolorem",
+  "InstanceName": "Nolan-Carroll",
+  "CreatedDate": "2011-05-13T23:03:54.9996433+02:00",
+  "UpdatedDate": "2014-12-03T23:03:54.9996433+01:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 858,
-  "InstanceLayout": "consectetur",
-  "InstanceName": "Weissnat Group",
-  "CreatedDate": "2008-07-16T13:57:11.5438073+02:00",
-  "UpdatedDate": "2001-02-12T13:57:11.5438073+01:00",
+  "AudienceLayoutId": 321,
+  "InstanceLayout": "maiores",
+  "InstanceName": "Christiansen, Kassulke and Goyette",
+  "CreatedDate": "2014-05-05T23:03:55.0021429+02:00",
+  "UpdatedDate": "2009-08-31T23:03:55.0021429+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 441
     }
   }
 }

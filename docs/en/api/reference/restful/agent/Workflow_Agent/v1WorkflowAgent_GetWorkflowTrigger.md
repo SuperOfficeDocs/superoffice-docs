@@ -26,7 +26,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=841
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=833
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 562,
-  "WorkflowId": 996,
+  "WorkflowTriggerId": 744,
+  "WorkflowId": 865,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Zemlak-Konopelski",
-      "Description": "Quality-focused user-facing collaboration",
-      "Rank": 619,
+      "Name": "Dicki-Kertzmann",
+      "Description": "Future-proofed encompassing encoding",
+      "Rank": 618,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Zemlak-Konopelski",
-      "Description": "Quality-focused user-facing collaboration",
-      "Rank": 619,
+      "Name": "Dicki-Kertzmann",
+      "Description": "Future-proofed encompassing encoding",
+      "Rank": 618,
       "Restrictions": [
         {},
         {}
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 202
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   }
 }

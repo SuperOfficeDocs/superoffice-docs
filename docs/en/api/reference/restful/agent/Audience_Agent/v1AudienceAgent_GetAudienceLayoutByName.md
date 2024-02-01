@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Price Group"
+  "LayoutName": "Schultz-Wuckert"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 187,
-  "InstanceLayout": "assumenda",
-  "InstanceName": "Lynch Inc and Sons",
-  "CreatedDate": "2015-03-09T13:57:11.5438073+01:00",
-  "UpdatedDate": "2021-03-31T13:57:11.5438073+02:00",
+  "AudienceLayoutId": 705,
+  "InstanceLayout": "magni",
+  "InstanceName": "Christiansen Inc and Sons",
+  "CreatedDate": "2003-05-17T23:03:55.0106423+02:00",
+  "UpdatedDate": "1998-07-14T23:03:55.0106423+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 589
     }
   }
 }

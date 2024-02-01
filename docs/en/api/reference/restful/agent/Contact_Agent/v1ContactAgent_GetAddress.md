@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 328
+  "ContactId": 270
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 14541.76,
-  "Wgs84Longitude": 13943.166,
+  "Wgs84Latitude": 23370.237999999998,
+  "Wgs84Longitude": 31217.773999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Crooks-Russel",
-        "Value": "voluptatibus",
-        "Tooltip": "quibusdam",
-        "Label": "facilis",
-        "ValueLength": 692,
-        "AddressType": "praesentium",
+        "Name": "Walter-Botsford",
+        "Value": "in",
+        "Tooltip": "distinctio",
+        "Label": "adipisci",
+        "ValueLength": 729,
+        "AddressType": "velit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 186
+            "FieldType": "System.Int32",
+            "FieldLength": 247
           }
         }
       }
     ],
     [
       {
-        "Name": "Legros, Pouros and Beahan",
-        "Value": "accusamus",
-        "Tooltip": "quis",
-        "Label": "doloremque",
-        "ValueLength": 669,
-        "AddressType": "et",
+        "Name": "Blanda, Rath and Thompson",
+        "Value": "possimus",
+        "Tooltip": "rem",
+        "Label": "quas",
+        "ValueLength": 159,
+        "AddressType": "sed",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldLength": 706
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "commodi",
+  "Formatted": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 729
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 814,
-  "ModuleOwner": "vel"
+  "AssociateId": 202,
+  "ModuleOwner": "exercitationem"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 685,
-    "Tooltip": "sunt",
+    "Total": 575,
+    "Tooltip": "magni",
     "CanAssign": false,
-    "Free": 824,
-    "InUse": 295,
+    "Free": 398,
+    "InUse": 66,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 307,
-    "Name": "Muller-Swaniawski",
-    "Description": "Distributed non-volatile service-desk",
-    "PrerequisiteModuleName": "Erdman, Dietrich and Mertz",
-    "SortOrder": 370,
-    "ExtraFlags": 757,
+    "Assigned": true,
+    "ModuleLicenseId": 151,
+    "Name": "Wisoky-Yundt",
+    "Description": "Up-sized well-modulated leverage",
+    "PrerequisiteModuleName": "Donnelly Inc and Sons",
+    "SortOrder": 69,
+    "ExtraFlags": 609,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 756
       }
     }
   }

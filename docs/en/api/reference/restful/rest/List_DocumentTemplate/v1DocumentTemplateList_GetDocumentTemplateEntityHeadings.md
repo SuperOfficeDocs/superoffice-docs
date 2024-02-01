@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 994,
-    "Name": "Streich LLC",
-    "Tooltip": "unde",
+    "HeadingId": 823,
+    "Name": "Ondricka, Beatty and Witting",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 697,
-    "UdListDefinitionId": 672,
+    "Rank": 534,
+    "UdListDefinitionId": 103,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 255
       }
     }
   }

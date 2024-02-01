@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 183
+  "Count": 810
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "eum",
-    "PersonId": 967,
-    "Mrmrs": "earum",
-    "Firstname": "Cordie",
-    "Lastname": "Funk",
-    "MiddleName": "Zieme Inc and Sons",
-    "Title": "cumque",
-    "Description": "Re-engineered zero administration benchmark",
-    "Email": "charity@durgankris.name",
-    "FullName": "Macie Homenick",
-    "DirectPhone": "610.600.1270",
-    "FormalName": "Grimes, Lebsack and Nienow",
-    "CountryId": 853,
-    "ContactId": 504,
-    "ContactName": "Hane LLC",
-    "Retired": 164,
-    "Rank": 478,
-    "ActiveInterests": 19,
+    "Position": "est",
+    "PersonId": 388,
+    "Mrmrs": "minus",
+    "Firstname": "Christian",
+    "Lastname": "Kreiger",
+    "MiddleName": "Ankunding, Tremblay and Dare",
+    "Title": "ipsum",
+    "Description": "Reverse-engineered real-time collaboration",
+    "Email": "monte.ruecker@wyman.biz",
+    "FullName": "Mr. Benedict Marquardt",
+    "DirectPhone": "1-410-993-0541 x61364",
+    "FormalName": "Shields, Wisoky and Paucek",
+    "CountryId": 463,
+    "ContactId": 930,
+    "ContactName": "Buckridge LLC",
+    "Retired": 429,
+    "Rank": 594,
+    "ActiveInterests": 485,
     "ContactDepartment": "",
-    "ContactCountryId": 232,
-    "ContactOrgNr": "1625229",
-    "FaxPhone": "(442)455-2340 x66448",
-    "MobilePhone": "(800)752-6116 x6324",
-    "ContactPhone": "355.936.4144 x87907",
-    "AssociateName": "Quigley Inc and Sons",
-    "AssociateId": 949,
-    "UsePersonAddress": true,
-    "ContactFax": "libero",
-    "Kanafname": "sequi",
-    "Kanalname": "vel",
-    "Post1": "est",
-    "Post2": "soluta",
-    "Post3": "officia",
-    "EmailName": "lulu.conn@blanda.uk",
-    "ContactFullName": "Monty Keebler",
-    "ActiveErpLinks": 739,
-    "TicketPriorityId": 444,
-    "SupportLanguageId": 410,
-    "SupportAssociateId": 832,
+    "ContactCountryId": 801,
+    "ContactOrgNr": "1487620",
+    "FaxPhone": "(779)312-5293",
+    "MobilePhone": "(592)246-7863 x239",
+    "ContactPhone": "(505)779-7015",
+    "AssociateName": "Collins, Pouros and Marquardt",
+    "AssociateId": 69,
+    "UsePersonAddress": false,
+    "ContactFax": "aut",
+    "Kanafname": "et",
+    "Kanalname": "qui",
+    "Post1": "quaerat",
+    "Post2": "atque",
+    "Post3": "eos",
+    "EmailName": "mason@bauchlangworth.us",
+    "ContactFullName": "Brenna Legros Sr.",
+    "ActiveErpLinks": 861,
+    "TicketPriorityId": 572,
+    "SupportLanguageId": 738,
+    "SupportAssociateId": 603,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 905
+        "FieldLength": 78
       }
     }
   }

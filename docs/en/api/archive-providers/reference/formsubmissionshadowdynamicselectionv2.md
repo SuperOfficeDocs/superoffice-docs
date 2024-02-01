@@ -465,7 +465,7 @@ FormSubmission shadow selection archive with OR-able selection groups. Each grou
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionV2?$select=person/correspondingAssociate/lastName,contact/contactAssociate/ejUserId,person/restrictionAddress/city
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionV2?$select=person/personDirectPhone/formattedNumber,person/personMobilePhone/formattedNumber,person/restrictionAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

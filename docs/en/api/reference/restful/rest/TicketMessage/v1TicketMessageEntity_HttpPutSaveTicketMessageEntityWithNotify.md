@@ -128,66 +128,66 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 517,
+  "EjMessageId": 742,
   "Ticket": null,
-  "CreatedAt": "2004-07-12T13:57:19.3909317+02:00",
+  "CreatedAt": "2002-01-09T23:04:04.9665093+01:00",
   "CreatedBy": null,
-  "Author": "doloremque",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "suscipit",
-  "TimeSpent": 464,
-  "Body": "cupiditate",
-  "HtmlBody": "rem",
-  "EmailHeader": "jaylan.schaefer@lueilwitzkirlin.com",
-  "DebugInfo": "sit",
-  "MailSorter": "tempora",
+  "MessageId": "quae",
+  "TimeSpent": 474,
+  "Body": "in",
+  "HtmlBody": "voluptates",
+  "EmailHeader": "lacy@ratke.biz",
+  "DebugInfo": "ipsam",
+  "MailSorter": "provident",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tempora",
+  "SearchTitle": "aliquid",
   "MessageHeaders": [
     {
-      "Id": 470,
-      "Name": "Terry-Reinger",
-      "Value": "iste",
+      "Id": 695,
+      "Name": "Champlin Group",
+      "Value": "incidunt",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 470,
-      "Name": "Terry-Reinger",
-      "Value": "iste",
+      "Id": 695,
+      "Name": "Champlin Group",
+      "Value": "incidunt",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "repellat",
-  "Sentiment": 846,
-  "SentimentConfidence": 723,
+  "Important": false,
+  "Language": "quibusdam",
+  "Sentiment": 808,
+  "SentimentConfidence": 978,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 335,
-      "Name": "Prosacco LLC",
-      "ContentType": "repellendus",
-      "AttSize": 651,
-      "InlineImage": false,
-      "ContentId": "sunt",
-      "AuthKey": "et"
+      "AttachmentId": 434,
+      "Name": "Anderson Inc and Sons",
+      "ContentType": "laborum",
+      "AttSize": 246,
+      "InlineImage": true,
+      "ContentId": "natus",
+      "AuthKey": "officia"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "laborum",
+    "CustomFields2": "vitae"
   }
 }
 ```
@@ -199,28 +199,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 107,
+  "EjMessageId": 973,
   "Ticket": null,
-  "CreatedAt": "2007-04-23T13:57:19.4065594+02:00",
+  "CreatedAt": "2022-11-24T23:04:04.9740063+01:00",
   "CreatedBy": null,
-  "Author": "non",
+  "Author": "nisi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 415,
-  "Body": "aut",
-  "HtmlBody": "in",
-  "EmailHeader": "america@considinekris.ca",
-  "DebugInfo": "sapiente",
+  "MessageId": "doloremque",
+  "TimeSpent": 6,
+  "Body": "possimus",
+  "HtmlBody": "facere",
+  "EmailHeader": "cheyanne_jewess@nienow.com",
+  "DebugInfo": "velit",
   "MailSorter": "necessitatibus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "repellendus",
+  "SearchTitle": "debitis",
   "MessageHeaders": [
     {
-      "Id": 735,
-      "Name": "Herman-Bashirian",
-      "Value": "aspernatur",
+      "Id": 226,
+      "Name": "Moore, Wolff and Marquardt",
+      "Value": "dolor",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -228,49 +228,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 734
+          "FieldLength": 741
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "hic",
-  "Sentiment": 795,
-  "SentimentConfidence": 97,
+  "Important": false,
+  "Language": "voluptatem",
+  "Sentiment": 267,
+  "SentimentConfidence": 899,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 711,
-      "Name": "Morissette-Bartell",
-      "ContentType": "sunt",
-      "AttSize": 291,
-      "InlineImage": true,
-      "ContentId": "molestias",
-      "AuthKey": "corrupti",
+      "AttachmentId": 743,
+      "Name": "Legros Group",
+      "ContentType": "minus",
+      "AttSize": 629,
+      "InlineImage": false,
+      "ContentId": "sit",
+      "AuthKey": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 852
+          "FieldLength": 401
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "est"
+    "CustomFields1": "omnis",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 99
     }
   }
 }

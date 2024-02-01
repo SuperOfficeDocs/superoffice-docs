@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 268,
-  "AssociateId": 35,
-  "Caption": "perferendis",
+  "DashboardId": 111,
+  "AssociateId": 990,
+  "Caption": "tenetur",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 101,
-      "Caption": "vel",
-      "Description": "Reverse-engineered background forecast",
-      "ChartName": "Trantow-Schultz",
-      "ChartId": "et",
-      "IsDefault": true,
-      "AssociateId": 407,
-      "GroupId": 926,
-      "SelectionId": 5,
-      "Config": "voluptatem",
+      "DashboardTileId": 402,
+      "Caption": "deserunt",
+      "Description": "Digitized composite hub",
+      "ChartName": "Batz, Friesen and Herman",
+      "ChartId": "dolores",
+      "IsDefault": false,
+      "AssociateId": 97,
+      "GroupId": 171,
+      "SelectionId": 861,
+      "Config": "voluptatibus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldType": "System.String",
+          "FieldLength": 987
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 876
     }
   }
 }

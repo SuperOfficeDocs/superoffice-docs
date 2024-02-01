@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 295,
-  "Name": "Kilback Inc and Sons"
+  "SelectionId": 190,
+  "Name": "Ullrich, Homenick and Nicolas"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized dynamic support",
-  "Postit": "est",
+  "Description": "Up-sized zero tolerance implementation",
+  "Postit": "dignissimos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 740,
-  "IncludePerson": 841,
-  "MemberCount": 979,
-  "Name": "Fadel-Walsh",
-  "PostitTextId": 551,
-  "CreatedDate": "2002-09-20T13:57:13.2384042+02:00",
-  "SelectionId": 376,
-  "SoundEx": "reiciendis",
-  "Source": 281,
-  "TextId": 648,
-  "UpdatedDate": "2021-05-10T13:57:13.2384042+02:00",
-  "UpdatedCount": 470,
-  "Visibility": 546,
+  "GroupIdx": 277,
+  "IncludePerson": 651,
+  "MemberCount": 52,
+  "Name": "Auer-Cormier",
+  "PostitTextId": 683,
+  "CreatedDate": "2003-03-16T23:03:57.1556132+01:00",
+  "SelectionId": 923,
+  "SoundEx": "aut",
+  "Source": 197,
+  "TextId": 661,
+  "UpdatedDate": "2000-05-21T23:03:57.1556132+02:00",
+  "UpdatedCount": 374,
+  "Visibility": 207,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 925,
-  "TargetTableName": "Runte, Jast and Johnson",
+  "TargetTableNumber": 882,
+  "TargetTableName": "Gleason Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 889,
-  "RightSelectionId": 44,
+  "LeftSelectionId": 862,
+  "RightSelectionId": 569,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Konopelski, Romaguera and Hamill",
-  "ShadowProviderName": "Murray, Abernathy and Bogan",
-  "ChartKey": "nostrum",
-  "LastLoaded": "2016-08-02T13:57:13.2384042+02:00",
-  "LastLoadedBy": 265,
+  "MainProviderName": "Monahan Inc and Sons",
+  "ShadowProviderName": "McGlynn, Stanton and McKenzie",
+  "ChartKey": "voluptas",
+  "LastLoaded": "2004-05-14T23:03:57.1556132+02:00",
+  "LastLoadedBy": 303,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-05-04T13:57:13.2384042+02:00",
-  "LastMembershipChangeBy": 885,
+  "LastMembershipChange": "2018-04-01T23:03:57.1561141+02:00",
+  "LastMembershipChangeBy": 87,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "pariatur",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Roberts Inc and Sons",
-  "DashboardTileDefinitionId": 524,
+  "MainHeading": "consequuntur",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Walker-Monahan",
+  "DashboardTileDefinitionId": 104,
   "VisibleFor": [
     {
-      "VisibleId": 159,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 340
+          "FieldLength": 976
         }
       }
     },
     {
-      "VisibleId": 159,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 340
+          "FieldLength": 976
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 967
     }
   }
 }

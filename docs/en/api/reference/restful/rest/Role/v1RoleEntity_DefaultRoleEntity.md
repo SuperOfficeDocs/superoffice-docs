@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 676,
-  "Name": "Towne-Schaden",
-  "Tooltip": "placeat",
+  "RoleId": 763,
+  "Name": "Heaney LLC",
+  "Tooltip": "non",
   "RoleType": "Anonymous",
-  "Deleted": 994,
-  "Rank": 131,
-  "Created": "2007-02-26T13:57:19.1246846+01:00",
-  "UseCategories": 146,
+  "Deleted": 356,
+  "Rank": 909,
+  "Created": "2020-11-10T23:04:04.6120115+01:00",
+  "UseCategories": 53,
   "CreatedBy": null,
-  "Updated": "2016-03-03T13:57:19.1246846+01:00",
+  "Updated": "2011-04-28T23:04:04.612515+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 148
     }
   }
 }

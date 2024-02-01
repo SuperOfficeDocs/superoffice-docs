@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 23,
-  "PrefDescId": 277,
-  "PrefValue": "non",
-  "PrefShowValue": "iure",
-  "Description": "Team-oriented full-range middleware",
-  "IsBuiltin": true,
+  "PrefDescLineId": 970,
+  "PrefDescId": 845,
+  "PrefValue": "autem",
+  "PrefShowValue": "ut",
+  "Description": "Configurable discrete protocol",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldType": "System.String",
+      "FieldLength": 690
     }
   },
   "_Links": {

@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 853,
-  "SelectionId": 614,
-  "IncludeEmails": false
+  "DocumentPluginId": 556,
+  "SelectionId": 641,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 459,
-  "NumDocumentsAlreadyMigrated": 353,
+  "NumDocumentsOmitted": 960,
+  "NumDocumentsAlreadyMigrated": 413,
   "Documents": [
     {
-      "DocumentId": 535,
-      "ContactId": 732,
+      "DocumentId": 980,
+      "ContactId": 897,
       "PersonId": 822,
-      "SaleId": 23,
-      "ProjectId": 94,
-      "DocTmplId": 823,
-      "AssociateId": 975,
-      "UserGroupId": 650,
-      "VisibleForId": 913
+      "SaleId": 84,
+      "ProjectId": 717,
+      "DocTmplId": 46,
+      "AssociateId": 613,
+      "UserGroupId": 393,
+      "VisibleForId": 886
     }
   ],
   "Associates": [
     {
-      "AssociateId": 906,
-      "EmailAddress": "okey@king.name"
+      "AssociateId": 670,
+      "EmailAddress": "ramiro.davis@jaskolskiwillms.info"
     },
     {
-      "AssociateId": 906,
-      "EmailAddress": "okey@king.name"
+      "AssociateId": 670,
+      "EmailAddress": "ramiro.davis@jaskolskiwillms.info"
     }
   ]
 }

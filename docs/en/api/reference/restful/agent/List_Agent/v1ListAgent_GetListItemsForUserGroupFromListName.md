@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Strosin-Jerde",
-  "GroupId": 803
+  "UdListDefinitionName": "Kunde LLC",
+  "GroupId": 485
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Durgan LLC",
-    "ToolTip": "Inventore odio id molestias porro.",
+    "Id": 971,
+    "Name": "Zemlak, Ferry and Lang",
+    "ToolTip": "Non omnis nihil voluptatem corrupti voluptas culpa et.",
     "Deleted": false,
-    "Rank": 320,
+    "Rank": 669,
     "Type": "debitis",
-    "ColorBlock": 393,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2018-08-14T13:57:12.5118644+02:00",
+    "ColorBlock": 556,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "2003-12-30T23:03:56.2166258+01:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Beer-Tremblay",
-        "ToolTip": "Possimus corrupti mollitia veritatis repudiandae dolorem alias.",
-        "Deleted": false,
-        "Rank": 413,
-        "Type": "animi",
-        "ColorBlock": 492,
-        "IconHint": "necessitatibus",
+        "Id": 665,
+        "Name": "Hand Group",
+        "ToolTip": "Sit mollitia quia repellendus.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "soluta",
+        "ColorBlock": 190,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2019-01-14T13:57:12.5118644+01:00",
+        "LastChanged": "2015-10-31T23:03:56.2166258+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Prof. Marlin Kuphal",
+        "ExtraInfo": "facere",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Marcelle Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 795
+            "FieldLength": 659
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "ut",
+    "ExtraInfo": "optio",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Destany Schmidt",
+    "FullName": "Emmet Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 895
+        "FieldType": "System.Int32",
+        "FieldLength": 562
       }
     }
   }

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 480,
+  "DocumentId": 372,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 488,
+  "DocumentId": 437,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aspernatur",
-  "Header": "consequatur",
-  "Name": "Schuppe Group",
-  "OurRef": "ea",
-  "YourRef": "sequi",
-  "CreatedDate": "1999-08-12T13:57:12.2154942+02:00",
-  "UpdatedDate": "2020-05-14T13:57:12.2154942+02:00",
-  "Description": "Progressive uniform circuit",
+  "Attention": "praesentium",
+  "Header": "labore",
+  "Name": "Bechtelar-Goodwin",
+  "OurRef": "modi",
+  "YourRef": "rem",
+  "CreatedDate": "2007-07-20T23:03:55.8401307+02:00",
+  "UpdatedDate": "2014-08-13T23:03:55.8401307+02:00",
+  "Description": "Profound object-oriented hierarchy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-11-27T13:57:12.2154942+01:00",
-  "ExternalRef": "et",
+  "Date": "2017-03-14T23:03:55.8441357+01:00",
+  "ExternalRef": "illum",
   "Completed": "Completed",
-  "ActiveLinks": 210,
+  "ActiveLinks": 403,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Goldner-Stark",
-      "Id": 804,
-      "Description": "Diverse global neural-net",
-      "ExtraInfo": "at",
-      "LinkId": 176,
+      "EntityName": "Conroy, Moore and Reichel",
+      "Id": 382,
+      "Description": "De-engineered homogeneous Graphic Interface",
+      "ExtraInfo": "fuga",
+      "LinkId": 428,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 190
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 894,
-  "Snum": 343,
+  "SuggestedDocumentId": 147,
+  "Snum": 810,
   "UserDefinedFields": {
-    "SuperOffice:1": "Van Koss",
-    "SuperOffice:2": "Barbara Lueilwitz"
+    "SuperOffice:1": "Dr. Toy Estell West",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "est"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "vero"
   },
-  "PublishEventDate": "2003-10-11T13:57:12.2154942+02:00",
-  "PublishTo": "2019-10-25T13:57:12.2154942+02:00",
-  "PublishFrom": "2005-02-19T13:57:12.2154942+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2000-06-06T23:03:55.8451001+02:00",
+  "PublishTo": "2006-02-10T23:03:55.8451001+01:00",
+  "PublishFrom": "2020-08-08T23:03:55.8451001+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 141,
+      "VisibleId": 592,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldLength": 306
         }
       }
     },
     {
-      "VisibleId": 141,
+      "VisibleId": 592,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldLength": 306
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 864
     }
   }
 }

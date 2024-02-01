@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 264
+  "ContactId": 754
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-671-021-6931 x897",
-    "PersonCellPhone": "348-853-6972 x211",
-    "PersonPrivatePhone": "321-770-1878",
-    "PersonFaxNumber": "373648",
-    "PersonPagerNumber": "882063",
-    "PersonEmail": "leola@collinshauck.biz",
-    "Id": 125,
-    "Name": "Adams, Weissnat and Cummings",
-    "Tooltip": "eligendi",
-    "UniqueId": "quidem",
+    "PersonDirectPhone": "(813)125-6133 x7813",
+    "PersonCellPhone": "337-793-6118",
+    "PersonPrivatePhone": "(348)536-0734",
+    "PersonFaxNumber": "1499236",
+    "PersonPagerNumber": "581383",
+    "PersonEmail": "oswaldo@schneider.name",
+    "Id": 843,
+    "Name": "Stiedemann Inc and Sons",
+    "Tooltip": "voluptates",
+    "UniqueId": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldType": "System.String",
+        "FieldLength": 849
       }
     }
   }

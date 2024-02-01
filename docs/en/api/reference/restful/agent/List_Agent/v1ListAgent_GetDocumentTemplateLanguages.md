@@ -72,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 520
+  "DocumentTemplateId": 759
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "expedita",
-  "beatae"
+  "aperiam",
+  "expedita"
 ]
 ```

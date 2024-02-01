@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 614,
-  "Name": "Casper Inc and Sons",
-  "Tooltip": "dolorem",
+  "Id": 457,
+  "Name": "Schowalter-Leannon",
+  "Tooltip": "autem",
   "Deleted": true,
-  "Rank": 612,
-  "IsCustomList": false,
+  "Rank": 717,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "expedita",
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 832
     }
   }
 }

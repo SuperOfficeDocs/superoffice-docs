@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 892,
-    "Name": "Rice, Wilkinson and Ryan",
+    "TicketPriorityId": 368,
+    "Name": "Klein, Homenick and Little",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 1001,
+    "SortOrder": 104,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 847,
-    "MonStart": "2001-03-15T13:57:12.4649848+01:00",
-    "MonStop": "2021-01-02T13:57:12.4649848+01:00",
-    "TueStart": "2011-12-18T13:57:12.4649848+01:00",
-    "TueStop": "2011-07-12T13:57:12.4649848+02:00",
-    "WedStart": "2023-08-10T13:57:12.4649848+02:00",
-    "WedStop": "2019-05-07T13:57:12.4649848+02:00",
-    "ThuStart": "2009-04-28T13:57:12.4649848+02:00",
-    "ThuStop": "1996-11-11T13:57:12.4649848+01:00",
-    "FriStart": "2021-06-27T13:57:12.4649848+02:00",
-    "FriStop": "2003-03-03T13:57:12.4649848+01:00",
-    "SatStart": "2023-01-20T13:57:12.4649848+01:00",
-    "SatStop": "2001-10-28T13:57:12.4649848+01:00",
-    "SunStart": "1998-01-19T13:57:12.4649848+01:00",
-    "SunStop": "2004-12-08T13:57:12.4649848+01:00",
+    "Deadline": 269,
+    "MonStart": "2002-06-12T23:03:56.1601263+02:00",
+    "MonStop": "2012-03-26T23:03:56.1601263+02:00",
+    "TueStart": "2022-11-15T23:03:56.1601263+01:00",
+    "TueStop": "2014-01-08T23:03:56.1601263+01:00",
+    "WedStart": "2000-06-25T23:03:56.1601263+02:00",
+    "WedStop": "2023-09-03T23:03:56.1601263+02:00",
+    "ThuStart": "1997-07-21T23:03:56.1601263+02:00",
+    "ThuStop": "2012-03-03T23:03:56.1601263+01:00",
+    "FriStart": "2018-07-24T23:03:56.1601263+02:00",
+    "FriStop": "2013-07-27T23:03:56.1601263+02:00",
+    "SatStart": "2000-01-11T23:03:56.1601263+01:00",
+    "SatStop": "2016-10-14T23:03:56.1601263+02:00",
+    "SunStart": "2013-08-20T23:03:56.1601263+02:00",
+    "SunStop": "2011-10-21T23:03:56.1601263+02:00",
     "NonDates": [
-      "magni",
-      "sed"
+      "neque",
+      "dolor"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 194,
-        "AlertLevel": 547,
-        "AlertTimeout": 693,
-        "Action": 450,
-        "DelegateTo": 675,
-        "ScriptId": 206,
-        "EmailTo": "winifred.konopelski@willms.info",
-        "SmsTo": "sint",
-        "ReplyTemplateIdCustomer": 570,
-        "ReplyTemplateIdUser": 223,
-        "ReplyTemplateIdCatmast": 344,
-        "ReplyTemplateIdEmail": 937,
-        "RtiCustomerSms": 125,
-        "ReplyTemplateIdUserSms": 928,
-        "ReplyTemplateIdCatmastSms": 712,
-        "ReplyTemplateIdSms": 629,
+        "TicketAlertId": 896,
+        "AlertLevel": 960,
+        "AlertTimeout": 679,
+        "Action": 286,
+        "DelegateTo": 268,
+        "ScriptId": 877,
+        "EmailTo": "darrion@schroedersauer.us",
+        "SmsTo": "quia",
+        "ReplyTemplateIdCustomer": 654,
+        "ReplyTemplateIdUser": 683,
+        "ReplyTemplateIdCatmast": 955,
+        "ReplyTemplateIdEmail": 559,
+        "RtiCustomerSms": 577,
+        "ReplyTemplateIdUserSms": 554,
+        "ReplyTemplateIdCatmastSms": 954,
+        "ReplyTemplateIdSms": 560,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldLength": 287
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldLength": 223
       }
     }
   }

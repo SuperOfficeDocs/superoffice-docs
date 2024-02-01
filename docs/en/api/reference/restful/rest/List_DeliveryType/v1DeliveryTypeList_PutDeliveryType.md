@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 160,
-  "Name": "Grimes-Schuppe",
-  "Tooltip": "sunt",
+  "Id": 852,
+  "Name": "Runolfsson-Swift",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 249,
-  "Rank": 214
+  "UdListDefinitionId": 782,
+  "Rank": 389
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 353,
-  "Name": "Willms Group",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "UdListDefinitionId": 391,
-  "Rank": 789,
+  "Id": 810,
+  "Name": "Schaden LLC",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 340,
+  "Rank": 822,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 261
     }
   }
 }

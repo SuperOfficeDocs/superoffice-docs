@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 146
+  "UserGroupId": 165
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 673,
-    "ColumnId": 729,
-    "FieldDefault": "consequatur",
-    "FieldHeight": 872,
-    "FieldLabel": "ea",
-    "FieldLeft": 310,
-    "FieldTop": 88,
+    "UDefFieldId": 742,
+    "ColumnId": 142,
+    "FieldDefault": "vitae",
+    "FieldHeight": 34,
+    "FieldLabel": "quia",
+    "FieldLeft": 204,
+    "FieldTop": 466,
     "FieldType": "Checkbox",
-    "FieldWidth": 653,
-    "FormatMask": "minima",
-    "HideLabel": true,
+    "FieldWidth": 303,
+    "FormatMask": "voluptas",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 642,
-    "LabelLeft": 813,
-    "LabelTop": 69,
-    "LabelWidth": 95,
-    "LastVersionId": 760,
-    "ListTableId": 542,
+    "LabelHeight": 694,
+    "LabelLeft": 605,
+    "LabelTop": 996,
+    "LabelWidth": 487,
+    "LastVersionId": 529,
+    "ListTableId": 180,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 233,
-    "ProgId": "sapiente",
+    "Page1LineNo": 610,
+    "ProgId": "libero",
     "IsReadOnly": true,
-    "ShortLabel": "est",
-    "TabOrder": 703,
-    "TextLength": 606,
-    "Tooltip": "qui",
-    "UdefIdentity": 525,
-    "UDListDefinitionId": 617,
+    "ShortLabel": "harum",
+    "TabOrder": 777,
+    "TextLength": 443,
+    "Tooltip": "quis",
+    "UdefIdentity": 624,
+    "UDListDefinitionId": 102,
     "Justification": "Center",
-    "Version": 478,
-    "TemplateVariableName": "Dicki-Kuphal",
+    "Version": 487,
+    "TemplateVariableName": "Dooley-Parker",
     "HasBeenPublished": false,
-    "MdoListName": "Grady, Rogahn and Klocko",
+    "MdoListName": "Grimes, Eichmann and Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldType": "System.String",
+        "FieldLength": 860
       }
     }
   }

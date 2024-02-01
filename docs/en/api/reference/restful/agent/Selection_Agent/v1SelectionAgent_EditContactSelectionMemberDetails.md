@@ -69,7 +69,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 127,
+  "SelectionId": 82,
   "SelectionMemberEditValues": null
 }
 ```

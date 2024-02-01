@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 567,
-  "Name": "Stamm LLC",
-  "Rank": 747,
-  "Tooltip": "animi",
+  "ResourceId": 281,
+  "Name": "Pouros, Kuhlman and Bergstrom",
+  "Rank": 807,
+  "Tooltip": "non",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "facere",
+  "LocationAddress": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldType": "System.Int32",
+      "FieldLength": 184
     }
   }
 }

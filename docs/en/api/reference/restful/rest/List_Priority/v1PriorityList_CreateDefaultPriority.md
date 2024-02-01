@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Hegmann Group",
-  "Tooltip": "nobis",
+  "Id": 882,
+  "Name": "Graham Inc and Sons",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "UdListDefinitionId": 489,
-  "Rank": 548,
+  "UdListDefinitionId": 847,
+  "Rank": 614,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 941
     }
   }
 }

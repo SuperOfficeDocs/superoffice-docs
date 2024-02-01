@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Marks Inc and Sons",
-  "Tooltip": "est",
+  "Id": 649,
+  "Name": "Upton, Boyle and Murphy",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 359,
+  "Rank": 501,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quasi",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "fugiat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Kunze, Ondricka and Armstrong",
-  "Tooltip": "modi",
+  "Id": 889,
+  "Name": "Frami-Rodriguez",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 961,
+  "Rank": 536,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 234
     }
   }
 }

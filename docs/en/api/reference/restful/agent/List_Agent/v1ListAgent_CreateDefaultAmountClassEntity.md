@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 373,
-  "Name": "Trantow-Lubowitz",
-  "Tooltip": "quia",
-  "Rank": 723,
-  "AmountFrom": 5735.22,
-  "AmountTo": 15488.228,
-  "Deleted": false,
-  "CurrencyId": 601,
+  "AmountClassId": 603,
+  "Name": "Hintz-Lockman",
+  "Tooltip": "necessitatibus",
+  "Rank": 407,
+  "AmountFrom": 21151.365999999998,
+  "AmountTo": 19371.254,
+  "Deleted": true,
+  "CurrencyId": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 502
     }
   }
 }

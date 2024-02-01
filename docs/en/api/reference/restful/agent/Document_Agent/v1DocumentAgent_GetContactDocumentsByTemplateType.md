@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 987,
-  "StartTime": "1997-01-16T13:57:12.074872+01:00",
-  "EndTime": "2023-10-04T13:57:12.074872+02:00",
-  "Count": 336,
-  "DocumentTemplateId": 626
+  "ContactId": 591,
+  "StartTime": "2015-04-26T23:03:55.6631332+02:00",
+  "EndTime": "2020-08-27T23:03:55.6631332+02:00",
+  "Count": 754,
+  "DocumentTemplateId": 365
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 674,
-    "Attention": "adipisci",
-    "Header": "molestias",
-    "Name": "Rodriguez-Bergstrom",
-    "OurRef": "exercitationem",
-    "YourRef": "provident",
-    "Description": "Function-based directional adapter",
-    "DocumentTemplate": "molestiae",
+    "DocumentId": 770,
+    "Attention": "consequuntur",
+    "Header": "voluptatem",
+    "Name": "Feest-Dooley",
+    "OurRef": "voluptatum",
+    "YourRef": "neque",
+    "Description": "Cloned needs-based info-mediaries",
+    "DocumentTemplate": "omnis",
     "IsPublished": false,
-    "PersonId": 387,
-    "PersonFullName": "Tomas Gaylord",
-    "AssociateFullName": "Dr. Rigoberto Darron O'Keefe",
-    "ContactId": 135,
-    "ContactName": "Haley, Kunze and Schmidt",
-    "ProjectId": 579,
-    "ProjectName": "Lebsack, Zulauf and Hackett",
-    "AssociateId": 251,
-    "Snum": 104,
-    "SaleId": 12,
-    "SaleName": "Treutel, Goodwin and Kilback",
+    "PersonId": 302,
+    "PersonFullName": "Miss Jamir Merle Wyman PhD",
+    "AssociateFullName": "Bulah Bogan",
+    "ContactId": 748,
+    "ContactName": "Rau-Volkman",
+    "ProjectId": 575,
+    "ProjectName": "Prohaska, Bosco and Stoltenberg",
+    "AssociateId": 485,
+    "Snum": 143,
+    "SaleId": 724,
+    "SaleName": "Altenwerth-Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 851
       }
     }
   }

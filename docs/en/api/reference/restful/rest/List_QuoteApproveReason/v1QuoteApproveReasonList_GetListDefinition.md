@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 146,
-  "Name": "Koch-Brakus",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 690,
+  "Id": 892,
+  "Name": "Ratke, Labadie and Jacobs",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 987,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dolorum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 553
     }
   },
   "_Links": {

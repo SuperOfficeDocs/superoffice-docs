@@ -4,6 +4,8 @@ items:
 - name: AI
   href: AI_Agent/index.md
   items:
+  - name: ClearChatbotTurns
+    href: AI_Agent/v1AIAgent_ClearChatbotTurns.md
   - name: DetectLanguage
     href: AI_Agent/v1AIAgent_DetectLanguage.md
   - name: DetectSentiment
@@ -14,6 +16,8 @@ items:
     href: AI_Agent/v1AIAgent_GetChatbotPromptSuggestions.md
   - name: GetChatbotResponse
     href: AI_Agent/v1AIAgent_GetChatbotResponse.md
+  - name: GetChatbotTurns
+    href: AI_Agent/v1AIAgent_GetChatbotTurns.md
   - name: GetSummarizeContactPrompt
     href: AI_Agent/v1AIAgent_GetSummarizeContactPrompt.md
   - name: GetSummarizeSalePrompt
@@ -1928,8 +1932,6 @@ items:
     href: List_Agent/v1ListAgent_GetAllTasks.md
   - name: GetAllTicketPriorities
     href: List_Agent/v1ListAgent_GetAllTicketPriorities.md
-  - name: GetAllTicketTypeEntities
-    href: List_Agent/v1ListAgent_GetAllTicketTypeEntities.md
   - name: GetAmountClassEntity
     href: List_Agent/v1ListAgent_GetAmountClassEntity.md
   - name: GetAppTaskMenus
@@ -2250,8 +2252,6 @@ items:
     href: List_Agent/v1ListAgent_GetTicketStatuses.md
   - name: GetTicketStatusList
     href: List_Agent/v1ListAgent_GetTicketStatusList.md
-  - name: GetTicketType
-    href: List_Agent/v1ListAgent_GetTicketType.md
   - name: GetTicketTypeEntity
     href: List_Agent/v1ListAgent_GetTicketTypeEntity.md
   - name: GetTicketTypeList
@@ -2384,6 +2384,8 @@ items:
     href: List_Agent/v1ListAgent_SetTicketPrioritySortOrder.md
   - name: SetTicketStatusSortOrder
     href: List_Agent/v1ListAgent_SetTicketStatusSortOrder.md
+  - name: SetTicketTypeSortOrder
+    href: List_Agent/v1ListAgent_SetTicketTypeSortOrder.md
   - name: SetVisibleForUserGroup
     href: List_Agent/v1ListAgent_SetVisibleForUserGroup.md
   - name: SetVisibleForUserGroups
@@ -2413,6 +2415,8 @@ items:
     href: Marketing_Agent/v1MarketingAgent_DeleteFormEntity.md
   - name: DeleteFormSubmissionEntity
     href: Marketing_Agent/v1MarketingAgent_DeleteFormSubmissionEntity.md
+  - name: DeleteMessageAndShipment
+    href: Marketing_Agent/v1MarketingAgent_DeleteMessageAndShipment.md
   - name: DeleteShipmentMessageBlockEntity
     href: Marketing_Agent/v1MarketingAgent_DeleteShipmentMessageBlockEntity.md
   - name: DeleteShipmentMessageEntity
@@ -2433,6 +2437,8 @@ items:
     href: Marketing_Agent/v1MarketingAgent_GetShipmentMessageEntity.md
   - name: GetUserBlocks
     href: Marketing_Agent/v1MarketingAgent_GetUserBlocks.md
+  - name: RenameMailingByMessageId
+    href: Marketing_Agent/v1MarketingAgent_RenameMailingByMessageId.md
   - name: SaveFormEntity
     href: Marketing_Agent/v1MarketingAgent_SaveFormEntity.md
   - name: SaveFormSubmissionEntity
@@ -3918,6 +3924,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType.md
   - name: CreateDefaultWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
+  - name: CreateDefaultWorkflowWaitForAction
+    href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowWaitForAction.md
   - name: CreateEmailFlowContent
     href: Workflow_Agent/v1WorkflowAgent_CreateEmailFlowContent.md
   - name: DeleteEmailFlow
@@ -3926,6 +3934,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_DeleteWorkflowGoal.md
   - name: DeleteWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_DeleteWorkflowTrigger.md
+  - name: DeleteWorkflowWaitForAction
+    href: Workflow_Agent/v1WorkflowAgent_DeleteWorkflowWaitForAction.md
   - name: GetEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_GetEmailFlow.md
   - name: GetWorkflowGoal
@@ -3936,6 +3946,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_GetWorkflowStepOption.md
   - name: GetWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_GetWorkflowTrigger.md
+  - name: GetWorkflowWaitForAction
+    href: Workflow_Agent/v1WorkflowAgent_GetWorkflowWaitForAction.md
   - name: RemoveParticipantsFromEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_RemoveParticipantsFromEmailFlow.md
   - name: Run
@@ -3946,6 +3958,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowGoal.md
   - name: SaveWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
+  - name: SaveWorkflowWaitForAction
+    href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowWaitForAction.md
   - name: SendEvent
     href: Workflow_Agent/v1WorkflowAgent_SendEvent.md
   - name: TryAddPersonsToEmailFlow

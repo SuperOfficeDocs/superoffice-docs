@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 158,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "qui",
-  "Rank": 535,
-  "Rate": 12153.652,
-  "Units": 9969.253999999999,
-  "Deleted": true,
+  "CurrencyId": 66,
+  "Name": "Will-Runte",
+  "Tooltip": "eum",
+  "Rank": 802,
+  "Rate": 6233.526,
+  "Units": 30346.521999999997,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 400
     }
   }
 }

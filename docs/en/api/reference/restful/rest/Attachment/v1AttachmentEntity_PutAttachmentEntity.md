@@ -95,13 +95,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 551,
-  "Name": "Goodwin Inc and Sons",
-  "ContentType": "placeat",
-  "AttSize": 135,
+  "AttachmentId": 847,
+  "Name": "Kuhlman LLC",
+  "ContentType": "occaecati",
+  "AttSize": 252,
   "InlineImage": false,
-  "ContentId": "quia",
-  "AuthKey": "qui"
+  "ContentId": "quaerat",
+  "AuthKey": "iusto"
 }
 ```
 
@@ -112,24 +112,24 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 872,
-  "Name": "Lueilwitz Inc and Sons",
-  "ContentType": "doloremque",
-  "AttSize": 902,
+  "AttachmentId": 422,
+  "Name": "Jerde LLC",
+  "ContentType": "minus",
+  "AttSize": 664,
   "InlineImage": false,
-  "ContentId": "voluptatem",
-  "AuthKey": "fugit",
+  "ContentId": "fuga",
+  "AuthKey": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

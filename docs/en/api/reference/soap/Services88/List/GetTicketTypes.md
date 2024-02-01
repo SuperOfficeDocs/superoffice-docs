@@ -61,12 +61,25 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:List="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <List:GetTicketTypesResponse>
-   <List:Response xsi:type="List:ArrayOfTicketType">
-    <List:TicketType xsi:type="List:TicketType">
-     <List:Id xsi:type="xsd:int">0</List:Id>
-     <List:Value xsi:type="xsd:string"></List:Value>
+   <List:Response xsi:type="List:ArrayOfTicketTypeEntity">
+    <List:TicketTypeEntity xsi:type="List:TicketTypeEntity">
+     <List:TicketTypeId xsi:type="xsd:int">0</List:TicketTypeId>
+     <List:Name xsi:type="xsd:string"></List:Name>
+     <List:Rank xsi:type="xsd:short">0</List:Rank>
      <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
-    </List:TicketType>
+     <List:Icon xsi:type="xsd:string"></List:Icon>
+     <List:DefaultTicketStatus xsi:type="xsd:int">0</List:DefaultTicketStatus>
+     <List:TicketStatuses xsi:type="NetServerServices882:ArrayOfint">
+      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
+     </List:TicketStatuses>
+     <List:DefaultTicketPriority xsi:type="xsd:int">0</List:DefaultTicketPriority>
+     <List:TicketPriorities xsi:type="NetServerServices882:ArrayOfint">
+      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
+     </List:TicketPriorities>
+     <List:ReplyTemplate xsi:type="xsd:int">0</List:ReplyTemplate>
+     <List:IsExternalVisible xsi:type="xsd:boolean">false</List:IsExternalVisible>
+     <List:IsDefault xsi:type="xsd:boolean">false</List:IsDefault>
+    </List:TicketTypeEntity>
    </List:Response>
   </List:GetTicketTypesResponse>
  </SOAP-ENV:Body>

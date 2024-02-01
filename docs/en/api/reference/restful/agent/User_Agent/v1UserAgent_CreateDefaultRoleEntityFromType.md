@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 247,
-  "Name": "Borer-Romaguera",
-  "Tooltip": "laudantium",
+  "RoleId": 174,
+  "Name": "Langworth, Reinger and Bernier",
+  "Tooltip": "aliquid",
   "RoleType": "Anonymous",
-  "Deleted": 707,
-  "Rank": 652,
-  "Created": "2018-08-21T13:57:13.5364634+02:00",
-  "UseCategories": 589,
+  "Deleted": 93,
+  "Rank": 539,
+  "Created": "2016-05-18T23:03:57.5556124+02:00",
+  "UseCategories": 461,
   "CreatedBy": null,
-  "Updated": "2022-06-03T13:57:13.5520881+02:00",
+  "Updated": "2001-03-11T23:03:57.5561158+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldType": "System.Int32",
+      "FieldLength": 994
     }
   }
 }

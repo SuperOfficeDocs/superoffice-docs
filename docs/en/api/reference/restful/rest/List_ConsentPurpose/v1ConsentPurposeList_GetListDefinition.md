@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Padberg, Douglas and Gaylord",
-  "Tooltip": "adipisci",
+  "Id": 39,
+  "Name": "Price, Lesch and Bradtke",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 690,
+  "Rank": 31,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "similique",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quasi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldType": "System.Int32",
+      "FieldLength": 479
     }
   },
   "_Links": {

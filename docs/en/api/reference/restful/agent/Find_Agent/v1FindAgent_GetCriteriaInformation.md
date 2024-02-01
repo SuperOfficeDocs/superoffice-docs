@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "Howe Inc and Sons",
-  "StorageKey": "dolor",
+  "StorageType": "suscipit",
+  "ProviderName": "Kuhic Group",
+  "StorageKey": "voluptas",
   "StaticColumns": [
     "laborum",
-    "rerum"
+    "non"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Gutkowski-Schuster",
-      "Operator": "voluptatem",
+      "Name": "Marks-Toy",
+      "Operator": "velit",
       "Values": [
-        "eos",
-        "enim"
+        "delectus",
+        "nisi"
       ],
       "DisplayValues": [
-        "eaque",
-        "quidem"
+        "dolores",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 88,
+      "InterParenthesis": 754,
       "InterOperator": "And",
-      "UniqueHash": 679
+      "UniqueHash": 588
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Monahan, Kohler and Baumbach",
-      "DisplayTooltip": "nobis",
-      "DisplayType": "non",
+      "DisplayName": "Dooley Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "ab",
       "CanOrderBy": false,
-      "Name": "Kreiger Inc and Sons",
+      "Name": "Johnston-Cummerata",
       "CanRestrictBy": true,
-      "RestrictionType": "excepturi",
-      "RestrictionListName": "Beatty Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "ea",
-      "Width": "reiciendis",
-      "IconHint": "maiores",
-      "HeadingIconHint": "eius"
+      "RestrictionType": "repellat",
+      "RestrictionListName": "Erdman, Rodriguez and Koepp",
+      "IsVisible": false,
+      "ExtraInfo": "dignissimos",
+      "Width": "totam",
+      "IconHint": "veritatis",
+      "HeadingIconHint": "neque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Conn, Rau and Kuphal",
-      "PrimaryKey": 151,
+      "EntityName": "Feil-Crooks",
+      "PrimaryKey": 670,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "accusamus",
-          "LinkHint": "ut"
+          "DisplayValue": "non",
+          "TooltipHint": "ipsa",
+          "LinkHint": "id"
         }
       },
-      "LinkHint": "nisi",
-      "StyleHint": "quam",
+      "LinkHint": "doloremque",
+      "StyleHint": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 559
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kertzmann Group",
-      "Description": "Future-proofed non-volatile policy",
-      "Rank": 245,
+      "Name": "Funk, Bode and Wisoky",
+      "Description": "Organic grid-enabled open system",
+      "Rank": 884,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kertzmann Group",
-      "Description": "Future-proofed non-volatile policy",
-      "Rank": 245,
+      "Name": "Funk, Bode and Wisoky",
+      "Description": "Organic grid-enabled open system",
+      "Rank": 884,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

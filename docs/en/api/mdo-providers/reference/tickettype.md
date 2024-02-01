@@ -42,7 +42,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Request|||
+|1|Request||isDefault=1&description=&defaultStatus=0&defaultPriority=0|
 
 
 ## Related MDO Lists

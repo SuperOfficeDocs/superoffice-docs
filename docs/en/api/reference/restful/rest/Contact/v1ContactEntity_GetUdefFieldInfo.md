@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 804,
-  "ColumnId": 269,
-  "FieldDefault": "quam",
-  "FieldHeight": 944,
-  "FieldLabel": "exercitationem",
-  "FieldLeft": 400,
-  "FieldTop": 975,
+  "UDefFieldId": 102,
+  "ColumnId": 855,
+  "FieldDefault": "sunt",
+  "FieldHeight": 321,
+  "FieldLabel": "et",
+  "FieldLeft": 692,
+  "FieldTop": 973,
   "FieldType": "Checkbox",
-  "FieldWidth": 29,
-  "FormatMask": "dolores",
-  "HideLabel": true,
+  "FieldWidth": 937,
+  "FormatMask": "aut",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 285,
-  "LabelLeft": 654,
-  "LabelTop": 133,
-  "LabelWidth": 764,
-  "LastVersionId": 843,
-  "ListTableId": 539,
+  "LabelHeight": 222,
+  "LabelLeft": 590,
+  "LabelTop": 60,
+  "LabelWidth": 873,
+  "LastVersionId": 334,
+  "ListTableId": 866,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 557,
-  "ProgId": "voluptas",
+  "Page1LineNo": 182,
+  "ProgId": "nobis",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 97,
-  "TextLength": 675,
-  "Tooltip": "vel",
-  "UdefIdentity": 12,
-  "UDListDefinitionId": 985,
+  "ShortLabel": "omnis",
+  "TabOrder": 497,
+  "TextLength": 399,
+  "Tooltip": "odit",
+  "UdefIdentity": 147,
+  "UDListDefinitionId": 901,
   "Justification": "Center",
-  "Version": 964,
-  "TemplateVariableName": "O'Kon, Goyette and Sauer",
-  "HasBeenPublished": true,
-  "MdoListName": "Kertzmann, Gleichner and Mertz",
+  "Version": 898,
+  "TemplateVariableName": "Dach Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Fahey, Stracke and Schumm",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 644
     }
   }
 }

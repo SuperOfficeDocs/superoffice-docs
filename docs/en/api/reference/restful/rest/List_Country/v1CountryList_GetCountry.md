@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 69,
-  "Name": "Mann LLC",
-  "CurrencyId": 761,
-  "EnglishName": "Hoppe Group",
+  "CountryId": 238,
+  "Name": "Barrows LLC",
+  "CurrencyId": 419,
+  "EnglishName": "Willms Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Streamlined assymetric matrix",
-  "OrgNrText": "1562111",
-  "InterAreaPrefix": "quam",
-  "DialInPrefix": "enim",
-  "ZipPrefix": "quia",
-  "DomainName": "Langosh Inc and Sons",
-  "AddressLayoutId": 294,
-  "DomesticAddressLayoutId": 621,
-  "ForeignAddressLayoutId": 912,
-  "Rank": 2,
-  "Tooltip": "possimus",
-  "Deleted": true,
+  "ImageDescription": "Automated zero defect workforce",
+  "OrgNrText": "1159736",
+  "InterAreaPrefix": "ut",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "ullam",
+  "DomainName": "O'Kon, Roberts and Swift",
+  "AddressLayoutId": 462,
+  "DomesticAddressLayoutId": 788,
+  "ForeignAddressLayoutId": 852,
+  "Rank": 225,
+  "Tooltip": "optio",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 269
     }
   }
 }

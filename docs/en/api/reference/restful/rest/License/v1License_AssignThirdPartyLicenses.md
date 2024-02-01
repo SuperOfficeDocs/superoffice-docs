@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 852,
-    "Tooltip": "labore",
+    "Total": 18,
+    "Tooltip": "sit",
     "CanAssign": false,
-    "Free": 801,
-    "InUse": 305,
+    "Free": 339,
+    "InUse": 399,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 814,
-    "Name": "Grady-Klocko",
-    "Description": "Reduced leading edge system engine",
-    "PrerequisiteModuleName": "Roberts-Tremblay",
-    "SortOrder": 646,
-    "ExtraFlags": 367,
+    "ModuleLicenseId": 428,
+    "Name": "Medhurst, Ebert and Jewess",
+    "Description": "Diverse 6th generation capability",
+    "PrerequisiteModuleName": "Dicki-Gleichner",
+    "SortOrder": 97,
+    "ExtraFlags": 10,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   }

@@ -114,24 +114,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 658,
-  "Section": "quos",
-  "Key": "magnam",
-  "Name": "Heathcote, Sipes and Ruecker",
+  "PrefDescId": 779,
+  "Section": "itaque",
+  "Key": "sed",
+  "Name": "Auer-Jewess",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Upgradable multi-state middleware",
-  "IsBuiltin": false,
-  "TableName": "Homenick Group",
-  "UserDefinedListId": 913,
-  "Rank": 105,
-  "SubGroup": "vitae",
-  "MinLevel": 272,
-  "MaxValue": 159,
-  "MinValue": 651,
-  "RequiredLicense": "vero"
+  "Description": "Polarised logistical archive",
+  "IsBuiltin": true,
+  "TableName": "Hudson Inc and Sons",
+  "UserDefinedListId": 496,
+  "Rank": 442,
+  "SubGroup": "accusantium",
+  "MinLevel": 552,
+  "MaxValue": 80,
+  "MinValue": 735,
+  "RequiredLicense": "est"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 333,
-  "Section": "rem",
-  "Key": "tempore",
-  "Name": "Kuhlman, Gislason and Morissette",
+  "PrefDescId": 50,
+  "Section": "quod",
+  "Key": "dolores",
+  "Name": "Connelly, Dietrich and Monahan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative bandwidth-monitored collaboration",
+  "Description": "Organized intermediate attitude",
   "IsBuiltin": true,
-  "TableName": "Runte, Ruecker and Wehner",
-  "UserDefinedListId": 840,
-  "Rank": 286,
-  "SubGroup": "molestias",
-  "MinLevel": 450,
-  "MaxValue": 783,
-  "MinValue": 691,
-  "RequiredLicense": "repellat",
+  "TableName": "Daugherty Inc and Sons",
+  "UserDefinedListId": 957,
+  "Rank": 76,
+  "SubGroup": "quibusdam",
+  "MinLevel": 312,
+  "MaxValue": 981,
+  "MinValue": 388,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   },
   "_Links": {

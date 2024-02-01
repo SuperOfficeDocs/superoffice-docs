@@ -62,13 +62,11 @@ generated: true
 
 * [POST Agents/List/GetTicketStatuses](v1ListAgent_GetTicketStatuses.md)
 
-* [POST Agents/List/GetTicketType](v1ListAgent_GetTicketType.md)
-
 * [POST Agents/List/GetTicketTypeEntity](v1ListAgent_GetTicketTypeEntity.md)
 
-* [POST Agents/List/GetAllTicketTypeEntities](v1ListAgent_GetAllTicketTypeEntities.md)
-
 * [POST Agents/List/GlobalChangeTicketType](v1ListAgent_GlobalChangeTicketType.md)
+
+* [POST Agents/List/SetTicketTypeSortOrder](v1ListAgent_SetTicketTypeSortOrder.md)
 
 * [POST Agents/List/GetTicketTypeList](v1ListAgent_GetTicketTypeList.md)
 

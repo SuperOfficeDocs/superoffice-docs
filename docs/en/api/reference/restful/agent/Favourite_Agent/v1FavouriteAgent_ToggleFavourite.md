@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wehner-Fay",
-  "RecordId": 802,
-  "AssociateId": 860,
-  "ExtraInfo": "et"
+  "TableName": "Block LLC",
+  "RecordId": 267,
+  "AssociateId": 88,
+  "ExtraInfo": "aut"
 }
 ```
 

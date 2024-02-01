@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    229,
-    87
+    831,
+    544
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Dietrich-Balistreri",
-    "Comment": "dolorum",
-    "StakeholderRoleId": 350,
-    "CountryId": 175,
-    "PersonId": 650,
-    "EmailDescription": "jamar@wilderman.uk",
-    "EmailId": 605,
-    "EmailAddress": "sofia@quitzon.com",
-    "PhoneId": 587,
-    "ContactName": "Wilkinson LLC",
-    "ContactId": 998,
-    "SaleId": 208,
-    "Mrmrs": "molestiae",
-    "Firstname": "Herta",
-    "MiddleName": "Kshlerin, Rutherford and Olson",
-    "Lastname": "Daniel",
-    "SaleStakeholderId": 187,
-    "Rank": 627,
-    "Phone": "349.086.9261 x290",
+    "StakeholderRoleName": "Gutmann-Ebert",
+    "Comment": "fuga",
+    "StakeholderRoleId": 320,
+    "CountryId": 232,
+    "PersonId": 194,
+    "EmailDescription": "jennifer.von@hills.us",
+    "EmailId": 31,
+    "EmailAddress": "lamar@cummeratabernhard.com",
+    "PhoneId": 147,
+    "ContactName": "Langworth, Swaniawski and Marvin",
+    "ContactId": 313,
+    "SaleId": 950,
+    "Mrmrs": "sed",
+    "Firstname": "Markus",
+    "MiddleName": "O'Reilly-Miller",
+    "Lastname": "Rempel",
+    "SaleStakeholderId": 935,
+    "Rank": 986,
+    "Phone": "726-982-6436 x216",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

@@ -10,7 +10,7 @@ generated: true
 GET /api/v1/List/TicketType
 ```
 
-Gets description of TicketType list
+Gets description of TicketTypeEntity list
 
 
 
@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 638,
-  "Name": "Pfeffer, Christiansen and Harris",
-  "Tooltip": "fugiat",
+  "Id": 811,
+  "Name": "Hand-O'Hara",
+  "Tooltip": "esse",
   "Deleted": true,
-  "Rank": 693,
+  "Rank": 791,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "culpa",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 708
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   },
   "_Links": {

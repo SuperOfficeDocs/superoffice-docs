@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Feeney, Dooley and Howe",
-    "Tooltip": "mollitia",
+    "Id": 102,
+    "Name": "Weber-Kulas",
+    "Tooltip": "minus",
     "Deleted": false,
-    "UdListDefinitionId": 533,
-    "Rank": 302,
+    "UdListDefinitionId": 637,
+    "Rank": 671,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldType": "System.String",
+        "FieldLength": 222
       }
     }
   }

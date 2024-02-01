@@ -12,11 +12,13 @@ so.envir: onsite
 
 Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAIAgent'>AIAgent</see> that can trigger server-side event scripts.
 
+* [ClearChatbotTurns](clearchatbotturns.md)
 * [DetectLanguage](detectlanguage.md)
 * [DetectSentiment](detectsentiment.md)
 * [ExpandText](expandtext.md)
 * [GetChatbotPromptSuggestions](getchatbotpromptsuggestions.md)
 * [GetChatbotResponse](getchatbotresponse.md)
+* [GetChatbotTurns](getchatbotturns.md)
 * [GetSummarizeContactPrompt](getsummarizecontactprompt.md)
 * [GetSummarizeSalePrompt](getsummarizesaleprompt.md)
 * [GetSummarizeTicketPrompt](getsummarizeticketprompt.md)

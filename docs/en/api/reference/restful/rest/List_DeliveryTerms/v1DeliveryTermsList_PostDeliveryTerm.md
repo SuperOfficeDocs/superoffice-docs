@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
-  "Name": "Metz Inc and Sons",
-  "Tooltip": "quibusdam",
+  "Id": 160,
+  "Name": "Nitzsche Inc and Sons",
+  "Tooltip": "atque",
   "Deleted": false,
-  "UdListDefinitionId": 95,
-  "Rank": 951
+  "UdListDefinitionId": 347,
+  "Rank": 47
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 327,
-  "Name": "Legros-Stiedemann",
-  "Tooltip": "a",
-  "Deleted": true,
-  "UdListDefinitionId": 652,
-  "Rank": 400,
+  "Id": 132,
+  "Name": "Erdman, Grady and Eichmann",
+  "Tooltip": "commodi",
+  "Deleted": false,
+  "UdListDefinitionId": 225,
+  "Rank": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldType": "System.String",
+      "FieldLength": 859
     }
   }
 }

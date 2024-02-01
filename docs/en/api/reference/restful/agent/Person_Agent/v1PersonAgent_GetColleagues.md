@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "soluta",
-    "PersonId": 816,
-    "Mrmrs": "dignissimos",
-    "Firstname": "Scarlett",
-    "Lastname": "Kassulke",
-    "MiddleName": "Towne-Wisoky",
-    "Title": "deserunt",
-    "Description": "Synergized maximized utilisation",
-    "Email": "christelle.bartell@brakus.co.uk",
-    "FullName": "Mafalda Heathcote",
-    "DirectPhone": "1-564-687-8804",
-    "FormalName": "Cummerata-Reilly",
-    "CountryId": 901,
-    "ContactId": 664,
-    "ContactName": "Klocko LLC",
-    "Retired": 437,
-    "Rank": 83,
-    "ActiveInterests": 289,
+    "Position": "rerum",
+    "PersonId": 409,
+    "Mrmrs": "nisi",
+    "Firstname": "Kaylie",
+    "Lastname": "Mraz",
+    "MiddleName": "Kerluke-Schroeder",
+    "Title": "commodi",
+    "Description": "Proactive regional success",
+    "Email": "viva_stamm@bayertromp.biz",
+    "FullName": "Miss Aglae Jerel Rath",
+    "DirectPhone": "213.660.9621",
+    "FormalName": "Dooley Group",
+    "CountryId": 79,
+    "ContactId": 141,
+    "ContactName": "Watsica Inc and Sons",
+    "Retired": 21,
+    "Rank": 727,
+    "ActiveInterests": 123,
     "ContactDepartment": "",
-    "ContactCountryId": 503,
-    "ContactOrgNr": "255397",
-    "FaxPhone": "(181)333-0016",
-    "MobilePhone": "715.328.0500 x43797",
-    "ContactPhone": "618.368.6388 x28026",
-    "AssociateName": "Rempel Group",
-    "AssociateId": 574,
-    "UsePersonAddress": false,
-    "ContactFax": "ut",
-    "Kanafname": "in",
-    "Kanalname": "voluptates",
-    "Post1": "nisi",
-    "Post2": "eveniet",
-    "Post3": "nobis",
-    "EmailName": "alene_gerhold@champlinherman.uk",
-    "ContactFullName": "Maegan D'Amore",
-    "ActiveErpLinks": 783,
-    "TicketPriorityId": 199,
-    "SupportLanguageId": 13,
-    "SupportAssociateId": 148,
+    "ContactCountryId": 375,
+    "ContactOrgNr": "1559208",
+    "FaxPhone": "618.336.6535",
+    "MobilePhone": "731.824.8056 x16245",
+    "ContactPhone": "182.748.9231 x011",
+    "AssociateName": "Mills, Kub and Shanahan",
+    "AssociateId": 103,
+    "UsePersonAddress": true,
+    "ContactFax": "laudantium",
+    "Kanafname": "officiis",
+    "Kanalname": "sed",
+    "Post1": "maxime",
+    "Post2": "repellat",
+    "Post3": "omnis",
+    "EmailName": "queenie.hackett@osinski.us",
+    "ContactFullName": "Garland Roberts",
+    "ActiveErpLinks": 884,
+    "TicketPriorityId": 735,
+    "SupportLanguageId": 79,
+    "SupportAssociateId": 69,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldType": "System.String",
+        "FieldLength": 927
       }
     }
   }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 464,
-  "TargetDimensionId": 117
+  "Year": 948,
+  "TargetDimensionId": 643
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 184,
+    "TargetAssignmentInfoId": 853,
     "Values": [
-      753,
-      30
+      220,
+      640
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 67,
-    "DimensionListItemDisplayName": "Maggio Group",
+    "DimensionListItem": 420,
+    "DimensionListItemDisplayName": "Lindgren Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 82
       }
     }
   }

@@ -470,7 +470,7 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=associate/simultaneousEjUser,person/email/emailLastBounce,person/personAddress/formattedMultiLineAddress,person/personUdef/SuperOffice:6,contact/contactExtra/x_contact_request_relation
+GET /api/v1/archive/ChatSession?$select=personId,person/legalBaseEmarketing,person/restrictionAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

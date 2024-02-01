@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Green LLC",
-  "ListItemId": 343,
+  "UdListDefinitionName": "Ebert-Douglas",
+  "ListItemId": 174,
   "UserGroups": [
     {
-      "Id": 786,
-      "Name": "Schimmel LLC",
-      "ToolTip": "Qui et optio doloremque.",
-      "Deleted": true,
-      "Rank": 395,
-      "Type": "expedita",
-      "ColorBlock": 412,
-      "IconHint": "labore",
-      "Selected": false,
-      "LastChanged": "2002-04-28T13:57:12.5118644+02:00",
+      "Id": 460,
+      "Name": "Ritchie-Dicki",
+      "ToolTip": "Quisquam ducimus rerum doloremque modi ut dolorem.",
+      "Deleted": false,
+      "Rank": 538,
+      "Type": "sunt",
+      "ColorBlock": 278,
+      "IconHint": "necessitatibus",
+      "Selected": true,
+      "LastChanged": "2017-06-20T23:03:56.2116229+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "vitae",
+      "ExtraInfo": "aliquid",
+      "StyleHint": "tempore",
       "Hidden": false,
-      "FullName": "Lincoln Beatty"
+      "FullName": "Osborne Emmerich"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Welch-Kirlin",
-    "ToolTip": "Odit voluptatum omnis in.",
-    "Deleted": true,
-    "Rank": 419,
-    "Type": "pariatur",
-    "ColorBlock": 511,
-    "IconHint": "facilis",
-    "Selected": true,
-    "LastChanged": "2021-02-17T13:57:12.5118644+01:00",
+    "Id": 247,
+    "Name": "Thiel, Morissette and Swift",
+    "ToolTip": "Odit qui ipsa ullam vitae est alias.",
+    "Deleted": false,
+    "Rank": 143,
+    "Type": "ea",
+    "ColorBlock": 694,
+    "IconHint": "veniam",
+    "Selected": false,
+    "LastChanged": "2019-01-28T23:03:56.2126276+01:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Bailey Inc and Sons",
-        "ToolTip": "Similique neque reiciendis sit est aut et.",
+        "Id": 463,
+        "Name": "Ondricka-Johnson",
+        "ToolTip": "Perspiciatis fuga sequi voluptas fuga quis enim dolorem.",
         "Deleted": false,
-        "Rank": 738,
-        "Type": "et",
-        "ColorBlock": 850,
-        "IconHint": "unde",
+        "Rank": 652,
+        "Type": "quia",
+        "ColorBlock": 689,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2004-06-19T13:57:12.5118644+02:00",
+        "LastChanged": "2014-02-11T23:03:56.2126276+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Ms. Aubrey Hahn",
+        "ExtraInfo": "et",
+        "StyleHint": "sapiente",
+        "Hidden": false,
+        "FullName": "Jayson Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldType": "System.String",
+            "FieldLength": 690
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Prof. Kian Connelly",
+    "ExtraInfo": "non",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Cristian Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldType": "System.String",
+        "FieldLength": 429
       }
     }
   }

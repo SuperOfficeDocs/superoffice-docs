@@ -632,7 +632,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactFax/description,sale/associate/assocType,personExtra/x_person_hidden_integer
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactExtra/x_contact_time,appointment/location,appointment/associate/otherGroups,document/associate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

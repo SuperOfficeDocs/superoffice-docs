@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 765,
+  "ShipmentMessageId": 838,
   "PlainMessage": "et",
-  "HtmlMessage": "error",
-  "SmsMessage": "ut",
-  "Description": "Configurable hybrid alliance",
-  "Subject": "qui",
-  "FolderId": 442,
-  "HeaderField": "sequi",
-  "Design": "numquam",
+  "HtmlMessage": "ipsa",
+  "SmsMessage": "eum",
+  "Description": "Advanced non-volatile architecture",
+  "Subject": "nemo",
+  "FolderId": 368,
+  "HeaderField": "et",
+  "Design": "maiores",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Business-focused value-added analyzer",
-  "AccessKey": "aperiam",
-  "DocumentMessage": 886,
-  "Registered": "2019-08-05T13:57:19.2815227+02:00",
-  "RegisteredAssociateId": 991,
-  "Updated": "2001-03-20T13:57:19.2815227+01:00",
-  "UpdatedAssociateId": 265,
-  "UpdatedCount": 44,
+  "LongDescription": "Down-sized leading edge firmware",
+  "AccessKey": "numquam",
+  "DocumentMessage": 681,
+  "Registered": "2013-08-27T23:04:04.8049787+02:00",
+  "RegisteredAssociateId": 488,
+  "Updated": "2022-07-09T23:04:04.8049787+02:00",
+  "UpdatedAssociateId": 509,
+  "UpdatedCount": 137,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 59
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 131
+  "ContactId": 970
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 753,
-    "Name": "Sawayn Group",
-    "Description": "Fully-configurable scalable architecture",
+    "ProjectId": 436,
+    "Name": "Schultz-O'Keefe",
+    "Description": "Innovative radical focus group",
     "URL": "http://www.example.com/",
-    "Type": "aliquid",
-    "AssociateId": 593,
-    "AssociateFullName": "Mrs. Frederick Gertrude Sanford II",
-    "TypeId": 174,
-    "Updated": "2023-01-17T13:57:13.0011314+01:00",
-    "StatusId": 212,
-    "Status": "quidem",
-    "TextId": 757,
-    "PublishTo": "2013-11-08T13:57:13.0011314+01:00",
-    "PublishFrom": "2003-11-12T13:57:13.0011314+01:00",
+    "Type": "ut",
+    "AssociateId": 475,
+    "AssociateFullName": "Ms. Margot Marjory Pfeffer",
+    "TypeId": 607,
+    "Updated": "2017-06-04T23:03:56.6856194+02:00",
+    "StatusId": 89,
+    "Status": "suscipit",
+    "TextId": 388,
+    "PublishTo": "2000-04-05T23:03:56.6856194+02:00",
+    "PublishFrom": "2012-12-06T23:03:56.6856194+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1028092",
-    "ActiveErpLinks": 843,
+    "ProjectNumber": "1136327",
+    "ActiveErpLinks": 757,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldLength": 826
       }
     }
   }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Witting Inc and Sons",
-    "AssociateId": 351,
-    "DetailsTable": 568,
-    "DetailsRecord": 800,
+    "Id": 706,
+    "Name": "Buckridge Inc and Sons",
+    "AssociateId": 912,
+    "DetailsTable": 416,
+    "DetailsRecord": 847,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "ipsum",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "ducimus",
+      "ParameterObject2": "autem"
     },
-    "LastStarted": "2008-11-25T13:57:11.5594343+01:00",
-    "Created": "1997-12-08T13:57:11.5594343+01:00",
-    "StartCount": 470,
-    "DatabaseSerialNumber": "1113365",
-    "Context": "sapiente",
-    "Result": "quis",
+    "LastStarted": "2010-09-19T23:03:55.0196428+02:00",
+    "Created": "2010-08-06T23:03:55.0196428+02:00",
+    "StartCount": 55,
+    "DatabaseSerialNumber": "1090850",
+    "Context": "aspernatur",
+    "Result": "quia",
     "State": "All",
-    "Description": "Ergonomic encompassing help-desk",
-    "Response": "vel",
-    "Request": "placeat",
-    "ProgressDescription": "Innovative bandwidth-monitored contingency",
-    "ProgressPercent": 119,
-    "FileName": "Dach Group",
+    "Description": "Cross-group systematic task-force",
+    "Response": "maxime",
+    "Request": "explicabo",
+    "ProgressDescription": "Reduced client-server groupware",
+    "ProgressPercent": 241,
+    "FileName": "Wilderman, Rippin and Dickens",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldType": "System.String",
+        "FieldLength": 491
       }
     }
   }

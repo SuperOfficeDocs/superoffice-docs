@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "aliquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "aliquam",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 434,
-  "Name": "Grady-Schimmel",
-  "CreatedDate": "2002-08-31T13:57:18.8109737+02:00",
-  "UpdatedDate": "2007-05-02T13:57:18.8109737+02:00",
+  "ForeignAppId": 645,
+  "Name": "Leannon, Quigley and Bartell",
+  "CreatedDate": "2019-09-16T23:04:04.2180251+02:00",
+  "UpdatedDate": "2007-03-28T23:04:04.2180251+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 434,
-      "Name": "Mitchell Group",
-      "CreatedDate": "2002-04-18T13:57:18.8109737+02:00",
-      "UpdatedDate": "2016-10-23T13:57:18.8109737+02:00",
-      "AssociateFullName": "Delfina Schimmel",
-      "CreatedBy": "exercitationem",
-      "UpdatedBy": "iure",
-      "DeviceIdentifier": "minus",
-      "ForeignAppId": 249,
+      "ForeignDeviceId": 522,
+      "Name": "Huels-Klein",
+      "CreatedDate": "1996-12-03T23:04:04.2185167+01:00",
+      "UpdatedDate": "2021-05-09T23:04:04.2185167+02:00",
+      "AssociateFullName": "Arturo Okuneva",
+      "CreatedBy": "eos",
+      "UpdatedBy": "deserunt",
+      "DeviceIdentifier": "ratione",
+      "ForeignAppId": 11,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 325
+          "FieldLength": 215
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldType": "System.String",
+      "FieldLength": 736
     }
   },
   "_Links": {

@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 657,
-    "Name": "Harber Inc and Sons",
-    "Tooltip": "est",
-    "SaveInDb": 22,
-    "Filename": "quos",
-    "DefaultOref": "exercitationem",
+    "DocumentTemplateId": 358,
+    "Name": "Schmitt, Johnston and Bahringer",
+    "Tooltip": "accusantium",
+    "SaveInDb": 983,
+    "Filename": "recusandae",
+    "DefaultOref": "molestiae",
     "RecordType": "Appointment",
-    "Deleted": 624,
+    "Deleted": 617,
     "Direction": "Incoming",
-    "AutoeventId": 767,
+    "AutoeventId": 27,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 557
       }
     }
   }

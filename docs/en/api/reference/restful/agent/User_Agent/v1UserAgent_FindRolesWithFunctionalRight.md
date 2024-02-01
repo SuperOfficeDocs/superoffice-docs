@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Goldner Group"
+  "FunctionalRightName": "Mueller LLC"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Pagac Group",
-    "ToolTip": "Omnis ipsum est minus nisi est eos.",
+    "Id": 684,
+    "Name": "McCullough LLC",
+    "ToolTip": "In qui.",
     "Deleted": false,
-    "Rank": 619,
-    "Type": "omnis",
+    "Rank": 544,
+    "Type": "dolorum",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Jones-Halvorson",
-        "ToolTip": "Vitae sunt recusandae ex dolor.",
+        "Id": 306,
+        "Name": "Dickinson, Toy and Considine",
+        "ToolTip": "Consectetur molestiae doloribus porro.",
         "Deleted": false,
-        "Rank": 528,
-        "Type": "suscipit",
+        "Rank": 747,
+        "Type": "possimus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 839,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "modi",
-        "FullName": "Ken Orpha O'Keefe V",
+        "IconHint": "expedita",
+        "ColorBlock": 654,
+        "ExtraInfo": "magnam",
+        "StyleHint": "distinctio",
+        "FullName": "Dwight Jayda Becker III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldLength": 945
           }
         }
       }
     ],
-    "IconHint": "maxime",
-    "ColorBlock": 516,
-    "ExtraInfo": "debitis",
-    "StyleHint": "ut",
-    "FullName": "Anjali Considine",
+    "IconHint": "rerum",
+    "ColorBlock": 563,
+    "ExtraInfo": "eos",
+    "StyleHint": "pariatur",
+    "FullName": "Alfredo Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldType": "System.String",
+        "FieldLength": 607
       }
     }
   }

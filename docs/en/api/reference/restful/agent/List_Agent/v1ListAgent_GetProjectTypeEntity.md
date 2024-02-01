@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=21
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=798
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 230,
-  "Name": "Harber, Lesch and Corwin",
-  "Tooltip": "placeat",
-  "Rank": 509,
+  "ProjTypeId": 283,
+  "Name": "Heller, Williamson and Kunze",
+  "Tooltip": "sit",
+  "Rank": 622,
   "DurationUnit": "Century",
-  "ProjectDuration": 159,
-  "Deleted": true,
-  "HasGuide": false,
+  "ProjectDuration": 644,
+  "Deleted": false,
+  "HasGuide": true,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 43,
-      "Name": "Ortiz, Kunde and Cruickshank",
-      "ToolTip": "Quisquam doloribus rem.",
-      "Deleted": true,
-      "Rank": 860,
-      "Type": "itaque",
-      "ColorBlock": 820,
-      "IconHint": "vitae",
-      "Selected": false,
-      "LastChanged": "2022-01-08T13:57:12.4806109+01:00",
+      "Id": 865,
+      "Name": "Barton-Schowalter",
+      "ToolTip": "Enim mollitia et hic alias suscipit.",
+      "Deleted": false,
+      "Rank": 811,
+      "Type": "tempore",
+      "ColorBlock": 778,
+      "IconHint": "velit",
+      "Selected": true,
+      "LastChanged": "1998-01-07T23:03:56.1806266+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vitae",
-      "StyleHint": "minus",
+      "ExtraInfo": "deserunt",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Dr. Rosalinda Dach",
+      "FullName": "Mrs. Adah Grant II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldType": "System.String",
+          "FieldLength": 538
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 714
     }
   }
 }

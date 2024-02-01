@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=pariatur
+GET /api/v1/List/Priority/MDOItems?query=eaque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Harvey Inc and Sons",
-    "ToolTip": "Omnis sunt aut occaecati non voluptatem nam.",
-    "Deleted": true,
-    "Rank": 389,
-    "Type": "similique",
+    "Id": 800,
+    "Name": "Corkery, Towne and Schiller",
+    "ToolTip": "Veniam ipsam sit sed rem.",
+    "Deleted": false,
+    "Rank": 971,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 486,
-        "Name": "Hagenes-Hamill",
-        "ToolTip": "Aut ullam eum magni sit.",
+        "Id": 830,
+        "Name": "Hegmann-Olson",
+        "ToolTip": "Architecto nisi.",
         "Deleted": false,
-        "Rank": 945,
-        "Type": "eius",
+        "Rank": 319,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "animi",
-        "ColorBlock": 49,
-        "ExtraInfo": "est",
-        "StyleHint": "optio",
-        "FullName": "Breana Marks",
+        "IconHint": "architecto",
+        "ColorBlock": 722,
+        "ExtraInfo": "repellat",
+        "StyleHint": "explicabo",
+        "FullName": "Mrs. Mazie Watson Osinski MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 728
+            "FieldType": "System.Int32",
+            "FieldLength": 905
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 363,
-    "ExtraInfo": "et",
-    "StyleHint": "dolorem",
-    "FullName": "Dr. Rocio Zakary Veum V",
+    "IconHint": "quia",
+    "ColorBlock": 823,
+    "ExtraInfo": "sed",
+    "StyleHint": "tenetur",
+    "FullName": "Gerhard Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldLength": 826
       }
     }
   }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 625,
-  "ColumnId": 923,
-  "FieldDefault": "fugiat",
-  "FieldHeight": 456,
-  "FieldLabel": "itaque",
-  "FieldLeft": 577,
-  "FieldTop": 296,
+  "UDefFieldId": 683,
+  "ColumnId": 683,
+  "FieldDefault": "delectus",
+  "FieldHeight": 302,
+  "FieldLabel": "et",
+  "FieldLeft": 496,
+  "FieldTop": 74,
   "FieldType": "Checkbox",
-  "FieldWidth": 428,
-  "FormatMask": "voluptas",
+  "FieldWidth": 220,
+  "FormatMask": "sint",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 625,
-  "LabelLeft": 626,
-  "LabelTop": 710,
-  "LabelWidth": 176,
-  "LastVersionId": 483,
-  "ListTableId": 951,
+  "LabelHeight": 815,
+  "LabelLeft": 741,
+  "LabelTop": 562,
+  "LabelWidth": 863,
+  "LastVersionId": 805,
+  "ListTableId": 363,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 336,
-  "ProgId": "nobis",
+  "Page1LineNo": 804,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "sint",
-  "TabOrder": 54,
-  "TextLength": 379,
-  "Tooltip": "eos",
-  "UdefIdentity": 483,
-  "UDListDefinitionId": 557,
+  "ShortLabel": "quia",
+  "TabOrder": 526,
+  "TextLength": 748,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 951,
+  "UDListDefinitionId": 910,
   "Justification": "Center",
-  "Version": 744,
-  "TemplateVariableName": "Weimann, Lindgren and Johnston",
+  "Version": 580,
+  "TemplateVariableName": "Treutel-Gorczany",
   "HasBeenPublished": false,
-  "MdoListName": "Abbott-Armstrong",
+  "MdoListName": "Walter Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   }
 }

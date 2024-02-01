@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Mueller-Armstrong",
-    "ToolTip": "Laboriosam quasi doloremque odit ab mollitia.",
-    "Deleted": false,
-    "Rank": 163,
-    "Type": "omnis",
-    "ColorBlock": 990,
-    "IconHint": "quia",
+    "Id": 819,
+    "Name": "Beer, Rath and Gutmann",
+    "ToolTip": "Alias repellendus suscipit.",
+    "Deleted": true,
+    "Rank": 208,
+    "Type": "beatae",
+    "ColorBlock": 335,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2008-02-14T13:57:20.1109105+01:00",
+    "LastChanged": "2002-06-18T23:04:05.8014976+02:00",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Hudson Inc and Sons",
-        "ToolTip": "Hic et cum non et nesciunt fugiat quia.",
+        "Id": 141,
+        "Name": "Bogisich LLC",
+        "ToolTip": "Dolor labore nam.",
         "Deleted": false,
-        "Rank": 101,
+        "Rank": 940,
         "Type": "est",
-        "ColorBlock": 445,
-        "IconHint": "fugit",
+        "ColorBlock": 188,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2022-05-10T13:57:20.1109105+02:00",
+        "LastChanged": "2021-03-30T23:04:05.8014976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "quasi",
-        "Hidden": true,
-        "FullName": "Ottilie Quigley"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "libero",
+        "Hidden": false,
+        "FullName": "Romaine Malinda Zieme Sr."
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "officia",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Ms. Marcus McDermott PhD"
+    "FullName": "Janet Langosh"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Grimes LLC",
-    "ToolTip": "Impedit minus atque praesentium sint excepturi.",
+    "Id": 630,
+    "Name": "Shanahan, Larson and Boehm",
+    "ToolTip": "Ex asperiores nostrum aliquid officiis ea eius dignissimos.",
     "Deleted": false,
-    "Rank": 642,
-    "Type": "veritatis",
-    "ColorBlock": 833,
-    "IconHint": "labore",
-    "Selected": true,
-    "LastChanged": "1997-05-08T13:57:20.1265357+02:00",
+    "Rank": 131,
+    "Type": "consequatur",
+    "ColorBlock": 893,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2004-11-05T23:04:05.803996+01:00",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Hamill LLC",
-        "ToolTip": "Optio officiis nobis.",
+        "Id": 614,
+        "Name": "Denesik-Paucek",
+        "ToolTip": "Ut provident a ut necessitatibus aut.",
         "Deleted": true,
-        "Rank": 606,
-        "Type": "laudantium",
-        "ColorBlock": 758,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2004-12-18T13:57:20.1265357+01:00",
+        "Rank": 334,
+        "Type": "hic",
+        "ColorBlock": 32,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2016-12-13T23:04:05.803996+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "aperiam",
         "Hidden": true,
-        "FullName": "Antone Grady",
+        "FullName": "Johanna Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 423
+            "FieldLength": 920
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "similique",
-    "Hidden": false,
-    "FullName": "Reina Block",
+    "ExtraInfo": "quia",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Dr. Leo Ramon Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 304
       }
     }
   }

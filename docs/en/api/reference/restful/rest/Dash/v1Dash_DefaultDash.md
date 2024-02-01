@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 300,
-  "UniqueId": "aut",
-  "Name": "Wunsch-Gaylord",
-  "Description": "Triple-buffered zero tolerance local area network",
-  "AssociateId": 6,
-  "Columns": 923,
+  "DashboardId": 504,
+  "UniqueId": "et",
+  "Name": "Bashirian-Gottlieb",
+  "Description": "Reactive demand-driven intranet",
+  "AssociateId": 37,
+  "Columns": 395,
   "Theme": null,
-  "VisibleForAll": 838,
+  "VisibleForAll": 10,
   "VisibleForAssociates": [
-    365,
-    249
+    853,
+    434
   ],
   "VisibleForGroups": [
-    178,
-    34
+    775,
+    917
   ],
-  "PinForAll": 858,
+  "PinForAll": 748,
   "PinForAssociates": [
-    248,
-    43
+    606,
+    605
   ],
   "PinForGroups": [
-    623,
-    524
+    472,
+    741
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

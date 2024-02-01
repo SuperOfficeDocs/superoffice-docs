@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wolf-Cormier"
+  "Name": "Wisozk-Pacocha"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "O'Connell, Gleason and Bailey",
-    "ToolTip": "Consequatur eum est sunt quos.",
+    "Id": 550,
+    "Name": "Mohr-Balistreri",
+    "ToolTip": "Facere impedit aut cupiditate delectus.",
     "Deleted": true,
-    "Rank": 596,
-    "Type": "debitis",
-    "ColorBlock": 385,
-    "IconHint": "ut",
+    "Rank": 1002,
+    "Type": "corporis",
+    "ColorBlock": 442,
+    "IconHint": "expedita",
     "Selected": true,
-    "LastChanged": "2017-07-28T13:57:12.6068289+02:00",
+    "LastChanged": "2000-03-15T23:03:56.345624+01:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Marks Inc and Sons",
-        "ToolTip": "Aut voluptatem id pariatur.",
+        "Id": 141,
+        "Name": "Hodkiewicz, Windler and Smitham",
+        "ToolTip": "In dolore dolores soluta voluptatem saepe.",
         "Deleted": false,
-        "Rank": 722,
-        "Type": "est",
-        "ColorBlock": 194,
-        "IconHint": "voluptate",
-        "Selected": false,
-        "LastChanged": "2002-09-26T13:57:12.6068289+02:00",
+        "Rank": 147,
+        "Type": "quidem",
+        "ColorBlock": 846,
+        "IconHint": "iste",
+        "Selected": true,
+        "LastChanged": "2006-12-04T23:03:56.3461315+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "nam",
+        "ExtraInfo": "in",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Miss Raina Langworth",
+        "FullName": "Jose Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 72
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "eaque",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "sapiente",
     "Hidden": false,
-    "FullName": "Meda Herminia Jenkins PhD",
+    "FullName": "Maurine Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   }

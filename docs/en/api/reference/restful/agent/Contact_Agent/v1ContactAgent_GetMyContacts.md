@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 639,
-    "Name": "McClure-Herzog",
-    "OrgNr": "973926",
+    "ContactId": 214,
+    "Name": "Pfeffer, Morissette and Greenfelder",
+    "OrgNr": "1032420",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "nisi",
-    "DirectPhone": "174.851.3355 x1958",
-    "AssociateId": 86,
-    "CountryId": 388,
-    "EmailAddress": "osbaldo.gutmann@kling.biz",
-    "Kananame": "consequatur",
-    "EmailAddressName": "marge@kohler.info",
+    "City": "temporibus",
+    "DirectPhone": "705-476-5468",
+    "AssociateId": 422,
+    "CountryId": 867,
+    "EmailAddress": "evans@block.name",
+    "Kananame": "voluptatum",
+    "EmailAddressName": "clint@rutherfordmiller.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ismael Howell",
+    "AssociateFullName": "Kylee Powlowski",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "consequuntur",
-    "FullName": "Kayleigh Lorenzo Lockman Jr.",
+    "FormattedAddress": "eligendi",
+    "FullName": "Ralph McKenzie",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 324,
-    "Number1": "1208445",
-    "Number2": "1116341",
+    "ActiveErpLinks": 331,
+    "Number1": "1401284",
+    "Number2": "1422742",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldLength": 609
       }
     }
   }

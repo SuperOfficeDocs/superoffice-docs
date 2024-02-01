@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Toy LLC",
-    "ToolTip": "Repudiandae ut exercitationem voluptatem.",
+    "Id": 707,
+    "Name": "McLaughlin Group",
+    "ToolTip": "Dolores nulla culpa deserunt.",
     "Deleted": false,
-    "Rank": 455,
-    "Type": "ipsam",
-    "ColorBlock": 761,
-    "IconHint": "dicta",
+    "Rank": 589,
+    "Type": "dolor",
+    "ColorBlock": 121,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "1997-02-24T13:57:19.9221765+01:00",
+    "LastChanged": "2000-07-28T23:04:05.6834989+02:00",
     "ChildItems": [
       {
-        "Id": 103,
-        "Name": "Pollich Inc and Sons",
-        "ToolTip": "Repellat consectetur voluptatum.",
+        "Id": 722,
+        "Name": "Leuschke, Reichert and Klocko",
+        "ToolTip": "Qui et doloribus ut ea.",
         "Deleted": false,
-        "Rank": 841,
-        "Type": "tenetur",
-        "ColorBlock": 207,
-        "IconHint": "provident",
+        "Rank": 183,
+        "Type": "voluptas",
+        "ColorBlock": 813,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2006-01-16T13:57:19.9221765+01:00",
+        "LastChanged": "2008-12-05T23:04:05.6839972+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Helena Glover",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Brock Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 79
+            "FieldLength": 5
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "quia",
+    "ExtraInfo": "eum",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Nelda Brekke",
+    "FullName": "Eladio Koelpin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldLength": 383
       }
     }
   }

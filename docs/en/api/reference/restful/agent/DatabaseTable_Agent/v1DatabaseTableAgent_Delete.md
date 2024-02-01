@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rice LLC",
+  "TableName": "Franecki-Oberbrunner",
   "IDs": [
-    218,
-    447
+    657,
+    805
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "et",
-  "Inserts": 91,
-  "Updates": 586,
-  "Deletes": 197,
+  "Message": "iusto",
+  "Inserts": 778,
+  "Updates": 445,
+  "Deletes": 898,
   "RowStatus": [
     {
-      "PrimaryKey": 552,
+      "PrimaryKey": 654,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "officiis"
+        "hic",
+        "fugiat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldLength": 163
         }
       }
     },
     {
-      "PrimaryKey": 552,
+      "PrimaryKey": 654,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "officiis"
+        "hic",
+        "fugiat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldLength": 163
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldLength": 560
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Cole Inc and Sons",
-    "ToolTip": "Eum beatae eligendi corrupti dolor.",
-    "Deleted": false,
-    "Rank": 846,
-    "Type": "atque",
-    "ColorBlock": 455,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2013-06-18T13:57:20.1265357+02:00",
+    "Id": 979,
+    "Name": "Hyatt, Christiansen and Will",
+    "ToolTip": "Nostrum est expedita.",
+    "Deleted": true,
+    "Rank": 527,
+    "Type": "illum",
+    "ColorBlock": 939,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2001-02-27T23:04:05.8824958+01:00",
     "ChildItems": [
       {
-        "Id": 768,
-        "Name": "Runte LLC",
-        "ToolTip": "Cum totam provident inventore impedit explicabo occaecati.",
-        "Deleted": true,
-        "Rank": 838,
-        "Type": "distinctio",
-        "ColorBlock": 951,
-        "IconHint": "quas",
-        "Selected": true,
-        "LastChanged": "1997-11-21T13:57:20.1265357+01:00",
+        "Id": 416,
+        "Name": "Corwin Group",
+        "ToolTip": "In saepe.",
+        "Deleted": false,
+        "Rank": 473,
+        "Type": "quia",
+        "ColorBlock": 539,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2022-11-15T23:04:05.8829944+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Mrs. Harold Runolfsson II"
+        "ExtraInfo": "non",
+        "StyleHint": "maxime",
+        "Hidden": true,
+        "FullName": "Lorenzo Reinger"
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "id",
+    "ExtraInfo": "fugit",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Jordi Ferry"
+    "FullName": "Prof. Blaze Lynch III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Rogahn-Jenkins",
-    "ToolTip": "Maiores dolorem qui vero.",
-    "Deleted": true,
-    "Rank": 883,
-    "Type": "praesentium",
-    "ColorBlock": 790,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2020-05-06T13:57:20.1265357+02:00",
+    "Id": 233,
+    "Name": "Johns LLC",
+    "ToolTip": "Quia quia consequuntur facilis totam autem.",
+    "Deleted": false,
+    "Rank": 533,
+    "Type": "voluptatem",
+    "ColorBlock": 850,
+    "IconHint": "blanditiis",
+    "Selected": false,
+    "LastChanged": "2002-10-22T23:04:05.8974936+02:00",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Heidenreich LLC",
-        "ToolTip": "Autem et velit aut nostrum praesentium ea.",
+        "Id": 280,
+        "Name": "Mayer Group",
+        "ToolTip": "Similique eius itaque sit omnis excepturi.",
         "Deleted": false,
-        "Rank": 694,
-        "Type": "qui",
-        "ColorBlock": 810,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2021-09-02T13:57:20.1265357+02:00",
+        "Rank": 621,
+        "Type": "numquam",
+        "ColorBlock": 914,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "2020-12-23T23:04:05.8979967+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "accusantium",
-        "Hidden": true,
-        "FullName": "Prof. Newell Sauer II",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Ms. Henriette Francesco Mayer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 213
+            "FieldType": "System.Int32",
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "expedita",
-    "Hidden": false,
-    "FullName": "Sven Deckow II",
+    "ExtraInfo": "quis",
+    "StyleHint": "libero",
+    "Hidden": true,
+    "FullName": "Paris Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 874
       }
     }
   }

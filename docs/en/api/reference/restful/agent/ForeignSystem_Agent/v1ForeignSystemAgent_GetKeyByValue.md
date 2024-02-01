@@ -88,11 +88,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Collier, Bayer and Nikolaus",
-  "DeviceName": "Cronin-Hudson",
-  "KeyName": "Wehner-Gleason",
-  "KeyValue": "repudiandae",
-  "TableName": "Lueilwitz-Brakus"
+  "ApplicationName": "Weissnat Group",
+  "DeviceName": "Gorczany Inc and Sons",
+  "KeyName": "Schumm-Kshlerin",
+  "KeyValue": "adipisci",
+  "TableName": "Bergstrom-Grant"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "incidunt",
-  "Value": "enim",
-  "RecordId": 458,
-  "CreatedDate": "2017-08-19T13:57:12.4181107+02:00",
-  "UpdatedDate": "2001-11-05T13:57:12.4181107+01:00",
-  "UpdatedBy": "dolor",
-  "CreatedBy": "itaque",
-  "TableName": "Spencer-Kuhic",
+  "Key": "illum",
+  "Value": "temporibus",
+  "RecordId": 211,
+  "CreatedDate": "1999-04-11T23:03:56.118128+02:00",
+  "UpdatedDate": "2005-07-15T23:03:56.118128+02:00",
+  "UpdatedBy": "blanditiis",
+  "CreatedBy": "quia",
+  "TableName": "Pagac Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldType": "System.String",
+      "FieldLength": 483
     }
   }
 }

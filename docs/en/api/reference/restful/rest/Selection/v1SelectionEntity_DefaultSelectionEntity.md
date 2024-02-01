@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 11 Oct 2000 13:57:19 G10T
+Last-Modified: Sat, 13 Oct 2012 23:04:04 G10T
 
 {
-  "Description": "Advanced modular functionalities",
-  "Postit": "quis",
+  "Description": "Self-enabling empowering budgetary management",
+  "Postit": "facere",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 740,
-  "IncludePerson": 378,
-  "MemberCount": 205,
-  "Name": "Hirthe LLC",
-  "PostitTextId": 463,
-  "CreatedDate": "2008-03-07T13:57:19.2502736+01:00",
-  "SelectionId": 228,
-  "SoundEx": "et",
-  "Source": 311,
-  "TextId": 831,
-  "UpdatedDate": "2000-10-11T13:57:19.2502736+02:00",
-  "UpdatedCount": 161,
-  "Visibility": 135,
+  "GroupIdx": 959,
+  "IncludePerson": 158,
+  "MemberCount": 148,
+  "Name": "Block-Durgan",
+  "PostitTextId": 633,
+  "CreatedDate": "2007-11-11T23:04:04.7625111+01:00",
+  "SelectionId": 892,
+  "SoundEx": "esse",
+  "Source": 134,
+  "TextId": 711,
+  "UpdatedDate": "2012-10-13T23:04:04.7625111+02:00",
+  "UpdatedCount": 491,
+  "Visibility": 757,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 149,
-  "TargetTableName": "Weimann-Powlowski",
+  "TargetTableNumber": 522,
+  "TargetTableName": "Wehner Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 346,
-  "RightSelectionId": 405,
+  "LeftSelectionId": 410,
+  "RightSelectionId": 326,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mraz Group",
-  "ShadowProviderName": "Kuhlman, Cremin and Lehner",
-  "ChartKey": "maxime",
-  "LastLoaded": "2006-06-18T13:57:19.2502736+02:00",
-  "LastLoadedBy": 136,
+  "MainProviderName": "DuBuque LLC",
+  "ShadowProviderName": "Schulist Inc and Sons",
+  "ChartKey": "ad",
+  "LastLoaded": "2021-03-31T23:04:04.7625111+02:00",
+  "LastLoadedBy": 858,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-07-14T13:57:19.2502736+02:00",
-  "LastMembershipChangeBy": 339,
+  "LastMembershipChange": "2012-08-23T23:04:04.7630092+02:00",
+  "LastMembershipChangeBy": 362,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nam",
-  "MemberTabHeading": "occaecati",
-  "MailingsProviderName": "Gorczany-Pacocha",
-  "DashboardTileDefinitionId": 381,
+  "MainHeading": "accusamus",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Conn-Tromp",
+  "DashboardTileDefinitionId": 22,
   "VisibleFor": [
     {
-      "VisibleId": 683,
+      "VisibleId": 967,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldLength": 727
         }
       }
     },
     {
-      "VisibleId": 683,
+      "VisibleId": 967,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldLength": 727
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Wed, 11 Oct 2000 13:57:19 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 376
     }
   }
 }

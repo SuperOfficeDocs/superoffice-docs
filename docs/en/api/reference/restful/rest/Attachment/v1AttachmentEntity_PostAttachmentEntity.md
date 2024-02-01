@@ -88,17 +88,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 2,
-  "Name": "O'Kon-Green",
-  "ContentType": "quisquam",
-  "AttSize": 49,
+  "AttachmentId": 327,
+  "Name": "Rice, Dietrich and Koch",
+  "ContentType": "rem",
+  "AttSize": 582,
   "InlineImage": false,
-  "ContentId": "saepe",
-  "AuthKey": "voluptas"
+  "ContentId": "eum",
+  "AuthKey": "vero"
 }
 ```
 
@@ -109,24 +109,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 301,
-  "Name": "Raynor Group",
-  "ContentType": "earum",
-  "AttSize": 671,
-  "InlineImage": false,
-  "ContentId": "voluptatibus",
-  "AuthKey": "ut",
+  "AttachmentId": 203,
+  "Name": "Ruecker, Weissnat and Greenholt",
+  "ContentType": "dolorum",
+  "AttSize": 780,
+  "InlineImage": true,
+  "ContentId": "at",
+  "AuthKey": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 866
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

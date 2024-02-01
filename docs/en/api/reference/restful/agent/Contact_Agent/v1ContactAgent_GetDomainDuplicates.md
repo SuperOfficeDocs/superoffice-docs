@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "sapiente"
+  "Domain": "nostrum"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Keeling LLC",
-    "SoPrimaryKey": 700,
-    "EntryName": "Kshlerin, Goldner and Deckow",
-    "EntryIdentifier": "repellat",
-    "RuleDisplayName": "Von-Kerluke",
+    "RuleName": "Walsh-Batz",
+    "SoPrimaryKey": 792,
+    "EntryName": "McGlynn, Kirlin and Bradtke",
+    "EntryIdentifier": "in",
+    "RuleDisplayName": "Predovic, Botsford and Gutkowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldLength": 438
       }
     }
   }

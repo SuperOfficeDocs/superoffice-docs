@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 420,
-  "Name": "Kassulke, Pollich and Bernier",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "Rank": 516,
-  "UdListDefinitionId": 700
+  "HeadingId": 440,
+  "Name": "McDermott-Armstrong",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 17,
+  "UdListDefinitionId": 986
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 864,
-  "Name": "Pagac, Nolan and Bogisich",
-  "Tooltip": "voluptatem",
+  "HeadingId": 569,
+  "Name": "Watsica Inc and Sons",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 840,
-  "UdListDefinitionId": 736,
+  "Rank": 346,
+  "UdListDefinitionId": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

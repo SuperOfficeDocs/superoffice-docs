@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellat",
+    "path": "nemo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellat",
+    "path": "nemo",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 83,
-  "Name": "Turner-Hagenes",
+  "ScreenChooserId": 998,
+  "Name": "Eichmann Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quis",
-  "Source": "nam",
-  "Registered": "2021-06-26T13:57:19.4221461+02:00",
-  "RegisteredAssociateId": 740,
-  "Updated": "2017-11-17T13:57:19.4221461+01:00",
-  "UpdatedAssociateId": 107,
+  "UniqueIdentifier": "et",
+  "Source": "dolorum",
+  "Registered": "2016-01-25T23:04:05.0000081+01:00",
+  "RegisteredAssociateId": 53,
+  "Updated": "2006-02-27T23:04:05.0000081+01:00",
+  "UpdatedAssociateId": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   },
   "_Links": {

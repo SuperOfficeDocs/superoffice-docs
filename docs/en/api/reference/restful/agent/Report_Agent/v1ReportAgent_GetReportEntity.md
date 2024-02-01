@@ -26,7 +26,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=436
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=293
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Report/GetReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 460,
+  "ReportId": 936,
   "ReportCategory": "All",
-  "Description": "Devolved intangible initiative",
+  "Description": "Exclusive mission-critical success",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hoeger, D'Amore and Volkman",
-  "AssociateId": 501,
-  "TemplateId": 218,
-  "Published": false,
+  "Name": "Zieme, Crona and Dickinson",
+  "AssociateId": 294,
+  "TemplateId": 251,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   }
 }

@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Goyette LLC",
-  "DeviceName": "Hane LLC",
-  "DeviceIdentifier": "unde"
+  "ApplicationName": "Keeling, Fadel and Lockman",
+  "DeviceName": "Satterfield-West",
+  "DeviceIdentifier": "ut"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sequi",
-  "Value": "rem",
-  "RecordId": 731,
-  "CreatedDate": "2015-05-31T13:57:12.4181107+02:00",
-  "UpdatedDate": "2010-09-19T13:57:12.4181107+02:00",
-  "UpdatedBy": "facere",
-  "CreatedBy": "sit",
-  "TableName": "Herman, Cartwright and Johnston",
+  "Key": "earum",
+  "Value": "quidem",
+  "RecordId": 271,
+  "CreatedDate": "2005-05-08T23:03:56.1161279+02:00",
+  "UpdatedDate": "2009-05-11T23:03:56.1161279+02:00",
+  "UpdatedBy": "sit",
+  "CreatedBy": "voluptatum",
+  "TableName": "Murray-Buckridge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 835
     }
   }
 }

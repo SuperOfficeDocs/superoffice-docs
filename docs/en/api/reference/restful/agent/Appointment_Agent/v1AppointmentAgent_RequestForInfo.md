@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 938,
-  "Channel": "neque",
-  "Regarding": "voluptas",
-  "ContactName": "Walsh-Kautzer",
-  "PersonFirstname": "Dedrick",
-  "PersonLastname": "Harvey",
-  "EmailAddress": "dora_hahn@beer.us",
-  "PhoneNumber": "1735261"
+  "AssociateIdForNewContact": 66,
+  "Channel": "veniam",
+  "Regarding": "maxime",
+  "ContactName": "King Inc and Sons",
+  "PersonFirstname": "Marianna",
+  "PersonLastname": "Doyle",
+  "EmailAddress": "waldo.howell@zemlak.uk",
+  "PhoneNumber": "693474"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 86,
-      "Name": "Huels, Herman and Morissette",
-      "OrgNr": "1585112",
+      "ContactId": 863,
+      "Name": "Macejkovic-Windler",
+      "OrgNr": "1631850",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "iure",
-      "DirectPhone": "1-388-745-0868 x168",
-      "AssociateId": 398,
-      "CountryId": 86,
-      "EmailAddress": "emmanuelle_morar@strackeschneider.ca",
-      "Kananame": "voluptatem",
-      "EmailAddressName": "larissa@bashirian.co.uk",
+      "City": "et",
+      "DirectPhone": "031-831-2163 x28604",
+      "AssociateId": 779,
+      "CountryId": 531,
+      "EmailAddress": "natasha@casper.us",
+      "Kananame": "nemo",
+      "EmailAddressName": "kris_cummerata@koepp.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Devonte Wintheiser",
+      "AssociateFullName": "River Vesta Ebert V",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "doloribus",
-      "FullName": "Hermann Mann",
+      "FormattedAddress": "minus",
+      "FullName": "Margarete Connelly",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 609,
-      "Number1": "305660",
-      "Number2": "1540688",
+      "ActiveErpLinks": 30,
+      "Number1": "1217688",
+      "Number2": "1400889",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 903
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldType": "System.Int32",
+      "FieldLength": 579
     }
   }
 }

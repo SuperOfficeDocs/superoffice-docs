@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Person/ValidatePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "corrupti",
-  "2": "voluptatibus"
+  "1": "minus",
+  "2": "autem"
 }
 ```

@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 710,
-    "Section": "rerum",
-    "Key": "aut",
-    "Name": "Goodwin, Ratke and Hermiston",
+    "PrefDescId": 675,
+    "Section": "fuga",
+    "Key": "est",
+    "Name": "Moore, Bode and Feeney",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Expanded local help-desk",
-    "IsBuiltin": false,
-    "TableName": "Murray Group",
+    "Description": "Up-sized system-worthy concept",
+    "IsBuiltin": true,
+    "TableName": "Hickle, Hoppe and Schmidt",
     "UserDefinedListId": 163,
-    "Rank": 127,
-    "SubGroup": "autem",
-    "MinLevel": 760,
-    "MaxValue": 962,
-    "MinValue": 977,
-    "RequiredLicense": "quod",
+    "Rank": 839,
+    "SubGroup": "impedit",
+    "MinLevel": 870,
+    "MaxValue": 642,
+    "MinValue": 946,
+    "RequiredLicense": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldType": "System.Int32",
+        "FieldLength": 899
       }
     }
   }

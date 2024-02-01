@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 20 Apr 2007 13:57:18 G4T
+Last-Modified: Wed, 02 Nov 2005 23:04:04 G11T
 
 {
-  "ForeignDeviceId": 221,
-  "Name": "Romaguera, Witting and Kemmer",
-  "CreatedDate": "2002-09-05T13:57:18.8109737+02:00",
-  "UpdatedDate": "2007-04-20T13:57:18.8109737+02:00",
-  "AssociateFullName": "Dorris Gleason",
-  "CreatedBy": "blanditiis",
-  "UpdatedBy": "accusantium",
-  "DeviceIdentifier": "occaecati",
-  "ForeignAppId": 777,
+  "ForeignDeviceId": 294,
+  "Name": "Lebsack-Ortiz",
+  "CreatedDate": "2000-08-19T23:04:04.2235167+02:00",
+  "UpdatedDate": "2005-11-02T23:04:04.2235167+01:00",
+  "AssociateFullName": "Mr. Abigayle Kihn DDS",
+  "CreatedBy": "incidunt",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "velit",
+  "ForeignAppId": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 443
     }
   }
 }

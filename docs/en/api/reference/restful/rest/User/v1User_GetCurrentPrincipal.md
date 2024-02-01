@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "molestias",
-  "AssociateId": 126,
-  "IsPerson": true,
-  "PersonId": 120,
-  "CountryId": 922,
-  "HomeCountryId": 205,
-  "ContactId": 578,
-  "GroupId": 950,
-  "BusinessId": 922,
-  "CategoryId": 614,
-  "ContactOwner": 815,
-  "RoleId": 295,
-  "RoleName": "Hessel-Stroman",
-  "RoleDescription": "Devolved 24/7 system engine",
+  "Associate": "voluptas",
+  "AssociateId": 589,
+  "IsPerson": false,
+  "PersonId": 375,
+  "CountryId": 913,
+  "HomeCountryId": 894,
+  "ContactId": 814,
+  "GroupId": 1002,
+  "BusinessId": 220,
+  "CategoryId": 843,
+  "ContactOwner": 987,
+  "RoleId": 686,
+  "RoleName": "Waters-Anderson",
+  "RoleDescription": "Exclusive contextually-based service-desk",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 926,
-      "OwnerName": "Johns Inc and Sons",
-      "OwnerDescription": "Organized well-modulated frame",
-      "ModuleId": 91,
-      "Name": "Durgan-Rippin",
-      "Description": "Switchable background secured line",
-      "Version": "est",
+      "OwnerId": 789,
+      "OwnerName": "Kreiger, Brekke and Stroman",
+      "OwnerDescription": "Versatile system-worthy throughput",
+      "ModuleId": 834,
+      "Name": "Connelly, Glover and Klocko",
+      "Description": "Vision-oriented optimizing concept",
+      "Version": "et",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 11,
-      "ExtraInfo": "illum",
-      "SortOrder": 254,
-      "LicenseNumber": 513,
-      "IsHidden": false,
+      "ExtraFlags": 546,
+      "ExtraInfo": "nobis",
+      "SortOrder": 935,
+      "LicenseNumber": 10,
+      "IsHidden": true,
       "IsUnrestricted": false,
-      "ExpiryDate": "2003-03-15T13:57:19.5783953+01:00",
+      "ExpiryDate": "2017-03-01T23:04:05.2245071+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 976
         }
       }
     }
   ],
-  "FullName": "Zella Bauch",
-  "EMailAddress": "iusto",
+  "FullName": "Roberto Kuhn Sr.",
+  "EMailAddress": "omnis",
   "FunctionRights": [
-    "eius",
-    "minima"
+    "vero",
+    "soluta"
   ],
-  "EjUserId": 177,
-  "EjAccessLevel": 345,
+  "EjUserId": 396,
+  "EjAccessLevel": 483,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "et",
-      "SearchName": "Kunze-Roberts",
-      "DisplayName": "Ondricka LLC",
+      "Type": "quo",
+      "SearchName": "Parisian LLC",
+      "DisplayName": "Kautzer-Fritsch",
       "CredentialId": 155
     },
     {
-      "Type": "et",
-      "SearchName": "Kunze-Roberts",
-      "DisplayName": "Ondricka LLC",
+      "Type": "quo",
+      "SearchName": "Parisian LLC",
+      "DisplayName": "Kautzer-Fritsch",
       "CredentialId": 155
     }
   ],
   "SecondaryGroups": [
-    83,
-    374
+    231,
+    226
   ],
-  "DatabaseContextIdentifier": "vel",
-  "UserName": "Gutmann Group"
+  "DatabaseContextIdentifier": "sunt",
+  "UserName": "Crist, Kreiger and Considine"
 }
 ```

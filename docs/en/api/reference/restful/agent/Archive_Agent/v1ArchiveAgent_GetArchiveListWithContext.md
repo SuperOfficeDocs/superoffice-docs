@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Mertz, Ankunding and Brekke",
-  "ProviderName": "Balistreri LLC",
+  "GuiName": "Schneider-Ryan",
+  "ProviderName": "Lemke LLC",
   "SortOrder": [
     {
-      "Name": "Lesch, Rippin and Corwin",
+      "Name": "Bradtke, Reichert and Reichel",
       "Direction": "ASC"
     },
     {
-      "Name": "Lesch, Rippin and Corwin",
+      "Name": "Bradtke, Reichert and Reichel",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Nikolaus, Beier and Batz",
-      "Operator": "sed",
+      "Name": "Dickinson, Treutel and Morar",
+      "Operator": "doloribus",
       "Values": [
-        "quisquam",
-        "sed"
+        "dolore",
+        "in"
       ],
       "DisplayValues": [
-        "libero",
-        "sit"
+        "voluptas",
+        "repudiandae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 484,
+      "InterParenthesis": 491,
       "InterOperator": "And",
-      "UniqueHash": 156
+      "UniqueHash": 999
     }
   ],
   "Entities": [
-    "ducimus",
-    "perspiciatis"
+    "molestiae",
+    "nostrum"
   ],
-  "Page": 159,
-  "PageSize": 516,
-  "Context": "voluptates"
+  "Page": 469,
+  "PageSize": 50,
+  "Context": "sed"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "O'Keefe, Lynch and Schulist",
-    "PrimaryKey": 930,
+    "EntityName": "Nader Inc and Sons",
+    "PrimaryKey": 918,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "totam",
-        "TooltipHint": "porro",
-        "LinkHint": "rem"
+        "DisplayValue": "repellat",
+        "TooltipHint": "dolor",
+        "LinkHint": "amet"
       }
     },
-    "LinkHint": "aut",
-    "StyleHint": "consequatur",
+    "LinkHint": "quis",
+    "StyleHint": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 153
       }
     }
   }

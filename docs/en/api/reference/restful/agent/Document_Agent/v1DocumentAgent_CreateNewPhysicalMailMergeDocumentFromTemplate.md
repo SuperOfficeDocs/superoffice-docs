@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 68,
-  "UiCulture": "iusto"
+  "DocumentId": 223,
+  "UiCulture": "aperiam"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 493,
+  "DocumentId": 745,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "optio",
-  "Header": "in",
-  "Name": "Mertz Inc and Sons",
-  "OurRef": "voluptas",
-  "YourRef": "autem",
-  "CreatedDate": "2007-04-19T13:57:12.1529946+02:00",
-  "UpdatedDate": "2000-01-23T13:57:12.1529946+01:00",
-  "Description": "Proactive logistical solution",
+  "Attention": "impedit",
+  "Header": "est",
+  "Name": "Hintz LLC",
+  "OurRef": "et",
+  "YourRef": "eos",
+  "CreatedDate": "2023-07-21T23:03:55.7686317+02:00",
+  "UpdatedDate": "2023-01-05T23:03:55.7686317+01:00",
+  "Description": "Triple-buffered scalable application",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-07-06T13:57:12.1529946+02:00",
-  "ExternalRef": "laboriosam",
+  "Date": "2015-01-11T23:03:55.7721338+01:00",
+  "ExternalRef": "voluptas",
   "Completed": "Completed",
-  "ActiveLinks": 688,
+  "ActiveLinks": 984,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Mertz-Rogahn",
-      "Id": 526,
-      "Description": "De-engineered grid-enabled access",
-      "ExtraInfo": "praesentium",
-      "LinkId": 429,
+      "EntityName": "Parker, Price and Miller",
+      "Id": 712,
+      "Description": "Visionary empowering application",
+      "ExtraInfo": "officia",
+      "LinkId": 624,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 75
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 750,
-  "Snum": 58,
+  "SuggestedDocumentId": 381,
+  "Snum": 328,
   "UserDefinedFields": {
-    "SuperOffice:1": "22222601",
-    "SuperOffice:2": "Prof. Ray Pfannerstill MD"
+    "SuperOffice:1": "Luigi Rowena Spinka V",
+    "SuperOffice:2": "348600478"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "et"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "rerum"
+    "CustomFields1": "nemo",
+    "CustomFields2": "quis"
   },
-  "PublishEventDate": "1997-04-11T13:57:12.1529946+02:00",
-  "PublishTo": "2016-11-22T13:57:12.1529946+01:00",
-  "PublishFrom": "1997-07-06T13:57:12.1529946+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2009-01-31T23:03:55.7731319+01:00",
+  "PublishTo": "2003-08-30T23:03:55.7731319+02:00",
+  "PublishFrom": "2008-12-22T23:03:55.7731319+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 369,
+      "VisibleId": 97,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldLength": 298
         }
       }
     },
     {
-      "VisibleId": 369,
+      "VisibleId": 97,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldLength": 298
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldType": "System.String",
+      "FieldLength": 357
     }
   }
 }

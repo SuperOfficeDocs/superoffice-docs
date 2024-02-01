@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=466
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=75
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 450,
-  "BlobSize": 901,
-  "Description": "Programmable intangible matrix",
-  "ExtraInfo": "vitae",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "enim",
-  "OriginalSize": 980,
-  "CreatedDate": "2014-11-12T13:57:11.5594343+01:00",
-  "UpdatedDate": "2003-03-24T13:57:11.5594343+01:00",
+  "BlobId": 568,
+  "BlobSize": 798,
+  "Description": "Integrated tangible contingency",
+  "ExtraInfo": "corrupti",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "consequatur",
+  "OriginalSize": 137,
+  "CreatedDate": "1997-10-17T23:03:55.0356425+02:00",
+  "UpdatedDate": "2021-01-17T23:03:55.0356425+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores",
+  "ConceptualType": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   }
 }

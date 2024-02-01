@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 46,
-    "Name": "Jakubowski LLC",
-    "Tooltip": "aperiam",
+    "HeadingId": 140,
+    "Name": "Johns, Nienow and Mraz",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "Rank": 703,
-    "UdListDefinitionId": 580,
+    "Rank": 639,
+    "UdListDefinitionId": 987,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 161
       }
     }
   }

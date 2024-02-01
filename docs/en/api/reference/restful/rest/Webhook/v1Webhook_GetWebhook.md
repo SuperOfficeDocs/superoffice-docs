@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,31 +97,31 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 670,
-  "Name": "Spinka-Gaylord",
+  "WebhookId": 898,
+  "Name": "Gaylord LLC",
   "Events": [
-    "voluptatum",
-    "vel"
+    "vero",
+    "nam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "aut",
+  "Secret": "praesentium",
   "State": "Active",
-  "Type": "quidem",
+  "Type": "iure",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "at"
+    "Headers1": "hic",
+    "Headers2": "asperiores"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-04-14T13:57:19.5940221+02:00",
+  "Registered": "2003-09-09T23:04:05.2370074+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-06-12T13:57:19.5940221+02:00",
+  "Updated": "2010-08-09T23:04:05.2370074+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "alvah@hyatt.ca",
+  "ErrorsEmail": "eugenia@feestthompson.name",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

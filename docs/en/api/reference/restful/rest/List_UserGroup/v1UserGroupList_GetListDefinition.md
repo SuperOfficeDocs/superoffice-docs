@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 862,
-  "Name": "Zulauf-Dickens",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 774,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 453,
+  "Name": "Ritchie, Gerhold and Gerlach",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 232,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 994
     }
   },
   "_Links": {

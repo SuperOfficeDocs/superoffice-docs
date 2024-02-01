@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 798,
-  "Name": "Wyman Inc and Sons",
-  "Description": "Horizontal asynchronous monitoring",
+  "ReportLabelLayoutId": 155,
+  "Name": "Block, Wuckert and Koch",
+  "Description": "Versatile logistical functionalities",
   "Orientation": "Landscape",
-  "PaperWidth": 167,
-  "PaperHeight": 217,
-  "LeftMargin": 431,
-  "RightMargin": 406,
-  "TopMargin": 88,
-  "BottomMargin": 216,
-  "CountColumns": 734,
-  "CountRows": 827
+  "PaperWidth": 525,
+  "PaperHeight": 69,
+  "LeftMargin": 423,
+  "RightMargin": 492,
+  "TopMargin": 418,
+  "BottomMargin": 861,
+  "CountColumns": 414,
+  "CountRows": 103
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 140,
-  "Name": "Hickle, Rodriguez and Jenkins",
-  "Description": "Seamless multimedia emulation",
+  "ReportLabelLayoutId": 713,
+  "Name": "Towne Inc and Sons",
+  "Description": "Networked neutral methodology",
   "Orientation": "Landscape",
-  "PaperWidth": 24,
-  "PaperHeight": 703,
-  "LeftMargin": 109,
-  "RightMargin": 151,
-  "TopMargin": 64,
-  "BottomMargin": 228,
-  "CountColumns": 685,
-  "CountRows": 730,
+  "PaperWidth": 85,
+  "PaperHeight": 813,
+  "LeftMargin": 670,
+  "RightMargin": 794,
+  "TopMargin": 750,
+  "BottomMargin": 1000,
+  "CountColumns": 981,
+  "CountRows": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 490
     }
   }
 }

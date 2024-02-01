@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Hettinger, Bergnaum and Jakubowski",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "UdListDefinitionId": 666,
-    "Rank": 608,
+    "Id": 260,
+    "Name": "Thompson Inc and Sons",
+    "Tooltip": "porro",
+    "Deleted": true,
+    "UdListDefinitionId": 521,
+    "Rank": 60,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldLength": 515
       }
     }
   }

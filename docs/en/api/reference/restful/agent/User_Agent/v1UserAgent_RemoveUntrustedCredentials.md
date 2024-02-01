@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/User/RemoveUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "sunt",
-  "PublicValue": "sit"
+  "Type": "tempore",
+  "PublicValue": "eaque"
 }
 ```
 

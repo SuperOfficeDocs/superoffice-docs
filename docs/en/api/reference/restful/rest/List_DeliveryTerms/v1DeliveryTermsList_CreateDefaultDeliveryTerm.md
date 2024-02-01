@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Hintz, McClure and Reichel",
-  "Tooltip": "sequi",
+  "Id": 255,
+  "Name": "Strosin, Kub and Baumbach",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "UdListDefinitionId": 980,
-  "Rank": 299,
+  "UdListDefinitionId": 79,
+  "Rank": 563,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 95
     }
   }
 }

@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 483,
-    "Name": "Bayer, Bernier and Gusikowski",
-    "TZLocationCode": "aut",
-    "TZLocationCities": "accusantium",
-    "IsoNumber": 304,
+    "TZLocationID": 602,
+    "Name": "Bechtelar, Nienow and Bernier",
+    "TZLocationCode": "sit",
+    "TZLocationCities": "necessitatibus",
+    "IsoNumber": 495,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 944,
-        "StartMonth": 706,
-        "EndDay": 324,
-        "EndMonth": 538,
-        "TZOffset": 577,
-        "StartRulePattern": "qui",
-        "EndRulePattern": "quae"
+        "StartDay": 39,
+        "StartMonth": 211,
+        "EndDay": 807,
+        "EndMonth": 743,
+        "TZOffset": 956,
+        "StartRulePattern": "id",
+        "EndRulePattern": "facilis"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 382,
-        "StartMonth": 362,
-        "EndDay": 64,
-        "EndMonth": 806,
-        "TZOffset": 94,
-        "StartRulePattern": "odio",
-        "EndRulePattern": "distinctio"
+        "StartDay": 633,
+        "StartMonth": 983,
+        "EndDay": 345,
+        "EndMonth": 81,
+        "TZOffset": 556,
+        "StartRulePattern": "occaecati",
+        "EndRulePattern": "sed"
       }
     }
   }

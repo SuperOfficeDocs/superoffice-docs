@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 22,
-  "Name": "Koelpin-McDermott",
-  "Tooltip": "deserunt",
+  "Id": 315,
+  "Name": "Herzog LLC",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 257,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 493,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 819,
-  "Name": "Bernier, Abernathy and Wilderman",
-  "Tooltip": "ducimus",
+  "Id": 583,
+  "Name": "Kassulke LLC",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 532,
+  "Rank": 38,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "laborum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 903
+      "FieldType": "System.Int32",
+      "FieldLength": 571
     }
   }
 }

@@ -178,6 +178,7 @@ title: Services88.ConfigurationAgent WSDL
           <xs:enumeration value="WebPanel" />
           <xs:enumeration value="CustomFields" />
           <xs:enumeration value="Customized" />
+          <xs:enumeration value="CustomObjectArchivePanel" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="DeltaType" nillable="true" type="tns:DeltaType" />

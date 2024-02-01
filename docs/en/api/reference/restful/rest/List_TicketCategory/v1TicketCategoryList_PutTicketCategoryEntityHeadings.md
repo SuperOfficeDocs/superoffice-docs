@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 45,
-    "Name": "Cassin LLC",
-    "Tooltip": "quis",
+    "HeadingId": 583,
+    "Name": "Prosacco-Willms",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 235,
-    "UdListDefinitionId": 87
+    "Rank": 918,
+    "UdListDefinitionId": 139
   },
   {
-    "HeadingId": 45,
-    "Name": "Cassin LLC",
-    "Tooltip": "quis",
+    "HeadingId": 583,
+    "Name": "Prosacco-Willms",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 235,
-    "UdListDefinitionId": 87
+    "Rank": 918,
+    "UdListDefinitionId": 139
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 591,
-    "Name": "Huels-Ziemann",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 158,
-    "UdListDefinitionId": 705,
+    "HeadingId": 166,
+    "Name": "Donnelly-Waelchi",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 7,
+    "UdListDefinitionId": 326,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 474
       }
     }
   }

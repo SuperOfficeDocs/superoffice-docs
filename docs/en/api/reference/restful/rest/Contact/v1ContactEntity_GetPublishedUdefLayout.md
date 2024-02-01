@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 506,
-    "ColumnId": 957,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 998,
-    "FieldLabel": "harum",
-    "FieldLeft": 968,
-    "FieldTop": 239,
+    "UDefFieldId": 187,
+    "ColumnId": 307,
+    "FieldDefault": "nostrum",
+    "FieldHeight": 804,
+    "FieldLabel": "voluptas",
+    "FieldLeft": 257,
+    "FieldTop": 714,
     "FieldType": "Checkbox",
-    "FieldWidth": 841,
-    "FormatMask": "nisi",
+    "FieldWidth": 303,
+    "FormatMask": "rerum",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 319,
-    "LabelLeft": 46,
-    "LabelTop": 123,
-    "LabelWidth": 959,
-    "LastVersionId": 200,
-    "ListTableId": 552,
+    "LabelHeight": 326,
+    "LabelLeft": 50,
+    "LabelTop": 399,
+    "LabelWidth": 29,
+    "LastVersionId": 813,
+    "ListTableId": 712,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 193,
-    "ProgId": "voluptas",
+    "Page1LineNo": 27,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "sed",
-    "TabOrder": 977,
-    "TextLength": 839,
-    "Tooltip": "necessitatibus",
-    "UdefIdentity": 641,
-    "UDListDefinitionId": 214,
+    "ShortLabel": "in",
+    "TabOrder": 412,
+    "TextLength": 574,
+    "Tooltip": "itaque",
+    "UdefIdentity": 6,
+    "UDListDefinitionId": 451,
     "Justification": "Center",
-    "Version": 576,
-    "TemplateVariableName": "Armstrong, Herzog and Wyman",
+    "Version": 429,
+    "TemplateVariableName": "Lubowitz LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Will LLC",
+    "MdoListName": "Fay-Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

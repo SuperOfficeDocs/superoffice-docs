@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 137
+  "QuoteId": 881
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 338,
-  "SaleId": 780,
-  "QuoteConnectionId": 669,
-  "ERPQuoteKey": "iusto",
-  "ERPOrderKey": "doloremque",
-  "ActiveQuoteVersionId": 721,
-  "AcceptedQuoteAlternativeId": 930,
-  "UseValuesFromQuote": 747,
-  "DocumentId": 190,
-  "PoNumber": "1188193",
-  "OrderComment": "consequatur",
-  "PreferredEmailCulture": "estefania_blanda@swaniawski.com",
+  "QuoteId": 484,
+  "SaleId": 169,
+  "QuoteConnectionId": 948,
+  "ERPQuoteKey": "maxime",
+  "ERPOrderKey": "sequi",
+  "ActiveQuoteVersionId": 66,
+  "AcceptedQuoteAlternativeId": 487,
+  "UseValuesFromQuote": 307,
+  "DocumentId": 914,
+  "PoNumber": "1134724",
+  "OrderComment": "omnis",
+  "PreferredEmailCulture": "fiona.huels@howell.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 348
     }
   }
 }

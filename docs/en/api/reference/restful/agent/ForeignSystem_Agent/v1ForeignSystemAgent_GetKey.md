@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Greenfelder Group",
-  "DeviceName": "Jewess-Block",
-  "KeyName": "Bernier Inc and Sons",
-  "TableName": "Beer Group",
-  "RecordId": 882
+  "ApplicationName": "Hane LLC",
+  "DeviceName": "Olson Inc and Sons",
+  "KeyName": "Metz-Prohaska",
+  "TableName": "Quigley, Nitzsche and Schmidt",
+  "RecordId": 993
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "quasi",
-  "RecordId": 100,
-  "CreatedDate": "2007-03-07T13:57:12.4181107+01:00",
-  "UpdatedDate": "2017-06-02T13:57:12.4181107+02:00",
-  "UpdatedBy": "ducimus",
-  "CreatedBy": "laudantium",
-  "TableName": "Nikolaus, Hermann and Okuneva",
+  "Key": "autem",
+  "Value": "rerum",
+  "RecordId": 82,
+  "CreatedDate": "2000-08-16T23:03:56.1141275+02:00",
+  "UpdatedDate": "2001-12-21T23:03:56.1141275+01:00",
+  "UpdatedBy": "cumque",
+  "CreatedBy": "autem",
+  "TableName": "Carter Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldLength": 339
     }
   }
 }

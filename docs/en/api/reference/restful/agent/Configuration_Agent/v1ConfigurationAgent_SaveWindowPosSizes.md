@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "delectus",
-      "PersonId": 632,
-      "AssociateId": 166,
-      "ExtraId": 335,
-      "ExtraInfo": "saepe",
-      "Height": 979,
-      "LeftX": 763,
+      "OwnerWindow": "voluptatem",
+      "PersonId": 323,
+      "AssociateId": 348,
+      "ExtraId": 824,
+      "ExtraInfo": "magni",
+      "Height": 504,
+      "LeftX": 748,
       "State": "Maximized",
-      "UpperY": 40,
-      "Width": 842,
-      "WindowPosSizeId": 937
+      "UpperY": 351,
+      "Width": 719,
+      "WindowPosSizeId": 82
     }
   ]
 }
@@ -113,23 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "velit",
-    "PersonId": 162,
-    "AssociateId": 158,
-    "ExtraId": 176,
-    "ExtraInfo": "a",
-    "Height": 424,
-    "LeftX": 823,
+    "OwnerWindow": "enim",
+    "PersonId": 388,
+    "AssociateId": 962,
+    "ExtraId": 449,
+    "ExtraInfo": "officiis",
+    "Height": 752,
+    "LeftX": 299,
     "State": "Maximized",
-    "UpperY": 447,
-    "Width": 235,
-    "WindowPosSizeId": 332,
+    "UpperY": 392,
+    "Width": 820,
+    "WindowPosSizeId": 409,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldType": "System.String",
+        "FieldLength": 905
       }
     }
   }

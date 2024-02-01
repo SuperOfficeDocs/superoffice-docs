@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 583,
-      "PrefDescId": 156,
-      "PrefValue": "in",
-      "PrefShowValue": "debitis",
-      "Description": "Streamlined value-added intranet",
+      "PrefDescLineId": 851,
+      "PrefDescId": 67,
+      "PrefValue": "vel",
+      "PrefShowValue": "repudiandae",
+      "Description": "Open-source exuding monitoring",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 583,
-      "PrefDescId": 156,
-      "PrefValue": "in",
-      "PrefShowValue": "debitis",
-      "Description": "Streamlined value-added intranet",
+      "PrefDescLineId": 851,
+      "PrefDescId": 67,
+      "PrefValue": "vel",
+      "PrefShowValue": "repudiandae",
+      "Description": "Open-source exuding monitoring",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 565,
-    "PrefDescId": 972,
-    "PrefValue": "est",
-    "PrefShowValue": "quidem",
-    "Description": "Distributed radical instruction set",
+    "PrefDescLineId": 707,
+    "PrefDescId": 256,
+    "PrefValue": "cumque",
+    "PrefShowValue": "qui",
+    "Description": "Customizable even-keeled moderator",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldLength": 931
       }
     }
   }

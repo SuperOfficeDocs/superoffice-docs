@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 747,
-    "Name": "Aufderhar-Waelchi",
-    "CurrencyId": 975,
-    "EnglishName": "Turcotte Inc and Sons",
+    "CountryId": 315,
+    "Name": "Hauck LLC",
+    "CurrencyId": 385,
+    "EnglishName": "Labadie, Pfeffer and Effertz",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Reverse-engineered cohesive process improvement",
-    "OrgNrText": "668614",
-    "InterAreaPrefix": "alias",
-    "DialInPrefix": "ut",
-    "ZipPrefix": "consectetur",
-    "DomainName": "Rippin, Carter and Trantow",
-    "AddressLayoutId": 582,
-    "DomesticAddressLayoutId": 640,
-    "ForeignAddressLayoutId": 815,
-    "Rank": 73,
-    "Tooltip": "vero",
+    "ImageDescription": "De-engineered even-keeled architecture",
+    "OrgNrText": "868153",
+    "InterAreaPrefix": "quo",
+    "DialInPrefix": "est",
+    "ZipPrefix": "voluptatem",
+    "DomainName": "Dickens, Wuckert and Smith",
+    "AddressLayoutId": 83,
+    "DomesticAddressLayoutId": 734,
+    "ForeignAddressLayoutId": 881,
+    "Rank": 698,
+    "Tooltip": "sunt",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldType": "System.String",
+        "FieldLength": 540
       }
     }
   }

@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 97,
-  "Count": 83
+  "WeightedAmountLimit": 667,
+  "Count": 944
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Sauer-Carroll",
-    "SaleDate": "2006-05-06T13:57:13.1757129+02:00",
-    "SaleId": 802,
-    "Probability": 525,
-    "Title": "fuga",
-    "Amount": 30362.192,
-    "Currency": "dolor",
-    "ProjectName": "Leannon, Boyer and Herman",
-    "AssociateFullName": "Prof. Troy Zemlak",
-    "Description": "Persistent optimizing moratorium",
+    "ContactName": "Nikolaus, Bogan and Bednar",
+    "SaleDate": "1999-06-19T23:03:56.9246193+02:00",
+    "SaleId": 171,
+    "Probability": 385,
+    "Title": "qui",
+    "Amount": 1886.668,
+    "Currency": "culpa",
+    "ProjectName": "Macejkovic Inc and Sons",
+    "AssociateFullName": "Louie McDermott",
+    "Description": "Streamlined transitional internet solution",
     "Status": "Lost",
-    "WeightedAmount": 24815.012,
-    "ProjectId": 322,
-    "EarningPercent": 20386.67,
-    "Earning": 29506.61,
-    "ContactId": 397,
-    "AssociateId": 195,
-    "PersonId": 254,
-    "SaleTypeId": 151,
-    "SaleTypeName": "Windler Group",
-    "PersonFullName": "Rebekah Botsford",
+    "WeightedAmount": 25774.016,
+    "ProjectId": 365,
+    "EarningPercent": 17763.512,
+    "Earning": 28832.8,
+    "ContactId": 782,
+    "AssociateId": 876,
+    "PersonId": 75,
+    "SaleTypeId": 377,
+    "SaleTypeName": "Swaniawski Group",
+    "PersonFullName": "Burley Miller",
     "Completed": "Completed",
-    "ActiveErpLinks": 62,
-    "NextDueDate": "2013-08-02T13:57:13.1757129+02:00",
-    "Number": "843812",
+    "ActiveErpLinks": 217,
+    "NextDueDate": "1997-04-11T23:03:56.9251168+02:00",
+    "Number": "1647586",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldLength": 325
       }
     }
   }

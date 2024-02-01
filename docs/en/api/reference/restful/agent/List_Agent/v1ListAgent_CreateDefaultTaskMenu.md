@@ -80,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 373,
-  "Name": "Schulist, Toy and Rodriguez",
+  "TaskMenuId": 339,
+  "Name": "Schneider LLC",
   "Tooltip": "dolore",
-  "TableName": "Lesch-Veum",
-  "Area": "ullam",
+  "TableName": "Turcotte LLC",
+  "Area": "sit",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 968,
+  "CrmScriptId": 647,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 870,
+  "Rank": 829,
   "Encoding": "ANSI",
-  "ProgId": "fugit",
+  "ProgId": "deleniti",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldType": "System.String",
+      "FieldLength": 868
     }
   }
 }

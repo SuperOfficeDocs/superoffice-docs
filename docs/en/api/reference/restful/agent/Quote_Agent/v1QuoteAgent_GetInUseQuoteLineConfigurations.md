@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 726,
-    "FieldName": "Dietrich-Lakin",
-    "Label": "unde",
-    "Tooltip": "quisquam",
+    "QuoteLineConfigurationId": 854,
+    "FieldName": "Price Group",
+    "Label": "quidem",
+    "Tooltip": "beatae",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 611,
+    "Rank": 73,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 452
+        "FieldLength": 609
       }
     }
   }

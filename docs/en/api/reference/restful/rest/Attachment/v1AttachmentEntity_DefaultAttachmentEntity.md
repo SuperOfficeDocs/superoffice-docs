@@ -63,7 +63,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 313,
-  "Name": "Prohaska Group",
-  "ContentType": "impedit",
-  "AttSize": 650,
-  "InlineImage": true,
-  "ContentId": "quis",
-  "AuthKey": "ratione",
+  "AttachmentId": 550,
+  "Name": "Marquardt Group",
+  "ContentType": "et",
+  "AttSize": 953,
+  "InlineImage": false,
+  "ContentId": "mollitia",
+  "AuthKey": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 947
     }
   }
 }

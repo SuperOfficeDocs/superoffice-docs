@@ -118,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 550,
-  "SourcePersonId": 997,
-  "DestinationContactId": 803,
-  "DestinationPersonId": 986,
-  "RelationId": 488,
-  "Comment": "molestiae",
-  "RelationDefinitionId": 733,
-  "Reversed": 152,
-  "UpdatedDate": "1999-10-06T13:57:18.6846845+02:00",
-  "CreatedDate": "2004-11-27T13:57:18.6846845+01:00",
+  "SourceContactId": 458,
+  "SourcePersonId": 286,
+  "DestinationContactId": 21,
+  "DestinationPersonId": 856,
+  "RelationId": 186,
+  "Comment": "repellendus",
+  "RelationDefinitionId": 100,
+  "Reversed": 654,
+  "UpdatedDate": "2012-02-18T23:04:04.0595189+01:00",
+  "CreatedDate": "2014-04-09T23:04:04.0595189+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jakubowski, Price and O'Keefe",
-  "SourcePersonName": "Johnston Group",
-  "DestinationContactName": "Williamson LLC",
-  "DestinationPersonName": "Dickens-Beahan",
-  "ActiveText": "iusto",
-  "PassiveText": "et"
+  "SourceContactName": "D'Amore-Pouros",
+  "SourcePersonName": "Jones Inc and Sons",
+  "DestinationContactName": "Bosco Group",
+  "DestinationPersonName": "Davis Group",
+  "ActiveText": "dolorem",
+  "PassiveText": "placeat"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 268,
-  "SourcePersonId": 869,
-  "DestinationContactId": 696,
-  "DestinationPersonId": 972,
-  "RelationId": 265,
-  "Comment": "cum",
-  "RelationDefinitionId": 924,
-  "Reversed": 769,
-  "UpdatedDate": "2006-08-01T13:57:18.6846845+02:00",
-  "CreatedDate": "2021-01-14T13:57:18.6846845+01:00",
+  "SourceContactId": 107,
+  "SourcePersonId": 823,
+  "DestinationContactId": 846,
+  "DestinationPersonId": 327,
+  "RelationId": 614,
+  "Comment": "in",
+  "RelationDefinitionId": 604,
+  "Reversed": 13,
+  "UpdatedDate": "2001-12-06T23:04:04.06152+01:00",
+  "CreatedDate": "2010-08-28T23:04:04.06152+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hilpert, Bernhard and Gerhold",
-  "SourcePersonName": "Ernser Inc and Sons",
-  "DestinationContactName": "Littel, DuBuque and Zulauf",
-  "DestinationPersonName": "Lubowitz Group",
-  "ActiveText": "veniam",
-  "PassiveText": "delectus",
+  "SourceContactName": "O'Reilly-Fahey",
+  "SourcePersonName": "Runolfsson, Kshlerin and Wisoky",
+  "DestinationContactName": "Koepp Group",
+  "DestinationPersonName": "Cartwright, Schuster and Lockman",
+  "ActiveText": "nulla",
+  "PassiveText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 360
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

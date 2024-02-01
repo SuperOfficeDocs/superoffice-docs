@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 603,
-  "Name": "Hessel-Skiles",
-  "Tooltip": "et",
-  "Rank": 919,
-  "Key": "a",
-  "MailTemplateId": 478,
-  "Deleted": true,
+  "ConsentSourceId": 926,
+  "Name": "Lueilwitz, Weimann and Herzog",
+  "Tooltip": "dolorem",
+  "Rank": 571,
+  "Key": "inventore",
+  "MailTemplateId": 433,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldLength": 888
     }
   }
 }

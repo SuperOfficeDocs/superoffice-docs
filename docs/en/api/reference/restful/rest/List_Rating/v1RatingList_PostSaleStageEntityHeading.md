@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 406,
-  "Name": "Hermiston Group",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 592,
-  "UdListDefinitionId": 902
+  "HeadingId": 926,
+  "Name": "Koss, Becker and Cummerata",
+  "Tooltip": "quibusdam",
+  "Deleted": false,
+  "Rank": 791,
+  "UdListDefinitionId": 972
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 759,
-  "Name": "Wuckert-Kunde",
-  "Tooltip": "dolor",
+  "HeadingId": 366,
+  "Name": "Lowe LLC",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "Rank": 933,
-  "UdListDefinitionId": 357,
+  "Rank": 884,
+  "UdListDefinitionId": 989,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 600
     }
   }
 }

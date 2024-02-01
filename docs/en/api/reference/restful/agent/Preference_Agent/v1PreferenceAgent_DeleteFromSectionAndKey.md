@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ducimus",
-  "Key": "ut"
+  "Section": "dolorem",
+  "Key": "placeat"
 }
 ```
 

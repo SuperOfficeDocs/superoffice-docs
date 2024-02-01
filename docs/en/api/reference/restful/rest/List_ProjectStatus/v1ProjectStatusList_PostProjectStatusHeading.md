@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 657,
-  "Name": "Harris-Volkman",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "Rank": 58,
-  "UdListDefinitionId": 952
+  "HeadingId": 917,
+  "Name": "Wisoky Group",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "Rank": 706,
+  "UdListDefinitionId": 793
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 734,
-  "Name": "Waelchi-Price",
-  "Tooltip": "laborum",
+  "HeadingId": 991,
+  "Name": "Larson-Langosh",
+  "Tooltip": "quam",
   "Deleted": false,
-  "Rank": 651,
-  "UdListDefinitionId": 730,
+  "Rank": 65,
+  "UdListDefinitionId": 796,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 169
+      "FieldType": "System.Int32",
+      "FieldLength": 957
     }
   }
 }

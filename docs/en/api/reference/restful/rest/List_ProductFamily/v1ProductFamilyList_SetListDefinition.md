@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 50,
-  "Name": "Bayer-Turner",
-  "Tooltip": "asperiores",
+  "Id": 331,
+  "Name": "Johnston-Harris",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 185,
+  "Rank": 668,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "soluta",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 765,
-  "Name": "Wolff-Walter",
-  "Tooltip": "et",
+  "Id": 492,
+  "Name": "Schimmel Group",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 434,
+  "Rank": 573,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": false,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldType": "System.String",
+      "FieldLength": 276
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Becker-Kuhlman",
-    "DisplayName": "Nader Group",
-    "Description": "User-friendly clear-thinking installation",
-    "ShortLabel": "est",
+    "FieldName": "Mante, Hills and Bednar",
+    "DisplayName": "Beatty-Wiegand",
+    "Description": "Right-sized responsive Graphic Interface",
+    "ShortLabel": "tempora",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 531,
-    "TemplateVariableName": "D'Amore Group"
+    "Rank": 286,
+    "TemplateVariableName": "Wisozk-Greenholt"
   }
 ]
 ```

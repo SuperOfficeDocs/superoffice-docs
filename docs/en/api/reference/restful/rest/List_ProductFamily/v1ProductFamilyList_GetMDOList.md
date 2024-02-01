@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=inventore
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=dolore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Lueilwitz LLC",
-    "ToolTip": "Doloribus ad illum occaecati.",
+    "Id": 808,
+    "Name": "Sauer-Rau",
+    "ToolTip": "Ut est quia quis labore.",
     "Deleted": false,
-    "Rank": 272,
-    "Type": "eius",
+    "Rank": 541,
+    "Type": "fuga",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Quigley-Bode",
-        "ToolTip": "Perspiciatis voluptatum.",
-        "Deleted": true,
-        "Rank": 691,
-        "Type": "esse",
+        "Id": 763,
+        "Name": "Beatty-Walker",
+        "ToolTip": "Aut alias magni facere.",
+        "Deleted": false,
+        "Rank": 217,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 587,
-        "ExtraInfo": "ut",
-        "StyleHint": "odit",
-        "FullName": "Jaiden Jerde DDS",
+        "IconHint": "sit",
+        "ColorBlock": 406,
+        "ExtraInfo": "ea",
+        "StyleHint": "consectetur",
+        "FullName": "Dr. Michale Linda Kulas Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldLength": 381
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 341,
-    "ExtraInfo": "sit",
-    "StyleHint": "aliquid",
-    "FullName": "Willard Ortiz",
+    "IconHint": "est",
+    "ColorBlock": 139,
+    "ExtraInfo": "libero",
+    "StyleHint": "ut",
+    "FullName": "Miss Destin Bonnie Thompson MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldType": "System.String",
+        "FieldLength": 648
       }
     }
   }

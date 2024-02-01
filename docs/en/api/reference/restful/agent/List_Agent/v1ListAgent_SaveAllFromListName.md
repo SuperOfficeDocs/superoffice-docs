@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Larson, Champlin and Walker",
+  "UdListDefinitionName": "Hills Inc and Sons",
   "Items": [
     {
-      "Id": 233,
-      "Name": "Hegmann, Lebsack and Reynolds",
-      "Tooltip": "quam",
+      "Id": 329,
+      "Name": "Eichmann LLC",
+      "Tooltip": "hic",
       "Deleted": false,
-      "UdListDefinitionId": 732,
-      "Rank": 341
+      "UdListDefinitionId": 502,
+      "Rank": 78
     },
     {
-      "Id": 233,
-      "Name": "Hegmann, Lebsack and Reynolds",
-      "Tooltip": "quam",
+      "Id": 329,
+      "Name": "Eichmann LLC",
+      "Tooltip": "hic",
       "Deleted": false,
-      "UdListDefinitionId": 732,
-      "Rank": 341
+      "UdListDefinitionId": 502,
+      "Rank": 78
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Hessel Inc and Sons",
-    "Tooltip": "consequuntur",
-    "Deleted": false,
-    "UdListDefinitionId": 265,
-    "Rank": 307,
+    "Id": 559,
+    "Name": "Schneider Inc and Sons",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "UdListDefinitionId": 340,
+    "Rank": 220,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldType": "System.String",
+        "FieldLength": 823
       }
     }
   }

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 412,
-  "StartDate": "2017-07-15T13:57:11.3563104+02:00",
-  "EndDate": "2002-05-27T13:57:11.3563104+02:00",
-  "RecurrenceCounter": 614,
+  "RecurrenceId": 849,
+  "StartDate": "2023-12-30T23:03:54.7506455+01:00",
+  "EndDate": "2004-08-18T23:03:54.7506455+02:00",
+  "RecurrenceCounter": 310,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-05-20T13:57:11.3563104+02:00",
+      "Date": "2013-01-19T23:03:54.7506455+01:00",
       "IsConflict": false,
-      "Description": "Monitored holistic interface",
-      "DescriptionStyleHint": "Reverse-engineered zero defect workforce",
-      "Tooltip": "nulla"
+      "Description": "Profit-focused transitional help-desk",
+      "DescriptionStyleHint": "Profit-focused interactive projection",
+      "Tooltip": "sapiente"
     },
     {
-      "Date": "1999-05-20T13:57:11.3563104+02:00",
+      "Date": "2013-01-19T23:03:54.7506455+01:00",
       "IsConflict": false,
-      "Description": "Monitored holistic interface",
-      "DescriptionStyleHint": "Reverse-engineered zero defect workforce",
-      "Tooltip": "nulla"
+      "Description": "Profit-focused transitional help-desk",
+      "DescriptionStyleHint": "Profit-focused interactive projection",
+      "Tooltip": "sapiente"
     }
   ],
   "IsRecurrence": false

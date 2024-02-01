@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Macejkovic Inc and Sons",
-  "Comment": "ducimus",
-  "StakeholderRoleId": 426,
-  "CountryId": 390,
-  "PersonId": 610,
-  "EmailDescription": "amely.dickinson@hickle.com",
-  "EmailId": 599,
-  "EmailAddress": "damien@mraz.co.uk",
-  "PhoneId": 260,
-  "ContactName": "Wisozk, Maggio and Gislason",
-  "ContactId": 174,
-  "SaleId": 192,
-  "Mrmrs": "est",
-  "Firstname": "Triston",
-  "MiddleName": "Kertzmann-Braun",
-  "Lastname": "Williamson",
-  "SaleStakeholderId": 173,
-  "Rank": 949,
-  "Phone": "795.163.8628 x230",
+  "StakeholderRoleName": "Macejkovic, Cummerata and Prohaska",
+  "Comment": "voluptas",
+  "StakeholderRoleId": 549,
+  "CountryId": 351,
+  "PersonId": 460,
+  "EmailDescription": "ruben.bernhard@nolanharris.biz",
+  "EmailId": 734,
+  "EmailAddress": "hillard@wyman.com",
+  "PhoneId": 859,
+  "ContactName": "Hegmann Group",
+  "ContactId": 74,
+  "SaleId": 634,
+  "Mrmrs": "sapiente",
+  "Firstname": "Ola",
+  "MiddleName": "Altenwerth, Effertz and Kautzer",
+  "Lastname": "Lueilwitz",
+  "SaleStakeholderId": 577,
+  "Rank": 684,
+  "Phone": "(760)478-6526 x7537",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 148
     }
   },
   "_Links": {

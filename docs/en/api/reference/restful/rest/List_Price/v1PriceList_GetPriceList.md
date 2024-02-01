@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 330,
+  "PriceListId": 583,
   "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 490,
-  "Name": "Cummings Inc and Sons",
-  "Description": "Synergized dedicated challenge",
-  "Currency": "quis",
-  "CurrencyName": "Huels-Brown",
-  "ValidFrom": "2015-08-06T13:57:19.8440154+02:00",
-  "ValidTo": "2007-05-25T13:57:19.8440154+02:00",
-  "IsActive": true,
+  "QuoteConnectionId": 118,
+  "Name": "Haag-Wiza",
+  "Description": "Visionary zero tolerance protocol",
+  "Currency": "possimus",
+  "CurrencyName": "Goldner LLC",
+  "ValidFrom": "2012-06-09T23:04:05.582498+02:00",
+  "ValidTo": "2003-09-19T23:04:05.582498+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 501
     }
   },
   "_Links": {

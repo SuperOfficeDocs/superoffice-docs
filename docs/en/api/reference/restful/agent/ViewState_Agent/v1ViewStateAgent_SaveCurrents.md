@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 692,
-      "Id": 260,
-      "HistoryName": "Schulist-Wintheiser",
-      "HistoryId": 610,
-      "AssociateId": 295,
-      "Name": "Schoen Inc and Sons",
-      "ItemInfo": "corporis"
+      "Rank": 966,
+      "Id": 103,
+      "HistoryName": "Nitzsche, Beier and Nader",
+      "HistoryId": 169,
+      "AssociateId": 904,
+      "Name": "Olson-Hansen",
+      "ItemInfo": "dignissimos"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 465,
-    "Id": 757,
-    "HistoryName": "Simonis-Hansen",
-    "HistoryId": 84,
-    "AssociateId": 351,
-    "Name": "Frami, Rohan and Gottlieb",
-    "ItemInfo": "qui",
+    "Rank": 891,
+    "Id": 840,
+    "HistoryName": "O'Keefe Inc and Sons",
+    "HistoryId": 271,
+    "AssociateId": 874,
+    "Name": "Bradtke Group",
+    "ItemInfo": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 133
       }
     }
   }

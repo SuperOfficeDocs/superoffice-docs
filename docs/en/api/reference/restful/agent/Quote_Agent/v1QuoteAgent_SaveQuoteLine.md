@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 330,
-  "ERPQuoteLineKey": "hic",
-  "QuoteAlternativeId": 831,
-  "ERPProductKey": "incidunt",
+  "QuoteLineId": 349,
+  "ERPQuoteLineKey": "recusandae",
+  "QuoteAlternativeId": 875,
+  "ERPProductKey": "expedita",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 11103.761999999999,
-  "DeliveredQuantity": 15497.63,
-  "Rank": 159,
-  "Name": "Sporer Inc and Sons",
-  "Description": "Horizontal stable open system",
-  "Code": "quidem",
-  "QuantityUnit": "aut",
-  "PriceUnit": "labore",
-  "ItemNumber": "1071281",
+  "Quantity": 19888.363999999998,
+  "DeliveredQuantity": 3024.31,
+  "Rank": 605,
+  "Name": "Tremblay-Schinner",
+  "Description": "Total non-volatile open system",
+  "Code": "repudiandae",
+  "QuantityUnit": "sit",
+  "PriceUnit": "optio",
+  "ItemNumber": "1052455",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "culpa",
-  "ProductTypeKey": "suscipit",
-  "Supplier": "necessitatibus",
-  "SupplierCode": "itaque",
-  "Thumbnail": "dolores",
-  "VATInfo": "dolorem",
-  "VAT": 17857.532,
-  "UnitCost": 5199.306,
-  "UnitMinimumPrice": 9966.119999999999,
-  "UnitListPrice": 27588.602,
+  "ProductFamilyKey": "ullam",
+  "ProductTypeKey": "minima",
+  "Supplier": "similique",
+  "SupplierCode": "qui",
+  "Thumbnail": "nostrum",
+  "VATInfo": "architecto",
+  "VAT": 25927.582,
+  "UnitCost": 25159.752,
+  "UnitMinimumPrice": 22649.417999999998,
+  "UnitListPrice": 1234.796,
   "ExtraInfo": [
     {
-      "Name": "Bogisich-Leannon",
-      "Value": "minima",
+      "Name": "Wisozk, Romaguera and Kirlin",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 93
         }
       }
     },
     {
-      "Name": "Bogisich-Leannon",
-      "Value": "minima",
+      "Name": "Wisozk, Romaguera and Kirlin",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 93
         }
       }
     }
   ],
-  "RawExtraInfo": "fuga",
-  "IsSubscription": false,
-  "SubscriptionUnit": "vero",
-  "SubscriptionQuantity": 1153.312,
-  "SubscriptionStart": "2000-04-08T13:57:13.0805627+02:00",
-  "ERPDiscountPercent": 20769.018,
-  "ERPDiscountAmount": 25993.396,
-  "DiscountPercent": 9768.678,
-  "DiscountAmount": 22994.158,
+  "RawExtraInfo": "totam",
+  "IsSubscription": true,
+  "SubscriptionUnit": "non",
+  "SubscriptionQuantity": 1557.598,
+  "SubscriptionStart": "2013-07-31T23:03:56.8011176+02:00",
+  "ERPDiscountPercent": 21323.736,
+  "ERPDiscountAmount": 17296.546,
+  "DiscountPercent": 23367.104,
+  "DiscountAmount": 1795.782,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 7295.9519999999993,
-  "EarningAmount": 19321.11,
-  "SubTotal": 238.184,
-  "TotalPrice": 2256.48,
-  "Rights": "rem",
-  "Rule": "ut",
-  "ExtraField1": "eaque",
-  "ExtraField2": "est",
-  "ExtraField3": "et",
-  "ExtraField4": "et",
-  "ExtraField5": "aspernatur",
+  "EarningPercent": 23263.682,
+  "EarningAmount": 20737.678,
+  "SubTotal": 19888.363999999998,
+  "TotalPrice": 24968.577999999998,
+  "Rights": "est",
+  "Rule": "officiis",
+  "ExtraField1": "qui",
+  "ExtraField2": "autem",
+  "ExtraField3": "qui",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 48
     }
   }
 }

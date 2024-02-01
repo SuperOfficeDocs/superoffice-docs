@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 276,
-  "Name": "Davis Group",
-  "CreatedDate": "2008-05-24T13:57:12.4024817+02:00",
-  "UpdatedDate": "2020-08-15T13:57:12.4024817+02:00",
+  "ForeignAppId": 727,
+  "Name": "Stanton, Casper and Hermiston",
+  "CreatedDate": "2004-12-05T23:03:56.0976274+01:00",
+  "UpdatedDate": "2010-07-07T23:03:56.0976274+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 925,
-      "Name": "Windler, Dickens and Green",
-      "CreatedDate": "2020-10-04T13:57:12.4024817+02:00",
-      "UpdatedDate": "2004-03-10T13:57:12.4024817+01:00",
-      "AssociateFullName": "Prof. Laverne Lottie Mayer III",
-      "CreatedBy": "architecto",
-      "UpdatedBy": "in",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 487,
+      "ForeignDeviceId": 472,
+      "Name": "Kunze-Turner",
+      "CreatedDate": "2022-06-21T23:03:56.0981279+02:00",
+      "UpdatedDate": "1996-10-24T23:03:56.0981279+02:00",
+      "AssociateFullName": "Estella Yost",
+      "CreatedBy": "inventore",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "soluta",
+      "ForeignAppId": 274,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 155
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 779
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   }
 }

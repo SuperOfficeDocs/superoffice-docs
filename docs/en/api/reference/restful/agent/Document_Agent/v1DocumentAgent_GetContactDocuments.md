@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 79,
-  "StartTime": "2005-09-18T13:57:12.074872+02:00",
-  "EndTime": "2002-11-20T13:57:12.074872+01:00",
-  "Count": 980
+  "ContactId": 110,
+  "StartTime": "2007-02-25T23:03:55.6666331+01:00",
+  "EndTime": "2009-03-21T23:03:55.6666331+01:00",
+  "Count": 213
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 32,
-    "Attention": "corporis",
-    "Header": "dignissimos",
-    "Name": "Balistreri LLC",
-    "OurRef": "rerum",
-    "YourRef": "repudiandae",
-    "Description": "Re-engineered didactic paradigm",
-    "DocumentTemplate": "corrupti",
+    "DocumentId": 49,
+    "Attention": "quia",
+    "Header": "mollitia",
+    "Name": "Wunsch, Bahringer and Lowe",
+    "OurRef": "doloremque",
+    "YourRef": "cupiditate",
+    "Description": "Programmable attitude-oriented methodology",
+    "DocumentTemplate": "aliquam",
     "IsPublished": false,
-    "PersonId": 237,
-    "PersonFullName": "Elroy Bauch DDS",
-    "AssociateFullName": "Carter Jewess IV",
-    "ContactId": 897,
-    "ContactName": "Abbott-Wyman",
-    "ProjectId": 56,
-    "ProjectName": "Blanda, Muller and Pollich",
-    "AssociateId": 524,
-    "Snum": 896,
-    "SaleId": 762,
-    "SaleName": "Doyle Group",
+    "PersonId": 285,
+    "PersonFullName": "Myrtle Greenholt",
+    "AssociateFullName": "Evie Rempel",
+    "ContactId": 890,
+    "ContactName": "Stracke Group",
+    "ProjectId": 494,
+    "ProjectName": "Leannon LLC",
+    "AssociateId": 270,
+    "Snum": 236,
+    "SaleId": 77,
+    "SaleName": "Langosh, Johnston and Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 962
       }
     }
   }

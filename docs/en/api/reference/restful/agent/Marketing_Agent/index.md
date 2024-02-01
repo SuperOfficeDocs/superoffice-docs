@@ -53,3 +53,7 @@ generated: true
 * [POST Agents/Marketing/GetUserBlocks](v1MarketingAgent_GetUserBlocks.md)
 
 * [POST Agents/Marketing/GetShipmentMessageEntity](v1MarketingAgent_GetShipmentMessageEntity.md)
+
+* [POST Agents/Marketing/RenameMailingByMessageId](v1MarketingAgent_RenameMailingByMessageId.md)
+
+* [POST Agents/Marketing/DeleteMessageAndShipment](v1MarketingAgent_DeleteMessageAndShipment.md)

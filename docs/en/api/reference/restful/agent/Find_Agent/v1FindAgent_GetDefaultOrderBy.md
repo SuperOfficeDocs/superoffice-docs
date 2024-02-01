@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consectetur",
-  "ProviderName": "Leffler, McLaughlin and Kris",
-  "StorageKey": "eaque"
+  "StorageType": "quo",
+  "ProviderName": "Schultz-Towne",
+  "StorageKey": "culpa"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bradtke Inc and Sons",
+    "Name": "Williamson LLC",
     "Direction": "ASC"
   },
   {
-    "Name": "Bradtke Inc and Sons",
+    "Name": "Williamson LLC",
     "Direction": "ASC"
   }
 ]

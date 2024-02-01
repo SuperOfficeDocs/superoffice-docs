@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 04 Sep 2016 13:57:19 G9T
+Last-Modified: Sat, 14 Sep 2002 23:04:05 G9T
 
 {
-  "BlobId": 493,
-  "BlobSize": 179,
-  "Description": "Networked optimizing open architecture",
-  "ExtraInfo": "sint",
+  "BlobId": 56,
+  "BlobSize": 308,
+  "Description": "Progressive maximized support",
+  "ExtraInfo": "temporibus",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "inventore",
-  "OriginalSize": 864,
-  "CreatedDate": "2011-03-25T13:57:19.4846459+01:00",
-  "UpdatedDate": "2016-09-04T13:57:19.4846459+02:00",
+  "IsZipped": false,
+  "MimeType": "consectetur",
+  "OriginalSize": 964,
+  "CreatedDate": "2007-09-28T23:04:05.089008+02:00",
+  "UpdatedDate": "2002-09-14T23:04:05.089008+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "reprehenderit",
+  "ConceptualType": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 730
     }
   }
 }

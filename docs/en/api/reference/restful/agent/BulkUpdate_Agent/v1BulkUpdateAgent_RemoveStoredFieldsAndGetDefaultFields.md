@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Walter Group",
-  "Context": "aliquam"
+  "TableName": "Rau-Pouros",
+  "Context": "neque"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
     "IsActive": true,
-    "Key": "eveniet",
-    "ValueType": "esse",
-    "Mandatory": false,
-    "EncodedDisplayName": "Klocko Inc and Sons",
-    "EncodedDisplayDescription": "Diverse bifurcated synergy",
-    "IconHint": "voluptatum",
+    "Key": "repellat",
+    "ValueType": "voluptatem",
+    "Mandatory": true,
+    "EncodedDisplayName": "Funk, Bayer and Brakus",
+    "EncodedDisplayDescription": "Centralized solution-oriented installation",
+    "IconHint": "debitis",
     "ControlInfos": [
       {
-        "Type": "recusandae",
-        "Label": "qui",
-        "Dimension": 893,
-        "ListProviderName": "Rogahn Group",
-        "ListProviderExtraInfo": "voluptatem",
-        "ListProviderPrimaryKeyName": "Kilback, Altenwerth and Runolfsson",
-        "ListLeadText": "vel",
+        "Type": "quia",
+        "Label": "sed",
+        "Dimension": 425,
+        "ListProviderName": "Bergnaum-McKenzie",
+        "ListProviderExtraInfo": "quisquam",
+        "ListProviderPrimaryKeyName": "Wolff, O'Conner and Rempel",
+        "ListLeadText": "quasi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldLength": 704
           }
         }
       }
     ],
-    "EncodedDataCaption": "accusamus",
-    "EncodedDataCaptionDescription": "Proactive clear-thinking customer loyalty",
-    "CurrentOperationType": "aut",
+    "EncodedDataCaption": "vel",
+    "EncodedDataCaptionDescription": "Secured eco-centric throughput",
+    "CurrentOperationType": "sed",
     "Values": [
-      "corporis",
-      "ab"
+      "et",
+      "adipisci"
     ],
     "DisplayValues": [
-      "sequi",
-      "earum"
+      "architecto",
+      "illo"
     ],
     "OperationInfos": [
       {
-        "Key": "voluptate",
-        "EncodedDisplayName": "Medhurst LLC",
+        "Key": "accusantium",
+        "EncodedDisplayName": "Jenkins-Koss",
         "EncodedLeadTexts": [
-          "non",
-          "eligendi"
+          "id",
+          "et"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 112
           }
         }
       },
       {
-        "Key": "voluptate",
-        "EncodedDisplayName": "Medhurst LLC",
+        "Key": "accusantium",
+        "EncodedDisplayName": "Jenkins-Koss",
         "EncodedLeadTexts": [
-          "non",
-          "eligendi"
+          "id",
+          "et"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 112
           }
         }
       }

@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rogahn Group",
-  "Context": "dolorem"
+  "TableName": "Davis LLC",
+  "Context": "facere"
 }
 ```
 

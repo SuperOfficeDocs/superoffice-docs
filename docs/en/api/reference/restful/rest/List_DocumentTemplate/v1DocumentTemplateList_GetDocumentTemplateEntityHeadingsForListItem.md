@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Buckridge Group",
-    "ToolTip": "Blanditiis doloribus voluptatem provident dolores quas earum et.",
-    "Deleted": false,
-    "Rank": 281,
-    "Type": "occaecati",
-    "ColorBlock": 936,
-    "IconHint": "corporis",
+    "Id": 957,
+    "Name": "Schulist, Schmitt and Gerlach",
+    "ToolTip": "Et voluptate et eius.",
+    "Deleted": true,
+    "Rank": 750,
+    "Type": "qui",
+    "ColorBlock": 488,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2013-11-08T13:57:19.7658931+01:00",
+    "LastChanged": "2018-01-26T23:04:05.4845009+01:00",
     "ChildItems": [
       {
-        "Id": 137,
-        "Name": "Johnson, Spencer and Robel",
-        "ToolTip": "Culpa et sed dolorum est necessitatibus doloribus blanditiis.",
+        "Id": 101,
+        "Name": "Kautzer LLC",
+        "ToolTip": "Iusto aut temporibus neque asperiores voluptatibus.",
         "Deleted": false,
-        "Rank": 997,
-        "Type": "ea",
-        "ColorBlock": 275,
-        "IconHint": "voluptatem",
+        "Rank": 64,
+        "Type": "aut",
+        "ColorBlock": 709,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "1999-09-17T13:57:19.7658931+02:00",
+        "LastChanged": "2012-04-25T23:04:05.4845009+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "quia",
+        "ExtraInfo": "et",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Mr. Darlene Kiehn",
+        "FullName": "Glennie Windler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 710
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "rerum",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "exercitationem",
     "Hidden": true,
-    "FullName": "Seth Hyatt",
+    "FullName": "Dr. Ally Luella Roob",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 487
+        "FieldLength": 177
       }
     }
   }

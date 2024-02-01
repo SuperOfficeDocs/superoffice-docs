@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Hegmann Group",
-    "ToolTip": "Ut exercitationem fugiat animi.",
+    "Id": 908,
+    "Name": "Hoppe Group",
+    "ToolTip": "Voluptatem nesciunt rerum quo quia ullam aliquid.",
     "Deleted": true,
-    "Rank": 924,
-    "Type": "rerum",
-    "ColorBlock": 103,
-    "IconHint": "quaerat",
-    "Selected": false,
-    "LastChanged": "2015-06-26T13:57:20.0952749+02:00",
+    "Rank": 910,
+    "Type": "blanditiis",
+    "ColorBlock": 376,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2013-07-15T23:04:05.7789965+02:00",
     "ChildItems": [
       {
-        "Id": 878,
-        "Name": "Gleichner, Gottlieb and Medhurst",
-        "ToolTip": "Dolore soluta et impedit ratione.",
+        "Id": 916,
+        "Name": "Green-Harris",
+        "ToolTip": "Error quibusdam provident quia dolorem.",
         "Deleted": false,
-        "Rank": 135,
-        "Type": "maiores",
-        "ColorBlock": 334,
-        "IconHint": "distinctio",
+        "Rank": 253,
+        "Type": "et",
+        "ColorBlock": 906,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2005-02-12T13:57:20.0952749+01:00",
+        "LastChanged": "2005-11-04T23:04:05.7789965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Freeda Windler",
+        "ExtraInfo": "esse",
+        "StyleHint": "laborum",
+        "Hidden": false,
+        "FullName": "Jayme Beatty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 897
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "velit",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Miss Lesly Elwyn O'Hara",
+    "FullName": "Lisa Courtney Kiehn PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldLength": 317
       }
     }
   }

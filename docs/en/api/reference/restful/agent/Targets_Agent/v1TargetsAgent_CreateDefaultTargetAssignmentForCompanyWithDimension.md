@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 855
+  "TargetDimensionId": 588
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 463,
+    "TargetAssignmentInfoId": 586,
     "Values": [
-      708,
-      662
+      929,
+      221
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 562,
-    "DimensionListItemDisplayName": "Russel-Davis",
+    "DimensionListItem": 654,
+    "DimensionListItemDisplayName": "Satterfield, Willms and Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldType": "System.String",
+        "FieldLength": 5
       }
     }
   }

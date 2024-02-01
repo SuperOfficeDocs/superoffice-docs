@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Roob Group",
-    "ToolTip": "Beatae dicta excepturi.",
-    "Deleted": true,
-    "Rank": 411,
-    "Type": "amet",
-    "ColorBlock": 400,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2005-11-07T13:57:19.6877703+01:00",
+    "Id": 668,
+    "Name": "Feil Group",
+    "ToolTip": "Non nemo fuga est accusamus illo ea.",
+    "Deleted": false,
+    "Rank": 404,
+    "Type": "harum",
+    "ColorBlock": 782,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2016-06-14T23:04:05.3890012+02:00",
     "ChildItems": [
       {
-        "Id": 622,
-        "Name": "Kohler, Bradtke and Bashirian",
-        "ToolTip": "Et aperiam voluptas nesciunt dolores tempora est voluptatem.",
-        "Deleted": false,
-        "Rank": 25,
-        "Type": "et",
-        "ColorBlock": 947,
-        "IconHint": "illo",
-        "Selected": false,
-        "LastChanged": "2018-08-05T13:57:19.6877703+02:00",
+        "Id": 91,
+        "Name": "Metz-Gutkowski",
+        "ToolTip": "Autem ut est.",
+        "Deleted": true,
+        "Rank": 57,
+        "Type": "iste",
+        "ColorBlock": 438,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2013-07-15T23:04:05.3890012+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "maiores",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "asperiores",
         "Hidden": true,
-        "FullName": "Iva Mueller II",
+        "FullName": "Alvina Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 642
+            "FieldType": "System.Int32",
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "dolores",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Mrs. Otto Wunsch DDS",
+    "FullName": "Prof. Aditya Dach Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

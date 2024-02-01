@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=333
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=470
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 101,
-  "ParentId": 139,
-  "Name": "Romaguera, Gislason and Runolfsson",
-  "Fullname": "repudiandae",
-  "CategoryMaster": 842,
+  "TicketCategoryId": 936,
+  "ParentId": 645,
+  "Name": "Skiles LLC",
+  "Fullname": "et",
+  "CategoryMaster": 114,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jones Group",
+  "ExternalName": "Durgan Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 754,
-  "ReplyTemplate": 950,
-  "NotificationEmail": "ari@ortiz.ca",
+  "AssignmentLag": 768,
+  "ReplyTemplate": 900,
+  "NotificationEmail": "alvah_stroman@hicklekoch.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 233,
+  "EffectiveReplyTemplateId": 986,
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "et",
+    "ExtraFields2": "aliquam"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "quis"
+    "CustomFields1": "quas",
+    "CustomFields2": "minima"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 263
     }
   }
 }

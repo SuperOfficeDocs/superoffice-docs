@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "et",
-  "Tags": "quas"
+  "DeviceIdentifier": "magni",
+  "Tags": "alias"
 }
 ```
 

@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Quitzon-Harvey",
-  "EntityId": 767,
-  "TargetLanguage": "aut"
+  "EntityName": "Hickle-Kozey",
+  "EntityId": 773,
+  "TargetLanguage": "quia"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"totam"
+"deserunt"
 ```

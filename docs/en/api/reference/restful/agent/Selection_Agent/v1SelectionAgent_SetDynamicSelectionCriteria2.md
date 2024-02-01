@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 674,
-  "Filter": "tenetur"
+  "SelectionId": 263,
+  "Filter": "repellendus"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobs, Ritchie and Mann",
-    "Operator": "reprehenderit",
+    "Name": "Wunsch, Bosco and Leuschke",
+    "Operator": "cumque",
     "Values": [
-      "quia",
-      "sed"
+      "laudantium",
+      "deleniti"
     ],
     "DisplayValues": [
-      "est",
-      "aut"
+      "labore",
+      "omnis"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Marvin LLC",
-        "Operator": "laborum",
+        "Name": "Veum LLC",
+        "Operator": "nemo",
         "Values": [
-          "nulla",
-          "accusantium"
+          "iusto",
+          "blanditiis"
         ],
         "DisplayValues": [
-          "veritatis",
-          "quia"
+          "voluptatum",
+          "rerum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 897,
+        "InterParenthesis": 464,
         "InterOperator": "And",
-        "UniqueHash": 420
+        "UniqueHash": 663
       }
     ],
-    "InterParenthesis": 790,
+    "InterParenthesis": 681,
     "InterOperator": "And",
-    "UniqueHash": 992
+    "UniqueHash": 381
   }
 ]
 ```

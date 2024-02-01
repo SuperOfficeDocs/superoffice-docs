@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2011-01-22T13:57:11.496933+01:00",
-  "EndTime": "2006-08-01T13:57:11.496933+02:00",
-  "Count": 872
+  "StartTime": "1997-09-13T23:03:54.9381437+02:00",
+  "EndTime": "2016-07-09T23:03:54.9381437+02:00",
+  "Count": 211
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 845,
-    "StartDate": "2002-10-11T13:57:11.496933+02:00",
-    "EndDate": "2001-06-10T13:57:11.496933+02:00",
+    "AppointmentId": 132,
+    "StartDate": "2007-01-31T23:03:54.9391452+01:00",
+    "EndDate": "1999-07-06T23:03:54.9391452+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsum",
-    "AssociateFullName": "Keeley Hane",
-    "ContactName": "Franecki, Zulauf and Schaefer",
-    "Description": "Diverse real-time access",
-    "PersonFullName": "Nova Cassin",
-    "PersonId": 527,
-    "ContactId": 642,
-    "ProjectId": 417,
-    "ProjectName": "Prosacco-Bernhard",
+    "Task": "quia",
+    "AssociateFullName": "Joshua Tromp",
+    "ContactName": "Feest, McKenzie and Orn",
+    "Description": "Customizable secondary knowledge user",
+    "PersonFullName": "Miss Jaron Okuneva I",
+    "PersonId": 854,
+    "ContactId": 293,
+    "ProjectId": 650,
+    "ProjectName": "Lesch, Emard and Mohr",
     "IsPublished": false,
-    "AssociateId": 301,
-    "ColorIndex": 618,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "AssociateId": 210,
+    "ColorIndex": 560,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 651,
-    "PriorityName": "Boyer LLC",
+    "PriorityId": 280,
+    "PriorityName": "Feil LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2009-07-11T13:57:11.496933+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2021-01-17T23:03:54.9396434+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-03-24T13:57:11.496933+01:00",
-    "RecurringEndDate": "2013-06-29T13:57:11.496933+02:00",
-    "MotherId": 814,
-    "AssignedBy": 837,
-    "AssignedByFullName": "Lauryn Yundt",
+    "RecurringStartDate": "2010-02-05T23:03:54.9396434+01:00",
+    "RecurringEndDate": "2022-03-25T23:03:54.9396434+01:00",
+    "MotherId": 713,
+    "AssignedBy": 546,
+    "AssignedByFullName": "Hayley Farrell",
     "RejectReason": "",
-    "Location": "assumenda",
-    "AlarmLeadTime": "error",
-    "SaleId": 791,
-    "SaleName": "Hartmann-Predovic",
-    "AssociateName": "Hermann LLC",
-    "CreatedDate": "2008-03-17T13:57:11.496933+01:00",
-    "CreatedBy": "rerum",
-    "CreatedByFullName": "Caroline Ward",
-    "CreatedByAssociateId": 670,
+    "Location": "sint",
+    "AlarmLeadTime": "repudiandae",
+    "SaleId": 716,
+    "SaleName": "Reinger-Turcotte",
+    "AssociateName": "Hoppe, Halvorson and Jenkins",
+    "CreatedDate": "2017-04-11T23:03:54.9401433+02:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Garth Kerluke",
+    "CreatedByAssociateId": 102,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 542,
-    "Title": "sequi",
-    "Agenda": "expedita",
-    "InternalNotes": "suscipit",
+    "PreferredTZLocation": 444,
+    "Title": "sapiente",
+    "Agenda": "illum",
+    "InternalNotes": "aliquid",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 887
       }
     }
   }

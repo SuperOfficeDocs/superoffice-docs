@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Will-Grimes",
-  "EventFilter": "iusto",
+  "NameFilter": "Langworth, Hegmann and Schuppe",
+  "EventFilter": "nulla",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 594,
-    "Name": "Cruickshank, O'Conner and Fay",
+    "WebhookId": 403,
+    "Name": "Kozey-Miller",
     "Events": [
-      "corrupti",
-      "ipsam"
+      "dolorem",
+      "molestiae"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "architecto",
+    "Secret": "non",
     "State": "Active",
-    "Type": "ut",
+    "Type": "aspernatur",
     "Headers": {
-      "Headers1": "illum",
-      "Headers2": "placeat"
+      "Headers1": "dolorem",
+      "Headers2": "maiores"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2022-06-24T13:57:13.6145882+02:00",
+    "Registered": "2001-02-10T23:03:57.6621067+01:00",
     "RegisteredAssociate": null,
-    "Updated": "1997-05-18T13:57:13.6145882+02:00",
+    "Updated": "2003-08-30T23:03:57.6621067+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "danny.wilderman@runte.ca"
+    "ErrorsEmail": "osbaldo@donnelly.info"
   }
 ]
 ```

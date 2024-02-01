@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 537,
-    "Name": "Cassin Group",
-    "ToolTip": "Ut quaerat placeat.",
+    "Id": 610,
+    "Name": "Heidenreich-Wolff",
+    "ToolTip": "Pariatur est.",
     "Deleted": false,
-    "Rank": 449,
-    "Type": "qui",
-    "ColorBlock": 313,
-    "IconHint": "a",
+    "Rank": 22,
+    "Type": "veritatis",
+    "ColorBlock": 163,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2002-01-05T13:57:19.8283923+01:00",
+    "LastChanged": "2003-11-16T23:04:05.5574992+01:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Stroman Inc and Sons",
-        "ToolTip": "Et et dolorum ab quae sequi cumque aliquam.",
-        "Deleted": false,
-        "Rank": 199,
-        "Type": "repellendus",
-        "ColorBlock": 177,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "1998-01-27T13:57:19.8283923+01:00",
+        "Id": 345,
+        "Name": "Runte-Torphy",
+        "ToolTip": "Atque in.",
+        "Deleted": true,
+        "Rank": 577,
+        "Type": "fuga",
+        "ColorBlock": 912,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2015-03-22T23:04:05.5579988+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "vel",
+        "ExtraInfo": "veniam",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Ms. Kristin Friesen III",
+        "FullName": "Ashlynn Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quo",
+    "ExtraInfo": "quia",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Mrs. Raquel Blanche Von DVM",
+    "FullName": "Narciso Treutel PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldType": "System.String",
+        "FieldLength": 664
       }
     }
   }

@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 782,
-  "Restrictions": "architecto"
+  "DashboardTileId": 211,
+  "Restrictions": "optio"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Romaguera, Mills and Pollich",
-        "DisplayTooltip": "quasi",
-        "DisplayType": "deleniti",
+        "DisplayName": "Schroeder-Mraz",
+        "DisplayTooltip": "odit",
+        "DisplayType": "voluptas",
         "CanOrderBy": false,
-        "Name": "Treutel-Sanford",
+        "Name": "Luettgen, Moen and Reichert",
         "CanRestrictBy": true,
-        "RestrictionType": "quia",
-        "RestrictionListName": "Walsh-Schimmel",
+        "RestrictionType": "nesciunt",
+        "RestrictionListName": "Goodwin, Waelchi and VonRueden",
         "IsVisible": false,
-        "ExtraInfo": "qui",
-        "Width": "repellat",
-        "IconHint": "eum",
-        "HeadingIconHint": "natus"
+        "ExtraInfo": "praesentium",
+        "Width": "ut",
+        "IconHint": "nostrum",
+        "HeadingIconHint": "modi"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Romaguera, Mills and Pollich",
-        "DisplayTooltip": "quasi",
-        "DisplayType": "deleniti",
+        "DisplayName": "Schroeder-Mraz",
+        "DisplayTooltip": "odit",
+        "DisplayType": "voluptas",
         "CanOrderBy": false,
-        "Name": "Treutel-Sanford",
+        "Name": "Luettgen, Moen and Reichert",
         "CanRestrictBy": true,
-        "RestrictionType": "quia",
-        "RestrictionListName": "Walsh-Schimmel",
+        "RestrictionType": "nesciunt",
+        "RestrictionListName": "Goodwin, Waelchi and VonRueden",
         "IsVisible": false,
-        "ExtraInfo": "qui",
-        "Width": "repellat",
-        "IconHint": "eum",
-        "HeadingIconHint": "natus"
+        "ExtraInfo": "praesentium",
+        "Width": "ut",
+        "IconHint": "nostrum",
+        "HeadingIconHint": "modi"
       }
     ],
     "Result": null

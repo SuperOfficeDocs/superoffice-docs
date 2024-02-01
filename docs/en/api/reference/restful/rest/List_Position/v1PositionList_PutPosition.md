@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590,
-  "Name": "Hansen-Schimmel",
-  "Tooltip": "quidem",
+  "Id": 98,
+  "Name": "Balistreri, McDermott and Renner",
+  "Tooltip": "tenetur",
   "Deleted": true,
-  "UdListDefinitionId": 147,
-  "Rank": 471
+  "UdListDefinitionId": 631,
+  "Rank": 194
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Mills-Schmitt",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "UdListDefinitionId": 815,
-  "Rank": 122,
+  "Id": 159,
+  "Name": "Hermiston Inc and Sons",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "UdListDefinitionId": 575,
+  "Rank": 513,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldType": "System.Int32",
+      "FieldLength": 52
     }
   }
 }

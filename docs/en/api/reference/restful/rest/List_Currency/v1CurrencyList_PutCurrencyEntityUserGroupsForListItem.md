@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 682,
-    "Name": "Emmerich-Deckow",
-    "ToolTip": "Dolorem similique.",
-    "Deleted": true,
-    "Rank": 312,
-    "Type": "voluptas",
-    "ColorBlock": 1002,
-    "IconHint": "doloremque",
-    "Selected": true,
-    "LastChanged": "2005-10-19T13:57:19.719018+02:00",
+    "Id": 263,
+    "Name": "Ferry-Abshire",
+    "ToolTip": "Adipisci quis nemo vero.",
+    "Deleted": false,
+    "Rank": 505,
+    "Type": "exercitationem",
+    "ColorBlock": 244,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "2005-10-25T23:04:05.4240003+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Feil LLC",
-        "ToolTip": "Consequatur dolorem dolorum molestiae et.",
+        "Id": 567,
+        "Name": "Streich, Kulas and McLaughlin",
+        "ToolTip": "Autem voluptates porro aut eaque ex minus.",
         "Deleted": true,
-        "Rank": 611,
-        "Type": "dolores",
-        "ColorBlock": 798,
-        "IconHint": "ut",
+        "Rank": 209,
+        "Type": "non",
+        "ColorBlock": 802,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2006-03-07T13:57:19.719018+01:00",
+        "LastChanged": "2008-08-31T23:04:05.4240003+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Alexa Wisoky PhD"
+        "ExtraInfo": "vero",
+        "StyleHint": "iure",
+        "Hidden": true,
+        "FullName": "Macey Mya Stokes DVM"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "ex",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Maxime Hahn"
+    "FullName": "Alvah Bailey"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Kemmer Group",
-    "ToolTip": "Nihil voluptatem magni.",
+    "Id": 913,
+    "Name": "Donnelly-Mertz",
+    "ToolTip": "Iste soluta illum similique et tempore qui sequi.",
     "Deleted": false,
-    "Rank": 122,
-    "Type": "ducimus",
-    "ColorBlock": 660,
-    "IconHint": "voluptatem",
+    "Rank": 627,
+    "Type": "qui",
+    "ColorBlock": 948,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2020-08-28T13:57:19.719018+02:00",
+    "LastChanged": "2009-09-24T23:04:05.4260008+02:00",
     "ChildItems": [
       {
-        "Id": 352,
-        "Name": "Stehr, Wintheiser and Nitzsche",
-        "ToolTip": "Et ipsam dolor.",
-        "Deleted": true,
-        "Rank": 259,
-        "Type": "quas",
-        "ColorBlock": 293,
-        "IconHint": "mollitia",
-        "Selected": false,
-        "LastChanged": "2023-10-21T13:57:19.719018+02:00",
+        "Id": 52,
+        "Name": "Kling-O'Reilly",
+        "ToolTip": "Voluptas ipsum totam odit ad voluptatem recusandae.",
+        "Deleted": false,
+        "Rank": 229,
+        "Type": "perferendis",
+        "ColorBlock": 882,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2020-02-05T23:04:05.4265014+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Dereck Jast",
+        "ExtraInfo": "nemo",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Miss Tressie Annette Conn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldType": "System.String",
+            "FieldLength": 735
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "vero",
-    "Hidden": false,
-    "FullName": "Ms. Felicia Adolphus Bergnaum Sr.",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Nicholas Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldLength": 990
       }
     }
   }

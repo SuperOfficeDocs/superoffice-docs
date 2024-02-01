@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2015-06-16T13:57:11.8861856+02:00",
+  "ActivityStartTime": "2018-08-07T23:03:55.3076383+02:00",
   "ContactCategories": [
-    876,
-    769
+    658,
+    188
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 465,
+    "ContactId": 132,
     "Department": "",
-    "OrgNr": "931016",
-    "Name": "Christiansen Inc and Sons",
+    "OrgNr": "826797",
+    "Name": "Heidenreich, Barrows and Adams",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Neoma Walter",
+    "AssociateFullName": "Dejah Champlin",
     "Action": "ActivityCompleted",
-    "ActionTime": "2019-02-06T13:57:11.8861856+01:00",
+    "ActionTime": "2023-11-14T23:03:55.3081419+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Gaylord Inc and Sons",
-    "ActionId": 892,
-    "PersonId": 939,
-    "ActivityPersonId": 631,
-    "AssociateId": 424,
+    "ActivityPersonName": "Runolfsdottir, Thompson and Schuppe",
+    "ActionId": 359,
+    "PersonId": 343,
+    "ActivityPersonId": 586,
+    "AssociateId": 96,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 375
+        "FieldLength": 452
       }
     }
   }

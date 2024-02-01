@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 421,
-    "ContactName": "Monahan, Bednar and Oberbrunner",
-    "PersonId": 436,
-    "PersonName": "Nitzsche LLC",
-    "AssociateId": 861,
-    "Address": "quaerat",
-    "EmailId": 704,
+    "ContactId": 828,
+    "ContactName": "Watsica-Sauer",
+    "PersonId": 402,
+    "PersonName": "Murphy Inc and Sons",
+    "AssociateId": 614,
+    "Address": "sit",
+    "EmailId": 813,
     "DuplicatePersonIds": [
-      886,
-      861
+      117,
+      356
     ],
-    "Name": "Kirlin Group",
+    "Name": "Vandervort-Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

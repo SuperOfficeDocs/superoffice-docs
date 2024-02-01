@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Nader-Breitenberg",
-  "ParameterName": "Senger-Lowe"
+  "LayoutName": "Simonis-Bogisich",
+  "ParameterName": "Kessler Group"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 385,
-  "Name": "Pacocha Inc and Sons",
-  "Value": "voluptas",
-  "CreatedDate": "2001-01-03T13:57:11.5438073+01:00",
-  "UpdatedDate": "2008-10-06T13:57:11.5438073+02:00",
-  "CreatedBy": "delectus",
-  "UpdatedBy": "fugit",
+  "AudienceLayoutId": 270,
+  "Name": "Heaney, Boehm and Emard",
+  "Value": "ullam",
+  "CreatedDate": "2012-06-24T23:03:55.0041422+02:00",
+  "UpdatedDate": "2011-12-24T23:03:55.0041422+01:00",
+  "CreatedBy": "perferendis",
+  "UpdatedBy": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

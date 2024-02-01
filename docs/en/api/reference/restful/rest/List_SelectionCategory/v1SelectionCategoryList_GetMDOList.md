@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=eum
+GET /api/v1/List/SelectionCategory/MDOItems?query=veritatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Ferry Inc and Sons",
-    "ToolTip": "Et delectus dolore autem ullam.",
+    "Id": 907,
+    "Name": "Mills-Purdy",
+    "ToolTip": "Facilis quis sapiente quaerat ullam nostrum nostrum et.",
     "Deleted": false,
-    "Rank": 882,
+    "Rank": 301,
     "Type": "in",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Lockman, Quigley and Moen",
-        "ToolTip": "Autem veritatis minima laborum consequatur doloribus.",
-        "Deleted": false,
-        "Rank": 749,
-        "Type": "quia",
+        "Id": 67,
+        "Name": "Kutch, Bosco and Towne",
+        "ToolTip": "In laborum doloribus labore rem.",
+        "Deleted": true,
+        "Rank": 204,
+        "Type": "aperiam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consectetur",
-        "ColorBlock": 301,
-        "ExtraInfo": "sed",
-        "StyleHint": "repudiandae",
-        "FullName": "Ms. Cristina Rolfson",
+        "IconHint": "aut",
+        "ColorBlock": 58,
+        "ExtraInfo": "maxime",
+        "StyleHint": "voluptatem",
+        "FullName": "Kiel Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 871
+            "FieldLength": 749
           }
         }
       }
     ],
-    "IconHint": "ex",
-    "ColorBlock": 243,
-    "ExtraInfo": "nobis",
-    "StyleHint": "nesciunt",
-    "FullName": "Mrs. Amelie Mia Altenwerth",
+    "IconHint": "et",
+    "ColorBlock": 442,
+    "ExtraInfo": "neque",
+    "StyleHint": "non",
+    "FullName": "Prof. Maryjane Garfield Huels MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 380
+        "FieldType": "System.Int32",
+        "FieldLength": 306
       }
     }
   }

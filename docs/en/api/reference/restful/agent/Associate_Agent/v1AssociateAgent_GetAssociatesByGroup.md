@@ -91,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 993,
-  "Type": 500
+  "GroupId": 19,
+  "Type": 480
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 371,
-    "Name": "Tromp, Turcotte and Kassulke",
-    "PersonId": 783,
-    "Rank": 157,
-    "Tooltip": "impedit",
+    "AssociateId": 463,
+    "Name": "Ernser-Ratke",
+    "PersonId": 941,
+    "Rank": 184,
+    "Tooltip": "cupiditate",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 674,
-    "FullName": "Miss Barton Ward MD",
-    "FormalName": "Hills-Wyman",
+    "GroupIdx": 698,
+    "FullName": "Dr. Aidan Lueilwitz",
+    "FormalName": "Roberts LLC",
     "Deleted": false,
-    "EjUserId": 204,
-    "UserName": "Lockman Group",
+    "EjUserId": 673,
+    "UserName": "Hodkiewicz-Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 174
       }
     }
   }

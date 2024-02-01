@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Hodkiewicz, Kessler and Spencer",
-    "ToolTip": "Est numquam iusto rerum sed quia necessitatibus in.",
+    "Id": 173,
+    "Name": "Schneider-Walker",
+    "ToolTip": "Ipsam quia ducimus voluptatem sint et et et.",
     "Deleted": false,
-    "Rank": 856,
-    "Type": "quo",
-    "ColorBlock": 129,
-    "IconHint": "delectus",
+    "Rank": 598,
+    "Type": "ea",
+    "ColorBlock": 326,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2003-07-26T13:57:19.7815186+02:00",
+    "LastChanged": "2013-06-08T23:04:05.5039991+02:00",
     "ChildItems": [
       {
-        "Id": 262,
-        "Name": "Feest, Walsh and Wolff",
-        "ToolTip": "Unde est vel et ut.",
-        "Deleted": false,
-        "Rank": 885,
-        "Type": "pariatur",
-        "ColorBlock": 908,
-        "IconHint": "incidunt",
+        "Id": 959,
+        "Name": "Padberg, Lindgren and Lesch",
+        "ToolTip": "Praesentium debitis deleniti iusto fugiat sed.",
+        "Deleted": true,
+        "Rank": 159,
+        "Type": "delectus",
+        "ColorBlock": 937,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2020-01-13T13:57:19.7815186+01:00",
+        "LastChanged": "2003-06-02T23:04:05.5039991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Olin Kling",
+        "ExtraInfo": "provident",
+        "StyleHint": "a",
+        "Hidden": true,
+        "FullName": "Miss Shirley Kiel Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 113
+            "FieldType": "System.Int32",
+            "FieldLength": 959
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "at",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Lorine Estrella Bashirian DDS",
+    "FullName": "Prof. Cassie Tracey Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldLength": 401
       }
     }
   }

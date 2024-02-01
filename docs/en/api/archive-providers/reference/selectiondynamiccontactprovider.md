@@ -878,6 +878,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
+|request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -950,11 +951,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
 |request/extra/x\_ticket\_boolean|bool|Extra boolean: Custom boolean on Ticket.| x |
 |request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
-|request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
@@ -1054,11 +1055,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/saintAmountClass|listAny|Amount class|  |
 |projectMembers/saintActivityType|listAny|SAINT type|  |
 |projectMembers/saintDirection|listAny|Direction|  |
-|projectMembers/saintIntention|listAny|Intention|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintIntention|listAny|Intention|  |
 |projectMembers/saintTicketStatus|listAny|Status|  |
 |projectMembers/saintTicketCategory|listAny|Category|  |
 |projectMembers/project/textId|int|Text ID| x |
@@ -1157,7 +1158,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=contactSource,sale/date,appointment/duration,appointment/associate/isActive,personExtra/x_person_contact_relation
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=contactExtra/x_contact_contact_relation,sale/hasQuote,sale/associate/fullName,appointment/completedDate,appointment/associate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

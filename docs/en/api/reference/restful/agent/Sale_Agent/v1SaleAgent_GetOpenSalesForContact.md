@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 450
+  "ContactId": 633
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Beatty-Hessel",
-    "SaleDate": "2023-06-27T13:57:13.1757129+02:00",
-    "SaleId": 771,
-    "Probability": 779,
-    "Title": "rerum",
-    "Amount": 22000.68,
-    "Currency": "et",
-    "ProjectName": "Ondricka, Boehm and Conroy",
-    "AssociateFullName": "Darion Lockman",
-    "Description": "Decentralized mission-critical emulation",
+    "ContactName": "Hickle-Rowe",
+    "SaleDate": "2010-09-25T23:03:56.9271233+02:00",
+    "SaleId": 19,
+    "Probability": 522,
+    "Title": "autem",
+    "Amount": 28566.41,
+    "Currency": "ut",
+    "ProjectName": "Dietrich, Abshire and Fahey",
+    "AssociateFullName": "Mckenzie Koepp",
+    "Description": "Streamlined 6th generation architecture",
     "Status": "Lost",
-    "WeightedAmount": 247.58599999999998,
-    "ProjectId": 821,
-    "EarningPercent": 22304.678,
-    "Earning": 23536.34,
-    "ContactId": 347,
-    "AssociateId": 109,
-    "PersonId": 792,
-    "SaleTypeId": 887,
-    "SaleTypeName": "Stamm LLC",
-    "PersonFullName": "Carlo Hauck",
+    "WeightedAmount": 30663.056,
+    "ProjectId": 605,
+    "EarningPercent": 29794.938,
+    "Earning": 22075.896,
+    "ContactId": 535,
+    "AssociateId": 505,
+    "PersonId": 765,
+    "SaleTypeId": 626,
+    "SaleTypeName": "Reichert, Schamberger and Larkin",
+    "PersonFullName": "Cesar Durgan",
     "Completed": "Completed",
-    "ActiveErpLinks": 552,
-    "NextDueDate": "2007-07-11T13:57:13.1757129+02:00",
-    "Number": "1858227",
+    "ActiveErpLinks": 269,
+    "NextDueDate": "2006-05-23T23:03:56.9276165+02:00",
+    "Number": "907708",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 86
+        "FieldType": "System.Int32",
+        "FieldLength": 832
       }
     }
   }

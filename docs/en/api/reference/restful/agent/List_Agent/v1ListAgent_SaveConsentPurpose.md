@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 665,
-  "Name": "Emmerich-Kohler",
-  "ConsentText": "reiciendis",
-  "FormText": "omnis",
-  "Key": "quia",
-  "Tooltip": "vel",
-  "Active": 986,
-  "UpdatedDate": "2000-02-04T13:57:12.591212+01:00",
+  "ConsentPurposeId": 150,
+  "Name": "Koepp Inc and Sons",
+  "ConsentText": "debitis",
+  "FormText": "molestiae",
+  "Key": "est",
+  "Tooltip": "voluptatem",
+  "Active": 485,
+  "UpdatedDate": "2022-04-09T23:03:56.3211288+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 963,
-  "PrivacyStatementDesc": "temporibus",
+  "Rank": 737,
+  "PrivacyStatementDesc": "dolor",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldType": "System.String",
+      "FieldLength": 863
     }
   }
 }

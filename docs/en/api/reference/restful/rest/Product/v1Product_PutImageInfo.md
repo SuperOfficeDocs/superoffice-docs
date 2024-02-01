@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 223,
-  "BlobSize": 373,
-  "Description": "Upgradable heuristic moderator",
-  "ExtraInfo": "nesciunt",
-  "IsEncrypted": true,
+  "BlobId": 429,
+  "BlobSize": 335,
+  "Description": "Decentralized homogeneous structure",
+  "ExtraInfo": "sit",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "iure",
-  "OriginalSize": 354,
-  "CreatedDate": "2002-02-02T13:57:19.4846459+01:00",
-  "UpdatedDate": "2019-01-07T13:57:19.4846459+01:00",
+  "MimeType": "quam",
+  "OriginalSize": 558,
+  "CreatedDate": "2018-04-12T23:04:05.0900053+02:00",
+  "UpdatedDate": "2016-07-01T23:04:05.0900053+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "reiciendis"
+  "ConceptualType": "sit"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 74,
-  "BlobSize": 908,
-  "Description": "Self-enabling multi-tasking knowledge base",
-  "ExtraInfo": "asperiores",
+  "BlobId": 994,
+  "BlobSize": 968,
+  "Description": "Digitized discrete software",
+  "ExtraInfo": "possimus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "repudiandae",
-  "OriginalSize": 367,
-  "CreatedDate": "2020-09-30T13:57:19.4846459+02:00",
-  "UpdatedDate": "2019-04-26T13:57:19.4846459+02:00",
+  "MimeType": "eos",
+  "OriginalSize": 422,
+  "CreatedDate": "2014-03-12T23:04:05.0915057+01:00",
+  "UpdatedDate": "1997-01-17T23:04:05.0915057+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "odit",
+  "ConceptualType": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

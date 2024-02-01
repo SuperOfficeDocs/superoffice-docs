@@ -40,10 +40,7 @@ Lists all email flow content
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this workflow?| x |
 |emailFlow/thumbnail| *None* |Thumbnail|  |
-|emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
-|emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
-|emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|emailFlow/mediumThumbnail| *None* |Thumbnail|  |
 |emailFlow/workflowId|int|Workflow id: Id of a worflow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of the workflow definition| x |
 |emailFlow/workflowDefinitionStatus|listAny|Status: Status of the workflow definition| x |
@@ -54,36 +51,40 @@ Lists all email flow content
 |emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
 |emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants has successfully finished the workflow (goals criteria met)|  |
 |emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
-|emailFlow/workflowAssociate/firstName|string|First name: Displays the contact's first name| x |
-|emailFlow/workflowAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|emailFlow/workflowAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|emailFlow/workflowAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|emailFlow/workflowAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|emailFlow/workflowAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|emailFlow/workflowAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|emailFlow/workflowAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|emailFlow/workflowAssociate/associateDbId|associate|ID| x |
-|emailFlow/workflowAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|emailFlow/workflowAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|emailFlow/workflowAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|emailFlow/workflowAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|emailFlow/workflowAssociate/contactCategory|listAny|Category: Category| x |
-|emailFlow/workflowAssociate/role|listAny|Role : Role| x |
-|emailFlow/workflowAssociate/assocName|associate|User ID : User ID| x |
-|emailFlow/workflowAssociate/assocTooltip|string|Description : Description|  |
-|emailFlow/workflowAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|emailFlow/workflowAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|emailFlow/workflowAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|emailFlow/workflowAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|emailFlow/workflowAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|emailFlow/workflowAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|emailFlow/workflowAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|emailFlow/workflowAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|emailFlow/workflowAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|emailFlow/workflowAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|emailFlow/workflowAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|emailFlow/workflowAssociate/userName|string|User name: User name| x |
-|emailFlow/workflowAssociate/personEmail|string|E-mail| x |
+|emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
+|emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
+|emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|emailFlow/workflowAssociate/firstName|string|Owner - First name: Displays the contact's first name| x |
+|emailFlow/workflowAssociate/lastName|string|Owner - Last name: Displays the contact's last name| x |
+|emailFlow/workflowAssociate/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
+|emailFlow/workflowAssociate/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|emailFlow/workflowAssociate/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
+|emailFlow/workflowAssociate/personId|int|Owner - Contact ID: Database ID of the contact row|  |
+|emailFlow/workflowAssociate/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|emailFlow/workflowAssociate/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|emailFlow/workflowAssociate/associateDbId|associate|Owner - ID| x |
+|emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
+|emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
+|emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
+|emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
+|emailFlow/workflowAssociate/role|listAny|Owner - Role: Role| x |
+|emailFlow/workflowAssociate/assocName|associate|Owner - User ID: User ID| x |
+|emailFlow/workflowAssociate/assocTooltip|string|Owner - Description: Description|  |
+|emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
+|emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
+|emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
+|emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|emailFlow/workflowAssociate/isActive|bool|Owner - Active: Is this user active, and should be able to log in?| x |
+|emailFlow/workflowAssociate/isActiveText|bool|Owner - Active status: Is this user active, and should be able to log in?| x |
+|emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
+|emailFlow/workflowAssociate/otherGroups|userGroup|Owner - Other groups: Other groups|  |
+|emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
+|emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
 |emailFlow/hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
 |emailFlow/hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
@@ -121,11 +122,11 @@ Lists all email flow content
 |shipment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
 |shipment/mailingAddr/mailingAddrId|int|!!!Mailing addr Id: !!!Mailing addr Id Tooltip| x |
 |shipment/mailingAddr/status|listAny|Recipient status: Status of mailing recipient|  |
-|shipment/mailingAddr/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/mailingAddr/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |shipment/mailingAddr/contactId|int|Company ID: Database ID of company| x |
 |shipment/mailingAddr/personId|int|Contact ID: Database ID of the contact row| x |
 |shipment/mailingAddr/contact/contactId|int|Company - Company ID: Database ID of company| x |
@@ -225,11 +226,11 @@ Lists all email flow content
 |shipment/mailingAddr/contact/contactAssociate/role|listAny|Company - Role: Role| x |
 |shipment/mailingAddr/contact/contactAssociate/assocName|associate|Company - User ID: User ID| x |
 |shipment/mailingAddr/contact/contactAssociate/assocTooltip|string|Company - Description: Description|  |
-|shipment/mailingAddr/contact/contactAssociate/assocType|listAny|Company - Type: Type of user: associate, external user, system user, anonymous account| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/mailingAddr/contact/contactAssociate/assocType|listAny|Company - Type: Type of user: associate, external user, system user, anonymous account| x |
 |shipment/mailingAddr/contact/contactAssociate/ejUserId|int|Company - Service user ID: The database ID of a Service user|  |
 |shipment/mailingAddr/contact/contactAssociate/simultaneousEjUser|bool|Company - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |shipment/mailingAddr/contact/contactAssociate/ejDisplayName|string|Company - Nick name: User's nick name in Service| x |
@@ -329,11 +330,11 @@ Lists all email flow content
 |shipment/mailingAddr/person/birthDay|int|Contact - Birth day: Displays contact's birth day (day of month)| x |
 |shipment/mailingAddr/person/kanaFirstName|string|Contact - First name, kana: Contact's first name, in kana alphabet| x |
 |shipment/mailingAddr/person/kanaLastName|string|Contact - Last name, kana: Contact's last name, in kana alphabet| x |
-|shipment/mailingAddr/person/personUpdatedBy|associate|Contact - Updated by: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/mailingAddr/person/personUpdatedBy|associate|Contact - Updated by: The user who last updated the data| x |
 |shipment/mailingAddr/person/personUpdatedByFullName|associate|Contact - Updated by - Full name: The user who last updated the data| x |
 |shipment/mailingAddr/person/personUpdatedDate|date|Contact - Updated: The date/time the data was last updated in UTC.| x |
 |shipment/mailingAddr/person/personRegisteredBy|associate|Contact - Registered by: The user who registered the data| x |
@@ -433,11 +434,11 @@ Lists all email flow content
 |shipment/mailingAddr/person/personExtra/x\_person\_contact\_relation|stringorPK|Contact - Extra company relation: Company relation on contact| x |
 |shipment/mailingAddr/person/personExtra/y\_rental/id|int|Contact - Rental - id: Displays the row's primary key (y\_rental)| x |
 |shipment/mailingAddr/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental| x |
-|shipment/mailingAddr/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/mailingAddr/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End| x |
 |shipment/mailingAddr/person/personExtra/y\_rental/x\_amount|int|Contact - Rental - Amount: Number to rent. Default = 1| x |
 |shipment/mailingAddr/person/personExtra/y\_rental/x\_contact|stringorPK|Contact - Rental - Renter: Company that rents equipment| x |
 |shipment/mailingAddr/person/personExtra/y\_rental/y\_equipment/x\_name|string|Contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -537,11 +538,11 @@ Lists all email flow content
 |shipment/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |shipment/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |shipment/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|shipment/associate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |shipment/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |shipment/associate/userName|string|User name: User name| x |
 |shipment/associate/personEmail|string|E-mail| x |
@@ -641,12 +642,16 @@ Lists all email flow content
 |shipment/project/saintTicketStatus|listAny|Status|  |
 |shipment/project/saintTicketCategory|listAny|Category|  |
 |shipment/project/project/textId|int|Text ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |shipment/project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=emailFlow/workflowAssociate/title,shipment/recipientStatus,shipment/mailingAddr/contact/restrictionAddress/formattedMultiLineAddress,shipment/mailingAddr/person/personAddress/addressId,shipment/mailingAddr/person/personAddress/formattedAddress
+GET /api/v1/archive/EmailFlowContent?$select=emailFlow/thumbnail,emailFlow/workflowAssociate/assocTooltip,shipment/mailingAddr/person/birthDay,shipment/mailingAddr/person/email/emailId,shipment/project/projectAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

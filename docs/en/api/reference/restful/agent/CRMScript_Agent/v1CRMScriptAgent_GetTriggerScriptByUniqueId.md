@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "commodi"
+  "TriggerScriptUniqueId": "aut"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 973,
-  "Name": "Hodkiewicz Inc and Sons",
+  "ScreenChooserId": 566,
+  "Name": "Becker-Daniel",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "incidunt",
-  "Source": "animi",
-  "Registered": "2010-08-03T13:57:12.0123726+02:00",
-  "RegisteredAssociateId": 532,
-  "Updated": "2009-12-18T13:57:12.0123726+01:00",
-  "UpdatedAssociateId": 571,
+  "UniqueIdentifier": "officia",
+  "Source": "recusandae",
+  "Registered": "1999-03-26T23:03:55.5876367+01:00",
+  "RegisteredAssociateId": 156,
+  "Updated": "2001-09-13T23:03:55.5876367+02:00",
+  "UpdatedAssociateId": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 916
     }
   }
 }
