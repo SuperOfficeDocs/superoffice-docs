@@ -12,6 +12,7 @@ metadata:
   keywords: rss, diary
 items:
 - title: Introduction
+  stepNumber: 1
   durationInMinutes: 2
   content: |
     The example handles user authentication with forms authentication mode with a custom login page. Based on the user credentials provided, the link to the RSS feed is generated.
@@ -45,6 +46,7 @@ items:
     An XML stylesheet formats how the feed is displayed. The stylesheet is referenced on the first line in the example above and will be discussed later.
 - title: Authentication and how to create the link to the feed
   durationInMinutes: 2
+  stepNumber: 2
   content: |
     The generated feed link uses the user credentials along with the user preference for the number of items displayed in Feed contents is read and appended to the feed URL.
 
@@ -53,16 +55,19 @@ items:
     [!code-vb[VB](includes/rss-generate-link.vb)]
 - title: Get the activity information
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     Let's take a look at how the activity is generated and passed to the feed.
 
     [!include[Content: get activity info](includes/steps/get-activity-info.md)]
 - title: Generate the RSS feed
   durationInMinutes: 3
+  stepNumber: 4
   content: |
     [!include[Content: generate RSS feed](includes/steps/generate-feed.md)]
 - title: Formatting RSS in XSLT
   durationInMinutes: 3
+  stepNumber: 5
   content: |
     Internet Explorer 7+ and Firefox 2+ browsers have the integrated RSS reading capability. Previous versions of these browsers display RSS as plain XML. To address this issue, we use XSLT style sheets to control how the Feed will be rendered in a browser. The XML stylesheet will be ignored depending on whether the RSS is recognized as an XML document or as an RSS feed by a browser.
 
@@ -87,10 +92,12 @@ items:
     ```
 - title: Configure
   durationInMinutes: 3
+  stepNumber: 6
   content: |
     [!include[Content: Configuration](includes/steps/config.md)]
 - title: Summary
   durationInMinutes: 1
+  stepNumber: 7
   content: |
     [!include[Content: RSS results](includes/steps/rss-results.md)]
 

@@ -13,6 +13,7 @@ metadata:
 items:
 - title: Introduction
   durationInMinutes: 1
+  stepNumber: 1
   content: |
     This Windows application retrieves a list of activities for the past 6 months of the logged-in user. It also supports filtering the activities based on user input.
 
@@ -20,18 +21,22 @@ items:
     The code segments use the **SuperOffice.CRM.ArchiveLists.ActivityArchiveProvider** to retrieve the activities.
 - title: Prepare parameters
   durationInMinutes: 3
+  stepNumber: 2
   content: |
     [!include[Content: prepare parameters](includes/steps/prepare-parameters.md)]
 - title: Convert
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     [!include[Content: convert](includes/steps/convert.md)]
 - title: Filter the grid
   durationInMinutes: 2
+  stepNumber: 4
   content: |
     [!include[Content: filtering the grid](includes/steps/filter-grid.md)]
 - title: Summary
   durationInMinutes: 1
+  stepNumber: 5
   content: |
     When we're done, it should look like this:
 

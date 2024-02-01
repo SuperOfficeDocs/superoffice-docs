@@ -11,6 +11,7 @@ metadata:
 items:
 - title: Hitta data
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     1. Klicka på **Nytt** på toppraden och välj **Urval**.
 
@@ -37,11 +38,13 @@ items:
 
 - title: Välja detaljer
   durationInMinutes: 3
+  stepNumber: 2
   content: |
     [!include[Ange egenskaper](includes/set-properties.md)]
 
 - title: Slutför
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     1. [!include[Lägga till i favoriter](includes/add-to-fav.md)]
 

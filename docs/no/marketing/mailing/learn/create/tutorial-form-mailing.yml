@@ -11,11 +11,13 @@ metadata:
 items:
 - title: Oppsett
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     [!include[Trinn 1 skjemarespons](includes/step-1-setup-form-response.md)]
 
 - title: Mal
   durationInMinutes: 2
+  stepNumber: 2
   content: |
     [!include[Hvordan velge en mal](includes/mailing-choose-template.md)]
 
@@ -23,5 +25,6 @@ items:
 
 - title: Innhold
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     [!include[Trinn 3 e-post](includes/step-3-content-email.md)]

@@ -11,6 +11,7 @@ metadata:
 items:
 - title: Daten suchen
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     1. Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **Selektion**.
 
@@ -37,11 +38,13 @@ items:
 
 - title: Details auswählen
   durationInMinutes: 3
+  stepNumber: 2
   content: |
     [!include[Eigenschaften festlegen](includes/set-properties.md)]
 
 - title: Fertig stellen
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     1. [!include[Zu Favoriten hinzufügen](includes/add-to-fav.md)]
 

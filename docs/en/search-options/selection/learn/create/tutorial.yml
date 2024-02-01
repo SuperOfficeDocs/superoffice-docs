@@ -11,6 +11,7 @@ metadata:
 items:
 - title: Find the data
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     1. Click **New** on the Top bar and select **Selection**.
 
@@ -37,11 +38,13 @@ items:
 
 - title: Choose details
   durationInMinutes: 3
+  stepNumber: 2
   content: |
     [!include[Set properties](includes/set-properties.md)]
 
 - title: Finish
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     1. [!include[Add to Favorites](includes/add-to-fav.md)]
 

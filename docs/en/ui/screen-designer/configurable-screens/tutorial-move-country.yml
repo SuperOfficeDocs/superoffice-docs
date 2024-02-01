@@ -11,6 +11,7 @@ metadata:
 items:
 - title: Purpose
   durationInMinutes: 1
+  stepNumber: 1
   content: |
     In SuperOffice, addresses are formatted based on country and region.
     To encourage users to select country first, we're going to move that field to the top of the **Company** screen.
@@ -21,6 +22,7 @@ items:
     [!include[Requirement](../../../../../common/includes/req-dev-tools.md)]
 - title: Open the Screen Designer
   durationInMinutes: 2
+  stepNumber: 2
   content: |
     1. Go to **Settings and maintenance**.
     1. Select **Screen Designer** from the navigator.
@@ -28,6 +30,7 @@ items:
     ![Screen designer -screenshot](media/open-screen-designer.png)
 - title: Open the layout in edit mode
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     1. Select **Company** at the top.
     1. Select the **Main cards** tab directly below.
@@ -37,6 +40,7 @@ items:
     ![Company layout in edit mode -screenshot](media/tutorial-country-layout-before.png)
 - title: Update the fields
   durationInMinutes: 1
+  stepNumber: 4
   content: |
     1. Select the **Company** tab in the preview.
     1. Click to select the **Country** field.
@@ -45,6 +49,7 @@ items:
         ![Company layout in edit mode -screenshot](media/tutorial-country-layout-after.png)
 - title: Save, publish, and test results
   durationInMinutes: 1
+  stepNumber: 5
   content: |
     1. Click **Save + Publish**.
     1. In another browser tab, sign out of SuperOffice. Then sign back information.
