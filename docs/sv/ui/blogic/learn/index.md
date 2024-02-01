@@ -48,7 +48,7 @@ Med funktionen [CRMScript][2] kan du automatisera uppgifter i eller ändra betee
 Genom att [lägga till extratabeller och fält][1] i SuperOffice kan du spara en mängd information som är viktig för ditt företag. Du kan lägga till extratabeller och fält till dina ärenden, kontaktkort eller företagskort.
 
 <!-- Referenced links -->
-[1]: ../../../custom-objects/learn/extra-table/index.md
+[1]: ../../../custom-objects/learn/extra-table.md
 [2]: ../../../automation/crmscript/learn/index.md
 [3]: ../../../automation/crmscript/learn/macro-script.md
 [4]: ../../../automation/crmscript/learn/trigger.md

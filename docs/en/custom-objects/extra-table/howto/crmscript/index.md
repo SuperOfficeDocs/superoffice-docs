@@ -1,59 +1,9 @@
 ---
-uid: crmscript_extra_tables
-title: Third-party tables
-author: Bergfrid Skaara Dias
-so.date: 02.07.2022
-keywords: CRMScript, database
-so.topic: concept
+uid: extra-table-crmscript-redirect
+title: Extra tables
+author: Bergfrid Dias
+so.date: 02.01.2024
+keywords: 
+so.topic: howto
+redirect_url: https://docs.superoffice.com/en/automation/crmscript/howto/custom-objects/extra-table.html
 ---
-
-# Third-party tables
-
-## Add data to a new table
-
-Using [SearchEngine][2] and `addData()`, you set up the row and then do an insert.
-
-This example adds a row to the `y_equipment` table with values for the `x_label` and `x_manufacturer` fields.
-
-```crmscript
-SearchEngine se;
-se.addData("y_equipment.x_label", "tablet");
-se.addData("y_equipment.x_manufacturer", "HP");
-se.insert();
-```
-
-## Reference
-
-### Table properties
-
-| Property | Description |
-|:--|:---|
-| Folder         | to organize tables in a hierarchy, optional                 |
-| Name           | label                                                       |
-| Database table | for the schema, can't be changed after creation             |
-| Sort order     | which column the table will be sorted on, and the direction |
-| Display field  | for relations                                               |
-| SuperOffice CRM access | controls access to the table from web panels<br>no access, read access, or full access |
-
-[Complete list of properties][1]
-
-### Field properties
-
-| Property        | Description                                     |
-|:----------------|:------------------------------------------------|
-| Name            | label                                           |
-| Database field  | for the schema, can't be changed after creation |
-| Cannot be empty | makes field mandatory                           |
-| Create index    | whether to index the field                      |
-| Show in table   | whether to as a column when listing entries     |
-| Default value   | used if not set explicitly                      |
-| Update null values now | whether to replace all empty fields with the default value |
-
-In addition, each type has its own set of properties. For example, items for a list box and decimals in a number, or units for a time span.
-
-[Complete list of properties][3].
-
-<!-- Referenced links -->
-[1]: ../../../learn/extra-table/create.md
-[2]: ../../../../automation/crmscript/searchengine/index.md
-[3]: ../../../learn/extra-field/create.md

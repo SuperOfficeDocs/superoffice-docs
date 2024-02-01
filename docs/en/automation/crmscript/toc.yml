@@ -121,6 +121,16 @@ items:
       href: searchengine/se-insert-update-delete.md
     - name: Using the SearchEngine class (blog post)
       href: searchengine/using-the-searchengine-class-blog-post.md
+  - name: Custom objects
+    items:
+    - name: User-defined fields
+      href: howto/custom-objects/udef.md
+    - name: Extra fields
+      href: howto/custom-objects/extra-field.md
+    - name: Sort values
+      href: howto/custom-objects/sort-extra-field-values.md
+    - name: Extra tables
+      href: howto/custom-objects/extra-table.md
 - name: Tutorials
   items:
   - name: Random requests

@@ -1,70 +1,60 @@
 ---
-title: Custom objects
 uid: help-en-custom-objects
-description: Custom objects
+title: Custom objects
+description: Introduction to database schema customizations in SuperOffice
+keywords: custom object, table, field, user-defined field, udef, custom field, extra field, extra table
 author: Bergfrid Dias
-so.date: 02.23.2023
-keywords: custom object
+so.date: 01.16.2024
+so.version: 10
 so.topic: concept
 language: en
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
-# Custom objects
+# Custom objects and fields
 
-## User defined fields
+All companies and organizations have their own requirements for the information they need to register concerning their contacts, sales, projects, contracts, and so on. Administrators can add fields and tables in SuperOffice to customize the type of information that can be registered.
 
-All companies and organizations have their own requirements for the information they need to register concerning their contacts, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customize the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
+SuperOffice CRM and Service were once two separate applications, with different extensibility options. [**User-defined fields**][1] (udefs for short) belong in SuperOffice CRM, while [**extra tables**][3] (aka 3rd party tables) and [**extra fields**][2] belong in Service. The term **custom field** includes both user-defined fields and extra fields.
 
-## Custom fields and tables
+## Usage
 
-A good example of a custom field you can use on the **Contact** card is a field called "Satisfied customer", where the value of the field is Yes or No.
+* A good example of a custom field you can use in the **Contact** screen is a field called "Satisfied customer", where the value of the field is Yes or No. For example, you can send your contacts a mailing (with link actions) where they can state whether they are satisfied with your services. This will give you valuable insight into the general customer satisfaction rate.
 
-For example, you can send your contacts a mailing (with link actions) where they can state whether they are satisfied with your services. This will give you valuable insight into the general customer satisfaction rate.
+* Using the **Find** function, you can search for the information you register in custom fields and create selections. For example, if you register the expiry date of the maintenance agreement that you have with contacts, you can create a dynamic selection that shows the contacts for which the agreement expires in less than one month.
 
-Of course, you can add a wide range of tables and fields to SuperOffice to save any information your customer service agents need.
+* You can reuse the information from these fields in documents and emails as **template variables**. Each field that you add gets its own unique ID (Prog ID), which can be used in documents to merge contact-specific information. So, if you want to send an email to your contacts that says that their maintenance agreement will expire soon, you can use the template variable for expiry date to show the correct expiry date of their agreement in the message.
 
-![In the Tables screen, you can either choose to (a) create an extra field or (b) create a new table -screenshot][img1]
+## Requirements
 
-### Extra tables
+| Customization | License | Comment |
+|---|---|---|
+| Add/remove user-defined field | None | Automatically displayed on the More tab. Need Development Tools to customize placement. |
+| Customize layout of the More tab | Development Tools | |
+| Manage page 1 fields | Development Tools | |
+| Extra field | Development Tools | |
+| Extra table | Development Tools | |
+| [Screen Designer][5] | Development Tools | SuperOffice version 10 and newer. |
+| [Custom screens][6] | Development Tools, Service | Create new screens in Service. |
 
-* [Introduction to extra tables][3]
-* [Define a table][4]
+## Layout (positioning fields)
 
-### Custom fields
+UI customization of any type requires the Development Tools license. Any custom screen layouts (created in the Screen Designer) may override the settings on individual custom fields.
 
-All companies and organizations have their own requirements for the information they need to register. This could be for companies, contacts, sales, projects, and so on. As an administrator, you can add your own fields in Settings and maintenance.
-
-* [User-defined fields][1]
-* [Extra fields][2]
-
-#### The benefits of adding fields
-
-Using the Find function, you can search for the information you register in these fields and make selections.
-
-For example, if you register the expiry date of the maintenance agreement that you have with contacts, you can create a dynamic selection that shows the contacts for which the agreement expires in less than one month.
-
-You can reuse the information from these fields in documents and emails using template variables. Each field that you add gets its own unique ID (Prog ID), which can be used in documents to merge contact-specific information.
-
-So, if you want to send an email to your contacts that says that their maintenance agreement will expire soon, you can use the template variable for expiry date to show the correct expiry date of their agreement in the message.
-
-#### Positioning
-
-Any custom screen layouts (created in the Screen Designer) using screen designer may override the settings on fields.
-
-If you do not have license to Configurable Screens, use the rank of the different fields.
+If you do not have a Development Tools license, use the rank of the different fields to sort them on the **More** tab.
 
 ## Related content
 
-* [The screen designer][5]
+* [User-defined fields][1]
+* [Extra fields][2]
+* [Extra tables][3]
 
 <!-- Referenced links -->
-[1]: udef/index.md
-[2]: extra-field/create.md
-[3]: extra-table/index.md
-[4]: extra-table/create.md
+[1]: udef.md
+[2]: extra-field.md
+[3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
+[6]: ../../../en/ui/blogic/custom-screens/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

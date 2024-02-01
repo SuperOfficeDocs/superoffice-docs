@@ -129,7 +129,7 @@ The autosave feature is activated by default when you view and edit requests and
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [5]: edit-message.md
-[6]: ../../../custom-objects/learn/extra-table/index.md
+[6]: ../../../custom-objects/admin/create-extra-field.md
 [7]: ../../reply-templates/learn/new-language.md
 [8]: ../index.md
 [9]: ../../reply-templates/learn/index.md

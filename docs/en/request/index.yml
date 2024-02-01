@@ -104,7 +104,7 @@ landingContent:
         - text: Task menu items
           url: ../admin/lists/learn/add-items-to-task-menu.md
         - text: Extra fields
-          url: ../custom-objects/learn/extra-field/create.md
+          url: ../custom-objects/admin/create-extra-field.md
 
   - title: Automation
     linkLists:

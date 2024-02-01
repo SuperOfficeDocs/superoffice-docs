@@ -2,69 +2,57 @@
 title: Benutzerdefinierte Objekte
 uid: help-de-custom-objects
 description: Benutzerdefinierte Objekte
+keywords: benutzerdefiniertes Objekt, Felder, udef
 author: Bergfrid Dias
-so.date: 02.23.2023
-keywords: benutzerdefiniertes Objekt
+so.date: 01.30.2024
+so.version: 10
 so.topic: concept
 language: de
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
-# Benutzerdefinierte Objekte
+# Benutzerdefinierte Objekte und Felder
 
-## Benutzerdefinierte Felder
+>Alle Firmen und Organisationen haben ihre eigenen Anforderungen an die Informationen, die sie bezüglich ihrer Kunden, Verkäufe, Projekte, Verträge usw. registrieren müssen. Administratoren können in SuperOffice Felder und Tabellen hinzufügen, um den Typ der zu registrierenden Informationen anzupassen.
 
-Alle Firmen und Organisationen haben für die zu erfassenden Informationen in Bezug auf ihre Personen, Verkäufe, Projekte, Verträge usw. unterschiedliche Anforderungen. In der Ansicht **Felder** können Sie in SuperOffice CRM Ihre eigenen Felder eingeben. Auf diese Weise können Sie den Informationstyp anpassen, die in Bezug auf Firmen, Personen, Projekte, Verkäufe, Dokumente und Folgeaufgaben erfasst werden können.
+SuperOffice CRM und Service waren einmal zwei separate Anwendungen mit unterschiedlichen Erweiterungsoptionen. [**Benutzerdefinierte Felder**][1] (kurz udefs) gehören zu SuperOffice CRM, während [**Zusättabellen**][3] (auch als Drittanbietertabellen bezeichnet) und [**Zusätzfelder**][2] zu Service gehören. Der Begriff **benutzerdefiniertes Feld** umfasst sowohl benutzerdefinierte Felder als auch zusätzliche Felder.
 
-## Benutzerdefinierte Felder und Tabellen
+## Verwendung
 
-Ein gutes Beispiel für ein benutzerdefiniertes Feld, das Sie auf der Karte **Person** verwenden können, ist ein Feld namens "Zufriedener Kunde", wobei der Wert des Feldes Ja oder Nein ist.
+* Ein gutes Beispiel für ein benutzerdefiniertes Feld, das Sie auf der Ansicht **Kontakt** verwenden können, ist ein Feld namens "Zufriedener Kunde", bei dem der Wert des Feldes Ja oder Nein ist. Sie können zum Beispiel Ihren Kontakten eine E-Mail (mit Verknüpfungsaktionen) senden, in der sie angeben können, ob sie mit Ihren Dienstleistungen zufrieden sind. Dies gibt Ihnen wertvolle Einblicke in die allgemeine Kundenzufriedenheitsrate.
 
-Sie können zum Beispiel Ihren Personen eine Kampagne (mit Link-Aktionen) senden, in der sie angeben können, ob sie mit Ihren Services zufrieden sind. Dies gibt Ihnen wertvolle Einblicke in die allgemeine Kundenzufriedenheit.
+* Mit der **Suchen**-Funktion können Sie nach den Informationen suchen, die Sie in benutzerdefinierten Feldern registrieren, und Selektionen erstellen. Wenn Sie zum Beispiel das Ablaufdatum der Wartungsvertrag registrieren, die Sie mit Kunden haben, können Sie eine dynamische Selektion erstellen, die die Kunden zeigt, für die die Vereinbarung in weniger als einem Monat abläuft.
 
-Natürlich können Sie eine breite Auswahl an Tabellen und Felder zu SuperOffice hinzufügen, um alle Informationen zu speichern, die Ihre Kundendienstmitarbeiter benötigen.
+* Sie können die Informationen aus diesen Feldern in Dokumenten und E-Mails als **Vorlagenvariablen** wiederverwenden. Jedes Feld, das Sie hinzufügen, erhält seine eigene eindeutige ID (Prog ID), die in Dokumenten verwendet werden kann, um kontaktspezifische Informationen zu fusionieren. Wenn Sie also eine E-Mail an Kunden senden möchten, in der steht, dass ihre Wartungsvertrag bald abläuft, können Sie die Vorlagenvariable für das Ablaufdatum verwenden, um das korrekte Ablaufdatum ihrer Vereinbarung in der Mitteilung anzuzeigen.
 
-![Auf der Anzeige Tabellen können Sie entweder (a) ein Zusatzfeld oder (b) eine neue Tabelle erstellen -screenshot][img1]
+## Anforderungen
 
-### Zusatztabellen
+| Anpassung | Lizenz | Kommentar |
+|---|---|---|
+| Benutzerdefiniertes Feld hinzufügen/entfernen | Keine | Wird automatisch auf der Registerkarte Mehr angezeigt. Benötigt Development Tools, um die Platzierung anzupassen. |
+| Layout der Registerkarte Mehr anpassen | Development Tools | |
+| Site-1-Felder verwalten | Development Tools | |
+| Zusatzfeld | Development Tools | |
+| Zusatztabelle | Development Tools | |
+| [Ansichtsdesigner][5] | Development Tools | SuperOffice Version 10 und neuer. |
+| [Benutzerdefinierte Ansichten][6] | Development Tools, Service | Neues Ansicht in Service erstellen. |
 
-* [Einführung in Zusatztabellen][3]
-* [Tabelle definieren][4]
+## Layout (Positionierung von Feldern)
 
-### Benutzerdefinierte Felder
+Die UI-Anpassung jeder Art erfordert die Development Tools-Lizenz. Alle benutzerdefinierten Ansichtlayouts (erstellt im Ansichtsdesigner) können die Einstellungen für individuelle benutzerdefinierte Felder außer Kraft setzen.
 
-Alle Firmen und Organisationen haben für die zu erfassenden Informationen unterschiedliche Anforderungen. Diese können Firmen, Personen, Verkäufe, Projekte usw. betreffen. Als Administrator können Sie unter Einstellungen und Verwaltung eigene Felder hinzufügen.
-
-* [Benutzerdefinierte Felder][1]
-* [Zusatzfelder][2]
-
-#### Vorteile durch das Hinzufügen von Feldern
-
-Mit Hilfe der Suchen-Funktion können Sie nach Informationen suchen, die Sie in diesen Feldern erfassen wollen, und dynamische Selektionen treffen.
-
-Wenn Sie zum Beispiel das Ablaufdatum der Wartungsverträge mit Ihren Personen erfassen, können Sie eine dynamische Selektion erstellen, die die Personen anzeigt, deren Verträge in weniger als einem Monat ablaufen.
-
-Sie können die Informationen von diesen Feldern mithilfe von Vorlagenvariablen in Dokumenten und E-Mails wiederverwenden. Jedes hinzugefügte Feld bekommt seine eigene, eindeutige ID (Prog ID), die in Dokumenten benutzt werden kann, um personenspezifische Informationen zusammenzuführen.
-
-Wenn Sie also eine E-Mail an Ihre Personen senden möchten, die darauf hinweist, dass ihr Wartungsvertrag bald abläuft, können Sie die Vorlagenvariable für das Ablaufdatum verwenden, um das korrekte Ablaufdatum ihres Vertrags in der Mitteilung anzuzeigen.
-
-#### Positionierung
-
-Alle benutzerdefinierten (im Ansichtsdesigner erstellten) Ansichtslayouts, die mithilfe des Ansichtsdesigners erstellt wurden, können die Einstellungen für Felder überschreiben.
-
-Wenn Sie keine Lizenz für konfigurierbare Ansichten haben, verwenden Sie die Reihenfolge der verschiedenen Felder.
+Wenn Sie keine Development Tools-Lizenz haben, verwenden Sie die Reihenfolge der verschiedenen Felder, um sie auf dem Tab **Mehr** zu sortieren.
 
 ## Zugehörige Inhalte
 
 * [Der Ansichtsdesigner][5]
 
 <!-- Referenced links -->
-[1]: udef/index.md
-[2]: extra-field/create.md
-[3]: extra-table/index.md
-[4]: extra-table/create.md
+[1]: udef.md
+[2]: extra-field.md
+[3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
+[6]: ../../../en/ui/blogic/custom-screens/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

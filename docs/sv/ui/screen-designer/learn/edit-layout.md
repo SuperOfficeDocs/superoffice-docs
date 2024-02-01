@@ -154,7 +154,7 @@ Om du behöver återgå till en tidigare version av skärmen, kommer du åt föl
 
 <!-- Referenced links -->
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
-[3]: ../../../custom-objects/learn/udef/index.md
+[3]: ../../../custom-objects/learn/udef.md
 [4]: add-new-layout.md
 
 <!-- Referenced images -->

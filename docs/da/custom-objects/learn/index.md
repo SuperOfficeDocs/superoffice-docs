@@ -1,55 +1,50 @@
 ---
-title: Brugerdefinerede objekter
 uid: help-da-custom-objects
+title: Brugerdefinerede objekter og felter
 description: Brugerdefinerede objekter
 author: Bergfrid Dias
-so.date: 02.23.2023
-keywords: brugerdefinerede objekter
+so.date: 01.29.2024
+so.version: 10
+keywords: brugerdefinerede objekter, udef, ekstrafelt, ekstra tabel, tilpassede felter
 so.topic: concept
 language: da
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
-# Brugerdefinerede objekter
+# Brugerdefinerede objekterog felter
 
-## Brugerdefinerede felter
+Alle firma og organisationer har deres egne krav til de oplysninger, de skal registrere vedrørende deres kunder, salg, projekter, kontrakter og så videre. Administratorer kan tilføje felter og tabeller i SuperOffice for at tilpasse typen information, der kan registreres.
 
-Alle virksomheder og organisationer har deres egne krav til de oplysninger, de har brug for at registrere vedrørende deres kontakter, salg, projekter, kontrakter og så videre. Du kan indtaste dine egne felter til SuperOffice CRM på skærmbilledet **Felter** . På denne måde kan du tilpasse den type oplysninger, der kan registreres vedrørende virksomheder, kontakter, projekter, salg, dokumenter og opfølgninger.
+SuperOffice CRM og Service var engang to separate applikationer med forskellige udvidelsesmuligheder. [**Brugerdefinerede felter**][1] (kaldet udefs) hører til i SuperOffice CRM, mens [**ekstra tabeller**][3] (også kaldet tredjepartstabeller) og [**ekstra felter**][2] hører til i Service. Begrebet **tilpasset felt** inkluderer både brugerdefinerede felter og ekstra felter.
 
-## Brugerdefinerede felter og tabeller
+## Anvendelse
 
-Et godt eksempel på et brugerdefineret felt, du kan bruge på kortet **Person**er et felt kaldet "Tilfreds kunde", hvor værdien af feltet er Ja eller Nej.
+* Et godt eksempel på et brugerdefineret felt, du kan bruge på kortet **Person**, er et felt kaldet "Tilfreds kunde", hvor værdien af feltet er Ja eller Nej. Du kan f.eks. sende dine kontakter en e-mail (med linkhandling), hvor de kan angive, om de er tilfredse med dine tjenester. Dette giver dig værdifuld indsigt i den generelle kundetilfredshed.
 
-Du kan f.eks. sende dine kontaktpersoner en e-mail (med linkhandlinger), hvor de kan angive, om de er tilfredse med dine tjenester. Dette vil give dig værdifuld indsigt i den generelle kundetilfredshed.
+* Ved hjælp af funktionen **Find** kan du søge efter de oplysninger, du registrerer i brugerdefinerede felter, og oprette udvalg. Hvis du f.eks. registrerer udløbsdatoen for vedligeholdelsesaftalen, du har med kontakter, kan du oprette et dynamisk udvalg, der viser kontakter, hvor aftalen udløber om mindre end en måned.
 
-Selvfølgelig kan du tilføje en lang række tabeller og felter til SuperOffice for at gemme alle de oplysninger, dine kundeservicemedarbejdere har brug for.
+* Du kan genbruge oplysningerne fra disse felter i dokumenter og e-mails som **skabelonvariabler**. Hvert felt, du tilføjer, får sin egen unikke ID (Prog ID), som kan bruges i dokumenter til at flette person-specifik information. Så hvis du vil sende en e-mail til dine kunder, der siger, at deres vedligeholdelsesaftale udløber snart, kan du bruge skabelonvariablen for udløbsdato til at vise den korrekte udløbsdato for deres aftale i meddelelsen.
 
-![På skærmbilledet Tabeller kan du enten vælge at (a) oprette et ekstra felt eller (b) oprette en ny tabel -screenshot][img1]
+## Krav
 
-### Ekstra tabeller
+| Tilpasning | Licens | Kommentar |
+|---|---|---|
+| Tilføj/fjern brugerdefineret felt | Ingen | Vises automatisk på fanen Mere. Kræver Development Tools for at tilpasse placeringen. |
+| Tilpas layoutet for fanen Mere | Development Tools | |
+| Administrer side 1-felter | Development Tools | |
+| Ekstra felt | Development Tools | |
+| Ekstra tabel | Development Tools | |
+| [Skærmdesigner][5] | Development Tools | SuperOffice version 10 og nyere. |
+| [Brugerdefinerede skærme][6] | Development Tools, Service | Opret nye skærme i Service. |
 
-* [Introduktion til ekstra tabeller][3]
-* [Definere en tabel][4]
+## Layout (placering af felter)
 
-### Tilpassede felter
+UI-tilpasning af enhver art kræver en Development Tools-licens. Eventuelle brugerdefinerede skærmlayouts (oprettet i Skærmdesigneren) kan tilsidesætte indstillingerne for individuelle brugerdefinerede felter.
 
-Alle virksomheder og organisationer har deres egne krav til de oplysninger, de har brug for at registrere. Dette kan være for virksomheder, kontakter, salg, projekter og så videre. Som administrator kan du tilføje dine egne felter i Indstillinger og vedligeholdelse.
+Hvis du ikke har en Development Tools-licens, skal du bruge rækkefølgen af de forskellige felter for at sortere dem på fanen **Mere**.
 
-* [Brugerdefinerede felter][1]
-* [Ekstra felter][2]
-
-#### Fordelene ved at tilføje felter
-
-Ved hjælp af funktionen Find kan du søge efter de oplysninger, du registrerer i disse felter, og foretage valg.
-
-Hvis du f.eks. registrerer udløbsdatoen for den vedligeholdelsesaftale, du har med personer, kan du oprette et dynamisk valg, der viser de personer, som aftalen udløber for, om mindre end en måned.
-
-Du kan genbruge oplysningerne fra disse felter i dokumenter og mails ved hjælp af skabelonvariabler. Hvert felt, du tilføjer, får sit eget entydige id (Prog ID), som kan bruges i dokumenter til at flette personspecifikke oplysninger.
-
-Så hvis du vil sende en mail til dine kontaktpersoner, der siger, at deres vedligeholdelsesaftale snart udløber, kan du bruge skabelonvariablen for udløbsdato til at vise den korrekte udløbsdato for deres aftale i meddelelsen.
-
-#### Placering
+## Placering
 
 Alle brugerdefinerede skærmlayout (oprettet i Skærmdesigner) ved hjælp af skærmdesigner kan tilsidesætte de indstillinger, der er beskrevet nedenfor.
 
@@ -57,14 +52,13 @@ Hvis du ikke har licens til konfigurerbare skærme, skal du bruge rangen af de f
 
 ## Relateret indhold
 
-* [Skærmdesigneren][5]
+* [Brugerdefinerte felt][1]
+* [Ekstrafelt][2]
+* [Ekstra tabeller][3]
 
 <!-- Referenced links -->
-[1]: udef/index.md
-[2]: extra-field/create.md
-[3]: extra-table/index.md
-[4]: extra-table/create.md
+[1]: udef.md
+[2]: extra-field.md
+[3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png
+[6]: ../../../en/ui/blogic/custom-screens/index.md

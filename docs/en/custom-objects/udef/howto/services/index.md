@@ -1,33 +1,9 @@
 ---
-title: User-defined fields - web services
-uid: api_udef_services
-description: Working with custom fields and web services.
-author: Bergfrid Skaara Dias, AnthonyYates
-so.date: 03.11.2021
-keywords: udef, user-defined field, custom field, API
-so.topic: how-to-guide
+uid: udef-services-redirect
+title: User-defined fields
+author: Bergfrid Dias
+so.date: 02.01.2024
+keywords: 
+so.topic: howto
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/custom-objects/index.html
 ---
-
-# How to work with user-defined fields using web services
-
-## How to manage user-defined fields
-
-* [Get all user-defined fields][4]
-* [Create a user-defined field][5]
-* [Update a user-defined field][6]
-* [Delete a user-defined field][7]
-
-## How to work with user-defined field values
-
-* [Set udef list-item value][1]
-* [Get udef list and values][2]
-* [Find contact by udef][3]
-
-<!-- Referenced links -->
-[1]: set-udef-listitem-value.md
-[2]: get-udef-list-and-values.md
-[3]: find-contact-by-udef.md
-[4]: rest-get-all-udef-fields.md
-[5]: rest-create-udef-field.md
-[6]: rest-update-udef-field.md
-[7]: rest-delete-udef-field.md

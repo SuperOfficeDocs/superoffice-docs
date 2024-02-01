@@ -154,7 +154,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 
 <!-- Referenced links -->
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
-[3]: ../../../custom-objects/learn/udef/index.md
+[3]: ../../../custom-objects/admin/create-extra-field.md
 [4]: add-new-layout.md
 
 <!-- Referenced images -->

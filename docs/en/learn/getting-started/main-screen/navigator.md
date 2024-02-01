@@ -99,7 +99,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [25]: ../../../admin/preferences/learn/index.md
 [26]: ../../../admin/options/learn/index.md
 [27]: ../../../admin/import/learn/index.md
-[28]: ../../../custom-objects/learn/udef/index.md
+[28]: ../../../custom-objects/learn/udef.md
 
 [41]: ../../../automation/crmscript/learn/index.md
 [42]: ../../../admin/preferences/learn/video-meetings/index.md

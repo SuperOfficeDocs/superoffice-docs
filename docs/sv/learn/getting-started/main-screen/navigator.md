@@ -54,7 +54,7 @@ Du flyttar mellan huvudavsnitten i SuperOffice med hjälp av navigatorn på vän
 | ![ikon][img54] | **Import**: öppnar fönstret Import där du kan importera data till SuperOffice-databasen. | [Import][27] |
 | ![ikon][img55] | **Fält**: Öppnar Fält-fönstret, där du kan definiera användardefinierade fält för SuperOffice CRM. | [Fält][28] |
 | ![ikon][img56] | **CRMScript**: Öppnar fönstret med olika funktioner för skript och automatisering, till exempel makron, händelsehantering (utlösare) och planerade uppgifter. | [CRMScript][41] |
-| ![ikon][img57] | **Ärenden**: här hittar du olika inställningar för ärenden i SuperOffice Service. | [Ärenden][34]
+| ![ikon][img57] | **Ärenden**: här hittar du olika inställningar för ärenden i SuperOffice Service. | [Ärenden][34] |
 | ![ikon][img58] | **Kundcenter**: här kan du konfigurera kundcentret. Du kan redigera innehållet och layouten för kundcentret och redigera standardinnehållet. | |
 | ![ikon][img59] | **Systemdesign**: här hittar du olika avancerade inställningar för SuperOffice Service. | |
 | ![ikon][img60] | **App Store**: Öppnar [SuperOffice App Store][44], där du kan söka standardappar och integrationer som kan bygga ut SuperOffice CRM Online. | |
@@ -99,7 +99,7 @@ Om du håller muspekaren över en post i någon av listorna visas en knappbeskri
 [25]: ../../../admin/preferences/learn/index.md
 [26]: ../../../admin/options/learn/index.md
 [27]: ../../../admin/import/learn/index.md
-[28]: ../../../custom-objects/learn/udef/index.md
+[28]: ../../../custom-objects/learn/udef.md
 
 [41]: ../../../automation/crmscript/learn/index.md
 [42]: ../../../admin/preferences/learn/video-meetings/index.md

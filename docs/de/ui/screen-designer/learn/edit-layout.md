@@ -154,7 +154,7 @@ Wenn Sie wieder eine frühere Version der Ansicht nutzen möchten, stehen über 
 
 <!-- Referenced links -->
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
-[3]: ../../../custom-objects/learn/udef/index.md
+[3]: ../../../custom-objects/learn/udef.md
 [4]: add-new-layout.md
 
 <!-- Referenced images -->

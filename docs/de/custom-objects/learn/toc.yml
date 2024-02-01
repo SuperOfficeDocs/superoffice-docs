@@ -2,28 +2,29 @@ items:
 - name: Überblick
   href: index.md
 - name: Benutzerdefinierte Felder
-  topicHref: udef/index.md
+  topicHref: udef.md
   items:
   - name: Überblick
-    href: udef/index.md
+    href: udef.md
   - name: Feld hinzufügen
-    href: udef/add.md
-  - name: Feld verschieben
-    href: udef/move.md
-  - name: Registerkarte Reihenfolge der Felder bearbeiten
-    href: udef/change-tab-order.md
+    href: ../admin/add-udef.md
   - name: Feld bearbeiten
-    href: udef/edit.md
-  - name: Seite 1 Felder
-    href: udef/page-1-fields.md
-  - name: Maximale Feldanzahl
-    href: udef/limitations.md
-- name: Zusatztabellen und Felder
-  topicHref: extra-table/index.md
+    href: ../admin/edit-udef.md
+  - name: Benutzeroberfläche anpassen
+    href: ../admin/edit-udef-layout.md
+- name: Zusatztabellen
+  topicHref: extra-table.md
   items:
   - name: Überblick
-    href: extra-table/index.md
+    href: extra-table.md
   - name: Zusatztabellen hinzufügen
-    href: extra-table/create.md
+    href: ../admin/create-extra-table.md
+- name: Zusatzfelder
+  topicHref: extra-field.md
+  items:
+  - name: Oversikt
+    href: extra-field.md
   - name: Zusatzfelder hinzufügen
-    href: extra-field/create.md
+    href: ../admin/create-extra-field.md
+  - name: Zusatzfelder im Tab Details anzeigen
+    href: ../admin/show-extra-field-on-request-details.md

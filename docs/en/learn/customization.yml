@@ -43,11 +43,11 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: User-defined fields
-          url: ../custom-objects/learn/udef/index.md
+          url: ../custom-objects/learn/udef.md
         - text: Extra fields
-          url: ../custom-objects/learn/extra-field/create.md
+          url: ../custom-objects/learn/extra-field.md
         - text: Extra tables
-          url: ../custom-objects/learn/extra-table/create.md
+          url: ../custom-objects/learn/extra-table.md
       
   # Card
   - title: User interface
