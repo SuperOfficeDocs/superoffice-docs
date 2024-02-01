@@ -11,6 +11,7 @@ metadata:
 items:
 - title: Setup
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     You can create your new mailing in the Marketing screen in the Mailings tab. Click on the Create mailing button and you will get to the first step where you can set up your mailing.
 
@@ -18,6 +19,7 @@ items:
 
 - title: Template
   durationInMinutes: 2
+  stepNumber: 2
   content: |
     [!include[How to choose a template](includes/mailing-choose-template.md)]
 
@@ -25,11 +27,13 @@ items:
 
 - title: Content
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     [!include[Step 3 email](includes/step-3-content-email.md)]
 
 - title: Recipients
   durationInMinutes: 3
+  stepNumber: 4
   content: |
     [!include[Step 4 recipients](includes/step-4-recipients.md)]
 
@@ -37,5 +41,6 @@ items:
 
 - title: Confirm
   durationInMinutes: 3
+  stepNumber: 5
   content: |
     [!include[How to confirm and send a mailing](includes/step-5-confirm-and-send-mailing.md)]

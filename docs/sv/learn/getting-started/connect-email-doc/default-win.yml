@@ -13,6 +13,7 @@ metadata:
 items:
 - title: Intro
   durationInMinutes: 1
+  stepNumber: 1
   content: |
 
     This is the default way to connect your email account, documents, and calendar to SuperOffice.
@@ -22,6 +23,7 @@ items:
 
 - title: Email
   durationInMinutes: 3
+  stepNumber: 2
   content: |
     [!include[Why](includes/why-connect-email.md)]
 
@@ -39,6 +41,7 @@ items:
 
 - title: Document
   durationInMinutes: 3
+  stepNumber: 3
   content: |
 
     The default document integration is **SuperOffice document library** with [WebTools](../../../webtools/learn/install.md).
@@ -48,6 +51,7 @@ items:
 
 - title: Calendar
   durationInMinutes: 3
+  stepNumber: 4
   content: |
     Choose one of the following options:
 

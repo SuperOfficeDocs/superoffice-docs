@@ -11,11 +11,13 @@ metadata:
 items:
 - title: Konfigurering
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     [!include[Steg 1 formulärsvar](includes/step-1-setup-form-response.md)]
 
 - title: Mall
   durationInMinutes: 2
+  stepNumber: 2
   content: |
     [!include[Så här väljer du en mall](includes/mailing-choose-template.md)]
 
@@ -23,5 +25,6 @@ items:
 
 - title: Innehåll
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     [!include[Steg 3 e-post](includes/step-3-content-email.md)]

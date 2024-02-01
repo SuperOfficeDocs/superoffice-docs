@@ -11,6 +11,7 @@ metadata:
 items:
 - title: De gegevens zoeken
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     1. Klik op **Nieuw** op de bovenste balk en selecteer **Selectie**.
 
@@ -37,12 +38,14 @@ items:
 
 - title: Details kiezen
   durationInMinutes: 3
+  stepNumber: 2
   content: |
     [!include[Eigenschappen instellen](includes/set-properties.md)]
 
 - title: Voltooien
   durationInMinutes: 3
-  content: |-
+  stepNumber: 5
+  content: |
     1. [!include[Toevoegen aan favorieten](includes/add-to-fav.md)]
 
     1. Als u klaar bent met het definiëren van de kerngegevens voor de selectie, klikt u op **Opslaan**.

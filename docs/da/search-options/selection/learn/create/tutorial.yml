@@ -11,6 +11,7 @@ metadata:
 items:
 - title: Find dataene
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     1. Klik på **Ny** i toplinjen, og vælg **Udvalg**.
 
@@ -37,11 +38,13 @@ items:
 
 - title: Vælg detaljer
   durationInMinutes: 3
+  stepNumber: 2
   content: |
     [!include[Angiv egenskaber](includes/set-properties.md)]
 
 - title: Fuldfør
   durationInMinutes: 3
+  stepNumber: 3
   content: |-
     1. [!include[Føj til foretrukne](includes/add-to-fav.md)]
 

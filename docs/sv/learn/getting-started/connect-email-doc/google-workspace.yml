@@ -13,11 +13,13 @@ metadata:
 items:
 - title: Intro
   durationInMinutes: 1
+  stepNumber: 1
   content: |
     With Google Workspace as your solution, there are several ways to connect your email account, documents, and calendar to SuperOffice.
 
 - title: Email
   durationInMinutes: 5
+  stepNumber: 2
   content: |
     Choose one of the following options:
 
@@ -31,6 +33,7 @@ items:
 
 - title: Document
   durationInMinutes: 3
+  stepNumber: 3
   content: |
     The **Google Workspace document integration** enables you to open, edit, and store documents in Google Workspace directly from SuperOffice CRM.
 
@@ -41,6 +44,7 @@ items:
 
 - title: Calendar
   durationInMinutes: 3
+  stepNumber: 4
   content: |
     Choose one of the following options:
 

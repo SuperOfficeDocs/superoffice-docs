@@ -12,6 +12,7 @@ metadata:
 items:
 - title: Introduction
   durationInMinutes: 3
+  stepNumber: 1
   content: |
     Having calendar data in SuperOffice is nice, but there are lots of other places that your calendar shows up. Your phone has a calendar, and while SuperOffice Pocket is nice, it may not be available on your type of phone, or you may want to display the calendar on your desktop using a calendar widget.
 
@@ -39,6 +40,7 @@ items:
     So if someone steals your iCal link, just make a new one and the old one will stop working.
 - title: Logging in
   durationInMinutes: 2
+  stepNumber: 2
   content: |
     Our website will start with a simple web form: Username + Password.
 
@@ -53,6 +55,7 @@ items:
     If the login is successful, we store the unique ID needed to log in and send the browser to the *Result.aspx* page.
 - title: Result page
   durationInMinutes: 2
+  stepNumber: 3
   content: |
     The result page shows us the link that we can give to other systems for reading the calendar.
 
@@ -67,14 +70,17 @@ items:
     The system user bypasses the sentry security restrictions and is therefore allowed to read and publish the user's private appointments. This is not so important here but is more important on the next page, the iCal Results.
 - title: iCal tesults
   durationInMinutes: 3
+  stepNumber: 4
   content: |
     [!include[Content: iCal results](includes/steps/ical-results.md)]
 - title: Integrate external calendar events
   durationInMinutes: 3
+  stepNumber: 5
   content: |
     [!include[Content: integrating external calendar events](includes/steps/integrate.md)]
 - title: Summary
   durationInMinutes: 1
+  stepNumber: 6
   content: |
     In Summary, you have now learned how to build a simple website that lets you log in to SuperOffice and get a unique URL that you can use to read your calendar without logging in each time.
 
