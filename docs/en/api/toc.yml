@@ -276,7 +276,7 @@ items:
   - name: Howto
     topicHref: web-services/howto/custom-objects/index.md
     items:
-    - name: Custom objects and fields
+    - name: Custom fields
       href: web-services/howto/custom-objects/index.md
       items:
       - name: How to get all user-defined fields
@@ -326,7 +326,7 @@ items:
       href: entities/delete-entity.md
     - name: Delete an entity through an entity
       href: entities/delete-entity-from-entity.md
-    - name: Custom objects and fields
+    - name: Custom fields
       href: entities/howto/custom-objects/index.md
       items:
       - name: Set udef list-item value
@@ -406,7 +406,7 @@ items:
       href: osql/soundx.md
 - name: Raw SQL queries
   items:
-  - name: Custom objects and fields
+  - name: Custom fields
     topicHref: sql/howto/custom-objects/index.md
     items:
     - name: Set udef

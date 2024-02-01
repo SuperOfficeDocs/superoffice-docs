@@ -6,7 +6,7 @@ author: Bergfrid Dias
 so.date: 01.16.2024
 keywords:
 so.topic: concept
-redirect_url: https://docs.superoffice.com/en/custom-objecgts/reference/index.html
+redirect_url: https://docs.superoffice.com/en/custom-objects/reference/index.html
 ---
 
 # Custom objects

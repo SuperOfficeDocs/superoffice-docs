@@ -3,5 +3,3 @@ items:
   href: index.yml
 - name: User guide
   topicHref: learn/index.md
-- name: Technical reference
-  href: reference/index.md
