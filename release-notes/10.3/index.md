@@ -19,30 +19,38 @@ so.topic: reference
 
 ### SuperOffice CRM
 
-* 10.3.1 (26.01.2024):
-  * [Dashboard - Requests dashboard and tiles (10.3.1)][2] in Core CRM and Service
-  * [Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
-  * [System design - Creating new field gives option to show in Properties panel (10.3.1)][1] in Settings and maintenance and Service
+* 10.3.1 (02.02.2024):
+  * [Dashboard - Request tiles (10.3.1)][2] in Core CRM and Service
+  * [Lists - Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
+  * [System design - show extrafield in Request Properties sidebar (10.3.1)][1] in Settings and maintenance and Service
   * [Right-click to take ownership of requests (10.3.1)][3] in Service
   * [Show SAINT status monitor on Requests screen (10.3.1)][3] in Service
 
 ### Mobile CRM
 
-* Version 10.2.16 released
+* Version 10.2.17 (24.01.2024)
 
 ### Office integrations
 
-* Nothing new
+Latest released versions:
+
+* Zapier 3.4 (21.12.2023)
+* SuperOffice for Outlook 4.1 (21.12.2023)
+* WebTools for Windows 12.8 (05.10.2023)
+* SharePoint Documents 3.2 (24.09.2023)
+* SuperOffice for Gmail 2.9 (24.09.2023)
+* Video Meetings 2.5 (18.09.2023)
+* WebTools for Mac 12.0 (10.11.2022)
 
 ### Other highlights
 
 * **SuperOffice App store** - [New or updated apps][5]
-  * [AccountView for SuperOffice (18.12.2023)][6]
-  * [Business NXT quote (04.12.2023)][7]
-  * [Goava Enrich (11.12.2023)][8]
-  * [Dealfront connect (18.09.2023)][9]
   * [Documendo Quote (23.01.2024)][10]
   * [Documendo Sign (22.01.2024)][11]
+  * [AccountView for SuperOffice (18.12.2023)][6]
+  * [Goava Enrich (11.12.2023)][8]
+  * [Business NXT quote (04.12.2023)][7]
+  * [Dealfront connect (18.09.2023)][9]
 
 <!-- Referenced links -->
 [1]: admin/10.3.1-update.md

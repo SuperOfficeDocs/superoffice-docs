@@ -11,7 +11,7 @@ so.topic: reference
 
 # New and improved Settings and maintenance
 
-* [Web panel setting for reload on navigation (10.3.1)][1]
+* [Lists - Web panel setting for reload on navigation (10.3.1)][1]
 * [System design - Creating new field gives option to show in Properties panel (10.3.1)][1]
 
 <!-- Referenced links-->
