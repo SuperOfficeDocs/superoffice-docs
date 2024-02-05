@@ -19,11 +19,12 @@ You can design a master template for each type of mailing you send. For example,
 
 SuperOffice CRM offers more than **100 templates for mailing** that you can download and use as a starting point or inspiration for your own mailing template that will reflect your company's branding.
 
-[!include[Note about 2 editor versions](includes/note-old-or-new-editor.md)]
+> [!NOTE]
+> If you are editing a mailing created in 2020 or earlier (or a creating a new mailing based on such a mailing), you are most likely using the [previous version of the message editor][5].
 
 ## Where to find templates for mailing
 
-To check out the standard templates, go to the **Message templates** tab in the Marketing section. Here you will find the Online template library, which contains more than 100 online templates that you can download to use.
+To check out the standard templates, go to **Marketing** > **Message templates**. Here you will find the Online template library, which contains more than 100 online templates that you can download to use.
 
 You can open the message template you like by clicking on it. To download this template, click on the **Import template** button.
 
@@ -123,9 +124,10 @@ In addition to the templates created by your and your colleagues, you have acces
 
 <!-- Referenced links -->
 [1]: ../mailing/learn/create/index.md
-[2]: edit-paragraph.md
-[3]: add-merge-tag.md
-[4]: add-images.md
+[2]: ../editor/learn/edit-paragraph.md
+[3]: ../editor/learn/add-merge-tag.md
+[4]: ../editor/learn/add-images.md
+[5]: ../editor/learn/index.md#old
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

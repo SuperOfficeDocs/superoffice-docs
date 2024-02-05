@@ -2,18 +2,21 @@
 uid: help-en-mailing-add-merge-tags
 title: Add merge tags to your message
 description: Learn how to add merge tags to your mailing
+keywords: Marketing, placeholder, merge tag, template variable
 author: SuperOffice RnD
-so.date: 02.20.2023
-keywords: Marketing
+so.date: 02.05.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Add merge tags to your message
 
 There is nothing better than a personal touch in business. To personalize your communication, you can use merge tags (also called template variables) to insert customer-specific information into your mailing.
 
-Merge tags come in many forms: those might be the customer's first name, their company name, salutation, the name of the salesperson the customer was dealing with, etc. In other words, merge tags are your easy-to-use tools to personalize the content for each individual customer.
+Merge tags come in many forms: those might be the customer's first name, their company name, salutation, the name of the salesperson the customer was dealing with, and so on. In other words, merge tags are your easy-to-use tools to personalize the content for each individual customer.
 
 ![Personalize the mailing by adding Merge tags to the text fields -screenshot][img2]
 
@@ -35,9 +38,9 @@ Merge tags come in many forms: those might be the customer's first name, their c
 > Before you send out a mailing, you should [test that the customer data is correctly inserted in the message][1].
 
 <!-- Referenced links -->
-[1]: ../mailing/learn/create/send-test-email.md
-[2]: ../../../en/document/templates/variables/index.md
+[1]: ../../mailing/learn/create/send-test-email.md
+[2]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/template-variable.png
-[img2]: ../../../media/loc/en/marketing/merge-tags.png
+[img1]: ../../../../media/loc/en/marketing/template-variable.png
+[img2]: ../../../../media/loc/en/marketing/merge-tags.png

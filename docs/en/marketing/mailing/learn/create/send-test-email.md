@@ -45,7 +45,7 @@ When you have sent a test mailing, you must reset the counters for the link(s) i
 2. Click the ![icon][img1] menu button next to the relevant link and select **Reset**. The **Clicks** column is set to **0**. Data about which customers clicked the link are also removed.
 
 <!-- Referenced links -->
-[1]: ../../../learn/customize-for-mobile.md
+[1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png

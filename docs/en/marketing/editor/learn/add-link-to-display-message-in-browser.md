@@ -2,11 +2,14 @@
 uid: help-en-mailing-open-in-browser
 title: Add a link to display the message in a browser
 description: Add a link to display the message in a browser
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing, link, mailing
+author: SuperOffice RnD
+so.date: 02.05.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Add a link to display the message in a browser
@@ -19,7 +22,7 @@ If the recipient has problems displaying the message in their email program (may
 
 2. Type and select the text which the recipient has to click, for example "Click here to view this message in a browser".
 
-3. Click the **Insert/edit link** button (![icon][img1]) in the toolbar.
+3. Click the **Insert/edit link** button ![icon][img1] in the toolbar.
 
 4. Click **Special links** and select **Link for viewing message online**.
 
@@ -28,4 +31,4 @@ If the recipient has problems displaying the message in their email program (may
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/icons/marketing-and-forms/link.png
