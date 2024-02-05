@@ -13,7 +13,6 @@ items:
   - CRMScript.NetServer.NSPersonEntity.GetAddress()
   - CRMScript.NetServer.NSPersonEntity.GetAssociate()
   - CRMScript.NetServer.NSPersonEntity.GetBirthDate()
-  - CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
   - CRMScript.NetServer.NSPersonEntity.GetBounceEmails()
   - CRMScript.NetServer.NSPersonEntity.GetBusiness()
   - CRMScript.NetServer.NSPersonEntity.GetCategory()
@@ -77,7 +76,6 @@ items:
   - CRMScript.NetServer.NSPersonEntity.SetAddress(NSAddress)
   - CRMScript.NetServer.NSPersonEntity.SetAssociate(NSAssociate)
   - CRMScript.NetServer.NSPersonEntity.SetBirthDate(DateTime)
-  - CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
   - CRMScript.NetServer.NSPersonEntity.SetBounceEmails(String[])
   - CRMScript.NetServer.NSPersonEntity.SetBusiness(NSBusiness)
   - CRMScript.NetServer.NSPersonEntity.SetCategory(NSCategory)
@@ -261,26 +259,6 @@ items:
       description: "The Person birth date as Date."
   example: 
   - "\n<pre><code>NSPersonEntity thing;\nDateTime birthDate = thing.GetBirthDate();</code></pre>\n"
-- uid: CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
-  commentId: M:CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
-  id: 'GetBlockEmarketing()'
-  so.intellisense: NSPersonEntity.GetBlockEmarketing
-  so.version: 7.0
-  langs:
-  - crmscript
-  name: 'GetBlockEmarketing()'
-  nameWithType: NSPersonEntity.GetBlockEmarketing()
-  fullName: CRMScript.NetServer.NSPersonEntity.GetBlockEmarketing()
-  type: Method
-  summary: # TODO
-  remarks: 
-  syntax: 
-    content: Bool GetBlockEmarketing()
-    parameters: []
-    return:
-      type: CRMScript.Global.Bool
-      description: "Do not send E-marketing materials to this person."
-  example: 
 - uid: CRMScript.NetServer.NSPersonEntity.GetBounceEmails()
   commentId: M:CRMScript.NetServer.NSPersonEntity.GetBounceEmails()
   id: 'GetBounceEmails()'
@@ -1600,28 +1578,6 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSPersonEntity thing;\nDateTime birthDate;\nthing.SetBirthDate(birthDate);</code></pre>\n"
-- uid: CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
-  commentId: M:CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
-  id: 'SetBlockEmarketing(Integer)'
-  so.intellisense: NSPersonEntity.SetBlockEmarketing
-  so.version: 7.0
-  langs:
-  - crmscript
-  name: 'SetBlockEmarketing(Integer)'
-  nameWithType: NSPersonEntity.SetBlockEmarketing(Integer)
-  fullName: CRMScript.NetServer.NSPersonEntity.SetBlockEmarketing(Integer)
-  type: Method
-  summary: # TODO
-  remarks: 
-  syntax: 
-    content: Void SetBlockEmarketing(Integer send)
-    parameters:
-    - id: send
-      type: CRMScript.Global.Integer
-      description: "Do not send E-marketing materials to this person."
-    return:
-      type: CRMScript.Global.Void
-  example: 
 - uid: CRMScript.NetServer.NSPersonEntity.SetBounceEmails(String[])
   commentId: M:CRMScript.NetServer.NSPersonEntity.SetBounceEmails(String[])
   id: 'SetBounceEmails(String[])'
