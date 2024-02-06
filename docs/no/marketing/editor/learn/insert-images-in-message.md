@@ -1,12 +1,15 @@
 ---
-uid: help-no-insert-images-in-message
+uid: help-no-mailing-add-image
 title: Sette inn bilder i meldingen
 description: "Bruk av nøye utvalgte bilder i utsendelsene dine kan ha stor innvirkning på resultatene. Du kan laste opp dine egne bilder, eller bruke ett av flere millioner bilder som leveres av Unsplash, Pexels, Pixabay i det elektroniske bildebiblioteket."
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Markedsføring, bilde
+author: SuperOffice RnD
+so.date: 02.06.2024
+so.version: 10
 so.topic: howto
-language: no
+language: en
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Sette inn bilder i meldingen
@@ -32,7 +35,7 @@ Etter at du har lagt til et bilde, kan du legge til egenskaper, for eksempel en 
 
 2. Velg **Innhold** (![ikon][img1]) i sidepanelet.
 
-3. Klikk og dra **bildeblokken**![(ikon)][img1] til den aktuelle delen i meldingen. Du må nå velge bildet du vil bruke.
+3. Klikk og dra **bildeblokken** ![(ikon)][img1] til den aktuelle delen i meldingen. Du må nå velge bildet du vil bruke.
 
 4. Klikk på blokken i meldingen.
 
@@ -67,7 +70,7 @@ Velg blant millioner av bilder fra det royaltyfrie bildebiblioteket på nettet.
 5. Klikk på bildet i meldingen og gjør eventuelle nødvendige endringer i sidepanelet. Kontroller at bildet vises riktig i meldingen, og gjør eventuelle tilpasninger.
 
     > [!TIP]
-    >Klikk på **Bruk effekter og mer** for å få flere alternativer for bilderedigering.
+    > Klikk på **Bruk effekter og mer** for å få flere alternativer for bilderedigering.
 
 6. (valgfritt) [Legg til en sporet kobling][2] til bildet. Hvis du for eksempel skal sette inn et bilde av et produkt du skal lansere, kan du legge til en kobling til produktets informasjonsside. Du kan opprette en ny kobling eller legge til en eksisterende kobling.
 
@@ -94,14 +97,14 @@ Bildet du vil bruke i utsendelsen, har kanskje ikke alltid riktig størrelse. I 
 5. Når du er fornøyd med den nye størrelsen på bildet ditt, eller du vil sjekke hvordan det ser ut i e-postmalen din etter at du har gjort endringene, kan du klikke på **Bruk**-knappen .
 
 <!-- Referenced links -->
-[1]: add-images.md
-[2]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[1]: ../../learn/add-images.md
+[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/side-panel-content-small.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-images-small.png
-[img3]: ../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
-[img4]: ../../../media/loc/en/marketing/add-action-properties.png
-[img5]: ../../../media/loc/en/marketing/apply-effects.png
-[img6]: ../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../media/loc/en/marketing/change-size-of-your-image.png
+[img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img3]: ../../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
+[img4]: ../../../../media/loc/en/marketing/add-action-properties.png
+[img5]: ../../../../media/loc/en/marketing/apply-effects.png
+[img6]: ../../../../media/loc/en/marketing/resize-image.png
+[img7]: ../../../../media/loc/en/marketing/change-size-of-your-image.png

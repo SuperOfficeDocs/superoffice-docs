@@ -45,7 +45,7 @@ Wenn Sie eine Testkampagne verschickt haben, müssen Sie die Zähler für die in
 2. Klicken Sie auf die Menüschaltfläche ![Symbol][img1] neben dem entsprechenden Link und wählen Sie **Zurücksetzen** aus. Die Spalte **Klicks** wird auf **0** gesetzt. Außerdem werden die Daten zu den Kunden gelöscht, die auf diesen Link geklickt haben.
 
 <!-- Referenced links -->
-[1]: ../../../learn/customize-for-mobile.md
+[1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png

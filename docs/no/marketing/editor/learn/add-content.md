@@ -1,12 +1,15 @@
 ---
-uid: help-no-add-content
+uid: help-no-marketing-add-content
 title: Legg til innhold
 description: Legg til innhold
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Markedsføring, utsendelse, kolonne, Tekstblokk
+author: SuperOffice RnD
+so.date: 02.06.2024
+so.version: 10
 so.topic: howto
 language: no
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Legg til innhold
@@ -39,7 +42,7 @@ Denne seksjonen inneholder lagrede innholdsblokker, som topptekster og bunntekst
 
 Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** (![icon][img13]).
 
-## Redigere globalt utseende[!icon][img14]
+## Redigere globalt utseende [!icon][img14]
 
 I denne delen kan du redigere de globale egenskapene og oppsettet for meldingen.
 
@@ -55,17 +58,17 @@ Legg til bilder fra SuperOffice-databasen eller fra den royaltyfrie bildedatabas
 [2]: edit-paragraph.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/side-panel-content.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-content-columns.png
-[img3]: ../../../media/icons/marketing-and-forms/side-panel-content-button.png
-[img4]: ../../../media/icons/marketing-and-forms/side-panel-content-divider.png
-[img5]: ../../../media/icons/marketing-and-forms/side-panel-content-heading.png
-[img6]: ../../../media/icons/marketing-and-forms/side-panel-content-html.png
-[img7]: ../../../media/icons/marketing-and-forms/side-panel-content-image.png
-[img8]: ../../../media/icons/marketing-and-forms/side-panel-content-menu.png
-[img9]: ../../../media/icons/marketing-and-forms/side-panel-content-social.png
-[img10]: ../../../media/icons/marketing-and-forms/side-panel-content-text.png
-[img11]: ../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
-[img12]: ../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../media/icons/marketing-and-forms/save-block.png
-[img14]: ../../../media/icons/marketing-and-forms/side-panel-body.png
+[img1]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-content-columns.png
+[img3]: ../../../../media/icons/marketing-and-forms/side-panel-content-button.png
+[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-divider.png
+[img5]: ../../../../media/icons/marketing-and-forms/side-panel-content-heading.png
+[img6]: ../../../../media/icons/marketing-and-forms/side-panel-content-html.png
+[img7]: ../../../../media/icons/marketing-and-forms/side-panel-content-image.png
+[img8]: ../../../../media/icons/marketing-and-forms/side-panel-content-menu.png
+[img9]: ../../../../media/icons/marketing-and-forms/side-panel-content-social.png
+[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
+[img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
+[img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
+[img13]: ../../../../media/icons/marketing-and-forms/save-block.png
+[img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

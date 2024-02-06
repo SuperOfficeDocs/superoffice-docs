@@ -2,11 +2,14 @@
 uid: help-no-mailing-edit-paragraph
 title: Redigere et avsnitt
 description: Redigere et avsnitt
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Markedsføring
+author: SuperOffice RnD
+so.date: 02.06.2024
+so.version: 10
 so.topic: howto
 language: no
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Redigere innhold
@@ -16,7 +19,7 @@ language: no
 > [!TIP]
 > Hvis du vil redigere globale egenskaper og utseende for meldingen, velger du **Brødtekst** (![icon][img2]) i sidepanelet. Hvis du har angitt bestemte egenskaper for enkelte områder vil ikke disse bli overstyrt av globale egenskaper.
 >
-> Bruk **Datamaskin** (![icon][img3]) og **Mobil** (![icon][img4]) øverst på sidepanelet for å redigere egenskaper for skrivebordsversjoner og [mobilversjoner av meldingene][1].
+> Velg **Datamaskin** ![icon][img3] eller **Mobil** ![icon][img4] øverst på sidepanelet for å redigere egenskaper for en spesific layout.
 
 ## Redigere tekstinnhold (tekstblokker) i en melding
 
@@ -72,18 +75,17 @@ Klikk på **Neste** hvis du er ferdig med å redigere.
 * [Legge til en kobling for å vise meldingen i en nettleser][3]
 
 <!-- Referenced links -->
-[1]: customize-for-mobile.md
 [2]: add-merge-tag.md
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../mailing/learn/create/add-unsubscribe-link.md
-[8]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[7]: ../../mailing/learn/create/add-unsubscribe-link.md
+[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-body-small.png
-[img3]: ../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../media/icons/marketing-and-forms/mobile.png
-[img5]: ../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/loc/en/marketing/edit-section.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
+[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
+[img5]: ../../../../media/loc/en/marketing/toolbar.png
+[img6]: ../../../../media/icons/marketing-and-forms/link.png

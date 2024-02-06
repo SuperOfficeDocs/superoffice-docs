@@ -11,31 +11,19 @@ items:
   - name: Opprette mappe
     href: create-folder.md
   - name: Meldingsmaler
-    href: work-with-messages-and-templates.md
+    href: message-templates.md
   - name: Legg til bilder
     href: add-images.md
+  - name: Beste praksis
+    href: best-practices.md
 
 - name: Arbeide med utsendelser
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
 - name: Dra og slipp editor
-  topicHref: editor.md
-  items:
-  - name: Oversikt
-    href: editor.md
-  - name: Legg til innhold
-    href: add-content.md
-  - name: Rediger avsnitt
-    href: edit-paragraph.md
-  - name: Sette inn bilder
-    href: insert-images-in-message.md
-  - name: Legge til emneknagger for fletting
-    href: add-merge-tag.md
-  - name: Legge til kobling for å vise melding i nettleseren
-    href: add-link-to-display-message-in-browser.md
-  - name: Tilpasse melding for visning på mobile enheter
-    href: customize-for-mobile.md
+  href: ../editor/learn/toc.yml
+  topicHref: ../editor/learn/index.md
 
 - name: Arbeide med sporede lenker
   href: ../tracked-links/learn/toc.yml

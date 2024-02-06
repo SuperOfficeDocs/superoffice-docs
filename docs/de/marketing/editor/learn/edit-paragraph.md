@@ -2,11 +2,14 @@
 uid: help-de-mailing-edit-paragraph
 title: Einen Absatz bearbeiten
 description: Einen Absatz bearbeiten
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.06.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Inhalt bearbeiten
@@ -16,7 +19,7 @@ language: de
 > [!TIP]
 > Um globale Eigenschaften und das Layout der Mitteilung zu bearbeiten, wählen Sie den **Textbereich** ![Symbol][img2] in der Seitenleiste aus. Wenn Sie für einzelne Bereiche bestimmte Eigenschaften definiert haben, werden diese von den globalen Eigenschaften nicht ersetzt.
 >
-> Verwenden Sie **Desktop** und (![Symbol][img3]) und **Mobil** (![Symbol][img4]) oben in der Seitenleiste, um die Eigenschaften für die Desktop- und [Mobil-Versionen der Mitteilung][1] zu bearbeiten.
+> Verwenden Sie **Desktop** und ![Symbol][img3] und **Mobil** ![Symbol][img4] oben in der Seitenleiste, um die Eigenschaften für die Desktop- und Mobil-Versionen der Mitteilung zu bearbeiten.
 
 ## Inhalt (Textblöcke) in einer Mitteilung zu bearbeiten
 
@@ -72,18 +75,17 @@ Klicken Sie auf **Weiter,** wenn Sie mit der Bearbeitung fertig sind.
 * [Einen Link hinzufügen, um die Nachricht in einem Browser anzuzeigen][3]
 
 <!-- Referenced links -->
-[1]: customize-for-mobile.md
 [2]: add-merge-tag.md
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../mailing/learn/create/add-unsubscribe-link.md
-[8]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[7]: ../../mailing/learn/create/add-unsubscribe-link.md
+[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-body-small.png
-[img3]: ../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../media/icons/marketing-and-forms/mobile.png
-[img5]: ../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/loc/en/marketing/edit-section.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
+[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
+[img5]: ../../../../media/loc/en/marketing/toolbar.png
+[img6]: ../../../../media/icons/marketing-and-forms/link.png

@@ -22,7 +22,7 @@ Nachdem Sie das gewünscht Design festgelegt haben, können Sie mit wenigen Klic
 3. Klicken Sie auf **Weiter**, um zum nächsten Schritt zu gelangen.
 
 <!-- Referenced links -->
-[1]: ../../../../learn/work-with-messages-and-templates.md
+[1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png

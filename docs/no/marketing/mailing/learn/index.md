@@ -26,14 +26,14 @@ En utsendelse håndteres vanligvis i to trinn:
 > [!NOTE]
 > E-postutsendelser og skjemasvar er utsendelsestypen som har flest funksjoner. Funksjoner som sporede koblinger og påmeldingskoblinger er ikke tilgjengelige for utsendelse av SMS og dokumenter.
 
-## mottakere
+## Mottakere
 
 Du kan legge til mottakere fra flere kilder.
 
 > [!NOTE]
 > Når du legger til mottakere, vil kun personer med gyldig e-postadresse (eller mobiltelefonnummer ved utsendelser av SMS) bli lagt til i listen **Mottakere**.
 
-[!include[Note](../../learn/includes/note-imported-recipients.md)]
+Importerte mottakere som IKKE finnes i SuperOffice-databasen, vil bare bestå av et navn og en e-postadresse (eller bare en e-postadresse). Det betyr at det bare er malvariablene **[[customer.name]]** og/eller **[[customer.email]]** som vil fungere for disse mottakerne. For å unngå tomme variabler i utsendelsene må du passe på at du [forhåndsviser utsendelsen][4] først.
 
 ## Knytte en utsendelse til utvalg eller prosjekt
 
@@ -51,5 +51,6 @@ Og hvis du oppretter et prosjekt for arrangementet, kan du på tilsvarende måte
 <!-- Referenced links -->
 [1]: create/index.md
 [2]: follow-up/index.md
+[4]: create/send-test-email.md
 
 <!-- Referenced images -->

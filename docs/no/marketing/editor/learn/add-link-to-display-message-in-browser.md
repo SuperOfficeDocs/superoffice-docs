@@ -2,11 +2,14 @@
 uid: help-no-mailing-open-in-browser
 title: Legge til en kobling for å vise meldingen i en nettleser
 description: Legge til en kobling for å vise meldingen i en nettleser
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Markedsføring, kobling, utsendelse
+author: SuperOffice RnD
+so.date: 02.05.2024
+so.version: 10
 so.topic: howto
 language: no
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Legge til en kobling for å vise meldingen i en nettleser
@@ -17,9 +20,9 @@ Hvis mottakeren har problemer med å vise meldingen i e-postprogrammet sitt (for
 
 1. Gå til innholdet i meldingen, og klikk på seksjonen der du vil sette inn koblingen.
 
-2. Skriv inn og velg teksten som mottakeren skal klikke på, for eksempel «Klikk her for å se denne meldingen i en nettleser».
+2. Skriv inn og velg teksten som mottakeren skal klikke på, for eksempel "Klikk her for å se denne meldingen i en nettleser".
 
-3. Klikk på knappen **Sett inn/rediger kobling** (![icon][img1]) på verktøylinjen.
+3. Klikk på knappen **Sett inn/rediger kobling** ![icon][img1] på verktøylinjen.
 
 4. Klikk på **Spesielle koblinger** og velg **Kobling for å se meldingen på nett**.
 
@@ -28,4 +31,4 @@ Hvis mottakeren har problemer med å vise meldingen i e-postprogrammet sitt (for
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/icons/marketing-and-forms/link.png

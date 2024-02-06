@@ -2,11 +2,14 @@
 uid: help-de-mailing-open-in-browser
 title: "Einen Link hinzufügen, um die Nachricht in einem Browser anzuzeigen"
 description: "Einen Link hinzufügen, um die Nachricht in einem Browser anzuzeigen"
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing, Verknüpfen, Kampagne
+author: SuperOffice RnD
+so.date: 02.06.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Einen Link hinzufügen, um die Nachricht in einem Browser anzuzeigen
@@ -19,7 +22,7 @@ Wenn der Empfänger Probleme mit der Anzeige der Mitteilung in seinem E-Mail-Pro
 
 2. Geben Sie den Text ein oder wählen Sie einen Text, worauf der Empfänger klicken soll, z. B. "Klicken Sie hier, um diese Nachricht in einem Browser anzuzeigen".
 
-3. Klicken Sie in der Werkzeugleiste auf die Schaltfläche **Link einfügen/bearbeiten** (![Symbol][img1]).
+3. Klicken Sie in der Werkzeugleiste auf die Schaltfläche **Link einfügen/bearbeiten** ![Symbol][img1].
 
 4. Klicken Sie auf **Besondere Links** und wählen **Link für die Anzeige der Nachricht im Internet**.
 
@@ -28,4 +31,4 @@ Wenn der Empfänger Probleme mit der Anzeige der Mitteilung in seinem E-Mail-Pro
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/icons/marketing-and-forms/link.png

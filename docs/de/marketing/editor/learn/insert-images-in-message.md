@@ -2,11 +2,14 @@
 uid: help-de-insert-images-in-message
 title: Bilder in die Nachricht einfügen
 description: "Die Verwendung sorgfältig ausgewählter Bilder in Ihren Kampagnen kann Ihre Ergebnisse stark beeinflussen. Sie können Ihre eigenen Bilder hochladen oder eines der Millionen von Bildern powered by Unsplash, Pexels und Pixabay in der Online-Bildbibliothek verwenden."
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing, Bild
+author: SuperOffice RnD
+so.date: 02.06.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Bilder in die Nachricht einfügen
@@ -94,14 +97,14 @@ Das Bild, das Sie für Ihre Kampagne verwenden möchten, hat möglicherweise nic
 5. Wenn Sie mit der neuen Größe Ihres Bildes zufrieden sind oder überprüfen möchten, wie es nach den vorgenommenen Änderungen in Ihrer E-Mail-Vorlage aussieht, können Sie auf die Schaltfläche **Übernehmen** klicken.
 
 <!-- Referenced links -->
-[1]: add-images.md
-[2]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[1]: ../../learn/add-images.md
+[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/side-panel-content-small.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-images-small.png
-[img3]: ../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
-[img4]: ../../../media/loc/en/marketing/add-action-properties.png
-[img5]: ../../../media/loc/en/marketing/apply-effects.png
-[img6]: ../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../media/loc/en/marketing/change-size-of-your-image.png
+[img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img3]: ../../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
+[img4]: ../../../../media/loc/en/marketing/add-action-properties.png
+[img5]: ../../../../media/loc/en/marketing/apply-effects.png
+[img6]: ../../../../media/loc/en/marketing/resize-image.png
+[img7]: ../../../../media/loc/en/marketing/change-size-of-your-image.png

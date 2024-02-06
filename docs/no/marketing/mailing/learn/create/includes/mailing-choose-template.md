@@ -22,7 +22,7 @@ Etter at du har funnet ut hvilket design du ønsker å bruke, kan du velge malen
 3. Klikk på **Neste** for å gå til neste trinn.
 
 <!-- Referenced links -->
-[1]: ../../../../learn/work-with-messages-and-templates.md
+[1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png

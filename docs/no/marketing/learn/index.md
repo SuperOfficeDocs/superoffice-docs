@@ -86,7 +86,7 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
-[2]: editor.md#variables
+[2]: ../editor/learn/index.md#variables
 [3]: ../tracked-links/learn/define-link-actions.md
 [4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md

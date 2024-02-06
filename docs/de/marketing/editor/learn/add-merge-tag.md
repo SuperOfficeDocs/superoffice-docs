@@ -2,11 +2,14 @@
 uid: help-de-mailing-add-merge-tags
 title: Merge Tags zu Ihrer Mitteilung hinzufügen
 description: "Lernen Sie, wie Sie Ihrer Kampagne Merge Tags hinzufügen"
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.06.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Merge Tags zu Ihrer Mitteilung hinzufügen
@@ -35,9 +38,9 @@ Zusammenführen-Tags gibt es in vielen Formen: Dies können der Vorname des Kund
 > Bevor Sie eine Kampagne versenden, müssen Sie [testen, ob die Kundendaten richtig in die Mitteilung eingefügt werden][1].
 
 <!-- Referenced links -->
-[1]: ../mailing/learn/create/send-test-email.md
-[2]: ../../../en/document/templates/variables/index.md
+[1]: ../../mailing/learn/create/send-test-email.md
+[2]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/template-variable.png
-[img2]: ../../../media/loc/en/marketing/merge-tags.png
+[img1]: ../../../../media/loc/en/marketing/template-variable.png
+[img2]: ../../../../media/loc/en/marketing/merge-tags.png

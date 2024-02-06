@@ -24,6 +24,6 @@ Du kan bruke SuperOffice CRM-[malvariabler][1] i dokumentet for å sette inn kun
 [!include[Tip](tip-mailing-save-draft.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../learn/editor.md#variables
+[1]: ../../../../editor/learn/index.md#variables
 
 <!-- Referenced images -->
