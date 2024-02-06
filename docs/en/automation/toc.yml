@@ -1,13 +1,11 @@
 items:
 - name: Automation
   href: index.yml
-  expanded: true
   items:
   - name: Overview
     href: overview.md
   - name: Chatbot
     href: chatbot/index.md
-    expanded: true
     items:
     - name: Registration
       href: chatbot/registration.md
@@ -22,7 +20,6 @@ items:
     topicHref: crmscript/index.yml
   - name: Event model
     href: event-model/index.md
-    expanded: true
     items:
     - name: Email filter
       href: event-model/email-filter.md
@@ -34,7 +31,6 @@ items:
       href: event-model/saving-a-request.md
   - name: NetServer Script Engine
     href: netserver-scripting/index.md
-    expanded: true
     items:
     - name: Configuration
       href: netserver-scripting/configure.md
@@ -46,7 +42,6 @@ items:
       href: netserver-scripting/reference/
   - name: Trigger
     href: trigger/index.md
-    expanded: true
     items:
     - name: Create trigger macro
       href: trigger/create-trigger-macro.md
@@ -63,7 +58,6 @@ items:
         href: trigger/reference/CRMScript.Event.Trigger.yml
   - name: Webhook
     href: webhook/index.md
-    expanded: true
     items:
     - name: Introduction
       href: webhook/overview.md
@@ -117,3 +111,4 @@ items:
     href: windows/win-script-event-system.md
   - name: Zapier
     href: zapier/toc.yml
+    topicHref: zapier/index.md

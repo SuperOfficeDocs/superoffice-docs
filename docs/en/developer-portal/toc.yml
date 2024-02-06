@@ -1,7 +1,6 @@
 items:
 - name: Developer portal
   href: index.yml
-  expanded: true
   items:
   - name: Introduction to Developer Portal
     href: about.md
@@ -9,7 +8,6 @@ items:
     href: widgets/index.md
   - name: Getting started
     href: getting-started/index.md
-    expanded: true
     items:
     - name: Developer registration (account)
       href: getting-started/get-access-to-sod.md
@@ -19,14 +17,11 @@ items:
       href: getting-started/user-contexts.md
     - name: What API to use?
       href: getting-started/what-api-to-use.md
-
   - name: Create a new app
     href: create-app/toc.yml
     topicHref: create-app/index.md
-
   - name: Custom app
     href: custom-app/index.md
-    expanded: true
     items:
     - name: Checklist
       href: custom-app/checklist.md
@@ -34,14 +29,11 @@ items:
       href: custom-app/validate.md
     - name: First-time activation
       href: custom-app/activate.md
-
   - name: Standard app
     href: standard-app/toc.yml
     topicHref: standard-app/index.md
-
   - name: Best practices
     href: best-practices/index.md
-    expanded: true
     items:
     - name: Tenant status
       href: best-practices/tenant-status/index.md
@@ -51,9 +43,8 @@ items:
       href: best-practices/tenant-status/get-notifications.md
     - name: Error reporting emails
       href: best-practices/error-emails.md
-
   - name: Partners and users
-    expanded: true
+    href: partner/update-profile.md
     items:
     - name: Update profile
       href: partner/update-profile.md
@@ -69,10 +60,8 @@ items:
       href: partner/user-settings.md
     - name: Manage permissions
       href: partner/manage-permissions.md
-
   - name: Provisioning
     href: provisioning/index.md
-    expanded: true
     items:
     - name: What is consent?
       href: provisioning/consent.md
@@ -82,9 +71,8 @@ items:
       href: provisioning/revoke.md
     - name: Update text for consent dialog
       href: provisioning/update-consent-text.md
-
   - name: Analytics
-    expanded: true
+    href: analytics/customers.md
     items:
     - name: View customers
       href: analytics/customers.md
@@ -94,9 +82,8 @@ items:
       href: analytics/failures.md
     - name: Check application API performance
       href: analytics/metrics-performance.md
-
   - name: FAQ
-    expanded: true
+    href: faq/format-text.md
     items:
     - name: Format text
       href: faq/format-text.md
