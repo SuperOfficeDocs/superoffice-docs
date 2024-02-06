@@ -11,7 +11,7 @@ items:
   - name: Create folder
     href: create-folder.md
   - name: Message templates
-    href: work-with-messages-and-templates.md
+    href: message-templates.md
   - name: Add images
     href: add-images.md
   - name: Best practices

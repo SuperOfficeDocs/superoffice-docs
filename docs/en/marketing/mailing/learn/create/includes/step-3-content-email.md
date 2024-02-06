@@ -9,7 +9,6 @@ You can create and save content blocks that all your users can pick and choose f
 
 * [Add content][3], [Edit a paragraph][4]
 * [Insert customer-specific information][5]
-* [Customize the message to accommodate mobile devices][6]
 * [Insert tracking link][11]
 * [Add subscription links][8] to be GDPR compliant
 * [Add images to the message][2]
@@ -23,7 +22,6 @@ You can create and save content blocks that all your users can pick and choose f
 [3]: ../../../../editor/learn/add-content.md
 [4]: ../../../../editor/learn/edit-paragraph.md
 [5]: ../../../../editor/learn/add-merge-tag.md
-[6]: ../../../../learn/best-practices.md#mobile
 [11]: ../../../../tracked-links/learn/add-tracked-link-to-msg.md
 [8]: ../add-unsubscribe-link.md
 [7]: ../send-test-email.md

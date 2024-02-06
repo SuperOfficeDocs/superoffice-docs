@@ -147,7 +147,7 @@ The user guide for the old editor is located in the [SuperOffice version 10.1 he
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
-[9]: ../learn/work-with-messages-and-templates.md
+[9]: ../learn/message-templates.md
 [2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->

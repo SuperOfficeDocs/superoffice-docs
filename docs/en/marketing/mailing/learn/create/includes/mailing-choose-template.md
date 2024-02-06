@@ -22,7 +22,7 @@ After you have figured out what design you want to use, you can choose the templ
 3. Click **Next** to go to the next step.
 
 <!-- Referenced links -->
-[1]: ../../../../learn/work-with-messages-and-templates.md
+[1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png
