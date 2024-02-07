@@ -94,7 +94,7 @@ Tables not mirrored might have a reason specified in the "reason” field. This 
 | prefdescline                   | Internal configuration, not user data       |
 | registry                       | Internal, not user data       |
 | satellite                      | Part of travel       |
-| script_run_trace               | Debug info, large turnover, not user data       |
+| script_trace_run               | Debug info, large turnover, not user data      |
 | searchcriteria                 | Internal configuration, not user data       |
 | searchcriteriagroup            | Internal configuration, not user data       |
 | searchcriterion                | Internal configuration, not user data       |
