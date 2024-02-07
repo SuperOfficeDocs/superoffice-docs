@@ -10,6 +10,6 @@ Bij de stap **Inhoud** kunt u de inhoud van de SMS invoeren.
 
 <!-- Referenced links -->
 [1]: ../../../../../../en/document/templates/variables/for-selected-contact.md
-[2]: ../../../../learn/editor.md#variables
+[2]: ../../../../editor/learn/index.md#variables
 
 <!-- Referenced images -->

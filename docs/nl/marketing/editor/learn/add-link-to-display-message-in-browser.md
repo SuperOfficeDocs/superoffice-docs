@@ -2,11 +2,14 @@
 uid: help-nl-mailing-open-in-browser
 title: Een koppeling toevoegen om het bericht weer te geven in een browser
 description: Een koppeling toevoegen om het bericht weer te geven in een browser
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing, koppeling, mailing
+author: SuperOffice RnD
+so.date: 02.05.2024
+so.version: 10
 so.topic: howto
-language: nl
+language: no
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Een koppeling toevoegen om het bericht weer te geven in een browser
@@ -19,7 +22,7 @@ Als de ontvanger problemen heeft met het weergeven van het bericht in zijn of ha
 
 2. Voer de tekst in of selecteer de tekst waarop de ontvanger moet klikken, bijvoorbeeld "Klik hier voor meer informatie".
 
-3. Klik op de knop **Koppeling invoegen/bewerken** (![pictogram][img1]) op de werkbalk.
+3. Klik op de knop **Koppeling invoegen/bewerken** ![pictogram][img1] op de werkbalk.
 
 4. Klik op **Speciale links** en selecteer **Link voor online weergave van bericht**.
 
@@ -28,4 +31,4 @@ Als de ontvanger problemen heeft met het weergeven van het bericht in zijn of ha
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/icons/marketing-and-forms/link.png

@@ -1,12 +1,15 @@
 ---
-uid: help-nl-insert-images-in-message
+uid: help-nl-mailing-add-image
 title: Afbeeldingen in het bericht invoegen
 description: "Het gebruik van zorgvuldig gekozen afbeeldingen in uw mailings kan een krachtige impact hebben op uw resultaten. U kunt uw eigen afbeeldingen uploaden of een van de miljoenen afbeeldingen gebruiken die worden verzorgd door Unsplash, Pexels, Pixabay in de online afbeeldingenbibliotheek."
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing, afbeelding
+author: SuperOffice RnD
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: nl
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Afbeeldingen in het bericht invoegen
@@ -30,9 +33,9 @@ Na het toevoegen van een afbeelding kunt u eigenschappen toevoegen, zoals een be
 
 1. Ga naar het scherm **Inhoud** in de mailing of open een sjabloon voor bewerking.
 
-2. Selecteer **Inhoud** (![pictogram][img1]) in het zijpaneel.
+2. Selecteer **Inhoud** ![pictogram][img1] in het zijpaneel.
 
-3. Klik en sleep het **Afbeeldingsblok** (![pictogram][img1]) naar de desbetreffende sectie in het bericht. U moet nu de afbeelding selecteren die u wilt gebruiken.
+3. Klik en sleep het **Afbeeldingsblok** ![pictogram][img1] naar de desbetreffende sectie in het bericht. U moet nu de afbeelding selecteren die u wilt gebruiken.
 
 4. Klik op het blok in het bericht.
 
@@ -52,13 +55,13 @@ Na het toevoegen van een afbeelding kunt u eigenschappen toevoegen, zoals een be
 ## Een afbeelding gebruiken in de online afbeeldingsbibliotheek (royaltyvrij)
 
 > [!NOTE]
-> Als de sectie **Afbeeldingen** (![pictogram][img2]) niet zichtbaar is, kan deze voorkeur zijn uitgeschakeld vanwege organisatorische privacyregels.
+> Als de sectie **Afbeeldingen** ![pictogram][img2] niet zichtbaar is, kan deze voorkeur zijn uitgeschakeld vanwege organisatorische privacyregels.
 
 Kies uit miljoenen afbeeldingen in de royaltyvrije online afbeeldingsbibliotheek.
 
 1. Ga naar het scherm **Inhoud** in de mailing of open een sjabloon voor bewerking.
 
-2. Selecteer **Afbeeldingen** (![pictogram][img2]).
+2. Selecteer **Afbeeldingen** ![pictogram][img2].
 
 3. Voer zoektermen in het zoekveld in en druk op **ENTER**. Afbeeldingen die overeenkomen met uw query worden weergegeven.
 
@@ -94,14 +97,14 @@ De afbeelding die u voor uw mailing wilt gebruiken, heeft mogelijk niet altijd d
 5. Wanneer u tevreden bent met het nieuwe formaat van uw afbeelding of als u wilt controleren hoe deze eruitziet in uw e-mailsjabloon nadat u uw wijzigingen hebt aangebracht, kunt u op de knop **Toepassen** klikken.
 
 <!-- Referenced links -->
-[1]: add-images.md
-[2]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[1]: ../../learn/add-images.md
+[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/side-panel-content-small.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-images-small.png
-[img3]: ../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
-[img4]: ../../../media/loc/en/marketing/add-action-properties.png
-[img5]: ../../../media/loc/en/marketing/apply-effects.png
-[img6]: ../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../media/loc/en/marketing/change-size-of-your-image.png
+[img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img3]: ../../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
+[img4]: ../../../../media/loc/en/marketing/add-action-properties.png
+[img5]: ../../../../media/loc/en/marketing/apply-effects.png
+[img6]: ../../../../media/loc/en/marketing/resize-image.png
+[img7]: ../../../../media/loc/en/marketing/change-size-of-your-image.png

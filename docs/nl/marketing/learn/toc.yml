@@ -11,31 +11,19 @@ items:
   - name: Map maken
     href: create-folder.md
   - name: Berichtsjablonen
-    href: work-with-messages-and-templates.md
+    href: message-templates.md
   - name: Afbeeldingen toevoegen
     href: add-images.md
+  - name: Beste praktijken
+    href: best-practices.md
 
 - name: Werken met mailings
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
 - name: Editor slepen en neerzetten
-  topicHref: editor.md
-  items:
-  - name: Overzicht
-    href: editor.md
-  - name: Inhoud toevoegen
-    href: add-content.md
-  - name: Paragraaf bewerken
-    href: edit-paragraph.md
-  - name: Afbeeldingen invoegen
-    href: insert-images-in-message.md
-  - name: Variabelen toevoegen
-    href: add-merge-tag.md
-  - name: Koppeling toevoegen om bericht in browser weer te geven
-    href: add-link-to-display-message-in-browser.md
-  - name: Bericht aanpassen voor weergave op mobiele apparaten
-    href: customize-for-mobile.md
+  href: ../editor/learn/toc.yml
+  topicHref: ../editor/learn/index.md
 
 - name: Werken met gevolgde koppelingen
   href: ../tracked-links/learn/toc.yml

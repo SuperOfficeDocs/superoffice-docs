@@ -2,11 +2,14 @@
 uid: help-nl-mailing-edit-paragraph
 title: Een paragraaf bewerken
 description: Een paragraaf bewerken
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: nl
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Inhoud bewerken
@@ -14,9 +17,9 @@ language: nl
 ![pictogram][img1]
 
 > [!TIP]
-> Als u de algemene eigenschappen en layout voor het bericht wilt bewerken, selecteert u **Hoofdtekst** (![pictogram][img2]) in het zijpaneel. Als u specifieke eigenschappen hebt gedefinieerd voor afzonderlijke secties, worden die niet overschreven door de algemene eigenschappen.
+> Als u de algemene eigenschappen en layout voor het bericht wilt bewerken, selecteert u **Hoofdtekst** ![pictogram][img2] in het zijpaneel. Als u specifieke eigenschappen hebt gedefinieerd voor afzonderlijke secties, worden die niet overschreven door de algemene eigenschappen.
 >
-> Gebruik de **Desktop** (![pictogram][img3]) en **Mobiel** (![pictogram][img4]) aan de bovenkant van het zijpaneel om eigenschappen voor desktopversies en [mobiele versies van het bericht te bewerken][1].
+> Gebruik de **Desktop** ![pictogram][img3] en **Mobiel** ![pictogram][img4] aan de bovenkant van het zijpaneel om eigenschappen voor versies het bericht te bewerken.
 
 ## Tekstinhoud (tekstblokken) in een bericht bewerken
 
@@ -72,18 +75,17 @@ Klik op **Volgende** als u klaar bent met bewerken.
 * [Een koppeling toevoegen om het bericht weer te geven in een browser][3]
 
 <!-- Referenced links -->
-[1]: customize-for-mobile.md
 [2]: add-merge-tag.md
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../mailing/learn/create/add-unsubscribe-link.md
-[8]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[7]: ../../mailing/learn/create/add-unsubscribe-link.md
+[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-body-small.png
-[img3]: ../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../media/icons/marketing-and-forms/mobile.png
-[img5]: ../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/loc/en/marketing/edit-section.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
+[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
+[img5]: ../../../../media/loc/en/marketing/toolbar.png
+[img6]: ../../../../media/icons/marketing-and-forms/link.png

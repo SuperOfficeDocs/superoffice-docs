@@ -33,7 +33,7 @@ U kunt ontvangers uit meerdere bronnen toevoegen.
 > [!NOTE]
 > Wanneer u ontvangers toevoegt, worden alleen personen met een geldig e-mailadres (of mobiel telefoonnummer, in het geval van SMS-mailings) toegevoegd aan de lijst **Ontvangers**.
 
-[!include[Note](../../learn/includes/note-imported-recipients.md)]
+Geïmporteerde ontvangers die NIET voorkomen in de SuperOffice-database, bestaan alleen uit een naam en een e-mailadres (of alleen een e-mailadres). Dit betekent dat uitsluitend de sjabloonvariabelen **\[\[customer.name\]\]** en/of **\[\[customer.email\]\]** functioneren bij deze ontvangers. Ter voorkoming van lege variabelen in uw mailing moet u eerst een [voorbeeldweergave van de mailing][4] bekijken.
 
 ## Een mailing koppelen aan selectie of project
 
@@ -51,5 +51,6 @@ Op dezelfde manier kunt u, als u een project maakt voor uw evenement, een lijst 
 <!-- Referenced links -->
 [1]: create/index.md
 [2]: follow-up/index.md
+[4]: create/send-test-email.md
 
 <!-- Referenced images -->
