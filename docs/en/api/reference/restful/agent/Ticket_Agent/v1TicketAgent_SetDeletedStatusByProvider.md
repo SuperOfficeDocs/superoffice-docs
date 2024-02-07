@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Greenfelder Group",
+  "ProviderName": "Upton, Renner and Haag",
   "Restrictions": [
     {
-      "Name": "Herzog Inc and Sons",
-      "Operator": "beatae",
+      "Name": "O'Kon-Moen",
+      "Operator": "et",
       "Values": [
-        "corporis",
-        "facere"
+        "fugit",
+        "ut"
       ],
       "DisplayValues": [
-        "qui",
-        "pariatur"
+        "culpa",
+        "minima"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 502,
+      "InterParenthesis": 150,
       "InterOperator": "And",
-      "UniqueHash": 417
+      "UniqueHash": 81
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  82,
-  770
+  688,
+  937
 ]
 ```

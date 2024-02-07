@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 175,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2000-09-09T23:03:55.659633+02:00",
-  "EndTime": "2003-12-15T23:03:55.659633+01:00",
-  "Count": 527
+  "PersonId": 481,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2011-06-24T16:54:55.1302918+02:00",
+  "EndTime": "2005-11-16T16:54:55.1302918+01:00",
+  "Count": 216
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 20,
-    "Attention": "voluptatem",
-    "Header": "eos",
-    "Name": "Thiel, Heaney and Schroeder",
-    "OurRef": "culpa",
-    "YourRef": "unde",
-    "Description": "Focused client-server open architecture",
-    "DocumentTemplate": "animi",
+    "DocumentId": 386,
+    "Attention": "minima",
+    "Header": "eaque",
+    "Name": "Bernier, Gorczany and Turcotte",
+    "OurRef": "voluptatem",
+    "YourRef": "rerum",
+    "Description": "Fundamental modular algorithm",
+    "DocumentTemplate": "molestiae",
     "IsPublished": false,
-    "PersonId": 901,
-    "PersonFullName": "Maurine Hyatt",
-    "AssociateFullName": "Miss Tremaine Bergstrom",
-    "ContactId": 370,
-    "ContactName": "Spinka Group",
-    "ProjectId": 965,
-    "ProjectName": "Rodriguez Group",
-    "AssociateId": 543,
-    "Snum": 245,
-    "SaleId": 518,
-    "SaleName": "Reilly Group",
+    "PersonId": 270,
+    "PersonFullName": "Riley Alivia Macejkovic V",
+    "AssociateFullName": "Duncan Kuvalis",
+    "ContactId": 562,
+    "ContactName": "Mitchell, Thompson and Glover",
+    "ProjectId": 470,
+    "ProjectName": "Wintheiser, Purdy and Hayes",
+    "AssociateId": 215,
+    "Snum": 735,
+    "SaleId": 937,
+    "SaleName": "O'Conner, Wilderman and Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldType": "System.String",
+        "FieldLength": 852
       }
     }
   }

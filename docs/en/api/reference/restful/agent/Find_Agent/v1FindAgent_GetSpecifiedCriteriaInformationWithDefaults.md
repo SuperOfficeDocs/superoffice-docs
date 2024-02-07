@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Kihn-Mayert",
-  "StorageKey": "ea",
+  "StorageType": "dolorem",
+  "ProviderName": "Nicolas, Boyle and O'Keefe",
+  "StorageKey": "quis",
   "DesiredColumnNames": [
-    "Strosin, Kunze and Orn",
-    "McClure-Beatty"
+    "Nolan-Mraz",
+    "Rippin-Trantow"
   ],
   "StaticColumns": [
-    "eaque",
-    "rerum"
+    "et",
+    "ut"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Langworth-Konopelski",
-      "Operator": "necessitatibus",
+      "Name": "Rice Group",
+      "Operator": "ut",
       "Values": [
-        "sunt",
-        "sequi"
+        "laudantium",
+        "autem"
       ],
       "DisplayValues": [
-        "debitis",
-        "aspernatur"
+        "maiores",
+        "tenetur"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 796,
+      "InterParenthesis": 438,
       "InterOperator": "And",
-      "UniqueHash": 558
+      "UniqueHash": 375
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "O'Reilly-Herman",
-      "DisplayTooltip": "voluptatum",
-      "DisplayType": "explicabo",
-      "CanOrderBy": false,
-      "Name": "Keeling Group",
+      "DisplayName": "Dietrich-Lockman",
+      "DisplayTooltip": "suscipit",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "Schowalter, Crona and Olson",
       "CanRestrictBy": false,
-      "RestrictionType": "eius",
-      "RestrictionListName": "Haley, Stehr and Dare",
-      "IsVisible": false,
-      "ExtraInfo": "fugiat",
-      "Width": "et",
-      "IconHint": "fugit",
-      "HeadingIconHint": "sit"
+      "RestrictionType": "laborum",
+      "RestrictionListName": "Herzog LLC",
+      "IsVisible": true,
+      "ExtraInfo": "in",
+      "Width": "aspernatur",
+      "IconHint": "est",
+      "HeadingIconHint": "vero"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Keebler, Greenholt and Stanton",
-      "PrimaryKey": 840,
+      "EntityName": "Ritchie-Hills",
+      "PrimaryKey": 63,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "tenetur",
-          "LinkHint": "omnis"
+          "DisplayValue": "iusto",
+          "TooltipHint": "officia",
+          "LinkHint": "rem"
         }
       },
-      "LinkHint": "enim",
-      "StyleHint": "eos",
+      "LinkHint": "cupiditate",
+      "StyleHint": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 188
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kiehn-Quitzon",
-      "Description": "Future-proofed object-oriented internet solution",
-      "Rank": 206,
+      "Name": "Reynolds, Harvey and Hoppe",
+      "Description": "Visionary holistic application",
+      "Rank": 319,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kiehn-Quitzon",
-      "Description": "Future-proofed object-oriented internet solution",
-      "Rank": 206,
+      "Name": "Reynolds, Harvey and Hoppe",
+      "Description": "Visionary holistic application",
+      "Rank": 319,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 178
     }
   }
 }

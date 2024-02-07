@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 840
+  "ProductId": 70
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 988,
-  "BlobSize": 664,
-  "Description": "Synergistic interactive system engine",
-  "ExtraInfo": "ea",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "est",
-  "OriginalSize": 679,
-  "CreatedDate": "2013-02-03T23:03:55.044642+01:00",
-  "UpdatedDate": "2012-04-02T23:03:55.044642+02:00",
+  "BlobId": 871,
+  "BlobSize": 140,
+  "Description": "Cross-group neutral Graphical User Interface",
+  "ExtraInfo": "beatae",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 206,
+  "CreatedDate": "2021-04-26T16:54:54.6213027+02:00",
+  "UpdatedDate": "2001-09-02T16:54:54.6213027+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quaerat",
+  "ConceptualType": "asperiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldLength": 653
     }
   }
 }

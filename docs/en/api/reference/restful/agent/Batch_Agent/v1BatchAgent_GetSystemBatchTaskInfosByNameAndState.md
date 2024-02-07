@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Anderson Group",
+  "TaskName": "Hudson Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Hoppe Inc and Sons",
-    "AssociateId": 408,
-    "DetailsTable": 901,
-    "DetailsRecord": 518,
-    "IsSystemTask": false,
+    "Id": 501,
+    "Name": "Lang-Shields",
+    "AssociateId": 462,
+    "DetailsTable": 279,
+    "DetailsRecord": 450,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "earum",
-      "ParameterObject2": "doloremque"
+      "ParameterObject1": "eligendi",
+      "ParameterObject2": "perspiciatis"
     },
-    "LastStarted": "2005-06-09T23:03:55.0291415+02:00",
-    "Created": "2013-05-20T23:03:55.0291415+02:00",
-    "StartCount": 285,
-    "DatabaseSerialNumber": "1453137",
-    "Context": "iste",
-    "Result": "commodi",
+    "LastStarted": "1999-01-16T16:54:54.6083022+01:00",
+    "Created": "1999-06-13T16:54:54.6083022+02:00",
+    "StartCount": 218,
+    "DatabaseSerialNumber": "698443",
+    "Context": "quia",
+    "Result": "ullam",
     "State": "All",
-    "Description": "Secured zero defect groupware",
-    "Response": "quas",
-    "Request": "cupiditate",
-    "ProgressDescription": "Proactive bifurcated system engine",
-    "ProgressPercent": 477,
-    "FileName": "Christiansen-Lebsack",
+    "Description": "Organized multi-tasking local area network",
+    "Response": "quisquam",
+    "Request": "eaque",
+    "ProgressDescription": "User-centric dynamic moderator",
+    "ProgressPercent": 944,
+    "FileName": "Funk-Metz",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldLength": 951
       }
     }
   }

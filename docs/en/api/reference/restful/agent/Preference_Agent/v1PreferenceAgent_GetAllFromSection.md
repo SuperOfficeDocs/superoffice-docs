@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "tempore"
+  "Section": "libero"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 994,
-    "Section": "molestiae",
-    "Key": "et",
-    "Name": "Huel, Ziemann and Smith",
+    "PrefDescId": 328,
+    "Section": "quos",
+    "Key": "atque",
+    "Name": "Carroll Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Monitored client-server capacity",
+    "Description": "Quality-focused clear-thinking complexity",
     "IsBuiltin": false,
-    "TableName": "Lubowitz Group",
-    "UserDefinedListId": 569,
-    "Rank": 756,
-    "SubGroup": "explicabo",
-    "MinLevel": 314,
-    "MaxValue": 69,
-    "MinValue": 816,
-    "RequiredLicense": "consectetur",
+    "TableName": "Harber, Dibbert and Moen",
+    "UserDefinedListId": 368,
+    "Rank": 948,
+    "SubGroup": "error",
+    "MinLevel": 308,
+    "MaxValue": 652,
+    "MinValue": 369,
+    "RequiredLicense": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 297
       }
     }
   }

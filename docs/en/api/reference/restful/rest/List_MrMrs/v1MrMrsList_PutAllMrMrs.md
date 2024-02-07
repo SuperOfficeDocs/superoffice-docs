@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Little Inc and Sons",
+    "Id": 883,
+    "Name": "Lueilwitz-Armstrong",
     "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 666,
-    "Rank": 212
+    "Deleted": true,
+    "UdListDefinitionId": 487,
+    "Rank": 679
   },
   {
-    "Id": 2,
-    "Name": "Little Inc and Sons",
+    "Id": 883,
+    "Name": "Lueilwitz-Armstrong",
     "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 666,
-    "Rank": 212
+    "Deleted": true,
+    "UdListDefinitionId": 487,
+    "Rank": 679
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Bayer-Morar",
-    "Tooltip": "nesciunt",
+    "Id": 622,
+    "Name": "Reinger-Gerhold",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 585,
-    "Rank": 188,
+    "UdListDefinitionId": 239,
+    "Rank": 370,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 616
       }
     }
   }

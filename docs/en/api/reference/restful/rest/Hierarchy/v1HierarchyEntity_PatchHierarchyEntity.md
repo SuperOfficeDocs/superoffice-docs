@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 826,
+  "HierarchyId": 112,
   "Domain": "Dashboards",
-  "Name": "Kling-Harber",
-  "Fullname": "aliquam",
-  "ParentId": 551,
+  "Name": "Greenholt, Stehr and Collins",
+  "Fullname": "modi",
+  "ParentId": 450,
   "Children": [
     {
-      "HierarchyId": 344,
+      "HierarchyId": 586,
       "Domain": "Dashboards",
-      "Name": "Boehm, Hammes and Dooley",
-      "Fullname": "esse",
-      "ParentId": 557,
+      "Name": "Hirthe-Beer",
+      "Fullname": "ut",
+      "ParentId": 987,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-10-30T23:04:04.2360185+01:00",
-      "RegisteredAssociateId": 180,
-      "Updated": "2007-12-25T23:04:04.2360185+01:00",
-      "UpdatedAssociateId": 306,
+      "Registered": "2023-01-01T16:55:29.663459+01:00",
+      "RegisteredAssociateId": 175,
+      "Updated": "2007-02-15T16:55:29.663459+01:00",
+      "UpdatedAssociateId": 29,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 776
+          "FieldType": "System.Int32",
+          "FieldLength": 593
         }
       }
     }
   ],
-  "Registered": "2022-08-12T23:04:04.2360185+02:00",
-  "RegisteredAssociateId": 668,
-  "Updated": "2019-03-24T23:04:04.2360185+01:00",
-  "UpdatedAssociateId": 647,
+  "Registered": "1997-07-18T16:55:29.663459+02:00",
+  "RegisteredAssociateId": 455,
+  "Updated": "2013-07-12T16:55:29.663459+02:00",
+  "UpdatedAssociateId": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   },
   "_Links": {

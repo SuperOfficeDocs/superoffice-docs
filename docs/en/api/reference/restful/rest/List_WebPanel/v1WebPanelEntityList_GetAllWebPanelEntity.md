@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 978,
-    "Name": "Grady-Borer",
-    "Tooltip": "sit",
+    "WebPanelId": 242,
+    "Name": "Kuvalis-DuBuque",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 179,
+    "Rank": 200,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
+    "OnCentral": true,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "McCullough-Mills",
+    "WindowName": "Murray Group",
     "Url": "http://www.example.com/",
     "ProgId": "aut",
-    "Icon": 295,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": false,
+    "Icon": 153,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldLength": 231
       }
     }
   }

@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 690,
+    "TargetDimensionId": 569,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "consequatur",
-    "DimensionListName": "Trantow Group",
-    "DimensionListId": 59,
-    "DimensionListLabel": "facilis",
+    "DimensionListField": "cumque",
+    "DimensionListName": "Greenfelder, Lang and Cartwright",
+    "DimensionListId": 192,
+    "DimensionListLabel": "ut",
     "SelectedDimensions": [
-      368,
-      281
+      355,
+      505
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldType": "System.Int32",
+        "FieldLength": 507
       }
     }
   }

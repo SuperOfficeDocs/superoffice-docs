@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Gaylord, Grimes and Harvey",
-    "ToolTip": "Illo modi sequi praesentium minus tenetur inventore.",
+    "Id": 543,
+    "Name": "Schinner-Stamm",
+    "ToolTip": "Nam reprehenderit.",
     "Deleted": false,
-    "Rank": 171,
-    "Type": "nulla",
-    "ColorBlock": 947,
-    "IconHint": "labore",
+    "Rank": 623,
+    "Type": "quod",
+    "ColorBlock": 442,
+    "IconHint": "quae",
     "Selected": true,
-    "LastChanged": "2006-12-08T23:04:05.9834945+01:00",
+    "LastChanged": "2014-06-11T16:55:31.1117934+02:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Rempel, Wunsch and Ullrich",
-        "ToolTip": "Sed et voluptatum itaque dolor.",
+        "Id": 320,
+        "Name": "Von-Quitzon",
+        "ToolTip": "Aut quo nemo.",
         "Deleted": false,
-        "Rank": 497,
-        "Type": "occaecati",
-        "ColorBlock": 676,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2008-01-09T23:04:05.9849927+01:00",
+        "Rank": 112,
+        "Type": "dolor",
+        "ColorBlock": 837,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2023-12-21T16:55:31.1117934+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "sit",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Cameron Watsica IV",
+        "FullName": "Ladarius Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 182
+            "FieldType": "System.Int32",
+            "FieldLength": 833
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "officia",
+    "ExtraInfo": "fuga",
+    "StyleHint": "placeat",
     "Hidden": true,
-    "FullName": "Hobart Yundt",
+    "FullName": "Mr. Berta Verlie Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldType": "System.Int32",
+        "FieldLength": 202
       }
     }
   }

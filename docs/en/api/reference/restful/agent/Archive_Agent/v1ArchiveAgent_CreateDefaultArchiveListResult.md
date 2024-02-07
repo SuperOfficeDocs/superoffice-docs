@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 734,
+  "RowCount": 778,
   "Rows": [
     {
-      "EntityName": "Borer Inc and Sons",
-      "PrimaryKey": 252,
+      "EntityName": "Reynolds-Donnelly",
+      "PrimaryKey": 726,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quidem",
-          "TooltipHint": "blanditiis",
-          "LinkHint": "qui"
+          "DisplayValue": "id",
+          "TooltipHint": "tempore",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "ea",
+      "LinkHint": "earum",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldLength": 974
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldLength": 239
     }
   }
 }

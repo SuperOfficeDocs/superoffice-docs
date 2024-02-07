@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rippin, Hayes and Eichmann",
-  "DeviceName": "Waelchi Inc and Sons",
-  "DeviceIdentifier": "exercitationem"
+  "ApplicationName": "Hermiston, VonRueden and Feil",
+  "DeviceName": "Yost Inc and Sons",
+  "DeviceIdentifier": "ut"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 847,
-  "Name": "Pfeffer Inc and Sons",
-  "CreatedDate": "2001-08-07T23:03:56.1116282+02:00",
-  "UpdatedDate": "2002-08-15T23:03:56.1116282+02:00",
-  "AssociateFullName": "Prof. Liliane D'Amore MD",
-  "CreatedBy": "voluptates",
-  "UpdatedBy": "vel",
-  "DeviceIdentifier": "eius",
-  "ForeignAppId": 35,
+  "ForeignDeviceId": 322,
+  "Name": "Lueilwitz LLC",
+  "CreatedDate": "2003-05-11T16:54:55.482468+02:00",
+  "UpdatedDate": "1997-04-27T16:54:55.482468+02:00",
+  "AssociateFullName": "Waldo Bashirian",
+  "CreatedBy": "dolorum",
+  "UpdatedBy": "atque",
+  "DeviceIdentifier": "libero",
+  "ForeignAppId": 680,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 547
     }
   }
 }

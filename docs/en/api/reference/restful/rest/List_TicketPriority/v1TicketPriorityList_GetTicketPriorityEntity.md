@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 425,
-  "Name": "Tromp Group",
+  "TicketPriorityId": 579,
+  "Name": "Reilly Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 427,
+  "SortOrder": 293,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 213,
-  "MonStart": "2005-07-01T23:04:06.0184939+02:00",
-  "MonStop": "2017-10-31T23:04:06.0184939+01:00",
-  "TueStart": "2013-01-01T23:04:06.0184939+01:00",
-  "TueStop": "2022-02-22T23:04:06.0184939+01:00",
-  "WedStart": "2002-06-28T23:04:06.0184939+02:00",
-  "WedStop": "2001-04-12T23:04:06.0184939+02:00",
-  "ThuStart": "2010-01-07T23:04:06.0184939+01:00",
-  "ThuStop": "2003-12-27T23:04:06.0184939+01:00",
-  "FriStart": "2022-02-15T23:04:06.0184939+01:00",
-  "FriStop": "2007-03-07T23:04:06.0184939+01:00",
-  "SatStart": "1996-11-10T23:04:06.0184939+01:00",
-  "SatStop": "2022-07-28T23:04:06.0184939+02:00",
-  "SunStart": "2021-02-16T23:04:06.0184939+01:00",
-  "SunStop": "2012-01-09T23:04:06.0184939+01:00",
+  "Deadline": 613,
+  "MonStart": "2016-01-12T16:55:31.1348176+01:00",
+  "MonStop": "2022-10-27T16:55:31.1348176+02:00",
+  "TueStart": "2001-09-03T16:55:31.1348176+02:00",
+  "TueStop": "2016-07-13T16:55:31.1348176+02:00",
+  "WedStart": "2002-04-18T16:55:31.1348176+02:00",
+  "WedStop": "2003-07-23T16:55:31.1348176+02:00",
+  "ThuStart": "2022-04-02T16:55:31.1348176+02:00",
+  "ThuStop": "2007-05-30T16:55:31.1348176+02:00",
+  "FriStart": "2018-11-14T16:55:31.1348176+01:00",
+  "FriStop": "2022-06-23T16:55:31.1348176+02:00",
+  "SatStart": "2012-04-16T16:55:31.1348176+02:00",
+  "SatStop": "2018-02-13T16:55:31.1348176+01:00",
+  "SunStart": "2001-08-12T16:55:31.1348176+02:00",
+  "SunStop": "2015-05-08T16:55:31.1348176+02:00",
   "NonDates": [
-    "non",
-    "dolores"
+    "eveniet",
+    "qui"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 369,
-      "AlertLevel": 710,
-      "AlertTimeout": 612,
-      "Action": 62,
-      "DelegateTo": 319,
-      "ScriptId": 41,
-      "EmailTo": "mateo@walker.ca",
-      "SmsTo": "asperiores",
-      "ReplyTemplateIdCustomer": 487,
-      "ReplyTemplateIdUser": 388,
-      "ReplyTemplateIdCatmast": 273,
-      "ReplyTemplateIdEmail": 368,
-      "RtiCustomerSms": 476,
-      "ReplyTemplateIdUserSms": 495,
-      "ReplyTemplateIdCatmastSms": 809,
-      "ReplyTemplateIdSms": 237,
+      "TicketAlertId": 33,
+      "AlertLevel": 595,
+      "AlertTimeout": 706,
+      "Action": 54,
+      "DelegateTo": 528,
+      "ScriptId": 76,
+      "EmailTo": "cole@torp.biz",
+      "SmsTo": "aut",
+      "ReplyTemplateIdCustomer": 260,
+      "ReplyTemplateIdUser": 77,
+      "ReplyTemplateIdCatmast": 569,
+      "ReplyTemplateIdEmail": 664,
+      "RtiCustomerSms": 960,
+      "ReplyTemplateIdUserSms": 436,
+      "ReplyTemplateIdCatmastSms": 951,
+      "ReplyTemplateIdSms": 470,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 912
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 611
     }
   }
 }

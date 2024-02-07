@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 139,
-  "FieldName": "McClure, Brakus and O'Reilly",
-  "Label": "quae",
-  "Tooltip": "ut",
+  "QuoteLineConfigurationId": 406,
+  "FieldName": "Pacocha Inc and Sons",
+  "Label": "cumque",
+  "Tooltip": "saepe",
   "Editable": false,
-  "InUse": false,
-  "Mandatory": false,
-  "Rank": 441,
+  "InUse": true,
+  "Mandatory": true,
+  "Rank": 206,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

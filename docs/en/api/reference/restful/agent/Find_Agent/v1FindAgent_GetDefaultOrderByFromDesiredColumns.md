@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Balistreri, McKenzie and Herzog",
+  "ProviderName": "Wisozk LLC",
   "DesiredColumns": [
-    "quae",
-    "laboriosam"
+    "quidem",
+    "blanditiis"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Satterfield-Boehm",
+    "Name": "Watsica Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Satterfield-Boehm",
+    "Name": "Watsica Inc and Sons",
     "Direction": "ASC"
   }
 ]

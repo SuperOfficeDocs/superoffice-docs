@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 785,
-  "Name": "Stracke LLC",
-  "Tooltip": "sapiente",
-  "Rank": 241,
-  "Rate": 16889.126,
-  "Units": 17174.32,
-  "Deleted": true,
+  "CurrencyId": 398,
+  "Name": "Kshlerin-Ryan",
+  "Tooltip": "possimus",
+  "Rank": 168,
+  "Rate": 20013.724,
+  "Units": 30935.714,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 931
     }
   }
 }

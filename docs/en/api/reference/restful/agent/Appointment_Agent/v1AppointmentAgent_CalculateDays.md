@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 849,
-  "StartDate": "2023-12-30T23:03:54.7506455+01:00",
-  "EndDate": "2004-08-18T23:03:54.7506455+02:00",
-  "RecurrenceCounter": 310,
+  "RecurrenceId": 175,
+  "StartDate": "2008-08-21T16:54:54.3968641+02:00",
+  "EndDate": "2021-08-26T16:54:54.3968641+02:00",
+  "RecurrenceCounter": 873,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2013-01-19T23:03:54.7506455+01:00",
+      "Date": "2008-01-16T16:54:54.3968641+01:00",
       "IsConflict": false,
-      "Description": "Profit-focused transitional help-desk",
-      "DescriptionStyleHint": "Profit-focused interactive projection",
-      "Tooltip": "sapiente"
+      "Description": "Multi-channelled leading edge open system",
+      "DescriptionStyleHint": "Vision-oriented exuding attitude",
+      "Tooltip": "maiores"
     },
     {
-      "Date": "2013-01-19T23:03:54.7506455+01:00",
+      "Date": "2008-01-16T16:54:54.3968641+01:00",
       "IsConflict": false,
-      "Description": "Profit-focused transitional help-desk",
-      "DescriptionStyleHint": "Profit-focused interactive projection",
-      "Tooltip": "sapiente"
+      "Description": "Multi-channelled leading edge open system",
+      "DescriptionStyleHint": "Vision-oriented exuding attitude",
+      "Tooltip": "maiores"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

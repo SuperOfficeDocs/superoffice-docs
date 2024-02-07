@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Heller-Friesen",
+  "ProviderName": "Kreiger-Pouros",
   "Restrictions": [
     {
-      "Name": "Prosacco LLC",
-      "Operator": "ipsa",
+      "Name": "Rath LLC",
+      "Operator": "ut",
       "Values": [
-        "praesentium",
-        "sit"
+        "repellendus",
+        "harum"
       ],
       "DisplayValues": [
-        "eligendi",
-        "vel"
+        "enim",
+        "tempore"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 105,
+      "InterParenthesis": 995,
       "InterOperator": "And",
-      "UniqueHash": 902
+      "UniqueHash": 892
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Balistreri, Cormier and Feil",
-    "DisplayTooltip": "voluptatem",
-    "DisplayType": "ducimus",
-    "CanOrderBy": false,
-    "Name": "Stiedemann LLC",
+    "DisplayName": "Moen, Langosh and Nader",
+    "DisplayTooltip": "maiores",
+    "DisplayType": "et",
+    "CanOrderBy": true,
+    "Name": "Davis Group",
     "CanRestrictBy": false,
-    "RestrictionType": "laudantium",
-    "RestrictionListName": "McCullough Group",
+    "RestrictionType": "itaque",
+    "RestrictionListName": "Nienow Inc and Sons",
     "IsVisible": false,
-    "ExtraInfo": "iusto",
-    "Width": "id",
-    "IconHint": "fugiat",
-    "HeadingIconHint": "ab"
+    "ExtraInfo": "error",
+    "Width": "et",
+    "IconHint": "hic",
+    "HeadingIconHint": "laudantium"
   }
 ]
 ```

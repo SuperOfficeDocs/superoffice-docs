@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "West, Runolfsdottir and Wyman",
-    "ToolTip": "Vero impedit dignissimos doloribus doloremque.",
-    "Deleted": true,
-    "Rank": 801,
-    "Type": "eos",
-    "ColorBlock": 298,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "2001-10-09T23:04:05.679997+02:00",
+    "Id": 891,
+    "Name": "Hintz, Kiehn and Mohr",
+    "ToolTip": "Beatae vero qui asperiores atque.",
+    "Deleted": false,
+    "Rank": 60,
+    "Type": "dolores",
+    "ColorBlock": 295,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "2023-03-15T16:55:30.8478113+01:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Trantow-Fay",
-        "ToolTip": "Dicta est.",
+        "Id": 690,
+        "Name": "Jacobs, Terry and Bins",
+        "ToolTip": "Dolorem assumenda similique praesentium consequatur esse consequatur qui.",
         "Deleted": true,
-        "Rank": 257,
-        "Type": "quaerat",
-        "ColorBlock": 684,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2009-12-31T23:04:05.679997+01:00",
+        "Rank": 72,
+        "Type": "quasi",
+        "ColorBlock": 967,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2018-08-27T16:55:30.8478113+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Miss Glenna Saige Parisian Sr."
+        "ExtraInfo": "consequatur",
+        "StyleHint": "assumenda",
+        "Hidden": true,
+        "FullName": "Perry Ernser"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "architecto",
+    "ExtraInfo": "aut",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Alba Robel"
+    "FullName": "Winona Dach"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Walker LLC",
-    "ToolTip": "Maiores voluptas earum temporibus.",
-    "Deleted": true,
-    "Rank": 130,
-    "Type": "neque",
-    "ColorBlock": 237,
-    "IconHint": "sint",
+    "Id": 769,
+    "Name": "Koelpin, Ruecker and Rutherford",
+    "ToolTip": "Aliquam aliquid dolores est tenetur aut molestiae.",
+    "Deleted": false,
+    "Rank": 448,
+    "Type": "est",
+    "ColorBlock": 98,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "1998-09-26T23:04:05.6820044+02:00",
+    "LastChanged": "2009-07-27T16:55:30.8478113+02:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Gutkowski, Labadie and Feest",
-        "ToolTip": "Natus culpa qui.",
+        "Id": 388,
+        "Name": "Mraz, Pfannerstill and Berge",
+        "ToolTip": "Nisi beatae et nam eaque sed blanditiis velit.",
         "Deleted": false,
-        "Rank": 142,
-        "Type": "quas",
-        "ColorBlock": 53,
-        "IconHint": "illum",
+        "Rank": 64,
+        "Type": "et",
+        "ColorBlock": 308,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "1998-10-03T23:04:05.6820044+02:00",
+        "LastChanged": "2021-10-17T16:55:30.848825+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "et",
+        "ExtraInfo": "ut",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Stephany Mayert",
+        "FullName": "Dr. Delores Leatha Haag V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 458
+            "FieldLength": 801
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "sed",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Leopold Friesen",
+    "FullName": "Mr. Ladarius Margarita Skiles II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 238
       }
     }
   }

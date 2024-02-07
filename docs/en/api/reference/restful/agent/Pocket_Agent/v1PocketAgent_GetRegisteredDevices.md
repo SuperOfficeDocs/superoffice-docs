@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 513
+  "AssociateId": 977
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Gislason-Hane",
-    "DeviceIdentifier": "eligendi",
-    "PocketVersion": "est",
-    "Language": "ea",
-    "PNSHandle": "quia",
+    "DeviceName": "Kertzmann, Yundt and Weber",
+    "DeviceIdentifier": "similique",
+    "PocketVersion": "qui",
+    "Language": "culpa",
+    "PNSHandle": "magni",
     "Platform": "Apple",
-    "OSVersion": "sint",
-    "TimeZoneId": 703
+    "OSVersion": "nostrum",
+    "TimeZoneId": 548
   }
 ]
 ```

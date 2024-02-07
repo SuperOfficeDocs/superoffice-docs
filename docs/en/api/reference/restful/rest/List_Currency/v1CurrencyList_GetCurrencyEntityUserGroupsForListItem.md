@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Schoen-Hirthe",
-    "ToolTip": "At sed nam aut odio.",
-    "Deleted": true,
-    "Rank": 936,
-    "Type": "vero",
-    "ColorBlock": 103,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2018-07-25T23:04:05.4230012+02:00",
+    "Id": 780,
+    "Name": "Abernathy, Johnson and Morar",
+    "ToolTip": "Nesciunt fugit in iure dolorem.",
+    "Deleted": false,
+    "Rank": 653,
+    "Type": "molestias",
+    "ColorBlock": 301,
+    "IconHint": "aliquam",
+    "Selected": true,
+    "LastChanged": "2000-12-15T16:55:30.6323022+01:00",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Barton Group",
-        "ToolTip": "Animi magnam eligendi explicabo autem cumque iure.",
-        "Deleted": true,
-        "Rank": 470,
-        "Type": "omnis",
-        "ColorBlock": 432,
-        "IconHint": "culpa",
+        "Id": 882,
+        "Name": "O'Conner, Bradtke and Murphy",
+        "ToolTip": "Aut voluptatem aut.",
+        "Deleted": false,
+        "Rank": 864,
+        "Type": "ut",
+        "ColorBlock": 7,
+        "IconHint": "asperiores",
         "Selected": true,
-        "LastChanged": "2009-06-03T23:04:05.4230012+02:00",
+        "LastChanged": "2010-07-19T16:55:30.6323022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "consequuntur",
-        "Hidden": false,
-        "FullName": "Prof. Terence Homenick PhD",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Mrs. Brycen Bogisich IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 309
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Dr. Elisha Michelle Hagenes III",
+    "FullName": "Caroline McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 689
       }
     }
   }

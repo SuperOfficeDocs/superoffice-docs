@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "optio",
-    "ValueType": "consectetur",
+    "DefaultShowInSelector": true,
+    "IsActive": true,
+    "Key": "quis",
+    "ValueType": "facere",
     "Mandatory": false,
-    "EncodedDisplayName": "Kertzmann Group",
-    "EncodedDisplayDescription": "Self-enabling logistical parallelism",
-    "IconHint": "ut",
+    "EncodedDisplayName": "McLaughlin-Denesik",
+    "EncodedDisplayDescription": "Innovative bifurcated success",
+    "IconHint": "quasi",
     "ControlInfos": [
       {
-        "Type": "molestiae",
-        "Label": "mollitia",
-        "Dimension": 630,
-        "ListProviderName": "Thompson-Windler",
-        "ListProviderExtraInfo": "velit",
-        "ListProviderPrimaryKeyName": "Russel, Gibson and Deckow",
-        "ListLeadText": "nulla",
+        "Type": "natus",
+        "Label": "enim",
+        "Dimension": 460,
+        "ListProviderName": "Hilpert-Buckridge",
+        "ListProviderExtraInfo": "soluta",
+        "ListProviderPrimaryKeyName": "Lueilwitz, Johnson and Pfeffer",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 280
+            "FieldLength": 240
           }
         }
       }
     ],
-    "EncodedDataCaption": "sit",
-    "EncodedDataCaptionDescription": "Extended composite support",
-    "CurrentOperationType": "ex",
+    "EncodedDataCaption": "fugiat",
+    "EncodedDataCaptionDescription": "Profound optimizing hub",
+    "CurrentOperationType": "inventore",
     "Values": [
-      "sequi",
-      "quia"
+      "eum",
+      "id"
     ],
     "DisplayValues": [
-      "est",
-      "ducimus"
+      "autem",
+      "officiis"
     ],
     "OperationInfos": [
       {
-        "Key": "soluta",
-        "EncodedDisplayName": "Jones-O'Reilly",
+        "Key": "sit",
+        "EncodedDisplayName": "Raynor-Cassin",
         "EncodedLeadTexts": [
-          "unde",
-          "aliquam"
+          "eligendi",
+          "quis"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 619
+            "FieldType": "System.Int32",
+            "FieldLength": 703
           }
         }
       },
       {
-        "Key": "soluta",
-        "EncodedDisplayName": "Jones-O'Reilly",
+        "Key": "sit",
+        "EncodedDisplayName": "Raynor-Cassin",
         "EncodedLeadTexts": [
-          "unde",
-          "aliquam"
+          "eligendi",
+          "quis"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 619
+            "FieldType": "System.Int32",
+            "FieldLength": 703
           }
         }
       }

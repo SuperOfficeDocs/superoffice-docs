@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Howell LLC",
-  "Columns": "velit",
-  "SortOrder": "quas",
-  "Restriction": "occaecati",
-  "Entities": "amet",
-  "Page": 521,
-  "PageSize": 555,
-  "Options": "animi"
+  "ProviderName": "Daugherty-Weimann",
+  "Columns": "nemo",
+  "SortOrder": "eligendi",
+  "Restriction": "aut",
+  "Entities": "praesentium",
+  "Page": 942,
+  "PageSize": 465,
+  "Options": "magni"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 644,
+  "RowCount": 566,
   "Rows": [
     {
-      "EntityName": "Schaefer Inc and Sons",
-      "PrimaryKey": 227,
+      "EntityName": "Rutherford-Osinski",
+      "PrimaryKey": 584,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "neque",
-          "TooltipHint": "magni",
-          "LinkHint": "non"
+          "DisplayValue": "dolor",
+          "TooltipHint": "inventore",
+          "LinkHint": "laudantium"
         }
       },
-      "LinkHint": "delectus",
-      "StyleHint": "quaerat",
+      "LinkHint": "rerum",
+      "StyleHint": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldType": "System.Int32",
+          "FieldLength": 352
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

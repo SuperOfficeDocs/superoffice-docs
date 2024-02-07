@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=vitae
+GET /api/v1/List/SaleType/MDOItems?query=placeat
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Wisozk Inc and Sons",
-    "ToolTip": "Ut quo modi est.",
+    "Id": 370,
+    "Name": "Walker-Upton",
+    "ToolTip": "Voluptatibus dolorem dicta.",
     "Deleted": false,
-    "Rank": 565,
-    "Type": "necessitatibus",
+    "Rank": 492,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Cremin, Stanton and Wiegand",
-        "ToolTip": "Enim aut est ut omnis est ad consectetur.",
+        "Id": 582,
+        "Name": "Mosciski, Maggio and Von",
+        "ToolTip": "Sed necessitatibus aut exercitationem perspiciatis optio.",
         "Deleted": false,
-        "Rank": 505,
-        "Type": "repellendus",
+        "Rank": 703,
+        "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "excepturi",
-        "ColorBlock": 989,
-        "ExtraInfo": "dolores",
-        "StyleHint": "ut",
-        "FullName": "Ms. Toni Langworth",
+        "IconHint": "recusandae",
+        "ColorBlock": 23,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "quo",
+        "FullName": "Trey Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldType": "System.String",
+            "FieldLength": 844
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 255,
-    "ExtraInfo": "illum",
-    "StyleHint": "atque",
-    "FullName": "Brenda Huel",
+    "IconHint": "dignissimos",
+    "ColorBlock": 597,
+    "ExtraInfo": "suscipit",
+    "StyleHint": "aut",
+    "FullName": "Jena Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 684
       }
     }
   }

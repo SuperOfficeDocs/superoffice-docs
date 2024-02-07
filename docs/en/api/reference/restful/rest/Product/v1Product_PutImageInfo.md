@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 429,
-  "BlobSize": 335,
-  "Description": "Decentralized homogeneous structure",
-  "ExtraInfo": "sit",
-  "IsEncrypted": false,
+  "BlobId": 880,
+  "BlobSize": 121,
+  "Description": "Synergized actuating orchestration",
+  "ExtraInfo": "atque",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quam",
-  "OriginalSize": 558,
-  "CreatedDate": "2018-04-12T23:04:05.0900053+02:00",
-  "UpdatedDate": "2016-07-01T23:04:05.0900053+02:00",
+  "MimeType": "modi",
+  "OriginalSize": 298,
+  "CreatedDate": "1999-08-20T16:55:30.3780057+02:00",
+  "UpdatedDate": "2015-01-22T16:55:30.3780057+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sit"
+  "ConceptualType": "placeat"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 994,
-  "BlobSize": 968,
-  "Description": "Digitized discrete software",
-  "ExtraInfo": "possimus",
-  "IsEncrypted": false,
+  "BlobId": 581,
+  "BlobSize": 148,
+  "Description": "Managed well-modulated capacity",
+  "ExtraInfo": "iste",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "eos",
-  "OriginalSize": 422,
-  "CreatedDate": "2014-03-12T23:04:05.0915057+01:00",
-  "UpdatedDate": "1997-01-17T23:04:05.0915057+01:00",
+  "MimeType": "iusto",
+  "OriginalSize": 784,
+  "CreatedDate": "2007-05-08T16:55:30.3800051+02:00",
+  "UpdatedDate": "2013-01-06T16:55:30.3800051+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam",
+  "ConceptualType": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldType": "System.Int32",
+      "FieldLength": 425
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 808,
-  "UniqueIdentifier": "atque",
-  "Name": "Boyer LLC",
-  "Description": "Fully-configurable 3rd generation website",
-  "IncludeId": "dolorem",
-  "HierarchyId": 689,
-  "Source": "eum",
-  "Registered": "2004-04-28T23:04:04.0655195+02:00",
-  "RegisteredAssociateId": 557,
-  "Updated": "2020-12-21T23:04:04.0655195+01:00",
-  "UpdatedAssociateId": 517,
+  "EjscriptId": 403,
+  "UniqueIdentifier": "assumenda",
+  "Name": "Schaden-Rohan",
+  "Description": "Switchable executive utilisation",
+  "IncludeId": "quia",
+  "HierarchyId": 306,
+  "Source": "unde",
+  "Registered": "2009-06-20T16:55:29.5278315+02:00",
+  "RegisteredAssociateId": 362,
+  "Updated": "2003-11-23T16:55:29.5278315+01:00",
+  "UpdatedAssociateId": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldType": "System.Int32",
+      "FieldLength": 595
     }
   }
 }

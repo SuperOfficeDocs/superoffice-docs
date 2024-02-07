@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 42,
-  "Name": "Kertzmann-Carroll",
-  "AssociateId": 192,
-  "DetailsTable": 879,
-  "DetailsRecord": 609,
+  "Id": 8,
+  "Name": "Mraz, Schumm and Hickle",
+  "AssociateId": 190,
+  "DetailsTable": 862,
+  "DetailsRecord": 305,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "amet",
-    "ParameterObject2": "deleniti"
+    "ParameterObject1": "rerum",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2013-10-22T23:03:56.1296273+02:00",
-  "Created": "2021-04-08T23:03:56.1296273+02:00",
-  "StartCount": 386,
-  "DatabaseSerialNumber": "74980",
-  "Context": "quibusdam",
-  "Result": "architecto",
+  "LastStarted": "2018-04-04T16:54:55.4964643+02:00",
+  "Created": "1998-06-10T16:54:55.4964643+02:00",
+  "StartCount": 960,
+  "DatabaseSerialNumber": "961432",
+  "Context": "nihil",
+  "Result": "quisquam",
   "State": "All",
-  "Description": "Intuitive interactive internet solution",
-  "Response": "nihil",
-  "Request": "harum",
-  "ProgressDescription": "Re-engineered reciprocal task-force",
-  "ProgressPercent": 320,
-  "FileName": "Bednar Inc and Sons",
+  "Description": "Self-enabling reciprocal software",
+  "Response": "quis",
+  "Request": "necessitatibus",
+  "ProgressDescription": "Polarised radical architecture",
+  "ProgressPercent": 224,
+  "FileName": "Ledner, Spinka and Wisoky",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "laudantium",
-    "a"
+    "qui",
+    "voluptas"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 639,
+    "LanguageId": 477,
     "ResourceId": 45,
-    "Text": "et",
+    "Text": "expedita",
     "Type": "Column",
-    "LocalizedTextId": 921,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 919,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldType": "System.Int32",
+        "FieldLength": 228
       }
     }
   }

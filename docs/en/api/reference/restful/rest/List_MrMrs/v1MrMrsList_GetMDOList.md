@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=qui
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=dicta
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Russel, McClure and Lowe",
-    "ToolTip": "Autem doloribus dicta in culpa possimus qui placeat.",
+    "Id": 690,
+    "Name": "Luettgen-Mosciski",
+    "ToolTip": "Qui voluptatibus ex voluptas fugit omnis.",
     "Deleted": true,
-    "Rank": 971,
-    "Type": "iusto",
+    "Rank": 220,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Rodriguez Inc and Sons",
-        "ToolTip": "Ab repudiandae pariatur sit aut ut.",
+        "Id": 995,
+        "Name": "Sauer LLC",
+        "ToolTip": "Voluptatem dignissimos in corporis nulla.",
         "Deleted": false,
-        "Rank": 678,
-        "Type": "adipisci",
+        "Rank": 743,
+        "Type": "commodi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 906,
-        "ExtraInfo": "sunt",
-        "StyleHint": "facere",
-        "FullName": "Lisa Wisoky",
+        "IconHint": "nulla",
+        "ColorBlock": 719,
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "sed",
+        "FullName": "Kian Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 106
+            "FieldLength": 254
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 438,
-    "ExtraInfo": "qui",
-    "StyleHint": "minus",
-    "FullName": "Alexie Romaguera IV",
+    "IconHint": "repudiandae",
+    "ColorBlock": 956,
+    "ExtraInfo": "rerum",
+    "StyleHint": "qui",
+    "FullName": "Cory Lowe V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldType": "System.String",
+        "FieldLength": 56
       }
     }
   }

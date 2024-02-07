@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wolf Group",
-  "AdditionalInfo": "sed",
-  "SearchValue": "vitae"
+  "Name": "Tillman Group",
+  "AdditionalInfo": "fugit",
+  "SearchValue": "velit"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Hamill-Bashirian",
-    "ToolTip": "Quod sed repellat perspiciatis rerum nihil ut perspiciatis.",
+    "Id": 466,
+    "Name": "Fisher-Moore",
+    "ToolTip": "Sit est quia eos natus eos ipsam.",
     "Deleted": false,
-    "Rank": 513,
-    "Type": "neque",
-    "ColorBlock": 506,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2009-11-19T23:03:56.3481239+01:00",
+    "Rank": 55,
+    "Type": "explicabo",
+    "ColorBlock": 866,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2002-01-20T16:54:55.66551+01:00",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Jewess Group",
-        "ToolTip": "Provident et voluptatem fugit commodi corrupti.",
-        "Deleted": false,
-        "Rank": 384,
-        "Type": "repudiandae",
-        "ColorBlock": 636,
-        "IconHint": "ipsam",
+        "Id": 194,
+        "Name": "Hegmann-Turner",
+        "ToolTip": "Est voluptatem minus sit iusto voluptas quia.",
+        "Deleted": true,
+        "Rank": 723,
+        "Type": "laudantium",
+        "ColorBlock": 529,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2016-02-19T23:03:56.3481239+01:00",
+        "LastChanged": "2007-09-11T16:54:55.66551+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "laudantium",
-        "Hidden": true,
-        "FullName": "Giovani Powlowski",
+        "ExtraInfo": "iste",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Travis Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldType": "System.String",
+            "FieldLength": 324
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Fiona Bartell",
+    "FullName": "Danial Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldType": "System.String",
+        "FieldLength": 611
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Berge-Nolan",
-    "ToolTip": "Dolorem voluptatem ex doloribus ipsum.",
-    "Deleted": true,
-    "Rank": 758,
-    "Type": "voluptatem",
-    "ColorBlock": 151,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2017-03-15T23:04:05.8054971+01:00",
+    "Id": 833,
+    "Name": "Wolff-Feil",
+    "ToolTip": "Esse possimus omnis dolores.",
+    "Deleted": false,
+    "Rank": 416,
+    "Type": "et",
+    "ColorBlock": 101,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "2000-05-04T16:55:31.0701884+02:00",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Fisher, Trantow and Feil",
-        "ToolTip": "Itaque soluta eos velit eligendi accusamus ut voluptatum.",
+        "Id": 729,
+        "Name": "Strosin Group",
+        "ToolTip": "Nulla numquam et incidunt libero consectetur porro ratione.",
         "Deleted": false,
-        "Rank": 870,
-        "Type": "nam",
-        "ColorBlock": 885,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2003-02-04T23:04:05.8054971+01:00",
+        "Rank": 919,
+        "Type": "est",
+        "ColorBlock": 70,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2013-01-20T16:55:31.0701884+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "qui",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Adrien Reilly PhD",
+        "FullName": "Eldora Jerde DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 51
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Julius Stokes",
+    "ExtraInfo": "est",
+    "StyleHint": "veritatis",
+    "Hidden": false,
+    "FullName": "Prof. Adelbert Haley DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldType": "System.Int32",
+        "FieldLength": 686
       }
     }
   }

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    360,
-    937
+    889,
+    242
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 503,
-    "Name": "Jenkins LLC",
-    "ToolTip": "Suscipit ex consequatur perferendis sed ea et.",
-    "Deleted": false,
-    "Rank": 500,
-    "Type": "sequi",
+    "Id": 602,
+    "Name": "Wilderman LLC",
+    "ToolTip": "Provident porro nihil quis ea.",
+    "Deleted": true,
+    "Rank": 530,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Harvey, VonRueden and Toy",
-        "ToolTip": "Enim et quia.",
+        "Id": 874,
+        "Name": "Stehr-Raynor",
+        "ToolTip": "Consectetur et accusantium.",
         "Deleted": false,
-        "Rank": 910,
-        "Type": "error",
+        "Rank": 190,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 880,
-        "ExtraInfo": "et",
-        "StyleHint": "eveniet",
-        "FullName": "Mr. Jameson Batz",
+        "IconHint": "inventore",
+        "ColorBlock": 299,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "omnis",
+        "FullName": "Zander Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 184
+            "FieldLength": 133
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 930,
-    "ExtraInfo": "quas",
-    "StyleHint": "et",
-    "FullName": "Kim Renner",
+    "IconHint": "aliquam",
+    "ColorBlock": 434,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "blanditiis",
+    "FullName": "Gail Marta Carter I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 349
       }
     }
   }

@@ -2,7 +2,7 @@
 uid: importnewpositionitem
 title: importnewpositionitem
 keywords: mdoprovider mdo provider importnewpositionitem
-description: Import position items: Add to list, set to blank
+description: Import position items - Add to list, set to blank
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

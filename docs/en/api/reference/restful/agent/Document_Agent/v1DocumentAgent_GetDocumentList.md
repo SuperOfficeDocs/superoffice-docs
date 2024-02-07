@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 42,
-    "Attention": "et",
-    "Header": "dolore",
-    "Name": "Dietrich-Morissette",
-    "OurRef": "cupiditate",
-    "YourRef": "sed",
-    "Description": "Organized local Graphical User Interface",
-    "DocumentTemplate": "quod",
+    "DocumentId": 345,
+    "Attention": "numquam",
+    "Header": "tenetur",
+    "Name": "Schuster Group",
+    "OurRef": "nesciunt",
+    "YourRef": "quia",
+    "Description": "Optimized disintermediate secured line",
+    "DocumentTemplate": "aut",
     "IsPublished": false,
-    "PersonId": 900,
-    "PersonFullName": "Matilde Hermiston",
-    "AssociateFullName": "Lacy Champlin",
-    "ContactId": 874,
-    "ContactName": "Macejkovic-Mraz",
-    "ProjectId": 481,
-    "ProjectName": "Murray Group",
-    "AssociateId": 36,
-    "Snum": 753,
-    "SaleId": 877,
-    "SaleName": "Lemke, Ullrich and Wunsch",
+    "PersonId": 593,
+    "PersonFullName": "Marion Prosacco",
+    "AssociateFullName": "Zita Huel I",
+    "ContactId": 534,
+    "ContactName": "Brekke Group",
+    "ProjectId": 805,
+    "ProjectName": "Kohler-Skiles",
+    "AssociateId": 872,
+    "Snum": 891,
+    "SaleId": 678,
+    "SaleName": "Lynch, Kohler and Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 556
       }
     }
   }

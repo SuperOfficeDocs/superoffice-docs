@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 39,
+  "ProjectEntityId": 309,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 127,
-      "ContactId": 395,
-      "ProjectId": 403,
-      "ContactName": "Parisian, Beer and Lowe",
+      "ProjectmemberId": 897,
+      "ContactId": 804,
+      "ProjectId": 544,
+      "ContactName": "Dicki LLC",
       "ContactDepartment": "",
-      "ProjectName": "Pfannerstill-Romaguera",
-      "EmailId": 563,
-      "EmailAddress": "bryon@turner.co.uk",
-      "CountryId": 300,
-      "Firstname": "Rebeca",
-      "MiddleName": "Harvey LLC",
-      "Lastname": "Kshlerin",
-      "PersonId": 697,
-      "Mrmrs": "deserunt",
-      "ProjectMemberTypeName": "Dibbert, Toy and Halvorson",
-      "Phone": "782-276-1274 x25549",
-      "PhoneId": 253,
-      "ProjectMemberTypeId": 221,
-      "EmailAddressName": "elda@ankunding.name",
-      "Comment": "similique",
-      "FullName": "Buck Herzog"
+      "ProjectName": "Mayert LLC",
+      "EmailId": 888,
+      "EmailAddress": "lorenza_hauck@kreiger.name",
+      "CountryId": 93,
+      "Firstname": "Verona",
+      "MiddleName": "Konopelski Group",
+      "Lastname": "Ritchie",
+      "PersonId": 166,
+      "Mrmrs": "illo",
+      "ProjectMemberTypeName": "Lakin Inc and Sons",
+      "Phone": "994.475.4228 x08567",
+      "PhoneId": 578,
+      "ProjectMemberTypeId": 563,
+      "EmailAddressName": "lydia.kulas@botsford.com",
+      "Comment": "consequuntur",
+      "FullName": "Ms. Angel Heber Carroll"
     }
   ]
 }

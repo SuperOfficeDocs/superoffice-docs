@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Hackett, Rogahn and Farrell",
-    "ToolTip": "Sed voluptas.",
-    "Deleted": false,
-    "Rank": 425,
-    "Type": "laborum",
-    "ColorBlock": 124,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2011-05-17T23:04:05.5969982+02:00",
+    "Id": 980,
+    "Name": "Welch-Keeling",
+    "ToolTip": "Vitae asperiores vero quos magni.",
+    "Deleted": true,
+    "Rank": 542,
+    "Type": "et",
+    "ColorBlock": 736,
+    "IconHint": "beatae",
+    "Selected": true,
+    "LastChanged": "2019-06-09T16:55:30.7861989+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Wisozk LLC",
-        "ToolTip": "Quos et culpa et magnam molestiae.",
+        "Id": 6,
+        "Name": "Crist Inc and Sons",
+        "ToolTip": "Est quia eos nesciunt corporis est.",
         "Deleted": true,
-        "Rank": 326,
-        "Type": "et",
-        "ColorBlock": 777,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2003-07-29T23:04:05.5969982+02:00",
+        "Rank": 817,
+        "Type": "sit",
+        "ColorBlock": 786,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2002-03-16T16:55:30.7871988+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Prof. Makayla Wilton Johnston",
+        "ExtraInfo": "et",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Miss Claud Patsy Reynolds DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 898
+            "FieldType": "System.Int32",
+            "FieldLength": 431
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Dr. Rafaela O'Reilly",
+    "ExtraInfo": "qui",
+    "StyleHint": "consectetur",
+    "Hidden": false,
+    "FullName": "Kale Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 251
       }
     }
   }

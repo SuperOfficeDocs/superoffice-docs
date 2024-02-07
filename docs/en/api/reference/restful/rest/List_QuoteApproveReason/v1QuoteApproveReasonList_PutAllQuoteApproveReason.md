@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Glover Inc and Sons",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "UdListDefinitionId": 517,
-    "Rank": 641
+    "Id": 642,
+    "Name": "Grant, Murray and McLaughlin",
+    "Tooltip": "at",
+    "Deleted": true,
+    "UdListDefinitionId": 1001,
+    "Rank": 604
   },
   {
-    "Id": 556,
-    "Name": "Glover Inc and Sons",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "UdListDefinitionId": 517,
-    "Rank": 641
+    "Id": 642,
+    "Name": "Grant, Murray and McLaughlin",
+    "Tooltip": "at",
+    "Deleted": true,
+    "UdListDefinitionId": 1001,
+    "Rank": 604
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 854,
-    "Name": "Brekke Inc and Sons",
-    "Tooltip": "possimus",
+    "Id": 550,
+    "Name": "King, McGlynn and Murphy",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 124,
-    "Rank": 984,
+    "UdListDefinitionId": 626,
+    "Rank": 44,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 405
       }
     }
   }

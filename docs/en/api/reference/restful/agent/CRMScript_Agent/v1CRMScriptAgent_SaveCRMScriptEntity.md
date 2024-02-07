@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 877,
-  "UniqueIdentifier": "id",
-  "Name": "Stamm-Medhurst",
-  "Description": "Adaptive asynchronous secured line",
-  "IncludeId": "sapiente",
-  "HierarchyId": 367,
-  "Source": "voluptatem",
-  "Registered": "2008-07-25T23:03:55.5696352+02:00",
-  "RegisteredAssociateId": 854,
-  "Updated": "2004-12-04T23:03:55.5696352+01:00",
-  "UpdatedAssociateId": 410
+  "EjscriptId": 319,
+  "UniqueIdentifier": "numquam",
+  "Name": "Rohan, Murray and Terry",
+  "Description": "Realigned radical conglomeration",
+  "IncludeId": "quibusdam",
+  "HierarchyId": 873,
+  "Source": "sit",
+  "Registered": "2006-05-05T16:54:55.0572741+02:00",
+  "RegisteredAssociateId": 607,
+  "Updated": "2012-07-03T16:54:55.0572741+02:00",
+  "UpdatedAssociateId": 205
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 749,
-  "UniqueIdentifier": "molestiae",
-  "Name": "Wehner, Langosh and Heathcote",
-  "Description": "Reverse-engineered fresh-thinking budgetary management",
-  "IncludeId": "aut",
-  "HierarchyId": 334,
-  "Source": "eum",
-  "Registered": "2007-11-12T23:03:55.5696352+01:00",
-  "RegisteredAssociateId": 959,
-  "Updated": "2021-05-07T23:03:55.5696352+02:00",
-  "UpdatedAssociateId": 410,
+  "EjscriptId": 346,
+  "UniqueIdentifier": "doloribus",
+  "Name": "O'Kon-Schowalter",
+  "Description": "Assimilated optimal hierarchy",
+  "IncludeId": "eos",
+  "HierarchyId": 374,
+  "Source": "dolore",
+  "Registered": "2000-11-02T16:54:55.0572741+01:00",
+  "RegisteredAssociateId": 150,
+  "Updated": "2007-09-02T16:54:55.0572741+02:00",
+  "UpdatedAssociateId": 622,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 957
     }
   }
 }

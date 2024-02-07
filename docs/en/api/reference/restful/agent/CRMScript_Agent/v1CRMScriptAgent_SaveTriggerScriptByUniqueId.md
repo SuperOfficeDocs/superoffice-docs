@@ -92,7 +92,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "fugit",
+  "TriggerScriptUniqueId": "est",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 342,
-  "Name": "Schamberger-Predovic",
+  "ScreenChooserId": 418,
+  "Name": "Streich Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "a",
-  "Source": "amet",
-  "Registered": "1999-03-05T23:03:55.588634+01:00",
-  "RegisteredAssociateId": 723,
-  "Updated": "2002-11-28T23:03:55.588634+01:00",
-  "UpdatedAssociateId": 919,
+  "Enabled": true,
+  "UniqueIdentifier": "ab",
+  "Source": "qui",
+  "Registered": "2006-10-05T16:54:55.0712705+02:00",
+  "RegisteredAssociateId": 873,
+  "Updated": "2006-08-05T16:54:55.0712705+02:00",
+  "UpdatedAssociateId": 418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 482
     }
   }
 }

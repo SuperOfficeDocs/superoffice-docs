@@ -2,9 +2,7 @@
 uid: selection_freetextsearch
 title: selection_freetextsearch
 keywords: mdoprovider mdo provider selection_freetextsearch
-description: Provider for selecting a Selection.
-Does keyword matching and scoring across multiple
-string fields. Checks name, description, soundex fields.
+description: Provider for selecting a Selection. Does keyword matching and scoring across multiple string fields. Checks name, description, soundex fields.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -17,9 +15,11 @@ string fields. Checks name, description, soundex fields.
 
 User's own selections, recently added + modified selections, selections modified or created by user.
 Matches on word boundaries or at start of field are scored extra highly.
-<para />
+
+
 Returns selection items only: Id = selection-id, Name = Selection name, Type = "Selection", IconHint="deleted_item", ExtraInfo= static/dynamic
-<para />
+
+
 Completed/Done selections are marked with stylehint = "deleted_item" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SelectionListFreetextSearchProvider">SelectionListFreetextSearchProvider</see> class.

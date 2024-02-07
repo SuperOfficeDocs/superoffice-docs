@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 338,
-  "AssociateId": 478,
-  "Comment": "esse"
+  "QuoteVersionId": 714,
+  "AssociateId": 262,
+  "Comment": "facilis"
 }
 ```
 
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "sit",
-  "TechExplanation": "perferendis",
-  "ErrorCode": "beatae",
+  "UserExplanation": "corporis",
+  "TechExplanation": "quas",
+  "ErrorCode": "tempora",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

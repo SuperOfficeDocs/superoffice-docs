@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hilpert, Parisian and Boehm",
-  "ForceFlatList": true,
-  "AdditionalInfo": "corrupti",
+  "Name": "Block-Ankunding",
+  "ForceFlatList": false,
+  "AdditionalInfo": "est",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Kling, Hansen and Block",
-    "ToolTip": "Assumenda aut dolor ab sed a mollitia harum.",
-    "Deleted": true,
-    "Rank": 908,
-    "Type": "est",
+    "Id": 375,
+    "Name": "Breitenberg, Durgan and Sauer",
+    "ToolTip": "Esse quis architecto vitae sed.",
+    "Deleted": false,
+    "Rank": 888,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Kilback, Collins and Wisozk",
-        "ToolTip": "Tempore quasi velit omnis qui.",
-        "Deleted": false,
-        "Rank": 594,
-        "Type": "dolore",
+        "Id": 667,
+        "Name": "Bechtelar-Zemlak",
+        "ToolTip": "Laudantium blanditiis pariatur.",
+        "Deleted": true,
+        "Rank": 28,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 985,
-        "ExtraInfo": "corporis",
-        "StyleHint": "minima",
-        "FullName": "Ms. Josie Otho Morar Sr.",
+        "IconHint": "dolorem",
+        "ColorBlock": 543,
+        "ExtraInfo": "tenetur",
+        "StyleHint": "iusto",
+        "FullName": "Mrs. Erika Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldLength": 538
           }
         }
       }
     ],
-    "IconHint": "dicta",
-    "ColorBlock": 83,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "commodi",
-    "FullName": "Jarvis Wilkinson III",
+    "IconHint": "ipsum",
+    "ColorBlock": 221,
+    "ExtraInfo": "debitis",
+    "StyleHint": "sed",
+    "FullName": "Earlene Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldType": "System.String",
+        "FieldLength": 538
       }
     }
   }

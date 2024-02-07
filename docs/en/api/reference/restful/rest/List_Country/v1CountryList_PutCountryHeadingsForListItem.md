@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Tromp LLC",
-    "ToolTip": "Autem aspernatur.",
-    "Deleted": true,
-    "Rank": 243,
-    "Type": "voluptatem",
-    "ColorBlock": 633,
-    "IconHint": "et",
+    "Id": 579,
+    "Name": "Hagenes Inc and Sons",
+    "ToolTip": "Illo et dolorem.",
+    "Deleted": false,
+    "Rank": 778,
+    "Type": "aut",
+    "ColorBlock": 266,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2001-02-12T23:04:05.3949982+01:00",
+    "LastChanged": "2003-05-23T16:55:30.6092155+02:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Nicolas, Hintz and Torp",
-        "ToolTip": "Explicabo sit omnis.",
-        "Deleted": false,
-        "Rank": 190,
-        "Type": "error",
-        "ColorBlock": 404,
-        "IconHint": "expedita",
-        "Selected": false,
-        "LastChanged": "2012-11-09T23:04:05.3949982+01:00",
+        "Id": 555,
+        "Name": "Nader LLC",
+        "ToolTip": "Aut autem.",
+        "Deleted": true,
+        "Rank": 486,
+        "Type": "occaecati",
+        "ColorBlock": 380,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2018-07-20T16:55:30.6092155+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "alias",
+        "ExtraInfo": "facere",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Liana Collier"
+        "FullName": "Dario Rohan"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptatibus",
-    "Hidden": true,
-    "FullName": "Kari Gibson"
+    "ExtraInfo": "dicta",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Prof. Whitney Upton DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 588,
-    "Name": "Schamberger LLC",
-    "ToolTip": "Unde ratione voluptatibus sit corporis eos qui occaecati.",
+    "Id": 875,
+    "Name": "Corwin-Schimmel",
+    "ToolTip": "Nulla occaecati deserunt sint minus eveniet.",
     "Deleted": true,
-    "Rank": 827,
-    "Type": "libero",
-    "ColorBlock": 31,
-    "IconHint": "pariatur",
-    "Selected": true,
-    "LastChanged": "2009-10-31T23:04:05.3965005+01:00",
+    "Rank": 370,
+    "Type": "est",
+    "ColorBlock": 645,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2022-09-17T16:55:30.6102345+02:00",
     "ChildItems": [
       {
-        "Id": 645,
-        "Name": "Lemke-Nader",
-        "ToolTip": "Provident reiciendis incidunt alias qui est tenetur quam.",
-        "Deleted": false,
-        "Rank": 133,
-        "Type": "voluptatem",
-        "ColorBlock": 816,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2011-11-07T23:04:05.3965005+01:00",
+        "Id": 662,
+        "Name": "Swift, Jenkins and Mante",
+        "ToolTip": "Nostrum asperiores voluptate maiores quam cupiditate neque.",
+        "Deleted": true,
+        "Rank": 83,
+        "Type": "illo",
+        "ColorBlock": 43,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2016-10-08T16:55:30.6102345+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
+        "ExtraInfo": "voluptatem",
         "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Baron Crona",
+        "FullName": "Maegan Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 807
+            "FieldLength": 304
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Oleta Purdy",
+    "ExtraInfo": "qui",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Omer Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 676
       }
     }
   }

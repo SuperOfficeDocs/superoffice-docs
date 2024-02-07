@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Adams-Reichert",
-  "DeviceName": "Runolfsson Group",
-  "DeviceIdentifier": "dolor"
+  "ApplicationName": "Lubowitz, Lowe and Schaefer",
+  "DeviceName": "Beer Inc and Sons",
+  "DeviceIdentifier": "quia"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 219,
-  "Name": "Harvey, Grady and Walter",
-  "CreatedDate": "1997-03-18T23:03:56.1106269+01:00",
-  "UpdatedDate": "2014-11-22T23:03:56.1106269+01:00",
-  "AssociateFullName": "Yolanda Stoltenberg",
-  "CreatedBy": "repudiandae",
-  "UpdatedBy": "ipsam",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 276,
+  "ForeignDeviceId": 288,
+  "Name": "Abshire-Hintz",
+  "CreatedDate": "2007-12-24T16:54:55.4814681+01:00",
+  "UpdatedDate": "1999-12-17T16:54:55.4814681+01:00",
+  "AssociateFullName": "Jermey Corwin",
+  "CreatedBy": "aspernatur",
+  "UpdatedBy": "culpa",
+  "DeviceIdentifier": "veritatis",
+  "ForeignAppId": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 741
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   }
 }

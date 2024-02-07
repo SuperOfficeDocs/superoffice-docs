@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 856,
-  "Name": "Franecki LLC",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "Rank": 126,
-  "UdListDefinitionId": 246
+  "HeadingId": 828,
+  "Name": "Carter, Nader and Hettinger",
+  "Tooltip": "laudantium",
+  "Deleted": true,
+  "Rank": 60,
+  "UdListDefinitionId": 465
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 435,
-  "Name": "Prosacco-Cassin",
-  "Tooltip": "dolore",
+  "HeadingId": 859,
+  "Name": "Runolfsson-Kris",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 864,
-  "UdListDefinitionId": 185,
+  "Rank": 795,
+  "UdListDefinitionId": 29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldLength": 230
     }
   }
 }

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "et",
+  "FieldLabel": "accusamus",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 292,
-  "ColumnId": 560,
-  "FieldDefault": "et",
-  "FieldHeight": 927,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 738,
-  "FieldTop": 580,
+  "UDefFieldId": 384,
+  "ColumnId": 383,
+  "FieldDefault": "alias",
+  "FieldHeight": 751,
+  "FieldLabel": "nihil",
+  "FieldLeft": 865,
+  "FieldTop": 504,
   "FieldType": "Checkbox",
-  "FieldWidth": 966,
-  "FormatMask": "qui",
+  "FieldWidth": 49,
+  "FormatMask": "laudantium",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 928,
-  "LabelLeft": 426,
-  "LabelTop": 224,
-  "LabelWidth": 688,
-  "LastVersionId": 276,
-  "ListTableId": 678,
+  "IsIndexed": true,
+  "LabelHeight": 898,
+  "LabelLeft": 305,
+  "LabelTop": 565,
+  "LabelWidth": 379,
+  "LastVersionId": 100,
+  "ListTableId": 287,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 264,
-  "ProgId": "eum",
+  "Page1LineNo": 39,
+  "ProgId": "veniam",
   "IsReadOnly": false,
-  "ShortLabel": "eos",
-  "TabOrder": 957,
-  "TextLength": 62,
-  "Tooltip": "est",
-  "UdefIdentity": 792,
-  "UDListDefinitionId": 331,
+  "ShortLabel": "doloremque",
+  "TabOrder": 145,
+  "TextLength": 495,
+  "Tooltip": "rerum",
+  "UdefIdentity": 496,
+  "UDListDefinitionId": 648,
   "Justification": "Center",
-  "Version": 303,
-  "TemplateVariableName": "Fisher-Kris",
+  "Version": 210,
+  "TemplateVariableName": "Weissnat-Smitham",
   "HasBeenPublished": true,
-  "MdoListName": "Bernier-Hodkiewicz",
+  "MdoListName": "Douglas-Hoeger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 233
     }
   }
 }

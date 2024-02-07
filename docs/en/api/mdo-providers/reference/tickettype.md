@@ -2,7 +2,7 @@
 uid: tickettype
 title: tickettype
 keywords: mdoprovider mdo provider tickettype
-description: TicketTypeProvider creates a flat list based on the table: TICKET_TYPE
+description: TicketTypeProvider creates a flat list based on the table - TICKET_TYPE
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

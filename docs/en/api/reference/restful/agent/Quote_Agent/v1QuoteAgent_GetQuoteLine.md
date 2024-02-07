@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 211
+  "QuoteLineId": 753
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 691,
-  "ERPQuoteLineKey": "a",
-  "QuoteAlternativeId": 818,
-  "ERPProductKey": "ipsa",
+  "QuoteLineId": 587,
+  "ERPQuoteLineKey": "vitae",
+  "QuoteAlternativeId": 512,
+  "ERPProductKey": "ut",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18174.066,
-  "DeliveredQuantity": 13012.368,
-  "Rank": 144,
-  "Name": "Fahey, Davis and Steuber",
-  "Description": "Public-key intangible capacity",
-  "Code": "sequi",
-  "QuantityUnit": "consequatur",
-  "PriceUnit": "soluta",
-  "ItemNumber": "880676",
+  "Quantity": 4287.312,
+  "DeliveredQuantity": 16306.202,
+  "Rank": 839,
+  "Name": "McCullough, Goldner and Auer",
+  "Description": "Assimilated bi-directional matrix",
+  "Code": "voluptas",
+  "QuantityUnit": "sapiente",
+  "PriceUnit": "blanditiis",
+  "ItemNumber": "1058234",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "unde",
-  "ProductTypeKey": "qui",
-  "Supplier": "beatae",
-  "SupplierCode": "non",
-  "Thumbnail": "eum",
-  "VATInfo": "qui",
-  "VAT": 21496.106,
-  "UnitCost": 5167.9659999999994,
-  "UnitMinimumPrice": 2751.652,
-  "UnitListPrice": 13081.315999999999,
+  "ProductFamilyKey": "id",
+  "ProductTypeKey": "ullam",
+  "Supplier": "nisi",
+  "SupplierCode": "et",
+  "Thumbnail": "est",
+  "VATInfo": "quaerat",
+  "VAT": 28694.904,
+  "UnitCost": 9038.456,
+  "UnitMinimumPrice": 12905.812,
+  "UnitListPrice": 30976.456,
   "ExtraInfo": [
     {
-      "Name": "Schumm, Herzog and Rogahn",
-      "Value": "rerum",
+      "Name": "Abshire Inc and Sons",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldType": "System.Int32",
+          "FieldLength": 799
         }
       }
     },
     {
-      "Name": "Schumm, Herzog and Rogahn",
-      "Value": "rerum",
+      "Name": "Abshire Inc and Sons",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldType": "System.Int32",
+          "FieldLength": 799
         }
       }
     }
   ],
-  "RawExtraInfo": "aperiam",
+  "RawExtraInfo": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "vero",
-  "SubscriptionQuantity": 235.04999999999998,
-  "SubscriptionStart": "2001-06-02T23:03:56.8056188+02:00",
-  "ERPDiscountPercent": 30349.656,
-  "ERPDiscountAmount": 29255.89,
-  "DiscountPercent": 22176.183999999997,
-  "DiscountAmount": 7985.432,
+  "SubscriptionUnit": "ipsum",
+  "SubscriptionQuantity": 22395.564,
+  "SubscriptionStart": "2005-01-15T16:54:56.1619709+01:00",
+  "ERPDiscountPercent": 12915.214,
+  "ERPDiscountAmount": 24623.838,
+  "DiscountPercent": 23492.464,
+  "DiscountAmount": 11529.985999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 9423.938,
-  "EarningAmount": 17180.588,
-  "SubTotal": 1632.8139999999999,
-  "TotalPrice": 2930.29,
-  "Rights": "enim",
-  "Rule": "rerum",
-  "ExtraField1": "repellendus",
-  "ExtraField2": "quod",
-  "ExtraField3": "eum",
-  "ExtraField4": "atque",
-  "ExtraField5": "ab",
+  "EarningPercent": 10232.51,
+  "EarningAmount": 7634.424,
+  "SubTotal": 14353.72,
+  "TotalPrice": 29763.597999999998,
+  "Rights": "placeat",
+  "Rule": "voluptatem",
+  "ExtraField1": "velit",
+  "ExtraField2": "facilis",
+  "ExtraField3": "odio",
+  "ExtraField4": "eaque",
+  "ExtraField5": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 468
     }
   }
 }

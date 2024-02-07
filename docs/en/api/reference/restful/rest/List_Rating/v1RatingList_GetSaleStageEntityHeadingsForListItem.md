@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Wisozk-Collins",
-    "ToolTip": "Sapiente vitae dicta quo rerum culpa dolorem repellendus.",
+    "Id": 732,
+    "Name": "Leannon Inc and Sons",
+    "ToolTip": "Qui maiores esse consequatur quam dolores et.",
     "Deleted": false,
-    "Rank": 351,
-    "Type": "repellat",
-    "ColorBlock": 564,
-    "IconHint": "commodi",
-    "Selected": false,
-    "LastChanged": "2016-02-06T23:04:05.7324984+01:00",
+    "Rank": 995,
+    "Type": "sed",
+    "ColorBlock": 715,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2003-04-17T16:55:31.005186+02:00",
     "ChildItems": [
       {
-        "Id": 542,
-        "Name": "McCullough-Lind",
-        "ToolTip": "Veritatis et blanditiis necessitatibus cumque non.",
+        "Id": 365,
+        "Name": "Stanton-Lesch",
+        "ToolTip": "Quis perferendis eum reprehenderit reprehenderit incidunt cupiditate dolorem.",
         "Deleted": false,
-        "Rank": 106,
-        "Type": "voluptates",
-        "ColorBlock": 986,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2007-02-27T23:04:05.7334967+01:00",
+        "Rank": 754,
+        "Type": "aperiam",
+        "ColorBlock": 202,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "2018-01-20T16:55:31.005186+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "laborum",
+        "ExtraInfo": "nam",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Miss Emelia Herman",
+        "FullName": "Cornell Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 350
+            "FieldLength": 846
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Fidel Terry",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Ulises Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 531
       }
     }
   }

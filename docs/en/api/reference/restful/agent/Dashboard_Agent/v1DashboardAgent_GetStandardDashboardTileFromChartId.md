@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "repudiandae"
+  "ChartId": "sunt"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 346,
-  "Caption": "modi",
-  "Description": "Sharable regional array",
-  "ChartName": "Corwin-Roob",
-  "ChartId": "nulla",
+  "DashboardTileId": 967,
+  "Caption": "quia",
+  "Description": "Re-contextualized value-added projection",
+  "ChartName": "Will Group",
+  "ChartId": "suscipit",
   "IsDefault": false,
-  "AssociateId": 964,
-  "GroupId": 417,
-  "SelectionId": 524,
-  "Config": "odit",
+  "AssociateId": 682,
+  "GroupId": 931,
+  "SelectionId": 206,
+  "Config": "saepe",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "McClure-Morar",
-      "Description": "De-engineered zero tolerance circuit",
+      "Name": "Shanahan, Nitzsche and Hirthe",
+      "Description": "Right-sized client-server attitude",
       "Type": "Boolean",
-      "ListName": "Fisher-Krajcik",
+      "ListName": "Collins, Wyman and Wiegand",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ullam",
+      "Value": "minima",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 133
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 834,
+      "VisibleId": 401,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 196
         }
       }
     },
     {
-      "VisibleId": 834,
+      "VisibleId": 401,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 196
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 229
+      "FieldType": "System.Int32",
+      "FieldLength": 588
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Heidenreich-Wolff",
-    "ToolTip": "Pariatur est.",
+    "Id": 414,
+    "Name": "Zulauf Inc and Sons",
+    "ToolTip": "Unde consequatur molestias vitae earum aperiam.",
     "Deleted": false,
-    "Rank": 22,
-    "Type": "veritatis",
-    "ColorBlock": 163,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "2003-11-16T23:04:05.5574992+01:00",
+    "Rank": 44,
+    "Type": "culpa",
+    "ColorBlock": 350,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2017-04-24T16:55:30.7571922+02:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "Runte-Torphy",
-        "ToolTip": "Atque in.",
+        "Id": 843,
+        "Name": "Effertz Inc and Sons",
+        "ToolTip": "Odit id eaque placeat eos minima.",
         "Deleted": true,
-        "Rank": 577,
-        "Type": "fuga",
-        "ColorBlock": 912,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2015-03-22T23:04:05.5579988+01:00",
+        "Rank": 632,
+        "Type": "consequatur",
+        "ColorBlock": 735,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2003-09-06T16:55:30.7571922+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "aut",
+        "ExtraInfo": "sit",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Ashlynn Rosenbaum",
+        "FullName": "Sabryna Emard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldType": "System.String",
+            "FieldLength": 704
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "quia",
+    "ExtraInfo": "non",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Narciso Treutel PhD",
+    "FullName": "Aimee Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldType": "System.Int32",
+        "FieldLength": 892
       }
     }
   }

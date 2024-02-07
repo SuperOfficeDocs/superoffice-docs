@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "nemo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "suscipit",
+    "path": "nemo",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 645,
-  "Name": "Romaguera, Sanford and Wolff",
-  "Config": "est",
-  "Rank": 916,
-  "Client": "voluptatem",
-  "Style": "aut",
+  "DashboardThemeId": 901,
+  "Name": "Marquardt, Wolff and Kirlin",
+  "Config": "ut",
+  "Rank": 994,
+  "Client": "consequatur",
+  "Style": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldType": "System.String",
+      "FieldLength": 318
     }
   },
   "_Links": {

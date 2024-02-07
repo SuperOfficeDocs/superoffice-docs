@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "hic",
-      "ValueType": "eos",
-      "Mandatory": false,
-      "EncodedDisplayName": "Oberbrunner-Rodriguez",
-      "EncodedDisplayDescription": "Progressive client-driven concept",
-      "IconHint": "nulla",
+      "Key": "qui",
+      "ValueType": "ut",
+      "Mandatory": true,
+      "EncodedDisplayName": "Bernier Inc and Sons",
+      "EncodedDisplayDescription": "Synergized full-range pricing structure",
+      "IconHint": "distinctio",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "sapiente",
-      "EncodedDataCaptionDescription": "Centralized static open architecture",
-      "CurrentOperationType": "dolorem",
+      "EncodedDataCaption": "fugiat",
+      "EncodedDataCaptionDescription": "Decentralized multi-state frame",
+      "CurrentOperationType": "ea",
       "Values": [
-        "et",
-        "eos"
+        "alias",
+        "et"
       ],
       "DisplayValues": [
-        "dolorem",
-        "in"
+        "ducimus",
+        "quos"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Cruickshank, Murphy and Schroeder",
-  "Context": "ut",
-  "Ids": "quis"
+  "TableName": "Corkery, Murazik and Dooley",
+  "Context": "eveniet",
+  "Ids": "dolore"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-683
+931
 ```

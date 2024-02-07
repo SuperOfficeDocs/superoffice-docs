@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 165
+  "UserGroupId": 313
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 742,
-    "ColumnId": 142,
-    "FieldDefault": "vitae",
-    "FieldHeight": 34,
-    "FieldLabel": "quia",
-    "FieldLeft": 204,
-    "FieldTop": 466,
+    "UDefFieldId": 528,
+    "ColumnId": 152,
+    "FieldDefault": "non",
+    "FieldHeight": 927,
+    "FieldLabel": "voluptatem",
+    "FieldLeft": 294,
+    "FieldTop": 155,
     "FieldType": "Checkbox",
-    "FieldWidth": 303,
-    "FormatMask": "voluptas",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 694,
-    "LabelLeft": 605,
-    "LabelTop": 996,
-    "LabelWidth": 487,
-    "LastVersionId": 529,
-    "ListTableId": 180,
+    "FieldWidth": 456,
+    "FormatMask": "magni",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 793,
+    "LabelLeft": 199,
+    "LabelTop": 803,
+    "LabelWidth": 849,
+    "LastVersionId": 672,
+    "ListTableId": 26,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 610,
-    "ProgId": "libero",
-    "IsReadOnly": true,
-    "ShortLabel": "harum",
-    "TabOrder": 777,
-    "TextLength": 443,
-    "Tooltip": "quis",
-    "UdefIdentity": 624,
-    "UDListDefinitionId": 102,
+    "Page1LineNo": 519,
+    "ProgId": "reiciendis",
+    "IsReadOnly": false,
+    "ShortLabel": "enim",
+    "TabOrder": 563,
+    "TextLength": 275,
+    "Tooltip": "officiis",
+    "UdefIdentity": 598,
+    "UDListDefinitionId": 946,
     "Justification": "Center",
-    "Version": 487,
-    "TemplateVariableName": "Dooley-Parker",
-    "HasBeenPublished": false,
-    "MdoListName": "Grimes, Eichmann and Hansen",
+    "Version": 449,
+    "TemplateVariableName": "Hermann-Gorczany",
+    "HasBeenPublished": true,
+    "MdoListName": "Reilly-Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldType": "System.Int32",
+        "FieldLength": 40
       }
     }
   }

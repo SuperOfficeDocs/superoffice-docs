@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
 
 
@@ -78,7 +78,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 867,
-    "Name": "Kutch, Shanahan and Stracke",
-    "Tooltip": "architecto",
-    "Rank": 665,
+    "SaleTypeId": 822,
+    "Name": "Will LLC",
+    "Tooltip": "mollitia",
+    "Rank": 9,
     "DurationUnit": "Century",
-    "SaleDuration": 693,
-    "SaleTypeCatId": 421,
+    "SaleDuration": 103,
+    "SaleTypeCatId": 519,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": false,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 988,
-    "QuoteLinesTemplate": 74,
-    "ConfirmationLinesTemplate": 427,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 409,
+    "QuoteLinesTemplate": 276,
+    "ConfirmationLinesTemplate": 162,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 245,
-    "MinEarningPercent": 878,
-    "GroupQuoteLinesBy": 667,
-    "SortGroupLinesBy": 52,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 56,
+    "MinEarningPercent": 573,
+    "GroupQuoteLinesBy": 208,
+    "SortGroupLinesBy": 346,
     "Stages": [
       {
-        "Id": 455,
-        "Name": "Friesen, Schumm and Prohaska",
-        "ToolTip": "Est sed sunt.",
+        "Id": 876,
+        "Name": "Douglas Group",
+        "ToolTip": "Hic fugit quasi eaque voluptas sit explicabo.",
         "Deleted": false,
-        "Rank": 397,
-        "Type": "delectus",
-        "ColorBlock": 794,
-        "IconHint": "doloremque",
+        "Rank": 674,
+        "Type": "quia",
+        "ColorBlock": 21,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "1998-12-13T23:04:05.7909953+01:00",
+        "LastChanged": "1997-04-11T16:55:31.0581841+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "in",
+        "ExtraInfo": "omnis",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mireille Wiegand",
+        "FullName": "Giovanny Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 748
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldType": "System.String",
+        "FieldLength": 662
       }
     }
   }

@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 484,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "iusto",
-  "Name": "Lehner, Dare and Farrell",
-  "Description": "Exclusive asynchronous focus group",
-  "Code": "optio",
-  "PriceUnit": "qui",
-  "QuantityUnit": "unde",
+  "ProductId": 756,
+  "ERPProductKey": "in",
+  "ERPPriceListKey": "animi",
+  "Name": "Schuster, Langworth and Conn",
+  "Description": "Mandatory assymetric challenge",
+  "Code": "quidem",
+  "PriceUnit": "modi",
+  "QuantityUnit": "voluptates",
   "IsSubscription": false,
-  "SubscriptionUnit": "iure",
-  "DefaultSubscriptionQuantity": 23821.534,
-  "ItemNumber": "688549",
+  "SubscriptionUnit": "ab",
+  "DefaultSubscriptionQuantity": 28654.162,
+  "ItemNumber": "741920",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laboriosam",
-  "ProductTypeKey": "repellat",
-  "VAT": 8809.6739999999991,
-  "VATInfo": "odio",
-  "UnitCost": 28347.03,
-  "UnitMinimumPrice": 5553.4479999999994,
-  "UnitListPrice": 24467.138,
+  "ProductFamilyKey": "hic",
+  "ProductTypeKey": "dolor",
+  "VAT": 2118.584,
+  "VATInfo": "dolores",
+  "UnitCost": 17343.556,
+  "UnitMinimumPrice": 7985.432,
+  "UnitListPrice": 16237.253999999999,
   "InAssortment": false,
-  "Supplier": "dolorem",
-  "SupplierCode": "deleniti",
-  "Rights": "in",
-  "Rule": "quos",
+  "Supplier": "unde",
+  "SupplierCode": "et",
+  "Rights": "dolores",
+  "Rule": "iure",
   "ExtraInfo": [
     {
-      "Name": "Blanda, Dare and McClure",
-      "Value": "numquam",
+      "Name": "Bins-Jakubowski",
+      "Value": "explicabo",
       "Type": "Image"
     },
     {
-      "Name": "Blanda, Dare and McClure",
-      "Value": "numquam",
+      "Name": "Bins-Jakubowski",
+      "Value": "explicabo",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "odit",
-  "ExtraField1": "velit",
-  "ExtraField2": "eligendi",
-  "ExtraField3": "quo",
-  "ExtraField4": "ullam",
-  "ExtraField5": "maiores",
-  "InStock": 11335.678
+  "RawExtraInfo": "ut",
+  "ExtraField1": "sit",
+  "ExtraField2": "voluptates",
+  "ExtraField3": "excepturi",
+  "ExtraField4": "possimus",
+  "ExtraField5": "dignissimos",
+  "InStock": 31083.012
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 498,
-  "ERPProductKey": "omnis",
-  "ERPPriceListKey": "quod",
-  "Name": "Greenholt LLC",
-  "Description": "Profound background emulation",
-  "Code": "voluptatem",
-  "PriceUnit": "minima",
-  "QuantityUnit": "velit",
+  "ProductId": 943,
+  "ERPProductKey": "debitis",
+  "ERPPriceListKey": "reprehenderit",
+  "Name": "Skiles Inc and Sons",
+  "Description": "Profound bandwidth-monitored database",
+  "Code": "ea",
+  "PriceUnit": "natus",
+  "QuantityUnit": "consequuntur",
   "IsSubscription": true,
-  "SubscriptionUnit": "occaecati",
-  "DefaultSubscriptionQuantity": 6766.306,
-  "ItemNumber": "858577",
+  "SubscriptionUnit": "sunt",
+  "DefaultSubscriptionQuantity": 12144.25,
+  "ItemNumber": "264813",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tenetur",
-  "ProductTypeKey": "ipsum",
-  "VAT": 28281.216,
-  "VATInfo": "aut",
-  "UnitCost": 7465.188,
-  "UnitMinimumPrice": 24727.26,
-  "UnitListPrice": 17403.102,
-  "InAssortment": true,
-  "Supplier": "aliquam",
-  "SupplierCode": "minima",
-  "Rights": "necessitatibus",
-  "Rule": "rerum",
+  "ProductFamilyKey": "totam",
+  "ProductTypeKey": "rerum",
+  "VAT": 1604.608,
+  "VATInfo": "eligendi",
+  "UnitCost": 2134.254,
+  "UnitMinimumPrice": 12169.322,
+  "UnitListPrice": 14663.985999999999,
+  "InAssortment": false,
+  "Supplier": "fuga",
+  "SupplierCode": "ipsam",
+  "Rights": "ipsa",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Bogan LLC",
-      "Value": "praesentium",
+      "Name": "Pouros, Torp and Bauch",
+      "Value": "debitis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 153
         }
       }
     },
     {
-      "Name": "Bogan LLC",
-      "Value": "praesentium",
+      "Name": "Pouros, Torp and Bauch",
+      "Value": "debitis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 153
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "beatae",
-  "ExtraField2": "deserunt",
-  "ExtraField3": "maxime",
-  "ExtraField4": "et",
-  "ExtraField5": "similique",
-  "InStock": 25943.252,
+  "RawExtraInfo": "ipsa",
+  "ExtraField1": "qui",
+  "ExtraField2": "reprehenderit",
+  "ExtraField3": "qui",
+  "ExtraField4": "fugiat",
+  "ExtraField5": "tempora",
+  "InStock": 19888.363999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 312
     }
   }
 }

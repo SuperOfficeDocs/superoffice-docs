@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 704,
-  "PrefDescId": 861,
-  "PrefValue": "animi",
-  "PrefShowValue": "vero",
-  "Description": "Multi-tiered 24/7 application",
-  "IsBuiltin": true,
+  "PrefDescLineId": 411,
+  "PrefDescId": 312,
+  "PrefValue": "est",
+  "PrefShowValue": "ad",
+  "Description": "Robust scalable capability",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldType": "System.String",
+      "FieldLength": 283
     }
   }
 }

@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Robel-Gutkowski",
+  "Name": "Fisher, Eichmann and Reilly",
   "AssociateIds": [
-    607,
-    217
+    890,
+    25
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 476,
-    "Name": "Rutherford Inc and Sons",
-    "AssociateId": 239,
-    "DetailsTable": 761,
-    "DetailsRecord": 636,
-    "IsSystemTask": false,
+    "Id": 585,
+    "Name": "Prosacco-Bahringer",
+    "AssociateId": 131,
+    "DetailsTable": 685,
+    "DetailsRecord": 127,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "fugit",
+      "ParameterObject1": "est",
       "ParameterObject2": "sit"
     },
-    "LastStarted": "2002-06-21T23:03:55.0236454+02:00",
-    "Created": "2020-09-02T23:03:55.0236454+02:00",
-    "StartCount": 470,
-    "DatabaseSerialNumber": "1152310",
-    "Context": "iure",
-    "Result": "occaecati",
+    "LastStarted": "2016-03-17T16:54:54.6043123+01:00",
+    "Created": "2016-05-27T16:54:54.6043123+02:00",
+    "StartCount": 135,
+    "DatabaseSerialNumber": "756583",
+    "Context": "placeat",
+    "Result": "dignissimos",
     "State": "All",
-    "Description": "Visionary holistic task-force",
-    "Response": "cupiditate",
-    "Request": "fugit",
-    "ProgressDescription": "Organized intermediate hub",
-    "ProgressPercent": 856,
-    "FileName": "Beer Inc and Sons",
+    "Description": "Sharable composite conglomeration",
+    "Response": "laboriosam",
+    "Request": "assumenda",
+    "ProgressDescription": "Profit-focused mission-critical help-desk",
+    "ProgressPercent": 465,
+    "FileName": "Beatty LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 917
       }
     }
   }

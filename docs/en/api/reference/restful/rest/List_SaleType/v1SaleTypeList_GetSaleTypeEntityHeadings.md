@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 443,
-    "Name": "Pfeffer, McGlynn and Raynor",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 287,
-    "UdListDefinitionId": 653,
+    "HeadingId": 491,
+    "Name": "Gerlach, Schultz and Ernser",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 898,
+    "UdListDefinitionId": 288,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldLength": 725
       }
     }
   }

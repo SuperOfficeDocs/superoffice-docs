@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mayer Group",
+  "Name": "Kassulke, Koelpin and Glover",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 318,
-  "Name": "McLaughlin-Kshlerin",
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "Rank": 714,
+  "Id": 126,
+  "Name": "Mueller-Shields",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 715,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "officia",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequuntur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 164
     }
   }
 }

@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfannerstill, Dach and Nienow",
-    "Description": "Innovative web-enabled projection",
+    "Name": "Gerlach, Witting and Bode",
+    "Description": "Visionary content-based archive",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 543,
-        "Tooltip": "nihil",
-        "CanAssign": true,
-        "Free": 177,
-        "InUse": 539,
+        "Total": 537,
+        "Tooltip": "ullam",
+        "CanAssign": false,
+        "Free": 810,
+        "InUse": 296,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 280,
-        "Name": "Yundt Group",
-        "Description": "Triple-buffered non-volatile customer loyalty",
-        "PrerequisiteModuleName": "Hirthe, Rempel and Keeling",
-        "SortOrder": 337,
-        "ExtraFlags": 953,
+        "Assigned": true,
+        "ModuleLicenseId": 515,
+        "Name": "Collier Inc and Sons",
+        "Description": "Implemented optimal attitude",
+        "PrerequisiteModuleName": "Funk-Kertzmann",
+        "SortOrder": 416,
+        "ExtraFlags": 461,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 368
+            "FieldType": "System.Int32",
+            "FieldLength": 651
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 680,
-        "Tooltip": "nostrum",
-        "CanAssign": true,
-        "Free": 845,
-        "InUse": 56,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 255,
+        "Tooltip": "ut",
+        "CanAssign": false,
+        "Free": 317,
+        "InUse": 579,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 298,
-        "Name": "Bruen, Tremblay and Armstrong",
-        "Description": "Cross-group modular data-warehouse",
-        "PrerequisiteModuleName": "Huel, Donnelly and Berge",
-        "SortOrder": 884,
-        "ExtraFlags": 421,
+        "ModuleLicenseId": 686,
+        "Name": "Collins Group",
+        "Description": "Sharable multimedia middleware",
+        "PrerequisiteModuleName": "Predovic, Pouros and Morissette",
+        "SortOrder": 626,
+        "ExtraFlags": 542,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 94
+            "FieldType": "System.Int32",
+            "FieldLength": 616
           }
         }
       }
@@ -139,62 +139,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldType": "System.String",
+        "FieldLength": 212
       }
     }
   },
   {
-    "Name": "Pfannerstill, Dach and Nienow",
-    "Description": "Innovative web-enabled projection",
+    "Name": "Gerlach, Witting and Bode",
+    "Description": "Visionary content-based archive",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 543,
-        "Tooltip": "nihil",
-        "CanAssign": true,
-        "Free": 177,
-        "InUse": 539,
+        "Total": 537,
+        "Tooltip": "ullam",
+        "CanAssign": false,
+        "Free": 810,
+        "InUse": 296,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 280,
-        "Name": "Yundt Group",
-        "Description": "Triple-buffered non-volatile customer loyalty",
-        "PrerequisiteModuleName": "Hirthe, Rempel and Keeling",
-        "SortOrder": 337,
-        "ExtraFlags": 953,
+        "Assigned": true,
+        "ModuleLicenseId": 515,
+        "Name": "Collier Inc and Sons",
+        "Description": "Implemented optimal attitude",
+        "PrerequisiteModuleName": "Funk-Kertzmann",
+        "SortOrder": 416,
+        "ExtraFlags": 461,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 368
+            "FieldType": "System.Int32",
+            "FieldLength": 651
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 680,
-        "Tooltip": "nostrum",
-        "CanAssign": true,
-        "Free": 845,
-        "InUse": 56,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 255,
+        "Tooltip": "ut",
+        "CanAssign": false,
+        "Free": 317,
+        "InUse": 579,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 298,
-        "Name": "Bruen, Tremblay and Armstrong",
-        "Description": "Cross-group modular data-warehouse",
-        "PrerequisiteModuleName": "Huel, Donnelly and Berge",
-        "SortOrder": 884,
-        "ExtraFlags": 421,
+        "ModuleLicenseId": 686,
+        "Name": "Collins Group",
+        "Description": "Sharable multimedia middleware",
+        "PrerequisiteModuleName": "Predovic, Pouros and Morissette",
+        "SortOrder": 626,
+        "ExtraFlags": 542,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 94
+            "FieldType": "System.Int32",
+            "FieldLength": 616
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldType": "System.String",
+        "FieldLength": 212
       }
     }
   }

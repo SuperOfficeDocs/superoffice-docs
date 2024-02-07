@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 296,
-  "Name": "Kuhn LLC",
-  "Tooltip": "enim",
-  "Deleted": false,
-  "Rank": 719,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "Id": 788,
+  "Name": "Batz-Flatley",
+  "Tooltip": "incidunt",
+  "Deleted": true,
+  "Rank": 181,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 435,
-  "Name": "Hansen, Hettinger and Jacobson",
-  "Tooltip": "nisi",
+  "Id": 842,
+  "Name": "Bruen-Zieme",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 609,
+  "Rank": 59,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 935
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

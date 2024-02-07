@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Franecki-Oberbrunner",
+  "TableName": "Dibbert, Hermann and Kertzmann",
   "IDs": [
-    657,
-    805
+    624,
+    534
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "iusto",
-  "Inserts": 778,
-  "Updates": 445,
-  "Deletes": 898,
+  "Message": "adipisci",
+  "Inserts": 109,
+  "Updates": 488,
+  "Deletes": 118,
   "RowStatus": [
     {
-      "PrimaryKey": 654,
+      "PrimaryKey": 570,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "hic",
-        "fugiat"
+        "provident",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 869
         }
       }
     },
     {
-      "PrimaryKey": 654,
+      "PrimaryKey": 570,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "hic",
-        "fugiat"
+        "provident",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 869
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   }
 }

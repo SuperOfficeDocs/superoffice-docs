@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 193,
-    "Name": "Howell-Beahan",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 785,
-    "UdListDefinitionId": 68,
+    "HeadingId": 535,
+    "Name": "Runte Group",
+    "Tooltip": "tempore",
+    "Deleted": true,
+    "Rank": 913,
+    "UdListDefinitionId": 331,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldLength": 781
       }
     }
   }

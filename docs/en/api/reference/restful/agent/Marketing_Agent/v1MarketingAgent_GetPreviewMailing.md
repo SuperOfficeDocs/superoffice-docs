@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 453
+  "ShipmentAddrId": 711
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2010-08-05T23:03:56.3301239+02:00",
+  "SendingTime": "2022-08-22T16:54:55.6519927+02:00",
   "Status": "Blocked",
   "ShipmentId": 522,
-  "ShipmentDescription": "User-centric optimal neural-net",
-  "FromAddress": "saepe",
-  "Configuration": 264,
-  "ContactId": 439,
-  "ContactName": "Konopelski Inc and Sons",
-  "PersonId": 504,
-  "PersonFullName": "Asia Hauck",
-  "ShipmentType": "voluptatem",
-  "MessageId": 807,
-  "MessageSubject": "velit",
-  "DocumentMessageId": 86,
-  "Opened": "2015-09-04T23:03:56.330626+02:00",
-  "LinkClicks": 441,
+  "ShipmentDescription": "Polarised mission-critical ability",
+  "FromAddress": "assumenda",
+  "Configuration": 473,
+  "ContactId": 637,
+  "ContactName": "Berge-Casper",
+  "PersonId": 695,
+  "PersonFullName": "Lucienne Daniel",
+  "ShipmentType": "recusandae",
+  "MessageId": 259,
+  "MessageSubject": "labore",
+  "DocumentMessageId": 252,
+  "Opened": "2014-07-04T16:54:55.6519927+02:00",
+  "LinkClicks": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   }
 }

@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 792,
-  "ColumnId": 588,
-  "FieldDefault": "non",
-  "FieldHeight": 573,
-  "FieldLabel": "facilis",
-  "FieldLeft": 423,
-  "FieldTop": 513,
+  "UDefFieldId": 510,
+  "ColumnId": 594,
+  "FieldDefault": "omnis",
+  "FieldHeight": 726,
+  "FieldLabel": "nesciunt",
+  "FieldLeft": 403,
+  "FieldTop": 105,
   "FieldType": "Checkbox",
-  "FieldWidth": 804,
-  "FormatMask": "magni",
-  "HideLabel": true,
+  "FieldWidth": 392,
+  "FormatMask": "neque",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 29,
-  "LabelLeft": 927,
-  "LabelTop": 322,
-  "LabelWidth": 212,
-  "LastVersionId": 452,
-  "ListTableId": 60,
-  "IsMandatory": true,
+  "LabelHeight": 364,
+  "LabelLeft": 776,
+  "LabelTop": 771,
+  "LabelWidth": 402,
+  "LastVersionId": 775,
+  "ListTableId": 473,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 342,
-  "ProgId": "consectetur",
+  "Page1LineNo": 1002,
+  "ProgId": "consequatur",
   "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 475,
-  "TextLength": 591,
-  "Tooltip": "molestias",
-  "UdefIdentity": 293,
-  "UDListDefinitionId": 245,
+  "ShortLabel": "omnis",
+  "TabOrder": 252,
+  "TextLength": 888,
+  "Tooltip": "deleniti",
+  "UdefIdentity": 550,
+  "UDListDefinitionId": 673,
   "Justification": "Center",
-  "Version": 719,
-  "TemplateVariableName": "Stamm Inc and Sons",
+  "Version": 300,
+  "TemplateVariableName": "Considine-Boyle",
   "HasBeenPublished": true,
-  "MdoListName": "Crooks-Stoltenberg",
+  "MdoListName": "Howe, Mayert and Kuhn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldLength": 208
     }
   }
 }

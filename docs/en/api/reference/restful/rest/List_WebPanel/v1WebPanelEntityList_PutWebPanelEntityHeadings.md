@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 49,
-    "Name": "Douglas, Okuneva and Littel",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "Rank": 683,
-    "UdListDefinitionId": 730
+    "HeadingId": 727,
+    "Name": "Ratke Inc and Sons",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "Rank": 998,
+    "UdListDefinitionId": 311
   },
   {
-    "HeadingId": 49,
-    "Name": "Douglas, Okuneva and Littel",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "Rank": 683,
-    "UdListDefinitionId": 730
+    "HeadingId": 727,
+    "Name": "Ratke Inc and Sons",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "Rank": 998,
+    "UdListDefinitionId": 311
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 770,
-    "Name": "Becker, Braun and Dickinson",
-    "Tooltip": "molestiae",
+    "HeadingId": 714,
+    "Name": "VonRueden-Price",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 581,
-    "UdListDefinitionId": 211,
+    "Rank": 58,
+    "UdListDefinitionId": 671,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldLength": 245
       }
     }
   }

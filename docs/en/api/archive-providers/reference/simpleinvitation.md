@@ -709,7 +709,7 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleInvitation?$select=contact/streetAddress/wgs84latitude,contact/LastDoByActivity,person/personExtra/x_person_longtext
+GET /api/v1/archive/SimpleInvitation?$select=contact/contactExtra/x_contact_hidden_integer,person/phone/formattedNumber,person/restrictionAddress/formattedAddress,project/projectUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

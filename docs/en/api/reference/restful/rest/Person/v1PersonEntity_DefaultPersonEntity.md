@@ -51,7 +51,7 @@ OK
 | Firstname | string | First name |
 | MiddleName | string | Middle name or 'van' etc. |
 | Lastname | string | Last name |
-| Mrmrs | string | e.g. Mrs   sex_title  <para>Use MDO List name "mrmrs" to get list items.</para> |
+| Mrmrs | string | e.g. Mrs   sex_title  Use MDO List name "mrmrs" to get list items. |
 | Title | string | Title |
 | UpdatedDate | date-time | Last updated date  in UTC. |
 | CreatedDate | date-time | Registered date  in UTC. |
@@ -65,11 +65,11 @@ OK
 | MobilePhones | array | Returns a collection of mobile phone numbers that belong to the contact person. |
 | OfficePhones | array | Returns a collection of office phone numbers that belong to the contact person. |
 | OtherPhones | array | Returns a collection of pagers that belong to the contact person. |
-| Position | Position | The position. This is a predefined SuperOffice value, different from Title  <para>Use MDO List name "perspos" to get list items.</para> |
+| Position | Position | The position. This is a predefined SuperOffice value, different from Title  Use MDO List name "perspos" to get list items. |
 | UpdatedBy | Associate | The person that last updated the person object |
-| Contact | Contact | The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.  <para>Use MDO List name "contact_new" to get list items.</para> |
-| Country | Country | The country this contact person is located in.  <para>Use MDO List name "country" to get list items.</para> |
-| Interests | array | The person's available and selected interests.  <para>Use MDO List name "persint" to get list items.</para> |
+| Contact | Contact | The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.  Use MDO List name "contact_new" to get list items. |
+| Country | Country | The country this contact person is located in.  Use MDO List name "country" to get list items. |
+| Interests | array | The person's available and selected interests.  Use MDO List name "persint" to get list items. |
 | PersonNumber | string | Alphanumeric user field |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | NoMailing | bool | Spam filter. Indicates if this person should retrieve advertising. |
@@ -84,14 +84,14 @@ OK
 | Kanalname | string | Kana last name, used in Japanese versions only |
 | Kanafname | string | Kana first name, used in Japanese versions only |
 | CorrespondingAssociate | Associate | The associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user). |
-| Category | Category | Person's category. Usually null. Refer to the Contact.Category instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank)  <para>Use MDO List name "category" to get list items.</para> |
-| Business | Business | Person's business - usually blank. Use Contact.Business instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank)  <para>Use MDO List name "business" to get list items.</para> |
-| Associate | Associate | The associate owning this person (similar to contact.Associate) - usually blank. Use the Person.Contact.Associate instead.  Intended for use when individual persons are created (i.e. when Person.Contact is blank)  <para>Use MDO List name "associate" to get list items.</para> |
-| Salutation | string | Academic title, populated from Salutation list but can be overwritten with anything at all  <para>Use MDO List name "salutation" to get list items.</para> |
+| Category | Category | Person's category. Usually null. Refer to the Contact.Category instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank)  Use MDO List name "category" to get list items. |
+| Business | Business | Person's business - usually blank. Use Contact.Business instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank)  Use MDO List name "business" to get list items. |
+| Associate | Associate | The associate owning this person (similar to contact.Associate) - usually blank. Use the Person.Contact.Associate instead.  Intended for use when individual persons are created (i.e. when Person.Contact is blank)  Use MDO List name "associate" to get list items. |
+| Salutation | string | Academic title, populated from Salutation list but can be overwritten with anything at all  Use MDO List name "salutation" to get list items. |
 | ActiveInterests | int32 | The number of active interests. |
-| SupportAssociate | Associate | <para>Use MDO List name "associate" to get list items.</para> |
-| TicketPriority | TicketPriority | <para>Use MDO List name "ticketpriority" to get list items.</para> |
-| CustomerLanguage | CustomerLanguage | <para>Use MDO List name "customerlanguage" to get list items.</para> |
+| SupportAssociate | Associate | Use MDO List name "associate" to get list items. |
+| TicketPriority | TicketPriority | Use MDO List name "ticketpriority" to get list items. |
+| CustomerLanguage | CustomerLanguage | Use MDO List name "customerlanguage" to get list items. |
 | DbiAgentId | int32 | Integration agent (eJournal) |
 | DbiKey | string | The primary key for the integrated entry in the external datasource. |
 | DbiLastModified | date-time | When the entry was last modified. |
@@ -109,7 +109,7 @@ OK
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for person |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.PersonEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.PersonEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Person/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -127,185 +127,185 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 12 Jul 2019 23:04:04 G7T
+Last-Modified: Sat, 09 May 1998 16:55:29 G5T
 
 {
-  "PersonId": 736,
-  "Firstname": "Lizeth",
-  "MiddleName": "Walter, Zieme and Schaden",
-  "Lastname": "Hintz",
-  "Mrmrs": "corrupti",
-  "Title": "a",
-  "UpdatedDate": "2019-07-12T23:04:04.2510167+02:00",
-  "CreatedDate": "2003-09-08T23:04:04.2510167+02:00",
-  "BirthDate": "2009-03-24T23:04:04.2510167+01:00",
+  "PersonId": 785,
+  "Firstname": "Kianna",
+  "MiddleName": "Herzog, Botsford and Heidenreich",
+  "Lastname": "Wolf",
+  "Mrmrs": "accusantium",
+  "Title": "et",
+  "UpdatedDate": "1998-05-09T16:55:29.7909957+02:00",
+  "CreatedDate": "2011-08-18T16:55:29.7909957+02:00",
+  "BirthDate": "1998-08-19T16:55:29.7909957+02:00",
   "CreatedBy": null,
   "Emails": [
     {
-      "Value": "hic",
-      "StrippedValue": "ipsum",
-      "Description": "Future-proofed secondary pricing structure",
+      "Value": "magni",
+      "StrippedValue": "repellat",
+      "Description": "Re-contextualized high-level ability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 893
+          "FieldType": "System.String",
+          "FieldLength": 259
         }
       }
     },
     {
-      "Value": "hic",
-      "StrippedValue": "ipsum",
-      "Description": "Future-proofed secondary pricing structure",
+      "Value": "magni",
+      "StrippedValue": "repellat",
+      "Description": "Re-contextualized high-level ability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 893
+          "FieldType": "System.String",
+          "FieldLength": 259
         }
       }
     }
   ],
-  "Description": "Cross-group interactive service-desk",
+  "Description": "Vision-oriented zero tolerance alliance",
   "IsAssociate": false,
   "PrivatePhones": [
     {
-      "Value": "et",
-      "StrippedValue": "nihil",
-      "Description": "Upgradable cohesive structure",
+      "Value": "at",
+      "StrippedValue": "explicabo",
+      "Description": "Re-engineered empowering moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 746
+          "FieldType": "System.Int32",
+          "FieldLength": 210
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "nihil",
-      "Description": "Upgradable cohesive structure",
+      "Value": "at",
+      "StrippedValue": "explicabo",
+      "Description": "Re-engineered empowering moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 746
+          "FieldType": "System.Int32",
+          "FieldLength": 210
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ratione",
-      "StrippedValue": "earum",
-      "Description": "Networked coherent conglomeration",
+      "Value": "in",
+      "StrippedValue": "quia",
+      "Description": "Ameliorated dedicated functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 61
         }
       }
     },
     {
-      "Value": "ratione",
-      "StrippedValue": "earum",
-      "Description": "Networked coherent conglomeration",
+      "Value": "in",
+      "StrippedValue": "quia",
+      "Description": "Ameliorated dedicated functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 61
         }
       }
     }
   ],
   "MobilePhones": [
     {
-      "Value": "iusto",
-      "StrippedValue": "dolores",
-      "Description": "Right-sized system-worthy challenge",
+      "Value": "voluptatem",
+      "StrippedValue": "hic",
+      "Description": "Ameliorated 4th generation moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldType": "System.Int32",
+          "FieldLength": 248
         }
       }
     },
     {
-      "Value": "iusto",
-      "StrippedValue": "dolores",
-      "Description": "Right-sized system-worthy challenge",
+      "Value": "voluptatem",
+      "StrippedValue": "hic",
+      "Description": "Ameliorated 4th generation moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldType": "System.Int32",
+          "FieldLength": 248
         }
       }
     }
   ],
   "OfficePhones": [
     {
-      "Value": "voluptate",
-      "StrippedValue": "est",
-      "Description": "Operative bi-directional strategy",
+      "Value": "enim",
+      "StrippedValue": "quos",
+      "Description": "Team-oriented homogeneous website",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 240
+          "FieldType": "System.Int32",
+          "FieldLength": 588
         }
       }
     },
     {
-      "Value": "voluptate",
-      "StrippedValue": "est",
-      "Description": "Operative bi-directional strategy",
+      "Value": "enim",
+      "StrippedValue": "quos",
+      "Description": "Team-oriented homogeneous website",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 240
+          "FieldType": "System.Int32",
+          "FieldLength": 588
         }
       }
     }
   ],
   "OtherPhones": [
     {
-      "Value": "voluptas",
-      "StrippedValue": "saepe",
-      "Description": "Fully-configurable even-keeled knowledge user",
+      "Value": "vero",
+      "StrippedValue": "earum",
+      "Description": "Synergized 24 hour flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     },
     {
-      "Value": "voluptas",
-      "StrippedValue": "saepe",
-      "Description": "Fully-configurable even-keeled knowledge user",
+      "Value": "vero",
+      "StrippedValue": "earum",
+      "Description": "Synergized 24 hour flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     }
@@ -316,228 +316,228 @@ Last-Modified: Fri, 12 Jul 2019 23:04:04 G7T
   "Country": null,
   "Interests": [
     {
-      "Id": 276,
-      "Name": "Feest Inc and Sons",
-      "ToolTip": "Doloremque corporis consequatur vel iusto.",
+      "Id": 686,
+      "Name": "Kemmer, Tremblay and Hermann",
+      "ToolTip": "Nam dolores fuga perferendis tempore.",
       "Deleted": false,
-      "Rank": 24,
-      "Type": "facilis",
-      "ColorBlock": 237,
-      "IconHint": "nemo",
+      "Rank": 62,
+      "Type": "impedit",
+      "ColorBlock": 485,
+      "IconHint": "ullam",
       "Selected": false,
-      "LastChanged": "2021-04-22T23:04:04.2530166+02:00",
+      "LastChanged": "2019-11-11T16:55:29.809012+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "enim",
+      "ExtraInfo": "inventore",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Thalia Hahn IV",
+      "FullName": "Dr. Elisha Walter",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 47
+        }
+      }
+    }
+  ],
+  "PersonNumber": "1168576",
+  "FullName": "Miss Freida Conrad Marvin IV",
+  "NoMailing": true,
+  "UsePersonAddress": false,
+  "Retired": false,
+  "Urls": [
+    {
+      "Value": "aliquam",
+      "StrippedValue": "magni",
+      "Description": "Expanded regional array",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 169
-        }
-      }
-    }
-  ],
-  "PersonNumber": "1662094",
-  "FullName": "Nina Hansen PhD",
-  "NoMailing": true,
-  "UsePersonAddress": true,
-  "Retired": false,
-  "Urls": [
-    {
-      "Value": "sed",
-      "StrippedValue": "id",
-      "Description": "User-friendly secondary circuit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldLength": 795
         }
       }
     },
     {
-      "Value": "sed",
-      "StrippedValue": "id",
-      "Description": "User-friendly secondary circuit",
+      "Value": "aliquam",
+      "StrippedValue": "magni",
+      "Description": "Expanded regional array",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldType": "System.String",
+          "FieldLength": 795
         }
       }
     }
   ],
-  "FormalName": "Klocko, Jewess and Haley",
+  "FormalName": "Stehr Group",
   "Address": null,
-  "Post3": "ipsum",
-  "Post2": "voluptatem",
-  "Post1": "odio",
-  "Kanalname": "vel",
-  "Kanafname": "dolores",
+  "Post3": "rerum",
+  "Post2": "at",
+  "Post1": "odit",
+  "Kanalname": "eveniet",
+  "Kanafname": "aperiam",
   "CorrespondingAssociate": null,
   "Category": null,
   "Business": null,
   "Associate": null,
-  "Salutation": "accusantium",
-  "ActiveInterests": 104,
+  "Salutation": "velit",
+  "ActiveInterests": 228,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "DbiAgentId": 726,
-  "DbiKey": "eos",
-  "DbiLastModified": "2016-08-20T23:04:04.2560159+02:00",
-  "DbiLastSyncronized": "2021-10-22T23:04:04.2560159+02:00",
-  "SentInfo": 30,
-  "ShowContactTickets": 503,
+  "DbiAgentId": 351,
+  "DbiKey": "vel",
+  "DbiLastModified": "2020-12-29T16:55:29.811011+01:00",
+  "DbiLastSyncronized": "1998-06-28T16:55:29.811011+02:00",
+  "SentInfo": 970,
+  "ShowContactTickets": 750,
   "UserInfo": null,
   "ChatEmails": [
     {
-      "Value": "cupiditate",
-      "StrippedValue": "libero",
-      "Description": "Adaptive bandwidth-monitored extranet",
+      "Value": "quod",
+      "StrippedValue": "occaecati",
+      "Description": "Realigned zero administration knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 878
+          "FieldType": "System.Int32",
+          "FieldLength": 791
         }
       }
     },
     {
-      "Value": "cupiditate",
-      "StrippedValue": "libero",
-      "Description": "Adaptive bandwidth-monitored extranet",
+      "Value": "quod",
+      "StrippedValue": "occaecati",
+      "Description": "Realigned zero administration knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 878
+          "FieldType": "System.Int32",
+          "FieldLength": 791
         }
       }
     }
   ],
   "InternetPhones": [
     {
-      "Value": "minus",
-      "StrippedValue": "illo",
-      "Description": "Persevering multimedia moderator",
+      "Value": "quae",
+      "StrippedValue": "pariatur",
+      "Description": "Fully-configurable leading edge flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     },
     {
-      "Value": "minus",
-      "StrippedValue": "illo",
-      "Description": "Persevering multimedia moderator",
+      "Value": "quae",
+      "StrippedValue": "pariatur",
+      "Description": "Fully-configurable leading edge flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
   ],
-  "Source": 819,
-  "ActiveErpLinks": 635,
+  "Source": 966,
+  "ActiveErpLinks": 709,
   "ShipmentTypes": [
     {
-      "Id": 206,
-      "Name": "Schroeder, Stiedemann and Price",
-      "ToolTip": "Quod est.",
+      "Id": 480,
+      "Name": "Bechtelar, Daugherty and Hills",
+      "ToolTip": "Recusandae qui quaerat.",
       "Deleted": false,
-      "Rank": 554,
-      "Type": "nulla",
-      "ColorBlock": 695,
-      "IconHint": "sed",
+      "Rank": 658,
+      "Type": "vitae",
+      "ColorBlock": 666,
+      "IconHint": "sit",
       "Selected": false,
-      "LastChanged": "2015-04-27T23:04:04.2565181+02:00",
+      "LastChanged": "2003-03-20T16:55:29.811011+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "culpa",
-      "Hidden": true,
-      "FullName": "Henry Cummerata",
+      "ExtraInfo": "molestiae",
+      "StyleHint": "aut",
+      "Hidden": false,
+      "FullName": "Fay Schulist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 337
         }
       }
     }
   ],
   "Consents": [
     {
-      "ConsentPersonId": 535,
-      "Comment": "nihil",
-      "Registered": "2003-12-20T23:04:04.2570176+01:00",
-      "RegisteredAssociateId": 928,
-      "Updated": "2004-07-25T23:04:04.2570176+02:00",
-      "UpdatedAssociateId": 920,
-      "LegalBaseId": 849,
-      "LegalBaseKey": "laborum",
-      "LegalBaseName": "Tremblay Inc and Sons",
-      "ConsentPurposeId": 638,
+      "ConsentPersonId": 208,
+      "Comment": "autem",
+      "Registered": "1996-10-18T16:55:29.8120187+02:00",
+      "RegisteredAssociateId": 828,
+      "Updated": "2013-09-18T16:55:29.8120187+02:00",
+      "UpdatedAssociateId": 499,
+      "LegalBaseId": 389,
+      "LegalBaseKey": "enim",
+      "LegalBaseName": "Donnelly-Okuneva",
+      "ConsentPurposeId": 336,
       "ConsentPurposeKey": "est",
-      "ConsentPurposeName": "Wehner, Rolfson and Frami",
-      "ConsentSourceId": 541,
-      "ConsentSourceKey": "distinctio",
-      "ConsentSourceName": "Hyatt Inc and Sons",
+      "ConsentPurposeName": "Fay, Aufderhar and Franecki",
+      "ConsentSourceId": 104,
+      "ConsentSourceKey": "cum",
+      "ConsentSourceName": "Funk-Predovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 905
+          "FieldLength": 197
         }
       }
     }
   ],
   "BounceEmails": [
-    "amir@stehr.com",
-    "zola.bashirian@zulauf.ca"
+    "russel.bins@yost.ca",
+    "alessandra@leuschkecartwright.us"
   ],
-  "ActiveStatusMonitorId": 313,
+  "ActiveStatusMonitorId": 533,
   "UserDefinedFields": {
-    "SuperOffice:1": "2017908608",
-    "SuperOffice:2": "Ezequiel Moen"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "delectus"
+    "ExtraFields1": "non",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "repellat"
+    "CustomFields1": "earum",
+    "CustomFields2": "voluptate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   }
 }

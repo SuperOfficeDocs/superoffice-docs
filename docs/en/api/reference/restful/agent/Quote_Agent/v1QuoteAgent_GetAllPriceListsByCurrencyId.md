@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 286,
-  "CurrencyId": 608
+  "QuoteConnectionId": 12,
+  "CurrencyId": 25
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 649,
-    "ERPPriceListKey": "quae",
-    "QuoteConnectionId": 952,
-    "Name": "Jacobi Inc and Sons",
-    "Description": "Focused homogeneous contingency",
-    "Currency": "laborum",
-    "CurrencyName": "Grant Group",
-    "ValidFrom": "2004-12-12T23:03:56.7831181+01:00",
-    "ValidTo": "2007-11-05T23:03:56.7831181+01:00",
-    "IsActive": true,
+    "PriceListId": 181,
+    "ERPPriceListKey": "ut",
+    "QuoteConnectionId": 470,
+    "Name": "Schuppe-Schuppe",
+    "Description": "Visionary national methodology",
+    "Currency": "quia",
+    "CurrencyName": "Jaskolski, Waters and VonRueden",
+    "ValidFrom": "1999-08-24T16:54:56.1431452+02:00",
+    "ValidTo": "2002-04-20T16:54:56.1431452+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 229
       }
     }
   }

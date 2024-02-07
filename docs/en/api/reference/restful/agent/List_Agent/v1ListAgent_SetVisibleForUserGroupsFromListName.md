@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ebert-Douglas",
-  "ListItemId": 174,
+  "UdListDefinitionName": "Goldner-Little",
+  "ListItemId": 160,
   "UserGroups": [
     {
-      "Id": 460,
-      "Name": "Ritchie-Dicki",
-      "ToolTip": "Quisquam ducimus rerum doloremque modi ut dolorem.",
+      "Id": 502,
+      "Name": "Cormier, Bergstrom and McCullough",
+      "ToolTip": "Recusandae consequatur ea quo.",
       "Deleted": false,
-      "Rank": 538,
-      "Type": "sunt",
-      "ColorBlock": 278,
-      "IconHint": "necessitatibus",
+      "Rank": 565,
+      "Type": "labore",
+      "ColorBlock": 713,
+      "IconHint": "quos",
       "Selected": true,
-      "LastChanged": "2017-06-20T23:03:56.2116229+02:00",
+      "LastChanged": "2002-05-09T16:54:55.5599838+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquid",
-      "StyleHint": "tempore",
-      "Hidden": false,
-      "FullName": "Osborne Emmerich"
+      "ExtraInfo": "error",
+      "StyleHint": "omnis",
+      "Hidden": true,
+      "FullName": "Brennan Schultz MD"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Thiel, Morissette and Swift",
-    "ToolTip": "Odit qui ipsa ullam vitae est alias.",
-    "Deleted": false,
-    "Rank": 143,
-    "Type": "ea",
-    "ColorBlock": 694,
-    "IconHint": "veniam",
+    "Id": 763,
+    "Name": "Fritsch-Lind",
+    "ToolTip": "Possimus soluta harum.",
+    "Deleted": true,
+    "Rank": 935,
+    "Type": "omnis",
+    "ColorBlock": 280,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2019-01-28T23:03:56.2126276+01:00",
+    "LastChanged": "2023-08-24T16:54:55.5609838+02:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Ondricka-Johnson",
-        "ToolTip": "Perspiciatis fuga sequi voluptas fuga quis enim dolorem.",
-        "Deleted": false,
-        "Rank": 652,
+        "Id": 196,
+        "Name": "Kuhn-Rolfson",
+        "ToolTip": "Molestiae non a facere ut.",
+        "Deleted": true,
+        "Rank": 674,
         "Type": "quia",
-        "ColorBlock": 689,
-        "IconHint": "et",
+        "ColorBlock": 535,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2014-02-11T23:03:56.2126276+01:00",
+        "LastChanged": "2015-05-30T16:54:55.5609838+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "provident",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Jayson Muller",
+        "FullName": "Dr. Perry Thurman Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 690
+            "FieldType": "System.Int32",
+            "FieldLength": 741
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Cristian Olson",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Kennith Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldType": "System.Int32",
+        "FieldLength": 605
       }
     }
   }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "Ebert, D'Amore and Rodriguez",
-  "Tooltip": "neque",
+  "Id": 955,
+  "Name": "Becker, Koepp and Hoeger",
+  "Tooltip": "ex",
   "Deleted": false,
-  "UdListDefinitionId": 559,
-  "Rank": 17
+  "UdListDefinitionId": 478,
+  "Rank": 876
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Turcotte, Shields and Homenick",
-  "Tooltip": "ipsa",
+  "Id": 684,
+  "Name": "Bernier-Wilderman",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 176,
-  "Rank": 754,
+  "UdListDefinitionId": 940,
+  "Rank": 97,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldLength": 231
     }
   }
 }

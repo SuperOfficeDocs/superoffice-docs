@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 856,
-    "Name": "Collier Group",
-    "Tooltip": "blanditiis",
+    "HeadingId": 255,
+    "Name": "Stanton, Hoeger and Grady",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 145,
-    "UdListDefinitionId": 190
+    "Rank": 903,
+    "UdListDefinitionId": 859
   },
   {
-    "HeadingId": 856,
-    "Name": "Collier Group",
-    "Tooltip": "blanditiis",
+    "HeadingId": 255,
+    "Name": "Stanton, Hoeger and Grady",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 145,
-    "UdListDefinitionId": 190
+    "Rank": 903,
+    "UdListDefinitionId": 859
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 151,
-    "Name": "Turcotte-Romaguera",
-    "Tooltip": "aliquid",
+    "HeadingId": 435,
+    "Name": "Renner, Jacobson and Connelly",
+    "Tooltip": "quam",
     "Deleted": true,
-    "Rank": 73,
-    "UdListDefinitionId": 300,
+    "Rank": 364,
+    "UdListDefinitionId": 589,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldLength": 406
       }
     }
   }

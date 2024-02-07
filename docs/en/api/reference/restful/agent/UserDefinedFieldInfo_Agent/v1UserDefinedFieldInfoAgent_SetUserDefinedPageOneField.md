@@ -72,9 +72,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UdefFieldId": 139,
-  "UserGroupId": 987,
-  "FieldLineNo": 71
+  "UdefFieldId": 923,
+  "UserGroupId": 535,
+  "FieldLineNo": 57
 }
 ```
 

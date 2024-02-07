@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Larkin, Schulist and Kris",
+  "ProviderName": "Gaylord, Lynch and Ebert",
   "Restrictions": [
     {
-      "Name": "Hamill, Simonis and Heidenreich",
-      "Operator": "mollitia",
+      "Name": "Little Inc and Sons",
+      "Operator": "aliquid",
       "Values": [
-        "est",
-        "rerum"
+        "asperiores",
+        "est"
       ],
       "DisplayValues": [
-        "aut",
-        "corrupti"
+        "aliquam",
+        "aspernatur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 442,
+      "InterParenthesis": 325,
       "InterOperator": "And",
-      "UniqueHash": 487
+      "UniqueHash": 653
     }
   ],
-  "AssociateId": 246
+  "AssociateId": 277
 }
 ```
 

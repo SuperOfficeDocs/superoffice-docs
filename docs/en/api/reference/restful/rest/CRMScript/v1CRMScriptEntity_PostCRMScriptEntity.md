@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 88,
-  "UniqueIdentifier": "est",
-  "Name": "Weber Inc and Sons",
-  "Description": "Sharable heuristic secured line",
-  "IncludeId": "qui",
-  "HierarchyId": 545,
-  "Source": "sit",
-  "Registered": "2000-04-29T23:04:04.0670187+02:00",
-  "RegisteredAssociateId": 90,
-  "Updated": "2001-07-15T23:04:04.0670187+02:00",
-  "UpdatedAssociateId": 443
+  "EjscriptId": 426,
+  "UniqueIdentifier": "libero",
+  "Name": "Hodkiewicz, Doyle and Gislason",
+  "Description": "Centralized multi-state application",
+  "IncludeId": "enim",
+  "HierarchyId": 810,
+  "Source": "odit",
+  "Registered": "2006-11-23T16:55:29.5288327+01:00",
+  "RegisteredAssociateId": 295,
+  "Updated": "2014-06-30T16:55:29.5288327+02:00",
+  "UpdatedAssociateId": 858
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 191,
-  "UniqueIdentifier": "facilis",
-  "Name": "Pollich Group",
-  "Description": "Configurable well-modulated time-frame",
-  "IncludeId": "et",
-  "HierarchyId": 673,
-  "Source": "modi",
-  "Registered": "2010-05-17T23:04:04.0670187+02:00",
-  "RegisteredAssociateId": 256,
-  "Updated": "2015-07-23T23:04:04.0670187+02:00",
-  "UpdatedAssociateId": 67,
+  "EjscriptId": 35,
+  "UniqueIdentifier": "dolores",
+  "Name": "Rath, Price and Gutkowski",
+  "Description": "Quality-focused multi-tasking service-desk",
+  "IncludeId": "molestias",
+  "HierarchyId": 413,
+  "Source": "qui",
+  "Registered": "2011-01-27T16:55:29.5288327+01:00",
+  "RegisteredAssociateId": 633,
+  "Updated": "2006-11-25T16:55:29.5288327+01:00",
+  "UpdatedAssociateId": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldType": "System.Int32",
+      "FieldLength": 430
     }
   },
   "_Links": {

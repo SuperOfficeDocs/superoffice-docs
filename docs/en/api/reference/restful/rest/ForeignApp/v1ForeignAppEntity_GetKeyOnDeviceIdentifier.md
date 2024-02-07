@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Aug 2021 23:04:04 G8T
+Last-Modified: Wed, 25 Sep 2019 16:55:29 G9T
 
 {
-  "Key": "tempora",
-  "Value": "cumque",
-  "RecordId": 611,
-  "CreatedDate": "2005-12-18T23:04:04.2280165+01:00",
-  "UpdatedDate": "2021-08-26T23:04:04.2280165+02:00",
-  "UpdatedBy": "cumque",
-  "CreatedBy": "et",
-  "TableName": "Hermann-Walsh",
+  "Key": "enim",
+  "Value": "dolorum",
+  "RecordId": 631,
+  "CreatedDate": "2009-05-21T16:55:29.6555447+02:00",
+  "UpdatedDate": "2019-09-25T16:55:29.6555447+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "quos",
+  "TableName": "Gleason-Marks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 827
     }
   }
 }

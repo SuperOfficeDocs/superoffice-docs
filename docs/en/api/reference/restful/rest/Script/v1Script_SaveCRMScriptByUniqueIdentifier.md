@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "qui",
-  "Name": "Feeney Inc and Sons",
-  "Description": "Reactive multimedia analyzer",
-  "IncludeId": "quis",
-  "Source": "et",
-  "Registered": "1997-02-11T23:04:05.1435042+01:00",
-  "RegisteredBy": "dicta",
-  "Updated": "2017-10-12T23:04:05.1435042+02:00",
-  "UpdatedBy": "praesentium",
-  "Path": "dolores"
+  "UniqueIdentifier": "aut",
+  "Name": "Simonis-Kuhlman",
+  "Description": "Customer-focused grid-enabled capacity",
+  "IncludeId": "iure",
+  "Source": "saepe",
+  "Registered": "2009-11-30T16:55:30.4131485+01:00",
+  "RegisteredBy": "nisi",
+  "Updated": "2007-02-28T16:55:30.4131485+01:00",
+  "UpdatedBy": "ad",
+  "Path": "fugit"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptatem",
-  "Name": "Reichert, Murazik and Kihn",
-  "Description": "Multi-tiered clear-thinking utilisation",
-  "IncludeId": "rem",
-  "Source": "dolores",
-  "Registered": "2002-07-20T23:04:05.1435042+02:00",
-  "RegisteredBy": "inventore",
-  "Updated": "2001-03-05T23:04:05.1435042+01:00",
-  "UpdatedBy": "non",
-  "Path": "tempore",
+  "UniqueIdentifier": "consequuntur",
+  "Name": "Frami Inc and Sons",
+  "Description": "Proactive non-volatile system engine",
+  "IncludeId": "ipsum",
+  "Source": "qui",
+  "Registered": "2007-10-01T16:55:30.4131485+02:00",
+  "RegisteredBy": "omnis",
+  "Updated": "2019-07-25T16:55:30.4131485+02:00",
+  "UpdatedBy": "quod",
+  "Path": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   }
 }

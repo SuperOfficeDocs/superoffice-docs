@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 79,
-  "Name": "Hilpert-Wisozk",
-  "CreatedDate": "1998-08-12T23:04:04.2255173+02:00",
-  "UpdatedDate": "1999-02-10T23:04:04.2255173+01:00",
-  "AssociateFullName": "Angelica Emard",
-  "CreatedBy": "possimus",
-  "UpdatedBy": "culpa",
-  "DeviceIdentifier": "quibusdam",
-  "ForeignAppId": 624,
+  "ForeignDeviceId": 760,
+  "Name": "Legros LLC",
+  "CreatedDate": "2015-03-30T16:55:29.6534425+02:00",
+  "UpdatedDate": "2020-04-30T16:55:29.6534425+02:00",
+  "AssociateFullName": "Alverta Stokes",
+  "CreatedBy": "asperiores",
+  "UpdatedBy": "modi",
+  "DeviceIdentifier": "rem",
+  "ForeignAppId": 810,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   }
 }

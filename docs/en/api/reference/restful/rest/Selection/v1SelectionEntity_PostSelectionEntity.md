@@ -110,7 +110,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse systematic application",
-  "Postit": "ut",
+  "Description": "Implemented next generation open architecture",
+  "Postit": "molestiae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 782,
-  "IncludePerson": 112,
-  "MemberCount": 939,
-  "Name": "Bernier-Schuppe",
-  "PostitTextId": 343,
-  "CreatedDate": "2018-09-12T23:04:04.766511+02:00",
-  "SelectionId": 322,
-  "SoundEx": "omnis",
-  "Source": 912,
-  "TextId": 983,
-  "UpdatedDate": "2002-06-15T23:04:04.766511+02:00",
-  "UpdatedCount": 360,
-  "Visibility": 523,
+  "GroupIdx": 151,
+  "IncludePerson": 332,
+  "MemberCount": 421,
+  "Name": "Fadel-Thompson",
+  "PostitTextId": 826,
+  "CreatedDate": "2023-08-16T16:55:30.1151121+02:00",
+  "SelectionId": 939,
+  "SoundEx": "et",
+  "Source": 195,
+  "TextId": 356,
+  "UpdatedDate": "2010-10-26T16:55:30.1151121+02:00",
+  "UpdatedCount": 113,
+  "Visibility": 871,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 283,
-  "TargetTableName": "Kuhlman Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 922,
-  "RightSelectionId": 790,
+  "TargetTableNumber": 83,
+  "TargetTableName": "Abshire Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 433,
+  "RightSelectionId": 412,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sipes, Koch and Reilly",
-  "ShadowProviderName": "Beatty-Sipes",
-  "ChartKey": "voluptas",
-  "LastLoaded": "1999-09-28T23:04:04.767009+02:00",
-  "LastLoadedBy": 812,
+  "MainProviderName": "Bednar, Altenwerth and Wunsch",
+  "ShadowProviderName": "Brakus Group",
+  "ChartKey": "inventore",
+  "LastLoaded": "1999-12-17T16:55:30.1151121+01:00",
+  "LastLoadedBy": 84,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-12-25T23:04:04.767009+01:00",
-  "LastMembershipChangeBy": 799,
+  "LastMembershipChange": "2012-07-07T16:55:30.1151121+02:00",
+  "LastMembershipChangeBy": 736,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "officiis",
-  "MemberTabHeading": "voluptate",
-  "MailingsProviderName": "Quigley, Walsh and Labadie",
-  "DashboardTileDefinitionId": 227,
+  "MainHeading": "est",
+  "MemberTabHeading": "quam",
+  "MailingsProviderName": "Kunze, Wolff and Brown",
+  "DashboardTileDefinitionId": 316,
   "VisibleFor": [
     {
-      "VisibleId": 504,
+      "VisibleId": 858,
       "Visibility": "All",
-      "DisplayValue": "ipsa"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 504,
+      "VisibleId": 858,
       "Visibility": "All",
-      "DisplayValue": "ipsa"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable reciprocal array",
-  "Postit": "ratione",
+  "Description": "Future-proofed directional workforce",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 974,
-  "IncludePerson": 898,
-  "MemberCount": 96,
-  "Name": "Hermann Inc and Sons",
-  "PostitTextId": 617,
-  "CreatedDate": "2011-08-22T23:04:04.7715105+02:00",
-  "SelectionId": 597,
-  "SoundEx": "natus",
-  "Source": 759,
-  "TextId": 297,
-  "UpdatedDate": "2001-06-04T23:04:04.7715105+02:00",
-  "UpdatedCount": 342,
-  "Visibility": 525,
+  "GroupIdx": 956,
+  "IncludePerson": 498,
+  "MemberCount": 221,
+  "Name": "Champlin-Corkery",
+  "PostitTextId": 634,
+  "CreatedDate": "2022-12-14T16:55:30.1181146+01:00",
+  "SelectionId": 665,
+  "SoundEx": "quisquam",
+  "Source": 260,
+  "TextId": 100,
+  "UpdatedDate": "1999-12-13T16:55:30.1190223+01:00",
+  "UpdatedCount": 77,
+  "Visibility": 946,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 858,
-  "TargetTableName": "Will, White and Reilly",
+  "CompanyUnique": true,
+  "TargetTableNumber": 172,
+  "TargetTableName": "Marquardt LLC",
   "Completed": false,
-  "LeftSelectionId": 10,
-  "RightSelectionId": 302,
+  "LeftSelectionId": 3,
+  "RightSelectionId": 422,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lakin-Balistreri",
-  "ShadowProviderName": "Tremblay, Kassulke and Heller",
-  "ChartKey": "architecto",
-  "LastLoaded": "2000-11-06T23:04:04.7715105+01:00",
-  "LastLoadedBy": 125,
+  "MainProviderName": "Boyer Inc and Sons",
+  "ShadowProviderName": "Abshire, Macejkovic and Wyman",
+  "ChartKey": "molestias",
+  "LastLoaded": "2023-09-26T16:55:30.1190223+02:00",
+  "LastLoadedBy": 904,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-02-06T23:04:04.7720137+01:00",
-  "LastMembershipChangeBy": 190,
+  "LastMembershipChange": "2019-01-23T16:55:30.1190223+01:00",
+  "LastMembershipChangeBy": 783,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "error",
-  "MailingsProviderName": "Aufderhar LLC",
-  "DashboardTileDefinitionId": 472,
+  "MainHeading": "ipsa",
+  "MemberTabHeading": "nemo",
+  "MailingsProviderName": "Gleichner, Corkery and Gaylord",
+  "DashboardTileDefinitionId": 142,
   "VisibleFor": [
     {
-      "VisibleId": 942,
+      "VisibleId": 198,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 26
+          "FieldType": "System.String",
+          "FieldLength": 490
         }
       }
     },
     {
-      "VisibleId": 942,
+      "VisibleId": 198,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 26
+          "FieldType": "System.String",
+          "FieldLength": 490
         }
       }
     }
@@ -294,13 +294,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 180
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

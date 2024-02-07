@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "numquam",
+    "path": "perspiciatis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "numquam",
+    "path": "perspiciatis",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 402,
-  "Name": "Koss, Bosco and Kuhlman",
-  "Tooltip": "accusantium",
-  "PassiveText": "quisquam",
+  "ReldefId": 674,
+  "Name": "Renner Inc and Sons",
+  "Tooltip": "expedita",
+  "PassiveText": "quidem",
   "Deleted": true,
-  "Rank": 663,
+  "Rank": 334,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 837
     }
   },
   "_Links": {

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 5,
-  "BlobSize": 127,
-  "Description": "Devolved hybrid website",
-  "ExtraInfo": "voluptate",
+  "BlobId": 592,
+  "BlobSize": 856,
+  "Description": "Down-sized value-added focus group",
+  "ExtraInfo": "omnis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "ratione",
-  "OriginalSize": 112,
-  "CreatedDate": "2011-10-15T23:04:04.3860145+02:00",
-  "UpdatedDate": "2012-05-16T23:04:04.3860145+02:00",
+  "IsZipped": true,
+  "MimeType": "sit",
+  "OriginalSize": 632,
+  "CreatedDate": "2015-02-07T16:55:29.9156145+01:00",
+  "UpdatedDate": "2014-10-23T16:55:29.9156145+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "facere"
+  "ConceptualType": "deserunt"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 21,
-  "BlobSize": 394,
-  "Description": "Optional discrete service-desk",
-  "ExtraInfo": "placeat",
-  "IsEncrypted": true,
+  "BlobId": 422,
+  "BlobSize": 316,
+  "Description": "Organic foreground architecture",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "sed",
-  "OriginalSize": 957,
-  "CreatedDate": "1998-08-30T23:04:04.3875141+02:00",
-  "UpdatedDate": "2008-08-18T23:04:04.3875141+02:00",
+  "MimeType": "mollitia",
+  "OriginalSize": 637,
+  "CreatedDate": "2004-05-21T16:55:29.916522+02:00",
+  "UpdatedDate": "2006-06-07T16:55:29.916522+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "amet",
+  "ConceptualType": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 506
     }
   }
 }

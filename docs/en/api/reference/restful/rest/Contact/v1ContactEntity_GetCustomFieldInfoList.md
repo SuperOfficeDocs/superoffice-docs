@@ -67,7 +67,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schimmel LLC",
-    "DisplayName": "Gorczany, Considine and Ryan",
-    "Description": "Networked directional policy",
-    "ShortLabel": "et",
+    "FieldName": "Schowalter-Langworth",
+    "DisplayName": "Leffler Inc and Sons",
+    "Description": "Right-sized uniform neural-net",
+    "ShortLabel": "quas",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": true,
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 627,
-    "TemplateVariableName": "Shanahan-Crist"
+    "Rank": 219,
+    "TemplateVariableName": "Sanford, Weissnat and Wilderman"
   }
 ]
 ```

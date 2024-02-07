@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Nader-Cummings",
-    "ToolTip": "Eaque ea omnis architecto rerum.",
+    "Id": 115,
+    "Name": "Schaefer-Mitchell",
+    "ToolTip": "Rerum fugit voluptas rerum ut porro tempore voluptas.",
     "Deleted": false,
-    "Rank": 722,
-    "Type": "fugiat",
-    "ColorBlock": 880,
-    "IconHint": "optio",
-    "Selected": false,
-    "LastChanged": "2018-11-20T23:04:05.4074994+01:00",
+    "Rank": 111,
+    "Type": "quos",
+    "ColorBlock": 788,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2007-07-10T16:55:30.6182357+02:00",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Flatley Group",
-        "ToolTip": "Recusandae rerum.",
+        "Id": 654,
+        "Name": "Von-Lubowitz",
+        "ToolTip": "Autem in.",
         "Deleted": true,
-        "Rank": 64,
-        "Type": "sequi",
-        "ColorBlock": 717,
-        "IconHint": "nostrum",
-        "Selected": true,
-        "LastChanged": "2005-11-27T23:04:05.4074994+01:00",
+        "Rank": 828,
+        "Type": "nihil",
+        "ColorBlock": 137,
+        "IconHint": "illo",
+        "Selected": false,
+        "LastChanged": "2007-09-09T16:55:30.6182357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "maxime",
+        "ExtraInfo": "sint",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Angela Bailey II"
+        "FullName": "Myra Burdette Crona IV"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "est",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Ms. Forrest Benton Harvey I"
+    "FullName": "Prof. Francisco Kihn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "O'Kon, Wiza and Brekke",
-    "ToolTip": "Doloremque dolores architecto ipsa autem.",
-    "Deleted": false,
-    "Rank": 366,
-    "Type": "dolores",
-    "ColorBlock": 836,
-    "IconHint": "est",
+    "Id": 969,
+    "Name": "McGlynn, Schuppe and Kuhn",
+    "ToolTip": "Ex doloribus consequatur eius qui amet.",
+    "Deleted": true,
+    "Rank": 489,
+    "Type": "quis",
+    "ColorBlock": 668,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2010-12-20T23:04:05.4100004+01:00",
+    "LastChanged": "2011-10-16T16:55:30.6202161+02:00",
     "ChildItems": [
       {
-        "Id": 781,
-        "Name": "Cole LLC",
-        "ToolTip": "Et ut.",
-        "Deleted": false,
-        "Rank": 384,
-        "Type": "eos",
-        "ColorBlock": 587,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2021-10-23T23:04:05.4100004+02:00",
+        "Id": 555,
+        "Name": "Auer LLC",
+        "ToolTip": "Sed aut aut fuga ipsum sunt omnis.",
+        "Deleted": true,
+        "Rank": 637,
+        "Type": "dolor",
+        "ColorBlock": 857,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2015-08-21T16:55:30.6202161+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Miss Claud Wiegand",
+        "ExtraInfo": "eum",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Willard Smitham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 9
+            "FieldLength": 85
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Laisha Beatty",
+    "ExtraInfo": "officiis",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Dr. Weldon Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 438
       }
     }
   }

@@ -53,7 +53,7 @@ OK
 | TargetAssociate | Associate | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetContact | Contact | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetUserGroup | UserGroup | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| Currency | Currency | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
+| Currency | Currency | The currency of the target.  Use MDO List name "currency" to get list items. |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
 | DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight | TableRight | The carrier's table right |
@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 414,
+  "TargetAssignmentInfoId": 466,
   "Values": [
-    420,
-    602
+    688,
+    765
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 952,
-  "DimensionListItemDisplayName": "Haag, Sipes and McKenzie",
+  "DimensionListItem": 857,
+  "DimensionListItemDisplayName": "Hackett-Nienow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 719
     }
   }
 }

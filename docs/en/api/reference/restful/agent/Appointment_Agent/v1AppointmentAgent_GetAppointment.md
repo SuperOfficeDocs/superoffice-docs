@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=340
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=926
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 198,
-  "StartDate": "2012-11-15T23:03:54.6706489+01:00",
-  "EndDate": "1997-03-27T23:03:54.6706489+01:00",
+  "AppointmentId": 855,
+  "StartDate": "2006-06-11T16:54:54.3322118+02:00",
+  "EndDate": "2001-11-21T16:54:54.3322118+01:00",
   "Type": "BookingForChecklist",
-  "Task": "nemo",
-  "AssociateFullName": "Parker Cassin Sr.",
-  "ContactName": "Bode-Walker",
-  "Description": "Implemented bottom-line interface",
-  "PersonFullName": "Josue Altenwerth",
-  "PersonId": 25,
-  "ContactId": 252,
-  "ProjectId": 567,
-  "ProjectName": "Gaylord, Gusikowski and O'Hara",
-  "IsPublished": false,
-  "AssociateId": 441,
-  "ColorIndex": 877,
-  "IsFree": true,
+  "Task": "sit",
+  "AssociateFullName": "Dr. Justyn Nels Crist III",
+  "ContactName": "Pfeffer Inc and Sons",
+  "Description": "Fundamental mission-critical data-warehouse",
+  "PersonFullName": "Linda Gerhold",
+  "PersonId": 933,
+  "ContactId": 85,
+  "ProjectId": 473,
+  "ProjectName": "Rice, Rau and Heathcote",
+  "IsPublished": true,
+  "AssociateId": 233,
+  "ColorIndex": 127,
+  "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 47,
-  "PriorityName": "Gerhold LLC",
+  "PriorityId": 787,
+  "PriorityName": "Kuhn, Mosciski and Waters",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "1997-01-08T23:03:54.6711483+01:00",
+  "IsBooking": false,
+  "ActiveDate": "1997-05-13T16:54:54.3331992+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2009-01-15T23:03:54.6711483+01:00",
-  "RecurringEndDate": "1997-08-17T23:03:54.6711483+02:00",
-  "MotherId": 214,
-  "AssignedBy": 238,
-  "AssignedByFullName": "Veda Adriana Harris DDS",
+  "RecurringStartDate": "2004-10-27T16:54:54.3331992+02:00",
+  "RecurringEndDate": "2020-01-28T16:54:54.3331992+01:00",
+  "MotherId": 928,
+  "AssignedBy": 437,
+  "AssignedByFullName": "Cortney Kuvalis",
   "RejectReason": "",
-  "Location": "officiis",
-  "AlarmLeadTime": "rerum",
-  "SaleId": 981,
-  "SaleName": "Wunsch Inc and Sons",
-  "AssociateName": "Luettgen Group",
-  "CreatedDate": "2018-11-01T23:03:54.6716464+01:00",
-  "CreatedBy": "neque",
-  "CreatedByFullName": "Dr. Pinkie Willard Marquardt Sr.",
-  "CreatedByAssociateId": 211,
+  "Location": "facere",
+  "AlarmLeadTime": "expedita",
+  "SaleId": 125,
+  "SaleName": "Senger, Goyette and Hintz",
+  "AssociateName": "Macejkovic Group",
+  "CreatedDate": "2014-08-18T16:54:54.3331992+02:00",
+  "CreatedBy": "sunt",
+  "CreatedByFullName": "Jeramie Beatty",
+  "CreatedByAssociateId": 724,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 68,
-  "Title": "dolore",
-  "Agenda": "quidem",
-  "InternalNotes": "cupiditate",
+  "PreferredTZLocation": 277,
+  "Title": "ut",
+  "Agenda": "et",
+  "InternalNotes": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 332
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 283
+  "Id": 582
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 231,
-    "Name": "Nikolaus Group",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "Rank": 925,
-    "UdListDefinitionId": 919,
+    "HeadingId": 673,
+    "Name": "Wintheiser, Murray and Schimmel",
+    "Tooltip": "ab",
+    "Deleted": false,
+    "Rank": 861,
+    "UdListDefinitionId": 527,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 905
       }
     }
   }

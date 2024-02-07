@@ -111,8 +111,8 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Associate | Associate | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact | Contact | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <para>Use MDO List name "contact_new" to get list items.</para> |
+| Associate | Associate | The owner of the appointment - the associate whose diary/checklist the appointment is in.  Use MDO List name "associate" to get list items. |
+| Contact | Contact | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  Use MDO List name "contact_new" to get list items. |
 | CreatedBy | Associate | The associate that first created the appointment. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | CreatedDate | date-time | Registered date  in UTC. |
@@ -124,11 +124,11 @@ OK
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
-| Person | Person | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Person | Person | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  Use MDO List name "person" to get list items. |
 | MotherId | int32 | ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking |
-| Priority | Priority | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <para>Use MDO List name "priority" to get list items.</para> |
+| Priority | Priority | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  Use MDO List name "priority" to get list items. |
 | Private | string | The confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual. |
-| Project | Project | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Project | Project | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  Use MDO List name "project" to get list items. |
 | Type | string | The different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it's a document. See the different types of appointments in the database manual. |
 | UpdatedDate | date-time | Updated date  in UTC. |
 | Completed | string | Appointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set. |
@@ -143,7 +143,7 @@ OK
 | LeadTime | string | Time blocked (minutes) BEFORE starttime |
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
-| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
+| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  Use MDO List name "rejectReason" to get list items. |
 | Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
@@ -153,10 +153,10 @@ OK
 | HasConflict | bool | Does the appointment overlap with another appointment in the user's diary? |
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
-| Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
+| Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  Use MDO List name "task" to get list items. |
 | PreferredTZLocation | int32 | Appointments preferred timezone location. |
 | PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
-| Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  Use MDO List name "sale" to get list items. |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
@@ -164,7 +164,7 @@ OK
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -187,105 +187,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-08-20T23:03:54.6421471+02:00",
-  "AppointmentId": 192,
-  "Description": "Cross-platform responsive orchestration",
-  "Title": "eum",
-  "Agenda": "voluptate",
-  "InternalNotes": "voluptatum",
-  "StartDate": "2008-12-24T23:03:54.6421471+01:00",
-  "EndDate": "2016-11-01T23:03:54.6421471+01:00",
+  "CreatedDate": "2015-09-01T16:54:54.3100203+02:00",
+  "AppointmentId": 148,
+  "Description": "Operative cohesive array",
+  "Title": "animi",
+  "Agenda": "suscipit",
+  "InternalNotes": "totam",
+  "StartDate": "2006-06-17T16:54:54.3100203+02:00",
+  "EndDate": "1997-01-31T16:54:54.3100203+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 684,
+  "MotherId": 775,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-11-27T23:03:54.6461469+01:00",
+  "UpdatedDate": "2011-07-09T16:54:54.3130056+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 258,
+  "ActiveLinks": 71,
   "Links": [
     {
-      "EntityName": "Farrell Group",
-      "Id": 948,
-      "Description": "Re-contextualized scalable focus group",
-      "ExtraInfo": "cumque",
-      "LinkId": 541
+      "EntityName": "Kling Group",
+      "Id": 715,
+      "Description": "Enhanced system-worthy model",
+      "ExtraInfo": "quam",
+      "LinkId": 6
     },
     {
-      "EntityName": "Farrell Group",
-      "Id": 948,
-      "Description": "Re-contextualized scalable focus group",
-      "ExtraInfo": "cumque",
-      "LinkId": 541
+      "EntityName": "Kling Group",
+      "Id": 715,
+      "Description": "Enhanced system-worthy model",
+      "ExtraInfo": "quam",
+      "LinkId": 6
     }
   ],
-  "AlarmLeadTime": "quo",
-  "HasAlarm": false,
-  "ColorIndex": 643,
+  "AlarmLeadTime": "odit",
+  "HasAlarm": true,
+  "ColorIndex": 549,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "rerum",
-  "LeadTime": "dolorum",
-  "Location": "officia",
-  "RejectCounter": 585,
+  "LagTime": "tempora",
+  "LeadTime": "eos",
+  "Location": "quidem",
+  "RejectCounter": 478,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 596,
-      "PersonId": 882,
-      "ContactId": 571,
-      "EmailId": 794,
-      "SendEmail": true,
+      "AssociateId": 197,
+      "PersonId": 114,
+      "ContactId": 801,
+      "EmailId": 567,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "summer.pollich@hammessporer.biz",
-      "Description": "Function-based content-based Graphical User Interface"
+      "EmailAddress": "martine_stark@jacobs.us",
+      "Description": "Reactive human-resource artificial intelligence"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-09-17T23:03:54.6461469+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2012-10-29T16:54:54.3140056+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 664,
+  "PreferredTZLocation": 366,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 579,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 735,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "libero",
+  "CentralserviceVideomeetId": "cupiditate",
   "UserDefinedFields": {
-    "SuperOffice:1": "Brycen Jaden Bergnaum III",
-    "SuperOffice:2": "1746791039"
+    "SuperOffice:1": "Vilma Koelpin",
+    "SuperOffice:2": "Dr. Roderick Daugherty"
   },
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2014-01-14T23:03:54.6481469+01:00",
-  "PublishTo": "2003-02-24T23:03:54.6481469+01:00",
-  "PublishFrom": "2014-10-04T23:03:54.6481469+02:00",
+  "PublishEventDate": "2007-12-22T16:54:54.3160055+01:00",
+  "PublishTo": "2007-01-21T16:54:54.3160055+01:00",
+  "PublishFrom": "2008-04-26T16:54:54.3160055+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 553,
+      "VisibleId": 859,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "harum"
     },
     {
-      "VisibleId": 553,
+      "VisibleId": 859,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "harum"
     }
   ]
 }
@@ -302,120 +302,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-04-08T23:03:54.6586466+02:00",
-  "AppointmentId": 232,
-  "Description": "Customer-focused contextually-based info-mediaries",
-  "Title": "qui",
-  "Agenda": "et",
-  "InternalNotes": "consectetur",
-  "StartDate": "2014-10-06T23:03:54.6586466+02:00",
-  "EndDate": "1997-08-02T23:03:54.6586466+02:00",
+  "CreatedDate": "2002-02-07T16:54:54.3230094+01:00",
+  "AppointmentId": 210,
+  "Description": "Synergized foreground adapter",
+  "Title": "est",
+  "Agenda": "maxime",
+  "InternalNotes": "est",
+  "StartDate": "2021-04-26T16:54:54.3230094+02:00",
+  "EndDate": "2015-07-09T16:54:54.3230094+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 557,
+  "MotherId": 785,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-02-28T23:03:54.6611453+01:00",
+  "UpdatedDate": "2011-12-21T16:54:54.3256686+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 467,
+  "ActiveLinks": 534,
   "Links": [
     {
-      "EntityName": "Medhurst Group",
-      "Id": 37,
-      "Description": "Grass-roots hybrid archive",
-      "ExtraInfo": "ut",
-      "LinkId": 179,
+      "EntityName": "Marvin Group",
+      "Id": 791,
+      "Description": "Virtual uniform intranet",
+      "ExtraInfo": "amet",
+      "LinkId": 363,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 120
+          "FieldType": "System.Int32",
+          "FieldLength": 773
         }
       }
     }
   ],
-  "AlarmLeadTime": "consectetur",
+  "AlarmLeadTime": "tempora",
   "HasAlarm": true,
-  "ColorIndex": 101,
+  "ColorIndex": 676,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "rerum",
-  "LeadTime": "velit",
-  "Location": "qui",
-  "RejectCounter": 893,
+  "LagTime": "fugit",
+  "LeadTime": "numquam",
+  "Location": "quos",
+  "RejectCounter": 620,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 40,
-      "PersonId": 270,
-      "ContactId": 40,
-      "EmailId": 988,
+      "AssociateId": 155,
+      "PersonId": 743,
+      "ContactId": 684,
+      "EmailId": 423,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "thalia@kihn.uk",
-      "Description": "Profit-focused full-range structure"
+      "EmailAddress": "alena@gottlieb.biz",
+      "Description": "Multi-lateral tertiary toolset"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-08-25T23:03:54.661649+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2008-06-25T16:54:54.3256686+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 192,
+  "PreferredTZLocation": 595,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 806,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 261,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ratione",
+  "CentralserviceVideomeetId": "laudantium",
   "UserDefinedFields": {
-    "SuperOffice:1": "Tiffany Lehner",
-    "SuperOffice:2": "Lennie Denesik"
+    "SuperOffice:1": "Hillary Johnston",
+    "SuperOffice:2": "Carlotta O'Kon DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "consequuntur",
-    "CustomFields2": "illo"
+    "CustomFields1": "amet",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "2022-01-07T23:03:54.6641465+01:00",
-  "PublishTo": "2015-04-19T23:03:54.6641465+02:00",
-  "PublishFrom": "1997-09-06T23:03:54.6641465+02:00",
+  "PublishEventDate": "1999-07-15T16:54:54.3278955+02:00",
+  "PublishTo": "2008-09-26T16:54:54.3278955+02:00",
+  "PublishFrom": "2011-07-30T16:54:54.3278955+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 660,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 479
         }
       }
     },
     {
-      "VisibleId": 660,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 479
         }
       }
     }
@@ -425,7 +425,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 194
     }
   }
 }

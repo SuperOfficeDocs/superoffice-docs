@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Ledner Group",
-    "ToolTip": "Distinctio perspiciatis vel veniam consectetur reprehenderit.",
-    "Deleted": false,
-    "Rank": 800,
-    "Type": "doloribus",
-    "ColorBlock": 775,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "2006-05-02T23:04:05.3180024+02:00",
+    "Id": 815,
+    "Name": "Kuhlman, Jewess and Renner",
+    "ToolTip": "Suscipit quis excepturi deserunt tempore.",
+    "Deleted": true,
+    "Rank": 43,
+    "Type": "non",
+    "ColorBlock": 376,
+    "IconHint": "temporibus",
+    "Selected": false,
+    "LastChanged": "2018-02-03T16:55:30.5476993+01:00",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "Schoen-Hand",
-        "ToolTip": "Numquam molestiae iure totam illum quisquam voluptatem ut.",
+        "Id": 457,
+        "Name": "Rowe LLC",
+        "ToolTip": "Amet et aut aspernatur.",
         "Deleted": true,
-        "Rank": 222,
-        "Type": "harum",
-        "ColorBlock": 231,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2017-11-22T23:04:05.3180024+01:00",
+        "Rank": 386,
+        "Type": "ut",
+        "ColorBlock": 812,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2014-08-12T16:55:30.5476993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "officiis",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Ms. Keshaun Buckridge MD",
+        "FullName": "Sarah Lowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 862
+            "FieldType": "System.String",
+            "FieldLength": 546
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Lorena Roob",
+    "ExtraInfo": "libero",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Ms. Gilberto Kasandra O'Keefe PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

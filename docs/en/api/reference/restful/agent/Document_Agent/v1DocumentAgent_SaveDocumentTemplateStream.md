@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 678,
+  "DocumentTemplateId": 876,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "voluptatem",
-  "PluginId": 75
+  "LanguageCode": "error",
+  "PluginId": 799
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Eichmann-DuBuque",
-  "Description": "Secured static software",
-  "ExternalReference": "provident",
-  "MimeType": "ut",
-  "PluginId": 789
+  "Name": "Lockman, Wiza and Breitenberg",
+  "Description": "Phased impactful framework",
+  "ExternalReference": "vero",
+  "MimeType": "aperiam",
+  "PluginId": 809
 }
 ```

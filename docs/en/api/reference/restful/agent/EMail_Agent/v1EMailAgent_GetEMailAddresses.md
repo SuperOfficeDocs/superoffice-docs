@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    804,
-    774
+    911,
+    488
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 946,
-    "ContactName": "Jenkins-Leffler",
-    "PersonId": 280,
-    "PersonName": "Kub, Hirthe and Klein",
-    "AssociateId": 644,
-    "Address": "fuga",
-    "EmailId": 901,
+    "ContactId": 942,
+    "ContactName": "Carroll Inc and Sons",
+    "PersonId": 615,
+    "PersonName": "Goldner Inc and Sons",
+    "AssociateId": 962,
+    "Address": "et",
+    "EmailId": 422,
     "DuplicatePersonIds": [
-      408,
-      685
+      182,
+      766
     ],
-    "Name": "Marks, Bosco and Von",
+    "Name": "Rosenbaum, Roob and Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldLength": 852
       }
     }
   }

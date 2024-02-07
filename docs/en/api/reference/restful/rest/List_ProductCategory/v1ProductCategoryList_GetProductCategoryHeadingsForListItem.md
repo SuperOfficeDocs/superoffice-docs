@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "D'Amore, Dach and Haag",
-    "ToolTip": "Praesentium qui autem dolorem veritatis quia.",
+    "Id": 893,
+    "Name": "Altenwerth, Cassin and Ullrich",
+    "ToolTip": "Impedit reiciendis natus cum quisquam dolorem non.",
     "Deleted": false,
-    "Rank": 686,
-    "Type": "veniam",
-    "ColorBlock": 993,
-    "IconHint": "exercitationem",
-    "Selected": false,
-    "LastChanged": "2021-02-23T23:04:05.6144702+01:00",
+    "Rank": 382,
+    "Type": "libero",
+    "ColorBlock": 224,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2004-04-26T16:55:30.8007354+02:00",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Jaskolski LLC",
-        "ToolTip": "Tenetur rerum sed dolor porro vel occaecati.",
-        "Deleted": false,
-        "Rank": 948,
-        "Type": "eius",
-        "ColorBlock": 252,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2013-11-27T23:04:05.6144702+01:00",
+        "Id": 124,
+        "Name": "Okuneva LLC",
+        "ToolTip": "Delectus aut non quis adipisci et consequatur.",
+        "Deleted": true,
+        "Rank": 138,
+        "Type": "molestias",
+        "ColorBlock": 837,
+        "IconHint": "fugiat",
+        "Selected": false,
+        "LastChanged": "2003-08-04T16:55:30.8007354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
+        "ExtraInfo": "corrupti",
         "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Miss Lilly Baumbach",
+        "FullName": "Wendy Herta Yost PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 206
+            "FieldLength": 520
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Dylan Koch",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Hiram Macejkovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldType": "System.Int32",
+        "FieldLength": 190
       }
     }
   }

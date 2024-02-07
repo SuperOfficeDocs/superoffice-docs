@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 251,
-  "TopicId": 785,
+  "ChatSessionId": 774,
+  "TopicId": 729,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aliquid",
-  "CustomerHost": "sint",
-  "CustomerName": "Miller-Corwin",
-  "CustomerEmail": "lambert_schmitt@dietrichconn.co.uk",
-  "CustomerPhone": "1-416-841-8340",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Cole Inc and Sons",
+  "CustomerAlias": "vitae",
+  "CustomerHost": "dolorem",
+  "CustomerName": "Fadel, Wintheiser and McDermott",
+  "CustomerEmail": "dallin@kiehn.co.uk",
+  "CustomerPhone": "(409)075-0578 x0592",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Smith-Anderson",
   "Status": "Closed",
-  "FirstMessage": "rem",
-  "LastMessage": "sint",
-  "WhenRequested": "2004-01-31T23:04:03.829523+01:00",
-  "WhenStarted": "2002-01-16T23:04:03.829523+01:00",
-  "WhenEnded": "2003-02-22T23:04:03.829523+01:00",
-  "WhenIdle": "1996-10-21T23:04:03.829523+02:00",
-  "WhenFetched": "2005-03-16T23:04:03.829523+01:00",
-  "SessionKey": "rem",
-  "InitialQueuePos": 978,
-  "AlertLevel": 360,
-  "Rank": 337,
+  "FirstMessage": "quidem",
+  "LastMessage": "incidunt",
+  "WhenRequested": "2006-06-27T16:55:29.3347833+02:00",
+  "WhenStarted": "2017-02-21T16:55:29.3347833+01:00",
+  "WhenEnded": "1999-11-21T16:55:29.3347833+01:00",
+  "WhenIdle": "2023-02-26T16:55:29.3347833+01:00",
+  "WhenFetched": "2012-04-03T16:55:29.3347833+02:00",
+  "SessionKey": "enim",
+  "InitialQueuePos": 103,
+  "AlertLevel": 366,
+  "Rank": 682,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 473,
+  "Rating": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 523
     }
   }
 }

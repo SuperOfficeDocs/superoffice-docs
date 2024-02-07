@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=828
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=555
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 375,
-  "Name": "Lemke, Parker and Zemlak",
-  "Tooltip": "labore",
-  "Rank": 781,
+  "SaleTypeId": 248,
+  "Name": "Huel-Hane",
+  "Tooltip": "qui",
+  "Rank": 337,
   "DurationUnit": "Century",
-  "SaleDuration": 320,
-  "SaleTypeCatId": 476,
+  "SaleDuration": 347,
+  "SaleTypeCatId": 181,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 95,
-  "QuoteLinesTemplate": 254,
-  "ConfirmationLinesTemplate": 863,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 214,
+  "QuoteLinesTemplate": 2,
+  "ConfirmationLinesTemplate": 774,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 783,
-  "MinEarningPercent": 766,
-  "GroupQuoteLinesBy": 905,
-  "SortGroupLinesBy": 901,
+  "MaxDiscountPercent": 634,
+  "MinEarningPercent": 199,
+  "GroupQuoteLinesBy": 854,
+  "SortGroupLinesBy": 791,
   "Stages": [
     {
-      "Id": 622,
-      "Name": "Simonis Inc and Sons",
-      "ToolTip": "Dolorum et voluptatum sunt.",
-      "Deleted": true,
-      "Rank": 88,
-      "Type": "voluptate",
-      "ColorBlock": 407,
-      "IconHint": "et",
+      "Id": 348,
+      "Name": "Rempel Group",
+      "ToolTip": "Consequatur ab corrupti consectetur quia.",
+      "Deleted": false,
+      "Rank": 191,
+      "Type": "earum",
+      "ColorBlock": 768,
+      "IconHint": "sit",
       "Selected": false,
-      "LastChanged": "2020-09-18T23:03:56.1901274+02:00",
+      "LastChanged": "1997-12-09T16:54:55.5454782+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Rick Wiza",
+      "ExtraInfo": "sed",
+      "StyleHint": "vitae",
+      "Hidden": false,
+      "FullName": "Mrs. Jalon Spencer Mohr MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 477
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 154
     }
   }
 }

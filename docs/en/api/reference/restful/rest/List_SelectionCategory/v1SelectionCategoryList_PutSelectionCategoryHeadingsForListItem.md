@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Hyatt, Christiansen and Will",
-    "ToolTip": "Nostrum est expedita.",
+    "Id": 476,
+    "Name": "Goyette-Maggio",
+    "ToolTip": "Quibusdam numquam et dolorem ut.",
     "Deleted": true,
-    "Rank": 527,
-    "Type": "illum",
-    "ColorBlock": 939,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2001-02-27T23:04:05.8824958+01:00",
+    "Rank": 70,
+    "Type": "necessitatibus",
+    "ColorBlock": 463,
+    "IconHint": "enim",
+    "Selected": false,
+    "LastChanged": "2017-07-28T16:55:31.0907889+02:00",
     "ChildItems": [
       {
-        "Id": 416,
-        "Name": "Corwin Group",
-        "ToolTip": "In saepe.",
+        "Id": 259,
+        "Name": "Rempel Group",
+        "ToolTip": "Iusto rerum qui velit eveniet impedit molestiae dolor.",
         "Deleted": false,
-        "Rank": 473,
-        "Type": "quia",
-        "ColorBlock": 539,
-        "IconHint": "eos",
+        "Rank": 353,
+        "Type": "repudiandae",
+        "ColorBlock": 805,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2022-11-15T23:04:05.8829944+01:00",
+        "LastChanged": "2002-12-03T16:55:31.0907889+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "maxime",
-        "Hidden": true,
-        "FullName": "Lorenzo Reinger"
+        "ExtraInfo": "et",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Ubaldo Blanda"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Prof. Blaze Lynch III"
+    "ExtraInfo": "consectetur",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Evan Price"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 233,
-    "Name": "Johns LLC",
-    "ToolTip": "Quia quia consequuntur facilis totam autem.",
+    "Id": 492,
+    "Name": "Wiegand-Stoltenberg",
+    "ToolTip": "Totam totam nesciunt amet nisi et.",
     "Deleted": false,
-    "Rank": 533,
+    "Rank": 464,
     "Type": "voluptatem",
-    "ColorBlock": 850,
-    "IconHint": "blanditiis",
+    "ColorBlock": 618,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2002-10-22T23:04:05.8974936+02:00",
+    "LastChanged": "2009-03-31T16:55:31.0927988+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Mayer Group",
-        "ToolTip": "Similique eius itaque sit omnis excepturi.",
+        "Id": 211,
+        "Name": "Moore-Treutel",
+        "ToolTip": "Et ullam magnam omnis cupiditate sapiente cumque nihil.",
         "Deleted": false,
-        "Rank": 621,
-        "Type": "numquam",
-        "ColorBlock": 914,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2020-12-23T23:04:05.8979967+01:00",
+        "Rank": 688,
+        "Type": "neque",
+        "ColorBlock": 657,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "1998-04-13T16:55:31.0927988+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "aut",
+        "ExtraInfo": "est",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Ms. Henriette Francesco Mayer V",
+        "FullName": "Neha Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "libero",
+    "ExtraInfo": "tempora",
+    "StyleHint": "nulla",
     "Hidden": true,
-    "FullName": "Paris Christiansen",
+    "FullName": "Stephany Walker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 993
       }
     }
   }

@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 827,
-  "NewName": "Braun, Wiegand and Greenfelder",
-  "ValidFrom": "1997-04-08T23:03:56.7461186+02:00",
-  "ValidTo": "2005-11-16T23:03:56.7461186+01:00",
-  "NewCurrencyId": 970,
+  "OriginalPriceListId": 163,
+  "NewName": "Waelchi-Waters",
+  "ValidFrom": "2009-08-04T16:54:56.1201622+02:00",
+  "ValidTo": "2003-12-23T16:54:56.1201622+01:00",
+  "NewCurrencyId": 54,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 165,
-  "ERPPriceListKey": "sapiente",
-  "QuoteConnectionId": 39,
-  "Name": "Monahan, Stracke and Jacobs",
-  "Description": "Universal clear-thinking internet solution",
-  "Currency": "vero",
-  "CurrencyName": "Kovacek Group",
-  "ValidFrom": "2023-05-15T23:03:56.7461186+02:00",
-  "ValidTo": "2020-04-23T23:03:56.7466189+02:00",
+  "PriceListId": 161,
+  "ERPPriceListKey": "consequuntur",
+  "QuoteConnectionId": 145,
+  "Name": "Veum, Christiansen and Goldner",
+  "Description": "Decentralized content-based infrastructure",
+  "Currency": "in",
+  "CurrencyName": "Wilkinson Inc and Sons",
+  "ValidFrom": "2003-01-30T16:54:56.1201622+01:00",
+  "ValidTo": "2013-03-02T16:54:56.1201622+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldType": "System.Int32",
+      "FieldLength": 117
     }
   }
 }

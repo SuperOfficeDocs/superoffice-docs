@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 37
+  "DashboardId": 573
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Conn LLC",
-  "Description": "Re-contextualized 24 hour emulation",
-  "OwnedByFullName": "Angelita Stehr",
-  "Registered": "2019-10-12T23:03:55.6356363+02:00",
+  "Name": "Cruickshank LLC",
+  "Description": "Cross-platform optimizing forecast",
+  "OwnedByFullName": "Jordi Davis",
+  "Registered": "2009-03-16T16:54:55.1112907+01:00",
   "Tiles": [
     {
-      "Name": "Effertz Group",
+      "Name": "Mayer, Nicolas and Considine",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 942
         }
       }
     },
     {
-      "Name": "Effertz Group",
+      "Name": "Mayer, Nicolas and Considine",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 942
         }
       }
     }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldType": "System.String",
+      "FieldLength": 93
     }
   }
 }

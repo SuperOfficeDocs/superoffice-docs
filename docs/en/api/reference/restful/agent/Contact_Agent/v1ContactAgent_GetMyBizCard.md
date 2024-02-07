@@ -66,17 +66,17 @@ OK
 | UpdatedDate | date-time | Date last updated  in UTC. |
 | CreatedDate | date-time | Date registered  in UTC. |
 | Emails | array | The contact's email |
-| Interests | array | The contact's available and selected interests.  <para>Use MDO List name "contint" to get list items.</para> |
+| Interests | array | The contact's available and selected interests.  Use MDO List name "contint" to get list items. |
 | Urls | array | The contact's internet adresses |
 | Phones | array | The contact's phone numbers |
 | Faxes | array | The contact's fax numbers |
 | Description | string | Description of the contact. Usually shown as a postit note. |
 | UpdatedBy | Associate | The user that last updated the contact |
 | CreatedBy | Associate | The user that created the contact |
-| Associate | Associate | The user that owns this contact.  <para>Use MDO List name "associate" to get list items.</para> |
-| Business | Business | The business that the contact is associated with. The GUI forces the user to enter a business type.  <para>Use MDO List name "business" to get list items.</para> |
-| Category | Category | The category that is set on the company. The GUI forces the user to enter a category type  <para>Use MDO List name "category" to get list items.</para> |
-| Country | Country | The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.  <para>Use MDO List name "country" to get list items.</para> |
+| Associate | Associate | The user that owns this contact.  Use MDO List name "associate" to get list items. |
+| Business | Business | The business that the contact is associated with. The GUI forces the user to enter a business type.  Use MDO List name "business" to get list items. |
+| Category | Category | The category that is set on the company. The GUI forces the user to enter a category type  Use MDO List name "category" to get list items. |
+| Country | Country | The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.  Use MDO List name "country" to get list items. |
 | Persons | array | The persons belonging to the contact. |
 | NoMailing | bool | Spam filter. Indicates if this contact should retrieve advertising. |
 | Kananame | string | Contact kana name, used in Japanese versions only |
@@ -84,23 +84,23 @@ OK
 | ActiveInterests | int32 | The number of active interests. |
 | GroupId | int32 | Group id of original owning associate, semantics like appnt.grp_id |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for contact |
-| SupportAssociate | Associate | <para>Use MDO List name "associate" to get list items.</para> |
-| TicketPriority | TicketPriority | <para>Use MDO List name "ticketpriority" to get list items.</para> |
+| SupportAssociate | Associate | Use MDO List name "associate" to get list items. |
+| TicketPriority | TicketPriority | Use MDO List name "ticketpriority" to get list items. |
 | CustomerLanguage | CustomerLanguage | customerlanguage |
 | Deleted | int32 | If nonzero, then this contact is 'deleted' and should generally not be shown |
 | DbiAgentId | int32 | Integration agent (eJournal) |
 | DbiLastSyncronized | date-time | Last external syncronization. |
 | DbiKey | string | The primary key for the integrated entry in the external datasource. |
 | DbiLastModified | date-time | When the entry was last modified. |
-| SupportPerson | Person | Carrier object for Person. Services for the Person Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>. |
-| Address | Address | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered. <para /> Carrier object for Address. |
+| SupportPerson | Person | Carrier object for Person. Services for the Person Carrier is available from the Person Agent. |
+| Address | Address | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.  Carrier object for Address. |
 | Source | int32 | How did we get this contact? For future integration needs |
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 117,
-  "Name": "Bahringer Group",
+  "ContactId": 443,
+  "Name": "Pacocha-Gottlieb",
   "Department": "",
-  "OrgNr": "1106679",
-  "Number1": "1035530",
-  "Number2": "1103229",
-  "UpdatedDate": "2002-09-28T23:03:55.3686379+02:00",
-  "CreatedDate": "2003-11-11T23:03:55.3686379+01:00",
+  "OrgNr": "891639",
+  "Number1": "1069329",
+  "Number2": "805638",
+  "UpdatedDate": "2012-04-28T16:54:54.985754+02:00",
+  "CreatedDate": "2020-09-18T16:54:54.985754+02:00",
   "Emails": [
     {
-      "Value": "nihil",
-      "StrippedValue": "nesciunt",
-      "Description": "Mandatory 4th generation flexibility",
+      "Value": "autem",
+      "StrippedValue": "eius",
+      "Description": "Upgradable composite secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 651
         }
       }
     },
     {
-      "Value": "nihil",
-      "StrippedValue": "nesciunt",
-      "Description": "Mandatory 4th generation flexibility",
+      "Value": "autem",
+      "StrippedValue": "eius",
+      "Description": "Upgradable composite secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 651
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 549,
-      "Name": "Paucek, Cormier and Bahringer",
-      "ToolTip": "Et sequi ut vero.",
-      "Deleted": true,
-      "Rank": 917,
-      "Type": "aut",
-      "ColorBlock": 238,
-      "IconHint": "ut",
+      "Id": 421,
+      "Name": "Mitchell Group",
+      "ToolTip": "Et cupiditate iure veniam autem architecto enim fugiat.",
+      "Deleted": false,
+      "Rank": 836,
+      "Type": "officia",
+      "ColorBlock": 867,
+      "IconHint": "sit",
       "Selected": false,
-      "LastChanged": "2020-05-16T23:03:55.3686379+02:00",
+      "LastChanged": "2008-03-18T16:54:54.985754+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "quis",
-      "Hidden": false,
-      "FullName": "Raphael Fahey",
+      "ExtraInfo": "aut",
+      "StyleHint": "expedita",
+      "Hidden": true,
+      "FullName": "Melyssa Jammie Ortiz V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 477
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quaerat",
-      "StrippedValue": "praesentium",
-      "Description": "Fundamental cohesive groupware",
+      "Value": "sed",
+      "StrippedValue": "enim",
+      "Description": "Networked hybrid paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldLength": 55
         }
       }
     },
     {
-      "Value": "quaerat",
-      "StrippedValue": "praesentium",
-      "Description": "Fundamental cohesive groupware",
+      "Value": "sed",
+      "StrippedValue": "enim",
+      "Description": "Networked hybrid paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldLength": 55
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "repellat",
-      "StrippedValue": "dolor",
-      "Description": "Networked uniform projection",
+      "Value": "ea",
+      "StrippedValue": "occaecati",
+      "Description": "Focused homogeneous paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldLength": 29
         }
       }
     },
     {
-      "Value": "repellat",
-      "StrippedValue": "dolor",
-      "Description": "Networked uniform projection",
+      "Value": "ea",
+      "StrippedValue": "occaecati",
+      "Description": "Focused homogeneous paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldLength": 29
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "laborum",
-      "StrippedValue": "dolor",
-      "Description": "Secured reciprocal system engine",
+      "Value": "facere",
+      "StrippedValue": "quae",
+      "Description": "Proactive even-keeled functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 388
         }
       }
     },
     {
-      "Value": "laborum",
-      "StrippedValue": "dolor",
-      "Description": "Secured reciprocal system engine",
+      "Value": "facere",
+      "StrippedValue": "quae",
+      "Description": "Proactive even-keeled functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 388
         }
       }
     }
   ],
-  "Description": "Visionary radical success",
+  "Description": "Realigned discrete artificial intelligence",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quia",
-      "PersonId": 216,
-      "Mrmrs": "vero",
-      "Firstname": "Furman",
-      "Lastname": "Kemmer",
-      "MiddleName": "O'Kon, Nolan and Crooks",
-      "Title": "placeat",
-      "Description": "Synergistic stable firmware",
-      "Email": "jaylen_kessler@leannonlueilwitz.name",
-      "FullName": "Dr. Keegan Kirstin Champlin IV",
-      "DirectPhone": "492.977.5350",
-      "FormalName": "Ondricka, Hermiston and Prosacco",
-      "CountryId": 128,
-      "ContactId": 600,
-      "ContactName": "Satterfield LLC",
-      "Retired": 250,
-      "Rank": 569,
-      "ActiveInterests": 120,
+      "Position": "odio",
+      "PersonId": 513,
+      "Mrmrs": "et",
+      "Firstname": "Wanda",
+      "Lastname": "Toy",
+      "MiddleName": "Veum Group",
+      "Title": "voluptatem",
+      "Description": "Profit-focused holistic encryption",
+      "Email": "fae_cole@deckow.info",
+      "FullName": "Haley Paucek",
+      "DirectPhone": "686.040.9750",
+      "FormalName": "Watsica-Ullrich",
+      "CountryId": 348,
+      "ContactId": 32,
+      "ContactName": "Halvorson Inc and Sons",
+      "Retired": 672,
+      "Rank": 80,
+      "ActiveInterests": 390,
       "ContactDepartment": "",
-      "ContactCountryId": 694,
-      "ContactOrgNr": "1301703",
-      "FaxPhone": "(908)329-9350",
-      "MobilePhone": "(018)777-6235 x612",
-      "ContactPhone": "266.233.6375",
-      "AssociateName": "Bogan-Jakubowski",
-      "AssociateId": 245,
+      "ContactCountryId": 860,
+      "ContactOrgNr": "791426",
+      "FaxPhone": "107-975-4703",
+      "MobilePhone": "(992)987-6349 x18154",
+      "ContactPhone": "(314)349-2417 x450",
+      "AssociateName": "Fahey-Gleason",
+      "AssociateId": 42,
       "UsePersonAddress": true,
-      "ContactFax": "debitis",
-      "Kanafname": "dolorum",
-      "Kanalname": "sit",
-      "Post1": "occaecati",
-      "Post2": "eos",
-      "Post3": "expedita",
-      "EmailName": "kiana@ebert.co.uk",
-      "ContactFullName": "Jimmy Trantow",
-      "ActiveErpLinks": 410,
-      "TicketPriorityId": 815,
-      "SupportLanguageId": 186,
-      "SupportAssociateId": 68,
+      "ContactFax": "beatae",
+      "Kanafname": "voluptatem",
+      "Kanalname": "qui",
+      "Post1": "qui",
+      "Post2": "id",
+      "Post3": "sit",
+      "EmailName": "ericka@schulist.ca",
+      "ContactFullName": "Icie Wiza PhD",
+      "ActiveErpLinks": 647,
+      "TicketPriorityId": 700,
+      "SupportLanguageId": 33,
+      "SupportAssociateId": 482,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "qui",
-  "Xstop": true,
-  "ActiveInterests": 898,
-  "GroupId": 202,
-  "ActiveStatusMonitorId": 723,
+  "Kananame": "omnis",
+  "Xstop": false,
+  "ActiveInterests": 776,
+  "GroupId": 226,
+  "ActiveStatusMonitorId": 678,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 585,
-  "DbiAgentId": 257,
-  "DbiLastSyncronized": "2012-04-25T23:03:55.3726377+02:00",
-  "DbiKey": "atque",
-  "DbiLastModified": "2005-01-18T23:03:55.3726377+01:00",
+  "Deleted": 192,
+  "DbiAgentId": 118,
+  "DbiLastSyncronized": "1996-11-10T16:54:54.9897522+01:00",
+  "DbiKey": "asperiores",
+  "DbiLastModified": "2019-05-30T16:54:54.9897522+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 451,
-  "ActiveErpLinks": 385,
+  "Source": 866,
+  "ActiveErpLinks": 568,
   "BounceEmails": [
-    "fay.simonis@schmidtkovacek.com",
-    "justina@rolfson.co.uk"
+    "janae@hirthe.us",
+    "garrett_nikolaus@marks.us"
   ],
   "Domains": [
-    "dolores",
-    "vel"
+    "itaque",
+    "quibusdam"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1405929955"
+    "SuperOffice:1": "813790618",
+    "SuperOffice:2": "Leta Turner"
   },
   "ExtraFields": {
-    "ExtraFields1": "at",
+    "ExtraFields1": "quos",
     "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "nam",
-    "CustomFields2": "laborum"
+    "CustomFields1": "placeat",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldLength": 232
     }
   }
 }

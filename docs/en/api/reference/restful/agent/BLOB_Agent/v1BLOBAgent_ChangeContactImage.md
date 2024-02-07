@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangeContactImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 897,
-  "BlobId": 626
+  "ContactId": 103,
+  "BlobId": 431
 }
 ```
 

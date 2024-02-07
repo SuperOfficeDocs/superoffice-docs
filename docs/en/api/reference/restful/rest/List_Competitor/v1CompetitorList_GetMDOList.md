@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=id
+GET /api/v1/List/Competitor/MDOItems?query=est
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Shanahan Group",
-    "ToolTip": "Doloribus vel recusandae illo soluta libero voluptates alias.",
-    "Deleted": true,
-    "Rank": 495,
-    "Type": "dolor",
+    "Id": 953,
+    "Name": "Howe-Steuber",
+    "ToolTip": "Beatae amet dolorem vero.",
+    "Deleted": false,
+    "Rank": 855,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Zulauf, Wunsch and Hauck",
-        "ToolTip": "Odio nobis ipsum et eveniet.",
-        "Deleted": false,
-        "Rank": 951,
-        "Type": "id",
+        "Id": 72,
+        "Name": "Carter-Kuhic",
+        "ToolTip": "Debitis assumenda est numquam.",
+        "Deleted": true,
+        "Rank": 212,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nesciunt",
-        "ColorBlock": 156,
-        "ExtraInfo": "magnam",
-        "StyleHint": "libero",
-        "FullName": "Fannie D'Amore",
+        "IconHint": "reiciendis",
+        "ColorBlock": 103,
+        "ExtraInfo": "quo",
+        "StyleHint": "omnis",
+        "FullName": "Mr. Chauncey Franecki DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 541,
-    "ExtraInfo": "provident",
-    "StyleHint": "quae",
-    "FullName": "Nathaniel Wiza",
+    "IconHint": "quia",
+    "ColorBlock": 374,
+    "ExtraInfo": "delectus",
+    "StyleHint": "maiores",
+    "FullName": "Mrs. Dexter Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 784
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

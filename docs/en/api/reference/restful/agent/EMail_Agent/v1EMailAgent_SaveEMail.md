@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 7,
-      "ContactName": "Jakubowski LLC",
-      "PersonId": 728,
-      "PersonName": "Johnston LLC",
-      "AssociateId": 381,
-      "Address": "aliquam",
-      "EmailId": 982,
+      "ContactId": 714,
+      "ContactName": "Marquardt-Reichel",
+      "PersonId": 663,
+      "PersonName": "Blick, Welch and Wyman",
+      "AssociateId": 359,
+      "Address": "omnis",
+      "EmailId": 372,
       "DuplicatePersonIds": [
-        19,
-        680
+        692,
+        219
       ],
-      "Name": "Kutch, Welch and Schaefer",
+      "Name": "Jaskolski-Prosacco",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 447
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 775,
-      "ContactName": "Pouros-Gleichner",
-      "PersonId": 367,
-      "PersonName": "Paucek-Flatley",
-      "AssociateId": 350,
-      "Address": "magnam",
-      "EmailId": 791,
+      "ContactId": 813,
+      "ContactName": "Greenholt-Blick",
+      "PersonId": 144,
+      "PersonName": "Jacobi, Nikolaus and Krajcik",
+      "AssociateId": 157,
+      "Address": "ut",
+      "EmailId": 913,
       "DuplicatePersonIds": [
-        668,
-        415
+        467,
+        358
       ],
-      "Name": "Waelchi-Kub",
+      "Name": "Mertz Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldType": "System.String",
+          "FieldLength": 472
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 957,
-      "ContactName": "Treutel, Kiehn and Streich",
-      "PersonId": 426,
-      "PersonName": "Cole Group",
-      "AssociateId": 586,
-      "Address": "id",
-      "EmailId": 95,
+      "ContactId": 783,
+      "ContactName": "Schimmel-Jenkins",
+      "PersonId": 70,
+      "PersonName": "Okuneva Group",
+      "AssociateId": 844,
+      "Address": "iusto",
+      "EmailId": 399,
       "DuplicatePersonIds": [
-        498,
-        734
+        264,
+        87
       ],
-      "Name": "Skiles-Boehm",
+      "Name": "Adams-Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 529
+          "FieldLength": 752
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "cumque",
+  "Subject": "culpa",
+  "HTMLBody": "recusandae",
   "From": null,
-  "Sent": "2023-03-09T23:03:55.9691296+01:00",
-  "Size": 427,
+  "Sent": "2000-06-16T16:54:55.3709476+02:00",
+  "Size": 556,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "accusamus",
+  "MessageID": "exercitationem",
+  "PlainBody": "id",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 51,
+  "ServerId": 331,
   "Attachments": [
     {
-      "Description": "Cloned zero tolerance access",
-      "Filename": "sunt",
-      "Size": 198,
-      "Type": "nesciunt",
-      "Encoding": "sunt",
-      "Id": "praesentium",
-      "Disposition": "ullam",
-      "IsSafeFileExtension": true,
+      "Description": "Multi-tiered tangible interface",
+      "Filename": "reiciendis",
+      "Size": 147,
+      "Type": "doloremque",
+      "Encoding": "quia",
+      "Id": "voluptate",
+      "Disposition": "blanditiis",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldType": "System.String",
+          "FieldLength": 56
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cartwright-Walsh",
+      "Name": "Schuppe-Dare",
       "Values": [
-        "et",
-        "reiciendis"
+        "est",
+        "deserunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 85
+          "FieldType": "System.Int32",
+          "FieldLength": 35
         }
       }
     },
     {
-      "Name": "Cartwright-Walsh",
+      "Name": "Schuppe-Dare",
       "Values": [
-        "et",
-        "reiciendis"
+        "est",
+        "deserunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 85
+          "FieldType": "System.Int32",
+          "FieldLength": 35
         }
       }
     }
   ],
-  "FolderName": "Hand Inc and Sons",
-  "EmailItemId": 790,
-  "AccountId": 307,
-  "ReceivedAt": "2011-06-10T23:03:55.9691296+02:00",
+  "FolderName": "Langworth, Jaskolski and Nikolaus",
+  "EmailItemId": 944,
+  "AccountId": 486,
+  "ReceivedAt": "1997-08-15T16:54:55.3719479+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-03-17T23:03:55.9691296+01:00",
+  "RepliedAt": "2021-03-02T16:54:55.3719479+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldType": "System.String",
+      "FieldLength": 830
     }
   }
 }

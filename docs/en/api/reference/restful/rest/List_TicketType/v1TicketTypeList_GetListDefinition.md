@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 811,
-  "Name": "Hand-O'Hara",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 791,
-  "IsCustomList": false,
+  "Id": 12,
+  "Name": "Doyle, Ankunding and Marvin",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 939,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "culpa",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quo",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   },
   "_Links": {

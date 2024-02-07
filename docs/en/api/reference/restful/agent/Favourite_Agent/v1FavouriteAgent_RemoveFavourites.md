@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Fahey, O'Hara and Durgan",
+  "TableName": "Bernhard-Bednar",
   "RecordIds": [
-    183,
-    405
+    446,
+    823
   ],
-  "AssociateId": 430
+  "AssociateId": 439
 }
 ```
 

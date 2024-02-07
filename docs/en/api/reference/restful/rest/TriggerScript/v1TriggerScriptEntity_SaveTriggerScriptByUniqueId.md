@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 174,
-  "Name": "Swaniawski, Crist and Kulas",
+  "ScreenChooserId": 189,
+  "Name": "Harris LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "facere",
-  "Source": "consequatur",
-  "Registered": "2022-11-16T23:04:05.0020072+01:00",
-  "RegisteredAssociateId": 978,
-  "Updated": "2004-08-16T23:04:05.0020072+02:00",
-  "UpdatedAssociateId": 132
+  "Enabled": false,
+  "UniqueIdentifier": "earum",
+  "Source": "magnam",
+  "Registered": "2023-07-14T16:55:30.3178157+02:00",
+  "RegisteredAssociateId": 936,
+  "Updated": "2002-05-23T16:55:30.3178157+02:00",
+  "UpdatedAssociateId": 496
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 441,
-  "Name": "Wisoky, O'Kon and Veum",
+  "ScreenChooserId": 469,
+  "Name": "Blick Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "adipisci",
-  "Source": "asperiores",
-  "Registered": "2017-01-31T23:04:05.0030058+01:00",
-  "RegisteredAssociateId": 207,
-  "Updated": "2022-11-24T23:04:05.0030058+01:00",
-  "UpdatedAssociateId": 827,
+  "UniqueIdentifier": "quae",
+  "Source": "provident",
+  "Registered": "2004-02-23T16:55:30.3178157+01:00",
+  "RegisteredAssociateId": 510,
+  "Updated": "2017-12-30T16:55:30.3178157+01:00",
+  "UpdatedAssociateId": 693,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 881
     }
   }
 }

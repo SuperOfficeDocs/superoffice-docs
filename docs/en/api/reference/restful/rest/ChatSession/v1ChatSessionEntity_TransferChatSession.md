@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 509,
-  "TopicId": 710,
+  "ChatSessionId": 907,
+  "TopicId": 414,
   "User": null,
   "Person": null,
-  "CustomerAlias": "suscipit",
-  "CustomerHost": "natus",
-  "CustomerName": "Bednar, Hilpert and Hermiston",
-  "CustomerEmail": "kendra_nitzsche@upton.biz",
-  "CustomerPhone": "762-905-6690 x16350",
+  "CustomerAlias": "sed",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Monahan-Kautzer",
+  "CustomerEmail": "raphaelle@willrice.uk",
+  "CustomerPhone": "821-629-4962 x50499",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Yundt, Stroman and Predovic",
+  "CustomerCompanyName": "Ryan, Bernhard and Effertz",
   "Status": "Closed",
-  "FirstMessage": "porro",
-  "LastMessage": "corporis",
-  "WhenRequested": "2012-02-09T23:04:03.7775238+01:00",
-  "WhenStarted": "2018-06-28T23:04:03.7775238+02:00",
-  "WhenEnded": "2020-05-28T23:04:03.7775238+02:00",
-  "WhenIdle": "2002-01-13T23:04:03.7775238+01:00",
-  "WhenFetched": "2004-12-18T23:04:03.7775238+01:00",
-  "SessionKey": "deleniti",
-  "InitialQueuePos": 224,
-  "AlertLevel": 269,
-  "Rank": 591,
+  "FirstMessage": "veniam",
+  "LastMessage": "voluptatibus",
+  "WhenRequested": "1999-06-05T16:55:29.2936493+02:00",
+  "WhenStarted": "2017-05-27T16:55:29.2936493+02:00",
+  "WhenEnded": "2019-01-09T16:55:29.2936493+01:00",
+  "WhenIdle": "2011-09-17T16:55:29.2936493+02:00",
+  "WhenFetched": "2003-03-06T16:55:29.2936493+01:00",
+  "SessionKey": "quia",
+  "InitialQueuePos": 63,
+  "AlertLevel": 54,
+  "Rank": 151,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 785,
+  "Rating": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 526
     }
   }
 }

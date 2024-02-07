@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 349,
-  "ERPQuoteLineKey": "recusandae",
-  "QuoteAlternativeId": 875,
-  "ERPProductKey": "expedita",
+  "QuoteLineId": 24,
+  "ERPQuoteLineKey": "tempora",
+  "QuoteAlternativeId": 895,
+  "ERPProductKey": "ipsa",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 19888.363999999998,
-  "DeliveredQuantity": 3024.31,
-  "Rank": 605,
-  "Name": "Tremblay-Schinner",
-  "Description": "Total non-volatile open system",
-  "Code": "repudiandae",
-  "QuantityUnit": "sit",
-  "PriceUnit": "optio",
-  "ItemNumber": "1052455",
+  "Quantity": 4368.796,
+  "DeliveredQuantity": 2344.232,
+  "Rank": 775,
+  "Name": "Rosenbaum LLC",
+  "Description": "Organic motivating algorithm",
+  "Code": "error",
+  "QuantityUnit": "et",
+  "PriceUnit": "cum",
+  "ItemNumber": "1116426",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ullam",
-  "ProductTypeKey": "minima",
-  "Supplier": "similique",
-  "SupplierCode": "qui",
-  "Thumbnail": "nostrum",
-  "VATInfo": "architecto",
-  "VAT": 25927.582,
-  "UnitCost": 25159.752,
-  "UnitMinimumPrice": 22649.417999999998,
-  "UnitListPrice": 1234.796,
+  "ProductFamilyKey": "itaque",
+  "ProductTypeKey": "ea",
+  "Supplier": "nisi",
+  "SupplierCode": "animi",
+  "Thumbnail": "non",
+  "VATInfo": "iusto",
+  "VAT": 26635.865999999998,
+  "UnitCost": 1479.248,
+  "UnitMinimumPrice": 28691.77,
+  "UnitListPrice": 341.606,
   "ExtraInfo": [
     {
-      "Name": "Wisozk, Romaguera and Kirlin",
-      "Value": "consequatur",
+      "Name": "Medhurst Inc and Sons",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 877
         }
       }
     },
     {
-      "Name": "Wisozk, Romaguera and Kirlin",
-      "Value": "consequatur",
+      "Name": "Medhurst Inc and Sons",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 877
         }
       }
     }
   ],
-  "RawExtraInfo": "totam",
-  "IsSubscription": true,
-  "SubscriptionUnit": "non",
-  "SubscriptionQuantity": 1557.598,
-  "SubscriptionStart": "2013-07-31T23:03:56.8011176+02:00",
-  "ERPDiscountPercent": 21323.736,
-  "ERPDiscountAmount": 17296.546,
-  "DiscountPercent": 23367.104,
-  "DiscountAmount": 1795.782,
+  "RawExtraInfo": "temporibus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "officiis",
+  "SubscriptionQuantity": 27406.829999999998,
+  "SubscriptionStart": "2011-01-11T16:54:56.1579756+01:00",
+  "ERPDiscountPercent": 29356.178,
+  "ERPDiscountAmount": 28074.372,
+  "DiscountPercent": 30330.852,
+  "DiscountAmount": 29914.03,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23263.682,
-  "EarningAmount": 20737.678,
-  "SubTotal": 19888.363999999998,
-  "TotalPrice": 24968.577999999998,
-  "Rights": "est",
-  "Rule": "officiis",
-  "ExtraField1": "qui",
-  "ExtraField2": "autem",
-  "ExtraField3": "qui",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "rem",
+  "EarningPercent": 4343.724,
+  "EarningAmount": 29635.104,
+  "SubTotal": 25617.316,
+  "TotalPrice": 28039.897999999997,
+  "Rights": "officia",
+  "Rule": "doloremque",
+  "ExtraField1": "ab",
+  "ExtraField2": "et",
+  "ExtraField3": "voluptate",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 515
     }
   }
 }

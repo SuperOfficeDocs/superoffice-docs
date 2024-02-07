@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=voluptatibus
-GET /api/v1/Ticket?$top=60
-GET /api/v1/Ticket?$skip=717
+GET /api/v1/Ticket?$entities=sapiente
+GET /api/v1/Ticket?$top=943
+GET /api/v1/Ticket?$skip=421
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=quos
+GET /api/v1/Ticket?$context=ut
 GET /api/v1/Ticket?$format=JSON
 GET /api/v1/Ticket?$jsonSafe=False
 GET /api/v1/Ticket?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "maxime",
+  "odata.nextLink": "dolor",
   "value": [
     {
-      "PrimaryKey": 5759,
-      "EntityName": "person",
-      "personId": 5759,
-      "fullName": "Miss Dedric Kris Marvin Jr."
+      "PrimaryKey": 2724,
+      "EntityName": "sale",
+      "saleId": 2724,
+      "contactId": 9063,
+      "name": "Runolfsdottir-Schmitt"
     },
     {
-      "PrimaryKey": 5088,
-      "EntityName": "person",
-      "personId": 5088,
-      "fullName": "Michale Stanton"
+      "PrimaryKey": 686,
+      "EntityName": "sale",
+      "saleId": 686,
+      "contactId": 9610,
+      "name": "Murazik LLC"
     }
   ]
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "tempora",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 152,
-      "EntityName": "person",
-      "personId": 152,
-      "fullName": "Rocky Macejkovic"
+      "PrimaryKey": 2999,
+      "EntityName": "sale",
+      "saleId": 2999,
+      "contactId": 2144,
+      "name": "Schiller LLC"
     },
     {
-      "PrimaryKey": 122,
-      "EntityName": "person",
-      "personId": 122,
-      "fullName": "Leonora Rolfson"
+      "PrimaryKey": 5288,
+      "EntityName": "sale",
+      "saleId": 5288,
+      "contactId": 686,
+      "name": "Reichel-Hand"
     }
   ]
 }

@@ -2,9 +2,7 @@
 uid: selectionfavourite
 title: selectionfavourite
 keywords: mdoprovider mdo provider selectionfavourite
-description: MDO list provider for selection favourites.
-Supported additionalInfo:
-membertype=[tablename] to restrict to one kind of entities.
+description: MDO list provider for selection favourites. Supported additionalInfo - membertype=[tablename] to restrict to one kind of entities.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

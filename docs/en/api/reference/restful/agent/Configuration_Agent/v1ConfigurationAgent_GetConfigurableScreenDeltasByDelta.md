@@ -72,8 +72,8 @@ OK
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
 | TableRight | TableRight | The carrier's table right |
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 203,
-    "Name": "Rolfson Inc and Sons",
-    "Description": "User-centric human-resource installation",
-    "DeltaJson": "voluptatem",
+    "ConfigurableScreenDeltaId": 981,
+    "Name": "Kulas, Cartwright and Kulas",
+    "Description": "Extended methodical toolset",
+    "DeltaJson": "rerum",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "rem",
-    "UpdatedDate": "2010-01-22T23:03:55.2366391+01:00",
-    "CreatedDate": "2017-03-04T23:03:55.2366391+01:00",
+    "RecipeId": "architecto",
+    "UpdatedDate": "1997-07-14T16:54:54.8881745+02:00",
+    "CreatedDate": "2000-02-19T16:54:54.8881745+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      223,
-      326
+      779,
+      234
     ],
-    "AppliesToKey": "earum",
+    "AppliesToKey": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 220
       }
     }
   }

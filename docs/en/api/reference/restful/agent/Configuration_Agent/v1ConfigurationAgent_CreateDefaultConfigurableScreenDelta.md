@@ -56,8 +56,8 @@ OK
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
 | TableRight | TableRight | The carrier's table right |
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 86,
-  "Name": "Kovacek-Rice",
-  "Description": "Synergistic heuristic structure",
-  "DeltaJson": "sequi",
+  "ConfigurableScreenDeltaId": 348,
+  "Name": "Waelchi, Hermann and Bechtelar",
+  "Description": "Switchable grid-enabled time-frame",
+  "DeltaJson": "culpa",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "fugit",
-  "UpdatedDate": "2017-05-09T23:03:55.2226394+02:00",
-  "CreatedDate": "2012-02-20T23:03:55.2226394+01:00",
+  "RecipeId": "ea",
+  "UpdatedDate": "2006-05-18T16:54:54.8771701+02:00",
+  "CreatedDate": "1999-01-23T16:54:54.8771701+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    426,
-    443
+    828,
+    950
   ],
-  "AppliesToKey": "molestiae",
+  "AppliesToKey": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   }
 }

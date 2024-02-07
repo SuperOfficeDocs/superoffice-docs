@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=quidem
-GET /api/v1/Sale?$top=112
-GET /api/v1/Sale?$skip=666
+GET /api/v1/Sale?$entities=non
+GET /api/v1/Sale?$top=996
+GET /api/v1/Sale?$skip=796
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=recusandae
+GET /api/v1/Sale?$context=qui
 GET /api/v1/Sale?$format=JSON
-GET /api/v1/Sale?$jsonSafe=False
+GET /api/v1/Sale?$jsonSafe=True
 GET /api/v1/Sale?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repudiandae",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 3544,
-      "EntityName": "person",
-      "personId": 3544,
-      "fullName": "Alexander McCullough"
+      "PrimaryKey": 6125,
+      "EntityName": "sale",
+      "saleId": 6125,
+      "contactId": 3821,
+      "name": "Bauch, Murray and Bruen"
     },
     {
-      "PrimaryKey": 891,
-      "EntityName": "person",
-      "personId": 891,
-      "fullName": "Miss Xzavier Kirlin"
+      "PrimaryKey": 2971,
+      "EntityName": "sale",
+      "saleId": 2971,
+      "contactId": 8054,
+      "name": "Padberg, Emard and Nolan"
     }
   ]
 }

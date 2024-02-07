@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "in",
-  "ProviderName": "Marks, Purdy and Franecki",
-  "DesiredColumns": "et",
-  "OrderBy": "hic",
-  "PageSize": 476,
-  "PageNumber": 142
+  "Restrictions": "et",
+  "ProviderName": "Wolf Group",
+  "DesiredColumns": "sequi",
+  "OrderBy": "ipsa",
+  "PageSize": 592,
+  "PageNumber": 789
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Johnston-Huel",
-      "DisplayTooltip": "aut",
-      "DisplayType": "doloribus",
+      "DisplayName": "Schulist LLC",
+      "DisplayTooltip": "voluptatibus",
+      "DisplayType": "nostrum",
       "CanOrderBy": false,
-      "Name": "Carter, Barton and Schoen",
-      "CanRestrictBy": true,
-      "RestrictionType": "eum",
-      "RestrictionListName": "Hegmann Group",
+      "Name": "Towne Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "et",
+      "RestrictionListName": "Pouros LLC",
       "IsVisible": false,
-      "ExtraInfo": "dicta",
-      "Width": "voluptatum",
-      "IconHint": "qui",
-      "HeadingIconHint": "modi"
+      "ExtraInfo": "modi",
+      "Width": "ut",
+      "IconHint": "vero",
+      "HeadingIconHint": "non"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bergnaum-Jacobson",
-      "PrimaryKey": 413,
+      "EntityName": "Runte-Considine",
+      "PrimaryKey": 967,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "magni",
-          "TooltipHint": "iusto",
-          "LinkHint": "eos"
+          "DisplayValue": "nihil",
+          "TooltipHint": "ex",
+          "LinkHint": "commodi"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "laborum",
+      "LinkHint": "nulla",
+      "StyleHint": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
   ],
-  "RowCount": 181,
+  "RowCount": 367,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 50
     }
   }
 }

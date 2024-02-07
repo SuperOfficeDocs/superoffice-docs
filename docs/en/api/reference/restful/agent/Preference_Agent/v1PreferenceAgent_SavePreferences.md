@@ -73,16 +73,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "voluptatem",
       "Specification": null,
-      "DisplayValue": "tempore",
-      "DisplayTooltip": "consectetur",
+      "DisplayValue": "in",
+      "DisplayTooltip": "cum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 552,
-      "PrefDescId": 574,
-      "TableName": "Crooks-Hodkiewicz",
-      "UserPreferenceId": 987
+      "TargetId": 333,
+      "PrefDescId": 422,
+      "TableName": "Pollich-Kuhlman",
+      "UserPreferenceId": 156
     }
   ]
 }

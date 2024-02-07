@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 581,
-  "PlainMessage": "accusantium",
-  "HtmlMessage": "corporis",
-  "SmsMessage": "ut",
-  "Description": "Advanced value-added firmware",
-  "Subject": "et",
-  "FolderId": 398,
-  "HeaderField": "sunt",
-  "Design": "nam",
+  "ShipmentMessageId": 299,
+  "PlainMessage": "molestias",
+  "HtmlMessage": "sequi",
+  "SmsMessage": "commodi",
+  "Description": "Fully-configurable logistical portal",
+  "Subject": "laudantium",
+  "FolderId": 188,
+  "HeaderField": "et",
+  "Design": "beatae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Business-focused zero administration instruction set",
-  "AccessKey": "et",
-  "DocumentMessage": 94,
-  "Registered": "2015-06-21T23:04:04.8065107+02:00",
-  "RegisteredAssociateId": 470,
-  "Updated": "2017-10-31T23:04:04.8065107+01:00",
-  "UpdatedAssociateId": 732,
-  "UpdatedCount": 810
+  "InlineImages": false,
+  "LongDescription": "Proactive grid-enabled access",
+  "AccessKey": "qui",
+  "DocumentMessage": 167,
+  "Registered": "2015-05-03T16:55:30.1450214+02:00",
+  "RegisteredAssociateId": 499,
+  "Updated": "2000-06-07T16:55:30.1450214+02:00",
+  "UpdatedAssociateId": 180,
+  "UpdatedCount": 534
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 972,
-  "PlainMessage": "qui",
-  "HtmlMessage": "temporibus",
-  "SmsMessage": "adipisci",
-  "Description": "Decentralized fault-tolerant initiative",
-  "Subject": "aut",
-  "FolderId": 83,
-  "HeaderField": "non",
-  "Design": "ad",
+  "ShipmentMessageId": 511,
+  "PlainMessage": "corporis",
+  "HtmlMessage": "architecto",
+  "SmsMessage": "maiores",
+  "Description": "Extended assymetric circuit",
+  "Subject": "est",
+  "FolderId": 419,
+  "HeaderField": "voluptas",
+  "Design": "atque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Function-based executive application",
-  "AccessKey": "et",
-  "DocumentMessage": 479,
-  "Registered": "2018-06-14T23:04:04.8070092+02:00",
-  "RegisteredAssociateId": 691,
-  "Updated": "2008-04-28T23:04:04.8070092+02:00",
-  "UpdatedAssociateId": 32,
-  "UpdatedCount": 871,
+  "LongDescription": "Synergistic context-sensitive task-force",
+  "AccessKey": "ut",
+  "DocumentMessage": 329,
+  "Registered": "2005-01-08T16:55:30.1450214+01:00",
+  "RegisteredAssociateId": 766,
+  "Updated": "2002-10-26T16:55:30.1450214+02:00",
+  "UpdatedAssociateId": 591,
+  "UpdatedCount": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 590
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

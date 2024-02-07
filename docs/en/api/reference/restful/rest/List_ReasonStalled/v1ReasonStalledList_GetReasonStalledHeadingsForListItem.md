@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Bosco-O'Connell",
-    "ToolTip": "Iusto iste adipisci rerum.",
+    "Id": 81,
+    "Name": "Howe, Strosin and Walter",
+    "ToolTip": "Sit veritatis iusto voluptates iure numquam laudantium laborum.",
     "Deleted": false,
-    "Rank": 712,
-    "Type": "porro",
-    "ColorBlock": 174,
-    "IconHint": "eligendi",
-    "Selected": false,
-    "LastChanged": "2009-08-10T23:04:05.7840016+02:00",
+    "Rank": 557,
+    "Type": "consequatur",
+    "ColorBlock": 91,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2018-04-26T16:55:31.0511829+02:00",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Mueller, Dooley and Volkman",
-        "ToolTip": "Cum suscipit quasi excepturi quos ea reiciendis expedita.",
-        "Deleted": true,
-        "Rank": 894,
-        "Type": "eveniet",
-        "ColorBlock": 566,
-        "IconHint": "est",
+        "Id": 285,
+        "Name": "Becker-Ratke",
+        "ToolTip": "Qui odit sunt earum.",
+        "Deleted": false,
+        "Rank": 440,
+        "Type": "enim",
+        "ColorBlock": 255,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2008-03-20T23:04:05.7840016+01:00",
+        "LastChanged": "2018-10-19T16:55:31.0511829+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "laborum",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Miss Dax Senger",
+        "FullName": "Krista Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 798
+            "FieldLength": 532
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Joe Crooks",
+    "ExtraInfo": "nam",
+    "StyleHint": "aliquam",
+    "Hidden": false,
+    "FullName": "Miss River Elva Halvorson IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldType": "System.String",
+        "FieldLength": 775
       }
     }
   }

@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 667,
-  "Count": 944
+  "WeightedAmountLimit": 65,
+  "Count": 83
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Nikolaus, Bogan and Bednar",
-    "SaleDate": "1999-06-19T23:03:56.9246193+02:00",
-    "SaleId": 171,
-    "Probability": 385,
-    "Title": "qui",
-    "Amount": 1886.668,
-    "Currency": "culpa",
-    "ProjectName": "Macejkovic Inc and Sons",
-    "AssociateFullName": "Louie McDermott",
-    "Description": "Streamlined transitional internet solution",
+    "ContactName": "Volkman-Hyatt",
+    "SaleDate": "2000-02-28T16:54:56.2575238+01:00",
+    "SaleId": 399,
+    "Probability": 57,
+    "Title": "ea",
+    "Amount": 22082.164,
+    "Currency": "distinctio",
+    "ProjectName": "Cronin-Mertz",
+    "AssociateFullName": "Zachary Lind",
+    "Description": "Multi-channelled full-range model",
     "Status": "Lost",
-    "WeightedAmount": 25774.016,
-    "ProjectId": 365,
-    "EarningPercent": 17763.512,
-    "Earning": 28832.8,
-    "ContactId": 782,
-    "AssociateId": 876,
-    "PersonId": 75,
-    "SaleTypeId": 377,
-    "SaleTypeName": "Swaniawski Group",
-    "PersonFullName": "Burley Miller",
+    "WeightedAmount": 19242.76,
+    "ProjectId": 668,
+    "EarningPercent": 18440.456,
+    "Earning": 27663.818,
+    "ContactId": 824,
+    "AssociateId": 942,
+    "PersonId": 174,
+    "SaleTypeId": 26,
+    "SaleTypeName": "Hyatt, Gutmann and Koch",
+    "PersonFullName": "Georgianna Kihn Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 217,
-    "NextDueDate": "1997-04-11T23:03:56.9251168+02:00",
-    "Number": "1647586",
+    "ActiveErpLinks": 430,
+    "NextDueDate": "2013-02-13T16:54:56.2585204+01:00",
+    "Number": "473460",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 50
       }
     }
   }

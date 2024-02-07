@@ -107,30 +107,30 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 744,
-  "UniqueId": "odit",
-  "Name": "Gutmann, Yundt and Erdman",
-  "Description": "Expanded non-volatile application",
-  "AssociateId": 213,
-  "Columns": 188,
+  "DashboardId": 221,
+  "UniqueId": "veritatis",
+  "Name": "Schulist-Cassin",
+  "Description": "Ameliorated analyzing installation",
+  "AssociateId": 305,
+  "Columns": 838,
   "Theme": null,
-  "VisibleForAll": 804,
+  "VisibleForAll": 925,
   "VisibleForAssociates": [
-    590,
-    749
+    405,
+    634
   ],
   "VisibleForGroups": [
-    31,
-    753
+    4,
+    988
   ],
-  "PinForAll": 401,
+  "PinForAll": 914,
   "PinForAssociates": [
-    266,
-    468
+    997,
+    15
   ],
   "PinForGroups": [
-    222,
-    575
+    744,
+    364
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 466,
-  "UniqueId": "amet",
-  "Name": "Smitham, Kohler and Heller",
-  "Description": "Face to face interactive access",
-  "AssociateId": 91,
-  "Columns": 252,
+  "DashboardId": 14,
+  "UniqueId": "aut",
+  "Name": "Johnson Group",
+  "Description": "Vision-oriented intermediate parallelism",
+  "AssociateId": 232,
+  "Columns": 45,
   "Theme": null,
-  "VisibleForAll": 8,
+  "VisibleForAll": 90,
   "VisibleForAssociates": [
-    557,
-    437
+    882,
+    858
   ],
   "VisibleForGroups": [
-    76,
-    11
+    445,
+    715
   ],
-  "PinForAll": 945,
+  "PinForAll": 828,
   "PinForAssociates": [
-    695,
-    56
+    24,
+    353
   ],
   "PinForGroups": [
-    100,
-    829
+    467,
+    248
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 477
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 409,
-    "Name": "Kiehn, Casper and Kassulke",
-    "Tooltip": "voluptatem",
+    "HeadingId": 460,
+    "Name": "Ankunding, Cremin and Dicki",
+    "Tooltip": "quas",
     "Deleted": false,
-    "Rank": 246,
-    "UdListDefinitionId": 702,
+    "Rank": 609,
+    "UdListDefinitionId": 801,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 414
+        "FieldLength": 703
       }
     }
   }

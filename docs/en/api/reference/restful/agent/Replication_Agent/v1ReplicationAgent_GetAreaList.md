@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 58,
-    "Name": "Abshire Group",
-    "MaxDataAge": 828,
-    "NumberOfUsers": 543,
-    "NumberOfLogins": 997,
+    "AreaId": 961,
+    "Name": "Gislason, Walsh and Crist",
+    "MaxDataAge": 475,
+    "NumberOfUsers": 61,
+    "NumberOfLogins": 370,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldLength": 462
       }
     }
   }

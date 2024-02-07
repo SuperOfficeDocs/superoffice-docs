@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Lindgren Group",
-    "Wolf, Ondricka and Waelchi"
+    "Schroeder, Kemmer and Russel",
+    "Langworth, Hodkiewicz and Ferry"
   ],
-  "Culture": "ab",
-  "ActiveOnly": true
+  "Culture": "laudantium",
+  "ActiveOnly": false
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Wilkinson-Friesen",
-    "ResourceValue": "modi",
-    "Culture": "in",
+    "ResourceName": "Grady-Turner",
+    "ResourceValue": "ut",
+    "Culture": "dolorem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   },
   {
-    "ResourceName": "Wilkinson-Friesen",
-    "ResourceValue": "modi",
-    "Culture": "in",
+    "ResourceName": "Grady-Turner",
+    "ResourceValue": "ut",
+    "Culture": "dolorem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   }

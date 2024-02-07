@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 213,
-  "Name": "Powlowski, Upton and Murphy",
-  "Tooltip": "iure",
-  "Rank": 842,
-  "Rate": 6612.74,
-  "Units": 6471.71,
-  "Deleted": false,
+  "CurrencyId": 441,
+  "Name": "Bahringer LLC",
+  "Tooltip": "rerum",
+  "Rank": 37,
+  "Rate": 2284.686,
+  "Units": 30572.17,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 214
     }
   }
 }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Kassulke-Sawayn",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 684,
+  "Id": 47,
+  "Name": "Murazik Group",
+  "Tooltip": "molestias",
+  "Deleted": false,
+  "Rank": 91,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Schimmel, Ondricka and Kuhic",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "Rank": 222,
+  "Id": 785,
+  "Name": "Gutkowski, Lubowitz and Rodriguez",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 930,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 266
     }
   }
 }

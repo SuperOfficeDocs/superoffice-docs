@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Value": "a",
-    "Tooltip": "aperiam",
+    "Id": 675,
+    "Value": "sint",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 661
       }
     }
   },
   {
-    "Id": 597,
-    "Value": "a",
-    "Tooltip": "aperiam",
+    "Id": 675,
+    "Value": "sint",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 661
       }
     }
   }

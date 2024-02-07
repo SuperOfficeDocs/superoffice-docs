@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "rerum"
+  "ChatId": "ducimus"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2009-05-08T23:03:54.3561518+02:00",
-    "UserPrompt": "totam",
-    "UserDisplayText": "perspiciatis",
-    "BotResponse": "id",
+    "Timestamp": "1999-03-20T16:54:54.1891885+01:00",
+    "UserPrompt": "blanditiis",
+    "UserDisplayText": "corporis",
+    "BotResponse": "et",
     "BotActions": {
-      "BotActions1": "iste",
-      "BotActions2": "deserunt"
+      "BotActions1": "aliquam",
+      "BotActions2": "qui"
     },
     "Attachments": [
-      "earum",
-      "ea"
+      "cumque",
+      "est"
     ]
   },
   {
-    "Timestamp": "2009-05-08T23:03:54.3561518+02:00",
-    "UserPrompt": "totam",
-    "UserDisplayText": "perspiciatis",
-    "BotResponse": "id",
+    "Timestamp": "1999-03-20T16:54:54.1891885+01:00",
+    "UserPrompt": "blanditiis",
+    "UserDisplayText": "corporis",
+    "BotResponse": "et",
     "BotActions": {
-      "BotActions1": "iste",
-      "BotActions2": "deserunt"
+      "BotActions1": "aliquam",
+      "BotActions2": "qui"
     },
     "Attachments": [
-      "earum",
-      "ea"
+      "cumque",
+      "est"
     ]
   }
 ]

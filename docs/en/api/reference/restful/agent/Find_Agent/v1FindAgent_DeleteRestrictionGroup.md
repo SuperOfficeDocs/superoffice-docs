@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Ledner Inc and Sons",
-  "StorageKey": "eum",
-  "Rank": 929,
-  "Context": "culpa"
+  "StorageType": "at",
+  "ProviderName": "Lang-Maggio",
+  "StorageKey": "doloremque",
+  "Rank": 263,
+  "Context": "delectus"
 }
 ```
 

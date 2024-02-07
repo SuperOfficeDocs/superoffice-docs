@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 456,
-  "ERPPriceListKey": "corporis",
-  "QuoteConnectionId": 607,
-  "Name": "Hammes LLC",
-  "Description": "Digitized assymetric secured line",
-  "Currency": "eos",
-  "CurrencyName": "Cremin-Abbott",
-  "ValidFrom": "2023-12-14T23:03:56.7356185+01:00",
-  "ValidTo": "2003-08-09T23:03:56.7356185+02:00",
+  "PriceListId": 301,
+  "ERPPriceListKey": "accusamus",
+  "QuoteConnectionId": 168,
+  "Name": "Dickens LLC",
+  "Description": "Progressive actuating synergy",
+  "Currency": "dolores",
+  "CurrencyName": "Jones LLC",
+  "ValidFrom": "2010-12-15T16:54:56.10916+01:00",
+  "ValidTo": "1998-08-10T16:54:56.10916+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 178
     }
   }
 }

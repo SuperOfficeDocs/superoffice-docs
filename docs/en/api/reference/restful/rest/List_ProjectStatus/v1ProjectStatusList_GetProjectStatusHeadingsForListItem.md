@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Bogan-Hegmann",
-    "ToolTip": "Rerum rerum iste amet aliquid.",
-    "Deleted": false,
-    "Rank": 817,
-    "Type": "quam",
-    "ColorBlock": 129,
-    "IconHint": "sit",
+    "Id": 935,
+    "Name": "Kuphal, Howell and Wolff",
+    "ToolTip": "Ut aut repellat.",
+    "Deleted": true,
+    "Rank": 21,
+    "Type": "beatae",
+    "ColorBlock": 726,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2008-12-16T23:04:05.6674985+01:00",
+    "LastChanged": "2022-01-13T16:55:30.8377356+01:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Prohaska, Zemlak and Deckow",
-        "ToolTip": "Accusantium sed beatae ipsam eveniet.",
-        "Deleted": true,
-        "Rank": 772,
-        "Type": "est",
-        "ColorBlock": 239,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2015-02-27T23:04:05.6674985+01:00",
+        "Id": 432,
+        "Name": "Stokes Inc and Sons",
+        "ToolTip": "Ducimus expedita maiores ut eius at et.",
+        "Deleted": false,
+        "Rank": 408,
+        "Type": "esse",
+        "ColorBlock": 25,
+        "IconHint": "saepe",
+        "Selected": true,
+        "LastChanged": "1998-10-11T16:55:30.8377356+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Letha Rau",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Eliseo Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 194
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "in",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Jeromy Swift",
+    "FullName": "Marco Farrell IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 709
+        "FieldLength": 946
       }
     }
   }

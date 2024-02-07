@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "ipsam"
+  "FileContent": "tempora"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "expedite 24/365 networks",
-  "CanBeActivated": true,
+  "Reason": "innovate transparent content",
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 726,
-      "NumberOfLicensesFree": 524,
-      "NumberOfLicensesAdded": 408,
-      "NumberOfLicensesNewTotal": 712,
-      "NumberOfLicensesNewFree": 389,
-      "NumberOfLicensesTotal": 80
+      "NumberOfLicensesInUse": 380,
+      "NumberOfLicensesFree": 51,
+      "NumberOfLicensesAdded": 431,
+      "NumberOfLicensesNewTotal": 103,
+      "NumberOfLicensesNewFree": 217,
+      "NumberOfLicensesTotal": 677
     }
   ],
-  "AccumulatedNextCheckDate": "2021-08-11T23:03:56.1416328+02:00"
+  "AccumulatedNextCheckDate": "2021-03-24T16:54:55.505469+01:00"
 }
 ```

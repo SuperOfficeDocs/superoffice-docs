@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Hirthe Inc and Sons",
-  "TypicalSearchId": 903
+  "EntityName": "Larson LLC",
+  "TypicalSearchId": 939
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Miller LLC",
-  "SelectionId": 571,
-  "CanSaveAsSelection": false,
-  "MainHeading": "et",
-  "FilterScreenHeading": "omnis",
-  "SelectionEntityHeading": "consequatur",
+  "ProviderName": "Renner Inc and Sons",
+  "SelectionId": 323,
+  "CanSaveAsSelection": true,
+  "MainHeading": "excepturi",
+  "FilterScreenHeading": "incidunt",
+  "SelectionEntityHeading": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 188
     }
   }
 }

@@ -88,16 +88,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 330,
-  "Name": "Hamill-Schmitt",
-  "Tooltip": "voluptates",
+  "Id": 921,
+  "Name": "Ziemann, Zieme and Jerde",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 155,
+  "Rank": 909,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cupiditate",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "necessitatibus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "Willms, Prosacco and Cronin",
-  "Tooltip": "temporibus",
+  "Id": 832,
+  "Name": "Little Group",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 960,
+  "Rank": 955,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "animi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 843
     }
   }
 }

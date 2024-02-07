@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nam",
-  "ProviderName": "Greenfelder-Botsford"
+  "StorageType": "accusamus",
+  "ProviderName": "Buckridge LLC"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "neque",
-  "ut"
+  "itaque",
+  "fuga"
 ]
 ```

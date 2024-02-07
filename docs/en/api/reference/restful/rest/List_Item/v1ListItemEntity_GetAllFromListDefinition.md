@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Klocko Group",
-    "Tooltip": "est",
+    "Id": 999,
+    "Name": "Murphy-Schuster",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "UdListDefinitionId": 194,
-    "Rank": 184,
+    "UdListDefinitionId": 326,
+    "Rank": 96,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

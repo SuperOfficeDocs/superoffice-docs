@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 818,
-  "Name": "Feeney, Wehner and Dickens",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "UdListDefinitionId": 449,
-  "Rank": 676
+  "Id": 586,
+  "Name": "Osinski-Halvorson",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "UdListDefinitionId": 576,
+  "Rank": 448
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Streich Group",
-  "Tooltip": "consequatur",
+  "Id": 182,
+  "Name": "Jewess-Lueilwitz",
+  "Tooltip": "vero",
   "Deleted": false,
-  "UdListDefinitionId": 610,
-  "Rank": 753,
+  "UdListDefinitionId": 510,
+  "Rank": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

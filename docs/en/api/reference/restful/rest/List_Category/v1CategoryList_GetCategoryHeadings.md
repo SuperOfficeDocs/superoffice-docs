@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 635,
-    "Name": "Hoppe, Nader and Jewess",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "Rank": 206,
-    "UdListDefinitionId": 240,
+    "HeadingId": 632,
+    "Name": "Cummings-Schinner",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "Rank": 943,
+    "UdListDefinitionId": 276,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldLength": 587
       }
     }
   }

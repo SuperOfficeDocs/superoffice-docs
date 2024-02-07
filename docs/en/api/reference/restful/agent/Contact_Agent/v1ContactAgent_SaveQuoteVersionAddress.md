@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 6,
+  "QuoteVersionId": 290,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 61
+  "CountryId": 940
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 21239.118,
-  "Wgs84Longitude": 5390.48,
+  "Wgs84Latitude": 11818.314,
+  "Wgs84Longitude": 21029.14,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bayer-Parisian",
-        "Value": "et",
-        "Tooltip": "soluta",
+        "Name": "Trantow Inc and Sons",
+        "Value": "quo",
+        "Tooltip": "ea",
         "Label": "aut",
-        "ValueLength": 400,
-        "AddressType": "veritatis",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 551
-          }
-        }
-      }
-    ],
-    [
-      {
-        "Name": "Brown, Metz and Hayes",
-        "Value": "ducimus",
-        "Tooltip": "illum",
-        "Label": "ad",
-        "ValueLength": 57,
+        "ValueLength": 784,
         "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 351
+          }
+        }
+      }
+    ],
+    [
+      {
+        "Name": "Paucek-Pagac",
+        "Value": "quasi",
+        "Tooltip": "suscipit",
+        "Label": "nemo",
+        "ValueLength": 254,
+        "AddressType": "amet",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 560
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "corporis",
+  "Formatted": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldType": "System.Int32",
+      "FieldLength": 39
     }
   }
 }

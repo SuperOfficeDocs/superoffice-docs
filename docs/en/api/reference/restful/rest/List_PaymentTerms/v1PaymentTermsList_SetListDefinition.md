@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364,
-  "Name": "Little, Abshire and Spencer",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "Rank": 206,
+  "Id": 1000,
+  "Name": "Renner Group",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 277,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dignissimos",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "Mayer LLC",
-  "Tooltip": "omnis",
+  "Id": 844,
+  "Name": "Armstrong LLC",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 644,
-  "IsCustomList": true,
+  "Rank": 261,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 65
     }
   }
 }

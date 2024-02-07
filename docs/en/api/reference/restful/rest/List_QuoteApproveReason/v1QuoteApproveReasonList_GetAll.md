@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Schimmel, Hauck and Larson",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "UdListDefinitionId": 299,
-    "Rank": 589,
+    "Id": 174,
+    "Name": "Brakus LLC",
+    "Tooltip": "provident",
+    "Deleted": false,
+    "UdListDefinitionId": 561,
+    "Rank": 685,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldType": "System.String",
+        "FieldLength": 190
       }
     }
   }

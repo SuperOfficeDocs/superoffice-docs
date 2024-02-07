@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=omnis
+GET /api/v1/List/ConsentPurpose/MDOItems?query=quam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Gusikowski-Blanda",
-    "ToolTip": "Saepe unde.",
+    "Id": 417,
+    "Name": "Mosciski Group",
+    "ToolTip": "Excepturi doloribus voluptas a.",
     "Deleted": false,
-    "Rank": 256,
-    "Type": "culpa",
+    "Rank": 801,
+    "Type": "alias",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Runolfsson, Franecki and Murazik",
-        "ToolTip": "Repellendus dolore labore quae.",
+        "Id": 557,
+        "Name": "Predovic, Monahan and Abshire",
+        "ToolTip": "Unde in distinctio et ut itaque.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "quia",
+        "Rank": 39,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 288,
-        "ExtraInfo": "laudantium",
-        "StyleHint": "et",
-        "FullName": "Teagan Hintz",
+        "IconHint": "ducimus",
+        "ColorBlock": 292,
+        "ExtraInfo": "sint",
+        "StyleHint": "quia",
+        "FullName": "Ms. Soledad Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 416
+            "FieldLength": 332
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 461,
-    "ExtraInfo": "et",
-    "StyleHint": "error",
-    "FullName": "Prof. Caroline Okuneva MD",
+    "IconHint": "tempora",
+    "ColorBlock": 96,
+    "ExtraInfo": "repellat",
+    "StyleHint": "non",
+    "FullName": "Madyson Swaniawski IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 48
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

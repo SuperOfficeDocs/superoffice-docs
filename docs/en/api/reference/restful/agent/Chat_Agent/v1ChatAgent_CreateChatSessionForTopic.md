@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 985
+  "ChatTopicId": 984
 }
 ```
 
@@ -118,43 +118,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 831,
-  "TopicId": 624,
+  "ChatSessionId": 970,
+  "TopicId": 460,
   "User": null,
   "Person": null,
-  "CustomerAlias": "deleniti",
-  "CustomerHost": "corporis",
-  "CustomerName": "Toy-Green",
-  "CustomerEmail": "vaughn.ziemann@hudson.info",
-  "CustomerPhone": "875-821-5168",
+  "CustomerAlias": "sit",
+  "CustomerHost": "debitis",
+  "CustomerName": "Kerluke-Lakin",
+  "CustomerEmail": "sandrine_jakubowski@hermanfay.us",
+  "CustomerPhone": "(958)000-8621 x08661",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Donnelly-Heathcote",
+  "CustomerCompanyName": "Spencer, Thompson and Fisher",
   "Status": "Closed",
-  "FirstMessage": "beatae",
-  "LastMessage": "nisi",
-  "WhenRequested": "2001-11-15T23:03:55.2176474+01:00",
-  "WhenStarted": "2001-06-19T23:03:55.2176474+02:00",
-  "WhenEnded": "2009-07-24T23:03:55.2176474+02:00",
-  "WhenIdle": "1998-11-25T23:03:55.2176474+01:00",
-  "WhenFetched": "2013-09-29T23:03:55.2176474+02:00",
-  "SessionKey": "ullam",
-  "InitialQueuePos": 407,
-  "AlertLevel": 707,
-  "Rank": 917,
+  "FirstMessage": "architecto",
+  "LastMessage": "dolorem",
+  "WhenRequested": "1997-05-15T16:54:54.8751708+02:00",
+  "WhenStarted": "2017-06-02T16:54:54.8751708+02:00",
+  "WhenEnded": "2005-03-05T16:54:54.8751708+01:00",
+  "WhenIdle": "2015-11-16T16:54:54.8751708+01:00",
+  "WhenFetched": "2011-09-01T16:54:54.8751708+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 258,
+  "AlertLevel": 35,
+  "Rank": 242,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 894,
+  "ChatbotIsActive": true,
+  "Rating": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 48
     }
   }
 }

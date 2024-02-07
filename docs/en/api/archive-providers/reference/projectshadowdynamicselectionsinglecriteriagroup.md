@@ -772,7 +772,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectAssociate/isActive,sale/associate/credentialType,projectMember/personExtra/y_rental/x_end,projectMember/legalBaseStore,projectMember/LastDoBySale
+GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=updatedBy,projectEvent/hasSignOn,appointment/recordTypeText,appointment/appointmentPublish/isPublished,projectMember/personAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

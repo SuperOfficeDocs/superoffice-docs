@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 882,
-  "PlainMessage": "vel",
-  "HtmlMessage": "quo",
-  "SmsMessage": "nihil",
-  "Description": "Seamless client-server focus group",
-  "Subject": "ad",
-  "FolderId": 201,
-  "HeaderField": "dolor",
-  "Design": "nobis",
+  "ShipmentMessageId": 951,
+  "PlainMessage": "quidem",
+  "HtmlMessage": "quod",
+  "SmsMessage": "explicabo",
+  "Description": "Cloned mission-critical workforce",
+  "Subject": "a",
+  "FolderId": 756,
+  "HeaderField": "architecto",
+  "Design": "alias",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Customer-focused regional portal",
-  "AccessKey": "nobis",
-  "DocumentMessage": 843,
-  "Registered": "2006-10-27T23:03:56.3271223+02:00",
-  "RegisteredAssociateId": 986,
-  "Updated": "2007-08-12T23:03:56.3271223+02:00",
-  "UpdatedAssociateId": 618,
-  "UpdatedCount": 174,
+  "InlineImages": false,
+  "LongDescription": "Profit-focused 4th generation internet solution",
+  "AccessKey": "vitae",
+  "DocumentMessage": 275,
+  "Registered": "2014-03-09T16:54:55.6489923+01:00",
+  "RegisteredAssociateId": 103,
+  "Updated": "2000-03-25T16:54:55.6489923+01:00",
+  "UpdatedAssociateId": 481,
+  "UpdatedCount": 86,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldLength": 262
     }
   }
 }

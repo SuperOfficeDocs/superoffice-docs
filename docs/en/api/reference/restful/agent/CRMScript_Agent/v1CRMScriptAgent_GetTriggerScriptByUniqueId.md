@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "aut"
+  "TriggerScriptUniqueId": "mollitia"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 566,
-  "Name": "Becker-Daniel",
+  "ScreenChooserId": 967,
+  "Name": "Hauck LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "officia",
-  "Source": "recusandae",
-  "Registered": "1999-03-26T23:03:55.5876367+01:00",
-  "RegisteredAssociateId": 156,
-  "Updated": "2001-09-13T23:03:55.5876367+02:00",
-  "UpdatedAssociateId": 529,
+  "Enabled": false,
+  "UniqueIdentifier": "et",
+  "Source": "sapiente",
+  "Registered": "2010-12-20T16:54:55.0712705+01:00",
+  "RegisteredAssociateId": 120,
+  "Updated": "2006-10-19T16:54:55.0712705+02:00",
+  "UpdatedAssociateId": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 311
     }
   }
 }

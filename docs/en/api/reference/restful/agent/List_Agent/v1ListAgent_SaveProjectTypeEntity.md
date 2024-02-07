@@ -85,35 +85,35 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 117,
-  "Name": "Grady LLC",
-  "Tooltip": "reprehenderit",
-  "Rank": 623,
+  "ProjTypeId": 252,
+  "Name": "Mills Inc and Sons",
+  "Tooltip": "recusandae",
+  "Rank": 237,
   "DurationUnit": "Century",
-  "ProjectDuration": 645,
+  "ProjectDuration": 914,
   "Deleted": false,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 996,
-      "Name": "Quitzon Group",
-      "ToolTip": "Perferendis veritatis dolores numquam ea.",
-      "Deleted": false,
-      "Rank": 258,
-      "Type": "aut",
-      "ColorBlock": 469,
-      "IconHint": "animi",
-      "Selected": true,
-      "LastChanged": "2004-01-03T23:03:56.291125+01:00",
+      "Id": 516,
+      "Name": "Wehner, Fisher and Emmerich",
+      "ToolTip": "Voluptatem voluptatem.",
+      "Deleted": true,
+      "Rank": 922,
+      "Type": "ut",
+      "ColorBlock": 258,
+      "IconHint": "sint",
+      "Selected": false,
+      "LastChanged": "2019-04-02T16:54:55.6229847+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "sunt",
-      "Hidden": true,
-      "FullName": "Shawna Bechtelar"
+      "ExtraInfo": "dolor",
+      "StyleHint": "sed",
+      "Hidden": false,
+      "FullName": "Ethyl Kertzmann"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 565,
-  "Name": "Renner, Schaden and Medhurst",
-  "Tooltip": "sequi",
-  "Rank": 154,
+  "ProjTypeId": 768,
+  "Name": "Raynor-Ankunding",
+  "Tooltip": "corporis",
+  "Rank": 232,
   "DurationUnit": "Century",
-  "ProjectDuration": 182,
-  "Deleted": true,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 342,
+  "Deleted": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 428,
-      "Name": "Shields Inc and Sons",
-      "ToolTip": "Aut voluptate vel asperiores.",
-      "Deleted": false,
-      "Rank": 169,
-      "Type": "quas",
-      "ColorBlock": 136,
-      "IconHint": "alias",
+      "Id": 946,
+      "Name": "Schmidt Group",
+      "ToolTip": "Sunt porro vitae.",
+      "Deleted": true,
+      "Rank": 215,
+      "Type": "deserunt",
+      "ColorBlock": 869,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2000-06-16T23:03:56.2931246+02:00",
+      "LastChanged": "2006-09-13T16:54:55.6229847+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eveniet",
-      "StyleHint": "nesciunt",
+      "ExtraInfo": "nostrum",
+      "StyleHint": "odit",
       "Hidden": false,
-      "FullName": "Kyler Kertzmann I",
+      "FullName": "Dangelo Ruecker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldLength": 24
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldType": "System.String",
+      "FieldLength": 821
     }
   }
 }

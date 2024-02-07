@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Yost-Collins",
-    "ToolTip": "Non unde error vel repellat maxime voluptatem.",
+    "Id": 607,
+    "Name": "Cormier-Zieme",
+    "ToolTip": "Qui debitis.",
     "Deleted": false,
-    "Rank": 960,
-    "Type": "exercitationem",
-    "ColorBlock": 738,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "1998-05-10T23:04:05.5414988+02:00",
+    "Rank": 14,
+    "Type": "cupiditate",
+    "ColorBlock": 22,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "2017-02-23T16:55:30.7381718+01:00",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Kemmer Inc and Sons",
-        "ToolTip": "Repellat voluptatibus vero commodi error.",
-        "Deleted": true,
-        "Rank": 235,
-        "Type": "repellat",
-        "ColorBlock": 997,
-        "IconHint": "cupiditate",
+        "Id": 12,
+        "Name": "Carroll-Kautzer",
+        "ToolTip": "Magni at in accusantium delectus.",
+        "Deleted": false,
+        "Rank": 933,
+        "Type": "unde",
+        "ColorBlock": 558,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2016-08-07T23:04:05.5414988+02:00",
+        "LastChanged": "1999-12-18T16:55:30.7381718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Mrs. Zaria Paucek",
+        "ExtraInfo": "officiis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Loyce Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 195
+            "FieldType": "System.String",
+            "FieldLength": 875
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "tempora",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Mrs. Cathy Tierra Kihn",
+    "FullName": "Kurtis Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldType": "System.String",
+        "FieldLength": 230
       }
     }
   }

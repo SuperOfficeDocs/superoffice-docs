@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Leannon Inc and Sons",
-    "ToolTip": "Est quis tempore exercitationem ipsum cumque.",
+    "Id": 839,
+    "Name": "Schuster, Spinka and Denesik",
+    "ToolTip": "Rerum voluptatem natus nisi quis id temporibus qui.",
     "Deleted": false,
-    "Rank": 907,
-    "Type": "nesciunt",
-    "ColorBlock": 50,
-    "IconHint": "odit",
+    "Rank": 68,
+    "Type": "sint",
+    "ColorBlock": 621,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2003-02-26T23:04:05.645498+01:00",
+    "LastChanged": "2016-08-07T16:55:30.8218075+02:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Hoppe-Haag",
-        "ToolTip": "Totam nesciunt amet doloribus eum illum.",
+        "Id": 187,
+        "Name": "Ankunding Inc and Sons",
+        "ToolTip": "Ut sit dolorem officia eaque.",
         "Deleted": true,
-        "Rank": 964,
-        "Type": "harum",
-        "ColorBlock": 349,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2015-03-13T23:04:05.6459972+01:00",
+        "Rank": 857,
+        "Type": "eos",
+        "ColorBlock": 704,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2005-07-15T16:55:30.8218075+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "mollitia",
-        "Hidden": true,
-        "FullName": "Antone Okuneva",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Ms. Lexi Hellen Bernhard IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 186
+            "FieldType": "System.String",
+            "FieldLength": 305
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "qui",
+    "ExtraInfo": "et",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Mrs. Dewayne Crystel Wolf",
+    "FullName": "Mrs. Bethel Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldLength": 10
       }
     }
   }

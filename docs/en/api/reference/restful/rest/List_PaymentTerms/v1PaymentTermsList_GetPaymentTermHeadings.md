@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 66,
-    "Name": "Kris, Schinner and Graham",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 207,
-    "UdListDefinitionId": 948,
+    "HeadingId": 520,
+    "Name": "Rosenbaum LLC",
+    "Tooltip": "repellat",
+    "Deleted": false,
+    "Rank": 1000,
+    "UdListDefinitionId": 222,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldLength": 47
       }
     }
   }

@@ -89,9 +89,9 @@ OK
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup | UserGroup | The main user group that this user belongs to.  Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  Use MDO List name "usergroup" to get list items. |
+| Person | Person | The person associated with this user. Detailed information about the user  Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -102,11 +102,11 @@ OK
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -117,18 +117,18 @@ OK
 PUT /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 930,
-  "Name": "Little, Konopelski and Tillman",
-  "Rank": 389,
-  "Tooltip": "soluta",
+  "AssociateId": 250,
+  "Name": "Robel Inc and Sons",
+  "Rank": 704,
+  "Tooltip": "aut",
   "LicenseOwners": [
     {
-      "Name": "Borer LLC",
-      "Description": "Operative secondary groupware",
+      "Name": "Lang-Simonis",
+      "Description": "Operative systemic internet solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Borer LLC",
-      "Description": "Operative secondary groupware",
+      "Name": "Lang-Simonis",
+      "Description": "Operative systemic internet solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,87 +155,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "molestiae",
-      "Tooltip": "saepe",
-      "Id": 810,
-      "Rank": 275,
+      "Value": "quaerat",
+      "Tooltip": "asperiores",
+      "Id": 142,
+      "Rank": 387,
       "Deleted": false
     },
     {
-      "Value": "molestiae",
-      "Tooltip": "saepe",
-      "Id": 810,
-      "Rank": 275,
+      "Value": "quaerat",
+      "Tooltip": "asperiores",
+      "Id": 142,
+      "Rank": 387,
       "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2019-03-13T23:04:05.1935051+01:00",
-  "Lastlogout": "2018-01-25T23:04:05.1935051+01:00",
-  "EjUserId": 10,
-  "RequestSignature": "voluptatem",
+  "Deleted": false,
+  "Lastlogin": "2006-12-08T16:55:30.4551275+01:00",
+  "Lastlogout": "2003-05-08T16:55:30.4551275+02:00",
+  "EjUserId": 187,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "enim",
-      "DisplayValue": "molestiae"
+      "Value": "iusto",
+      "DisplayValue": "tenetur"
     },
     {
       "Type": null,
-      "Value": "enim",
-      "DisplayValue": "molestiae"
+      "Value": "iusto",
+      "DisplayValue": "tenetur"
     }
   ],
-  "UserName": "Bode Group",
+  "UserName": "Bernier-Hermann",
   "TicketCategories": [
     {
-      "Id": 313,
-      "Name": "Nienow, Bergstrom and Blick",
-      "ToolTip": "Voluptates dolorem.",
-      "Deleted": false,
-      "Rank": 965,
-      "Type": "nulla",
+      "Id": 816,
+      "Name": "Stamm-Bosco",
+      "ToolTip": "Odit aut illum consequatur hic.",
+      "Deleted": true,
+      "Rank": 755,
+      "Type": "consectetur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "recusandae",
-      "ColorBlock": 475,
-      "ExtraInfo": "sunt",
-      "StyleHint": "expedita",
-      "FullName": "Emely Trantow"
+      "IconHint": "illo",
+      "ColorBlock": 778,
+      "ExtraInfo": "expedita",
+      "StyleHint": "similique",
+      "FullName": "Yasmeen Goyette"
     }
   ],
-  "NickName": "Wuckert, Rath and Hagenes",
+  "NickName": "Nader-Conroy",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "sapiente",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "qui",
+    "CustomFields2": "aperiam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Reinger LLC",
-      "DisplayName": "Schumm, Mertz and Schmitt",
-      "Description": "Persistent composite algorithm",
-      "ToolTip": "Nobis dolor voluptatem maxime.",
+      "Name": "Conroy Inc and Sons",
+      "DisplayName": "Rempel Inc and Sons",
+      "Description": "Pre-emptive assymetric leverage",
+      "ToolTip": "Est vel dolorem repellat nisi aliquid et.",
       "Actions": "Implicit",
-      "ActionData": "recusandae"
+      "ActionData": "error"
     },
     {
-      "Name": "Reinger LLC",
-      "DisplayName": "Schumm, Mertz and Schmitt",
-      "Description": "Persistent composite algorithm",
-      "ToolTip": "Nobis dolor voluptatem maxime.",
+      "Name": "Conroy Inc and Sons",
+      "DisplayName": "Rempel Inc and Sons",
+      "Description": "Pre-emptive assymetric leverage",
+      "ToolTip": "Est vel dolorem repellat nisi aliquid et.",
       "Actions": "Implicit",
-      "ActionData": "recusandae"
+      "ActionData": "error"
     }
   ]
 }
@@ -248,14 +248,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 239,
-  "Name": "Heathcote-Batz",
-  "Rank": 604,
-  "Tooltip": "quam",
+  "AssociateId": 809,
+  "Name": "Braun Group",
+  "Rank": 19,
+  "Tooltip": "aperiam",
   "LicenseOwners": [
     {
-      "Name": "Keeling-Parisian",
-      "Description": "Advanced systemic hub",
+      "Name": "Smitham, Bradtke and Swift",
+      "Description": "Self-enabling systemic productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -269,13 +269,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldLength": 730
         }
       }
     },
     {
-      "Name": "Keeling-Parisian",
-      "Description": "Advanced systemic hub",
+      "Name": "Smitham, Bradtke and Swift",
+      "Description": "Self-enabling systemic productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -289,7 +289,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldLength": 730
         }
       }
     }
@@ -298,110 +298,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "est",
-      "Id": 748,
-      "Rank": 965,
+      "Value": "est",
+      "Tooltip": "quasi",
+      "Id": 916,
+      "Rank": 155,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldType": "System.Int32",
+          "FieldLength": 763
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2003-04-05T23:04:05.1995033+02:00",
-  "Lastlogout": "2017-01-17T23:04:05.1995033+01:00",
-  "EjUserId": 1000,
-  "RequestSignature": "voluptatem",
+  "Lastlogin": "2009-02-06T16:55:30.4601465+01:00",
+  "Lastlogout": "2016-03-26T16:55:30.4601465+01:00",
+  "EjUserId": 502,
+  "RequestSignature": "nemo",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quisquam",
-      "DisplayValue": "ipsum",
+      "Value": "nisi",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 380
         }
       }
     },
     {
       "Type": null,
-      "Value": "quisquam",
-      "DisplayValue": "ipsum",
+      "Value": "nisi",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 380
         }
       }
     }
   ],
-  "UserName": "Hagenes, Klein and Beahan",
+  "UserName": "Denesik-Sipes",
   "TicketCategories": [
     {
-      "Id": 15,
-      "Name": "McKenzie, Denesik and Gerlach",
-      "ToolTip": "Autem aperiam laborum non dolores atque quia voluptas.",
-      "Deleted": true,
-      "Rank": 389,
-      "Type": "delectus",
+      "Id": 882,
+      "Name": "Treutel LLC",
+      "ToolTip": "Exercitationem error.",
+      "Deleted": false,
+      "Rank": 309,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "corporis",
-      "ColorBlock": 458,
-      "ExtraInfo": "est",
-      "StyleHint": "consequatur",
-      "FullName": "Rodrick White",
+      "IconHint": "dolore",
+      "ColorBlock": 212,
+      "ExtraInfo": "molestiae",
+      "StyleHint": "error",
+      "FullName": "Miss Merlin Robel Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldType": "System.String",
+          "FieldLength": 326
         }
       }
     }
   ],
-  "NickName": "Maggio-Parisian",
+  "NickName": "Mitchell-Jewess",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "tenetur",
+    "CustomFields2": "praesentium"
   },
   "PostSaveCommands": [
     {
-      "Name": "Friesen LLC",
-      "DisplayName": "Kozey, Kuhic and Turcotte",
-      "Description": "Front-line executive matrix",
-      "ToolTip": "Aliquam earum ex.",
+      "Name": "Krajcik, Kassulke and Stokes",
+      "DisplayName": "White-Funk",
+      "Description": "Innovative impactful productivity",
+      "ToolTip": "Ut quis nihil quis aut a.",
       "Actions": "Implicit",
-      "ActionData": "dolores",
+      "ActionData": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 11
         }
       }
     }
@@ -411,7 +411,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 881
+      "FieldLength": 23
     }
   }
 }

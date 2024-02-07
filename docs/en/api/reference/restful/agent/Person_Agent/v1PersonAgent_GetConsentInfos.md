@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 701
+  "PersonId": 138
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 70,
-    "Comment": "est",
-    "Registered": "2009-08-26T23:03:56.524122+02:00",
-    "RegisteredAssociateId": 660,
-    "Updated": "2019-12-02T23:03:56.524122+01:00",
-    "UpdatedAssociateId": 384,
-    "LegalBaseId": 693,
-    "LegalBaseKey": "est",
-    "LegalBaseName": "Schinner LLC",
-    "ConsentPurposeId": 53,
-    "ConsentPurposeKey": "placeat",
-    "ConsentPurposeName": "Jast Inc and Sons",
-    "ConsentSourceId": 783,
-    "ConsentSourceKey": "ut",
-    "ConsentSourceName": "Kemmer, Harber and Quitzon",
+    "ConsentPersonId": 380,
+    "Comment": "atque",
+    "Registered": "2020-08-17T16:54:55.8103953+02:00",
+    "RegisteredAssociateId": 699,
+    "Updated": "2000-11-11T16:54:55.8103953+01:00",
+    "UpdatedAssociateId": 70,
+    "LegalBaseId": 107,
+    "LegalBaseKey": "atque",
+    "LegalBaseName": "Weissnat-Rempel",
+    "ConsentPurposeId": 911,
+    "ConsentPurposeKey": "ut",
+    "ConsentPurposeName": "Corkery, Tromp and Conn",
+    "ConsentSourceId": 827,
+    "ConsentSourceKey": "repudiandae",
+    "ConsentSourceName": "Kirlin, Morissette and Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 818
+        "FieldType": "System.Int32",
+        "FieldLength": 815
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 290,
-    "ErpConnectorId": 912,
-    "DisplayName": "Borer-Predovic",
-    "DisplayDescription": "Progressive attitude-oriented frame",
-    "Active": true,
-    "ConnectionId": "minus",
-    "MostRecentTimestamp": "deleniti",
+    "ErpConnectionId": 484,
+    "ErpConnectorId": 286,
+    "DisplayName": "Gerlach-Dare",
+    "DisplayDescription": "Multi-channelled global ability",
+    "Active": false,
+    "ConnectionId": "animi",
+    "MostRecentTimestamp": "ducimus",
     "ConfigFields": {
-      "ConfigFields1": "cum",
-      "ConfigFields2": "corrupti"
+      "ConfigFields1": "praesentium",
+      "ConfigFields2": "assumenda"
     },
-    "Deleted": false,
-    "AllAccess": true,
+    "Deleted": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      116,
-      336
+      923,
+      289
     ],
     "AssociateAccessIds": [
-      256,
-      958
+      251,
+      806
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 625
       }
     }
   }

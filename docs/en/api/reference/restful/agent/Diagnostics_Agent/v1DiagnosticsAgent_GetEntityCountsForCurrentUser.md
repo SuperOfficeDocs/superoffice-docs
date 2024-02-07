@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Gislason, Smitham and Dibbert",
-    "Records": 461,
+    "EntityName": "Jakubowski, Reichel and Pollich",
+    "Records": 957,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 523
+        "FieldLength": 930
       }
     }
   },
   {
-    "EntityName": "Gislason, Smitham and Dibbert",
-    "Records": 461,
+    "EntityName": "Jakubowski, Reichel and Pollich",
+    "Records": 957,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 523
+        "FieldLength": 930
       }
     }
   }

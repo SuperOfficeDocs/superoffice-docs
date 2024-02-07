@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Value": "consectetur",
-    "Tooltip": "fugit",
+    "Id": 291,
+    "Value": "ducimus",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 98
       }
     }
   },
   {
-    "Id": 618,
-    "Value": "consectetur",
-    "Tooltip": "fugit",
+    "Id": 291,
+    "Value": "ducimus",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 98
       }
     }
   }

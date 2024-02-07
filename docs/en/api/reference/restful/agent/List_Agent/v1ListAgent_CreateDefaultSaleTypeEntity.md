@@ -68,7 +68,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 111,
-  "Name": "Littel, Stanton and Flatley",
-  "Tooltip": "consectetur",
-  "Rank": 736,
+  "SaleTypeId": 725,
+  "Name": "Harber-O'Kon",
+  "Tooltip": "qui",
+  "Rank": 666,
   "DurationUnit": "Century",
-  "SaleDuration": 383,
-  "SaleTypeCatId": 145,
+  "SaleDuration": 931,
+  "SaleTypeCatId": 423,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 863,
-  "QuoteLinesTemplate": 334,
-  "ConfirmationLinesTemplate": 596,
+  "DefaultQuoteValidity": 567,
+  "QuoteLinesTemplate": 283,
+  "ConfirmationLinesTemplate": 66,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 862,
-  "MinEarningPercent": 960,
-  "GroupQuoteLinesBy": 900,
-  "SortGroupLinesBy": 260,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 357,
+  "MinEarningPercent": 561,
+  "GroupQuoteLinesBy": 230,
+  "SortGroupLinesBy": 464,
   "Stages": [
     {
-      "Id": 334,
-      "Name": "Rodriguez-Boyer",
-      "ToolTip": "Atque odit rem quasi nihil non eum.",
-      "Deleted": true,
-      "Rank": 419,
-      "Type": "aut",
-      "ColorBlock": 92,
-      "IconHint": "et",
+      "Id": 705,
+      "Name": "Jacobson-Christiansen",
+      "ToolTip": "Quis voluptas est sint tenetur id quis.",
+      "Deleted": false,
+      "Rank": 399,
+      "Type": "occaecati",
+      "ColorBlock": 813,
+      "IconHint": "mollitia",
       "Selected": true,
-      "LastChanged": "2007-04-04T23:03:56.2966252+02:00",
+      "LastChanged": "1997-04-09T16:54:55.6269846+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "perspiciatis",
-      "StyleHint": "expedita",
+      "ExtraInfo": "iure",
+      "StyleHint": "quidem",
       "Hidden": false,
-      "FullName": "Yesenia Moore",
+      "FullName": "Mr. Walker Halvorson MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 547
+          "FieldType": "System.Int32",
+          "FieldLength": 138
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   }
 }

@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 250
+  "ProductId": 418
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 103,
-  "ERPProductKey": "sapiente",
-  "ERPPriceListKey": "animi",
-  "Name": "Hudson, Bartell and Spencer",
-  "Description": "Seamless motivating utilisation",
-  "Code": "veritatis",
-  "PriceUnit": "soluta",
-  "QuantityUnit": "sit",
-  "IsSubscription": true,
-  "SubscriptionUnit": "exercitationem",
-  "DefaultSubscriptionQuantity": 17208.793999999998,
-  "ItemNumber": "1082888",
+  "ProductId": 49,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "molestias",
+  "Name": "Dicki Group",
+  "Description": "Public-key asynchronous hardware",
+  "Code": "ex",
+  "PriceUnit": "eum",
+  "QuantityUnit": "ab",
+  "IsSubscription": false,
+  "SubscriptionUnit": "aperiam",
+  "DefaultSubscriptionQuantity": 28491.194,
+  "ItemNumber": "1098320",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "voluptas",
-  "VAT": 28488.059999999998,
-  "VATInfo": "eveniet",
-  "UnitCost": 25338.39,
-  "UnitMinimumPrice": 10016.264,
-  "UnitListPrice": 16042.946,
-  "InAssortment": false,
-  "Supplier": "qui",
-  "SupplierCode": "omnis",
-  "Rights": "autem",
-  "Rule": "quis",
+  "ProductFamilyKey": "eaque",
+  "ProductTypeKey": "earum",
+  "VAT": 31217.773999999998,
+  "VATInfo": "autem",
+  "UnitCost": 17462.648,
+  "UnitMinimumPrice": 1284.94,
+  "UnitListPrice": 18547.012,
+  "InAssortment": true,
+  "Supplier": "suscipit",
+  "SupplierCode": "explicabo",
+  "Rights": "quia",
+  "Rule": "voluptatem",
   "ExtraInfo": [
     {
-      "Name": "Osinski LLC",
-      "Value": "commodi",
+      "Name": "Heathcote, Rosenbaum and Oberbrunner",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldLength": 402
         }
       }
     },
     {
-      "Name": "Osinski LLC",
-      "Value": "commodi",
+      "Name": "Heathcote, Rosenbaum and Oberbrunner",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldLength": 402
         }
       }
     }
   ],
-  "RawExtraInfo": "necessitatibus",
-  "ExtraField1": "qui",
-  "ExtraField2": "et",
-  "ExtraField3": "pariatur",
-  "ExtraField4": "tenetur",
-  "ExtraField5": "excepturi",
-  "InStock": 7402.508,
+  "RawExtraInfo": "eos",
+  "ExtraField1": "ea",
+  "ExtraField2": "blanditiis",
+  "ExtraField3": "atque",
+  "ExtraField4": "at",
+  "ExtraField5": "ullam",
+  "InStock": 26237.847999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   }
 }

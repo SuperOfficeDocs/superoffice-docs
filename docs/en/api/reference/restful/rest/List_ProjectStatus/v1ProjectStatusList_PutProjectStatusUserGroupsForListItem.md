@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Gutkowski-Auer",
-    "ToolTip": "Dolorem recusandae aut totam quo quod.",
+    "Id": 321,
+    "Name": "Nicolas, Runolfsson and O'Connell",
+    "ToolTip": "Maiores nostrum quibusdam officiis eveniet odit.",
     "Deleted": true,
-    "Rank": 343,
-    "Type": "et",
-    "ColorBlock": 93,
-    "IconHint": "eius",
-    "Selected": false,
-    "LastChanged": "2002-04-27T23:04:05.6634947+02:00",
+    "Rank": 701,
+    "Type": "est",
+    "ColorBlock": 576,
+    "IconHint": "impedit",
+    "Selected": true,
+    "LastChanged": "2008-09-23T16:55:30.8347351+02:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Rempel, Cassin and Buckridge",
-        "ToolTip": "Illum tenetur sed dolores nihil libero inventore.",
+        "Id": 515,
+        "Name": "Zboncak, DuBuque and Hermann",
+        "ToolTip": "Aliquam distinctio sit eius eum sit iure.",
         "Deleted": false,
-        "Rank": 60,
-        "Type": "enim",
-        "ColorBlock": 427,
-        "IconHint": "voluptas",
+        "Rank": 664,
+        "Type": "commodi",
+        "ColorBlock": 944,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "1999-05-12T23:04:05.6634947+02:00",
+        "LastChanged": "2009-12-02T16:55:30.8347351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "optio",
+        "ExtraInfo": "iusto",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Yasmin Nader"
+        "FullName": "Mittie VonRueden PhD"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Miles Langworth I"
+    "ExtraInfo": "ut",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Oleta Haley"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Gusikowski, Glover and O'Connell",
-    "ToolTip": "Sequi in tenetur incidunt non.",
+    "Id": 860,
+    "Name": "Wunsch Group",
+    "ToolTip": "Quasi suscipit consequatur consequatur voluptas eum aspernatur enim.",
     "Deleted": false,
-    "Rank": 532,
-    "Type": "reiciendis",
-    "ColorBlock": 86,
-    "IconHint": "iure",
+    "Rank": 264,
+    "Type": "non",
+    "ColorBlock": 725,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2007-05-02T23:04:05.6659973+02:00",
+    "LastChanged": "2015-05-14T16:55:30.8357201+02:00",
     "ChildItems": [
       {
-        "Id": 232,
-        "Name": "Zulauf, Romaguera and Fritsch",
-        "ToolTip": "Quia fugiat officia.",
-        "Deleted": false,
-        "Rank": 252,
-        "Type": "accusamus",
-        "ColorBlock": 343,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2020-10-15T23:04:05.6659973+02:00",
+        "Id": 664,
+        "Name": "Mante-Sanford",
+        "ToolTip": "Corporis quos deserunt fuga quia rerum fugit explicabo.",
+        "Deleted": true,
+        "Rank": 787,
+        "Type": "dolores",
+        "ColorBlock": 276,
+        "IconHint": "aliquid",
+        "Selected": false,
+        "LastChanged": "2006-04-04T16:55:30.8357201+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "est",
+        "ExtraInfo": "quam",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Trever Friesen",
+        "FullName": "Hilda Rolfson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 234
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "ducimus",
     "Hidden": true,
-    "FullName": "Prof. Barton Kohler",
+    "FullName": "Cody Javon Gaylord Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldLength": 12
       }
     }
   }

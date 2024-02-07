@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 852,
-  "Name": "Lebsack, Wunsch and Daugherty",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 165,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 508,
+  "Name": "Ledner, Gerlach and Roob",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 430,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 804
     }
   },
   "_Links": {

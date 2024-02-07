@@ -98,7 +98,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Runolfsson LLC"
+  "TaskName": "Kris Inc and Sons"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Marvin, Bechtelar and Hettinger",
-    "AssociateId": 935,
-    "DetailsTable": 779,
-    "DetailsRecord": 45,
+    "Id": 146,
+    "Name": "Keeling, Nicolas and Kiehn",
+    "AssociateId": 494,
+    "DetailsTable": 958,
+    "DetailsRecord": 209,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quos",
-      "ParameterObject2": "eos"
+      "ParameterObject1": "dolor",
+      "ParameterObject2": "deserunt"
     },
-    "LastStarted": "2012-04-03T23:03:55.0251417+02:00",
-    "Created": "2020-10-16T23:03:55.0251417+02:00",
-    "StartCount": 264,
-    "DatabaseSerialNumber": "978654",
-    "Context": "quasi",
-    "Result": "sint",
+    "LastStarted": "2006-10-12T16:54:54.6063035+02:00",
+    "Created": "2005-01-19T16:54:54.6063035+01:00",
+    "StartCount": 632,
+    "DatabaseSerialNumber": "674768",
+    "Context": "soluta",
+    "Result": "quos",
     "State": "All",
-    "Description": "Balanced mobile infrastructure",
-    "Response": "quia",
-    "Request": "est",
-    "ProgressDescription": "Stand-alone zero tolerance application",
-    "ProgressPercent": 180,
-    "FileName": "Grady LLC",
+    "Description": "Intuitive intangible help-desk",
+    "Response": "ea",
+    "Request": "deleniti",
+    "ProgressDescription": "Phased empowering function",
+    "ProgressPercent": 311,
+    "FileName": "Prohaska LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 791
+        "FieldType": "System.Int32",
+        "FieldLength": 658
       }
     }
   }

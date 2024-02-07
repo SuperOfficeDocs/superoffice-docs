@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 271,
-  "Name": "Ebert, Kohler and Carter",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 104,
-  "UdListDefinitionId": 531
+  "HeadingId": 907,
+  "Name": "Gutkowski LLC",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 793,
+  "UdListDefinitionId": 61
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 292,
-  "Name": "Wilderman-Keeling",
-  "Tooltip": "eos",
+  "HeadingId": 770,
+  "Name": "Grady Inc and Sons",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "Rank": 747,
-  "UdListDefinitionId": 259,
+  "Rank": 810,
+  "UdListDefinitionId": 305,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldType": "System.String",
+      "FieldLength": 51
     }
   }
 }

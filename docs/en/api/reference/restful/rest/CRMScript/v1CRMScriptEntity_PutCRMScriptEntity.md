@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 786,
-  "UniqueIdentifier": "nesciunt",
-  "Name": "Leannon, Robel and Windler",
-  "Description": "Re-engineered holistic database",
-  "IncludeId": "necessitatibus",
-  "HierarchyId": 200,
-  "Source": "iure",
-  "Registered": "2023-03-27T23:04:04.0680188+02:00",
-  "RegisteredAssociateId": 522,
-  "Updated": "2011-01-19T23:04:04.0680188+01:00",
-  "UpdatedAssociateId": 30
+  "EjscriptId": 499,
+  "UniqueIdentifier": "ex",
+  "Name": "VonRueden Inc and Sons",
+  "Description": "Reactive directional encoding",
+  "IncludeId": "aliquid",
+  "HierarchyId": 432,
+  "Source": "accusantium",
+  "Registered": "2016-11-30T16:55:29.5298322+01:00",
+  "RegisteredAssociateId": 655,
+  "Updated": "1997-08-31T16:55:29.5298322+02:00",
+  "UpdatedAssociateId": 80
 }
 ```
 
@@ -126,23 +126,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 355,
-  "UniqueIdentifier": "et",
-  "Name": "Gusikowski LLC",
-  "Description": "Inverse eco-centric methodology",
-  "IncludeId": "corrupti",
-  "HierarchyId": 612,
-  "Source": "nam",
-  "Registered": "2023-09-19T23:04:04.0685211+02:00",
-  "RegisteredAssociateId": 591,
-  "Updated": "1998-09-12T23:04:04.0685211+02:00",
-  "UpdatedAssociateId": 772,
+  "EjscriptId": 375,
+  "UniqueIdentifier": "delectus",
+  "Name": "Eichmann-Corwin",
+  "Description": "Cross-group 4th generation hardware",
+  "IncludeId": "quaerat",
+  "HierarchyId": 302,
+  "Source": "cumque",
+  "Registered": "2021-11-14T16:55:29.5298322+01:00",
+  "RegisteredAssociateId": 258,
+  "Updated": "2011-05-14T16:55:29.5298322+02:00",
+  "UpdatedAssociateId": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 37
     }
   },
   "_Links": {

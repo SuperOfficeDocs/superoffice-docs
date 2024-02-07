@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 48,
+  "TicketId": 400,
   "MessageActionType": "Forward",
-  "TicketMessageId": 133,
-  "TicketTypeId": 734
+  "TicketMessageId": 90,
+  "TicketTypeId": 237
 }
 ```
 
@@ -93,22 +93,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "velit",
+  "Body": "maxime",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 935,
-      "Name": "Schneider-Rosenbaum",
-      "ContentType": "aut",
-      "AttSize": 807,
-      "InlineImage": true,
-      "ContentId": "eum",
-      "AuthKey": "hic",
+      "AttachmentId": 221,
+      "Name": "Rowe-Rempel",
+      "ContentType": "fuga",
+      "AttSize": 873,
+      "InlineImage": false,
+      "ContentId": "illo",
+      "AuthKey": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldType": "System.String",
+          "FieldLength": 944
         }
       }
     }

@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    577,
-    121
+    579,
+    800
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 877,
-    "MessageId": "eligendi",
-    "Subject": "accusamus",
+    "ServerId": 316,
+    "MessageId": "commodi",
+    "Subject": "sit",
     "From": null,
     "To": [
       {
-        "ContactId": 243,
-        "ContactName": "Kessler-Abbott",
-        "PersonId": 848,
-        "PersonName": "Bednar-Mante",
-        "AssociateId": 990,
-        "Address": "quas",
-        "EmailId": 261,
+        "ContactId": 579,
+        "ContactName": "Walsh-Dach",
+        "PersonId": 801,
+        "PersonName": "Kris Inc and Sons",
+        "AssociateId": 402,
+        "Address": "ut",
+        "EmailId": 576,
         "DuplicatePersonIds": [
-          266,
-          396
+          96,
+          64
         ],
-        "Name": "Casper, West and Willms",
+        "Name": "Borer Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 908
+            "FieldLength": 486
           }
         }
       }
     ],
-    "Sent": "1997-07-01T23:03:55.9966311+02:00",
+    "Sent": "2013-04-24T16:54:55.3910339+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 852,
+    "Size": 64,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 786
       }
     }
   }

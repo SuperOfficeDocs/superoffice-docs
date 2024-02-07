@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "O'Conner-Zieme",
-  "Id": 980
+  "ListName": "Keebler-Strosin",
+  "Id": 909
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Frami LLC",
-  "ToolTip": "Quas id rerum qui natus et.",
+  "Id": 341,
+  "Name": "Stoltenberg-Okuneva",
+  "ToolTip": "Voluptatibus hic voluptas qui consequuntur aspernatur.",
   "Deleted": false,
-  "Rank": 582,
-  "Type": "omnis",
+  "Rank": 520,
+  "Type": "est",
   "ChildItems": [
     {
-      "Id": 117,
-      "Name": "Rohan, VonRueden and Beatty",
-      "ToolTip": "Dolores ex consequuntur nisi optio.",
-      "Deleted": true,
-      "Rank": 996,
-      "Type": "dolor",
+      "Id": 130,
+      "Name": "Zieme, Jaskolski and Kuhlman",
+      "ToolTip": "Hic sint tenetur expedita placeat.",
+      "Deleted": false,
+      "Rank": 450,
+      "Type": "commodi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iste",
-      "ColorBlock": 592,
-      "ExtraInfo": "facere",
-      "StyleHint": "optio",
-      "FullName": "Andreanne Rogahn",
+      "IconHint": "voluptatem",
+      "ColorBlock": 983,
+      "ExtraInfo": "omnis",
+      "StyleHint": "voluptatum",
+      "FullName": "Micheal Lang",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 637
+          "FieldType": "System.Int32",
+          "FieldLength": 123
         }
       }
     }
   ],
-  "IconHint": "ex",
-  "ColorBlock": 783,
-  "ExtraInfo": "qui",
-  "StyleHint": "officia",
-  "FullName": "Maia Beer",
+  "IconHint": "quo",
+  "ColorBlock": 81,
+  "ExtraInfo": "aut",
+  "StyleHint": "ratione",
+  "FullName": "Camryn Von",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldType": "System.String",
+      "FieldLength": 631
     }
   }
 }

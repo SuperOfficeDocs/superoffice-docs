@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    19,
-    665
+    967,
+    203
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 801,
-    "Name": "Greenfelder-Armstrong",
-    "TargetTable": "debitis",
-    "Registered": "1997-02-16T23:03:57.1661153+01:00",
-    "ProviderName": "Lind, Roberts and Hansen"
+    "SelectionId": 799,
+    "Name": "Beahan-Boyer",
+    "TargetTable": "tempore",
+    "Registered": "2003-10-18T16:54:56.3436168+02:00",
+    "ProviderName": "Runte Inc and Sons"
   },
   {
-    "SelectionId": 801,
-    "Name": "Greenfelder-Armstrong",
-    "TargetTable": "debitis",
-    "Registered": "1997-02-16T23:03:57.1661153+01:00",
-    "ProviderName": "Lind, Roberts and Hansen"
+    "SelectionId": 799,
+    "Name": "Beahan-Boyer",
+    "TargetTable": "tempore",
+    "Registered": "2003-10-18T16:54:56.3436168+02:00",
+    "ProviderName": "Runte Inc and Sons"
   }
 ]
 ```

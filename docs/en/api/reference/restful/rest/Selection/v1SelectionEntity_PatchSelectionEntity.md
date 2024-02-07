@@ -102,7 +102,7 @@ SelectionEntity  updated.
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered demand-driven orchestration",
-  "Postit": "aut",
+  "Description": "Grass-roots heuristic definition",
+  "Postit": "sapiente",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 405,
-  "IncludePerson": 547,
-  "MemberCount": 101,
-  "Name": "Terry, Heaney and Hahn",
-  "PostitTextId": 990,
-  "CreatedDate": "2002-12-16T23:04:04.790506+01:00",
-  "SelectionId": 59,
-  "SoundEx": "vel",
-  "Source": 895,
-  "TextId": 781,
-  "UpdatedDate": "2004-06-05T23:04:04.790506+02:00",
-  "UpdatedCount": 391,
-  "Visibility": 475,
+  "GroupIdx": 274,
+  "IncludePerson": 44,
+  "MemberCount": 35,
+  "Name": "Bartoletti-Murphy",
+  "PostitTextId": 323,
+  "CreatedDate": "2017-01-18T16:55:30.1330407+01:00",
+  "SelectionId": 587,
+  "SoundEx": "eveniet",
+  "Source": 470,
+  "TextId": 824,
+  "UpdatedDate": "1998-04-19T16:55:30.1330407+02:00",
+  "UpdatedCount": 52,
+  "Visibility": 728,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 600,
-  "TargetTableName": "Howell, Kutch and Champlin",
+  "TargetTableNumber": 629,
+  "TargetTableName": "Zboncak LLC",
   "Completed": false,
-  "LeftSelectionId": 808,
-  "RightSelectionId": 569,
+  "LeftSelectionId": 238,
+  "RightSelectionId": 63,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schaefer-Kessler",
-  "ShadowProviderName": "Jacobson-Bernier",
-  "ChartKey": "quia",
-  "LastLoaded": "2005-05-07T23:04:04.790506+02:00",
-  "LastLoadedBy": 1002,
+  "MainProviderName": "Pacocha, Parisian and Herzog",
+  "ShadowProviderName": "Bashirian-Rohan",
+  "ChartKey": "dolores",
+  "LastLoaded": "2004-03-17T16:55:30.1330407+01:00",
+  "LastLoadedBy": 463,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-01-09T23:04:04.791009+01:00",
-  "LastMembershipChangeBy": 738,
+  "LastMembershipChange": "2021-11-29T16:55:30.1330407+01:00",
+  "LastMembershipChangeBy": 3,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "illum",
-  "MemberTabHeading": "porro",
-  "MailingsProviderName": "Kemmer, Hettinger and Nicolas",
-  "DashboardTileDefinitionId": 733,
+  "MainHeading": "enim",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Thiel, Greenholt and Rolfson",
+  "DashboardTileDefinitionId": 409,
   "VisibleFor": [
     {
-      "VisibleId": 285,
+      "VisibleId": 652,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 488
+          "FieldType": "System.Int32",
+          "FieldLength": 314
         }
       }
     },
     {
-      "VisibleId": 285,
+      "VisibleId": 652,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 488
+          "FieldType": "System.Int32",
+          "FieldLength": 314
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   },
   "_Links": {

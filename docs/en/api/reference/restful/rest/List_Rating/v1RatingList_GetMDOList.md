@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=rerum
+GET /api/v1/List/Rating/MDOItems?query=quisquam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Yost, Pouros and Crooks",
-    "ToolTip": "Magnam voluptatem libero enim beatae facilis.",
+    "Id": 897,
+    "Name": "Ullrich LLC",
+    "ToolTip": "Commodi eaque ut rem est aut facilis eos.",
     "Deleted": false,
-    "Rank": 134,
-    "Type": "ducimus",
+    "Rank": 641,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Labadie, Anderson and Bergnaum",
-        "ToolTip": "Quam in maxime aut.",
-        "Deleted": true,
-        "Rank": 124,
-        "Type": "ullam",
+        "Id": 649,
+        "Name": "Howe LLC",
+        "ToolTip": "Quia consectetur voluptatem assumenda explicabo omnis repellat.",
+        "Deleted": false,
+        "Rank": 13,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 181,
-        "ExtraInfo": "tempora",
-        "StyleHint": "dolores",
-        "FullName": "Montana Ebert",
+        "IconHint": "dolor",
+        "ColorBlock": 201,
+        "ExtraInfo": "ut",
+        "StyleHint": "aut",
+        "FullName": "Haylie Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldType": "System.String",
+            "FieldLength": 144
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 701,
-    "ExtraInfo": "delectus",
-    "StyleHint": "velit",
-    "FullName": "Shany Koelpin Jr.",
+    "IconHint": "modi",
+    "ColorBlock": 822,
+    "ExtraInfo": "sed",
+    "StyleHint": "magni",
+    "FullName": "Cathrine Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldType": "System.String",
+        "FieldLength": 847
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Beer, Rath and Gutmann",
-    "ToolTip": "Alias repellendus suscipit.",
+    "Id": 274,
+    "Name": "Heaney Group",
+    "ToolTip": "Rerum et quo modi.",
     "Deleted": true,
-    "Rank": 208,
-    "Type": "beatae",
-    "ColorBlock": 335,
-    "IconHint": "occaecati",
+    "Rank": 751,
+    "Type": "velit",
+    "ColorBlock": 222,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2002-06-18T23:04:05.8014976+02:00",
+    "LastChanged": "2019-03-16T16:55:31.0671868+01:00",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Bogisich LLC",
-        "ToolTip": "Dolor labore nam.",
+        "Id": 221,
+        "Name": "Schroeder, Runte and Beer",
+        "ToolTip": "Et sint et unde.",
         "Deleted": false,
-        "Rank": 940,
-        "Type": "est",
-        "ColorBlock": 188,
-        "IconHint": "molestias",
+        "Rank": 505,
+        "Type": "quam",
+        "ColorBlock": 881,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2021-03-30T23:04:05.8014976+02:00",
+        "LastChanged": "2021-10-24T16:55:31.0671868+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "libero",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Romaine Malinda Zieme Sr."
+        "FullName": "Antonietta Legros"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "maxime",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Janet Langosh"
+    "FullName": "Mrs. Beulah Jast"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Shanahan, Larson and Boehm",
-    "ToolTip": "Ex asperiores nostrum aliquid officiis ea eius dignissimos.",
+    "Id": 462,
+    "Name": "Parisian Group",
+    "ToolTip": "Totam beatae omnis.",
     "Deleted": false,
-    "Rank": 131,
-    "Type": "consequatur",
-    "ColorBlock": 893,
-    "IconHint": "quod",
+    "Rank": 780,
+    "Type": "voluptatem",
+    "ColorBlock": 946,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2004-11-05T23:04:05.803996+01:00",
+    "LastChanged": "2012-08-05T16:55:31.0691875+02:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Denesik-Paucek",
-        "ToolTip": "Ut provident a ut necessitatibus aut.",
-        "Deleted": true,
-        "Rank": 334,
-        "Type": "hic",
-        "ColorBlock": 32,
-        "IconHint": "ut",
+        "Id": 667,
+        "Name": "Terry Group",
+        "ToolTip": "Tempora accusantium nihil quod.",
+        "Deleted": false,
+        "Rank": 971,
+        "Type": "rerum",
+        "ColorBlock": 551,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2016-12-13T23:04:05.803996+01:00",
+        "LastChanged": "2000-06-29T16:55:31.0691875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "aperiam",
-        "Hidden": true,
-        "FullName": "Johanna Bednar",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Kristina Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 920
+            "FieldType": "System.String",
+            "FieldLength": 752
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "nemo",
+    "ExtraInfo": "commodi",
+    "StyleHint": "commodi",
     "Hidden": true,
-    "FullName": "Dr. Leo Ramon Thiel",
+    "FullName": "Vergie Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 304
+        "FieldType": "System.String",
+        "FieldLength": 587
       }
     }
   }

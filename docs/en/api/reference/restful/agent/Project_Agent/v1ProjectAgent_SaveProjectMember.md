@@ -90,7 +90,7 @@ OK
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 742,
-  "ContactId": 956,
-  "ProjectId": 545,
-  "ContactName": "Schamberger-Effertz",
-  "ContactDepartment": "",
-  "ProjectName": "Schuppe-Runte",
-  "EmailId": 629,
-  "EmailAddress": "rusty@johns.com",
-  "CountryId": 340,
-  "Firstname": "Sigrid",
-  "MiddleName": "Terry, Wehner and Nader",
-  "Lastname": "Rogahn",
-  "PersonId": 200,
-  "Mrmrs": "doloremque",
-  "ProjectMemberTypeName": "Grant, Crooks and Hettinger",
-  "Phone": "659-057-6856 x860",
-  "PhoneId": 714,
-  "ProjectMemberTypeId": 911,
-  "EmailAddressName": "abelardo_monahan@wolffvonrueden.uk",
-  "Comment": "quibusdam",
-  "FullName": "Stewart Bruen"
+  "ProjectmemberId": 406,
+  "ContactId": 175,
+  "ProjectId": 426,
+  "ContactName": "Treutel, O'Conner and Johnston",
+  "ContactDepartment": "productize synergistic methodologies",
+  "ProjectName": "Fisher-Hane",
+  "EmailId": 634,
+  "EmailAddress": "leann_haley@mertzpadberg.ca",
+  "CountryId": 945,
+  "Firstname": "Zora",
+  "MiddleName": "Wehner Inc and Sons",
+  "Lastname": "Howe",
+  "PersonId": 286,
+  "Mrmrs": "sunt",
+  "ProjectMemberTypeName": "Denesik, Lynch and Bogisich",
+  "Phone": "365.670.8368",
+  "PhoneId": 881,
+  "ProjectMemberTypeId": 817,
+  "EmailAddressName": "karen@mertz.us",
+  "Comment": "temporibus",
+  "FullName": "Mrs. Zachariah Cali Bruen I"
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 240,
-  "ContactId": 128,
-  "ProjectId": 506,
-  "ContactName": "Koss-Wolf",
-  "ContactDepartment": "",
-  "ProjectName": "Kovacek Group",
-  "EmailId": 157,
-  "EmailAddress": "annetta.prohaska@hansen.co.uk",
-  "CountryId": 288,
-  "Firstname": "Fae",
-  "MiddleName": "Wuckert LLC",
-  "Lastname": "Mueller",
-  "PersonId": 75,
-  "Mrmrs": "aut",
-  "ProjectMemberTypeName": "Eichmann LLC",
-  "Phone": "044-318-6848 x242",
-  "PhoneId": 265,
-  "ProjectMemberTypeId": 242,
-  "EmailAddressName": "jeremie_harber@corwin.co.uk",
-  "Comment": "placeat",
-  "FullName": "Prof. Chasity Torp",
+  "ProjectmemberId": 764,
+  "ContactId": 876,
+  "ProjectId": 769,
+  "ContactName": "McKenzie Inc and Sons",
+  "ContactDepartment": "brand rich ROI",
+  "ProjectName": "Heaney Group",
+  "EmailId": 165,
+  "EmailAddress": "ali_corwin@keeling.us",
+  "CountryId": 819,
+  "Firstname": "Jeromy",
+  "MiddleName": "Will, Padberg and Hickle",
+  "Lastname": "Stehr",
+  "PersonId": 828,
+  "Mrmrs": "at",
+  "ProjectMemberTypeName": "Schmidt, Emmerich and Langworth",
+  "Phone": "238-118-0114",
+  "PhoneId": 225,
+  "ProjectMemberTypeId": 951,
+  "EmailAddressName": "triston.goyette@mueller.com",
+  "Comment": "qui",
+  "FullName": "Mrs. Melyssa Bruen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 261
     }
   }
 }

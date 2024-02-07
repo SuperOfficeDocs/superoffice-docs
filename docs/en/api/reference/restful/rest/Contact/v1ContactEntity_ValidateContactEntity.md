@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 19,
-  "Name": "Funk-West",
+  "ContactId": 996,
+  "Name": "Schmidt, Pfeffer and Brown",
   "Department": "",
-  "OrgNr": "1052901",
-  "Number1": "187811",
-  "Number2": "690965",
-  "UpdatedDate": "1997-01-25T23:04:04.022519+01:00",
-  "CreatedDate": "2013-12-20T23:04:04.022519+01:00",
+  "OrgNr": "891369",
+  "Number1": "1102355",
+  "Number2": "1084889",
+  "UpdatedDate": "2022-04-12T16:55:29.4958341+02:00",
+  "CreatedDate": "2014-07-25T16:55:29.4958341+02:00",
   "Emails": [
     {
-      "Value": "debitis",
-      "StrippedValue": "ut",
-      "Description": "Profit-focused methodical time-frame"
+      "Value": "delectus",
+      "StrippedValue": "ex",
+      "Description": "Enterprise-wide intermediate contingency"
     },
     {
-      "Value": "debitis",
-      "StrippedValue": "ut",
-      "Description": "Profit-focused methodical time-frame"
+      "Value": "delectus",
+      "StrippedValue": "ex",
+      "Description": "Enterprise-wide intermediate contingency"
     }
   ],
   "Interests": [
     {
-      "Id": 326,
-      "Name": "Konopelski-Shields",
-      "ToolTip": "Minima vero similique sed qui quisquam.",
+      "Id": 241,
+      "Name": "Hickle LLC",
+      "ToolTip": "In tempore autem odio rerum qui eveniet.",
       "Deleted": false,
-      "Rank": 372,
-      "Type": "dolores",
-      "ColorBlock": 835,
-      "IconHint": "blanditiis",
-      "Selected": false,
-      "LastChanged": "2011-02-19T23:04:04.022519+01:00",
+      "Rank": 800,
+      "Type": "at",
+      "ColorBlock": 268,
+      "IconHint": "quia",
+      "Selected": true,
+      "LastChanged": "2011-01-31T16:55:29.4958341+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "voluptatum",
+      "ExtraInfo": "deserunt",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Ernest Janae Bogisich Jr."
+      "FullName": "Larissa Martine Herzog I"
     }
   ],
   "Urls": [
     {
-      "Value": "voluptatum",
-      "StrippedValue": "excepturi",
-      "Description": "User-friendly dedicated productivity"
+      "Value": "sed",
+      "StrippedValue": "aut",
+      "Description": "Implemented grid-enabled moratorium"
     },
     {
-      "Value": "voluptatum",
-      "StrippedValue": "excepturi",
-      "Description": "User-friendly dedicated productivity"
+      "Value": "sed",
+      "StrippedValue": "aut",
+      "Description": "Implemented grid-enabled moratorium"
     }
   ],
   "Phones": [
     {
-      "Value": "quasi",
-      "StrippedValue": "totam",
-      "Description": "Upgradable analyzing local area network"
+      "Value": "consequuntur",
+      "StrippedValue": "id",
+      "Description": "Adaptive dedicated algorithm"
     },
     {
-      "Value": "quasi",
-      "StrippedValue": "totam",
-      "Description": "Upgradable analyzing local area network"
+      "Value": "consequuntur",
+      "StrippedValue": "id",
+      "Description": "Adaptive dedicated algorithm"
     }
   ],
   "Faxes": [
     {
-      "Value": "reprehenderit",
-      "StrippedValue": "quisquam",
-      "Description": "De-engineered systematic moderator"
+      "Value": "modi",
+      "StrippedValue": "voluptatum",
+      "Description": "Extended exuding installation"
     },
     {
-      "Value": "reprehenderit",
-      "StrippedValue": "quisquam",
-      "Description": "De-engineered systematic moderator"
+      "Value": "modi",
+      "StrippedValue": "voluptatum",
+      "Description": "Extended exuding installation"
     }
   ],
-  "Description": "Networked global utilisation",
+  "Description": "Synergized modular array",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "et",
-      "PersonId": 340,
-      "Mrmrs": "et",
-      "Firstname": "Nona",
-      "Lastname": "Stark",
-      "MiddleName": "Schiller-Rippin",
-      "Title": "nemo",
-      "Description": "Multi-tiered dedicated concept",
-      "Email": "antwan.bahringer@bosco.ca",
-      "FullName": "Mr. Ruth Zachariah Fay MD",
-      "DirectPhone": "(172)208-1792 x46793",
-      "FormalName": "Gottlieb-Ebert",
-      "CountryId": 990,
-      "ContactId": 222,
-      "ContactName": "Pouros-Bins",
-      "Retired": 14,
-      "Rank": 723,
-      "ActiveInterests": 743,
-      "ContactDepartment": "engineer intuitive infrastructures",
-      "ContactCountryId": 180,
-      "ContactOrgNr": "969379",
-      "FaxPhone": "994-831-8013 x5373",
-      "MobilePhone": "(424)128-6552 x968",
-      "ContactPhone": "(088)976-8971",
-      "AssociateName": "Lehner Group",
-      "AssociateId": 734,
-      "UsePersonAddress": true,
-      "ContactFax": "vel",
-      "Kanafname": "ea",
-      "Kanalname": "sapiente",
-      "Post1": "quaerat",
-      "Post2": "enim",
-      "Post3": "quam",
-      "EmailName": "stephon.cole@stamm.co.uk",
-      "ContactFullName": "Karl Trantow",
-      "ActiveErpLinks": 178,
-      "TicketPriorityId": 160,
-      "SupportLanguageId": 783,
-      "SupportAssociateId": 983,
+      "Position": "aut",
+      "PersonId": 611,
+      "Mrmrs": "omnis",
+      "Firstname": "Elwin",
+      "Lastname": "Collier",
+      "MiddleName": "Kozey-Nolan",
+      "Title": "itaque",
+      "Description": "Multi-lateral even-keeled standardization",
+      "Email": "donato_cronin@spencer.info",
+      "FullName": "Elias Stamm",
+      "DirectPhone": "716-465-5326 x086",
+      "FormalName": "Torphy-Labadie",
+      "CountryId": 629,
+      "ContactId": 752,
+      "ContactName": "Feeney, Turner and Bednar",
+      "Retired": 180,
+      "Rank": 231,
+      "ActiveInterests": 812,
+      "ContactDepartment": "",
+      "ContactCountryId": 80,
+      "ContactOrgNr": "608726",
+      "FaxPhone": "(691)033-6552",
+      "MobilePhone": "241.389.2811",
+      "ContactPhone": "(103)008-9728 x18758",
+      "AssociateName": "Kuhn Inc and Sons",
+      "AssociateId": 479,
+      "UsePersonAddress": false,
+      "ContactFax": "dolorem",
+      "Kanafname": "impedit",
+      "Kanalname": "quisquam",
+      "Post1": "consequatur",
+      "Post2": "molestiae",
+      "Post3": "dolorum",
+      "EmailName": "autumn_mertz@lowebeer.uk",
+      "ContactFullName": "Mrs. Elisa Weissnat DDS",
+      "ActiveErpLinks": 915,
+      "TicketPriorityId": 255,
+      "SupportLanguageId": 605,
+      "SupportAssociateId": 227,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": false,
-  "Kananame": "blanditiis",
+  "NoMailing": true,
+  "Kananame": "dolorem",
   "Xstop": true,
-  "ActiveInterests": 715,
-  "GroupId": 31,
-  "ActiveStatusMonitorId": 522,
+  "ActiveInterests": 346,
+  "GroupId": 592,
+  "ActiveStatusMonitorId": 826,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 258,
-  "DbiAgentId": 744,
-  "DbiLastSyncronized": "1997-11-30T23:04:04.0280215+01:00",
-  "DbiKey": "voluptatem",
-  "DbiLastModified": "2005-12-06T23:04:04.0285206+01:00",
+  "Deleted": 349,
+  "DbiAgentId": 55,
+  "DbiLastSyncronized": "1999-09-20T16:55:29.4999375+02:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2013-12-31T16:55:29.4999375+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 483,
-  "ActiveErpLinks": 875,
+  "Source": 550,
+  "ActiveErpLinks": 303,
   "BounceEmails": [
-    "omer@lebsack.biz",
-    "clement@cummings.name"
+    "jacinthe.hartmann@bednar.ca",
+    "joshua@kling.us"
   ],
   "Domains": [
-    "facilis",
-    "temporibus"
+    "mollitia",
+    "fugit"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "491986661",
-    "SuperOffice:2": "Emmanuel Howe"
+    "SuperOffice:1": "446020555",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "illo"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "et"
+    "CustomFields1": "iste",
+    "CustomFields2": "fuga"
   }
 }
 ```
@@ -282,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "animi",
-  "2": "maxime"
+  "1": "magni",
+  "2": "dolores"
 }
 ```

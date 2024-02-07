@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Quigley, Gorczany and Hoppe",
-    "SaleDate": "2006-07-10T23:03:56.9196159+02:00",
-    "SaleId": 636,
-    "Probability": 875,
-    "Title": "rerum",
-    "Amount": 10439.354,
-    "Currency": "cumque",
-    "ProjectName": "Paucek, Rice and Thompson",
-    "AssociateFullName": "Ottilie Grant",
-    "Description": "Organized bottom-line project",
+    "ContactName": "Weber LLC",
+    "SaleDate": "2014-06-04T16:54:56.2539976+02:00",
+    "SaleId": 94,
+    "Probability": 674,
+    "Title": "cumque",
+    "Amount": 21342.54,
+    "Currency": "iusto",
+    "ProjectName": "Koepp, Ebert and Brekke",
+    "AssociateFullName": "Fidel Bogisich DDS",
+    "Description": "Advanced uniform parallelism",
     "Status": "Lost",
-    "WeightedAmount": 7574.878,
-    "ProjectId": 681,
-    "EarningPercent": 5587.922,
-    "Earning": 24689.652,
-    "ContactId": 358,
-    "AssociateId": 517,
-    "PersonId": 689,
-    "SaleTypeId": 667,
-    "SaleTypeName": "Cummings-Turcotte",
-    "PersonFullName": "Pablo Sauer",
+    "WeightedAmount": 19145.606,
+    "ProjectId": 283,
+    "EarningPercent": 26930.462,
+    "Earning": 25341.523999999998,
+    "ContactId": 822,
+    "AssociateId": 162,
+    "PersonId": 605,
+    "SaleTypeId": 662,
+    "SaleTypeName": "Hilpert LLC",
+    "PersonFullName": "Kaylee Pfeffer",
     "Completed": "Completed",
-    "ActiveErpLinks": 979,
-    "NextDueDate": "2023-06-07T23:03:56.9201167+02:00",
-    "Number": "1528693",
+    "ActiveErpLinks": 166,
+    "NextDueDate": "2001-09-04T16:54:56.2550126+02:00",
+    "Number": "839834",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 929
       }
     }
   }

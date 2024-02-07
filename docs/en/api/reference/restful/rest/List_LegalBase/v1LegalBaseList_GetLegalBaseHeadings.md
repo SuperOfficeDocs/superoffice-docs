@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 719,
-    "Name": "Adams-Shields",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 255,
-    "UdListDefinitionId": 445,
+    "HeadingId": 652,
+    "Name": "Howell, Vandervort and Gutkowski",
+    "Tooltip": "ad",
+    "Deleted": true,
+    "Rank": 715,
+    "UdListDefinitionId": 696,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldType": "System.Int32",
+        "FieldLength": 413
       }
     }
   }

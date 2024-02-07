@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hilpert, Hoeger and Doyle"
+  "Name": "Kshlerin LLC"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 29,
-    "Name": "Robel, Cruickshank and Koelpin",
-    "ToolTip": "Quasi et voluptatem reprehenderit.",
+    "Id": 215,
+    "Name": "Murray, Towne and Simonis",
+    "ToolTip": "Nihil repudiandae molestiae nulla.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "consectetur",
+    "Rank": 919,
+    "Type": "incidunt",
     "ChildItems": [
       {
-        "Id": 576,
-        "Name": "Monahan-Lubowitz",
-        "ToolTip": "Molestias in amet est pariatur autem sint beatae.",
-        "Deleted": true,
-        "Rank": 659,
-        "Type": "molestiae",
+        "Id": 593,
+        "Name": "D'Amore-Jast",
+        "ToolTip": "Error consectetur quidem dolorum facilis facere molestiae.",
+        "Deleted": false,
+        "Rank": 737,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolore",
-        "ColorBlock": 154,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "qui",
-        "FullName": "Theodore Gerlach",
+        "IconHint": "autem",
+        "ColorBlock": 738,
+        "ExtraInfo": "autem",
+        "StyleHint": "nam",
+        "FullName": "Providenci Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 466
+            "FieldLength": 734
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 762,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "at",
-    "FullName": "Carleton Felton Beer DDS",
+    "IconHint": "accusantium",
+    "ColorBlock": 315,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "ut",
+    "FullName": "Dr. Liam Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 929
       }
     }
   }

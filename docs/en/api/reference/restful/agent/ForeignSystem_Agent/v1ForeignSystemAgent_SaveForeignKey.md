@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Ruecker, Kutch and Boyer",
-  "DeviceName": "Jacobi Group",
-  "DeviceIdentifier": "necessitatibus"
+  "ApplicationName": "McGlynn, Spencer and Runolfsdottir",
+  "DeviceName": "Romaguera LLC",
+  "DeviceIdentifier": "quo"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolorem",
-  "Value": "sunt",
-  "RecordId": 450,
-  "CreatedDate": "1999-09-18T23:03:56.1171271+02:00",
-  "UpdatedDate": "2013-01-02T23:03:56.1171271+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "voluptatem",
-  "TableName": "Towne, Satterfield and Parker",
+  "Key": "non",
+  "Value": "illo",
+  "RecordId": 55,
+  "CreatedDate": "2007-04-23T16:54:55.4864803+02:00",
+  "UpdatedDate": "2012-03-11T16:54:55.4864803+01:00",
+  "UpdatedBy": "est",
+  "CreatedBy": "quae",
+  "TableName": "Emard Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

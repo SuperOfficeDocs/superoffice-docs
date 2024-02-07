@@ -69,7 +69,7 @@ OK
 | DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 522,
-  "ParentId": 841,
-  "Name": "Parisian, Bins and Rodriguez",
-  "Fullname": "ut",
-  "CategoryMaster": 527,
+  "TicketCategoryId": 903,
+  "ParentId": 121,
+  "Name": "Denesik, Okuneva and Rohan",
+  "Fullname": "maxime",
+  "CategoryMaster": 222,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Stroman, Veum and Cole",
+  "ExternalName": "Wolff-Jacobson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 517,
-  "ReplyTemplate": 598,
-  "NotificationEmail": "stephon@darekiehn.uk",
+  "AssignmentLag": 386,
+  "ReplyTemplate": 87,
+  "NotificationEmail": "edwin_bartell@schmitt.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 438,
+  "EffectiveReplyTemplateId": 321,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "cum",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

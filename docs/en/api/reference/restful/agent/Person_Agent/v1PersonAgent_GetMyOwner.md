@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "et",
-  "PersonId": 773,
-  "Mrmrs": "nihil",
-  "Firstname": "Shaniya",
-  "Lastname": "Gerhold",
-  "MiddleName": "Bashirian LLC",
-  "Title": "et",
-  "Description": "Virtual composite contingency",
-  "Email": "reynold_veum@stracke.uk",
-  "FullName": "Miss Hosea Berta O'Kon",
-  "DirectPhone": "727.259.1662",
-  "FormalName": "Luettgen Inc and Sons",
-  "CountryId": 381,
-  "ContactId": 439,
-  "ContactName": "Dickinson-Ernser",
-  "Retired": 527,
-  "Rank": 322,
-  "ActiveInterests": 475,
+  "Position": "aspernatur",
+  "PersonId": 548,
+  "Mrmrs": "excepturi",
+  "Firstname": "Vince",
+  "Lastname": "Legros",
+  "MiddleName": "King-Kertzmann",
+  "Title": "qui",
+  "Description": "Business-focused empowering knowledge user",
+  "Email": "stacy_bins@roob.uk",
+  "FullName": "Della Jeanette Marks Sr.",
+  "DirectPhone": "1-219-238-9280 x43690",
+  "FormalName": "Bergnaum Inc and Sons",
+  "CountryId": 366,
+  "ContactId": 322,
+  "ContactName": "Hudson, Champlin and Watsica",
+  "Retired": 233,
+  "Rank": 665,
+  "ActiveInterests": 467,
   "ContactDepartment": "",
-  "ContactCountryId": 87,
-  "ContactOrgNr": "1338050",
-  "FaxPhone": "1-558-640-6435 x3355",
-  "MobilePhone": "661-450-1232 x481",
-  "ContactPhone": "1-377-159-8243",
-  "AssociateName": "Nicolas-Schuster",
-  "AssociateId": 643,
+  "ContactCountryId": 322,
+  "ContactOrgNr": "808714",
+  "FaxPhone": "1-234-502-8897 x60842",
+  "MobilePhone": "(245)192-2423",
+  "ContactPhone": "133-613-8775 x3230",
+  "AssociateName": "Berge-Hand",
+  "AssociateId": 698,
   "UsePersonAddress": false,
-  "ContactFax": "ducimus",
-  "Kanafname": "perferendis",
-  "Kanalname": "quia",
-  "Post1": "quam",
-  "Post2": "porro",
-  "Post3": "suscipit",
-  "EmailName": "kayleigh_daniel@reichert.us",
-  "ContactFullName": "Dr. Stuart Wolff",
-  "ActiveErpLinks": 12,
-  "TicketPriorityId": 319,
-  "SupportLanguageId": 129,
-  "SupportAssociateId": 448,
+  "ContactFax": "magnam",
+  "Kanafname": "aliquam",
+  "Kanalname": "laborum",
+  "Post1": "quaerat",
+  "Post2": "suscipit",
+  "Post3": "voluptate",
+  "EmailName": "yesenia@lehner.com",
+  "ContactFullName": "Hilda Gorczany",
+  "ActiveErpLinks": 874,
+  "TicketPriorityId": 376,
+  "SupportLanguageId": 992,
+  "SupportAssociateId": 739,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 929
+      "FieldType": "System.Int32",
+      "FieldLength": 463
     }
   }
 }

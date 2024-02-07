@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 785,
+  "HierarchyId": 393,
   "Domain": "Dashboards",
-  "Name": "Satterfield LLC",
-  "Fullname": "cum",
-  "ParentId": 482,
+  "Name": "Jaskolski-Hilll",
+  "Fullname": "non",
+  "ParentId": 71,
   "Children": [
     {
-      "HierarchyId": 280,
+      "HierarchyId": 396,
       "Domain": "Dashboards",
-      "Name": "Reichert-Stracke",
-      "Fullname": "voluptas",
-      "ParentId": 633,
+      "Name": "Tillman-Wolff",
+      "Fullname": "tempora",
+      "ParentId": 442,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-12-28T23:04:04.2330164+01:00",
-      "RegisteredAssociateId": 351,
-      "Updated": "1999-06-29T23:04:04.2330164+02:00",
-      "UpdatedAssociateId": 116,
+      "Registered": "2013-10-17T16:55:29.6604374+02:00",
+      "RegisteredAssociateId": 488,
+      "Updated": "2011-09-03T16:55:29.6604374+02:00",
+      "UpdatedAssociateId": 733,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 835
+          "FieldType": "System.Int32",
+          "FieldLength": 565
         }
       }
     }
   ],
-  "Registered": "2015-12-14T23:04:04.2330164+01:00",
-  "RegisteredAssociateId": 727,
-  "Updated": "2007-07-10T23:04:04.2330164+02:00",
-  "UpdatedAssociateId": 241,
+  "Registered": "2019-10-10T16:55:29.6604374+02:00",
+  "RegisteredAssociateId": 30,
+  "Updated": "2009-07-11T16:55:29.6604374+02:00",
+  "UpdatedAssociateId": 163,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldType": "System.Int32",
+      "FieldLength": 285
     }
   }
 }

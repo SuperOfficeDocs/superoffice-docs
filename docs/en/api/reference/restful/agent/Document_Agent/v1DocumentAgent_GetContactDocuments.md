@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 110,
-  "StartTime": "2007-02-25T23:03:55.6666331+01:00",
-  "EndTime": "2009-03-21T23:03:55.6666331+01:00",
-  "Count": 213
+  "ContactId": 349,
+  "StartTime": "2012-11-05T16:54:55.1353658+01:00",
+  "EndTime": "2004-09-04T16:54:55.1353658+02:00",
+  "Count": 978
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 49,
-    "Attention": "quia",
-    "Header": "mollitia",
-    "Name": "Wunsch, Bahringer and Lowe",
-    "OurRef": "doloremque",
-    "YourRef": "cupiditate",
-    "Description": "Programmable attitude-oriented methodology",
-    "DocumentTemplate": "aliquam",
+    "DocumentId": 912,
+    "Attention": "delectus",
+    "Header": "voluptatem",
+    "Name": "Metz, Sanford and Fadel",
+    "OurRef": "odio",
+    "YourRef": "doloremque",
+    "Description": "Quality-focused solution-oriented strategy",
+    "DocumentTemplate": "quibusdam",
     "IsPublished": false,
-    "PersonId": 285,
-    "PersonFullName": "Myrtle Greenholt",
-    "AssociateFullName": "Evie Rempel",
-    "ContactId": 890,
-    "ContactName": "Stracke Group",
-    "ProjectId": 494,
-    "ProjectName": "Leannon LLC",
-    "AssociateId": 270,
-    "Snum": 236,
-    "SaleId": 77,
-    "SaleName": "Langosh, Johnston and Roberts",
+    "PersonId": 460,
+    "PersonFullName": "Evalyn Dell Will V",
+    "AssociateFullName": "Ara Hane",
+    "ContactId": 776,
+    "ContactName": "Bartoletti, Beer and Keebler",
+    "ProjectId": 284,
+    "ProjectName": "Ledner-Wiza",
+    "AssociateId": 236,
+    "Snum": 906,
+    "SaleId": 863,
+    "SaleName": "Schmidt-Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 679
       }
     }
   }

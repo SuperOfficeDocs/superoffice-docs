@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=164
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=531
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 613,
-  "UniqueIdentifier": "quibusdam",
-  "Name": "Veum LLC",
-  "Description": "Sharable 5th generation moratorium",
-  "IncludeId": "exercitationem",
-  "HierarchyId": 703,
-  "Source": "perferendis",
-  "Registered": "2008-02-17T23:03:55.5746351+01:00",
-  "RegisteredAssociateId": 727,
-  "Updated": "2007-08-08T23:03:55.5746351+02:00",
-  "UpdatedAssociateId": 754,
+  "EjscriptId": 787,
+  "UniqueIdentifier": "quos",
+  "Name": "Jacobs-Little",
+  "Description": "Distributed upward-trending algorithm",
+  "IncludeId": "id",
+  "HierarchyId": 29,
+  "Source": "saepe",
+  "Registered": "2003-12-08T16:54:55.0622709+01:00",
+  "RegisteredAssociateId": 47,
+  "Updated": "2015-01-15T16:54:55.0622709+01:00",
+  "UpdatedAssociateId": 197,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 361
     }
   }
 }

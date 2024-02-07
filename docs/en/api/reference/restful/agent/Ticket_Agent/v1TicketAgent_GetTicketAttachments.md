@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 192
+  "TicketEntityId": 743
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 561,
-    "Name": "Champlin-Kemmer",
-    "ContentType": "excepturi",
-    "AttSize": 302,
+    "AttachmentId": 331,
+    "Name": "Paucek-Bins",
+    "ContentType": "quia",
+    "AttSize": 46,
     "InlineImage": false,
-    "ContentId": "id",
-    "AuthKey": "ad",
+    "ContentId": "eius",
+    "AuthKey": "minus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 504
       }
     }
   }

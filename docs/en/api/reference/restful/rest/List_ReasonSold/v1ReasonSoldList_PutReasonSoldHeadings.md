@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 520,
-    "Name": "Walsh Group",
-    "Tooltip": "laborum",
+    "HeadingId": 610,
+    "Name": "Pfannerstill, Crooks and Schumm",
+    "Tooltip": "quae",
     "Deleted": false,
-    "Rank": 95,
-    "UdListDefinitionId": 387
+    "Rank": 957,
+    "UdListDefinitionId": 347
   },
   {
-    "HeadingId": 520,
-    "Name": "Walsh Group",
-    "Tooltip": "laborum",
+    "HeadingId": 610,
+    "Name": "Pfannerstill, Crooks and Schumm",
+    "Tooltip": "quae",
     "Deleted": false,
-    "Rank": 95,
-    "UdListDefinitionId": 387
+    "Rank": 957,
+    "UdListDefinitionId": 347
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 539,
-    "Name": "Cummerata LLC",
-    "Tooltip": "expedita",
+    "HeadingId": 213,
+    "Name": "Beier Inc and Sons",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 529,
-    "UdListDefinitionId": 977,
+    "Rank": 307,
+    "UdListDefinitionId": 671,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 240
       }
     }
   }

@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 970,
-  "PrefDescId": 845,
-  "PrefValue": "autem",
-  "PrefShowValue": "ut",
-  "Description": "Configurable discrete protocol",
+  "PrefDescLineId": 645,
+  "PrefDescId": 779,
+  "PrefValue": "quo",
+  "PrefShowValue": "debitis",
+  "Description": "Implemented optimal architecture",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldLength": 319
     }
   },
   "_Links": {

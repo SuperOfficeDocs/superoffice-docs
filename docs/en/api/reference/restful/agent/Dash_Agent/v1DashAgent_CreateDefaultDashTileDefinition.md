@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 518,
-  "Name": "Beier Inc and Sons",
-  "Description": "Organized local policy",
-  "DefaultHeight": 18,
-  "DefaultWidth": 188,
+  "DashboardTileDefinitionId": 266,
+  "Name": "Kozey, Heidenreich and Nitzsche",
+  "Description": "Fundamental encompassing framework",
+  "DefaultHeight": 396,
+  "DefaultWidth": 648,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Reynolds Inc and Sons",
-  "SelectionId": 427,
+  "EntityName": "Schroeder-Turcotte",
+  "SelectionId": 524,
   "CurrencyMode": "Base",
-  "CurrencyCode": "nihil",
+  "CurrencyCode": "quos",
   "Measure": "Average",
-  "MeasureField": "quo",
-  "SortBy": "nisi",
-  "LayoutConfig": "culpa",
-  "SecondarySelectionId": 587,
-  "MeasureByField": "temporibus",
+  "MeasureField": "modi",
+  "SortBy": "error",
+  "LayoutConfig": "vel",
+  "SecondarySelectionId": 473,
+  "MeasureByField": "animi",
   "Usage": "Dashboard",
-  "ProviderName": "McDermott, Wisozk and Kuvalis",
+  "ProviderName": "Tillman, Bins and Pagac",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 492
     }
   }
 }

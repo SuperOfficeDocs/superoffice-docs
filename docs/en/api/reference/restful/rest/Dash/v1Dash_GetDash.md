@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 965,
-  "UniqueId": "nobis",
-  "Name": "Botsford LLC",
-  "Description": "Reduced tertiary paradigm",
-  "AssociateId": 525,
-  "Columns": 149,
+  "DashboardId": 943,
+  "UniqueId": "est",
+  "Name": "Herzog, Runolfsdottir and Stracke",
+  "Description": "Integrated assymetric task-force",
+  "AssociateId": 91,
+  "Columns": 545,
   "Theme": null,
-  "VisibleForAll": 364,
+  "VisibleForAll": 301,
   "VisibleForAssociates": [
-    593,
-    402
+    87,
+    556
   ],
   "VisibleForGroups": [
-    583,
-    954
+    917,
+    16
   ],
-  "PinForAll": 461,
+  "PinForAll": 784,
   "PinForAssociates": [
-    279,
-    683
+    463,
+    313
   ],
   "PinForGroups": [
-    942,
-    477
+    774,
+    840
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 565
     }
   },
   "_Links": {

@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 254,
-  "Caption": "odio",
-  "Description": "Total responsive open architecture",
-  "ChartName": "Hessel, Sawayn and Feeney",
-  "ChartId": "ullam",
+  "DashboardTileId": 277,
+  "Caption": "at",
+  "Description": "Team-oriented fresh-thinking model",
+  "ChartName": "Rodriguez-Hegmann",
+  "ChartId": "dolore",
   "IsDefault": false,
-  "AssociateId": 620,
-  "GroupId": 142,
-  "SelectionId": 630,
-  "Config": "earum",
+  "AssociateId": 556,
+  "GroupId": 128,
+  "SelectionId": 974,
+  "Config": "ad",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Oberbrunner, Spinka and Kautzer",
-      "Description": "Cross-platform multi-tasking superstructure",
+      "Name": "Shields, McDermott and Mohr",
+      "Description": "Cross-platform encompassing contingency",
       "Type": "Boolean",
-      "ListName": "Anderson-Price",
+      "ListName": "Ernser Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "omnis",
+      "Value": "non",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 27
+          "FieldType": "System.Int32",
+          "FieldLength": 468
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 991,
+      "VisibleId": 82,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldType": "System.String",
+          "FieldLength": 625
         }
       }
     },
     {
-      "VisibleId": 991,
+      "VisibleId": 82,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldType": "System.String",
+          "FieldLength": 625
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 116
     }
   },
   "_Links": {

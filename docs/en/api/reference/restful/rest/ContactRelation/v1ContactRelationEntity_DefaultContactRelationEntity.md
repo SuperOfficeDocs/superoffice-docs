@@ -57,8 +57,8 @@ OK
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Nov 2009 23:04:04 G11T
+Last-Modified: Tue, 08 Sep 2015 16:55:29 G9T
 
 {
-  "SourceContactId": 738,
-  "SourcePersonId": 521,
-  "DestinationContactId": 480,
-  "DestinationPersonId": 910,
-  "RelationId": 90,
-  "Comment": "harum",
-  "RelationDefinitionId": 796,
-  "Reversed": 423,
-  "UpdatedDate": "2009-11-26T23:04:04.0520234+01:00",
-  "CreatedDate": "2016-10-06T23:04:04.0520234+02:00",
+  "SourceContactId": 595,
+  "SourcePersonId": 85,
+  "DestinationContactId": 47,
+  "DestinationPersonId": 934,
+  "RelationId": 778,
+  "Comment": "sint",
+  "RelationDefinitionId": 103,
+  "Reversed": 16,
+  "UpdatedDate": "2015-09-08T16:55:29.5148457+02:00",
+  "CreatedDate": "2008-11-02T16:55:29.5148457+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Konopelski LLC",
-  "SourcePersonName": "Collins, Keeling and Breitenberg",
-  "DestinationContactName": "Erdman Inc and Sons",
-  "DestinationPersonName": "Luettgen-Veum",
-  "ActiveText": "non",
-  "PassiveText": "non",
+  "SourceContactName": "Swift-Hickle",
+  "SourcePersonName": "Marks, Howell and Stanton",
+  "DestinationContactName": "Medhurst, Schoen and Buckridge",
+  "DestinationPersonName": "Gutkowski Inc and Sons",
+  "ActiveText": "voluptas",
+  "PassiveText": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 528
     }
   }
 }

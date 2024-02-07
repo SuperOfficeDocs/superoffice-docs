@@ -65,7 +65,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 10,
-    "Name": "Kautzer, Ferry and O'Kon",
-    "ContentType": "quam",
-    "AttSize": 51,
+    "AttachmentId": 794,
+    "Name": "Collier Group",
+    "ContentType": "earum",
+    "AttSize": 119,
     "InlineImage": false,
-    "ContentId": "voluptatum",
-    "AuthKey": "dolorum",
+    "ContentId": "non",
+    "AuthKey": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

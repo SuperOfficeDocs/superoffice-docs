@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Altenwerth Group",
-  "DeviceName": "Schuster-Stamm",
-  "DeviceIdentifier": "itaque"
+  "ApplicationName": "Deckow, Daugherty and Hammes",
+  "DeviceName": "Keeling Group",
+  "DeviceIdentifier": "illum"
 }
 ```
 

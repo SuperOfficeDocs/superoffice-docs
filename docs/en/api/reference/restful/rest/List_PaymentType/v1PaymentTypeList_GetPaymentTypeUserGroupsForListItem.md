@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Ankunding-Lang",
-    "ToolTip": "Illo aut laudantium minima non.",
-    "Deleted": false,
-    "Rank": 196,
-    "Type": "cum",
-    "ColorBlock": 197,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "2001-09-28T23:04:05.5529989+02:00",
+    "Id": 409,
+    "Name": "Kerluke LLC",
+    "ToolTip": "Voluptas repudiandae vero ratione voluptas fugit repellendus.",
+    "Deleted": true,
+    "Rank": 204,
+    "Type": "occaecati",
+    "ColorBlock": 94,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2000-01-05T16:55:30.7502601+01:00",
     "ChildItems": [
       {
-        "Id": 704,
-        "Name": "Doyle Group",
-        "ToolTip": "Numquam voluptas sunt vero quod voluptatem.",
-        "Deleted": true,
-        "Rank": 30,
-        "Type": "et",
-        "ColorBlock": 553,
-        "IconHint": "ex",
+        "Id": 521,
+        "Name": "Christiansen-Littel",
+        "ToolTip": "Distinctio molestiae voluptate similique aut voluptas culpa voluptatem.",
+        "Deleted": false,
+        "Rank": 101,
+        "Type": "amet",
+        "ColorBlock": 871,
+        "IconHint": "placeat",
         "Selected": true,
-        "LastChanged": "2020-09-10T23:04:05.5535001+02:00",
+        "LastChanged": "2023-06-09T16:55:30.7512864+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Dr. Seamus Schmitt I",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Mr. Giovanna Breitenberg III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 196
+            "FieldLength": 173
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "minima",
+    "ExtraInfo": "illum",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Summer Bogan",
+    "FullName": "Valentin Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldLength": 391
       }
     }
   }

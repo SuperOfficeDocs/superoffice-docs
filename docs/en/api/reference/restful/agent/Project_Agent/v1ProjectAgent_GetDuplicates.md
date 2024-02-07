@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fisher Group"
+  "Name": "Torphy-Simonis"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Stehr-Hermann",
-    "SoPrimaryKey": 239,
-    "EntryName": "Kutch-Hane",
-    "EntryIdentifier": "alias",
-    "RuleDisplayName": "Cronin, Romaguera and Blick",
+    "RuleName": "Glover Group",
+    "SoPrimaryKey": 218,
+    "EntryName": "Smith-Moore",
+    "EntryIdentifier": "recusandae",
+    "RuleDisplayName": "Romaguera-Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 271
+        "FieldLength": 263
       }
     }
   }

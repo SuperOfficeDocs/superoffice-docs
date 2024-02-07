@@ -83,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Welch, Trantow and Hilll"
+  "HistoryName": "Mueller, Bradtke and Hilpert"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 482,
-    "Id": 462,
-    "HistoryName": "Gibson-Bartell",
-    "HistoryId": 848,
-    "AssociateId": 928,
-    "Name": "Howe LLC",
-    "ItemInfo": "vel",
+    "Rank": 960,
+    "Id": 660,
+    "HistoryName": "Schinner, Boyle and Bartell",
+    "HistoryId": 965,
+    "AssociateId": 953,
+    "Name": "Stiedemann LLC",
+    "ItemInfo": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldType": "System.String",
+        "FieldLength": 663
       }
     }
   }

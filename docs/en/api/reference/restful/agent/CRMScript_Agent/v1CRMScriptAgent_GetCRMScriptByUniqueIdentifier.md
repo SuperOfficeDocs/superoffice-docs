@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "similique"
+  "UniqueIdentifier": "a"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Barton-Buckridge",
-  "Description": "Cross-group interactive artificial intelligence",
-  "IncludeId": "hic",
-  "Source": "rerum",
-  "Registered": "2012-12-24T23:03:55.5731352+01:00",
-  "RegisteredBy": "saepe",
-  "Updated": "2018-05-04T23:03:55.5731352+02:00",
-  "UpdatedBy": "nobis",
-  "Path": "dolores",
+  "UniqueIdentifier": "repellat",
+  "Name": "Nitzsche Group",
+  "Description": "Phased actuating projection",
+  "IncludeId": "at",
+  "Source": "nihil",
+  "Registered": "2003-12-22T16:54:55.0602711+01:00",
+  "RegisteredBy": "eveniet",
+  "Updated": "2015-05-17T16:54:55.0602711+02:00",
+  "UpdatedBy": "nihil",
+  "Path": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 476
     }
   }
 }

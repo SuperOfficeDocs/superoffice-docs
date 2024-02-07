@@ -2,8 +2,7 @@
 uid: genericpersonwithmail
 title: genericpersonwithmail
 keywords: mdoprovider mdo provider genericpersonwithmail
-description: List of persons with mail. Supports Selection(any type), project and associate.
-Uses an inner provider <see cref="T:SuperOffice.CRM.Lists.PersonWithMailListProvider" />.
+description: List of persons with mail. Supports Selection(any type), project and associate. Uses an inner provider <see cref="T:SuperOffice.CRM.Lists.PersonWithMailListProvider" />.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

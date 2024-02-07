@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gerhold, Pacocha and Schaden",
-  "Description": "Fundamental non-volatile hardware",
-  "OwnedByFullName": "Hanna Mohr",
-  "Registered": "2009-07-10T23:03:55.6191337+02:00",
+  "Name": "Hegmann, Cruickshank and Gottlieb",
+  "Description": "Versatile local neural-net",
+  "OwnedByFullName": "Mrs. Lisandro Larkin I",
+  "Registered": "2020-05-24T16:54:55.0992904+02:00",
   "Tiles": [
     {
-      "Name": "Botsford, Kshlerin and Jewess",
+      "Name": "Kemmer Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 981
         }
       }
     },
     {
-      "Name": "Botsford, Kshlerin and Jewess",
+      "Name": "Kemmer Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 981
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldLength": 327
     }
   }
 }

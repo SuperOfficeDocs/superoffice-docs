@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Fisher-Bayer",
-      "EntityOrParentId": 70,
+      "EntityName": "Bins LLC",
+      "EntityOrParentId": 762,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Fisher-Bayer",
-      "EntityOrParentId": 70,
+      "EntityName": "Bins LLC",
+      "EntityOrParentId": 762,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 885,
-    "Id": 214,
-    "HistoryName": "Gleichner-McGlynn",
-    "HistoryId": 120,
-    "AssociateId": 703,
-    "Name": "Kerluke Inc and Sons",
-    "ItemInfo": "eum",
+    "Rank": 199,
+    "Id": 579,
+    "HistoryName": "Connelly-Gerhold",
+    "HistoryId": 287,
+    "AssociateId": 726,
+    "Name": "Parker-Kiehn",
+    "ItemInfo": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 944
       }
     }
   }

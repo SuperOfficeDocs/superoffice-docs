@@ -26,7 +26,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=244
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=412
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -83,29 +83,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 333,
-  "Name": "Huels Group",
-  "CreatedDate": "1999-08-16T23:03:56.104127+02:00",
-  "UpdatedDate": "2007-09-03T23:03:56.104127+02:00",
+  "ForeignAppId": 361,
+  "Name": "Bosco Group",
+  "CreatedDate": "2004-09-03T16:54:55.4764684+02:00",
+  "UpdatedDate": "2014-08-06T16:54:55.4764684+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 419,
-      "Name": "Cassin-Rutherford",
-      "CreatedDate": "2000-02-11T23:03:56.1046295+01:00",
-      "UpdatedDate": "2013-06-14T23:03:56.1046295+02:00",
-      "AssociateFullName": "Ava Wilkinson",
-      "CreatedBy": "ab",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "magni",
-      "ForeignAppId": 517,
+      "ForeignDeviceId": 659,
+      "Name": "Nienow, Reichert and Hermann",
+      "CreatedDate": "2012-09-05T16:54:55.4764684+02:00",
+      "UpdatedDate": "2005-07-22T16:54:55.4764684+02:00",
+      "AssociateFullName": "Prof. Lisa Heller",
+      "CreatedBy": "iure",
+      "UpdatedBy": "blanditiis",
+      "DeviceIdentifier": "sint",
+      "ForeignAppId": 497,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 828
         }
       }
     }
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldLength": 276
     }
   }
 }

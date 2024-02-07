@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 927,
-      "ContactName": "Howell, Friesen and Waters",
-      "PersonId": 452,
-      "PersonName": "Robel-Klocko",
-      "AssociateId": 819,
-      "Address": "natus",
-      "EmailId": 883,
+      "ContactId": 431,
+      "ContactName": "Pacocha-Stark",
+      "PersonId": 446,
+      "PersonName": "Luettgen Inc and Sons",
+      "AssociateId": 200,
+      "Address": "illum",
+      "EmailId": 558,
       "DuplicatePersonIds": [
-        437,
-        422
+        177,
+        899
       ],
-      "Name": "Kohler, Gutkowski and Swaniawski",
+      "Name": "Bogan-Parker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldLength": 68
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 893,
-      "ContactName": "Bode Inc and Sons",
-      "PersonId": 921,
-      "PersonName": "Fisher LLC",
-      "AssociateId": 773,
-      "Address": "non",
-      "EmailId": 636,
+      "ContactId": 493,
+      "ContactName": "Johnson-Lemke",
+      "PersonId": 715,
+      "PersonName": "Mertz, White and Hilll",
+      "AssociateId": 490,
+      "Address": "nam",
+      "EmailId": 507,
       "DuplicatePersonIds": [
-        90,
-        973
+        962,
+        32
       ],
-      "Name": "White, Dickinson and Gutmann",
+      "Name": "Kuhic-Maggio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 149
+          "FieldType": "System.Int32",
+          "FieldLength": 206
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 798,
-      "ContactName": "Quigley-Johnson",
-      "PersonId": 139,
-      "PersonName": "Jacobson Group",
-      "AssociateId": 612,
-      "Address": "temporibus",
-      "EmailId": 887,
+      "ContactId": 665,
+      "ContactName": "Bosco Inc and Sons",
+      "PersonId": 413,
+      "PersonName": "Marks-Nicolas",
+      "AssociateId": 56,
+      "Address": "incidunt",
+      "EmailId": 200,
       "DuplicatePersonIds": [
-        653,
-        69
+        924,
+        130
       ],
-      "Name": "White, Considine and Schaefer",
+      "Name": "Blick LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 281
+          "FieldLength": 532
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "corrupti",
+  "Subject": "minima",
+  "HTMLBody": "vitae",
   "From": null,
-  "Sent": "2019-12-15T23:03:55.8761308+01:00",
-  "Size": 955,
+  "Sent": "2021-08-20T16:54:55.3014197+02:00",
+  "Size": 645,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "in",
-  "PlainBody": "praesentium",
+  "MessageID": "blanditiis",
+  "PlainBody": "molestiae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 168,
+  "ServerId": 982,
   "Attachments": [
     {
-      "Description": "Multi-layered incremental process improvement",
-      "Filename": "culpa",
-      "Size": 207,
-      "Type": "veniam",
-      "Encoding": "eaque",
-      "Id": "veritatis",
-      "Disposition": "at",
-      "IsSafeFileExtension": true,
+      "Description": "Programmable exuding portal",
+      "Filename": "eligendi",
+      "Size": 694,
+      "Type": "maxime",
+      "Encoding": "doloribus",
+      "Id": "nihil",
+      "Disposition": "amet",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 374
+          "FieldLength": 955
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ondricka Group",
+      "Name": "Bashirian, Deckow and Block",
       "Values": [
-        "unde",
-        "doloribus"
+        "molestiae",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 436
         }
       }
     },
     {
-      "Name": "Ondricka Group",
+      "Name": "Bashirian, Deckow and Block",
       "Values": [
-        "unde",
-        "doloribus"
+        "molestiae",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 436
         }
       }
     }
   ],
-  "FolderName": "Lemke Inc and Sons",
-  "EmailItemId": 900,
+  "FolderName": "Runolfsdottir-Herman",
+  "EmailItemId": 832,
   "AccountId": 526,
-  "ReceivedAt": "2021-10-30T23:03:55.8766306+02:00",
+  "ReceivedAt": "2015-09-27T16:54:55.3014197+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-08-19T23:03:55.8766306+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2016-02-15T16:54:55.3014197+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldLength": 69
     }
   }
 }

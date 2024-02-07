@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Huel-Miller",
+  "LayoutName": "Mueller Inc and Sons",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 828,
-  "Name": "Mills-Greenfelder",
-  "Value": "nulla",
-  "CreatedDate": "1998-02-13T23:03:55.0031421+01:00",
-  "UpdatedDate": "2022-03-28T23:03:55.0031421+02:00",
-  "CreatedBy": "earum",
-  "UpdatedBy": "aut",
+  "AudienceLayoutId": 673,
+  "Name": "Shanahan Inc and Sons",
+  "Value": "rerum",
+  "CreatedDate": "2001-09-20T16:54:54.5893036+02:00",
+  "UpdatedDate": "2016-11-12T16:54:54.5893036+01:00",
+  "CreatedBy": "ut",
+  "UpdatedBy": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 329
     }
   }
 }

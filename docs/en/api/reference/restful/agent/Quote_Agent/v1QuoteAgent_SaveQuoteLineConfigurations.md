@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 239,
-      "FieldName": "Berge-Carter",
-      "Label": "voluptatum",
-      "Tooltip": "consequuntur",
-      "Editable": false,
+      "QuoteLineConfigurationId": 312,
+      "FieldName": "Gleichner-Hickle",
+      "Label": "consequatur",
+      "Tooltip": "laboriosam",
+      "Editable": true,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 126,
+      "Rank": 834,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 519,
-    "FieldName": "Braun, Rolfson and Zulauf",
-    "Label": "maiores",
-    "Tooltip": "aspernatur",
+    "QuoteLineConfigurationId": 671,
+    "FieldName": "Kris Group",
+    "Label": "hic",
+    "Tooltip": "molestias",
     "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 159,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 859,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 236
+        "FieldType": "System.Int32",
+        "FieldLength": 923
       }
     }
   }

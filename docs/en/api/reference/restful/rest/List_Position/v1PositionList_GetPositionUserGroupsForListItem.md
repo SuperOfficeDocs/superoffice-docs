@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Fahey Group",
-    "ToolTip": "Dolores consequatur itaque vel assumenda culpa.",
+    "Id": 702,
+    "Name": "Kemmer LLC",
+    "ToolTip": "Omnis facilis fugit praesentium quia earum animi.",
     "Deleted": false,
-    "Rank": 141,
-    "Type": "molestiae",
-    "ColorBlock": 404,
-    "IconHint": "vero",
+    "Rank": 523,
+    "Type": "et",
+    "ColorBlock": 447,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2003-05-28T23:04:05.5689989+02:00",
+    "LastChanged": "1998-09-15T16:55:30.7652789+02:00",
     "ChildItems": [
       {
-        "Id": 292,
-        "Name": "Moore, Jast and Schinner",
-        "ToolTip": "Commodi eum illum velit qui dolor.",
+        "Id": 568,
+        "Name": "Pagac-Frami",
+        "ToolTip": "Voluptas praesentium.",
         "Deleted": false,
-        "Rank": 548,
-        "Type": "dolores",
-        "ColorBlock": 506,
-        "IconHint": "ipsam",
+        "Rank": 681,
+        "Type": "aliquid",
+        "ColorBlock": 262,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "2011-01-18T23:04:05.5694987+01:00",
+        "LastChanged": "2010-09-05T16:55:30.7662571+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "ab",
+        "ExtraInfo": "quasi",
+        "StyleHint": "facilis",
         "Hidden": true,
-        "FullName": "Ryder Bartoletti",
+        "FullName": "Lamar Oberbrunner I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 570
+            "FieldType": "System.String",
+            "FieldLength": 492
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "qui",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Eva Conn",
+    "FullName": "Mohamed Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

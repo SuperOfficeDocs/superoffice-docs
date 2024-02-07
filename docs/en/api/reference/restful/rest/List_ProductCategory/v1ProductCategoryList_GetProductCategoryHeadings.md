@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 161,
-    "Name": "Kunde, Mann and Marquardt",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 808,
-    "UdListDefinitionId": 773,
+    "HeadingId": 223,
+    "Name": "Stamm-Kunze",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "Rank": 548,
+    "UdListDefinitionId": 808,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 936
       }
     }
   }

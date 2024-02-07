@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,66 +97,66 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 298,
-      "ContactName": "Pfeffer LLC",
-      "PersonId": 244,
-      "PersonName": "Bahringer, Schuster and Hirthe",
-      "AssociateId": 826,
-      "Address": "qui",
-      "EmailId": 334,
+      "ContactId": 786,
+      "ContactName": "Hyatt Group",
+      "PersonId": 24,
+      "PersonName": "Langosh-Gutmann",
+      "AssociateId": 837,
+      "Address": "corrupti",
+      "EmailId": 935,
       "DuplicatePersonIds": [
-        731,
-        746
+        520,
+        299
       ],
-      "Name": "Schneider-Dare",
+      "Name": "Douglas, Stroman and Beatty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 589
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 664,
-      "ContactName": "Bruen, Orn and Conn",
-      "PersonId": 394,
-      "PersonName": "Treutel, Hahn and Lockman",
-      "AssociateId": 453,
-      "Address": "voluptas",
-      "EmailId": 285,
+      "ContactId": 16,
+      "ContactName": "Hermiston, Wintheiser and Mante",
+      "PersonId": 162,
+      "PersonName": "Green-Lesch",
+      "AssociateId": 206,
+      "Address": "facere",
+      "EmailId": 484,
       "DuplicatePersonIds": [
-        703,
-        704
+        10,
+        227
       ],
-      "Name": "Sipes Group",
+      "Name": "Tremblay-Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 674,
-      "ContactName": "Emmerich LLC",
-      "PersonId": 868,
-      "PersonName": "Ledner-Schamberger",
-      "AssociateId": 154,
-      "Address": "ipsam",
-      "EmailId": 364,
+      "ContactId": 223,
+      "ContactName": "Hirthe, Tremblay and Satterfield",
+      "PersonId": 732,
+      "PersonName": "Dickinson LLC",
+      "AssociateId": 710,
+      "Address": "voluptas",
+      "EmailId": 781,
       "DuplicatePersonIds": [
-        963,
-        912
+        405,
+        344
       ],
-      "Name": "Graham Inc and Sons",
+      "Name": "Cummerata-VonRueden",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -167,78 +167,78 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "voluptate",
-  "HTMLBody": "aut",
+  "Subject": "officiis",
+  "HTMLBody": "voluptatum",
   "From": null,
-  "Sent": "2021-09-15T23:03:55.9306298+02:00",
-  "Size": 413,
+  "Sent": "2016-10-29T16:54:55.3394198+02:00",
+  "Size": 532,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorum",
-  "PlainBody": "iusto",
+  "MessageID": "dolore",
+  "PlainBody": "in",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 354,
+  "ServerId": 133,
   "Attachments": [
     {
-      "Description": "Visionary 24/7 local area network",
-      "Filename": "iste",
-      "Size": 334,
-      "Type": "blanditiis",
-      "Encoding": "deleniti",
-      "Id": "accusamus",
-      "Disposition": "ea",
-      "IsSafeFileExtension": false,
+      "Description": "Vision-oriented grid-enabled project",
+      "Filename": "cupiditate",
+      "Size": 95,
+      "Type": "ea",
+      "Encoding": "non",
+      "Id": "molestiae",
+      "Disposition": "omnis",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldType": "System.String",
+          "FieldLength": 981
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jacobson Group",
+      "Name": "McKenzie, Von and Watsica",
       "Values": [
-        "inventore",
-        "animi"
+        "sunt",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 96
         }
       }
     },
     {
-      "Name": "Jacobson Group",
+      "Name": "McKenzie, Von and Watsica",
       "Values": [
-        "inventore",
-        "animi"
+        "sunt",
+        "reiciendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 96
         }
       }
     }
   ],
-  "FolderName": "Bogisich LLC",
-  "EmailItemId": 307,
-  "AccountId": 212,
-  "ReceivedAt": "1996-10-16T23:03:55.9311302+02:00",
+  "FolderName": "Stoltenberg Inc and Sons",
+  "EmailItemId": 848,
+  "AccountId": 761,
+  "ReceivedAt": "2016-05-15T16:54:55.3404203+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-02-09T23:03:55.9311302+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2009-03-20T16:54:55.3404203+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 549
     }
   }
 }

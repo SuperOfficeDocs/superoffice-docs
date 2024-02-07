@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Cole, Boyer and Orn",
-    "ToolTip": "Architecto facere consectetur necessitatibus amet.",
-    "Deleted": false,
-    "Rank": 79,
-    "Type": "eos",
-    "ColorBlock": 352,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2020-11-05T23:04:05.2535041+01:00",
+    "Id": 560,
+    "Name": "Bergstrom, Lakin and Ebert",
+    "ToolTip": "Est ipsam velit et omnis itaque.",
+    "Deleted": true,
+    "Rank": 494,
+    "Type": "aut",
+    "ColorBlock": 119,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2009-11-20T16:55:30.498696+01:00",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "Lockman, Rogahn and Dooley",
-        "ToolTip": "Nobis inventore iste dolor ut.",
+        "Id": 493,
+        "Name": "Harris, Johns and Mayer",
+        "ToolTip": "Est natus eum.",
         "Deleted": false,
-        "Rank": 454,
-        "Type": "deleniti",
-        "ColorBlock": 348,
-        "IconHint": "voluptatem",
+        "Rank": 937,
+        "Type": "in",
+        "ColorBlock": 427,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2017-10-30T23:04:05.2535041+01:00",
+        "LastChanged": "2002-08-25T16:55:30.498696+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "minus",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Bettye Stokes",
+        "FullName": "Virginie O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 994
+            "FieldType": "System.String",
+            "FieldLength": 815
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "iure",
+    "ExtraInfo": "facilis",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Cyril Strosin",
+    "FullName": "Yolanda Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 674
       }
     }
   }

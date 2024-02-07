@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Bartell-Kemmer",
-    "ToolTip": "Fugiat perferendis.",
+    "Id": 455,
+    "Name": "Hickle-Daugherty",
+    "ToolTip": "Impedit voluptatem odit.",
     "Deleted": false,
-    "Rank": 37,
-    "Type": "dolores",
+    "Rank": 419,
+    "Type": "quae",
     "ChildItems": [
       {
-        "Id": 171,
-        "Name": "Wilkinson-Schinner",
-        "ToolTip": "Dicta molestiae vitae sunt ipsa vel officia.",
-        "Deleted": true,
-        "Rank": 898,
-        "Type": "ut",
+        "Id": 276,
+        "Name": "Fay, Towne and Sawayn",
+        "ToolTip": "Perferendis repellat voluptas.",
+        "Deleted": false,
+        "Rank": 885,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 465,
-        "ExtraInfo": "est",
-        "StyleHint": "quaerat",
-        "FullName": "Lupe Larson",
+        "IconHint": "voluptatem",
+        "ColorBlock": 746,
+        "ExtraInfo": "architecto",
+        "StyleHint": "molestiae",
+        "FullName": "Mr. Dagmar Cyrus Rutherford Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 776
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
     ],
-    "IconHint": "neque",
-    "ColorBlock": 129,
-    "ExtraInfo": "libero",
-    "StyleHint": "nulla",
-    "FullName": "Miss Shyanne Precious Krajcik DVM",
+    "IconHint": "quo",
+    "ColorBlock": 855,
+    "ExtraInfo": "et",
+    "StyleHint": "adipisci",
+    "FullName": "Dr. Tre Elian Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 606
       }
     }
   }

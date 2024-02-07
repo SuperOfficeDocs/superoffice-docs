@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Hudson LLC",
-    "Tooltip": "exercitationem",
+    "Id": 282,
+    "Name": "Hirthe LLC",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 687,
-    "Rank": 697
+    "UdListDefinitionId": 824,
+    "Rank": 725
   },
   {
-    "Id": 934,
-    "Name": "Hudson LLC",
-    "Tooltip": "exercitationem",
+    "Id": 282,
+    "Name": "Hirthe LLC",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 687,
-    "Rank": 697
+    "UdListDefinitionId": 824,
+    "Rank": 725
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 655,
-    "Name": "Ledner-Anderson",
-    "Tooltip": "omnis",
+    "Id": 91,
+    "Name": "Turner, Lindgren and Herzog",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "UdListDefinitionId": 707,
-    "Rank": 28,
+    "UdListDefinitionId": 126,
+    "Rank": 380,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 764
       }
     }
   }

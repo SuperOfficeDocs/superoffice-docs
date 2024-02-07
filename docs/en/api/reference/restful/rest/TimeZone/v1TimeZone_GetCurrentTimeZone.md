@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 813,
-  "Name": "Koepp, Toy and Cormier",
-  "TZLocationCode": "sunt",
-  "TZLocationCities": "repellendus",
-  "IsoNumber": 137,
+  "TZLocationID": 386,
+  "Name": "Homenick Group",
+  "TZLocationCode": "voluptas",
+  "TZLocationCities": "nihil",
+  "IsoNumber": 964,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 599,
-      "StartMonth": 266,
-      "EndDay": 506,
-      "EndMonth": 176,
-      "TZOffset": 721,
-      "StartRulePattern": "voluptate",
-      "EndRulePattern": "exercitationem"
+      "StartDay": 43,
+      "StartMonth": 615,
+      "EndDay": 615,
+      "EndMonth": 251,
+      "TZOffset": 433,
+      "StartRulePattern": "perferendis",
+      "EndRulePattern": "sed"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 569,
-      "StartMonth": 669,
-      "EndDay": 849,
-      "EndMonth": 143,
-      "TZOffset": 187,
-      "StartRulePattern": "excepturi",
-      "EndRulePattern": "est"
+      "StartDay": 197,
+      "StartMonth": 827,
+      "EndDay": 403,
+      "EndMonth": 29,
+      "TZOffset": 242,
+      "StartRulePattern": "cumque",
+      "EndRulePattern": "et"
     }
   }
 }

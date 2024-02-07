@@ -67,7 +67,6 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |tags|intArray|Tags: Tags connected to a request| x |
 |ownedBy|ejUser|Owner: The owner of the request| x |
-|createdBy|ejUser|Created by: Created by| x |
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
 |sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -121,11 +120,11 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |ownedBy/assocTooltip|string|Owner - Description: Description|  |
 |ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
+|ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |ownedBy/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
 |ownedBy/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ownedBy/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
@@ -225,11 +224,11 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |person/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |person/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |person/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
+|person/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|person/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |person/restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |person/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
@@ -329,11 +328,11 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|person/correspondingAssociate/userName|string|User name: User name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|person/correspondingAssociate/userName|string|User name: User name| x |
 |person/correspondingAssociate/personEmail|string|E-mail| x |
 |person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -433,11 +432,11 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |contact/contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |contact/contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |contact/contactAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|contact/contactAssociate/associateDbId|associate|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|contact/contactAssociate/associateDbId|associate|ID| x |
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contact/contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contact/contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -537,11 +536,11 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|sale/time| *None* |Time: Time|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
 |sale/recordType|string|Record type : Shows the record type| x |
 |sale/text|positiveString|Text: Displays a descriptive text for the item| x |
@@ -641,11 +640,11 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |project/icon| *None* |Category: Displays the icon for an activity type| x |
+|project/text|string|Text: Displays a descriptive text for the item| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|project/text|string|Text: Displays a descriptive text for the item| x |
 |project/description|string|Description : Description| x |
 |project/updatedBy|associate|Updated by: The user who last updated the data| x |
 |project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
@@ -736,7 +735,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=createdBy/firstName,createdBy/credentialDisplayValue,ownedBy/associateDbId,person/restrictionAddress/county,contact/SaintStatus2
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=contact/registeredByFullName,contact/email/emailDescription,project/NumberOfSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

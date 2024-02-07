@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Halvorson Group",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 552,
-    "Rank": 276
+    "Id": 850,
+    "Name": "Collier-Schoen",
+    "Tooltip": "odit",
+    "Deleted": false,
+    "UdListDefinitionId": 766,
+    "Rank": 148
   },
   {
-    "Id": 266,
-    "Name": "Halvorson Group",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 552,
-    "Rank": 276
+    "Id": 850,
+    "Name": "Collier-Schoen",
+    "Tooltip": "odit",
+    "Deleted": false,
+    "UdListDefinitionId": 766,
+    "Rank": 148
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "O'Hara Group",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "UdListDefinitionId": 316,
-    "Rank": 696,
+    "Id": 454,
+    "Name": "Parker LLC",
+    "Tooltip": "repudiandae",
+    "Deleted": false,
+    "UdListDefinitionId": 372,
+    "Rank": 28,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 391
       }
     }
   }

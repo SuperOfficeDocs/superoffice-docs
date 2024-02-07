@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 363,
-  "StartTime": "2015-10-08T23:03:55.6716333+02:00",
-  "EndTime": "2003-08-09T23:03:55.6716333+02:00",
-  "Count": 133,
+  "PersonId": 303,
+  "StartTime": "2009-06-04T16:54:55.1403424+02:00",
+  "EndTime": "2020-10-24T16:54:55.1403424+02:00",
+  "Count": 409,
   "DocumentTemplateIds": [
-    846,
-    906
+    398,
+    92
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 179,
-    "Attention": "eaque",
-    "Header": "aut",
-    "Name": "Bernier, Emard and Mohr",
-    "OurRef": "accusamus",
-    "YourRef": "voluptatem",
-    "Description": "Vision-oriented incremental structure",
-    "DocumentTemplate": "dolorem",
+    "DocumentId": 202,
+    "Attention": "ullam",
+    "Header": "sed",
+    "Name": "Olson Inc and Sons",
+    "OurRef": "nemo",
+    "YourRef": "ea",
+    "Description": "Profound needs-based interface",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 140,
-    "PersonFullName": "Margret Hagenes",
-    "AssociateFullName": "Shawn Kuhlman",
-    "ContactId": 144,
-    "ContactName": "Reynolds-Goodwin",
-    "ProjectId": 911,
-    "ProjectName": "Towne, Fritsch and O'Reilly",
-    "AssociateId": 421,
-    "Snum": 239,
-    "SaleId": 388,
-    "SaleName": "Littel Inc and Sons",
+    "PersonId": 131,
+    "PersonFullName": "Mr. Mariana Murray",
+    "AssociateFullName": "Marlee Sporer",
+    "ContactId": 614,
+    "ContactName": "Kohler-Bradtke",
+    "ProjectId": 777,
+    "ProjectName": "Bashirian LLC",
+    "AssociateId": 851,
+    "Snum": 510,
+    "SaleId": 814,
+    "SaleName": "Schaefer-Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldLength": 749
       }
     }
   }

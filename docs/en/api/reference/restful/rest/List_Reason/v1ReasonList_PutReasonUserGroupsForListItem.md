@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Name": "Stracke-Fritsch",
-    "ToolTip": "Sunt ipsam rerum dolor harum ab quia molestias.",
-    "Deleted": false,
-    "Rank": 607,
-    "Type": "facilis",
-    "ColorBlock": 601,
-    "IconHint": "et",
+    "Id": 65,
+    "Name": "Hansen Group",
+    "ToolTip": "Velit dolores molestias qui laudantium.",
+    "Deleted": true,
+    "Rank": 939,
+    "Type": "harum",
+    "ColorBlock": 81,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2004-02-11T23:04:05.7464958+01:00",
+    "LastChanged": "2009-01-21T16:55:31.0171842+01:00",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Lemke-Borer",
-        "ToolTip": "Assumenda voluptatum voluptates sunt ipsam velit.",
-        "Deleted": true,
-        "Rank": 274,
-        "Type": "quod",
-        "ColorBlock": 587,
-        "IconHint": "iusto",
-        "Selected": true,
-        "LastChanged": "2020-02-13T23:04:05.7464958+01:00",
+        "Id": 730,
+        "Name": "Nitzsche LLC",
+        "ToolTip": "In modi voluptatem cum aliquid sunt nulla.",
+        "Deleted": false,
+        "Rank": 154,
+        "Type": "nihil",
+        "ColorBlock": 833,
+        "IconHint": "expedita",
+        "Selected": false,
+        "LastChanged": "2005-01-08T16:55:31.0171842+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "tempore",
+        "ExtraInfo": "et",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Dr. Johnson Wendy Corwin III"
+        "FullName": "Hans Sipes"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ratione",
+    "ExtraInfo": "placeat",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Kamren Murazik"
+    "FullName": "Mrs. Blaze Larissa Crist MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Bechtelar LLC",
-    "ToolTip": "Est modi consequatur odio consequatur sunt quia.",
+    "Id": 780,
+    "Name": "Marvin, Bruen and Crona",
+    "ToolTip": "Aliquid dicta nobis.",
     "Deleted": false,
-    "Rank": 567,
-    "Type": "molestiae",
-    "ColorBlock": 61,
-    "IconHint": "rerum",
+    "Rank": 130,
+    "Type": "tenetur",
+    "ColorBlock": 413,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "1996-11-29T23:04:05.747996+01:00",
+    "LastChanged": "2011-05-29T16:55:31.0191844+02:00",
     "ChildItems": [
       {
-        "Id": 768,
-        "Name": "Pagac Group",
-        "ToolTip": "A id aliquid amet amet omnis perferendis aspernatur.",
+        "Id": 318,
+        "Name": "Kuhic Group",
+        "ToolTip": "Rerum ex corrupti.",
         "Deleted": false,
-        "Rank": 854,
-        "Type": "dolorem",
-        "ColorBlock": 977,
-        "IconHint": "dolorem",
+        "Rank": 350,
+        "Type": "nisi",
+        "ColorBlock": 660,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2018-03-06T23:04:05.747996+01:00",
+        "LastChanged": "2000-12-06T16:55:31.0191844+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Arch Koss",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Prof. Al Skiles Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldLength": 422
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "ad",
+    "ExtraInfo": "illo",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Prof. Selmer Barbara Marvin",
+    "FullName": "Veronica Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 942
       }
     }
   }

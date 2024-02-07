@@ -70,7 +70,7 @@ OK
 | TargetAssociate | Associate | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetContact | Contact | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetUserGroup | UserGroup | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| Currency | Currency | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
+| Currency | Currency | The currency of the target.  Use MDO List name "currency" to get list items. |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
 | DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight | TableRight | The carrier's table right |
@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 237,
-  "TargetDimensionId": 580
+  "UserGroupId": 250,
+  "TargetDimensionId": 3
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 304,
+    "TargetAssignmentInfoId": 138,
     "Values": [
-      259,
-      521
+      851,
+      964
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 225,
-    "DimensionListItemDisplayName": "Schneider LLC",
+    "DimensionListItem": 942,
+    "DimensionListItemDisplayName": "Walter, Smith and Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldLength": 934
       }
     }
   }

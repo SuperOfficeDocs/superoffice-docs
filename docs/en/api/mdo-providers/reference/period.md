@@ -2,7 +2,7 @@
 uid: period
 title: period
 keywords: mdoprovider mdo provider period
-description: Period values: Day, Week, Month, Quarter, Year
+description: Period values - Day, Week, Month, Quarter, Year
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

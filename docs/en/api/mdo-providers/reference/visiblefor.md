@@ -2,9 +2,7 @@
 uid: visiblefor
 title: visiblefor
 keywords: mdoprovider mdo provider visiblefor
-description: List provider for the VisibleFor dropdown control. Items are of type associate, usergroup or all, with
-a separate id space for each type. The current associate, its primary and secondary groups, and 'all' are
-the returned elements. MDO list sorting preferences for the UserGroup list are respected.
+description: List provider for the VisibleFor dropdown control. Items are of type associate, usergroup or all, with a separate id space for each type. The current associate, its primary and secondary groups, and 'all' are the returned elements. MDO list sorting preferences for the UserGroup list are respected.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -17,10 +15,12 @@ the returned elements. MDO list sorting preferences for the UserGroup list are r
 
 Associate items have positive ID's equal to the associate id, group items have negative id's equal to -usergroup id,
 and the All item has the id value int.MinValue.
-<para />
+
+
 You can pass in an associate ID in the additionalInfo parameter, this will return a VisibleFor list customized to that
 associate's view of the world. If additionalInfo is blank, not a number, or 0, the current associate is used.
-<para />
+
+
 You can also pass in a list of associate ids, as a string with space/comma delimiters.
 Example: '1, 2, 45, 999,12'. In this case, you will get a VisibleFor populated with the All choice,
 plus the intersection of all the groups of all the associates. I.e., something set as Visible For

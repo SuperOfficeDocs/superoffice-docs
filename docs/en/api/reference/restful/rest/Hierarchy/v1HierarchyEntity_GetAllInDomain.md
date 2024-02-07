@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 88,
+    "HierarchyId": 671,
     "Domain": "Dashboards",
-    "Name": "Stiedemann, Boehm and Ondricka",
-    "Fullname": "possimus",
-    "ParentId": 946,
+    "Name": "Hartmann-Hilpert",
+    "Fullname": "eligendi",
+    "ParentId": 421,
     "Children": [
       {
-        "HierarchyId": 954,
+        "HierarchyId": 594,
         "Domain": "Dashboards",
-        "Name": "Medhurst, Bruen and Yundt",
-        "Fullname": "enim",
-        "ParentId": 664,
+        "Name": "Schowalter-Kautzer",
+        "Fullname": "ut",
+        "ParentId": 943,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2014-08-23T23:04:04.2365165+02:00",
-        "RegisteredAssociateId": 698,
-        "Updated": "2015-12-03T23:04:04.2365165+01:00",
-        "UpdatedAssociateId": 645,
+        "Registered": "2005-10-19T16:55:29.6644398+02:00",
+        "RegisteredAssociateId": 528,
+        "Updated": "2019-01-28T16:55:29.6644398+01:00",
+        "UpdatedAssociateId": 710,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldType": "System.String",
+            "FieldLength": 411
           }
         }
       }
     ],
-    "Registered": "2008-01-11T23:04:04.2365165+01:00",
-    "RegisteredAssociateId": 9,
-    "Updated": "2009-07-02T23:04:04.2365165+02:00",
-    "UpdatedAssociateId": 574,
+    "Registered": "2013-08-25T16:55:29.6644398+02:00",
+    "RegisteredAssociateId": 186,
+    "Updated": "2023-04-08T16:55:29.6644398+02:00",
+    "UpdatedAssociateId": 527,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldType": "System.String",
+        "FieldLength": 513
       }
     }
   }

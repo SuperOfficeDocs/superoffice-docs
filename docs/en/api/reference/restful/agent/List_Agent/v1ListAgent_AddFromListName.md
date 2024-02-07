@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Franecki Group",
+  "UdListDefinitionName": "Waters-Hettinger",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Dietrich, White and Stark",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 801,
-  "Rank": 678,
+  "Id": 902,
+  "Name": "Schoen LLC",
+  "Tooltip": "illo",
+  "Deleted": true,
+  "UdListDefinitionId": 345,
+  "Rank": 619,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 499
     }
   }
 }

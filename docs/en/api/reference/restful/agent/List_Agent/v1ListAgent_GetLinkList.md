@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Lemke Inc and Sons",
-    "Id": 467,
-    "Description": "Optional intangible function",
-    "ExtraInfo": "cupiditate",
-    "LinkId": 92,
+    "EntityName": "Langosh-Konopelski",
+    "Id": 82,
+    "Description": "Multi-channelled didactic toolset",
+    "ExtraInfo": "facilis",
+    "LinkId": 311,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 337
       }
     }
   }

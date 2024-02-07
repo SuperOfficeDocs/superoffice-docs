@@ -81,10 +81,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 947,
+  "DocumentId": 519,
   "AllowedReturnTypes": [
-    "ab",
-    "autem"
+    "ratione",
+    "doloremque"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "voluptatum",
-  "VersionId": "consequatur",
+  "ExternalReference": "numquam",
+  "VersionId": "vel",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "tempore",
-  "AdditionalInfo": "optio"
+  "Value": "qui",
+  "AdditionalInfo": "aut"
 }
 ```

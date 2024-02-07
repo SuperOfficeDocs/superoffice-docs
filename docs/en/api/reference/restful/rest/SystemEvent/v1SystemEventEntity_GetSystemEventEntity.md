@@ -82,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 624,
+  "SystemEventId": 742,
   "Scope": "Database",
-  "Eta": "2008-06-19T23:04:04.8140092+02:00",
-  "Eventkey": "ea",
-  "Eventmess": "totam",
-  "ExtraInfo": 882,
-  "Owner": 914,
-  "UpdatedCount": 781,
-  "Registered": "2004-05-08T23:04:04.8140092+02:00",
+  "Eta": "2018-11-06T16:55:30.150021+01:00",
+  "Eventkey": "saepe",
+  "Eventmess": "dolore",
+  "ExtraInfo": 483,
+  "Owner": 781,
+  "UpdatedCount": 666,
+  "Registered": "2014-06-06T16:55:30.150021+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 997
     }
   },
   "_Links": {

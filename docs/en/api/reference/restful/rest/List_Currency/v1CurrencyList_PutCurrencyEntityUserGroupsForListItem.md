@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Ferry-Abshire",
-    "ToolTip": "Adipisci quis nemo vero.",
+    "Id": 983,
+    "Name": "Nicolas Inc and Sons",
+    "ToolTip": "Tempore nobis sint eos facere.",
     "Deleted": false,
-    "Rank": 505,
-    "Type": "exercitationem",
-    "ColorBlock": 244,
-    "IconHint": "rem",
-    "Selected": false,
-    "LastChanged": "2005-10-25T23:04:05.4240003+02:00",
+    "Rank": 699,
+    "Type": "rerum",
+    "ColorBlock": 265,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2003-06-10T16:55:30.6333021+02:00",
     "ChildItems": [
       {
-        "Id": 567,
-        "Name": "Streich, Kulas and McLaughlin",
-        "ToolTip": "Autem voluptates porro aut eaque ex minus.",
-        "Deleted": true,
-        "Rank": 209,
-        "Type": "non",
-        "ColorBlock": 802,
-        "IconHint": "eum",
+        "Id": 416,
+        "Name": "Wuckert Group",
+        "ToolTip": "Sint unde et qui accusamus ullam debitis.",
+        "Deleted": false,
+        "Rank": 100,
+        "Type": "alias",
+        "ColorBlock": 369,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2008-08-31T23:04:05.4240003+02:00",
+        "LastChanged": "2016-06-26T16:55:30.6333021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Macey Mya Stokes DVM"
+        "ExtraInfo": "aliquid",
+        "StyleHint": "vitae",
+        "Hidden": false,
+        "FullName": "Lila Dulce Ratke I"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "quas",
-    "Hidden": false,
-    "FullName": "Alvah Bailey"
+    "ExtraInfo": "enim",
+    "StyleHint": "possimus",
+    "Hidden": true,
+    "FullName": "Mrs. Grayson Jenkins"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Donnelly-Mertz",
-    "ToolTip": "Iste soluta illum similique et tempore qui sequi.",
+    "Id": 764,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Iusto ut sit ducimus quia.",
     "Deleted": false,
-    "Rank": 627,
-    "Type": "qui",
-    "ColorBlock": 948,
-    "IconHint": "nihil",
+    "Rank": 851,
+    "Type": "occaecati",
+    "ColorBlock": 527,
+    "IconHint": "pariatur",
     "Selected": false,
-    "LastChanged": "2009-09-24T23:04:05.4260008+02:00",
+    "LastChanged": "2008-08-20T16:55:30.6342169+02:00",
     "ChildItems": [
       {
-        "Id": 52,
-        "Name": "Kling-O'Reilly",
-        "ToolTip": "Voluptas ipsum totam odit ad voluptatem recusandae.",
-        "Deleted": false,
-        "Rank": 229,
-        "Type": "perferendis",
-        "ColorBlock": 882,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2020-02-05T23:04:05.4265014+01:00",
+        "Id": 951,
+        "Name": "Gottlieb-Stroman",
+        "ToolTip": "Omnis laudantium quis dignissimos autem recusandae odio repellat.",
+        "Deleted": true,
+        "Rank": 158,
+        "Type": "et",
+        "ColorBlock": 722,
+        "IconHint": "natus",
+        "Selected": false,
+        "LastChanged": "2015-06-03T16:55:30.6352172+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "sint",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Miss Tressie Annette Conn",
+        "FullName": "Lilliana Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 735
+            "FieldLength": 592
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "sit",
+    "ExtraInfo": "quia",
+    "StyleHint": "officia",
     "Hidden": true,
-    "FullName": "Nicholas Stokes",
+    "FullName": "Lewis Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 518
       }
     }
   }

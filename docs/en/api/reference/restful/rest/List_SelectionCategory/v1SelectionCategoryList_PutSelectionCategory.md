@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Considine Group",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "UdListDefinitionId": 586,
-  "Rank": 131
+  "Id": 859,
+  "Name": "Kihn-Jones",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "UdListDefinitionId": 562,
+  "Rank": 803
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 986,
-  "Name": "Kozey, Schroeder and Torp",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 303,
-  "Rank": 687,
+  "Id": 166,
+  "Name": "Gulgowski-O'Kon",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "UdListDefinitionId": 748,
+  "Rank": 995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 224
     }
   }
 }

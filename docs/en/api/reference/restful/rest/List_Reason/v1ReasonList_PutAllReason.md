@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Effertz Inc and Sons",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "UdListDefinitionId": 334,
-    "Rank": 77
+    "Id": 367,
+    "Name": "Baumbach Inc and Sons",
+    "Tooltip": "rem",
+    "Deleted": false,
+    "UdListDefinitionId": 30,
+    "Rank": 673
   },
   {
-    "Id": 851,
-    "Name": "Effertz Inc and Sons",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "UdListDefinitionId": 334,
-    "Rank": 77
+    "Id": 367,
+    "Name": "Baumbach Inc and Sons",
+    "Tooltip": "rem",
+    "Deleted": false,
+    "UdListDefinitionId": 30,
+    "Rank": 673
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Hettinger, Wehner and Hahn",
-    "Tooltip": "in",
+    "Id": 135,
+    "Name": "Turcotte LLC",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 865,
-    "Rank": 542,
+    "UdListDefinitionId": 502,
+    "Rank": 541,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 66
       }
     }
   }

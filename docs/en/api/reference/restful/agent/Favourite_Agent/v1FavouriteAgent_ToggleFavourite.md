@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Block LLC",
-  "RecordId": 267,
-  "AssociateId": 88,
-  "ExtraInfo": "aut"
+  "TableName": "Howell Group",
+  "RecordId": 570,
+  "AssociateId": 354,
+  "ExtraInfo": "quam"
 }
 ```
 

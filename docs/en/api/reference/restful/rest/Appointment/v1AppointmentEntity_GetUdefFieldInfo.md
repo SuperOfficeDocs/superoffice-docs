@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 100,
-  "ColumnId": 383,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 753,
-  "FieldLabel": "optio",
-  "FieldLeft": 259,
-  "FieldTop": 911,
+  "UDefFieldId": 252,
+  "ColumnId": 525,
+  "FieldDefault": "sed",
+  "FieldHeight": 897,
+  "FieldLabel": "saepe",
+  "FieldLeft": 847,
+  "FieldTop": 302,
   "FieldType": "Checkbox",
-  "FieldWidth": 762,
-  "FormatMask": "ut",
+  "FieldWidth": 888,
+  "FormatMask": "in",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 290,
-  "LabelLeft": 908,
-  "LabelTop": 5,
-  "LabelWidth": 821,
-  "LastVersionId": 136,
-  "ListTableId": 285,
-  "IsMandatory": true,
+  "LabelHeight": 76,
+  "LabelLeft": 400,
+  "LabelTop": 50,
+  "LabelWidth": 845,
+  "LastVersionId": 756,
+  "ListTableId": 604,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 541,
-  "ProgId": "fugit",
-  "IsReadOnly": true,
-  "ShortLabel": "numquam",
-  "TabOrder": 944,
-  "TextLength": 504,
-  "Tooltip": "consequuntur",
-  "UdefIdentity": 456,
-  "UDListDefinitionId": 786,
+  "Page1LineNo": 568,
+  "ProgId": "maxime",
+  "IsReadOnly": false,
+  "ShortLabel": "eaque",
+  "TabOrder": 995,
+  "TextLength": 311,
+  "Tooltip": "provident",
+  "UdefIdentity": 954,
+  "UDListDefinitionId": 298,
   "Justification": "Center",
-  "Version": 823,
-  "TemplateVariableName": "Marquardt Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Larkin Group",
+  "Version": 323,
+  "TemplateVariableName": "Schultz, Moore and Tillman",
+  "HasBeenPublished": false,
+  "MdoListName": "Barton, Goodwin and Collier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 250
     }
   }
 }

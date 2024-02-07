@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Ziemann-Pfeffer",
-    "ToolTip": "Delectus est autem numquam ut.",
-    "Deleted": true,
-    "Rank": 441,
-    "Type": "inventore",
-    "ColorBlock": 382,
-    "IconHint": "sequi",
+    "Id": 782,
+    "Name": "Heller-Tremblay",
+    "ToolTip": "Mollitia cum qui dolorum et.",
+    "Deleted": false,
+    "Rank": 278,
+    "Type": "dolores",
+    "ColorBlock": 632,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2003-11-24T23:04:05.9859928+01:00",
+    "LastChanged": "2020-05-20T16:55:31.1138138+02:00",
     "ChildItems": [
       {
-        "Id": 501,
-        "Name": "Ledner-Kling",
-        "ToolTip": "Perferendis est occaecati eum veniam.",
-        "Deleted": false,
-        "Rank": 414,
-        "Type": "et",
-        "ColorBlock": 202,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2002-04-27T23:04:05.9859928+02:00",
+        "Id": 570,
+        "Name": "Denesik, Tromp and Thiel",
+        "ToolTip": "Laborum natus dolorem sunt.",
+        "Deleted": true,
+        "Rank": 872,
+        "Type": "porro",
+        "ColorBlock": 442,
+        "IconHint": "veniam",
+        "Selected": false,
+        "LastChanged": "2015-07-26T16:55:31.1138138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "velit",
+        "ExtraInfo": "ad",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Lavonne Christa Carter I"
+        "FullName": "Walter Wisoky"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "placeat",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Timmy Sipes PhD"
+    "FullName": "Kaylee Jaskolski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Koss Inc and Sons",
-    "ToolTip": "Expedita occaecati neque.",
+    "Id": 184,
+    "Name": "Bahringer, Larkin and Torphy",
+    "ToolTip": "Explicabo nemo officiis eum expedita accusamus officia magni.",
     "Deleted": false,
-    "Rank": 173,
-    "Type": "neque",
-    "ColorBlock": 537,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2005-12-09T23:04:05.9874929+01:00",
+    "Rank": 588,
+    "Type": "officia",
+    "ColorBlock": 4,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2002-03-18T16:55:31.1148135+01:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Kilback Group",
-        "ToolTip": "Non accusamus consequatur.",
-        "Deleted": true,
-        "Rank": 957,
-        "Type": "cumque",
-        "ColorBlock": 488,
-        "IconHint": "sed",
+        "Id": 393,
+        "Name": "Boyer LLC",
+        "ToolTip": "Ut occaecati et distinctio culpa ullam rerum ut.",
+        "Deleted": false,
+        "Rank": 271,
+        "Type": "in",
+        "ColorBlock": 855,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2018-04-04T23:04:05.9874929+02:00",
+        "LastChanged": "1997-02-01T16:55:31.1148135+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Virginia Bednar",
+        "FullName": "Jacklyn Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 900
+            "FieldLength": 433
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "odio",
+    "ExtraInfo": "in",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Laverne Gulgowski",
+    "FullName": "Jennings Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 516
+        "FieldType": "System.Int32",
+        "FieldLength": 1002
       }
     }
   }

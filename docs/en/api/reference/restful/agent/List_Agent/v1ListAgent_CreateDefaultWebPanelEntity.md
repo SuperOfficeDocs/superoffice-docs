@@ -88,26 +88,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 751,
-  "Name": "Weber-Koepp",
-  "Tooltip": "nobis",
+  "WebPanelId": 492,
+  "Name": "Funk Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 986,
+  "Rank": 82,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Lemke, Murphy and Reynolds",
+  "ShowInStatusBar": false,
+  "WindowName": "Smith-Schiller",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatem",
-  "Icon": 169,
+  "ProgId": "possimus",
+  "Icon": 543,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 370
     }
   }
 }

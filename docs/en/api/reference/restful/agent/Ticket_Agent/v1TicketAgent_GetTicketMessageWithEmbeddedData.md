@@ -81,7 +81,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -91,7 +91,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
+  "Id": 397,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,78 +117,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 896,
+  "EjMessageId": 899,
   "Ticket": null,
-  "CreatedAt": "2015-07-24T23:03:57.4701101+02:00",
+  "CreatedAt": "2003-11-24T16:54:56.5932033+01:00",
   "CreatedBy": null,
-  "Author": "nesciunt",
+  "Author": "repudiandae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "id",
-  "TimeSpent": 136,
-  "Body": "facere",
-  "HtmlBody": "voluptatibus",
-  "EmailHeader": "kade_ernser@hammeshintz.biz",
-  "DebugInfo": "labore",
-  "MailSorter": "sapiente",
+  "MessageId": "laudantium",
+  "TimeSpent": 916,
+  "Body": "quibusdam",
+  "HtmlBody": "quos",
+  "EmailHeader": "flavio@runolfsdottir.com",
+  "DebugInfo": "consequatur",
+  "MailSorter": "enim",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ut",
+  "SearchTitle": "quia",
   "MessageHeaders": [
     {
-      "Id": 590,
-      "Name": "Hintz-Carroll",
-      "Value": "voluptatem",
+      "Id": 55,
+      "Name": "Rowe, Simonis and Farrell",
+      "Value": "consequatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldType": "System.String",
+          "FieldLength": 676
         }
       }
     }
   ],
   "Important": false,
-  "Language": "eligendi",
-  "Sentiment": 421,
-  "SentimentConfidence": 347,
+  "Language": "ut",
+  "Sentiment": 566,
+  "SentimentConfidence": 91,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 829,
-      "Name": "Nienow Inc and Sons",
-      "ContentType": "nam",
-      "AttSize": 266,
+      "AttachmentId": 28,
+      "Name": "Stiedemann Group",
+      "ContentType": "rerum",
+      "AttSize": 974,
       "InlineImage": false,
-      "ContentId": "quis",
-      "AuthKey": "enim",
+      "ContentId": "voluptas",
+      "AuthKey": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 224
+          "FieldType": "System.Int32",
+          "FieldLength": 944
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "iusto",
+    "CustomFields2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldType": "System.String",
+      "FieldLength": 104
     }
   }
 }

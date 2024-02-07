@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Breitenberg-Cronin",
-    "ToolTip": "Et laborum dolorem illum minus totam ex.",
+    "Id": 765,
+    "Name": "O'Kon, Schmidt and O'Connell",
+    "ToolTip": "Placeat ut alias.",
     "Deleted": false,
-    "Rank": 887,
-    "Type": "et",
-    "ColorBlock": 793,
-    "IconHint": "nihil",
+    "Rank": 615,
+    "Type": "quas",
+    "ColorBlock": 885,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2010-06-23T23:04:05.2954995+02:00",
+    "LastChanged": "2009-10-19T16:55:30.5296989+02:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Hammes LLC",
-        "ToolTip": "Voluptas ut.",
+        "Id": 593,
+        "Name": "Lynch-Casper",
+        "ToolTip": "Cupiditate numquam iste quia voluptas qui.",
         "Deleted": false,
-        "Rank": 339,
-        "Type": "magnam",
-        "ColorBlock": 186,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2011-02-27T23:04:05.2954995+01:00",
+        "Rank": 490,
+        "Type": "accusamus",
+        "ColorBlock": 709,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2001-08-30T16:55:30.5296989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "quia",
+        "ExtraInfo": "sit",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Odessa Schinner",
+        "FullName": "Jamar Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 279
+            "FieldLength": 489
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "est",
+    "ExtraInfo": "qui",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Berenice Roberts",
+    "FullName": "Mrs. Drake Shields V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldLength": 925
       }
     }
   }

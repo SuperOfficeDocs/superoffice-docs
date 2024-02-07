@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Reilly Inc and Sons",
-    "ToolTip": "Excepturi debitis ducimus assumenda.",
+    "Id": 838,
+    "Name": "Gleason, Farrell and Heller",
+    "ToolTip": "Eos voluptas.",
     "Deleted": true,
-    "Rank": 38,
-    "Type": "dolorem",
-    "ColorBlock": 350,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2003-06-03T23:04:05.3325029+02:00",
+    "Rank": 827,
+    "Type": "dolorum",
+    "ColorBlock": 396,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "2007-03-30T16:55:30.560698+02:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Lemke Inc and Sons",
-        "ToolTip": "Qui aut.",
-        "Deleted": true,
-        "Rank": 325,
-        "Type": "excepturi",
-        "ColorBlock": 701,
-        "IconHint": "quas",
+        "Id": 826,
+        "Name": "Kozey Group",
+        "ToolTip": "Nihil et quia omnis quis.",
+        "Deleted": false,
+        "Rank": 639,
+        "Type": "ut",
+        "ColorBlock": 951,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2008-05-27T23:04:05.3325029+02:00",
+        "LastChanged": "2014-01-06T16:55:30.560698+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Lucius Ziemann"
+        "ExtraInfo": "magni",
+        "StyleHint": "quasi",
+        "Hidden": false,
+        "FullName": "Mrs. Dayton Addie Kassulke V"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Prof. Brook Jakayla Witting DVM"
+    "ExtraInfo": "magnam",
+    "StyleHint": "labore",
+    "Hidden": false,
+    "FullName": "Cleta Shields PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 107,
-    "Name": "O'Kon-Rath",
-    "ToolTip": "Modi quia illo tempora.",
-    "Deleted": false,
-    "Rank": 600,
-    "Type": "quia",
-    "ColorBlock": 424,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "1998-12-29T23:04:05.3335026+01:00",
+    "Id": 745,
+    "Name": "O'Kon, Ullrich and Hessel",
+    "ToolTip": "Libero in id enim error eos.",
+    "Deleted": true,
+    "Rank": 227,
+    "Type": "voluptates",
+    "ColorBlock": 317,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2016-03-28T16:55:30.5616963+02:00",
     "ChildItems": [
       {
-        "Id": 497,
-        "Name": "Gerlach, Lockman and Barton",
-        "ToolTip": "Animi fuga quod ullam similique unde incidunt.",
-        "Deleted": false,
-        "Rank": 965,
-        "Type": "modi",
-        "ColorBlock": 112,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "1998-02-10T23:04:05.3340015+01:00",
+        "Id": 137,
+        "Name": "Murphy Group",
+        "ToolTip": "Perferendis itaque dolores.",
+        "Deleted": true,
+        "Rank": 470,
+        "Type": "dicta",
+        "ColorBlock": 513,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2020-09-03T16:55:30.5616963+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Pete Walker",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Ernestina Felipe Bernier DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldType": "System.String",
+            "FieldLength": 58
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "nisi",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Mr. Parker Joshuah Kihn",
+    "FullName": "Prof. Oceane Carolanne Roberts II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 355
       }
     }
   }

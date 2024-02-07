@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "Name": "Veum, Schmidt and Daugherty",
-  "Tooltip": "velit",
+  "Id": 873,
+  "Name": "Carroll-Glover",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 556,
-  "Rank": 23,
+  "UdListDefinitionId": 318,
+  "Rank": 642,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldLength": 964
     }
   }
 }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 368,
-    "Name": "Klein, Homenick and Little",
+    "TicketPriorityId": 27,
+    "Name": "Sporer LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 104,
+    "SortOrder": 550,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 269,
-    "MonStart": "2002-06-12T23:03:56.1601263+02:00",
-    "MonStop": "2012-03-26T23:03:56.1601263+02:00",
-    "TueStart": "2022-11-15T23:03:56.1601263+01:00",
-    "TueStop": "2014-01-08T23:03:56.1601263+01:00",
-    "WedStart": "2000-06-25T23:03:56.1601263+02:00",
-    "WedStop": "2023-09-03T23:03:56.1601263+02:00",
-    "ThuStart": "1997-07-21T23:03:56.1601263+02:00",
-    "ThuStop": "2012-03-03T23:03:56.1601263+01:00",
-    "FriStart": "2018-07-24T23:03:56.1601263+02:00",
-    "FriStop": "2013-07-27T23:03:56.1601263+02:00",
-    "SatStart": "2000-01-11T23:03:56.1601263+01:00",
-    "SatStop": "2016-10-14T23:03:56.1601263+02:00",
-    "SunStart": "2013-08-20T23:03:56.1601263+02:00",
-    "SunStop": "2011-10-21T23:03:56.1601263+02:00",
+    "Deadline": 720,
+    "MonStart": "2003-04-28T16:54:55.5225771+02:00",
+    "MonStop": "2010-12-29T16:54:55.5225771+01:00",
+    "TueStart": "2016-03-27T16:54:55.5225771+02:00",
+    "TueStop": "2001-02-18T16:54:55.5225771+01:00",
+    "WedStart": "2013-05-08T16:54:55.5225771+02:00",
+    "WedStop": "2008-10-21T16:54:55.5225771+02:00",
+    "ThuStart": "2009-10-18T16:54:55.5225771+02:00",
+    "ThuStop": "2002-09-22T16:54:55.5225771+02:00",
+    "FriStart": "2011-07-07T16:54:55.5225771+02:00",
+    "FriStop": "2003-10-02T16:54:55.5225771+02:00",
+    "SatStart": "2003-06-18T16:54:55.5225771+02:00",
+    "SatStop": "2000-08-05T16:54:55.5225771+02:00",
+    "SunStart": "2016-02-09T16:54:55.5225771+01:00",
+    "SunStop": "2016-09-21T16:54:55.5225771+02:00",
     "NonDates": [
-      "neque",
-      "dolor"
+      "ex",
+      "ad"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 896,
-        "AlertLevel": 960,
-        "AlertTimeout": 679,
-        "Action": 286,
-        "DelegateTo": 268,
-        "ScriptId": 877,
-        "EmailTo": "darrion@schroedersauer.us",
-        "SmsTo": "quia",
-        "ReplyTemplateIdCustomer": 654,
-        "ReplyTemplateIdUser": 683,
-        "ReplyTemplateIdCatmast": 955,
-        "ReplyTemplateIdEmail": 559,
-        "RtiCustomerSms": 577,
-        "ReplyTemplateIdUserSms": 554,
-        "ReplyTemplateIdCatmastSms": 954,
-        "ReplyTemplateIdSms": 560,
+        "TicketAlertId": 412,
+        "AlertLevel": 715,
+        "AlertTimeout": 956,
+        "Action": 104,
+        "DelegateTo": 797,
+        "ScriptId": 425,
+        "EmailTo": "hiram.ullrich@collier.uk",
+        "SmsTo": "molestiae",
+        "ReplyTemplateIdCustomer": 699,
+        "ReplyTemplateIdUser": 175,
+        "ReplyTemplateIdCatmast": 587,
+        "ReplyTemplateIdEmail": 685,
+        "RtiCustomerSms": 187,
+        "ReplyTemplateIdUserSms": 939,
+        "ReplyTemplateIdCatmastSms": 266,
+        "ReplyTemplateIdSms": 493,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 287
+            "FieldLength": 283
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

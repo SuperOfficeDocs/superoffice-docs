@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 405,
-  "Name": "Trantow, Pfeffer and Buckridge",
+  "TicketStatusId": 341,
+  "Name": "Bayer Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": false,
+  "NoEmailReopen": true,
+  "IsDefault": true,
   "UsedInQueue": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 698,
-  "Name": "Rodriguez Inc and Sons",
+  "TicketStatusId": 961,
+  "Name": "Cormier Group",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 839
     }
   }
 }

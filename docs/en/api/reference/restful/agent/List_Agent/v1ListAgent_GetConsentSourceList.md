@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 754,
-    "Name": "Breitenberg, Champlin and Hoppe",
-    "Tooltip": "assumenda",
-    "Rank": 556,
-    "Key": "ea",
-    "MailTemplateId": 144,
+    "ConsentSourceId": 808,
+    "Name": "Ondricka Inc and Sons",
+    "Tooltip": "aut",
+    "Rank": 12,
+    "Key": "consectetur",
+    "MailTemplateId": 114,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
+        "FieldType": "System.String",
         "FieldLength": 16
       }
     }

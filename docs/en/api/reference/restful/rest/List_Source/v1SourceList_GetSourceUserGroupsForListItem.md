@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Glover-Nitzsche",
-    "ToolTip": "Repudiandae qui.",
-    "Deleted": true,
-    "Rank": 994,
-    "Type": "qui",
-    "ColorBlock": 680,
-    "IconHint": "qui",
+    "Id": 226,
+    "Name": "Leffler Group",
+    "ToolTip": "Voluptatum et sunt et repellat.",
+    "Deleted": false,
+    "Rank": 742,
+    "Type": "eius",
+    "ColorBlock": 26,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2010-06-18T23:04:05.9659932+02:00",
+    "LastChanged": "1996-12-21T16:55:31.0987976+01:00",
     "ChildItems": [
       {
-        "Id": 383,
-        "Name": "Johnson, Heller and Macejkovic",
-        "ToolTip": "Sapiente tempora dicta rerum.",
+        "Id": 492,
+        "Name": "Rippin Group",
+        "ToolTip": "Laborum quibusdam dolorem id autem.",
         "Deleted": false,
-        "Rank": 743,
-        "Type": "laboriosam",
-        "ColorBlock": 775,
-        "IconHint": "quas",
-        "Selected": true,
-        "LastChanged": "2016-03-10T23:04:05.9659932+01:00",
+        "Rank": 645,
+        "Type": "consequatur",
+        "ColorBlock": 295,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "1998-08-13T16:55:31.0987976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "in",
+        "ExtraInfo": "et",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Jimmie Fay",
+        "FullName": "Ned Kassulke Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 596
+            "FieldType": "System.String",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "maxime",
+    "ExtraInfo": "veniam",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Meaghan Ondricka",
+    "FullName": "Ms. Brenda Bins IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldType": "System.String",
+        "FieldLength": 877
       }
     }
   }

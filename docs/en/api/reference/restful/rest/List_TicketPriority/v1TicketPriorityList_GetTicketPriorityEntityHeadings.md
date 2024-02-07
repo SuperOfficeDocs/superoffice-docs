@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 358,
-    "Name": "Swaniawski, Cronin and Morar",
-    "Tooltip": "excepturi",
+    "HeadingId": 584,
+    "Name": "Quigley Group",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 665,
-    "UdListDefinitionId": 245,
+    "Rank": 42,
+    "UdListDefinitionId": 550,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

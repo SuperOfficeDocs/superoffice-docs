@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 270
+  "ContactId": 559
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 23370.237999999998,
-  "Wgs84Longitude": 31217.773999999998,
+  "Wgs84Latitude": 11410.894,
+  "Wgs84Longitude": 24567.426,
   "LocalizedAddress": [
     [
       {
-        "Name": "Walter-Botsford",
-        "Value": "in",
-        "Tooltip": "distinctio",
-        "Label": "adipisci",
-        "ValueLength": 729,
-        "AddressType": "velit",
+        "Name": "Kuvalis-Cremin",
+        "Value": "sequi",
+        "Tooltip": "eum",
+        "Label": "nostrum",
+        "ValueLength": 760,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 247
+            "FieldLength": 544
           }
         }
       }
     ],
     [
       {
-        "Name": "Blanda, Rath and Thompson",
-        "Value": "possimus",
-        "Tooltip": "rem",
-        "Label": "quas",
-        "ValueLength": 159,
-        "AddressType": "sed",
+        "Name": "Strosin-Frami",
+        "Value": "ea",
+        "Tooltip": "totam",
+        "Label": "et",
+        "ValueLength": 612,
+        "AddressType": "sit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 706
+            "FieldLength": 924
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "omnis",
+  "Formatted": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 806
     }
   }
 }

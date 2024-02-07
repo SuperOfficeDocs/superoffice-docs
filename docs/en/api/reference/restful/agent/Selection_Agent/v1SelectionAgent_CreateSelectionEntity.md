@@ -68,7 +68,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -117,7 +117,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Steuber, Fisher and Buckridge"
+  "TargetTableName": "Crona-Berge"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended asynchronous adapter",
-  "Postit": "sunt",
+  "Description": "Pre-emptive non-volatile algorithm",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 152,
-  "IncludePerson": 103,
-  "MemberCount": 614,
-  "Name": "Hamill LLC",
-  "PostitTextId": 252,
-  "CreatedDate": "2014-03-25T23:03:57.1071142+01:00",
-  "SelectionId": 701,
-  "SoundEx": "delectus",
-  "Source": 769,
-  "TextId": 630,
-  "UpdatedDate": "2006-10-03T23:03:57.1071142+02:00",
-  "UpdatedCount": 907,
-  "Visibility": 38,
+  "GroupIdx": 778,
+  "IncludePerson": 462,
+  "MemberCount": 896,
+  "Name": "Pfannerstill LLC",
+  "PostitTextId": 882,
+  "CreatedDate": "2016-06-04T16:54:56.2955049+02:00",
+  "SelectionId": 917,
+  "SoundEx": "consequatur",
+  "Source": 247,
+  "TextId": 594,
+  "UpdatedDate": "2016-04-10T16:54:56.2965031+02:00",
+  "UpdatedCount": 610,
+  "Visibility": 210,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 612,
-  "TargetTableName": "Blanda, Walker and Kilback",
+  "TargetTableNumber": 367,
+  "TargetTableName": "Hagenes Group",
   "Completed": false,
-  "LeftSelectionId": 578,
-  "RightSelectionId": 469,
+  "LeftSelectionId": 775,
+  "RightSelectionId": 313,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gerhold LLC",
-  "ShadowProviderName": "Hegmann-Gislason",
-  "ChartKey": "aliquid",
-  "LastLoaded": "2018-05-24T23:03:57.1071142+02:00",
-  "LastLoadedBy": 354,
+  "MainProviderName": "Nitzsche, Bergnaum and Swaniawski",
+  "ShadowProviderName": "Weber-Hackett",
+  "ChartKey": "ab",
+  "LastLoaded": "2007-10-03T16:54:56.2965031+02:00",
+  "LastLoadedBy": 317,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-02-07T23:03:57.1076103+01:00",
-  "LastMembershipChangeBy": 117,
+  "LastMembershipChange": "2015-02-03T16:54:56.2965031+01:00",
+  "LastMembershipChangeBy": 838,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "atque",
-  "MemberTabHeading": "dolorum",
-  "MailingsProviderName": "Hickle-Ruecker",
-  "DashboardTileDefinitionId": 343,
+  "MainHeading": "tenetur",
+  "MemberTabHeading": "vitae",
+  "MailingsProviderName": "Bernier, Weber and Hammes",
+  "DashboardTileDefinitionId": 284,
   "VisibleFor": [
     {
-      "VisibleId": 617,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldLength": 348
         }
       }
     },
     {
-      "VisibleId": 617,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldLength": 348
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

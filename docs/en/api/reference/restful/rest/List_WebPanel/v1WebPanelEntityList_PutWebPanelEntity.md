@@ -116,27 +116,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 516,
-  "Name": "Weissnat Inc and Sons",
-  "Tooltip": "nemo",
+  "WebPanelId": 747,
+  "Name": "Jenkins, Hamill and Hudson",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 812,
+  "Rank": 196,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Jerde, Metz and Buckridge",
+  "ShowInStatusBar": false,
+  "WindowName": "Gaylord, Cummings and O'Connell",
   "Url": "http://www.example.com/",
-  "ProgId": "dolorum",
-  "Icon": 324,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "aspernatur",
+  "Icon": 566,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -148,26 +148,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 586,
-  "Name": "Corkery-Kunde",
-  "Tooltip": "magnam",
+  "WebPanelId": 311,
+  "Name": "Denesik-Hane",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 431,
+  "Rank": 829,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Hirthe Inc and Sons",
+  "ShowInStatusBar": true,
+  "WindowName": "Stamm-Schmidt",
   "Url": "http://www.example.com/",
-  "ProgId": "ducimus",
-  "Icon": 559,
+  "ProgId": "quam",
+  "Icon": 18,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 205
     }
   }
 }

@@ -72,8 +72,8 @@ OK
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
 | TableRight | TableRight | The carrier's table right |
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 289,
-  "Name": "Veum, Kutch and Bashirian",
-  "Description": "Switchable zero administration interface",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 326,
+  "Name": "Baumbach, Beahan and Sauer",
+  "Description": "Reverse-engineered upward-trending open architecture",
+  "DeltaJson": "delectus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "incidunt",
-  "UpdatedDate": "2012-02-28T23:03:55.2421388+01:00",
-  "CreatedDate": "2014-05-28T23:03:55.2421388+02:00",
+  "RecipeId": "quod",
+  "UpdatedDate": "2015-01-26T16:54:54.8921746+01:00",
+  "CreatedDate": "1997-04-09T16:54:54.8921746+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    636,
-    994
+    751,
+    160
   ],
-  "AppliesToKey": "ab",
+  "AppliesToKey": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 416
     }
   }
 }

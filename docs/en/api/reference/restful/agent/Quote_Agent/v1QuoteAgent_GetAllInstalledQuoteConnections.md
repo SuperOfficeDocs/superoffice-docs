@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 732,
-    "ERPName": "King-Weber",
-    "DisplayName": "Kuhlman Inc and Sons",
-    "DisplayDescription": "Cloned analyzing capacity",
-    "Rank": 187,
-    "ConnectorName": "Bogan LLC",
-    "ErpConnectionId": 486,
-    "ExtraData": "non",
+    "QuoteConnectionId": 90,
+    "ERPName": "O'Keefe Inc and Sons",
+    "DisplayName": "Beatty Group",
+    "DisplayDescription": "Optional disintermediate knowledge base",
+    "Rank": 108,
+    "ConnectorName": "Batz LLC",
+    "ErpConnectionId": 633,
+    "ExtraData": "velit",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 360,
-        "ERPPriceListKey": "labore",
-        "QuoteConnectionId": 939,
-        "Name": "Glover-Haag",
-        "Description": "Sharable 24 hour flexibility",
-        "Currency": "sint",
-        "CurrencyName": "Reichel Group",
-        "ValidFrom": "2006-04-16T23:03:56.7726178+02:00",
-        "ValidTo": "2015-08-15T23:03:56.7726178+02:00",
+        "PriceListId": 794,
+        "ERPPriceListKey": "velit",
+        "QuoteConnectionId": 186,
+        "Name": "Pollich, Daugherty and Ward",
+        "Description": "Cloned bi-directional ability",
+        "Currency": "earum",
+        "CurrencyName": "Spinka, Littel and Smitham",
+        "ValidFrom": "2023-01-14T16:54:56.1351408+01:00",
+        "ValidTo": "2011-09-27T16:54:56.1351408+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 148
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      857,
-      257
+      995,
+      972
     ],
     "AssociateAccessIds": [
-      552,
-      773
+      810,
+      6
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 651
       }
     }
   }

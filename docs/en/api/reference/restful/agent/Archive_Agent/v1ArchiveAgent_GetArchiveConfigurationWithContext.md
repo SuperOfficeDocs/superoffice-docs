@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wisozk, Carter and Abernathy",
-  "ProviderName": "Fahey LLC",
-  "Context": "animi"
+  "GuiName": "Macejkovic LLC",
+  "ProviderName": "Stokes Group",
+  "Context": "deserunt"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Bins LLC",
-      "DisplayTooltip": "necessitatibus",
-      "DisplayType": "nihil",
+      "DisplayName": "Roob LLC",
+      "DisplayTooltip": "cumque",
+      "DisplayType": "et",
       "CanOrderBy": false,
-      "Name": "Koepp LLC",
+      "Name": "Tromp, Wehner and Durgan",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Bernhard Group",
+      "RestrictionType": "tempora",
+      "RestrictionListName": "Bode LLC",
       "IsVisible": false,
-      "ExtraInfo": "eligendi",
-      "Width": "qui",
-      "IconHint": "aut",
-      "HeadingIconHint": "inventore"
+      "ExtraInfo": "rem",
+      "Width": "ea",
+      "IconHint": "sunt",
+      "HeadingIconHint": "sunt"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 543,
-      "Name": "Schowalter, Beer and Nitzsche",
-      "ToolTip": "Saepe quasi modi ea ipsa reprehenderit labore ex.",
+      "Id": 344,
+      "Name": "Hills-Romaguera",
+      "ToolTip": "Error quam nobis dicta laudantium nihil autem quia.",
       "Deleted": false,
-      "Rank": 598,
-      "Type": "sit",
-      "ColorBlock": 722,
-      "IconHint": "numquam",
+      "Rank": 522,
+      "Type": "molestiae",
+      "ColorBlock": 81,
+      "IconHint": "voluptas",
       "Selected": false,
-      "LastChanged": "2012-09-04T23:03:54.9636427+02:00",
+      "LastChanged": "2016-10-01T16:54:54.5593052+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "quam",
+      "ExtraInfo": "cum",
+      "StyleHint": "modi",
       "Hidden": false,
-      "FullName": "Rossie Lemke DDS",
+      "FullName": "Deborah Daniel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 238
+          "FieldType": "System.Int32",
+          "FieldLength": 89
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Effertz LLC",
+      "Name": "Bailey, Kohler and Gleichner",
       "Direction": "ASC"
     },
     {
-      "Name": "Effertz LLC",
+      "Name": "Bailey, Kohler and Gleichner",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sit",
+  "OwnerKeys": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 853
+      "FieldLength": 4
     }
   }
 }

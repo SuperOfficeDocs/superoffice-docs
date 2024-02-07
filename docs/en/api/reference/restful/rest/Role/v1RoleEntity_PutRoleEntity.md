@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 159,
-  "Name": "Morissette, Grant and Moen",
-  "Tooltip": "vitae",
+  "RoleId": 827,
+  "Name": "Casper Inc and Sons",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 187,
-  "Rank": 350,
-  "Created": "1999-07-09T23:04:04.6205119+02:00",
-  "UseCategories": 92,
+  "Deleted": 880,
+  "Rank": 29,
+  "Created": "1998-11-13T16:55:29.9879903+01:00",
+  "UseCategories": 195,
   "CreatedBy": null,
-  "Updated": "2004-03-08T23:04:04.6210175+01:00",
+  "Updated": "2003-05-01T16:55:29.9879903+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 397,
-  "Name": "Muller Group",
-  "Tooltip": "ut",
+  "RoleId": 916,
+  "Name": "Goldner, Ritchie and Harvey",
+  "Tooltip": "nesciunt",
   "RoleType": "Anonymous",
-  "Deleted": 796,
-  "Rank": 155,
-  "Created": "2001-05-29T23:04:04.6225116+02:00",
-  "UseCategories": 434,
+  "Deleted": 463,
+  "Rank": 604,
+  "Created": "2008-05-04T16:55:29.9905019+02:00",
+  "UseCategories": 315,
   "CreatedBy": null,
-  "Updated": "2020-02-04T23:04:04.6230112+01:00",
+  "Updated": "2019-04-28T16:55:29.9905019+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 173
     }
   },
   "_Links": {

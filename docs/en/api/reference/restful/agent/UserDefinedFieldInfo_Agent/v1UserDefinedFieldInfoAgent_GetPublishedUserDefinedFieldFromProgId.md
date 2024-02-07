@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "omnis",
+  "ProgId": "et",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 577,
-  "ColumnId": 352,
-  "FieldDefault": "sunt",
-  "FieldHeight": 943,
-  "FieldLabel": "illum",
-  "FieldLeft": 986,
-  "FieldTop": 906,
+  "UDefFieldId": 329,
+  "ColumnId": 917,
+  "FieldDefault": "qui",
+  "FieldHeight": 974,
+  "FieldLabel": "ullam",
+  "FieldLeft": 424,
+  "FieldTop": 582,
   "FieldType": "Checkbox",
-  "FieldWidth": 875,
-  "FormatMask": "rem",
-  "HideLabel": false,
+  "FieldWidth": 794,
+  "FormatMask": "consequuntur",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 558,
-  "LabelLeft": 562,
-  "LabelTop": 740,
-  "LabelWidth": 782,
-  "LastVersionId": 435,
-  "ListTableId": 409,
-  "IsMandatory": true,
+  "LabelHeight": 118,
+  "LabelLeft": 508,
+  "LabelTop": 662,
+  "LabelWidth": 434,
+  "LastVersionId": 939,
+  "ListTableId": 249,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 9,
-  "ProgId": "hic",
-  "IsReadOnly": true,
-  "ShortLabel": "quos",
-  "TabOrder": 659,
-  "TextLength": 667,
-  "Tooltip": "autem",
-  "UdefIdentity": 379,
-  "UDListDefinitionId": 564,
+  "Page1LineNo": 473,
+  "ProgId": "fuga",
+  "IsReadOnly": false,
+  "ShortLabel": "ut",
+  "TabOrder": 571,
+  "TextLength": 245,
+  "Tooltip": "ex",
+  "UdefIdentity": 340,
+  "UDListDefinitionId": 491,
   "Justification": "Center",
-  "Version": 784,
-  "TemplateVariableName": "Bode, Jakubowski and Price",
+  "Version": 353,
+  "TemplateVariableName": "Ankunding-Kshlerin",
   "HasBeenPublished": true,
-  "MdoListName": "Gottlieb, Jacobson and Sipes",
+  "MdoListName": "Ferry Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldLength": 833
     }
   }
 }

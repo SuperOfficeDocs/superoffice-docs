@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Rath-Gorczany",
-    "ToolTip": "Possimus et qui et in ut.",
-    "Deleted": true,
-    "Rank": 256,
-    "Type": "libero",
-    "ColorBlock": 343,
-    "IconHint": "sunt",
-    "Selected": true,
-    "LastChanged": "2007-04-10T23:04:05.4275003+02:00",
+    "Id": 499,
+    "Name": "Monahan Group",
+    "ToolTip": "Ab quibusdam nisi ipsum.",
+    "Deleted": false,
+    "Rank": 810,
+    "Type": "eveniet",
+    "ColorBlock": 743,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "2000-10-12T16:55:30.6382151+02:00",
     "ChildItems": [
       {
-        "Id": 94,
-        "Name": "Aufderhar, Maggio and Miller",
-        "ToolTip": "Eum et.",
-        "Deleted": true,
-        "Rank": 771,
-        "Type": "quia",
-        "ColorBlock": 29,
-        "IconHint": "odit",
+        "Id": 33,
+        "Name": "Brakus-Krajcik",
+        "ToolTip": "Velit quod reiciendis dolorem temporibus quis doloremque nostrum.",
+        "Deleted": false,
+        "Rank": 383,
+        "Type": "perspiciatis",
+        "ColorBlock": 404,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "1997-11-16T23:04:05.4280081+01:00",
+        "LastChanged": "2001-01-04T16:55:30.6382151+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "nobis",
-        "Hidden": false,
-        "FullName": "Desiree Turner",
+        "ExtraInfo": "at",
+        "StyleHint": "accusantium",
+        "Hidden": true,
+        "FullName": "Winifred DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldType": "System.Int32",
+            "FieldLength": 59
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "ea",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Arthur Lueilwitz",
+    "FullName": "Ms. Elena Wuckert DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldLength": 441
       }
     }
   }

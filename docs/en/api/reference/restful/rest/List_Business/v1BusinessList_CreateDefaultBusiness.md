@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Ward-Hauck",
-  "Tooltip": "ut",
+  "Id": 267,
+  "Name": "Herzog, Dicki and Franecki",
+  "Tooltip": "odit",
   "Deleted": false,
-  "UdListDefinitionId": 472,
-  "Rank": 274,
+  "UdListDefinitionId": 837,
+  "Rank": 875,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldLength": 697
     }
   }
 }

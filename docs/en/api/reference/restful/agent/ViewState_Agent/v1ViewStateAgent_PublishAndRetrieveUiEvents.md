@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 947,
+  "LatestKnownEventId": 522,
   "PublishEvents": [
     {
-      "EventId": 759,
-      "EventName": "D'Amore-Ryan",
-      "EntityType": "omnis",
-      "EntityKey": 939,
-      "AssociateId": 369,
-      "AssociateName": "McLaughlin Group",
-      "EventDateTime": "2004-09-04T23:03:57.6506067+02:00"
+      "EventId": 818,
+      "EventName": "Hegmann LLC",
+      "EntityType": "debitis",
+      "EntityKey": 564,
+      "AssociateId": 119,
+      "AssociateName": "Goldner, Morar and Gerhold",
+      "EventDateTime": "2003-06-06T16:54:56.7297347+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Lubowitz LLC",
-      "Value": 916
+      "Name": "Kerluke Group",
+      "Value": 252
     },
     {
-      "Name": "Lubowitz LLC",
-      "Value": 916
+      "Name": "Kerluke Group",
+      "Value": 252
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 268,
-    "EventName": "Carter Group",
-    "EntityType": "enim",
-    "EntityKey": 56,
-    "AssociateId": 463,
-    "AssociateName": "Langosh-Oberbrunner",
-    "EventDateTime": "2012-05-04T23:03:57.6511066+02:00",
+    "EventId": 180,
+    "EventName": "Jakubowski-Sporer",
+    "EntityType": "inventore",
+    "EntityKey": 426,
+    "AssociateId": 505,
+    "AssociateName": "Grady, Marks and Satterfield",
+    "EventDateTime": "2006-12-31T16:54:56.7297347+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 930
       }
     }
   }

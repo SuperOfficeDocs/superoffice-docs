@@ -80,7 +80,7 @@ OK
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 475,
-  "ContactId": 943,
-  "ProjectId": 12,
-  "ContactName": "Emmerich-Connelly",
+  "ProjectmemberId": 106,
+  "ContactId": 142,
+  "ProjectId": 713,
+  "ContactName": "Johns, Price and Hackett",
   "ContactDepartment": "",
-  "ProjectName": "Kautzer-Schimmel",
-  "EmailId": 848,
-  "EmailAddress": "leopold@bruenlittel.ca",
-  "CountryId": 986,
-  "Firstname": "Mae",
-  "MiddleName": "Rippin, Shanahan and Stamm",
-  "Lastname": "Lynch",
-  "PersonId": 753,
-  "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Reynolds Group",
-  "Phone": "(775)013-0802",
-  "PhoneId": 534,
-  "ProjectMemberTypeId": 992,
-  "EmailAddressName": "elsie_deckow@konopelski.info",
-  "Comment": "dicta",
-  "FullName": "Bernadine Willms",
+  "ProjectName": "Powlowski, Konopelski and Muller",
+  "EmailId": 617,
+  "EmailAddress": "jazmin@bruengutkowski.info",
+  "CountryId": 644,
+  "Firstname": "Tony",
+  "MiddleName": "Harris, Murazik and Cummerata",
+  "Lastname": "Kessler",
+  "PersonId": 862,
+  "Mrmrs": "quia",
+  "ProjectMemberTypeName": "Stokes-Rosenbaum",
+  "Phone": "764.897.1216",
+  "PhoneId": 799,
+  "ProjectMemberTypeId": 644,
+  "EmailAddressName": "nikolas.hudson@kessler.biz",
+  "Comment": "qui",
+  "FullName": "Marjorie Kovacek",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 752
     }
   }
 }

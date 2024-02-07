@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 334,
-    "ColumnId": 108,
-    "FieldDefault": "nihil",
-    "FieldHeight": 655,
-    "FieldLabel": "tempore",
-    "FieldLeft": 850,
-    "FieldTop": 284,
+    "UDefFieldId": 223,
+    "ColumnId": 702,
+    "FieldDefault": "porro",
+    "FieldHeight": 270,
+    "FieldLabel": "placeat",
+    "FieldLeft": 544,
+    "FieldTop": 878,
     "FieldType": "Checkbox",
-    "FieldWidth": 57,
-    "FormatMask": "ut",
-    "HideLabel": false,
+    "FieldWidth": 428,
+    "FormatMask": "asperiores",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 214,
-    "LabelLeft": 257,
-    "LabelTop": 211,
-    "LabelWidth": 41,
-    "LastVersionId": 591,
-    "ListTableId": 296,
+    "LabelHeight": 127,
+    "LabelLeft": 100,
+    "LabelTop": 975,
+    "LabelWidth": 839,
+    "LastVersionId": 818,
+    "ListTableId": 96,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 830,
-    "ProgId": "laboriosam",
+    "Page1LineNo": 953,
+    "ProgId": "ut",
     "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 641,
-    "TextLength": 900,
-    "Tooltip": "nihil",
-    "UdefIdentity": 122,
-    "UDListDefinitionId": 814,
+    "ShortLabel": "aut",
+    "TabOrder": 565,
+    "TextLength": 737,
+    "Tooltip": "esse",
+    "UdefIdentity": 263,
+    "UDListDefinitionId": 113,
     "Justification": "Center",
-    "Version": 215,
-    "TemplateVariableName": "Ledner-VonRueden",
+    "Version": 676,
+    "TemplateVariableName": "Predovic-O'Keefe",
     "HasBeenPublished": false,
-    "MdoListName": "Roberts-Adams",
+    "MdoListName": "Hayes Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 608
       }
     }
   }

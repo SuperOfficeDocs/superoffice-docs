@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Treutel LLC",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 442,
-  "Rank": 460,
+  "Id": 358,
+  "Name": "Hermiston, Blanda and Farrell",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "UdListDefinitionId": 182,
+  "Rank": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

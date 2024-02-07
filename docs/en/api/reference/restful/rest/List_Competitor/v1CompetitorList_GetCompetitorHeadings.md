@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 770,
-    "Name": "Sauer LLC",
-    "Tooltip": "eveniet",
+    "HeadingId": 743,
+    "Name": "Conroy, Kozey and Dare",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "Rank": 463,
-    "UdListDefinitionId": 177,
+    "Rank": 980,
+    "UdListDefinitionId": 530,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldType": "System.Int32",
+        "FieldLength": 636
       }
     }
   }

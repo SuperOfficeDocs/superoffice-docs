@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 128,
-    "Rank": 603
+    "Id": 331,
+    "Name": "Toy, Gusikowski and Heathcote",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 4,
+    "Rank": 465
   },
   {
-    "Id": 762,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "UdListDefinitionId": 128,
-    "Rank": 603
+    "Id": 331,
+    "Name": "Toy, Gusikowski and Heathcote",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 4,
+    "Rank": 465
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Robel Inc and Sons",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "UdListDefinitionId": 923,
-    "Rank": 854,
+    "Id": 10,
+    "Name": "Hansen Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 797,
+    "Rank": 407,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldType": "System.String",
+        "FieldLength": 36
       }
     }
   }

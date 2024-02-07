@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Waters-Jaskolski",
-    "DisplayName": "Durgan Group",
-    "Description": "Up-sized intermediate attitude",
-    "ToolTip": "Sit et pariatur quas quidem hic.",
+    "Name": "Bergstrom Inc and Sons",
+    "DisplayName": "VonRueden, Kreiger and Monahan",
+    "Description": "Advanced multi-tasking instruction set",
+    "ToolTip": "Rerum sequi sit accusantium architecto.",
     "Actions": "Implicit",
-    "ActionData": "quibusdam",
+    "ActionData": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldType": "System.String",
+        "FieldLength": 273
       }
     }
   }

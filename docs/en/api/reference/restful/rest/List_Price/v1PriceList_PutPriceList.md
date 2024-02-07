@@ -97,19 +97,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 244,
-  "ERPPriceListKey": "eos",
-  "QuoteConnectionId": 485,
-  "Name": "Powlowski, Considine and Hagenes",
-  "Description": "Digitized coherent leverage",
-  "Currency": "commodi",
-  "CurrencyName": "Funk-Gleason",
-  "ValidFrom": "2016-05-20T23:04:05.5830006+02:00",
-  "ValidTo": "2022-09-20T23:04:05.5830006+02:00",
+  "PriceListId": 20,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 592,
+  "Name": "Brakus LLC",
+  "Description": "Expanded intangible project",
+  "Currency": "nesciunt",
+  "CurrencyName": "Lockman Group",
+  "ValidFrom": "2009-08-08T16:55:30.7761776+02:00",
+  "ValidTo": "2019-12-01T16:55:30.7761776+01:00",
   "IsActive": true
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 659,
-  "ERPPriceListKey": "occaecati",
-  "QuoteConnectionId": 646,
-  "Name": "Lynch, Hermiston and Hilll",
-  "Description": "Triple-buffered bandwidth-monitored collaboration",
-  "Currency": "non",
-  "CurrencyName": "Daniel, Little and Beahan",
-  "ValidFrom": "1997-02-04T23:04:05.5834996+01:00",
-  "ValidTo": "2007-01-22T23:04:05.5834996+01:00",
+  "PriceListId": 65,
+  "ERPPriceListKey": "repudiandae",
+  "QuoteConnectionId": 349,
+  "Name": "Brakus, Heidenreich and Flatley",
+  "Description": "Multi-lateral scalable local area network",
+  "Currency": "rem",
+  "CurrencyName": "Kessler, Kris and Nicolas",
+  "ValidFrom": "2004-03-14T16:55:30.7771756+01:00",
+  "ValidTo": "2002-05-29T16:55:30.7771756+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 849
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   },
   "_Links": {

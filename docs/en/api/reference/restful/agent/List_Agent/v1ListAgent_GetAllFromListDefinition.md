@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 431,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 954,
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Murazik Group",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "UdListDefinitionId": 92,
-    "Rank": 823,
+    "Id": 276,
+    "Name": "Funk Group",
+    "Tooltip": "ratione",
+    "Deleted": true,
+    "UdListDefinitionId": 423,
+    "Rank": 945,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 286
       }
     }
   }

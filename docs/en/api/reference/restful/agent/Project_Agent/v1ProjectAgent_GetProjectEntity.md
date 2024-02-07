@@ -26,7 +26,7 @@ Gets a ProjectEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=159
+POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=836
 POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 ```
 
@@ -68,9 +68,9 @@ OK
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy | Associate | The person that created the project |
 | UpdatedBy | Associate | The person that last updated the project |
-| Associate | Associate | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| Associate | Associate | The person that created the project  Use MDO List name "associate" to get list items. |
+| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  Use MDO List name "projectstatus" to get list items. |
+| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  Use MDO List name "projecttype" to get list items. |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -83,7 +83,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ProjectEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,127 +107,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 850,
-  "Name": "Howe, Breitenberg and Grant",
-  "ProjectNumber": "1188393",
+  "ProjectId": 388,
+  "Name": "Balistreri, Schaden and Frami",
+  "ProjectNumber": "1590734",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 581,
-      "ContactId": 940,
-      "ProjectId": 736,
-      "ContactName": "Jenkins-Kohler",
-      "ContactDepartment": "",
-      "ProjectName": "Witting LLC",
-      "EmailId": 739,
-      "EmailAddress": "madelynn_pfannerstill@green.us",
-      "CountryId": 838,
-      "Firstname": "Cathryn",
-      "MiddleName": "Smitham-Ullrich",
-      "Lastname": "Moore",
-      "PersonId": 959,
-      "Mrmrs": "amet",
-      "ProjectMemberTypeName": "Stoltenberg-Bergstrom",
-      "Phone": "(143)255-6028 x497",
-      "PhoneId": 471,
-      "ProjectMemberTypeId": 200,
-      "EmailAddressName": "dewitt@kulasvonrueden.us",
-      "Comment": "qui",
-      "FullName": "Heber Powlowski III",
+      "ProjectmemberId": 391,
+      "ContactId": 397,
+      "ProjectId": 763,
+      "ContactName": "Mitchell Inc and Sons",
+      "ContactDepartment": "whiteboard global eyeballs",
+      "ProjectName": "Lebsack, Shanahan and Boyle",
+      "EmailId": 138,
+      "EmailAddress": "kelvin@bogan.uk",
+      "CountryId": 151,
+      "Firstname": "Edd",
+      "MiddleName": "Dooley Group",
+      "Lastname": "Johns",
+      "PersonId": 288,
+      "Mrmrs": "possimus",
+      "ProjectMemberTypeName": "Bednar Inc and Sons",
+      "Phone": "620.413.7770",
+      "PhoneId": 295,
+      "ProjectMemberTypeId": 72,
+      "EmailAddressName": "emelia.bartoletti@nader.info",
+      "Comment": "quo",
+      "FullName": "Prof. Kelsi Pollich II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldType": "System.String",
+          "FieldLength": 357
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "eum",
-      "StrippedValue": "ut",
-      "Description": "Synchronised zero tolerance paradigm",
+      "Value": "dolores",
+      "StrippedValue": "dolorem",
+      "Description": "Cloned even-keeled leverage",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 110
         }
       }
     },
     {
-      "Value": "eum",
-      "StrippedValue": "ut",
-      "Description": "Synchronised zero tolerance paradigm",
+      "Value": "dolores",
+      "StrippedValue": "dolorem",
+      "Description": "Cloned even-keeled leverage",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 110
         }
       }
     }
   ],
-  "CreatedDate": "2001-09-17T23:03:56.6566198+02:00",
-  "UpdatedDate": "2014-07-12T23:03:56.6566198+02:00",
-  "Description": "Compatible tangible process improvement",
-  "Postit": "voluptatem",
+  "CreatedDate": "2009-05-17T16:54:56.0396269+02:00",
+  "UpdatedDate": "2022-11-11T16:54:56.0396269+01:00",
+  "Description": "Grass-roots human-resource matrices",
+  "Postit": "sunt",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": false,
-  "ImageDescription": "Persistent bottom-line conglomeration",
-  "ActiveStatusMonitorId": 403,
+  "HasImage": true,
+  "ImageDescription": "Proactive motivating middleware",
+  "ActiveStatusMonitorId": 90,
   "Links": [
     {
-      "EntityName": "Hane, Kulas and Ortiz",
-      "Id": 552,
-      "Description": "Synchronised even-keeled challenge",
-      "ExtraInfo": "inventore",
-      "LinkId": 404,
+      "EntityName": "Kemmer Inc and Sons",
+      "Id": 176,
+      "Description": "Self-enabling user-facing data-warehouse",
+      "ExtraInfo": "nam",
+      "LinkId": 597,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 991
+          "FieldLength": 928
         }
       }
     }
   ],
-  "ActiveLinks": 832,
+  "ActiveLinks": 272,
   "Completed": false,
-  "NextMilestoneDate": "2018-01-27T23:03:56.6586202+01:00",
-  "NmdAppointmentId": 299,
-  "EndDate": "2009-08-16T23:03:56.6586202+02:00",
-  "ActiveErpLinks": 445,
+  "NextMilestoneDate": "2017-08-12T16:54:56.0417308+02:00",
+  "NmdAppointmentId": 356,
+  "EndDate": "2019-04-17T16:54:56.0417308+02:00",
+  "ActiveErpLinks": 335,
   "UserDefinedFields": {
-    "SuperOffice:1": "Barbara Rico Morissette III",
-    "SuperOffice:2": "Ofelia Hudson"
+    "SuperOffice:1": "176191257",
+    "SuperOffice:2": "Gabriel Stehr"
   },
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "repellat"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "1999-04-17T23:03:56.6591229+02:00",
-  "PublishTo": "2007-01-05T23:03:56.6591229+01:00",
-  "PublishFrom": "2015-09-11T23:03:56.6591229+02:00",
+  "PublishEventDate": "2016-03-15T16:54:56.0417308+01:00",
+  "PublishTo": "2008-09-22T16:54:56.0417308+02:00",
+  "PublishFrom": "2014-09-14T16:54:56.0417308+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 990
     }
   }
 }

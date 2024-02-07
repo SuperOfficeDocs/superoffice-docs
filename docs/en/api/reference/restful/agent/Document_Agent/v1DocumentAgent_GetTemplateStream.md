@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Wunsch, Emard and Zulauf",
+  "TemplateName": "Rice Group",
   "AllowPersonal": true,
-  "UiCulture": "explicabo"
+  "UiCulture": "officia"
 }
 ```
 

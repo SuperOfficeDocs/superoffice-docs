@@ -79,7 +79,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -89,7 +89,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 322,
+  "EjMessageId": 722,
   "Ticket": null,
-  "CreatedAt": "2006-12-22T23:03:57.4511119+01:00",
+  "CreatedAt": "2002-03-11T16:54:56.5791998+01:00",
   "CreatedBy": null,
-  "Author": "tenetur",
+  "Author": "placeat",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 1002,
-  "Body": "impedit",
-  "HtmlBody": "animi",
-  "EmailHeader": "noemy@schamberger.biz",
-  "DebugInfo": "omnis",
-  "MailSorter": "laborum",
+  "MessageId": "temporibus",
+  "TimeSpent": 567,
+  "Body": "ipsa",
+  "HtmlBody": "et",
+  "EmailHeader": "cody_smitham@watsicakirlin.info",
+  "DebugInfo": "dignissimos",
+  "MailSorter": "eligendi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eveniet",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 577,
-      "Name": "Rippin Inc and Sons",
-      "Value": "nostrum",
+      "Id": 779,
+      "Name": "Mosciski Inc and Sons",
+      "Value": "illo",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 256
+          "FieldLength": 679
         }
       }
     }
   ],
   "Important": true,
-  "Language": "dolor",
-  "Sentiment": 573,
-  "SentimentConfidence": 33,
+  "Language": "sit",
+  "Sentiment": 356,
+  "SentimentConfidence": 828,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 241,
-      "Name": "Davis Inc and Sons",
-      "ContentType": "voluptate",
-      "AttSize": 36,
-      "InlineImage": false,
-      "ContentId": "nulla",
-      "AuthKey": "iste",
+      "AttachmentId": 276,
+      "Name": "Larkin Group",
+      "ContentType": "omnis",
+      "AttSize": 197,
+      "InlineImage": true,
+      "ContentId": "aut",
+      "AuthKey": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 993
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "at",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "dolores"
+    "CustomFields1": "nihil",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

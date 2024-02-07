@@ -101,24 +101,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 305,
-  "Section": "aut",
-  "Key": "ut",
-  "Name": "Schulist-Lemke",
+  "PrefDescId": 566,
+  "Section": "aperiam",
+  "Key": "ad",
+  "Name": "Erdman, Kerluke and Schamberger",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Compatible logistical strategy",
+  "Description": "Secured client-driven local area network",
   "IsBuiltin": false,
-  "TableName": "Jacobi LLC",
-  "UserDefinedListId": 601,
-  "Rank": 436,
-  "SubGroup": "natus",
-  "MinLevel": 287,
-  "MaxValue": 439,
-  "MinValue": 604,
-  "RequiredLicense": "quo"
+  "TableName": "Kunde LLC",
+  "UserDefinedListId": 472,
+  "Rank": 937,
+  "SubGroup": "officia",
+  "MinLevel": 910,
+  "MaxValue": 517,
+  "MinValue": 952,
+  "RequiredLicense": "cum"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 404,
-  "Section": "dignissimos",
-  "Key": "et",
-  "Name": "Gerlach, Barrows and Huel",
+  "PrefDescId": 716,
+  "Section": "dolores",
+  "Key": "quasi",
+  "Name": "Rogahn Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persistent web-enabled data-warehouse",
+  "Description": "Profit-focused next generation hardware",
   "IsBuiltin": false,
-  "TableName": "Schroeder LLC",
-  "UserDefinedListId": 773,
-  "Rank": 469,
-  "SubGroup": "et",
-  "MinLevel": 712,
-  "MaxValue": 510,
-  "MinValue": 907,
-  "RequiredLicense": "numquam",
+  "TableName": "Dare, Jacobs and Torp",
+  "UserDefinedListId": 449,
+  "Rank": 3,
+  "SubGroup": "iusto",
+  "MinLevel": 651,
+  "MaxValue": 642,
+  "MinValue": 572,
+  "RequiredLicense": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 648
     }
   }
 }

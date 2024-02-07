@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 543,
-  "Name": "Roob LLC",
-  "Tooltip": "fuga",
-  "Deleted": true,
-  "Rank": 770,
-  "UdListDefinitionId": 220
+  "HeadingId": 70,
+  "Name": "Schoen-Beahan",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 448,
+  "UdListDefinitionId": 457
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 494,
-  "Name": "Pacocha Group",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 247,
-  "UdListDefinitionId": 263,
+  "HeadingId": 639,
+  "Name": "Morar Inc and Sons",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "Rank": 850,
+  "UdListDefinitionId": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Ledner, Ankunding and Gorczany",
-    "ToolTip": "Et consequatur pariatur.",
+    "Id": 159,
+    "Name": "McClure-Schimmel",
+    "ToolTip": "Et ut quo nostrum accusamus.",
     "Deleted": false,
-    "Rank": 356,
-    "Type": "perspiciatis",
-    "ColorBlock": 875,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2002-10-27T23:04:05.6464985+01:00",
+    "Rank": 639,
+    "Type": "est",
+    "ColorBlock": 777,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2009-02-18T16:55:30.8227654+01:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "O'Reilly, Osinski and Padberg",
-        "ToolTip": "Corrupti iure doloribus et omnis enim velit.",
+        "Id": 89,
+        "Name": "Brakus Group",
+        "ToolTip": "Possimus rerum hic autem voluptatem dolores est minima.",
         "Deleted": false,
-        "Rank": 778,
-        "Type": "expedita",
-        "ColorBlock": 325,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "1998-03-26T23:04:05.646997+01:00",
+        "Rank": 723,
+        "Type": "tenetur",
+        "ColorBlock": 436,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2007-04-11T16:55:30.8227654+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "iusto",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Mr. Garett Micaela Nienow"
+        "FullName": "April Bruen"
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Maiya Dach"
+    "FullName": "Miss Antonetta Carmelo Trantow DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Hills, Treutel and Jewess",
-    "ToolTip": "Non assumenda voluptas.",
+    "Id": 138,
+    "Name": "Reichel-Cassin",
+    "ToolTip": "Quia tenetur vitae ratione facilis alias.",
     "Deleted": false,
-    "Rank": 834,
-    "Type": "qui",
-    "ColorBlock": 943,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2022-05-24T23:04:05.6479968+02:00",
+    "Rank": 91,
+    "Type": "adipisci",
+    "ColorBlock": 671,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "2010-10-05T16:55:30.8238144+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Kreiger, Bradtke and Hills",
-        "ToolTip": "Nesciunt aliquid excepturi fugit facere ut est.",
+        "Id": 253,
+        "Name": "Huels, Jenkins and Mayert",
+        "ToolTip": "Ut numquam autem.",
         "Deleted": false,
-        "Rank": 654,
-        "Type": "nostrum",
-        "ColorBlock": 969,
-        "IconHint": "odio",
+        "Rank": 92,
+        "Type": "et",
+        "ColorBlock": 480,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2017-02-09T23:04:05.648497+01:00",
+        "LastChanged": "2000-04-04T16:55:30.8238144+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Carlo Bogan",
+        "ExtraInfo": "optio",
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "Prof. Merl Jared Leffler Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldLength": 598
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "ab",
+    "ExtraInfo": "eius",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Ferne Jazmin Jast III",
+    "FullName": "Annabel Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldType": "System.Int32",
+        "FieldLength": 265
       }
     }
   }

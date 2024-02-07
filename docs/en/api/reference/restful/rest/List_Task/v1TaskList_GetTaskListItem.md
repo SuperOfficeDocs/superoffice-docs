@@ -84,14 +84,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 956,
-  "Value": "pariatur",
+  "TaskListItemId": 81,
+  "Value": "dolorem",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "amet",
+  "Tooltip": "est",
   "Deleted": false,
-  "IntentId": 908,
-  "Rank": 470,
+  "IntentId": 498,
+  "Rank": 543,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 239
     }
   }
 }

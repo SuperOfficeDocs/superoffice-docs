@@ -87,31 +87,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "odio",
-        "sit"
+        "fugit",
+        "labore"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "nesciunt"
+      "ExternalKey": "cum"
     },
     {
       "Values": [
-        "odio",
-        "sit"
+        "fugit",
+        "labore"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "nesciunt"
+      "ExternalKey": "cum"
     }
   ],
   "ColumnDefinition": [
-    "harum",
-    "labore"
+    "repudiandae",
+    "recusandae"
   ],
-  "Culture": "aut",
-  "Context": "enim"
+  "Culture": "voluptate",
+  "Context": "provident"
 }
 ```
 
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "non",
-      "rerum"
+      "eaque",
+      "omnis"
     ],
     "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "amet",
+    "ExternalKey": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

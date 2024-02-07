@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Hegmann-Kovacek"
+  "ApplicationName": "Turcotte-Daugherty"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 391,
-  "Name": "Frami, Little and Reichert",
-  "CreatedDate": "2009-06-03T23:03:56.1206295+02:00",
-  "UpdatedDate": "2018-12-09T23:03:56.1206295+01:00",
-  "AssociateFullName": "Kristofer Gulgowski",
-  "CreatedBy": "mollitia",
-  "UpdatedBy": "eaque",
-  "DeviceIdentifier": "dolores",
-  "ForeignAppId": 762,
+  "ForeignDeviceId": 544,
+  "Name": "Stehr-Keeling",
+  "CreatedDate": "2012-06-18T16:54:55.4904645+02:00",
+  "UpdatedDate": "2010-10-15T16:54:55.4904645+02:00",
+  "AssociateFullName": "Ida Royce Connelly DDS",
+  "CreatedBy": "corporis",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "tempora",
+  "ForeignAppId": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 854
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 67,
+  "ErpConnectionId": 621,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "rerum",
-    "Rank": 209,
-    "DisplayName": "Hermann Group",
-    "DisplayDescription": "Future-proofed neutral customer loyalty",
+    "FieldKey": "laudantium",
+    "Rank": 897,
+    "DisplayName": "Schmidt-Parker",
+    "DisplayDescription": "Multi-layered fault-tolerant hierarchy",
     "FieldType": "Checkbox",
-    "ListName": "Hackett, Cassin and Bins",
-    "DefaultValue": "incidunt",
-    "MaxLength": 198,
+    "ListName": "Bartoletti, Marquardt and Bartell",
+    "DefaultValue": "praesentium",
+    "MaxLength": 57,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 892
       }
     }
   }

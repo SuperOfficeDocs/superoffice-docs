@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Bergstrom Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 577,
-    "Rank": 537
+    "Id": 71,
+    "Name": "Bauch Inc and Sons",
+    "Tooltip": "provident",
+    "Deleted": true,
+    "UdListDefinitionId": 673,
+    "Rank": 585
   },
   {
-    "Id": 369,
-    "Name": "Bergstrom Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 577,
-    "Rank": 537
+    "Id": 71,
+    "Name": "Bauch Inc and Sons",
+    "Tooltip": "provident",
+    "Deleted": true,
+    "UdListDefinitionId": 673,
+    "Rank": 585
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Crona LLC",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "UdListDefinitionId": 301,
-    "Rank": 353,
+    "Id": 445,
+    "Name": "Rempel-Ortiz",
+    "Tooltip": "reprehenderit",
+    "Deleted": false,
+    "UdListDefinitionId": 248,
+    "Rank": 666,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 183
       }
     }
   }

@@ -32,7 +32,7 @@ System and Anonymous users can be created without an exsisting person and permit
 
 ```http
 GET /api/v1/User/Default?userType=AnonymousAssociate
-GET /api/v1/User/Default?personId=230
+GET /api/v1/User/Default?personId=995
 ```
 
 
@@ -68,9 +68,9 @@ OK
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup | UserGroup | The main user group that this user belongs to.  Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  Use MDO List name "usergroup" to get list items. |
+| Person | Person | The person associated with this user. Detailed information about the user  Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -81,11 +81,11 @@ OK
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -106,14 +106,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 58,
-  "Name": "Miller Inc and Sons",
-  "Rank": 510,
-  "Tooltip": "nostrum",
+  "AssociateId": 294,
+  "Name": "Larson, Armstrong and Dietrich",
+  "Rank": 692,
+  "Tooltip": "tempora",
   "LicenseOwners": [
     {
-      "Name": "Quitzon Inc and Sons",
-      "Description": "Re-contextualized 3rd generation open architecture",
+      "Name": "Simonis-Schuppe",
+      "Description": "Future-proofed contextually-based focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldType": "System.Int32",
+          "FieldLength": 662
         }
       }
     },
     {
-      "Name": "Quitzon Inc and Sons",
-      "Description": "Re-contextualized 3rd generation open architecture",
+      "Name": "Simonis-Schuppe",
+      "Description": "Future-proofed contextually-based focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldType": "System.Int32",
+          "FieldLength": 662
         }
       }
     }
@@ -156,110 +156,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "veritatis",
-      "Tooltip": "veritatis",
-      "Id": 407,
-      "Rank": 80,
+      "Value": "id",
+      "Tooltip": "aut",
+      "Id": 650,
+      "Rank": 840,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldLength": 470
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2021-11-12T23:04:05.208506+01:00",
-  "Lastlogout": "2001-04-12T23:04:05.208506+02:00",
-  "EjUserId": 610,
-  "RequestSignature": "adipisci",
+  "Deleted": true,
+  "Lastlogin": "2001-11-13T16:55:30.4661313+01:00",
+  "Lastlogout": "2002-02-02T16:55:30.4661313+01:00",
+  "EjUserId": 956,
+  "RequestSignature": "ad",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolor",
-      "DisplayValue": "modi",
+      "Value": "harum",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 486
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolor",
-      "DisplayValue": "modi",
+      "Value": "harum",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 486
         }
       }
     }
   ],
-  "UserName": "Volkman Inc and Sons",
+  "UserName": "Nicolas Group",
   "TicketCategories": [
     {
-      "Id": 616,
-      "Name": "Rath LLC",
-      "ToolTip": "Rerum consequatur.",
-      "Deleted": true,
-      "Rank": 771,
-      "Type": "ipsum",
+      "Id": 751,
+      "Name": "Jaskolski Group",
+      "ToolTip": "Dolor enim qui cum est magnam atque ullam.",
+      "Deleted": false,
+      "Rank": 747,
+      "Type": "eum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorum",
-      "ColorBlock": 319,
-      "ExtraInfo": "libero",
-      "StyleHint": "odit",
-      "FullName": "Buddy Botsford",
+      "IconHint": "natus",
+      "ColorBlock": 836,
+      "ExtraInfo": "quo",
+      "StyleHint": "cumque",
+      "FullName": "Houston Ryan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 177
         }
       }
     }
   ],
-  "NickName": "Marks, Swaniawski and Pfannerstill",
+  "NickName": "Gottlieb-Gerlach",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "vitae"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "quia"
   },
   "PostSaveCommands": [
     {
-      "Name": "Reilly LLC",
-      "DisplayName": "Heidenreich-Heidenreich",
-      "Description": "Monitored web-enabled help-desk",
-      "ToolTip": "Reiciendis fugiat inventore quibusdam a aperiam in.",
+      "Name": "Hettinger Inc and Sons",
+      "DisplayName": "Terry Inc and Sons",
+      "Description": "Diverse neutral system engine",
+      "ToolTip": "Aperiam totam doloremque.",
       "Actions": "Implicit",
-      "ActionData": "id",
+      "ActionData": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 394
+          "FieldLength": 653
         }
       }
     }
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 990
     }
   }
 }

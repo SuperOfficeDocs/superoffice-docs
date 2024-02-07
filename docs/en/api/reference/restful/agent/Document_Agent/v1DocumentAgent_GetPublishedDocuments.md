@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    599,
-    542
+    343,
+    927
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 731,
-    "Attention": "tempore",
-    "Header": "tempore",
-    "Name": "Okuneva, Rodriguez and Braun",
-    "OurRef": "soluta",
-    "YourRef": "voluptas",
-    "Description": "Assimilated mobile complexity",
-    "DocumentTemplate": "enim",
+    "DocumentId": 838,
+    "Attention": "nihil",
+    "Header": "ut",
+    "Name": "Boyle LLC",
+    "OurRef": "sed",
+    "YourRef": "corrupti",
+    "Description": "Reduced coherent superstructure",
+    "DocumentTemplate": "nihil",
     "IsPublished": false,
-    "PersonId": 696,
-    "PersonFullName": "Mr. Jordyn Hattie Doyle",
-    "AssociateFullName": "Jacinthe Boehm",
-    "ContactId": 774,
-    "ContactName": "Morar, Lind and Marquardt",
-    "ProjectId": 126,
-    "ProjectName": "Wolf-Konopelski",
-    "AssociateId": 264,
-    "Snum": 804,
-    "SaleId": 110,
-    "SaleName": "Haley-Schuppe",
+    "PersonId": 654,
+    "PersonFullName": "Miss Nathanael Rodrick Runolfsson",
+    "AssociateFullName": "Ms. Maureen Aliza Stehr Sr.",
+    "ContactId": 676,
+    "ContactName": "Bednar, Carroll and Morar",
+    "ProjectId": 295,
+    "ProjectName": "Kovacek LLC",
+    "AssociateId": 992,
+    "Snum": 15,
+    "SaleId": 915,
+    "SaleName": "Koelpin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 215
       }
     }
   }

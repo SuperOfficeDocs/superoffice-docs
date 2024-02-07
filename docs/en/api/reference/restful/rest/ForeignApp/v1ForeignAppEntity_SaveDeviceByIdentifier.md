@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 918,
-  "Name": "Hartmann, Johns and Bergstrom",
-  "CreatedDate": "2007-01-25T23:04:04.2240168+01:00",
-  "UpdatedDate": "2011-08-15T23:04:04.2240168+02:00",
-  "AssociateFullName": "Ted Lupe O'Hara V",
-  "CreatedBy": "aliquid",
-  "UpdatedBy": "deserunt",
-  "DeviceIdentifier": "assumenda",
-  "ForeignAppId": 116
+  "ForeignDeviceId": 954,
+  "Name": "Sanford LLC",
+  "CreatedDate": "2014-02-15T16:55:29.6504396+01:00",
+  "UpdatedDate": "2021-01-18T16:55:29.6504396+01:00",
+  "AssociateFullName": "Miss Rebecca Missouri Wilderman I",
+  "CreatedBy": "necessitatibus",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "non",
+  "ForeignAppId": 596
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 565,
-  "Name": "Bode Inc and Sons",
-  "CreatedDate": "2019-06-12T23:04:04.2245178+02:00",
-  "UpdatedDate": "2002-09-08T23:04:04.2245178+02:00",
-  "AssociateFullName": "Wallace Kling",
-  "CreatedBy": "sint",
-  "UpdatedBy": "nihil",
-  "DeviceIdentifier": "saepe",
-  "ForeignAppId": 218,
+  "ForeignDeviceId": 799,
+  "Name": "Daniel, Ruecker and Prosacco",
+  "CreatedDate": "2010-09-05T16:55:29.6524398+02:00",
+  "UpdatedDate": "2018-08-31T16:55:29.6524398+02:00",
+  "AssociateFullName": "Ms. Maryjane Krajcik",
+  "CreatedBy": "velit",
+  "UpdatedBy": "sed",
+  "DeviceIdentifier": "pariatur",
+  "ForeignAppId": 196,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 784
     }
   }
 }

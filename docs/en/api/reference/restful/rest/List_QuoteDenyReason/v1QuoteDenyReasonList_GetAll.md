@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Muller, Pollich and Green",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "UdListDefinitionId": 100,
-    "Rank": 271,
+    "Id": 918,
+    "Name": "Prosacco LLC",
+    "Tooltip": "eius",
+    "Deleted": true,
+    "UdListDefinitionId": 590,
+    "Rank": 792,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 105
+        "FieldType": "System.Int32",
+        "FieldLength": 267
       }
     }
   }

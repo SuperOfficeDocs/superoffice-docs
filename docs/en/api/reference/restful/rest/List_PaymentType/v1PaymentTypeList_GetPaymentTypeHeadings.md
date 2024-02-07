@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 826,
-    "Name": "Leffler Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 334,
+    "Name": "Runolfsdottir-Haag",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 708,
-    "UdListDefinitionId": 847,
+    "Rank": 144,
+    "UdListDefinitionId": 578,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldType": "System.String",
+        "FieldLength": 286
       }
     }
   }

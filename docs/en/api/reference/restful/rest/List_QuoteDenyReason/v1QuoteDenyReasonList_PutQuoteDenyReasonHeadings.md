@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 533,
-    "Name": "Ankunding, Wehner and Jacobson",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 709,
-    "UdListDefinitionId": 838
+    "HeadingId": 641,
+    "Name": "Kovacek-Kris",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 269,
+    "UdListDefinitionId": 60
   },
   {
-    "HeadingId": 533,
-    "Name": "Ankunding, Wehner and Jacobson",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 709,
-    "UdListDefinitionId": 838
+    "HeadingId": 641,
+    "Name": "Kovacek-Kris",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 269,
+    "UdListDefinitionId": 60
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 846,
-    "Name": "Gleichner-Witting",
-    "Tooltip": "architecto",
+    "HeadingId": 630,
+    "Name": "West-Quigley",
+    "Tooltip": "unde",
     "Deleted": false,
-    "Rank": 455,
-    "UdListDefinitionId": 42,
+    "Rank": 899,
+    "UdListDefinitionId": 700,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldType": "System.Int32",
+        "FieldLength": 474
       }
     }
   }

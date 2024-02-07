@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Padberg, Kuhn and Zieme",
+  "Name": "Hettinger Inc and Sons",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 543,
-  "Name": "Larson Inc and Sons",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "Rank": 74,
-  "UdListDefinitionId": 380,
+  "HeadingId": 134,
+  "Name": "Murazik-Bashirian",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "Rank": 482,
+  "UdListDefinitionId": 262,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 542
     }
   }
 }

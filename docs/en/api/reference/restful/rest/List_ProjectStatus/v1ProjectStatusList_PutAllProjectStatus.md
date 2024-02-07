@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 988,
-    "Name": "Borer-Kohler",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "UdListDefinitionId": 5,
-    "Rank": 380
+    "Id": 710,
+    "Name": "McGlynn-Funk",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "UdListDefinitionId": 249,
+    "Rank": 132
   },
   {
-    "Id": 988,
-    "Name": "Borer-Kohler",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "UdListDefinitionId": 5,
-    "Rank": 380
+    "Id": 710,
+    "Name": "McGlynn-Funk",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "UdListDefinitionId": 249,
+    "Rank": 132
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Cremin, Medhurst and Koss",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "UdListDefinitionId": 870,
-    "Rank": 368,
+    "Id": 558,
+    "Name": "Hand, Morar and Turcotte",
+    "Tooltip": "laborum",
+    "Deleted": true,
+    "UdListDefinitionId": 121,
+    "Rank": 351,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 216
       }
     }
   }

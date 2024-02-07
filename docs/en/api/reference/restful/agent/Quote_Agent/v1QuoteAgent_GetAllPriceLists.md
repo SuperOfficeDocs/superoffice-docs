@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 335,
-    "ERPPriceListKey": "eveniet",
-    "QuoteConnectionId": 817,
-    "Name": "Monahan, Monahan and Spencer",
-    "Description": "Programmable interactive encryption",
-    "Currency": "et",
-    "CurrencyName": "Jakubowski-McDermott",
-    "ValidFrom": "2015-09-03T23:03:56.7826218+02:00",
-    "ValidTo": "2007-06-27T23:03:56.7826218+02:00",
-    "IsActive": false,
+    "PriceListId": 368,
+    "ERPPriceListKey": "commodi",
+    "QuoteConnectionId": 928,
+    "Name": "Walter, Howell and Walker",
+    "Description": "Optional 6th generation portal",
+    "Currency": "totam",
+    "CurrencyName": "Metz LLC",
+    "ValidFrom": "2007-12-29T16:54:56.1431452+01:00",
+    "ValidTo": "2002-09-06T16:54:56.1431452+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldLength": 315
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 857
+  "QuoteVersionId": 123
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 13391.582,
-    "Wgs84Longitude": 20615.452,
+    "Wgs84Latitude": 6004.744,
+    "Wgs84Longitude": 26150.095999999998,
     "LocalizedAddress": [
       [
         {
-          "Name": "Lubowitz, Lubowitz and Braun",
-          "Value": "maiores",
-          "Tooltip": "voluptatem",
-          "Label": "illo",
-          "ValueLength": 7,
-          "AddressType": "sint",
+          "Name": "Predovic, Kertzmann and Rodriguez",
+          "Value": "cupiditate",
+          "Tooltip": "aut",
+          "Label": "fugiat",
+          "ValueLength": 604,
+          "AddressType": "aut",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 109
+              "FieldType": "System.String",
+              "FieldLength": 903
             }
           }
         }
       ],
       [
         {
-          "Name": "Bernhard-Donnelly",
-          "Value": "blanditiis",
-          "Tooltip": "repellat",
-          "Label": "voluptas",
-          "ValueLength": 702,
-          "AddressType": "itaque",
+          "Name": "Bauch, Hayes and Champlin",
+          "Value": "asperiores",
+          "Tooltip": "sed",
+          "Label": "quidem",
+          "ValueLength": 457,
+          "AddressType": "ut",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 21
+              "FieldLength": 732
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "culpa",
+    "Formatted": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldType": "System.String",
+        "FieldLength": 363
       }
     }
   }

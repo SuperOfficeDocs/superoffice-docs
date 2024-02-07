@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 330,
-    "Name": "Murazik-Quigley",
-    "Tooltip": "hic",
+    "HeadingId": 889,
+    "Name": "Witting-Bahringer",
+    "Tooltip": "temporibus",
     "Deleted": true,
-    "Rank": 980,
-    "UdListDefinitionId": 651,
+    "Rank": 834,
+    "UdListDefinitionId": 262,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldType": "System.String",
+        "FieldLength": 774
       }
     }
   }

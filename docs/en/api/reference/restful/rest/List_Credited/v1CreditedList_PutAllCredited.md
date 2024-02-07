@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Spinka Group",
-    "Tooltip": "molestias",
-    "Deleted": false,
-    "UdListDefinitionId": 637,
-    "Rank": 492
+    "Id": 626,
+    "Name": "Schamberger Inc and Sons",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "UdListDefinitionId": 158,
+    "Rank": 17
   },
   {
-    "Id": 57,
-    "Name": "Spinka Group",
-    "Tooltip": "molestias",
-    "Deleted": false,
-    "UdListDefinitionId": 637,
-    "Rank": 492
+    "Id": 626,
+    "Name": "Schamberger Inc and Sons",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "UdListDefinitionId": 158,
+    "Rank": 17
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Denesik-Willms",
-    "Tooltip": "alias",
+    "Id": 933,
+    "Name": "Ruecker LLC",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 103,
-    "Rank": 493,
+    "UdListDefinitionId": 588,
+    "Rank": 314,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 761
       }
     }
   }

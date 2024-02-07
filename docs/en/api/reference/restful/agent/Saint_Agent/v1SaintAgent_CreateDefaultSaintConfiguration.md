@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 185,
+  "OwnerTable": 91,
   "Enabled": false,
-  "Period1": 963,
-  "Period2": 637,
-  "Period3": 700,
-  "GenerationStart": "2009-11-13T23:03:56.8441176+01:00",
-  "GenerationEnd": "1999-07-05T23:03:56.8441176+02:00",
-  "RowsGenerated": 63,
+  "Period1": 887,
+  "Period2": 417,
+  "Period3": 421,
+  "GenerationStart": "2015-10-06T16:54:56.1949725+02:00",
+  "GenerationEnd": "2003-09-19T16:54:56.1949725+02:00",
+  "RowsGenerated": 844,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

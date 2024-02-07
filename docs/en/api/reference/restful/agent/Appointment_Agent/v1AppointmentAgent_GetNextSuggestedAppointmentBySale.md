@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 314,
-  "CurrentAppointmentId": 916,
+  "SaleId": 652,
+  "CurrentAppointmentId": 434,
   "SkipCompleteCheck": true
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 571,
-  "Deleted": 235,
-  "DaysFuture": 85,
-  "Tooltip": "aut",
-  "Text": "quia",
-  "TaskId": 912,
-  "SuggestedAppointmentId": 308,
-  "SaleTypeStageLinkId": 81,
-  "RegisteredAssociateId": 287,
-  "Rank": 887,
-  "ProjectTypeStatusLinkId": 516,
-  "Name": "Steuber Group",
-  "Duration": 632,
+  "AutoSuggest": 521,
+  "Deleted": 832,
+  "DaysFuture": 667,
+  "Tooltip": "sapiente",
+  "Text": "aliquid",
+  "TaskId": 86,
+  "SuggestedAppointmentId": 93,
+  "SaleTypeStageLinkId": 140,
+  "RegisteredAssociateId": 534,
+  "Rank": 860,
+  "ProjectTypeStatusLinkId": 105,
+  "Name": "O'Connell-Erdman",
+  "Duration": 967,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 18
     }
   }
 }

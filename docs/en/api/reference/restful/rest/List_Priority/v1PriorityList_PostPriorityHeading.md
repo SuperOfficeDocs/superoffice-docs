@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 149,
-  "Name": "Labadie Group",
-  "Tooltip": "distinctio",
+  "HeadingId": 986,
+  "Name": "Heaney, Boyle and Sawayn",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 157,
-  "UdListDefinitionId": 307
+  "Rank": 981,
+  "UdListDefinitionId": 423
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 792,
-  "Name": "Erdman-O'Hara",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 770,
-  "UdListDefinitionId": 634,
+  "HeadingId": 964,
+  "Name": "Muller, Koch and O'Reilly",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "Rank": 769,
+  "UdListDefinitionId": 532,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   }
 }

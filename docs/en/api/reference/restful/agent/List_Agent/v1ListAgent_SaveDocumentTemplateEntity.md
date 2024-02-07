@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 179,
-  "Name": "Gulgowski-Braun",
-  "Tooltip": "debitis",
-  "SaveInDb": 926,
-  "Filename": "totam",
-  "DefaultOref": "aliquid",
+  "DocumentTemplateId": 613,
+  "Name": "Gerhold, Lindgren and Hessel",
+  "Tooltip": "quos",
+  "SaveInDb": 905,
+  "Filename": "odio",
+  "DefaultOref": "repellendus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 136,
-  "IntentId": 581,
-  "IsDefaultPublished": false,
-  "Rank": 43,
-  "LoadTemplateFromPlugin": 834,
-  "MimeType": "natus",
+  "AutoeventId": 795,
+  "IntentId": 747,
+  "IsDefaultPublished": true,
+  "Rank": 950,
+  "LoadTemplateFromPlugin": 396,
+  "MimeType": "quam",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 213,
+  "DocumentTypeKey": 28,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "wanda@sauer.us",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "hailie_kautzer@stantonsawayn.co.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "elliott@zboncak.us",
+  "SenderEmailAddress": "marvin_lindgren@breitenbergkrajcik.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 932,
-  "Name": "Wilderman Group",
-  "Tooltip": "suscipit",
-  "SaveInDb": 268,
-  "Filename": "laborum",
-  "DefaultOref": "molestias",
+  "DocumentTemplateId": 967,
+  "Name": "Harris LLC",
+  "Tooltip": "maiores",
+  "SaveInDb": 545,
+  "Filename": "voluptas",
+  "DefaultOref": "dolore",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 467,
-  "IntentId": 955,
-  "IsDefaultPublished": true,
-  "Rank": 577,
-  "LoadTemplateFromPlugin": 252,
-  "MimeType": "suscipit",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 26,
+  "AutoeventId": 911,
+  "IntentId": 5,
+  "IsDefaultPublished": false,
+  "Rank": 405,
+  "LoadTemplateFromPlugin": 947,
+  "MimeType": "molestiae",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 510,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "adrain_hartmann@howe.info",
+  "EmailSubject": "antonietta@stehrbarrows.ca",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "carolyn@carter.com",
+  "SenderEmailAddress": "johnson@wilderman.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 446
     }
   }
 }

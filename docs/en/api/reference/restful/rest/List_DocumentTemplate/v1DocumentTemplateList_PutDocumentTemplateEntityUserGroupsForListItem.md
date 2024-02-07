@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Jones Inc and Sons",
-    "ToolTip": "Ipsa aut cum sequi harum quasi amet distinctio.",
+    "Id": 804,
+    "Name": "Zieme, Gleason and Beahan",
+    "ToolTip": "Omnis veritatis vel exercitationem praesentium.",
     "Deleted": true,
-    "Rank": 770,
-    "Type": "est",
-    "ColorBlock": 761,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2007-11-15T23:04:05.4799999+01:00",
+    "Rank": 445,
+    "Type": "voluptas",
+    "ColorBlock": 952,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2020-12-17T16:55:30.6866114+01:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Hodkiewicz Group",
-        "ToolTip": "Non sed dolore qui voluptas.",
-        "Deleted": false,
-        "Rank": 764,
-        "Type": "ipsum",
-        "ColorBlock": 266,
-        "IconHint": "et",
+        "Id": 415,
+        "Name": "Crona Inc and Sons",
+        "ToolTip": "Aut ipsa rerum velit enim facere.",
+        "Deleted": true,
+        "Rank": 867,
+        "Type": "accusantium",
+        "ColorBlock": 24,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2001-09-12T23:04:05.4805035+02:00",
+        "LastChanged": "2016-01-25T16:55:30.6866114+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "inventore",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Ezequiel Strosin"
+        "FullName": "Dylan Cummings"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "iste",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Prof. Everardo Jessie Daniel"
+    "FullName": "Neal Willms"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Schamberger-Bradtke",
-    "ToolTip": "Maiores quas consequuntur quam non voluptates molestias.",
-    "Deleted": true,
-    "Rank": 238,
-    "Type": "architecto",
-    "ColorBlock": 221,
-    "IconHint": "quasi",
+    "Id": 496,
+    "Name": "Wiza-Stiedemann",
+    "ToolTip": "Mollitia vel.",
+    "Deleted": false,
+    "Rank": 776,
+    "Type": "velit",
+    "ColorBlock": 879,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2017-08-07T23:04:05.4815004+02:00",
+    "LastChanged": "2015-07-21T16:55:30.6876351+02:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Rolfson-Strosin",
-        "ToolTip": "Minima et ut in enim.",
-        "Deleted": true,
-        "Rank": 133,
-        "Type": "ut",
-        "ColorBlock": 44,
-        "IconHint": "soluta",
+        "Id": 989,
+        "Name": "Schiller LLC",
+        "ToolTip": "Quo sed.",
+        "Deleted": false,
+        "Rank": 394,
+        "Type": "error",
+        "ColorBlock": 523,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2008-05-17T23:04:05.4819992+02:00",
+        "LastChanged": "2002-01-17T16:55:30.6876351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Jayne Stella Mueller Sr.",
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Prof. Durward Delfina Cronin Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 122
+            "FieldLength": 448
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
+    "ExtraInfo": "quae",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Miss Dell Weissnat DVM",
+    "FullName": "Ms. Deontae Garry Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 632
+        "FieldType": "System.Int32",
+        "FieldLength": 918
       }
     }
   }

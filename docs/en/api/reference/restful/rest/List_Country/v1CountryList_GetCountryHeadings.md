@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 182,
-    "Name": "Will-Collier",
-    "Tooltip": "impedit",
+    "HeadingId": 66,
+    "Name": "Stanton Inc and Sons",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 606,
-    "UdListDefinitionId": 280,
+    "Rank": 721,
+    "UdListDefinitionId": 268,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldType": "System.String",
+        "FieldLength": 608
       }
     }
   }

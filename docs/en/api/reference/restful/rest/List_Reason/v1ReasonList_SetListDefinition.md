@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 834,
-  "Name": "Ernser-Conroy",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 805,
-  "IsCustomList": false,
+  "Id": 813,
+  "Name": "Collier-Stracke",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 347,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Dooley Group",
-  "Tooltip": "recusandae",
-  "Deleted": true,
-  "Rank": 573,
+  "Id": 386,
+  "Name": "Abernathy Inc and Sons",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "Rank": 198,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 678
     }
   }
 }

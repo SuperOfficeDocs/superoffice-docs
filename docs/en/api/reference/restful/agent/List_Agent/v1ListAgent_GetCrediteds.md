@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Value": "eligendi",
-    "Tooltip": "rerum",
+    "Id": 566,
+    "Value": "quia",
+    "Tooltip": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 529
       }
     }
   },
   {
-    "Id": 462,
-    "Value": "eligendi",
-    "Tooltip": "rerum",
+    "Id": 566,
+    "Value": "quia",
+    "Tooltip": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 529
       }
     }
   }

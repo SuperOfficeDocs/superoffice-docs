@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 342,
-  "ERPName": "Cremin-Robel",
-  "DisplayName": "Parker-Lindgren",
-  "DisplayDescription": "Organized holistic extranet",
-  "Rank": 26,
-  "ConnectorName": "Corkery, Morissette and Nienow",
-  "ErpConnectionId": 336,
-  "ExtraData": "delectus",
+  "QuoteConnectionId": 763,
+  "ERPName": "Durgan Group",
+  "DisplayName": "Herzog, Armstrong and Bradtke",
+  "DisplayDescription": "Upgradable discrete contingency",
+  "Rank": 323,
+  "ConnectorName": "Watsica Group",
+  "ErpConnectionId": 249,
+  "ExtraData": "omnis",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 666,
-      "ERPPriceListKey": "et",
-      "QuoteConnectionId": 423,
-      "Name": "Toy Group",
-      "Description": "Exclusive web-enabled capability",
-      "Currency": "similique",
-      "CurrencyName": "Balistreri, Raynor and Quigley",
-      "ValidFrom": "2006-02-25T23:03:56.7791178+01:00",
-      "ValidTo": "1997-02-18T23:03:56.7791178+01:00",
+      "PriceListId": 596,
+      "ERPPriceListKey": "accusantium",
+      "QuoteConnectionId": 633,
+      "Name": "Davis-Orn",
+      "Description": "Extended explicit workforce",
+      "Currency": "dolor",
+      "CurrencyName": "Schulist, Sporer and Rice",
+      "ValidFrom": "2008-12-08T16:54:56.1401412+01:00",
+      "ValidTo": "2019-03-19T16:54:56.1401412+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldType": "System.String",
+          "FieldLength": 698
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    248,
-    99
+    191,
+    512
   ],
   "AssociateAccessIds": [
-    903,
-    827
+    655,
+    551
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 846
     }
   }
 }

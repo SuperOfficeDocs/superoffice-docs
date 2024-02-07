@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 926,
-  "Name": "Lueilwitz, Weimann and Herzog",
-  "Tooltip": "dolorem",
-  "Rank": 571,
-  "Key": "inventore",
-  "MailTemplateId": 433,
-  "Deleted": false,
+  "ConsentSourceId": 707,
+  "Name": "Howell Inc and Sons",
+  "Tooltip": "mollitia",
+  "Rank": 464,
+  "Key": "mollitia",
+  "MailTemplateId": 443,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldLength": 109
     }
   }
 }

@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 521,
-  "QuoteAlternativeId": 724,
-  "QuoteAlternativeName": "Medhurst, Dickens and Larson"
+  "QuoteVersionId": 400,
+  "QuoteAlternativeId": 103,
+  "QuoteAlternativeName": "Christiansen, Bergstrom and Friesen"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 41,
-  "ERPQuoteAlternativeKey": "provident",
-  "QuoteVersionId": 903,
-  "Name": "Kuhic LLC",
-  "Description": "Reduced cohesive complexity",
+  "QuoteAlternativeId": 453,
+  "ERPQuoteAlternativeKey": "ex",
+  "QuoteVersionId": 529,
+  "Name": "Douglas LLC",
+  "Description": "Multi-channelled needs-based strategy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 5465.696,
-  "ERPDiscountAmount": 18158.396,
-  "DiscountPercent": 4030.324,
-  "DiscountAmount": 27394.293999999998,
+  "ERPDiscountPercent": 25761.48,
+  "ERPDiscountAmount": 29603.764,
+  "DiscountPercent": 25799.088,
+  "DiscountAmount": 14798.748,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 817.97399999999993,
-  "EarningPercent": 25009.32,
-  "EarningAmount": 1018.55,
-  "SubTotal": 573.52199999999993,
-  "TotalPrice": 12451.382,
-  "ExtraField1": "quos",
-  "ExtraField2": "commodi",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "provident",
-  "ExtraField5": "deserunt",
+  "VATInfo": "non",
+  "VAT": 22420.636,
+  "EarningPercent": 26259.786,
+  "EarningAmount": 25137.814,
+  "SubTotal": 26419.62,
+  "TotalPrice": 28998.902,
+  "ExtraField1": "harum",
+  "ExtraField2": "omnis",
+  "ExtraField3": "possimus",
+  "ExtraField4": "neque",
+  "ExtraField5": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

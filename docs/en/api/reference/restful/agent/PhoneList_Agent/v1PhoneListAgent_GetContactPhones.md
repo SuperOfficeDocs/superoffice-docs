@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 754
+  "ContactId": 570
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(813)125-6133 x7813",
-    "PersonCellPhone": "337-793-6118",
-    "PersonPrivatePhone": "(348)536-0734",
-    "PersonFaxNumber": "1499236",
-    "PersonPagerNumber": "581383",
-    "PersonEmail": "oswaldo@schneider.name",
-    "Id": 843,
-    "Name": "Stiedemann Inc and Sons",
-    "Tooltip": "voluptates",
-    "UniqueId": "necessitatibus",
+    "PersonDirectPhone": "1-942-213-5634",
+    "PersonCellPhone": "1-392-827-8527",
+    "PersonPrivatePhone": "1-061-507-4119 x731",
+    "PersonFaxNumber": "1178777",
+    "PersonPagerNumber": "1334477",
+    "PersonEmail": "rita.schmidt@greenholt.info",
+    "Id": 968,
+    "Name": "Blanda Inc and Sons",
+    "Tooltip": "numquam",
+    "UniqueId": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 849
+        "FieldType": "System.Int32",
+        "FieldLength": 825
       }
     }
   }

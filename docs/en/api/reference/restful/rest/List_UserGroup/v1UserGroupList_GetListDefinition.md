@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Ritchie, Gerhold and Gerlach",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 232,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": false,
+  "Id": 333,
+  "Name": "Torphy-Mitchell",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 908,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "fuga",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldLength": 717
     }
   },
   "_Links": {

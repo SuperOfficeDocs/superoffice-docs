@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Feil Group",
-    "ToolTip": "Non nemo fuga est accusamus illo ea.",
+    "Id": 569,
+    "Name": "Watsica LLC",
+    "ToolTip": "Deserunt quos iure harum assumenda.",
     "Deleted": false,
-    "Rank": 404,
-    "Type": "harum",
-    "ColorBlock": 782,
-    "IconHint": "et",
+    "Rank": 263,
+    "Type": "error",
+    "ColorBlock": 292,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2016-06-14T23:04:05.3890012+02:00",
+    "LastChanged": "2021-12-04T16:55:30.6042169+01:00",
     "ChildItems": [
       {
-        "Id": 91,
-        "Name": "Metz-Gutkowski",
-        "ToolTip": "Autem ut est.",
-        "Deleted": true,
-        "Rank": 57,
-        "Type": "iste",
-        "ColorBlock": 438,
-        "IconHint": "explicabo",
-        "Selected": true,
-        "LastChanged": "2013-07-15T23:04:05.3890012+02:00",
+        "Id": 345,
+        "Name": "Fahey, Watsica and Mills",
+        "ToolTip": "Voluptatum fugit ducimus dolore id eos soluta magnam.",
+        "Deleted": false,
+        "Rank": 246,
+        "Type": "facere",
+        "ColorBlock": 671,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "1998-02-19T16:55:30.6042169+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "asperiores",
-        "Hidden": true,
-        "FullName": "Alvina Considine",
+        "ExtraInfo": "soluta",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Walter Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 455
+            "FieldType": "System.String",
+            "FieldLength": 894
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "ut",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Prof. Aditya Dach Sr.",
+    "FullName": "Mr. Tara Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldType": "System.Int32",
+        "FieldLength": 213
       }
     }
   }

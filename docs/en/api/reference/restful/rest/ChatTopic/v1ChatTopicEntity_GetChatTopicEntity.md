@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,22 +113,22 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 121,
-  "Name": "Braun-Adams",
-  "Description": "Right-sized methodical challenge",
-  "WelcomeMessage": "non",
+  "ChatTopicId": 514,
+  "Name": "Schaden Inc and Sons",
+  "Description": "Synergized 24 hour project",
+  "WelcomeMessage": "omnis",
   "Language": null,
-  "LastAccept": "2003-05-05T23:04:03.8565215+02:00",
-  "SecondsPrAccept": 249,
-  "AlertRecipient": "voluptatem",
+  "LastAccept": "2014-05-22T16:55:29.3597814+02:00",
+  "SecondsPrAccept": 59,
+  "AlertRecipient": "optio",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "non",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "similique",
-  "WarnNewChatMinutes": 251,
-  "WarnManagerNewChatMinutes": 343,
-  "TicketEnabled": false,
+  "BadgeHeader": "praesentium",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "hic",
+  "WarnNewChatMinutes": 313,
+  "WarnManagerNewChatMinutes": 82,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
@@ -137,24 +137,24 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 621,
-  "WarnManagerChatMessageMinutes": 381,
+  "WarnChatMessageMinutes": 349,
+  "WarnManagerChatMessageMinutes": 355,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 622,
-  "OfflineFormQueueLength": 866,
+  "OfflineFormTimeLimit": 932,
+  "OfflineFormQueueLength": 696,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "architecto",
+  "WidgetRatingText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 691
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

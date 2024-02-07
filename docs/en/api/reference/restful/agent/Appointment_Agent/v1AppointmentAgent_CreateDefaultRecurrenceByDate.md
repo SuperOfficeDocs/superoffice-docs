@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-11-23T23:03:54.8086453+01:00"
+  "StartDate": "2002-04-15T16:54:54.4398941+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 363,
-  "StartDate": "2002-09-19T23:03:54.8086453+02:00",
-  "EndDate": "2022-08-10T23:03:54.8086453+02:00",
-  "RecurrenceCounter": 522,
+  "RecurrenceId": 29,
+  "StartDate": "2023-09-10T16:54:54.4409853+02:00",
+  "EndDate": "1998-01-08T16:54:54.4409853+01:00",
+  "RecurrenceCounter": 922,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1997-05-30T23:03:54.8086453+02:00",
-      "IsConflict": false,
-      "Description": "Virtual grid-enabled encryption",
-      "DescriptionStyleHint": "Advanced maximized workforce",
+      "Date": "2023-06-01T16:54:54.4409853+02:00",
+      "IsConflict": true,
+      "Description": "Customizable heuristic core",
+      "DescriptionStyleHint": "Grass-roots object-oriented approach",
       "Tooltip": "enim"
     },
     {
-      "Date": "1997-05-30T23:03:54.8086453+02:00",
-      "IsConflict": false,
-      "Description": "Virtual grid-enabled encryption",
-      "DescriptionStyleHint": "Advanced maximized workforce",
+      "Date": "2023-06-01T16:54:54.4409853+02:00",
+      "IsConflict": true,
+      "Description": "Customizable heuristic core",
+      "DescriptionStyleHint": "Grass-roots object-oriented approach",
       "Tooltip": "enim"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

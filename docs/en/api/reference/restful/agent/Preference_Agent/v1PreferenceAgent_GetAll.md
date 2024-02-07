@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 675,
-    "Section": "fuga",
-    "Key": "est",
-    "Name": "Moore, Bode and Feeney",
+    "PrefDescId": 924,
+    "Section": "ipsa",
+    "Key": "aspernatur",
+    "Name": "Romaguera Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Up-sized system-worthy concept",
-    "IsBuiltin": true,
-    "TableName": "Hickle, Hoppe and Schmidt",
-    "UserDefinedListId": 163,
-    "Rank": 839,
-    "SubGroup": "impedit",
-    "MinLevel": 870,
-    "MaxValue": 642,
-    "MinValue": 946,
-    "RequiredLicense": "illum",
+    "Description": "Reactive next generation matrix",
+    "IsBuiltin": false,
+    "TableName": "Flatley, Jakubowski and Ziemann",
+    "UserDefinedListId": 221,
+    "Rank": 764,
+    "SubGroup": "voluptatem",
+    "MinLevel": 716,
+    "MaxValue": 458,
+    "MinValue": 648,
+    "RequiredLicense": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldType": "System.String",
+        "FieldLength": 859
       }
     }
   }

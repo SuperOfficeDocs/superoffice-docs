@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Hoeger, Lehner and Witting",
-  "Tooltip": "amet",
+  "Id": 158,
+  "Name": "Waters LLC",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 713,
-  "IsCustomList": false,
+  "Rank": 558,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sequi",
+  "ListType": "non",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 146,
-  "Name": "Kovacek LLC",
-  "Tooltip": "et",
+  "Id": 682,
+  "Name": "McClure, Conroy and Kshlerin",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 227,
-  "IsCustomList": false,
+  "Rank": 874,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 189
     }
   }
 }

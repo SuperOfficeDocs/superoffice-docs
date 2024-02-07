@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 281,
-  "Name": "Pouros, Kuhlman and Bergstrom",
-  "Rank": 807,
-  "Tooltip": "non",
-  "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "provident",
+  "ResourceId": 373,
+  "Name": "Murphy LLC",
+  "Rank": 673,
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "IsLocation": false,
+  "LocationAddress": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

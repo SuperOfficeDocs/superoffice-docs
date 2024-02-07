@@ -71,7 +71,7 @@ OK
 | TargetAssociate | Associate | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetContact | Contact | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetUserGroup | UserGroup | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| Currency | Currency | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
+| Currency | Currency | The currency of the target.  Use MDO List name "currency" to get list items. |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
 | DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight | TableRight | The carrier's table right |
@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 54,
-  "Year": 562,
-  "TargetDimensionId": 923
+  "UserGroupId": 57,
+  "Year": 176,
+  "TargetDimensionId": 411
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 153,
+    "TargetAssignmentInfoId": 462,
     "Values": [
-      603,
-      786
+      929,
+      921
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 897,
-    "DimensionListItemDisplayName": "Feeney-Barton",
+    "DimensionListItem": 862,
+    "DimensionListItemDisplayName": "Nienow Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 637
       }
     }
   }

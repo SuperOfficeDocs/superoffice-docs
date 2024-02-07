@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 470,
-    "Name": "Christiansen, Schinner and Barrows",
-    "ToolTip": "Voluptates sint reiciendis enim aut.",
+    "Id": 104,
+    "Name": "Gulgowski, O'Keefe and Pfannerstill",
+    "ToolTip": "Voluptas optio totam repudiandae porro.",
     "Deleted": false,
-    "Rank": 526,
-    "Type": "quis",
-    "ColorBlock": 993,
-    "IconHint": "et",
+    "Rank": 807,
+    "Type": "praesentium",
+    "ColorBlock": 35,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2012-12-27T23:04:05.8174947+01:00",
+    "LastChanged": "2014-10-16T16:55:31.0853446+02:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Schmidt Inc and Sons",
-        "ToolTip": "Ut id illum iste voluptatem est.",
+        "Id": 84,
+        "Name": "Auer, Wehner and Hyatt",
+        "ToolTip": "Eveniet et ea quaerat officiis.",
         "Deleted": false,
-        "Rank": 390,
-        "Type": "sequi",
-        "ColorBlock": 223,
-        "IconHint": "quia",
+        "Rank": 78,
+        "Type": "earum",
+        "ColorBlock": 945,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "1998-01-25T23:04:05.8174947+01:00",
+        "LastChanged": "2019-12-17T16:55:31.0853446+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "et",
+        "ExtraInfo": "culpa",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Ms. Else Funk MD",
+        "FullName": "Ellsworth Ledner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 807
+            "FieldLength": 896
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "architecto",
-    "Hidden": false,
-    "FullName": "Kennedi Botsford",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "accusantium",
+    "Hidden": true,
+    "FullName": "Charley Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 314
       }
     }
   }

@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "id",
-  "MaxRows": 548
+  "TitleOrId": "inventore",
+  "MaxRows": 603
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 960,
-    "Title": "ut",
-    "OwnerName": "Wunsch-Hermiston",
+    "TicketId": 781,
+    "Title": "repellendus",
+    "OwnerName": "Hoppe, Gleason and Halvorson",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Langworth-Cummings",
+    "PriorityName": "Mosciski, Bartell and Swaniawski",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Kerluke, Kris and Sporer",
-    "ContactName": "Kirlin-Zboncak",
+    "PersonName": "Ratke LLC",
+    "ContactName": "Schaden-Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

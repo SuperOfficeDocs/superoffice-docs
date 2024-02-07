@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 690,
-  "Name": "Barrows, Bernhard and Mayer",
+  "TicketPriorityId": 729,
+  "Name": "Goodwin-Sporer",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 439,
+  "SortOrder": 188,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 16,
-  "MonStart": "2023-08-09T23:04:06.0114925+02:00",
-  "MonStop": "2021-01-13T23:04:06.0114925+01:00",
-  "TueStart": "1997-07-21T23:04:06.0114925+02:00",
-  "TueStop": "1997-01-15T23:04:06.0114925+01:00",
-  "WedStart": "2007-11-01T23:04:06.0114925+01:00",
-  "WedStop": "2016-07-03T23:04:06.0114925+02:00",
-  "ThuStart": "2024-01-15T23:04:06.0114925+01:00",
-  "ThuStop": "2021-11-16T23:04:06.0114925+01:00",
-  "FriStart": "2009-09-29T23:04:06.0114925+02:00",
-  "FriStop": "2002-05-04T23:04:06.0114925+02:00",
-  "SatStart": "2019-10-03T23:04:06.0114925+02:00",
-  "SatStop": "2023-10-21T23:04:06.0114925+02:00",
-  "SunStart": "2016-03-08T23:04:06.0114925+01:00",
-  "SunStop": "2005-08-25T23:04:06.0114925+02:00",
+  "Deadline": 117,
+  "MonStart": "2006-10-12T16:55:31.1337951+02:00",
+  "MonStop": "2022-11-05T16:55:31.1337951+01:00",
+  "TueStart": "2019-11-16T16:55:31.1337951+01:00",
+  "TueStop": "2015-12-04T16:55:31.1337951+01:00",
+  "WedStart": "1996-12-03T16:55:31.1337951+01:00",
+  "WedStop": "2008-01-07T16:55:31.1337951+01:00",
+  "ThuStart": "2004-11-15T16:55:31.1337951+01:00",
+  "ThuStop": "2014-04-10T16:55:31.1337951+02:00",
+  "FriStart": "2016-07-13T16:55:31.1337951+02:00",
+  "FriStop": "2014-09-12T16:55:31.1337951+02:00",
+  "SatStart": "2000-10-22T16:55:31.1337951+02:00",
+  "SatStop": "2001-07-30T16:55:31.1337951+02:00",
+  "SunStart": "2001-12-01T16:55:31.1337951+01:00",
+  "SunStop": "2023-03-18T16:55:31.1337951+01:00",
   "NonDates": [
-    "repudiandae",
-    "eligendi"
+    "sed",
+    "expedita"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 130,
-      "AlertLevel": 900,
-      "AlertTimeout": 706,
-      "Action": 373,
-      "DelegateTo": 631,
-      "ScriptId": 281,
-      "EmailTo": "darren.stoltenberg@feest.us",
-      "SmsTo": "accusamus",
-      "ReplyTemplateIdCustomer": 1000,
-      "ReplyTemplateIdUser": 39,
-      "ReplyTemplateIdCatmast": 132,
-      "ReplyTemplateIdEmail": 340,
-      "RtiCustomerSms": 446,
-      "ReplyTemplateIdUserSms": 267,
-      "ReplyTemplateIdCatmastSms": 270,
-      "ReplyTemplateIdSms": 458,
+      "TicketAlertId": 623,
+      "AlertLevel": 83,
+      "AlertTimeout": 213,
+      "Action": 210,
+      "DelegateTo": 90,
+      "ScriptId": 521,
+      "EmailTo": "mylene.frami@mohr.us",
+      "SmsTo": "quia",
+      "ReplyTemplateIdCustomer": 809,
+      "ReplyTemplateIdUser": 488,
+      "ReplyTemplateIdCatmast": 206,
+      "ReplyTemplateIdEmail": 618,
+      "RtiCustomerSms": 504,
+      "ReplyTemplateIdUserSms": 386,
+      "ReplyTemplateIdCatmastSms": 17,
+      "ReplyTemplateIdSms": 679,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 71
+          "FieldType": "System.String",
+          "FieldLength": 936
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 836
     }
   }
 }

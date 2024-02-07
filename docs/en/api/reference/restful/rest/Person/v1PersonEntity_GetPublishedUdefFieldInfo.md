@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 815,
-  "ColumnId": 909,
-  "FieldDefault": "fugiat",
-  "FieldHeight": 965,
-  "FieldLabel": "necessitatibus",
-  "FieldLeft": 457,
-  "FieldTop": 126,
+  "UDefFieldId": 939,
+  "ColumnId": 75,
+  "FieldDefault": "tenetur",
+  "FieldHeight": 940,
+  "FieldLabel": "in",
+  "FieldLeft": 85,
+  "FieldTop": 776,
   "FieldType": "Checkbox",
-  "FieldWidth": 716,
-  "FormatMask": "quidem",
+  "FieldWidth": 927,
+  "FormatMask": "at",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 123,
-  "LabelLeft": 557,
-  "LabelTop": 340,
-  "LabelWidth": 152,
-  "LastVersionId": 512,
-  "ListTableId": 558,
+  "LabelHeight": 935,
+  "LabelLeft": 627,
+  "LabelTop": 779,
+  "LabelWidth": 228,
+  "LastVersionId": 373,
+  "ListTableId": 48,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 29,
-  "ProgId": "perferendis",
+  "Page1LineNo": 591,
+  "ProgId": "qui",
   "IsReadOnly": false,
-  "ShortLabel": "illum",
-  "TabOrder": 717,
-  "TextLength": 109,
-  "Tooltip": "nisi",
-  "UdefIdentity": 561,
-  "UDListDefinitionId": 538,
+  "ShortLabel": "neque",
+  "TabOrder": 897,
+  "TextLength": 658,
+  "Tooltip": "officiis",
+  "UdefIdentity": 32,
+  "UDListDefinitionId": 377,
   "Justification": "Center",
-  "Version": 549,
-  "TemplateVariableName": "Brown LLC",
+  "Version": 982,
+  "TemplateVariableName": "Rodriguez Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Weimann Inc and Sons",
+  "MdoListName": "Skiles Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldLength": 245
     }
   }
 }

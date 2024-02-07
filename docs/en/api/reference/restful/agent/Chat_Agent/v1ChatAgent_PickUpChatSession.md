@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 668
+  "ChatSessionId": 187
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 984,
-  "TopicId": 117,
+  "ChatSessionId": 496,
+  "TopicId": 686,
   "User": null,
   "Person": null,
-  "CustomerAlias": "delectus",
-  "CustomerHost": "vel",
-  "CustomerName": "Trantow Group",
-  "CustomerEmail": "thea_collier@hoeger.co.uk",
-  "CustomerPhone": "719-982-3946 x68216",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Marquardt LLC",
+  "CustomerAlias": "itaque",
+  "CustomerHost": "praesentium",
+  "CustomerName": "DuBuque Inc and Sons",
+  "CustomerEmail": "jackeline.ohara@hegmann.us",
+  "CustomerPhone": "1-922-002-9845 x6570",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Corwin-Schimmel",
   "Status": "Closed",
-  "FirstMessage": "vel",
-  "LastMessage": "dolor",
-  "WhenRequested": "1998-07-10T23:03:55.1656415+02:00",
-  "WhenStarted": "2011-06-08T23:03:55.1656415+02:00",
-  "WhenEnded": "2006-02-20T23:03:55.1656415+01:00",
-  "WhenIdle": "2023-03-05T23:03:55.1656415+01:00",
-  "WhenFetched": "2004-02-21T23:03:55.1656415+01:00",
-  "SessionKey": "voluptatem",
-  "InitialQueuePos": 116,
-  "AlertLevel": 24,
-  "Rank": 855,
+  "FirstMessage": "illum",
+  "LastMessage": "et",
+  "WhenRequested": "2005-10-11T16:54:54.8376478+02:00",
+  "WhenStarted": "2010-02-14T16:54:54.8376478+01:00",
+  "WhenEnded": "2019-02-20T16:54:54.8376478+01:00",
+  "WhenIdle": "2007-06-06T16:54:54.8376478+02:00",
+  "WhenFetched": "2021-04-09T16:54:54.8376478+02:00",
+  "SessionKey": "rerum",
+  "InitialQueuePos": 38,
+  "AlertLevel": 273,
+  "Rank": 417,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 597,
+  "Rating": 540,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldType": "System.String",
+      "FieldLength": 257
     }
   }
 }

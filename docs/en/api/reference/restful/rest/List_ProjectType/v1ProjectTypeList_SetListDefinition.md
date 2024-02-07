@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 530,
-  "Name": "Bode LLC",
-  "Tooltip": "eos",
+  "Id": 494,
+  "Name": "Swaniawski LLC",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 824,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 294,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "enim",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Terry-Boehm",
-  "Tooltip": "qui",
+  "Id": 730,
+  "Name": "Stoltenberg-Connelly",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 993,
+  "Rank": 143,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "recusandae",
+  "UseGroupsAndHeadings": false,
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 948
     }
   }
 }

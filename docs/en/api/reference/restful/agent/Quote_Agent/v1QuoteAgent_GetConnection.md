@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 665
+  "QuoteConnectionId": 389
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 102,
-  "ERPName": "Thompson LLC",
-  "DisplayName": "Reilly-Lebsack",
-  "DisplayDescription": "User-centric attitude-oriented definition",
-  "Rank": 794,
-  "ConnectorName": "Hyatt-Grimes",
-  "ErpConnectionId": 389,
-  "ExtraData": "fuga",
-  "IsAvailable": false,
+  "QuoteConnectionId": 497,
+  "ERPName": "Mueller-Zieme",
+  "DisplayName": "Konopelski Inc and Sons",
+  "DisplayDescription": "Operative static migration",
+  "Rank": 365,
+  "ConnectorName": "Considine Group",
+  "ErpConnectionId": 171,
+  "ExtraData": "id",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 903,
-      "ERPPriceListKey": "quia",
-      "QuoteConnectionId": 338,
-      "Name": "Wunsch, Langosh and Shields",
-      "Description": "Horizontal upward-trending data-warehouse",
-      "Currency": "illo",
-      "CurrencyName": "Franecki LLC",
-      "ValidFrom": "2002-05-13T23:03:56.7776178+02:00",
-      "ValidTo": "1997-01-15T23:03:56.7776178+01:00",
+      "PriceListId": 403,
+      "ERPPriceListKey": "atque",
+      "QuoteConnectionId": 464,
+      "Name": "Kilback, Bailey and Ratke",
+      "Description": "Organized high-level initiative",
+      "Currency": "voluptas",
+      "CurrencyName": "Hilll Group",
+      "ValidFrom": "2003-11-09T16:54:56.1381418+01:00",
+      "ValidTo": "2010-08-31T16:54:56.1381418+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 864
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    488,
-    40
+    543,
+    608
   ],
   "AssociateAccessIds": [
-    722,
-    312
+    162,
+    134
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldType": "System.String",
+      "FieldLength": 458
     }
   }
 }

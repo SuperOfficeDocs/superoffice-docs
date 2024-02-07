@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 263,
-  "Filter": "repellendus"
+  "SelectionId": 700,
+  "Filter": "natus"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wunsch, Bosco and Leuschke",
-    "Operator": "cumque",
+    "Name": "Rosenbaum-Schaden",
+    "Operator": "perferendis",
     "Values": [
-      "laudantium",
-      "deleniti"
+      "sapiente",
+      "sed"
     ],
     "DisplayValues": [
-      "labore",
-      "omnis"
+      "enim",
+      "mollitia"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Veum LLC",
-        "Operator": "nemo",
+        "Name": "Haley-Leannon",
+        "Operator": "mollitia",
         "Values": [
-          "iusto",
-          "blanditiis"
+          "eligendi",
+          "in"
         ],
         "DisplayValues": [
-          "voluptatum",
-          "rerum"
+          "placeat",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 464,
+        "InterParenthesis": 881,
         "InterOperator": "And",
-        "UniqueHash": 663
+        "UniqueHash": 225
       }
     ],
-    "InterParenthesis": 681,
+    "InterParenthesis": 555,
     "InterOperator": "And",
-    "UniqueHash": 381
+    "UniqueHash": 149
   }
 ]
 ```

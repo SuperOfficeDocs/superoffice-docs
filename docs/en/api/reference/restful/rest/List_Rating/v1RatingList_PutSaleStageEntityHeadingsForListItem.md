@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 436,
-    "Name": "Torphy, Connelly and Hamill",
-    "ToolTip": "Quo aut ut velit molestiae eligendi sapiente.",
+    "Id": 289,
+    "Name": "Kutch Group",
+    "ToolTip": "Soluta quia aut perferendis quae.",
     "Deleted": false,
-    "Rank": 697,
-    "Type": "maxime",
-    "ColorBlock": 762,
-    "IconHint": "debitis",
+    "Rank": 341,
+    "Type": "qui",
+    "ColorBlock": 323,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2002-11-21T23:04:05.7344961+01:00",
+    "LastChanged": "1999-01-07T16:55:31.0061863+01:00",
     "ChildItems": [
       {
-        "Id": 792,
-        "Name": "Daugherty Inc and Sons",
-        "ToolTip": "Assumenda dolore quis ut nesciunt ipsam.",
+        "Id": 363,
+        "Name": "Brekke, Lubowitz and Gutmann",
+        "ToolTip": "In rerum id.",
         "Deleted": false,
-        "Rank": 377,
-        "Type": "ut",
-        "ColorBlock": 308,
-        "IconHint": "iusto",
-        "Selected": true,
-        "LastChanged": "2017-04-29T23:04:05.7344961+02:00",
+        "Rank": 167,
+        "Type": "non",
+        "ColorBlock": 84,
+        "IconHint": "laudantium",
+        "Selected": false,
+        "LastChanged": "2005-08-20T16:55:31.0061863+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Yessenia Davis"
+        "FullName": "Prof. Flavio Kayden Heaney"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Dagmar Wehner V"
+    "ExtraInfo": "accusantium",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Abner Weimann"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "McGlynn, Kiehn and Hodkiewicz",
-    "ToolTip": "Soluta unde consequatur commodi eius qui molestias iste.",
-    "Deleted": true,
-    "Rank": 674,
-    "Type": "non",
-    "ColorBlock": 196,
-    "IconHint": "sed",
+    "Id": 733,
+    "Name": "Towne, Feil and Bechtelar",
+    "ToolTip": "Omnis amet saepe vel qui aut ea.",
+    "Deleted": false,
+    "Rank": 335,
+    "Type": "minus",
+    "ColorBlock": 770,
+    "IconHint": "porro",
     "Selected": false,
-    "LastChanged": "2004-04-01T23:04:05.7360037+02:00",
+    "LastChanged": "2021-05-24T16:55:31.0071857+02:00",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Batz, Sauer and Windler",
-        "ToolTip": "Perspiciatis ut sequi.",
-        "Deleted": true,
-        "Rank": 505,
-        "Type": "velit",
-        "ColorBlock": 119,
-        "IconHint": "culpa",
-        "Selected": false,
-        "LastChanged": "1996-11-06T23:04:05.7360037+01:00",
+        "Id": 908,
+        "Name": "Feeney, Murray and Zemlak",
+        "ToolTip": "Quisquam quia assumenda.",
+        "Deleted": false,
+        "Rank": 241,
+        "Type": "consequatur",
+        "ColorBlock": 161,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2019-01-22T16:55:31.0071857+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "maxime",
+        "ExtraInfo": "magnam",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Aileen Durgan",
+        "FullName": "Jarod Watson Muller DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 301
+            "FieldType": "System.Int32",
+            "FieldLength": 574
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "laborum",
-    "Hidden": true,
-    "FullName": "Dr. Grady Rau",
+    "ExtraInfo": "beatae",
+    "StyleHint": "quisquam",
+    "Hidden": false,
+    "FullName": "Myrl Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 784
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 757
+  "PrefDescId": 332
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 536,
-    "PrefDescId": 392,
-    "PrefValue": "maiores",
-    "PrefShowValue": "labore",
-    "Description": "Multi-lateral systematic standardization",
-    "IsBuiltin": true,
+    "PrefDescLineId": 607,
+    "PrefDescId": 776,
+    "PrefValue": "laudantium",
+    "PrefShowValue": "fugiat",
+    "Description": "Business-focused human-resource help-desk",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldType": "System.String",
+        "FieldLength": 469
       }
     }
   }

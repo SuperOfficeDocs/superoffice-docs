@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 799,
+  "HierarchyId": 840,
   "Domain": "Dashboards",
-  "Name": "Abernathy, Leuschke and Braun",
-  "Fullname": "et",
-  "ParentId": 37,
+  "Name": "Dare, Jakubowski and Eichmann",
+  "Fullname": "voluptas",
+  "ParentId": 795,
   "Children": [
     {
-      "HierarchyId": 437,
+      "HierarchyId": 268,
       "Domain": "Dashboards",
-      "Name": "Terry-Mann",
-      "Fullname": "dolores",
-      "ParentId": 235,
+      "Name": "Smitham-Hudson",
+      "Fullname": "nam",
+      "ParentId": 3,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-06-25T23:04:04.2390177+02:00",
-      "RegisteredAssociateId": 26,
-      "Updated": "2013-09-20T23:04:04.2390177+02:00",
-      "UpdatedAssociateId": 1000
+      "Registered": "2001-06-20T16:55:29.6644398+02:00",
+      "RegisteredAssociateId": 44,
+      "Updated": "2005-10-17T16:55:29.6644398+02:00",
+      "UpdatedAssociateId": 824
     }
   ],
-  "Registered": "2001-02-08T23:04:04.2390177+01:00",
-  "RegisteredAssociateId": 240,
-  "Updated": "2006-06-10T23:04:04.2390177+02:00",
-  "UpdatedAssociateId": 383
+  "Registered": "2004-03-24T16:55:29.6644398+01:00",
+  "RegisteredAssociateId": 780,
+  "Updated": "2008-10-10T16:55:29.6644398+02:00",
+  "UpdatedAssociateId": 688
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 184,
+  "HierarchyId": 886,
   "Domain": "Dashboards",
-  "Name": "Crona Group",
-  "Fullname": "recusandae",
-  "ParentId": 437,
+  "Name": "Mraz, Abernathy and Schuppe",
+  "Fullname": "repellendus",
+  "ParentId": 900,
   "Children": [
     {
-      "HierarchyId": 621,
+      "HierarchyId": 480,
       "Domain": "Dashboards",
-      "Name": "VonRueden Inc and Sons",
-      "Fullname": "deserunt",
-      "ParentId": 23,
+      "Name": "Stark, Treutel and Heidenreich",
+      "Fullname": "quo",
+      "ParentId": 215,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-03-23T23:04:04.2395177+01:00",
-      "RegisteredAssociateId": 496,
-      "Updated": "2023-10-20T23:04:04.2395177+02:00",
-      "UpdatedAssociateId": 481,
+      "Registered": "2014-06-01T16:55:29.6654609+02:00",
+      "RegisteredAssociateId": 921,
+      "Updated": "2001-04-12T16:55:29.6654609+02:00",
+      "UpdatedAssociateId": 306,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldType": "System.String",
+          "FieldLength": 29
         }
       }
     }
   ],
-  "Registered": "2011-03-28T23:04:04.2395177+02:00",
-  "RegisteredAssociateId": 2,
-  "Updated": "2010-01-02T23:04:04.2395177+01:00",
-  "UpdatedAssociateId": 367,
+  "Registered": "2016-08-25T16:55:29.6654609+02:00",
+  "RegisteredAssociateId": 402,
+  "Updated": "2023-07-20T16:55:29.6654609+02:00",
+  "UpdatedAssociateId": 83,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 256
     }
   }
 }

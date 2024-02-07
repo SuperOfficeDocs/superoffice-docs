@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    566,
-    465
+    478,
+    775
   ],
-  "StartTime": "2008-04-01T23:03:54.5811476+02:00",
-  "EndTime": "2007-04-15T23:03:54.5811476+02:00"
+  "StartTime": "1996-11-24T16:54:54.2640202+01:00",
+  "EndTime": "2005-11-27T16:54:54.2640202+01:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 107,
-    "StartDate": "2020-04-13T23:03:54.5821478+02:00",
-    "EndDate": "2017-05-01T23:03:54.5821478+02:00",
+    "AppointmentId": 750,
+    "StartDate": "2003-02-04T16:54:54.2640202+01:00",
+    "EndDate": "2005-07-03T16:54:54.2640202+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sunt",
-    "AssociateFullName": "Miss Gerhard Turner",
-    "ContactName": "Jacobi Inc and Sons",
-    "Description": "Compatible 5th generation initiative",
-    "PersonFullName": "Cecelia Celine Kuhic Jr.",
-    "PersonId": 825,
-    "ContactId": 146,
-    "ProjectId": 391,
-    "ProjectName": "Mann LLC",
+    "Task": "exercitationem",
+    "AssociateFullName": "Nicklaus Bergstrom",
+    "ContactName": "Schmidt LLC",
+    "Description": "Pre-emptive scalable model",
+    "PersonFullName": "Jerrod Funk MD",
+    "PersonId": 724,
+    "ContactId": 27,
+    "ProjectId": 430,
+    "ProjectName": "Rempel LLC",
     "IsPublished": false,
-    "AssociateId": 650,
-    "ColorIndex": 48,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 34,
+    "ColorIndex": 401,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 819,
-    "PriorityName": "Gaylord-Torphy",
+    "PriorityId": 748,
+    "PriorityName": "Bernier-Wehner",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1996-11-10T23:03:54.58315+01:00",
+    "ActiveDate": "2015-09-09T16:54:54.2651213+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-10-03T23:03:54.58315+02:00",
-    "RecurringEndDate": "2006-10-11T23:03:54.58315+02:00",
-    "MotherId": 813,
-    "AssignedBy": 989,
-    "AssignedByFullName": "Viva Feil",
+    "RecurringStartDate": "2017-10-07T16:54:54.2651213+02:00",
+    "RecurringEndDate": "2007-07-16T16:54:54.2651213+02:00",
+    "MotherId": 652,
+    "AssignedBy": 242,
+    "AssignedByFullName": "Ms. Kelvin Mike Ritchie DDS",
     "RejectReason": "",
-    "Location": "sapiente",
-    "AlarmLeadTime": "ut",
-    "SaleId": 33,
-    "SaleName": "Rosenbaum-Schamberger",
-    "AssociateName": "Lynch Group",
-    "CreatedDate": "2024-01-13T23:03:54.58315+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Mercedes Aufderhar",
-    "CreatedByAssociateId": 160,
+    "Location": "delectus",
+    "AlarmLeadTime": "quidem",
+    "SaleId": 291,
+    "SaleName": "Beer-Medhurst",
+    "AssociateName": "Botsford-Aufderhar",
+    "CreatedDate": "2004-05-04T16:54:54.2651213+02:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Lilla McClure",
+    "CreatedByAssociateId": 885,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 503,
-    "Title": "aliquid",
-    "Agenda": "odio",
-    "InternalNotes": "sunt",
+    "PreferredTZLocation": 395,
+    "Title": "ea",
+    "Agenda": "sed",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

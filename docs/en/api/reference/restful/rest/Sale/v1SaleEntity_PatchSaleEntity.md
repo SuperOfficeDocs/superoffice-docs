@@ -97,20 +97,20 @@ SaleEntity  updated.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Appointment | Appointment | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
-| Associate | Associate | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
+| Appointment | Appointment | Simple read-only appointment data.  Carrier object for Appointment. Services for the Appointment Carrier is available from the Appointment Agent. |
+| Associate | Associate | The sale owner  Use MDO List name "associate" to get list items. |
 | UpdatedBy | Associate | Who updated the sale |
 | CreatedBy | Associate | Who created to sale |
-| Contact | Contact | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project | Project | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Contact | Contact | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  Use MDO List name "contact" to get list items. |
+| Project | Project | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  Use MDO List name "project" to get list items. |
 | SaleText | string | Text describing the sale |
-| Person | Person | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Currency | Currency | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
-| Competitor | Competitor | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
-| Credited | Credited | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
-| Rating | Rating | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
-| Reason | Reason | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
-| Source | Source | The sale source  <para>Use MDO List name "source" to get list items.</para> |
+| Person | Person | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  Use MDO List name "person" to get list items. |
+| Currency | Currency | The currency the sale object was sold in  Use MDO List name "currency" to get list items. |
+| Competitor | Competitor | List of all possible competitors.   Use MDO List name "comptr" to get list items. |
+| Credited | Credited | List of who is to be credited for the sale.  Use MDO List name "credited" to get list items. |
+| Rating | Rating | The sale rating  Use MDO List name "prob" to get list items. |
+| Reason | Reason | The sale reason  Use MDO List name "reason" to get list items. |
+| Source | Source | The sale source  Use MDO List name "source" to get list items. |
 | Status | string | The state of the Sale: Open / Sold / Lost / Stalled |
 | Saledate | date-time | (expected / lost / won) sales date |
 | Amount | double | Total sale amount |
@@ -127,15 +127,15 @@ SaleEntity  updated.
 | Links | array | List of all elements linked to the sale. |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| SaleType | SaleType | <para>Use MDO List name "saletype" to get list items.</para> |
-| ReasonSold | ReasonSold | <para>Use MDO List name "reasonsold" to get list items.</para> |
-| ReasonStalled | ReasonStalled | <para>Use MDO List name "reasonstalled" to get list items.</para> |
+| SaleType | SaleType | Use MDO List name "saletype" to get list items. |
+| ReasonSold | ReasonSold | Use MDO List name "reasonsold" to get list items. |
+| ReasonStalled | ReasonStalled | Use MDO List name "reasonstalled" to get list items. |
 | ReopenDate | date-time | Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate. |
 | SaleStakeholders | array |  |
 | ActiveErpLinks | int32 | The number of active erp links |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.SaleEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.SaleEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.SaleEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.SaleEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.SaleEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "minima",
+    "path": "esse",
     "value": {}
   },
   {
     "op": "add",
-    "path": "minima",
+    "path": "esse",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptatum",
+  "SaleText": "perspiciatis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-04-01T23:04:04.7305114+02:00",
-  "Amount": 1062.426,
-  "SaleId": 575,
-  "Earning": 29023.974,
-  "EarningPercent": 19101.73,
-  "Heading": "sunt",
-  "Number": "1306266",
-  "Probability": 656,
-  "CreatedDate": "2000-04-11T23:04:04.7305114+02:00",
-  "UpdatedDate": "1998-11-27T23:04:04.7305114+01:00",
+  "Saledate": "2009-06-03T16:55:30.0900159+02:00",
+  "Amount": 16923.6,
+  "SaleId": 563,
+  "Earning": 30177.286,
+  "EarningPercent": 17315.35,
+  "Heading": "et",
+  "Number": "1487704",
+  "Probability": 985,
+  "CreatedDate": "2010-09-11T16:55:30.0900159+02:00",
+  "UpdatedDate": "2018-09-04T16:55:30.0900159+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 145,
+  "ActiveLinks": 629,
   "Links": [
     {
-      "EntityName": "Hahn, Hirthe and Dickens",
-      "Id": 75,
-      "Description": "Re-contextualized coherent encryption",
-      "ExtraInfo": "ipsa",
-      "LinkId": 705,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2013-04-13T23:04:04.7305114+02:00",
-  "Postit": "nostrum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2004-07-13T23:04:04.7310105+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Brown-Leffler",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 732,
-      "CountryId": 775,
-      "PersonId": 400,
-      "EmailDescription": "olaf.weissnat@lowe.biz",
-      "EmailId": 672,
-      "EmailAddress": "bennie@schuppe.us",
-      "PhoneId": 440,
-      "ContactName": "DuBuque LLC",
-      "ContactId": 33,
-      "SaleId": 873,
-      "Mrmrs": "quia",
-      "Firstname": "Noemy",
-      "MiddleName": "Heathcote, O'Kon and Olson",
-      "Lastname": "DuBuque",
-      "SaleStakeholderId": 875,
-      "Rank": 276,
-      "Phone": "(389)774-3853",
+      "EntityName": "Halvorson, Hettinger and Roberts",
+      "Id": 433,
+      "Description": "Phased systemic toolset",
+      "ExtraInfo": "ipsum",
+      "LinkId": 638,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 735
+          "FieldLength": 428
         }
       }
     }
   ],
-  "ActiveErpLinks": 854,
+  "NextDueDate": "2008-06-14T16:55:30.0900159+02:00",
+  "Postit": "praesentium",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2009-08-11T16:55:30.0900159+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Zemlak-Kshlerin",
+      "Comment": "est",
+      "StakeholderRoleId": 538,
+      "CountryId": 937,
+      "PersonId": 983,
+      "EmailDescription": "tanya_bogan@hodkiewicz.uk",
+      "EmailId": 361,
+      "EmailAddress": "keeley.schmeler@bruen.name",
+      "PhoneId": 765,
+      "ContactName": "Block, Adams and Lemke",
+      "ContactId": 432,
+      "SaleId": 1002,
+      "Mrmrs": "omnis",
+      "Firstname": "Kenneth",
+      "MiddleName": "Beatty, Bins and Haley",
+      "Lastname": "Rohan",
+      "SaleStakeholderId": 993,
+      "Rank": 14,
+      "Phone": "1-595-157-4102",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 607
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 648,
   "UserDefinedFields": {
-    "SuperOffice:1": "Baron Rippin",
-    "SuperOffice:2": "519037316"
+    "SuperOffice:1": "583147084",
+    "SuperOffice:2": "Miss Ollie Lynch Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "nihil"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "1999-07-24T23:04:04.731511+02:00",
-  "PublishTo": "2002-01-15T23:04:04.731511+01:00",
-  "PublishFrom": "2020-06-24T23:04:04.731511+02:00",
+  "PublishEventDate": "1997-03-14T16:55:30.0910399+01:00",
+  "PublishTo": "2023-11-22T16:55:30.0910399+01:00",
+  "PublishFrom": "2016-08-09T16:55:30.0910399+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 502,
+      "VisibleId": 153,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 852
+          "FieldLength": 499
         }
       }
     },
     {
-      "VisibleId": 502,
+      "VisibleId": 153,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 852
+          "FieldLength": 499
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 837
     }
   },
   "_Links": {

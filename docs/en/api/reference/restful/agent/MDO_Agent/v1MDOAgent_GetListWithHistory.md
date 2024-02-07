@@ -88,18 +88,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reynolds LLC",
-  "ForceFlatList": true,
-  "AdditionalInfo": "soluta",
+  "Name": "Hirthe, Aufderhar and Senger",
+  "ForceFlatList": false,
+  "AdditionalInfo": "quia",
   "HistoryItems": [
-    452,
-    237
+    344,
+    28
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Gerlach, Mertz and Prosacco",
-    "ToolTip": "Et sit iste iure qui aut quidem.",
+    "Id": 766,
+    "Name": "Howe Group",
+    "ToolTip": "Illo ea voluptate ut eos id numquam necessitatibus.",
     "Deleted": false,
-    "Rank": 315,
-    "Type": "ea",
+    "Rank": 795,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Rath Group",
-        "ToolTip": "Quis facere nihil aut ab.",
-        "Deleted": false,
-        "Rank": 251,
-        "Type": "pariatur",
+        "Id": 268,
+        "Name": "Pagac-Padberg",
+        "ToolTip": "Voluptatem quia architecto suscipit ut sed quidem.",
+        "Deleted": true,
+        "Rank": 623,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 939,
-        "ExtraInfo": "ut",
-        "StyleHint": "hic",
-        "FullName": "Miss Edwin Bruen",
+        "IconHint": "recusandae",
+        "ColorBlock": 56,
+        "ExtraInfo": "ratione",
+        "StyleHint": "sunt",
+        "FullName": "Jarod Langworth Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 952
+            "FieldType": "System.String",
+            "FieldLength": 491
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 56,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "consequatur",
-    "FullName": "Jake Sauer",
+    "IconHint": "vel",
+    "ColorBlock": 231,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "rerum",
+    "FullName": "Karl Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 398
+        "FieldType": "System.Int32",
+        "FieldLength": 44
       }
     }
   }

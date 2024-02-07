@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    738,
-    91
+    369,
+    643
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 381,
-    "ColumnId": 411,
-    "FieldDefault": "ex",
-    "FieldHeight": 294,
-    "FieldLabel": "libero",
-    "FieldLeft": 176,
-    "FieldTop": 773,
+    "UDefFieldId": 39,
+    "ColumnId": 282,
+    "FieldDefault": "velit",
+    "FieldHeight": 845,
+    "FieldLabel": "praesentium",
+    "FieldLeft": 484,
+    "FieldTop": 115,
     "FieldType": "Checkbox",
-    "FieldWidth": 424,
-    "FormatMask": "laudantium",
+    "FieldWidth": 401,
+    "FormatMask": "hic",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 208,
-    "LabelLeft": 398,
-    "LabelTop": 708,
-    "LabelWidth": 199,
-    "LastVersionId": 259,
-    "ListTableId": 954,
+    "LabelHeight": 776,
+    "LabelLeft": 8,
+    "LabelTop": 624,
+    "LabelWidth": 425,
+    "LastVersionId": 709,
+    "ListTableId": 517,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 401,
-    "ProgId": "ullam",
-    "IsReadOnly": false,
-    "ShortLabel": "maxime",
-    "TabOrder": 301,
-    "TextLength": 70,
-    "Tooltip": "doloribus",
-    "UdefIdentity": 788,
-    "UDListDefinitionId": 880,
+    "Page1LineNo": 686,
+    "ProgId": "dolorem",
+    "IsReadOnly": true,
+    "ShortLabel": "possimus",
+    "TabOrder": 707,
+    "TextLength": 330,
+    "Tooltip": "quidem",
+    "UdefIdentity": 806,
+    "UDListDefinitionId": 998,
     "Justification": "Center",
-    "Version": 343,
-    "TemplateVariableName": "Sanford-Keeling",
-    "HasBeenPublished": false,
-    "MdoListName": "Botsford Inc and Sons",
+    "Version": 236,
+    "TemplateVariableName": "Sanford, Little and Konopelski",
+    "HasBeenPublished": true,
+    "MdoListName": "Parker-Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldType": "System.Int32",
+        "FieldLength": 169
       }
     }
   }

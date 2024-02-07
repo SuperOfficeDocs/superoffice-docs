@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 905,
-    "ColumnId": 282,
-    "FieldDefault": "omnis",
-    "FieldHeight": 33,
-    "FieldLabel": "dolores",
-    "FieldLeft": 1000,
-    "FieldTop": 270,
+    "UDefFieldId": 233,
+    "ColumnId": 787,
+    "FieldDefault": "debitis",
+    "FieldHeight": 959,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 719,
+    "FieldTop": 191,
     "FieldType": "Checkbox",
-    "FieldWidth": 618,
-    "FormatMask": "in",
-    "HideLabel": true,
+    "FieldWidth": 632,
+    "FormatMask": "sint",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 242,
-    "LabelLeft": 334,
-    "LabelTop": 751,
-    "LabelWidth": 585,
-    "LastVersionId": 322,
-    "ListTableId": 201,
+    "LabelHeight": 741,
+    "LabelLeft": 801,
+    "LabelTop": 919,
+    "LabelWidth": 307,
+    "LastVersionId": 164,
+    "ListTableId": 921,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 687,
-    "ProgId": "quas",
-    "IsReadOnly": false,
-    "ShortLabel": "earum",
-    "TabOrder": 374,
-    "TextLength": 660,
-    "Tooltip": "provident",
-    "UdefIdentity": 843,
-    "UDListDefinitionId": 789,
+    "Page1LineNo": 650,
+    "ProgId": "beatae",
+    "IsReadOnly": true,
+    "ShortLabel": "voluptas",
+    "TabOrder": 112,
+    "TextLength": 857,
+    "Tooltip": "odio",
+    "UdefIdentity": 46,
+    "UDListDefinitionId": 78,
     "Justification": "Center",
-    "Version": 661,
-    "TemplateVariableName": "Rodriguez, Monahan and O'Connell",
-    "HasBeenPublished": false,
-    "MdoListName": "Hayes Inc and Sons",
+    "Version": 328,
+    "TemplateVariableName": "Daugherty-Kemmer",
+    "HasBeenPublished": true,
+    "MdoListName": "Ortiz, Stark and Ortiz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldLength": 815
       }
     }
   }

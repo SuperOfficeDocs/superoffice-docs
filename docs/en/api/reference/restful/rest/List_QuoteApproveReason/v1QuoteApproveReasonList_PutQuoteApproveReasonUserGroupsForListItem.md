@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Rath, Emard and Olson",
-    "ToolTip": "Voluptas qui.",
-    "Deleted": false,
-    "Rank": 136,
-    "Type": "non",
-    "ColorBlock": 868,
-    "IconHint": "officiis",
+    "Id": 528,
+    "Name": "Hane-Stoltenberg",
+    "ToolTip": "Et maxime ut et quos consequatur.",
+    "Deleted": true,
+    "Rank": 22,
+    "Type": "aut",
+    "ColorBlock": 928,
+    "IconHint": "excepturi",
     "Selected": false,
-    "LastChanged": "2022-06-06T23:04:05.6969971+02:00",
+    "LastChanged": "1998-01-07T16:55:30.9776682+01:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Howe-Wisozk",
-        "ToolTip": "Qui et.",
-        "Deleted": true,
-        "Rank": 923,
-        "Type": "officia",
-        "ColorBlock": 593,
-        "IconHint": "error",
-        "Selected": true,
-        "LastChanged": "1999-08-27T23:04:05.6969971+02:00",
+        "Id": 912,
+        "Name": "Little LLC",
+        "ToolTip": "Magni non in ea libero.",
+        "Deleted": false,
+        "Rank": 534,
+        "Type": "at",
+        "ColorBlock": 359,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2011-12-25T16:55:30.978669+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "aut",
+        "ExtraInfo": "quis",
+        "StyleHint": "neque",
         "Hidden": true,
-        "FullName": "Emie Rice DDS"
+        "FullName": "Floyd Padberg"
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Ms. Meta Karolann Spencer"
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Mrs. Waldo Walsh V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Boyle-Kozey",
-    "ToolTip": "Sit saepe voluptatum omnis veritatis impedit.",
-    "Deleted": true,
-    "Rank": 397,
-    "Type": "omnis",
-    "ColorBlock": 330,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "1999-09-27T23:04:05.6984978+02:00",
+    "Id": 33,
+    "Name": "Terry-Mosciski",
+    "ToolTip": "Autem quia.",
+    "Deleted": false,
+    "Rank": 842,
+    "Type": "officiis",
+    "ColorBlock": 593,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "2011-04-22T16:55:30.9796722+02:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Abbott LLC",
-        "ToolTip": "Iure velit et facilis sed odio numquam fuga.",
-        "Deleted": true,
-        "Rank": 728,
-        "Type": "quia",
-        "ColorBlock": 751,
-        "IconHint": "consequuntur",
+        "Id": 490,
+        "Name": "Hane LLC",
+        "ToolTip": "Aut iusto aut minus voluptatibus.",
+        "Deleted": false,
+        "Rank": 348,
+        "Type": "nisi",
+        "ColorBlock": 800,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2023-02-27T23:04:05.6984978+01:00",
+        "LastChanged": "2019-07-17T16:55:30.9796722+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "autem",
-        "Hidden": true,
-        "FullName": "Kamille Hansen",
+        "ExtraInfo": "ut",
+        "StyleHint": "vero",
+        "Hidden": false,
+        "FullName": "Ana Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 572
+            "FieldType": "System.Int32",
+            "FieldLength": 715
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "aut",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Mrs. Gaston Bechtelar PhD",
+    "FullName": "Ms. Evie Jalon Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldType": "System.String",
+        "FieldLength": 48
       }
     }
   }

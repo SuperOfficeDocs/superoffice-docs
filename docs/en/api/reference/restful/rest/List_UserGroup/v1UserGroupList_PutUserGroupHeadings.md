@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 320,
-    "Name": "Wintheiser-Murphy",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "Rank": 450,
-    "UdListDefinitionId": 435
+    "HeadingId": 11,
+    "Name": "Heller-Connelly",
+    "Tooltip": "fuga",
+    "Deleted": true,
+    "Rank": 553,
+    "UdListDefinitionId": 295
   },
   {
-    "HeadingId": 320,
-    "Name": "Wintheiser-Murphy",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "Rank": 450,
-    "UdListDefinitionId": 435
+    "HeadingId": 11,
+    "Name": "Heller-Connelly",
+    "Tooltip": "fuga",
+    "Deleted": true,
+    "Rank": 553,
+    "UdListDefinitionId": 295
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 798,
-    "Name": "Abbott-Grimes",
-    "Tooltip": "corporis",
-    "Deleted": false,
-    "Rank": 243,
-    "UdListDefinitionId": 381,
+    "HeadingId": 694,
+    "Name": "Harris, Schaefer and White",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 994,
+    "UdListDefinitionId": 160,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 817
       }
     }
   }

@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ducimus",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ducimus",
+    "path": "et",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Herman, Tillman and Jacobi",
-  "Comment": "nesciunt",
-  "StakeholderRoleId": 627,
-  "CountryId": 126,
-  "PersonId": 152,
-  "EmailDescription": "keyshawn.metz@hilpertschmeler.us",
-  "EmailId": 453,
-  "EmailAddress": "lottie@larkin.biz",
-  "PhoneId": 420,
-  "ContactName": "Hagenes-Koch",
-  "ContactId": 635,
-  "SaleId": 708,
-  "Mrmrs": "et",
-  "Firstname": "Samara",
-  "MiddleName": "Hills Inc and Sons",
-  "Lastname": "Zieme",
-  "SaleStakeholderId": 735,
-  "Rank": 453,
-  "Phone": "1-142-594-2313 x941",
+  "StakeholderRoleName": "Gaylord-Cartwright",
+  "Comment": "praesentium",
+  "StakeholderRoleId": 679,
+  "CountryId": 312,
+  "PersonId": 455,
+  "EmailDescription": "elna@kuphalfisher.info",
+  "EmailId": 368,
+  "EmailAddress": "brock@tromp.co.uk",
+  "PhoneId": 354,
+  "ContactName": "Torphy Group",
+  "ContactId": 389,
+  "SaleId": 876,
+  "Mrmrs": "quia",
+  "Firstname": "Hershel",
+  "MiddleName": "Schamberger Inc and Sons",
+  "Lastname": "Rutherford",
+  "SaleStakeholderId": 988,
+  "Rank": 543,
+  "Phone": "(198)984-3261 x897",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 788
     }
   },
   "_Links": {

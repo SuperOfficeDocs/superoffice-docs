@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "omnis"
+  "Address": "repellendus"
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 828,
-    "ContactName": "Watsica-Sauer",
-    "PersonId": 402,
-    "PersonName": "Murphy Inc and Sons",
-    "AssociateId": 614,
-    "Address": "sit",
-    "EmailId": 813,
+    "ContactId": 860,
+    "ContactName": "Reichel Group",
+    "PersonId": 767,
+    "PersonName": "Rutherford, Renner and Sporer",
+    "AssociateId": 261,
+    "Address": "id",
+    "EmailId": 514,
     "DuplicatePersonIds": [
-      117,
-      356
+      335,
+      320
     ],
-    "Name": "Vandervort-Nienow",
+    "Name": "Hagenes-Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 736
       }
     }
   }

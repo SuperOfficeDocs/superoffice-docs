@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 428,
-  "ModuleOwner": "amet",
+  "AssociateId": 674,
+  "ModuleOwner": "in",
   "ModuleLicenseNames": [
-    "Tremblay-Johnston",
-    "Howell-Abernathy"
+    "Emard Group",
+    "Legros, Yundt and Cassin"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 5,
-    "Tooltip": "rerum",
+    "Total": 407,
+    "Tooltip": "quas",
     "CanAssign": true,
-    "Free": 685,
-    "InUse": 508,
-    "IsHidden": true,
+    "Free": 558,
+    "InUse": 515,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 463,
-    "Name": "Skiles, Feest and Jast",
-    "Description": "Profound hybrid parallelism",
-    "PrerequisiteModuleName": "Schumm, Hoeger and Shanahan",
-    "SortOrder": 107,
-    "ExtraFlags": 792,
+    "ModuleLicenseId": 930,
+    "Name": "Rodriguez LLC",
+    "Description": "Total modular data-warehouse",
+    "PrerequisiteModuleName": "Witting Inc and Sons",
+    "SortOrder": 443,
+    "ExtraFlags": 778,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

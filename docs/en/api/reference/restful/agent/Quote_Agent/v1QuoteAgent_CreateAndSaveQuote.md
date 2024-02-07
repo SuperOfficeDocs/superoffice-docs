@@ -91,9 +91,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 917,
-  "ConnectionId": 567,
-  "FirstAlternativeName": "Towne-Rice"
+  "SaleId": 572,
+  "ConnectionId": 418,
+  "FirstAlternativeName": "Streich Inc and Sons"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 354,
-  "SaleId": 14,
-  "QuoteConnectionId": 570,
-  "ERPQuoteKey": "consequuntur",
-  "ERPOrderKey": "dolor",
-  "ActiveQuoteVersionId": 86,
-  "AcceptedQuoteAlternativeId": 693,
-  "UseValuesFromQuote": 396,
-  "DocumentId": 425,
-  "PoNumber": "954243",
-  "OrderComment": "suscipit",
-  "PreferredEmailCulture": "deshawn@kuvalis.ca",
+  "QuoteId": 777,
+  "SaleId": 768,
+  "QuoteConnectionId": 169,
+  "ERPQuoteKey": "accusamus",
+  "ERPOrderKey": "inventore",
+  "ActiveQuoteVersionId": 590,
+  "AcceptedQuoteAlternativeId": 815,
+  "UseValuesFromQuote": 459,
+  "DocumentId": 60,
+  "PoNumber": "915106",
+  "OrderComment": "dolor",
+  "PreferredEmailCulture": "anabel_abshire@bednar.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 225,
-      "ERPQuoteVersionKey": "est",
-      "QuoteId": 524,
-      "Description": "Automated high-level groupware",
-      "Number": "1321551",
+      "QuoteVersionId": 705,
+      "ERPQuoteVersionKey": "perferendis",
+      "QuoteId": 593,
+      "Description": "Cloned scalable orchestration",
+      "Number": "1095238",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 561,
-      "SentDate": "1998-08-17T23:03:56.7861177+02:00",
-      "FollowupId": 207,
-      "ExpirationDate": "2022-12-29T23:03:56.7861177+01:00",
-      "DeliveryCountryId": 514,
+      "LikelyQuoteAlternativeId": 135,
+      "SentDate": "2003-07-09T16:54:56.1459355+02:00",
+      "FollowupId": 109,
+      "ExpirationDate": "2008-08-03T16:54:56.1459355+02:00",
+      "DeliveryCountryId": 671,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 445,
+      "InvoiceCountryId": 929,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "et",
-      "ERPPaymentTypeKey": "esse",
-      "ERPDeliveryTermsKey": "maxime",
-      "ERPDeliveryTypeKey": "quam",
-      "Rank": 882,
-      "ApprovedBy": 709,
-      "ApprovedText": "eius",
-      "ApprovedRegisteredBy": 347,
-      "ApprovedRegisteredDate": "2001-01-20T23:03:56.7861177+01:00",
-      "ExtraField1": "consequatur",
-      "ExtraField2": "et",
-      "ExtraField3": "ea",
-      "ExtraField4": "quam",
-      "ExtraField5": "eveniet",
-      "LastRecalculated": "2015-06-10T23:03:56.7861177+02:00",
-      "Updated": "1998-03-17T23:03:56.7861177+01:00",
-      "UpdatedAssociateId": 399,
-      "Registered": "2012-03-08T23:03:56.7861177+01:00",
-      "RegisteredAssociateId": 758,
-      "RequestAssociateId": 373,
-      "RequestComment": "qui",
+      "ERPPaymentTermsKey": "dolorem",
+      "ERPPaymentTypeKey": "eveniet",
+      "ERPDeliveryTermsKey": "voluptatum",
+      "ERPDeliveryTypeKey": "consequatur",
+      "Rank": 564,
+      "ApprovedBy": 977,
+      "ApprovedText": "cum",
+      "ApprovedRegisteredBy": 963,
+      "ApprovedRegisteredDate": "2022-06-20T16:54:56.1459355+02:00",
+      "ExtraField1": "molestiae",
+      "ExtraField2": "architecto",
+      "ExtraField3": "autem",
+      "ExtraField4": "perspiciatis",
+      "ExtraField5": "vel",
+      "LastRecalculated": "2002-11-17T16:54:56.1459355+01:00",
+      "Updated": "2014-04-11T16:54:56.1459355+02:00",
+      "UpdatedAssociateId": 951,
+      "Registered": "2011-12-27T16:54:56.1459355+01:00",
+      "RegisteredAssociateId": 153,
+      "RequestAssociateId": 624,
+      "RequestComment": "iusto",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 603
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 47
     }
   }
 }

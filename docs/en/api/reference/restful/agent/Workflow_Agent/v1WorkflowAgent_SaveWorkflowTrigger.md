@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 414,
-  "WorkflowId": 185,
+  "WorkflowTriggerId": 466,
+  "WorkflowId": 291,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Mann-Walter",
-      "Description": "Cross-platform client-driven analyzer",
-      "Rank": 509,
+      "Name": "Rohan LLC",
+      "Description": "Right-sized 24/7 hub",
+      "Rank": 692,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mann-Walter",
-      "Description": "Cross-platform client-driven analyzer",
-      "Rank": 509,
+      "Name": "Rohan LLC",
+      "Description": "Right-sized 24/7 hub",
+      "Rank": 692,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 321,
-  "WorkflowId": 869,
+  "WorkflowTriggerId": 478,
+  "WorkflowId": 544,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Hyatt, Stark and Douglas",
-      "Description": "Persistent background adapter",
-      "Rank": 415,
+      "Name": "Kohler, Parisian and Schimmel",
+      "Description": "Customizable client-driven parallelism",
+      "Rank": 998,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hyatt, Stark and Douglas",
-      "Description": "Persistent background adapter",
-      "Rank": 415,
+      "Name": "Kohler, Parisian and Schimmel",
+      "Description": "Customizable client-driven parallelism",
+      "Rank": 998,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 326
     }
   }
 }

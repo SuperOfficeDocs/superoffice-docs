@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Halvorson, Goldner and Hudson",
-    "ToolTip": "Nemo quae necessitatibus.",
+    "Id": 888,
+    "Name": "Marks Group",
+    "ToolTip": "Officiis voluptas soluta beatae laboriosam velit sed sed.",
     "Deleted": false,
-    "Rank": 737,
-    "Type": "velit",
-    "ColorBlock": 549,
-    "IconHint": "iusto",
+    "Rank": 204,
+    "Type": "expedita",
+    "ColorBlock": 917,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2017-10-11T23:04:05.750496+02:00",
+    "LastChanged": "2019-11-15T16:55:31.0201843+01:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Welch-Quitzon",
-        "ToolTip": "Id itaque in.",
-        "Deleted": true,
-        "Rank": 840,
-        "Type": "ipsa",
-        "ColorBlock": 588,
-        "IconHint": "quaerat",
+        "Id": 664,
+        "Name": "Gaylord LLC",
+        "ToolTip": "Inventore quaerat est.",
+        "Deleted": false,
+        "Rank": 788,
+        "Type": "voluptatem",
+        "ColorBlock": 237,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2022-10-30T23:04:05.7509958+01:00",
+        "LastChanged": "2010-05-29T16:55:31.0201843+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "saepe",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Eleanore Maynard Harris V",
+        "FullName": "Rhiannon Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldLength": 667
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "iure",
+    "ExtraInfo": "enim",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Martine Schamberger",
+    "FullName": "Patricia Nicolas PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldType": "System.Int32",
+        "FieldLength": 673
       }
     }
   }

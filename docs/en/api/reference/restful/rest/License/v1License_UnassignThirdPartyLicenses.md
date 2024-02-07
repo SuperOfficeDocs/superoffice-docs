@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 177,
-    "Tooltip": "nostrum",
+    "Unrestricted": false,
+    "Total": 532,
+    "Tooltip": "provident",
     "CanAssign": false,
-    "Free": 956,
-    "InUse": 645,
-    "IsHidden": true,
+    "Free": 342,
+    "InUse": 550,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 258,
-    "Name": "Keebler, Becker and Pagac",
-    "Description": "Up-sized demand-driven process improvement",
-    "PrerequisiteModuleName": "Balistreri-Turner",
-    "SortOrder": 5,
-    "ExtraFlags": 294,
+    "ModuleLicenseId": 840,
+    "Name": "Rau, Ziemann and Bednar",
+    "Description": "Cross-group responsive frame",
+    "PrerequisiteModuleName": "Mertz, Adams and Gorczany",
+    "SortOrder": 818,
+    "ExtraFlags": 805,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 579
       }
     }
   }

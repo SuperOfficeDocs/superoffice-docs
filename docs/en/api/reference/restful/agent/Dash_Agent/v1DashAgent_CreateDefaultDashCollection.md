@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 217,
-      "UniqueId": "perferendis",
-      "Name": "Mitchell, Mohr and Wuckert",
-      "Description": "Profound static internet solution",
-      "AssociateId": 766,
-      "Columns": 17,
+      "DashboardId": 456,
+      "UniqueId": "sed",
+      "Name": "Schumm Inc and Sons",
+      "Description": "Adaptive national product",
+      "AssociateId": 214,
+      "Columns": 859,
       "Theme": null,
-      "VisibleForAll": 126,
+      "VisibleForAll": 525,
       "VisibleForAssociates": [
-        774,
-        133
+        409,
+        677
       ],
       "VisibleForGroups": [
-        145,
-        842
+        838,
+        945
       ],
-      "PinForAll": 84,
+      "PinForAll": 468,
       "PinForAssociates": [
-        831,
-        733
+        586,
+        431
       ],
       "PinForGroups": [
-        660,
-        698
+        756,
+        297
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldType": "System.String",
+          "FieldLength": 984
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 236,
-      "UniqueId": "exercitationem",
-      "Name": "D'Amore, Abbott and Marks",
-      "Description": "Pre-emptive next generation internet solution",
-      "AssociateId": 17,
-      "Columns": 184,
+      "DashboardId": 718,
+      "UniqueId": "ullam",
+      "Name": "Gutkowski-Green",
+      "Description": "Total optimizing strategy",
+      "AssociateId": 472,
+      "Columns": 534,
       "Theme": null,
-      "VisibleForAll": 394,
+      "VisibleForAll": 810,
       "VisibleForAssociates": [
-        621,
-        483
+        30,
+        894
       ],
       "VisibleForGroups": [
-        293,
-        852
+        663,
+        772
       ],
-      "PinForAll": 825,
+      "PinForAll": 37,
       "PinForAssociates": [
-        526,
-        996
+        129,
+        699
       ],
       "PinForGroups": [
-        903,
-        989
+        970,
+        705
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 769
+          "FieldLength": 498
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 146,
-      "UniqueId": "quia",
-      "Name": "Kulas Group",
-      "Description": "Universal full-range leverage",
-      "AssociateId": 974,
-      "Columns": 645,
+      "DashboardId": 246,
+      "UniqueId": "accusamus",
+      "Name": "Bartoletti Group",
+      "Description": "Face to face national analyzer",
+      "AssociateId": 260,
+      "Columns": 137,
       "Theme": null,
-      "VisibleForAll": 956,
+      "VisibleForAll": 97,
       "VisibleForAssociates": [
-        173,
-        205
+        658,
+        32
       ],
       "VisibleForGroups": [
-        561,
-        581
+        90,
+        84
       ],
-      "PinForAll": 128,
+      "PinForAll": 605,
       "PinForAssociates": [
-        446,
-        351
+        267,
+        247
       ],
       "PinForGroups": [
-        620,
-        987
+        503,
+        344
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldLength": 237
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldType": "System.String",
+      "FieldLength": 694
     }
   }
 }

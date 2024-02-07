@@ -72,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 221,
-  "Type": "qui",
-  "PublicValue": "eaque"
+  "AssociateId": 960,
+  "Type": "dolorem",
+  "PublicValue": "rerum"
 }
 ```
 

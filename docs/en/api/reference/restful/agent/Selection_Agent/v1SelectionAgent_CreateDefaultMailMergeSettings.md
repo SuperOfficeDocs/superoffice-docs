@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 962,
-  "DocumentId": 623,
+  "SelectionId": 83,
+  "DocumentId": 231,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "neque",
-  "AlwaysUseCustomAttention": true,
+  "CustomAttention": "qui",
+  "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "nobis",
+  "CustomMailBody": "sunt",
   "TaskEntity": null,
-  "AddCompanyInterest": 841,
-  "AddPersonInterest": 212,
-  "RemoveCompanyInterest": 829,
-  "RemovePersonInterest": 918,
+  "AddCompanyInterest": 386,
+  "AddPersonInterest": 973,
+  "RemoveCompanyInterest": 945,
+  "RemovePersonInterest": 175,
   "IncludeNoMailingsRecipient": false,
-  "TestOnly": false,
-  "ProjectId": 57,
+  "TestOnly": true,
+  "ProjectId": 644,
   "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": true,
-  "CustomMailSubject": "aut",
-  "ExtraInfo": "sit",
-  "Synchronous": true,
-  "IsTemporarySelection": true,
+  "CustomMailSubject": "expedita",
+  "ExtraInfo": "quam",
+  "Synchronous": false,
+  "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldType": "System.Int32",
+      "FieldLength": 56
     }
   }
 }

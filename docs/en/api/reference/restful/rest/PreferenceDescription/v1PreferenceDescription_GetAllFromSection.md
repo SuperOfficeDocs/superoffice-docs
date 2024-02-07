@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 237,
-    "Section": "ea",
-    "Key": "pariatur",
-    "Name": "Frami LLC",
+    "PrefDescId": 485,
+    "Section": "consectetur",
+    "Key": "quia",
+    "Name": "Gislason, Fay and Friesen",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persistent secondary secured line",
+    "Description": "Synergistic systematic Graphical User Interface",
     "IsBuiltin": false,
-    "TableName": "Ruecker LLC",
-    "UserDefinedListId": 726,
-    "Rank": 155,
-    "SubGroup": "et",
-    "MinLevel": 358,
-    "MaxValue": 744,
-    "MinValue": 829,
-    "RequiredLicense": "id",
+    "TableName": "Boyer Group",
+    "UserDefinedListId": 305,
+    "Rank": 654,
+    "SubGroup": "omnis",
+    "MinLevel": 788,
+    "MaxValue": 406,
+    "MinValue": 819,
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 195
       }
     }
   }

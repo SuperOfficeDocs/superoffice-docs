@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gulgowski Group",
-    "Operator": "exercitationem",
+    "Name": "Smitham LLC",
+    "Operator": "voluptatum",
     "Values": [
-      "eum",
-      "temporibus"
+      "unde",
+      "maiores"
     ],
     "DisplayValues": [
-      "architecto",
-      "expedita"
+      "facere",
+      "enim"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ferry Group",
-        "Operator": "in",
+        "Name": "Herman LLC",
+        "Operator": "nostrum",
         "Values": [
-          "ducimus",
-          "id"
+          "non",
+          "consectetur"
         ],
         "DisplayValues": [
-          "laudantium",
-          "pariatur"
+          "omnis",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 365,
+        "InterParenthesis": 64,
         "InterOperator": "And",
-        "UniqueHash": 7
+        "UniqueHash": 60
       }
     ],
-    "InterParenthesis": 477,
+    "InterParenthesis": 930,
     "InterOperator": "And",
-    "UniqueHash": 797
+    "UniqueHash": 761
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Spinka, Frami and Purdy",
-    "Operator": "perspiciatis",
+    "Name": "Nader-Waters",
+    "Operator": "dolorem",
     "Values": [
-      "qui",
-      "sapiente"
-    ],
-    "DisplayValues": [
-      "maxime",
+      "commodi",
       "et"
     ],
+    "DisplayValues": [
+      "est",
+      "accusantium"
+    ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Lind-Zieme",
-        "Operator": "blanditiis",
+        "Name": "Walker-Sauer",
+        "Operator": "occaecati",
         "Values": [
-          "veritatis",
-          "non"
-        ],
-        "DisplayValues": [
-          "expedita",
+          "mollitia",
           "mollitia"
         ],
+        "DisplayValues": [
+          "labore",
+          "eveniet"
+        ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 588,
+        "InterParenthesis": 431,
         "InterOperator": "And",
-        "UniqueHash": 168
+        "UniqueHash": 346
       }
     ],
-    "InterParenthesis": 83,
+    "InterParenthesis": 356,
     "InterOperator": "And",
-    "UniqueHash": 647
+    "UniqueHash": 435
   }
 ]
 ```

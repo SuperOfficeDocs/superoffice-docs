@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Conroy, Cruickshank and Kertzmann",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "UdListDefinitionId": 678,
-  "Rank": 546,
+  "Id": 749,
+  "Name": "Little Group",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "UdListDefinitionId": 575,
+  "Rank": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 15
+      "FieldLength": 969
     }
   }
 }

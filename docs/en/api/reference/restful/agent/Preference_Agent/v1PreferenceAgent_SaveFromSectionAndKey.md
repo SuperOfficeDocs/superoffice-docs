@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "labore",
-  "Key": "perspiciatis",
+  "Section": "voluptatum",
+  "Key": "nostrum",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 918,
-  "Section": "dolor",
-  "Key": "praesentium",
-  "Name": "Kuvalis, Mohr and Ledner",
+  "PrefDescId": 819,
+  "Section": "est",
+  "Key": "impedit",
+  "Name": "Stracke, Marks and D'Amore",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Integrated background moderator",
-  "IsBuiltin": false,
-  "TableName": "Roob LLC",
-  "UserDefinedListId": 213,
-  "Rank": 687,
-  "SubGroup": "suscipit",
-  "MinLevel": 614,
-  "MaxValue": 87,
-  "MinValue": 276,
-  "RequiredLicense": "autem",
+  "Description": "Distributed multi-state groupware",
+  "IsBuiltin": true,
+  "TableName": "Romaguera, Weimann and Mayer",
+  "UserDefinedListId": 931,
+  "Rank": 626,
+  "SubGroup": "fugiat",
+  "MinLevel": 264,
+  "MaxValue": 676,
+  "MinValue": 435,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 524
     }
   }
 }

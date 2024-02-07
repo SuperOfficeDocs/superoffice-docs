@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 36,
-  "Currency": "maxime"
+  "QuoteConnectionId": 444,
+  "Currency": "recusandae"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 410,
-    "ERPPriceListKey": "earum",
-    "QuoteConnectionId": 205,
-    "Name": "Bosco, Goodwin and Pouros",
-    "Description": "Reduced web-enabled benchmark",
-    "Currency": "id",
-    "CurrencyName": "Zemlak-Gorczany",
-    "ValidFrom": "1999-09-06T23:03:56.7811186+02:00",
-    "ValidTo": "2011-08-26T23:03:56.7811186+02:00",
-    "IsActive": true,
+    "PriceListId": 538,
+    "ERPPriceListKey": "quos",
+    "QuoteConnectionId": 36,
+    "Name": "Nitzsche-Robel",
+    "Description": "Multi-lateral homogeneous projection",
+    "Currency": "qui",
+    "CurrencyName": "Walter, Wuckert and Block",
+    "ValidFrom": "2007-10-10T16:54:56.1411407+02:00",
+    "ValidTo": "2016-03-18T16:54:56.1411407+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldLength": 916
       }
     }
   }

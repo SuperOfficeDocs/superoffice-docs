@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kulas LLC",
-  "Id": 301,
+  "TableName": "Kohler, Huel and Roob",
+  "Id": 715,
   "Values": {
-    "Values1": "voluptatem",
+    "Values1": "tempore",
     "Values2": "vel"
   }
 }

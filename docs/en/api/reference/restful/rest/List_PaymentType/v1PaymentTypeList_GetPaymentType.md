@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 610,
-  "Name": "Thompson, Johnson and Tremblay",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "UdListDefinitionId": 161,
-  "Rank": 230,
+  "Id": 17,
+  "Name": "Kessler Group",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "UdListDefinitionId": 636,
+  "Rank": 952,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   }
 }

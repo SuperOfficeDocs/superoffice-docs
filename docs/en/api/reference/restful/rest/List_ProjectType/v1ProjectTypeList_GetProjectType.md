@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 11,
-  "Name": "Rowe Group",
-  "Tooltip": "dolor",
+  "Id": 563,
+  "Name": "Borer Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 91,
-  "Rank": 903,
+  "UdListDefinitionId": 717,
+  "Rank": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldLength": 891
     }
   }
 }

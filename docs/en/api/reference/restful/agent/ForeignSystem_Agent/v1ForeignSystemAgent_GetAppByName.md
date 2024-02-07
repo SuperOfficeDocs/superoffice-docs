@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Harber Group"
+  "ApplicationName": "Muller, Becker and Kuhic"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 898,
-  "Name": "Rogahn Group",
-  "CreatedDate": "2004-05-25T23:03:56.1061274+02:00",
-  "UpdatedDate": "1999-02-07T23:03:56.1061274+01:00",
+  "ForeignAppId": 6,
+  "Name": "Heidenreich LLC",
+  "CreatedDate": "2018-05-28T16:54:55.4784689+02:00",
+  "UpdatedDate": "2018-07-05T16:54:55.4784689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 448,
-      "Name": "Kulas, Padberg and Dibbert",
-      "CreatedDate": "2021-06-09T23:03:56.1081278+02:00",
-      "UpdatedDate": "2017-04-28T23:03:56.1081278+02:00",
-      "AssociateFullName": "Mrs. Rollin Schultz",
-      "CreatedBy": "molestiae",
-      "UpdatedBy": "praesentium",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 190,
+      "ForeignDeviceId": 292,
+      "Name": "Feest LLC",
+      "CreatedDate": "2004-12-21T16:54:55.4794679+01:00",
+      "UpdatedDate": "2011-10-30T16:54:55.4794679+01:00",
+      "AssociateFullName": "Gilda D'Amore",
+      "CreatedBy": "provident",
+      "UpdatedBy": "fuga",
+      "DeviceIdentifier": "rerum",
+      "ForeignAppId": 782,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldLength": 237
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldLength": 592
     }
   }
 }

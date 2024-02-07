@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 577,
+  "MailInFilterId": 992,
   "ServerType": "Facebook",
-  "Address": "aut",
-  "Username": "ea",
-  "Password": "omnis",
-  "Server": "fuga",
-  "Port": 1002,
+  "Address": "odit",
+  "Username": "dicta",
+  "Password": "incidunt",
+  "Server": "voluptas",
+  "Port": 577,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldLength": 286
     }
   }
 }

@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 360,
-  "PlainMessage": "molestiae",
-  "HtmlMessage": "ea",
-  "SmsMessage": "dolore",
-  "Description": "Inverse mobile solution",
-  "Subject": "vero",
-  "FolderId": 549,
-  "HeaderField": "dolore",
-  "Design": "nam",
+  "ShipmentMessageId": 140,
+  "PlainMessage": "aperiam",
+  "HtmlMessage": "saepe",
+  "SmsMessage": "dolorem",
+  "Description": "Reverse-engineered empowering application",
+  "Subject": "odio",
+  "FolderId": 169,
+  "HeaderField": "minima",
+  "Design": "voluptate",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Cross-group holistic flexibility",
-  "AccessKey": "omnis",
-  "DocumentMessage": 280,
-  "Registered": "2000-10-18T23:04:04.8040098+02:00",
-  "RegisteredAssociateId": 783,
-  "Updated": "1997-08-19T23:04:04.8040098+02:00",
-  "UpdatedAssociateId": 801,
-  "UpdatedCount": 546
+  "InlineImages": true,
+  "LongDescription": "Profound needs-based instruction set",
+  "AccessKey": "mollitia",
+  "DocumentMessage": 408,
+  "Registered": "2003-07-03T16:55:30.1430216+02:00",
+  "RegisteredAssociateId": 216,
+  "Updated": "2017-12-01T16:55:30.1430216+01:00",
+  "UpdatedAssociateId": 600,
+  "UpdatedCount": 260
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 266,
-  "PlainMessage": "est",
-  "HtmlMessage": "porro",
-  "SmsMessage": "tenetur",
-  "Description": "Function-based user-facing artificial intelligence",
-  "Subject": "soluta",
-  "FolderId": 538,
-  "HeaderField": "reprehenderit",
-  "Design": "est",
+  "ShipmentMessageId": 693,
+  "PlainMessage": "a",
+  "HtmlMessage": "explicabo",
+  "SmsMessage": "maxime",
+  "Description": "Switchable multimedia local area network",
+  "Subject": "aliquid",
+  "FolderId": 824,
+  "HeaderField": "voluptas",
+  "Design": "non",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Upgradable multi-tasking product",
-  "AccessKey": "deserunt",
-  "DocumentMessage": 90,
-  "Registered": "1999-04-05T23:04:04.8044794+02:00",
-  "RegisteredAssociateId": 636,
-  "Updated": "2013-12-15T23:04:04.8044794+01:00",
-  "UpdatedAssociateId": 687,
-  "UpdatedCount": 985,
+  "LongDescription": "Monitored well-modulated synergy",
+  "AccessKey": "laboriosam",
+  "DocumentMessage": 291,
+  "Registered": "2012-03-01T16:55:30.1440215+01:00",
+  "RegisteredAssociateId": 1002,
+  "Updated": "2022-08-17T16:55:30.1440215+02:00",
+  "UpdatedAssociateId": 629,
+  "UpdatedCount": 125,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldLength": 665
     }
   },
   "_Links": {

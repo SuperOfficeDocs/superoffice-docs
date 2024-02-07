@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 854,
-    "FieldName": "Price Group",
-    "Label": "quidem",
-    "Tooltip": "beatae",
+    "QuoteLineConfigurationId": 341,
+    "FieldName": "Collins Group",
+    "Label": "quod",
+    "Tooltip": "error",
     "Editable": false,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 73,
+    "Mandatory": true,
+    "Rank": 613,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 609
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

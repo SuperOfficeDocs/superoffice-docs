@@ -121,8 +121,8 @@ OK
 | EnrollmentEnd | string | Do not enroll more participant after given time. In [DT: ] format, interpreted in workflow time zone |
 | RemoveFromFlows | array | Workflows to remove the participants from when they are enrolled in this workflow |
 | TzLocation | TimeZoneData | The workflow timezone setting |
-| Folder | HierarchyEntity | The folder/hierarchy the email flow is in.  <para>Use MDO List name "hierarchy" to get list items.</para> |
-| Associate | Associate | The owner of the workflow.  <para>Use MDO List name "associate" to get list items.</para> |
+| Folder | HierarchyEntity | The folder/hierarchy the email flow is in.  Use MDO List name "hierarchy" to get list items. |
+| Associate | Associate | The owner of the workflow.  Use MDO List name "associate" to get list items. |
 | ShipmentType | MDOListItem | The Shipment type (mailing type) |
 | Steps | array | The steps in the workflow, mainline steps - forking steps are indicated by its WorkflowStepType. |
 | Triggers | array | The triggers for the workflow. |
@@ -145,38 +145,38 @@ OK
 POST /api/v1/Agents/Workflow/SaveEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 505,
-  "Name": "Hessel-Larkin",
-  "Description": "Decentralized motivating local area network",
+  "EmailFlowId": 987,
+  "Name": "Breitenberg, Senger and Hettinger",
+  "Description": "Pre-emptive multi-state groupware",
   "Status": "None",
-  "JumpToFinish": false,
+  "JumpToFinish": true,
   "StartOnlyOnce": false,
-  "OverrideConsentSubscription": false,
+  "OverrideConsentSubscription": true,
   "FromType": "FromOnlySpecified",
-  "FromName": "Larkin-Jaskolski",
-  "FromAddr": "eveniet",
+  "FromName": "Howe, Schulist and Watsica",
+  "FromAddr": "architecto",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "sunt",
-  "ReplyToName": "Kuphal Inc and Sons",
-  "SmsSender": "voluptatum",
-  "UseGoogleAnalytics": false,
-  "GaSource": "corrupti",
-  "GaCampaign": "molestias",
-  "UseTimeframe": false,
+  "ReplyToAddr": "repellendus",
+  "ReplyToName": "Barton, Sauer and Wuckert",
+  "SmsSender": "sit",
+  "UseGoogleAnalytics": true,
+  "GaSource": "aliquam",
+  "GaCampaign": "suscipit",
+  "UseTimeframe": true,
   "SelectedDays": "Friday",
-  "TimeframeStart": "sed",
-  "TimeframeEnd": "voluptatibus",
-  "UseWorkflowStart": false,
-  "WorkflowStart": "assumenda",
-  "UseEnrollmentEnd": true,
-  "EnrollmentEnd": "ex",
+  "TimeframeStart": "doloribus",
+  "TimeframeEnd": "assumenda",
+  "UseWorkflowStart": true,
+  "WorkflowStart": "fugit",
+  "UseEnrollmentEnd": false,
+  "EnrollmentEnd": "et",
   "RemoveFromFlows": [
-    386,
-    618
+    170,
+    233
   ],
   "TzLocation": null,
   "Folder": null,
@@ -184,22 +184,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 761,
-      "WorkflowId": 730,
+      "WorkflowStepId": 481,
+      "WorkflowId": 493,
       "StepType": "AddToList",
-      "Rank": 719
+      "Rank": 85
     },
     {
-      "WorkflowStepId": 761,
-      "WorkflowId": 730,
+      "WorkflowStepId": 481,
+      "WorkflowId": 493,
       "StepType": "AddToList",
-      "Rank": 719
+      "Rank": 85
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 166,
-      "WorkflowId": 626,
+      "WorkflowTriggerId": 184,
+      "WorkflowId": 170,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -207,8 +207,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "WorkflowTriggerId": 166,
-      "WorkflowId": 626,
+      "WorkflowTriggerId": 184,
+      "WorkflowId": 170,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 719,
-      "WorkflowId": 875,
+      "WorkflowGoalId": 461,
+      "WorkflowId": 185,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "WorkflowGoalId": 719,
-      "WorkflowId": 875,
+      "WorkflowGoalId": 461,
+      "WorkflowId": 185,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -238,25 +238,25 @@ Content-Type: application/json; charset=utf-8
   ],
   "Filter": null,
   "BlockLists": [
-    303,
-    582
+    468,
+    694
   ],
-  "ExitFlowId": 112,
-  "ExitSuccessFlowId": 662,
+  "ExitFlowId": 782,
+  "ExitSuccessFlowId": 731,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-09-23T23:03:57.6726067+02:00",
-  "UpdatedDate": "2016-05-13T23:03:57.6726067+02:00",
+  "CreatedDate": "2002-07-27T16:54:56.7547335+02:00",
+  "UpdatedDate": "2016-09-10T16:54:56.7547335+02:00",
   "VisibleFor": [
     {
-      "VisibleId": 959,
+      "VisibleId": 505,
       "Visibility": "All",
-      "DisplayValue": "reiciendis"
+      "DisplayValue": "blanditiis"
     },
     {
-      "VisibleId": 959,
+      "VisibleId": 505,
       "Visibility": "All",
-      "DisplayValue": "reiciendis"
+      "DisplayValue": "blanditiis"
     }
   ]
 }
@@ -269,34 +269,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 597,
-  "Name": "West-Marvin",
-  "Description": "Configurable zero tolerance application",
+  "EmailFlowId": 926,
+  "Name": "Bogisich-Botsford",
+  "Description": "Intuitive non-volatile help-desk",
   "Status": "None",
-  "JumpToFinish": true,
-  "StartOnlyOnce": false,
-  "OverrideConsentSubscription": false,
+  "JumpToFinish": false,
+  "StartOnlyOnce": true,
+  "OverrideConsentSubscription": true,
   "FromType": "FromOnlySpecified",
-  "FromName": "O'Kon-Feeney",
-  "FromAddr": "nostrum",
+  "FromName": "Spinka Inc and Sons",
+  "FromAddr": "quis",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "in",
-  "ReplyToName": "Larson-Christiansen",
-  "SmsSender": "labore",
+  "ReplyToAddr": "quibusdam",
+  "ReplyToName": "Runolfsdottir-Feest",
+  "SmsSender": "eum",
   "UseGoogleAnalytics": false,
-  "GaSource": "deserunt",
-  "GaCampaign": "et",
+  "GaSource": "ipsam",
+  "GaCampaign": "dolorem",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "nisi",
-  "TimeframeEnd": "tempore",
-  "UseWorkflowStart": true,
-  "WorkflowStart": "porro",
+  "TimeframeStart": "dolorem",
+  "TimeframeEnd": "qui",
+  "UseWorkflowStart": false,
+  "WorkflowStart": "nam",
   "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "ex",
+  "EnrollmentEnd": "dolor",
   "RemoveFromFlows": [
-    47,
-    639
+    262,
+    109
   ],
   "TzLocation": null,
   "Folder": null,
@@ -304,22 +304,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 880,
-      "WorkflowId": 105,
+      "WorkflowStepId": 428,
+      "WorkflowId": 856,
       "StepType": "AddToList",
-      "Rank": 40
+      "Rank": 656
     },
     {
-      "WorkflowStepId": 880,
-      "WorkflowId": 105,
+      "WorkflowStepId": 428,
+      "WorkflowId": 856,
       "StepType": "AddToList",
-      "Rank": 40
+      "Rank": 656
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 733,
-      "WorkflowId": 726,
+      "WorkflowTriggerId": 742,
+      "WorkflowId": 251,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -330,13 +330,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 844
         }
       }
     },
     {
-      "WorkflowTriggerId": 733,
-      "WorkflowId": 726,
+      "WorkflowTriggerId": 742,
+      "WorkflowId": 251,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -347,15 +347,15 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 844
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 932,
-      "WorkflowId": 227,
+      "WorkflowGoalId": 303,
+      "WorkflowId": 717,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -371,8 +371,8 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "WorkflowGoalId": 932,
-      "WorkflowId": 227,
+      "WorkflowGoalId": 303,
+      "WorkflowId": 717,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -390,39 +390,39 @@ Content-Type: application/json; charset=utf-8
   ],
   "Filter": null,
   "BlockLists": [
-    443,
-    13
+    407,
+    396
   ],
-  "ExitFlowId": 740,
-  "ExitSuccessFlowId": 870,
+  "ExitFlowId": 110,
+  "ExitSuccessFlowId": 655,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-09-27T23:03:57.6776072+02:00",
-  "UpdatedDate": "2005-01-23T23:03:57.6776072+01:00",
+  "CreatedDate": "2018-05-23T16:54:56.7582493+02:00",
+  "UpdatedDate": "1998-08-20T16:54:56.7582493+02:00",
   "VisibleFor": [
     {
-      "VisibleId": 485,
+      "VisibleId": 178,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 78
         }
       }
     },
     {
-      "VisibleId": 485,
+      "VisibleId": 178,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 78
         }
       }
     }
@@ -431,8 +431,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 402
     }
   }
 }

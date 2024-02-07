@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 534
+  "QuoteVersionId": 20
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 77,
-  "ERPQuoteVersionKey": "reiciendis",
-  "QuoteId": 803,
-  "Description": "Multi-tiered high-level ability",
-  "Number": "339666",
+  "QuoteVersionId": 930,
+  "ERPQuoteVersionKey": "nisi",
+  "QuoteId": 318,
+  "Description": "Universal global hierarchy",
+  "Number": "1199849",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 8,
-  "SentDate": "2014-08-11T23:03:56.7171186+02:00",
-  "FollowupId": 981,
-  "ExpirationDate": "2018-08-13T23:03:56.7171186+02:00",
-  "DeliveryCountryId": 748,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 820,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "quos",
-  "ERPPaymentTypeKey": "consectetur",
-  "ERPDeliveryTermsKey": "et",
-  "ERPDeliveryTypeKey": "maiores",
-  "Rank": 896,
-  "ApprovedBy": 861,
-  "ApprovedText": "error",
-  "ApprovedRegisteredBy": 398,
-  "ApprovedRegisteredDate": "2010-09-27T23:03:56.7171186+02:00",
-  "ExtraField1": "modi",
-  "ExtraField2": "quidem",
+  "LikelyQuoteAlternativeId": 594,
+  "SentDate": "2008-09-23T16:54:56.0951594+02:00",
+  "FollowupId": 239,
+  "ExpirationDate": "2005-05-09T16:54:56.0951594+02:00",
+  "DeliveryCountryId": 173,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 920,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "ex",
+  "ERPPaymentTypeKey": "doloribus",
+  "ERPDeliveryTermsKey": "mollitia",
+  "ERPDeliveryTypeKey": "autem",
+  "Rank": 359,
+  "ApprovedBy": 369,
+  "ApprovedText": "voluptatum",
+  "ApprovedRegisteredBy": 854,
+  "ApprovedRegisteredDate": "2014-10-29T16:54:56.0951594+01:00",
+  "ExtraField1": "sint",
+  "ExtraField2": "alias",
   "ExtraField3": "et",
-  "ExtraField4": "sit",
-  "ExtraField5": "quae",
-  "LastRecalculated": "1997-12-16T23:03:56.7171186+01:00",
-  "Updated": "2001-07-23T23:03:56.7171186+02:00",
-  "UpdatedAssociateId": 27,
-  "Registered": "2008-02-03T23:03:56.7171186+01:00",
-  "RegisteredAssociateId": 130,
-  "RequestAssociateId": 664,
-  "RequestComment": "quia",
+  "ExtraField4": "facilis",
+  "ExtraField5": "labore",
+  "LastRecalculated": "2020-07-16T16:54:56.0951594+02:00",
+  "Updated": "2007-06-07T16:54:56.0951594+02:00",
+  "UpdatedAssociateId": 253,
+  "Registered": "2004-01-29T16:54:56.0951594+01:00",
+  "RegisteredAssociateId": 546,
+  "RequestAssociateId": 785,
+  "RequestComment": "ipsa",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 71,
-      "ERPQuoteAlternativeKey": "saepe",
-      "QuoteVersionId": 634,
-      "Name": "Deckow, Mayer and Cassin",
-      "Description": "Persevering optimal projection",
+      "QuoteAlternativeId": 259,
+      "ERPQuoteAlternativeKey": "et",
+      "QuoteVersionId": 241,
+      "Name": "Klocko, Tillman and Sipes",
+      "Description": "Face to face tertiary initiative",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 11821.448,
-      "ERPDiscountAmount": 28325.092,
-      "DiscountPercent": 27334.748,
-      "DiscountAmount": 27243.861999999997,
+      "ERPDiscountPercent": 19806.88,
+      "ERPDiscountAmount": 3152.804,
+      "DiscountPercent": 29961.039999999997,
+      "DiscountAmount": 22505.254,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "eos",
-      "VAT": 10198.036,
-      "EarningPercent": 9458.412,
-      "EarningAmount": 2817.466,
-      "SubTotal": 10141.624,
-      "TotalPrice": 1228.528,
-      "ExtraField1": "consequatur",
-      "ExtraField2": "unde",
-      "ExtraField3": "et",
-      "ExtraField4": "qui",
-      "ExtraField5": "corrupti",
+      "VATInfo": "qui",
+      "VAT": 26256.652,
+      "EarningPercent": 14372.524,
+      "EarningAmount": 448.162,
+      "SubTotal": 21069.881999999998,
+      "TotalPrice": 2688.9719999999998,
+      "ExtraField1": "architecto",
+      "ExtraField2": "aperiam",
+      "ExtraField3": "non",
+      "ExtraField4": "nulla",
+      "ExtraField5": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldType": "System.Int32",
+          "FieldLength": 605
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 799
     }
   }
 }

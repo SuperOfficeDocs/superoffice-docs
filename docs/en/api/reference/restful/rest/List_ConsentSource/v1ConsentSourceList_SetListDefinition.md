@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 48,
-  "Name": "Windler, Kling and Heller",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 80,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "Id": 660,
+  "Name": "Wolf LLC",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 34,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "commodi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 377,
-  "Name": "Bechtelar-Rutherford",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 563,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "Id": 140,
+  "Name": "Boyle Inc and Sons",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 247,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldLength": 547
     }
   }
 }

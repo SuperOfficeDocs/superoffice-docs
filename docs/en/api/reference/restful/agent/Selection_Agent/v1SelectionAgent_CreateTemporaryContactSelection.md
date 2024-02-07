@@ -60,7 +60,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse clear-thinking data-warehouse",
-  "Postit": "non",
+  "Description": "Optimized tangible time-frame",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 971,
-  "IncludePerson": 222,
-  "MemberCount": 864,
-  "Name": "Price, Streich and Turcotte",
-  "PostitTextId": 405,
-  "CreatedDate": "1999-03-31T23:03:57.130113+02:00",
-  "SelectionId": 56,
-  "SoundEx": "earum",
-  "Source": 513,
-  "TextId": 183,
-  "UpdatedDate": "2013-02-07T23:03:57.130113+01:00",
-  "UpdatedCount": 512,
-  "Visibility": 343,
+  "GroupIdx": 799,
+  "IncludePerson": 319,
+  "MemberCount": 190,
+  "Name": "Marks Group",
+  "PostitTextId": 135,
+  "CreatedDate": "2020-06-24T16:54:56.313619+02:00",
+  "SelectionId": 330,
+  "SoundEx": "et",
+  "Source": 943,
+  "TextId": 929,
+  "UpdatedDate": "2013-09-07T16:54:56.313619+02:00",
+  "UpdatedCount": 190,
+  "Visibility": 285,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 454,
-  "TargetTableName": "Murphy Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 119,
-  "RightSelectionId": 517,
+  "TargetTableNumber": 837,
+  "TargetTableName": "Klocko, Bosco and Simonis",
+  "Completed": true,
+  "LeftSelectionId": 866,
+  "RightSelectionId": 719,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Farrell LLC",
-  "ShadowProviderName": "Schroeder-Cremin",
-  "ChartKey": "inventore",
-  "LastLoaded": "2023-12-22T23:03:57.130113+01:00",
-  "LastLoadedBy": 312,
+  "MainProviderName": "Goldner-Fisher",
+  "ShadowProviderName": "Turcotte Group",
+  "ChartKey": "nihil",
+  "LastLoaded": "1997-08-05T16:54:56.313619+02:00",
+  "LastLoadedBy": 568,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-12-10T23:03:57.1306172+01:00",
-  "LastMembershipChangeBy": 180,
+  "LastMembershipChange": "2017-04-02T16:54:56.314605+02:00",
+  "LastMembershipChangeBy": 77,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "veritatis",
+  "MainHeading": "sunt",
   "MemberTabHeading": "aut",
-  "MailingsProviderName": "Rogahn-Feil",
-  "DashboardTileDefinitionId": 972,
+  "MailingsProviderName": "Koss LLC",
+  "DashboardTileDefinitionId": 328,
   "VisibleFor": [
     {
-      "VisibleId": 526,
+      "VisibleId": 976,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldLength": 965
         }
       }
     },
     {
-      "VisibleId": 526,
+      "VisibleId": 976,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldLength": 965
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldLength": 716
     }
   }
 }

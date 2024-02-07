@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Huels, Cummings and Medhurst",
+  "TaskName": "Thompson LLC",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 337,
-    "Name": "Yost-Schroeder",
-    "AssociateId": 360,
-    "DetailsTable": 616,
-    "DetailsRecord": 531,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 239,
+    "Name": "Turner, Bradtke and Abshire",
+    "AssociateId": 958,
+    "DetailsTable": 869,
+    "DetailsRecord": 128,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "distinctio"
+      "ParameterObject1": "vel",
+      "ParameterObject2": "placeat"
     },
-    "LastStarted": "1998-12-31T23:03:55.0261418+01:00",
-    "Created": "2013-04-13T23:03:55.0261418+02:00",
-    "StartCount": 720,
-    "DatabaseSerialNumber": "1236569",
-    "Context": "placeat",
-    "Result": "autem",
+    "LastStarted": "1997-10-11T16:54:54.6073054+02:00",
+    "Created": "2005-12-07T16:54:54.6073054+01:00",
+    "StartCount": 523,
+    "DatabaseSerialNumber": "1344011",
+    "Context": "nihil",
+    "Result": "enim",
     "State": "All",
-    "Description": "Grass-roots optimizing array",
-    "Response": "harum",
-    "Request": "aut",
-    "ProgressDescription": "Synergized multimedia strategy",
-    "ProgressPercent": 84,
-    "FileName": "Russel, Deckow and Huels",
+    "Description": "Vision-oriented multimedia task-force",
+    "Response": "sunt",
+    "Request": "est",
+    "ProgressDescription": "Vision-oriented upward-trending architecture",
+    "ProgressPercent": 924,
+    "FileName": "Wuckert, Mayert and Brown",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 978
+        "FieldLength": 628
       }
     }
   }

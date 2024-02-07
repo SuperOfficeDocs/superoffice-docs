@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 666
+  "ChatSessionId": 806
 }
 ```
 
@@ -120,28 +120,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 513,
-  "TopicId": 230,
+  "ChatSessionId": 621,
+  "TopicId": 712,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolores",
-  "CustomerHost": "saepe",
-  "CustomerName": "Hoeger, Ferry and Walsh",
-  "CustomerEmail": "marcia@franeckidibbert.biz",
-  "CustomerPhone": "1-827-584-5965",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Russel Group",
+  "CustomerAlias": "ut",
+  "CustomerHost": "et",
+  "CustomerName": "Grimes-Durgan",
+  "CustomerEmail": "maxine@ankunding.uk",
+  "CustomerPhone": "(633)376-8714 x5120",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Price, Lynch and Cummerata",
   "Status": "Closed",
-  "FirstMessage": "dolorem",
-  "LastMessage": "id",
-  "WhenRequested": "2000-03-10T23:03:55.1406456+01:00",
-  "WhenStarted": "1998-06-04T23:03:55.1406456+02:00",
-  "WhenEnded": "2009-06-25T23:03:55.1406456+02:00",
-  "WhenIdle": "2011-04-12T23:03:55.1406456+02:00",
-  "WhenFetched": "2018-08-21T23:03:55.1406456+02:00",
-  "SessionKey": "quam",
-  "InitialQueuePos": 602,
-  "AlertLevel": 613,
+  "FirstMessage": "et",
+  "LastMessage": "perferendis",
+  "WhenRequested": "2002-02-14T16:54:54.8185183+01:00",
+  "WhenStarted": "2016-11-12T16:54:54.8185183+01:00",
+  "WhenEnded": "2023-10-05T16:54:54.8185183+02:00",
+  "WhenIdle": "2009-01-14T16:54:54.8185183+01:00",
+  "WhenFetched": "2005-10-24T16:54:54.8185183+02:00",
+  "SessionKey": "nostrum",
+  "InitialQueuePos": 262,
+  "AlertLevel": 845,
   "Rank": 562,
   "Flags": "CustomerIsTyping",
   "Contact": null,
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 96,
+  "ChatbotIsActive": false,
+  "Rating": 429,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 414
     }
   }
 }

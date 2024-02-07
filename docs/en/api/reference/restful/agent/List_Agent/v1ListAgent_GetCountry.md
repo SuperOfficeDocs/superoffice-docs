@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=62
+POST /api/v1/Agents/List/GetCountry?countryId=13
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 71,
-  "Name": "Mosciski-Davis",
-  "CurrencyId": 449,
-  "EnglishName": "Carroll LLC",
+  "CountryId": 321,
+  "Name": "Bins-Stracke",
+  "CurrencyId": 884,
+  "EnglishName": "Upton-Bergnaum",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Right-sized bifurcated leverage",
-  "OrgNrText": "214342",
-  "InterAreaPrefix": "possimus",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "aut",
-  "DomainName": "Breitenberg Group",
-  "AddressLayoutId": 286,
-  "DomesticAddressLayoutId": 146,
-  "ForeignAddressLayoutId": 788,
-  "Rank": 356,
-  "Tooltip": "ut",
-  "Deleted": true,
+  "ImageDescription": "Advanced tangible emulation",
+  "OrgNrText": "1182584",
+  "InterAreaPrefix": "alias",
+  "DialInPrefix": "et",
+  "ZipPrefix": "enim",
+  "DomainName": "Ratke, Rutherford and Sawayn",
+  "AddressLayoutId": 673,
+  "DomesticAddressLayoutId": 44,
+  "ForeignAddressLayoutId": 483,
+  "Rank": 443,
+  "Tooltip": "enim",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 125,
-  "NumSentences": 323,
-  "Summary": "eum",
-  "IsoLangCode": "voluptatum"
+  "ContactId": 951,
+  "NumSentences": 359,
+  "Summary": "voluptatem",
+  "IsoLangCode": "consequatur"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2020-05-23T23:03:54.3596523+02:00",
-  "UserPrompt": "sit",
-  "UserDisplayText": "ratione",
-  "BotResponse": "tenetur",
+  "Timestamp": "2022-12-15T16:54:54.1932133+01:00",
+  "UserPrompt": "nam",
+  "UserDisplayText": "soluta",
+  "BotResponse": "quia",
   "BotActions": {
-    "BotActions1": "autem",
-    "BotActions2": "ipsum"
+    "BotActions1": "id",
+    "BotActions2": "tenetur"
   },
   "Attachments": [
-    "aut",
-    "voluptate"
+    "dolores",
+    "illum"
   ]
 }
 ```

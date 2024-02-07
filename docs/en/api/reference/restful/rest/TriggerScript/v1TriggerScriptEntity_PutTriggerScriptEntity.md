@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 229,
-  "Name": "Koelpin-Nader",
+  "ScreenChooserId": 242,
+  "Name": "Block-Mann",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ullam",
-  "Source": "et",
-  "Registered": "2000-02-04T23:04:04.9985074+01:00",
-  "RegisteredAssociateId": 610,
-  "Updated": "2018-03-12T23:04:04.9985074+01:00",
-  "UpdatedAssociateId": 254
+  "UniqueIdentifier": "pariatur",
+  "Source": "consequatur",
+  "Registered": "2020-01-08T16:55:30.3138161+01:00",
+  "RegisteredAssociateId": 894,
+  "Updated": "2009-11-08T16:55:30.3138161+01:00",
+  "UpdatedAssociateId": 406
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 974,
-  "Name": "Metz LLC",
+  "ScreenChooserId": 333,
+  "Name": "Olson, Armstrong and Lehner",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "repellat",
-  "Source": "ratione",
-  "Registered": "2002-03-12T23:04:04.9990066+01:00",
-  "RegisteredAssociateId": 218,
-  "Updated": "2006-08-28T23:04:04.9990066+02:00",
-  "UpdatedAssociateId": 932,
+  "UniqueIdentifier": "quia",
+  "Source": "architecto",
+  "Registered": "2002-05-22T16:55:30.3158175+02:00",
+  "RegisteredAssociateId": 413,
+  "Updated": "2004-08-04T16:55:30.3158175+02:00",
+  "UpdatedAssociateId": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 55
+      "FieldType": "System.Int32",
+      "FieldLength": 142
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

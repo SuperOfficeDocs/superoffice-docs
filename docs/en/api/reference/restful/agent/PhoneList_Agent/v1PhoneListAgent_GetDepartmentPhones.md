@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 120
+  "DepartmentId": 354
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "256.904.8361 x216",
-    "PersonCellPhone": "503.127.8453 x89246",
-    "PersonPrivatePhone": "950.624.0620 x9408",
-    "PersonFaxNumber": "1684204",
-    "PersonPagerNumber": "1034624",
-    "PersonEmail": "marcellus@aufderhar.co.uk",
-    "Id": 916,
-    "Name": "Lowe-Considine",
-    "Tooltip": "voluptatem",
-    "UniqueId": "doloremque",
+    "PersonDirectPhone": "655.646.5990 x6279",
+    "PersonCellPhone": "856.378.7783",
+    "PersonPrivatePhone": "113-904-1175 x59172",
+    "PersonFaxNumber": "1083384",
+    "PersonPagerNumber": "1296288",
+    "PersonEmail": "alysson@emmerich.ca",
+    "Id": 801,
+    "Name": "Rau-Kohler",
+    "Tooltip": "tenetur",
+    "UniqueId": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 65
       }
     }
   }

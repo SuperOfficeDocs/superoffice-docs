@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Veum-Schuster",
-    "ToolTip": "Autem vitae.",
-    "Deleted": true,
-    "Rank": 21,
-    "Type": "placeat",
-    "ColorBlock": 640,
-    "IconHint": "qui",
+    "Id": 294,
+    "Name": "Harber, Brown and Padberg",
+    "ToolTip": "Est nemo molestias maxime.",
+    "Deleted": false,
+    "Rank": 724,
+    "Type": "voluptates",
+    "ColorBlock": 925,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2012-04-02T23:04:05.6115+02:00",
+    "LastChanged": "2012-04-18T16:55:30.7977354+02:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Crist-O'Keefe",
-        "ToolTip": "Praesentium voluptatibus quia consectetur ab.",
-        "Deleted": true,
-        "Rank": 692,
-        "Type": "labore",
-        "ColorBlock": 495,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2002-10-23T23:04:05.6115+02:00",
+        "Id": 300,
+        "Name": "Torp-Kuhlman",
+        "ToolTip": "Dolores consectetur asperiores possimus mollitia maxime fugit aut.",
+        "Deleted": false,
+        "Rank": 397,
+        "Type": "voluptatem",
+        "ColorBlock": 321,
+        "IconHint": "eligendi",
+        "Selected": false,
+        "LastChanged": "2000-10-04T16:55:30.7977354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "ad",
+        "ExtraInfo": "quia",
+        "StyleHint": "eligendi",
         "Hidden": true,
-        "FullName": "Eliseo Rice"
+        "FullName": "Mr. Elyssa Dare"
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "nam",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Courtney Torphy"
+    "FullName": "Prof. Simone Barry Wintheiser"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Zulauf Inc and Sons",
-    "ToolTip": "Sit iste officiis.",
+    "Id": 47,
+    "Name": "Casper Group",
+    "ToolTip": "Vero iusto non eos eum qui.",
     "Deleted": false,
-    "Rank": 519,
-    "Type": "reiciendis",
-    "ColorBlock": 581,
-    "IconHint": "id",
+    "Rank": 243,
+    "Type": "enim",
+    "ColorBlock": 629,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2007-09-08T23:04:05.6129988+02:00",
+    "LastChanged": "2001-10-13T16:55:30.7987361+02:00",
     "ChildItems": [
       {
-        "Id": 660,
-        "Name": "Mills, Beier and Ruecker",
-        "ToolTip": "Corporis ut deserunt.",
+        "Id": 735,
+        "Name": "Langosh-Gaylord",
+        "ToolTip": "Cupiditate ducimus quo.",
         "Deleted": false,
-        "Rank": 846,
-        "Type": "iure",
-        "ColorBlock": 130,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2003-09-03T23:04:05.6129988+02:00",
+        "Rank": 150,
+        "Type": "porro",
+        "ColorBlock": 632,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2018-09-26T16:55:30.7987361+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "ex",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Clifford Kris",
+        "FullName": "Martin Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 837
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "aut",
+    "ExtraInfo": "rerum",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Dr. Ervin Bridgette Medhurst II",
+    "FullName": "Mrs. Alyson Liam Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 309
       }
     }
   }

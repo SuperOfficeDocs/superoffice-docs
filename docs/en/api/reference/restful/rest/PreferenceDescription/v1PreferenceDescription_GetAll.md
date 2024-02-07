@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 53,
-    "Section": "quo",
-    "Key": "officiis",
-    "Name": "Schulist, Hauck and Streich",
+    "PrefDescId": 81,
+    "Section": "debitis",
+    "Key": "sed",
+    "Name": "Abbott LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Front-line disintermediate customer loyalty",
+    "Description": "Reactive empowering attitude",
     "IsBuiltin": false,
-    "TableName": "Auer LLC",
-    "UserDefinedListId": 572,
-    "Rank": 301,
-    "SubGroup": "magni",
-    "MinLevel": 547,
-    "MaxValue": 511,
-    "MinValue": 920,
-    "RequiredLicense": "tempore",
+    "TableName": "Kulas-Heller",
+    "UserDefinedListId": 598,
+    "Rank": 615,
+    "SubGroup": "sed",
+    "MinLevel": 483,
+    "MaxValue": 213,
+    "MinValue": 635,
+    "RequiredLicense": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 517
       }
     }
   }

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Lang-Leuschke",
-  "StorageKey": "deleniti"
+  "StorageType": "nostrum",
+  "ProviderName": "O'Kon, Gislason and Goyette",
+  "StorageKey": "dolore"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Barton, Hansen and Mayert",
-    "DisplayTooltip": "quas",
-    "DisplayType": "at",
-    "CanOrderBy": false,
-    "Name": "Hane, Hickle and Bergstrom",
+    "DisplayName": "Wolf Inc and Sons",
+    "DisplayTooltip": "et",
+    "DisplayType": "est",
+    "CanOrderBy": true,
+    "Name": "Wyman-Smith",
     "CanRestrictBy": false,
-    "RestrictionType": "placeat",
-    "RestrictionListName": "Altenwerth-Hoeger",
-    "IsVisible": false,
-    "ExtraInfo": "laboriosam",
-    "Width": "excepturi",
-    "IconHint": "autem",
-    "HeadingIconHint": "est"
+    "RestrictionType": "sit",
+    "RestrictionListName": "Moen-Bogan",
+    "IsVisible": true,
+    "ExtraInfo": "eligendi",
+    "Width": "consequatur",
+    "IconHint": "id",
+    "HeadingIconHint": "vel"
   }
 ]
 ```

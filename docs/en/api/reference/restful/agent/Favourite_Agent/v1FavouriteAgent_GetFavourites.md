@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harber LLC",
-  "AssociateId": 72
+  "TableName": "Hyatt Inc and Sons",
+  "AssociateId": 997
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Rice-Weissnat",
-    "RecordId": 182,
-    "AssociateId": 279,
-    "ExtraInfo": "voluptatem",
-    "Rank": 128,
+    "TableName": "McLaughlin Inc and Sons",
+    "RecordId": 537,
+    "AssociateId": 100,
+    "ExtraInfo": "dolore",
+    "Rank": 914,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldType": "System.Int32",
+        "FieldLength": 409
       }
     }
   }

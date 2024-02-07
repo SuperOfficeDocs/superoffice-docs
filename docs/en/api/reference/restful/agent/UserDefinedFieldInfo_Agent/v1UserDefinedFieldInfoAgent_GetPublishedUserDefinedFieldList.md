@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 446,
-    "ColumnId": 173,
-    "FieldDefault": "error",
-    "FieldHeight": 922,
-    "FieldLabel": "excepturi",
-    "FieldLeft": 122,
-    "FieldTop": 675,
+    "UDefFieldId": 186,
+    "ColumnId": 692,
+    "FieldDefault": "explicabo",
+    "FieldHeight": 980,
+    "FieldLabel": "voluptatem",
+    "FieldLeft": 513,
+    "FieldTop": 821,
     "FieldType": "Checkbox",
-    "FieldWidth": 264,
-    "FormatMask": "nobis",
-    "HideLabel": false,
+    "FieldWidth": 384,
+    "FormatMask": "ea",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 675,
-    "LabelLeft": 506,
-    "LabelTop": 834,
-    "LabelWidth": 643,
-    "LastVersionId": 87,
-    "ListTableId": 185,
-    "IsMandatory": true,
+    "LabelHeight": 257,
+    "LabelLeft": 802,
+    "LabelTop": 561,
+    "LabelWidth": 78,
+    "LastVersionId": 647,
+    "ListTableId": 784,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 52,
-    "ProgId": "esse",
+    "Page1LineNo": 27,
+    "ProgId": "culpa",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 236,
-    "TextLength": 149,
-    "Tooltip": "est",
-    "UdefIdentity": 948,
-    "UDListDefinitionId": 926,
+    "ShortLabel": "sit",
+    "TabOrder": 104,
+    "TextLength": 619,
+    "Tooltip": "architecto",
+    "UdefIdentity": 774,
+    "UDListDefinitionId": 327,
     "Justification": "Center",
-    "Version": 440,
-    "TemplateVariableName": "Hackett Inc and Sons",
+    "Version": 185,
+    "TemplateVariableName": "Hand, Stamm and Wilderman",
     "HasBeenPublished": true,
-    "MdoListName": "Okuneva LLC",
+    "MdoListName": "Hills-Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldType": "System.Int32",
+        "FieldLength": 20
       }
     }
   }

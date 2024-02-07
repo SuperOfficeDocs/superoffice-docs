@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 851,
-      "PrefDescId": 67,
-      "PrefValue": "vel",
-      "PrefShowValue": "repudiandae",
-      "Description": "Open-source exuding monitoring",
-      "IsBuiltin": false
+      "PrefDescLineId": 884,
+      "PrefDescId": 272,
+      "PrefValue": "quasi",
+      "PrefShowValue": "ea",
+      "Description": "Multi-layered solution-oriented workforce",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 851,
-      "PrefDescId": 67,
-      "PrefValue": "vel",
-      "PrefShowValue": "repudiandae",
-      "Description": "Open-source exuding monitoring",
-      "IsBuiltin": false
+      "PrefDescLineId": 884,
+      "PrefDescId": 272,
+      "PrefValue": "quasi",
+      "PrefShowValue": "ea",
+      "Description": "Multi-layered solution-oriented workforce",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 707,
-    "PrefDescId": 256,
-    "PrefValue": "cumque",
-    "PrefShowValue": "qui",
-    "Description": "Customizable even-keeled moderator",
+    "PrefDescLineId": 486,
+    "PrefDescId": 725,
+    "PrefValue": "tempora",
+    "PrefShowValue": "fuga",
+    "Description": "Business-focused responsive function",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldType": "System.Int32",
+        "FieldLength": 767
       }
     }
   }

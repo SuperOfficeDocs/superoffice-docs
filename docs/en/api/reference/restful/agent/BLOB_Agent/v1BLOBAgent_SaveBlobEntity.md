@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 760,
-  "BlobSize": 515,
-  "Description": "Synergistic content-based monitoring",
-  "ExtraInfo": "est",
+  "BlobId": 968,
+  "BlobSize": 197,
+  "Description": "Enhanced eco-centric protocol",
+  "ExtraInfo": "labore",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "aut",
-  "OriginalSize": 293,
-  "CreatedDate": "2008-07-01T23:03:55.0311498+02:00",
-  "UpdatedDate": "2012-01-09T23:03:55.0311498+01:00",
+  "MimeType": "ullam",
+  "OriginalSize": 50,
+  "CreatedDate": "2011-10-23T16:54:54.6113032+02:00",
+  "UpdatedDate": "2021-10-06T16:54:54.6113032+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consectetur"
+  "ConceptualType": "sed"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 217,
-  "BlobSize": 847,
-  "Description": "User-friendly scalable customer loyalty",
-  "ExtraInfo": "eaque",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "blanditiis",
-  "OriginalSize": 676,
-  "CreatedDate": "2009-07-28T23:03:55.0326432+02:00",
-  "UpdatedDate": "2019-08-15T23:03:55.0326432+02:00",
+  "BlobId": 874,
+  "BlobSize": 579,
+  "Description": "Ameliorated zero administration budgetary management",
+  "ExtraInfo": "voluptatem",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "eos",
+  "OriginalSize": 820,
+  "CreatedDate": "2007-07-17T16:54:54.6123033+02:00",
+  "UpdatedDate": "1999-03-11T16:54:54.6123033+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quasi",
+  "ConceptualType": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldType": "System.Int32",
+      "FieldLength": 411
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 940,
-  "Name": "Mosciski, Dibbert and Hettinger",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 320,
-  "UdListDefinitionId": 3
+  "HeadingId": 955,
+  "Name": "Beier-Dicki",
+  "Tooltip": "reiciendis",
+  "Deleted": false,
+  "Rank": 888,
+  "UdListDefinitionId": 797
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 312,
-  "Name": "Gibson-Hettinger",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "Rank": 779,
-  "UdListDefinitionId": 738,
+  "HeadingId": 903,
+  "Name": "Bauch-Bruen",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 728,
+  "UdListDefinitionId": 350,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 224
+      "FieldLength": 787
     }
   }
 }

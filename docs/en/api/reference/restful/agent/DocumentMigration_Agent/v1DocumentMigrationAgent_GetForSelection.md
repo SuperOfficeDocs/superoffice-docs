@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 556,
-  "SelectionId": 641,
+  "DocumentPluginId": 510,
+  "SelectionId": 137,
   "IncludeEmails": true
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 960,
-  "NumDocumentsAlreadyMigrated": 413,
+  "NumDocumentsOmitted": 882,
+  "NumDocumentsAlreadyMigrated": 134,
   "Documents": [
     {
-      "DocumentId": 980,
-      "ContactId": 897,
-      "PersonId": 822,
-      "SaleId": 84,
-      "ProjectId": 717,
-      "DocTmplId": 46,
-      "AssociateId": 613,
-      "UserGroupId": 393,
-      "VisibleForId": 886
+      "DocumentId": 352,
+      "ContactId": 523,
+      "PersonId": 890,
+      "SaleId": 997,
+      "ProjectId": 284,
+      "DocTmplId": 861,
+      "AssociateId": 779,
+      "UserGroupId": 114,
+      "VisibleForId": 1001
     }
   ],
   "Associates": [
     {
-      "AssociateId": 670,
-      "EmailAddress": "ramiro.davis@jaskolskiwillms.info"
+      "AssociateId": 67,
+      "EmailAddress": "dan.sawayn@mueller.ca"
     },
     {
-      "AssociateId": 670,
-      "EmailAddress": "ramiro.davis@jaskolskiwillms.info"
+      "AssociateId": 67,
+      "EmailAddress": "dan.sawayn@mueller.ca"
     }
   ]
 }

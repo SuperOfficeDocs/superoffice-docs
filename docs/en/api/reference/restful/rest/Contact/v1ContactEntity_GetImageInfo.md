@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 08 May 2020 23:04:03 G5T
+Last-Modified: Wed, 29 Jun 2005 16:55:29 G6T
 
 {
-  "BlobId": 984,
-  "BlobSize": 953,
-  "Description": "Secured responsive database",
-  "ExtraInfo": "odit",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "consequatur",
-  "OriginalSize": 441,
-  "CreatedDate": "2014-01-19T23:04:03.896021+01:00",
-  "UpdatedDate": "2020-05-08T23:04:03.896021+02:00",
+  "BlobId": 941,
+  "BlobSize": 582,
+  "Description": "Centralized assymetric service-desk",
+  "ExtraInfo": "fugit",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "laboriosam",
+  "OriginalSize": 466,
+  "CreatedDate": "2014-01-30T16:55:29.3923359+01:00",
+  "UpdatedDate": "2005-06-29T16:55:29.3923359+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "temporibus",
+  "ConceptualType": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 824
     }
   }
 }

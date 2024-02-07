@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 127,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "ducimus",
-  "Name": "Rohan LLC",
-  "Description": "Configurable 4th generation pricing structure",
-  "Code": "vel",
-  "PriceUnit": "natus",
-  "QuantityUnit": "voluptatem",
+  "ProductId": 804,
+  "ERPProductKey": "blanditiis",
+  "ERPPriceListKey": "necessitatibus",
+  "Name": "Doyle, Rohan and Tromp",
+  "Description": "Focused heuristic complexity",
+  "Code": "et",
+  "PriceUnit": "facere",
+  "QuantityUnit": "dolorem",
   "IsSubscription": false,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 9176.351999999999,
-  "ItemNumber": "988459",
+  "SubscriptionUnit": "voluptatum",
+  "DefaultSubscriptionQuantity": 24166.273999999998,
+  "ItemNumber": "632078",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "enim",
-  "ProductTypeKey": "est",
-  "VAT": 6891.666,
-  "VATInfo": "cupiditate",
-  "UnitCost": 28046.165999999997,
-  "UnitMinimumPrice": 11667.882,
-  "UnitListPrice": 19753.602,
+  "ProductFamilyKey": "fugiat",
+  "ProductTypeKey": "saepe",
+  "VAT": 2278.418,
+  "VATInfo": "fugiat",
+  "UnitCost": 25209.896,
+  "UnitMinimumPrice": 2974.1659999999997,
+  "UnitListPrice": 30258.77,
   "InAssortment": false,
-  "Supplier": "officia",
-  "SupplierCode": "et",
-  "Rights": "eum",
-  "Rule": "qui",
+  "Supplier": "eum",
+  "SupplierCode": "magnam",
+  "Rights": "voluptas",
+  "Rule": "nemo",
   "ExtraInfo": [
     {
-      "Name": "Ryan, Block and Breitenberg",
-      "Value": "velit",
+      "Name": "Cummerata-Kerluke",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 170
         }
       }
     },
     {
-      "Name": "Ryan, Block and Breitenberg",
-      "Value": "velit",
+      "Name": "Cummerata-Kerluke",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 170
         }
       }
     }
   ],
-  "RawExtraInfo": "culpa",
-  "ExtraField1": "et",
-  "ExtraField2": "dolorem",
-  "ExtraField3": "nesciunt",
-  "ExtraField4": "aspernatur",
-  "ExtraField5": "velit",
-  "InStock": 5528.376,
+  "RawExtraInfo": "omnis",
+  "ExtraField1": "laborum",
+  "ExtraField2": "occaecati",
+  "ExtraField3": "architecto",
+  "ExtraField4": "itaque",
+  "ExtraField5": "deserunt",
+  "InStock": 20446.216,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 624
     }
   }
 }

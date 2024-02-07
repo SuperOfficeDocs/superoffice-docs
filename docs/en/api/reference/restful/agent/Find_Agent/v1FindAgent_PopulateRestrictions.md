@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hamill-Cummerata",
+  "ProviderName": "Tromp, Turner and Doyle",
   "Restrictions": [
     {
-      "Name": "Bogan LLC",
-      "Operator": "et",
+      "Name": "Bashirian, Windler and Torp",
+      "Operator": "voluptate",
       "Values": [
-        "quidem",
-        "distinctio"
+        "ducimus",
+        "possimus"
       ],
       "DisplayValues": [
-        "odio",
-        "aperiam"
+        "id",
+        "quas"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 871,
+      "InterParenthesis": 821,
       "InterOperator": "And",
-      "UniqueHash": 666
+      "UniqueHash": 370
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stroman Group",
-    "Operator": "et",
+    "Name": "Corkery, Dicki and Monahan",
+    "Operator": "dignissimos",
     "Values": [
-      "et",
-      "sed"
+      "quaerat",
+      "explicabo"
     ],
     "DisplayValues": [
-      "ut",
-      "sit"
+      "enim",
+      "natus"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Wilderman Group",
-        "Operator": "vitae",
+        "Name": "Smitham Group",
+        "Operator": "pariatur",
         "Values": [
-          "rerum",
-          "reiciendis"
+          "ea",
+          "corporis"
         ],
         "DisplayValues": [
-          "nihil",
-          "rerum"
+          "ipsam",
+          "ea"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 371,
+        "InterParenthesis": 885,
         "InterOperator": "And",
-        "UniqueHash": 688
+        "UniqueHash": 894
       }
     ],
-    "InterParenthesis": 516,
+    "InterParenthesis": 48,
     "InterOperator": "And",
-    "UniqueHash": 810
+    "UniqueHash": 149
   }
 ]
 ```

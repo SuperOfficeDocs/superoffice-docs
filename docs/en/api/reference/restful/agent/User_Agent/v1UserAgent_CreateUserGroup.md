@@ -81,17 +81,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "autem",
-  "Tooltip": "quos",
-  "Id": 3,
-  "Rank": 639,
+  "Value": "laudantium",
+  "Tooltip": "repellat",
+  "Id": 392,
+  "Rank": 738,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldType": "System.String",
+      "FieldLength": 25
     }
   }
 }

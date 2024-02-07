@@ -82,12 +82,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 930,
-  "Name": "Wuckert Inc and Sons",
-  "Tooltip": "ratione",
-  "Deleted": false,
-  "UdListDefinitionId": 140,
-  "Rank": 904
+  "Id": 24,
+  "Name": "Gutmann Group",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "UdListDefinitionId": 28,
+  "Rank": 831
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 554,
-  "Name": "Cormier, VonRueden and Mohr",
-  "Tooltip": "et",
+  "Id": 5,
+  "Name": "Beer, Ankunding and Hills",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "UdListDefinitionId": 650,
-  "Rank": 440,
+  "UdListDefinitionId": 765,
+  "Rank": 149,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 522
     }
   }
 }

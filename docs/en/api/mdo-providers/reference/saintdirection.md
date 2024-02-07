@@ -2,9 +2,7 @@
 uid: saintdirection
 title: saintdirection
 keywords: mdoprovider mdo provider saintdirection
-description: This SoList provider generates the appointment/task direction list for the Saint criteria. This is a simple, hard-coded list corresponding
-to the direction field of the <see cref="!:SuperOffice.CRM.Rows.DocTmpl" /> and <see cref="!:SuperOffice.CRM.Rows.Task" /> tables. Tasks are both
-appointments and documents.
+description: This SoList provider generates the appointment/task direction list for the Saint criteria. This is a simple, hard-coded list corresponding to the direction field of the <see cref="!:SuperOffice.CRM.Rows.DocTmpl" /> and <see cref="!:SuperOffice.CRM.Rows.Task" /> tables. Tasks are both appointments and documents.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

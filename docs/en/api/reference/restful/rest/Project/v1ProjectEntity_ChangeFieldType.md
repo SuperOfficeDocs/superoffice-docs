@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 4,
-  "ColumnId": 43,
-  "FieldDefault": "qui",
-  "FieldHeight": 866,
-  "FieldLabel": "autem",
-  "FieldLeft": 860,
-  "FieldTop": 713,
+  "UDefFieldId": 957,
+  "ColumnId": 483,
+  "FieldDefault": "accusantium",
+  "FieldHeight": 863,
+  "FieldLabel": "veritatis",
+  "FieldLeft": 46,
+  "FieldTop": 674,
   "FieldType": "Checkbox",
-  "FieldWidth": 91,
-  "FormatMask": "quos",
-  "HideLabel": false,
+  "FieldWidth": 47,
+  "FormatMask": "sed",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 880,
-  "LabelLeft": 665,
-  "LabelTop": 283,
-  "LabelWidth": 44,
-  "LastVersionId": 446,
-  "ListTableId": 368,
-  "IsMandatory": true,
+  "LabelHeight": 801,
+  "LabelLeft": 762,
+  "LabelTop": 897,
+  "LabelWidth": 68,
+  "LastVersionId": 231,
+  "ListTableId": 332,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 745,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "velit",
-  "TabOrder": 464,
-  "TextLength": 471,
-  "Tooltip": "architecto",
-  "UdefIdentity": 329,
-  "UDListDefinitionId": 491,
+  "Page1LineNo": 279,
+  "ProgId": "natus",
+  "IsReadOnly": true,
+  "ShortLabel": "maiores",
+  "TabOrder": 29,
+  "TextLength": 709,
+  "Tooltip": "natus",
+  "UdefIdentity": 980,
+  "UDListDefinitionId": 72,
   "Justification": "Center",
-  "Version": 654,
-  "TemplateVariableName": "Dach, Cummerata and Yundt",
-  "HasBeenPublished": false,
-  "MdoListName": "O'Connell Inc and Sons",
+  "Version": 104,
+  "TemplateVariableName": "Monahan-Orn",
+  "HasBeenPublished": true,
+  "MdoListName": "Boehm-Schultz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   }
 }

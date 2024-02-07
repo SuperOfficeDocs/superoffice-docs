@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Zboncak-Schulist",
-  "Tooltip": "qui",
+  "Id": 979,
+  "Name": "Hayes Group",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "UdListDefinitionId": 811,
-  "Rank": 732,
+  "UdListDefinitionId": 315,
+  "Rank": 163,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldLength": 472
     }
   }
 }

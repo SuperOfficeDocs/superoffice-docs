@@ -117,24 +117,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 979,
-  "Section": "voluptatem",
-  "Key": "et",
-  "Name": "Orn, Johnson and Hegmann",
+  "PrefDescId": 276,
+  "Section": "nobis",
+  "Key": "aut",
+  "Name": "Boyle, Leffler and Kuhn",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Quality-focused 3rd generation challenge",
-  "IsBuiltin": true,
-  "TableName": "Armstrong Group",
-  "UserDefinedListId": 243,
-  "Rank": 460,
-  "SubGroup": "omnis",
-  "MinLevel": 336,
-  "MaxValue": 852,
-  "MinValue": 794,
-  "RequiredLicense": "tenetur"
+  "Description": "Exclusive stable utilisation",
+  "IsBuiltin": false,
+  "TableName": "Quitzon-Kilback",
+  "UserDefinedListId": 659,
+  "Rank": 269,
+  "SubGroup": "voluptas",
+  "MinLevel": 516,
+  "MaxValue": 60,
+  "MinValue": 206,
+  "RequiredLicense": "aut"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 39,
-  "Section": "odit",
-  "Key": "dolorum",
-  "Name": "Stokes-Keeling",
+  "PrefDescId": 225,
+  "Section": "ad",
+  "Key": "placeat",
+  "Name": "Parker-Rodriguez",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Seamless coherent hierarchy",
-  "IsBuiltin": false,
-  "TableName": "Murazik Group",
-  "UserDefinedListId": 712,
-  "Rank": 359,
-  "SubGroup": "hic",
-  "MinLevel": 691,
-  "MaxValue": 559,
-  "MinValue": 613,
-  "RequiredLicense": "nihil",
+  "Description": "Persevering asynchronous archive",
+  "IsBuiltin": true,
+  "TableName": "Cummings-Mraz",
+  "UserDefinedListId": 535,
+  "Rank": 309,
+  "SubGroup": "animi",
+  "MinLevel": 675,
+  "MaxValue": 470,
+  "MinValue": 516,
+  "RequiredLicense": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldLength": 902
     }
   },
   "_Links": {

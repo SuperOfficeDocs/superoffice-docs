@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Welch LLC",
-  "DeviceName": "Schaefer, Pfannerstill and Keeling",
-  "DeviceIdentifier": "veritatis",
-  "TableName": "Swaniawski, Ziemann and Jenkins",
-  "RecordId": 614
+  "ApplicationName": "Schiller Inc and Sons",
+  "DeviceName": "Effertz LLC",
+  "DeviceIdentifier": "non",
+  "TableName": "Franecki, Schoen and Schiller",
+  "RecordId": 665
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "vero",
-    "Value": "cum",
-    "RecordId": 280,
-    "CreatedDate": "2006-07-11T23:03:56.1251267+02:00",
-    "UpdatedDate": "2015-10-30T23:03:56.1251267+01:00",
-    "UpdatedBy": "repellendus",
-    "CreatedBy": "architecto",
-    "TableName": "Hyatt-Watsica",
+    "Key": "ut",
+    "Value": "est",
+    "RecordId": 989,
+    "CreatedDate": "2004-05-23T16:54:55.4934647+02:00",
+    "UpdatedDate": "2016-07-11T16:54:55.4934647+02:00",
+    "UpdatedBy": "dolorum",
+    "CreatedBy": "commodi",
+    "TableName": "Strosin, Schiller and Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldType": "System.String",
+        "FieldLength": 617
       }
     }
   }

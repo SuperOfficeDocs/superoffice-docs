@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 19 Sep 2021 23:04:04 G9T
+Last-Modified: Fri, 27 Jul 2007 16:55:29 G7T
 
 {
-  "ForeignAppId": 499,
-  "Name": "Medhurst-Gibson",
-  "CreatedDate": "2004-06-08T23:04:04.2030166+02:00",
-  "UpdatedDate": "2021-09-19T23:04:04.2030166+02:00",
+  "ForeignAppId": 884,
+  "Name": "Wolff-Cruickshank",
+  "CreatedDate": "2001-03-31T16:55:29.6364377+02:00",
+  "UpdatedDate": "2007-07-27T16:55:29.6364377+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 584,
-      "Name": "Reynolds, Mante and Crona",
-      "CreatedDate": "2022-05-02T23:04:04.2035183+02:00",
-      "UpdatedDate": "2017-03-26T23:04:04.2035183+02:00",
-      "AssociateFullName": "Virgil Kilback",
-      "CreatedBy": "non",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "minus",
-      "ForeignAppId": 535,
+      "ForeignDeviceId": 251,
+      "Name": "Wolf-Streich",
+      "CreatedDate": "2001-01-13T16:55:29.6364377+01:00",
+      "UpdatedDate": "2001-02-14T16:55:29.6364377+01:00",
+      "AssociateFullName": "Miss Jules Heaven Gleichner",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "facilis",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 231,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 327
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Sun, 19 Sep 2021 23:04:04 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 809
     }
   }
 }

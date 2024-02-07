@@ -97,7 +97,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 2,
-  "Name": "Goyette-Hessel",
-  "Tooltip": "ut",
-  "Rank": 974,
+  "SaleTypeId": 915,
+  "Name": "Goyette, Prosacco and Heidenreich",
+  "Tooltip": "commodi",
+  "Rank": 301,
   "DurationUnit": "Century",
-  "SaleDuration": 444,
-  "SaleTypeCatId": 607,
-  "Deleted": false,
+  "SaleDuration": 290,
+  "SaleTypeCatId": 742,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 760,
-  "QuoteLinesTemplate": 617,
-  "ConfirmationLinesTemplate": 213,
+  "DefaultQuoteValidity": 715,
+  "QuoteLinesTemplate": 10,
+  "ConfirmationLinesTemplate": 101,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 476,
-  "MinEarningPercent": 848,
-  "GroupQuoteLinesBy": 619,
-  "SortGroupLinesBy": 486,
+  "MaxDiscountPercent": 820,
+  "MinEarningPercent": 842,
+  "GroupQuoteLinesBy": 648,
+  "SortGroupLinesBy": 555,
   "Stages": [
     {
-      "Id": 94,
-      "Name": "Zemlak LLC",
-      "ToolTip": "Et est quis deleniti.",
+      "Id": 101,
+      "Name": "Barrows LLC",
+      "ToolTip": "Autem et quasi tempore animi rerum quia tempore.",
       "Deleted": false,
-      "Rank": 151,
-      "Type": "pariatur",
-      "ColorBlock": 16,
-      "IconHint": "sequi",
+      "Rank": 696,
+      "Type": "quo",
+      "ColorBlock": 457,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2006-10-19T23:04:05.792497+02:00",
+      "LastChanged": "2013-09-29T16:55:31.0581841+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quod",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Winston Thiel"
+      "ExtraInfo": "veniam",
+      "StyleHint": "saepe",
+      "Hidden": false,
+      "FullName": "Arch Kshlerin"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 658,
-  "Name": "Corwin-Stiedemann",
-  "Tooltip": "praesentium",
-  "Rank": 736,
+  "SaleTypeId": 586,
+  "Name": "Schmitt Group",
+  "Tooltip": "iste",
+  "Rank": 218,
   "DurationUnit": "Century",
-  "SaleDuration": 174,
-  "SaleTypeCatId": 728,
-  "Deleted": false,
+  "SaleDuration": 28,
+  "SaleTypeCatId": 456,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 636,
-  "QuoteLinesTemplate": 50,
-  "ConfirmationLinesTemplate": 443,
+  "DefaultQuoteValidity": 649,
+  "QuoteLinesTemplate": 362,
+  "ConfirmationLinesTemplate": 191,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 991,
-  "MinEarningPercent": 94,
-  "GroupQuoteLinesBy": 876,
-  "SortGroupLinesBy": 853,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 422,
+  "MinEarningPercent": 517,
+  "GroupQuoteLinesBy": 419,
+  "SortGroupLinesBy": 106,
   "Stages": [
     {
-      "Id": 957,
-      "Name": "Goyette, Greenfelder and Hansen",
-      "ToolTip": "In et.",
+      "Id": 757,
+      "Name": "Schmeler, Mraz and Stiedemann",
+      "ToolTip": "Optio ducimus non.",
       "Deleted": false,
-      "Rank": 512,
-      "Type": "a",
-      "ColorBlock": 484,
-      "IconHint": "illo",
-      "Selected": true,
-      "LastChanged": "2008-04-04T23:04:05.793499+02:00",
+      "Rank": 118,
+      "Type": "rerum",
+      "ColorBlock": 14,
+      "IconHint": "voluptatum",
+      "Selected": false,
+      "LastChanged": "2009-05-11T16:55:31.0601858+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "deserunt",
+      "ExtraInfo": "labore",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Dr. Einar Anderson Sr.",
+      "FullName": "Dr. Jacklyn Lila Brekke DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 828
+          "FieldType": "System.Int32",
+          "FieldLength": 245
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldType": "System.Int32",
+      "FieldLength": 39
     }
   }
 }

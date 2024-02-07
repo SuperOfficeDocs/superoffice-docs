@@ -2,7 +2,7 @@
 uid: importproductduplicatematch
 title: importproductduplicatematch
 keywords: mdoprovider mdo provider importproductduplicatematch
-description: Import product detect duplicates based on field:  Name, Code, Name+Code
+description: Import product detect duplicates based on field - Name, Code, Name+Code
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

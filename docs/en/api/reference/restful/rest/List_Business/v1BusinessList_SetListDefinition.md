@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Hettinger-Franecki",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 189,
-  "IsCustomList": false,
+  "Id": 886,
+  "Name": "Tremblay-Stiedemann",
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "Rank": 254,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": false
+  "ListType": "temporibus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Lind-Balistreri",
-  "Tooltip": "sit",
+  "Id": 826,
+  "Name": "Donnelly Group",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 702,
+  "Rank": 815,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 26
     }
   }
 }

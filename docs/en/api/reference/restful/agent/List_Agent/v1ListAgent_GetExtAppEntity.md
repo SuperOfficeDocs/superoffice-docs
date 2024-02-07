@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=398
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=514
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 511,
-  "Name": "Eichmann-Yundt",
-  "Tooltip": "rerum",
+  "ExtAppId": 875,
+  "Name": "Stamm Inc and Sons",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 642,
-  "Filename": "quia",
-  "Parameters": "molestiae",
-  "Workdir": "vel",
+  "Rank": 830,
+  "Filename": "est",
+  "Parameters": "et",
+  "Workdir": "rem",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 177,
+  "Icon": 183,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "sit",
+  "Path": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 326
     }
   }
 }

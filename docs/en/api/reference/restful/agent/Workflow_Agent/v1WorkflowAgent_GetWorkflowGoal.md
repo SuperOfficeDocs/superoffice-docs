@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=526
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=192
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 231,
-  "WorkflowId": 180,
+  "WorkflowGoalId": 961,
+  "WorkflowId": 824,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Wiza-Ledner",
-      "Description": "Devolved global benchmark",
-      "Rank": 992,
+      "Name": "Miller, Schaden and Champlin",
+      "Description": "Quality-focused neutral encryption",
+      "Rank": 206,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wiza-Ledner",
-      "Description": "Devolved global benchmark",
-      "Rank": 992,
+      "Name": "Miller, Schaden and Champlin",
+      "Description": "Quality-focused neutral encryption",
+      "Rank": 206,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 919
     }
   }
 }

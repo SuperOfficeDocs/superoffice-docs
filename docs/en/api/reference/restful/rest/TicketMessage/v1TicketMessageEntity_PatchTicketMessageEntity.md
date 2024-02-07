@@ -112,7 +112,7 @@ TicketMessageEntity  updated.
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -122,7 +122,7 @@ TicketMessageEntity  updated.
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -133,18 +133,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "architecto",
+    "path": "rem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "architecto",
+    "path": "rem",
     "value": {}
   }
 ]
@@ -157,28 +157,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 260,
+  "EjMessageId": 382,
   "Ticket": null,
-  "CreatedAt": "2005-11-08T23:04:04.9835079+01:00",
+  "CreatedAt": "2002-08-01T16:55:30.3038169+02:00",
   "CreatedBy": null,
-  "Author": "porro",
+  "Author": "eum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestias",
-  "TimeSpent": 991,
-  "Body": "laboriosam",
-  "HtmlBody": "non",
-  "EmailHeader": "zoe@vandervort.com",
-  "DebugInfo": "accusantium",
-  "MailSorter": "eaque",
+  "MessageId": "voluptatibus",
+  "TimeSpent": 200,
+  "Body": "ut",
+  "HtmlBody": "aut",
+  "EmailHeader": "sylvester_collier@gislason.biz",
+  "DebugInfo": "ad",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "illum",
+  "SearchTitle": "minima",
   "MessageHeaders": [
     {
-      "Id": 654,
-      "Name": "O'Connell-Weissnat",
-      "Value": "quia",
+      "Id": 938,
+      "Name": "Halvorson, Cormier and Torp",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -186,54 +186,54 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldLength": 657
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "quis",
-  "Sentiment": 7,
-  "SentimentConfidence": 287,
+  "Important": false,
+  "Language": "rerum",
+  "Sentiment": 197,
+  "SentimentConfidence": 702,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 493,
-      "Name": "Von Inc and Sons",
-      "ContentType": "eos",
-      "AttSize": 494,
-      "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "quia",
+      "AttachmentId": 739,
+      "Name": "Ward-Beier",
+      "ContentType": "atque",
+      "AttSize": 206,
+      "InlineImage": true,
+      "ContentId": "a",
+      "AuthKey": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 150
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "earum",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "ex"
+    "CustomFields1": "vel",
+    "CustomFields2": "vel"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 423
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

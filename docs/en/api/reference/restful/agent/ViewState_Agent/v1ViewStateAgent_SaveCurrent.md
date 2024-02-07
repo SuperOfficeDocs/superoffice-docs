@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 92,
-  "Id": 635,
-  "HistoryName": "Bahringer, Ledner and Dach",
-  "HistoryId": 187,
-  "AssociateId": 36,
-  "Name": "Beahan, Larkin and Keeling",
-  "ItemInfo": "facere",
+  "Rank": 774,
+  "Id": 33,
+  "HistoryName": "Wuckert, Schultz and White",
+  "HistoryId": 170,
+  "AssociateId": 540,
+  "Name": "Christiansen, Mayert and Ledner",
+  "ItemInfo": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 600
     }
   }
 }

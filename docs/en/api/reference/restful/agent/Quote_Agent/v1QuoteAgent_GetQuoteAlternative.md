@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=634
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=658
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 810,
-  "ERPQuoteAlternativeKey": "rem",
-  "QuoteVersionId": 95,
-  "Name": "Sanford, Schultz and Frami",
-  "Description": "Stand-alone contextually-based attitude",
+  "QuoteAlternativeId": 279,
+  "ERPQuoteAlternativeKey": "dolores",
+  "QuoteVersionId": 254,
+  "Name": "Anderson, Larkin and Macejkovic",
+  "Description": "Horizontal bifurcated application",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 28080.64,
-  "ERPDiscountAmount": 30387.264,
-  "DiscountPercent": 15456.887999999999,
-  "DiscountAmount": 18296.291999999998,
+  "ERPDiscountPercent": 15112.148,
+  "ERPDiscountAmount": 12921.482,
+  "DiscountPercent": 14344.318,
+  "DiscountAmount": 24601.899999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "impedit",
-  "VAT": 17907.676,
-  "EarningPercent": 15704.474,
-  "EarningAmount": 2215.738,
-  "SubTotal": 9953.5839999999989,
-  "TotalPrice": 8113.9259999999995,
-  "ExtraField1": "laudantium",
-  "ExtraField2": "recusandae",
-  "ExtraField3": "et",
+  "VATInfo": "et",
+  "VAT": 30779.014,
+  "EarningPercent": 29854.484,
+  "EarningAmount": 19120.534,
+  "SubTotal": 14519.822,
+  "TotalPrice": 62.68,
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "esse",
+  "ExtraField3": "ea",
   "ExtraField4": "et",
-  "ExtraField5": "eum",
+  "ExtraField5": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

@@ -64,8 +64,8 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Associate | Associate | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact | Contact | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <para>Use MDO List name "contact_new" to get list items.</para> |
+| Associate | Associate | The owner of the appointment - the associate whose diary/checklist the appointment is in.  Use MDO List name "associate" to get list items. |
+| Contact | Contact | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  Use MDO List name "contact_new" to get list items. |
 | CreatedBy | Associate | The associate that first created the appointment. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | CreatedDate | date-time | Registered date  in UTC. |
@@ -77,11 +77,11 @@ OK
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson | Person | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
-| Person | Person | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
+| Person | Person | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  Use MDO List name "person" to get list items. |
 | MotherId | int32 | ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking |
-| Priority | Priority | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <para>Use MDO List name "priority" to get list items.</para> |
+| Priority | Priority | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  Use MDO List name "priority" to get list items. |
 | Private | string | The confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual. |
-| Project | Project | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Project | Project | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  Use MDO List name "project" to get list items. |
 | Type | string | The different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it's a document. See the different types of appointments in the database manual. |
 | UpdatedDate | date-time | Updated date  in UTC. |
 | Completed | string | Appointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set. |
@@ -96,7 +96,7 @@ OK
 | LeadTime | string | Time blocked (minutes) BEFORE starttime |
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
-| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
+| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  Use MDO List name "rejectReason" to get list items. |
 | Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
@@ -106,10 +106,10 @@ OK
 | HasConflict | bool | Does the appointment overlap with another appointment in the user's diary? |
 | AssignedBy | Associate | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate | Associate | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
-| Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
+| Task | TaskListItem | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  Use MDO List name "task" to get list items. |
 | PreferredTZLocation | int32 | Appointments preferred timezone location. |
 | PreferredTZLocationData | TimeZoneData | Read-only timezone data for PreferredTZLocation. |
-| Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  Use MDO List name "sale" to get list items. |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
@@ -117,7 +117,7 @@ OK
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.AppointmentEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 894,
+  "AppointmentId": 164,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-05-05T23:03:54.8011449+02:00",
-  "AppointmentId": 733,
-  "Description": "Synergized global implementation",
-  "Title": "ea",
+  "CreatedDate": "1997-03-20T16:54:54.4358802+01:00",
+  "AppointmentId": 509,
+  "Description": "Future-proofed full-range analyzer",
+  "Title": "voluptatum",
   "Agenda": "enim",
-  "InternalNotes": "non",
-  "StartDate": "2015-12-02T23:03:54.8011449+01:00",
-  "EndDate": "2015-05-19T23:03:54.8011449+02:00",
+  "InternalNotes": "et",
+  "StartDate": "2005-10-17T16:54:54.4358802+02:00",
+  "EndDate": "2015-08-17T16:54:54.4358802+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 685,
+  "MotherId": 555,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-06-15T23:03:54.8046462+02:00",
+  "UpdatedDate": "2010-10-12T16:54:54.4378798+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 380,
+  "ActiveLinks": 672,
   "Links": [
     {
-      "EntityName": "Keeling, Bradtke and Fisher",
-      "Id": 767,
-      "Description": "Integrated client-server pricing structure",
-      "ExtraInfo": "odit",
-      "LinkId": 993,
+      "EntityName": "Hammes-Von",
+      "Id": 442,
+      "Description": "Front-line mission-critical methodology",
+      "ExtraInfo": "alias",
+      "LinkId": 37,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldType": "System.String",
+          "FieldLength": 158
         }
       }
     }
   ],
-  "AlarmLeadTime": "aperiam",
+  "AlarmLeadTime": "hic",
   "HasAlarm": false,
-  "ColorIndex": 101,
+  "ColorIndex": 761,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptatem",
-  "LeadTime": "repellendus",
-  "Location": "sed",
-  "RejectCounter": 237,
+  "IsAlldayEvent": false,
+  "LagTime": "eos",
+  "LeadTime": "voluptatem",
+  "Location": "harum",
+  "RejectCounter": 683,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 787,
-      "PersonId": 897,
-      "ContactId": 70,
-      "EmailId": 993,
-      "SendEmail": false,
+      "AssociateId": 763,
+      "PersonId": 550,
+      "ContactId": 497,
+      "EmailId": 552,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "edmund.rice@lind.com",
-      "Description": "Face to face even-keeled ability"
+      "EmailAddress": "amalia@dare.co.uk",
+      "Description": "Exclusive 3rd generation encoding"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-02-03T23:03:54.8051433+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2020-10-26T16:54:54.4378798+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 663,
+  "PreferredTZLocation": 739,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 981,
+  "SuggestedAppointmentId": 277,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "excepturi",
+  "CentralserviceVideomeetId": "optio",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Marty Brakus",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1161425691",
+    "SuperOffice:2": "Maurice Littel"
   },
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "et"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "perspiciatis",
-    "CustomFields2": "eveniet"
+    "CustomFields1": "tempora",
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "1998-03-15T23:03:54.8081452+01:00",
-  "PublishTo": "1999-09-20T23:03:54.8081452+02:00",
-  "PublishFrom": "2011-11-04T23:03:54.8081452+01:00",
+  "PublishEventDate": "2015-06-22T16:54:54.4388786+02:00",
+  "PublishTo": "2020-07-16T16:54:54.4388786+02:00",
+  "PublishFrom": "1997-07-03T16:54:54.4388786+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 113,
+      "VisibleId": 864,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 708
+          "FieldType": "System.Int32",
+          "FieldLength": 636
         }
       }
     },
     {
-      "VisibleId": 113,
+      "VisibleId": 864,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 708
+          "FieldType": "System.Int32",
+          "FieldLength": 636
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 671
     }
   }
 }

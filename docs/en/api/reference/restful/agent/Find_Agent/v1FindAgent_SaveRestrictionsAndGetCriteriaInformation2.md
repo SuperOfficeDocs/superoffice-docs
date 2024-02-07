@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nostrum",
-  "ProviderName": "Schumm, Langworth and Hodkiewicz",
-  "StorageKey": "molestiae",
-  "Restrictions": "cum",
-  "StaticColumns": "voluptatum"
+  "StorageType": "inventore",
+  "ProviderName": "Morissette Group",
+  "StorageKey": "maiores",
+  "Restrictions": "est",
+  "StaticColumns": "voluptas"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Jacobs, Schaefer and Hagenes",
-      "Operator": "quisquam",
+      "Name": "Kozey, Bailey and Johnston",
+      "Operator": "placeat",
       "Values": [
-        "qui",
-        "earum"
+        "doloremque",
+        "soluta"
       ],
       "DisplayValues": [
-        "vel",
-        "sunt"
+        "nam",
+        "harum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 241,
+      "InterParenthesis": 290,
       "InterOperator": "And",
-      "UniqueHash": 488
+      "UniqueHash": 770
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bayer Inc and Sons",
-      "DisplayTooltip": "assumenda",
-      "DisplayType": "provident",
+      "DisplayName": "Quigley, Hagenes and Wintheiser",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "debitis",
       "CanOrderBy": false,
-      "Name": "Nolan-Grimes",
+      "Name": "Effertz Group",
       "CanRestrictBy": false,
-      "RestrictionType": "eaque",
-      "RestrictionListName": "Jakubowski, Jacobi and Schamberger",
-      "IsVisible": false,
-      "ExtraInfo": "placeat",
-      "Width": "similique",
-      "IconHint": "est",
-      "HeadingIconHint": "eos"
+      "RestrictionType": "mollitia",
+      "RestrictionListName": "Jacobs-Baumbach",
+      "IsVisible": true,
+      "ExtraInfo": "in",
+      "Width": "error",
+      "IconHint": "illum",
+      "HeadingIconHint": "mollitia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hayes, Batz and Wunsch",
-      "PrimaryKey": 234,
+      "EntityName": "Friesen LLC",
+      "PrimaryKey": 94,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nisi",
-          "TooltipHint": "eos",
-          "LinkHint": "expedita"
+          "DisplayValue": "mollitia",
+          "TooltipHint": "tenetur",
+          "LinkHint": "modi"
         }
       },
-      "LinkHint": "architecto",
-      "StyleHint": "harum",
+      "LinkHint": "nam",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 125
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Boyer-Mayert",
-      "Description": "Optimized bifurcated intranet",
-      "Rank": 147,
+      "Name": "Schiller, Runte and Smith",
+      "Description": "Multi-lateral neutral hardware",
+      "Rank": 637,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Boyer-Mayert",
-      "Description": "Optimized bifurcated intranet",
-      "Rank": 147,
+      "Name": "Schiller, Runte and Smith",
+      "Description": "Multi-lateral neutral hardware",
+      "Rank": 637,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 174
     }
   }
 }

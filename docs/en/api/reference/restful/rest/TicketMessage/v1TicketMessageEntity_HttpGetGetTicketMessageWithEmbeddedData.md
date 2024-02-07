@@ -77,7 +77,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -87,7 +87,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -107,78 +107,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 672,
+  "EjMessageId": 137,
   "Ticket": null,
-  "CreatedAt": "2006-12-13T23:04:04.9630066+01:00",
+  "CreatedAt": "2014-10-13T16:55:30.2898073+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "ea",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eius",
-  "TimeSpent": 367,
-  "Body": "aut",
-  "HtmlBody": "alias",
-  "EmailHeader": "angelina@harvey.co.uk",
-  "DebugInfo": "nostrum",
-  "MailSorter": "dolor",
+  "MessageId": "ad",
+  "TimeSpent": 707,
+  "Body": "sapiente",
+  "HtmlBody": "aperiam",
+  "EmailHeader": "cedrick@hermiston.us",
+  "DebugInfo": "beatae",
+  "MailSorter": "ea",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quo",
+  "SearchTitle": "numquam",
   "MessageHeaders": [
     {
-      "Id": 12,
-      "Name": "Metz, Shanahan and Jacobson",
-      "Value": "nisi",
+      "Id": 568,
+      "Name": "Metz-Shanahan",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldType": "System.String",
+          "FieldLength": 73
         }
       }
     }
   ],
   "Important": false,
-  "Language": "sint",
-  "Sentiment": 210,
-  "SentimentConfidence": 284,
+  "Language": "repudiandae",
+  "Sentiment": 484,
+  "SentimentConfidence": 564,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 324,
-      "Name": "Hermann Inc and Sons",
-      "ContentType": "modi",
-      "AttSize": 845,
+      "AttachmentId": 480,
+      "Name": "Kuphal, Runte and Hayes",
+      "ContentType": "hic",
+      "AttSize": 106,
       "InlineImage": false,
-      "ContentId": "accusantium",
-      "AuthKey": "aut",
+      "ContentId": "expedita",
+      "AuthKey": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldType": "System.String",
+          "FieldLength": 975
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "error"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "rerum"
+    "CustomFields1": "magni",
+    "CustomFields2": "earum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 125
     }
   }
 }

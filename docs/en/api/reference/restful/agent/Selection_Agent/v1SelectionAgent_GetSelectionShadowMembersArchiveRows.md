@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 957,
-  "Select": "distinctio"
+  "SelectionId": 505,
+  "Select": "in"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Paucek-Berge",
-    "PrimaryKey": 100,
+    "EntityName": "McDermott Group",
+    "PrimaryKey": 211,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "accusamus",
-        "TooltipHint": "neque",
-        "LinkHint": "possimus"
+        "DisplayValue": "dolores",
+        "TooltipHint": "asperiores",
+        "LinkHint": "expedita"
       }
     },
-    "LinkHint": "illo",
-    "StyleHint": "earum",
+    "LinkHint": "fugit",
+    "StyleHint": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 41
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

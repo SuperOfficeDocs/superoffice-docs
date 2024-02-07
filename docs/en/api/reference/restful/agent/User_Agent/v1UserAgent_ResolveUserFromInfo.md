@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 949,
-  "PersonName": "Hagenes LLC",
+  "ContactId": 473,
+  "PersonName": "Stehr, Hilpert and Murray",
   "PhoneNumbers": [
-    "1333459",
-    "749245"
+    "849892",
+    "1146023"
   ],
   "Emails": [
-    "cathryn.aufderhar@terrymueller.us",
-    "isobel@heathcote.co.uk"
+    "luciano.kutch@auer.biz",
+    "marty_ondricka@kub.info"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   }
 }

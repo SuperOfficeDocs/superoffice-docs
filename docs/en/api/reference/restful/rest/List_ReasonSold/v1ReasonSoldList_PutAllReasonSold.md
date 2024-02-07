@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Ward Inc and Sons",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "UdListDefinitionId": 869,
-    "Rank": 94
+    "Id": 1002,
+    "Name": "Weber-Metz",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 525,
+    "Rank": 911
   },
   {
-    "Id": 992,
-    "Name": "Ward Inc and Sons",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "UdListDefinitionId": 869,
-    "Rank": 94
+    "Id": 1002,
+    "Name": "Weber-Metz",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 525,
+    "Rank": 911
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Erdman Group",
-    "Tooltip": "sed",
+    "Id": 962,
+    "Name": "O'Kon LLC",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "UdListDefinitionId": 950,
-    "Rank": 980,
+    "UdListDefinitionId": 594,
+    "Rank": 641,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 559
       }
     }
   }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Kuhn Inc and Sons",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "UdListDefinitionId": 394,
-  "Rank": 780,
+  "Id": 879,
+  "Name": "Connelly Group",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 350,
+  "Rank": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 665
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Walsh-Abernathy",
-    "ToolTip": "Labore est vel.",
+    "Id": 694,
+    "Name": "Connelly-Graham",
+    "ToolTip": "Error non et alias temporibus nostrum.",
     "Deleted": false,
-    "Rank": 813,
-    "Type": "nostrum",
-    "ColorBlock": 1001,
-    "IconHint": "minima",
+    "Rank": 639,
+    "Type": "nam",
+    "ColorBlock": 942,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2000-10-18T23:04:05.7289986+02:00",
+    "LastChanged": "2018-01-07T16:55:31.0021898+01:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Marvin-Tillman",
-        "ToolTip": "Laboriosam explicabo.",
+        "Id": 62,
+        "Name": "Walter, Shanahan and Gutmann",
+        "ToolTip": "Similique placeat autem.",
         "Deleted": false,
-        "Rank": 51,
-        "Type": "voluptas",
-        "ColorBlock": 928,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2023-09-09T23:04:05.7289986+02:00",
+        "Rank": 69,
+        "Type": "veritatis",
+        "ColorBlock": 552,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2007-11-03T16:55:31.0021898+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "dolore",
+        "ExtraInfo": "alias",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Miss Hattie Schumm Jr.",
+        "FullName": "Douglas Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 294
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Mr. Roslyn Daugherty IV",
+    "ExtraInfo": "dolore",
+    "StyleHint": "pariatur",
+    "Hidden": false,
+    "FullName": "Rodrigo Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 649
       }
     }
   }

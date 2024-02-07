@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 791
+  "SelectionId": 474
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heller, Christiansen and Goyette",
-    "Description": "Enterprise-wide eco-centric encoding",
-    "Rank": 666,
+    "Name": "Eichmann Group",
+    "Description": "Versatile local local area network",
+    "Rank": 748,
     "Restrictions": [
       {
-        "Name": "Howell-Wilkinson",
-        "Operator": "ut",
+        "Name": "Effertz Group",
+        "Operator": "harum",
         "Values": [
-          "dolore",
-          "nihil"
+          "et",
+          "repudiandae"
         ],
         "DisplayValues": [
-          "hic",
-          "assumenda"
+          "iusto",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 523,
+        "InterParenthesis": 345,
         "InterOperator": "And",
-        "UniqueHash": 377
+        "UniqueHash": 775
       }
     ]
   },
   {
-    "Name": "Heller, Christiansen and Goyette",
-    "Description": "Enterprise-wide eco-centric encoding",
-    "Rank": 666,
+    "Name": "Eichmann Group",
+    "Description": "Versatile local local area network",
+    "Rank": 748,
     "Restrictions": [
       {
-        "Name": "Howell-Wilkinson",
-        "Operator": "ut",
+        "Name": "Effertz Group",
+        "Operator": "harum",
         "Values": [
-          "dolore",
-          "nihil"
+          "et",
+          "repudiandae"
         ],
         "DisplayValues": [
-          "hic",
-          "assumenda"
+          "iusto",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 523,
+        "InterParenthesis": 345,
         "InterOperator": "And",
-        "UniqueHash": 377
+        "UniqueHash": 775
       }
     ]
   }

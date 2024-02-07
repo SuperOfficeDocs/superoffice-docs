@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 155,
-  "PlainMessage": "id",
-  "HtmlMessage": "delectus",
-  "SmsMessage": "qui",
-  "Description": "Cross-group scalable capability",
-  "Subject": "sit",
-  "FolderId": 253,
-  "HeaderField": "consequuntur",
-  "Design": "dolorem",
+  "ShipmentMessageId": 781,
+  "PlainMessage": "quidem",
+  "HtmlMessage": "tempore",
+  "SmsMessage": "exercitationem",
+  "Description": "Re-engineered stable array",
+  "Subject": "quis",
+  "FolderId": 693,
+  "HeaderField": "doloremque",
+  "Design": "nihil",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Public-key bottom-line hierarchy",
-  "AccessKey": "quos",
-  "DocumentMessage": 284,
-  "Registered": "2018-05-09T23:04:04.8035098+02:00",
-  "RegisteredAssociateId": 91,
-  "Updated": "2019-01-30T23:04:04.8035098+01:00",
-  "UpdatedAssociateId": 16,
-  "UpdatedCount": 47,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Open-architected systemic budgetary management",
+  "AccessKey": "recusandae",
+  "DocumentMessage": 846,
+  "Registered": "2021-12-28T16:55:30.1420215+01:00",
+  "RegisteredAssociateId": 733,
+  "Updated": "2019-02-16T16:55:30.1420215+01:00",
+  "UpdatedAssociateId": 971,
+  "UpdatedCount": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldType": "System.String",
+      "FieldLength": 683
     }
   }
 }

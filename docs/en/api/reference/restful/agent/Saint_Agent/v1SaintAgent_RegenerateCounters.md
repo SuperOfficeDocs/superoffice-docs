@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 147,
-  "Name": "O'Conner, McKenzie and Streich",
-  "AssociateId": 904,
-  "DetailsTable": 864,
-  "DetailsRecord": 979,
-  "IsSystemTask": false,
+  "Id": 944,
+  "Name": "Jacobs, Smith and Kunze",
+  "AssociateId": 808,
+  "DetailsTable": 203,
+  "DetailsRecord": 439,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ratione",
-    "ParameterObject2": "autem"
+    "ParameterObject1": "veritatis",
+    "ParameterObject2": "odit"
   },
-  "LastStarted": "1998-10-13T23:03:56.8486173+02:00",
-  "Created": "2006-10-05T23:03:56.8486173+02:00",
-  "StartCount": 637,
-  "DatabaseSerialNumber": "1563945",
-  "Context": "sed",
-  "Result": "illum",
+  "LastStarted": "2017-09-11T16:54:56.1979912+02:00",
+  "Created": "2024-01-14T16:54:56.1979912+01:00",
+  "StartCount": 754,
+  "DatabaseSerialNumber": "525237",
+  "Context": "ut",
+  "Result": "tempore",
   "State": "All",
-  "Description": "Organized web-enabled benchmark",
-  "Response": "repellendus",
-  "Request": "voluptatem",
-  "ProgressDescription": "Inverse maximized policy",
-  "ProgressPercent": 906,
-  "FileName": "Wisozk LLC",
+  "Description": "Down-sized systemic groupware",
+  "Response": "velit",
+  "Request": "quidem",
+  "ProgressDescription": "Innovative reciprocal forecast",
+  "ProgressPercent": 110,
+  "FileName": "Schinner, Nader and Friesen",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldLength": 179
     }
   }
 }

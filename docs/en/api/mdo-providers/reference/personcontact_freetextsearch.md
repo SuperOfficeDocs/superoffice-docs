@@ -2,11 +2,7 @@
 uid: personcontact_freetextsearch
 title: personcontact_freetextsearch
 keywords: mdoprovider mdo provider personcontact_freetextsearch
-description: Provider for selecting a Person - with contact search.
-Does keyword matching and scoring across multiple
-tables using freetext index.
-First does BEGINS and CONTAINS searches in parallel.
-If neither results in anything, then falls back to SOUNDEX search.
+description: Provider for selecting a Person - with contact search. Does keyword matching and scoring across multiple tables using freetext index. First does BEGINS and CONTAINS searches in parallel. If neither results in anything, then falls back to SOUNDEX search.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -23,9 +19,11 @@ User's own contacts, recently added + modified contacts, contacts modified or cr
 Matches on word boundaries or at start of field are scored extra highly.
 Contacts with lots of activity or lots of recent activity (according to the SAINT counters) are also
 preferred.
-<para />
+
+
 Returns person items only: Id = ExtraInfo = person_id, Type = "Person", StyleHint = "stop"
-<para />
+
+
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PersonContactListFreetextSearchProvider">PersonContactListFreetextSearchProvider</see> class.

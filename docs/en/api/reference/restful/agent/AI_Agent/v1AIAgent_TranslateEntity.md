@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Hickle-Kozey",
-  "EntityId": 773,
-  "TargetLanguage": "quia"
+  "EntityName": "Dicki Inc and Sons",
+  "EntityId": 503,
+  "TargetLanguage": "at"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"deserunt"
+"perferendis"
 ```

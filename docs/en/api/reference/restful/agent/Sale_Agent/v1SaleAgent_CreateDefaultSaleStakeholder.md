@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Corwin LLC",
-  "Comment": "ducimus",
-  "StakeholderRoleId": 763,
-  "CountryId": 993,
-  "PersonId": 473,
-  "EmailDescription": "emile@roob.ca",
-  "EmailId": 59,
-  "EmailAddress": "zachary@nienowstanton.ca",
-  "PhoneId": 721,
-  "ContactName": "Rolfson LLC",
-  "ContactId": 640,
-  "SaleId": 623,
-  "Mrmrs": "explicabo",
-  "Firstname": "Wallace",
-  "MiddleName": "Harris-Douglas",
-  "Lastname": "Buckridge",
-  "SaleStakeholderId": 354,
-  "Rank": 391,
-  "Phone": "(291)053-9979 x3131",
+  "StakeholderRoleName": "Jaskolski, Veum and Greenholt",
+  "Comment": "et",
+  "StakeholderRoleId": 214,
+  "CountryId": 614,
+  "PersonId": 540,
+  "EmailDescription": "ida_wolff@tremblay.biz",
+  "EmailId": 599,
+  "EmailAddress": "paris@mclaughlin.ca",
+  "PhoneId": 328,
+  "ContactName": "Kshlerin Group",
+  "ContactId": 244,
+  "SaleId": 558,
+  "Mrmrs": "molestiae",
+  "Firstname": "Cordelia",
+  "MiddleName": "Reynolds, Swaniawski and Predovic",
+  "Lastname": "Oberbrunner",
+  "SaleStakeholderId": 834,
+  "Rank": 575,
+  "Phone": "156-178-4708",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 854
     }
   }
 }

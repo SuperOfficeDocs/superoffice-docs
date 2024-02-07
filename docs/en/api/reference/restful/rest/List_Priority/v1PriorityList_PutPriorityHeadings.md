@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 903,
-    "Name": "Leuschke, Kutch and Kuphal",
-    "Tooltip": "nihil",
+    "HeadingId": 897,
+    "Name": "Bauch-Larson",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "Rank": 596,
-    "UdListDefinitionId": 777
+    "Rank": 28,
+    "UdListDefinitionId": 468
   },
   {
-    "HeadingId": 903,
-    "Name": "Leuschke, Kutch and Kuphal",
-    "Tooltip": "nihil",
+    "HeadingId": 897,
+    "Name": "Bauch-Larson",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "Rank": 596,
-    "UdListDefinitionId": 777
+    "Rank": 28,
+    "UdListDefinitionId": 468
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 964,
-    "Name": "Bergstrom-Hudson",
-    "Tooltip": "distinctio",
+    "HeadingId": 922,
+    "Name": "Kemmer Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 89,
-    "UdListDefinitionId": 861,
+    "Rank": 734,
+    "UdListDefinitionId": 368,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 772
       }
     }
   }

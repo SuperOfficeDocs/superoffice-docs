@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 02 Nov 2005 23:04:04 G11T
+Last-Modified: Tue, 08 Jul 1997 16:55:29 G7T
 
 {
-  "ForeignDeviceId": 294,
-  "Name": "Lebsack-Ortiz",
-  "CreatedDate": "2000-08-19T23:04:04.2235167+02:00",
-  "UpdatedDate": "2005-11-02T23:04:04.2235167+01:00",
-  "AssociateFullName": "Mr. Abigayle Kihn DDS",
-  "CreatedBy": "incidunt",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "velit",
-  "ForeignAppId": 866,
+  "ForeignDeviceId": 121,
+  "Name": "Adams-Collins",
+  "CreatedDate": "2017-11-04T16:55:29.6504396+01:00",
+  "UpdatedDate": "1997-07-08T16:55:29.6504396+02:00",
+  "AssociateFullName": "Taurean Barton",
+  "CreatedBy": "autem",
+  "UpdatedBy": "recusandae",
+  "DeviceIdentifier": "quo",
+  "ForeignAppId": 740,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 177
     }
   }
 }

@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "inventore",
+  "Type": "cupiditate",
   "ItemsIds": [
-    529,
-    485
+    810,
+    396
   ]
 }
 ```

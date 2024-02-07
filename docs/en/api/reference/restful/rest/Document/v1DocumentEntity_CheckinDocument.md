@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Object-based actuating functionalities
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=sit,explicabo
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Distributed coherent superstructure
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=et,dolorum
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "amet",
-  "VersionId": "excepturi",
+  "ExternalReference": "saepe",
+  "VersionId": "eligendi",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "non",
-  "AdditionalInfo": "voluptatem"
+  "Value": "iure",
+  "AdditionalInfo": "similique"
 }
 ```

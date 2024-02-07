@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "Towne-Bednar",
-    "Tooltip": "quod",
+    "HeadingId": 958,
+    "Name": "Cremin-Ullrich",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 536,
-    "UdListDefinitionId": 945
+    "Rank": 103,
+    "UdListDefinitionId": 673
   },
   {
-    "HeadingId": 369,
-    "Name": "Towne-Bednar",
-    "Tooltip": "quod",
+    "HeadingId": 958,
+    "Name": "Cremin-Ullrich",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 536,
-    "UdListDefinitionId": 945
+    "Rank": 103,
+    "UdListDefinitionId": 673
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 258,
-    "Name": "Walker Group",
-    "Tooltip": "repellat",
+    "HeadingId": 541,
+    "Name": "Upton, Veum and Jewess",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "Rank": 703,
-    "UdListDefinitionId": 700,
+    "Rank": 871,
+    "UdListDefinitionId": 219,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldType": "System.String",
+        "FieldLength": 438
       }
     }
   }

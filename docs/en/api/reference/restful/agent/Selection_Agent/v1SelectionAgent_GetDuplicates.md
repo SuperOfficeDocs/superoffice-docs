@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walter-Hagenes"
+  "Name": "Kreiger Inc and Sons"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Runolfsson Inc and Sons",
-    "SoPrimaryKey": 252,
-    "EntryName": "Wintheiser Group",
-    "EntryIdentifier": "aliquam",
-    "RuleDisplayName": "Dooley-Muller",
+    "RuleName": "Mayert-Rau",
+    "SoPrimaryKey": 836,
+    "EntryName": "Parisian, Bauch and Rodriguez",
+    "EntryIdentifier": "aut",
+    "RuleDisplayName": "Batz LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 841
+        "FieldLength": 941
       }
     }
   }

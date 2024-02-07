@@ -86,12 +86,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 986,
-  "Name": "Rutherford, Hermiston and Schumm",
-  "Tooltip": "nostrum",
-  "Rank": 128,
-  "Rate": 18318.23,
-  "Units": 1451.042,
+  "CurrencyId": 803,
+  "Name": "Donnelly Group",
+  "Tooltip": "quod",
+  "Rank": 548,
+  "Rate": 2554.21,
+  "Units": 3632.306,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 840,
-  "Name": "Barrows, Rosenbaum and Witting",
-  "Tooltip": "ex",
-  "Rank": 218,
-  "Rate": 21044.809999999998,
-  "Units": 4936.05,
-  "Deleted": false,
+  "CurrencyId": 72,
+  "Name": "Becker-Ernser",
+  "Tooltip": "culpa",
+  "Rank": 655,
+  "Rate": 16613.334,
+  "Units": 7499.6619999999994,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 407
     }
   }
 }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Jacobson Inc and Sons"
+  "OwnerName": "Langosh Group"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "scale killer partnerships",
-  "CanBeActivated": true,
+  "Reason": "",
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 189,
-      "NumberOfLicensesFree": 767,
-      "NumberOfLicensesAdded": 993,
-      "NumberOfLicensesNewTotal": 158,
-      "NumberOfLicensesNewFree": 49,
-      "NumberOfLicensesTotal": 420
+      "NumberOfLicensesInUse": 553,
+      "NumberOfLicensesFree": 69,
+      "NumberOfLicensesAdded": 423,
+      "NumberOfLicensesNewTotal": 21,
+      "NumberOfLicensesNewFree": 227,
+      "NumberOfLicensesTotal": 990
     }
   ],
-  "AccumulatedNextCheckDate": "2012-12-10T23:03:56.1366268+01:00"
+  "AccumulatedNextCheckDate": "1999-06-27T16:54:55.502471+02:00"
 }
 ```

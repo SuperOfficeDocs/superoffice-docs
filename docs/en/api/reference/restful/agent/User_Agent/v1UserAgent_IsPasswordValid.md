@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 270,
+  "AssociateId": 128,
   "Type": "AnonymousAssociate",
-  "PersonId": 417,
-  "Password": "impedit"
+  "PersonId": 951,
+  "Password": "eum"
 }
 ```
 

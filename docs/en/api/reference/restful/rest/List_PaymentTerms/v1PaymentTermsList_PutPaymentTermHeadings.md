@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 936,
-    "Name": "Lindgren, Walter and Lockman",
-    "Tooltip": "aut",
+    "HeadingId": 816,
+    "Name": "Kuphal Inc and Sons",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 316,
-    "UdListDefinitionId": 675
+    "Rank": 540,
+    "UdListDefinitionId": 342
   },
   {
-    "HeadingId": 936,
-    "Name": "Lindgren, Walter and Lockman",
-    "Tooltip": "aut",
+    "HeadingId": 816,
+    "Name": "Kuphal Inc and Sons",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 316,
-    "UdListDefinitionId": 675
+    "Rank": 540,
+    "UdListDefinitionId": 342
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 756,
-    "Name": "Maggio-Nikolaus",
-    "Tooltip": "earum",
+    "HeadingId": 116,
+    "Name": "O'Kon Group",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 184,
-    "UdListDefinitionId": 522,
+    "Rank": 504,
+    "UdListDefinitionId": 377,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldType": "System.String",
+        "FieldLength": 581
       }
     }
   }

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hills Inc and Sons",
+  "UdListDefinitionName": "Fisher-Ferry",
   "Items": [
     {
-      "Id": 329,
-      "Name": "Eichmann LLC",
-      "Tooltip": "hic",
+      "Id": 833,
+      "Name": "Orn-Botsford",
+      "Tooltip": "rerum",
       "Deleted": false,
-      "UdListDefinitionId": 502,
-      "Rank": 78
+      "UdListDefinitionId": 71,
+      "Rank": 981
     },
     {
-      "Id": 329,
-      "Name": "Eichmann LLC",
-      "Tooltip": "hic",
+      "Id": 833,
+      "Name": "Orn-Botsford",
+      "Tooltip": "rerum",
       "Deleted": false,
-      "UdListDefinitionId": 502,
-      "Rank": 78
+      "UdListDefinitionId": 71,
+      "Rank": 981
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Schneider Inc and Sons",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 340,
-    "Rank": 220,
+    "Id": 249,
+    "Name": "Mayert-Herzog",
+    "Tooltip": "magnam",
+    "Deleted": false,
+    "UdListDefinitionId": 554,
+    "Rank": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   }

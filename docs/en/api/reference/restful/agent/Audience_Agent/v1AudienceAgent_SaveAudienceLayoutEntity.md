@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 636,
-  "InstanceLayout": "dolorem",
-  "InstanceName": "Nolan-Carroll",
-  "CreatedDate": "2011-05-13T23:03:54.9996433+02:00",
-  "UpdatedDate": "2014-12-03T23:03:54.9996433+01:00",
+  "AudienceLayoutId": 651,
+  "InstanceLayout": "delectus",
+  "InstanceName": "Skiles Group",
+  "CreatedDate": "2016-12-21T16:54:54.5873066+01:00",
+  "UpdatedDate": "1999-01-01T16:54:54.5873066+01:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 321,
-  "InstanceLayout": "maiores",
-  "InstanceName": "Christiansen, Kassulke and Goyette",
-  "CreatedDate": "2014-05-05T23:03:55.0021429+02:00",
-  "UpdatedDate": "2009-08-31T23:03:55.0021429+02:00",
+  "AudienceLayoutId": 960,
+  "InstanceLayout": "et",
+  "InstanceName": "Corkery LLC",
+  "CreatedDate": "2020-01-02T16:54:54.588304+01:00",
+  "UpdatedDate": "2022-10-12T16:54:54.588304+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 720
     }
   }
 }

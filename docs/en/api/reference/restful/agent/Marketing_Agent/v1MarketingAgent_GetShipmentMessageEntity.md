@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=655
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=268
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 652,
-  "PlainMessage": "autem",
-  "HtmlMessage": "ex",
-  "SmsMessage": "ut",
-  "Description": "Configurable cohesive internet solution",
-  "Subject": "provident",
-  "FolderId": 611,
-  "HeaderField": "amet",
-  "Design": "impedit",
+  "ShipmentMessageId": 503,
+  "PlainMessage": "deleniti",
+  "HtmlMessage": "assumenda",
+  "SmsMessage": "vitae",
+  "Description": "Quality-focused dedicated Graphical User Interface",
+  "Subject": "a",
+  "FolderId": 703,
+  "HeaderField": "id",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Diverse needs-based methodology",
-  "AccessKey": "corporis",
-  "DocumentMessage": 529,
-  "Registered": "2010-12-13T23:03:56.3336239+01:00",
-  "RegisteredAssociateId": 889,
-  "Updated": "1999-08-20T23:03:56.3336239+02:00",
-  "UpdatedAssociateId": 873,
-  "UpdatedCount": 934,
+  "LongDescription": "Profound user-facing methodology",
+  "AccessKey": "vitae",
+  "DocumentMessage": 576,
+  "Registered": "1997-07-18T16:54:55.6539925+02:00",
+  "RegisteredAssociateId": 340,
+  "Updated": "2011-08-22T16:54:55.6539925+02:00",
+  "UpdatedAssociateId": 133,
+  "UpdatedCount": 326,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 425
     }
   }
 }

@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 170,
-    "Name": "Gusikowski, Stiedemann and Fahey",
-    "Tooltip": "tempora",
+    "HeadingId": 147,
+    "Name": "Auer-Luettgen",
+    "Tooltip": "impedit",
     "Deleted": false,
-    "Rank": 884,
-    "UdListDefinitionId": 879,
+    "Rank": 815,
+    "UdListDefinitionId": 395,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldType": "System.Int32",
+        "FieldLength": 456
       }
     }
   }

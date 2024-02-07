@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Raynor Inc and Sons",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "UdListDefinitionId": 967,
-  "Rank": 838,
+  "Id": 555,
+  "Name": "Hackett Group",
+  "Tooltip": "quae",
+  "Deleted": true,
+  "UdListDefinitionId": 761,
+  "Rank": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldLength": 190
     }
   }
 }

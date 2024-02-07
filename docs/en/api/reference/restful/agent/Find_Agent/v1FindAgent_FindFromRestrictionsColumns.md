@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Beier-Brakus",
-      "Operator": "voluptas",
+      "Name": "Reichel-Ullrich",
+      "Operator": "perspiciatis",
       "Values": [
-        "quia",
-        "consequuntur"
+        "omnis",
+        "et"
       ],
       "DisplayValues": [
-        "ratione",
-        "cum"
+        "ipsam",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 27,
+      "InterParenthesis": 348,
       "InterOperator": "And",
-      "UniqueHash": 775
+      "UniqueHash": 451
     }
   ],
-  "ProviderName": "Weber-Krajcik",
+  "ProviderName": "Schinner, Schinner and Crist",
   "DesiredColumns": [
-    "dignissimos",
-    "odio"
+    "doloribus",
+    "sint"
   ],
-  "PageSize": 684,
-  "PageNumber": 333
+  "PageSize": 188,
+  "PageNumber": 25
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Keebler-Wuckert",
-      "DisplayTooltip": "perspiciatis",
-      "DisplayType": "modi",
-      "CanOrderBy": true,
-      "Name": "Marks Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "nulla",
-      "RestrictionListName": "Kerluke, Treutel and Dibbert",
-      "IsVisible": false,
-      "ExtraInfo": "unde",
-      "Width": "ut",
-      "IconHint": "quo",
-      "HeadingIconHint": "mollitia"
+      "DisplayName": "Gleason-Stroman",
+      "DisplayTooltip": "itaque",
+      "DisplayType": "ut",
+      "CanOrderBy": false,
+      "Name": "Sauer-Treutel",
+      "CanRestrictBy": false,
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Keeling-O'Connell",
+      "IsVisible": true,
+      "ExtraInfo": "incidunt",
+      "Width": "voluptatem",
+      "IconHint": "aut",
+      "HeadingIconHint": "dolor"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jacobi-Lind",
-      "PrimaryKey": 517,
+      "EntityName": "Terry, Konopelski and Reinger",
+      "PrimaryKey": 743,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nemo",
-          "TooltipHint": "eveniet",
-          "LinkHint": "at"
+          "DisplayValue": "mollitia",
+          "TooltipHint": "voluptate",
+          "LinkHint": "similique"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "inventore",
+      "LinkHint": "architecto",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldLength": 221
         }
       }
     }
   ],
-  "RowCount": 74,
+  "RowCount": 802,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldType": "System.Int32",
+      "FieldLength": 504
     }
   }
 }

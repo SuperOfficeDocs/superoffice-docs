@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Leuschke-Christiansen",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 556,
-  "Rank": 100,
+  "Id": 377,
+  "Name": "Shields, Koelpin and Renner",
+  "Tooltip": "laudantium",
+  "Deleted": true,
+  "UdListDefinitionId": 508,
+  "Rank": 652,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   }
 }

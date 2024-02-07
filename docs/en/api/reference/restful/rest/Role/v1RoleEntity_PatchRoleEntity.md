@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -146,29 +146,29 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 412,
-  "Name": "Medhurst, Bode and Stokes",
-  "Tooltip": "neque",
+  "RoleId": 723,
+  "Name": "Beer-Murray",
+  "Tooltip": "autem",
   "RoleType": "Anonymous",
-  "Deleted": 38,
-  "Rank": 737,
-  "Created": "2000-10-19T23:04:04.6255115+02:00",
-  "UseCategories": 355,
+  "Deleted": 696,
+  "Rank": 543,
+  "Created": "2018-04-05T16:55:29.9925022+02:00",
+  "UseCategories": 722,
   "CreatedBy": null,
-  "Updated": "2014-11-03T23:04:04.6255115+01:00",
+  "Updated": "2014-11-26T16:55:29.9925022+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 895
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

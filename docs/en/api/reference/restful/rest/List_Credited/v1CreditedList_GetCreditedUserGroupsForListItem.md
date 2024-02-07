@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Yundt-Huels",
-    "ToolTip": "Esse minus eaque ut architecto.",
+    "Id": 605,
+    "Name": "Bayer, White and McClure",
+    "ToolTip": "Optio voluptas sint nam.",
     "Deleted": true,
-    "Rank": 100,
-    "Type": "ullam",
-    "ColorBlock": 705,
-    "IconHint": "impedit",
+    "Rank": 235,
+    "Type": "est",
+    "ColorBlock": 911,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2000-01-02T23:04:05.4065005+01:00",
+    "LastChanged": "2013-09-25T16:55:30.6172345+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Schroeder-McClure",
-        "ToolTip": "Sunt veniam at quaerat ipsa.",
+        "Id": 201,
+        "Name": "Wiegand-Parker",
+        "ToolTip": "Aut dolor et eveniet suscipit quas harum.",
         "Deleted": false,
-        "Rank": 64,
-        "Type": "eligendi",
-        "ColorBlock": 692,
-        "IconHint": "ab",
+        "Rank": 113,
+        "Type": "et",
+        "ColorBlock": 150,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2014-04-03T23:04:05.4065005+02:00",
+        "LastChanged": "2014-12-10T16:55:30.6172345+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "et",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Mrs. Ezra Hahn",
+        "FullName": "Mr. Nicolas Cassidy Kemmer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 204
+            "FieldType": "System.Int32",
+            "FieldLength": 943
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "ad",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Mrs. Alexandre Leffler",
+    "FullName": "Jordane Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 373
+        "FieldLength": 235
       }
     }
   }

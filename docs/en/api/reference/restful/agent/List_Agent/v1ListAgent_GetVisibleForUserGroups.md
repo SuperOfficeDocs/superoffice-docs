@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 68,
-  "ListItemId": 974
+  "UdListDefinitionId": 35,
+  "ListItemId": 95
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Morar LLC",
-    "ToolTip": "Dolorem qui quasi possimus.",
-    "Deleted": false,
-    "Rank": 6,
-    "Type": "cumque",
-    "ColorBlock": 957,
-    "IconHint": "reprehenderit",
-    "Selected": false,
-    "LastChanged": "2010-04-16T23:03:56.2066258+02:00",
+    "Id": 120,
+    "Name": "Jakubowski Group",
+    "ToolTip": "Porro odio.",
+    "Deleted": true,
+    "Rank": 47,
+    "Type": "consectetur",
+    "ColorBlock": 977,
+    "IconHint": "commodi",
+    "Selected": true,
+    "LastChanged": "2005-05-23T16:54:55.5559786+02:00",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Osinski Group",
-        "ToolTip": "Similique odit totam quis et iste quasi voluptatem.",
-        "Deleted": true,
-        "Rank": 515,
-        "Type": "fuga",
-        "ColorBlock": 471,
-        "IconHint": "facilis",
-        "Selected": true,
-        "LastChanged": "2011-07-02T23:03:56.2066258+02:00",
+        "Id": 356,
+        "Name": "Stehr Inc and Sons",
+        "ToolTip": "Nulla nam.",
+        "Deleted": false,
+        "Rank": 521,
+        "Type": "qui",
+        "ColorBlock": 751,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2002-06-28T16:54:55.5559786+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Ida Bernier",
+        "ExtraInfo": "non",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Ms. Paolo Monahan I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 389
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "illum",
-    "Hidden": false,
-    "FullName": "Lane Kuhn",
+    "ExtraInfo": "nobis",
+    "StyleHint": "quidem",
+    "Hidden": true,
+    "FullName": "Kallie Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 111
       }
     }
   }

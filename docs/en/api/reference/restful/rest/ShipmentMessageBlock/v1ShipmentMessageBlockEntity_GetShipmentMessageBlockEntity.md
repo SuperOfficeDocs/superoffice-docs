@@ -90,25 +90,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 822,
-  "AssociateId": 360,
-  "Block": "consectetur",
-  "Registered": "2010-01-14T23:04:04.8015106+01:00",
-  "RegisteredAssociateId": 147,
-  "Updated": "2001-07-10T23:04:04.8015106+02:00",
-  "UpdatedAssociateId": 280,
-  "UpdatedCount": 683,
+  "ShipmentMessageBlockId": 883,
+  "AssociateId": 372,
+  "Block": "dolor",
+  "Registered": "2006-10-19T16:55:30.1410215+02:00",
+  "RegisteredAssociateId": 936,
+  "Updated": "2009-10-10T16:55:30.1410215+02:00",
+  "UpdatedAssociateId": 607,
+  "UpdatedCount": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 415
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 08 Jan 2015 23:04:04 G1T
+Last-Modified: Fri, 08 Nov 2019 16:55:29 G11T
 
 {
-  "ForeignAppId": 313,
-  "Name": "Cremin-Dicki",
-  "CreatedDate": "2002-04-05T23:04:04.2120167+02:00",
-  "UpdatedDate": "2015-01-08T23:04:04.2120167+01:00",
+  "ForeignAppId": 387,
+  "Name": "Heidenreich Group",
+  "CreatedDate": "1997-01-02T16:55:29.6415332+01:00",
+  "UpdatedDate": "2019-11-08T16:55:29.6415332+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 875,
-      "Name": "Grant, Murray and Ernser",
-      "CreatedDate": "2021-11-22T23:04:04.2125219+01:00",
-      "UpdatedDate": "2018-07-14T23:04:04.2125219+02:00",
-      "AssociateFullName": "Bertrand Tremblay V",
-      "CreatedBy": "saepe",
-      "UpdatedBy": "ex",
-      "DeviceIdentifier": "id",
-      "ForeignAppId": 805,
+      "ForeignDeviceId": 632,
+      "Name": "Sawayn, Grady and Cormier",
+      "CreatedDate": "2008-02-11T16:55:29.6425416+01:00",
+      "UpdatedDate": "1998-03-03T16:55:29.6425416+01:00",
+      "AssociateFullName": "Deontae Terry",
+      "CreatedBy": "aliquid",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "animi",
+      "ForeignAppId": 201,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 481
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Thu, 08 Jan 2015 23:04:04 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 947
     }
   },
   "_Links": {

@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 14
+  "SelectionId": 310
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Berge, Predovic and McKenzie",
-    "Operator": "magnam",
+    "Name": "Armstrong, Daniel and Miller",
+    "Operator": "soluta",
     "Values": [
-      "at",
-      "sequi"
+      "cumque",
+      "ipsa"
     ],
     "DisplayValues": [
-      "error",
-      "autem"
+      "alias",
+      "natus"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Miller-Runte",
-        "Operator": "occaecati",
+        "Name": "Fahey Group",
+        "Operator": "in",
         "Values": [
-          "velit",
-          "doloremque"
+          "sequi",
+          "hic"
         ],
         "DisplayValues": [
-          "quisquam",
-          "sunt"
+          "tempora",
+          "labore"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 605,
+        "InterParenthesis": 433,
         "InterOperator": "And",
-        "UniqueHash": 11
+        "UniqueHash": 964
       }
     ],
-    "InterParenthesis": 400,
+    "InterParenthesis": 631,
     "InterOperator": "And",
-    "UniqueHash": 232
+    "UniqueHash": 745
   }
 ]
 ```

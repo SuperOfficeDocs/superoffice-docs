@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=hic
-GET /api/v1/Selection?$top=694
-GET /api/v1/Selection?$skip=238
+GET /api/v1/Selection?$entities=repellat
+GET /api/v1/Selection?$top=132
+GET /api/v1/Selection?$skip=738
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=iste
+GET /api/v1/Selection?$context=nesciunt
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "quo",
   "value": [
     {
-      "PrimaryKey": 8066,
-      "EntityName": "person",
-      "personId": 8066,
-      "fullName": "Alfreda Kreiger"
+      "PrimaryKey": 286,
+      "EntityName": "sale",
+      "saleId": 286,
+      "contactId": 7717,
+      "name": "Crist-Torp"
     },
     {
-      "PrimaryKey": 3215,
-      "EntityName": "person",
-      "personId": 3215,
-      "fullName": "Ms. Ettie Letha Herman"
+      "PrimaryKey": 7349,
+      "EntityName": "sale",
+      "saleId": 7349,
+      "contactId": 9260,
+      "name": "Auer Group"
     }
   ]
 }

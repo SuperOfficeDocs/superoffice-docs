@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Kutch Group"
+  "ParameterName": "Johnson, Hyatt and Tillman"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 882,
-  "Name": "Beier Group",
-  "Value": "natus",
-  "CreatedDate": "2014-07-09T23:03:55.0046428+02:00",
-  "UpdatedDate": "2013-07-12T23:03:55.0046428+02:00",
-  "CreatedBy": "voluptas",
-  "UpdatedBy": "qui",
+  "AudienceLayoutId": 286,
+  "Name": "Hoppe, Ledner and Thiel",
+  "Value": "sunt",
+  "CreatedDate": "2020-05-18T16:54:54.5913288+02:00",
+  "UpdatedDate": "2016-10-28T16:54:54.5913288+02:00",
+  "CreatedBy": "recusandae",
+  "UpdatedBy": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 252
     }
   }
 }

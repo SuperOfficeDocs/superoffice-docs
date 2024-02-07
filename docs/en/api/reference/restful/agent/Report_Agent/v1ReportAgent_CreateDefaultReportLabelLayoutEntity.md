@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 234,
-  "Name": "Kertzmann, Bergnaum and Stark",
-  "Description": "Total asynchronous standardization",
+  "ReportLabelLayoutId": 311,
+  "Name": "Kreiger, Robel and Casper",
+  "Description": "Enterprise-wide intermediate firmware",
   "Orientation": "Landscape",
-  "PaperWidth": 813,
-  "PaperHeight": 844,
-  "LeftMargin": 858,
-  "RightMargin": 202,
-  "TopMargin": 530,
-  "BottomMargin": 994,
-  "CountColumns": 170,
-  "CountRows": 816,
+  "PaperWidth": 631,
+  "PaperHeight": 477,
+  "LeftMargin": 551,
+  "RightMargin": 831,
+  "TopMargin": 104,
+  "BottomMargin": 654,
+  "CountColumns": 856,
+  "CountRows": 457,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 788
     }
   }
 }

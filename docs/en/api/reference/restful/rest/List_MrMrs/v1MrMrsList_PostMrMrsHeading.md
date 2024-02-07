@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 27,
-  "Name": "O'Hara, Graham and Wiegand",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 1000,
-  "UdListDefinitionId": 340
+  "HeadingId": 814,
+  "Name": "Reichel Group",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 827,
+  "UdListDefinitionId": 506
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 4,
-  "Name": "Heaney, Wisozk and Parker",
-  "Tooltip": "hic",
-  "Deleted": true,
-  "Rank": 433,
-  "UdListDefinitionId": 602,
+  "HeadingId": 633,
+  "Name": "Grady, Ortiz and Bechtelar",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 470,
+  "UdListDefinitionId": 644,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 447
     }
   }
 }

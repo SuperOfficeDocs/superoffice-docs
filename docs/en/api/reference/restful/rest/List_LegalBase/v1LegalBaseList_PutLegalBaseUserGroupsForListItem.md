@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Douglas LLC",
-    "ToolTip": "Aut sapiente.",
-    "Deleted": true,
-    "Rank": 826,
-    "Type": "explicabo",
-    "ColorBlock": 612,
-    "IconHint": "quis",
+    "Id": 422,
+    "Name": "Adams Inc and Sons",
+    "ToolTip": "Et reprehenderit aut odio nisi.",
+    "Deleted": false,
+    "Rank": 936,
+    "Type": "qui",
+    "ColorBlock": 608,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2020-12-06T23:04:05.4980003+01:00",
+    "LastChanged": "2019-08-19T16:55:30.7021717+02:00",
     "ChildItems": [
       {
-        "Id": 933,
-        "Name": "O'Conner, Beatty and Conroy",
-        "ToolTip": "Tempora totam eaque provident sapiente autem expedita sunt.",
-        "Deleted": false,
-        "Rank": 238,
-        "Type": "incidunt",
-        "ColorBlock": 552,
-        "IconHint": "quia",
+        "Id": 76,
+        "Name": "Keebler Group",
+        "ToolTip": "Omnis ut.",
+        "Deleted": true,
+        "Rank": 261,
+        "Type": "esse",
+        "ColorBlock": 342,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2015-09-25T23:04:05.500999+02:00",
+        "LastChanged": "2021-11-09T16:55:30.7021717+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Khalid O'Connell"
+        "ExtraInfo": "veritatis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Dr. Olin Graham"
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Dr. Alessandro Swift"
+    "ExtraInfo": "veritatis",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Ismael Blanda Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Koss, Ferry and Homenick",
-    "ToolTip": "Laudantium velit omnis molestiae.",
+    "Id": 65,
+    "Name": "Hackett-Goyette",
+    "ToolTip": "Recusandae adipisci cupiditate vel neque eveniet molestias aut.",
     "Deleted": false,
-    "Rank": 491,
-    "Type": "est",
-    "ColorBlock": 930,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2022-10-18T23:04:05.5024991+02:00",
+    "Rank": 147,
+    "Type": "et",
+    "ColorBlock": 615,
+    "IconHint": "itaque",
+    "Selected": false,
+    "LastChanged": "2010-11-04T16:55:30.7021717+01:00",
     "ChildItems": [
       {
-        "Id": 423,
-        "Name": "Daugherty, Fay and Gerlach",
-        "ToolTip": "Facilis qui.",
+        "Id": 333,
+        "Name": "Mohr Inc and Sons",
+        "ToolTip": "At quis nobis quo iure blanditiis sit id.",
         "Deleted": false,
-        "Rank": 169,
-        "Type": "voluptatum",
-        "ColorBlock": 511,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2019-06-12T23:04:05.5024991+02:00",
+        "Rank": 773,
+        "Type": "minima",
+        "ColorBlock": 333,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2017-09-03T16:55:30.7052725+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Ms. Werner Kaela Bauch I",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Tessie Murazik MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldType": "System.String",
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Marina Schuster Jr.",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Marjolaine Mayert Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 865
       }
     }
   }

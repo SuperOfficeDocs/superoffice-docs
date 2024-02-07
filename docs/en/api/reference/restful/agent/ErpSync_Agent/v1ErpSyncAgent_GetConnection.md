@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 627
+  "ErpConnectionId": 343
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 331,
-  "ErpConnectorId": 668,
-  "DisplayName": "Halvorson Group",
-  "DisplayDescription": "Switchable bandwidth-monitored utilisation",
+  "ErpConnectionId": 950,
+  "ErpConnectorId": 211,
+  "DisplayName": "Mitchell-Kuphal",
+  "DisplayDescription": "Fundamental holistic strategy",
   "Active": false,
-  "ConnectionId": "soluta",
-  "MostRecentTimestamp": "reiciendis",
+  "ConnectionId": "doloribus",
+  "MostRecentTimestamp": "ratione",
   "ConfigFields": {
-    "ConfigFields1": "magni",
-    "ConfigFields2": "odio"
+    "ConfigFields1": "eaque",
+    "ConfigFields2": "natus"
   },
   "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    63,
-    905
+    332,
+    760
   ],
   "AssociateAccessIds": [
-    330,
-    329
+    300,
+    748
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 910
     }
   }
 }

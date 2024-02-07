@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 341,
-  "ERPPriceListKey": "quo",
-  "QuoteConnectionId": 651,
-  "Name": "Mueller Inc and Sons",
-  "Description": "Realigned encompassing service-desk",
-  "Currency": "vitae",
-  "CurrencyName": "Wuckert-Huels",
-  "ValidFrom": "2018-04-04T23:04:05.5795005+02:00",
-  "ValidTo": "2020-04-03T23:04:05.5795005+02:00",
+  "PriceListId": 651,
+  "ERPPriceListKey": "laborum",
+  "QuoteConnectionId": 257,
+  "Name": "O'Reilly-Johnston",
+  "Description": "Function-based real-time monitoring",
+  "Currency": "iusto",
+  "CurrencyName": "Conn-Feeney",
+  "ValidFrom": "2021-12-07T16:55:30.7751722+01:00",
+  "ValidTo": "2007-05-10T16:55:30.7751722+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 70
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=762
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=376
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 839,
-  "InstanceLayout": "sint",
-  "InstanceName": "Kuhic-Larkin",
-  "CreatedDate": "2020-11-04T23:03:55.0086419+01:00",
-  "UpdatedDate": "2013-05-16T23:03:55.009142+02:00",
+  "AudienceLayoutId": 271,
+  "InstanceLayout": "quam",
+  "InstanceName": "Stroman LLC",
+  "CreatedDate": "1999-10-08T16:54:54.5933681+02:00",
+  "UpdatedDate": "2020-11-02T16:54:54.5933681+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   }
 }

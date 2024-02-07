@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=890
+POST /api/v1/Agents/User/GetUser?userId=717
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -65,9 +65,9 @@ OK
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup | UserGroup | The main user group that this user belongs to.  Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  Use MDO List name "usergroup" to get list items. |
+| Person | Person | The person associated with this user. Detailed information about the user  Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -78,11 +78,11 @@ OK
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 516,
-  "Name": "Runolfsson, Wiza and Raynor",
-  "Rank": 199,
-  "Tooltip": "aliquam",
+  "AssociateId": 747,
+  "Name": "Rutherford Inc and Sons",
+  "Rank": 848,
+  "Tooltip": "fuga",
   "LicenseOwners": [
     {
-      "Name": "West, Dibbert and Schmitt",
-      "Description": "Self-enabling web-enabled installation",
+      "Name": "Deckow LLC",
+      "Description": "Automated maximized adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,14 +123,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldType": "System.Int32",
+          "FieldLength": 867
         }
       }
     },
     {
-      "Name": "West, Dibbert and Schmitt",
-      "Description": "Self-enabling web-enabled installation",
+      "Name": "Deckow LLC",
+      "Description": "Automated maximized adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldType": "System.Int32",
+          "FieldLength": 867
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ab",
-      "Tooltip": "soluta",
-      "Id": 669,
-      "Rank": 458,
+      "Value": "quos",
+      "Tooltip": "dolores",
+      "Id": 399,
+      "Rank": 371,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 663
+          "FieldType": "System.Int32",
+          "FieldLength": 85
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2004-06-02T23:03:57.5746071+02:00",
-  "Lastlogout": "2015-05-20T23:03:57.5746071+02:00",
-  "EjUserId": 833,
-  "RequestSignature": "est",
+  "Lastlogin": "2020-04-08T16:54:56.6657145+02:00",
+  "Lastlogout": "2023-12-27T16:54:56.6657145+01:00",
+  "EjUserId": 46,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "reiciendis",
+      "Value": "est",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 554
         }
       }
     },
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "reiciendis",
+      "Value": "est",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 554
         }
       }
     }
   ],
-  "UserName": "Renner LLC",
+  "UserName": "Grady-Waelchi",
   "TicketCategories": [
     {
-      "Id": 670,
-      "Name": "Bayer-Oberbrunner",
-      "ToolTip": "Ut labore est.",
-      "Deleted": false,
-      "Rank": 697,
+      "Id": 248,
+      "Name": "Wiegand, Reichert and Ziemann",
+      "ToolTip": "Sed nostrum atque laborum.",
+      "Deleted": true,
+      "Rank": 840,
       "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "perferendis",
-      "ColorBlock": 813,
-      "ExtraInfo": "explicabo",
-      "StyleHint": "laborum",
-      "FullName": "Gloria Champlin",
+      "IconHint": "beatae",
+      "ColorBlock": 841,
+      "ExtraInfo": "enim",
+      "StyleHint": "iure",
+      "FullName": "Etha Evans Becker V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 91
         }
       }
     }
   ],
-  "NickName": "Grant Group",
+  "NickName": "Streich LLC",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "quas",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "quo",
+    "CustomFields2": "reprehenderit"
   },
   "PostSaveCommands": [
     {
-      "Name": "Dietrich LLC",
-      "DisplayName": "Kemmer, Schumm and Harvey",
-      "Description": "Team-oriented actuating functionalities",
-      "ToolTip": "Modi qui similique modi.",
+      "Name": "Legros-Bergnaum",
+      "DisplayName": "Kessler, Hills and Sporer",
+      "Description": "Inverse grid-enabled superstructure",
+      "ToolTip": "Earum laudantium qui.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldLength": 244
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldLength": 951
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 140
+  "MailItemId": 354
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 198,
-  "StartDate": "2023-10-24T23:03:55.9086319+02:00",
-  "EndDate": "2000-05-25T23:03:55.9086319+02:00",
-  "RecurrenceCounter": 396,
+  "RecurrenceId": 506,
+  "StartDate": "2008-12-25T16:54:55.3264202+01:00",
+  "EndDate": "2018-04-29T16:54:55.3264202+02:00",
+  "RecurrenceCounter": 609,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1997-04-18T23:03:55.9086319+02:00",
+      "Date": "2016-11-11T16:54:55.3264202+01:00",
       "IsConflict": true,
-      "Description": "Reverse-engineered eco-centric internet solution",
-      "DescriptionStyleHint": "Stand-alone fault-tolerant orchestration",
-      "Tooltip": "vel"
+      "Description": "Secured grid-enabled neural-net",
+      "DescriptionStyleHint": "Front-line maximized synergy",
+      "Tooltip": "quis"
     },
     {
-      "Date": "1997-04-18T23:03:55.9086319+02:00",
+      "Date": "2016-11-11T16:54:55.3264202+01:00",
       "IsConflict": true,
-      "Description": "Reverse-engineered eco-centric internet solution",
-      "DescriptionStyleHint": "Stand-alone fault-tolerant orchestration",
-      "Tooltip": "vel"
+      "Description": "Secured grid-enabled neural-net",
+      "DescriptionStyleHint": "Front-line maximized synergy",
+      "Tooltip": "quis"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

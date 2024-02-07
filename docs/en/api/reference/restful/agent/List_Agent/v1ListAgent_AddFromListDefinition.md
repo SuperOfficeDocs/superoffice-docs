@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 708,
+  "UdListDefinitionId": 367,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Walter-Herzog",
-  "Tooltip": "et",
+  "Id": 842,
+  "Name": "Cartwright, Barrows and Kuhlman",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 193,
-  "Rank": 422,
+  "UdListDefinitionId": 938,
+  "Rank": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 919
     }
   }
 }

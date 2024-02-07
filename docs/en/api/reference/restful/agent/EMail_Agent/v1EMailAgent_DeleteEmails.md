@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    88,
-    850
+    678,
+    168
   ],
-  "MoveToFolder": "quia"
+  "MoveToFolder": "soluta"
 }
 ```
 

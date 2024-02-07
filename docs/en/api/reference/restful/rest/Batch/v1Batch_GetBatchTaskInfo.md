@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 184,
-  "Name": "Bartoletti-Grimes",
-  "AssociateId": 795,
-  "DetailsTable": 153,
-  "DetailsRecord": 379,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 891,
+  "Name": "Baumbach Group",
+  "AssociateId": 301,
+  "DetailsTable": 350,
+  "DetailsRecord": 417,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ex",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "id",
+    "ParameterObject2": "dolore"
   },
-  "LastStarted": "2018-10-21T23:04:05.0090095+02:00",
-  "Created": "2015-01-17T23:04:05.0090095+01:00",
-  "StartCount": 238,
-  "DatabaseSerialNumber": "725556",
-  "Context": "adipisci",
-  "Result": "cumque",
+  "LastStarted": "1999-03-08T16:55:30.3208171+01:00",
+  "Created": "2012-08-12T16:55:30.3208171+02:00",
+  "StartCount": 438,
+  "DatabaseSerialNumber": "1305299",
+  "Context": "dolores",
+  "Result": "quo",
   "State": "All",
-  "Description": "Integrated reciprocal time-frame",
-  "Response": "voluptatum",
-  "Request": "et",
-  "ProgressDescription": "Monitored 24/7 budgetary management",
-  "ProgressPercent": 727,
-  "FileName": "Mann LLC",
+  "Description": "Automated solution-oriented analyzer",
+  "Response": "rerum",
+  "Request": "eos",
+  "ProgressDescription": "Total dedicated attitude",
+  "ProgressPercent": 800,
+  "FileName": "Hand-Abbott",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 287
     }
   }
 }

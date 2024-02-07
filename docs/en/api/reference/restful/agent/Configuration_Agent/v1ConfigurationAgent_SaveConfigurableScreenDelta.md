@@ -74,8 +74,8 @@ OK
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
 | TableRight | TableRight | The carrier's table right |
@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 297,
-  "Name": "Abbott, Schmitt and Hand",
-  "Description": "Streamlined leading edge toolset",
-  "DeltaJson": "qui",
+  "ConfigurableScreenDeltaId": 281,
+  "Name": "Boyer-Thiel",
+  "Description": "Monitored reciprocal hub",
+  "DeltaJson": "excepturi",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quo",
-  "UpdatedDate": "2010-11-13T23:03:55.2236388+01:00",
-  "CreatedDate": "2007-06-05T23:03:55.2236388+02:00",
+  "RecipeId": "et",
+  "UpdatedDate": "2019-06-16T16:54:54.8791698+02:00",
+  "CreatedDate": "2015-05-31T16:54:54.8791698+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    890,
-    905
+    615,
+    638
   ],
-  "AppliesToKey": "voluptatibus"
+  "AppliesToKey": "pariatur"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 126,
-  "Name": "Koch LLC",
-  "Description": "Progressive bottom-line moderator",
-  "DeltaJson": "quas",
+  "ConfigurableScreenDeltaId": 173,
+  "Name": "Orn-Halvorson",
+  "Description": "Face to face executive core",
+  "DeltaJson": "qui",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "tempora",
-  "UpdatedDate": "2001-09-27T23:03:55.2251395+02:00",
-  "CreatedDate": "2004-09-18T23:03:55.2251395+02:00",
+  "RecipeId": "necessitatibus",
+  "UpdatedDate": "1997-11-08T16:54:54.8801704+01:00",
+  "CreatedDate": "2004-10-04T16:54:54.8801704+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    91,
-    987
+    951,
+    628
   ],
-  "AppliesToKey": "ut",
+  "AppliesToKey": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 870
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

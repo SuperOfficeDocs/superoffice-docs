@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "Greenfelder, Wolf and Weimann",
-    "ToolTip": "Dolorem nulla dignissimos omnis placeat culpa excepturi accusamus.",
-    "Deleted": false,
-    "Rank": 140,
-    "Type": "ipsa",
-    "ColorBlock": 719,
-    "IconHint": "cumque",
+    "Id": 709,
+    "Name": "Witting, Abernathy and Bins",
+    "ToolTip": "Sunt veniam voluptas beatae consequatur voluptas ipsa.",
+    "Deleted": true,
+    "Rank": 113,
+    "Type": "architecto",
+    "ColorBlock": 172,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "2009-11-25T23:04:05.6949975+01:00",
+    "LastChanged": "2012-12-05T16:55:30.9776682+01:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Considine, Wolf and Hahn",
-        "ToolTip": "In labore voluptatem rerum at odit officia quia.",
+        "Id": 590,
+        "Name": "Schumm-Blick",
+        "ToolTip": "Laborum voluptatem quidem.",
         "Deleted": true,
-        "Rank": 351,
-        "Type": "ipsum",
-        "ColorBlock": 528,
-        "IconHint": "doloribus",
-        "Selected": true,
-        "LastChanged": "2014-08-05T23:04:05.6954981+02:00",
+        "Rank": 937,
+        "Type": "inventore",
+        "ColorBlock": 843,
+        "IconHint": "inventore",
+        "Selected": false,
+        "LastChanged": "2012-09-04T16:55:30.9776682+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "quod",
+        "ExtraInfo": "ratione",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Mrs. Amy Swaniawski MD",
+        "FullName": "Gavin Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Mollie Haley",
+    "ExtraInfo": "vel",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Rosendo Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

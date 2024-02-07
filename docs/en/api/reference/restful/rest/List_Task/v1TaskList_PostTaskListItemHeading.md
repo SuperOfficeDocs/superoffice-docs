@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 948,
-  "Name": "Doyle-Dickinson",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 331,
-  "UdListDefinitionId": 903
+  "HeadingId": 463,
+  "Name": "Waters, Adams and Hilpert",
+  "Tooltip": "nostrum",
+  "Deleted": false,
+  "Rank": 129,
+  "UdListDefinitionId": 762
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 175,
-  "Name": "Bogisich-Parisian",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 992,
-  "UdListDefinitionId": 547,
+  "HeadingId": 432,
+  "Name": "Yundt Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 859,
+  "UdListDefinitionId": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 572
     }
   }
 }

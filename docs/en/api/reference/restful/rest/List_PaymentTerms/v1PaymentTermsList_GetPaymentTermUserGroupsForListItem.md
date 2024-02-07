@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Farrell-West",
-    "ToolTip": "Iste veniam at harum veniam aut.",
-    "Deleted": true,
-    "Rank": 124,
-    "Type": "nostrum",
-    "ColorBlock": 972,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2013-12-04T23:04:05.5364987+01:00",
+    "Id": 50,
+    "Name": "Stroman LLC",
+    "ToolTip": "Voluptatem culpa quibusdam adipisci numquam delectus cumque consequuntur.",
+    "Deleted": false,
+    "Rank": 984,
+    "Type": "eum",
+    "ColorBlock": 184,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2022-12-05T16:55:30.7322624+01:00",
     "ChildItems": [
       {
-        "Id": 929,
-        "Name": "Mertz-Crona",
-        "ToolTip": "Nobis iusto nam quam ut id perferendis.",
+        "Id": 920,
+        "Name": "Marks, Gerhold and Harvey",
+        "ToolTip": "Porro doloremque quia reiciendis cumque ut.",
         "Deleted": false,
-        "Rank": 874,
-        "Type": "tenetur",
-        "ColorBlock": 107,
-        "IconHint": "dolorem",
+        "Rank": 520,
+        "Type": "nihil",
+        "ColorBlock": 938,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2018-08-28T23:04:05.5364987+02:00",
+        "LastChanged": "2014-07-20T16:55:30.7322624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "molestias",
-        "Hidden": false,
-        "FullName": "Ms. Guillermo Russel",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Jo Mohr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 562
+            "FieldType": "System.Int32",
+            "FieldLength": 123
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "qui",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Prof. Helena Armstrong I",
+    "FullName": "Ms. Hailey Edd Bruen PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 879
+        "FieldLength": 778
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 155,
-    "Name": "Gutkowski LLC",
-    "Rank": 599,
-    "Tooltip": "consequuntur",
-    "Icon": "quam",
-    "DefaultTicketStatus": 268,
+    "TicketTypeId": 197,
+    "Name": "Rath, Boyle and Nienow",
+    "Rank": 804,
+    "Tooltip": "quia",
+    "Icon": "aperiam",
+    "DefaultTicketStatus": 88,
     "TicketStatuses": [
-      432,
-      96
+      146,
+      481
     ],
-    "DefaultTicketPriority": 258,
+    "DefaultTicketPriority": 587,
     "TicketPriorities": [
-      17,
-      876
+      216,
+      365
     ],
-    "ReplyTemplate": 237,
+    "ReplyTemplate": 400,
     "IsExternalVisible": true,
     "IsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldType": "System.String",
+        "FieldLength": 604
       }
     }
   }

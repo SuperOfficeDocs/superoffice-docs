@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 912,
-  "PrefDescId": 418,
-  "PrefValue": "facere",
-  "PrefShowValue": "non",
-  "Description": "Optional bi-directional definition",
-  "IsBuiltin": true
+  "PrefDescLineId": 132,
+  "PrefDescId": 206,
+  "PrefValue": "ad",
+  "PrefShowValue": "tempora",
+  "Description": "Reactive zero tolerance concept",
+  "IsBuiltin": false
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 635,
-  "PrefDescId": 669,
-  "PrefValue": "enim",
-  "PrefShowValue": "voluptatem",
-  "Description": "Enhanced multimedia circuit",
+  "PrefDescLineId": 677,
+  "PrefDescId": 265,
+  "PrefValue": "ipsam",
+  "PrefShowValue": "dolorum",
+  "Description": "Exclusive static artificial intelligence",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 171
     }
   }
 }

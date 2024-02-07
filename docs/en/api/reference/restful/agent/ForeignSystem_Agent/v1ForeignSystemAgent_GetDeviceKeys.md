@@ -85,8 +85,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kirlin LLC",
-  "DeviceName": "Treutel-Cummerata"
+  "ApplicationName": "Doyle-White",
+  "DeviceName": "Kunze, Lemke and Schoen"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ipsam",
-    "Value": "possimus",
-    "RecordId": 342,
-    "CreatedDate": "2009-01-31T23:03:56.123127+01:00",
-    "UpdatedDate": "2007-09-24T23:03:56.123127+02:00",
-    "UpdatedBy": "architecto",
-    "CreatedBy": "nesciunt",
-    "TableName": "Hettinger Inc and Sons",
+    "Key": "sunt",
+    "Value": "officiis",
+    "RecordId": 320,
+    "CreatedDate": "2019-11-03T16:54:55.4914647+01:00",
+    "UpdatedDate": "2001-06-18T16:54:55.4914647+02:00",
+    "UpdatedBy": "rem",
+    "CreatedBy": "delectus",
+    "TableName": "Abbott Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 625
       }
     }
   }

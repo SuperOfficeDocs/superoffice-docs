@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 825,
-  "Name": "West, Quigley and Orn",
+  "WebhookId": 541,
+  "Name": "Marquardt-Jewess",
   "Events": [
-    "veniam",
-    "tenetur"
+    "et",
+    "cum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "animi",
+  "Secret": "veniam",
   "State": "Active",
-  "Type": "natus",
+  "Type": "distinctio",
   "Headers": {
-    "Headers1": "maiores",
-    "Headers2": "cumque"
+    "Headers1": "sequi",
+    "Headers2": "vel"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-06-28T23:03:57.6531069+02:00",
+  "Registered": "2014-01-12T16:54:56.7317376+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-05-18T23:03:57.6531069+02:00",
+  "Updated": "1997-03-15T16:54:56.7317376+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "cassidy.reichert@bruen.biz"
+  "ErrorsEmail": "vanessa@kuhlman.biz"
 }
 ```

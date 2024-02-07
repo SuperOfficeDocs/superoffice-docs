@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Sauer Group",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "UdListDefinitionId": 194,
-    "Rank": 792,
+    "Id": 827,
+    "Name": "Hammes Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 755,
+    "Rank": 978,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 558
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 908,
-  "Name": "Collier Inc and Sons",
-  "Tooltip": "quae",
+  "ExtAppId": 871,
+  "Name": "Little-Ankunding",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 137,
-  "Filename": "blanditiis",
-  "Parameters": "qui",
-  "Workdir": "molestiae",
+  "Rank": 124,
+  "Filename": "qui",
+  "Parameters": "dignissimos",
+  "Workdir": "quas",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
   "Icon": 951,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "delectus",
+  "Path": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldType": "System.String",
+      "FieldLength": 792
     }
   }
 }

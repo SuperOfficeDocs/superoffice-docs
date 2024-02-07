@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 356
+  "EntityId": 470
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 42,
-    "ConnectionName": "Bins, Koss and Hackett",
+    "ErpConnectionId": 690,
+    "ConnectionName": "Miller-Schumm",
     "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "temporibus",
-        "Rank": 429,
-        "DisplayName": "Wisozk, Bartoletti and Denesik",
-        "DisplayDescription": "Synchronised discrete Graphic Interface",
+        "FieldKey": "perferendis",
+        "Rank": 260,
+        "DisplayName": "Zemlak, Abshire and Walker",
+        "DisplayDescription": "Down-sized assymetric ability",
         "FieldType": "Checkbox",
-        "ListName": "Koepp, Watsica and Dibbert",
-        "DefaultValue": "itaque",
-        "MaxLength": 756,
+        "ListName": "Kessler Inc and Sons",
+        "DefaultValue": "asperiores",
+        "MaxLength": 17,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 758
+            "FieldLength": 67
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "ab",
-      "atque"
+      "culpa",
+      "sunt"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 483
       }
     }
   }

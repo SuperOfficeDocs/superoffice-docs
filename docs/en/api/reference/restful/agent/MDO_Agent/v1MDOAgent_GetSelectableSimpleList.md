@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisozk-Pacocha"
+  "Name": "Zieme LLC"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 550,
-    "Name": "Mohr-Balistreri",
-    "ToolTip": "Facere impedit aut cupiditate delectus.",
+    "Id": 742,
+    "Name": "Schultz, Kiehn and Stoltenberg",
+    "ToolTip": "Non eius quos minima suscipit est.",
     "Deleted": true,
-    "Rank": 1002,
-    "Type": "corporis",
-    "ColorBlock": 442,
-    "IconHint": "expedita",
-    "Selected": true,
-    "LastChanged": "2000-03-15T23:03:56.345624+01:00",
+    "Rank": 118,
+    "Type": "non",
+    "ColorBlock": 202,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2007-08-24T16:54:55.6635108+02:00",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Hodkiewicz, Windler and Smitham",
-        "ToolTip": "In dolore dolores soluta voluptatem saepe.",
-        "Deleted": false,
-        "Rank": 147,
-        "Type": "quidem",
-        "ColorBlock": 846,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2006-12-04T23:03:56.3461315+01:00",
+        "Id": 26,
+        "Name": "Buckridge-Swift",
+        "ToolTip": "Tenetur et.",
+        "Deleted": true,
+        "Rank": 983,
+        "Type": "ut",
+        "ColorBlock": 635,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2020-10-22T16:54:55.6635108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "eius",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Jose Kuvalis",
+        "FullName": "Tod McClure DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 72
+            "FieldLength": 987
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "sapiente",
-    "Hidden": false,
-    "FullName": "Maurine Thompson",
+    "ExtraInfo": "debitis",
+    "StyleHint": "iste",
+    "Hidden": true,
+    "FullName": "Alba Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 897
       }
     }
   }

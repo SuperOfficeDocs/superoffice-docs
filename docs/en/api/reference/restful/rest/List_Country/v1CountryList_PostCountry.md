@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 623,
-  "Name": "Eichmann, Frami and Mohr",
-  "CurrencyId": 414,
-  "EnglishName": "Jakubowski LLC",
+  "CountryId": 143,
+  "Name": "Swaniawski-Bartell",
+  "CurrencyId": 319,
+  "EnglishName": "Bechtelar, Heaney and Kemmer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Ergonomic transitional contingency",
-  "OrgNrText": "359261",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "minus",
-  "ZipPrefix": "corrupti",
-  "DomainName": "Roob Inc and Sons",
-  "AddressLayoutId": 15,
-  "DomesticAddressLayoutId": 635,
-  "ForeignAddressLayoutId": 364,
-  "Rank": 826,
-  "Tooltip": "reprehenderit",
+  "ImageDescription": "Advanced systemic database",
+  "OrgNrText": "1552608",
+  "InterAreaPrefix": "sit",
+  "DialInPrefix": "autem",
+  "ZipPrefix": "et",
+  "DomainName": "Bartell-Lang",
+  "AddressLayoutId": 991,
+  "DomesticAddressLayoutId": 885,
+  "ForeignAddressLayoutId": 101,
+  "Rank": 639,
+  "Tooltip": "incidunt",
   "Deleted": true
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 681,
-  "Name": "Corwin Inc and Sons",
-  "CurrencyId": 800,
-  "EnglishName": "Koss Inc and Sons",
+  "CountryId": 304,
+  "Name": "Schowalter, Hand and Olson",
+  "CurrencyId": 717,
+  "EnglishName": "Bode Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Compatible optimizing benchmark",
-  "OrgNrText": "1806175",
-  "InterAreaPrefix": "voluptatem",
-  "DialInPrefix": "blanditiis",
-  "ZipPrefix": "reprehenderit",
-  "DomainName": "Parisian Inc and Sons",
-  "AddressLayoutId": 306,
-  "DomesticAddressLayoutId": 871,
-  "ForeignAddressLayoutId": 970,
-  "Rank": 214,
-  "Tooltip": "non",
+  "ImageDescription": "Profit-focused client-driven approach",
+  "OrgNrText": "952501",
+  "InterAreaPrefix": "placeat",
+  "DialInPrefix": "magni",
+  "ZipPrefix": "est",
+  "DomainName": "McDermott-Crona",
+  "AddressLayoutId": 985,
+  "DomesticAddressLayoutId": 953,
+  "ForeignAddressLayoutId": 543,
+  "Rank": 493,
+  "Tooltip": "quasi",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 310
     }
   }
 }

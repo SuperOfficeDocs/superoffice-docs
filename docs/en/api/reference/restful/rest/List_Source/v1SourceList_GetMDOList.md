@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=eos
+GET /api/v1/List/Source/MDOItems?query=fugit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Glover, Crona and Pfeffer",
-    "ToolTip": "Velit cupiditate doloribus placeat natus aliquam.",
+    "Id": 564,
+    "Name": "Waters-Shields",
+    "ToolTip": "Dolores quo earum placeat dicta rerum natus.",
     "Deleted": true,
-    "Rank": 655,
-    "Type": "sed",
+    "Rank": 757,
+    "Type": "asperiores",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Feil Inc and Sons",
-        "ToolTip": "Aut sed aut et nostrum sit.",
+        "Id": 478,
+        "Name": "Hirthe, Lynch and Ziemann",
+        "ToolTip": "Et velit temporibus occaecati sapiente veniam minus dicta.",
         "Deleted": false,
-        "Rank": 814,
-        "Type": "dignissimos",
+        "Rank": 56,
+        "Type": "doloremque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 408,
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "ex",
-        "FullName": "Louie Weimann",
+        "IconHint": "qui",
+        "ColorBlock": 358,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "mollitia",
+        "FullName": "Kaitlyn Vicky Kuhn III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 646
+            "FieldType": "System.String",
+            "FieldLength": 266
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 961,
-    "ExtraInfo": "quo",
-    "StyleHint": "cupiditate",
-    "FullName": "Dr. Destiny Myles Bergstrom III",
+    "IconHint": "eos",
+    "ColorBlock": 147,
+    "ExtraInfo": "accusamus",
+    "StyleHint": "beatae",
+    "FullName": "Margaretta Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldLength": 33
       }
     }
   }

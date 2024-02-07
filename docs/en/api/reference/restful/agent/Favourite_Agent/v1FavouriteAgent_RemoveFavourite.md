@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Breitenberg Inc and Sons",
-  "RecordId": 314,
-  "AssociateId": 861
+  "TableName": "Schoen, Braun and Gerlach",
+  "RecordId": 64,
+  "AssociateId": 241
 }
 ```
 

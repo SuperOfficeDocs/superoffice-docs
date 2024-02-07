@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 476
+  "DocumentId": 842
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 566,
-      "ContactName": "Baumbach, Jerde and Considine",
-      "PersonId": 104,
-      "PersonName": "Schroeder-Douglas",
-      "AssociateId": 818,
-      "Address": "et",
-      "EmailId": 73,
+      "ContactId": 555,
+      "ContactName": "Greenfelder-Kautzer",
+      "PersonId": 233,
+      "PersonName": "Renner Inc and Sons",
+      "AssociateId": 515,
+      "Address": "quas",
+      "EmailId": 921,
       "DuplicatePersonIds": [
-        880,
-        9
+        213,
+        212
       ],
-      "Name": "Ondricka-Mayert",
+      "Name": "Will Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldType": "System.String",
+          "FieldLength": 474
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 1000,
-      "ContactName": "Bashirian-Klocko",
-      "PersonId": 171,
-      "PersonName": "Larson-DuBuque",
-      "AssociateId": 471,
-      "Address": "sint",
-      "EmailId": 250,
+      "ContactId": 705,
+      "ContactName": "Sporer-Von",
+      "PersonId": 175,
+      "PersonName": "Greenfelder-Champlin",
+      "AssociateId": 895,
+      "Address": "autem",
+      "EmailId": 508,
       "DuplicatePersonIds": [
-        783,
-        375
+        846,
+        997
       ],
-      "Name": "Murazik, Walsh and Watsica",
+      "Name": "Kassulke Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 89
+          "FieldLength": 747
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 56,
-      "ContactName": "Lueilwitz-Swift",
-      "PersonId": 135,
-      "PersonName": "Grady-Mueller",
-      "AssociateId": 3,
-      "Address": "et",
-      "EmailId": 756,
+      "ContactId": 763,
+      "ContactName": "Brekke-Willms",
+      "PersonId": 930,
+      "PersonName": "Schamberger, Schimmel and Kertzmann",
+      "AssociateId": 249,
+      "Address": "temporibus",
+      "EmailId": 468,
       "DuplicatePersonIds": [
-        832,
-        204
+        677,
+        80
       ],
-      "Name": "Kulas-Jones",
+      "Name": "Weimann, Lowe and Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 459
         }
       }
     }
   ],
-  "Subject": "alias",
-  "HTMLBody": "nisi",
+  "Subject": "molestias",
+  "HTMLBody": "animi",
   "From": null,
-  "Sent": "2010-10-07T23:03:55.9776288+02:00",
-  "Size": 783,
+  "Sent": "2021-07-24T16:54:55.3769486+02:00",
+  "Size": 1002,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nobis",
-  "PlainBody": "dolores",
+  "MessageID": "ea",
+  "PlainBody": "placeat",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 895,
+  "ServerId": 333,
   "Attachments": [
     {
-      "Description": "Expanded reciprocal Graphic Interface",
-      "Filename": "ut",
-      "Size": 556,
-      "Type": "deserunt",
-      "Encoding": "autem",
-      "Id": "temporibus",
-      "Disposition": "facilis",
-      "IsSafeFileExtension": true,
+      "Description": "Integrated bifurcated moderator",
+      "Filename": "amet",
+      "Size": 238,
+      "Type": "provident",
+      "Encoding": "ut",
+      "Id": "distinctio",
+      "Disposition": "cumque",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldLength": 257
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kessler, Hickle and Huels",
+      "Name": "Reichert, Jacobi and Goodwin",
       "Values": [
-        "nam",
-        "occaecati"
+        "corrupti",
+        "esse"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     },
     {
-      "Name": "Kessler, Hickle and Huels",
+      "Name": "Reichert, Jacobi and Goodwin",
       "Values": [
-        "nam",
-        "occaecati"
+        "corrupti",
+        "esse"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
   ],
-  "FolderName": "O'Keefe, Gleason and Weimann",
-  "EmailItemId": 732,
-  "AccountId": 1000,
-  "ReceivedAt": "2004-11-13T23:03:55.9781289+01:00",
+  "FolderName": "Dibbert, Gleason and Eichmann",
+  "EmailItemId": 848,
+  "AccountId": 341,
+  "ReceivedAt": "2001-05-27T16:54:55.3769486+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-06-08T23:03:55.9781289+02:00",
+  "RepliedAt": "2018-04-15T16:54:55.3779475+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldType": "System.String",
+      "FieldLength": 629
     }
   }
 }

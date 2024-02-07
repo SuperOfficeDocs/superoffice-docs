@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Schamberger, Turner and Jenkins",
-    "ToolTip": "Adipisci laudantium ad.",
+    "Id": 318,
+    "Name": "Jakubowski Inc and Sons",
+    "ToolTip": "Iste et.",
     "Deleted": false,
-    "Rank": 932,
-    "Type": "voluptas",
-    "ColorBlock": 519,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2020-08-05T23:04:05.3755027+02:00",
+    "Rank": 261,
+    "Type": "illum",
+    "ColorBlock": 452,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2016-08-03T16:55:30.5942148+02:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Boyer-Olson",
-        "ToolTip": "Quis autem quisquam perspiciatis maiores.",
+        "Id": 790,
+        "Name": "Kirlin-Rippin",
+        "ToolTip": "Ex ullam qui quis ad fugit.",
         "Deleted": false,
-        "Rank": 854,
-        "Type": "enim",
-        "ColorBlock": 623,
-        "IconHint": "vel",
+        "Rank": 509,
+        "Type": "illum",
+        "ColorBlock": 983,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2020-10-18T23:04:05.3755027+02:00",
+        "LastChanged": "2019-10-11T16:55:30.5942148+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "debitis",
-        "Hidden": true,
-        "FullName": "Durward Macey Hoeger I",
+        "ExtraInfo": "et",
+        "StyleHint": "possimus",
+        "Hidden": false,
+        "FullName": "Prof. Magnolia Kattie Predovic IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 10
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "ut",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Mr. Hailie Henri Dicki",
+    "FullName": "Mr. Lila Mafalda Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 104
       }
     }
   }

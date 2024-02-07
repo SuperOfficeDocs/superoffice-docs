@@ -52,11 +52,11 @@ OK
 |----------------|------|--------------|
 | SatelliteId | int32 | Primary key |
 | Created | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
-| Area | Area | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the Contact Agent. |
+| Area | Area | Carrier object for Area. Services for the Area Carrier is available from the Replication Agent. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 39,
-  "Created": "2019-01-28T23:03:56.8186172+01:00",
+  "SatelliteId": 449,
+  "Created": "1999-05-19T16:54:56.1719713+02:00",
   "CreatedBy": null,
-  "Updated": "2002-01-22T23:03:56.8186172+01:00",
+  "Updated": "2015-10-04T16:54:56.1719713+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Friesen, Emmerich and Heathcote",
-      "Description": "De-engineered interactive neural-net",
+      "Name": "Murphy-Kirlin",
+      "Description": "Organized zero administration focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 751
         }
       }
     },
     {
-      "Name": "Friesen, Emmerich and Heathcote",
-      "Description": "De-engineered interactive neural-net",
+      "Name": "Murphy-Kirlin",
+      "Description": "Organized zero administration focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 751
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 484
     }
   }
 }

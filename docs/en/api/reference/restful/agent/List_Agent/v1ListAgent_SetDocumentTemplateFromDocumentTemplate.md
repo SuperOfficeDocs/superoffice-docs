@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 24,
+  "SourceDocumentTemplateId": 718,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 363,
-  "Name": "Littel LLC",
-  "Tooltip": "voluptatum",
-  "SaveInDb": 323,
-  "Filename": "aut",
-  "DefaultOref": "iste",
+  "DocumentTemplateId": 596,
+  "Name": "Dooley LLC",
+  "Tooltip": "quae",
+  "SaveInDb": 703,
+  "Filename": "vel",
+  "DefaultOref": "quia",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 459,
-  "IntentId": 911,
+  "AutoeventId": 837,
+  "IntentId": 222,
   "IsDefaultPublished": false,
-  "Rank": 73,
-  "LoadTemplateFromPlugin": 935,
-  "MimeType": "consequatur",
+  "Rank": 657,
+  "LoadTemplateFromPlugin": 219,
+  "MimeType": "quia",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 21,
+  "DocumentTypeKey": 870,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "maxime.gibson@thompson.name",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "elian@crist.info",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "gregoria@oconner.ca",
+  "SenderEmailAddress": "alfreda@kuvalis.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 153
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   }
 }

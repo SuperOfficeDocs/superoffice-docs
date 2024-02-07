@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=882
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=998
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -62,7 +62,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable responsive moratorium",
-  "Postit": "perspiciatis",
+  "Description": "Organic zero administration analyzer",
+  "Postit": "placeat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 50,
-  "IncludePerson": 271,
-  "MemberCount": 958,
-  "Name": "Steuber LLC",
-  "PostitTextId": 575,
-  "CreatedDate": "1999-01-05T23:03:57.1021166+01:00",
-  "SelectionId": 529,
-  "SoundEx": "aspernatur",
-  "Source": 482,
-  "TextId": 24,
-  "UpdatedDate": "2023-09-26T23:03:57.1021166+02:00",
-  "UpdatedCount": 21,
-  "Visibility": 136,
+  "GroupIdx": 939,
+  "IncludePerson": 351,
+  "MemberCount": 558,
+  "Name": "Homenick, Boyer and Eichmann",
+  "PostitTextId": 870,
+  "CreatedDate": "2017-10-21T16:54:56.2925038+02:00",
+  "SelectionId": 573,
+  "SoundEx": "perferendis",
+  "Source": 808,
+  "TextId": 991,
+  "UpdatedDate": "2011-10-16T16:54:56.2925038+02:00",
+  "UpdatedCount": 252,
+  "Visibility": 383,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 491,
-  "TargetTableName": "Christiansen-Howell",
-  "Completed": true,
-  "LeftSelectionId": 26,
-  "RightSelectionId": 191,
+  "CompanyUnique": true,
+  "TargetTableNumber": 667,
+  "TargetTableName": "Simonis-White",
+  "Completed": false,
+  "LeftSelectionId": 737,
+  "RightSelectionId": 21,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lind-Cremin",
-  "ShadowProviderName": "Muller, Hermann and Koelpin",
-  "ChartKey": "nam",
-  "LastLoaded": "2017-04-19T23:03:57.1021166+02:00",
-  "LastLoadedBy": 336,
+  "MainProviderName": "White-Labadie",
+  "ShadowProviderName": "Gislason-Hoppe",
+  "ChartKey": "hic",
+  "LastLoaded": "2001-03-16T16:54:56.2925038+01:00",
+  "LastLoadedBy": 505,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-01-20T23:03:57.1026165+01:00",
-  "LastMembershipChangeBy": 847,
+  "LastMembershipChange": "2007-07-24T16:54:56.2925038+02:00",
+  "LastMembershipChangeBy": 311,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "cupiditate",
-  "MemberTabHeading": "tempora",
-  "MailingsProviderName": "McDermott Group",
-  "DashboardTileDefinitionId": 175,
+  "MainHeading": "rerum",
+  "MemberTabHeading": "eius",
+  "MailingsProviderName": "Nienow-Fadel",
+  "DashboardTileDefinitionId": 670,
   "VisibleFor": [
     {
-      "VisibleId": 964,
+      "VisibleId": 878,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 134
         }
       }
     },
     {
-      "VisibleId": 964,
+      "VisibleId": 878,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 134
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 285
     }
   }
 }

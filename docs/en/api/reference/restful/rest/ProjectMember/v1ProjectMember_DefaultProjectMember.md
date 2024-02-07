@@ -64,7 +64,7 @@ OK
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -77,7 +77,7 @@ OK
 GET /api/v1/ProjectMember/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 722,
-  "ContactId": 499,
-  "ProjectId": 659,
-  "ContactName": "Spinka, Lind and Schaden",
+  "ProjectmemberId": 62,
+  "ContactId": 338,
+  "ProjectId": 914,
+  "ContactName": "Brakus-Collier",
   "ContactDepartment": "",
-  "ProjectName": "Cummings Group",
-  "EmailId": 1000,
-  "EmailAddress": "rosario@schinner.ca",
-  "CountryId": 827,
-  "Firstname": "Heaven",
-  "MiddleName": "Schuppe, Klocko and Torphy",
-  "Lastname": "Dare",
-  "PersonId": 44,
-  "Mrmrs": "sint",
-  "ProjectMemberTypeName": "Robel-Brekke",
-  "Phone": "(029)998-5416",
-  "PhoneId": 304,
-  "ProjectMemberTypeId": 248,
-  "EmailAddressName": "neoma.macejkovic@langweimann.co.uk",
-  "Comment": "aut",
-  "FullName": "Sibyl Heidenreich",
+  "ProjectName": "Lebsack, Gutkowski and Weimann",
+  "EmailId": 267,
+  "EmailAddress": "marion_mccullough@haagquigley.co.uk",
+  "CountryId": 236,
+  "Firstname": "Skyla",
+  "MiddleName": "Davis LLC",
+  "Lastname": "Goldner",
+  "PersonId": 677,
+  "Mrmrs": "ut",
+  "ProjectMemberTypeName": "Aufderhar, Huels and Schmeler",
+  "Phone": "(837)788-1456 x402",
+  "PhoneId": 277,
+  "ProjectMemberTypeId": 491,
+  "EmailAddressName": "jeanie.reilly@dietrich.info",
+  "Comment": "mollitia",
+  "FullName": "Francesco Herzog",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldLength": 476
     }
   }
 }

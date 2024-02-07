@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "quod",
+  "SearchString": "voluptas",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-451-502-8372 x13247",
-    "PersonCellPhone": "1-231-400-4654",
-    "PersonPrivatePhone": "1-010-265-8238 x5064",
-    "PersonFaxNumber": "660670",
-    "PersonPagerNumber": "749275",
-    "PersonEmail": "fredy@welchherzog.name",
-    "Id": 671,
-    "Name": "Kirlin, Leannon and Marvin",
-    "Tooltip": "aut",
-    "UniqueId": "sint",
+    "PersonDirectPhone": "785.425.7067 x4816",
+    "PersonCellPhone": "(628)361-6199 x63589",
+    "PersonPrivatePhone": "315-257-8541",
+    "PersonFaxNumber": "1124213",
+    "PersonPagerNumber": "1386329",
+    "PersonEmail": "linda.stiedemann@altenwerth.name",
+    "Id": 381,
+    "Name": "Reichert, Effertz and Langworth",
+    "Tooltip": "laudantium",
+    "UniqueId": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldLength": 102
       }
     }
   }

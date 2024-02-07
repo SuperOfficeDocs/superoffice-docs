@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 650,
-  "Name": "Hudson Inc and Sons",
-  "Tooltip": "quas",
-  "Rank": 445,
+  "ProjTypeId": 232,
+  "Name": "Heaney-Goodwin",
+  "Tooltip": "vel",
+  "Rank": 36,
   "DurationUnit": "Century",
-  "ProjectDuration": 389,
+  "ProjectDuration": 302,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 727,
-      "Name": "Goyette Inc and Sons",
-      "ToolTip": "Quo qui voluptas est consequatur.",
-      "Deleted": false,
-      "Rank": 50,
-      "Type": "aliquam",
-      "ColorBlock": 833,
-      "IconHint": "voluptatem",
+      "Id": 158,
+      "Name": "Klocko, Hand and Hane",
+      "ToolTip": "Rerum tenetur accusantium sint tempora.",
+      "Deleted": true,
+      "Rank": 401,
+      "Type": "quas",
+      "ColorBlock": 567,
+      "IconHint": "sit",
       "Selected": false,
-      "LastChanged": "2012-06-13T23:03:56.2906265+02:00",
+      "LastChanged": "2014-07-30T16:54:55.6219851+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "delectus",
-      "Hidden": true,
-      "FullName": "Tatyana Shanahan",
+      "ExtraInfo": "eos",
+      "StyleHint": "vero",
+      "Hidden": false,
+      "FullName": "Mr. Emmanuelle Kassulke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldType": "System.Int32",
+          "FieldLength": 549
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 925
     }
   }
 }

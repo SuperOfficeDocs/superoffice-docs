@@ -26,7 +26,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=360
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=334
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,94 +106,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "vel",
+  "SignOffConfirmationText": "consequatur",
   "SignOffText": "aut",
-  "SignOnConfirmationText": "iste",
-  "SignOnText": "aut",
-  "EventDate": "2015-11-20T23:03:56.6721199+01:00",
+  "SignOnConfirmationText": "facere",
+  "SignOnText": "dolor",
+  "EventDate": "2013-02-25T16:54:56.0546299+01:00",
   "Enabled": false,
-  "CreatedDate": "2007-07-19T23:03:56.6721199+02:00",
+  "CreatedDate": "2007-08-25T16:54:56.0546299+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 708,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOffTaskId": 732,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 631,
+  "SignOnTaskId": 587,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2002-05-11T23:03:56.6721199+02:00",
+  "UpdatedDate": "2009-10-30T16:54:56.0546299+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 130,
-  "Id": 110,
-  "PublishFrom": "2021-06-16T23:03:56.672619+02:00",
+  "ProjectId": 763,
+  "Id": 396,
+  "PublishFrom": "2008-01-07T16:54:56.056135+01:00",
   "PublishType": "External",
-  "PublishTo": "2013-07-03T23:03:56.672619+02:00",
+  "PublishTo": "2012-10-15T16:54:56.056135+02:00",
   "VisibleForCategories": [
     {
-      "Id": 483,
-      "Name": "Walter-Lueilwitz",
-      "ToolTip": "Maxime voluptatibus sed placeat nisi distinctio.",
-      "Deleted": true,
-      "Rank": 720,
-      "Type": "qui",
+      "Id": 368,
+      "Name": "Schmeler Inc and Sons",
+      "ToolTip": "Et accusamus quos mollitia illo sequi.",
+      "Deleted": false,
+      "Rank": 135,
+      "Type": "quia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 404,
-      "ExtraInfo": "sunt",
-      "StyleHint": "dolor",
-      "FullName": "Pearline Sipes",
+      "IconHint": "non",
+      "ColorBlock": 378,
+      "ExtraInfo": "quam",
+      "StyleHint": "et",
+      "FullName": "Darrel Orn DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 238
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 757,
-      "Name": "Walker LLC",
-      "ToolTip": "Magnam ut eum ducimus.",
+      "Id": 316,
+      "Name": "Heaney LLC",
+      "ToolTip": "Sunt unde aut sed.",
       "Deleted": false,
-      "Rank": 701,
-      "Type": "cumque",
+      "Rank": 630,
+      "Type": "ad",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aliquam",
-      "ColorBlock": 874,
-      "ExtraInfo": "dolor",
-      "StyleHint": "at",
-      "FullName": "Ms. Yasmine Kuhlman",
+      "IconHint": "eveniet",
+      "ColorBlock": 748,
+      "ExtraInfo": "ab",
+      "StyleHint": "dolorum",
+      "FullName": "Prof. Abel Kilback DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 962
+          "FieldLength": 903
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 957,
+  "ProjectEventId": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 192
     }
   }
 }

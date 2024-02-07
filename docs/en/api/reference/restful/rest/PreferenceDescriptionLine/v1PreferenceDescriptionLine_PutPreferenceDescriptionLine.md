@@ -89,16 +89,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 722,
-  "PrefDescId": 817,
-  "PrefValue": "minima",
-  "PrefShowValue": "fugit",
-  "Description": "Configurable intangible system engine",
-  "IsBuiltin": true
+  "PrefDescLineId": 669,
+  "PrefDescId": 625,
+  "PrefValue": "in",
+  "PrefShowValue": "consequatur",
+  "Description": "Self-enabling 24 hour open architecture",
+  "IsBuiltin": false
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 382,
-  "PrefDescId": 866,
-  "PrefValue": "ipsum",
-  "PrefShowValue": "voluptatum",
-  "Description": "Synchronised static emulation",
+  "PrefDescLineId": 63,
+  "PrefDescId": 795,
+  "PrefValue": "aut",
+  "PrefShowValue": "molestias",
+  "Description": "Open-source attitude-oriented collaboration",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldLength": 373
     }
   },
   "_Links": {

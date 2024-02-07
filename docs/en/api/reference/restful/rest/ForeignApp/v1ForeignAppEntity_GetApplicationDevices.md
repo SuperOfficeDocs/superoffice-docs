@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 10 Dec 1999 23:04:04 G12T
+Last-Modified: Fri, 15 Jun 2012 16:55:29 G6T
 
 [
   {
-    "ForeignDeviceId": 744,
-    "Name": "Kulas, Grant and Cremin",
-    "CreatedDate": "1999-10-01T23:04:04.2225178+02:00",
-    "UpdatedDate": "1999-12-10T23:04:04.2225178+01:00",
-    "AssociateFullName": "Prof. Forest Jacey Veum I",
-    "CreatedBy": "sed",
-    "UpdatedBy": "iure",
-    "DeviceIdentifier": "reiciendis",
-    "ForeignAppId": 27,
+    "ForeignDeviceId": 969,
+    "Name": "Schamberger-Kemmer",
+    "CreatedDate": "2018-10-08T16:55:29.6485264+02:00",
+    "UpdatedDate": "2012-06-15T16:55:29.6485264+02:00",
+    "AssociateFullName": "Miss Elliott Collins",
+    "CreatedBy": "officiis",
+    "UpdatedBy": "expedita",
+    "DeviceIdentifier": "aut",
+    "ForeignAppId": 720,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldType": "System.String",
+        "FieldLength": 350
       }
     }
   }

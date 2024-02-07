@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 505,
+  "ReportId": 183,
   "ReportCategory": "All",
-  "Description": "Profit-focused mobile focus group",
+  "Description": "Reactive interactive leverage",
   "ReportLayout": "CalendarMonth",
-  "Name": "Lowe, Littel and Hills",
-  "AssociateId": 335,
-  "TemplateId": 891,
+  "Name": "Langworth, Bradtke and Sauer",
+  "AssociateId": 650,
+  "TemplateId": 994,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

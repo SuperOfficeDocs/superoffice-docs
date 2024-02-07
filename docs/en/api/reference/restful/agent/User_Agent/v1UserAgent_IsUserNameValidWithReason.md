@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 271,
+  "AssociateId": 5,
   "Type": "AnonymousAssociate",
-  "PersonId": 583,
-  "UserName": "Hoeger-Towne"
+  "PersonId": 988,
+  "UserName": "Brakus Group"
 }
 ```
 
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 130
     }
   }
 }

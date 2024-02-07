@@ -696,7 +696,7 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionV2?$select=person/middleName,project/projectPublish/publishedFrom,associate/assocName,sale/projectId,selectionMemberId
+GET /api/v1/archive/DocumentSelectionV2?$select=person/personExtra/x_person_priority_relation,person/correspondingAssociate/firstName,contact/contactAssociate/userName,contact/NumberOfActivities,associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

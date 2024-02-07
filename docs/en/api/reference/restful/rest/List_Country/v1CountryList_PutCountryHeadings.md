@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 201,
-    "Name": "Schinner LLC",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "Rank": 839,
-    "UdListDefinitionId": 539
+    "HeadingId": 826,
+    "Name": "Fadel, Waelchi and Mosciski",
+    "Tooltip": "corrupti",
+    "Deleted": true,
+    "Rank": 983,
+    "UdListDefinitionId": 852
   },
   {
-    "HeadingId": 201,
-    "Name": "Schinner LLC",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "Rank": 839,
-    "UdListDefinitionId": 539
+    "HeadingId": 826,
+    "Name": "Fadel, Waelchi and Mosciski",
+    "Tooltip": "corrupti",
+    "Deleted": true,
+    "Rank": 983,
+    "UdListDefinitionId": 852
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 163,
-    "Name": "Schmidt, Fay and Kunde",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 710,
-    "UdListDefinitionId": 888,
+    "HeadingId": 607,
+    "Name": "Lindgren-Gutkowski",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "Rank": 24,
+    "UdListDefinitionId": 902,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 932
       }
     }
   }

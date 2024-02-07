@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 242,
-  "Name": "O'Reilly, Roberts and Herzog",
-  "AssociateId": 921,
-  "DetailsTable": 89,
-  "DetailsRecord": 107,
+  "Id": 250,
+  "Name": "Yundt-Crona",
+  "AssociateId": 996,
+  "DetailsTable": 316,
+  "DetailsRecord": 558,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ipsa",
-    "ParameterObject2": "laudantium"
+    "ParameterObject1": "voluptas",
+    "ParameterObject2": "ipsam"
   },
-  "LastStarted": "2000-12-22T23:03:56.8476183+01:00",
-  "Created": "2002-10-04T23:03:56.8476183+02:00",
-  "StartCount": 583,
-  "DatabaseSerialNumber": "1541431",
-  "Context": "quia",
-  "Result": "blanditiis",
+  "LastStarted": "1998-08-01T16:54:56.1969713+02:00",
+  "Created": "2009-08-28T16:54:56.1969713+02:00",
+  "StartCount": 745,
+  "DatabaseSerialNumber": "536391",
+  "Context": "perferendis",
+  "Result": "dolor",
   "State": "All",
-  "Description": "Organized secondary hierarchy",
-  "Response": "rerum",
-  "Request": "expedita",
-  "ProgressDescription": "Visionary executive frame",
-  "ProgressPercent": 41,
-  "FileName": "Kub-Lindgren",
+  "Description": "Mandatory zero tolerance time-frame",
+  "Response": "quisquam",
+  "Request": "numquam",
+  "ProgressDescription": "Front-line context-sensitive analyzer",
+  "ProgressPercent": 113,
+  "FileName": "Schulist LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 630
     }
   }
 }

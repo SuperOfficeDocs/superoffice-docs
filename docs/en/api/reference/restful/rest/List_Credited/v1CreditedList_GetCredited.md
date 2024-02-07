@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 379,
-  "Name": "Glover Group",
-  "Tooltip": "velit",
+  "Id": 461,
+  "Name": "Johns Group",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 655,
-  "Rank": 830,
+  "UdListDefinitionId": 9,
+  "Rank": 490,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   }
 }

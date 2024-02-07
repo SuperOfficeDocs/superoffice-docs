@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Braun LLC",
-    "ToolTip": "Sed nihil sed aut consequatur necessitatibus.",
-    "Deleted": false,
-    "Rank": 699,
-    "Type": "necessitatibus",
-    "ColorBlock": 978,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2023-06-01T23:04:05.7295009+02:00",
+    "Id": 518,
+    "Name": "Witting LLC",
+    "ToolTip": "Earum quo corrupti.",
+    "Deleted": true,
+    "Rank": 593,
+    "Type": "consequuntur",
+    "ColorBlock": 557,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2006-06-04T16:55:31.0021898+02:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Rogahn, Little and Predovic",
-        "ToolTip": "Enim et sint beatae.",
-        "Deleted": true,
-        "Rank": 697,
-        "Type": "ex",
-        "ColorBlock": 753,
-        "IconHint": "labore",
+        "Id": 257,
+        "Name": "Crona-Hirthe",
+        "ToolTip": "Culpa ut.",
+        "Deleted": false,
+        "Rank": 981,
+        "Type": "id",
+        "ColorBlock": 490,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "1998-11-19T23:04:05.730004+01:00",
+        "LastChanged": "2007-01-10T16:55:31.0021898+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "omnis",
+        "StyleHint": "quaerat",
         "Hidden": true,
-        "FullName": "Rodrigo Boyle"
+        "FullName": "Ms. Nels Stewart Conn I"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "eum",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Lucile Homenick"
+    "FullName": "Meredith Welch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Pouros Group",
-    "ToolTip": "Rerum sunt asperiores ut enim aut.",
-    "Deleted": true,
-    "Rank": 378,
-    "Type": "ut",
-    "ColorBlock": 876,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2015-03-10T23:04:05.7310042+01:00",
+    "Id": 598,
+    "Name": "Trantow-Strosin",
+    "ToolTip": "Odit voluptatem magnam quibusdam est possimus eum.",
+    "Deleted": false,
+    "Rank": 413,
+    "Type": "quia",
+    "ColorBlock": 716,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "2000-01-09T16:55:31.0041872+01:00",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Baumbach, Brakus and Halvorson",
-        "ToolTip": "Vel quos.",
-        "Deleted": false,
-        "Rank": 193,
-        "Type": "assumenda",
-        "ColorBlock": 483,
-        "IconHint": "nostrum",
-        "Selected": false,
-        "LastChanged": "2010-09-22T23:04:05.7310042+02:00",
+        "Id": 14,
+        "Name": "Kuvalis LLC",
+        "ToolTip": "Totam voluptatum in ullam commodi maiores rem illo.",
+        "Deleted": true,
+        "Rank": 650,
+        "Type": "non",
+        "ColorBlock": 349,
+        "IconHint": "nulla",
+        "Selected": true,
+        "LastChanged": "1997-03-03T16:55:31.0041872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mrs. Chaya Boyd Goyette",
+        "ExtraInfo": "error",
+        "StyleHint": "possimus",
+        "Hidden": true,
+        "FullName": "Mrs. Bruce Lemuel Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 334
+            "FieldType": "System.String",
+            "FieldLength": 966
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "dolores",
+    "ExtraInfo": "placeat",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Vita Jones",
+    "FullName": "Rashad Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 586
       }
     }
   }

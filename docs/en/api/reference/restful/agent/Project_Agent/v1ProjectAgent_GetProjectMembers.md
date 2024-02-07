@@ -80,7 +80,7 @@ OK
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 728
+  "ProjectId": 894
 }
 ```
 
@@ -109,33 +109,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 329,
-    "ContactId": 759,
-    "ProjectId": 491,
-    "ContactName": "McGlynn LLC",
+    "ProjectmemberId": 985,
+    "ContactId": 353,
+    "ProjectId": 128,
+    "ContactName": "Schowalter, Kuvalis and Frami",
     "ContactDepartment": "",
-    "ProjectName": "Armstrong Inc and Sons",
-    "EmailId": 248,
-    "EmailAddress": "donnie@sanfordpacocha.co.uk",
-    "CountryId": 260,
-    "Firstname": "Jade",
-    "MiddleName": "Carroll, Walter and Pagac",
-    "Lastname": "Hoeger",
-    "PersonId": 398,
-    "Mrmrs": "dolorum",
-    "ProjectMemberTypeName": "Shanahan Group",
-    "Phone": "1-872-449-9364 x23330",
-    "PhoneId": 929,
-    "ProjectMemberTypeId": 494,
-    "EmailAddressName": "charlotte@ryan.ca",
+    "ProjectName": "Bechtelar LLC",
+    "EmailId": 495,
+    "EmailAddress": "liana@mosciski.com",
+    "CountryId": 728,
+    "Firstname": "Novella",
+    "MiddleName": "Smith, Reynolds and Harris",
+    "Lastname": "Stokes",
+    "PersonId": 881,
+    "Mrmrs": "hic",
+    "ProjectMemberTypeName": "Yundt-Heidenreich",
+    "Phone": "041.625.5101",
+    "PhoneId": 778,
+    "ProjectMemberTypeId": 596,
+    "EmailAddressName": "adella@rauhuels.uk",
     "Comment": "et",
-    "FullName": "Roma Stanton",
+    "FullName": "Bill Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldLength": 842
       }
     }
   }

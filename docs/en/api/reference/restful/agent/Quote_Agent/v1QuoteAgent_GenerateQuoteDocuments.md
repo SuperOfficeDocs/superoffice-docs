@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 755,
-  "EmailBodyTemplateId": 469,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 598,
+  "QuoteVersionId": 687,
+  "EmailBodyTemplateId": 11,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 102,
   "IncludeAttachments": false,
-  "RawMailSubject": "sunt"
+  "RawMailSubject": "ut"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 666,
-  "QuotedProductsId": 160,
+  "QuoteDocumentId": 64,
+  "QuotedProductsId": 104,
   "QuoteAttachmentIds": [
-    38,
-    102
+    734,
+    14
   ],
-  "MailBody": "dolor",
-  "MailSubject": "pariatur",
-  "ToEmail": "dahlia.walker@kossokon.ca",
-  "ToFullName": "Victoria Kerluke",
-  "ErrorMessage": "magni",
+  "MailBody": "repellendus",
+  "MailSubject": "ducimus",
+  "ToEmail": "andreane@lakin.com",
+  "ToFullName": "Murray Gibson",
+  "ErrorMessage": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 977
     }
   }
 }

@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 61,
-      "DisplayName": "McGlynn, Tromp and Legros",
-      "OngoingChats": 859,
-      "Present": true,
+      "UserId": 986,
+      "DisplayName": "Rohan Group",
+      "OngoingChats": 213,
+      "Present": false,
       "ChatTopics": [
-        678,
-        33
+        233,
+        887
       ]
     },
     {
-      "UserId": 61,
-      "DisplayName": "McGlynn, Tromp and Legros",
-      "OngoingChats": 859,
-      "Present": true,
+      "UserId": 986,
+      "DisplayName": "Rohan Group",
+      "OngoingChats": 213,
+      "Present": false,
       "ChatTopics": [
-        678,
-        33
+        233,
+        887
       ]
     }
   ]

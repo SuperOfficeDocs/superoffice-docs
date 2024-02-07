@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 07 Dec 2014 23:04:04 G12T
+Last-Modified: Wed, 06 May 2009 16:55:29 G5T
 
 {
-  "ForeignAppId": 63,
-  "Name": "Schaefer LLC",
-  "CreatedDate": "2004-08-31T23:04:04.22002+02:00",
-  "UpdatedDate": "2014-12-07T23:04:04.22002+01:00",
+  "ForeignAppId": 796,
+  "Name": "Haag, Terry and Harber",
+  "CreatedDate": "2023-11-15T16:55:29.6485264+01:00",
+  "UpdatedDate": "2009-05-06T16:55:29.6485264+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 423,
-      "Name": "Kilback-Kling",
-      "CreatedDate": "2011-05-03T23:04:04.2215193+02:00",
-      "UpdatedDate": "2016-09-03T23:04:04.2215193+02:00",
-      "AssociateFullName": "Zane Littel",
-      "CreatedBy": "quidem",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "impedit",
-      "ForeignAppId": 504,
+      "ForeignDeviceId": 938,
+      "Name": "Williamson LLC",
+      "CreatedDate": "2018-05-20T16:55:29.6485264+02:00",
+      "UpdatedDate": "2015-05-23T16:55:29.6485264+02:00",
+      "AssociateFullName": "Vilma Bergnaum",
+      "CreatedBy": "tenetur",
+      "UpdatedBy": "vero",
+      "DeviceIdentifier": "ab",
+      "ForeignAppId": 939,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldType": "System.String",
+          "FieldLength": 425
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Sun, 07 Dec 2014 23:04:04 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 984
     }
   }
 }

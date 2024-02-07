@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 758
+  "TicketMessageEntityId": 2
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 310,
-    "Name": "Kling-Cassin",
-    "ContentType": "odit",
-    "AttSize": 27,
+    "AttachmentId": 562,
+    "Name": "McDermott, Nader and Terry",
+    "ContentType": "aut",
+    "AttSize": 640,
     "InlineImage": false,
-    "ContentId": "rerum",
-    "AuthKey": "quia",
+    "ContentId": "hic",
+    "AuthKey": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 161
+        "FieldLength": 73
       }
     }
   }

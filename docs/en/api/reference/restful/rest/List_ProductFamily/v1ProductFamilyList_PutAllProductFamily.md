@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Pouros, Torp and Dietrich",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 751,
-    "Rank": 478
+    "Id": 505,
+    "Name": "Ziemann-Hessel",
+    "Tooltip": "earum",
+    "Deleted": false,
+    "UdListDefinitionId": 313,
+    "Rank": 682
   },
   {
-    "Id": 683,
-    "Name": "Pouros, Torp and Dietrich",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 751,
-    "Rank": 478
+    "Id": 505,
+    "Name": "Ziemann-Hessel",
+    "Tooltip": "earum",
+    "Deleted": false,
+    "UdListDefinitionId": 313,
+    "Rank": 682
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Mann Inc and Sons",
-    "Tooltip": "odio",
-    "Deleted": false,
-    "UdListDefinitionId": 68,
-    "Rank": 93,
+    "Id": 333,
+    "Name": "Wyman-Carroll",
+    "Tooltip": "voluptatum",
+    "Deleted": true,
+    "UdListDefinitionId": 16,
+    "Rank": 899,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 334
       }
     }
   }

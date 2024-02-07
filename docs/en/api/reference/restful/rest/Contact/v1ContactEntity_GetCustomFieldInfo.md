@@ -71,7 +71,7 @@ OK
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Marvin-Moen",
-  "DisplayName": "Breitenberg-Roberts",
-  "Description": "Distributed optimal productivity",
-  "ShortLabel": "amet",
+  "FieldName": "Ullrich Inc and Sons",
+  "DisplayName": "O'Reilly Group",
+  "Description": "Team-oriented human-resource neural-net",
+  "ShortLabel": "suscipit",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 934,
-  "TemplateVariableName": "Friesen LLC"
+  "IsExternal": true,
+  "Rank": 870,
+  "TemplateVariableName": "Lynch LLC"
 }
 ```

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Feeney, Hartmann and Dickinson",
-  "DeviceName": "Kshlerin Inc and Sons"
+  "ApplicationName": "Hilll-Gusikowski",
+  "DeviceName": "Ortiz-Leuschke"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 175,
-  "Name": "Emard, Kunze and Zboncak",
-  "CreatedDate": "2006-01-15T23:03:56.1096277+01:00",
-  "UpdatedDate": "2021-03-01T23:03:56.1096277+01:00",
-  "AssociateFullName": "Aniya Durgan",
-  "CreatedBy": "alias",
-  "UpdatedBy": "nisi",
-  "DeviceIdentifier": "eaque",
-  "ForeignAppId": 719,
+  "ForeignDeviceId": 123,
+  "Name": "Robel-Yundt",
+  "CreatedDate": "2007-10-03T16:54:55.4804686+02:00",
+  "UpdatedDate": "2014-08-22T16:54:55.4804686+02:00",
+  "AssociateFullName": "Dahlia Nicolas",
+  "CreatedBy": "laboriosam",
+  "UpdatedBy": "dolorem",
+  "DeviceIdentifier": "ea",
+  "ForeignAppId": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 357
+  "ReplyTemplateId": 601
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunze, O'Connell and Denesik",
-  "Description": "Networked content-based methodology",
-  "OwnedByFullName": "Miss Asia Dach IV",
-  "Updated": "2007-07-13T23:03:55.6021345+02:00",
-  "Body": "quo",
-  "IsHtml": true,
+  "Name": "Feil Group",
+  "Description": "Mandatory local intranet",
+  "OwnedByFullName": "Vernice Mante",
+  "Updated": "2000-05-16T16:54:55.0832906+02:00",
+  "Body": "quae",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 909
     }
   }
 }

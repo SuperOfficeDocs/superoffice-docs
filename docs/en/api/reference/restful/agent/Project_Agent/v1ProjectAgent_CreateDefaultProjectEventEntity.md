@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "commodi",
-  "SignOffText": "beatae",
-  "SignOnConfirmationText": "culpa",
-  "SignOnText": "reiciendis",
-  "EventDate": "2010-03-15T23:03:56.6351202+01:00",
-  "Enabled": false,
-  "CreatedDate": "2018-11-01T23:03:56.6351202+01:00",
+  "SignOffConfirmationText": "recusandae",
+  "SignOffText": "distinctio",
+  "SignOnConfirmationText": "ducimus",
+  "SignOnText": "necessitatibus",
+  "EventDate": "2021-03-01T16:54:55.8999062+01:00",
+  "Enabled": true,
+  "CreatedDate": "2001-08-26T16:54:55.8999062+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 966,
+  "SignOffTaskId": 415,
   "SignOffTriggersAssign": false,
   "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 896,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 430,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2011-09-24T23:03:56.6351202+02:00",
+  "UpdatedDate": "2021-05-25T16:54:55.8999062+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 973,
-  "Id": 401,
-  "PublishFrom": "2007-04-29T23:03:56.63562+02:00",
+  "ProjectId": 527,
+  "Id": 702,
+  "PublishFrom": "2011-06-20T16:54:55.9009612+02:00",
   "PublishType": "External",
-  "PublishTo": "1996-09-17T23:03:56.63562+02:00",
+  "PublishTo": "2023-08-02T16:54:55.9009612+02:00",
   "VisibleForCategories": [
     {
-      "Id": 255,
-      "Name": "West, Ritchie and Oberbrunner",
-      "ToolTip": "Ratione et aut quaerat est et.",
+      "Id": 682,
+      "Name": "Heller-Tillman",
+      "ToolTip": "Sint molestiae et eligendi voluptate reiciendis dolorem laudantium.",
       "Deleted": true,
-      "Rank": 767,
-      "Type": "enim",
+      "Rank": 372,
+      "Type": "id",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "inventore",
-      "ColorBlock": 234,
-      "ExtraInfo": "asperiores",
-      "StyleHint": "quasi",
-      "FullName": "Lane Fritsch",
+      "IconHint": "odio",
+      "ColorBlock": 38,
+      "ExtraInfo": "veritatis",
+      "StyleHint": "fugit",
+      "FullName": "Mr. Lilian Turner Rau",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldLength": 844
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 588,
-      "Name": "Terry Group",
-      "ToolTip": "Incidunt sed atque alias sint rerum unde nihil.",
-      "Deleted": true,
-      "Rank": 506,
-      "Type": "ipsum",
+      "Id": 47,
+      "Name": "Mraz-Lebsack",
+      "ToolTip": "Quam est est ratione aspernatur.",
+      "Deleted": false,
+      "Rank": 786,
+      "Type": "nisi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "asperiores",
-      "ColorBlock": 699,
-      "ExtraInfo": "tempore",
-      "StyleHint": "rerum",
-      "FullName": "Oren Mayer",
+      "IconHint": "vero",
+      "ColorBlock": 902,
+      "ExtraInfo": "magni",
+      "StyleHint": "voluptas",
+      "FullName": "Norwood Schuster",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 141
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 675,
+  "ProjectEventId": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 771
     }
   }
 }

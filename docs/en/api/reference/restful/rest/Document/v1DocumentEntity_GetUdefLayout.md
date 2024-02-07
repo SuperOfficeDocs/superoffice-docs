@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 989,
-    "ColumnId": 927,
-    "FieldDefault": "quia",
-    "FieldHeight": 664,
-    "FieldLabel": "cupiditate",
-    "FieldLeft": 968,
-    "FieldTop": 459,
+    "UDefFieldId": 510,
+    "ColumnId": 656,
+    "FieldDefault": "corrupti",
+    "FieldHeight": 752,
+    "FieldLabel": "unde",
+    "FieldLeft": 19,
+    "FieldTop": 368,
     "FieldType": "Checkbox",
-    "FieldWidth": 687,
-    "FormatMask": "et",
+    "FieldWidth": 677,
+    "FormatMask": "soluta",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 347,
-    "LabelLeft": 175,
-    "LabelTop": 146,
-    "LabelWidth": 668,
-    "LastVersionId": 495,
-    "ListTableId": 157,
+    "LabelHeight": 851,
+    "LabelLeft": 994,
+    "LabelTop": 689,
+    "LabelWidth": 581,
+    "LastVersionId": 699,
+    "ListTableId": 940,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 816,
-    "ProgId": "magni",
+    "Page1LineNo": 868,
+    "ProgId": "est",
     "IsReadOnly": true,
-    "ShortLabel": "quia",
-    "TabOrder": 738,
-    "TextLength": 786,
-    "Tooltip": "aspernatur",
-    "UdefIdentity": 208,
-    "UDListDefinitionId": 899,
+    "ShortLabel": "ea",
+    "TabOrder": 805,
+    "TextLength": 69,
+    "Tooltip": "at",
+    "UdefIdentity": 161,
+    "UDListDefinitionId": 577,
     "Justification": "Center",
-    "Version": 832,
-    "TemplateVariableName": "Jaskolski Group",
+    "Version": 828,
+    "TemplateVariableName": "Gibson, Crooks and Lowe",
     "HasBeenPublished": false,
-    "MdoListName": "Batz, Smitham and Shields",
+    "MdoListName": "Auer, Feest and Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895
+  "Id": 613
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 661,
-  "Name": "Tromp, Nicolas and Marks",
-  "AssociateId": 372,
-  "DetailsTable": 130,
-  "DetailsRecord": 805,
+  "Id": 151,
+  "Name": "Hackett, Marks and Ryan",
+  "AssociateId": 474,
+  "DetailsTable": 350,
+  "DetailsRecord": 238,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ea",
-    "ParameterObject2": "ducimus"
+    "ParameterObject1": "non",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2010-08-16T23:03:55.0176416+02:00",
-  "Created": "1998-07-08T23:03:55.0176416+02:00",
-  "StartCount": 683,
-  "DatabaseSerialNumber": "570113",
-  "Context": "quis",
-  "Result": "fugiat",
+  "LastStarted": "2009-01-15T16:54:54.5994033+01:00",
+  "Created": "2004-10-04T16:54:54.5994033+02:00",
+  "StartCount": 514,
+  "DatabaseSerialNumber": "1624692",
+  "Context": "sit",
+  "Result": "vel",
   "State": "All",
-  "Description": "Virtual analyzing productivity",
-  "Response": "quos",
-  "Request": "earum",
-  "ProgressDescription": "Switchable user-facing adapter",
-  "ProgressPercent": 712,
-  "FileName": "Rodriguez LLC",
+  "Description": "Multi-lateral intangible capability",
+  "Response": "aliquid",
+  "Request": "illum",
+  "ProgressDescription": "Fully-configurable homogeneous matrices",
+  "ProgressPercent": 97,
+  "FileName": "Schroeder-Strosin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 1002
     }
   }
 }

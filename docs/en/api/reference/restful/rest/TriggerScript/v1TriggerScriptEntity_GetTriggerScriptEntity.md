@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 168,
-  "Name": "Koelpin Group",
+  "ScreenChooserId": 530,
+  "Name": "Lynch Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "harum",
-  "Source": "fuga",
-  "Registered": "2007-09-13T23:04:04.9980061+02:00",
-  "RegisteredAssociateId": 888,
-  "Updated": "1997-10-13T23:04:04.9980061+02:00",
-  "UpdatedAssociateId": 276,
+  "Enabled": true,
+  "UniqueIdentifier": "voluptate",
+  "Source": "quod",
+  "Registered": "2004-11-14T16:55:30.3138161+01:00",
+  "RegisteredAssociateId": 586,
+  "Updated": "2016-10-24T16:55:30.3138161+02:00",
+  "UpdatedAssociateId": 206,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 148
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

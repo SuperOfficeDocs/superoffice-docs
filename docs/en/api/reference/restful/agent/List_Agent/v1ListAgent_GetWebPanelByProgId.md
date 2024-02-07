@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quia"
+  "ProgId": "qui"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 11,
-  "Name": "D'Amore-Nitzsche",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 871,
+  "WebPanelId": 872,
+  "Name": "Kutch-Block",
+  "Tooltip": "architecto",
+  "Deleted": false,
+  "Rank": 904,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Corkery, Senger and Lindgren",
+  "WindowName": "Maggio Group",
   "Url": "http://www.example.com/",
-  "ProgId": "debitis",
-  "Icon": 418,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "explicabo",
+  "Icon": 940,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

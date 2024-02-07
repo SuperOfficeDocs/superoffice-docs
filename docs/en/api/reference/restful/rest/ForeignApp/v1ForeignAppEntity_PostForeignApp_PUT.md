@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 943,
-  "Name": "Cassin-Rempel",
-  "CreatedDate": "2017-09-25T23:04:04.1970168+02:00",
-  "UpdatedDate": "2007-03-09T23:04:04.1970168+01:00",
+  "ForeignAppId": 819,
+  "Name": "Ullrich Group",
+  "CreatedDate": "1998-08-24T16:55:29.6315304+02:00",
+  "UpdatedDate": "2018-10-26T16:55:29.6315304+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 19,
-      "Name": "Collier-Donnelly",
-      "CreatedDate": "2007-03-12T23:04:04.1980177+01:00",
-      "UpdatedDate": "2023-03-11T23:04:04.1980177+01:00",
-      "AssociateFullName": "Victoria Isidro Dickens Sr.",
-      "CreatedBy": "ad",
-      "UpdatedBy": "temporibus",
-      "DeviceIdentifier": "accusamus",
-      "ForeignAppId": 378,
+      "ForeignDeviceId": 570,
+      "Name": "Powlowski, Bruen and Auer",
+      "CreatedDate": "2014-02-25T16:55:29.6325465+01:00",
+      "UpdatedDate": "2001-12-14T16:55:29.6325465+01:00",
+      "AssociateFullName": "Hayley Rosenbaum",
+      "CreatedBy": "iure",
+      "UpdatedBy": "repudiandae",
+      "DeviceIdentifier": "vel",
+      "ForeignAppId": 249,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldType": "System.String",
+          "FieldLength": 974
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 763
     }
   }
 }

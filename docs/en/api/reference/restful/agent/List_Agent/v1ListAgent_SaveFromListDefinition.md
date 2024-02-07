@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "UdListDefinitionId": 969,
+  "Id": 205,
+  "UdListDefinitionId": 537,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 856,
-  "Name": "Steuber, Beer and Little",
-  "Tooltip": "rerum",
+  "Id": 653,
+  "Name": "Hahn LLC",
+  "Tooltip": "culpa",
   "Deleted": true,
-  "UdListDefinitionId": 843,
-  "Rank": 74,
+  "UdListDefinitionId": 465,
+  "Rank": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 986
     }
   }
 }

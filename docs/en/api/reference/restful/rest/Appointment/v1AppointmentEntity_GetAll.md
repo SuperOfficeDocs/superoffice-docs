@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Appointment?$select=name,department,category/id
 GET /api/v1/Appointment?$filter=name begins 'S'
 GET /api/v1/Appointment?$orderBy=name asc
-GET /api/v1/Appointment?$entities=laborum
-GET /api/v1/Appointment?$top=743
-GET /api/v1/Appointment?$skip=146
+GET /api/v1/Appointment?$entities=et
+GET /api/v1/Appointment?$top=236
+GET /api/v1/Appointment?$skip=300
 GET /api/v1/Appointment?$mode=Full
 GET /api/v1/Appointment?$options=GrandTotal=true
-GET /api/v1/Appointment?$context=quae
+GET /api/v1/Appointment?$context=vel
 GET /api/v1/Appointment?$format=JSON
-GET /api/v1/Appointment?$jsonSafe=False
+GET /api/v1/Appointment?$jsonSafe=True
 GET /api/v1/Appointment?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ullam",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 1200,
-      "EntityName": "person",
-      "personId": 1200,
-      "fullName": "Korbin Torp"
+      "PrimaryKey": 1215,
+      "EntityName": "sale",
+      "saleId": 1215,
+      "contactId": 4451,
+      "name": "Ortiz-Bartoletti"
     },
     {
-      "PrimaryKey": 2571,
-      "EntityName": "person",
-      "personId": 2571,
-      "fullName": "Jeanie Fritsch"
+      "PrimaryKey": 8516,
+      "EntityName": "sale",
+      "saleId": 8516,
+      "contactId": 3297,
+      "name": "Dibbert, Rogahn and Rodriguez"
     }
   ]
 }

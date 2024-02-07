@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 488,
-  "ColumnId": 44,
-  "FieldDefault": "ratione",
-  "FieldHeight": 20,
-  "FieldLabel": "sint",
-  "FieldLeft": 189,
-  "FieldTop": 6,
+  "UDefFieldId": 138,
+  "ColumnId": 544,
+  "FieldDefault": "iste",
+  "FieldHeight": 942,
+  "FieldLabel": "delectus",
+  "FieldLeft": 416,
+  "FieldTop": 20,
   "FieldType": "Checkbox",
-  "FieldWidth": 614,
-  "FormatMask": "quia",
-  "HideLabel": true,
+  "FieldWidth": 399,
+  "FormatMask": "consequatur",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 320,
-  "LabelLeft": 791,
-  "LabelTop": 270,
-  "LabelWidth": 290,
-  "LastVersionId": 23,
-  "ListTableId": 970,
-  "IsMandatory": true,
+  "LabelHeight": 701,
+  "LabelLeft": 769,
+  "LabelTop": 634,
+  "LabelWidth": 772,
+  "LastVersionId": 177,
+  "ListTableId": 124,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 451,
-  "ProgId": "non",
+  "Page1LineNo": 223,
+  "ProgId": "quae",
   "IsReadOnly": false,
-  "ShortLabel": "eaque",
-  "TabOrder": 491,
-  "TextLength": 856,
-  "Tooltip": "officiis",
-  "UdefIdentity": 418,
-  "UDListDefinitionId": 261,
+  "ShortLabel": "sed",
+  "TabOrder": 307,
+  "TextLength": 798,
+  "Tooltip": "autem",
+  "UdefIdentity": 10,
+  "UDListDefinitionId": 886,
   "Justification": "Center",
-  "Version": 924,
-  "TemplateVariableName": "Funk, Nienow and Goldner",
+  "Version": 700,
+  "TemplateVariableName": "Corkery LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Smitham, Bednar and Towne",
+  "MdoListName": "Dickens, Wintheiser and Larkin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 952
     }
   }
 }

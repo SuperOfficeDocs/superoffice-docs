@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1001,
-  "Name": "Gaylord-Friesen",
-  "AssociateId": 651,
-  "DetailsTable": 430,
-  "DetailsRecord": 662,
+  "Id": 153,
+  "Name": "Ryan-Breitenberg",
+  "AssociateId": 129,
+  "DetailsTable": 314,
+  "DetailsRecord": 78,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "maiores",
-    "ParameterObject2": "nihil"
+    "ParameterObject1": "nemo",
+    "ParameterObject2": "odit"
   },
-  "LastStarted": "2012-02-18T23:04:05.0100056+01:00",
-  "Created": "2008-06-14T23:04:05.0100056+02:00",
-  "StartCount": 570,
-  "DatabaseSerialNumber": "763993",
-  "Context": "ut",
-  "Result": "animi",
+  "LastStarted": "1999-10-31T16:55:30.3228173+01:00",
+  "Created": "2016-04-22T16:55:30.3228173+02:00",
+  "StartCount": 232,
+  "DatabaseSerialNumber": "1679302",
+  "Context": "rem",
+  "Result": "perspiciatis",
   "State": "All",
-  "Description": "Face to face 3rd generation orchestration",
-  "Response": "quos",
-  "Request": "dignissimos",
-  "ProgressDescription": "Distributed tangible budgetary management",
-  "ProgressPercent": 400,
-  "FileName": "Huel-Robel",
+  "Description": "Total bottom-line hardware",
+  "Response": "sint",
+  "Request": "omnis",
+  "ProgressDescription": "Networked fault-tolerant portal",
+  "ProgressPercent": 315,
+  "FileName": "Reynolds-Wyman",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Satterfield, Cummings and Kirlin",
-  "AssociateId": 592,
-  "DetailsTable": 946,
-  "DetailsRecord": 144,
+  "Id": 671,
+  "Name": "Moore, Reilly and Mohr",
+  "AssociateId": 385,
+  "DetailsTable": 916,
+  "DetailsRecord": 765,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "eveniet",
-    "ParameterObject2": "voluptatum"
+    "ParameterObject1": "rerum",
+    "ParameterObject2": "numquam"
   },
-  "LastStarted": "2005-03-19T23:04:05.0105079+01:00",
-  "Created": "2006-09-15T23:04:05.0105079+02:00",
-  "StartCount": 899,
-  "DatabaseSerialNumber": "1023944",
-  "Context": "saepe",
-  "Result": "incidunt",
+  "LastStarted": "2014-08-27T16:55:30.3238594+02:00",
+  "Created": "2020-03-01T16:55:30.3238594+01:00",
+  "StartCount": 555,
+  "DatabaseSerialNumber": "342136",
+  "Context": "adipisci",
+  "Result": "est",
   "State": "All",
-  "Description": "Seamless hybrid adapter",
-  "Response": "est",
-  "Request": "vel",
-  "ProgressDescription": "Adaptive bandwidth-monitored algorithm",
-  "ProgressPercent": 406,
-  "FileName": "Wintheiser-Schiller",
+  "Description": "Persevering zero defect info-mediaries",
+  "Response": "molestiae",
+  "Request": "eligendi",
+  "ProgressDescription": "Innovative intangible knowledge base",
+  "ProgressPercent": 892,
+  "FileName": "Thiel Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 486
     }
   }
 }

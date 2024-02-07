@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 2,
-    "Name": "McClure-Jacobson",
-    "Tooltip": "est",
+    "HeadingId": 667,
+    "Name": "Kling, Corkery and Kshlerin",
+    "Tooltip": "sunt",
     "Deleted": true,
-    "Rank": 328,
-    "UdListDefinitionId": 442,
+    "Rank": 37,
+    "UdListDefinitionId": 401,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldLength": 807
       }
     }
   }

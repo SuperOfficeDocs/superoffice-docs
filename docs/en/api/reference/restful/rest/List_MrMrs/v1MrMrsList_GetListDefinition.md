@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 223,
-  "Name": "Wolf Inc and Sons",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "Rank": 747,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 908,
+  "Name": "Wisoky-McDermott",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "Rank": 624,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "maiores",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 529
     }
   },
   "_Links": {

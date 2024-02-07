@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schmitt, Boyer and Harber",
-    "DisplayName": "Monahan, Durgan and Collins",
-    "DisplayTooltip": "et",
-    "IsActive": true,
+    "Name": "Schaden LLC",
+    "DisplayName": "Howell LLC",
+    "DisplayTooltip": "dicta",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldType": "System.String",
+        "FieldLength": 155
       }
     }
   },
   {
-    "Name": "Schmitt, Boyer and Harber",
-    "DisplayName": "Monahan, Durgan and Collins",
-    "DisplayTooltip": "et",
-    "IsActive": true,
+    "Name": "Schaden LLC",
+    "DisplayName": "Howell LLC",
+    "DisplayTooltip": "dicta",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldType": "System.String",
+        "FieldLength": 155
       }
     }
   }

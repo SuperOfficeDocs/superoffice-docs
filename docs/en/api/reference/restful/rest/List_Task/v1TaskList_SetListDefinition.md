@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "Name": "Hickle Group",
-  "Tooltip": "molestias",
-  "Deleted": false,
-  "Rank": 810,
-  "IsCustomList": true,
+  "Id": 755,
+  "Name": "Goyette, O'Reilly and Cormier",
+  "Tooltip": "iusto",
+  "Deleted": true,
+  "Rank": 206,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "corporis",
-  "InUseByUserDefinedFields": true
+  "ListType": "deserunt",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 882,
-  "Name": "Kohler, Kovacek and Feest",
-  "Tooltip": "cumque",
-  "Deleted": true,
-  "Rank": 178,
+  "Id": 193,
+  "Name": "Schoen LLC",
+  "Tooltip": "vero",
+  "Deleted": false,
+  "Rank": 572,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "impedit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 501
     }
   }
 }

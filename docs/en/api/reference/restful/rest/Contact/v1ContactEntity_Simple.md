@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 682,
-  "Name": "Volkman-Swift",
-  "OrgNr": "1656359",
+  "ContactId": 842,
+  "Name": "Turner Inc and Sons",
+  "OrgNr": "1602979",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "iste",
-  "DirectPhone": "1-600-414-0348 x03259",
-  "AssociateId": 387,
-  "CountryId": 940,
-  "EmailAddress": "mariane.legros@cruickshank.co.uk",
-  "Kananame": "ut",
-  "EmailAddressName": "geovanny.hills@ebert.co.uk",
+  "City": "id",
+  "DirectPhone": "1-887-902-9285 x7732",
+  "AssociateId": 233,
+  "CountryId": 439,
+  "EmailAddress": "felix.corkery@hyatt.ca",
+  "Kananame": "enim",
+  "EmailAddressName": "enid@hauck.name",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Jerrell Billy Weissnat DDS",
+  "AssociateFullName": "Branson Romaguera",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "distinctio",
-  "FullName": "Ms. Jack Wiegand DDS",
+  "FormattedAddress": "voluptatum",
+  "FullName": "Jarred Bode",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 277,
-  "Number1": "806459",
-  "Number2": "1272134",
+  "ActiveErpLinks": 746,
+  "Number1": "969323",
+  "Number2": "1636449",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 613
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 965,
-    "Name": "Reilly Group",
-    "ToolTip": "Recusandae quibusdam.",
-    "Deleted": false,
-    "Rank": 261,
-    "Type": "dolorem",
-    "ColorBlock": 4,
-    "IconHint": "tempore",
+    "Id": 375,
+    "Name": "Gleichner LLC",
+    "ToolTip": "Quibusdam tempore expedita eligendi.",
+    "Deleted": true,
+    "Rank": 714,
+    "Type": "commodi",
+    "ColorBlock": 689,
+    "IconHint": "repudiandae",
     "Selected": true,
-    "LastChanged": "1999-04-12T23:04:04.6315132+02:00",
+    "LastChanged": "2014-01-17T16:55:30.0035942+01:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Gorczany Inc and Sons",
-        "ToolTip": "Qui natus deleniti quia quos quisquam rem.",
-        "Deleted": true,
-        "Rank": 515,
-        "Type": "quo",
-        "ColorBlock": 694,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2020-11-15T23:04:04.6320133+01:00",
+        "Id": 121,
+        "Name": "Hills, O'Reilly and Schmitt",
+        "ToolTip": "Cumque necessitatibus sed adipisci soluta rem.",
+        "Deleted": false,
+        "Rank": 537,
+        "Type": "suscipit",
+        "ColorBlock": 686,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2004-12-10T16:55:30.0035942+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Romaine Leora Weimann IV",
+        "ExtraInfo": "quia",
+        "StyleHint": "eaque",
+        "Hidden": true,
+        "FullName": "Miss Ronny Roosevelt Dicki PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldType": "System.String",
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Dr. Shad Myrna Eichmann Jr.",
+    "ExtraInfo": "vel",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Mrs. Cassandre Nick Bradtke Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldType": "System.Int32",
+        "FieldLength": 788
       }
     }
   }

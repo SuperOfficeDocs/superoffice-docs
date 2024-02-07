@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 912,
-  "Name": "Reinger-Kohler",
-  "Description": "Synergized reciprocal encoding",
-  "WelcomeMessage": "est",
+  "ChatTopicId": 635,
+  "Name": "Bergstrom, Fadel and Hoeger",
+  "Description": "Integrated zero tolerance pricing structure",
+  "WelcomeMessage": "omnis",
   "Language": null,
-  "LastAccept": "2009-01-12T23:04:03.849524+01:00",
-  "SecondsPrAccept": 457,
-  "AlertRecipient": "totam",
+  "LastAccept": "2003-07-07T16:55:29.3507796+02:00",
+  "SecondsPrAccept": 788,
+  "AlertRecipient": "voluptas",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "enim",
+  "CollectConsent": true,
+  "BadgeHeader": "illo",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aperiam",
-  "WarnNewChatMinutes": 613,
-  "WarnManagerNewChatMinutes": 166,
+  "CustomQueueText": "autem",
+  "WarnNewChatMinutes": 97,
+  "WarnManagerNewChatMinutes": 561,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 934,
-  "WarnManagerChatMessageMinutes": 106,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 937,
-  "OfflineFormQueueLength": 186,
+  "WarnChatMessageMinutes": 190,
+  "WarnManagerChatMessageMinutes": 531,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 680,
+  "OfflineFormQueueLength": 46,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "voluptatem",
+  "WidgetRatingText": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 536
     }
   }
 }

@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=True
+GET /api/v1/Hierarchy/{domain}/{path}?children=False
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 909,
+  "HierarchyId": 138,
   "Domain": "Dashboards",
-  "Name": "Rodriguez-Lemke",
-  "Fullname": "aperiam",
-  "ParentId": 572,
+  "Name": "Keebler-Zulauf",
+  "Fullname": "quis",
+  "ParentId": 765,
   "Children": [
     {
-      "HierarchyId": 881,
+      "HierarchyId": 187,
       "Domain": "Dashboards",
-      "Name": "Larkin-Walsh",
-      "Fullname": "veniam",
-      "ParentId": 273,
+      "Name": "Harris, Thiel and Kiehn",
+      "Fullname": "voluptatem",
+      "ParentId": 505,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-09-02T23:04:04.2385173+02:00",
-      "RegisteredAssociateId": 269,
-      "Updated": "1997-12-06T23:04:04.2385173+01:00",
-      "UpdatedAssociateId": 999,
+      "Registered": "2013-03-25T16:55:29.6644398+01:00",
+      "RegisteredAssociateId": 205,
+      "Updated": "2018-07-29T16:55:29.6644398+02:00",
+      "UpdatedAssociateId": 840,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 269
         }
       }
     }
   ],
-  "Registered": "1997-10-24T23:04:04.2385173+02:00",
-  "RegisteredAssociateId": 591,
-  "Updated": "2005-02-08T23:04:04.2385173+01:00",
-  "UpdatedAssociateId": 215,
+  "Registered": "2016-01-15T16:55:29.6644398+01:00",
+  "RegisteredAssociateId": 309,
+  "Updated": "1996-10-28T16:55:29.6644398+01:00",
+  "UpdatedAssociateId": 291,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 797
     }
   }
 }

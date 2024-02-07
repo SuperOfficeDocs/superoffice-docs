@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 884,
-  "Name": "Maggio Group",
-  "Tooltip": "earum",
+  "HeadingId": 311,
+  "Name": "Kertzmann-Ritchie",
+  "Tooltip": "hic",
   "Deleted": true,
-  "Rank": 484,
-  "UdListDefinitionId": 317
+  "Rank": 85,
+  "UdListDefinitionId": 312
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 694,
-  "Name": "Pouros-Hammes",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "Rank": 139,
-  "UdListDefinitionId": 814,
+  "HeadingId": 260,
+  "Name": "Bode-Rodriguez",
+  "Tooltip": "aperiam",
+  "Deleted": false,
+  "Rank": 542,
+  "UdListDefinitionId": 949,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 395
     }
   }
 }

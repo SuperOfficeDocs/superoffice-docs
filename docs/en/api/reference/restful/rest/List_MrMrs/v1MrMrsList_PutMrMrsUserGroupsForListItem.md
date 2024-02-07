@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Willms-Senger",
-    "ToolTip": "Facilis suscipit minima officia beatae.",
-    "Deleted": true,
-    "Rank": 640,
-    "Type": "sed",
-    "ColorBlock": 950,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2017-07-14T23:04:05.5204988+02:00",
+    "Id": 389,
+    "Name": "Gutkowski Inc and Sons",
+    "ToolTip": "Consequuntur optio illum illum exercitationem placeat occaecati.",
+    "Deleted": false,
+    "Rank": 301,
+    "Type": "cum",
+    "ColorBlock": 550,
+    "IconHint": "corrupti",
+    "Selected": false,
+    "LastChanged": "1999-03-02T16:55:30.7181752+01:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Mayert-Grimes",
-        "ToolTip": "Aspernatur laborum qui quo quia possimus.",
+        "Id": 532,
+        "Name": "Luettgen Inc and Sons",
+        "ToolTip": "Sint qui veritatis culpa qui et non voluptates.",
         "Deleted": false,
-        "Rank": 33,
+        "Rank": 556,
         "Type": "aut",
-        "ColorBlock": 453,
-        "IconHint": "fugiat",
+        "ColorBlock": 63,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2015-09-05T23:04:05.5210007+02:00",
+        "LastChanged": "2023-08-12T16:55:30.7181752+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Mathew Connelly"
+        "ExtraInfo": "quasi",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Prof. Geoffrey Kennedy Towne II"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "corporis",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Miss Rossie McClure"
+    "FullName": "Prof. Eliza McKenzie DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Schaden Group",
-    "ToolTip": "Voluptatum molestiae adipisci explicabo inventore dolor.",
+    "Id": 39,
+    "Name": "Murphy Group",
+    "ToolTip": "Delectus itaque consequatur.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "doloribus",
-    "ColorBlock": 439,
-    "IconHint": "non",
+    "Rank": 15,
+    "Type": "odio",
+    "ColorBlock": 254,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2021-05-23T23:04:05.5219989+02:00",
+    "LastChanged": "2010-05-18T16:55:30.7201754+02:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Heidenreich, Hermiston and Hilll",
-        "ToolTip": "Eveniet ut nobis.",
-        "Deleted": false,
-        "Rank": 434,
-        "Type": "enim",
-        "ColorBlock": 862,
-        "IconHint": "laudantium",
+        "Id": 480,
+        "Name": "Kshlerin, Johnston and Huel",
+        "ToolTip": "Ducimus eius quaerat eligendi consequatur perspiciatis repellat qui.",
+        "Deleted": true,
+        "Rank": 729,
+        "Type": "est",
+        "ColorBlock": 4,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2001-11-21T23:04:05.5219989+01:00",
+        "LastChanged": "1999-08-04T16:55:30.7201754+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "non",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Miss Vita Cathryn Rau PhD",
+        "FullName": "Nicole Ernest Veum V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 759
+            "FieldType": "System.Int32",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Dr. Fletcher Bria Bogan",
+    "ExtraInfo": "sunt",
+    "StyleHint": "neque",
+    "Hidden": false,
+    "FullName": "Miss Parker Fritsch DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 990
       }
     }
   }

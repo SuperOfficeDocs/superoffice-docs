@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 414,
-  "MessageId": "enim",
-  "Subject": "rerum",
+  "ServerId": 294,
+  "MessageId": "quos",
+  "Subject": "tempore",
   "From": null,
   "To": [
     {
-      "ContactId": 836,
-      "ContactName": "Wunsch LLC",
-      "PersonId": 794,
-      "PersonName": "O'Keefe, Ondricka and Ullrich",
-      "AssociateId": 149,
-      "Address": "voluptatem",
-      "EmailId": 215,
+      "ContactId": 486,
+      "ContactName": "O'Connell, Sawayn and Rippin",
+      "PersonId": 739,
+      "PersonName": "McLaughlin, Boyer and Harris",
+      "AssociateId": 85,
+      "Address": "recusandae",
+      "EmailId": 109,
       "DuplicatePersonIds": [
-        90,
-        542
+        681,
+        72
       ],
-      "Name": "Langosh-Mayert",
+      "Name": "Shields-Dare",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 211
         }
       }
     }
   ],
-  "Sent": "1998-12-12T23:03:55.9321303+01:00",
+  "Sent": "2003-11-15T16:54:55.3414255+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 167,
+  "Size": 403,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldType": "System.Int32",
+      "FieldLength": 886
     }
   }
 }

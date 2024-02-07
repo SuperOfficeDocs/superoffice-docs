@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 986,
-  "Name": "Schinner-Bayer",
-  "Tooltip": "provident",
+  "Id": 497,
+  "Name": "Smith, Armstrong and Hackett",
+  "Tooltip": "accusamus",
   "Deleted": true,
-  "UdListDefinitionId": 916,
-  "Rank": 992,
+  "UdListDefinitionId": 48,
+  "Rank": 40,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 571
+      "FieldType": "System.Int32",
+      "FieldLength": 481
     }
   }
 }

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 874,
-  "Name": "Lowe Group",
-  "Tooltip": "quaerat",
+  "HeadingId": 601,
+  "Name": "Brown, Bosco and Gleason",
+  "Tooltip": "quos",
   "Deleted": true,
-  "Rank": 735,
-  "UdListDefinitionId": 420
+  "Rank": 452,
+  "UdListDefinitionId": 896
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 787,
-  "Name": "Ernser-Boyer",
-  "Tooltip": "beatae",
+  "HeadingId": 503,
+  "Name": "Farrell LLC",
+  "Tooltip": "eaque",
   "Deleted": true,
-  "Rank": 376,
-  "UdListDefinitionId": 146,
+  "Rank": 952,
+  "UdListDefinitionId": 916,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldType": "System.Int32",
+      "FieldLength": 353
     }
   }
 }

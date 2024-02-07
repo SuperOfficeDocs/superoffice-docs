@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "magni",
-  "Tags": "alias"
+  "DeviceIdentifier": "asperiores",
+  "Tags": "fuga"
 }
 ```
 

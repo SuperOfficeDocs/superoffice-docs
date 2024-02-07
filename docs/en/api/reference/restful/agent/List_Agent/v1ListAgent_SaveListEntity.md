@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 613,
-  "Name": "Conroy Inc and Sons",
-  "Tooltip": "quas",
-  "Deleted": false,
-  "Rank": 42,
-  "IsCustomList": false,
+  "Id": 65,
+  "Name": "Nienow LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 223,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rem",
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 148,
-  "Name": "Stiedemann Inc and Sons",
-  "Tooltip": "soluta",
+  "Id": 215,
+  "Name": "Klein-Schoen",
+  "Tooltip": "esse",
   "Deleted": true,
-  "Rank": 783,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "Rank": 532,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldLength": 959
     }
   }
 }

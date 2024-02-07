@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 645,
-  "Name": "Leannon, Quigley and Bartell",
-  "CreatedDate": "2019-09-16T23:04:04.2180251+02:00",
-  "UpdatedDate": "2007-03-28T23:04:04.2180251+02:00",
+  "ForeignAppId": 576,
+  "Name": "Bosco-Klein",
+  "CreatedDate": "2006-04-20T16:55:29.6455283+02:00",
+  "UpdatedDate": "2019-10-14T16:55:29.6455283+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 522,
-      "Name": "Huels-Klein",
-      "CreatedDate": "1996-12-03T23:04:04.2185167+01:00",
-      "UpdatedDate": "2021-05-09T23:04:04.2185167+02:00",
-      "AssociateFullName": "Arturo Okuneva",
-      "CreatedBy": "eos",
-      "UpdatedBy": "deserunt",
-      "DeviceIdentifier": "ratione",
-      "ForeignAppId": 11,
+      "ForeignDeviceId": 146,
+      "Name": "Fritsch-Botsford",
+      "CreatedDate": "2003-12-16T16:55:29.6475236+01:00",
+      "UpdatedDate": "2003-10-12T16:55:29.6475236+02:00",
+      "AssociateFullName": "Maureen Ernser",
+      "CreatedBy": "modi",
+      "UpdatedBy": "facere",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 528,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldLength": 564
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldLength": 63
     }
   },
   "_Links": {

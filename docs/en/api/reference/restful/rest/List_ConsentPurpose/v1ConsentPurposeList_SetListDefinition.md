@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Upton, Boyle and Murphy",
-  "Tooltip": "vitae",
+  "Id": 881,
+  "Name": "Rau-VonRueden",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 501,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 425,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": false
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Frami-Rodriguez",
-  "Tooltip": "id",
+  "Id": 815,
+  "Name": "Ryan Inc and Sons",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 536,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 971,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 734
     }
   }
 }

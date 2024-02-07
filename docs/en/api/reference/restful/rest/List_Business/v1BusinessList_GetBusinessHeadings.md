@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 298,
-    "Name": "Fritsch LLC",
-    "Tooltip": "et",
+    "HeadingId": 581,
+    "Name": "Hoppe LLC",
+    "Tooltip": "aperiam",
     "Deleted": false,
-    "Rank": 688,
-    "UdListDefinitionId": 410,
+    "Rank": 97,
+    "UdListDefinitionId": 944,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldLength": 659
       }
     }
   }

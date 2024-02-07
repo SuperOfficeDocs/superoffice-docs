@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 318,
+  "DocumentPluginId": 424,
   "IncludeEmails": true
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 565,
-  "NumDocumentsAlreadyMigrated": 74,
+  "NumDocumentsOmitted": 462,
+  "NumDocumentsAlreadyMigrated": 455,
   "Documents": [
     {
-      "DocumentId": 211,
-      "ContactId": 626,
-      "PersonId": 914,
-      "SaleId": 854,
-      "ProjectId": 450,
-      "DocTmplId": 211,
-      "AssociateId": 698,
-      "UserGroupId": 71,
-      "VisibleForId": 602
+      "DocumentId": 631,
+      "ContactId": 233,
+      "PersonId": 291,
+      "SaleId": 643,
+      "ProjectId": 817,
+      "DocTmplId": 786,
+      "AssociateId": 116,
+      "UserGroupId": 495,
+      "VisibleForId": 911
     }
   ],
   "Associates": [
     {
-      "AssociateId": 613,
-      "EmailAddress": "juliet_hammes@brown.us"
+      "AssociateId": 395,
+      "EmailAddress": "mireille@bayer.uk"
     },
     {
-      "AssociateId": 613,
-      "EmailAddress": "juliet_hammes@brown.us"
+      "AssociateId": 395,
+      "EmailAddress": "mireille@bayer.uk"
     }
   ]
 }

@@ -94,30 +94,30 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 71,
-  "Name": "Shields-Fahey",
-  "Rank": 127,
-  "Tooltip": "eius",
-  "Icon": "nobis",
-  "DefaultTicketStatus": 218,
+  "TicketTypeId": 66,
+  "Name": "Hagenes Group",
+  "Rank": 287,
+  "Tooltip": "quis",
+  "Icon": "beatae",
+  "DefaultTicketStatus": 175,
   "TicketStatuses": [
-    236,
-    377
+    699,
+    186
   ],
-  "DefaultTicketPriority": 578,
+  "DefaultTicketPriority": 437,
   "TicketPriorities": [
-    172,
-    299
+    401,
+    19
   ],
-  "ReplyTemplate": 425,
+  "ReplyTemplate": 744,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldType": "System.String",
+      "FieldLength": 377
     }
   },
   "_Links": {

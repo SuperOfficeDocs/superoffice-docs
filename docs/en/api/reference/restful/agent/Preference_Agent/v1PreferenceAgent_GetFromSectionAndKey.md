@@ -95,8 +95,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "dolorem",
-  "Key": "adipisci"
+  "Section": "fuga",
+  "Key": "ut"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 73,
-  "Section": "rerum",
-  "Key": "consequuntur",
-  "Name": "Daugherty, Rau and Quigley",
+  "PrefDescId": 803,
+  "Section": "culpa",
+  "Key": "dolorum",
+  "Name": "Rath-Altenwerth",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key homogeneous neural-net",
-  "IsBuiltin": false,
-  "TableName": "Padberg, Halvorson and Stroman",
-  "UserDefinedListId": 426,
-  "Rank": 244,
-  "SubGroup": "ut",
-  "MinLevel": 763,
-  "MaxValue": 545,
-  "MinValue": 167,
-  "RequiredLicense": "dignissimos",
+  "Description": "Diverse executive projection",
+  "IsBuiltin": true,
+  "TableName": "Trantow, Kirlin and Yost",
+  "UserDefinedListId": 758,
+  "Rank": 235,
+  "SubGroup": "aliquam",
+  "MinLevel": 778,
+  "MaxValue": 245,
+  "MinValue": 260,
+  "RequiredLicense": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldType": "System.Int32",
+      "FieldLength": 573
     }
   }
 }

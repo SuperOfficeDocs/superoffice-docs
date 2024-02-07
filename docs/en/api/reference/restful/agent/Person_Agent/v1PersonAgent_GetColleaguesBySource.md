@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 810
+  "Count": 585
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "est",
-    "PersonId": 388,
-    "Mrmrs": "minus",
-    "Firstname": "Christian",
-    "Lastname": "Kreiger",
-    "MiddleName": "Ankunding, Tremblay and Dare",
-    "Title": "ipsum",
-    "Description": "Reverse-engineered real-time collaboration",
-    "Email": "monte.ruecker@wyman.biz",
-    "FullName": "Mr. Benedict Marquardt",
-    "DirectPhone": "1-410-993-0541 x61364",
-    "FormalName": "Shields, Wisoky and Paucek",
-    "CountryId": 463,
-    "ContactId": 930,
-    "ContactName": "Buckridge LLC",
-    "Retired": 429,
-    "Rank": 594,
-    "ActiveInterests": 485,
+    "Position": "dolores",
+    "PersonId": 681,
+    "Mrmrs": "quis",
+    "Firstname": "Dillon",
+    "Lastname": "Waters",
+    "MiddleName": "Williamson-Steuber",
+    "Title": "iste",
+    "Description": "Balanced coherent array",
+    "Email": "edward.abshire@quitzon.ca",
+    "FullName": "Ms. Rebeca Collins",
+    "DirectPhone": "(642)309-6636 x84165",
+    "FormalName": "Swift-Oberbrunner",
+    "CountryId": 379,
+    "ContactId": 305,
+    "ContactName": "Marquardt-Nader",
+    "Retired": 351,
+    "Rank": 396,
+    "ActiveInterests": 479,
     "ContactDepartment": "",
-    "ContactCountryId": 801,
-    "ContactOrgNr": "1487620",
-    "FaxPhone": "(779)312-5293",
-    "MobilePhone": "(592)246-7863 x239",
-    "ContactPhone": "(505)779-7015",
-    "AssociateName": "Collins, Pouros and Marquardt",
-    "AssociateId": 69,
+    "ContactCountryId": 920,
+    "ContactOrgNr": "1231967",
+    "FaxPhone": "663-225-3982",
+    "MobilePhone": "142-135-9383",
+    "ContactPhone": "(393)148-3764",
+    "AssociateName": "Rutherford LLC",
+    "AssociateId": 558,
     "UsePersonAddress": false,
-    "ContactFax": "aut",
-    "Kanafname": "et",
-    "Kanalname": "qui",
-    "Post1": "quaerat",
-    "Post2": "atque",
-    "Post3": "eos",
-    "EmailName": "mason@bauchlangworth.us",
-    "ContactFullName": "Brenna Legros Sr.",
-    "ActiveErpLinks": 861,
-    "TicketPriorityId": 572,
-    "SupportLanguageId": 738,
-    "SupportAssociateId": 603,
+    "ContactFax": "et",
+    "Kanafname": "consectetur",
+    "Kanalname": "doloremque",
+    "Post1": "temporibus",
+    "Post2": "dolor",
+    "Post3": "pariatur",
+    "EmailName": "alberto@beatty.name",
+    "ContactFullName": "Tristian Kerluke III",
+    "ActiveErpLinks": 498,
+    "TicketPriorityId": 334,
+    "SupportLanguageId": 99,
+    "SupportAssociateId": 465,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldType": "System.Int32",
+        "FieldLength": 465
       }
     }
   }

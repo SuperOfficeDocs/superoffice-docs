@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": true,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 540
+  "DefaultAlarmLeadTimeInMinutes": 357
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 225,
-      "StartTime": "2017-04-20T23:03:54.5951487+02:00",
-      "EndDate": "2020-12-09T23:03:54.5951487+01:00",
-      "AlarmTime": "2019-12-21T23:03:54.5951487+01:00",
-      "PersonId": 890,
-      "PersonFullName": "Rahul Klocko",
-      "ContactName": "Senger-Mueller",
-      "ProjectId": 502,
-      "ProjectName": "Johnson-Bailey",
-      "AppointmentText": "et",
-      "SaleId": 248,
-      "SaleName": "Lindgren Group",
-      "Location": "quia",
+      "AppointmentId": 749,
+      "StartTime": "2023-02-10T16:54:54.2741053+01:00",
+      "EndDate": "2002-03-17T16:54:54.2741053+01:00",
+      "AlarmTime": "2001-05-31T16:54:54.2741053+02:00",
+      "PersonId": 53,
+      "PersonFullName": "Miss Juwan Noelia Glover I",
+      "ContactName": "Hahn, O'Keefe and Walter",
+      "ProjectId": 531,
+      "ProjectName": "Jacobi Inc and Sons",
+      "AppointmentText": "quasi",
+      "SaleId": 224,
+      "SaleName": "Pollich, Veum and White",
+      "Location": "alias",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 791,
+      "ContactId": 648,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Tremblay, Murphy and Schaden",
-      "TaskName": "Hamill, Schneider and Eichmann",
+      "FormalName": "Osinski, Rolfson and Schultz",
+      "TaskName": "Treutel-Wilkinson",
       "ContactDepartment": "",
-      "ContactFullName": "Miss Connor Carol Lowe",
+      "ContactFullName": "Ms. Brandon Miller Sr.",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 153
+          "FieldLength": 72
         }
       }
     }
   ],
-  "PollingInterval": 335,
-  "SilentAfter": 959,
+  "PollingInterval": 658,
+  "SilentAfter": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 267
     }
   }
 }

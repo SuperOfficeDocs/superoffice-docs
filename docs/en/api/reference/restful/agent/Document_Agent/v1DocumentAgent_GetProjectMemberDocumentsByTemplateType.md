@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 138,
-  "StartTime": "1999-06-27T23:03:55.6731329+02:00",
-  "EndTime": "2000-02-29T23:03:55.6731329+01:00",
-  "Count": 141,
-  "DocumentTemplateId": 645
+  "PersonId": 274,
+  "StartTime": "2019-04-15T16:54:55.1474786+02:00",
+  "EndTime": "2018-06-27T16:54:55.1474786+02:00",
+  "Count": 454,
+  "DocumentTemplateId": 556
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 640,
-    "Attention": "natus",
-    "Header": "accusantium",
-    "Name": "Wintheiser LLC",
-    "OurRef": "soluta",
-    "YourRef": "et",
-    "Description": "Enhanced real-time moderator",
-    "DocumentTemplate": "blanditiis",
-    "IsPublished": true,
-    "PersonId": 376,
-    "PersonFullName": "Oswaldo Pagac",
-    "AssociateFullName": "Cleveland Mitchell",
-    "ContactId": 598,
-    "ContactName": "Zboncak Group",
-    "ProjectId": 729,
-    "ProjectName": "Boyer, Morar and Schmidt",
-    "AssociateId": 794,
-    "Snum": 689,
-    "SaleId": 850,
-    "SaleName": "Gusikowski Inc and Sons",
+    "DocumentId": 734,
+    "Attention": "odit",
+    "Header": "voluptatem",
+    "Name": "Crist-Rempel",
+    "OurRef": "reprehenderit",
+    "YourRef": "sed",
+    "Description": "Expanded 24 hour alliance",
+    "DocumentTemplate": "mollitia",
+    "IsPublished": false,
+    "PersonId": 215,
+    "PersonFullName": "Carissa Murphy",
+    "AssociateFullName": "Prof. Jamison Koelpin DVM",
+    "ContactId": 745,
+    "ContactName": "Miller Inc and Sons",
+    "ProjectId": 163,
+    "ProjectName": "Gulgowski, Shields and Ratke",
+    "AssociateId": 4,
+    "Snum": 587,
+    "SaleId": 139,
+    "SaleName": "Marquardt, Cremin and Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldLength": 773
       }
     }
   }

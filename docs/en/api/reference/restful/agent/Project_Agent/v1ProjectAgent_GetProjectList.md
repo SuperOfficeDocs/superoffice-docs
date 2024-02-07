@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 608,
-    "Name": "Abbott, Heathcote and Kilback",
-    "Description": "Reactive real-time migration",
+    "ProjectId": 440,
+    "Name": "Hoeger, Hamill and Powlowski",
+    "Description": "Multi-lateral tangible methodology",
     "URL": "http://www.example.com/",
-    "Type": "ullam",
-    "AssociateId": 42,
-    "AssociateFullName": "Conor Ruecker",
-    "TypeId": 228,
-    "Updated": "2014-03-05T23:03:56.6826201+01:00",
-    "StatusId": 450,
-    "Status": "culpa",
-    "TextId": 790,
-    "PublishTo": "2017-10-20T23:03:56.6826201+02:00",
-    "PublishFrom": "2012-07-07T23:03:56.6826201+02:00",
-    "IsPublished": false,
+    "Type": "minus",
+    "AssociateId": 778,
+    "AssociateFullName": "Jarvis Marquardt MD",
+    "TypeId": 413,
+    "Updated": "2020-08-19T16:54:56.0671382+02:00",
+    "StatusId": 362,
+    "Status": "ut",
+    "TextId": 71,
+    "PublishTo": "2019-04-29T16:54:56.0671382+02:00",
+    "PublishFrom": "2017-08-21T16:54:56.0671382+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1202581",
-    "ActiveErpLinks": 491,
+    "ProjectNumber": "1054508",
+    "ActiveErpLinks": 978,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldType": "System.String",
+        "FieldLength": 158
       }
     }
   }

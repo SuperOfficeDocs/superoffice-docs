@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 287,
-    "Name": "Lindgren-Flatley",
-    "CurrencyId": 810,
-    "EnglishName": "Gorczany, Feil and Halvorson",
+    "CountryId": 768,
+    "Name": "Hane, Pfannerstill and Nitzsche",
+    "CurrencyId": 253,
+    "EnglishName": "Bergnaum LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Implemented real-time matrix",
-    "OrgNrText": "1294121",
-    "InterAreaPrefix": "saepe",
-    "DialInPrefix": "eveniet",
-    "ZipPrefix": "soluta",
-    "DomainName": "Russel-Ondricka",
-    "AddressLayoutId": 746,
-    "DomesticAddressLayoutId": 661,
-    "ForeignAddressLayoutId": 878,
-    "Rank": 767,
-    "Tooltip": "fuga",
+    "ImageDescription": "Managed demand-driven benchmark",
+    "OrgNrText": "302780",
+    "InterAreaPrefix": "placeat",
+    "DialInPrefix": "non",
+    "ZipPrefix": "facere",
+    "DomainName": "McClure, Abbott and Bogisich",
+    "AddressLayoutId": 308,
+    "DomesticAddressLayoutId": 424,
+    "ForeignAddressLayoutId": 928,
+    "Rank": 729,
+    "Tooltip": "aliquam",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldLength": 677
       }
     }
   }

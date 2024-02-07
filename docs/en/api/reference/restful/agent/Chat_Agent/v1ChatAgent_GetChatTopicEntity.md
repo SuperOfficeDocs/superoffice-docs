@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=665
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=277
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 1000,
-  "Name": "Roberts, Marvin and Harber",
-  "Description": "Multi-tiered bottom-line attitude",
-  "WelcomeMessage": "in",
+  "ChatTopicId": 608,
+  "Name": "Russel-Cremin",
+  "Description": "Operative transitional contingency",
+  "WelcomeMessage": "ad",
   "Language": null,
-  "LastAccept": "1997-05-19T23:03:55.1966396+02:00",
-  "SecondsPrAccept": 522,
-  "AlertRecipient": "nemo",
+  "LastAccept": "2014-05-12T16:54:54.8612802+02:00",
+  "SecondsPrAccept": 927,
+  "AlertRecipient": "quaerat",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "perspiciatis",
+  "BadgeHeader": "illo",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "molestiae",
-  "WarnNewChatMinutes": 36,
-  "WarnManagerNewChatMinutes": 223,
-  "TicketEnabled": true,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 921,
+  "WarnManagerNewChatMinutes": 525,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 777,
-  "WarnManagerChatMessageMinutes": 531,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 362,
-  "OfflineFormQueueLength": 659,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "omnis",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 254,
+  "WarnManagerChatMessageMinutes": 250,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 183,
+  "OfflineFormQueueLength": 728,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldLength": 530
     }
   }
 }

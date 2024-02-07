@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 171,
-    "Name": "Klocko LLC",
-    "Tooltip": "aut",
-    "Rank": 129,
-    "Key": "cum",
-    "MailTemplateId": 408,
+    "ConsentSourceId": 118,
+    "Name": "Hermann-Feest",
+    "Tooltip": "consectetur",
+    "Rank": 450,
+    "Key": "nostrum",
+    "MailTemplateId": 881,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 567
       }
     }
   }

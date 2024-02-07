@@ -71,20 +71,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Pollich-Kovacek",
-  "StorageKey": "omnis",
+  "StorageType": "cum",
+  "ProviderName": "Jacobs-Marquardt",
+  "StorageKey": "aspernatur",
   "Restrictions": [
     {
-      "Name": "Treutel Group",
-      "Operator": "sint",
+      "Name": "Lockman-Gulgowski",
+      "Operator": "molestiae",
       "Values": [
-        "et",
-        "iusto"
+        "maiores",
+        "aspernatur"
       ],
       "DisplayValues": [
         "aut",
-        "nemo"
+        "odio"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 269,
+      "InterParenthesis": 373,
       "InterOperator": "And",
-      "UniqueHash": 292
+      "UniqueHash": 785
     }
   ]
 }

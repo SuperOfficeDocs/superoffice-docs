@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 731,
-    "Name": "Hyatt, Shields and Moen",
+    "TicketPriorityId": 58,
+    "Name": "Bayer LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 389,
+    "SortOrder": 661,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 860,
-    "MonStart": "2018-02-17T23:04:06.0094936+01:00",
-    "MonStop": "1998-12-22T23:04:06.0094936+01:00",
-    "TueStart": "2000-03-08T23:04:06.0094936+01:00",
-    "TueStop": "1997-07-16T23:04:06.0094936+02:00",
-    "WedStart": "2018-03-22T23:04:06.0094936+01:00",
-    "WedStop": "2018-07-12T23:04:06.0094936+02:00",
-    "ThuStart": "2020-09-16T23:04:06.0094936+02:00",
-    "ThuStop": "2017-03-10T23:04:06.0094936+01:00",
-    "FriStart": "2018-12-16T23:04:06.0094936+01:00",
-    "FriStop": "2015-04-10T23:04:06.0094936+02:00",
-    "SatStart": "2001-05-05T23:04:06.0094936+02:00",
-    "SatStop": "2009-10-20T23:04:06.0094936+02:00",
-    "SunStart": "2024-01-15T23:04:06.0094936+01:00",
-    "SunStop": "2001-08-26T23:04:06.0094936+02:00",
+    "Deadline": 782,
+    "MonStart": "2006-02-06T16:55:31.1317952+01:00",
+    "MonStop": "2022-03-27T16:55:31.1317952+02:00",
+    "TueStart": "2012-03-11T16:55:31.1317952+01:00",
+    "TueStop": "2015-07-08T16:55:31.1317952+02:00",
+    "WedStart": "2011-06-17T16:55:31.1317952+02:00",
+    "WedStop": "2017-04-17T16:55:31.1317952+02:00",
+    "ThuStart": "2017-09-27T16:55:31.1317952+02:00",
+    "ThuStop": "2011-04-10T16:55:31.1317952+02:00",
+    "FriStart": "2011-03-28T16:55:31.1317952+02:00",
+    "FriStop": "2023-06-30T16:55:31.1317952+02:00",
+    "SatStart": "2017-01-17T16:55:31.1317952+01:00",
+    "SatStop": "2020-10-10T16:55:31.1317952+02:00",
+    "SunStart": "2020-03-26T16:55:31.1317952+01:00",
+    "SunStop": "2011-06-03T16:55:31.1317952+02:00",
     "NonDates": [
-      "occaecati",
-      "architecto"
+      "dicta",
+      "iste"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 47,
-        "AlertLevel": 666,
-        "AlertTimeout": 809,
-        "Action": 814,
-        "DelegateTo": 999,
-        "ScriptId": 150,
-        "EmailTo": "nayeli.gottlieb@schowalter.co.uk",
-        "SmsTo": "maiores",
-        "ReplyTemplateIdCustomer": 438,
-        "ReplyTemplateIdUser": 894,
-        "ReplyTemplateIdCatmast": 765,
-        "ReplyTemplateIdEmail": 56,
-        "RtiCustomerSms": 714,
-        "ReplyTemplateIdUserSms": 232,
-        "ReplyTemplateIdCatmastSms": 283,
-        "ReplyTemplateIdSms": 590,
+        "TicketAlertId": 917,
+        "AlertLevel": 715,
+        "AlertTimeout": 755,
+        "Action": 75,
+        "DelegateTo": 261,
+        "ScriptId": 961,
+        "EmailTo": "maurice@haleytreutel.name",
+        "SmsTo": "maxime",
+        "ReplyTemplateIdCustomer": 381,
+        "ReplyTemplateIdUser": 780,
+        "ReplyTemplateIdCatmast": 137,
+        "ReplyTemplateIdEmail": 529,
+        "RtiCustomerSms": 322,
+        "ReplyTemplateIdUserSms": 36,
+        "ReplyTemplateIdCatmastSms": 511,
+        "ReplyTemplateIdSms": 374,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 242
+            "FieldLength": 853
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 509
       }
     }
   }

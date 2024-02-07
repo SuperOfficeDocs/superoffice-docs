@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 603,
-  "Name": "Raynor, Lesch and Lynch",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "UdListDefinitionId": 373,
-  "Rank": 481
+  "Id": 291,
+  "Name": "Price-Price",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "UdListDefinitionId": 655,
+  "Rank": 318
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 441,
-  "Name": "Botsford-Koepp",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "UdListDefinitionId": 968,
-  "Rank": 816,
+  "Id": 184,
+  "Name": "Hilpert-Kozey",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "UdListDefinitionId": 513,
+  "Rank": 906,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldLength": 465
     }
   }
 }

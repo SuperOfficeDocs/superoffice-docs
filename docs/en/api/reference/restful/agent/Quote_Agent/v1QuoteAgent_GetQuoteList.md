@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "minus"
+  "QuoteListType": "eveniet"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "molestiae",
-    "DisplayValue": "nesciunt",
-    "DisplayDescription": "Cross-group disintermediate architecture",
+    "ERPQuoteListItemKey": "nesciunt",
+    "DisplayValue": "ratione",
+    "DisplayDescription": "Mandatory explicit challenge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 204
+        "FieldLength": 13
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "molestiae",
-    "DisplayValue": "nesciunt",
-    "DisplayDescription": "Cross-group disintermediate architecture",
+    "ERPQuoteListItemKey": "nesciunt",
+    "DisplayValue": "ratione",
+    "DisplayDescription": "Mandatory explicit challenge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 204
+        "FieldLength": 13
       }
     }
   }

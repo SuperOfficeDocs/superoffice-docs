@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 471,
-      "ContactName": "Maggio-Cole",
-      "PersonId": 837,
-      "PersonName": "Dach, Trantow and Harber",
-      "AssociateId": 348,
-      "Address": "non",
-      "EmailId": 63,
+      "ContactId": 587,
+      "ContactName": "Smith-Batz",
+      "PersonId": 581,
+      "PersonName": "Conroy, Cremin and Carroll",
+      "AssociateId": 139,
+      "Address": "quia",
+      "EmailId": 840,
       "DuplicatePersonIds": [
-        444,
-        104
+        969,
+        324
       ],
-      "Name": "Windler-Dibbert",
+      "Name": "Walker-Runolfsdottir",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldType": "System.String",
+          "FieldLength": 381
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 672,
-      "ContactName": "Gulgowski Inc and Sons",
-      "PersonId": 187,
-      "PersonName": "Daniel Inc and Sons",
-      "AssociateId": 221,
-      "Address": "consequatur",
-      "EmailId": 137,
+      "ContactId": 447,
+      "ContactName": "Lindgren-Collins",
+      "PersonId": 763,
+      "PersonName": "Bode-Predovic",
+      "AssociateId": 299,
+      "Address": "rerum",
+      "EmailId": 13,
       "DuplicatePersonIds": [
-        974,
-        726
+        50,
+        452
       ],
-      "Name": "Hilpert LLC",
+      "Name": "Langosh LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 264
+          "FieldLength": 116
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 863,
-      "ContactName": "Bashirian, Yost and Sporer",
-      "PersonId": 512,
-      "PersonName": "Cormier-Batz",
-      "AssociateId": 514,
-      "Address": "quia",
-      "EmailId": 414,
+      "ContactId": 437,
+      "ContactName": "Harris Inc and Sons",
+      "PersonId": 767,
+      "PersonName": "Leannon Inc and Sons",
+      "AssociateId": 916,
+      "Address": "qui",
+      "EmailId": 403,
       "DuplicatePersonIds": [
-        14,
-        610
+        656,
+        5
       ],
-      "Name": "Dickinson Group",
+      "Name": "Block-Kris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 548
+          "FieldLength": 258
         }
       }
     }
   ],
-  "Subject": "suscipit",
-  "HTMLBody": "quia",
+  "Subject": "alias",
+  "HTMLBody": "voluptate",
   "From": null,
-  "Sent": "2012-06-16T23:03:55.8656308+02:00",
-  "Size": 397,
+  "Sent": "2017-03-16T16:54:55.2934195+01:00",
+  "Size": 81,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quaerat",
-  "PlainBody": "sunt",
-  "IsSent": false,
+  "MessageID": "consequuntur",
+  "PlainBody": "iusto",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 716,
+  "ServerId": 992,
   "Attachments": [
     {
-      "Description": "Quality-focused foreground architecture",
-      "Filename": "est",
-      "Size": 389,
-      "Type": "qui",
-      "Encoding": "ea",
-      "Id": "nihil",
-      "Disposition": "laudantium",
-      "IsSafeFileExtension": false,
+      "Description": "Networked intangible superstructure",
+      "Filename": "odio",
+      "Size": 370,
+      "Type": "et",
+      "Encoding": "ut",
+      "Id": "pariatur",
+      "Disposition": "nostrum",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 511
+          "FieldType": "System.Int32",
+          "FieldLength": 304
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hahn-Dooley",
+      "Name": "Russel Group",
       "Values": [
-        "et",
-        "illum"
+        "sit",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldType": "System.String",
+          "FieldLength": 386
         }
       }
     },
     {
-      "Name": "Hahn-Dooley",
+      "Name": "Russel Group",
       "Values": [
-        "et",
-        "illum"
+        "sit",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldType": "System.String",
+          "FieldLength": 386
         }
       }
     }
   ],
-  "FolderName": "McLaughlin, Heaney and Schuster",
-  "EmailItemId": 568,
-  "AccountId": 216,
-  "ReceivedAt": "2018-05-03T23:03:55.8661317+02:00",
+  "FolderName": "Schaden-Doyle",
+  "EmailItemId": 226,
+  "AccountId": 950,
+  "ReceivedAt": "2021-05-05T16:54:55.2934195+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-02-06T23:03:55.8661317+01:00",
+  "RepliedAt": "2012-10-13T16:54:55.2934195+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 324
     }
   }
 }

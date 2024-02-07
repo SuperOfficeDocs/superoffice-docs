@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "omnis",
+  "CRMScriptUniqueId": "velit",
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "asperiores",
+    "InputValues1": "unde",
     "InputValues2": "ea"
   },
-  "BlockExecution": true,
-  "NavigateTo": "voluptatum",
-  "Message": "harum",
-  "ShowDialog": "voluptatem",
+  "BlockExecution": false,
+  "NavigateTo": "placeat",
+  "Message": "est",
+  "ShowDialog": "architecto",
   "OutputValues": {
-    "OutputValues1": "in",
-    "OutputValues2": "sint"
+    "OutputValues1": "expedita",
+    "OutputValues2": "minus"
   },
   "StateValues": {
-    "StateValues1": "ab",
-    "StateValues2": "modi"
+    "StateValues1": "quod",
+    "StateValues2": "qui"
   },
-  "Exception": "eaque",
+  "Exception": "asperiores",
   "ParserValues": {
-    "ParserValues1": "fugit",
-    "ParserValues2": "autem"
+    "ParserValues1": "aperiam",
+    "ParserValues2": "qui"
   },
   "CgiVariables": {
-    "CgiVariables1": "enim",
-    "CgiVariables2": "aspernatur"
+    "CgiVariables1": "omnis",
+    "CgiVariables2": "et"
   },
-  "CgiContent": "molestias",
+  "CgiContent": "incidunt",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "nihil"
+    "Headers1": "nam",
+    "Headers2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 682
     }
   }
 }

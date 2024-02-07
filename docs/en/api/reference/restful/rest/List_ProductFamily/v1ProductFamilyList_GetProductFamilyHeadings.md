@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 819,
-    "Name": "Metz, Balistreri and Lindgren",
-    "Tooltip": "distinctio",
+    "HeadingId": 779,
+    "Name": "Stiedemann, Grimes and Wehner",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 272,
-    "UdListDefinitionId": 703,
+    "Rank": 266,
+    "UdListDefinitionId": 991,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 639
       }
     }
   }

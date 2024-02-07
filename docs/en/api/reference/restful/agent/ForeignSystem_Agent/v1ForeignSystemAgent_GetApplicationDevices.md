@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dickens-Lubowitz"
+  "ApplicationName": "Wintheiser, Walter and Lang"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 949,
-    "Name": "Wolf Inc and Sons",
-    "CreatedDate": "2018-11-26T23:03:56.1086289+01:00",
-    "UpdatedDate": "2011-12-12T23:03:56.1086289+01:00",
-    "AssociateFullName": "Mr. Darren Murphy Waelchi Jr.",
-    "CreatedBy": "enim",
-    "UpdatedBy": "nulla",
-    "DeviceIdentifier": "sint",
-    "ForeignAppId": 672,
+    "ForeignDeviceId": 5,
+    "Name": "Schimmel-Okuneva",
+    "CreatedDate": "2008-04-05T16:54:55.4794679+02:00",
+    "UpdatedDate": "2017-03-19T16:54:55.4794679+01:00",
+    "AssociateFullName": "Dr. Francesca Marguerite Hackett DVM",
+    "CreatedBy": "iste",
+    "UpdatedBy": "cumque",
+    "DeviceIdentifier": "veniam",
+    "ForeignAppId": 288,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 585
       }
     }
   }

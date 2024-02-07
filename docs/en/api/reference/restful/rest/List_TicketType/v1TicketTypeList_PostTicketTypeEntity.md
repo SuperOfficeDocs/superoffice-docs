@@ -87,28 +87,28 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 667,
-  "Name": "Gerlach Group",
-  "Rank": 353,
-  "Tooltip": "consectetur",
-  "Icon": "ratione",
-  "DefaultTicketStatus": 987,
+  "TicketTypeId": 340,
+  "Name": "Doyle-Kohler",
+  "Rank": 615,
+  "Tooltip": "ut",
+  "Icon": "in",
+  "DefaultTicketStatus": 162,
   "TicketStatuses": [
-    88,
-    444
+    767,
+    837
   ],
-  "DefaultTicketPriority": 165,
+  "DefaultTicketPriority": 532,
   "TicketPriorities": [
-    822,
-    85
+    50,
+    244
   ],
-  "ReplyTemplate": 293,
+  "ReplyTemplate": 255,
   "IsExternalVisible": false,
-  "IsDefault": false
+  "IsDefault": true
 }
 ```
 
@@ -119,30 +119,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 45,
-  "Name": "Feest-Kautzer",
-  "Rank": 230,
-  "Tooltip": "aut",
-  "Icon": "ab",
-  "DefaultTicketStatus": 98,
+  "TicketTypeId": 97,
+  "Name": "Effertz-Schumm",
+  "Rank": 158,
+  "Tooltip": "incidunt",
+  "Icon": "animi",
+  "DefaultTicketStatus": 762,
   "TicketStatuses": [
-    551,
-    91
+    639,
+    521
   ],
-  "DefaultTicketPriority": 385,
+  "DefaultTicketPriority": 290,
   "TicketPriorities": [
-    217,
-    170
+    427,
+    276
   ],
-  "ReplyTemplate": 455,
+  "ReplyTemplate": 442,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 710
     }
   }
 }

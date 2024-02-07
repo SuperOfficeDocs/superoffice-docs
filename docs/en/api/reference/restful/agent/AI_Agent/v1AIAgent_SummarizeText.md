@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "aut",
-  "PercentSmaller": 171,
-  "IsoLangCode": "deleniti"
+  "Text": "et",
+  "PercentSmaller": 649,
+  "IsoLangCode": "eos"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nihil"
+"harum"
 ```

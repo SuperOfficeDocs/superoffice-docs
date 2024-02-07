@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 18,
-    "Tooltip": "sit",
-    "CanAssign": false,
-    "Free": 339,
-    "InUse": 399,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 428,
-    "Name": "Medhurst, Ebert and Jewess",
-    "Description": "Diverse 6th generation capability",
-    "PrerequisiteModuleName": "Dicki-Gleichner",
-    "SortOrder": 97,
-    "ExtraFlags": 10,
+    "Total": 928,
+    "Tooltip": "mollitia",
+    "CanAssign": true,
+    "Free": 347,
+    "InUse": 440,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 418,
+    "Name": "Pollich-Senger",
+    "Description": "Triple-buffered asynchronous internet solution",
+    "PrerequisiteModuleName": "Bednar-Howe",
+    "SortOrder": 279,
+    "ExtraFlags": 268,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

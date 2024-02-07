@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 354,
-  "Name": "Crona, Pouros and Gottlieb",
+  "ScreenChooserId": 615,
+  "Name": "Walter-Bergstrom",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "vitae",
-  "Source": "qui",
-  "Registered": "2006-04-02T23:04:04.9960139+02:00",
-  "RegisteredAssociateId": 224,
-  "Updated": "2002-11-18T23:04:04.9960139+01:00",
-  "UpdatedAssociateId": 243
+  "Enabled": true,
+  "UniqueIdentifier": "deserunt",
+  "Source": "et",
+  "Registered": "2015-03-27T16:55:30.312817+01:00",
+  "RegisteredAssociateId": 417,
+  "Updated": "2005-01-25T16:55:30.312817+01:00",
+  "UpdatedAssociateId": 210
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 606,
-  "Name": "Schmitt LLC",
+  "ScreenChooserId": 462,
+  "Name": "Cole Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "voluptatibus",
-  "Registered": "2015-10-07T23:04:04.9970084+02:00",
-  "RegisteredAssociateId": 659,
-  "Updated": "2006-03-12T23:04:04.9970084+01:00",
-  "UpdatedAssociateId": 282,
+  "Enabled": true,
+  "UniqueIdentifier": "nulla",
+  "Source": "expedita",
+  "Registered": "2019-12-27T16:55:30.312817+01:00",
+  "RegisteredAssociateId": 736,
+  "Updated": "2006-12-25T16:55:30.312817+01:00",
+  "UpdatedAssociateId": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 424
     }
   },
   "_Links": {

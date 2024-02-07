@@ -114,7 +114,7 @@ SelectionEntity updated.
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone homogeneous adapter",
-  "Postit": "cumque",
+  "Description": "Proactive human-resource migration",
+  "Postit": "cupiditate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 518,
-  "IncludePerson": 945,
-  "MemberCount": 521,
-  "Name": "O'Keefe-Ziemann",
-  "PostitTextId": 267,
-  "CreatedDate": "2019-07-12T23:04:04.7795103+02:00",
-  "SelectionId": 899,
-  "SoundEx": "non",
-  "Source": 350,
-  "TextId": 691,
-  "UpdatedDate": "2001-08-19T23:04:04.7795103+02:00",
-  "UpdatedCount": 778,
-  "Visibility": 175,
+  "GroupIdx": 881,
+  "IncludePerson": 438,
+  "MemberCount": 737,
+  "Name": "Heidenreich, Bartell and Zemlak",
+  "PostitTextId": 829,
+  "CreatedDate": "2015-12-13T16:55:30.1250215+01:00",
+  "SelectionId": 444,
+  "SoundEx": "quos",
+  "Source": 64,
+  "TextId": 573,
+  "UpdatedDate": "2015-11-07T16:55:30.1260233+01:00",
+  "UpdatedCount": 86,
+  "Visibility": 975,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 990,
-  "TargetTableName": "Gaylord-Crooks",
+  "CompanyUnique": false,
+  "TargetTableNumber": 541,
+  "TargetTableName": "Kreiger, Wyman and Hammes",
   "Completed": true,
-  "LeftSelectionId": 781,
-  "RightSelectionId": 401,
+  "LeftSelectionId": 76,
+  "RightSelectionId": 441,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Walter-Toy",
-  "ShadowProviderName": "Maggio, Sauer and Beahan",
-  "ChartKey": "velit",
-  "LastLoaded": "2023-04-01T23:04:04.7800091+02:00",
-  "LastLoadedBy": 245,
+  "MainProviderName": "Rau, Cremin and Schaefer",
+  "ShadowProviderName": "Schinner Group",
+  "ChartKey": "et",
+  "LastLoaded": "2015-02-12T16:55:30.1260233+01:00",
+  "LastLoadedBy": 940,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-05-20T23:04:04.7800091+02:00",
-  "LastMembershipChangeBy": 193,
+  "LastMembershipChange": "2013-06-12T16:55:30.1260233+02:00",
+  "LastMembershipChangeBy": 510,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "optio",
-  "MemberTabHeading": "ex",
-  "MailingsProviderName": "Eichmann-Bergstrom",
-  "DashboardTileDefinitionId": 8,
+  "MainHeading": "ullam",
+  "MemberTabHeading": "officia",
+  "MailingsProviderName": "Stehr Group",
+  "DashboardTileDefinitionId": 829,
   "VisibleFor": [
     {
-      "VisibleId": 407,
+      "VisibleId": 153,
       "Visibility": "All",
-      "DisplayValue": "accusamus"
+      "DisplayValue": "harum"
     },
     {
-      "VisibleId": 407,
+      "VisibleId": 153,
       "Visibility": "All",
-      "DisplayValue": "accusamus"
+      "DisplayValue": "harum"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Automated real-time conglomeration",
-  "Postit": "repellendus",
+  "Description": "Progressive context-sensitive standardization",
+  "Postit": "iusto",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 188,
-  "IncludePerson": 340,
-  "MemberCount": 297,
-  "Name": "Hartmann-Boyer",
-  "PostitTextId": 99,
-  "CreatedDate": "2002-03-29T23:04:04.7845088+01:00",
-  "SelectionId": 661,
-  "SoundEx": "laboriosam",
-  "Source": 510,
-  "TextId": 403,
-  "UpdatedDate": "2021-02-05T23:04:04.7845088+01:00",
-  "UpdatedCount": 382,
-  "Visibility": 956,
+  "GroupIdx": 681,
+  "IncludePerson": 633,
+  "MemberCount": 754,
+  "Name": "Feest, Skiles and Rempel",
+  "PostitTextId": 405,
+  "CreatedDate": "2002-09-02T16:55:30.1290443+02:00",
+  "SelectionId": 413,
+  "SoundEx": "at",
+  "Source": 775,
+  "TextId": 899,
+  "UpdatedDate": "2011-08-22T16:55:30.1290443+02:00",
+  "UpdatedCount": 407,
+  "Visibility": 619,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 424,
-  "TargetTableName": "Haag, Predovic and Kunde",
+  "CompanyUnique": true,
+  "TargetTableNumber": 43,
+  "TargetTableName": "Hyatt, Green and Botsford",
   "Completed": false,
-  "LeftSelectionId": 438,
-  "RightSelectionId": 357,
+  "LeftSelectionId": 201,
+  "RightSelectionId": 546,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mertz, Rice and Wunsch",
-  "ShadowProviderName": "McKenzie Group",
-  "ChartKey": "beatae",
-  "LastLoaded": "1999-07-14T23:04:04.7845088+02:00",
-  "LastLoadedBy": 958,
+  "MainProviderName": "Luettgen Inc and Sons",
+  "ShadowProviderName": "Hane, Stark and Hegmann",
+  "ChartKey": "consectetur",
+  "LastLoaded": "2006-12-13T16:55:30.1290443+01:00",
+  "LastLoadedBy": 292,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-08-22T23:04:04.7855106+02:00",
-  "LastMembershipChangeBy": 6,
+  "LastMembershipChange": "2003-05-13T16:55:30.1290443+02:00",
+  "LastMembershipChangeBy": 331,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "at",
-  "MemberTabHeading": "tempora",
-  "MailingsProviderName": "Wilderman-McLaughlin",
-  "DashboardTileDefinitionId": 725,
+  "MainHeading": "consectetur",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Grant-Tromp",
+  "DashboardTileDefinitionId": 13,
   "VisibleFor": [
     {
-      "VisibleId": 488,
+      "VisibleId": 586,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldType": "System.String",
+          "FieldLength": 665
         }
       }
     },
     {
-      "VisibleId": 488,
+      "VisibleId": 586,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldType": "System.String",
+          "FieldLength": 665
         }
       }
     }
@@ -299,7 +299,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 931
     }
   },
   "_Links": {

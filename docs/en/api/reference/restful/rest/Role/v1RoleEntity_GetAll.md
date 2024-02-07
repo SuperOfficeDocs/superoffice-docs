@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=ut
-GET /api/v1/Role?$top=570
-GET /api/v1/Role?$skip=22
+GET /api/v1/Role?$entities=voluptatem
+GET /api/v1/Role?$top=718
+GET /api/v1/Role?$skip=487
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=sequi
+GET /api/v1/Role?$context=eaque
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "voluptas",
   "value": [
     {
-      "PrimaryKey": 3110,
-      "EntityName": "person",
-      "personId": 3110,
-      "fullName": "Dr. Angelita O'Kon"
+      "PrimaryKey": 546,
+      "EntityName": "sale",
+      "saleId": 546,
+      "contactId": 9784,
+      "name": "Bartoletti-Dooley"
     },
     {
-      "PrimaryKey": 2554,
-      "EntityName": "person",
-      "personId": 2554,
-      "fullName": "Bartholome Leannon"
+      "PrimaryKey": 7217,
+      "EntityName": "sale",
+      "saleId": 7217,
+      "contactId": 3528,
+      "name": "Flatley-Jerde"
     }
   ]
 }

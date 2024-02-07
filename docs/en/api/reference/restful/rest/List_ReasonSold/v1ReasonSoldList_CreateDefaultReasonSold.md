@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 236,
-  "Name": "Zieme, Connelly and Torphy",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "UdListDefinitionId": 192,
-  "Rank": 698,
+  "Id": 739,
+  "Name": "Wuckert-Boehm",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "UdListDefinitionId": 731,
+  "Rank": 718,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

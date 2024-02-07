@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 30,
-  "AssociateId": 904,
-  "Caption": "molestiae",
+  "DashboardId": 981,
+  "AssociateId": 691,
+  "Caption": "enim",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 602,
-      "Caption": "rerum",
-      "Description": "Re-engineered national concept",
-      "ChartName": "Cruickshank LLC",
-      "ChartId": "et",
-      "IsDefault": true,
-      "AssociateId": 579,
-      "GroupId": 552,
-      "SelectionId": 851,
-      "Config": "aut",
+      "DashboardTileId": 303,
+      "Caption": "ipsam",
+      "Description": "Managed bifurcated adapter",
+      "ChartName": "Monahan LLC",
+      "ChartId": "quam",
+      "IsDefault": false,
+      "AssociateId": 535,
+      "GroupId": 744,
+      "SelectionId": 779,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 491,
-  "AssociateId": 467,
-  "Caption": "quod",
+  "DashboardId": 125,
+  "AssociateId": 504,
+  "Caption": "excepturi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 228,
-      "Caption": "dicta",
-      "Description": "Integrated mobile task-force",
-      "ChartName": "Nicolas LLC",
-      "ChartId": "quis",
-      "IsDefault": false,
-      "AssociateId": 710,
-      "GroupId": 313,
-      "SelectionId": 217,
-      "Config": "aperiam",
+      "DashboardTileId": 247,
+      "Caption": "error",
+      "Description": "Function-based impactful budgetary management",
+      "ChartName": "Jerde Group",
+      "ChartId": "id",
+      "IsDefault": true,
+      "AssociateId": 450,
+      "GroupId": 813,
+      "SelectionId": 931,
+      "Config": "eum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 447
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldType": "System.String",
+      "FieldLength": 499
     }
   }
 }

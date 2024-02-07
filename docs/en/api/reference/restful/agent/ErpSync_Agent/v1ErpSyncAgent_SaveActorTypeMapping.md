@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 561,
-  "IsActive": false,
+  "ErpConnectionId": 977,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 386,
-      "CrmFieldKey": "sed",
-      "CrmDisplayName": "Marquardt, Kuhic and Jacobson",
-      "CrmDisplayTooltip": "quia",
-      "ErpFieldKey": "exercitationem",
+      "ErpFieldId": 584,
+      "CrmFieldKey": "magni",
+      "CrmDisplayName": "Senger Group",
+      "CrmDisplayTooltip": "sit",
+      "ErpFieldKey": "ipsa",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Kautzer-Padberg",
-      "ErpDisplayTooltip": "aut",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Sporer-Walter",
+      "ErpDisplayTooltip": "sit",
+      "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": true,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "perspiciatis",
+      "ListReference": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldType": "System.String",
+          "FieldLength": 100
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldLength": 254
     }
   }
 }

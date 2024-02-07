@@ -111,8 +111,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 104,
-  "ERPProductKey": "itaque"
+  "QuoteConnectionId": 958,
+  "ERPProductKey": "sit"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 748,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "omnis",
-  "Name": "Mayer LLC",
-  "Description": "Digitized bandwidth-monitored encoding",
-  "Code": "repellat",
-  "PriceUnit": "omnis",
-  "QuantityUnit": "reprehenderit",
-  "IsSubscription": true,
-  "SubscriptionUnit": "esse",
-  "DefaultSubscriptionQuantity": 18719.381999999998,
-  "ItemNumber": "1459247",
+  "ProductId": 23,
+  "ERPProductKey": "asperiores",
+  "ERPPriceListKey": "atque",
+  "Name": "Armstrong Inc and Sons",
+  "Description": "Re-contextualized dynamic conglomeration",
+  "Code": "nisi",
+  "PriceUnit": "repellendus",
+  "QuantityUnit": "qui",
+  "IsSubscription": false,
+  "SubscriptionUnit": "similique",
+  "DefaultSubscriptionQuantity": 18669.238,
+  "ItemNumber": "398358",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sequi",
-  "ProductTypeKey": "quae",
-  "VAT": 5111.554,
-  "VATInfo": "sint",
-  "UnitCost": 18067.51,
-  "UnitMinimumPrice": 5985.94,
-  "UnitListPrice": 10138.49,
-  "InAssortment": true,
-  "Supplier": "blanditiis",
-  "SupplierCode": "quaerat",
-  "Rights": "nemo",
-  "Rule": "vitae",
+  "ProductFamilyKey": "veritatis",
+  "ProductTypeKey": "rerum",
+  "VAT": 20527.7,
+  "VATInfo": "quo",
+  "UnitCost": 30804.086,
+  "UnitMinimumPrice": 26877.183999999997,
+  "UnitListPrice": 7245.808,
+  "InAssortment": false,
+  "Supplier": "sint",
+  "SupplierCode": "et",
+  "Rights": "maxime",
+  "Rule": "magni",
   "ExtraInfo": [
     {
-      "Name": "Aufderhar, Mueller and Huel",
-      "Value": "enim",
+      "Name": "Wilderman, Homenick and Kohler",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 761
         }
       }
     },
     {
-      "Name": "Aufderhar, Mueller and Huel",
-      "Value": "enim",
+      "Name": "Wilderman, Homenick and Kohler",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 761
         }
       }
     }
   ],
-  "RawExtraInfo": "dolorem",
-  "ExtraField1": "atque",
-  "ExtraField2": "fugiat",
-  "ExtraField3": "molestiae",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "perspiciatis",
-  "InStock": 27980.352,
+  "RawExtraInfo": "et",
+  "ExtraField1": "aliquid",
+  "ExtraField2": "officiis",
+  "ExtraField3": "ut",
+  "ExtraField4": "et",
+  "ExtraField5": "et",
+  "InStock": 23761.987999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldLength": 176
     }
   }
 }

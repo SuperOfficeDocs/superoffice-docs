@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=officia
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=officiis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Aufderhar-Cormier",
-    "ToolTip": "Voluptatibus voluptatem impedit occaecati dolor vel sunt.",
+    "Id": 968,
+    "Name": "Adams LLC",
+    "ToolTip": "Eveniet itaque est.",
     "Deleted": false,
-    "Rank": 260,
-    "Type": "sed",
+    "Rank": 354,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "Conn LLC",
-        "ToolTip": "Neque beatae sint velit aut repellat.",
+        "Id": 836,
+        "Name": "Gibson, Hand and Ritchie",
+        "ToolTip": "Vel rerum veniam illo corporis facilis ex autem.",
         "Deleted": false,
-        "Rank": 493,
-        "Type": "et",
+        "Rank": 752,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 545,
-        "ExtraInfo": "aut",
-        "StyleHint": "quia",
-        "FullName": "Chelsey Lola Bechtelar MD",
+        "IconHint": "rerum",
+        "ColorBlock": 54,
+        "ExtraInfo": "itaque",
+        "StyleHint": "inventore",
+        "FullName": "Yasmeen Klein I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 365
+            "FieldLength": 704
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 700,
-    "ExtraInfo": "architecto",
-    "StyleHint": "placeat",
-    "FullName": "Miss Quinn Ebert",
+    "IconHint": "perferendis",
+    "ColorBlock": 160,
+    "ExtraInfo": "minima",
+    "StyleHint": "repellendus",
+    "FullName": "Dulce Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldLength": 491
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 939,
-  "UniqueIdentifier": "veniam",
-  "Name": "Streich, Koelpin and Buckridge",
-  "Description": "Re-contextualized local matrices",
-  "IncludeId": "similique",
-  "HierarchyId": 711,
-  "Source": "ut",
-  "Registered": "2019-04-16T23:03:55.5691366+02:00",
-  "RegisteredAssociateId": 433,
-  "Updated": "2022-07-21T23:03:55.5691366+02:00",
-  "UpdatedAssociateId": 933,
+  "EjscriptId": 643,
+  "UniqueIdentifier": "sed",
+  "Name": "Emard, O'Connell and Torphy",
+  "Description": "Profound upward-trending functionalities",
+  "IncludeId": "atque",
+  "HierarchyId": 895,
+  "Source": "consequatur",
+  "Registered": "2006-11-19T16:54:55.0572741+01:00",
+  "RegisteredAssociateId": 858,
+  "Updated": "2024-02-05T16:54:55.0572741+01:00",
+  "UpdatedAssociateId": 845,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldLength": 726
     }
   }
 }

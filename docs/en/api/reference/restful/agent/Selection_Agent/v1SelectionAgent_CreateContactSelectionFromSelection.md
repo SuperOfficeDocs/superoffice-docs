@@ -71,7 +71,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -120,10 +120,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 740,
-  "Name": "Nolan, Jacobs and Schulist",
+  "SelectionId": 628,
+  "Name": "Hagenes, Luettgen and Tremblay",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Universal regional implementation",
-  "Postit": "distinctio",
+  "Description": "Customizable encompassing database",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 631,
-  "IncludePerson": 499,
-  "MemberCount": 51,
-  "Name": "Smitham, Beier and Nader",
-  "PostitTextId": 143,
-  "CreatedDate": "2017-11-03T23:03:57.1121135+01:00",
-  "SelectionId": 651,
-  "SoundEx": "quo",
-  "Source": 696,
-  "TextId": 22,
-  "UpdatedDate": "2010-08-17T23:03:57.1121135+02:00",
-  "UpdatedCount": 563,
-  "Visibility": 452,
+  "GroupIdx": 785,
+  "IncludePerson": 276,
+  "MemberCount": 37,
+  "Name": "Friesen, Sawayn and Schmitt",
+  "PostitTextId": 75,
+  "CreatedDate": "2023-09-21T16:54:56.2995019+02:00",
+  "SelectionId": 274,
+  "SoundEx": "vero",
+  "Source": 441,
+  "TextId": 920,
+  "UpdatedDate": "2012-11-09T16:54:56.2995019+01:00",
+  "UpdatedCount": 272,
+  "Visibility": 989,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 541,
-  "TargetTableName": "Crist Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 595,
-  "RightSelectionId": 254,
+  "CompanyUnique": true,
+  "TargetTableNumber": 912,
+  "TargetTableName": "Rodriguez, Langosh and Sporer",
+  "Completed": false,
+  "LeftSelectionId": 439,
+  "RightSelectionId": 529,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Tromp-Koch",
-  "ShadowProviderName": "Dibbert LLC",
-  "ChartKey": "unde",
-  "LastLoaded": "2011-10-01T23:03:57.1121135+02:00",
-  "LastLoadedBy": 89,
+  "MainProviderName": "Wyman Inc and Sons",
+  "ShadowProviderName": "Schaden-Wiza",
+  "ChartKey": "et",
+  "LastLoaded": "2009-03-08T16:54:56.3005209+01:00",
+  "LastLoadedBy": 469,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-09-11T23:03:57.1126145+02:00",
-  "LastMembershipChangeBy": 137,
+  "LastMembershipChange": "1999-10-03T16:54:56.3005209+02:00",
+  "LastMembershipChangeBy": 975,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "impedit",
-  "MemberTabHeading": "tenetur",
-  "MailingsProviderName": "Prosacco Group",
-  "DashboardTileDefinitionId": 875,
+  "MainHeading": "fuga",
+  "MemberTabHeading": "fuga",
+  "MailingsProviderName": "Jewess, Price and O'Kon",
+  "DashboardTileDefinitionId": 143,
   "VisibleFor": [
     {
-      "VisibleId": 656,
+      "VisibleId": 841,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldLength": 869
         }
       }
     },
     {
-      "VisibleId": 656,
+      "VisibleId": 841,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldLength": 869
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldLength": 258
     }
   }
 }

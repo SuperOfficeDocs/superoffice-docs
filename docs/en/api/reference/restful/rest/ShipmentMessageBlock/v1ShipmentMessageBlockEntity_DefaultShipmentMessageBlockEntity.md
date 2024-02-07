@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 739,
-  "AssociateId": 476,
-  "Block": "suscipit",
-  "Registered": "2004-02-15T23:04:04.8010088+01:00",
-  "RegisteredAssociateId": 142,
-  "Updated": "2022-08-24T23:04:04.8010088+02:00",
-  "UpdatedAssociateId": 603,
-  "UpdatedCount": 305,
+  "ShipmentMessageBlockId": 922,
+  "AssociateId": 332,
+  "Block": "laborum",
+  "Registered": "2021-09-30T16:55:30.1410215+02:00",
+  "RegisteredAssociateId": 65,
+  "Updated": "1998-09-15T16:55:30.1410215+02:00",
+  "UpdatedAssociateId": 647,
+  "UpdatedCount": 258,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldLength": 296
     }
   }
 }

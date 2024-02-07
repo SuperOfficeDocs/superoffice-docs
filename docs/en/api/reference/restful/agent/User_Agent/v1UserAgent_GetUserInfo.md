@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=827
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=703
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": true,
-  "UserInfoId": 823,
-  "UserName": "Champlin-Kiehn",
-  "PersonId": 700,
-  "Rank": 999,
-  "Tooltip": "temporibus",
-  "UserGroupId": 230,
-  "EjUserId": 231,
+  "Deleted": false,
+  "UserInfoId": 959,
+  "UserName": "Fadel-Wilkinson",
+  "PersonId": 454,
+  "Rank": 35,
+  "Tooltip": "omnis",
+  "UserGroupId": 879,
+  "EjUserId": 176,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "cupiditate",
-    "in"
+    "totam",
+    "iure"
   ],
   "CanLogon": false,
-  "RoleName": "Tillman, Wisoky and Walker",
-  "RoleTooltip": "repellendus",
-  "UserGroupName": "Hudson, Kub and Will",
-  "UserGroupTooltip": "consequatur",
+  "RoleName": "Hansen Inc and Sons",
+  "RoleTooltip": "qui",
+  "UserGroupName": "Crist, Schumm and Torphy",
+  "UserGroupTooltip": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 950
     }
   }
 }

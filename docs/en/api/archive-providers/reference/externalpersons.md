@@ -384,7 +384,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
-|request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -431,11 +430,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
+|request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
 |request/ownedBy/assocName|associate|Owner - User ID: User ID| x |
@@ -535,11 +534,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectMembers/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectMembers/projectUdef/SuperOffice:3|int|projectnumber| x |
+|projectMembers/projectUdef/SuperOffice:4|date|projectdate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|projectMembers/projectUdef/SuperOffice:4|date|projectdate| x |
 |projectMembers/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |projectMembers/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |projectMembers/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
@@ -639,11 +638,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
 |personAppointment/associate/role|listAny|Role : Role| x |
+|personAppointment/associate/assocName|associate|User ID : User ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|personAppointment/associate/assocName|associate|User ID : User ID| x |
 |personAppointment/associate/assocTooltip|string|Description : Description|  |
 |personAppointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personAppointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
@@ -668,7 +667,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=rank,personExtra/y_rental/x_end,personSourceRelation/rank,correspondingAssociate/fullName,projectMembers/hasInfoText
+GET /api/v1/archive/ExternalPersons?$select=useAsMailingAddress,personRegisteredDate,request/ticketId,request/timeToReply,request/createdBy/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

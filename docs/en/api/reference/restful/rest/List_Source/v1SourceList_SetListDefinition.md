@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 435,
-  "Name": "Leuschke Inc and Sons",
-  "Tooltip": "sapiente",
+  "Id": 317,
+  "Name": "Berge Inc and Sons",
+  "Tooltip": "iure",
   "Deleted": false,
-  "Rank": 53,
+  "Rank": 43,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": false
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 424,
-  "Name": "Lowe-Padberg",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "Rank": 315,
+  "Id": 603,
+  "Name": "Hane-Durgan",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 479,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "id",
+  "ListType": "commodi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 203
     }
   }
 }

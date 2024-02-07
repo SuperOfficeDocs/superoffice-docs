@@ -73,8 +73,8 @@ OK
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 249,
-  "SourcePersonId": 803,
-  "DestinationContactId": 521,
-  "DestinationPersonId": 685,
-  "RelationId": 600,
-  "Comment": "iusto",
-  "RelationDefinitionId": 629,
-  "Reversed": 956,
-  "UpdatedDate": "2007-07-31T23:03:56.8136177+02:00",
-  "CreatedDate": "2001-08-04T23:03:56.8136177+02:00",
+  "SourceContactId": 29,
+  "SourcePersonId": 858,
+  "DestinationContactId": 49,
+  "DestinationPersonId": 211,
+  "RelationId": 624,
+  "Comment": "debitis",
+  "RelationDefinitionId": 273,
+  "Reversed": 751,
+  "UpdatedDate": "1999-04-18T16:54:56.1689707+02:00",
+  "CreatedDate": "2000-07-24T16:54:56.1689707+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "McKenzie, Wuckert and Skiles",
-  "SourcePersonName": "Kuhlman LLC",
-  "DestinationContactName": "Miller Group",
-  "DestinationPersonName": "Becker-Jewess",
-  "ActiveText": "maiores",
-  "PassiveText": "ducimus",
+  "SourceContactName": "Glover Group",
+  "SourcePersonName": "Hansen, Braun and Parisian",
+  "DestinationContactName": "Carter, Ritchie and McLaughlin",
+  "DestinationPersonName": "Schaefer, Fisher and Kuphal",
+  "ActiveText": "earum",
+  "PassiveText": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 879
+      "FieldType": "System.Int32",
+      "FieldLength": 585
     }
   }
 }

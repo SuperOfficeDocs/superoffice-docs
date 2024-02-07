@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ipsum",
+    "path": "laborum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsum",
+    "path": "laborum",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 843,
-  "UniqueId": "in",
-  "Name": "Swift-Rogahn",
-  "Description": "Reverse-engineered encompassing support",
-  "AssociateId": 201,
-  "Columns": 389,
+  "DashboardId": 963,
+  "UniqueId": "quia",
+  "Name": "Ziemann Group",
+  "Description": "Pre-emptive fault-tolerant analyzer",
+  "AssociateId": 683,
+  "Columns": 869,
   "Theme": null,
-  "VisibleForAll": 892,
+  "VisibleForAll": 3,
   "VisibleForAssociates": [
-    68,
-    32
+    629,
+    85
   ],
   "VisibleForGroups": [
-    730,
-    573
+    23,
+    873
   ],
-  "PinForAll": 629,
+  "PinForAll": 502,
   "PinForAssociates": [
-    712,
-    948
+    204,
+    567
   ],
   "PinForGroups": [
-    495,
-    651
+    659,
+    815
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   },
   "_Links": {

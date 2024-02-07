@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Flatley, Bosco and O'Conner",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "UdListDefinitionId": 118,
-    "Rank": 570
+    "Id": 742,
+    "Name": "Williamson Group",
+    "Tooltip": "quasi",
+    "Deleted": false,
+    "UdListDefinitionId": 338,
+    "Rank": 849
   },
   {
-    "Id": 789,
-    "Name": "Flatley, Bosco and O'Conner",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "UdListDefinitionId": 118,
-    "Rank": 570
+    "Id": 742,
+    "Name": "Williamson Group",
+    "Tooltip": "quasi",
+    "Deleted": false,
+    "UdListDefinitionId": 338,
+    "Rank": 849
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Hintz Group",
-    "Tooltip": "fuga",
-    "Deleted": true,
-    "UdListDefinitionId": 899,
-    "Rank": 837,
+    "Id": 943,
+    "Name": "Bosco LLC",
+    "Tooltip": "asperiores",
+    "Deleted": false,
+    "UdListDefinitionId": 796,
+    "Rank": 919,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 373
+        "FieldLength": 125
       }
     }
   }

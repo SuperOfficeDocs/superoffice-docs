@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 509,
-  "Name": "Schmeler-Kertzmann",
+  "ScreenChooserId": 647,
+  "Name": "Torp, Jones and Ryan",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sapiente",
-  "Source": "quis",
-  "Registered": "2000-11-17T23:03:55.5711393+01:00",
-  "RegisteredAssociateId": 388,
-  "Updated": "2019-11-15T23:03:55.5711393+01:00",
-  "UpdatedAssociateId": 225,
+  "UniqueIdentifier": "eum",
+  "Source": "voluptas",
+  "Registered": "2013-06-09T16:54:55.0582723+02:00",
+  "RegisteredAssociateId": 262,
+  "Updated": "1997-08-16T16:54:55.0582723+02:00",
+  "UpdatedAssociateId": 926,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 245
     }
   }
 }

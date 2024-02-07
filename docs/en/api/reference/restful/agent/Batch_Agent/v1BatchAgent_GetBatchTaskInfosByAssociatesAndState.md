@@ -100,8 +100,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    919,
-    283
+    632,
+    85
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Murazik-Littel",
-    "AssociateId": 237,
-    "DetailsTable": 204,
-    "DetailsRecord": 475,
+    "Id": 84,
+    "Name": "Hagenes-Wisozk",
+    "AssociateId": 648,
+    "DetailsTable": 132,
+    "DetailsRecord": 153,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "mollitia",
-      "ParameterObject2": "ullam"
+      "ParameterObject1": "at",
+      "ParameterObject2": "voluptatem"
     },
-    "LastStarted": "2010-04-26T23:03:55.0241417+02:00",
-    "Created": "2018-12-02T23:03:55.0241417+01:00",
-    "StartCount": 375,
-    "DatabaseSerialNumber": "1019923",
-    "Context": "harum",
-    "Result": "temporibus",
+    "LastStarted": "1998-10-29T16:54:54.6053056+01:00",
+    "Created": "2020-08-14T16:54:54.6053056+02:00",
+    "StartCount": 562,
+    "DatabaseSerialNumber": "1727630",
+    "Context": "sed",
+    "Result": "occaecati",
     "State": "All",
-    "Description": "Streamlined well-modulated interface",
-    "Response": "inventore",
-    "Request": "expedita",
-    "ProgressDescription": "Team-oriented systematic groupware",
-    "ProgressPercent": 675,
-    "FileName": "Jacobs-Hartmann",
+    "Description": "Visionary system-worthy hub",
+    "Response": "voluptatibus",
+    "Request": "voluptatem",
+    "ProgressDescription": "Self-enabling intangible migration",
+    "ProgressPercent": 709,
+    "FileName": "Pfannerstill Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldType": "System.Int32",
+        "FieldLength": 163
       }
     }
   }

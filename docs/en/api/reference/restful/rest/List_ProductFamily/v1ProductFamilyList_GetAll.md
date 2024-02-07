@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 790,
-    "Name": "Carroll-Batz",
-    "Tooltip": "quo",
+    "Id": 30,
+    "Name": "Gaylord, Jaskolski and Luettgen",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 193,
-    "Rank": 819,
+    "UdListDefinitionId": 419,
+    "Rank": 432,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 422
       }
     }
   }

@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Lesch, Anderson and Crooks"
+  "FileName": "Metz-Krajcik"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 564,
-      "ContactName": "Von, King and Cruickshank",
-      "PersonId": 53,
-      "PersonName": "Tillman Inc and Sons",
-      "AssociateId": 723,
-      "Address": "ut",
-      "EmailId": 752,
+      "ContactId": 681,
+      "ContactName": "Wuckert-Konopelski",
+      "PersonId": 835,
+      "PersonName": "Rau-Harris",
+      "AssociateId": 67,
+      "Address": "expedita",
+      "EmailId": 207,
       "DuplicatePersonIds": [
-        532,
-        338
+        515,
+        644
       ],
-      "Name": "Tillman, Mills and Gleichner",
+      "Name": "Senger, Bins and Rutherford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldLength": 792
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 138,
-      "ContactName": "Deckow, Powlowski and Nicolas",
-      "PersonId": 394,
-      "PersonName": "Beatty, Lehner and Denesik",
-      "AssociateId": 720,
-      "Address": "at",
-      "EmailId": 179,
+      "ContactId": 894,
+      "ContactName": "Heller Group",
+      "PersonId": 613,
+      "PersonName": "Doyle, Champlin and Runolfsdottir",
+      "AssociateId": 629,
+      "Address": "iure",
+      "EmailId": 943,
       "DuplicatePersonIds": [
-        206,
-        518
+        536,
+        599
       ],
-      "Name": "Yost, Gutmann and Labadie",
+      "Name": "Orn-Baumbach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 605,
-      "ContactName": "Nicolas-Gerlach",
-      "PersonId": 429,
-      "PersonName": "Heaney, Wyman and Rice",
-      "AssociateId": 94,
-      "Address": "accusantium",
-      "EmailId": 815,
+      "ContactId": 139,
+      "ContactName": "Osinski-Macejkovic",
+      "PersonId": 284,
+      "PersonName": "Huels Inc and Sons",
+      "AssociateId": 22,
+      "Address": "quod",
+      "EmailId": 751,
       "DuplicatePersonIds": [
-        317,
-        477
+        488,
+        958
       ],
-      "Name": "Smitham, Kemmer and Corkery",
+      "Name": "Braun, Heaney and Torp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldLength": 162
         }
       }
     }
   ],
-  "Subject": "maxime",
-  "HTMLBody": "velit",
+  "Subject": "veritatis",
+  "HTMLBody": "enim",
   "From": null,
-  "Sent": "2017-07-08T23:03:56.0101289+02:00",
-  "Size": 771,
+  "Sent": "2014-03-01T16:54:55.4010542+01:00",
+  "Size": 352,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorum",
-  "PlainBody": "voluptates",
+  "MessageID": "cupiditate",
+  "PlainBody": "ut",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 680,
+  "ServerId": 324,
   "Attachments": [
     {
-      "Description": "Multi-layered fresh-thinking focus group",
-      "Filename": "odio",
-      "Size": 818,
-      "Type": "et",
-      "Encoding": "occaecati",
-      "Id": "maiores",
-      "Disposition": "nesciunt",
+      "Description": "Total bottom-line architecture",
+      "Filename": "sint",
+      "Size": 825,
+      "Type": "qui",
+      "Encoding": "ipsa",
+      "Id": "aut",
+      "Disposition": "placeat",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldType": "System.Int32",
+          "FieldLength": 261
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Donnelly-Schultz",
+      "Name": "Rolfson Inc and Sons",
       "Values": [
-        "in",
-        "quis"
+        "vel",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldLength": 883
         }
       }
     },
     {
-      "Name": "Donnelly-Schultz",
+      "Name": "Rolfson Inc and Sons",
       "Values": [
-        "in",
-        "quis"
+        "vel",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldLength": 883
         }
       }
     }
   ],
-  "FolderName": "Mann, Huel and Stanton",
-  "EmailItemId": 420,
-  "AccountId": 115,
-  "ReceivedAt": "2003-04-05T23:03:56.0106282+02:00",
+  "FolderName": "Fadel LLC",
+  "EmailItemId": 332,
+  "AccountId": 862,
+  "ReceivedAt": "2005-09-18T16:54:55.4020365+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-10-05T23:03:56.0106282+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2016-04-26T16:54:55.4020365+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 447
     }
   }
 }

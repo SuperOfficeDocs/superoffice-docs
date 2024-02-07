@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 113,
-    "Name": "Nader, Pacocha and Halvorson",
-    "Tooltip": "veritatis",
-    "SaveInDb": 526,
-    "Filename": "omnis",
-    "DefaultOref": "rerum",
+    "DocumentTemplateId": 515,
+    "Name": "Renner, Keebler and Zboncak",
+    "Tooltip": "modi",
+    "SaveInDb": 92,
+    "Filename": "in",
+    "DefaultOref": "nulla",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 713,
-    "IntentId": 5,
+    "AutoeventId": 976,
+    "IntentId": 687,
     "IsDefaultPublished": false,
-    "Rank": 773,
-    "LoadTemplateFromPlugin": 911,
-    "MimeType": "nihil",
+    "Rank": 18,
+    "LoadTemplateFromPlugin": 93,
+    "MimeType": "porro",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 36,
+    "DocumentTypeKey": 469,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "otilia@fahey.name",
+    "EmailSubject": "laurine@stiedemannklein.biz",
     "IncludeSignature": false,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "earlene@ledner.biz",
+    "SenderEmailAddress": "jean_waters@gibson.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 979
+        "FieldLength": 822
       }
     }
   }

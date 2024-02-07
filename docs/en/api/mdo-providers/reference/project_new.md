@@ -2,9 +2,7 @@
 uid: project_new
 title: project_new
 keywords: mdoprovider mdo provider project_new
-description: Provider for selecting a project. Returns search results in rank order
-Supports searching across project text fields.
-Respects the Project.SkipCompletedProjects user preference.
+description: Provider for selecting a project. Returns search results in rank order Supports searching across project text fields. Respects the Project.SkipCompletedProjects user preference.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -16,7 +14,8 @@ Supports searching across project text fields.
 Respects the Project.SkipCompletedProjects user preference.
 
 Returns project items only: Id = project-id, Name = Project name, Type = "Project", IconHint="deleted_item", ExtraInfo= project-id
-<para />
+
+
 Completed/Done projects are marked with stylehint = "deleted_item" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProjectListProvider">ProjectListProvider</see> class.

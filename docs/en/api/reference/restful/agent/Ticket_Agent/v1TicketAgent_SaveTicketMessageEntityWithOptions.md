@@ -81,7 +81,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -91,7 +91,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -106,10 +106,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    823,
-    781
+    907,
+    62
   ],
   "UpdateRepliedAt": true
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 801,
+  "EjMessageId": 846,
   "Ticket": null,
-  "CreatedAt": "2008-04-15T23:03:57.4606091+02:00",
+  "CreatedAt": "2005-12-30T16:54:56.5862916+01:00",
   "CreatedBy": null,
-  "Author": "non",
+  "Author": "fuga",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "fugit",
-  "TimeSpent": 8,
-  "Body": "corrupti",
-  "HtmlBody": "consequuntur",
-  "EmailHeader": "lorenz@johns.co.uk",
-  "DebugInfo": "nulla",
-  "MailSorter": "rerum",
+  "MessageId": "nisi",
+  "TimeSpent": 956,
+  "Body": "consectetur",
+  "HtmlBody": "aut",
+  "EmailHeader": "jamarcus_mills@simonis.name",
+  "DebugInfo": "similique",
+  "MailSorter": "blanditiis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolorem",
+  "SearchTitle": "quod",
   "MessageHeaders": [
     {
-      "Id": 789,
-      "Name": "Bernhard Group",
-      "Value": "quos",
+      "Id": 568,
+      "Name": "Balistreri LLC",
+      "Value": "perferendis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,49 +151,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 472
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "quia",
-  "Sentiment": 819,
-  "SentimentConfidence": 720,
+  "Important": false,
+  "Language": "et",
+  "Sentiment": 501,
+  "SentimentConfidence": 790,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 985,
-      "Name": "Bogan Group",
-      "ContentType": "enim",
-      "AttSize": 314,
+      "AttachmentId": 290,
+      "Name": "Reynolds-Stokes",
+      "ContentType": "sapiente",
+      "AttSize": 920,
       "InlineImage": false,
-      "ContentId": "suscipit",
-      "AuthKey": "animi",
+      "ContentId": "laudantium",
+      "AuthKey": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 962
+          "FieldLength": 3
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "unde",
-    "CustomFields2": "unde"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "porro"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   }
 }

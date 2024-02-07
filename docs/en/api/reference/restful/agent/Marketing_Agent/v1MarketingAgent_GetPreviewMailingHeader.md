@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 759
+  "ShipmentId": 68
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-02-15T23:03:56.3311239+01:00",
+  "StartDate": "2008-01-20T16:54:55.6519927+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 801,
-  "ShipmentDescription": "Enterprise-wide radical architecture",
-  "FromAddress": "rerum",
-  "Configuration": 931,
-  "PersonId": 401,
-  "PersonFullName": "Francisca Rolfson",
-  "ShipmentType": "tenetur",
-  "MessageId": 724,
-  "MessageSubject": "voluptates",
-  "DocumentMessageId": 567,
-  "NumSent": 421,
-  "NumOpened": 896,
-  "NumBounced": 237,
-  "NumClicks": 360,
+  "ShipmentId": 605,
+  "ShipmentDescription": "Inverse holistic firmware",
+  "FromAddress": "est",
+  "Configuration": 962,
+  "PersonId": 123,
+  "PersonFullName": "Prof. Romaine Will",
+  "ShipmentType": "eos",
+  "MessageId": 650,
+  "MessageSubject": "iste",
+  "DocumentMessageId": 377,
+  "NumSent": 696,
+  "NumOpened": 318,
+  "NumBounced": 546,
+  "NumClicks": 53,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

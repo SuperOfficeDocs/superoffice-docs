@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 223,
-  "Rank": 607,
-  "DefaultTask": 845,
-  "DefaultTaskText": "minima",
+  "OwnerTable": 210,
+  "Rank": 388,
+  "DefaultTask": 857,
+  "DefaultTaskText": "eos",
   "IsVisual": true,
-  "LastGenerated": "2000-01-16T23:03:56.8451173+01:00",
-  "Description": "Business-focused optimal process improvement",
-  "Name": "Bosco Group",
-  "StatusMonitorId": 200,
-  "PictureId": 430,
+  "LastGenerated": "1998-12-04T16:54:56.1959714+01:00",
+  "Description": "Reverse-engineered needs-based extranet",
+  "Name": "Lueilwitz Group",
+  "StatusMonitorId": 278,
+  "PictureId": 821,
   "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 135,
-  "NumNeedUpdate": 278,
-  "GenerationStart": "2020-12-25T23:03:56.8451173+01:00"
+  "NumMatches": 424,
+  "NumNeedUpdate": 188,
+  "GenerationStart": "2018-10-13T16:54:56.1959714+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 324,
-  "Rank": 146,
-  "DefaultTask": 265,
-  "DefaultTaskText": "ipsam",
-  "IsVisual": false,
-  "LastGenerated": "2012-09-29T23:03:56.8451173+02:00",
-  "Description": "Implemented zero administration ability",
-  "Name": "Stamm, Cummings and Schiller",
-  "StatusMonitorId": 595,
-  "PictureId": 397,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 53,
-  "NumNeedUpdate": 773,
-  "GenerationStart": "1999-12-14T23:03:56.8451173+01:00",
+  "OwnerTable": 702,
+  "Rank": 22,
+  "DefaultTask": 853,
+  "DefaultTaskText": "odit",
+  "IsVisual": true,
+  "LastGenerated": "2011-05-04T16:54:56.1959714+02:00",
+  "Description": "Balanced clear-thinking paradigm",
+  "Name": "Walter Inc and Sons",
+  "StatusMonitorId": 827,
+  "PictureId": 738,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 340,
+  "NumNeedUpdate": 338,
+  "GenerationStart": "2015-01-07T16:54:56.1959714+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   }
 }

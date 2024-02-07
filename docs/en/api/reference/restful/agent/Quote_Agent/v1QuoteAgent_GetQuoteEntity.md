@@ -89,7 +89,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 664
+  "QuoteId": 531
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 707,
-  "SaleId": 565,
-  "QuoteConnectionId": 159,
-  "ERPQuoteKey": "tempore",
-  "ERPOrderKey": "blanditiis",
-  "ActiveQuoteVersionId": 287,
-  "AcceptedQuoteAlternativeId": 980,
-  "UseValuesFromQuote": 783,
-  "DocumentId": 308,
-  "PoNumber": "237393",
-  "OrderComment": "debitis",
-  "PreferredEmailCulture": "flo.kulas@bergnaum.biz",
+  "QuoteId": 912,
+  "SaleId": 409,
+  "QuoteConnectionId": 465,
+  "ERPQuoteKey": "numquam",
+  "ERPOrderKey": "eos",
+  "ActiveQuoteVersionId": 170,
+  "AcceptedQuoteAlternativeId": 37,
+  "UseValuesFromQuote": 565,
+  "DocumentId": 696,
+  "PoNumber": "1362260",
+  "OrderComment": "magnam",
+  "PreferredEmailCulture": "thurman_bartell@kertzmann.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 286,
-      "ERPQuoteVersionKey": "reiciendis",
-      "QuoteId": 428,
-      "Description": "Adaptive tangible emulation",
-      "Number": "626627",
+      "QuoteVersionId": 415,
+      "ERPQuoteVersionKey": "harum",
+      "QuoteId": 319,
+      "Description": "Enhanced discrete function",
+      "Number": "644881",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 793,
-      "SentDate": "2017-04-18T23:03:56.7886179+02:00",
-      "FollowupId": 964,
-      "ExpirationDate": "2022-10-26T23:03:56.7886179+02:00",
-      "DeliveryCountryId": 22,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 896,
+      "LikelyQuoteAlternativeId": 641,
+      "SentDate": "2003-04-10T16:54:56.1480881+02:00",
+      "FollowupId": 968,
+      "ExpirationDate": "2008-11-29T16:54:56.1480881+01:00",
+      "DeliveryCountryId": 534,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 181,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "consectetur",
-      "ERPPaymentTypeKey": "qui",
-      "ERPDeliveryTermsKey": "dolore",
-      "ERPDeliveryTypeKey": "aliquam",
-      "Rank": 404,
-      "ApprovedBy": 409,
-      "ApprovedText": "nemo",
-      "ApprovedRegisteredBy": 442,
-      "ApprovedRegisteredDate": "2023-10-28T23:03:56.7886179+02:00",
-      "ExtraField1": "et",
-      "ExtraField2": "aut",
-      "ExtraField3": "aut",
-      "ExtraField4": "eum",
-      "ExtraField5": "animi",
-      "LastRecalculated": "2010-05-29T23:03:56.7886179+02:00",
-      "Updated": "2008-07-08T23:03:56.7886179+02:00",
-      "UpdatedAssociateId": 261,
-      "Registered": "2018-10-04T23:03:56.7886179+02:00",
-      "RegisteredAssociateId": 406,
-      "RequestAssociateId": 780,
-      "RequestComment": "officiis",
+      "ERPPaymentTermsKey": "voluptate",
+      "ERPPaymentTypeKey": "eligendi",
+      "ERPDeliveryTermsKey": "ut",
+      "ERPDeliveryTypeKey": "et",
+      "Rank": 878,
+      "ApprovedBy": 898,
+      "ApprovedText": "libero",
+      "ApprovedRegisteredBy": 104,
+      "ApprovedRegisteredDate": "2013-10-31T16:54:56.1480881+01:00",
+      "ExtraField1": "esse",
+      "ExtraField2": "itaque",
+      "ExtraField3": "vitae",
+      "ExtraField4": "voluptas",
+      "ExtraField5": "officia",
+      "LastRecalculated": "2017-03-28T16:54:56.1480881+02:00",
+      "Updated": "1999-04-30T16:54:56.1480881+02:00",
+      "UpdatedAssociateId": 526,
+      "Registered": "2006-06-13T16:54:56.1480881+02:00",
+      "RegisteredAssociateId": 262,
+      "RequestAssociateId": 554,
+      "RequestComment": "laudantium",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 961
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldLength": 954
     }
   }
 }

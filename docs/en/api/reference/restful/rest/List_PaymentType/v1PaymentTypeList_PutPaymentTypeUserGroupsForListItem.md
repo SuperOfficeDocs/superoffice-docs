@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Parisian Inc and Sons",
-    "ToolTip": "Deserunt placeat minus culpa voluptatem reprehenderit sit sequi.",
-    "Deleted": true,
-    "Rank": 480,
-    "Type": "consequuntur",
-    "ColorBlock": 7,
-    "IconHint": "aut",
+    "Id": 476,
+    "Name": "Koss Inc and Sons",
+    "ToolTip": "Sit sint quia id.",
+    "Deleted": false,
+    "Rank": 487,
+    "Type": "ab",
+    "ColorBlock": 908,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "1998-08-08T23:04:05.5539987+02:00",
+    "LastChanged": "2011-06-12T16:55:30.7531728+02:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Lynch Inc and Sons",
-        "ToolTip": "Modi laboriosam hic et quasi eveniet.",
-        "Deleted": true,
-        "Rank": 324,
-        "Type": "reprehenderit",
-        "ColorBlock": 978,
-        "IconHint": "similique",
-        "Selected": true,
-        "LastChanged": "2002-12-13T23:04:05.5539987+01:00",
+        "Id": 819,
+        "Name": "Kihn-Jast",
+        "ToolTip": "Eius minus eius.",
+        "Deleted": false,
+        "Rank": 427,
+        "Type": "voluptates",
+        "ColorBlock": 775,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "1999-07-11T16:55:30.7531728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Darron Olson"
+        "ExtraInfo": "delectus",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Mr. Nicklaus Witting"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Salvatore Gutmann DVM"
+    "ExtraInfo": "omnis",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Hailee Lubowitz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Rice-Zemlak",
-    "ToolTip": "Repudiandae est architecto quam magnam rerum dolor.",
+    "Id": 970,
+    "Name": "Strosin, Gulgowski and Schaefer",
+    "ToolTip": "Nulla sint molestias in placeat est ea quia.",
     "Deleted": true,
-    "Rank": 626,
-    "Type": "iusto",
-    "ColorBlock": 906,
-    "IconHint": "ut",
+    "Rank": 883,
+    "Type": "ipsam",
+    "ColorBlock": 467,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2005-01-22T23:04:05.5554983+01:00",
+    "LastChanged": "2011-11-01T16:55:30.7552101+01:00",
     "ChildItems": [
       {
-        "Id": 376,
-        "Name": "Wiza-Cole",
-        "ToolTip": "Magnam autem hic molestiae necessitatibus ipsum nihil occaecati.",
-        "Deleted": false,
-        "Rank": 321,
-        "Type": "in",
-        "ColorBlock": 913,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2021-01-04T23:04:05.5559989+01:00",
+        "Id": 274,
+        "Name": "Zboncak Inc and Sons",
+        "ToolTip": "Vitae consectetur est deserunt vel.",
+        "Deleted": true,
+        "Rank": 784,
+        "Type": "voluptatum",
+        "ColorBlock": 849,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2005-07-13T16:55:30.7552101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Abbey Sauer",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Miss Raymundo Stamm III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 202
+            "FieldLength": 130
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "dolores",
+    "ExtraInfo": "eum",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Carli McCullough",
+    "FullName": "Miller Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 785
       }
     }
   }

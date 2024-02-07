@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 880,
-  "Section": "deleniti",
-  "Key": "facere",
-  "Name": "Mayert Group",
+  "PrefDescId": 489,
+  "Section": "ea",
+  "Key": "ut",
+  "Name": "Satterfield, Ledner and Ziemann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Upgradable grid-enabled array",
+  "Description": "Self-enabling foreground infrastructure",
   "IsBuiltin": true,
-  "TableName": "Hermiston-Senger",
-  "UserDefinedListId": 211,
-  "Rank": 828,
-  "SubGroup": "delectus",
-  "MinLevel": 209,
-  "MaxValue": 671,
-  "MinValue": 739,
-  "RequiredLicense": "dolores",
+  "TableName": "Pouros-Haag",
+  "UserDefinedListId": 85,
+  "Rank": 169,
+  "SubGroup": "perferendis",
+  "MinLevel": 806,
+  "MaxValue": 557,
+  "MinValue": 253,
+  "RequiredLicense": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

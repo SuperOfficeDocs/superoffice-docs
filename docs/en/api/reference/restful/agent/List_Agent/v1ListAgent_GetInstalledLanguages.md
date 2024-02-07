@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 577,
-    "LCID": 160,
-    "EnglishName": "Armstrong Group",
-    "NativeName": "Beier Group",
-    "ThreeLetterISOLanguageName": "Zulauf Inc and Sons",
-    "TwoLetterISOLanguageName": "Ortiz Inc and Sons",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 342,
+    "LCID": 53,
+    "EnglishName": "Barton-Lemke",
+    "NativeName": "Haley, DuBuque and Medhurst",
+    "ThreeLetterISOLanguageName": "Carter, Franecki and Morar",
+    "TwoLetterISOLanguageName": "Gutmann, Koelpin and Kertzmann",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 819
       }
     }
   }

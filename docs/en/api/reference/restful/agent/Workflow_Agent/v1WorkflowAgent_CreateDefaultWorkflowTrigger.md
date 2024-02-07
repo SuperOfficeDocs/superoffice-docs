@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 945,
-  "WorkflowId": 82,
+  "WorkflowTriggerId": 433,
+  "WorkflowId": 909,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Adams, Schneider and Wuckert",
-      "Description": "Persevering mission-critical array",
-      "Rank": 51,
+      "Name": "Cormier Inc and Sons",
+      "Description": "User-centric assymetric workforce",
+      "Rank": 526,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Adams, Schneider and Wuckert",
-      "Description": "Persevering mission-critical array",
-      "Rank": 51,
+      "Name": "Cormier Inc and Sons",
+      "Description": "User-centric assymetric workforce",
+      "Rank": 526,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 378
     }
   }
 }

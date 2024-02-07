@@ -83,23 +83,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 719,
+  "UdListDefinitionId": 689,
   "Items": [
     {
-      "Id": 145,
-      "Name": "Parker-Schultz",
-      "Tooltip": "architecto",
+      "Id": 677,
+      "Name": "Hauck-Watsica",
+      "Tooltip": "eius",
       "Deleted": true,
-      "UdListDefinitionId": 444,
-      "Rank": 467
+      "UdListDefinitionId": 620,
+      "Rank": 452
     },
     {
-      "Id": 145,
-      "Name": "Parker-Schultz",
-      "Tooltip": "architecto",
+      "Id": 677,
+      "Name": "Hauck-Watsica",
+      "Tooltip": "eius",
       "Deleted": true,
-      "UdListDefinitionId": 444,
-      "Rank": 467
+      "UdListDefinitionId": 620,
+      "Rank": 452
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Kshlerin, Rutherford and Dickinson",
-    "Tooltip": "quis",
+    "Id": 830,
+    "Name": "Marks LLC",
+    "Tooltip": "velit",
     "Deleted": true,
-    "UdListDefinitionId": 850,
-    "Rank": 611,
+    "UdListDefinitionId": 609,
+    "Rank": 761,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldType": "System.String",
+        "FieldLength": 244
       }
     }
   }

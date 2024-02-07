@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 792,
-  "Field": "vel",
-  "RecordId": 188,
+  "RefCountsId": 666,
+  "Field": "rerum",
+  "RecordId": 98,
   "SuggestedRecords": [
     {
-      "Id": 22,
-      "Name": "Bins-Metz",
-      "ToolTip": "Quaerat maxime.",
+      "Id": 53,
+      "Name": "Hessel Inc and Sons",
+      "ToolTip": "Nisi est voluptatum nulla.",
       "Deleted": true,
-      "Rank": 539,
-      "Type": "aliquam",
+      "Rank": 650,
+      "Type": "tempore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 99,
-      "ExtraInfo": "ex",
-      "StyleHint": "eum",
-      "FullName": "Ruby Yundt"
+      "IconHint": "ut",
+      "ColorBlock": 24,
+      "ExtraInfo": "aperiam",
+      "StyleHint": "ipsum",
+      "FullName": "Russel Cremin"
     }
   ],
-  "CurrentValue": 617,
-  "TravelPrefix": 885,
-  "SatPrefix": 855,
+  "CurrentValue": 267,
+  "TravelPrefix": 310,
+  "SatPrefix": 424,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": true
+  "ReadOnly": false,
+  "AllowBlank": false
 }
 ```
 
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 797,
-  "Field": "nemo",
-  "RecordId": 803,
+  "RefCountsId": 476,
+  "Field": "quia",
+  "RecordId": 465,
   "SuggestedRecords": [
     {
-      "Id": 982,
-      "Name": "Douglas-Graham",
-      "ToolTip": "Veniam in dicta.",
+      "Id": 997,
+      "Name": "Davis Group",
+      "ToolTip": "Dolor dolorum ut odit.",
       "Deleted": false,
-      "Rank": 81,
-      "Type": "et",
+      "Rank": 352,
+      "Type": "optio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eius",
-      "ColorBlock": 807,
-      "ExtraInfo": "in",
-      "StyleHint": "aut",
-      "FullName": "Prof. Agustin Jacobs V",
+      "IconHint": "quo",
+      "ColorBlock": 564,
+      "ExtraInfo": "quisquam",
+      "StyleHint": "atque",
+      "FullName": "Mrs. Lempi Crystal Lebsack Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 584
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     }
   ],
-  "CurrentValue": 743,
+  "CurrentValue": 152,
   "TravelPrefix": 659,
-  "SatPrefix": 253,
+  "SatPrefix": 498,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 915
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=945
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=231
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 751,
-  "ContactId": 942,
-  "ProjectId": 51,
-  "ContactName": "Spinka-Robel",
+  "ProjectmemberId": 631,
+  "ContactId": 92,
+  "ProjectId": 324,
+  "ContactName": "Bosco-Dooley",
   "ContactDepartment": "",
-  "ProjectName": "Buckridge Inc and Sons",
-  "EmailId": 294,
-  "EmailAddress": "nick_mann@gerhold.ca",
-  "CountryId": 420,
-  "Firstname": "Wilbert",
-  "MiddleName": "Leffler-Spencer",
-  "Lastname": "Gorczany",
-  "PersonId": 592,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Lakin Group",
-  "Phone": "064.223.9334",
-  "PhoneId": 859,
-  "ProjectMemberTypeId": 314,
-  "EmailAddressName": "nikita@mayertgrimes.uk",
-  "Comment": "ut",
-  "FullName": "Wilson Dibbert",
+  "ProjectName": "Powlowski, Wolff and Ullrich",
+  "EmailId": 276,
+  "EmailAddress": "rasheed@powlowski.name",
+  "CountryId": 211,
+  "Firstname": "Monserrat",
+  "MiddleName": "Kohler Group",
+  "Lastname": "Johnson",
+  "PersonId": 965,
+  "Mrmrs": "ut",
+  "ProjectMemberTypeName": "Wiegand, Schimmel and Mohr",
+  "Phone": "(909)805-2182 x1876",
+  "PhoneId": 129,
+  "ProjectMemberTypeId": 837,
+  "EmailAddressName": "iva@quitzonmaggio.com",
+  "Comment": "error",
+  "FullName": "Elaina Beatty IV",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 226
     }
   }
 }

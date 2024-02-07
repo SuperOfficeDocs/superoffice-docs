@@ -72,8 +72,8 @@ OK
 | RecipeId | string |  |
 | UpdatedDate | date-time |  |
 | CreatedDate | date-time |  |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
 | TableRight | TableRight | The carrier's table right |
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 43,
-    "Name": "Jast-Little",
-    "Description": "Cloned transitional archive",
-    "DeltaJson": "quia",
+    "ConfigurableScreenDeltaId": 329,
+    "Name": "Satterfield-Medhurst",
+    "Description": "Multi-channelled context-sensitive projection",
+    "DeltaJson": "quis",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "accusantium",
-    "UpdatedDate": "2008-07-29T23:03:55.2401392+02:00",
-    "CreatedDate": "1997-04-09T23:03:55.2401392+02:00",
+    "RecipeId": "voluptas",
+    "UpdatedDate": "1997-06-11T16:54:54.890176+02:00",
+    "CreatedDate": "2005-07-01T16:54:54.890176+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      965,
-      441
+      961,
+      965
     ],
-    "AppliesToKey": "beatae",
+    "AppliesToKey": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldLength": 498
       }
     }
   }

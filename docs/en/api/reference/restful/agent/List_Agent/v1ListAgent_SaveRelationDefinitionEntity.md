@@ -81,12 +81,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 402,
-  "Name": "Purdy, Greenholt and Shanahan",
-  "Tooltip": "eum",
-  "PassiveText": "vero",
-  "Deleted": false,
-  "Rank": 374,
+  "ReldefId": 840,
+  "Name": "Johns, Hauck and Kuhn",
+  "Tooltip": "quod",
+  "PassiveText": "ipsum",
+  "Deleted": true,
+  "Rank": 484,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,12 +99,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 234,
-  "Name": "Kub LLC",
-  "Tooltip": "vel",
-  "PassiveText": "explicabo",
+  "ReldefId": 719,
+  "Name": "Cummings, Hyatt and Goyette",
+  "Tooltip": "minima",
+  "PassiveText": "aliquam",
   "Deleted": false,
-  "Rank": 198,
+  "Rank": 394,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 412
     }
   }
 }

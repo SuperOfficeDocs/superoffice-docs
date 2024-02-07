@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 606,
-  "Name": "Emmerich-Dibbert",
-  "Tooltip": "eius",
+  "HeadingId": 301,
+  "Name": "Bradtke, Schoen and Torphy",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 819,
-  "UdListDefinitionId": 9
+  "Rank": 762,
+  "UdListDefinitionId": 814
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 589,
-  "Name": "Schmeler-Dach",
-  "Tooltip": "voluptatem",
+  "HeadingId": 732,
+  "Name": "Huel Inc and Sons",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 924,
-  "UdListDefinitionId": 975,
+  "Rank": 93,
+  "UdListDefinitionId": 753,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 133,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "adipisci",
-  "Name": "Bailey-VonRueden",
-  "Description": "Team-oriented full-range solution",
-  "Code": "fuga",
-  "PriceUnit": "rerum",
-  "QuantityUnit": "quo",
-  "IsSubscription": false,
-  "SubscriptionUnit": "nam",
-  "DefaultSubscriptionQuantity": 2140.522,
-  "ItemNumber": "446855",
+  "ProductId": 753,
+  "ERPProductKey": "earum",
+  "ERPPriceListKey": "id",
+  "Name": "Quigley, Nienow and Toy",
+  "Description": "Pre-emptive real-time algorithm",
+  "Code": "dolor",
+  "PriceUnit": "iusto",
+  "QuantityUnit": "earum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 18973.236,
+  "ItemNumber": "1101896",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "in",
-  "VAT": 25300.782,
-  "VATInfo": "porro",
-  "UnitCost": 4848.298,
-  "UnitMinimumPrice": 6731.8319999999994,
-  "UnitListPrice": 13040.573999999999,
+  "ProductFamilyKey": "quod",
+  "ProductTypeKey": "deleniti",
+  "VAT": 12767.916,
+  "VATInfo": "eum",
+  "UnitCost": 5992.208,
+  "UnitMinimumPrice": 16102.492,
+  "UnitListPrice": 8590.294,
   "InAssortment": false,
-  "Supplier": "neque",
-  "SupplierCode": "consequuntur",
-  "Rights": "fugit",
-  "Rule": "molestias",
+  "Supplier": "culpa",
+  "SupplierCode": "esse",
+  "Rights": "voluptatibus",
+  "Rule": "id",
   "ExtraInfo": [
     {
-      "Name": "Pollich-Cormier",
-      "Value": "corrupti",
+      "Name": "Greenholt, Zulauf and Lubowitz",
+      "Value": "aliquam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     },
     {
-      "Name": "Pollich-Cormier",
-      "Value": "corrupti",
+      "Name": "Greenholt, Zulauf and Lubowitz",
+      "Value": "aliquam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
-  "ExtraField1": "commodi",
-  "ExtraField2": "dolor",
-  "ExtraField3": "distinctio",
-  "ExtraField4": "aspernatur",
-  "ExtraField5": "ut",
-  "InStock": 28253.01,
+  "RawExtraInfo": "non",
+  "ExtraField1": "unde",
+  "ExtraField2": "porro",
+  "ExtraField3": "odit",
+  "ExtraField4": "eum",
+  "ExtraField5": "consequuntur",
+  "InStock": 3613.502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldLength": 519
     }
   }
 }

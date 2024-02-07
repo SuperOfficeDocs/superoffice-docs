@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=865
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=488
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 604,
-  "Name": "Lang, Raynor and Bailey",
+  "ScreenChooserId": 430,
+  "Name": "Swift Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quis",
-  "Source": "amet",
-  "Registered": "1998-10-25T23:03:55.5866345+01:00",
-  "RegisteredAssociateId": 906,
-  "Updated": "2012-07-10T23:03:55.5866345+02:00",
-  "UpdatedAssociateId": 168,
+  "Enabled": false,
+  "UniqueIdentifier": "accusantium",
+  "Source": "sunt",
+  "Registered": "2000-08-15T16:54:55.070271+02:00",
+  "RegisteredAssociateId": 85,
+  "Updated": "2004-11-06T16:54:55.070271+01:00",
+  "UpdatedAssociateId": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 207
     }
   }
 }

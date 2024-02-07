@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=voluptatem
+GET /api/v1/List/Category/MDOItems?query=dolorum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Lebsack, Murphy and Smitham",
-    "ToolTip": "Atque deserunt.",
+    "Id": 597,
+    "Name": "Gibson, Walsh and Herman",
+    "ToolTip": "Asperiores voluptatem illo asperiores.",
     "Deleted": true,
-    "Rank": 381,
-    "Type": "ut",
+    "Rank": 690,
+    "Type": "corporis",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Wiza-Farrell",
-        "ToolTip": "Repellendus aspernatur reprehenderit accusamus ut similique.",
-        "Deleted": true,
-        "Rank": 731,
-        "Type": "qui",
+        "Id": 777,
+        "Name": "Braun-Reichel",
+        "ToolTip": "Optio voluptatum qui autem doloribus.",
+        "Deleted": false,
+        "Rank": 743,
+        "Type": "delectus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 519,
-        "ExtraInfo": "laborum",
-        "StyleHint": "assumenda",
-        "FullName": "Vivian Casper",
+        "IconHint": "atque",
+        "ColorBlock": 395,
+        "ExtraInfo": "voluptates",
+        "StyleHint": "ut",
+        "FullName": "Ms. Levi Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 617
+            "FieldType": "System.Int32",
+            "FieldLength": 36
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 605,
-    "ExtraInfo": "accusamus",
-    "StyleHint": "ipsa",
-    "FullName": "Vickie Frami",
+    "IconHint": "id",
+    "ColorBlock": 540,
+    "ExtraInfo": "sint",
+    "StyleHint": "corrupti",
+    "FullName": "Toy Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 880
       }
     }
   }

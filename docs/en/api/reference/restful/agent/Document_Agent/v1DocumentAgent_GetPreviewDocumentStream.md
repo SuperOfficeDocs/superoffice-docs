@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 347
+  "DocumentId": 708
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mohr, Smith and Bogisich",
-  "Type": "aliquam",
-  "Size": 841,
+  "Name": "Wuckert Group",
+  "Type": "consequuntur",
+  "Size": 678,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

@@ -92,23 +92,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 717,
-  "Name": "Powlowski, Lubowitz and Gislason",
-  "CreatedDate": "2012-12-04T23:04:04.2065173+01:00",
-  "UpdatedDate": "2012-06-08T23:04:04.2065173+02:00",
+  "ForeignAppId": 772,
+  "Name": "Feil-Bernhard",
+  "CreatedDate": "2017-01-09T16:55:29.6375261+01:00",
+  "UpdatedDate": "1999-11-27T16:55:29.6375261+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 833,
-      "Name": "Bashirian, Gutmann and Wisozk",
-      "CreatedDate": "2009-07-03T23:04:04.207018+02:00",
-      "UpdatedDate": "1999-06-14T23:04:04.207018+02:00",
-      "AssociateFullName": "Dr. Jan Morar",
-      "CreatedBy": "dolorem",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "labore",
-      "ForeignAppId": 62
+      "ForeignDeviceId": 525,
+      "Name": "Mante, Bergnaum and Hermann",
+      "CreatedDate": "2000-05-06T16:55:29.6385306+02:00",
+      "UpdatedDate": "2001-07-09T16:55:29.6385306+02:00",
+      "AssociateFullName": "Rebecca Bartell",
+      "CreatedBy": "fugit",
+      "UpdatedBy": "corrupti",
+      "DeviceIdentifier": "officia",
+      "ForeignAppId": 632
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 880,
-  "Name": "Kovacek-Heidenreich",
-  "CreatedDate": "2016-09-24T23:04:04.2085176+02:00",
-  "UpdatedDate": "2007-05-19T23:04:04.2085176+02:00",
+  "ForeignAppId": 296,
+  "Name": "Gibson-Mayer",
+  "CreatedDate": "2008-01-09T16:55:29.6405261+01:00",
+  "UpdatedDate": "2001-07-29T16:55:29.6405261+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 556,
-      "Name": "Feil LLC",
-      "CreatedDate": "2013-08-21T23:04:04.209017+02:00",
-      "UpdatedDate": "2012-05-22T23:04:04.209017+02:00",
-      "AssociateFullName": "Chasity Wunsch Sr.",
-      "CreatedBy": "natus",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 559,
+      "ForeignDeviceId": 846,
+      "Name": "Ebert, Abbott and Bashirian",
+      "CreatedDate": "1997-02-10T16:55:29.6405261+01:00",
+      "UpdatedDate": "2014-11-26T16:55:29.6405261+01:00",
+      "AssociateFullName": "Misty Ritchie",
+      "CreatedBy": "recusandae",
+      "UpdatedBy": "molestiae",
+      "DeviceIdentifier": "quisquam",
+      "ForeignAppId": 626,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 901
+          "FieldType": "System.Int32",
+          "FieldLength": 916
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 949
     }
   },
   "_Links": {

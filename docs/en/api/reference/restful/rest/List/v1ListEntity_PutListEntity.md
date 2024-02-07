@@ -97,19 +97,19 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "Name": "Huel LLC",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "Rank": 643,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 179,
+  "Name": "Feeney, Schamberger and Padberg",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 557,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
+  "ListType": "animi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Collins-Stamm",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "Rank": 387,
-  "IsCustomList": false,
+  "Id": 3,
+  "Name": "Collins, Gottlieb and Zboncak",
+  "Tooltip": "error",
+  "Deleted": true,
+  "Rank": 243,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldLength": 235
     }
   },
   "_Links": {

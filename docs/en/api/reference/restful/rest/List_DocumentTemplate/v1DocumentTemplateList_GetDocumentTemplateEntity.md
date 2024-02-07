@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 860,
-  "Name": "White-Fisher",
-  "Tooltip": "sed",
-  "SaveInDb": 38,
-  "Filename": "similique",
-  "DefaultOref": "atque",
+  "DocumentTemplateId": 258,
+  "Name": "Schmidt LLC",
+  "Tooltip": "blanditiis",
+  "SaveInDb": 564,
+  "Filename": "vero",
+  "DefaultOref": "delectus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 969,
-  "IntentId": 563,
-  "IsDefaultPublished": true,
-  "Rank": 906,
-  "LoadTemplateFromPlugin": 951,
-  "MimeType": "sit",
+  "AutoeventId": 795,
+  "IntentId": 373,
+  "IsDefaultPublished": false,
+  "Rank": 616,
+  "LoadTemplateFromPlugin": 817,
+  "MimeType": "quis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 153,
+  "DocumentTypeKey": 852,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "hector_nitzsche@wiza.info",
+  "EmailSubject": "jared@yundttrantow.us",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "skye.mraz@deckow.ca",
+  "SenderEmailAddress": "alexandria.trantow@armstrong.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 244
     }
   }
 }

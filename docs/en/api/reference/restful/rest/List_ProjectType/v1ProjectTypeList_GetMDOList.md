@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=consequuntur
+GET /api/v1/List/ProjectType/MDOItems?query=quae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Aufderhar Group",
-    "ToolTip": "Libero maxime voluptas molestiae odio molestias tempore qui.",
+    "Id": 801,
+    "Name": "Stehr Inc and Sons",
+    "ToolTip": "Dicta qui non praesentium.",
     "Deleted": false,
-    "Rank": 731,
-    "Type": "quo",
+    "Rank": 185,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Gaylord LLC",
-        "ToolTip": "Unde reprehenderit.",
+        "Id": 787,
+        "Name": "Reinger, Gislason and Wilkinson",
+        "ToolTip": "Nostrum nostrum aut quibusdam et.",
         "Deleted": false,
-        "Rank": 297,
-        "Type": "voluptas",
+        "Rank": 696,
+        "Type": "vitae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iste",
-        "ColorBlock": 538,
-        "ExtraInfo": "in",
-        "StyleHint": "fugit",
-        "FullName": "Prof. Ettie Magnus Cartwright",
+        "IconHint": "sint",
+        "ColorBlock": 611,
+        "ExtraInfo": "sequi",
+        "StyleHint": "laudantium",
+        "FullName": "Mallie Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldType": "System.String",
+            "FieldLength": 329
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 472,
-    "ExtraInfo": "provident",
-    "StyleHint": "mollitia",
-    "FullName": "Antonetta Runte",
+    "IconHint": "omnis",
+    "ColorBlock": 821,
+    "ExtraInfo": "dolore",
+    "StyleHint": "sed",
+    "FullName": "Reba Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldLength": 784
       }
     }
   }

@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "iusto",
+    "path": "facere",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iusto",
+    "path": "facere",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 88,
-  "Name": "Quigley, Lubowitz and Morissette",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 743,
+  "Id": 835,
+  "Name": "Lang-Hauck",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 813,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldType": "System.String",
+      "FieldLength": 991
     }
   },
   "_Links": {

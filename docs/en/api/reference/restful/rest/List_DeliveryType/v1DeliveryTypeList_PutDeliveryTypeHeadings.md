@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 153,
-    "Name": "Hoeger-Crist",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "Rank": 655,
-    "UdListDefinitionId": 532
+    "HeadingId": 905,
+    "Name": "Padberg-Quigley",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "Rank": 659,
+    "UdListDefinitionId": 35
   },
   {
-    "HeadingId": 153,
-    "Name": "Hoeger-Crist",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "Rank": 655,
-    "UdListDefinitionId": 532
+    "HeadingId": 905,
+    "Name": "Padberg-Quigley",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "Rank": 659,
+    "UdListDefinitionId": 35
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 888,
-    "Name": "Larson Group",
-    "Tooltip": "fugit",
-    "Deleted": false,
-    "Rank": 684,
-    "UdListDefinitionId": 65,
+    "HeadingId": 497,
+    "Name": "Torp, Johns and Dooley",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "Rank": 607,
+    "UdListDefinitionId": 177,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 907
       }
     }
   }

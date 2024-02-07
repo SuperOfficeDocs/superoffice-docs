@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 293,
-  "Name": "Labadie-Hackett",
+  "Id": 67,
+  "Name": "Bashirian Inc and Sons",
   "Tooltip": "et",
   "Deleted": true,
-  "Rank": 813,
+  "Rank": 637,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "enim",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 765,
-  "Name": "Anderson Inc and Sons",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "Rank": 825,
+  "Id": 675,
+  "Name": "Kerluke, Marvin and Quigley",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "Rank": 162,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "adipisci",
-  "InUseByUserDefinedFields": true,
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 415
     }
   }
 }

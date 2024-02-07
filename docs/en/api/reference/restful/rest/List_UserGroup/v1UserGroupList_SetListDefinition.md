@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 315,
-  "Name": "Herzog LLC",
-  "Tooltip": "sit",
+  "Id": 841,
+  "Name": "Kutch Inc and Sons",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 493,
+  "Rank": 78,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 583,
-  "Name": "Kassulke LLC",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 38,
+  "Id": 381,
+  "Name": "Borer Inc and Sons",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 436,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "autem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 504
     }
   }
 }

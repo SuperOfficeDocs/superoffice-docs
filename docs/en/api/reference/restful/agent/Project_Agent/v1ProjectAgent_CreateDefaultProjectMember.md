@@ -64,7 +64,7 @@ OK
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 996,
-  "ContactId": 459,
-  "ProjectId": 282,
-  "ContactName": "Feest Group",
+  "ProjectmemberId": 360,
+  "ContactId": 619,
+  "ProjectId": 916,
+  "ContactName": "Ratke-Bernier",
   "ContactDepartment": "",
-  "ProjectName": "Farrell, Fay and Labadie",
-  "EmailId": 68,
-  "EmailAddress": "nicklaus@oreillykuvalis.us",
-  "CountryId": 447,
-  "Firstname": "Marietta",
-  "MiddleName": "Considine-Terry",
-  "Lastname": "Hackett",
-  "PersonId": 94,
-  "Mrmrs": "ullam",
-  "ProjectMemberTypeName": "Rosenbaum-Dietrich",
-  "Phone": "832.728.3362 x7607",
-  "PhoneId": 916,
-  "ProjectMemberTypeId": 654,
-  "EmailAddressName": "sibyl.leffler@roberts.name",
-  "Comment": "dicta",
-  "FullName": "Miss Jamie Estell Pagac",
+  "ProjectName": "Nolan Inc and Sons",
+  "EmailId": 337,
+  "EmailAddress": "shany.jerde@hermann.name",
+  "CountryId": 139,
+  "Firstname": "Reuben",
+  "MiddleName": "Bruen LLC",
+  "Lastname": "Becker",
+  "PersonId": 835,
+  "Mrmrs": "cupiditate",
+  "ProjectMemberTypeName": "Wilkinson Group",
+  "Phone": "176-115-9322 x720",
+  "PhoneId": 889,
+  "ProjectMemberTypeId": 136,
+  "EmailAddressName": "mauricio.harris@dickinsonhermiston.co.uk",
+  "Comment": "quia",
+  "FullName": "Genevieve Thompson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

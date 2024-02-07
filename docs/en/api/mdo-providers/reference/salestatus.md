@@ -2,7 +2,7 @@
 uid: salestatus
 title: salestatus
 keywords: mdoprovider mdo provider salestatus
-description: List for the Sale.Status field: Open, Lost, Sold, Stalled.
+description: List for the Sale.Status field - Open, Lost, Sold, Stalled.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

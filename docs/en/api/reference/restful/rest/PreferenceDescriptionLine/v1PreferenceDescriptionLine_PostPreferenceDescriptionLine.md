@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 50,
-  "PrefDescId": 764,
-  "PrefValue": "nihil",
-  "PrefShowValue": "nemo",
-  "Description": "Synchronised interactive matrices",
+  "PrefDescLineId": 194,
+  "PrefDescId": 837,
+  "PrefValue": "est",
+  "PrefShowValue": "ut",
+  "Description": "Progressive scalable migration",
   "IsBuiltin": false
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 696,
-  "PrefDescId": 549,
-  "PrefValue": "ratione",
-  "PrefShowValue": "incidunt",
-  "Description": "Enhanced upward-trending parallelism",
-  "IsBuiltin": true,
+  "PrefDescLineId": 95,
+  "PrefDescId": 429,
+  "PrefValue": "aut",
+  "PrefShowValue": "ea",
+  "Description": "Face to face composite system engine",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 213
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

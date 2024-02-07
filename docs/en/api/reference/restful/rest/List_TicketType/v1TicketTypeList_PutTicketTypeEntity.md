@@ -96,22 +96,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 208,
-  "Name": "Paucek, Lesch and West",
-  "Rank": 252,
-  "Tooltip": "in",
-  "Icon": "mollitia",
-  "DefaultTicketStatus": 647,
+  "TicketTypeId": 742,
+  "Name": "Macejkovic-Leannon",
+  "Rank": 42,
+  "Tooltip": "ut",
+  "Icon": "est",
+  "DefaultTicketStatus": 48,
   "TicketStatuses": [
-    487,
-    212
+    385,
+    599
   ],
-  "DefaultTicketPriority": 803,
+  "DefaultTicketPriority": 537,
   "TicketPriorities": [
-    998,
-    124
+    284,
+    730
   ],
-  "ReplyTemplate": 335,
+  "ReplyTemplate": 664,
   "IsExternalVisible": true,
   "IsDefault": false
 }
@@ -124,30 +124,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 372,
-  "Name": "Bergnaum Inc and Sons",
-  "Rank": 836,
+  "TicketTypeId": 788,
+  "Name": "Osinski Inc and Sons",
+  "Rank": 501,
   "Tooltip": "et",
-  "Icon": "sed",
-  "DefaultTicketStatus": 820,
+  "Icon": "rem",
+  "DefaultTicketStatus": 834,
   "TicketStatuses": [
-    336,
-    764
+    111,
+    451
   ],
-  "DefaultTicketPriority": 502,
+  "DefaultTicketPriority": 102,
   "TicketPriorities": [
-    500,
-    890
+    944,
+    137
   ],
-  "ReplyTemplate": 201,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 23,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldLength": 962
     }
   }
 }

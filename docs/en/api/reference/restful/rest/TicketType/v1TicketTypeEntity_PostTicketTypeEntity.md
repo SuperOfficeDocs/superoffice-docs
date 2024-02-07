@@ -98,26 +98,26 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 486,
-  "Name": "Rippin, Heller and Rogahn",
-  "Rank": 32,
-  "Tooltip": "ratione",
-  "Icon": "expedita",
-  "DefaultTicketStatus": 547,
+  "TicketTypeId": 108,
+  "Name": "Abernathy-King",
+  "Rank": 244,
+  "Tooltip": "dolorem",
+  "Icon": "ea",
+  "DefaultTicketStatus": 940,
   "TicketStatuses": [
-    269,
-    250
+    802,
+    552
   ],
-  "DefaultTicketPriority": 343,
+  "DefaultTicketPriority": 131,
   "TicketPriorities": [
-    680,
-    896
+    653,
+    990
   ],
-  "ReplyTemplate": 542,
+  "ReplyTemplate": 374,
   "IsExternalVisible": false,
   "IsDefault": true
 }
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 157,
-  "Name": "Collier, Fahey and Schowalter",
-  "Rank": 920,
-  "Tooltip": "quidem",
-  "Icon": "omnis",
-  "DefaultTicketStatus": 13,
+  "TicketTypeId": 610,
+  "Name": "Keeling-Kuhn",
+  "Rank": 215,
+  "Tooltip": "molestiae",
+  "Icon": "ut",
+  "DefaultTicketStatus": 650,
   "TicketStatuses": [
-    331,
-    237
+    486,
+    599
   ],
-  "DefaultTicketPriority": 993,
+  "DefaultTicketPriority": 225,
   "TicketPriorities": [
-    618,
-    88
+    210,
+    230
   ],
-  "ReplyTemplate": 82,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 330,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 887
     }
   },
   "_Links": {

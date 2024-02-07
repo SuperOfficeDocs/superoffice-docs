@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 187,
-    "ColumnId": 307,
-    "FieldDefault": "nostrum",
-    "FieldHeight": 804,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 257,
-    "FieldTop": 714,
+    "UDefFieldId": 373,
+    "ColumnId": 684,
+    "FieldDefault": "ipsam",
+    "FieldHeight": 851,
+    "FieldLabel": "est",
+    "FieldLeft": 74,
+    "FieldTop": 407,
     "FieldType": "Checkbox",
-    "FieldWidth": 303,
-    "FormatMask": "rerum",
+    "FieldWidth": 246,
+    "FormatMask": "commodi",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 326,
-    "LabelLeft": 50,
-    "LabelTop": 399,
-    "LabelWidth": 29,
-    "LastVersionId": 813,
-    "ListTableId": 712,
+    "LabelHeight": 712,
+    "LabelLeft": 684,
+    "LabelTop": 706,
+    "LabelWidth": 166,
+    "LastVersionId": 9,
+    "ListTableId": 863,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 27,
-    "ProgId": "ut",
+    "Page1LineNo": 677,
+    "ProgId": "dolorem",
     "IsReadOnly": false,
-    "ShortLabel": "in",
-    "TabOrder": 412,
-    "TextLength": 574,
-    "Tooltip": "itaque",
-    "UdefIdentity": 6,
-    "UDListDefinitionId": 451,
+    "ShortLabel": "natus",
+    "TabOrder": 963,
+    "TextLength": 341,
+    "Tooltip": "dolore",
+    "UdefIdentity": 338,
+    "UDListDefinitionId": 790,
     "Justification": "Center",
-    "Version": 429,
-    "TemplateVariableName": "Lubowitz LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Fay-Stark",
+    "Version": 755,
+    "TemplateVariableName": "Green Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Graham-Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 569
       }
     }
   }

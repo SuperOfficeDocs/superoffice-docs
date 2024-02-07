@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Mertz-Klocko",
-    "ToolTip": "Inventore modi nostrum hic explicabo iure.",
+    "Id": 819,
+    "Name": "Eichmann-Turcotte",
+    "ToolTip": "Harum perferendis ducimus et.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "ut",
-    "ColorBlock": 29,
-    "IconHint": "quaerat",
-    "Selected": false,
-    "LastChanged": "2005-03-09T23:04:05.7189961+01:00",
+    "Rank": 841,
+    "Type": "rem",
+    "ColorBlock": 271,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2020-09-06T16:55:30.995186+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Rutherford, Lubowitz and Wilderman",
-        "ToolTip": "Non consequatur incidunt.",
+        "Id": 154,
+        "Name": "Koepp-Zboncak",
+        "ToolTip": "Repellat ipsa.",
         "Deleted": true,
-        "Rank": 758,
-        "Type": "eaque",
-        "ColorBlock": 707,
-        "IconHint": "enim",
+        "Rank": 353,
+        "Type": "deleniti",
+        "ColorBlock": 744,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2015-12-30T23:04:05.7189961+01:00",
+        "LastChanged": "2003-08-01T16:55:30.995186+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "et",
+        "ExtraInfo": "est",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Einar Torphy"
+        "FullName": "Domingo Kerluke"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "similique",
+    "ExtraInfo": "ut",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Mrs. Kamryn Rempel IV"
+    "FullName": "Liliane Torp"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Bechtelar, Bruen and Feest",
-    "ToolTip": "Voluptas quis voluptatem.",
+    "Id": 806,
+    "Name": "Hilll LLC",
+    "ToolTip": "Iusto est nihil sed dolorem minima.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "quis",
-    "ColorBlock": 10,
-    "IconHint": "adipisci",
-    "Selected": true,
-    "LastChanged": "2004-08-31T23:04:05.7199966+02:00",
+    "Rank": 285,
+    "Type": "illo",
+    "ColorBlock": 858,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "2016-09-18T16:55:30.9971862+02:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Ullrich, Schuster and Mertz",
-        "ToolTip": "Voluptatibus accusamus quisquam et non quo recusandae maiores.",
+        "Id": 691,
+        "Name": "Medhurst Inc and Sons",
+        "ToolTip": "Odit dicta neque.",
         "Deleted": false,
-        "Rank": 922,
-        "Type": "excepturi",
-        "ColorBlock": 475,
-        "IconHint": "laboriosam",
+        "Rank": 237,
+        "Type": "totam",
+        "ColorBlock": 817,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2022-09-14T23:04:05.7199966+02:00",
+        "LastChanged": "2024-02-01T16:55:30.9971862+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "ipsum",
-        "Hidden": true,
-        "FullName": "Demario Abbott",
+        "ExtraInfo": "qui",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Ms. Pansy Lueilwitz II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 56
+            "FieldLength": 104
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Keshawn Viva DuBuque II",
+    "ExtraInfo": "vel",
+    "StyleHint": "animi",
+    "Hidden": false,
+    "FullName": "Verla Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 283
+        "FieldLength": 561
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 | DisplayValue | string | Display value, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayTooltip | string | Display tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayType | string | Display type, populated when asked for. |
-| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the Preference Agent. |
 | TargetId | int32 | The id of the target row. The table it points at is specified by the preference type. |
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 683
+  "Id": 680
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "doloribus",
+  "RawValue": "accusantium",
   "Specification": null,
-  "DisplayValue": "minus",
-  "DisplayTooltip": "eligendi",
+  "DisplayValue": "esse",
+  "DisplayTooltip": "itaque",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 505,
-  "PrefDescId": 97,
-  "TableName": "Rempel, Witting and Tromp",
-  "UserPreferenceId": 506,
+  "TargetId": 551,
+  "PrefDescId": 51,
+  "TableName": "Upton, Kilback and Langosh",
+  "UserPreferenceId": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

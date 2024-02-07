@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 464,
-  "Name": "Lueilwitz, Goldner and Nolan",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "Rank": 316,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sunt",
-  "InUseByUserDefinedFields": true,
+  "Id": 708,
+  "Name": "Kozey Inc and Sons",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "Rank": 609,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 186
     }
   },
   "_Links": {

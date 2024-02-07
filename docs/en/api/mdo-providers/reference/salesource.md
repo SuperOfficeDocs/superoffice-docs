@@ -2,8 +2,7 @@
 uid: salesource
 title: salesource
 keywords: mdoprovider mdo provider salesource
-description: MDO list provider for the source list of the Sale dialog.
-This list extends the basic <see cref="!:SourceRow" /> list with icons
+description: MDO list provider for the source list of the Sale dialog. This list extends the basic <see cref="!:SourceRow" /> list with icons
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

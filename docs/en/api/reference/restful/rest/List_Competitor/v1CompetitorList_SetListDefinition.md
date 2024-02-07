@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Ondricka, Prohaska and Johnson",
-  "Tooltip": "molestias",
+  "Id": 459,
+  "Name": "Price, O'Keefe and Hoppe",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 401,
+  "Rank": 522,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Considine-Torp",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "Rank": 558,
-  "IsCustomList": true,
+  "Id": 294,
+  "Name": "Roob, Schuppe and Hegmann",
+  "Tooltip": "quas",
+  "Deleted": true,
+  "Rank": 778,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "atque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 979
     }
   }
 }

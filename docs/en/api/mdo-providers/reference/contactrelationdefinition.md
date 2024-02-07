@@ -2,8 +2,7 @@
 uid: contactrelationdefinition
 title: contactrelationdefinition
 keywords: mdoprovider mdo provider contactrelationdefinition
-description: MDO list provider for contact/person relation definitions. This provider is a takes a mandatory
-additionalInfo parameter, that specifies what kind of relation should be fetched.
+description: MDO list provider for contact/person relation definitions. This provider is a takes a mandatory additionalInfo parameter, that specifies what kind of relation should be fetched.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -16,7 +15,8 @@ additionalInfo parameter, that specifies what kind of relation should be fetched
 AdditionalInfo can be one of 'CC', 'CP', 'PC', 'PP', specifying contact or person on the source and destination sides
 of the relation. A join is made to the relationTarget table to pick out the correct relation definitions to show.
 The <see cref="T:SuperOffice.CRM.Lists.RelationListProvider.RelationType" /> enum can be used to avoid strings when specifying the relation type.
-<para />
+
+
 The extraInfo field in the items contains the passive (reverse) text, useful for display.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.RelationListProvider">RelationListProvider</see> class.

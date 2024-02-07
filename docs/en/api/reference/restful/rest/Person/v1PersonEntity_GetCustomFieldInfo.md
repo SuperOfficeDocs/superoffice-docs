@@ -71,7 +71,7 @@ OK
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Weber LLC",
-  "DisplayName": "Halvorson-Schuster",
-  "Description": "Business-focused clear-thinking interface",
-  "ShortLabel": "facilis",
-  "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": true,
-  "IsMandatory": true,
-  "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 71,
-  "TemplateVariableName": "Padberg Inc and Sons"
+  "FieldName": "Marks Inc and Sons",
+  "DisplayName": "Towne Group",
+  "Description": "Centralized transitional standardization",
+  "ShortLabel": "repellendus",
+  "HideLabel": true,
+  "HideField": false,
+  "IsIndexed": false,
+  "IsMandatory": false,
+  "IsReadOnly": true,
+  "IsExternal": false,
+  "Rank": 80,
+  "TemplateVariableName": "Stroman, Bednar and Ziemann"
 }
 ```

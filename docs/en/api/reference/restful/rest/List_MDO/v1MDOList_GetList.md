@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=corporis
-GET /api/v1/MDOList/{listname}?query=atque
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=illo
+GET /api/v1/MDOList/{listname}?query=voluptatem
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Feest Group",
-    "ToolTip": "Ut ab incidunt officiis.",
-    "Deleted": true,
-    "Rank": 757,
-    "Type": "accusantium",
+    "Id": 917,
+    "Name": "Hoeger Group",
+    "ToolTip": "Et quia fugiat corporis fuga possimus facere esse.",
+    "Deleted": false,
+    "Rank": 525,
+    "Type": "voluptate",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Vandervort-Lindgren",
-        "ToolTip": "Quis consectetur.",
-        "Deleted": true,
-        "Rank": 988,
-        "Type": "molestiae",
+        "Id": 420,
+        "Name": "Reichert Group",
+        "ToolTip": "Accusantium itaque iusto.",
+        "Deleted": false,
+        "Rank": 415,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 908,
-        "ExtraInfo": "non",
-        "StyleHint": "sit",
-        "FullName": "Russ Flatley MD",
+        "IconHint": "quisquam",
+        "ColorBlock": 254,
+        "ExtraInfo": "dolores",
+        "StyleHint": "magnam",
+        "FullName": "Bertha Purdy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 504
+            "FieldLength": 352
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 430,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "tenetur",
-    "FullName": "Maggie Jenkins",
+    "IconHint": "voluptatem",
+    "ColorBlock": 497,
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
+    "FullName": "Kaleigh Carson Stroman I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 649
+        "FieldLength": 304
       }
     }
   }

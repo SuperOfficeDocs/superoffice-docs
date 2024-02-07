@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Block, Fadel and Daugherty",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "UdListDefinitionId": 207,
-    "Rank": 115
+    "Id": 879,
+    "Name": "Dooley Inc and Sons",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "UdListDefinitionId": 611,
+    "Rank": 862
   },
   {
-    "Id": 443,
-    "Name": "Block, Fadel and Daugherty",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "UdListDefinitionId": 207,
-    "Rank": 115
+    "Id": 879,
+    "Name": "Dooley Inc and Sons",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "UdListDefinitionId": 611,
+    "Rank": 862
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "O'Hara-Casper",
-    "Tooltip": "laudantium",
-    "Deleted": true,
-    "UdListDefinitionId": 835,
-    "Rank": 374,
+    "Id": 995,
+    "Name": "Crist, Hirthe and Bosco",
+    "Tooltip": "earum",
+    "Deleted": false,
+    "UdListDefinitionId": 999,
+    "Rank": 914,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 424
+        "FieldType": "System.Int32",
+        "FieldLength": 472
       }
     }
   }

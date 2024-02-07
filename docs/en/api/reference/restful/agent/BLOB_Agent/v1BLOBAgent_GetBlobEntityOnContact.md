@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 379
+  "ContactId": 256
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 324,
-  "BlobSize": 817,
-  "Description": "Visionary heuristic challenge",
-  "ExtraInfo": "quia",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "possimus",
-  "OriginalSize": 803,
-  "CreatedDate": "2015-04-16T23:03:55.0481415+02:00",
-  "UpdatedDate": "2018-06-24T23:03:55.0481415+02:00",
+  "BlobId": 998,
+  "BlobSize": 143,
+  "Description": "Decentralized tertiary internet solution",
+  "ExtraInfo": "deleniti",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "quis",
+  "OriginalSize": 987,
+  "CreatedDate": "2013-04-23T16:54:54.6243027+02:00",
+  "UpdatedDate": "2005-05-20T16:54:54.6243027+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "fugiat",
+  "ConceptualType": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 194
     }
   }
 }

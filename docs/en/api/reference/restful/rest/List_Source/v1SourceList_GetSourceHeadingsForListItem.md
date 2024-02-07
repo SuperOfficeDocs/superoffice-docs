@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "DuBuque, Casper and Schultz",
-    "ToolTip": "Est ad quam atque laborum et inventore.",
-    "Deleted": false,
-    "Rank": 888,
-    "Type": "itaque",
-    "ColorBlock": 708,
-    "IconHint": "accusamus",
+    "Id": 349,
+    "Name": "Gutmann-Langosh",
+    "ToolTip": "Maiores dignissimos recusandae nam.",
+    "Deleted": true,
+    "Rank": 692,
+    "Type": "numquam",
+    "ColorBlock": 618,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2002-12-23T23:04:05.9709933+01:00",
+    "LastChanged": "2017-10-10T16:55:31.1027945+02:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Koss Group",
-        "ToolTip": "Excepturi dicta nobis velit et qui voluptate debitis.",
-        "Deleted": false,
-        "Rank": 294,
-        "Type": "qui",
-        "ColorBlock": 740,
-        "IconHint": "consectetur",
+        "Id": 260,
+        "Name": "Rosenbaum Group",
+        "ToolTip": "Reiciendis nihil facere dignissimos est aut nemo quaerat.",
+        "Deleted": true,
+        "Rank": 180,
+        "Type": "dignissimos",
+        "ColorBlock": 431,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "1996-11-27T23:04:05.9709933+01:00",
+        "LastChanged": "1998-05-22T16:55:31.1027945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Maybell Monahan",
+        "ExtraInfo": "in",
+        "StyleHint": "maxime",
+        "Hidden": false,
+        "FullName": "Miss Dave Myriam Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 724
+            "FieldLength": 868
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "commodi",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "harum",
     "Hidden": true,
-    "FullName": "Daren Hilpert",
+    "FullName": "Robert Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldLength": 579
       }
     }
   }

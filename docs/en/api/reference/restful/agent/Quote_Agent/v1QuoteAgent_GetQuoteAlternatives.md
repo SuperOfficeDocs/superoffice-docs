@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 725
+  "QuoteVersionId": 670
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 951,
-    "ERPQuoteAlternativeKey": "non",
-    "QuoteVersionId": 952,
-    "Name": "Jaskolski-McGlynn",
-    "Description": "Operative leading edge contingency",
+    "QuoteAlternativeId": 149,
+    "ERPQuoteAlternativeKey": "hic",
+    "QuoteVersionId": 232,
+    "Name": "Padberg-Ruecker",
+    "Description": "Optimized upward-trending secured line",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 739.624,
-    "ERPDiscountAmount": 11909.199999999999,
-    "DiscountPercent": 25097.072,
-    "DiscountAmount": 20537.102,
+    "ERPDiscountPercent": 686.346,
+    "ERPDiscountAmount": 15760.885999999999,
+    "DiscountPercent": 20208.032,
+    "DiscountAmount": 23830.935999999998,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "omnis",
-    "VAT": 30885.57,
-    "EarningPercent": 22749.706,
-    "EarningAmount": 31205.237999999998,
-    "SubTotal": 18540.744,
-    "TotalPrice": 23050.57,
-    "ExtraField1": "et",
-    "ExtraField2": "voluptatem",
-    "ExtraField3": "sint",
-    "ExtraField4": "delectus",
-    "ExtraField5": "illum",
+    "VATInfo": "unde",
+    "VAT": 19176.946,
+    "EarningPercent": 18625.362,
+    "EarningAmount": 11736.83,
+    "SubTotal": 9768.678,
+    "TotalPrice": 1958.75,
+    "ExtraField1": "delectus",
+    "ExtraField2": "dolor",
+    "ExtraField3": "natus",
+    "ExtraField4": "aliquid",
+    "ExtraField5": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 845
       }
     }
   }

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 136
+  "RoleId": 239
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Fay LLC",
-    "ToolTip": "Explicabo a cum ut quo.",
-    "Deleted": true,
-    "Rank": 113,
-    "Type": "tenetur",
-    "ColorBlock": 940,
-    "IconHint": "explicabo",
-    "Selected": false,
-    "LastChanged": "2022-08-03T23:03:57.552108+02:00",
+    "Id": 1002,
+    "Name": "Jacobson Group",
+    "ToolTip": "Delectus sunt perferendis quia.",
+    "Deleted": false,
+    "Rank": 704,
+    "Type": "quia",
+    "ColorBlock": 543,
+    "IconHint": "saepe",
+    "Selected": true,
+    "LastChanged": "1999-04-26T16:54:56.6542051+02:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Gorczany-Schowalter",
-        "ToolTip": "Esse reiciendis quibusdam.",
+        "Id": 388,
+        "Name": "Crona, Stanton and Champlin",
+        "ToolTip": "Excepturi quis nulla sunt ex a et.",
         "Deleted": false,
-        "Rank": 498,
-        "Type": "quo",
-        "ColorBlock": 770,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2012-08-12T23:03:57.5531074+02:00",
+        "Rank": 962,
+        "Type": "molestiae",
+        "ColorBlock": 802,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "2015-10-10T16:54:56.6542051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "commodi",
+        "ExtraInfo": "qui",
+        "StyleHint": "consectetur",
         "Hidden": false,
-        "FullName": "Montana Tressa Cruickshank V",
+        "FullName": "Marcella Anna Leuschke IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "commodi",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Tillman Schmeler",
+    "FullName": "Dr. Alfredo Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 103
+        "FieldLength": 177
       }
     }
   }

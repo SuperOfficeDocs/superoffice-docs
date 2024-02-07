@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 791,
-    "Name": "Bernier, Gusikowski and Rosenbaum",
-    "Tooltip": "molestiae",
-    "Rank": 356,
-    "Rate": 14739.202,
-    "Units": 24934.104,
+    "CurrencyId": 972,
+    "Name": "Cummings, Pollich and Hegmann",
+    "Tooltip": "eligendi",
+    "Rank": 101,
+    "Rate": 10188.634,
+    "Units": 28804.593999999997,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldType": "System.Int32",
+        "FieldLength": 750
       }
     }
   }

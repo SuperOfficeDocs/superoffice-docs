@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 398,
-  "Name": "Kreiger LLC",
-  "Rank": 890,
-  "Tooltip": "in",
-  "Icon": "quibusdam",
-  "DefaultTicketStatus": 234,
+  "TicketTypeId": 255,
+  "Name": "Rolfson Inc and Sons",
+  "Rank": 763,
+  "Tooltip": "qui",
+  "Icon": "similique",
+  "DefaultTicketStatus": 690,
   "TicketStatuses": [
-    928,
-    283
+    806,
+    912
   ],
-  "DefaultTicketPriority": 469,
+  "DefaultTicketPriority": 295,
   "TicketPriorities": [
-    976,
-    665
+    153,
+    697
   ],
-  "ReplyTemplate": 837,
+  "ReplyTemplate": 936,
   "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 984
     }
   }
 }

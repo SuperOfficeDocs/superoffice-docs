@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 277,
-    "ResourceId": 487,
-    "Text": "porro",
+    "LanguageId": 309,
+    "ResourceId": 912,
+    "Text": "et",
     "Type": "Column",
-    "LocalizedTextId": 563,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 737,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldType": "System.Int32",
+        "FieldLength": 521
       }
     }
   }

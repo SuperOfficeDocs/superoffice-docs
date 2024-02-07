@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Daniel LLC",
-    "ToolTip": "Ut nostrum magni eveniet totam officia.",
+    "Id": 65,
+    "Name": "Borer-Langosh",
+    "ToolTip": "Corrupti dolore soluta.",
     "Deleted": false,
-    "Rank": 368,
-    "Type": "cumque",
-    "ColorBlock": 160,
-    "IconHint": "quis",
+    "Rank": 653,
+    "Type": "voluptatem",
+    "ColorBlock": 310,
+    "IconHint": "sed",
     "Selected": true,
-    "LastChanged": "2012-12-06T23:04:05.352002+01:00",
+    "LastChanged": "2010-11-14T16:55:30.5746941+01:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Greenfelder LLC",
-        "ToolTip": "Assumenda quidem.",
-        "Deleted": true,
-        "Rank": 36,
-        "Type": "provident",
-        "ColorBlock": 122,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2008-06-23T23:04:05.352002+02:00",
+        "Id": 726,
+        "Name": "Hoeger-Sawayn",
+        "ToolTip": "Earum magni magni voluptas doloremque ipsum quis labore.",
+        "Deleted": false,
+        "Rank": 638,
+        "Type": "quia",
+        "ColorBlock": 439,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "2019-12-20T16:55:30.5746941+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "nobis",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Norberto Welch",
+        "FullName": "Kyleigh Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 99
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "quia",
+    "StyleHint": "similique",
     "Hidden": false,
-    "FullName": "Ms. Orpha Homenick IV",
+    "FullName": "Pauline Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldType": "System.String",
+        "FieldLength": 116
       }
     }
   }

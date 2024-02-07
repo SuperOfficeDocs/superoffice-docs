@@ -83,32 +83,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Prosacco-Grant",
-      "Operator": "est",
+      "Name": "Feeney Inc and Sons",
+      "Operator": "aspernatur",
       "Values": [
-        "autem",
-        "qui"
+        "est",
+        "ut"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "non"
+        "eligendi",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 847,
+      "InterParenthesis": 31,
       "InterOperator": "And",
-      "UniqueHash": 953
+      "UniqueHash": 716
     }
   ],
   "Columns": [
-    "omnis",
-    "maiores"
+    "nemo",
+    "et"
   ],
-  "ConnectionId": 771,
+  "ConnectionId": 4,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "deserunt",
-        "et"
+        "cumque",
+        "distinctio"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "maxime",
+      "ExternalKey": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 800
+          "FieldType": "System.Int32",
+          "FieldLength": 252
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Graham, Connelly and Abbott",
-      "DisplayName": "Brekke, Dooley and Bradtke",
+      "Name": "Lebsack, Mraz and Carter",
+      "DisplayName": "Wyman Group",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 283
+          "FieldLength": 835
         }
       }
     },
     {
-      "Name": "Graham, Connelly and Abbott",
-      "DisplayName": "Brekke, Dooley and Bradtke",
+      "Name": "Lebsack, Mraz and Carter",
+      "DisplayName": "Wyman Group",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 283
+          "FieldLength": 835
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 166
     }
   }
 }

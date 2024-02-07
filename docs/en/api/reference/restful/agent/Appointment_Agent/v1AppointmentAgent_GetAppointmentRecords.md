@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 555,
-  "RecurrenceRuleId": 488
+  "MotherId": 69,
+  "RecurrenceRuleId": 582
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 374,
-    "StartDate": "2008-01-09T23:03:54.5856484+01:00",
-    "EndDate": "2015-06-17T23:03:54.5856484+02:00",
+    "AppointmentId": 3,
+    "StartDate": "2007-03-29T16:54:54.2671034+02:00",
+    "EndDate": "2011-04-25T16:54:54.2671034+02:00",
     "Type": "BookingForChecklist",
-    "Task": "explicabo",
-    "AssociateFullName": "Stewart Ratke",
-    "ContactName": "Ortiz, Feest and Nikolaus",
-    "Description": "Reverse-engineered upward-trending hub",
-    "PersonFullName": "Merl Beier",
-    "PersonId": 872,
-    "ContactId": 151,
-    "ProjectId": 612,
-    "ProjectName": "Welch-Hettinger",
-    "IsPublished": true,
-    "AssociateId": 866,
-    "ColorIndex": 637,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "maiores",
+    "AssociateFullName": "Alvis Fisher",
+    "ContactName": "Hilpert, Collier and Kiehn",
+    "Description": "Right-sized assymetric interface",
+    "PersonFullName": "Claudie Kertzmann",
+    "PersonId": 453,
+    "ContactId": 838,
+    "ProjectId": 811,
+    "ProjectName": "Schimmel Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 423,
+    "ColorIndex": 555,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 205,
-    "PriorityName": "Torp, Dibbert and Rosenbaum",
+    "PriorityId": 831,
+    "PriorityName": "Abbott LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-06-12T23:03:54.5861488+02:00",
+    "ActiveDate": "2008-11-29T16:54:54.2671034+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-04-13T23:03:54.5861488+02:00",
-    "RecurringEndDate": "2017-12-24T23:03:54.5861488+01:00",
-    "MotherId": 501,
-    "AssignedBy": 536,
-    "AssignedByFullName": "Sammie Parisian",
+    "RecurringStartDate": "2014-04-26T16:54:54.2671034+02:00",
+    "RecurringEndDate": "2003-06-06T16:54:54.2671034+02:00",
+    "MotherId": 118,
+    "AssignedBy": 798,
+    "AssignedByFullName": "Milford Gavin Cronin I",
     "RejectReason": "",
-    "Location": "neque",
-    "AlarmLeadTime": "ipsa",
-    "SaleId": 63,
-    "SaleName": "Abshire-Reichel",
-    "AssociateName": "Boyer LLC",
-    "CreatedDate": "2010-03-19T23:03:54.5866484+01:00",
-    "CreatedBy": "maiores",
-    "CreatedByFullName": "Prof. Dedrick Brandt Wilderman I",
-    "CreatedByAssociateId": 515,
+    "Location": "saepe",
+    "AlarmLeadTime": "illo",
+    "SaleId": 131,
+    "SaleName": "Rath-Rippin",
+    "AssociateName": "Jakubowski Group",
+    "CreatedDate": "2014-04-07T16:54:54.2671034+02:00",
+    "CreatedBy": "tempora",
+    "CreatedByFullName": "Tillman Boyer II",
+    "CreatedByAssociateId": 951,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 343,
-    "Title": "voluptatem",
-    "Agenda": "commodi",
-    "InternalNotes": "quos",
+    "PreferredTZLocation": 353,
+    "Title": "cumque",
+    "Agenda": "animi",
+    "InternalNotes": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldLength": 260
       }
     }
   }

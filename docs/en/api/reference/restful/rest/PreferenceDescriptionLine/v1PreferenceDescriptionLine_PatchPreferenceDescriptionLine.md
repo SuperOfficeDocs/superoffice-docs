@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "mollitia",
+    "path": "dicta",
     "value": {}
   },
   {
     "op": "add",
-    "path": "mollitia",
+    "path": "dicta",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 990,
-  "PrefDescId": 175,
-  "PrefValue": "earum",
-  "PrefShowValue": "repellendus",
-  "Description": "Vision-oriented system-worthy instruction set",
+  "PrefDescLineId": 26,
+  "PrefDescId": 652,
+  "PrefValue": "sapiente",
+  "PrefShowValue": "sit",
+  "Description": "Cross-platform encompassing pricing structure",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldLength": 354
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

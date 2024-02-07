@@ -69,7 +69,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    323,
-    273
+    780,
+    442
   ],
-  "TargetTableNumber": 436
+  "TargetTableNumber": 683
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic stable customer loyalty",
-  "Postit": "necessitatibus",
+  "Description": "Secured directional solution",
+  "Postit": "doloremque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 388,
-  "IncludePerson": 758,
-  "MemberCount": 665,
-  "Name": "Deckow, Reynolds and McClure",
-  "PostitTextId": 53,
-  "CreatedDate": "2021-07-28T23:03:57.1451152+02:00",
-  "SelectionId": 78,
-  "SoundEx": "suscipit",
-  "Source": 136,
-  "TextId": 557,
-  "UpdatedDate": "2001-11-01T23:03:57.1451152+01:00",
-  "UpdatedCount": 453,
-  "Visibility": 854,
+  "GroupIdx": 87,
+  "IncludePerson": 740,
+  "MemberCount": 22,
+  "Name": "Hermiston Group",
+  "PostitTextId": 176,
+  "CreatedDate": "2001-06-02T16:54:56.3245022+02:00",
+  "SelectionId": 22,
+  "SoundEx": "dignissimos",
+  "Source": 947,
+  "TextId": 533,
+  "UpdatedDate": "2000-07-23T16:54:56.3245022+02:00",
+  "UpdatedCount": 613,
+  "Visibility": 473,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 461,
-  "TargetTableName": "Ryan Inc and Sons",
+  "TargetTableNumber": 82,
+  "TargetTableName": "Daugherty, Weber and Bartoletti",
   "Completed": false,
-  "LeftSelectionId": 527,
-  "RightSelectionId": 31,
+  "LeftSelectionId": 94,
+  "RightSelectionId": 670,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kautzer, Wiza and Koch",
-  "ShadowProviderName": "Lowe LLC",
-  "ChartKey": "dignissimos",
-  "LastLoaded": "2011-05-20T23:03:57.1451152+02:00",
-  "LastLoadedBy": 436,
+  "MainProviderName": "Sporer Group",
+  "ShadowProviderName": "Bernhard, King and Osinski",
+  "ChartKey": "molestiae",
+  "LastLoaded": "1999-01-28T16:54:56.3245022+01:00",
+  "LastLoadedBy": 882,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-09-09T23:03:57.1456159+02:00",
-  "LastMembershipChangeBy": 821,
+  "LastMembershipChange": "2000-08-10T16:54:56.3255022+02:00",
+  "LastMembershipChangeBy": 668,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolores",
-  "MemberTabHeading": "cupiditate",
-  "MailingsProviderName": "Keebler-Moore",
-  "DashboardTileDefinitionId": 256,
+  "MainHeading": "accusamus",
+  "MemberTabHeading": "error",
+  "MailingsProviderName": "Reynolds, Ankunding and Stokes",
+  "DashboardTileDefinitionId": 738,
   "VisibleFor": [
     {
-      "VisibleId": 803,
+      "VisibleId": 654,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 176
+          "FieldLength": 920
         }
       }
     },
     {
-      "VisibleId": 803,
+      "VisibleId": 654,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 176
+          "FieldLength": 920
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   }
 }

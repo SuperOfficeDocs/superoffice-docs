@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 45,
-  "Name": "Hessel, Wolff and Littel",
-  "Tooltip": "expedita",
+  "Id": 120,
+  "Name": "Stokes LLC",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 209,
+  "Rank": 729,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Harris LLC",
-  "Tooltip": "et",
+  "Id": 750,
+  "Name": "Schamberger, Ratke and Dach",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 645,
+  "Rank": 487,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
+  "UseGroupsAndHeadings": false,
   "ListType": "dolorem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   }
 }

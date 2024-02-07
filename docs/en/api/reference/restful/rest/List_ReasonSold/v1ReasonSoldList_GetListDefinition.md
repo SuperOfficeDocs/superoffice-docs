@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Macejkovic, Lemke and Pfannerstill",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 956,
+  "Id": 655,
+  "Name": "Batz LLC",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 53,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 213
     }
   },
   "_Links": {

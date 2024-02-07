@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 505,
-    "Name": "Goodwin Group",
-    "Tooltip": "eaque",
+    "HeadingId": 80,
+    "Name": "Mraz Group",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 612,
-    "UdListDefinitionId": 314,
+    "Rank": 953,
+    "UdListDefinitionId": 14,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldLength": 330
       }
     }
   }

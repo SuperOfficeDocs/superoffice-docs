@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    831,
-    714
+    932,
+    532
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 209,
-    "StartDate": "2005-02-03T23:03:54.5616463+01:00",
-    "EndDate": "2018-12-19T23:03:54.5616463+01:00",
+    "AppointmentId": 780,
+    "StartDate": "2000-12-15T16:54:54.2493801+01:00",
+    "EndDate": "2020-01-25T16:54:54.2493801+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ex",
-    "AssociateFullName": "Mrs. Ardella Abelardo Orn",
-    "ContactName": "Schroeder LLC",
-    "Description": "Right-sized uniform ability",
-    "PersonFullName": "Mrs. Brooks Orie Gislason IV",
-    "PersonId": 455,
-    "ContactId": 209,
-    "ProjectId": 375,
-    "ProjectName": "Padberg Group",
-    "IsPublished": true,
-    "AssociateId": 585,
-    "ColorIndex": 144,
+    "Task": "sit",
+    "AssociateFullName": "Dusty Walsh",
+    "ContactName": "Wolff Inc and Sons",
+    "Description": "Total radical encryption",
+    "PersonFullName": "Jodie Kessler",
+    "PersonId": 338,
+    "ContactId": 459,
+    "ProjectId": 212,
+    "ProjectName": "Gaylord-Bode",
+    "IsPublished": false,
+    "AssociateId": 550,
+    "ColorIndex": 658,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 101,
-    "PriorityName": "Herman Inc and Sons",
+    "PriorityId": 9,
+    "PriorityName": "Volkman, Spencer and Kling",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2002-01-30T23:03:54.562148+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2023-06-30T16:54:54.2503748+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-11-23T23:03:54.562148+01:00",
-    "RecurringEndDate": "2008-11-15T23:03:54.562148+01:00",
-    "MotherId": 226,
-    "AssignedBy": 25,
-    "AssignedByFullName": "Broderick Goodwin",
+    "RecurringStartDate": "2003-12-16T16:54:54.2503748+01:00",
+    "RecurringEndDate": "2020-05-12T16:54:54.2503748+02:00",
+    "MotherId": 525,
+    "AssignedBy": 493,
+    "AssignedByFullName": "Frieda Stiedemann",
     "RejectReason": "",
-    "Location": "aliquam",
-    "AlarmLeadTime": "corrupti",
-    "SaleId": 384,
-    "SaleName": "Pfannerstill, Krajcik and Gulgowski",
-    "AssociateName": "Davis, Terry and Haag",
-    "CreatedDate": "2022-12-19T23:03:54.562148+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Jerrold Batz",
-    "CreatedByAssociateId": 43,
+    "Location": "veritatis",
+    "AlarmLeadTime": "labore",
+    "SaleId": 420,
+    "SaleName": "O'Kon-Crist",
+    "AssociateName": "Wintheiser LLC",
+    "CreatedDate": "2009-01-07T16:54:54.2503748+01:00",
+    "CreatedBy": "aliquid",
+    "CreatedByFullName": "Justine O'Reilly",
+    "CreatedByAssociateId": 462,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 480,
-    "Title": "eius",
-    "Agenda": "et",
-    "InternalNotes": "exercitationem",
+    "PreferredTZLocation": 195,
+    "Title": "accusamus",
+    "Agenda": "optio",
+    "InternalNotes": "iste",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 415
       }
     }
   }

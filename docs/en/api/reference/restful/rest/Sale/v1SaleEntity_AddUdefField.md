@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 83,
-  "ColumnId": 591,
-  "FieldDefault": "id",
-  "FieldHeight": 534,
-  "FieldLabel": "quia",
-  "FieldLeft": 489,
-  "FieldTop": 874,
+  "UDefFieldId": 734,
+  "ColumnId": 723,
+  "FieldDefault": "amet",
+  "FieldHeight": 851,
+  "FieldLabel": "saepe",
+  "FieldLeft": 709,
+  "FieldTop": 255,
   "FieldType": "Checkbox",
-  "FieldWidth": 634,
-  "FormatMask": "in",
+  "FieldWidth": 563,
+  "FormatMask": "debitis",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 779,
-  "LabelLeft": 278,
-  "LabelTop": 439,
-  "LabelWidth": 887,
-  "LastVersionId": 678,
-  "ListTableId": 141,
+  "IsIndexed": true,
+  "LabelHeight": 911,
+  "LabelLeft": 574,
+  "LabelTop": 564,
+  "LabelWidth": 301,
+  "LastVersionId": 560,
+  "ListTableId": 200,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 235,
-  "ProgId": "sapiente",
+  "Page1LineNo": 473,
+  "ProgId": "aperiam",
   "IsReadOnly": false,
-  "ShortLabel": "animi",
-  "TabOrder": 506,
-  "TextLength": 684,
-  "Tooltip": "voluptatum",
-  "UdefIdentity": 902,
-  "UDListDefinitionId": 874,
+  "ShortLabel": "est",
+  "TabOrder": 65,
+  "TextLength": 44,
+  "Tooltip": "ab",
+  "UdefIdentity": 447,
+  "UDListDefinitionId": 759,
   "Justification": "Center",
-  "Version": 24,
-  "TemplateVariableName": "Yundt-Brekke",
-  "HasBeenPublished": true,
-  "MdoListName": "Aufderhar-Koepp",
+  "Version": 230,
+  "TemplateVariableName": "Boehm LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Wisozk-Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 497
+      "FieldType": "System.Int32",
+      "FieldLength": 721
     }
   }
 }

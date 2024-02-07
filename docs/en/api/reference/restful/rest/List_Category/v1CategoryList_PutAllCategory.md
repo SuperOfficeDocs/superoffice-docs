@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Quitzon-Wisoky",
-    "Tooltip": "voluptatem",
+    "Id": 743,
+    "Name": "Ernser-Dare",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "UdListDefinitionId": 463,
-    "Rank": 48
+    "UdListDefinitionId": 71,
+    "Rank": 1000
   },
   {
-    "Id": 317,
-    "Name": "Quitzon-Wisoky",
-    "Tooltip": "voluptatem",
+    "Id": 743,
+    "Name": "Ernser-Dare",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "UdListDefinitionId": 463,
-    "Rank": 48
+    "UdListDefinitionId": 71,
+    "Rank": 1000
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Hoeger-Treutel",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "UdListDefinitionId": 68,
-    "Rank": 111,
+    "Id": 454,
+    "Name": "Olson, Beier and Schaefer",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 248,
+    "Rank": 798,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 897
+        "FieldType": "System.Int32",
+        "FieldLength": 414
       }
     }
   }

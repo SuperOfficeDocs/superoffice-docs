@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 167,
-    "Tooltip": "ipsa",
-    "CanAssign": false,
-    "Free": 887,
-    "InUse": 937,
+    "Total": 970,
+    "Tooltip": "saepe",
+    "CanAssign": true,
+    "Free": 913,
+    "InUse": 244,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 113,
-    "Name": "Fahey Inc and Sons",
-    "Description": "Profit-focused leading edge approach",
-    "PrerequisiteModuleName": "Kunze-Corkery",
-    "SortOrder": 544,
-    "ExtraFlags": 851,
+    "ModuleLicenseId": 231,
+    "Name": "Skiles Inc and Sons",
+    "Description": "Adaptive local capacity",
+    "PrerequisiteModuleName": "Collins Inc and Sons",
+    "SortOrder": 510,
+    "ExtraFlags": 573,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 643
       }
     }
   }

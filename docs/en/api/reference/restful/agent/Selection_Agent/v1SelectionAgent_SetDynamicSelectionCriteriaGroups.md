@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 981,
+  "SelectionId": 405,
   "Criteria": [
     {
-      "Name": "Kozey LLC",
-      "Description": "Virtual discrete parallelism",
-      "Rank": 289,
+      "Name": "Gutmann Group",
+      "Description": "Progressive executive product",
+      "Rank": 191,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kozey LLC",
-      "Description": "Virtual discrete parallelism",
-      "Rank": 289,
+      "Name": "Gutmann Group",
+      "Description": "Progressive executive product",
+      "Rank": 191,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mertz-Rau",
-    "Description": "Public-key bi-directional attitude",
-    "Rank": 130,
+    "Name": "Fisher-Rohan",
+    "Description": "Face to face homogeneous groupware",
+    "Rank": 781,
     "Restrictions": [
       {
-        "Name": "Bradtke LLC",
-        "Operator": "amet",
+        "Name": "Kozey Inc and Sons",
+        "Operator": "perspiciatis",
         "Values": [
-          "sed",
-          "illo"
+          "maxime",
+          "maxime"
         ],
         "DisplayValues": [
-          "autem",
-          "voluptatibus"
+          "et",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 173,
+        "InterParenthesis": 927,
         "InterOperator": "And",
-        "UniqueHash": 261
+        "UniqueHash": 682
       }
     ]
   },
   {
-    "Name": "Mertz-Rau",
-    "Description": "Public-key bi-directional attitude",
-    "Rank": 130,
+    "Name": "Fisher-Rohan",
+    "Description": "Face to face homogeneous groupware",
+    "Rank": 781,
     "Restrictions": [
       {
-        "Name": "Bradtke LLC",
-        "Operator": "amet",
+        "Name": "Kozey Inc and Sons",
+        "Operator": "perspiciatis",
         "Values": [
-          "sed",
-          "illo"
+          "maxime",
+          "maxime"
         ],
         "DisplayValues": [
-          "autem",
-          "voluptatibus"
+          "et",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 173,
+        "InterParenthesis": 927,
         "InterOperator": "And",
-        "UniqueHash": 261
+        "UniqueHash": 682
       }
     ]
   }

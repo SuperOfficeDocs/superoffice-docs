@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 188,
-  "PlainMessage": "ad",
-  "HtmlMessage": "est",
-  "SmsMessage": "quaerat",
-  "Description": "Vision-oriented clear-thinking workforce",
-  "Subject": "ut",
-  "FolderId": 315,
-  "HeaderField": "sit",
-  "Design": "qui",
+  "ShipmentMessageId": 388,
+  "PlainMessage": "odit",
+  "HtmlMessage": "eius",
+  "SmsMessage": "dolorem",
+  "Description": "Inverse multi-state workforce",
+  "Subject": "molestiae",
+  "FolderId": 351,
+  "HeaderField": "illo",
+  "Design": "occaecati",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Down-sized client-server projection",
-  "AccessKey": "laboriosam",
-  "DocumentMessage": 53,
-  "Registered": "2001-06-09T23:03:56.3276245+02:00",
-  "RegisteredAssociateId": 767,
-  "Updated": "2009-07-20T23:03:56.3276245+02:00",
-  "UpdatedAssociateId": 616,
-  "UpdatedCount": 783
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Mandatory heuristic structure",
+  "AccessKey": "adipisci",
+  "DocumentMessage": 590,
+  "Registered": "2002-06-03T16:54:55.6489923+02:00",
+  "RegisteredAssociateId": 755,
+  "Updated": "2019-08-11T16:54:55.6489923+02:00",
+  "UpdatedAssociateId": 185,
+  "UpdatedCount": 622
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 303,
-  "PlainMessage": "et",
-  "HtmlMessage": "et",
-  "SmsMessage": "ab",
-  "Description": "Quality-focused actuating alliance",
-  "Subject": "vitae",
-  "FolderId": 939,
-  "HeaderField": "ipsa",
-  "Design": "praesentium",
+  "ShipmentMessageId": 519,
+  "PlainMessage": "similique",
+  "HtmlMessage": "dolorum",
+  "SmsMessage": "pariatur",
+  "Description": "Polarised foreground encoding",
+  "Subject": "eligendi",
+  "FolderId": 699,
+  "HeaderField": "ex",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Seamless actuating support",
-  "AccessKey": "voluptas",
-  "DocumentMessage": 719,
-  "Registered": "2010-12-17T23:03:56.328124+01:00",
-  "RegisteredAssociateId": 385,
-  "Updated": "2005-08-08T23:03:56.328124+02:00",
-  "UpdatedAssociateId": 269,
-  "UpdatedCount": 433,
+  "InlineImages": true,
+  "LongDescription": "Visionary 5th generation encryption",
+  "AccessKey": "dignissimos",
+  "DocumentMessage": 645,
+  "Registered": "2002-06-14T16:54:55.6499933+02:00",
+  "RegisteredAssociateId": 19,
+  "Updated": "2013-05-15T16:54:55.6499933+02:00",
+  "UpdatedAssociateId": 797,
+  "UpdatedCount": 685,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 943
     }
   }
 }

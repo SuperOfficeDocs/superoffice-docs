@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 83
+  "ChatSessionId": 324
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 582,
-  "TopicId": 933,
+  "ChatSessionId": 125,
+  "TopicId": 878,
   "User": null,
   "Person": null,
-  "CustomerAlias": "accusamus",
-  "CustomerHost": "eos",
-  "CustomerName": "Nicolas LLC",
-  "CustomerEmail": "rosanna.schuster@klingyost.biz",
-  "CustomerPhone": "744.788.3700 x969",
+  "CustomerAlias": "reprehenderit",
+  "CustomerHost": "animi",
+  "CustomerName": "Berge, Lebsack and Lynch",
+  "CustomerEmail": "russ@ornkunze.biz",
+  "CustomerPhone": "042-541-0669 x7793",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Renner, Runte and Corkery",
+  "CustomerCompanyName": "Simonis Group",
   "Status": "Closed",
-  "FirstMessage": "omnis",
-  "LastMessage": "ut",
-  "WhenRequested": "2016-12-16T23:03:55.1896396+01:00",
-  "WhenStarted": "2014-07-25T23:03:55.1896396+02:00",
-  "WhenEnded": "2010-11-29T23:03:55.1896396+01:00",
-  "WhenIdle": "2013-09-04T23:03:55.1896396+02:00",
-  "WhenFetched": "2006-10-25T23:03:55.1896396+02:00",
-  "SessionKey": "impedit",
-  "InitialQueuePos": 580,
-  "AlertLevel": 641,
-  "Rank": 319,
+  "FirstMessage": "nobis",
+  "LastMessage": "sequi",
+  "WhenRequested": "2004-11-24T16:54:54.8561705+01:00",
+  "WhenStarted": "2008-12-11T16:54:54.8561705+01:00",
+  "WhenEnded": "1998-05-14T16:54:54.8561705+02:00",
+  "WhenIdle": "2003-03-15T16:54:54.8561705+01:00",
+  "WhenFetched": "2012-04-05T16:54:54.8561705+02:00",
+  "SessionKey": "voluptas",
+  "InitialQueuePos": 131,
+  "AlertLevel": 51,
+  "Rank": 10,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 604,
+  "Rating": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldLength": 735
     }
   }
 }

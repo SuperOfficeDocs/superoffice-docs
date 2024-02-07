@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 464,
-    "Comment": "sed",
-    "Registered": "2022-08-13T23:04:04.3545146+02:00",
-    "RegisteredAssociateId": 6,
-    "Updated": "1997-06-12T23:04:04.3545146+02:00",
-    "UpdatedAssociateId": 86,
-    "LegalBaseId": 793,
-    "LegalBaseKey": "quibusdam",
-    "LegalBaseName": "Barton LLC",
-    "ConsentPurposeId": 331,
-    "ConsentPurposeKey": "nemo",
-    "ConsentPurposeName": "Hoeger LLC",
-    "ConsentSourceId": 61,
-    "ConsentSourceKey": "quo",
-    "ConsentSourceName": "O'Keefe-Hayes",
+    "ConsentPersonId": 655,
+    "Comment": "eveniet",
+    "Registered": "1998-05-01T16:55:29.8925202+02:00",
+    "RegisteredAssociateId": 665,
+    "Updated": "2010-05-26T16:55:29.8925202+02:00",
+    "UpdatedAssociateId": 343,
+    "LegalBaseId": 496,
+    "LegalBaseKey": "autem",
+    "LegalBaseName": "Rutherford LLC",
+    "ConsentPurposeId": 366,
+    "ConsentPurposeKey": "quod",
+    "ConsentPurposeName": "Schinner-Okuneva",
+    "ConsentSourceId": 690,
+    "ConsentSourceKey": "debitis",
+    "ConsentSourceName": "Douglas-Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 40
       }
     }
   }

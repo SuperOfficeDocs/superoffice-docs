@@ -93,19 +93,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 174,
-  "Name": "Monahan, Kihn and Keeling",
-  "Tooltip": "earum",
-  "TableName": "Jewess-Homenick",
-  "Area": "in",
+  "TaskMenuId": 204,
+  "Name": "Kuvalis-Bruen",
+  "Tooltip": "accusantium",
+  "TableName": "Zieme-Spinka",
+  "Area": "est",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 88,
+  "CrmScriptId": 317,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 41,
+  "Rank": 463,
   "Encoding": "ANSI",
-  "ProgId": "corporis",
+  "ProgId": "molestiae",
   "Deleted": false
 }
 ```
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 917,
-  "Name": "Larkin-Swift",
-  "Tooltip": "rerum",
-  "TableName": "Daniel, Kris and Mann",
-  "Area": "in",
+  "TaskMenuId": 80,
+  "Name": "Mayer LLC",
+  "Tooltip": "velit",
+  "TableName": "Pagac-Watsica",
+  "Area": "debitis",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 19,
+  "CrmScriptId": 486,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 325,
+  "Rank": 316,
   "Encoding": "ANSI",
-  "ProgId": "placeat",
-  "Deleted": false,
+  "ProgId": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 236
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -89,7 +89,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 1000,
+  "TicketId": 223,
   "MessageIds": [
-    639,
-    768
+    141,
+    354
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 885,
+    "EjMessageId": 433,
     "Ticket": null,
-    "CreatedAt": "1998-11-10T23:03:57.4296205+01:00",
+    "CreatedAt": "2020-01-31T16:54:56.5602908+01:00",
     "CreatedBy": null,
-    "Author": "porro",
+    "Author": "fuga",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "quia",
-    "TimeSpent": 754,
-    "Body": "possimus",
-    "HtmlBody": "tenetur",
-    "EmailHeader": "emil.leannon@borer.com",
-    "DebugInfo": "esse",
-    "MailSorter": "molestias",
+    "MessageId": "sed",
+    "TimeSpent": 791,
+    "Body": "et",
+    "HtmlBody": "ut",
+    "EmailHeader": "trey@schoenpacocha.com",
+    "DebugInfo": "qui",
+    "MailSorter": "aliquid",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "eos",
+    "SearchTitle": "suscipit",
     "MessageHeaders": [
       {
-        "Id": 924,
-        "Name": "Anderson, Schultz and Mitchell",
-        "Value": "assumenda",
+        "Id": 987,
+        "Name": "Conroy-Weimann",
+        "Value": "non",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,49 +148,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 608
+            "FieldLength": 369
           }
         }
       }
     ],
     "Important": true,
-    "Language": "vel",
-    "Sentiment": 325,
-    "SentimentConfidence": 897,
+    "Language": "laborum",
+    "Sentiment": 613,
+    "SentimentConfidence": 852,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 113,
-        "Name": "Beahan-Rempel",
-        "ContentType": "enim",
-        "AttSize": 502,
+        "AttachmentId": 73,
+        "Name": "Kirlin, Hand and Olson",
+        "ContentType": "velit",
+        "AttSize": 775,
         "InlineImage": true,
-        "ContentId": "et",
-        "AuthKey": "est",
+        "ContentId": "molestiae",
+        "AuthKey": "enim",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldLength": 530
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "ut",
-      "ExtraFields2": "deleniti"
+      "ExtraFields1": "sed",
+      "ExtraFields2": "quidem"
     },
     "CustomFields": {
-      "CustomFields1": "quo",
-      "CustomFields2": "suscipit"
+      "CustomFields1": "blanditiis",
+      "CustomFields2": "non"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 981
       }
     }
   }

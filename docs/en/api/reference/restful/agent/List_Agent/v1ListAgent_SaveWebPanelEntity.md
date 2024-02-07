@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 3,
-  "Name": "Bergstrom, Zieme and Feest",
-  "Tooltip": "perferendis",
+  "WebPanelId": 16,
+  "Name": "Hahn Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 63,
+  "Rank": 478,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Kessler Inc and Sons",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Ullrich-Keebler",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 973,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "earum",
+  "Icon": 807,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 561,
-  "Name": "Heller LLC",
-  "Tooltip": "velit",
+  "WebPanelId": 545,
+  "Name": "Borer, Runte and Dibbert",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 952,
+  "Rank": 464,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Ryan, Weber and Lehner",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Pagac, Wolf and Eichmann",
   "Url": "http://www.example.com/",
-  "ProgId": "aliquam",
-  "Icon": 809,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "dolores",
+  "Icon": 406,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 569
     }
   }
 }

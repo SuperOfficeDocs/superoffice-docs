@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Kling Group",
-    "Reynolds-Lesch"
+    "Rutherford-Jacobi",
+    "Gerhold, Franecki and Schaefer"
   ]
 }
 ```
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 542,
-    "Id": 202,
-    "HistoryName": "Casper Group",
-    "HistoryId": 421,
-    "AssociateId": 536,
-    "Name": "Willms, Cummings and Tromp",
-    "ItemInfo": "et",
+    "Rank": 840,
+    "Id": 270,
+    "HistoryName": "Purdy, Metz and Stehr",
+    "HistoryId": 302,
+    "AssociateId": 457,
+    "Name": "Stanton-Connelly",
+    "ItemInfo": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 599
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   }

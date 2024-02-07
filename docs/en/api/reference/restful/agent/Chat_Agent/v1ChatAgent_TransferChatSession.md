@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 133,
-  "ToAssociate": "quo"
+  "ChatSessionId": 633,
+  "ToAssociate": "et"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 544,
-  "TopicId": 997,
+  "ChatSessionId": 791,
+  "TopicId": 711,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "illo",
-  "CustomerName": "Olson, Farrell and Bartell",
-  "CustomerEmail": "brisa@lowe.com",
-  "CustomerPhone": "1-370-435-4557 x82852",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Botsford LLC",
+  "CustomerAlias": "ullam",
+  "CustomerHost": "facilis",
+  "CustomerName": "Olson Inc and Sons",
+  "CustomerEmail": "phoebe@homenick.info",
+  "CustomerPhone": "807.561.7597 x14103",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Kozey-Gorczany",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "beatae",
-  "WhenRequested": "2022-05-18T23:03:55.1291407+02:00",
-  "WhenStarted": "2004-07-08T23:03:55.1291407+02:00",
-  "WhenEnded": "2004-02-29T23:03:55.1291407+01:00",
-  "WhenIdle": "2012-05-28T23:03:55.1291407+02:00",
-  "WhenFetched": "2015-04-22T23:03:55.1291407+02:00",
-  "SessionKey": "minus",
-  "InitialQueuePos": 188,
-  "AlertLevel": 743,
-  "Rank": 36,
+  "FirstMessage": "nihil",
+  "LastMessage": "et",
+  "WhenRequested": "2004-09-13T16:54:54.6898212+02:00",
+  "WhenStarted": "2015-11-17T16:54:54.6898212+01:00",
+  "WhenEnded": "2007-02-15T16:54:54.6898212+01:00",
+  "WhenIdle": "2010-04-10T16:54:54.6898212+02:00",
+  "WhenFetched": "2016-11-16T16:54:54.6898212+01:00",
+  "SessionKey": "excepturi",
+  "InitialQueuePos": 163,
+  "AlertLevel": 447,
+  "Rank": 689,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 947,
+  "Rating": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

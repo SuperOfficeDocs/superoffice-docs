@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 846,
-  "Name": "Orn LLC",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 411,
-  "Rank": 343,
+  "Id": 437,
+  "Name": "Stamm-Larkin",
+  "Tooltip": "at",
+  "Deleted": true,
+  "UdListDefinitionId": 892,
+  "Rank": 637,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

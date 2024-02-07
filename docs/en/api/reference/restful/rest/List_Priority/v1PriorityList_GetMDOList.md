@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=eaque
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=porro
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Corkery, Towne and Schiller",
-    "ToolTip": "Veniam ipsam sit sed rem.",
+    "Id": 397,
+    "Name": "Brakus Inc and Sons",
+    "ToolTip": "Sunt voluptas nihil deleniti et totam unde dolor.",
     "Deleted": false,
-    "Rank": 971,
-    "Type": "quo",
+    "Rank": 863,
+    "Type": "repellat",
     "ChildItems": [
       {
-        "Id": 830,
-        "Name": "Hegmann-Olson",
-        "ToolTip": "Architecto nisi.",
-        "Deleted": false,
-        "Rank": 319,
-        "Type": "quisquam",
+        "Id": 739,
+        "Name": "Weimann LLC",
+        "ToolTip": "Culpa nobis eaque exercitationem consectetur.",
+        "Deleted": true,
+        "Rank": 840,
+        "Type": "saepe",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 722,
-        "ExtraInfo": "repellat",
-        "StyleHint": "explicabo",
-        "FullName": "Mrs. Mazie Watson Osinski MD",
+        "IconHint": "neque",
+        "ColorBlock": 454,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "ea",
+        "FullName": "Estella Bartell DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 905
+            "FieldType": "System.String",
+            "FieldLength": 212
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 823,
-    "ExtraInfo": "sed",
-    "StyleHint": "tenetur",
-    "FullName": "Gerhard Reinger",
+    "IconHint": "voluptas",
+    "ColorBlock": 508,
+    "ExtraInfo": "eaque",
+    "StyleHint": "quia",
+    "FullName": "Ardith Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldType": "System.String",
+        "FieldLength": 121
       }
     }
   }

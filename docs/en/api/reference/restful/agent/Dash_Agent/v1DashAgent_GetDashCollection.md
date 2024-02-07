@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 332,
-      "UniqueId": "et",
-      "Name": "Stanton Group",
-      "Description": "Open-architected cohesive circuit",
-      "AssociateId": 101,
-      "Columns": 491,
+      "DashboardId": 270,
+      "UniqueId": "quas",
+      "Name": "Abshire Inc and Sons",
+      "Description": "Enterprise-wide multi-tasking complexity",
+      "AssociateId": 120,
+      "Columns": 52,
       "Theme": null,
-      "VisibleForAll": 981,
+      "VisibleForAll": 136,
       "VisibleForAssociates": [
-        619,
-        582
+        527,
+        82
       ],
       "VisibleForGroups": [
-        227,
-        575
+        893,
+        661
       ],
-      "PinForAll": 987,
+      "PinForAll": 426,
       "PinForAssociates": [
-        777,
-        89
+        120,
+        867
       ],
       "PinForGroups": [
-        790,
-        419
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 882
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 778,
-      "UniqueId": "praesentium",
-      "Name": "Botsford Inc and Sons",
-      "Description": "Secured value-added benchmark",
-      "AssociateId": 776,
-      "Columns": 927,
-      "Theme": null,
-      "VisibleForAll": 367,
-      "VisibleForAssociates": [
-        337,
-        312
-      ],
-      "VisibleForGroups": [
-        624,
-        677
-      ],
-      "PinForAll": 648,
-      "PinForAssociates": [
-        773,
-        266
-      ],
-      "PinForGroups": [
-        214,
-        606
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 584
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 784,
-      "UniqueId": "corrupti",
-      "Name": "Bergnaum-Parker",
-      "Description": "Distributed optimal emulation",
-      "AssociateId": 208,
-      "Columns": 694,
-      "Theme": null,
-      "VisibleForAll": 462,
-      "VisibleForAssociates": [
-        678,
-        115
-      ],
-      "VisibleForGroups": [
-        784,
-        806
-      ],
-      "PinForAll": 267,
-      "PinForAssociates": [
-        125,
-        569
-      ],
-      "PinForGroups": [
-        921,
-        153
+        117,
+        588
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 699
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 366,
+      "UniqueId": "illum",
+      "Name": "Satterfield-Treutel",
+      "Description": "Assimilated radical circuit",
+      "AssociateId": 283,
+      "Columns": 949,
+      "Theme": null,
+      "VisibleForAll": 210,
+      "VisibleForAssociates": [
+        639,
+        331
+      ],
+      "VisibleForGroups": [
+        446,
+        555
+      ],
+      "PinForAll": 297,
+      "PinForAssociates": [
+        173,
+        115
+      ],
+      "PinForGroups": [
+        232,
+        593
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 838
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 680,
+      "UniqueId": "inventore",
+      "Name": "Willms Group",
+      "Description": "Reverse-engineered bottom-line info-mediaries",
+      "AssociateId": 790,
+      "Columns": 571,
+      "Theme": null,
+      "VisibleForAll": 566,
+      "VisibleForAssociates": [
+        566,
+        237
+      ],
+      "VisibleForGroups": [
+        827,
+        440
+      ],
+      "PinForAll": 518,
+      "PinForAssociates": [
+        735,
+        945
+      ],
+      "PinForGroups": [
+        616,
+        211
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 145
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   }
 }

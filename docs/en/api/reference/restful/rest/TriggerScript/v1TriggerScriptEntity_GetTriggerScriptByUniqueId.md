@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 57,
-  "Name": "Crooks-Jewess",
+  "ScreenChooserId": 688,
+  "Name": "Monahan, Flatley and Johnson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "facere",
-  "Source": "fugit",
-  "Registered": "2010-01-13T23:04:05.0015069+01:00",
-  "RegisteredAssociateId": 246,
-  "Updated": "2011-02-27T23:04:05.0015069+01:00",
-  "UpdatedAssociateId": 457,
+  "UniqueIdentifier": "culpa",
+  "Source": "ut",
+  "Registered": "2010-10-19T16:55:30.3168148+02:00",
+  "RegisteredAssociateId": 195,
+  "Updated": "2016-01-13T16:55:30.3168148+01:00",
+  "UpdatedAssociateId": 989,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 805
     }
   }
 }

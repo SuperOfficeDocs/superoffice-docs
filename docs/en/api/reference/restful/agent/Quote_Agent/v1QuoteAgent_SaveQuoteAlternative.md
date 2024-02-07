@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 994,
-  "ERPQuoteAlternativeKey": "dignissimos",
-  "QuoteVersionId": 898,
-  "Name": "Olson Group",
-  "Description": "Cross-group optimal implementation",
+  "QuoteAlternativeId": 531,
+  "ERPQuoteAlternativeKey": "fugit",
+  "QuoteVersionId": 884,
+  "Name": "O'Kon Inc and Sons",
+  "Description": "Reduced interactive emulation",
   "Status": "Error",
-  "Reason": "leverage world-class ROI",
-  "ERPDiscountPercent": 19954.178,
-  "ERPDiscountAmount": 1410.3,
-  "DiscountPercent": 20032.528,
-  "DiscountAmount": 29384.384,
+  "Reason": "",
+  "ERPDiscountPercent": 13799.002,
+  "ERPDiscountAmount": 25551.502,
+  "DiscountPercent": 1454.176,
+  "DiscountAmount": 8762.6639999999989,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptatum",
-  "VAT": 2228.274,
-  "EarningPercent": 18236.746,
-  "EarningAmount": 2848.806,
-  "SubTotal": 19465.273999999998,
-  "TotalPrice": 15033.797999999999,
-  "ExtraField1": "provident",
-  "ExtraField2": "et",
-  "ExtraField3": "maxime",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "et"
+  "VATInfo": "rerum",
+  "VAT": 21195.242,
+  "EarningPercent": 22649.417999999998,
+  "EarningAmount": 4346.858,
+  "SubTotal": 8841.014,
+  "TotalPrice": 24175.676,
+  "ExtraField1": "et",
+  "ExtraField2": "facilis",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "qui",
+  "ExtraField5": "ut"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 93,
-  "ERPQuoteAlternativeKey": "laudantium",
-  "QuoteVersionId": 361,
-  "Name": "Trantow-Champlin",
-  "Description": "Open-architected solution-oriented groupware",
+  "QuoteAlternativeId": 163,
+  "ERPQuoteAlternativeKey": "molestiae",
+  "QuoteVersionId": 858,
+  "Name": "Swift LLC",
+  "Description": "Right-sized national definition",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 14535.492,
-  "ERPDiscountAmount": 17399.968,
-  "DiscountPercent": 18525.074,
-  "DiscountAmount": 15820.431999999999,
+  "ERPDiscountPercent": 5973.4039999999995,
+  "ERPDiscountAmount": 8204.812,
+  "DiscountPercent": 19690.922,
+  "DiscountAmount": 25507.626,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quae",
-  "VAT": 29020.84,
-  "EarningPercent": 30008.05,
-  "EarningAmount": 15638.66,
-  "SubTotal": 14256.565999999999,
-  "TotalPrice": 25911.912,
-  "ExtraField1": "voluptate",
-  "ExtraField2": "temporibus",
-  "ExtraField3": "cupiditate",
-  "ExtraField4": "et",
-  "ExtraField5": "necessitatibus",
+  "VATInfo": "reiciendis",
+  "VAT": 10386.076,
+  "EarningPercent": 27250.129999999997,
+  "EarningAmount": 19781.808,
+  "SubTotal": 27193.718,
+  "TotalPrice": 517.11,
+  "ExtraField1": "vel",
+  "ExtraField2": "libero",
+  "ExtraField3": "vel",
+  "ExtraField4": "dolorum",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 923
     }
   }
 }

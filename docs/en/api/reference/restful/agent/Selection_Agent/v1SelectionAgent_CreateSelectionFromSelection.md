@@ -71,7 +71,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 394,
-  "Name": "Kunde, Satterfield and Schuster",
+  "SelectionId": 962,
+  "Name": "Blick LLC",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic analyzing model",
-  "Postit": "nisi",
+  "Description": "Pre-emptive fresh-thinking leverage",
+  "Postit": "modi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 679,
-  "IncludePerson": 34,
-  "MemberCount": 768,
-  "Name": "Casper, Rogahn and Yost",
-  "PostitTextId": 396,
-  "CreatedDate": "2003-11-02T23:03:57.1506148+01:00",
-  "SelectionId": 827,
-  "SoundEx": "esse",
-  "Source": 879,
-  "TextId": 493,
-  "UpdatedDate": "2015-02-15T23:03:57.1506148+01:00",
-  "UpdatedCount": 738,
-  "Visibility": 162,
+  "GroupIdx": 702,
+  "IncludePerson": 375,
+  "MemberCount": 193,
+  "Name": "Volkman, McKenzie and Schroeder",
+  "PostitTextId": 196,
+  "CreatedDate": "2007-10-08T16:54:56.3285019+02:00",
+  "SelectionId": 935,
+  "SoundEx": "qui",
+  "Source": 781,
+  "TextId": 16,
+  "UpdatedDate": "2002-10-12T16:54:56.3285019+02:00",
+  "UpdatedCount": 727,
+  "Visibility": 815,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 955,
-  "TargetTableName": "Gleason-Ondricka",
-  "Completed": false,
-  "LeftSelectionId": 806,
-  "RightSelectionId": 38,
+  "TargetTableNumber": 698,
+  "TargetTableName": "Cremin-Hansen",
+  "Completed": true,
+  "LeftSelectionId": 277,
+  "RightSelectionId": 441,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Osinski LLC",
-  "ShadowProviderName": "Walter, Deckow and DuBuque",
-  "ChartKey": "amet",
-  "LastLoaded": "2017-03-06T23:03:57.1506148+01:00",
-  "LastLoadedBy": 52,
+  "MainProviderName": "Blick Inc and Sons",
+  "ShadowProviderName": "Herzog Group",
+  "ChartKey": "rerum",
+  "LastLoaded": "1998-01-24T16:54:56.3285019+01:00",
+  "LastLoadedBy": 526,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-04-01T23:03:57.1506148+02:00",
-  "LastMembershipChangeBy": 576,
+  "LastMembershipChange": "2014-08-29T16:54:56.3295025+02:00",
+  "LastMembershipChangeBy": 227,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "minus",
-  "MemberTabHeading": "autem",
-  "MailingsProviderName": "Blanda, Bogan and Stiedemann",
-  "DashboardTileDefinitionId": 602,
+  "MainHeading": "est",
+  "MemberTabHeading": "aliquid",
+  "MailingsProviderName": "Schmeler, Daniel and Hansen",
+  "DashboardTileDefinitionId": 538,
   "VisibleFor": [
     {
-      "VisibleId": 692,
+      "VisibleId": 724,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 516
+          "FieldType": "System.String",
+          "FieldLength": 920
         }
       }
     },
     {
-      "VisibleId": 692,
+      "VisibleId": 724,
       "Visibility": "All",
-      "DisplayValue": "dolorum",
+      "DisplayValue": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 516
+          "FieldType": "System.String",
+          "FieldLength": 920
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 388
     }
   }
 }

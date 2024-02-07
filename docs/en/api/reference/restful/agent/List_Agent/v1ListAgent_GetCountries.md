@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 315,
-    "Name": "Hauck LLC",
-    "CurrencyId": 385,
-    "EnglishName": "Labadie, Pfeffer and Effertz",
+    "CountryId": 108,
+    "Name": "Schumm, Stiedemann and Ullrich",
+    "CurrencyId": 756,
+    "EnglishName": "Fadel-Reynolds",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "De-engineered even-keeled architecture",
-    "OrgNrText": "868153",
-    "InterAreaPrefix": "quo",
-    "DialInPrefix": "est",
-    "ZipPrefix": "voluptatem",
-    "DomainName": "Dickens, Wuckert and Smith",
-    "AddressLayoutId": 83,
-    "DomesticAddressLayoutId": 734,
-    "ForeignAddressLayoutId": 881,
-    "Rank": 698,
-    "Tooltip": "sunt",
-    "Deleted": true,
+    "ImageDescription": "Adaptive needs-based encryption",
+    "OrgNrText": "367309",
+    "InterAreaPrefix": "qui",
+    "DialInPrefix": "et",
+    "ZipPrefix": "quis",
+    "DomainName": "Yost, Konopelski and Hamill",
+    "AddressLayoutId": 4,
+    "DomesticAddressLayoutId": 103,
+    "ForeignAddressLayoutId": 836,
+    "Rank": 89,
+    "Tooltip": "sit",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldLength": 875
       }
     }
   }

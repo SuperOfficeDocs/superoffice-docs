@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 633
+  "ContactId": 367
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hickle-Rowe",
-    "SaleDate": "2010-09-25T23:03:56.9271233+02:00",
-    "SaleId": 19,
-    "Probability": 522,
-    "Title": "autem",
-    "Amount": 28566.41,
-    "Currency": "ut",
-    "ProjectName": "Dietrich, Abshire and Fahey",
-    "AssociateFullName": "Mckenzie Koepp",
-    "Description": "Streamlined 6th generation architecture",
+    "ContactName": "Bernhard, Mante and Wintheiser",
+    "SaleDate": "2013-04-29T16:54:56.2605202+02:00",
+    "SaleId": 814,
+    "Probability": 379,
+    "Title": "laudantium",
+    "Amount": 29030.242,
+    "Currency": "qui",
+    "ProjectName": "Mitchell-Wolf",
+    "AssociateFullName": "Rodrick Hoeger",
+    "Description": "Upgradable motivating ability",
     "Status": "Lost",
-    "WeightedAmount": 30663.056,
-    "ProjectId": 605,
-    "EarningPercent": 29794.938,
-    "Earning": 22075.896,
-    "ContactId": 535,
-    "AssociateId": 505,
-    "PersonId": 765,
-    "SaleTypeId": 626,
-    "SaleTypeName": "Reichert, Schamberger and Larkin",
-    "PersonFullName": "Cesar Durgan",
+    "WeightedAmount": 24542.354,
+    "ProjectId": 942,
+    "EarningPercent": 184.906,
+    "Earning": 29139.932,
+    "ContactId": 530,
+    "AssociateId": 596,
+    "PersonId": 779,
+    "SaleTypeId": 343,
+    "SaleTypeName": "Toy-Senger",
+    "PersonFullName": "Prof. Tabitha Hessel",
     "Completed": "Completed",
-    "ActiveErpLinks": 269,
-    "NextDueDate": "2006-05-23T23:03:56.9276165+02:00",
-    "Number": "907708",
+    "ActiveErpLinks": 491,
+    "NextDueDate": "2020-09-22T16:54:56.2605202+02:00",
+    "Number": "1697066",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldType": "System.String",
+        "FieldLength": 948
       }
     }
   }

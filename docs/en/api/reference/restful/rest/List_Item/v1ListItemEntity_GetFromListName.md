@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 496,
-  "Name": "Cruickshank-Sipes",
-  "Tooltip": "blanditiis",
-  "Deleted": false,
-  "UdListDefinitionId": 216,
-  "Rank": 466,
+  "Id": 598,
+  "Name": "Smitham, Steuber and Runte",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "UdListDefinitionId": 252,
+  "Rank": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 734
     }
   }
 }

@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 733,
-  "LanguageId": 639,
-  "PersonId": 1001,
-  "TicketId": 748
+  "ReplyTemplateId": 567,
+  "LanguageId": 391,
+  "PersonId": 732,
+  "TicketId": 426
 }
 ```
 
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 713,
-  "PlainParsed": "voluptates",
-  "HtmlParsed": "et",
+  "ReplyTemplateId": 36,
+  "PlainParsed": "et",
+  "HtmlParsed": "sit",
   "Attachments": [
     {
-      "AttachmentId": 71,
-      "Name": "Hammes-Fay",
-      "ContentType": "nisi",
-      "AttSize": 28,
-      "InlineImage": false,
-      "ContentId": "distinctio",
-      "AuthKey": "ab",
+      "AttachmentId": 394,
+      "Name": "Hauck-Schneider",
+      "ContentType": "consequatur",
+      "AttSize": 102,
+      "InlineImage": true,
+      "ContentId": "incidunt",
+      "AuthKey": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 815
+          "FieldType": "System.Int32",
+          "FieldLength": 543
         }
       }
     }
   ],
-  "Subject": "eum",
+  "Subject": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 981
     }
   }
 }

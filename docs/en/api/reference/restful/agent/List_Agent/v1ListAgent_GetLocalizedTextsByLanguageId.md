@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 138
+  "LanguageId": 674
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 415,
-    "ResourceId": 62,
-    "Text": "ducimus",
+    "LanguageId": 888,
+    "ResourceId": 187,
+    "Text": "sit",
     "Type": "Column",
-    "LocalizedTextId": 800,
+    "LocalizedTextId": 677,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldType": "System.String",
+        "FieldLength": 381
       }
     }
   }

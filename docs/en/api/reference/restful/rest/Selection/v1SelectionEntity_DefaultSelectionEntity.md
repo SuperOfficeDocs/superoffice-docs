@@ -52,7 +52,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 13 Oct 2012 23:04:04 G10T
+Last-Modified: Sun, 22 Sep 2002 16:55:30 G9T
 
 {
-  "Description": "Self-enabling empowering budgetary management",
-  "Postit": "facere",
+  "Description": "Distributed empowering infrastructure",
+  "Postit": "dolores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 959,
-  "IncludePerson": 158,
-  "MemberCount": 148,
-  "Name": "Block-Durgan",
-  "PostitTextId": 633,
-  "CreatedDate": "2007-11-11T23:04:04.7625111+01:00",
-  "SelectionId": 892,
-  "SoundEx": "esse",
-  "Source": 134,
-  "TextId": 711,
-  "UpdatedDate": "2012-10-13T23:04:04.7625111+02:00",
-  "UpdatedCount": 491,
-  "Visibility": 757,
+  "GroupIdx": 844,
+  "IncludePerson": 184,
+  "MemberCount": 234,
+  "Name": "Rempel-Brown",
+  "PostitTextId": 528,
+  "CreatedDate": "1998-12-21T16:55:30.1120402+01:00",
+  "SelectionId": 445,
+  "SoundEx": "accusamus",
+  "Source": 41,
+  "TextId": 889,
+  "UpdatedDate": "2002-09-22T16:55:30.1120402+02:00",
+  "UpdatedCount": 897,
+  "Visibility": 349,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 522,
-  "TargetTableName": "Wehner Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 410,
-  "RightSelectionId": 326,
+  "TargetTableNumber": 605,
+  "TargetTableName": "Hartmann Group",
+  "Completed": true,
+  "LeftSelectionId": 213,
+  "RightSelectionId": 971,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "DuBuque LLC",
-  "ShadowProviderName": "Schulist Inc and Sons",
-  "ChartKey": "ad",
-  "LastLoaded": "2021-03-31T23:04:04.7625111+02:00",
-  "LastLoadedBy": 858,
+  "MainProviderName": "Grady-Hansen",
+  "ShadowProviderName": "Brakus Inc and Sons",
+  "ChartKey": "dolores",
+  "LastLoaded": "1997-05-11T16:55:30.1120402+02:00",
+  "LastLoadedBy": 198,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-08-23T23:04:04.7630092+02:00",
-  "LastMembershipChangeBy": 362,
+  "LastMembershipChange": "2003-05-25T16:55:30.1120402+02:00",
+  "LastMembershipChangeBy": 895,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "accusamus",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Conn-Tromp",
-  "DashboardTileDefinitionId": 22,
+  "MainHeading": "labore",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Casper, Greenfelder and Lockman",
+  "DashboardTileDefinitionId": 214,
   "VisibleFor": [
     {
-      "VisibleId": 967,
+      "VisibleId": 35,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldType": "System.String",
+          "FieldLength": 965
         }
       }
     },
     {
-      "VisibleId": 967,
+      "VisibleId": 35,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldType": "System.String",
+          "FieldLength": 965
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Sat, 13 Oct 2012 23:04:04 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldLength": 676
     }
   }
 }

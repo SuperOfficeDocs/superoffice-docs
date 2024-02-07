@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quasi",
-  "GroupName": "Pfannerstill, Hodkiewicz and Feeney"
+  "Type": "similique",
+  "GroupName": "Stehr-Hirthe"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "a",
-    "et"
+    "consequatur",
+    "voluptates"
   ],
   "Users": [
     {
-      "Value": "facilis",
-      "DisplayValue": "saepe",
+      "Value": "cum",
+      "DisplayValue": "excepturi",
       "Columns": [
-        "facilis",
-        "vel"
+        "adipisci",
+        "error"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldType": "System.Int32",
+          "FieldLength": 82
         }
       }
     },
     {
-      "Value": "facilis",
-      "DisplayValue": "saepe",
+      "Value": "cum",
+      "DisplayValue": "excepturi",
       "Columns": [
-        "facilis",
-        "vel"
+        "adipisci",
+        "error"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldType": "System.Int32",
+          "FieldLength": 82
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldLength": 442
     }
   }
 }

@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=magnam
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=modi
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Schmidt-Beatty",
-    "ToolTip": "Sunt corporis placeat ut dolor iusto ratione a.",
-    "Deleted": true,
-    "Rank": 926,
-    "Type": "qui",
-    "ColorBlock": 620,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2015-08-10T23:04:05.5125012+02:00",
+    "Id": 975,
+    "Name": "Legros, Casper and Purdy",
+    "ToolTip": "Modi quis omnis esse ea ut.",
+    "Deleted": false,
+    "Rank": 532,
+    "Type": "officiis",
+    "ColorBlock": 840,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "1997-12-25T16:55:30.7131756+01:00",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Batz-Toy",
-        "ToolTip": "Autem omnis aut quaerat impedit fuga voluptatum.",
-        "Deleted": false,
-        "Rank": 300,
-        "Type": "sequi",
-        "ColorBlock": 654,
-        "IconHint": "unde",
-        "Selected": true,
-        "LastChanged": "2013-09-17T23:04:05.5125012+02:00",
+        "Id": 700,
+        "Name": "Stracke LLC",
+        "ToolTip": "Ipsa illo temporibus et modi doloremque.",
+        "Deleted": true,
+        "Rank": 147,
+        "Type": "quo",
+        "ColorBlock": 226,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "1998-04-22T16:55:30.7141769+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "pariatur",
-        "Hidden": false,
-        "FullName": "Dr. Sammie Audrey Jacobson",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "excepturi",
+        "Hidden": true,
+        "FullName": "Meta Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldLength": 946
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "vel",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Fae Witting",
+    "FullName": "Carmela Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 334
+        "FieldType": "System.Int32",
+        "FieldLength": 903
       }
     }
   }

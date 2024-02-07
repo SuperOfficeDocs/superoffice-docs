@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Mann-Ullrich",
+  "UdListDefinitionName": "Wolf Group",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Collier, Cronin and Jewess",
-    "Tooltip": "et",
+    "Id": 269,
+    "Name": "Nicolas-Hane",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "UdListDefinitionId": 843,
-    "Rank": 374,
+    "UdListDefinitionId": 424,
+    "Rank": 969,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 113
       }
     }
   }

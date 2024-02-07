@@ -709,7 +709,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionV2?$select=time,projectId,contact/category,contact/postAddress/formattedAddress,contact/contactAssociate/userName
+GET /api/v1/archive/AppointmentSelectionV2?$select=contact/code,contact/contactAssociate/fullName,contact/LastDoBySale,contact/LastTicket,person/personCountryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

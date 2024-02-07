@@ -77,44 +77,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Price LLC",
-    "Operator": "ipsum",
+    "Name": "Koepp-Abernathy",
+    "Operator": "rerum",
     "Values": [
-      "harum",
-      "sint"
+      "sunt",
+      "explicabo"
     ],
     "DisplayValues": [
-      "necessitatibus",
-      "in"
+      "autem",
+      "dignissimos"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wisozk, Lynch and Baumbach",
-        "Operator": "quos",
+        "Name": "Miller Group",
+        "Operator": "quia",
         "Values": [
-          "velit",
-          "quis"
+          "ullam",
+          "sit"
         ],
         "DisplayValues": [
-          "iure",
-          "provident"
+          "suscipit",
+          "iste"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 417,
+        "InterParenthesis": 837,
         "InterOperator": "And",
-        "UniqueHash": 26
+        "UniqueHash": 797
       }
     ],
-    "InterParenthesis": 267,
+    "InterParenthesis": 600,
     "InterOperator": "And",
-    "UniqueHash": 580
+    "UniqueHash": 128
   }
 ]
 ```

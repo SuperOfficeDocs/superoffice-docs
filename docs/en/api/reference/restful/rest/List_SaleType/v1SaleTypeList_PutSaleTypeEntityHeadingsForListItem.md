@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Mosciski, Steuber and Stehr",
-    "ToolTip": "At excepturi rem voluptates enim deserunt ullam.",
+    "Id": 601,
+    "Name": "Huel-Nitzsche",
+    "ToolTip": "Et tempore.",
     "Deleted": true,
-    "Rank": 56,
-    "Type": "sunt",
-    "ColorBlock": 574,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2007-01-30T23:04:05.8064964+01:00",
+    "Rank": 939,
+    "Type": "iste",
+    "ColorBlock": 780,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "2019-01-07T16:55:31.0701884+01:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Hickle-Schulist",
-        "ToolTip": "Modi non in.",
+        "Id": 646,
+        "Name": "Muller LLC",
+        "ToolTip": "Esse veniam dolorum pariatur.",
         "Deleted": false,
-        "Rank": 426,
-        "Type": "voluptas",
-        "ColorBlock": 705,
-        "IconHint": "deleniti",
+        "Rank": 499,
+        "Type": "quod",
+        "ColorBlock": 411,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2012-01-13T23:04:05.8064964+01:00",
+        "LastChanged": "1997-11-08T16:55:31.0711879+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "qui",
+        "ExtraInfo": "laborum",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Kyra Darron Schuster IV"
+        "FullName": "Briana Purdy"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Cullen Aufderhar"
+    "ExtraInfo": "autem",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Mr. Finn Lowe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 23,
-    "Name": "Purdy LLC",
-    "ToolTip": "Culpa nobis eum.",
-    "Deleted": true,
-    "Rank": 261,
-    "Type": "aspernatur",
-    "ColorBlock": 342,
-    "IconHint": "numquam",
+    "Id": 387,
+    "Name": "Buckridge LLC",
+    "ToolTip": "Nihil praesentium est.",
+    "Deleted": false,
+    "Rank": 378,
+    "Type": "esse",
+    "ColorBlock": 387,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2018-08-23T23:04:05.8084959+02:00",
+    "LastChanged": "2005-01-26T16:55:31.0742772+01:00",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Tremblay Group",
-        "ToolTip": "Vel neque tenetur quia maiores porro esse dolore.",
-        "Deleted": true,
-        "Rank": 967,
-        "Type": "qui",
-        "ColorBlock": 945,
-        "IconHint": "quis",
-        "Selected": false,
-        "LastChanged": "2008-09-28T23:04:05.8090015+02:00",
+        "Id": 215,
+        "Name": "Goodwin LLC",
+        "ToolTip": "Iste dolore maxime est illo unde.",
+        "Deleted": false,
+        "Rank": 149,
+        "Type": "aut",
+        "ColorBlock": 522,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2015-07-17T16:55:31.0742772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Grace Tillman",
+        "ExtraInfo": "quia",
+        "StyleHint": "quisquam",
+        "Hidden": true,
+        "FullName": "Glen Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldType": "System.String",
+            "FieldLength": 332
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Reyes Jakubowski MD",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Monserrate Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kulas-Schaefer",
-    "Description": "Streamlined responsive Graphic Interface",
-    "Rank": 795,
+    "Name": "Hickle-Jakubowski",
+    "Description": "Extended didactic info-mediaries",
+    "Rank": 128,
     "Restrictions": [
       {
-        "Name": "Cremin-Glover",
-        "Operator": "nemo",
+        "Name": "Kuphal, Ortiz and Cummerata",
+        "Operator": "rerum",
         "Values": [
-          "qui",
-          "et"
+          "voluptatem",
+          "ut"
         ],
         "DisplayValues": [
-          "eos",
-          "odit"
+          "qui",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 651,
+        "InterParenthesis": 146,
         "InterOperator": "And",
-        "UniqueHash": 9
+        "UniqueHash": 16
       }
     ]
   },
   {
-    "Name": "Kulas-Schaefer",
-    "Description": "Streamlined responsive Graphic Interface",
-    "Rank": 795,
+    "Name": "Hickle-Jakubowski",
+    "Description": "Extended didactic info-mediaries",
+    "Rank": 128,
     "Restrictions": [
       {
-        "Name": "Cremin-Glover",
-        "Operator": "nemo",
+        "Name": "Kuphal, Ortiz and Cummerata",
+        "Operator": "rerum",
         "Values": [
-          "qui",
-          "et"
+          "voluptatem",
+          "ut"
         ],
         "DisplayValues": [
-          "eos",
-          "odit"
+          "qui",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 651,
+        "InterParenthesis": 146,
         "InterOperator": "And",
-        "UniqueHash": 9
+        "UniqueHash": 16
       }
     ]
   }

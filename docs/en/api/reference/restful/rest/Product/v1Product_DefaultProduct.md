@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 637,
-  "ERPProductKey": "id",
-  "ERPPriceListKey": "aspernatur",
-  "Name": "Weimann LLC",
-  "Description": "Exclusive tangible success",
-  "Code": "ut",
-  "PriceUnit": "temporibus",
-  "QuantityUnit": "consequuntur",
+  "ProductId": 903,
+  "ERPProductKey": "sed",
+  "ERPPriceListKey": "praesentium",
+  "Name": "Hickle LLC",
+  "Description": "Progressive next generation hardware",
+  "Code": "nam",
+  "PriceUnit": "quis",
+  "QuantityUnit": "consequatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 29409.456,
-  "ItemNumber": "1133736",
+  "SubscriptionUnit": "dolores",
+  "DefaultSubscriptionQuantity": 26745.556,
+  "ItemNumber": "1257390",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "recusandae",
-  "ProductTypeKey": "animi",
-  "VAT": 15387.939999999999,
-  "VATInfo": "voluptate",
-  "UnitCost": 31070.476,
-  "UnitMinimumPrice": 20088.94,
-  "UnitListPrice": 27801.714,
-  "InAssortment": true,
-  "Supplier": "asperiores",
-  "SupplierCode": "dolores",
-  "Rights": "cum",
-  "Rule": "id",
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "itaque",
+  "VAT": 27021.347999999998,
+  "VATInfo": "reprehenderit",
+  "UnitCost": 26883.451999999997,
+  "UnitMinimumPrice": 13153.398,
+  "UnitListPrice": 10937.66,
+  "InAssortment": false,
+  "Supplier": "sit",
+  "SupplierCode": "similique",
+  "Rights": "quo",
+  "Rule": "quidem",
   "ExtraInfo": [
     {
-      "Name": "Hane, Brown and D'Amore",
-      "Value": "et",
+      "Name": "Prohaska, Larkin and Rodriguez",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldLength": 596
         }
       }
     },
     {
-      "Name": "Hane, Brown and D'Amore",
-      "Value": "et",
+      "Name": "Prohaska, Larkin and Rodriguez",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldLength": 596
         }
       }
     }
   ],
-  "RawExtraInfo": "distinctio",
-  "ExtraField1": "expedita",
-  "ExtraField2": "consequuntur",
-  "ExtraField3": "molestias",
-  "ExtraField4": "dolor",
-  "ExtraField5": "voluptatum",
-  "InStock": 13620.364,
+  "RawExtraInfo": "quaerat",
+  "ExtraField1": "sint",
+  "ExtraField2": "incidunt",
+  "ExtraField3": "repudiandae",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "laborum",
+  "InStock": 17164.917999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldType": "System.Int32",
+      "FieldLength": 275
     }
   }
 }

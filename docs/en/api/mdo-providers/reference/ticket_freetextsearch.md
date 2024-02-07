@@ -2,10 +2,7 @@
 uid: ticket_freetextsearch
 title: ticket_freetextsearch
 keywords: mdoprovider mdo provider ticket_freetextsearch
-description: Provider for selecting a Ticket - with contact and person search.
-Does keyword matching and scoring across multiple
-string fields. Checks ticket heading, from, author as well as contact, person and project tables.
-Supports cross-table matching: "Guttorm Teacup" will find tickets from person "Guttorm" with title containing "Teacup".
+description: Provider for selecting a Ticket - with contact and person search. Does keyword matching and scoring across multiple string fields. Checks ticket heading, from, author as well as contact, person and project tables. Supports cross-table matching - "Guttorm Teacup" will find tickets from person "Guttorm" with title containing "Teacup".
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -19,7 +16,8 @@ Supports cross-table matching: "Guttorm Teacup" will find tickets from person "G
 
 User's own tickets, recently added + modified tickets, contacts modified or created by user as scored higher.
 Matches on word boundaries or at start of field are scored extra highly.
-<para />
+
+
 Returns ticket items only: Id = ticket id.
 ExtraInfo = person_id, Type = "Ticket", IconHint = "Ticket"
 StyleHint = "deleted_item" or "ticketUnread"

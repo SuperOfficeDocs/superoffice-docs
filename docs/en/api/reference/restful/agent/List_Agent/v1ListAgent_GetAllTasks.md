@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -101,15 +101,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 259,
-    "Value": "natus",
+    "TaskListItemId": 657,
+    "Value": "recusandae",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "IntentId": 553,
-    "Rank": 55,
-    "IsDefaultAlldayEvent": true,
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "IntentId": 916,
+    "Rank": 739,
+    "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 935
       }
     }
   }

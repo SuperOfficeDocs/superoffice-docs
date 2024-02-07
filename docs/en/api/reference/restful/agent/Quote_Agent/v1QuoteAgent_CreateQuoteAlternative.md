@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 816,
-  "QuoteAlternativeName": "Larson-Hermiston",
-  "QuoteAlternativeDescription": "Face to face actuating Graphical User Interface"
+  "QuoteVersionId": 490,
+  "QuoteAlternativeName": "VonRueden, Dicki and Mertz",
+  "QuoteAlternativeDescription": "Distributed 6th generation interface"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 516,
-  "ERPQuoteAlternativeKey": "hic",
-  "QuoteVersionId": 385,
-  "Name": "Jones Inc and Sons",
-  "Description": "Persistent analyzing intranet",
+  "QuoteAlternativeId": 858,
+  "ERPQuoteAlternativeKey": "voluptatem",
+  "QuoteVersionId": 590,
+  "Name": "Cartwright-Hackett",
+  "Description": "Reduced upward-trending flexibility",
   "Status": "Error",
-  "Reason": "whiteboard transparent portals",
-  "ERPDiscountPercent": 6155.1759999999995,
-  "ERPDiscountAmount": 4130.612,
-  "DiscountPercent": 26156.363999999998,
-  "DiscountAmount": 22746.572,
+  "Reason": "",
+  "ERPDiscountPercent": 1190.92,
+  "ERPDiscountAmount": 8091.9879999999994,
+  "DiscountPercent": 20374.134,
+  "DiscountAmount": 22505.254,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quae",
-  "VAT": 6227.258,
-  "EarningPercent": 10712.011999999999,
-  "EarningAmount": 2504.066,
-  "SubTotal": 11536.253999999999,
-  "TotalPrice": 30995.26,
-  "ExtraField1": "delectus",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "sed",
-  "ExtraField4": "non",
-  "ExtraField5": "et",
+  "VATInfo": "rerum",
+  "VAT": 2645.096,
+  "EarningPercent": 11022.278,
+  "EarningAmount": 6813.316,
+  "SubTotal": 19784.942,
+  "TotalPrice": 2159.326,
+  "ExtraField1": "impedit",
+  "ExtraField2": "animi",
+  "ExtraField3": "eos",
+  "ExtraField4": "omnis",
+  "ExtraField5": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldLength": 786
     }
   }
 }

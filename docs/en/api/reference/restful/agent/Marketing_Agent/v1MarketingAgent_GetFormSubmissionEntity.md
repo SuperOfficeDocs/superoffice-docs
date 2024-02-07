@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=647
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=55
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 206,
-  "FormId": 704,
-  "WhenSubmitted": "2013-07-21T23:03:56.3291242+02:00",
-  "ContactId": 842,
-  "PersonId": 384,
-  "EmailAddress": "hellen_zemlak@erdmanconsidine.biz",
-  "ResponseShipmentAddrId": 786,
-  "Response": "aliquam",
+  "FormSubmissionId": 857,
+  "FormId": 66,
+  "WhenSubmitted": "2000-12-25T16:54:55.6509931+01:00",
+  "ContactId": 41,
+  "PersonId": 585,
+  "EmailAddress": "belle@beattyeichmann.co.uk",
+  "ResponseShipmentAddrId": 142,
+  "Response": "doloribus",
   "Status": "EmailVerification",
-  "ProcessingLog": "asperiores",
+  "ProcessingLog": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 805
     }
   }
 }

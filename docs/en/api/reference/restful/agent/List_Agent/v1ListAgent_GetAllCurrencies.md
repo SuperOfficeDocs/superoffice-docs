@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 485,
-    "Name": "McGlynn Group",
-    "Tooltip": "id",
-    "Rank": 667,
-    "Rate": 6615.874,
-    "Units": 4738.608,
-    "Deleted": false,
+    "CurrencyId": 325,
+    "Name": "Langworth, Goldner and Nader",
+    "Tooltip": "ut",
+    "Rank": 661,
+    "Rate": 20931.986,
+    "Units": 8837.88,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldLength": 476
       }
     }
   }

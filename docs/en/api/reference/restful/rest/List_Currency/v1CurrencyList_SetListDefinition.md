@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 810,
-  "Name": "Wolf-O'Connell",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 436,
+  "Id": 414,
+  "Name": "Heller, Gaylord and Mraz",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 378,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "Hoeger LLC",
-  "Tooltip": "iste",
+  "Id": 503,
+  "Name": "Ziemann Group",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 597,
+  "Rank": 74,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 959
     }
   }
 }

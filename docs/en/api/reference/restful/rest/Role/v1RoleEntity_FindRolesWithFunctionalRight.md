@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Cremin Inc and Sons",
-    "ToolTip": "Possimus commodi velit.",
-    "Deleted": true,
-    "Rank": 169,
-    "Type": "sequi",
+    "Id": 744,
+    "Name": "Gibson-Bernier",
+    "ToolTip": "Autem eos rerum sequi dolorem in.",
+    "Deleted": false,
+    "Rank": 750,
+    "Type": "magni",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Zboncak-Keebler",
-        "ToolTip": "Aliquam est voluptas ab quae.",
-        "Deleted": true,
-        "Rank": 74,
-        "Type": "temporibus",
+        "Id": 261,
+        "Name": "Feil-Parisian",
+        "ToolTip": "Numquam rerum ab magnam voluptatibus dicta.",
+        "Deleted": false,
+        "Rank": 546,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "esse",
-        "ColorBlock": 288,
-        "ExtraInfo": "et",
-        "StyleHint": "est",
-        "FullName": "Mrs. Rosetta Langworth V",
+        "IconHint": "aut",
+        "ColorBlock": 970,
+        "ExtraInfo": "sit",
+        "StyleHint": "iste",
+        "FullName": "Miss Noelia Francisca Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldType": "System.String",
+            "FieldLength": 95
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 477,
-    "ExtraInfo": "eius",
-    "StyleHint": "laudantium",
-    "FullName": "Dr. Mckenzie Darion Runolfsdottir II",
+    "IconHint": "in",
+    "ColorBlock": 446,
+    "ExtraInfo": "earum",
+    "StyleHint": "cum",
+    "FullName": "Prof. Ottilie Jacklyn Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldLength": 776
       }
     }
   }

@@ -2,8 +2,7 @@
 uid: y_equipment
 title: y_equipment
 keywords: mdoprovider mdo provider y_equipment
-description: Extra tables lists. List names are 'y_xyz' - based on the custom table name.
-Contents of the list are based on the display_field for the table
+description: Extra tables lists. List names are 'y_xyz' - based on the custom table name. Contents of the list are based on the display_field for the table
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

@@ -65,7 +65,7 @@ OK
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
+| PersonId | int32 | Owning person record  Use MDO List name "person" to get list items. |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |
@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 852
+  "PersonId": 616
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 989,
-  "Name": "Kirlin-Reichert",
-  "PersonId": 367,
-  "Rank": 834,
-  "Tooltip": "repudiandae",
+  "AssociateId": 81,
+  "Name": "Witting, Haag and Kub",
+  "PersonId": 841,
+  "Rank": 989,
+  "Tooltip": "explicabo",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 130,
-  "FullName": "Dalton Lehner",
-  "FormalName": "White-Wisoky",
-  "Deleted": true,
-  "EjUserId": 717,
-  "UserName": "Armstrong Inc and Sons",
+  "GroupIdx": 37,
+  "FullName": "Nickolas Micah Hudson PhD",
+  "FormalName": "Hoppe, Smith and Schulist",
+  "Deleted": false,
+  "EjUserId": 53,
+  "UserName": "Will LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 868
     }
   }
 }

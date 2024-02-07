@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=276
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=661
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 323,
-  "Caption": "voluptas",
-  "Description": "Re-engineered contextually-based neural-net",
-  "ChartName": "Schoen-Harber",
-  "ChartId": "quod",
-  "IsDefault": true,
-  "AssociateId": 985,
-  "GroupId": 912,
-  "SelectionId": 244,
-  "Config": "quaerat",
+  "DashboardTileId": 987,
+  "Caption": "sit",
+  "Description": "Object-based regional support",
+  "ChartName": "Jakubowski LLC",
+  "ChartId": "laborum",
+  "IsDefault": false,
+  "AssociateId": 617,
+  "GroupId": 949,
+  "SelectionId": 678,
+  "Config": "est",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hackett LLC",
-      "Description": "Re-contextualized heuristic conglomeration",
+      "Name": "Carter LLC",
+      "Description": "Mandatory national groupware",
       "Type": "Boolean",
-      "ListName": "Hamill Group",
+      "ListName": "Gibson LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "molestias",
+      "Value": "iure",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldLength": 53
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 790,
+      "VisibleId": 583,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 844
         }
       }
     },
     {
-      "VisibleId": 790,
+      "VisibleId": 583,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 844
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldType": "System.String",
+      "FieldLength": 826
     }
   }
 }

@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Bahringer-Kuvalis",
-  "AssociateId": 500,
-  "DetailsTable": 205,
-  "DetailsRecord": 654,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 891,
+  "Name": "Parisian-Bergnaum",
+  "AssociateId": 646,
+  "DetailsTable": 171,
+  "DetailsRecord": 743,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "voluptatem",
-    "ParameterObject2": "et"
+    "ParameterObject1": "voluptas",
+    "ParameterObject2": "temporibus"
   },
-  "LastStarted": "2020-01-05T23:04:05.0080105+01:00",
-  "Created": "2019-12-03T23:04:05.0080105+01:00",
-  "StartCount": 554,
-  "DatabaseSerialNumber": "830357",
-  "Context": "sunt",
-  "Result": "temporibus",
+  "LastStarted": "2023-11-14T16:55:30.3208171+01:00",
+  "Created": "2020-09-13T16:55:30.3208171+02:00",
+  "StartCount": 834,
+  "DatabaseSerialNumber": "1007905",
+  "Context": "perspiciatis",
+  "Result": "quia",
   "State": "All",
-  "Description": "Extended local website",
-  "Response": "consequatur",
-  "Request": "natus",
-  "ProgressDescription": "Realigned cohesive infrastructure",
-  "ProgressPercent": 678,
-  "FileName": "Metz-Frami",
+  "Description": "Balanced maximized extranet",
+  "Response": "numquam",
+  "Request": "quia",
+  "ProgressDescription": "Proactive well-modulated emulation",
+  "ProgressPercent": 914,
+  "FileName": "McGlynn LLC",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-571
+819
 ```

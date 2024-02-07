@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=95
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=668
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 540,
-  "Name": "Quitzon, Bergnaum and Green",
-  "Description": "Robust transitional artificial intelligence",
-  "DefaultHeight": 345,
-  "DefaultWidth": 477,
+  "DashboardTileDefinitionId": 722,
+  "Name": "Wiza, Grady and Fay",
+  "Description": "Inverse disintermediate budgetary management",
+  "DefaultHeight": 353,
+  "DefaultWidth": 290,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hoppe, Watsica and Durgan",
-  "SelectionId": 299,
+  "EntityName": "Rohan Inc and Sons",
+  "SelectionId": 565,
   "CurrencyMode": "Base",
-  "CurrencyCode": "omnis",
+  "CurrencyCode": "aliquid",
   "Measure": "Average",
-  "MeasureField": "totam",
-  "SortBy": "quisquam",
-  "LayoutConfig": "eligendi",
-  "SecondarySelectionId": 312,
-  "MeasureByField": "nulla",
+  "MeasureField": "numquam",
+  "SortBy": "facere",
+  "LayoutConfig": "ab",
+  "SecondarySelectionId": 396,
+  "MeasureByField": "in",
   "Usage": "Dashboard",
-  "ProviderName": "Weissnat-Gulgowski",
+  "ProviderName": "Hilll LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 256
     }
   }
 }

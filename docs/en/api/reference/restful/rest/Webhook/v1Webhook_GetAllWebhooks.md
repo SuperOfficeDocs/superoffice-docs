@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=qui
-GET /api/v1/Webhook?eventFilter=est
+GET /api/v1/Webhook?nameFilter=iusto
+GET /api/v1/Webhook?eventFilter=perferendis
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -82,7 +82,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 198,
-    "Name": "Koss, Hintz and Bartoletti",
+    "WebhookId": 536,
+    "Name": "Volkman Group",
     "Events": [
-      "sequi",
-      "est"
+      "cumque",
+      "occaecati"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "quia",
+    "Secret": "qui",
     "State": "Active",
-    "Type": "assumenda",
+    "Type": "ut",
     "Headers": {
-      "Headers1": "labore",
-      "Headers2": "facere"
+      "Headers1": "consectetur",
+      "Headers2": "cum"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2017-10-15T23:04:05.230504+02:00",
+    "Registered": "2011-10-15T16:55:30.4821389+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2010-08-07T23:04:05.2310033+02:00",
+    "Updated": "2003-11-20T16:55:30.4821389+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "casimir.hartmann@cummeratayundt.biz"
+    "ErrorsEmail": "joy@quigley.co.uk"
   }
 ]
 ```

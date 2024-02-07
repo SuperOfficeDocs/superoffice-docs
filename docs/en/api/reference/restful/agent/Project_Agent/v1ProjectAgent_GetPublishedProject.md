@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 899
+  "ProjectId": 26
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 313,
-  "Name": "Rolfson, Gutmann and Stehr",
-  "Description": "Reactive impactful artificial intelligence",
+  "ProjectId": 564,
+  "Name": "Johnston, Stiedemann and Kozey",
+  "Description": "Optimized real-time benchmark",
   "URL": "http://www.example.com/",
-  "Type": "autem",
-  "AssociateId": 137,
-  "AssociateFullName": "Mireille Cronin",
-  "TypeId": 294,
-  "Updated": "1997-12-27T23:03:56.6876193+01:00",
-  "StatusId": 376,
-  "Status": "consequatur",
-  "TextId": 898,
-  "PublishTo": "2018-01-26T23:03:56.6876193+01:00",
-  "PublishFrom": "2006-09-07T23:03:56.6876193+02:00",
+  "Type": "nemo",
+  "AssociateId": 933,
+  "AssociateFullName": "Ardella Saul White DVM",
+  "TypeId": 873,
+  "Updated": "2001-07-14T16:54:56.0701382+02:00",
+  "StatusId": 667,
+  "Status": "similique",
+  "TextId": 642,
+  "PublishTo": "2001-08-23T16:54:56.0701382+02:00",
+  "PublishFrom": "2021-08-10T16:54:56.0701382+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "606470",
-  "ActiveErpLinks": 750,
+  "ProjectNumber": "1147264",
+  "ActiveErpLinks": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 773
     }
   }
 }

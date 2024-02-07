@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 760,
-  "ColumnId": 930,
-  "FieldDefault": "ea",
-  "FieldHeight": 346,
-  "FieldLabel": "non",
-  "FieldLeft": 813,
-  "FieldTop": 133,
+  "UDefFieldId": 789,
+  "ColumnId": 845,
+  "FieldDefault": "et",
+  "FieldHeight": 154,
+  "FieldLabel": "perferendis",
+  "FieldLeft": 34,
+  "FieldTop": 824,
   "FieldType": "Checkbox",
-  "FieldWidth": 607,
-  "FormatMask": "voluptate",
+  "FieldWidth": 92,
+  "FormatMask": "non",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 259,
-  "LabelLeft": 12,
-  "LabelTop": 734,
-  "LabelWidth": 527,
-  "LastVersionId": 575,
-  "ListTableId": 642,
+  "LabelHeight": 862,
+  "LabelLeft": 167,
+  "LabelTop": 87,
+  "LabelWidth": 416,
+  "LastVersionId": 297,
+  "ListTableId": 185,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 160,
-  "ProgId": "molestiae",
+  "Page1LineNo": 594,
+  "ProgId": "quo",
   "IsReadOnly": false,
-  "ShortLabel": "occaecati",
-  "TabOrder": 479,
-  "TextLength": 11,
-  "Tooltip": "sint",
-  "UdefIdentity": 847,
-  "UDListDefinitionId": 316,
+  "ShortLabel": "debitis",
+  "TabOrder": 670,
+  "TextLength": 609,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 684,
+  "UDListDefinitionId": 646,
   "Justification": "Center",
-  "Version": 749,
-  "TemplateVariableName": "Mohr, Ondricka and Harber",
-  "HasBeenPublished": false,
-  "MdoListName": "Ryan-Romaguera",
+  "Version": 965,
+  "TemplateVariableName": "Ledner Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Kunze-Grant",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 150
     }
   }
 }

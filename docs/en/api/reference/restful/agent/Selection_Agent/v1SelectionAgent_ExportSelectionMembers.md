@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 713,
-  "TemplateName": "Rempel-Schinner",
+  "SelectionId": 820,
+  "TemplateName": "Spencer-Ebert",
   "UseContacts": false
 }
 ```

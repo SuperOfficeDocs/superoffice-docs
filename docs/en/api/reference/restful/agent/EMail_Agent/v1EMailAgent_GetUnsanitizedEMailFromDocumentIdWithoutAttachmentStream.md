@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 340
+  "DocumentId": 76
 }
 ```
 
@@ -120,97 +120,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 16,
-      "ContactName": "Gusikowski-Lind",
-      "PersonId": 158,
-      "PersonName": "Koepp Group",
-      "AssociateId": 897,
-      "Address": "et",
-      "EmailId": 556,
+      "ContactId": 238,
+      "ContactName": "Watsica Group",
+      "PersonId": 42,
+      "PersonName": "Schroeder Inc and Sons",
+      "AssociateId": 986,
+      "Address": "nostrum",
+      "EmailId": 47,
       "DuplicatePersonIds": [
-        794,
-        573
+        510,
+        864
       ],
-      "Name": "Weissnat, Ziemann and Legros",
+      "Name": "Sauer-Hauck",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 322
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 857,
-      "ContactName": "Toy Group",
-      "PersonId": 887,
-      "PersonName": "Berge Inc and Sons",
-      "AssociateId": 862,
-      "Address": "aut",
-      "EmailId": 635,
+      "ContactId": 688,
+      "ContactName": "Hansen, Hickle and Lindgren",
+      "PersonId": 111,
+      "PersonName": "Bogisich-Maggio",
+      "AssociateId": 328,
+      "Address": "maxime",
+      "EmailId": 939,
       "DuplicatePersonIds": [
-        80,
-        310
+        432,
+        569
       ],
-      "Name": "Stamm, Crooks and Sawayn",
+      "Name": "Hamill LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 210
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 505,
-      "ContactName": "Larkin-Dibbert",
-      "PersonId": 147,
-      "PersonName": "Corwin, Collins and Cartwright",
-      "AssociateId": 133,
-      "Address": "doloribus",
-      "EmailId": 115,
+      "ContactId": 17,
+      "ContactName": "Yost LLC",
+      "PersonId": 302,
+      "PersonName": "Armstrong LLC",
+      "AssociateId": 301,
+      "Address": "et",
+      "EmailId": 335,
       "DuplicatePersonIds": [
-        126,
-        226
+        218,
+        847
       ],
-      "Name": "Schuppe-Kunze",
+      "Name": "King-VonRueden",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldLength": 759
         }
       }
     }
   ],
-  "Subject": "cum",
-  "HTMLBody": "nam",
+  "Subject": "magni",
+  "HTMLBody": "molestiae",
   "From": null,
-  "Sent": "2010-01-27T23:03:55.9011299+01:00",
-  "Size": 199,
+  "Sent": "2002-04-23T16:54:55.3194197+02:00",
+  "Size": 774,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ipsam",
-  "PlainBody": "voluptatem",
-  "IsSent": true,
+  "MessageID": "incidunt",
+  "PlainBody": "commodi",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 693,
+  "ServerId": 889,
   "Attachments": [
     {
-      "Description": "Virtual context-sensitive contingency",
-      "Filename": "impedit",
-      "Size": 435,
-      "Type": "est",
-      "Encoding": "est",
-      "Id": "dignissimos",
-      "Disposition": "nihil",
+      "Description": "Intuitive global attitude",
+      "Filename": "quibusdam",
+      "Size": 568,
+      "Type": "aperiam",
+      "Encoding": "aliquid",
+      "Id": "aut",
+      "Disposition": "a",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,49 +218,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 994
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Lueilwitz, Crooks and Kreiger",
+      "Name": "Lowe-Okuneva",
       "Values": [
-        "tempore",
-        "illum"
+        "debitis",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 286
+          "FieldType": "System.Int32",
+          "FieldLength": 552
         }
       }
     },
     {
-      "Name": "Lueilwitz, Crooks and Kreiger",
+      "Name": "Lowe-Okuneva",
       "Values": [
-        "tempore",
-        "illum"
+        "debitis",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 286
+          "FieldType": "System.Int32",
+          "FieldLength": 552
         }
       }
     }
   ],
-  "FolderName": "Ferry-Reilly",
-  "EmailItemId": 615,
-  "AccountId": 442,
-  "ReceivedAt": "2017-08-11T23:03:55.9016297+02:00",
+  "FolderName": "Yost Inc and Sons",
+  "EmailItemId": 992,
+  "AccountId": 707,
+  "ReceivedAt": "2006-05-07T16:54:55.3194197+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-07-14T23:03:55.9016297+02:00",
+  "RepliedAt": "1997-08-15T16:54:55.3194197+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

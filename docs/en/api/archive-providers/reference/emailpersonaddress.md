@@ -15,7 +15,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Person subchannel for special purpose archive provider used to search for email addresses.
 
 This channel will match on either the email address itself, or person.firstname or person.lastname
-<para />
+
+
 The resulting rows will have entity name 'contact', but the primary key will always be
 the email_id.
 
@@ -185,7 +186,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=personContact/name,supportAssociate,personAddress/line3
+GET /api/v1/archive/emailpersonaddress?$select=personBusiness,personAddress/zip,supportAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Howell-Haley",
-    "Tooltip": "ratione",
+    "HeadingId": 800,
+    "Name": "Schaden LLC",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 600,
-    "UdListDefinitionId": 607,
+    "Rank": 924,
+    "UdListDefinitionId": 326,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 269
+        "FieldType": "System.Int32",
+        "FieldLength": 432
       }
     }
   }

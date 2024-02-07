@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 133,
-    "Name": "Feil, Tromp and Kuphal",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 325,
-    "UdListDefinitionId": 42
+    "HeadingId": 510,
+    "Name": "Rippin, Ebert and Schinner",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 121,
+    "UdListDefinitionId": 962
   },
   {
-    "HeadingId": 133,
-    "Name": "Feil, Tromp and Kuphal",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 325,
-    "UdListDefinitionId": 42
+    "HeadingId": 510,
+    "Name": "Rippin, Ebert and Schinner",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 121,
+    "UdListDefinitionId": 962
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 346,
-    "Name": "Orn-Kemmer",
-    "Tooltip": "omnis",
+    "HeadingId": 18,
+    "Name": "Pacocha, Stroman and Schowalter",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 294,
-    "UdListDefinitionId": 463,
+    "Rank": 871,
+    "UdListDefinitionId": 165,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldType": "System.String",
+        "FieldLength": 590
       }
     }
   }

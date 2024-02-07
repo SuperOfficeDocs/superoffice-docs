@@ -2,9 +2,7 @@
 uid: timezoneiana
 title: timezoneiana
 keywords: mdoprovider mdo provider timezoneiana
-description: Provides the timezone list.
-The extrainfo contains the IANA-id of the timezone.
-The iconhint follows the structure 'Flag_[country_name]'.
+description: Provides the timezone list. The extrainfo contains the IANA-id of the timezone. The iconhint follows the structure 'Flag_[country_name]'.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

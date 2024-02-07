@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 318,
+  "DocumentId": 57,
   "AllowedReturnType": [
-    "soluta",
-    "aperiam"
+    "molestiae",
+    "ut"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "omnis",
-  "VersionId": "officia",
-  "Success": true,
+  "ExternalReference": "doloremque",
+  "VersionId": "explicabo",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "quas",
-  "AdditionalInfo": "molestiae"
+  "Value": "quasi",
+  "AdditionalInfo": "aperiam"
 }
 ```

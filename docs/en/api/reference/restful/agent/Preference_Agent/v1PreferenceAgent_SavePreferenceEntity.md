@@ -72,7 +72,7 @@ OK
 | DisplayValue | string | Display value, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayTooltip | string | Display tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayType | string | Display type, populated when asked for. |
-| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the Preference Agent. |
 | TargetId | int32 | The id of the target row. The table it points at is specified by the preference type. |
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "harum",
+  "RawValue": "dolorum",
   "Specification": null,
-  "DisplayValue": "similique",
-  "DisplayTooltip": "dolor",
+  "DisplayValue": "eveniet",
+  "DisplayTooltip": "omnis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 500,
-  "PrefDescId": 981,
-  "TableName": "Gottlieb, Kreiger and Jewess",
-  "UserPreferenceId": 84,
+  "TargetId": 220,
+  "PrefDescId": 564,
+  "TableName": "Schmeler-Swift",
+  "UserPreferenceId": 873,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 388
     }
   }
 }

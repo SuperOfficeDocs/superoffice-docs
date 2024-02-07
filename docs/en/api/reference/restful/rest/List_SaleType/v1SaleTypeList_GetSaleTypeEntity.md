@@ -73,7 +73,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 1002,
-  "Name": "Swift, Mills and Miller",
-  "Tooltip": "hic",
-  "Rank": 187,
+  "SaleTypeId": 319,
+  "Name": "Keeling, Langworth and Olson",
+  "Tooltip": "est",
+  "Rank": 333,
   "DurationUnit": "Century",
-  "SaleDuration": 361,
-  "SaleTypeCatId": 128,
+  "SaleDuration": 494,
+  "SaleTypeCatId": 185,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 21,
-  "QuoteLinesTemplate": 107,
-  "ConfirmationLinesTemplate": 801,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 455,
+  "QuoteLinesTemplate": 148,
+  "ConfirmationLinesTemplate": 966,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 328,
-  "MinEarningPercent": 688,
-  "GroupQuoteLinesBy": 750,
-  "SortGroupLinesBy": 447,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 309,
+  "MinEarningPercent": 557,
+  "GroupQuoteLinesBy": 134,
+  "SortGroupLinesBy": 241,
   "Stages": [
     {
-      "Id": 595,
-      "Name": "Spinka, Blick and O'Hara",
-      "ToolTip": "Animi corporis ipsa.",
+      "Id": 187,
+      "Name": "Connelly, Bailey and Ritchie",
+      "ToolTip": "Quidem ut libero.",
       "Deleted": true,
-      "Rank": 473,
-      "Type": "quia",
-      "ColorBlock": 768,
-      "IconHint": "atque",
-      "Selected": true,
-      "LastChanged": "2022-04-20T23:04:05.795495+02:00",
+      "Rank": 408,
+      "Type": "iste",
+      "ColorBlock": 235,
+      "IconHint": "adipisci",
+      "Selected": false,
+      "LastChanged": "1997-11-01T16:55:31.0621865+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "voluptatibus",
-      "Hidden": false,
-      "FullName": "Durward Armstrong",
+      "ExtraInfo": "delectus",
+      "StyleHint": "nesciunt",
+      "Hidden": true,
+      "FullName": "Prof. Sherwood Mohr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldType": "System.String",
+          "FieldLength": 53
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldLength": 353
     }
   }
 }

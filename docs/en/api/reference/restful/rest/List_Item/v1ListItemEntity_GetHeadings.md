@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Bashirian Inc and Sons",
-    "ToolTip": "Placeat neque iure voluptas sint nam.",
-    "Deleted": false,
-    "Rank": 158,
-    "Type": "unde",
-    "ColorBlock": 470,
-    "IconHint": "ab",
-    "Selected": true,
-    "LastChanged": "2007-02-08T23:04:05.2635047+01:00",
+    "Id": 864,
+    "Name": "Kuhic-Robel",
+    "ToolTip": "Explicabo est placeat laudantium.",
+    "Deleted": true,
+    "Rank": 34,
+    "Type": "tempore",
+    "ColorBlock": 398,
+    "IconHint": "perspiciatis",
+    "Selected": false,
+    "LastChanged": "2004-10-30T16:55:30.5046978+02:00",
     "ChildItems": [
       {
-        "Id": 17,
-        "Name": "Tillman Inc and Sons",
-        "ToolTip": "A commodi dolores consectetur tenetur inventore sunt et.",
+        "Id": 492,
+        "Name": "Blick Inc and Sons",
+        "ToolTip": "Tenetur quos enim aut nulla quis dolorem repellat.",
         "Deleted": false,
-        "Rank": 657,
-        "Type": "sed",
-        "ColorBlock": 675,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2006-04-02T23:04:05.2635047+02:00",
+        "Rank": 57,
+        "Type": "consequuntur",
+        "ColorBlock": 963,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2018-04-19T16:55:30.5056973+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Hilma Cruickshank",
+        "ExtraInfo": "veniam",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Miss Johann Evert Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldType": "System.String",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "animi",
+    "StyleHint": "explicabo",
     "Hidden": true,
-    "FullName": "Dr. Lempi Schmeler Jr.",
+    "FullName": "Miss Josiah Mekhi Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   }

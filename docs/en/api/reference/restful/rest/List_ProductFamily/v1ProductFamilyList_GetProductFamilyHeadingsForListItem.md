@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Stamm, Walker and Murray",
-    "ToolTip": "Dolor iste ducimus.",
-    "Deleted": false,
-    "Rank": 347,
-    "Type": "non",
-    "ColorBlock": 732,
-    "IconHint": "est",
+    "Id": 7,
+    "Name": "Barrows-Kassulke",
+    "ToolTip": "Corrupti optio nesciunt debitis quae.",
+    "Deleted": true,
+    "Rank": 246,
+    "Type": "suscipit",
+    "ColorBlock": 862,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "1999-05-16T23:04:05.6345018+02:00",
+    "LastChanged": "2005-04-07T16:55:30.8138138+02:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Shields-Hirthe",
-        "ToolTip": "Voluptatem similique quasi possimus deserunt qui et.",
+        "Id": 278,
+        "Name": "McDermott-Mann",
+        "ToolTip": "Exercitationem ea accusamus nobis rerum laudantium illum.",
         "Deleted": false,
-        "Rank": 598,
-        "Type": "tempore",
-        "ColorBlock": 150,
-        "IconHint": "harum",
+        "Rank": 231,
+        "Type": "eius",
+        "ColorBlock": 187,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2009-12-19T23:04:05.6345018+01:00",
+        "LastChanged": "2003-09-19T16:55:30.814804+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "recusandae",
-        "Hidden": false,
-        "FullName": "Sherman Schoen",
+        "ExtraInfo": "omnis",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Dayna Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 848
+            "FieldLength": 478
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Elwin Jerome Lang Sr.",
+    "ExtraInfo": "quia",
+    "StyleHint": "iure",
+    "Hidden": true,
+    "FullName": "Maximo Schneider DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 382
       }
     }
   }

@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "a",
+      "RawValue": "sit",
       "Specification": null,
-      "DisplayValue": "impedit",
-      "DisplayTooltip": "mollitia",
+      "DisplayValue": "velit",
+      "DisplayTooltip": "tempore",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 831,
-      "PrefDescId": 484,
-      "TableName": "Feeney Inc and Sons",
-      "UserPreferenceId": 363
+      "TargetId": 973,
+      "PrefDescId": 774,
+      "TableName": "Borer LLC",
+      "UserPreferenceId": 594
     }
   ],
   "RemoveLowerLevels": false

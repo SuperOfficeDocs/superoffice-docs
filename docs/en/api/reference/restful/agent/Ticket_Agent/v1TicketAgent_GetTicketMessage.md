@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=908
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=919
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 290,
-  "CreatedAt": "2014-12-16T23:03:57.4321139+01:00",
+  "TicketMessageId": 186,
+  "CreatedAt": "2010-01-26T16:54:56.5622922+01:00",
   "Slevel": "External",
-  "Important": false,
-  "Author": "quaerat",
-  "PersonId": 907,
-  "PersonFullName": "Onie Bartoletti",
-  "ContactId": 278,
-  "ContactName": "Pfannerstill Group",
+  "Important": true,
+  "Author": "voluptate",
+  "PersonId": 670,
+  "PersonFullName": "Miss Gianni Ryder Shields",
+  "ContactId": 434,
+  "ContactName": "Stracke Group",
   "ContactDepartment": "",
-  "NumAttachments": 788,
-  "EmailHeader": "dashawn.abernathy@nicolas.uk",
+  "NumAttachments": 54,
+  "EmailHeader": "samantha_macejkovic@metz.biz",
   "MessageHeaders": [
     {
-      "Id": 167,
-      "Name": "Bauch-Carter",
-      "Value": "natus",
+      "Id": 907,
+      "Name": "Macejkovic Group",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldType": "System.String",
+          "FieldLength": 779
         }
       }
     }
   ],
-  "Language": "expedita",
-  "Sentiment": 126,
-  "SentimentConfidence": 1002,
-  "CreatedBy": 396,
-  "ChangedAt": "2023-05-29T23:03:57.4326095+02:00",
+  "Language": "laborum",
+  "Sentiment": 557,
+  "SentimentConfidence": 641,
+  "CreatedBy": 943,
+  "ChangedAt": "2001-11-29T16:54:56.5622922+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 406
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Type": "voluptatem"
+  "Id": 755,
+  "Type": "non"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 402,
-    "Rank": 593,
-    "DefaultTask": 338,
-    "DefaultTaskText": "excepturi",
-    "IsVisual": false,
-    "LastGenerated": "2005-03-27T23:03:56.8466198+02:00",
-    "Description": "Quality-focused client-driven productivity",
-    "Name": "Bins LLC",
-    "StatusMonitorId": 586,
-    "PictureId": 446,
+    "OwnerTable": 50,
+    "Rank": 774,
+    "DefaultTask": 127,
+    "DefaultTaskText": "quo",
+    "IsVisual": true,
+    "LastGenerated": "2003-11-01T16:54:56.1969713+01:00",
+    "Description": "Seamless hybrid circuit",
+    "Name": "Hauck Inc and Sons",
+    "StatusMonitorId": 276,
+    "PictureId": 622,
     "NeedsUpdate": false,
     "Deleted": false,
-    "NumMatches": 583,
-    "NumNeedUpdate": 265,
-    "GenerationStart": "2006-10-24T23:03:56.8466198+02:00",
+    "NumMatches": 761,
+    "NumNeedUpdate": 980,
+    "GenerationStart": "2011-12-11T16:54:56.1969713+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldType": "System.String",
+        "FieldLength": 935
       }
     }
   }

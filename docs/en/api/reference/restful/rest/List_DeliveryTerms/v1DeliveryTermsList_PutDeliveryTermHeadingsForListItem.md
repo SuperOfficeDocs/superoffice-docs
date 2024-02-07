@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Bruen, Hartmann and Schumm",
-    "ToolTip": "Et dignissimos soluta dolor est.",
-    "Deleted": true,
-    "Rank": 563,
-    "Type": "sapiente",
-    "ColorBlock": 983,
-    "IconHint": "unde",
-    "Selected": false,
-    "LastChanged": "1999-10-25T23:04:05.4450023+02:00",
+    "Id": 614,
+    "Name": "Leuschke Inc and Sons",
+    "ToolTip": "Autem quibusdam est commodi molestiae et libero.",
+    "Deleted": false,
+    "Rank": 381,
+    "Type": "itaque",
+    "ColorBlock": 232,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2005-08-13T16:55:30.6572161+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Brekke-Dooley",
-        "ToolTip": "Esse corrupti aut suscipit quasi libero id id.",
+        "Id": 597,
+        "Name": "Rosenbaum LLC",
+        "ToolTip": "Molestias minus quia et veniam praesentium.",
         "Deleted": true,
-        "Rank": 261,
-        "Type": "aliquid",
-        "ColorBlock": 368,
-        "IconHint": "consequatur",
+        "Rank": 176,
+        "Type": "ab",
+        "ColorBlock": 962,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2019-11-24T23:04:05.4460006+01:00",
+        "LastChanged": "2000-01-26T16:55:30.6572161+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Mr. Samanta Alejandra Reinger DVM"
+        "ExtraInfo": "maiores",
+        "StyleHint": "deserunt",
+        "Hidden": false,
+        "FullName": "Amya Pfannerstill"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "ullam",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Brando Hyatt"
+    "FullName": "Lenore Schiller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Leuschke, Mosciski and Stokes",
-    "ToolTip": "Corporis est minima deleniti itaque aut voluptatibus.",
-    "Deleted": true,
-    "Rank": 124,
-    "Type": "repellat",
-    "ColorBlock": 780,
-    "IconHint": "occaecati",
+    "Id": 197,
+    "Name": "Koelpin-Cormier",
+    "ToolTip": "Blanditiis placeat velit qui.",
+    "Deleted": false,
+    "Rank": 91,
+    "Type": "a",
+    "ColorBlock": 510,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2001-07-02T23:04:05.4475024+02:00",
+    "LastChanged": "2020-05-27T16:55:30.6582152+02:00",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Bayer-Douglas",
-        "ToolTip": "Deleniti inventore dolor hic voluptas mollitia.",
-        "Deleted": false,
-        "Rank": 371,
-        "Type": "consequatur",
-        "ColorBlock": 190,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "1996-11-11T23:04:05.4475024+01:00",
+        "Id": 305,
+        "Name": "Lehner, Abernathy and Roberts",
+        "ToolTip": "Id temporibus quia aut.",
+        "Deleted": true,
+        "Rank": 155,
+        "Type": "voluptas",
+        "ColorBlock": 928,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2023-04-17T16:55:30.6582152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "rerum",
+        "ExtraInfo": "in",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Mr. Yessenia Homenick",
+        "FullName": "Prof. Mack Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldType": "System.String",
+            "FieldLength": 596
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Brayan Howe",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quasi",
+    "Hidden": false,
+    "FullName": "Ms. Kenyatta Bayer DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldType": "System.String",
+        "FieldLength": 703
       }
     }
   }

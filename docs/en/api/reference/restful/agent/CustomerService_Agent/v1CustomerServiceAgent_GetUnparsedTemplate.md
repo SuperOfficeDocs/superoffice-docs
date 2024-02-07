@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 229,
-  "LanguageId": 525
+  "ReplyTemplateId": 318,
+  "LanguageId": 628
 }
 ```
 
@@ -96,35 +96,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 194,
-  "PlainParsed": "iusto",
-  "HtmlParsed": "magnam",
+  "ReplyTemplateId": 92,
+  "PlainParsed": "eaque",
+  "HtmlParsed": "dolor",
   "Attachments": [
     {
-      "AttachmentId": 180,
-      "Name": "Jenkins Group",
-      "ContentType": "similique",
-      "AttSize": 428,
+      "AttachmentId": 596,
+      "Name": "Breitenberg, Von and Daniel",
+      "ContentType": "sit",
+      "AttSize": 27,
       "InlineImage": true,
-      "ContentId": "ab",
-      "AuthKey": "qui",
+      "ContentId": "quos",
+      "AuthKey": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldType": "System.String",
+          "FieldLength": 436
         }
       }
     }
   ],
-  "Subject": "corrupti",
+  "Subject": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 788
     }
   }
 }

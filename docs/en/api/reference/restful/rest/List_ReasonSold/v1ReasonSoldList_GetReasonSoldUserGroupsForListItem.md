@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Funk Inc and Sons",
-    "ToolTip": "Ipsam consequuntur illum distinctio voluptatem.",
-    "Deleted": true,
-    "Rank": 360,
-    "Type": "voluptas",
-    "ColorBlock": 710,
-    "IconHint": "laboriosam",
+    "Id": 346,
+    "Name": "McGlynn, Gerlach and Heidenreich",
+    "ToolTip": "Qui quo.",
+    "Deleted": false,
+    "Rank": 798,
+    "Type": "autem",
+    "ColorBlock": 151,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2022-10-16T23:04:05.7624958+02:00",
+    "LastChanged": "2007-06-05T16:55:31.0321832+02:00",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Howell Inc and Sons",
-        "ToolTip": "Sed consequatur.",
-        "Deleted": true,
-        "Rank": 788,
-        "Type": "at",
-        "ColorBlock": 311,
-        "IconHint": "dolorem",
+        "Id": 3,
+        "Name": "Jones, Kassulke and Macejkovic",
+        "ToolTip": "Sit sapiente et.",
+        "Deleted": false,
+        "Rank": 577,
+        "Type": "sint",
+        "ColorBlock": 998,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2015-03-18T23:04:05.7624958+01:00",
+        "LastChanged": "2013-03-30T16:55:31.0321832+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "vitae",
-        "Hidden": false,
-        "FullName": "Ashtyn Anderson",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "libero",
+        "Hidden": true,
+        "FullName": "Helene Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 317
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "autem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mr. Ari Bella Kris II",
+    "FullName": "Cielo Ward PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldType": "System.String",
+        "FieldLength": 601
       }
     }
   }

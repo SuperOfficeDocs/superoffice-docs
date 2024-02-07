@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 659,
-  "Name": "Barrows, Crona and Eichmann",
-  "Tooltip": "ipsa",
+  "HeadingId": 327,
+  "Name": "Lakin-Wuckert",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 389,
-  "UdListDefinitionId": 29
+  "Rank": 241,
+  "UdListDefinitionId": 972
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 396,
-  "Name": "Runolfsdottir, Prosacco and McLaughlin",
-  "Tooltip": "error",
-  "Deleted": false,
-  "Rank": 967,
-  "UdListDefinitionId": 664,
+  "HeadingId": 719,
+  "Name": "Murray-Predovic",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 333,
+  "UdListDefinitionId": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 20
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "McLaughlin Group",
-    "ToolTip": "Dolores nulla culpa deserunt.",
-    "Deleted": false,
-    "Rank": 589,
-    "Type": "dolor",
-    "ColorBlock": 121,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2000-07-28T23:04:05.6834989+02:00",
+    "Id": 81,
+    "Name": "Douglas, Hudson and Anderson",
+    "ToolTip": "Ab fugiat occaecati est in veniam asperiores.",
+    "Deleted": true,
+    "Rank": 547,
+    "Type": "et",
+    "ColorBlock": 909,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2017-01-03T16:55:30.8498459+01:00",
     "ChildItems": [
       {
-        "Id": 722,
-        "Name": "Leuschke, Reichert and Klocko",
-        "ToolTip": "Qui et doloribus ut ea.",
+        "Id": 346,
+        "Name": "Hahn, Walsh and Effertz",
+        "ToolTip": "Ut dolores.",
         "Deleted": false,
-        "Rank": 183,
-        "Type": "voluptas",
-        "ColorBlock": 813,
-        "IconHint": "voluptatibus",
+        "Rank": 964,
+        "Type": "minus",
+        "ColorBlock": 546,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2008-12-05T23:04:05.6839972+01:00",
+        "LastChanged": "1997-08-23T16:55:30.8498459+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "qui",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Brock Torphy",
+        "FullName": "Kayden Parker IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 5
+            "FieldType": "System.Int32",
+            "FieldLength": 519
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Eladio Koelpin MD",
+    "ExtraInfo": "quas",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Mrs. Kaycee Ericka Littel PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 445
       }
     }
   }

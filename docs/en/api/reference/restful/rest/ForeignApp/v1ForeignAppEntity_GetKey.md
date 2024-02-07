@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 20 Sep 2014 23:04:04 G9T
+Last-Modified: Mon, 26 Dec 2005 16:55:29 G12T
 
 {
-  "Key": "voluptas",
-  "Value": "qui",
-  "RecordId": 583,
-  "CreatedDate": "2015-03-05T23:04:04.2275181+01:00",
-  "UpdatedDate": "2014-09-20T23:04:04.2275181+02:00",
-  "UpdatedBy": "accusantium",
-  "CreatedBy": "eaque",
-  "TableName": "Purdy LLC",
+  "Key": "aspernatur",
+  "Value": "reprehenderit",
+  "RecordId": 85,
+  "CreatedDate": "2002-08-19T16:55:29.6544397+02:00",
+  "UpdatedDate": "2005-12-26T16:55:29.6544397+01:00",
+  "UpdatedBy": "dignissimos",
+  "CreatedBy": "nesciunt",
+  "TableName": "Medhurst Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldType": "System.String",
+      "FieldLength": 345
     }
   }
 }

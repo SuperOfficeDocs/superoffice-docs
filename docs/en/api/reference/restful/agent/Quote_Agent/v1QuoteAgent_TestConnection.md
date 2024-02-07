@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Kris-King",
+  "ConnectorName": "Collins-Schamberger",
   "ConnectionData": {
-    "ConnectionData1": "atque",
-    "ConnectionData2": "assumenda"
+    "ConnectionData1": "veritatis",
+    "ConnectionData2": "quia"
   }
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "iure",
-  "TechExplanation": "iste",
-  "ErrorCode": "doloribus",
+  "IsOk": true,
+  "UserExplanation": "animi",
+  "TechExplanation": "temporibus",
+  "ErrorCode": "sequi",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   }
 }

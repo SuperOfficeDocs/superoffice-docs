@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 612,
-  "Name": "Huel-Halvorson",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 930,
-  "UdListDefinitionId": 505
+  "HeadingId": 459,
+  "Name": "Lang-Leffler",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 171,
+  "UdListDefinitionId": 295
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 973,
-  "Name": "Farrell-Gerhold",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 378,
-  "UdListDefinitionId": 6,
+  "HeadingId": 518,
+  "Name": "Trantow-Cassin",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 125,
+  "UdListDefinitionId": 554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldLength": 221
     }
   }
 }

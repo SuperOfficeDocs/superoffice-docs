@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 469,
-  "ColumnId": 990,
-  "FieldDefault": "vero",
-  "FieldHeight": 640,
-  "FieldLabel": "nesciunt",
-  "FieldLeft": 220,
-  "FieldTop": 585,
+  "UDefFieldId": 762,
+  "ColumnId": 753,
+  "FieldDefault": "saepe",
+  "FieldHeight": 676,
+  "FieldLabel": "corrupti",
+  "FieldLeft": 181,
+  "FieldTop": 99,
   "FieldType": "Checkbox",
-  "FieldWidth": 997,
-  "FormatMask": "error",
+  "FieldWidth": 406,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 479,
-  "LabelLeft": 258,
-  "LabelTop": 144,
-  "LabelWidth": 240,
-  "LastVersionId": 172,
-  "ListTableId": 751,
+  "LabelHeight": 640,
+  "LabelLeft": 960,
+  "LabelTop": 96,
+  "LabelWidth": 619,
+  "LastVersionId": 874,
+  "ListTableId": 194,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 100,
-  "ProgId": "officia",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 786,
-  "TextLength": 694,
-  "Tooltip": "ipsa",
-  "UdefIdentity": 468,
-  "UDListDefinitionId": 493,
+  "Page1LineNo": 199,
+  "ProgId": "eos",
+  "IsReadOnly": true,
+  "ShortLabel": "dignissimos",
+  "TabOrder": 206,
+  "TextLength": 974,
+  "Tooltip": "dolore",
+  "UdefIdentity": 176,
+  "UDListDefinitionId": 875,
   "Justification": "Center",
-  "Version": 528,
-  "TemplateVariableName": "Wilderman, Kreiger and Wisoky",
+  "Version": 128,
+  "TemplateVariableName": "Braun, Bernhard and Brakus",
   "HasBeenPublished": false,
-  "MdoListName": "Legros LLC",
+  "MdoListName": "Schoen LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

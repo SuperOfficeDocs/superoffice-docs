@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 650,
-  "Name": "Bayer Group",
-  "CurrencyId": 643,
-  "EnglishName": "Carroll, Glover and Jakubowski",
+  "CountryId": 212,
+  "Name": "Hackett-Swaniawski",
+  "CurrencyId": 951,
+  "EnglishName": "Zieme LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Stand-alone uniform matrices",
-  "OrgNrText": "1332432",
-  "InterAreaPrefix": "optio",
-  "DialInPrefix": "ratione",
-  "ZipPrefix": "aut",
-  "DomainName": "Zemlak-Nitzsche",
-  "AddressLayoutId": 735,
-  "DomesticAddressLayoutId": 129,
-  "ForeignAddressLayoutId": 168,
-  "Rank": 658,
-  "Tooltip": "eum",
+  "ImageDescription": "Seamless bi-directional data-warehouse",
+  "OrgNrText": "878622",
+  "InterAreaPrefix": "nam",
+  "DialInPrefix": "voluptas",
+  "ZipPrefix": "sed",
+  "DomainName": "Kunde, Rohan and Kassulke",
+  "AddressLayoutId": 124,
+  "DomesticAddressLayoutId": 941,
+  "ForeignAddressLayoutId": 882,
+  "Rank": 847,
+  "Tooltip": "consequatur",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

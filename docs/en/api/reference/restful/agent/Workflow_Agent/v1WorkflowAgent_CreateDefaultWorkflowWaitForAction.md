@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 956,
-  "WorkflowStepId": 305,
-  "WorkflowId": 750,
-  "Rank": 373,
+  "WorkflowWaitForActionId": 506,
+  "WorkflowStepId": 25,
+  "WorkflowId": 690,
+  "Rank": 647,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Luettgen-Wisoky",
-      "Description": "Devolved non-volatile installation",
-      "Rank": 340,
+      "Name": "Weimann Inc and Sons",
+      "Description": "Integrated impactful analyzer",
+      "Rank": 54,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Luettgen-Wisoky",
-      "Description": "Devolved non-volatile installation",
-      "Rank": 340,
+      "Name": "Weimann Inc and Sons",
+      "Description": "Integrated impactful analyzer",
+      "Rank": 54,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 158
     }
   }
 }

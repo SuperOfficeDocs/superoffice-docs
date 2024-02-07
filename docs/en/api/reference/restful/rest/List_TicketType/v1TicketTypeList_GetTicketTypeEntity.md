@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 573,
-  "Name": "Lubowitz, Swift and Schmitt",
-  "Rank": 688,
-  "Tooltip": "impedit",
-  "Icon": "soluta",
-  "DefaultTicketStatus": 64,
+  "TicketTypeId": 396,
+  "Name": "Cruickshank-Jacobson",
+  "Rank": 98,
+  "Tooltip": "molestiae",
+  "Icon": "unde",
+  "DefaultTicketStatus": 276,
   "TicketStatuses": [
-    772,
-    670
+    486,
+    882
   ],
-  "DefaultTicketPriority": 188,
+  "DefaultTicketPriority": 248,
   "TicketPriorities": [
-    582,
-    285
+    915,
+    33
   ],
-  "ReplyTemplate": 381,
+  "ReplyTemplate": 608,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldType": "System.Int32",
+      "FieldLength": 334
     }
   }
 }

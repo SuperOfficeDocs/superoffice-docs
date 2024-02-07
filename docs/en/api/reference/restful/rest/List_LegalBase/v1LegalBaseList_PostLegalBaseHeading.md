@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 459,
-  "Name": "Gottlieb LLC",
-  "Tooltip": "suscipit",
+  "HeadingId": 302,
+  "Name": "Reynolds, Kutch and Marquardt",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 640,
-  "UdListDefinitionId": 829
+  "Rank": 755,
+  "UdListDefinitionId": 650
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 395,
-  "Name": "Gusikowski Inc and Sons",
-  "Tooltip": "similique",
-  "Deleted": false,
-  "Rank": 744,
-  "UdListDefinitionId": 378,
+  "HeadingId": 916,
+  "Name": "Johnston, Thompson and Treutel",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "Rank": 294,
+  "UdListDefinitionId": 587,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

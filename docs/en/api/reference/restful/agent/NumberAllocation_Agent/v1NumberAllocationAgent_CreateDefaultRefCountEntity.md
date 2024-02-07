@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 316,
-  "Field": "et",
-  "RecordId": 76,
+  "RefCountsId": 247,
+  "Field": "temporibus",
+  "RecordId": 856,
   "SuggestedRecords": [
     {
-      "Id": 938,
-      "Name": "Sauer Inc and Sons",
-      "ToolTip": "Qui placeat ex repellat ut.",
+      "Id": 347,
+      "Name": "Dickens, Sipes and Kuphal",
+      "ToolTip": "Ad possimus adipisci inventore ab odit quo iste.",
       "Deleted": false,
-      "Rank": 449,
-      "Type": "doloribus",
+      "Rank": 230,
+      "Type": "nihil",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laudantium",
-      "ColorBlock": 365,
-      "ExtraInfo": "aut",
-      "StyleHint": "rerum",
-      "FullName": "Dr. Eusebio Zboncak",
+      "IconHint": "id",
+      "ColorBlock": 743,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "quis",
+      "FullName": "Elmira Kuhlman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 745
         }
       }
     }
   ],
-  "CurrentValue": 577,
-  "TravelPrefix": 871,
-  "SatPrefix": 704,
-  "Allocate": true,
-  "Unique": false,
-  "ReadOnly": true,
+  "CurrentValue": 631,
+  "TravelPrefix": 420,
+  "SatPrefix": 257,
+  "Allocate": false,
+  "Unique": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldLength": 261
     }
   }
 }

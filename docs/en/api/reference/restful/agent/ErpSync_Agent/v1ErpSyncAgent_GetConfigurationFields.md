@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 806
+  "ErpConnectorId": 824
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "soluta",
-    "Rank": 181,
-    "DisplayName": "Bartell Inc and Sons",
-    "DisplayDescription": "Total exuding circuit",
+    "FieldKey": "illum",
+    "Rank": 532,
+    "DisplayName": "O'Kon, Mohr and Gibson",
+    "DisplayDescription": "Multi-channelled asynchronous website",
     "FieldType": "Checkbox",
-    "ListName": "Stanton, Auer and Harvey",
-    "DefaultValue": "aut",
-    "MaxLength": 892,
+    "ListName": "Herman, Considine and Reichert",
+    "DefaultValue": "molestiae",
+    "MaxLength": 762,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 601
       }
     }
   }

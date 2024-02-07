@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Streich Group"
+  "OwnerName": "Dickens Inc and Sons"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "fugit",
+  "Message": "ut",
   "Url": "http://www.example.com/"
 }
 ```

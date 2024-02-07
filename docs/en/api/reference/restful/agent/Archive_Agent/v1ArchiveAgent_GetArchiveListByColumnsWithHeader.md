@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wiegand-Fisher",
+  "ProviderName": "Wiegand-Jones",
   "Columns": [
-    "quia",
-    "accusantium"
+    "architecto",
+    "eligendi"
   ],
   "SortOrder": [
     {
-      "Name": "Bartell-Stark",
+      "Name": "Fisher Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Bartell-Stark",
+      "Name": "Fisher Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Gaylord-Monahan",
-      "Operator": "mollitia",
+      "Name": "Ward, Eichmann and Strosin",
+      "Operator": "sunt",
       "Values": [
-        "saepe",
-        "est"
+        "exercitationem",
+        "iste"
       ],
       "DisplayValues": [
-        "est",
-        "voluptates"
+        "accusamus",
+        "harum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 311,
+      "InterParenthesis": 949,
       "InterOperator": "And",
-      "UniqueHash": 272
+      "UniqueHash": 432
     }
   ],
   "Entities": [
-    "eos",
-    "hic"
+    "nisi",
+    "veniam"
   ],
-  "Page": 343,
-  "PageSize": 21,
-  "Options": "numquam"
+  "Page": 470,
+  "PageSize": 175,
+  "Options": "ducimus"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 665,
+  "RowCount": 542,
   "Rows": [
     {
-      "EntityName": "Pfeffer-Adams",
-      "PrimaryKey": 559,
+      "EntityName": "Dicki-Friesen",
+      "PrimaryKey": 788,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fugiat",
-          "TooltipHint": "quas",
-          "LinkHint": "temporibus"
+          "DisplayValue": "repudiandae",
+          "TooltipHint": "tenetur",
+          "LinkHint": "dolor"
         }
       },
-      "LinkHint": "esse",
-      "StyleHint": "laboriosam",
+      "LinkHint": "libero",
+      "StyleHint": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 450
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 912
     }
   }
 }

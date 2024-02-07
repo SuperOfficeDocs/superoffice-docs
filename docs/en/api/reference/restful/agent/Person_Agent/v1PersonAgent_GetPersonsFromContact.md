@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 291
+  "ContactId": 458
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "molestias",
-    "PersonId": 726,
-    "Mrmrs": "et",
-    "Firstname": "Marilyne",
-    "Lastname": "Skiles",
-    "MiddleName": "Herman LLC",
-    "Title": "voluptates",
-    "Description": "Seamless zero defect strategy",
-    "Email": "reuben@stanton.com",
-    "FullName": "Alvis Greenholt",
-    "DirectPhone": "1-688-006-0950 x496",
-    "FormalName": "Harber, Abbott and Ernser",
-    "CountryId": 96,
-    "ContactId": 198,
-    "ContactName": "Towne-Lehner",
-    "Retired": 111,
-    "Rank": 744,
-    "ActiveInterests": 967,
+    "Position": "nam",
+    "PersonId": 606,
+    "Mrmrs": "reiciendis",
+    "Firstname": "Armand",
+    "Lastname": "Hessel",
+    "MiddleName": "Brakus Inc and Sons",
+    "Title": "facere",
+    "Description": "Triple-buffered context-sensitive help-desk",
+    "Email": "danika_schamberger@littleolson.com",
+    "FullName": "Celia O'Hara",
+    "DirectPhone": "743-696-8407",
+    "FormalName": "Farrell, Larson and Runolfsson",
+    "CountryId": 278,
+    "ContactId": 58,
+    "ContactName": "Gaylord-Hodkiewicz",
+    "Retired": 522,
+    "Rank": 782,
+    "ActiveInterests": 62,
     "ContactDepartment": "",
-    "ContactCountryId": 574,
-    "ContactOrgNr": "1249473",
-    "FaxPhone": "717.824.8515 x0739",
-    "MobilePhone": "262.582.0878 x7452",
-    "ContactPhone": "1-802-959-9725 x890",
-    "AssociateName": "Cummings Inc and Sons",
-    "AssociateId": 189,
+    "ContactCountryId": 450,
+    "ContactOrgNr": "1239309",
+    "FaxPhone": "779-714-5006 x43479",
+    "MobilePhone": "1-550-187-0239 x3920",
+    "ContactPhone": "176-773-7699 x25657",
+    "AssociateName": "Gorczany-Bruen",
+    "AssociateId": 717,
     "UsePersonAddress": false,
-    "ContactFax": "possimus",
-    "Kanafname": "porro",
-    "Kanalname": "eius",
-    "Post1": "mollitia",
-    "Post2": "earum",
-    "Post3": "aut",
-    "EmailName": "king.orn@breitenbergkessler.com",
-    "ContactFullName": "Alayna Gleichner",
-    "ActiveErpLinks": 849,
-    "TicketPriorityId": 390,
-    "SupportLanguageId": 732,
-    "SupportAssociateId": 969,
+    "ContactFax": "libero",
+    "Kanafname": "sed",
+    "Kanalname": "laboriosam",
+    "Post1": "id",
+    "Post2": "deserunt",
+    "Post3": "quidem",
+    "EmailName": "dewayne@bauch.info",
+    "ContactFullName": "Anjali Alexandro Littel DDS",
+    "ActiveErpLinks": 421,
+    "TicketPriorityId": 558,
+    "SupportLanguageId": 721,
+    "SupportAssociateId": 343,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 601
       }
     }
   }

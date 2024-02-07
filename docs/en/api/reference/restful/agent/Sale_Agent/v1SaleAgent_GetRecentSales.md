@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 446,
-  "Count": 406
+  "AmountLimit": 338,
+  "Count": 271
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ebert-Ward",
-    "SaleDate": "2023-03-15T23:03:56.9221159+01:00",
-    "SaleId": 117,
-    "Probability": 752,
-    "Title": "adipisci",
-    "Amount": 2306.624,
-    "Currency": "deleniti",
-    "ProjectName": "Jones Inc and Sons",
-    "AssociateFullName": "Joany Brown",
-    "Description": "Team-oriented optimal extranet",
+    "ContactName": "Wolf, Brakus and Cormier",
+    "SaleDate": "2014-09-30T16:54:56.2564966+02:00",
+    "SaleId": 262,
+    "Probability": 323,
+    "Title": "nemo",
+    "Amount": 16635.272,
+    "Currency": "eos",
+    "ProjectName": "Osinski-Bechtelar",
+    "AssociateFullName": "Rosa Funk",
+    "Description": "Pre-emptive object-oriented utilisation",
     "Status": "Lost",
-    "WeightedAmount": 22774.778,
-    "ProjectId": 971,
-    "EarningPercent": 14544.894,
-    "Earning": 8057.514,
-    "ContactId": 803,
-    "AssociateId": 892,
-    "PersonId": 420,
-    "SaleTypeId": 281,
-    "SaleTypeName": "Waters, Glover and Halvorson",
-    "PersonFullName": "Adah Pagac",
+    "WeightedAmount": 2018.2959999999998,
+    "ProjectId": 760,
+    "EarningPercent": 19540.489999999998,
+    "Earning": 25711.336,
+    "ContactId": 558,
+    "AssociateId": 394,
+    "PersonId": 413,
+    "SaleTypeId": 414,
+    "SaleTypeName": "Conroy, Schneider and Schmidt",
+    "PersonFullName": "Prof. Adell Deckow",
     "Completed": "Completed",
-    "ActiveErpLinks": 423,
-    "NextDueDate": "2000-07-17T23:03:56.922621+02:00",
-    "Number": "988166",
+    "ActiveErpLinks": 512,
+    "NextDueDate": "1999-06-24T16:54:56.2564966+02:00",
+    "Number": "1294602",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldLength": 685
       }
     }
   }

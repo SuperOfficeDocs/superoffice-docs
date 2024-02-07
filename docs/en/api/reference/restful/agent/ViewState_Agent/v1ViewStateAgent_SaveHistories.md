@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Sporer, Strosin and Adams",
+  "HistoryName": "DuBuque, Kohler and Ondricka",
   "History": [
     {
-      "Rank": 625,
-      "Id": 896,
-      "HistoryName": "Friesen, Mitchell and Kihn",
-      "HistoryId": 768,
-      "AssociateId": 513,
-      "Name": "Gibson-Conn",
-      "ItemInfo": "nihil"
+      "Rank": 271,
+      "Id": 588,
+      "HistoryName": "Tillman Group",
+      "HistoryId": 755,
+      "AssociateId": 89,
+      "Name": "Jakubowski, Bins and Reynolds",
+      "ItemInfo": "dolores"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 260,
-    "Id": 618,
-    "HistoryName": "Jast-Swaniawski",
-    "HistoryId": 147,
-    "AssociateId": 593,
-    "Name": "Funk-Cartwright",
-    "ItemInfo": "quod",
+    "Rank": 187,
+    "Id": 903,
+    "HistoryName": "Haley, Runolfsdottir and Leannon",
+    "HistoryId": 614,
+    "AssociateId": 718,
+    "Name": "Crona Inc and Sons",
+    "ItemInfo": "dignissimos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldType": "System.String",
+        "FieldLength": 774
       }
     }
   }

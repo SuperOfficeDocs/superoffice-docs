@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=eum
+GET /api/v1/List/Position/MDOItems?query=dolores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Price LLC",
-    "ToolTip": "Quo officiis nostrum ratione.",
-    "Deleted": false,
-    "Rank": 496,
-    "Type": "adipisci",
+    "Id": 472,
+    "Name": "Runolfsson-Hand",
+    "ToolTip": "Quis consequatur nostrum veritatis.",
+    "Deleted": true,
+    "Rank": 645,
+    "Type": "dignissimos",
     "ChildItems": [
       {
-        "Id": 834,
-        "Name": "D'Amore Group",
-        "ToolTip": "Officia quis vero inventore vero voluptates quo.",
+        "Id": 98,
+        "Name": "Barton-Reinger",
+        "ToolTip": "Voluptas error.",
         "Deleted": false,
-        "Rank": 215,
-        "Type": "consequatur",
+        "Rank": 516,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 42,
-        "ExtraInfo": "et",
-        "StyleHint": "praesentium",
-        "FullName": "Sasha Lindgren",
+        "IconHint": "sed",
+        "ColorBlock": 527,
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "distinctio",
+        "FullName": "Ola Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 416
+            "FieldType": "System.Int32",
+            "FieldLength": 389
           }
         }
       }
     ],
-    "IconHint": "ab",
-    "ColorBlock": 951,
-    "ExtraInfo": "nisi",
-    "StyleHint": "consectetur",
-    "FullName": "Ms. Dawson McClure V",
+    "IconHint": "necessitatibus",
+    "ColorBlock": 681,
+    "ExtraInfo": "non",
+    "StyleHint": "pariatur",
+    "FullName": "Margaret Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 356
+        "FieldType": "System.Int32",
+        "FieldLength": 51
       }
     }
   }

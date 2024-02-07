@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 329,
-      "ColumnId": 839,
-      "FieldDefault": "qui",
-      "FieldHeight": 448,
-      "FieldLabel": "assumenda",
-      "FieldLeft": 871,
-      "FieldTop": 168,
+      "UDefFieldId": 953,
+      "ColumnId": 7,
+      "FieldDefault": "illo",
+      "FieldHeight": 203,
+      "FieldLabel": "accusamus",
+      "FieldLeft": 474,
+      "FieldTop": 802,
       "FieldType": "Checkbox",
-      "FieldWidth": 934,
-      "FormatMask": "quae",
+      "FieldWidth": 115,
+      "FormatMask": "qui",
       "HideLabel": false,
       "IsIndexed": true,
-      "LabelHeight": 115,
-      "LabelLeft": 523,
-      "LabelTop": 387,
-      "LabelWidth": 883,
-      "LastVersionId": 33,
-      "ListTableId": 294,
-      "IsMandatory": true,
+      "LabelHeight": 38,
+      "LabelLeft": 583,
+      "LabelTop": 974,
+      "LabelWidth": 913,
+      "LastVersionId": 12,
+      "ListTableId": 380,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 516,
-      "ProgId": "saepe",
-      "IsReadOnly": false,
-      "ShortLabel": "et",
-      "TabOrder": 163,
-      "TextLength": 973,
-      "Tooltip": "eos",
-      "UdefIdentity": 115,
-      "UDListDefinitionId": 108,
+      "Page1LineNo": 959,
+      "ProgId": "cupiditate",
+      "IsReadOnly": true,
+      "ShortLabel": "nihil",
+      "TabOrder": 140,
+      "TextLength": 396,
+      "Tooltip": "aut",
+      "UdefIdentity": 475,
+      "UDListDefinitionId": 422,
       "Justification": "Center",
-      "Version": 183,
-      "TemplateVariableName": "Morissette, Aufderhar and Jenkins",
-      "HasBeenPublished": false,
-      "MdoListName": "Parker-Luettgen"
+      "Version": 114,
+      "TemplateVariableName": "Harvey LLC",
+      "HasBeenPublished": true,
+      "MdoListName": "Buckridge, Feest and Hilpert"
     }
   ]
 }

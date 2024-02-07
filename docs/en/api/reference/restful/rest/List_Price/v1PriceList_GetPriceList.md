@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 583,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 118,
-  "Name": "Haag-Wiza",
-  "Description": "Visionary zero tolerance protocol",
-  "Currency": "possimus",
-  "CurrencyName": "Goldner LLC",
-  "ValidFrom": "2012-06-09T23:04:05.582498+02:00",
-  "ValidTo": "2003-09-19T23:04:05.582498+02:00",
+  "PriceListId": 586,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 398,
+  "Name": "Okuneva Inc and Sons",
+  "Description": "Visionary eco-centric initiative",
+  "Currency": "ex",
+  "CurrencyName": "King, Roob and Strosin",
+  "ValidFrom": "2022-04-21T16:55:30.7761776+02:00",
+  "ValidTo": "2013-10-10T16:55:30.7761776+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 334
     }
   },
   "_Links": {

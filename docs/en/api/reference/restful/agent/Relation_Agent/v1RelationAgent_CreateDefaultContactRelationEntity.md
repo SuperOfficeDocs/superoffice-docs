@@ -57,8 +57,8 @@ OK
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 977,
-  "SourcePersonId": 244,
-  "DestinationContactId": 493,
-  "DestinationPersonId": 900,
-  "RelationId": 559,
-  "Comment": "at",
-  "RelationDefinitionId": 219,
-  "Reversed": 752,
-  "UpdatedDate": "2015-10-28T23:03:56.8086174+01:00",
-  "CreatedDate": "1996-10-12T23:03:56.8086174+02:00",
+  "SourceContactId": 77,
+  "SourcePersonId": 680,
+  "DestinationContactId": 84,
+  "DestinationPersonId": 730,
+  "RelationId": 459,
+  "Comment": "laudantium",
+  "RelationDefinitionId": 370,
+  "Reversed": 21,
+  "UpdatedDate": "2017-06-18T16:54:56.164971+02:00",
+  "CreatedDate": "2008-02-07T16:54:56.164971+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Larkin Inc and Sons",
-  "SourcePersonName": "Bode-Bauch",
-  "DestinationContactName": "Abernathy LLC",
-  "DestinationPersonName": "Roberts, Gusikowski and McCullough",
-  "ActiveText": "necessitatibus",
-  "PassiveText": "facere",
+  "SourceContactName": "Morar, Altenwerth and Stanton",
+  "SourcePersonName": "Gusikowski LLC",
+  "DestinationContactName": "Steuber-Conroy",
+  "DestinationPersonName": "Wunsch-Dickens",
+  "ActiveText": "id",
+  "PassiveText": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   }
 }

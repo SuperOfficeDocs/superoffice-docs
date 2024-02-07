@@ -90,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Funk, Rippin and Ferry",
-  "Context": "et"
+  "ProviderName": "Brown, O'Connell and Homenick",
+  "Context": "maiores"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schamberger-Zieme",
-    "DisplayTooltip": "velit",
-    "DisplayType": "id",
-    "CanOrderBy": true,
-    "Name": "Hyatt Group",
+    "DisplayName": "Kub Group",
+    "DisplayTooltip": "enim",
+    "DisplayType": "sed",
+    "CanOrderBy": false,
+    "Name": "Zboncak, Quigley and Mitchell",
     "CanRestrictBy": false,
-    "RestrictionType": "ad",
-    "RestrictionListName": "Auer-Kling",
+    "RestrictionType": "odio",
+    "RestrictionListName": "Wolff, Fahey and Volkman",
     "IsVisible": false,
-    "ExtraInfo": "debitis",
-    "Width": "amet",
-    "IconHint": "nihil",
-    "HeadingIconHint": "iusto"
+    "ExtraInfo": "qui",
+    "Width": "incidunt",
+    "IconHint": "ut",
+    "HeadingIconHint": "quaerat"
   }
 ]
 ```

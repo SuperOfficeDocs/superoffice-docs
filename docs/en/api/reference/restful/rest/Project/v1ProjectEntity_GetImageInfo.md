@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 24 Mar 2007 23:04:04 G3T
+Last-Modified: Wed, 01 Jul 1998 16:55:29 G7T
 
 {
-  "BlobId": 950,
-  "BlobSize": 445,
-  "Description": "Decentralized composite Graphic Interface",
-  "ExtraInfo": "temporibus",
+  "BlobId": 431,
+  "BlobSize": 993,
+  "Description": "Compatible maximized migration",
+  "ExtraInfo": "voluptatem",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "distinctio",
-  "OriginalSize": 311,
-  "CreatedDate": "2019-09-02T23:04:04.6025116+02:00",
-  "UpdatedDate": "2007-03-24T23:04:04.6025116+01:00",
+  "MimeType": "quia",
+  "OriginalSize": 532,
+  "CreatedDate": "1999-10-13T16:55:29.9718981+02:00",
+  "UpdatedDate": "1998-07-01T16:55:29.9718981+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iusto",
+  "ConceptualType": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 160
     }
   }
 }

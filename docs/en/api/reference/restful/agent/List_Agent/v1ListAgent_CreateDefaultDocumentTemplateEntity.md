@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 585,
-  "Name": "Weber Group",
-  "Tooltip": "nisi",
-  "SaveInDb": 514,
-  "Filename": "in",
-  "DefaultOref": "consequatur",
+  "DocumentTemplateId": 798,
+  "Name": "Grimes, Stoltenberg and Swaniawski",
+  "Tooltip": "sint",
+  "SaveInDb": 453,
+  "Filename": "aut",
+  "DefaultOref": "quia",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 481,
-  "IntentId": 733,
+  "AutoeventId": 588,
+  "IntentId": 696,
   "IsDefaultPublished": true,
-  "Rank": 195,
-  "LoadTemplateFromPlugin": 149,
-  "MimeType": "esse",
+  "Rank": 532,
+  "LoadTemplateFromPlugin": 646,
+  "MimeType": "ipsa",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 2,
+  "DocumentTypeKey": 593,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mario@dickinson.co.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "vincenza_dubuque@corwin.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dina@joneshintz.biz",
+  "SenderEmailAddress": "twila.stark@kozeymorissette.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 617
     }
   }
 }

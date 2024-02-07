@@ -109,55 +109,55 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 913,
-    "Name": "Spinka-Luettgen",
-    "ToolTip": "Reiciendis deleniti ut delectus molestiae maxime.",
-    "Deleted": false,
-    "Rank": 388,
-    "Type": "eum",
-    "ColorBlock": 522,
-    "IconHint": "culpa",
+    "Name": "Boehm LLC",
+    "ToolTip": "Voluptatem nihil laudantium velit.",
+    "Deleted": true,
+    "Rank": 939,
+    "Type": "ut",
+    "ColorBlock": 370,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2022-06-29T23:03:57.5491072+02:00",
+    "LastChanged": "2022-03-19T16:54:56.6502049+01:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Mante-Hilll",
-        "ToolTip": "Perspiciatis placeat.",
+        "Id": 261,
+        "Name": "Stehr-Beier",
+        "ToolTip": "Dignissimos aliquam quibusdam.",
         "Deleted": false,
-        "Rank": 467,
-        "Type": "iure",
-        "ColorBlock": 901,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2019-12-19T23:03:57.5491072+01:00",
+        "Rank": 304,
+        "Type": "asperiores",
+        "ColorBlock": 107,
+        "IconHint": "reiciendis",
+        "Selected": false,
+        "LastChanged": "2023-07-10T16:54:56.6502049+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "ut",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Natalia Ward",
+        "FullName": "Lynn Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldType": "System.String",
+            "FieldLength": 51
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mrs. Meta Rau Sr.",
+    "FullName": "Aglae Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 425
+        "FieldLength": 964
       }
     }
   }

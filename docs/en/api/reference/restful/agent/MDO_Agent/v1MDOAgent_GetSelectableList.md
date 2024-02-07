@@ -94,9 +94,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "VonRueden-Hegmann",
+  "Name": "Wyman-Kohler",
   "ForceFlatList": false,
-  "AdditionalInfo": "quia",
+  "AdditionalInfo": "ut",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Lebsack-Breitenberg",
-    "ToolTip": "Quam voluptatem qui quia et.",
-    "Deleted": true,
-    "Rank": 80,
-    "Type": "temporibus",
-    "ColorBlock": 274,
-    "IconHint": "laboriosam",
-    "Selected": false,
-    "LastChanged": "2023-08-29T23:03:56.3511236+02:00",
+    "Id": 396,
+    "Name": "Blanda Inc and Sons",
+    "ToolTip": "Ut aspernatur sit excepturi ea quam.",
+    "Deleted": false,
+    "Rank": 396,
+    "Type": "et",
+    "ColorBlock": 474,
+    "IconHint": "consectetur",
+    "Selected": true,
+    "LastChanged": "2003-03-06T16:54:55.6685097+01:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Kling-Jakubowski",
-        "ToolTip": "Rerum nemo laudantium dolor sit hic non tempora.",
-        "Deleted": true,
-        "Rank": 454,
-        "Type": "voluptatem",
-        "ColorBlock": 760,
-        "IconHint": "eligendi",
+        "Id": 755,
+        "Name": "Nolan-Leffler",
+        "ToolTip": "Ipsum reiciendis ipsa repellat.",
+        "Deleted": false,
+        "Rank": 455,
+        "Type": "praesentium",
+        "ColorBlock": 171,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2012-11-19T23:03:56.3516282+01:00",
+        "LastChanged": "2011-03-23T16:54:55.6685097+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "quia",
+        "ExtraInfo": "ut",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Norbert Jakubowski",
+        "FullName": "Beatrice Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 810
+            "FieldLength": 43
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "iure",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Orion Jones",
+    "FullName": "Israel Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 754
       }
     }
   }

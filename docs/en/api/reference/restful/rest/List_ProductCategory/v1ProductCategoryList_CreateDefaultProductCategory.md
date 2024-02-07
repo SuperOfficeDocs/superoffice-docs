@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 855,
-  "Name": "Veum Inc and Sons",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "UdListDefinitionId": 765,
-  "Rank": 128,
+  "Id": 474,
+  "Name": "Donnelly, Stracke and Carter",
+  "Tooltip": "deserunt",
+  "Deleted": false,
+  "UdListDefinitionId": 809,
+  "Rank": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldType": "System.String",
+      "FieldLength": 370
     }
   }
 }

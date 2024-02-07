@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "nihil",
-  "IsoLangCode": "sed",
-  "UserPrompt": "dolores",
-  "DisplayValue": "pariatur",
+  "ChatId": "cumque",
+  "IsoLangCode": "rerum",
+  "UserPrompt": "est",
+  "DisplayValue": "error",
   "PreviousTurns": [
     {
-      "Timestamp": "2014-06-06T23:03:54.3526513+02:00",
-      "UserPrompt": "provident",
-      "UserDisplayText": "nemo",
-      "BotResponse": "vel",
+      "Timestamp": "2020-12-18T16:54:54.1812787+01:00",
+      "UserPrompt": "et",
+      "UserDisplayText": "sed",
+      "BotResponse": "corrupti",
       "BotActions": {
-        "BotActions1": "autem",
-        "BotActions2": "hic"
+        "BotActions1": "provident",
+        "BotActions2": "non"
       },
       "Attachments": [
-        "dolores",
-        "iure"
+        "maiores",
+        "cupiditate"
       ]
     },
     {
-      "Timestamp": "2014-06-06T23:03:54.3526513+02:00",
-      "UserPrompt": "provident",
-      "UserDisplayText": "nemo",
-      "BotResponse": "vel",
+      "Timestamp": "2020-12-18T16:54:54.1812787+01:00",
+      "UserPrompt": "et",
+      "UserDisplayText": "sed",
+      "BotResponse": "corrupti",
       "BotActions": {
-        "BotActions1": "autem",
-        "BotActions2": "hic"
+        "BotActions1": "provident",
+        "BotActions2": "non"
       },
       "Attachments": [
-        "dolores",
-        "iure"
+        "maiores",
+        "cupiditate"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2012-05-31T23:03:54.3546523+02:00",
-  "UserPrompt": "consequatur",
-  "UserDisplayText": "labore",
-  "BotResponse": "animi",
+  "Timestamp": "2018-01-14T16:54:54.1831886+01:00",
+  "UserPrompt": "repellendus",
+  "UserDisplayText": "non",
+  "BotResponse": "vel",
   "BotActions": {
-    "BotActions1": "debitis",
-    "BotActions2": "veritatis"
+    "BotActions1": "sint",
+    "BotActions2": "minus"
   },
   "Attachments": [
-    "qui",
-    "vel"
+    "minus",
+    "qui"
   ]
 }
 ```

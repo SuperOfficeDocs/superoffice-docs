@@ -87,14 +87,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsa",
-  "Value": "sit",
-  "RecordId": 65,
-  "CreatedDate": "2016-07-01T23:04:04.2300165+02:00",
-  "UpdatedDate": "2015-12-30T23:04:04.2300165+01:00",
-  "UpdatedBy": "ipsum",
-  "CreatedBy": "quis",
-  "TableName": "Goldner-Grady"
+  "Key": "ut",
+  "Value": "ducimus",
+  "RecordId": 14,
+  "CreatedDate": "2005-03-29T16:55:29.6584399+02:00",
+  "UpdatedDate": "2013-07-19T16:55:29.6584399+02:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "ab",
+  "TableName": "Barton LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dignissimos",
-  "Value": "distinctio",
-  "RecordId": 744,
-  "CreatedDate": "1997-08-10T23:04:04.2300165+02:00",
-  "UpdatedDate": "2006-05-03T23:04:04.2300165+02:00",
-  "UpdatedBy": "sint",
-  "CreatedBy": "et",
-  "TableName": "Pfeffer LLC",
+  "Key": "aliquam",
+  "Value": "vitae",
+  "RecordId": 283,
+  "CreatedDate": "1997-11-22T16:55:29.6584399+01:00",
+  "UpdatedDate": "2014-11-23T16:55:29.6584399+01:00",
+  "UpdatedBy": "sit",
+  "CreatedBy": "vero",
+  "TableName": "O'Keefe-Greenfelder",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldType": "System.String",
+      "FieldLength": 360
     }
   }
 }

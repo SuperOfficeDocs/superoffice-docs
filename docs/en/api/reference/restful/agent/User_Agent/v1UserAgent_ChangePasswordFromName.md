@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Spencer, Schaden and Windler",
-  "OldPassword": "atque",
-  "NewPassword": "praesentium"
+  "AssociateName": "Ruecker Group",
+  "OldPassword": "aut",
+  "NewPassword": "quis"
 }
 ```
 

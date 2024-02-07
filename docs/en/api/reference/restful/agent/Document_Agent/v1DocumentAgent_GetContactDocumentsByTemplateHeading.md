@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 844,
-  "StartTime": "2012-06-12T23:03:55.6646346+02:00",
-  "EndTime": "1997-01-22T23:03:55.6646346+01:00",
-  "Count": 880,
-  "TemplateHeadingId": 882
+  "ContactId": 958,
+  "StartTime": "2014-04-09T16:54:55.1343753+02:00",
+  "EndTime": "2008-11-16T16:54:55.1343753+01:00",
+  "Count": 854,
+  "TemplateHeadingId": 905
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 109,
-    "Attention": "rerum",
-    "Header": "explicabo",
-    "Name": "Little, Koch and Runolfsdottir",
-    "OurRef": "est",
-    "YourRef": "ratione",
-    "Description": "Pre-emptive secondary matrix",
-    "DocumentTemplate": "quidem",
-    "IsPublished": true,
-    "PersonId": 779,
-    "PersonFullName": "Kaylin Balistreri Jr.",
-    "AssociateFullName": "Cheyenne Nicolas",
-    "ContactId": 442,
-    "ContactName": "Cronin-Schimmel",
-    "ProjectId": 953,
-    "ProjectName": "Watsica Inc and Sons",
-    "AssociateId": 894,
-    "Snum": 327,
-    "SaleId": 565,
-    "SaleName": "Nicolas-Bins",
+    "DocumentId": 194,
+    "Attention": "voluptates",
+    "Header": "porro",
+    "Name": "Kub-Altenwerth",
+    "OurRef": "velit",
+    "YourRef": "itaque",
+    "Description": "Stand-alone dedicated capability",
+    "DocumentTemplate": "doloribus",
+    "IsPublished": false,
+    "PersonId": 643,
+    "PersonFullName": "Manuela Herman",
+    "AssociateFullName": "Mrs. Francisco Kris",
+    "ContactId": 522,
+    "ContactName": "Ritchie-Nienow",
+    "ProjectId": 839,
+    "ProjectName": "Schaden-Yundt",
+    "AssociateId": 702,
+    "Snum": 249,
+    "SaleId": 352,
+    "SaleName": "Jenkins-Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldLength": 119
       }
     }
   }

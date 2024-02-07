@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=ipsa
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Emmerich, Cormier and Botsford",
-    "ToolTip": "Et est ipsa quidem.",
+    "Id": 599,
+    "Name": "Kohler-Douglas",
+    "ToolTip": "Nihil veniam non ipsa similique illo ut.",
     "Deleted": false,
-    "Rank": 926,
-    "Type": "nulla",
+    "Rank": 78,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 39,
-        "Name": "Hickle-Ritchie",
-        "ToolTip": "Fugit voluptate.",
+        "Id": 443,
+        "Name": "Wiegand-Hand",
+        "ToolTip": "Provident amet vero eligendi velit accusamus.",
         "Deleted": false,
-        "Rank": 20,
-        "Type": "cumque",
+        "Rank": 396,
+        "Type": "explicabo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 556,
-        "ExtraInfo": "odit",
-        "StyleHint": "dolorem",
-        "FullName": "Dr. Caitlyn Dominic Koepp",
+        "IconHint": "voluptate",
+        "ColorBlock": 220,
+        "ExtraInfo": "qui",
+        "StyleHint": "ipsum",
+        "FullName": "Ova Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 583
+            "FieldType": "System.Int32",
+            "FieldLength": 688
           }
         }
       }
     ],
-    "IconHint": "nam",
-    "ColorBlock": 461,
-    "ExtraInfo": "sit",
-    "StyleHint": "beatae",
-    "FullName": "Ottilie Jacobson",
+    "IconHint": "nisi",
+    "ColorBlock": 542,
+    "ExtraInfo": "iusto",
+    "StyleHint": "voluptatem",
+    "FullName": "Annabelle Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldLength": 844
       }
     }
   }

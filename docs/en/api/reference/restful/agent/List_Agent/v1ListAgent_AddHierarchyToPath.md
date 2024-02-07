@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "assumenda",
-  "Name": "DuBuque, Schumm and Effertz"
+  "Path": "facilis",
+  "Name": "Rath-Kulas"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 267,
+  "HierarchyId": 135,
   "Domain": "Dashboards",
-  "Name": "Bruen Group",
-  "Fullname": "occaecati",
-  "ParentId": 265,
+  "Name": "Jones-Roberts",
+  "Fullname": "omnis",
+  "ParentId": 24,
   "Children": [
     {
-      "HierarchyId": 222,
+      "HierarchyId": 249,
       "Domain": "Dashboards",
-      "Name": "McDermott-Hoeger",
-      "Fullname": "qui",
-      "ParentId": 749,
+      "Name": "Price LLC",
+      "Fullname": "quo",
+      "ParentId": 175,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-11-18T23:03:56.2756221+01:00",
-      "RegisteredAssociateId": 8,
-      "Updated": "2000-12-14T23:03:56.2756221+01:00",
-      "UpdatedAssociateId": 809,
+      "Registered": "2019-02-07T16:54:55.6109849+01:00",
+      "RegisteredAssociateId": 748,
+      "Updated": "2007-10-04T16:54:55.6109849+02:00",
+      "UpdatedAssociateId": 252,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldType": "System.String",
+          "FieldLength": 890
         }
       }
     }
   ],
-  "Registered": "2002-03-10T23:03:56.2756221+01:00",
-  "RegisteredAssociateId": 250,
-  "Updated": "1997-08-01T23:03:56.2756221+02:00",
-  "UpdatedAssociateId": 769,
+  "Registered": "2011-12-30T16:54:55.6109849+01:00",
+  "RegisteredAssociateId": 625,
+  "Updated": "2022-09-18T16:54:55.6109849+02:00",
+  "UpdatedAssociateId": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 516
     }
   }
 }

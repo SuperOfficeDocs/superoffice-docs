@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quis",
-  "ProviderName": "Leannon-Rosenbaum",
-  "StorageKey": "tenetur",
+  "StorageType": "quisquam",
+  "ProviderName": "Goodwin-Wehner",
+  "StorageKey": "iure",
   "RestrictionGroup": null,
-  "Context": "impedit"
+  "Context": "nihil"
 }
 ```
 

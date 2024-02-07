@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 727,
-  "Name": "Schaefer Inc and Sons",
-  "Tooltip": "doloremque",
+  "HeadingId": 17,
+  "Name": "Ebert-Rau",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "Rank": 663,
-  "UdListDefinitionId": 61
+  "Rank": 229,
+  "UdListDefinitionId": 136
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 150,
-  "Name": "Towne-Christiansen",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 397,
-  "UdListDefinitionId": 710,
+  "HeadingId": 857,
+  "Name": "Dare-Dickens",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 311,
+  "UdListDefinitionId": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

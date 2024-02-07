@@ -71,31 +71,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 961,
-  "CrmRecordId": 394,
+  "ErpConnectionId": 250,
+  "CrmRecordId": 973,
   "CrmActorType": "Contact",
-  "ErpKey": "ea",
+  "ErpKey": "culpa",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Bechtelar Group",
-      "CrmFieldKey": "mollitia",
-      "Value": "quibusdam",
-      "DisplayValue": "iste",
+      "DisplayName": "Herzog-Stanton",
+      "CrmFieldKey": "fuga",
+      "Value": "quidem",
+      "DisplayValue": "nam",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Bechtelar Group",
-      "CrmFieldKey": "mollitia",
-      "Value": "quibusdam",
-      "DisplayValue": "iste",
+      "DisplayName": "Herzog-Stanton",
+      "CrmFieldKey": "fuga",
+      "Value": "quidem",
+      "DisplayValue": "nam",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }

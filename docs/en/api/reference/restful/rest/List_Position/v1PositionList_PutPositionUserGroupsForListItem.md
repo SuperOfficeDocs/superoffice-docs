@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 752,
-    "Name": "Mante LLC",
-    "ToolTip": "Cumque optio quis at explicabo.",
+    "Id": 423,
+    "Name": "Fadel, Grady and Hettinger",
+    "ToolTip": "Debitis autem exercitationem temporibus corrupti dolorum.",
     "Deleted": true,
-    "Rank": 564,
-    "Type": "provident",
-    "ColorBlock": 111,
-    "IconHint": "deleniti",
+    "Rank": 315,
+    "Type": "voluptas",
+    "ColorBlock": 636,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2016-02-18T23:04:05.5699982+01:00",
+    "LastChanged": "1998-11-09T16:55:30.767279+01:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Hoeger, Rowe and Turcotte",
-        "ToolTip": "Consequatur eius praesentium esse et enim iusto ut.",
+        "Id": 263,
+        "Name": "Bode, Bergnaum and Runte",
+        "ToolTip": "Nostrum deleniti esse dicta non.",
         "Deleted": false,
-        "Rank": 301,
-        "Type": "officia",
-        "ColorBlock": 786,
-        "IconHint": "quas",
+        "Rank": 540,
+        "Type": "pariatur",
+        "ColorBlock": 60,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2002-05-05T23:04:05.5699982+02:00",
+        "LastChanged": "1997-10-28T16:55:30.767279+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "est",
+        "ExtraInfo": "et",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Josianne Hand"
+        "FullName": "Carolina Kiehn"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "et",
+    "ExtraInfo": "ullam",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Darien Roberts"
+    "FullName": "Marcos Glover"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 95,
-    "Name": "Ankunding-Schroeder",
-    "ToolTip": "Eos sit repudiandae ipsum esse dolorem dolorem.",
+    "Id": 565,
+    "Name": "Strosin-Ernser",
+    "ToolTip": "Necessitatibus illum tempore saepe.",
     "Deleted": false,
-    "Rank": 886,
-    "Type": "sed",
-    "ColorBlock": 369,
-    "IconHint": "excepturi",
-    "Selected": true,
-    "LastChanged": "2013-06-27T23:04:05.5724997+02:00",
+    "Rank": 42,
+    "Type": "ducimus",
+    "ColorBlock": 467,
+    "IconHint": "fugit",
+    "Selected": false,
+    "LastChanged": "2003-03-11T16:55:30.7682579+01:00",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Wiegand, Powlowski and Schimmel",
-        "ToolTip": "Voluptatum magni magni modi.",
+        "Id": 486,
+        "Name": "Towne, Langosh and Krajcik",
+        "ToolTip": "Aut qui iure qui.",
         "Deleted": false,
-        "Rank": 13,
-        "Type": "sint",
-        "ColorBlock": 577,
-        "IconHint": "sunt",
+        "Rank": 307,
+        "Type": "molestiae",
+        "ColorBlock": 33,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2023-06-06T23:04:05.5724997+02:00",
+        "LastChanged": "2014-05-31T16:55:30.7682579+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "quae",
-        "Hidden": false,
-        "FullName": "Wilton Lueilwitz",
+        "ExtraInfo": "officiis",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Mr. Ansley Pearline Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 620
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "deleniti",
-    "Hidden": false,
-    "FullName": "Adelbert Oberbrunner",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Alexandria Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldLength": 126
       }
     }
   }

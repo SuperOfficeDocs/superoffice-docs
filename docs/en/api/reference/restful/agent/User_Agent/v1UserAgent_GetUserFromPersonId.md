@@ -71,9 +71,9 @@ OK
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup | UserGroup | The main user group that this user belongs to.  Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  Use MDO List name "usergroup" to get list items. |
+| Person | Person | The person associated with this user. Detailed information about the user  Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -84,11 +84,11 @@ OK
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 756
+  "PersonId": 420
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 880,
-    "Name": "Harvey Inc and Sons",
-    "Rank": 673,
-    "Tooltip": "odio",
+    "AssociateId": 342,
+    "Name": "Denesik-Bauch",
+    "Rank": 378,
+    "Tooltip": "molestias",
     "LicenseOwners": [
       {
-        "Name": "Brakus LLC",
-        "Description": "Front-line systemic utilisation",
+        "Name": "Bayer Inc and Sons",
+        "Description": "Centralized needs-based internet solution",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldLength": 624
           }
         }
       },
       {
-        "Name": "Brakus LLC",
-        "Description": "Front-line systemic utilisation",
+        "Name": "Bayer Inc and Sons",
+        "Description": "Centralized needs-based internet solution",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldLength": 624
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "sunt",
-        "Tooltip": "soluta",
-        "Id": 344,
-        "Rank": 288,
+        "Value": "sequi",
+        "Tooltip": "ipsum",
+        "Id": 90,
+        "Rank": 730,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldLength": 555
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2009-04-28T23:03:57.6011065+02:00",
-    "Lastlogout": "2006-03-26T23:03:57.6011065+02:00",
-    "EjUserId": 27,
-    "RequestSignature": "dignissimos",
+    "Lastlogin": "2007-10-04T16:54:56.6867346+02:00",
+    "Lastlogout": "2015-07-07T16:54:56.6867346+02:00",
+    "EjUserId": 549,
+    "RequestSignature": "quia",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
+    "IsPersonRetired": true,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "culpa",
-        "DisplayValue": "sapiente",
+        "Value": "asperiores",
+        "DisplayValue": "sit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 459
           }
         }
       },
       {
         "Type": null,
-        "Value": "culpa",
-        "DisplayValue": "sapiente",
+        "Value": "asperiores",
+        "DisplayValue": "sit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 459
           }
         }
       }
     ],
-    "UserName": "Funk Group",
+    "UserName": "Armstrong, Kunze and Hegmann",
     "TicketCategories": [
       {
-        "Id": 503,
-        "Name": "Haag Group",
-        "ToolTip": "Quia nesciunt nostrum.",
-        "Deleted": false,
-        "Rank": 771,
-        "Type": "dolor",
+        "Id": 426,
+        "Name": "Fadel-Leffler",
+        "ToolTip": "Qui id enim omnis aut at sed.",
+        "Deleted": true,
+        "Rank": 576,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 248,
-        "ExtraInfo": "odio",
-        "StyleHint": "magni",
-        "FullName": "Miss Ernestine DuBuque",
+        "IconHint": "deserunt",
+        "ColorBlock": 288,
+        "ExtraInfo": "itaque",
+        "StyleHint": "qui",
+        "FullName": "Otha Quitzon MD",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 745
+          }
+        }
+      }
+    ],
+    "NickName": "Kuhn, Hahn and Funk",
+    "WaitingForApproval": true,
+    "ExtraFields": {
+      "ExtraFields1": "natus",
+      "ExtraFields2": "fugit"
+    },
+    "CustomFields": {
+      "CustomFields1": "nisi",
+      "CustomFields2": "quis"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Kling-Watsica",
+        "DisplayName": "Thompson, Klein and Pagac",
+        "Description": "Implemented disintermediate alliance",
+        "ToolTip": "Quo eaque eos autem natus.",
+        "Actions": "Implicit",
+        "ActionData": "delectus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 570
-          }
-        }
-      }
-    ],
-    "NickName": "Block, Jaskolski and O'Conner",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "aliquid",
-      "ExtraFields2": "autem"
-    },
-    "CustomFields": {
-      "CustomFields1": "laboriosam",
-      "CustomFields2": "eum"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Renner, Jones and Kovacek",
-        "DisplayName": "Hane, Luettgen and Konopelski",
-        "Description": "Reduced fault-tolerant ability",
-        "ToolTip": "Doloribus odit facilis maiores.",
-        "Actions": "Implicit",
-        "ActionData": "facilis",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldLength": 634
           }
         }
       }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldLength": 362
       }
     }
   }

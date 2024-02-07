@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "brielle@thompson.biz",
-  "Counts": 751
+  "EmailAddress": "jade@crist.name",
+  "Counts": 726
 }
 ```
 

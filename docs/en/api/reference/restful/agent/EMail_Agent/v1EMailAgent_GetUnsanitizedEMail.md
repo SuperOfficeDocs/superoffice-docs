@@ -108,8 +108,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "IncludeAttachments": true
+  "Id": 455,
+  "IncludeAttachments": false
 }
 ```
 
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 422,
-      "ContactName": "Thompson Inc and Sons",
-      "PersonId": 59,
-      "PersonName": "Runte LLC",
-      "AssociateId": 933,
-      "Address": "pariatur",
-      "EmailId": 400,
+      "ContactId": 864,
+      "ContactName": "Gerlach-Blanda",
+      "PersonId": 870,
+      "PersonName": "Schoen-Anderson",
+      "AssociateId": 690,
+      "Address": "quis",
+      "EmailId": 60,
       "DuplicatePersonIds": [
-        527,
-        516
+        965,
+        68
       ],
-      "Name": "Thompson LLC",
+      "Name": "Balistreri Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 211
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 10,
-      "ContactName": "Medhurst, Becker and O'Hara",
-      "PersonId": 838,
-      "PersonName": "Crooks LLC",
-      "AssociateId": 196,
-      "Address": "explicabo",
-      "EmailId": 606,
+      "ContactId": 674,
+      "ContactName": "O'Hara-Ferry",
+      "PersonId": 917,
+      "PersonName": "Bergnaum LLC",
+      "AssociateId": 1002,
+      "Address": "cumque",
+      "EmailId": 757,
       "DuplicatePersonIds": [
-        7,
-        783
+        306,
+        422
       ],
-      "Name": "Rippin, Wintheiser and Goldner",
+      "Name": "Kshlerin, Harber and Mertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 380
+          "FieldType": "System.Int32",
+          "FieldLength": 551
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 24,
-      "ContactName": "Bernhard-Glover",
-      "PersonId": 885,
-      "PersonName": "Bosco Inc and Sons",
-      "AssociateId": 307,
-      "Address": "illum",
-      "EmailId": 605,
+      "ContactId": 8,
+      "ContactName": "Schoen, Mayer and Spinka",
+      "PersonId": 386,
+      "PersonName": "Haag-Emard",
+      "AssociateId": 337,
+      "Address": "atque",
+      "EmailId": 259,
       "DuplicatePersonIds": [
-        51,
-        150
+        898,
+        464
       ],
-      "Name": "Bruen, Jacobi and Hoppe",
+      "Name": "Rice-Marks",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 968
+          "FieldLength": 406
         }
       }
     }
   ],
-  "Subject": "tempora",
-  "HTMLBody": "doloremque",
+  "Subject": "sed",
+  "HTMLBody": "quae",
   "From": null,
-  "Sent": "2012-07-28T23:03:56.0186282+02:00",
-  "Size": 538,
+  "Sent": "2005-01-10T16:54:55.4090381+01:00",
+  "Size": 437,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "autem",
-  "PlainBody": "repudiandae",
+  "MessageID": "illo",
+  "PlainBody": "dolores",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 558,
+  "ServerId": 293,
   "Attachments": [
     {
-      "Description": "Reduced tertiary budgetary management",
-      "Filename": "et",
-      "Size": 529,
-      "Type": "minima",
-      "Encoding": "saepe",
-      "Id": "qui",
-      "Disposition": "ut",
-      "IsSafeFileExtension": false,
+      "Description": "Up-sized multi-tasking throughput",
+      "Filename": "officiis",
+      "Size": 546,
+      "Type": "dolor",
+      "Encoding": "vitae",
+      "Id": "voluptas",
+      "Disposition": "velit",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldType": "System.String",
+          "FieldLength": 776
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bogan-Ortiz",
+      "Name": "Glover, Reichel and Heathcote",
       "Values": [
-        "et",
-        "sint"
+        "inventore",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     },
     {
-      "Name": "Bogan-Ortiz",
+      "Name": "Glover, Reichel and Heathcote",
       "Values": [
-        "et",
-        "sint"
+        "inventore",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
   ],
-  "FolderName": "Bashirian, Leuschke and Howell",
-  "EmailItemId": 483,
-  "AccountId": 707,
-  "ReceivedAt": "2011-05-29T23:03:56.019129+02:00",
+  "FolderName": "Farrell, Hessel and Gottlieb",
+  "EmailItemId": 135,
+  "AccountId": 14,
+  "ReceivedAt": "2013-05-01T16:54:55.4090381+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-11-05T23:03:56.0196389+01:00",
+  "RepliedAt": "2019-05-07T16:54:55.4090381+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 163
     }
   }
 }

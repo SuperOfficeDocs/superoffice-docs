@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 241,
-    "Name": "Swaniawski-Beier",
-    "ToolTip": "Qui architecto sed.",
-    "Deleted": true,
-    "Rank": 933,
-    "Type": "nihil",
-    "ColorBlock": 610,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2011-05-21T23:04:05.4850046+02:00",
+    "Id": 187,
+    "Name": "Macejkovic-Morar",
+    "ToolTip": "Nemo assumenda est sunt necessitatibus.",
+    "Deleted": false,
+    "Rank": 869,
+    "Type": "quo",
+    "ColorBlock": 627,
+    "IconHint": "voluptatibus",
+    "Selected": false,
+    "LastChanged": "2010-08-27T16:55:30.6901606+02:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Crist, Von and Walsh",
-        "ToolTip": "Enim ducimus.",
+        "Id": 734,
+        "Name": "Schaden, Raynor and Champlin",
+        "ToolTip": "Fuga quasi animi.",
         "Deleted": false,
-        "Rank": 409,
-        "Type": "corrupti",
-        "ColorBlock": 328,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2008-03-18T23:04:05.4855025+01:00",
+        "Rank": 504,
+        "Type": "cum",
+        "ColorBlock": 988,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2011-03-16T16:55:30.6911912+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "possimus",
-        "StyleHint": "magni",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Chadrick Johnson"
+        "FullName": "Prof. Frankie Desiree Auer"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "nobis",
-    "Hidden": true,
-    "FullName": "Ramona Ferry"
+    "ExtraInfo": "error",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Dr. Ayden Roosevelt Hoppe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Mraz-Koch",
-    "ToolTip": "Illo at eum adipisci libero.",
+    "Id": 926,
+    "Name": "Flatley-Hansen",
+    "ToolTip": "Placeat incidunt itaque nesciunt non.",
     "Deleted": false,
-    "Rank": 362,
-    "Type": "odit",
-    "ColorBlock": 392,
-    "IconHint": "ea",
+    "Rank": 904,
+    "Type": "autem",
+    "ColorBlock": 743,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2002-08-08T23:04:05.4865008+02:00",
+    "LastChanged": "2016-06-20T16:55:30.6921911+02:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Buckridge-White",
-        "ToolTip": "Accusamus sequi dolorem reprehenderit delectus pariatur.",
+        "Id": 53,
+        "Name": "Erdman, Mosciski and Torp",
+        "ToolTip": "Aliquam expedita voluptas.",
         "Deleted": false,
-        "Rank": 119,
-        "Type": "aut",
-        "ColorBlock": 523,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "1997-11-24T23:04:05.4865008+01:00",
+        "Rank": 310,
+        "Type": "debitis",
+        "ColorBlock": 641,
+        "IconHint": "placeat",
+        "Selected": false,
+        "LastChanged": "2021-12-14T16:55:30.6921911+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "facilis",
-        "Hidden": true,
-        "FullName": "Edmond Kulas I",
+        "ExtraInfo": "et",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Sophia Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 238
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "totam",
+    "ExtraInfo": "et",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Ari Victoria Rempel DVM",
+    "FullName": "Mr. Amara Grace Hand V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldType": "System.String",
+        "FieldLength": 776
       }
     }
   }

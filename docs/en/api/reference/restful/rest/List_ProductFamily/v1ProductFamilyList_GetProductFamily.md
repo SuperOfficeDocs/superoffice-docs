@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Stiedemann-Rohan",
-  "Tooltip": "in",
+  "Id": 148,
+  "Name": "Metz Inc and Sons",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "UdListDefinitionId": 608,
-  "Rank": 67,
+  "UdListDefinitionId": 555,
+  "Rank": 476,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 34
     }
   }
 }

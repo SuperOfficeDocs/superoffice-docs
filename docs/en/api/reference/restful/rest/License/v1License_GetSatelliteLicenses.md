@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Keefe LLC",
-    "Description": "Ergonomic disintermediate leverage",
+    "Name": "Maggio Inc and Sons",
+    "Description": "Exclusive motivating protocol",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 323,
-        "Tooltip": "impedit",
+        "Unrestricted": false,
+        "Total": 750,
+        "Tooltip": "quod",
         "CanAssign": false,
-        "Free": 923,
-        "InUse": 99,
-        "IsHidden": false,
+        "Free": 555,
+        "InUse": 536,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 864,
-        "Name": "Hoeger-Kovacek",
-        "Description": "Right-sized global portal",
-        "PrerequisiteModuleName": "Hand-Dickens",
-        "SortOrder": 427,
-        "ExtraFlags": 998,
+        "ModuleLicenseId": 691,
+        "Name": "Murphy-Cruickshank",
+        "Description": "Assimilated 24 hour flexibility",
+        "PrerequisiteModuleName": "Hudson Group",
+        "SortOrder": 195,
+        "ExtraFlags": 96,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 274
+            "FieldType": "System.Int32",
+            "FieldLength": 700
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 730,
-        "Tooltip": "dolor",
-        "CanAssign": false,
-        "Free": 857,
-        "InUse": 149,
+        "Unrestricted": true,
+        "Total": 699,
+        "Tooltip": "hic",
+        "CanAssign": true,
+        "Free": 56,
+        "InUse": 243,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 384,
-        "Name": "Shanahan, O'Reilly and Weimann",
-        "Description": "Decentralized explicit time-frame",
-        "PrerequisiteModuleName": "Padberg Group",
-        "SortOrder": 969,
-        "ExtraFlags": 831,
+        "Assigned": true,
+        "ModuleLicenseId": 142,
+        "Name": "Heathcote LLC",
+        "Description": "Centralized multi-tasking local area network",
+        "PrerequisiteModuleName": "Heidenreich, Wuckert and Franecki",
+        "SortOrder": 990,
+        "ExtraFlags": 532,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 711
+            "FieldLength": 248
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 766
       }
     }
   },
   {
-    "Name": "O'Keefe LLC",
-    "Description": "Ergonomic disintermediate leverage",
+    "Name": "Maggio Inc and Sons",
+    "Description": "Exclusive motivating protocol",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 323,
-        "Tooltip": "impedit",
+        "Unrestricted": false,
+        "Total": 750,
+        "Tooltip": "quod",
         "CanAssign": false,
-        "Free": 923,
-        "InUse": 99,
-        "IsHidden": false,
+        "Free": 555,
+        "InUse": 536,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 864,
-        "Name": "Hoeger-Kovacek",
-        "Description": "Right-sized global portal",
-        "PrerequisiteModuleName": "Hand-Dickens",
-        "SortOrder": 427,
-        "ExtraFlags": 998,
+        "ModuleLicenseId": 691,
+        "Name": "Murphy-Cruickshank",
+        "Description": "Assimilated 24 hour flexibility",
+        "PrerequisiteModuleName": "Hudson Group",
+        "SortOrder": 195,
+        "ExtraFlags": 96,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 274
+            "FieldType": "System.Int32",
+            "FieldLength": 700
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 730,
-        "Tooltip": "dolor",
-        "CanAssign": false,
-        "Free": 857,
-        "InUse": 149,
+        "Unrestricted": true,
+        "Total": 699,
+        "Tooltip": "hic",
+        "CanAssign": true,
+        "Free": 56,
+        "InUse": 243,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 384,
-        "Name": "Shanahan, O'Reilly and Weimann",
-        "Description": "Decentralized explicit time-frame",
-        "PrerequisiteModuleName": "Padberg Group",
-        "SortOrder": 969,
-        "ExtraFlags": 831,
+        "Assigned": true,
+        "ModuleLicenseId": 142,
+        "Name": "Heathcote LLC",
+        "Description": "Centralized multi-tasking local area network",
+        "PrerequisiteModuleName": "Heidenreich, Wuckert and Franecki",
+        "SortOrder": 990,
+        "ExtraFlags": 532,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 711
+            "FieldLength": 248
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 766
       }
     }
   }

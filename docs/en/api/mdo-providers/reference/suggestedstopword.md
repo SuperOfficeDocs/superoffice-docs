@@ -2,8 +2,7 @@
 uid: suggestedstopword
 title: suggestedstopword
 keywords: mdoprovider mdo provider suggestedstopword
-description: Analyze free text records and suggest stop words based on word frequency.
-Return only words with more than 1000 instances.
+description: Analyze free text records and suggest stop words based on word frequency. Return only words with more than 1000 instances.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

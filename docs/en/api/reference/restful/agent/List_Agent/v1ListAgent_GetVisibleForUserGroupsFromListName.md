@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Blanda-Connelly",
-  "ListItemId": 383
+  "UdListDefinitionName": "Murray, Reilly and Hansen",
+  "ListItemId": 97
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Gibson, Windler and Block",
-    "ToolTip": "Quibusdam et et aperiam nam cupiditate magni quo.",
-    "Deleted": false,
-    "Rank": 580,
-    "Type": "nesciunt",
-    "ColorBlock": 166,
-    "IconHint": "numquam",
+    "Id": 129,
+    "Name": "Deckow, Johnston and Reilly",
+    "ToolTip": "Corporis aut quia est quod aut perferendis labore.",
+    "Deleted": true,
+    "Rank": 298,
+    "Type": "iusto",
+    "ColorBlock": 545,
+    "IconHint": "modi",
     "Selected": true,
-    "LastChanged": "2021-03-17T23:03:56.2081259+01:00",
+    "LastChanged": "2007-06-29T16:54:55.5569839+02:00",
     "ChildItems": [
       {
-        "Id": 854,
-        "Name": "Shanahan-Mohr",
-        "ToolTip": "Deserunt non qui reprehenderit est.",
-        "Deleted": false,
-        "Rank": 251,
-        "Type": "dolor",
-        "ColorBlock": 28,
-        "IconHint": "vel",
+        "Id": 230,
+        "Name": "Haag, Kunde and Jewess",
+        "ToolTip": "Vel distinctio cumque at architecto fugiat est.",
+        "Deleted": true,
+        "Rank": 792,
+        "Type": "eius",
+        "ColorBlock": 981,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "2023-08-19T23:03:56.2086263+02:00",
+        "LastChanged": "2020-12-04T16:54:55.5569839+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "iste",
+        "ExtraInfo": "odit",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Micaela Zulauf",
+        "FullName": "Dr. Cicero Dustin Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldType": "System.String",
+            "FieldLength": 374
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Chance Hansen IV",
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Ms. Randal Kunde Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 371
       }
     }
   }

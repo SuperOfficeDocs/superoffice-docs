@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 254,
-  "After": 732
+  "ChatSessionId": 298,
+  "After": 529
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 978,
-    "ChatSessionId": 538,
+    "ChatMessageId": 812,
+    "ChatSessionId": 431,
     "Type": "Invalid",
-    "Message": "facere",
-    "Author": "aperiam",
-    "ReadByCustomer": 873,
+    "Message": "consequuntur",
+    "Author": "nulla",
+    "ReadByCustomer": 892,
     "SpecialType": "Block",
-    "SpecialParam": "voluptatem",
-    "WhenPosted": "2000-02-23T23:03:55.1936138+01:00"
+    "SpecialParam": "et",
+    "WhenPosted": "2003-06-21T16:54:54.8592327+02:00"
   }
 ]
 ```

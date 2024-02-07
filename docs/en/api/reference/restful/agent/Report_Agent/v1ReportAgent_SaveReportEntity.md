@@ -81,13 +81,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 72,
+  "ReportId": 507,
   "ReportCategory": "All",
-  "Description": "Innovative user-facing circuit",
+  "Description": "Robust fresh-thinking success",
   "ReportLayout": "CalendarMonth",
-  "Name": "Huel-Thiel",
-  "AssociateId": 473,
-  "TemplateId": 740,
+  "Name": "Medhurst, Tromp and Becker",
+  "AssociateId": 990,
+  "TemplateId": 85,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 405,
+  "ReportId": 13,
   "ReportCategory": "All",
-  "Description": "Synchronised radical open architecture",
+  "Description": "Programmable attitude-oriented monitoring",
   "ReportLayout": "CalendarMonth",
-  "Name": "Weimann, Marks and Barrows",
-  "AssociateId": 394,
-  "TemplateId": 516,
-  "Published": true,
+  "Name": "Hyatt LLC",
+  "AssociateId": 367,
+  "TemplateId": 787,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

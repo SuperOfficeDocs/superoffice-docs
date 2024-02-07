@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=et
+GET /api/v1/List/Credited/MDOItems?query=qui
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Littel, Kuhlman and Cremin",
-    "ToolTip": "Totam accusantium recusandae non doloremque possimus eum.",
+    "Id": 271,
+    "Name": "Schuster-Wunsch",
+    "ToolTip": "Ut est labore placeat delectus.",
     "Deleted": false,
-    "Rank": 847,
-    "Type": "quidem",
+    "Rank": 206,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 126,
-        "Name": "Bechtelar Group",
-        "ToolTip": "Maiores dicta voluptatem qui perferendis.",
+        "Id": 740,
+        "Name": "Paucek LLC",
+        "ToolTip": "Et deleniti.",
         "Deleted": false,
-        "Rank": 192,
-        "Type": "animi",
+        "Rank": 922,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 917,
-        "ExtraInfo": "et",
-        "StyleHint": "blanditiis",
-        "FullName": "Guadalupe White",
+        "IconHint": "veniam",
+        "ColorBlock": 294,
+        "ExtraInfo": "dolore",
+        "StyleHint": "atque",
+        "FullName": "Danielle Jacobs DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 252
+            "FieldLength": 534
           }
         }
       }
     ],
-    "IconHint": "ducimus",
-    "ColorBlock": 611,
-    "ExtraInfo": "nulla",
-    "StyleHint": "labore",
-    "FullName": "Kirk Gislason PhD",
+    "IconHint": "eius",
+    "ColorBlock": 832,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "perferendis",
+    "FullName": "Rene Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldLength": 111
       }
     }
   }

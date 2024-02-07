@@ -64,11 +64,11 @@ OK
 |----------------|------|--------------|
 | SatelliteId | int32 | Primary key |
 | Created | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | Updated | date-time | Last updated when  in UTC. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
-| Area | Area | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the Contact Agent. |
+| Area | Area | Carrier object for Area. Services for the Area Carrier is available from the Replication Agent. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 75,
-  "Created": "1998-09-20T23:03:56.8201174+02:00",
+  "SatelliteId": 872,
+  "Created": "1998-03-15T16:54:56.1749705+01:00",
   "CreatedBy": null,
-  "Updated": "2001-07-01T23:03:56.8206197+02:00",
+  "Updated": "2016-03-09T16:54:56.1749705+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Kessler-O'Hara",
-      "Description": "Object-based mobile circuit",
+      "Name": "Senger-Weber",
+      "Description": "Proactive optimizing collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Kessler-O'Hara",
-      "Description": "Object-based mobile circuit",
+      "Name": "Senger-Weber",
+      "Description": "Proactive optimizing collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 927,
-  "Created": "2020-10-27T23:03:56.8256172+01:00",
+  "SatelliteId": 884,
+  "Created": "2007-07-18T16:54:56.178977+02:00",
   "CreatedBy": null,
-  "Updated": "2014-08-15T23:03:56.8256172+02:00",
+  "Updated": "1997-05-22T16:54:56.1799764+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Goldner Inc and Sons",
-      "Description": "Implemented tangible parallelism",
+      "Name": "Jast LLC",
+      "Description": "Phased multi-tasking framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldType": "System.Int32",
+          "FieldLength": 959
         }
       }
     },
     {
-      "Name": "Goldner Inc and Sons",
-      "Description": "Implemented tangible parallelism",
+      "Name": "Jast LLC",
+      "Description": "Phased multi-tasking framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldType": "System.Int32",
+          "FieldLength": 959
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldLength": 877
     }
   }
 }

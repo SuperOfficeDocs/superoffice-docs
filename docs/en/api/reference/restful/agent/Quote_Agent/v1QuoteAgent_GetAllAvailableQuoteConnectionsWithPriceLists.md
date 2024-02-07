@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 953,
-    "ERPName": "Schulist-Simonis",
-    "DisplayName": "Fahey-Zboncak",
-    "DisplayDescription": "Right-sized tangible frame",
-    "Rank": 96,
-    "ConnectorName": "Quigley Group",
-    "ErpConnectionId": 456,
-    "ExtraData": "nisi",
-    "IsAvailable": false,
+    "QuoteConnectionId": 416,
+    "ERPName": "Reinger, Waters and Lind",
+    "DisplayName": "Baumbach, Russel and Reinger",
+    "DisplayDescription": "Cloned maximized forecast",
+    "Rank": 723,
+    "ConnectorName": "Lakin-Hackett",
+    "ErpConnectionId": 301,
+    "ExtraData": "eos",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 116,
-        "ERPPriceListKey": "omnis",
-        "QuoteConnectionId": 740,
-        "Name": "Bayer, Bednar and Wehner",
-        "Description": "Cross-group intermediate firmware",
-        "Currency": "voluptatem",
-        "CurrencyName": "Lueilwitz, Willms and Bruen",
-        "ValidFrom": "2011-08-06T23:03:56.7751196+02:00",
-        "ValidTo": "1999-11-17T23:03:56.7751196+01:00",
+        "PriceListId": 707,
+        "ERPPriceListKey": "aut",
+        "QuoteConnectionId": 6,
+        "Name": "Harber LLC",
+        "Description": "Robust zero administration focus group",
+        "Currency": "ipsam",
+        "CurrencyName": "Larkin Group",
+        "ValidFrom": "2000-10-03T16:54:56.1361404+02:00",
+        "ValidTo": "2002-02-19T16:54:56.1361404+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldLength": 964
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      648,
-      641
+      554,
+      773
     ],
     "AssociateAccessIds": [
-      5,
-      299
+      455,
+      555
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 267
       }
     }
   }

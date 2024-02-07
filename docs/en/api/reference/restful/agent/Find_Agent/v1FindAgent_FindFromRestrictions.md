@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Bernier, Marvin and Moen",
-      "Operator": "doloremque",
+      "Name": "Greenholt Group",
+      "Operator": "velit",
       "Values": [
-        "consectetur",
-        "nihil"
+        "voluptatem",
+        "eum"
       ],
       "DisplayValues": [
-        "debitis",
-        "molestiae"
+        "aspernatur",
+        "soluta"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 469,
+      "InterParenthesis": 528,
       "InterOperator": "And",
-      "UniqueHash": 192
+      "UniqueHash": 51
     }
   ],
-  "ProviderName": "Considine, Turner and Kuvalis",
-  "PageSize": 865,
-  "PageNumber": 889
+  "ProviderName": "Veum-Rempel",
+  "PageSize": 637,
+  "PageNumber": 416
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jacobson LLC",
-      "DisplayTooltip": "expedita",
-      "DisplayType": "beatae",
+      "DisplayName": "Waters Inc and Sons",
+      "DisplayTooltip": "autem",
+      "DisplayType": "veritatis",
       "CanOrderBy": false,
-      "Name": "Murphy LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "quod",
-      "RestrictionListName": "Walker, Wintheiser and Parker",
-      "IsVisible": false,
-      "ExtraInfo": "eveniet",
-      "Width": "dolores",
-      "IconHint": "ea",
-      "HeadingIconHint": "omnis"
+      "Name": "Parisian Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "est",
+      "RestrictionListName": "Nader-Crona",
+      "IsVisible": true,
+      "ExtraInfo": "officia",
+      "Width": "corporis",
+      "IconHint": "facilis",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Spencer Group",
-      "PrimaryKey": 467,
+      "EntityName": "Feeney, Kovacek and Bailey",
+      "PrimaryKey": 789,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ab",
-          "TooltipHint": "et",
-          "LinkHint": "sit"
+          "DisplayValue": "occaecati",
+          "TooltipHint": "soluta",
+          "LinkHint": "corporis"
         }
       },
-      "LinkHint": "adipisci",
-      "StyleHint": "rerum",
+      "LinkHint": "minus",
+      "StyleHint": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldType": "System.String",
+          "FieldLength": 621
         }
       }
     }
   ],
-  "RowCount": 239,
+  "RowCount": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 769
     }
   }
 }

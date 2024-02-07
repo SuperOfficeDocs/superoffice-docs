@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 500,
-  "TZLocationId": 38,
-  "LocationCode": "doloribus",
-  "Description": "Diverse dynamic matrices",
+  "PreferenceId": 675,
+  "TZLocationId": 729,
+  "LocationCode": "neque",
+  "Description": "Self-enabling dynamic alliance",
   "Country": "Sokovia",
-  "Bias": 294
+  "Bias": 483
 }
 ```

@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 139
+  "DocumentId": 622
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 293,
-      "ContactName": "Kuvalis, Reynolds and Harber",
-      "PersonId": 971,
-      "PersonName": "Marquardt, Rolfson and VonRueden",
-      "AssociateId": 583,
-      "Address": "eum",
-      "EmailId": 997,
+      "ContactId": 676,
+      "ContactName": "Bernier, Jast and Ryan",
+      "PersonId": 515,
+      "PersonName": "Smith-Ziemann",
+      "AssociateId": 29,
+      "Address": "in",
+      "EmailId": 974,
       "DuplicatePersonIds": [
-        245,
-        358
+        233,
+        228
       ],
-      "Name": "Ryan, Muller and Wisozk",
+      "Name": "Maggio-Abshire",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldLength": 318
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 287,
-      "ContactName": "Schumm LLC",
-      "PersonId": 53,
-      "PersonName": "Hoppe Inc and Sons",
-      "AssociateId": 851,
-      "Address": "dolorem",
-      "EmailId": 510,
+      "ContactId": 618,
+      "ContactName": "Howe Group",
+      "PersonId": 697,
+      "PersonName": "Koepp, Schultz and Gorczany",
+      "AssociateId": 571,
+      "Address": "eveniet",
+      "EmailId": 523,
       "DuplicatePersonIds": [
-        490,
-        956
+        140,
+        377
       ],
-      "Name": "Wunsch Group",
+      "Name": "Beer Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldLength": 143
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 771,
-      "ContactName": "Marks Inc and Sons",
-      "PersonId": 306,
-      "PersonName": "Emmerich-Raynor",
-      "AssociateId": 196,
-      "Address": "dicta",
-      "EmailId": 70,
+      "ContactId": 292,
+      "ContactName": "Collier-Wilkinson",
+      "PersonId": 74,
+      "PersonName": "Leffler, Crooks and Schneider",
+      "AssociateId": 322,
+      "Address": "aut",
+      "EmailId": 893,
       "DuplicatePersonIds": [
-        684,
-        479
+        248,
+        621
       ],
-      "Name": "Littel-Wehner",
+      "Name": "Berge-Heaney",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldType": "System.String",
+          "FieldLength": 531
         }
       }
     }
   ],
-  "Subject": "ex",
-  "HTMLBody": "voluptas",
+  "Subject": "dolorem",
+  "HTMLBody": "ipsam",
   "From": null,
-  "Sent": "2019-02-28T23:03:55.8971304+01:00",
-  "Size": 901,
+  "Sent": "2006-01-02T16:54:55.3174197+01:00",
+  "Size": 547,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "id",
-  "PlainBody": "voluptates",
-  "IsSent": true,
+  "MessageID": "ducimus",
+  "PlainBody": "dignissimos",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 636,
+  "ServerId": 975,
   "Attachments": [
     {
-      "Description": "Multi-tiered methodical flexibility",
-      "Filename": "labore",
-      "Size": 970,
-      "Type": "optio",
-      "Encoding": "corrupti",
-      "Id": "at",
-      "Disposition": "rerum",
-      "IsSafeFileExtension": true,
+      "Description": "Customer-focused systematic application",
+      "Filename": "voluptatum",
+      "Size": 733,
+      "Type": "eos",
+      "Encoding": "quis",
+      "Id": "in",
+      "Disposition": "quae",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldType": "System.String",
+          "FieldLength": 184
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Feest, Gibson and Lesch",
+      "Name": "Schulist Group",
       "Values": [
-        "illum",
-        "nam"
+        "est",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 61
+          "FieldType": "System.Int32",
+          "FieldLength": 315
         }
       }
     },
     {
-      "Name": "Feest, Gibson and Lesch",
+      "Name": "Schulist Group",
       "Values": [
-        "illum",
-        "nam"
+        "est",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 61
+          "FieldType": "System.Int32",
+          "FieldLength": 315
         }
       }
     }
   ],
-  "FolderName": "Johnston-Kihn",
-  "EmailItemId": 195,
-  "AccountId": 85,
-  "ReceivedAt": "2018-06-09T23:03:55.8976322+02:00",
+  "FolderName": "Schoen, Dickinson and Emard",
+  "EmailItemId": 901,
+  "AccountId": 217,
+  "ReceivedAt": "2023-11-23T16:54:55.3174197+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-10-06T23:03:55.8976322+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2020-06-26T16:54:55.3184197+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldLength": 914
     }
   }
 }

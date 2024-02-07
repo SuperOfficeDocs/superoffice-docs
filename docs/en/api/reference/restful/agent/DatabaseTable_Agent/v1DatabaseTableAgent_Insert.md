@@ -86,10 +86,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Reichel-Dooley",
+  "TableName": "Reilly LLC",
   "Columns": [
-    "numquam",
-    "et"
+    "sunt",
+    "occaecati"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "magnam",
-  "Inserts": 145,
-  "Updates": 331,
-  "Deletes": 744,
+  "Message": "optio",
+  "Inserts": 680,
+  "Updates": 178,
+  "Deletes": 441,
   "RowStatus": [
     {
-      "PrimaryKey": 844,
+      "PrimaryKey": 924,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "deserunt",
-        "voluptatem"
+        "in",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 331
+          "FieldLength": 400
         }
       }
     },
     {
-      "PrimaryKey": 844,
+      "PrimaryKey": 924,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "deserunt",
-        "voluptatem"
+        "in",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 331
+          "FieldLength": 400
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 415
     }
   }
 }

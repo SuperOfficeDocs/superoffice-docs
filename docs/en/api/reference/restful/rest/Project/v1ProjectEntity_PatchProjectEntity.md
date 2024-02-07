@@ -108,9 +108,9 @@ ProjectEntity  updated.
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy | Associate | The person that created the project |
 | UpdatedBy | Associate | The person that last updated the project |
-| Associate | Associate | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| Associate | Associate | The person that created the project  Use MDO List name "associate" to get list items. |
+| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  Use MDO List name "projectstatus" to get list items. |
+| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  Use MDO List name "projecttype" to get list items. |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -123,7 +123,7 @@ ProjectEntity  updated.
 | ActiveErpLinks | int32 | The number of active erp links |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ProjectEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -138,18 +138,18 @@ ProjectEntity  updated.
 PATCH /api/v1/Project/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quasi",
+    "path": "numquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quasi",
+    "path": "numquam",
     "value": {}
   }
 ]
@@ -162,127 +162,127 @@ HTTP/1.1 200 ProjectEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 626,
-  "Name": "Schowalter-Feeney",
-  "ProjectNumber": "610059",
+  "ProjectId": 700,
+  "Name": "O'Connell, Tillman and Veum",
+  "ProjectNumber": "978822",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 394,
-      "ContactId": 473,
-      "ProjectId": 296,
-      "ContactName": "Boehm-Schmidt",
+      "ProjectmemberId": 212,
+      "ContactId": 584,
+      "ProjectId": 295,
+      "ContactName": "Okuneva LLC",
       "ContactDepartment": "",
-      "ProjectName": "Bergstrom LLC",
-      "EmailId": 824,
-      "EmailAddress": "coy@ziemann.name",
-      "CountryId": 269,
-      "Firstname": "Pierre",
-      "MiddleName": "Hyatt, O'Conner and Schuppe",
-      "Lastname": "Leffler",
-      "PersonId": 10,
-      "Mrmrs": "consequatur",
-      "ProjectMemberTypeName": "Boyer Inc and Sons",
-      "Phone": "1-934-995-9608 x7133",
-      "PhoneId": 1001,
-      "ProjectMemberTypeId": 694,
-      "EmailAddressName": "madilyn@anderson.ca",
-      "Comment": "molestias",
-      "FullName": "Tomas Nolan",
+      "ProjectName": "Wilkinson Group",
+      "EmailId": 652,
+      "EmailAddress": "breana@beckerkunde.com",
+      "CountryId": 5,
+      "Firstname": "Ari",
+      "MiddleName": "DuBuque, Kunze and Ankunding",
+      "Lastname": "Koch",
+      "PersonId": 929,
+      "Mrmrs": "enim",
+      "ProjectMemberTypeName": "Littel, Hansen and Rohan",
+      "Phone": "557.126.0430",
+      "PhoneId": 548,
+      "ProjectMemberTypeId": 201,
+      "EmailAddressName": "belle@pacochamuller.name",
+      "Comment": "et",
+      "FullName": "Elmira Willms",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 145
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quia",
-      "StrippedValue": "est",
-      "Description": "Future-proofed regional matrices",
+      "Value": "repudiandae",
+      "StrippedValue": "voluptatem",
+      "Description": "Reactive global matrices",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 334
         }
       }
     },
     {
-      "Value": "quia",
-      "StrippedValue": "est",
-      "Description": "Future-proofed regional matrices",
+      "Value": "repudiandae",
+      "StrippedValue": "voluptatem",
+      "Description": "Reactive global matrices",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 334
         }
       }
     }
   ],
-  "CreatedDate": "2018-03-13T23:04:04.4375134+01:00",
-  "UpdatedDate": "2003-10-04T23:04:04.4375134+02:00",
-  "Description": "Down-sized logistical array",
-  "Postit": "vel",
+  "CreatedDate": "2010-08-01T16:55:29.9535178+02:00",
+  "UpdatedDate": "2015-06-06T16:55:29.9535178+02:00",
+  "Description": "Object-based explicit capacity",
+  "Postit": "impedit",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": true,
-  "ImageDescription": "Function-based 24/7 moratorium",
-  "ActiveStatusMonitorId": 1001,
+  "ImageDescription": "Sharable intangible emulation",
+  "ActiveStatusMonitorId": 513,
   "Links": [
     {
-      "EntityName": "Mosciski-Moore",
-      "Id": 378,
-      "Description": "Mandatory zero defect benchmark",
-      "ExtraInfo": "voluptas",
-      "LinkId": 852,
+      "EntityName": "Weissnat-Strosin",
+      "Id": 616,
+      "Description": "Universal neutral moratorium",
+      "ExtraInfo": "debitis",
+      "LinkId": 719,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldType": "System.String",
+          "FieldLength": 295
         }
       }
     }
   ],
-  "ActiveLinks": 199,
+  "ActiveLinks": 751,
   "Completed": false,
-  "NextMilestoneDate": "2003-07-05T23:04:04.4390135+02:00",
-  "NmdAppointmentId": 235,
-  "EndDate": "2021-01-10T23:04:04.4390135+01:00",
-  "ActiveErpLinks": 885,
+  "NextMilestoneDate": "2000-07-21T16:55:29.9545184+02:00",
+  "NmdAppointmentId": 20,
+  "EndDate": "2012-05-20T16:55:29.9545184+02:00",
+  "ActiveErpLinks": 550,
   "UserDefinedFields": {
-    "SuperOffice:1": "898130814",
-    "SuperOffice:2": "1106233381"
+    "SuperOffice:1": "Ms. Jamarcus Carolyne Haley",
+    "SuperOffice:2": "1354099602"
   },
   "ExtraFields": {
-    "ExtraFields1": "officia",
+    "ExtraFields1": "voluptate",
     "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "fugit"
+    "CustomFields1": "id",
+    "CustomFields2": "eveniet"
   },
-  "PublishEventDate": "2015-09-17T23:04:04.4390135+02:00",
-  "PublishTo": "2004-02-16T23:04:04.4390135+01:00",
-  "PublishFrom": "2005-10-21T23:04:04.4390135+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-10-18T16:55:29.9545184+02:00",
+  "PublishTo": "2009-04-06T16:55:29.9545184+02:00",
+  "PublishFrom": "2004-08-11T16:55:29.9545184+02:00",
+  "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 270
     }
   },
   "_Links": {

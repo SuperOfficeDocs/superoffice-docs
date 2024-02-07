@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=explicabo
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=autem
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Carroll, Lakin and Schimmel",
-    "ToolTip": "Soluta possimus occaecati aut dolor porro sed.",
+    "Id": 754,
+    "Name": "Stoltenberg Inc and Sons",
+    "ToolTip": "Corporis voluptatum ullam.",
     "Deleted": false,
-    "Rank": 741,
-    "Type": "natus",
+    "Rank": 329,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "McCullough Inc and Sons",
-        "ToolTip": "Exercitationem eveniet dolore.",
+        "Id": 362,
+        "Name": "Aufderhar Group",
+        "ToolTip": "Perspiciatis ipsum vel eligendi.",
         "Deleted": false,
-        "Rank": 533,
-        "Type": "aspernatur",
+        "Rank": 425,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "at",
-        "ColorBlock": 797,
-        "ExtraInfo": "quia",
-        "StyleHint": "quis",
-        "FullName": "Demetris Leone Runolfsson DDS",
+        "IconHint": "et",
+        "ColorBlock": 620,
+        "ExtraInfo": "itaque",
+        "StyleHint": "deleniti",
+        "FullName": "Miss Garett Russell Bins I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 284
+            "FieldLength": 883
           }
         }
       }
     ],
-    "IconHint": "odit",
-    "ColorBlock": 114,
-    "ExtraInfo": "officiis",
-    "StyleHint": "fugiat",
-    "FullName": "Miss Nicolas Weissnat I",
+    "IconHint": "quis",
+    "ColorBlock": 522,
+    "ExtraInfo": "molestias",
+    "StyleHint": "temporibus",
+    "FullName": "Ottis Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 99
+        "FieldType": "System.Int32",
+        "FieldLength": 28
       }
     }
   }

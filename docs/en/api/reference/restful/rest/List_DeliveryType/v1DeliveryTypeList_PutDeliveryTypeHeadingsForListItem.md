@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Ratke, Klein and Bartoletti",
-    "ToolTip": "Dignissimos laborum voluptas eos dolore.",
-    "Deleted": false,
-    "Rank": 982,
-    "Type": "incidunt",
-    "ColorBlock": 703,
-    "IconHint": "aspernatur",
+    "Id": 862,
+    "Name": "O'Keefe, Jewess and Abbott",
+    "ToolTip": "A pariatur doloremque dicta molestias ut nobis error.",
+    "Deleted": true,
+    "Rank": 809,
+    "Type": "facere",
+    "ColorBlock": 354,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2004-01-16T23:04:05.4630002+01:00",
+    "LastChanged": "1999-08-27T16:55:30.6712904+02:00",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Mills-Marks",
-        "ToolTip": "Ea inventore deserunt nesciunt delectus vel totam et.",
+        "Id": 883,
+        "Name": "Mertz Inc and Sons",
+        "ToolTip": "Consectetur deleniti tempora quia et sequi.",
         "Deleted": false,
-        "Rank": 242,
-        "Type": "qui",
-        "ColorBlock": 788,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2010-10-31T23:04:05.4630002+01:00",
+        "Rank": 409,
+        "Type": "cum",
+        "ColorBlock": 638,
+        "IconHint": "cupiditate",
+        "Selected": true,
+        "LastChanged": "2019-06-28T16:55:30.6712904+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "aspernatur",
-        "Hidden": false,
-        "FullName": "Lulu Schmeler"
+        "ExtraInfo": "aperiam",
+        "StyleHint": "aperiam",
+        "Hidden": true,
+        "FullName": "Prof. Arthur Howell MD"
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "illo",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Stefan Lang"
+    "FullName": "Dwight Wyman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Ernser LLC",
-    "ToolTip": "Placeat consequatur dolorem recusandae facilis.",
-    "Deleted": false,
-    "Rank": 69,
-    "Type": "est",
-    "ColorBlock": 943,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "1998-09-16T23:04:05.4639997+02:00",
+    "Id": 378,
+    "Name": "Mante, Carter and Medhurst",
+    "ToolTip": "Reprehenderit aut facere vel ipsum ipsa.",
+    "Deleted": true,
+    "Rank": 322,
+    "Type": "illum",
+    "ColorBlock": 960,
+    "IconHint": "nisi",
+    "Selected": true,
+    "LastChanged": "2008-10-05T16:55:30.6724047+02:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Schinner Group",
-        "ToolTip": "Qui deleniti.",
+        "Id": 908,
+        "Name": "Lang-Spinka",
+        "ToolTip": "Sit ea libero et accusantium nostrum.",
         "Deleted": false,
-        "Rank": 958,
-        "Type": "aspernatur",
-        "ColorBlock": 249,
-        "IconHint": "voluptatibus",
+        "Rank": 166,
+        "Type": "consequatur",
+        "ColorBlock": 393,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "1997-08-10T23:04:05.4639997+02:00",
+        "LastChanged": "2018-09-20T16:55:30.6724047+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "quae",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Mrs. Bud Nienow IV",
+        "FullName": "Alessandra Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 24
+            "FieldLength": 847
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Prof. Dusty Blaze Kozey DDS",
+    "FullName": "Elinore Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 992
+        "FieldLength": 589
       }
     }
   }

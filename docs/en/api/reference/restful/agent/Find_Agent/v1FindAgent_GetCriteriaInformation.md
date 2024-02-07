@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "suscipit",
-  "ProviderName": "Kuhic Group",
-  "StorageKey": "voluptas",
+  "StorageType": "nam",
+  "ProviderName": "Emard LLC",
+  "StorageKey": "minima",
   "StaticColumns": [
-    "laborum",
-    "non"
+    "consequatur",
+    "et"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Marks-Toy",
-      "Operator": "velit",
+      "Name": "Kilback-Bradtke",
+      "Operator": "nobis",
       "Values": [
-        "delectus",
-        "nisi"
+        "doloremque",
+        "deserunt"
       ],
       "DisplayValues": [
-        "dolores",
-        "ut"
+        "sunt",
+        "voluptate"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 754,
+      "InterParenthesis": 745,
       "InterOperator": "And",
-      "UniqueHash": 588
+      "UniqueHash": 177
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Dooley Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "ab",
+      "DisplayName": "Russel, Stiedemann and Bradtke",
+      "DisplayTooltip": "veritatis",
+      "DisplayType": "voluptas",
       "CanOrderBy": false,
-      "Name": "Johnston-Cummerata",
+      "Name": "Gusikowski, Mayer and Tromp",
       "CanRestrictBy": true,
-      "RestrictionType": "repellat",
-      "RestrictionListName": "Erdman, Rodriguez and Koepp",
+      "RestrictionType": "sit",
+      "RestrictionListName": "Stokes-Stiedemann",
       "IsVisible": false,
-      "ExtraInfo": "dignissimos",
-      "Width": "totam",
-      "IconHint": "veritatis",
-      "HeadingIconHint": "neque"
+      "ExtraInfo": "quis",
+      "Width": "quidem",
+      "IconHint": "iste",
+      "HeadingIconHint": "suscipit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Feil-Crooks",
-      "PrimaryKey": 670,
+      "EntityName": "Bins-Rosenbaum",
+      "PrimaryKey": 155,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "non",
-          "TooltipHint": "ipsa",
-          "LinkHint": "id"
+          "DisplayValue": "dolorem",
+          "TooltipHint": "fuga",
+          "LinkHint": "ad"
         }
       },
-      "LinkHint": "doloremque",
-      "StyleHint": "reprehenderit",
+      "LinkHint": "optio",
+      "StyleHint": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Funk, Bode and Wisoky",
-      "Description": "Organic grid-enabled open system",
-      "Rank": 884,
+      "Name": "Schiller LLC",
+      "Description": "Universal content-based emulation",
+      "Rank": 931,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Funk, Bode and Wisoky",
-      "Description": "Organic grid-enabled open system",
-      "Rank": 884,
+      "Name": "Schiller LLC",
+      "Description": "Universal content-based emulation",
+      "Rank": 931,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   }
 }

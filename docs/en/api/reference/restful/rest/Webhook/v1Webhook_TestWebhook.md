@@ -79,32 +79,32 @@ OK
 POST /api/v1/Webhook/Test
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 910,
-  "Name": "Hegmann, Kunde and Zieme",
+  "WebhookId": 548,
+  "Name": "Smitham, Hyatt and Abernathy",
   "Events": [
-    "dolorum",
-    "voluptatem"
+    "omnis",
+    "aut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "autem",
+  "Secret": "qui",
   "State": "Active",
-  "Type": "ut",
+  "Type": "voluptate",
   "Headers": {
-    "Headers1": "ducimus",
-    "Headers2": "ex"
+    "Headers1": "modi",
+    "Headers2": "consequatur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-04-06T23:04:05.2460029+02:00",
+  "Registered": "2002-07-05T16:55:30.4927127+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-06-01T23:04:05.2460029+02:00",
+  "Updated": "2018-03-21T16:55:30.4927127+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "melany_jakubowski@kuhnleannon.biz"
+  "ErrorsEmail": "jermaine_gaylord@shields.us"
 }
 ```
 
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "eos",
+  "Success": true,
+  "Message": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

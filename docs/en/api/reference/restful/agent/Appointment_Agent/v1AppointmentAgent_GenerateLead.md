@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 636,
-  "LeadDescription": "Up-sized full-range collaboration",
-  "Relation": "recusandae",
-  "RelationId": 298,
-  "LeadContact": "voluptas",
-  "LeadPersonFirstname": "Theron",
-  "LeadPersonLastname": "Ferry",
-  "LeadPersonEmail": "fletcher_hamill@abbott.uk",
-  "LeadPhoneNumber": "1551282",
-  "CreatorsContact": "beatae",
-  "CreatorsFirstname": "Franco",
-  "CreatorsLastname": "Roberts"
+  "AssociateIdForNewContact": 621,
+  "LeadDescription": "Switchable systemic system engine",
+  "Relation": "saepe",
+  "RelationId": 310,
+  "LeadContact": "architecto",
+  "LeadPersonFirstname": "Maudie",
+  "LeadPersonLastname": "Luettgen",
+  "LeadPersonEmail": "sammy@konopelskischumm.info",
+  "LeadPhoneNumber": "1578173",
+  "CreatorsContact": "qui",
+  "CreatorsFirstname": "Jerod",
+  "CreatorsLastname": "Denesik"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 928,
-      "Name": "Block-Wilkinson",
-      "OrgNr": "619287",
+      "ContactId": 621,
+      "Name": "Kuhic-Stokes",
+      "OrgNr": "1889229",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "vel",
-      "DirectPhone": "674-870-7097",
-      "AssociateId": 8,
-      "CountryId": 536,
-      "EmailAddress": "brennon@osinskireynolds.name",
-      "Kananame": "veritatis",
-      "EmailAddressName": "sophie@bruen.uk",
+      "City": "qui",
+      "DirectPhone": "028.554.4718 x53019",
+      "AssociateId": 501,
+      "CountryId": 424,
+      "EmailAddress": "verner_flatley@koch.co.uk",
+      "Kananame": "voluptatibus",
+      "EmailAddressName": "gustave_paucek@schaden.ca",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Mallory Crooks",
+      "AssociateFullName": "Oswaldo Bashirian",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "officia",
-      "FullName": "Mr. Omari O'Keefe II",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 514,
-      "Number1": "1743172",
-      "Number2": "910665",
+      "FormattedAddress": "exercitationem",
+      "FullName": "Georgianna Jakubowski",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 570,
+      "Number1": "828689",
+      "Number2": "1435244",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldLength": 581
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 676
     }
   }
 }

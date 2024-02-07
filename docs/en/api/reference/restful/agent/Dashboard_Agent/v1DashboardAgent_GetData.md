@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 211,
-  "Restrictions": "optio"
+  "DashboardTileId": 892,
+  "Restrictions": "nesciunt"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Schroeder-Mraz",
-        "DisplayTooltip": "odit",
-        "DisplayType": "voluptas",
+        "DisplayName": "Bartell-Zulauf",
+        "DisplayTooltip": "sequi",
+        "DisplayType": "non",
         "CanOrderBy": false,
-        "Name": "Luettgen, Moen and Reichert",
-        "CanRestrictBy": true,
-        "RestrictionType": "nesciunt",
-        "RestrictionListName": "Goodwin, Waelchi and VonRueden",
-        "IsVisible": false,
-        "ExtraInfo": "praesentium",
-        "Width": "ut",
-        "IconHint": "nostrum",
-        "HeadingIconHint": "modi"
+        "Name": "Stroman Inc and Sons",
+        "CanRestrictBy": false,
+        "RestrictionType": "dicta",
+        "RestrictionListName": "Koepp, Hane and Moen",
+        "IsVisible": true,
+        "ExtraInfo": "ab",
+        "Width": "debitis",
+        "IconHint": "atque",
+        "HeadingIconHint": "non"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Schroeder-Mraz",
-        "DisplayTooltip": "odit",
-        "DisplayType": "voluptas",
+        "DisplayName": "Bartell-Zulauf",
+        "DisplayTooltip": "sequi",
+        "DisplayType": "non",
         "CanOrderBy": false,
-        "Name": "Luettgen, Moen and Reichert",
-        "CanRestrictBy": true,
-        "RestrictionType": "nesciunt",
-        "RestrictionListName": "Goodwin, Waelchi and VonRueden",
-        "IsVisible": false,
-        "ExtraInfo": "praesentium",
-        "Width": "ut",
-        "IconHint": "nostrum",
-        "HeadingIconHint": "modi"
+        "Name": "Stroman Inc and Sons",
+        "CanRestrictBy": false,
+        "RestrictionType": "dicta",
+        "RestrictionListName": "Koepp, Hane and Moen",
+        "IsVisible": true,
+        "ExtraInfo": "ab",
+        "Width": "debitis",
+        "IconHint": "atque",
+        "HeadingIconHint": "non"
       }
     ],
     "Result": null

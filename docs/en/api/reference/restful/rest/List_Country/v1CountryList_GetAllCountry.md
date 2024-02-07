@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 807,
-    "Name": "Volkman Inc and Sons",
-    "CurrencyId": 647,
-    "EnglishName": "Schinner Inc and Sons",
+    "CountryId": 279,
+    "Name": "McKenzie, Mills and McKenzie",
+    "CurrencyId": 390,
+    "EnglishName": "Boyle-Schaden",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "User-friendly tangible moderator",
-    "OrgNrText": "1051268",
-    "InterAreaPrefix": "cum",
-    "DialInPrefix": "omnis",
-    "ZipPrefix": "dolorum",
-    "DomainName": "Hintz LLC",
-    "AddressLayoutId": 482,
-    "DomesticAddressLayoutId": 421,
-    "ForeignAddressLayoutId": 234,
-    "Rank": 969,
-    "Tooltip": "accusantium",
+    "ImageDescription": "Phased transitional model",
+    "OrgNrText": "1534973",
+    "InterAreaPrefix": "ad",
+    "DialInPrefix": "quas",
+    "ZipPrefix": "aperiam",
+    "DomainName": "McKenzie, Daugherty and Moore",
+    "AddressLayoutId": 620,
+    "DomesticAddressLayoutId": 123,
+    "ForeignAddressLayoutId": 530,
+    "Rank": 130,
+    "Tooltip": "exercitationem",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   }

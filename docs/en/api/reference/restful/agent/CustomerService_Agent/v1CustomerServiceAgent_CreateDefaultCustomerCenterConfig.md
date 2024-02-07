@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 460,
+  "CustConfigId": 483,
   "Type": "Options",
-  "Config": "iste",
-  "CustLangId": 747,
-  "Registered": "2017-09-12T23:03:55.590134+02:00",
-  "RegisteredAssociateId": 632,
-  "Updated": "2022-05-21T23:03:55.590134+02:00",
-  "UpdatedAssociateId": 613,
+  "Config": "voluptatem",
+  "CustLangId": 656,
+  "Registered": "2005-02-08T16:54:55.0742712+01:00",
+  "RegisteredAssociateId": 247,
+  "Updated": "2004-05-19T16:54:55.0742712+02:00",
+  "UpdatedAssociateId": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldLength": 433
     }
   }
 }

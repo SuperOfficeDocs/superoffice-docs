@@ -123,26 +123,26 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 177,
-  "Name": "Will Inc and Sons",
-  "Description": "Up-sized 24/7 emulation",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 907,
+  "Name": "Nolan LLC",
+  "Description": "Right-sized 24 hour moderator",
+  "WelcomeMessage": "animi",
   "Language": null,
-  "LastAccept": "2009-11-15T23:03:55.0906414+01:00",
-  "SecondsPrAccept": 801,
-  "AlertRecipient": "aperiam",
+  "LastAccept": "2003-03-25T16:54:54.6608197+01:00",
+  "SecondsPrAccept": 12,
+  "AlertRecipient": "hic",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "maxime",
+  "BadgeHeader": "sit",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "tempore",
-  "WarnNewChatMinutes": 410,
-  "WarnManagerNewChatMinutes": 412,
-  "TicketEnabled": true,
+  "CustomQueueText": "suscipit",
+  "WarnNewChatMinutes": 143,
+  "WarnManagerNewChatMinutes": 186,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 694,
-  "WarnManagerChatMessageMinutes": 284,
+  "WarnChatMessageMinutes": 640,
+  "WarnManagerChatMessageMinutes": 500,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 370,
-  "OfflineFormQueueLength": 253,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "distinctio"
+  "OfflineFormTimeLimit": 854,
+  "OfflineFormQueueLength": 712,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "quas"
 }
 ```
 
@@ -168,21 +168,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 787,
-  "Name": "Mayert Inc and Sons",
-  "Description": "Switchable multi-state array",
-  "WelcomeMessage": "totam",
+  "ChatTopicId": 259,
+  "Name": "Pouros-Luettgen",
+  "Description": "Open-source web-enabled intranet",
+  "WelcomeMessage": "reprehenderit",
   "Language": null,
-  "LastAccept": "2015-03-19T23:03:55.0931408+01:00",
-  "SecondsPrAccept": 490,
-  "AlertRecipient": "iste",
+  "LastAccept": "2023-06-29T16:54:54.6628204+02:00",
+  "SecondsPrAccept": 863,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "suscipit",
+  "CollectConsent": true,
+  "BadgeHeader": "ad",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "laborum",
-  "WarnNewChatMinutes": 836,
-  "WarnManagerNewChatMinutes": 5,
+  "CustomQueueText": "sint",
+  "WarnNewChatMinutes": 504,
+  "WarnManagerNewChatMinutes": 528,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -192,19 +192,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 403,
-  "WarnManagerChatMessageMinutes": 235,
+  "WarnChatMessageMinutes": 709,
+  "WarnManagerChatMessageMinutes": 306,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 790,
-  "OfflineFormQueueLength": 942,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "voluptas",
+  "OfflineFormTimeLimit": 454,
+  "OfflineFormQueueLength": 591,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 996
     }
   }
 }

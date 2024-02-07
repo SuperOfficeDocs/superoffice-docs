@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 98,
-  "Name": "Lakin, Schiller and Ullrich",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 11,
+  "Id": 892,
+  "Name": "Stiedemann-Legros",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "Rank": 286,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "nobis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 702
     }
   },
   "_Links": {

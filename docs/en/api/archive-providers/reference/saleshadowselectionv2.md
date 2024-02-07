@@ -1279,7 +1279,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionV2?$select=hasQuote,person/supportAssociate,person/personUdef/SuperOffice:1,person/correspondingAssociate/lastName,contact/contactFax/description
+GET /api/v1/archive/SaleShadowSelectionV2?$select=heading,person/personCountry,person/birthYear,person/personAddress/zip,contact/phone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

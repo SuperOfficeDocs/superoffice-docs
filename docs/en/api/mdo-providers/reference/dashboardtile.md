@@ -2,9 +2,7 @@
 uid: dashboardtile
 title: dashboardtile
 keywords: mdoprovider mdo provider dashboardtile
-description: MDO list provider for Dashboard tiles
-If the DashboardTileEntityType parameter is given in the ExtraInfo, only this type will be shown in list, so no tree view in that case.
-Example: DashboardTileEntityType=Company
+description: MDO list provider for Dashboard tiles If the DashboardTileEntityType parameter is given in the ExtraInfo, only this type will be shown in list, so no tree view in that case. Example - DashboardTileEntityType=Company
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

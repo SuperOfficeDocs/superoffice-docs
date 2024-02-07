@@ -96,40 +96,40 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ut",
-    "InputValues2": "magnam"
+    "InputValues1": "in",
+    "InputValues2": "autem"
   },
   "BlockExecution": false,
-  "NavigateTo": "corrupti",
-  "Message": "soluta",
-  "ShowDialog": "aspernatur",
+  "NavigateTo": "cumque",
+  "Message": "aut",
+  "ShowDialog": "incidunt",
   "OutputValues": {
-    "OutputValues1": "quaerat",
-    "OutputValues2": "aperiam"
+    "OutputValues1": "est",
+    "OutputValues2": "nam"
   },
   "StateValues": {
-    "StateValues1": "in",
-    "StateValues2": "aspernatur"
+    "StateValues1": "dolores",
+    "StateValues2": "autem"
   },
-  "Exception": "ipsum",
+  "Exception": "delectus",
   "ParserValues": {
-    "ParserValues1": "quos",
-    "ParserValues2": "ut"
+    "ParserValues1": "autem",
+    "ParserValues2": "voluptas"
   },
   "CgiVariables": {
-    "CgiVariables1": "laboriosam",
-    "CgiVariables2": "deleniti"
+    "CgiVariables1": "quia",
+    "CgiVariables2": "animi"
   },
-  "CgiContent": "rerum",
+  "CgiContent": "tempora",
   "Headers": {
-    "Headers1": "necessitatibus",
-    "Headers2": "quia"
+    "Headers1": "quis",
+    "Headers2": "placeat"
   }
 }
 ```
@@ -143,41 +143,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "veritatis",
-    "InputValues2": "amet"
+    "InputValues1": "aliquid",
+    "InputValues2": "aspernatur"
   },
   "BlockExecution": false,
-  "NavigateTo": "est",
-  "Message": "nam",
-  "ShowDialog": "consequatur",
+  "NavigateTo": "ut",
+  "Message": "aliquam",
+  "ShowDialog": "qui",
   "OutputValues": {
-    "OutputValues1": "impedit",
-    "OutputValues2": "vitae"
+    "OutputValues1": "ea",
+    "OutputValues2": "velit"
   },
   "StateValues": {
-    "StateValues1": "commodi",
-    "StateValues2": "non"
+    "StateValues1": "praesentium",
+    "StateValues2": "vel"
   },
-  "Exception": "nihil",
+  "Exception": "est",
   "ParserValues": {
-    "ParserValues1": "ut",
-    "ParserValues2": "quo"
+    "ParserValues1": "dicta",
+    "ParserValues2": "vel"
   },
   "CgiVariables": {
-    "CgiVariables1": "odit",
-    "CgiVariables2": "blanditiis"
+    "CgiVariables1": "in",
+    "CgiVariables2": "nisi"
   },
-  "CgiContent": "quam",
+  "CgiContent": "nihil",
   "Headers": {
-    "Headers1": "perspiciatis",
-    "Headers2": "veritatis"
+    "Headers1": "aut",
+    "Headers2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 385
     }
   }
 }

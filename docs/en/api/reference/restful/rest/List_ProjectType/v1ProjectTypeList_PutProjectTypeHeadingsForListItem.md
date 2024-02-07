@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Shanahan, Nitzsche and Franecki",
-    "ToolTip": "Ut fuga qui molestias ut.",
-    "Deleted": false,
-    "Rank": 328,
-    "Type": "voluptatum",
-    "ColorBlock": 418,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2020-07-25T23:04:05.684499+02:00",
+    "Id": 115,
+    "Name": "Yundt Group",
+    "ToolTip": "Omnis recusandae eum.",
+    "Deleted": true,
+    "Rank": 615,
+    "Type": "cupiditate",
+    "ColorBlock": 527,
+    "IconHint": "illo",
+    "Selected": false,
+    "LastChanged": "2022-11-10T16:55:30.8508113+01:00",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "DuBuque, Tillman and Borer",
-        "ToolTip": "Est aut neque.",
+        "Id": 609,
+        "Name": "Wolff Inc and Sons",
+        "ToolTip": "Id minus ex deserunt.",
         "Deleted": false,
-        "Rank": 653,
-        "Type": "et",
-        "ColorBlock": 726,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "2013-09-17T23:04:05.684499+02:00",
+        "Rank": 771,
+        "Type": "sequi",
+        "ColorBlock": 681,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "1996-12-12T16:55:30.8508113+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "quasi",
-        "Hidden": false,
-        "FullName": "Mr. Serena Hayes Jr."
+        "ExtraInfo": "possimus",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Bret Rosenbaum"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "nemo",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Dudley Casper"
+    "FullName": "Miles Osinski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Miller, Legros and Conn",
-    "ToolTip": "Consectetur praesentium culpa ut consectetur et cupiditate fugit.",
+    "Id": 259,
+    "Name": "McLaughlin-Wilkinson",
+    "ToolTip": "Ut omnis pariatur id corporis et iure veritatis.",
     "Deleted": false,
-    "Rank": 62,
-    "Type": "autem",
-    "ColorBlock": 453,
-    "IconHint": "illum",
+    "Rank": 61,
+    "Type": "molestias",
+    "ColorBlock": 667,
+    "IconHint": "impedit",
     "Selected": true,
-    "LastChanged": "2011-05-14T23:04:05.6865019+02:00",
+    "LastChanged": "2009-12-17T16:55:30.8518052+01:00",
     "ChildItems": [
       {
-        "Id": 495,
-        "Name": "Pfeffer LLC",
-        "ToolTip": "Et consequatur.",
-        "Deleted": false,
-        "Rank": 798,
-        "Type": "aut",
-        "ColorBlock": 555,
-        "IconHint": "magni",
+        "Id": 770,
+        "Name": "Eichmann-Ward",
+        "ToolTip": "Sit corporis quas officia impedit necessitatibus nobis.",
+        "Deleted": true,
+        "Rank": 280,
+        "Type": "in",
+        "ColorBlock": 105,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2003-09-11T23:04:05.6865019+02:00",
+        "LastChanged": "2014-08-19T16:55:30.8518052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "sed",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Ellie Hammes IV",
+        "FullName": "Percival Eleonore Kub Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 769
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Jaquan Prohaska",
+    "FullName": "Ms. Lois Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 469
       }
     }
   }

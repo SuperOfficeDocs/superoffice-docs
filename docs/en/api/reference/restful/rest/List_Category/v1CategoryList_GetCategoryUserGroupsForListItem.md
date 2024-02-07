@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Stehr, Murazik and Klein",
-    "ToolTip": "Sit dolores.",
+    "Id": 943,
+    "Name": "Walter-Metz",
+    "ToolTip": "Facilis eius.",
     "Deleted": true,
-    "Rank": 145,
-    "Type": "quasi",
-    "ColorBlock": 12,
-    "IconHint": "ipsa",
-    "Selected": false,
-    "LastChanged": "2003-12-18T23:04:05.3129719+01:00",
+    "Rank": 493,
+    "Type": "consequatur",
+    "ColorBlock": 613,
+    "IconHint": "officia",
+    "Selected": true,
+    "LastChanged": "2015-10-27T16:55:30.5437001+01:00",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Aufderhar LLC",
-        "ToolTip": "Pariatur provident expedita.",
+        "Id": 682,
+        "Name": "Goldner, O'Conner and Deckow",
+        "ToolTip": "Explicabo perspiciatis vero ea dignissimos.",
         "Deleted": false,
-        "Rank": 1002,
-        "Type": "totam",
-        "ColorBlock": 568,
-        "IconHint": "suscipit",
+        "Rank": 444,
+        "Type": "quas",
+        "ColorBlock": 268,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2002-03-30T23:04:05.3129719+01:00",
+        "LastChanged": "2010-03-20T16:55:30.5437001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mr. Monserrate Orion Hoppe",
+        "ExtraInfo": "cumque",
+        "StyleHint": "illo",
+        "Hidden": true,
+        "FullName": "Mrs. Alejandra Alyce Friesen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldLength": 537
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Miss Kraig Lesly Cormier",
+    "ExtraInfo": "illum",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Mr. Gilberto Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldType": "System.String",
+        "FieldLength": 37
       }
     }
   }

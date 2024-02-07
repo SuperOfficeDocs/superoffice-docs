@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 888,
-  "AssociateId": 379,
-  "Caption": "ad",
+  "DashboardId": 400,
+  "AssociateId": 924,
+  "Caption": "fuga",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 246,
-      "Caption": "nihil",
-      "Description": "Versatile responsive groupware",
-      "ChartName": "Abernathy Inc and Sons",
-      "ChartId": "enim",
+      "DashboardTileId": 136,
+      "Caption": "qui",
+      "Description": "Synchronised scalable complexity",
+      "ChartName": "Rau-Corwin",
+      "ChartId": "natus",
       "IsDefault": true,
-      "AssociateId": 876,
-      "GroupId": 21,
-      "SelectionId": 941,
-      "Config": "voluptatibus",
+      "AssociateId": 895,
+      "GroupId": 557,
+      "SelectionId": 987,
+      "Config": "dolorum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 34
+          "FieldLength": 41
         }
       }
     }
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

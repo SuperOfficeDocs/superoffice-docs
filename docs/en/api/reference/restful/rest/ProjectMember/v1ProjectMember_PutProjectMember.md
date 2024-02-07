@@ -105,7 +105,7 @@ ProjectMember updated.
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -123,27 +123,27 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 650,
-  "ContactId": 52,
-  "ProjectId": 338,
-  "ContactName": "Monahan-Durgan",
+  "ProjectmemberId": 977,
+  "ContactId": 722,
+  "ProjectId": 368,
+  "ContactName": "Lowe, Hagenes and Mayer",
   "ContactDepartment": "",
-  "ProjectName": "Lang, Towne and Funk",
-  "EmailId": 447,
-  "EmailAddress": "ida_hodkiewicz@gottlieb.name",
-  "CountryId": 105,
-  "Firstname": "Daisha",
-  "MiddleName": "Dickinson Inc and Sons",
-  "Lastname": "Bartell",
-  "PersonId": 16,
-  "Mrmrs": "autem",
-  "ProjectMemberTypeName": "Blanda-Kuvalis",
-  "Phone": "(820)044-8493 x754",
-  "PhoneId": 321,
-  "ProjectMemberTypeId": 162,
-  "EmailAddressName": "enrico.sipes@boehm.name",
-  "Comment": "molestias",
-  "FullName": "Montana Schulist"
+  "ProjectName": "Fisher Group",
+  "EmailId": 1000,
+  "EmailAddress": "maegan_kris@stracke.us",
+  "CountryId": 128,
+  "Firstname": "Raymond",
+  "MiddleName": "Hartmann Inc and Sons",
+  "Lastname": "Renner",
+  "PersonId": 783,
+  "Mrmrs": "necessitatibus",
+  "ProjectMemberTypeName": "Strosin, Olson and Hoeger",
+  "Phone": "782-291-3544",
+  "PhoneId": 31,
+  "ProjectMemberTypeId": 664,
+  "EmailAddressName": "aaliyah.wilderman@simonis.biz",
+  "Comment": "modi",
+  "FullName": "Albert Karli Dare II"
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ProjectMember updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 537,
-  "ContactId": 706,
-  "ProjectId": 903,
-  "ContactName": "Wilderman, Hirthe and Ebert",
-  "ContactDepartment": "",
-  "ProjectName": "Ebert-Orn",
-  "EmailId": 277,
-  "EmailAddress": "alexys@wiegand.uk",
-  "CountryId": 659,
-  "Firstname": "Kiara",
-  "MiddleName": "Bernhard-Becker",
-  "Lastname": "Welch",
-  "PersonId": 223,
-  "Mrmrs": "reiciendis",
-  "ProjectMemberTypeName": "Schowalter Inc and Sons",
-  "Phone": "070-780-8273 x854",
-  "PhoneId": 516,
-  "ProjectMemberTypeId": 508,
-  "EmailAddressName": "millie@wardlemke.uk",
-  "Comment": "pariatur",
-  "FullName": "Katelin Koch",
+  "ProjectmemberId": 699,
+  "ContactId": 564,
+  "ProjectId": 591,
+  "ContactName": "Gaylord, Schowalter and Maggio",
+  "ContactDepartment": "integrate virtual applications",
+  "ProjectName": "Becker, Kautzer and DuBuque",
+  "EmailId": 569,
+  "EmailAddress": "alexandrine.lebsack@greenfelder.ca",
+  "CountryId": 965,
+  "Firstname": "Leonardo",
+  "MiddleName": "Anderson, Schroeder and Maggio",
+  "Lastname": "Terry",
+  "PersonId": 693,
+  "Mrmrs": "harum",
+  "ProjectMemberTypeName": "Luettgen-Brekke",
+  "Phone": "(816)482-7080",
+  "PhoneId": 542,
+  "ProjectMemberTypeId": 571,
+  "EmailAddressName": "kamron_kunze@zemlak.info",
+  "Comment": "rerum",
+  "FullName": "Ted Wehner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

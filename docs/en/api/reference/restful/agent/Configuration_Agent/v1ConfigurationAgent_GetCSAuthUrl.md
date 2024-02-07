@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "quam",
-  "ProgramName": "Hermiston Inc and Sons",
-  "Action": "nostrum",
-  "ExtraParameters": "molestiae"
+  "Language": "sed",
+  "ProgramName": "Howell-Wilderman",
+  "Action": "sed",
+  "ExtraParameters": "voluptatem"
 }
 ```
 

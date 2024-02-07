@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 957,
-    "ColumnId": 457,
-    "FieldDefault": "et",
-    "FieldHeight": 634,
-    "FieldLabel": "rerum",
-    "FieldLeft": 625,
-    "FieldTop": 128,
+    "UDefFieldId": 451,
+    "ColumnId": 673,
+    "FieldDefault": "explicabo",
+    "FieldHeight": 454,
+    "FieldLabel": "quisquam",
+    "FieldLeft": 329,
+    "FieldTop": 249,
     "FieldType": "Checkbox",
-    "FieldWidth": 493,
-    "FormatMask": "omnis",
-    "HideLabel": false,
+    "FieldWidth": 79,
+    "FormatMask": "molestiae",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 188,
-    "LabelLeft": 176,
-    "LabelTop": 42,
-    "LabelWidth": 245,
-    "LastVersionId": 293,
-    "ListTableId": 830,
+    "LabelHeight": 294,
+    "LabelLeft": 884,
+    "LabelTop": 842,
+    "LabelWidth": 221,
+    "LastVersionId": 126,
+    "ListTableId": 949,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 146,
-    "ProgId": "voluptas",
-    "IsReadOnly": true,
-    "ShortLabel": "qui",
-    "TabOrder": 879,
-    "TextLength": 607,
-    "Tooltip": "quis",
-    "UdefIdentity": 312,
-    "UDListDefinitionId": 36,
+    "Page1LineNo": 262,
+    "ProgId": "laboriosam",
+    "IsReadOnly": false,
+    "ShortLabel": "perspiciatis",
+    "TabOrder": 608,
+    "TextLength": 485,
+    "Tooltip": "accusamus",
+    "UdefIdentity": 767,
+    "UDListDefinitionId": 418,
     "Justification": "Center",
-    "Version": 31,
-    "TemplateVariableName": "Vandervort Group",
+    "Version": 39,
+    "TemplateVariableName": "Yundt LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Greenfelder, Grant and Hodkiewicz",
+    "MdoListName": "Cartwright-Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldLength": 653
       }
     }
   }

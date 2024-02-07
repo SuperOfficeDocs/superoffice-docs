@@ -105,16 +105,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 632,
-  "Name": "Collier, Bernier and Greenfelder",
-  "Tooltip": "cum",
+  "RoleId": 90,
+  "Name": "Kuvalis-West",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 970,
-  "Rank": 109,
-  "Created": "2020-04-26T23:04:04.6145128+02:00",
-  "UseCategories": 466,
+  "Deleted": 907,
+  "Rank": 87,
+  "Created": "2006-05-04T16:55:29.9819903+02:00",
+  "UseCategories": 618,
   "CreatedBy": null,
-  "Updated": "2000-05-26T23:04:04.6145128+02:00",
+  "Updated": "2015-06-08T16:55:29.9819903+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,29 +127,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 597,
-  "Name": "Johnson-Upton",
-  "Tooltip": "unde",
+  "RoleId": 991,
+  "Name": "Friesen, Zulauf and Lesch",
+  "Tooltip": "sit",
   "RoleType": "Anonymous",
-  "Deleted": 830,
-  "Rank": 828,
-  "Created": "1999-09-04T23:04:04.6160121+02:00",
-  "UseCategories": 867,
+  "Deleted": 550,
+  "Rank": 753,
+  "Created": "1998-08-16T16:55:29.9849908+02:00",
+  "UseCategories": 719,
   "CreatedBy": null,
-  "Updated": "2023-05-01T23:04:04.6165131+02:00",
+  "Updated": "2004-12-10T16:55:29.9849908+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 884
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

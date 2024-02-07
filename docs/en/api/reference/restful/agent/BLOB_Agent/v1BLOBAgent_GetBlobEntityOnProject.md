@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 296
+  "ProjectId": 224
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 87,
-  "BlobSize": 856,
-  "Description": "Multi-channelled scalable flexibility",
-  "ExtraInfo": "nesciunt",
+  "BlobId": 556,
+  "BlobSize": 46,
+  "Description": "Right-sized client-driven artificial intelligence",
+  "ExtraInfo": "amet",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "nihil",
-  "OriginalSize": 200,
-  "CreatedDate": "2001-06-06T23:03:55.0381388+02:00",
-  "UpdatedDate": "1999-05-06T23:03:55.0381388+02:00",
+  "IsZipped": true,
+  "MimeType": "sed",
+  "OriginalSize": 226,
+  "CreatedDate": "2005-09-05T16:54:54.6163225+02:00",
+  "UpdatedDate": "2020-11-17T16:54:54.6163225+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "officia",
+  "ConceptualType": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 655
     }
   }
 }

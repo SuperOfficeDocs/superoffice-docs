@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=magnam
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=illum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Sanford Inc and Sons",
-    "ToolTip": "Quibusdam exercitationem.",
-    "Deleted": true,
-    "Rank": 500,
-    "Type": "aut",
+    "Id": 60,
+    "Name": "Krajcik, Grady and Nicolas",
+    "ToolTip": "Perferendis aliquid atque et laborum.",
+    "Deleted": false,
+    "Rank": 684,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 755,
-        "Name": "Bradtke-Howell",
-        "ToolTip": "Nam recusandae consectetur et nihil nihil placeat.",
+        "Id": 399,
+        "Name": "Ebert-Mills",
+        "ToolTip": "Qui facere voluptate culpa qui.",
         "Deleted": false,
-        "Rank": 787,
-        "Type": "est",
+        "Rank": 221,
+        "Type": "temporibus",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "aut",
-        "ColorBlock": 483,
-        "ExtraInfo": "officia",
-        "StyleHint": "sapiente",
-        "FullName": "Abe Leffler",
+        "ColorBlock": 521,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "provident",
+        "FullName": "Osvaldo Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 170
+            "FieldLength": 848
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 286,
-    "ExtraInfo": "soluta",
-    "StyleHint": "illum",
-    "FullName": "Augustus Nikolaus",
+    "IconHint": "sit",
+    "ColorBlock": 740,
+    "ExtraInfo": "aut",
+    "StyleHint": "soluta",
+    "FullName": "Victoria Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 431
       }
     }
   }

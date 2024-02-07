@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    428,
-    380
+    390,
+    160
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 962,
-    "Name": "Rowe-Mertz",
-    "Description": "Profound impactful projection",
+    "ProjectId": 664,
+    "Name": "Farrell-Schiller",
+    "Description": "Virtual discrete parallelism",
     "URL": "http://www.example.com/",
-    "Type": "modi",
-    "AssociateId": 189,
-    "AssociateFullName": "Ed Ellis Daniel V",
-    "TypeId": 103,
-    "Updated": "2008-05-12T23:03:56.6886232+02:00",
-    "StatusId": 964,
-    "Status": "tenetur",
-    "TextId": 532,
-    "PublishTo": "2003-03-12T23:03:56.6886232+01:00",
-    "PublishFrom": "2015-08-27T23:03:56.6886232+02:00",
-    "IsPublished": true,
+    "Type": "eum",
+    "AssociateId": 42,
+    "AssociateFullName": "Gia Feil",
+    "TypeId": 587,
+    "Updated": "2012-03-05T16:54:56.071138+01:00",
+    "StatusId": 856,
+    "Status": "illo",
+    "TextId": 33,
+    "PublishTo": "2001-06-19T16:54:56.071138+02:00",
+    "PublishFrom": "1997-07-11T16:54:56.071138+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "968952",
-    "ActiveErpLinks": 551,
+    "ProjectNumber": "1131127",
+    "ActiveErpLinks": 220,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldLength": 265
       }
     }
   }

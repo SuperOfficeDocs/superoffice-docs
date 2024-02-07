@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 759,
-  "Name": "McGlynn Group",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "Rank": 680,
-  "UdListDefinitionId": 804
+  "HeadingId": 848,
+  "Name": "Williamson-Wehner",
+  "Tooltip": "totam",
+  "Deleted": true,
+  "Rank": 661,
+  "UdListDefinitionId": 850
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 191,
-  "Name": "Konopelski, Rippin and Boyer",
-  "Tooltip": "odit",
+  "HeadingId": 160,
+  "Name": "Waters LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 282,
-  "UdListDefinitionId": 298,
+  "Rank": 128,
+  "UdListDefinitionId": 575,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 864
     }
   }
 }

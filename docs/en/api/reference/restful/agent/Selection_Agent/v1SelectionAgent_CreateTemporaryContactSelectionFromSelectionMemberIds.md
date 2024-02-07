@@ -69,7 +69,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -118,10 +118,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 519,
+  "SelectionId": 911,
   "SelectionMemberIds": [
-    518,
-    678
+    374,
+    341
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized value-added groupware",
-  "Postit": "pariatur",
+  "Description": "Cross-group interactive extranet",
+  "Postit": "eveniet",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 764,
-  "IncludePerson": 650,
-  "MemberCount": 60,
-  "Name": "Fay Group",
-  "PostitTextId": 355,
-  "CreatedDate": "2003-06-04T23:03:57.1351133+02:00",
-  "SelectionId": 285,
-  "SoundEx": "magni",
-  "Source": 942,
-  "TextId": 335,
-  "UpdatedDate": "2008-11-12T23:03:57.1351133+01:00",
-  "UpdatedCount": 937,
-  "Visibility": 638,
+  "GroupIdx": 782,
+  "IncludePerson": 982,
+  "MemberCount": 385,
+  "Name": "Flatley, Daugherty and Bernier",
+  "PostitTextId": 164,
+  "CreatedDate": "1997-09-19T16:54:56.3175028+02:00",
+  "SelectionId": 472,
+  "SoundEx": "sapiente",
+  "Source": 319,
+  "TextId": 754,
+  "UpdatedDate": "2004-11-30T16:54:56.3175028+01:00",
+  "UpdatedCount": 322,
+  "Visibility": 390,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 522,
-  "TargetTableName": "Cassin Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 913,
-  "RightSelectionId": 424,
+  "CompanyUnique": true,
+  "TargetTableNumber": 339,
+  "TargetTableName": "Tromp LLC",
+  "Completed": true,
+  "LeftSelectionId": 309,
+  "RightSelectionId": 489,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jacobson, Hickle and Carter",
-  "ShadowProviderName": "Keeling LLC",
-  "ChartKey": "nostrum",
-  "LastLoaded": "2010-03-04T23:03:57.1356135+01:00",
-  "LastLoadedBy": 342,
+  "MainProviderName": "Beahan LLC",
+  "ShadowProviderName": "Schulist, Bashirian and Zemlak",
+  "ChartKey": "repudiandae",
+  "LastLoaded": "2017-04-07T16:54:56.3175028+02:00",
+  "LastLoadedBy": 842,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-12-01T23:03:57.1356135+01:00",
-  "LastMembershipChangeBy": 519,
+  "LastMembershipChange": "2010-02-26T16:54:56.3175028+01:00",
+  "LastMembershipChangeBy": 957,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sapiente",
-  "MemberTabHeading": "tenetur",
-  "MailingsProviderName": "Zieme-Keebler",
-  "DashboardTileDefinitionId": 326,
+  "MainHeading": "et",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Koelpin Inc and Sons",
+  "DashboardTileDefinitionId": 761,
   "VisibleFor": [
     {
-      "VisibleId": 358,
+      "VisibleId": 98,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldLength": 592
         }
       }
     },
     {
-      "VisibleId": 358,
+      "VisibleId": 98,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 537
+          "FieldLength": 592
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

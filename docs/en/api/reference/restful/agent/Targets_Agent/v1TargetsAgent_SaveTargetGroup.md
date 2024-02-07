@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 594,
-  "Year": 561,
+  "TargetGroupId": 693,
+  "Year": 725,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 152,
+      "TargetAssignmentInfoId": 681,
       "Values": [
-        654,
-        384
+        797,
+        592
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 669,
-      "DimensionListItemDisplayName": "Feil-Stark"
+      "DimensionListItem": 137,
+      "DimensionListItemDisplayName": "Fahey LLC"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 325,
-  "Year": 291,
+  "TargetGroupId": 685,
+  "Year": 787,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 989,
+      "TargetAssignmentInfoId": 535,
       "Values": [
-        893,
-        159
+        182,
+        132
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 210,
-      "DimensionListItemDisplayName": "Dickens, McKenzie and Jacobi",
+      "DimensionListItem": 162,
+      "DimensionListItemDisplayName": "Bode-Toy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldLength": 560
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

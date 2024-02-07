@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=culpa
+GET /api/v1/List/ConsentSource/MDOItems?query=praesentium
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Wisoky-Mitchell",
-    "ToolTip": "Omnis exercitationem.",
+    "Id": 579,
+    "Name": "Jast, DuBuque and Wilderman",
+    "ToolTip": "Autem quia nihil error velit.",
     "Deleted": false,
-    "Rank": 157,
-    "Type": "voluptatem",
+    "Rank": 201,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Huels-Kutch",
-        "ToolTip": "Temporibus debitis eum quod quisquam.",
+        "Id": 945,
+        "Name": "Bernier, Hackett and Johns",
+        "ToolTip": "Debitis est ea.",
         "Deleted": false,
-        "Rank": 926,
-        "Type": "aut",
+        "Rank": 85,
+        "Type": "voluptatum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 986,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "dignissimos",
-        "FullName": "Mr. Jammie Palma Torp II",
+        "IconHint": "odio",
+        "ColorBlock": 358,
+        "ExtraInfo": "animi",
+        "StyleHint": "voluptatem",
+        "FullName": "Jocelyn Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 460
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 973,
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "quis",
-    "FullName": "Gino Hayes",
+    "IconHint": "commodi",
+    "ColorBlock": 623,
+    "ExtraInfo": "maxime",
+    "StyleHint": "consequuntur",
+    "FullName": "Prof. Damion Hayden Rodriguez III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 800
       }
     }
   }

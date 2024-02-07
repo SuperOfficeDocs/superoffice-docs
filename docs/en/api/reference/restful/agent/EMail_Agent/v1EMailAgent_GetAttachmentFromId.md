@@ -88,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 599,
-  "AttachmentId": "aut"
+  "MailItemId": 803,
+  "AttachmentId": "est"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Horizontal intermediate workforce",
-  "Filename": "corrupti",
-  "Size": 288,
-  "Type": "aliquid",
-  "Encoding": "quia",
-  "Id": "at",
-  "Disposition": "dicta",
-  "IsSafeFileExtension": false,
+  "Description": "Compatible eco-centric initiative",
+  "Filename": "natus",
+  "Size": 45,
+  "Type": "recusandae",
+  "Encoding": "fugit",
+  "Id": "corrupti",
+  "Disposition": "unde",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 448
     }
   }
 }

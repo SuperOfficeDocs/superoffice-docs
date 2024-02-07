@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 857,
-  "NumDocumentsAlreadyMigrated": 503,
+  "NumDocumentsOmitted": 998,
+  "NumDocumentsAlreadyMigrated": 302,
   "Documents": [
     {
-      "DocumentId": 152,
-      "ContactId": 259,
-      "PersonId": 418,
-      "SaleId": 146,
-      "ProjectId": 481,
-      "DocTmplId": 709,
-      "AssociateId": 546,
-      "UserGroupId": 135,
-      "VisibleForId": 512
+      "DocumentId": 767,
+      "ContactId": 762,
+      "PersonId": 673,
+      "SaleId": 491,
+      "ProjectId": 168,
+      "DocTmplId": 419,
+      "AssociateId": 334,
+      "UserGroupId": 783,
+      "VisibleForId": 936
     }
   ],
   "Associates": [
     {
-      "AssociateId": 495,
-      "EmailAddress": "wyman_lehner@senger.com"
+      "AssociateId": 306,
+      "EmailAddress": "sonia@hodkiewicz.us"
     },
     {
-      "AssociateId": 495,
-      "EmailAddress": "wyman_lehner@senger.com"
+      "AssociateId": 306,
+      "EmailAddress": "sonia@hodkiewicz.us"
     }
   ]
 }

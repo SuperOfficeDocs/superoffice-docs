@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "consequuntur"
+  "MimeMessage": "inventore"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 433,
-      "ContactName": "Gulgowski-Stanton",
-      "PersonId": 43,
-      "PersonName": "Monahan-Bauch",
-      "AssociateId": 48,
-      "Address": "aut",
-      "EmailId": 169,
+      "ContactId": 834,
+      "ContactName": "Dietrich-Green",
+      "PersonId": 638,
+      "PersonName": "Moen Inc and Sons",
+      "AssociateId": 698,
+      "Address": "ipsum",
+      "EmailId": 205,
       "DuplicatePersonIds": [
-        784,
-        784
+        657,
+        119
       ],
-      "Name": "Abernathy-Streich",
+      "Name": "Terry LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldLength": 773
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 57,
-      "ContactName": "Hintz LLC",
-      "PersonId": 714,
-      "PersonName": "Lakin, Terry and Nolan",
-      "AssociateId": 170,
-      "Address": "odio",
-      "EmailId": 609,
+      "ContactId": 268,
+      "ContactName": "Bailey-Towne",
+      "PersonId": 192,
+      "PersonName": "Reynolds, McCullough and Emmerich",
+      "AssociateId": 451,
+      "Address": "modi",
+      "EmailId": 800,
       "DuplicatePersonIds": [
-        570,
-        993
+        359,
+        261
       ],
-      "Name": "Dickens Group",
+      "Name": "Raynor-Langworth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldLength": 324
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 542,
-      "ContactName": "Ruecker, Kunze and Kshlerin",
-      "PersonId": 393,
-      "PersonName": "Nolan, Gutmann and Flatley",
-      "AssociateId": 281,
-      "Address": "ratione",
-      "EmailId": 849,
+      "ContactId": 708,
+      "ContactName": "Gerhold, Hauck and Zemlak",
+      "PersonId": 411,
+      "PersonName": "Schmidt Group",
+      "AssociateId": 811,
+      "Address": "sit",
+      "EmailId": 873,
       "DuplicatePersonIds": [
-        851,
-        184
+        316,
+        582
       ],
-      "Name": "Pfannerstill-Rodriguez",
+      "Name": "Hamill-Howe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldLength": 783
         }
       }
     }
   ],
-  "Subject": "maxime",
-  "HTMLBody": "quae",
+  "Subject": "aut",
+  "HTMLBody": "ad",
   "From": null,
-  "Sent": "2022-02-28T23:03:56.0041284+01:00",
-  "Size": 261,
+  "Sent": "2014-09-27T16:54:55.3970355+02:00",
+  "Size": 555,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dicta",
-  "PlainBody": "omnis",
-  "IsSent": true,
+  "MessageID": "ut",
+  "PlainBody": "ut",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 629,
+  "ServerId": 344,
   "Attachments": [
     {
-      "Description": "Progressive local groupware",
-      "Filename": "cumque",
-      "Size": 998,
-      "Type": "odit",
-      "Encoding": "totam",
-      "Id": "ab",
-      "Disposition": "debitis",
+      "Description": "Right-sized optimal help-desk",
+      "Filename": "labore",
+      "Size": 828,
+      "Type": "sit",
+      "Encoding": "unde",
+      "Id": "sit",
+      "Disposition": "officiis",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldLength": 205
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schmeler Inc and Sons",
+      "Name": "Reilly, Collier and Daugherty",
       "Values": [
-        "illum",
-        "libero"
+        "modi",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldLength": 736
         }
       }
     },
     {
-      "Name": "Schmeler Inc and Sons",
+      "Name": "Reilly, Collier and Daugherty",
       "Values": [
-        "illum",
-        "libero"
+        "modi",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldLength": 736
         }
       }
     }
   ],
-  "FolderName": "Von-Bednar",
-  "EmailItemId": 763,
-  "AccountId": 689,
-  "ReceivedAt": "2000-08-14T23:03:56.0046289+02:00",
+  "FolderName": "Berge Group",
+  "EmailItemId": 950,
+  "AccountId": 670,
+  "ReceivedAt": "2019-06-02T16:54:55.3970355+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-10-19T23:03:56.0046289+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2019-12-13T16:54:55.3970355+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 943
     }
   }
 }

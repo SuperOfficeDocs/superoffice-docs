@@ -47,20 +47,20 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Appointment | Appointment | Simple read-only appointment data. <para /> Carrier object for Appointment. Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>. |
-| Associate | Associate | The sale owner  <para>Use MDO List name "associate" to get list items.</para> |
+| Appointment | Appointment | Simple read-only appointment data.  Carrier object for Appointment. Services for the Appointment Carrier is available from the Appointment Agent. |
+| Associate | Associate | The sale owner  Use MDO List name "associate" to get list items. |
 | UpdatedBy | Associate | Who updated the sale |
 | CreatedBy | Associate | Who created to sale |
-| Contact | Contact | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project | Project | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| Contact | Contact | The contact associated with the sale. It may also be 0 if no contact is associated with the sale.  Use MDO List name "contact" to get list items. |
+| Project | Project | A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.  Use MDO List name "project" to get list items. |
 | SaleText | string | Text describing the sale |
-| Person | Person | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Currency | Currency | The currency the sale object was sold in  <para>Use MDO List name "currency" to get list items.</para> |
-| Competitor | Competitor | List of all possible competitors.   <para>Use MDO List name "comptr" to get list items.</para> |
-| Credited | Credited | List of who is to be credited for the sale.  <para>Use MDO List name "credited" to get list items.</para> |
-| Rating | Rating | The sale rating  <para>Use MDO List name "prob" to get list items.</para> |
-| Reason | Reason | The sale reason  <para>Use MDO List name "reason" to get list items.</para> |
-| Source | Source | The sale source  <para>Use MDO List name "source" to get list items.</para> |
+| Person | Person | A sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required.  Use MDO List name "person" to get list items. |
+| Currency | Currency | The currency the sale object was sold in  Use MDO List name "currency" to get list items. |
+| Competitor | Competitor | List of all possible competitors.   Use MDO List name "comptr" to get list items. |
+| Credited | Credited | List of who is to be credited for the sale.  Use MDO List name "credited" to get list items. |
+| Rating | Rating | The sale rating  Use MDO List name "prob" to get list items. |
+| Reason | Reason | The sale reason  Use MDO List name "reason" to get list items. |
+| Source | Source | The sale source  Use MDO List name "source" to get list items. |
 | Status | string | The state of the Sale: Open / Sold / Lost / Stalled |
 | Saledate | date-time | (expected / lost / won) sales date |
 | Amount | double | Total sale amount |
@@ -77,15 +77,15 @@ OK
 | Links | array | List of all elements linked to the sale. |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| SaleType | SaleType | <para>Use MDO List name "saletype" to get list items.</para> |
-| ReasonSold | ReasonSold | <para>Use MDO List name "reasonsold" to get list items.</para> |
-| ReasonStalled | ReasonStalled | <para>Use MDO List name "reasonstalled" to get list items.</para> |
+| SaleType | SaleType | Use MDO List name "saletype" to get list items. |
+| ReasonSold | ReasonSold | Use MDO List name "reasonsold" to get list items. |
+| ReasonStalled | ReasonStalled | Use MDO List name "reasonstalled" to get list items. |
 | ReopenDate | date-time | Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate. |
 | SaleStakeholders | array |  |
 | ActiveErpLinks | int32 | The number of active erp links |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.SaleEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.SaleEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.SaleEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.SaleEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.SaleEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "est",
+  "SaleText": "odio",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-05-27T23:03:56.8641173+02:00",
-  "Amount": 8834.746,
-  "SaleId": 92,
-  "Earning": 15425.547999999999,
-  "EarningPercent": 27911.404,
-  "Heading": "vel",
-  "Number": "811402",
-  "Probability": 843,
-  "CreatedDate": "2004-08-13T23:03:56.8641173+02:00",
-  "UpdatedDate": "1999-11-23T23:03:56.8641173+01:00",
+  "Saledate": "2009-11-26T16:54:56.2089916+01:00",
+  "Amount": 11786.974,
+  "SaleId": 993,
+  "Earning": 9599.442,
+  "EarningPercent": 15174.828,
+  "Heading": "dolorum",
+  "Number": "256261",
+  "Probability": 273,
+  "CreatedDate": "2009-06-01T16:54:56.2099899+02:00",
+  "UpdatedDate": "2017-05-25T16:54:56.2099899+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 213,
+  "ActiveLinks": 114,
   "Links": [
     {
-      "EntityName": "Rosenbaum Group",
-      "Id": 50,
-      "Description": "Right-sized context-sensitive Graphical User Interface",
-      "ExtraInfo": "est",
-      "LinkId": 694,
+      "EntityName": "Mraz-Aufderhar",
+      "Id": 824,
+      "Description": "Multi-tiered modular parallelism",
+      "ExtraInfo": "ut",
+      "LinkId": 107,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 922
         }
       }
     }
   ],
-  "NextDueDate": "2009-11-05T23:03:56.8641173+01:00",
-  "Postit": "tenetur",
+  "NextDueDate": "2017-11-10T16:54:56.2099899+01:00",
+  "Postit": "magni",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-12-06T23:03:56.8641173+01:00",
+  "ReopenDate": "1999-07-27T16:54:56.2099899+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hilpert, Lemke and Hand",
-      "Comment": "sapiente",
-      "StakeholderRoleId": 92,
-      "CountryId": 649,
-      "PersonId": 644,
-      "EmailDescription": "coy@prohaskamcglynn.name",
-      "EmailId": 9,
-      "EmailAddress": "frederic.cole@zboncak.us",
-      "PhoneId": 608,
-      "ContactName": "Gottlieb, Ortiz and Barton",
-      "ContactId": 113,
-      "SaleId": 828,
-      "Mrmrs": "modi",
-      "Firstname": "Susie",
-      "MiddleName": "Hilll, Volkman and Stehr",
-      "Lastname": "Gottlieb",
-      "SaleStakeholderId": 474,
-      "Rank": 996,
-      "Phone": "(300)840-3433",
+      "StakeholderRoleName": "King-Langworth",
+      "Comment": "dolor",
+      "StakeholderRoleId": 745,
+      "CountryId": 501,
+      "PersonId": 643,
+      "EmailDescription": "okey@ondricka.co.uk",
+      "EmailId": 6,
+      "EmailAddress": "sedrick@vonrueden.com",
+      "PhoneId": 633,
+      "ContactName": "Krajcik LLC",
+      "ContactId": 858,
+      "SaleId": 373,
+      "Mrmrs": "ut",
+      "Firstname": "Bertha",
+      "MiddleName": "Harvey-Hamill",
+      "Lastname": "Hilpert",
+      "SaleStakeholderId": 215,
+      "Rank": 134,
+      "Phone": "620-438-0616",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 737
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 945,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Ervin Bobby Predovic I",
+    "SuperOffice:2": "Carter Armstrong"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "laborum"
+  },
+  "CustomFields": {
+    "CustomFields1": "consequatur",
+    "CustomFields2": "dolores"
+  },
+  "PublishEventDate": "2014-06-14T16:54:56.2099899+02:00",
+  "PublishTo": "2024-01-17T16:54:56.2099899+01:00",
+  "PublishFrom": "2015-05-14T16:54:56.2099899+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 347,
+      "Visibility": "All",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 795
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 802,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Adalberto Harris"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "qui"
-  },
-  "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "cumque"
-  },
-  "PublishEventDate": "2013-07-05T23:03:56.8651168+02:00",
-  "PublishTo": "2008-09-11T23:03:56.8651168+02:00",
-  "PublishFrom": "2006-06-16T23:03:56.8651168+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 534,
-      "Visibility": "All",
-      "DisplayValue": "mollitia",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 18
         }
       }
     },
     {
-      "VisibleId": 534,
+      "VisibleId": 347,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldType": "System.String",
+          "FieldLength": 18
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 711
     }
   }
 }

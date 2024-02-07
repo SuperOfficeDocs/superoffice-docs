@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "O'Keefe-Luettgen"
+  "OwnerName": "Rau, Hilpert and Breitenberg"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 657,
-      "NumberOfLicensesFree": 385,
-      "NumberOfLicensesAdded": 547,
-      "NumberOfLicensesNewTotal": 991,
-      "NumberOfLicensesNewFree": 747,
-      "NumberOfLicensesTotal": 449
+      "NumberOfLicensesInUse": 149,
+      "NumberOfLicensesFree": 122,
+      "NumberOfLicensesAdded": 873,
+      "NumberOfLicensesNewTotal": 61,
+      "NumberOfLicensesNewFree": 44,
+      "NumberOfLicensesTotal": 243
     }
   ],
-  "AccumulatedNextCheckDate": "2015-06-11T23:03:56.1351296+02:00"
+  "AccumulatedNextCheckDate": "2012-02-10T16:54:55.5004702+01:00"
 }
 ```

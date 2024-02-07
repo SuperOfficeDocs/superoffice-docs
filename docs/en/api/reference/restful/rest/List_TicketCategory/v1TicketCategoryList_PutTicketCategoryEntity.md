@@ -94,7 +94,7 @@ OK
 | DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 328,
-  "ParentId": 23,
-  "Name": "Schimmel LLC",
-  "Fullname": "consequatur",
-  "CategoryMaster": 372,
+  "TicketCategoryId": 315,
+  "ParentId": 199,
+  "Name": "Stanton-Schiller",
+  "Fullname": "velit",
+  "CategoryMaster": 71,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Goodwin LLC",
+  "ExternalName": "Ritchie-Kuhlman",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 625,
-  "ReplyTemplate": 675,
-  "NotificationEmail": "ivah.kessler@hilperttorphy.com",
+  "AssignmentLag": 930,
+  "ReplyTemplate": 34,
+  "NotificationEmail": "rachelle@hintz.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 829,
+  "EffectiveReplyTemplateId": 436,
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "voluptatum"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "soluta"
+    "CustomFields1": "quae",
+    "CustomFields2": "incidunt"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 53,
-  "ParentId": 639,
-  "Name": "Prosacco-Nicolas",
-  "Fullname": "dolores",
-  "CategoryMaster": 970,
+  "TicketCategoryId": 718,
+  "ParentId": 24,
+  "Name": "Balistreri Inc and Sons",
+  "Fullname": "nostrum",
+  "CategoryMaster": 359,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kuphal-Jacobi",
+  "ExternalName": "Lockman LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 345,
-  "ReplyTemplate": 274,
-  "NotificationEmail": "amparo_dickens@nikolaus.co.uk",
+  "AssignmentLag": 328,
+  "ReplyTemplate": 153,
+  "NotificationEmail": "ali_lowe@blandajewess.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 772,
+  "EffectiveReplyTemplateId": 514,
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "alias",
-    "CustomFields2": "quae"
+    "CustomFields1": "odit",
+    "CustomFields2": "ipsam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldType": "System.Int32",
+      "FieldLength": 598
     }
   }
 }

@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 795
+  "ErpSyncConnectionId": 523
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Nicolas, Ryan and Trantow",
-  "DisplayDescription": "Monitored zero administration local area network",
-  "Active": true,
-  "Deleted": true,
-  "LastSync": "2011-03-17T23:03:56.0356282+01:00",
+  "DisplayName": "Dach, Corwin and Stokes",
+  "DisplayDescription": "Switchable even-keeled ability",
+  "Active": false,
+  "Deleted": false,
+  "LastSync": "2007-05-19T16:54:55.4200345+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "cum",
-      "Mappings": "et",
+      "HasMappings": false,
+      "Defaults": "autem",
+      "Mappings": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 640
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "cum",
-      "Mappings": "et",
+      "HasMappings": false,
+      "Defaults": "autem",
+      "Mappings": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 640
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

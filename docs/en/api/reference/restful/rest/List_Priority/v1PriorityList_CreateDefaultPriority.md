@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 882,
-  "Name": "Graham Inc and Sons",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "UdListDefinitionId": 847,
-  "Rank": 614,
+  "Id": 904,
+  "Name": "Corwin Group",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "UdListDefinitionId": 895,
+  "Rank": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldType": "System.String",
+      "FieldLength": 904
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Windler, Parisian and King",
-    "ToolTip": "Dolorum nisi.",
+    "Id": 932,
+    "Name": "Keebler, Marvin and Crist",
+    "ToolTip": "Sint labore ea harum.",
     "Deleted": false,
-    "Rank": 104,
-    "Type": "in",
-    "ColorBlock": 965,
-    "IconHint": "corporis",
+    "Rank": 417,
+    "Type": "harum",
+    "ColorBlock": 463,
+    "IconHint": "sed",
     "Selected": true,
-    "LastChanged": "2013-11-09T23:04:05.4575026+01:00",
+    "LastChanged": "2014-10-07T16:55:30.6679001+02:00",
     "ChildItems": [
       {
-        "Id": 524,
-        "Name": "Ferry LLC",
-        "ToolTip": "Totam atque accusantium quasi est et iusto magni.",
-        "Deleted": false,
-        "Rank": 543,
-        "Type": "doloribus",
-        "ColorBlock": 731,
-        "IconHint": "quibusdam",
-        "Selected": true,
-        "LastChanged": "2022-03-30T23:04:05.4579997+02:00",
+        "Id": 481,
+        "Name": "Balistreri-Hammes",
+        "ToolTip": "Sit amet quam voluptates quia facilis.",
+        "Deleted": true,
+        "Rank": 860,
+        "Type": "tempore",
+        "ColorBlock": 408,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2003-06-29T16:55:30.6679001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "iusto",
+        "ExtraInfo": "sed",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Bo Tierra Kirlin PhD"
+        "FullName": "Wilber Ryan PhD"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "et",
+    "ExtraInfo": "sed",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Mr. Violet Waino Beer I"
+    "FullName": "Candelario Oberbrunner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Effertz Group",
-    "ToolTip": "Amet laboriosam voluptas.",
-    "Deleted": true,
-    "Rank": 689,
-    "Type": "adipisci",
-    "ColorBlock": 86,
-    "IconHint": "doloremque",
+    "Id": 23,
+    "Name": "Braun, Jaskolski and Weissnat",
+    "ToolTip": "Ut recusandae et similique.",
+    "Deleted": false,
+    "Rank": 986,
+    "Type": "cumque",
+    "ColorBlock": 133,
+    "IconHint": "autem",
     "Selected": true,
-    "LastChanged": "2008-04-07T23:04:05.4594998+02:00",
+    "LastChanged": "2018-01-16T16:55:30.6699851+01:00",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Trantow-Abbott",
-        "ToolTip": "Cum maxime quisquam id.",
-        "Deleted": true,
-        "Rank": 833,
-        "Type": "sint",
-        "ColorBlock": 186,
-        "IconHint": "qui",
+        "Id": 372,
+        "Name": "Ledner Inc and Sons",
+        "ToolTip": "Velit nisi.",
+        "Deleted": false,
+        "Rank": 775,
+        "Type": "repellendus",
+        "ColorBlock": 605,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2009-05-08T23:04:05.4594998+02:00",
+        "LastChanged": "2017-10-21T16:55:30.6699851+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "eos",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Maybell Bernice Kuhic Sr.",
+        "FullName": "Yasmeen Kemmer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 525
+            "FieldLength": 620
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "nihil",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Tevin Lakin",
+    "FullName": "Robyn Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldType": "System.String",
+        "FieldLength": 573
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Farrell, Ratke and Parisian",
-    "ToolTip": "Numquam facere voluptatem ut aperiam.",
-    "Deleted": true,
-    "Rank": 770,
-    "Type": "est",
-    "ColorBlock": 59,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "1998-02-12T23:04:05.5049995+01:00",
+    "Id": 716,
+    "Name": "Hilll, Sawayn and Willms",
+    "ToolTip": "Nesciunt qui dolores esse asperiores asperiores dolorem.",
+    "Deleted": false,
+    "Rank": 889,
+    "Type": "ea",
+    "ColorBlock": 269,
+    "IconHint": "totam",
+    "Selected": false,
+    "LastChanged": "2007-08-29T16:55:30.7072794+02:00",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Heller, Rowe and Wiza",
-        "ToolTip": "Eum dicta exercitationem iste.",
+        "Id": 243,
+        "Name": "McLaughlin, Hamill and Kuphal",
+        "ToolTip": "Sed ut pariatur exercitationem non dolorum iusto.",
         "Deleted": false,
-        "Rank": 643,
-        "Type": "ut",
-        "ColorBlock": 637,
-        "IconHint": "ex",
-        "Selected": false,
-        "LastChanged": "2008-04-14T23:04:05.5054997+02:00",
+        "Rank": 143,
+        "Type": "voluptatem",
+        "ColorBlock": 295,
+        "IconHint": "fugiat",
+        "Selected": true,
+        "LastChanged": "2018-08-07T16:55:30.7072794+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "sed",
+        "ExtraInfo": "aut",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Shirley Franecki"
+        "FullName": "Adelle Franecki"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "corporis",
+    "ExtraInfo": "eos",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Bryce Halle Dare Sr."
+    "FullName": "Mariam Bogisich I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Fahey, Satterfield and Aufderhar",
-    "ToolTip": "Dolor voluptatem vel delectus sed.",
-    "Deleted": false,
-    "Rank": 943,
-    "Type": "omnis",
-    "ColorBlock": 239,
-    "IconHint": "nemo",
-    "Selected": false,
-    "LastChanged": "2017-08-31T23:04:05.5069965+02:00",
+    "Id": 754,
+    "Name": "Rogahn-Bauch",
+    "ToolTip": "Voluptatem non quo.",
+    "Deleted": true,
+    "Rank": 237,
+    "Type": "laboriosam",
+    "ColorBlock": 223,
+    "IconHint": "consectetur",
+    "Selected": true,
+    "LastChanged": "2020-10-14T16:55:30.7082709+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Buckridge, VonRueden and Kovacek",
-        "ToolTip": "Dolorem dolor suscipit dolorum voluptatum aperiam.",
-        "Deleted": false,
-        "Rank": 395,
-        "Type": "excepturi",
-        "ColorBlock": 316,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "1999-12-29T23:04:05.5069965+01:00",
+        "Id": 408,
+        "Name": "Considine, Herzog and Lowe",
+        "ToolTip": "Molestiae et delectus nihil quia at quia.",
+        "Deleted": true,
+        "Rank": 580,
+        "Type": "eius",
+        "ColorBlock": 691,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2012-05-31T16:55:30.7082709+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Dr. Archibald Willard Lakin Sr.",
+        "ExtraInfo": "sit",
+        "StyleHint": "beatae",
+        "Hidden": true,
+        "FullName": "Annamae Mertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 653
+            "FieldLength": 386
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Georgianna Witting",
+    "FullName": "Mr. Vaughn Columbus Hettinger MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 731
       }
     }
   }

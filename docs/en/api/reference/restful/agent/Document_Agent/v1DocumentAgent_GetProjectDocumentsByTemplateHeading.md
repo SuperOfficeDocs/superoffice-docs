@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 676,
-  "StartTime": "1997-12-16T23:03:55.6816327+01:00",
-  "EndTime": "2014-12-22T23:03:55.6816327+01:00",
-  "Count": 456,
-  "TemplateHeadingId": 501
+  "ProjectId": 458,
+  "StartTime": "2010-11-17T16:54:55.1524544+01:00",
+  "EndTime": "2022-07-10T16:54:55.1524544+02:00",
+  "Count": 687,
+  "TemplateHeadingId": 279
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 227,
+    "DocumentId": 302,
     "Attention": "facere",
-    "Header": "accusamus",
-    "Name": "Monahan LLC",
-    "OurRef": "voluptatem",
-    "YourRef": "neque",
-    "Description": "Total next generation interface",
-    "DocumentTemplate": "consequatur",
+    "Header": "tempora",
+    "Name": "Johnston LLC",
+    "OurRef": "est",
+    "YourRef": "beatae",
+    "Description": "Pre-emptive solution-oriented interface",
+    "DocumentTemplate": "sint",
     "IsPublished": false,
-    "PersonId": 720,
-    "PersonFullName": "Thalia Rau",
-    "AssociateFullName": "Mrs. Eden Owen Kub I",
-    "ContactId": 64,
-    "ContactName": "Shields, Eichmann and Roberts",
-    "ProjectId": 407,
-    "ProjectName": "Morissette LLC",
-    "AssociateId": 597,
-    "Snum": 476,
-    "SaleId": 245,
-    "SaleName": "Blick Group",
+    "PersonId": 527,
+    "PersonFullName": "Lucy Dickens",
+    "AssociateFullName": "Armand Jenkins",
+    "ContactId": 651,
+    "ContactName": "Armstrong, Spencer and Blanda",
+    "ProjectId": 711,
+    "ProjectName": "Bernier, Daniel and Konopelski",
+    "AssociateId": 260,
+    "Snum": 518,
+    "SaleId": 781,
+    "SaleName": "Kovacek, Kovacek and Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldType": "System.String",
+        "FieldLength": 778
       }
     }
   }

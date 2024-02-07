@@ -98,16 +98,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Daugherty Group",
-  "Tooltip": "consequatur",
+  "Id": 213,
+  "Name": "Murray Inc and Sons",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 942,
-  "IsCustomList": false,
+  "Rank": 518,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Crooks, Rogahn and O'Connell",
-  "Tooltip": "at",
+  "Id": 956,
+  "Name": "Kshlerin, Hermiston and Grady",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "Rank": 788,
+  "Rank": 977,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "veritatis",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

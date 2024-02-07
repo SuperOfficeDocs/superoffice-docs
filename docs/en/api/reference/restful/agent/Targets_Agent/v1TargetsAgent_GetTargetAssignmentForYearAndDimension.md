@@ -73,7 +73,7 @@ OK
 | TargetAssociate | Associate | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetContact | Contact | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetUserGroup | UserGroup | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| Currency | Currency | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
+| Currency | Currency | The currency of the target.  Use MDO List name "currency" to get list items. |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
 | DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight | TableRight | The carrier's table right |
@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 501,
+  "TargetYear": 635,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 656,
-  "DimensionId": 679
+  "Id": 615,
+  "DimensionId": 242
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 40,
+  "TargetAssignmentInfoId": 571,
   "Values": [
-    242,
-    254
+    228,
+    963
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 270,
-  "DimensionListItemDisplayName": "Cormier-Hermann",
+  "DimensionListItem": 344,
+  "DimensionListItemDisplayName": "Runte, Mante and Tromp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 139
     }
   }
 }

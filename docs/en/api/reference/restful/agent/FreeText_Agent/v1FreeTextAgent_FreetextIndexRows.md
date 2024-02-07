@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/FreeText/FreetextIndexRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Will, Fritsch and Mraz",
+  "TableName": "Cronin, Reilly and Hermann",
   "IDs": [
-    483,
-    995
+    995,
+    198
   ]
 }
 ```

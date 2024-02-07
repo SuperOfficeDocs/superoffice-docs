@@ -1138,7 +1138,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=icon,mailingAddr/contact/updatedBy,mailingAddr/contact/NumberOfTickets,project/associateId,keywords
+GET /api/v1/archive/ProjectActivity?$select=mailingFrom,mailingAddr/contact/postAddress/state,mailingAddr/person/restrictionAddress/line1,mailingAddr/person/personUdef/SuperOffice:6,mailingAddr/person/personExtra/x_person_shorttext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

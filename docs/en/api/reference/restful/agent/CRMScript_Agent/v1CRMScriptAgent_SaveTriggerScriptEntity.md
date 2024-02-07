@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 919,
-  "Name": "Schuster LLC",
+  "ScreenChooserId": 595,
+  "Name": "Kerluke, Larkin and O'Connell",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "natus",
-  "Source": "est",
-  "Registered": "2014-12-19T23:03:55.5716368+01:00",
-  "RegisteredAssociateId": 434,
-  "Updated": "2011-11-10T23:03:55.5716368+01:00",
-  "UpdatedAssociateId": 783
+  "UniqueIdentifier": "voluptatem",
+  "Source": "provident",
+  "Registered": "2013-05-25T16:54:55.0592703+02:00",
+  "RegisteredAssociateId": 840,
+  "Updated": "1998-06-21T16:54:55.0592703+02:00",
+  "UpdatedAssociateId": 70
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 207,
-  "Name": "Bradtke LLC",
+  "ScreenChooserId": 215,
+  "Name": "Gleason Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quibusdam",
-  "Source": "aliquam",
-  "Registered": "2005-12-16T23:03:55.5721347+01:00",
-  "RegisteredAssociateId": 846,
-  "Updated": "1997-11-23T23:03:55.5721347+01:00",
-  "UpdatedAssociateId": 783,
+  "Enabled": false,
+  "UniqueIdentifier": "aut",
+  "Source": "doloribus",
+  "Registered": "2018-04-20T16:54:55.0592703+02:00",
+  "RegisteredAssociateId": 486,
+  "Updated": "2003-11-23T16:54:55.0592703+01:00",
+  "UpdatedAssociateId": 502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 411
     }
   }
 }

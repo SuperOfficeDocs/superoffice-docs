@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    357,
-    3
+    896,
+    611
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 523,
-    "UniqueId": "autem",
-    "Name": "Osinski, Zulauf and Jenkins",
-    "Description": "Team-oriented bottom-line toolset",
-    "AssociateId": 307,
-    "Columns": 777,
+    "DashboardId": 320,
+    "UniqueId": "tempora",
+    "Name": "Dietrich LLC",
+    "Description": "Advanced responsive structure",
+    "AssociateId": 225,
+    "Columns": 522,
     "Theme": null,
-    "VisibleForAll": 425,
+    "VisibleForAll": 799,
     "VisibleForAssociates": [
-      796,
-      65
+      83,
+      380
     ],
     "VisibleForGroups": [
-      739,
-      329
+      913,
+      816
     ],
-    "PinForAll": 896,
+    "PinForAll": 891,
     "PinForAssociates": [
-      895,
-      881
+      73,
+      18
     ],
     "PinForGroups": [
-      869,
-      759
+      24,
+      657
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldLength": 584
       }
     }
   }

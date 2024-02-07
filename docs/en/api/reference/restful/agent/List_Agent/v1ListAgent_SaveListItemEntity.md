@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Kuvalis, Hauck and Wisozk",
-  "Tooltip": "voluptas",
+  "Id": 128,
+  "Name": "Ziemann-Swift",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "UdListDefinitionId": 736,
-  "Rank": 672,
+  "UdListDefinitionId": 33,
+  "Rank": 891,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 481
     }
   }
 }

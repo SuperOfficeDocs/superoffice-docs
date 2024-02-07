@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Deckow Inc and Sons",
-  "ContactGroupId": 321,
-  "ContactAssociateId": 216
+  "TableName": "Davis-Thiel",
+  "ContactGroupId": 110,
+  "ContactAssociateId": 129
 }
 ```
 

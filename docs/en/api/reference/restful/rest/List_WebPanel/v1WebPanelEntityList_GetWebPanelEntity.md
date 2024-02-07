@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 286,
-  "Name": "Christiansen Inc and Sons",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 86,
+  "WebPanelId": 187,
+  "Name": "Torp-Aufderhar",
+  "Tooltip": "quos",
+  "Deleted": false,
+  "Rank": 748,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Legros-Hudson",
+  "WindowName": "Lemke Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "eaque",
-  "Icon": 551,
+  "ProgId": "voluptatibus",
+  "Icon": 819,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

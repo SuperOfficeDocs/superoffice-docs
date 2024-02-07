@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 699,
-  "Name": "Nolan, Zemlak and Wiza",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 540,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 71,
+  "Name": "Cartwright-Heathcote",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 568,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "illum",
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "Kessler-Lang",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 437,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aperiam",
-  "InUseByUserDefinedFields": true,
+  "Id": 601,
+  "Name": "Bins-O'Keefe",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 902,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nesciunt",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   }
 }

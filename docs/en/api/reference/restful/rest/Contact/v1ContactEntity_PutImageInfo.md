@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 8,
-  "BlobSize": 571,
-  "Description": "Decentralized exuding analyzer",
-  "ExtraInfo": "eveniet",
-  "IsEncrypted": true,
+  "BlobId": 421,
+  "BlobSize": 75,
+  "Description": "Distributed uniform Graphic Interface",
+  "ExtraInfo": "ratione",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "enim",
-  "OriginalSize": 906,
-  "CreatedDate": "2015-06-23T23:04:03.8970209+02:00",
-  "UpdatedDate": "1998-11-15T23:04:03.8970209+01:00",
+  "MimeType": "beatae",
+  "OriginalSize": 648,
+  "CreatedDate": "2009-04-08T16:55:29.3923359+02:00",
+  "UpdatedDate": "1997-04-16T16:55:29.3923359+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tempore"
+  "ConceptualType": "eaque"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 554,
-  "BlobSize": 529,
-  "Description": "Synchronised foreground secured line",
-  "ExtraInfo": "occaecati",
-  "IsEncrypted": false,
+  "BlobId": 623,
+  "BlobSize": 44,
+  "Description": "Networked executive conglomeration",
+  "ExtraInfo": "deleniti",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "recusandae",
-  "OriginalSize": 522,
-  "CreatedDate": "2016-06-28T23:04:03.8985222+02:00",
-  "UpdatedDate": "2023-05-17T23:04:03.8985222+02:00",
+  "MimeType": "eveniet",
+  "OriginalSize": 743,
+  "CreatedDate": "2003-08-02T16:55:29.3933354+02:00",
+  "UpdatedDate": "1996-11-30T16:55:29.3933354+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "blanditiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

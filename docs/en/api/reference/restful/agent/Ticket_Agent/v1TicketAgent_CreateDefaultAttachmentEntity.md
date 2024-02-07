@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 739,
-  "Name": "Bednar-Bradtke",
-  "ContentType": "sed",
-  "AttSize": 947,
-  "InlineImage": true,
-  "ContentId": "praesentium",
-  "AuthKey": "sequi",
+  "AttachmentId": 436,
+  "Name": "Daugherty, Johns and Maggio",
+  "ContentType": "amet",
+  "AttSize": 843,
+  "InlineImage": false,
+  "ContentId": "unde",
+  "AuthKey": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 110
     }
   }
 }

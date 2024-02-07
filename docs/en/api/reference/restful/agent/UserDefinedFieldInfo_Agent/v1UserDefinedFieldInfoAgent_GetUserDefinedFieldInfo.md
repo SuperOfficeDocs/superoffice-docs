@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=876
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=544
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 672,
-  "ColumnId": 848,
-  "FieldDefault": "delectus",
-  "FieldHeight": 744,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 68,
-  "FieldTop": 208,
+  "UDefFieldId": 647,
+  "ColumnId": 249,
+  "FieldDefault": "quia",
+  "FieldHeight": 194,
+  "FieldLabel": "autem",
+  "FieldLeft": 848,
+  "FieldTop": 865,
   "FieldType": "Checkbox",
-  "FieldWidth": 751,
-  "FormatMask": "aut",
+  "FieldWidth": 875,
+  "FormatMask": "eveniet",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 999,
-  "LabelLeft": 595,
-  "LabelTop": 893,
-  "LabelWidth": 757,
-  "LastVersionId": 861,
-  "ListTableId": 753,
+  "LabelHeight": 487,
+  "LabelLeft": 756,
+  "LabelTop": 26,
+  "LabelWidth": 854,
+  "LastVersionId": 528,
+  "ListTableId": 905,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 544,
-  "ProgId": "quae",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptate",
-  "TabOrder": 723,
-  "TextLength": 206,
-  "Tooltip": "ut",
-  "UdefIdentity": 767,
-  "UDListDefinitionId": 384,
+  "Page1LineNo": 90,
+  "ProgId": "voluptas",
+  "IsReadOnly": false,
+  "ShortLabel": "optio",
+  "TabOrder": 430,
+  "TextLength": 93,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 211,
+  "UDListDefinitionId": 314,
   "Justification": "Center",
-  "Version": 103,
-  "TemplateVariableName": "Carroll-Steuber",
-  "HasBeenPublished": false,
-  "MdoListName": "Christiansen, Daniel and Conroy",
+  "Version": 927,
+  "TemplateVariableName": "Aufderhar Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Quitzon, Bauch and Crooks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

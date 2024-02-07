@@ -71,9 +71,9 @@ OK
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup | UserGroup | The main user group that this user belongs to.  Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  Use MDO List name "usergroup" to get list items. |
+| Person | Person | The person associated with this user. Detailed information about the user  Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -84,11 +84,11 @@ OK
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Konopelski-Hauck"
+  "UserName": "Toy, Reinger and Jaskolski"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 128,
-  "Name": "Moen-Beahan",
-  "Rank": 212,
-  "Tooltip": "consequatur",
+  "AssociateId": 970,
+  "Name": "Tromp LLC",
+  "Rank": 364,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "O'Kon LLC",
-      "Description": "Grass-roots bi-directional middleware",
+      "Name": "Nicolas, Walsh and Kozey",
+      "Description": "Seamless intangible internet solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 360
+          "FieldType": "System.Int32",
+          "FieldLength": 316
         }
       }
     },
     {
-      "Name": "O'Kon LLC",
-      "Description": "Grass-roots bi-directional middleware",
+      "Name": "Nicolas, Walsh and Kozey",
+      "Description": "Seamless intangible internet solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 360
+          "FieldType": "System.Int32",
+          "FieldLength": 316
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dolor",
-      "Tooltip": "ut",
-      "Id": 906,
-      "Rank": 496,
+      "Value": "illo",
+      "Tooltip": "sapiente",
+      "Id": 608,
+      "Rank": 19,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 909
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2011-11-22T23:03:57.5811072+01:00",
-  "Lastlogout": "2004-07-07T23:03:57.5811072+02:00",
-  "EjUserId": 758,
-  "RequestSignature": "alias",
+  "Lastlogin": "2010-03-22T16:54:56.6707338+01:00",
+  "Lastlogout": "2019-10-28T16:54:56.6707338+01:00",
+  "EjUserId": 569,
+  "RequestSignature": "nulla",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ducimus",
-      "DisplayValue": "illum",
+      "Value": "esse",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldType": "System.Int32",
+          "FieldLength": 731
         }
       }
     },
     {
       "Type": null,
-      "Value": "ducimus",
-      "DisplayValue": "illum",
+      "Value": "esse",
+      "DisplayValue": "sed",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 731
+        }
+      }
+    }
+  ],
+  "UserName": "Luettgen LLC",
+  "TicketCategories": [
+    {
+      "Id": 536,
+      "Name": "Brakus Inc and Sons",
+      "ToolTip": "Debitis harum vero voluptas.",
+      "Deleted": false,
+      "Rank": 934,
+      "Type": "ut",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "nostrum",
+      "ColorBlock": 182,
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "voluptate",
+      "FullName": "Wilhelm Runolfsdottir",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 367
+        }
+      }
+    }
+  ],
+  "NickName": "Klocko-Schoen",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "vero"
+  },
+  "CustomFields": {
+    "CustomFields1": "facilis",
+    "CustomFields2": "id"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Klocko-Dibbert",
+      "DisplayName": "Leffler, Hane and Stiedemann",
+      "Description": "Total fresh-thinking hub",
+      "ToolTip": "Eligendi deleniti dolorum quia iure et ut.",
+      "Actions": "Implicit",
+      "ActionData": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 686
-        }
-      }
-    }
-  ],
-  "UserName": "Hyatt, Hickle and Mills",
-  "TicketCategories": [
-    {
-      "Id": 365,
-      "Name": "Dach, Schaefer and Murphy",
-      "ToolTip": "Velit voluptas porro a voluptatum voluptate dolor odio.",
-      "Deleted": false,
-      "Rank": 750,
-      "Type": "qui",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "sed",
-      "ColorBlock": 290,
-      "ExtraInfo": "unde",
-      "StyleHint": "itaque",
-      "FullName": "Koby Hayes",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
-        }
-      }
-    }
-  ],
-  "NickName": "Harris, Lemke and Murphy",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "reprehenderit"
-  },
-  "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "libero"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Maggio, Stamm and Goodwin",
-      "DisplayName": "Torphy-Bahringer",
-      "Description": "Exclusive eco-centric instruction set",
-      "ToolTip": "Voluptas culpa rerum dolorem eum nam.",
-      "Actions": "Implicit",
-      "ActionData": "non",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldLength": 93
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

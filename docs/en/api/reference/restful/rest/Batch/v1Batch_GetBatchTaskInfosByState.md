@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Greenholt LLC",
-    "AssociateId": 545,
-    "DetailsTable": 11,
-    "DetailsRecord": 433,
+    "Id": 728,
+    "Name": "Mayer LLC",
+    "AssociateId": 135,
+    "DetailsTable": 243,
+    "DetailsRecord": 755,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "omnis",
-      "ParameterObject2": "alias"
+      "ParameterObject1": "iusto",
+      "ParameterObject2": "quibusdam"
     },
-    "LastStarted": "2016-06-10T23:04:05.0095097+02:00",
-    "Created": "2006-05-02T23:04:05.0095097+02:00",
-    "StartCount": 77,
-    "DatabaseSerialNumber": "911284",
-    "Context": "sunt",
-    "Result": "voluptates",
+    "LastStarted": "1997-11-24T16:55:30.3228173+01:00",
+    "Created": "2005-10-04T16:55:30.3228173+02:00",
+    "StartCount": 96,
+    "DatabaseSerialNumber": "461538",
+    "Context": "repellendus",
+    "Result": "eum",
     "State": "All",
-    "Description": "Total 4th generation contingency",
-    "Response": "explicabo",
-    "Request": "suscipit",
-    "ProgressDescription": "Distributed incremental leverage",
-    "ProgressPercent": 654,
-    "FileName": "Bode Group",
+    "Description": "Quality-focused background projection",
+    "Response": "ipsum",
+    "Request": "eligendi",
+    "ProgressDescription": "Optimized incremental toolset",
+    "ProgressPercent": 546,
+    "FileName": "Huel-Ruecker",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 16
       }
     }
   }

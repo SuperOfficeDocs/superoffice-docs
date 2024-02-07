@@ -80,14 +80,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": true,
-  "StatusMessage": "debitis",
-  "Interval": "est",
+  "StatusMessage": "praesentium",
+  "Interval": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

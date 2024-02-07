@@ -494,7 +494,6 @@ table data; this will also pull in contact udef and related fields.
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
-|request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -540,11 +539,11 @@ table data; this will also pull in contact udef and related fields.
 |request/ownedBy/associateDbId|associate|Owner - ID| x |
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
+|request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 |request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
@@ -644,11 +643,11 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectAssociate/personEmail|string|E-mail| x |
 |projectMembers/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectMembers/projectUdef/SuperOffice:2|string|projectlongtext| x |
+|projectMembers/projectUdef/SuperOffice:3|int|projectnumber| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|projectMembers/projectUdef/SuperOffice:3|int|projectnumber| x |
 |projectMembers/projectUdef/SuperOffice:4|date|projectdate| x |
 |projectMembers/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |projectMembers/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
@@ -748,11 +747,11 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |personAppointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
+|personAppointment/associate/role|listAny|Role : Role| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|personAppointment/associate/role|listAny|Role : Role| x |
 |personAppointment/associate/assocName|associate|User ID : User ID| x |
 |personAppointment/associate/assocTooltip|string|Description : Description|  |
 |personAppointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -778,7 +777,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personSourceRelation/hasInfoText,personTargetRelation/personUpdatedByFullName,personTargetRelation/personCategory,personContact/contactAssociate/ejUserId,projectMembers/saintAmountClass
+GET /api/v1/archive/Person?$select=personRegisteredDate,personSourceRelation/firstName,personAssociate/personId,projectMembers/NumberOfSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

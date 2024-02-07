@@ -2,8 +2,7 @@
 uid: resourcerestrictions
 title: resourcerestrictions
 keywords: mdoprovider mdo provider resourcerestrictions
-description: MDO provider for resources (from the associate table) that uses restrictions to include
-conflict checking
+description: MDO provider for resources (from the associate table) that uses restrictions to include conflict checking
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

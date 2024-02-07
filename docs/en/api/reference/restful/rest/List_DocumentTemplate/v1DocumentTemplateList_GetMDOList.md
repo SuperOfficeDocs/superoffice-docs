@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=et
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Schaden-Okuneva",
-    "ToolTip": "Autem voluptatem distinctio non.",
-    "Deleted": true,
-    "Rank": 469,
-    "Type": "est",
+    "Id": 983,
+    "Name": "Nitzsche-Morar",
+    "ToolTip": "Sequi culpa voluptatem quos et.",
+    "Deleted": false,
+    "Rank": 222,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 257,
-        "Name": "Adams Group",
-        "ToolTip": "Aut distinctio sed iusto voluptatum tempore officiis.",
+        "Id": 429,
+        "Name": "Stark, Jerde and Satterfield",
+        "ToolTip": "Sunt expedita voluptas.",
         "Deleted": false,
-        "Rank": 909,
-        "Type": "similique",
+        "Rank": 968,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 405,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "et",
-        "FullName": "Nathen Ward",
+        "IconHint": "non",
+        "ColorBlock": 74,
+        "ExtraInfo": "asperiores",
+        "StyleHint": "debitis",
+        "FullName": "Renee Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldLength": 655
           }
         }
       }
     ],
-    "IconHint": "iste",
-    "ColorBlock": 462,
-    "ExtraInfo": "quis",
-    "StyleHint": "iste",
-    "FullName": "Mr. Ethelyn London Cummerata",
+    "IconHint": "eaque",
+    "ColorBlock": 243,
+    "ExtraInfo": "id",
+    "StyleHint": "id",
+    "FullName": "Kurt Fredy Reichert III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 387
+        "FieldLength": 622
       }
     }
   }

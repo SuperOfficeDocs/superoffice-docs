@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 350,
-  "AttachmentId": "molestiae"
+  "MessageServerId": 962,
+  "AttachmentId": "voluptatem"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked dedicated artificial intelligence",
-  "Filename": "sed",
-  "Size": 247,
-  "Type": "voluptatem",
-  "Encoding": "esse",
-  "Id": "assumenda",
-  "Disposition": "dolor",
+  "Description": "Vision-oriented reciprocal adapter",
+  "Filename": "non",
+  "Size": 119,
+  "Type": "sunt",
+  "Encoding": "voluptatem",
+  "Id": "officia",
+  "Disposition": "veniam",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 867
     }
   }
 }

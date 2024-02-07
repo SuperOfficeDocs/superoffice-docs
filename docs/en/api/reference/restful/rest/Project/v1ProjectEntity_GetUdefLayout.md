@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 619,
-    "ColumnId": 363,
-    "FieldDefault": "sed",
-    "FieldHeight": 829,
-    "FieldLabel": "molestias",
-    "FieldLeft": 688,
-    "FieldTop": 340,
+    "UDefFieldId": 451,
+    "ColumnId": 567,
+    "FieldDefault": "eaque",
+    "FieldHeight": 191,
+    "FieldLabel": "voluptatem",
+    "FieldLeft": 388,
+    "FieldTop": 585,
     "FieldType": "Checkbox",
-    "FieldWidth": 394,
-    "FormatMask": "placeat",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 290,
-    "LabelLeft": 906,
-    "LabelTop": 136,
-    "LabelWidth": 367,
-    "LastVersionId": 378,
-    "ListTableId": 320,
-    "IsMandatory": true,
+    "FieldWidth": 240,
+    "FormatMask": "cum",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 297,
+    "LabelLeft": 538,
+    "LabelTop": 385,
+    "LabelWidth": 49,
+    "LastVersionId": 190,
+    "ListTableId": 346,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 744,
-    "ProgId": "similique",
+    "Page1LineNo": 637,
+    "ProgId": "magnam",
     "IsReadOnly": false,
-    "ShortLabel": "repudiandae",
-    "TabOrder": 569,
-    "TextLength": 382,
-    "Tooltip": "totam",
-    "UdefIdentity": 21,
-    "UDListDefinitionId": 453,
+    "ShortLabel": "eum",
+    "TabOrder": 88,
+    "TextLength": 121,
+    "Tooltip": "ducimus",
+    "UdefIdentity": 467,
+    "UDListDefinitionId": 646,
     "Justification": "Center",
-    "Version": 581,
-    "TemplateVariableName": "Hane, Osinski and Orn",
-    "HasBeenPublished": false,
-    "MdoListName": "Greenholt, Goodwin and Kling",
+    "Version": 35,
+    "TemplateVariableName": "Herzog, Greenfelder and Hartmann",
+    "HasBeenPublished": true,
+    "MdoListName": "Schaefer-Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldType": "System.String",
+        "FieldLength": 387
       }
     }
   }

@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 538,
+  "SystemEventId": 766,
   "Scope": "Database",
-  "Eta": "2023-10-05T23:03:55.2311391+02:00",
-  "Eventkey": "necessitatibus",
-  "Eventmess": "sunt",
-  "ExtraInfo": 199,
-  "Owner": 167,
-  "UpdatedCount": 565,
-  "Registered": "2013-07-12T23:03:55.2311391+02:00",
+  "Eta": "2000-12-26T16:54:54.8841702+01:00",
+  "Eventkey": "fugit",
+  "Eventmess": "doloremque",
+  "ExtraInfo": 238,
+  "Owner": 758,
+  "UpdatedCount": 48,
+  "Registered": "2016-05-21T16:54:54.8841702+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 36,
+  "SystemEventId": 822,
   "Scope": "Database",
-  "Eta": "2004-01-14T23:03:55.2331388+01:00",
-  "Eventkey": "consectetur",
-  "Eventmess": "perspiciatis",
-  "ExtraInfo": 769,
-  "Owner": 556,
-  "UpdatedCount": 603,
-  "Registered": "2003-04-18T23:03:55.2331388+02:00",
+  "Eta": "2007-02-13T16:54:54.8841702+01:00",
+  "Eventkey": "laudantium",
+  "Eventmess": "aut",
+  "ExtraInfo": 980,
+  "Owner": 554,
+  "UpdatedCount": 830,
+  "Registered": "2021-03-17T16:54:54.8841702+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 90
     }
   }
 }

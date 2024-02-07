@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Harber, Sawayn and Denesik",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 133,
-  "Rank": 142,
+  "Id": 769,
+  "Name": "Grady Inc and Sons",
+  "Tooltip": "explicabo",
+  "Deleted": false,
+  "UdListDefinitionId": 196,
+  "Rank": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 400
     }
   }
 }

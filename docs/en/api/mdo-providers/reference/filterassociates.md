@@ -2,10 +2,7 @@
 uid: filterassociates
 title: filterassociates
 keywords: mdoprovider mdo provider filterassociates
-description: Associate list for the Filter dialog. This associate list differs from the standard list in two ways:
-a) It contains even former employees (you may wnat to filter in our out their activites, even though they have gone);
-and b) It is of type Selectable, with the currently selected
-associates marked as such.
+description: Associate list for the Filter dialog. This associate list differs from the standard list in two ways - a) It contains even former employees (you may wnat to filter in our out their activites, even though they have gone); and b) It is of type Selectable, with the currently selected associates marked as such.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

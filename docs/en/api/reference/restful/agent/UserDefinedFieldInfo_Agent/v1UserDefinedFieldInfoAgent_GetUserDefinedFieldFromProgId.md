@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "nemo",
+  "ProgId": "quod",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 873,
-  "ColumnId": 961,
-  "FieldDefault": "rem",
-  "FieldHeight": 552,
-  "FieldLabel": "magnam",
-  "FieldLeft": 499,
-  "FieldTop": 794,
+  "UDefFieldId": 658,
+  "ColumnId": 116,
+  "FieldDefault": "necessitatibus",
+  "FieldHeight": 287,
+  "FieldLabel": "voluptatibus",
+  "FieldLeft": 309,
+  "FieldTop": 672,
   "FieldType": "Checkbox",
-  "FieldWidth": 241,
-  "FormatMask": "quo",
+  "FieldWidth": 870,
+  "FormatMask": "aut",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 485,
-  "LabelLeft": 974,
-  "LabelTop": 56,
-  "LabelWidth": 364,
-  "LastVersionId": 139,
-  "ListTableId": 655,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 684,
+  "LabelLeft": 397,
+  "LabelTop": 170,
+  "LabelWidth": 506,
+  "LastVersionId": 854,
+  "ListTableId": 471,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 52,
-  "ProgId": "perspiciatis",
+  "Page1LineNo": 740,
+  "ProgId": "nihil",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 284,
-  "TextLength": 540,
-  "Tooltip": "adipisci",
-  "UdefIdentity": 780,
-  "UDListDefinitionId": 432,
+  "ShortLabel": "vel",
+  "TabOrder": 815,
+  "TextLength": 131,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 166,
+  "UDListDefinitionId": 3,
   "Justification": "Center",
-  "Version": 469,
-  "TemplateVariableName": "Gusikowski, Renner and Armstrong",
-  "HasBeenPublished": true,
-  "MdoListName": "McLaughlin-McGlynn",
+  "Version": 561,
+  "TemplateVariableName": "Maggio-Grady",
+  "HasBeenPublished": false,
+  "MdoListName": "Champlin, Keeling and Monahan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldType": "System.String",
+      "FieldLength": 36
     }
   }
 }

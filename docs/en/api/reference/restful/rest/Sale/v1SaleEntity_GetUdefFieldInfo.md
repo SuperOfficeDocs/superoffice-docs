@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 545,
-  "ColumnId": 784,
-  "FieldDefault": "quis",
-  "FieldHeight": 959,
-  "FieldLabel": "odit",
+  "UDefFieldId": 122,
+  "ColumnId": 137,
+  "FieldDefault": "pariatur",
+  "FieldHeight": 159,
+  "FieldLabel": "praesentium",
   "FieldLeft": 345,
-  "FieldTop": 255,
+  "FieldTop": 739,
   "FieldType": "Checkbox",
-  "FieldWidth": 478,
-  "FormatMask": "voluptas",
+  "FieldWidth": 493,
+  "FormatMask": "voluptatem",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 877,
-  "LabelLeft": 484,
-  "LabelTop": 354,
-  "LabelWidth": 142,
-  "LastVersionId": 523,
-  "ListTableId": 132,
-  "IsMandatory": true,
+  "LabelHeight": 865,
+  "LabelLeft": 951,
+  "LabelTop": 589,
+  "LabelWidth": 364,
+  "LastVersionId": 811,
+  "ListTableId": 497,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 618,
-  "ProgId": "qui",
+  "Page1LineNo": 880,
+  "ProgId": "nostrum",
   "IsReadOnly": false,
-  "ShortLabel": "consequuntur",
-  "TabOrder": 693,
-  "TextLength": 671,
-  "Tooltip": "excepturi",
-  "UdefIdentity": 865,
-  "UDListDefinitionId": 453,
+  "ShortLabel": "nam",
+  "TabOrder": 530,
+  "TextLength": 877,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 955,
+  "UDListDefinitionId": 794,
   "Justification": "Center",
-  "Version": 801,
-  "TemplateVariableName": "Maggio, Mraz and King",
+  "Version": 658,
+  "TemplateVariableName": "Feeney, Goyette and Cremin",
   "HasBeenPublished": false,
-  "MdoListName": "Conroy, Dare and Larkin",
+  "MdoListName": "Wilkinson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldType": "System.Int32",
+      "FieldLength": 413
     }
   }
 }

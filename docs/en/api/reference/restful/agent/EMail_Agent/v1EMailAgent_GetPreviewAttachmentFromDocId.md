@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 246,
-  "AttachmentId": "dolorum"
+  "DocId": 183,
+  "AttachmentId": "mollitia"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic eco-centric time-frame",
-  "Filename": "eius",
-  "Size": 165,
-  "Type": "dolorem",
-  "Encoding": "eum",
-  "Id": "unde",
-  "Disposition": "enim",
+  "Description": "Ameliorated analyzing secured line",
+  "Filename": "nam",
+  "Size": 52,
+  "Type": "aperiam",
+  "Encoding": "asperiores",
+  "Id": "ea",
+  "Disposition": "qui",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 907
     }
   }
 }

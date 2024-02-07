@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Buckridge Inc and Sons",
-    "AssociateId": 912,
-    "DetailsTable": 416,
-    "DetailsRecord": 847,
+    "Id": 101,
+    "Name": "Spencer-Koepp",
+    "AssociateId": 982,
+    "DetailsTable": 336,
+    "DetailsRecord": 343,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ducimus",
-      "ParameterObject2": "autem"
+      "ParameterObject1": "nam",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2010-09-19T23:03:55.0196428+02:00",
-    "Created": "2010-08-06T23:03:55.0196428+02:00",
-    "StartCount": 55,
-    "DatabaseSerialNumber": "1090850",
-    "Context": "aspernatur",
-    "Result": "quia",
+    "LastStarted": "2014-12-26T16:54:54.6023043+01:00",
+    "Created": "2009-09-27T16:54:54.6023043+02:00",
+    "StartCount": 17,
+    "DatabaseSerialNumber": "488191",
+    "Context": "ullam",
+    "Result": "sunt",
     "State": "All",
-    "Description": "Cross-group systematic task-force",
-    "Response": "maxime",
-    "Request": "explicabo",
-    "ProgressDescription": "Reduced client-server groupware",
-    "ProgressPercent": 241,
-    "FileName": "Wilderman, Rippin and Dickens",
+    "Description": "Optional explicit attitude",
+    "Response": "optio",
+    "Request": "qui",
+    "ProgressDescription": "Managed high-level paradigm",
+    "ProgressPercent": 948,
+    "FileName": "Ratke-Pollich",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 491
+        "FieldType": "System.Int32",
+        "FieldLength": 829
       }
     }
   }

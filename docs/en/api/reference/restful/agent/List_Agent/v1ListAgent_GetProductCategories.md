@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Value": "praesentium",
-    "Tooltip": "voluptates",
+    "Id": 562,
+    "Value": "animi",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   },
   {
-    "Id": 953,
-    "Value": "praesentium",
-    "Tooltip": "voluptates",
+    "Id": 562,
+    "Value": "animi",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

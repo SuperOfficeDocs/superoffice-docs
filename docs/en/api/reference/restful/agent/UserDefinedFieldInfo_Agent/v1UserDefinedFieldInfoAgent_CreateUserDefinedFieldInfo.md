@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 315,
-  "ColumnId": 301,
-  "FieldDefault": "magni",
-  "FieldHeight": 192,
-  "FieldLabel": "omnis",
-  "FieldLeft": 820,
-  "FieldTop": 868,
+  "UDefFieldId": 338,
+  "ColumnId": 111,
+  "FieldDefault": "deleniti",
+  "FieldHeight": 702,
+  "FieldLabel": "earum",
+  "FieldLeft": 559,
+  "FieldTop": 823,
   "FieldType": "Checkbox",
-  "FieldWidth": 768,
-  "FormatMask": "et",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 835,
-  "LabelLeft": 965,
-  "LabelTop": 238,
-  "LabelWidth": 699,
-  "LastVersionId": 314,
-  "ListTableId": 918,
+  "FieldWidth": 184,
+  "FormatMask": "suscipit",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 444,
+  "LabelLeft": 417,
+  "LabelTop": 464,
+  "LabelWidth": 678,
+  "LastVersionId": 297,
+  "ListTableId": 710,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 490,
-  "ProgId": "possimus",
+  "Page1LineNo": 589,
+  "ProgId": "blanditiis",
   "IsReadOnly": false,
-  "ShortLabel": "voluptatum",
-  "TabOrder": 832,
-  "TextLength": 120,
-  "Tooltip": "earum",
-  "UdefIdentity": 288,
-  "UDListDefinitionId": 749,
+  "ShortLabel": "et",
+  "TabOrder": 969,
+  "TextLength": 746,
+  "Tooltip": "libero",
+  "UdefIdentity": 725,
+  "UDListDefinitionId": 927,
   "Justification": "Center",
-  "Version": 431,
-  "TemplateVariableName": "Sipes-Beer",
+  "Version": 482,
+  "TemplateVariableName": "Crooks Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Gaylord-Witting",
+  "MdoListName": "Kris, Dibbert and Weimann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 250
     }
   }
 }

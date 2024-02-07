@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "Stark-Stark",
-    "ToolTip": "Nesciunt sit.",
+    "Id": 38,
+    "Name": "Fadel Inc and Sons",
+    "ToolTip": "Aut adipisci omnis aut.",
     "Deleted": false,
-    "Rank": 901,
-    "Type": "dignissimos",
-    "ColorBlock": 978,
-    "IconHint": "velit",
+    "Rank": 390,
+    "Type": "sit",
+    "ColorBlock": 906,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2023-02-26T23:04:05.439+01:00",
+    "LastChanged": "2007-12-01T16:55:30.6512154+01:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Lehner-Torp",
-        "ToolTip": "Et quam maiores ipsa animi.",
+        "Id": 66,
+        "Name": "Kulas-Nitzsche",
+        "ToolTip": "Sed alias at blanditiis voluptatem.",
         "Deleted": true,
-        "Rank": 500,
-        "Type": "perferendis",
-        "ColorBlock": 658,
-        "IconHint": "facilis",
-        "Selected": true,
-        "LastChanged": "2014-03-14T23:04:05.4395012+01:00",
+        "Rank": 21,
+        "Type": "velit",
+        "ColorBlock": 880,
+        "IconHint": "culpa",
+        "Selected": false,
+        "LastChanged": "2007-12-15T16:55:30.6512154+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "inventore",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Dr. Eleanora Jaron Murazik",
+        "FullName": "Daphne Hermann Lehner DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 144
+            "FieldLength": 392
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "modi",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Jerad Ankunding",
+    "FullName": "Miss Claudine Hahn IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldLength": 353
       }
     }
   }

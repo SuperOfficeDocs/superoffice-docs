@@ -133,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 755,
-  "ERPProductKey": "eaque",
-  "ERPPriceListKey": "voluptatibus",
-  "Name": "Wolf-Walker",
-  "Description": "Progressive high-level knowledge base",
+  "ProductId": 301,
+  "ERPProductKey": "sint",
+  "ERPPriceListKey": "sit",
+  "Name": "Koelpin LLC",
+  "Description": "Intuitive heuristic initiative",
   "Code": "omnis",
-  "PriceUnit": "adipisci",
-  "QuantityUnit": "aut",
-  "IsSubscription": true,
-  "SubscriptionUnit": "id",
-  "DefaultSubscriptionQuantity": 14971.118,
-  "ItemNumber": "1194208",
+  "PriceUnit": "maxime",
+  "QuantityUnit": "quos",
+  "IsSubscription": false,
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 6343.2159999999994,
+  "ItemNumber": "1021023",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illum",
-  "ProductTypeKey": "deleniti",
-  "VAT": 11257.328,
-  "VATInfo": "ipsa",
-  "UnitCost": 11059.886,
-  "UnitMinimumPrice": 84.618,
-  "UnitListPrice": 23135.188,
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "unde",
+  "VAT": 7393.106,
+  "VATInfo": "quia",
+  "UnitCost": 2294.0879999999997,
+  "UnitMinimumPrice": 25307.05,
+  "UnitListPrice": 4694.732,
   "InAssortment": true,
-  "Supplier": "vero",
-  "SupplierCode": "veritatis",
-  "Rights": "officiis",
-  "Rule": "rerum",
+  "Supplier": "quidem",
+  "SupplierCode": "voluptatem",
+  "Rights": "cumque",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Jakubowski-McClure",
-      "Value": "omnis",
+      "Name": "Predovic, Rosenbaum and Gottlieb",
+      "Value": "minus",
       "Type": "Image"
     },
     {
-      "Name": "Jakubowski-McClure",
-      "Value": "omnis",
+      "Name": "Predovic, Rosenbaum and Gottlieb",
+      "Value": "minus",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "in",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "cum",
-  "ExtraField3": "qui",
-  "ExtraField4": "quia",
-  "ExtraField5": "cumque",
-  "InStock": 29976.71
+  "RawExtraInfo": "sed",
+  "ExtraField1": "beatae",
+  "ExtraField2": "veritatis",
+  "ExtraField3": "corporis",
+  "ExtraField4": "reprehenderit",
+  "ExtraField5": "magnam",
+  "InStock": 17443.844
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 240,
-  "ERPProductKey": "mollitia",
-  "ERPPriceListKey": "quasi",
-  "Name": "Halvorson Group",
-  "Description": "Distributed upward-trending installation",
-  "Code": "dolorem",
-  "PriceUnit": "consequatur",
-  "QuantityUnit": "mollitia",
+  "ProductId": 179,
+  "ERPProductKey": "delectus",
+  "ERPPriceListKey": "quae",
+  "Name": "Batz-Pagac",
+  "Description": "Ergonomic non-volatile groupware",
+  "Code": "aperiam",
+  "PriceUnit": "rerum",
+  "QuantityUnit": "sed",
   "IsSubscription": false,
-  "SubscriptionUnit": "dolor",
-  "DefaultSubscriptionQuantity": 28870.408,
-  "ItemNumber": "377971",
+  "SubscriptionUnit": "sapiente",
+  "DefaultSubscriptionQuantity": 18327.631999999998,
+  "ItemNumber": "274243",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eius",
-  "ProductTypeKey": "at",
-  "VAT": 6315.01,
-  "VATInfo": "ipsa",
-  "UnitCost": 3262.4939999999997,
-  "UnitMinimumPrice": 31061.074,
-  "UnitListPrice": 23038.034,
-  "InAssortment": false,
-  "Supplier": "modi",
-  "SupplierCode": "quaerat",
-  "Rights": "maiores",
-  "Rule": "debitis",
+  "ProductFamilyKey": "exercitationem",
+  "ProductTypeKey": "est",
+  "VAT": 20728.275999999998,
+  "VATInfo": "aliquam",
+  "UnitCost": 22354.822,
+  "UnitMinimumPrice": 31186.433999999997,
+  "UnitListPrice": 18161.53,
+  "InAssortment": true,
+  "Supplier": "consequatur",
+  "SupplierCode": "omnis",
+  "Rights": "ipsa",
+  "Rule": "amet",
   "ExtraInfo": [
     {
-      "Name": "Koch, Brekke and Corkery",
-      "Value": "corporis",
+      "Name": "O'Hara-Lang",
+      "Value": "incidunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldLength": 746
         }
       }
     },
     {
-      "Name": "Koch, Brekke and Corkery",
-      "Value": "corporis",
+      "Name": "O'Hara-Lang",
+      "Value": "incidunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldLength": 746
         }
       }
     }
   ],
-  "RawExtraInfo": "maiores",
-  "ExtraField1": "qui",
-  "ExtraField2": "molestiae",
-  "ExtraField3": "ipsum",
-  "ExtraField4": "culpa",
-  "ExtraField5": "impedit",
-  "InStock": 30218.028,
+  "RawExtraInfo": "minus",
+  "ExtraField1": "fuga",
+  "ExtraField2": "rerum",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "et",
+  "ExtraField5": "quibusdam",
+  "InStock": 23116.384,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 840
     }
   }
 }

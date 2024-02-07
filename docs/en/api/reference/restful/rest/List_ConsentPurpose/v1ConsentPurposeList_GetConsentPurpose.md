@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 755,
-  "Name": "Connelly LLC",
-  "ConsentText": "ratione",
-  "FormText": "ut",
-  "Key": "suscipit",
-  "Tooltip": "et",
-  "Active": 274,
-  "UpdatedDate": "2016-08-28T23:04:05.3480015+02:00",
+  "ConsentPurposeId": 87,
+  "Name": "Legros Group",
+  "ConsentText": "fugit",
+  "FormText": "et",
+  "Key": "consectetur",
+  "Tooltip": "commodi",
+  "Active": 220,
+  "UpdatedDate": "1997-07-07T16:55:30.5696992+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 294,
-  "PrivacyStatementDesc": "alias",
+  "Rank": 540,
+  "PrivacyStatementDesc": "doloribus",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

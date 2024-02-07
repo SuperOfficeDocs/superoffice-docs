@@ -64,7 +64,7 @@ OK
 | DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 298,
-    "ParentId": 394,
-    "Name": "Kuhn Group",
-    "Fullname": "quia",
-    "CategoryMaster": 219,
+    "TicketCategoryId": 701,
+    "ParentId": 690,
+    "Name": "Zboncak-Waelchi",
+    "Fullname": "fuga",
+    "CategoryMaster": 59,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kessler, Walter and Jaskolski",
+    "ExternalName": "Haley Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 662,
-    "ReplyTemplate": 676,
-    "NotificationEmail": "rory_jacobs@mcclureschulist.name",
+    "AssignmentLag": 195,
+    "ReplyTemplate": 526,
+    "NotificationEmail": "jamarcus@okon.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 144,
+    "EffectiveReplyTemplateId": 360,
     "ExtraFields": {
-      "ExtraFields1": "praesentium",
-      "ExtraFields2": "autem"
+      "ExtraFields1": "hic",
+      "ExtraFields2": "ipsum"
     },
     "CustomFields": {
-      "CustomFields1": "eum",
-      "CustomFields2": "eum"
+      "CustomFields1": "et",
+      "CustomFields2": "iste"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 88
       }
     }
   }

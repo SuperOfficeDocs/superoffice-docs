@@ -2,7 +2,7 @@
 uid: importblankaction
 title: importblankaction
 keywords: mdoprovider mdo provider importblankaction
-description: Import actions for blank values: Use Person Name, Skip
+description: Import actions for blank values - Use Person Name, Skip
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

@@ -71,7 +71,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 190,
-  "Name": "Ullrich, Homenick and Nicolas"
+  "SelectionId": 738,
+  "Name": "Koelpin-Blick"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Up-sized zero tolerance implementation",
-  "Postit": "dignissimos",
+  "Description": "Phased zero tolerance artificial intelligence",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 277,
-  "IncludePerson": 651,
-  "MemberCount": 52,
-  "Name": "Auer-Cormier",
-  "PostitTextId": 683,
-  "CreatedDate": "2003-03-16T23:03:57.1556132+01:00",
-  "SelectionId": 923,
-  "SoundEx": "aut",
-  "Source": 197,
-  "TextId": 661,
-  "UpdatedDate": "2000-05-21T23:03:57.1556132+02:00",
-  "UpdatedCount": 374,
-  "Visibility": 207,
+  "GroupIdx": 869,
+  "IncludePerson": 953,
+  "MemberCount": 189,
+  "Name": "Kiehn Inc and Sons",
+  "PostitTextId": 564,
+  "CreatedDate": "2021-08-24T16:54:56.3335025+02:00",
+  "SelectionId": 597,
+  "SoundEx": "porro",
+  "Source": 274,
+  "TextId": 365,
+  "UpdatedDate": "2010-04-13T16:54:56.3335025+02:00",
+  "UpdatedCount": 618,
+  "Visibility": 326,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 882,
-  "TargetTableName": "Gleason Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 862,
-  "RightSelectionId": 569,
+  "TargetTableNumber": 837,
+  "TargetTableName": "Kutch-Howell",
+  "Completed": true,
+  "LeftSelectionId": 669,
+  "RightSelectionId": 211,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Monahan Inc and Sons",
-  "ShadowProviderName": "McGlynn, Stanton and McKenzie",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2004-05-14T23:03:57.1556132+02:00",
-  "LastLoadedBy": 303,
+  "MainProviderName": "Turcotte-Cassin",
+  "ShadowProviderName": "Abernathy LLC",
+  "ChartKey": "libero",
+  "LastLoaded": "2008-08-29T16:54:56.3335025+02:00",
+  "LastLoadedBy": 923,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-04-01T23:03:57.1561141+02:00",
-  "LastMembershipChangeBy": 87,
+  "LastMembershipChange": "2007-11-17T16:54:56.3345045+01:00",
+  "LastMembershipChangeBy": 570,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequuntur",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Walker-Monahan",
-  "DashboardTileDefinitionId": 104,
+  "MainHeading": "aperiam",
+  "MemberTabHeading": "enim",
+  "MailingsProviderName": "Borer, McGlynn and Schinner",
+  "DashboardTileDefinitionId": 233,
   "VisibleFor": [
     {
-      "VisibleId": 598,
+      "VisibleId": 678,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldLength": 372
         }
       }
     },
     {
-      "VisibleId": 598,
+      "VisibleId": 678,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldLength": 372
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 202
     }
   }
 }

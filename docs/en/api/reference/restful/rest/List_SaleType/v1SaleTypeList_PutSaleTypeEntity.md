@@ -102,7 +102,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 454,
-  "Name": "Dietrich-Labadie",
-  "Tooltip": "est",
-  "Rank": 73,
+  "SaleTypeId": 551,
+  "Name": "Hintz Inc and Sons",
+  "Tooltip": "harum",
+  "Rank": 511,
   "DurationUnit": "Century",
-  "SaleDuration": 937,
-  "SaleTypeCatId": 895,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "SaleDuration": 418,
+  "SaleTypeCatId": 509,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 325,
-  "QuoteLinesTemplate": 671,
-  "ConfirmationLinesTemplate": 364,
+  "DefaultQuoteValidity": 591,
+  "QuoteLinesTemplate": 498,
+  "ConfirmationLinesTemplate": 31,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 637,
-  "MinEarningPercent": 561,
-  "GroupQuoteLinesBy": 861,
-  "SortGroupLinesBy": 731,
+  "MaxDiscountPercent": 651,
+  "MinEarningPercent": 13,
+  "GroupQuoteLinesBy": 367,
+  "SortGroupLinesBy": 547,
   "Stages": [
     {
-      "Id": 730,
-      "Name": "Block, Gibson and Abbott",
-      "ToolTip": "Porro doloribus excepturi dolore laborum.",
+      "Id": 978,
+      "Name": "Schimmel Group",
+      "ToolTip": "Cum modi quas eius vel sed vitae.",
       "Deleted": true,
-      "Rank": 643,
-      "Type": "et",
-      "ColorBlock": 480,
-      "IconHint": "et",
+      "Rank": 506,
+      "Type": "totam",
+      "ColorBlock": 611,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2004-01-08T23:04:05.795995+01:00",
+      "LastChanged": "1998-03-18T16:55:31.0621865+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "corrupti",
-      "StyleHint": "quisquam",
+      "ExtraInfo": "laborum",
+      "StyleHint": "mollitia",
       "Hidden": false,
-      "FullName": "Tiffany Carroll"
+      "FullName": "Ms. Martine Nyah Ernser"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 968,
-  "Name": "Mohr LLC",
-  "Tooltip": "cumque",
-  "Rank": 747,
+  "SaleTypeId": 987,
+  "Name": "Goyette LLC",
+  "Tooltip": "rerum",
+  "Rank": 281,
   "DurationUnit": "Century",
-  "SaleDuration": 907,
-  "SaleTypeCatId": 515,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "SaleDuration": 205,
+  "SaleTypeCatId": 501,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 835,
-  "QuoteLinesTemplate": 348,
-  "ConfirmationLinesTemplate": 152,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 480,
+  "QuoteLinesTemplate": 559,
+  "ConfirmationLinesTemplate": 765,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 31,
-  "MinEarningPercent": 513,
-  "GroupQuoteLinesBy": 458,
-  "SortGroupLinesBy": 401,
+  "MaxDiscountPercent": 670,
+  "MinEarningPercent": 182,
+  "GroupQuoteLinesBy": 675,
+  "SortGroupLinesBy": 945,
   "Stages": [
     {
-      "Id": 706,
-      "Name": "Langosh LLC",
-      "ToolTip": "Omnis in ad dignissimos.",
-      "Deleted": true,
-      "Rank": 139,
-      "Type": "quo",
-      "ColorBlock": 949,
-      "IconHint": "pariatur",
-      "Selected": false,
-      "LastChanged": "2015-11-05T23:04:05.7979952+01:00",
+      "Id": 554,
+      "Name": "Dickinson, Bruen and Stanton",
+      "ToolTip": "Voluptatem et ea inventore omnis praesentium.",
+      "Deleted": false,
+      "Rank": 170,
+      "Type": "commodi",
+      "ColorBlock": 880,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2002-06-18T16:55:31.0631868+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fugiat",
-      "StyleHint": "dolorem",
+      "ExtraInfo": "eos",
+      "StyleHint": "velit",
       "Hidden": false,
-      "FullName": "Janice Quigley",
+      "FullName": "Miss Karen Aida Hintz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldType": "System.String",
+          "FieldLength": 624
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 370
     }
   }
 }

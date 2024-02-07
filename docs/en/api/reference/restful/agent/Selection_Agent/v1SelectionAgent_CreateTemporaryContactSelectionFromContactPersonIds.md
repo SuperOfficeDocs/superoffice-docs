@@ -68,7 +68,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 465,
-      "ContactId": 481
+      "PersonId": 39,
+      "ContactId": 106
     },
     {
-      "PersonId": 465,
-      "ContactId": 481
+      "PersonId": 39,
+      "ContactId": 106
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional contextually-based secured line",
-  "Postit": "modi",
+  "Description": "Grass-roots explicit infrastructure",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 904,
-  "IncludePerson": 238,
-  "MemberCount": 841,
-  "Name": "Zemlak, Willms and Kreiger",
-  "PostitTextId": 148,
-  "CreatedDate": "2013-05-13T23:03:57.1171134+02:00",
-  "SelectionId": 736,
-  "SoundEx": "natus",
-  "Source": 557,
-  "TextId": 273,
-  "UpdatedDate": "1998-03-25T23:03:57.117614+01:00",
-  "UpdatedCount": 946,
-  "Visibility": 102,
+  "GroupIdx": 511,
+  "IncludePerson": 655,
+  "MemberCount": 379,
+  "Name": "Ward LLC",
+  "PostitTextId": 611,
+  "CreatedDate": "2007-05-24T16:54:56.3045199+02:00",
+  "SelectionId": 322,
+  "SoundEx": "labore",
+  "Source": 737,
+  "TextId": 482,
+  "UpdatedDate": "2004-08-29T16:54:56.3045199+02:00",
+  "UpdatedCount": 241,
+  "Visibility": 679,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 829,
-  "TargetTableName": "Yost, Dooley and Lind",
+  "TargetTableNumber": 401,
+  "TargetTableName": "Batz-Mraz",
   "Completed": false,
-  "LeftSelectionId": 42,
-  "RightSelectionId": 2,
+  "LeftSelectionId": 80,
+  "RightSelectionId": 322,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jaskolski LLC",
-  "ShadowProviderName": "Hills, Schowalter and Hettinger",
-  "ChartKey": "quo",
-  "LastLoaded": "2020-11-12T23:03:57.117614+01:00",
-  "LastLoadedBy": 217,
+  "MainProviderName": "Crooks, Rowe and Anderson",
+  "ShadowProviderName": "Ziemann Inc and Sons",
+  "ChartKey": "iste",
+  "LastLoaded": "2005-07-07T16:54:56.3045199+02:00",
+  "LastLoadedBy": 985,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-05-03T23:03:57.117614+02:00",
-  "LastMembershipChangeBy": 365,
+  "LastMembershipChange": "2006-09-01T16:54:56.3045199+02:00",
+  "LastMembershipChangeBy": 907,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "optio",
-  "MailingsProviderName": "Schumm, Haag and O'Kon",
-  "DashboardTileDefinitionId": 921,
+  "MainHeading": "et",
+  "MemberTabHeading": "amet",
+  "MailingsProviderName": "Langosh-Blanda",
+  "DashboardTileDefinitionId": 452,
   "VisibleFor": [
     {
-      "VisibleId": 647,
+      "VisibleId": 402,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 784
         }
       }
     },
     {
-      "VisibleId": 647,
+      "VisibleId": 402,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 784
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 619
     }
   }
 }

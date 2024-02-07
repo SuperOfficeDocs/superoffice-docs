@@ -101,28 +101,28 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 603,
-  "Name": "Goldner Inc and Sons",
-  "Rank": 566,
-  "Tooltip": "porro",
-  "Icon": "doloremque",
-  "DefaultTicketStatus": 222,
+  "TicketTypeId": 924,
+  "Name": "Corwin Inc and Sons",
+  "Rank": 906,
+  "Tooltip": "numquam",
+  "Icon": "dolor",
+  "DefaultTicketStatus": 394,
   "TicketStatuses": [
-    335,
-    170
+    607,
+    399
   ],
-  "DefaultTicketPriority": 222,
+  "DefaultTicketPriority": 797,
   "TicketPriorities": [
-    322,
-    858
+    984,
+    227
   ],
-  "ReplyTemplate": 437,
-  "IsExternalVisible": true,
-  "IsDefault": false
+  "ReplyTemplate": 211,
+  "IsExternalVisible": false,
+  "IsDefault": true
 }
 ```
 
@@ -133,22 +133,22 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 32,
-  "Name": "Dare LLC",
-  "Rank": 847,
-  "Tooltip": "rem",
-  "Icon": "nam",
-  "DefaultTicketStatus": 440,
+  "TicketTypeId": 841,
+  "Name": "Schmidt Inc and Sons",
+  "Rank": 413,
+  "Tooltip": "rerum",
+  "Icon": "distinctio",
+  "DefaultTicketStatus": 593,
   "TicketStatuses": [
-    651,
-    484
+    210,
+    721
   ],
-  "DefaultTicketPriority": 399,
+  "DefaultTicketPriority": 344,
   "TicketPriorities": [
-    384,
-    383
+    364,
+    172
   ],
-  "ReplyTemplate": 190,
+  "ReplyTemplate": 249,
   "IsExternalVisible": false,
   "IsDefault": true,
   "TableRight": null,
@@ -156,12 +156,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldLength": 205
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

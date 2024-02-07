@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Schimmel, Christiansen and Harvey",
-  "Tooltip": "eos",
+  "Id": 111,
+  "Name": "VonRueden-King",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 465,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "provident",
+  "Rank": 746,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 207,
-  "Name": "Emard, Kuphal and O'Conner",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "Rank": 162,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": false,
+  "Id": 74,
+  "Name": "Schneider-Schmitt",
+  "Tooltip": "quae",
+  "Deleted": true,
+  "Rank": 723,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 152
+      "FieldType": "System.Int32",
+      "FieldLength": 775
     }
   }
 }

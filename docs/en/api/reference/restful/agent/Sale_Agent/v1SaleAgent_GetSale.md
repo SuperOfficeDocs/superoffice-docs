@@ -26,7 +26,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=593
+POST /api/v1/Agents/Sale/GetSale?saleId=831
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Wyman, Wisozk and Davis",
-  "SaleDate": "1999-03-13T23:03:56.8961195+01:00",
-  "SaleId": 133,
-  "Probability": 794,
-  "Title": "nisi",
-  "Amount": 31280.453999999998,
-  "Currency": "sed",
-  "ProjectName": "Huel, Reichert and Jaskolski",
-  "AssociateFullName": "Garrison Kemmer",
-  "Description": "Expanded multi-tasking standardization",
+  "ContactName": "Turner, Metz and Ernser",
+  "SaleDate": "2004-11-15T16:54:56.2340123+01:00",
+  "SaleId": 110,
+  "Probability": 571,
+  "Title": "molestiae",
+  "Amount": 14899.036,
+  "Currency": "alias",
+  "ProjectName": "Rau LLC",
+  "AssociateFullName": "Prof. Maia Rutherford",
+  "Description": "Fundamental didactic parallelism",
   "Status": "Lost",
-  "WeightedAmount": 11285.534,
-  "ProjectId": 320,
-  "EarningPercent": 20123.414,
-  "Earning": 21997.546,
-  "ContactId": 193,
-  "AssociateId": 49,
-  "PersonId": 802,
-  "SaleTypeId": 464,
-  "SaleTypeName": "Wunsch, Mann and Keebler",
-  "PersonFullName": "Polly Ethel Ondricka Jr.",
+  "WeightedAmount": 6919.8719999999994,
+  "ProjectId": 336,
+  "EarningPercent": 23624.092,
+  "Earning": 7070.304,
+  "ContactId": 677,
+  "AssociateId": 402,
+  "PersonId": 257,
+  "SaleTypeId": 504,
+  "SaleTypeName": "Bauch Group",
+  "PersonFullName": "Jason Goyette",
   "Completed": "Completed",
-  "ActiveErpLinks": 105,
-  "NextDueDate": "2006-05-30T23:03:56.8966265+02:00",
-  "Number": "943238",
+  "ActiveErpLinks": 814,
+  "NextDueDate": "2008-08-10T16:54:56.2350791+02:00",
+  "Number": "1243695",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 686
     }
   }
 }

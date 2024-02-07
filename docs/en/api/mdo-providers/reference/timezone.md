@@ -2,8 +2,7 @@
 uid: timezone
 title: timezone
 keywords: mdoprovider mdo provider timezone
-description: Provides the timezone list.
-If no search value is passed in the list is restricted to 'available' timezones
+description: Provides the timezone list. If no search value is passed in the list is restricted to 'available' timezones
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -14,13 +13,17 @@ Provides the timezone list.
 If no search value is passed in the list is restricted to 'available' timezones
 
 AdditionalInfo = "[all]" returns all timezones
-<para />
+
+
 AdditionalInfo = "123" returns all active timezones and the specific location
-<para />
+
+
 AdditionalInfo = "locationId=123" returns only the given location.
-<para />
+
+
 /// AdditionalInfo = "countryFlag=true" returns an iconhint for the country's flag.
-<para />
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TimeZoneProvider">TimeZoneProvider</see> class.
 The name of the MDO list is 'timezone'.

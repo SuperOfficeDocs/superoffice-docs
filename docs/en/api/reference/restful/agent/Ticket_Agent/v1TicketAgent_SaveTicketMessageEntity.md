@@ -93,7 +93,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -103,7 +103,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -113,66 +113,66 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 710,
+  "EjMessageId": 416,
   "Ticket": null,
-  "CreatedAt": "2012-07-21T23:03:57.2666111+02:00",
+  "CreatedAt": "1999-05-26T16:54:56.4221346+02:00",
   "CreatedBy": null,
-  "Author": "ab",
+  "Author": "quia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quasi",
-  "TimeSpent": 684,
-  "Body": "dicta",
-  "HtmlBody": "suscipit",
-  "EmailHeader": "archibald_simonis@hermistongottlieb.us",
-  "DebugInfo": "neque",
-  "MailSorter": "dolorum",
+  "MessageId": "quo",
+  "TimeSpent": 869,
+  "Body": "corporis",
+  "HtmlBody": "id",
+  "EmailHeader": "fritz@corkery.co.uk",
+  "DebugInfo": "tempora",
+  "MailSorter": "excepturi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "natus",
+  "SearchTitle": "ab",
   "MessageHeaders": [
     {
-      "Id": 738,
-      "Name": "Purdy, Lind and Franecki",
-      "Value": "nostrum",
+      "Id": 122,
+      "Name": "Reilly, Jerde and Daniel",
+      "Value": "dolorem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 738,
-      "Name": "Purdy, Lind and Franecki",
-      "Value": "nostrum",
+      "Id": 122,
+      "Name": "Reilly, Jerde and Daniel",
+      "Value": "dolorem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "maxime",
-  "Sentiment": 350,
-  "SentimentConfidence": 530,
+  "Important": true,
+  "Language": "at",
+  "Sentiment": 377,
+  "SentimentConfidence": 509,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 890,
-      "Name": "Quitzon, Rowe and Hagenes",
-      "ContentType": "est",
-      "AttSize": 576,
-      "InlineImage": true,
-      "ContentId": "ab",
-      "AuthKey": "eum"
+      "AttachmentId": 212,
+      "Name": "Lemke LLC",
+      "ContentType": "officiis",
+      "AttSize": 807,
+      "InlineImage": false,
+      "ContentId": "blanditiis",
+      "AuthKey": "est"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "eum"
+    "CustomFields1": "iusto",
+    "CustomFields2": "dolore"
   }
 }
 ```
@@ -184,78 +184,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 84,
+  "EjMessageId": 331,
   "Ticket": null,
-  "CreatedAt": "2008-08-11T23:03:57.2741114+02:00",
+  "CreatedAt": "2002-04-16T16:54:56.4301318+02:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "quae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rerum",
-  "TimeSpent": 698,
-  "Body": "nam",
-  "HtmlBody": "id",
-  "EmailHeader": "amos@frami.us",
-  "DebugInfo": "velit",
-  "MailSorter": "eveniet",
+  "MessageId": "sequi",
+  "TimeSpent": 835,
+  "Body": "quisquam",
+  "HtmlBody": "adipisci",
+  "EmailHeader": "thora@jerde.ca",
+  "DebugInfo": "ipsa",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "delectus",
+  "SearchTitle": "laboriosam",
   "MessageHeaders": [
     {
-      "Id": 26,
-      "Name": "Hartmann Inc and Sons",
-      "Value": "vero",
+      "Id": 896,
+      "Name": "Lowe-Schamberger",
+      "Value": "eos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldType": "System.String",
+          "FieldLength": 538
         }
       }
     }
   ],
   "Important": false,
-  "Language": "porro",
-  "Sentiment": 802,
-  "SentimentConfidence": 993,
+  "Language": "rerum",
+  "Sentiment": 155,
+  "SentimentConfidence": 52,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 627,
-      "Name": "Gorczany-Cole",
-      "ContentType": "illo",
-      "AttSize": 48,
+      "AttachmentId": 992,
+      "Name": "Dickinson-Padberg",
+      "ContentType": "ut",
+      "AttSize": 790,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "dicta",
+      "ContentId": "temporibus",
+      "AuthKey": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldType": "System.Int32",
+          "FieldLength": 313
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "libero"
+    "CustomFields1": "quia",
+    "CustomFields2": "voluptatum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 217
     }
   }
 }

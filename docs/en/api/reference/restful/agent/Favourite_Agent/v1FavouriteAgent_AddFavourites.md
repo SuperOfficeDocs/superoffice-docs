@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Medhurst Group",
+  "TableName": "Beier-Mante",
   "RecordIds": [
-    149,
-    173
+    968,
+    117
   ],
-  "AssociateId": 545,
-  "ExtraInfo": "enim"
+  "AssociateId": 866,
+  "ExtraInfo": "quod"
 }
 ```
 

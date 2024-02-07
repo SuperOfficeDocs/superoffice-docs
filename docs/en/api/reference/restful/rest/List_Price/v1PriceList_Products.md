@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=dolorem
-GET /api/v1/Pricelist/{id}/Products?$top=156
-GET /api/v1/Pricelist/{id}/Products?$skip=830
+GET /api/v1/Pricelist/{id}/Products?$entities=eum
+GET /api/v1/Pricelist/{id}/Products?$top=634
+GET /api/v1/Pricelist/{id}/Products?$skip=526
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=et
+GET /api/v1/Pricelist/{id}/Products?$context=nesciunt
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
 GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
 GET /api/v1/Pricelist/{id}/Products?$output=Display
@@ -134,19 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "impedit",
+  "odata.nextLink": "ducimus",
   "value": [
     {
-      "PrimaryKey": 6458,
-      "EntityName": "person",
-      "personId": 6458,
-      "fullName": "Ike Labadie II"
+      "PrimaryKey": 4211,
+      "EntityName": "sale",
+      "saleId": 4211,
+      "contactId": 7782,
+      "name": "Walter Group"
     },
     {
-      "PrimaryKey": 4319,
-      "EntityName": "person",
-      "personId": 4319,
-      "fullName": "Mrs. Rhett Johns"
+      "PrimaryKey": 3977,
+      "EntityName": "sale",
+      "saleId": 3977,
+      "contactId": 7584,
+      "name": "Bayer, Grimes and Rutherford"
     }
   ]
 }

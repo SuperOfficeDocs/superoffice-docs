@@ -95,7 +95,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -109,47 +109,47 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 565,
-  "Name": "Koelpin, Padberg and Jerde",
-  "Tooltip": "tempora",
-  "Rank": 227,
+  "SaleTypeId": 745,
+  "Name": "Jacobs Group",
+  "Tooltip": "nam",
+  "Rank": 208,
   "DurationUnit": "Century",
-  "SaleDuration": 637,
-  "SaleTypeCatId": 342,
+  "SaleDuration": 966,
+  "SaleTypeCatId": 434,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 643,
-  "QuoteLinesTemplate": 182,
-  "ConfirmationLinesTemplate": 106,
+  "DefaultQuoteValidity": 271,
+  "QuoteLinesTemplate": 515,
+  "ConfirmationLinesTemplate": 201,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 661,
-  "MinEarningPercent": 308,
-  "GroupQuoteLinesBy": 825,
-  "SortGroupLinesBy": 144,
+  "MaxDiscountPercent": 789,
+  "MinEarningPercent": 305,
+  "GroupQuoteLinesBy": 813,
+  "SortGroupLinesBy": 968,
   "Stages": [
     {
-      "Id": 703,
-      "Name": "Hauck Group",
-      "ToolTip": "Non consequatur impedit voluptate recusandae aut ad vel.",
+      "Id": 926,
+      "Name": "Rohan LLC",
+      "ToolTip": "Et magnam quo quibusdam qui voluptatum.",
       "Deleted": true,
-      "Rank": 940,
-      "Type": "et",
-      "ColorBlock": 357,
-      "IconHint": "aut",
+      "Rank": 394,
+      "Type": "fuga",
+      "ColorBlock": 300,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "1999-07-10T23:03:56.2976245+02:00",
+      "LastChanged": "1997-03-21T16:54:55.6279847+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fuga",
-      "StyleHint": "facilis",
+      "ExtraInfo": "voluptatibus",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Ms. Damion McCullough DVM"
+      "FullName": "Tom McDermott DVM"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 571,
-  "Name": "Skiles Group",
-  "Tooltip": "non",
-  "Rank": 780,
+  "SaleTypeId": 743,
+  "Name": "Okuneva-Pfeffer",
+  "Tooltip": "illo",
+  "Rank": 293,
   "DurationUnit": "Century",
-  "SaleDuration": 93,
-  "SaleTypeCatId": 964,
-  "Deleted": true,
+  "SaleDuration": 636,
+  "SaleTypeCatId": 197,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 758,
-  "QuoteLinesTemplate": 661,
-  "ConfirmationLinesTemplate": 359,
+  "DefaultQuoteValidity": 584,
+  "QuoteLinesTemplate": 515,
+  "ConfirmationLinesTemplate": 399,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 610,
-  "MinEarningPercent": 701,
-  "GroupQuoteLinesBy": 582,
-  "SortGroupLinesBy": 353,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 251,
+  "MinEarningPercent": 194,
+  "GroupQuoteLinesBy": 539,
+  "SortGroupLinesBy": 635,
   "Stages": [
     {
-      "Id": 689,
-      "Name": "Sipes-Fisher",
-      "ToolTip": "Voluptatibus in deserunt consequuntur et.",
-      "Deleted": true,
-      "Rank": 334,
-      "Type": "id",
-      "ColorBlock": 382,
-      "IconHint": "ipsum",
+      "Id": 433,
+      "Name": "Lubowitz LLC",
+      "ToolTip": "Vero voluptatibus dolores eius voluptatem officia est officiis.",
+      "Deleted": false,
+      "Rank": 966,
+      "Type": "velit",
+      "ColorBlock": 605,
+      "IconHint": "architecto",
       "Selected": false,
-      "LastChanged": "2004-12-21T23:03:56.3016249+01:00",
+      "LastChanged": "2016-06-30T16:54:55.6279847+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laudantium",
-      "StyleHint": "est",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "dolor",
       "Hidden": false,
-      "FullName": "Lois Bins",
+      "FullName": "Mrs. Lori Hackett DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 428
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 452
     }
   }
 }

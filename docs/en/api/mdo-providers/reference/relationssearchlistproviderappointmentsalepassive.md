@@ -2,8 +2,7 @@
 uid: relationssearchlistproviderappointmentsalepassive
 title: relationssearchlistproviderappointmentsalepassive
 keywords: mdoprovider mdo provider relationssearchlistproviderappointmentsalepassive
-description: Serve the active and passive texts of relations, with a given table as source (active)
-or destination (passive).
+description: Serve the active and passive texts of relations, with a given table as source (active) or destination (passive).
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -16,7 +15,8 @@ or destination (passive).
 To facilitate relation searching, we need to provide a way to choose <b>which</b> relation we
 would like to find. This provider supplies one list (dynamically named) for each table that
 is used as a source or destination (relationdefinition --&gt; relationtarget).
-<para />
+
+
 Each relation target combination supplied by relationtarget causes the relationdefinition to
 appear in the correct direction, in the list for a table. Each such list is always flat.
 

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Parisian, Durgan and Padberg"
+  "TableName": "Bayer-Grimes"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "sunt",
-  "Inserts": 832,
-  "Updates": 217,
-  "Deletes": 500,
+  "Message": "voluptatem",
+  "Inserts": 556,
+  "Updates": 278,
+  "Deletes": 300,
   "RowStatus": [
     {
-      "PrimaryKey": 627,
+      "PrimaryKey": 81,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "autem",
-        "aliquam"
+        "animi",
+        "molestias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 432
         }
       }
     },
     {
-      "PrimaryKey": 627,
+      "PrimaryKey": 81,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "autem",
-        "aliquam"
+        "animi",
+        "molestias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 432
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 835
     }
   }
 }

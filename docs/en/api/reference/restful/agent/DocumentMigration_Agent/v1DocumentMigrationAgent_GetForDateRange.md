@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 486,
-  "MinDate": "1999-08-19T23:03:55.8606304+02:00",
-  "MaxDate": "1999-12-13T23:03:55.8606304+01:00",
+  "DocumentPluginId": 27,
+  "MinDate": "1999-03-23T16:54:55.2894197+01:00",
+  "MaxDate": "2006-04-17T16:54:55.2894197+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 436,
-  "NumDocumentsAlreadyMigrated": 445,
+  "NumDocumentsOmitted": 687,
+  "NumDocumentsAlreadyMigrated": 688,
   "Documents": [
     {
-      "DocumentId": 511,
-      "ContactId": 892,
-      "PersonId": 859,
-      "SaleId": 87,
-      "ProjectId": 74,
-      "DocTmplId": 606,
-      "AssociateId": 446,
-      "UserGroupId": 563,
-      "VisibleForId": 795
+      "DocumentId": 657,
+      "ContactId": 167,
+      "PersonId": 328,
+      "SaleId": 17,
+      "ProjectId": 168,
+      "DocTmplId": 756,
+      "AssociateId": 444,
+      "UserGroupId": 897,
+      "VisibleForId": 354
     }
   ],
   "Associates": [
     {
-      "AssociateId": 323,
-      "EmailAddress": "harmon@kuphallebsack.com"
+      "AssociateId": 807,
+      "EmailAddress": "myrna.ruecker@davis.com"
     },
     {
-      "AssociateId": 323,
-      "EmailAddress": "harmon@kuphallebsack.com"
+      "AssociateId": 807,
+      "EmailAddress": "myrna.ruecker@davis.com"
     }
   ]
 }

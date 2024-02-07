@@ -25,7 +25,7 @@ Gets all the Competitor items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Competitor/Items?includeDeleted=False
+GET /api/v1/List/Competitor/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Sauer Group",
-    "Tooltip": "aliquam",
+    "Id": 457,
+    "Name": "Runolfsson Group",
+    "Tooltip": "id",
     "Deleted": false,
-    "UdListDefinitionId": 733,
-    "Rank": 337,
+    "UdListDefinitionId": 224,
+    "Rank": 752,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 101
       }
     }
   }

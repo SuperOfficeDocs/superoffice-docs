@@ -26,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=995
+POST /api/v1/Agents/Associate/GetAssociate?associateId=581
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -59,7 +59,7 @@ OK
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
+| PersonId | int32 | Owning person record  Use MDO List name "person" to get list items. |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 198,
-  "Name": "Vandervort LLC",
-  "PersonId": 583,
-  "Rank": 947,
-  "Tooltip": "dolor",
+  "AssociateId": 297,
+  "Name": "Hahn-Hessel",
+  "PersonId": 991,
+  "Rank": 52,
+  "Tooltip": "deleniti",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 505,
-  "FullName": "Arielle Bergstrom DDS",
-  "FormalName": "Nitzsche, Lesch and Botsford",
-  "Deleted": false,
-  "EjUserId": 709,
-  "UserName": "Murray-Sawayn",
+  "GroupIdx": 508,
+  "FullName": "Kraig Paige Bechtelar Jr.",
+  "FormalName": "Collier-Bechtelar",
+  "Deleted": true,
+  "EjUserId": 669,
+  "UserName": "Lebsack Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 786
     }
   }
 }

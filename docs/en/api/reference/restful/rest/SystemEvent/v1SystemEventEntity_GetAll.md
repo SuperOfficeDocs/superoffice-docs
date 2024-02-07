@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=qui
-GET /api/v1/SystemEvent?$top=267
-GET /api/v1/SystemEvent?$skip=172
+GET /api/v1/SystemEvent?$entities=dolores
+GET /api/v1/SystemEvent?$top=32
+GET /api/v1/SystemEvent?$skip=421
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=voluptates
+GET /api/v1/SystemEvent?$context=odio
 GET /api/v1/SystemEvent?$format=JSON
-GET /api/v1/SystemEvent?$jsonSafe=True
+GET /api/v1/SystemEvent?$jsonSafe=False
 GET /api/v1/SystemEvent?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quaerat",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 2417,
-      "EntityName": "person",
-      "personId": 2417,
-      "fullName": "Christelle Murray"
+      "PrimaryKey": 257,
+      "EntityName": "sale",
+      "saleId": 257,
+      "contactId": 824,
+      "name": "Schmeler, Dicki and Pagac"
     },
     {
-      "PrimaryKey": 474,
-      "EntityName": "person",
-      "personId": 474,
-      "fullName": "Ms. Twila Colleen Wolf"
+      "PrimaryKey": 4113,
+      "EntityName": "sale",
+      "saleId": 4113,
+      "contactId": 2122,
+      "name": "Ortiz-Larkin"
     }
   ]
 }

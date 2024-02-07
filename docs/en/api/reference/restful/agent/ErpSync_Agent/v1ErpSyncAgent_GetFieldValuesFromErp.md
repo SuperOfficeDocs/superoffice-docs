@@ -86,9 +86,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 487,
+  "ErpConnectionId": 528,
   "ActorTypeErp": "Customer",
-  "ErpKey": "rerum"
+  "ErpKey": "ea"
 }
 ```
 
@@ -100,10 +100,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Medhurst-Bahringer",
-    "CrmFieldKey": "qui",
-    "Value": "iusto",
-    "DisplayValue": "soluta",
+    "DisplayName": "Cartwright LLC",
+    "CrmFieldKey": "quia",
+    "Value": "nihil",
+    "DisplayValue": "aliquam",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 23
       }
     }
   }

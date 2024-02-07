@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Hermann LLC",
-  "StorageKey": "dolorem",
-  "Restrictions": "harum"
+  "StorageType": "deleniti",
+  "ProviderName": "Corkery Group",
+  "StorageKey": "et",
+  "Restrictions": "quis"
 }
 ```
 

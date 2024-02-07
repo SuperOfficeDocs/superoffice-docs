@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "HeadingId": 612,
-    "Name": "Pouros-Jacobi",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 251,
-    "UdListDefinitionId": 1002
+    "Name": "Grady-Moore",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 47,
+    "UdListDefinitionId": 783
   },
   {
     "HeadingId": 612,
-    "Name": "Pouros-Jacobi",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 251,
-    "UdListDefinitionId": 1002
+    "Name": "Grady-Moore",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 47,
+    "UdListDefinitionId": 783
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 278,
-    "Name": "Koss, Cormier and Reichel",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "Rank": 458,
-    "UdListDefinitionId": 850,
+    "HeadingId": 971,
+    "Name": "Kautzer Group",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 261,
+    "UdListDefinitionId": 462,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldLength": 811
       }
     }
   }

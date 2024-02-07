@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorem",
+  "odata.nextLink": "nesciunt",
   "value": [
     {
-      "PrimaryKey": 5043,
-      "EntityName": "person",
-      "personId": 5043,
-      "fullName": "Dr. Jewell Shields V"
+      "PrimaryKey": 69,
+      "EntityName": "sale",
+      "saleId": 69,
+      "contactId": 4941,
+      "name": "Dickens-Fahey"
     },
     {
-      "PrimaryKey": 8357,
-      "EntityName": "person",
-      "personId": 8357,
-      "fullName": "Prof. Otilia Carmel Farrell"
+      "PrimaryKey": 459,
+      "EntityName": "sale",
+      "saleId": 459,
+      "contactId": 9818,
+      "name": "Ullrich-Abbott"
     }
   ]
 }

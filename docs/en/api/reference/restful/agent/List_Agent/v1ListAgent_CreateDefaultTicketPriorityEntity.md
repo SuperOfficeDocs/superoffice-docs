@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 272,
-  "Name": "Abshire Group",
+  "TicketPriorityId": 603,
+  "Name": "Heidenreich Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 422,
+  "SortOrder": 41,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 822,
-  "MonStart": "1999-08-22T23:03:56.3061245+02:00",
-  "MonStop": "2014-06-07T23:03:56.3061245+02:00",
-  "TueStart": "2018-02-07T23:03:56.3061245+01:00",
-  "TueStop": "2013-05-08T23:03:56.3061245+02:00",
-  "WedStart": "1997-02-23T23:03:56.3061245+01:00",
-  "WedStop": "2011-04-08T23:03:56.3061245+02:00",
-  "ThuStart": "2010-04-08T23:03:56.3061245+02:00",
-  "ThuStop": "2002-02-07T23:03:56.3061245+01:00",
-  "FriStart": "2005-01-31T23:03:56.3061245+01:00",
-  "FriStop": "2010-10-16T23:03:56.3061245+02:00",
-  "SatStart": "2016-07-01T23:03:56.3061245+02:00",
-  "SatStop": "2006-02-22T23:03:56.3061245+01:00",
-  "SunStart": "2020-07-27T23:03:56.3061245+02:00",
-  "SunStop": "2017-05-17T23:03:56.3061245+02:00",
+  "Deadline": 400,
+  "MonStart": "2017-11-11T16:54:55.6319847+01:00",
+  "MonStop": "1999-05-12T16:54:55.6319847+02:00",
+  "TueStart": "2011-09-19T16:54:55.6319847+02:00",
+  "TueStop": "2012-07-13T16:54:55.6319847+02:00",
+  "WedStart": "2009-05-13T16:54:55.6319847+02:00",
+  "WedStop": "2009-02-01T16:54:55.6319847+01:00",
+  "ThuStart": "2003-09-30T16:54:55.6319847+02:00",
+  "ThuStop": "2002-01-27T16:54:55.6319847+01:00",
+  "FriStart": "1998-10-29T16:54:55.6319847+01:00",
+  "FriStop": "2014-02-13T16:54:55.6319847+01:00",
+  "SatStart": "2012-03-04T16:54:55.6319847+01:00",
+  "SatStop": "2015-06-21T16:54:55.6319847+02:00",
+  "SunStart": "2006-06-22T16:54:55.6319847+02:00",
+  "SunStop": "2004-11-14T16:54:55.6319847+01:00",
   "NonDates": [
-    "iure",
-    "aliquid"
+    "quia",
+    "quo"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 300,
-      "AlertLevel": 470,
-      "AlertTimeout": 670,
-      "Action": 966,
-      "DelegateTo": 396,
-      "ScriptId": 623,
-      "EmailTo": "lucio@schuster.com",
-      "SmsTo": "rerum",
-      "ReplyTemplateIdCustomer": 695,
-      "ReplyTemplateIdUser": 273,
-      "ReplyTemplateIdCatmast": 170,
-      "ReplyTemplateIdEmail": 979,
-      "RtiCustomerSms": 57,
-      "ReplyTemplateIdUserSms": 147,
-      "ReplyTemplateIdCatmastSms": 594,
-      "ReplyTemplateIdSms": 609,
+      "TicketAlertId": 386,
+      "AlertLevel": 521,
+      "AlertTimeout": 934,
+      "Action": 593,
+      "DelegateTo": 547,
+      "ScriptId": 564,
+      "EmailTo": "manuel@schulist.ca",
+      "SmsTo": "a",
+      "ReplyTemplateIdCustomer": 568,
+      "ReplyTemplateIdUser": 801,
+      "ReplyTemplateIdCatmast": 324,
+      "ReplyTemplateIdEmail": 237,
+      "RtiCustomerSms": 748,
+      "ReplyTemplateIdUserSms": 231,
+      "ReplyTemplateIdCatmastSms": 24,
+      "ReplyTemplateIdSms": 986,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 60
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 522
     }
   }
 }

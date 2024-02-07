@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Stokes-Langosh",
-  "Comment": "tempore",
-  "StakeholderRoleId": 118,
-  "CountryId": 983,
-  "PersonId": 633,
-  "EmailDescription": "johnathon@oconnellchristiansen.name",
-  "EmailId": 678,
-  "EmailAddress": "ola.kautzer@weimann.co.uk",
-  "PhoneId": 534,
-  "ContactName": "Runolfsson, Heller and Cole",
-  "ContactId": 511,
-  "SaleId": 989,
-  "Mrmrs": "voluptatibus",
-  "Firstname": "Blaise",
-  "MiddleName": "Russel-Howe",
-  "Lastname": "Schinner",
-  "SaleStakeholderId": 449,
-  "Rank": 466,
-  "Phone": "(401)260-5013"
+  "StakeholderRoleName": "Eichmann-Anderson",
+  "Comment": "aut",
+  "StakeholderRoleId": 726,
+  "CountryId": 611,
+  "PersonId": 713,
+  "EmailDescription": "cali@flatley.us",
+  "EmailId": 559,
+  "EmailAddress": "lenore.hoeger@kovacek.name",
+  "PhoneId": 586,
+  "ContactName": "Lockman LLC",
+  "ContactId": 230,
+  "SaleId": 461,
+  "Mrmrs": "dolorem",
+  "Firstname": "Ottis",
+  "MiddleName": "Zulauf, Conroy and Konopelski",
+  "Lastname": "Goodwin",
+  "SaleStakeholderId": 954,
+  "Rank": 140,
+  "Phone": "314.553.7007 x77392"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Larkin, Schamberger and Rolfson",
-  "Comment": "ipsum",
-  "StakeholderRoleId": 175,
-  "CountryId": 864,
-  "PersonId": 526,
-  "EmailDescription": "leland@stroman.ca",
-  "EmailId": 17,
-  "EmailAddress": "ulices@shanahan.com",
-  "PhoneId": 4,
-  "ContactName": "Pfannerstill, Kautzer and Leuschke",
-  "ContactId": 562,
-  "SaleId": 295,
-  "Mrmrs": "ea",
-  "Firstname": "Madisyn",
-  "MiddleName": "Steuber Group",
-  "Lastname": "Crona",
-  "SaleStakeholderId": 180,
-  "Rank": 641,
-  "Phone": "(819)850-4661 x05761",
+  "StakeholderRoleName": "Emard-Heathcote",
+  "Comment": "ut",
+  "StakeholderRoleId": 200,
+  "CountryId": 563,
+  "PersonId": 631,
+  "EmailDescription": "jacklyn@krajcikdickens.us",
+  "EmailId": 834,
+  "EmailAddress": "uriah@abernathy.uk",
+  "PhoneId": 951,
+  "ContactName": "Bergnaum, Cronin and Pagac",
+  "ContactId": 852,
+  "SaleId": 23,
+  "Mrmrs": "rerum",
+  "Firstname": "Nathen",
+  "MiddleName": "Schaden, Rau and Grant",
+  "Lastname": "Stracke",
+  "SaleStakeholderId": 61,
+  "Rank": 915,
+  "Phone": "577.237.4947 x018",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldType": "System.Int32",
+      "FieldLength": 530
     }
   }
 }

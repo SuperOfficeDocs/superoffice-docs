@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    44,
-    979
+    951,
+    307
   ],
   "NewStatus": "Green"
 }
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  718,
-  290
+  193,
+  283
 ]
 ```

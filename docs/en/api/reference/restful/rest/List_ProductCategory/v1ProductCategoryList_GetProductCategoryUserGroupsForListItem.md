@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Fadel, Jast and Brakus",
-    "ToolTip": "Dolores accusamus sapiente est ea dolorum qui ut.",
+    "Id": 155,
+    "Name": "Mertz LLC",
+    "ToolTip": "Natus laboriosam perferendis.",
     "Deleted": true,
-    "Rank": 345,
-    "Type": "expedita",
-    "ColorBlock": 343,
-    "IconHint": "et",
+    "Rank": 582,
+    "Type": "at",
+    "ColorBlock": 435,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "1999-02-04T23:04:05.6105081+01:00",
+    "LastChanged": "1999-05-04T16:55:30.7977354+02:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Auer, Mohr and Volkman",
-        "ToolTip": "Minus soluta ab dicta voluptates.",
+        "Id": 328,
+        "Name": "Morar, Koelpin and Hickle",
+        "ToolTip": "Quaerat tenetur sunt.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "nostrum",
-        "ColorBlock": 698,
-        "IconHint": "et",
+        "Rank": 480,
+        "Type": "ipsa",
+        "ColorBlock": 732,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2017-12-25T23:04:05.6109985+01:00",
+        "LastChanged": "2007-12-05T16:55:30.7977354+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "tempore",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Judge Nash Witting V",
+        "FullName": "Kayli Dickens MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldType": "System.String",
+            "FieldLength": 953
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Hazel Reichert",
+    "ExtraInfo": "unde",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Ms. Haylee Jessie Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 266
       }
     }
   }

@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 155,
-  "Name": "Block, Wuckert and Koch",
-  "Description": "Versatile logistical functionalities",
+  "ReportLabelLayoutId": 854,
+  "Name": "Kessler, Bradtke and Hackett",
+  "Description": "User-friendly encompassing synergy",
   "Orientation": "Landscape",
-  "PaperWidth": 525,
-  "PaperHeight": 69,
-  "LeftMargin": 423,
-  "RightMargin": 492,
-  "TopMargin": 418,
-  "BottomMargin": 861,
-  "CountColumns": 414,
-  "CountRows": 103
+  "PaperWidth": 464,
+  "PaperHeight": 906,
+  "LeftMargin": 774,
+  "RightMargin": 374,
+  "TopMargin": 527,
+  "BottomMargin": 887,
+  "CountColumns": 969,
+  "CountRows": 449
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 713,
-  "Name": "Towne Inc and Sons",
-  "Description": "Networked neutral methodology",
+  "ReportLabelLayoutId": 136,
+  "Name": "Hirthe, Prosacco and Reichel",
+  "Description": "Versatile multi-tasking access",
   "Orientation": "Landscape",
-  "PaperWidth": 85,
-  "PaperHeight": 813,
-  "LeftMargin": 670,
-  "RightMargin": 794,
-  "TopMargin": 750,
-  "BottomMargin": 1000,
-  "CountColumns": 981,
-  "CountRows": 697,
+  "PaperWidth": 539,
+  "PaperHeight": 415,
+  "LeftMargin": 376,
+  "RightMargin": 842,
+  "TopMargin": 516,
+  "BottomMargin": 238,
+  "CountColumns": 913,
+  "CountRows": 657,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 465
     }
   }
 }

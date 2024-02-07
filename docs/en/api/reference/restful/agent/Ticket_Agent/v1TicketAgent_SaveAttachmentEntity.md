@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 341,
-  "Name": "Collier, Bauch and Hartmann",
-  "ContentType": "hic",
-  "AttSize": 737,
+  "AttachmentId": 599,
+  "Name": "Schroeder Group",
+  "ContentType": "dolores",
+  "AttSize": 529,
   "InlineImage": false,
-  "ContentId": "laborum",
-  "AuthKey": "sint"
+  "ContentId": "sed",
+  "AuthKey": "autem"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 495,
-  "Name": "Bartoletti-Schmitt",
-  "ContentType": "voluptatem",
-  "AttSize": 599,
+  "AttachmentId": 220,
+  "Name": "Casper-Okuneva",
+  "ContentType": "laboriosam",
+  "AttSize": 626,
   "InlineImage": false,
-  "ContentId": "rerum",
-  "AuthKey": "dolorum",
+  "ContentId": "aut",
+  "AuthKey": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 690
     }
   }
 }

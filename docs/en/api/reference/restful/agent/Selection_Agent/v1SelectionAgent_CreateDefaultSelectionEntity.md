@@ -52,7 +52,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive motivating hub",
-  "Postit": "est",
+  "Description": "Universal bifurcated success",
+  "Postit": "similique",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 11,
-  "IncludePerson": 703,
-  "MemberCount": 272,
-  "Name": "Emard-Lowe",
-  "PostitTextId": 770,
-  "CreatedDate": "1999-06-22T23:03:57.0856152+02:00",
-  "SelectionId": 206,
-  "SoundEx": "voluptas",
-  "Source": 994,
-  "TextId": 408,
-  "UpdatedDate": "2001-01-01T23:03:57.0856152+01:00",
-  "UpdatedCount": 683,
-  "Visibility": 655,
+  "GroupIdx": 592,
+  "IncludePerson": 934,
+  "MemberCount": 125,
+  "Name": "Schroeder LLC",
+  "PostitTextId": 178,
+  "CreatedDate": "2009-10-24T16:54:56.2796182+02:00",
+  "SelectionId": 40,
+  "SoundEx": "illo",
+  "Source": 531,
+  "TextId": 424,
+  "UpdatedDate": "2001-08-12T16:54:56.2805975+02:00",
+  "UpdatedCount": 833,
+  "Visibility": 599,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 219,
-  "TargetTableName": "Wintheiser-Dibbert",
+  "TargetTableNumber": 837,
+  "TargetTableName": "Rogahn-Hansen",
   "Completed": false,
-  "LeftSelectionId": 681,
-  "RightSelectionId": 529,
+  "LeftSelectionId": 49,
+  "RightSelectionId": 556,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kirlin, Boyle and Dickinson",
-  "ShadowProviderName": "Nolan-Fritsch",
-  "ChartKey": "nostrum",
-  "LastLoaded": "2007-03-22T23:03:57.0861165+01:00",
-  "LastLoadedBy": 105,
+  "MainProviderName": "Weimann Inc and Sons",
+  "ShadowProviderName": "Graham Group",
+  "ChartKey": "et",
+  "LastLoaded": "2003-09-02T16:54:56.2805975+02:00",
+  "LastLoadedBy": 789,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-11-19T23:03:57.0866169+01:00",
-  "LastMembershipChangeBy": 967,
+  "LastMembershipChange": "2015-06-02T16:54:56.2805975+02:00",
+  "LastMembershipChangeBy": 508,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "reiciendis",
-  "MemberTabHeading": "praesentium",
-  "MailingsProviderName": "Frami-Herman",
-  "DashboardTileDefinitionId": 295,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Torp-Conn",
+  "DashboardTileDefinitionId": 364,
   "VisibleFor": [
     {
-      "VisibleId": 169,
+      "VisibleId": 311,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 96
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     },
     {
-      "VisibleId": 169,
+      "VisibleId": 311,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 96
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldType": "System.Int32",
+      "FieldLength": 955
     }
   }
 }

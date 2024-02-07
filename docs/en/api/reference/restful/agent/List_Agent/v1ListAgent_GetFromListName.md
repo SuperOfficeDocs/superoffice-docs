@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 85,
-  "UdListDefinitionName": "Wiza, Schultz and Jakubowski"
+  "Id": 752,
+  "UdListDefinitionName": "Waelchi Group"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 501,
-  "Name": "Grimes Inc and Sons",
-  "Tooltip": "doloremque",
-  "Deleted": true,
-  "UdListDefinitionId": 719,
-  "Rank": 945,
+  "Id": 723,
+  "Name": "Osinski Group",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "UdListDefinitionId": 36,
+  "Rank": 524,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   }
 }

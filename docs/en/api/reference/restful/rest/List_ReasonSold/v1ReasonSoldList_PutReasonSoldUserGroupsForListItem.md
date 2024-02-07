@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Lubowitz LLC",
-    "ToolTip": "At quia et odio veritatis.",
-    "Deleted": false,
-    "Rank": 758,
-    "Type": "harum",
-    "ColorBlock": 992,
-    "IconHint": "eum",
+    "Id": 759,
+    "Name": "Keebler Group",
+    "ToolTip": "Nostrum eius tempore et voluptatem delectus aut nihil.",
+    "Deleted": true,
+    "Rank": 312,
+    "Type": "qui",
+    "ColorBlock": 941,
+    "IconHint": "aperiam",
     "Selected": true,
-    "LastChanged": "2012-12-08T23:04:05.7634964+01:00",
+    "LastChanged": "2022-01-08T16:55:31.0331825+01:00",
     "ChildItems": [
       {
-        "Id": 314,
-        "Name": "Kuphal-VonRueden",
-        "ToolTip": "Expedita saepe et omnis est.",
+        "Id": 962,
+        "Name": "Barrows-Miller",
+        "ToolTip": "Illum eius.",
         "Deleted": true,
-        "Rank": 769,
-        "Type": "harum",
-        "ColorBlock": 583,
-        "IconHint": "quibusdam",
+        "Rank": 798,
+        "Type": "qui",
+        "ColorBlock": 757,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2021-11-06T23:04:05.7634964+01:00",
+        "LastChanged": "2001-01-29T16:55:31.0331825+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "repudiandae",
-        "Hidden": true,
-        "FullName": "Patsy Christiansen"
+        "ExtraInfo": "neque",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Danika Naomie Lind Sr."
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "sint",
+    "ExtraInfo": "ab",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Linwood Quitzon"
+    "FullName": "Maximillia Gusikowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Johns, Miller and Jenkins",
-    "ToolTip": "Aut laboriosam at.",
+    "Id": 193,
+    "Name": "Hintz Inc and Sons",
+    "ToolTip": "Et laborum error ipsam.",
     "Deleted": false,
-    "Rank": 92,
-    "Type": "est",
-    "ColorBlock": 532,
-    "IconHint": "ea",
+    "Rank": 960,
+    "Type": "commodi",
+    "ColorBlock": 705,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "1998-04-24T23:04:05.7644957+02:00",
+    "LastChanged": "2015-03-08T16:55:31.0341818+01:00",
     "ChildItems": [
       {
-        "Id": 170,
-        "Name": "Stamm Inc and Sons",
-        "ToolTip": "Deleniti quia fuga accusantium explicabo eos voluptatem.",
+        "Id": 816,
+        "Name": "Lubowitz-Hammes",
+        "ToolTip": "Fugit nulla accusantium odit nobis sunt voluptatem quibusdam.",
         "Deleted": false,
-        "Rank": 761,
-        "Type": "illo",
-        "ColorBlock": 58,
-        "IconHint": "cumque",
+        "Rank": 696,
+        "Type": "rem",
+        "ColorBlock": 907,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "1999-08-23T23:04:05.7649976+02:00",
+        "LastChanged": "1999-08-07T16:55:31.0341818+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Immanuel Wiza",
+        "ExtraInfo": "cum",
+        "StyleHint": "quidem",
+        "Hidden": true,
+        "FullName": "Mrs. Maximilian Schneider IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 566
+            "FieldLength": 150
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "laborum",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Dr. Lexie Ryan IV",
+    "FullName": "Miss Cecilia Carmine West",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldLength": 922
       }
     }
   }

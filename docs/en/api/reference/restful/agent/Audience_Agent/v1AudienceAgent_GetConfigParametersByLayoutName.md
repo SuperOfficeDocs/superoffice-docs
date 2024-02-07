@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Klocko, Johnston and Fadel"
+  "LayoutName": "Marquardt Inc and Sons"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 147,
-    "Name": "Blanda-Hamill",
-    "Value": "nobis",
-    "CreatedDate": "2017-08-20T23:03:55.0061421+02:00",
-    "UpdatedDate": "2016-10-15T23:03:55.0061421+02:00",
-    "CreatedBy": "quae",
-    "UpdatedBy": "rerum",
+    "AudienceLayoutId": 820,
+    "Name": "Stoltenberg-Nitzsche",
+    "Value": "esse",
+    "CreatedDate": "2000-06-16T16:54:54.5913288+02:00",
+    "UpdatedDate": "1999-03-28T16:54:54.5913288+02:00",
+    "CreatedBy": "dolores",
+    "UpdatedBy": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

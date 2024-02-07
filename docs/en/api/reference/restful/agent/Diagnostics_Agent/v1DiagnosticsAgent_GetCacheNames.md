@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,6 +71,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   "magni",
-  "aspernatur"
+  "voluptates"
 ]
 ```

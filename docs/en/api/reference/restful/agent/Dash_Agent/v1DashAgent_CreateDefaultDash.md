@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 327,
-  "UniqueId": "modi",
-  "Name": "Yundt Group",
-  "Description": "Integrated regional software",
-  "AssociateId": 856,
-  "Columns": 34,
+  "DashboardId": 402,
+  "UniqueId": "rem",
+  "Name": "Lubowitz-Streich",
+  "Description": "Organic static paradigm",
+  "AssociateId": 561,
+  "Columns": 50,
   "Theme": null,
-  "VisibleForAll": 483,
+  "VisibleForAll": 2,
   "VisibleForAssociates": [
-    648,
-    776
+    520,
+    765
   ],
   "VisibleForGroups": [
-    307,
-    604
+    12,
+    536
   ],
-  "PinForAll": 850,
+  "PinForAll": 706,
   "PinForAssociates": [
-    740,
-    199
+    757,
+    349
   ],
   "PinForGroups": [
-    928,
-    854
+    157,
+    779
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 293
     }
   }
 }

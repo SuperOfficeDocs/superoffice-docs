@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 504,
-  "Section": "id",
-  "Key": "odit",
-  "Name": "Larson, Satterfield and Larson",
+  "PrefDescId": 747,
+  "Section": "ex",
+  "Key": "officia",
+  "Name": "Haag, Kris and Klein",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive object-oriented portal",
+  "Description": "Switchable national extranet",
   "IsBuiltin": true,
-  "TableName": "Kautzer Inc and Sons",
-  "UserDefinedListId": 233,
-  "Rank": 426,
-  "SubGroup": "mollitia",
-  "MinLevel": 762,
-  "MaxValue": 863,
-  "MinValue": 605,
-  "RequiredLicense": "eos",
+  "TableName": "Lynch-Frami",
+  "UserDefinedListId": 639,
+  "Rank": 350,
+  "SubGroup": "eaque",
+  "MinLevel": 890,
+  "MaxValue": 373,
+  "MinValue": 110,
+  "RequiredLicense": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldLength": 208
     }
   }
 }

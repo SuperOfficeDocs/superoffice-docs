@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Kertzmann, Dickinson and Ankunding",
-    "ToolTip": "Ea quia est consequatur vel.",
+    "Id": 95,
+    "Name": "VonRueden, Tillman and Dare",
+    "ToolTip": "Quas nam nostrum cumque impedit reiciendis voluptatem deleniti.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "sint",
-    "ColorBlock": 479,
-    "IconHint": "non",
+    "Rank": 910,
+    "Type": "excepturi",
+    "ColorBlock": 318,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2006-02-18T23:04:05.650498+01:00",
+    "LastChanged": "2010-02-09T16:55:30.8257168+01:00",
     "ChildItems": [
       {
-        "Id": 292,
-        "Name": "Marvin, Dooley and Nitzsche",
-        "ToolTip": "Sint sed in.",
+        "Id": 953,
+        "Name": "Abshire, Hilpert and Turner",
+        "ToolTip": "Consequatur id quaerat quia nesciunt.",
         "Deleted": false,
-        "Rank": 809,
-        "Type": "et",
-        "ColorBlock": 261,
-        "IconHint": "incidunt",
+        "Rank": 160,
+        "Type": "doloribus",
+        "ColorBlock": 998,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2018-06-17T23:04:05.650498+02:00",
+        "LastChanged": "2008-01-26T16:55:30.8257168+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "eius",
+        "ExtraInfo": "vitae",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Jacynthe Stanton",
+        "FullName": "Mr. Concepcion Briana D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 856
+            "FieldType": "System.Int32",
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "optio",
+    "ExtraInfo": "error",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Jennyfer Mueller",
+    "FullName": "Gunnar Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldType": "System.String",
+        "FieldLength": 484
       }
     }
   }

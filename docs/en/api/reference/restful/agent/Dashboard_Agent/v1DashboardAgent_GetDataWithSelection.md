@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 232,
-  "SelectionId": 387,
-  "Restrictions": "enim"
+  "DashboardTileId": 774,
+  "SelectionId": 426,
+  "Restrictions": "nesciunt"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "McGlynn-Windler",
-        "DisplayTooltip": "sit",
-        "DisplayType": "quos",
-        "CanOrderBy": false,
-        "Name": "Rolfson Group",
+        "DisplayName": "O'Conner LLC",
+        "DisplayTooltip": "necessitatibus",
+        "DisplayType": "reiciendis",
+        "CanOrderBy": true,
+        "Name": "Spinka Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "hic",
-        "RestrictionListName": "Abernathy-D'Amore",
+        "RestrictionType": "mollitia",
+        "RestrictionListName": "Schmitt, Mann and Emmerich",
         "IsVisible": true,
-        "ExtraInfo": "dignissimos",
-        "Width": "voluptatem",
-        "IconHint": "ducimus",
-        "HeadingIconHint": "est"
+        "ExtraInfo": "blanditiis",
+        "Width": "deleniti",
+        "IconHint": "quisquam",
+        "HeadingIconHint": "eligendi"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "McGlynn-Windler",
-        "DisplayTooltip": "sit",
-        "DisplayType": "quos",
-        "CanOrderBy": false,
-        "Name": "Rolfson Group",
+        "DisplayName": "O'Conner LLC",
+        "DisplayTooltip": "necessitatibus",
+        "DisplayType": "reiciendis",
+        "CanOrderBy": true,
+        "Name": "Spinka Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "hic",
-        "RestrictionListName": "Abernathy-D'Amore",
+        "RestrictionType": "mollitia",
+        "RestrictionListName": "Schmitt, Mann and Emmerich",
         "IsVisible": true,
-        "ExtraInfo": "dignissimos",
-        "Width": "voluptatem",
-        "IconHint": "ducimus",
-        "HeadingIconHint": "est"
+        "ExtraInfo": "blanditiis",
+        "Width": "deleniti",
+        "IconHint": "quisquam",
+        "HeadingIconHint": "eligendi"
       }
     ],
     "Result": null

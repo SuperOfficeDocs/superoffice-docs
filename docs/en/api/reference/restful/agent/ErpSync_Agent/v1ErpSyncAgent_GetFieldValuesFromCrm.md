@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 907,
+  "RecordId": 867,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Cruickshank, Champlin and Sawayn",
-    "CrmFieldKey": "consequatur",
-    "Value": "omnis",
-    "DisplayValue": "doloremque",
+    "DisplayName": "Legros-Hermann",
+    "CrmFieldKey": "suscipit",
+    "Value": "mollitia",
+    "DisplayValue": "vero",
     "SyncToCrm": false,
-    "SyncToErp": false,
+    "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldType": "System.String",
+        "FieldLength": 561
       }
     }
   }

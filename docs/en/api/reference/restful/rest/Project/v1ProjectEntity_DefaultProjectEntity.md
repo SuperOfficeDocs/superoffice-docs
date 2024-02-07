@@ -58,9 +58,9 @@ OK
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy | Associate | The person that created the project |
 | UpdatedBy | Associate | The person that last updated the project |
-| Associate | Associate | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| Associate | Associate | The person that created the project  Use MDO List name "associate" to get list items. |
+| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  Use MDO List name "projectstatus" to get list items. |
+| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  Use MDO List name "projecttype" to get list items. |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -73,7 +73,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ProjectEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -87,7 +87,7 @@ OK
 GET /api/v1/Project/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,130 +95,130 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 20 Apr 2001 23:04:04 G4T
+Last-Modified: Wed, 06 Oct 1999 16:55:29 G10T
 
 {
-  "ProjectId": 282,
-  "Name": "Green, Schowalter and Nolan",
-  "ProjectNumber": "451199",
+  "ProjectId": 219,
+  "Name": "Aufderhar, Yundt and Kuphal",
+  "ProjectNumber": "1428291",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 140,
-      "ContactId": 737,
-      "ProjectId": 372,
-      "ContactName": "Hauck, Durgan and Haag",
+      "ProjectmemberId": 310,
+      "ContactId": 719,
+      "ProjectId": 193,
+      "ContactName": "Satterfield-Dooley",
       "ContactDepartment": "",
-      "ProjectName": "Braun Group",
-      "EmailId": 869,
-      "EmailAddress": "garrick.labadie@rempelprice.com",
-      "CountryId": 991,
-      "Firstname": "Ford",
-      "MiddleName": "Krajcik, Klein and Schiller",
-      "Lastname": "Denesik",
-      "PersonId": 411,
-      "Mrmrs": "eum",
-      "ProjectMemberTypeName": "Nienow Inc and Sons",
-      "Phone": "(150)128-6514",
-      "PhoneId": 32,
-      "ProjectMemberTypeId": 654,
-      "EmailAddressName": "eriberto.langworth@cummeratabergnaum.info",
-      "Comment": "natus",
-      "FullName": "Mrs. Jodie Cassin PhD",
+      "ProjectName": "White Inc and Sons",
+      "EmailId": 177,
+      "EmailAddress": "kellie_windler@haleytorp.biz",
+      "CountryId": 499,
+      "Firstname": "Marisa",
+      "MiddleName": "Spencer-Spinka",
+      "Lastname": "Carter",
+      "PersonId": 454,
+      "Mrmrs": "perferendis",
+      "ProjectMemberTypeName": "Dicki, Fay and Mertz",
+      "Phone": "555.291.0773 x82623",
+      "PhoneId": 601,
+      "ProjectMemberTypeId": 924,
+      "EmailAddressName": "frankie.funk@davishahn.com",
+      "Comment": "iure",
+      "FullName": "Wava Mohr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldType": "System.String",
+          "FieldLength": 680
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ab",
-      "StrippedValue": "accusamus",
-      "Description": "Open-source scalable migration",
+      "Value": "aut",
+      "StrippedValue": "praesentium",
+      "Description": "Universal leading edge migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 950
         }
       }
     },
     {
-      "Value": "ab",
-      "StrippedValue": "accusamus",
-      "Description": "Open-source scalable migration",
+      "Value": "aut",
+      "StrippedValue": "praesentium",
+      "Description": "Universal leading edge migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 950
         }
       }
     }
   ],
-  "CreatedDate": "1998-07-13T23:04:04.3955158+02:00",
-  "UpdatedDate": "2001-04-20T23:04:04.3955158+02:00",
-  "Description": "Streamlined explicit portal",
-  "Postit": "sint",
+  "CreatedDate": "2003-11-15T16:55:29.9236289+01:00",
+  "UpdatedDate": "1999-10-06T16:55:29.9236289+02:00",
+  "Description": "Pre-emptive multi-tasking Graphic Interface",
+  "Postit": "eligendi",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": true,
-  "ImageDescription": "Cross-platform dedicated strategy",
-  "ActiveStatusMonitorId": 506,
+  "ImageDescription": "Open-source zero tolerance data-warehouse",
+  "ActiveStatusMonitorId": 488,
   "Links": [
     {
-      "EntityName": "Larkin-O'Reilly",
-      "Id": 534,
-      "Description": "Proactive maximized challenge",
-      "ExtraInfo": "rerum",
-      "LinkId": 259,
+      "EntityName": "Treutel Inc and Sons",
+      "Id": 605,
+      "Description": "Reactive discrete model",
+      "ExtraInfo": "accusantium",
+      "LinkId": 843,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldLength": 823
         }
       }
     }
   ],
-  "ActiveLinks": 773,
-  "Completed": false,
-  "NextMilestoneDate": "2020-09-19T23:04:04.3970211+02:00",
-  "NmdAppointmentId": 582,
-  "EndDate": "2001-06-22T23:04:04.3970211+02:00",
-  "ActiveErpLinks": 211,
+  "ActiveLinks": 257,
+  "Completed": true,
+  "NextMilestoneDate": "2014-08-06T16:55:29.9245185+02:00",
+  "NmdAppointmentId": 207,
+  "EndDate": "2021-11-16T16:55:29.9245185+01:00",
+  "ActiveErpLinks": 707,
   "UserDefinedFields": {
-    "SuperOffice:1": "52608679",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Courtney Nitzsche"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "culpa"
+    "CustomFields1": "dolor",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2004-01-05T23:04:04.3970211+01:00",
-  "PublishTo": "2002-07-04T23:04:04.3970211+02:00",
-  "PublishFrom": "2001-11-04T23:04:04.3970211+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-02-02T16:55:29.9245185+01:00",
+  "PublishTo": "2015-02-09T16:55:29.9245185+01:00",
+  "PublishFrom": "2007-10-30T16:55:29.9245185+01:00",
+  "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldType": "System.String",
+      "FieldLength": 419
     }
   }
 }

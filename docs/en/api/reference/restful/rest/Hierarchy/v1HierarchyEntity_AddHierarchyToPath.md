@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 466,
+  "HierarchyId": 922,
   "Domain": "Dashboards",
-  "Name": "Mosciski-McLaughlin",
-  "Fullname": "quia",
-  "ParentId": 794,
+  "Name": "Gorczany, Ernser and Hackett",
+  "Fullname": "et",
+  "ParentId": 463,
   "Children": [
     {
-      "HierarchyId": 840,
+      "HierarchyId": 16,
       "Domain": "Dashboards",
-      "Name": "Kreiger, Barton and Conn",
-      "Fullname": "amet",
-      "ParentId": 466,
+      "Name": "Sporer-Sawayn",
+      "Fullname": "qui",
+      "ParentId": 934,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-02-29T23:04:04.2400162+01:00",
-      "RegisteredAssociateId": 377,
-      "Updated": "2000-06-23T23:04:04.2400162+02:00",
-      "UpdatedAssociateId": 714,
+      "Registered": "1999-07-25T16:55:29.6654609+02:00",
+      "RegisteredAssociateId": 772,
+      "Updated": "2004-02-27T16:55:29.6654609+01:00",
+      "UpdatedAssociateId": 458,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 602
         }
       }
     }
   ],
-  "Registered": "2014-02-05T23:04:04.2400162+01:00",
-  "RegisteredAssociateId": 884,
-  "Updated": "2005-04-11T23:04:04.2400162+02:00",
-  "UpdatedAssociateId": 627,
+  "Registered": "2009-05-13T16:55:29.6654609+02:00",
+  "RegisteredAssociateId": 369,
+  "Updated": "1998-03-12T16:55:29.6654609+01:00",
+  "UpdatedAssociateId": 62,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 665
     }
   }
 }

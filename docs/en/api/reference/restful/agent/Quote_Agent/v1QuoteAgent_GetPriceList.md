@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=5
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=56
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 985,
-  "ERPPriceListKey": "deserunt",
-  "QuoteConnectionId": 941,
-  "Name": "Hagenes-Mueller",
-  "Description": "Switchable foreground protocol",
-  "Currency": "maiores",
-  "CurrencyName": "Graham-Sipes",
-  "ValidFrom": "2003-02-19T23:03:56.7456183+01:00",
-  "ValidTo": "2019-07-11T23:03:56.7456183+02:00",
-  "IsActive": true,
+  "PriceListId": 540,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 423,
+  "Name": "Kris, Schneider and Pollich",
+  "Description": "Multi-layered non-volatile superstructure",
+  "Currency": "quia",
+  "CurrencyName": "Durgan-Frami",
+  "ValidFrom": "2020-01-10T16:54:56.1191632+01:00",
+  "ValidTo": "2023-11-24T16:54:56.1191632+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldType": "System.String",
+      "FieldLength": 984
     }
   }
 }

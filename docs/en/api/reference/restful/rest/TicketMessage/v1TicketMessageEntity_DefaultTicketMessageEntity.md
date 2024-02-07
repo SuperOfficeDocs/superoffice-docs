@@ -62,7 +62,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -72,7 +72,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 283,
+  "EjMessageId": 556,
   "Ticket": null,
-  "CreatedAt": "2014-10-16T23:04:04.9410136+02:00",
+  "CreatedAt": "2011-01-13T16:55:30.2640669+01:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "aliquid",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 20,
-  "Body": "unde",
-  "HtmlBody": "expedita",
-  "EmailHeader": "marianna_rowe@rath.us",
-  "DebugInfo": "provident",
-  "MailSorter": "animi",
+  "MessageId": "rem",
+  "TimeSpent": 736,
+  "Body": "et",
+  "HtmlBody": "neque",
+  "EmailHeader": "malcolm@jacobson.info",
+  "DebugInfo": "commodi",
+  "MailSorter": "ea",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eum",
+  "SearchTitle": "impedit",
   "MessageHeaders": [
     {
-      "Id": 115,
-      "Name": "Romaguera Inc and Sons",
-      "Value": "nostrum",
+      "Id": 670,
+      "Name": "Howell, Reilly and Glover",
+      "Value": "eos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 443
         }
       }
     }
   ],
   "Important": false,
-  "Language": "fugiat",
-  "Sentiment": 454,
-  "SentimentConfidence": 603,
+  "Language": "eveniet",
+  "Sentiment": 520,
+  "SentimentConfidence": 484,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 444,
-      "Name": "Witting-Heller",
-      "ContentType": "error",
-      "AttSize": 283,
-      "InlineImage": true,
-      "ContentId": "esse",
-      "AuthKey": "ad",
+      "AttachmentId": 892,
+      "Name": "Schuppe LLC",
+      "ContentType": "dolorem",
+      "AttSize": 371,
+      "InlineImage": false,
+      "ContentId": "harum",
+      "AuthKey": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 718
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "beatae"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "sunt"
+    "CustomFields1": "et",
+    "CustomFields2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 468
     }
   }
 }

@@ -25,7 +25,7 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=True
+GET /api/v1/List/Business/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Ondricka, Ledner and Klocko",
-    "Tooltip": "quis",
+    "Id": 97,
+    "Name": "Witting-Hansen",
+    "Tooltip": "voluptate",
     "Deleted": true,
-    "UdListDefinitionId": 450,
-    "Rank": 689,
+    "UdListDefinitionId": 109,
+    "Rank": 581,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 1002
       }
     }
   }

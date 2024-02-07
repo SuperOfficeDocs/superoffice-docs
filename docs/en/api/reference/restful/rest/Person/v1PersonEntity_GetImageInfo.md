@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 01 Mar 2013 23:04:04 G3T
+Last-Modified: Thu, 26 Nov 2009 16:55:29 G11T
 
 {
-  "BlobId": 994,
-  "BlobSize": 8,
-  "Description": "Profit-focused eco-centric conglomeration",
-  "ExtraInfo": "adipisci",
-  "IsEncrypted": true,
+  "BlobId": 224,
+  "BlobSize": 943,
+  "Description": "Versatile hybrid initiative",
+  "ExtraInfo": "dolorem",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "rerum",
-  "OriginalSize": 654,
-  "CreatedDate": "2022-06-25T23:04:04.3850213+02:00",
-  "UpdatedDate": "2013-03-01T23:04:04.3850213+01:00",
+  "MimeType": "quia",
+  "OriginalSize": 400,
+  "CreatedDate": "2001-09-22T16:55:29.9145433+02:00",
+  "UpdatedDate": "2009-11-26T16:55:29.9145433+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "possimus",
+  "ConceptualType": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 498
     }
   }
 }

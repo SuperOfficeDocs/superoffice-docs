@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 450,
-  "Rank": 655,
-  "DefaultTask": 628,
-  "DefaultTaskText": "dolores",
-  "IsVisual": false,
-  "LastGenerated": "2013-11-01T23:03:56.8446147+01:00",
-  "Description": "Assimilated next generation project",
-  "Name": "Little, Beahan and Maggio",
-  "StatusMonitorId": 685,
+  "OwnerTable": 569,
+  "Rank": 112,
+  "DefaultTask": 27,
+  "DefaultTaskText": "et",
+  "IsVisual": true,
+  "LastGenerated": "2011-07-03T16:54:56.1949725+02:00",
+  "Description": "Reactive intermediate data-warehouse",
+  "Name": "Graham, Friesen and Kub",
+  "StatusMonitorId": 740,
   "PictureId": 442,
-  "NeedsUpdate": true,
+  "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 122,
-  "NumNeedUpdate": 594,
-  "GenerationStart": "1997-09-16T23:03:56.8446147+02:00",
+  "NumMatches": 919,
+  "NumNeedUpdate": 609,
+  "GenerationStart": "2012-01-21T16:54:56.1949725+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

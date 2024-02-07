@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Reynolds, Volkman and Rippin"
+  "TaskName": "Mann, Satterfield and Schroeder"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Tremblay, Kuhn and VonRueden",
-    "AssociateId": 419,
-    "DetailsTable": 265,
-    "DetailsRecord": 360,
+    "Id": 392,
+    "Name": "Kreiger-Will",
+    "AssociateId": 597,
+    "DetailsTable": 767,
+    "DetailsRecord": 852,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "veritatis",
-      "ParameterObject2": "sed"
+      "ParameterObject1": "voluptas",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2005-10-15T23:03:55.027148+02:00",
-    "Created": "2009-09-18T23:03:55.027148+02:00",
-    "StartCount": 137,
-    "DatabaseSerialNumber": "1296638",
-    "Context": "et",
-    "Result": "sit",
+    "LastStarted": "2007-12-21T16:54:54.6083022+01:00",
+    "Created": "2013-06-09T16:54:54.6083022+02:00",
+    "StartCount": 613,
+    "DatabaseSerialNumber": "1095371",
+    "Context": "ut",
+    "Result": "sunt",
     "State": "All",
-    "Description": "Universal bandwidth-monitored core",
-    "Response": "eius",
-    "Request": "minima",
-    "ProgressDescription": "Seamless systematic analyzer",
-    "ProgressPercent": 251,
-    "FileName": "Schneider Group",
+    "Description": "Customer-focused transitional parallelism",
+    "Response": "quam",
+    "Request": "magnam",
+    "ProgressDescription": "Extended foreground emulation",
+    "ProgressPercent": 180,
+    "FileName": "Wolff LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldType": "System.Int32",
+        "FieldLength": 239
       }
     }
   }

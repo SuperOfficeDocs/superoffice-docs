@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=aut
-GET /api/v1/User?$top=344
-GET /api/v1/User?$skip=833
+GET /api/v1/User?$entities=et
+GET /api/v1/User?$top=866
+GET /api/v1/User?$skip=941
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=exercitationem
+GET /api/v1/User?$context=maiores
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "omnis",
+  "odata.nextLink": "debitis",
   "value": [
     {
-      "PrimaryKey": 2660,
-      "EntityName": "person",
-      "personId": 2660,
-      "fullName": "Mrs. Alyson Wolf"
+      "PrimaryKey": 1043,
+      "EntityName": "sale",
+      "saleId": 1043,
+      "contactId": 3416,
+      "name": "Lubowitz Group"
     },
     {
-      "PrimaryKey": 6656,
-      "EntityName": "person",
-      "personId": 6656,
-      "fullName": "Magdalen Roberts"
+      "PrimaryKey": 2287,
+      "EntityName": "sale",
+      "saleId": 2287,
+      "contactId": 7290,
+      "name": "Howell, Heaney and Dickens"
     }
   ]
 }

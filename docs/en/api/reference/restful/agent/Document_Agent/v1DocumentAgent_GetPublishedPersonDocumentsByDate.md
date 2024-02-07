@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 453,
+  "PersonId": 317,
   "IncludeProjectDocuments": false,
-  "StartTime": "2019-05-18T23:03:55.6676351+02:00",
-  "EndTime": "1998-01-07T23:03:55.6681328+01:00",
-  "Count": 335
+  "StartTime": "2014-02-04T16:54:55.1373654+01:00",
+  "EndTime": "2021-08-20T16:54:55.1373654+02:00",
+  "Count": 841
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 25,
-    "Attention": "et",
-    "Header": "doloremque",
-    "Name": "Breitenberg, Franecki and Lang",
-    "OurRef": "est",
-    "YourRef": "voluptates",
-    "Description": "Decentralized real-time Graphic Interface",
-    "DocumentTemplate": "sit",
-    "IsPublished": false,
-    "PersonId": 710,
-    "PersonFullName": "Summer Koepp",
-    "AssociateFullName": "Miss Ambrose Schuyler Legros",
-    "ContactId": 919,
-    "ContactName": "Corwin Group",
-    "ProjectId": 842,
-    "ProjectName": "Shields-Kohler",
-    "AssociateId": 657,
-    "Snum": 430,
-    "SaleId": 118,
-    "SaleName": "Weber, Raynor and Bartoletti",
+    "DocumentId": 100,
+    "Attention": "voluptas",
+    "Header": "eos",
+    "Name": "Harber, Dicki and Zulauf",
+    "OurRef": "sint",
+    "YourRef": "rerum",
+    "Description": "Cross-group reciprocal benchmark",
+    "DocumentTemplate": "voluptatem",
+    "IsPublished": true,
+    "PersonId": 151,
+    "PersonFullName": "Walter Calista Murphy DVM",
+    "AssociateFullName": "Erich Sporer",
+    "ContactId": 727,
+    "ContactName": "Olson-Schultz",
+    "ProjectId": 719,
+    "ProjectName": "Corwin-Renner",
+    "AssociateId": 806,
+    "Snum": 784,
+    "SaleId": 275,
+    "SaleName": "Moore Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldType": "System.String",
+        "FieldLength": 871
       }
     }
   }

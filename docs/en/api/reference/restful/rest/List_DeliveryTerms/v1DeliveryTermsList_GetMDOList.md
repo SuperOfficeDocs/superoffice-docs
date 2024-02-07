@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=possimus
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 429,
-    "Name": "Jacobi-Reynolds",
-    "ToolTip": "Molestias beatae consequatur est.",
+    "Id": 572,
+    "Name": "Crist, O'Kon and Brown",
+    "ToolTip": "Consequatur et eaque voluptates officia.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "qui",
+    "Rank": 188,
+    "Type": "adipisci",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Grant-Wolf",
-        "ToolTip": "Ab sint quas.",
+        "Id": 321,
+        "Name": "Schroeder, Auer and Parisian",
+        "ToolTip": "Non numquam dolorem blanditiis rem tempore eos voluptas.",
         "Deleted": false,
-        "Rank": 624,
-        "Type": "voluptatum",
+        "Rank": 919,
+        "Type": "deleniti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 806,
-        "ExtraInfo": "aut",
-        "StyleHint": "similique",
-        "FullName": "Filomena Feil",
+        "IconHint": "eum",
+        "ColorBlock": 484,
+        "ExtraInfo": "beatae",
+        "StyleHint": "deleniti",
+        "FullName": "Marcelina Pfeffer DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 746
+            "FieldType": "System.Int32",
+            "FieldLength": 940
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 971,
-    "ExtraInfo": "optio",
-    "StyleHint": "quidem",
-    "FullName": "Mr. Rosina Rutherford III",
+    "IconHint": "debitis",
+    "ColorBlock": 915,
+    "ExtraInfo": "id",
+    "StyleHint": "id",
+    "FullName": "Benton Wintheiser DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldLength": 55
       }
     }
   }

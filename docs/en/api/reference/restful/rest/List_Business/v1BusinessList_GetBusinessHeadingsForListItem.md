@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Grant, Kreiger and Runte",
-    "ToolTip": "Velit sunt maiores.",
-    "Deleted": false,
-    "Rank": 162,
-    "Type": "facere",
-    "ColorBlock": 714,
-    "IconHint": "adipisci",
+    "Id": 891,
+    "Name": "Ankunding-Schultz",
+    "ToolTip": "Officia odit porro beatae earum modi.",
+    "Deleted": true,
+    "Rank": 700,
+    "Type": "quibusdam",
+    "ColorBlock": 807,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2011-07-19T23:04:05.3005031+02:00",
+    "LastChanged": "2009-02-25T16:55:30.5336976+01:00",
     "ChildItems": [
       {
-        "Id": 47,
-        "Name": "Lang-Fisher",
-        "ToolTip": "Molestiae tempore omnis.",
+        "Id": 867,
+        "Name": "Rosenbaum, Murray and Walsh",
+        "ToolTip": "Ut temporibus.",
         "Deleted": false,
-        "Rank": 365,
-        "Type": "et",
-        "ColorBlock": 289,
-        "IconHint": "corrupti",
+        "Rank": 158,
+        "Type": "qui",
+        "ColorBlock": 114,
+        "IconHint": "perspiciatis",
         "Selected": true,
-        "LastChanged": "2002-11-16T23:04:05.3005031+01:00",
+        "LastChanged": "1996-11-11T16:55:30.5336976+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "atque",
+        "ExtraInfo": "maiores",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Mike Wuckert",
+        "FullName": "Zion Hane PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 444
+            "FieldType": "System.Int32",
+            "FieldLength": 771
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "rerum",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Wyatt Douglas",
+    "FullName": "Nadia Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldType": "System.String",
+        "FieldLength": 792
       }
     }
   }

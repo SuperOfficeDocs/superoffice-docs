@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 510,
+  "DocumentTemplateId": 167,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ut",
-  "PluginId": 87
+  "LanguageCode": "et",
+  "PluginId": 93
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuhn, Dooley and Trantow",
-  "Description": "Object-based dynamic secured line",
-  "ExternalReference": "quae",
-  "MimeType": "et",
-  "PluginId": 781
+  "Name": "Ernser, Collins and Marks",
+  "Description": "Distributed system-worthy frame",
+  "ExternalReference": "eum",
+  "MimeType": "fugiat",
+  "PluginId": 371
 }
 ```

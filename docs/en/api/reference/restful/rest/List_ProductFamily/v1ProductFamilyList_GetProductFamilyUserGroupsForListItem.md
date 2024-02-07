@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Flatley-Gorczany",
-    "ToolTip": "Excepturi et.",
-    "Deleted": false,
-    "Rank": 454,
-    "Type": "est",
-    "ColorBlock": 832,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2002-10-04T23:04:05.6274974+02:00",
+    "Id": 76,
+    "Name": "Willms-Krajcik",
+    "ToolTip": "Rerum hic aut quia rerum expedita sint optio.",
+    "Deleted": true,
+    "Rank": 809,
+    "Type": "sit",
+    "ColorBlock": 438,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "1998-03-20T16:55:30.8117747+01:00",
     "ChildItems": [
       {
-        "Id": 214,
-        "Name": "Ankunding Group",
-        "ToolTip": "Illo ratione doloremque cum ex quasi sapiente.",
-        "Deleted": false,
-        "Rank": 976,
-        "Type": "expedita",
-        "ColorBlock": 800,
-        "IconHint": "perferendis",
+        "Id": 380,
+        "Name": "Legros-Jones",
+        "ToolTip": "Et repellat reprehenderit.",
+        "Deleted": true,
+        "Rank": 411,
+        "Type": "illo",
+        "ColorBlock": 468,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2011-03-11T23:04:05.6274974+01:00",
+        "LastChanged": "2006-11-24T16:55:30.8117747+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "et",
+        "ExtraInfo": "ut",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Devon Prosacco",
+        "FullName": "Ettie Jett Effertz I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 909
+            "FieldType": "System.Int32",
+            "FieldLength": 887
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "aut",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Angus Feil",
+    "FullName": "Griffin Borer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldType": "System.String",
+        "FieldLength": 594
       }
     }
   }

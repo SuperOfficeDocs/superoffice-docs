@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 784,
-  "TopicId": 688,
+  "ChatSessionId": 304,
+  "TopicId": 876,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "ad",
-  "CustomerName": "Grant, Morissette and Smith",
-  "CustomerEmail": "kayden@smitham.ca",
-  "CustomerPhone": "098.926.8027 x2438",
+  "CustomerAlias": "sed",
+  "CustomerHost": "atque",
+  "CustomerName": "Hyatt-Koelpin",
+  "CustomerEmail": "glen@treutel.name",
+  "CustomerPhone": "344.329.6436 x03821",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Konopelski LLC",
+  "CustomerCompanyName": "Willms, Kiehn and Gerlach",
   "Status": "Closed",
-  "FirstMessage": "fugiat",
-  "LastMessage": "placeat",
-  "WhenRequested": "2021-03-06T23:04:03.719031+01:00",
-  "WhenStarted": "2003-04-19T23:04:03.719031+02:00",
-  "WhenEnded": "2000-12-13T23:04:03.719031+01:00",
-  "WhenIdle": "2018-01-18T23:04:03.719031+01:00",
-  "WhenFetched": "2004-08-26T23:04:03.719031+02:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 874,
-  "AlertLevel": 924,
-  "Rank": 932,
+  "FirstMessage": "dolorum",
+  "LastMessage": "tenetur",
+  "WhenRequested": "2005-12-05T16:55:29.2396616+01:00",
+  "WhenStarted": "2010-05-03T16:55:29.2396616+02:00",
+  "WhenEnded": "2010-06-02T16:55:29.2396616+02:00",
+  "WhenIdle": "2022-03-20T16:55:29.2396616+01:00",
+  "WhenFetched": "2022-03-30T16:55:29.2396616+02:00",
+  "SessionKey": "sit",
+  "InitialQueuePos": 248,
+  "AlertLevel": 91,
+  "Rank": 221,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,18 +143,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 400,
+  "Rating": 990,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 870
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

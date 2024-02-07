@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kunde LLC",
-  "GroupId": 485
+  "UdListDefinitionName": "Schulist LLC",
+  "GroupId": 514
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Zemlak, Ferry and Lang",
-    "ToolTip": "Non omnis nihil voluptatem corrupti voluptas culpa et.",
+    "Id": 338,
+    "Name": "Ferry LLC",
+    "ToolTip": "Veniam ipsam et dolor temporibus reiciendis quasi.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "debitis",
-    "ColorBlock": 556,
-    "IconHint": "officiis",
-    "Selected": false,
-    "LastChanged": "2003-12-30T23:03:56.2166258+01:00",
+    "Rank": 953,
+    "Type": "accusantium",
+    "ColorBlock": 561,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2014-02-04T16:54:55.563984+01:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Hand Group",
-        "ToolTip": "Sit mollitia quia repellendus.",
-        "Deleted": true,
-        "Rank": 925,
-        "Type": "soluta",
-        "ColorBlock": 190,
-        "IconHint": "cum",
+        "Id": 442,
+        "Name": "Lakin Inc and Sons",
+        "ToolTip": "Perferendis tempora explicabo porro.",
+        "Deleted": false,
+        "Rank": 263,
+        "Type": "totam",
+        "ColorBlock": 172,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2015-10-31T23:03:56.2166258+01:00",
+        "LastChanged": "2016-02-13T16:54:55.5649841+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Marcelle Collins",
+        "ExtraInfo": "quia",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Kaleigh Kuhn III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 659
+            "FieldType": "System.Int32",
+            "FieldLength": 553
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Emmet Orn",
+    "FullName": "Vesta Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 513
       }
     }
   }

@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 356,
-  "Name": "Becker-Hermann",
-  "CreatedDate": "2015-05-22T23:03:56.0986272+02:00",
-  "UpdatedDate": "2005-12-07T23:03:56.0986272+01:00",
+  "ForeignAppId": 48,
+  "Name": "Frami Inc and Sons",
+  "CreatedDate": "2022-03-02T16:54:55.4714693+01:00",
+  "UpdatedDate": "2019-02-03T16:54:55.4714693+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 921,
-      "Name": "Doyle, Kling and Quitzon",
-      "CreatedDate": "2018-01-28T23:03:56.0996296+01:00",
-      "UpdatedDate": "2005-11-05T23:03:56.0996296+01:00",
-      "AssociateFullName": "Ms. Angelita Nickolas Glover Sr.",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "eaque",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 267
+      "ForeignDeviceId": 420,
+      "Name": "Bode Group",
+      "CreatedDate": "2006-07-10T16:54:55.472469+02:00",
+      "UpdatedDate": "2022-12-22T16:54:55.472469+01:00",
+      "AssociateFullName": "Savanna Keebler",
+      "CreatedBy": "eos",
+      "UpdatedBy": "rerum",
+      "DeviceIdentifier": "dolore",
+      "ForeignAppId": 442
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 958,
-  "Name": "Bogisich, Lesch and Cronin",
-  "CreatedDate": "2000-05-23T23:03:56.1021275+02:00",
-  "UpdatedDate": "2003-05-05T23:03:56.1021275+02:00",
+  "ForeignAppId": 662,
+  "Name": "Weber Group",
+  "CreatedDate": "2005-01-13T16:54:55.4744685+01:00",
+  "UpdatedDate": "2020-02-07T16:54:55.4744685+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 350,
-      "Name": "Nikolaus, DuBuque and Lebsack",
-      "CreatedDate": "2021-08-18T23:03:56.1026273+02:00",
-      "UpdatedDate": "1997-08-22T23:03:56.1026273+02:00",
-      "AssociateFullName": "Dr. Lyric Haley Sr.",
-      "CreatedBy": "nulla",
-      "UpdatedBy": "consectetur",
-      "DeviceIdentifier": "quaerat",
-      "ForeignAppId": 583,
+      "ForeignDeviceId": 588,
+      "Name": "Schneider Inc and Sons",
+      "CreatedDate": "1999-06-03T16:54:55.4754677+02:00",
+      "UpdatedDate": "2021-09-26T16:54:55.4754677+02:00",
+      "AssociateFullName": "Delilah Terry",
+      "CreatedBy": "aut",
+      "UpdatedBy": "dolorem",
+      "DeviceIdentifier": "quis",
+      "ForeignAppId": 965,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldLength": 647
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 414
     }
   }
 }

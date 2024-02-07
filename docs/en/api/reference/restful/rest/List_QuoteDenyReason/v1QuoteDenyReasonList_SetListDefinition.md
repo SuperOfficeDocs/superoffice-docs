@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 187,
-  "Name": "Swift Group",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "Rank": 393,
+  "Id": 715,
+  "Name": "Beer-Hahn",
+  "Tooltip": "deleniti",
+  "Deleted": false,
+  "Rank": 267,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 551,
-  "Name": "Lind-Murazik",
-  "Tooltip": "rem",
-  "Deleted": true,
-  "Rank": 315,
+  "Id": 246,
+  "Name": "Heidenreich, Pfeffer and Abshire",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "Rank": 442,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": false,
+  "ListType": "occaecati",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldLength": 304
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 | TargetAssociate | Associate | The associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetContact | Contact | The contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
 | TargetUserGroup | UserGroup | The usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. |
-| Currency | Currency | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
+| Currency | Currency | The currency of the target.  Use MDO List name "currency" to get list items. |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
 | DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
 | TableRight | TableRight | The carrier's table right |
@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 817,
+  "TargetYear": 481,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 916
+  "Id": 797
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 567,
+  "TargetAssignmentInfoId": 748,
   "Values": [
-    57,
-    629
+    23,
+    29
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 876,
-  "DimensionListItemDisplayName": "Schneider, Bechtelar and Eichmann",
+  "DimensionListItem": 213,
+  "DimensionListItemDisplayName": "Lebsack-Lehner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldLength": 799
     }
   }
 }

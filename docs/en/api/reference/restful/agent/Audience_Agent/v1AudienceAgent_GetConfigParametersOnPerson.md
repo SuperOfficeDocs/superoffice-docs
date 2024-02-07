@@ -83,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 706
+  "PersonId": 686
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 306,
-    "Name": "Eichmann Inc and Sons",
-    "Value": "culpa",
-    "CreatedDate": "2002-08-06T23:03:55.0076418+02:00",
-    "UpdatedDate": "1999-05-31T23:03:55.0076418+02:00",
-    "CreatedBy": "provident",
-    "UpdatedBy": "sequi",
+    "AudienceLayoutId": 162,
+    "Name": "Miller-Ratke",
+    "Value": "nostrum",
+    "CreatedDate": "2009-09-15T16:54:54.5923277+02:00",
+    "UpdatedDate": "2018-01-11T16:54:54.5923277+01:00",
+    "CreatedBy": "qui",
+    "UpdatedBy": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 332
       }
     }
   }

@@ -69,14 +69,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Oberbrunner Group",
+  "TableName": "Boyle Inc and Sons",
   "Values": {
-    "Values1": "dolor",
-    "Values2": "consequatur"
+    "Values1": "sed",
+    "Values2": "ut"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-97
+984
 ```

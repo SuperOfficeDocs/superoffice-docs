@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 638,
-    "Name": "Parker, Baumbach and Becker",
-    "Description": "Distributed assymetric paradigm",
+    "ProjectId": 755,
+    "Name": "Considine Group",
+    "Description": "Front-line zero administration moderator",
     "URL": "http://www.example.com/",
-    "Type": "quo",
-    "AssociateId": 224,
-    "AssociateFullName": "Eliza Beier",
-    "TypeId": 234,
-    "Updated": "2009-03-11T23:03:56.6891194+01:00",
-    "StatusId": 490,
+    "Type": "eum",
+    "AssociateId": 852,
+    "AssociateFullName": "Mr. Torrey Claudia Zieme DVM",
+    "TypeId": 820,
+    "Updated": "2008-11-10T16:54:56.0721409+01:00",
+    "StatusId": 750,
     "Status": "est",
-    "TextId": 564,
-    "PublishTo": "2015-06-01T23:03:56.6891194+02:00",
-    "PublishFrom": "2002-06-04T23:03:56.6891194+02:00",
+    "TextId": 560,
+    "PublishTo": "2019-04-15T16:54:56.0721409+02:00",
+    "PublishFrom": "2008-07-27T16:54:56.0721409+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1521847",
-    "ActiveErpLinks": 752,
+    "ProjectNumber": "822366",
+    "ActiveErpLinks": 259,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldLength": 274
       }
     }
   }

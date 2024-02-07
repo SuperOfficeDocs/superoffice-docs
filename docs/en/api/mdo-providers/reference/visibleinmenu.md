@@ -2,7 +2,7 @@
 uid: visibleinmenu
 title: visibleinmenu
 keywords: mdoprovider mdo provider visibleinmenu
-description: Visible in menu list: Toolbox menu, View menu
+description: Visible in menu list - Toolbox menu, View menu
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 807,
-  "Name": "Homenick Inc and Sons",
-  "Description": "Exclusive contextually-based alliance"
+  "SourceId": 996,
+  "Name": "Orn Inc and Sons",
+  "Description": "Optional scalable encoding"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 466,
+  "ReportId": 865,
   "ReportCategory": "All",
-  "Description": "Persistent empowering framework",
+  "Description": "Function-based hybrid installation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Schmitt, Lang and Kreiger",
-  "AssociateId": 596,
-  "TemplateId": 835,
+  "Name": "Kessler-Emard",
+  "AssociateId": 311,
+  "TemplateId": 262,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldLength": 864
     }
   }
 }

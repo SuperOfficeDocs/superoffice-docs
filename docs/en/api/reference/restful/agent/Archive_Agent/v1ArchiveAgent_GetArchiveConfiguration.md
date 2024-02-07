@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Pfannerstill-Boyer",
-  "ProviderName": "Kohler Group"
+  "GuiName": "Johnston-Altenwerth",
+  "ProviderName": "Rogahn-Wyman"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Nitzsche, Gusikowski and Marks",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "ipsam",
-      "CanOrderBy": false,
-      "Name": "Bosco, Homenick and Dicki",
+      "DisplayName": "Runolfsdottir-Beier",
+      "DisplayTooltip": "dolorem",
+      "DisplayType": "ut",
+      "CanOrderBy": true,
+      "Name": "Koch, Block and Graham",
       "CanRestrictBy": false,
-      "RestrictionType": "assumenda",
-      "RestrictionListName": "Nicolas-Cremin",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "sit",
-      "IconHint": "quis",
-      "HeadingIconHint": "dolor"
+      "RestrictionType": "sit",
+      "RestrictionListName": "Kilback, White and Aufderhar",
+      "IsVisible": false,
+      "ExtraInfo": "nesciunt",
+      "Width": "soluta",
+      "IconHint": "ex",
+      "HeadingIconHint": "eveniet"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 834,
-      "Name": "Bosco, Crona and Roob",
-      "ToolTip": "Qui aspernatur id ipsum.",
+      "Id": 288,
+      "Name": "Roberts Group",
+      "ToolTip": "Quia sunt sapiente illum ut repellendus eaque corrupti.",
       "Deleted": false,
-      "Rank": 40,
-      "Type": "corporis",
-      "ColorBlock": 546,
-      "IconHint": "beatae",
+      "Rank": 875,
+      "Type": "occaecati",
+      "ColorBlock": 796,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2014-05-07T23:03:54.9611427+02:00",
+      "LastChanged": "2014-03-30T16:54:54.5573047+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "ut",
-      "Hidden": true,
-      "FullName": "Miss Hayley Libby Schaefer Jr.",
+      "ExtraInfo": "similique",
+      "StyleHint": "sint",
+      "Hidden": false,
+      "FullName": "Dr. Sydnie Louvenia Gorczany IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldType": "System.String",
+          "FieldLength": 965
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Reilly Inc and Sons",
+      "Name": "Kling, Hauck and Bashirian",
       "Direction": "ASC"
     },
     {
-      "Name": "Reilly Inc and Sons",
+      "Name": "Kling, Hauck and Bashirian",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "commodi",
+  "OwnerKeys": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 215
     }
   }
 }

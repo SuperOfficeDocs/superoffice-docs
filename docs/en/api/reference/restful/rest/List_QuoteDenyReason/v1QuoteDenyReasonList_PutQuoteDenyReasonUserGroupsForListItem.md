@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "O'Conner, Stokes and Rice",
-    "ToolTip": "Voluptatum ratione eum nulla.",
-    "Deleted": false,
-    "Rank": 268,
-    "Type": "nemo",
-    "ColorBlock": 293,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "1997-04-01T23:04:05.7134989+02:00",
+    "Id": 155,
+    "Name": "Mertz Group",
+    "ToolTip": "Nesciunt ut.",
+    "Deleted": true,
+    "Rank": 594,
+    "Type": "esse",
+    "ColorBlock": 255,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2007-04-09T16:55:30.9911872+02:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Littel Inc and Sons",
-        "ToolTip": "Id qui commodi odit consectetur consequatur recusandae.",
+        "Id": 142,
+        "Name": "Heller, Nader and Goyette",
+        "ToolTip": "Atque mollitia quae eligendi ut velit ad.",
         "Deleted": false,
-        "Rank": 503,
-        "Type": "porro",
-        "ColorBlock": 413,
-        "IconHint": "nesciunt",
+        "Rank": 455,
+        "Type": "non",
+        "ColorBlock": 493,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2019-09-14T23:04:05.7134989+02:00",
+        "LastChanged": "2008-03-26T16:55:30.9911872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "odit",
-        "Hidden": true,
-        "FullName": "Prof. Haskell Toni Keeling I"
+        "ExtraInfo": "sint",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Claudine Hyatt"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "id",
+    "ExtraInfo": "officia",
+    "StyleHint": "totam",
     "Hidden": true,
-    "FullName": "Jarvis Hammes"
+    "FullName": "Prof. Lillian Bernier III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Tremblay, Crist and Bernier",
-    "ToolTip": "Quam cum qui officiis.",
-    "Deleted": false,
-    "Rank": 932,
-    "Type": "sed",
-    "ColorBlock": 197,
-    "IconHint": "repudiandae",
+    "Id": 529,
+    "Name": "Keebler-Flatley",
+    "ToolTip": "Nobis id corporis ea accusamus itaque.",
+    "Deleted": true,
+    "Rank": 628,
+    "Type": "eos",
+    "ColorBlock": 354,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2002-09-11T23:04:05.7149977+02:00",
+    "LastChanged": "2014-12-16T16:55:30.9931914+01:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Kiehn, Ledner and Goldner",
-        "ToolTip": "Ut sed magni in officia consequatur voluptatem.",
-        "Deleted": true,
-        "Rank": 773,
-        "Type": "sunt",
-        "ColorBlock": 257,
-        "IconHint": "sunt",
+        "Id": 968,
+        "Name": "Gusikowski Inc and Sons",
+        "ToolTip": "Omnis ut magnam qui eum a culpa culpa.",
+        "Deleted": false,
+        "Rank": 880,
+        "Type": "quisquam",
+        "ColorBlock": 822,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2021-07-16T23:04:05.7149977+02:00",
+        "LastChanged": "2006-01-13T16:55:30.9931914+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "iusto",
+        "ExtraInfo": "illum",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Serena Wolf",
+        "FullName": "Mrs. Katelin Cletus Jacobi IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 18
+            "FieldType": "System.String",
+            "FieldLength": 87
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "voluptates",
-    "Hidden": true,
-    "FullName": "Dr. Lenna Isabella Gerhold",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Eve Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldType": "System.String",
+        "FieldLength": 865
       }
     }
   }

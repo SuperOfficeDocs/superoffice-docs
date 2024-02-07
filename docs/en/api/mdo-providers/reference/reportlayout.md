@@ -2,8 +2,7 @@
 uid: reportlayout
 title: reportlayout
 keywords: mdoprovider mdo provider reportlayout
-description: ReportCategoryProvider creates an MDO list that consists of the values in <see cref="T:SuperOffice.Data.ReportCategory" />.
-In the MDO list the following enumeration values are omitted: All, Person and Diary.
+description: ReportCategoryProvider creates an MDO list that consists of the values in <see cref="T:SuperOffice.Data.ReportCategory" />. In the MDO list the following enumeration values are omitted - All, Person and Diary.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

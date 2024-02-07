@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 189,
-  "Name": "Hilll, Cummings and Hilpert",
-  "Tooltip": "voluptas",
-  "Rank": 772,
+  "SuggestedAppointmentId": 47,
+  "Name": "Koelpin Inc and Sons",
+  "Tooltip": "nostrum",
+  "Rank": 449,
   "Deleted": false,
-  "DaysFuture": 4,
-  "Duration": "et",
-  "AutoSuggest": false,
-  "IsMilestone": true,
-  "AssignToMember": false,
-  "Text": "possimus",
+  "DaysFuture": 23,
+  "Duration": "quo",
+  "AutoSuggest": true,
+  "IsMilestone": false,
+  "AssignToMember": true,
+  "Text": "sapiente",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 347
     }
   }
 }

@@ -77,14 +77,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 714,
-  "Name": "Kozey-Sauer",
-  "Tooltip": "hic",
-  "Rank": 423,
-  "DoctmplId": 799,
-  "Header": "ea",
-  "OurRef": "autem",
-  "Deleted": false,
+  "SuggestedDocumentId": 340,
+  "Name": "Wintheiser LLC",
+  "Tooltip": "eligendi",
+  "Rank": 14,
+  "DoctmplId": 804,
+  "Header": "facilis",
+  "OurRef": "corporis",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldType": "System.Int32",
+      "FieldLength": 610
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Fisher, King and Barrows",
-    "DisplayName": "Bernhard-Schroeder",
-    "Description": "Cross-group assymetric success",
-    "ShortLabel": "aut",
+    "FieldName": "Emard Inc and Sons",
+    "DisplayName": "Bahringer, Kreiger and Schulist",
+    "Description": "Business-focused neutral database",
+    "ShortLabel": "explicabo",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 111,
-    "TemplateVariableName": "Schuppe LLC"
+    "IsExternal": true,
+    "Rank": 529,
+    "TemplateVariableName": "Bode Group"
   }
 ]
 ```

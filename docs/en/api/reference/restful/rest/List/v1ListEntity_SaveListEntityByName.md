@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 251,
-  "Name": "Thompson, Runolfsdottir and Sanford",
-  "Tooltip": "perspiciatis",
-  "Deleted": true,
-  "Rank": 700,
+  "Id": 955,
+  "Name": "Friesen Inc and Sons",
+  "Tooltip": "eaque",
+  "Deleted": false,
+  "Rank": 555,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "animi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 949,
-  "Name": "Ullrich, Stamm and Cartwright",
-  "Tooltip": "quas",
+  "Id": 486,
+  "Name": "Kuvalis, Kemmer and Ratke",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "Rank": 882,
+  "Rank": 46,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 368
     }
   }
 }

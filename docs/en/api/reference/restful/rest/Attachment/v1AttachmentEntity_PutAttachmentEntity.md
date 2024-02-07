@@ -95,13 +95,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 847,
-  "Name": "Kuhlman LLC",
-  "ContentType": "occaecati",
-  "AttSize": 252,
+  "AttachmentId": 117,
+  "Name": "Greenholt, Ullrich and Kling",
+  "ContentType": "repellat",
+  "AttSize": 244,
   "InlineImage": false,
-  "ContentId": "quaerat",
-  "AuthKey": "iusto"
+  "ContentId": "ut",
+  "AuthKey": "totam"
 }
 ```
 
@@ -112,19 +112,19 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 422,
-  "Name": "Jerde LLC",
-  "ContentType": "minus",
-  "AttSize": 664,
-  "InlineImage": false,
-  "ContentId": "fuga",
-  "AuthKey": "rerum",
+  "AttachmentId": 493,
+  "Name": "Boyer LLC",
+  "ContentType": "temporibus",
+  "AttSize": 426,
+  "InlineImage": true,
+  "ContentId": "magni",
+  "AuthKey": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   },
   "_Links": {

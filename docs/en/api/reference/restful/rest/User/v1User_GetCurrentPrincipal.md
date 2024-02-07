@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "voluptas",
-  "AssociateId": 589,
-  "IsPerson": false,
-  "PersonId": 375,
-  "CountryId": 913,
-  "HomeCountryId": 894,
-  "ContactId": 814,
-  "GroupId": 1002,
-  "BusinessId": 220,
-  "CategoryId": 843,
-  "ContactOwner": 987,
-  "RoleId": 686,
-  "RoleName": "Waters-Anderson",
-  "RoleDescription": "Exclusive contextually-based service-desk",
+  "Associate": "omnis",
+  "AssociateId": 691,
+  "IsPerson": true,
+  "PersonId": 920,
+  "CountryId": 836,
+  "HomeCountryId": 4,
+  "ContactId": 784,
+  "GroupId": 673,
+  "BusinessId": 115,
+  "CategoryId": 443,
+  "ContactOwner": 213,
+  "RoleId": 913,
+  "RoleName": "Luettgen, Pfeffer and Haag",
+  "RoleDescription": "Polarised web-enabled model",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 789,
-      "OwnerName": "Kreiger, Brekke and Stroman",
-      "OwnerDescription": "Versatile system-worthy throughput",
-      "ModuleId": 834,
-      "Name": "Connelly, Glover and Klocko",
-      "Description": "Vision-oriented optimizing concept",
-      "Version": "et",
+      "OwnerId": 135,
+      "OwnerName": "Nitzsche-Roob",
+      "OwnerDescription": "Grass-roots mobile software",
+      "ModuleId": 87,
+      "Name": "Kunze-Kerluke",
+      "Description": "Integrated value-added encryption",
+      "Version": "est",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 546,
-      "ExtraInfo": "nobis",
-      "SortOrder": 935,
-      "LicenseNumber": 10,
-      "IsHidden": true,
-      "IsUnrestricted": false,
-      "ExpiryDate": "2017-03-01T23:04:05.2245071+01:00",
+      "ExtraFlags": 163,
+      "ExtraInfo": "voluptatem",
+      "SortOrder": 329,
+      "LicenseNumber": 291,
+      "IsHidden": false,
+      "IsUnrestricted": true,
+      "ExpiryDate": "2012-12-18T16:55:30.4771407+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 299
         }
       }
     }
   ],
-  "FullName": "Roberto Kuhn Sr.",
-  "EMailAddress": "omnis",
+  "FullName": "Shayne Hand",
+  "EMailAddress": "nihil",
   "FunctionRights": [
-    "vero",
-    "soluta"
+    "nihil",
+    "sint"
   ],
-  "EjUserId": 396,
-  "EjAccessLevel": 483,
+  "EjUserId": 39,
+  "EjAccessLevel": 935,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "quo",
-      "SearchName": "Parisian LLC",
-      "DisplayName": "Kautzer-Fritsch",
-      "CredentialId": 155
+      "Type": "quisquam",
+      "SearchName": "Jones-Labadie",
+      "DisplayName": "McGlynn-Larson",
+      "CredentialId": 414
     },
     {
-      "Type": "quo",
-      "SearchName": "Parisian LLC",
-      "DisplayName": "Kautzer-Fritsch",
-      "CredentialId": 155
+      "Type": "quisquam",
+      "SearchName": "Jones-Labadie",
+      "DisplayName": "McGlynn-Larson",
+      "CredentialId": 414
     }
   ],
   "SecondaryGroups": [
-    231,
-    226
+    110,
+    334
   ],
-  "DatabaseContextIdentifier": "sunt",
-  "UserName": "Crist, Kreiger and Considine"
+  "DatabaseContextIdentifier": "sit",
+  "UserName": "Altenwerth, Lowe and Harris"
 }
 ```

@@ -106,9 +106,9 @@ OK
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy | Associate | The person that created the project |
 | UpdatedBy | Associate | The person that last updated the project |
-| Associate | Associate | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
-| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
-| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
+| Associate | Associate | The person that created the project  Use MDO List name "associate" to get list items. |
+| ProjectStatus | ProjectStatus | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  Use MDO List name "projectstatus" to get list items. |
+| ProjectType | ProjectType | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  Use MDO List name "projecttype" to get list items. |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -121,7 +121,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ProjectEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -136,100 +136,100 @@ OK
 POST /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 916,
-  "Name": "Feil Group",
-  "ProjectNumber": "1399737",
+  "ProjectId": 925,
+  "Name": "Cremin Group",
+  "ProjectNumber": "1110461",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 463,
-      "ContactId": 218,
-      "ProjectId": 801,
-      "ContactName": "Becker Inc and Sons",
+      "ProjectmemberId": 66,
+      "ContactId": 629,
+      "ProjectId": 772,
+      "ContactName": "Becker Group",
       "ContactDepartment": "",
-      "ProjectName": "DuBuque-Koepp",
-      "EmailId": 316,
-      "EmailAddress": "willow@lind.us",
-      "CountryId": 794,
-      "Firstname": "Alphonso",
-      "MiddleName": "Lockman-Bogisich",
+      "ProjectName": "Stracke LLC",
+      "EmailId": 124,
+      "EmailAddress": "makenna@beier.info",
+      "CountryId": 584,
+      "Firstname": "Sigurd",
+      "MiddleName": "Gleason, Cruickshank and Mertz",
       "Lastname": "Pagac",
-      "PersonId": 808,
-      "Mrmrs": "sunt",
-      "ProjectMemberTypeName": "Keeling LLC",
-      "Phone": "168.795.2019 x815",
-      "PhoneId": 828,
-      "ProjectMemberTypeId": 607,
-      "EmailAddressName": "erwin@runolfsson.biz",
-      "Comment": "inventore",
-      "FullName": "Pearlie Wintheiser"
+      "PersonId": 196,
+      "Mrmrs": "aspernatur",
+      "ProjectMemberTypeName": "Hackett, Willms and Schmidt",
+      "Phone": "1-398-074-2826 x0580",
+      "PhoneId": 2,
+      "ProjectMemberTypeId": 110,
+      "EmailAddressName": "marcelina_gibson@nolan.us",
+      "Comment": "et",
+      "FullName": "Brody Fay Sr."
     }
   ],
   "Urls": [
     {
-      "Value": "aspernatur",
-      "StrippedValue": "ut",
-      "Description": "Quality-focused didactic productivity"
+      "Value": "sint",
+      "StrippedValue": "qui",
+      "Description": "Function-based zero administration flexibility"
     },
     {
-      "Value": "aspernatur",
-      "StrippedValue": "ut",
-      "Description": "Quality-focused didactic productivity"
+      "Value": "sint",
+      "StrippedValue": "qui",
+      "Description": "Function-based zero administration flexibility"
     }
   ],
-  "CreatedDate": "2006-06-16T23:04:04.4005145+02:00",
-  "UpdatedDate": "2016-03-30T23:04:04.4005145+02:00",
-  "Description": "Vision-oriented multimedia Graphic Interface",
-  "Postit": "molestias",
+  "CreatedDate": "2019-03-05T16:55:29.9266352+01:00",
+  "UpdatedDate": "2014-01-29T16:55:29.9266352+01:00",
+  "Description": "Devolved context-sensitive success",
+  "Postit": "autem",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Switchable bandwidth-monitored leverage",
-  "ActiveStatusMonitorId": 1000,
+  "HasImage": false,
+  "ImageDescription": "De-engineered clear-thinking functionalities",
+  "ActiveStatusMonitorId": 821,
   "Links": [
     {
-      "EntityName": "King, Bergnaum and Haley",
-      "Id": 426,
-      "Description": "Organic static frame",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 228
+      "EntityName": "Mitchell-Bins",
+      "Id": 822,
+      "Description": "Persevering multi-tasking benchmark",
+      "ExtraInfo": "quis",
+      "LinkId": 159
     },
     {
-      "EntityName": "King, Bergnaum and Haley",
-      "Id": 426,
-      "Description": "Organic static frame",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 228
+      "EntityName": "Mitchell-Bins",
+      "Id": 822,
+      "Description": "Persevering multi-tasking benchmark",
+      "ExtraInfo": "quis",
+      "LinkId": 159
     }
   ],
-  "ActiveLinks": 274,
-  "Completed": true,
-  "NextMilestoneDate": "2019-04-26T23:04:04.4025167+02:00",
-  "NmdAppointmentId": 159,
-  "EndDate": "2019-03-05T23:04:04.4025167+01:00",
-  "ActiveErpLinks": 9,
+  "ActiveLinks": 458,
+  "Completed": false,
+  "NextMilestoneDate": "2000-08-12T16:55:29.9286368+02:00",
+  "NmdAppointmentId": 979,
+  "EndDate": "2022-03-05T16:55:29.9286368+01:00",
+  "ActiveErpLinks": 935,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Rae Ernser"
+    "SuperOffice:1": "983924081",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "necessitatibus"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "quae"
+    "CustomFields1": "nulla",
+    "CustomFields2": "facere"
   },
-  "PublishEventDate": "2010-08-31T23:04:04.4030193+02:00",
-  "PublishTo": "2023-03-23T23:04:04.4030193+01:00",
-  "PublishFrom": "2013-06-12T23:04:04.4030193+02:00",
-  "IsPublished": true
+  "PublishEventDate": "2021-10-21T16:55:29.9286368+02:00",
+  "PublishTo": "1996-10-27T16:55:29.9286368+01:00",
+  "PublishFrom": "2019-01-13T16:55:29.9286368+01:00",
+  "IsPublished": false
 }
 ```
 
@@ -240,132 +240,132 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 168,
-  "Name": "Fisher-Hudson",
-  "ProjectNumber": "824726",
+  "ProjectId": 545,
+  "Name": "Robel-Stokes",
+  "ProjectNumber": "754214",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 281,
-      "ContactId": 665,
-      "ProjectId": 955,
-      "ContactName": "Dickinson LLC",
+      "ProjectmemberId": 309,
+      "ContactId": 553,
+      "ProjectId": 457,
+      "ContactName": "Brown Inc and Sons",
       "ContactDepartment": "",
-      "ProjectName": "Tremblay, Welch and Crooks",
-      "EmailId": 769,
-      "EmailAddress": "alexie@oreilly.biz",
-      "CountryId": 12,
-      "Firstname": "Bartholome",
-      "MiddleName": "Lind-Denesik",
-      "Lastname": "Stroman",
-      "PersonId": 972,
-      "Mrmrs": "incidunt",
-      "ProjectMemberTypeName": "Haag, Adams and Padberg",
-      "Phone": "1-357-013-7216 x4862",
-      "PhoneId": 527,
-      "ProjectMemberTypeId": 660,
-      "EmailAddressName": "laurine_abernathy@monahanschuster.com",
-      "Comment": "fuga",
-      "FullName": "Eileen Hamill",
+      "ProjectName": "Auer Group",
+      "EmailId": 159,
+      "EmailAddress": "felipa.mills@dicki.ca",
+      "CountryId": 935,
+      "Firstname": "Raven",
+      "MiddleName": "Nader, Labadie and Robel",
+      "Lastname": "Lindgren",
+      "PersonId": 482,
+      "Mrmrs": "illum",
+      "ProjectMemberTypeName": "Schowalter-Crist",
+      "Phone": "(778)345-0278",
+      "PhoneId": 603,
+      "ProjectMemberTypeId": 939,
+      "EmailAddressName": "ollie.powlowski@wilkinson.us",
+      "Comment": "soluta",
+      "FullName": "Johann Runte PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldType": "System.String",
+          "FieldLength": 438
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "perspiciatis",
-      "StrippedValue": "iste",
-      "Description": "Fundamental dedicated support",
+      "Value": "quo",
+      "StrippedValue": "enim",
+      "Description": "Proactive zero defect architecture",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     },
     {
-      "Value": "perspiciatis",
-      "StrippedValue": "iste",
-      "Description": "Fundamental dedicated support",
+      "Value": "quo",
+      "StrippedValue": "enim",
+      "Description": "Proactive zero defect architecture",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldType": "System.Int32",
+          "FieldLength": 469
         }
       }
     }
   ],
-  "CreatedDate": "2019-02-15T23:04:04.407515+01:00",
-  "UpdatedDate": "1999-07-28T23:04:04.407515+02:00",
-  "Description": "Focused client-driven workforce",
-  "Postit": "quis",
+  "CreatedDate": "2011-01-18T16:55:29.9315243+01:00",
+  "UpdatedDate": "2019-03-06T16:55:29.9315243+01:00",
+  "Description": "Fundamental global firmware",
+  "Postit": "quia",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Re-engineered uniform paradigm",
-  "ActiveStatusMonitorId": 858,
+  "ImageDescription": "De-engineered reciprocal software",
+  "ActiveStatusMonitorId": 631,
   "Links": [
     {
-      "EntityName": "Gleason-Kuvalis",
-      "Id": 417,
-      "Description": "User-centric exuding alliance",
-      "ExtraInfo": "tempora",
-      "LinkId": 943,
+      "EntityName": "Gerhold-Balistreri",
+      "Id": 418,
+      "Description": "Implemented encompassing process improvement",
+      "ExtraInfo": "et",
+      "LinkId": 744,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldType": "System.Int32",
+          "FieldLength": 115
         }
       }
     }
   ],
-  "ActiveLinks": 595,
+  "ActiveLinks": 654,
   "Completed": false,
-  "NextMilestoneDate": "2018-06-14T23:04:04.4085141+02:00",
-  "NmdAppointmentId": 418,
-  "EndDate": "2013-01-16T23:04:04.4085141+01:00",
-  "ActiveErpLinks": 647,
+  "NextMilestoneDate": "2019-06-22T16:55:29.9326149+02:00",
+  "NmdAppointmentId": 914,
+  "EndDate": "1998-12-17T16:55:29.9326149+01:00",
+  "ActiveErpLinks": 655,
   "UserDefinedFields": {
-    "SuperOffice:1": "1037625976",
-    "SuperOffice:2": "Janie Bergstrom"
+    "SuperOffice:1": "1861027140",
+    "SuperOffice:2": "Helga Predovic"
   },
   "ExtraFields": {
-    "ExtraFields1": "placeat",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "qui"
+    "CustomFields1": "aut",
+    "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2003-04-08T23:04:04.4090145+02:00",
-  "PublishTo": "2019-06-20T23:04:04.4090145+02:00",
-  "PublishFrom": "1998-07-06T23:04:04.4090145+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2006-12-07T16:55:29.9326149+01:00",
+  "PublishTo": "2021-07-13T16:55:29.9326149+02:00",
+  "PublishFrom": "2020-12-14T16:55:29.9326149+01:00",
+  "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 647
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

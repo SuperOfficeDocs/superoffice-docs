@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 349,
-  "Name": "Runolfsdottir LLC",
-  "Tooltip": "earum",
+  "Id": 258,
+  "Name": "Denesik, Grimes and Dickens",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 458,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
+  "Rank": 513,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 382
     }
   },
   "_Links": {

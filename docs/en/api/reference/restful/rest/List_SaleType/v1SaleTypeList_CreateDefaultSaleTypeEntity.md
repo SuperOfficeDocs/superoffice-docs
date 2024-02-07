@@ -66,7 +66,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 557,
-  "Name": "Goodwin-Herzog",
-  "Tooltip": "voluptas",
-  "Rank": 303,
+  "SaleTypeId": 24,
+  "Name": "Dickens, Altenwerth and Nader",
+  "Tooltip": "nostrum",
+  "Rank": 263,
   "DurationUnit": "Century",
-  "SaleDuration": 243,
-  "SaleTypeCatId": 847,
+  "SaleDuration": 997,
+  "SaleTypeCatId": 779,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 236,
-  "QuoteLinesTemplate": 540,
-  "ConfirmationLinesTemplate": 544,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 764,
+  "QuoteLinesTemplate": 941,
+  "ConfirmationLinesTemplate": 751,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 671,
-  "MinEarningPercent": 141,
-  "GroupQuoteLinesBy": 419,
-  "SortGroupLinesBy": 986,
+  "MaxDiscountPercent": 468,
+  "MinEarningPercent": 272,
+  "GroupQuoteLinesBy": 461,
+  "SortGroupLinesBy": 283,
   "Stages": [
     {
-      "Id": 394,
-      "Name": "Stehr-McLaughlin",
-      "ToolTip": "Nisi dignissimos.",
+      "Id": 140,
+      "Name": "Hermann, Jacobi and Ratke",
+      "ToolTip": "Quo incidunt eum nostrum fugit.",
       "Deleted": true,
-      "Rank": 906,
-      "Type": "iusto",
-      "ColorBlock": 55,
-      "IconHint": "hic",
+      "Rank": 561,
+      "Type": "dignissimos",
+      "ColorBlock": 324,
+      "IconHint": "quos",
       "Selected": false,
-      "LastChanged": "2013-08-08T23:04:05.794495+02:00",
+      "LastChanged": "2009-10-04T16:55:31.0611872+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "esse",
+      "ExtraInfo": "soluta",
+      "StyleHint": "quidem",
       "Hidden": true,
-      "FullName": "Prof. Zita Rutherford V",
+      "FullName": "Marley Grimes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 587
+          "FieldType": "System.Int32",
+          "FieldLength": 120
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 377
     }
   }
 }

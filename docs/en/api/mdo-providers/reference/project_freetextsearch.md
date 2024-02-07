@@ -2,9 +2,7 @@
 uid: project_freetextsearch
 title: project_freetextsearch
 keywords: mdoprovider mdo provider project_freetextsearch
-description: Provider for selecting a Project.
-Does keyword matching and scoring across multiple
-string fields. Checks name, description, soundex fields.
+description: Provider for selecting a Project. Does keyword matching and scoring across multiple string fields. Checks name, description, soundex fields.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -17,9 +15,11 @@ string fields. Checks name, description, soundex fields.
 
 User's own projects, recently added + modified projects, projects modified or created by user.
 Matches on word boundaries or at start of field are scored extra highly.
-<para />
+
+
 Returns project items only: Id = project-id, Name = Project name, Type = "Project", IconHint="deleted_item", ExtraInfo= project-id
-<para />
+
+
 Completed/Done projects are marked with stylehint = "deleted_item" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProjectListFreetextSearchProvider">ProjectListFreetextSearchProvider</see> class.

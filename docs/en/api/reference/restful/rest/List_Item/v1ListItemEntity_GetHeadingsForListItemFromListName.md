@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Pacocha-Dach",
-    "ToolTip": "Pariatur facilis veniam quis consequatur.",
+    "Id": 34,
+    "Name": "Krajcik, Veum and Emmerich",
+    "ToolTip": "Enim quibusdam sit voluptatem voluptate recusandae voluptatem et.",
     "Deleted": false,
-    "Rank": 498,
-    "Type": "ratione",
-    "ColorBlock": 457,
-    "IconHint": "vel",
+    "Rank": 452,
+    "Type": "optio",
+    "ColorBlock": 952,
+    "IconHint": "sunt",
     "Selected": true,
-    "LastChanged": "2007-02-20T23:04:05.2685046+01:00",
+    "LastChanged": "2023-10-04T16:55:30.508697+02:00",
     "ChildItems": [
       {
-        "Id": 39,
-        "Name": "Frami-Crooks",
-        "ToolTip": "Necessitatibus fugiat aut magnam.",
+        "Id": 131,
+        "Name": "Koch Group",
+        "ToolTip": "Et nihil.",
         "Deleted": false,
-        "Rank": 10,
-        "Type": "minima",
-        "ColorBlock": 306,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2016-12-26T23:04:05.2685046+01:00",
+        "Rank": 395,
+        "Type": "ut",
+        "ColorBlock": 56,
+        "IconHint": "quod",
+        "Selected": true,
+        "LastChanged": "2012-09-22T16:55:30.508697+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "aut",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Mia Ortiz",
+        "FullName": "Prof. Heaven Katarina Wolff I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 729
+            "FieldLength": 473
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Prof. Elliot Emard III",
+    "ExtraInfo": "et",
+    "StyleHint": "optio",
+    "Hidden": true,
+    "FullName": "Mr. Ericka Stanley Gleason IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 641
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   }

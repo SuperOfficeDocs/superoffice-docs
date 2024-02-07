@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 970,
-  "ColumnId": 544,
-  "FieldDefault": "corporis",
-  "FieldHeight": 770,
-  "FieldLabel": "unde",
-  "FieldLeft": 869,
-  "FieldTop": 104,
+  "UDefFieldId": 406,
+  "ColumnId": 321,
+  "FieldDefault": "dolorum",
+  "FieldHeight": 976,
+  "FieldLabel": "eos",
+  "FieldLeft": 916,
+  "FieldTop": 772,
   "FieldType": "Checkbox",
-  "FieldWidth": 694,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 452,
+  "FormatMask": "quia",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 884,
-  "LabelLeft": 77,
-  "LabelTop": 26,
-  "LabelWidth": 4,
-  "LastVersionId": 117,
-  "ListTableId": 796,
+  "IsIndexed": false,
+  "LabelHeight": 350,
+  "LabelLeft": 380,
+  "LabelTop": 470,
+  "LabelWidth": 426,
+  "LastVersionId": 882,
+  "ListTableId": 798,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 900,
-  "ProgId": "ea",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 44,
-  "TextLength": 575,
-  "Tooltip": "molestias",
-  "UdefIdentity": 458,
-  "UDListDefinitionId": 244,
+  "Page1LineNo": 536,
+  "ProgId": "totam",
+  "IsReadOnly": true,
+  "ShortLabel": "in",
+  "TabOrder": 1002,
+  "TextLength": 924,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 972,
+  "UDListDefinitionId": 166,
   "Justification": "Center",
-  "Version": 304,
-  "TemplateVariableName": "Homenick, Volkman and Olson",
+  "Version": 719,
+  "TemplateVariableName": "Armstrong, Hermann and Bahringer",
   "HasBeenPublished": false,
-  "MdoListName": "Ullrich Group",
+  "MdoListName": "Conroy Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 567
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 896,
-  "Name": "Gleason-McKenzie",
-  "Tooltip": "aut",
+  "HeadingId": 425,
+  "Name": "Boehm, McLaughlin and Kovacek",
+  "Tooltip": "accusamus",
   "Deleted": true,
-  "Rank": 325,
-  "UdListDefinitionId": 195
+  "Rank": 456,
+  "UdListDefinitionId": 278
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 267,
-  "Name": "Yundt, Zieme and Collins",
-  "Tooltip": "qui",
+  "HeadingId": 972,
+  "Name": "VonRueden-Gutkowski",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 25,
-  "UdListDefinitionId": 612,
+  "Rank": 952,
+  "UdListDefinitionId": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

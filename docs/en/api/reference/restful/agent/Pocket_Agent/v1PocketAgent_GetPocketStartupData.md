@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "occaecati",
-    "quia"
+    "a",
+    "nemo"
   ],
-  "CurrentClientTime": "2015-04-23T23:03:56.5871204+02:00"
+  "CurrentClientTime": "2008-04-21T16:54:55.864111+02:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "sint",
-    "odit"
+    "doloribus",
+    "enim"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 135,
-  "NotificationsCount": 381,
+  "OverdueSalesCount": 862,
+  "NotificationsCount": 757,
   "SystemWebPanels": [
     {
-      "WebPanelId": 776,
-      "Name": "Kuhn Group",
-      "Tooltip": "eos",
-      "Deleted": true,
-      "Rank": 358,
+      "WebPanelId": 668,
+      "Name": "Beatty Inc and Sons",
+      "Tooltip": "eum",
+      "Deleted": false,
+      "Rank": 896,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
-      "OnSatellite": false,
-      "OnTravel": true,
-      "OnSalesMarketingWeb": false,
+      "OnCentral": true,
+      "OnSatellite": true,
+      "OnTravel": false,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": true,
-      "ShowInToolBar": false,
+      "ShowInMenuBar": false,
+      "ShowInToolBar": true,
       "ShowInAddressBar": true,
-      "ShowInStatusBar": true,
-      "WindowName": "Hamill, Spencer and Schroeder",
+      "ShowInStatusBar": false,
+      "WindowName": "Bashirian Group",
       "Url": "http://www.example.com/",
-      "ProgId": "iure",
-      "Icon": 284,
+      "ProgId": "nihil",
+      "Icon": 902,
       "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": true,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldLength": 545
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "ut",
+      "RawValue": "doloremque",
       "Specification": null,
-      "DisplayValue": "harum",
-      "DisplayTooltip": "commodi",
+      "DisplayValue": "incidunt",
+      "DisplayTooltip": "nostrum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 801,
-      "PrefDescId": 400,
-      "TableName": "Dibbert, Windler and Padberg",
-      "UserPreferenceId": 352,
+      "TargetId": 327,
+      "PrefDescId": 414,
+      "TableName": "Reinger-Wolff",
+      "UserPreferenceId": 193,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldLength": 341
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "id",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 44
     }
   }
 }

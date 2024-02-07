@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Breitenberg Group",
-  "Tooltip": "ab",
+  "Id": 796,
+  "Name": "Schinner, Waters and Gislason",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 979,
-  "IsCustomList": true,
+  "Rank": 169,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "at",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Smith, Ortiz and Jakubowski",
-  "Tooltip": "rerum",
+  "Id": 279,
+  "Name": "Schowalter-Krajcik",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 738,
+  "Rank": 542,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dolorum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 438
     }
   }
 }

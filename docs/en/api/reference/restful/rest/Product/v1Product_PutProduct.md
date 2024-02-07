@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 284,
-  "ERPProductKey": "perferendis",
-  "ERPPriceListKey": "totam",
-  "Name": "Kuhn, Heaney and Weimann",
-  "Description": "Re-engineered demand-driven extranet",
-  "Code": "ea",
-  "PriceUnit": "autem",
-  "QuantityUnit": "cupiditate",
+  "ProductId": 40,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "alias",
+  "Name": "VonRueden Inc and Sons",
+  "Description": "Persistent reciprocal product",
+  "Code": "itaque",
+  "PriceUnit": "ducimus",
+  "QuantityUnit": "libero",
   "IsSubscription": false,
-  "SubscriptionUnit": "sequi",
-  "DefaultSubscriptionQuantity": 2447.654,
-  "ItemNumber": "725516",
+  "SubscriptionUnit": "dolorem",
+  "DefaultSubscriptionQuantity": 29939.102,
+  "ItemNumber": "642940",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "dolore",
-  "VAT": 23655.432,
-  "VATInfo": "ullam",
-  "UnitCost": 27942.744,
-  "UnitMinimumPrice": 26062.344,
-  "UnitListPrice": 26676.608,
-  "InAssortment": true,
-  "Supplier": "excepturi",
-  "SupplierCode": "perspiciatis",
-  "Rights": "est",
-  "Rule": "animi",
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "aut",
+  "VAT": 23921.822,
+  "VATInfo": "voluptatibus",
+  "UnitCost": 29114.86,
+  "UnitMinimumPrice": 17556.667999999998,
+  "UnitListPrice": 482.63599999999997,
+  "InAssortment": false,
+  "Supplier": "natus",
+  "SupplierCode": "a",
+  "Rights": "eligendi",
+  "Rule": "nihil",
   "ExtraInfo": [
     {
-      "Name": "Gorczany-Hodkiewicz",
-      "Value": "consectetur",
+      "Name": "Auer Inc and Sons",
+      "Value": "eum",
       "Type": "Image"
     },
     {
-      "Name": "Gorczany-Hodkiewicz",
-      "Value": "consectetur",
+      "Name": "Auer Inc and Sons",
+      "Value": "eum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sequi",
-  "ExtraField1": "accusantium",
-  "ExtraField2": "saepe",
-  "ExtraField3": "rerum",
-  "ExtraField4": "impedit",
-  "ExtraField5": "est",
-  "InStock": 3892.428
+  "RawExtraInfo": "cum",
+  "ExtraField1": "enim",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "molestiae",
+  "ExtraField4": "ut",
+  "ExtraField5": "non",
+  "InStock": 8377.1819999999989
 }
 ```
 
@@ -203,35 +203,35 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 965,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "ex",
-  "Name": "Pfeffer-Hagenes",
-  "Description": "Operative intermediate implementation",
-  "Code": "rem",
-  "PriceUnit": "voluptatibus",
-  "QuantityUnit": "eveniet",
-  "IsSubscription": false,
-  "SubscriptionUnit": "nemo",
-  "DefaultSubscriptionQuantity": 17497.122,
-  "ItemNumber": "1571723",
+  "ProductId": 304,
+  "ERPProductKey": "consequuntur",
+  "ERPPriceListKey": "veniam",
+  "Name": "Larkin LLC",
+  "Description": "Digitized dynamic orchestration",
+  "Code": "dolorum",
+  "PriceUnit": "quas",
+  "QuantityUnit": "assumenda",
+  "IsSubscription": true,
+  "SubscriptionUnit": "perspiciatis",
+  "DefaultSubscriptionQuantity": 24473.406,
+  "ItemNumber": "905515",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "asperiores",
-  "ProductTypeKey": "reprehenderit",
-  "VAT": 29440.796,
-  "VATInfo": "magni",
-  "UnitCost": 282.06,
-  "UnitMinimumPrice": 18832.206,
-  "UnitListPrice": 8859.818,
+  "ProductFamilyKey": "vel",
+  "ProductTypeKey": "quia",
+  "VAT": 22417.502,
+  "VATInfo": "quis",
+  "UnitCost": 6468.576,
+  "UnitMinimumPrice": 16663.478,
+  "UnitListPrice": 24642.642,
   "InAssortment": false,
-  "Supplier": "est",
+  "Supplier": "reprehenderit",
   "SupplierCode": "maiores",
-  "Rights": "itaque",
-  "Rule": "deleniti",
+  "Rights": "vel",
+  "Rule": "eum",
   "ExtraInfo": [
     {
-      "Name": "Schoen LLC",
+      "Name": "Zboncak-Sanford",
       "Value": "est",
       "Type": "Image",
       "TableRight": null,
@@ -239,12 +239,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 387
         }
       }
     },
     {
-      "Name": "Schoen LLC",
+      "Name": "Zboncak-Sanford",
       "Value": "est",
       "Type": "Image",
       "TableRight": null,
@@ -252,24 +252,24 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 387
         }
       }
     }
   ],
-  "RawExtraInfo": "similique",
-  "ExtraField1": "occaecati",
-  "ExtraField2": "dolor",
-  "ExtraField3": "et",
-  "ExtraField4": "a",
-  "ExtraField5": "autem",
-  "InStock": 13244.284,
+  "RawExtraInfo": "inventore",
+  "ExtraField1": "quaerat",
+  "ExtraField2": "qui",
+  "ExtraField3": "sint",
+  "ExtraField4": "molestias",
+  "ExtraField5": "aliquam",
+  "InStock": 26341.27,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 585
     }
   }
 }

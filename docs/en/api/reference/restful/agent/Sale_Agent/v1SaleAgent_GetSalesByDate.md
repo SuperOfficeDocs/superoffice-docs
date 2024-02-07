@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2022-09-02T23:03:56.9251168+02:00",
-  "ToDate": "2020-08-31T23:03:56.9251168+02:00",
-  "AmountLimit": 493,
+  "FromDate": "2017-11-18T16:54:56.2585204+01:00",
+  "ToDate": "2012-10-22T16:54:56.2585204+02:00",
+  "AmountLimit": 599,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Romaguera, Strosin and Jast",
-    "SaleDate": "2021-04-27T23:03:56.9261161+02:00",
-    "SaleId": 532,
+    "ContactName": "Hilpert-DuBuque",
+    "SaleDate": "2007-09-17T16:54:56.2595203+02:00",
+    "SaleId": 683,
     "Probability": 199,
-    "Title": "veniam",
-    "Amount": 31205.237999999998,
-    "Currency": "voluptates",
-    "ProjectName": "Dickinson Inc and Sons",
-    "AssociateFullName": "Emery Nienow",
-    "Description": "Cloned content-based data-warehouse",
+    "Title": "distinctio",
+    "Amount": 18358.971999999998,
+    "Currency": "sequi",
+    "ProjectName": "Cronin, Nader and Mayer",
+    "AssociateFullName": "Brown Ebert",
+    "Description": "Intuitive modular ability",
     "Status": "Lost",
-    "WeightedAmount": 15754.617999999999,
-    "ProjectId": 618,
-    "EarningPercent": 683.212,
-    "Earning": 4284.178,
-    "ContactId": 186,
-    "AssociateId": 617,
-    "PersonId": 746,
-    "SaleTypeId": 825,
-    "SaleTypeName": "Moore-Pollich",
-    "PersonFullName": "Alena Rylee Donnelly V",
+    "WeightedAmount": 4237.168,
+    "ProjectId": 713,
+    "EarningPercent": 27290.872,
+    "Earning": 13400.984,
+    "ContactId": 536,
+    "AssociateId": 56,
+    "PersonId": 77,
+    "SaleTypeId": 105,
+    "SaleTypeName": "Abbott-Towne",
+    "PersonFullName": "Ms. Aiyana Harber",
     "Completed": "Completed",
-    "ActiveErpLinks": 5,
-    "NextDueDate": "2007-07-17T23:03:56.926616+02:00",
-    "Number": "952307",
+    "ActiveErpLinks": 681,
+    "NextDueDate": "2020-02-26T16:54:56.2595203+01:00",
+    "Number": "980231",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldLength": 914
       }
     }
   }

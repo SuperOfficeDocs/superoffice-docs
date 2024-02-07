@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 988,
-    "Name": "Deckow LLC",
-    "Tooltip": "id",
+    "HeadingId": 760,
+    "Name": "Turner LLC",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 735,
-    "UdListDefinitionId": 423
+    "Rank": 891,
+    "UdListDefinitionId": 871
   },
   {
-    "HeadingId": 988,
-    "Name": "Deckow LLC",
-    "Tooltip": "id",
+    "HeadingId": 760,
+    "Name": "Turner LLC",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 735,
-    "UdListDefinitionId": 423
+    "Rank": 891,
+    "UdListDefinitionId": 871
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 451,
-    "Name": "Prosacco LLC",
-    "Tooltip": "officiis",
+    "HeadingId": 887,
+    "Name": "Schuster, Shields and Christiansen",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 455,
-    "UdListDefinitionId": 266,
+    "Rank": 968,
+    "UdListDefinitionId": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldType": "System.String",
+        "FieldLength": 158
       }
     }
   }

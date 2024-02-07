@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 456,
-  "Name": "Hintz-Marks",
-  "Tooltip": "id",
-  "Deleted": true,
-  "Rank": 703,
-  "IsCustomList": true,
+  "Id": 681,
+  "Name": "Connelly LLC",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "Rank": 905,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "animi",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 257,
-  "Name": "Turner-Schaden",
-  "Tooltip": "commodi",
+  "Id": 495,
+  "Name": "Denesik-Abshire",
+  "Tooltip": "in",
   "Deleted": true,
-  "Rank": 103,
+  "Rank": 469,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "unde",
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldLength": 181
     }
   }
 }

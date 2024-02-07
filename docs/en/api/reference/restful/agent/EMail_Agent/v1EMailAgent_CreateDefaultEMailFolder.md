@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Watsica Inc and Sons",
-  "Delimiter": "iste",
-  "Flags": "omnis",
-  "TotalItems": 830,
-  "UnreadItems": 908,
+  "Name": "Orn Inc and Sons",
+  "Delimiter": "ut",
+  "Flags": "et",
+  "TotalItems": 574,
+  "UnreadItems": 1002,
   "Subscribed": false,
-  "EmailFolderId": 390,
+  "EmailFolderId": 710,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 721
     }
   }
 }

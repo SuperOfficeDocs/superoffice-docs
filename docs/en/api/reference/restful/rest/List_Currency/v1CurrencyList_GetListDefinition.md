@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 746,
-  "Name": "Koch, Hyatt and Beier",
-  "Tooltip": "ea",
+  "Id": 662,
+  "Name": "Koss-VonRueden",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 396,
+  "Rank": 310,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cupiditate",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldType": "System.String",
+      "FieldLength": 690
     }
   },
   "_Links": {

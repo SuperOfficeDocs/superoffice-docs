@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 133,
-  "ColumnId": 166,
-  "FieldDefault": "sed",
-  "FieldHeight": 642,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 806,
-  "FieldTop": 761,
+  "UDefFieldId": 798,
+  "ColumnId": 545,
+  "FieldDefault": "odio",
+  "FieldHeight": 524,
+  "FieldLabel": "nobis",
+  "FieldLeft": 828,
+  "FieldTop": 509,
   "FieldType": "Checkbox",
-  "FieldWidth": 8,
-  "FormatMask": "quaerat",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 752,
-  "LabelLeft": 624,
-  "LabelTop": 491,
-  "LabelWidth": 62,
-  "LastVersionId": 441,
-  "ListTableId": 740,
+  "FieldWidth": 832,
+  "FormatMask": "autem",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 798,
+  "LabelLeft": 359,
+  "LabelTop": 942,
+  "LabelWidth": 31,
+  "LastVersionId": 3,
+  "ListTableId": 401,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 136,
-  "ProgId": "ut",
+  "Page1LineNo": 758,
+  "ProgId": "nobis",
   "IsReadOnly": false,
-  "ShortLabel": "quod",
-  "TabOrder": 398,
-  "TextLength": 534,
-  "Tooltip": "laborum",
-  "UdefIdentity": 518,
-  "UDListDefinitionId": 721,
+  "ShortLabel": "quia",
+  "TabOrder": 456,
+  "TextLength": 730,
+  "Tooltip": "ea",
+  "UdefIdentity": 232,
+  "UDListDefinitionId": 56,
   "Justification": "Center",
-  "Version": 791,
-  "TemplateVariableName": "Cummings, Feil and Ullrich",
+  "Version": 408,
+  "TemplateVariableName": "Becker-Stokes",
   "HasBeenPublished": false,
-  "MdoListName": "Hoeger-Padberg",
+  "MdoListName": "Zulauf, Keebler and Langosh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldType": "System.Int32",
+      "FieldLength": 537
     }
   }
 }

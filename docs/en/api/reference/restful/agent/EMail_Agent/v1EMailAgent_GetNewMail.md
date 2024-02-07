@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    225,
-    920
+    347,
+    829
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 839,
-    "MessageId": "sed",
-    "Subject": "non",
+    "ServerId": 809,
+    "MessageId": "labore",
+    "Subject": "sit",
     "From": null,
     "To": [
       {
-        "ContactId": 818,
-        "ContactName": "Rohan Inc and Sons",
-        "PersonId": 467,
-        "PersonName": "Strosin, Mayert and Kunze",
-        "AssociateId": 382,
-        "Address": "et",
-        "EmailId": 771,
+        "ContactId": 236,
+        "ContactName": "Zulauf-Morissette",
+        "PersonId": 309,
+        "PersonName": "O'Connell Inc and Sons",
+        "AssociateId": 844,
+        "Address": "minus",
+        "EmailId": 329,
         "DuplicatePersonIds": [
-          225,
-          224
+          133,
+          557
         ],
-        "Name": "Halvorson, Lang and Altenwerth",
+        "Name": "Bode-Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldType": "System.String",
+            "FieldLength": 213
           }
         }
       }
     ],
-    "Sent": "2009-12-06T23:03:55.8816302+01:00",
+    "Sent": "2007-08-15T16:54:55.3054199+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 200,
+    "Size": 53,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 391
+        "FieldType": "System.Int32",
+        "FieldLength": 763
       }
     }
   }

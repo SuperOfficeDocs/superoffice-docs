@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Hoppe Group",
-    "ToolTip": "Voluptatem nesciunt rerum quo quia ullam aliquid.",
-    "Deleted": true,
-    "Rank": 910,
-    "Type": "blanditiis",
-    "ColorBlock": 376,
-    "IconHint": "earum",
-    "Selected": true,
-    "LastChanged": "2013-07-15T23:04:05.7789965+02:00",
+    "Id": 593,
+    "Name": "Ullrich Group",
+    "ToolTip": "Et reprehenderit voluptatem maxime corrupti est.",
+    "Deleted": false,
+    "Rank": 198,
+    "Type": "dolores",
+    "ColorBlock": 660,
+    "IconHint": "magni",
+    "Selected": false,
+    "LastChanged": "2001-08-01T16:55:31.0471834+02:00",
     "ChildItems": [
       {
-        "Id": 916,
-        "Name": "Green-Harris",
-        "ToolTip": "Error quibusdam provident quia dolorem.",
+        "Id": 65,
+        "Name": "Wiegand-Goyette",
+        "ToolTip": "Quo asperiores dolorum quo nostrum.",
         "Deleted": false,
-        "Rank": 253,
-        "Type": "et",
-        "ColorBlock": 906,
-        "IconHint": "sequi",
-        "Selected": false,
-        "LastChanged": "2005-11-04T23:04:05.7789965+01:00",
+        "Rank": 463,
+        "Type": "necessitatibus",
+        "ColorBlock": 276,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2015-01-27T16:55:31.0471834+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "laborum",
+        "ExtraInfo": "ullam",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Jayme Beatty",
+        "FullName": "Mrs. Micah Queenie Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 89
+            "FieldLength": 602
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Lisa Courtney Kiehn PhD",
+    "ExtraInfo": "iste",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Abigale Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldLength": 731
       }
     }
   }

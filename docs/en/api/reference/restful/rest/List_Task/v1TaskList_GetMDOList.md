@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=ea
+GET /api/v1/List/Task/MDOItems?query=voluptas
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Zboncak-Eichmann",
-    "ToolTip": "Rerum dolor.",
+    "Id": 57,
+    "Name": "Mertz-McGlynn",
+    "ToolTip": "Quaerat reprehenderit est nostrum dolorem.",
     "Deleted": false,
-    "Rank": 823,
-    "Type": "nostrum",
+    "Rank": 724,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Friesen Group",
-        "ToolTip": "Voluptate natus incidunt cupiditate id assumenda animi unde.",
+        "Id": 988,
+        "Name": "Mosciski LLC",
+        "ToolTip": "Vero rerum fugit.",
         "Deleted": false,
-        "Rank": 38,
-        "Type": "aut",
+        "Rank": 845,
+        "Type": "nobis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 289,
-        "ExtraInfo": "accusamus",
-        "StyleHint": "beatae",
-        "FullName": "Samanta Dietrich",
+        "IconHint": "velit",
+        "ColorBlock": 926,
+        "ExtraInfo": "qui",
+        "StyleHint": "dicta",
+        "FullName": "Dr. Jackson Kutch II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 295
+            "FieldLength": 609
           }
         }
       }
     ],
-    "IconHint": "illo",
-    "ColorBlock": 23,
-    "ExtraInfo": "molestiae",
+    "IconHint": "et",
+    "ColorBlock": 801,
+    "ExtraInfo": "vel",
     "StyleHint": "consequatur",
-    "FullName": "Mario Schneider",
+    "FullName": "Kelli Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldLength": 738
       }
     }
   }

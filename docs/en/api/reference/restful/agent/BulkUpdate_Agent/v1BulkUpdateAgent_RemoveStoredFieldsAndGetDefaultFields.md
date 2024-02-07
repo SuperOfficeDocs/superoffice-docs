@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rau-Pouros",
-  "Context": "neque"
+  "TableName": "Fisher Group",
+  "Context": "quia"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": true,
     "IsActive": true,
-    "Key": "repellat",
+    "Key": "aut",
     "ValueType": "voluptatem",
-    "Mandatory": true,
-    "EncodedDisplayName": "Funk, Bayer and Brakus",
-    "EncodedDisplayDescription": "Centralized solution-oriented installation",
-    "IconHint": "debitis",
+    "Mandatory": false,
+    "EncodedDisplayName": "Reichel-Metz",
+    "EncodedDisplayDescription": "Profit-focused client-driven methodology",
+    "IconHint": "quis",
     "ControlInfos": [
       {
-        "Type": "quia",
-        "Label": "sed",
-        "Dimension": 425,
-        "ListProviderName": "Bergnaum-McKenzie",
-        "ListProviderExtraInfo": "quisquam",
-        "ListProviderPrimaryKeyName": "Wolff, O'Conner and Rempel",
-        "ListLeadText": "quasi",
+        "Type": "corrupti",
+        "Label": "minus",
+        "Dimension": 821,
+        "ListProviderName": "Glover, Rodriguez and Koelpin",
+        "ListProviderExtraInfo": "tenetur",
+        "ListProviderPrimaryKeyName": "Waelchi Group",
+        "ListLeadText": "in",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 704
+            "FieldType": "System.String",
+            "FieldLength": 316
           }
         }
       }
     ],
-    "EncodedDataCaption": "vel",
-    "EncodedDataCaptionDescription": "Secured eco-centric throughput",
-    "CurrentOperationType": "sed",
+    "EncodedDataCaption": "aut",
+    "EncodedDataCaptionDescription": "Cross-group incremental archive",
+    "CurrentOperationType": "et",
     "Values": [
-      "et",
-      "adipisci"
+      "iusto",
+      "eligendi"
     ],
     "DisplayValues": [
-      "architecto",
-      "illo"
+      "quasi",
+      "totam"
     ],
     "OperationInfos": [
       {
-        "Key": "accusantium",
-        "EncodedDisplayName": "Jenkins-Koss",
+        "Key": "dolorem",
+        "EncodedDisplayName": "Wilderman, Mueller and Armstrong",
         "EncodedLeadTexts": [
-          "id",
-          "et"
+          "in",
+          "aut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 112
+            "FieldLength": 97
           }
         }
       },
       {
-        "Key": "accusantium",
-        "EncodedDisplayName": "Jenkins-Koss",
+        "Key": "dolorem",
+        "EncodedDisplayName": "Wilderman, Mueller and Armstrong",
         "EncodedLeadTexts": [
-          "id",
-          "et"
+          "in",
+          "aut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 112
+            "FieldLength": 97
           }
         }
       }

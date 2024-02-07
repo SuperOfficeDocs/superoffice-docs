@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "animi",
-  "PluginId": 580
+  "LanguageCode": "similique",
+  "PluginId": 821
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 814,
-  "Name": "Nolan-Conroy",
-  "Tooltip": "ipsa",
-  "SaveInDb": 333,
-  "Filename": "consequuntur",
-  "DefaultOref": "maiores",
+  "DocumentTemplateId": 110,
+  "Name": "Bosco Group",
+  "Tooltip": "odio",
+  "SaveInDb": 1002,
+  "Filename": "consequatur",
+  "DefaultOref": "assumenda",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 630,
-  "IntentId": 690,
-  "IsDefaultPublished": true,
-  "Rank": 544,
-  "LoadTemplateFromPlugin": 708,
-  "MimeType": "quas",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 767,
+  "AutoeventId": 959,
+  "IntentId": 531,
+  "IsDefaultPublished": false,
+  "Rank": 530,
+  "LoadTemplateFromPlugin": 842,
+  "MimeType": "totam",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 726,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "vladimir.kling@lang.biz",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "kaitlyn.schmitt@hacketthamill.com",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "maryjane.prohaska@wisozk.info",
+  "SenderEmailAddress": "alfonzo_powlowski@creminnicolas.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   }
 }

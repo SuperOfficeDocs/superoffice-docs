@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 373,
+  "DocumentId": 695,
   "RequestedProperties": [
-    "reprehenderit",
-    "consequatur"
+    "aut",
+    "adipisci"
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "alias",
-  "2": "animi"
+  "1": "repellendus",
+  "2": "sed"
 }
 ```

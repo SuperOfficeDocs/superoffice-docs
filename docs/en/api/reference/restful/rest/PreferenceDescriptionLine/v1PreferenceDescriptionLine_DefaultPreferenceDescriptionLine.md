@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 460,
-  "PrefDescId": 559,
-  "PrefValue": "fugiat",
-  "PrefShowValue": "reiciendis",
-  "Description": "Innovative incremental benchmark",
+  "PrefDescLineId": 734,
+  "PrefDescId": 677,
+  "PrefValue": "quo",
+  "PrefShowValue": "ipsa",
+  "Description": "Business-focused well-modulated contingency",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 791
     }
   }
 }

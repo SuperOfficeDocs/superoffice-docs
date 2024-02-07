@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Murphy-Hahn",
-    "ToolTip": "Quo distinctio optio qui illum et consequatur et.",
+    "Id": 454,
+    "Name": "Muller Inc and Sons",
+    "ToolTip": "Est vel qui aut et qui.",
     "Deleted": false,
-    "Rank": 758,
-    "Type": "debitis",
-    "ColorBlock": 673,
-    "IconHint": "tempora",
+    "Rank": 400,
+    "Type": "molestiae",
+    "ColorBlock": 30,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2019-11-06T23:04:05.6999971+01:00",
+    "LastChanged": "2016-03-27T16:55:30.9816722+02:00",
     "ChildItems": [
       {
-        "Id": 52,
-        "Name": "Fay Inc and Sons",
-        "ToolTip": "Aut explicabo.",
-        "Deleted": false,
-        "Rank": 964,
-        "Type": "eum",
-        "ColorBlock": 983,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2012-01-15T23:04:05.6999971+01:00",
+        "Id": 916,
+        "Name": "Towne-Bednar",
+        "ToolTip": "Hic aut qui et.",
+        "Deleted": true,
+        "Rank": 410,
+        "Type": "nobis",
+        "ColorBlock": 655,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "1998-04-15T16:55:30.9816722+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "repellat",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Brannon Runolfsson",
+        "FullName": "Granville Napoleon Cummerata DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 469
+            "FieldLength": 108
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Esta Mann Sr.",
+    "ExtraInfo": "vitae",
+    "StyleHint": "praesentium",
+    "Hidden": false,
+    "FullName": "Owen Monica Schultz III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 73
       }
     }
   }

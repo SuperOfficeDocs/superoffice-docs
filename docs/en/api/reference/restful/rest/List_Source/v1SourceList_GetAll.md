@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Goyette Inc and Sons",
-    "Tooltip": "aut",
+    "Id": 808,
+    "Name": "Reinger, Cassin and Volkman",
+    "Tooltip": "fugit",
     "Deleted": true,
-    "UdListDefinitionId": 954,
-    "Rank": 611,
+    "UdListDefinitionId": 903,
+    "Rank": 733,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 317
       }
     }
   }

@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 360,
-  "Name": "Corwin-Lindgren",
+  "ScreenChooserId": 742,
+  "Name": "VonRueden LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "nesciunt",
-  "Source": "incidunt",
-  "Registered": "2023-05-09T23:04:04.9930118+02:00",
-  "RegisteredAssociateId": 520,
-  "Updated": "2000-09-07T23:04:04.9930118+02:00",
-  "UpdatedAssociateId": 270,
+  "Enabled": true,
+  "UniqueIdentifier": "laborum",
+  "Source": "qui",
+  "Registered": "1999-04-07T16:55:30.3118157+02:00",
+  "RegisteredAssociateId": 347,
+  "Updated": "2023-04-01T16:55:30.3118157+02:00",
+  "UpdatedAssociateId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldLength": 449
     }
   }
 }

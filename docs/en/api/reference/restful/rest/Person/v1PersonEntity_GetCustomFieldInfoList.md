@@ -67,7 +67,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mante, Hills and Bednar",
-    "DisplayName": "Beatty-Wiegand",
-    "Description": "Right-sized responsive Graphic Interface",
-    "ShortLabel": "tempora",
+    "FieldName": "Schaefer, Goyette and Kiehn",
+    "DisplayName": "Sipes, Christiansen and Harber",
+    "Description": "Function-based radical methodology",
+    "ShortLabel": "veniam",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 286,
-    "TemplateVariableName": "Wisozk-Greenholt"
+    "Rank": 557,
+    "TemplateVariableName": "Smitham Group"
   }
 ]
 ```

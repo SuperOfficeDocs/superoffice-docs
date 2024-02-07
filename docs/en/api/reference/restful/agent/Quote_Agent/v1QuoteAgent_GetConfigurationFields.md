@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 844,
-  "ConnectorName": "Schmidt, Ward and Simonis"
+  "ConnectionId": 87,
+  "ConnectorName": "Spinka-Collier"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "temporibus",
-    "Rank": 994,
-    "DisplayName": "Littel-Osinski",
-    "DisplayDescription": "Mandatory dedicated hub",
+    "FieldKey": "neque",
+    "Rank": 409,
+    "DisplayName": "Denesik, Will and Beer",
+    "DisplayDescription": "Multi-lateral context-sensitive groupware",
     "FieldType": "Checkbox",
-    "ListName": "O'Connell Inc and Sons",
-    "DefaultValue": "voluptatem",
-    "MaxLength": 152,
+    "ListName": "Hahn, Smith and Mohr",
+    "DefaultValue": "vel",
+    "MaxLength": 107,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldType": "System.Int32",
+        "FieldLength": 886
       }
     }
   }

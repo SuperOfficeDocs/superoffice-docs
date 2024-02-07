@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 266,
+  "AssociateId": 551,
   "Type": "AnonymousAssociate",
-  "PersonId": 450,
-  "UserName": "Swaniawski, Douglas and O'Keefe"
+  "PersonId": 95,
+  "UserName": "Ledner, Pacocha and Feeney"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Borer LLC"
+"Gaylord-Crooks"
 ```

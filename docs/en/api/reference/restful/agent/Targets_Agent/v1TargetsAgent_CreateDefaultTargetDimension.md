@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 795,
+  "TargetDimensionId": 581,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quo",
-  "DimensionListName": "Greenholt-Turner",
-  "DimensionListId": 861,
-  "DimensionListLabel": "qui",
+  "DimensionListField": "vitae",
+  "DimensionListName": "Kreiger-Emard",
+  "DimensionListId": 719,
+  "DimensionListLabel": "voluptate",
   "SelectedDimensions": [
-    366,
-    811
+    314,
+    82
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

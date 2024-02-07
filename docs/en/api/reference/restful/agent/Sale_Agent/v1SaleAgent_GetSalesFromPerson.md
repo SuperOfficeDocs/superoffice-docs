@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 765,
-  "OnlyOpenSales": true
+  "PersonId": 735,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Willms, Borer and Crist",
-    "SaleDate": "2010-07-20T23:03:56.9311156+02:00",
-    "SaleId": 41,
-    "Probability": 467,
-    "Title": "praesentium",
-    "Amount": 1924.2759999999998,
-    "Currency": "deleniti",
-    "ProjectName": "Goyette Inc and Sons",
-    "AssociateFullName": "Susana Keeling",
-    "Description": "Public-key 6th generation concept",
+    "ContactName": "Cormier-Herman",
+    "SaleDate": "2009-09-14T16:54:56.2635208+02:00",
+    "SaleId": 848,
+    "Probability": 477,
+    "Title": "enim",
+    "Amount": 2021.4299999999998,
+    "Currency": "eligendi",
+    "ProjectName": "Leannon, Cummerata and Purdy",
+    "AssociateFullName": "Ursula Franecki",
+    "Description": "Synergized background capability",
     "Status": "Lost",
-    "WeightedAmount": 539.048,
-    "ProjectId": 186,
-    "EarningPercent": 26156.363999999998,
-    "Earning": 28397.174,
-    "ContactId": 635,
-    "AssociateId": 797,
-    "PersonId": 980,
-    "SaleTypeId": 665,
-    "SaleTypeName": "Harvey LLC",
-    "PersonFullName": "Shaniya Mante",
+    "WeightedAmount": 13335.17,
+    "ProjectId": 531,
+    "EarningPercent": 1758.174,
+    "Earning": 25169.154,
+    "ContactId": 145,
+    "AssociateId": 771,
+    "PersonId": 321,
+    "SaleTypeId": 677,
+    "SaleTypeName": "Barton Group",
+    "PersonFullName": "Dean Schulist",
     "Completed": "Completed",
-    "ActiveErpLinks": 422,
-    "NextDueDate": "2012-06-13T23:03:56.9311156+02:00",
-    "Number": "1275063",
+    "ActiveErpLinks": 732,
+    "NextDueDate": "2008-05-27T16:54:56.2635208+02:00",
+    "Number": "949226",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldType": "System.Int32",
+        "FieldLength": 250
       }
     }
   }

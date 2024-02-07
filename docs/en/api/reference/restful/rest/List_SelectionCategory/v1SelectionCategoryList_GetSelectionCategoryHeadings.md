@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 174,
-    "Name": "Nolan, Raynor and Cormier",
-    "Tooltip": "aut",
+    "HeadingId": 40,
+    "Name": "Rogahn Inc and Sons",
+    "Tooltip": "ex",
     "Deleted": false,
-    "Rank": 505,
-    "UdListDefinitionId": 767,
+    "Rank": 126,
+    "UdListDefinitionId": 391,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   }

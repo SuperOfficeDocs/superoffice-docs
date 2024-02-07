@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 764,
-  "TopicId": 349,
+  "ChatSessionId": 450,
+  "TopicId": 328,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ullam",
-  "CustomerHost": "amet",
-  "CustomerName": "Larkin-Hettinger",
-  "CustomerEmail": "georgiana@oberbrunner.info",
-  "CustomerPhone": "1-507-294-7550",
+  "CustomerAlias": "impedit",
+  "CustomerHost": "dignissimos",
+  "CustomerName": "Kemmer-Cummerata",
+  "CustomerEmail": "kallie_gerhold@dicki.co.uk",
+  "CustomerPhone": "(628)742-8358",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Dicki, Mitchell and Koch",
+  "CustomerCompanyName": "Ortiz-Huels",
   "Status": "Closed",
-  "FirstMessage": "deserunt",
-  "LastMessage": "reiciendis",
-  "WhenRequested": "2020-03-12T23:03:55.1776396+01:00",
-  "WhenStarted": "1996-12-31T23:03:55.1776396+01:00",
-  "WhenEnded": "2017-03-28T23:03:55.1776396+02:00",
-  "WhenIdle": "2011-11-07T23:03:55.1776396+01:00",
-  "WhenFetched": "2021-04-20T23:03:55.1776396+02:00",
-  "SessionKey": "optio",
-  "InitialQueuePos": 822,
-  "AlertLevel": 693,
-  "Rank": 992,
+  "FirstMessage": "similique",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2003-04-06T16:54:54.8476557+02:00",
+  "WhenStarted": "2022-04-23T16:54:54.8476557+02:00",
+  "WhenEnded": "2020-02-25T16:54:54.8476557+01:00",
+  "WhenIdle": "2005-03-12T16:54:54.8476557+01:00",
+  "WhenFetched": "2008-07-04T16:54:54.8476557+02:00",
+  "SessionKey": "eum",
+  "InitialQueuePos": 188,
+  "AlertLevel": 190,
+  "Rank": 416,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 924,
+  "ChatbotIsActive": false,
+  "Rating": 983,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 156
     }
   }
 }

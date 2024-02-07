@@ -74,15 +74,15 @@ OK
 POST /api/v1/Agents/User/CreateExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 429,
-  "UserName": "Lang Group",
-  "Password": "at",
-  "RoleId": 435,
-  "IsActive": false
+  "PersonId": 358,
+  "UserName": "Wolf, Greenfelder and Bartell",
+  "Password": "eligendi",
+  "RoleId": 916,
+  "IsActive": true
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-346
+288
 ```

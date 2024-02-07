@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Value": "exercitationem",
-    "Tooltip": "laboriosam",
+    "Id": 612,
+    "Value": "inventore",
+    "Tooltip": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 905
       }
     }
   },
   {
-    "Id": 702,
-    "Value": "exercitationem",
-    "Tooltip": "laboriosam",
+    "Id": 612,
+    "Value": "inventore",
+    "Tooltip": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 905
       }
     }
   }

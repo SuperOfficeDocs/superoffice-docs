@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 828,
-  "Section": "et",
-  "Key": "rerum",
-  "Name": "Hammes-Abshire",
+  "PrefDescId": 315,
+  "Section": "nesciunt",
+  "Key": "et",
+  "Name": "O'Connell, Swaniawski and Fay",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Polarised mobile open architecture",
+  "Description": "Universal executive approach",
   "IsBuiltin": false,
-  "TableName": "Bayer, Jast and Langworth",
-  "UserDefinedListId": 811,
-  "Rank": 476,
-  "SubGroup": "voluptatem",
-  "MinLevel": 560,
-  "MaxValue": 714,
-  "MinValue": 75,
-  "RequiredLicense": "debitis",
+  "TableName": "Carroll-Barrows",
+  "UserDefinedListId": 605,
+  "Rank": 8,
+  "SubGroup": "temporibus",
+  "MinLevel": 559,
+  "MaxValue": 689,
+  "MinValue": 40,
+  "RequiredLicense": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

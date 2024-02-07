@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Kuvalis Group",
-    "ToolTip": "Et et veniam consectetur ad sunt dolor.",
+    "Id": 881,
+    "Name": "Wisoky Group",
+    "ToolTip": "Assumenda et beatae quo ut.",
     "Deleted": false,
-    "Rank": 1002,
-    "Type": "ut",
-    "ColorBlock": 925,
-    "IconHint": "ex",
+    "Rank": 441,
+    "Type": "rerum",
+    "ColorBlock": 29,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2015-10-17T23:04:05.4409998+02:00",
+    "LastChanged": "2004-01-02T16:55:30.6522156+01:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Beatty Group",
-        "ToolTip": "Repellat sed nemo facilis nulla alias sapiente corrupti.",
+        "Id": 812,
+        "Name": "Waters Inc and Sons",
+        "ToolTip": "Expedita veritatis.",
         "Deleted": false,
-        "Rank": 577,
+        "Rank": 470,
         "Type": "aut",
-        "ColorBlock": 762,
-        "IconHint": "ipsum",
-        "Selected": true,
-        "LastChanged": "2023-09-28T23:04:05.4415+02:00",
+        "ColorBlock": 346,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2019-03-07T16:55:30.6522156+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "dolore",
+        "ExtraInfo": "similique",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Miss Murphy Arno Sawayn"
+        "FullName": "Jedediah Frami"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "iusto",
-    "Hidden": true,
-    "FullName": "Nyasia Jenkins"
+    "ExtraInfo": "impedit",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Hildegard Schaefer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Ledner, Reichel and Crona",
-    "ToolTip": "Dicta eos culpa.",
-    "Deleted": false,
-    "Rank": 94,
-    "Type": "ad",
-    "ColorBlock": 670,
-    "IconHint": "aliquid",
+    "Id": 966,
+    "Name": "Cronin LLC",
+    "ToolTip": "Consectetur voluptas ea quae temporibus voluptates.",
+    "Deleted": true,
+    "Rank": 354,
+    "Type": "omnis",
+    "ColorBlock": 390,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2016-12-21T23:04:05.4425001+01:00",
+    "LastChanged": "1998-03-20T16:55:30.6552391+01:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Streich Inc and Sons",
-        "ToolTip": "Molestiae enim placeat id.",
+        "Id": 765,
+        "Name": "Nolan-Jerde",
+        "ToolTip": "Quasi illo dolorem nihil.",
         "Deleted": false,
-        "Rank": 130,
-        "Type": "distinctio",
-        "ColorBlock": 808,
-        "IconHint": "quaerat",
-        "Selected": true,
-        "LastChanged": "2020-05-04T23:04:05.4425001+02:00",
+        "Rank": 647,
+        "Type": "officiis",
+        "ColorBlock": 93,
+        "IconHint": "aliquid",
+        "Selected": false,
+        "LastChanged": "2018-10-18T16:55:30.6552391+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "maiores",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Isom Rippin",
+        "FullName": "Elyse Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldLength": 757
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "hic",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Eriberto Connelly",
+    "FullName": "Mr. Elmore Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 242
       }
     }
   }

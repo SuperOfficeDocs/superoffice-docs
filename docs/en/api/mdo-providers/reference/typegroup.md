@@ -2,7 +2,7 @@
 uid: typegroup
 title: typegroup
 keywords: mdoprovider mdo provider typegroup
-description: Type Group: Task, Activity, Document, Sale
+description: Type Group - Task, Activity, Document, Sale
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "enim",
-      "HTMLBody": "minus",
+      "Subject": "ratione",
+      "HTMLBody": "id",
       "From": null,
-      "Sent": "2011-12-20T23:03:55.8701376+01:00",
-      "Size": 756,
+      "Sent": "2012-01-06T16:54:55.2964193+01:00",
+      "Size": 66,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "voluptas",
-      "PlainBody": "repellat",
-      "IsSent": false,
+      "MessageID": "maxime",
+      "PlainBody": "provident",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 30,
+      "ServerId": 436,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Torp Inc and Sons",
-      "EmailItemId": 193,
-      "AccountId": 934,
-      "ReceivedAt": "1999-01-02T23:03:55.8701376+01:00",
+      "FolderName": "Jaskolski, Ryan and Harber",
+      "EmailItemId": 560,
+      "AccountId": 64,
+      "ReceivedAt": "2021-12-12T16:54:55.2964193+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2021-06-07T23:03:55.8701376+02:00",
+      "RepliedAt": "2016-12-27T16:54:55.2964193+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -162,97 +162,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 420,
-        "ContactName": "Daugherty-Sipes",
-        "PersonId": 965,
-        "PersonName": "Kuphal-Hauck",
-        "AssociateId": 810,
-        "Address": "maxime",
-        "EmailId": 228,
+        "ContactId": 1002,
+        "ContactName": "Denesik Inc and Sons",
+        "PersonId": 459,
+        "PersonName": "Hickle Group",
+        "AssociateId": 830,
+        "Address": "incidunt",
+        "EmailId": 346,
         "DuplicatePersonIds": [
-          606,
-          523
+          504,
+          706
         ],
-        "Name": "Beahan-Pollich",
+        "Name": "Carter Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldLength": 755
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 984,
-        "ContactName": "Crist, Mayert and Heaney",
-        "PersonId": 439,
-        "PersonName": "Glover-Howe",
-        "AssociateId": 135,
-        "Address": "minus",
-        "EmailId": 545,
+        "ContactId": 247,
+        "ContactName": "Sporer, O'Reilly and Wyman",
+        "PersonId": 660,
+        "PersonName": "Stokes, Jacobs and Marks",
+        "AssociateId": 880,
+        "Address": "hic",
+        "EmailId": 135,
         "DuplicatePersonIds": [
-          553,
-          836
+          699,
+          761
         ],
-        "Name": "Gutkowski, Lang and Price",
+        "Name": "Rutherford-Bergnaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 561
+            "FieldLength": 290
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 761,
-        "ContactName": "Emard-Funk",
-        "PersonId": 262,
-        "PersonName": "Terry, Abshire and Osinski",
-        "AssociateId": 98,
-        "Address": "ut",
-        "EmailId": 855,
+        "ContactId": 940,
+        "ContactName": "Hane LLC",
+        "PersonId": 137,
+        "PersonName": "Bins, Schroeder and Franecki",
+        "AssociateId": 434,
+        "Address": "est",
+        "EmailId": 209,
         "DuplicatePersonIds": [
-          628,
-          46
+          579,
+          658
         ],
-        "Name": "Lindgren Group",
+        "Name": "Mayer, Klein and Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 879
+            "FieldType": "System.String",
+            "FieldLength": 498
           }
         }
       }
     ],
-    "Subject": "quo",
-    "HTMLBody": "et",
+    "Subject": "aut",
+    "HTMLBody": "labore",
     "From": null,
-    "Sent": "2012-11-10T23:03:55.8721428+01:00",
-    "Size": 953,
+    "Sent": "2007-08-07T16:54:55.2984192+02:00",
+    "Size": 880,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "aliquid",
-    "PlainBody": "vero",
+    "MessageID": "pariatur",
+    "PlainBody": "rerum",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 599,
+    "ServerId": 987,
     "Attachments": [
       {
-        "Description": "Distributed radical Graphical User Interface",
-        "Filename": "ab",
-        "Size": 792,
-        "Type": "deserunt",
-        "Encoding": "nam",
-        "Id": "repellat",
-        "Disposition": "recusandae",
+        "Description": "Versatile client-server moderator",
+        "Filename": "sint",
+        "Size": 544,
+        "Type": "laboriosam",
+        "Encoding": "et",
+        "Id": "velit",
+        "Disposition": "quia",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -260,50 +260,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 492
+            "FieldLength": 171
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Ernser, Leuschke and Glover",
+        "Name": "Koss, Gerlach and Blick",
         "Values": [
-          "voluptatum",
-          "unde"
+          "culpa",
+          "facere"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldLength": 217
           }
         }
       },
       {
-        "Name": "Ernser, Leuschke and Glover",
+        "Name": "Koss, Gerlach and Blick",
         "Values": [
-          "voluptatum",
-          "unde"
+          "culpa",
+          "facere"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldLength": 217
           }
         }
       }
     ],
-    "FolderName": "Hahn, Beier and Yost",
-    "EmailItemId": 878,
-    "AccountId": 689,
-    "ReceivedAt": "2020-08-30T23:03:55.8726304+02:00",
+    "FolderName": "McKenzie-Kshlerin",
+    "EmailItemId": 671,
+    "AccountId": 55,
+    "ReceivedAt": "2015-07-06T16:54:55.2994192+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2017-09-30T23:03:55.8726304+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2016-08-28T16:54:55.2994192+02:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldLength": 128
       }
     }
   }

@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 24,
-  "StartTime": "2017-11-04T23:03:55.6826339+01:00",
-  "EndTime": "2016-05-30T23:03:55.6826339+02:00",
-  "Count": 351
+  "ProjectId": 999,
+  "StartTime": "2000-05-03T16:54:55.154494+02:00",
+  "EndTime": "1997-05-16T16:54:55.154494+02:00",
+  "Count": 877
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 769,
-    "Attention": "laudantium",
-    "Header": "iste",
-    "Name": "Paucek Inc and Sons",
-    "OurRef": "neque",
-    "YourRef": "delectus",
-    "Description": "Innovative leading edge moratorium",
-    "DocumentTemplate": "odio",
-    "IsPublished": false,
-    "PersonId": 751,
-    "PersonFullName": "Santiago Beahan",
-    "AssociateFullName": "Jayde Abbott",
-    "ContactId": 796,
-    "ContactName": "Steuber, Wilderman and Gleichner",
-    "ProjectId": 556,
-    "ProjectName": "Johns-Kozey",
-    "AssociateId": 751,
-    "Snum": 954,
-    "SaleId": 752,
-    "SaleName": "Harber, O'Kon and Haag",
+    "DocumentId": 232,
+    "Attention": "in",
+    "Header": "provident",
+    "Name": "Conroy-Bayer",
+    "OurRef": "velit",
+    "YourRef": "itaque",
+    "Description": "User-friendly static contingency",
+    "DocumentTemplate": "a",
+    "IsPublished": true,
+    "PersonId": 974,
+    "PersonFullName": "Grayce Crona",
+    "AssociateFullName": "Emmalee Thompson",
+    "ContactId": 487,
+    "ContactName": "Lowe, Runolfsson and McGlynn",
+    "ProjectId": 228,
+    "ProjectName": "Berge-Murray",
+    "AssociateId": 354,
+    "Snum": 455,
+    "SaleId": 91,
+    "SaleName": "Collins-Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldType": "System.String",
+        "FieldLength": 532
       }
     }
   }

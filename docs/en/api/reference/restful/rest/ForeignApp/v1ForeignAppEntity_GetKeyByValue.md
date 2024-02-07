@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aspernatur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=officiis
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 12 Sep 2018 23:04:04 G9T
+Last-Modified: Thu, 07 Dec 2006 16:55:29 G12T
 
 {
-  "Key": "facilis",
-  "Value": "omnis",
-  "RecordId": 442,
-  "CreatedDate": "2013-03-15T23:04:04.2315182+01:00",
-  "UpdatedDate": "2018-09-12T23:04:04.2315182+02:00",
-  "UpdatedBy": "quibusdam",
-  "CreatedBy": "dignissimos",
-  "TableName": "Lindgren-Barrows",
+  "Key": "inventore",
+  "Value": "velit",
+  "RecordId": 891,
+  "CreatedDate": "2011-02-14T16:55:29.6594388+01:00",
+  "UpdatedDate": "2006-12-07T16:55:29.6594388+01:00",
+  "UpdatedBy": "iusto",
+  "CreatedBy": "est",
+  "TableName": "Altenwerth, Weber and Brakus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 944
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Streich-Hoeger",
-    "ToolTip": "Corrupti nemo quod velit.",
+    "Id": 784,
+    "Name": "Kuvalis, Homenick and Bartell",
+    "ToolTip": "Quae iste voluptas rerum sit veritatis.",
     "Deleted": false,
-    "Rank": 545,
-    "Type": "nobis",
-    "ColorBlock": 660,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2010-06-14T23:04:05.2960035+02:00",
+    "Rank": 243,
+    "Type": "impedit",
+    "ColorBlock": 802,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2004-09-21T16:55:30.5316986+02:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Crooks-Schneider",
-        "ToolTip": "Quo corrupti dolore iure ducimus cupiditate suscipit.",
-        "Deleted": false,
-        "Rank": 322,
-        "Type": "neque",
-        "ColorBlock": 24,
-        "IconHint": "recusandae",
+        "Id": 934,
+        "Name": "Crist, Gusikowski and Kovacek",
+        "ToolTip": "Et sed deserunt aliquam consectetur.",
+        "Deleted": true,
+        "Rank": 111,
+        "Type": "et",
+        "ColorBlock": 407,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2002-08-07T23:04:05.2960035+02:00",
+        "LastChanged": "1998-08-01T16:55:30.5316986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "illo",
-        "Hidden": false,
-        "FullName": "Leonard Grimes V"
+        "ExtraInfo": "vel",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Larissa Aufderhar"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "voluptate",
-    "Hidden": true,
-    "FullName": "Raven Beier"
+    "ExtraInfo": "ex",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Alva Elwin Brakus I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Hamill, Hickle and Kub",
-    "ToolTip": "Eum molestias ut aliquid.",
+    "Id": 858,
+    "Name": "Paucek-Homenick",
+    "ToolTip": "Voluptatem omnis earum.",
     "Deleted": true,
-    "Rank": 66,
-    "Type": "consequatur",
-    "ColorBlock": 90,
-    "IconHint": "blanditiis",
-    "Selected": true,
-    "LastChanged": "2015-01-23T23:04:05.2990021+01:00",
+    "Rank": 868,
+    "Type": "velit",
+    "ColorBlock": 258,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "2020-09-12T16:55:30.5326977+02:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Block, Oberbrunner and McLaughlin",
-        "ToolTip": "Sunt minima aut aliquid et facilis nihil.",
+        "Id": 67,
+        "Name": "Treutel-McKenzie",
+        "ToolTip": "Maxime aspernatur assumenda sapiente aliquid recusandae.",
         "Deleted": false,
-        "Rank": 308,
-        "Type": "dolores",
-        "ColorBlock": 696,
-        "IconHint": "quibusdam",
-        "Selected": true,
-        "LastChanged": "2000-05-11T23:04:05.2990021+02:00",
+        "Rank": 15,
+        "Type": "qui",
+        "ColorBlock": 111,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2007-11-18T16:55:30.5326977+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "tempora",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Miss Alexander Howard Sipes",
+        "FullName": "Granville Bailey V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 480
+            "FieldLength": 766
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "maiores",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Mr. Isadore Gusikowski",
+    "FullName": "Dayne Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 269
+        "FieldLength": 117
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 379,
-  "Name": "Willms-Rippin",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 826,
-  "Rank": 724,
+  "Id": 809,
+  "Name": "Medhurst Inc and Sons",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "UdListDefinitionId": 433,
+  "Rank": 782,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldLength": 309
     }
   }
 }

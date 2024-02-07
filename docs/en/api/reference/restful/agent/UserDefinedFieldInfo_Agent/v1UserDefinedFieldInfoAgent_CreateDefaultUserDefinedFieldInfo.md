@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 464,
-  "ColumnId": 470,
-  "FieldDefault": "blanditiis",
-  "FieldHeight": 77,
-  "FieldLabel": "ut",
-  "FieldLeft": 125,
-  "FieldTop": 566,
+  "UDefFieldId": 625,
+  "ColumnId": 796,
+  "FieldDefault": "ut",
+  "FieldHeight": 179,
+  "FieldLabel": "quis",
+  "FieldLeft": 868,
+  "FieldTop": 106,
   "FieldType": "Checkbox",
-  "FieldWidth": 717,
-  "FormatMask": "et",
-  "HideLabel": true,
+  "FieldWidth": 867,
+  "FormatMask": "dolores",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 142,
-  "LabelLeft": 937,
-  "LabelTop": 599,
-  "LabelWidth": 517,
-  "LastVersionId": 311,
-  "ListTableId": 94,
+  "LabelHeight": 863,
+  "LabelLeft": 893,
+  "LabelTop": 53,
+  "LabelWidth": 453,
+  "LastVersionId": 300,
+  "ListTableId": 976,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 461,
-  "ProgId": "harum",
+  "Page1LineNo": 54,
+  "ProgId": "voluptates",
   "IsReadOnly": false,
-  "ShortLabel": "veritatis",
-  "TabOrder": 406,
-  "TextLength": 162,
-  "Tooltip": "minima",
-  "UdefIdentity": 881,
-  "UDListDefinitionId": 490,
+  "ShortLabel": "modi",
+  "TabOrder": 63,
+  "TextLength": 999,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 273,
+  "UDListDefinitionId": 659,
   "Justification": "Center",
-  "Version": 705,
-  "TemplateVariableName": "Lesch-Balistreri",
-  "HasBeenPublished": false,
-  "MdoListName": "Anderson Group",
+  "Version": 280,
+  "TemplateVariableName": "Funk Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Stracke, Towne and Kirlin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 667
     }
   }
 }

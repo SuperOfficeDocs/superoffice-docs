@@ -80,16 +80,16 @@ OK
 PUT /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 291,
-  "Name": "Funk Group",
-  "Tooltip": "pariatur",
-  "Rank": 545,
-  "Key": "expedita",
-  "Deleted": false
+  "LegalBaseId": 284,
+  "Name": "Bartell Group",
+  "Tooltip": "porro",
+  "Rank": 692,
+  "Key": "est",
+  "Deleted": true
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 875,
-  "Name": "Wuckert Group",
-  "Tooltip": "sequi",
-  "Rank": 512,
-  "Key": "quod",
-  "Deleted": true,
+  "LegalBaseId": 321,
+  "Name": "Borer, Hansen and Windler",
+  "Tooltip": "suscipit",
+  "Rank": 81,
+  "Key": "aut",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 750
     }
   }
 }

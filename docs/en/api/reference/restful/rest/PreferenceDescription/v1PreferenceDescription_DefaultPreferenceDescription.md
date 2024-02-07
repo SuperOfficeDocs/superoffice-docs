@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 797,
-  "Section": "quaerat",
-  "Key": "in",
-  "Name": "Reilly, Wyman and Roob",
+  "PrefDescId": 964,
+  "Section": "provident",
+  "Key": "quod",
+  "Name": "Will, Fadel and Wisozk",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Realigned zero tolerance project",
+  "Description": "Pre-emptive encompassing policy",
   "IsBuiltin": false,
-  "TableName": "Rowe, Ritchie and Bernhard",
-  "UserDefinedListId": 129,
-  "Rank": 752,
-  "SubGroup": "quam",
-  "MinLevel": 801,
-  "MaxValue": 34,
-  "MinValue": 532,
-  "RequiredLicense": "adipisci",
+  "TableName": "Hyatt-Jacobs",
+  "UserDefinedListId": 903,
+  "Rank": 735,
+  "SubGroup": "officia",
+  "MinLevel": 899,
+  "MaxValue": 106,
+  "MinValue": 861,
+  "RequiredLicense": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 308
     }
   }
 }

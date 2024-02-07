@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=461
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=203
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 846,
-  "Name": "Kreiger LLC",
-  "Tooltip": "qui",
-  "SaveInDb": 824,
-  "Filename": "voluptatum",
-  "DefaultOref": "voluptas",
+  "DocumentTemplateId": 976,
+  "Name": "Armstrong-Huel",
+  "Tooltip": "aut",
+  "SaveInDb": 505,
+  "Filename": "architecto",
+  "DefaultOref": "vel",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 699,
-  "IntentId": 622,
-  "IsDefaultPublished": false,
-  "Rank": 632,
-  "LoadTemplateFromPlugin": 328,
-  "MimeType": "sint",
+  "AutoeventId": 476,
+  "IntentId": 301,
+  "IsDefaultPublished": true,
+  "Rank": 741,
+  "LoadTemplateFromPlugin": 305,
+  "MimeType": "tempora",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 842,
+  "DocumentTypeKey": 703,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "carlos@kohlerhilll.co.uk",
+  "EmailSubject": "prudence@johnson.ca",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "noemie_rogahn@armstrong.biz",
+  "SenderEmailAddress": "carole_rath@wiza.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   }
 }

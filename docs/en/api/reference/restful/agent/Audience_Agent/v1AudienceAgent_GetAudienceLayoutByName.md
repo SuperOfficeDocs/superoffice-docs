@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Schultz-Wuckert"
+  "LayoutName": "Thompson Group"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 705,
-  "InstanceLayout": "magni",
-  "InstanceName": "Christiansen Inc and Sons",
-  "CreatedDate": "2003-05-17T23:03:55.0106423+02:00",
-  "UpdatedDate": "1998-07-14T23:03:55.0106423+02:00",
+  "AudienceLayoutId": 932,
+  "InstanceLayout": "commodi",
+  "InstanceName": "Kerluke, Veum and Weimann",
+  "CreatedDate": "2000-04-29T16:54:54.5943946+02:00",
+  "UpdatedDate": "2008-07-04T16:54:54.5943946+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldLength": 464
     }
   }
 }

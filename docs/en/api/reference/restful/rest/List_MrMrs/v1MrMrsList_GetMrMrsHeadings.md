@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 452,
-    "Name": "Howe-Kutch",
-    "Tooltip": "consectetur",
+    "HeadingId": 788,
+    "Name": "Robel, Kuhn and Stanton",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 804,
-    "UdListDefinitionId": 460,
+    "Rank": 576,
+    "UdListDefinitionId": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldType": "System.String",
+        "FieldLength": 949
       }
     }
   }

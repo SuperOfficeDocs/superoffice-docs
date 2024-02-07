@@ -71,18 +71,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "nobis",
-  "NsPluginSender": "deleniti",
+  "NetServerSmsProvider": "fugit",
+  "NsPluginSender": "iure",
   "NsPluginConfig": {
-    "NsPluginConfig1": "sit",
-    "NsPluginConfig2": "nemo"
+    "NsPluginConfig1": "aperiam",
+    "NsPluginConfig2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

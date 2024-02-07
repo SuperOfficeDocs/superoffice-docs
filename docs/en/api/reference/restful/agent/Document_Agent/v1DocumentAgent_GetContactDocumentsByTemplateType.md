@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 591,
-  "StartTime": "2015-04-26T23:03:55.6631332+02:00",
-  "EndTime": "2020-08-27T23:03:55.6631332+02:00",
-  "Count": 754,
-  "DocumentTemplateId": 365
+  "ContactId": 124,
+  "StartTime": "2019-02-08T16:54:55.1323895+01:00",
+  "EndTime": "2000-11-25T16:54:55.1323895+01:00",
+  "Count": 339,
+  "DocumentTemplateId": 885
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 770,
-    "Attention": "consequuntur",
-    "Header": "voluptatem",
-    "Name": "Feest-Dooley",
-    "OurRef": "voluptatum",
-    "YourRef": "neque",
-    "Description": "Cloned needs-based info-mediaries",
-    "DocumentTemplate": "omnis",
+    "DocumentId": 916,
+    "Attention": "qui",
+    "Header": "excepturi",
+    "Name": "Ritchie-Schuppe",
+    "OurRef": "mollitia",
+    "YourRef": "reiciendis",
+    "Description": "Configurable 24 hour frame",
+    "DocumentTemplate": "iusto",
     "IsPublished": false,
-    "PersonId": 302,
-    "PersonFullName": "Miss Jamir Merle Wyman PhD",
-    "AssociateFullName": "Bulah Bogan",
-    "ContactId": 748,
-    "ContactName": "Rau-Volkman",
-    "ProjectId": 575,
-    "ProjectName": "Prohaska, Bosco and Stoltenberg",
-    "AssociateId": 485,
-    "Snum": 143,
-    "SaleId": 724,
-    "SaleName": "Altenwerth-Grimes",
+    "PersonId": 217,
+    "PersonFullName": "Rupert Reichel",
+    "AssociateFullName": "Mrs. Kathryne Felton Bahringer MD",
+    "ContactId": 718,
+    "ContactName": "Hodkiewicz Group",
+    "ProjectId": 663,
+    "ProjectName": "Jacobi, Bernhard and Lynch",
+    "AssociateId": 20,
+    "Snum": 367,
+    "SaleId": 344,
+    "SaleName": "O'Conner, Larson and Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 851
+        "FieldLength": 73
       }
     }
   }

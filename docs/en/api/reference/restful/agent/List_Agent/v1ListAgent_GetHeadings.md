@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 488,
-  "ListItemId": 414,
+  "UdListDefinitionId": 67,
+  "ListItemId": 59,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Bailey-Pagac",
-    "ToolTip": "Sunt dolores sunt voluptatum.",
+    "Id": 936,
+    "Name": "Mraz, Frami and Ondricka",
+    "ToolTip": "Molestiae itaque veniam architecto reprehenderit quas accusantium velit.",
     "Deleted": true,
-    "Rank": 570,
-    "Type": "sint",
-    "ColorBlock": 242,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "2008-08-03T23:03:56.2186231+02:00",
+    "Rank": 862,
+    "Type": "alias",
+    "ColorBlock": 790,
+    "IconHint": "facere",
+    "Selected": false,
+    "LastChanged": "2000-11-09T16:54:55.5669847+01:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "O'Connell Group",
-        "ToolTip": "Sint aliquid sit.",
-        "Deleted": false,
-        "Rank": 877,
-        "Type": "et",
-        "ColorBlock": 25,
-        "IconHint": "alias",
-        "Selected": false,
-        "LastChanged": "2016-10-22T23:03:56.2186231+02:00",
+        "Id": 82,
+        "Name": "Stark, Cummerata and Renner",
+        "ToolTip": "Voluptas magnam natus animi.",
+        "Deleted": true,
+        "Rank": 193,
+        "Type": "occaecati",
+        "ColorBlock": 63,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2012-09-07T16:54:55.5669847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "saepe",
+        "ExtraInfo": "quia",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Ms. Florencio Kristian Nienow DVM",
+        "FullName": "Arturo Gislason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldLength": 544
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "illum",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Hershel Lemke",
+    "FullName": "Ms. Waino Alfreda Lehner MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 471
       }
     }
   }

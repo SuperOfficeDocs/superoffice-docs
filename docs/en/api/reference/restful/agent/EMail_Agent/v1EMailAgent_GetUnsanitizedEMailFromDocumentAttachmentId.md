@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 961,
+  "DocId": 851,
   "AttachmentIds": [
-    "sapiente",
-    "laborum"
+    "saepe",
+    "omnis"
   ],
   "IncludeAttachments": false
 }
@@ -127,97 +127,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 384,
-      "ContactName": "Hermiston-Osinski",
-      "PersonId": 321,
-      "PersonName": "Walter, Baumbach and Lueilwitz",
-      "AssociateId": 277,
-      "Address": "eum",
-      "EmailId": 634,
+      "ContactId": 346,
+      "ContactName": "O'Reilly, Zieme and Stanton",
+      "PersonId": 843,
+      "PersonName": "Langworth-Corkery",
+      "AssociateId": 795,
+      "Address": "earum",
+      "EmailId": 680,
       "DuplicatePersonIds": [
-        808,
-        312
+        929,
+        948
       ],
-      "Name": "Pfannerstill, Walter and Connelly",
+      "Name": "Schowalter-Crona",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 383
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 255,
-      "ContactName": "Auer LLC",
-      "PersonId": 189,
-      "PersonName": "Ratke LLC",
-      "AssociateId": 319,
-      "Address": "error",
-      "EmailId": 831,
+      "ContactId": 890,
+      "ContactName": "Abbott, Watsica and Stracke",
+      "PersonId": 426,
+      "PersonName": "Dare-Kovacek",
+      "AssociateId": 317,
+      "Address": "et",
+      "EmailId": 426,
       "DuplicatePersonIds": [
-        236,
-        154
+        578,
+        926
       ],
-      "Name": "Goldner-Corkery",
+      "Name": "Carter, Lubowitz and Stehr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldLength": 76
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 204,
-      "ContactName": "Schaefer-Zieme",
-      "PersonId": 913,
-      "PersonName": "Conn Group",
-      "AssociateId": 57,
-      "Address": "autem",
-      "EmailId": 126,
+      "ContactId": 472,
+      "ContactName": "Price LLC",
+      "PersonId": 465,
+      "PersonName": "Hammes-Watsica",
+      "AssociateId": 421,
+      "Address": "voluptate",
+      "EmailId": 545,
       "DuplicatePersonIds": [
-        598,
-        858
+        639,
+        863
       ],
-      "Name": "Medhurst-O'Kon",
+      "Name": "Ernser-Nitzsche",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 296
         }
       }
     }
   ],
-  "Subject": "voluptas",
-  "HTMLBody": "dolor",
+  "Subject": "consequuntur",
+  "HTMLBody": "eveniet",
   "From": null,
-  "Sent": "2006-05-07T23:03:55.9941288+02:00",
-  "Size": 185,
+  "Sent": "2017-05-19T16:54:55.3889477+02:00",
+  "Size": 1002,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "delectus",
-  "PlainBody": "quas",
-  "IsSent": true,
+  "MessageID": "dolorum",
+  "PlainBody": "autem",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 554,
+  "ServerId": 797,
   "Attachments": [
     {
-      "Description": "Reduced web-enabled productivity",
-      "Filename": "nobis",
-      "Size": 827,
-      "Type": "ut",
-      "Encoding": "quisquam",
-      "Id": "ut",
-      "Disposition": "quas",
+      "Description": "Advanced encompassing projection",
+      "Filename": "aut",
+      "Size": 257,
+      "Type": "et",
+      "Encoding": "illum",
+      "Id": "velit",
+      "Disposition": "distinctio",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -225,58 +225,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 252
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kuhn, Osinski and Lebsack",
+      "Name": "Smitham-Becker",
       "Values": [
-        "voluptatibus",
-        "rerum"
+        "id",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 139
         }
       }
     },
     {
-      "Name": "Kuhn, Osinski and Lebsack",
+      "Name": "Smitham-Becker",
       "Values": [
-        "voluptatibus",
-        "rerum"
+        "id",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 139
         }
       }
     }
   ],
-  "FolderName": "Waelchi LLC",
-  "EmailItemId": 92,
-  "AccountId": 145,
-  "ReceivedAt": "2006-11-09T23:03:55.9941288+01:00",
+  "FolderName": "Pacocha, Luettgen and Roberts",
+  "EmailItemId": 822,
+  "AccountId": 999,
+  "ReceivedAt": "2005-11-24T16:54:55.3899499+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-06-04T23:03:55.9941288+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-06-30T16:54:55.3899499+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 175
     }
   }
 }

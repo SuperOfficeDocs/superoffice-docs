@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 66,
-  "Channel": "veniam",
-  "Regarding": "maxime",
-  "ContactName": "King Inc and Sons",
-  "PersonFirstname": "Marianna",
-  "PersonLastname": "Doyle",
-  "EmailAddress": "waldo.howell@zemlak.uk",
-  "PhoneNumber": "693474"
+  "AssociateIdForNewContact": 756,
+  "Channel": "vero",
+  "Regarding": "numquam",
+  "ContactName": "Flatley-Trantow",
+  "PersonFirstname": "Dolly",
+  "PersonLastname": "Gorczany",
+  "EmailAddress": "marjorie@kautzer.info",
+  "PhoneNumber": "1425736"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 863,
-      "Name": "Macejkovic-Windler",
-      "OrgNr": "1631850",
+      "ContactId": 736,
+      "Name": "Klein LLC",
+      "OrgNr": "1538849",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "et",
-      "DirectPhone": "031-831-2163 x28604",
-      "AssociateId": 779,
-      "CountryId": 531,
-      "EmailAddress": "natasha@casper.us",
-      "Kananame": "nemo",
-      "EmailAddressName": "kris_cummerata@koepp.uk",
+      "City": "velit",
+      "DirectPhone": "1-228-439-8352",
+      "AssociateId": 628,
+      "CountryId": 748,
+      "EmailAddress": "shanie@schroedermertz.info",
+      "Kananame": "aspernatur",
+      "EmailAddressName": "anne@yostmitchell.us",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "River Vesta Ebert V",
+      "AssociateFullName": "Kaycee Tillman",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "minus",
-      "FullName": "Margarete Connelly",
+      "FormattedAddress": "iusto",
+      "FullName": "Lenny Konopelski",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 30,
-      "Number1": "1217688",
-      "Number2": "1400889",
+      "ActiveErpLinks": 976,
+      "Number1": "67064",
+      "Number2": "749067",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldLength": 835
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 41
     }
   }
 }

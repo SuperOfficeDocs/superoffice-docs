@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 926
+  "AssociateId": 577
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 816,
-    "AssociateId": 964,
-    "Caption": "quidem",
+    "DashboardId": 57,
+    "AssociateId": 432,
+    "Caption": "adipisci",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 31,
-        "Caption": "dolorem",
-        "Description": "Re-engineered context-sensitive algorithm",
-        "ChartName": "Schmidt, Reichel and Dibbert",
-        "ChartId": "accusantium",
+        "DashboardTileId": 419,
+        "Caption": "assumenda",
+        "Description": "Multi-layered coherent productivity",
+        "ChartName": "Rice, Lowe and Hand",
+        "ChartId": "praesentium",
         "IsDefault": false,
-        "AssociateId": 787,
-        "GroupId": 40,
-        "SelectionId": 498,
-        "Config": "illum",
+        "AssociateId": 94,
+        "GroupId": 362,
+        "SelectionId": 115,
+        "Config": "veniam",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldLength": 586
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldType": "System.String",
+        "FieldLength": 366
       }
     }
   }

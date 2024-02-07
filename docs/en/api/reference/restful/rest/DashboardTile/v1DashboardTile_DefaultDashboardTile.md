@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 2,
-  "Caption": "iure",
-  "Description": "Implemented incremental interface",
-  "ChartName": "Hane, Watsica and King",
-  "ChartId": "qui",
+  "DashboardTileId": 628,
+  "Caption": "sunt",
+  "Description": "Business-focused 3rd generation monitoring",
+  "ChartName": "Tromp Inc and Sons",
+  "ChartId": "consectetur",
   "IsDefault": true,
-  "AssociateId": 926,
-  "GroupId": 262,
-  "SelectionId": 289,
-  "Config": "autem",
+  "AssociateId": 665,
+  "GroupId": 258,
+  "SelectionId": 583,
+  "Config": "quod",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Dare, Senger and Collins",
-      "Description": "Expanded tangible complexity",
+      "Name": "Champlin LLC",
+      "Description": "Exclusive optimizing access",
       "Type": "Boolean",
-      "ListName": "Halvorson, Bernhard and Padberg",
+      "ListName": "Greenholt, Larson and Schinner",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "laborum",
+      "Value": "et",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 255
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 247,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 158
         }
       }
     },
     {
-      "VisibleId": 247,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 158
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

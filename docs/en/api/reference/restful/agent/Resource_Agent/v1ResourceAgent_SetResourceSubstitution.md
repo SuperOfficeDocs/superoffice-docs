@@ -71,10 +71,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Ernser-Goldner",
-  "ResourceValues": "enim",
-  "Culture": "asperiores",
-  "IsActive": true
+  "ResourceName": "Lind Group",
+  "ResourceValues": "cupiditate",
+  "Culture": "sint",
+  "IsActive": false
 }
 ```
 

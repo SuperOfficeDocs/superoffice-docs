@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 79,
-  "Name": "Gleason Group",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "Rank": 858,
-  "IsCustomList": true,
+  "Id": 281,
+  "Name": "Emard Inc and Sons",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 513,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 215,
-  "Name": "Abernathy Group",
-  "Tooltip": "aut",
+  "Id": 661,
+  "Name": "Ankunding, Christiansen and Grimes",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 435,
-  "IsCustomList": false,
+  "Rank": 474,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldLength": 457
     }
   }
 }

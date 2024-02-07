@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 932
+  "QuoteId": 874
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 652,
-    "ERPQuoteVersionKey": "omnis",
-    "QuoteId": 610,
-    "Description": "Down-sized 24 hour knowledge user",
-    "Number": "304224",
+    "QuoteVersionId": 53,
+    "ERPQuoteVersionKey": "tenetur",
+    "QuoteId": 71,
+    "Description": "Vision-oriented encompassing parallelism",
+    "Number": "1139816",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 240,
-    "SentDate": "2017-10-18T23:03:56.7206202+02:00",
-    "FollowupId": 306,
-    "ExpirationDate": "1998-06-30T23:03:56.7206202+02:00",
-    "DeliveryCountryId": 797,
+    "LikelyQuoteAlternativeId": 991,
+    "SentDate": "2008-07-01T16:54:56.0981615+02:00",
+    "FollowupId": 506,
+    "ExpirationDate": "2006-11-17T16:54:56.0981615+01:00",
+    "DeliveryCountryId": 595,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 698,
+    "InvoiceCountryId": 404,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "cumque",
-    "ERPPaymentTypeKey": "autem",
-    "ERPDeliveryTermsKey": "rerum",
-    "ERPDeliveryTypeKey": "ut",
-    "Rank": 858,
-    "ApprovedBy": 77,
-    "ApprovedText": "doloribus",
-    "ApprovedRegisteredBy": 530,
-    "ApprovedRegisteredDate": "2006-02-09T23:03:56.7206202+01:00",
-    "ExtraField1": "vitae",
-    "ExtraField2": "quis",
-    "ExtraField3": "est",
-    "ExtraField4": "sed",
-    "ExtraField5": "dignissimos",
-    "LastRecalculated": "1999-07-05T23:03:56.7206202+02:00",
-    "Updated": "2000-11-23T23:03:56.7206202+01:00",
-    "UpdatedAssociateId": 87,
-    "Registered": "2019-08-14T23:03:56.7206202+02:00",
-    "RegisteredAssociateId": 559,
-    "RequestAssociateId": 174,
-    "RequestComment": "dolorem",
+    "ERPPaymentTermsKey": "quae",
+    "ERPPaymentTypeKey": "aut",
+    "ERPDeliveryTermsKey": "maxime",
+    "ERPDeliveryTypeKey": "et",
+    "Rank": 314,
+    "ApprovedBy": 527,
+    "ApprovedText": "ratione",
+    "ApprovedRegisteredBy": 937,
+    "ApprovedRegisteredDate": "2020-08-28T16:54:56.0981615+02:00",
+    "ExtraField1": "ex",
+    "ExtraField2": "et",
+    "ExtraField3": "et",
+    "ExtraField4": "soluta",
+    "ExtraField5": "quisquam",
+    "LastRecalculated": "2008-07-08T16:54:56.099141+02:00",
+    "Updated": "2016-12-18T16:54:56.099141+01:00",
+    "UpdatedAssociateId": 603,
+    "Registered": "2019-02-08T16:54:56.099141+01:00",
+    "RegisteredAssociateId": 935,
+    "RequestAssociateId": 923,
+    "RequestComment": "quod",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 477,
-        "ERPQuoteAlternativeKey": "rerum",
-        "QuoteVersionId": 789,
-        "Name": "West LLC",
-        "Description": "Enterprise-wide asynchronous extranet",
+        "QuoteAlternativeId": 660,
+        "ERPQuoteAlternativeKey": "mollitia",
+        "QuoteVersionId": 860,
+        "Name": "Blick-Keeling",
+        "Description": "Ergonomic object-oriented flexibility",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 8521.346,
-        "ERPDiscountAmount": 18675.505999999998,
-        "DiscountPercent": 23874.811999999998,
-        "DiscountAmount": 19603.17,
+        "ERPDiscountPercent": 27416.232,
+        "ERPDiscountAmount": 13980.774,
+        "DiscountPercent": 22354.822,
+        "DiscountAmount": 2074.708,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "aliquam",
-        "VAT": 20847.368,
-        "EarningPercent": 25921.314,
-        "EarningAmount": 651.872,
-        "SubTotal": 31004.662,
-        "TotalPrice": 14532.358,
-        "ExtraField1": "recusandae",
-        "ExtraField2": "sit",
-        "ExtraField3": "aut",
-        "ExtraField4": "neque",
-        "ExtraField5": "sed",
+        "VATInfo": "libero",
+        "VAT": 27337.881999999998,
+        "EarningPercent": 23962.564,
+        "EarningAmount": 20562.174,
+        "SubTotal": 7518.4659999999994,
+        "TotalPrice": 9630.782,
+        "ExtraField1": "optio",
+        "ExtraField2": "molestiae",
+        "ExtraField3": "ut",
+        "ExtraField4": "nihil",
+        "ExtraField5": "fugiat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 266
+            "FieldType": "System.Int32",
+            "FieldLength": 740
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 53
       }
     }
   }

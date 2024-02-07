@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-lateral reciprocal flexibility",
-  "Filename": "quisquam",
-  "Size": 790,
-  "Type": "totam",
-  "Encoding": "facere",
-  "Id": "unde",
-  "Disposition": "sint",
-  "IsSafeFileExtension": true,
+  "Description": "Down-sized mission-critical info-mediaries",
+  "Filename": "dolor",
+  "Size": 668,
+  "Type": "enim",
+  "Encoding": "nobis",
+  "Id": "est",
+  "Disposition": "aliquam",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 97
     }
   }
 }

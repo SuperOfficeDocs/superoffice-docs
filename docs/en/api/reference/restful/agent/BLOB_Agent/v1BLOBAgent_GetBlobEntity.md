@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=75
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=939
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 568,
-  "BlobSize": 798,
-  "Description": "Integrated tangible contingency",
-  "ExtraInfo": "corrupti",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "consequatur",
-  "OriginalSize": 137,
-  "CreatedDate": "1997-10-17T23:03:55.0356425+02:00",
-  "UpdatedDate": "2021-01-17T23:03:55.0356425+01:00",
+  "BlobId": 653,
+  "BlobSize": 750,
+  "Description": "Function-based real-time projection",
+  "ExtraInfo": "eaque",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "esse",
+  "OriginalSize": 785,
+  "CreatedDate": "2019-01-26T16:54:54.6133041+01:00",
+  "UpdatedDate": "2011-02-14T16:54:54.6133041+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eum",
+  "ConceptualType": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 859
     }
   }
 }

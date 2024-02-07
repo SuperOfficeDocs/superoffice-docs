@@ -68,7 +68,7 @@ SelectionEntity found.
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 12 Mar 2010 23:04:04 G3T
+Last-Modified: Sat, 19 Mar 2016 16:55:30 G3T
 
 {
-  "Description": "Robust upward-trending approach",
-  "Postit": "ea",
+  "Description": "Managed multimedia Graphical User Interface",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 593,
-  "IncludePerson": 748,
-  "MemberCount": 513,
-  "Name": "Parker, Ankunding and Jast",
-  "PostitTextId": 66,
-  "CreatedDate": "1997-10-28T23:04:04.7770086+01:00",
-  "SelectionId": 348,
-  "SoundEx": "earum",
-  "Source": 121,
-  "TextId": 851,
-  "UpdatedDate": "2010-03-12T23:04:04.7770086+01:00",
-  "UpdatedCount": 611,
-  "Visibility": 560,
+  "GroupIdx": 836,
+  "IncludePerson": 547,
+  "MemberCount": 313,
+  "Name": "Lind, Sanford and Kessler",
+  "PostitTextId": 155,
+  "CreatedDate": "2007-04-11T16:55:30.1230211+02:00",
+  "SelectionId": 95,
+  "SoundEx": "illo",
+  "Source": 688,
+  "TextId": 269,
+  "UpdatedDate": "2016-03-19T16:55:30.1230211+01:00",
+  "UpdatedCount": 277,
+  "Visibility": 648,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 626,
-  "TargetTableName": "O'Hara LLC",
-  "Completed": false,
-  "LeftSelectionId": 581,
-  "RightSelectionId": 136,
+  "CompanyUnique": true,
+  "TargetTableNumber": 938,
+  "TargetTableName": "Littel, Kovacek and Borer",
+  "Completed": true,
+  "LeftSelectionId": 469,
+  "RightSelectionId": 64,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bashirian Group",
-  "ShadowProviderName": "Hermiston-Lakin",
-  "ChartKey": "nobis",
-  "LastLoaded": "2002-12-13T23:04:04.7775105+01:00",
-  "LastLoadedBy": 20,
+  "MainProviderName": "Lesch-Towne",
+  "ShadowProviderName": "O'Kon LLC",
+  "ChartKey": "tempora",
+  "LastLoaded": "2005-09-20T16:55:30.1230211+02:00",
+  "LastLoadedBy": 732,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-03-22T23:04:04.7775105+01:00",
-  "LastMembershipChangeBy": 748,
+  "LastMembershipChange": "1997-06-21T16:55:30.1240203+02:00",
+  "LastMembershipChangeBy": 611,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ducimus",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Medhurst, Reilly and Swift",
-  "DashboardTileDefinitionId": 284,
+  "MainHeading": "culpa",
+  "MemberTabHeading": "id",
+  "MailingsProviderName": "Pagac-Gibson",
+  "DashboardTileDefinitionId": 633,
   "VisibleFor": [
     {
-      "VisibleId": 554,
+      "VisibleId": 304,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 516
+          "FieldLength": 237
         }
       }
     },
     {
-      "VisibleId": 554,
+      "VisibleId": 304,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 516
+          "FieldLength": 237
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Fri, 12 Mar 2010 23:04:04 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 276
     }
   },
   "_Links": {

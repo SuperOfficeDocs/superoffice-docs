@@ -84,11 +84,11 @@ OK
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| DocumentTemplate | DocumentTemplate | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
-| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| DocumentTemplate | DocumentTemplate | The template type of the document.  Use MDO List name "doctmpl" to get list items. |
+| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  Use MDO List name "person" to get list items. |
+| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  Use MDO List name "associate" to get list items. |
+| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  Use MDO List name "contact" to get list items. |
+| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  Use MDO List name "project" to get list items. |
 | Date | date-time | date + start time planned |
 | ExternalRef | string | External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever) |
 | Completed | string | Document Completed state. This is the part of the Status property. |
@@ -96,12 +96,12 @@ OK
 | Type | string | Is this a normal document or a mail-merge or report? |
 | Links | array | List of all elements linked to the document. |
 | LockSemantics | string |  |
-| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  Use MDO List name "sale" to get list items. |
 | SuggestedDocumentId | int32 | Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.DocumentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.DocumentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.DocumentEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 4,
-  "PersonId": 780,
-  "AppointmentId": 462,
-  "DocumentId": 547,
-  "SaleId": 896,
-  "SelectionId": 61,
-  "ProjectId": 480,
+  "ContactId": 61,
+  "PersonId": 25,
+  "AppointmentId": 633,
+  "DocumentId": 191,
+  "SaleId": 312,
+  "SelectionId": 945,
+  "ProjectId": 585,
   "CustomTags": {
-    "CustomTags1": "aut",
-    "CustomTags2": "beatae"
+    "CustomTags1": "quia",
+    "CustomTags2": "minus"
   },
-  "UiCulture": "voluptatem"
+  "UiCulture": "porro"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 742,
+  "DocumentId": 255,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "illo",
-  "Header": "consequatur",
-  "Name": "Denesik-Schoen",
-  "OurRef": "sed",
-  "YourRef": "fugiat",
-  "CreatedDate": "2001-02-20T23:03:55.7936326+01:00",
-  "UpdatedDate": "2008-12-22T23:03:55.7936326+01:00",
-  "Description": "Re-engineered multi-tasking encoding",
+  "Attention": "qui",
+  "Header": "exercitationem",
+  "Name": "Paucek-Corwin",
+  "OurRef": "ipsa",
+  "YourRef": "molestiae",
+  "CreatedDate": "2004-12-15T16:54:55.239903+01:00",
+  "UpdatedDate": "2000-04-03T16:54:55.239903+02:00",
+  "Description": "Enhanced didactic extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-02-07T23:03:55.7976335+01:00",
-  "ExternalRef": "quia",
+  "Date": "2012-06-16T16:54:55.2419139+02:00",
+  "ExternalRef": "ipsum",
   "Completed": "Completed",
-  "ActiveLinks": 438,
+  "ActiveLinks": 649,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kunde-Parisian",
-      "Id": 308,
-      "Description": "Re-contextualized optimal process improvement",
-      "ExtraInfo": "et",
-      "LinkId": 809,
+      "EntityName": "Johnston, Grady and Schuster",
+      "Id": 966,
+      "Description": "Cross-group homogeneous groupware",
+      "ExtraInfo": "repudiandae",
+      "LinkId": 562,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldType": "System.String",
+          "FieldLength": 892
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 560,
-  "Snum": 424,
+  "SuggestedDocumentId": 887,
+  "Snum": 988,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ashton Runolfsson",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "2030321577",
+    "SuperOffice:2": "1585095809"
   },
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "id"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2016-06-25T23:03:55.7981315+02:00",
-  "PublishTo": "2000-03-19T23:03:55.7981315+01:00",
-  "PublishFrom": "2020-12-31T23:03:55.7981315+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2001-03-26T16:54:55.2429113+02:00",
+  "PublishTo": "2000-03-12T16:54:55.2429113+01:00",
+  "PublishFrom": "2000-01-03T16:54:55.2429113+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 414,
+      "VisibleId": 513,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 3
         }
       }
     },
     {
-      "VisibleId": 414,
+      "VisibleId": 513,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 3
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldType": "System.Int32",
+      "FieldLength": 407
     }
   }
 }

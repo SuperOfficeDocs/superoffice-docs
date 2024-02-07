@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 517,
-  "Caption": "veritatis",
-  "Description": "Profound actuating knowledge base",
-  "ChartName": "Doyle Inc and Sons",
-  "ChartId": "possimus",
+  "DashboardTileId": 440,
+  "Caption": "velit",
+  "Description": "Ergonomic radical pricing structure",
+  "ChartName": "Dach, Keebler and Tromp",
+  "ChartId": "libero",
   "IsDefault": false,
-  "AssociateId": 765,
-  "GroupId": 93,
-  "SelectionId": 246,
-  "Config": "dolores",
+  "AssociateId": 158,
+  "GroupId": 769,
+  "SelectionId": 410,
+  "Config": "molestias",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Haley-Dach",
-      "Description": "Visionary transitional groupware",
+      "Name": "Cremin LLC",
+      "Description": "Up-sized human-resource policy",
       "Type": "Boolean",
-      "ListName": "Wisoky Group",
+      "ListName": "Sanford-Crist",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptas",
-      "DefaultDataOption": false,
+      "Value": "qui",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 131
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 386,
+      "VisibleId": 270,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldType": "System.String",
+          "FieldLength": 788
         }
       }
     },
     {
-      "VisibleId": 386,
+      "VisibleId": 270,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldType": "System.String",
+          "FieldLength": 788
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldLength": 648
     }
   }
 }

@@ -77,13 +77,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsEnabled": false,
-  "PollingInterval": 640,
+  "PollingInterval": 777,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

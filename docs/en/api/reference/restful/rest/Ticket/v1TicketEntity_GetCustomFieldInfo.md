@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Funk Inc and Sons",
-  "DisplayName": "Bernier, Rempel and Konopelski",
-  "Description": "Customer-focused directional attitude",
-  "ShortLabel": "ducimus",
+  "FieldName": "Prosacco-Treutel",
+  "DisplayName": "Christiansen, Cormier and Fritsch",
+  "Description": "Intuitive web-enabled intranet",
+  "ShortLabel": "tempora",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
   "IsMandatory": true,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 184,
-  "TemplateVariableName": "Harber-Schmitt"
+  "IsExternal": true,
+  "Rank": 893,
+  "TemplateVariableName": "Buckridge Group"
 }
 ```

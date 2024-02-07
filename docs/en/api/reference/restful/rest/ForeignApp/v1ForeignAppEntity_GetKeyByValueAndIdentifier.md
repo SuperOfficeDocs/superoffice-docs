@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=a
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=reprehenderit
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 09 Oct 2003 23:04:04 G10T
+Last-Modified: Sat, 02 Jul 2005 16:55:29 G7T
 
 {
-  "Key": "quo",
-  "Value": "ut",
-  "RecordId": 799,
-  "CreatedDate": "2011-08-07T23:04:04.2325179+02:00",
-  "UpdatedDate": "2003-10-09T23:04:04.2325179+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "ratione",
-  "TableName": "Homenick LLC",
+  "Key": "dicta",
+  "Value": "saepe",
+  "RecordId": 545,
+  "CreatedDate": "2015-01-21T16:55:29.6594388+01:00",
+  "UpdatedDate": "2005-07-02T16:55:29.6604374+02:00",
+  "UpdatedBy": "a",
+  "CreatedBy": "unde",
+  "TableName": "Spinka LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   }
 }

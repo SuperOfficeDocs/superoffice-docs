@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 438,
-  "AppointmentId": 284,
-  "ProjectId": 922,
-  "SaleId": 718,
+  "DocumentId": 708,
+  "AppointmentId": 229,
+  "ProjectId": 718,
+  "SaleId": 656,
   "Archived": true,
-  "ArchivedAt": "2018-04-08T23:03:55.9331294+02:00",
-  "ArchivedBy": 908,
-  "ArchivedDisplayName": "Kuvalis-Sawayn",
+  "ArchivedAt": "2001-09-24T16:54:55.3424251+02:00",
+  "ArchivedBy": 975,
+  "ArchivedDisplayName": "Barrows-Lindgren",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 540
     }
   }
 }

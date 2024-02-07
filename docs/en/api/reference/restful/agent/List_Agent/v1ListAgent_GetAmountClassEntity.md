@@ -26,7 +26,7 @@ Gets a AmountClassEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=411
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=268
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
 
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 149,
-  "Name": "O'Kon LLC",
-  "Tooltip": "nemo",
-  "Rank": 961,
-  "AmountFrom": 24235.221999999998,
-  "AmountTo": 7361.766,
+  "AmountClassId": 571,
+  "Name": "Hayes-Nienow",
+  "Tooltip": "sint",
+  "Rank": 152,
+  "AmountFrom": 4804.422,
+  "AmountTo": 1469.846,
   "Deleted": false,
-  "CurrencyId": 382,
+  "CurrencyId": 419,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 651
     }
   }
 }

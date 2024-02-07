@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 556,
-  "Name": "Boehm-Pacocha",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "UdListDefinitionId": 722,
-  "Rank": 452,
+  "Id": 847,
+  "Name": "Reynolds-Yost",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "UdListDefinitionId": 501,
+  "Rank": 292,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

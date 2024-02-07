@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Corwin, Smitham and Ebert",
-      "Delimiter": "quasi",
-      "Flags": "eveniet",
-      "TotalItems": 648,
-      "UnreadItems": 1002,
+      "Name": "Crist-Rempel",
+      "Delimiter": "rerum",
+      "Flags": "architecto",
+      "TotalItems": 289,
+      "UnreadItems": 831,
       "Subscribed": true,
-      "EmailFolderId": 839
+      "EmailFolderId": 532
     }
   ]
 }

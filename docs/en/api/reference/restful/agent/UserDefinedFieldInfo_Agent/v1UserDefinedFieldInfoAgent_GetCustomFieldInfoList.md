@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bruen Group",
-  "IncludeStandard": true
+  "TableName": "Towne-Labadie",
+  "IncludeStandard": false
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Lakin-Kihn",
-    "DisplayName": "Franecki-Stoltenberg",
-    "Description": "Reverse-engineered fault-tolerant circuit",
-    "ShortLabel": "repudiandae",
-    "HideLabel": true,
+    "FieldName": "Breitenberg, Heaney and Marquardt",
+    "DisplayName": "Donnelly Inc and Sons",
+    "Description": "Persevering exuding projection",
+    "ShortLabel": "illum",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 552,
-    "TemplateVariableName": "Walsh Inc and Sons"
+    "Rank": 373,
+    "TemplateVariableName": "Altenwerth-Mertz"
   }
 ]
 ```

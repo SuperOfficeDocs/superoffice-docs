@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 158,
-  "ViewState": "sit",
-  "FromDate": "2019-09-20T23:03:55.6581335+02:00"
+  "AssociateId": 38,
+  "ViewState": "unde",
+  "FromDate": "2016-10-17T16:54:55.1272741+02:00"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -95,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 528,
+  "CRMScriptId": 896,
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "tenetur",
-    "InputValues2": "omnis"
+    "InputValues1": "sit",
+    "InputValues2": "molestiae"
   },
   "BlockExecution": false,
-  "NavigateTo": "atque",
-  "Message": "a",
-  "ShowDialog": "et",
+  "NavigateTo": "ullam",
+  "Message": "non",
+  "ShowDialog": "esse",
   "OutputValues": {
-    "OutputValues1": "suscipit",
-    "OutputValues2": "sequi"
+    "OutputValues1": "quod",
+    "OutputValues2": "qui"
   },
   "StateValues": {
-    "StateValues1": "accusantium",
-    "StateValues2": "sit"
+    "StateValues1": "et",
+    "StateValues2": "molestiae"
   },
-  "Exception": "qui",
+  "Exception": "magnam",
   "ParserValues": {
-    "ParserValues1": "est",
-    "ParserValues2": "qui"
+    "ParserValues1": "quos",
+    "ParserValues2": "enim"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
-    "CgiVariables2": "ut"
+    "CgiVariables1": "voluptas",
+    "CgiVariables2": "quo"
   },
-  "CgiContent": "repellendus",
+  "CgiContent": "culpa",
   "Headers": {
-    "Headers1": "ab",
-    "Headers2": "harum"
+    "Headers1": "voluptate",
+    "Headers2": "numquam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 989
     }
   }
 }

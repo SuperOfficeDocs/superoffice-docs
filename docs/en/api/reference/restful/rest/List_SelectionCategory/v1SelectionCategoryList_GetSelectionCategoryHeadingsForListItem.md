@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Dietrich Group",
-    "ToolTip": "Deleniti et iste et eveniet vel.",
+    "Id": 211,
+    "Name": "Ritchie, Toy and Cormier",
+    "ToolTip": "Ex expedita accusamus.",
     "Deleted": true,
-    "Rank": 719,
-    "Type": "dolore",
-    "ColorBlock": 927,
-    "IconHint": "ea",
+    "Rank": 819,
+    "Type": "architecto",
+    "ColorBlock": 399,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2022-12-26T23:04:05.8669943+01:00",
+    "LastChanged": "2000-06-08T16:55:31.090279+02:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Bailey-McCullough",
-        "ToolTip": "Dolorem dolorem placeat animi est vitae tempore ipsum.",
-        "Deleted": true,
-        "Rank": 689,
-        "Type": "quos",
-        "ColorBlock": 379,
-        "IconHint": "culpa",
-        "Selected": false,
-        "LastChanged": "2009-03-22T23:04:05.881997+01:00",
+        "Id": 526,
+        "Name": "Wolff, Bode and Greenholt",
+        "ToolTip": "Aliquid vero asperiores.",
+        "Deleted": false,
+        "Rank": 932,
+        "Type": "perferendis",
+        "ColorBlock": 769,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2013-12-20T16:55:31.090279+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "impedit",
+        "ExtraInfo": "delectus",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Ora Weissnat",
+        "FullName": "Dr. Tessie Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 474
+            "FieldLength": 898
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "magni",
+    "StyleHint": "repudiandae",
     "Hidden": true,
-    "FullName": "Chaim Langworth",
+    "FullName": "Prof. Deontae Murphy IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldLength": 250
       }
     }
   }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 35
+  "SaleId": 336
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 611,
-  "SaleId": 359,
-  "QuoteConnectionId": 519,
-  "ERPQuoteKey": "consequatur",
-  "ERPOrderKey": "error",
-  "ActiveQuoteVersionId": 618,
-  "AcceptedQuoteAlternativeId": 978,
-  "UseValuesFromQuote": 575,
-  "DocumentId": 460,
-  "PoNumber": "1109491",
-  "OrderComment": "sed",
-  "PreferredEmailCulture": "pedro@hagenes.biz",
+  "QuoteId": 704,
+  "SaleId": 48,
+  "QuoteConnectionId": 555,
+  "ERPQuoteKey": "et",
+  "ERPOrderKey": "enim",
+  "ActiveQuoteVersionId": 199,
+  "AcceptedQuoteAlternativeId": 650,
+  "UseValuesFromQuote": 260,
+  "DocumentId": 695,
+  "PoNumber": "192145",
+  "OrderComment": "qui",
+  "PreferredEmailCulture": "tia@ritchiegulgowski.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 378
     }
   }
 }

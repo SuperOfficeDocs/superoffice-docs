@@ -49,7 +49,7 @@ OK
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
+| PersonId | int32 | Owning person record  Use MDO List name "person" to get list items. |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 58,
-  "Name": "Koelpin, Bednar and Lebsack",
-  "PersonId": 873,
-  "Rank": 754,
-  "Tooltip": "ullam",
+  "AssociateId": 471,
+  "Name": "Cole-Ernser",
+  "PersonId": 311,
+  "Rank": 433,
+  "Tooltip": "rerum",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 686,
-  "FullName": "Chloe Nienow MD",
-  "FormalName": "Treutel, Senger and Luettgen",
-  "Deleted": true,
-  "EjUserId": 907,
-  "UserName": "Keeling, Franecki and Osinski",
+  "GroupIdx": 784,
+  "FullName": "Nels Hegmann",
+  "FormalName": "Dooley Inc and Sons",
+  "Deleted": false,
+  "EjUserId": 865,
+  "UserName": "Wiegand Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldLength": 688
     }
   }
 }

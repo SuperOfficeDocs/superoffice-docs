@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 254,
-    "Name": "Yundt-Pollich",
-    "Tooltip": "expedita",
-    "Deleted": false,
-    "Rank": 707,
-    "UdListDefinitionId": 883
+    "HeadingId": 246,
+    "Name": "Walter Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 208,
+    "UdListDefinitionId": 26
   },
   {
-    "HeadingId": 254,
-    "Name": "Yundt-Pollich",
-    "Tooltip": "expedita",
-    "Deleted": false,
-    "Rank": 707,
-    "UdListDefinitionId": 883
+    "HeadingId": 246,
+    "Name": "Walter Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 208,
+    "UdListDefinitionId": 26
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 515,
-    "Name": "Kirlin-Lakin",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 462,
-    "UdListDefinitionId": 965,
+    "HeadingId": 103,
+    "Name": "Fritsch, Kovacek and Streich",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "Rank": 402,
+    "UdListDefinitionId": 514,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 718
+        "FieldLength": 809
       }
     }
   }

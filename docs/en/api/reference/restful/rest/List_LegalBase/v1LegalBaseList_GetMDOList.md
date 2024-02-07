@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=molestiae
+GET /api/v1/List/LegalBase/MDOItems?query=accusamus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Botsford-Bosco",
-    "ToolTip": "Recusandae minus rerum consequatur.",
+    "Id": 215,
+    "Name": "Schroeder-Pacocha",
+    "ToolTip": "Optio quia quo.",
     "Deleted": true,
-    "Rank": 568,
-    "Type": "et",
+    "Rank": 909,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Wintheiser Inc and Sons",
-        "ToolTip": "Cum odit necessitatibus veniam tempora inventore ipsum quas.",
-        "Deleted": false,
-        "Rank": 475,
-        "Type": "eaque",
+        "Id": 919,
+        "Name": "Cassin Inc and Sons",
+        "ToolTip": "Molestiae error velit exercitationem ut et.",
+        "Deleted": true,
+        "Rank": 249,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 881,
-        "ExtraInfo": "ab",
-        "StyleHint": "repudiandae",
-        "FullName": "Ocie Denesik",
+        "IconHint": "ullam",
+        "ColorBlock": 756,
+        "ExtraInfo": "error",
+        "StyleHint": "sunt",
+        "FullName": "Chandler Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 398
           }
         }
       }
     ],
-    "IconHint": "beatae",
-    "ColorBlock": 640,
-    "ExtraInfo": "quis",
-    "StyleHint": "numquam",
-    "FullName": "Treva Kemmer",
+    "IconHint": "saepe",
+    "ColorBlock": 990,
+    "ExtraInfo": "laudantium",
+    "StyleHint": "corrupti",
+    "FullName": "Victoria Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 99
       }
     }
   }

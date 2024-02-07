@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 41,
-  "Name": "Deckow, Rogahn and Ullrich",
-  "Tooltip": "sed",
+  "RoleId": 513,
+  "Name": "Brekke, Fadel and Daniel",
+  "Tooltip": "eius",
   "RoleType": "Anonymous",
-  "Deleted": 22,
-  "Rank": 487,
-  "Created": "1996-10-26T23:03:57.5136077+02:00",
-  "UseCategories": 469,
+  "Deleted": 355,
+  "Rank": 767,
+  "Created": "2018-11-26T16:54:56.6242191+01:00",
+  "UseCategories": 216,
   "CreatedBy": null,
-  "Updated": "2022-06-16T23:03:57.514108+02:00",
+  "Updated": "2016-03-16T16:54:56.6242191+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 432,
-  "Name": "Becker, Oberbrunner and Wunsch",
-  "Tooltip": "quaerat",
+  "RoleId": 568,
+  "Name": "Mayer-Kautzer",
+  "Tooltip": "velit",
   "RoleType": "Anonymous",
-  "Deleted": 389,
-  "Rank": 285,
-  "Created": "2004-11-07T23:03:57.5156076+01:00",
-  "UseCategories": 518,
+  "Deleted": 534,
+  "Rank": 865,
+  "Created": "1999-07-02T16:54:56.6272197+02:00",
+  "UseCategories": 14,
   "CreatedBy": null,
-  "Updated": "2017-02-22T23:03:57.5171086+01:00",
+  "Updated": "2002-04-30T16:54:56.6272197+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2011-03-02T23:03:54.9586429+01:00",
-  "ToDate": "2016-04-01T23:03:54.9586429+02:00",
+  "FromDate": "2001-06-07T16:54:54.5547041+02:00",
+  "ToDate": "2016-01-16T16:54:54.5547041+01:00",
   "AssociateList": [
     {
-      "Id": 331,
-      "Name": "Gibson-Ledner",
-      "ToolTip": "Magnam sint mollitia velit ab.",
+      "Id": 142,
+      "Name": "O'Kon-Gaylord",
+      "ToolTip": "At aut veritatis optio magnam qui.",
       "Deleted": false,
-      "Rank": 863,
-      "Type": "officia",
-      "ColorBlock": 687,
-      "IconHint": "sed",
-      "Selected": false,
-      "LastChanged": "2023-11-30T23:03:54.9586429+01:00",
+      "Rank": 147,
+      "Type": "voluptatem",
+      "ColorBlock": 800,
+      "IconHint": "quibusdam",
+      "Selected": true,
+      "LastChanged": "2000-08-03T16:54:54.5547041+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "corrupti",
+      "ExtraInfo": "et",
+      "StyleHint": "similique",
       "Hidden": true,
-      "FullName": "Mrs. Mariano Collins",
+      "FullName": "Dillon Spencer MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 853
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 3,
-      "Name": "Dicki LLC",
-      "ToolTip": "Ut qui consectetur autem.",
-      "Deleted": true,
-      "Rank": 172,
-      "Type": "ullam",
-      "ColorBlock": 5,
-      "IconHint": "tempore",
+      "Id": 723,
+      "Name": "Collins-Toy",
+      "ToolTip": "Earum molestiae.",
+      "Deleted": false,
+      "Rank": 967,
+      "Type": "fugiat",
+      "ColorBlock": 413,
+      "IconHint": "facilis",
       "Selected": true,
-      "LastChanged": "2003-04-12T23:03:54.9586429+02:00",
+      "LastChanged": "2022-04-16T16:54:54.5547041+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "eos",
-      "Hidden": true,
-      "FullName": "Miss Faye Schamberger",
+      "ExtraInfo": "at",
+      "StyleHint": "doloribus",
+      "Hidden": false,
+      "FullName": "Trycia Kerluke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 664
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 955,
-      "Name": "Roberts Group",
-      "ToolTip": "Iusto voluptatum temporibus deleniti.",
-      "Deleted": true,
-      "Rank": 166,
-      "Type": "nesciunt",
+      "Id": 302,
+      "Name": "Effertz-Denesik",
+      "ToolTip": "Itaque omnis quam vel.",
+      "Deleted": false,
+      "Rank": 945,
+      "Type": "consequatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ex",
-      "ColorBlock": 521,
-      "ExtraInfo": "quia",
-      "StyleHint": "consequuntur",
-      "FullName": "Dr. Bette Rolfson",
+      "IconHint": "voluptatibus",
+      "ColorBlock": 12,
+      "ExtraInfo": "eos",
+      "StyleHint": "facilis",
+      "FullName": "Prof. Bonnie Reichert MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldLength": 616
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

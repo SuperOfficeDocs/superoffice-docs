@@ -111,27 +111,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 916,
-  "Name": "Wehner Inc and Sons",
-  "Tooltip": "iste",
+  "WebPanelId": 414,
+  "Name": "McDermott, Armstrong and Swaniawski",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 78,
+  "Rank": 433,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Cartwright-Paucek",
+  "WindowName": "Mohr, Veum and Douglas",
   "Url": "http://www.example.com/",
-  "ProgId": "non",
-  "Icon": 985,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "iure",
+  "Icon": 884,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 684,
-  "Name": "White LLC",
-  "Tooltip": "pariatur",
+  "WebPanelId": 328,
+  "Name": "Cruickshank-Cremin",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 651,
+  "Rank": 176,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Powlowski Group",
+  "WindowName": "Mertz-Nader",
   "Url": "http://www.example.com/",
-  "ProgId": "quis",
-  "Icon": 138,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "ab",
+  "Icon": 188,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldType": "System.String",
+      "FieldLength": 377
     }
   }
 }

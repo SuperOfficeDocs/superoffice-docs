@@ -72,7 +72,7 @@ OK
 | DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 935,
-    "ParentId": 62,
-    "Name": "Connelly, Senger and Zulauf",
-    "Fullname": "laborum",
-    "CategoryMaster": 751,
+    "TicketCategoryId": 123,
+    "ParentId": 166,
+    "Name": "Boyle, Bashirian and Cummerata",
+    "Fullname": "qui",
+    "CategoryMaster": 883,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Jones, Gottlieb and Ondricka",
+    "ExternalName": "Gottlieb-Wilderman",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 510,
-    "ReplyTemplate": 929,
-    "NotificationEmail": "duncan.hilll@wunsch.com",
+    "AssignmentLag": 318,
+    "ReplyTemplate": 263,
+    "NotificationEmail": "lavina@schumm.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 785,
+    "EffectiveReplyTemplateId": 710,
     "ExtraFields": {
-      "ExtraFields1": "ex",
-      "ExtraFields2": "iusto"
+      "ExtraFields1": "asperiores",
+      "ExtraFields2": "nam"
     },
     "CustomFields": {
-      "CustomFields1": "quia",
-      "CustomFields2": "nulla"
+      "CustomFields1": "voluptas",
+      "CustomFields2": "odit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 132
       }
     }
   }

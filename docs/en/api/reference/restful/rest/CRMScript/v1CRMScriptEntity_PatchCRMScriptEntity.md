@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "maxime",
+    "path": "ullam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "maxime",
+    "path": "ullam",
     "value": {}
   }
 ]
@@ -145,23 +145,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 1002,
-  "UniqueIdentifier": "placeat",
-  "Name": "Bauch, Feil and Vandervort",
-  "Description": "Multi-channelled multimedia artificial intelligence",
-  "IncludeId": "repellat",
-  "HierarchyId": 383,
-  "Source": "pariatur",
-  "Registered": "2008-06-27T23:04:04.0690191+02:00",
-  "RegisteredAssociateId": 995,
-  "Updated": "2009-04-05T23:04:04.0690191+02:00",
-  "UpdatedAssociateId": 312,
+  "EjscriptId": 613,
+  "UniqueIdentifier": "et",
+  "Name": "Ritchie-Howe",
+  "Description": "Centralized logistical knowledge user",
+  "IncludeId": "qui",
+  "HierarchyId": 493,
+  "Source": "reiciendis",
+  "Registered": "1997-12-20T16:55:29.5298322+01:00",
+  "RegisteredAssociateId": 841,
+  "Updated": "2016-03-17T16:55:29.5298322+01:00",
+  "UpdatedAssociateId": 219,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 398
     }
   },
   "_Links": {

@@ -109,11 +109,11 @@ OK
 | CreatedDate | date-time | Registered when  in UTC. |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | Description | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
-| DocumentTemplate | DocumentTemplate | The template type of the document.  <para>Use MDO List name "doctmpl" to get list items.</para> |
-| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
-| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  <para>Use MDO List name "associate" to get list items.</para> |
-| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  <para>Use MDO List name "contact" to get list items.</para> |
-| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
+| DocumentTemplate | DocumentTemplate | The template type of the document.  Use MDO List name "doctmpl" to get list items. |
+| Person | Person | A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  Use MDO List name "person" to get list items. |
+| Associate | Associate | The owner of the document - the associate whose checklist the document is in.  Use MDO List name "associate" to get list items. |
+| Contact | Contact | The contact associated with the document. It may also be null if no contact is associated with the document.  Use MDO List name "contact" to get list items. |
+| Project | Project | A document may also be connected to a project, so you see the document both on the company card, and on the project card. This does not mean however that a project is required.  Use MDO List name "project" to get list items. |
 | Date | date-time | date + start time planned |
 | ExternalRef | string | External reference for document plugin to resolve document identity (Notes ID, e-mail message ID, whatever) |
 | Completed | string | Document Completed state. This is the part of the Status property. |
@@ -121,12 +121,12 @@ OK
 | Type | string | Is this a normal document or a mail-merge or report? |
 | Links | array | List of all elements linked to the document. |
 | LockSemantics | string |  |
-| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  <para>Use MDO List name "sale" to get list items.</para> |
+| Sale | Sale | A document may also be connected to a sale, so you see the document on the company card, on the project card and on the sale card. This does not mean however that a sale is required. May be null.  Use MDO List name "sale" to get list items. |
 | SuggestedDocumentId | int32 | Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.DocumentEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.DocumentEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.DocumentEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.DocumentEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PublishEventDate | date-time | Publish event date |
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
@@ -142,77 +142,77 @@ OK
 POST /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 589,
+  "DocumentId": 540,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "voluptas",
-  "Name": "Gibson Group",
-  "OurRef": "minima",
-  "YourRef": "consectetur",
-  "CreatedDate": "2021-02-04T23:04:04.0900181+01:00",
-  "UpdatedDate": "2020-09-30T23:04:04.0900181+02:00",
-  "Description": "Advanced cohesive matrix",
+  "Attention": "consequatur",
+  "Header": "non",
+  "Name": "Gleason Inc and Sons",
+  "OurRef": "atque",
+  "YourRef": "enim",
+  "CreatedDate": "2009-11-29T16:55:29.5518513+01:00",
+  "UpdatedDate": "2003-02-15T16:55:29.5518513+01:00",
+  "Description": "Future-proofed bi-directional flexibility",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-09-20T23:04:04.0945201+02:00",
-  "ExternalRef": "voluptatum",
+  "Date": "2011-08-11T16:55:29.5548324+02:00",
+  "ExternalRef": "voluptas",
   "Completed": "Completed",
-  "ActiveLinks": 553,
+  "ActiveLinks": 135,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Boehm, Volkman and Mraz",
-      "Id": 44,
-      "Description": "Profit-focused multimedia array",
-      "ExtraInfo": "sapiente",
-      "LinkId": 186
+      "EntityName": "Lemke Group",
+      "Id": 596,
+      "Description": "Business-focused value-added emulation",
+      "ExtraInfo": "aut",
+      "LinkId": 283
     },
     {
-      "EntityName": "Boehm, Volkman and Mraz",
-      "Id": 44,
-      "Description": "Profit-focused multimedia array",
-      "ExtraInfo": "sapiente",
-      "LinkId": 186
+      "EntityName": "Lemke Group",
+      "Id": 596,
+      "Description": "Business-focused value-added emulation",
+      "ExtraInfo": "aut",
+      "LinkId": 283
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 110,
-  "Snum": 570,
+  "SuggestedDocumentId": 844,
+  "Snum": 518,
   "UserDefinedFields": {
-    "SuperOffice:1": "Concepcion Morar",
-    "SuperOffice:2": "Cathy Maggio"
+    "SuperOffice:1": "Devyn Bayer",
+    "SuperOffice:2": "Alisha Lind DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "architecto"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2015-04-01T23:04:04.0955199+02:00",
-  "PublishTo": "2012-09-20T23:04:04.0955199+02:00",
-  "PublishFrom": "2002-06-23T23:04:04.0955199+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-02-27T16:55:29.555852+01:00",
+  "PublishTo": "2003-04-21T16:55:29.555852+02:00",
+  "PublishFrom": "2011-01-24T16:55:29.555852+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 287,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "possimus"
+      "DisplayValue": "aperiam"
     },
     {
-      "VisibleId": 287,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "possimus"
+      "DisplayValue": "aperiam"
     }
   ]
 }
@@ -225,88 +225,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 846,
+  "DocumentId": 305,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nemo",
+  "Attention": "iure",
   "Header": "quia",
-  "Name": "Botsford-Wuckert",
-  "OurRef": "ipsam",
-  "YourRef": "voluptas",
-  "CreatedDate": "2009-03-18T23:04:04.1020183+01:00",
-  "UpdatedDate": "2003-09-20T23:04:04.1020183+02:00",
-  "Description": "Integrated demand-driven project",
+  "Name": "Homenick, Abernathy and Johnson",
+  "OurRef": "repellat",
+  "YourRef": "qui",
+  "CreatedDate": "2015-10-24T16:55:29.5598517+02:00",
+  "UpdatedDate": "1999-08-19T16:55:29.5598517+02:00",
+  "Description": "Ameliorated uniform synergy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-10-05T23:04:04.1060156+02:00",
-  "ExternalRef": "dignissimos",
+  "Date": "2003-07-29T16:55:29.562853+02:00",
+  "ExternalRef": "consectetur",
   "Completed": "Completed",
-  "ActiveLinks": 97,
+  "ActiveLinks": 882,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kessler Group",
-      "Id": 638,
-      "Description": "Seamless radical orchestration",
-      "ExtraInfo": "laboriosam",
-      "LinkId": 784,
+      "EntityName": "Pollich Inc and Sons",
+      "Id": 95,
+      "Description": "Open-source content-based framework",
+      "ExtraInfo": "dolor",
+      "LinkId": 523,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 934
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 640,
-  "Snum": 759,
+  "SuggestedDocumentId": 177,
+  "Snum": 253,
   "UserDefinedFields": {
-    "SuperOffice:1": "Rosendo Sabryna Adams I",
-    "SuperOffice:2": "1043772796"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "reiciendis",
-    "ExtraFields2": "ullam"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "iste"
   },
   "CustomFields": {
-    "CustomFields1": "nam",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "aut",
+    "CustomFields2": "ipsum"
   },
-  "PublishEventDate": "2014-12-30T23:04:04.1070181+01:00",
-  "PublishTo": "2013-12-26T23:04:04.1070181+01:00",
-  "PublishFrom": "2010-09-09T23:04:04.1070181+02:00",
+  "PublishEventDate": "2008-03-23T16:55:29.562853+01:00",
+  "PublishTo": "2007-03-05T16:55:29.562853+01:00",
+  "PublishFrom": "2010-08-17T16:55:29.562853+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 771,
+      "VisibleId": 130,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 194
         }
       }
     },
     {
-      "VisibleId": 771,
+      "VisibleId": 130,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 194
         }
       }
     }
@@ -316,12 +316,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 838
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

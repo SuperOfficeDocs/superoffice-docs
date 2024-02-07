@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "recusandae",
-  "ProviderName": "Wintheiser-Stroman",
-  "StorageKey": "voluptatem",
+  "StorageType": "ipsa",
+  "ProviderName": "Bahringer-Lueilwitz",
+  "StorageKey": "laborum",
   "DesiredColumnNames": [
-    "Senger Inc and Sons",
-    "Kerluke, Schinner and Mitchell"
+    "Hirthe Inc and Sons",
+    "Heidenreich LLC"
   ],
   "StaticColumns": [
-    "id",
-    "est"
+    "est",
+    "minus"
   ],
-  "Context": "id"
+  "Context": "alias"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Larson, Runolfsdottir and Ernser",
-      "Operator": "quidem",
+      "Name": "Daugherty, Schultz and Fahey",
+      "Operator": "mollitia",
       "Values": [
-        "delectus",
-        "molestiae"
+        "minima",
+        "corporis"
       ],
       "DisplayValues": [
-        "culpa",
-        "amet"
+        "velit",
+        "tenetur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 260,
+      "InterParenthesis": 282,
       "InterOperator": "And",
-      "UniqueHash": 840
+      "UniqueHash": 188
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Walker LLC",
-      "DisplayTooltip": "laudantium",
-      "DisplayType": "reiciendis",
-      "CanOrderBy": false,
-      "Name": "Murray Inc and Sons",
+      "DisplayName": "Kirlin, Ritchie and Hayes",
+      "DisplayTooltip": "quis",
+      "DisplayType": "repudiandae",
+      "CanOrderBy": true,
+      "Name": "Hegmann, Lynch and Howe",
       "CanRestrictBy": false,
-      "RestrictionType": "officiis",
-      "RestrictionListName": "Morissette, Batz and Halvorson",
+      "RestrictionType": "velit",
+      "RestrictionListName": "Schmitt, Thompson and Von",
       "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "earum",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "facilis"
+      "ExtraInfo": "temporibus",
+      "Width": "et",
+      "IconHint": "quis",
+      "HeadingIconHint": "doloribus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kautzer, O'Keefe and Bayer",
-      "PrimaryKey": 874,
+      "EntityName": "Wiza Group",
+      "PrimaryKey": 928,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aliquid",
-          "TooltipHint": "incidunt",
-          "LinkHint": "numquam"
+          "DisplayValue": "delectus",
+          "TooltipHint": "omnis",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "rerum",
+      "LinkHint": "accusamus",
+      "StyleHint": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldType": "System.String",
+          "FieldLength": 383
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schuppe Group",
-      "Description": "Cross-platform fresh-thinking database",
-      "Rank": 482,
+      "Name": "Farrell-Collins",
+      "Description": "Universal dynamic model",
+      "Rank": 765,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schuppe Group",
-      "Description": "Cross-platform fresh-thinking database",
-      "Rank": 482,
+      "Name": "Farrell-Collins",
+      "Description": "Universal dynamic model",
+      "Rank": 765,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 669
     }
   }
 }

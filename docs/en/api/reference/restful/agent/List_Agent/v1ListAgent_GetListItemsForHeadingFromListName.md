@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ondricka-Bednar",
-  "HeadingId": 201
+  "UdListDefinitionName": "Hauck, Lang and Stanton",
+  "HeadingId": 31
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Name": "Yost Inc and Sons",
-    "ToolTip": "Et dolor voluptatem et molestiae.",
+    "Id": 653,
+    "Name": "Schumm Inc and Sons",
+    "ToolTip": "Perferendis et aut.",
     "Deleted": false,
-    "Rank": 996,
-    "Type": "nemo",
-    "ColorBlock": 552,
-    "IconHint": "numquam",
+    "Rank": 792,
+    "Type": "ut",
+    "ColorBlock": 764,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2013-06-30T23:03:56.2291269+02:00",
+    "LastChanged": "2000-09-14T16:54:55.5739846+02:00",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "West-Considine",
-        "ToolTip": "Sapiente ullam alias quo.",
-        "Deleted": false,
-        "Rank": 753,
-        "Type": "sit",
-        "ColorBlock": 179,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "1999-03-06T23:03:56.2291269+01:00",
+        "Id": 394,
+        "Name": "Kunde, Bechtelar and Nicolas",
+        "ToolTip": "Eligendi iure perferendis nostrum est iusto.",
+        "Deleted": true,
+        "Rank": 220,
+        "Type": "expedita",
+        "ColorBlock": 149,
+        "IconHint": "quae",
+        "Selected": true,
+        "LastChanged": "2016-11-08T16:54:55.5739846+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Hortense Paucek PhD",
+        "ExtraInfo": "et",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Kennedi Miller MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 147
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "possimus",
-    "Hidden": true,
-    "FullName": "Elyse Gerardo Shanahan Jr.",
+    "ExtraInfo": "autem",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Euna Hahn II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 591
       }
     }
   }

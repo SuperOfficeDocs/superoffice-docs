@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=470
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=33
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 | DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 936,
-  "ParentId": 645,
-  "Name": "Skiles LLC",
-  "Fullname": "et",
-  "CategoryMaster": 114,
+  "TicketCategoryId": 329,
+  "ParentId": 122,
+  "Name": "Huel Inc and Sons",
+  "Fullname": "sit",
+  "CategoryMaster": 940,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Durgan Group",
+  "ExternalName": "Gutkowski-Gleason",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 768,
-  "ReplyTemplate": 900,
-  "NotificationEmail": "alvah_stroman@hicklekoch.com",
+  "AssignmentLag": 960,
+  "ReplyTemplate": 548,
+  "NotificationEmail": "lysanne.collins@terrygoldner.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 986,
+  "EffectiveReplyTemplateId": 333,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "aliquam"
+    "ExtraFields1": "error",
+    "ExtraFields2": "repellendus"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "minima"
+    "CustomFields1": "iusto",
+    "CustomFields2": "fuga"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 663
     }
   }
 }

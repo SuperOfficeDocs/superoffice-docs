@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Lang LLC",
-      "Comment": "repudiandae",
-      "StakeholderRoleId": 112,
-      "CountryId": 909,
-      "PersonId": 996,
-      "EmailDescription": "ahmed@brown.us",
-      "EmailId": 976,
-      "EmailAddress": "heloise.hoppe@douglasboyer.com",
-      "PhoneId": 806,
-      "ContactName": "Boyer Inc and Sons",
-      "ContactId": 936,
-      "SaleId": 906,
-      "Mrmrs": "fugiat",
-      "Firstname": "Julien",
-      "MiddleName": "Muller, Trantow and DuBuque",
-      "Lastname": "Brekke",
-      "SaleStakeholderId": 24,
-      "Rank": 960,
-      "Phone": "(550)326-3432 x876"
+      "StakeholderRoleName": "Gulgowski, Graham and Pagac",
+      "Comment": "iusto",
+      "StakeholderRoleId": 350,
+      "CountryId": 624,
+      "PersonId": 849,
+      "EmailDescription": "tyree.thompson@keeblerstokes.name",
+      "EmailId": 1000,
+      "EmailAddress": "robb.funk@fadel.uk",
+      "PhoneId": 26,
+      "ContactName": "Dach LLC",
+      "ContactId": 189,
+      "SaleId": 358,
+      "Mrmrs": "et",
+      "Firstname": "Joesph",
+      "MiddleName": "Pfannerstill, Rolfson and Lehner",
+      "Lastname": "Schimmel",
+      "SaleStakeholderId": 963,
+      "Rank": 986,
+      "Phone": "567.772.8239 x853"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Kunze Inc and Sons",
-    "Comment": "illum",
-    "StakeholderRoleId": 1001,
-    "CountryId": 709,
-    "PersonId": 325,
-    "EmailDescription": "kristian_champlin@kuhn.com",
-    "EmailId": 660,
-    "EmailAddress": "elinor@bahringer.biz",
-    "PhoneId": 455,
-    "ContactName": "Ullrich LLC",
-    "ContactId": 224,
-    "SaleId": 764,
-    "Mrmrs": "omnis",
-    "Firstname": "Lonnie",
-    "MiddleName": "Kessler, Schoen and Will",
-    "Lastname": "Sipes",
-    "SaleStakeholderId": 554,
-    "Rank": 280,
-    "Phone": "654.853.0452 x9143",
+    "StakeholderRoleName": "Ortiz-Witting",
+    "Comment": "quasi",
+    "StakeholderRoleId": 456,
+    "CountryId": 200,
+    "PersonId": 10,
+    "EmailDescription": "syble@schroeder.co.uk",
+    "EmailId": 443,
+    "EmailAddress": "kenneth.willms@schuppehirthe.name",
+    "PhoneId": 688,
+    "ContactName": "Wilderman Inc and Sons",
+    "ContactId": 556,
+    "SaleId": 174,
+    "Mrmrs": "mollitia",
+    "Firstname": "Alessandra",
+    "MiddleName": "Luettgen-Romaguera",
+    "Lastname": "Ferry",
+    "SaleStakeholderId": 860,
+    "Rank": 580,
+    "Phone": "820.542.8989 x41999",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldType": "System.String",
+        "FieldLength": 181
       }
     }
   }

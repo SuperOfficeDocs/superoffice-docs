@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 138
+  "AssociateId": 276
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Robel, Beatty and Bergstrom",
-    "Description": "Programmable motivating superstructure",
+    "Name": "Reynolds, Schuster and Conroy",
+    "Description": "Profound mission-critical superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 639,
-        "Tooltip": "eveniet",
+        "Unrestricted": true,
+        "Total": 647,
+        "Tooltip": "enim",
         "CanAssign": false,
-        "Free": 500,
-        "InUse": 56,
+        "Free": 113,
+        "InUse": 219,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 267,
-        "Name": "Bashirian-Nicolas",
-        "Description": "User-centric zero tolerance workforce",
-        "PrerequisiteModuleName": "Vandervort, Cormier and Bruen",
-        "SortOrder": 14,
-        "ExtraFlags": 454,
+        "Assigned": true,
+        "ModuleLicenseId": 957,
+        "Name": "Strosin LLC",
+        "Description": "Operative client-server benchmark",
+        "PrerequisiteModuleName": "O'Conner, Lebsack and Lueilwitz",
+        "SortOrder": 58,
+        "ExtraFlags": 28,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 555
+            "FieldLength": 734
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 56,
-        "Tooltip": "excepturi",
-        "CanAssign": true,
-        "Free": 176,
-        "InUse": 573,
+        "Total": 335,
+        "Tooltip": "itaque",
+        "CanAssign": false,
+        "Free": 178,
+        "InUse": 694,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 189,
-        "Name": "Grimes, Hammes and Monahan",
-        "Description": "Front-line systemic portal",
-        "PrerequisiteModuleName": "Flatley Group",
-        "SortOrder": 925,
-        "ExtraFlags": 488,
+        "Assigned": false,
+        "ModuleLicenseId": 281,
+        "Name": "Lebsack-Halvorson",
+        "Description": "Fully-configurable coherent help-desk",
+        "PrerequisiteModuleName": "Leuschke Inc and Sons",
+        "SortOrder": 755,
+        "ExtraFlags": 858,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldLength": 604
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 194
+        "FieldType": "System.Int32",
+        "FieldLength": 25
       }
     }
   },
   {
-    "Name": "Robel, Beatty and Bergstrom",
-    "Description": "Programmable motivating superstructure",
+    "Name": "Reynolds, Schuster and Conroy",
+    "Description": "Profound mission-critical superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 639,
-        "Tooltip": "eveniet",
+        "Unrestricted": true,
+        "Total": 647,
+        "Tooltip": "enim",
         "CanAssign": false,
-        "Free": 500,
-        "InUse": 56,
+        "Free": 113,
+        "InUse": 219,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 267,
-        "Name": "Bashirian-Nicolas",
-        "Description": "User-centric zero tolerance workforce",
-        "PrerequisiteModuleName": "Vandervort, Cormier and Bruen",
-        "SortOrder": 14,
-        "ExtraFlags": 454,
+        "Assigned": true,
+        "ModuleLicenseId": 957,
+        "Name": "Strosin LLC",
+        "Description": "Operative client-server benchmark",
+        "PrerequisiteModuleName": "O'Conner, Lebsack and Lueilwitz",
+        "SortOrder": 58,
+        "ExtraFlags": 28,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 555
+            "FieldLength": 734
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 56,
-        "Tooltip": "excepturi",
-        "CanAssign": true,
-        "Free": 176,
-        "InUse": 573,
+        "Total": 335,
+        "Tooltip": "itaque",
+        "CanAssign": false,
+        "Free": 178,
+        "InUse": 694,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 189,
-        "Name": "Grimes, Hammes and Monahan",
-        "Description": "Front-line systemic portal",
-        "PrerequisiteModuleName": "Flatley Group",
-        "SortOrder": 925,
-        "ExtraFlags": 488,
+        "Assigned": false,
+        "ModuleLicenseId": 281,
+        "Name": "Lebsack-Halvorson",
+        "Description": "Fully-configurable coherent help-desk",
+        "PrerequisiteModuleName": "Leuschke Inc and Sons",
+        "SortOrder": 755,
+        "ExtraFlags": 858,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldLength": 604
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 194
+        "FieldType": "System.Int32",
+        "FieldLength": 25
       }
     }
   }

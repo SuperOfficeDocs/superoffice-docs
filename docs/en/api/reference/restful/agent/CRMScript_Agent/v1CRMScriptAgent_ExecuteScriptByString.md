@@ -86,10 +86,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "corrupti",
+  "Script": "commodi",
   "Parameters": {
-    "Parameters1": "quasi",
-    "Parameters2": "enim"
+    "Parameters1": "dolor",
+    "Parameters2": "recusandae"
   },
   "EventData": null
 }
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "voluptatem",
+  "Output": "ut",
   "Parameters": {
-    "Parameters1": "enim",
-    "Parameters2": "explicabo"
+    "Parameters1": "libero",
+    "Parameters2": "iste"
   },
   "TraceRun": null,
   "Eventdata": null,
-  "Success": true,
+  "Success": false,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 628
     }
   }
 }

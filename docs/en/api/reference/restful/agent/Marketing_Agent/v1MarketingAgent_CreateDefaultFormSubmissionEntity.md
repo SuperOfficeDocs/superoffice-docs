@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 281,
-  "FormId": 313,
-  "WhenSubmitted": "1996-12-30T23:03:56.3236247+01:00",
-  "ContactId": 659,
-  "PersonId": 126,
-  "EmailAddress": "viva@ledner.ca",
-  "ResponseShipmentAddrId": 468,
-  "Response": "quisquam",
+  "FormSubmissionId": 150,
+  "FormId": 523,
+  "WhenSubmitted": "2012-04-14T16:54:55.6469927+02:00",
+  "ContactId": 109,
+  "PersonId": 820,
+  "EmailAddress": "lane_lowe@hansen.info",
+  "ResponseShipmentAddrId": 390,
+  "Response": "omnis",
   "Status": "EmailVerification",
-  "ProcessingLog": "voluptate",
+  "ProcessingLog": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 520
     }
   }
 }

@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/20/2008 23:04:07
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=12/12/2018 23:04:07
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=711
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/24/2005 16:55:33
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/08/2018 16:55:33
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=358
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 941,
-  "ERPPriceListKey": "perspiciatis",
-  "QuoteConnectionId": 53,
-  "Name": "Turcotte Inc and Sons",
-  "Description": "Synergized homogeneous product",
-  "Currency": "assumenda",
-  "CurrencyName": "Glover, Krajcik and Kling",
-  "ValidFrom": "2013-05-10T23:04:05.5859995+02:00",
-  "ValidTo": "1996-12-10T23:04:05.5859995+01:00",
+  "PriceListId": 675,
+  "ERPPriceListKey": "dolor",
+  "QuoteConnectionId": 909,
+  "Name": "Kuphal, Schowalter and Beatty",
+  "Description": "Total bandwidth-monitored conglomeration",
+  "Currency": "consequatur",
+  "CurrencyName": "Hilpert-Emard",
+  "ValidFrom": "2019-03-10T16:55:30.7781761+01:00",
+  "ValidTo": "2022-11-15T16:55:30.7781761+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldType": "System.String",
+      "FieldLength": 468
     }
   }
 }

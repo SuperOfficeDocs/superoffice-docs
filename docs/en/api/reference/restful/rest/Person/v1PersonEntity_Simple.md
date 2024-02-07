@@ -101,7 +101,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -111,52 +111,52 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "expedita",
-  "PersonId": 730,
-  "Mrmrs": "et",
-  "Firstname": "Kim",
-  "Lastname": "Lang",
-  "MiddleName": "Stehr Group",
-  "Title": "dolore",
-  "Description": "Profound even-keeled protocol",
-  "Email": "efrain.hauck@jakubowski.name",
-  "FullName": "Morton Graham",
-  "DirectPhone": "593-850-8812",
-  "FormalName": "Anderson-Schumm",
-  "CountryId": 604,
-  "ContactId": 693,
-  "ContactName": "Lakin Inc and Sons",
-  "Retired": 240,
-  "Rank": 777,
-  "ActiveInterests": 629,
+  "Position": "ullam",
+  "PersonId": 627,
+  "Mrmrs": "praesentium",
+  "Firstname": "Alysa",
+  "Lastname": "Nitzsche",
+  "MiddleName": "Kirlin Inc and Sons",
+  "Title": "sint",
+  "Description": "Reduced empowering open architecture",
+  "Email": "jonathon.fahey@zieme.uk",
+  "FullName": "Ms. Dora Daugherty III",
+  "DirectPhone": "(917)511-3915 x502",
+  "FormalName": "Schamberger Group",
+  "CountryId": 87,
+  "ContactId": 578,
+  "ContactName": "Schuster, Wiza and Tremblay",
+  "Retired": 21,
+  "Rank": 790,
+  "ActiveInterests": 844,
   "ContactDepartment": "",
-  "ContactCountryId": 729,
-  "ContactOrgNr": "328606",
-  "FaxPhone": "1-405-866-6553 x79858",
-  "MobilePhone": "792-904-8701 x6415",
-  "ContactPhone": "004.507.0033 x3381",
-  "AssociateName": "Krajcik, Kemmer and Runolfsdottir",
-  "AssociateId": 953,
+  "ContactCountryId": 636,
+  "ContactOrgNr": "1271774",
+  "FaxPhone": "(998)052-2658",
+  "MobilePhone": "260.571.0653 x81377",
+  "ContactPhone": "539-087-1280 x760",
+  "AssociateName": "Wunsch Group",
+  "AssociateId": 399,
   "UsePersonAddress": false,
-  "ContactFax": "officiis",
-  "Kanafname": "explicabo",
-  "Kanalname": "adipisci",
-  "Post1": "minus",
-  "Post2": "rerum",
-  "Post3": "rerum",
-  "EmailName": "lorna@kshlerin.biz",
-  "ContactFullName": "Dr. Devan Jennifer Pollich",
-  "ActiveErpLinks": 470,
-  "TicketPriorityId": 527,
-  "SupportLanguageId": 330,
-  "SupportAssociateId": 298,
+  "ContactFax": "quos",
+  "Kanafname": "porro",
+  "Kanalname": "hic",
+  "Post1": "cumque",
+  "Post2": "nulla",
+  "Post3": "ipsum",
+  "EmailName": "suzanne_kessler@wolf.biz",
+  "ContactFullName": "Alexie Simonis",
+  "ActiveErpLinks": 190,
+  "TicketPriorityId": 939,
+  "SupportLanguageId": 786,
+  "SupportAssociateId": 555,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 377
     }
   }
 }

@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 59,
-  "LabelLayoutId": 572,
-  "Filename": "cumque",
-  "Language": "praesentium",
-  "FileType": "ut",
+  "ReportId": 85,
+  "LabelLayoutId": 792,
+  "Filename": "voluptatibus",
+  "Language": "laborum",
+  "FileType": "culpa",
   "Restrictions": [
     {
-      "Name": "Tillman, Conroy and Waters",
-      "Operator": "autem",
+      "Name": "O'Conner Inc and Sons",
+      "Operator": "illum",
       "Values": [
-        "et",
-        "et"
+        "facilis",
+        "est"
       ],
       "DisplayValues": [
-        "quo",
-        "ut"
+        "et",
+        "similique"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 984,
+      "InterParenthesis": 108,
       "InterOperator": "And",
-      "UniqueHash": 711
+      "UniqueHash": 496
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"vel"
 ```

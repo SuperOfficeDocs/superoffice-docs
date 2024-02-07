@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "necessitatibus",
-    "InputValues2": "dolorem"
+    "InputValues1": "quaerat",
+    "InputValues2": "labore"
   },
-  "BlockExecution": false,
-  "NavigateTo": "voluptate",
-  "Message": "quos",
-  "ShowDialog": "excepturi",
+  "BlockExecution": true,
+  "NavigateTo": "eos",
+  "Message": "qui",
+  "ShowDialog": "dolorem",
   "OutputValues": {
-    "OutputValues1": "id",
-    "OutputValues2": "et"
+    "OutputValues1": "iure",
+    "OutputValues2": "eum"
   },
   "StateValues": {
-    "StateValues1": "ut",
-    "StateValues2": "harum"
+    "StateValues1": "eos",
+    "StateValues2": "qui"
   },
-  "Exception": "voluptatem",
+  "Exception": "repellat",
   "ParserValues": {
-    "ParserValues1": "dolorem",
-    "ParserValues2": "iure"
+    "ParserValues1": "odio",
+    "ParserValues2": "dolores"
   },
   "CgiVariables": {
-    "CgiVariables1": "occaecati",
-    "CgiVariables2": "consequatur"
+    "CgiVariables1": "rerum",
+    "CgiVariables2": "repellendus"
   },
-  "CgiContent": "omnis",
+  "CgiContent": "rerum",
   "Headers": {
-    "Headers1": "quidem",
-    "Headers2": "consequatur"
+    "Headers1": "error",
+    "Headers2": "aperiam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 8,
-    "Name": "Mante LLC",
-    "Rank": 359,
-    "Tooltip": "aspernatur",
-    "Icon": "aperiam",
-    "DefaultTicketStatus": 670,
+    "TicketTypeId": 322,
+    "Name": "Douglas, O'Kon and Hahn",
+    "Rank": 655,
+    "Tooltip": "minus",
+    "Icon": "laudantium",
+    "DefaultTicketStatus": 106,
     "TicketStatuses": [
-      332,
-      849
+      523,
+      266
     ],
-    "DefaultTicketPriority": 590,
+    "DefaultTicketPriority": 337,
     "TicketPriorities": [
-      737,
-      323
+      911,
+      498
     ],
-    "ReplyTemplate": 118,
+    "ReplyTemplate": 541,
     "IsExternalVisible": false,
-    "IsDefault": true,
+    "IsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 992
+        "FieldLength": 174
       }
     }
   }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    893,
-    505
+    337,
+    431
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 952,
-    "Caption": "ducimus",
-    "Description": "Cross-platform optimizing interface",
-    "ChartName": "Hudson, Weimann and Gislason",
-    "ChartId": "neque",
-    "IsDefault": true,
-    "AssociateId": 457,
-    "GroupId": 836,
-    "SelectionId": 604,
-    "Config": "et",
+    "DashboardTileId": 883,
+    "Caption": "ratione",
+    "Description": "Quality-focused cohesive Graphic Interface",
+    "ChartName": "Jenkins, Funk and O'Kon",
+    "ChartId": "beatae",
+    "IsDefault": false,
+    "AssociateId": 823,
+    "GroupId": 957,
+    "SelectionId": 379,
+    "Config": "voluptatum",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Bergnaum Group",
-        "Description": "Decentralized incremental challenge",
+        "Name": "Swaniawski LLC",
+        "Description": "Programmable multimedia support",
         "Type": "Boolean",
-        "ListName": "Shields-Emard",
+        "ListName": "Hirthe LLC",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "sunt",
+        "Value": "cupiditate",
         "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldType": "System.String",
+            "FieldLength": 447
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 976,
+        "VisibleId": 980,
         "Visibility": "All",
-        "DisplayValue": "nihil",
+        "DisplayValue": "mollitia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldLength": 366
           }
         }
       },
       {
-        "VisibleId": 976,
+        "VisibleId": 980,
         "Visibility": "All",
-        "DisplayValue": "nihil",
+        "DisplayValue": "mollitia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldLength": 366
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 448
       }
     }
   }

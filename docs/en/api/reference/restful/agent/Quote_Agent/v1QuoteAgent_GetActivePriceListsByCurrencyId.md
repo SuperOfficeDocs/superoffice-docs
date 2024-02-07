@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 801,
-  "CurrencyId": 588
+  "QuoteConnectionId": 189,
+  "CurrencyId": 556
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 996,
-    "ERPPriceListKey": "inventore",
-    "QuoteConnectionId": 278,
-    "Name": "Cormier Inc and Sons",
-    "Description": "Cross-group value-added parallelism",
-    "Currency": "ut",
-    "CurrencyName": "Barrows Inc and Sons",
-    "ValidFrom": "2010-06-16T23:03:56.7821217+02:00",
-    "ValidTo": "2001-07-24T23:03:56.7821217+02:00",
-    "IsActive": false,
+    "PriceListId": 81,
+    "ERPPriceListKey": "accusantium",
+    "QuoteConnectionId": 487,
+    "Name": "Hermann-Abshire",
+    "Description": "Re-engineered context-sensitive time-frame",
+    "Currency": "et",
+    "CurrencyName": "Aufderhar, Wunsch and Windler",
+    "ValidFrom": "2013-10-14T16:54:56.1411407+02:00",
+    "ValidTo": "2009-09-27T16:54:56.1411407+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 5
       }
     }
   }

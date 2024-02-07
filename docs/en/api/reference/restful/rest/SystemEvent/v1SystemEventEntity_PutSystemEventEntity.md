@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 917,
+  "SystemEventId": 516,
   "Scope": "Database",
-  "Eta": "2016-04-03T23:04:04.8145084+02:00",
-  "Eventkey": "quam",
-  "Eventmess": "et",
-  "ExtraInfo": 141,
-  "Owner": 742,
-  "UpdatedCount": 583,
-  "Registered": "2008-08-02T23:04:04.8145084+02:00",
+  "Eta": "2010-01-25T16:55:30.1510206+01:00",
+  "Eventkey": "sunt",
+  "Eventmess": "quia",
+  "ExtraInfo": 704,
+  "Owner": 758,
+  "UpdatedCount": 386,
+  "Registered": "2016-05-28T16:55:30.1510206+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 369,
+  "SystemEventId": 792,
   "Scope": "Database",
-  "Eta": "2019-09-29T23:04:04.8150089+02:00",
-  "Eventkey": "explicabo",
-  "Eventmess": "enim",
-  "ExtraInfo": 298,
-  "Owner": 631,
-  "UpdatedCount": 143,
-  "Registered": "2012-03-15T23:04:04.8155099+01:00",
+  "Eta": "2011-07-13T16:55:30.1510206+02:00",
+  "Eventkey": "suscipit",
+  "Eventmess": "qui",
+  "ExtraInfo": 576,
+  "Owner": 887,
+  "UpdatedCount": 802,
+  "Registered": "2019-03-04T16:55:30.1510206+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldType": "System.String",
+      "FieldLength": 474
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

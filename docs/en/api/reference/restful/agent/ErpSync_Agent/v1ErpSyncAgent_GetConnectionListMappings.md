@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 967
+  "ErpConnectionId": 141
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Stark, Crona and Weimann",
+      "ErpListName": "Bruen-Thompson",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "VonRueden-Bayer",
-      "ErpFieldId": 26,
+      "ErpActorTypeName": "Halvorson-Kub",
+      "ErpFieldId": 282,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 773
         }
       }
     }
   ],
-  "ErpConnectionId": 460,
-  "ErpConnectionName": "Jaskolski-Vandervort",
+  "ErpConnectionId": 872,
+  "ErpConnectionName": "Sporer-Turner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldLength": 440
     }
   }
 }

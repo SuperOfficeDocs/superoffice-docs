@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Runte Inc and Sons",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 580,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "Id": 195,
+  "Name": "Rempel, Hettinger and Heidenreich",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 112,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "porro",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Gislason Inc and Sons",
-  "Tooltip": "culpa",
+  "Id": 967,
+  "Name": "Bauch, Kling and Bogan",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 422,
+  "Rank": 140,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldLength": 997
     }
   }
 }

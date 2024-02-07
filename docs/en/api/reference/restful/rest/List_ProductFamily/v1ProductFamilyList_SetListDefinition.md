@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "Johnston-Harris",
-  "Tooltip": "assumenda",
+  "Id": 763,
+  "Name": "Jewess Group",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 668,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 646,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
+  "ListType": "voluptates",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Schimmel Group",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 573,
+  "Id": 325,
+  "Name": "Kessler, Koss and Tillman",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "Rank": 520,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "tenetur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldType": "System.Int32",
+      "FieldLength": 775
     }
   }
 }

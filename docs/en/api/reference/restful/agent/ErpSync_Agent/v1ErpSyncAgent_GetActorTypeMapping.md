@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 435,
+  "ErpConnectionId": 876,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 748,
-  "IsActive": false,
+  "ErpConnectionId": 418,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 923,
-      "CrmFieldKey": "ut",
-      "CrmDisplayName": "Bailey, Bergnaum and Kirlin",
-      "CrmDisplayTooltip": "voluptas",
-      "ErpFieldKey": "sunt",
+      "ErpFieldId": 287,
+      "CrmFieldKey": "excepturi",
+      "CrmDisplayName": "Jacobs, Goodwin and Mohr",
+      "CrmDisplayTooltip": "qui",
+      "ErpFieldKey": "asperiores",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Schultz Inc and Sons",
-      "ErpDisplayTooltip": "autem",
-      "SyncToCrm": false,
+      "ErpDisplayName": "Pfannerstill, Langosh and Hauck",
+      "ErpDisplayTooltip": "quidem",
+      "SyncToCrm": true,
       "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": true,
-      "AlreadyMapped": false,
-      "MissingInERP": false,
-      "MissingInCRM": false,
+      "ShowInGui": true,
+      "ShowInSearch": false,
+      "AlreadyMapped": true,
+      "MissingInERP": true,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "et",
+      "ListReference": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldLength": 131
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 642
     }
   }
 }

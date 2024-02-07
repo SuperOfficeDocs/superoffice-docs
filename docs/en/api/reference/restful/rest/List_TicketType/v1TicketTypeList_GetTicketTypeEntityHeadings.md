@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 387,
-    "Name": "Kozey, Grady and Rempel",
-    "Tooltip": "ratione",
-    "Deleted": false,
-    "Rank": 984,
-    "UdListDefinitionId": 897,
+    "HeadingId": 985,
+    "Name": "Koss-Klein",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 614,
+    "UdListDefinitionId": 489,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 344
+        "FieldType": "System.Int32",
+        "FieldLength": 151
       }
     }
   }

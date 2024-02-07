@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=dolore
+GET /api/v1/List/ProductFamily/MDOItems?query=eaque
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Sauer-Rau",
-    "ToolTip": "Ut est quia quis labore.",
+    "Id": 704,
+    "Name": "Strosin-Effertz",
+    "ToolTip": "Rerum consequatur fuga deserunt hic.",
     "Deleted": false,
-    "Rank": 541,
-    "Type": "fuga",
+    "Rank": 450,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Beatty-Walker",
-        "ToolTip": "Aut alias magni facere.",
-        "Deleted": false,
-        "Rank": 217,
-        "Type": "ut",
+        "Id": 848,
+        "Name": "Miller-Heathcote",
+        "ToolTip": "Quia eos doloribus.",
+        "Deleted": true,
+        "Rank": 179,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 406,
-        "ExtraInfo": "ea",
-        "StyleHint": "consectetur",
-        "FullName": "Dr. Michale Linda Kulas Jr.",
+        "IconHint": "alias",
+        "ColorBlock": 309,
+        "ExtraInfo": "molestias",
+        "StyleHint": "consequatur",
+        "FullName": "Alden Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldLength": 103
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 139,
-    "ExtraInfo": "libero",
-    "StyleHint": "ut",
-    "FullName": "Miss Destin Bonnie Thompson MD",
+    "IconHint": "officiis",
+    "ColorBlock": 452,
+    "ExtraInfo": "ex",
+    "StyleHint": "consectetur",
+    "FullName": "Dr. Travis Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldLength": 751
       }
     }
   }

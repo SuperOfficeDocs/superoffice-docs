@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Lockman, Lebsack and Raynor"
+  "EntityName": "Harber-Little"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-395
+683
 ```

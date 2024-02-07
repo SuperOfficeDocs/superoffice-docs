@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 699
+  "SaleId": 665
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 650,
-    "Attention": "quisquam",
-    "Header": "omnis",
-    "Name": "Harvey-Emmerich",
-    "OurRef": "nihil",
-    "YourRef": "qui",
-    "Description": "Centralized global policy",
-    "DocumentTemplate": "atque",
+    "DocumentId": 98,
+    "Attention": "saepe",
+    "Header": "nesciunt",
+    "Name": "Monahan LLC",
+    "OurRef": "delectus",
+    "YourRef": "vitae",
+    "Description": "Innovative intermediate project",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 450,
-    "PersonFullName": "Dr. Octavia Billy Pagac",
-    "AssociateFullName": "Damaris Halvorson PhD",
-    "ContactId": 759,
-    "ContactName": "Hettinger, Doyle and Shanahan",
-    "ProjectId": 1000,
-    "ProjectName": "Terry, Lynch and Hoeger",
-    "AssociateId": 410,
-    "Snum": 988,
-    "SaleId": 519,
-    "SaleName": "Halvorson LLC",
+    "PersonId": 882,
+    "PersonFullName": "Zachariah Lebsack",
+    "AssociateFullName": "Mr. Roosevelt Patsy Koch",
+    "ContactId": 707,
+    "ContactName": "Nienow, Bogisich and Harvey",
+    "ProjectId": 424,
+    "ProjectName": "Schmitt, Mueller and Watsica",
+    "AssociateId": 757,
+    "Snum": 713,
+    "SaleId": 22,
+    "SaleName": "Herman Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldType": "System.String",
+        "FieldLength": 260
       }
     }
   }

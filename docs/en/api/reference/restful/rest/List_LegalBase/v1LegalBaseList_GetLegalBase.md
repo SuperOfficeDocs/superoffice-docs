@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 356,
-  "Name": "Kiehn, Bahringer and Lowe",
-  "Tooltip": "dolorem",
-  "Rank": 989,
-  "Key": "ullam",
-  "Deleted": true,
+  "LegalBaseId": 733,
+  "Name": "Legros, Greenfelder and Satterfield",
+  "Tooltip": "quo",
+  "Rank": 677,
+  "Key": "nihil",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldLength": 702
     }
   }
 }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 770,
-  "Name": "Stokes, Schroeder and Heller",
-  "Tooltip": "dolor",
+  "Id": 335,
+  "Name": "Schoen-Bashirian",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 674,
-  "Rank": 995,
+  "UdListDefinitionId": 178,
+  "Rank": 588,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 336
     }
   }
 }

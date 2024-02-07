@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kirlin Group"
+  "Name": "Haag, Barton and Lebsack"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586,
-  "Name": "Kuhn Inc and Sons",
-  "Tooltip": "atque",
+  "Id": 344,
+  "Name": "Doyle Inc and Sons",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 853,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 254,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ratione",
-  "InUseByUserDefinedFields": false,
+  "ListType": "labore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 144
     }
   }
 }

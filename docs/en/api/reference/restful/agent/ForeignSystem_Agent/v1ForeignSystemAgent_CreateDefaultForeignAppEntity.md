@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,23 +73,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 727,
-  "Name": "Stanton, Casper and Hermiston",
-  "CreatedDate": "2004-12-05T23:03:56.0976274+01:00",
-  "UpdatedDate": "2010-07-07T23:03:56.0976274+02:00",
+  "ForeignAppId": 145,
+  "Name": "Mills-Ruecker",
+  "CreatedDate": "2014-03-15T16:54:55.4714693+01:00",
+  "UpdatedDate": "2017-01-04T16:54:55.4714693+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 472,
-      "Name": "Kunze-Turner",
-      "CreatedDate": "2022-06-21T23:03:56.0981279+02:00",
-      "UpdatedDate": "1996-10-24T23:03:56.0981279+02:00",
-      "AssociateFullName": "Estella Yost",
-      "CreatedBy": "inventore",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "soluta",
-      "ForeignAppId": 274,
+      "ForeignDeviceId": 783,
+      "Name": "Muller LLC",
+      "CreatedDate": "1996-10-05T16:54:55.4714693+02:00",
+      "UpdatedDate": "2017-07-03T16:54:55.4714693+02:00",
+      "AssociateFullName": "Jaquan Ruecker",
+      "CreatedBy": "quia",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "sint",
+      "ForeignAppId": 934,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 502
     }
   }
 }

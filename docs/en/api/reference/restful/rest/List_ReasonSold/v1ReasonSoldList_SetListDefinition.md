@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 324,
-  "Name": "Langworth Inc and Sons",
-  "Tooltip": "nostrum",
-  "Deleted": true,
-  "Rank": 823,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 137,
+  "Name": "O'Keefe-Reynolds",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "Rank": 126,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "totam",
-  "InUseByUserDefinedFields": true
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Mertz-Mertz",
-  "Tooltip": "error",
+  "Id": 83,
+  "Name": "Conroy, Kuphal and Schoen",
+  "Tooltip": "sint",
   "Deleted": true,
-  "Rank": 732,
+  "Rank": 783,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "tempora",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 904
     }
   }
 }

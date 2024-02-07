@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Value": "voluptatum",
-    "Tooltip": "excepturi",
+    "Id": 549,
+    "Value": "incidunt",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 587
       }
     }
   },
   {
-    "Id": 527,
-    "Value": "voluptatum",
-    "Tooltip": "excepturi",
+    "Id": 549,
+    "Value": "incidunt",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 587
       }
     }
   }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 38
+  "TemplateHeadingId": 480
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 577,
-    "Attention": "omnis",
-    "Header": "eius",
-    "Name": "Gibson LLC",
-    "OurRef": "amet",
-    "YourRef": "inventore",
-    "Description": "Networked motivating utilisation",
-    "DocumentTemplate": "est",
+    "DocumentId": 605,
+    "Attention": "corrupti",
+    "Header": "blanditiis",
+    "Name": "Kihn LLC",
+    "OurRef": "impedit",
+    "YourRef": "reiciendis",
+    "Description": "Proactive global info-mediaries",
+    "DocumentTemplate": "dicta",
     "IsPublished": false,
-    "PersonId": 87,
-    "PersonFullName": "Darius Robel",
-    "AssociateFullName": "Sabrina Jenkins I",
-    "ContactId": 592,
-    "ContactName": "Stamm-Lueilwitz",
-    "ProjectId": 668,
-    "ProjectName": "Crona-Lueilwitz",
-    "AssociateId": 575,
-    "Snum": 179,
-    "SaleId": 421,
-    "SaleName": "Rosenbaum-Larson",
+    "PersonId": 900,
+    "PersonFullName": "Lottie Dickens",
+    "AssociateFullName": "Sydnee Veum Sr.",
+    "ContactId": 234,
+    "ContactName": "Batz, Mayer and Bechtelar",
+    "ProjectId": 530,
+    "ProjectName": "West Inc and Sons",
+    "AssociateId": 555,
+    "Snum": 81,
+    "SaleId": 534,
+    "SaleName": "Williamson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 173
       }
     }
   }

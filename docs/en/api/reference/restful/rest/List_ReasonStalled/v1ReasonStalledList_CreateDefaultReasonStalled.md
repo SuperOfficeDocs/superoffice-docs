@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 628,
-  "Name": "Pollich, Gleason and Hansen",
-  "Tooltip": "a",
+  "Id": 284,
+  "Name": "Turner, Koss and Streich",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 664,
-  "Rank": 27,
+  "UdListDefinitionId": 236,
+  "Rank": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

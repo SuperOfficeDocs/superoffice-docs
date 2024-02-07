@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 244,
-  "ColumnId": 235,
-  "FieldDefault": "laudantium",
-  "FieldHeight": 246,
-  "FieldLabel": "sed",
-  "FieldLeft": 172,
-  "FieldTop": 415,
+  "UDefFieldId": 328,
+  "ColumnId": 345,
+  "FieldDefault": "numquam",
+  "FieldHeight": 654,
+  "FieldLabel": "autem",
+  "FieldLeft": 436,
+  "FieldTop": 542,
   "FieldType": "Checkbox",
-  "FieldWidth": 156,
-  "FormatMask": "facilis",
+  "FieldWidth": 718,
+  "FormatMask": "eaque",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 261,
-  "LabelLeft": 376,
-  "LabelTop": 280,
-  "LabelWidth": 55,
-  "LastVersionId": 2,
-  "ListTableId": 999,
+  "IsIndexed": false,
+  "LabelHeight": 711,
+  "LabelLeft": 931,
+  "LabelTop": 22,
+  "LabelWidth": 90,
+  "LastVersionId": 8,
+  "ListTableId": 101,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 917,
-  "ProgId": "necessitatibus",
+  "Page1LineNo": 55,
+  "ProgId": "pariatur",
   "IsReadOnly": false,
-  "ShortLabel": "sequi",
-  "TabOrder": 1002,
-  "TextLength": 197,
-  "Tooltip": "ea",
-  "UdefIdentity": 494,
-  "UDListDefinitionId": 681,
+  "ShortLabel": "ipsum",
+  "TabOrder": 619,
+  "TextLength": 581,
+  "Tooltip": "et",
+  "UdefIdentity": 671,
+  "UDListDefinitionId": 445,
   "Justification": "Center",
-  "Version": 837,
-  "TemplateVariableName": "Torp, Bartell and Jacobson",
+  "Version": 442,
+  "TemplateVariableName": "Lueilwitz Inc and Sons",
   "HasBeenPublished": true,
-  "MdoListName": "Ritchie, Stracke and Schuster",
+  "MdoListName": "Crooks-Daugherty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Brekke, West and Daugherty",
-  "Tooltip": "ut",
+  "Id": 414,
+  "Name": "Bradtke Group",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "Rank": 68,
+  "Rank": 832,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "UseGroupsAndHeadings": false,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   },
   "_Links": {

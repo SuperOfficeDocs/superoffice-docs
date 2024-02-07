@@ -79,7 +79,7 @@ ProjectMember found.
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -103,33 +103,33 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 686,
-  "ContactId": 742,
-  "ProjectId": 875,
-  "ContactName": "Runte, Kihn and DuBuque",
+  "ProjectmemberId": 225,
+  "ContactId": 786,
+  "ProjectId": 555,
+  "ContactName": "Hansen Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Lockman Group",
-  "EmailId": 591,
-  "EmailAddress": "winfield@pacochahane.co.uk",
-  "CountryId": 863,
-  "Firstname": "Darius",
-  "MiddleName": "Okuneva-Wiegand",
-  "Lastname": "Braun",
-  "PersonId": 449,
-  "Mrmrs": "modi",
-  "ProjectMemberTypeName": "Price Inc and Sons",
-  "Phone": "(677)639-3318",
-  "PhoneId": 411,
-  "ProjectMemberTypeId": 910,
-  "EmailAddressName": "tavares@tillman.name",
-  "Comment": "totam",
-  "FullName": "Dr. Mateo Swift V",
+  "ProjectName": "Kiehn-Waters",
+  "EmailId": 304,
+  "EmailAddress": "enrique@stracke.name",
+  "CountryId": 384,
+  "Firstname": "Rhea",
+  "MiddleName": "Ryan-Mayert",
+  "Lastname": "Murray",
+  "PersonId": 227,
+  "Mrmrs": "magni",
+  "ProjectMemberTypeName": "Gottlieb LLC",
+  "Phone": "(642)590-4858",
+  "PhoneId": 769,
+  "ProjectMemberTypeId": 869,
+  "EmailAddressName": "marielle@goyettekerluke.name",
+  "Comment": "neque",
+  "FullName": "Elissa Langworth",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 531
     }
   },
   "_Links": {

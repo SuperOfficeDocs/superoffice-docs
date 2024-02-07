@@ -79,11 +79,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 90,
-  "Name": "Stamm, Rohan and Wiegand",
-  "Tooltip": "aliquid",
-  "Rank": 31,
-  "Key": "ab",
+  "LegalBaseId": 890,
+  "Name": "Price LLC",
+  "Tooltip": "dolorem",
+  "Rank": 490,
+  "Key": "alias",
   "Deleted": false
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 506,
-  "Name": "Gottlieb, Johnston and Willms",
-  "Tooltip": "sint",
-  "Rank": 408,
-  "Key": "optio",
-  "Deleted": true,
+  "LegalBaseId": 341,
+  "Name": "Reynolds, McLaughlin and Kihn",
+  "Tooltip": "qui",
+  "Rank": 841,
+  "Key": "rerum",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 22
     }
   }
 }

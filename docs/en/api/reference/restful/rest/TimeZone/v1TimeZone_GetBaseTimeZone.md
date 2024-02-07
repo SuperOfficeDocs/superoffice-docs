@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 46,
-  "Name": "Kuhn Group",
-  "TZLocationCode": "minima",
-  "TZLocationCities": "fugiat",
-  "IsoNumber": 87,
+  "TZLocationID": 26,
+  "Name": "Ruecker Inc and Sons",
+  "TZLocationCode": "aut",
+  "TZLocationCities": "voluptatem",
+  "IsoNumber": 882,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 898,
-      "StartMonth": 375,
-      "EndDay": 749,
-      "EndMonth": 95,
-      "TZOffset": 309,
-      "StartRulePattern": "iusto",
+      "StartDay": 101,
+      "StartMonth": 658,
+      "EndDay": 634,
+      "EndMonth": 487,
+      "TZOffset": 834,
+      "StartRulePattern": "est",
       "EndRulePattern": "et"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 37,
-      "StartMonth": 255,
-      "EndDay": 575,
-      "EndMonth": 363,
-      "TZOffset": 716,
-      "StartRulePattern": "eligendi",
-      "EndRulePattern": "aut"
+      "StartDay": 248,
+      "StartMonth": 977,
+      "EndDay": 179,
+      "EndMonth": 541,
+      "TZOffset": 628,
+      "StartRulePattern": "unde",
+      "EndRulePattern": "ut"
     }
   }
 }

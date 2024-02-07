@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 629
+  "QuoteVersionId": 904
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 999,
-  "ERPQuoteVersionKey": "nobis",
-  "QuoteId": 911,
-  "Description": "Realigned impactful strategy",
-  "Number": "629470",
+  "QuoteVersionId": 710,
+  "ERPQuoteVersionKey": "qui",
+  "QuoteId": 373,
+  "Description": "Cross-platform human-resource knowledge base",
+  "Number": "153694",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 984,
-  "SentDate": "2010-10-31T23:03:56.7191189+01:00",
-  "FollowupId": 389,
-  "ExpirationDate": "2000-02-24T23:03:56.7196199+01:00",
-  "DeliveryCountryId": 569,
+  "Reason": "facilitate value-added networks",
+  "LikelyQuoteAlternativeId": 467,
+  "SentDate": "1997-09-04T16:54:56.096147+02:00",
+  "FollowupId": 41,
+  "ExpirationDate": "2011-03-15T16:54:56.096147+01:00",
+  "DeliveryCountryId": 900,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 414,
+  "InvoiceCountryId": 62,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "minus",
-  "ERPPaymentTypeKey": "et",
-  "ERPDeliveryTermsKey": "expedita",
-  "ERPDeliveryTypeKey": "dolor",
-  "Rank": 485,
-  "ApprovedBy": 752,
-  "ApprovedText": "deleniti",
-  "ApprovedRegisteredBy": 892,
-  "ApprovedRegisteredDate": "1999-04-16T23:03:56.7196199+02:00",
-  "ExtraField1": "inventore",
-  "ExtraField2": "quia",
-  "ExtraField3": "rerum",
-  "ExtraField4": "rerum",
-  "ExtraField5": "ullam",
-  "LastRecalculated": "1997-07-12T23:03:56.7196199+02:00",
-  "Updated": "2009-08-05T23:03:56.7196199+02:00",
-  "UpdatedAssociateId": 623,
-  "Registered": "2007-07-29T23:03:56.7196199+02:00",
-  "RegisteredAssociateId": 801,
-  "RequestAssociateId": 301,
-  "RequestComment": "voluptates",
+  "ERPPaymentTermsKey": "facere",
+  "ERPPaymentTypeKey": "eaque",
+  "ERPDeliveryTermsKey": "voluptatem",
+  "ERPDeliveryTypeKey": "inventore",
+  "Rank": 469,
+  "ApprovedBy": 421,
+  "ApprovedText": "autem",
+  "ApprovedRegisteredBy": 521,
+  "ApprovedRegisteredDate": "2002-07-15T16:54:56.096147+02:00",
+  "ExtraField1": "quo",
+  "ExtraField2": "provident",
+  "ExtraField3": "debitis",
+  "ExtraField4": "deserunt",
+  "ExtraField5": "sit",
+  "LastRecalculated": "2006-01-12T16:54:56.0971559+01:00",
+  "Updated": "2009-06-13T16:54:56.0971559+02:00",
+  "UpdatedAssociateId": 578,
+  "Registered": "2022-09-09T16:54:56.0971559+02:00",
+  "RegisteredAssociateId": 941,
+  "RequestAssociateId": 125,
+  "RequestComment": "eum",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 592,
-      "ERPQuoteAlternativeKey": "nemo",
-      "QuoteVersionId": 519,
-      "Name": "Renner, Hermiston and Renner",
-      "Description": "Advanced fault-tolerant alliance",
+      "QuoteAlternativeId": 412,
+      "ERPQuoteAlternativeKey": "natus",
+      "QuoteVersionId": 215,
+      "Name": "Okuneva, Gutmann and Bednar",
+      "Description": "Organic heuristic groupware",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 2964.764,
-      "ERPDiscountAmount": 18518.806,
-      "DiscountPercent": 9756.142,
-      "DiscountAmount": 22251.399999999998,
+      "ERPDiscountPercent": 22336.018,
+      "ERPDiscountAmount": 9405.134,
+      "DiscountPercent": 23404.712,
+      "DiscountAmount": 12583.01,
       "UserValueOverride": "DiscountAmount",
       "VATInfo": "ut",
-      "VAT": 12159.92,
-      "EarningPercent": 24558.023999999998,
-      "EarningAmount": 29089.788,
-      "SubTotal": 26751.824,
-      "TotalPrice": 24786.806,
-      "ExtraField1": "excepturi",
-      "ExtraField2": "minima",
-      "ExtraField3": "exercitationem",
-      "ExtraField4": "et",
-      "ExtraField5": "sapiente",
+      "VAT": 25501.358,
+      "EarningPercent": 10307.726,
+      "EarningAmount": 25341.523999999998,
+      "SubTotal": 19361.852,
+      "TotalPrice": 8019.906,
+      "ExtraField1": "maxime",
+      "ExtraField2": "est",
+      "ExtraField3": "dolorem",
+      "ExtraField4": "praesentium",
+      "ExtraField5": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 90
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Kuhic-DuBuque",
-    "ToolTip": "Voluptatem quod sunt.",
+    "Id": 509,
+    "Name": "Boehm, Herzog and Hoppe",
+    "ToolTip": "Porro vitae sed distinctio est.",
     "Deleted": true,
-    "Rank": 497,
-    "Type": "quidem",
-    "ColorBlock": 20,
-    "IconHint": "repellat",
+    "Rank": 763,
+    "Type": "qui",
+    "ColorBlock": 330,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "1998-09-15T23:04:04.6300113+02:00",
+    "LastChanged": "2010-10-26T16:55:30.0015942+02:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Waelchi Inc and Sons",
-        "ToolTip": "Eum voluptatem consequatur labore.",
-        "Deleted": true,
-        "Rank": 473,
-        "Type": "eos",
-        "ColorBlock": 649,
-        "IconHint": "sequi",
+        "Id": 82,
+        "Name": "Beahan, Gutmann and Welch",
+        "ToolTip": "Quia rem veritatis fuga architecto.",
+        "Deleted": false,
+        "Rank": 12,
+        "Type": "error",
+        "ColorBlock": 802,
+        "IconHint": "eius",
         "Selected": true,
-        "LastChanged": "2016-05-21T23:04:04.6300113+02:00",
+        "LastChanged": "2007-09-05T16:55:30.0025952+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "ex",
+        "ExtraInfo": "sint",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Annamae Keeling",
+        "FullName": "Kaitlin Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 279
+            "FieldType": "System.String",
+            "FieldLength": 381
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "cum",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Ally Dare",
+    "FullName": "Libby Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   }

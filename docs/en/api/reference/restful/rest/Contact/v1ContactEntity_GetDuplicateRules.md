@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boyle-Stoltenberg",
-    "DisplayName": "Ondricka, Morissette and Goldner",
-    "DisplayTooltip": "aut",
-    "IsActive": true,
+    "Name": "Breitenberg, Hirthe and Hilll",
+    "DisplayName": "Bergnaum, Kirlin and Smith",
+    "DisplayTooltip": "eligendi",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   },
   {
-    "Name": "Boyle-Stoltenberg",
-    "DisplayName": "Ondricka, Morissette and Goldner",
-    "DisplayTooltip": "aut",
-    "IsActive": true,
+    "Name": "Breitenberg, Hirthe and Hilll",
+    "DisplayName": "Bergnaum, Kirlin and Smith",
+    "DisplayTooltip": "eligendi",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 | DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 295,
-  "ParentId": 483,
-  "Name": "Friesen, Willms and Daniel",
-  "Fullname": "blanditiis",
-  "CategoryMaster": 947,
+  "TicketCategoryId": 630,
+  "ParentId": 519,
+  "Name": "Rippin, Stracke and Kertzmann",
+  "Fullname": "voluptatem",
+  "CategoryMaster": 360,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Walter, Hodkiewicz and Kuphal",
+  "ExternalName": "Goodwin-Dickens",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 548,
-  "ReplyTemplate": 365,
-  "NotificationEmail": "elwin_spinka@raynorkemmer.ca",
+  "AssignmentLag": 87,
+  "ReplyTemplate": 327,
+  "NotificationEmail": "newell@cassinberge.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 41,
+  "EffectiveReplyTemplateId": 267,
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "aliquam"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "vitae"
+    "CustomFields1": "amet",
+    "CustomFields2": "voluptatibus"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 193,
-  "ParentId": 296,
-  "Name": "Cronin Group",
-  "Fullname": "odit",
-  "CategoryMaster": 503,
+  "TicketCategoryId": 116,
+  "ParentId": 190,
+  "Name": "Mohr, Lang and Krajcik",
+  "Fullname": "distinctio",
+  "CategoryMaster": 354,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bauch-Leuschke",
+  "ExternalName": "Vandervort-Hodkiewicz",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 936,
-  "ReplyTemplate": 45,
-  "NotificationEmail": "dovie@brakusblock.name",
+  "AssignmentLag": 428,
+  "ReplyTemplate": 489,
+  "NotificationEmail": "nedra_morissette@feil.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 189,
+  "EffectiveReplyTemplateId": 702,
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

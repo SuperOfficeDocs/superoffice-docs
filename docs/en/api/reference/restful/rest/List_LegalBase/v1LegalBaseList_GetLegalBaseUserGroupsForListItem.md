@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Koepp-Batz",
-    "ToolTip": "Ducimus repudiandae perferendis illo magni.",
+    "Id": 631,
+    "Name": "McCullough, O'Reilly and Simonis",
+    "ToolTip": "Et dolores.",
     "Deleted": true,
-    "Rank": 315,
-    "Type": "debitis",
-    "ColorBlock": 362,
-    "IconHint": "quisquam",
+    "Rank": 776,
+    "Type": "in",
+    "ColorBlock": 228,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2006-12-24T23:04:05.4969991+01:00",
+    "LastChanged": "2022-03-15T16:55:30.7011901+01:00",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Kozey LLC",
-        "ToolTip": "Quis voluptatum repellendus.",
+        "Id": 696,
+        "Name": "Jewess-Wunsch",
+        "ToolTip": "Sint nostrum veniam eos ab dolor officia.",
         "Deleted": false,
-        "Rank": 281,
-        "Type": "ut",
-        "ColorBlock": 974,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2021-02-22T23:04:05.4969991+01:00",
+        "Rank": 388,
+        "Type": "similique",
+        "ColorBlock": 461,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2000-06-23T16:55:30.7011901+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "sed",
+        "StyleHint": "amet",
         "Hidden": true,
-        "FullName": "Domenica Pagac",
+        "FullName": "Royal Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldLength": 268
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quia",
+    "ExtraInfo": "quia",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Clovis Mohr",
+    "FullName": "Pamela Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldLength": 821
       }
     }
   }

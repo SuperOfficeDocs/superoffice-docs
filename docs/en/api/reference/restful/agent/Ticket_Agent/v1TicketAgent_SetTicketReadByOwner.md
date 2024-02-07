@@ -82,15 +82,15 @@ OK
 | Deadline | date-time | Deadline for ticket. |
 | CreatedBy | Associate | The associate who created this ticket |
 | Author | string | A string representing the author of the ticket (same as author of first message). |
-| OwnedBy | Associate | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
-| Category | TicketCategoryEntity | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
+| OwnedBy | Associate | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  Use MDO List name "associate" to get list items. |
+| Category | TicketCategoryEntity | The ticket category entity which this ticket is connected to  Use MDO List name "ejcategory" to get list items. |
 | Slevel | string | The securitylevel of the ticket. |
-| Priority | TicketPriorityEntity | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
-| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <para>Use MDO List name "ticketstatus" to get list items.</para> |
-| Status | TicketStatusEntity | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
+| Priority | TicketPriorityEntity | The ticket priority entity which this ticket is connected to  Use MDO List name "ticketpriority" to get list items. |
+| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  Use MDO List name "ticketstatus" to get list items. |
+| Status | TicketStatusEntity | The ticket status entity which this ticket is connected to  Use MDO List name "ticketstatus" to get list items. |
 | Origin | string | What is the origin of this ticket |
-| Person | Person | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
-| SecondaryPersons | array | The secondary persons this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The primary person that this ticket is connected to  Use MDO List name "person_new" to get list items. |
+| SecondaryPersons | array | The secondary persons this ticket is connected to  Use MDO List name "person_new" to get list items. |
 | AlertLevel | int32 | The alert level for the ticket. Matches the level value of the ticket_alert table. |
 | ConnectId | int32 | If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket. |
 | ReadStatus | string | Whether the owner has read the ticket or not (red, yellow, green). |
@@ -118,13 +118,13 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  Use MDO List name "sale" to get list items. |
+| Project | Project | The project that this ticket is connected to  Use MDO List name "project" to get list items. |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
-| TicketType | TicketType | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| TicketType | TicketType | Type of the Request  Use MDO List name "TicketType" to get list items. |
 | ActiveStatusMonitorId | int32 | Active status monitor identity for related contact. This is a read-only property and is ignored on Save |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -134,11 +134,11 @@ OK
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 35,
+  "TicketEntityId": 25,
   "ReadStatus": "Green",
   "CheckEscalating": false
 }
@@ -151,21 +151,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 582,
-  "Title": "sit",
-  "CreatedAt": "2005-03-06T23:03:57.3226138+01:00",
-  "LastChanged": "2017-11-26T23:03:57.3226138+01:00",
-  "ReadByOwner": "2002-06-13T23:03:57.3226138+02:00",
-  "ReadByCustomer": "2015-07-06T23:03:57.3226138+02:00",
-  "FirstReadByOwner": "2002-01-29T23:03:57.3226138+01:00",
-  "FirstReadByUser": "2021-03-24T23:03:57.3226138+01:00",
-  "Activate": "2009-06-24T23:03:57.3226138+02:00",
-  "ClosedAt": "2000-06-09T23:03:57.3226138+02:00",
-  "RepliedAt": "1998-08-09T23:03:57.3226138+02:00",
-  "AlertTimeout": "2000-06-28T23:03:57.3226138+02:00",
-  "Deadline": "2005-07-29T23:03:57.3226138+02:00",
+  "TicketId": 917,
+  "Title": "nemo",
+  "CreatedAt": "2014-02-28T16:54:56.4687619+01:00",
+  "LastChanged": "2002-12-23T16:54:56.4687619+01:00",
+  "ReadByOwner": "2011-02-17T16:54:56.4687619+01:00",
+  "ReadByCustomer": "2000-01-11T16:54:56.4687619+01:00",
+  "FirstReadByOwner": "2014-03-02T16:54:56.4687619+01:00",
+  "FirstReadByUser": "2023-08-30T16:54:56.4687619+02:00",
+  "Activate": "2003-02-27T16:54:56.4687619+01:00",
+  "ClosedAt": "2005-09-05T16:54:56.4687619+02:00",
+  "RepliedAt": "2009-05-19T16:54:56.4687619+02:00",
+  "AlertTimeout": "2002-01-06T16:54:56.4687619+01:00",
+  "Deadline": "2012-10-25T16:54:56.4687619+02:00",
   "CreatedBy": null,
-  "Author": "animi",
+  "Author": "dolore",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -176,162 +176,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "doloremque",
-      "PersonId": 609,
-      "Mrmrs": "aperiam",
-      "Firstname": "Hermann",
-      "Lastname": "Koelpin",
-      "MiddleName": "Wuckert-Gerhold",
-      "Title": "iste",
-      "Description": "Organized attitude-oriented algorithm",
-      "Email": "jamar@dooley.com",
-      "FullName": "Hilario Abshire",
-      "DirectPhone": "438-390-1647 x596",
-      "FormalName": "Ullrich Inc and Sons",
-      "CountryId": 274,
-      "ContactId": 576,
-      "ContactName": "Walter Inc and Sons",
-      "Retired": 550,
-      "Rank": 945,
-      "ActiveInterests": 177,
+      "Position": "molestiae",
+      "PersonId": 943,
+      "Mrmrs": "velit",
+      "Firstname": "Branson",
+      "Lastname": "Little",
+      "MiddleName": "Sipes-Streich",
+      "Title": "ea",
+      "Description": "Centralized zero defect interface",
+      "Email": "arne_deckow@gleichner.biz",
+      "FullName": "Ms. Brennan Wilderman Sr.",
+      "DirectPhone": "308-351-8644",
+      "FormalName": "Fadel LLC",
+      "CountryId": 836,
+      "ContactId": 32,
+      "ContactName": "Champlin-Schuster",
+      "Retired": 683,
+      "Rank": 826,
+      "ActiveInterests": 698,
       "ContactDepartment": "",
-      "ContactCountryId": 99,
-      "ContactOrgNr": "1525472",
-      "FaxPhone": "1-389-328-8758 x455",
-      "MobilePhone": "(015)133-8656",
-      "ContactPhone": "550.022.2257",
-      "AssociateName": "Mante Inc and Sons",
-      "AssociateId": 64,
-      "UsePersonAddress": true,
-      "ContactFax": "qui",
-      "Kanafname": "impedit",
-      "Kanalname": "est",
-      "Post1": "exercitationem",
-      "Post2": "iure",
-      "Post3": "dolor",
-      "EmailName": "marilie@cummingsschmidt.uk",
-      "ContactFullName": "Brielle McCullough",
-      "ActiveErpLinks": 481,
-      "TicketPriorityId": 154,
-      "SupportLanguageId": 940,
-      "SupportAssociateId": 477,
+      "ContactCountryId": 764,
+      "ContactOrgNr": "1641700",
+      "FaxPhone": "441-243-6184 x588",
+      "MobilePhone": "(630)859-0111 x31033",
+      "ContactPhone": "(702)400-9640",
+      "AssociateName": "Connelly Group",
+      "AssociateId": 957,
+      "UsePersonAddress": false,
+      "ContactFax": "dolor",
+      "Kanafname": "eos",
+      "Kanalname": "adipisci",
+      "Post1": "dicta",
+      "Post2": "praesentium",
+      "Post3": "quis",
+      "EmailName": "destiney.weimann@kuvalis.co.uk",
+      "ContactFullName": "Darron Konopelski",
+      "ActiveErpLinks": 867,
+      "TicketPriorityId": 388,
+      "SupportLanguageId": 129,
+      "SupportAssociateId": 634,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 251
         }
       }
     }
   ],
-  "AlertLevel": 520,
-  "ConnectId": 299,
+  "AlertLevel": 441,
+  "ConnectId": 701,
   "ReadStatus": "Green",
-  "TimeToReply": 81,
-  "RealTimeToReply": 291,
-  "TimeToClose": 238,
-  "RealTimeToClose": 332,
-  "TimeSpentInternally": 409,
-  "TimeSpentExternally": 882,
-  "TimeSpentQueue": 682,
-  "RealTimeSpentInternally": 75,
-  "RealTimeSpentExternally": 625,
-  "RealTimeSpentQueue": 395,
-  "TimeSpent": 884,
+  "TimeToReply": 339,
+  "RealTimeToReply": 508,
+  "TimeToClose": 205,
+  "RealTimeToClose": 470,
+  "TimeSpentInternally": 173,
+  "TimeSpentExternally": 500,
+  "TimeSpentQueue": 727,
+  "RealTimeSpentInternally": 416,
+  "RealTimeSpentExternally": 228,
+  "RealTimeSpentQueue": 203,
+  "TimeSpent": 750,
   "HasAttachment": true,
-  "NumReplies": 187,
-  "NumMessages": 411,
-  "FromAddress": "non",
+  "NumReplies": 69,
+  "NumMessages": 829,
+  "FromAddress": "maxime",
   "Messages": [
     {
-      "TicketMessageId": 944,
-      "CreatedAt": "2013-10-18T23:03:57.3276106+02:00",
+      "TicketMessageId": 974,
+      "CreatedAt": "2008-03-13T16:54:56.4776489+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "voluptas",
-      "PersonId": 997,
-      "PersonFullName": "Breanna Grimes",
-      "ContactId": 133,
-      "ContactName": "Dietrich Group",
+      "Author": "est",
+      "PersonId": 402,
+      "PersonFullName": "Prof. Braxton Sigrid Keeling III",
+      "ContactId": 66,
+      "ContactName": "Hartmann Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 614,
-      "EmailHeader": "kiera.turcotte@larsoncole.com",
+      "NumAttachments": 907,
+      "EmailHeader": "timmothy_erdman@mitchell.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "autem",
-      "Sentiment": 504,
-      "SentimentConfidence": 269,
-      "CreatedBy": 948,
-      "ChangedAt": "2011-10-10T23:03:57.3276106+02:00",
+      "Language": "sit",
+      "Sentiment": 24,
+      "SentimentConfidence": 39,
+      "CreatedBy": 784,
+      "ChangedAt": "2015-07-16T16:54:56.4776489+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 749
+          "FieldLength": 44
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 716,
-      "Name": "Mante, Krajcik and Fahey",
-      "ToolTip": "Ducimus quis tenetur.",
+      "Id": 666,
+      "Name": "Robel Group",
+      "ToolTip": "Delectus rem eum debitis et sit qui iure.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 788
         }
       }
     },
     {
-      "Id": 716,
-      "Name": "Mante, Krajcik and Fahey",
-      "ToolTip": "Ducimus quis tenetur.",
+      "Id": 666,
+      "Name": "Robel Group",
+      "ToolTip": "Delectus rem eum debitis et sit qui iure.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 788
         }
       }
     }
   ],
-  "Language": "dolorum",
-  "Sentiment": 228,
-  "SentimentConfidence": 936,
-  "SuggestedCategoryId": 247,
+  "Language": "dolorem",
+  "Sentiment": 708,
+  "SentimentConfidence": 271,
+  "SuggestedCategoryId": 293,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 960,
-  "IconHint": "est",
+  "OrigHumanCategoryId": 304,
+  "IconHint": "perspiciatis",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 37,
+  "ActiveStatusMonitorId": 893,
   "ExtraFields": {
-    "ExtraFields1": "accusamus",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "neque"
+    "CustomFields1": "eum",
+    "CustomFields2": "culpa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldLength": 324
     }
   }
 }

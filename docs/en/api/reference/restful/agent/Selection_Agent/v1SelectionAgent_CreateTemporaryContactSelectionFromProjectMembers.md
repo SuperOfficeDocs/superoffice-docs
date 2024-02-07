@@ -68,7 +68,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 457
+  "ProjectId": 620
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cloned dedicated core",
-  "Postit": "quae",
+  "Description": "Optional cohesive artificial intelligence",
+  "Postit": "in",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 463,
-  "IncludePerson": 203,
-  "MemberCount": 498,
-  "Name": "Casper Group",
-  "PostitTextId": 176,
-  "CreatedDate": "1999-05-02T23:03:57.1226131+02:00",
-  "SelectionId": 447,
-  "SoundEx": "velit",
-  "Source": 432,
-  "TextId": 284,
-  "UpdatedDate": "2005-03-01T23:03:57.1226131+01:00",
-  "UpdatedCount": 683,
-  "Visibility": 360,
+  "GroupIdx": 624,
+  "IncludePerson": 875,
+  "MemberCount": 369,
+  "Name": "Shanahan-Kling",
+  "PostitTextId": 476,
+  "CreatedDate": "2022-03-21T16:54:56.3085219+01:00",
+  "SelectionId": 859,
+  "SoundEx": "quia",
+  "Source": 549,
+  "TextId": 263,
+  "UpdatedDate": "2002-02-27T16:54:56.3085219+01:00",
+  "UpdatedCount": 704,
+  "Visibility": 280,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 904,
-  "TargetTableName": "Howe-Mann",
-  "Completed": false,
-  "LeftSelectionId": 5,
-  "RightSelectionId": 675,
+  "CompanyUnique": true,
+  "TargetTableNumber": 759,
+  "TargetTableName": "Hyatt Group",
+  "Completed": true,
+  "LeftSelectionId": 49,
+  "RightSelectionId": 497,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gulgowski, Corkery and Hessel",
-  "ShadowProviderName": "VonRueden-Homenick",
-  "ChartKey": "non",
-  "LastLoaded": "2023-07-23T23:03:57.1226131+02:00",
-  "LastLoadedBy": 600,
+  "MainProviderName": "Hahn Group",
+  "ShadowProviderName": "Rau-Feil",
+  "ChartKey": "iste",
+  "LastLoaded": "2021-11-06T16:54:56.3085219+01:00",
+  "LastLoadedBy": 495,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-10-06T23:03:57.123114+02:00",
-  "LastMembershipChangeBy": 487,
+  "LastMembershipChange": "2000-01-30T16:54:56.3085219+01:00",
+  "LastMembershipChangeBy": 821,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eligendi",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Zboncak-Gutkowski",
-  "DashboardTileDefinitionId": 958,
+  "MainHeading": "et",
+  "MemberTabHeading": "consectetur",
+  "MailingsProviderName": "Thompson Inc and Sons",
+  "DashboardTileDefinitionId": 350,
   "VisibleFor": [
     {
-      "VisibleId": 77,
+      "VisibleId": 737,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldLength": 563
         }
       }
     },
     {
-      "VisibleId": 77,
+      "VisibleId": 737,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldLength": 563
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

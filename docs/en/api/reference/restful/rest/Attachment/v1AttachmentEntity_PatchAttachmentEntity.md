@@ -114,18 +114,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "magni",
+    "path": "id",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magni",
+    "path": "id",
     "value": {}
   }
 ]
@@ -138,19 +138,19 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 333,
-  "Name": "Heaney, Ledner and Dickinson",
-  "ContentType": "harum",
-  "AttSize": 843,
+  "AttachmentId": 128,
+  "Name": "Schaefer, Hahn and Simonis",
+  "ContentType": "quia",
+  "AttSize": 824,
   "InlineImage": false,
-  "ContentId": "ea",
-  "AuthKey": "eum",
+  "ContentId": "voluptatem",
+  "AuthKey": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldType": "System.Int32",
+      "FieldLength": 167
     }
   },
   "_Links": {

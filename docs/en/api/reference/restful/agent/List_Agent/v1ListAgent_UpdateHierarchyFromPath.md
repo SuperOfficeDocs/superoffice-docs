@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "maiores",
+  "Path": "optio",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 332,
+  "HierarchyId": 934,
   "Domain": "Dashboards",
-  "Name": "Schulist LLC",
-  "Fullname": "incidunt",
-  "ParentId": 698,
+  "Name": "Hills-Frami",
+  "Fullname": "et",
+  "ParentId": 714,
   "Children": [
     {
-      "HierarchyId": 868,
+      "HierarchyId": 891,
       "Domain": "Dashboards",
-      "Name": "Rice LLC",
-      "Fullname": "nisi",
-      "ParentId": 379,
+      "Name": "Hahn-Fritsch",
+      "Fullname": "et",
+      "ParentId": 846,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-04-17T23:03:56.2766249+02:00",
-      "RegisteredAssociateId": 863,
-      "Updated": "2012-08-11T23:03:56.2766249+02:00",
-      "UpdatedAssociateId": 766,
+      "Registered": "2023-09-07T16:54:55.6129851+02:00",
+      "RegisteredAssociateId": 850,
+      "Updated": "2018-09-26T16:54:55.6129851+02:00",
+      "UpdatedAssociateId": 718,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldLength": 393
         }
       }
     }
   ],
-  "Registered": "1997-06-25T23:03:56.2766249+02:00",
-  "RegisteredAssociateId": 837,
-  "Updated": "2021-03-24T23:03:56.2766249+01:00",
-  "UpdatedAssociateId": 614,
+  "Registered": "2022-04-14T16:54:55.6129851+02:00",
+  "RegisteredAssociateId": 1002,
+  "Updated": "2007-03-05T16:54:55.6129851+01:00",
+  "UpdatedAssociateId": 725,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

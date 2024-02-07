@@ -102,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 878,
-  "StartTime": "2006-06-28T23:03:55.6791326+02:00",
-  "EndTime": "2006-09-11T23:03:55.6791326+02:00",
-  "Count": 995,
-  "DocumentTemplateId": 869
+  "ProjectId": 199,
+  "StartTime": "2004-04-13T16:54:55.1514678+02:00",
+  "EndTime": "2018-09-20T16:54:55.1514678+02:00",
+  "Count": 173,
+  "DocumentTemplateId": 700
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 784,
-    "Attention": "aut",
-    "Header": "optio",
-    "Name": "Greenfelder-Bruen",
-    "OurRef": "at",
-    "YourRef": "qui",
-    "Description": "Open-source systemic concept",
-    "DocumentTemplate": "consectetur",
-    "IsPublished": true,
-    "PersonId": 167,
-    "PersonFullName": "Prof. Michael Bechtelar",
-    "AssociateFullName": "Morgan Jacobi",
-    "ContactId": 312,
-    "ContactName": "Windler Inc and Sons",
-    "ProjectId": 584,
-    "ProjectName": "Gottlieb-Haley",
-    "AssociateId": 925,
-    "Snum": 413,
-    "SaleId": 637,
-    "SaleName": "Marvin LLC",
+    "DocumentId": 756,
+    "Attention": "molestiae",
+    "Header": "aspernatur",
+    "Name": "Ward-Doyle",
+    "OurRef": "minima",
+    "YourRef": "saepe",
+    "Description": "Integrated foreground implementation",
+    "DocumentTemplate": "id",
+    "IsPublished": false,
+    "PersonId": 736,
+    "PersonFullName": "Xander Stark",
+    "AssociateFullName": "Javier Welch",
+    "ContactId": 1001,
+    "ContactName": "Trantow-Klocko",
+    "ProjectId": 197,
+    "ProjectName": "Frami, Deckow and Predovic",
+    "AssociateId": 508,
+    "Snum": 177,
+    "SaleId": 110,
+    "SaleName": "Daugherty LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldType": "System.Int32",
+        "FieldLength": 75
       }
     }
   }

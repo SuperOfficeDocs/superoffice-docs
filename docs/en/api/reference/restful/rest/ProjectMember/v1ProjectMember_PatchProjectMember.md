@@ -114,7 +114,7 @@ ProjectMember  updated.
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -128,18 +128,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "dolorem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "dolorem",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 176,
-  "ContactId": 539,
-  "ProjectId": 575,
-  "ContactName": "Roberts LLC",
+  "ProjectmemberId": 499,
+  "ContactId": 625,
+  "ProjectId": 219,
+  "ContactName": "Dach-Rempel",
   "ContactDepartment": "",
-  "ProjectName": "Kuphal LLC",
-  "EmailId": 154,
-  "EmailAddress": "destinee@gutmannsauer.info",
-  "CountryId": 608,
-  "Firstname": "Douglas",
-  "MiddleName": "Mueller-Bartoletti",
-  "Lastname": "Homenick",
-  "PersonId": 78,
-  "Mrmrs": "asperiores",
-  "ProjectMemberTypeName": "Denesik, Ritchie and Stark",
-  "Phone": "(128)905-2888 x65652",
-  "PhoneId": 770,
-  "ProjectMemberTypeId": 439,
-  "EmailAddressName": "beth_crist@bartellcummings.ca",
-  "Comment": "quas",
-  "FullName": "Patience Abshire",
+  "ProjectName": "Koelpin Group",
+  "EmailId": 966,
+  "EmailAddress": "marlen_lueilwitz@stehr.co.uk",
+  "CountryId": 515,
+  "Firstname": "Prince",
+  "MiddleName": "Auer LLC",
+  "Lastname": "Kulas",
+  "PersonId": 707,
+  "Mrmrs": "nihil",
+  "ProjectMemberTypeName": "Howe-Moore",
+  "Phone": "947-622-7076 x339",
+  "PhoneId": 491,
+  "ProjectMemberTypeId": 309,
+  "EmailAddressName": "kali.waters@crooks.biz",
+  "Comment": "aperiam",
+  "FullName": "Damien Schroeder",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldType": "System.String",
+      "FieldLength": 698
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

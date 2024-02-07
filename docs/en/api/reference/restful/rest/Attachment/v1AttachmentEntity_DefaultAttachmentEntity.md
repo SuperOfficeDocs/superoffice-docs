@@ -63,7 +63,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 550,
-  "Name": "Marquardt Group",
-  "ContentType": "et",
-  "AttSize": 953,
+  "AttachmentId": 753,
+  "Name": "Schinner, Fritsch and Nikolaus",
+  "ContentType": "quo",
+  "AttSize": 411,
   "InlineImage": false,
-  "ContentId": "mollitia",
-  "AuthKey": "dolorem",
+  "ContentId": "iusto",
+  "AuthKey": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 253
     }
   }
 }

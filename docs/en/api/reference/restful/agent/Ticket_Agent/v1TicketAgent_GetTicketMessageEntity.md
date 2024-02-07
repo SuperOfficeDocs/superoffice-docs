@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=924
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=440
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -82,7 +82,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,78 +102,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 899,
+  "EjMessageId": 855,
   "Ticket": null,
-  "CreatedAt": "2020-06-17T23:03:57.4386094+02:00",
+  "CreatedAt": "2004-03-15T16:54:56.5662896+01:00",
   "CreatedBy": null,
-  "Author": "exercitationem",
+  "Author": "eos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "excepturi",
-  "TimeSpent": 182,
-  "Body": "cum",
-  "HtmlBody": "aut",
-  "EmailHeader": "sarina@miller.biz",
-  "DebugInfo": "molestiae",
-  "MailSorter": "ab",
+  "MessageId": "sit",
+  "TimeSpent": 515,
+  "Body": "dolorum",
+  "HtmlBody": "autem",
+  "EmailHeader": "nigel@stiedemann.com",
+  "DebugInfo": "voluptates",
+  "MailSorter": "odio",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consectetur",
+  "SearchTitle": "nostrum",
   "MessageHeaders": [
     {
-      "Id": 448,
-      "Name": "Padberg Group",
-      "Value": "quod",
+      "Id": 106,
+      "Name": "Rau, Dicki and Wintheiser",
+      "Value": "dolor",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 118
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "laborum",
-  "Sentiment": 340,
-  "SentimentConfidence": 870,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 179,
+  "SentimentConfidence": 504,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 749,
-      "Name": "Kuhic, Harber and Pfeffer",
-      "ContentType": "ut",
-      "AttSize": 1000,
+      "AttachmentId": 130,
+      "Name": "Lind Inc and Sons",
+      "ContentType": "reiciendis",
+      "AttSize": 688,
       "InlineImage": false,
-      "ContentId": "eos",
-      "AuthKey": "inventore",
+      "ContentId": "non",
+      "AuthKey": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldType": "System.String",
+          "FieldLength": 414
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "et",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "eius"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 315
     }
   }
 }

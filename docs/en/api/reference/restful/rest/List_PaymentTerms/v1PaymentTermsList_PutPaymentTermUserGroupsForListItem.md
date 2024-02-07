@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Spencer-Cruickshank",
-    "ToolTip": "Occaecati voluptas est deserunt.",
+    "Id": 592,
+    "Name": "Kemmer, Denesik and Hilpert",
+    "ToolTip": "Amet consequatur nisi qui qui.",
     "Deleted": false,
-    "Rank": 138,
-    "Type": "voluptatem",
-    "ColorBlock": 228,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "2001-09-27T23:04:05.5375013+02:00",
+    "Rank": 334,
+    "Type": "ut",
+    "ColorBlock": 339,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2009-07-06T16:55:30.7331833+02:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Kshlerin-Gorczany",
-        "ToolTip": "Mollitia est voluptatibus aut deserunt.",
+        "Id": 135,
+        "Name": "Kshlerin, Schuster and Wolf",
+        "ToolTip": "Voluptas beatae officiis consectetur aut quibusdam officia.",
         "Deleted": false,
-        "Rank": 858,
-        "Type": "occaecati",
-        "ColorBlock": 402,
-        "IconHint": "mollitia",
+        "Rank": 68,
+        "Type": "expedita",
+        "ColorBlock": 655,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2001-06-05T23:04:05.5375013+02:00",
+        "LastChanged": "2016-04-18T16:55:30.7331833+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "facere",
+        "ExtraInfo": "ut",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Mr. Hermina Ona Bergstrom"
+        "FullName": "Lynn Friesen"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "est",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Mr. Magdalen Teresa Braun III"
+    "FullName": "Kellen Hammes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Grimes Group",
-    "ToolTip": "Aliquid expedita magnam quibusdam totam qui qui qui.",
+    "Id": 695,
+    "Name": "Kulas-Bogan",
+    "ToolTip": "Veritatis tempora.",
     "Deleted": false,
-    "Rank": 336,
-    "Type": "voluptatum",
-    "ColorBlock": 267,
-    "IconHint": "deserunt",
-    "Selected": true,
-    "LastChanged": "2017-08-14T23:04:05.5389991+02:00",
+    "Rank": 500,
+    "Type": "mollitia",
+    "ColorBlock": 919,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2011-09-20T16:55:30.7361729+02:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Collins-Hettinger",
-        "ToolTip": "Dolorem rerum cumque recusandae repudiandae accusamus laborum ut.",
+        "Id": 11,
+        "Name": "Grimes, Torp and Parisian",
+        "ToolTip": "Voluptatem et distinctio fuga exercitationem exercitationem explicabo perferendis.",
         "Deleted": false,
-        "Rank": 274,
-        "Type": "quibusdam",
-        "ColorBlock": 972,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2012-10-14T23:04:05.5389991+02:00",
+        "Rank": 838,
+        "Type": "repellendus",
+        "ColorBlock": 690,
+        "IconHint": "quisquam",
+        "Selected": true,
+        "LastChanged": "2012-06-07T16:55:30.7361729+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "magni",
+        "ExtraInfo": "facilis",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Cloyd O'Reilly",
+        "FullName": "Nathaniel Gleason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 827
+            "FieldLength": 338
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Hildegard Lyla Swift IV",
+    "ExtraInfo": "sit",
+    "StyleHint": "iusto",
+    "Hidden": false,
+    "FullName": "Prof. Sammy Zoila Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 121
       }
     }
   }

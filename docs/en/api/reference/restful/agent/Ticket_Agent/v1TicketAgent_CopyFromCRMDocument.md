@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 376
+  "DocumentId": 389
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 476,
-  "Name": "Simonis, Hane and Kozey",
-  "ContentType": "suscipit",
-  "AttSize": 111,
-  "InlineImage": true,
-  "ContentId": "est",
-  "AuthKey": "quia",
+  "AttachmentId": 215,
+  "Name": "Mitchell Inc and Sons",
+  "ContentType": "sed",
+  "AttSize": 91,
+  "InlineImage": false,
+  "ContentId": "nihil",
+  "AuthKey": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 375
     }
   }
 }

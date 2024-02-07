@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 692,
-  "Name": "Tillman, Bernier and Barton",
-  "Tooltip": "ducimus",
-  "Deleted": true,
-  "UdListDefinitionId": 818,
-  "Rank": 544,
+  "Id": 972,
+  "Name": "Runolfsson-Stoltenberg",
+  "Tooltip": "repellat",
+  "Deleted": false,
+  "UdListDefinitionId": 578,
+  "Rank": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 133
     }
   }
 }

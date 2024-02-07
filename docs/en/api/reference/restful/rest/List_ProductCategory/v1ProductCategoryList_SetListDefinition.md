@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Lindgren-Witting",
-  "Tooltip": "tempora",
-  "Deleted": false,
-  "Rank": 650,
+  "Id": 317,
+  "Name": "Labadie Group",
+  "Tooltip": "beatae",
+  "Deleted": true,
+  "Rank": 51,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Hickle Inc and Sons",
-  "Tooltip": "nulla",
+  "Id": 495,
+  "Name": "Ernser, Schimmel and Boyer",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 819,
+  "Rank": 699,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 322
+      "FieldType": "System.Int32",
+      "FieldLength": 823
     }
   }
 }

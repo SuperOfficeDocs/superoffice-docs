@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Marketing/GetUserBlocks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 664
+  "AssociateId": 859
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 404,
-    "AssociateId": 580,
-    "Block": "corrupti",
-    "Registered": "2020-03-06T23:03:56.3331248+01:00",
-    "RegisteredAssociateId": 440,
-    "Updated": "2001-07-29T23:03:56.3331248+02:00",
-    "UpdatedAssociateId": 131,
-    "UpdatedCount": 501,
+    "ShipmentMessageBlockId": 731,
+    "AssociateId": 543,
+    "Block": "consequuntur",
+    "Registered": "2014-06-05T16:54:55.6529922+02:00",
+    "RegisteredAssociateId": 918,
+    "Updated": "2009-03-13T16:54:55.6529922+01:00",
+    "UpdatedAssociateId": 41,
+    "UpdatedCount": 893,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldLength": 807
       }
     }
   }

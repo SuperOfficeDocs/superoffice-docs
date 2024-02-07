@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "761-570-3064 x540",
-    "PersonCellPhone": "311-597-6030 x4036",
-    "PersonPrivatePhone": "183.099.4258",
-    "PersonFaxNumber": "887737",
-    "PersonPagerNumber": "1468902",
-    "PersonEmail": "alena.goldner@wuckertbarton.ca",
-    "Id": 716,
-    "Name": "Kunze Group",
-    "Tooltip": "qui",
-    "UniqueId": "repudiandae",
+    "PersonDirectPhone": "784.588.7285 x9452",
+    "PersonCellPhone": "459-772-0669 x5236",
+    "PersonPrivatePhone": "1-556-945-4116",
+    "PersonFaxNumber": "502123",
+    "PersonPagerNumber": "919968",
+    "PersonEmail": "izaiah_stanton@reingerlang.biz",
+    "Id": 452,
+    "Name": "Kemmer, Konopelski and Cremin",
+    "Tooltip": "eum",
+    "UniqueId": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldLength": 315
       }
     }
   }

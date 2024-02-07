@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 970
+  "ContactId": 118
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 436,
-    "Name": "Schultz-O'Keefe",
-    "Description": "Innovative radical focus group",
+    "ProjectId": 654,
+    "Name": "Wiegand, Klein and Gottlieb",
+    "Description": "Function-based context-sensitive workforce",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 475,
-    "AssociateFullName": "Ms. Margot Marjory Pfeffer",
-    "TypeId": 607,
-    "Updated": "2017-06-04T23:03:56.6856194+02:00",
-    "StatusId": 89,
-    "Status": "suscipit",
-    "TextId": 388,
-    "PublishTo": "2000-04-05T23:03:56.6856194+02:00",
-    "PublishFrom": "2012-12-06T23:03:56.6856194+01:00",
+    "Type": "recusandae",
+    "AssociateId": 432,
+    "AssociateFullName": "Rita Kertzmann",
+    "TypeId": 950,
+    "Updated": "2020-11-24T16:54:56.0691386+01:00",
+    "StatusId": 781,
+    "Status": "enim",
+    "TextId": 242,
+    "PublishTo": "2004-12-05T16:54:56.0691386+01:00",
+    "PublishFrom": "1999-11-03T16:54:56.0691386+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1136327",
-    "ActiveErpLinks": 757,
+    "ProjectNumber": "1036406",
+    "ActiveErpLinks": 641,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 529
       }
     }
   }

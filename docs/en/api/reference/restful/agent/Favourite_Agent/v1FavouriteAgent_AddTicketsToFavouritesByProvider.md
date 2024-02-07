@@ -71,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lesch LLC",
+  "ProviderName": "Collier-Schultz",
   "Restrictions": [
     {
-      "Name": "Bechtelar, Reilly and Schowalter",
-      "Operator": "molestiae",
+      "Name": "Swift Group",
+      "Operator": "facere",
       "Values": [
-        "id",
-        "saepe"
+        "modi",
+        "cum"
       ],
       "DisplayValues": [
-        "eos",
-        "reiciendis"
+        "qui",
+        "molestias"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 761,
+      "InterParenthesis": 997,
       "InterOperator": "And",
-      "UniqueHash": 551
+      "UniqueHash": 846
     }
   ],
-  "AssociateId": 932,
-  "ExtraInfo": "id"
+  "AssociateId": 219,
+  "ExtraInfo": "assumenda"
 }
 ```
 

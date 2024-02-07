@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 14 Sep 2002 23:04:05 G9T
+Last-Modified: Fri, 17 Jan 2020 16:55:30 G1T
 
 {
-  "BlobId": 56,
-  "BlobSize": 308,
-  "Description": "Progressive maximized support",
-  "ExtraInfo": "temporibus",
+  "BlobId": 283,
+  "BlobSize": 870,
+  "Description": "Fully-configurable optimal portal",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "consectetur",
-  "OriginalSize": 964,
-  "CreatedDate": "2007-09-28T23:04:05.089008+02:00",
-  "UpdatedDate": "2002-09-14T23:04:05.089008+02:00",
+  "MimeType": "tenetur",
+  "OriginalSize": 669,
+  "CreatedDate": "1998-02-19T16:55:30.3769563+01:00",
+  "UpdatedDate": "2020-01-17T16:55:30.3769563+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquam",
+  "ConceptualType": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 539
     }
   }
 }

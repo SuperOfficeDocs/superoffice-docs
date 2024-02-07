@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 758
+  "CountWords": 615
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Toy, Reichert and Rogahn",
-    "ToolTip": "Explicabo recusandae occaecati aperiam eum eos rerum voluptatum.",
-    "Deleted": false,
-    "Rank": 319,
-    "Type": "ut",
+    "Id": 415,
+    "Name": "Nolan Group",
+    "ToolTip": "Quaerat blanditiis architecto praesentium consequatur.",
+    "Deleted": true,
+    "Rank": 759,
+    "Type": "quisquam",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Stoltenberg-Ledner",
-        "ToolTip": "Voluptatibus ut beatae veniam nisi sed molestiae earum.",
+        "Id": 58,
+        "Name": "Bins, Ruecker and Legros",
+        "ToolTip": "Officia a ipsum repellat debitis.",
         "Deleted": false,
-        "Rank": 303,
-        "Type": "placeat",
+        "Rank": 368,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 199,
-        "ExtraInfo": "est",
-        "StyleHint": "asperiores",
-        "FullName": "Eugene Hilll",
+        "IconHint": "odit",
+        "ColorBlock": 182,
+        "ExtraInfo": "nihil",
+        "StyleHint": "hic",
+        "FullName": "Reyes Anastacio Heidenreich III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 867
           }
         }
       }
     ],
-    "IconHint": "ullam",
-    "ColorBlock": 449,
-    "ExtraInfo": "vel",
-    "StyleHint": "natus",
-    "FullName": "Mrs. Maximillian Klocko",
+    "IconHint": "harum",
+    "ColorBlock": 898,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "nemo",
+    "FullName": "Prof. Norberto Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 209
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 882,
-  "Name": "Kshlerin-Powlowski",
-  "Tooltip": "provident",
+  "HeadingId": 805,
+  "Name": "Herman Inc and Sons",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 269,
-  "UdListDefinitionId": 709,
+  "Rank": 23,
+  "UdListDefinitionId": 838,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 989
     }
   }
 }

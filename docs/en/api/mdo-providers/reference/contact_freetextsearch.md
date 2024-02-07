@@ -2,9 +2,7 @@
 uid: contact_freetextsearch
 title: contact_freetextsearch
 keywords: mdoprovider mdo provider contact_freetextsearch
-description: Provider for selecting a Contact - without person search.
-Does keyword matching and scoring across multiple
-string fields. Checks name, department, soundex fields.
+description: Provider for selecting a Contact - without person search. Does keyword matching and scoring across multiple string fields. Checks name, department, soundex fields.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -19,9 +17,11 @@ User's own contacts, recently added + modified contacts, contacts modified or cr
 Matches on word boundaries or at start of field are scored extra highly.
 Contacts with lots of activity or lots of recent activity (according to the SAINT counters) are also
 preferred.
-<para />
+
+
 Returns contact items only: Id = ExtraInfo = contact_id, Type = "Contact", StyleHint = "stop"
-<para />
+
+
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactListFreetextSearchProvider">ContactListFreetextSearchProvider</see> class.

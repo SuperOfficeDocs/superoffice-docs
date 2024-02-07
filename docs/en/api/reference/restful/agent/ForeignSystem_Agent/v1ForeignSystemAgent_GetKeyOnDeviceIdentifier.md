@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Nitzsche-Raynor",
-  "DeviceName": "Langworth, Jerde and Russel",
-  "DeviceIdentifier": "voluptatem",
-  "KeyName": "Altenwerth, Marquardt and Jones",
-  "TableName": "Boehm-Kessler",
-  "RecordId": 911
+  "ApplicationName": "Nolan, Ondricka and Braun",
+  "DeviceName": "Cormier, Hansen and Strosin",
+  "DeviceIdentifier": "nulla",
+  "KeyName": "Parisian, Graham and Quigley",
+  "TableName": "Crooks-Spencer",
+  "RecordId": 184
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "tempore",
-  "Value": "magni",
-  "RecordId": 264,
-  "CreatedDate": "2020-05-14T23:03:56.1151274+02:00",
-  "UpdatedDate": "2011-05-02T23:03:56.1151274+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "velit",
-  "TableName": "Bechtelar Inc and Sons",
+  "Key": "similique",
+  "Value": "exercitationem",
+  "RecordId": 903,
+  "CreatedDate": "2012-08-31T16:54:55.4844672+02:00",
+  "UpdatedDate": "2009-03-04T16:54:55.4844672+01:00",
+  "UpdatedBy": "incidunt",
+  "CreatedBy": "suscipit",
+  "TableName": "Braun, Hammes and Cartwright",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

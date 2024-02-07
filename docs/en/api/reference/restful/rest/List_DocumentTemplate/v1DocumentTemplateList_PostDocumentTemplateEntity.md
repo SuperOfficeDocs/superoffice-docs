@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 612,
-  "Name": "Nicolas-Price",
-  "Tooltip": "quis",
-  "SaveInDb": 234,
-  "Filename": "sed",
-  "DefaultOref": "veniam",
+  "DocumentTemplateId": 752,
+  "Name": "McLaughlin LLC",
+  "Tooltip": "eligendi",
+  "SaveInDb": 563,
+  "Filename": "repellendus",
+  "DefaultOref": "nesciunt",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 643,
-  "IntentId": 36,
-  "IsDefaultPublished": true,
-  "Rank": 15,
-  "LoadTemplateFromPlugin": 479,
-  "MimeType": "et",
+  "AutoeventId": 659,
+  "IntentId": 97,
+  "IsDefaultPublished": false,
+  "Rank": 655,
+  "LoadTemplateFromPlugin": 703,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 929,
+  "DocumentTypeKey": 495,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "brannon_gibson@stehrkris.ca",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "oran@swaniawski.name",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "amina_sawayn@spencerfeil.name",
+  "SenderEmailAddress": "millie@wilkinson.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 846,
-  "Name": "Okuneva Group",
-  "Tooltip": "voluptas",
-  "SaveInDb": 874,
-  "Filename": "autem",
-  "DefaultOref": "in",
+  "DocumentTemplateId": 316,
+  "Name": "Bechtelar Inc and Sons",
+  "Tooltip": "aperiam",
+  "SaveInDb": 305,
+  "Filename": "cum",
+  "DefaultOref": "consequatur",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 44,
-  "IntentId": 298,
+  "AutoeventId": 467,
+  "IntentId": 280,
   "IsDefaultPublished": false,
-  "Rank": 369,
-  "LoadTemplateFromPlugin": 425,
-  "MimeType": "cum",
+  "Rank": 629,
+  "LoadTemplateFromPlugin": 175,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 575,
+  "DocumentTypeKey": 686,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "trace@bednar.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "rollin@langworth.info",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "wellington.boyer@rogahn.co.uk",
+  "SenderEmailAddress": "margot@erdman.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldType": "System.String",
+      "FieldLength": 873
     }
   }
 }

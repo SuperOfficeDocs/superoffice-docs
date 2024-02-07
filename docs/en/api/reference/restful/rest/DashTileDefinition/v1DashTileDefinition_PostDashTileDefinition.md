@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 982,
-  "Name": "Crist-Kutch",
-  "Description": "User-friendly 6th generation website",
-  "DefaultHeight": 851,
-  "DefaultWidth": 471,
+  "DashboardTileDefinitionId": 726,
+  "Name": "Sauer-Hilll",
+  "Description": "Proactive grid-enabled concept",
+  "DefaultHeight": 550,
+  "DefaultWidth": 797,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Sawayn LLC",
-  "SelectionId": 8,
+  "EntityName": "King LLC",
+  "SelectionId": 327,
   "CurrencyMode": "Base",
-  "CurrencyCode": "vero",
+  "CurrencyCode": "sit",
   "Measure": "Average",
-  "MeasureField": "est",
-  "SortBy": "et",
-  "LayoutConfig": "non",
-  "SecondarySelectionId": 901,
-  "MeasureByField": "temporibus",
+  "MeasureField": "magni",
+  "SortBy": "a",
+  "LayoutConfig": "harum",
+  "SecondarySelectionId": 468,
+  "MeasureByField": "ut",
   "Usage": "Dashboard",
-  "ProviderName": "Conroy, Grimes and Friesen"
+  "ProviderName": "Langosh-Jenkins"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 27,
-  "Name": "Hermiston-Altenwerth",
-  "Description": "Exclusive real-time monitoring",
-  "DefaultHeight": 639,
-  "DefaultWidth": 33,
+  "DashboardTileDefinitionId": 657,
+  "Name": "Bergnaum-Casper",
+  "Description": "Managed systemic functionalities",
+  "DefaultHeight": 985,
+  "DefaultWidth": 183,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Lang LLC",
-  "SelectionId": 705,
+  "EntityName": "Renner Group",
+  "SelectionId": 821,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aut",
+  "CurrencyCode": "voluptas",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "dolorem",
-  "LayoutConfig": "quas",
-  "SecondarySelectionId": 985,
-  "MeasureByField": "et",
+  "MeasureField": "eum",
+  "SortBy": "adipisci",
+  "LayoutConfig": "odio",
+  "SecondarySelectionId": 710,
+  "MeasureByField": "qui",
   "Usage": "Dashboard",
-  "ProviderName": "Sawayn, Marquardt and O'Reilly",
+  "ProviderName": "Lind-Christiansen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldLength": 96
     }
   },
   "_Links": {

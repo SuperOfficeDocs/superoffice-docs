@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Kautzer Group",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 802,
-    "Rank": 318
+    "Id": 36,
+    "Name": "Smith, Towne and Hoeger",
+    "Tooltip": "minus",
+    "Deleted": false,
+    "UdListDefinitionId": 247,
+    "Rank": 29
   },
   {
-    "Id": 862,
-    "Name": "Kautzer Group",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 802,
-    "Rank": 318
+    "Id": 36,
+    "Name": "Smith, Towne and Hoeger",
+    "Tooltip": "minus",
+    "Deleted": false,
+    "UdListDefinitionId": 247,
+    "Rank": 29
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Mueller, Kris and Zemlak",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 927,
-    "Rank": 780,
+    "Id": 300,
+    "Name": "Quitzon, Weimann and Swaniawski",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 653,
+    "Rank": 617,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldLength": 596
       }
     }
   }

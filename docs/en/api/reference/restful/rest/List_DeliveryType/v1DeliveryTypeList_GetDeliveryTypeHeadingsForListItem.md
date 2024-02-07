@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Ziemann-Goodwin",
-    "ToolTip": "Est maxime tempora sit consequatur consequatur explicabo.",
-    "Deleted": false,
-    "Rank": 80,
-    "Type": "suscipit",
-    "ColorBlock": 543,
-    "IconHint": "libero",
+    "Id": 622,
+    "Name": "Leffler Inc and Sons",
+    "ToolTip": "Enim voluptas saepe.",
+    "Deleted": true,
+    "Rank": 924,
+    "Type": "fugit",
+    "ColorBlock": 468,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2012-10-18T23:04:05.4610006+02:00",
+    "LastChanged": "2015-08-16T16:55:30.6699851+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Sauer-Cummerata",
-        "ToolTip": "Nulla dolor aut qui corporis voluptatibus possimus.",
-        "Deleted": false,
-        "Rank": 913,
-        "Type": "odit",
-        "ColorBlock": 711,
-        "IconHint": "libero",
-        "Selected": true,
-        "LastChanged": "2001-08-11T23:04:05.4620007+02:00",
+        "Id": 341,
+        "Name": "Waelchi, Stokes and Quigley",
+        "ToolTip": "Omnis pariatur ipsam quam quo et praesentium.",
+        "Deleted": true,
+        "Rank": 892,
+        "Type": "qui",
+        "ColorBlock": 683,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2001-10-24T16:55:30.671108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "maiores",
-        "Hidden": true,
-        "FullName": "Yesenia Friedrich Wuckert V",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Jasen Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Dr. Rodolfo Milan McDermott",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Ms. Mina Reinger V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 598
       }
     }
   }

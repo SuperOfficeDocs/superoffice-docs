@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 465,
-  "Name": "Dicki, O'Kon and Brakus",
+  "WebhookId": 95,
+  "Name": "Rohan, Smitham and Renner",
   "Events": [
-    "repellendus",
-    "quia"
+    "voluptas",
+    "animi"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "omnis",
+  "Secret": "sed",
   "State": "Active",
-  "Type": "blanditiis",
+  "Type": "fugiat",
   "Headers": {
-    "Headers1": "vero",
-    "Headers2": "quis"
+    "Headers1": "maiores",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-11-30T23:04:05.2275029+01:00",
+  "Registered": "2011-03-17T16:55:30.4791409+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-02-16T23:04:05.2280029+01:00",
+  "Updated": "2008-09-06T16:55:30.4791409+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "priscilla_reynolds@shanahankeeling.biz"
+  "ErrorsEmail": "braden_leuschke@kiehnhowe.biz"
 }
 ```

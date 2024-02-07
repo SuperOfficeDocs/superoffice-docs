@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Person/DeleteExpired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

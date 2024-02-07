@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=300
+POST /api/v1/Agents/Document/GetDocument?documentId=445
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 383,
-  "Attention": "quidem",
-  "Header": "ullam",
-  "Name": "Schuppe Group",
-  "OurRef": "dignissimos",
-  "YourRef": "expedita",
-  "Description": "Operative exuding alliance",
-  "DocumentTemplate": "adipisci",
-  "IsPublished": false,
-  "PersonId": 426,
-  "PersonFullName": "Susan Morissette",
-  "AssociateFullName": "Aniyah Cummerata",
-  "ContactId": 539,
-  "ContactName": "Balistreri-Zieme",
-  "ProjectId": 46,
-  "ProjectName": "Powlowski LLC",
-  "AssociateId": 981,
-  "Snum": 252,
-  "SaleId": 159,
-  "SaleName": "Kling, Treutel and Leuschke",
+  "DocumentId": 81,
+  "Attention": "corrupti",
+  "Header": "dignissimos",
+  "Name": "Gerlach-Adams",
+  "OurRef": "et",
+  "YourRef": "architecto",
+  "Description": "Multi-tiered motivating matrix",
+  "DocumentTemplate": "sequi",
+  "IsPublished": true,
+  "PersonId": 39,
+  "PersonFullName": "Lottie Crist",
+  "AssociateFullName": "Miss Allie Wehner I",
+  "ContactId": 695,
+  "ContactName": "Conroy-Bauch",
+  "ProjectId": 457,
+  "ProjectName": "Bechtelar-Zemlak",
+  "AssociateId": 99,
+  "Snum": 150,
+  "SaleId": 822,
+  "SaleName": "Kshlerin, Turcotte and Ortiz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 337
     }
   }
 }

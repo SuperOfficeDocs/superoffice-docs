@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 140,
-    "Name": "Johns, Nienow and Mraz",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 639,
-    "UdListDefinitionId": 987,
+    "HeadingId": 658,
+    "Name": "Sawayn, Lowe and White",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 887,
+    "UdListDefinitionId": 670,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldLength": 691
       }
     }
   }

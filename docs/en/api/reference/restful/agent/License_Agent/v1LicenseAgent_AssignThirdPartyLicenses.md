@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 556,
-  "ModuleOwner": "nihil",
+  "AssociateId": 235,
+  "ModuleOwner": "ad",
   "ModuleLicenseNames": [
-    "Ward-Mayer",
-    "Adams, Jakubowski and Reilly"
+    "Ebert Inc and Sons",
+    "Cronin, Beahan and Wiza"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 136,
-    "Tooltip": "eos",
+    "Unrestricted": false,
+    "Total": 984,
+    "Tooltip": "incidunt",
     "CanAssign": false,
-    "Free": 46,
-    "InUse": 590,
+    "Free": 670,
+    "InUse": 756,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 452,
-    "Name": "Miller, Wyman and Oberbrunner",
-    "Description": "Universal radical definition",
-    "PrerequisiteModuleName": "Smith Inc and Sons",
-    "SortOrder": 232,
-    "ExtraFlags": 962,
+    "ModuleLicenseId": 39,
+    "Name": "Blick, Kemmer and Reinger",
+    "Description": "Extended holistic forecast",
+    "PrerequisiteModuleName": "Metz, Walsh and Jewess",
+    "SortOrder": 425,
+    "ExtraFlags": 850,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldType": "System.Int32",
+        "FieldLength": 509
       }
     }
   }

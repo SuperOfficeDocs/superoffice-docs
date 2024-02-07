@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 66,
-  "Name": "Will-Runte",
-  "Tooltip": "eum",
-  "Rank": 802,
-  "Rate": 6233.526,
-  "Units": 30346.521999999997,
+  "CurrencyId": 710,
+  "Name": "Gorczany, Klocko and Lockman",
+  "Tooltip": "sit",
+  "Rank": 625,
+  "Rate": 28212.268,
+  "Units": 1836.524,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 855
     }
   }
 }

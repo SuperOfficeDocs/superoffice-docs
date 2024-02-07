@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=totam
+GET /api/v1/List/ProductCategory/MDOItems?query=magni
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 168,
-    "Name": "Ullrich Inc and Sons",
-    "ToolTip": "Consequuntur maiores.",
+    "Id": 90,
+    "Name": "Shanahan, Watsica and Boehm",
+    "ToolTip": "Aspernatur recusandae quos dolor quam.",
     "Deleted": false,
-    "Rank": 565,
-    "Type": "vel",
+    "Rank": 518,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 697,
-        "Name": "Aufderhar-Mueller",
-        "ToolTip": "Dolores quidem mollitia quo.",
-        "Deleted": false,
-        "Rank": 308,
-        "Type": "suscipit",
+        "Id": 79,
+        "Name": "Ward, Daugherty and Abernathy",
+        "ToolTip": "Qui sint molestiae nostrum possimus pariatur tenetur.",
+        "Deleted": true,
+        "Rank": 575,
+        "Type": "officia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 185,
-        "ExtraInfo": "tenetur",
-        "StyleHint": "voluptate",
-        "FullName": "Joany Adams",
+        "IconHint": "et",
+        "ColorBlock": 901,
+        "ExtraInfo": "beatae",
+        "StyleHint": "eum",
+        "FullName": "Rudy Lowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 21
+            "FieldType": "System.Int32",
+            "FieldLength": 275
           }
         }
       }
     ],
-    "IconHint": "quidem",
-    "ColorBlock": 310,
-    "ExtraInfo": "et",
-    "StyleHint": "voluptate",
-    "FullName": "Rylee Schneider Jr.",
+    "IconHint": "maiores",
+    "ColorBlock": 535,
+    "ExtraInfo": "dolores",
+    "StyleHint": "fuga",
+    "FullName": "Miss Marlene Selina Kuhic II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 145
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=136
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=78
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 716,
-  "Section": "provident",
-  "Key": "occaecati",
-  "Name": "McDermott-Hodkiewicz",
+  "PrefDescId": 697,
+  "Section": "id",
+  "Key": "doloribus",
+  "Name": "Barton-Witting",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Grass-roots 24/7 definition",
+  "Description": "Business-focused uniform flexibility",
   "IsBuiltin": false,
-  "TableName": "Muller-Lubowitz",
-  "UserDefinedListId": 318,
-  "Rank": 53,
-  "SubGroup": "unde",
-  "MinLevel": 950,
-  "MaxValue": 869,
-  "MinValue": 569,
-  "RequiredLicense": "qui",
+  "TableName": "Hoeger-Medhurst",
+  "UserDefinedListId": 989,
+  "Rank": 307,
+  "SubGroup": "repudiandae",
+  "MinLevel": 539,
+  "MaxValue": 433,
+  "MinValue": 139,
+  "RequiredLicense": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

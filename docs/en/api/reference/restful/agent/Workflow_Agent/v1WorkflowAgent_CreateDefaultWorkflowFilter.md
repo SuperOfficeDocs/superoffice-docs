@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Lubowitz Inc and Sons",
-      "Description": "Ameliorated zero administration capability",
-      "Rank": 215,
+      "Name": "Collins, Herzog and Erdman",
+      "Description": "Operative modular database",
+      "Rank": 280,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lubowitz Inc and Sons",
-      "Description": "Ameliorated zero administration capability",
-      "Rank": 215,
+      "Name": "Collins, Herzog and Erdman",
+      "Description": "Operative modular database",
+      "Rank": 280,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldLength": 493
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Langworth, Hegmann and Schuppe",
-  "EventFilter": "nulla",
+  "NameFilter": "Quitzon, Abernathy and Price",
+  "EventFilter": "necessitatibus",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 403,
-    "Name": "Kozey-Miller",
+    "WebhookId": 714,
+    "Name": "Auer-Spencer",
     "Events": [
-      "dolorem",
-      "molestiae"
+      "cupiditate",
+      "sit"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "non",
+    "Secret": "sit",
     "State": "Active",
-    "Type": "aspernatur",
+    "Type": "id",
     "Headers": {
-      "Headers1": "dolorem",
-      "Headers2": "maiores"
+      "Headers1": "vel",
+      "Headers2": "quas"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2001-02-10T23:03:57.6621067+01:00",
+    "Registered": "2007-12-24T16:54:56.7458192+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2003-08-30T23:03:57.6621067+02:00",
+    "Updated": "2007-06-17T16:54:56.7458192+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "osbaldo@donnelly.info"
+    "ErrorsEmail": "joelle_considine@rodriguez.info"
   }
 ]
 ```

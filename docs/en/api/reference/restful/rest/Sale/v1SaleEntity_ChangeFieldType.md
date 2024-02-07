@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 962,
-  "ColumnId": 6,
-  "FieldDefault": "suscipit",
-  "FieldHeight": 360,
-  "FieldLabel": "dolorem",
-  "FieldLeft": 322,
-  "FieldTop": 958,
+  "UDefFieldId": 893,
+  "ColumnId": 849,
+  "FieldDefault": "rerum",
+  "FieldHeight": 643,
+  "FieldLabel": "soluta",
+  "FieldLeft": 60,
+  "FieldTop": 195,
   "FieldType": "Checkbox",
-  "FieldWidth": 40,
-  "FormatMask": "laudantium",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 48,
-  "LabelLeft": 895,
-  "LabelTop": 541,
-  "LabelWidth": 783,
-  "LastVersionId": 150,
-  "ListTableId": 316,
+  "FieldWidth": 762,
+  "FormatMask": "molestiae",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 717,
+  "LabelLeft": 23,
+  "LabelTop": 977,
+  "LabelWidth": 937,
+  "LastVersionId": 216,
+  "ListTableId": 389,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 88,
-  "ProgId": "doloremque",
-  "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 875,
-  "TextLength": 19,
-  "Tooltip": "sit",
-  "UdefIdentity": 185,
-  "UDListDefinitionId": 842,
+  "Page1LineNo": 208,
+  "ProgId": "repellat",
+  "IsReadOnly": false,
+  "ShortLabel": "minima",
+  "TabOrder": 752,
+  "TextLength": 810,
+  "Tooltip": "est",
+  "UdefIdentity": 932,
+  "UDListDefinitionId": 106,
   "Justification": "Center",
-  "Version": 866,
-  "TemplateVariableName": "McDermott, Bashirian and Herman",
-  "HasBeenPublished": false,
-  "MdoListName": "Carroll Group",
+  "Version": 177,
+  "TemplateVariableName": "Bruen Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Kerluke LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldType": "System.String",
+      "FieldLength": 212
     }
   }
 }

@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 744
+  "TargetGroupId": 871
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 224,
-  "FileName": "Daniel, Koch and Hane",
-  "Message": "maiores",
+  "BatchTaskId": 879,
+  "FileName": "Runte Group",
+  "Message": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 200
     }
   }
 }

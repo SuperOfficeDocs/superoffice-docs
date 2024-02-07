@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 140,
-  "WorkflowId": 998,
+  "WorkflowGoalId": 808,
+  "WorkflowId": 868,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "DuBuque Group",
-      "Description": "Ameliorated intermediate contingency",
-      "Rank": 572,
+      "Name": "Schmitt Group",
+      "Description": "Triple-buffered regional hardware",
+      "Rank": 530,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "DuBuque Group",
-      "Description": "Ameliorated intermediate contingency",
-      "Rank": 572,
+      "Name": "Schmitt Group",
+      "Description": "Triple-buffered regional hardware",
+      "Rank": 530,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 177,
-  "WorkflowId": 651,
+  "WorkflowGoalId": 798,
+  "WorkflowId": 110,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Gibson, Von and Pollich",
-      "Description": "Virtual solution-oriented methodology",
-      "Rank": 817,
+      "Name": "Brakus-Nicolas",
+      "Description": "Switchable national firmware",
+      "Rank": 95,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gibson, Von and Pollich",
-      "Description": "Virtual solution-oriented methodology",
-      "Rank": 817,
+      "Name": "Brakus-Nicolas",
+      "Description": "Switchable national firmware",
+      "Rank": 95,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 105
     }
   }
 }

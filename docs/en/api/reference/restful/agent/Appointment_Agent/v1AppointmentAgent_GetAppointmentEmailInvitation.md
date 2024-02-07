@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Bahringer, Mosciski and Feil",
-  "Language": "in"
+  "TemplateName": "Auer, Bayer and Gulgowski",
+  "Language": "enim"
 }
 ```
 
@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 713,
-      "ContactName": "Collier-Kuvalis",
-      "PersonId": 675,
-      "PersonName": "Hodkiewicz Group",
-      "AssociateId": 930,
-      "Address": "autem",
-      "EmailId": 889,
+      "ContactId": 399,
+      "ContactName": "Stroman LLC",
+      "PersonId": 241,
+      "PersonName": "Schimmel, Pagac and Stanton",
+      "AssociateId": 239,
+      "Address": "aut",
+      "EmailId": 607,
       "DuplicatePersonIds": [
-        497,
-        459
+        42,
+        891
       ],
-      "Name": "Schroeder-Mertz",
+      "Name": "Hammes Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 99
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 102,
-      "ContactName": "Howell LLC",
-      "PersonId": 793,
-      "PersonName": "Davis, Beahan and Von",
-      "AssociateId": 707,
-      "Address": "autem",
-      "EmailId": 960,
+      "ContactId": 450,
+      "ContactName": "Koss, Crona and Koelpin",
+      "PersonId": 528,
+      "PersonName": "Abbott-Leffler",
+      "AssociateId": 273,
+      "Address": "ex",
+      "EmailId": 761,
       "DuplicatePersonIds": [
-        489,
-        703
+        974,
+        930
       ],
-      "Name": "Schulist Inc and Sons",
+      "Name": "Senger Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 179,
-      "ContactName": "Kovacek-Kuhic",
-      "PersonId": 608,
-      "PersonName": "King-Homenick",
-      "AssociateId": 509,
-      "Address": "dolor",
-      "EmailId": 709,
+      "ContactId": 695,
+      "ContactName": "Johns, Kautzer and Moore",
+      "PersonId": 866,
+      "PersonName": "Heathcote-Maggio",
+      "AssociateId": 837,
+      "Address": "commodi",
+      "EmailId": 703,
       "DuplicatePersonIds": [
-        626,
-        296
+        645,
+        755
       ],
-      "Name": "Kautzer LLC",
+      "Name": "Dietrich, Hermann and Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldLength": 733
         }
       }
     }
   ],
-  "Subject": "laboriosam",
-  "HTMLBody": "inventore",
+  "Subject": "ratione",
+  "HTMLBody": "saepe",
   "From": null,
-  "Sent": "2000-04-01T23:03:54.9306444+02:00",
-  "Size": 68,
+  "Sent": "2008-12-27T16:54:54.5326833+01:00",
+  "Size": 493,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quaerat",
-  "PlainBody": "et",
+  "MessageID": "qui",
+  "PlainBody": "repudiandae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 775,
+  "ServerId": 927,
   "Attachments": [
     {
-      "Description": "Innovative assymetric hardware",
-      "Filename": "occaecati",
-      "Size": 943,
-      "Type": "rem",
-      "Encoding": "suscipit",
-      "Id": "quo",
-      "Disposition": "minus",
+      "Description": "Quality-focused zero tolerance project",
+      "Filename": "minus",
+      "Size": 115,
+      "Type": "nostrum",
+      "Encoding": "quasi",
+      "Id": "eligendi",
+      "Disposition": "tempora",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldType": "System.String",
+          "FieldLength": 644
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rippin, Quigley and Beer",
+      "Name": "Koch Group",
       "Values": [
-        "ullam",
-        "ut"
+        "sit",
+        "vitae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 164
         }
       }
     },
     {
-      "Name": "Rippin, Quigley and Beer",
+      "Name": "Koch Group",
       "Values": [
-        "ullam",
-        "ut"
+        "sit",
+        "vitae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 164
         }
       }
     }
   ],
-  "FolderName": "Erdman, Dooley and Witting",
-  "EmailItemId": 461,
-  "AccountId": 771,
-  "ReceivedAt": "2015-04-01T23:03:54.9311458+02:00",
+  "FolderName": "Cronin LLC",
+  "EmailItemId": 575,
+  "AccountId": 786,
+  "ReceivedAt": "2016-07-03T16:54:54.5326833+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-08-22T23:03:54.9311458+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2010-01-14T16:54:54.5326833+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 831
     }
   }
 }

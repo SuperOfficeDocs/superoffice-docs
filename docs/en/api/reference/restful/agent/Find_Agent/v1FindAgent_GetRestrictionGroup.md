@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Haley, Funk and Fay",
-  "StorageKey": "molestias",
-  "Rank": 875,
-  "Context": "aliquam"
+  "StorageType": "optio",
+  "ProviderName": "Zulauf, Ziemann and Casper",
+  "StorageKey": "debitis",
+  "Rank": 597,
+  "Context": "error"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abernathy Inc and Sons",
-  "Description": "Extended explicit hierarchy",
-  "Rank": 615,
+  "Name": "Orn, Murphy and Padberg",
+  "Description": "Digitized impactful approach",
+  "Rank": 848,
   "Restrictions": [
     {
-      "Name": "Conn LLC",
-      "Operator": "sed",
+      "Name": "McGlynn, Mills and Bahringer",
+      "Operator": "veniam",
       "Values": [
-        "exercitationem",
-        "ad"
+        "ut",
+        "sit"
       ],
       "DisplayValues": [
-        "eum",
-        "distinctio"
+        "sed",
+        "porro"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 430,
+      "InterParenthesis": 594,
       "InterOperator": "And",
-      "UniqueHash": 209
+      "UniqueHash": 838
     }
   ]
 }

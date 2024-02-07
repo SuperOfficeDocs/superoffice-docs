@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 840
+  "PersonId": 433
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 451,
-  "InstanceLayout": "eius",
-  "InstanceName": "O'Conner, Ryan and Tremblay",
-  "CreatedDate": "2008-02-23T23:03:55.0146418+01:00",
-  "UpdatedDate": "2019-01-02T23:03:55.0146418+01:00",
+  "AudienceLayoutId": 965,
+  "InstanceLayout": "et",
+  "InstanceName": "Fritsch-Brekke",
+  "CreatedDate": "2011-10-05T16:54:54.5983969+02:00",
+  "UpdatedDate": "2017-08-26T16:54:54.5983969+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 441
     }
   }
 }

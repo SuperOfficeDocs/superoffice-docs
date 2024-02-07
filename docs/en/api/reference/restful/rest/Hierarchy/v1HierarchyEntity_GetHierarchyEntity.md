@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 173,
+  "HierarchyId": 256,
   "Domain": "Dashboards",
-  "Name": "Parisian LLC",
-  "Fullname": "earum",
-  "ParentId": 790,
+  "Name": "Doyle LLC",
+  "Fullname": "nihil",
+  "ParentId": 170,
   "Children": [
     {
-      "HierarchyId": 531,
+      "HierarchyId": 311,
       "Domain": "Dashboards",
-      "Name": "Sanford Inc and Sons",
-      "Fullname": "sequi",
-      "ParentId": 311,
+      "Name": "Reichert-Leannon",
+      "Fullname": "enim",
+      "ParentId": 558,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-02-08T23:04:04.2345175+01:00",
-      "RegisteredAssociateId": 593,
-      "Updated": "1999-04-13T23:04:04.2345175+02:00",
-      "UpdatedAssociateId": 990,
+      "Registered": "2017-12-28T16:55:29.6624639+01:00",
+      "RegisteredAssociateId": 839,
+      "Updated": "2013-07-08T16:55:29.6624639+02:00",
+      "UpdatedAssociateId": 108,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 727
+          "FieldLength": 54
         }
       }
     }
   ],
-  "Registered": "2014-05-14T23:04:04.2345175+02:00",
-  "RegisteredAssociateId": 712,
-  "Updated": "2020-02-09T23:04:04.2345175+01:00",
-  "UpdatedAssociateId": 680,
+  "Registered": "2018-09-13T16:55:29.6624639+02:00",
+  "RegisteredAssociateId": 416,
+  "Updated": "2009-11-20T16:55:29.6624639+01:00",
+  "UpdatedAssociateId": 45,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldLength": 551
     }
   },
   "_Links": {

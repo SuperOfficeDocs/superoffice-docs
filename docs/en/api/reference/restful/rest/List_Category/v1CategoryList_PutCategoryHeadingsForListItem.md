@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Yundt-Predovic",
-    "ToolTip": "Eligendi est rerum quo itaque.",
+    "Id": 936,
+    "Name": "VonRueden, Senger and Corwin",
+    "ToolTip": "Labore aut.",
     "Deleted": false,
-    "Rank": 942,
-    "Type": "tempora",
-    "ColorBlock": 94,
-    "IconHint": "porro",
-    "Selected": true,
-    "LastChanged": "2005-06-30T23:04:05.3195021+02:00",
+    "Rank": 219,
+    "Type": "ut",
+    "ColorBlock": 9,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2004-01-11T16:55:30.5476993+01:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Barton LLC",
-        "ToolTip": "Voluptatem sunt vel aspernatur.",
-        "Deleted": true,
-        "Rank": 853,
-        "Type": "sed",
-        "ColorBlock": 803,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2003-07-30T23:04:05.3200016+02:00",
+        "Id": 119,
+        "Name": "Mohr, Kuhlman and Schmitt",
+        "ToolTip": "Nihil earum iusto sit officia qui officiis et.",
+        "Deleted": false,
+        "Rank": 8,
+        "Type": "voluptas",
+        "ColorBlock": 262,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2004-08-18T16:55:30.5486991+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "nobis",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Esta Collins"
+        "FullName": "Ellen Reva King Sr."
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "minus",
+    "ExtraInfo": "in",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Lupe Schmitt"
+    "FullName": "Narciso Davis II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 74,
-    "Name": "Tremblay, Rippin and Bogisich",
-    "ToolTip": "Ipsum eum.",
-    "Deleted": true,
-    "Rank": 402,
-    "Type": "amet",
-    "ColorBlock": 673,
-    "IconHint": "voluptas",
+    "Id": 385,
+    "Name": "Trantow-Reichert",
+    "ToolTip": "Facilis dolores voluptate cum quia omnis consequuntur.",
+    "Deleted": false,
+    "Rank": 139,
+    "Type": "ad",
+    "ColorBlock": 726,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2021-12-10T23:04:05.3210017+01:00",
+    "LastChanged": "2017-04-22T16:55:30.5486991+02:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Erdman Inc and Sons",
-        "ToolTip": "Iure nihil nam.",
-        "Deleted": true,
-        "Rank": 21,
-        "Type": "ut",
-        "ColorBlock": 619,
-        "IconHint": "eveniet",
+        "Id": 943,
+        "Name": "Bauch Inc and Sons",
+        "ToolTip": "Esse omnis quia odio quo.",
+        "Deleted": false,
+        "Rank": 407,
+        "Type": "quo",
+        "ColorBlock": 74,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2011-12-25T23:04:05.3215028+01:00",
+        "LastChanged": "2023-12-28T16:55:30.5496979+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "repudiandae",
+        "ExtraInfo": "iste",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Marjory Hane PhD",
+        "FullName": "Haley Hellen Cruickshank Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 920
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "sit",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Mr. Curtis Sasha Stroman Jr.",
+    "FullName": "Antonette DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 99
       }
     }
   }

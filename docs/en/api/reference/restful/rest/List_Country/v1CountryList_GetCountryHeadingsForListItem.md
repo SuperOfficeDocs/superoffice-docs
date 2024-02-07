@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 916,
-    "Name": "Heidenreich-Halvorson",
-    "ToolTip": "Explicabo excepturi eveniet quod illo dicta doloremque ullam.",
+    "Id": 18,
+    "Name": "Blanda, Harris and Wolf",
+    "ToolTip": "Quia iusto id non possimus quia.",
     "Deleted": true,
-    "Rank": 523,
-    "Type": "corporis",
-    "ColorBlock": 258,
-    "IconHint": "eos",
+    "Rank": 874,
+    "Type": "voluptas",
+    "ColorBlock": 810,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2017-04-22T23:04:05.394501+02:00",
+    "LastChanged": "2009-12-10T16:55:30.6082351+01:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "Jewess-Reichert",
-        "ToolTip": "Laborum quibusdam modi.",
+        "Id": 331,
+        "Name": "Bartell-Bosco",
+        "ToolTip": "Aut cupiditate sunt dignissimos.",
         "Deleted": false,
-        "Rank": 797,
-        "Type": "enim",
-        "ColorBlock": 738,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2007-09-12T23:04:05.394501+02:00",
+        "Rank": 324,
+        "Type": "quia",
+        "ColorBlock": 321,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2001-12-05T16:55:30.6082351+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Nicholas Leuschke DVM",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "neque",
+        "Hidden": true,
+        "FullName": "Mr. Rhiannon Marques Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 741
+            "FieldLength": 964
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "inventore",
-    "Hidden": false,
-    "FullName": "Mr. Jarrett Frami III",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "optio",
+    "Hidden": true,
+    "FullName": "Mrs. Sheila Kerluke DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   }

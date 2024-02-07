@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 100,
-    "Name": "Walter Group",
-    "Tooltip": "id",
+    "HeadingId": 887,
+    "Name": "Pagac, Gislason and White",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 387,
-    "UdListDefinitionId": 146
+    "Rank": 57,
+    "UdListDefinitionId": 54
   },
   {
-    "HeadingId": 100,
-    "Name": "Walter Group",
-    "Tooltip": "id",
+    "HeadingId": 887,
+    "Name": "Pagac, Gislason and White",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 387,
-    "UdListDefinitionId": 146
+    "Rank": 57,
+    "UdListDefinitionId": 54
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 428,
-    "Name": "Paucek Group",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 608,
-    "UdListDefinitionId": 701,
+    "HeadingId": 616,
+    "Name": "Franecki Inc and Sons",
+    "Tooltip": "porro",
+    "Deleted": false,
+    "Rank": 401,
+    "UdListDefinitionId": 277,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 223
       }
     }
   }

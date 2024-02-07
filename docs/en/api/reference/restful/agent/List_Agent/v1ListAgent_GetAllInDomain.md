@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": true
+  "Children": false
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 553,
+    "HierarchyId": 220,
     "Domain": "Dashboards",
-    "Name": "Mueller, Goyette and Hahn",
-    "Fullname": "rem",
-    "ParentId": 829,
+    "Name": "Shields, Denesik and Pollich",
+    "Fullname": "ad",
+    "ParentId": 628,
     "Children": [
       {
-        "HierarchyId": 107,
+        "HierarchyId": 100,
         "Domain": "Dashboards",
-        "Name": "Ward-Breitenberg",
-        "Fullname": "autem",
-        "ParentId": 749,
+        "Name": "D'Amore, Pfannerstill and Durgan",
+        "Fullname": "et",
+        "ParentId": 539,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2003-08-15T23:03:56.2741249+02:00",
-        "RegisteredAssociateId": 405,
-        "Updated": "1996-10-18T23:03:56.2741249+02:00",
-        "UpdatedAssociateId": 106,
+        "Registered": "1999-06-21T16:54:55.6109849+02:00",
+        "RegisteredAssociateId": 376,
+        "Updated": "2007-05-29T16:54:55.6109849+02:00",
+        "UpdatedAssociateId": 650,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 317
+            "FieldType": "System.String",
+            "FieldLength": 447
           }
         }
       }
     ],
-    "Registered": "2007-09-12T23:03:56.2741249+02:00",
-    "RegisteredAssociateId": 991,
-    "Updated": "2001-06-01T23:03:56.2741249+02:00",
-    "UpdatedAssociateId": 848,
+    "Registered": "2014-04-14T16:54:55.6109849+02:00",
+    "RegisteredAssociateId": 247,
+    "Updated": "2017-04-30T16:54:55.6109849+02:00",
+    "UpdatedAssociateId": 613,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldType": "System.Int32",
+        "FieldLength": 241
       }
     }
   }

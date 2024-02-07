@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Sanford-Jewess",
-  "StorageKey": "et",
+  "StorageType": "adipisci",
+  "ProviderName": "Ernser, Wilkinson and Schowalter",
+  "StorageKey": "facere",
   "Restrictions": [
     {
-      "Name": "Morar LLC",
-      "Operator": "in",
+      "Name": "Kulas-Fadel",
+      "Operator": "aut",
       "Values": [
-        "quia",
-        "quia"
+        "aut",
+        "saepe"
       ],
       "DisplayValues": [
-        "eligendi",
-        "corporis"
+        "dolor",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 120,
+      "InterParenthesis": 190,
       "InterOperator": "And",
-      "UniqueHash": 41
+      "UniqueHash": 520
     }
   ],
-  "Context": "nulla"
+  "Context": "rem"
 }
 ```
 

@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "magni",
+    "path": "vero",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magni",
+    "path": "vero",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 343,
-  "PlainMessage": "quam",
-  "HtmlMessage": "repudiandae",
-  "SmsMessage": "magni",
-  "Description": "Right-sized even-keeled website",
-  "Subject": "eveniet",
-  "FolderId": 513,
-  "HeaderField": "suscipit",
-  "Design": "voluptas",
+  "ShipmentMessageId": 518,
+  "PlainMessage": "soluta",
+  "HtmlMessage": "in",
+  "SmsMessage": "corporis",
+  "Description": "Self-enabling scalable data-warehouse",
+  "Subject": "sed",
+  "FolderId": 701,
+  "HeaderField": "voluptas",
+  "Design": "eius",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Decentralized analyzing instruction set",
-  "AccessKey": "quod",
-  "DocumentMessage": 291,
-  "Registered": "2014-09-25T23:04:04.8080099+02:00",
-  "RegisteredAssociateId": 207,
-  "Updated": "2003-05-16T23:04:04.8080099+02:00",
-  "UpdatedAssociateId": 937,
-  "UpdatedCount": 298,
+  "LongDescription": "Sharable non-volatile pricing structure",
+  "AccessKey": "illum",
+  "DocumentMessage": 482,
+  "Registered": "2002-03-10T16:55:30.1450214+01:00",
+  "RegisteredAssociateId": 21,
+  "Updated": "2010-11-16T16:55:30.1450214+01:00",
+  "UpdatedAssociateId": 421,
+  "UpdatedCount": 399,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldLength": 576
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

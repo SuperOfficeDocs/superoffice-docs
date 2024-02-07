@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 27,
-  "Name": "Padberg, Hayes and Willms",
-  "CreatedDate": "2019-07-20T23:04:04.2010168+02:00",
-  "UpdatedDate": "2017-10-01T23:04:04.2010168+02:00",
+  "ForeignAppId": 725,
+  "Name": "Volkman, Rogahn and D'Amore",
+  "CreatedDate": "2022-05-30T16:55:29.6335301+02:00",
+  "UpdatedDate": "2015-06-16T16:55:29.6335301+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 985,
-      "Name": "Effertz, Johnson and Powlowski",
-      "CreatedDate": "2020-11-29T23:04:04.2015171+01:00",
-      "UpdatedDate": "2012-10-05T23:04:04.2015171+02:00",
-      "AssociateFullName": "Arvel Vandervort V",
-      "CreatedBy": "et",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "magnam",
-      "ForeignAppId": 379,
+      "ForeignDeviceId": 818,
+      "Name": "Weissnat-Dickinson",
+      "CreatedDate": "1997-01-23T16:55:29.6335301+01:00",
+      "UpdatedDate": "1999-10-25T16:55:29.6335301+02:00",
+      "AssociateFullName": "Luz VonRueden",
+      "CreatedBy": "nihil",
+      "UpdatedBy": "reprehenderit",
+      "DeviceIdentifier": "deserunt",
+      "ForeignAppId": 511,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldLength": 82
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldLength": 686
     }
   }
 }

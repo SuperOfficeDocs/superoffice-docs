@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 2,
-  "BlobSize": 748,
-  "Description": "Re-contextualized dedicated utilisation",
-  "ExtraInfo": "quis",
+  "BlobId": 49,
+  "BlobSize": 792,
+  "Description": "Organized grid-enabled database",
+  "ExtraInfo": "est",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "in",
-  "OriginalSize": 543,
-  "CreatedDate": "2011-07-21T23:03:55.0301421+02:00",
-  "UpdatedDate": "2015-06-28T23:03:55.0301421+02:00",
+  "MimeType": "laborum",
+  "OriginalSize": 199,
+  "CreatedDate": "2003-04-23T16:54:54.609302+02:00",
+  "UpdatedDate": "2022-03-03T16:54:54.609302+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "architecto",
+  "ConceptualType": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

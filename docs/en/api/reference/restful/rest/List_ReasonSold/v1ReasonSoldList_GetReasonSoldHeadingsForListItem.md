@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Runte, Williamson and Steuber",
-    "ToolTip": "Ut et eaque.",
-    "Deleted": true,
-    "Rank": 147,
-    "Type": "et",
-    "ColorBlock": 986,
-    "IconHint": "ad",
-    "Selected": false,
-    "LastChanged": "2004-09-11T23:04:05.7669955+02:00",
+    "Id": 239,
+    "Name": "Ebert Group",
+    "ToolTip": "Perspiciatis ea.",
+    "Deleted": false,
+    "Rank": 895,
+    "Type": "voluptatum",
+    "ColorBlock": 912,
+    "IconHint": "aliquid",
+    "Selected": true,
+    "LastChanged": "2002-10-13T16:55:31.0351834+02:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Maggio, Bednar and Bechtelar",
-        "ToolTip": "Blanditiis quasi eius cum quae dolorem.",
+        "Id": 90,
+        "Name": "Doyle Group",
+        "ToolTip": "Harum aut nobis.",
         "Deleted": false,
-        "Rank": 34,
-        "Type": "et",
-        "ColorBlock": 23,
-        "IconHint": "et",
+        "Rank": 756,
+        "Type": "nesciunt",
+        "ColorBlock": 811,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2001-05-31T23:04:05.7669955+02:00",
+        "LastChanged": "2019-06-13T16:55:31.0351834+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Dr. Hobart Howell",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "sint",
+        "Hidden": false,
+        "FullName": "Emiliano Schimmel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 253
+            "FieldType": "System.Int32",
+            "FieldLength": 853
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "qui",
+    "ExtraInfo": "dolore",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Wilhelmine Trantow",
+    "FullName": "Marques Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 877
       }
     }
   }

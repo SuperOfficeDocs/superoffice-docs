@@ -2,7 +2,7 @@
 uid: importnewlistitem
 title: importnewlistitem
 keywords: mdoprovider mdo provider importnewlistitem
-description: Import list items: Add item, use default, use blank
+description: Import list items - Add item, use default, use blank
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

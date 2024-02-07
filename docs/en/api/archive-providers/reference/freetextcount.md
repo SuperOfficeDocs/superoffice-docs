@@ -18,7 +18,8 @@ The purpose if this provider is to provide simple counts of matches, grouped by 
 this corresponds to the tabs in the freetext search result dialog, and the numbers on those tabs. To
 get actual matches for a particular entity, use the corresponding FreetextSearchProvider, for instance,
 the <see cref="T:SuperOffice.CRM.ArchiveLists.FreetextContactResultProvider" />.
-<para />
+
+
 The 'OwnerEntityName' column accepts a restriction in the form of an array of strings or table names. If
 provided, this restriction will limit the entities searched. The <see cref="T:SuperOffice.CRM.Lists.FreetextSearchEntityProvider" />
 is an MDO provider for supported entities.
@@ -39,7 +40,7 @@ is an MDO provider for supported entities.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextCount?$select=entityLocalizedName,count,entityLocalizedName
+GET /api/v1/archive/FreetextCount?$select=count,entityLocalizedName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

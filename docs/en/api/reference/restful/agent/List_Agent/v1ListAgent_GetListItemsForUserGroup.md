@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 806,
-  "GroupId": 660
+  "UdListDefinitionId": 323,
+  "GroupId": 208
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Orn LLC",
-    "ToolTip": "Et rem dicta in distinctio.",
+    "Id": 865,
+    "Name": "Kshlerin-Kemmer",
+    "ToolTip": "Eius fugit iure in quia.",
     "Deleted": false,
-    "Rank": 172,
-    "Type": "vitae",
-    "ColorBlock": 929,
-    "IconHint": "non",
+    "Rank": 134,
+    "Type": "dolorum",
+    "ColorBlock": 714,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "2021-07-24T23:03:56.2141256+02:00",
+    "LastChanged": "1998-07-18T16:54:55.5629859+02:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Smith-Murazik",
-        "ToolTip": "Fuga ratione.",
+        "Id": 486,
+        "Name": "Cummerata-Watsica",
+        "ToolTip": "Et quae labore recusandae ex distinctio qui.",
         "Deleted": false,
-        "Rank": 1000,
-        "Type": "nemo",
-        "ColorBlock": 519,
-        "IconHint": "alias",
+        "Rank": 1001,
+        "Type": "ut",
+        "ColorBlock": 667,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2006-10-10T23:03:56.2141256+02:00",
+        "LastChanged": "2021-05-06T16:54:55.5629859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "error",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Schuyler Lakin",
+        "FullName": "Giovanni Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 967
+            "FieldLength": 412
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "enim",
+    "ExtraInfo": "iste",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Helmer Weimann",
+    "FullName": "Miss Malinda Ondricka Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

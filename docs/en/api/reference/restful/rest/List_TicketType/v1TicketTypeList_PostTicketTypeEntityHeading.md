@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 619,
-  "Name": "Rutherford Inc and Sons",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "Rank": 696,
-  "UdListDefinitionId": 968
+  "HeadingId": 872,
+  "Name": "Jewess-Corkery",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 858,
+  "UdListDefinitionId": 940
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 168,
-  "Name": "Gulgowski-Wolf",
-  "Tooltip": "fugiat",
+  "HeadingId": 149,
+  "Name": "Denesik Group",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "Rank": 805,
-  "UdListDefinitionId": 501,
+  "Rank": 100,
+  "UdListDefinitionId": 249,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 169
     }
   }
 }

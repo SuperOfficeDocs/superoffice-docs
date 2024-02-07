@@ -71,8 +71,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    101,
-    23
+    3,
+    198
   ]
 }
 ```

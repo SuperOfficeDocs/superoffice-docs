@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 124
+  "CountryId": 636
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 68,
-  "BlobSize": 20,
-  "Description": "Secured demand-driven protocol",
-  "ExtraInfo": "voluptatem",
-  "IsEncrypted": true,
+  "BlobId": 164,
+  "BlobSize": 960,
+  "Description": "Innovative foreground project",
+  "ExtraInfo": "quo",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "perspiciatis",
-  "OriginalSize": 32,
-  "CreatedDate": "2004-11-30T23:03:55.0421479+01:00",
-  "UpdatedDate": "2010-10-12T23:03:55.0421479+02:00",
+  "MimeType": "vitae",
+  "OriginalSize": 571,
+  "CreatedDate": "2007-03-05T16:54:54.6203026+01:00",
+  "UpdatedDate": "2020-09-02T16:54:54.6203026+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 817
     }
   }
 }

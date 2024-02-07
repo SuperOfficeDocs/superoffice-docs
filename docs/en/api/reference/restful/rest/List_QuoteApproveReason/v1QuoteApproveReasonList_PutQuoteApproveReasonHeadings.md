@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 567,
-    "Name": "Trantow LLC",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 148,
-    "UdListDefinitionId": 48
+    "HeadingId": 78,
+    "Name": "Lubowitz Inc and Sons",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 109,
+    "UdListDefinitionId": 575
   },
   {
-    "HeadingId": 567,
-    "Name": "Trantow LLC",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 148,
-    "UdListDefinitionId": 48
+    "HeadingId": 78,
+    "Name": "Lubowitz Inc and Sons",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 109,
+    "UdListDefinitionId": 575
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 327,
-    "Name": "Maggio Group",
-    "Tooltip": "eos",
+    "HeadingId": 586,
+    "Name": "Swaniawski-Mills",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 148,
-    "UdListDefinitionId": 95,
+    "Rank": 10,
+    "UdListDefinitionId": 555,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldType": "System.String",
+        "FieldLength": 452
       }
     }
   }

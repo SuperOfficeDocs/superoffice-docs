@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "necessitatibus",
-    "Type": "impedit",
-    "Description": "Organized uniform contingency",
+    "DisplayType": "dolorum",
+    "Type": "aspernatur",
+    "Description": "Customizable dedicated hub",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": true,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 759
       }
     }
   }

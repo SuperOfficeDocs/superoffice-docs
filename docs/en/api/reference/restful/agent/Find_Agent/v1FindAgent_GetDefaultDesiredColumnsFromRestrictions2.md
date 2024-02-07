@@ -173,8 +173,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wisoky Group",
-  "Restrictions": "voluptates"
+  "ProviderName": "Quitzon-Funk",
+  "Restrictions": "sunt"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Stehr, Stark and Gibson",
-    "DisplayTooltip": "sed",
-    "DisplayType": "laudantium",
-    "CanOrderBy": true,
-    "Name": "Padberg LLC",
-    "CanRestrictBy": true,
-    "RestrictionType": "ullam",
-    "RestrictionListName": "Crist, Will and Legros",
+    "DisplayName": "Bauch, Mayer and McLaughlin",
+    "DisplayTooltip": "perferendis",
+    "DisplayType": "recusandae",
+    "CanOrderBy": false,
+    "Name": "Schaden-Cronin",
+    "CanRestrictBy": false,
+    "RestrictionType": "optio",
+    "RestrictionListName": "Lehner, Mante and Nitzsche",
     "IsVisible": false,
-    "ExtraInfo": "non",
-    "Width": "dignissimos",
-    "IconHint": "in",
-    "HeadingIconHint": "vitae"
+    "ExtraInfo": "natus",
+    "Width": "at",
+    "IconHint": "similique",
+    "HeadingIconHint": "error"
   }
 ]
 ```

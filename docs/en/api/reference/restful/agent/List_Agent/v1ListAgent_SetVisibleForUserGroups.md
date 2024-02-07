@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 154,
-  "ListItemId": 347,
+  "UdListDefinitionId": 803,
+  "ListItemId": 17,
   "UserGroups": [
     {
-      "Id": 576,
-      "Name": "Hane LLC",
-      "ToolTip": "Sequi ipsum quidem.",
-      "Deleted": true,
-      "Rank": 419,
-      "Type": "cupiditate",
-      "ColorBlock": 173,
-      "IconHint": "consequatur",
+      "Id": 990,
+      "Name": "Cummerata-Purdy",
+      "ToolTip": "Adipisci occaecati dolores et nemo voluptatem velit.",
+      "Deleted": false,
+      "Rank": 867,
+      "Type": "inventore",
+      "ColorBlock": 49,
+      "IconHint": "officiis",
       "Selected": true,
-      "LastChanged": "2014-06-01T23:03:56.209126+02:00",
+      "LastChanged": "2012-04-05T16:54:55.5589836+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sapiente",
-      "StyleHint": "enim",
-      "Hidden": true,
-      "FullName": "Miss Ozella Turcotte"
+      "ExtraInfo": "deserunt",
+      "StyleHint": "quia",
+      "Hidden": false,
+      "FullName": "Ms. Christopher Murphy"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Mohr LLC",
-    "ToolTip": "Et provident.",
+    "Id": 925,
+    "Name": "Moen-Jones",
+    "ToolTip": "Eaque doloremque minima quod est repellat pariatur impedit.",
     "Deleted": true,
-    "Rank": 408,
-    "Type": "repellat",
-    "ColorBlock": 42,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2004-12-22T23:03:56.2101257+01:00",
+    "Rank": 958,
+    "Type": "molestiae",
+    "ColorBlock": 675,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2023-08-30T16:54:55.5599838+02:00",
     "ChildItems": [
       {
-        "Id": 47,
-        "Name": "Wolf Group",
-        "ToolTip": "Voluptatem quidem mollitia dolores iure neque.",
+        "Id": 223,
+        "Name": "Hintz-Crona",
+        "ToolTip": "Amet doloremque cumque cumque ab distinctio.",
         "Deleted": false,
-        "Rank": 596,
-        "Type": "odio",
-        "ColorBlock": 962,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2023-07-16T23:03:56.2101257+02:00",
+        "Rank": 751,
+        "Type": "hic",
+        "ColorBlock": 471,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2007-08-06T16:54:55.5599838+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "illo",
-        "Hidden": true,
-        "FullName": "Dr. Lesley Lueilwitz Jr.",
+        "ExtraInfo": "rem",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Queenie Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 605
+            "FieldLength": 392
           }
         }
       }
     ],
     "ExtraInfo": "omnis",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Miss Jackson Upton Sr.",
+    "StyleHint": "numquam",
+    "Hidden": false,
+    "FullName": "Mr. Colby Lois Koss IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 348
       }
     }
   }

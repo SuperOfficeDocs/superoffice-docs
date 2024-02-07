@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,21 +108,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 852,
-    "Name": "Hettinger-Terry",
-    "Description": "Programmable neutral parallelism",
-    "WelcomeMessage": "nisi",
+    "ChatTopicId": 602,
+    "Name": "Turcotte, Mante and Rippin",
+    "Description": "Innovative modular focus group",
+    "WelcomeMessage": "cupiditate",
     "Language": null,
-    "LastAccept": "2016-08-30T23:03:55.199141+02:00",
-    "SecondsPrAccept": 759,
-    "AlertRecipient": "repudiandae",
+    "LastAccept": "2005-04-05T16:54:54.8632734+02:00",
+    "SecondsPrAccept": 556,
+    "AlertRecipient": "sapiente",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "recusandae",
+    "BadgeHeader": "fuga",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "delectus",
-    "WarnNewChatMinutes": 749,
-    "WarnManagerNewChatMinutes": 102,
+    "CustomQueueText": "libero",
+    "WarnNewChatMinutes": 698,
+    "WarnManagerNewChatMinutes": 769,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -131,20 +131,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": true,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 453,
-    "WarnManagerChatMessageMinutes": 179,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 189,
-    "OfflineFormQueueLength": 663,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "voluptatem",
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 113,
+    "WarnManagerChatMessageMinutes": 588,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 644,
+    "OfflineFormQueueLength": 354,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 55
       }
     }
   }

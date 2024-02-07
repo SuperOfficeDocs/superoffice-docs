@@ -2,9 +2,7 @@
 uid: person_freetextsearch
 title: person_freetextsearch
 keywords: mdoprovider mdo provider person_freetextsearch
-description: Provider for selecting a Person - without contact search.
-Does keyword matching and scoring across multiple
-tables using freetext index.
+description: Provider for selecting a Person - without contact search. Does keyword matching and scoring across multiple tables using freetext index.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -17,15 +15,20 @@ tables using freetext index.
 
 User's own contacts, recently added + modified contacts, contacts modified or created by user.
 Matches on word boundaries or at start of field are scored extra highly.
-<para />
+
+
 id = person_id,
-<para />
+
+
 Name = contact.name + department or person first+last name (contact name + department)
-<para />
+
+
 ExtraInfo = contact_id,
-<para />
+
+
 IconHint = Personwithcontact or Personwithoutcontact
-<para />
+
+
 Type = "Person"
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 

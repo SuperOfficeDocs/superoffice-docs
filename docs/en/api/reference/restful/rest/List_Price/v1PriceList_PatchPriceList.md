@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "saepe",
+    "path": "eum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "saepe",
+    "path": "eum",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 830,
-  "ERPPriceListKey": "labore",
-  "QuoteConnectionId": 600,
-  "Name": "Corkery, Dooley and Cummerata",
-  "Description": "Future-proofed optimal productivity",
-  "Currency": "neque",
-  "CurrencyName": "Baumbach Inc and Sons",
-  "ValidFrom": "2019-03-17T23:04:05.5839999+01:00",
-  "ValidTo": "2000-01-25T23:04:05.5839999+01:00",
-  "IsActive": true,
+  "PriceListId": 873,
+  "ERPPriceListKey": "dolorem",
+  "QuoteConnectionId": 173,
+  "Name": "Leffler LLC",
+  "Description": "Diverse transitional forecast",
+  "Currency": "quo",
+  "CurrencyName": "Erdman, Windler and McClure",
+  "ValidFrom": "2022-02-27T16:55:30.7771756+01:00",
+  "ValidTo": "2009-01-04T16:55:30.7771756+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldType": "System.Int32",
+      "FieldLength": 540
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

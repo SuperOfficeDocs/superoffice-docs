@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "nostrum"
+  "Domain": "illum"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Walsh-Batz",
-    "SoPrimaryKey": 792,
-    "EntryName": "McGlynn, Kirlin and Bradtke",
-    "EntryIdentifier": "in",
-    "RuleDisplayName": "Predovic, Botsford and Gutkowski",
+    "RuleName": "Franecki-Yost",
+    "SoPrimaryKey": 600,
+    "EntryName": "Schmeler, Blick and Bergstrom",
+    "EntryIdentifier": "beatae",
+    "RuleDisplayName": "Ryan-Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldLength": 355
       }
     }
   }

@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Kon-Hammes",
-  "EmailAddress": "quinn_bergnaum@schneider.co.uk",
-  "NumberOfContacts": 943,
-  "NumberOfPersons": 23
+  "Name": "Murazik, Stroman and Christiansen",
+  "EmailAddress": "cynthia.metz@lowe.com",
+  "NumberOfContacts": 519,
+  "NumberOfPersons": 292
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 410,
-    "FullName": "Mr. Billie Reymundo Smitham V",
-    "EmailAddress": "elisa@dietrich.co.uk",
-    "ContactId": 224,
-    "ContactName": "Jacobs-Feest",
+    "PersonId": 546,
+    "FullName": "Lowell Pagac",
+    "EmailAddress": "ramon.hand@rempel.info",
+    "ContactId": 217,
+    "ContactName": "Moore LLC",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Kertzmann Group",
+    "SortName": "Feil, Hahn and Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 790
       }
     }
   }

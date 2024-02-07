@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 121,
-  "Name": "Nicolas-Boyer",
-  "Tooltip": "aperiam",
+  "Id": 389,
+  "Name": "West, Kunze and McClure",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "UdListDefinitionId": 965,
-  "Rank": 294,
+  "UdListDefinitionId": 887,
+  "Rank": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 307
     }
   }
 }

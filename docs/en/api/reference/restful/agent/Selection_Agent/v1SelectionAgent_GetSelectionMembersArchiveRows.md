@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 190,
-  "Select": "repellendus"
+  "SelectionId": 482,
+  "Select": "sint"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Graham Inc and Sons",
-    "PrimaryKey": 763,
+    "EntityName": "Powlowski-Ziemann",
+    "PrimaryKey": 46,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "minima",
-        "TooltipHint": "odio",
-        "LinkHint": "non"
+        "DisplayValue": "nobis",
+        "TooltipHint": "soluta",
+        "LinkHint": "quidem"
       }
     },
-    "LinkHint": "saepe",
-    "StyleHint": "facilis",
+    "LinkHint": "delectus",
+    "StyleHint": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

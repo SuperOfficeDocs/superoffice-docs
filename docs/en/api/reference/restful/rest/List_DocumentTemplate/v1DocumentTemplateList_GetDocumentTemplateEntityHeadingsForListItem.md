@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Schulist, Schmitt and Gerlach",
-    "ToolTip": "Et voluptate et eius.",
-    "Deleted": true,
-    "Rank": 750,
-    "Type": "qui",
-    "ColorBlock": 488,
-    "IconHint": "modi",
-    "Selected": false,
-    "LastChanged": "2018-01-26T23:04:05.4845009+01:00",
+    "Id": 547,
+    "Name": "Klein, Huel and Kris",
+    "ToolTip": "Eum fugiat impedit totam quia.",
+    "Deleted": false,
+    "Rank": 960,
+    "Type": "sunt",
+    "ColorBlock": 821,
+    "IconHint": "quas",
+    "Selected": true,
+    "LastChanged": "2017-07-22T16:55:30.6886335+02:00",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Kautzer LLC",
-        "ToolTip": "Iusto aut temporibus neque asperiores voluptatibus.",
+        "Id": 334,
+        "Name": "Cummerata, Stracke and Schamberger",
+        "ToolTip": "Amet odit voluptatem harum nam quod.",
         "Deleted": false,
-        "Rank": 64,
-        "Type": "aut",
-        "ColorBlock": 709,
-        "IconHint": "non",
+        "Rank": 187,
+        "Type": "debitis",
+        "ColorBlock": 495,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2012-04-25T23:04:05.4845009+02:00",
+        "LastChanged": "2020-12-03T16:55:30.6886335+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "porro",
+        "ExtraInfo": "libero",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Glennie Windler",
+        "FullName": "Mrs. Charles Fanny Gusikowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 554
+            "FieldType": "System.String",
+            "FieldLength": 273
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "exercitationem",
-    "Hidden": true,
-    "FullName": "Dr. Ally Luella Roob",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Mr. Clarissa Francesca Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldLength": 220
       }
     }
   }

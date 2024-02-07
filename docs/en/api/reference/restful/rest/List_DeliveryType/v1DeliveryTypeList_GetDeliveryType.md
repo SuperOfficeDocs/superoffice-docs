@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Stracke Group",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "UdListDefinitionId": 769,
-  "Rank": 481,
+  "Id": 104,
+  "Name": "Lynch-Bogisich",
+  "Tooltip": "animi",
+  "Deleted": true,
+  "UdListDefinitionId": 590,
+  "Rank": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldLength": 640
     }
   }
 }

@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Altenwerth Inc and Sons",
-    "Ledner-Gaylord"
+    "Jacobi Inc and Sons",
+    "Konopelski-Johnston"
   ],
-  "Culture": "in"
+  "Culture": "assumenda"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Franecki-Schuppe",
-    "ResourceValue": "et",
-    "Culture": "harum",
-    "IsActive": false,
+    "ResourceName": "Kozey LLC",
+    "ResourceValue": "est",
+    "Culture": "voluptatem",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 294
       }
     }
   },
   {
-    "ResourceName": "Franecki-Schuppe",
-    "ResourceValue": "et",
-    "Culture": "harum",
-    "IsActive": false,
+    "ResourceName": "Kozey LLC",
+    "ResourceValue": "est",
+    "Culture": "voluptatem",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 294
       }
     }
   }

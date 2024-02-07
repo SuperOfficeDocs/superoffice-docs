@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 763,
-  "Name": "Heaney LLC",
-  "Tooltip": "non",
+  "RoleId": 43,
+  "Name": "Brekke-Stoltenberg",
+  "Tooltip": "sunt",
   "RoleType": "Anonymous",
-  "Deleted": 356,
-  "Rank": 909,
-  "Created": "2020-11-10T23:04:04.6120115+01:00",
-  "UseCategories": 53,
+  "Deleted": 728,
+  "Rank": 247,
+  "Created": "2006-09-18T16:55:29.9799964+02:00",
+  "UseCategories": 497,
   "CreatedBy": null,
-  "Updated": "2011-04-28T23:04:04.612515+02:00",
+  "Updated": "2006-09-11T16:55:29.9809897+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 529
     }
   }
 }

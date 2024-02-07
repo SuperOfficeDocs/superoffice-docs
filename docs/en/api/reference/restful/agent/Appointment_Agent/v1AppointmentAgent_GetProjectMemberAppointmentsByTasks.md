@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 641,
-  "StartTime": "2004-07-30T23:03:54.542151+02:00",
-  "EndTime": "2015-04-08T23:03:54.542151+02:00",
-  "Count": 238,
+  "PersonId": 493,
+  "StartTime": "2012-04-15T16:54:54.235206+02:00",
+  "EndTime": "2009-03-10T16:54:54.235206+01:00",
+  "Count": 52,
   "TaskIds": [
-    179,
-    588
+    411,
+    39
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 850,
-    "StartDate": "2015-10-24T23:03:54.5441484+02:00",
-    "EndDate": "1997-06-22T23:03:54.5441484+02:00",
+    "AppointmentId": 432,
+    "StartDate": "2016-02-17T16:54:54.2362078+01:00",
+    "EndDate": "2018-08-22T16:54:54.2362078+02:00",
     "Type": "BookingForChecklist",
-    "Task": "vel",
-    "AssociateFullName": "Leilani McKenzie Jr.",
-    "ContactName": "Legros Group",
-    "Description": "Managed 5th generation hardware",
-    "PersonFullName": "Dr. Wilmer Gislason MD",
-    "PersonId": 763,
-    "ContactId": 628,
-    "ProjectId": 655,
-    "ProjectName": "Hermann, Bechtelar and Rice",
+    "Task": "libero",
+    "AssociateFullName": "Tillman Price",
+    "ContactName": "Lindgren, Gleason and Lakin",
+    "Description": "Extended real-time utilisation",
+    "PersonFullName": "Tatyana Dario Osinski III",
+    "PersonId": 692,
+    "ContactId": 360,
+    "ProjectId": 306,
+    "ProjectName": "Rippin, Muller and Spencer",
     "IsPublished": true,
-    "AssociateId": 804,
-    "ColorIndex": 536,
+    "AssociateId": 677,
+    "ColorIndex": 175,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 907,
-    "PriorityName": "Powlowski Group",
+    "PriorityId": 432,
+    "PriorityName": "Boehm-Moore",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2012-05-20T23:03:54.5446492+02:00",
+    "ActiveDate": "2010-03-02T16:54:54.2362078+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-05-08T23:03:54.5446492+02:00",
-    "RecurringEndDate": "1999-03-13T23:03:54.5446492+01:00",
-    "MotherId": 753,
-    "AssignedBy": 282,
-    "AssignedByFullName": "Arlie Wehner II",
-    "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "a",
-    "SaleId": 376,
-    "SaleName": "Hills-Bogan",
-    "AssociateName": "Jerde-Cartwright",
-    "CreatedDate": "2009-12-20T23:03:54.5446492+01:00",
-    "CreatedBy": "iure",
-    "CreatedByFullName": "Queen Brakus",
-    "CreatedByAssociateId": 838,
+    "RecurringStartDate": "2006-09-15T16:54:54.2362078+02:00",
+    "RecurringEndDate": "2002-07-04T16:54:54.2371885+02:00",
+    "MotherId": 807,
+    "AssignedBy": 247,
+    "AssignedByFullName": "Coty Fletcher Marvin III",
+    "RejectReason": "expedite distributed content",
+    "Location": "commodi",
+    "AlarmLeadTime": "neque",
+    "SaleId": 230,
+    "SaleName": "Littel-Rosenbaum",
+    "AssociateName": "Kris, Parisian and Kulas",
+    "CreatedDate": "2017-09-07T16:54:54.2371885+02:00",
+    "CreatedBy": "velit",
+    "CreatedByFullName": "Jovan Koepp",
+    "CreatedByAssociateId": 966,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 428,
-    "Title": "aut",
-    "Agenda": "repellat",
-    "InternalNotes": "culpa",
+    "PreferredTZLocation": 914,
+    "Title": "alias",
+    "Agenda": "laborum",
+    "InternalNotes": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldType": "System.Int32",
+        "FieldLength": 129
       }
     }
   }

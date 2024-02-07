@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Dicki, Brown and Zboncak",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 539,
-    "UdListDefinitionId": 4
+    "HeadingId": 923,
+    "Name": "Baumbach Inc and Sons",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "Rank": 348,
+    "UdListDefinitionId": 244
   },
   {
-    "HeadingId": 172,
-    "Name": "Dicki, Brown and Zboncak",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 539,
-    "UdListDefinitionId": 4
+    "HeadingId": 923,
+    "Name": "Baumbach Inc and Sons",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "Rank": 348,
+    "UdListDefinitionId": 244
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 185,
-    "Name": "Kassulke Inc and Sons",
-    "Tooltip": "odio",
+    "HeadingId": 249,
+    "Name": "Huel, Berge and Lowe",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 71,
-    "UdListDefinitionId": 200,
+    "Rank": 786,
+    "UdListDefinitionId": 68,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 680
       }
     }
   }

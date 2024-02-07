@@ -68,7 +68,7 @@ OK
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
+| PersonId | int32 | Owning person record  Use MDO List name "person" to get list items. |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |
@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 19,
-  "Type": 480
+  "GroupId": 348,
+  "Type": 176
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 463,
-    "Name": "Ernser-Ratke",
-    "PersonId": 941,
-    "Rank": 184,
-    "Tooltip": "cupiditate",
+    "AssociateId": 50,
+    "Name": "Hodkiewicz-Gerlach",
+    "PersonId": 896,
+    "Rank": 269,
+    "Tooltip": "quos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 698,
-    "FullName": "Dr. Aidan Lueilwitz",
-    "FormalName": "Roberts LLC",
+    "GroupIdx": 671,
+    "FullName": "Miss Frank Windler DVM",
+    "FormalName": "Hoppe, Swaniawski and Braun",
     "Deleted": false,
-    "EjUserId": 673,
-    "UserName": "Hodkiewicz-Yost",
+    "EjUserId": 602,
+    "UserName": "Renner LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 201
       }
     }
   }

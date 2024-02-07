@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Name": "Vandervort, White and Pollich",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "UdListDefinitionId": 883,
-  "Rank": 54
+  "Id": 561,
+  "Name": "Waelchi, Feil and Kulas",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 855,
+  "Rank": 407
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 490,
-  "Name": "Harber-Kuhic",
-  "Tooltip": "et",
+  "Id": 691,
+  "Name": "Dickens, Kiehn and Schmeler",
+  "Tooltip": "a",
   "Deleted": false,
-  "UdListDefinitionId": 425,
-  "Rank": 934,
+  "UdListDefinitionId": 68,
+  "Rank": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldType": "System.String",
+      "FieldLength": 961
     }
   }
 }

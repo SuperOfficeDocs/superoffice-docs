@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stracke, Hudson and Hand",
-  "ListItemId": 883,
+  "UdListDefinitionName": "Skiles-Conn",
+  "ListItemId": 30,
   "Headings": [
     {
-      "Id": 950,
-      "Name": "Fritsch, Goldner and Abernathy",
-      "ToolTip": "Repellendus tenetur minus consequatur et.",
-      "Deleted": true,
-      "Rank": 688,
-      "Type": "animi",
-      "ColorBlock": 705,
-      "IconHint": "aperiam",
-      "Selected": false,
-      "LastChanged": "2003-04-10T23:03:56.2236269+02:00",
+      "Id": 58,
+      "Name": "Dietrich, Gleichner and Hagenes",
+      "ToolTip": "Est dignissimos vel nulla porro rerum vero.",
+      "Deleted": false,
+      "Rank": 536,
+      "Type": "molestiae",
+      "ColorBlock": 327,
+      "IconHint": "qui",
+      "Selected": true,
+      "LastChanged": "2014-11-12T16:54:55.5699843+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "exercitationem",
+      "ExtraInfo": "at",
+      "StyleHint": "dignissimos",
       "Hidden": true,
-      "FullName": "Rosella Schroeder III"
+      "FullName": "Shyanne Feeney"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Fadel Inc and Sons",
-    "ToolTip": "Hic eaque sit sed quia.",
+    "Id": 787,
+    "Name": "Heidenreich Group",
+    "ToolTip": "Cum placeat.",
     "Deleted": false,
-    "Rank": 859,
-    "Type": "qui",
-    "ColorBlock": 897,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2010-01-06T23:03:56.2246337+01:00",
+    "Rank": 123,
+    "Type": "eius",
+    "ColorBlock": 937,
+    "IconHint": "molestias",
+    "Selected": true,
+    "LastChanged": "2003-05-17T16:54:55.5709841+02:00",
     "ChildItems": [
       {
-        "Id": 529,
-        "Name": "Rolfson-Swift",
-        "ToolTip": "Aspernatur quod voluptatem aliquam repellat.",
-        "Deleted": false,
-        "Rank": 984,
-        "Type": "nisi",
-        "ColorBlock": 981,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2020-12-02T23:03:56.2251253+01:00",
+        "Id": 996,
+        "Name": "Wunsch, Schowalter and Hodkiewicz",
+        "ToolTip": "Fugiat repudiandae enim ab commodi ratione.",
+        "Deleted": true,
+        "Rank": 126,
+        "Type": "nobis",
+        "ColorBlock": 307,
+        "IconHint": "necessitatibus",
+        "Selected": true,
+        "LastChanged": "2003-12-24T16:54:55.5709841+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "qui",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Beryl Larkin",
+        "FullName": "Willy Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 17
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Icie Margie Cronin Jr.",
+    "ExtraInfo": "similique",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Cyrus Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

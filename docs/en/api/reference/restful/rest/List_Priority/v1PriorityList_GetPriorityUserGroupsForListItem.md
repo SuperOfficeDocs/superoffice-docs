@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Jenkins, McLaughlin and Metz",
-    "ToolTip": "Et et officia sed eius earum fuga necessitatibus.",
+    "Id": 465,
+    "Name": "Daugherty-Farrell",
+    "ToolTip": "Blanditiis consequatur.",
     "Deleted": false,
-    "Rank": 859,
-    "Type": "officia",
-    "ColorBlock": 896,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2018-11-24T23:04:05.592497+01:00",
+    "Rank": 711,
+    "Type": "quis",
+    "ColorBlock": 991,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "2002-05-06T16:55:30.7831972+02:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Mosciski LLC",
-        "ToolTip": "Ut ut velit voluptatibus laborum culpa.",
-        "Deleted": false,
-        "Rank": 974,
-        "Type": "qui",
-        "ColorBlock": 127,
-        "IconHint": "soluta",
-        "Selected": false,
-        "LastChanged": "2018-03-26T23:04:05.592497+02:00",
+        "Id": 626,
+        "Name": "Nicolas LLC",
+        "ToolTip": "Ut ea aut aliquam facere.",
+        "Deleted": true,
+        "Rank": 299,
+        "Type": "est",
+        "ColorBlock": 873,
+        "IconHint": "rem",
+        "Selected": true,
+        "LastChanged": "2003-02-04T16:55:30.7831972+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "modi",
-        "Hidden": false,
-        "FullName": "Nyasia Dibbert",
+        "ExtraInfo": "sint",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Miss Joana Hermiston III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "expedita",
+    "ExtraInfo": "optio",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Mrs. Arno Prosacco IV",
+    "FullName": "Una Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldType": "System.String",
+        "FieldLength": 688
       }
     }
   }

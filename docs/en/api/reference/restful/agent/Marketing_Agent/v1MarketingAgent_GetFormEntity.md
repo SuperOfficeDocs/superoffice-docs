@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=210
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=191
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 213,
-  "FormKey": "est",
-  "Name": "King Group",
-  "Description": "Polarised global help-desk",
-  "Config": "et",
-  "FolderId": 927,
-  "ScriptId": 189,
-  "ResponseShipmentId": 296,
-  "Active": false,
-  "Expires": "2000-01-09T23:03:56.3286262+01:00",
-  "MaxSubmits": 559,
+  "FormId": 623,
+  "FormKey": "illo",
+  "Name": "Quitzon, Zulauf and Gutkowski",
+  "Description": "User-friendly actuating pricing structure",
+  "Config": "quia",
+  "FolderId": 332,
+  "ScriptId": 45,
+  "ResponseShipmentId": 882,
+  "Active": true,
+  "Expires": "2017-07-09T16:54:55.6509931+02:00",
+  "MaxSubmits": 890,
   "Type": "Normal",
-  "Recipe": "harum",
-  "GroupId": 321,
+  "Recipe": "odio",
+  "GroupId": 636,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2019-06-10T23:03:56.3286262+02:00",
-  "RegisteredAssociateId": 930,
-  "Updated": "2002-04-14T23:03:56.3286262+02:00",
-  "UpdatedAssociateId": 912,
-  "UpdatedCount": 229,
-  "FolderName": "Thiel-Lemke",
+  "Registered": "2005-11-22T16:54:55.6509931+01:00",
+  "RegisteredAssociateId": 261,
+  "Updated": "2004-09-11T16:54:55.6509931+02:00",
+  "UpdatedAssociateId": 133,
+  "UpdatedCount": 251,
+  "FolderName": "Hamill, Daniel and Schaefer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

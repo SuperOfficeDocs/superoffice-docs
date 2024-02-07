@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Marvin, Braun and Skiles",
-    "Tooltip": "perspiciatis",
-    "Deleted": false,
-    "UdListDefinitionId": 491,
-    "Rank": 639,
+    "Id": 783,
+    "Name": "Durgan-Anderson",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "UdListDefinitionId": 781,
+    "Rank": 931,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldLength": 668
       }
     }
   }

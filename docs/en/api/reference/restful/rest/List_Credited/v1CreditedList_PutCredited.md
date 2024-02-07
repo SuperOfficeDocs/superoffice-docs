@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 880,
-  "Name": "McLaughlin-Kub",
-  "Tooltip": "aut",
+  "Id": 567,
+  "Name": "Dicki-Farrell",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 168,
-  "Rank": 153
+  "UdListDefinitionId": 38,
+  "Rank": 813
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 845,
-  "Name": "Goodwin, Lindgren and Collier",
-  "Tooltip": "veniam",
+  "Id": 121,
+  "Name": "Sanford Group",
+  "Tooltip": "exercitationem",
   "Deleted": true,
-  "UdListDefinitionId": 305,
-  "Rank": 833,
+  "UdListDefinitionId": 88,
+  "Rank": 317,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

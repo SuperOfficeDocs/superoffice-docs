@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 644,
-  "Name": "Beer LLC",
-  "Tooltip": "officiis",
-  "Rank": 867,
-  "Rate": 15503.898,
-  "Units": 6550.0599999999995,
-  "Deleted": false
+  "CurrencyId": 481,
+  "Name": "Legros, Zemlak and Borer",
+  "Tooltip": "molestiae",
+  "Rank": 333,
+  "Rate": 9022.786,
+  "Units": 1682.9579999999999,
+  "Deleted": true
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 704,
-  "Name": "Terry Group",
-  "Tooltip": "et",
-  "Rank": 415,
-  "Rate": 29738.525999999998,
-  "Units": 26604.525999999998,
-  "Deleted": false,
+  "CurrencyId": 596,
+  "Name": "Jacobi Group",
+  "Tooltip": "numquam",
+  "Rank": 397,
+  "Rate": 22702.696,
+  "Units": 9449.01,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

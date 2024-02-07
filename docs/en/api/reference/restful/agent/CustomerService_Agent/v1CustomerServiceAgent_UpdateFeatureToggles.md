@@ -64,18 +64,18 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Schiller LLC",
-      "State": true
+      "Name": "Olson, Sauer and Von",
+      "State": false
     },
     {
-      "Name": "Schiller LLC",
-      "State": true
+      "Name": "Olson, Sauer and Von",
+      "State": false
     }
   ]
 }

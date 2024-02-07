@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 918,
-  "AttachmentId": "at"
+  "DocId": 411,
+  "AttachmentId": "eius"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated discrete portal",
-  "Filename": "qui",
-  "Size": 42,
-  "Type": "qui",
-  "Encoding": "facere",
-  "Id": "quo",
-  "Disposition": "fugit",
+  "Description": "Upgradable demand-driven moratorium",
+  "Filename": "ut",
+  "Size": 83,
+  "Type": "soluta",
+  "Encoding": "ut",
+  "Id": "repudiandae",
+  "Disposition": "ut",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 337
     }
   }
 }

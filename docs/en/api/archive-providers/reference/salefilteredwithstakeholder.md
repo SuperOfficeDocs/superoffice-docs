@@ -1099,7 +1099,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFilteredWithStakeholder?$select=person/contactId,person/personAssociate/mrMrs,person/correspondingAssociate/userName,project/imageThumbnail,project/activeErpLinks
+GET /api/v1/archive/SaleFilteredWithStakeholder?$select=registeredDate,person/personRegisteredBy,person/personAssociate/contactFullName,person/personAssociate/contactCategory,person/personAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

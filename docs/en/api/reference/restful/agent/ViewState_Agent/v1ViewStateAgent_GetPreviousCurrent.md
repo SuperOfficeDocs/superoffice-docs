@@ -86,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kozey, Macejkovic and Roob",
-  "Id": 343
+  "HistoryName": "Bartell-Fisher",
+  "Id": 420
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 775,
-  "Id": 689,
-  "HistoryName": "VonRueden Group",
-  "HistoryId": 217,
-  "AssociateId": 596,
-  "Name": "McClure Group",
-  "ItemInfo": "vero",
+  "Rank": 307,
+  "Id": 620,
+  "HistoryName": "Murphy LLC",
+  "HistoryId": 368,
+  "AssociateId": 168,
+  "Name": "Hoeger Group",
+  "ItemInfo": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

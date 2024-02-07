@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 602,
-    "Name": "Bechtelar, Nienow and Bernier",
-    "TZLocationCode": "sit",
-    "TZLocationCities": "necessitatibus",
-    "IsoNumber": 495,
+    "TZLocationID": 421,
+    "Name": "Mueller, Maggio and Collins",
+    "TZLocationCode": "dignissimos",
+    "TZLocationCities": "rerum",
+    "IsoNumber": 713,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 39,
-        "StartMonth": 211,
-        "EndDay": 807,
-        "EndMonth": 743,
-        "TZOffset": 956,
-        "StartRulePattern": "id",
-        "EndRulePattern": "facilis"
+        "StartDay": 168,
+        "StartMonth": 487,
+        "EndDay": 410,
+        "EndMonth": 573,
+        "TZOffset": 188,
+        "StartRulePattern": "sequi",
+        "EndRulePattern": "omnis"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 633,
-        "StartMonth": 983,
-        "EndDay": 345,
-        "EndMonth": 81,
-        "TZOffset": 556,
-        "StartRulePattern": "occaecati",
-        "EndRulePattern": "sed"
+        "StartDay": 454,
+        "StartMonth": 584,
+        "EndDay": 663,
+        "EndMonth": 251,
+        "TZOffset": 122,
+        "StartRulePattern": "dolore",
+        "EndRulePattern": "veniam"
       }
     }
   }

@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 314
+  "ProjectId": 420
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "totam",
-  "SignOffText": "sit",
-  "SignOnConfirmationText": "eos",
-  "SignOnText": "vel",
-  "EventDate": "2007-09-14T23:03:56.6761193+02:00",
+  "SignOffConfirmationText": "eligendi",
+  "SignOffText": "sunt",
+  "SignOnConfirmationText": "enim",
+  "SignOnText": "consequatur",
+  "EventDate": "2015-05-31T16:54:56.0631407+02:00",
   "Enabled": true,
-  "CreatedDate": "2010-10-17T23:03:56.6761193+02:00",
+  "CreatedDate": "2008-07-28T16:54:56.0631407+02:00",
   "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 352,
-  "SignOffTriggersAssign": true,
-  "SignOn": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 642,
+  "SignOffTriggersAssign": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 32,
+  "SignOnTaskId": 448,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2020-02-08T23:03:56.6761193+01:00",
+  "UpdatedDate": "2010-11-11T16:54:56.0631407+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 123,
-  "Id": 161,
-  "PublishFrom": "2001-10-09T23:03:56.6771199+02:00",
+  "ProjectId": 709,
+  "Id": 177,
+  "PublishFrom": "2022-07-02T16:54:56.0631407+02:00",
   "PublishType": "External",
-  "PublishTo": "2005-05-21T23:03:56.6771199+02:00",
+  "PublishTo": "2018-11-07T16:54:56.0631407+01:00",
   "VisibleForCategories": [
     {
-      "Id": 803,
-      "Name": "Blanda-Fay",
-      "ToolTip": "Placeat nihil dolorum.",
-      "Deleted": false,
-      "Rank": 198,
-      "Type": "fugit",
+      "Id": 740,
+      "Name": "Bayer Group",
+      "ToolTip": "Iure et consequuntur.",
+      "Deleted": true,
+      "Rank": 853,
+      "Type": "in",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cumque",
-      "ColorBlock": 77,
-      "ExtraInfo": "tenetur",
-      "StyleHint": "eligendi",
-      "FullName": "Carroll Wiegand",
+      "IconHint": "deserunt",
+      "ColorBlock": 571,
+      "ExtraInfo": "quae",
+      "StyleHint": "doloribus",
+      "FullName": "Pat Susana Bergstrom MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 50
+          "FieldLength": 86
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 42,
-      "Name": "Jerde LLC",
-      "ToolTip": "Nobis et doloribus suscipit optio blanditiis nostrum.",
+      "Id": 488,
+      "Name": "Grant Group",
+      "ToolTip": "Qui ipsa accusamus.",
       "Deleted": true,
-      "Rank": 572,
-      "Type": "minus",
+      "Rank": 587,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ipsam",
-      "ColorBlock": 684,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "repellendus",
-      "FullName": "Mara Kemmer",
+      "IconHint": "atque",
+      "ColorBlock": 744,
+      "ExtraInfo": "repellat",
+      "StyleHint": "distinctio",
+      "FullName": "Dr. Elvis Elna Kozey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldType": "System.String",
+          "FieldLength": 658
         }
       }
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": false,
+  "IsPublished": false,
+  "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 217,
+  "ProjectEventId": 428,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 336
     }
   }
 }

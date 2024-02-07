@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "cupiditate",
-    "nisi"
+    "pariatur",
+    "totam"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2002-06-17T23:03:54.7516463+02:00",
-    "IsConflict": true,
-    "Description": "Fundamental actuating attitude",
-    "DescriptionStyleHint": "Persistent multi-tasking website",
-    "Tooltip": "ullam"
+    "Date": "2005-04-08T16:54:54.3968641+02:00",
+    "IsConflict": false,
+    "Description": "Distributed high-level access",
+    "DescriptionStyleHint": "Down-sized stable synergy",
+    "Tooltip": "animi"
   },
   {
-    "Date": "2002-06-17T23:03:54.7516463+02:00",
-    "IsConflict": true,
-    "Description": "Fundamental actuating attitude",
-    "DescriptionStyleHint": "Persistent multi-tasking website",
-    "Tooltip": "ullam"
+    "Date": "2005-04-08T16:54:54.3968641+02:00",
+    "IsConflict": false,
+    "Description": "Distributed high-level access",
+    "DescriptionStyleHint": "Down-sized stable synergy",
+    "Tooltip": "animi"
   }
 ]
 ```

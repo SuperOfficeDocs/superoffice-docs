@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "velit",
-  "ProviderName": "Willms-Cronin",
-  "DesiredColumns": "et",
-  "PageSize": 429,
-  "PageNumber": 400
+  "Restrictions": "occaecati",
+  "ProviderName": "Schamberger Group",
+  "DesiredColumns": "numquam",
+  "PageSize": 499,
+  "PageNumber": 468
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lindgren, Reilly and Osinski",
-      "DisplayTooltip": "maiores",
-      "DisplayType": "eum",
+      "DisplayName": "O'Reilly, Osinski and Rolfson",
+      "DisplayTooltip": "et",
+      "DisplayType": "at",
       "CanOrderBy": false,
-      "Name": "Eichmann-Balistreri",
+      "Name": "Larson Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "laudantium",
-      "RestrictionListName": "Bailey LLC",
-      "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "aliquid",
-      "IconHint": "ipsa",
-      "HeadingIconHint": "ratione"
+      "RestrictionType": "cumque",
+      "RestrictionListName": "Upton LLC",
+      "IsVisible": true,
+      "ExtraInfo": "sit",
+      "Width": "laudantium",
+      "IconHint": "eius",
+      "HeadingIconHint": "sint"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Orn, Fritsch and Corwin",
-      "PrimaryKey": 275,
+      "EntityName": "Yost, Goldner and Grant",
+      "PrimaryKey": 810,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "non",
-          "TooltipHint": "ab",
-          "LinkHint": "consectetur"
+          "DisplayValue": "eligendi",
+          "TooltipHint": "hic",
+          "LinkHint": "officia"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quibusdam",
+      "LinkHint": "molestiae",
+      "StyleHint": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 733
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     }
   ],
-  "RowCount": 207,
+  "RowCount": 384,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 203
     }
   }
 }

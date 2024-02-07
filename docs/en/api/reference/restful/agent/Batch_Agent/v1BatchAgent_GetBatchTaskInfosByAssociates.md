@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    225,
-    357
+    892,
+    731
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Ryan, Kautzer and Goldner",
-    "AssociateId": 446,
-    "DetailsTable": 582,
-    "DetailsRecord": 521,
+    "Id": 438,
+    "Name": "Stracke-Flatley",
+    "AssociateId": 528,
+    "DetailsTable": 115,
+    "DetailsRecord": 587,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "est",
-      "ParameterObject2": "tenetur"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2020-10-28T23:03:55.0186416+01:00",
-    "Created": "2005-11-12T23:03:55.0186416+01:00",
-    "StartCount": 213,
-    "DatabaseSerialNumber": "1001285",
-    "Context": "et",
-    "Result": "qui",
+    "LastStarted": "1997-08-16T16:54:54.6004168+02:00",
+    "Created": "1997-09-08T16:54:54.6004168+02:00",
+    "StartCount": 333,
+    "DatabaseSerialNumber": "339659",
+    "Context": "molestiae",
+    "Result": "in",
     "State": "All",
-    "Description": "Mandatory local archive",
-    "Response": "perspiciatis",
-    "Request": "voluptate",
-    "ProgressDescription": "Streamlined systemic data-warehouse",
-    "ProgressPercent": 322,
-    "FileName": "Abernathy-Predovic",
+    "Description": "Progressive high-level pricing structure",
+    "Response": "et",
+    "Request": "assumenda",
+    "ProgressDescription": "Open-source well-modulated standardization",
+    "ProgressPercent": 401,
+    "FileName": "Hoppe, Feest and McLaughlin",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 964
+        "FieldLength": 162
       }
     }
   }

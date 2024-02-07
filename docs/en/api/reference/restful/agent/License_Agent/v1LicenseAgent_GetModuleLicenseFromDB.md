@@ -90,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Von-Bogan",
-  "ModuleName": "Bartoletti-Effertz"
+  "OwnerName": "Lubowitz, DuBuque and Bartell",
+  "ModuleName": "Smith, Kunde and Koepp"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Purdy, Weber and Grady",
-  "ModuleName": "Daugherty, Tromp and Medhurst",
-  "ModuleDescription": "Fundamental composite matrices",
-  "ModuleTooltip": "ab",
-  "ModuleVersion": "deserunt",
+  "OwnerName": "Kautzer Group",
+  "ModuleName": "Hansen, Halvorson and Gaylord",
+  "ModuleDescription": "Monitored hybrid migration",
+  "ModuleTooltip": "quidem",
+  "ModuleVersion": "explicabo",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 345,
-  "ExtraFlags": 453,
-  "ExtraInfo": "animi",
-  "SortOrder": 521,
+  "NumberOfLicenses": 374,
+  "ExtraFlags": 519,
+  "ExtraInfo": "aliquam",
+  "SortOrder": 897,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Blanda-Stark",
-  "Signature": "quo"
+  "PrerequisiteModuleName": "Stark LLC",
+  "Signature": "sint"
 }
 ```

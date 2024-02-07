@@ -74,8 +74,8 @@ OK
 | EnrollmentEnd | string | Do not enroll more participant after given time. In [DT: ] format, interpreted in workflow time zone |
 | RemoveFromFlows | array | Workflows to remove the participants from when they are enrolled in this workflow |
 | TzLocation | TimeZoneData | The workflow timezone setting |
-| Folder | HierarchyEntity | The folder/hierarchy the email flow is in.  <para>Use MDO List name "hierarchy" to get list items.</para> |
-| Associate | Associate | The owner of the workflow.  <para>Use MDO List name "associate" to get list items.</para> |
+| Folder | HierarchyEntity | The folder/hierarchy the email flow is in.  Use MDO List name "hierarchy" to get list items. |
+| Associate | Associate | The owner of the workflow.  Use MDO List name "associate" to get list items. |
 | ShipmentType | MDOListItem | The Shipment type (mailing type) |
 | Steps | array | The steps in the workflow, mainline steps - forking steps are indicated by its WorkflowStepType. |
 | Triggers | array | The triggers for the workflow. |
@@ -108,34 +108,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 341,
-  "Name": "Medhurst Group",
-  "Description": "Virtual fresh-thinking function",
+  "EmailFlowId": 883,
+  "Name": "Barrows, Bayer and Kling",
+  "Description": "Front-line heuristic secured line",
   "Status": "None",
   "JumpToFinish": true,
   "StartOnlyOnce": true,
-  "OverrideConsentSubscription": false,
+  "OverrideConsentSubscription": true,
   "FromType": "FromOnlySpecified",
-  "FromName": "Nader, Blanda and Satterfield",
-  "FromAddr": "possimus",
+  "FromName": "Wuckert, Larson and Reinger",
+  "FromAddr": "qui",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "quis",
-  "ReplyToName": "Heller-VonRueden",
-  "SmsSender": "id",
-  "UseGoogleAnalytics": true,
-  "GaSource": "consequatur",
-  "GaCampaign": "voluptatem",
+  "ReplyToAddr": "aut",
+  "ReplyToName": "Herzog Inc and Sons",
+  "SmsSender": "sint",
+  "UseGoogleAnalytics": false,
+  "GaSource": "excepturi",
+  "GaCampaign": "distinctio",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "alias",
-  "TimeframeEnd": "similique",
-  "UseWorkflowStart": false,
-  "WorkflowStart": "similique",
-  "UseEnrollmentEnd": true,
-  "EnrollmentEnd": "repellendus",
+  "TimeframeStart": "dolore",
+  "TimeframeEnd": "sit",
+  "UseWorkflowStart": true,
+  "WorkflowStart": "culpa",
+  "UseEnrollmentEnd": false,
+  "EnrollmentEnd": "libero",
   "RemoveFromFlows": [
-    781,
-    685
+    445,
+    223
   ],
   "TzLocation": null,
   "Folder": null,
@@ -143,22 +143,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 972,
-      "WorkflowId": 589,
+      "WorkflowStepId": 550,
+      "WorkflowId": 567,
       "StepType": "AddToList",
-      "Rank": 168
+      "Rank": 201
     },
     {
-      "WorkflowStepId": 972,
-      "WorkflowId": 589,
+      "WorkflowStepId": 550,
+      "WorkflowId": 567,
       "StepType": "AddToList",
-      "Rank": 168
+      "Rank": 201
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 45,
-      "WorkflowId": 124,
+      "WorkflowTriggerId": 807,
+      "WorkflowId": 313,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -168,14 +168,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     },
     {
-      "WorkflowTriggerId": 45,
-      "WorkflowId": 124,
+      "WorkflowTriggerId": 807,
+      "WorkflowId": 313,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -185,16 +185,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 794,
-      "WorkflowId": 469,
+      "WorkflowGoalId": 974,
+      "WorkflowId": 240,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -205,13 +205,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 339
+          "FieldLength": 62
         }
       }
     },
     {
-      "WorkflowGoalId": 794,
-      "WorkflowId": 469,
+      "WorkflowGoalId": 974,
+      "WorkflowId": 240,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -222,46 +222,46 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 339
+          "FieldLength": 62
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    8,
-    103
+    929,
+    289
   ],
-  "ExitFlowId": 690,
-  "ExitSuccessFlowId": 799,
+  "ExitFlowId": 196,
+  "ExitSuccessFlowId": 871,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-09-24T23:03:57.6696053+02:00",
-  "UpdatedDate": "2008-03-03T23:03:57.6696053+01:00",
+  "CreatedDate": "2017-06-24T16:54:56.7528134+02:00",
+  "UpdatedDate": "2006-05-20T16:54:56.7528134+02:00",
   "VisibleFor": [
     {
-      "VisibleId": 66,
+      "VisibleId": 765,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 413
         }
       }
     },
     {
-      "VisibleId": 66,
+      "VisibleId": 765,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 413
         }
       }
     }
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 975
+      "FieldLength": 790
     }
   }
 }

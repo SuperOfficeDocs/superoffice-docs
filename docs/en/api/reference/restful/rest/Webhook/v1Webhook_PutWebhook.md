@@ -109,28 +109,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 295,
-  "Name": "Ryan-Baumbach",
+  "WebhookId": 902,
+  "Name": "Simonis, Zieme and Ziemann",
   "Events": [
-    "quis",
-    "reprehenderit"
+    "laboriosam",
+    "nam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ratione",
+  "Secret": "cumque",
   "State": "Active",
-  "Type": "blanditiis",
+  "Type": "est",
   "Headers": {
-    "Headers1": "fugiat",
-    "Headers2": "aspernatur"
+    "Headers1": "harum",
+    "Headers2": "laboriosam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-06-16T23:04:05.238003+02:00",
+  "Registered": "2011-06-19T16:55:30.4871359+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2023-10-19T23:04:05.2385047+02:00",
+  "Updated": "2003-08-25T16:55:30.4871359+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "cayla.hessel@walker.co.uk"
+  "ErrorsEmail": "lucie@sipes.co.uk"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 33,
-  "Name": "McCullough Group",
+  "WebhookId": 78,
+  "Name": "Schneider-Labadie",
   "Events": [
-    "velit",
-    "quod"
+    "fugit",
+    "quas"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "expedita",
   "State": "Active",
-  "Type": "velit",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "sit",
-    "Headers2": "tempore"
+    "Headers1": "quisquam",
+    "Headers2": "omnis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-03-04T23:04:05.2410031+01:00",
+  "Registered": "2000-01-14T16:55:30.4901582+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-03-24T23:04:05.2415031+01:00",
+  "Updated": "2013-08-29T16:55:30.4901582+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jessy.quitzon@roberts.com",
+  "ErrorsEmail": "lottie@prosacco.us",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

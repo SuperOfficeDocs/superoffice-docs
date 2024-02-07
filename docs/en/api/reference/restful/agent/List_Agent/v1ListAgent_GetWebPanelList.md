@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 824,
-    "Name": "Murphy LLC",
-    "Tooltip": "ad",
+    "WebPanelId": 101,
+    "Name": "Ferry, Torphy and Upton",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 389,
+    "Rank": 149,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Schowalter-Effertz",
+    "WindowName": "Morissette Group",
     "Url": "http://www.example.com/",
-    "ProgId": "tenetur",
-    "Icon": 702,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": false,
+    "ProgId": "labore",
+    "Icon": 453,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 401
       }
     }
   }

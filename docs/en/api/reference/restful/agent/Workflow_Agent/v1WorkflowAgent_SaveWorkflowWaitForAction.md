@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 413,
-  "WorkflowStepId": 767,
-  "WorkflowId": 894,
-  "Rank": 803,
+  "WorkflowWaitForActionId": 784,
+  "WorkflowStepId": 538,
+  "WorkflowId": 566,
+  "Rank": 19,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Gibson, Lebsack and Pollich",
-      "Description": "Expanded human-resource migration",
-      "Rank": 332,
+      "Name": "Reichel-Kerluke",
+      "Description": "De-engineered upward-trending standardization",
+      "Rank": 575,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gibson, Lebsack and Pollich",
-      "Description": "Expanded human-resource migration",
-      "Rank": 332,
+      "Name": "Reichel-Kerluke",
+      "Description": "De-engineered upward-trending standardization",
+      "Rank": 575,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 104,
-  "WorkflowStepId": 42,
-  "WorkflowId": 425,
-  "Rank": 582,
+  "WorkflowWaitForActionId": 686,
+  "WorkflowStepId": 526,
+  "WorkflowId": 781,
+  "Rank": 431,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Fritsch Group",
-      "Description": "Organic fresh-thinking policy",
-      "Rank": 945,
+      "Name": "Larson-Bailey",
+      "Description": "Object-based uniform workforce",
+      "Rank": 478,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Fritsch Group",
-      "Description": "Organic fresh-thinking policy",
-      "Rank": 945,
+      "Name": "Larson-Bailey",
+      "Description": "Object-based uniform workforce",
+      "Rank": 478,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldType": "System.String",
+      "FieldLength": 559
     }
   }
 }

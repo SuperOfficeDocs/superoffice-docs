@@ -2,8 +2,7 @@
 uid: appointmenttask
 title: appointmenttask
 keywords: mdoprovider mdo provider appointmenttask
-description: MDO list provider for the task list of the AppointmentDialog. This list extends the basic <see cref="T:SuperOffice.CRM.Rows.TaskRow" /> with
-specialized icons based on the <see cref="T:SuperOffice.Data.TaskType" />.
+description: MDO list provider for the task list of the AppointmentDialog. This list extends the basic <see cref="T:SuperOffice.CRM.Rows.TaskRow" /> with specialized icons based on the <see cref="T:SuperOffice.Data.TaskType" />.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

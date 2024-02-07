@@ -89,24 +89,24 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 351,
-  "Name": "Zemlak-Simonis",
-  "ContentType": "sint",
-  "AttSize": 894,
-  "InlineImage": true,
-  "ContentId": "voluptatum",
-  "AuthKey": "corporis",
+  "AttachmentId": 999,
+  "Name": "Roob-Turner",
+  "ContentType": "quaerat",
+  "AttSize": 980,
+  "InlineImage": false,
+  "ContentId": "dolorem",
+  "AuthKey": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldType": "System.String",
+      "FieldLength": 906
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

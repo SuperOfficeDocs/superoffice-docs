@@ -62,7 +62,7 @@ OK
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person | Person | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | If this is an incoming message, this will contain the person  Use MDO List name "person_new" to get list items. |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
@@ -72,7 +72,7 @@ OK
 | Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 247,
+  "EjMessageId": 114,
   "Ticket": null,
-  "CreatedAt": "2002-11-25T23:03:57.2631113+01:00",
+  "CreatedAt": "2004-05-23T16:54:56.4201352+02:00",
   "CreatedBy": null,
-  "Author": "dicta",
+  "Author": "sunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 24,
-  "Body": "corporis",
-  "HtmlBody": "sunt",
-  "EmailHeader": "gail_stoltenberg@kulas.uk",
-  "DebugInfo": "commodi",
-  "MailSorter": "qui",
+  "MessageId": "odio",
+  "TimeSpent": 974,
+  "Body": "voluptas",
+  "HtmlBody": "cum",
+  "EmailHeader": "flavio.volkman@heidenreichjohnston.name",
+  "DebugInfo": "officia",
+  "MailSorter": "similique",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "magnam",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 566,
-      "Name": "Strosin-Marquardt",
-      "Value": "repellendus",
+      "Id": 988,
+      "Name": "Zieme LLC",
+      "Value": "itaque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldLength": 668
         }
       }
     }
   ],
   "Important": false,
-  "Language": "sed",
-  "Sentiment": 617,
-  "SentimentConfidence": 87,
+  "Language": "earum",
+  "Sentiment": 64,
+  "SentimentConfidence": 794,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 702,
-      "Name": "Hammes-Nolan",
-      "ContentType": "deserunt",
-      "AttSize": 594,
-      "InlineImage": true,
-      "ContentId": "delectus",
-      "AuthKey": "voluptatem",
+      "AttachmentId": 596,
+      "Name": "Champlin Group",
+      "ContentType": "distinctio",
+      "AttSize": 388,
+      "InlineImage": false,
+      "ContentId": "nemo",
+      "AuthKey": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 145
+          "FieldLength": 701
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldType": "System.String",
+      "FieldLength": 344
     }
   }
 }

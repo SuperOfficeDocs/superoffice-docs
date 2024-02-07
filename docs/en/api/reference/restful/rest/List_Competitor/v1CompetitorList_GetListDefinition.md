@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Kling Inc and Sons",
-  "Tooltip": "laboriosam",
-  "Deleted": true,
-  "Rank": 373,
+  "Id": 972,
+  "Name": "Carter Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 263,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "in",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 454
     }
   },
   "_Links": {

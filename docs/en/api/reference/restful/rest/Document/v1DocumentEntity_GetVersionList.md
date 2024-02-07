@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "aspernatur",
-    "DocumentId": 790,
-    "VersionId": "et",
-    "CheckedInDate": "2007-02-12T23:04:04.1790194+01:00",
-    "CheckedInByName": "Lubowitz-Boyer",
-    "CheckedInByAssociateId": 334,
-    "Description": "Realigned maximized initiative",
-    "DisplayText": "suscipit",
+    "ExternalReference": "ducimus",
+    "DocumentId": 253,
+    "VersionId": "facere",
+    "CheckedInDate": "2010-07-14T16:55:29.6174591+02:00",
+    "CheckedInByName": "Jenkins, Brown and McLaughlin",
+    "CheckedInByAssociateId": 676,
+    "Description": "Switchable 3rd generation parallelism",
+    "DisplayText": "ratione",
     "ExtraFields": [
-      "eligendi",
-      "ut"
+      "et",
+      "iusto"
     ]
   }
 ]

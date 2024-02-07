@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 562,
-  "Name": "Bayer, Nader and DuBuque",
-  "Tooltip": "ea",
+  "Id": 169,
+  "Name": "Hettinger-Adams",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 610,
-  "IsCustomList": false,
+  "Rank": 988,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "facilis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   },
   "_Links": {

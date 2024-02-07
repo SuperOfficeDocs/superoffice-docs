@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 229,
-    "Name": "Goodwin-Deckow",
-    "Tooltip": "quasi",
+    "HeadingId": 608,
+    "Name": "Stehr Group",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 646,
-    "UdListDefinitionId": 254,
+    "Rank": 302,
+    "UdListDefinitionId": 173,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldType": "System.String",
+        "FieldLength": 713
       }
     }
   }

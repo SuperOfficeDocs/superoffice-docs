@@ -25,7 +25,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=True
+GET /api/v1/List/ProductCategory/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Grant, Daniel and Christiansen",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 134,
-    "Rank": 855,
+    "Id": 246,
+    "Name": "Hickle-Nader",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 252,
+    "Rank": 312,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldType": "System.String",
+        "FieldLength": 607
       }
     }
   }

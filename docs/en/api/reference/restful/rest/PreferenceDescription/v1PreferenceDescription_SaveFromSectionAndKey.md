@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 547,
-  "Section": "voluptates",
-  "Key": "praesentium",
-  "Name": "Lehner Inc and Sons",
+  "PrefDescId": 296,
+  "Section": "voluptatem",
+  "Key": "hic",
+  "Name": "Rippin, Hyatt and Christiansen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Adaptive client-server software",
+  "Description": "Focused optimal project",
   "IsBuiltin": true,
-  "TableName": "Rutherford Inc and Sons",
-  "UserDefinedListId": 119,
-  "Rank": 921,
-  "SubGroup": "blanditiis",
-  "MinLevel": 525,
-  "MaxValue": 35,
-  "MinValue": 554,
-  "RequiredLicense": "fugiat"
+  "TableName": "Kohler-Crona",
+  "UserDefinedListId": 832,
+  "Rank": 722,
+  "SubGroup": "iste",
+  "MinLevel": 384,
+  "MaxValue": 995,
+  "MinValue": 534,
+  "RequiredLicense": "odit"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 543,
-  "Section": "sint",
-  "Key": "dolor",
-  "Name": "Rippin, Lakin and Roberts",
+  "PrefDescId": 278,
+  "Section": "ipsum",
+  "Key": "eaque",
+  "Name": "Muller Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Intuitive web-enabled array",
+  "Description": "Distributed upward-trending productivity",
   "IsBuiltin": false,
-  "TableName": "Weber-Torphy",
-  "UserDefinedListId": 776,
-  "Rank": 905,
-  "SubGroup": "quam",
-  "MinLevel": 999,
-  "MaxValue": 474,
-  "MinValue": 128,
-  "RequiredLicense": "voluptas",
+  "TableName": "Lowe-McLaughlin",
+  "UserDefinedListId": 884,
+  "Rank": 31,
+  "SubGroup": "vel",
+  "MinLevel": 784,
+  "MaxValue": 476,
+  "MinValue": 575,
+  "RequiredLicense": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

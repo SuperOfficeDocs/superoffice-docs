@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 749,
-  "ERPPriceListKey": "error",
-  "QuoteConnectionId": 901,
-  "Name": "Torp-Tromp",
-  "Description": "Intuitive multi-tasking functionalities",
-  "Currency": "ullam",
-  "CurrencyName": "Grady LLC",
-  "ValidFrom": "2016-05-08T23:04:05.5810004+02:00",
-  "ValidTo": "2005-11-03T23:04:05.5810004+01:00",
+  "PriceListId": 721,
+  "ERPPriceListKey": "quas",
+  "QuoteConnectionId": 263,
+  "Name": "Towne Inc and Sons",
+  "Description": "Assimilated radical hub",
+  "Currency": "repellat",
+  "CurrencyName": "McLaughlin-Gibson",
+  "ValidFrom": "1999-10-19T16:55:30.7761776+02:00",
+  "ValidTo": "2010-10-03T16:55:30.7761776+02:00",
   "IsActive": false
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 65,
-  "ERPPriceListKey": "corrupti",
-  "QuoteConnectionId": 1000,
-  "Name": "Wolff-Corwin",
-  "Description": "Intuitive system-worthy info-mediaries",
-  "Currency": "perferendis",
-  "CurrencyName": "Luettgen, Carter and Mante",
-  "ValidFrom": "2009-08-30T23:04:05.5819981+02:00",
-  "ValidTo": "2014-01-28T23:04:05.5819981+01:00",
+  "PriceListId": 620,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 107,
+  "Name": "Schoen Inc and Sons",
+  "Description": "Persevering impactful standardization",
+  "Currency": "animi",
+  "CurrencyName": "Paucek-Casper",
+  "ValidFrom": "1998-11-01T16:55:30.7761776+01:00",
+  "ValidTo": "2021-12-05T16:55:30.7761776+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 973
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 917,
-  "InstanceLayout": "pariatur",
-  "InstanceName": "Schamberger Group",
-  "CreatedDate": "1998-03-05T23:03:54.999142+01:00",
-  "UpdatedDate": "2003-08-31T23:03:54.999142+02:00",
+  "AudienceLayoutId": 588,
+  "InstanceLayout": "sapiente",
+  "InstanceName": "Beahan-Howe",
+  "CreatedDate": "2021-05-21T16:54:54.5863929+02:00",
+  "UpdatedDate": "2000-10-01T16:54:54.5863929+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 310
     }
   }
 }

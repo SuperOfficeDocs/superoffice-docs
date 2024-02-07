@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 390,
-    "Name": "Huels Group",
-    "Tooltip": "dolores",
-    "SaveInDb": 581,
-    "Filename": "ducimus",
-    "DefaultOref": "asperiores",
+    "DocumentTemplateId": 619,
+    "Name": "Aufderhar, Durgan and Ritchie",
+    "Tooltip": "qui",
+    "SaveInDb": 854,
+    "Filename": "aliquid",
+    "DefaultOref": "porro",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 289,
-    "IntentId": 21,
+    "AutoeventId": 471,
+    "IntentId": 778,
     "IsDefaultPublished": false,
-    "Rank": 176,
-    "LoadTemplateFromPlugin": 658,
-    "MimeType": "aspernatur",
+    "Rank": 747,
+    "LoadTemplateFromPlugin": 366,
+    "MimeType": "quis",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 294,
+    "DocumentTypeKey": 162,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "cleta_sanford@oberbrunnerritchie.name",
-    "IncludeSignature": false,
-    "ShowCurrents": true,
+    "EmailSubject": "archibald@kub.co.uk",
+    "IncludeSignature": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "dandre_bauch@pacochalemke.com",
+    "SenderEmailAddress": "winifred@boehm.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 169
       }
     }
   }

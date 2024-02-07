@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=soluta
+GET /api/v1/List/Country/MDOItems?query=voluptates
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Pouros, Wiza and Christiansen",
-    "ToolTip": "Tempore et dolore.",
-    "Deleted": true,
-    "Rank": 304,
-    "Type": "beatae",
+    "Id": 637,
+    "Name": "Ledner-Moore",
+    "ToolTip": "Aut pariatur.",
+    "Deleted": false,
+    "Rank": 92,
+    "Type": "aperiam",
     "ChildItems": [
       {
-        "Id": 575,
-        "Name": "Lang, Luettgen and Stehr",
-        "ToolTip": "Veritatis rerum ex in sapiente.",
+        "Id": 740,
+        "Name": "Hegmann, Orn and Barton",
+        "ToolTip": "Non blanditiis qui sed sit sed rerum.",
         "Deleted": false,
-        "Rank": 701,
-        "Type": "cupiditate",
+        "Rank": 977,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 622,
-        "ExtraInfo": "minima",
-        "StyleHint": "quaerat",
-        "FullName": "Ms. Jaime Vito Schaden Sr.",
+        "IconHint": "est",
+        "ColorBlock": 765,
+        "ExtraInfo": "deleniti",
+        "StyleHint": "molestiae",
+        "FullName": "Dr. Leann Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 43
+            "FieldLength": 678
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 968,
-    "ExtraInfo": "sunt",
-    "StyleHint": "hic",
-    "FullName": "Cydney Heathcote",
+    "IconHint": "et",
+    "ColorBlock": 560,
+    "ExtraInfo": "incidunt",
+    "StyleHint": "ut",
+    "FullName": "Dr. Adriana Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 249
+        "FieldType": "System.Int32",
+        "FieldLength": 307
       }
     }
   }

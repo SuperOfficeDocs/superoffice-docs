@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 94,
-    "Name": "Ritchie LLC",
-    "Tooltip": "optio",
-    "Rank": 148,
-    "Key": "ab",
-    "Deleted": false,
+    "LegalBaseId": 920,
+    "Name": "Rice LLC",
+    "Tooltip": "tempora",
+    "Rank": 817,
+    "Key": "est",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldType": "System.String",
+        "FieldLength": 994
       }
     }
   }

@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 228,
-  "UniqueId": "incidunt",
-  "Name": "Conn-Gusikowski",
-  "Description": "Fully-configurable modular throughput",
-  "AssociateId": 26,
-  "Columns": 571,
+  "DashboardId": 458,
+  "UniqueId": "dicta",
+  "Name": "Bergstrom-Powlowski",
+  "Description": "Multi-tiered optimizing customer loyalty",
+  "AssociateId": 857,
+  "Columns": 364,
   "Theme": null,
-  "VisibleForAll": 889,
+  "VisibleForAll": 561,
   "VisibleForAssociates": [
-    82,
-    319
+    851,
+    571
   ],
   "VisibleForGroups": [
-    311,
-    139
+    720,
+    688
   ],
-  "PinForAll": 526,
+  "PinForAll": 409,
   "PinForAssociates": [
-    707,
-    145
+    275,
+    365
   ],
   "PinForGroups": [
-    708,
-    45
+    788,
+    616
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 763,
-  "UniqueId": "quos",
-  "Name": "Murray, Lueilwitz and Batz",
-  "Description": "Enterprise-wide secondary implementation",
-  "AssociateId": 49,
-  "Columns": 996,
+  "DashboardId": 477,
+  "UniqueId": "molestiae",
+  "Name": "Hodkiewicz LLC",
+  "Description": "Reactive heuristic alliance",
+  "AssociateId": 813,
+  "Columns": 585,
   "Theme": null,
-  "VisibleForAll": 366,
+  "VisibleForAll": 443,
   "VisibleForAssociates": [
-    227,
-    510
+    121,
+    65
   ],
   "VisibleForGroups": [
-    586,
-    966
+    797,
+    25
   ],
-  "PinForAll": 806,
+  "PinForAll": 691,
   "PinForAssociates": [
-    547,
-    954
+    959,
+    999
   ],
   "PinForGroups": [
-    191,
-    736
+    698,
+    157
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 418,
-    "Name": "O'Conner, Hartmann and Goldner",
-    "Tooltip": "corrupti",
-    "Deleted": false,
-    "Rank": 37,
-    "UdListDefinitionId": 228,
+    "HeadingId": 446,
+    "Name": "Abshire, Schmitt and Tremblay",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "Rank": 866,
+    "UdListDefinitionId": 631,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 969
       }
     }
   }

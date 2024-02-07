@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 408,
-    "Name": "Hayes, Harris and Nikolaus",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 3,
-    "UdListDefinitionId": 449,
+    "HeadingId": 901,
+    "Name": "Thompson-Lebsack",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 90,
+    "UdListDefinitionId": 170,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 22
       }
     }
   }

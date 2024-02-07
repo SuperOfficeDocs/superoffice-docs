@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quia",
-  "Name": "Hane-McLaughlin",
-  "Description": "Multi-channelled eco-centric throughput",
-  "IncludeId": "ab",
-  "Source": "deleniti",
-  "Registered": "1997-03-25T23:04:05.1430039+01:00",
-  "RegisteredBy": "eius",
-  "Updated": "2002-11-07T23:04:05.1430039+01:00",
-  "UpdatedBy": "est",
-  "Path": "ad",
+  "UniqueIdentifier": "neque",
+  "Name": "Schroeder-Wilkinson",
+  "Description": "Cloned tangible migration",
+  "IncludeId": "quae",
+  "Source": "mollitia",
+  "Registered": "2006-04-11T16:55:30.4121261+02:00",
+  "RegisteredBy": "id",
+  "Updated": "2005-10-19T16:55:30.4121261+02:00",
+  "UpdatedBy": "eveniet",
+  "Path": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 665
     }
   }
 }

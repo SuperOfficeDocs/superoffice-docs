@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=798
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=575
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 283,
-  "Name": "Heller, Williamson and Kunze",
-  "Tooltip": "sit",
-  "Rank": 622,
+  "ProjTypeId": 671,
+  "Name": "Gerhold-Reilly",
+  "Tooltip": "libero",
+  "Rank": 450,
   "DurationUnit": "Century",
-  "ProjectDuration": 644,
+  "ProjectDuration": 736,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 865,
-      "Name": "Barton-Schowalter",
-      "ToolTip": "Enim mollitia et hic alias suscipit.",
-      "Deleted": false,
-      "Rank": 811,
-      "Type": "tempore",
-      "ColorBlock": 778,
-      "IconHint": "velit",
-      "Selected": true,
-      "LastChanged": "1998-01-07T23:03:56.1806266+01:00",
+      "Id": 734,
+      "Name": "Schowalter Group",
+      "ToolTip": "Rerum magni sint consectetur.",
+      "Deleted": true,
+      "Rank": 744,
+      "Type": "officia",
+      "ColorBlock": 260,
+      "IconHint": "dolorum",
+      "Selected": false,
+      "LastChanged": "2021-01-13T16:54:55.5374688+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "deserunt",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "Mrs. Adah Grant II",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "totam",
+      "Hidden": true,
+      "FullName": "Makenzie Kertzmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 538
+          "FieldType": "System.Int32",
+          "FieldLength": 888
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 669
     }
   }
 }

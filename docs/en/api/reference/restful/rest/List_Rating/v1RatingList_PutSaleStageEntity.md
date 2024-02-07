@@ -84,12 +84,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 434,
-  "Value": "repellendus",
-  "Tooltip": "et",
-  "Probability": 653,
-  "Deleted": false,
-  "Rank": 717
+  "SaleStageId": 35,
+  "Value": "non",
+  "Tooltip": "minima",
+  "Probability": 393,
+  "Deleted": true,
+  "Rank": 403
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 493,
-  "Value": "ut",
-  "Tooltip": "officia",
-  "Probability": 408,
+  "SaleStageId": 703,
+  "Value": "eius",
+  "Tooltip": "sunt",
+  "Probability": 26,
   "Deleted": true,
-  "Rank": 681,
+  "Rank": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 92
     }
   }
 }

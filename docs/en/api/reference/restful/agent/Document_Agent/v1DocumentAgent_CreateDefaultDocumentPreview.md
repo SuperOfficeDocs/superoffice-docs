@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Conroy Group",
-  "Type": "ut",
-  "Size": 571,
+  "Name": "Emard Inc and Sons",
+  "Type": "et",
+  "Size": 8,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldType": "System.String",
+      "FieldLength": 679
     }
   }
 }

@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 670,
-  "DimensionId": 179
+  "TargetYear": 863,
+  "DimensionId": 976
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 102,
-  "Year": 345,
+  "TargetGroupId": 425,
+  "Year": 843,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 216,
+      "TargetAssignmentInfoId": 350,
       "Values": [
-        128,
-        647
+        281,
+        972
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 788,
-      "DimensionListItemDisplayName": "Gutmann Inc and Sons",
+      "DimensionListItem": 179,
+      "DimensionListItemDisplayName": "Glover, Konopelski and Grant",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldLength": 762
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

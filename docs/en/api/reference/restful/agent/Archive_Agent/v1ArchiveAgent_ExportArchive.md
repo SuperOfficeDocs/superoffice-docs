@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Conner-Gleason",
-  "Context": "sed",
+  "ProviderName": "Kulas, Cartwright and Lesch",
+  "Context": "impedit",
   "DesiredEntities": [
-    "maxime",
-    "sint"
+    "aut",
+    "asperiores"
   ],
   "Columns": [
-    "omnis",
-    "rerum"
+    "sequi",
+    "nulla"
   ],
   "SortOrder": [
     {
-      "Name": "Brakus, Koch and Lakin",
+      "Name": "Goyette LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Brakus, Koch and Lakin",
+      "Name": "Goyette LLC",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Kshlerin, Wiegand and Purdy",
-      "Operator": "dolorum",
+      "Name": "Stoltenberg Group",
+      "Operator": "eos",
       "Values": [
-        "amet",
-        "quibusdam"
+        "tempore",
+        "id"
       ],
       "DisplayValues": [
-        "quia",
-        "explicabo"
+        "ipsum",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 973,
+      "InterParenthesis": 866,
       "InterOperator": "And",
-      "UniqueHash": 782
+      "UniqueHash": 624
     }
   ],
-  "ExportType": "magnam",
+  "ExportType": "non",
   "SelectedRowIds": [
-    "delectus",
-    "dolorem"
+    "iste",
+    "dignissimos"
   ],
-  "EstimatedRowCount": 512
+  "EstimatedRowCount": 144
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 178,
-  "FileName": "Zemlak, Fisher and Skiles",
-  "Message": "tempore",
+  "BatchTaskId": 953,
+  "FileName": "Rowe Inc and Sons",
+  "Message": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 502
     }
   }
 }

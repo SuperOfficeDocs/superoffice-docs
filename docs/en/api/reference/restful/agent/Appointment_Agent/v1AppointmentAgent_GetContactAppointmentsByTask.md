@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 647,
-  "StartTime": "2002-07-21T23:03:54.5486483+02:00",
-  "EndTime": "2004-04-01T23:03:54.5486483+02:00",
-  "Count": 827,
-  "TaskId": 792
+  "ContactId": 136,
+  "StartTime": "2015-08-18T16:54:54.2393839+02:00",
+  "EndTime": "2014-02-18T16:54:54.2393839+01:00",
+  "Count": 465,
+  "TaskId": 753
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 704,
-    "StartDate": "2007-02-28T23:03:54.5496484+01:00",
-    "EndDate": "2023-01-31T23:03:54.5496484+01:00",
+    "AppointmentId": 138,
+    "StartDate": "2022-06-11T16:54:54.2402886+02:00",
+    "EndDate": "2015-07-27T16:54:54.2402886+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quidem",
-    "AssociateFullName": "Miss Okey Nathanael Jerde Sr.",
-    "ContactName": "Ruecker-Windler",
-    "Description": "Re-engineered multi-tasking concept",
-    "PersonFullName": "Ryann Hauck",
-    "PersonId": 367,
-    "ContactId": 950,
-    "ProjectId": 69,
-    "ProjectName": "Ullrich LLC",
-    "IsPublished": true,
-    "AssociateId": 240,
-    "ColorIndex": 386,
-    "IsFree": true,
+    "Task": "eaque",
+    "AssociateFullName": "Dr. Deshaun Shanahan",
+    "ContactName": "Daniel, Kshlerin and Wolf",
+    "Description": "Decentralized tangible superstructure",
+    "PersonFullName": "Prof. Kendrick Teagan Langworth",
+    "PersonId": 6,
+    "ContactId": 906,
+    "ProjectId": 964,
+    "ProjectName": "Gulgowski-Robel",
+    "IsPublished": false,
+    "AssociateId": 462,
+    "ColorIndex": 400,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 105,
-    "PriorityName": "Dare Inc and Sons",
+    "PriorityId": 612,
+    "PriorityName": "Fritsch, Strosin and Wunsch",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "1996-10-30T23:03:54.5501487+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2002-09-26T16:54:54.2413662+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-01-26T23:03:54.5501487+01:00",
-    "RecurringEndDate": "2022-08-02T23:03:54.5501487+02:00",
-    "MotherId": 75,
-    "AssignedBy": 229,
-    "AssignedByFullName": "Geraldine Letitia Bayer V",
+    "RecurringStartDate": "2009-02-04T16:54:54.2413662+01:00",
+    "RecurringEndDate": "2020-09-04T16:54:54.2413662+02:00",
+    "MotherId": 346,
+    "AssignedBy": 547,
+    "AssignedByFullName": "Javon McClure",
     "RejectReason": "",
-    "Location": "iure",
-    "AlarmLeadTime": "inventore",
-    "SaleId": 206,
-    "SaleName": "Cronin Inc and Sons",
-    "AssociateName": "Pfeffer-Cassin",
-    "CreatedDate": "2013-02-18T23:03:54.5506494+01:00",
-    "CreatedBy": "quis",
-    "CreatedByFullName": "Sandrine Heidenreich",
-    "CreatedByAssociateId": 161,
+    "Location": "dolor",
+    "AlarmLeadTime": "itaque",
+    "SaleId": 273,
+    "SaleName": "Veum Inc and Sons",
+    "AssociateName": "Parker, Hermiston and Hoeger",
+    "CreatedDate": "1998-03-19T16:54:54.2413662+01:00",
+    "CreatedBy": "ratione",
+    "CreatedByFullName": "Kenya Monahan",
+    "CreatedByAssociateId": 547,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 446,
-    "Title": "quos",
-    "Agenda": "neque",
-    "InternalNotes": "facere",
+    "PreferredTZLocation": 429,
+    "Title": "facere",
+    "Agenda": "at",
+    "InternalNotes": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldLength": 682
       }
     }
   }

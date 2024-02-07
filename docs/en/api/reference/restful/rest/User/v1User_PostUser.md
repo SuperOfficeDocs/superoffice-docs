@@ -98,9 +98,9 @@ OK
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup | UserGroup | The main user group that this user belongs to.  Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  Use MDO List name "usergroup" to get list items. |
+| Person | Person | The person associated with this user. Detailed information about the user  Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -111,11 +111,11 @@ OK
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -131,14 +131,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 466,
-  "Name": "Tillman, Batz and Eichmann",
-  "Rank": 512,
-  "Tooltip": "laborum",
+  "AssociateId": 668,
+  "Name": "Lang, Friesen and Hayes",
+  "Rank": 277,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Jenkins Inc and Sons",
-      "Description": "Open-source leading edge website",
+      "Name": "Von-Mann",
+      "Description": "Front-line upward-trending knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Jenkins Inc and Sons",
-      "Description": "Open-source leading edge website",
+      "Name": "Von-Mann",
+      "Description": "Front-line upward-trending knowledge user",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -166,86 +166,86 @@ Content-Type: application/json; charset=utf-8
   "OtherGroups": [
     {
       "Value": "consectetur",
-      "Tooltip": "praesentium",
-      "Id": 483,
-      "Rank": 120,
+      "Tooltip": "unde",
+      "Id": 908,
+      "Rank": 85,
       "Deleted": true
     },
     {
       "Value": "consectetur",
-      "Tooltip": "praesentium",
-      "Id": 483,
-      "Rank": 120,
+      "Tooltip": "unde",
+      "Id": 908,
+      "Rank": 85,
       "Deleted": true
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2002-04-19T23:04:05.1525044+02:00",
-  "Lastlogout": "2021-08-29T23:04:05.1525044+02:00",
-  "EjUserId": 753,
-  "RequestSignature": "enim",
+  "Deleted": false,
+  "Lastlogin": "2022-11-25T16:55:30.4191292+01:00",
+  "Lastlogout": "2024-02-03T16:55:30.4191292+01:00",
+  "EjUserId": 134,
+  "RequestSignature": "eveniet",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "recusandae",
-      "DisplayValue": "eum"
+      "Value": "dolorem",
+      "DisplayValue": "et"
     },
     {
       "Type": null,
-      "Value": "recusandae",
-      "DisplayValue": "eum"
+      "Value": "dolorem",
+      "DisplayValue": "et"
     }
   ],
-  "UserName": "Goyette, Schimmel and Jacobson",
+  "UserName": "Auer, Lakin and Beahan",
   "TicketCategories": [
     {
-      "Id": 672,
-      "Name": "Leannon, Towne and Kris",
-      "ToolTip": "Occaecati nam.",
+      "Id": 140,
+      "Name": "King, Smitham and Boyer",
+      "ToolTip": "Voluptate sint eveniet ad nihil itaque omnis.",
       "Deleted": false,
-      "Rank": 845,
-      "Type": "eveniet",
+      "Rank": 591,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vel",
-      "ColorBlock": 688,
-      "ExtraInfo": "non",
-      "StyleHint": "nesciunt",
-      "FullName": "Dr. Estrella Daniel"
+      "IconHint": "dolore",
+      "ColorBlock": 552,
+      "ExtraInfo": "est",
+      "StyleHint": "incidunt",
+      "FullName": "Dr. Jerry West II"
     }
   ],
-  "NickName": "Hackett, Durgan and Dietrich",
+  "NickName": "Rice-Jakubowski",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "id"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "fuga"
+    "CustomFields1": "porro",
+    "CustomFields2": "quia"
   },
   "PostSaveCommands": [
     {
-      "Name": "Casper-Daniel",
-      "DisplayName": "Kohler-Ledner",
-      "Description": "User-centric optimal ability",
-      "ToolTip": "Voluptates ut dolorum magnam sunt quia asperiores quidem.",
+      "Name": "Kilback Group",
+      "DisplayName": "Bruen-Mayert",
+      "Description": "Innovative interactive intranet",
+      "ToolTip": "Dolorum itaque quas et illo eaque.",
       "Actions": "Implicit",
-      "ActionData": "voluptate"
+      "ActionData": "vero"
     },
     {
-      "Name": "Casper-Daniel",
-      "DisplayName": "Kohler-Ledner",
-      "Description": "User-centric optimal ability",
-      "ToolTip": "Voluptates ut dolorum magnam sunt quia asperiores quidem.",
+      "Name": "Kilback Group",
+      "DisplayName": "Bruen-Mayert",
+      "Description": "Innovative interactive intranet",
+      "ToolTip": "Dolorum itaque quas et illo eaque.",
       "Actions": "Implicit",
-      "ActionData": "voluptate"
+      "ActionData": "vero"
     }
   ]
 }
@@ -258,14 +258,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 325,
-  "Name": "Sporer-Feest",
-  "Rank": 901,
-  "Tooltip": "consequuntur",
+  "AssociateId": 137,
+  "Name": "Schmitt, O'Keefe and Simonis",
+  "Rank": 508,
+  "Tooltip": "accusamus",
   "LicenseOwners": [
     {
-      "Name": "Waelchi, Ernser and Hickle",
-      "Description": "Upgradable national middleware",
+      "Name": "Conn, Feil and Hyatt",
+      "Description": "Balanced modular concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -278,14 +278,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 981
+          "FieldType": "System.Int32",
+          "FieldLength": 371
         }
       }
     },
     {
-      "Name": "Waelchi, Ernser and Hickle",
-      "Description": "Upgradable national middleware",
+      "Name": "Conn, Feil and Hyatt",
+      "Description": "Balanced modular concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 981
+          "FieldType": "System.Int32",
+          "FieldLength": 371
         }
       }
     }
@@ -308,110 +308,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "alias",
-      "Tooltip": "quas",
-      "Id": 814,
-      "Rank": 32,
-      "Deleted": true,
+      "Value": "ut",
+      "Tooltip": "pariatur",
+      "Id": 127,
+      "Rank": 189,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldLength": 893
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-09-12T23:04:05.1575046+02:00",
-  "Lastlogout": "2021-09-27T23:04:05.1575046+02:00",
-  "EjUserId": 825,
-  "RequestSignature": "enim",
+  "Lastlogin": "2005-09-11T16:55:30.4261278+02:00",
+  "Lastlogout": "2017-07-31T16:55:30.4261278+02:00",
+  "EjUserId": 553,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "nihil",
+      "Value": "sed",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 40
         }
       }
     },
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "nihil",
+      "Value": "sed",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 40
         }
       }
     }
   ],
-  "UserName": "Abernathy, Morissette and Bogan",
+  "UserName": "Davis-Altenwerth",
   "TicketCategories": [
     {
-      "Id": 450,
-      "Name": "Jacobi-Kerluke",
-      "ToolTip": "Quia velit alias fugit earum nam aut ducimus.",
+      "Id": 226,
+      "Name": "Schoen, Huel and Heidenreich",
+      "ToolTip": "In iusto eligendi ut laboriosam sint.",
       "Deleted": false,
-      "Rank": 60,
-      "Type": "eius",
+      "Rank": 268,
+      "Type": "animi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 521,
-      "ExtraInfo": "non",
-      "StyleHint": "quisquam",
-      "FullName": "Kyleigh Von",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 511
-        }
-      }
-    }
-  ],
-  "NickName": "McCullough Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "eos"
-  },
-  "CustomFields": {
-    "CustomFields1": "ad",
-    "CustomFields2": "dolorem"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Dach, Reilly and Schimmel",
-      "DisplayName": "Little-Casper",
-      "Description": "Balanced impactful encryption",
-      "ToolTip": "Aut perspiciatis eligendi ea.",
-      "Actions": "Implicit",
-      "ActionData": "vitae",
+      "IconHint": "ut",
+      "ColorBlock": 192,
+      "ExtraInfo": "ea",
+      "StyleHint": "est",
+      "FullName": "Dorothy Kutch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 534
+        }
+      }
+    }
+  ],
+  "NickName": "Batz, Howell and Cruickshank",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "non",
+    "ExtraFields2": "qui"
+  },
+  "CustomFields": {
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "pariatur"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Cole, Douglas and McKenzie",
+      "DisplayName": "Keebler Inc and Sons",
+      "Description": "Monitored intangible local area network",
+      "ToolTip": "Voluptatibus excepturi et sed facilis nemo et.",
+      "Actions": "Implicit",
+      "ActionData": "impedit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 212
         }
       }
     }
@@ -421,12 +421,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 604
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 396,
-  "Name": "McCullough, Funk and Nader",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "Rank": 225,
-  "UdListDefinitionId": 32
+  "HeadingId": 717,
+  "Name": "Crona, Nienow and Towne",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 265,
+  "UdListDefinitionId": 411
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 406,
-  "Name": "Mraz, Metz and Berge",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 963,
-  "UdListDefinitionId": 739,
+  "HeadingId": 972,
+  "Name": "Grant-Murazik",
+  "Tooltip": "eveniet",
+  "Deleted": true,
+  "Rank": 746,
+  "UdListDefinitionId": 111,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldType": "System.String",
+      "FieldLength": 714
     }
   }
 }

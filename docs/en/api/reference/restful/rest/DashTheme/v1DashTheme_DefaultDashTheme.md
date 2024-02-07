@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 772,
-  "Name": "Pacocha-Pfannerstill",
-  "Config": "error",
-  "Rank": 591,
-  "Client": "dolorem",
-  "Style": "aperiam",
+  "DashboardThemeId": 265,
+  "Name": "Gusikowski-Mraz",
+  "Config": "in",
+  "Rank": 859,
+  "Client": "et",
+  "Style": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 123
     }
   }
 }

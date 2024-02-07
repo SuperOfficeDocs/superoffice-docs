@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 792,
-  "TableName": "Robel-Harvey"
+  "RoleId": 764,
+  "TableName": "Spencer-Baumbach"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolorem",
-  "2": "voluptates"
+  "1": "dolores",
+  "2": "optio"
 }
 ```

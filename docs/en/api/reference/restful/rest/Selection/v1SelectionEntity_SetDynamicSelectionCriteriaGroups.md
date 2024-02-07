@@ -73,63 +73,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobi Inc and Sons",
-    "Description": "Synchronised human-resource encoding",
-    "Rank": 147,
+    "Name": "Sawayn LLC",
+    "Description": "Switchable didactic info-mediaries",
+    "Rank": 686,
     "Restrictions": [
       {
-        "Name": "Wiza Group",
-        "Operator": "sint",
+        "Name": "Crist LLC",
+        "Operator": "occaecati",
         "Values": [
-          "nesciunt",
-          "error"
+          "labore",
+          "officiis"
         ],
         "DisplayValues": [
-          "quisquam",
-          "sed"
+          "sed",
+          "rerum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 607,
+        "InterParenthesis": 854,
         "InterOperator": "And",
-        "UniqueHash": 363
+        "UniqueHash": 129
       }
     ]
   },
   {
-    "Name": "Jacobi Inc and Sons",
-    "Description": "Synchronised human-resource encoding",
-    "Rank": 147,
+    "Name": "Sawayn LLC",
+    "Description": "Switchable didactic info-mediaries",
+    "Rank": 686,
     "Restrictions": [
       {
-        "Name": "Wiza Group",
-        "Operator": "sint",
+        "Name": "Crist LLC",
+        "Operator": "occaecati",
         "Values": [
-          "nesciunt",
-          "error"
+          "labore",
+          "officiis"
         ],
         "DisplayValues": [
-          "quisquam",
-          "sed"
+          "sed",
+          "rerum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 607,
+        "InterParenthesis": 854,
         "InterOperator": "And",
-        "UniqueHash": 363
+        "UniqueHash": 129
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schowalter-Ondricka",
-    "Description": "Organized next generation conglomeration",
-    "Rank": 663,
+    "Name": "Heller-Ritchie",
+    "Description": "Implemented fresh-thinking process improvement",
+    "Rank": 856,
     "Restrictions": [
       {
-        "Name": "Brekke Inc and Sons",
-        "Operator": "explicabo",
+        "Name": "Dooley, Hyatt and Lemke",
+        "Operator": "quia",
         "Values": [
-          "veniam",
-          "nisi"
+          "hic",
+          "earum"
         ],
         "DisplayValues": [
-          "aliquid",
-          "nemo"
+          "explicabo",
+          "deleniti"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 938,
+        "InterParenthesis": 397,
         "InterOperator": "And",
-        "UniqueHash": 877
+        "UniqueHash": 243
       }
     ]
   },
   {
-    "Name": "Schowalter-Ondricka",
-    "Description": "Organized next generation conglomeration",
-    "Rank": 663,
+    "Name": "Heller-Ritchie",
+    "Description": "Implemented fresh-thinking process improvement",
+    "Rank": 856,
     "Restrictions": [
       {
-        "Name": "Brekke Inc and Sons",
-        "Operator": "explicabo",
+        "Name": "Dooley, Hyatt and Lemke",
+        "Operator": "quia",
         "Values": [
-          "veniam",
-          "nisi"
+          "hic",
+          "earum"
         ],
         "DisplayValues": [
-          "aliquid",
-          "nemo"
+          "explicabo",
+          "deleniti"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 938,
+        "InterParenthesis": 397,
         "InterOperator": "And",
-        "UniqueHash": 877
+        "UniqueHash": 243
       }
     ]
   }

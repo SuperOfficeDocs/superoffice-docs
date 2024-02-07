@@ -2,9 +2,7 @@
 uid: area
 title: area
 keywords: mdoprovider mdo provider area
-description: List provider for the Heading table. While this table looks like an MDO table,
-it lacks the standardized grouplink and headinglink companion tables for good reason,
-since it is the heading table itself.
+description: List provider for the Heading table. While this table looks like an MDO table, it lacks the standardized grouplink and headinglink companion tables for good reason, since it is the heading table itself.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Herman, Nicolas and Mayert",
-  "Comment": "aut",
-  "StakeholderRoleId": 880,
-  "CountryId": 893,
-  "PersonId": 91,
-  "EmailDescription": "alphonso.kuhn@bartolettiullrich.name",
-  "EmailId": 280,
-  "EmailAddress": "cydney@ruecker.uk",
-  "PhoneId": 835,
-  "ContactName": "Hegmann-Hahn",
-  "ContactId": 79,
-  "SaleId": 591,
-  "Mrmrs": "occaecati",
-  "Firstname": "Alexa",
-  "MiddleName": "Ledner-Miller",
-  "Lastname": "Steuber",
-  "SaleStakeholderId": 344,
-  "Rank": 524,
-  "Phone": "(055)399-2620 x6389"
+  "StakeholderRoleName": "Nitzsche, Ryan and O'Kon",
+  "Comment": "earum",
+  "StakeholderRoleId": 528,
+  "CountryId": 11,
+  "PersonId": 356,
+  "EmailDescription": "lennie@jast.info",
+  "EmailId": 675,
+  "EmailAddress": "tyler@beer.uk",
+  "PhoneId": 792,
+  "ContactName": "Homenick Inc and Sons",
+  "ContactId": 895,
+  "SaleId": 331,
+  "Mrmrs": "aut",
+  "Firstname": "Magdalen",
+  "MiddleName": "Kerluke, Halvorson and Jerde",
+  "Lastname": "McLaughlin",
+  "SaleStakeholderId": 907,
+  "Rank": 849,
+  "Phone": "193.693.8609 x31464"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Russel Group",
-  "Comment": "officiis",
-  "StakeholderRoleId": 532,
-  "CountryId": 787,
-  "PersonId": 674,
-  "EmailDescription": "jarrell@reichel.us",
-  "EmailId": 865,
-  "EmailAddress": "johnathon_schinner@lebsack.com",
-  "PhoneId": 51,
-  "ContactName": "Cormier-Wiegand",
-  "ContactId": 981,
-  "SaleId": 334,
-  "Mrmrs": "in",
-  "Firstname": "Kali",
-  "MiddleName": "Swift Inc and Sons",
-  "Lastname": "Cartwright",
-  "SaleStakeholderId": 116,
-  "Rank": 311,
-  "Phone": "(886)996-1117",
+  "StakeholderRoleName": "Daugherty-Waters",
+  "Comment": "pariatur",
+  "StakeholderRoleId": 528,
+  "CountryId": 972,
+  "PersonId": 783,
+  "EmailDescription": "julian.leannon@tillman.uk",
+  "EmailId": 170,
+  "EmailAddress": "julien@gutmann.info",
+  "PhoneId": 539,
+  "ContactName": "Jewess LLC",
+  "ContactId": 611,
+  "SaleId": 369,
+  "Mrmrs": "et",
+  "Firstname": "Lucious",
+  "MiddleName": "Stanton, Ryan and Wisoky",
+  "Lastname": "Welch",
+  "SaleStakeholderId": 391,
+  "Rank": 878,
+  "Phone": "697-823-6716",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 526
     }
   },
   "_Links": {

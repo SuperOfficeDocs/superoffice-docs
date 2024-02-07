@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 449
+  "UserGroupId": 890
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 349,
-    "ColumnId": 768,
-    "FieldDefault": "eos",
-    "FieldHeight": 544,
-    "FieldLabel": "perferendis",
-    "FieldLeft": 720,
-    "FieldTop": 562,
+    "UDefFieldId": 915,
+    "ColumnId": 59,
+    "FieldDefault": "autem",
+    "FieldHeight": 725,
+    "FieldLabel": "quia",
+    "FieldLeft": 901,
+    "FieldTop": 106,
     "FieldType": "Checkbox",
-    "FieldWidth": 692,
-    "FormatMask": "ullam",
+    "FieldWidth": 382,
+    "FormatMask": "fuga",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 909,
-    "LabelLeft": 947,
-    "LabelTop": 890,
-    "LabelWidth": 921,
-    "LastVersionId": 315,
-    "ListTableId": 891,
+    "LabelHeight": 541,
+    "LabelLeft": 827,
+    "LabelTop": 152,
+    "LabelWidth": 401,
+    "LastVersionId": 133,
+    "ListTableId": 861,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 200,
-    "ProgId": "officia",
+    "Page1LineNo": 993,
+    "ProgId": "vero",
     "IsReadOnly": true,
-    "ShortLabel": "dolor",
-    "TabOrder": 768,
-    "TextLength": 396,
-    "Tooltip": "et",
-    "UdefIdentity": 141,
-    "UDListDefinitionId": 804,
+    "ShortLabel": "qui",
+    "TabOrder": 403,
+    "TextLength": 687,
+    "Tooltip": "sint",
+    "UdefIdentity": 604,
+    "UDListDefinitionId": 110,
     "Justification": "Center",
-    "Version": 469,
-    "TemplateVariableName": "Pfeffer Inc and Sons",
+    "Version": 37,
+    "TemplateVariableName": "Parker Group",
     "HasBeenPublished": true,
-    "MdoListName": "Gusikowski-Schulist",
+    "MdoListName": "Rodriguez-Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldType": "System.String",
+        "FieldLength": 319
       }
     }
   }

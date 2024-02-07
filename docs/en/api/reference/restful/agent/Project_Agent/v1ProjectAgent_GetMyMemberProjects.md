@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 522,
-    "Name": "Streich-Durgan",
-    "Description": "Automated next generation firmware",
+    "ProjectId": 299,
+    "Name": "Kub Group",
+    "Description": "Exclusive 24 hour contingency",
     "URL": "http://www.example.com/",
-    "Type": "enim",
-    "AssociateId": 145,
-    "AssociateFullName": "Terrence Baumbach",
-    "TypeId": 602,
-    "Updated": "2010-06-27T23:03:56.6841193+02:00",
-    "StatusId": 83,
-    "Status": "est",
-    "TextId": 453,
-    "PublishTo": "2014-07-26T23:03:56.6841193+02:00",
-    "PublishFrom": "2003-02-04T23:03:56.6841193+01:00",
-    "IsPublished": true,
+    "Type": "sit",
+    "AssociateId": 945,
+    "AssociateFullName": "Mrs. Agustin Labadie DDS",
+    "TypeId": 452,
+    "Updated": "2005-02-11T16:54:56.0681382+01:00",
+    "StatusId": 886,
+    "Status": "temporibus",
+    "TextId": 975,
+    "PublishTo": "1997-05-06T16:54:56.0681382+02:00",
+    "PublishFrom": "2005-07-21T16:54:56.0681382+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "720450",
-    "ActiveErpLinks": 735,
+    "ProjectNumber": "221082",
+    "ActiveErpLinks": 247,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 981
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 102,
-  "Name": "Keeling, Waters and Mante",
-  "Tooltip": "magnam",
+  "Id": 803,
+  "Name": "Wilkinson, Raynor and Weimann",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 808,
+  "Rank": 118,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "placeat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   },
   "_Links": {

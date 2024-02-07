@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 583,
-    "Name": "Prosacco-Willms",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 918,
-    "UdListDefinitionId": 139
+    "HeadingId": 274,
+    "Name": "Labadie, Willms and Pacocha",
+    "Tooltip": "voluptates",
+    "Deleted": true,
+    "Rank": 553,
+    "UdListDefinitionId": 443
   },
   {
-    "HeadingId": 583,
-    "Name": "Prosacco-Willms",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 918,
-    "UdListDefinitionId": 139
+    "HeadingId": 274,
+    "Name": "Labadie, Willms and Pacocha",
+    "Tooltip": "voluptates",
+    "Deleted": true,
+    "Rank": 553,
+    "UdListDefinitionId": 443
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 166,
-    "Name": "Donnelly-Waelchi",
-    "Tooltip": "ut",
+    "HeadingId": 938,
+    "Name": "Kris, Quitzon and Zulauf",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 7,
-    "UdListDefinitionId": 326,
+    "Rank": 946,
+    "UdListDefinitionId": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldLength": 604
       }
     }
   }

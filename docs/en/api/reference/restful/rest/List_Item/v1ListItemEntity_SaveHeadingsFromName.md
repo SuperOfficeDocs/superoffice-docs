@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 783,
-    "Name": "Steuber Group",
-    "Tooltip": "totam",
+    "HeadingId": 599,
+    "Name": "Collins LLC",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 399,
-    "UdListDefinitionId": 471
+    "Rank": 191,
+    "UdListDefinitionId": 892
   },
   {
-    "HeadingId": 783,
-    "Name": "Steuber Group",
-    "Tooltip": "totam",
+    "HeadingId": 599,
+    "Name": "Collins LLC",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 399,
-    "UdListDefinitionId": 471
+    "Rank": 191,
+    "UdListDefinitionId": 892
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 669,
-    "Name": "Fadel, Bauch and Pfeffer",
-    "Tooltip": "laudantium",
-    "Deleted": false,
-    "Rank": 594,
-    "UdListDefinitionId": 680,
+    "HeadingId": 943,
+    "Name": "Kshlerin, Nienow and Weissnat",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "Rank": 416,
+    "UdListDefinitionId": 515,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Zulauf-Hessel",
-    "ToolTip": "Et asperiores.",
-    "Deleted": false,
-    "Rank": 114,
-    "Type": "placeat",
-    "ColorBlock": 523,
-    "IconHint": "dolores",
+    "Id": 821,
+    "Name": "Bahringer, Stokes and Aufderhar",
+    "ToolTip": "Praesentium sapiente sapiente quisquam.",
+    "Deleted": true,
+    "Rank": 421,
+    "Type": "omnis",
+    "ColorBlock": 826,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2022-11-29T23:04:05.0555069+01:00",
+    "LastChanged": "2015-06-10T16:55:30.3528162+02:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Kutch, Schneider and Murray",
-        "ToolTip": "Non eum quia illo.",
+        "Id": 293,
+        "Name": "Kiehn-Kutch",
+        "ToolTip": "Error vitae maxime consectetur.",
         "Deleted": false,
-        "Rank": 879,
+        "Rank": 906,
         "Type": "ut",
-        "ColorBlock": 93,
-        "IconHint": "possimus",
+        "ColorBlock": 99,
+        "IconHint": "quaerat",
         "Selected": true,
-        "LastChanged": "2014-01-08T23:04:05.0555069+01:00",
+        "LastChanged": "2013-12-07T16:55:30.3528162+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "eius",
+        "ExtraInfo": "commodi",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Kitty Volkman",
+        "FullName": "Lizeth Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 758
+            "FieldType": "System.String",
+            "FieldLength": 20
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "nisi",
+    "ExtraInfo": "quis",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Jevon Morton Windler PhD",
+    "FullName": "Mr. Carrie Jarvis Adams DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 183
+        "FieldType": "System.Int32",
+        "FieldLength": 651
       }
     }
   }

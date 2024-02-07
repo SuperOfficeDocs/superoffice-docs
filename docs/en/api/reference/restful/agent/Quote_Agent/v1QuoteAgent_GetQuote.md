@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 881
+  "QuoteId": 824
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 484,
-  "SaleId": 169,
-  "QuoteConnectionId": 948,
-  "ERPQuoteKey": "maxime",
-  "ERPOrderKey": "sequi",
-  "ActiveQuoteVersionId": 66,
-  "AcceptedQuoteAlternativeId": 487,
-  "UseValuesFromQuote": 307,
-  "DocumentId": 914,
-  "PoNumber": "1134724",
-  "OrderComment": "omnis",
-  "PreferredEmailCulture": "fiona.huels@howell.name",
+  "QuoteId": 92,
+  "SaleId": 157,
+  "QuoteConnectionId": 224,
+  "ERPQuoteKey": "blanditiis",
+  "ERPOrderKey": "accusamus",
+  "ActiveQuoteVersionId": 609,
+  "AcceptedQuoteAlternativeId": 378,
+  "UseValuesFromQuote": 619,
+  "DocumentId": 846,
+  "PoNumber": "1130059",
+  "OrderComment": "quod",
+  "PreferredEmailCulture": "daren@klingmitchell.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

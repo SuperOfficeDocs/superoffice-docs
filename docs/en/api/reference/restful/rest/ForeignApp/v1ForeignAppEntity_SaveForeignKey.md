@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "velit",
-  "Value": "totam",
-  "RecordId": 490,
-  "CreatedDate": "2013-02-10T23:04:04.2290163+01:00",
-  "UpdatedDate": "2021-12-23T23:04:04.2290163+01:00",
-  "UpdatedBy": "ipsa",
-  "CreatedBy": "iure",
-  "TableName": "Anderson, Kunde and Kiehn"
+  "Key": "qui",
+  "Value": "sunt",
+  "RecordId": 535,
+  "CreatedDate": "2022-12-01T16:55:29.6574614+01:00",
+  "UpdatedDate": "2021-10-02T16:55:29.6574614+02:00",
+  "UpdatedBy": "iusto",
+  "CreatedBy": "dolor",
+  "TableName": "Labadie Inc and Sons"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quo",
-  "Value": "beatae",
-  "RecordId": 671,
-  "CreatedDate": "2001-10-18T23:04:04.2295188+02:00",
-  "UpdatedDate": "2016-07-22T23:04:04.2295188+02:00",
-  "UpdatedBy": "voluptate",
-  "CreatedBy": "voluptatum",
-  "TableName": "Jacobson Group",
+  "Key": "dolor",
+  "Value": "et",
+  "RecordId": 17,
+  "CreatedDate": "2023-01-04T16:55:29.6574614+01:00",
+  "UpdatedDate": "2011-08-27T16:55:29.6574614+02:00",
+  "UpdatedBy": "eligendi",
+  "CreatedBy": "velit",
+  "TableName": "Jast, Beer and Koepp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   }
 }

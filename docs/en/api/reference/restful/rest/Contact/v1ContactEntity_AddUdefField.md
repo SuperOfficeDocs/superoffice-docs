@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 964,
-  "ColumnId": 29,
-  "FieldDefault": "sed",
-  "FieldHeight": 574,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 528,
-  "FieldTop": 581,
+  "UDefFieldId": 143,
+  "ColumnId": 920,
+  "FieldDefault": "nam",
+  "FieldHeight": 929,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 654,
+  "FieldTop": 575,
   "FieldType": "Checkbox",
-  "FieldWidth": 121,
-  "FormatMask": "sed",
-  "HideLabel": true,
+  "FieldWidth": 769,
+  "FormatMask": "nulla",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 961,
-  "LabelLeft": 178,
-  "LabelTop": 69,
-  "LabelWidth": 458,
-  "LastVersionId": 915,
-  "ListTableId": 433,
-  "IsMandatory": true,
+  "LabelHeight": 306,
+  "LabelLeft": 995,
+  "LabelTop": 796,
+  "LabelWidth": 972,
+  "LastVersionId": 542,
+  "ListTableId": 693,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 584,
-  "ProgId": "earum",
+  "Page1LineNo": 278,
+  "ProgId": "tenetur",
   "IsReadOnly": true,
-  "ShortLabel": "pariatur",
-  "TabOrder": 811,
-  "TextLength": 62,
+  "ShortLabel": "libero",
+  "TabOrder": 947,
+  "TextLength": 575,
   "Tooltip": "est",
-  "UdefIdentity": 738,
-  "UDListDefinitionId": 443,
+  "UdefIdentity": 40,
+  "UDListDefinitionId": 379,
   "Justification": "Center",
-  "Version": 272,
-  "TemplateVariableName": "Corkery, Jewess and Morar",
+  "Version": 146,
+  "TemplateVariableName": "Kuhn-Homenick",
   "HasBeenPublished": true,
-  "MdoListName": "Cole, Romaguera and Klocko",
+  "MdoListName": "Turner Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 646
     }
   }
 }

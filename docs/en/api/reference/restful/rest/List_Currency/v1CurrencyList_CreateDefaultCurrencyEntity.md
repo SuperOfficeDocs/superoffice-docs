@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 385,
-  "Name": "Schamberger, Heidenreich and Hamill",
-  "Tooltip": "repudiandae",
-  "Rank": 680,
-  "Rate": 26739.288,
-  "Units": 18283.755999999998,
+  "CurrencyId": 536,
+  "Name": "Blanda Group",
+  "Tooltip": "voluptates",
+  "Rank": 745,
+  "Rate": 15905.05,
+  "Units": 7599.95,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 301
     }
   }
 }

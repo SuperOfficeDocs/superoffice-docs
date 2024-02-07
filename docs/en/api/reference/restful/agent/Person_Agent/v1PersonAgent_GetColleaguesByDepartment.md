@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 212
+  "DepartmentId": 679
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "repudiandae",
-    "PersonId": 446,
-    "Mrmrs": "non",
-    "Firstname": "Madonna",
-    "Lastname": "Walter",
-    "MiddleName": "Huel Group",
-    "Title": "ut",
-    "Description": "Organized tangible adapter",
-    "Email": "mia.moen@pourosrempel.com",
-    "FullName": "Jude Carroll",
-    "DirectPhone": "742.713.1469 x04703",
-    "FormalName": "Sipes, Prohaska and Oberbrunner",
-    "CountryId": 778,
-    "ContactId": 193,
-    "ContactName": "Volkman Inc and Sons",
-    "Retired": 923,
-    "Rank": 144,
-    "ActiveInterests": 288,
+    "Position": "cumque",
+    "PersonId": 418,
+    "Mrmrs": "nulla",
+    "Firstname": "Martin",
+    "Lastname": "Hessel",
+    "MiddleName": "Goldner, Jacobs and Farrell",
+    "Title": "asperiores",
+    "Description": "Optimized optimizing emulation",
+    "Email": "dorthy@rice.uk",
+    "FullName": "Hershel Alberto Jast Sr.",
+    "DirectPhone": "649.233.2348 x2416",
+    "FormalName": "Bosco-Krajcik",
+    "CountryId": 981,
+    "ContactId": 862,
+    "ContactName": "Keeling-Leuschke",
+    "Retired": 195,
+    "Rank": 486,
+    "ActiveInterests": 864,
     "ContactDepartment": "",
-    "ContactCountryId": 742,
-    "ContactOrgNr": "739748",
-    "FaxPhone": "400-089-8833 x5306",
-    "MobilePhone": "(286)576-6395",
-    "ContactPhone": "(790)269-5873 x0395",
-    "AssociateName": "Veum Inc and Sons",
-    "AssociateId": 123,
+    "ContactCountryId": 672,
+    "ContactOrgNr": "1283234",
+    "FaxPhone": "128.209.2399",
+    "MobilePhone": "1-186-141-9718 x74098",
+    "ContactPhone": "665-900-5843",
+    "AssociateName": "Heidenreich-O'Kon",
+    "AssociateId": 47,
     "UsePersonAddress": false,
-    "ContactFax": "nihil",
-    "Kanafname": "veniam",
-    "Kanalname": "nobis",
-    "Post1": "sit",
-    "Post2": "ut",
-    "Post3": "sunt",
-    "EmailName": "samir@denesik.us",
-    "ContactFullName": "Dr. Lorine Schuster V",
-    "ActiveErpLinks": 944,
-    "TicketPriorityId": 634,
-    "SupportLanguageId": 861,
-    "SupportAssociateId": 659,
+    "ContactFax": "aspernatur",
+    "Kanafname": "sed",
+    "Kanalname": "nisi",
+    "Post1": "assumenda",
+    "Post2": "et",
+    "Post3": "labore",
+    "EmailName": "duane@hermiston.us",
+    "ContactFullName": "Alice Macejkovic",
+    "ActiveErpLinks": 834,
+    "TicketPriorityId": 47,
+    "SupportLanguageId": 436,
+    "SupportAssociateId": 140,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldLength": 387
       }
     }
   }

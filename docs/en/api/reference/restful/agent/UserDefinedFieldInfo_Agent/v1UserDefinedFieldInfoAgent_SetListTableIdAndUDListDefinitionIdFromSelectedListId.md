@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 219
+  "SelectedListId": 541
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 836,
-  "ColumnId": 432,
-  "FieldDefault": "enim",
-  "FieldHeight": 826,
-  "FieldLabel": "atque",
-  "FieldLeft": 761,
-  "FieldTop": 992,
+  "UDefFieldId": 929,
+  "ColumnId": 113,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 918,
+  "FieldLabel": "velit",
+  "FieldLeft": 95,
+  "FieldTop": 962,
   "FieldType": "Checkbox",
-  "FieldWidth": 983,
-  "FormatMask": "saepe",
-  "HideLabel": true,
+  "FieldWidth": 915,
+  "FormatMask": "odio",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 724,
-  "LabelLeft": 836,
-  "LabelTop": 514,
-  "LabelWidth": 843,
-  "LastVersionId": 314,
-  "ListTableId": 87,
-  "IsMandatory": true,
+  "LabelHeight": 401,
+  "LabelLeft": 245,
+  "LabelTop": 43,
+  "LabelWidth": 581,
+  "LastVersionId": 176,
+  "ListTableId": 11,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 90,
-  "ProgId": "recusandae",
+  "Page1LineNo": 4,
+  "ProgId": "esse",
   "IsReadOnly": true,
-  "ShortLabel": "magni",
-  "TabOrder": 675,
-  "TextLength": 759,
-  "Tooltip": "magni",
-  "UdefIdentity": 388,
-  "UDListDefinitionId": 905,
+  "ShortLabel": "est",
+  "TabOrder": 693,
+  "TextLength": 207,
+  "Tooltip": "perferendis",
+  "UdefIdentity": 273,
+  "UDListDefinitionId": 1000,
   "Justification": "Center",
-  "Version": 64,
-  "TemplateVariableName": "Senger, Powlowski and Schaefer",
+  "Version": 894,
+  "TemplateVariableName": "Turcotte Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Senger Group",
+  "MdoListName": "Hickle-Pagac",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldType": "System.String",
+      "FieldLength": 13
     }
   }
 }

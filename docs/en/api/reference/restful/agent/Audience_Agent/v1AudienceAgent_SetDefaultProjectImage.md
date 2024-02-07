@@ -71,7 +71,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Rutherford LLC",
+  "LayoutName": "Swift, Rice and Weimann",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

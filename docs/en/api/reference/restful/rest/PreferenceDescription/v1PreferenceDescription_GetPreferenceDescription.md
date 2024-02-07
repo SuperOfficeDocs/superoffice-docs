@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 75,
-  "Section": "ipsam",
-  "Key": "blanditiis",
-  "Name": "Hahn Group",
+  "PrefDescId": 23,
+  "Section": "qui",
+  "Key": "consequuntur",
+  "Name": "Zemlak, Leannon and Tromp",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Extended foreground hub",
+  "Description": "Synergistic secondary model",
   "IsBuiltin": false,
-  "TableName": "Hodkiewicz Group",
-  "UserDefinedListId": 936,
-  "Rank": 47,
-  "SubGroup": "in",
-  "MinLevel": 891,
-  "MaxValue": 295,
-  "MinValue": 428,
-  "RequiredLicense": "vitae",
+  "TableName": "Graham Group",
+  "UserDefinedListId": 827,
+  "Rank": 71,
+  "SubGroup": "veniam",
+  "MinLevel": 526,
+  "MaxValue": 722,
+  "MinValue": 139,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 459
     }
   },
   "_Links": {

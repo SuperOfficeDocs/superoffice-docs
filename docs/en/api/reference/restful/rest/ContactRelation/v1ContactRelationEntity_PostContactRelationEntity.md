@@ -92,8 +92,8 @@ OK
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
@@ -114,24 +114,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 501,
-  "SourcePersonId": 731,
-  "DestinationContactId": 637,
-  "DestinationPersonId": 200,
-  "RelationId": 602,
-  "Comment": "blanditiis",
-  "RelationDefinitionId": 261,
-  "Reversed": 435,
-  "UpdatedDate": "1998-09-04T23:04:04.0540194+02:00",
-  "CreatedDate": "2011-08-27T23:04:04.0540194+02:00",
+  "SourceContactId": 45,
+  "SourcePersonId": 656,
+  "DestinationContactId": 20,
+  "DestinationPersonId": 400,
+  "RelationId": 298,
+  "Comment": "maxime",
+  "RelationDefinitionId": 555,
+  "Reversed": 865,
+  "UpdatedDate": "2015-01-09T16:55:29.5158311+01:00",
+  "CreatedDate": "2011-05-27T16:55:29.5158311+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bashirian-McGlynn",
-  "SourcePersonName": "Rempel-Waters",
-  "DestinationContactName": "Donnelly, Mante and Hilpert",
-  "DestinationPersonName": "Carter LLC",
-  "ActiveText": "ipsum",
-  "PassiveText": "non"
+  "SourceContactName": "Yundt, Hills and Lynch",
+  "SourcePersonName": "Fahey Inc and Sons",
+  "DestinationContactName": "Schinner, McGlynn and Considine",
+  "DestinationPersonName": "Nikolaus, Dooley and Barton",
+  "ActiveText": "qui",
+  "PassiveText": "omnis"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 692,
-  "SourcePersonId": 504,
-  "DestinationContactId": 976,
-  "DestinationPersonId": 940,
-  "RelationId": 795,
-  "Comment": "cupiditate",
-  "RelationDefinitionId": 52,
-  "Reversed": 325,
-  "UpdatedDate": "2008-12-07T23:04:04.0565235+01:00",
-  "CreatedDate": "2020-08-15T23:04:04.0565235+02:00",
+  "SourceContactId": 797,
+  "SourcePersonId": 143,
+  "DestinationContactId": 217,
+  "DestinationPersonId": 800,
+  "RelationId": 542,
+  "Comment": "a",
+  "RelationDefinitionId": 231,
+  "Reversed": 1002,
+  "UpdatedDate": "2005-07-22T16:55:29.5188308+02:00",
+  "CreatedDate": "2016-05-05T16:55:29.5188308+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stanton, McCullough and Jaskolski",
-  "SourcePersonName": "Johnson Inc and Sons",
-  "DestinationContactName": "Kertzmann-Feil",
-  "DestinationPersonName": "Abbott LLC",
-  "ActiveText": "enim",
-  "PassiveText": "at",
+  "SourceContactName": "Davis, Kub and Heathcote",
+  "SourcePersonName": "Kozey, Johnson and Labadie",
+  "DestinationContactName": "Gaylord LLC",
+  "DestinationPersonName": "Spinka Group",
+  "ActiveText": "eveniet",
+  "PassiveText": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldLength": 142
     }
   },
   "_Links": {

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 894,
-  "Name": "Von LLC",
-  "Tooltip": "dolores",
+  "Id": 783,
+  "Name": "Dickens Inc and Sons",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 90,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "possimus",
+  "Rank": 417,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   },
   "_Links": {

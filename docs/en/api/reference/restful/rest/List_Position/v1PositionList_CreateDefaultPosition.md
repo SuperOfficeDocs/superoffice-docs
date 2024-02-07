@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 775,
-  "Name": "Robel LLC",
-  "Tooltip": "vitae",
+  "Id": 438,
+  "Name": "Bogisich, Nicolas and Padberg",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "UdListDefinitionId": 78,
-  "Rank": 790,
+  "UdListDefinitionId": 404,
+  "Rank": 392,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldType": "System.String",
+      "FieldLength": 188
     }
   }
 }

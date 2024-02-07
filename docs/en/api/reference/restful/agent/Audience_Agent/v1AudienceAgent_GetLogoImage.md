@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Audience/GetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Funk-Veum"
+  "LayoutName": "Pfannerstill, Miller and Smith"
 }
 ```
 

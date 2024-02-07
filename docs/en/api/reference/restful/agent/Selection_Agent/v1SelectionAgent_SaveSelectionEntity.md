@@ -98,7 +98,7 @@ OK
 | Associate | Associate | Owner of the selection |
 | CreatedBy | Associate | Who created the selection |
 | UpdatedBy | Associate | Who last modified the selection |
-| SelectionCategory | SelectionCategory | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
+| SelectionCategory | SelectionCategory | Selection category type (list item)  Use MDO List name "searchCat" to get list items. |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated background hardware",
-  "Postit": "vitae",
+  "Description": "Optimized reciprocal toolset",
+  "Postit": "quam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 935,
-  "IncludePerson": 446,
-  "MemberCount": 23,
-  "Name": "Brakus-Brekke",
-  "PostitTextId": 668,
-  "CreatedDate": "2008-08-09T23:03:57.0926158+02:00",
-  "SelectionId": 882,
-  "SoundEx": "provident",
-  "Source": 917,
-  "TextId": 386,
-  "UpdatedDate": "2014-05-29T23:03:57.0926158+02:00",
-  "UpdatedCount": 524,
-  "Visibility": 529,
+  "GroupIdx": 842,
+  "IncludePerson": 933,
+  "MemberCount": 452,
+  "Name": "Shanahan-Prosacco",
+  "PostitTextId": 111,
+  "CreatedDate": "2012-07-10T16:54:56.2816014+02:00",
+  "SelectionId": 948,
+  "SoundEx": "repudiandae",
+  "Source": 217,
+  "TextId": 45,
+  "UpdatedDate": "2020-02-04T16:54:56.2816014+01:00",
+  "UpdatedCount": 168,
+  "Visibility": 542,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 945,
-  "TargetTableName": "Rogahn Group",
-  "Completed": true,
-  "LeftSelectionId": 847,
-  "RightSelectionId": 34,
+  "CompanyUnique": true,
+  "TargetTableNumber": 553,
+  "TargetTableName": "Kessler, Kling and Feeney",
+  "Completed": false,
+  "LeftSelectionId": 193,
+  "RightSelectionId": 980,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Howe-Green",
-  "ShadowProviderName": "Schmitt, Mayer and Gislason",
-  "ChartKey": "suscipit",
-  "LastLoaded": "2009-02-19T23:03:57.0926158+01:00",
-  "LastLoadedBy": 551,
+  "MainProviderName": "Mante Group",
+  "ShadowProviderName": "Stamm-Stoltenberg",
+  "ChartKey": "sint",
+  "LastLoaded": "2011-09-30T16:54:56.2816014+02:00",
+  "LastLoadedBy": 601,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-07-29T23:03:57.0931163+02:00",
-  "LastMembershipChangeBy": 523,
+  "LastMembershipChange": "2021-12-31T16:54:56.2816014+01:00",
+  "LastMembershipChangeBy": 931,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "error",
-  "MemberTabHeading": "labore",
-  "MailingsProviderName": "Yundt, Rogahn and Koepp",
-  "DashboardTileDefinitionId": 752,
+  "MainHeading": "et",
+  "MemberTabHeading": "enim",
+  "MailingsProviderName": "Schuppe-Bosco",
+  "DashboardTileDefinitionId": 872,
   "VisibleFor": [
     {
-      "VisibleId": 952,
+      "VisibleId": 161,
       "Visibility": "All",
-      "DisplayValue": "omnis"
+      "DisplayValue": "deserunt"
     },
     {
-      "VisibleId": 952,
+      "VisibleId": 161,
       "Visibility": "All",
-      "DisplayValue": "omnis"
+      "DisplayValue": "deserunt"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent executive attitude",
-  "Postit": "aliquid",
+  "Description": "Adaptive national portal",
+  "Postit": "quasi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 496,
-  "IncludePerson": 958,
-  "MemberCount": 219,
-  "Name": "Herman Group",
-  "PostitTextId": 834,
-  "CreatedDate": "2019-11-25T23:03:57.097114+01:00",
-  "SelectionId": 924,
-  "SoundEx": "blanditiis",
-  "Source": 648,
-  "TextId": 981,
-  "UpdatedDate": "2017-11-09T23:03:57.097114+01:00",
-  "UpdatedCount": 419,
-  "Visibility": 165,
+  "GroupIdx": 840,
+  "IncludePerson": 722,
+  "MemberCount": 191,
+  "Name": "O'Hara Group",
+  "PostitTextId": 886,
+  "CreatedDate": "2012-01-01T16:54:56.2865063+01:00",
+  "SelectionId": 865,
+  "SoundEx": "exercitationem",
+  "Source": 577,
+  "TextId": 693,
+  "UpdatedDate": "1997-01-27T16:54:56.2865063+01:00",
+  "UpdatedCount": 936,
+  "Visibility": 491,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 904,
-  "TargetTableName": "Windler LLC",
+  "TargetTableNumber": 205,
+  "TargetTableName": "Effertz-Smith",
   "Completed": false,
-  "LeftSelectionId": 361,
-  "RightSelectionId": 665,
+  "LeftSelectionId": 160,
+  "RightSelectionId": 793,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kreiger, Bergnaum and Romaguera",
-  "ShadowProviderName": "Beatty, Kuvalis and Wunsch",
-  "ChartKey": "dolorum",
-  "LastLoaded": "2015-02-12T23:03:57.097114+01:00",
-  "LastLoadedBy": 887,
+  "MainProviderName": "Adams Group",
+  "ShadowProviderName": "Larkin, Kertzmann and Bernier",
+  "ChartKey": "et",
+  "LastLoaded": "2005-01-12T16:54:56.2865063+01:00",
+  "LastLoadedBy": 19,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-10-07T23:03:57.0976143+02:00",
-  "LastMembershipChangeBy": 596,
+  "LastMembershipChange": "1997-11-25T16:54:56.2875025+01:00",
+  "LastMembershipChangeBy": 8,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "in",
-  "MemberTabHeading": "eos",
-  "MailingsProviderName": "Price Group",
-  "DashboardTileDefinitionId": 266,
+  "MainHeading": "nesciunt",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Kutch, Pacocha and Jacobson",
+  "DashboardTileDefinitionId": 670,
   "VisibleFor": [
     {
-      "VisibleId": 664,
+      "VisibleId": 232,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldLength": 21
         }
       }
     },
     {
-      "VisibleId": 664,
+      "VisibleId": 232,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldLength": 21
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 715
     }
   }
 }

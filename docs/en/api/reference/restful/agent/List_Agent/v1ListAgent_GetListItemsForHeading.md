@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 411,
-  "HeadingId": 567
+  "UdListDefinitionId": 192,
+  "HeadingId": 516
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Predovic Group",
-    "ToolTip": "Et odit tempore sunt repudiandae culpa perspiciatis temporibus.",
-    "Deleted": true,
-    "Rank": 318,
-    "Type": "et",
-    "ColorBlock": 233,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2009-07-27T23:03:56.2271254+02:00",
+    "Id": 601,
+    "Name": "Monahan-Nitzsche",
+    "ToolTip": "Totam veniam non cupiditate ea odio placeat totam.",
+    "Deleted": false,
+    "Rank": 909,
+    "Type": "asperiores",
+    "ColorBlock": 232,
+    "IconHint": "dicta",
+    "Selected": true,
+    "LastChanged": "2008-12-28T16:54:55.5719838+01:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Kuvalis-Lebsack",
-        "ToolTip": "Quae facilis dolorem incidunt deserunt fugit unde dolorum.",
+        "Id": 54,
+        "Name": "Hickle-Gibson",
+        "ToolTip": "Quia quia voluptas modi nam nobis.",
         "Deleted": true,
-        "Rank": 877,
-        "Type": "nostrum",
-        "ColorBlock": 487,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2019-11-16T23:03:56.2276236+01:00",
+        "Rank": 428,
+        "Type": "veritatis",
+        "ColorBlock": 466,
+        "IconHint": "nostrum",
+        "Selected": false,
+        "LastChanged": "2020-12-18T16:54:55.5719838+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "itaque",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Francisca Tillman",
+        "FullName": "Sven Wolf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 913
+            "FieldLength": 889
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "et",
+    "ExtraInfo": "sit",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Kristian Langosh",
+    "FullName": "Berniece Schroeder DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldLength": 905
       }
     }
   }

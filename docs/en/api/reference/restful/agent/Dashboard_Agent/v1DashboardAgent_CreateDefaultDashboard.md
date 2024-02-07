@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 275,
-  "AssociateId": 176,
-  "Caption": "et",
+  "DashboardId": 354,
+  "AssociateId": 9,
+  "Caption": "sit",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 116,
-      "Caption": "dignissimos",
-      "Description": "Centralized scalable orchestration",
-      "ChartName": "Altenwerth, Schuppe and Kulas",
-      "ChartId": "corporis",
-      "IsDefault": true,
-      "AssociateId": 143,
-      "GroupId": 634,
-      "SelectionId": 145,
-      "Config": "sunt",
+      "DashboardTileId": 518,
+      "Caption": "magni",
+      "Description": "Cloned solution-oriented migration",
+      "ChartName": "Hirthe, Gerhold and Gutmann",
+      "ChartId": "et",
+      "IsDefault": false,
+      "AssociateId": 737,
+      "GroupId": 544,
+      "SelectionId": 220,
+      "Config": "laudantium",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldType": "System.String",
+      "FieldLength": 676
     }
   }
 }

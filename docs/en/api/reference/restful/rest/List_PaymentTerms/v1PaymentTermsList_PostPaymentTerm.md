@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 479,
-  "Name": "Wiza-Abernathy",
-  "Tooltip": "ut",
+  "Id": 266,
+  "Name": "Little LLC",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "UdListDefinitionId": 775,
-  "Rank": 849
+  "UdListDefinitionId": 123,
+  "Rank": 50
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Schoen, Franecki and Klein",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "UdListDefinitionId": 982,
-  "Rank": 276,
+  "Id": 854,
+  "Name": "Runte, Beatty and Toy",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "UdListDefinitionId": 479,
+  "Rank": 157,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldType": "System.Int32",
+      "FieldLength": 424
     }
   }
 }

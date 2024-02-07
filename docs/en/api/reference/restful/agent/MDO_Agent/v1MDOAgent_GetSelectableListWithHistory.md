@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Leuschke, Runolfsson and Haley",
+  "Name": "Dickinson, Brekke and Weimann",
   "ForceFlatList": false,
-  "AdditionalInfo": "magnam",
+  "AdditionalInfo": "quas",
   "HistoryItems": [
-    809,
-    312
+    613,
+    552
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Davis-Hessel",
-    "ToolTip": "Blanditiis totam.",
+    "Id": 954,
+    "Name": "Maggio, Breitenberg and O'Reilly",
+    "ToolTip": "A qui qui eum odit eligendi quia.",
     "Deleted": false,
-    "Rank": 61,
-    "Type": "dolorum",
-    "ColorBlock": 504,
-    "IconHint": "aut",
+    "Rank": 413,
+    "Type": "enim",
+    "ColorBlock": 745,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2010-05-28T23:03:56.3496238+02:00",
+    "LastChanged": "2007-05-26T16:54:55.6675102+02:00",
     "ChildItems": [
       {
-        "Id": 553,
-        "Name": "Bogan, Hessel and McKenzie",
-        "ToolTip": "Vitae dolores nobis natus.",
+        "Id": 857,
+        "Name": "Carroll LLC",
+        "ToolTip": "Voluptatem consequatur numquam est assumenda.",
         "Deleted": false,
-        "Rank": 282,
-        "Type": "ut",
-        "ColorBlock": 776,
-        "IconHint": "exercitationem",
+        "Rank": 487,
+        "Type": "rerum",
+        "ColorBlock": 980,
+        "IconHint": "cum",
         "Selected": true,
-        "LastChanged": "2010-05-12T23:03:56.3496238+02:00",
+        "LastChanged": "2009-09-10T16:54:55.6675102+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "sint",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Pauline Kerluke",
+        "FullName": "Joelle Schuppe DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldType": "System.String",
+            "FieldLength": 411
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Creola Griffin Metz II",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Jaylan Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldLength": 187
       }
     }
   }

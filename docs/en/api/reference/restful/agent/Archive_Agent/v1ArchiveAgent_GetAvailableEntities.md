@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bergnaum-Altenwerth",
-  "Context": "ut"
+  "ProviderName": "Simonis-Haley",
+  "Context": "dolores"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Boyle-Cassin",
-    "ToolTip": "Quia porro nam voluptates dolorum.",
-    "Deleted": true,
-    "Rank": 441,
-    "Type": "maxime",
+    "Id": 405,
+    "Name": "Metz, Daugherty and Pfannerstill",
+    "ToolTip": "Aut iusto quia ut fuga repudiandae.",
+    "Deleted": false,
+    "Rank": 637,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "Botsford-Lynch",
-        "ToolTip": "Dignissimos fuga ratione reiciendis.",
+        "Id": 249,
+        "Name": "Franecki Group",
+        "ToolTip": "Debitis officia ea quae.",
         "Deleted": false,
-        "Rank": 822,
-        "Type": "in",
+        "Rank": 570,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reiciendis",
-        "ColorBlock": 753,
-        "ExtraInfo": "ut",
-        "StyleHint": "incidunt",
-        "FullName": "Mrs. Izaiah Blanca Cormier",
+        "IconHint": "eveniet",
+        "ColorBlock": 28,
+        "ExtraInfo": "suscipit",
+        "StyleHint": "id",
+        "FullName": "Alex Bradtke Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 823
+            "FieldLength": 51
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 249,
-    "ExtraInfo": "vel",
-    "StyleHint": "debitis",
-    "FullName": "Christine Marks",
+    "IconHint": "culpa",
+    "ColorBlock": 299,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "voluptatem",
+    "FullName": "Luella Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldLength": 247
       }
     }
   }

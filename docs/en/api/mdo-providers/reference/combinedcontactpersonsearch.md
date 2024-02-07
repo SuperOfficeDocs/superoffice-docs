@@ -2,11 +2,7 @@
 uid: combinedcontactpersonsearch
 title: combinedcontactpersonsearch
 keywords: mdoprovider mdo provider combinedcontactpersonsearch
-description: Consider using the ContactAndPersonListFreetextSearchProvider/"contact_and_person_freetextsearch" MDO list instead of this one.
-
-Provider for selecting a Person or a Contact, including search on contacts that match as well as persons. this provider will
-return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact
-ID is always in the extraInfo.
+description: Consider using the ContactAndPersonListFreetextSearchProvider/"contact_and_person_freetextsearch" MDO list instead of this one. Provider for selecting a Person or a Contact, including search on contacts that match as well as persons. this provider will return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact ID is always in the extraInfo.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -21,18 +17,24 @@ ID is always in the extraInfo.
 
 Searchs contact and person tables for matches, in addition to the contact
 search of the base class "contact" search.
-<para />
+
+
 Returns a mix of Persons with Contact and Person without contact items sorted by relevance: own contacts, recently added or updated
 are more relevant.
-<para />
+
+
 id = contact or person_id,
-<para />
+
+
 Name = contact.name + department or person first+last name (contact name + department)
-<para />
+
+
 ExtraInfo = contact_id,
-<para />
+
+
 Type = "Person", "Contact"
-<para />
+
+
 IconHint = "Personwithcontact", "contact", "Personwithoutcontact"
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CombinedContactPersonSearchProvider">CombinedContactPersonSearchProvider</see> class.

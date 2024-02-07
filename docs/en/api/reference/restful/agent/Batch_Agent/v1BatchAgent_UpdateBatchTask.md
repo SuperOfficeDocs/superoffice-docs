@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 635,
-  "Name": "Bergstrom-Connelly",
-  "AssociateId": 77,
-  "DetailsTable": 911,
-  "DetailsRecord": 224,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 934,
+  "Name": "Parisian Group",
+  "AssociateId": 814,
+  "DetailsTable": 830,
+  "DetailsRecord": 734,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "sunt",
-    "ParameterObject2": "officia"
+    "ParameterObject1": "est",
+    "ParameterObject2": "voluptate"
   },
-  "LastStarted": "2022-08-18T23:03:55.020644+02:00",
-  "Created": "2018-04-01T23:03:55.020644+02:00",
-  "StartCount": 686,
-  "DatabaseSerialNumber": "759576",
-  "Context": "sit",
-  "Result": "id",
+  "LastStarted": "2002-05-04T16:54:54.6033021+02:00",
+  "Created": "1998-11-11T16:54:54.6033021+01:00",
+  "StartCount": 428,
+  "DatabaseSerialNumber": "211793",
+  "Context": "molestiae",
+  "Result": "alias",
   "State": "All",
-  "Description": "Programmable 24/7 challenge",
-  "Response": "amet",
-  "Request": "dignissimos",
-  "ProgressDescription": "Synergistic transitional structure",
-  "ProgressPercent": 257,
-  "FileName": "Kreiger LLC",
+  "Description": "Virtual assymetric orchestration",
+  "Response": "in",
+  "Request": "voluptatibus",
+  "ProgressDescription": "Virtual intermediate methodology",
+  "ProgressPercent": 22,
+  "FileName": "Weber LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 383
     }
   }
 }

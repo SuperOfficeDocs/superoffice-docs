@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "id"
+  "SearchString": "dolorem"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-659-987-1723 x8760",
-    "PersonCellPhone": "888.139.5426 x68304",
-    "PersonPrivatePhone": "650-420-0730",
-    "PersonFaxNumber": "1143845",
-    "PersonPagerNumber": "1370398",
-    "PersonEmail": "jerad@pacocha.biz",
-    "Id": 817,
-    "Name": "Hintz LLC",
-    "Tooltip": "distinctio",
-    "UniqueId": "modi",
+    "PersonDirectPhone": "922-917-8239 x636",
+    "PersonCellPhone": "1-738-965-3313",
+    "PersonPrivatePhone": "103.884.1574 x00121",
+    "PersonFaxNumber": "914093",
+    "PersonPagerNumber": "959331",
+    "PersonEmail": "dakota@schinner.com",
+    "Id": 423,
+    "Name": "Runte, Abshire and Roberts",
+    "Tooltip": "officiis",
+    "UniqueId": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldLength": 493
       }
     }
   }

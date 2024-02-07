@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keebler-Nitzsche",
-    "Description": "Stand-alone cohesive software",
+    "Name": "Bergstrom Inc and Sons",
+    "Description": "Organized user-facing approach",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 578,
-        "Tooltip": "accusantium",
+        "Unrestricted": false,
+        "Total": 483,
+        "Tooltip": "impedit",
         "CanAssign": false,
-        "Free": 810,
-        "InUse": 809,
+        "Free": 816,
+        "InUse": 595,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 941,
-        "Name": "Larkin Inc and Sons",
-        "Description": "Persevering static leverage",
-        "PrerequisiteModuleName": "Denesik-Schowalter",
-        "SortOrder": 257,
-        "ExtraFlags": 783,
+        "ModuleLicenseId": 283,
+        "Name": "Stoltenberg LLC",
+        "Description": "Optimized coherent array",
+        "PrerequisiteModuleName": "Rath, Rosenbaum and Schneider",
+        "SortOrder": 161,
+        "ExtraFlags": 745,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 527
+            "FieldType": "System.Int32",
+            "FieldLength": 369
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 177,
-        "Tooltip": "enim",
-        "CanAssign": true,
-        "Free": 637,
-        "InUse": 923,
+        "Total": 559,
+        "Tooltip": "doloremque",
+        "CanAssign": false,
+        "Free": 35,
+        "InUse": 690,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 815,
-        "Name": "Weissnat-Reichert",
-        "Description": "Down-sized fresh-thinking approach",
-        "PrerequisiteModuleName": "Yundt-Weber",
-        "SortOrder": 189,
-        "ExtraFlags": 878,
+        "ModuleLicenseId": 798,
+        "Name": "Predovic, Anderson and Friesen",
+        "Description": "Fully-configurable executive definition",
+        "PrerequisiteModuleName": "Bogisich LLC",
+        "SortOrder": 755,
+        "ExtraFlags": 751,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldLength": 925
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 806
       }
     }
   },
   {
-    "Name": "Keebler-Nitzsche",
-    "Description": "Stand-alone cohesive software",
+    "Name": "Bergstrom Inc and Sons",
+    "Description": "Organized user-facing approach",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 578,
-        "Tooltip": "accusantium",
+        "Unrestricted": false,
+        "Total": 483,
+        "Tooltip": "impedit",
         "CanAssign": false,
-        "Free": 810,
-        "InUse": 809,
+        "Free": 816,
+        "InUse": 595,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 941,
-        "Name": "Larkin Inc and Sons",
-        "Description": "Persevering static leverage",
-        "PrerequisiteModuleName": "Denesik-Schowalter",
-        "SortOrder": 257,
-        "ExtraFlags": 783,
+        "ModuleLicenseId": 283,
+        "Name": "Stoltenberg LLC",
+        "Description": "Optimized coherent array",
+        "PrerequisiteModuleName": "Rath, Rosenbaum and Schneider",
+        "SortOrder": 161,
+        "ExtraFlags": 745,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 527
+            "FieldType": "System.Int32",
+            "FieldLength": 369
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 177,
-        "Tooltip": "enim",
-        "CanAssign": true,
-        "Free": 637,
-        "InUse": 923,
+        "Total": 559,
+        "Tooltip": "doloremque",
+        "CanAssign": false,
+        "Free": 35,
+        "InUse": 690,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 815,
-        "Name": "Weissnat-Reichert",
-        "Description": "Down-sized fresh-thinking approach",
-        "PrerequisiteModuleName": "Yundt-Weber",
-        "SortOrder": 189,
-        "ExtraFlags": 878,
+        "ModuleLicenseId": 798,
+        "Name": "Predovic, Anderson and Friesen",
+        "Description": "Fully-configurable executive definition",
+        "PrerequisiteModuleName": "Bogisich LLC",
+        "SortOrder": 755,
+        "ExtraFlags": 751,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldLength": 925
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 806
       }
     }
   }

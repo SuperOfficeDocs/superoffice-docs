@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Fahey, Schmeler and Gleason",
-    "ToolTip": "Et illo.",
-    "Deleted": false,
-    "Rank": 987,
-    "Type": "inventore",
-    "ColorBlock": 644,
-    "IconHint": "unde",
+    "Id": 680,
+    "Name": "Davis LLC",
+    "ToolTip": "Nihil sit ipsam consectetur.",
+    "Deleted": true,
+    "Rank": 34,
+    "Type": "ipsam",
+    "ColorBlock": 990,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2016-04-29T23:04:05.5939971+02:00",
+    "LastChanged": "2002-01-04T16:55:30.7841974+01:00",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Dach Inc and Sons",
-        "ToolTip": "Ipsum temporibus.",
-        "Deleted": false,
-        "Rank": 582,
-        "Type": "consequatur",
-        "ColorBlock": 401,
-        "IconHint": "nemo",
+        "Id": 115,
+        "Name": "Torphy-D'Amore",
+        "ToolTip": "Sint deserunt est laborum dolorem nam quia.",
+        "Deleted": true,
+        "Rank": 105,
+        "Type": "tenetur",
+        "ColorBlock": 783,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2006-11-01T23:04:05.5939971+01:00",
+        "LastChanged": "1999-08-19T16:55:30.7841974+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "laudantium",
-        "Hidden": false,
-        "FullName": "Dewitt May Kunde DVM"
+        "ExtraInfo": "praesentium",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Toby Moore"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "nam",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Aric Roberts V"
+    "FullName": "Prof. Wilfred Dibbert PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Botsford Group",
-    "ToolTip": "Vel amet eaque qui autem sequi.",
-    "Deleted": false,
-    "Rank": 268,
-    "Type": "sunt",
-    "ColorBlock": 81,
-    "IconHint": "deleniti",
+    "Id": 796,
+    "Name": "Connelly-Schamberger",
+    "ToolTip": "Soluta enim sed eius tempore incidunt.",
+    "Deleted": true,
+    "Rank": 893,
+    "Type": "odit",
+    "ColorBlock": 235,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2000-07-13T23:04:05.5954985+02:00",
+    "LastChanged": "2022-02-05T16:55:30.785197+01:00",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "Batz Group",
-        "ToolTip": "Autem commodi nihil.",
-        "Deleted": true,
-        "Rank": 758,
-        "Type": "iure",
-        "ColorBlock": 402,
-        "IconHint": "minima",
-        "Selected": false,
-        "LastChanged": "2023-08-31T23:04:05.5954985+02:00",
+        "Id": 72,
+        "Name": "Rath-Padberg",
+        "ToolTip": "Corrupti eius nesciunt aut libero cupiditate eos.",
+        "Deleted": false,
+        "Rank": 434,
+        "Type": "recusandae",
+        "ColorBlock": 452,
+        "IconHint": "recusandae",
+        "Selected": true,
+        "LastChanged": "1998-05-12T16:55:30.785197+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "qui",
+        "ExtraInfo": "id",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mrs. Leta Viola Wiegand",
+        "FullName": "Cesar Bosco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 270
+            "FieldLength": 407
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Fletcher Roberts",
+    "ExtraInfo": "dolores",
+    "StyleHint": "voluptatum",
+    "Hidden": true,
+    "FullName": "Ms. Vena Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

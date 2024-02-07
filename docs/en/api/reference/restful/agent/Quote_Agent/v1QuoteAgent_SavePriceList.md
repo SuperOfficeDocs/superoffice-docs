@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 108,
-  "ERPPriceListKey": "cum",
-  "QuoteConnectionId": 689,
-  "Name": "Lakin Group",
-  "Description": "Ergonomic eco-centric neural-net",
-  "Currency": "unde",
-  "CurrencyName": "Beier, Larson and Ward",
-  "ValidFrom": "2008-11-18T23:03:56.7356185+01:00",
-  "ValidTo": "2014-04-19T23:03:56.7356185+02:00",
+  "PriceListId": 528,
+  "ERPPriceListKey": "saepe",
+  "QuoteConnectionId": 259,
+  "Name": "Witting Group",
+  "Description": "Open-source foreground standardization",
+  "Currency": "distinctio",
+  "CurrencyName": "Conroy Inc and Sons",
+  "ValidFrom": "2021-06-18T16:54:56.10916+02:00",
+  "ValidTo": "1999-04-25T16:54:56.10916+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 314,
-  "ERPPriceListKey": "eos",
-  "QuoteConnectionId": 529,
-  "Name": "Sauer-Heidenreich",
-  "Description": "User-centric attitude-oriented application",
-  "Currency": "sit",
-  "CurrencyName": "Stehr-Herman",
-  "ValidFrom": "1998-05-10T23:03:56.7376213+02:00",
-  "ValidTo": "2018-02-25T23:03:56.7376213+01:00",
+  "PriceListId": 961,
+  "ERPPriceListKey": "deserunt",
+  "QuoteConnectionId": 746,
+  "Name": "Stanton, Berge and Littel",
+  "Description": "Programmable bottom-line monitoring",
+  "Currency": "similique",
+  "CurrencyName": "Huels Group",
+  "ValidFrom": "2016-05-14T16:54:56.10916+02:00",
+  "ValidTo": "2016-03-19T16:54:56.10916+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldType": "System.String",
+      "FieldLength": 927
     }
   }
 }

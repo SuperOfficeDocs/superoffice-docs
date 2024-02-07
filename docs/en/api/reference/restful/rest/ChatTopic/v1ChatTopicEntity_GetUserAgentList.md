@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Crooks-Beier",
-    "ToolTip": "Maiores qui cumque et.",
-    "Deleted": true,
-    "Rank": 47,
-    "Type": "tempore",
+    "Id": 757,
+    "Name": "Stanton Group",
+    "ToolTip": "Repudiandae nihil.",
+    "Deleted": false,
+    "Rank": 308,
+    "Type": "optio",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Glover-Littel",
-        "ToolTip": "Molestias nemo temporibus.",
-        "Deleted": true,
-        "Rank": 547,
-        "Type": "et",
+        "Id": 490,
+        "Name": "Roberts-Quitzon",
+        "ToolTip": "Ab voluptatum itaque explicabo perferendis ipsum.",
+        "Deleted": false,
+        "Rank": 36,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 842,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "doloribus",
-        "FullName": "Earl Braun",
+        "IconHint": "minus",
+        "ColorBlock": 993,
+        "ExtraInfo": "aut",
+        "StyleHint": "dignissimos",
+        "FullName": "Lauryn Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldType": "System.String",
+            "FieldLength": 408
           }
         }
       }
     ],
-    "IconHint": "impedit",
-    "ColorBlock": 508,
-    "ExtraInfo": "qui",
-    "StyleHint": "veritatis",
-    "FullName": "Rozella Maya Kreiger Jr.",
+    "IconHint": "voluptas",
+    "ColorBlock": 836,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "est",
+    "FullName": "Johan Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 730
+        "FieldLength": 257
       }
     }
   }

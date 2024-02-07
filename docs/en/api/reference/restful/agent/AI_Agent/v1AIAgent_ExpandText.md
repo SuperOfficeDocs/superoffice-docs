@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "similique",
-  "PercentBigger": 918,
-  "IsoLangCode": "deserunt"
+  "Text": "quia",
+  "PercentBigger": 613,
+  "IsoLangCode": "iusto"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"numquam"
+"vel"
 ```

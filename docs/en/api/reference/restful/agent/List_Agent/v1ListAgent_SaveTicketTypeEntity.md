@@ -85,28 +85,28 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 483,
-  "Name": "Nikolaus-Raynor",
-  "Rank": 585,
-  "Tooltip": "esse",
-  "Icon": "ut",
-  "DefaultTicketStatus": 584,
+  "TicketTypeId": 499,
+  "Name": "Hickle-Rippin",
+  "Rank": 396,
+  "Tooltip": "sed",
+  "Icon": "quas",
+  "DefaultTicketStatus": 722,
   "TicketStatuses": [
-    51,
-    583
+    680,
+    959
   ],
-  "DefaultTicketPriority": 834,
+  "DefaultTicketPriority": 545,
   "TicketPriorities": [
-    616,
-    151
+    5,
+    678
   ],
-  "ReplyTemplate": 700,
-  "IsExternalVisible": false,
-  "IsDefault": true
+  "ReplyTemplate": 625,
+  "IsExternalVisible": true,
+  "IsDefault": false
 }
 ```
 
@@ -117,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 839,
-  "Name": "Parker-Ortiz",
-  "Rank": 164,
-  "Tooltip": "totam",
-  "Icon": "amet",
-  "DefaultTicketStatus": 693,
+  "TicketTypeId": 46,
+  "Name": "Bradtke, McLaughlin and Mraz",
+  "Rank": 322,
+  "Tooltip": "cum",
+  "Icon": "culpa",
+  "DefaultTicketStatus": 604,
   "TicketStatuses": [
-    48,
-    549
+    510,
+    288
   ],
-  "DefaultTicketPriority": 931,
+  "DefaultTicketPriority": 777,
   "TicketPriorities": [
-    452,
-    247
+    91,
+    974
   ],
-  "ReplyTemplate": 216,
+  "ReplyTemplate": 648,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 586
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 763,
-  "Name": "Smith Group",
-  "Config": "aut",
-  "Rank": 237,
-  "Client": "magni",
-  "Style": "aut",
+  "DashboardThemeId": 146,
+  "Name": "Kutch, Flatley and Larkin",
+  "Config": "ex",
+  "Rank": 761,
+  "Client": "quo",
+  "Style": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

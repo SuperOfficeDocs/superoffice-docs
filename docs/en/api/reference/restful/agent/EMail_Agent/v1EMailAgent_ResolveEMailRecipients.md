@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "angeline@robel.biz"
+  "EmailAddress": "ophelia@muller.info"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 480,
-    "ContactName": "Morar, Kovacek and Schaden",
-    "PersonId": 615,
-    "PersonName": "Torp, Anderson and Gleichner",
-    "AssociateId": 463,
-    "Address": "sed",
-    "EmailId": 859,
+    "ContactId": 870,
+    "ContactName": "Fadel LLC",
+    "PersonId": 372,
+    "PersonName": "Keeling, Beier and Dickens",
+    "AssociateId": 534,
+    "Address": "doloremque",
+    "EmailId": 410,
     "DuplicatePersonIds": [
-      41,
-      151
+      899,
+      204
     ],
-    "Name": "Roberts, Harvey and Padberg",
+    "Name": "Gerhold-McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 776
+        "FieldType": "System.Int32",
+        "FieldLength": 946
       }
     }
   }

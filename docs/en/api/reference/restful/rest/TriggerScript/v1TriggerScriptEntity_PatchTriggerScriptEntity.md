@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nemo",
+    "path": "veniam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nemo",
+    "path": "veniam",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 998,
-  "Name": "Eichmann Group",
+  "ScreenChooserId": 726,
+  "Name": "Gislason-Kuhn",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "dolorum",
-  "Registered": "2016-01-25T23:04:05.0000081+01:00",
-  "RegisteredAssociateId": 53,
-  "Updated": "2006-02-27T23:04:05.0000081+01:00",
-  "UpdatedAssociateId": 574,
+  "Enabled": true,
+  "UniqueIdentifier": "earum",
+  "Source": "vitae",
+  "Registered": "2013-09-19T16:55:30.3158175+02:00",
+  "RegisteredAssociateId": 938,
+  "Updated": "2009-11-29T16:55:30.3158175+01:00",
+  "UpdatedAssociateId": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 824
+      "FieldType": "System.Int32",
+      "FieldLength": 902
     }
   },
   "_Links": {

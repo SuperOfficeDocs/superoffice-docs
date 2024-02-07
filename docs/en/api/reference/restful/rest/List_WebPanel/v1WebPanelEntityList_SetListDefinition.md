@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "King LLC",
-  "Tooltip": "sed",
+  "Id": 159,
+  "Name": "Brekke-Grady",
+  "Tooltip": "labore",
   "Deleted": false,
-  "Rank": 472,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 309,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "quis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 720,
-  "Name": "Mante Group",
-  "Tooltip": "earum",
+  "Id": 416,
+  "Name": "Kiehn LLC",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 115,
+  "Rank": 154,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "a",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "laboriosam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 72
     }
   }
 }

@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boyle LLC",
-    "DisplayName": "Lowe-Parisian",
-    "DisplayTooltip": "qui",
+    "Name": "Hilpert, Prosacco and Torp",
+    "DisplayName": "Kulas-Bode",
+    "DisplayTooltip": "in",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 968
       }
     }
   },
   {
-    "Name": "Boyle LLC",
-    "DisplayName": "Lowe-Parisian",
-    "DisplayTooltip": "qui",
+    "Name": "Hilpert, Prosacco and Torp",
+    "DisplayName": "Kulas-Bode",
+    "DisplayTooltip": "in",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 968
       }
     }
   }

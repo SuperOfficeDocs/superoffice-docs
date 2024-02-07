@@ -2,9 +2,7 @@
 uid: contactwithpersonsearch_new
 title: contactwithpersonsearch_new
 keywords: mdoprovider mdo provider contactwithpersonsearch_new
-description: Provider for selecting a Contact, including search on persons that match as well as contacts. this provider will
-return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact
-ID is always in the extraInfo.
+description: Provider for selecting a Contact, including search on persons that match as well as contacts. this provider will return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact ID is always in the extraInfo.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online
@@ -17,18 +15,24 @@ ID is always in the extraInfo.
 
 Searchs contact and person tables for matches, in addition to the contact
 search of the base class "contact" search.
-<para />
+
+
 Returns a mix of Contact and Person items sorted by relevance: own contacts, recently added or updated
 are more relevant.
-<para />
+
+
 id = contact or person_id,
-<para />
+
+
 Name = contact.name + department or person first+last name (contact name + department)
-<para />
+
+
 ExtraInfo = contact_id,
-<para />
+
+
 Type = "Contact" or "Person"
-<para />
+
+
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactListWithPersonSearchProvider">ContactListWithPersonSearchProvider</see> class.

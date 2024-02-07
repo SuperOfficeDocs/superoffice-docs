@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Wunsch-Okuneva",
-    "Tooltip": "quo",
+    "Id": 315,
+    "Name": "Brakus, Klein and Green",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 360,
+    "Rank": 942,
     "IsCustomList": false,
-    "IsMDOList": false,
+    "IsMDOList": true,
     "UseGroupsAndHeadings": false,
-    "ListType": "quis",
+    "ListType": "facere",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 986
       }
     }
   }

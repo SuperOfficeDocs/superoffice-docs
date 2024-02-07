@@ -69,7 +69,7 @@ OK
 | DisplayValue | string | Display value, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayTooltip | string | Display tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter. |
 | DisplayType | string | Display type, populated when asked for. |
-| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>. |
+| TabOrder | TabOrder | Carrier object for TabOrder. Services for the TabOrder Carrier is available from the Preference Agent. |
 | TargetId | int32 | The id of the target row. The table it points at is specified by the preference type. |
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "eius",
-      "Key": "voluptas"
+      "Section": "error",
+      "Key": "quaerat"
     },
     {
-      "Section": "eius",
-      "Key": "voluptas"
+      "Section": "error",
+      "Key": "quaerat"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "dolor",
+    "RawValue": "nisi",
     "Specification": null,
-    "DisplayValue": "nobis",
-    "DisplayTooltip": "libero",
+    "DisplayValue": "qui",
+    "DisplayTooltip": "pariatur",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 811,
-    "PrefDescId": 21,
-    "TableName": "Nikolaus LLC",
-    "UserPreferenceId": 731,
+    "TargetId": 266,
+    "PrefDescId": 373,
+    "TableName": "Denesik, Daniel and Towne",
+    "UserPreferenceId": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldType": "System.String",
+        "FieldLength": 635
       }
     }
   }

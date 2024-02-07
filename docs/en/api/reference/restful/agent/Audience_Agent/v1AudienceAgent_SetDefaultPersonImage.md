@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Bogisich-Sauer",
+  "LayoutName": "Wilkinson, Herman and Roob",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

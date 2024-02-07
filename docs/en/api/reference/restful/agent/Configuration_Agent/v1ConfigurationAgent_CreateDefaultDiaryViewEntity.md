@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 384,
-  "Name": "Leuschke LLC",
-  "Tooltip": "fuga",
-  "VisibleColumns": 404,
-  "Rank": 11,
-  "AssocId": 815,
+  "DiaryViewId": 398,
+  "Name": "Reichert LLC",
+  "Tooltip": "quisquam",
+  "VisibleColumns": 550,
+  "Rank": 642,
+  "AssocId": 988,
   "AssociateList": [
     {
-      "Id": 758,
-      "Name": "Fahey, Lebsack and Maggio",
-      "ToolTip": "Animi aut et beatae sed adipisci ad doloremque.",
+      "Id": 609,
+      "Name": "Reilly, Dickinson and Quitzon",
+      "ToolTip": "Placeat velit delectus molestiae rerum rerum sit facilis.",
       "Deleted": false,
-      "Rank": 239,
-      "Type": "corrupti",
-      "ColorBlock": 789,
-      "IconHint": "minus",
-      "Selected": true,
-      "LastChanged": "2011-02-26T23:03:55.2281393+01:00",
+      "Rank": 667,
+      "Type": "ea",
+      "ColorBlock": 844,
+      "IconHint": "minima",
+      "Selected": false,
+      "LastChanged": "2007-04-12T16:54:54.8821705+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "corporis",
-      "StyleHint": "quo",
+      "ExtraInfo": "temporibus",
+      "StyleHint": "illum",
       "Hidden": false,
-      "FullName": "Ms. Aurore Turcotte",
+      "FullName": "Mrs. Vincent Adams",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldType": "System.String",
+          "FieldLength": 999
         }
       }
     }
   ],
-  "TzLocationId": 496,
+  "TzLocationId": 168,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

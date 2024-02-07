@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Barrows Inc and Sons",
-    "ToolTip": "Quae quos dolor exercitationem esse dolorem est sed.",
-    "Deleted": false,
-    "Rank": 640,
-    "Type": "vitae",
-    "ColorBlock": 835,
-    "IconHint": "deserunt",
-    "Selected": false,
-    "LastChanged": "2019-12-26T23:04:05.7004973+01:00",
+    "Id": 633,
+    "Name": "Sanford-Jakubowski",
+    "ToolTip": "Dolores velit molestiae quisquam.",
+    "Deleted": true,
+    "Rank": 661,
+    "Type": "fugiat",
+    "ColorBlock": 362,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2023-03-25T16:55:30.9816722+01:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Feeney Inc and Sons",
-        "ToolTip": "Vitae eum dolore voluptate.",
-        "Deleted": false,
-        "Rank": 633,
-        "Type": "rerum",
-        "ColorBlock": 633,
-        "IconHint": "minima",
+        "Id": 90,
+        "Name": "Fadel, Fritsch and Gutmann",
+        "ToolTip": "Sit ullam at ut eum aut necessitatibus.",
+        "Deleted": true,
+        "Rank": 615,
+        "Type": "temporibus",
+        "ColorBlock": 411,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2013-06-29T23:04:05.7014973+02:00",
+        "LastChanged": "2020-04-30T16:55:30.9816722+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "aut",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Maynard Gorczany"
+        "FullName": "Miss Delilah Abshire Sr."
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Carolanne Mante"
+    "ExtraInfo": "numquam",
+    "StyleHint": "veniam",
+    "Hidden": true,
+    "FullName": "Felix Hintz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Wintheiser Inc and Sons",
-    "ToolTip": "Officia cum quas.",
+    "Id": 973,
+    "Name": "Bergstrom, Leffler and Cremin",
+    "ToolTip": "Qui et.",
     "Deleted": false,
-    "Rank": 270,
-    "Type": "autem",
-    "ColorBlock": 738,
-    "IconHint": "veritatis",
+    "Rank": 544,
+    "Type": "quis",
+    "ColorBlock": 488,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "1999-05-07T23:04:05.7024978+02:00",
+    "LastChanged": "2020-02-01T16:55:30.9836719+01:00",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "Hackett LLC",
-        "ToolTip": "In sint.",
+        "Id": 192,
+        "Name": "McClure-Greenfelder",
+        "ToolTip": "Consequuntur et ea nihil laudantium.",
         "Deleted": false,
-        "Rank": 712,
-        "Type": "temporibus",
-        "ColorBlock": 114,
-        "IconHint": "vitae",
-        "Selected": true,
-        "LastChanged": "2007-01-02T23:04:05.7029971+01:00",
+        "Rank": 496,
+        "Type": "magni",
+        "ColorBlock": 776,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "1998-09-10T16:55:30.9836719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "atque",
-        "Hidden": false,
-        "FullName": "Prof. Marcelo Braun",
+        "ExtraInfo": "ut",
+        "StyleHint": "fugit",
+        "Hidden": true,
+        "FullName": "Kadin Gutkowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 718
+            "FieldType": "System.Int32",
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "odio",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Mrs. Emil Tromp III",
+    "FullName": "Prof. Jadyn Vincent Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 670
       }
     }
   }

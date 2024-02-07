@@ -107,8 +107,8 @@ ContactRelationEntity  updated.
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "atque",
+    "path": "quaerat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "atque",
+    "path": "quaerat",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 227,
-  "SourcePersonId": 888,
-  "DestinationContactId": 951,
-  "DestinationPersonId": 779,
-  "RelationId": 730,
-  "Comment": "animi",
-  "RelationDefinitionId": 145,
-  "Reversed": 221,
-  "UpdatedDate": "2003-08-07T23:04:04.0635231+02:00",
-  "CreatedDate": "1997-11-04T23:04:04.0635231+01:00",
+  "SourceContactId": 944,
+  "SourcePersonId": 38,
+  "DestinationContactId": 501,
+  "DestinationPersonId": 261,
+  "RelationId": 800,
+  "Comment": "ex",
+  "RelationDefinitionId": 398,
+  "Reversed": 725,
+  "UpdatedDate": "2004-04-07T16:55:29.5258528+02:00",
+  "CreatedDate": "2002-04-20T16:55:29.5258528+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Russel LLC",
-  "SourcePersonName": "Satterfield-Hodkiewicz",
-  "DestinationContactName": "Gutkowski-Effertz",
-  "DestinationPersonName": "Lockman, Mosciski and Lockman",
-  "ActiveText": "deleniti",
-  "PassiveText": "in",
+  "SourceContactName": "Jacobson-Hagenes",
+  "SourcePersonName": "Reynolds Group",
+  "DestinationContactName": "Gottlieb-Rempel",
+  "DestinationPersonName": "Goyette-Thiel",
+  "ActiveText": "est",
+  "PassiveText": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 866
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   },
   "_Links": {

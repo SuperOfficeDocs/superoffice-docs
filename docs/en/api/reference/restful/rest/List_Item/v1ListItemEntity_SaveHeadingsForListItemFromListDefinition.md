@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Fritsch-Kihn",
-    "ToolTip": "Quas harum nam aliquam laudantium voluptatibus.",
-    "Deleted": false,
-    "Rank": 448,
-    "Type": "dolores",
-    "ColorBlock": 716,
-    "IconHint": "repellendus",
+    "Id": 40,
+    "Name": "Kub, Baumbach and Casper",
+    "ToolTip": "Dolore aut velit.",
+    "Deleted": true,
+    "Rank": 797,
+    "Type": "a",
+    "ColorBlock": 277,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2016-02-17T23:04:05.2640024+01:00",
+    "LastChanged": "1999-01-24T16:55:30.5056973+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Davis-Brown",
-        "ToolTip": "Ut itaque nobis voluptatum.",
+        "Id": 530,
+        "Name": "Walter, Marquardt and McCullough",
+        "ToolTip": "Et et cumque nesciunt cupiditate aperiam eveniet.",
         "Deleted": false,
-        "Rank": 711,
-        "Type": "natus",
-        "ColorBlock": 481,
-        "IconHint": "quis",
+        "Rank": 925,
+        "Type": "consequatur",
+        "ColorBlock": 959,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2017-08-26T23:04:05.2645035+02:00",
+        "LastChanged": "2014-04-29T16:55:30.5056973+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Albertha Grady"
+        "ExtraInfo": "vero",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mrs. Woodrow Maudie Bartoletti"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Paul Wintheiser"
+    "ExtraInfo": "ipsam",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Bridget Kulas"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Wolf-Stamm",
-    "ToolTip": "Rerum cum officia dignissimos ab fugit vero vitae.",
-    "Deleted": false,
-    "Rank": 521,
-    "Type": "voluptatibus",
-    "ColorBlock": 535,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2000-12-24T23:04:05.2660026+01:00",
+    "Id": 924,
+    "Name": "Kuvalis LLC",
+    "ToolTip": "Ea ex suscipit veniam corrupti aut consequatur.",
+    "Deleted": true,
+    "Rank": 507,
+    "Type": "doloribus",
+    "ColorBlock": 358,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2003-08-28T16:55:30.5076975+02:00",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "Green Group",
-        "ToolTip": "Vel sit quod corporis ut quia saepe aspernatur.",
-        "Deleted": true,
-        "Rank": 517,
-        "Type": "iusto",
-        "ColorBlock": 576,
-        "IconHint": "unde",
+        "Id": 683,
+        "Name": "Bahringer, Goyette and Collins",
+        "ToolTip": "Sit deserunt quis qui.",
+        "Deleted": false,
+        "Rank": 11,
+        "Type": "voluptates",
+        "ColorBlock": 814,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2012-08-04T23:04:05.266504+02:00",
+        "LastChanged": "2006-08-14T16:55:30.5076975+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Mr. Vance Jany Berge",
+        "ExtraInfo": "at",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Sebastian Loy Bayer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 936
+            "FieldType": "System.Int32",
+            "FieldLength": 412
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "natus",
+    "ExtraInfo": "maxime",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Lynn Ryley Rolfson IV",
+    "FullName": "Anjali Maggio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldType": "System.Int32",
+        "FieldLength": 197
       }
     }
   }

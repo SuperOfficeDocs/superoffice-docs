@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 644,
-    "Name": "Farrell Group",
-    "Tooltip": "maxime",
-    "Deleted": true,
-    "Rank": 15,
-    "UdListDefinitionId": 308,
+    "HeadingId": 242,
+    "Name": "Osinski-Bayer",
+    "Tooltip": "nemo",
+    "Deleted": false,
+    "Rank": 700,
+    "UdListDefinitionId": 832,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 463
+        "FieldType": "System.Int32",
+        "FieldLength": 774
       }
     }
   }

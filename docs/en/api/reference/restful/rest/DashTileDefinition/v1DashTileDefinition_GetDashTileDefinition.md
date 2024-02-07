@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 88,
-  "Name": "Emmerich, Kuhlman and Shanahan",
-  "Description": "Object-based static encoding",
-  "DefaultHeight": 737,
-  "DefaultWidth": 690,
+  "DashboardTileDefinitionId": 631,
+  "Name": "Miller, Gleichner and White",
+  "Description": "Adaptive grid-enabled hardware",
+  "DefaultHeight": 507,
+  "DefaultWidth": 386,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Nolan, Murazik and Cormier",
-  "SelectionId": 975,
+  "EntityName": "Wisozk, Dicki and Rolfson",
+  "SelectionId": 514,
   "CurrencyMode": "Base",
-  "CurrencyCode": "vitae",
+  "CurrencyCode": "ut",
   "Measure": "Average",
-  "MeasureField": "voluptas",
-  "SortBy": "laborum",
-  "LayoutConfig": "omnis",
-  "SecondarySelectionId": 318,
-  "MeasureByField": "accusamus",
+  "MeasureField": "vel",
+  "SortBy": "adipisci",
+  "LayoutConfig": "est",
+  "SecondarySelectionId": 409,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Stroman-Hoppe",
+  "ProviderName": "Leuschke-Breitenberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Thiel-Beer",
-  "ModuleName": "Kuhn Group",
-  "ModuleDescription": "Balanced executive pricing structure",
-  "ModuleTooltip": "ut",
-  "ModuleVersion": "dolore",
+  "OwnerName": "Witting-Parisian",
+  "ModuleName": "Considine Inc and Sons",
+  "ModuleDescription": "Expanded 6th generation throughput",
+  "ModuleTooltip": "vitae",
+  "ModuleVersion": "aliquid",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 69,
-  "ExtraFlags": 919,
-  "ExtraInfo": "rerum",
-  "SortOrder": 709,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "King Inc and Sons",
-  "Signature": "doloribus"
+  "NumberOfLicenses": 372,
+  "ExtraFlags": 113,
+  "ExtraInfo": "et",
+  "SortOrder": 672,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Deckow, Kerluke and Windler",
+  "Signature": "harum"
 }
 ```

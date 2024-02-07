@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 386,
-  "StartDate": "2020-01-01T23:03:54.7521454+01:00",
-  "EndDate": "2010-12-12T23:03:54.7521454+01:00",
-  "RecurrenceCounter": 225,
+  "RecurrenceId": 327,
+  "StartDate": "2014-05-22T16:54:54.3978633+02:00",
+  "EndDate": "2020-01-09T16:54:54.3978633+01:00",
+  "RecurrenceCounter": 839,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2021-03-24T23:03:54.7521454+01:00",
+      "Date": "2002-01-08T16:54:54.3978633+01:00",
       "IsConflict": false,
-      "Description": "Exclusive asynchronous help-desk",
-      "DescriptionStyleHint": "Optimized 6th generation secured line",
-      "Tooltip": "est"
+      "Description": "Horizontal neutral leverage",
+      "DescriptionStyleHint": "Persevering holistic structure",
+      "Tooltip": "vel"
     },
     {
-      "Date": "2021-03-24T23:03:54.7521454+01:00",
+      "Date": "2002-01-08T16:54:54.3978633+01:00",
       "IsConflict": false,
-      "Description": "Exclusive asynchronous help-desk",
-      "DescriptionStyleHint": "Optimized 6th generation secured line",
-      "Tooltip": "est"
+      "Description": "Horizontal neutral leverage",
+      "DescriptionStyleHint": "Persevering holistic structure",
+      "Tooltip": "vel"
     }
   ],
   "IsRecurrence": false

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 570,
-    "Name": "Will Inc and Sons",
-    "ToolTip": "Aperiam minus quo aliquam veniam.",
-    "Deleted": true,
-    "Rank": 110,
-    "Type": "ut",
-    "ColorBlock": 970,
-    "IconHint": "et",
+    "Id": 398,
+    "Name": "Olson Group",
+    "ToolTip": "Dolore facilis sapiente impedit esse.",
+    "Deleted": false,
+    "Rank": 897,
+    "Type": "sunt",
+    "ColorBlock": 468,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2023-09-28T23:04:05.5419985+02:00",
+    "LastChanged": "2003-10-13T16:55:30.7381718+02:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Goyette Inc and Sons",
-        "ToolTip": "Fuga excepturi omnis eos maiores eaque provident.",
-        "Deleted": false,
-        "Rank": 167,
-        "Type": "rerum",
-        "ColorBlock": 624,
-        "IconHint": "fugit",
+        "Id": 843,
+        "Name": "Bechtelar, Leuschke and Jacobi",
+        "ToolTip": "Ut labore qui aut nihil non.",
+        "Deleted": true,
+        "Rank": 146,
+        "Type": "maiores",
+        "ColorBlock": 330,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2003-02-12T23:04:05.5425042+01:00",
+        "LastChanged": "1998-04-08T16:55:30.7381718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Barney Abshire Sr."
+        "FullName": "Miss Carmen Idella Cremin DDS"
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "vel",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Camden Ortiz"
+    "FullName": "Cleo Moen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Gorczany LLC",
-    "ToolTip": "Quae minus vitae tempora sint exercitationem maxime quae.",
-    "Deleted": false,
-    "Rank": 933,
-    "Type": "adipisci",
-    "ColorBlock": 817,
-    "IconHint": "minus",
+    "Id": 316,
+    "Name": "McLaughlin-Bins",
+    "ToolTip": "Animi officia mollitia eaque.",
+    "Deleted": true,
+    "Rank": 1000,
+    "Type": "id",
+    "ColorBlock": 858,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "1998-04-03T23:04:05.5435006+02:00",
+    "LastChanged": "2023-08-26T16:55:30.7411916+02:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Pouros LLC",
-        "ToolTip": "Perferendis illum tempora quo repudiandae autem nemo.",
-        "Deleted": false,
-        "Rank": 416,
-        "Type": "deleniti",
-        "ColorBlock": 207,
-        "IconHint": "repellendus",
-        "Selected": true,
-        "LastChanged": "2015-10-22T23:04:05.5435006+02:00",
+        "Id": 298,
+        "Name": "Braun LLC",
+        "ToolTip": "Quae commodi.",
+        "Deleted": true,
+        "Rank": 312,
+        "Type": "tenetur",
+        "ColorBlock": 888,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "2017-04-16T16:55:30.7411916+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "ut",
+        "ExtraInfo": "iusto",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Dale Fahey",
+        "FullName": "Eldridge Dickens",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 613
+            "FieldType": "System.Int32",
+            "FieldLength": 829
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "earum",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Elva Bartoletti",
+    "FullName": "Dr. Carmen Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldType": "System.Int32",
+        "FieldLength": 897
       }
     }
   }

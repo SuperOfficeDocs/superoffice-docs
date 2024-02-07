@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 523
+  "DocumentId": 985
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "et",
-    "DocumentId": 150,
-    "VersionId": "sapiente",
-    "CheckedInDate": "2010-02-02T23:03:55.8171321+01:00",
-    "CheckedInByName": "Jakubowski, Mayer and Towne",
-    "CheckedInByAssociateId": 223,
-    "Description": "Reactive clear-thinking pricing structure",
-    "DisplayText": "tempore",
+    "ExternalReference": "eveniet",
+    "DocumentId": 558,
+    "VersionId": "aut",
+    "CheckedInDate": "2000-11-15T16:54:55.2574198+01:00",
+    "CheckedInByName": "Herman Inc and Sons",
+    "CheckedInByAssociateId": 256,
+    "Description": "Multi-lateral secondary utilisation",
+    "DisplayText": "dolor",
     "ExtraFields": [
-      "ratione",
-      "earum"
+      "natus",
+      "est"
     ]
   }
 ]

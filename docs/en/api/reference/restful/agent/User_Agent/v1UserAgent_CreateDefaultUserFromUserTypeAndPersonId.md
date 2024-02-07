@@ -75,9 +75,9 @@ OK
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup | UserGroup | The main user group that this user belongs to.  Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  Use MDO List name "usergroup" to get list items. |
+| Person | Person | The person associated with this user. Detailed information about the user  Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -88,11 +88,11 @@ OK
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 139
+  "PersonId": 763
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 188,
-  "Name": "Oberbrunner-Bernier",
-  "Rank": 547,
-  "Tooltip": "placeat",
+  "AssociateId": 582,
+  "Name": "Deckow LLC",
+  "Rank": 888,
+  "Tooltip": "rem",
   "LicenseOwners": [
     {
-      "Name": "O'Keefe-Halvorson",
-      "Description": "Innovative heuristic success",
+      "Name": "Frami, Reinger and Hoppe",
+      "Description": "Face to face demand-driven frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldLength": 20
         }
       }
     },
     {
-      "Name": "O'Keefe-Halvorson",
-      "Description": "Innovative heuristic success",
+      "Name": "Frami, Reinger and Hoppe",
+      "Description": "Face to face demand-driven frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldLength": 20
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "laborum",
-      "Tooltip": "veritatis",
-      "Id": 300,
-      "Rank": 128,
+      "Value": "totam",
+      "Tooltip": "mollitia",
+      "Id": 531,
+      "Rank": 55,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 105
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1997-07-01T23:03:57.6081067+02:00",
-  "Lastlogout": "2015-02-13T23:03:57.6081067+01:00",
-  "EjUserId": 406,
-  "RequestSignature": "quaerat",
+  "Deleted": false,
+  "Lastlogin": "1998-12-22T16:54:56.6927713+01:00",
+  "Lastlogout": "1998-12-20T16:54:56.6927713+01:00",
+  "EjUserId": 874,
+  "RequestSignature": "temporibus",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "error",
+      "Value": "est",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 231
         }
       }
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "error",
+      "Value": "est",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 231
         }
       }
     }
   ],
-  "UserName": "Ondricka LLC",
+  "UserName": "Lebsack, Johnson and Heidenreich",
   "TicketCategories": [
     {
-      "Id": 584,
-      "Name": "Strosin-Schmidt",
-      "ToolTip": "Quod incidunt aperiam et.",
+      "Id": 855,
+      "Name": "Blick Group",
+      "ToolTip": "Ipsum odit ut eveniet eaque illum labore.",
       "Deleted": false,
-      "Rank": 499,
-      "Type": "alias",
+      "Rank": 786,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellat",
-      "ColorBlock": 456,
-      "ExtraInfo": "tempora",
-      "StyleHint": "rerum",
-      "FullName": "Mr. Eldora Boyer",
+      "IconHint": "et",
+      "ColorBlock": 276,
+      "ExtraInfo": "dolore",
+      "StyleHint": "nisi",
+      "FullName": "Demarco Will",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 742
+          "FieldType": "System.String",
+          "FieldLength": 870
         }
       }
     }
   ],
-  "NickName": "Runolfsson-Bernhard",
+  "NickName": "Schneider-Hayes",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "a"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "alias",
+    "CustomFields2": "odio"
   },
   "PostSaveCommands": [
     {
-      "Name": "Dooley-Cartwright",
-      "DisplayName": "Terry Inc and Sons",
-      "Description": "Right-sized client-server monitoring",
-      "ToolTip": "Ut exercitationem aperiam eligendi eos tempore earum consequuntur.",
+      "Name": "Smith LLC",
+      "DisplayName": "Huels-Schumm",
+      "Description": "Reverse-engineered fault-tolerant orchestration",
+      "ToolTip": "Minima quos atque et ea facere.",
       "Actions": "Implicit",
-      "ActionData": "sit",
+      "ActionData": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 476
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 890
     }
   }
 }

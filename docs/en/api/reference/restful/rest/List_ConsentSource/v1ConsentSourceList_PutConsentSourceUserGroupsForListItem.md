@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Skiles-Harber",
-    "ToolTip": "Deleniti aliquid illum velit qui necessitatibus voluptatem.",
-    "Deleted": true,
-    "Rank": 715,
-    "Type": "cum",
-    "ColorBlock": 641,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "1998-10-02T23:04:05.3725029+02:00",
+    "Id": 824,
+    "Name": "Jacobi Group",
+    "ToolTip": "Ad aliquam.",
+    "Deleted": false,
+    "Rank": 158,
+    "Type": "sunt",
+    "ColorBlock": 361,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2003-06-12T16:55:30.5912617+02:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Hamill-Funk",
-        "ToolTip": "Minus aut molestiae sed quibusdam.",
-        "Deleted": true,
-        "Rank": 246,
-        "Type": "quisquam",
-        "ColorBlock": 136,
-        "IconHint": "earum",
-        "Selected": true,
-        "LastChanged": "2017-12-17T23:04:05.3725029+01:00",
+        "Id": 785,
+        "Name": "Schneider, Schneider and Terry",
+        "ToolTip": "Quia similique.",
+        "Deleted": false,
+        "Rank": 167,
+        "Type": "ea",
+        "ColorBlock": 17,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2018-04-29T16:55:30.5912617+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Rupert McLaughlin"
+        "FullName": "Jackeline Satterfield"
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "sequi",
+    "ExtraInfo": "non",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Miss Myrtice Murphy Bergstrom"
+    "FullName": "Rosemary Kerluke I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Pacocha, Kautzer and Pouros",
-    "ToolTip": "Libero sed quia tempore ex beatae.",
+    "Id": 415,
+    "Name": "Kuvalis Group",
+    "ToolTip": "Itaque corrupti culpa esse et.",
     "Deleted": false,
-    "Rank": 474,
-    "Type": "earum",
-    "ColorBlock": 311,
-    "IconHint": "quo",
+    "Rank": 382,
+    "Type": "omnis",
+    "ColorBlock": 396,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2009-03-09T23:04:05.374004+01:00",
+    "LastChanged": "2001-09-17T16:55:30.5923148+02:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "Hartmann LLC",
-        "ToolTip": "Nesciunt ullam est.",
-        "Deleted": true,
-        "Rank": 913,
-        "Type": "dolorem",
-        "ColorBlock": 10,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2000-09-28T23:04:05.374004+02:00",
+        "Id": 246,
+        "Name": "Hoppe, Corwin and Swaniawski",
+        "ToolTip": "Veritatis velit animi porro aliquid.",
+        "Deleted": false,
+        "Rank": 766,
+        "Type": "unde",
+        "ColorBlock": 165,
+        "IconHint": "repudiandae",
+        "Selected": false,
+        "LastChanged": "2020-12-28T16:55:30.5923148+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "quam",
-        "Hidden": false,
-        "FullName": "Flavio Franecki",
+        "ExtraInfo": "quia",
+        "StyleHint": "asperiores",
+        "Hidden": true,
+        "FullName": "Halie Torp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 187
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Myrtie Glover DVM",
+    "ExtraInfo": "esse",
+    "StyleHint": "magnam",
+    "Hidden": true,
+    "FullName": "Ms. Heber Gonzalo Zemlak DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 555
       }
     }
   }

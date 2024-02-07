@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Strosin, Kub and Baumbach",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "UdListDefinitionId": 79,
-  "Rank": 563,
+  "Id": 976,
+  "Name": "Hartmann-West",
+  "Tooltip": "mollitia",
+  "Deleted": true,
+  "UdListDefinitionId": 957,
+  "Rank": 287,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 798
     }
   }
 }

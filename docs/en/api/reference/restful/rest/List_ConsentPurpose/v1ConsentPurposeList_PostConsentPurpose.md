@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 282,
-  "Name": "Abshire Inc and Sons",
-  "ConsentText": "ut",
-  "FormText": "harum",
-  "Key": "sit",
-  "Tooltip": "odit",
-  "Active": 314,
-  "UpdatedDate": "2006-08-22T23:04:05.3450058+02:00",
+  "ConsentPurposeId": 326,
+  "Name": "Maggio, Hammes and Schultz",
+  "ConsentText": "consequatur",
+  "FormText": "earum",
+  "Key": "tempora",
+  "Tooltip": "fugiat",
+  "Active": 879,
+  "UpdatedDate": "2010-09-23T16:55:30.5686966+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 279,
-  "PrivacyStatementDesc": "aut",
+  "Deleted": true,
+  "Rank": 648,
+  "PrivacyStatementDesc": "voluptatem",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 226,
-  "Name": "Mills Group",
-  "ConsentText": "accusantium",
-  "FormText": "voluptatem",
-  "Key": "dolor",
-  "Tooltip": "eum",
-  "Active": 387,
-  "UpdatedDate": "2005-04-07T23:04:05.3460011+02:00",
+  "ConsentPurposeId": 296,
+  "Name": "Yost Inc and Sons",
+  "ConsentText": "error",
+  "FormText": "ducimus",
+  "Key": "voluptas",
+  "Tooltip": "consectetur",
+  "Active": 514,
+  "UpdatedDate": "2008-09-08T16:55:30.5696992+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 598,
-  "PrivacyStatementDesc": "dicta",
+  "Rank": 780,
+  "PrivacyStatementDesc": "exercitationem",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   }
 }

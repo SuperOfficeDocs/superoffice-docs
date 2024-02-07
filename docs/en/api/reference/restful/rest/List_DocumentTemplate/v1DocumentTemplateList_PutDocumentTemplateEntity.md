@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 699,
-  "Name": "Stokes, Denesik and Cormier",
-  "Tooltip": "vitae",
-  "SaveInDb": 610,
-  "Filename": "delectus",
-  "DefaultOref": "dolor",
+  "DocumentTemplateId": 726,
+  "Name": "Effertz Group",
+  "Tooltip": "illum",
+  "SaveInDb": 94,
+  "Filename": "minima",
+  "DefaultOref": "ipsa",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 293,
-  "IntentId": 185,
+  "AutoeventId": 152,
+  "IntentId": 690,
   "IsDefaultPublished": true,
-  "Rank": 819,
-  "LoadTemplateFromPlugin": 889,
-  "MimeType": "sint",
+  "Rank": 847,
+  "LoadTemplateFromPlugin": 220,
+  "MimeType": "officia",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 445,
+  "DocumentTypeKey": 243,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "maurine_herzog@wuckertupton.name",
-  "IncludeSignature": true,
+  "EmailSubject": "berta.hansen@jacobson.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "amie@schmitthettinger.biz",
+  "SenderEmailAddress": "webster.fisher@kuhlman.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 653,
-  "Name": "Reinger LLC",
-  "Tooltip": "nisi",
-  "SaveInDb": 59,
-  "Filename": "odio",
-  "DefaultOref": "eum",
+  "DocumentTemplateId": 217,
+  "Name": "Bartell, Schaden and Donnelly",
+  "Tooltip": "quos",
+  "SaveInDb": 559,
+  "Filename": "ut",
+  "DefaultOref": "eos",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 888,
-  "IntentId": 362,
-  "IsDefaultPublished": false,
-  "Rank": 217,
-  "LoadTemplateFromPlugin": 733,
-  "MimeType": "voluptatem",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 566,
+  "AutoeventId": 841,
+  "IntentId": 366,
+  "IsDefaultPublished": true,
+  "Rank": 975,
+  "LoadTemplateFromPlugin": 963,
+  "MimeType": "neque",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 771,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ivy@kihn.com",
+  "EmailSubject": "edd@ritchie.co.uk",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "deondre@trompkuhlman.ca",
+  "SenderEmailAddress": "garrison@kerluke.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 338
     }
   }
 }

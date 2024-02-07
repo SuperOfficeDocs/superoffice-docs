@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wintheiser Inc and Sons",
-  "ProviderName": "Crist LLC",
-  "Context": "non",
-  "OwnerKeys": "eos",
+  "GuiName": "Jenkins-Ullrich",
+  "ProviderName": "Lemke, Jones and Stoltenberg",
+  "Context": "nesciunt",
+  "OwnerKeys": "tempora",
   "Entities": [
-    "dolores",
-    "nemo"
+    "non",
+    "alias"
   ]
 }
 ```

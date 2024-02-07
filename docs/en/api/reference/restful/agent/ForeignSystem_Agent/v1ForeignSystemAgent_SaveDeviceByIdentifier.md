@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bergnaum, Murphy and Johnston",
-  "DeviceName": "Pouros LLC",
-  "DeviceIdentifier": "quibusdam",
+  "ApplicationName": "Wiza-Mante",
+  "DeviceName": "Kling Group",
+  "DeviceIdentifier": "inventore",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 787,
-  "Name": "Fadel Inc and Sons",
-  "CreatedDate": "2019-04-01T23:03:56.1131275+02:00",
-  "UpdatedDate": "2015-09-12T23:03:56.1131275+02:00",
-  "AssociateFullName": "Eula Rath",
-  "CreatedBy": "quia",
-  "UpdatedBy": "ipsam",
-  "DeviceIdentifier": "quidem",
-  "ForeignAppId": 116,
+  "ForeignDeviceId": 436,
+  "Name": "Littel, Borer and Bogan",
+  "CreatedDate": "2005-02-05T16:54:55.4834681+01:00",
+  "UpdatedDate": "1998-04-01T16:54:55.4834681+02:00",
+  "AssociateFullName": "Rowan Wiegand",
+  "CreatedBy": "nisi",
+  "UpdatedBy": "nesciunt",
+  "DeviceIdentifier": "modi",
+  "ForeignAppId": 362,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldLength": 168
     }
   }
 }

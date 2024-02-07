@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Pfeffer-Schuppe",
-    "DisplayName": "Crooks, Schuppe and Lesch",
-    "Description": "Synergistic systematic benchmark",
-    "ShortLabel": "harum",
+    "FieldName": "Crist-Parker",
+    "DisplayName": "Cole-Carter",
+    "Description": "Up-sized solution-oriented structure",
+    "ShortLabel": "id",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 707,
-    "TemplateVariableName": "Rowe Group"
+    "Rank": 325,
+    "TemplateVariableName": "Rutherford LLC"
   }
 ]
 ```

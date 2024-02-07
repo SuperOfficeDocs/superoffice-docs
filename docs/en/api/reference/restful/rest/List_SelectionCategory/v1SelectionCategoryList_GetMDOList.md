@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=veritatis
+GET /api/v1/List/SelectionCategory/MDOItems?query=quas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Mills-Purdy",
-    "ToolTip": "Facilis quis sapiente quaerat ullam nostrum nostrum et.",
-    "Deleted": false,
-    "Rank": 301,
-    "Type": "in",
+    "Id": 177,
+    "Name": "Ondricka, Eichmann and Huels",
+    "ToolTip": "Quisquam dolorum.",
+    "Deleted": true,
+    "Rank": 433,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Kutch, Bosco and Towne",
-        "ToolTip": "In laborum doloribus labore rem.",
-        "Deleted": true,
-        "Rank": 204,
-        "Type": "aperiam",
+        "Id": 841,
+        "Name": "Kuhn, Harvey and Nienow",
+        "ToolTip": "Distinctio natus.",
+        "Deleted": false,
+        "Rank": 34,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 58,
-        "ExtraInfo": "maxime",
-        "StyleHint": "voluptatem",
-        "FullName": "Kiel Pacocha",
+        "IconHint": "nihil",
+        "ColorBlock": 990,
+        "ExtraInfo": "rerum",
+        "StyleHint": "ut",
+        "FullName": "Prof. Dennis Schuyler Stroman I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 749
+            "FieldLength": 913
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 442,
-    "ExtraInfo": "neque",
-    "StyleHint": "non",
-    "FullName": "Prof. Maryjane Garfield Huels MD",
+    "IconHint": "non",
+    "ColorBlock": 668,
+    "ExtraInfo": "deleniti",
+    "StyleHint": "quod",
+    "FullName": "Ms. Blaze Obie Strosin Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 272
       }
     }
   }

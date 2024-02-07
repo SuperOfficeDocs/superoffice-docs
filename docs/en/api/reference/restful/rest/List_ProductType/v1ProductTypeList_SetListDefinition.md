@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 635,
-  "Name": "Maggio LLC",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 604,
-  "IsCustomList": false,
+  "Id": 633,
+  "Name": "Welch Group",
+  "Tooltip": "dolorum",
+  "Deleted": false,
+  "Rank": 177,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Stracke Group",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "Rank": 1002,
+  "Id": 110,
+  "Name": "Gusikowski-Gerhold",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 148,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 372
     }
   }
 }

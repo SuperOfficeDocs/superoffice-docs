@@ -139,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 547,
-  "Name": "Schamberger, Kuhn and Haag",
-  "Description": "Extended homogeneous service-desk",
-  "WelcomeMessage": "asperiores",
+  "ChatTopicId": 982,
+  "Name": "Stehr LLC",
+  "Description": "Function-based web-enabled Graphic Interface",
+  "WelcomeMessage": "sequi",
   "Language": null,
-  "LastAccept": "1997-10-10T23:04:03.8590299+02:00",
-  "SecondsPrAccept": 201,
-  "AlertRecipient": "eveniet",
+  "LastAccept": "1999-10-31T16:55:29.3607808+01:00",
+  "SecondsPrAccept": 841,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "fugit",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "nostrum",
-  "WarnNewChatMinutes": 61,
-  "WarnManagerNewChatMinutes": 3,
+  "BadgeHeader": "rerum",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "quis",
+  "WarnNewChatMinutes": 322,
+  "WarnManagerNewChatMinutes": 737,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 267,
-  "WarnManagerChatMessageMinutes": 566,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 137,
-  "OfflineFormQueueLength": 374,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "doloremque"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 848,
+  "WarnManagerChatMessageMinutes": 885,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 832,
+  "OfflineFormQueueLength": 316,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "iure"
 }
 ```
 
@@ -184,22 +184,22 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 256,
-  "Name": "Zemlak-Monahan",
-  "Description": "Pre-emptive even-keeled customer loyalty",
-  "WelcomeMessage": "reiciendis",
+  "ChatTopicId": 424,
+  "Name": "Luettgen-Klocko",
+  "Description": "Enterprise-wide transitional approach",
+  "WelcomeMessage": "quasi",
   "Language": null,
-  "LastAccept": "2023-06-10T23:04:03.8620216+02:00",
-  "SecondsPrAccept": 100,
-  "AlertRecipient": "eaque",
+  "LastAccept": "2009-03-20T16:55:29.3637808+01:00",
+  "SecondsPrAccept": 466,
+  "AlertRecipient": "quia",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "velit",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 91,
-  "WarnManagerNewChatMinutes": 493,
-  "TicketEnabled": false,
+  "BadgeHeader": "fugit",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "iure",
+  "WarnNewChatMinutes": 50,
+  "WarnManagerNewChatMinutes": 267,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -208,19 +208,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 13,
-  "WarnManagerChatMessageMinutes": 871,
+  "WarnChatMessageMinutes": 299,
+  "WarnManagerChatMessageMinutes": 777,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 364,
-  "OfflineFormQueueLength": 132,
+  "OfflineFormTimeLimit": 540,
+  "OfflineFormQueueLength": 318,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "dicta",
+  "WidgetRatingText": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 317
     }
   },
   "_Links": {

@@ -67,7 +67,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "VonRueden-Labadie",
-    "DisplayName": "Bauch, Breitenberg and Wiza",
-    "Description": "Streamlined asynchronous encryption",
-    "ShortLabel": "in",
+    "FieldName": "Will Group",
+    "DisplayName": "Orn, Koss and Hauck",
+    "Description": "Versatile 5th generation challenge",
+    "ShortLabel": "perferendis",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 166,
-    "TemplateVariableName": "Collier-Robel"
+    "Rank": 207,
+    "TemplateVariableName": "Yost LLC"
   }
 ]
 ```

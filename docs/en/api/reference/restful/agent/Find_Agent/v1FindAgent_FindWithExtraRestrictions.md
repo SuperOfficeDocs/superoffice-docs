@@ -88,48 +88,48 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "hic",
-  "ProviderName": "Kutch, Kertzmann and Kuhn",
-  "StorageKey": "quaerat",
+  "StorageType": "molestiae",
+  "ProviderName": "Halvorson-Bradtke",
+  "StorageKey": "et",
   "ExtraRestrictions": [
     {
-      "Name": "Parker Group",
-      "Operator": "eum",
+      "Name": "Sipes, Bailey and Schmidt",
+      "Operator": "unde",
       "Values": [
-        "explicabo",
-        "repudiandae"
+        "quasi",
+        "quis"
       ],
       "DisplayValues": [
-        "voluptatibus",
-        "sit"
+        "tenetur",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 685,
+      "InterParenthesis": 522,
       "InterOperator": "And",
-      "UniqueHash": 897
+      "UniqueHash": 996
     }
   ],
   "OrderBy": [
     {
-      "Name": "Lowe, Strosin and Kris",
+      "Name": "Boyer, West and Spencer",
       "Direction": "ASC"
     },
     {
-      "Name": "Lowe, Strosin and Kris",
+      "Name": "Boyer, West and Spencer",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "at",
-    "reprehenderit"
+    "numquam",
+    "quod"
   ],
-  "PageSize": 540,
-  "PageNumber": 641
+  "PageSize": 718,
+  "PageNumber": 975
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jast, Adams and Swift",
-      "DisplayTooltip": "ut",
-      "DisplayType": "doloremque",
-      "CanOrderBy": true,
-      "Name": "McDermott, Breitenberg and Mitchell",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptate",
-      "RestrictionListName": "Kuhic-O'Kon",
+      "DisplayName": "Jaskolski, Rempel and Harber",
+      "DisplayTooltip": "cumque",
+      "DisplayType": "aliquid",
+      "CanOrderBy": false,
+      "Name": "Hand, Turcotte and Zulauf",
+      "CanRestrictBy": false,
+      "RestrictionType": "quis",
+      "RestrictionListName": "Gibson-Zemlak",
       "IsVisible": false,
-      "ExtraInfo": "dolore",
-      "Width": "minus",
-      "IconHint": "atque",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "consectetur",
+      "Width": "ea",
+      "IconHint": "quo",
+      "HeadingIconHint": "id"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Smitham Group",
-      "PrimaryKey": 564,
+      "EntityName": "Nienow Inc and Sons",
+      "PrimaryKey": 677,
       "ColumnData": {
         "fieldName": {
           "DisplayValue": "qui",
-          "TooltipHint": "omnis",
-          "LinkHint": "vitae"
+          "TooltipHint": "asperiores",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "est",
+      "LinkHint": "reiciendis",
+      "StyleHint": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 555
         }
       }
     }
   ],
-  "RowCount": 260,
+  "RowCount": 789,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 27
     }
   }
 }

@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -73,9 +73,9 @@ User found.
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
+| UserGroup | UserGroup | The main user group that this user belongs to.  Use MDO List name "usergroup" to get list items. |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  Use MDO List name "usergroup" to get list items. |
+| Person | Person | The person associated with this user. Detailed information about the user  Use MDO List name "person_new" to get list items. |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -86,11 +86,11 @@ User found.
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   Use MDO List name "ejCategory" to get list items. |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 347,
-  "Name": "Gleichner, Adams and Green",
-  "Rank": 629,
-  "Tooltip": "ut",
+  "AssociateId": 758,
+  "Name": "Will LLC",
+  "Rank": 109,
+  "Tooltip": "ipsam",
   "LicenseOwners": [
     {
-      "Name": "Pfannerstill Group",
-      "Description": "Reduced eco-centric function",
+      "Name": "Stokes-Koepp",
+      "Description": "Customizable user-facing throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,14 +132,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 980
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     },
     {
-      "Name": "Pfannerstill Group",
-      "Description": "Reduced eco-centric function",
+      "Name": "Stokes-Koepp",
+      "Description": "Customizable user-facing throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 980
+          "FieldType": "System.Int32",
+          "FieldLength": 457
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "architecto",
-      "Tooltip": "modi",
-      "Id": 863,
-      "Rank": 299,
-      "Deleted": true,
+      "Value": "et",
+      "Tooltip": "nisi",
+      "Id": 683,
+      "Rank": 821,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 460
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2006-10-22T23:04:05.1645038+02:00",
-  "Lastlogout": "2009-08-09T23:04:05.1645038+02:00",
-  "EjUserId": 171,
-  "RequestSignature": "ut",
+  "Deleted": true,
+  "Lastlogin": "2000-01-01T16:55:30.4311463+01:00",
+  "Lastlogout": "2018-08-27T16:55:30.4311463+02:00",
+  "EjUserId": 10,
+  "RequestSignature": "voluptates",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "odio",
-      "DisplayValue": "dolorem",
+      "Value": "quia",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldLength": 65
         }
       }
     },
     {
       "Type": null,
-      "Value": "odio",
-      "DisplayValue": "dolorem",
+      "Value": "quia",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldLength": 65
         }
       }
     }
   ],
-  "UserName": "Herzog LLC",
+  "UserName": "Walter, Schaden and Reynolds",
   "TicketCategories": [
     {
-      "Id": 733,
-      "Name": "Larson-Welch",
-      "ToolTip": "Commodi vel exercitationem.",
-      "Deleted": true,
-      "Rank": 937,
-      "Type": "officiis",
+      "Id": 75,
+      "Name": "Mann, Kassulke and Littel",
+      "ToolTip": "Unde sit.",
+      "Deleted": false,
+      "Rank": 724,
+      "Type": "libero",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "in",
-      "ColorBlock": 707,
-      "ExtraInfo": "repellat",
-      "StyleHint": "est",
-      "FullName": "Sunny Schoen",
+      "IconHint": "corporis",
+      "ColorBlock": 381,
+      "ExtraInfo": "et",
+      "StyleHint": "praesentium",
+      "FullName": "Maude Kemmer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 540
         }
       }
     }
   ],
-  "NickName": "Johns-Armstrong",
+  "NickName": "Bergnaum Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "et"
+    "CustomFields1": "modi",
+    "CustomFields2": "repudiandae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Harris, Koss and Schinner",
-      "DisplayName": "Gutmann, Nienow and Jast",
-      "Description": "Switchable contextually-based projection",
-      "ToolTip": "Tempore atque doloremque reiciendis quam.",
+      "Name": "Kemmer LLC",
+      "DisplayName": "Harvey-Wuckert",
+      "Description": "Mandatory stable task-force",
+      "ToolTip": "Cupiditate hic.",
       "Actions": "Implicit",
-      "ActionData": "atque",
+      "ActionData": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 435
         }
       }
     }
@@ -274,13 +274,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldType": "System.Int32",
+      "FieldLength": 48
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

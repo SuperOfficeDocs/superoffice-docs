@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Value": "labore",
-    "Tooltip": "est",
+    "Id": 912,
+    "Value": "beatae",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 1002
       }
     }
   },
   {
-    "Id": 726,
-    "Value": "labore",
-    "Tooltip": "est",
+    "Id": 912,
+    "Value": "beatae",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 1002
       }
     }
   }

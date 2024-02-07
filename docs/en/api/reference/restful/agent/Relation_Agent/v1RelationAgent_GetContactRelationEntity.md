@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=151
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=198
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -67,8 +67,8 @@ OK
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 797,
-  "SourcePersonId": 605,
-  "DestinationContactId": 9,
-  "DestinationPersonId": 773,
-  "RelationId": 234,
-  "Comment": "dignissimos",
-  "RelationDefinitionId": 113,
-  "Reversed": 807,
-  "UpdatedDate": "2014-10-29T23:03:56.8106177+01:00",
-  "CreatedDate": "2011-04-28T23:03:56.8106177+02:00",
+  "SourceContactId": 869,
+  "SourcePersonId": 21,
+  "DestinationContactId": 458,
+  "DestinationPersonId": 204,
+  "RelationId": 720,
+  "Comment": "consequuntur",
+  "RelationDefinitionId": 977,
+  "Reversed": 412,
+  "UpdatedDate": "2015-09-07T16:54:56.1669714+02:00",
+  "CreatedDate": "1997-10-28T16:54:56.1669714+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bartoletti Group",
-  "SourcePersonName": "Thiel, Robel and Ledner",
-  "DestinationContactName": "Simonis-Stark",
-  "DestinationPersonName": "Roob LLC",
-  "ActiveText": "aperiam",
-  "PassiveText": "eius",
+  "SourceContactName": "Kshlerin-Sawayn",
+  "SourcePersonName": "Collier LLC",
+  "DestinationContactName": "Terry-Feil",
+  "DestinationPersonName": "Stark LLC",
+  "ActiveText": "sunt",
+  "PassiveText": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 787
     }
   }
 }

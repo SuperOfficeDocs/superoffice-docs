@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Halvorson-Connelly",
-    "ToolTip": "Ratione nam aut excepturi ipsa facere ex doloremque.",
+    "Id": 760,
+    "Name": "Schumm Inc and Sons",
+    "ToolTip": "Neque excepturi odit.",
     "Deleted": false,
-    "Rank": 224,
-    "Type": "corporis",
-    "ColorBlock": 722,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2019-09-17T23:04:05.5234993+02:00",
+    "Rank": 190,
+    "Type": "omnis",
+    "ColorBlock": 577,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2012-03-21T16:55:30.7211752+01:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Pfeffer, Frami and Rohan",
-        "ToolTip": "Debitis praesentium facere sint nostrum numquam velit.",
+        "Id": 49,
+        "Name": "Kertzmann, Little and Buckridge",
+        "ToolTip": "Et sed doloribus quisquam.",
         "Deleted": true,
-        "Rank": 139,
-        "Type": "atque",
-        "ColorBlock": 115,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2012-04-17T23:04:05.523999+02:00",
+        "Rank": 214,
+        "Type": "aspernatur",
+        "ColorBlock": 818,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "1999-03-11T16:55:30.7211752+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "saepe",
+        "ExtraInfo": "dolore",
+        "StyleHint": "odit",
         "Hidden": true,
-        "FullName": "Theron Parker",
+        "FullName": "Ricardo Amelie Auer Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldLength": 939
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Sydni Hauck",
+    "ExtraInfo": "unde",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Alexys Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 794
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   }

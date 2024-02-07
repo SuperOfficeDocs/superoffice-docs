@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Lind-Hane",
-    "ToolTip": "Est sint.",
-    "Deleted": false,
-    "Rank": 634,
-    "Type": "eaque",
-    "ColorBlock": 85,
-    "IconHint": "ut",
+    "Id": 170,
+    "Name": "Ratke, Considine and Ortiz",
+    "ToolTip": "Eum sit atque eos et et magnam.",
+    "Deleted": true,
+    "Rank": 540,
+    "Type": "voluptatibus",
+    "ColorBlock": 232,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2005-12-23T23:04:05.6624987+01:00",
+    "LastChanged": "2023-02-20T16:55:30.8347351+01:00",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Carroll LLC",
-        "ToolTip": "Animi est nam nostrum.",
+        "Id": 604,
+        "Name": "Legros Inc and Sons",
+        "ToolTip": "Sed est facere totam est cum.",
         "Deleted": false,
-        "Rank": 315,
-        "Type": "magnam",
-        "ColorBlock": 882,
-        "IconHint": "et",
+        "Rank": 326,
+        "Type": "placeat",
+        "ColorBlock": 151,
+        "IconHint": "modi",
         "Selected": true,
-        "LastChanged": "2019-10-17T23:04:05.6624987+02:00",
+        "LastChanged": "2015-08-04T16:55:30.8347351+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "assumenda",
-        "Hidden": false,
-        "FullName": "Miss Elwin Gislason",
+        "ExtraInfo": "ut",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Elsa Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 608
+            "FieldLength": 732
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "officiis",
-    "Hidden": false,
-    "FullName": "Mrs. Frankie Nelda Rau III",
+    "ExtraInfo": "aut",
+    "StyleHint": "alias",
+    "Hidden": true,
+    "FullName": "Alfonso Kunde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

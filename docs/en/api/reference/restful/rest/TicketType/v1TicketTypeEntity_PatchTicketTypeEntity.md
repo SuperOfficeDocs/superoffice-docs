@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "natus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "natus",
     "value": {}
   }
 ]
@@ -143,30 +143,30 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 729,
-  "Name": "Rohan, Daniel and Weissnat",
-  "Rank": 806,
-  "Tooltip": "quod",
-  "Icon": "consequatur",
-  "DefaultTicketStatus": 546,
+  "TicketTypeId": 195,
+  "Name": "Hamill Group",
+  "Rank": 694,
+  "Tooltip": "modi",
+  "Icon": "sed",
+  "DefaultTicketStatus": 977,
   "TicketStatuses": [
-    437,
-    647
+    308,
+    251
   ],
-  "DefaultTicketPriority": 899,
+  "DefaultTicketPriority": 380,
   "TicketPriorities": [
-    854,
-    447
+    493,
+    376
   ],
-  "ReplyTemplate": 320,
+  "ReplyTemplate": 381,
   "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldType": "System.String",
+      "FieldLength": 886
     }
   },
   "_Links": {

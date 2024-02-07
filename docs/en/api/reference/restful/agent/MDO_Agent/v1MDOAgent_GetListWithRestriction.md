@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Sanford LLC",
-  "AdditionalInfo": "aut",
-  "SearchValue": "ut"
+  "Name": "Graham-Ritchie",
+  "AdditionalInfo": "ratione",
+  "SearchValue": "voluptatibus"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Labadie, Bode and Koss",
-    "ToolTip": "Animi qui quia voluptate fugit commodi dolor.",
-    "Deleted": false,
-    "Rank": 391,
-    "Type": "vel",
+    "Id": 145,
+    "Name": "Gusikowski Inc and Sons",
+    "ToolTip": "Ipsum necessitatibus ut ipsam porro et distinctio.",
+    "Deleted": true,
+    "Rank": 952,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Aufderhar-Kshlerin",
-        "ToolTip": "Saepe nemo praesentium.",
+        "Id": 656,
+        "Name": "Marquardt, Mertz and Walker",
+        "ToolTip": "Distinctio labore cupiditate ut sit.",
         "Deleted": false,
-        "Rank": 718,
-        "Type": "omnis",
+        "Rank": 992,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 845,
-        "ExtraInfo": "dolores",
-        "StyleHint": "dolorem",
-        "FullName": "Clotilde Kautzer",
+        "IconHint": "sed",
+        "ColorBlock": 672,
+        "ExtraInfo": "vitae",
+        "StyleHint": "nisi",
+        "FullName": "Santina Ledner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 452
+            "FieldType": "System.Int32",
+            "FieldLength": 149
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 851,
-    "ExtraInfo": "magni",
-    "StyleHint": "et",
-    "FullName": "Tyrique Lehner",
+    "IconHint": "ut",
+    "ColorBlock": 32,
+    "ExtraInfo": "ullam",
+    "StyleHint": "beatae",
+    "FullName": "Luna Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 998
       }
     }
   }

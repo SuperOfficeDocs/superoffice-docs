@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/Workflow/ConnectEmailFlowContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 983,
-  "MessageId": 72
+  "EmailFlowId": 139,
+  "MessageId": 364
 }
 ```
 

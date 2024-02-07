@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 758,
-  "Name": "Ryan-Cummings"
+  "DashboardId": 901,
+  "Name": "Mueller-Stiedemann"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 964,
-  "UniqueId": "odit",
-  "Name": "Schuppe-Becker",
-  "Description": "Synergized background software",
-  "AssociateId": 315,
-  "Columns": 417,
+  "DashboardId": 436,
+  "UniqueId": "et",
+  "Name": "Emmerich-Swift",
+  "Description": "Automated client-driven approach",
+  "AssociateId": 349,
+  "Columns": 196,
   "Theme": null,
-  "VisibleForAll": 435,
+  "VisibleForAll": 877,
   "VisibleForAssociates": [
-    794,
-    69
+    326,
+    968
   ],
   "VisibleForGroups": [
-    580,
-    534
+    485,
+    67
   ],
-  "PinForAll": 16,
+  "PinForAll": 911,
   "PinForAssociates": [
-    81,
-    175
+    195,
+    809
   ],
   "PinForGroups": [
-    190,
-    585
+    59,
+    35
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 131
     }
   }
 }

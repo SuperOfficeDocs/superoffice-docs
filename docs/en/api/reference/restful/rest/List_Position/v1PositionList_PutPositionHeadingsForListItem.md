@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Name": "Conn, Gleason and Stoltenberg",
-    "ToolTip": "Officiis corrupti.",
-    "Deleted": false,
-    "Rank": 53,
-    "Type": "deleniti",
-    "ColorBlock": 585,
-    "IconHint": "laboriosam",
+    "Id": 813,
+    "Name": "Rogahn-Funk",
+    "ToolTip": "Quaerat dolorem expedita molestiae.",
+    "Deleted": true,
+    "Rank": 531,
+    "Type": "at",
+    "ColorBlock": 203,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2018-10-21T23:04:05.5749981+02:00",
+    "LastChanged": "2017-12-15T16:55:30.7712158+01:00",
     "ChildItems": [
       {
-        "Id": 52,
-        "Name": "Heller Group",
-        "ToolTip": "Voluptatem quam modi.",
+        "Id": 634,
+        "Name": "Kulas-Balistreri",
+        "ToolTip": "Vero nemo sit sed expedita officia quas.",
         "Deleted": false,
-        "Rank": 979,
-        "Type": "praesentium",
-        "ColorBlock": 772,
-        "IconHint": "molestiae",
-        "Selected": false,
-        "LastChanged": "2011-12-23T23:04:05.5749981+01:00",
+        "Rank": 842,
+        "Type": "cumque",
+        "ColorBlock": 961,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2000-11-29T16:55:30.7712158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "autem",
+        "ExtraInfo": "modi",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Bernice Hayes"
+        "FullName": "Mr. Bettye Walsh III"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "sed",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Sedrick Ernesto Jerde V"
+    "FullName": "Geovanny Kassulke II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "O'Kon LLC",
-    "ToolTip": "Sit adipisci.",
-    "Deleted": true,
-    "Rank": 458,
-    "Type": "quia",
-    "ColorBlock": 978,
-    "IconHint": "facere",
+    "Id": 291,
+    "Name": "McDermott Inc and Sons",
+    "ToolTip": "Omnis assumenda dolor aliquid.",
+    "Deleted": false,
+    "Rank": 57,
+    "Type": "at",
+    "ColorBlock": 56,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2013-01-16T23:04:05.5769987+01:00",
+    "LastChanged": "2012-03-20T16:55:30.7722628+01:00",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "Rosenbaum, Stehr and Yundt",
-        "ToolTip": "Est minus voluptas facilis dignissimos.",
-        "Deleted": true,
-        "Rank": 213,
-        "Type": "distinctio",
-        "ColorBlock": 407,
-        "IconHint": "corrupti",
+        "Id": 582,
+        "Name": "Becker-Wuckert",
+        "ToolTip": "Eum quia iure laudantium.",
+        "Deleted": false,
+        "Rank": 738,
+        "Type": "cumque",
+        "ColorBlock": 546,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2011-08-07T23:04:05.5769987+02:00",
+        "LastChanged": "2007-07-30T16:55:30.7722628+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "possimus",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Hipolito Boehm",
+        "FullName": "Melvina Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 101
+            "FieldLength": 328
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Miss Arvilla Muller",
+    "ExtraInfo": "rem",
+    "StyleHint": "repellat",
+    "Hidden": true,
+    "FullName": "Athena Bernita Larkin II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

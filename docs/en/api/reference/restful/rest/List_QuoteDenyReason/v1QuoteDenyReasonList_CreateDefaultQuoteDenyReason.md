@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 236,
-  "Name": "Veum, Kulas and Collier",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "UdListDefinitionId": 291,
-  "Rank": 380,
+  "Id": 53,
+  "Name": "Senger LLC",
+  "Tooltip": "non",
+  "Deleted": true,
+  "UdListDefinitionId": 443,
+  "Rank": 62,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldType": "System.String",
+      "FieldLength": 702
     }
   }
 }

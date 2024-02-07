@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 310
+  "Count": 201
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 355,
-    "StartDate": "2016-04-07T23:03:54.9481442+02:00",
-    "EndDate": "2017-10-02T23:03:54.9481442+02:00",
+    "AppointmentId": 102,
+    "StartDate": "1999-06-03T16:54:54.5476155+02:00",
+    "EndDate": "2009-07-04T16:54:54.5476155+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptas",
-    "AssociateFullName": "Ms. Alexander Darryl Effertz V",
-    "ContactName": "Effertz, McLaughlin and Howell",
-    "Description": "Inverse explicit forecast",
-    "PersonFullName": "Prof. Laney Obie Schumm II",
-    "PersonId": 653,
-    "ContactId": 78,
-    "ProjectId": 320,
-    "ProjectName": "Senger LLC",
+    "Task": "ipsam",
+    "AssociateFullName": "Pietro Ryan",
+    "ContactName": "Rowe-Skiles",
+    "Description": "Total systematic contingency",
+    "PersonFullName": "Kraig Zula Streich III",
+    "PersonId": 371,
+    "ContactId": 255,
+    "ProjectId": 420,
+    "ProjectName": "Williamson, Lowe and Langworth",
     "IsPublished": true,
-    "AssociateId": 490,
-    "ColorIndex": 260,
+    "AssociateId": 622,
+    "ColorIndex": 654,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 252,
-    "PriorityName": "Walter LLC",
+    "PriorityId": 984,
+    "PriorityName": "Waters, Abbott and Cartwright",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1998-03-08T23:03:54.948644+01:00",
+    "ActiveDate": "2003-07-17T16:54:54.5476155+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-01-15T23:03:54.948644+01:00",
-    "RecurringEndDate": "2004-08-24T23:03:54.948644+02:00",
-    "MotherId": 380,
-    "AssignedBy": 710,
-    "AssignedByFullName": "Kaci Legros",
+    "RecurringStartDate": "1997-04-19T16:54:54.5476155+02:00",
+    "RecurringEndDate": "2015-03-03T16:54:54.5476155+01:00",
+    "MotherId": 99,
+    "AssignedBy": 420,
+    "AssignedByFullName": "Dortha Schmeler",
     "RejectReason": "",
-    "Location": "animi",
-    "AlarmLeadTime": "neque",
-    "SaleId": 161,
-    "SaleName": "Macejkovic, Wehner and Kshlerin",
-    "AssociateName": "Tremblay LLC",
-    "CreatedDate": "2009-09-20T23:03:54.9491442+02:00",
-    "CreatedBy": "aliquid",
-    "CreatedByFullName": "Darian Wilkinson",
-    "CreatedByAssociateId": 950,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "doloribus",
+    "SaleId": 719,
+    "SaleName": "Muller Group",
+    "AssociateName": "Hegmann-Bode",
+    "CreatedDate": "2000-04-16T16:54:54.5486159+02:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Gerda Labadie",
+    "CreatedByAssociateId": 808,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 371,
-    "Title": "qui",
-    "Agenda": "eos",
-    "InternalNotes": "quam",
+    "PreferredTZLocation": 759,
+    "Title": "enim",
+    "Agenda": "qui",
+    "InternalNotes": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 438
       }
     }
   }

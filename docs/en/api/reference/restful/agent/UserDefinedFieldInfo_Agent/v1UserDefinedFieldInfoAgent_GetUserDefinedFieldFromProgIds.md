@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "mollitia",
-    "corporis"
+    "eos",
+    "at"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 964,
-    "ColumnId": 743,
-    "FieldDefault": "laudantium",
-    "FieldHeight": 87,
-    "FieldLabel": "et",
-    "FieldLeft": 449,
-    "FieldTop": 374,
+    "UDefFieldId": 875,
+    "ColumnId": 76,
+    "FieldDefault": "ut",
+    "FieldHeight": 931,
+    "FieldLabel": "quia",
+    "FieldLeft": 379,
+    "FieldTop": 415,
     "FieldType": "Checkbox",
-    "FieldWidth": 915,
-    "FormatMask": "dolore",
+    "FieldWidth": 51,
+    "FormatMask": "minima",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 703,
-    "LabelLeft": 434,
-    "LabelTop": 877,
-    "LabelWidth": 774,
-    "LastVersionId": 804,
-    "ListTableId": 291,
+    "IsIndexed": false,
+    "LabelHeight": 867,
+    "LabelLeft": 268,
+    "LabelTop": 23,
+    "LabelWidth": 940,
+    "LastVersionId": 208,
+    "ListTableId": 135,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 378,
-    "ProgId": "dolorem",
-    "IsReadOnly": false,
-    "ShortLabel": "atque",
-    "TabOrder": 710,
-    "TextLength": 89,
-    "Tooltip": "sunt",
-    "UdefIdentity": 395,
-    "UDListDefinitionId": 928,
+    "Page1LineNo": 50,
+    "ProgId": "ut",
+    "IsReadOnly": true,
+    "ShortLabel": "recusandae",
+    "TabOrder": 265,
+    "TextLength": 358,
+    "Tooltip": "quia",
+    "UdefIdentity": 746,
+    "UDListDefinitionId": 214,
     "Justification": "Center",
-    "Version": 537,
-    "TemplateVariableName": "Larkin LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Leannon Inc and Sons",
+    "Version": 773,
+    "TemplateVariableName": "Corwin-Hammes",
+    "HasBeenPublished": true,
+    "MdoListName": "Torp LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

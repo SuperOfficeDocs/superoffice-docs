@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 546,
-  "Name": "Hauck, Johnson and Schaefer",
-  "Tooltip": "voluptatem",
+  "Id": 31,
+  "Name": "Toy-Heller",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 110,
-  "IsCustomList": true,
+  "Rank": 744,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "occaecati",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

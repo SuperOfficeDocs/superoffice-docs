@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 171,
-    "Name": "Funk Group",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 975,
+    "Name": "Cronin, Fay and Waters",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 333,
-    "UdListDefinitionId": 750
+    "Rank": 971,
+    "UdListDefinitionId": 230
   },
   {
-    "HeadingId": 171,
-    "Name": "Funk Group",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 975,
+    "Name": "Cronin, Fay and Waters",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 333,
-    "UdListDefinitionId": 750
+    "Rank": 971,
+    "UdListDefinitionId": 230
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 857,
-    "Name": "Turcotte, Bradtke and Schmeler",
-    "Tooltip": "est",
+    "HeadingId": 942,
+    "Name": "Heathcote-Bechtelar",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 290,
-    "UdListDefinitionId": 812,
+    "Rank": 773,
+    "UdListDefinitionId": 466,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldType": "System.String",
+        "FieldLength": 557
       }
     }
   }

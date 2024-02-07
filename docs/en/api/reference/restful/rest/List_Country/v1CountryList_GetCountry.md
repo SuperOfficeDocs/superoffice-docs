@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 238,
-  "Name": "Barrows LLC",
-  "CurrencyId": 419,
-  "EnglishName": "Willms Group",
+  "CountryId": 410,
+  "Name": "Jacobs-Gibson",
+  "CurrencyId": 881,
+  "EnglishName": "Waters LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Automated zero defect workforce",
-  "OrgNrText": "1159736",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "ullam",
-  "DomainName": "O'Kon, Roberts and Swift",
-  "AddressLayoutId": 462,
-  "DomesticAddressLayoutId": 788,
-  "ForeignAddressLayoutId": 852,
-  "Rank": 225,
-  "Tooltip": "optio",
+  "ImageDescription": "Synergized methodical approach",
+  "OrgNrText": "1165919",
+  "InterAreaPrefix": "autem",
+  "DialInPrefix": "est",
+  "ZipPrefix": "rerum",
+  "DomainName": "Stracke, Howell and Bins",
+  "AddressLayoutId": 962,
+  "DomesticAddressLayoutId": 707,
+  "ForeignAddressLayoutId": 411,
+  "Rank": 340,
+  "Tooltip": "odit",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 452
     }
   }
 }

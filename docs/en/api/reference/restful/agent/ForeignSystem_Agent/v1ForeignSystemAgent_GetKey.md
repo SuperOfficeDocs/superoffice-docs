@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hane LLC",
-  "DeviceName": "Olson Inc and Sons",
-  "KeyName": "Metz-Prohaska",
-  "TableName": "Quigley, Nitzsche and Schmidt",
-  "RecordId": 993
+  "ApplicationName": "Wisozk-Lebsack",
+  "DeviceName": "Hilll-Batz",
+  "KeyName": "Quitzon-Watsica",
+  "TableName": "Nicolas, Marks and Bauch",
+  "RecordId": 943
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "autem",
-  "Value": "rerum",
-  "RecordId": 82,
-  "CreatedDate": "2000-08-16T23:03:56.1141275+02:00",
-  "UpdatedDate": "2001-12-21T23:03:56.1141275+01:00",
-  "UpdatedBy": "cumque",
-  "CreatedBy": "autem",
-  "TableName": "Carter Inc and Sons",
+  "Key": "omnis",
+  "Value": "consequatur",
+  "RecordId": 844,
+  "CreatedDate": "2021-02-06T16:54:55.4844672+01:00",
+  "UpdatedDate": "1999-10-12T16:54:55.4844672+02:00",
+  "UpdatedBy": "hic",
+  "CreatedBy": "porro",
+  "TableName": "Wolf LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldLength": 889
     }
   }
 }

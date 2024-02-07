@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 106,
+  "ReportId": 580,
   "ReportCategory": "All",
-  "Description": "Networked coherent pricing structure",
+  "Description": "Vision-oriented system-worthy monitoring",
   "ReportLayout": "CalendarMonth",
-  "Name": "Boyle, Nikolaus and Kessler",
-  "AssociateId": 327,
-  "TemplateId": 936,
+  "Name": "Denesik-Douglas",
+  "AssociateId": 419,
+  "TemplateId": 980,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldType": "System.String",
+      "FieldLength": 539
     }
   }
 }

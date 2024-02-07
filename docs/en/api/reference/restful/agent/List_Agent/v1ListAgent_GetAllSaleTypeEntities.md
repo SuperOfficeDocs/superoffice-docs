@@ -84,7 +84,7 @@ OK
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
+| Stages | array | Stages, those associated with this SaleType are selected.  Use MDO List name "salestage" to get list items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 958,
-    "Name": "Lindgren, Schowalter and Runolfsson",
-    "Tooltip": "possimus",
-    "Rank": 845,
+    "SaleTypeId": 384,
+    "Name": "Bosco, Fahey and Hodkiewicz",
+    "Tooltip": "illo",
+    "Rank": 988,
     "DurationUnit": "Century",
-    "SaleDuration": 13,
-    "SaleTypeCatId": 815,
+    "SaleDuration": 781,
+    "SaleTypeCatId": 257,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": true,
-    "IsAutoAdvance": true,
+    "HasGuide": true,
+    "HasStakeholders": false,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 739,
-    "QuoteLinesTemplate": 61,
-    "ConfirmationLinesTemplate": 651,
-    "MaxDiscountPercentSet": true,
+    "DefaultQuoteValidity": 816,
+    "QuoteLinesTemplate": 503,
+    "ConfirmationLinesTemplate": 304,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 329,
-    "MinEarningPercent": 617,
-    "GroupQuoteLinesBy": 987,
-    "SortGroupLinesBy": 649,
+    "MaxDiscountPercent": 219,
+    "MinEarningPercent": 921,
+    "GroupQuoteLinesBy": 757,
+    "SortGroupLinesBy": 298,
     "Stages": [
       {
-        "Id": 45,
-        "Name": "Goyette Inc and Sons",
-        "ToolTip": "Quae provident.",
-        "Deleted": true,
-        "Rank": 77,
-        "Type": "quia",
-        "ColorBlock": 147,
-        "IconHint": "impedit",
+        "Id": 323,
+        "Name": "Hand LLC",
+        "ToolTip": "Iste laboriosam praesentium commodi in fugit assumenda.",
+        "Deleted": false,
+        "Rank": 977,
+        "Type": "voluptatibus",
+        "ColorBlock": 343,
+        "IconHint": "facilis",
         "Selected": false,
-        "LastChanged": "2002-03-13T23:03:56.196132+01:00",
+        "LastChanged": "2011-03-06T16:54:55.5474743+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "cumque",
+        "ExtraInfo": "aut",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Travis Gerhold",
+        "FullName": "Miss Pablo Susie Nader MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 896
+            "FieldType": "System.Int32",
+            "FieldLength": 48
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldLength": 670
       }
     }
   }

@@ -75,31 +75,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 594,
-  "CrmRecordId": 322,
+  "ErpConnectionId": 635,
+  "CrmRecordId": 903,
   "CrmActorType": "Contact",
-  "ErpKey": "placeat",
+  "ErpKey": "et",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Zulauf, Emmerich and Pouros",
-      "CrmFieldKey": "rerum",
-      "Value": "mollitia",
-      "DisplayValue": "voluptas",
-      "SyncToCrm": true,
-      "SyncToErp": true
+      "DisplayName": "Legros, Krajcik and Labadie",
+      "CrmFieldKey": "non",
+      "Value": "ratione",
+      "DisplayValue": "possimus",
+      "SyncToCrm": false,
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Zulauf, Emmerich and Pouros",
-      "CrmFieldKey": "rerum",
-      "Value": "mollitia",
-      "DisplayValue": "voluptas",
-      "SyncToCrm": true,
-      "SyncToErp": true
+      "DisplayName": "Legros, Krajcik and Labadie",
+      "CrmFieldKey": "non",
+      "Value": "ratione",
+      "DisplayValue": "possimus",
+      "SyncToCrm": false,
+      "SyncToErp": false
     }
   ]
 }

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "unde"
+  "CRMScriptUniqueId": "aliquam"
 }
 ```
 
@@ -96,16 +96,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "voluptate",
-  "LineNumber": 994,
+  "Valid": false,
+  "ErrorMessage": "error",
+  "LineNumber": 905,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldType": "System.String",
+      "FieldLength": 863
     }
   }
 }

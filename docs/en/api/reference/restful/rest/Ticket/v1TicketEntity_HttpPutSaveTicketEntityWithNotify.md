@@ -140,15 +140,15 @@ OK
 | Deadline | date-time | Deadline for ticket. |
 | CreatedBy | Associate | The associate who created this ticket |
 | Author | string | A string representing the author of the ticket (same as author of first message). |
-| OwnedBy | Associate | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
-| Category | TicketCategoryEntity | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
+| OwnedBy | Associate | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  Use MDO List name "associate" to get list items. |
+| Category | TicketCategoryEntity | The ticket category entity which this ticket is connected to  Use MDO List name "ejcategory" to get list items. |
 | Slevel | string | The securitylevel of the ticket. |
-| Priority | TicketPriorityEntity | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
-| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <para>Use MDO List name "ticketstatus" to get list items.</para> |
-| Status | TicketStatusEntity | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
+| Priority | TicketPriorityEntity | The ticket priority entity which this ticket is connected to  Use MDO List name "ticketpriority" to get list items. |
+| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  Use MDO List name "ticketstatus" to get list items. |
+| Status | TicketStatusEntity | The ticket status entity which this ticket is connected to  Use MDO List name "ticketstatus" to get list items. |
 | Origin | string | What is the origin of this ticket |
-| Person | Person | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
-| SecondaryPersons | array | The secondary persons this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
+| Person | Person | The primary person that this ticket is connected to  Use MDO List name "person_new" to get list items. |
+| SecondaryPersons | array | The secondary persons this ticket is connected to  Use MDO List name "person_new" to get list items. |
 | AlertLevel | int32 | The alert level for the ticket. Matches the level value of the ticket_alert table. |
 | ConnectId | int32 | If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket. |
 | ReadStatus | string | Whether the owner has read the ticket or not (red, yellow, green). |
@@ -176,13 +176,13 @@ OK
 | SuggestedCategoryName | string | Suggested category from AI |
 | OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
 | IconHint | string | Icon representing ticket's state |
-| Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
-| Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
+| Sale | Sale | The sale that this ticket is connected to  Use MDO List name "sale" to get list items. |
+| Project | Project | The project that this ticket is connected to  Use MDO List name "project" to get list items. |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
-| TicketType | TicketType | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
+| TicketType | TicketType | Type of the Request  Use MDO List name "TicketType" to get list items. |
 | ActiveStatusMonitorId | int32 | Active status monitor identity for related contact. This is a read-only property and is ignored on Save |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -196,21 +196,21 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 502,
-  "Title": "alias",
-  "CreatedAt": "1999-12-12T23:04:04.8710084+01:00",
-  "LastChanged": "2007-10-24T23:04:04.8710084+02:00",
-  "ReadByOwner": "2020-06-18T23:04:04.8710084+02:00",
-  "ReadByCustomer": "2017-06-10T23:04:04.8710084+02:00",
-  "FirstReadByOwner": "1997-07-09T23:04:04.8710084+02:00",
-  "FirstReadByUser": "1997-10-20T23:04:04.8710084+02:00",
-  "Activate": "2004-02-12T23:04:04.8710084+01:00",
-  "ClosedAt": "2013-02-23T23:04:04.8710084+01:00",
-  "RepliedAt": "1998-02-24T23:04:04.8710084+01:00",
-  "AlertTimeout": "2014-01-21T23:04:04.8710084+01:00",
-  "Deadline": "2022-11-10T23:04:04.8710084+01:00",
+  "TicketId": 843,
+  "Title": "laboriosam",
+  "CreatedAt": "2011-08-02T16:55:30.1980405+02:00",
+  "LastChanged": "2017-09-27T16:55:30.1980405+02:00",
+  "ReadByOwner": "2007-07-15T16:55:30.1980405+02:00",
+  "ReadByCustomer": "2011-08-23T16:55:30.1980405+02:00",
+  "FirstReadByOwner": "2014-02-14T16:55:30.1980405+01:00",
+  "FirstReadByUser": "2015-02-14T16:55:30.1980405+01:00",
+  "Activate": "2002-10-15T16:55:30.1980405+02:00",
+  "ClosedAt": "2003-01-05T16:55:30.1980405+01:00",
+  "RepliedAt": "2005-04-29T16:55:30.1980405+02:00",
+  "AlertTimeout": "2017-10-05T16:55:30.1980405+02:00",
+  "Deadline": "2006-09-01T16:55:30.1980405+02:00",
   "CreatedBy": null,
-  "Author": "hic",
+  "Author": "et",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -221,123 +221,123 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sed",
-      "PersonId": 177,
-      "Mrmrs": "ut",
-      "Firstname": "Loren",
-      "Lastname": "Hayes",
-      "MiddleName": "Conroy Group",
-      "Title": "aliquid",
-      "Description": "Visionary tertiary function",
-      "Email": "jeremy@towne.name",
-      "FullName": "Miss Cale Runolfsson",
-      "DirectPhone": "(058)995-4706 x85726",
-      "FormalName": "Gerhold Inc and Sons",
-      "CountryId": 259,
-      "ContactId": 251,
-      "ContactName": "Vandervort-Nikolaus",
-      "Retired": 455,
-      "Rank": 262,
-      "ActiveInterests": 429,
+      "Position": "id",
+      "PersonId": 517,
+      "Mrmrs": "dolores",
+      "Firstname": "Timmothy",
+      "Lastname": "Miller",
+      "MiddleName": "Russel LLC",
+      "Title": "nisi",
+      "Description": "Up-sized maximized Graphic Interface",
+      "Email": "margarete.bode@herman.uk",
+      "FullName": "Miss Rachael Toney Parisian III",
+      "DirectPhone": "138.789.6770",
+      "FormalName": "Mann-Lynch",
+      "CountryId": 19,
+      "ContactId": 79,
+      "ContactName": "Padberg-O'Hara",
+      "Retired": 977,
+      "Rank": 921,
+      "ActiveInterests": 439,
       "ContactDepartment": "",
-      "ContactCountryId": 675,
-      "ContactOrgNr": "315711",
-      "FaxPhone": "1-854-580-2867",
-      "MobilePhone": "(708)864-4692",
-      "ContactPhone": "737.802.9510 x150",
-      "AssociateName": "O'Reilly, Dicki and Jewess",
-      "AssociateId": 373,
+      "ContactCountryId": 555,
+      "ContactOrgNr": "1339741",
+      "FaxPhone": "825.248.4096 x51622",
+      "MobilePhone": "617-977-2552 x302",
+      "ContactPhone": "1-310-606-1110",
+      "AssociateName": "Ryan Group",
+      "AssociateId": 758,
       "UsePersonAddress": false,
-      "ContactFax": "corrupti",
-      "Kanafname": "et",
-      "Kanalname": "iusto",
-      "Post1": "illo",
-      "Post2": "est",
-      "Post3": "unde",
-      "EmailName": "josefa@aufderhar.name",
-      "ContactFullName": "Alan Graham",
-      "ActiveErpLinks": 189,
-      "TicketPriorityId": 672,
-      "SupportLanguageId": 352,
-      "SupportAssociateId": 162,
+      "ContactFax": "suscipit",
+      "Kanafname": "est",
+      "Kanalname": "qui",
+      "Post1": "dicta",
+      "Post2": "consectetur",
+      "Post3": "eum",
+      "EmailName": "joshua@weissnatschmidt.us",
+      "ContactFullName": "Miss Lenny Osinski DVM",
+      "ActiveErpLinks": 15,
+      "TicketPriorityId": 334,
+      "SupportLanguageId": 777,
+      "SupportAssociateId": 772,
       "CategoryName": "VIP Customer"
     }
   ],
-  "AlertLevel": 907,
-  "ConnectId": 686,
+  "AlertLevel": 418,
+  "ConnectId": 555,
   "ReadStatus": "Green",
-  "TimeToReply": 686,
-  "RealTimeToReply": 27,
-  "TimeToClose": 370,
-  "RealTimeToClose": 566,
-  "TimeSpentInternally": 850,
-  "TimeSpentExternally": 572,
-  "TimeSpentQueue": 615,
-  "RealTimeSpentInternally": 725,
-  "RealTimeSpentExternally": 974,
-  "RealTimeSpentQueue": 205,
-  "TimeSpent": 456,
-  "HasAttachment": true,
-  "NumReplies": 359,
-  "NumMessages": 883,
-  "FromAddress": "deleniti",
+  "TimeToReply": 945,
+  "RealTimeToReply": 472,
+  "TimeToClose": 208,
+  "RealTimeToClose": 78,
+  "TimeSpentInternally": 672,
+  "TimeSpentExternally": 67,
+  "TimeSpentQueue": 224,
+  "RealTimeSpentInternally": 804,
+  "RealTimeSpentExternally": 656,
+  "RealTimeSpentQueue": 65,
+  "TimeSpent": 779,
+  "HasAttachment": false,
+  "NumReplies": 694,
+  "NumMessages": 177,
+  "FromAddress": "autem",
   "Messages": [
     {
-      "TicketMessageId": 397,
-      "CreatedAt": "2013-08-20T23:04:04.8770073+02:00",
+      "TicketMessageId": 672,
+      "CreatedAt": "2000-10-26T16:55:30.2030465+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "est",
-      "PersonId": 595,
-      "PersonFullName": "Kristy Lubowitz",
-      "ContactId": 866,
-      "ContactName": "Gottlieb, Quitzon and Predovic",
+      "Author": "corporis",
+      "PersonId": 929,
+      "PersonFullName": "Mr. Arnulfo Bednar MD",
+      "ContactId": 420,
+      "ContactName": "Nikolaus, Skiles and Heaney",
       "ContactDepartment": "",
-      "NumAttachments": 207,
-      "EmailHeader": "oceane.shields@jaskolskipacocha.us",
+      "NumAttachments": 418,
+      "EmailHeader": "eloisa.aufderhar@hagenes.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "eum",
-      "Sentiment": 76,
-      "SentimentConfidence": 356,
-      "CreatedBy": 455,
-      "ChangedAt": "2007-04-22T23:04:04.8770073+02:00",
+      "Language": "impedit",
+      "Sentiment": 714,
+      "SentimentConfidence": 95,
+      "CreatedBy": 512,
+      "ChangedAt": "2013-07-20T16:55:30.2030465+02:00",
       "Badge": "Comment"
     }
   ],
   "Tags": [
     {
-      "Id": 24,
-      "Name": "Baumbach Inc and Sons",
-      "ToolTip": "Vero officia."
+      "Id": 943,
+      "Name": "Cruickshank-Romaguera",
+      "ToolTip": "Corrupti blanditiis labore numquam rerum mollitia."
     },
     {
-      "Id": 24,
-      "Name": "Baumbach Inc and Sons",
-      "ToolTip": "Vero officia."
+      "Id": 943,
+      "Name": "Cruickshank-Romaguera",
+      "ToolTip": "Corrupti blanditiis labore numquam rerum mollitia."
     }
   ],
-  "Language": "tenetur",
-  "Sentiment": 974,
-  "SentimentConfidence": 849,
-  "SuggestedCategoryId": 816,
+  "Language": "ut",
+  "Sentiment": 72,
+  "SentimentConfidence": 291,
+  "SuggestedCategoryId": 278,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 84,
-  "IconHint": "ratione",
+  "OrigHumanCategoryId": 127,
+  "IconHint": "soluta",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 696,
+  "ActiveStatusMonitorId": 325,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "et"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "aut",
+    "CustomFields2": "eos"
   }
 }
 ```
@@ -349,21 +349,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 445,
-  "Title": "rem",
-  "CreatedAt": "2002-08-26T23:04:04.8860075+02:00",
-  "LastChanged": "2010-02-08T23:04:04.8860075+01:00",
-  "ReadByOwner": "2016-12-09T23:04:04.8860075+01:00",
-  "ReadByCustomer": "2022-12-31T23:04:04.8860075+01:00",
-  "FirstReadByOwner": "2014-11-22T23:04:04.8860075+01:00",
-  "FirstReadByUser": "2020-07-12T23:04:04.8860075+02:00",
-  "Activate": "2002-05-26T23:04:04.8860075+02:00",
-  "ClosedAt": "2015-12-09T23:04:04.8860075+01:00",
-  "RepliedAt": "2015-01-22T23:04:04.8860075+01:00",
-  "AlertTimeout": "2005-10-21T23:04:04.8860075+02:00",
-  "Deadline": "2019-01-30T23:04:04.8860075+01:00",
+  "TicketId": 807,
+  "Title": "aspernatur",
+  "CreatedAt": "2001-01-18T16:55:30.2110453+01:00",
+  "LastChanged": "2004-01-07T16:55:30.2110453+01:00",
+  "ReadByOwner": "2012-12-31T16:55:30.2110453+01:00",
+  "ReadByCustomer": "1997-12-25T16:55:30.2110453+01:00",
+  "FirstReadByOwner": "1997-09-01T16:55:30.2110453+02:00",
+  "FirstReadByUser": "2021-08-26T16:55:30.2110453+02:00",
+  "Activate": "2011-01-30T16:55:30.2110453+01:00",
+  "ClosedAt": "2011-11-27T16:55:30.2110453+01:00",
+  "RepliedAt": "2013-03-05T16:55:30.2110453+01:00",
+  "AlertTimeout": "2000-05-09T16:55:30.2110453+02:00",
+  "Deadline": "2023-11-27T16:55:30.2110453+01:00",
   "CreatedBy": null,
-  "Author": "explicabo",
+  "Author": "est",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -374,104 +374,104 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "odit",
-      "PersonId": 262,
-      "Mrmrs": "quo",
-      "Firstname": "Retha",
-      "Lastname": "Wiza",
-      "MiddleName": "Schiller, Goldner and Murazik",
-      "Title": "veritatis",
-      "Description": "Focused intermediate encoding",
-      "Email": "alessandro.jewess@rolfson.name",
-      "FullName": "Madelyn Kreiger",
-      "DirectPhone": "588.127.8633",
-      "FormalName": "Beier-Larkin",
-      "CountryId": 700,
-      "ContactId": 626,
-      "ContactName": "Johns-Okuneva",
-      "Retired": 918,
-      "Rank": 548,
-      "ActiveInterests": 289,
+      "Position": "molestiae",
+      "PersonId": 251,
+      "Mrmrs": "qui",
+      "Firstname": "Isabella",
+      "Lastname": "Parisian",
+      "MiddleName": "Quitzon-Hammes",
+      "Title": "nulla",
+      "Description": "Reverse-engineered regional methodology",
+      "Email": "elijah_veum@kunde.uk",
+      "FullName": "Dr. Pierce Eriberto Murazik",
+      "DirectPhone": "1-029-247-0933",
+      "FormalName": "Wyman, Muller and Runte",
+      "CountryId": 164,
+      "ContactId": 880,
+      "ContactName": "Goyette-Treutel",
+      "Retired": 957,
+      "Rank": 774,
+      "ActiveInterests": 471,
       "ContactDepartment": "",
-      "ContactCountryId": 336,
-      "ContactOrgNr": "999494",
-      "FaxPhone": "186-067-4914",
-      "MobilePhone": "1-709-322-5350 x380",
-      "ContactPhone": "1-721-063-4832 x9522",
-      "AssociateName": "McGlynn, Welch and Mraz",
-      "AssociateId": 209,
-      "UsePersonAddress": false,
-      "ContactFax": "aut",
-      "Kanafname": "laborum",
-      "Kanalname": "quasi",
-      "Post1": "veniam",
-      "Post2": "qui",
-      "Post3": "aut",
-      "EmailName": "dee@wunschnicolas.name",
-      "ContactFullName": "Regan Walker",
-      "ActiveErpLinks": 873,
-      "TicketPriorityId": 909,
-      "SupportLanguageId": 666,
-      "SupportAssociateId": 966,
+      "ContactCountryId": 17,
+      "ContactOrgNr": "1000627",
+      "FaxPhone": "(190)920-0493 x507",
+      "MobilePhone": "841-222-6239",
+      "ContactPhone": "(663)616-4287",
+      "AssociateName": "O'Keefe LLC",
+      "AssociateId": 925,
+      "UsePersonAddress": true,
+      "ContactFax": "porro",
+      "Kanafname": "voluptatem",
+      "Kanalname": "laboriosam",
+      "Post1": "temporibus",
+      "Post2": "officiis",
+      "Post3": "dolor",
+      "EmailName": "abagail_towne@ortiz.uk",
+      "ContactFullName": "Johann Dietrich",
+      "ActiveErpLinks": 416,
+      "TicketPriorityId": 572,
+      "SupportLanguageId": 193,
+      "SupportAssociateId": 531,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 467
+          "FieldLength": 995
         }
       }
     }
   ],
-  "AlertLevel": 1000,
-  "ConnectId": 75,
+  "AlertLevel": 111,
+  "ConnectId": 72,
   "ReadStatus": "Green",
-  "TimeToReply": 195,
-  "RealTimeToReply": 868,
-  "TimeToClose": 526,
-  "RealTimeToClose": 846,
-  "TimeSpentInternally": 616,
-  "TimeSpentExternally": 817,
-  "TimeSpentQueue": 450,
-  "RealTimeSpentInternally": 872,
-  "RealTimeSpentExternally": 482,
-  "RealTimeSpentQueue": 106,
-  "TimeSpent": 229,
+  "TimeToReply": 154,
+  "RealTimeToReply": 920,
+  "TimeToClose": 670,
+  "RealTimeToClose": 708,
+  "TimeSpentInternally": 26,
+  "TimeSpentExternally": 482,
+  "TimeSpentQueue": 258,
+  "RealTimeSpentInternally": 323,
+  "RealTimeSpentExternally": 563,
+  "RealTimeSpentQueue": 419,
+  "TimeSpent": 254,
   "HasAttachment": false,
-  "NumReplies": 41,
-  "NumMessages": 290,
-  "FromAddress": "voluptas",
+  "NumReplies": 13,
+  "NumMessages": 724,
+  "FromAddress": "incidunt",
   "Messages": [
     {
-      "TicketMessageId": 793,
-      "CreatedAt": "2003-11-24T23:04:04.891008+01:00",
+      "TicketMessageId": 213,
+      "CreatedAt": "2022-06-15T16:55:30.2150504+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "quasi",
-      "PersonId": 893,
-      "PersonFullName": "Jaquan Daugherty",
-      "ContactId": 747,
-      "ContactName": "Abernathy, Fritsch and Ferry",
+      "Author": "error",
+      "PersonId": 12,
+      "PersonFullName": "Arlie Block",
+      "ContactId": 906,
+      "ContactName": "Larkin, Beatty and O'Reilly",
       "ContactDepartment": "",
-      "NumAttachments": 71,
-      "EmailHeader": "kayden.johnson@turcotte.uk",
+      "NumAttachments": 48,
+      "EmailHeader": "fiona@schumm.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "voluptas",
-      "Sentiment": 341,
-      "SentimentConfidence": 648,
-      "CreatedBy": 8,
-      "ChangedAt": "2007-07-03T23:04:04.8915087+02:00",
+      "Language": "temporibus",
+      "Sentiment": 191,
+      "SentimentConfidence": 824,
+      "CreatedBy": 850,
+      "ChangedAt": "2008-04-12T16:55:30.2160488+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 503
+          "FieldType": "System.Int32",
+          "FieldLength": 356
         }
       }
     }
@@ -479,57 +479,57 @@ Content-Type: application/json; charset=utf-8
   "Tags": [
     {
       "Id": 726,
-      "Name": "Bins LLC",
-      "ToolTip": "In quas est commodi dolor dolore veniam suscipit.",
+      "Name": "Barrows-Kling",
+      "ToolTip": "Vel temporibus ullam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 750
         }
       }
     },
     {
       "Id": 726,
-      "Name": "Bins LLC",
-      "ToolTip": "In quas est commodi dolor dolore veniam suscipit.",
+      "Name": "Barrows-Kling",
+      "ToolTip": "Vel temporibus ullam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 750
         }
       }
     }
   ],
-  "Language": "omnis",
-  "Sentiment": 211,
-  "SentimentConfidence": 950,
-  "SuggestedCategoryId": 53,
+  "Language": "voluptatem",
+  "Sentiment": 136,
+  "SentimentConfidence": 204,
+  "SuggestedCategoryId": 754,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 493,
-  "IconHint": "id",
+  "OrigHumanCategoryId": 738,
+  "IconHint": "natus",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 226,
+  "ActiveStatusMonitorId": 88,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "et"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "doloremque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 570
     }
   }
 }

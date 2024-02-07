@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 402,
-  "Name": "Effertz Group",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "Rank": 666,
-  "UdListDefinitionId": 802
+  "HeadingId": 240,
+  "Name": "Greenholt-Hartmann",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 229,
+  "UdListDefinitionId": 695
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 482,
-  "Name": "Nolan-Powlowski",
-  "Tooltip": "fugiat",
+  "HeadingId": 977,
+  "Name": "Friesen LLC",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "Rank": 26,
-  "UdListDefinitionId": 522,
+  "Rank": 981,
+  "UdListDefinitionId": 802,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 604
     }
   }
 }

@@ -69,8 +69,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 239,
-  "SortOrder": 992
+  "TicketStatusId": 367,
+  "SortOrder": 985
 }
 ```
 

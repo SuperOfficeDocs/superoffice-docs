@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 126,
+  "QuoteAlternativeId": 796,
   "ERPQuoteAlternativeKey": "facere",
-  "QuoteVersionId": 181,
-  "Name": "Champlin, Legros and Connelly",
-  "Description": "Re-contextualized tertiary orchestration",
+  "QuoteVersionId": 686,
+  "Name": "Jast, Wyman and Goyette",
+  "Description": "Inverse well-modulated knowledge user",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 26942.998,
-  "ERPDiscountAmount": 28265.546,
-  "DiscountPercent": 10865.578,
-  "DiscountAmount": 11191.514,
+  "ERPDiscountPercent": 5891.92,
+  "ERPDiscountAmount": 13589.024,
+  "DiscountPercent": 19976.115999999998,
+  "DiscountAmount": 24382.52,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "qui",
-  "VAT": 21511.775999999998,
-  "EarningPercent": 7860.072,
-  "EarningAmount": 5656.87,
-  "SubTotal": 17055.228,
-  "TotalPrice": 8631.036,
-  "ExtraField1": "fugiat",
-  "ExtraField2": "asperiores",
-  "ExtraField3": "repudiandae",
-  "ExtraField4": "tenetur",
-  "ExtraField5": "minima",
+  "VATInfo": "doloribus",
+  "VAT": 542.182,
+  "EarningPercent": 1488.6499999999999,
+  "EarningAmount": 26805.102,
+  "SubTotal": 24448.334,
+  "TotalPrice": 200.576,
+  "ExtraField1": "repudiandae",
+  "ExtraField2": "qui",
+  "ExtraField3": "corporis",
+  "ExtraField4": "omnis",
+  "ExtraField5": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 226
     }
   }
 }

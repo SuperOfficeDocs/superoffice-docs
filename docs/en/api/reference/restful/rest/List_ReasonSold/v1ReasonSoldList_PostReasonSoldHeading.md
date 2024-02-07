@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 356,
-  "Name": "McLaughlin Inc and Sons",
-  "Tooltip": "nisi",
+  "HeadingId": 596,
+  "Name": "Stracke, Ondricka and Gerlach",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 942,
-  "UdListDefinitionId": 665
+  "Rank": 570,
+  "UdListDefinitionId": 453
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 401,
-  "Name": "Ziemann-Walsh",
-  "Tooltip": "dolores",
+  "HeadingId": 928,
+  "Name": "Leannon-Abbott",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 313,
-  "UdListDefinitionId": 496,
+  "Rank": 12,
+  "UdListDefinitionId": 570,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 315
     }
   }
 }

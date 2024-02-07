@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 793,
-    "Value": "consequatur",
-    "Tooltip": "harum",
+    "Id": 13,
+    "Value": "et",
+    "Tooltip": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   },
   {
-    "Id": 793,
-    "Value": "consequatur",
-    "Tooltip": "harum",
+    "Id": 13,
+    "Value": "et",
+    "Tooltip": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

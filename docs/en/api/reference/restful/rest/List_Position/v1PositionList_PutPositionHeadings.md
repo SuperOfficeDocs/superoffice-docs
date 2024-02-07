@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 256,
-    "Name": "Ankunding Group",
-    "Tooltip": "quaerat",
-    "Deleted": true,
-    "Rank": 245,
-    "UdListDefinitionId": 527
+    "HeadingId": 740,
+    "Name": "Reichel, Hauck and Mills",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 663,
+    "UdListDefinitionId": 22
   },
   {
-    "HeadingId": 256,
-    "Name": "Ankunding Group",
-    "Tooltip": "quaerat",
-    "Deleted": true,
-    "Rank": 245,
-    "UdListDefinitionId": 527
+    "HeadingId": 740,
+    "Name": "Reichel, Hauck and Mills",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 663,
+    "UdListDefinitionId": 22
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 32,
-    "Name": "Roberts-Wolff",
-    "Tooltip": "placeat",
-    "Deleted": true,
-    "Rank": 803,
-    "UdListDefinitionId": 809,
+    "HeadingId": 382,
+    "Name": "Kuhn-Nitzsche",
+    "Tooltip": "dolore",
+    "Deleted": false,
+    "Rank": 33,
+    "UdListDefinitionId": 456,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 167
+        "FieldLength": 902
       }
     }
   }

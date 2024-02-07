@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Davis, Hintz and O'Kon",
-      "DisplayName": "Hand-Quitzon",
-      "DisplayTooltip": "voluptatem",
+      "Name": "Klein LLC",
+      "DisplayName": "Leffler Group",
+      "DisplayTooltip": "illum",
       "IsActive": false
     },
     {
-      "Name": "Davis, Hintz and O'Kon",
-      "DisplayName": "Hand-Quitzon",
-      "DisplayTooltip": "voluptatem",
+      "Name": "Klein LLC",
+      "DisplayName": "Leffler Group",
+      "DisplayTooltip": "illum",
       "IsActive": false
     }
   ]

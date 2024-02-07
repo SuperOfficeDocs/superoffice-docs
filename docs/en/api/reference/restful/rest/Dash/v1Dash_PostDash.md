@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 35,
-  "UniqueId": "eum",
-  "Name": "Bayer Inc and Sons",
-  "Description": "Up-sized dynamic help-desk",
-  "AssociateId": 111,
-  "Columns": 447,
+  "DashboardId": 944,
+  "UniqueId": "rerum",
+  "Name": "Deckow LLC",
+  "Description": "Enterprise-wide 3rd generation productivity",
+  "AssociateId": 684,
+  "Columns": 388,
   "Theme": null,
-  "VisibleForAll": 481,
+  "VisibleForAll": 115,
   "VisibleForAssociates": [
-    179,
-    110
+    730,
+    140
   ],
   "VisibleForGroups": [
-    835,
-    171
+    375,
+    411
   ],
-  "PinForAll": 865,
+  "PinForAll": 429,
   "PinForAssociates": [
-    668,
-    986
+    10,
+    718
   ],
   "PinForGroups": [
-    159,
-    260
+    121,
+    319
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 946,
-  "UniqueId": "voluptate",
-  "Name": "Rodriguez LLC",
-  "Description": "Managed multimedia core",
-  "AssociateId": 370,
-  "Columns": 492,
+  "DashboardId": 270,
+  "UniqueId": "et",
+  "Name": "O'Reilly-Marquardt",
+  "Description": "Reactive fault-tolerant Graphical User Interface",
+  "AssociateId": 9,
+  "Columns": 467,
   "Theme": null,
-  "VisibleForAll": 994,
+  "VisibleForAll": 830,
   "VisibleForAssociates": [
-    291,
-    988
+    19,
+    856
   ],
   "VisibleForGroups": [
-    131,
-    112
+    138,
+    298
   ],
-  "PinForAll": 252,
+  "PinForAll": 708,
   "PinForAssociates": [
-    76,
-    598
+    409,
+    761
   ],
   "PinForGroups": [
-    319,
-    473
+    97,
+    977
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

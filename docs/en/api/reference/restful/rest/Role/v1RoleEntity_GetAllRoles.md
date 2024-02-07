@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Sawayn-Kunze",
-    "ToolTip": "Modi possimus commodi amet quia veritatis.",
+    "Id": 761,
+    "Name": "Nicolas, Larson and Cremin",
+    "ToolTip": "Harum quos rerum vitae eum expedita nemo.",
     "Deleted": false,
-    "Rank": 188,
-    "Type": "atque",
-    "ColorBlock": 803,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2020-07-05T23:04:04.6275112+02:00",
+    "Rank": 161,
+    "Type": "corrupti",
+    "ColorBlock": 62,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "1999-08-13T16:55:30.0006108+02:00",
     "ChildItems": [
       {
-        "Id": 988,
-        "Name": "Goyette, Keebler and Schneider",
-        "ToolTip": "Iste harum porro mollitia molestias dolores officia et.",
+        "Id": 369,
+        "Name": "Howe-Sanford",
+        "ToolTip": "Veritatis officia quia.",
         "Deleted": false,
-        "Rank": 540,
-        "Type": "sint",
-        "ColorBlock": 77,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "2015-11-03T23:04:04.6280107+01:00",
+        "Rank": 267,
+        "Type": "corrupti",
+        "ColorBlock": 899,
+        "IconHint": "dolore",
+        "Selected": false,
+        "LastChanged": "2013-11-10T16:55:30.0006108+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "sequi",
+        "ExtraInfo": "ad",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Justen Dare",
+        "FullName": "Mrs. Loyce Jalon Jaskolski II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 700
+            "FieldType": "System.String",
+            "FieldLength": 385
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "quod",
-    "Hidden": true,
-    "FullName": "Tyrese Roberts",
+    "ExtraInfo": "quas",
+    "StyleHint": "amet",
+    "Hidden": false,
+    "FullName": "Macie Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 320
       }
     }
   }

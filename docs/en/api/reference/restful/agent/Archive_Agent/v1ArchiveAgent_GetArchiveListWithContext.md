@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schneider-Ryan",
-  "ProviderName": "Lemke LLC",
+  "GuiName": "Parisian Group",
+  "ProviderName": "Reichert Inc and Sons",
   "SortOrder": [
     {
-      "Name": "Bradtke, Reichert and Reichel",
+      "Name": "Zulauf, Cremin and Cartwright",
       "Direction": "ASC"
     },
     {
-      "Name": "Bradtke, Reichert and Reichel",
+      "Name": "Zulauf, Cremin and Cartwright",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Dickinson, Treutel and Morar",
-      "Operator": "doloribus",
+      "Name": "Greenholt Group",
+      "Operator": "hic",
       "Values": [
-        "dolore",
-        "in"
+        "quo",
+        "sit"
       ],
       "DisplayValues": [
-        "voluptas",
-        "repudiandae"
+        "est",
+        "fuga"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 491,
+      "InterParenthesis": 972,
       "InterOperator": "And",
-      "UniqueHash": 999
+      "UniqueHash": 513
     }
   ],
   "Entities": [
-    "molestiae",
-    "nostrum"
+    "veritatis",
+    "quod"
   ],
-  "Page": 469,
-  "PageSize": 50,
-  "Context": "sed"
+  "Page": 942,
+  "PageSize": 503,
+  "Context": "in"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Nader Inc and Sons",
-    "PrimaryKey": 918,
+    "EntityName": "Renner Group",
+    "PrimaryKey": 3,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "repellat",
-        "TooltipHint": "dolor",
-        "LinkHint": "amet"
+        "DisplayValue": "aut",
+        "TooltipHint": "eaque",
+        "LinkHint": "suscipit"
       }
     },
-    "LinkHint": "quis",
-    "StyleHint": "quam",
+    "LinkHint": "tenetur",
+    "StyleHint": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 547
       }
     }
   }

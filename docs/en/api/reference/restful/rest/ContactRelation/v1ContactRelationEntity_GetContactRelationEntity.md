@@ -73,8 +73,8 @@ ContactRelationEntity found.
 | Reversed | int32 | Is direction reversed relative to definition |
 | UpdatedDate | date-time | Last updated when  in UTC. |
 | CreatedDate | date-time | Registered when  in UTC. |
-| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
+| CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
+| UpdatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the Associate Agent. |
 | SourceContactName | string | Name of the source contact. |
 | SourcePersonName | string | Name of the source person. |
 | DestinationContactName | string | Name of the destination contact. |
@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 14 Dec 1999 23:04:04 G12T
+Last-Modified: Fri, 13 Jul 2018 16:55:29 G7T
 
 {
-  "SourceContactId": 785,
-  "SourcePersonId": 248,
-  "DestinationContactId": 658,
-  "DestinationPersonId": 231,
-  "RelationId": 800,
-  "Comment": "reiciendis",
-  "RelationDefinitionId": 350,
-  "Reversed": 509,
-  "UpdatedDate": "1999-12-14T23:04:04.0585213+01:00",
-  "CreatedDate": "2018-08-01T23:04:04.0585213+02:00",
+  "SourceContactId": 656,
+  "SourcePersonId": 310,
+  "DestinationContactId": 724,
+  "DestinationPersonId": 899,
+  "RelationId": 572,
+  "Comment": "doloremque",
+  "RelationDefinitionId": 758,
+  "Reversed": 84,
+  "UpdatedDate": "2018-07-13T16:55:29.5208331+02:00",
+  "CreatedDate": "2024-01-22T16:55:29.5208331+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Gottlieb-Bayer",
-  "SourcePersonName": "Koepp-DuBuque",
-  "DestinationContactName": "McLaughlin LLC",
-  "DestinationPersonName": "Runolfsson Group",
-  "ActiveText": "sunt",
-  "PassiveText": "veritatis",
+  "SourceContactName": "McDermott, O'Conner and Ankunding",
+  "SourcePersonName": "Koelpin-Anderson",
+  "DestinationContactName": "Ledner-Langosh",
+  "DestinationPersonName": "Wuckert Inc and Sons",
+  "ActiveText": "ut",
+  "PassiveText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 81
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

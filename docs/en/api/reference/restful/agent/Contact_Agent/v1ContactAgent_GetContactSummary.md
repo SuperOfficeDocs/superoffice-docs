@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 511,
-  "Limit": 816
+  "ContactId": 888,
+  "Limit": 847
 }
 ```
 
@@ -96,79 +96,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 851,
-      "TicketStatus": 749,
-      "Title": "eum",
-      "Registered": "2010-07-07T23:03:55.5506364+02:00",
-      "IconHint": "mollitia"
+      "TicketId": 89,
+      "TicketStatus": 187,
+      "Title": "labore",
+      "Registered": "2004-03-12T16:54:55.0407662+01:00",
+      "IconHint": "aspernatur"
     },
     {
-      "TicketId": 851,
-      "TicketStatus": 749,
-      "Title": "eum",
-      "Registered": "2010-07-07T23:03:55.5506364+02:00",
-      "IconHint": "mollitia"
+      "TicketId": 89,
+      "TicketStatus": 187,
+      "Title": "labore",
+      "Registered": "2004-03-12T16:54:55.0407662+01:00",
+      "IconHint": "aspernatur"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 729,
-      "DocumentId": 113,
-      "Date": "2011-12-23T23:03:55.5506364+01:00",
-      "Description": "Mandatory optimizing alliance",
+      "AppointmentId": 480,
+      "DocumentId": 402,
+      "Date": "2009-07-13T16:54:55.0407662+02:00",
+      "Description": "De-engineered responsive ability",
       "Completed": "Completed",
-      "Registered": "2015-12-15T23:03:55.5506364+01:00"
+      "Registered": "2014-02-18T16:54:55.0407662+01:00"
     },
     {
-      "AppointmentId": 729,
-      "DocumentId": 113,
-      "Date": "2011-12-23T23:03:55.5506364+01:00",
-      "Description": "Mandatory optimizing alliance",
+      "AppointmentId": 480,
+      "DocumentId": 402,
+      "Date": "2009-07-13T16:54:55.0407662+02:00",
+      "Description": "De-engineered responsive ability",
       "Completed": "Completed",
-      "Registered": "2015-12-15T23:03:55.5506364+01:00"
+      "Registered": "2014-02-18T16:54:55.0407662+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 613,
-      "DocumentId": 762,
-      "Date": "2018-04-20T23:03:55.5506364+02:00",
-      "Description": "Versatile discrete policy",
+      "AppointmentId": 523,
+      "DocumentId": 506,
+      "Date": "2007-11-19T16:54:55.0407662+01:00",
+      "Description": "Optional coherent attitude",
       "Completed": "Completed",
-      "Registered": "2003-08-04T23:03:55.5506364+02:00"
+      "Registered": "2018-07-29T16:54:55.0407662+02:00"
     },
     {
-      "AppointmentId": 613,
-      "DocumentId": 762,
-      "Date": "2018-04-20T23:03:55.5506364+02:00",
-      "Description": "Versatile discrete policy",
+      "AppointmentId": 523,
+      "DocumentId": 506,
+      "Date": "2007-11-19T16:54:55.0407662+01:00",
+      "Description": "Optional coherent attitude",
       "Completed": "Completed",
-      "Registered": "2003-08-04T23:03:55.5506364+02:00"
+      "Registered": "2018-07-29T16:54:55.0407662+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 501,
-      "SaleDate": "2013-01-09T23:03:55.5506364+01:00",
-      "Probability": 559,
-      "Heading": "nemo",
-      "Amount": 3325.174,
-      "Currency": "ea",
-      "AmountInBaseCurrency": 24667.714,
+      "SaleId": 364,
+      "SaleDate": "1997-11-02T16:54:55.0407662+01:00",
+      "Probability": 1000,
+      "Heading": "enim",
+      "Amount": 17979.757999999998,
+      "Currency": "hic",
+      "AmountInBaseCurrency": 16497.376,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2017-08-14T23:03:55.5506364+02:00"
+      "Registered": "2013-01-29T16:54:55.0407662+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 487,
-      "Name": "Kuvalis Inc and Sons",
-      "CompanyName": "Heathcote-Sanford",
-      "FirstMessage": "autem",
-      "LastMessage": "qui",
-      "WhenRequested": "1999-07-28T23:03:55.5506364+02:00",
-      "WhenEnded": "2022-12-08T23:03:55.5506364+01:00"
+      "ChatSessionId": 295,
+      "Name": "Schoen-Hettinger",
+      "CompanyName": "Schmidt Group",
+      "FirstMessage": "maiores",
+      "LastMessage": "impedit",
+      "WhenRequested": "2015-04-09T16:54:55.0407662+02:00",
+      "WhenEnded": "1997-12-03T16:54:55.0407662+01:00"
     }
   ]
 }

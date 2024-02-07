@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aliquid",
-  "ProviderName": "Hermann-Tillman",
-  "StorageKey": "eveniet",
+  "StorageType": "accusamus",
+  "ProviderName": "Huels Inc and Sons",
+  "StorageKey": "ut",
   "StaticColumns": [
-    "nemo",
-    "ut"
+    "non",
+    "blanditiis"
   ],
-  "Context": "cum"
+  "Context": "qui"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Graham Group",
-      "Operator": "qui",
+      "Name": "King, Koepp and Kunze",
+      "Operator": "autem",
       "Values": [
-        "minima",
-        "officia"
+        "tempore",
+        "quia"
       ],
       "DisplayValues": [
-        "unde",
-        "eos"
+        "quos",
+        "non"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 874,
+      "InterParenthesis": 344,
       "InterOperator": "And",
-      "UniqueHash": 651
+      "UniqueHash": 447
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Lowe LLC",
-      "DisplayTooltip": "quod",
-      "DisplayType": "nostrum",
-      "CanOrderBy": true,
-      "Name": "Welch-Pouros",
-      "CanRestrictBy": true,
-      "RestrictionType": "enim",
-      "RestrictionListName": "Murray, Reilly and Kuhn",
-      "IsVisible": false,
-      "ExtraInfo": "recusandae",
-      "Width": "optio",
-      "IconHint": "doloremque",
-      "HeadingIconHint": "velit"
+      "DisplayName": "Bednar, Collier and Okuneva",
+      "DisplayTooltip": "vero",
+      "DisplayType": "non",
+      "CanOrderBy": false,
+      "Name": "Reichert LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "et",
+      "RestrictionListName": "Pagac-Smith",
+      "IsVisible": true,
+      "ExtraInfo": "at",
+      "Width": "alias",
+      "IconHint": "iure",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Balistreri LLC",
-      "PrimaryKey": 512,
+      "EntityName": "Walsh-Hickle",
+      "PrimaryKey": 889,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "inventore",
-          "TooltipHint": "eaque",
-          "LinkHint": "sint"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "tempore",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "culpa",
-      "StyleHint": "vitae",
+      "LinkHint": "rem",
+      "StyleHint": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldLength": 675
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Howell-Veum",
-      "Description": "Multi-lateral tangible migration",
-      "Rank": 999,
+      "Name": "Gusikowski-Hammes",
+      "Description": "Fully-configurable solution-oriented methodology",
+      "Rank": 35,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Howell-Veum",
-      "Description": "Multi-lateral tangible migration",
-      "Rank": 999,
+      "Name": "Gusikowski-Hammes",
+      "Description": "Fully-configurable solution-oriented methodology",
+      "Rank": 35,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 978
     }
   }
 }

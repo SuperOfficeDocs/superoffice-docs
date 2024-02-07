@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Fadel-Mitchell",
-    "ToolTip": "Eius rerum doloremque nostrum minus dicta.",
-    "Deleted": false,
-    "Rank": 396,
-    "Type": "maiores",
-    "ColorBlock": 886,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2006-04-26T23:04:05.4565001+02:00",
+    "Id": 369,
+    "Name": "Torp-Collier",
+    "ToolTip": "Veniam aut vero ex.",
+    "Deleted": true,
+    "Rank": 459,
+    "Type": "quia",
+    "ColorBlock": 521,
+    "IconHint": "accusamus",
+    "Selected": false,
+    "LastChanged": "2007-05-01T16:55:30.6665849+02:00",
     "ChildItems": [
       {
-        "Id": 933,
-        "Name": "Marquardt, Wyman and Smitham",
-        "ToolTip": "Animi tempore.",
+        "Id": 182,
+        "Name": "Fritsch-Stiedemann",
+        "ToolTip": "Tempore labore alias cum ipsam.",
         "Deleted": false,
-        "Rank": 510,
-        "Type": "voluptas",
-        "ColorBlock": 849,
-        "IconHint": "sapiente",
+        "Rank": 529,
+        "Type": "consequatur",
+        "ColorBlock": 590,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "1997-03-13T23:04:05.4570044+01:00",
+        "LastChanged": "2006-08-25T16:55:30.6665849+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "qui",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Prof. Eliezer Kemmer DDS",
+        "FullName": "Mr. Adolfo Cruickshank DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "quam",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Blanche Osinski",
+    "FullName": "Dr. Liam Melba Ebert DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldLength": 312
       }
     }
   }

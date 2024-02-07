@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Jacobi-Mraz",
-    "ToolTip": "Quos nisi cum est eius sapiente.",
-    "Deleted": true,
-    "Rank": 737,
-    "Type": "dolorem",
-    "ColorBlock": 765,
-    "IconHint": "doloribus",
+    "Id": 920,
+    "Name": "Predovic, Gleason and Miller",
+    "ToolTip": "Et aut magnam.",
+    "Deleted": false,
+    "Rank": 85,
+    "Type": "voluptate",
+    "ColorBlock": 934,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2005-05-17T23:04:05.7454972+02:00",
+    "LastChanged": "2017-10-12T16:55:31.0151823+02:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Reinger-Gulgowski",
-        "ToolTip": "Enim ut.",
-        "Deleted": true,
-        "Rank": 114,
-        "Type": "non",
-        "ColorBlock": 933,
-        "IconHint": "nesciunt",
+        "Id": 329,
+        "Name": "Barton Inc and Sons",
+        "ToolTip": "Enim soluta iste earum cum.",
+        "Deleted": false,
+        "Rank": 471,
+        "Type": "velit",
+        "ColorBlock": 772,
+        "IconHint": "iste",
         "Selected": true,
-        "LastChanged": "2004-01-26T23:04:05.7454972+01:00",
+        "LastChanged": "2020-05-08T16:55:31.0151823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ab",
-        "Hidden": false,
-        "FullName": "Ms. Ava Conn DDS",
+        "ExtraInfo": "sunt",
+        "StyleHint": "numquam",
+        "Hidden": true,
+        "FullName": "Miss Raven Schultz DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 883
+            "FieldType": "System.String",
+            "FieldLength": 441
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "et",
+    "StyleHint": "cum",
     "Hidden": false,
-    "FullName": "Kiara Keebler",
+    "FullName": "Austen Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 936
       }
     }
   }

@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Weissnat Group",
-  "DeviceName": "Gorczany Inc and Sons",
-  "KeyName": "Schumm-Kshlerin",
-  "KeyValue": "adipisci",
-  "TableName": "Bergstrom-Grant"
+  "ApplicationName": "Larson-Kozey",
+  "DeviceName": "Thompson Inc and Sons",
+  "KeyName": "Grady, Langosh and Cummings",
+  "KeyValue": "non",
+  "TableName": "Zemlak Group"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "illum",
-  "Value": "temporibus",
-  "RecordId": 211,
-  "CreatedDate": "1999-04-11T23:03:56.118128+02:00",
-  "UpdatedDate": "2005-07-15T23:03:56.118128+02:00",
-  "UpdatedBy": "blanditiis",
-  "CreatedBy": "quia",
-  "TableName": "Pagac Group",
+  "Key": "sit",
+  "Value": "aliquam",
+  "RecordId": 11,
+  "CreatedDate": "2016-09-13T16:54:55.4874648+02:00",
+  "UpdatedDate": "2004-10-04T16:54:55.4874648+02:00",
+  "UpdatedBy": "temporibus",
+  "CreatedBy": "in",
+  "TableName": "Wiza Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldLength": 886
     }
   }
 }

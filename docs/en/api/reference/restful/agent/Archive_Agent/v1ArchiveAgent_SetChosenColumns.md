@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Shanahan-O'Hara",
-  "ProviderName": "Kuvalis, Hahn and Kreiger",
+  "GuiName": "Schmidt Group",
+  "ProviderName": "Harber-Kulas",
   "ChosenColumns": [
-    "vitae",
-    "doloremque"
+    "id",
+    "molestiae"
   ]
 }
 ```

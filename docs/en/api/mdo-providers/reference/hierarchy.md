@@ -2,10 +2,7 @@
 uid: hierarchy
 title: hierarchy
 keywords: mdoprovider mdo provider hierarchy
-description: List provider for the Hierarchy table. Pass the domain using Additional info.
-MDO can be nested arbitrary levels deep.
-Fullname contains path separated.
-returns a list of domains if no domain is specified.
+description: List provider for the Hierarchy table. Pass the domain using Additional info. MDO can be nested arbitrary levels deep. Fullname contains path separated. returns a list of domains if no domain is specified.
 so.generated: true
 so.topic: reference
 so.envir: onsite, online

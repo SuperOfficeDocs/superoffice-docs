@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 908,
-    "Name": "Lindgren-Emard",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "Rank": 829,
-    "UdListDefinitionId": 5
+    "HeadingId": 162,
+    "Name": "Dooley-Ryan",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 207,
+    "UdListDefinitionId": 745
   },
   {
-    "HeadingId": 908,
-    "Name": "Lindgren-Emard",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "Rank": 829,
-    "UdListDefinitionId": 5
+    "HeadingId": 162,
+    "Name": "Dooley-Ryan",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 207,
+    "UdListDefinitionId": 745
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 598,
-    "Name": "Greenholt-Bernhard",
-    "Tooltip": "est",
+    "HeadingId": 991,
+    "Name": "Heidenreich-Rau",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 300,
-    "UdListDefinitionId": 480,
+    "Rank": 897,
+    "UdListDefinitionId": 153,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 648
       }
     }
   }

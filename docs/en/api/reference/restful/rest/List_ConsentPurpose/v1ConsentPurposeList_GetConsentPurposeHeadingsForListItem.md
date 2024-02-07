@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Franecki, Halvorson and Klein",
-    "ToolTip": "Laborum provident odit illo illo non vero consequatur.",
-    "Deleted": false,
-    "Rank": 497,
-    "Type": "consequatur",
-    "ColorBlock": 622,
-    "IconHint": "deleniti",
+    "Id": 521,
+    "Name": "Gislason, Jerde and McDermott",
+    "ToolTip": "Aut adipisci sit.",
+    "Deleted": true,
+    "Rank": 110,
+    "Type": "at",
+    "ColorBlock": 336,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2003-09-28T23:04:05.3605009+02:00",
+    "LastChanged": "2020-10-06T16:55:30.5787857+02:00",
     "ChildItems": [
       {
-        "Id": 176,
-        "Name": "Cremin-Corwin",
-        "ToolTip": "Maiores ut laboriosam tempora ut veniam.",
-        "Deleted": false,
-        "Rank": 210,
-        "Type": "placeat",
-        "ColorBlock": 479,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2023-12-20T23:04:05.3605009+01:00",
+        "Id": 319,
+        "Name": "Gutkowski LLC",
+        "ToolTip": "Et et quas.",
+        "Deleted": true,
+        "Rank": 803,
+        "Type": "impedit",
+        "ColorBlock": 949,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2005-04-30T16:55:30.5787857+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Ana Mireille Will MD",
+        "ExtraInfo": "sunt",
+        "StyleHint": "numquam",
+        "Hidden": false,
+        "FullName": "Mr. Gertrude Abigayle Becker II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 98
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "omnis",
+    "ExtraInfo": "eos",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Miss Piper Barry Legros",
+    "FullName": "Jaren Schmeler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldLength": 934
       }
     }
   }

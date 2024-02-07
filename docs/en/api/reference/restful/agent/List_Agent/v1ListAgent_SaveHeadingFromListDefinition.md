@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
+  "Id": 95,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 900,
-  "Name": "Goyette-Heller",
-  "Tooltip": "id",
+  "HeadingId": 914,
+  "Name": "Pacocha Inc and Sons",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 709,
-  "UdListDefinitionId": 123,
+  "Rank": 853,
+  "UdListDefinitionId": 888,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldLength": 857
     }
   }
 }

@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dolorum",
+  "RawValue": "iure",
   "Specification": null,
-  "DisplayValue": "error",
-  "DisplayTooltip": "iste",
+  "DisplayValue": "officia",
+  "DisplayTooltip": "vero",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 70,
-  "PrefDescId": 249,
-  "TableName": "Marvin-Bahringer",
-  "UserPreferenceId": 201
+  "TargetId": 116,
+  "PrefDescId": 360,
+  "TableName": "Schmidt-Wisozk",
+  "UserPreferenceId": 23
 }
 ```
 

@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "StorageType": "non",
-  "ProviderName": "Littel Inc and Sons",
-  "StorageKey": "maxime",
+  "ProviderName": "Osinski Group",
+  "StorageKey": "tempore",
   "Restrictions": [
     {
-      "Name": "Schulist Inc and Sons",
-      "Operator": "veritatis",
+      "Name": "Turner, Gutkowski and Boyle",
+      "Operator": "in",
       "Values": [
-        "quo",
-        "harum"
-      ],
-      "DisplayValues": [
-        "aperiam",
+        "eos",
         "atque"
       ],
+      "DisplayValues": [
+        "reprehenderit",
+        "facilis"
+      ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 105,
+      "InterParenthesis": 442,
       "InterOperator": "And",
-      "UniqueHash": 89
+      "UniqueHash": 321
     }
   ],
   "StaticColumns": [
-    "in",
-    "dicta"
+    "est",
+    "vitae"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Waelchi, Hermann and Marquardt",
-      "Operator": "consectetur",
+      "Name": "Wuckert-Durgan",
+      "Operator": "voluptatem",
       "Values": [
-        "quia",
-        "veritatis"
+        "consequatur",
+        "natus"
       ],
       "DisplayValues": [
-        "qui",
-        "et"
+        "dolorem",
+        "exercitationem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 884,
+      "InterParenthesis": 853,
       "InterOperator": "And",
-      "UniqueHash": 476
+      "UniqueHash": 624
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schaden-Schuster",
-      "DisplayTooltip": "quia",
-      "DisplayType": "aut",
+      "DisplayName": "Homenick Group",
+      "DisplayTooltip": "modi",
+      "DisplayType": "et",
       "CanOrderBy": false,
-      "Name": "Thiel-Wiegand",
+      "Name": "Hamill, Schuster and Ondricka",
       "CanRestrictBy": false,
-      "RestrictionType": "vero",
-      "RestrictionListName": "Monahan-Fay",
+      "RestrictionType": "qui",
+      "RestrictionListName": "Connelly Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "voluptate",
-      "Width": "eaque",
-      "IconHint": "et",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "hic",
+      "Width": "temporibus",
+      "IconHint": "vero",
+      "HeadingIconHint": "porro"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Brakus-Bergnaum",
-      "PrimaryKey": 331,
+      "EntityName": "Legros, Von and Corkery",
+      "PrimaryKey": 449,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minima",
-          "TooltipHint": "rem",
-          "LinkHint": "omnis"
+          "DisplayValue": "qui",
+          "TooltipHint": "veniam",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "velit",
-      "StyleHint": "molestiae",
+      "LinkHint": "numquam",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldLength": 377
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Runte-Larson",
-      "Description": "Business-focused client-driven service-desk",
-      "Rank": 94,
+      "Name": "Jaskolski-Welch",
+      "Description": "Triple-buffered next generation encryption",
+      "Rank": 994,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Runte-Larson",
-      "Description": "Business-focused client-driven service-desk",
-      "Rank": 94,
+      "Name": "Jaskolski-Welch",
+      "Description": "Triple-buffered next generation encryption",
+      "Rank": 994,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldType": "System.String",
+      "FieldLength": 443
     }
   }
 }

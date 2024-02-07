@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 263,
-  "Name": "Lesch-Schoen",
-  "Description": "Cross-platform intangible paradigm",
-  "WelcomeMessage": "dolorem",
+  "ChatTopicId": 879,
+  "Name": "Flatley, Yost and Schroeder",
+  "Description": "Advanced fault-tolerant paradigm",
+  "WelcomeMessage": "sunt",
   "Language": null,
-  "LastAccept": "2002-12-20T23:04:03.8510261+01:00",
-  "SecondsPrAccept": 414,
-  "AlertRecipient": "ipsa",
+  "LastAccept": "1998-07-20T16:55:29.3527808+02:00",
+  "SecondsPrAccept": 303,
+  "AlertRecipient": "architecto",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "minus",
+  "BadgeHeader": "corporis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 738,
-  "WarnManagerNewChatMinutes": 471,
+  "CustomQueueText": "asperiores",
+  "WarnNewChatMinutes": 584,
+  "WarnManagerNewChatMinutes": 830,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 545,
-  "WarnManagerChatMessageMinutes": 72,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 434,
-  "OfflineFormQueueLength": 707,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 129,
+  "WarnManagerChatMessageMinutes": 832,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 823,
+  "OfflineFormQueueLength": 574,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "in"
+  "WidgetRatingText": "ut"
 }
 ```
 
@@ -181,48 +181,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 983,
-  "Name": "Grant-Ebert",
-  "Description": "Multi-tiered 3rd generation parallelism",
-  "WelcomeMessage": "doloribus",
+  "ChatTopicId": 163,
+  "Name": "Schinner, Stamm and Corkery",
+  "Description": "Operative context-sensitive Graphical User Interface",
+  "WelcomeMessage": "voluptas",
   "Language": null,
-  "LastAccept": "2017-06-23T23:04:03.8540211+02:00",
-  "SecondsPrAccept": 268,
-  "AlertRecipient": "nostrum",
+  "LastAccept": "2010-04-09T16:55:29.3567815+02:00",
+  "SecondsPrAccept": 560,
+  "AlertRecipient": "quo",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "in",
+  "CollectConsent": false,
+  "BadgeHeader": "vel",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "aut",
-  "WarnNewChatMinutes": 846,
-  "WarnManagerNewChatMinutes": 102,
-  "TicketEnabled": true,
+  "CustomQueueText": "at",
+  "WarnNewChatMinutes": 928,
+  "WarnManagerNewChatMinutes": 266,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 106,
-  "WarnManagerChatMessageMinutes": 561,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 725,
+  "WarnManagerChatMessageMinutes": 132,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 799,
-  "OfflineFormQueueLength": 547,
+  "OfflineFormTimeLimit": 890,
+  "OfflineFormQueueLength": 39,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "possimus",
+  "WidgetRatingText": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

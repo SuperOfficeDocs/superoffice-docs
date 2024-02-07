@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 686,
-  "Name": "Howe, Goyette and Murazik",
-  "Tooltip": "animi",
+  "RoleId": 282,
+  "Name": "Ankunding LLC",
+  "Tooltip": "reprehenderit",
   "RoleType": "Anonymous",
-  "Deleted": 154,
-  "Rank": 610,
-  "Created": "2013-05-10T23:04:04.6350109+02:00",
-  "UseCategories": 34,
+  "Deleted": 169,
+  "Rank": 20,
+  "Created": "2000-08-25T16:55:30.0055879+02:00",
+  "UseCategories": 842,
   "CreatedBy": null,
-  "Updated": "2005-03-09T23:04:04.6355125+01:00",
+  "Updated": "1997-08-10T16:55:30.0055879+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldType": "System.Int32",
+      "FieldLength": 778
     }
   }
 }

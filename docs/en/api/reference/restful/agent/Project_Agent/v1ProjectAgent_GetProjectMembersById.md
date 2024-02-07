@@ -80,7 +80,7 @@ OK
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  Use MDO List name "PMembType" to get list items. |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    550,
-    985
+    317,
+    510
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 179,
-    "ContactId": 27,
-    "ProjectId": 539,
-    "ContactName": "Kling, Koelpin and O'Conner",
+    "ProjectmemberId": 101,
+    "ContactId": 281,
+    "ProjectId": 542,
+    "ContactName": "Keebler-Simonis",
     "ContactDepartment": "",
-    "ProjectName": "Bernier, Harris and Armstrong",
-    "EmailId": 799,
-    "EmailAddress": "jazmin.ferry@kuphal.us",
-    "CountryId": 35,
-    "Firstname": "Retta",
-    "MiddleName": "Sanford LLC",
-    "Lastname": "Schimmel",
-    "PersonId": 272,
-    "Mrmrs": "id",
-    "ProjectMemberTypeName": "Toy Group",
-    "Phone": "1-583-110-8981 x593",
-    "PhoneId": 206,
-    "ProjectMemberTypeId": 314,
-    "EmailAddressName": "jewel@koepphauck.info",
-    "Comment": "perspiciatis",
-    "FullName": "Donnell Gislason",
+    "ProjectName": "Medhurst, Breitenberg and Runolfsson",
+    "EmailId": 3,
+    "EmailAddress": "jabari.spencer@johns.info",
+    "CountryId": 70,
+    "Firstname": "Dora",
+    "MiddleName": "Trantow, Sawayn and Pollich",
+    "Lastname": "Mante",
+    "PersonId": 865,
+    "Mrmrs": "qui",
+    "ProjectMemberTypeName": "Hilpert-Nader",
+    "Phone": "178-906-2033 x6762",
+    "PhoneId": 324,
+    "ProjectMemberTypeId": 708,
+    "EmailAddressName": "leo.turcotte@wizazemlak.info",
+    "Comment": "vel",
+    "FullName": "Dr. Saige Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 203
       }
     }
   }

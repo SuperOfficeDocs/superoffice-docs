@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 202,
-  "ModuleOwner": "exercitationem"
+  "AssociateId": 234,
+  "ModuleOwner": "ex"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 575,
-    "Tooltip": "magni",
+    "Unrestricted": true,
+    "Total": 402,
+    "Tooltip": "aut",
     "CanAssign": false,
-    "Free": 398,
-    "InUse": 66,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 151,
-    "Name": "Wisoky-Yundt",
-    "Description": "Up-sized well-modulated leverage",
-    "PrerequisiteModuleName": "Donnelly Inc and Sons",
-    "SortOrder": 69,
-    "ExtraFlags": 609,
+    "Free": 694,
+    "InUse": 215,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 21,
+    "Name": "Lebsack, Schuster and Bins",
+    "Description": "Open-source 24 hour protocol",
+    "PrerequisiteModuleName": "Haag-Yundt",
+    "SortOrder": 334,
+    "ExtraFlags": 19,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 791
       }
     }
   }

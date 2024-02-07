@@ -73,7 +73,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 679,
+  "AppointmentId": 685,
   "UseMotherId": false
 }
 ```
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"debitis"
+"maiores"
 ```

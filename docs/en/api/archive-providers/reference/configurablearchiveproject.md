@@ -764,7 +764,7 @@ This is the archive Provider for the Configurable project Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveProject?$select=appointment/duration,projectMember/personUpdatedByFullName,projectMember/restrictionAddress/line2,projectMember/business,projectMember/postAddress/wgs84latitude
+GET /api/v1/archive/ConfigurableArchiveProject?$select=description,sale/associate/isActive,appointment/rawStatus,projectMember/personCountryId,projectMember/rank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

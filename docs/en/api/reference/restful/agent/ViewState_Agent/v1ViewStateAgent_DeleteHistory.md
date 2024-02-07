@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Nader-Mosciski",
-  "Id": 253
+  "HistoryName": "Hand Inc and Sons",
+  "Id": 401
 }
 ```
 

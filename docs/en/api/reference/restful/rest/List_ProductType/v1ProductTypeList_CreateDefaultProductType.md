@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 136,
-  "Name": "Morissette, Jewess and Armstrong",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 898,
-  "Rank": 617,
+  "Id": 40,
+  "Name": "Wintheiser-Lueilwitz",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 855,
+  "Rank": 702,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 724
     }
   }
 }

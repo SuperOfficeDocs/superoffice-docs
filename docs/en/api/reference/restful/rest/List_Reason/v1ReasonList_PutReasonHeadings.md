@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 115,
-    "Name": "McCullough, Hane and Bauch",
-    "Tooltip": "animi",
+    "HeadingId": 811,
+    "Name": "Stiedemann Inc and Sons",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 139,
-    "UdListDefinitionId": 747
+    "Rank": 241,
+    "UdListDefinitionId": 994
   },
   {
-    "HeadingId": 115,
-    "Name": "McCullough, Hane and Bauch",
-    "Tooltip": "animi",
+    "HeadingId": 811,
+    "Name": "Stiedemann Inc and Sons",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 139,
-    "UdListDefinitionId": 747
+    "Rank": 241,
+    "UdListDefinitionId": 994
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 785,
-    "Name": "Bernier Group",
-    "Tooltip": "suscipit",
+    "HeadingId": 599,
+    "Name": "Friesen, Rogahn and Tillman",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 794,
-    "UdListDefinitionId": 501,
+    "Rank": 84,
+    "UdListDefinitionId": 231,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 463
       }
     }
   }

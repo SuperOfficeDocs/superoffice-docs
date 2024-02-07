@@ -81,13 +81,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 961,
-  "Name": "Jenkins, Wintheiser and Schmitt",
-  "Tooltip": "animi",
-  "Rank": 864,
-  "Rate": 8242.42,
-  "Units": 14554.296,
-  "Deleted": true
+  "CurrencyId": 874,
+  "Name": "Wiza LLC",
+  "Tooltip": "ut",
+  "Rank": 926,
+  "Rate": 13770.796,
+  "Units": 5271.388,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 926,
-  "Name": "Brekke LLC",
-  "Tooltip": "impedit",
-  "Rank": 714,
-  "Rate": 8709.386,
-  "Units": 8446.13,
+  "CurrencyId": 674,
+  "Name": "Hane, Hermann and Hoppe",
+  "Tooltip": "non",
+  "Rank": 463,
+  "Rate": 5352.8719999999994,
+  "Units": 15710.742,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 850
     }
   }
 }

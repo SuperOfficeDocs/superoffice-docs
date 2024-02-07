@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 469,
-      "ContactName": "Robel Group",
-      "PersonId": 530,
-      "PersonName": "Wilderman Group",
-      "AssociateId": 156,
-      "Address": "quisquam",
-      "EmailId": 937,
+      "ContactId": 837,
+      "ContactName": "Hintz-Stamm",
+      "PersonId": 913,
+      "PersonName": "Bashirian-Jacobs",
+      "AssociateId": 50,
+      "Address": "non",
+      "EmailId": 567,
       "DuplicatePersonIds": [
-        978,
-        291
+        744,
+        957
       ],
-      "Name": "Abbott, Dibbert and Borer",
+      "Name": "Vandervort-Leuschke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldType": "System.String",
+          "FieldLength": 646
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 682,
-      "ContactName": "Stiedemann-Fadel",
-      "PersonId": 768,
-      "PersonName": "Kilback, Bechtelar and Franecki",
-      "AssociateId": 350,
-      "Address": "at",
-      "EmailId": 889,
+      "ContactId": 695,
+      "ContactName": "Yundt Group",
+      "PersonId": 57,
+      "PersonName": "Dickens, Hermiston and VonRueden",
+      "AssociateId": 212,
+      "Address": "et",
+      "EmailId": 925,
       "DuplicatePersonIds": [
-        572,
-        686
+        325,
+        635
       ],
-      "Name": "Padberg-Schuster",
+      "Name": "Dibbert-Wolff",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldType": "System.String",
+          "FieldLength": 950
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 599,
-      "ContactName": "Waters, Botsford and Ondricka",
-      "PersonId": 299,
-      "PersonName": "Jerde-Sporer",
-      "AssociateId": 692,
-      "Address": "aut",
-      "EmailId": 331,
+      "ContactId": 641,
+      "ContactName": "Legros, Schroeder and Nicolas",
+      "PersonId": 530,
+      "PersonName": "Durgan-Monahan",
+      "AssociateId": 868,
+      "Address": "quo",
+      "EmailId": 465,
       "DuplicatePersonIds": [
-        642,
-        227
+        323,
+        46
       ],
-      "Name": "Gutkowski LLC",
+      "Name": "Bosco, Thompson and McClure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldType": "System.String",
+          "FieldLength": 699
         }
       }
     }
   ],
-  "Subject": "minus",
-  "HTMLBody": "reiciendis",
+  "Subject": "dolorum",
+  "HTMLBody": "ad",
   "From": null,
-  "Sent": "2000-08-27T23:03:55.8931296+02:00",
-  "Size": 224,
+  "Sent": "1999-06-22T16:54:55.3144201+02:00",
+  "Size": 406,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
-  "PlainBody": "vitae",
+  "MessageID": "est",
+  "PlainBody": "occaecati",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 489,
+  "ServerId": 236,
   "Attachments": [
     {
-      "Description": "Universal needs-based help-desk",
-      "Filename": "quos",
-      "Size": 630,
-      "Type": "perspiciatis",
-      "Encoding": "expedita",
-      "Id": "aspernatur",
-      "Disposition": "vel",
-      "IsSafeFileExtension": false,
+      "Description": "Virtual regional strategy",
+      "Filename": "assumenda",
+      "Size": 852,
+      "Type": "ut",
+      "Encoding": "sint",
+      "Id": "ab",
+      "Disposition": "asperiores",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Feeney LLC",
+      "Name": "Ankunding-Crooks",
       "Values": [
-        "necessitatibus",
-        "quidem"
+        "nihil",
+        "possimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     },
     {
-      "Name": "Feeney LLC",
+      "Name": "Ankunding-Crooks",
       "Values": [
-        "necessitatibus",
-        "quidem"
+        "nihil",
+        "possimus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     }
   ],
-  "FolderName": "Pouros Group",
-  "EmailItemId": 403,
-  "AccountId": 119,
-  "ReceivedAt": "2002-05-26T23:03:55.8936303+02:00",
+  "FolderName": "Davis, Towne and Purdy",
+  "EmailItemId": 496,
+  "AccountId": 106,
+  "ReceivedAt": "1997-02-19T16:54:55.3154194+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1996-11-03T23:03:55.8936303+01:00",
+  "RepliedAt": "2001-07-31T16:54:55.3154194+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 21
     }
   }
 }

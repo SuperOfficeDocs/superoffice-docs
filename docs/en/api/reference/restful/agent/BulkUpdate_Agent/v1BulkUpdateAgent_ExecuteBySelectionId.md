@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
+      "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "quia",
-      "ValueType": "nisi",
+      "Key": "ipsa",
+      "ValueType": "nobis",
       "Mandatory": true,
-      "EncodedDisplayName": "Legros-Marvin",
-      "EncodedDisplayDescription": "Diverse logistical system engine",
-      "IconHint": "ipsum",
+      "EncodedDisplayName": "Russel Inc and Sons",
+      "EncodedDisplayDescription": "Digitized high-level paradigm",
+      "IconHint": "quo",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "nobis",
-      "EncodedDataCaptionDescription": "Operative cohesive knowledge base",
-      "CurrentOperationType": "eum",
+      "EncodedDataCaption": "quis",
+      "EncodedDataCaptionDescription": "Switchable 3rd generation frame",
+      "CurrentOperationType": "consequuntur",
       "Values": [
-        "numquam",
-        "repellendus"
+        "vel",
+        "assumenda"
       ],
       "DisplayValues": [
-        "soluta",
-        "numquam"
+        "unde",
+        "est"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Johns Group",
-  "Context": "commodi",
-  "SelectionId": 31,
+  "TableName": "Romaguera Inc and Sons",
+  "Context": "earum",
+  "SelectionId": 40,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-357
+277
 ```

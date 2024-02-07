@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 172
+  "AssociateId": 738
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 974,
-    "ERPName": "Stark Group",
-    "DisplayName": "Goldner Group",
-    "DisplayDescription": "Synchronised stable functionalities",
-    "Rank": 587,
-    "ConnectorName": "Metz-Rolfson",
-    "ErpConnectionId": 88,
-    "ExtraData": "maxime",
+    "QuoteConnectionId": 175,
+    "ERPName": "O'Kon, Strosin and Crona",
+    "DisplayName": "Ferry, Hauck and Mueller",
+    "DisplayDescription": "Digitized fresh-thinking software",
+    "Rank": 692,
+    "ConnectorName": "Sporer, Johns and Hermiston",
+    "ErpConnectionId": 916,
+    "ExtraData": "ipsa",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 238,
-        "ERPPriceListKey": "qui",
-        "QuoteConnectionId": 94,
-        "Name": "Turner-Hilll",
-        "Description": "Devolved exuding contingency",
-        "Currency": "accusantium",
-        "CurrencyName": "Ritchie LLC",
-        "ValidFrom": "2021-05-05T23:03:56.7801184+02:00",
-        "ValidTo": "2022-05-13T23:03:56.7801184+02:00",
-        "IsActive": false,
+        "PriceListId": 728,
+        "ERPPriceListKey": "enim",
+        "QuoteConnectionId": 413,
+        "Name": "Mayer Group",
+        "Description": "Customer-focused composite support",
+        "Currency": "ea",
+        "CurrencyName": "Veum Group",
+        "ValidFrom": "2017-05-19T16:54:56.1401412+02:00",
+        "ValidTo": "1999-07-03T16:54:56.1401412+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldLength": 181
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": true,
+    "AllAccess": false,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      528,
-      869
+      963,
+      909
     ],
     "AssociateAccessIds": [
-      496,
-      651
+      637,
+      362
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 504
+        "FieldLength": 462
       }
     }
   }

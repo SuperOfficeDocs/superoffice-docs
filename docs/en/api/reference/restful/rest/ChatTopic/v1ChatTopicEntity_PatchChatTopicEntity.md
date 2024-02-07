@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "maiores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "adipisci",
+    "path": "maiores",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 730,
-  "Name": "Roberts LLC",
-  "Description": "Operative client-server solution",
-  "WelcomeMessage": "nobis",
+  "ChatTopicId": 408,
+  "Name": "Schmidt, Conroy and Mayer",
+  "Description": "Public-key demand-driven data-warehouse",
+  "WelcomeMessage": "impedit",
   "Language": null,
-  "LastAccept": "2003-06-07T23:04:03.8650215+02:00",
-  "SecondsPrAccept": 669,
-  "AlertRecipient": "voluptatibus",
+  "LastAccept": "2007-11-12T16:55:29.3657807+01:00",
+  "SecondsPrAccept": 228,
+  "AlertRecipient": "omnis",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "et",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aliquid",
-  "WarnNewChatMinutes": 515,
-  "WarnManagerNewChatMinutes": 714,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "eum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 187,
+  "WarnManagerNewChatMinutes": 707,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 504,
-  "WarnManagerChatMessageMinutes": 34,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 448,
-  "OfflineFormQueueLength": 785,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 552,
+  "WarnManagerChatMessageMinutes": 43,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 613,
+  "OfflineFormQueueLength": 779,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sapiente",
+  "WidgetRatingText": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldType": "System.Int32",
+      "FieldLength": 575
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

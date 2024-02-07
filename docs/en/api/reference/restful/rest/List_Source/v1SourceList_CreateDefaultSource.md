@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 498,
-  "Name": "Wilderman Group",
-  "Tooltip": "corporis",
+  "Id": 636,
+  "Name": "Ledner-Bergstrom",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 627,
-  "Rank": 775,
+  "UdListDefinitionId": 651,
+  "Rank": 698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 264
     }
   }
 }

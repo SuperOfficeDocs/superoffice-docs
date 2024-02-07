@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 229
+  "QuoteAlternativeId": 684
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 488,
-    "ERPQuoteLineKey": "ipsa",
-    "QuoteAlternativeId": 181,
-    "ERPProductKey": "maiores",
+    "QuoteLineId": 752,
+    "ERPQuoteLineKey": "nemo",
+    "QuoteAlternativeId": 805,
+    "ERPProductKey": "ut",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 3920.634,
-    "DeliveredQuantity": 29666.444,
-    "Rank": 394,
-    "Name": "Streich Inc and Sons",
-    "Description": "Inverse holistic flexibility",
-    "Code": "alias",
-    "QuantityUnit": "qui",
-    "PriceUnit": "mollitia",
-    "ItemNumber": "1181581",
+    "Quantity": 28901.748,
+    "DeliveredQuantity": 30976.456,
+    "Rank": 853,
+    "Name": "Kihn, Kovacek and Schultz",
+    "Description": "Future-proofed homogeneous utilisation",
+    "Code": "in",
+    "QuantityUnit": "est",
+    "PriceUnit": "ullam",
+    "ItemNumber": "958305",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "eius",
-    "ProductTypeKey": "natus",
-    "Supplier": "neque",
-    "SupplierCode": "ullam",
-    "Thumbnail": "repudiandae",
-    "VATInfo": "facilis",
-    "VAT": 20019.992,
-    "UnitCost": 19176.946,
-    "UnitMinimumPrice": 23056.838,
-    "UnitListPrice": 13802.136,
+    "ProductFamilyKey": "id",
+    "ProductTypeKey": "enim",
+    "Supplier": "qui",
+    "SupplierCode": "veritatis",
+    "Thumbnail": "cumque",
+    "VATInfo": "dolores",
+    "VAT": 3898.696,
+    "UnitCost": 9063.528,
+    "UnitMinimumPrice": 13416.654,
+    "UnitListPrice": 30252.502,
     "ExtraInfo": [
       {
-        "Name": "Kling Inc and Sons",
-        "Value": "minima",
+        "Name": "Doyle, Streich and Powlowski",
+        "Value": "repellendus",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldType": "System.String",
+            "FieldLength": 366
           }
         }
       },
       {
-        "Name": "Kling Inc and Sons",
-        "Value": "minima",
+        "Name": "Doyle, Streich and Powlowski",
+        "Value": "repellendus",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldType": "System.String",
+            "FieldLength": 366
           }
         }
       }
     ],
-    "RawExtraInfo": "repellat",
+    "RawExtraInfo": "sequi",
     "IsSubscription": true,
-    "SubscriptionUnit": "inventore",
-    "SubscriptionQuantity": 21311.2,
-    "SubscriptionStart": "1998-04-11T23:03:56.8071247+02:00",
-    "ERPDiscountPercent": 11420.296,
-    "ERPDiscountAmount": 9179.485999999999,
-    "DiscountPercent": 25679.996,
-    "DiscountAmount": 18615.96,
+    "SubscriptionUnit": "repellat",
+    "SubscriptionQuantity": 16193.377999999999,
+    "SubscriptionStart": "2012-02-06T16:54:56.1629709+01:00",
+    "ERPDiscountPercent": 28187.196,
+    "ERPDiscountAmount": 26764.36,
+    "DiscountPercent": 15381.671999999999,
+    "DiscountAmount": 6919.8719999999994,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 17246.402,
-    "EarningAmount": 10364.137999999999,
-    "SubTotal": 11191.514,
-    "TotalPrice": 9132.476,
-    "Rights": "est",
-    "Rule": "alias",
-    "ExtraField1": "provident",
-    "ExtraField2": "nam",
-    "ExtraField3": "in",
-    "ExtraField4": "eligendi",
-    "ExtraField5": "dolores",
+    "EarningPercent": 14902.17,
+    "EarningAmount": 31057.94,
+    "SubTotal": 15337.796,
+    "TotalPrice": 20076.404,
+    "Rights": "id",
+    "Rule": "occaecati",
+    "ExtraField1": "eius",
+    "ExtraField2": "eum",
+    "ExtraField3": "eum",
+    "ExtraField4": "eos",
+    "ExtraField5": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 138
       }
     }
   }

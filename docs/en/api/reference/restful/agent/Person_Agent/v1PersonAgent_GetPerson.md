@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=707
+POST /api/v1/Agents/Person/GetPerson?personId=580
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "dicta",
-  "PersonId": 621,
-  "Mrmrs": "a",
-  "Firstname": "Leslie",
-  "Lastname": "Ward",
-  "MiddleName": "Ernser, Kilback and Jacobson",
-  "Title": "similique",
-  "Description": "Proactive client-server definition",
-  "Email": "tyreek@ebert.biz",
-  "FullName": "Ellie Demarco Stracke PhD",
-  "DirectPhone": "554-477-8599",
-  "FormalName": "Runte-Eichmann",
-  "CountryId": 726,
-  "ContactId": 548,
-  "ContactName": "Turcotte, Stokes and Adams",
-  "Retired": 408,
-  "Rank": 891,
-  "ActiveInterests": 907,
+  "Position": "maiores",
+  "PersonId": 899,
+  "Mrmrs": "laboriosam",
+  "Firstname": "Jevon",
+  "Lastname": "Tromp",
+  "MiddleName": "Crooks Group",
+  "Title": "odio",
+  "Description": "Function-based client-server orchestration",
+  "Email": "nestor@glover.biz",
+  "FullName": "Monserrate Kerluke",
+  "DirectPhone": "1-413-858-6423 x389",
+  "FormalName": "Mante LLC",
+  "CountryId": 224,
+  "ContactId": 476,
+  "ContactName": "Wisoky, Rowe and Nitzsche",
+  "Retired": 266,
+  "Rank": 672,
+  "ActiveInterests": 518,
   "ContactDepartment": "",
-  "ContactCountryId": 110,
-  "ContactOrgNr": "330116",
-  "FaxPhone": "188-112-6896",
-  "MobilePhone": "1-415-911-4970 x5869",
-  "ContactPhone": "(592)144-4402 x7523",
-  "AssociateName": "Schowalter-Schultz",
-  "AssociateId": 422,
+  "ContactCountryId": 462,
+  "ContactOrgNr": "1035796",
+  "FaxPhone": "481.292.4240 x8081",
+  "MobilePhone": "199-577-6582",
+  "ContactPhone": "748-740-2238 x546",
+  "AssociateName": "Marks, Schulist and Stiedemann",
+  "AssociateId": 907,
   "UsePersonAddress": false,
-  "ContactFax": "autem",
-  "Kanafname": "error",
-  "Kanalname": "aut",
-  "Post1": "qui",
-  "Post2": "quas",
-  "Post3": "temporibus",
-  "EmailName": "adele.lakin@kunze.name",
-  "ContactFullName": "Brayan Walsh",
-  "ActiveErpLinks": 659,
-  "TicketPriorityId": 436,
-  "SupportLanguageId": 930,
-  "SupportAssociateId": 611,
+  "ContactFax": "quod",
+  "Kanafname": "quia",
+  "Kanalname": "laudantium",
+  "Post1": "velit",
+  "Post2": "doloribus",
+  "Post3": "provident",
+  "EmailName": "rey.haag@hammes.name",
+  "ContactFullName": "Rahsaan Nicolas",
+  "ActiveErpLinks": 663,
+  "TicketPriorityId": 114,
+  "SupportLanguageId": 757,
+  "SupportAssociateId": 973,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 343
     }
   }
 }

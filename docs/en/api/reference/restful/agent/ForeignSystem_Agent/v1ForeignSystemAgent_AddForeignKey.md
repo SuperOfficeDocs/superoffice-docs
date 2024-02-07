@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Keeling, Fadel and Lockman",
-  "DeviceName": "Satterfield-West",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Luettgen-Schneider",
+  "DeviceName": "Anderson-Howe",
+  "DeviceIdentifier": "velit"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "earum",
-  "Value": "quidem",
-  "RecordId": 271,
-  "CreatedDate": "2005-05-08T23:03:56.1161279+02:00",
-  "UpdatedDate": "2009-05-11T23:03:56.1161279+02:00",
-  "UpdatedBy": "sit",
-  "CreatedBy": "voluptatum",
-  "TableName": "Murray-Buckridge",
+  "Key": "perferendis",
+  "Value": "neque",
+  "RecordId": 351,
+  "CreatedDate": "2017-03-30T16:54:55.4864803+02:00",
+  "UpdatedDate": "2003-06-16T16:54:55.4864803+02:00",
+  "UpdatedBy": "ea",
+  "CreatedBy": "aliquam",
+  "TableName": "Spinka-Heathcote",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 258
     }
   }
 }

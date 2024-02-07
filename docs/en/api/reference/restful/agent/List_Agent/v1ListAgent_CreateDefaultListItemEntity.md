@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 978,
-  "Name": "Spencer, Goodwin and Huels",
-  "Tooltip": "saepe",
+  "Id": 450,
+  "Name": "Murazik-McDermott",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 867,
-  "Rank": 137,
+  "UdListDefinitionId": 472,
+  "Rank": 502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 916
     }
   }
 }

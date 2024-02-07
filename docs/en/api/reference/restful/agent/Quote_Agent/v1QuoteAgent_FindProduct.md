@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 666,
-  "UserInput": "harum",
-  "PriceListKey": "voluptas"
+  "QuoteAlternativeId": 65,
+  "UserInput": "ut",
+  "PriceListKey": "dolor"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 379,
-    "ERPProductKey": "sequi",
-    "ERPPriceListKey": "reprehenderit",
-    "Name": "Hills Inc and Sons",
-    "Description": "Right-sized clear-thinking approach",
-    "Code": "qui",
-    "PriceUnit": "eligendi",
-    "QuantityUnit": "quod",
+    "ProductId": 145,
+    "ERPProductKey": "rerum",
+    "ERPPriceListKey": "impedit",
+    "Name": "Russel-Barton",
+    "Description": "Persevering stable local area network",
+    "Code": "aut",
+    "PriceUnit": "ratione",
+    "QuantityUnit": "aliquid",
     "IsSubscription": true,
-    "SubscriptionUnit": "rerum",
-    "DefaultSubscriptionQuantity": 6891.666,
-    "ItemNumber": "1349184",
+    "SubscriptionUnit": "vel",
+    "DefaultSubscriptionQuantity": 26670.34,
+    "ItemNumber": "830030",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "eos",
-    "ProductTypeKey": "est",
-    "VAT": 15901.916,
-    "VATInfo": "delectus",
-    "UnitCost": 25106.474,
-    "UnitMinimumPrice": 29039.644,
-    "UnitListPrice": 1776.9779999999998,
-    "InAssortment": false,
-    "Supplier": "expedita",
-    "SupplierCode": "a",
-    "Rights": "omnis",
-    "Rule": "ex",
+    "ProductFamilyKey": "maiores",
+    "ProductTypeKey": "qui",
+    "VAT": 14388.194,
+    "VATInfo": "magnam",
+    "UnitCost": 3864.2219999999998,
+    "UnitMinimumPrice": 28080.64,
+    "UnitListPrice": 26385.146,
+    "InAssortment": true,
+    "Supplier": "dolor",
+    "SupplierCode": "doloremque",
+    "Rights": "ut",
+    "Rule": "voluptatum",
     "ExtraInfo": [
       {
-        "Name": "Jacobs, Stamm and Wilkinson",
-        "Value": "vitae",
+        "Name": "Emard-Rogahn",
+        "Value": "omnis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldType": "System.String",
+            "FieldLength": 520
           }
         }
       },
       {
-        "Name": "Jacobs, Stamm and Wilkinson",
-        "Value": "vitae",
+        "Name": "Emard-Rogahn",
+        "Value": "omnis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldType": "System.String",
+            "FieldLength": 520
           }
         }
       }
     ],
-    "RawExtraInfo": "iusto",
-    "ExtraField1": "quas",
-    "ExtraField2": "ut",
-    "ExtraField3": "a",
-    "ExtraField4": "aspernatur",
+    "RawExtraInfo": "voluptate",
+    "ExtraField1": "fugiat",
+    "ExtraField2": "odio",
+    "ExtraField3": "sit",
+    "ExtraField4": "quo",
     "ExtraField5": "et",
-    "InStock": 13316.366,
+    "InStock": 10975.268,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 27
       }
     }
   }

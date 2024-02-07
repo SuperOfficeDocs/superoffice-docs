@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 649,
+  "MessageServerId": 614,
   "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": false
@@ -125,148 +125,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 672,
-      "ContactName": "Abbott-Mitchell",
-      "PersonId": 568,
-      "PersonName": "Heidenreich-Wyman",
-      "AssociateId": 149,
-      "Address": "cumque",
-      "EmailId": 281,
+      "ContactId": 121,
+      "ContactName": "Hoeger LLC",
+      "PersonId": 916,
+      "PersonName": "Mosciski-Willms",
+      "AssociateId": 142,
+      "Address": "aut",
+      "EmailId": 587,
       "DuplicatePersonIds": [
-        479,
-        110
+        652,
+        595
       ],
-      "Name": "Wilkinson, McKenzie and Emard",
+      "Name": "Erdman, Ondricka and Hickle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 768
+          "FieldLength": 831
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 788,
-      "ContactName": "Bosco LLC",
-      "PersonId": 406,
-      "PersonName": "Stiedemann-Heidenreich",
-      "AssociateId": 362,
-      "Address": "voluptas",
-      "EmailId": 469,
+      "ContactId": 458,
+      "ContactName": "Kiehn-Schowalter",
+      "PersonId": 195,
+      "PersonName": "Leuschke-Toy",
+      "AssociateId": 421,
+      "Address": "distinctio",
+      "EmailId": 37,
       "DuplicatePersonIds": [
-        687,
-        148
+        632,
+        183
       ],
-      "Name": "Heidenreich-Swaniawski",
+      "Name": "Gottlieb, Boyer and Gaylord",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldType": "System.Int32",
+          "FieldLength": 173
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 577,
-      "ContactName": "Hand LLC",
-      "PersonId": 2,
-      "PersonName": "Jones Group",
-      "AssociateId": 404,
-      "Address": "atque",
-      "EmailId": 319,
+      "ContactId": 631,
+      "ContactName": "Christiansen, Bahringer and Luettgen",
+      "PersonId": 547,
+      "PersonName": "Conroy-Lehner",
+      "AssociateId": 626,
+      "Address": "voluptatibus",
+      "EmailId": 948,
       "DuplicatePersonIds": [
-        413,
-        251
+        501,
+        838
       ],
-      "Name": "Dietrich-Crist",
+      "Name": "Von, Runte and Schiller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldLength": 942
         }
       }
     }
   ],
-  "Subject": "voluptate",
-  "HTMLBody": "explicabo",
+  "Subject": "autem",
+  "HTMLBody": "quia",
   "From": null,
-  "Sent": "2022-02-17T23:03:55.9621316+01:00",
-  "Size": 214,
+  "Sent": "2013-07-17T16:54:55.3659474+02:00",
+  "Size": 356,
   "Priority": "High",
   "Flags": "Answered",
   "MessageID": "dolorem",
-  "PlainBody": "non",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 528,
+  "ServerId": 566,
   "Attachments": [
     {
-      "Description": "Ameliorated responsive open architecture",
-      "Filename": "nam",
-      "Size": 234,
-      "Type": "animi",
-      "Encoding": "quaerat",
-      "Id": "quia",
-      "Disposition": "voluptatem",
-      "IsSafeFileExtension": true,
+      "Description": "Integrated next generation frame",
+      "Filename": "rem",
+      "Size": 62,
+      "Type": "placeat",
+      "Encoding": "tenetur",
+      "Id": "iusto",
+      "Disposition": "blanditiis",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldType": "System.String",
+          "FieldLength": 87
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Boehm LLC",
+      "Name": "Casper Inc and Sons",
       "Values": [
-        "autem",
-        "quasi"
+        "ab",
+        "deleniti"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldLength": 463
         }
       }
     },
     {
-      "Name": "Boehm LLC",
+      "Name": "Casper Inc and Sons",
       "Values": [
-        "autem",
-        "quasi"
+        "ab",
+        "deleniti"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldLength": 463
         }
       }
     }
   ],
-  "FolderName": "Stoltenberg-Ondricka",
-  "EmailItemId": 83,
-  "AccountId": 695,
-  "ReceivedAt": "1996-12-11T23:03:55.9621316+01:00",
+  "FolderName": "Jones, Erdman and Lemke",
+  "EmailItemId": 919,
+  "AccountId": 735,
+  "ReceivedAt": "2000-02-21T16:54:55.3659474+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-12-19T23:03:55.9621316+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2020-05-27T16:54:55.3659474+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 339
     }
   }
 }

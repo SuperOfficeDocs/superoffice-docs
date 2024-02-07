@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Hyatt Inc and Sons",
-    "ToolTip": "Omnis nisi voluptatem.",
+    "Id": 301,
+    "Name": "Satterfield Group",
+    "ToolTip": "Nam et nulla commodi veniam est voluptatem occaecati.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "aperiam",
-    "ColorBlock": 903,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2007-01-07T23:04:05.6789972+01:00",
+    "Rank": 510,
+    "Type": "eos",
+    "ColorBlock": 73,
+    "IconHint": "quas",
+    "Selected": true,
+    "LastChanged": "2010-06-28T16:55:30.8467171+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Jewess Group",
-        "ToolTip": "In at eaque id ipsum magni saepe illum.",
-        "Deleted": true,
-        "Rank": 625,
-        "Type": "laudantium",
-        "ColorBlock": 297,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2012-02-12T23:04:05.6795004+01:00",
+        "Id": 819,
+        "Name": "Goldner-Nicolas",
+        "ToolTip": "Consequatur delectus.",
+        "Deleted": false,
+        "Rank": 807,
+        "Type": "libero",
+        "ColorBlock": 677,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2009-09-22T16:55:30.8467171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
+        "ExtraInfo": "aut",
+        "StyleHint": "illum",
         "Hidden": true,
-        "FullName": "Miss Pamela Stroman MD",
+        "FullName": "Cathryn Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 908
+            "FieldType": "System.Int32",
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Emilia Mosciski PhD",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Johnny Mateo Padberg III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldLength": 515
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 858,
-  "EmailAddress": "taurean.keeling@graham.com",
-  "EmailTemplateId": 639,
-  "CultureLcidId": 509,
-  "Subject": "sit"
+  "PersonId": 714,
+  "EmailAddress": "marjory_johnston@schowalterbogisich.uk",
+  "EmailTemplateId": 941,
+  "CultureLcidId": 985,
+  "Subject": "ut"
 }
 ```
 

@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "rerum",
-    "PersonId": 409,
-    "Mrmrs": "nisi",
-    "Firstname": "Kaylie",
-    "Lastname": "Mraz",
-    "MiddleName": "Kerluke-Schroeder",
-    "Title": "commodi",
-    "Description": "Proactive regional success",
-    "Email": "viva_stamm@bayertromp.biz",
-    "FullName": "Miss Aglae Jerel Rath",
-    "DirectPhone": "213.660.9621",
-    "FormalName": "Dooley Group",
-    "CountryId": 79,
-    "ContactId": 141,
-    "ContactName": "Watsica Inc and Sons",
-    "Retired": 21,
-    "Rank": 727,
-    "ActiveInterests": 123,
+    "Position": "dolorem",
+    "PersonId": 355,
+    "Mrmrs": "est",
+    "Firstname": "Emilio",
+    "Lastname": "Spencer",
+    "MiddleName": "Bins-Boyle",
+    "Title": "ea",
+    "Description": "Enhanced object-oriented success",
+    "Email": "joan@schowalter.info",
+    "FullName": "Jason Wilkinson IV",
+    "DirectPhone": "618.952.9350",
+    "FormalName": "Breitenberg-Zboncak",
+    "CountryId": 98,
+    "ContactId": 735,
+    "ContactName": "Cruickshank-Crist",
+    "Retired": 142,
+    "Rank": 37,
+    "ActiveInterests": 40,
     "ContactDepartment": "",
-    "ContactCountryId": 375,
-    "ContactOrgNr": "1559208",
-    "FaxPhone": "618.336.6535",
-    "MobilePhone": "731.824.8056 x16245",
-    "ContactPhone": "182.748.9231 x011",
-    "AssociateName": "Mills, Kub and Shanahan",
-    "AssociateId": 103,
-    "UsePersonAddress": true,
-    "ContactFax": "laudantium",
-    "Kanafname": "officiis",
-    "Kanalname": "sed",
-    "Post1": "maxime",
-    "Post2": "repellat",
-    "Post3": "omnis",
-    "EmailName": "queenie.hackett@osinski.us",
-    "ContactFullName": "Garland Roberts",
-    "ActiveErpLinks": 884,
-    "TicketPriorityId": 735,
-    "SupportLanguageId": 79,
-    "SupportAssociateId": 69,
+    "ContactCountryId": 378,
+    "ContactOrgNr": "485928",
+    "FaxPhone": "429-250-9204 x14123",
+    "MobilePhone": "(859)686-0245 x87565",
+    "ContactPhone": "659.910.9104 x89285",
+    "AssociateName": "Will, Rippin and Mitchell",
+    "AssociateId": 804,
+    "UsePersonAddress": false,
+    "ContactFax": "nihil",
+    "Kanafname": "ex",
+    "Kanalname": "quo",
+    "Post1": "maiores",
+    "Post2": "blanditiis",
+    "Post3": "asperiores",
+    "EmailName": "cassidy.beatty@legros.ca",
+    "ContactFullName": "Caleb Ernser",
+    "ActiveErpLinks": 585,
+    "TicketPriorityId": 819,
+    "SupportLanguageId": 381,
+    "SupportAssociateId": 78,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 927
+        "FieldType": "System.Int32",
+        "FieldLength": 72
       }
     }
   }

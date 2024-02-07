@@ -72,17 +72,17 @@ OK
 | UpdatedDate | date-time | Date last updated  in UTC. |
 | CreatedDate | date-time | Date registered  in UTC. |
 | Emails | array | The contact's email |
-| Interests | array | The contact's available and selected interests.  <para>Use MDO List name "contint" to get list items.</para> |
+| Interests | array | The contact's available and selected interests.  Use MDO List name "contint" to get list items. |
 | Urls | array | The contact's internet adresses |
 | Phones | array | The contact's phone numbers |
 | Faxes | array | The contact's fax numbers |
 | Description | string | Description of the contact. Usually shown as a postit note. |
 | UpdatedBy | Associate | The user that last updated the contact |
 | CreatedBy | Associate | The user that created the contact |
-| Associate | Associate | The user that owns this contact.  <para>Use MDO List name "associate" to get list items.</para> |
-| Business | Business | The business that the contact is associated with. The GUI forces the user to enter a business type.  <para>Use MDO List name "business" to get list items.</para> |
-| Category | Category | The category that is set on the company. The GUI forces the user to enter a category type  <para>Use MDO List name "category" to get list items.</para> |
-| Country | Country | The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.  <para>Use MDO List name "country" to get list items.</para> |
+| Associate | Associate | The user that owns this contact.  Use MDO List name "associate" to get list items. |
+| Business | Business | The business that the contact is associated with. The GUI forces the user to enter a business type.  Use MDO List name "business" to get list items. |
+| Category | Category | The category that is set on the company. The GUI forces the user to enter a category type  Use MDO List name "category" to get list items. |
+| Country | Country | The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.  Use MDO List name "country" to get list items. |
 | Persons | array | The persons belonging to the contact. |
 | NoMailing | bool | Spam filter. Indicates if this contact should retrieve advertising. |
 | Kananame | string | Contact kana name, used in Japanese versions only |
@@ -90,23 +90,23 @@ OK
 | ActiveInterests | int32 | The number of active interests. |
 | GroupId | int32 | Group id of original owning associate, semantics like appnt.grp_id |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for contact |
-| SupportAssociate | Associate | <para>Use MDO List name "associate" to get list items.</para> |
-| TicketPriority | TicketPriority | <para>Use MDO List name "ticketpriority" to get list items.</para> |
+| SupportAssociate | Associate | Use MDO List name "associate" to get list items. |
+| TicketPriority | TicketPriority | Use MDO List name "ticketpriority" to get list items. |
 | CustomerLanguage | CustomerLanguage | customerlanguage |
 | Deleted | int32 | If nonzero, then this contact is 'deleted' and should generally not be shown |
 | DbiAgentId | int32 | Integration agent (eJournal) |
 | DbiLastSyncronized | date-time | Last external syncronization. |
 | DbiKey | string | The primary key for the integrated entry in the external datasource. |
 | DbiLastModified | date-time | When the entry was last modified. |
-| SupportPerson | Person | Carrier object for Person. Services for the Person Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>. |
-| Address | Address | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered. <para /> Carrier object for Address. |
+| SupportPerson | Person | Carrier object for Person. Services for the Person Carrier is available from the Person Agent. |
+| Address | Address | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.  Carrier object for Address. |
 | Source | int32 | How did we get this contact? For future integration needs |
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -120,7 +120,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 914
+  "ContactId": 695
 }
 ```
 
@@ -131,157 +131,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 886,
-  "Name": "Runolfsdottir, Turner and Kihn",
+  "ContactId": 540,
+  "Name": "Pollich Group",
   "Department": "",
-  "OrgNr": "1601026",
-  "Number1": "874015",
-  "Number2": "446832",
-  "UpdatedDate": "2009-12-08T23:03:55.3361375+01:00",
-  "CreatedDate": "2020-06-30T23:03:55.3361375+02:00",
+  "OrgNr": "365665",
+  "Number1": "1058621",
+  "Number2": "710077",
+  "UpdatedDate": "2017-01-18T16:54:54.9600067+01:00",
+  "CreatedDate": "1999-03-04T16:54:54.9600067+01:00",
   "Emails": [
     {
-      "Value": "quidem",
-      "StrippedValue": "nesciunt",
-      "Description": "Realigned client-driven hub",
+      "Value": "ratione",
+      "StrippedValue": "velit",
+      "Description": "Digitized bifurcated challenge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldLength": 151
         }
       }
     },
     {
-      "Value": "quidem",
-      "StrippedValue": "nesciunt",
-      "Description": "Realigned client-driven hub",
+      "Value": "ratione",
+      "StrippedValue": "velit",
+      "Description": "Digitized bifurcated challenge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldLength": 151
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 217,
-      "Name": "Wolff-Stiedemann",
-      "ToolTip": "Error consectetur et eum ea temporibus.",
+      "Id": 650,
+      "Name": "Adams, Spencer and Casper",
+      "ToolTip": "Rerum harum eligendi quo quis et inventore et.",
       "Deleted": false,
-      "Rank": 638,
-      "Type": "qui",
-      "ColorBlock": 747,
-      "IconHint": "nobis",
-      "Selected": true,
-      "LastChanged": "2014-08-21T23:03:55.3366427+02:00",
+      "Rank": 682,
+      "Type": "sit",
+      "ColorBlock": 876,
+      "IconHint": "maiores",
+      "Selected": false,
+      "LastChanged": "2020-01-21T16:54:54.9600067+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "pariatur",
+      "ExtraInfo": "nemo",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Meredith Bins",
+      "FullName": "Prof. Darlene Orn DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldType": "System.String",
+          "FieldLength": 606
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "eveniet",
-      "StrippedValue": "nam",
-      "Description": "Down-sized leading edge installation",
+      "Value": "quis",
+      "StrippedValue": "quaerat",
+      "Description": "Inverse heuristic core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldLength": 704
         }
       }
     },
     {
-      "Value": "eveniet",
-      "StrippedValue": "nam",
-      "Description": "Down-sized leading edge installation",
+      "Value": "quis",
+      "StrippedValue": "quaerat",
+      "Description": "Inverse heuristic core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldLength": 704
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "accusantium",
-      "StrippedValue": "porro",
-      "Description": "Fully-configurable fresh-thinking strategy",
+      "Value": "repellat",
+      "StrippedValue": "quia",
+      "Description": "Fully-configurable global analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 610
         }
       }
     },
     {
-      "Value": "accusantium",
-      "StrippedValue": "porro",
-      "Description": "Fully-configurable fresh-thinking strategy",
+      "Value": "repellat",
+      "StrippedValue": "quia",
+      "Description": "Fully-configurable global analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 610
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "repudiandae",
-      "StrippedValue": "harum",
-      "Description": "Balanced reciprocal moderator",
+      "Value": "eos",
+      "StrippedValue": "officia",
+      "Description": "Programmable secondary strategy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     },
     {
-      "Value": "repudiandae",
-      "StrippedValue": "harum",
-      "Description": "Balanced reciprocal moderator",
+      "Value": "eos",
+      "StrippedValue": "officia",
+      "Description": "Programmable secondary strategy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     }
   ],
-  "Description": "Versatile interactive archive",
+  "Description": "Re-contextualized 5th generation array",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -290,100 +290,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "et",
-      "PersonId": 252,
-      "Mrmrs": "qui",
-      "Firstname": "Maverick",
-      "Lastname": "Hills",
-      "MiddleName": "Hauck Inc and Sons",
-      "Title": "doloremque",
-      "Description": "Triple-buffered fault-tolerant toolset",
-      "Email": "aubrey@denesik.co.uk",
-      "FullName": "Lorenzo Maegan Lang Jr.",
-      "DirectPhone": "(190)942-7684",
-      "FormalName": "Dach, Zemlak and Hermann",
-      "CountryId": 690,
-      "ContactId": 412,
-      "ContactName": "Stracke-Kozey",
-      "Retired": 690,
-      "Rank": 147,
-      "ActiveInterests": 322,
+      "Position": "non",
+      "PersonId": 498,
+      "Mrmrs": "delectus",
+      "Firstname": "Myrl",
+      "Lastname": "Turcotte",
+      "MiddleName": "Hickle-Crooks",
+      "Title": "esse",
+      "Description": "Distributed interactive structure",
+      "Email": "cecil.beer@towneroob.uk",
+      "FullName": "Karli Nitzsche",
+      "DirectPhone": "570-908-0568 x39370",
+      "FormalName": "Wolf Group",
+      "CountryId": 197,
+      "ContactId": 725,
+      "ContactName": "Wolff-Lueilwitz",
+      "Retired": 741,
+      "Rank": 59,
+      "ActiveInterests": 608,
       "ContactDepartment": "",
-      "ContactCountryId": 631,
-      "ContactOrgNr": "1032295",
-      "FaxPhone": "(850)308-6514 x36411",
-      "MobilePhone": "(106)281-5753 x28169",
-      "ContactPhone": "835-996-5627 x8040",
-      "AssociateName": "Jenkins, Oberbrunner and Goodwin",
-      "AssociateId": 315,
+      "ContactCountryId": 465,
+      "ContactOrgNr": "788378",
+      "FaxPhone": "(490)169-5839",
+      "MobilePhone": "(005)713-6813",
+      "ContactPhone": "288-594-6735 x351",
+      "AssociateName": "Reilly, Boehm and Borer",
+      "AssociateId": 48,
       "UsePersonAddress": false,
-      "ContactFax": "quas",
-      "Kanafname": "recusandae",
-      "Kanalname": "quis",
-      "Post1": "in",
-      "Post2": "ad",
-      "Post3": "quos",
-      "EmailName": "jerome.kiehn@hand.biz",
-      "ContactFullName": "Trace Walker",
-      "ActiveErpLinks": 890,
-      "TicketPriorityId": 163,
-      "SupportLanguageId": 442,
-      "SupportAssociateId": 609,
+      "ContactFax": "praesentium",
+      "Kanafname": "ducimus",
+      "Kanalname": "et",
+      "Post1": "eligendi",
+      "Post2": "ullam",
+      "Post3": "praesentium",
+      "EmailName": "lila_schultz@rennergulgowski.biz",
+      "ContactFullName": "Maritza Zulauf",
+      "ActiveErpLinks": 814,
+      "TicketPriorityId": 442,
+      "SupportLanguageId": 775,
+      "SupportAssociateId": 220,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 637
+          "FieldType": "System.Int32",
+          "FieldLength": 592
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "beatae",
+  "Kananame": "sapiente",
   "Xstop": false,
-  "ActiveInterests": 607,
-  "GroupId": 538,
-  "ActiveStatusMonitorId": 86,
+  "ActiveInterests": 687,
+  "GroupId": 802,
+  "ActiveStatusMonitorId": 637,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 198,
-  "DbiAgentId": 791,
-  "DbiLastSyncronized": "2004-05-02T23:03:55.3401372+02:00",
-  "DbiKey": "aliquid",
-  "DbiLastModified": "1999-09-05T23:03:55.3401372+02:00",
+  "Deleted": 966,
+  "DbiAgentId": 253,
+  "DbiLastSyncronized": "1998-11-12T16:54:54.9630015+01:00",
+  "DbiKey": "quae",
+  "DbiLastModified": "2023-03-12T16:54:54.9630015+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 337,
-  "ActiveErpLinks": 811,
+  "Source": 409,
+  "ActiveErpLinks": 901,
   "BounceEmails": [
-    "florian@dickinson.name",
-    "serena_lehner@hodkiewiczkassulke.uk"
+    "christop@grant.co.uk",
+    "sim.zieme@douglas.com"
   ],
   "Domains": [
-    "recusandae",
-    "voluptatem"
+    "ipsum",
+    "aut"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Skyla Auer",
-    "SuperOffice:2": "Mrs. Leanne Peter Hyatt"
+    "SuperOffice:1": "Cletus Williamson",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "nam",
-    "CustomFields2": "sit"
+    "CustomFields1": "similique",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

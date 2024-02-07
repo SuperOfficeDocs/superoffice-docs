@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Mueller LLC"
+  "FunctionalRightName": "Dietrich-Kuhlman"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "McCullough LLC",
-    "ToolTip": "In qui.",
+    "Id": 713,
+    "Name": "Johns-O'Connell",
+    "ToolTip": "Facere suscipit id et modi dolores nobis.",
     "Deleted": false,
-    "Rank": 544,
-    "Type": "dolorum",
+    "Rank": 259,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Dickinson, Toy and Considine",
-        "ToolTip": "Consectetur molestiae doloribus porro.",
+        "Id": 623,
+        "Name": "Kuhic Group",
+        "ToolTip": "Officiis consequatur cumque est consequatur optio inventore.",
         "Deleted": false,
-        "Rank": 747,
-        "Type": "possimus",
+        "Rank": 949,
+        "Type": "aspernatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "expedita",
-        "ColorBlock": 654,
-        "ExtraInfo": "magnam",
-        "StyleHint": "distinctio",
-        "FullName": "Dwight Jayda Becker III",
+        "IconHint": "nam",
+        "ColorBlock": 515,
+        "ExtraInfo": "error",
+        "StyleHint": "eos",
+        "FullName": "Mrs. Fred Robel IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 945
+            "FieldType": "System.String",
+            "FieldLength": 222
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 563,
-    "ExtraInfo": "eos",
-    "StyleHint": "pariatur",
-    "FullName": "Alfredo Wintheiser",
+    "IconHint": "quod",
+    "ColorBlock": 328,
+    "ExtraInfo": "est",
+    "StyleHint": "eius",
+    "FullName": "Deion Cremin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 607
+        "FieldLength": 659
       }
     }
   }

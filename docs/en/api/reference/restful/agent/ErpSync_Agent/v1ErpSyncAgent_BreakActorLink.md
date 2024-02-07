@@ -76,8 +76,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 465,
-  "CrmRecordId": 273,
+  "ErpConnectionId": 605,
+  "CrmRecordId": 828,
   "CrmActorType": "Contact"
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

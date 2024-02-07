@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "voluptatem"
+  "MessageId": "deleniti"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 557,
-      "ContactName": "Tremblay-Keeling",
-      "PersonId": 212,
-      "PersonName": "Abernathy-Jerde",
-      "AssociateId": 931,
-      "Address": "similique",
-      "EmailId": 375,
+      "ContactId": 685,
+      "ContactName": "Donnelly-Kuhlman",
+      "PersonId": 540,
+      "PersonName": "Kris Group",
+      "AssociateId": 723,
+      "Address": "maiores",
+      "EmailId": 599,
       "DuplicatePersonIds": [
-        132,
-        258
+        65,
+        215
       ],
-      "Name": "Deckow-Homenick",
+      "Name": "Herzog LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 755
+          "FieldLength": 154
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 977,
-      "ContactName": "Tromp Group",
-      "PersonId": 342,
-      "PersonName": "Dickens Inc and Sons",
-      "AssociateId": 227,
-      "Address": "modi",
-      "EmailId": 214,
+      "ContactId": 369,
+      "ContactName": "Ritchie, Tromp and Schmitt",
+      "PersonId": 493,
+      "PersonName": "Feest-Tillman",
+      "AssociateId": 248,
+      "Address": "earum",
+      "EmailId": 399,
       "DuplicatePersonIds": [
-        527,
-        71
+        269,
+        396
       ],
-      "Name": "Hayes-Mann",
+      "Name": "Moen-Wisoky",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldLength": 810
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 27,
-      "ContactName": "Pollich LLC",
-      "PersonId": 209,
-      "PersonName": "Botsford-Zieme",
-      "AssociateId": 505,
-      "Address": "dolores",
-      "EmailId": 129,
+      "ContactId": 954,
+      "ContactName": "Swift-Nolan",
+      "PersonId": 267,
+      "PersonName": "Lakin, Brown and Kemmer",
+      "AssociateId": 500,
+      "Address": "nostrum",
+      "EmailId": 775,
       "DuplicatePersonIds": [
-        213,
-        353
+        417,
+        327
       ],
-      "Name": "Wiza-Hodkiewicz",
+      "Name": "Weber-Swaniawski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 461
         }
       }
     }
   ],
-  "Subject": "ea",
-  "HTMLBody": "vero",
+  "Subject": "eius",
+  "HTMLBody": "maxime",
   "From": null,
-  "Sent": "2005-11-22T23:03:55.8856381+01:00",
-  "Size": 567,
+  "Sent": "1999-07-13T16:54:55.307421+02:00",
+  "Size": 901,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "quidem",
-  "IsSent": false,
+  "MessageID": "cum",
+  "PlainBody": "recusandae",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 420,
+  "ServerId": 865,
   "Attachments": [
     {
-      "Description": "Focused real-time intranet",
-      "Filename": "voluptas",
-      "Size": 744,
-      "Type": "assumenda",
-      "Encoding": "possimus",
-      "Id": "earum",
-      "Disposition": "placeat",
+      "Description": "Organic hybrid contingency",
+      "Filename": "ut",
+      "Size": 722,
+      "Type": "expedita",
+      "Encoding": "labore",
+      "Id": "quas",
+      "Disposition": "iusto",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 636
+          "FieldType": "System.Int32",
+          "FieldLength": 620
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Waters-Dach",
+      "Name": "Rice LLC",
       "Values": [
-        "doloribus",
-        "necessitatibus"
+        "dolore",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldType": "System.String",
+          "FieldLength": 496
         }
       }
     },
     {
-      "Name": "Waters-Dach",
+      "Name": "Rice LLC",
       "Values": [
-        "doloribus",
-        "necessitatibus"
+        "dolore",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldType": "System.String",
+          "FieldLength": 496
         }
       }
     }
   ],
-  "FolderName": "Smith-Reinger",
-  "EmailItemId": 911,
-  "AccountId": 506,
-  "ReceivedAt": "1997-04-10T23:03:55.8856381+02:00",
+  "FolderName": "Fadel Inc and Sons",
+  "EmailItemId": 395,
+  "AccountId": 256,
+  "ReceivedAt": "2000-08-06T16:54:55.3084193+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-11-26T23:03:55.8861275+01:00",
+  "RepliedAt": "2018-10-09T16:54:55.3084193+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 20
     }
   }
 }

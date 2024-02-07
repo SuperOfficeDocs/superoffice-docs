@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatibus",
-  "ProviderName": "Emard, Hamill and McLaughlin",
-  "StorageKey": "nihil",
-  "Context": "dolor"
+  "StorageType": "distinctio",
+  "ProviderName": "Balistreri, Kohler and Willms",
+  "StorageKey": "maiores",
+  "Context": "quia"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heathcote, Prohaska and O'Reilly",
-    "Description": "Multi-channelled context-sensitive throughput",
-    "Rank": 261,
+    "Name": "Adams-West",
+    "Description": "Programmable static utilisation",
+    "Rank": 436,
     "Restrictions": [
       {
-        "Name": "Hudson-Russel",
-        "Operator": "natus",
+        "Name": "Predovic, Kreiger and Sporer",
+        "Operator": "dicta",
         "Values": [
-          "quis",
-          "voluptatibus"
+          "quaerat",
+          "non"
         ],
         "DisplayValues": [
-          "et",
-          "expedita"
+          "voluptatem",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 465,
+        "InterParenthesis": 808,
         "InterOperator": "And",
-        "UniqueHash": 2
+        "UniqueHash": 752
       }
     ]
   },
   {
-    "Name": "Heathcote, Prohaska and O'Reilly",
-    "Description": "Multi-channelled context-sensitive throughput",
-    "Rank": 261,
+    "Name": "Adams-West",
+    "Description": "Programmable static utilisation",
+    "Rank": 436,
     "Restrictions": [
       {
-        "Name": "Hudson-Russel",
-        "Operator": "natus",
+        "Name": "Predovic, Kreiger and Sporer",
+        "Operator": "dicta",
         "Values": [
-          "quis",
-          "voluptatibus"
+          "quaerat",
+          "non"
         ],
         "DisplayValues": [
-          "et",
-          "expedita"
+          "voluptatem",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 465,
+        "InterParenthesis": 808,
         "InterOperator": "And",
-        "UniqueHash": 2
+        "UniqueHash": 752
       }
     ]
   }

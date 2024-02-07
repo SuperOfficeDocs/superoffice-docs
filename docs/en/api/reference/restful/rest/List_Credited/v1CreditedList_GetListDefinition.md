@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Stoltenberg, Bahringer and Romaguera",
-  "Tooltip": "amet",
+  "Id": 953,
+  "Name": "Hills, Lesch and Mosciski",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 275,
+  "Rank": 627,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
-  "InUseByUserDefinedFields": false,
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldLength": 842
     }
   },
   "_Links": {

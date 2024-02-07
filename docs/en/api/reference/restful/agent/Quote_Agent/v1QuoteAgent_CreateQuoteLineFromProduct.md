@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 644,
+  "QuoteAlternativeId": 565,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 995,
-  "ERPQuoteLineKey": "ut",
-  "QuoteAlternativeId": 763,
-  "ERPProductKey": "dolor",
+  "QuoteLineId": 145,
+  "ERPQuoteLineKey": "aliquid",
+  "QuoteAlternativeId": 545,
+  "ERPProductKey": "eaque",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 16986.28,
-  "DeliveredQuantity": 4719.804,
-  "Rank": 487,
-  "Name": "Zulauf-Marks",
-  "Description": "Advanced bifurcated installation",
-  "Code": "magni",
-  "QuantityUnit": "ea",
-  "PriceUnit": "sed",
-  "ItemNumber": "790067",
+  "Quantity": 4873.37,
+  "DeliveredQuantity": 19192.615999999998,
+  "Rank": 534,
+  "Name": "Ankunding-Miller",
+  "Description": "Fundamental zero tolerance portal",
+  "Code": "iure",
+  "QuantityUnit": "debitis",
+  "PriceUnit": "ratione",
+  "ItemNumber": "1070010",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "animi",
-  "ProductTypeKey": "ut",
-  "Supplier": "ipsam",
-  "SupplierCode": "atque",
-  "Thumbnail": "quia",
-  "VATInfo": "nobis",
-  "VAT": 23392.176,
-  "UnitCost": 3691.852,
-  "UnitMinimumPrice": 29327.971999999998,
-  "UnitListPrice": 25028.124,
+  "ProductFamilyKey": "saepe",
+  "ProductTypeKey": "et",
+  "Supplier": "amet",
+  "SupplierCode": "quia",
+  "Thumbnail": "provident",
+  "VATInfo": "praesentium",
+  "VAT": 3569.6259999999997,
+  "UnitCost": 30703.798,
+  "UnitMinimumPrice": 5609.86,
+  "UnitListPrice": 16487.974,
   "ExtraInfo": [
     {
-      "Name": "Brown, Harber and Torphy",
-      "Value": "ex",
+      "Name": "Stracke LLC",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldType": "System.String",
+          "FieldLength": 288
         }
       }
     },
     {
-      "Name": "Brown, Harber and Torphy",
-      "Value": "ex",
+      "Name": "Stracke LLC",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldType": "System.String",
+          "FieldLength": 288
         }
       }
     }
   ],
-  "RawExtraInfo": "similique",
-  "IsSubscription": false,
-  "SubscriptionUnit": "dolor",
-  "SubscriptionQuantity": 16616.468,
-  "SubscriptionStart": "1999-04-11T23:03:56.7991184+02:00",
-  "ERPDiscountPercent": 9138.744,
-  "ERPDiscountAmount": 11241.658,
-  "DiscountPercent": 6252.33,
-  "DiscountAmount": 14789.346,
+  "RawExtraInfo": "doloremque",
+  "IsSubscription": true,
+  "SubscriptionUnit": "rem",
+  "SubscriptionQuantity": 977.808,
+  "SubscriptionStart": "2010-12-12T16:54:56.1559649+01:00",
+  "ERPDiscountPercent": 6032.95,
+  "ERPDiscountAmount": 21477.302,
+  "DiscountPercent": 14949.18,
+  "DiscountAmount": 8320.77,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 25915.046,
-  "EarningAmount": 31039.136,
-  "SubTotal": 26168.899999999998,
-  "TotalPrice": 27287.737999999998,
-  "Rights": "est",
-  "Rule": "mollitia",
-  "ExtraField1": "eum",
-  "ExtraField2": "ut",
-  "ExtraField3": "consectetur",
-  "ExtraField4": "est",
-  "ExtraField5": "officia",
+  "EarningPercent": 2830.002,
+  "EarningAmount": 20565.308,
+  "SubTotal": 11699.222,
+  "TotalPrice": 25727.005999999998,
+  "Rights": "atque",
+  "Rule": "quia",
+  "ExtraField1": "maiores",
+  "ExtraField2": "placeat",
+  "ExtraField3": "error",
+  "ExtraField4": "impedit",
+  "ExtraField5": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldLength": 131
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Rice-Schamberger",
-    "ToolTip": "Distinctio omnis porro doloribus earum temporibus.",
-    "Deleted": false,
-    "Rank": 146,
-    "Type": "omnis",
-    "ColorBlock": 225,
-    "IconHint": "minus",
+    "Id": 201,
+    "Name": "Weimann Group",
+    "ToolTip": "Sint dolores dolorem officiis saepe non sapiente in.",
+    "Deleted": true,
+    "Rank": 154,
+    "Type": "ea",
+    "ColorBlock": 62,
+    "IconHint": "repellat",
     "Selected": true,
-    "LastChanged": "2019-01-27T23:04:05.3575047+01:00",
+    "LastChanged": "1997-09-03T16:55:30.5756981+02:00",
     "ChildItems": [
       {
-        "Id": 465,
-        "Name": "Rowe-Shields",
-        "ToolTip": "Sint mollitia repellendus ullam autem quia labore expedita.",
+        "Id": 442,
+        "Name": "Runolfsdottir, Daniel and Hettinger",
+        "ToolTip": "Ea ducimus architecto aperiam et labore.",
         "Deleted": false,
-        "Rank": 238,
-        "Type": "reprehenderit",
-        "ColorBlock": 517,
-        "IconHint": "mollitia",
+        "Rank": 555,
+        "Type": "exercitationem",
+        "ColorBlock": 836,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2012-09-25T23:04:05.3575047+02:00",
+        "LastChanged": "2016-10-08T16:55:30.5756981+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Jared Daugherty"
+        "ExtraInfo": "velit",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Dr. Alva Sister Bogan"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Gaston Yundt"
+    "FullName": "Mrs. Aliya Stark DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Willms, Champlin and Kreiger",
-    "ToolTip": "Soluta quia.",
+    "Id": 699,
+    "Name": "Pollich, Towne and Satterfield",
+    "ToolTip": "Molestiae rem.",
     "Deleted": true,
-    "Rank": 407,
-    "Type": "et",
-    "ColorBlock": 647,
-    "IconHint": "voluptas",
+    "Rank": 808,
+    "Type": "delectus",
+    "ColorBlock": 564,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2014-09-09T23:04:05.3585031+02:00",
+    "LastChanged": "2022-01-15T16:55:30.5778171+01:00",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Hermiston-Kovacek",
-        "ToolTip": "Odit officia et repellendus pariatur quo eius.",
+        "Id": 752,
+        "Name": "Kunde LLC",
+        "ToolTip": "Impedit qui praesentium dignissimos aut commodi.",
         "Deleted": false,
-        "Rank": 342,
-        "Type": "voluptatum",
-        "ColorBlock": 977,
-        "IconHint": "non",
+        "Rank": 421,
+        "Type": "iure",
+        "ColorBlock": 435,
+        "IconHint": "nemo",
         "Selected": true,
-        "LastChanged": "2021-10-06T23:04:05.3590012+02:00",
+        "LastChanged": "2005-09-14T16:55:30.5778171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "vitae",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Marcel Rau",
+        "FullName": "Ms. Emmanuelle Waino Conroy Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldLength": 276
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Crystal Barrows",
+    "ExtraInfo": "sit",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Bradly Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldLength": 458
       }
     }
   }

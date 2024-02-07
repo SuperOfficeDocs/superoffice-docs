@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Schneider-Walker",
-    "ToolTip": "Ipsam quia ducimus voluptatem sint et et et.",
+    "Id": 575,
+    "Name": "Steuber, Gleason and Reichert",
+    "ToolTip": "Sit aliquid totam.",
     "Deleted": false,
-    "Rank": 598,
-    "Type": "ea",
-    "ColorBlock": 326,
-    "IconHint": "consequatur",
+    "Rank": 203,
+    "Type": "molestiae",
+    "ColorBlock": 221,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2013-06-08T23:04:05.5039991+02:00",
+    "LastChanged": "2008-11-13T16:55:30.7063068+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Padberg, Lindgren and Lesch",
-        "ToolTip": "Praesentium debitis deleniti iusto fugiat sed.",
-        "Deleted": true,
-        "Rank": 159,
-        "Type": "delectus",
-        "ColorBlock": 937,
-        "IconHint": "ut",
+        "Id": 219,
+        "Name": "Emard Group",
+        "ToolTip": "Quod voluptatem alias sit ipsam.",
+        "Deleted": false,
+        "Rank": 703,
+        "Type": "cum",
+        "ColorBlock": 659,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2003-06-02T23:04:05.5039991+02:00",
+        "LastChanged": "2019-04-22T16:55:30.7063068+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "a",
-        "Hidden": true,
-        "FullName": "Miss Shirley Kiel Sawayn",
+        "ExtraInfo": "est",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Mr. Kiley Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 959
+            "FieldType": "System.String",
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "labore",
+    "ExtraInfo": "harum",
+    "StyleHint": "consequuntur",
     "Hidden": false,
-    "FullName": "Prof. Cassie Tracey Fisher",
+    "FullName": "Madeline Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 522
       }
     }
   }

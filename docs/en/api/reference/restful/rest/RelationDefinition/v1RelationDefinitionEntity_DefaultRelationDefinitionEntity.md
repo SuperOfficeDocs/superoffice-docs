@@ -64,7 +64,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 750,
-  "Name": "McLaughlin, Gerlach and Macejkovic",
-  "Tooltip": "beatae",
-  "PassiveText": "quaerat",
+  "ReldefId": 91,
+  "Name": "Ortiz LLC",
+  "Tooltip": "animi",
+  "PassiveText": "non",
   "Deleted": false,
-  "Rank": 412,
+  "Rank": 726,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 680
     }
   }
 }

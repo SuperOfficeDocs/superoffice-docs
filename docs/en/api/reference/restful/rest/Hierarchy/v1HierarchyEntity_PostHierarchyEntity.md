@@ -94,36 +94,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 194,
+  "HierarchyId": 154,
   "Domain": "Dashboards",
-  "Name": "Grimes, Bradtke and Schamberger",
-  "Fullname": "sint",
-  "ParentId": 824,
+  "Name": "Haag-Batz",
+  "Fullname": "ex",
+  "ParentId": 783,
   "Children": [
     {
-      "HierarchyId": 773,
+      "HierarchyId": 384,
       "Domain": "Dashboards",
-      "Name": "Walter Inc and Sons",
-      "Fullname": "expedita",
-      "ParentId": 410,
+      "Name": "O'Keefe-Bechtelar",
+      "Fullname": "possimus",
+      "ParentId": 377,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-01-13T23:04:04.2335188+01:00",
-      "RegisteredAssociateId": 983,
-      "Updated": "2013-10-24T23:04:04.2335188+02:00",
-      "UpdatedAssociateId": 557
+      "Registered": "2017-02-11T16:55:29.6604374+01:00",
+      "RegisteredAssociateId": 82,
+      "Updated": "2014-07-06T16:55:29.6604374+02:00",
+      "UpdatedAssociateId": 526
     }
   ],
-  "Registered": "2011-02-03T23:04:04.2335188+01:00",
-  "RegisteredAssociateId": 523,
-  "Updated": "2021-10-25T23:04:04.2335188+02:00",
-  "UpdatedAssociateId": 5
+  "Registered": "1997-11-05T16:55:29.6604374+01:00",
+  "RegisteredAssociateId": 99,
+  "Updated": "2007-02-10T16:55:29.6604374+01:00",
+  "UpdatedAssociateId": 483
 }
 ```
 
@@ -134,46 +134,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 400,
+  "HierarchyId": 774,
   "Domain": "Dashboards",
-  "Name": "Klocko Group",
-  "Fullname": "dolores",
-  "ParentId": 244,
+  "Name": "Green, Carroll and Ledner",
+  "Fullname": "aut",
+  "ParentId": 507,
   "Children": [
     {
-      "HierarchyId": 814,
+      "HierarchyId": 371,
       "Domain": "Dashboards",
-      "Name": "Cole Inc and Sons",
-      "Fullname": "ea",
-      "ParentId": 446,
+      "Name": "Kunze-Gulgowski",
+      "Fullname": "eveniet",
+      "ParentId": 822,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-04-13T23:04:04.2340145+02:00",
-      "RegisteredAssociateId": 795,
-      "Updated": "2005-12-15T23:04:04.2340145+01:00",
-      "UpdatedAssociateId": 566,
+      "Registered": "2024-01-09T16:55:29.6614392+01:00",
+      "RegisteredAssociateId": 872,
+      "Updated": "2005-05-01T16:55:29.6614392+02:00",
+      "UpdatedAssociateId": 52,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 426
         }
       }
     }
   ],
-  "Registered": "2009-06-01T23:04:04.2340145+02:00",
-  "RegisteredAssociateId": 877,
-  "Updated": "2014-07-15T23:04:04.2340145+02:00",
-  "UpdatedAssociateId": 228,
+  "Registered": "2005-02-08T16:55:29.6624639+01:00",
+  "RegisteredAssociateId": 477,
+  "Updated": "2019-12-23T16:55:29.6624639+01:00",
+  "UpdatedAssociateId": 886,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldType": "System.String",
+      "FieldLength": 257
     }
   },
   "_Links": {

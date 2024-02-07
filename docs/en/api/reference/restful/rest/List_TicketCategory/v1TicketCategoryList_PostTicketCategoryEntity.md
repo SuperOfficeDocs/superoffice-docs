@@ -89,7 +89,7 @@ OK
 | DefaultMessageStatus | TicketStatusEntity | Default status for new messages, if 0 then there is a fallback to a user-dependent value |
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 481,
-  "ParentId": 931,
-  "Name": "Pfannerstill-Emard",
-  "Fullname": "cum",
-  "CategoryMaster": 259,
+  "TicketCategoryId": 938,
+  "ParentId": 562,
+  "Name": "Dietrich Inc and Sons",
+  "Fullname": "aliquid",
+  "CategoryMaster": 962,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bogan LLC",
+  "ExternalName": "Medhurst LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 899,
-  "ReplyTemplate": 270,
-  "NotificationEmail": "gunnar_howe@stamm.info",
+  "AssignmentLag": 714,
+  "ReplyTemplate": 703,
+  "NotificationEmail": "donnie_kassulke@fritsch.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 853,
+  "EffectiveReplyTemplateId": 411,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "accusantium"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "nam"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 259,
-  "ParentId": 616,
-  "Name": "Kuvalis, Renner and Mann",
-  "Fullname": "repellat",
-  "CategoryMaster": 830,
+  "TicketCategoryId": 878,
+  "ParentId": 411,
+  "Name": "Labadie-Rempel",
+  "Fullname": "provident",
+  "CategoryMaster": 999,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Torphy-Rodriguez",
+  "ExternalName": "Kirlin, Padberg and Labadie",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 838,
-  "ReplyTemplate": 46,
-  "NotificationEmail": "sincere@fadel.name",
+  "AssignmentLag": 806,
+  "ReplyTemplate": 781,
+  "NotificationEmail": "merle_vonrueden@jacobi.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 96,
+  "EffectiveReplyTemplateId": 386,
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "non"
+    "CustomFields1": "ut",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 141
     }
   }
 }
