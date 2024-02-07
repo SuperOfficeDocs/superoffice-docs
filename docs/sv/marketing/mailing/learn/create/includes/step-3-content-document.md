@@ -24,6 +24,6 @@ Du kan använda [mallvariabler][1] från SuperOffice CRM i ditt dokument för at
 [!include[Tip](tip-mailing-save-draft.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../learn/editor.md#variables
+[1]: ../../../../editor/learn/index.md#variables
 
 <!-- Referenced images -->

@@ -2,11 +2,14 @@
 uid: help-sv-mailing-edit-paragraph
 title: Redigera ett avsnitt
 description: Redigera ett avsnitt
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marknadsföring
+author: SuperOffice RnD
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Redigera innehåll
@@ -14,9 +17,9 @@ language: sv
 ![ikon][img1]
 
 > [!TIP]
-> Om du vill redigera globala inställningar och layout för meddelandet väljer du **Brödtext** (![ikon][img2]) i sidopanelen. Om du har angett specifika egenskaper för enskilda avsnitt kommer de inte att åsidosättas av globala egenskaper.
+> Om du vill redigera globala inställningar och layout för meddelandet väljer du **Brödtext** ![ikon][img2] i sidopanelen. Om du har angett specifika egenskaper för enskilda avsnitt kommer de inte att åsidosättas av globala egenskaper.
 >
-> Använd **Skrivbordet** (![ikon][img3]) och **Mobil** (![ikon][img4]) överst i sidopanelen för att redigera egenskaper för bordsdatorversioner och [mobila versioner av meddelandena][1].
+> Använd **Skrivbordet** ![ikon][img3] och **Mobil** ![ikon][img4] överst i sidopanelen för att redigera egenskaper för ulika versioner av meddelandena.
 
 ## Redigera textinnehåll (textblock) i ett meddelande
 
@@ -72,18 +75,17 @@ Klicka på **Nästa** om du är klar med redigeringen.
 * [Lägga in en länk för att visa meddelandet i en webbläsare][3]
 
 <!-- Referenced links -->
-[1]: customize-for-mobile.md
 [2]: add-merge-tag.md
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../mailing/learn/create/add-unsubscribe-link.md
-[8]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[7]: ../../mailing/learn/create/add-unsubscribe-link.md
+[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/edit-section.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-body-small.png
-[img3]: ../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../media/icons/marketing-and-forms/mobile.png
-[img5]: ../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/loc/en/marketing/edit-section.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-body-small.png
+[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
+[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
+[img5]: ../../../../media/loc/en/marketing/toolbar.png
+[img6]: ../../../../media/icons/marketing-and-forms/link.png

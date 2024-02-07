@@ -1,0 +1,13 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Lägga till innehåll
+  href: add-content.md
+- name: Redigera avsnitt
+  href: edit-paragraph.md
+- name: Infoga bilder
+  href: insert-images-in-message.md
+- name: Lägga till kopplingsfält
+  href: add-merge-tag.md
+- name: Lägga till länk för att visa meddelande i webbläsaren
+  href: add-link-to-display-message-in-browser.md

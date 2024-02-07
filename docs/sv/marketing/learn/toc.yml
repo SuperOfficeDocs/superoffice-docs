@@ -11,31 +11,19 @@ items:
   - name: Skapa mapp
     href: create-folder.md
   - name: Meddelandemallar
-    href: work-with-messages-and-templates.md
+    href: message-templates.md
   - name: Lägga till bilder
     href: add-images.md
+  - name: Bästa praxis
+    href: best-practices.md
 
 - name: Arbeta med utskick
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
 - name: Dra och släpp-redigerare
-  topicHref: editor.md
-  items:
-  - name: Översikt
-    href: editor.md
-  - name: Lägga till innehåll
-    href: add-content.md
-  - name: Redigera avsnitt
-    href: edit-paragraph.md
-  - name: Infoga bilder
-    href: insert-images-in-message.md
-  - name: Lägga till kopplingsfält
-    href: add-merge-tag.md
-  - name: Lägga till länk för att visa meddelande i webbläsaren
-    href: add-link-to-display-message-in-browser.md
-  - name: Anpassa meddelande för visning på mobila enheter
-    href: customize-for-mobile.md
+  href: ../editor/learn/toc.yml
+  topicHref: ../editor/learn/index.md
 
 - name: Arbeta med spårade länkar
   href: ../tracked-links/learn/toc.yml

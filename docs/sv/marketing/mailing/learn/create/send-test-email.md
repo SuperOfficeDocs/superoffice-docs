@@ -45,7 +45,7 @@ När du har skickat ett testutskick måste du nollställa räknarna för länkar
 2. Klicka på menyknappen ![ikon][img1] bredvid den aktuella länken och välj **Nollställ**. Kolumnen **Klick** sätts då på **0**. Informationen om vilka kunder som klickat på länken tas också bort.
 
 <!-- Referenced links -->
-[1]: ../../../learn/customize-for-mobile.md
+[1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png

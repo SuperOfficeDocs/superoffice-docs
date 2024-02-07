@@ -1,12 +1,15 @@
 ---
-uid: help-sv-add-content
+uid: help-sv-marketing-add-content
 title: Lägg till innehåll
 description: Lägg till innehåll
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marknadsföring, utskick, kolumn, textblock
+author: SuperOffice RnD
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Lägg till innehåll
@@ -55,17 +58,17 @@ Lägg till bilder från SuperOffice-databasen eller från den royaltyfria online
 [2]: edit-paragraph.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/side-panel-content.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-content-columns.png
-[img3]: ../../../media/icons/marketing-and-forms/side-panel-content-button.png
-[img4]: ../../../media/icons/marketing-and-forms/side-panel-content-divider.png
-[img5]: ../../../media/icons/marketing-and-forms/side-panel-content-heading.png
-[img6]: ../../../media/icons/marketing-and-forms/side-panel-content-html.png
-[img7]: ../../../media/icons/marketing-and-forms/side-panel-content-image.png
-[img8]: ../../../media/icons/marketing-and-forms/side-panel-content-menu.png
-[img9]: ../../../media/icons/marketing-and-forms/side-panel-content-social.png
-[img10]: ../../../media/icons/marketing-and-forms/side-panel-content-text.png
-[img11]: ../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
-[img12]: ../../../media/icons/marketing-and-forms/side-panel-blocks.png
-[img13]: ../../../media/icons/marketing-and-forms/save-block.png
-[img14]: ../../../media/icons/marketing-and-forms/side-panel-body.png
+[img1]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-content-columns.png
+[img3]: ../../../../media/icons/marketing-and-forms/side-panel-content-button.png
+[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-divider.png
+[img5]: ../../../../media/icons/marketing-and-forms/side-panel-content-heading.png
+[img6]: ../../../../media/icons/marketing-and-forms/side-panel-content-html.png
+[img7]: ../../../../media/icons/marketing-and-forms/side-panel-content-image.png
+[img8]: ../../../../media/icons/marketing-and-forms/side-panel-content-menu.png
+[img9]: ../../../../media/icons/marketing-and-forms/side-panel-content-social.png
+[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
+[img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
+[img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
+[img13]: ../../../../media/icons/marketing-and-forms/save-block.png
+[img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

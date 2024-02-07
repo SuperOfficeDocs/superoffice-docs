@@ -33,7 +33,7 @@ Du kan lägga till mottagare från flera källor.
 > [!NOTE]
 > När du lägger till mottagare läggs bara kontakter med en giltig e-postadress (eller ett giltigt mobiltelefonnummer, om det gäller SMS-utskick) till i listan **Mottagare**.
 
-[!include[Note](../../learn/includes/note-imported-recipients.md)]
+Importerade mottagare som INTE hittas i SuperOffice-databasen består endast av ett namn och en e-postadress (eller bara en e-postadress). Det innebär att endast mallvariablerna **\[\[customer.name\]\]** och/eller **\[\[customer.email\]\]** fungerar för dessa mottagare. För att undvika tomma variabler i dina utskick bör du alltid [förhandsgranska utskicket][4] först.
 
 ## Koppla ett utskick till urval eller projekt
 
@@ -51,5 +51,6 @@ Och om du skapar ett projekt för evenemanget kan du på liknande sätt ha en li
 <!-- Referenced links -->
 [1]: create/index.md
 [2]: follow-up/index.md
+[4]: create/send-test-email.md
 
 <!-- Referenced images -->

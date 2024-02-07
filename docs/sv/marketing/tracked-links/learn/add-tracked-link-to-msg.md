@@ -51,8 +51,8 @@ Du kan även lägga in vanliga (ospårade) länkar genom att klicka på länkkna
 * [Lägga in en länk för att visa meddelandet i en webbläsare][1]
 
 <!-- Referenced links -->
-[1]: ../../learn/add-link-to-display-message-in-browser.md
-[2]: ../../learn/edit-paragraph.md
+[1]: ../../editor/learn/add-link-to-display-message-in-browser.md
+[2]: ../../editor/learn/edit-paragraph.md
 [4]: ../../mailing/learn/create/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md

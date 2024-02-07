@@ -2,11 +2,14 @@
 uid: help-sv-mailing-open-in-browser
 title: Lägga in en länk för att visa meddelandet i en webbläsare
 description: Lägga in en länk för att visa meddelandet i en webbläsare
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marknadsföring, länk, utskick
+author: SuperOffice RnD
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Lägga in en länk för att visa meddelandet i en webbläsare
@@ -19,7 +22,7 @@ Om mottagaren har problem med att visa meddelandet i e-postprogrammet (t.ex. pro
 
 2. Skriv och markera den text som mottagaren måste klicka på, t.ex. "Klicka här för att visa meddelandet i en webbläsare".
 
-3. Klicka på knappen **infoga/redigera länk** (![ikon][img1]) i verktygsfältet.
+3. Klicka på knappen **infoga/redigera länk** ![ikon][img1] i verktygsfältet.
 
 4. Klicka på **Speciallänkar** och välj **Länk för att visa meddelande online**.
 
@@ -28,4 +31,4 @@ Om mottagaren har problem med att visa meddelandet i e-postprogrammet (t.ex. pro
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/icons/marketing-and-forms/link.png

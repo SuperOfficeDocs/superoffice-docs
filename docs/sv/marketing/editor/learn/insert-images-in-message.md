@@ -1,12 +1,15 @@
 ---
-uid: help-sv-insert-images-in-message
+uid: help-sv-mailing-add-image
 title: Lägga in bilder i meddelandet
 description: "Att använda noga utvalda bilder i dina utskick kan påverka ditt resultat på ett kraftfullt sätt. Du kan ladda upp dina egna bilder eller använda en av de miljontals bilder som kommer från Unsplash, Pexels och Pixabay i online-bildbiblioteket."
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marknadsföring, bild
+author: SuperOffice RnD
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Lägga in bilder i meddelandet
@@ -94,14 +97,14 @@ Bilden du vill använda för ditt utskick kanske inte alltid har rätt storlek. 
 5. När du är nöjd med den nya storleken på din bild eller om du vill kontrollera hur den ser ut i din e-postmall efter att du har gjort dina ändringar kan du klicka på knappen **Tillämpa**.
 
 <!-- Referenced links -->
-[1]: add-images.md
-[2]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[1]: ../../learn/add-images.md
+[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/side-panel-content-small.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-images-small.png
-[img3]: ../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
-[img4]: ../../../media/loc/en/marketing/add-action-properties.png
-[img5]: ../../../media/loc/en/marketing/apply-effects.png
-[img6]: ../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../media/loc/en/marketing/change-size-of-your-image.png
+[img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img3]: ../../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
+[img4]: ../../../../media/loc/en/marketing/add-action-properties.png
+[img5]: ../../../../media/loc/en/marketing/apply-effects.png
+[img6]: ../../../../media/loc/en/marketing/resize-image.png
+[img7]: ../../../../media/loc/en/marketing/change-size-of-your-image.png
