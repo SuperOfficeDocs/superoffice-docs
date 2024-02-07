@@ -1,5 +1,5 @@
 ---
-uid: help-de-work-with-messages-and-templates
+uid: help-de-marketing-message-templates
 title: Mit den Nachrichtenvorlagen arbeiten
 description: "Durch das Erstellen einer Master-(Unternehmens-)Vorlage können Sie am besten sicherstellen, dass alle Ihre Kampagnen gut aussehen, das gleiche Design haben und Ihre Marke repräsentieren."
 keywords: Marketing, Nachrichtenvorlagen

@@ -55,7 +55,7 @@ Sie können einen Bereich auswählen und die Schaltflächen verwenden, um sie zu
 
 Sie können das Erscheinungsbild und die Eigenschaften der Mitteilung (wie die Schriftart und -größe, Farben und Seitenränder) global (für die gesamte Vorlage) oder nach Bereich (wie oben beschrieben) definieren.
 
-Um die Mitteilung auf globaler Ebene zu bearbeiten, wählen Sie den **Textbereich** (![Symbol][img12]) in der Seitenleiste aus.
+Um die Mitteilung auf globaler Ebene zu bearbeiten, wählen Sie den **Textbereich** ![Symbol][img12] in der Seitenleiste aus.
 
 ## Seitenleiste
 
@@ -69,7 +69,7 @@ Die Seitenleiste enthält die folgenden Hauptabschnitte:
 | ![Symbol][img24] | Bilder | In diesem Bereich finden Sie Millionen [in Kampagnen zu verwendende Bilder][6]. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab. |
 
 > [!NOTE]
-> Wenn der Bereich **Bilder** (![Symbol][img26]) nicht sichtbar ist, könnte diese Präferenz aufgrund der Datenschutzbestimmungen deaktiviert worden sein.
+> Wenn der Bereich **Bilder** ![Symbol][img26] nicht sichtbar ist, könnte diese Präferenz aufgrund der Datenschutzbestimmungen deaktiviert worden sein.
 
 Siehe auch [Inhalt hinzufügen][1].
 
@@ -141,13 +141,13 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 * [Bilder in die Nachricht einfügen][6]
 
 <!-- Referenced links -->
-[3]: ../learn/best-practices.md#mobile
+[3]: ../../learn/best-practices.md#mobile
 [1]: add-content.md
 [5]: edit-paragraph.md
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
-[9]: ../learn/message-templates.md
+[9]: ../../learn/message-templates.md
 [2]: https://help.superoffice.com/Documentation/Help/DE/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->

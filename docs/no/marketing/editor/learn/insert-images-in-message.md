@@ -33,7 +33,7 @@ Etter at du har lagt til et bilde, kan du legge til egenskaper, for eksempel en 
 
 1. Gå til bildet **Innhold** i utsendelsen, eller åpne en mal for redigering.
 
-2. Velg **Innhold** (![ikon][img1]) i sidepanelet.
+2. Velg **Innhold** ![ikon][img1] i sidepanelet.
 
 3. Klikk og dra **bildeblokken** ![(ikon)][img1] til den aktuelle delen i meldingen. Du må nå velge bildet du vil bruke.
 
@@ -46,7 +46,7 @@ Etter at du har lagt til et bilde, kan du legge til egenskaper, for eksempel en 
 7. Klikk på bildet i meldingen og gjør eventuelle nødvendige endringer i sidepanelet. Kontroller at bildet vises riktig i meldingen, og gjør eventuelle tilpasninger.
 
     > [!TIP]
-    >Klikk på **Bruk effekter og mer** for å få flere alternativer for bilderedigering.
+    > Klikk på **Bruk effekter og mer** for å få flere alternativer for bilderedigering.
 
 8. (valgfritt) [Legg til en sporet kobling][2] til bildet. Hvis du for eksempel skal sette inn et bilde av et produkt du skal lansere, kan du legge til en kobling til produktets informasjonsside. Du kan opprette en ny kobling eller legge til en eksisterende kobling.
 

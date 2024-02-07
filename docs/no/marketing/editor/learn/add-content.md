@@ -40,7 +40,7 @@ Fra **Innhold**-seksjonen kan du legge til alle typer innhold, som kolonner, tek
 
 Denne seksjonen inneholder lagrede innholdsblokker, som topptekster og bunntekster. Dra og slipp innhold fra denne seksjonen til meldingen.
 
-Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** (![icon][img13]).
+Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** ![icon][img13].
 
 ## Redigere globalt utseende [!icon][img14]
 

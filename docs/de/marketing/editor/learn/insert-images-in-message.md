@@ -1,5 +1,5 @@
 ---
-uid: help-de-insert-images-in-message
+uid: help-de-mailing-add-image
 title: Bilder in die Nachricht einfügen
 description: "Die Verwendung sorgfältig ausgewählter Bilder in Ihren Kampagnen kann Ihre Ergebnisse stark beeinflussen. Sie können Ihre eigenen Bilder hochladen oder eines der Millionen von Bildern powered by Unsplash, Pexels und Pixabay in der Online-Bildbibliothek verwenden."
 keywords: Marketing, Bild
@@ -33,9 +33,9 @@ Nachdem Sie ein Bild hinzugefügt haben, können Sie Eigenschaften, wie zum Beis
 
 1. Gehen Sie zur Ansicht **Inhalt** in der Kampagne oder öffnen Sie eine Vorlage für eine Bearbeitung.
 
-2. Wählen Sie in der Seitenleiste den **Inhalt** (![Symbol][img1]) aus.
+2. Wählen Sie in der Seitenleiste den **Inhalt** ![Symbol][img1] aus.
 
-3. Klicken und ziehen Sie den **Bild**-Block (![Symbol][img1]) in den entsprechenden Bereich in der Mitteilung. Sie müssen nun das zu verwendende Bild auswählen.
+3. Klicken und ziehen Sie den **Bild**-Block ![Symbol][img1] in den entsprechenden Bereich in der Mitteilung. Sie müssen nun das zu verwendende Bild auswählen.
 
 4. Klicken Sie auf den Block in der Nachricht.
 
@@ -55,13 +55,13 @@ Nachdem Sie ein Bild hinzugefügt haben, können Sie Eigenschaften, wie zum Beis
 ## Verwenden eines Bildes aus der Online-Bildbibliothek (lizenzfrei)
 
 > [!NOTE]
-> Wenn der Bereich **Bilder** (![Symbol][img2]) nicht sichtbar ist, könnte diese Präferenz aufgrund der Datenschutzbestimmungen deaktiviert worden sein.
+> Wenn der Bereich **Bilder** ![Symbol][img2] nicht sichtbar ist, könnte diese Präferenz aufgrund der Datenschutzbestimmungen deaktiviert worden sein.
 
 Wählen Sie aus Millionen von Bildern aus der lizenzfreien Online-Bildbibliothek.
 
 1. Gehen Sie zur Ansicht **Inhalt** in der Kampagne oder öffnen Sie eine Vorlage für eine Bearbeitung.
 
-2. Wählen Sie **Bilder** (![Symbol][img2]) aus.
+2. Wählen Sie **Bilder** ![Symbol][img2] aus.
 
 3. Geben Sie Suchbegriffe in das Suchfeld ein und drücken die **EINGABE**-Taste. Bilder, die Ihrer Abfrage entsprechen, werden angezeigt.
 

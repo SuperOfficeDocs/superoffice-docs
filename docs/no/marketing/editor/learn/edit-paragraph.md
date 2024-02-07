@@ -17,7 +17,7 @@ so.audience.tooltip: SuperOffice CRM
 ![icon][img1]
 
 > [!TIP]
-> Hvis du vil redigere globale egenskaper og utseende for meldingen, velger du **Brødtekst** (![icon][img2]) i sidepanelet. Hvis du har angitt bestemte egenskaper for enkelte områder vil ikke disse bli overstyrt av globale egenskaper.
+> Hvis du vil redigere globale egenskaper og utseende for meldingen, velger du **Brødtekst** ![icon][img2] i sidepanelet. Hvis du har angitt bestemte egenskaper for enkelte områder vil ikke disse bli overstyrt av globale egenskaper.
 >
 > Velg **Datamaskin** ![icon][img3] eller **Mobil** ![icon][img4] øverst på sidepanelet for å redigere egenskaper for en spesific layout.
 
