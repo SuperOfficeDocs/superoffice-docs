@@ -1,0 +1,13 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Tilføj indhold
+  href: add-content.md
+- name: Rediger afsnit
+  href: edit-paragraph.md
+- name: Indsæt billeder
+  href: insert-images-in-message.md
+- name: Tilføj sammenfletningstags
+  href: add-merge-tag.md
+- name: Tilføj link for at vise meddelelse i browser
+  href: add-link-to-display-message-in-browser.md

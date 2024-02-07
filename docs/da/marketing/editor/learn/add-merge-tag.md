@@ -2,11 +2,14 @@
 uid: help-da-mailing-add-merge-tags
 title: Føj flettefelter til din meddelelse
 description: "Få flere oplysninger om, hvordan du føjer flettefelter til din udsendelse"
+keywords: Marketing, flettefelt, meddelelse, skabelonvariabler
 author: SuperOffice RnD
-so.date: 02.20.2023
-keywords: Marketing
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: da
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Føj flettefelter til din meddelelse
@@ -35,9 +38,9 @@ Flettefelter findes i mange former: det kan være kundens fornavn, firmanavn, hi
 > Før du sender en udsendelse ud, bør du [teste, at kundedata sættes korrekt ind i meddelelsen.][1]
 
 <!-- Referenced links -->
-[1]: ../mailing/learn/create/send-test-email.md
-[2]: ../../../en/document/templates/variables/index.md
+[1]: ../../mailing/learn/create/send-test-email.md
+[2]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/template-variable.png
-[img2]: ../../../media/loc/en/marketing/merge-tags.png
+[img1]: ../../../../media/loc/en/marketing/template-variable.png
+[img2]: ../../../../media/loc/en/marketing/merge-tags.png

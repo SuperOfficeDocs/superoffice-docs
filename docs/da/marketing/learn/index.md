@@ -7,6 +7,8 @@ so.date: 02.16.2023
 keywords: Marketing
 so.topic: concept
 language: da
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # SuperOffice Marketing
@@ -88,13 +90,13 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
-[2]: editor.md#variables
+[2]: ../editor/learn/index.md#variables
 [3]: ../tracked-links/learn/define-link-actions.md
 [4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
 [6]: ../mailing/learn/follow-up/index.md
-[7]: ../../security/privacy/learn/index.md
 [8]: ../mailing/learn/manage-email-subscriptions.md
+[7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

@@ -45,7 +45,7 @@ Når du har afsendt en testudsendelse, skal du nulstille links-tællerne i medde
 2. Klik på ![ikonet][img1] menuknappen ud for det relevante link og vælg **Nulstil**. Kolonnen **Klik** indstilles på **0**. Oplysninger om hvilke kunder, der har klikket på linket, bliver også slettet.
 
 <!-- Referenced links -->
-[1]: ../../../learn/customize-for-mobile.md
+[1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png

@@ -1,12 +1,15 @@
 ---
-uid: help-da-insert-images-in-message
+uid: help-da-mailing-add-image
 title: Indsæt billeder i meddelelsen
 description: "At bruge omhyggeligt udvalgte billeder i dine mailudsendelser kan have stor indflydelse på dine resultater. Du kan uploade dine egne billeder eller bruge et af de millioner af billeder fra Unsplash, Pexels, Pixabay, der ligger i online-billedtjenesten."
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing, billede
+author: SuperOffice RnD
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: da
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Indsæt billeder i meddelelsen
@@ -94,14 +97,14 @@ Det billede, du gerne vil bruge til din mailudsendelse, har måske ikke altid de
 5. Når du er tilfreds med den nye størrelse på dit billede, eller hvis du vil tjekke, hvordan det ser ud i din e-mailskabelon, efter du har foretaget ændringerne, kan du klikke på knappen **Anvend**.
 
 <!-- Referenced links -->
-[1]: add-images.md
-[2]: ../tracked-links/learn/add-tracked-link-to-msg.md
+[1]: ../../learn/add-images.md
+[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/side-panel-content-small.png
-[img2]: ../../../media/icons/marketing-and-forms/side-panel-images-small.png
-[img3]: ../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
-[img4]: ../../../media/loc/en/marketing/add-action-properties.png
-[img5]: ../../../media/loc/en/marketing/apply-effects.png
-[img6]: ../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../media/loc/en/marketing/change-size-of-your-image.png
+[img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
+[img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
+[img3]: ../../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
+[img4]: ../../../../media/loc/en/marketing/add-action-properties.png
+[img5]: ../../../../media/loc/en/marketing/apply-effects.png
+[img6]: ../../../../media/loc/en/marketing/resize-image.png
+[img7]: ../../../../media/loc/en/marketing/change-size-of-your-image.png

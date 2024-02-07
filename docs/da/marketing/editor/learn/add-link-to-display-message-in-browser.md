@@ -2,11 +2,14 @@
 uid: help-da-mailing-open-in-browser
 title: Tilføje et link til at vise meddelelsen i en browser
 description: Tilføje et link til at vise meddelelsen i en browser
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing, Link, udsendelse
+author: SuperOffice RnD
+so.date: 02.07.2024
+so.version: 10
 so.topic: howto
 language: da
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Tilføje et link til at vise meddelelsen i en browser
@@ -19,7 +22,7 @@ Hvis modtageren har problemer med at vise hele meddelelsen i e-mailprogrammet (d
 
 2. Indtast og vælg den tekst, som modtageren skal klikke på, f.eks. "Klik her for at se denne meddelelse i en browser".
 
-3. Klik på knappen **Indsæt/rediger link**(![ikon][img1]) på værktøjslinjen.
+3. Klik på knappen **Indsæt/rediger link** ![ikon][img1] på værktøjslinjen.
 
 4. Klik på **Særlige link**, og vælg **Link til onlinevisning af meddelelse**.
 
@@ -28,4 +31,4 @@ Hvis modtageren har problemer med at vise hele meddelelsen i e-mailprogrammet (d
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/link.png
+[img1]: ../../../../media/icons/marketing-and-forms/link.png
