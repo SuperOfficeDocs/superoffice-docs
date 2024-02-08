@@ -9,7 +9,7 @@ Under det sidste trin, **Bekræftelse**, kan du se en sammenfatning af udsendels
 
 ## Sende udsendelsen med det samme
 
-Klik på ![ikonet][img1] **Send nu** for at generere et PDF-dokument. Der genereres et PDF-dokument. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
+Klik på **Send nu** for at generere et PDF-dokument. Der genereres et PDF-dokument. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 
 Klik på udsendelsen på listen for at [se status og statistik for din afsendelse][1].
 
@@ -24,5 +24,4 @@ Klik på udsendelsen på listen for at [se status og statistik for din afsendels
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

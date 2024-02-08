@@ -9,7 +9,7 @@ I det siste trinnet, **Bekreft**, kan du vise et sammendrag av utsendelsen og be
 
 ## Sende utsendelsen nå
 
-Klikk på **Send nå** ![ikon][img1] for å generere et PDF-dokument. Det genereres et PDF-dokument. Arbeidsflyten lukkes, og du returneres til fanen **Utsendelser**.
+Klikk på **Send nå** for å generere et PDF-dokument. Det genereres et PDF-dokument. Arbeidsflyten lukkes, og du returneres til fanen **Utsendelser**.
 
 Klikk på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 
@@ -24,5 +24,4 @@ Klikk på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

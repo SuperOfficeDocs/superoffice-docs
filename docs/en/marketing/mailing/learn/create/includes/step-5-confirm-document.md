@@ -9,7 +9,7 @@ In the final step, **Confirm**, you can view a summary of the mailing and verify
 
 ## Send the mailing now
 
-Click **Send now** ![icon][img1] to generate a PDF document. A PDF document is generated. The workflow closes and you are returned to the **Mailings** tab.
+Click **Send now** to generate a PDF document. A PDF document is generated. The workflow closes and you are returned to the **Mailings** tab.
 
 Click the mailing in the list to [view sending status and statistics][1].
 
@@ -24,5 +24,4 @@ Click the mailing in the list to [view sending status and statistics][1].
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

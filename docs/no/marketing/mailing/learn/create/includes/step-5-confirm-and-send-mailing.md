@@ -11,20 +11,18 @@ På Bekreft-bildet finner du et sammendrag av trinnene du har gjennomført så l
 
 ## Sende utsendelsen nå
 
-Klikk på **Send nå** ![ikon][img1] for å sende utsendelsen med det samme. Arbeidsflyten lukkes, og du returneres til fanen **Utsendelser**.
+Klikk på **Send nå** for å sende utsendelsen med det samme. Arbeidsflyten lukkes, og du returneres til fanen **Utsendelser**.
 
 Klikk på utsendelsen i listen for å vise sendestatus og statistikk. [Slik sporer du utsendelsen og viser statistikk][1].
 
 ## Planlegge utsendelse
-
-![ikon][img2]
 
 For ikke å overbelaste serverne i arbeidstiden kan det være hensiktsmessig å velge et tidspunkt på kvelden. Dette alternativet er ikke tilgjengelig for utsendelser som allerede er startet, midlertidig stoppet eller ferdige.
 
 1. Klikk på **Planlegg**.
 2. Under **Planlegg utsendelse** velger du et av følgende alternativer:
     * Klikk på **Velg dato**-ikonet ![ikon][img3], og velg datoen og klokkeslettet da utsendelsen skal starte.
-    * Klikk på **Sett til nå** ![ikon][img2] for å sette inn dagens dato og gjeldende klokkeslett.
+    * Klikk på **Sett til nå** for å sette inn dagens dato og gjeldende klokkeslett.
 3. Klikk på **OK**. Arbeidsflyten lukkes, og du returneres til fanen **Utsendelser**.
 
 ## Hva skjer nå?
@@ -37,7 +35,5 @@ Hvis du vil stoppe utsendelsen eller starte en planlagt utsendelse før planen, 
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
-[img2]: ../../../../../../media/loc/en/marketing/btn-schedule.png
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

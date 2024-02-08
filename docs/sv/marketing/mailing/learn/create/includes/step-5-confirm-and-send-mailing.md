@@ -11,20 +11,18 @@ Skärmen Bekräfta ger dig en sammanfattning av de tidigare stegen du har tagit 
 
 ## Skicka utskicket nu
 
-Klicka på **Skicka nu** ![ikon][img1] om du vill skicka utskicket omedelbart. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
+Klicka på **Skicka nu** om du vill skicka utskicket omedelbart. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
 
 Klicka på utskicket i listan om du vill visa skickningsstatus och statistik för utskicket. [Så här spårar du utskick och visar statistik][1].
 
 ## Schemalägga för utskick
-
-![ikon][img2]
 
 För att inte överbelasta servrarna under arbetstid kan det vara en bra idé att välja en tidpunkt på kvällen. Detta alternativ är inte tillgängligt för utskick som redan har påbörjats, stoppats temporärt eller är färdiga.
 
 1. Klicka på **Schema**.
 2. Under **Schemalägg att skicka**, välj ett av följande alternativ:
     * Klicka på **Välj datum** ![ikon][img3] och välj det datum och klockslag som utskicket ska starta.
-    * Klicka på **Ange som nuvärde** ![ikon][img2] om du vill infoga dagens datum och aktuellt klockslag.
+    * Klicka på **Ange som nuvärde** om du vill infoga dagens datum och aktuellt klockslag.
 3. Klicka på **OK**. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
 
 ## Vad händer nu?
@@ -37,7 +35,5 @@ Om du vill stoppa utskicket eller starta ett schemalagt utskick före den planer
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
-[img2]: ../../../../../../media/loc/en/marketing/btn-schedule.png
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png
