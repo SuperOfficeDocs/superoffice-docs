@@ -1,6 +1,6 @@
 ---
 title: What's new in SuperOffice 10.3
-uid: news-core-10.3
+uid: news-service-10.3
 description: Release notes. What's new in SuperOffice 10.3
 author: SuperOffice AS – Research and Development
 so.date: 01.26.2024

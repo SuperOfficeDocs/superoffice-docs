@@ -78,7 +78,7 @@ First, we run a set of validation test.
 
   ![SuperOffice document templates – Location​ -screenshot][img2]
 
-## Step 3 - Document properties​
+## <a id="step-3" />Step 3 - Document properties​
 
 Select **SuperOffice documents fields** to transfer as SharePoint document properties​.
 

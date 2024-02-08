@@ -28,8 +28,8 @@ The possibility to configure Request types is available only to customers with a
 * [Create request type in Settings and maintenance (pilot only)][1]
 
 <!-- Referenced links-->
-[1]: ../../docs/en/request/learn/type/create.md
-[2]: ../../docs/en/request/learn/type/index.md
+[1]: ../../../docs/en/request/learn/type/create.md
+[2]: ../../../docs/en/request/learn/type/index.md
 [3]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/request-types-pilot
 
 <!-- Referenced images -->

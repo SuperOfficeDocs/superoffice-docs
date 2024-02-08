@@ -141,7 +141,3 @@ When we have the field info we can retrieve the `progid` and then we can retriev
 
 > [!NOTE]
 > Using the label text to retrieve the field info can be bit messy since it can have trailing spaces, leading spaces and commas etc… that you may not notice. NetServer helps us by ignoring the trailing spaces, commas, and some other characters when searching. It is advised that you give extreme care when specifying the label text.
-
-<!-- ## Sample
-
-Download the [sample application](TestDevNetUDF.zip), including all sources, and test it out for yourself. -->

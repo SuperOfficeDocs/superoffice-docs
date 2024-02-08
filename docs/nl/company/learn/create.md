@@ -15,9 +15,6 @@ In het scherm Bedrijf kunt u op verschillende niveaus informatie over bedrijven 
 
 Bekijk de video over [een bedrijf maken][1].
 
-<!-- Watch this video or follow the steps below.
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4] -->
-
 ## Het tabblad Bedrijf
 
 1. Klik op **Nieuw** op de bovenste balk en selecteer **Bedrijf**.
