@@ -30,7 +30,7 @@ When deploying MailLink in a Terminal Server/Citrix environment, we use a regist
 
 ### Supporting groups that should (not) have MailLink
 
-The correct way to support a scenario where some users/groups should get the MailLink is to remove the registry keys mentioned below:
+The correct way to support a scenario where some users/groups should NOT get the MailLink in Outlook is to remove the following registry keys:
 
 [!include[Registry keys](includes/registry-keys.md)]
 
