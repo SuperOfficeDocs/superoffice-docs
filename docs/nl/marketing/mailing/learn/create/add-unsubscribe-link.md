@@ -19,7 +19,7 @@ U bepaalt waar deze koppeling voor uitschrijven wordt weergegeven en de formuler
 
 ![Klik in het symbool Koppeling invoegen/bewerken op Speciale koppelingen en voeg uw koppeling voor uitschrijven toe -screenshot][img4]
 
-## in de editor voor slepen en neerzetten
+## Stappen
 
 1. Ga naar de inhoud van het bericht en klik op de sectie waar u de koppeling wilt invoegen.
     of
@@ -27,26 +27,13 @@ U bepaalt waar deze koppeling voor uitschrijven wordt weergegeven en de formuler
 
 2. Typ en selecteer de tekst waarop de ontvanger moet klikken, bijvoorbeeld "Klik hier voor uitschrijven" of "Klik hier om uw abonnementen te beheren".
 
-3. Klik op de knop **Koppeling invoegen/bewerken** (![pictogram][img3]) op de werkbalk.
+3. Klik op de knop **Koppeling invoegen/bewerken** ![pictogram][img3] op de werkbalk.
 
 4. Klik op **Speciale links** en selecteer een van de volgende opties:
     * **Abonnementen beheren**: Voegt een koppeling naar een webpagina in waarop de ontvangers kunnen selecteren welke typen mailing ze willen ontvangen. De koppeling is standaard 21 dagen geldig.
     * **Uitschrijven uit dit type mailing**: Voegt een koppeling in om voor dit type mailing uit te schrijven. De ontvanger zal nog steeds andere typen mailings ontvangen. Het type mailing wordt geselecteerd in Stap 1: Instellingen.
 
 5. Klik op **Opslaan**. De link wordt in het bericht ingevoegd.
-
-## In de oude editor
-
-1. Ga naar de inhoud van het bericht en [een paragraaf bewerken][1] om de bewerkingsweergave te openen.
-    Of klik op de ![pictogram][img1] knop **Nieuwe paragraaf toevoegen** om onderaan een paragraaf toe te voegen.
-2. Selecteer het tabblad **Hoofdtekst**.
-3. Plaats de muisaanwijzer op de plek waar u de koppeling wilt invoegen.
-4. Klik op de ![pictogram][img2] **Koppelingen voor abonnement** op de werkbalk.
-5. Wijzig in het dialoogvenster **Koppeling (abonnement toevoegen)** indien nodig de tekst in het veld **Koppelingslabel** bijvoorbeeld in "Klik hier om u af te melden" of "Klik hier om uw abonnementen te beheren".
-6. Selecteer in het veld **Koppeling voor in-/uitschrijven toevoegen** een van de volgende opties:
-    * **Abonnementen beheren**: Voegt een koppeling naar een webpagina in waarop de ontvangers kunnen selecteren welke typen mailing ze willen ontvangen. De koppeling is standaard 21 dagen geldig.
-    * **Uitschrijven uit dit type mailing**: Voegt een koppeling in om voor dit type mailing uit te schrijven. De ontvanger zal nog steeds andere typen mailings ontvangen. Het type mailing wordt geselecteerd in Stap 1: Instellingen.
-7. Klik op **OK**. De koppeling wordt in het bericht ingevoegd.
 
 ## Wat gebeurt er nu?
 
@@ -64,12 +51,9 @@ In SuperOffice CRM kunt u interesses registreren (zoals "Maandelijkse nieuwsbrie
 U doet dit door [een koppeling te maken die de desbetreffende interesse][4] verwijdert voor de berichtontvangers die op de koppeling klikken. Dezelfde methode kan worden gebruikt om interesses te registreren.
 
 <!-- Referenced links -->
-[1]: ../../../learn/edit-paragraph.md
 [2]: ../../../tracked-links/learn/examples.md
 [4]: ../../../tracked-links/learn/define-link-actions.md#interests
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/marketing-and-forms/link.png
-[img1]: ../../../../../media/icons/marketing-and-forms/new-para.jpg
-[img2]: ../../../../../media/icons/marketing-and-forms/link.png
 [img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

@@ -11,31 +11,19 @@ items:
   - name: Create folder
     href: create-folder.md
   - name: Message templates
-    href: work-with-messages-and-templates.md
+    href: message-templates.md
   - name: Add images
     href: add-images.md
+  - name: Best practices
+    href: best-practices.md
 
 - name: Work with mailings
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
 - name: Drag and drop editor
-  topicHref: editor.md
-  items:
-  - name: Overview
-    href: editor.md
-  - name: Add content
-    href: add-content.md
-  - name: Edit paragraph
-    href: edit-paragraph.md
-  - name: Insert images
-    href: insert-images-in-message.md
-  - name: Add merge tags
-    href: add-merge-tag.md
-  - name: Add link to display message in browser
-    href: add-link-to-display-message-in-browser.md
-  - name: Customize message for display on mobile devices
-    href: customize-for-mobile.md
+  href: ../editor/learn/toc.yml
+  topicHref: ../editor/learn/index.md
 
 - name: Work with tracked links
   href: ../tracked-links/learn/toc.yml

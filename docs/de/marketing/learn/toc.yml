@@ -11,31 +11,19 @@ items:
   - name: Ordner erstellen
     href: create-folder.md
   - name: Nachrichtenvorlagen
-    href: work-with-messages-and-templates.md
+    href: message-templates.md
   - name: Bilder hinzufügen
     href: add-images.md
+  - name: Beste Praktiken
+    href: best-practices.md
 
 - name: Mit Kampagnen arbeiten
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
 - name: Drag-and-Drop-Editor
-  topicHref: editor.md
-  items:
-  - name: Überblick
-    href: editor.md
-  - name: Inhalt hinzufügen
-    href: add-content.md
-  - name: Absatz bearbeiten
-    href: edit-paragraph.md
-  - name: Bilder einfügen
-    href: insert-images-in-message.md
-  - name: Seriendrucktags hinzufügen
-    href: add-merge-tag.md
-  - name: "Einen Link hinzufügen, um die Mitteilung im Browser anzuzeigen"
-    href: add-link-to-display-message-in-browser.md
-  - name: Mitteilung für die Anzeige auf mobilen Geräten anpassen
-    href: customize-for-mobile.md
+  href: ../editor/learn/toc.yml
+  topicHref: ../editor/learn/index.md
 
 - name: Mit überwachten Links arbeiten
   href: ../tracked-links/learn/toc.yml

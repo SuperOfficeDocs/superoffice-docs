@@ -51,8 +51,8 @@ Sie können auch reguläre (nicht überwachte) Links hinzufügen, indem Sie in d
 * [Einen Link hinzufügen, um die Nachricht in einem Browser anzuzeigen][1]
 
 <!-- Referenced links -->
-[1]: ../../learn/add-link-to-display-message-in-browser.md
-[2]: ../../learn/edit-paragraph.md
+[1]: ../../editor/learn/add-link-to-display-message-in-browser.md
+[2]: ../../editor/learn/edit-paragraph.md
 [4]: ../../mailing/learn/create/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md

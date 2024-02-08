@@ -37,7 +37,7 @@ language: da
 * [Føj billede til en meddelelse][1]
 
 <!-- Referenced links -->
-[1]: insert-images-in-message.md
+[1]: ../editor/learn/insert-images-in-message.md
 [2]: create-folder.md
 
 <!-- Referenced images -->

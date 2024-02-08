@@ -11,20 +11,18 @@ Het scherm Bevestigen geeft u een overzicht van de vorige stappen die u hebt gez
 
 ## De mailing nu verzenden
 
-Klik op **Nu verzenden** ![pictogram][img1] om de mailing onmiddellijk te verzenden. De workflow wordt gesloten en u gaat terug naar het tabblad **Mailings**.
+Klik op **Nu verzenden** om de mailing onmiddellijk te verzenden. De workflow wordt gesloten en u gaat terug naar het tabblad **Mailings**.
 
 Klik op de mailing in de lijst om de verzendstatus en de statistieken weer te geven. [De mailing traceren en statistieken weergeven][1].
 
 ## Plannen voor verzenden
-
-![pictogram][img2]
 
 Om uw servers niet te overbelasten tijdens werkuren, is het een goed idee om een tijdstip in de avond te kiezen. Deze optie is niet beschikbaar wanneer de mailing al is gestart, tijdelijk is gestopt of is voltooid.
 
 1. Klik op **Plannen**.
 2. Bij **Gepland voor verzenden om** selecteert u een van de volgende opties:
     * Klik op het pictogram **Datum kiezen** ![pictogram][img3] en selecteer de datum en de tijd waarop de mailing moet starten.
-    * Klik op **Nu instellen** ![pictogram][img2] om de huidige datum en tijd in te voegen.
+    * Klik op **Nu instellen** om de huidige datum en tijd in te voegen.
 3. Klik op **OK**. De workflow wordt gesloten en u gaat terug naar het tabblad **Mailings**.
 
 ## Wat gebeurt er nu?
@@ -37,7 +35,5 @@ Als u de mailing wilt stoppen of een geplande mailing eerder dan gepland wilt st
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
-[img2]: ../../../../../../media/loc/en/marketing/btn-schedule.png
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

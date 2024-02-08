@@ -24,6 +24,6 @@ Sie können [Vorlagenvariablen][1] von SuperOffice CRM in Ihrem Dokument verwend
 [!include[Tip](tip-mailing-save-draft.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../learn/editor.md#variables
+[1]: ../../../../editor/learn/index.md#variables
 
 <!-- Referenced images -->

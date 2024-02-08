@@ -25,7 +25,7 @@ language: nl
 <!-- Referenced links -->
 [1]: ../../mailing/learn/create/index.md
 [2]: ../../mailing/learn/follow-up/manage-bounces.md
-[3]: ../work-with-messages-and-templates.md
+[3]: ../message-templates.md
 [4]: ../../tracked-links/learn/create-links.md
 [5]: ../add-images.md
 [7]: ../../forms/learn/create.md

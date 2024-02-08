@@ -4,7 +4,7 @@ title: Tilføj foretrukken
 description: Tilføj foretrukken
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Marketing, foretrukken, foretrukken
+keywords: Marketing, foretrukken, udsendelse
 so.topic: howto
 language: da
 ---

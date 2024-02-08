@@ -1,0 +1,13 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Inhoud toevoegen
+  href: add-content.md
+- name: Paragraaf bewerken
+  href: edit-paragraph.md
+- name: Afbeeldingen invoegen
+  href: insert-images-in-message.md
+- name: Variabelen toevoegen
+  href: add-merge-tag.md
+- name: Koppeling toevoegen om bericht in browser weer te geven
+  href: add-link-to-display-message-in-browser.md

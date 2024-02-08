@@ -10,6 +10,6 @@ I steget **Innehåll** kan du ange SMS:ets innehåll.
 
 <!-- Referenced links -->
 [1]: ../../../../../../en/document/templates/variables/for-selected-contact.md
-[2]: ../../../../learn/editor.md#variables
+[2]: ../../../../editor/learn/index.md#variables
 
 <!-- Referenced images -->

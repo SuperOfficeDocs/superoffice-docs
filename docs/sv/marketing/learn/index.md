@@ -2,11 +2,13 @@
 uid: help-sv-marketing
 title: SuperOffice Marknadsföring
 description: "Funktionerna för marknadsföring inkluderar utskick och webbformulär och hjälper användare att samla information och kommunicera bättre med potentiella och befintliga kunder. Tillsammans kan de hjälpa dig att generera fler potentiella kunder, sälja mer till befintliga kunder och bygga kundlojalitet."
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: Marknadsföring
+author: SuperOffice RnD
+so.version: 10
 so.topic: concept
 language: sv
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # SuperOffice Marknadsföring
@@ -88,13 +90,13 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
-[2]: editor.md#variables
+[2]: ../editor/learn/index.md#variables
 [3]: ../tracked-links/learn/define-link-actions.md
 [4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
 [6]: ../mailing/learn/follow-up/index.md
-[7]: ../../security/privacy/learn/index.md
 [8]: ../mailing/learn/manage-email-subscriptions.md
+[7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

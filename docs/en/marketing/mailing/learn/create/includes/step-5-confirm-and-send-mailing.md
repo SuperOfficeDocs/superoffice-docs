@@ -11,20 +11,18 @@ The Confirm screen will give you a summary of the previous steps you have taken 
 
 ## Send the mailing now
 
-Click **Send now** ![icon][img1] to send the mailing immediately. The workflow closes and you are returned to the **Mailings** tab.
+Click **Send now** to send the mailing immediately. The workflow closes and you are returned to the **Mailings** tab.
 
 Click the mailing in the list to view sending status and statistics. [How to track the mailing and view statistics][1].
 
 ## Schedule to send
-
-![icon][img2]
 
 To not overload your servers during working hours, it would be a good idea to choose a time during the evening. This option is not available for mailings that have already started, temporarily stopped or have finished.
 
 1. Click **Schedule**.
 2. Under **Schedule to send at**, select one of the following options:
     * Click the **Choose date** icon ![icon][img3], and select the date and time the mailing is to start.
-    * Click **Set to now** ![icon][img2] to insert today's date and the time.
+    * Click **Set to now** to insert today's date and the time.
 3. Click **OK**. The workflow closes and you are returned to the **Mailings** tab.
 
 ## What happens now?
@@ -37,7 +35,5 @@ To stop the mailing or start a planned mailing ahead of schedule, click the **St
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
-[img2]: ../../../../../../media/loc/en/marketing/btn-schedule.png
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

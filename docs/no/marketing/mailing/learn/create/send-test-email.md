@@ -45,7 +45,7 @@ Når du har sendt en testutsendelse, må du nullstille tellerne for koblingen(e)
 2. Klikk på menyknappen ![ikon][img1] ved siden av den aktuelle koblingen, og velg **Nullstill**. Kolonnen **Klikk** angis til **0**. Informasjonen om hvilke kunder som har klikket på koblingen, fjernes også.
 
 <!-- Referenced links -->
-[1]: ../../../learn/customize-for-mobile.md
+[1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png

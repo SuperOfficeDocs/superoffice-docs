@@ -1,0 +1,13 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Inhalt hinzufügen
+  href: add-content.md
+- name: Absatz bearbeiten
+  href: edit-paragraph.md
+- name: Bilder einfügen
+  href: insert-images-in-message.md
+- name: Merge tags hinzufügen
+  href: add-merge-tag.md
+- name: Einen Link hinzufügen, um die Mitteilung im Browser anzuzeigen
+  href: add-link-to-display-message-in-browser.md

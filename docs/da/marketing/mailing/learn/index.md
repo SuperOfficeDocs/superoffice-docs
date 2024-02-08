@@ -33,7 +33,7 @@ Du kan tilføje modtagere fra flere kilder.
 > [!NOTE]
 > Når du tilføjer modtagere, er det udelukkende personer med en gyldig e-mailadresse (eller gyldigt mobiltelefonnummer, når der er tale om SMS-udsendelser), der bliver føjet til listen **Modtagere**.
 
-[!include[Note](../../learn/includes/note-imported-recipients.md)]
+Importerede modtagere, der IKKE findes i SuperOffice-databasen, vil kun bestå af et navn og en e-mail-adresse (eller bare en e-mail-adresse). Dette betyder, at kun skabelonvariablerne **\[\[customer.name\]\]** og/eller **\[\[customer.email\]\]** kan bruges for disse modtagere. For at undgå tomme variabler i dine udsendelser, skal du sørge for først at gå ind på [forhåndsvisning af udsendelsen][4].
 
 ## At knytte en udsendelse til et udtræk eller et projekt
 
@@ -51,5 +51,6 @@ Hvis du opretter et projekt til din event, kan du på samme måde gemme en liste
 <!-- Referenced links -->
 [1]: create/index.md
 [2]: follow-up/index.md
+[4]: create/send-test-email.md
 
 <!-- Referenced images -->

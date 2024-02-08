@@ -9,7 +9,7 @@ Bij de laatste stap, **Bevestigen** kunt u een overzicht van de mailing weergeve
 
 ## De mailing nu verzenden
 
-Klik op **Nu verzenden** ![pictogram][img1] om een PDF-document te genereren. Er wordt een PDF-document gegenereerd. De workflow wordt gesloten en u gaat terug naar het tabblad **Mailings**.
+Klik op **Nu verzenden** om een PDF-document te genereren. Er wordt een PDF-document gegenereerd. De workflow wordt gesloten en u gaat terug naar het tabblad **Mailings**.
 
 Klik op de mailing in de lijst om de [verzendstatus en de statistieken weer te geven][1].
 
@@ -24,5 +24,4 @@ Klik op de mailing in de lijst om de [verzendstatus en de statistieken weer te g
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

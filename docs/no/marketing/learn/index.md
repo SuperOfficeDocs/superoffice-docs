@@ -2,18 +2,20 @@
 uid: help-no-marketing
 title: SuperOffice Marketing
 description: "Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet."
+keywords: Markedsføring
 author: SuperOffice RnD
 so.date: 02.16.2023
-keywords: Markedsføring
 so.topic: concept
 language: no
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # SuperOffice Marketing
 
 SuperOffice Marketing handler om utgående kommunikasjon og skjemaer. Bruk utsendelser til å informere kunder om for eksempel oppgraderinger og produktnyheter. Bruk skjemaer for produkt-/nyhetsbrevregistrering, samtykkestyring, dataoppdateringer og enkle "kontakt meg"-skjemaer.
 
-Du åpner SuperOffice Marketing ved å klikke på ikonet**Markedsføring** ![ikon][img2] i Navigatoren.
+Du åpner SuperOffice Marketing ved å klikke på ikonet **Markedsføring** ![ikon][img2] i Navigatoren.
 
 Ved hjelp av SuperOffice Marketing kan du opprette følgende:
 
@@ -86,13 +88,13 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
-[2]: editor.md#variables
+[2]: ../editor/learn/index.md#variables
 [3]: ../tracked-links/learn/define-link-actions.md
 [4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
 [6]: ../mailing/learn/follow-up/index.md
-[7]: ../../security/privacy/learn/index.md
 [8]: ../mailing/learn/manage-email-subscriptions.md
+[7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

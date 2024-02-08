@@ -22,7 +22,7 @@ Nadat u hebt bedacht welk ontwerp u wilt gebruiken, kunt u met een paar klikken 
 3. Klik op **Volgende** om naar de volgende stap te gaan.
 
 <!-- Referenced links -->
-[1]: ../../../../learn/work-with-messages-and-templates.md
+[1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png

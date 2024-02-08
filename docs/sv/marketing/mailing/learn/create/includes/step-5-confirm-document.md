@@ -9,7 +9,7 @@ I det sista steget, **Bekräfta**, kan du se en sammanfattning för utskicket oc
 
 ## Skicka utskicket nu
 
-Klicka på **Skicka nu** ![ikon][img1] och generera ett PDF-dokument. Ett PDF-dokument genereras. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
+Klicka på **Skicka nu** och generera ett PDF-dokument. Ett PDF-dokument genereras. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
 
 Klicka på utskicket i listan om du vill [visa sändningsstatus och statistik för utskicket][1].
 
@@ -24,5 +24,4 @@ Klicka på utskicket i listan om du vill [visa sändningsstatus och statistik f�
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

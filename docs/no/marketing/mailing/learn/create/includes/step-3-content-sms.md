@@ -10,6 +10,6 @@ I trinnet **Innhold** skriver du innholdet i SMS-en.
 
 <!-- Referenced links -->
 [1]: ../../../../../../en/document/templates/variables/for-selected-contact.md
-[2]: ../../../../learn/editor.md#variables
+[2]: ../../../../editor/learn/index.md#variables
 
 <!-- Referenced images -->

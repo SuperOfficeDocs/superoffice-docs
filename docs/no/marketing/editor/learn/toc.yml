@@ -1,0 +1,13 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Legg til innhold
+  href: add-content.md
+- name: Rediger avsnitt
+  href: edit-paragraph.md
+- name: Sette inn bilder
+  href: insert-images-in-message.md
+- name: Legge til emneknagger for fletting
+  href: add-merge-tag.md
+- name: Legge til kobling for å vise melding i nettleseren
+  href: add-link-to-display-message-in-browser.md

@@ -11,20 +11,18 @@ I skærmbilledet Bekræft får du en oversigt over de forudgående trin, du har 
 
 ## Sende udsendelsen med det samme
 
-Klik på **Send nu** ![icon][img1] for at afsende udsendelsen med det samme. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
+Klik på **Send nu** for at afsende udsendelsen med det samme. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 
 Klik på udsendelsen på listen for at se status og statistik for din afsendelse. [Spor udsendelsen og få vist statistik][1].
 
 ## Tidsindstilling af udsendelsen
-
-![ikon][img2]
 
 For ikke at overbelaste serverne i arbejdstiden kan det være en god idé at vælge et tidspunkt om aftenen. Denne valgmulighed er ikke tilgængelig for udsendelser, der er ved at blive sendt ud, er midlertidigt stoppet eller allerede er sendt ud.
 
 1. Klik på **Tidsplan**.
 2. Under **Tidsplan**, vælg en af de følgende valgmuligheder:
     * Klik på ![ikonet][img3] **Vælg dato** og vælg dato og klokkeslæt for afsendelsen.
-    * Klik på ![ikonet][img2] **Sæt til nu** for at indsætte dags-dato og klokkeslæt.
+    * Klik på **Sæt til nu** for at indsætte dags-dato og klokkeslæt.
 3. Klik på **OK**. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 
 ## Hvad sker der så nu?
@@ -37,7 +35,5 @@ For at standse udsendelsen eller påbegynde en planlagt udsendelse før planlagt
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
-[img2]: ../../../../../../media/loc/en/marketing/btn-schedule.png
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

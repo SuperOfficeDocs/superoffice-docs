@@ -22,7 +22,7 @@ När du har kommit fram till vilken design du vill använda kan du välja vilken
 3. Klicka på **Nästa** när du vill gå vidare till nästa steg.
 
 <!-- Referenced links -->
-[1]: ../../../../learn/work-with-messages-and-templates.md
+[1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../../common/icons/nav-search.png

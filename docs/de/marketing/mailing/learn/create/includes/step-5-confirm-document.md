@@ -9,7 +9,7 @@ Im letzten Schritt – **Bestätigen** – können Sie sich eine Zusammenfassung
 
 ## Kampagne jetzt senden
 
-Klicken Sie auf **Jetzt senden** ![Symbol][img1], um ein PDF-Dokument zu erstellen. Ein PDF-Dokument wird erstellt. Der Workflow wird abgeschlossen und Sie gelangen wieder zur Registerkarte **Kampagnen**.
+Klicken Sie auf **Jetzt senden**, um ein PDF-Dokument zu erstellen. Ein PDF-Dokument wird erstellt. Der Workflow wird abgeschlossen und Sie gelangen wieder zur Registerkarte **Kampagnen**.
 
 Klicken Sie auf die Kampagne in der Liste, um sich den [Sendestatus und Statistiken anzeigen][1] zu lassen.
 
@@ -24,5 +24,4 @@ Klicken Sie auf die Kampagne in der Liste, um sich den [Sendestatus und Statisti
 [1]: ../../follow-up/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/loc/en/marketing/send-now.png
 [img2]: ../../../../../../media/icons/btn-menu.png

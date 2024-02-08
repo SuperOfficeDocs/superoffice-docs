@@ -19,7 +19,7 @@ Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva so
 
 ![Fra symbolet Sett inn/rediger kobling klikker du på Spesielle koblinger og legger til koblingen for å avslutte abonnementet -screenshot][img4]
 
-## I dra og slipp-redigeringsprogrammet
+## Trinn
 
 1. Gå til innholdet i meldingen og klikk på stedet der du ønsker å sette inn koblingen.
     eller
@@ -27,26 +27,13 @@ Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva so
 
 2. Skriv inn og velg teksten som mottakeren skal klikke på, for eksempel "Klikk her for å avslutte abonnementet" eller "Klikk her for å administrere abonnementene dine".
 
-3. Klikk på knappen **Skriv inn/rediger kobling** (![ikon][img3]) på verktøylinjen.
+3. Klikk på knappen **Skriv inn/rediger kobling** ![ikon][img3] på verktøylinjen.
 
 4. I feltet **Spesielle koblinger** velger du ett av følgende alternativer:
     * **Administrere abonnementer**: Sett inn en kobling til en nettside der mottakerne kan velge hvilke utsendelsestyper de vil motta. Koblingen er gyldig i 21 dager som standard.
     * **Meld av denne utsendelsestypen**: Setter inn en kobling for avmelding av denne utsendelsestypen. Mottakeren kommer fortsatt til å motta andre typer utsendelser. Utsendelsestypen velges i Trinn 1: Oppsett.
 
 5. Klikk på **Lagre**. Koblingen settes inn i meldingen.
-
-## I det gamle redigeringsprogrammet
-
-1. Gå til innholdet i meldingen og [rediger et avsnitt][1] for å åpne redigeringsvinduet.
-    Klikk eventuelt på ![ikon][img1] **Legg til et nytt avsnitt**-knappen for å legge til et avsnitt nederst.
-2. Velg fanen **Brødtekst**.
-3. Plasser musepekeren der du ønsker å sette inn koblingen.
-4. Klikk på knappen ![ikon][img2] **Påmeldingskoblinger** på verktøylinjen.
-5. I dialogboksen **Sett inn av-/påmeldingskobling** endrer du om nødvendig teksten i feltet **Koblingstekst** til for eksempel "Klikk her hvis du vil melde deg av" eller "Klikk her for å endre abonnementene dine".
-6. I feltet **Sett inn av-/påmeldingskobling** velger du ett av følgende alternativer:
-    * **Endre abonnement**: Sett inn en kobling til en nettside der mottakerne kan velge hvilke utsendelsestyper de vil motta. Koblingen er gyldig i 21 dager som standard.
-    * **Meld av denne utsendelsestypen**: Setter inn en kobling for avmelding av denne utsendelsestypen. Mottakeren kommer fortsatt til å motta andre typer utsendelser. Utsendelsestypen velges i Trinn 1: Oppsett.
-7. Klikk på **OK**. Koblingen settes inn i meldingen.
 
 ## Hva skjer nå?
 
@@ -64,12 +51,9 @@ I SuperOffice CRM kan du registrere interesser (for eksempel "Månedlig nyhetsbr
 Det gjør du ved å [lage en kobling som fjerner den aktuelle interessen][4] hos mottakere som klikker på koblingen. Samme metode kan brukes til å registrere interesser.
 
 <!-- Referenced links -->
-[1]: ../../../learn/edit-paragraph.md
 [2]: ../../../tracked-links/learn/examples.md
 [4]: ../../../tracked-links/learn/define-link-actions.md#interests
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/marketing-and-forms/link.png
-[img1]: ../../../../../media/icons/marketing-and-forms/new-para.jpg
-[img2]: ../../../../../media/icons/marketing-and-forms/link.png
 [img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

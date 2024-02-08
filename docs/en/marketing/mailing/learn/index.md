@@ -33,7 +33,7 @@ You can add recipients from multiple sources.
 > [!NOTE]
 > When you add recipients, only contacts with a valid email address (or mobile phone number, in the case of SMS mailings) are added to the **Recipients** list.
 
-[!include[Note](../../learn/includes/note-imported-recipients.md)]
+Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an email address (or just an email address). This means that only the placeholders **\[\[customer.name\]\]** and/or **\[\[customer.email\]\]** will work for these recipients. To avoid empty variables in your mailings, make sure to [preview the mailing][4] first.
 
 ## Associating a mailing with selection or project
 
@@ -51,5 +51,6 @@ Similarly, if you create a project for your event, you can maintain a list of al
 <!-- Referenced links -->
 [1]: create/index.md
 [2]: follow-up/index.md
+[4]: create/send-test-email.md
 
 <!-- Referenced images -->

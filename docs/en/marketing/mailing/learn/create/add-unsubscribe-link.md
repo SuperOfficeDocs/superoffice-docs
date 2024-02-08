@@ -19,7 +19,7 @@ You decide where this unsubscribe link appears and its phrasing, as well as what
 
 ![From the Insert/edit link symbol, click Special links and add your unsubscribe link -screenshot][img4]
 
-## In the drag and drop editor
+## Steps
 
 1. Go to the contents of the message and click the section where you want to insert the link.
     or
@@ -27,26 +27,13 @@ You decide where this unsubscribe link appears and its phrasing, as well as what
 
 2. Type and select the text which the recipient has to click, for example "Click here to unsubscribe" or "Click here to manage your subscriptions".
 
-3. Click the **Insert/edit link** button (![icon][img3]) in the toolbar.
+3. Click the **Insert/edit link** button ![icon][img3] in the toolbar.
 
 4. Click **Special links** and select one of the following options:
     * **Manage subscriptions**: Inserts a link to a web page where the recipients can select which mailing types they want to receive. The link is valid for 21 days by default.
     * **Unsubscribe from this type of mailing**: Inserts a link to unsubscribe to this mailing type. The recipient will still receive mailings of other types. The mailing type is selected in Step 1: Setup.
 
 5. Click **Save**. The link is inserted in the message.
-
-## In the old editor
-
-1. Go to the contents of the message and [edit a paragraph][1] to open the editing view.
-    Or click the ![icon][img1] **Add a new paragraph** button to add a paragraph at the bottom.
-2. Select the **Body** tab.
-3. Position the mouse pointer where you wish to insert the link.
-4. Click the ![icon][img2] **Subscription links** button in the toolbar.
-5. In the **Add (un)subscription link** dialog, change the text in the **Link label** field, if required; for example, to "Click here to unsubscribe" or "Click here to manage your subscriptions".
-6. In the **Add (un)subscription link** field, select one of the following options:
-    * **Manage subscriptions**: Inserts a link to a web page where the recipients can select which mailing types they want to receive. The link is valid for 21 days by default.
-    * **Unsubscribe from this type of mailing**: Inserts a link to unsubscribe to this mailing type. The recipient will still receive mailings of other types. The mailing type is selected in Step 1: Setup.
-7. Click **OK**. The link is inserted in the message.
 
 ## What happens now?
 
@@ -64,12 +51,9 @@ In SuperOffice CRM, you can register interests (such as "Monthly newsletter") to
 You do this by [creating a link that removes the interest][4] in question from recipients who click the link. The same method can be used to register interests.
 
 <!-- Referenced links -->
-[1]: ../../../learn/edit-paragraph.md
 [2]: ../../../tracked-links/learn/examples.md
 [4]: ../../../tracked-links/learn/define-link-actions.md#interests
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/marketing-and-forms/link.png
-[img1]: ../../../../../media/icons/marketing-and-forms/new-para.jpg
-[img2]: ../../../../../media/icons/marketing-and-forms/link.png
 [img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

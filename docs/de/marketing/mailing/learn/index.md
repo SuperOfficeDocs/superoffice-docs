@@ -33,7 +33,7 @@ Sie können Empfänger aus mehreren Quellen hinzufügen.
 > [!NOTE]
 > Beim Hinzufügen von Empfängern werden nur Personen mit einer gültigen E-Mail-Adresse (oder Mobilfunknummer für SMS-Kampagnen) zur Liste **Empfänger** hinzugefügt.
 
-[!include[Note](../../learn/includes/note-imported-recipients.md)]
+Importierte Empfänger, die in der Datenbank von SuperOffice NICHT gefunden werden können, setzen sich ausschließlich aus dem Namen und einer E-Mail-Adresse (bzw. nur einer E-Mail-Adresse) zusammen. Das bedeutet, dass nur die Vorlagenvariablen **\[\[customer.name\]\]** und/oder **\[\[customer.email\]\]** für diese Empfänger funktionieren werden. Um leere Variablen zu vermeiden, sehen Sie sich die [Kampagne zuvor in der Vorschau][4] an.
 
 ## Kampagne mit Selektion oder Projekt verknüpfen
 
@@ -51,5 +51,6 @@ Analog dazu können Sie, wenn Sie ein Projekt für Ihr Event erstellt haben, ein
 <!-- Referenced links -->
 [1]: create/index.md
 [2]: follow-up/index.md
+[4]: create/send-test-email.md
 
 <!-- Referenced images -->
