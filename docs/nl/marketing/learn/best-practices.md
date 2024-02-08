@@ -17,7 +17,7 @@ so.audience.tooltip: SuperOffice CRM
 * Gebruik standaardlettertypen voor een betere leesbaarheid in verschillende e-mail-clients of webbrowsers.
 * Voordat u een mailing verzendt, moet u [testen of de klantgegevens correct zijn ingevoegd in het bericht][4].
 
-## Het bericht aanpassen voor weergave op mobiele apparaten
+## <a id="mobile" />Het bericht aanpassen voor weergave op mobiele apparaten
 
 Het bericht wordt automatisch aangepast voor weergave op kleinere schermen.
 

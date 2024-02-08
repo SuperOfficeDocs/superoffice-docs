@@ -24,6 +24,6 @@ Du kan bruge  [skabelonvariabler][1] fra SuperOffice CRM i dit dokument til at i
 [!include[Tip](tip-mailing-save-draft.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../editor/learn/index.md#variabless
+[1]: ../../../../editor/learn/index.md#variables
 
 <!-- Referenced images -->

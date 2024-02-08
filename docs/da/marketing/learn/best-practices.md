@@ -17,7 +17,7 @@ so.audience.tooltip: SuperOffice CRM
 * Brug standardskrifttyper for bedst mulig læsbarhed uanset e-mailklient og webbrowser.
 * Før du sender en udsendelse ud, bør du [teste, at kundedata sættes korrekt ind i meddelelsen][4].
 
-## Tilpasse meddelelsen til visning på mobile enheder
+## <a id="mobile" />Tilpasse meddelelsen til visning på mobile enheder
 
 Beskeden tilpasses automatisk til visning på mindre skærme.
 

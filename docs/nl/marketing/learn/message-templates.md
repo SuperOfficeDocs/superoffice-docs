@@ -129,7 +129,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 [1]: ../mailing/learn/create/index.md
 [2]: ../editor/learn/edit-paragraph.md
 [3]: ../editor/learn/add-merge-tag.md
-[4]: ../editor/learn/add-images.md
+[4]: add-images.md
 [5]: ../editor/learn/index.md#old
 
 <!-- Referenced images -->

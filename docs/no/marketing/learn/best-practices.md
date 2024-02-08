@@ -17,7 +17,7 @@ so.audience.tooltip: SuperOffice CRM
 * Bruk standard skrifttyper for best lesbarhet med hvilken som helst e-postklient eller nettleser.
 * For å unngå tomme variabler i utsendelsene må du passe på at du [forhåndsviser utsendelsen][4] først.
 
-## Tilpass meldingen for visning på mobile enheter
+## <a id="mobile" />Tilpass meldingen for visning på mobile enheter
 
 Meldingen tilpasses automatisk for visning på mindre skjermer.
 

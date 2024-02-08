@@ -129,7 +129,7 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 [1]: ../mailing/learn/create/index.md
 [2]: ../editor/learn/edit-paragraph.md
 [3]: ../editor/learn/add-merge-tag.md
-[4]: ../editor/learn/add-images.md
+[4]: add-images.md
 [5]: ../editor/learn/index.md#old
 
 <!-- Referenced images -->

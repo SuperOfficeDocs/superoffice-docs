@@ -126,7 +126,7 @@ In addition to the templates created by your and your colleagues, you have acces
 [1]: ../mailing/learn/create/index.md
 [2]: ../editor/learn/edit-paragraph.md
 [3]: ../editor/learn/add-merge-tag.md
-[4]: ../editor/learn/add-images.md
+[4]: add-images.md
 [5]: ../editor/learn/index.md#old
 
 <!-- Referenced images -->

@@ -17,7 +17,7 @@ so.audience.tooltip: SuperOffice CRM
 * Använd standardteckensnitt för bästa läsbarhet oberoende av e-postklient och webbläsare.
 * Innan du skickar ett utskick bör du [kontrollera att kunduppgifterna är korrekt inlagda i meddelandet][4].
 
-## Anpassa meddelandet för visning på mobila enheter
+## <a id="mobile" />Anpassa meddelandet för visning på mobila enheter
 
 Meddelandet anpassas automatiskt för visning på mindre skärmar.
 

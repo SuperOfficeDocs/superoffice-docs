@@ -129,7 +129,7 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 [1]: ../mailing/learn/create/index.md
 [2]: ../editor/learn/edit-paragraph.md
 [3]: ../editor/learn/add-merge-tag.md
-[4]: ../editor/learn/add-images.md
+[4]: add-images.md
 [5]: ../editor/learn/index.md#old
 
 <!-- Referenced images -->

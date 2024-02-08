@@ -16,7 +16,7 @@ so.audience.tooltip: SuperOffice CRM
 * In einem E-Mail-Programm oder Webbrowser sind Standardschriftarten am besten zu lesen.
 * Bevor Sie eine Kampagne versenden, müssen Sie [testen, ob die Kundendaten richtig in die Mitteilung eingefügt werden][4].
 
-## Die Nachricht für die Anzeige auf mobilen Geräten anpassen
+## <a id="mobile" />Die Nachricht für die Anzeige auf mobilen Geräten anpassen
 
 Die Nachricht wird automatisch für die Anzeige auf kleineren Ansichten angepasst.
 

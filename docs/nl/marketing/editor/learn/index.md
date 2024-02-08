@@ -141,13 +141,13 @@ Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") 
 * [Afbeeldingen in het bericht invoegen][6]
 
 <!-- Referenced links -->
-[3]: ../learn/best-practices.md#mobile
+[3]: ../../learn/best-practices.md#mobile
 [1]: add-content.md
 [5]: edit-paragraph.md
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
-[9]: ../learn/message-templates.md
+[9]: ../../learn/message-templates.md
 [2]: https://help.superoffice.com/Documentation/Help/NL/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
