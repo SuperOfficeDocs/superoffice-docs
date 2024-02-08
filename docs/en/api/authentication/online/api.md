@@ -23,6 +23,12 @@ The **environment** subdomain is unique for each [application environment][1]
 
 ## Environment-specific sub-domains
 
+Only use these root sub-domains.
+
+> [!CAUTION]
+> DO NOT USE numbered subdomains for authentication/authorization!
+> Numbered sub-domains are only for API data access, not obtaining authorization tokens.
+
 | Environment | Sub-domain |
 |-------------|------------|
 | Development | sod        |
