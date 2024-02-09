@@ -72,7 +72,7 @@ This template creates an app configuration for a standard app and asks for the E
 [4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
 [5]: ../../api/reference/restful/agent/ErpSync_Agent/index.md
 [6]: ../../api/reference/soap/Services88/index.md
-[7]: ../../api/authentication/online/index.md#claims-and-scope
+[7]: ../../api/authentication/online/index.md#claims-and-scopes
 [10]: config/new-certificate.md
 [11]: config/cors-and-redirection-urls.md
 [12]: config/find-clientid.md
