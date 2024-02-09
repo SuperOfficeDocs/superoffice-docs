@@ -26,7 +26,7 @@ In SuperOffice Marketing you can add actions to your links. These actions are tr
 | Response | Add landing page or custom text. |
 | Set field | Add a value to an extra field for customer contacts |
 | Interests | Update interests. |
-| Selection/Project | Add/remove customer contact from a selection/project. |
+| Selection/Project | Add/remove customer contact from a selection or project. |
 | Follow-up | Create a follow-up (to-do or meeting) in SuperOffice CRM. |
 | Request | Create a new request. |
 | Script | Execute a script. |
@@ -41,13 +41,13 @@ In SuperOffice Marketing you can add actions to your links. These actions are tr
 
 Depending on the goal and the call-to-action you use in your mailing you can update information in your database. When a person clicks the link in your mailing, SuperOffice CRM will do one of the following:
 
-* Give a custom response or redirect to web page,
-* Add a contact to a specific project or a selection,
-* Update a contact's interest,
-* Add information to a field in the Contact card,
-* Create a follow-up activity for a contact,
-* Create a customer service request for a contact,
-* Execute a script.
+* Give a custom response or redirect to web page
+* Add a contact to a specific project or a selection
+* Update a contact's interest
+* Add information to a field in the Contact card
+* Create a follow-up activity for a contact
+* Create a customer service request for a contact
+* Execute a script
 
 Some of this information will help you segment your database even better, while other information will help you follow up on people that have shown an interest in your message.
 
@@ -62,13 +62,14 @@ Select a field in the **Set extra field** list box and enter a value in the **Va
 Here you can specify that a link click should add or remove interests for the contact. For example, you could add the "Product news" interest if the recipient clicks the "Yes, please keep me informed about new products" link. Alternatively, you could remove the "Product news" interest if the user clicks the "Unsubscribe" link in a newsletter.
 
 * In the **Set interest** list box, you can choose an interest to be added for the contacts if they click the link.
+
 * In the **Remove interest** list box, you can choose an interest to be removed for the contacts if they click the link.
 
-See also [Clear interests in SuperOffice CRM][1].
+[How to create a newsletter sign-up form][1]
 
 ## Selection/Project
 
-Here you can specify that recipients who click the link will be added to or removed from selections in SuperOffice Service or selections or projects in SuperOffice CRM. Type the beginning of a name to start the quick search.
+Here you can specify that recipients who click the link will be added to or removed from selections or projects. Type the beginning of a name to start the quick search.
 
 ## Follow-up (meeting/to-do)
 
@@ -115,7 +116,7 @@ Manually updating 500 contact cards will take time and is really unnecessary. In
 
 Examples of automated link actions in use:
 
-* When a recipient clicks on your call-to-action link, SuperOffice CRM automatically adds him or her to a selection or a project.
+* When a recipient clicks on your call-to-action link, SuperOffice CRM automatically adds them to a selection or a project.
 
 * Alternatively, SuperOffice CRM automatically updates relevant information, such as interests, on the contact's card.
 
@@ -130,7 +131,7 @@ You can use the information you have gathered in this mailing in a number of way
 * Generate service requests for your customer service team to pick up on and investigate the matter.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md#clear-interests
+[1]: ../../forms/learn/examples.md#newsletter-sign-up
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png

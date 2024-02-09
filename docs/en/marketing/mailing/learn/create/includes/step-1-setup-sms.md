@@ -9,7 +9,7 @@ The first step in creating an SMS mailing, is called **Setup**. Here you can set
 
     [How do I create a mailing folder?][19]
 
-4. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project
+4. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project.
 
     [!include[Start typing to search](type-to-search.md)]
 

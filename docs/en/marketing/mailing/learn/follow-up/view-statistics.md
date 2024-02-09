@@ -66,14 +66,9 @@ After your mailing is finished, you can see how your mailing performed in the **
 > [!NOTE]
 > The **Reports** and **Tracked links** tabs require the Marketing User licence. Some tabs are not available for SMS mailings and document mailings.
 
-## What would you like to do now?
-
-* [Work with the recipient list after the mailing][2]
-* [Work with tracked links after the mailing][3]
-
 <!-- Referenced links -->
-[1]: manage-bounces.md
-[2]: look-at-recipient-list.md
+[1]: ../../../recipients/learn/manage-bounces.md
+[2]: ../../../recipients/learn/look-at-recipient-list.md
 [3]: ../../../tracked-links/learn/explore-clicks.md
 
 <!-- Referenced images -->

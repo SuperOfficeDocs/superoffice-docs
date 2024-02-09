@@ -8,7 +8,7 @@ After you have figured out what design you want to use, you can choose the templ
 ![Choose your corporate template from one of the many templates available in our online library before adding your content -screenshot][img2]
 
 > [!TIP]
-> Save yourself some time and create your mailing using one of the free templates in the **Online template library**. The Online template library in SuperOffice Marketing contains a wide selection of professionally designed message template. Free for use!
+> Save time by utilizing a free template from the **Online Template Library** in SuperOffice Marketing. This library offers a broad range of professionally designed message templates, all available for use at no cost.
 
 1. Select a template in one of the following ways:
     * Select one of the available tabs (**Online template library**, **Recent templates**, **All templates**, and so on) to view available mailings or templates on which to base your new mailing.

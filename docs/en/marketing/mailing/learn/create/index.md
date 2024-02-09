@@ -80,13 +80,13 @@ In the fifth and final step you confirm and send or schedule your mailing. You c
 [2]: tutorial-sms-mailing.yml
 [3]: tutorial-document-mailing.yml
 [4]: tutorial-form-mailing.yml
+[10]: send-test-email.md
 [5]: ../admin/define-settings-for-mailings.md
 [6]: ../follow-up/index.md
 [7]: ../follow-up/view-statistics.md
-[8]: ../follow-up/look-at-recipient-list.md
 [9]: ../../../tracked-links/learn/explore-clicks.md
-[10]: send-test-email.md
-[11]: target-list.md
+[11]: ../../../participants/learn/target-list.md
+[8]: ../../../recipients/learn/look-at-recipient-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/marketing/mailing-workflow-all.png

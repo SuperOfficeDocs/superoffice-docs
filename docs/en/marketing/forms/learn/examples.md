@@ -116,7 +116,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
     * **Add interest to contact**: Select the interest called **Newsletter**. This interest will be added to contacts who submit this form.
 
-    * **Email response**: Select a form response to send to contacts when their form is processed. This email can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How do I create a form response?][2].
+    * **Email response**: Select or [create a form response][2] to send to contacts when their form is processed. For example, to inform the customer of your company's privacy policy. The email can also include a link to [manage subscriptions][6].
 
 1. Click **Save**. The form is saved and the **Edit form** screen closes.
 
@@ -201,6 +201,7 @@ In this example we will show you how to create short form for customers who want
 [3]: submissions/index.md
 [4]: submissions/track.md
 [5]: submissions/process.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/add-field.png

@@ -35,7 +35,7 @@ You can create the following mailings:
 * Form responses to customers or prospects that submit a form via your website or customer centre
 
 > [!NOTE]
-> Email mailings (and form responses) are the most feature-rich of these mailing types. Features such as tracked links and subscription links are not available in SMS mailings and document mailings. SMS mailings can only contain plain text (no images or tables).
+> Email mailings (and form responses) are the most feature-rich of these mailing types. Features such as [tracked links][11] and [subscription links][10] are not available in SMS mailings and document mailings. SMS mailings can only contain plain text (no images or tables).
 
 The messages you send out can be customized for each customer using [template variables][2]. Add links to your mailings, and add [actions][3] to these links to automate your marketing workflow.
 
@@ -87,11 +87,13 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
 [2]: ../editor/learn/index.md#variables
+[11]: ../tracked-links/learn/index.md
 [3]: ../tracked-links/learn/define-link-actions.md
-[4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
 [6]: ../mailing/learn/follow-up/index.md
-[8]: ../mailing/learn/manage-email-subscriptions.md
+[8]: ../recipients/learn/manage-email-subscriptions.md
+[10]: ../recipients/learn/add-unsubscribe-link.md
+[4]: ../../dashboard/learn/show-marketing.md
 [7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
 

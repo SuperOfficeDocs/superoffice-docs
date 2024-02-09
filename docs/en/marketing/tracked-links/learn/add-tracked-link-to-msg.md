@@ -19,9 +19,9 @@ By setting up links that direct readers to various content on your website you c
 
 You can also **add special links** to your mailing. To do so, select Special Links dropdown. Depending on what you want to achieve, you can choose between:
 
-* Link to view message online
-* Manage subscriptions
-* Unsubscribe
+* [Link to view message online][1]
+* [Manage subscriptions][4]
+* [Unsubscribe][4]
 * Tracked links
 
 ## Steps
@@ -47,13 +47,11 @@ You can also add regular (untracked) links by clicking the link button in the to
 
 * [Create tracked links][5]
 * [Define link actions][6]
-* [Add subscription links][4]
-* [Add a link to display the message in a browser][1]
 
 <!-- Referenced links -->
 [1]: ../../editor/learn/add-link-to-display-message-in-browser.md
 [2]: ../../editor/learn/edit-paragraph.md
-[4]: ../../mailing/learn/create/add-unsubscribe-link.md
+[4]: ../../participants/learn/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md
 
