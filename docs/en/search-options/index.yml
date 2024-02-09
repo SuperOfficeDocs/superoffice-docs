@@ -59,7 +59,7 @@ conceptualContent:
       - text: How to use a typical search
         itemType: school
         typeDesc: learn
-        url: learn/index.md#typical
+        url: /en/search-options/learn/index.html#typical
       - text: How to create a search and save it as a selection
         itemType: school
         typeDesc: learn
@@ -71,7 +71,7 @@ conceptualContent:
       - text: How to broaden a search using the "OR" function
         itemType: school
         typeDesc: learn
-        url: learn/find-screen.md#or
+        url: /en/search-options/learn/find-screen.html#or
 
     # Card
     - title: Videos
