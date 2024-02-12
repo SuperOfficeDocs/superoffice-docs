@@ -33,9 +33,6 @@ Mobile CRM ger dig tillgång till de viktigaste funktionerna i SuperOffice på e
 
 Titta på videofilmen om [ärendehantering][1] för att lära dig hur du hanterar Customer Service-ärenden i Mobile CRM (videons längd – 1:31).
 
-<!--
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4] -->
-
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4
 

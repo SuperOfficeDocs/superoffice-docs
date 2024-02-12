@@ -15,9 +15,6 @@ In the Company screen you can enter information about companies on several level
 
 Check out the video on how to [create a company][1].
 
-<!-- Watch this video or follow the steps below.
-> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4] -->
-
 ## The Company tab
 
 1. Click **New** on the top bar and select **Company**.

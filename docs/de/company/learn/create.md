@@ -15,9 +15,6 @@ In der Ansicht Firma können Sie Informationen über Firmen auf mehreren Ebenen 
 
 Sehen Sie sich das Video an, wie Sie eine [Firma erstellen][1].
 
-<!-- Watch this video or follow the steps below.
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4] -->
-
 ## Registerkarte Firma
 
 1. Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **Firma**.
