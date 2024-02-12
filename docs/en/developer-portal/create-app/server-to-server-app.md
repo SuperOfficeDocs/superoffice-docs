@@ -63,7 +63,7 @@ This template creates an app configuration that uses the [system user flow][7].
 [9]: ../standard-app/app-store/update-app-page.md
 [1]: ../../api/reference/restful/index.md
 [4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
-[5]: ../../api/authentication/online/index.md#claims-and-scope
+[5]: ../../api/authentication/online/index.md#claims-and-scopes
 [6]: ../../api/reference/soap/Services88/index.md
 [7]: ../../api/authentication/online/auth-application/index.md
 [12]: config/find-clientid.md

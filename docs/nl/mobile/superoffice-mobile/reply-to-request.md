@@ -33,9 +33,6 @@ Mobile CRM geeft u toegang tot de meest essentiële functies van SuperOffice op 
 
 Bekijk de video [afhandeling van verzoeken][1] om te leren hoe u klantenserviceverzoeken afhandelt in Mobile CRM (videolengte – 1:31).
 
-<!--
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4] -->
-
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4
 

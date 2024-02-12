@@ -15,9 +15,6 @@ I fönstret Företag kan du lägga in information om företag på flera nivåer 
 
 Titta på filmen om hur du [skapar ett företag][1].
 
-<!-- Watch this video or follow the steps below.
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4] -->
-
 ## Fliken Företag
 
 1. Klicka på **Nytt** på toppraden och välj **Företag**.

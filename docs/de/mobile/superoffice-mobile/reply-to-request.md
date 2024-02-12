@@ -33,9 +33,6 @@ Mit Mobile CRM haben Sie Zugriff auf die wichtigsten Funktionen von SuperOffice 
 
 Sehen Sie sich das Video [Anfrage bearbeiten][1] an, um zu lernen, wie man Kundenserviceanfragen in Mobile CRM bearbeitet (Videolänge – 1:31).
 
-<!--
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4] -->
-
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4
 

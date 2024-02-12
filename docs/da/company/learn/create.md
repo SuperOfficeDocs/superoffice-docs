@@ -15,9 +15,6 @@ På skærmbilledet Firma kan du angive oplysninger om firmaer på flere niveauer
 
 Se videoen, der viser, hvordan du [opretter et firma][1].
 
-<!-- Watch this video or follow the steps below.
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4] -->
-
 ## Fanen Firma
 
 1. Klik på **Ny** i toplinjen, og vælg **Firma**.

@@ -15,9 +15,6 @@ I Firma-bildet kan du registrere informasjon om firmaer på flere nivåer, repre
 
 Se videoen som viser hvordan du [oppretter et firma][1].
 
-<!-- Watch this video or follow the steps below.
-> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4] -->
-
 ## Fanen Firma
 
 1. Klikk på **Ny** i toppraden, og velg **Firma**.
