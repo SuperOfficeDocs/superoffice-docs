@@ -5,8 +5,11 @@ description: Creating a master (corporate) template is the best way to ensure al
 keywords: marketing, template
 author: SuperOffice RnD
 so.date: 02.06.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Work with the message templates

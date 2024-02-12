@@ -16,14 +16,9 @@ items:
     href: create/tutorial-form-mailing.yml
   - name: Send test email
     href: create/send-test-email.md
-- name: Follow up mailings
-  topicHref: follow-up/index.md
-  items:
-  - name: Overview
-    href: follow-up/index.md
-  - name: View statistics
-    href: follow-up/view-statistics.md
-  - name: Resend mailing
-    href: follow-up/resend.md
+- name: View statistics
+  href: view-statistics.md
+- name: Resend mailing
+  href: resend.md
 - name: Settings for mailings
-  href: admin/define-settings-for-mailings.md
+  href: ../admin/define-settings-for-mailings.md

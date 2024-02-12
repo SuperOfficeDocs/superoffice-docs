@@ -79,7 +79,7 @@ Click **Next** if you are done editing.
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../../participants/learn/add-unsubscribe-link.md
+[7]: ../../recipients/learn/add-unsubscribe-link.md
 [8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->

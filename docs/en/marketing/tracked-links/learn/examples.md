@@ -38,7 +38,7 @@ Trackable links can be used in a variety of interesting ways:
 * **Individual follow-up**: You have just released a major update to your product. Not all your customers have an in-house IT department to deal with the update, so you add a link that the customer can click to book a consultant. A new request is then registered in SuperOffice Service for each customer who clicks the link. The request is allocated to the "Consultant" category, with the head of the consultancy department set as the owner. The customer is also sent feedback that they will be contacted by a consultant.
 
 <!-- Referenced links -->
-[1]: ../../participants/learn/add-unsubscribe-link.md
+[1]: ../../recipients/learn/add-unsubscribe-link.md
 [3]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->

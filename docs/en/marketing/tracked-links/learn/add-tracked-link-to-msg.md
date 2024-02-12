@@ -51,7 +51,7 @@ You can also add regular (untracked) links by clicking the link button in the to
 <!-- Referenced links -->
 [1]: ../../editor/learn/add-link-to-display-message-in-browser.md
 [2]: ../../editor/learn/edit-paragraph.md
-[4]: ../../participants/learn/add-unsubscribe-link.md
+[4]: ../../recipients/learn/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md
 

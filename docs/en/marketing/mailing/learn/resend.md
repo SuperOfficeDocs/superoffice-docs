@@ -2,11 +2,14 @@
 uid: help-en-mailings-resend
 title: Resend your mailing
 description: How to resend a mailing in SuperOffice Marketing.
+keywords: Marketing, mailing, recipients
 author: Bergfrid Dias
-so.date: 02.21.2023
-keywords: Marketing
+so.date: 02.12.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Resend your mailing
@@ -44,8 +47,8 @@ After you have selected all the recipients, click on the **Actions** button and 
 SuperOffice Marketing will now send your mailing to all the selected recipients.
 
 <!-- Referenced links -->
-[1]: ../../../recipients/learn/manage-bounces.md
+[1]: ../../recipients/learn/manage-bounces.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[img1]: ../../../../media/loc/en/marketing/reload-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png

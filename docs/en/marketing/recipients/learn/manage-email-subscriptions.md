@@ -73,7 +73,7 @@ This ensures that customers control their mailing preferences, and you only send
 * [SuperOffice privacy statement][4]
 
 <!-- Referenced links -->
-[1]: target-list.md
+[1]: index.md
 [2]: ../../../security/privacy/learn/index.md
 [3]: ../../../security/privacy/learn/send-privacy-confirmation-email.md
 [4]: https://www.superoffice.com/company/privacy/

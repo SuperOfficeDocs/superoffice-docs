@@ -90,7 +90,6 @@ Dynamic selections are particularly useful when you need **the most current data
 
 ## Related
 
-* [Follow up mailings][6]
 * [Work with the recipient list after the mailing][8]
 * [Work with tracked links after the mailing][9]
 * [Track the mailing and view statistics][7]
@@ -100,8 +99,7 @@ Dynamic selections are particularly useful when you need **the most current data
 [2]: ../../../search-options/selection/learn/create/index.md
 [3]: ../../../search-options/selection/learn/static-selections.md
 [4]: ../../../search-options/selection/learn/dynamic-selections.md
-[6]: ../../mailing/follow-up/index.md
-[7]: ../../mailing/follow-up/view-statistics.md
+[7]: ../../mailing/learn/view-statistics.md
 [5]: ../../tracked-links/learn/index.md
 [9]: ../../tracked-links/learn/explore-clicks.md
 [8]: look-at-recipient-list.md

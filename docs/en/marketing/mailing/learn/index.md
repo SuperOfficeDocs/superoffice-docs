@@ -2,11 +2,14 @@
 uid: help-en-mailing
 title: Work with mailings
 description: Work with mailings
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing
-so.topic: help
+author: SuperOffice RnD
+so.date: 02.12.2024
+so.version: 10
+so.topic: concept
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Work with mailings
@@ -14,7 +17,7 @@ language: en
 A mailing is usually handled in two steps:
 
 * [Preparing and sending the mailing][1].
-* [Following up the completed mailing][2].
+* [Following up the completed mailing](#after).
 
 ## Mailing types
 
@@ -61,13 +64,26 @@ Mailings can be associated with a selection or project in SuperOffice CRM, provi
 
 For instance, if multiple mailings are sent to promote an event, they can be grouped under a selection named "Event 2024", providing a comprehensive list of all event-related mailings. Similarly, creating a project for your event allows you to track all associated mailings under the **Activities** tab.
 
+## <a id="after" />How can I follow up mailings?
+
+After your mailing is sent, it is always exciting to see how well your mailing has performed. To see if all your hard work has paid off. It is also a great opportunity to check and improve the quality of the information registered in your CRM database.
+
+* [View the statistics][2] of the mailing and get information about any problems that occurred.
+* [Add recipients to selections and projects][12] for further processing.
+* [Check and correct the addresses of undelivered mails][12].
+* See [who clicked the trackable links][14] you inserted in the message.
+* Manage email addresses that were returned due to permanent errors or [bounced][13] several times.
+
 <!-- Referenced links -->
 [1]: create/index.md
 [3]: create/send-test-email.md
-[2]: follow-up/index.md
+[2]: view-statistics.md
 [4]: ../../forms/learn/create.md
 [6]: ../../recipients/learn/add-unsubscribe-link.md
-[8]: ../../recipients/learn/target-list.md
+[8]: ../../recipients/learn/index.md
+[12]: ../../recipients/learn/look-at-recipient-list.md
+[13]: ../../recipients/learn/manage-bounces.md
+[14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md
 [5]: https://www.superoffice.co.uk/resources/articles/integrated-web-forms/
 
