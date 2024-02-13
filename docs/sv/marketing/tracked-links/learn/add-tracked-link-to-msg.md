@@ -19,9 +19,9 @@ Genom att konfigurera länkar som leder läsare till olika innehåll på din web
 
 Du kan också **lägga till speciallänkar** i ditt utskick. Det gör du genom att välja listrutan Speciallänkar. Beroende på vad du vill uppnå kan du välja mellan att:
 
-* Länka för att visa meddelandet online
-* Hantera prenumerationer
-* Avregistrering
+* [Länka för att visa meddelandet online][1]
+* [Hantera prenumerationer][4]
+* [Avregistrering][4]
 * Spårade länkar
 
 ## Steg
@@ -47,13 +47,11 @@ Du kan även lägga in vanliga (ospårade) länkar genom att klicka på länkkna
 
 * [Skapa spårade länkar][5]
 * [Definiera länkningsåtgärder][6]
-* [Lägg till prenumerationslänkar][4]
-* [Lägga in en länk för att visa meddelandet i en webbläsare][1]
 
 <!-- Referenced links -->
 [1]: ../../editor/learn/add-link-to-display-message-in-browser.md
 [2]: ../../editor/learn/edit-paragraph.md
-[4]: ../../mailing/learn/create/add-unsubscribe-link.md
+[4]: ../../recipients/learn/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md
 

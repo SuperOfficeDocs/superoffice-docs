@@ -4,11 +4,12 @@ title: SuperOffice Marknadsföring
 description: "Funktionerna för marknadsföring inkluderar utskick och webbformulär och hjälper användare att samla information och kommunicera bättre med potentiella och befintliga kunder. Tillsammans kan de hjälpa dig att generera fler potentiella kunder, sälja mer till befintliga kunder och bygga kundlojalitet."
 keywords: Marknadsföring
 author: SuperOffice RnD
+so.date: 02.12.2024
 so.version: 10
 so.topic: concept
 language: sv
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # SuperOffice Marknadsföring
@@ -37,7 +38,7 @@ Du kan skapa följande utskick:
 * Formulärsvar till kunder eller potentiella kunder som lämnar in ett formulär via din webbplats eller kundcenter
 
 > [!NOTE]
-> E-postutskick (och formulärsvar) är de mest funktionsrika av de här utskickstyperna. Funktioner som spårade länkar och prenumerationslänkar är inte tillgängliga i SMS-utskick och dokumentutskick. SMS-utskick kan bara innehålla oformaterad text (inga bilder eller tabeller).
+> E-postutskick (och formulärsvar) är de mest funktionsrika av de här utskickstyperna. Funktioner som [spårade länkar][11] och [prenumerationslänkar][10] är inte tillgängliga i SMS-utskick och dokumentutskick. SMS-utskick kan bara innehålla oformaterad text (inga bilder eller tabeller).
 
 De meddelanden som du skickar kan anpassas för varje kund med hjälp av [mallvariabler][2]. Lägg in länkar i utskicken och lägg till [åtgärder][3] till länkarna för att automatisera din marknadsföring.
 
@@ -81,23 +82,44 @@ För att dra nytta av marknadsföringsfunktioner i SuperOffice behöver du ha en
 
 SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett lokalt program (installerat hos kunden). Det finns mindre skillnader mellan de två programmen. Specifika funktionsskillnader anges med ikonerna i själva procedurerna eller i avsnittsrubrikerna.
 
+## Detaljkort SuperOffice Marknadsföring
+
+| Flik | Beskrivning | Läs mer |
+|---|---|---|
+| Utskick | Innehåller alla utskick och skapa nya utskick. | [Skapa nytt utskick][5] |
+| Meddelandemallar | Innehåller standardmallarna i SuperOffice Marknadsföring och mallar som du har skapat, förutom ett brett utbud av mallar från online-mallbiblioteket. | [Arbeta med meddelandemallarna][13] |
+| Spårade länkar | Innehåller alla spårade länkar som används i dina utskick. Klicka på ![ikon][img1] knappen **Lägg till** om du vill skapa en ny länk. | [Skapa spårade länkar][14] |
+| Bilder | Innehåller alla tillgängliga bilder i SuperOffice Marknadsföring. Klicka på ![ikon][img1] knappen **Lägg till** om du vill lägga till nya bilder. | [Lägga till bilder][15] |
+| Blockerade e-postadresser | Hantera returnerade e-postmeddelanden och klagomål om skräppost. | [Blockerade e-postadresser][12], [skräppost][16] |
+| Formulär | Innehåller alla formulär och skapa nya formulär. | [Skapa nytt formulär][1] |
+| Formulärmallar | Innehåller alla formulärmallar. | [Arbeta med formulärmallarna][18] |
+| Formulärinlämningar | Innehåller inskickade formulär. | [Formulärinlämningar][19] |
+
 ## Vad vill du göra nu?
 
 * [Skapa nytt utskick][5]
-* [Följa upp utskick][6]
 * [Skapa nytt formulär][1]
 * [Visa utskick och formulär i dashboards][4]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
 [2]: ../editor/learn/index.md#variables
+[11]: ../tracked-links/learn/index.md
 [3]: ../tracked-links/learn/define-link-actions.md
-[4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
-[6]: ../mailing/learn/follow-up/index.md
-[8]: ../mailing/learn/manage-email-subscriptions.md
+[8]: ../recipients/learn/manage-email-subscriptions.md
+[10]: ../recipients/learn/add-unsubscribe-link.md
+[4]: ../../dashboard/learn/show-marketing.md
 [7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
+[12]: ../recipients/learn/manage-bounces.md
+[16]: ../recipients/learn/spam-complaints.md
+[13]: message-templates.md
+[14]: ../tracked-links/learn/create-links.md
+[15]: add-images.md
+[18]: ../forms/learn/form-templates.md
+[19]: ../forms/learn/submissions/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../../common/icons/nav-marketing.png

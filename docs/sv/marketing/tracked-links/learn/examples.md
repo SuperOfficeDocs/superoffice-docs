@@ -20,7 +20,7 @@ Spårbara länkar kan användas på många intressanta sätt:
 
 * **Respons**: Varje mottagare som klickar på en länk, t.ex. till en ny produktsida, registreras i systemet. På så sätt kan du se hur stort intresset är bland alla mottagare över flera utskick.
 
-* **Prospektlista**: Om du ska lansera en ny produkt kan mottagarna anmäla sitt intresse för produkten genom att klicka på länken "Ja tack, jag vill få ett erbjudande". De personer som klickar på länken kan läggas till i ett statiskt urval i SuperOffice CRM som säljarna kan använda för att hantera den fortsatta kontakten med dessa kunder.
+* **Prospektlista**: Om du ska lansera en ny produkt kan mottagarna anmäla sitt intresse för produkten genom att klicka på länken "Ja tack, jag vill få ett erbjudande". De personer som klickar på länken kan läggas till i ett [statiskt urval][3] i SuperOffice CRM som säljarna kan använda för att hantera den fortsatta kontakten med dessa kunder.
 
 * **Händelse för säljare i SuperOffice CRM**: Ett alternativ till prospektlistan i exemplet ovan är att för varje länkklick skapa ett möte eller en att göra för säljare eller kundkontakter. Ett klick på länken "Kontakta mig" kan t.ex. skapa en händelse i SuperOffice CRM av typen "Telefon ut" för kontakten till den aktuella kunden. Dessutom kan händelsen kopplas till ett aktuellt projekt i SuperOffice CRM, t.ex. en marknadsföringskampanj.
 
@@ -38,6 +38,7 @@ Spårbara länkar kan användas på många intressanta sätt:
 * **Individuell uppföljning**: Ni har nyss släppt en stor uppdatering för en av era produkter. Det är inte alla kunder som har egen IT-personal som kan hantera uppdateringen och du lägger därför in en länk som kunden kan klicka på för att boka en konsult. Ett nytt ärende kommer då att registreras i SuperOffice Service för varje kund som klickar på länken. Ärendet tilldelas kategorin "Konsult" och chefen för konsultavdelningen anges som ägare. Dessutom får kunden ett meddelanden om att de kommer att bli kontaktade av en konsult.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md
+[1]: ../../recipients/learn/add-unsubscribe-link.md
+[3]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->

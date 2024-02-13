@@ -2,16 +2,19 @@
 uid: help-sv-mailing-add-unsubscribe-link
 title: Lägga in länk för avregistrering
 description: När du skickar ett utskick måste mottagarna ges möjlighet att avregistrera sig. Lär dig hur du kan lägga till en länk för avregistrering i ditt utskick i den här guiden.
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: marknadsföring
+author: SuperOffice RnD
+so.date: 02.09.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Lägg till prenumerationslänkar
 
-När du t.ex. skickar ut ett nyhetsbrev måste du ge mottagarna en möjlighet att avregistrera sig eller att ändra på sina prenumerationsinställningar. Det gör du genom att lägga in en länk som mottagaren kan klicka på. Sådana länkar placeras vanligen längst ned i ett meddelande (i sidfoten).
+När du t.ex. skickar ut ett nyhetsbrev måste du ge mottagarna en möjlighet att avregistrera sig eller att ändra på sina [prenumerationsinställningar][1]. Det gör du genom att lägga in en länk som mottagaren kan klicka på. Sådana länkar placeras vanligen längst ned i ett meddelande (i sidfoten).
 
 Avregistreringslänken placeras vanligen längst ned i ett meddelande. Om du använder en av våra utskicksmallar är den här länken redan tillagd.
 
@@ -44,16 +47,10 @@ Baserad på feedback från mottagarna uppdateras prenumerationsinställningarna 
 >
 > Du kan dock åsidosätta inställningarna "inget samtycke/ingen prenumeration" från **Alternativ** i den nedre delen av fönstret **Mottagare** (se Steg 4: Mottagare).
 
-## <a id="clear-interests" />Ta bort intressen i SuperOffice CRM
-
-I SuperOffice CRM kan du registrera intressen (t.ex. "Månatligt nyhetsbrev") för kontakterna. Dessa intressen kan användas som utgångspunkt för olika typer av utskick. I stället för att använda avregistrering kan du enkelt ta bort ett visst intresse, t.ex. månatligt nyhetsbrev, för kunder som inte vill ha nyhetsbrevet.
-
-Du gör det genom att [skapa en länk som tar bort det aktuella intresset][4] för de mottagare som klickar på länken. Samma metod kan användas för att registrera intressen.
-
 <!-- Referenced links -->
-[2]: ../../../tracked-links/learn/examples.md
-[4]: ../../../tracked-links/learn/define-link-actions.md#interests
+[2]: ../../tracked-links/learn/examples.md
+[1]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../media/icons/marketing-and-forms/link.png
-[img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png
+[img3]: ../../../../media/icons/marketing-and-forms/link.png
+[img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

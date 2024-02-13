@@ -11,7 +11,7 @@ language: sv
 
 # Skicka ditt utskick på nytt
 
-Om du, efter att ha tittat på resultatet av ditt utskick, märker att många e-postadresser har returnerats betyder det att dessa kontakter inte fick ditt utskick. När du har hanterat de returnerade e-postmeddelandena är det en bra idé att skicka ditt utskick på nytt.
+Om du, efter att ha tittat på resultatet av ditt utskick, märker att många e-postadresser har [returnerats][1] betyder det att dessa kontakter inte fick ditt utskick. När du har hanterat de returnerade e-postmeddelandena är det en bra idé att skicka ditt utskick på nytt.
 
 Det finns två sätt att skicka ditt utskick på nytt.
 
@@ -46,5 +46,8 @@ SuperOffice Marknadsföring skickar nu ditt utskick till alla valda mottagare.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[1]: ../../recipients/learn/manage-bounces.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/marketing/reload-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png

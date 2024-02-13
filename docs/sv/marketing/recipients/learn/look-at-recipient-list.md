@@ -2,22 +2,21 @@
 uid: help-sv-mailing-recipient-list
 title: Jobba med mottagarlistan efter utskicket
 description: Jobba med mottagarlistan efter utskicket
-author: SuperOffice RnD
-so.date: 02.21.2023
 keywords: Marknadsföring, mottagare
+author: SuperOffice RnD
+so.date: 02.09.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Titta på mottagarlistan efter utskicket
 
 När ditt utskick är skickat är det alltid spännande att se hur bra det presterat. Det är också ett utmärkt tillfälle att kontrollera och förbättra kvaliteten på den information som registreras i din databas. Framför allt är antalet returnerade e-postmeddelanden en nyckelindikator. Lär dig hur du filtrerar mottagarlistan i den här guiden.
 
-De första gångerna du skickade ut ditt utskick kanske du får ett stort antal returnerade e-postmeddelanden. Det är positivt, eftersom det betyder att du kan uppdatera alla e-postadresser som är felstavade eller inte längre används.
-
-Uppdatering av returnerade e-postadresser hjälper dig att öka framgångsgraden för dina framtida utskick.
-
-Efter att utskicket skickats samlar SuperOffice Marknadsföring in data om statusen för varje skickat e-postmeddelande. På fliken Mottagare kan du se statusen för varje mottagare i utskicket. Du kan även filtrera listan och exportera resultaten till urval och projekt i SuperOffice CRM för vidare behandling.
+SuperOffice Marknadsföring samlar in data om statusen för varje skickat e-postmeddelande. På fliken Mottagare kan du se statusen för varje mottagare i utskicket. Du kan även filtrera listan och exportera resultaten till urval och projekt i SuperOffice CRM för vidare behandling.
 
 ![Du kan se status för utskicket i fältet Status -screenshot][img4]
 
@@ -50,20 +49,17 @@ Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice s
 
 * **Returnerat**: Aktivera detta filter om du vill visa alla mottagare som [utskicket returnerades för][3]. Det kan t.ex. bero på fel i e-postadresser, skräppostfilter, Internetproblem eller att mottagarnas inkorgar är fulla.
 
-  * Tillfälliga problem: leveransförseningar, e-postservern tillfälligt otillgänglig
-  * Permanenta problem: fel adress, okänd domän. Lägg till mottagarna i ett nytt urval och försöka att identifiera orsaken till problemet.
-
 * **Läst av mottagare**: Aktivera detta filter om du vill visa alla mottagare som öppnat eller läst utskicket.
 
 * **Redo att skicka**: Aktivera detta filter om du vill visa alla mottagare som utskicket ännu inte har skickats till.
 
 * **Blockerad**: Aktivera filtret om du vill visa följande mottagare:
 
-* Mottagare som inte vill bli kontaktad.
-* Duplicera mottagare.
-* Mottagare utan en prenumeration.
+* Mottagare som inte vill bli kontaktad
+* Duplicera mottagare
+* [Mottagare utan en prenumeration][5]
 
-**Mottagaren klagade**: Aktivera detta filter om du vill visa alla mottagare som rapporterat utskicket som skräppost.
+**Mottagaren klagade**: Aktivera detta filter om du vill visa alla mottagare som rapporterat utskicket som [skräppost][4].
 
 Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice skickar ditt utskick till mottagarna. Status ändras till **Skickat** när det är klart.
 
@@ -77,22 +73,24 @@ Med hjälp av ![ikon][img2] menyknappen kan du lägga till mottagare och klickar
 
 ### Lägga till klickare i ett nytt urval eller projekt
 
-[!include[How to](../../../learn/includes/howto-add-person-to-selection-new.md)]
+[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
 
 ### Lägg till klickare i ett befintligt urval eller projekt
 
-[!include[How to](../../../learn/includes/howto-add-person-to-selection-existing.md)]
+[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
 
 ## Relaterade ämnen
 
 * [Jobba med spårade länkar efter utskicket][1]
 
 <!-- Referenced links -->
-[1]: ../../../tracked-links/learn/explore-clicks.md
+[1]: ../../tracked-links/learn/explore-clicks.md
 [3]: manage-bounces.md
+[4]: spam-complaints.md
+[5]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-right.png
-[img2]: ../../../../../media/icons/btn-menu.png
-[img3]: ../../../../../../common/icons/nav-contact.png
-[img4]: ../../../../../media/loc/en/marketing/recipients-tab-status.png
+[img1]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../media/icons/btn-menu.png
+[img3]: ../../../../../common/icons/nav-contact.png
+[img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

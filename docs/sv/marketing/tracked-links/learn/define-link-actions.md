@@ -62,13 +62,14 @@ Välj ett fält i listrutan **Ange extrafält** och ange ett värde i fältet **
 Här kan du ange att ett länkklick ska lägga till eller ta bort intressen för kontakten. Du kan t.ex. lägga till intresset "Produktnyheter" om mottagaren klickar på länken "Ja tack! Jag vill veta mer om nya produkter". Alternativt kan du ta bort intresset "Produktnyheter" om mottagaren klickar på länken "Avregistrera sig" i ett nyhetsbrev.
 
 * I listrutan **Ange intresse** kan du välja ett intresse som ska läggas till för kontakterna om de klickar på länken.
+
 * I listrutan **Ta bort intresse** kan du välja ett intresse som ska tas bort för kontakterna om de klickar på länken.
 
-Se även [Ta bort intressen i SuperOffice CRM][1].
+[Hur man skapar ett anmälningsformulär för nyhetsbrev][1]
 
 ## Urval/projekt
 
-Här kan du ange att mottagare som klickar på länken ska läggas till i eller tas bort från urval i SuperOffice Service eller urval eller projekt i SuperOffice CRM. Skriv början av ett namn för att starta snabbsökningen.
+Här kan du ange att mottagare som klickar på länken ska läggas till i eller tas bort från urval eller projekt. Skriv början av ett namn för att starta snabbsökningen.
 
 ## Uppföljning (uppgift/möte)
 
@@ -130,7 +131,7 @@ Du kan använda den information du har samlat in i detta utskick på flera olika
 * Generera serviceärenden som ditt kundtjänstteam kan plocka upp för att undersöka ärendet.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md#clear-interests
+[1]: ../../forms/learn/examples.md#newsletter-sign-up
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png

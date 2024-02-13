@@ -2,12 +2,15 @@
 uid: help-sv-mailing-settings
 title: Ange inställningar för utskick
 description: Ange inställningar för utskick
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marknadsföring, inställningar
-so.topic: reference
+author: SuperOffice RnD
+so.date: 02.12.2024
+so.version: 10
+so.topic: howto
 language: sv
 so.envir: onsite
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Ange inställningar för utskick
@@ -35,13 +38,13 @@ Följande inställningar finns för e-postutskick:
 
 * **Standardavsändare**: Systemet standardavsändare för e-post. Denna adress åsidosätts normalt av adresser som läggs till i e-postlådor. Detta måste vara en e-postadress som har importerats i SuperOffice Service. Till exempel <support@company.com>.
 
-[!include[List of fields for mailings](../../../learn/includes/mailing-smtp-fields.md)]
+[!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 
 ## Fliken SMS
 
 Följande inställningar finns för SMS-utskick:
 
-[!include[Settings for mailings - SMS](../../../learn/includes/mailing-settings-sms.md)]
+[!include[Settings for mailings - SMS](../../learn/includes/mailing-settings-sms.md)]
 
 ## Testa SMS-inställningarna
 
@@ -50,6 +53,6 @@ Testa inställningarna genom att ange ett mobiltelefonnummer och lite text, och 
 Information om ytterligare moduler finns i [SMS][1].
 
 <!-- Referenced links -->
-[1]: ../../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../admin/preferences/learn/global-preferences/sms.md
 
 <!-- Referenced images -->
