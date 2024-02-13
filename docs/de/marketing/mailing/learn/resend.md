@@ -11,7 +11,7 @@ language: de
 
 # Kampagne erneut senden
 
-Wenn Sie in den Ergebnissen Ihrer Kampagnen feststellen, dass viele der E-Mail-Adressen unzustellbar sind, bedeutet dies, dass diese Personen Ihre Kampagne nicht erhalten haben. Nachdem Sie die unzustellbaren E-Mails bearbeitet haben, sollten Sie versuchen, die Kampagne erneut zu versenden.
+Wenn Sie in den Ergebnissen Ihrer Kampagnen feststellen, dass viele der E-Mail-Adressen [unzustellbar][1] sind, bedeutet dies, dass diese Personen Ihre Kampagne nicht erhalten haben. Nachdem Sie die unzustellbaren E-Mails bearbeitet haben, sollten Sie versuchen, die Kampagne erneut zu versenden.
 
 Es gibt zwei Möglichkeiten, wie Sie Ihre Kampagne erneut versenden können.
 
@@ -46,5 +46,8 @@ SuperOffice Marketing versendet Ihre Kampagne nun an alle ausgewählten Empfäng
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[1]: ../../recipients/learn/manage-bounces.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/marketing/reload-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png

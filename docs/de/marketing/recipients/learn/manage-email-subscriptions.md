@@ -2,24 +2,27 @@
 uid: help-de-mailing-manage-subscriptions
 title: E-Mail-Abonnements verwalten
 description: "Mit den Abonnementverwaltungsfunktionen in SuperOffice CRM können Sie dokumentieren, welchen Inhaltstyp Ihre Personen von Ihnen erhalten möchten."
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: Marketing
-so.topic: howto
+author: Bergfrid Dias
+so.date: 02.09.2024
+so.version: 10
+so.topic: concept
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # E-Mail-Abonnements verwalten
 
-Mit den Abonnementverwaltungsfunktionen in SuperOffice CRM können Sie dokumentieren, welchen Inhaltstyp Ihre Personen von Ihnen erhalten möchten.
+Die Funktionen zur Abonnementverwaltung von SuperOffice CRM ermöglichen es Ihren Kontakten, den Inhalt zu spezifizieren, den sie erhalten möchten. Dies ist mit dem Einwilligungsmanagement verbunden, da einige Rechtsgebiete eine dokumentierte Zustimmung vor dem Versenden von E-Marketing-Nachrichten erfordern.
 
-Diese Funktionen sind mit **dem Einwilligungsmanagement** verknüpft, da Sie in einigen Ländern auch die Einwilligung einer Person dokumentieren müssen, bevor Sie ihr E-E-Marketing-Kampagnen senden können.
+Diese Funktionen verhindern das Senden von E-Marketing-Nachrichten an diejenigen, die nicht zugestimmt haben, und stellen sicher, dass Ihre Kontakte die Kontrolle über ihre E-Mail-Abonnements behalten. Von dem Moment an, an dem sie Ihrer SuperOffice-Datenbank hinzugefügt werden, können Kontakte ihre Versandpräferenzen spezifizieren. Sie können diese Präferenzen auch über den Abmelde-Link in jeder E-Mail anpassen.
 
-Mit den Funktionen zur **Abonnementverwaltung** können Sie vermeiden, dass E-Marketing-Nachrichten an Personen gesendet werden, die keine Zustimmung erteilt haben.
+Durch die Möglichkeit, Kunden ihre Abonnements verwalten zu lassen, können Sie die Öffnungsraten Ihrer Kampagnen aus und erhöht den Gesamterfolg Ihrer Marketingarbeit.
 
-Diese Funktionalität stellt sicher, dass alle Kontaktpersonen in Ihrer CRM-Datenbank jederzeit die Kontrolle über ihre E-Mail-Abonnements haben. Wenn Sie sie zu Ihrer SuperOffice-Datenbank hinzufügen, können sie Ihnen mitteilen, welche Kampagnen sie erhalten möchten. Jedes Mal, wenn Ihre Personen Ihre Kampagnen erhalten, können sie ihre Abonnementeinstellungen über den Abmeldelink in der E-Mail ändern.
+## Interessen in SuperOffice CRM
 
-Die Tatsache, dass Ihre Kunden ihre Abonnements selbst verwalten können, wirkt sich positiv auf die Öffnungsraten Ihrer Kampagnen aus und erhöht den Gesamterfolg Ihrer Marketingarbeit.
+Sie können Interessen (wie "Monatlicher Newsletter") zu Personen hinzufügen. Anstatt einen Abmeldelink zu verwenden, können Sie ganz einfach [einen Link, der das betroffene Interesse von den Empfängern löscht][5], erstellen. Diese Methode können Sie auch anwenden, um Interessen hinzuzufügen.
 
 ## Ihre Zielliste
 
@@ -29,9 +32,7 @@ Wenn Sie Ihre [Zielliste für Ihre nächste Kampagne][1] erstellen, können Sie 
 
 Es gibt mehrere Möglichkeiten, Ihre Zielliste mithilfe einer Selektion zu erstellen. Dies bedeutet, dass Sie möglicherweise nicht immer einen Abonnementtyp als Selektionskriterium verwenden. In diesem Fall können Sie leicht übersehen, dass Personen, die "Nein" zum Erhalt Ihrer Kampagnen gesagt haben, zu Ihrer Zielliste hinzugefügt werden.
 
-Um zu verhindern, dass unerwünschte Kampagnen an Personen senden, kann SuperOffice CRM die Personen herausfiltert, die Ihnen ihre Zustimmung nicht erteilt haben.
-
-Wenn Sie eine neues Kampagne, werden Sie vom Kampagnen-Assistenten aufgefordert, den Abonnementtyp zur Kampagne hinzuzufügen, die Sie in Schritt 1 versenden möchten: Einstellungen.
+Um zu verhindern, dass unerwünschte Kampagnen an Personen senden, werden Sie vom Kampagnen-Assistenten aufgefordert, den Abonnementtyp zur Kampagne hinzuzufügen, die Sie in Schritt 1 versenden möchten: Einstellungen.
 
 ![Wählen Sie im Setup-Schritt aus, welchen Kampagnentyp Sie versenden möchten. -screenshot][img1]
 
@@ -58,7 +59,7 @@ Sehen Sie sich das Video an, um zu lernen, wie Sie die Datenschutzeinstellungen 
 Manchmal ändern Personen ihre Meinung darüber, welche E-Mails sie erhalten möchten. In diesem Fall sollten diese Personen die Möglichkeit haben, sich vom Kampagnentyp, den Sie ihnen gesendet haben, abzumelden. Daher werden alle SuperOffice CRM Kampagnenvorlagen mit einem Abmeldelink geliefert.
 
 > [!TIP]
-> Siehe Datenschutz-E-Mail senden, um die E-Mail für die Abonnementverwaltung an eine Person zu senden.
+> Siehe [Datenschutz-E-Mail senden][3], um die E-Mail für die Abonnementverwaltung an eine Person zu senden.
 
 Wenn Sie auf diesen Link klicken, gelangen Ihre Empfänger zu ihrer Seite mit den Abonnementeinstellungen, auf der sie den Kampagnentyp auswählen können, den sie erhalten möchten. Die Änderungen, die Ihre Personen vornehmen, werden gespeichert, sobald sie die neuen Einstellungen bestätigen.
 
@@ -71,14 +72,14 @@ Mit SuperOffice CRM respektieren Sie die Kommunikationseinstellung Ihrer Persone
 ## Verwandt
 
 * [DSGVO und Datenschutz][2]
-* [Datenschutz-E-Mail senden][3]
 * [SuperOffice Datenschutzerklärung][4]
 
 <!-- Referenced links -->
-[1]: create/target-list.md
+[1]: index.md
 [2]: ../../../security/privacy/learn/index.md
 [3]: ../../../security/privacy/learn/send-privacy-confirmation-email.md
 [4]: https://www.superoffice.com/company/privacy/
+[5]: ../../tracked-links/learn/define-link-actions.md#interests
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/setup-type-drop-down.png

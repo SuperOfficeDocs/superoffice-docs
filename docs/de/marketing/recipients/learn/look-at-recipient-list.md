@@ -2,20 +2,19 @@
 uid: help-de-mailing-recipient-list
 title: Nach der Kampagne mit der Empfängerliste arbeiten
 description: Nach der Kampagne mit der Empfängerliste arbeiten
-author: SuperOffice RnD
-so.date: 02.21.2023
 keywords: Marketing, Empfänger
+author: SuperOffice RnD
+so.date: 02.09.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Nach der Kampagne die Empfängerliste ansehen
 
 Nach dem Versand Ihrer Kampagne ist es immer wieder spannend zu sehen, wie gut Ihre Kampagne funktioniert hat. Es ist auch eine großartige Gelegenheit, die Qualität der in Ihrer Datenbank erfassten Informationen zu überprüfen und zu verbessern. Ein wichtiger Indikator ist vor allem die Anzahl der unzustellbaren E-Mails. In dieser Anleitung lernen Sie, wie Sie Ihre Empfängerliste filtern können.
-
-Wenn Sie Ihre Kampagne zum ersten Mal versenden, erhalten Sie möglicherweise eine große Anzahl von unzustellbaren E-Mails. Das ist eine gute Nachricht, denn es bedeutet, dass Sie jede E-Mail-Adresse aktualisieren können, die falsch geschrieben ist oder nicht mehr verwendet wird.
-
-Die Aktualisierung von unzustellbaren E-Mail-Adressen trägt dazu bei, die Erfolgsquote Ihrer zukünftigen Kampagnen zu erhöhen.
 
 Nach dem Senden der Kampagne sammelt SuperOffice Marketing Daten über den Status jeder gesendeten E-Mail. In der Registerkarte Empfänger können Sie den Status für jeden einzelnen Empfänger der Kampagne ansehen. Darüber hinaus können Sie die Liste filtern und die Ergebnisse zur weiteren Bearbeitung zu Selektionen und Projekten in SuperOffice CRM exportieren.
 
@@ -50,20 +49,17 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 
 * **Nicht zustellbar**: Aktivieren Sie diesen Filter, um die Empfänger anzuzeigen, an die die [Kampagne als nicht zugestellt zurückgegeben][3] wurde. Grund hierfür können fehlerhafte E-Mail-Adressen, Spamfilter, Probleme mit dem Internet oder volle Posteingänge sein.
 
-  * Vorübergehende Probleme: Lieferverzögerungen, E-Mail-Server vorübergehend nicht erreichbar
-  * Permanente Probleme: falsche Adresse, unbekannte Domäne. Alle die Empfänger zu einer neuen Selektion hinzufügen und versuchen, die Ursache des Problems zu finden.
-
 * **Gelesen von Empfänger**: Aktivieren Sie diesen Filter, um alle Empfänger anzuzeigen, die die Kampagne geöffnet/gelesen haben.
 
 * **Für den Versand bereit**: Aktivieren Sie diesen Filter, um die Empfänger anzuzeigen, an die die Kampagne noch nicht gesendet wurde.
 
 * **Blockiert**: Aktivieren Sie diesen Filter, um die folgenden Empfänger anzuzeigen:
 
-* Empfänger, die noch keine Einwilligung zur Kontaktaufnahme erteilt haben.
-* Doppelt vorhandene Empfänger.
-* Empfänger ohne Abonnement.
+* Empfänger, die noch keine Einwilligung zur Kontaktaufnahme erteilt haben
+* Doppelt vorhandene Empfänger
+* [Empfänger ohne Abonnement][5]
 
-**Empfänger hat sich beschwert**: Aktivieren Sie diesen Filter, um alle Empfänger anzuzeigen, die die Kampagne als Spam/Junk-Mail gemeldet haben.
+**Empfänger hat sich beschwert**: Aktivieren Sie diesen Filter, um alle Empfänger anzuzeigen, die die Kampagne als [Spam/Junk-Mail][4] gemeldet haben.
 
 Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice sendet Ihre Kampagne an die Empfänger. Danach wird der Status in **Gesendet** geändert.
 
@@ -77,22 +73,24 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 
 ### Klicker einer neuen oder vorhandenen Selektion bzw. einem Projekt hinzufügen
 
-[!include[How to](../../../learn/includes/howto-add-person-to-selection-new.md)]
+[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
 
 ### Klicker einer vorhandenen Selektion bzw. einem vorhandenen Projekt hinzufügen
 
-[!include[How to](../../../learn/includes/howto-add-person-to-selection-existing.md)]
+[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
 
 ## Verwandte Themen
 
 * [Nach der Kampagne mit überwachten Links arbeiten][1]
 
 <!-- Referenced links -->
-[1]: ../../../tracked-links/learn/explore-clicks.md
+[1]: ../../tracked-links/learn/explore-clicks.md
 [3]: manage-bounces.md
+[4]: spam-complaints.md
+[5]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-right.png
-[img2]: ../../../../../media/icons/btn-menu.png
-[img3]: ../../../../../../common/icons/nav-contact.png
-[img4]: ../../../../../media/loc/en/marketing/recipients-tab-status.png
+[img1]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../media/icons/btn-menu.png
+[img3]: ../../../../../common/icons/nav-contact.png
+[img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

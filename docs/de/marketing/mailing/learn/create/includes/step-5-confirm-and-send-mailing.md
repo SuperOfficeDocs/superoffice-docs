@@ -32,7 +32,7 @@ Durch einen Klick auf die Kampagne in der Liste können sich den [Sendestatus un
 Klicken Sie auf **Stopp** oder **Start**, um die geplante Kampagne anzuhalten oder vorzeitig zu starten.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png

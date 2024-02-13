@@ -26,7 +26,7 @@ In SuperOffice Marketing können Sie Aktionen zu Ihren Links hinzufügen. Diese 
 | Antwort | Zielseite oder benutzerdefinierten Text hinzufügen. |
 | Feld festlegen | Einem Zusatzfeld einen Wert für die Personen des Kunden hinzufügen |
 | Interessen | Interessen aktualisieren. |
-| Selektion/Projekt | Ansprechpartner zu Selektion/Projekt hinzufügen bzw. daraus entfernen. |
+| Selektion/Projekt | Ansprechpartner zu Selektion oder Projekt hinzufügen bzw. daraus entfernen. |
 | Folgeaufgabe | Erstellt eine Folgeaufgabe (Aufgabe oder Besprechung) in SuperOffice CRM. |
 | Anfrage | Eine neue Anfrage erstellen. |
 | Skript | Ein Skript ausführen. |
@@ -41,13 +41,13 @@ In SuperOffice Marketing können Sie Aktionen zu Ihren Links hinzufügen. Diese 
 
 Je nach dem Ziel und den Handlungsanreizen, die Sie in Ihrer Kampagne verwenden, können Sie Informationen in Ihrer Datenbank aktualisieren. Wenn eine Person auf den Link in Ihrer Kampagne klickt, führt SuperOffice CRM einen der folgenden Schritte aus:
 
-* Geben Sie eine benutzerdefinierte Antwort oder leiten Sie auf eine Webseite um,
-* Fügen Sie eine Person zu einem bestimmten Projekt oder einer Selektion hinzu,
-* Aktualisieren Sie das Interesse einer Person,
-* Fügen Sie Informationen zu einem Feld auf der Personenkarte hinzu,
-* Erstellen Sie eine Folgeaktivität für eine Person,
-* Erstellen Sie eine Kundendienstanfrage für eine Person,
-* Ein Skript ausführen.
+* Geben Sie eine benutzerdefinierte Antwort oder leiten Sie auf eine Webseite um
+* Fügen Sie eine Person zu einem bestimmten Projekt oder einer Selektion hinzu
+* Aktualisieren Sie das Interesse einer Person
+* Fügen Sie Informationen zu einem Feld auf der Personenkarte hinzu
+* Erstellen Sie eine Folgeaktivität für eine Person
+* Erstellen Sie eine Kundendienstanfrage für eine Person
+* Ein Skript ausführen
 
 Einige dieser Informationen helfen Ihnen, Ihre Datenbank noch besser zu segmentieren, während andere Informationen Sei bei der Überwachung von Personen unterstützen, die Interesse an Ihrer Mitteilung gezeigt haben.
 
@@ -62,13 +62,14 @@ Wählen Sie im Listenfeld **Zusatzfeld festlegen** ein Feld aus und geben im Fel
 Hier können Sie festlegen, dass beim Klicken auf den Link Interessen für eine Person hinzugefügt oder entfernt werden sollen. Sie könnten beispielsweise das Interesse "Neuigkeiten zu Produkten" hinzufügen, wenn der Empfänger auf den Link "Ja, ich möchte über neue Produkte informiert werden" klickt. Alternativ könnten Sie das Interesse "Neuigkeiten zu Produkten" entfernen, wenn der Benutzer in einem Newsletter auf den Link "Abmelden" klickt.
 
 * Im Listenfeld **Interessen festlegen** können Sie auswählen, ob bestimmte Interessen beim Klicken auf den Link zu den Personen hinzugefügt werden sollen.
+
 * Im Listenfeld **Interesse löschen** können Sie auswählen, ob bestimmte Interessen beim Klicken auf den Link von den Personen entfernt werden sollen.
 
-Siehe auch [Interessen in SuperOffice CRM löschen][1].
+[Wie man ein Anmeldeformular für den Newsletter erstellt][1]
 
 ## Selektion/Projekt
 
-Hier können Sie festlegen, dass Empfänger, die auf den Link klicken, zu Selektionen in SuperOffice Service oder zu Selektionen bzw. Projekten in SuperOffice CRM hinzugefügt bzw. daraus entfernt werden sollen. Geben Sie den Anfang eines Namens ein, um die Schnellsuche zu starten.
+Hier können Sie festlegen, dass Empfänger, die auf den Link klicken, Selektionen bzw. Projekten hinzugefügt bzw. daraus entfernt werden sollen. Geben Sie den Anfang eines Namens ein, um die Schnellsuche zu starten.
 
 ## Folgeaufgabe (Aufgabe/Besprechung)
 
@@ -130,7 +131,7 @@ Sie können die Informationen, die Sie in dieser Kampagne gesammelt haben, auf v
 * Erstellen Sie Serviceanfragen, damit Ihr Kundendienst-Team die Angelegenheit aufgreift und untersucht.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md#clear-interests
+[1]: ../../forms/learn/examples.md#newsletter-sign-up
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png

@@ -23,7 +23,7 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 
   * **Link zu Datenschutzerklärung**: Wählen Sie diese Option aus, um den Link zur Datenschutzerklärung einzufügen,[!include[SM](../../../learn/includes/as-defined-sm.md)]
 
-* **Person - Abonnement**: Wählen Sie die Abonnements, die im Formular zu sehen sein sollen.
+* **Person - Abonnement**: Wählen Sie [die Abonnements][3], die im Formular zu sehen sein sollen.
 
 * **Name der Firma: Vorhandene Firma verwenden, falls gefunden**.
 
@@ -83,6 +83,7 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 <!-- Referenced links -->
 [1]: ../../../../en/marketing/forms/recaptcha.md
 [2]: create.md#multi-page
+[3]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png

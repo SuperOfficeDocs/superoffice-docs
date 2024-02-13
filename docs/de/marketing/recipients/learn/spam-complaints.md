@@ -2,11 +2,14 @@
 uid: help-de-mailing-spam
 title: Spam-Beschwerden
 description: Spam-Beschwerden
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing
-so.topic: help
+author: SuperOffice RnD
+so.date: 02.09.2024
+so.version: 10
+so.topic: concept
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Spam-Beschwerden

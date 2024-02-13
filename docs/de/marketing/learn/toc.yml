@@ -1,23 +1,19 @@
 items:
 - name: Überblick
   href: index.md
-- name: Ansicht "Marketing"
-  href: screen/index.md
-- name: Mit Marketing arbeiten
-  topicHref: add-fav.md
-  items:
-  - name: Favoriten hinzufügen
-    href: add-fav.md
-  - name: Ordner erstellen
-    href: create-folder.md
-  - name: Nachrichtenvorlagen
-    href: message-templates.md
-  - name: Bilder hinzufügen
-    href: add-images.md
-  - name: Beste Praktiken
-    href: best-practices.md
 
-- name: Mit Kampagnen arbeiten
+- name: Favoriten hinzufügen
+  href: add-fav.md
+- name: Ordner erstellen
+  href: create-folder.md
+- name: Nachrichtenvorlagen
+  href: message-templates.md
+- name: Bilder hinzufügen
+  href: add-images.md
+- name: Beste Praktiken
+  href: best-practices.md
+
+- name: Kampagnen
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
@@ -25,6 +21,10 @@ items:
   href: ../editor/learn/toc.yml
   topicHref: ../editor/learn/index.md
 
-- name: Mit überwachten Links arbeiten
+- name: Empfänger (Zielliste)
+  href: ../recipients/learn/toc.yml
+  topicHref: ../recipients/learn/index.md
+  
+- name: Überwachten Links
   href: ../tracked-links/learn/toc.yml
   topicHref: ../tracked-links/learn/index.md

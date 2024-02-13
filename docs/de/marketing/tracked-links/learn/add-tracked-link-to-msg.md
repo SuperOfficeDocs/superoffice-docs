@@ -19,9 +19,9 @@ Durch das Einrichten von Links, die Leser zu verschiedenen Inhalten auf Ihrer We
 
 Sie können Ihrer Kampagne auch **spezielle Links hinzufügen**. Wählen Sie hierzu das Dropdown-Menü "Spezielle Links aus. Je nachdem, was Sie erreichen möchten, können Sie zwischen folgendem wählen:
 
-* Link zur Online-Anzeige der Mitteilung
-* Abonnements verwalten
-* Abmelden
+* [Link zur Online-Anzeige der Mitteilung][1]
+* [Abonnements verwalten][4]
+* [Abmelden][4]
 * Überwachte Links
 
 ## Schritte
@@ -47,13 +47,11 @@ Sie können auch reguläre (nicht überwachte) Links hinzufügen, indem Sie in d
 
 * [Überwachte Links erstellen][5]
 * [Verknüpfungsaktionen definieren][6]
-* [Links für Abonnement hinzufügen][4]
-* [Einen Link hinzufügen, um die Nachricht in einem Browser anzuzeigen][1]
 
 <!-- Referenced links -->
 [1]: ../../editor/learn/add-link-to-display-message-in-browser.md
 [2]: ../../editor/learn/edit-paragraph.md
-[4]: ../../mailing/learn/create/add-unsubscribe-link.md
+[4]: ../../recipients/learn/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md
 

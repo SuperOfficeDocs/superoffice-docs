@@ -2,16 +2,19 @@
 uid: help-de-mailing-add-unsubscribe-link
 title: Einen Abmeldelink hinzufügen
 description: "Wenn Sie eine Kampagne versenden, müssen Sie den Empfängern die Möglichkeit geben, sich abzumelden. Erfahren Sie in dieser Anleitung, wie Sie Ihrer Kampagne einen Abmeldelink hinzufügen können."
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.09.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Links für Abonnement hinzufügen
 
-Wenn Sie beispielsweise Newsletter versenden, müssen Sie den Empfängern die Option bieten, sich davon abzumelden oder die Abonnementeinstellungen zu ändern. Fügen Sie hierzu einen Link ein, den die Empfänger lediglich anklicken müssen. Solche Links werden normalerweise am Ende einer Nachricht (in der Fußzeile) eingefügt.
+Wenn Sie beispielsweise Newsletter versenden, müssen Sie den Empfängern die Option bieten, sich davon abzumelden oder [die Abonnementeinstellungen][1] zu ändern. Fügen Sie hierzu einen Link ein, den die Empfänger lediglich anklicken müssen. Solche Links werden normalerweise am Ende einer Nachricht (in der Fußzeile) eingefügt.
 
 Der Abmeldelink wird normalerweise am Ende einer Nachricht eingefügt. Wenn Sie eine unserer Kampagnenvorlagen verwenden, ist dieser Link bereits hinzugefügt.
 
@@ -44,16 +47,10 @@ Auf der Grundlage des Feedbacks von den Empfängern werden die Abonnementeinstel
 >
 > Sie haben jedoch die Möglichkeit, die Einstellungen "Keine Einwilligung/Kein Abonnement" über **Optionen** im unteren Teil der Ansicht **Empfänger** zu umgehen (siehe Schritt 4: Empfänger).
 
-## <a id="clear-interests" />Interessen löschen in SuperOffice CRM
-
-In SuperOffice CRM können Sie Interessen (wie "Monatlicher Newsletter") zu Personen hinzufügen. Diese Interessen können als Grundlage für verschiedene Kampagnenarten verwendet werden. Anstatt einen Abmeldelink zu verwenden, können Sie ganz einfach einzelne Interessen von Personen löschen, beispielsweise wenn diese den monatlichen Newsletter nicht erhalten möchten.
-
-Dafür erstellen Sie einen [Link, der das betroffene Interesse von den Empfängern löscht][4], die auf den Link klicken. Diese Methode können Sie auch anwenden, um Interessen hinzuzufügen.
-
 <!-- Referenced links -->
-[2]: ../../../tracked-links/learn/examples.md
-[4]: ../../../tracked-links/learn/define-link-actions.md#interests
+[2]: ../../tracked-links/learn/examples.md
+[1]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../media/icons/marketing-and-forms/link.png
-[img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png
+[img3]: ../../../../media/icons/marketing-and-forms/link.png
+[img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

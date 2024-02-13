@@ -116,7 +116,7 @@ Mit diesem Formular können sich Ihre Kunden für einen oder mehrere Newsletter 
 
     * **Interessen zu Person hinzufügen**: Wählen Sie das Interesse mit der Bezeichnung **Newsletter**. Dieses Interesse wird zu Personen hinzugefügt, die dieses Formular übermitteln.
 
-    * **E-Mail-Antwort**: Wählen Sie eine Formularantwort, die an Personen gesendet werden soll, sobald die von ihnen übermittelten Formulare verarbeitet werden. Diese E-Mail kann zum Beispiel den Kunden über die Datenschutzbestimmungen Ihrer Firma informieren und auch einen Link zur Verwaltung von Abonnements enthalten. [Wie man eine Formularantwort erstellt][2].
+    * **E-Mail-Antwort**: Wählen oder [erstellen Sie eine Formularantwort][2], die an Personen gesendet werden soll, sobald die von ihnen übermittelten Formulare verarbeitet werden. Diese E-Mail kann zum Beispiel den Kunden über die Datenschutzbestimmungen Ihrer Firma informieren und auch einen Link zur [Verwaltung von Abonnements][6] enthalten.
 
 1. Klicken Sie auf **Speichern**. Das Formular wird gespeichert und die Ansicht **Formular bearbeiten** wird geschlossen.
 
@@ -201,6 +201,7 @@ In diesem Beispiel wird erläutert, wie Sie ein kurzes Formular für Kunden erst
 [3]: submissions/index.md
 [4]: submissions/track.md
 [5]: submissions/process.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/add-field.png
