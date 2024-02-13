@@ -30,11 +30,6 @@ If you tailor your message specifically to that group, your chances of them doin
 
 The General Data Protection Regulation (GDPR) is the digital privacy regulation that was introduced on **May 25, 2018**.
 
-Watch this video to learn what GDPR is:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/watch?v=S0aTpvBmVnY]
-
 Not only is the GDPR a law, but it is also a great opportunity for you to create highly targeted marketing campaigns for people who are engaged with your brand. This way your chances of acquiring new customers grow exponentially!
 
 ## 4 ways to create your target lists

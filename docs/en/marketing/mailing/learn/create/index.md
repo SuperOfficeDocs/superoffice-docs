@@ -83,7 +83,7 @@ In the fifth and final step you confirm and send or schedule your mailing. You c
 [3]: tutorial-document-mailing.yml
 [4]: tutorial-form-mailing.yml
 [10]: send-test-email.md
-[5]: ../admin/define-settings-for-mailings.md
+[5]: ../../admin/define-settings-for-mailings.md
 [7]: ../view-statistics.md
 [9]: ../../../tracked-links/learn/explore-clicks.md
 [11]: ../../../recipients/learn/index.md

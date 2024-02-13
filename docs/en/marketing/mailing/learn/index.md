@@ -16,8 +16,8 @@ so.audience.tooltip: SuperOffice Marketing
 
 A mailing is usually handled in two steps:
 
-* [Preparing and sending the mailing][1].
-* [Following up the completed mailing](#after).
+* [Preparing and sending the mailing][1]
+* [Following up the completed mailing](#after)
 
 ## Mailing types
 
@@ -40,7 +40,7 @@ What do you want to achieve with your mailing? Do you want to:
 * Improve customer loyalty and retain customers?
 * Inform of new developments, milestones or propositions?
 
-SuperOffice CRM offers many ways of how to create a solid [target list][8].
+SuperOffice CRM offers many ways of how to create a solid [target list][8]. You can use selections, projects or a single contact saved in the system. Any contacts that are not yet available in SuperOffice CRM database, can be added by importing an Excel list, provided that you have their consent to be sent marketing messages by your company.
 
 You can also build a mailing list with the help of [online web forms][5]. Not only can you capture new leads among the visitors to your website who fill out a web form, but you can also use web forms to invite people to subscribe or sign up for different mailings.
 
