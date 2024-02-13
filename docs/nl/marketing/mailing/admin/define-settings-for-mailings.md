@@ -2,12 +2,15 @@
 uid: help-nl-mailing-settings
 title: Instellingen voor mailings definiëren
 description: Instellingen voor mailings definiëren
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing, instellingen
-so.topic: reference
+author: SuperOffice RnD
+so.date: 02.12.2024
+so.version: 10
+so.topic: howto
 language: nl
 so.envir: onsite
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Instellingen voor mailings definiëren
@@ -35,13 +38,13 @@ De volgende instellingen zijn beschikbaar voor mailings per e-mail:
 
 * **Standaard Van-adres**: Het standaard afzenderadres van de e-mail van het systeem. Dit adres wordt meestal vervangen door de adressen die in de postbussen zijn ingevoerd. Dit moet een e-mailadres zijn dat in SuperOffice Service is geïmporteerd. Bijvoorbeeld, <support@company.com>.
 
-[!include[List of fields for mailings](../../../learn/includes/mailing-smtp-fields.md)]
+[!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 
 ## Het tabblad SMS
 
 De volgende instellingen zijn beschikbaar voor SMS-mailings:
 
-[!include[Settings for mailings - SMS](../../../learn/includes/mailing-settings-sms.md)]
+[!include[Settings for mailings - SMS](../../learn/includes/mailing-settings-sms.md)]
 
 ## De SMS-instellingen testen
 
@@ -50,6 +53,6 @@ Als u de instellingen wilt testen, voert u een mobiel telefoonnummer en een will
 Zie [SMS][1] voor informatie over extra modules.
 
 <!-- Referenced links -->
-[1]: ../../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../admin/preferences/learn/global-preferences/sms.md
 
 <!-- Referenced images -->

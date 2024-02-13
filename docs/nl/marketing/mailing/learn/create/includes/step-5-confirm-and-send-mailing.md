@@ -32,7 +32,7 @@ U kunt klikken op de mailing in de lijst om de [verzendstatus en de statistieken
 Als u de mailing wilt stoppen of een geplande mailing eerder dan gepland wilt starten, klikt u respectievelijk op de knop **Stoppen** of **Starten**.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png

@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: nl
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Afbeeldingen in het bericht invoegen

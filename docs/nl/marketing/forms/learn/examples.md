@@ -116,7 +116,7 @@ Via dit formulier kunnen uw klanten zich aanmelden voor een of meer nieuwsbrieve
 
     * **Interesses toevoegen aan persoon**: Selecteer de interesse genaamd **Nieuwsbrief**. Deze interesse wordt toegevoegd aan personen die dit formulier verzenden.
 
-    * **E-mailantwoord**: Selecteer een formulierantwoord om te verzenden naar personen wanneer hun formulier is verwerkt. Deze e-mail kan de klant bijvoorbeeld informeren over het privacybeleid van uw bedrijf en kan ook een koppeling bevatten om abonnementen te beheren. [Een formulierantwoord maken][2].
+    * **E-mailantwoord**: Selecteer of [mak een formulierantwoord][2] om te verzenden naar personen wanneer hun formulier is verwerkt. Deze e-mail kan de klant bijvoorbeeld informeren over het privacybeleid van uw bedrijf en kan ook een koppeling bevatten om [abonnementen te beheren][6].
 
 1. Klik op **Opslaan**. Het formulier wordt opgeslagen en het scherm **Formulier bewerken** wordt gesloten.
 
@@ -201,6 +201,7 @@ In dit voorbeeld laten we zien hoe u een kort formulier kunt maken voor klanten 
 [3]: submissions/index.md
 [4]: submissions/track.md
 [5]: submissions/process.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/add-field.png

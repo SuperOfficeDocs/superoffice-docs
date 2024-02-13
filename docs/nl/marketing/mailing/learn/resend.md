@@ -11,7 +11,7 @@ language: nl
 
 # Uw mailing opnieuw verzenden
 
-Als u na het bekijken van de resultaten van uw mailing merkt dat veel van de e-mailadressen zijn geretourneerd, betekent dit dat deze personen uw mailing niet hebben ontvangen. Nadat u de geretourneerde e-mails hebt afgehandeld, is het een goed idee om uw mailing opnieuw te verzenden.
+Als u na het bekijken van de resultaten van uw mailing merkt dat veel van de e-mailadressen zijn [geretourneerd][1], betekent dit dat deze personen uw mailing niet hebben ontvangen. Nadat u de geretourneerde e-mails hebt afgehandeld, is het een goed idee om uw mailing opnieuw te verzenden.
 
 Er zijn twee manieren waarop u uw mailing opnieuw kunt verzenden.
 
@@ -46,5 +46,8 @@ SuperOffice Marketing stuurt nu uw mailing naar alle geselecteerde ontvangers.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[1]: ../../recipients/learn/manage-bounces.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/marketing/reload-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png

@@ -2,24 +2,27 @@
 uid: help-nl-mailing-manage-subscriptions
 title: E-mailabonnementen beheren
 description: Met de functies voor abonnementsbeheer in SuperOffice CRM kunt u documenteren welk type inhoud uw contactpersonen van u willen ontvangen.
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: marketing
-so.topic: howto
+author: Bergfrid Dias
+so.date: 02.09.2024
+so.version: 10
+so.topic: concept
 language: nl
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # E-mailabonnementen beheren
 
-Met de functies voor abonnementsbeheer in SuperOffice CRM kunt u documenteren welk type inhoud uw contactpersonen van u willen ontvangen.
+De functies voor abonnementsbeheer van SuperOffice CRM stellen uw contacten in staat om aan te geven welke inhoud ze willen ontvangen. Dit is gekoppeld aan Toestemmingsbeheer, aangezien sommige rechtsgebieden gedocumenteerde toestemming vereisen voordat e-marketingmails kunnen worden verzonden.
 
-Deze functies zijn gekoppeld aan **Toestemmingsbeheer** omdat u in sommige landen ook verplicht bent om de toestemming van een persoon te documenteren voordat u deze e-marketingmailings kunt sturen.
+Deze functies voorkomen het verzenden van e-marketingberichten naar degenen die geen toestemming hebben gegeven, zodat uw contacten de controle behouden over hun e-mailabonnementen. Vanaf het moment dat ze aan uw SuperOffice-database worden toegevoegd, kunnen contacten hun verzendvoorkeuren specificeren. Ze kunnen deze voorkeuren ook aanpassen via de afmeldlink in elke e-mail.
 
-Met de functies voor **Abonnementsbeheer** kunt u voorkomen dat u e-marketingberichten verzendt naar personen die geen toestemming hebben gegeven.
+Door klanten in staat te stellen hun abonnementen te beheren, kunt u uw openingspercentages verbeteren en het succes van uw marketing marketinginspanningen vergroten.
 
-Deze functionaliteit zorgt ervoor dat alle contactpersonen in uw CRM-database te allen tijde de controle hebben over hun e-mailabonnementen. Vanaf het moment dat u ze toevoegt aan uw SuperOffice-database, kunnen ze u vertellen welke mailings ze willen ontvangen. Telkens wanneer uw contactpersonen uw mailings ontvangen, kunnen ze hun abonnementsvoorkeuren wijzigen via de afmeldkoppeling in de e-mail.
+## Interesses in SuperOffice CRM
 
-Het feit dat uw klanten in staat zijn om hun eigen abonnementen te beheren, zal de openingspercentages van uw mailings positief beïnvloeden en het algehele succes van uw marketinginspanningen vergroten.
+U kunt interesses registreren (zoals "Maandelijkse nieuwsbrief") voor personen. In plaats van door middel van uitschrijving kunt u ook een [koppeling te maken die de desbetreffende interesse verwijdert][5] voor klanten als ze die niet langer willen ontvangen. Dezelfde methode kan worden gebruikt om interesses te registreren.
 
 ## Uw doellijst
 
@@ -29,9 +32,7 @@ Wanneer u [uw doellijst maakt][1] voor uw volgende mailing, kunt u een selectie 
 
 Er zijn meerdere manieren om uw doellijst te maken met behulp van een selectie. Dit betekent dat u mogelijk niet altijd een abonnementstype als selectiecriterium gebruikt. Wanneer u dit doet, verliest u gemakkelijk uit het oog dat u de mensen die "nee" hebben gezegd tegen het ontvangen van uw mailings, hebt toegevoegd aan uw doellijst.
 
-Om te voorkomen dat u mailings verzendt naar mensen die ze niet willen ontvangen, kan SuperOffice CRM u helpen door de mensen die u geen toestemming hebben gegeven eruit te filteren.
-
-Wanneer u een nieuwe mailing maakt, zal de mailingwizard u vragen om het abonnementstype toe te voegen dat u wilt verzenden in stap 1: Instellingen.
+Om te voorkomen dat u mailings verzendt naar mensen die ze niet willen ontvangen, zal de mailingwizard u vragen om het abonnementstype toe te voegen dat u wilt verzenden in stap 1: Instellingen.
 
 ![Kies in de installatiestap welk type mailing u verzendt. -screenshot][img1]
 
@@ -58,7 +59,7 @@ Bekijk voor meer informatie de video over hoe u de privacy-instellingen voor AVG
 Soms veranderen mensen van gedachten over welke e-mails ze willen ontvangen. Wanneer dit gebeurt, moeten ze de mogelijkheid hebben om zich af te melden voor het type mailing dat u hen hebt gestuurd. Daarom worden alle SuperOffice CRM-mailingsjablonen geleverd met een afmeldkoppeling.
 
 > [!TIP]
-> Als u de e-mail voor Abonnement beheren naar een persoon wilt verzenden, raadpleegt u Privacy-e-mail verzenden.
+> Als u de e-mail voor Abonnement beheren naar een persoon wilt verzenden, raadpleegt u [Privacy-e-mail verzenden][3].
 
 Als u op deze koppeling klikt, gaan uw ontvangers naar hun pagina met abonnementsvoorkeuren, waar ze het type mailings kunnen selecteren dat ze willen ontvangen. De wijzigingen die uw contactpersonen aanbrengen, worden opgeslagen zodra ze de nieuwe instellingen bevestigen.
 
@@ -71,14 +72,14 @@ Met SuperOffice CRM respecteert u de communicatievoorkeuren van uw contacten en 
 ## Aanverwant
 
 * [AVG en privacy][2]
-* [Privacy-e-mail verzenden][3]
 * [Privacyverklaring SuperOffice][4]
 
 <!-- Referenced links -->
-[1]: create/target-list.md
+[1]: index.md
 [2]: ../../../security/privacy/learn/index.md
 [3]: ../../../security/privacy/learn/send-privacy-confirmation-email.md
 [4]: https://www.superoffice.com/company/privacy/
+[5]: ../../tracked-links/learn/define-link-actions.md#interests
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/setup-type-drop-down.png

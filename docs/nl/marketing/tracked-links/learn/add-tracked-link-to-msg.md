@@ -19,9 +19,9 @@ Door koppelingen in te stellen die lezers naar verschillende inhoud op uw websit
 
 U kunt ook **speciale koppelingen toevoegen** aan uw mailing. Selecteer hiervoor de vervolgkeuzelijst Speciale koppelingen. Afhankelijk van wat u wilt bereiken, kunt u kiezen tussen:
 
-* Koppeling om bericht online te bekijken
-* Abonnementen beheren
-* Uitschrijven
+* [Koppeling om bericht online te bekijken][1]
+* [Abonnementen beheren][4]
+* [Uitschrijven][4]
 * Gevolgde links
 
 ## Stappen
@@ -47,13 +47,11 @@ U kunt ook normale (niet-gevolgde) koppelingen toevoegen door te klikken op de k
 
 * [Gevolgde links maken][5]
 * [Linkacties definiëren][6]
-* [Links voor abonnement toevoegen][4]
-* [Een koppeling toevoegen om het bericht weer te geven in een browser][1]
 
 <!-- Referenced links -->
 [1]: ../../editor/learn/add-link-to-display-message-in-browser.md
 [2]: ../../editor/learn/edit-paragraph.md
-[4]: ../../mailing/learn/create/add-unsubscribe-link.md
+[4]: ../../recipients/learn/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md
 

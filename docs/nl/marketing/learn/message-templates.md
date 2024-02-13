@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: nl
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Werken met de berichtsjablonen
@@ -39,7 +39,7 @@ U kunt extra berichtsjablonen vinden op het tabblad Alle sjablonen, als u een me
 
 ## Sjablonen gebruiken uit de Online sjablonenbibliotheek
 
-De online sjablonenbibliotheek in SuperOffice Marketing bevat een brede selectie van professioneel ontworpen berichtsjablonen. Gratis te gebruiken!
+Deze bibliotheek biedt een breed scala aan professioneel ontworpen berichtsjablonen, allemaal beschikbaar voor gebruik zonder kosten.
 
 1. Selecteer het tabblad **Berichtsjablonen**.
 2. Klik op **Online sjablonenbibliotheek**.
@@ -71,7 +71,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 
 * Uw contactgegevens toevoegen, zoals het adres, e-mailadres, website en telefoonnummer van uw bedrijf.
 
-* Koppeling voor afmelden toevoegen. Volgens de nieuwe verordening gegevensbescherming en privacy (AVG) moet u een duidelijk zichtbare afmeldkoppeling toevoegen en het voor ontvangers gemakkelijk maken om zich af te melden voor uw mailings.
+* [Koppeling voor afmelden toevoegen][6]. Volgens de nieuwe verordening gegevensbescherming en privacy (AVG) moet u een duidelijk zichtbare afmeldkoppeling toevoegen en het voor ontvangers gemakkelijk maken om zich af te melden voor uw mailings.
 
 * [Variabalen][3] (ook sjabloonvariabelen genoemd) toevoegen. U kunt de gegevens van elke ontvanger opnemen om uw bericht te personaliseren. Dit zal u helpen de openings- en klikfrequenties te verhogen. U kunt uw lezer bijvoorbeeld aanspreken met zijn voor- of volledige naam of de naam van het bedrijf waarin hij/zij werkt. SuperOffice CRM biedt een verscheidenheid aan variabelen die u kunt gebruiken om uw mailings te personaliseren.
 
@@ -131,6 +131,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
 [5]: ../editor/learn/index.md#old
+[6]: ../recipients/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

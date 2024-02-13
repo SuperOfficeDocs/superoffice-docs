@@ -2,16 +2,19 @@
 uid: help-nl-mailing-add-unsubscribe-link
 title: Koppeling voor uitschrijven toevoegen
 description: "Wanneer u een mailing verstuurt, is het verplicht om ontvangers de mogelijkheid te geven om zich af te melden. Lees in deze handleiding hoe u een afmeldlink aan uw mailing kunt toevoegen."
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: marketing
+author: SuperOffice RnD
+so.date: 02.09.2024
+so.version: 10
 so.topic: howto
 language: nl
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Links voor abonnement toevoegen
 
-Wanneer u bijvoorbeeld een nieuwsbrief verzendt, moet u de ontvangers de mogelijkheid bieden uit te schrijven of de voorkeuren van hun abonnement te wijzigen. Voeg hiervoor een koppeling in waarop de ontvangers kunnen klikken. Dergelijke links worden meestal onder aan een bericht geplaatst (in de voettekst).
+Wanneer u bijvoorbeeld een nieuwsbrief verzendt, moet u de ontvangers de mogelijkheid bieden uit te schrijven of de [voorkeuren van hun abonnement][1] te wijzigen. Voeg hiervoor een koppeling in waarop de ontvangers kunnen klikken. Dergelijke links worden meestal onder aan een bericht geplaatst (in de voettekst).
 
 De koppeling voor uitschrijven wordt meestal onderaan een bericht geplaatst. Als u een van onze mailingsjablonen gebruikt, is deze koppeling al toegevoegd.
 
@@ -44,16 +47,10 @@ Op basis van de feedback van de ontvangers worden de voorkeuren van het abonneme
 >
 > U kunt echter de instellingen "geen toestemming/geen abonnement" overschrijven bij **Opties** in het onderste deel van het scherm **Ontvangers** (zie Stap 4: Ontvangers).
 
-## <a id="clear-interests" />Interesses wissen in SuperOffice CRM
-
-In SuperOffice CRM kunt u interesses registreren (zoals "Maandelijkse nieuwsbrief") voor personen. Deze interesses kunnen worden gebruikt als een basis voor verschillende soorten mailings. In plaats van door middel van uitschrijving kunt u ook een bepaalde interesse wissen voor klanten, zoals maandelijkse nieuwsbrieven, als ze die niet langer willen ontvangen.
-
-U doet dit door [een koppeling te maken die de desbetreffende interesse][4] verwijdert voor de berichtontvangers die op de koppeling klikken. Dezelfde methode kan worden gebruikt om interesses te registreren.
-
 <!-- Referenced links -->
-[2]: ../../../tracked-links/learn/examples.md
-[4]: ../../../tracked-links/learn/define-link-actions.md#interests
+[2]: ../../tracked-links/learn/examples.md
+[1]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../media/icons/marketing-and-forms/link.png
-[img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png
+[img3]: ../../../../media/icons/marketing-and-forms/link.png
+[img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png
