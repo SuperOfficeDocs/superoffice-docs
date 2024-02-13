@@ -32,7 +32,7 @@ Klik på udsendelsen på listen for at [se status og statistik for din afsendels
 For at standse udsendelsen eller påbegynde en planlagt udsendelse før planlagt tid, skal du klikke på de respektive **Stop** eller **Start** - knapper.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png

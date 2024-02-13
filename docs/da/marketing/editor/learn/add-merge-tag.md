@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: da
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Føj flettefelter til din meddelelse

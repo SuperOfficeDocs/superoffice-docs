@@ -116,7 +116,7 @@ Med denne formular kan dine kunder tilmelde sig et eller flere nyhedsbreve. Tilm
 
     * **Tilføj interesser til person**: Vælg interessen, **Nyhedsbrev**. Denne interesse vil blive føjet til personer, der indsender denne formular.
 
-    * **E-mail-svar**: Vælg et formularsvar, der skal sendes til personer, når deres formular behandles. Denne e-mail kan for eksempel informere kunden om din virksomhedspolitik om beskyttelse af personoplysninger og kan også indeholde et link til administration af abonnementer. **Hvordan opretter jeg et formularsvar**.
+    * **E-mail-svar**: Vælg eller [opret et formularsvar][2], der skal sendes til personer, når deres formular behandles. Denne e-mail kan for eksempel informere kunden om din virksomhedspolitik om beskyttelse af personoplysninger og kan også indeholde et link til [administration af abonnementer][6].
 
 1. Klik på **Gem**. Formularen gemmes, og skærmbilledet **Rediger formular** lukkes.
 
@@ -201,6 +201,7 @@ I dette eksempel viser vi, hvordan du opretter en kort formular til kunder, der 
 [3]: submissions/index.md
 [4]: submissions/track.md
 [5]: submissions/process.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/add-field.png

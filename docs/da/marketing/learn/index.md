@@ -3,12 +3,13 @@ uid: help-da-marketing
 title: SuperOffice Marketing
 description: "Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet."
 author: SuperOffice RnD
-so.date: 02.16.2023
-keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.12.2024
+so.version: 10
 so.topic: concept
 language: da
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # SuperOffice Marketing
@@ -37,7 +38,7 @@ Du kan oprette følgende udsendelser:
 * Formularbesvarelser til kunder eller potentielle kunder, der indsender en formular via din hjemmeside eller dit kundecenter
 
 > [!NOTE]
-> E-mailudsendelser (og formularbesvarelser) er de typer udsendelser, der har flest funktioner. Funktioner som f.eks. sporede links og tilmeldingslinks er ikke tilgængelige i SMS-udsendelser og dokumentudsendelser. SMS-udsendelser kan kun indeholde almindelig tekst (ingen billeder eller tabeller).
+> E-mailudsendelser (og formularbesvarelser) er de typer udsendelser, der har flest funktioner. Funktioner som f.eks. [sporede links][11] og [tilmeldingslinks][10] er ikke tilgængelige i SMS-udsendelser og dokumentudsendelser. SMS-udsendelser kan kun indeholde almindelig tekst (ingen billeder eller tabeller).
 
 De meddelelser, der sendes ud, kan skræddersys til hver enkelt kunde ved hjælp af [skabelonvariabler][2]. Tilføj links til dine udsendelser og tilføj [handlinger][3] til disse links for at automatisere dit marketing-workflow.
 
@@ -81,23 +82,44 @@ For at få gavn af SuperOffice marketingfunktioner skal du have en basisviden om
 
 SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som en onsite-applikation (installeret hos kunden). Der er mindre forskelle mellem de to typer. Specifikke funktionsmæssige forskelle er angivet med ikoner i selve procedurerne eller i emnetitlerne.
 
+## Fanerne i SuperOffice Marketing
+
+| Fane | Beskrivelse | Læs mere |
+|---|---|---|
+| Udsendelser | Her finder du alle udsendelser og opretter nye. | [Opret ny udsendelse][5] |
+| Meddelelsesskabeloner | Her kan du finde standardskabeloner til SuperOffice Marketing og de skabeloner, du selv har oprettet, samt en lang række skabeloner fra onlinebiblioteket. | [Arbejde med meddelelsesskabeloner][13] |
+| Sporede links | Her finder du alle de sporede links, der er brugt i dine udsendelser. Klik på ![ikonet][img1] **Tilføj** for at oprette et nyt link. | [Opret sporede links][14] |
+| Billeder | Her finder du alle de billeder, der er tilgængelige i SuperOffice Marketing. Klik på ![ikonet][img1] **Tilføj** for at tilføje nye billeder. | [Tilføj billeder][15] |
+| Blokerede e-mailadresser | Her kan du administrere afviste e-mails og spamklager. | [Blokerede e-mailadresser][12], [spam][16] |
+| Formularer | Her finder du alle formularerne og opretter nye. | [Opret en ny formular][1] |
+| Formularskabeloner | Her finder du alle formularskabelonerne. | [Arbejde med formularskabeloner][18] |
+| Formularindsendelser | Her finder du alle de indsendte formularer. | [Formularindsendelser][19] |
+
 ## Hvad vil du foretage dig nu?
 
 * [Oprette ny udsendelse][5]
-* [Følge op på udsendelser][6]
 * [Oprette en ny formular][1]
 * [Få vist udsendelser og formularer i dashboards][4]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
 [2]: ../editor/learn/index.md#variables
+[11]: ../tracked-links/learn/index.md
 [3]: ../tracked-links/learn/define-link-actions.md
-[4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
-[6]: ../mailing/learn/follow-up/index.md
-[8]: ../mailing/learn/manage-email-subscriptions.md
+[8]: ../recipients/learn/manage-email-subscriptions.md
+[10]: ../recipients/learn/add-unsubscribe-link.md
+[4]: ../../dashboard/learn/show-marketing.md
 [7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
+[12]: ../recipients/learn/manage-bounces.md
+[16]: ../recipients/learn/spam-complaints.md
+[13]: message-templates.md
+[14]: ../tracked-links/learn/create-links.md
+[15]: add-images.md
+[18]: ../forms/learn/form-templates.md
+[19]: ../forms/learn/submissions/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../../common/icons/nav-marketing.png

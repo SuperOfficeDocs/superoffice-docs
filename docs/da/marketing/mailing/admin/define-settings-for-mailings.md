@@ -2,12 +2,15 @@
 uid: help-da-mailing-settings
 title: Angive indstillinger for udsendelser
 description: Angive indstillinger for udsendelser
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing, indstillinger
-so.topic: reference
+author: SuperOffice RnD
+so.date: 02.12.2024
+so.version: 10
+so.topic: howto
 language: da
 so.envir: onsite
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Angive indstillinger for udsendelser
@@ -35,13 +38,13 @@ Følgende indstillinger er tilgængelige for e-mail-forsendelser:
 
 * **Standardafsender**: Systemets standardafsenderadresse til e-mails. Denne adresse vil normalt blive tilsidesat af de adresser, der figurerer som mailkonti. Der skal være tale om en e-mailadresse, som er importeret til SuperOffice Service. For eksempel, <support@company.com>.
 
-[!include[List of fields for mailings](../../../learn/includes/mailing-smtp-fields.md)]
+[!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 
 ## Fanen SMS
 
 Følgende indstillinger er tilgængelige for sms-udsendelser:
 
-[!include[Settings for mailings - SMS](../../../learn/includes/mailing-settings-sms.md)]
+[!include[Settings for mailings - SMS](../../learn/includes/mailing-settings-sms.md)]
 
 ## Test af sms-indstillingerne
 
@@ -50,6 +53,6 @@ Hvis du vil teste indstillingerne, skal du angive et mobiltelefonnummer og noget
 For information om yderligere moduler, se [SMS.][1]
 
 <!-- Referenced links -->
-[1]: ../../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../admin/preferences/learn/global-preferences/sms.md
 
 <!-- Referenced images -->

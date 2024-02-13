@@ -26,7 +26,7 @@ I SuperOffice Marketing kan du forbinde dine links med handlinger. Disse handlin
 | Respons | Tilføje landingsside eller standardtekst |
 | Indstille felt | Tilføje en værdi til et ekstra felt for kundekontakter |
 | Interesser | Opdatere interesser |
-| Udtræk/projekt | Tilføje/fjerne person fra et udtræk/projekt |
+| Udtræk/projekt | Tilføje/fjerne person fra et udtræk eller projekt |
 | Opfølgning | Oprette en opfølgning (opgave eller møde) i SuperOffice CRM |
 | Sag | Oprette en ny sag |
 | Script | Køre et script |
@@ -62,13 +62,14 @@ Vælg et felt i rullemenuen **Indstil ekstra felt** og indtast en værdi i felte
 Her kan du angive, at klik på links skal tilføje eller fjerne interesser til eller fra personen. Du kan for eksempel tilføje interessen "Produktnyheder", hvis modtageren klikker på linket "Ja tak! Jeg vil gerne vide mere om nye produkter". Alternativt kan du fjerne interessen "Produktnyheder", hvis brugeren klikker på linket "Afmeld mailingliste" i et nyhedsbrev.
 
 * I rullemenuen **Angiv interesse** kan du vælge en interesse, som skal tilføjes til personerne, hvis de klikker på linket.
+
 * På fanen **Fjern interesse** kan du vælge en interesse, som skal fjernes fra personerne, hvis de klikker på linket.
 
-Se også [Nulstil interesser i SuperOffice CRM][1].
+[Sådan opretter du en tilmeldingsformular til nyhedsbrevet][1]
 
 ## Udtræk/projekt
 
-Her kan du angive, at modtagere, der klikker på linket, vil blive tilføjet til eller fjernet fra udtræk i SuperOffice Service eller udtræk/ projekter i SuperOffice CRM. Indtast de første bogstaver i navnet i feltet for at starte hurtigsøgningen.
+Her kan du angive, at modtagere, der klikker på linket, vil blive tilføjet til eller fjernet fra udtræk eller projekter. Indtast de første bogstaver i navnet i feltet for at starte hurtigsøgningen.
 
 ## Opfølgning (opgave/møde)
 
@@ -84,13 +85,13 @@ I fanen **Opfølgning** kan du angive, at klik på links skal generere opgaver e
 
 5. **Opgave**: Vælg den ønskede type opfølgning.
 
-6. **Oprettet af**: Vælg, hvilken bruger der skal være ansvarlig for opfølgningen, eller klik på knappen **Angiv aktiv bruger**(![ikon][img1]) for at angive dig selv.
+6. **Oprettet af**: Vælg, hvilken bruger der skal være ansvarlig for opfølgningen, eller klik på knappen **Angiv aktiv bruger** ![ikon][img1] for at angive dig selv.
 
 7. **Tildel til vores kontakt, hvis muligt**: Markér her, om opfølgningen skal tildeles "vores kontakt" for modtageren (det vil sige den kundeansvarlige for denne kunde).
 
-8. **Standardmodtager**: Vælg en standardmodtager, der skal tildeles opfølgningen, eller klik på knappen **Angiv aktiv bruger** ![(ikonet)][img1] for at angive dig selv.
+8. **Standardmodtager**: Vælg en standardmodtager, der skal tildeles opfølgningen, eller klik på knappen **Angiv aktiv bruger** ![ikonet][img1] for at angive dig selv.
 
-9. **Varighed**: Klik på knappen **Vælg tidsramme** ![ikonet)][img2] ved siden af dette felt for at angive varigheden af opfølgningen.
+9. **Varighed**: Klik på knappen **Vælg tidsramme** ![ikonet][img2] ved siden af dette felt for at angive varigheden af opfølgningen.
 
 ## Sag
 
@@ -130,7 +131,7 @@ De oplysninger, du har indsamlet i forbindelse med mailudsendelsen, kan du bruge
 * Oprette service-sager, som kundeservice kan tage sig af og undersøge sagen.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md#clear-interests
+[1]: ../../forms/learn/examples.md#newsletter-sign-up
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png

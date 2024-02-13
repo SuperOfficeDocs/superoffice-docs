@@ -2,16 +2,19 @@
 uid: help-da-mailing-add-unsubscribe-link
 title: Tilføje et afmeldingslink
 description: "Når du sender en mail ud, er det nødvendigt at give modtagerne mulighed for at afmelde sig. Få mere at vide om, hvordan du kan føje et afmeldingslink til din udsendelse, i denne vejledning."
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: marketing
+author: SuperOffice RnD
+so.date: 02.09.2024
+so.version: 10
 so.topic: howto
 language: da
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Tilføje abonnement-links
 
-Når du for eksempel udsender et nyhedsbrev, skal du give modtagerne mulighed for at framelde sig eller ændre indstillingerne for deres abonnement. Det kan gøres ved at tilføje et link, som modtagerne kan klikke på. Denne type links anbringes normalt i bunden af en meddelelse (i sidefoden).
+Når du for eksempel udsender et nyhedsbrev, skal du give modtagerne mulighed for at framelde sig eller ændre [indstillingerne for deres abonnement][1]. Det kan gøres ved at tilføje et link, som modtagerne kan klikke på. Denne type links anbringes normalt i bunden af en meddelelse (i sidefoden).
 
 Afmeldingslinket placeres normalt i bunden af en meddelelse. Hvis du bruger en af vores mailskabeloner, er linket allerede tilføjet.
 
@@ -44,16 +47,10 @@ Baseret på feedback fra modtagerne opdateres abonnementsindstillingerne på fan
 >
 > Du har dog mulighed for at tilsidesætte indstillingerne "intet samtykke / intet abonnement" fra **Indstillinger** i den nederste del af skærmen **Modtagere** (se trin 4: Modtagere).
 
-## <a id="clear-interests" />Nulstille interesser i SuperOffice CRM
-
-I SuperOffice CRM kan du registrere interesser (f.eks. "månedligt nyhedsbrev") for dine kontakter. Disse interesser kan bruges som grundlag for forskellige typer af udsendelser. I stedet for at bruge afmelding kan du nemt fjerne en bestemt interesse, f.eks. et månedligt nyhedsbrev, fra de kunder, der ikke ønsker at modtage det.
-
-Det gør du ved at [oprette et link, der fjerner den relevante interesse][4] hos de modtagere, der klikker på linket. Den samme metode kan bruges til at registrere interesser.
-
 <!-- Referenced links -->
-[2]: ../../../tracked-links/learn/examples.md
-[4]: ../../../tracked-links/learn/define-link-actions.md#interests
+[2]: ../../tracked-links/learn/examples.md
+[1]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../media/icons/marketing-and-forms/link.png
-[img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png
+[img3]: ../../../../media/icons/marketing-and-forms/link.png
+[img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

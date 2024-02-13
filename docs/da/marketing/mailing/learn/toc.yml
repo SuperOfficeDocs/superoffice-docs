@@ -14,26 +14,11 @@ items:
     href: create/tutorial-document-mailing.yml
   - name: Ny udsendelse - formularsvar
     href: create/tutorial-form-mailing.yml
-  - name: Tilføj afmeldingslink (GDPR)
-    href: create/add-unsubscribe-link.md
   - name: Send test-e-mail
     href: create/send-test-email.md
-  - name: Vedligehold abonnementer
-    href: manage-email-subscriptions.md
-  - name: Målliste
-    href: create/target-list.md
-- name: Opfølgning på mailudsendelser
-  topicHref: follow-up/index.md
-  items:
-  - name: Oversigt
-    href: follow-up/index.md
-  - name: Vis statistik
-    href: follow-up/view-statistics.md
-  - name: Liste over modtagere
-    href: follow-up/look-at-recipient-list.md
-  - name: Vedligehold returposter
-    href: follow-up/manage-bounces.md
-  - name: Udsend e-mail igen
-    href: follow-up/resend.md
+- name: Vis statistik
+  href: view-statistics.md
+- name: Udsend e-mail igen
+  href: resend.md
 - name: Indstillinger for udsendelser
-  href: admin/define-settings-for-mailings.md
+  href: ../admin/define-settings-for-mailings.md

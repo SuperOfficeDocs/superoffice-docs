@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: da
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # At arbejde med meddelelsesskabeloner
@@ -39,7 +39,7 @@ Du kan finde flere beskedskabeloner under fanen Alle skabeloner, hvis du gerne v
 
 ## Brug skabeloner fra online-skabelonbiblioteket
 
-Online-skabelonbiblioteket i SuperOffice Marketing indeholder et bredt udvalg af professionelt designede meddelelsesskabeloner. Til gratis afbenyttelse!
+Dette bibliotek tilbyder et bredt udvalg af professionelt designede meddelelsesskabeloner, alle tilgængelige til brug uden omkostninger.
 
 1. Vælg fanen **Meddelelsesskabeloner**.
 2. Klik på **Onlineskabelonbibliotek**.
@@ -71,7 +71,7 @@ Ud over de skabeloner, der er oprettet af dig og dine kolleger, har du også adg
 
 * Tilføj dine kontaktoplysninger, f.eks. virksomhedens adresse, mailadresse, websted og telefonnummer.
 
-* Indsæt et afmeldingslink. I henhold til den nye forordning om databeskyttelse og privatlivets fred (GDPR) skal du indsætte et tydeligt afmeldingslink, så du gør det nemt for modtagerne at fravælge dine udsendelser.
+* [Indsæt et afmeldingslink][6]. I henhold til den nye forordning om databeskyttelse og privatlivets fred (GDPR) skal du indsætte et tydeligt afmeldingslink, så du gør det nemt for modtagerne at fravælge dine udsendelser.
 
 * Indsæt [flettetags][3] (også kaldet skabelonvariabler). Du kan bruge hver enkelt modtagers data for at personliggøre din besked. Det vil hjælpe med at øge din åbnings- og klikfrekvens. Du kan f.eks. adressere din læser ved at bruge vedkommendes fornavn, fulde navn eller navnet på den virksomhed, hvor vedkommende arbejder. SuperOffice CRM indeholder en række flettetags, du kan bruge til at personliggøre dine udsendelser.
 
@@ -131,6 +131,7 @@ Ud over de skabeloner, der er oprettet af dig og dine kolleger, har du også adg
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
 [5]: ../editor/learn/index.md#old
+[6]: ../recipients/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
