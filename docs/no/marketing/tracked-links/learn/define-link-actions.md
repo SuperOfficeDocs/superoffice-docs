@@ -26,8 +26,7 @@ I SuperOffice Marketing kan du legge til handlinger i koblingene. Disse handling
 | Respons | Legg til landingsside eller tilpasset tekst. |
 | Angi felt | Legg til en verdi i et ekstra felt for kundekontakter |
 | Interesser | Oppdater interesser. |
-| Utvalg/prosjekt
- | Legg til/fjern kundekontakt fra et utvalg/prosjekt. |
+| Utvalg/prosjekt | Legg til/fjern kundekontakt fra et utvalg eller prosjekt. |
 | Oppfølging | Opprett en oppfølging (oppgave eller møte) i SuperOffice CRM. |
 | Sak | Opprett ny sak. |
 | Skript | Kjør et skript. |
@@ -42,13 +41,13 @@ I SuperOffice Marketing kan du legge til handlinger i koblingene. Disse handling
 
 Avhengig av målet og den CTA du bruker i utsendelsen, kan du oppdatere informasjonen i databasen. Når en person klikker på koblingen i utsendelsen, gjør SuperOffice CRM ett av følgende:
 
-* Gi et tilpasset svar eller omdirigere til webside,
-* Legge til en person i et bestemt prosjekt eller utvalg,
-* Oppdatere interessen til en person,
-* Legge til informasjon i et felt på personkortet,
-* Opprette en oppfølgingsaktivitet for en person,
-* Opprette en kundeservice-sak for en person,
-* Kjøre et skript.
+* Gi et tilpasset svar eller omdirigere til webside
+* Legge til en person i et bestemt prosjekt eller utvalg
+* Oppdatere interessen til en person
+* Legge til informasjon i et felt på personkortet
+* Opprette en oppfølgingsaktivitet for en person
+* Opprette en kundeservice-sak for en person
+* Kjøre et skript
 
 Noe av denne informasjonen vil hjelpe deg med å segmentere databasen enda bedre, mens annen informasjon vil hjelpe deg med å følge opp personer som har vist interesse for meldingen.
 
@@ -63,13 +62,14 @@ Velg et felt i listeboksen **Angi ekstrafelt**, og fyll ut med en verdi i feltet
 Her kan du spesifisere at klikk på en kobling skal legge til eller fjerne interesser for personen. Du kan for eksempel legge til interessen "Produktnyheter" hvis mottakeren klikker på koblingen "Ja takk! Jeg vil vite mer om nye produkter". Alternativt kan du fjerne interessen "Produktnyheter" hvis brukeren klikker på koblingen "Stopp abonnement" i et nyhetsbrev.
 
 * I listeboksen **Angi interesse** kan du velge en interesse som skal legges til på personene hvis de klikker på koblingen.
+
 * I listeboksen **Fjern interesse** kan du velge en interesse som skal fjernes på personene hvis de klikker på koblingen.
 
-Se også [Fjerne interesser i SuperOffice CRM][1].
+[Hvordan lage et påmeldingsskjema for nyhetsbrev][1]
 
 ## Utvalg/prosjekt
 
-Her kan du angi at mottakere som klikker på koblingen, skal legges til eller fjernes fra utvalg i SuperOffice Service eller fra utvalg eller prosjekter i SuperOffice CRM. Skriv inn begynnelsen av et navn for å starte hurtigsøket.
+Her kan du angi at mottakere som klikker på koblingen, skal legges til eller fjernes fra utvalg eller prosjekter. Skriv inn begynnelsen av et navn for å starte hurtigsøket.
 
 ## Oppfølging (oppgave/møte)
 
@@ -131,7 +131,7 @@ Du kan bruke informasjonen du har samlet inn i denne utsendelsen, på flere måt
 * Generer service-saker slik at kundeserviceteamet ditt kan fange dem opp og undersøke saken.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md#clear-interests
+[1]: ../../forms/learn/examples.md#newsletter-sign-up
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png

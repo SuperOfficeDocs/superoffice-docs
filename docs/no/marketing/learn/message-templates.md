@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: no
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Arbeide med meldingsmaler
@@ -39,7 +39,7 @@ Du finner flere meldingsmaler i fanen Alle maler, hvis du foretrekker et mer "re
 
 ## Bruke maler fra det elektroniske malbiblioteket
 
-Det elektroniske malbiblioteket i SuperOffice Marketing inneholder et bredt utvalg av profesjonelt utformede meldingsmaler. Til gratis bruk!
+Dette biblioteket tilbyr et bredt utvalg av profesjonelt designede meldingsmaler, alle tilgjengelige for bruk uten kostnad.
 
 1. Velg fanen **Meldingsmaler**.
 2. Klikk på **Elektronisk malbibliotek**.
@@ -71,7 +71,7 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 
 * Legg til kontaktinformasjon, for eksempel firmaets adresse, e-postadresse, webside og telefonnummer.
 
-* Legg til koblingen for avmelding. I henhold til den nye personvernforordningen (GDPR) må du legge til en godt synlig kobling for avmelding og gjøre det enkelt for mottakerne å velge bort utsendelsene dine.
+* [Legg til koblingen for avmelding][6]. I henhold til den nye personvernforordningen (GDPR) må du legge til en godt synlig kobling for avmelding og gjøre det enkelt for mottakerne å velge bort utsendelsene dine.
 
 * Legg til [flettefelt][3] (også kalt malvariabler). Du kan inkludere dataene til hver mottaker for å tilpasse meldingen. Det vil hjelpe deg å øke åpnings- og klikkfrekvensen. Du kan for eksempel titulere leseren din med fornavn eller fullt navn, eller navnet på selskapet de jobber i. SuperOffice CRM tilbyr en rekke flettefelt du kan bruke til å tilpasse utsendelsene.
 
@@ -131,6 +131,7 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
 [5]: ../editor/learn/index.md#old
+[6]: ../recipients/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

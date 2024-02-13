@@ -2,16 +2,19 @@
 uid: help-no-mailing-add-unsubscribe-link
 title: Legge til kobling for avmelding
 description: "Når du sender en utsendelse, kreves det at du gir mottakerne mulighet til å avslutte abonnementet. Her lærer du hvordan du kan legge til en kobling for avmelding i utsendelsen din."
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: markedsføring
+author: SuperOffice RnD
+so.date: 02.09.2024
+so.version: 10
 so.topic: howto
 language: no
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Legge til påmeldingskoblinger
 
-Når du for eksempel sender ut et nyhetsbrev, må du gi mottakerne muligheten til å melde seg av eller til å endre sine abonnementsinnstillinger. Det gjør du ved å sette inn en kobling som mottakerne kan klikke på. Slike koblinger plasseres vanligvis nederst i en melding (i bunnteksten).
+Når du for eksempel sender ut et nyhetsbrev, må du gi mottakerne muligheten til å melde seg av eller til å endre sine [abonnementsinnstillinger][1]. Det gjør du ved å sette inn en kobling som mottakerne kan klikke på. Slike koblinger plasseres vanligvis nederst i en melding (i bunnteksten).
 
 Avmeldingskoblingen plasseres vanligvis nederst i en melding. Hvis du bruker en av e-postmalene våre, er denne koblingen allerede lagt til.
 
@@ -44,16 +47,10 @@ Basert på tilbakemelding fra mottakerne, oppdateres abonnementsinnstillingene i
 >
 > Du har imidlertid mulighet til å overstyre innstillingene "ikke samtykke/ikke abonnement" fra **Alternativer** i den nedre delen av skjermen **Mottakere** (se Trinn 4: Mottakere).
 
-## <a id="clear-interests" />Fjerne interesser i SuperOffice CRM
-
-I SuperOffice CRM kan du registrere interesser (for eksempel "Månedlig nyhetsbrev") på personene. Disse interessene kan brukes som utgangspunkt for ulike typer utsendelser. I stedet for å bruke avmelding kan du enkelt fjerne en bestemt interesse, for eksempel et månedlig nyhetsbrev, hos kunder som ikke ønsker å motta det.
-
-Det gjør du ved å [lage en kobling som fjerner den aktuelle interessen][4] hos mottakere som klikker på koblingen. Samme metode kan brukes til å registrere interesser.
-
 <!-- Referenced links -->
-[2]: ../../../tracked-links/learn/examples.md
-[4]: ../../../tracked-links/learn/define-link-actions.md#interests
+[2]: ../../tracked-links/learn/examples.md
+[1]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../media/icons/marketing-and-forms/link.png
-[img4]: ../../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png
+[img3]: ../../../../media/icons/marketing-and-forms/link.png
+[img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

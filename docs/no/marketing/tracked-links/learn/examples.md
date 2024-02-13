@@ -20,7 +20,7 @@ Sporbare koblinger kan brukes på flere nyttige måter:
 
 * **Respons**: Hver mottaker som klikker på en kobling, for eksempel til en ny produktside, registreres i systemet. På denne måten ser du hvor stor interessen er blant alle mottakerne på tvers av flere utsendelser.
 
-* **Prospektliste**: Hvis du skal lansere et nytt produkt, kan mottakerne melde sin interesse for produktet ved å klikke på koblingen "Jeg vil gjerne ha et tilbud". De som klikker på koblingen, kan bli lagt til i et statisk utvalg i SuperOffice CRM, som selgerne kan bruke til å behandle videre kontakt med kundene.
+* **Prospektliste**: Hvis du skal lansere et nytt produkt, kan mottakerne melde sin interesse for produktet ved å klikke på koblingen "Jeg vil gjerne ha et tilbud". De som klikker på koblingen, kan bli lagt til i et [statisk utvalg][3] i SuperOffice CRM, som selgerne kan bruke til å behandle videre kontakt med kundene.
 
 * **Oppfølging for selgere i SuperOffice CRM**: Et alternativ til prospektlisten i eksempelet ovenfor er å generere en oppgave eller møte for selgere/kundekontakter for hvert koblingsklikk. Et klikk på koblingen "Kontakt meg" kan for eksempel generere en oppfølging i SuperOffice CRM av typen "Telefon ut" for personen hos den aktuelle kunden. I tillegg kan oppfølgingen knyttes til et aktuelt prosjekt i SuperOffice CRM, for eksempel en markedsføringskampanje.
 
@@ -38,6 +38,7 @@ Sporbare koblinger kan brukes på flere nyttige måter:
 * **Individuell oppfølging**: Dere har akkurat sluppet en stor oppdatering til produktet deres. Ikke alle kunder har en egen IT-avdeling som kan håndtere oppdateringen, så du legger til en kobling som kunden kan klikke på for å bestille en konsulent. Da registreres det en ny sak i SuperOffice Service for hver kunde som klikker på koblingen. Saken får kategorien "Konsulent", og sjefen for konsulentavdelingen settes som eier. I tillegg får kunden tilbakemelding om at de vil bli kontaktet av en konsulent.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md
+[1]: ../../recipients/learn/add-unsubscribe-link.md
+[3]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->

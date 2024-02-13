@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: no
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Redigere innhold
@@ -79,7 +79,7 @@ Klikk på **Neste** hvis du er ferdig med å redigere.
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../../mailing/learn/create/add-unsubscribe-link.md
+[7]: ../../recipients/learn/add-unsubscribe-link.md
 [8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
 
 <!-- Referenced images -->

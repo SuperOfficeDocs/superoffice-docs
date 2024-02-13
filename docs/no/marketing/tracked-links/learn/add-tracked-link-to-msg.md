@@ -19,9 +19,9 @@ Ved å sette opp koblinger som leder leserne til forskjellig innhold på webside
 
 Du kan også **legge til spesielle koblinger** til utsendelsen din. Da velger du rullegardinmenyen Spesielle koblinger. Avhengig av hva du ønsker å oppnå, kan du velge mellom:
 
-* Kobling for å vise meldingen på nettet
-* Administrere abonnementer
-* Avmelding
+* [Kobling for å vise meldingen på nettet][1]
+* [Administrere abonnementer][4]
+* [Avmelding][4]
 * Sporede koblinger
 
 ## Trinn
@@ -47,13 +47,11 @@ Du kan også legge til vanlige (ikke-sporede) koblinger ved å klikke på koblin
 
 * [Opprette sporede koblinger][5]
 * [Definere koblingshandlinger][6]
-* [Legge til påmeldingskoblinger][4]
-* [Legge til en kobling for å vise meldingen i en nettleser][1]
 
 <!-- Referenced links -->
 [1]: ../../editor/learn/add-link-to-display-message-in-browser.md
 [2]: ../../editor/learn/edit-paragraph.md
-[4]: ../../mailing/learn/create/add-unsubscribe-link.md
+[4]: ../../recipients/learn/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md
 

@@ -2,24 +2,27 @@
 uid: help-no-mailing-manage-subscriptions
 title: Administrere e-postabonnementer
 description: Med funksjonene for abonnementshåndtering i SuperOffice CRM kan du dokumentere hva slags innhold personene dine ønsker å motta fra deg.
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: markedsføring
-so.topic: howto
+author: Bergfrid Dias
+so.date: 02.09.2024
+so.version: 10
+so.topic: concept
 language: no
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Administrere e-postabonnementer
 
-Med funksjonene for abonnementshåndtering i SuperOffice CRM kan du dokumentere hva slags innhold personene dine ønsker å motta fra deg.
+SuperOffice CRMs funksjonre for abonnementshåndteringr gir kontaktene dine muligheten til å spesifisere innholdet de ønsker å motta. Dette er knyttet til Samtykkehåndtering, da noen jurisdiksjoner krever dokumentert samtykke før e-markedsføringsmeldinger kan sendes.
 
-Disse funksjonene er knyttet til **Samtykkehåndtering** fordi du i noen land må dokumentere en persons samtykke før du kan sende dem markedsføringsutsendelser på e-post.
+Disse funksjonene forhindrer sending av e-markedsføringsmeldinger til de som ikke har samtykket, og sikrer at kontaktene dine beholder kontrollen over e-postsabonnementene sine. Fra det øyeblikket de legges til i SuperOffice-databasen din, kan kontaktene spesifisere sine e-postpreferanser. De kan også justere disse preferansene via avmeldingslenken i hver e-post.
 
-Funksjonene for **Abonnementshåndtering** hjelper deg med å unngå å sende e-markedsføringsmeldinger til noen som ikke har gitt samtykke.
+Ved å gi kundene muligheten til å administrere abonnementene sine, kan du øke åpningsfrekvensen for e-postene dine og øke markedsføringssuksessen din.
 
-Denne funksjonaliteten sikrer at alle personene i CRM-databasen har kontroll over e-postabonnementene sine til enhver tid. Fra det øyeblikket du legger dem til i SuperOffice-databasen, kan de fortelle deg hvilke utsendelser de ønsker å motta. Hver gang personene dine mottar utsendelsene fra deg, kan de endre abonnementsinnstillingene sine ved å bruke avmeldingskoblingen i e-posten.
+## Interesser i SuperOffice CRM
 
-Det faktum at kundene dine kan administrere sine egne abonnementer, vil påvirke åpningsratene for utsendelsene dine positivt og øke den generelle suksessen til markedsføringsinnsatsen.
+Du kan registrere interesser (for eksempel "Månedlig nyhetsbrev") på personene. I stedet for å bruke avmelding kan du enkelt ved å lage en [kobling som fjerner den aktuelle interessen][5] hos  kunder som ikke ønsker å motta det. Samme metode kan brukes til å registrere interesser.
 
 ## Mållisten din
 
@@ -29,9 +32,7 @@ Når du [oppretter mållisten][1] for neste utsendelse, kan du gjøre et valg ba
 
 Det er flere måter å opprette mållisten på ved hjelp av et utvalg. Det betyr at du kanskje ikke alltid bruker en abonnementstype som utvalgskriterium. Når du gjør dette, er det lett å miste det faktum av syne at du har lagt folk som sa "nei" til å motta utsendelser, til mållisten din.
 
-For å hindre at du sender utsendelser til personer som ikke ønsker å motta dem, kan SuperOffice CRM hjelpe deg ved å filtrere bort personer som ikke har gitt deg samtykke.
-
-Når du oppretter en ny utsendelse, vil veiviseren for utsendelser be deg om å legge til abonnementstypen du ønsker å sende i Trinn 1: Oppsett.
+For å hindre at du sender utsendelser til personer som ikke ønsker å motta dem, vil veiviseren for utsendelser be deg om å legge til abonnementstypen du ønsker å sende i Trinn 1: Oppsett.
 
 ![Velg hvilken type utsendelse du sender ut i oppsettstrinnet. -screenshot][img1]
 
@@ -58,7 +59,7 @@ Du får vite med ved å se på videoen om hvordan du konfigurerer personverninns
 Noen ganger ombestemmer folk seg når det gjelder hvilke e-postmeldinger de ønsker å motta. Når dette skjer, bør de ha muligheten til å velge bort den typen utsendelse du har sendt dem. Derfor leveres alle SuperOffice CRM-e-postmaler med en avmeldingskobling.
 
 > [!TIP]
-> Hvis du vil sende e-postmeldingen for Administrere abonnement til en person, kan du se Sende e-post om personvern.
+> Hvis du vil sende e-postmeldingen for Administrere abonnement til en person, kan du se [Sende e-post om personvern][3].
 
 Ved å klikke på denne koblingen kommer mottakerne til siden for abonnementsinnstillinger, der de kan velge hvilken type utsendelser de vil motta. Endringene personene dine gjør, lagres så snart de bekrefter de nye innstillingene.
 
@@ -71,14 +72,14 @@ Med SuperOffice CRM respekterer du personenes kommunikasjonspreferanser og sikre
 ## Relatert
 
 * [GDPR og personvern][2]
-* [Send e-post om personvern][3]
 * [Personvernerklæring for SuperOffice][4]
 
 <!-- Referenced links -->
-[1]: create/target-list.md
+[1]: index.md
 [2]: ../../../security/privacy/learn/index.md
 [3]: ../../../security/privacy/learn/send-privacy-confirmation-email.md
 [4]: https://www.superoffice.com/company/privacy/
+[5]: ../../tracked-links/learn/define-link-actions.md#interests
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/setup-type-drop-down.png

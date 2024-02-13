@@ -23,7 +23,7 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
 
   * **Vis kobling for personvernerklæring**: Velg dette alternativet for å inkludere koblingen til personvernerklæringen,[!include[SM](../../../learn/includes/as-defined-sm.md)]
 
-* **Person – abonnement**: Velg abonnementene som skal være synlige i skjemaet.
+* **Person – abonnement**: Velg [abonnementene][3] som skal være synlige i skjemaet.
 
 * **Firmanavn : Bruk eksisterende firma hvis funnet**.
 
@@ -83,6 +83,7 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
 <!-- Referenced links -->
 [1]: ../../../../en/marketing/forms/recaptcha.md
 [2]: create.md#multi-page
+[3]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png

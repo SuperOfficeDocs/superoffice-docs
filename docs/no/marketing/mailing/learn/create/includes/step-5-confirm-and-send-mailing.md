@@ -32,7 +32,7 @@ Du kan klikke på utsendelsen i listen for å [vise sendestatus og statistikk][1
 Hvis du vil stoppe utsendelsen eller starte en planlagt utsendelse før planen, klikker du på henholdsvis **Stopp**- eller **Start**-knappen.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png

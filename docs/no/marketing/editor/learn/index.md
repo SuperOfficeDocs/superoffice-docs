@@ -9,7 +9,7 @@ so.version: 10
 so.topic: concept
 language: no
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Dra og slipp editor

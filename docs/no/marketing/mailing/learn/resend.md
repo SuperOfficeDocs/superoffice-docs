@@ -11,7 +11,7 @@ language: no
 
 # Sende utsendelsen på nytt
 
-Hvis du etter å ha sett på resultatene av utsendelsen oppdager at mange av e-postadressene har blitt returnert, betyr det at disse personene ikke har mottatt utsendelsen din. Etter at du har håndtert de returnerte e-postene, er det lurt å sende utsendelsen på nytt.
+Hvis du etter å ha sett på resultatene av utsendelsen oppdager at mange av e-postadressene har blitt [returnert][1], betyr det at disse personene ikke har mottatt utsendelsen din. Etter at du har håndtert de returnerte e-postene, er det lurt å sende utsendelsen på nytt.
 
 Det er to måter du kan sende utsendelsen på nytt på.
 
@@ -46,5 +46,8 @@ SuperOffice Marketing vil nå sende utsendelsen din til alle de valgte mottakern
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[1]: ../../recipients/learn/manage-bounces.md
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/marketing/reload-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png

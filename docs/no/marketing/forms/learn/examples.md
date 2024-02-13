@@ -116,7 +116,7 @@ Dette skjemaet lar kundene melde seg på ett eller flere av dine nyhetsbrev. Reg
 
     * **Legg til interesse for person**: Velg interessen som heter **Nyhetsbrev**. Denne interessen blir lagt til personer som sender dette skjemaet.
 
-    * **E-postsvar**: Velg et skjemasvar som du vil sende til personer når skjemaet deres behandles. Denne e-posten kan for eksempel informere kunden om firmaets personvernpolicy og kan også inneholde en kobling for å administrere abonnementer. [Hvordan oppretter jeg et skjemasvar?][2].
+    * **E-postsvar**: Velg eller [lag et skjemasvar][2] som du vil sende til personer når skjemaet deres behandles. Denne e-posten kan for eksempel informere kunden om firmaets personvernpolicy og kan også inneholde en kobling for å [administrere abonnementer][6].
 
 1. Klikk på **Lagre**. Skjemaet lagres og vinduet **Rediger skjema** lukkes.
 
@@ -201,6 +201,7 @@ I dette eksempelet vil vi vise deg hvordan du oppretter kortform for kunder som 
 [3]: submissions/index.md
 [4]: submissions/track.md
 [5]: submissions/process.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/add-field.png
