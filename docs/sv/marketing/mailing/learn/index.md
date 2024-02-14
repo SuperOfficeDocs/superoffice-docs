@@ -70,7 +70,7 @@ När ditt utskick är skickat är det alltid spännande att se hur bra det har p
 
 * [Visa statistik][2] för utskicket och få information om eventuella problem som uppstod.
 * [Lägg till mottagare i urval och projekt][12] för vidare behandling.
-* [Kontrollera och e korrigera e-postadresserna för de meddelanden som inte har kunnat levereras][12].
+* [Kontrollera och e korrigera e-postadresserna för de meddelanden som inte har kunnat levereras][11].
 * Se [vem som har klickat på de spårbara länkar][14] som du har lagt in i meddelandet.
 * Hantera e-postadresser som returnerades på grund av permanenta fel eller [som returnerades][13] flera gånger.
 
@@ -81,7 +81,8 @@ När ditt utskick är skickat är det alltid spännande att se hur bra det har p
 [4]: ../../forms/learn/create.md
 [6]: ../../recipients/learn/add-unsubscribe-link.md
 [8]: ../../recipients/learn/index.md
-[12]: ../../recipients/learn/look-at-recipient-list.md
+[11]: ../../recipients/learn/look-at-recipient-list.md
+[12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [13]: ../../recipients/learn/manage-bounces.md
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md

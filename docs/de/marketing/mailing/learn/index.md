@@ -70,7 +70,7 @@ Nach dem Versand Ihrer Kampagne ist es immer wieder spannend zu sehen, wie gut I
 
 * Sie können über Kampagnen [Statistiken anzeigen][2] und Informationen über alle aufgetretenen Probleme einholen.
 * Für die weitere Verarbeitung [Empfänger zu Selektionen und Projekten hinzufügen][12].
-* [Adressen von nicht zugestellter Kampagnen überprüfen und korrigieren][12].
+* [Adressen von nicht zugestellter Kampagnen überprüfen und korrigieren][11].
 * Sehen, [wer auf die überwachbaren Links geklickt hat][14], die Sie in der Mitteilung eingefügt haben.
 * E-Mail-Adressen verwalten, die aufgrund permanenter Fehler zurückgesendet wurden oder mehrmals [nicht zustellbar][13] waren.
 
@@ -81,7 +81,8 @@ Nach dem Versand Ihrer Kampagne ist es immer wieder spannend zu sehen, wie gut I
 [4]: ../../forms/learn/create.md
 [6]: ../../recipients/learn/add-unsubscribe-link.md
 [8]: ../../recipients/learn/index.md
-[12]: ../../recipients/learn/look-at-recipient-list.md
+[11]: ../../recipients/learn/look-at-recipient-list.md
+[12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [13]: ../../recipients/learn/manage-bounces.md
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md

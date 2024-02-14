@@ -70,7 +70,7 @@ Etter at utsendelsen er sendt, er det alltid spennende å se hvor godt den har g
 
 * [Vise statistikk][2] for utsendelsen og få informasjon om eventuelle problemer som har oppstått.
 * [Legge til mottakere i utvalg og prosjekter][12] for videre behandling.
-* [Kontrollere og korrigere e-postadresser som har forårsaket returer][12].
+* [Kontrollere og korrigere e-postadresser som har forårsaket returer][11].
 * Se [hvem som har klikket på de sporbare koblingene][14] du satte inn i meldingen.
 * Administrere e-postadresser som ble returnert på grunn av permanente feil, eller som har blitt [returnert][13] flere ganger.
 
@@ -81,7 +81,8 @@ Etter at utsendelsen er sendt, er det alltid spennende å se hvor godt den har g
 [4]: ../../forms/learn/create.md
 [6]: ../../recipients/learn/add-unsubscribe-link.md
 [8]: ../../recipients/learn/index.md
-[12]: ../../recipients/learn/look-at-recipient-list.md
+[11]: ../../recipients/learn/look-at-recipient-list.md
+[12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [13]: ../../recipients/learn/manage-bounces.md
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md

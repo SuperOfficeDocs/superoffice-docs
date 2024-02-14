@@ -177,7 +177,7 @@ I det här exemplet visar vi hur du skapar korta formulär för kunder som vill 
 
     * Välj **Manuellt om avsändaren är okänd. Automatiskt om avsändaren är känd**: Om e-postadressen som skickas i formuläret matchar en e-postadress i SuperOffice behandlas formulärinlämningen automatiskt. Annars måste den bearbetas manuellt.
 
-    * **E-postsvar**: Välj ett formulärsvar som du vill skicka till kontakter när deras formulär behandlas. Detta e-postmeddelande kan till exempel informera kunden om ditt företags integritetspolicy och kan även innehålla en länk för att hantera prenumerationer. [Så här skapar du ett formulärsvar][2].
+    * **E-postsvar**: Välj eller [skapa ett formulärsvar][2] som du vill skicka till kontakter när deras formulär behandlas. Detta e-postmeddelande kan till exempel informera kunden om ditt företags integritetspolicy och kan även innehålla en länk för att [hantera prenumerationer][6].
 
 1. Klicka på **Spara**. Formuläret sparas och fönstret **Redigera formulär** stängs.
 

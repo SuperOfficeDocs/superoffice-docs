@@ -177,7 +177,7 @@ In dit voorbeeld laten we zien hoe u een kort formulier kunt maken voor klanten 
 
     * Selecteer **Handmatig als indiener onbekend is. Automatisch als indiener bekend is**: Als het e-mailadres dat is verzonden in het formulier, overeenkomt met een e-mailadres in SuperOffice, wordt de formulierverzending automatisch verwerkt. Anders wordt deze handmatig verwerkt.
 
-    * **E-mailantwoord**: Selecteer een formulierantwoord om te verzenden naar personen wanneer hun formulier is verwerkt. Deze e-mail kan de klant bijvoorbeeld informeren over het privacybeleid van uw bedrijf en kan ook een koppeling bevatten om abonnementen te beheren. [Een formulierantwoord maken][2].
+    * **E-mailantwoord**: Selecteer of [mak een formulierantwoord][2] om te verzenden naar personen wanneer hun formulier is verwerkt. Deze e-mail kan de klant bijvoorbeeld informeren over het privacybeleid van uw bedrijf en kan ook een koppeling bevatten om [abonnementen te beheren][6].
 
 1. Klik op **Opslaan**. Het formulier wordt opgeslagen en het scherm **Formulier bewerken** wordt gesloten.
 

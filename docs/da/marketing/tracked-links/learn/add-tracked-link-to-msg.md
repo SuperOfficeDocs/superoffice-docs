@@ -20,7 +20,7 @@ Ved at oprette links, der leder læserne til forskelligt indhold på dit websted
 Du kan også **tilføje særlige links** til din mailudsendelse. For at gøre det skal du vælge rullemenuen Særlige links. Afhængigt af hvad du vil opnå, kan du vælge mellem:
 
 * [Link til visning af meddelelse online][1]
-* [Administrér abonnementer][4]
+* [Administrér abonnementer][3]
 * [Afmelde][4]
 * Sporede links
 
@@ -51,6 +51,7 @@ Du kan også tilføje almindelige (ikke-sporede) links ved at klikke på linkkna
 <!-- Referenced links -->
 [1]: ../../editor/learn/add-link-to-display-message-in-browser.md
 [2]: ../../editor/learn/edit-paragraph.md
+[3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../recipients/learn/add-unsubscribe-link.md
 [5]: create-links.md
 [6]: define-link-actions.md

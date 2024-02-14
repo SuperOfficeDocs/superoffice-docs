@@ -36,14 +36,14 @@ Nadat de mailing is verzonden, verzamelt SuperOffice Marketing gegevens over de 
 
 5. Klik op de menuknop ![pictogram][img2]. U hebt hier de volgende opties:
     * De geselecteerde ontvangers naar een Excel-, HTML- of tekstbestand exporteren.
-    * [De geselecteerde ontvangers toevoegen aan een nieuw(e) of bestaand(e) selectie of project](#add-recipients-to-selections-or-projects).
+    * [De geselecteerde ontvangers toevoegen aan een nieuw(e) of bestaand(e) selectie of project](#add-recipients).
     * de mailing opnieuw verzenden naar de geselecteerde ontvangers.
 
 6. Klik op **Sluiten** om het scherm **Mailing weergeven** te sluiten.
 
 Als de status **Gereed voor verzending** is, hoeft u niets te doen. SuperOffice verzendt uw mailing naar de ontvangers. De status wordt gewijzigd in **Verzonden** nadat dit is voltooid.
 
-## ## <a id="filters" />Filters
+## <a id="filters" />Filters
 
 * **Verzonden**: Activeer dit filter om alle ontvangers weer te geven aan wie de mailing is gestuurd.
 
@@ -64,7 +64,7 @@ Als de status **Gereed voor verzending** is, hoeft u niets te doen. SuperOffice 
 Als de status **Gereed voor verzending** is, hoeft u niets te doen. SuperOffice verzendt uw mailing naar de ontvangers. De status wordt gewijzigd in **Verzonden** nadat dit is gebeurd.
 
 <!-- markdownlint-disable-file MD013 -->
-## <a id="add-recipients-to-selections-or-projects" />Ontvangers toevoegen aan selecties of projecten
+## <a id="add-recipients" />Ontvangers toevoegen aan selecties of projecten
 
 Met de ![pictogram][img2] menuknop kunt u ontvangers en klikkers toevoegen aan een selectie of project.
 

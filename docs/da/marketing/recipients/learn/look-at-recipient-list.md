@@ -36,7 +36,7 @@ SuperOffice Marketing indsamler data om status for hver enkelt afsendt e-mail. I
 
 5. Klik på ![ikonet][img2] for menuknap. Her har du følgende alternativer:
     * Eksportér de valgte modtagere eksport til en Excel-, HTML- eller tekstfil.
-    * Tilføj de valgte modtagere til et nyt eller eksisterende udvalg eller projekt.
+    * [Tilføj de valgte modtagere til et nyt eller eksisterende udvalg eller projekt.](#add-recipients)
     * Send igen udsendelsen til de valgte modtagere.
 
 6. Klik på **Luk** for at lukke skærmbilledet **Vis udsendelse** .
@@ -64,7 +64,7 @@ Hvis status er **Klar til at blive sendt**, behøver du ikke gøre noget. SuperO
 Hvis status er **Klar til afsendelse**, behøver du ikke gøre noget. SuperOffice sender din e-mail til modtagerne. Status ændres til **Sendt**, når det er gjort.
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="add-recipients-to-selections-or-projects" />Tilføj modtagere til udvalg eller projekter
+## <a id="add-recipients" />Tilføj modtagere til udvalg eller projekter
 
 Ved at bruge ![ikonet][img2] menuknappen kan du tilføje modtagere og klikkere til et udvalg eller projekt.
 

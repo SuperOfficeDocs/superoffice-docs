@@ -70,7 +70,7 @@ After your mailing is sent, it is always exciting to see how well your mailing h
 
 * [View the statistics][2] of the mailing and get information about any problems that occurred.
 * [Add recipients to selections and projects][12] for further processing.
-* [Check and correct the addresses of undelivered mails][12].
+* [Check and correct the addresses of undelivered mails][11].
 * See [who clicked the trackable links][14] you inserted in the message.
 * Manage email addresses that were returned due to permanent errors or [bounced][13] several times.
 
@@ -81,7 +81,8 @@ After your mailing is sent, it is always exciting to see how well your mailing h
 [4]: ../../forms/learn/create.md
 [6]: ../../recipients/learn/add-unsubscribe-link.md
 [8]: ../../recipients/learn/index.md
-[12]: ../../recipients/learn/look-at-recipient-list.md
+[11]: ../../recipients/learn/look-at-recipient-list.md
+[12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [13]: ../../recipients/learn/manage-bounces.md
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md

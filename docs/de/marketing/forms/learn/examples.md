@@ -177,7 +177,7 @@ In diesem Beispiel wird erläutert, wie Sie ein kurzes Formular für Kunden erst
 
     * Wählen Sie **Manuell bei unbekanntem Übermittler. Automatisch bei bekanntem Übermittler**: Wenn die im Formular übermittelte E-Mail-Adresse mit einer E-Mail-Adresse in SuperOffice übereinstimmt, wird das übermittelte Formular automatisch verarbeitet. Andernfalls muss es manuell verarbeitet werden.
 
-    * **E-Mail-Antwort**: Wählen Sie eine Formularantwort, die an Personen gesendet werden soll, sobald die von ihnen übermittelten Formulare verarbeitet werden. Diese E-Mail kann zum Beispiel den Kunden über die Datenschutzbestimmungen Ihrer Firma informieren und auch einen Link zur Verwaltung von Abonnements enthalten. [Wie man eine Formularantwort erstellt][2].
+    * **E-Mail-Antwort**: Wählen oder [erstellen Sie eine Formularantwort][2], die an Personen gesendet werden soll, sobald die von ihnen übermittelten Formulare verarbeitet werden. Diese E-Mail kann zum Beispiel den Kunden über die Datenschutzbestimmungen Ihrer Firma informieren und auch einen Link zur [Verwaltung von Abonnements][6] enthalten.
 
 1. Klicken Sie auf **Speichern**. Das Formular wird gespeichert und die Ansicht **Formular bearbeiten** wird geschlossen.
 

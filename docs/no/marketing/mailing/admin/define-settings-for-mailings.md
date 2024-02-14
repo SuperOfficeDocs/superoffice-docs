@@ -38,13 +38,13 @@ Følgende innstillinger er tilgjengelige for utsendelser av e-post:
 
 * **Standardavsender**: Systemets standard avsenderadresse for e-post. Denne adressen vil normalt overstyres av adressene som legges inn i e-postkasser. Dette må være en e-postadresse som importeres i SuperOffice Service. For eksempel `support@company.com`.
 
-[!include[List of fields for mailings](.../../learn/includes/mailing-smtp-fields.md)]
+[!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 
 ## Fanen SMS
 
 Følgende innstillinger er tilgjengelige for SMS-utsendelser:
 
-[!include[Settings for mailings - SMS](.../../learn/includes/mailing-settings-sms.md)]
+[!include[Settings for mailings - SMS](../../learn/includes/mailing-settings-sms.md)]
 
 ## Teste SMS-innstillingene
 

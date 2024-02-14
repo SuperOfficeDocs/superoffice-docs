@@ -36,7 +36,7 @@ Nach dem Senden der Kampagne sammelt SuperOffice Marketing Daten über den Statu
 
 5. Klicken Sie auf die Schaltfläche Menü ![Symbol][img2]. Sie haben hier die folgenden Optionen:
     * Ausgewählte Empfänger in eine Excel-, HTML- oder Textdatei exportieren.
-    * [Ausgewählte Empfänger einer neuen oder vorhandenen Selektion bzw. einem Projekt hinzufügen](#add-recipients-to-selections-or-projects).
+    * [Ausgewählte Empfänger einer neuen oder vorhandenen Selektion bzw. einem Projekt hinzufügen](#add-recipients).
     * Die Kampagne erneut an die ausgewählten Empfänger senden.
 
 6. Klicken Sie auf **Schließen**, um die Ansicht **Kampagne anzeigen** zu schließen.
@@ -64,7 +64,7 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice sendet Ihre Kampagne an die Empfänger. Danach wird der Status in **Gesendet** geändert.
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="add-recipients-to-selections-or-projects" />Empfänger Selektionen oder Projekten hinzufügen
+## <a id="add-recipients" />Empfänger Selektionen oder Projekten hinzufügen
 
 Über die Menüschaltfläche ![Symbol][img2] können Sie Empfänger und Klicker zu einer Selektion oder einem Projekt hinzufügen.
 

@@ -177,7 +177,7 @@ In this example we will show you how to create short form for customers who want
 
     * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 
-    * **Email response**: Select a form response to send to contacts when their form is processed. This email can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How to create a form response][2].
+    * **Email response**: Select or [create a form response][2] to send to contacts when their form is processed. For example, to inform the customer of your company's privacy policy. The email can also include a link to [manage subscriptions][6].
 
 1. Click **Save**. The form is saved and the **Edit form** screen closes.
 

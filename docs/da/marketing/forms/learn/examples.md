@@ -177,7 +177,7 @@ I dette eksempel viser vi, hvordan du opretter en kort formular til kunder, der 
 
     * Vælg **Manuelt, hvis indsenderen er ukendt. Automatisk, hvis indsenderen er kendt**: Hvis e-mailadressen, der indsendes i formularen matcher en e-mailadresse i SuperOffice, behandles den indsendte formular automatisk. Ellers skal den behandles manuelt.
 
-    * **E-mail-svar**: Vælg et formularsvar, der skal sendes til personer, når deres formular behandles. Denne e-mail kan for eksempel informere kunden om din virksomhedspolitik om beskyttelse af personoplysninger og kan også indeholde et link til administration af abonnementer. [Sådan oprettes et formularsvar][2].
+    * **E-mail-svar**: Vælg eller [opret et formularsvar][2], der skal sendes til personer, når deres formular behandles. Denne e-mail kan for eksempel informere kunden om din virksomhedspolitik om beskyttelse af personoplysninger og kan også indeholde et link til [administration af abonnementer][6].
 
 1. Klik på **Gem**. Formularen gemmes, og skærmbilledet **Rediger formular** lukkes.
 

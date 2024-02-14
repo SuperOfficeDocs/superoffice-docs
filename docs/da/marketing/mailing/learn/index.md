@@ -70,7 +70,7 @@ Når din mail er sendt ud, er det altid spændende at se, hvor godt den klarede 
 
 * Du kan [se statistik][2] på mailudsendelsen og få oplysninger om eventuelle problemer.
 * Du kan [tilføje modtagere til udvalg og projekter][12] for at arbejde videre med dem.
-* Du kan [tjekke og rette mailadresserne på ikke-leverede mails][12].
+* Du kan [tjekke og rette mailadresserne på ikke-leverede mails][11].
 * Du kan [se, hvem der har klikket på de sporbare links][14], du har indsat i beskeden.
 * Du kan administrere mailadresserne på afviste mails, der er returneret på grund af permanente fejl, eller som er blevet [afvist][13] flere gange.
 
@@ -81,7 +81,8 @@ Når din mail er sendt ud, er det altid spændende at se, hvor godt den klarede 
 [4]: ../../forms/learn/create.md
 [6]: ../../recipients/learn/add-unsubscribe-link.md
 [8]: ../../recipients/learn/index.md
-[12]: ../../recipients/learn/look-at-recipient-list.md
+[11]: ../../recipients/learn/look-at-recipient-list.md
+[12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [13]: ../../recipients/learn/manage-bounces.md
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md

@@ -36,7 +36,7 @@ SuperOffice Marknadsföring samlar in data om statusen för varje skickat e-post
 
 5. Klicka på ![ikon][img2] menyknappen. Här har du följande alternativ:
     * Exportera de valda mottagarna till en Excel-, HTML- eller textfil.
-    * [Lägg till de valda mottagarna till ett nytt eller befintligt urval eller projekt](#add-recipients-to-selections-or-projects).
+    * [Lägg till de valda mottagarna till ett nytt eller befintligt urval eller projekt](#add-recipients).
     * Skicka om utskicket till de valda mottagarna.
 
 6. Klicka på **Stäng** när du vill stänga skärmen **Visa utskick**.
@@ -64,7 +64,7 @@ Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice s
 Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice skickar ditt utskick till mottagarna. Status ändras till **Skickat** när det är klart.
 
 <!-- markdownlint-disable-next-line MD013 -->
-## <a id="add-recipients-to-selections-or-projects" />Lägga till mottagare till urval eller projekt
+## <a id="add-recipients" />Lägga till mottagare till urval eller projekt
 
 Med hjälp av ![ikon][img2] menyknappen kan du lägga till mottagare och klickare i ett urval eller projekt.
 

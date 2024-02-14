@@ -68,7 +68,7 @@ Bijvoorbeeld: als u meerdere mailings verzendt voor de promotie van een evenemen
 
 * [Bekijk de statistieken][2] van de mailing en krijg informatie over eventuele problemen die zich hebben voorgedaan.
 * [Voeg ontvangers toe aan selecties en projecten][12] voor verdere verwerking.
-* [Controleer en corrigeer de adressen van niet-bezorgde e-mails][12].
+* [Controleer en corrigeer de adressen van niet-bezorgde e-mails][11].
 * Bekijk [wie op de traceerbare koppelingen][14] heeft geklikt die u in het bericht hebt ingevoegd.
 * Beheer e-mailadressen die zijn geretourneerd vanwege permanente fouten of die meerdere keren zijn [geretourneerd][13].
 
@@ -79,7 +79,8 @@ Bijvoorbeeld: als u meerdere mailings verzendt voor de promotie van een evenemen
 [4]: ../../forms/learn/create.md
 [6]: ../../recipients/learn/add-unsubscribe-link.md
 [8]: ../../recipients/learn/index.md
-[12]: ../../recipients/learn/look-at-recipient-list.md
+[11]: ../../recipients/learn/look-at-recipient-list.md
+[12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [13]: ../../recipients/learn/manage-bounces.md
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md

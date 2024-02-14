@@ -177,7 +177,7 @@ I dette eksempelet vil vi vise deg hvordan du oppretter kortform for kunder som 
 
     * Velg **Manuelt – hvis innsender er ukjent. Automatisk – hvis innsender er kjent**: Hvis e-postadressen som er oppgitt i skjemaet, samsvarer med en e-postadresse i SuperOffice, behandles skjemainnsendingen automatisk. Hvis ikke, behandles den manuelt.
 
-    * **E-postsvar**: Velg et skjemasvar som du vil sende til personer når skjemaet deres behandles. Denne e-posten kan for eksempel informere kunden om firmaets personvernpolicy og kan også inneholde en kobling for å administrere abonnementer. [Slik oppretter du et skjemasvar][2].
+    * **E-postsvar**: Velg eller [lag et skjemasvar][2] som du vil sende til personer når skjemaet deres behandles. Denne e-posten kan for eksempel informere kunden om firmaets personvernpolicy og kan også inneholde en kobling for å [administrere abonnementer][6].
 
 1. Klikk på **Lagre**. Skjemaet lagres og vinduet **Rediger skjema** lukkes.
 
