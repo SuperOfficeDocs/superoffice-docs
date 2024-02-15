@@ -79,7 +79,7 @@ After your mailing is sent, it is always exciting to see how well your mailing h
 [3]: create/send-test-email.md
 [2]: view-statistics.md
 [4]: ../../forms/learn/create.md
-[6]: ../../recipients/learn/add-unsubscribe-link.md
+[6]: ../../editor/learn/add-unsubscribe-link.md
 [8]: ../../recipients/learn/index.md
 [11]: ../../recipients/learn/look-at-recipient-list.md
 [12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients

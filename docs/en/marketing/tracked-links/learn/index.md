@@ -2,11 +2,14 @@
 uid: help-en-mailing-tracked-links
 title: Tracked links
 description: A link that you include in a mailing can be used to track responses from your customers and prospects. When your mailing's recipients click on the link an action is being triggered. 
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing
-so.topic: concept
+author: SuperOffice RnD
+so.date: 02.14.2024
+so.version: 10
+so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Tracked links
@@ -78,12 +81,12 @@ The Google Analytics feature in SuperOffice Marketing identifies your mailings i
 
 <!-- Referenced links -->
 [1]: create-links.md
+[7]: define-link-actions.md
 [2]: explore-clicks.md
-[3]: add-tracked-link-to-msg.md
-[4]: ../../recipients/learn/add-unsubscribe-link.md
+[3]: ../../editor/learn/add-tracked-link-to-msg.md
+[4]: ../../editor/learn/add-unsubscribe-link.md
 [5]: ../../learn/create-folder.md
 [6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
-[7]: define-link-actions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

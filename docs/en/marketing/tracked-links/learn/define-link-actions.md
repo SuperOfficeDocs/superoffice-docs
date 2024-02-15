@@ -2,11 +2,14 @@
 uid: help-en-define-link-actions
 title: Define link actions
 description: In this how-to guide, you will learn how to use links in mailings to automate actions.
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.14.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Use links to automate different actions

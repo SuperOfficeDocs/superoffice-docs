@@ -3,8 +3,6 @@ items:
     href: index.md
   - name: Manage subscriptions
     href: manage-email-subscriptions.md
-  - name: Add unsubscribe link (GDPR)
-    href: add-unsubscribe-link.md
   - name: Recipients list
     href: look-at-recipient-list.md
   - name: Manage bounces

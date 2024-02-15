@@ -2,11 +2,14 @@
 uid: help-en-mailing-create-tracked-link
 title: Create tracked links
 description: Create tracked links
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing
-so.topic: help
+author: SuperOffice RnD
+so.date: 02.14.2024
+so.version: 10
+so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Create tracked links

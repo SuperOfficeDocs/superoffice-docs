@@ -98,7 +98,7 @@ The image you want to use for your mailing might not always be the correct size.
 
 <!-- Referenced links -->
 [1]: ../../learn/add-images.md
-[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
+[2]: add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png

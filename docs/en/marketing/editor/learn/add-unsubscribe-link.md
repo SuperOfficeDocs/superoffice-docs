@@ -48,7 +48,7 @@ You do, however, have the possibility to override "no consent / no subscription"
 
 <!-- Referenced links -->
 [2]: ../../tracked-links/learn/examples.md
-[1]: manage-email-subscriptions.md
+[1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/icons/marketing-and-forms/link.png

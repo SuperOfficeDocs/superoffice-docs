@@ -2,11 +2,14 @@
 uid: help-en-mailing-add-tracked-link
 title: Include links you want to track
 description: There are two ways to set up your links. You can either use a preset tracked link to track clicks across several mailings or set up a new link only available in this mailing. Learn how to add a tracked link in this guide.
-author: SuperOffice RnD
-so.date: 02.20.2023
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.14.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Add tracked links to message
@@ -26,16 +29,19 @@ You can also **add special links** to your mailing. To do so, select Special Lin
 
 ## Steps
 
-1. Go to the contents of the message and edit a section. [How?][2].
+1. Go to the **Content** screen in the mailing, or open a template for editing.
 
 2. Select the text or image that the recipient has to click.
 
-* To add an existing tracked link:
+3. Add the link.
+    * To add an existing tracked link:
 
-  * Text: Click ![icon][img1] in the toolbar, select **Special links** > **Tracked links**, and select a link.
-  * Image: In the side-panel (under **Action**), select **Special links** > **Tracked links**, and select a link.
+      * Text: Click ![icon][img1] in the toolbar, select **Special links** > **Tracked links**, and select a link.
+      * Image: In the side-panel (under **Action**), select **Special links** > **Tracked links**, and select a link.
 
-* To [create a new tracked link][5], click **Create new tracked link** at the bottom of the screen. The **Link properties** dialog opens.
+    * To [create a new tracked link][5], click **Create new tracked link** at the bottom of the screen. The **Link properties** dialog opens.
+
+4. Click **Save**. The link is inserted in the message.
 
 ## Tips
 
@@ -49,12 +55,11 @@ You can also add regular (untracked) links by clicking the link button in the to
 * [Define link actions][6]
 
 <!-- Referenced links -->
-[1]: ../../editor/learn/add-link-to-display-message-in-browser.md
-[2]: ../../editor/learn/edit-paragraph.md
+[1]: add-link-to-display-message-in-browser.md
+[4]: add-unsubscribe-link.md
 [3]: ../../recipients/learn/manage-email-subscriptions.md
-[4]: ../../recipients/learn/add-unsubscribe-link.md
-[5]: create-links.md
-[6]: define-link-actions.md
+[5]: ../../tracked-links/learn/create-links.md
+[6]: ../../tracked-links/learn/define-link-actions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/link.png

@@ -11,3 +11,7 @@ items:
   href: add-merge-tag.md
 - name: Add link to display message in browser
   href: add-link-to-display-message-in-browser.md
+- name: Add unsubscribe link (GDPR)
+  href: add-unsubscribe-link.md
+- name: Add tracked link to message
+  href: add-tracked-link-to-msg.md

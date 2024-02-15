@@ -2,11 +2,14 @@
 uid: help-en-tracked-links-examples
 title: Examples of the use of trackable links
 description: Examples of the use of trackable links
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing
-so.topic: help
+author: SuperOffice RnD
+so.date: 02.14.2024
+so.version: 10
+so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Examples of the use of trackable links
@@ -38,7 +41,7 @@ Trackable links can be used in a variety of interesting ways:
 * **Individual follow-up**: You have just released a major update to your product. Not all your customers have an in-house IT department to deal with the update, so you add a link that the customer can click to book a consultant. A new request is then registered in SuperOffice Service for each customer who clicks the link. The request is allocated to the "Consultant" category, with the head of the consultancy department set as the owner. The customer is also sent feedback that they will be contacted by a consultant.
 
 <!-- Referenced links -->
-[1]: ../../recipients/learn/add-unsubscribe-link.md
+[1]: ../../editor/learn/add-unsubscribe-link.md
 [3]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
