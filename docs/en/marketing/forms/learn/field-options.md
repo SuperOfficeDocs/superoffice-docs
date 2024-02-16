@@ -23,7 +23,7 @@ This is an overview of special options in some of the available fields.
 
   * **Show link to privacy statement**: Select this option to include the link to the privacy statement,[!include[SM](../../../learn/includes/as-defined-sm.md)]
 
-* **Contact - subscription**: Select the subscriptions that should be visible in the form.
+* **Contact - subscription**: Select the [subscriptions][3] that should be visible in the form.
 
 * **Company name : Use existing company if found**.
 
@@ -83,6 +83,7 @@ This is an overview of special options in some of the available fields.
 <!-- Referenced links -->
 [1]: ../../../../en/marketing/forms/recaptcha.md
 [2]: create.md#multi-page
+[3]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png

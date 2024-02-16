@@ -32,7 +32,7 @@ Du kan klicka på utskicket i listan om du vill [visa sändningsstatus och stati
 Om du vill stoppa utskicket eller starta ett schemalagt utskick före den planerade tidpunkten kan du klicka på knappen **Stopp** respektive **Start**.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png

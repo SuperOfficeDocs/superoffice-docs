@@ -1,23 +1,19 @@
 items:
 - name: Översikt
   href: index.md
-- name: Fönstret Marknadsföring
-  href: screen/index.md
-- name: Arbeta med marknadsföring
-  topicHref: add-fav.md
-  items:
-  - name: Lägga till favoriter
-    href: add-fav.md
-  - name: Skapa mapp
-    href: create-folder.md
-  - name: Meddelandemallar
-    href: message-templates.md
-  - name: Lägga till bilder
-    href: add-images.md
-  - name: Bästa praxis
-    href: best-practices.md
 
-- name: Arbeta med utskick
+- name: Lägga till favoriter
+  href: add-fav.md
+- name: Skapa mapp
+  href: create-folder.md
+- name: Meddelandemallar
+  href: message-templates.md
+- name: Lägga till bilder
+  href: add-images.md
+- name: Bästa praxis
+  href: best-practices.md
+
+- name: Utskick
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
@@ -25,6 +21,10 @@ items:
   href: ../editor/learn/toc.yml
   topicHref: ../editor/learn/index.md
 
-- name: Arbeta med spårade länkar
+- name: Mottagare (mållista)
+  href: ../recipients/learn/toc.yml
+  topicHref: ../recipients/learn/index.md
+
+- name: Spårade länkar
   href: ../tracked-links/learn/toc.yml
   topicHref: ../tracked-links/learn/index.md

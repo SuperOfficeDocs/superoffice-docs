@@ -23,7 +23,7 @@ You can create and save content blocks that all your users can pick and choose f
 [4]: ../../../../editor/learn/edit-paragraph.md
 [5]: ../../../../editor/learn/add-merge-tag.md
 [11]: ../../../../tracked-links/learn/add-tracked-link-to-msg.md
-[8]: ../add-unsubscribe-link.md
+[8]: ../../../../recipients/learn/add-unsubscribe-link.md
 [7]: ../send-test-email.md
 
 <!-- Referenced images -->

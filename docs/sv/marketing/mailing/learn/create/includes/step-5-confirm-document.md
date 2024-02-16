@@ -21,7 +21,7 @@ Klicka på utskicket i listan om du vill [visa sändningsstatus och statistik f�
 4. Öppna och skriv ut dokumentet.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../../media/icons/btn-menu.png

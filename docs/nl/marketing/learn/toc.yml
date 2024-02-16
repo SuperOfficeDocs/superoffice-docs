@@ -1,23 +1,19 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Scherm Marketing
-  href: screen/index.md
-- name: Werken met marketing
-  topicHref: add-fav.md
-  items:
-  - name: Favorieten toevoegen
-    href: add-fav.md
-  - name: Map maken
-    href: create-folder.md
-  - name: Berichtsjablonen
-    href: message-templates.md
-  - name: Afbeeldingen toevoegen
-    href: add-images.md
-  - name: Beste praktijken
-    href: best-practices.md
 
-- name: Werken met mailings
+- name: Favorieten toevoegen
+  href: add-fav.md
+- name: Map maken
+  href: create-folder.md
+- name: Berichtsjablonen
+  href: message-templates.md
+- name: Afbeeldingen toevoegen
+  href: add-images.md
+- name: Beste praktijken
+  href: best-practices.md
+
+- name: Mailings
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
@@ -25,6 +21,10 @@ items:
   href: ../editor/learn/toc.yml
   topicHref: ../editor/learn/index.md
 
-- name: Werken met gevolgde koppelingen
+- name: Ontvangers (doellijst)
+  href: ../recipients/learn/toc.yml
+  topicHref: ../recipients/learn/index.md
+
+- name: Gevolgde koppelingen
   href: ../tracked-links/learn/toc.yml
   topicHref: ../tracked-links/learn/index.md

@@ -1,23 +1,19 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Skærmbilledet Marketing
-  href: screen/index.md
-- name: Arbejd med marketing
-  topicHref: add-fav.md
-  items:
-  - name: Tilføj foretrukne
-    href: add-fav.md
-  - name: Opret mappe
-    href: create-folder.md
-  - name: Meddelelsesskabeloner
-    href: message-templates.md
-  - name: Tilføj billeder
-    href: add-images.md
-  - name: Bedste praksis
-    href: best-practices.md
 
-- name: Arbejd med udsendelser
+- name: Tilføj foretrukne
+  href: add-fav.md
+- name: Opret mappe
+  href: create-folder.md
+- name: Meddelelsesskabeloner
+  href: message-templates.md
+- name: Tilføj billeder
+  href: add-images.md
+- name: Bedste praksis
+  href: best-practices.md
+
+- name: Udsendelser
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
@@ -25,6 +21,10 @@ items:
   href: ../editor/learn/toc.yml
   topicHref: ../editor/learn/index.md
 
-- name: Arbejd med sporede links
+- name: Modtagere (målliste)
+  href: ../recipients/learn/toc.yml
+  topicHref: ../recipients/learn/index.md
+
+- name: Sporede links
   href: ../tracked-links/learn/toc.yml
   topicHref: ../tracked-links/learn/index.md

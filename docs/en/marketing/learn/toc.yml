@@ -1,23 +1,19 @@
 items:
 - name: Overview
   href: index.md
-- name: Marketing screen
-  href: screen/index.md
-- name: Work with marketing
-  topicHref: add-fav.md
-  items:
-  - name: Add favorites
-    href: add-fav.md
-  - name: Create folder
-    href: create-folder.md
-  - name: Message templates
-    href: message-templates.md
-  - name: Add images
-    href: add-images.md
-  - name: Best practices
-    href: best-practices.md
 
-- name: Work with mailings
+- name: Add favorites
+  href: add-fav.md
+- name: Create folder
+  href: create-folder.md
+- name: Add images
+  href: add-images.md
+- name: Message templates
+  href: message-templates.md
+- name: Best practices
+  href: best-practices.md
+
+- name: Mailings
   href: ../mailing/learn/toc.yml
   topicHref: ../mailing/learn/index.md
 
@@ -25,6 +21,10 @@ items:
   href: ../editor/learn/toc.yml
   topicHref: ../editor/learn/index.md
 
-- name: Work with tracked links
+- name: Recipients (target group)
+  href: ../recipients/learn/toc.yml
+  topicHref: ../recipients/learn/index.md
+
+- name: Tracked links
   href: ../tracked-links/learn/toc.yml
   topicHref: ../tracked-links/learn/index.md

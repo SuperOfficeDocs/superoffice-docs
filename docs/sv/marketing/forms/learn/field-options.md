@@ -23,7 +23,7 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 
   * **Visa länk till meddelande om behandling av personuppgifter**: Välj det här alternativet om du vill inkludera länken till integritetspolicyn.[!include[SM](../../../learn/includes/as-defined-sm.md)]
 
-* **Kontakt – prenumeration**: Välj prenumerationerna som ska visas i formuläret.
+* **Kontakt – prenumeration**: Välj [prenumerationerna][3] som ska visas i formuläret.
 
 * **Företagsnamn: Använd befintligt företag om du hittar det**.
 
@@ -83,6 +83,7 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 <!-- Referenced links -->
 [1]: ../../../../en/marketing/forms/recaptcha.md
 [2]: create.md#multi-page
+[3]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png

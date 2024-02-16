@@ -21,7 +21,7 @@ Click the mailing in the list to [view sending status and statistics][1].
 4. Open and print the document.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../../media/icons/btn-menu.png

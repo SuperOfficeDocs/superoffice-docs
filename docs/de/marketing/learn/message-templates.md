@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: de
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Mit den Nachrichtenvorlagen arbeiten
@@ -39,7 +39,7 @@ Weitere Nachrichtenvorlagen finden Sie in der Registerkarte Alle Vorlagen, wenn 
 
 ## Vorlagen von der Online-Vorlagenbibliothek verwenden
 
-Die Online-Vorlagenbibliothek in SuperOffice Marketing enthält eine große Auswahl an professionell gestalteten Mitteilungsvorlagen. Kostenlos zu verwenden!
+Diese Bibliothek bietet eine breite Auswahl professionell gestalteter Mitteilungsvorlagen, alle kostenlos nutzbar.
 
 1. Wählen Sie die Registerkarte **Nachrichtenvorlagen**.
 2. Klicken Sie auf **Online-Vorlagenbibliothek**.
@@ -71,7 +71,7 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 
 * Fügen Sie Ihre Kontaktinformationen hinzu, zum Beispiel Ihre Firmenadresse, E-Mail-Adresse, Website und Telefonnummer Ihrer Firma.
 
-* Abmeldelink hinzufügen. Gemäß der neuen Datenschutzverordnung (DSGVO) müssen Sie einen gut sichtbaren Abmeldelink hinzufügen und es den Empfängern leicht machen, sich von Ihren Kampagnen abzumelden.
+* [Abmeldelink hinzufügen][6]. Gemäß der neuen Datenschutzverordnung (DSGVO) müssen Sie einen gut sichtbaren Abmeldelink hinzufügen und es den Empfängern leicht machen, sich von Ihren Kampagnen abzumelden.
 
 * Fügen Sie [Merge-Tags][3] (sogenannte Vorlagenvariablen) hinzu. Sie können die Daten jedes Empfängers angeben, um Ihre Nachricht zu personalisieren. Dadurch können Sie die Öffnungs- und Klickraten erhöhen. Sie können Ihren Leser beispielsweise mit seinem Vor- oder vollständigen Namen oder dem Namen der Firma, in dem er arbeitet, ansprechen. SuperOffice CRM bietet eine Vielzahl von Merge Tags, mit denen Sie Ihre Kampagnen personalisieren können.
 
@@ -131,6 +131,7 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
 [5]: ../editor/learn/index.md#old
+[6]: ../recipients/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

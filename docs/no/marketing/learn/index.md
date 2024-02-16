@@ -4,11 +4,12 @@ title: SuperOffice Marketing
 description: "Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet."
 keywords: Markedsføring
 author: SuperOffice RnD
-so.date: 02.16.2023
+so.date: 02.12.2024
+so.version: 10
 so.topic: concept
 language: no
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # SuperOffice Marketing
@@ -37,7 +38,7 @@ Du kan opprette følgende utsendelser:
 * Skjemasvar til kunder eller potensielle kunder som sender inn et skjema via websiden din eller kundesenteret
 
 > [!NOTE]
-> E-postutsendelser (og skjemasvar) er utsendelsestypene som har flest funksjoner. Funksjoner som sporede koblinger og påmeldingskoblinger er ikke tilgjengelige for utsendelse av SMS og dokumenter. SMS-utsendelser kan bare inneholde vanlig tekst (ingen bilder eller tabeller).
+> E-postutsendelser (og skjemasvar) er utsendelsestypene som har flest funksjoner. Funksjoner som [sporede koblinger][11] og [påmeldingskoblinger][10] er ikke tilgjengelige for utsendelse av SMS og dokumenter. SMS-utsendelser kan bare inneholde vanlig tekst (ingen bilder eller tabeller).
 
 Meldingene du sender ut, kan skreddersys til hver enkelt kunde ved hjelp av [malvariabler][2]. Legg til koblinger i utsendelsene, og legg til [handlinger][3] i disse koblingene for å automatisere markedsføringsarbeidsflyten.
 
@@ -79,23 +80,44 @@ For å kunne dra nytte av markedsføringsfunksjonene i SuperOffice trenger du en
 
 SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lokalt program (installert hos kunden). Det finnes mindre forskjeller mellom de to. Spesifikke funksjonsforskjeller er markert med ikonene i selve fremgangsmåtene eller i emnetitler.
 
+## Faner i SuperOffice Marketing
+
+| Fane | Beskrivelse | Les mer |
+|---|---|---|
+| Utsendelser | Inneholder alle utsendelser og oppretter nye. | [Opprette ny utsendelse][5] |
+| Meldingsmaler | Inneholder standardmaler fra SuperOffice Marketing og maler du har opprettet, i tillegg til et bredt spekter av maler fra det elektroniske malbiblioteket. | [Arbeide med meldingsmaler][13] |
+| Sporede koblinger | Inneholder alle sporede koblinger som brukes i utsendelsene dine. Klikk på ![ikon][img1] **Legg til-**knappen for å opprette en ny kobling. | [Opprette sporede koblinger][14] |
+| Bilder | Inneholder alle tilgjengelige bilder i SuperOffice Marketing. Klikk på ![ikon][img1] **Legg til-** knappen for å legge til nye bilder. | [Legg til bilder][15] |
+| Blokkerte e-postadresser | Håndter returnerte e-poster og klager på søppelpost. | [Blokkerte e-postadresser][12], [søppelpost][16] |
+| Skjemaer | Inneholder alle skjemaer og oppretter nye. | [Opprette et nytt skjema][1] |
+| Skjemamaler | Inneholder alle skjemamaler. | [Arbeide med skjemamaler][18] |
+| Skjemainnsendinger | Inneholder innsendte skjemaer. | [Skjemainnsendinger][19] |
+
 ## Hva vil du gjøre nå?
 
 * [Lage ny utsendelse][5]
-* [Følge opp utsendelser][6]
 * [Opprette et nytt skjema][1]
 * [Vise utsendelser og skjemaer i dashboard][4]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
 [2]: ../editor/learn/index.md#variables
+[11]: ../tracked-links/learn/index.md
 [3]: ../tracked-links/learn/define-link-actions.md
-[4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
-[6]: ../mailing/learn/follow-up/index.md
-[8]: ../mailing/learn/manage-email-subscriptions.md
+[8]: ../recipients/learn/manage-email-subscriptions.md
+[10]: ../recipients/learn/add-unsubscribe-link.md
+[4]: ../../dashboard/learn/show-marketing.md
 [7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
+[12]: ../recipients/learn/manage-bounces.md
+[16]: ../recipients/learn/spam-complaints.md
+[13]: message-templates.md
+[14]: ../tracked-links/learn/create-links.md
+[15]: add-images.md
+[18]: ../forms/learn/form-templates.md
+[19]: ../forms/learn/submissions/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../../common/icons/nav-marketing.png

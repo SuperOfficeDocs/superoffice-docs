@@ -32,7 +32,7 @@ You can click the mailing in the list to [view sending status and statistics][1]
 To stop the mailing or start a planned mailing ahead of schedule, click the **Stop** or **Start** button respectively.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../../../common/icons/singlecolour/appointment.png

@@ -20,7 +20,7 @@ Trackable links can be used in a variety of interesting ways:
 
 * **Response**: Each recipient who clicks a link, such as a new product page, is recorded in the system. This allows you to gauge the interest among all recipients across multiple mailings.
 
-* **Prospect list**: If you are launching a new product, recipients can register their interest in the product by clicking the "Send me more info" link. Those who click the link can be added to a static selection in SuperOffice CRM, which sales staff can use to manage further contact with these customers.
+* **Prospect list**: If you are launching a new product, recipients can register their interest in the product by clicking the "Send me more info" link. Those who click the link can be added to a [static selection][3], which sales staff can use to manage further contact with these customers.
 
 * **Follow-ups for salespersons in SuperOffice CRM**: One alternative to the prospect list in the example above is to generate a to-do or meeting for salespersons / customer contacts for each link click. A click on the "Contact me" link could, for example, generate a follow-up in SuperOffice CRM of type "Phone out" for the contact for that customer. In addition, the follow-up can be linked to a project in SuperOffice CRM, such as a marketing campaign.
 
@@ -38,6 +38,7 @@ Trackable links can be used in a variety of interesting ways:
 * **Individual follow-up**: You have just released a major update to your product. Not all your customers have an in-house IT department to deal with the update, so you add a link that the customer can click to book a consultant. A new request is then registered in SuperOffice Service for each customer who clicks the link. The request is allocated to the "Consultant" category, with the head of the consultancy department set as the owner. The customer is also sent feedback that they will be contacted by a consultant.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md
+[1]: ../../recipients/learn/add-unsubscribe-link.md
+[3]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->

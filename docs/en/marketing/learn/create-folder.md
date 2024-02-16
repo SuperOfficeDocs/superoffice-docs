@@ -5,8 +5,11 @@ description: How to create a folder in Marketing
 author: SuperOffice RnD
 so.date: 09.07.2022
 keywords: Marketing
-so.topic: help
+so.version: 10
+so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # How to create a folder

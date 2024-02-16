@@ -80,7 +80,7 @@ The Google Analytics feature in SuperOffice Marketing identifies your mailings i
 [1]: create-links.md
 [2]: explore-clicks.md
 [3]: add-tracked-link-to-msg.md
-[4]: ../../mailing/learn/create/add-unsubscribe-link.md
+[4]: ../../recipients/learn/add-unsubscribe-link.md
 [5]: ../../learn/create-folder.md
 [6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
 [7]: define-link-actions.md

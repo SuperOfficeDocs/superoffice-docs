@@ -23,7 +23,7 @@ Dit is een overzicht van speciale opties in sommige beschikbare velden.
 
   * **Koppeling naar privacyverklaring weergeven**: Selecteer deze optie om de koppeling naar de privacyverklaring op te nemen,[!include[SM](../../../learn/includes/as-defined-sm.md)]
 
-* **Persoon - Abonnement**: Selecteer de abonnementen die zichtbaar moeten zijn in het formulier.
+* **Persoon - Abonnement**: Selecteer de [abonnementen][3] die zichtbaar moeten zijn in het formulier.
 
 * **Bedrijfsnaam: Gebruik bestaand bedrijf indien gevonden.**
 
@@ -83,6 +83,7 @@ Dit is een overzicht van speciale opties in sommige beschikbare velden.
 <!-- Referenced links -->
 [1]: ../../../../en/marketing/forms/recaptcha.md
 [2]: create.md#multi-page
+[3]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png

@@ -26,7 +26,7 @@ In SuperOffice Marketing kunt u acties toevoegen aan uw links. Deze acties worde
 | Respons | voeg een openingspagina of aangepaste tekst toe. |
 | Veld instellen | voeg een waarde toe aan een extra veld voor personen |
 | Interesses | werk de interesses bij. |
-| Selectie/project | Persoon toevoegen aan/verwijderen uit een selectie/project. |
+| Selectie/project | Persoon toevoegen aan/verwijderen uit een selectie of project. |
 | Vervolg­activiteit | Maak een vervolgactiviteit (taak of vergadering) in SuperOffice CRM. |
 | Verzoek | maak een nieuw verzoek. |
 | Script | voer een script uit. |
@@ -62,13 +62,14 @@ Selecteer een veld in de keuzelijst **Extra veld instellen** en voer in het veld
 Hier kunt u opgeven dat bij het klikken op een link interesses voor de persoon moeten worden toegevoegd of verwijderd. U kunt bijvoorbeeld de interesse 'Productnieuws' toevoegen wanneer de ontvanger op de link 'Ja, houd me op de hoogte over nieuwe producten' klikt. U kunt er ook voor kiezen de interesse 'Productnieuws' te verwijderen wanneer de gebruiker in een nieuwsbrief op de link 'Uitschrijven' klikt.
 
 * U kunt in de keuzelijst **Interesse instellen** een interesse kiezen die voor de personen moet worden toegevoegd wanneer deze op de link klikken.
+
 * U kunt in de keuzelijst **Interesse verwijderen** een interesse kiezen die voor de personen moet worden verwijderd wanneer deze op de link klikken.
 
-Zie ook [Interesses wissen in SuperOffice CRM][1].
+[Hoe maak je een inschrijfformulier voor de nieuwsbrief][1]
 
 ## Selectie/project
 
-Hier kunt u opgeven dat berichtontvangers die op de link klikken, worden toegevoegd aan of verwijderd uit selecties in SuperOffice Service of selecties of projecten in SuperOffice CRM. Typ het begin van een naam om snel zoeken te starten.
+Hier kunt u opgeven dat berichtontvangers die op de link klikken, worden toegevoegd aan of verwijderd uit selecties of projecten. Typ het begin van een naam om snel zoeken te starten.
 
 ## Vervolgactiviteit (taak/vergadering)
 
@@ -130,7 +131,7 @@ U kunt de informatie die u in deze mailing hebt verzameld op een aantal manieren
 * Genereer serviceverzoeken voor uw klantenserviceteam om de zaak op te pakken en te onderzoeken.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md#clear-interests
+[1]: ../../forms/learn/examples.md#newsletter-sign-up
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png

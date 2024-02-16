@@ -21,7 +21,7 @@ Klikk på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 4. Åpne og skriv ut dokumentet.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../../media/icons/btn-menu.png

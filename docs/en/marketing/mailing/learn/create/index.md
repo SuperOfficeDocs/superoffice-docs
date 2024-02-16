@@ -5,8 +5,11 @@ description: To send a marketing mailing you only have to follow five easy steps
 author: SuperOffice RnD
 so.date: 02.20.2023
 keywords: Marketing, mailing
+so.version: 10
 so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Create new mailing
@@ -61,7 +64,7 @@ If you use Google Analytics to analyze traffic and user behavior on your website
 
 ## Send a mailing
 
-In step three, you can [test your mailing by][10] sending it to yourself and/or your colleagues to review the content you have added. This way you can make sure you are a 100 percent happy with your mailing before you dispatch it.
+In step three, you can [test your mailing][10] by sending it to yourself and/or your colleagues to review the content you have added. This way you can make sure you are a 100 percent happy with your mailing before you dispatch it.
 
 In step four you are ready to [add your target list][11] containing the recipients to your mailing.
 
@@ -70,7 +73,6 @@ In the fifth and final step you confirm and send or schedule your mailing. You c
 ## What would you like to do now?
 
 * [Define settings for mailings][5]
-* [Follow up mailings][6]
 * [Track the mailing and view statistics][7]
 * [Work with the recipient list after the mailing][8]
 * [Work with tracked links after the mailing][9]
@@ -80,13 +82,12 @@ In the fifth and final step you confirm and send or schedule your mailing. You c
 [2]: tutorial-sms-mailing.yml
 [3]: tutorial-document-mailing.yml
 [4]: tutorial-form-mailing.yml
-[5]: ../admin/define-settings-for-mailings.md
-[6]: ../follow-up/index.md
-[7]: ../follow-up/view-statistics.md
-[8]: ../follow-up/look-at-recipient-list.md
-[9]: ../../../tracked-links/learn/explore-clicks.md
 [10]: send-test-email.md
-[11]: target-list.md
+[5]: ../../admin/define-settings-for-mailings.md
+[7]: ../view-statistics.md
+[9]: ../../../tracked-links/learn/explore-clicks.md
+[11]: ../../../recipients/learn/index.md
+[8]: ../../../recipients/learn/look-at-recipient-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/marketing/mailing-workflow-all.png

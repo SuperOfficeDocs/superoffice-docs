@@ -5,8 +5,11 @@ description: Creating a master (corporate) template is the best way to ensure al
 keywords: marketing, template
 author: SuperOffice RnD
 so.date: 02.06.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Work with the message templates
@@ -36,7 +39,7 @@ You can find additional message templates in the tab All templates, if you like 
 
 ## Using templates from the Online template library
 
-The Online template library in SuperOffice Marketing contains a wide selection of professionally designed message template. Free for use!
+This library offers a broad range of professionally designed message templates, all available for use at no cost.
 
 1. Select the **Message templates** tab.
 2. Click **Online template library**.
@@ -68,7 +71,7 @@ In addition to the templates created by your and your colleagues, you have acces
 
 * Add your contact information, such as your company's address, email, website, and phone number.
 
-* Add the unsubscribe link. According to new data protection and privacy regulation (GDPR), you must add a clearly visible unsubscribe link and make it easy for recipients to opt out of your mailings.
+* Add the [unsubscribe link][6]. According to new data protection and privacy regulation (GDPR), you must add a clearly visible unsubscribe link and make it easy for recipients to opt out of your mailings.
 
 * Add [merge tags][3] (also called template variables). You can include each recipient's data to personalize your message. This will help you increase the opening and click-through rates. For example, you can address your reader by their first or full name or the name of the company they work in. SuperOffice CRM offers a variety of merge tags you can use to personalize your mailings.
 
@@ -128,6 +131,7 @@ In addition to the templates created by your and your colleagues, you have acces
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
 [5]: ../editor/learn/index.md#old
+[6]: ../recipients/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

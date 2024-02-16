@@ -49,7 +49,7 @@ U kunt links (URL's) opnemen in een e-mail-mailing of een formulierantwoord en d
 * [Werken met de ontvangerslijst][1]
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/follow-up/look-at-recipient-list.md
+[1]: ../../recipients/learn/look-at-recipient-list.md
 [2]: create-links.md
 [4]: define-link-actions.md
 

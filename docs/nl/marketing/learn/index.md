@@ -8,7 +8,7 @@ so.date: 02.16.2023
 so.topic: concept
 language: nl
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # SuperOffice Marketing
@@ -37,7 +37,7 @@ U kunt de volgende mailings maken:
 * Formulierantwoorden naar klanten of prospects die een formulier verzenden via uw website of klantencentrum
 
 > [!NOTE]
-> E-mail-mailings en formulierantwoorden zijn de meest veelzijdige van de mailingtypen. Functies zoals gevolgde koppelingen en abonnementskoppelingen zijn niet beschikbaar in SMS-mailings en documentmailings. SMS-mailings kunnen alleen gewone tekst bevatten (geen afbeeldingen of tabellen).
+> E-mail-mailings en formulierantwoorden zijn de meest veelzijdige van de mailingtypen. Functies zoals [gevolgde koppelingen][11] en [abonnementskoppelingen][10] zijn niet beschikbaar in SMS-mailings en documentmailings. SMS-mailings kunnen alleen gewone tekst bevatten (geen afbeeldingen of tabellen).
 
 De berichten die u verzendt, kunnen met [sjabloonvariabelen][2] aan elke klant worden aangepast. Voeg koppelingen toe aan uw mailings en voeg [acties][3] toe aan deze koppelingen om uw marketingworkflow te automatiseren.
 
@@ -81,23 +81,44 @@ Om te profiteren van de marketingfuncties van SuperOffice, hebt u een basiskenni
 
 SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) en als lokale toepassing (geïnstalleerd op locatie bij de klant). Er zijn een paar kleine verschillen tussen deze twee. Specifieke functionele verschillen worden aangegeven door de pictogrammen in de procedures of in de titels van de onderwerpen.
 
+## Tabbladen SuperOffice Marketing
+
+| Tabblad | Beschrijving | Lees meer |
+|---|---|---|
+| Mailings | Bevat alle mailings en maakt nieuwe aan. | [Nieuwe mailing maken][5] |
+| Berichtsjablonen | Bevat de standaardsjablonen voor SuperOffice Marketing en de sjablonen die u zelf hebt gemaakt, naast een breed scala aan sjablonen uit de online sjabloonbibliotheek. | [Werken met de berichtsjablonen][13] |
+| Gevolgde links | Bevat alle gevolgde koppelingen die zijn gebruikt in uw mailings. Klik op de ![pictogram][img1] knop **Toevoegen** om een nieuwe koppeling te maken. | [Gevolgde links maken][14] |
+| Afbeeldingen | Bevat alle beschikbare afbeeldingen in SuperOffice Marketing. Klik op de ![pictogram][img1] knop **Toevoegen** om nieuwe afbeeldingen toe te voegen. | [Afbeeldingen toevoegen][15] |
+| Geblokkeerde e-mailadressen | Geretourneerde e-mails en spamklachten behandelen. | [Geblokkeerde e-mailadressen][12], [spam][16] |
+| Formulieren | Bevat alle formulieren en maakt nieuwe aan. | [Een nieuw formulier maken][1] |
+| Formuliersjablonen | Bevat alle formuliersjablonen. | [Werken met de formuliersjablonen][18] |
+| Formulierverzendingen | Bevat ingediende formulieren. | [Formulierverzendingen][19] |
+
 ## Wat wilt u nu doen?
 
 * [Nieuwe mailing maken][5]
-* [Vervolgmailings][6]
 * [Een nieuw formulier maken][1]
 * [Mailings en formulieren weergeven in dashboards][4]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
 [2]: ../editor/learn/index.md#variables
+[11]: ../tracked-links/learn/index.md
 [3]: ../tracked-links/learn/define-link-actions.md
-[4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
-[6]: ../mailing/learn/follow-up/index.md
-[8]: ../mailing/learn/manage-email-subscriptions.md
+[8]: ../recipients/learn/manage-email-subscriptions.md
+[10]: ../recipients/learn/add-unsubscribe-link.md
+[4]: ../../dashboard/learn/show-marketing.md
 [7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
+[12]: ../recipients/learn/manage-bounces.md
+[16]: ../recipients/learn/spam-complaints.md
+[13]: message-templates.md
+[14]: ../tracked-links/learn/create-links.md
+[15]: add-images.md
+[18]: ../forms/learn/form-templates.md
+[19]: ../forms/learn/submissions/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../../common/icons/nav-marketing.png

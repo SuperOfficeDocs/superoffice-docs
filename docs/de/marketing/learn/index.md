@@ -2,11 +2,14 @@
 uid: help-de-marketing
 title: SuperOffice Marketing
 description: "Zu den Funktionen für das Marketing gehören Kampagnen und Web-Formulare, die den Benutzern helfen, Informationen zu sammeln und besser mit Interessenten und Kunden zu kommunizieren. In Kombination können Sie Ihnen helfen, mehr Leads zu erstellen, mehr an vorhandene Kunden zu verkaufen und die Kundenbindung zu stärken."
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.12.2024
+so.version: 10
 so.topic: concept
 language: de
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # SuperOffice Marketing
@@ -35,7 +38,7 @@ Sie können die folgenden Kampagnen erstellen:
 * Formularantworten für Kunden oder Interessenten, die ein Formular über die Website oder das Kundenzentrum übermitteln
 
 > [!NOTE]
-> E-Mail-Kampagnen (und Formularantworten) bieten die meisten Funktionen. Funktionen wie überwachte Links und Links für Abonnements stehen in SMS- und Dokumentenkampagnen nicht zur Verfügung. SMS-Kampagnen können nur reinen Text enthalten, keine Bilder oder Tabellen.
+> E-Mail-Kampagnen (und Formularantworten) bieten die meisten Funktionen. Funktionen wie [überwachte Links][11] und [Links für Abonnements][10] stehen in SMS- und Dokumentenkampagnen nicht zur Verfügung. SMS-Kampagnen können nur reinen Text enthalten, keine Bilder oder Tabellen.
 
 Die Nachrichten können mithilfe von [Vorlagenvariablen][2] für jeden Kunden individuell angepasst werden. Fügen Sie Ihren Kampagnen Links hinzu und fügen Sie diesen Links [Aktionen][3] hinzu, um Ihren Marketing-Workflow zu automatisieren.
 
@@ -79,23 +82,44 @@ Um von den Marketingfunktionen von SuperOffice profitieren zu können, benötige
 
 SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-Anwendung (am Kundenstandort installiert) verfügbar. Zwischen den beiden Versionen gibt es einige kleine Unterschiede. Auf spezifische Funktionsunterschiede wird durch die Symbole in den Überschriften der Themen hingewiesen.
 
+## Registerkarte SuperOffice Marketing
+
+| Registerkarte | Beschreibung | Weiterlesen |
+|---|---|---|
+| Kampagnen | Enthält alle Kampagnen und erstellt neue. | [Neue Kampagne erstellen][5] |
+| Vorlagen für Nachrichten | Enthält die Standardvorlagen für SuperOffice Marketing als auch die von Ihnen erstellten Vorlagen, dazu eine Vielzahl von Vorlagen aus der Online-Vorlagenbibliothek. | [Mit den Nachrichtenvorlagen arbeiten][13] |
+| Überwachte Links | Enthält alle überwachten Links, die in Ihren Kampagnen verwendet werden. Klicken Sie auf die Schaltfläche ![Symbol][img1] **Hinzufügen**, um einen neuen Link zu erstellen. | [Überwachte Links erstellen][14] |
+| Bilder | Enthält alle in SuperOffice Marketing verfügbaren Bilder. Klicken Sie auf die Schaltfläche ![Symbol][img1] **Hinzufügen**, um neue Bilder hinzuzufügen. | [Bilder hinzufügen][15] |
+| Gesperrte E-Mail-Adressen | Bearbeiten von nicht zustellbaren E-Mails und Spam-Beschwerden. | [Gesperrte E-Mail-Adressen][12], [Spam][16] |
+| Formulare | Enthält alle Formulare und erstellt neue. | [Ein neues Formular erstellen][1] |
+| Formularvorlagen | Enthält alle Formularvorlagen. | [Mit den Formularvorlagen arbeiten][18] |
+| Formularübermittlungen | Enthält übermittelte Formulare. | [Formularübermittlungen][19] |
+
 ## Was möchten Sie jetzt tun?
 
 * [Neue Kampagne erstellen][5]
-* [E-Mail-Kampagnen weiterverfolgen][6]
 * [Ein neues Formular erstellen][1]
 * [Kampagnen und Formulare in Dashboards anzeigen][4]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
 [2]: ../editor/learn/index.md#variables
+[11]: ../tracked-links/learn/index.md
 [3]: ../tracked-links/learn/define-link-actions.md
-[4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
-[6]: ../mailing/learn/follow-up/index.md
-[8]: ../mailing/learn/manage-email-subscriptions.md
+[8]: ../recipients/learn/manage-email-subscriptions.md
+[10]: ../recipients/learn/add-unsubscribe-link.md
+[4]: ../../dashboard/learn/show-marketing.md
 [7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
+[12]: ../recipients/learn/manage-bounces.md
+[16]: ../recipients/learn/spam-complaints.md
+[13]: message-templates.md
+[14]: ../tracked-links/learn/create-links.md
+[15]: add-images.md
+[18]: ../forms/learn/form-templates.md
+[19]: ../forms/learn/submissions/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../../common/icons/nav-marketing.png

@@ -70,7 +70,6 @@ I det femte och sista steget bekräftar du och skickar eller schemalägger ditt 
 ## Vad vill du göra nu?
 
 * [Ange inställningar för utskick][5]
-* [Följa upp utskick][6]
 * [Spåra utskick och visa statistik][7]
 * [Jobba med mottagarlistan efter utskicket][8]
 * [Jobba med spårade länkar efter utskicket][9]
@@ -80,13 +79,12 @@ I det femte och sista steget bekräftar du och skickar eller schemalägger ditt 
 [2]: tutorial-sms-mailing.yml
 [3]: tutorial-document-mailing.yml
 [4]: tutorial-form-mailing.yml
-[5]: ../admin/define-settings-for-mailings.md
-[6]: ../follow-up/index.md
-[7]: ../follow-up/view-statistics.md
-[8]: ../follow-up/look-at-recipient-list.md
-[9]: ../../../tracked-links/learn/explore-clicks.md
 [10]: send-test-email.md
-[11]: target-list.md
+[5]: ../../admin/define-settings-for-mailings.md
+[7]: ../view-statistics.md
+[9]: ../../../tracked-links/learn/explore-clicks.md
+[11]: ../../../recipients/learn/index.md
+[8]: ../../../recipients/learn/look-at-recipient-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/marketing/mailing-workflow-all.png

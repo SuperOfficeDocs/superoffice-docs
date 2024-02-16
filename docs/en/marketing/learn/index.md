@@ -2,11 +2,14 @@
 uid: help-en-marketing
 title: SuperOffice Marketing
 description: The features for marketing includes mailings and web forms, and help users to gather information and to communicate better with prospects and customers. Combined, they can help you generate more leads, sell more to existing customers, and build customer loyalty.
-author: SuperOffice RnD
-so.date: 02.16.2023
 keywords: Marketing
+author: SuperOffice RnD
+so.date: 02.12.2024
+so.version: 10
 so.topic: concept
 language: en
+so.audience: user
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # SuperOffice Marketing
@@ -35,7 +38,7 @@ You can create the following mailings:
 * Form responses to customers or prospects that submit a form via your website or customer centre
 
 > [!NOTE]
-> Email mailings (and form responses) are the most feature-rich of these mailing types. Features such as tracked links and subscription links are not available in SMS mailings and document mailings. SMS mailings can only contain plain text (no images or tables).
+> Email mailings (and form responses) are the most feature-rich of these mailing types. Features such as [tracked links][11] and [subscription links][10] are not available in SMS mailings and document mailings. SMS mailings can only contain plain text (no images or tables).
 
 The messages you send out can be customized for each customer using [template variables][2]. Add links to your mailings, and add [actions][3] to these links to automate your marketing workflow.
 
@@ -77,23 +80,44 @@ To benefit from SuperOffice marketing features, you need a basic understanding o
 
 SuperOffice Marketing is offered as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
 
+## SuperOffice Marketing tabs
+
+| Tab | Description | Read more |
+|---|---|---|
+| Mailings | Contains all mailings and create new ones. | [Create new mailing][5] |
+| Message templates | Contains the standard SuperOffice Marketing templates and templates you have created, in addition to a wide range of templates from the online template library. | [Work with the message templates][13] |
+| Tracked links | Contains all tracked links used in your mailings. Click the ![icon][img1] **Add** button to create a new link. | [Create tracked links][14] |
+| Images | Contains all available images in SuperOffice Marketing. Click the ![icon][img1] **Add** button to add new images. | [Add images][15] |
+| Blocked email addresses | Handle bounced emails and spam complaints. | [Blocked email addresses][12], [spam][16] |
+| Forms | Contains all forms and create new ones. | [Create a new form][1] |
+| Form templates | Contains all form templates. | [Work with the form templates][18] |
+| Form submissions | Contains submitted forms. | [Form submissions][19] |
+
 ## What would you like to do now?
 
 * [Create new mailing][5]
-* [Follow up mailings][6]
 * [Create a new form][1]
 * [View mailings and forms in dashboards][4]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
 [2]: ../editor/learn/index.md#variables
+[11]: ../tracked-links/learn/index.md
 [3]: ../tracked-links/learn/define-link-actions.md
-[4]: ../../dashboard/learn/show-marketing.md
 [5]: ../mailing/learn/create/index.md
-[6]: ../mailing/learn/follow-up/index.md
-[8]: ../mailing/learn/manage-email-subscriptions.md
+[8]: ../recipients/learn/manage-email-subscriptions.md
+[10]: ../recipients/learn/add-unsubscribe-link.md
+[4]: ../../dashboard/learn/show-marketing.md
 [7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md
+[12]: ../recipients/learn/manage-bounces.md
+[16]: ../recipients/learn/spam-complaints.md
+[13]: message-templates.md
+[14]: ../tracked-links/learn/create-links.md
+[15]: add-images.md
+[18]: ../forms/learn/form-templates.md
+[19]: ../forms/learn/submissions/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../../common/icons/nav-marketing.png

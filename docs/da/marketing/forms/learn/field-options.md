@@ -23,7 +23,7 @@ Dette er en oversigt over særlige indstillinger i nogle af de tilgængelige fel
 
   * **Vis link til erklæring om beskyttelse af personlige oplysninger**: Vælg denne indstilling for at medtage linket til erklæringen om beskyttelse af personlige oplysninger,[!include[SM](../../../learn/includes/as-defined-sm.md)]
 
-* **Person - abonnement**: Vælg de abonnementer, der skal være synlige i formularen.
+* **Person - abonnement**: Vælg de [abonnementer][3], der skal være synlige i formularen.
 
 * **Firmanavn: Brug eksisterende firma hvis fundet**.
 
@@ -83,6 +83,7 @@ Dette er en oversigt over særlige indstillinger i nogle af de tilgængelige fel
 <!-- Referenced links -->
 [1]: ../../../../en/marketing/forms/recaptcha.md
 [2]: create.md#multi-page
+[3]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png

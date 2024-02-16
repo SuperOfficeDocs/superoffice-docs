@@ -20,7 +20,7 @@ language: de
 
 * **Antwort**: Jeder Empfänger, der auf einen Link, wie z. B. eine neue Produktseite, klickt, wird im System erfasst. Dadurch können Sie das Interesse unter allen Empfängern über mehrere Kampagnen hinweg messen.
 
-* **Interessentenliste**: Wenn Sie ein neues Produkt auf den Markt bringen, haben die Empfänger die Möglichkeit, ihr Interesse an dem Produkt zu bekunden, indem sie auf den Link "Bitte senden Sie mir weitere Informationen zu" klicken. Interessenten, die auf diesen Link klicken, können in SuperOffice CRM einer statischen Selektion hinzugefügt werden, anhand derer die Vertriebsmitarbeiter den weiteren Kontakt mit diesen Kunden verwalten können.
+* **Interessentenliste**: Wenn Sie ein neues Produkt auf den Markt bringen, haben die Empfänger die Möglichkeit, ihr Interesse an dem Produkt zu bekunden, indem sie auf den Link "Bitte senden Sie mir weitere Informationen zu" klicken. Interessenten, die auf diesen Link klicken, können [einer statischen Selektion][3] hinzugefügt werden, anhand derer die Vertriebsmitarbeiter den weiteren Kontakt mit diesen Kunden verwalten können.
 
 * **Folgeaufgabe für Verkäufer in SuperOffice CRM**: Eine Alternative zu der im obigen Beispiel genannten Interessentenliste besteht darin, für alle Link-Aufrufe Aufgaben/Besprechung für Verkäufer/Kundenkontakte zu generieren. Ein Klick auf den Link "Bitte setzen Sie sich mit mir in Verbindung" könnte beispielsweise eine Folgeaufgabe des Typs "Abgehender Anruf" für die Person des betreffenden Kunden in SuperOffice CRM erstellen. Dieser Folgeaufgabe könnte außerdem mit einer Marketingkampagne oder einem anderen Projekt in SuperOffice CRM verknüpft werden.
 
@@ -38,6 +38,7 @@ language: de
 * **Individuelle Folgeaufgaben**: Sie haben kürzlich ein wichtiges Update Ihres Produkts veröffentlicht. Nicht alle Ihre Kunden verfügen über eine IT-Abteilung vor Ort, die sich um das Update kümmern kann. Fügen Sie deshalb einen Link für die Kunden ein, damit er einen Berater buchen kann. Für jeden Kunden, der auf diesen Link klickt, wird dann in SuperOffice Service eine neue Anfrage erfasst. Die Anfrage wird der Kategorie "Berater" zugeordnet, wobei der Leiter der Beratungsabteilung als Eigentümer festgelegt wird. Der Kunde erhält zusätzlich die Rückmeldung, dass sich ein Berater mit ihm in Verbindung setzen wird.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md
+[1]: ../../recipients/learn/add-unsubscribe-link.md
+[3]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->

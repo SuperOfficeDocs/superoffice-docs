@@ -49,7 +49,7 @@ Du kan inkludera länkar (URL-adresser) i ett e-postmeddelande eller formulärsv
 * [Jobba med mottagarlistan][1]
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/follow-up/look-at-recipient-list.md
+[1]: ../../recipients/learn/look-at-recipient-list.md
 [2]: create-links.md
 [4]: define-link-actions.md
 

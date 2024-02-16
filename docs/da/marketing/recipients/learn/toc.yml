@@ -1,0 +1,13 @@
+items:
+  - name: Målliste
+    href: index.md
+  - name: Vedligehold abonnementer
+    href: manage-email-subscriptions.md
+  - name: Tilføj afmeldingslink (GDPR)
+    href: add-unsubscribe-link.md
+  - name: Liste over modtagere
+    href: look-at-recipient-list.md
+  - name: Vedligehold returposter
+    href: manage-bounces.md
+  - name: Spam-klager
+    href: spam-complaints.md

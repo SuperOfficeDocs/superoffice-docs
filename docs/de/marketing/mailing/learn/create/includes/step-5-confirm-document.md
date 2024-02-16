@@ -21,7 +21,7 @@ Klicken Sie auf die Kampagne in der Liste, um sich den [Sendestatus und Statisti
 4. Öffnen und drucken Sie das Dokument.
 
 <!-- Referenced links -->
-[1]: ../../follow-up/view-statistics.md
+[1]: ../../view-statistics.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../../media/icons/btn-menu.png

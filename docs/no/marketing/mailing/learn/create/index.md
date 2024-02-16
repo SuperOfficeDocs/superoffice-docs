@@ -70,7 +70,6 @@ I det femte og siste trinnet bekrefter du og sender eller planlegger utsendelsen
 ## Hva vil du gjøre nå?
 
 * [Angi innstillinger for utsendelser][5]
-* [Følge opp utsendelser][6]
 * [Spore utsendelsen og vise statistikk][7]
 * [Arbeide med mottakerlisten i etterkant av utsendelsen][8]
 * [Arbeide med sporede koblinger i etterkant av utsendelsen][9]
@@ -80,13 +79,12 @@ I det femte og siste trinnet bekrefter du og sender eller planlegger utsendelsen
 [2]: tutorial-sms-mailing.yml
 [3]: tutorial-document-mailing.yml
 [4]: tutorial-form-mailing.yml
-[5]: ../admin/define-settings-for-mailings.md
-[6]: ../follow-up/index.md
-[7]: ../follow-up/view-statistics.md
-[8]: ../follow-up/look-at-recipient-list.md
-[9]: ../../../tracked-links/learn/explore-clicks.md
 [10]: send-test-email.md
-[11]: target-list.md
+[5]: ../../admin/define-settings-for-mailings.md
+[7]: ../view-statistics.md
+[9]: ../../../tracked-links/learn/explore-clicks.md
+[11]: ../../../recipients/learn/index.md
+[8]: ../../../recipients/learn/look-at-recipient-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/marketing/mailing-workflow-all.png

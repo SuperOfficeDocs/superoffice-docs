@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: sv
 so.audience: user
-so.audience.tooltip: SuperOffice CRM
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Arbeta med meddelandemallarna
@@ -39,7 +39,7 @@ Du hittar ytterligare meddelandemallar under fliken Alla mallar, om du vill anv�
 
 ## Använda mallar från online-mallbiblioteket
 
-Online-mallbiblioteket i SuperOffice Marknadsföring innehåller ett brett urval av professionellt designade meddelandemallar. Använd gratis!
+Detta bibliotek erbjuder ett brett utbud av professionellt utformade meddelandemallar, alla tillgängliga för användning utan kostnad.
 
 1. Välj fliken **Meddelandemallar**.
 2. Klicka på **Online-mallbiblioteket**.
@@ -71,7 +71,7 @@ Förutom mallarna som skapats av dig och dina kolleger, har du tillgång till en
 
 * Lägg till din kontaktinformation, till exempel företagets adress, e-postadress, webbplats och telefonnummer.
 
-* Lägg till länken för avregistrering. Enligt den nya dataskydds- och integritetsförordningen (GDPR) måste du lägga till en tydligt synlig avregistreringslänk och göra det enkelt för mottagare att välja bort dina utskick.
+* [Lägg till länken för avregistrering][6]. Enligt den nya dataskydds- och integritetsförordningen (GDPR) måste du lägga till en tydligt synlig avregistreringslänk och göra det enkelt för mottagare att välja bort dina utskick.
 
 * Lägg till [kopplingsfält][3] (kallas även mallvariabler). Du kan inkludera varje mottagares uppgifter för att anpassa ditt meddelande. Detta hjälper dig att öka öppnings- och klickfrekvensen. Du kan till exempel tilltala din läsare med hans/hennes förnamn eller fullständiga namn eller namnet på företaget där de arbetar. SuperOffice CRM erbjuder en mängd olika kopplingsfält som du kan använda för att anpassa dina utskick.
 
@@ -131,6 +131,7 @@ Förutom mallarna som skapats av dig och dina kolleger, har du tillgång till en
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
 [5]: ../editor/learn/index.md#old
+[6]: ../recipients/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

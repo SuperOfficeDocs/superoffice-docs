@@ -20,7 +20,7 @@ Sporbare links kan bruges på flere måder:
 
 * **Svar**: Alle modtagere, der klikker på et link, for eksempel til en ny produktside, registreres i systemet. På den måde kan du se, hvor stor interessen er blandt alle modtagerne på tværs af flere udsendelser.
 
-* **Liste over kundeemner**: Hvis du skal lancere et nyt produkt, kan modtagerne udtrykke deres interesse for produktet ved at klikke på linket "Send flere oplysninger til mig". De, der klikker på linket, kan føjes til et statisk udtræk i SuperOffice CRM, som sælgerne kan bruge til at håndtere den videre kontakt med disse kunder.
+* **Liste over kundeemner**: Hvis du skal lancere et nyt produkt, kan modtagerne udtrykke deres interesse for produktet ved at klikke på linket "Send flere oplysninger til mig". De, der klikker på linket, kan føjes til et [statisk udtræk][3], som sælgerne kan bruge til at håndtere den videre kontakt med disse kunder.
 
 * **Opfølgning for sælgere i SuperOffice CRM**: Et alternativ til listen over kundeemner i eksemplet ovenfor er at generere en opgave/møde for sælgere/kundepersoner for hvert linkklik. Et klik på linket "Kontakt mig" kan f.eks. generere en opfølgning i SuperOffice CRM af typen "Udgående telefonopkald" til kundens kontaktperson. Opfølgningen kan desuden tilknyttes et projekt i SuperOffice CRM, f.eks. en markedsføringskampagne.
 
@@ -38,6 +38,7 @@ Sporbare links kan bruges på flere måder:
 * **Individuel opfølgning**: Du har lige udgivet en større opdatering til dit produkt. Ikke alle dine kunder har en intern IT-afdeling, der kan tage sig af opdateringen, så du tilføjer et link, som kunden kan klikke på for at booke en konsulent. Der registreres så en ny sag i SuperOffice Service for hver kunde, der klikker på linket. Sagen får kategorien "Konsulent", og chefen for konsulentafdelingen sættes som ejer. Kunden får desuden en tilbagemelding om, at de vil blive kontaktet af en konsulent.
 
 <!-- Referenced links -->
-[1]: ../../mailing/learn/create/add-unsubscribe-link.md
+[1]: ../../recipients/learn/add-unsubscribe-link.md
+[3]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->

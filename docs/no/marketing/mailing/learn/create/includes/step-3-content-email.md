@@ -23,7 +23,7 @@ Du kan opprette og lagre innholdsblokker som alle brukerne dine kan velge og vra
 [4]: ../../../../editor/learn/edit-paragraph.md
 [5]: ../../../../editor/learn/add-merge-tag.md
 [11]: ../../../../tracked-links/learn/add-tracked-link-to-msg.md
-[8]: ../add-unsubscribe-link.md
+[8]: ../../../../recipients/learn/add-unsubscribe-link.md
 [7]: ../send-test-email.md
 
 <!-- Referenced images -->
