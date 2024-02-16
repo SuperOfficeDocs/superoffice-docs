@@ -80,23 +80,21 @@ For at demonstrere, hvordan du kan bruge funktionen Find til salgsprognoser, er 
 
 1. Klik på Find salg for at åbne en ny søgning relateret til salg.
 
-2. Klik på Find salg for at åbne en ny søgning relateret til salg.
-
     ![Klik på Find salg for at åbne en ny salgsrelateret søgning -screenshot][img8]
 
-3. Her kan du ændre de foruddefinerede felter med nyt input eller slette unødvendige kriterier helt, eller du kan klikke på knappen Tilføj for at tilføje et nyt søgekriterium.
+2. Her kan du ændre de foruddefinerede felter med nyt input eller slette unødvendige kriterier helt, eller du kan klikke på knappen Tilføj for at tilføje et nyt søgekriterium.
 
-4. Når du klikker på Tilføj, vises en rulleliste. Klik på Salg på rullelisten. Vælg derefter feltet Beløb.
+3. Når du klikker på Tilføj, vises en rulleliste. Klik på Salg på rullelisten. Vælg derefter feltet Beløb.
 
-5. Klik på det andet felt, der aktuelt viser dig tegnet =. Vælg tegnet >.
+4. Klik på det andet felt, der aktuelt viser dig tegnet =. Vælg tegnet >.
 
-6. Tilføj den værdi, der skal opfyldes. I dette tilfælde større end € 5000. Klik på det tredje felt, og tilføj 5000.
+5. Tilføj den værdi, der skal opfyldes. I dette tilfælde større end € 5000. Klik på det tredje felt, og tilføj 5000.
 
     ![Modificer de foruddefinerede felter med nyt input, eller slet unødvendige kriterier helt -screenshot][img9]
 
-7. For at tilføje flere kriterier skal du blot gentage denne proces.
+6. For at tilføje flere kriterier skal du blot gentage denne proces.
 
-8. Tryk på Find nederst i skærmbilledet for at se alle dine åbne salgsmuligheder, der har en værdi over € 5000.
+7. Tryk på Find nederst i skærmbilledet for at se alle dine åbne salgsmuligheder, der har en værdi over € 5000.
 
 Du har nu oprettet en liste med alle åbne salg til en værdi af over € 5000 foretaget i år. Du kan bruge denne liste, som den er, eller du kan bruge denne liste til at præsentere dine resultater på en anden måde. Du kan for eksempel [visualisere din liste med en graf][6] og tilføje den til dit [personlige salgsdashboard][7].
 
