@@ -3,7 +3,8 @@ uid: help-nl-invitation-accept
 title: Vervolgactiviteiten waarvoor u bent uitgenodigd
 description: Vervolgactiviteiten weergeven waarvoor u bent uitgenodigd
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 02.16.2024
+so.version: 10.3.2
 keywords: agenda, vervolgactiviteit, uitnodiging
 so.topic: howto
 language: nl
@@ -20,6 +21,8 @@ Deelnemers die worden uitgenodigd voor een vervolgactiviteit ontvangen een meldi
 * Klik op het **belpictogram** in de bovenste balk om uw uitnodigingen te bekijken.
 * Klik op de link in de Meldingen-paneel om de vervolgactiviteit te openen.
 * Klik op **Accepteren** of **Weigeren** om te reageren op de uitnodiging.
+
+    Om afgewezen vergaderingen te zien waar je misschien nu aan kunt deelnemen, kies **Toon uitnodigingen die ik heb afgewezen** onderaan het **Meldingen**-paneel.
 
 [Lees meer over meldingen.][1]
 

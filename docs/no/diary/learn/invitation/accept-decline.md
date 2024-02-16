@@ -3,7 +3,8 @@ uid: help-no-invitation-accept
 title: Oppfølginger du er invitert til
 description: Vise oppfølginger du er invitert til; Godta eller avslå invitasjoner
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 02.16.2024
+so.version: 10.3.2
 keywords: dagbok, oppfølging, invitasjon
 so.topic: howto
 language: no
@@ -20,6 +21,8 @@ Deltakere som er blitt invitert til en oppfølging, får et varsel.
 * Klikk på bjelleikonet i toppfeltet for å se invitasjonene dine.
 * Klikk på lenken i Varsler-panelet for å åpne oppfølgingen.
 * Klikk på **Godta** eller **Avslå** for å svare på invitasjonen.
+
+    For å se avviste møter som du kanskje nå kan delta i, velg **Vis invitasjoner jeg har avslått** nederst i Varsler-panelet.
 
 [Les mer om varsler.][1]
 
