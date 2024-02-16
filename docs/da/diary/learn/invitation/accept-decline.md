@@ -3,7 +3,8 @@ uid: help-da-invitation-accept
 title: "Opfølgninger, du er inviteret til"
 description: "Visning af opfølgninger, du er inviteret til; Accepter eller afvis invitationer"
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 02.16.2024
+so.version: 10.3.2
 keywords: dagbog, opfølgning, invitation
 so.topic: howto
 language: da
@@ -20,6 +21,8 @@ Deltagere, der er blevet inviteret til en opfølgning, modtager en advarsel på 
 * Klik på klokkeikonet i toplinjen for at se dine invitationer.
 * Klik på linket i Notifikationer-panel for at åbne opfølgingen.
 * Klik på **Accepter** eller **Afvis** for at svare på invitationen.
+
+    For at se afviste møder, som du måske nu kan deltage i, skal du vælge **Vis invitationer, jeg har afvist** i bunden af **Notifikationer**-panelet.
 
 [Læs mere om meddelelser.][1]
 

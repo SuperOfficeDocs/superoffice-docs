@@ -80,23 +80,21 @@ To demonstrate how you can use the Find feature for sales forecasting, here is a
 
 1. Click on Find Sale to open a new search related to sales.
 
-2. Click on Find Sale to open a new search related to sales.
-
     ![Click on the Find Sale to open a new sales related search -screenshot][img8]
 
-3. Here you can modify the predefined fields with new input, or delete unnecessary criteria altogether, or click Add button to add a new search criterion.
+2. Here you can modify the predefined fields with new input, or delete unnecessary criteria altogether, or click Add button to add a new search criterion.
 
-4. When you click Add, a drop-down menu will appear. Click on Sale in the drop-down menu. Then select the field called Amount.
+3. When you click Add, a drop-down menu will appear. Click on Sale in the drop-down menu. Then select the field called Amount.
 
-5. Click on the second field that currently shows you the = sign. Choose the sign >.
+4. Click on the second field that currently shows you the = sign. Choose the sign >.
 
-6. Add the value that has to be met. In this case, greater than €5000. Click on the third field and add 5000.
+5. Add the value that has to be met. In this case, greater than €5000. Click on the third field and add 5000.
 
     ![Modify the predefined fields with new input, or delete unnecessary criteria altogether -screenshot][img9]
 
-7. To add more criteria just repeat this process.
+6. To add more criteria just repeat this process.
 
-8. Press Find at the bottom of the screen to see all your open sales opportunities with a value larger than €5000.
+7. Press Find at the bottom of the screen to see all your open sales opportunities with a value larger than €5000.
 
 you have now created a list containing all open sales worth over €5000 made this year. You can use this list as it is, or you can use this list to present your finding in a different way. You can, for example, [visualize your list with a graph][6], and add it to your [personal sales dashboard][7].
 

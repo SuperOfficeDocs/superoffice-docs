@@ -80,23 +80,21 @@ Um zu veranschaulichen, wie Sie die Suchfunktion für Umsatzprognosen verwenden 
 
 1. Klicken Sie auf Verkauf suchen, um eine neue Suche im Zusammenhang mit Verkäufen zu öffnen.
 
-2. Klicken Sie auf Verkauf suchen, um eine neue Suche im Zusammenhang mit Verkäufen zu öffnen.
-
     ![Klicken Sie auf Verkauf suchen, um eine neue Suche im Zusammenhang mit Suchanfragen zu öffnen -screenshot][img8]
 
-3. Hier können Sie die vordefinierten Felder mit neuen Eingaben ändern, unnötige Kriterien ganz löschen oder auf die Schaltfläche Hinzufügen klicken, um ein neues Suchkriterium hinzuzufügen.
+2. Hier können Sie die vordefinierten Felder mit neuen Eingaben ändern, unnötige Kriterien ganz löschen oder auf die Schaltfläche Hinzufügen klicken, um ein neues Suchkriterium hinzuzufügen.
 
-4. Wenn Sie auf Hinzufügen klicken, wird ein Dropdown-Menü angezeigt. Klicken Sie im Drop-Down-Menü auf Verkauf. Wählen Sie dann das Betrag genannte Feld aus.
+3. Wenn Sie auf Hinzufügen klicken, wird ein Dropdown-Menü angezeigt. Klicken Sie im Drop-Down-Menü auf Verkauf. Wählen Sie dann das Betrag genannte Feld aus.
 
-5. Klicken Sie auf das zweite Feld, in dem derzeit das = Zeichen angezeigt wird. Wählen Sie das Zeichen &gt; an.
+4. Klicken Sie auf das zweite Feld, in dem derzeit das = Zeichen angezeigt wird. Wählen Sie das Zeichen &gt; an.
 
-6. Fügen Sie den zu erfüllenden Wert hinzu. In diesem Fall ´mehr als 5000 €´. Klicken Sie auf das dritte Feld und fügen Sie 5000 hinzu.
+5. Fügen Sie den zu erfüllenden Wert hinzu. In diesem Fall ´mehr als 5000 €´. Klicken Sie auf das dritte Feld und fügen Sie 5000 hinzu.
 
     ![Ändern Sie die vordefinierten Felder mit neuen Eingaben oder löschen Sie unnötige Kriterien ganz -screenshot][img9]
 
-7. Wiederholen Sie einfach diesen Vorgang, um weitere Kriterien hinzuzufügen.
+6. Wiederholen Sie einfach diesen Vorgang, um weitere Kriterien hinzuzufügen.
 
-8. Klicken Sie unten in der Anzeige auf Suchen, um alle Ihre offenen Verkaufschancen mit einem Wert von mehr als 5000 € anzuzeigen.
+7. Klicken Sie unten in der Anzeige auf Suchen, um alle Ihre offenen Verkaufschancen mit einem Wert von mehr als 5000 € anzuzeigen.
 
 Sie haben nun eine Liste mit allen offenen Verkäufen im Wert von über 5000 € erstellt, die in diesem Jahr getätigt wurden. Sie können diese Liste so verwenden oder Sie können diese Liste verwenden, um Ihr Ergebnis auf eine andere Art und Weise zu präsentieren. Sie können zum Beispiel Ihre [Liste mit einem Diagramm visualisieren][6] und zu [persönliches Verkaufs-Dashboard][7] hinzufügen.
 

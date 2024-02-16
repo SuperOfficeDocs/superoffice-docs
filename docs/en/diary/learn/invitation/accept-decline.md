@@ -3,8 +3,8 @@ uid: help-en-invitation-accept
 title: Follow-ups you are invited to
 description: Show follow-ups you are invited to; accept or decline an invitation
 author: Bergfrid Dias
-so.date: 11.20.2023
-so.version: 10.2.11
+so.date: 02.16.2024
+so.version: 10.3.2
 keywords: diary, follow-up, invitation
 so.topic: howto
 language: en
@@ -21,6 +21,8 @@ Attendees who are invited to a follow-up will receive a notification.
 * Click the bell icon in the Top bar to view your invitations.
 * Click the link in the **Notifications** panel to open the follow-up.
 * Click **Accept** or **Decline** to respond to the invitation.
+
+    To see declined meetings that you might now be able to attend, choose **Show invitations I have declined** at the bottom of the **Notifications** panel.
 
 [Read more about notifications.][1]
 

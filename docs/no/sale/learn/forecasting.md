@@ -80,23 +80,21 @@ For å demonstrere hvordan du kan bruke Finn-funksjonen til salgsprognoser, vise
 
 1. Klikk på Finn salg for å åpne et nytt søk relatert til salg.
 
-2. Klikk på Finn salg for å åpne et nytt søk relatert til salg.
-
     ![Klikk på Finn salg for å åpne et nytt salgsrelatert søk -screenshot][img8]
 
-3. Her kan du endre de forhåndsdefinerte feltene med nye inndata, slette unødvendige kriterier helt, eller klikke på Legg til-knappen for å legge til et nytt søkekriterium.
+2. Her kan du endre de forhåndsdefinerte feltene med nye inndata, slette unødvendige kriterier helt, eller klikke på Legg til-knappen for å legge til et nytt søkekriterium.
 
-4. Når du klikker på Legg til, vises en nedtrekksmeny. Klikk på Salg i nedtrekksmenyen. Velg deretter feltet som heter Beløp.
+3. Når du klikker på Legg til, vises en nedtrekksmeny. Klikk på Salg i nedtrekksmenyen. Velg deretter feltet som heter Beløp.
 
-5. Klikk på det andre feltet, som for øyeblikket viser deg tegnet =. Velg tegnet >.
+4. Klikk på det andre feltet, som for øyeblikket viser deg tegnet =. Velg tegnet >.
 
-6. Legg til verdien som må oppfylles. I dette tilfellet større enn € 5000. Klikk på det tredje feltet, og legg til 5000.
+5. Legg til verdien som må oppfylles. I dette tilfellet større enn € 5000. Klikk på det tredje feltet, og legg til 5000.
 
     ![Endre de forhåndsdefinerte feltene med nye inndata, eller slett unødvendige kriterier helt -screenshot][img9]
 
-7. Gjenta prosessen for å legge til flere kriterier.
+6. Gjenta prosessen for å legge til flere kriterier.
 
-8. Trykk på Finn nederst på bildet for å se alle dine åpne salgsmuligheter med en verdi større enn 5000 euro.
+7. Trykk på Finn nederst på bildet for å se alle dine åpne salgsmuligheter med en verdi større enn 5000 euro.
 
 Du har nå laget en liste med alle åpne salg fra i år som er verdt over € 5000. Du kan bruke denne listen som den er, eller du kan bruke den til å presentere funnene dine på en annen måte. Du kan for eksempel [visualisere listen din med en graf][6], og legge den til i ditt [personlige salgsdashbord.][7]
 

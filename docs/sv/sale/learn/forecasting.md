@@ -80,23 +80,21 @@ För att visa hur du kan använda sökfunktionen för försäljningsprognoser, �
 
 1. Klicka på Hitta försäljning för att öppna en ny sökning relaterad till försäljning.
 
-2. Klicka på Hitta försäljning för att öppna en ny sökning relaterad till försäljning.
-
     ![Klicka på Hitta försäljning för att öppna en ny försäljningsrelaterad sökning -screenshot][img8]
 
-3. Här kan du ändra de fördefinierade fälten med ny inmatning, eller ta bort onödiga kriterier helt och hållet, eller klicka på knappen lägg till för att lägga till ett nytt sökkriterium.
+2. Här kan du ändra de fördefinierade fälten med ny inmatning, eller ta bort onödiga kriterier helt och hållet, eller klicka på knappen lägg till för att lägga till ett nytt sökkriterium.
 
-4. När du klickar på lägg till, visas en rullgardinsmeny. Välj försäljning i rullgardinsmenyn. Välj sedan fältet som heter belopp.
+3. När du klickar på lägg till, visas en rullgardinsmeny. Välj försäljning i rullgardinsmenyn. Välj sedan fältet som heter belopp.
 
-5. Klicka på det andra fältet som för närvarande visar tecknet =. Välj tecknet >.
+4. Klicka på det andra fältet som för närvarande visar tecknet =. Välj tecknet >.
 
-6. Lägg till det värde som måste uppfyllas. I det här fallet mer än 5000 euro. Klicka på det tredje fältet och ange 5000.
+5. Lägg till det värde som måste uppfyllas. I det här fallet mer än 5000 euro. Klicka på det tredje fältet och ange 5000.
 
     ![Ändra de fördefinierade fälten med ny inmatning eller ta bort onödiga kriterier helt och hållet -screenshot][img9]
 
-7. För att lägga till fler kriterier, upprepar du bara denna process.
+6. För att lägga till fler kriterier, upprepar du bara denna process.
 
-8. Tryck på sök längst ner på skärmen för att se alla dina öppna försäljningsmöjligheter med ett värde som är större än 5000 euro.
+7. Tryck på sök längst ner på skärmen för att se alla dina öppna försäljningsmöjligheter med ett värde som är större än 5000 euro.
 
 Du har nu skapat en lista som innehåller all öppen försäljning värd över 5000 euro som gjorts i år. Du kan använda den här listan som den är, eller så kan du använda den här listan för att presentera ditt resultat på ett annat sätt. Du kan till exempel [visualisera din lista med ett diagram][6] och lägga till den i din [personliga försäljningsdashboard][7].
 

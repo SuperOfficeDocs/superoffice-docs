@@ -80,23 +80,21 @@ Om te laten zien hoe u de functie Zoeken kunt gebruiken voor verkoopprognoses, v
 
 1. Klik op Verkoop zoeken om een nieuwe zoekopdracht met betrekking tot verkoop te openen.
 
-2. Klik op Verkoop zoeken om een nieuwe zoekopdracht met betrekking tot verkoop te openen.
-
     ![Klik op de Verkoop zoeken om een zoekopdracht voor nieuwe verkoop te openen -screenshot][img8]
 
-3. Hier kunt u de vooraf gedefinieerde velden wijzigen met nieuwe invoer, of onnodige criteria helemaal verwijderen, of op de knop Toevoegen klikken om een nieuw zoekcriterium toe te voegen.
+2. Hier kunt u de vooraf gedefinieerde velden wijzigen met nieuwe invoer, of onnodige criteria helemaal verwijderen, of op de knop Toevoegen klikken om een nieuw zoekcriterium toe te voegen.
 
-4. Wanneer u op Toevoegen klikt, verschijnt er een vervolgkeuzemenu. Klik op Verkoop in het vervolgkeuzemenu. Selecteer vervolgens het veld met de naam Bedrag.
+3. Wanneer u op Toevoegen klikt, verschijnt er een vervolgkeuzemenu. Klik op Verkoop in het vervolgkeuzemenu. Selecteer vervolgens het veld met de naam Bedrag.
 
-5. Klik op het tweede veld waar momenteel het = teken staat. Kies het teken >.
+4. Klik op het tweede veld waar momenteel het = teken staat. Kies het teken >.
 
-6. Vul de waarde in waaraan voldaan moet worden. In dit geval groter dan € 5000. Klik op het derde veld en vul 5000 in.
+5. Vul de waarde in waaraan voldaan moet worden. In dit geval groter dan € 5000. Klik op het derde veld en vul 5000 in.
 
     ![Wijzig de vooraf gedefinieerde velden met nieuwe invoer of verwijder onnodige criteria helemaal -screenshot][img9]
 
-7. Als u meer criteria wilt toevoegen, herhaalt u dit proces.
+6. Als u meer criteria wilt toevoegen, herhaalt u dit proces.
 
-8. Druk op Zoeken onder aan het scherm om al uw openstaande verkoopkansen met een waarde groter dan € 5000 te bekijken.
+7. Druk op Zoeken onder aan het scherm om al uw openstaande verkoopkansen met een waarde groter dan € 5000 te bekijken.
 
 U hebt nu een lijst gemaakt met alle openstaande verkopen in dit jaar met een waarde van meer dan € 5000. U kunt deze lijst gebruiken zoals deze is, of u kunt deze lijst gebruiken om de uitkomst op een andere manier te presenteren. U kunt bijvoorbeeld [uw lijst visualiseren met een grafiek][6], en deze toevoegen aan uw [persoonlijke verkoopdashboard][7].
 

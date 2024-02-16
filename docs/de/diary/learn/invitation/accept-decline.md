@@ -3,7 +3,8 @@ uid: help-de-invitation-accept
 title: Folgeaufgaben zu denen Sie eingeladen sind
 description: "Folgeaufgaben anzeigen, zu denen Sie eingeladen sind; Einladungen annehmen oder ablehnen"
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 02.16.2024
+so.version: 10.3.2
 keywords: Kalender, Folgeaufgabe, Einladung
 so.topic: howto
 language: de
@@ -20,6 +21,8 @@ Teilnehmer, die zu einer Folgeaufgabe eingeladen sind, werden eine Benachrichtig
 * Klicken Sie auf das Glocken-Symbol in der oberen Leiste, um Ihre Einladungen anzuzeigen.
 * Klicken Sie auf den Link in der Benachrichtigungen-Panel, um die Folgeaufgabe zu öffnen.
 * Klicken Sie auf **Annehmen** oder **Ablehnen**, um auf die Einladung zu antworten.
+
+    Um abgelehnte Meetings zu sehen, an denen Sie jetzt vielleicht teilnehmen können, wählen Sie **Zeige Einladungen, die ich abgelehnt habe** am unteren Rand des **Benachrichtigungen**-Panel.
 
 [Erfahren Sie mehr über Benachrichtigungen.][1]
 

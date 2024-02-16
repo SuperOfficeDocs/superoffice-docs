@@ -3,7 +3,8 @@ uid: help-sv-invitation-accept
 title: Händelser du har inbjudits till
 description: Visa händelser du har inbjudits till; Acceptera eller tacka nej till förfrågningar
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 02.16.2024
+so.version: 10.3.2
 keywords: kalender, händelse, förfrågning
 so.topic: howto
 language: sv
@@ -20,6 +21,8 @@ Deltagare som har bjudits in till en händelse får ett varningsmeddelande på t
 * Klicka på klockikonet i toppraden för att se dina förfrågningar.
 * Klicka på länken i Aviseringar-panelen för att öppna händelsen.
 * Klicka på **Acceptera** eller **Avslå** för att svara på förfrågningan.
+
+    För att se avvisade möten som du kanske nu kan delta i, välj **Visa inbjudningar jag har avvisat** längst ner i **Aviseringar**-panelen.
 
 [Läs mer om aviseringar.][1]
 
