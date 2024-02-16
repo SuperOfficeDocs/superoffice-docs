@@ -20,16 +20,18 @@ You can view the users already added on your partner page.
 
 ![Users page -screenshot][img1]
 
-# [Partner Admin](#tab/partner-admin)
+This task requires **User management** permission.
 
-## Who can I add?
+## [Partner Admin](#tab/partner-admin)
+
+### Who can I add?
 
 You can add any known user by name or email address that shares one or more tenants with you **in production**. You can't add users that don't share a tenant with you. If you want to add a user that doesn't share a tenant with you, you must first add the user to your tenant by creating a new user in the target SuperOffice instance [Settings and maintenance][3].
 
 * If it matches an existing [SuperID][2] user account, select and add the user to the partner. If you know this user is a SuperOffice CRM Online user, make sure you use the correct UPN - `firstname@company.com` versus `firstname.lastname@company.com`
 * If the search results are empty, ensure the **active user** belongs to at least one of your shared tenants **in production**. If not, you can't add them to your partner.
 
-## How to
+### How to
 
 1. In the Developer Portal, go to your partner page.
 2. Select **Users** from the left menu.
@@ -51,16 +53,16 @@ You can add any known user by name or email address that shares one or more tena
 
 7. You can now [assign permissions][1].
 
-# [DevPortal Admins](#tab/devportal-admin)
+## [DevPortal Admins](#tab/devportal-admin)
 
-## Who can I add?
+### Who can I add?
 
 You can assign a known user or create a new one. In both cases, you look up an email address.
 
 * If it matches an existing [SuperID][2] user account **in production**, all you have to do is to assign it to the partner. If you know this user is a SuperOffice CRM Online user, make sure you use the correct UPN - `firstname@company.com` versus `firstname.lastname@company.com`
 * If the address is unknown, you can fill in a form to create a new user. This person becomes both a SuperID user and a portal user.
 
-## How to
+### How to
 
 1. In the Developer Portal, go to your partner page.
 2. Select **Users** from the left menu.

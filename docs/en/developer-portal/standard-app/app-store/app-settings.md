@@ -2,11 +2,11 @@
 title: Application settings
 uid: dp-app-settings
 description: Reference of application settings in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-so.date: 09.08.2023
 keywords: apps, Developer Portal
-so.topic: reference
+author: Bergfrid Dias
+so.date: 02.15.2024
 so.dp-version: 1.10
+so.topic: reference
 so.envir: cloud
 so.client:
 ---
@@ -19,7 +19,7 @@ so.client:
 |---|---|---|---|
 | Application name | The human-readable name of the application. | [Update app info][3] | [Naming requirements][8] |
 | SEO-friendly name | For search engines. | [Update partner profile][2], [Update the product page][3] | [Improve SEO][1] |
-| Technical contact | The contact person for this app. | [Update contact person][21] | |
+| Technical contact | The contact person for this app. | [Update contact person][21], [Review and update all your technical contacts][22] | |
 | Error reporting emails | Semicolon-separated list of email addresses that should receive error emails. If empty, technical contact will get these. | [Set state change URL][26], [Get error emails][28] | [About tenant status][27] |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | [Create app][13] | [About custom apps][16] |
@@ -33,7 +33,7 @@ The [steps to update all App Store information][3] are the same.
 
 ### Description tab
 
-Setting | Description | Read more |
+| Setting | Description | Read more |
 |---|---|---|
 | Header | A one-liner to introduce the App and make visitors curious. The bold text below your company name on the App Store entry. | [Marketing requirements][7] |
 | About this app| In more detail (max 200 words), explain what your application does and what the customers get when they use it. Include the key benefit statements and customer testimonials if you have any. | [Marketing requirements][7] |
@@ -42,14 +42,14 @@ Setting | Description | Read more |
 
 ### Search engine optimization tab
 
-Setting | Description | Read more |
+| Setting | Description | Read more |
 |---|---|---|
 | Meta description | A meta description is a brief summary of a web page and should give the user an idea of the content. It is placed in the HTML tag and displayed in search engine results pages and can impact the click-through rate (CTR). | [Improve SEO][1] |
 | Meta keywords | Meta keywords range from single words to complex phrases and are used to inform website content in a more focused way than the description. | [Improve SEO][1] |
 
 ### Prices and terms
 
-Setting | Description | Read more |
+| Setting | Description | Read more |
 |---|---|---|
 | Is free | Marks the app as 100 percent free and hides the price field. | [Price info][6] |
 | Price | Lowest starting price in EUR (amount). | [Price info][6] |
@@ -58,7 +58,7 @@ Setting | Description | Read more |
 
 ### How to install
 
-Setting | Description | Read more |
+| Setting | Description | Read more |
 |---|---|---|
 | SuperOffice CRM plan | Which SuperOffice user plans are supported. | [How to install tab][4] |
 | Getting started | The steps needed to install and use the application. | [How to install tab][4] |
@@ -148,6 +148,7 @@ Setting | Description | Read more |
 [16]: ../../custom-app/index.md
 
 [21]: ../../faq/update-contact-person.md
+[22]: ../../partner/manage-technical-contacts.md
 [23]: ../../partner/partner-settings.md
 [24]: ../../partner/user-settings.md
 [26]: ../../best-practices/tenant-status/get-notifications.md
