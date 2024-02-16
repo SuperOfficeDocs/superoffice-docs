@@ -39,7 +39,7 @@ Administrators can disconnect a SuperID user from a partner in the SuperOffice D
     > [!TIP]
     > Alternatively, click the link below the **horizontal OR bar** to [review and update all your technical contacts][1].
 
-6. Click **Reassign and Remove** to finalize the process. (The button stays grayed out util all reassignments are OK.)
+6. Click **Reassign and Remove** to finalize the process. (The button stays grayed out until all reassignments are OK.)
 
 ## Related content
 
