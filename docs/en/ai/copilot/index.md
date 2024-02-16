@@ -1,14 +1,17 @@
 ---
+uid: so-copilot
 title: SuperOffice AI Services - Copilot
 description: SuperOffice AI Services - Copilot
 author: Bergfrid Dias, Filip Norman
-so.date: 12.19.2023
-so.version: 10.2.11
-so.pilot: yes
 keywords: AI, ChatGPT, OpenAI, Bing, Copilot
+so.date: 02.16.2024
+so.version: 10.3.2
+so.pilot: yes
 so.topic: concept
 so.envir: cloud
 so.client: online
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # SuperOffice Copilot
@@ -72,7 +75,6 @@ Prompts are subject to change without prior notice during the pilot!
 ### Diary
 
 * **Today:** AI summarizes a few news articles about what is happening today.
-* **Lunch tomorrow:** AI makes a lunch appointment for tomorrow. Provide time and place when asked. (Does NOT update your diary.)
 
 ### Sale
 
@@ -88,7 +90,7 @@ Prompts are subject to change without prior notice during the pilot!
 
 ### Requests
 
-* To come
+* **Summarize:** AI analyzes the request and request messages, extracts key information, and presents a brief, coherent summary.
 
 ### Selection
 
