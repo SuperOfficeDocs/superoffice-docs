@@ -2,8 +2,8 @@
 uid: help-en-mailing
 title: Work with mailings
 description: Work with mailings
-keywords: Marketing
-author: SuperOffice RnD
+keywords: Marketing, mailing
+author: SuperOffice RnD, Jeanette Small Strøm
 so.date: 02.12.2024
 so.version: 10
 so.topic: concept
@@ -64,6 +64,14 @@ Mailings can be associated with a selection or project in SuperOffice CRM, provi
 
 For instance, if multiple mailings are sent to promote an event, they can be grouped under a selection named "Event 2024", providing a comprehensive list of all event-related mailings. Similarly, creating a project for your event allows you to track all associated mailings under the **Activities** tab.
 
+## The importance of email deliverability
+
+Email marketing is a cost-effective marketing strategy that can result in [high returns on investment][20]. But to make the best out of this marketing tool, your emails need to arrive in your audience's inbox, not their SPAM folder.
+
+Picture this scenario: you have meticulously created an email campaign with top-notch content and design, hit the send button, and receive little to no response. Your open rate is disappointing and there are numerous bounces, or even worse, you are marked as spam.
+
+**Email deliverability** is a big deal because it decides if your emails actually make it to your subscribers' inboxes or not. If they do not get delivered, they will not be seen or read by your target audience, which means missed chances and lower success for your email marketing campaigns. Check out our [best practices][9].
+
 ## <a id="after" />How can I follow up mailings?
 
 After your mailing is sent, it is always exciting to see how well your mailing has performed. To see if all your hard work has paid off. It is also a great opportunity to check and improve the quality of the information registered in your CRM database.
@@ -80,6 +88,7 @@ After your mailing is sent, it is always exciting to see how well your mailing h
 [2]: view-statistics.md
 [4]: ../../forms/learn/create.md
 [6]: ../../editor/learn/add-unsubscribe-link.md
+[9]: ../../learn/best-practices.md
 [8]: ../../recipients/learn/index.md
 [11]: ../../recipients/learn/look-at-recipient-list.md
 [12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
@@ -87,5 +96,6 @@ After your mailing is sent, it is always exciting to see how well your mailing h
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md
 [5]: https://www.superoffice.co.uk/resources/articles/integrated-web-forms/
+[20]: https://www.superoffice.com/blog/email-marketing-strategy/
 
 <!-- Referenced images -->
