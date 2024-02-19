@@ -7,8 +7,6 @@ items:
     href: define-link-actions.md
   - name: Add Google Analytics tags
     href: add-google-analytics-tag.md
-  - name: Examples of use
-    href: examples.md
   - name: Explore clicks after sending
     href: explore-clicks.md
   - name: Reset counters

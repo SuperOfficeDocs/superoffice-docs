@@ -18,7 +18,7 @@ so.audience.tooltip: SuperOffice Marketing
 
 The goal of your newsletter or email campaign will determine what links you should use. Each goal will have its own call-to-action to trigger a response from the recipient that you want to track. This way you can follow up on your recipients after you have received all the results.
 
-For example, clicking on a link may open a new website or update your recipient's Contact card. The action can also add a service request in Service and in the Request section tab on the Contact card. The use of links is only available for users who subscribe to the Marketing plan.
+For example, clicking on a link may open a new website or update your recipient's Contact card. The action can also add a [Service request][8]. The use of links is only available for users who subscribe to the Marketing plan.
 
 Before you start the actual mailing, you can set up the links you will frequently use in your mailings. After you set them up, you can use them again and again which will help you save time. Most common links to use are, for example:
 
@@ -32,10 +32,38 @@ You can include links (URLs) in a message and track them. In other words, you ca
 
 The URLs must be unique for each recipient, so that you can be sure it was different recipients who clicked the links and not the same one who clicked several times. In addition, the URLs must point at the SuperOffice server, so that they can be counted before they are redirected to the destination URL. The program arranges all this automatically when you select which URLs in the message you want to track.
 
+## Examples of use
+
+Trackable links can be used in a variety of interesting ways:
+
+* **Response**: Each recipient who clicks a link, such as a new product page, is recorded in the system. This allows you to gauge the interest among all recipients across multiple mailings.
+
+* **Prospect list**: If you are launching a new product, recipients can register their interest in the product by clicking the "Send me more info" link. Those who click the link can be added to a [static selection][9], which sales staff can use to manage further contact with these customers.
+
+* **Follow-ups for salespersons in SuperOffice CRM**: One alternative to the prospect list in the example above is to generate a to-do or meeting for salespersons / customer contacts for each link click. A click on the "Contact me" link could, for example, generate a follow-up in SuperOffice CRM of type "Phone out" for the contact for that customer. In addition, the follow-up can be linked to a project in SuperOffice CRM, such as a marketing campaign.
+
+* **Unsubscribe**: In the content editor, you can [insert a link for unsubscribing][4] from a specific mailing type. This means that the customer no longer receives this mailing type from SuperOffice Marketing, regardless of which recipient list is used for the mailing.
+
+    An alternative to this unsubscribe link is to let the customer unsubscribe from individual recipient lists, such as the "Product A newsletter" list, so that they will still receive mailings from other recipient lists.
+
+    You do this by adding a link (for example "Click here if you no longer wish to receive our newsletters"), which the customer can click to remove himself/herself from the recipient list. The customer is then removed from the selection you used as a basis for the mailing.
+
+    If a newsletter is sent only to contacts with the "Newsletter" interest, you can define that this interest should be removed for recipients who click the link.
+
+    > [!TIP]
+    > To monitor who cancels their subscription, you can also ensure that those who click the link are also added to a separate selection named, for example, "Newsletter 2014 – cancelled subscriptions". It is possible to add multiple actions to the same link.
+
+* **Individual follow-up**: You have just released a major update to your product. Not all your customers have an in-house IT department to deal with the update, so you add a link that the customer can click to book a consultant. A new request is then registered in SuperOffice Service for each customer who clicks the link. The request is allocated to the "Consultant" category, with the head of the consultancy department set as the owner. The customer is also sent feedback that they will be contacted by a consultant.
+
+> [!NOTE]
+> These examples work equally well for ordinary links, but in that case only the clicks for the individual mailing are recorded.
+
+## The Tracked links tab
+
 In the **Tracked links** tab you have the following options:
 
 | Icon | Option | Read more |
-|---|---|---|
+|:-:|---|---|
 | ![icon][img2] | Add | [Create a new link][1] |
 | ![icon][img3] | Add folder | [Create a folder][5] for your links |
 | Link | Click a link to open the **View link** screen. | [Work with tracked links after the mailing][2] |
@@ -86,6 +114,8 @@ The Google Analytics feature in SuperOffice Marketing identifies your mailings i
 [3]: ../../editor/learn/add-tracked-link-to-msg.md
 [4]: ../../editor/learn/add-unsubscribe-link.md
 [5]: ../../learn/create-folder.md
+[8]: ../../../request/learn/index.md
+[9]: ../../../search-options/selection/learn/static-selections.md
 [6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
 
 <!-- Referenced images -->
