@@ -24,7 +24,7 @@ Add content to your message by using the side-panel.
 From the **Content** section you can add all types of content, such as columns, text blocks, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to [edit][2] it in the side panel.
 
 | Icon | Name | Function |
-|------|------|----------|
+|:-:|---|----------|
 | ![icon][img2] | Columns | Use columns to structure your message into columns and rows. |
 | ![icon][img3] | Button | Use buttons to add tracked links, regular URLs, or subscribe links. |
 | ![icon][img4] | Divider | Use divider lines to separate text blocks and other content. |
@@ -53,9 +53,22 @@ In this section you can edit the global properties and layout for the message.
 
 Add images from the SuperOffice database or from the royalty-free online image database. [How to insert images in the message][1].
 
+## Adding special links
+
+You can also **add special links** to your mailing. Depending on what you want to achieve, you can choose between:
+
+* [Link to view message online][3]
+* [Manage subscriptions][6]
+* [Unsubscribe][4]
+* [Tracked links][5]
+
 <!-- Referenced links -->
 [1]: insert-images-in-message.md
 [2]: edit-paragraph.md
+[3]: add-link-to-display-message-in-browser.md
+[4]: add-unsubscribe-link.md
+[5]: add-tracked-link-to-msg.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
