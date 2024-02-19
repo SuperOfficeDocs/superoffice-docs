@@ -11,6 +11,7 @@ so.topic: reference
 
 # New and improved Service
 
+* [Request types - to get efficient support (10.3.2)][4]
 * [Right-click to take ownership of requests (10.3.1)][1]
 * [Show SAINT status monitor on Requests screen (10.3.1)][1]
 * [System design - show extrafield in Request Properties sidebar (10.3.1)][2]
@@ -20,3 +21,4 @@ so.topic: reference
 [1]: 10.3.1-update.md
 [2]: ../admin/10.3.1-update.md
 [3]: ../core-crm/10.3.1-update.md
+[4]: 10.3.2-update.md

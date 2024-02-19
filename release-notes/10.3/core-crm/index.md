@@ -11,7 +11,11 @@ so.topic: reference
 
 # New and improved Core CRM
 
+* [Dashboard - New default Requests dashboard (10.3.2)][2]
+* [Dashboard - New standard request tiles (10.3.2)][2]
+* [Notifications - Show my declined invitations (10.3.2)][2]
 * [Dashboard - Request tiles (10.3.1)][1]
 
 <!-- Referenced links-->
 [1]: 10.3.1-update.md
+[2]: 10.3.2-update.md

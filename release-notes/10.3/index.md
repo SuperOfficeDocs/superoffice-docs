@@ -19,6 +19,13 @@ so.topic: reference
 
 ### SuperOffice CRM
 
+* 10.3.2 (20.02.2024):
+  * [Dashboard - Request dashboard and tiles (10.3.2)][12] in Core CRM and Service
+  * [Notifications - Show my declined invitations (10.3.2)][12] in Core CRM
+  * [Request types - to get efficient support (10.3.2)][13] Service
+  * [Requests - Request types setup (10.3.2)][14] in Settings and maintenance
+  * [Screen designer - Requests with Assign layouts to Request types or User group (10.3.2)][14] in Settings and maintenance
+
 * 10.3.1 (02.02.2024):
   * [Dashboard - Request tiles (10.3.1)][2] in Core CRM and Service
   * [Lists - Web panel setting for reload on navigation (10.3.1)][1] in Settings and maintenance
@@ -63,5 +70,8 @@ Latest released versions:
 [9]: https://appstore.superoffice.com/sp-softwarepartner-gmbh---dealfront/dealfront-connect
 [10]: https://appstore.superoffice.com/siteshop-aps/documendo-quote
 [11]: https://appstore.superoffice.com/siteshop-aps/documendo-sign
+[12]: core-crm/10.3.2-update.md
+[13]: service/10.3.2-update.md
+[14]: admin/10.3.2-update.md
 
 <!-- Referenced images -->

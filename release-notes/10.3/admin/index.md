@@ -11,8 +11,11 @@ so.topic: reference
 
 # New and improved Settings and maintenance
 
+* [Requests - Request types setup (10.3.2)][2]
+* [Screen designer - Requests with Assign layouts to Request types or User group (10.3.2)][2]
 * [Lists - Web panel setting for reload on navigation (10.3.1)][1]
 * [System design - Creating new field gives option to show in Properties panel (10.3.1)][1]
 
 <!-- Referenced links-->
 [1]: 10.3.1-update.md
+[2]: 10.3.2-update.md
