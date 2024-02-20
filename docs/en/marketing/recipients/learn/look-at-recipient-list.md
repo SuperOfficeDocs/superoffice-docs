@@ -65,18 +65,27 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 ## <a id="add-recipients" />Add recipients to selections or projects
 
-Using the ![icon][img2] menu button you can add recipients and clickers to a selection or project.
+Using the **Action** button you can add recipients and clickers to a selection or project.
 
 > [!NOTE]
 > Only contacts already registered in the SuperOffice database will be added to the selection or project. A contact icon ![icon][img3] in the **Type** column indicates that a contact is registered in the SuperOffice database. Recipients imported from external lists will typically not be registered.
 
 ### Add clickers to a new selection or project
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+1. Select the relevant contacts in the list.
+2. Click the **Action** button.
+3. Click **Add to existing selection** or **Add to existing project**.
+4. Start writing the name of the selection or project to search.
+5. Click the selection or project in the list.
+6. Click **OK**.
 
 ### Add clickers to an existing selection or project
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+1. Select the relevant contacts in the list.
+2. Click the **Action** menu button.
+3. Click **Add to new selection** or **Add to new project**.
+4. Write the name of the new selection or project.
+5. Click **OK**.
 
 ## Related topics
 

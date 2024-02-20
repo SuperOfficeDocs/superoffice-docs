@@ -1,10 +1,10 @@
 ---
 uid: help-en-tracked-links-view
 title: Work with tracked links after the mailing
-description: Work with tracked links after the mailing
-keywords: Marketing
-author: SuperOffice RnD
-so.date: 02.14.2024
+description: How you can work with tracked links after the mailing is sent.
+keywords: Marketing, mailing, tracked link, clicker
+author: Bergfrid Dias
+so.date: 02.20.2024
 so.version: 10
 so.topic: howto
 language: en
@@ -14,45 +14,46 @@ so.audience.tooltip: SuperOffice Marketing
 
 # Work with tracked links after the mailing
 
-You can include links (URLs) in an email mailing or form response and track them. In other words, you can see how many recipients have clicked them.
+Incorporating links (URLs) in your email mailings or form responses not only enhances interactivity but also allows for valuable insights. By tracking these links, you gain visibility into recipient engagement, quantified by the number of clicks. This data can be instrumental in refining your communication strategy and optimizing future interactions.
 
-## Where can I find the links?
+Let us delve into how you can work with these tracked links after the mailing is sent.
 
-* To view the links for a single mailing, open the relevant mailing, click the **Tracked links** tab, and click the link you want to work with.
+## Steps
 
-    > [!NOTE]
-    > The **Tracked links** tab is not available for document mailings.
+1. Locate the links:
 
-* To view the links for all mailings, click the **Tracked links** tab in the main SuperOffice Marketing screen. If you cannot find the link you want to work with, click **All links**. Click the link you want to work with.
+    * **Single mailing**: Open the mailing, select the **Tracked links** tab.
 
-    > [!NOTE]
-    > Only [registered links][2] are displayed here. If you add "regular" links in the mailing, you must select the **Track all links** option in Step 1: Setup.
+        This tab is unavailable for document mailings.
 
-## Explore clicks
+    * **All mailings**: From the main SuperOffice Marketing screen, select the **Tracked links** tab. If you cannot find your link, click **All links**.
 
-1. In the active mailing, select the **Tracked links** tab.
+        Only [registered links][2] appear here. To track all links in a mailing, enable the **Track all links** option in Step 1: Setup.
 
-2. Click the relevant link from the link list. The **View link** screen displays.
+2. Choose your link from the list.
 
-    Here you can see the number of clicks for the link and any [actions specified for the link][4]. In the **Clickers** list you can see who clicked the link and in which mailing they clicked the link.
+3. Explore clicks:
 
-3. Click **OK** to close the **View link** screen.
+    Here you can see the number of clicks for the link and any actions specified for the link. In the **Clickers** list, you can see who clicked the link and in which mailing they clicked the link.
 
-## Add clickers to a new selection or project
+4. Next steps: Decide what you want to do next.
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+    * [Add clickers to selections or projects][3].
+    * [Edit the link][2] by clicking the Edit button.
+    * [Work with the recipient list][1].
 
-## Add clickers to an existing selection or project
+5. Click **OK** to close the **View link** screen.
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+## How to check your mailing's results in Google Analytics
 
-## What do you want to do now?
+You can check the results of your mailings by logging in to your Google Analytics account. Your mailings should be visible in the Google Channel reports under Email.
 
-* [Edit the link][2] (Click the **Edit** button.)
-* [Work with the recipient list][1]
+> [!NOTE]
+> Please allow Google Analytics some time to process your tracking information. Your mailing source may take somewhere between 1-24 hours to register in your reports.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/look-at-recipient-list.md
+[3]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [2]: create-links.md
 [4]: define-link-actions.md
 
