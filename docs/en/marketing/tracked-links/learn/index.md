@@ -104,7 +104,7 @@ The Google Analytics feature in SuperOffice Marketing identifies your mailings i
 
 * [Include links you want to track][3]
 * [Add subscription links][4]
-* [Simple Google Analytics email tracking][6] - blog
+* [Tutorial - simple Google Analytics email tracking][6]
 * [Define link actions][7]
 
 <!-- Referenced links -->
@@ -116,7 +116,7 @@ The Google Analytics feature in SuperOffice Marketing identifies your mailings i
 [5]: ../../learn/create-folder.md
 [8]: ../../../request/learn/index.md
 [9]: ../../../search-options/selection/learn/static-selections.md
-[6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
+[6]: ga-tutorial.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
