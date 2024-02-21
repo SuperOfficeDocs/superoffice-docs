@@ -52,6 +52,9 @@ Latest released versions:
 ### Other highlights
 
 * **SuperOffice App store** - [New or updated apps][5]
+  * [Exact for SuperOffice (02.02.2024)][16]
+  * [Documendo Webforms (24.01.2024)][15]
+  * [ITX UC (05.11.2023)][17]
   * [Documendo Quote (23.01.2024)][10]
   * [Documendo Sign (22.01.2024)][11]
   * [AccountView for SuperOffice (18.12.2023)][6]
@@ -73,5 +76,8 @@ Latest released versions:
 [12]: core-crm/10.3.2-update.md
 [13]: service/10.3.2-update.md
 [14]: admin/10.3.2-update.md
+[15]: https://appstore.superoffice.com/siteshop-aps/documendo-webforms
+[16]: https://appstore.superoffice.com/all-crm/exact-for-superoffice
+[17]: https://appstore.superoffice.com/itx-norge-as/itx-uc
 
 <!-- Referenced images -->
