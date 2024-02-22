@@ -3,4 +3,4 @@
 
 * In the **Priority** list box, select the priority to give requests from this mailbox.
 
-* In the **Request type** list box, select the type the messages in this mailbox belong to. (Available in pilot only.)
+* In the **Request type** list box, select the type the messages in this mailbox belong to.

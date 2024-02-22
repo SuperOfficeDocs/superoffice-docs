@@ -3,8 +3,8 @@ uid: help-sv-request-type-create
 title: Skapa ärendetyp
 description: Skapa ärendetyp
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: ärende, typ
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: sv
 ---
 
-# Skapa ärendetyp (endast i pilot)
+# Skapa ärendetyp
 
 ## Steg
 
@@ -36,6 +36,8 @@ language: sv
     * Om du väljer en eller flera statusar måste du också välja en standardstatus.
     * Om du väljer en eller flera prioriteter måste du också välja en standardprioritet.
 
+    ![Inställningar och underhåll, ärendetypen status/prioritet -screenshot][img3]
+
 1. Valfritt, välj en standardstatus och/eller prioritet att använda när en agent skapar ett ärende av denna typ. (Obligatorisk om du sätter tillgänglighet.) Denna inställning går före andra preferenser.
 
 1. Valfritt, välj en [svarsmall][5] att använda när en agent svarar på ett ärende av denna typ.
@@ -52,3 +54,4 @@ language: sv
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/add-request-type.png
 [img2]: ../../../../media/loc/en/request/request-type-settings.png
+[img3]: ../../../../media/loc/en/request/add-request-type-status-priority.png

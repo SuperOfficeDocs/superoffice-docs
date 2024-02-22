@@ -3,8 +3,9 @@ uid: help-en-request-create
 author: Hanne Gunnarsson
 title: Create a request
 description: Create a request
-so.date: 07.05.2023
-keywords: request, create, comment, reply, new
+so.date: 22.02.24
+so.version: 10.3.2
+keywords: request, comment, reply
 so.topic: howto
 so.audience: person
 so.audience.tooltip: SuperOffice Service
@@ -38,27 +39,31 @@ A request can arrive in the system via an email from the customer, or you can re
 
 1. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
 
-1. Go to the **Properties panel** (on the right side of the screen) and enter information to correctly assign and prioritise the request.
+1. Go to the **Properties panel** (on the right side of the screen) and enter information to correctly assign and prioritize the request.
 
-   * In the **Status** list box, choose one of the following:
-     * **Open**: Select this option if the request is in progress.
-     * **Closed**: Select this option if the request is completed.
-     * **Postponed**: To postpone handling of this request, select this option and specify a date and time in the **Specified** field or a preset time in the list below. On this date and time, the request is set back to **Open**.
+    * In the **Request type** field, choose a type, which will affect default values and available statuses and priorities.
 
-   * In the **Owner** field, select one of the following options:
-     * To assign the request to a specific person, select the name you require. Select your own name to assign the ticket to yourself.
-     * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
-     * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
+    * In the **Status** list box, choose one of the following:
+      * **Open**: Select this option if the request is in progress.
+      * **Closed**: Select this option if the request is completed.
+      * **Postponed**: To postpone handling of this request, select this option and specify a date and time in the **Specified** field or a preset time in the list below. On this date and time, the request is set back to **Open**.
 
-   * In the **Category** field, select the category you want from the list that appears.
+    * In the **Owner** field, select one of the following options:
+      * To assign the request to a specific person, select the name you require. Select your own name to assign the ticket to yourself.
+      * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
+      * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
 
-   * In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
+    * In the **Category** field, select the category you want from the list that appears.
 
-   * In the **Access level for request** list box, select one of the following options:
-     * **External**: Select this option if the contact is to have access to the request via SuperOffice Customer Centre.
-     * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
+    * In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
 
-   * In the **Tags** list box, [select relevant tags][4] for this request.
+    * In the **Access level for request** list box, select one of the following options:
+      * **External**: Select this option if the contact is to have access to the request via SuperOffice Customer Centre.
+      * **Internal**: Select this option if the contact is not to have access to the request. The request will be listed in SuperOffice Customer Centre, but the contact cannot view the request details or messages.
+
+    * In the **Tags** list box, [select relevant tags][4] for this request.
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. In the **Messages** tab, enter the actual [message](#message) you want to add to the request.
 
@@ -142,3 +147,4 @@ The autosave feature is activated by default when you view and edit requests and
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

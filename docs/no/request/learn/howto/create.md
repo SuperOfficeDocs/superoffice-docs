@@ -3,7 +3,8 @@ uid: help-no-request-create
 author: Hanne Gunnarsson
 title: Opprette en sak
 description: Opprette en sak
-so.date: 02.20.2023
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: sak
 so.topic: howto
 so.audience: person
@@ -40,25 +41,29 @@ En sak kan komme inn i systemet via en e-postmelding fra kunden, eller du kan re
 
 1. Gå til panelet **Egenskaper** på høyre side av skjermen, og skriv inn informasjon slik at saken tildeles og prioriteres riktig.
 
-   * I listeboksen **Status** velger du ett av følgende:
-     * **Åpne**: Velg dette hvis saken er under arbeid.
-     * **Avsluttet**: Velg dette hvis saken er utført.
-     * **Utsatt**: Hvis du vil utsette behandlingen av denne saken, velger du dette alternativet og angir en dato og et klokkeslett i feltet **Angitt** eller et forhåndsinnstilt klokkeslett i listen nedenfor. På denne datoen og dette klokkeslettet settes saken til **Åpen** igjen.
+    * I listeboksen **Sakstype**, velger du en type, som vil påvirke standardverdier og tilgjengelige statusser og prioriteter.
 
-   * I feltet **Eier** velger du ett av følgende alternativer:
-     * Hvis du vil tildele saken til en bestemt person, velger du ønsket navn. Velg ditt eget navn for å tildele saken til deg selv.
-     * **(Automatisk tildelt)**: Hvis du velger dette alternativet, fordeler systemet saken etter gjeldende fordelingsregler.
-     * **(Ufordelt)**: Du kan også velge å ikke tildele saken. Da blir medlemmene av den aktuelle kategorien ansvarlige for å behandle saken.
+    * I listeboksen **Status** velger du ett av følgende:
+      * **Åpne**: Velg dette hvis saken er under arbeid.
+      * **Avsluttet**: Velg dette hvis saken er utført.
+      * **Utsatt**: Hvis du vil utsette behandlingen av denne saken, velger du dette alternativet og angir en dato og et klokkeslett i feltet **Angitt** eller et forhåndsinnstilt klokkeslett i listen nedenfor. På denne datoen og dette klokkeslettet settes saken til **Åpen** igjen.
 
-   * I feltet **Kategori** velger du kategorien du vil ha, fra listen som vises.
+    * I feltet **Eier** velger du ett av følgende alternativer:
+      * Hvis du vil tildele saken til en bestemt person, velger du ønsket navn. Velg ditt eget navn for å tildele saken til deg selv.
+      * **(Automatisk tildelt)**: Hvis du velger dette alternativet, fordeler systemet saken etter gjeldende fordelingsregler.
+      * **(Ufordelt)**: Du kan også velge å ikke tildele saken. Da blir medlemmene av den aktuelle kategorien ansvarlige for å behandle saken.
 
-   * I listeboksen **Prioritet** kan du velge mellom **Lav**, **Medium** og **Høy**, eller du kan angi at systemet skal tildele prioritet automatisk. Det kan f.eks. gjøres på grunnlag av [eskaleringsnivåer][3] som er angitt for ulike personer og firmaer.
+    * I feltet **Kategori** velger du kategorien du vil ha, fra listen som vises.
 
-   * I listeboksen **Tilgangsnivå for sak** kan du velge blant følgende alternativer:
-     * **Ekstern**: Velg dette alternativet hvis personen skal ha tilgang til saken via SuperOffice Kundesenter.
-     * **Internt**: Velg dette hvis personen ikke skal ha tilgang til saken. Saken blir oppført i SuperOffice Kundesenter, men personen kan ikke vise saksdetaljer eller meldinger.
+    * I listeboksen **Prioritet** kan du velge mellom **Lav**, **Medium** og **Høy**, eller du kan angi at systemet skal tildele prioritet automatisk. Det kan f.eks. gjøres på grunnlag av [eskaleringsnivåer][3] som er angitt for ulike personer og firmaer.
 
-   * [Velg relevante emneknagger][4] for denne saken i listen **Emneknagger**.
+    * I listeboksen **Tilgangsnivå for sak** kan du velge blant følgende alternativer:
+      * **Ekstern**: Velg dette alternativet hvis personen skal ha tilgang til saken via SuperOffice Kundesenter.
+      * **Internt**: Velg dette hvis personen ikke skal ha tilgang til saken. Saken blir oppført i SuperOffice Kundesenter, men personen kan ikke vise saksdetaljer eller meldinger.
+
+    * [Velg relevante emneknagger][4] for denne saken i listen **Emneknagger**.
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. I fanen **Meldinger** skriver du inn selve [meldingen](#message) du vil legge til i saken.
 
@@ -141,3 +146,4 @@ Denne fanen inneholder eventuelle ekstrafelt som er definert for saker. Dette vi
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

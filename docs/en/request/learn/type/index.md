@@ -3,8 +3,8 @@ uid: help-en-request-type
 title: Request type
 description: Request type
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: request, type
 so.topic: concept
 so.audience: settings
@@ -17,7 +17,7 @@ language: en
 All requests that are registered in SuperOffice have a type. The default type is "Request". To view, add, update, and delete request types go to **Settings and maintenance**.
 
 > [!NOTE]
-> This feature requires a Service Premium user plan (to create and update request types) and a Development Tools site license to define screen layouts based on request types in the Screen Designer. (Available in pilot only.)
+> This feature requires a Service Premium user plan (to create and update request types) and a Development Tools site license to define screen layouts based on request types in the Screen Designer.
 
 ## Why use request types?
 

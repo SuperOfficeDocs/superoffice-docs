@@ -47,7 +47,7 @@ Het tabblad **E-mailfilters** bevat een lijst met bestaande e-mailfilters. Deze 
 
 * **Categorie instellen**: Wanneer u deze optie inschakelt en een categorie selecteert, komen de e-mailberichten die met dit filter worden verwerkt in de opgegeven categorie terecht.
 
-* **Verzoektype**: Als u hier controleert en een type selecteert, wordt e-mail die door dit filter wordt verwerkt, toegewezen aan het gespecificeerde [verzoektype][3]. (Alleen beschikbaar in pilot.)
+* **Verzoektype**: Als u hier controleert en een type selecteert, wordt e-mail die door dit filter wordt verwerkt, toegewezen aan het gespecificeerde [verzoektype][3].
 
 * **Prioriteit instellen**: Wanneer u deze optie inschakelt en een prioriteit selecteert, worden de e-mailberichten die met dit filter worden verwerkt aan de opgegeven prioriteit toegewezen.
 

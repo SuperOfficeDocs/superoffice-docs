@@ -47,7 +47,7 @@ Die Registerkarte **E-Mail-Filter** enthält eine Liste der vorhandenen E-Mail-F
 
 * **Kategorie festlegen**: Wenn Sie diese Option aktivieren und eine Kategorie auswählen, werden mit diesem Filter verarbeitete E-Mails in der angegebenen Kategorie abgelegt.
 
-* **Anfragetyp**: Wenn Sie hier diese Option aktivieren und einen Typ auswählen, wird die von diesem Filter verarbeitete E-Mail dem angegebenen [Anfragetyp][3] zugeordnet. (Nur im Pilot verfügbar.)
+* **Anfragetyp**: Wenn Sie hier diese Option aktivieren und einen Typ auswählen, wird die von diesem Filter verarbeitete E-Mail dem angegebenen [Anfragetyp][3] zugeordnet.
 
 * **Priorität festlegen**: Wenn Sie diese Option aktivieren und eine Priorität auswählen, wird die angegebene Priorität mit diesem Filter verarbeiteten E-Mails zugewiesen.
 

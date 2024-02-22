@@ -3,7 +3,8 @@ uid: help-sv-request-create
 author: Hanne Gunnarsson
 title: Skapa ett ärende
 description: Skapa ett ärende
-so.date: 02.20.2023
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: ärende
 so.topic: howto
 so.audience: person
@@ -40,25 +41,29 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
 
 1. Gå till panelen **Egenskaper** på höger sida av skärmen och ange information för att på rätt sätt tilldela och prioritera ärendet.
 
-   * I listrutan **Status** väljer du något av följande alternativ:
-     * **Aktivt**: Välj detta om ärendet är under arbete.
-     * **Avslutat**: Välj detta om ärendet är slutfört.
-     * **Uppskjutet**: För att skjuta upp behandlingen av ärendet, välj detta alternativ för att specificera ett datum och en tid i fältet **Angivet** eller en förinställd tid nedan. På detta datum och denna tid återställs ärendet till **Aktivt**.
+    * I listrutan **Ärendetyp**, välj en typ som kommer att påverka standardvärden och tillgängliga statusar och prioriteringar.
 
-   * Välj ett av följande alternativ i fältet **Ägare**:
-     * För att tilldela ärendet till en viss person väljer du önskat namn. Välj ditt eget namn för att tilldela ärendet till dig själv.
-     * **(Tilldelas automatiskt)**: Om du väljer detta alternativ tilldelas ärendet enligt gällande tilldelningsregler.
-     * **(Otilldelat)**: Du kan även välja att inte tilldela någon ärendet. Då blir medlemmarna i den aktuella kategorin ansvariga för att ta hand om ärendet.
+    * I listrutan **Status** väljer du något av följande alternativ:
+      * **Aktivt**: Välj detta om ärendet är under arbete.
+      * **Avslutat**: Välj detta om ärendet är slutfört.
+      * **Uppskjutet**: För att skjuta upp behandlingen av ärendet, välj detta alternativ för att specificera ett datum och en tid i fältet **Angivet** eller en förinställd tid nedan. På detta datum och denna tid återställs ärendet till **Aktivt**.
 
-   * Klicka i fältet **Kategori**, välj önskad kategori i den lista som visas.
+    * Välj ett av följande alternativ i fältet **Ägare**:
+      * För att tilldela ärendet till en viss person väljer du önskat namn. Välj ditt eget namn för att tilldela ärendet till dig själv.
+      * **(Tilldelas automatiskt)**: Om du väljer detta alternativ tilldelas ärendet enligt gällande tilldelningsregler.
+      * **(Otilldelat)**: Du kan även välja att inte tilldela någon ärendet. Då blir medlemmarna i den aktuella kategorin ansvariga för att ta hand om ärendet.
 
-   * I listrutan **Prioritet** kan du välja mellan **Låg**, **Medel** och **Hög** eller också kan du ange att systemet ska sätta prioriteten automatiskt. Det kan göras till exempel baserat på [eskaleringsnivåerna][3] som har angetts för olika kontakter och företag.
+    * Klicka i fältet **Kategori**, välj önskad kategori i den lista som visas.
 
-   * I listrutan **Åtkomstnivå för ärende** kan du välja bland följande alternativ:
-     * **Externt**: Välj detta om kontakten ska ha tillgång till ärendet via SuperOffice Customer Centre.
-     * **Internt**: Välj detta om kontakten inte ska ha tillgång till ärendet. Ärendet visas i SuperOffice Customer Centre, men kontakten kan inte visa ärendedetaljerna eller meddelandena.
+    * I listrutan **Prioritet** kan du välja mellan **Låg**, **Medel** och **Hög** eller också kan du ange att systemet ska sätta prioriteten automatiskt. Det kan göras till exempel baserat på [eskaleringsnivåerna][3] som har angetts för olika kontakter och företag.
 
-   * I listrutan **Taggar** [väljer du relevanta taggar][4] för ärendet.
+    * I listrutan **Åtkomstnivå för ärende** kan du välja bland följande alternativ:
+      * **Externt**: Välj detta om kontakten ska ha tillgång till ärendet via SuperOffice Customer Centre.
+      * **Internt**: Välj detta om kontakten inte ska ha tillgång till ärendet. Ärendet visas i SuperOffice Customer Centre, men kontakten kan inte visa ärendedetaljerna eller meddelandena.
+
+    * I listrutan **Taggar** [väljer du relevanta taggar][4] för ärendet.
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. I fliken **Meddelande** skriver du det [meddelande](#message) som du vill lägga till i ärendet.
 
@@ -141,3 +146,4 @@ På denna flik finns alla extrafält för ärenden. Detta varierar mellan olika 
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

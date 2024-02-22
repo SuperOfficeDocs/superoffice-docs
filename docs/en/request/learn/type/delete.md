@@ -3,8 +3,8 @@ uid: help-en-request-type-delete
 title: Delete request type
 description: Delete request type
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: request, type
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
-# Delete request type (pilot only)
+# Delete request type
 
 > [!NOTE]
 > You cannot delete the current default type (the one with a check mark in the **Use as default** box).

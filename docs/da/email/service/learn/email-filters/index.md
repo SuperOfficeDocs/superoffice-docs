@@ -47,7 +47,7 @@ På fanen **E-mail-filter** finder du en oversigt over eksisterende e-mail-filtr
 
 * **Angiv kategori**: Hvis du markerer denne valgmulighed og vælger en kategori, vil e-mails, der håndteres af dette filter, havne i den angivne kategori.
 
-* **Sagstype**: Hvis du markerer her og vælger en type, vil e-mails, der behandles af dette filter, blive tildelt den angivne [sagstype][3]. (Kun tilgængelig i pilot.)
+* **Sagstype**: Hvis du markerer her og vælger en type, vil e-mails, der behandles af dette filter, blive tildelt den angivne [sagstype][3].
 
 * **Angiv prioritet**: Hvis du markerer denne valgmulighed og vælger en prioritet på rullemenuen, vil e-mails, der håndteres af dette filter, få den angivne prioritet.
 

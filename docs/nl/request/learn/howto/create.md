@@ -3,7 +3,8 @@ uid: help-nl-request-create
 author: Hanne Gunnarsson
 title: Een verzoek maken
 description: Een verzoek maken
-so.date: 02.20.2023
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: verzoek
 so.topic: howto
 so.audience: person
@@ -40,25 +41,29 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
 
 1. Ga naar het **Eigenschappenvenster** aan de rechterkant van het scherm en voer informatie in om de aanvraag correct toe te wijzen en te prioriteren.
 
-   * Selecteer in de keuzelijst **Status** een van de volgende opties:
-     * **Openen**: selecteer deze optie als het verzoek actief is.
-     * **Gesloten**: Selecteer deze optie als het verzoek voltooid is.
-     * **Uitgesteld**: om de afhandeling van het verzoek uit te stellen, selecteert u deze optie en geeft u in het veld **Opgegeven** een datum en tijd op, of een vooringestelde tijd uit de onderstaande lijst. De status van het verzoek wordt op de opgegeven datum en tijd teruggezet naar **Openstaand**.
+    * Selecteer in de keuzelijst **Verzoektyp** een type dat van invloed zal zijn op standaardwaarden en beschikbare statussen en prioriteiten.
 
-   * Selecteer in het veld **Eigenaar** een van de volgende opties:
-     * Om een verzoek toe te wijzen aan een specifiek persoon, selecteert u de gewenste naam. Selecteer uw eigen naam om het ticket aan uzelf toe te wijzen.
-     * **(Automatisch toegewezen)**: als u deze optie selecteert, wordt het verzoek toegewezen in overeenstemming met de toewijzingsregels die van toepassing zijn.
-     * **(Niet-toegewezen)**: u kunt er ook voor kiezen het verzoek niet toe te wijzen. De leden van de relevante categorie worden dan verantwoordelijk voor het beheer van het verzoek.
+    * Selecteer in de keuzelijst **Status** een van de volgende opties:
+      * **Openen**: selecteer deze optie als het verzoek actief is.
+      * **Gesloten**: Selecteer deze optie als het verzoek voltooid is.
+      * **Uitgesteld**: om de afhandeling van het verzoek uit te stellen, selecteert u deze optie en geeft u in het veld **Opgegeven** een datum en tijd op, of een vooringestelde tijd uit de onderstaande lijst. De status van het verzoek wordt op de opgegeven datum en tijd teruggezet naar **Openstaand**.
 
-   * Selecteer in het veld **Categorie** de gewenste categorie in de lijst die wordt weergegeven.
+    * Selecteer in het veld **Eigenaar** een van de volgende opties:
+      * Om een verzoek toe te wijzen aan een specifiek persoon, selecteert u de gewenste naam. Selecteer uw eigen naam om het ticket aan uzelf toe te wijzen.
+      * **(Automatisch toegewezen)**: als u deze optie selecteert, wordt het verzoek toegewezen in overeenstemming met de toewijzingsregels die van toepassing zijn.
+      * **(Niet-toegewezen)**: u kunt er ook voor kiezen het verzoek niet toe te wijzen. De leden van de relevante categorie worden dan verantwoordelijk voor het beheer van het verzoek.
 
-   * In de keuzelijst **Prioriteit** kunt u kiezen uit **Laag**, **Gemiddeld** en **Hoog**. U kunt er ook voor kiezen de prioriteit automatisch te laten toekennen. Dit kan bijvoorbeeld op basis van [escalatieniveaus][3] die voor verschillende personen en bedrijven zijn ingesteld.
+    * Selecteer in het veld **Categorie** de gewenste categorie in de lijst die wordt weergegeven.
 
-   * Selecteer in de keuzelijst **Toegangsniveau voor verzoek** een van de volgende opties:
-     * **Extern**: selecteer deze optie als de persoon toegang moet krijgen tot het verzoek via SuperOffice Customer Centre.
-     * **Intern**: selecteer deze optie als de persoon geen toegang moet krijgen tot het verzoek. Het verzoek wordt weergegeven in SuperOffice Customer Centre, maar de persoon kan de verzoekgegevens of -berichten niet weergeven.
+    * In de keuzelijst **Prioriteit** kunt u kiezen uit **Laag**, **Gemiddeld** en **Hoog**. U kunt er ook voor kiezen de prioriteit automatisch te laten toekennen. Dit kan bijvoorbeeld op basis van [escalatieniveaus][3] die voor verschillende personen en bedrijven zijn ingesteld.
 
-   * Selecteer in de keuzelijst **Labels** de [relevante labels][4] voor dit verzoek.
+    * Selecteer in de keuzelijst **Toegangsniveau voor verzoek** een van de volgende opties:
+      * **Extern**: selecteer deze optie als de persoon toegang moet krijgen tot het verzoek via SuperOffice Customer Centre.
+      * **Intern**: selecteer deze optie als de persoon geen toegang moet krijgen tot het verzoek. Het verzoek wordt weergegeven in SuperOffice Customer Centre, maar de persoon kan de verzoekgegevens of -berichten niet weergeven.
+
+    * Selecteer in de keuzelijst **Labels** de [relevante labels][4] voor dit verzoek.
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. Ga naar het tabblad **Berichten** en voer de [tekst van het bericht](#message) in dat u aan het verzoek wilt toevoegen.
 
@@ -141,3 +146,4 @@ Dit tabblad bevat eventuele extra velden die zijn gedefinieerd voor verzoeken. D
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

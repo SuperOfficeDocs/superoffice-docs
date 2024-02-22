@@ -47,7 +47,7 @@ Fanen **E-postfiltre** inneholder en liste over eksisterende e-postfiltre. Denne
 
 * **Angi kategori**: Hvis du merker av her og velger en kategori, vil e-post som behandles av dette filteret havne i den angitte kategorien.
 
-* **Saksstype**: Hvis du sjekker her og velger en type, vil e-post som behandles av dette filteret bli tildelt den angitte [sakstypen][3]. (Tilgjengelig bare i pilot.)
+* **Saksstype**: Hvis du sjekker her og velger en type, vil e-post som behandles av dette filteret bli tildelt den angitte [sakstypen][3].
 
 * **Angi prioritet**: Hvis du merker av her og velger en prioritet, vil e-post behandlet av dette filteret bli tildelt den angitte prioriteten.
 

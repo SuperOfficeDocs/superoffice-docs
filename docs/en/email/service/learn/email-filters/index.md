@@ -47,7 +47,7 @@ The **Email filters** tab contains a list of existing email filters. This list c
 
 * **Set category**: If you check here and select a category, email processed by this filter will end up in the specified category.
 
-* **Request type:** If you check here and select a type, email processed by this filter will be assigned the specified [request type][3]. (Available in pilot only.)
+* **Request type:** If you check here and select a type, email processed by this filter will be assigned the specified [request type][3].
 
 * **Set priority**: If you check here and select a priority, email processed by this filter will be assigned the specified priority.
 
