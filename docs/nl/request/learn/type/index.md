@@ -3,8 +3,8 @@ uid: help-nl-request-type
 title: Verzoektypen
 description: Verzoektypen
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: verzoek, type
 so.topic: concept
 so.audience: settings
@@ -17,7 +17,7 @@ language: nl
 Alle verzoeken die zijn geregistreerd in SuperOffice hebben een type. De standaardtype is "Request". Om verzoektypes te bekijken, toe te voegen, bij te werken en te verwijderen, ga naar **Instellingen en onderhoud**.
 
 > [!NOTE]
-> Deze functie vereist een Service Premium gebruikersplan (om verzoektypes te maken en bij te werken) en een Development Tools licentie om schermopmaak te definiëren op basis van verzoektypes in de Screen Designer. (Alleen beschikbaar in pilot.)
+> Deze functie vereist een Service Premium gebruikersplan (om verzoektypes te maken en bij te werken) en een Development Tools licentie om schermopmaak te definiëren op basis van verzoektypes in de Screen Designer.
 
 ## Waarom verzoektypen gebruiken?
 

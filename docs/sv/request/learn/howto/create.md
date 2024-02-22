@@ -3,7 +3,8 @@ uid: help-sv-request-create
 author: Hanne Gunnarsson
 title: Skapa ett ärende
 description: Skapa ett ärende
-so.date: 02.20.2023
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: ärende
 so.topic: howto
 so.audience: person
@@ -40,6 +41,8 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
 
 1. Gå till panelen **Egenskaper** på höger sida av skärmen och ange information för att på rätt sätt tilldela och prioritera ärendet.
 
+    * I listrutan **Ärendetyp**, välj en typ som kommer att påverka standardvärden och tillgängliga statusar och prioriteringar.
+
    * I listrutan **Status** väljer du något av följande alternativ:
      * **Aktivt**: Välj detta om ärendet är under arbete.
      * **Avslutat**: Välj detta om ärendet är slutfört.
@@ -59,6 +62,8 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
      * **Internt**: Välj detta om kontakten inte ska ha tillgång till ärendet. Ärendet visas i SuperOffice Customer Centre, men kontakten kan inte visa ärendedetaljerna eller meddelandena.
 
    * I listrutan **Taggar** [väljer du relevanta taggar][4] för ärendet.
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. I fliken **Meddelande** skriver du det [meddelande](#message) som du vill lägga till i ärendet.
 
@@ -141,3 +146,4 @@ På denna flik finns alla extrafält för ärenden. Detta varierar mellan olika 
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

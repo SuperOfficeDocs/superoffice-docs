@@ -3,7 +3,8 @@ uid: help-da-request-create
 author: Hanne Gunnarsson
 title: Opret en sag
 description: Opret en sag
-so.date: 02.20.2023
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: sag
 so.topic: howto
 so.audience: person
@@ -40,6 +41,8 @@ En sag kan komme ind i systemet via en e-mail-meddelelse fra kunden, eller du ka
 
 1. Gå til panelet **Egenskaber** i højre side af skærmen, og indtast oplysninger for at tildele og prioritere anmodningen korrekt.
 
+    * I rullemenuen **Sagstype**, skal du vælge type, som vil påvirke standardverdier og tilgjengelige statusser og prioriteter.
+
    * I rullemenuen **Status** skal du vælge en af følgende valgmuligheder:
      * **Aktiv**: Vælg denne, hvis sagen er under behandling.
      * **Afsluttet**: Vælg denne valgmulighed, hvis sagen er fuldført.
@@ -59,6 +62,8 @@ En sag kan komme ind i systemet via en e-mail-meddelelse fra kunden, eller du ka
      * **Intern**: Vælg denne indstilling, hvis personen ikke skal have adgang til sagen. Sagen vises i SuperOffice Kundecenter, men personen kan ikke se sagsdetaljerne eller meddelelserne.
 
    * Gå til rullemenuen **Tags**, og [vælg de relevante tags][4] til denne sag.
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. På fanen **Meddelelser** skal du indtaste selve den [meddelelse](#message), du vil tilføje i sagen.
 
@@ -141,3 +146,4 @@ Denne fane indeholder eventuelle ekstrafelter, der er defineret for sager. Dette
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

@@ -3,8 +3,8 @@ uid: help-nl-request-type-create
 title: Verzoektype aanmaken
 description: Verzoektype aanmaken
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: verzoek, type
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 
-# Verzoektype aanmaken (alleen beschikbaar in pilot)
+# Verzoektype aanmaken
 
 ## Stappen
 
@@ -36,6 +36,8 @@ language: nl
     * Als u een of meer statussen selecteert, moet u ook een standaardstatus kiezen.
     * Als u een of meer prioriteiten selecteert, moet u ook een standaardprioriteit kiezen.
 
+    ![Instellingen en onderhoud, Verzoektypen -screenshot status/prioriteit][img3]
+
 1. Optioneel, selecteer een standaardstatus en/of prioriteit om te gebruiken wanneer een agent een verzoek van dit type maakt. (Verplicht als u beschikbaarheid instelt.) Deze instelling heeft voorrang op andere voorkeuren.
 
 1. Optioneel, selecteer een [antwoordsjabloon][5] om te gebruiken wanneer een agent antwoordt op een verzoek van dit type.
@@ -52,3 +54,4 @@ language: nl
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/add-request-type.png
 [img2]: ../../../../media/loc/en/request/request-type-settings.png
+[img3]: ../../../../media/loc/en/request/add-request-type-status-priority.png

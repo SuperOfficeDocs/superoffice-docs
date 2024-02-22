@@ -3,8 +3,8 @@ uid: help-no-request-type-delete
 title: Slett sakstype
 description: Slett sakstype
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: sak, type
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Slett sakstype (kun pilot)
+# Slett sakstype
 
 > [!NOTE]
 > Du kan ikke slette gjeldende standardtype (den med en sjekk i boksen **Bruk som standard**).

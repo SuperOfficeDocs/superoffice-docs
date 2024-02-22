@@ -3,8 +3,8 @@ uid: screen-element-reference
 title: Working with fields
 description: Reference of elements available in the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 01.03.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: ui, screen, customization
 so.topic: reference
 so.audience: settings
@@ -217,7 +217,7 @@ For details about the value of each field, see the [Project database table][5].
 | Real time to close | Time | |
 | Real time to reply | Time | |
 | Replied at | Date | |
-| [Request type][13] | Drop-down | In pilot only |
+| [Request type][13] | Drop-down | |
 | Sale | Drop-down | |
 | Sentiment | Text | |
 | Sentiment confidence | Text | |

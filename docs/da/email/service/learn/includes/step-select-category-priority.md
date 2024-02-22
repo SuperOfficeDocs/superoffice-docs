@@ -3,4 +3,4 @@
 
 * I rullelisten **Prioritet** skal du vælge, hvilken prioritet sager fra denne e-mailkonto skal have.
 
-* I rullelisten **Sagstype** skal du vælge den type beskeder, der hører til i denne postkasse. (Kun tilgængelig i pilot.)
+* I rullelisten **Sagstype** skal du vælge den type beskeder, der hører til i denne postkasse.

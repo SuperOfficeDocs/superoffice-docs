@@ -3,9 +3,9 @@ uid: release-notes-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
 author: SuperOffice AS – Research and Development
-so.date: 01.26.2024
+so.date: 02.21.2024
 so.version: 10.3
-keywords: web panel, system design, dashboard, request, SAINT
+keywords: web panel, system design, dashboard, request, SAINT, invitation
 so.topic: reference
 ---
 
@@ -20,11 +20,11 @@ so.topic: reference
 ### SuperOffice CRM
 
 * 10.3.2 (20.02.2024):
-  * [Dashboard - Request dashboard and tiles (10.3.2)][12] in Core CRM and Service
-  * [Notifications - Show my declined invitations (10.3.2)][12] in Core CRM
-  * [Request types - to get efficient support (10.3.2)][13] Service
-  * [Requests - Request types setup (10.3.2)][14] in Settings and maintenance
-  * [Screen designer - Requests with Assign layouts to Request types or User group (10.3.2)][14] in Settings and maintenance
+  * [Notifications - Show invitations I have declined (10.3.2)][12] in Core CRM
+  * [Dashboard - Request dashboard and tiles (10.3.2)][12] in Core CRM
+  * [Request types for efficient support (10.3.2)][13] in Core CRM and Service
+  * [Requests - Add and customize request types (10.3.2)][14] in Settings and maintenance
+  * [Screen designer - Assign layouts to request types (10.3.2)][14] in Settings and maintenance
 
 * 10.3.1 (02.02.2024):
   * [Dashboard - Request tiles (10.3.1)][2] in Core CRM and Service
@@ -35,7 +35,7 @@ so.topic: reference
 
 ### Mobile CRM
 
-* Version 10.2.17 (24.01.2024)
+* Version 10.2.18 (24.02.2024)
 
 ### Office integrations
 

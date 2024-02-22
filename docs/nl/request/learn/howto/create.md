@@ -3,7 +3,8 @@ uid: help-nl-request-create
 author: Hanne Gunnarsson
 title: Een verzoek maken
 description: Een verzoek maken
-so.date: 02.20.2023
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: verzoek
 so.topic: howto
 so.audience: person
@@ -40,6 +41,8 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
 
 1. Ga naar het **Eigenschappenvenster** aan de rechterkant van het scherm en voer informatie in om de aanvraag correct toe te wijzen en te prioriteren.
 
+    * Selecteer in de keuzelijst **Verzoektyp** een type dat van invloed zal zijn op standaardwaarden en beschikbare statussen en prioriteiten.
+
    * Selecteer in de keuzelijst **Status** een van de volgende opties:
      * **Openen**: selecteer deze optie als het verzoek actief is.
      * **Gesloten**: Selecteer deze optie als het verzoek voltooid is.
@@ -59,6 +62,8 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
      * **Intern**: selecteer deze optie als de persoon geen toegang moet krijgen tot het verzoek. Het verzoek wordt weergegeven in SuperOffice Customer Centre, maar de persoon kan de verzoekgegevens of -berichten niet weergeven.
 
    * Selecteer in de keuzelijst **Labels** de [relevante labels][4] voor dit verzoek.
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. Ga naar het tabblad **Berichten** en voer de [tekst van het bericht](#message) in dat u aan het verzoek wilt toevoegen.
 
@@ -141,3 +146,4 @@ Dit tabblad bevat eventuele extra velden die zijn gedefinieerd voor verzoeken. D
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

@@ -3,7 +3,8 @@ uid: help-de-request-create
 author: Hanne Gunnarsson
 title: Anfrage erstellen
 description: Anfrage erstellen
-so.date: 02.20.2023
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: Anfrage
 so.topic: howto
 so.audience: person
@@ -41,6 +42,8 @@ Eine Anfrage kann per E-Mail vom Kunden im System eingehen, alternativ können S
 
 1. Gehen Sie zum **Bildschirm Eigenschaften** auf der rechten Seite der Anzeige und geben Sie Informationen ein, um die Anfrage korrekt zuzuordnen und zu priorisieren.
 
+    * Wählen Sie im Listenfeld **Anfragetyp** einen Typ aus, der Standardwerte sowie verfügbare Status und Prioritäten beeinflusst.
+
    * Wählen Sie im Listenfeld **Status** eine der folgenden Optionen:
      * **Öffnen**: Wählen Sie diese Option, wenn die Anfrage noch nicht abgeschlossen ist.
      * **Bearbeitet**: Wählen Sie diese Option, wenn die Anfrage abgeschlossen ist.
@@ -60,6 +63,8 @@ Eine Anfrage kann per E-Mail vom Kunden im System eingehen, alternativ können S
      * **Intern**: Wählen Sie diese Option, wenn die Person keinen Zugriff auf die Anfrage erhalten soll. Die Anfrage wird im SuperOffice Kundenzentrum aufgeführt, aber die Person kann keine Details oder Nachrichten zur Anfrage anzeigen.
 
    * Im Listenfeld **Tags** müssen Sie für diese Anfrage [relevante Tags auswählen][4].
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. Geben Sie in der Registerkarte **Nachrichten** die eigentliche [Mitteilung](#message) ein, die der Anfrage hinzugefügt werden soll.
 
@@ -142,3 +147,4 @@ Diese Registerkarte enthält für alle Anfragen festgelegte Zusatzfelder. Diese 
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

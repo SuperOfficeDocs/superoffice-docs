@@ -3,8 +3,8 @@ uid: help-no-request-type
 title: Sakstype
 description: Sakstype
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: sak, type
 so.topic: concept
 so.audience: settings
@@ -17,7 +17,7 @@ language: no
 Alle saker som er registrert i SuperOffice har en type. Standardtypen er "Request". For å se, legge til, oppdatere og slette sakstyper, gå til **Innstillinger og vedlikehold**.
 
 > [!NOTE]
-> Denne funksjonen krever en Service Premium brukerplan (for å opprette og oppdatere sakstyper) og en Development Tools lisens for å definere skjermlayouter basert på sakstyper i Screen Designer. (Bare tilgjengelig i pilot.)
+> Denne funksjonen krever en Service Premium brukerplan (for å opprette og oppdatere sakstyper) og en Development Tools lisens for å definere skjermlayouter basert på sakstyper i Screen Designer.
 
 ## Hvorfor bruke sakstyper?
 

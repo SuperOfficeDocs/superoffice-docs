@@ -3,8 +3,8 @@ uid: help-no-request-type-create
 title: Legg til sakstype
 description: Legg til sakstype
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: sak, type
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: no
 ---
 
-# Legg til sakstype (kun i pilot)
+# Legg til sakstype
 
 ## Trinn
 
@@ -36,6 +36,8 @@ language: no
     * Hvis du velger en eller flere statuser, må du også velge en standard status.
     * Hvis du velger en eller flere prioriteter, må du også velge en standard prioritet.
 
+    ![Innstillinger og vedlikehold, Saksstyper status/prioritet -screenshot][img3]
+
 1. Valgfritt, velg en standardstatus og/eller prioritet for bruk når en agent oppretter en sak av denne typen. (Obligatorisk hvis du angir tilgjengelighet.) Denne innstillingen går foran andre preferanser.
 
 1. Valgfritt, velg en [svarmal][5] for å bruke når en agent svarer på en sak av denne typen.
@@ -52,3 +54,4 @@ language: no
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/add-request-type.png
 [img2]: ../../../../media/loc/en/request/request-type-settings.png
+[img3]: ../../../../media/loc/en/request/add-request-type-status-priority.png

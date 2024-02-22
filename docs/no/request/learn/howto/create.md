@@ -3,7 +3,8 @@ uid: help-no-request-create
 author: Hanne Gunnarsson
 title: Opprette en sak
 description: Opprette en sak
-so.date: 02.20.2023
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: sak
 so.topic: howto
 so.audience: person
@@ -40,6 +41,8 @@ En sak kan komme inn i systemet via en e-postmelding fra kunden, eller du kan re
 
 1. Gå til panelet **Egenskaper** på høyre side av skjermen, og skriv inn informasjon slik at saken tildeles og prioriteres riktig.
 
+    * I listeboksen **Sakstype**, velger du en type, som vil påvirke standardverdier og tilgjengelige statusser og prioriteter.
+
    * I listeboksen **Status** velger du ett av følgende:
      * **Åpne**: Velg dette hvis saken er under arbeid.
      * **Avsluttet**: Velg dette hvis saken er utført.
@@ -59,6 +62,8 @@ En sak kan komme inn i systemet via en e-postmelding fra kunden, eller du kan re
      * **Internt**: Velg dette hvis personen ikke skal ha tilgang til saken. Saken blir oppført i SuperOffice Kundesenter, men personen kan ikke vise saksdetaljer eller meldinger.
 
    * [Velg relevante emneknagger][4] for denne saken i listen **Emneknagger**.
+
+    ![Request properties sidebar -screenshot][img7]
 
 1. I fanen **Meldinger** skriver du inn selve [meldingen](#message) du vil legge til i saken.
 
@@ -141,3 +146,4 @@ Denne fanen inneholder eventuelle ekstrafelt som er definert for saker. Dette vi
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png
+[img7]: ../../../../media/loc/en/request/requests-select-request-types.png

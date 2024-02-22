@@ -3,8 +3,8 @@ uid: help-en-request-type-create
 title: Create request type
 description: Create request type
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 22.02.24
+so.version: 10.3.2
 keywords: request, type
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
-# Create request type (pilot only)
+# Create request type
 
 ## Steps
 
@@ -36,6 +36,8 @@ language: en
     * If you select one or more statuses, you must also choose a default status.
     * If you select one or more priorities, you must also choose a default priority.
 
+    ![Settings and maintenance, Request type status/priority -screenshot][img3]
+
 1. Optionally, select a default status and/or priority to use when an agent creates a request of this type. (Mandatory if you set availability.) This setting takes precedence over other preferences.
 
 1. Optionally, select a [reply template][5] to use when an agent replies to a request of this type.
@@ -52,3 +54,4 @@ language: en
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/add-request-type.png
 [img2]: ../../../../media/loc/en/request/request-type-settings.png
+[img3]: ../../../../media/loc/en/request/add-request-type-status-priority.png

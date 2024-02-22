@@ -3,8 +3,8 @@ uid: help-da-request-type
 title: Sagstype
 description: Sagstype
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: sag, type
 so.topic: concept
 so.audience: settings
@@ -17,7 +17,7 @@ language: da
 Alle sager, der er registreret i SuperOffice, har en type. Standardtypen er "Request". For at se, tilføje, opdatere og slette sagstyper, gå til **Indstillinger og vedligeholdelse**.
 
 > [!NOTE]
-> Denne funktion kræver en Service Premium brugerplan (til at oprette og opdatere sagstyper) og en Development Tools licens for at definere skærmlayouts baseret på sagstyper i Screen Designer. (Kun tilgængelig i pilot.)
+> Denne funktion kræver en Service Premium brugerplan (til at oprette og opdatere sagstyper) og en Development Tools licens for at definere skærmlayouts baseret på sagstyper i Screen Designer.
 
 ## Hvorfor bruge sagstyper?
 

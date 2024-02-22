@@ -3,8 +3,8 @@ uid: help-de-request-type-delete
 title: Anfragetyp löschen
 description: Anfragetyp löschen
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: Anfrage, Typ
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: de
 ---
 
-# Anfragetyp löschen  (Nur im Pilot verfügbar)
+# Anfragetyp löschen
 
 > [!NOTE]
 > Sie können den aktuellen Standardtyp (den mit einem Häkchen im Feld **Als Standard verwenden**) nicht löschen.

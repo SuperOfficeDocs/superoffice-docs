@@ -3,8 +3,8 @@ uid: help-sv-request-type-delete
 title: Ta bort ärendetyp
 description: Ta bort ärendetyp
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: ärende, typ
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: sv
 ---
 
-# Ta bort ärendetyp (endast i pilot)
+# Ta bort ärendetyp
 
 > [!NOTE]
 > Du kan inte radera den nuvarande standardtypen (den med en bock i rutan **Använd som standard**).

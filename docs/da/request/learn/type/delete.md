@@ -3,8 +3,8 @@ uid: help-da-request-type-delete
 title: Slet sagstype
 description: Slet sagstype
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: sag, type
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: da
 ---
 
-# Slet sagstype (kun pilot)
+# Slet sagstype
 
 > [!NOTE]
 > Du kan ikke slette den nuværende standardtype (den med et markering i **Anvend som standard** boksen).

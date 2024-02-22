@@ -47,7 +47,7 @@ På fliken **E-postfilter** finns en lista med befintliga e-postfilter. I övers
 
 * **Ange kategori**: Om du markerar det här alternativet och väljer en kategori placeras e-postmeddelanden som behandlas av detta filter i den angivna kategorin.
 
-* **Ärendetyp**: Om du kryssar i här och väljer en typ kommer e-post som bearbetas av detta filter att tilldelas den angivna [ärendetypen][3]. (Endast tillgängligt i pilot.)
+* **Ärendetyp**: Om du kryssar i här och väljer en typ kommer e-post som bearbetas av detta filter att tilldelas den angivna [ärendetypen][3].
 
 * **Ange prioritet**: Om du markerar det här alternativet och väljer en prioritet från listrutan får e-postmeddelanden som behandlas av detta filter den angivna prioriteten.
 

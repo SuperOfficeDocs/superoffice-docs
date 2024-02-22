@@ -3,8 +3,8 @@ uid: help-nl-request-type-delete
 title: Verzoektype verwijderen
 description: Verzoektype verwijderen
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: verzoek, type
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 
-# Verzoektype verwijderen (alleen beschikbaar in pilot)
+# Verzoektype verwijderen
 
 > [!NOTE]
 > U kunt het huidige standaardtype (degene met een vinkje in het vak **Als standaard gebruiken**) niet verwijderen.
@@ -41,5 +41,6 @@ language: nl
 <!-- Referenced links -->
 [1]: ../../../email/service/learn/email-filters/create-email-filter.md
 [2]: ../../../email/service/learn/create-mailbox.md
+[img3]: ../../../../media/loc/en/request/add-request-type-status-priority.png
 
 <!-- Referenced images -->

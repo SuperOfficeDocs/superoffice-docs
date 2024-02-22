@@ -3,4 +3,4 @@
 
 * Selecteer in de keuzelijst **Prioriteit** de prioriteit om verzoeken uit deze postbus te geven.
 
-* Selecteer in de keuzelijst **Verzoektype** het type berichten dat bij deze postbus hoort. (Alleen beschikbaar in pilot.)
+* Selecteer in de keuzelijst **Verzoektype** het type berichten dat bij deze postbus hoort.

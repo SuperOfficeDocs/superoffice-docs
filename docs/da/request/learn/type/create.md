@@ -3,8 +3,8 @@ uid: help-da-request-type-create
 title: Tilføj sagstype
 description: Tilføj sagstype
 author: Bergfrid Dias
-so.date: 12.12.2023
-so.version: 10.2.11
+so.date: 02.22.2024
+so.version: 10.3.2
 keywords: sag, type
 so.topic: howto
 so.audience: settings
@@ -12,7 +12,7 @@ so.audience.tooltip: Settings and maintenance
 language: da
 ---
 
-# Tilføj sagstype (kun pilot)
+# Tilføj sagstype
 
 ## Trin
 
@@ -36,6 +36,8 @@ language: da
     * Hvis du vælger en eller flere statusser, skal du også vælge en standardstatus.
     * Hvis du vælger en eller flere prioriteter, skal du også vælge en standardprioritet.
 
+    ![Indstillinger og vedligeholdelse, Sager status/prioritet -screenshot][img3]
+
 1. Valgfrit, vælg en standardstatus og/eller prioritet til brug, når en agent opretter en sag af denne type. (Obligatorisk, hvis du indstiller tilgængelighed.) Denne indstilling har forrang frem for andre præferencer.
 
 1. Valgfrit, vælg en [svarskabelon][5] til brug, når en agent svarer på en sag af denne type.
@@ -52,3 +54,4 @@ language: da
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/add-request-type.png
 [img2]: ../../../../media/loc/en/request/request-type-settings.png
+[img3]: ../../../../media/loc/en/request/add-request-type-status-priority.png
