@@ -43,25 +43,25 @@ En sag kan komme ind i systemet via en e-mail-meddelelse fra kunden, eller du ka
 
     * I rullemenuen **Sagstype**, skal du vælge type, som vil påvirke standardverdier og tilgjengelige statusser og prioriteter.
 
-   * I rullemenuen **Status** skal du vælge en af følgende valgmuligheder:
-     * **Aktiv**: Vælg denne, hvis sagen er under behandling.
-     * **Afsluttet**: Vælg denne valgmulighed, hvis sagen er fuldført.
-     * **Udsat**: Hvis der er behov for at udsætte sagsbehandlingen, markerer du denne valgmulighed og angiver dato og tid i feltet **Angivet** eller en forudindstillet tid fra listen nedenunder. På denne dato og klokkeslæt sættes sagen til **Aktiv** igen.
+    * I rullemenuen **Status** skal du vælge en af følgende valgmuligheder:
+      * **Aktiv**: Vælg denne, hvis sagen er under behandling.
+      * **Afsluttet**: Vælg denne valgmulighed, hvis sagen er fuldført.
+      * **Udsat**: Hvis der er behov for at udsætte sagsbehandlingen, markerer du denne valgmulighed og angiver dato og tid i feltet **Angivet** eller en forudindstillet tid fra listen nedenunder. På denne dato og klokkeslæt sættes sagen til **Aktiv** igen.
 
-   * I feltet **Ejer** skal du vælge én blandt følgende valgmuligheder:
-     * Hvis du vil tildele sagen til en bestemt person, vælger du det ønskede navn. Vælg dit eget navn for at tildele billetten til dig selv.
-     * **(Automatisk tildelt)**: Hvis du vælger denne valgmulighed, fordeler systemet sagen efter de gældende fordelingsregler.
-     * **(Ufordelt)**: Du kan også vælge ikke at tildele sagen. I så fald bliver medlemmerne af den aktuelle kategori ansvarlige for at behandle sagen.
+    * I feltet **Ejer** skal du vælge én blandt følgende valgmuligheder:
+      * Hvis du vil tildele sagen til en bestemt person, vælger du det ønskede navn. Vælg dit eget navn for at tildele billetten til dig selv.
+      * **(Automatisk tildelt)**: Hvis du vælger denne valgmulighed, fordeler systemet sagen efter de gældende fordelingsregler.
+      * **(Ufordelt)**: Du kan også vælge ikke at tildele sagen. I så fald bliver medlemmerne af den aktuelle kategori ansvarlige for at behandle sagen.
 
-   * I feltet **Kategori** skal du vælge den ønskede kategori på den liste, der vises.
+    * I feltet **Kategori** skal du vælge den ønskede kategori på den liste, der vises.
 
-   * I rullemenuen **Prioritet** kan du vælge mellem **Lav**, **Middel** og **Høj**, eller du kan angive, at systemet skal tildele prioritet automatisk. Det kan f.eks. gøres på grundlag af [eskaleringsniveauer][3], der er angivet for forskellige personer og firmaer.
+    * I rullemenuen **Prioritet** kan du vælge mellem **Lav**, **Middel** og **Høj**, eller du kan angive, at systemet skal tildele prioritet automatisk. Det kan f.eks. gøres på grundlag af [eskaleringsniveauer][3], der er angivet for forskellige personer og firmaer.
 
-   * I rullemenuen **Adgangsniveau for sag** kan du vælge blandt følgende valgmuligheder:
-     * **Eksternt**: Vælg denne valgmulighed, hvis personen skal have adgang til sagen via SuperOffice Kundecenter.
-     * **Intern**: Vælg denne indstilling, hvis personen ikke skal have adgang til sagen. Sagen vises i SuperOffice Kundecenter, men personen kan ikke se sagsdetaljerne eller meddelelserne.
+    * I rullemenuen **Adgangsniveau for sag** kan du vælge blandt følgende valgmuligheder:
+      * **Eksternt**: Vælg denne valgmulighed, hvis personen skal have adgang til sagen via SuperOffice Kundecenter.
+      * **Intern**: Vælg denne indstilling, hvis personen ikke skal have adgang til sagen. Sagen vises i SuperOffice Kundecenter, men personen kan ikke se sagsdetaljerne eller meddelelserne.
 
-   * Gå til rullemenuen **Tags**, og [vælg de relevante tags][4] til denne sag.
+    * Gå til rullemenuen **Tags**, og [vælg de relevante tags][4] til denne sag.
 
     ![Request properties sidebar -screenshot][img7]
 

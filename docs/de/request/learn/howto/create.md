@@ -44,25 +44,25 @@ Eine Anfrage kann per E-Mail vom Kunden im System eingehen, alternativ können S
 
     * Wählen Sie im Listenfeld **Anfragetyp** einen Typ aus, der Standardwerte sowie verfügbare Status und Prioritäten beeinflusst.
 
-   * Wählen Sie im Listenfeld **Status** eine der folgenden Optionen:
-     * **Öffnen**: Wählen Sie diese Option, wenn die Anfrage noch nicht abgeschlossen ist.
-     * **Bearbeitet**: Wählen Sie diese Option, wenn die Anfrage abgeschlossen ist.
-     * **Auf Termin gelegt**: Wählen Sie diese Option aus, um die Bearbeitung einer Anfrage aufzuschieben, und geben Sie Datum und Uhrzeit in das Feld **Festgelegt** oder eine voreingestellte Uhrzeit in der folgenden Liste ein. An diesem Tag und Uhrzeit wird die Anfrage zu dem Status **Unbearbeitet** zurückversetzt.
+    * Wählen Sie im Listenfeld **Status** eine der folgenden Optionen:
+      * **Öffnen**: Wählen Sie diese Option, wenn die Anfrage noch nicht abgeschlossen ist.
+      * **Bearbeitet**: Wählen Sie diese Option, wenn die Anfrage abgeschlossen ist.
+      * **Auf Termin gelegt**: Wählen Sie diese Option aus, um die Bearbeitung einer Anfrage aufzuschieben, und geben Sie Datum und Uhrzeit in das Feld **Festgelegt** oder eine voreingestellte Uhrzeit in der folgenden Liste ein. An diesem Tag und Uhrzeit wird die Anfrage zu dem Status **Unbearbeitet** zurückversetzt.
 
-   * Wählen Sie im Feld **Eigentümer** eine der folgenden Optionen:
-     * Wählen Sie den Namen der betreffenden Person, um einer bestimmten Person eine Anfrage zuzuordnen. Wählen Sie Ihren eigenen Namen aus, um sich selbst das Ticket zuzuordnen.
-     * **(Automatische Zuweisung)**: Wenn Sie diese Option wählen, weist das System die Anfrage in Übereinstimmung mit den anwendbaren Zuweisungsregeln zu.
-     * **(Nicht zugeordnet)**: Sie können aber auch wählen, dass die Anfrage nicht zugeordnet wird. In diesem Fall sind die Mitglieder der entsprechenden Kategorie für die Handhabung der Anfrage verantwortlich.
+    * Wählen Sie im Feld **Eigentümer** eine der folgenden Optionen:
+      * Wählen Sie den Namen der betreffenden Person, um einer bestimmten Person eine Anfrage zuzuordnen. Wählen Sie Ihren eigenen Namen aus, um sich selbst das Ticket zuzuordnen.
+      * **(Automatische Zuweisung)**: Wenn Sie diese Option wählen, weist das System die Anfrage in Übereinstimmung mit den anwendbaren Zuweisungsregeln zu.
+      * **(Nicht zugeordnet)**: Sie können aber auch wählen, dass die Anfrage nicht zugeordnet wird. In diesem Fall sind die Mitglieder der entsprechenden Kategorie für die Handhabung der Anfrage verantwortlich.
 
-   * Wählen Sie im Feld **Kategorie** aus der daraufhin angezeigten Liste die gewünschte Kategorie aus.
+    * Wählen Sie im Feld **Kategorie** aus der daraufhin angezeigten Liste die gewünschte Kategorie aus.
 
-   * Im Listenfeld **Priorität** stehen die Optionen **Niedrig**, **Mittel** und **Hoch** zur Auswahl. Sie können die Priorität jedoch auch automatisch zuweisen lassen. Dies kann z. B. auf der Grundlage von für verschiedene Personen und Firmen gesetzten [Eskalationsstufen][3] erfolgen.
+    * Im Listenfeld **Priorität** stehen die Optionen **Niedrig**, **Mittel** und **Hoch** zur Auswahl. Sie können die Priorität jedoch auch automatisch zuweisen lassen. Dies kann z. B. auf der Grundlage von für verschiedene Personen und Firmen gesetzten [Eskalationsstufen][3] erfolgen.
 
-   * Wählen Sie im Listenfeld **Zugriffsstufe für Anfrage** eine der folgenden Optionen:
-     * **Extern**: Wählen Sie diese Option, wenn die Person über SuperOffice Kundenzentrum Zugriff auf die Anfrage erhalten soll.
-     * **Intern**: Wählen Sie diese Option, wenn die Person keinen Zugriff auf die Anfrage erhalten soll. Die Anfrage wird im SuperOffice Kundenzentrum aufgeführt, aber die Person kann keine Details oder Nachrichten zur Anfrage anzeigen.
+    * Wählen Sie im Listenfeld **Zugriffsstufe für Anfrage** eine der folgenden Optionen:
+      * **Extern**: Wählen Sie diese Option, wenn die Person über SuperOffice Kundenzentrum Zugriff auf die Anfrage erhalten soll.
+      * **Intern**: Wählen Sie diese Option, wenn die Person keinen Zugriff auf die Anfrage erhalten soll. Die Anfrage wird im SuperOffice Kundenzentrum aufgeführt, aber die Person kann keine Details oder Nachrichten zur Anfrage anzeigen.
 
-   * Im Listenfeld **Tags** müssen Sie für diese Anfrage [relevante Tags auswählen][4].
+    * Im Listenfeld **Tags** müssen Sie für diese Anfrage [relevante Tags auswählen][4].
 
     ![Request properties sidebar -screenshot][img7]
 

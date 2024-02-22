@@ -44,24 +44,24 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
     * Selecteer in de keuzelijst **Verzoektyp** een type dat van invloed zal zijn op standaardwaarden en beschikbare statussen en prioriteiten.
 
    * Selecteer in de keuzelijst **Status** een van de volgende opties:
-     * **Openen**: selecteer deze optie als het verzoek actief is.
-     * **Gesloten**: Selecteer deze optie als het verzoek voltooid is.
-     * **Uitgesteld**: om de afhandeling van het verzoek uit te stellen, selecteert u deze optie en geeft u in het veld **Opgegeven** een datum en tijd op, of een vooringestelde tijd uit de onderstaande lijst. De status van het verzoek wordt op de opgegeven datum en tijd teruggezet naar **Openstaand**.
+      * **Openen**: selecteer deze optie als het verzoek actief is.
+      * **Gesloten**: Selecteer deze optie als het verzoek voltooid is.
+      * **Uitgesteld**: om de afhandeling van het verzoek uit te stellen, selecteert u deze optie en geeft u in het veld **Opgegeven** een datum en tijd op, of een vooringestelde tijd uit de onderstaande lijst. De status van het verzoek wordt op de opgegeven datum en tijd teruggezet naar **Openstaand**.
 
-   * Selecteer in het veld **Eigenaar** een van de volgende opties:
-     * Om een verzoek toe te wijzen aan een specifiek persoon, selecteert u de gewenste naam. Selecteer uw eigen naam om het ticket aan uzelf toe te wijzen.
-     * **(Automatisch toegewezen)**: als u deze optie selecteert, wordt het verzoek toegewezen in overeenstemming met de toewijzingsregels die van toepassing zijn.
-     * **(Niet-toegewezen)**: u kunt er ook voor kiezen het verzoek niet toe te wijzen. De leden van de relevante categorie worden dan verantwoordelijk voor het beheer van het verzoek.
+    * Selecteer in het veld **Eigenaar** een van de volgende opties:
+      * Om een verzoek toe te wijzen aan een specifiek persoon, selecteert u de gewenste naam. Selecteer uw eigen naam om het ticket aan uzelf toe te wijzen.
+      * **(Automatisch toegewezen)**: als u deze optie selecteert, wordt het verzoek toegewezen in overeenstemming met de toewijzingsregels die van toepassing zijn.
+      * **(Niet-toegewezen)**: u kunt er ook voor kiezen het verzoek niet toe te wijzen. De leden van de relevante categorie worden dan verantwoordelijk voor het beheer van het verzoek.
 
-   * Selecteer in het veld **Categorie** de gewenste categorie in de lijst die wordt weergegeven.
+    * Selecteer in het veld **Categorie** de gewenste categorie in de lijst die wordt weergegeven.
 
-   * In de keuzelijst **Prioriteit** kunt u kiezen uit **Laag**, **Gemiddeld** en **Hoog**. U kunt er ook voor kiezen de prioriteit automatisch te laten toekennen. Dit kan bijvoorbeeld op basis van [escalatieniveaus][3] die voor verschillende personen en bedrijven zijn ingesteld.
+    * In de keuzelijst **Prioriteit** kunt u kiezen uit **Laag**, **Gemiddeld** en **Hoog**. U kunt er ook voor kiezen de prioriteit automatisch te laten toekennen. Dit kan bijvoorbeeld op basis van [escalatieniveaus][3] die voor verschillende personen en bedrijven zijn ingesteld.
 
-   * Selecteer in de keuzelijst **Toegangsniveau voor verzoek** een van de volgende opties:
-     * **Extern**: selecteer deze optie als de persoon toegang moet krijgen tot het verzoek via SuperOffice Customer Centre.
-     * **Intern**: selecteer deze optie als de persoon geen toegang moet krijgen tot het verzoek. Het verzoek wordt weergegeven in SuperOffice Customer Centre, maar de persoon kan de verzoekgegevens of -berichten niet weergeven.
+    * Selecteer in de keuzelijst **Toegangsniveau voor verzoek** een van de volgende opties:
+      * **Extern**: selecteer deze optie als de persoon toegang moet krijgen tot het verzoek via SuperOffice Customer Centre.
+      * **Intern**: selecteer deze optie als de persoon geen toegang moet krijgen tot het verzoek. Het verzoek wordt weergegeven in SuperOffice Customer Centre, maar de persoon kan de verzoekgegevens of -berichten niet weergeven.
 
-   * Selecteer in de keuzelijst **Labels** de [relevante labels][4] voor dit verzoek.
+    * Selecteer in de keuzelijst **Labels** de [relevante labels][4] voor dit verzoek.
 
     ![Request properties sidebar -screenshot][img7]
 

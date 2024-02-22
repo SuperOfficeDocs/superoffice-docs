@@ -43,25 +43,25 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
 
     * I listrutan **Ärendetyp**, välj en typ som kommer att påverka standardvärden och tillgängliga statusar och prioriteringar.
 
-   * I listrutan **Status** väljer du något av följande alternativ:
-     * **Aktivt**: Välj detta om ärendet är under arbete.
-     * **Avslutat**: Välj detta om ärendet är slutfört.
-     * **Uppskjutet**: För att skjuta upp behandlingen av ärendet, välj detta alternativ för att specificera ett datum och en tid i fältet **Angivet** eller en förinställd tid nedan. På detta datum och denna tid återställs ärendet till **Aktivt**.
+    * I listrutan **Status** väljer du något av följande alternativ:
+      * **Aktivt**: Välj detta om ärendet är under arbete.
+      * **Avslutat**: Välj detta om ärendet är slutfört.
+      * **Uppskjutet**: För att skjuta upp behandlingen av ärendet, välj detta alternativ för att specificera ett datum och en tid i fältet **Angivet** eller en förinställd tid nedan. På detta datum och denna tid återställs ärendet till **Aktivt**.
 
-   * Välj ett av följande alternativ i fältet **Ägare**:
-     * För att tilldela ärendet till en viss person väljer du önskat namn. Välj ditt eget namn för att tilldela ärendet till dig själv.
-     * **(Tilldelas automatiskt)**: Om du väljer detta alternativ tilldelas ärendet enligt gällande tilldelningsregler.
-     * **(Otilldelat)**: Du kan även välja att inte tilldela någon ärendet. Då blir medlemmarna i den aktuella kategorin ansvariga för att ta hand om ärendet.
+    * Välj ett av följande alternativ i fältet **Ägare**:
+      * För att tilldela ärendet till en viss person väljer du önskat namn. Välj ditt eget namn för att tilldela ärendet till dig själv.
+      * **(Tilldelas automatiskt)**: Om du väljer detta alternativ tilldelas ärendet enligt gällande tilldelningsregler.
+      * **(Otilldelat)**: Du kan även välja att inte tilldela någon ärendet. Då blir medlemmarna i den aktuella kategorin ansvariga för att ta hand om ärendet.
 
-   * Klicka i fältet **Kategori**, välj önskad kategori i den lista som visas.
+    * Klicka i fältet **Kategori**, välj önskad kategori i den lista som visas.
 
-   * I listrutan **Prioritet** kan du välja mellan **Låg**, **Medel** och **Hög** eller också kan du ange att systemet ska sätta prioriteten automatiskt. Det kan göras till exempel baserat på [eskaleringsnivåerna][3] som har angetts för olika kontakter och företag.
+    * I listrutan **Prioritet** kan du välja mellan **Låg**, **Medel** och **Hög** eller också kan du ange att systemet ska sätta prioriteten automatiskt. Det kan göras till exempel baserat på [eskaleringsnivåerna][3] som har angetts för olika kontakter och företag.
 
-   * I listrutan **Åtkomstnivå för ärende** kan du välja bland följande alternativ:
-     * **Externt**: Välj detta om kontakten ska ha tillgång till ärendet via SuperOffice Customer Centre.
-     * **Internt**: Välj detta om kontakten inte ska ha tillgång till ärendet. Ärendet visas i SuperOffice Customer Centre, men kontakten kan inte visa ärendedetaljerna eller meddelandena.
+    * I listrutan **Åtkomstnivå för ärende** kan du välja bland följande alternativ:
+      * **Externt**: Välj detta om kontakten ska ha tillgång till ärendet via SuperOffice Customer Centre.
+      * **Internt**: Välj detta om kontakten inte ska ha tillgång till ärendet. Ärendet visas i SuperOffice Customer Centre, men kontakten kan inte visa ärendedetaljerna eller meddelandena.
 
-   * I listrutan **Taggar** [väljer du relevanta taggar][4] för ärendet.
+    * I listrutan **Taggar** [väljer du relevanta taggar][4] för ärendet.
 
     ![Request properties sidebar -screenshot][img7]
 

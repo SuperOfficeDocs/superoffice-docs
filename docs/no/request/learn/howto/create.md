@@ -43,25 +43,25 @@ En sak kan komme inn i systemet via en e-postmelding fra kunden, eller du kan re
 
     * I listeboksen **Sakstype**, velger du en type, som vil påvirke standardverdier og tilgjengelige statusser og prioriteter.
 
-   * I listeboksen **Status** velger du ett av følgende:
-     * **Åpne**: Velg dette hvis saken er under arbeid.
-     * **Avsluttet**: Velg dette hvis saken er utført.
-     * **Utsatt**: Hvis du vil utsette behandlingen av denne saken, velger du dette alternativet og angir en dato og et klokkeslett i feltet **Angitt** eller et forhåndsinnstilt klokkeslett i listen nedenfor. På denne datoen og dette klokkeslettet settes saken til **Åpen** igjen.
+    * I listeboksen **Status** velger du ett av følgende:
+      * **Åpne**: Velg dette hvis saken er under arbeid.
+      * **Avsluttet**: Velg dette hvis saken er utført.
+      * **Utsatt**: Hvis du vil utsette behandlingen av denne saken, velger du dette alternativet og angir en dato og et klokkeslett i feltet **Angitt** eller et forhåndsinnstilt klokkeslett i listen nedenfor. På denne datoen og dette klokkeslettet settes saken til **Åpen** igjen.
 
-   * I feltet **Eier** velger du ett av følgende alternativer:
-     * Hvis du vil tildele saken til en bestemt person, velger du ønsket navn. Velg ditt eget navn for å tildele saken til deg selv.
-     * **(Automatisk tildelt)**: Hvis du velger dette alternativet, fordeler systemet saken etter gjeldende fordelingsregler.
-     * **(Ufordelt)**: Du kan også velge å ikke tildele saken. Da blir medlemmene av den aktuelle kategorien ansvarlige for å behandle saken.
+    * I feltet **Eier** velger du ett av følgende alternativer:
+      * Hvis du vil tildele saken til en bestemt person, velger du ønsket navn. Velg ditt eget navn for å tildele saken til deg selv.
+      * **(Automatisk tildelt)**: Hvis du velger dette alternativet, fordeler systemet saken etter gjeldende fordelingsregler.
+      * **(Ufordelt)**: Du kan også velge å ikke tildele saken. Da blir medlemmene av den aktuelle kategorien ansvarlige for å behandle saken.
 
-   * I feltet **Kategori** velger du kategorien du vil ha, fra listen som vises.
+    * I feltet **Kategori** velger du kategorien du vil ha, fra listen som vises.
 
-   * I listeboksen **Prioritet** kan du velge mellom **Lav**, **Medium** og **Høy**, eller du kan angi at systemet skal tildele prioritet automatisk. Det kan f.eks. gjøres på grunnlag av [eskaleringsnivåer][3] som er angitt for ulike personer og firmaer.
+    * I listeboksen **Prioritet** kan du velge mellom **Lav**, **Medium** og **Høy**, eller du kan angi at systemet skal tildele prioritet automatisk. Det kan f.eks. gjøres på grunnlag av [eskaleringsnivåer][3] som er angitt for ulike personer og firmaer.
 
-   * I listeboksen **Tilgangsnivå for sak** kan du velge blant følgende alternativer:
-     * **Ekstern**: Velg dette alternativet hvis personen skal ha tilgang til saken via SuperOffice Kundesenter.
-     * **Internt**: Velg dette hvis personen ikke skal ha tilgang til saken. Saken blir oppført i SuperOffice Kundesenter, men personen kan ikke vise saksdetaljer eller meldinger.
+    * I listeboksen **Tilgangsnivå for sak** kan du velge blant følgende alternativer:
+      * **Ekstern**: Velg dette alternativet hvis personen skal ha tilgang til saken via SuperOffice Kundesenter.
+      * **Internt**: Velg dette hvis personen ikke skal ha tilgang til saken. Saken blir oppført i SuperOffice Kundesenter, men personen kan ikke vise saksdetaljer eller meldinger.
 
-   * [Velg relevante emneknagger][4] for denne saken i listen **Emneknagger**.
+    * [Velg relevante emneknagger][4] for denne saken i listen **Emneknagger**.
 
     ![Request properties sidebar -screenshot][img7]
 
