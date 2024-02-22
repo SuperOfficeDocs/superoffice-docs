@@ -43,7 +43,7 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
 
     * Selecteer in de keuzelijst **Verzoektyp** een type dat van invloed zal zijn op standaardwaarden en beschikbare statussen en prioriteiten.
 
-   * Selecteer in de keuzelijst **Status** een van de volgende opties:
+    * Selecteer in de keuzelijst **Status** een van de volgende opties:
       * **Openen**: selecteer deze optie als het verzoek actief is.
       * **Gesloten**: Selecteer deze optie als het verzoek voltooid is.
       * **Uitgesteld**: om de afhandeling van het verzoek uit te stellen, selecteert u deze optie en geeft u in het veld **Opgegeven** een datum en tijd op, of een vooringestelde tijd uit de onderstaande lijst. De status van het verzoek wordt op de opgegeven datum en tijd teruggezet naar **Openstaand**.
