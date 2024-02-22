@@ -8,7 +8,7 @@ so.date: 02.19.2024
 so.version: 10
 so.topic: howto
 language: en
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 

@@ -7,7 +7,7 @@ author: SuperOffice RnD
 so.date: 02.16.2023
 so.topic: concept
 language: nl
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
