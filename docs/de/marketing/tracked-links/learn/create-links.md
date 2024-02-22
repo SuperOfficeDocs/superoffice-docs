@@ -11,8 +11,6 @@ language: de
 
 # Überwachte Links erstellen
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Sie können URLs verfolgen, die in E-Mails eingefügt wurden. Die Registerkarte **Überwachte Links** wird verwendet, um die überwachbaren Links zu verwalten. Die hier erstellten Links sind für Sie und andere Benutzer beim Bearbeiten des Inhalts der Kampagne verfügbar.
 
 > [!NOTE]

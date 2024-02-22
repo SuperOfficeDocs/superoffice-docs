@@ -11,8 +11,6 @@ language: de
 
 # Verwenden Sie Links, um verschiedene Aktionen zu automatisieren
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Sie können Ihre Arbeit beschleunigen, indem Sie die Antworten, die Sie von einer Kampagne erhalten, mit automatisierten Link-Aktionen verarbeiten.
 
 Stellen Sie sich vor, dass Ihre Kampagne ein großer Erfolg wird. Über 500 Personen haben Ihre Mitteilung geöffnet und auf die von Ihnen einbezogenen Links geklickt. Sie müssen jetzt noch all diese Antworten Ihrer Empfänger verarbeiten. Denken Sie darüber nach, wie viel Zeit dies in Anspruch nehmen würde, wenn Sie es manuell tun müssten.

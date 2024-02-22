@@ -11,8 +11,6 @@ language: nl
 
 # Voorbeelden van het gebruik van traceerbare links
 
-[!include[Requirement](includes/req-marketing.md)]
-
 U kunt traceerbare koppelingen op diverse manieren gebruiken:
 
 > [!NOTE]

@@ -14,8 +14,6 @@ so.audience.tooltip: SuperOffice Marketing
 
 # Add tracked links to message
 
-[!include[Requirement](../../tracked-links/learn/includes/req-marketing.md)]
-
 By setting up links that direct readers to various content on your website you can collect registrations, responses and monitor what products, offers and news your customers are interested in.
 
 ![Add a link to your mailing by selecting a part of the text that should be linked and clicking on the insert link icon in the text editor -screenshot][img2]

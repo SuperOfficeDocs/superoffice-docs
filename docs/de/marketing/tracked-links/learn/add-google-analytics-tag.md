@@ -17,8 +17,6 @@ Sie können die Besucher Ihrer Website verfolgen, nachdem sie Ihre Kampagnen gel
 
 Um die [Google Analytics-Funktion][2] nutzen zu können, benötigen Sie ein Google Analytics-Konto, das mit Ihrer Website verbunden ist.
 
-[!include[Requirement](includes/req-marketing.md)]
-
 ## Schritte
 
 1. Öffnen Sie zunächst die Kampagne, die Sie mit Google Analytics verfolgen möchten oder erstellen Sie eine neue Kampagne. Gehen Sie zum ersten Schritt des Kampagnenassistenten (Setup). Die Überschrift **Tracking** befindet sich in der unteren rechten Ecke. Hier können Sie die Kontrollkästchen **Alle Links verfolgen** und **Google Analytics verwenden**aktivieren. Wenn Sie Google Analytics verwenden aktivieren, werden die Google Analytics-Textfelder angezeigt.

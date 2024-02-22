@@ -11,8 +11,6 @@ language: no
 
 # Sporede koblinger
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Målet med nyhetsbrevet eller e-postkampanjen din vil avgjøre hvilke koblinger du bør bruke. Hvert mål har sin egen CTA for å utløse et svar fra mottakeren du ønsker å spore. På denne måten kan du følge opp mottakerne etter at du har mottatt alle resultatene.
 
 For eksempel kan det å klikke på en kobling åpne en ny webside eller oppdatere personkortet til mottakeren. Handlingen kan også legge til en service-sak i Service og i detaljkortet Sak på personkortet. Bruk av koblinger er bare tilgjengelig for brukere som abonnerer på markedsføringsplanen.

@@ -11,8 +11,6 @@ language: de
 
 # Beispiele für die Verwendung überwachbarer Links
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Überwachbare Links können auf vielfältige Weise eingesetzt werden:
 
 > [!NOTE]

@@ -11,8 +11,6 @@ language: da
 
 # Indsætte sporede links i en meddelelse
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Ved at oprette links, der leder læserne til forskelligt indhold på dit websted, kan du indsamle registreringer, svar og overvåge, hvilke produkter, tilbud og nyheder dine kunder er interesserede i.
 
 ![Tilføj et link til din mailudsendelse ved at markere den del af teksten, der skal linkes, og klikke på ikonet for Indsæt link i tekstredigeringsværktøjet -screenshot][img2]

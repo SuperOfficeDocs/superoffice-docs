@@ -11,8 +11,6 @@ language: da
 
 # Opret sporede links
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Du kan spore webadresser, der er indsat i e-mails. Fanen **Sporede links** bruges til at administrere disse sporbare links. De links, der er oprettet her, vil være tilgængelige, når du og andre brugere redigerer indholdet af dine udsendelser.
 
 > [!NOTE]

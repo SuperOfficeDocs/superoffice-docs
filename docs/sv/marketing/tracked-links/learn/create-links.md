@@ -11,8 +11,6 @@ language: sv
 
 # Skapa spårade länkar
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Du kan spåra webbadresser som infogats i e-postmeddelanden. Fliken **Spårade länkar** används för att administrera dessa spårbara länkar. De länkar som skapas här finns tillgängliga när du redigerar innehållet i ditt utskick.
 
 > [!NOTE]

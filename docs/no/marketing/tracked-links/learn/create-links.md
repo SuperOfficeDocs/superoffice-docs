@@ -11,8 +11,6 @@ language: no
 
 # Opprette sporede koblinger
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Du kan spore URL-adresser som er satt inn i e-postmeldinger. Fanen **Sporede koblinger** brukes til å administrere disse sporbare koblingene. Koblingene som opprettes her vil være tilgjengelige når du og andre brukere redigerer innholdet i utsendelsene.
 
 > [!NOTE]

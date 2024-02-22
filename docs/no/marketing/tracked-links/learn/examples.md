@@ -11,8 +11,6 @@ language: no
 
 # Eksempler på bruk av sporbare koblinger
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Sporbare koblinger kan brukes på flere nyttige måter:
 
 > [!NOTE]

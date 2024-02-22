@@ -14,8 +14,6 @@ so.audience.tooltip: SuperOffice Marketing
 
 # Tracked links
 
-[!include[Requirement](includes/req-marketing.md)]
-
 The links you use in your newsletter or email campaign are determined by your goals. Each goal has a unique call-to-action that prompts a response from the recipient, which you can track. This allows you to follow up with your recipients once you have gathered all the results.
 
 For instance, a link click could open a new website or update a recipient's Contact card. It could also add a [Service request][8].

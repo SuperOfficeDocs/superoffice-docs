@@ -11,8 +11,6 @@ language: de
 
 # Überwachte Links zu einer Mitteilung hinzufügen
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Durch das Einrichten von Links, die Leser zu verschiedenen Inhalten auf Ihrer Website führen, können Sie Registrierungen und Antworten sammeln und überwachen, an welchen Produkten, Angeboten und Neuigkeiten Ihre Kunden interessiert sind.
 
 ![Fügen Sie Ihrer Kampagne einen Link hinzu, indem Sie einen Teil des zu verknüpfenden Textes auswählen und am Texteditor auf das Symbol Link einfügen klicken -screenshot][img2]

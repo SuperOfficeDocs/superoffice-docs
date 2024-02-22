@@ -11,8 +11,6 @@ language: da
 
 # Sporede links
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Formålet med dit nyhedsbrev eller din e-mailkampagne er det der afgør, hvilke links du skal bruge. Hvert formål vil udløse en bestemt respons fra den modtager, du ønsker at spore. På den måde kan du følge op på dine modtagere, så snart du har modtaget alle svarene.
 
 For eksempel kan et klik på et link åbne en ny hjemmeside eller opdatere din modtagers kontaktoplysninger. Handlingen kan også oprette en service-sag i Service og i fanen Sag på visitkortet. Brugen af links er kun tilgængelig for brugere, der abonnerer på Marketingplanen.

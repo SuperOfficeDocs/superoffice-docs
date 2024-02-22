@@ -11,8 +11,6 @@ language: no
 
 # Bruke koblinger til å automatisere ulike handlinger
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Du kan jobbe raskere ved å behandle svarene du får fra en utsendelse, med automatiserte koblingshandlinger.
 
 Tenk deg at utsendelsen din er en stor suksess. Over 500 personer åpnet meldingen din og klikket på koblingene du inkluderte. Oppgaven din nå er å behandle alle disse svarene fra mottakerne. Tenk hvor lang tid dette ville tatt hvis du måtte gjøre det manuelt.

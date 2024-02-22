@@ -47,7 +47,7 @@ This means that the customer no longer receives this mailing type from SuperOffi
 You do, however, have the possibility to override "no consent / no subscription" settings, from **Options** in the lower part of the **Recipients** screen.
 
 <!-- Referenced links -->
-[2]: ../../tracked-links/learn/examples.md
+[2]: ../../tracked-links/learn/index.md#ex
 [1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->

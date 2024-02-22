@@ -11,8 +11,6 @@ language: da
 
 # Bruge links til at automatisere forskellige handlinger
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Du kan gøre dit arbejde hurtigere ved at behandle de svar, du får på en udsendelse, ved hjælp af automatiserede linkhandlinger.
 
 Forestil dig, at din udsendelse er en stor succes. Over 500 personer åbnede din besked og klikkede på de links, du havde indsat. Det er så din opgave at behandle alle svarene fra modtagerne. Tænk på, hvor lang tid det ville tage, hvis du skulle gøre det manuelt.

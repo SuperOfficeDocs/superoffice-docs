@@ -11,8 +11,6 @@ language: nl
 
 # Gevolgde links
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Het doel van uw nieuwsbrief of e-mailcampagne bepaalt welke koppelingen u moet gebruiken. Elk doel heeft zijn eigen oproep tot actie om een reactie van de ontvanger te activeren die u wilt volgen. Op deze manier kunt u uw ontvangers opvolgen nadat u alle resultaten hebt ontvangen.
 
 Als u bijvoorbeeld op een koppeling klikt, kan een nieuwe website worden geopend of de persoonskaart van uw ontvanger worden bijgewerkt. De actie kan ook een service-verzoek toevoegen in Service en op het sectietabblad Verzoek op de persoonskaart. Het gebruik van koppelingen is alleen beschikbaar voor gebruikers die zich abonneren op het Marketingplan.

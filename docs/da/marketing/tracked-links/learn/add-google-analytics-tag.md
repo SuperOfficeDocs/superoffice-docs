@@ -17,8 +17,6 @@ Med Google Analytics-funktionen i SuperOffice Marketing kan du spore de personer
 
 For at bruge [Google Analytics-funktionen][2], skal du have en Google Analytics-konto tilknyttet dit websted.
 
-[!include[Requirement](includes/req-marketing.md)]
-
 ## Trin
 
 1. Start med at åbne den udsendelse, du vil spore med Google Analytics, eller opret en ny udsendelse. Gå til første trin i mailudsendelsesguiden (Opsætning). Overskriften **Sporing** er placeret i nederste højre hjørne. Her kan du markere afkrydsningsfelterne **Spore alle links** og **Bruge Google Analytics**. Når du markerer Brug Google Analytics, vises tekstfelterne i Google Analytics.

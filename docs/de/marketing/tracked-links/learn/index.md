@@ -11,8 +11,6 @@ language: de
 
 # Überwachte Links
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Das Ziel Ihres Newsletters oder Ihrer E-Mail-Kampagne bestimmt, welche Links Sie verwenden sollten. Jedes Ziel hat ihre eigenen Handlungsanreize, um eine Antwort des Empfängers auszulösen, den Sie verfolgen möchten. Auf diese Weise können Sie Ihre Empfänger nachverfolgen, nachdem Sie alle Ergebnisse erhalten haben.
 
 Wenn Sie zum Beispiel auf einen Link klicken, wird möglicherweise eine neue Website geöffnet oder die Personenkarte des Empfängers aktualisiert. Die Aktion kann auch eine Serviceanfrage in Service und auf der Bereichsregisterkarte Anfrage in der Personenkarte hinzufügen. Die Verwendung von Links ist nur für Benutzer verfügbar, die den Marketingplan abonniert haben.

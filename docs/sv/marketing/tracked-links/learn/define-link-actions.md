@@ -11,8 +11,6 @@ language: sv
 
 # Använd länkar för att automatisera olika åtgärder
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Du kan snabba upp ditt arbete genom att behandla svaren du får från ett utskick med automatiska länkåtgärder.
 
 Tänk dig att ditt utskick blir en stor framgång. Över 500 personer öppnade ditt meddelande och klickade på länkarna du inkluderade. Den uppgift som väntar är att behandla alla dessa svar från dina mottagare. Tänk dig hur lång tid det skulle ta om du var tvungen att göra det manuellt.

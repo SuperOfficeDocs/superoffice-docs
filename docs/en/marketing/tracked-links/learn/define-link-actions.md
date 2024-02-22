@@ -14,8 +14,6 @@ so.audience.tooltip: SuperOffice Marketing
 
 # Define automatic link actions
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Updating 500 contact cards manually is time-consuming and unnecessary. Automated link actions can streamline this process.
 
 Here is how automated link actions work:

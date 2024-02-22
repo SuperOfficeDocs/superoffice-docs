@@ -11,8 +11,6 @@ language: nl
 
 # Gevolgde links maken
 
-[!include[Requirement](includes/req-marketing.md)]
-
 U kunt URL's bijhouden die in e-mails zijn ingevoegd. Via het tabblad **Gevolgde links** kunt u die traceerbare links beheren. De links die hier worden gemaakt, zijn beschikbaar wanneer u en andere gebruikers de inhoud van uw mailings willen bewerken.
 
 > [!NOTE]

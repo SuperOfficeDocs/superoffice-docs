@@ -11,8 +11,6 @@ language: sv
 
 # Exempel på användning av spårbara länkar
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Spårbara länkar kan användas på många intressanta sätt:
 
 > [!NOTE]

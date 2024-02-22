@@ -11,8 +11,6 @@ language: sv
 
 # Lägga till spårade länkar i meddelandet
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Genom att konfigurera länkar som leder läsare till olika innehåll på din webbplats kan du samla registreringar, svar och bevaka vilka produkter, erbjudanden och nyheter dina kunder är intresserade av.
 
 ![Lägg till en länk i ditt utskick genom att markera en del av texten som ska länkas och klicka på ikonen infoga länk i textredigeraren -screenshot][img2]

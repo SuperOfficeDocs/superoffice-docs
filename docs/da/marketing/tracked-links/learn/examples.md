@@ -11,8 +11,6 @@ language: da
 
 # Eksempler på brug af sporbare links
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Sporbare links kan bruges på flere måder:
 
 > [!NOTE]

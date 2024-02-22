@@ -14,8 +14,6 @@ so.audience.tooltip: SuperOffice Marketing
 
 # How to add your Google Analytics tag to a mailing
 
-[!include[Requirement](includes/req-marketing.md)]
-
 With Google Analytics enabled, you can track website visits from recipients who click on the links in your mailing. The Google Analytics tracking setting is set on a per-mailing basis, allowing you to selectively track specific mailings. It is not a blanket setting, giving you more control over your data tracking strategy.
 
 ## Requirements

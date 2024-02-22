@@ -11,8 +11,6 @@ language: nl
 
 # Koppelingen gebruiken om verschillende acties te automatiseren
 
-[!include[Requirement](includes/req-marketing.md)]
-
 U kunt uw werk versnellen door de reacties die u krijgt van een mailing te verwerken met geautomatiseerde linkacties.
 
 Stel u voor dat uw mailing een groot succes is. Meer dan 500 mensen hebben uw bericht geopend en op de links geklikt die je hebt opgenomen. De taak die voor u ligt, is om al deze reacties van uw ontvangers te verwerken. Denk na over de hoeveelheid tijd die dit zou kosten als u het handmatig zou moeten doen.

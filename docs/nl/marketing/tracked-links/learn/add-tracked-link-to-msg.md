@@ -11,8 +11,6 @@ language: nl
 
 # Gevolgde koppelingen toevoegen aan een bericht
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Door koppelingen in te stellen die lezers naar verschillende inhoud op uw website leiden, kunt u registraties, reacties verzamelen en controleren in welke producten, aanbiedingen en nieuws uw klanten geïnteresseerd zijn.
 
 ![Voeg een koppeling toe aan uw mailing door een deel van de tekst te selecteren dat moet worden gekoppeld en op het pictogram Link invoegen in de teksteditor te klikken -screenshot][img2]

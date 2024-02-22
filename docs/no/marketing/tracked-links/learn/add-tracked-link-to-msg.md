@@ -11,8 +11,6 @@ language: no
 
 # Legge til sporede koblinger i meldinger
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Ved å sette opp koblinger som leder leserne til forskjellig innhold på websiden din, kan du samle registreringer og svar og overvåke hvilke produkter, tilbud og nyheter kundene dine er interessert i.
 
 ![Legg til en kobling til utsendelsen din ved å velge en del av teksten som skal kobles, og klikke på ikonet for å sette inn kobling i tekstredigeringsprogrammet -screenshot][img2]

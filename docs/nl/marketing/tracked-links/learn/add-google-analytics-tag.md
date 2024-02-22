@@ -17,8 +17,6 @@ U kunt de mensen volgen die uw website bezoeken als gevolg van het lezen van uw 
 
 Als u de [functie Google Analytics][2] wilt gebruiken, heeft u een Google Analytics-account nodig dat is gekoppeld aan uw website.
 
-[!include[Requirement](includes/req-marketing.md)]
-
 ## Stappen
 
 1. Begin met het openen van de mailing die u wilt bijhouden met Google Analytics of maak een nieuwe mailing. Ga naar de eerste stap van de mailingwizard (Instellen). De koptekst **Tracking** bevindt zich in de rechterbenedenhoek. Hier kunt u de vakjes **Alle koppelingen traceren** en **Google Analytics gebruiken** aanvinken. Wanneer u Google Analytics gebruiken inschakelt, worden de tekstvelden van Google Analytics weergegeven.

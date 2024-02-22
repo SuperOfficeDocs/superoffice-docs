@@ -17,8 +17,6 @@ Du kan spåra personer som besöker din webbplats eftersom de läst dina utskick
 
 Om du vill använda [Google Analytics-funktionen][2] behöver du ett Google Analytics-konto som är kopplat till din webbplats.
 
-[!include[Requirement](includes/req-marketing.md)]
-
 ## Steg
 
 1. Börja med att öppna utskicket du vill spåra med Google Analytics eller skapa ett nytt utskick. Gå till det första steget i e-postguiden (Konfiguration). Rubriken **Spårning** finns i det nedre högra hörnet. Här kan du markera rutorna **Spåra alla länkar** och **Använd Google Analytics**. När du markerar Använd Google Analytics visas textfälten i Google Analytics.

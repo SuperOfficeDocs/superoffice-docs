@@ -11,8 +11,6 @@ language: sv
 
 # Spårade länkar
 
-[!include[Requirement](includes/req-marketing.md)]
-
 Målet med ditt nyhetsbrev eller din e-postkampanj avgör vilka länkar du ska använda. Varje mål har sin egen uppmaning som utlöser ett svar från mottagaren som du vill spåra. På så sätt kan du följa upp dina mottagare efter att du har fått alla resultat.
 
 Om du till exempel klickar på en länk kan du öppna en ny webbplats eller uppdatera mottagarens kontaktkort. Åtgärden kan också lägga till ett serviceärende i Service och på detaljkortet Ärende på kontaktkortet. Användningen av länkar är endast tillgänglig för användare som prenumererar på marknadsföringsplanen.
