@@ -23,7 +23,7 @@ Attendees who are invited to a follow-up will receive a notification.
 * Click **Accept** or **Decline** to respond to the invitation.
 
     To see declined meetings that you might now be able to attend, choose **Show invitations I have declined** at the bottom of the **Notifications** panel.
-
+ 
 [Read more about notifications.][1]
 
 ### Note
