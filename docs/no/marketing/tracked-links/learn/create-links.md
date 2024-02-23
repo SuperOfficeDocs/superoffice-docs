@@ -1,34 +1,34 @@
 ---
 uid: help-no-mailing-create-tracked-link
-title: Opprette sporede koblinger
-description: Opprette sporede koblinger
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Markedsføring
-so.topic: help
+title: Opprette sporet kobling
+description: Hvordan opprette sporede koblinger i SuperOffice CRM. Disse lenkene vil da være tilgjengelige når du og andre brukere redigerer innholdet i utsendelsene dine. Dette muliggjør effektiv sporing av brukerinteraksjon med e-postene.
+keywords: Markedsføring, sporet kobling
+author: Bergfrid Dias
+so.date: 02.23.2024
+so.version: 10
+so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
-# Opprette sporede koblinger
+# Opprette sporet kobling
 
-Du kan spore URL-adresser som er satt inn i e-postmeldinger. Fanen **Sporede koblinger** brukes til å administrere disse sporbare koblingene. Koblingene som opprettes her vil være tilgjengelige når du og andre brukere redigerer innholdet i utsendelsene.
+Du kan opprette sporbare URL-er i fanen **Sporede koblinger**. Disse lenkene vil da være tilgjengelige når du og andre brukere redigerer innholdet i utsendelsene dine. Dette muliggjør effektiv sporing av brukerinteraksjon med e-postene.
 
-> [!NOTE]
-> Du kan også opprette nye koblinger mens du redigerer innholdet.
+Du kan også opprette nye koblinger mens du redigerer innholdet.
 
-**Trinn:**
+## Trinn
 
 1. Velg fanen **Sporede koblinger**.
 
-2. Valgfritt: Velg en mappe eller opprett en ny mappe.
+2. Valgfritt: Velg en mappe eller [opprett en ny mappe][2].
 
-    [Hvordan oppretter jeg en utsendelsesmappe?][19]
+3. Klikk på ![ikon][img1] **Legg til**-knappen.
 
-3. Klikk på ![ikon][img1] **Legg til**-knappen. Du kommer til bildet **Egenskaper for kobling**.
+4. Angi et beskrivende **Navn** på koblingen.
 
-4. Angi et beskrivende navn på koblingen i feltet **Navn**.
-
-5. Under **Koblingshandlinger** nederst i bildet kan du [velge hva som skal skje][1] når mottakerne klikker på koblingen i meldingen.
+5. Under **Koblingshandlinger** [velg hva som skal skje][1] når mottakerne klikker på koblingen i meldingen.
 
 6. Klikk på **OK** når du er ferdig.
 
@@ -36,7 +36,7 @@ En liten prikk på fanene for koblingshandlinger indikerer hvilke handlinger som
 
 <!-- Referenced links -->
 [1]: define-link-actions.md
-[19]: ../../learn/create-folder.md
+[2]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

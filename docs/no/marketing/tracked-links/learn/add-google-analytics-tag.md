@@ -2,16 +2,19 @@
 uid: help-no-mailing-add-google-analytics
 title: Slik legger du til emneknaggen Google Analytics i en utsendelse
 description: I denne veiledningen lærer du hvordan du sporer de besøkende.
+keywords: Markedsføring, Google Analytics, utsendelse
 author: Bergfrid Dias
-so.date: 02.20.2023
-keywords: Markedsføring
+so.date: 02.23.2024
+so.version: 10
 so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Slik legger du til emneknaggen Google Analytics i en utsendelse
 
-Du kan spore personene som besøker websiden din som et resultat av at de leser utsendelsene dine, ved å bruke Google Analytics-funksjonen i SuperOffice Marketing. Google Analytics-sporingen må angis i [det første trinnet for hver utsendelse][1] du oppretter.
+Med Google Analytics aktivert, kan du spore nettstedbesøk fra mottakere som klikker på lenkene i e-postene dine. Innstillingen for Google Analytics-sporing er satt på en per utsendelse, noe som lar deg selektivt spore bestemte e-poster. Det er ikke en generell innstilling, noe som gir deg mer kontroll over data-sporingsstrategien din.
 
 ## Krav
 
@@ -19,28 +22,22 @@ For å kunne bruke [Google Analytics-funksjonen][2], trenger du en Google Analyt
 
 ## Trinn
 
-1. Start med å åpne utsendelsen du ønsker å spore med Google Analytics, eller opprett en ny utsendelse. Gå til det første trinnet i veiviseren for utsendelser (Oppsett). Overskriften **Sporing** er plassert nederst til høyre. Her kan du velge boksene **Spor alle koblinger** og **Bruk Google Analytics**. Når du velger Bruk Google Analytics, vises tekstfeltene for Google Analytics.
+1. Åpne utsendelsen du vil spore eller [opprett en ny utseldelse][1]. I det første trinnet av veiviseren for utsendelser (Oppsett), velg **Spor alle lenker** og **Bruk Google Analytics** under overskriften **Sporing**.
 
     ![Velg Google Analytics og spor alle koblinger -screenshot][img1]
 
-2. I **sporingsfeltene i Google Analytics** er "E-post" forhåndsdefinert som medium. Det betyr at sporede utsendelser som sendes fra SuperOffice CRM, nå finnes i Google Channel-rapporter under **E-post**, og ikke under **Andre**.
+2. **Sporingsfeltene i Google Analytics:** "E-post" er forhåndsdefinert som mediet, så sporede e-poster fra SuperOffice CRM vises under E-post i Google Channel-rapporter.
 
-3. Hvis du vil identifisere en bestemt utsendelse som kilde, må feltene for Kilde og Kampanje også fylles ut.
+3. **Kilde og kampanje:** Identifiser en bestemt utsendelse ved å fullføre **Kilde** og **Kampanje** feltene.
 
-    * I **Kilde**-feltet kan du legge til kilden til trafikken på websiden din. Her kan du velge å bruke de forskjellige abonnementene innen e-markedsføring, som for eksempel Månedlig nyhetsbrev, Kampanjeutsendelse osv.
+    * **Kilde**-feltet kan inkludere forskjellige E-markedsføringsabonnementer, som Månedlig nyhetsbrev eller Kampanjeutsendelse.
+    * **Kampanje**-feltet kan inneholde kampanjenavn, som Julesalgskampanje eller Høstsalgskampanje.
 
-    * I **Kampanje**-feltet kan du angi navnet på kampanjen du kjører. Det vil gjøre det enklere å spore og rapportere resultatene av utsendelsen du har sendt ut. Her kan du angi kampanjenavn, som for eksempel julesalgskampanje eller høstsalgskampanje, og så videre.
+4. **Følg veiviseren for utsendelser:** Etter at du har satt opp sporingsdetaljer, fortsett med veiviseren. Velg malen din, legg til innhold, legg til mottakere, og send utsendelsen.
 
-4. Når du har konfigurert alle detaljene du vil bruke til å spore utsendelsen i Google Analytics, kan du følge trinnene i veiviseren for utsendelser. Klikk på **Neste** for å velge mal, legg til innhold, legg til mottakere og send utsendelsen.
+    * Alle lenker lagt til i Innholdstrinnet vil automatisk bli sporet.
 
-Alle koblingene du legger til i det tredje trinnet (Innhold), blir automatisk sporet fordi du har slått på Google Analytics-funksjonen. Så snart mottakerne klikker på koblingene til websiden din, kan du spore besøkene deres på websiden i Google Analytics.
-
-## Slik sjekker du resultatene for utsendelsen din i Google Analytics
-
-Du kan sjekke resultatene for utsendelsene dine ved å logge inn på Google Analytics-kontoen din. Utsendelsene dine skal være synlige i kanalrapportene fra Google under E-post.
-
-> [!NOTE]
-> Gi Google Analytics litt tid til å behandle sporingsinformasjonen din. Det kan ta mellom 1 og 24 timer før kilden til utsendelsen registreres i rapportene dine.
+Så snart mottakerne klikker på koblingene til websiden din, kan du spore besøkene deres på websiden i Google Analytics.
 
 <!-- Referenced links -->
 [1]: ../../mailing/learn/create/tutorial-email-mailing.yml

@@ -2,8 +2,8 @@
 uid: help-no-mailing
 title: Arbeide med utsendelser
 description: Arbeide med utsendelser
-keywords: Markedsføring
-author: SuperOffice RnD
+keywords: Markedsføring, utsendelse
+author: SuperOffice RnD, Jeanette Small Strøm
 so.date: 02.12.2024
 so.version: 10
 so.topic: concept
@@ -64,6 +64,14 @@ Du kan knytte utsendelsen til et utvalg og/eller et prosjekt for å holde oversi
 
 Eksempel: Hvis du sender ut flere utsendelser for å markedsføre et arrangement, kan du legge til disse utsendelsene i et utvalg kalt "Arrangement 2015", slik at du har en fullstendig liste over alle utsendelsene for dette arrangementet. Og hvis du oppretter et prosjekt for arrangementet, kan du på tilsvarende måte ha en liste over alle prosjektrelaterte utsendelser i detaljkortet **Aktiviteter**.
 
+## Betydningen av e-postlevering
+
+E-postmarkedsføring er en kostnadseffektiv markedsføringsstrategi som kan resultere i [høy avkastning på investering][20]. Men for å få mest mulig ut av dette markedsføringsverktøyet, må e-postene dine komme frem til målgruppens innboks, ikke deres SPAM-mappe.
+
+Forestille deg dette scenariet: du har nøye laget en e-postkampanje med førsteklasses innhold og design, trykket på send-knappen, og mottar lite til ingen respons. Åpningsraten din er skuffende og det er mange bounces, eller enda verre, du blir merket som spam.
+
+**E-postlevering** er en stor sak fordi det bestemmer om e-postene dine faktisk kommer til abonnentenes innbokser eller ikke. Hvis de ikke blir levert, vil de ikke bli sett eller lest av målgruppen din, noe som betyr tapte sjanser og lavere suksess for e-postmarkedsføringskampanjene dine. Sjekk ut våre [beste praksiser][9].
+
 ## <a id="after" />Hvordan kan jeg følge opp utsendelsen?
 
 Etter at utsendelsen er sendt, er det alltid spennende å se hvor godt den har gjort det. Da ser du om alt det harde arbeidet ditt har lønnet seg. Det er også en flott mulighet til å kontrollere og forbedre kvaliteten på informasjonen som er registrert i CRM-databasen.
@@ -79,7 +87,8 @@ Etter at utsendelsen er sendt, er det alltid spennende å se hvor godt den har g
 [3]: create/send-test-email.md
 [2]: view-statistics.md
 [4]: ../../forms/learn/create.md
-[6]: ../../recipients/learn/add-unsubscribe-link.md
+[6]: ../../editor/learn/add-unsubscribe-link.md
+[9]: ../../learn/best-practices.md
 [8]: ../../recipients/learn/index.md
 [11]: ../../recipients/learn/look-at-recipient-list.md
 [12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
@@ -87,5 +96,6 @@ Etter at utsendelsen er sendt, er det alltid spennende å se hvor godt den har g
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md
 [5]: https://www.superoffice.co.uk/resources/articles/integrated-web-forms/
+[20]: https://www.superoffice.com/blog/email-marketing-strategy/
 
 <!-- Referenced images -->

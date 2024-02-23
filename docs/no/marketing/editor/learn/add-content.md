@@ -24,7 +24,7 @@ Legg til innhold i meldingen ved hjelp av sidepanelet.
 Fra **Innhold**-seksjonen kan du legge til alle typer innhold, som kolonner, tekstblokker, bilder, menyer/knapper og SoMe-koblinger. Dra og slipp innhold fra denne seksjonen til meldingen. Klikk på innholdet for å [redigere][2] det i sidepanelet.
 
 | Icon | Navn | Funksjon |
-|------|------|----------|
+|:-:|---|----------|
 | ![icon][img2] | Kolonner | Bruk kolonner til å strukturere meldingen i kolonner og rader. |
 | ![icon][img3] | Knapp | Bruk knapper for å legge til sporede koblinger, vanlige nettadresser eller abonnementskoblinger. |
 | ![icon][img4] | Skillestrek | Bruk skillestrek til å skille tekstblokker og annet innhold. |
@@ -53,9 +53,22 @@ I denne delen kan du redigere de globale egenskapene og oppsettet for meldingen.
 
 Legg til bilder fra SuperOffice-databasen eller fra den royaltyfrie bildedatabasen på nettet. [Slik setter du inn bilder i meldingen][1].
 
+## Legge til spesielle koblinger
+
+Du kan også **legge til spesielle koblinger** til utsendelsen din. Avhengig av hva du ønsker å oppnå, kan du velge mellom:
+
+* [Kobling for å vise meldingen på nettet][3]
+* [Administrere abonnementer][6]
+* [Avmelding][4]
+* [Sporede koblinger][5]
+
 <!-- Referenced links -->
 [1]: insert-images-in-message.md
 [2]: edit-paragraph.md
+[3]: add-link-to-display-message-in-browser.md
+[4]: add-unsubscribe-link.md
+[5]: add-tracked-link-to-msg.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content.png

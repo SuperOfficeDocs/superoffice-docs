@@ -48,8 +48,8 @@ Basert på tilbakemelding fra mottakerne, oppdateres abonnementsinnstillingene i
 > Du har imidlertid mulighet til å overstyre innstillingene "ikke samtykke/ikke abonnement" fra **Alternativer** i den nedre delen av skjermen **Mottakere** (se Trinn 4: Mottakere).
 
 <!-- Referenced links -->
-[2]: ../../tracked-links/learn/examples.md
-[1]: manage-email-subscriptions.md
+[2]: ../../tracked-links/learn/index.md#ex
+[1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/icons/marketing-and-forms/link.png

@@ -35,18 +35,13 @@ Det første trinnet når du skal lage en utsendelse for e-post, kalles **Oppsett
 
 ## Validering av e-postdomene (KUN PÅ NETT)
 
-Hvis administratoren har aktivert [global preferanse][2]** Du må bare bruke godkjente e-postdomener**, **Fra-adresse**-feltet vil være delt, og du må velge domenet du vil sende fra, i nedtrekksmenyen med godkjente domener.
+Hvis administratoren har aktivert **[global preferanse][2]** Du må bare bruke godkjente e-postdomener**, **Fra-adresse**-feltet vil være delt, og du må velge domenet du vil sende fra, i nedtrekksmenyen med godkjente domener.
 Forsøk på å sende fra et domene som ikke har en gyldig SPF-oppføring, vil utløse en advarsel, og du vil ikke kunne sende fra det domenet. Dette gjelder for alle e-postdomener, selv om valideringspreferansen ikke er aktivert.
 
 > [!NOTE]
-> Hvis **Vår kontaktadresse** har et e-postdomene som ikke er validert, sendes utsendelsen automatisk fra adressen som er angitt i alternativene ** Ellers bruk** i nedtrekksmenyen.
-
-## Aktuelle emner
-
-* [Få maksimal suksess med e-postmarkedsføringen med disse leveringstipsene][1] – blogg
+> Hvis **Vår kontaktadresse** har et e-postdomene som ikke er validert, sendes utsendelsen automatisk fra adressen som er angitt i alternativene **Ellers bruk** i nedtrekksmenyen.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/email-deliverability-tips/
 [2]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
 [4]: ../../../../learn/create-folder.md
 
