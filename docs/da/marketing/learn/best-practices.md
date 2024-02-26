@@ -2,9 +2,9 @@
 uid: help-da-marketing-best-practices
 title: Bedste praksis
 description: Bedste praksis
-keywords: Marketing
-author: SuperOffice RnD
-so.date: 02.12.2024
+keywords: Marketing, marketingkampagne, udsendelse
+author: Bergfrid Dias, Jeanette Small Strøm
+so.date: 02.23.2024
 so.version: 10
 so.topic: howto
 language: da
@@ -27,6 +27,56 @@ so.audience.tooltip: SuperOffice Marketing
 
 * Indhent nye tilladelser fra din eksisterende kundebase. Det betyder, at hvis du ikke er sikker på, om du har de nødvendige tilladelser eller ej, og hvis du ikke har givet dine kontakter mulighed for at fravælge, kan det være nødvendigt at indhente nye tilladelser. En kampagne til at "genindhente tilladelser" er også en god måde at opdatere dine eksisterende registre på.
 
+## Skab relevante beskeder, der rammer dit publikum
+
+At skabe en god besked, der er relevant for dit publikum, er, hvor det hele bør begynde. Det er så simpelt som det. Tænk på din egen e-mail-indbakke: Du har allerede meget at læse, ting at få gjort, så ville du læse beskeder, der ikke synes relevante? Sandsynligvis ikke, ikke sandt? Så start med det.
+
+**Gør:**
+
+* **Skab beskeder, der er relevante for dit publikum**, som de vil finde værdifulde og nyttige. En af de bedste måder at øge leverbarheden i din e-mail-markedsføring er at have god interaktion med dit publikum. E-mailklienter giver point til afsendere, hvis e-mails åbnes, læses og besvares, så sørg for, at du sender en besked med dit publikum i tankerne.
+
+* **Test dine e-mails**. Se dem i forskellige e-mailklienter som Outlook og Gmail, åbn dem på din mobiltelefon og computer, sørg for, at billederne ser godt ud, og at alle links virker. Der er også flere e-mail-testløsninger derude, der kan hjælpe dig, som [Mailtrap][10] eller [Putsmail][11].
+
+* **Gør det super nemt at [afmelde sig][3]**. Ingen vil miste abonnenter, men hvis nogen ikke længere ønsker at modtage dine e-mails, skal de nemt kunne finde den mulighed. Hvis ikke kan folk være tilbøjelige til at rapportere dig som SPAM, hvilket vil være meget værre.
+
+* **Sørg for, at folk genkender dig**. Når folk ser på din e-mail i deres indbakke, bør de straks genkende, at den er fra dit firma. Vær igen ægte med dit publikum. Hvorfor skulle de åbne en besked fra nogen, de ikke kender?
+
+![Vælg afsendernavn for at gøre din e-mail genkendelig -screenshot][img2]
+
+**Undgå:**
+
+* **Undgå kun at bruge billeder**. En stor billede-e-mail kan betragtes som SPAM. Andre e-mail-løsninger - som Outlook - kan blokere billeder i starten, så din besked går tabt.
+
+* **Undgå at se (og lyde) som SPAM**. Udtryk som "Tjen hurtige penge", "Kontantbonus" eller "Risikofri investering" vil få din e-mail til at se mistænkelig ud. Undgå disse spam-udløserord. Behandle din e-mail som en samtale med dit publikum, vær ægte med dem.
+
+At have den rigtige besked vil tage dig langt, men for at sikre at du rammer plet, skal du også sende til de rigtige mennesker.
+
+## Tag vare på din abonnentliste
+
+At få en god ry som e-mailafsender handler også om at tage vare på dine abonnentlister. Dette betyder først og fremmest at sikre, at **oplysninger om dine kontakter er opdaterede**. At have mange [bounces][2] (de returnerede e-mails fra personer, der ikke længere arbejder i en virksomhed eller har ændret adresse) kan virkelig sætte din ryg på spil og gøre dig til en kandidat til SPAM-mappen.
+
+Det betyder også at sikre, at folk er interesserede i dine beskeder. Hvis en stor del af dit publikum ikke åbner eller engagerer sig med dine beskeder i lang tid, kan det være på tide at prøve en anden tilgang med dem. Som du ved, er **engagement en nøglefaktor for leverbarhed**, så sørg for at tjekke inaktive brugere, der ikke har åbnet dine e-mails i et stykke tid.
+
+**Segmentering af dit publikum for at sende mere målrettede e-mails** er en god måde at få den rigtige besked ud til de rigtige mennesker. I SuperOffice kan du bruge [udvalg][1] til at målrette specifikke grupper, som mennesker fra et bestemt land eller dem, der har været i kontakt med dit firma for nylig. På den måde kan du skabe endnu mere relevante beskeder, der vil fange læserens opmærksomhed.
+
+## Sørg for at alle hjul drejer bag kulisserne
+
+Meget af leverbarheden i e-mail handler om at **skabe den rigtige oplevelse** for dit publikum. At være relevant, sikre at folk er interesserede, tage sig af abonnentlisten er store aspekter af, hvad der gør en kampagne vellykket eller ej.
+
+Men der er også nogle dele, der er mere bag kulisserne. Tekniske aspekter som **domænereputation og autentificering** er en lige så vigtig del af puslespillet. I sidste ende skal alt arbejde sammen for at sikre, at e-mail-leverancer er helt præcise.
+
+En af de vigtigste aspekter af disse tekniske dele er **[SPF-posten i dit domæne][7]**. Hvis du ikke er fortrolig med denne term, vil det være nyttigt at forstå, hvad det er, og hvorfor det er vigtigt at sætte op.
+
+## Brug e-mail-domænevalidering
+
+Forhåbentlig bruger du allerede de fleksible muligheder for at personalisere og specificere Fra- og Svar-til-felterne, når du opsætter en udsendelse i SuperOffice. Dette er fantastisk, når du vil tilføje brugerdefineret tekst som **< Jeanette fra SuperOffice >** for at blive vist som afsender. Eller hvis du sender en e-mail på vegne af din kollega eller chef.
+
+Men hvis du tilføjer en ikke-validerbar eller stavefejl e-mailadresse, kan det skade din e-mail-leverbarhed.
+
+Administratorer kan [tilføje valideret domæne][6] i Indstillinger og vedligeholdelse for at sikre, at brugerne vælger det korrekte og autentificerede domæne.
+
+Indholdsforfattere vil se en meddelelse, hvis de bruger en ikke-validerbar e-mailadresse i Fra-feltet, som en påmindelse om at bruge autentificerede domæner. Dette vil også hjælpe med at undgå stavefejl i domænet for e-mail-afsendelse.
+
 ## <a id="mobile" />Tilpasse meddelelsen til visning på mobile enheder
 
 Beskeden tilpasses automatisk til visning på mindre skærme.
@@ -36,9 +86,16 @@ Klik på ![ikon][img1] **Mobil** i den globale menu for at se, hvordan det ser u
 Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du vælge et afsnit i meddelelsen og klikke på **Mobil** i sidepanelet. Du kan nu definere formateringen for visning af meddelelsen på mobilenheder og også vælge, hvilke elementer (f.eks. billeder) der skal udelades fra mobilenheder.
 
 <!-- Referenced links -->
-[3]: ../recipients/learn/add-unsubscribe-link.md
+[1]: ../recipients/learn/index.md#selections
+[2]: ../recipients/learn/manage-bounces.md
+[3]: ../editor/learn/add-unsubscribe-link.md
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../admin/lists/learn/privacy-legal-base-add.md
+[6]: ../../admin/lists/learn/add-items-to-mailing-domain.md
+[7]: ../../../en/email/mailgun/spf/index.md
+[10]: https://mailtrap.io/
+[11]: https://putsmail.com/
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/marketing-and-forms/mobile.png
+[img2]: ../../../media/loc/en/marketing/from-name.gif

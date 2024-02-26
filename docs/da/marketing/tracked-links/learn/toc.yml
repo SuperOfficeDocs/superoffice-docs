@@ -1,17 +1,15 @@
 items:
-  - name: Oversigt
-    href: index.md
-  - name: Opret sporet link
-    href: create-links.md
-  - name: Definer linkhandlinger
-    href: define-link-actions.md
-  - name: Føj sporet link til meddelelse
-    href: add-tracked-link-to-msg.md
-  - name: Tilføj Google Analytics-tags
-    href: add-google-analytics-tag.md
-  - name: Eksempler på brug
-    href: examples.md
-  - name: Udforsk klik efter afsendelse
-    href: explore-clicks.md
-  - name: Nulstil tællere
-    href: reset-counter.md
+- name: Oversigt
+  href: index.md
+- name: Opret sporet link
+  href: create-links.md
+- name: Definer linkhandlinger
+  href: define-link-actions.md
+- name: Tilføj Google Analytics-tags
+  href: add-google-analytics-tag.md
+- name: Udforsk klik efter afsendelse
+  href: explore-clicks.md
+- name: Nulstil tællere
+  href: reset-counter.md
+- name: Tutorial
+  href: ga-tutorial.md

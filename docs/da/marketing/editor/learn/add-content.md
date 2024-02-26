@@ -24,7 +24,7 @@ Føj indhold til din meddelelse ved hjælp af sidepanelet.
 Fra afsnittet **Indhold** kan du tilføje alle typer indhold, f.eks. kolonner, tekstblokke, billeder, menuer/knapper og SoMe-links. Træk og slip indhold fra dette afsnit til meddelelsen. Klik på indholdet for at [redigere][2] det i sidepanelet.
 
 | Ikon | Navn | Funktion |
-|------|------|----------|
+|:-:|---|----------|
 | ![ikon][img2] | Kolonner | Brug kolonner til at strukturere meddelelsen i kolonner og rækker. |
 | ![ikon][img3] | Knap | Brug knapper til at tilføje sporede links, almindelige URL'er eller abonnementslinks. |
 | ![ikon][img4] | Skillelinje | Brug skillelinjer til at adskille tekstblokke og andet indhold. |
@@ -40,7 +40,7 @@ Fra afsnittet **Indhold** kan du tilføje alle typer indhold, f.eks. kolonner, t
 
 Dette afsnit indeholder gemte indholdsblokke, f.eks. overskrifter og sidefødder. Træk og slip indhold fra dette afsnit til meddelelsen.
 
-Hvis du vil gemme en indholdsblok, skal du klikke på en række og vælge **Gem blok** (![ikon][img13]).
+Hvis du vil gemme en indholdsblok, skal du klikke på en række og vælge **Gem blok** ![ikon][img13].
 
 ## Redigering af globalt layout ![ikon][img14]
 
@@ -53,9 +53,22 @@ I dette afsnit kan du redigere globale egenskaber og layout for meddelelsen.
 
 Tilføj billeder fra SuperOffice-databasen eller fra den royaltyfri onlinebilleddatabase. [Sådan indsætter du billeder i meddelelsen][1].
 
+## Tilføje særlige links
+
+Du kan også **tilføje særlige links** til din mailudsendelse. Afhængigt af hvad du vil opnå, kan du vælge mellem:
+
+* [Link til visning af meddelelse online][3]
+* [Administrér abonnementer][6]
+* [Afmelde][4]
+* [Sporede links][5]
+
 <!-- Referenced links -->
 [1]: insert-images-in-message.md
 [2]: edit-paragraph.md
+[3]: add-link-to-display-message-in-browser.md
+[4]: add-unsubscribe-link.md
+[5]: add-tracked-link-to-msg.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content.png

@@ -16,7 +16,7 @@ so.audience.tooltip: SuperOffice Marketing
 
 Opret en flot udsendelse med billeder. Du kan tilføje billeder fra SuperOffice-databasen, uploade dine egne billeder eller bruge billeder fra et royaltyfrit onlinebilledbibliotek.
 
-![Indsæt billede via »drag-and-drop« fra online-billedtjenesten -screenshot][img3]
+![Indsæt billede via drag-and-drop fra online-billedtjenesten -screenshot][img3]
 
 Når du har tilføjet et billede, kan du angive egenskaber som f.eks. en bestemt handling, der skal udføres, når der bliver klikket på billedet i mailudsendelsen
 
@@ -33,7 +33,7 @@ Når du har tilføjet et billede, kan du angive egenskaber som f.eks. en bestemt
 
 1. Gå til skærmbilledet **Indhold** i udsendelsen, eller åbn en skabelon til redigering.
 
-2. Vælg **Indhold** (![ikon][img1]) i sidepanelet.
+2. Vælg **Indhold** ![ikon][img1] i sidepanelet.
 
 3. Klik på og træk **Billedblokken** ![ikon][img1] hen til det relevante afsnit i meddelelsen. Du skal nu vælge det billede, der skal bruges.
 
@@ -55,13 +55,13 @@ Når du har tilføjet et billede, kan du angive egenskaber som f.eks. en bestemt
 ## Brug af et billede i onlinebilledbiblioteket (royalty-frit)
 
 > [!NOTE]
-> Hvis sektionen **Billeder** (![ikon][img2]) ikke er synlig, kan denne indstilling være blevet deaktiveret som følge af virksomhedens privatlivsregler.
+> Hvis sektionen **Billeder** ![ikon][img2] ikke er synlig, kan denne indstilling være blevet deaktiveret som følge af virksomhedens privatlivsregler.
 
 Vælg mellem millioner af billeder fra det royalty-frie onlinebilledbibliotek.
 
 1. Gå til skærmbilledet **Indhold** i udsendelsen, eller åbn en skabelon til redigering.
 
-2. Vælg **Billeder** (![ikon][img2]).
+2. Vælg **Billeder** ![ikon][img2].
 
 3. Angiv søgeord i søgefeltet, og tryk på **ENTER**. Billeder, der matcher din forespørgsel, vises.
 
@@ -98,7 +98,7 @@ Det billede, du gerne vil bruge til din mailudsendelse, har måske ikke altid de
 
 <!-- Referenced links -->
 [1]: ../../learn/add-images.md
-[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
+[2]: add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png

@@ -2,54 +2,58 @@
 uid: help-da-tracked-links-view
 title: Arbejde med sporede links efter udsendelsen
 description: Arbejde med sporede links efter udsendelsen
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+keywords: Marketing, udsendelse, sporede links
+author: Bergfrid Dias
+so.date: 02.26.2024
+so.version: 10
+so.topic: howto
 language: da
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Arbejde med sporede links efter udsendelsen
 
-Du kan indsætte links (URL'er) i en mailudsendelse eller et standardsvar og spore dem. Med andre ord kan du se, hvor mange modtagere der har klikket på dem.
+Indarbejdning af links (URL'er) i dine e-mail-udsendelser eller formularsvar forbedrer ikke kun interaktiviteten, men giver også værdifuld indsigt. Ved at spore disse links får du synlighed i modtagerens engagement, kvantificeret af antallet af klik. Disse data kan være afgørende for at finpudse din kommunikationsstrategi og optimere fremtidige interaktioner.
 
-## Hvor kan jeg finde linkene?
+Lad os dykke ned i, hvordan du kan arbejde med disse sporede links efter afsendelse af udsendelsen.
 
-* Hvis du vil se links for en enkelt mailudsendelse, skal du åbne den relevante udsendelse, klikke på fanen **Sporede links** og klik på det link, du vil arbejde med.
+## Trin
 
-    > [!NOTE]
-    Fanebladet **Sporede links** er ikke tilgængeligt for dokument-udsendelser.
+1. Find linkene:
 
-* For at se links til alle mailudsendelser skal du klikke på fanebladet **Sporede links** på hovedskærmbilledet i SuperOffice Marketing. Hvis du ikke kan finde det link, du ønsker at arbejde med, skal du klikke på **Alle links**. Klik på det link, du ønsker at indsætte.
+    * **Enkel udsendelse**: Åbn udsendelsen, vælg fanen **Sporde links**.
 
-    > [!NOTE]
-    > Kun registrerede links vises her. Hvis du indsætter "almindelige" links i mailudsendelsen, skal du vælge indstillingen **Spor alle links** under Trin 1: Opsætning
+        Denne fane er ikke tilgængelig for dokument-udsendelser.
 
-## Undersøg antal klik
+    * **Alle udsendelser**: Fra hovedskærmen i SuperOffice Marketing, vælg fanen **Sporde links**. Hvis du ikke kan finde dit link, skal du klikke på **Alle links**.
 
-1. Vælg fanen **Sporede links** i den aktive udsendelse.
+        Kun [registrerede links][2] vises her. For at spore alle links i en e-mail skal du aktivere indstillingen **Spor alle links** i Trin 1: Opsætning.
 
-2. Klik på det relevante link på listen med links. Nu vises skærmbilledet **Vis link** .
+2. Vælg dit link fra listen.
+
+3. Udforsk klik:
 
     Her kan du se antallet af klik på linket og eventuelle [handlinger, der er angivet for linket][4]. På listen **Klikkere** kan du se, hvem der har klikket på linket, og i hvilken mailudsendelse de har klikket på linket.
 
-3. Klik på **OK** for at lukke skærmbilledet **Vis udsendelse**.
+4. Næste trin: Beslut, hvad du så vil gøre.
 
-## Tilføje klikkere til ny markering eller projekt
+    * [Tilføje klikkere til markering eller projekt][3]
+    * [Redigere linket][2] ved at klike på knappen **Rediger**.
+    * [Arbejde med modtagerlisten][1].
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+5. Klik på **OK** for at lukke skærmbilledet **Vis udsendelse**.
 
-## Tilføje klikkere til eksisterende markering eller projekt
+## Sådan tjekker du resultaterne af din mailudsendelse i Google Analytics
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+Du kan tjekke resultaterne af dine udsendelser ved at logge ind på din Google Analytics-konto. Dine e-mails skulle gerne kunne ses i Google Channel-rapporterne under E-mail.
 
-## Hvad ønsker du at foretage dig nu?
-
-* [Redigere linket][2] (Klik på knappen **Rediger**.)
-* [Arbejde med modtagerlisten][1]
+> [!NOTE]
+> Giv Google Analytics lidt tid til at behandle dine sporingsoplysninger. Det kan tage et sted mellem 1 og 24 timer før din udsendelseskilde er registreret i rapporterne.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/look-at-recipient-list.md
+[3]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [2]: create-links.md
 [4]: define-link-actions.md
 

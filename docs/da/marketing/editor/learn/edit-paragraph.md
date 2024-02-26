@@ -79,8 +79,8 @@ Klik på **Næste**, hvis du er færdig med at redigere.
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../../recipients/learn/add-unsubscribe-link.md
-[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
+[7]: add-unsubscribe-link.md
+[8]: add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png

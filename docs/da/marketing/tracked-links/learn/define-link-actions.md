@@ -1,137 +1,113 @@
 ---
 uid: help-da-define-link-actions
-title: Definer linkhandlinger
+title: Definer automatiserede linkhandlinger
 description: "I denne vejledning lærer du, hvordan du bruger links i udsendelser til at automatisere handlinger."
-author: SuperOffice RnD
-so.date: 02.20.2023
-keywords: Marketing
-so.topic: howto
+keywords: Marketing, udsendelse, linkhandling, automatisere
+author: Bergfrid Dias
+so.date: 02.26.2024
+so.version: 10
+so.topic: concept
 language: da
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
-# Bruge links til at automatisere forskellige handlinger
+# Definer automatiserede linkhandlinger
 
-Du kan gøre dit arbejde hurtigere ved at behandle de svar, du får på en udsendelse, ved hjælp af automatiserede linkhandlinger.
+Opdatering af 500 kontaktkort manuelt er tidskrævende og unødvendigt. Automatiske linkhandlinger kan strømline denne proces.
 
-Forestil dig, at din udsendelse er en stor succes. Over 500 personer åbnede din besked og klikkede på de links, du havde indsat. Det er så din opgave at behandle alle svarene fra modtagerne. Tænk på, hvor lang tid det ville tage, hvis du skulle gøre det manuelt.
+Sådan fungerer automatiske linkhandlinger:
 
-I SuperOffice Marketing kan du forbinde dine links med handlinger. Disse handlinger udløses, når modtageren klikker på et link.
+* En modtagers klik på et CTA link kan automatisk tilføje dem til et udtræk eller et projekt i SuperOffice CRM.
+* SuperOffice CRM kan automatisk opdatere relevante oplysninger, som interesser, på kontaktkortet.
 
-![Definere linkhandlinger -screenshot][img3]
+Automatisering sparer tid, der ellers ville være brugt på at håndtere svar. Når en læser klikker på et link i din udsendelse, udfører systemet linkhandlinger for dig!
+
+Du kan udnytte de indsamlede oplysninger på flere måder:
+
+* Generer et udtræk baseret på hvem der klikkede på et specifikt link, og send et målrettet svar til denne gruppe med en tilpasset besked.
+* Planlæg opfølgningsaktiviteter for dine teammedlemmer så de personligt kan følge op på de kontakter, der har svaret.
+* Opret Service-sager til dit kundeserviceteam for at tage sig af og undersøge sagen.
+
+![Definer dine linkhandlinger -screenshot][img3]
+
+## Tilgængelige handlinger
+
+Baseret på din udsendelses mål og call-to-action kan du opdatere din database. Disse oplysninger kan forbedre segmenteringen eller hjælpe med at følge op med interesserede enkeltpersoner.
 
 | Fane | Handling |
 |---|---|
-| Respons | Tilføje landingsside eller standardtekst |
-| Indstille felt | Tilføje en værdi til et ekstra felt for kundekontakter |
-| Interesser | Opdatere interesser |
-| Udtræk/projekt | Tilføje/fjerne person fra et udtræk eller projekt |
-| Opfølgning | Oprette en opfølgning (opgave eller møde) i SuperOffice CRM |
-| Sag | Oprette en ny sag |
-| Script | Køre et script |
+| [Respons](#response) | Tilføje landingsside eller standardtekst |
+| [Indstille felt](#set-field) | Tilføje en værdi til et [ekstrafelt][5] for kundekontakter |
+| [Interesser](#interests) | Opdatere interesser |
+| [Udtræk/projekt](#selection) | Tilføje/fjerne person fra et udtræk eller projekt |
+| [Opfølgning](#follow-up) | Oprette en opfølgning (opgave eller møde) i SuperOffice CRM |
+| [Sag](#request) | Oprette en ny sag |
+| [Script](#script) | Køre et script |
 
-## Respons
+> [!TIP]
+> Du kan vælge mere end én handling for et sporet link
 
-* **Omdirigere til ny webside**: Vælg denne valgmulighed for at omdirigere modtagerne til en webside, når de klikker på linket. Indtast webadressen i feltet **URL til ny side**.
+## <a id="response" />Respons
 
-* **Vise tilpasset tekst**: Vælg denne valgmulighed, hvis der skal vises en tilpasset tekst til modtagerne, når de klikker på linket. Indtast teksten i feltet nedenfor.
+Vælg, hvad der skal ske, når modtageren klikker på linket.
 
-## Opdatere databasen
+* **Omdirigere til ny webside**: Indtast webadressen i det angivne felt.
+* Eller, **Vise tilpasset tekst**: Indtast teksten, der skal vises. Klik på ![ikon][img4] redigeringsknappen for at vise værktøjslinjen til formateret tekst.
 
-Du kan opdatere oplysningerne i din database i henhold til formålet med din udsendelse og dens opfordring til handling. Når en person klikker på linket i din mail, vil SuperOffice CRM gøre et af følgende:
+## <a id="set-field" />Indstille felt
 
-* Give et brugerdefineret svar eller omdirigere til en webside
-* Tilføje en kontakt til et specifikt projekt eller et udtræk
-* Opdatere status for interessen hos en kontakt
-* Tilføje information til et felt på visitkortet
-* Oprette en opfølgende handling for en kontakt
-* Oprette en service-sag på en kontakt
-* Køre et script
+I fanen **Indstil felt** kan du angive en værdi, der skal tilføjes til et ekstrafelt, når modtageren klikker på linket. Dette registrerer yderligere kundeoplysninger.
 
-Nogle af oplysningerne vil hjælpe dig med at segmentere din database endnu bedre, mens andre oplysninger vil hjælpe dig med at følge op på de personer, der har vist interesse for dit budskab.
+Vælg et felt og indtast en værdi.
 
-## Indstille felt
+## <a id="interests" />Interesser
 
-I fanen **Indstil felt** kan du angive, at der skal tilføjes en værdi til et ekstra felt, når modtageren klikker på linket. Det kan være nyttigt, hvis du vil registrere ekstra oplysninger om kunder, der klikker på linket.
+Angiv, at et linkklik skal ændre personens interesser. For eksempel, tilføj interessen "Produktnyheder", hvis linket "Ja tak! Jeg vil gerne vide mere om nye produkter" bliver klikket på, eller fjern den, hvis linket "Afmeld mailingliste" bliver klikket på.
 
-Vælg et felt i rullemenuen **Indstil ekstra felt** og indtast en værdi i feltet **Værdi**.
-
-## <a id="interests" />Interesse
-
-Her kan du angive, at klik på links skal tilføje eller fjerne interesser til eller fra personen. Du kan for eksempel tilføje interessen "Produktnyheder", hvis modtageren klikker på linket "Ja tak! Jeg vil gerne vide mere om nye produkter". Alternativt kan du fjerne interessen "Produktnyheder", hvis brugeren klikker på linket "Afmeld mailingliste" i et nyhedsbrev.
-
-* I rullemenuen **Angiv interesse** kan du vælge en interesse, som skal tilføjes til personerne, hvis de klikker på linket.
-
-* På fanen **Fjern interesse** kan du vælge en interesse, som skal fjernes fra personerne, hvis de klikker på linket.
+* **Angiv interesse**: vælg en interesse, der skal tilføjes for personerne, når de klikker på linket.
+* **Fjern interesse**: vælg en interesse, der skal fjernes for personerne, når de klikker på linket.
 
 [Sådan opretter du en tilmeldingsformular til nyhedsbrevet][1]
 
-## Udtræk/projekt
+## <a id="selection" />Udtræk/projekt
 
-Her kan du angive, at modtagere, der klikker på linket, vil blive tilføjet til eller fjernet fra udtræk eller projekter. Indtast de første bogstaver i navnet i feltet for at starte hurtigsøgningen.
+Specificér, at modtagere, der klikker på linket, vil blive tilføjet eller fjernet fra udtræk eller projekter. Begynd at skrive et navn for at starte en hurtigsøgning.
 
-## Opfølgning (opgave/møde)
+## <a id="follow-up" />Opfølgning (møde/opgave)
 
-I fanen **Opfølgning** kan du angive, at klik på links skal generere opgaver eller møder i SuperOffice CRM.
+På fanen **Opfølgning** kan du angive et linkklik for at generere møder eller opgaver i SuperOffice CRM. Vælg opfølgningstypen, angiv en beskrivelse, link den til et projekt, vælg opgavetypen, tildel ansvar og angiv varigheden.
+Aktivér denne funktion ved at vælge **Opfølgning**.
 
-1. Markér **Opfølgning** for at aktivere denne funktion.
+[Sådan oprettes en opfølgning][4]
 
-2. **Opgave/aftale**: Vælg, hvilken type opfølgning der skal foretages.
+> [!TIP]
+> Som beskrivelse skal du angive, hvilken udsendelse det drejer sig om, hvilket link modtageren klikkede på, og eventuelt hvordan opgaven eller mødet skal følges op.
+>
+> Når du angiver **Oprettet af** eller **Standardmodtager**, kan du klikke på knappen **Angiv aktiv bruger** ![ikon][img1] for at vælge dig selv.
 
-3. **Beskrivelse**: Angiv en beskrivelse af opfølgningen. For eksempel hvilken udsendelse det drejer sig om, hvilket link modtageren har klikket på, og eventuelt hvordan der skal følges op på opgaven/mødet.
+## <a id="request" />Sag
 
-4. **Projekt**: Her vælger du det projekt, som opfølgningen skal knyttes til. Indtast de første bogstaver i navnet i feltet for at starte hurtigsøgningen.
+På fanen **Sag** kan du angive et linkklik for at oprette en sag i SuperOffice Service. Markér af i boksen for at registrere en ny sag, angiv en titel, vælg prioritet og kategori, og vælg ejeren. Du kan også vælge **Automatisk tildelt** eller **Ikke tildelt**.
 
-5. **Opgave**: Vælg den ønskede type opfølgning.
+[Sådan oprettes en sag][3]
 
-6. **Oprettet af**: Vælg, hvilken bruger der skal være ansvarlig for opfølgningen, eller klik på knappen **Angiv aktiv bruger** ![ikon][img1] for at angive dig selv.
+## <a id="script" />Script
 
-7. **Tildel til vores kontakt, hvis muligt**: Markér her, om opfølgningen skal tildeles "vores kontakt" for modtageren (det vil sige den kundeansvarlige for denne kunde).
+På fanen **Script** kan du vælge et CRMScript eller makro, der skal køres, når linket klikkes. Aktivér denne funktion ved at vælge **Kør script** og vælg derefter det nødvendige script fra listen.
 
-8. **Standardmodtager**: Vælg en standardmodtager, der skal tildeles opfølgningen, eller klik på knappen **Angiv aktiv bruger** ![ikonet][img1] for at angive dig selv.
+Variabler tilgængelige i scriptet inkluderer custId, linkId, shipmentId, linkUrl, linkHits og returnUrl.
 
-9. **Varighed**: Klik på knappen **Vælg tidsramme** ![ikonet][img2] ved siden af dette felt for at angive varigheden af opfølgningen.
-
-## Sag
-
-På fanen **Sag** kan du angive, at der skal oprettes en sag i SuperOffice Service for personer, der klikker på et link.
-
-1. **Opret ny sag**: Markér her, hvis du ønsker at oprette en ny sag, når kunden klikker på linket.
-2. **Titel**: Her skal du indtaste den ønskede titel på den nye sag.
-3. **Prioritet**: Vælg den prioritet, som du ønsker at sagen skal have.
-4. **Kategori**: Vælg den ønskede kategori.
-5. **Ejer**: Vælg den ejer, som du ønsker at sagen skal have. Du kan også vælge **Automatisk tildelt** eller **Ikke tildelt**.
-
-## Script
-
-I fanen **Script** kan du vælge et script eller makro, der skal køres, når kunden klikker på linket.
-
-1. Marker **Kør script** for at aktivere denne funktion.
-2. Klik på listen **Script** og vælg det ønskede script fra den liste, der vises. Følgende variabler er tilgængelige i scriptet: custId, linkId, shipmentId, linkUrl og linkHits. Du kan desuden anvende variablen returnUrl til at tilsidesætte den angivne URL-adresse til linket.
-
-## Eksempel
-
-Det tager tid at opdatere 500 visitkort manuelt, og det er virkelig unødvendigt. Lad os i stedet automatisere processen ved hjælp af automatiserede linkhandlinger.
-
-Eksempler på automatiserede linkhandlinger:
-
-* Når en modtager klikker på dit link med opfordring til handling, føjer SuperOffice CRM automatisk vedkommende til et udtræk eller et projekt.
-
-* Alternativt opdaterer SuperOffice CRM automatisk de relevante oplysninger på kontaktens visitkort, f.eks. interesser.
-
-Ved at automatisere opgaverne sparer du en masse tid, som du ellers ville have brugt på at behandle dine svar. Når læseren klikker på et link i din udsendelse, udfører systemet linkets handlinger for dig!
-
-De oplysninger, du har indsamlet i forbindelse med mailudsendelsen, kan du bruge på flere forskellige måder:
-
-* Automatisk generering af et udtræk baseret på personer, der har klikket på et bestemt link.  Derefter kan du sende en målrettet opfølgende mail til netop denne gruppe med en skræddersyet besked.
-
-* Tilføje opfølgende handlinger i dine teammedlemmers dagbøger, så de personligt kan følge op på de kontakter, der har svaret.
-
-* Oprette service-sager, som kundeservice kan tage sig af og undersøge sagen.
+[Sådan oprettes eller redigeres et CRMScript][6]
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/examples.md#newsletter-sign-up
+[3]: ../../../request/learn/howto/create.md
+[4]: ../../../diary/learn/create-follow-up.md
+[5]: ../../../custom-objects/learn/extra-field.md
+[6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png
-[img2]: ../../../../../common/icons/pref-diary.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
+[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

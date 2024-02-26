@@ -1,10 +1,10 @@
 ---
 uid: help-da-mailing-add-unsubscribe-link
-title: Tilføje et afmeldingslink
+title: Tilføje abonnement-links
 description: "Når du sender en mail ud, er det nødvendigt at give modtagerne mulighed for at afmelde sig. Få mere at vide om, hvordan du kan føje et afmeldingslink til din udsendelse, i denne vejledning."
 keywords: marketing
 author: SuperOffice RnD
-so.date: 02.09.2024
+so.date: 02.26.2024
 so.version: 10
 so.topic: howto
 language: da
@@ -48,8 +48,8 @@ Baseret på feedback fra modtagerne opdateres abonnementsindstillingerne på fan
 > Du har dog mulighed for at tilsidesætte indstillingerne "intet samtykke / intet abonnement" fra **Indstillinger** i den nederste del af skærmen **Modtagere** (se trin 4: Modtagere).
 
 <!-- Referenced links -->
-[2]: ../../tracked-links/learn/examples.md
-[1]: manage-email-subscriptions.md
+[2]: ../../tracked-links/learn/index.md#ex
+[1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/icons/marketing-and-forms/link.png

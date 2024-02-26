@@ -2,11 +2,14 @@
 uid: help-da-tracked-links-reset
 title: Nulstilling af tællere efter links
 description: Nulstilling af tællere efter links
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing
-so.topic: help
+author: Bergfrid Dias
+so.date: 02.23.2024
+so.version: 10
+so.topic: howto
 language: da
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Nulstilling af tællere efter links

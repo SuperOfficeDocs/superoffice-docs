@@ -61,7 +61,7 @@ Det du skal tænke på, når du vil segmentere databasen:
 
 ![Tjek, hvad din kontaktpersons interesser er, under fanen Interesse på visitkortet -screenshot][img1]
 
-## Markeringer til mållister
+## <a id ="selections" />Markeringer til mållister
 
 Markér et udvalg af kontakter til at oprette dine mållister, så du sikrer dig, at du har fat i den rigtige målgruppe som modtager af dine mails.
 
