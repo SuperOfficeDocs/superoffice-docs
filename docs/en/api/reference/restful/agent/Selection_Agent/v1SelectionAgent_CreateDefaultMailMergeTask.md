@@ -77,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 720,
-  "TypeId": 659,
-  "StartDate": "1997-05-29T16:54:56.277612+02:00",
-  "Duration": 369,
-  "Description": "User-friendly disintermediate concept",
-  "PriorityId": 582,
+  "ProjectId": 684,
+  "TypeId": 934,
+  "StartDate": "2007-12-10T10:30:24.5596239+01:00",
+  "Duration": 971,
+  "Description": "Quality-focused hybrid extranet",
+  "PriorityId": 918,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 355,
+  "OwnerAssociateId": 281,
   "SingleEntryOnEachCompany": false,
-  "SaleId": 406,
+  "SaleId": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldLength": 4
     }
   }
 }

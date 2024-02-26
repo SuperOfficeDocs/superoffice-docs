@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Hickle Inc and Sons",
-    "ToolTip": "Iure rem qui suscipit temporibus tenetur possimus officiis.",
-    "Deleted": true,
-    "Rank": 786,
-    "Type": "dolores",
-    "ColorBlock": 984,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "1999-04-18T16:55:30.5626978+02:00",
+    "Id": 328,
+    "Name": "Ritchie-Champlin",
+    "ToolTip": "Enim quae.",
+    "Deleted": false,
+    "Rank": 944,
+    "Type": "eos",
+    "ColorBlock": 461,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2007-11-03T10:30:32.8962093+01:00",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "Doyle, Frami and Emard",
-        "ToolTip": "Placeat velit repellat sint consequuntur.",
-        "Deleted": false,
-        "Rank": 283,
-        "Type": "eos",
-        "ColorBlock": 475,
-        "IconHint": "in",
+        "Id": 224,
+        "Name": "Mitchell, Hammes and Robel",
+        "ToolTip": "Assumenda non veritatis aliquam laboriosam ut.",
+        "Deleted": true,
+        "Rank": 296,
+        "Type": "provident",
+        "ColorBlock": 183,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2022-10-21T16:55:30.5626978+02:00",
+        "LastChanged": "2018-03-12T10:30:32.8962093+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Mrs. Cydney Douglas Jr.",
+        "FullName": "Jaylan Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldType": "System.String",
+            "FieldLength": 451
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
+    "ExtraInfo": "officia",
     "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Keshaun Rath",
+    "Hidden": true,
+    "FullName": "Miss Arne Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 650
+        "FieldType": "System.Int32",
+        "FieldLength": 674
       }
     }
   }

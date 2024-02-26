@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Orn Inc and Sons",
-  "Delimiter": "ut",
-  "Flags": "et",
-  "TotalItems": 574,
-  "UnreadItems": 1002,
+  "Name": "Rosenbaum LLC",
+  "Delimiter": "est",
+  "Flags": "officia",
+  "TotalItems": 839,
+  "UnreadItems": 777,
   "Subscribed": false,
-  "EmailFolderId": 710,
+  "EmailFolderId": 595,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   }
 }

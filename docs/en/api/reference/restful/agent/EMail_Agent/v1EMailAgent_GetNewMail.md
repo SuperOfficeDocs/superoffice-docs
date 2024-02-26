@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    347,
-    829
+    232,
+    212
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 809,
-    "MessageId": "labore",
-    "Subject": "sit",
+    "ServerId": 651,
+    "MessageId": "fugiat",
+    "Subject": "expedita",
     "From": null,
     "To": [
       {
-        "ContactId": 236,
-        "ContactName": "Zulauf-Morissette",
-        "PersonId": 309,
-        "PersonName": "O'Connell Inc and Sons",
-        "AssociateId": 844,
-        "Address": "minus",
-        "EmailId": 329,
+        "ContactId": 552,
+        "ContactName": "Murphy, Bartell and Streich",
+        "PersonId": 320,
+        "PersonName": "Murazik, Altenwerth and Morar",
+        "AssociateId": 641,
+        "Address": "fugit",
+        "EmailId": 788,
         "DuplicatePersonIds": [
-          133,
-          557
+          466,
+          761
         ],
-        "Name": "Bode-Ratke",
+        "Name": "Rempel-Conn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 213
+            "FieldType": "System.Int32",
+            "FieldLength": 306
           }
         }
       }
     ],
-    "Sent": "2007-08-15T16:54:55.3054199+02:00",
+    "Sent": "2001-11-10T10:30:23.7355582+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 53,
+    "Size": 9,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 356
       }
     }
   }

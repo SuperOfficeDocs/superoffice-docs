@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Senger, Konopelski and Hane",
-  "DeviceName": "Windler-O'Reilly",
-  "DeviceIdentifier": "fugit",
-  "KeyName": "Lockman-Hackett",
-  "KeyValue": "est",
-  "TableName": "Heaney LLC"
+  "ApplicationName": "Cartwright Group",
+  "DeviceName": "Terry-Welch",
+  "DeviceIdentifier": "quo",
+  "KeyName": "Rippin-Cummings",
+  "KeyValue": "delectus",
+  "TableName": "Feest LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "saepe",
-  "Value": "natus",
-  "RecordId": 805,
-  "CreatedDate": "2021-02-20T16:54:55.4884647+01:00",
-  "UpdatedDate": "2012-12-15T16:54:55.4884647+01:00",
-  "UpdatedBy": "maiores",
-  "CreatedBy": "reprehenderit",
-  "TableName": "Lindgren, Ledner and Jast",
+  "Key": "est",
+  "Value": "quia",
+  "RecordId": 231,
+  "CreatedDate": "2023-06-25T10:30:23.9073938+02:00",
+  "UpdatedDate": "2007-04-07T10:30:23.9073938+02:00",
+  "UpdatedBy": "itaque",
+  "CreatedBy": "et",
+  "TableName": "Block LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 689
     }
   }
 }

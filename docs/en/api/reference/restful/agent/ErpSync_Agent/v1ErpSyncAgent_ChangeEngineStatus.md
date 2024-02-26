@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Run": false
+  "Run": true
 }
 ```
 
@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "consequatur",
-  "Interval": "omnis",
+  "StatusMessage": "optio",
+  "Interval": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldType": "System.Int32",
+      "FieldLength": 305
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Willms-Krajcik",
-    "ToolTip": "Rerum hic aut quia rerum expedita sint optio.",
-    "Deleted": true,
-    "Rank": 809,
-    "Type": "sit",
-    "ColorBlock": 438,
-    "IconHint": "omnis",
+    "Id": 221,
+    "Name": "Friesen-Waters",
+    "ToolTip": "Ea vel ad vero quos culpa.",
+    "Deleted": false,
+    "Rank": 689,
+    "Type": "illo",
+    "ColorBlock": 574,
+    "IconHint": "veritatis",
     "Selected": true,
-    "LastChanged": "1998-03-20T16:55:30.8117747+01:00",
+    "LastChanged": "2004-02-08T10:30:33.1005836+01:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Legros-Jones",
-        "ToolTip": "Et repellat reprehenderit.",
-        "Deleted": true,
-        "Rank": 411,
-        "Type": "illo",
-        "ColorBlock": 468,
-        "IconHint": "blanditiis",
+        "Id": 897,
+        "Name": "Considine-Hirthe",
+        "ToolTip": "Cumque adipisci est perspiciatis eius earum nisi aperiam.",
+        "Deleted": false,
+        "Rank": 373,
+        "Type": "fuga",
+        "ColorBlock": 27,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2006-11-24T16:55:30.8117747+01:00",
+        "LastChanged": "2012-08-19T10:30:33.1162087+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "debitis",
+        "ExtraInfo": "alias",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Ettie Jett Effertz I",
+        "FullName": "Merl Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldLength": 418
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "voluptatibus",
-    "Hidden": false,
-    "FullName": "Griffin Borer",
+    "ExtraInfo": "nobis",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Miss Ivah Santiago Welch II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 594
+        "FieldLength": 677
       }
     }
   }

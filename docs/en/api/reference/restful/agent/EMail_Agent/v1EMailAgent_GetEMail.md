@@ -105,8 +105,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "IncludeAttachments": false
+  "Id": 22,
+  "IncludeAttachments": true
 }
 ```
 
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 662,
-      "ContactName": "O'Conner LLC",
-      "PersonId": 550,
-      "PersonName": "Yundt LLC",
-      "AssociateId": 254,
-      "Address": "laudantium",
-      "EmailId": 47,
+      "ContactId": 703,
+      "ContactName": "Stracke, Runte and Spinka",
+      "PersonId": 593,
+      "PersonName": "Kirlin, Reinger and Volkman",
+      "AssociateId": 462,
+      "Address": "ratione",
+      "EmailId": 330,
       "DuplicatePersonIds": [
-        279,
-        978
+        258,
+        444
       ],
-      "Name": "Vandervort-Walsh",
+      "Name": "Hirthe-Kessler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 674
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 2,
-      "ContactName": "Collins-Lebsack",
-      "PersonId": 873,
-      "PersonName": "Murray Inc and Sons",
-      "AssociateId": 104,
-      "Address": "ab",
-      "EmailId": 383,
+      "ContactId": 783,
+      "ContactName": "Leffler-Hansen",
+      "PersonId": 32,
+      "PersonName": "Gaylord-Boyer",
+      "AssociateId": 879,
+      "Address": "deserunt",
+      "EmailId": 114,
       "DuplicatePersonIds": [
-        767,
-        586
+        8,
+        524
       ],
-      "Name": "Mueller, O'Hara and Strosin",
+      "Name": "Emard, Keeling and Willms",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 252
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 439,
-      "ContactName": "Medhurst-Jacobi",
-      "PersonId": 438,
-      "PersonName": "Donnelly, Crona and Bashirian",
-      "AssociateId": 537,
-      "Address": "ipsa",
-      "EmailId": 76,
+      "ContactId": 182,
+      "ContactName": "Baumbach, Swaniawski and Rutherford",
+      "PersonId": 772,
+      "PersonName": "Cole Inc and Sons",
+      "AssociateId": 20,
+      "Address": "magni",
+      "EmailId": 117,
       "DuplicatePersonIds": [
-        247,
-        18
+        840,
+        896
       ],
-      "Name": "O'Kon, Lemke and Cruickshank",
+      "Name": "Pacocha, Bahringer and Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 873
+          "FieldType": "System.Int32",
+          "FieldLength": 344
         }
       }
     }
   ],
-  "Subject": "quibusdam",
-  "HTMLBody": "dolorem",
+  "Subject": "incidunt",
+  "HTMLBody": "modi",
   "From": null,
-  "Sent": "2013-02-17T16:54:55.406949+01:00",
-  "Size": 698,
+  "Sent": "2008-12-18T10:30:23.8293034+01:00",
+  "Size": 71,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quo",
-  "PlainBody": "quae",
-  "IsSent": true,
+  "MessageID": "aut",
+  "PlainBody": "tempore",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 240,
+  "ServerId": 103,
   "Attachments": [
     {
-      "Description": "Enhanced interactive task-force",
-      "Filename": "reiciendis",
-      "Size": 355,
-      "Type": "recusandae",
-      "Encoding": "pariatur",
-      "Id": "laborum",
-      "Disposition": "accusamus",
+      "Description": "Phased responsive help-desk",
+      "Filename": "aspernatur",
+      "Size": 27,
+      "Type": "eos",
+      "Encoding": "hic",
+      "Id": "qui",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldLength": 303
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ritchie-Rath",
+      "Name": "Murazik LLC",
       "Values": [
-        "vel",
-        "repellat"
+        "illum",
+        "numquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 684
         }
       }
     },
     {
-      "Name": "Ritchie-Rath",
+      "Name": "Murazik LLC",
       "Values": [
-        "vel",
-        "repellat"
+        "illum",
+        "numquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 684
         }
       }
     }
   ],
-  "FolderName": "Corkery, Rempel and Cremin",
-  "EmailItemId": 867,
-  "AccountId": 169,
-  "ReceivedAt": "2014-06-12T16:54:55.406949+02:00",
+  "FolderName": "Jerde-Buckridge",
+  "EmailItemId": 729,
+  "AccountId": 366,
+  "ReceivedAt": "2020-10-29T10:30:23.8293034+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-09-18T16:54:55.406949+02:00",
+  "RepliedAt": "2006-12-22T10:30:23.8293034+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 216
     }
   }
 }

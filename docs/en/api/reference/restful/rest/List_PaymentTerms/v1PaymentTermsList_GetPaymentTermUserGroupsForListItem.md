@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 50,
-    "Name": "Stroman LLC",
-    "ToolTip": "Voluptatem culpa quibusdam adipisci numquam delectus cumque consequuntur.",
-    "Deleted": false,
-    "Rank": 984,
-    "Type": "eum",
-    "ColorBlock": 184,
-    "IconHint": "sed",
+    "Id": 336,
+    "Name": "Prohaska, Cronin and Auer",
+    "ToolTip": "Quia omnis rerum ut.",
+    "Deleted": true,
+    "Rank": 467,
+    "Type": "et",
+    "ColorBlock": 810,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2022-12-05T16:55:30.7322624+01:00",
+    "LastChanged": "1998-03-13T10:30:33.0368376+01:00",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Marks, Gerhold and Harvey",
-        "ToolTip": "Porro doloremque quia reiciendis cumque ut.",
-        "Deleted": false,
-        "Rank": 520,
-        "Type": "nihil",
-        "ColorBlock": 938,
-        "IconHint": "delectus",
+        "Id": 118,
+        "Name": "Jerde LLC",
+        "ToolTip": "Cumque aut cupiditate rem labore.",
+        "Deleted": true,
+        "Rank": 649,
+        "Type": "dolores",
+        "ColorBlock": 159,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2014-07-20T16:55:30.7322624+02:00",
+        "LastChanged": "2003-01-29T10:30:33.0368376+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Jo Mohr",
+        "ExtraInfo": "ea",
+        "StyleHint": "aperiam",
+        "Hidden": false,
+        "FullName": "Ernest Johnston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 123
+            "FieldLength": 713
           }
         }
       }
     ],
     "ExtraInfo": "qui",
-    "StyleHint": "rerum",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Ms. Hailey Edd Bruen PhD",
+    "FullName": "Patsy D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 778
+        "FieldType": "System.Int32",
+        "FieldLength": 684
       }
     }
   }

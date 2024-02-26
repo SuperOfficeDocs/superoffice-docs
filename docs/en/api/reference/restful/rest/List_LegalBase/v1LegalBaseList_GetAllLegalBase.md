@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 920,
-    "Name": "Rice LLC",
-    "Tooltip": "tempora",
-    "Rank": 817,
-    "Key": "est",
+    "LegalBaseId": 398,
+    "Name": "Heller Inc and Sons",
+    "Tooltip": "nisi",
+    "Rank": 795,
+    "Key": "molestiae",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 994
+        "FieldLength": 900
       }
     }
   }

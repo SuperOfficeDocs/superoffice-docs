@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Howell Group",
-  "RecordId": 570,
-  "AssociateId": 354,
-  "ExtraInfo": "quam"
+  "TableName": "Murray, Reynolds and Stroman",
+  "RecordId": 328,
+  "AssociateId": 732,
+  "ExtraInfo": "ullam"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "qui",
-    "PersonId": 497,
-    "Mrmrs": "ut",
-    "Firstname": "Daisha",
-    "Lastname": "Abbott",
-    "MiddleName": "Bogan, Hansen and Barrows",
-    "Title": "doloribus",
-    "Description": "Team-oriented encompassing knowledge base",
-    "Email": "jasen_willms@trantow.co.uk",
-    "FullName": "Clint Maggio",
-    "DirectPhone": "549.959.3094 x3926",
-    "FormalName": "Lemke, Treutel and Bashirian",
-    "CountryId": 969,
-    "ContactId": 824,
-    "ContactName": "Hirthe-Maggio",
-    "Retired": 369,
-    "Rank": 118,
-    "ActiveInterests": 16,
+    "Position": "voluptas",
+    "PersonId": 814,
+    "Mrmrs": "eum",
+    "Firstname": "Josh",
+    "Lastname": "Hane",
+    "MiddleName": "Grady Group",
+    "Title": "omnis",
+    "Description": "Distributed eco-centric project",
+    "Email": "lorenza@graham.ca",
+    "FullName": "Onie Okuneva",
+    "DirectPhone": "1-982-248-4545",
+    "FormalName": "Little, Trantow and Grady",
+    "CountryId": 357,
+    "ContactId": 729,
+    "ContactName": "Walter, Farrell and Hane",
+    "Retired": 579,
+    "Rank": 161,
+    "ActiveInterests": 904,
     "ContactDepartment": "",
-    "ContactCountryId": 482,
-    "ContactOrgNr": "1615135",
-    "FaxPhone": "1-541-175-3331 x730",
-    "MobilePhone": "147.530.4916 x41933",
-    "ContactPhone": "(988)999-3637",
-    "AssociateName": "Stoltenberg, Terry and McDermott",
-    "AssociateId": 883,
+    "ContactCountryId": 310,
+    "ContactOrgNr": "560638",
+    "FaxPhone": "631-730-0567",
+    "MobilePhone": "475.290.4445 x08419",
+    "ContactPhone": "628.639.0902 x90065",
+    "AssociateName": "Quigley, Haag and Emmerich",
+    "AssociateId": 34,
     "UsePersonAddress": false,
-    "ContactFax": "in",
-    "Kanafname": "explicabo",
-    "Kanalname": "non",
-    "Post1": "maiores",
-    "Post2": "rerum",
-    "Post3": "et",
-    "EmailName": "adalberto@hyatt.uk",
-    "ContactFullName": "Cyrus Dariana Ryan Jr.",
-    "ActiveErpLinks": 233,
-    "TicketPriorityId": 207,
-    "SupportLanguageId": 44,
-    "SupportAssociateId": 272,
+    "ContactFax": "voluptatem",
+    "Kanafname": "placeat",
+    "Kanalname": "voluptas",
+    "Post1": "laboriosam",
+    "Post2": "omnis",
+    "Post3": "est",
+    "EmailName": "ayana@orn.name",
+    "ContactFullName": "Dell Fisher",
+    "ActiveErpLinks": 294,
+    "TicketPriorityId": 215,
+    "SupportLanguageId": 232,
+    "SupportAssociateId": 873,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   }

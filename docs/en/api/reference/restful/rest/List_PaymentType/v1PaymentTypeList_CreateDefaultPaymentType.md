@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Little Group",
-  "Tooltip": "quo",
+  "Id": 819,
+  "Name": "Ebert-Rutherford",
+  "Tooltip": "unde",
   "Deleted": false,
-  "UdListDefinitionId": 575,
-  "Rank": 319,
+  "UdListDefinitionId": 239,
+  "Rank": 703,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 969
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

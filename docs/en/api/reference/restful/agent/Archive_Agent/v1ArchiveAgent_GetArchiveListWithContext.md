@@ -105,33 +105,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Parisian Group",
-  "ProviderName": "Reichert Inc and Sons",
+  "GuiName": "Bednar, Nicolas and Dibbert",
+  "ProviderName": "Conn-Rice",
   "SortOrder": [
     {
-      "Name": "Zulauf, Cremin and Cartwright",
+      "Name": "Brekke Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Zulauf, Cremin and Cartwright",
+      "Name": "Brekke Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Greenholt Group",
-      "Operator": "hic",
+      "Name": "Durgan Group",
+      "Operator": "in",
       "Values": [
-        "quo",
-        "sit"
+        "excepturi",
+        "distinctio"
       ],
       "DisplayValues": [
-        "est",
-        "fuga"
+        "atque",
+        "laboriosam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 972,
+      "InterParenthesis": 246,
       "InterOperator": "And",
-      "UniqueHash": 513
+      "UniqueHash": 57
     }
   ],
   "Entities": [
-    "veritatis",
-    "quod"
+    "error",
+    "eum"
   ],
-  "Page": 942,
-  "PageSize": 503,
-  "Context": "in"
+  "Page": 450,
+  "PageSize": 127,
+  "Context": "non"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Renner Group",
-    "PrimaryKey": 3,
+    "EntityName": "Schulist-Marquardt",
+    "PrimaryKey": 169,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aut",
-        "TooltipHint": "eaque",
-        "LinkHint": "suscipit"
+        "DisplayValue": "aliquam",
+        "TooltipHint": "non",
+        "LinkHint": "deserunt"
       }
     },
-    "LinkHint": "tenetur",
-    "StyleHint": "officia",
+    "LinkHint": "quos",
+    "StyleHint": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 252,
-  "ColumnId": 525,
-  "FieldDefault": "sed",
-  "FieldHeight": 897,
-  "FieldLabel": "saepe",
-  "FieldLeft": 847,
-  "FieldTop": 302,
+  "UDefFieldId": 899,
+  "ColumnId": 643,
+  "FieldDefault": "pariatur",
+  "FieldHeight": 396,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 941,
+  "FieldTop": 677,
   "FieldType": "Checkbox",
-  "FieldWidth": 888,
-  "FormatMask": "in",
-  "HideLabel": false,
+  "FieldWidth": 785,
+  "FormatMask": "alias",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 76,
-  "LabelLeft": 400,
-  "LabelTop": 50,
-  "LabelWidth": 845,
-  "LastVersionId": 756,
-  "ListTableId": 604,
-  "IsMandatory": false,
+  "LabelHeight": 115,
+  "LabelLeft": 595,
+  "LabelTop": 980,
+  "LabelWidth": 124,
+  "LastVersionId": 797,
+  "ListTableId": 532,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 568,
-  "ProgId": "maxime",
+  "Page1LineNo": 337,
+  "ProgId": "quidem",
   "IsReadOnly": false,
-  "ShortLabel": "eaque",
-  "TabOrder": 995,
-  "TextLength": 311,
-  "Tooltip": "provident",
-  "UdefIdentity": 954,
-  "UDListDefinitionId": 298,
+  "ShortLabel": "est",
+  "TabOrder": 782,
+  "TextLength": 58,
+  "Tooltip": "dignissimos",
+  "UdefIdentity": 349,
+  "UDListDefinitionId": 69,
   "Justification": "Center",
-  "Version": 323,
-  "TemplateVariableName": "Schultz, Moore and Tillman",
+  "Version": 335,
+  "TemplateVariableName": "Reilly, Fahey and Wyman",
   "HasBeenPublished": false,
-  "MdoListName": "Barton, Goodwin and Collier",
+  "MdoListName": "Leffler-Erdman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 443
     }
   }
 }

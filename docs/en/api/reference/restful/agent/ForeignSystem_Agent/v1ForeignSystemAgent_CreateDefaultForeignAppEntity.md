@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 145,
-  "Name": "Mills-Ruecker",
-  "CreatedDate": "2014-03-15T16:54:55.4714693+01:00",
-  "UpdatedDate": "2017-01-04T16:54:55.4714693+01:00",
+  "ForeignAppId": 339,
+  "Name": "Conn Group",
+  "CreatedDate": "2004-06-14T10:30:23.8918024+02:00",
+  "UpdatedDate": "2001-09-07T10:30:23.8918024+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 783,
-      "Name": "Muller LLC",
-      "CreatedDate": "1996-10-05T16:54:55.4714693+02:00",
-      "UpdatedDate": "2017-07-03T16:54:55.4714693+02:00",
-      "AssociateFullName": "Jaquan Ruecker",
-      "CreatedBy": "quia",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "sint",
-      "ForeignAppId": 934,
+      "ForeignDeviceId": 461,
+      "Name": "Schmitt-Turner",
+      "CreatedDate": "1999-04-08T10:30:23.8918024+02:00",
+      "UpdatedDate": "2013-10-24T10:30:23.8918024+02:00",
+      "AssociateFullName": "Brice Treutel",
+      "CreatedBy": "eius",
+      "UpdatedBy": "voluptatem",
+      "DeviceIdentifier": "asperiores",
+      "ForeignAppId": 29,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldLength": 186
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldType": "System.String",
+      "FieldLength": 918
     }
   }
 }

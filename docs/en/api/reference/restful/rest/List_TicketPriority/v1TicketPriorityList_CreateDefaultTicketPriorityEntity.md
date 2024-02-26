@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 729,
-  "Name": "Goodwin-Sporer",
+  "TicketPriorityId": 82,
+  "Name": "Balistreri-Nienow",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 188,
+  "SortOrder": 259,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 117,
-  "MonStart": "2006-10-12T16:55:31.1337951+02:00",
-  "MonStop": "2022-11-05T16:55:31.1337951+01:00",
-  "TueStart": "2019-11-16T16:55:31.1337951+01:00",
-  "TueStop": "2015-12-04T16:55:31.1337951+01:00",
-  "WedStart": "1996-12-03T16:55:31.1337951+01:00",
-  "WedStop": "2008-01-07T16:55:31.1337951+01:00",
-  "ThuStart": "2004-11-15T16:55:31.1337951+01:00",
-  "ThuStop": "2014-04-10T16:55:31.1337951+02:00",
-  "FriStart": "2016-07-13T16:55:31.1337951+02:00",
-  "FriStop": "2014-09-12T16:55:31.1337951+02:00",
-  "SatStart": "2000-10-22T16:55:31.1337951+02:00",
-  "SatStop": "2001-07-30T16:55:31.1337951+02:00",
-  "SunStart": "2001-12-01T16:55:31.1337951+01:00",
-  "SunStop": "2023-03-18T16:55:31.1337951+01:00",
+  "Deadline": 798,
+  "MonStart": "2020-11-12T10:30:33.2897031+01:00",
+  "MonStop": "2010-05-11T10:30:33.2897031+02:00",
+  "TueStart": "2000-04-08T10:30:33.2897031+02:00",
+  "TueStop": "2012-12-31T10:30:33.2897031+01:00",
+  "WedStart": "2020-01-07T10:30:33.2897031+01:00",
+  "WedStop": "2010-12-20T10:30:33.2897031+01:00",
+  "ThuStart": "2020-10-22T10:30:33.2897031+02:00",
+  "ThuStop": "2021-02-08T10:30:33.2897031+01:00",
+  "FriStart": "2010-01-12T10:30:33.2897031+01:00",
+  "FriStop": "1998-05-28T10:30:33.2897031+02:00",
+  "SatStart": "2017-09-25T10:30:33.2897031+02:00",
+  "SatStop": "2018-09-17T10:30:33.2897031+02:00",
+  "SunStart": "2014-05-24T10:30:33.2897031+02:00",
+  "SunStop": "2022-07-22T10:30:33.2897031+02:00",
   "NonDates": [
-    "sed",
-    "expedita"
+    "officiis",
+    "vel"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 623,
-      "AlertLevel": 83,
-      "AlertTimeout": 213,
-      "Action": 210,
-      "DelegateTo": 90,
-      "ScriptId": 521,
-      "EmailTo": "mylene.frami@mohr.us",
-      "SmsTo": "quia",
-      "ReplyTemplateIdCustomer": 809,
-      "ReplyTemplateIdUser": 488,
-      "ReplyTemplateIdCatmast": 206,
-      "ReplyTemplateIdEmail": 618,
-      "RtiCustomerSms": 504,
-      "ReplyTemplateIdUserSms": 386,
-      "ReplyTemplateIdCatmastSms": 17,
-      "ReplyTemplateIdSms": 679,
+      "TicketAlertId": 104,
+      "AlertLevel": 466,
+      "AlertTimeout": 150,
+      "Action": 632,
+      "DelegateTo": 327,
+      "ScriptId": 668,
+      "EmailTo": "ebba@douglascasper.com",
+      "SmsTo": "ab",
+      "ReplyTemplateIdCustomer": 524,
+      "ReplyTemplateIdUser": 26,
+      "ReplyTemplateIdCatmast": 3,
+      "ReplyTemplateIdEmail": 741,
+      "RtiCustomerSms": 881,
+      "ReplyTemplateIdUserSms": 656,
+      "ReplyTemplateIdCatmastSms": 73,
+      "ReplyTemplateIdSms": 370,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 936
+          "FieldType": "System.Int32",
+          "FieldLength": 397
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 703
     }
   }
 }

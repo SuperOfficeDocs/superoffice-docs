@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 551,
-  "Name": "Hintz Inc and Sons",
-  "Tooltip": "harum",
-  "Rank": 511,
+  "SaleTypeId": 138,
+  "Name": "Spencer, Rau and Ortiz",
+  "Tooltip": "et",
+  "Rank": 904,
   "DurationUnit": "Century",
-  "SaleDuration": 418,
-  "SaleTypeCatId": 509,
+  "SaleDuration": 731,
+  "SaleTypeCatId": 938,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 591,
-  "QuoteLinesTemplate": 498,
-  "ConfirmationLinesTemplate": 31,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 232,
+  "QuoteLinesTemplate": 11,
+  "ConfirmationLinesTemplate": 133,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 651,
-  "MinEarningPercent": 13,
-  "GroupQuoteLinesBy": 367,
-  "SortGroupLinesBy": 547,
+  "MaxDiscountPercent": 212,
+  "MinEarningPercent": 823,
+  "GroupQuoteLinesBy": 698,
+  "SortGroupLinesBy": 575,
   "Stages": [
     {
-      "Id": 978,
-      "Name": "Schimmel Group",
-      "ToolTip": "Cum modi quas eius vel sed vitae.",
+      "Id": 83,
+      "Name": "Pacocha, Johns and Hirthe",
+      "ToolTip": "Cumque fuga voluptatem facilis qui sit laudantium.",
       "Deleted": true,
-      "Rank": 506,
-      "Type": "totam",
-      "ColorBlock": 611,
-      "IconHint": "ut",
+      "Rank": 916,
+      "Type": "commodi",
+      "ColorBlock": 774,
+      "IconHint": "asperiores",
       "Selected": false,
-      "LastChanged": "1998-03-18T16:55:31.0621865+01:00",
+      "LastChanged": "2020-11-23T10:30:33.2412121+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laborum",
-      "StyleHint": "mollitia",
-      "Hidden": false,
-      "FullName": "Ms. Martine Nyah Ernser"
+      "ExtraInfo": "dolor",
+      "StyleHint": "aut",
+      "Hidden": true,
+      "FullName": "Ms. Trisha Beer"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 987,
-  "Name": "Goyette LLC",
-  "Tooltip": "rerum",
-  "Rank": 281,
+  "SaleTypeId": 820,
+  "Name": "Schoen-Watsica",
+  "Tooltip": "deleniti",
+  "Rank": 772,
   "DurationUnit": "Century",
-  "SaleDuration": 205,
-  "SaleTypeCatId": 501,
+  "SaleDuration": 121,
+  "SaleTypeCatId": 517,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 480,
-  "QuoteLinesTemplate": 559,
-  "ConfirmationLinesTemplate": 765,
+  "DefaultQuoteValidity": 486,
+  "QuoteLinesTemplate": 94,
+  "ConfirmationLinesTemplate": 658,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 670,
-  "MinEarningPercent": 182,
-  "GroupQuoteLinesBy": 675,
-  "SortGroupLinesBy": 945,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 966,
+  "MinEarningPercent": 770,
+  "GroupQuoteLinesBy": 61,
+  "SortGroupLinesBy": 571,
   "Stages": [
     {
-      "Id": 554,
-      "Name": "Dickinson, Bruen and Stanton",
-      "ToolTip": "Voluptatem et ea inventore omnis praesentium.",
-      "Deleted": false,
-      "Rank": 170,
-      "Type": "commodi",
-      "ColorBlock": 880,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2002-06-18T16:55:31.0631868+02:00",
+      "Id": 515,
+      "Name": "Schiller-Gutkowski",
+      "ToolTip": "Distinctio ratione voluptatum earum explicabo voluptatum.",
+      "Deleted": true,
+      "Rank": 706,
+      "Type": "omnis",
+      "ColorBlock": 994,
+      "IconHint": "architecto",
+      "Selected": false,
+      "LastChanged": "2023-06-03T10:30:33.2412121+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "velit",
-      "Hidden": false,
-      "FullName": "Miss Karen Aida Hintz",
+      "ExtraInfo": "aut",
+      "StyleHint": "voluptatem",
+      "Hidden": true,
+      "FullName": "Marguerite Little",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 624
+          "FieldLength": 177
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 501
     }
   }
 }

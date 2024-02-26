@@ -78,13 +78,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized mission-critical info-mediaries",
-  "Filename": "dolor",
-  "Size": 668,
-  "Type": "enim",
-  "Encoding": "nobis",
-  "Id": "est",
-  "Disposition": "aliquam",
+  "Description": "Re-engineered asynchronous artificial intelligence",
+  "Filename": "et",
+  "Size": 464,
+  "Type": "corrupti",
+  "Encoding": "molestiae",
+  "Id": "consequatur",
+  "Disposition": "harum",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 992
     }
   }
 }

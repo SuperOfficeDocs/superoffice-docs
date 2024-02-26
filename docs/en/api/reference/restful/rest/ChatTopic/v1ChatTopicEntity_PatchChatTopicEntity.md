@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "maiores",
+    "path": "molestias",
     "value": {}
   },
   {
     "op": "add",
-    "path": "maiores",
+    "path": "molestias",
     "value": {}
   }
 ]
@@ -162,22 +162,22 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 408,
-  "Name": "Schmidt, Conroy and Mayer",
-  "Description": "Public-key demand-driven data-warehouse",
-  "WelcomeMessage": "impedit",
+  "ChatTopicId": 966,
+  "Name": "Oberbrunner LLC",
+  "Description": "Quality-focused uniform matrix",
+  "WelcomeMessage": "delectus",
   "Language": null,
-  "LastAccept": "2007-11-12T16:55:29.3657807+01:00",
-  "SecondsPrAccept": 228,
-  "AlertRecipient": "omnis",
+  "LastAccept": "2017-06-17T10:30:31.823057+02:00",
+  "SecondsPrAccept": 587,
+  "AlertRecipient": "libero",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "eum",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "est",
-  "WarnNewChatMinutes": 187,
-  "WarnManagerNewChatMinutes": 707,
-  "TicketEnabled": true,
+  "BadgeHeader": "consequatur",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "necessitatibus",
+  "WarnNewChatMinutes": 417,
+  "WarnManagerNewChatMinutes": 94,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 552,
-  "WarnManagerChatMessageMinutes": 43,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 613,
-  "OfflineFormQueueLength": 779,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "beatae",
+  "WarnChatMessageMinutes": 810,
+  "WarnManagerChatMessageMinutes": 950,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 623,
+  "OfflineFormQueueLength": 511,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 25
     }
   },
   "_Links": {

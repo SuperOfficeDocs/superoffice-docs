@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=502
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=594
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 943,
-  "AssociateId": 966,
-  "Caption": "occaecati",
+  "DashboardId": 365,
+  "AssociateId": 270,
+  "Caption": "expedita",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 307,
-      "Caption": "modi",
-      "Description": "Extended upward-trending internet solution",
-      "ChartName": "Bauch, Corwin and Green",
-      "ChartId": "explicabo",
+      "DashboardTileId": 495,
+      "Caption": "eligendi",
+      "Description": "Proactive human-resource task-force",
+      "ChartName": "Barton-Harber",
+      "ChartId": "dolores",
       "IsDefault": false,
-      "AssociateId": 176,
-      "GroupId": 273,
-      "SelectionId": 595,
-      "Config": "voluptatem",
+      "AssociateId": 410,
+      "GroupId": 561,
+      "SelectionId": 946,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 335
         }
       }
     }
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 398
     }
   }
 }

@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 880,
-  "Name": "Kemmer Group",
+  "WebhookId": 563,
+  "Name": "Brown, Beatty and Green",
   "Events": [
-    "dicta",
-    "commodi"
+    "aut",
+    "a"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "in",
+  "Secret": "occaecati",
   "State": "Active",
-  "Type": "pariatur",
+  "Type": "ea",
   "Headers": {
-    "Headers1": "mollitia",
-    "Headers2": "consequatur"
+    "Headers1": "animi",
+    "Headers2": "ex"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-11-27T16:55:30.4821389+01:00",
+  "Registered": "2019-08-18T10:30:32.8113095+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2023-04-26T16:55:30.4831373+02:00",
+  "Updated": "1999-03-01T10:30:32.8113095+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "petra@strackeolson.biz"
+  "ErrorsEmail": "lon@mcglynn.com"
 }
 ```
 
@@ -139,31 +139,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 972,
-  "Name": "Schinner, Rogahn and Swift",
+  "WebhookId": 655,
+  "Name": "Bartell-Ritchie",
   "Events": [
-    "beatae",
-    "tempore"
+    "assumenda",
+    "illum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "neque",
+  "Secret": "laboriosam",
   "State": "Active",
-  "Type": "nostrum",
+  "Type": "sint",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "est"
+    "Headers1": "magnam",
+    "Headers2": "illum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-05-19T16:55:30.4851362+02:00",
+  "Registered": "1997-11-29T10:30:32.8113095+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1997-06-17T16:55:30.4851362+02:00",
+  "Updated": "2004-12-21T10:30:32.8113095+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "melisa@white.info",
+  "ErrorsEmail": "annamarie@hessel.biz",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 466,
-  "WorkflowId": 291,
+  "WorkflowTriggerId": 242,
+  "WorkflowId": 374,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Rohan LLC",
-      "Description": "Right-sized 24/7 hub",
-      "Rank": 692,
+      "Name": "McCullough LLC",
+      "Description": "User-friendly disintermediate attitude",
+      "Rank": 36,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rohan LLC",
-      "Description": "Right-sized 24/7 hub",
-      "Rank": 692,
+      "Name": "McCullough LLC",
+      "Description": "User-friendly disintermediate attitude",
+      "Rank": 36,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 478,
-  "WorkflowId": 544,
+  "WorkflowTriggerId": 296,
+  "WorkflowId": 580,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Kohler, Parisian and Schimmel",
-      "Description": "Customizable client-driven parallelism",
-      "Rank": 998,
+      "Name": "Koch LLC",
+      "Description": "Sharable needs-based product",
+      "Rank": 258,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kohler, Parisian and Schimmel",
-      "Description": "Customizable client-driven parallelism",
-      "Rank": 998,
+      "Name": "Koch LLC",
+      "Description": "Sharable needs-based product",
+      "Rank": 258,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

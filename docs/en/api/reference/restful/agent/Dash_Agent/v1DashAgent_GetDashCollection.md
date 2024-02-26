@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 270,
-      "UniqueId": "quas",
-      "Name": "Abshire Inc and Sons",
-      "Description": "Enterprise-wide multi-tasking complexity",
-      "AssociateId": 120,
-      "Columns": 52,
+      "DashboardId": 196,
+      "UniqueId": "quia",
+      "Name": "Raynor Inc and Sons",
+      "Description": "Optional 5th generation time-frame",
+      "AssociateId": 479,
+      "Columns": 301,
       "Theme": null,
-      "VisibleForAll": 136,
+      "VisibleForAll": 466,
       "VisibleForAssociates": [
-        527,
-        82
+        919,
+        172
       ],
       "VisibleForGroups": [
-        893,
-        661
+        508,
+        158
       ],
-      "PinForAll": 426,
+      "PinForAll": 218,
       "PinForAssociates": [
-        120,
-        867
+        454,
+        217
       ],
       "PinForGroups": [
-        117,
-        588
+        312,
+        159
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 316
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 366,
-      "UniqueId": "illum",
-      "Name": "Satterfield-Treutel",
-      "Description": "Assimilated radical circuit",
-      "AssociateId": 283,
-      "Columns": 949,
+      "DashboardId": 442,
+      "UniqueId": "ea",
+      "Name": "Steuber Inc and Sons",
+      "Description": "Integrated zero tolerance system engine",
+      "AssociateId": 733,
+      "Columns": 406,
       "Theme": null,
-      "VisibleForAll": 210,
+      "VisibleForAll": 384,
       "VisibleForAssociates": [
-        639,
-        331
+        685,
+        889
       ],
       "VisibleForGroups": [
-        446,
-        555
+        585,
+        813
       ],
-      "PinForAll": 297,
+      "PinForAll": 246,
       "PinForAssociates": [
-        173,
-        115
+        32,
+        763
       ],
       "PinForGroups": [
-        232,
-        593
+        822,
+        619
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldType": "System.String",
+          "FieldLength": 490
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 680,
-      "UniqueId": "inventore",
-      "Name": "Willms Group",
-      "Description": "Reverse-engineered bottom-line info-mediaries",
-      "AssociateId": 790,
-      "Columns": 571,
+      "DashboardId": 140,
+      "UniqueId": "non",
+      "Name": "Hickle, Christiansen and Dooley",
+      "Description": "Managed composite Graphic Interface",
+      "AssociateId": 214,
+      "Columns": 530,
       "Theme": null,
-      "VisibleForAll": 566,
+      "VisibleForAll": 45,
       "VisibleForAssociates": [
-        566,
-        237
+        51,
+        1002
       ],
       "VisibleForGroups": [
-        827,
-        440
+        553,
+        206
       ],
-      "PinForAll": 518,
+      "PinForAll": 850,
       "PinForAssociates": [
-        735,
-        945
+        353,
+        499
       ],
       "PinForGroups": [
-        616,
-        211
+        737,
+        658
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 145
+          "FieldLength": 230
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldType": "System.String",
+      "FieldLength": 439
     }
   }
 }

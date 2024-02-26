@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 45,
-  "Name": "Bergnaum-Kertzmann",
-  "Tooltip": "modi",
+  "HeadingId": 487,
+  "Name": "Nolan, Bartoletti and Rowe",
+  "Tooltip": "alias",
   "Deleted": true,
-  "Rank": 970,
-  "UdListDefinitionId": 207
+  "Rank": 994,
+  "UdListDefinitionId": 652
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 731,
-  "Name": "Moen-Mueller",
-  "Tooltip": "et",
+  "HeadingId": 814,
+  "Name": "Rempel Inc and Sons",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "Rank": 638,
-  "UdListDefinitionId": 339,
+  "Rank": 911,
+  "UdListDefinitionId": 270,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 771
     }
   }
 }

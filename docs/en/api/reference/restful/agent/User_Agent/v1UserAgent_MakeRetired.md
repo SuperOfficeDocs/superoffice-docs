@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 256,
-  "Retired": false
+  "AssociateId": 47,
+  "Retired": true
 }
 ```
 

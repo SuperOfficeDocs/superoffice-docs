@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "abigayle@mueller.com",
-  "Counts": 6,
-  "Code": 206,
+  "EmailAddress": "ona@rau.biz",
+  "Counts": 528,
+  "Code": 826,
   "Reason": ""
 }
 ```

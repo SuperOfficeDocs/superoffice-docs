@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "Name": "Dickens Inc and Sons",
-  "Tooltip": "sint",
+  "Id": 456,
+  "Name": "Gottlieb-Windler",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 417,
+  "Rank": 824,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
+  "ListType": "sint",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 486
     }
   },
   "_Links": {

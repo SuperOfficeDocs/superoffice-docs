@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 192,
-  "HeadingId": 516
+  "UdListDefinitionId": 902,
+  "HeadingId": 946
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Monahan-Nitzsche",
-    "ToolTip": "Totam veniam non cupiditate ea odio placeat totam.",
+    "Id": 823,
+    "Name": "Langosh, McDermott and Bergnaum",
+    "ToolTip": "Odit et et reprehenderit vel blanditiis.",
     "Deleted": false,
-    "Rank": 909,
-    "Type": "asperiores",
-    "ColorBlock": 232,
-    "IconHint": "dicta",
-    "Selected": true,
-    "LastChanged": "2008-12-28T16:54:55.5719838+01:00",
+    "Rank": 540,
+    "Type": "velit",
+    "ColorBlock": 241,
+    "IconHint": "saepe",
+    "Selected": false,
+    "LastChanged": "2017-04-21T10:30:24.0100212+02:00",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Hickle-Gibson",
-        "ToolTip": "Quia quia voluptas modi nam nobis.",
+        "Id": 96,
+        "Name": "Macejkovic, Tromp and Jakubowski",
+        "ToolTip": "Quia architecto sapiente distinctio iusto sit ut dolor.",
         "Deleted": true,
-        "Rank": 428,
-        "Type": "veritatis",
-        "ColorBlock": 466,
-        "IconHint": "nostrum",
+        "Rank": 452,
+        "Type": "minus",
+        "ColorBlock": 733,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2020-12-18T16:54:55.5719838+01:00",
+        "LastChanged": "2019-06-15T10:30:24.0100212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "quod",
+        "ExtraInfo": "quo",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Sven Wolf",
+        "FullName": "Ricky Everette Welch IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldType": "System.String",
+            "FieldLength": 719
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "vel",
+    "ExtraInfo": "quo",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Berniece Schroeder DVM",
+    "FullName": "Delpha Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 905
+        "FieldType": "System.Int32",
+        "FieldLength": 360
       }
     }
   }

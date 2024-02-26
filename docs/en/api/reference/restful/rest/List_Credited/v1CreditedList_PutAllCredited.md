@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Schamberger Inc and Sons",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "UdListDefinitionId": 158,
-    "Rank": 17
+    "Id": 143,
+    "Name": "Lakin, Krajcik and King",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "UdListDefinitionId": 128,
+    "Rank": 427
   },
   {
-    "Id": 626,
-    "Name": "Schamberger Inc and Sons",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "UdListDefinitionId": 158,
-    "Rank": 17
+    "Id": 143,
+    "Name": "Lakin, Krajcik and King",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "UdListDefinitionId": 128,
+    "Rank": 427
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Ruecker LLC",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 588,
-    "Rank": 314,
+    "Id": 157,
+    "Name": "Green LLC",
+    "Tooltip": "accusantium",
+    "Deleted": true,
+    "UdListDefinitionId": 360,
+    "Rank": 992,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 836
       }
     }
   }

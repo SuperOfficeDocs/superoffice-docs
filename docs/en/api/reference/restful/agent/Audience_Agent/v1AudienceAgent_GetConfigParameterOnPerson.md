@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Collins-Lang",
-  "PersonId": 797
+  "ParameterName": "Quigley Inc and Sons",
+  "PersonId": 289
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 783,
-  "Name": "Keebler-Hansen",
-  "Value": "voluptatem",
-  "CreatedDate": "1998-01-07T16:54:54.5913288+01:00",
-  "UpdatedDate": "2018-07-29T16:54:54.5913288+02:00",
-  "CreatedBy": "incidunt",
-  "UpdatedBy": "inventore",
+  "AudienceLayoutId": 392,
+  "Name": "Durgan Inc and Sons",
+  "Value": "aut",
+  "CreatedDate": "2002-07-30T10:30:23.0826686+02:00",
+  "UpdatedDate": "2002-06-18T10:30:23.0826686+02:00",
+  "CreatedBy": "non",
+  "UpdatedBy": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   }
 }

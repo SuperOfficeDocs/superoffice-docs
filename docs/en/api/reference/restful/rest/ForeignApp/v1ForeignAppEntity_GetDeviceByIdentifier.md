@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 08 Jul 1997 16:55:29 G7T
+Last-Modified: Sun, 05 Oct 2003 10:30:32 G10T
 
 {
-  "ForeignDeviceId": 121,
-  "Name": "Adams-Collins",
-  "CreatedDate": "2017-11-04T16:55:29.6504396+01:00",
-  "UpdatedDate": "1997-07-08T16:55:29.6504396+02:00",
-  "AssociateFullName": "Taurean Barton",
-  "CreatedBy": "autem",
-  "UpdatedBy": "recusandae",
-  "DeviceIdentifier": "quo",
-  "ForeignAppId": 740,
+  "ForeignDeviceId": 710,
+  "Name": "Kunze-Kuhlman",
+  "CreatedDate": "2005-01-23T10:30:32.0730519+01:00",
+  "UpdatedDate": "2003-10-05T10:30:32.0730519+02:00",
+  "AssociateFullName": "Cielo Brianne Gerhold II",
+  "CreatedBy": "explicabo",
+  "UpdatedBy": "assumenda",
+  "DeviceIdentifier": "earum",
+  "ForeignAppId": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 811
     }
   }
 }

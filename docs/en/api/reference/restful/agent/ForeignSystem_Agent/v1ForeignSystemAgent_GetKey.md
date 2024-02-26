@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wisozk-Lebsack",
-  "DeviceName": "Hilll-Batz",
-  "KeyName": "Quitzon-Watsica",
-  "TableName": "Nicolas, Marks and Bauch",
-  "RecordId": 943
+  "ApplicationName": "Gerlach-Hintz",
+  "DeviceName": "Kunde Group",
+  "KeyName": "Zemlak, Tromp and Sawayn",
+  "TableName": "Wuckert-Emmerich",
+  "RecordId": 479
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "consequatur",
-  "RecordId": 844,
-  "CreatedDate": "2021-02-06T16:54:55.4844672+01:00",
-  "UpdatedDate": "1999-10-12T16:54:55.4844672+02:00",
-  "UpdatedBy": "hic",
-  "CreatedBy": "porro",
-  "TableName": "Wolf LLC",
+  "Key": "possimus",
+  "Value": "aspernatur",
+  "RecordId": 629,
+  "CreatedDate": "2015-06-01T10:30:23.9073938+02:00",
+  "UpdatedDate": "2005-09-05T10:30:23.9073938+02:00",
+  "UpdatedBy": "autem",
+  "CreatedBy": "facere",
+  "TableName": "Jacobson-Bergstrom",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldLength": 823
     }
   }
 }

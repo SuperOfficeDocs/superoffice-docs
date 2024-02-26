@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Langosh, Von and Connelly"
+  "HistoryName": "Farrell-Howell"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 857,
-  "Id": 690,
-  "HistoryName": "Ullrich-Jacobs",
-  "HistoryId": 243,
-  "AssociateId": 511,
-  "Name": "Olson, Rice and Bosco",
-  "ItemInfo": "vel",
+  "Rank": 394,
+  "Id": 705,
+  "HistoryName": "Pollich, Jerde and Schmidt",
+  "HistoryId": 984,
+  "AssociateId": 472,
+  "Name": "Abernathy Inc and Sons",
+  "ItemInfo": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldType": "System.Int32",
+      "FieldLength": 190
     }
   }
 }

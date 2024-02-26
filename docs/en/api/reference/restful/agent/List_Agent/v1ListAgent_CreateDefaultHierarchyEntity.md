@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 401,
+  "HierarchyId": 700,
   "Domain": "Dashboards",
-  "Name": "Greenholt Inc and Sons",
-  "Fullname": "nihil",
-  "ParentId": 9,
+  "Name": "Johnston, Sporer and Powlowski",
+  "Fullname": "qui",
+  "ParentId": 350,
   "Children": [
     {
-      "HierarchyId": 169,
+      "HierarchyId": 250,
       "Domain": "Dashboards",
-      "Name": "Steuber-White",
-      "Fullname": "dignissimos",
-      "ParentId": 753,
+      "Name": "Lowe-Welch",
+      "Fullname": "pariatur",
+      "ParentId": 728,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-01-31T16:54:55.6199845+01:00",
-      "RegisteredAssociateId": 697,
-      "Updated": "2010-04-07T16:54:55.6199845+02:00",
-      "UpdatedAssociateId": 955,
+      "Registered": "2004-10-24T10:30:24.0725232+02:00",
+      "RegisteredAssociateId": 543,
+      "Updated": "2013-08-11T10:30:24.0725232+02:00",
+      "UpdatedAssociateId": 995,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldType": "System.Int32",
+          "FieldLength": 410
         }
       }
     }
   ],
-  "Registered": "1998-01-29T16:54:55.6199845+01:00",
-  "RegisteredAssociateId": 629,
-  "Updated": "2004-08-05T16:54:55.6199845+02:00",
-  "UpdatedAssociateId": 421,
+  "Registered": "2006-01-24T10:30:24.0725232+01:00",
+  "RegisteredAssociateId": 683,
+  "Updated": "2000-04-07T10:30:24.0725232+02:00",
+  "UpdatedAssociateId": 602,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 607
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 246,
-    "Name": "Walter Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 208,
-    "UdListDefinitionId": 26
+    "HeadingId": 5,
+    "Name": "Waelchi-Kub",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "Rank": 159,
+    "UdListDefinitionId": 398
   },
   {
-    "HeadingId": 246,
-    "Name": "Walter Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 208,
-    "UdListDefinitionId": 26
+    "HeadingId": 5,
+    "Name": "Waelchi-Kub",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "Rank": 159,
+    "UdListDefinitionId": 398
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 103,
-    "Name": "Fritsch, Kovacek and Streich",
-    "Tooltip": "dignissimos",
+    "HeadingId": 308,
+    "Name": "Weimann LLC",
+    "Tooltip": "itaque",
     "Deleted": false,
-    "Rank": 402,
-    "UdListDefinitionId": 514,
+    "Rank": 291,
+    "UdListDefinitionId": 788,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 586
       }
     }
   }

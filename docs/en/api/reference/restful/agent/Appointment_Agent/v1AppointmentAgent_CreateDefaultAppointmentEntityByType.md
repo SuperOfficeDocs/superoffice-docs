@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-04-08T16:54:54.3599537+02:00",
-  "AppointmentId": 641,
-  "Description": "Programmable bi-directional capability",
-  "Title": "voluptates",
-  "Agenda": "autem",
-  "InternalNotes": "minus",
-  "StartDate": "2016-07-14T16:54:54.3599537+02:00",
-  "EndDate": "2000-02-29T16:54:54.3599537+01:00",
+  "CreatedDate": "1997-11-21T10:30:22.8158036+01:00",
+  "AppointmentId": 720,
+  "Description": "Cloned bi-directional hub",
+  "Title": "cupiditate",
+  "Agenda": "quo",
+  "InternalNotes": "adipisci",
+  "StartDate": "2021-08-17T10:30:22.8158036+02:00",
+  "EndDate": "2023-02-18T10:30:22.8158036+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 288,
+  "MotherId": 8,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-09-28T16:54:54.3629593+02:00",
+  "UpdatedDate": "1998-03-21T10:30:22.8158036+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 103,
+  "ActiveLinks": 248,
   "Links": [
     {
-      "EntityName": "Heidenreich-Roberts",
-      "Id": 720,
-      "Description": "Down-sized 3rd generation customer loyalty",
-      "ExtraInfo": "vitae",
-      "LinkId": 980,
+      "EntityName": "Mraz-Ortiz",
+      "Id": 873,
+      "Description": "Re-contextualized client-driven portal",
+      "ExtraInfo": "non",
+      "LinkId": 282,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldType": "System.String",
+          "FieldLength": 936
         }
       }
     }
   ],
-  "AlarmLeadTime": "quo",
-  "HasAlarm": false,
-  "ColorIndex": 435,
+  "AlarmLeadTime": "aliquid",
+  "HasAlarm": true,
+  "ColorIndex": 246,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "explicabo",
-  "Location": "dolores",
-  "RejectCounter": 756,
-  "RejectReason": "e-enable clicks-and-mortar platforms",
+  "LagTime": "enim",
+  "LeadTime": "similique",
+  "Location": "voluptas",
+  "RejectCounter": 193,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 145,
-      "PersonId": 576,
-      "ContactId": 95,
-      "EmailId": 448,
+      "AssociateId": 60,
+      "PersonId": 403,
+      "ContactId": 865,
+      "EmailId": 447,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "laila@fadel.com",
-      "Description": "Balanced bottom-line software"
+      "EmailAddress": "melissa@senger.biz",
+      "Description": "User-centric optimizing installation"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-04-15T16:54:54.3629593+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2007-01-08T10:30:22.8158036+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 621,
+  "PreferredTZLocation": 532,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 774,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 771,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sapiente",
+  "CentralserviceVideomeetId": "quaerat",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Cory Stark",
-    "SuperOffice:2": "Sadie Kertzmann"
+    "SuperOffice:1": "Juana Goldner",
+    "SuperOffice:2": "Eleanore Eugene Metz I"
   },
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "delectus",
-    "CustomFields2": "sunt"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "ipsum"
   },
-  "PublishEventDate": "2017-08-04T16:54:54.3639444+02:00",
-  "PublishTo": "2015-04-27T16:54:54.3639444+02:00",
-  "PublishFrom": "2006-11-30T16:54:54.3639444+01:00",
+  "PublishEventDate": "1999-08-05T10:30:22.8158036+02:00",
+  "PublishTo": "1997-09-17T10:30:22.8158036+02:00",
+  "PublishFrom": "2018-06-20T10:30:22.8158036+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 699,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 699,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 735
     }
   }
 }

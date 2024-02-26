@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 143,
-    "Name": "Ledner Inc and Sons",
+    "TicketStatusId": 603,
+    "Name": "Wolff, D'Amore and Robel",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
     "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldType": "System.String",
+        "FieldLength": 78
       }
     }
   }

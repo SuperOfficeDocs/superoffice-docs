@@ -83,38 +83,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 666,
-  "Field": "rerum",
-  "RecordId": 98,
+  "RefCountsId": 33,
+  "Field": "asperiores",
+  "RecordId": 283,
   "SuggestedRecords": [
     {
-      "Id": 53,
-      "Name": "Hessel Inc and Sons",
-      "ToolTip": "Nisi est voluptatum nulla.",
-      "Deleted": true,
-      "Rank": 650,
-      "Type": "tempore",
+      "Id": 995,
+      "Name": "Konopelski Group",
+      "ToolTip": "Quos sed tempora voluptatum beatae iusto.",
+      "Deleted": false,
+      "Rank": 306,
+      "Type": "iure",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 24,
-      "ExtraInfo": "aperiam",
-      "StyleHint": "ipsum",
-      "FullName": "Russel Cremin"
+      "IconHint": "suscipit",
+      "ColorBlock": 907,
+      "ExtraInfo": "aut",
+      "StyleHint": "maiores",
+      "FullName": "Martin Langosh"
     }
   ],
-  "CurrentValue": 267,
-  "TravelPrefix": 310,
-  "SatPrefix": 424,
+  "CurrentValue": 714,
+  "TravelPrefix": 927,
+  "SatPrefix": 540,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 476,
-  "Field": "quia",
-  "RecordId": 465,
+  "RefCountsId": 709,
+  "Field": "sit",
+  "RecordId": 470,
   "SuggestedRecords": [
     {
-      "Id": 997,
-      "Name": "Davis Group",
-      "ToolTip": "Dolor dolorum ut odit.",
+      "Id": 816,
+      "Name": "Feil Group",
+      "ToolTip": "Mollitia qui voluptas.",
       "Deleted": false,
-      "Rank": 352,
-      "Type": "optio",
+      "Rank": 974,
+      "Type": "maiores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quo",
-      "ColorBlock": 564,
-      "ExtraInfo": "quisquam",
-      "StyleHint": "atque",
-      "FullName": "Mrs. Lempi Crystal Lebsack Jr.",
+      "IconHint": "fuga",
+      "ColorBlock": 753,
+      "ExtraInfo": "quaerat",
+      "StyleHint": "debitis",
+      "FullName": "Mrs. Fatima Jamil Moore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldLength": 329
         }
       }
     }
   ],
-  "CurrentValue": 152,
-  "TravelPrefix": 659,
-  "SatPrefix": 498,
+  "CurrentValue": 578,
+  "TravelPrefix": 147,
+  "SatPrefix": 273,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 168
     }
   }
 }

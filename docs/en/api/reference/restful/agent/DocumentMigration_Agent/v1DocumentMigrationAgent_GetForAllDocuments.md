@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 424,
-  "IncludeEmails": true
+  "DocumentPluginId": 623,
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 462,
-  "NumDocumentsAlreadyMigrated": 455,
+  "NumDocumentsOmitted": 380,
+  "NumDocumentsAlreadyMigrated": 56,
   "Documents": [
     {
-      "DocumentId": 631,
-      "ContactId": 233,
-      "PersonId": 291,
-      "SaleId": 643,
-      "ProjectId": 817,
-      "DocTmplId": 786,
-      "AssociateId": 116,
-      "UserGroupId": 495,
-      "VisibleForId": 911
+      "DocumentId": 683,
+      "ContactId": 683,
+      "PersonId": 313,
+      "SaleId": 942,
+      "ProjectId": 643,
+      "DocTmplId": 386,
+      "AssociateId": 774,
+      "UserGroupId": 230,
+      "VisibleForId": 83
     }
   ],
   "Associates": [
     {
-      "AssociateId": 395,
-      "EmailAddress": "mireille@bayer.uk"
+      "AssociateId": 663,
+      "EmailAddress": "valentina@westrempel.info"
     },
     {
-      "AssociateId": 395,
-      "EmailAddress": "mireille@bayer.uk"
+      "AssociateId": 663,
+      "EmailAddress": "valentina@westrempel.info"
     }
   ]
 }

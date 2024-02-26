@@ -115,6 +115,8 @@ items:
   href: configurablearchivequoteline.md
 - name: ConsentPurpose
   href: consentpurpose.md
+- name: Contact
+  href: contact.md
 - name: ContactActivity
   href: contactactivity.md
 - name: ContactDynamicSelection

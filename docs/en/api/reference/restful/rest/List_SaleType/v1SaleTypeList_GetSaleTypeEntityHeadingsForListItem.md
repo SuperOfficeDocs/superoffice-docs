@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Wolff-Feil",
-    "ToolTip": "Esse possimus omnis dolores.",
+    "Id": 558,
+    "Name": "Anderson LLC",
+    "ToolTip": "Eos beatae in vel omnis.",
     "Deleted": false,
-    "Rank": 416,
-    "Type": "et",
-    "ColorBlock": 101,
-    "IconHint": "nostrum",
+    "Rank": 490,
+    "Type": "laboriosam",
+    "ColorBlock": 457,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2000-05-04T16:55:31.0701884+02:00",
+    "LastChanged": "2010-04-03T10:30:33.2412121+02:00",
     "ChildItems": [
       {
-        "Id": 729,
-        "Name": "Strosin Group",
-        "ToolTip": "Nulla numquam et incidunt libero consectetur porro ratione.",
-        "Deleted": false,
-        "Rank": 919,
-        "Type": "est",
-        "ColorBlock": 70,
-        "IconHint": "tempora",
-        "Selected": true,
-        "LastChanged": "2013-01-20T16:55:31.0701884+01:00",
+        "Id": 90,
+        "Name": "Ullrich, Jacobi and Prohaska",
+        "ToolTip": "Fugiat nam facilis necessitatibus voluptatem exercitationem et.",
+        "Deleted": true,
+        "Rank": 485,
+        "Type": "et",
+        "ColorBlock": 493,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2001-12-10T10:30:33.2412121+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Eldora Jerde DDS",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Celestine Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 51
+            "FieldLength": 426
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Prof. Adelbert Haley DVM",
+    "FullName": "Haylie Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldLength": 190
       }
     }
   }

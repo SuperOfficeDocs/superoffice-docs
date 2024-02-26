@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 08 Jan 2020 16:55:30 G1T
+Last-Modified: Tue, 15 Jun 2004 10:30:32 G6T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Wed, 08 Jan 2020 16:55:30 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "exercitationem",
+  "SaleText": "id",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Wed, 08 Jan 2020 16:55:30 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-01-28T16:55:30.0215032+01:00",
-  "Amount": 11827.716,
-  "SaleId": 172,
-  "Earning": 23489.329999999998,
-  "EarningPercent": 4798.1539999999995,
-  "Heading": "qui",
-  "Number": "1739261",
-  "Probability": 71,
-  "CreatedDate": "2001-10-20T16:55:30.0215032+02:00",
-  "UpdatedDate": "2020-01-08T16:55:30.0215032+01:00",
+  "Saledate": "2017-05-17T10:30:32.403128+02:00",
+  "Amount": 15413.011999999999,
+  "SaleId": 291,
+  "Earning": 27375.489999999998,
+  "EarningPercent": 26043.54,
+  "Heading": "ducimus",
+  "Number": "1603728",
+  "Probability": 280,
+  "CreatedDate": "2005-11-19T10:30:32.403128+01:00",
+  "UpdatedDate": "2004-06-15T10:30:32.403128+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 870,
+  "ActiveLinks": 627,
   "Links": [
     {
-      "EntityName": "Skiles, McKenzie and Keebler",
-      "Id": 181,
-      "Description": "Decentralized leading edge info-mediaries",
-      "ExtraInfo": "voluptates",
-      "LinkId": 455,
+      "EntityName": "Braun, Reichert and Feeney",
+      "Id": 254,
+      "Description": "Fundamental object-oriented utilisation",
+      "ExtraInfo": "cumque",
+      "LinkId": 704,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 430
         }
       }
     }
   ],
-  "NextDueDate": "2023-12-02T16:55:30.0215032+01:00",
-  "Postit": "quidem",
+  "NextDueDate": "2004-08-04T10:30:32.403128+02:00",
+  "Postit": "ut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-10-28T16:55:30.0225031+02:00",
+  "ReopenDate": "2013-04-10T10:30:32.403128+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Doyle LLC",
+      "StakeholderRoleName": "Harvey-Ferry",
       "Comment": "voluptatem",
-      "StakeholderRoleId": 837,
-      "CountryId": 419,
-      "PersonId": 757,
-      "EmailDescription": "jeromy@pagac.info",
-      "EmailId": 9,
-      "EmailAddress": "winnifred@rosenbaum.com",
-      "PhoneId": 708,
-      "ContactName": "Schoen, Kertzmann and Reilly",
-      "ContactId": 707,
-      "SaleId": 939,
-      "Mrmrs": "consequuntur",
-      "Firstname": "Amina",
-      "MiddleName": "Breitenberg Group",
-      "Lastname": "Kozey",
-      "SaleStakeholderId": 137,
-      "Rank": 371,
-      "Phone": "516-302-2972 x1281",
+      "StakeholderRoleId": 258,
+      "CountryId": 827,
+      "PersonId": 783,
+      "EmailDescription": "wilfred@von.com",
+      "EmailId": 748,
+      "EmailAddress": "ernest.green@jonesmayer.co.uk",
+      "PhoneId": 941,
+      "ContactName": "King LLC",
+      "ContactId": 598,
+      "SaleId": 887,
+      "Mrmrs": "labore",
+      "Firstname": "Jamarcus",
+      "MiddleName": "Hackett-Kerluke",
+      "Lastname": "Strosin",
+      "SaleStakeholderId": 475,
+      "Rank": 966,
+      "Phone": "(274)802-6627 x1946",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldLength": 668
         }
       }
     }
   ],
-  "ActiveErpLinks": 125,
+  "ActiveErpLinks": 338,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Dewitt Weldon Rutherford",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Ms. Edd O'Connell II",
+    "SuperOffice:2": "Kimberly Roob"
   },
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "et"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "quidem"
+    "CustomFields1": "est",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "1997-07-24T16:55:30.0235035+02:00",
-  "PublishTo": "1999-02-17T16:55:30.0235035+01:00",
-  "PublishFrom": "2017-05-25T16:55:30.0235035+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-10-19T10:30:32.403128+02:00",
+  "PublishTo": "2008-11-08T10:30:32.403128+01:00",
+  "PublishFrom": "2008-07-30T10:30:32.403128+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 341,
+      "VisibleId": 446,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldLength": 133
         }
       }
     },
     {
-      "VisibleId": 341,
+      "VisibleId": 446,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldLength": 133
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Wed, 08 Jan 2020 16:55:30 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 202
     }
   }
 }

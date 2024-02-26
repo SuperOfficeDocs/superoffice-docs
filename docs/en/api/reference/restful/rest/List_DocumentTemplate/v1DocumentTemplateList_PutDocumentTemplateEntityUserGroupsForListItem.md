@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 804,
-    "Name": "Zieme, Gleason and Beahan",
-    "ToolTip": "Omnis veritatis vel exercitationem praesentium.",
-    "Deleted": true,
-    "Rank": 445,
-    "Type": "voluptas",
-    "ColorBlock": 952,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2020-12-17T16:55:30.6866114+01:00",
+    "Id": 1000,
+    "Name": "Kihn-Harvey",
+    "ToolTip": "Animi non corrupti.",
+    "Deleted": false,
+    "Rank": 610,
+    "Type": "id",
+    "ColorBlock": 983,
+    "IconHint": "eius",
+    "Selected": true,
+    "LastChanged": "2005-03-17T10:30:33.0055846+01:00",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Crona Inc and Sons",
-        "ToolTip": "Aut ipsa rerum velit enim facere.",
-        "Deleted": true,
-        "Rank": 867,
-        "Type": "accusantium",
-        "ColorBlock": 24,
-        "IconHint": "odit",
+        "Id": 300,
+        "Name": "Satterfield, Cronin and Yundt",
+        "ToolTip": "Eligendi nihil omnis qui fuga qui quidem.",
+        "Deleted": false,
+        "Rank": 580,
+        "Type": "beatae",
+        "ColorBlock": 103,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2016-01-25T16:55:30.6866114+01:00",
+        "LastChanged": "1999-04-09T10:30:33.0055846+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Dylan Cummings"
+        "ExtraInfo": "adipisci",
+        "StyleHint": "deserunt",
+        "Hidden": true,
+        "FullName": "D'angelo Stokes"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "quasi",
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Neal Willms"
+    "FullName": "Priscilla Katherine Reinger DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 496,
-    "Name": "Wiza-Stiedemann",
-    "ToolTip": "Mollitia vel.",
+    "Id": 143,
+    "Name": "Waters-Dietrich",
+    "ToolTip": "Voluptates dolores excepturi hic quia dolores qui.",
     "Deleted": false,
-    "Rank": 776,
-    "Type": "velit",
-    "ColorBlock": 879,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2015-07-21T16:55:30.6876351+02:00",
+    "Rank": 294,
+    "Type": "eos",
+    "ColorBlock": 132,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2007-03-01T10:30:33.0055846+01:00",
     "ChildItems": [
       {
-        "Id": 989,
-        "Name": "Schiller LLC",
-        "ToolTip": "Quo sed.",
+        "Id": 580,
+        "Name": "Bode Group",
+        "ToolTip": "Excepturi ut.",
         "Deleted": false,
-        "Rank": 394,
-        "Type": "error",
-        "ColorBlock": 523,
-        "IconHint": "vero",
+        "Rank": 152,
+        "Type": "optio",
+        "ColorBlock": 606,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2002-01-17T16:55:30.6876351+01:00",
+        "LastChanged": "2023-02-18T10:30:33.0055846+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
+        "ExtraInfo": "alias",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Prof. Durward Delfina Cronin Sr.",
+        "FullName": "Avery Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 448
+            "FieldType": "System.Int32",
+            "FieldLength": 174
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "non",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Ms. Deontae Garry Balistreri",
+    "FullName": "Michel Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldType": "System.String",
+        "FieldLength": 245
       }
     }
   }

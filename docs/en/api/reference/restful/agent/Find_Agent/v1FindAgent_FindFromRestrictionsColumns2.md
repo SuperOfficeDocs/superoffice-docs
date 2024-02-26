@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "occaecati",
-  "ProviderName": "Schamberger Group",
-  "DesiredColumns": "numquam",
-  "PageSize": 499,
-  "PageNumber": 468
+  "Restrictions": "et",
+  "ProviderName": "Mayer, Reichert and Collins",
+  "DesiredColumns": "iste",
+  "PageSize": 17,
+  "PageNumber": 26
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "O'Reilly, Osinski and Rolfson",
-      "DisplayTooltip": "et",
-      "DisplayType": "at",
+      "DisplayName": "Heller-Gutkowski",
+      "DisplayTooltip": "eum",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Larson Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "cumque",
-      "RestrictionListName": "Upton LLC",
-      "IsVisible": true,
-      "ExtraInfo": "sit",
-      "Width": "laudantium",
-      "IconHint": "eius",
-      "HeadingIconHint": "sint"
+      "Name": "Bayer LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "repellat",
+      "RestrictionListName": "Little, Cormier and Erdman",
+      "IsVisible": false,
+      "ExtraInfo": "debitis",
+      "Width": "odit",
+      "IconHint": "sed",
+      "HeadingIconHint": "consectetur"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Yost, Goldner and Grant",
-      "PrimaryKey": 810,
+      "EntityName": "Schinner-Hodkiewicz",
+      "PrimaryKey": 11,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eligendi",
-          "TooltipHint": "hic",
-          "LinkHint": "officia"
+          "DisplayValue": "cum",
+          "TooltipHint": "quasi",
+          "LinkHint": "ex"
         }
       },
-      "LinkHint": "molestiae",
-      "StyleHint": "eum",
+      "LinkHint": "saepe",
+      "StyleHint": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 476
         }
       }
     }
   ],
-  "RowCount": 384,
+  "RowCount": 171,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   }
 }

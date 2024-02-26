@@ -73,8 +73,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Lehner Group",
-  "External": true
+  "ProgramName": "Schneider Inc and Sons",
+  "External": false
 }
 ```
 

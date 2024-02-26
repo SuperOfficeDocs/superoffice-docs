@@ -578,7 +578,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=mailingAddr/contact/category,mailingAddr/contact/contactUdef/SuperOffice:3,mailingAddr/contact/contactUdef/SuperOffice:13,mailingAddr/person/supportLanguage,mailingAddr/person/personExtra/y_rental/x_amount
+GET /api/v1/archive/mailingfavourites?$select=recipientStatus,mailingAddr/contact/contactAssociate/isActive,mailingAddr/person/supportLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

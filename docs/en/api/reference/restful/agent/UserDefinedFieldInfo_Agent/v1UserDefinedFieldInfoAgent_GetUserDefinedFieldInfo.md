@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=544
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=745
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 647,
-  "ColumnId": 249,
-  "FieldDefault": "quia",
-  "FieldHeight": 194,
-  "FieldLabel": "autem",
-  "FieldLeft": 848,
-  "FieldTop": 865,
+  "UDefFieldId": 438,
+  "ColumnId": 494,
+  "FieldDefault": "quo",
+  "FieldHeight": 372,
+  "FieldLabel": "consequuntur",
+  "FieldLeft": 681,
+  "FieldTop": 6,
   "FieldType": "Checkbox",
-  "FieldWidth": 875,
-  "FormatMask": "eveniet",
+  "FieldWidth": 583,
+  "FormatMask": "corporis",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 487,
-  "LabelLeft": 756,
-  "LabelTop": 26,
-  "LabelWidth": 854,
-  "LastVersionId": 528,
-  "ListTableId": 905,
-  "IsMandatory": false,
+  "LabelHeight": 61,
+  "LabelLeft": 234,
+  "LabelTop": 843,
+  "LabelWidth": 354,
+  "LastVersionId": 161,
+  "ListTableId": 620,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 90,
-  "ProgId": "voluptas",
+  "Page1LineNo": 85,
+  "ProgId": "eum",
   "IsReadOnly": false,
-  "ShortLabel": "optio",
-  "TabOrder": 430,
-  "TextLength": 93,
-  "Tooltip": "corrupti",
-  "UdefIdentity": 211,
-  "UDListDefinitionId": 314,
+  "ShortLabel": "voluptates",
+  "TabOrder": 67,
+  "TextLength": 602,
+  "Tooltip": "est",
+  "UdefIdentity": 171,
+  "UDListDefinitionId": 845,
   "Justification": "Center",
-  "Version": 927,
-  "TemplateVariableName": "Aufderhar Inc and Sons",
+  "Version": 704,
+  "TemplateVariableName": "Paucek, Abernathy and Breitenberg",
   "HasBeenPublished": true,
-  "MdoListName": "Quitzon, Bauch and Crooks",
+  "MdoListName": "Bogisich, Botsford and Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldType": "System.Int32",
+      "FieldLength": 970
     }
   }
 }

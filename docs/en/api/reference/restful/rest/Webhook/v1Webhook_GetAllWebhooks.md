@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=iusto
-GET /api/v1/Webhook?eventFilter=perferendis
+GET /api/v1/Webhook?nameFilter=nisi
+GET /api/v1/Webhook?eventFilter=error
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -82,7 +82,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 536,
-    "Name": "Volkman Group",
+    "WebhookId": 778,
+    "Name": "Goldner-Kirlin",
     "Events": [
-      "cumque",
-      "occaecati"
+      "ratione",
+      "dolores"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "qui",
+    "Secret": "corporis",
     "State": "Active",
-    "Type": "ut",
+    "Type": "totam",
     "Headers": {
-      "Headers1": "consectetur",
-      "Headers2": "cum"
+      "Headers1": "ipsa",
+      "Headers2": "dolor"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2011-10-15T16:55:30.4821389+02:00",
+    "Registered": "2013-09-24T10:30:32.8113095+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2003-11-20T16:55:30.4821389+01:00",
+    "Updated": "2015-12-01T10:30:32.8113095+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "joy@quigley.co.uk"
+    "ErrorsEmail": "eli@harriskohler.ca"
   }
 ]
 ```

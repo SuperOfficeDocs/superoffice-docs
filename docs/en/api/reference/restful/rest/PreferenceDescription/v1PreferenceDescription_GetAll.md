@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 81,
-    "Section": "debitis",
-    "Key": "sed",
-    "Name": "Abbott LLC",
+    "PrefDescId": 59,
+    "Section": "sapiente",
+    "Key": "exercitationem",
+    "Name": "Klein, Kulas and Conn",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reactive empowering attitude",
+    "Description": "Automated neutral encoding",
     "IsBuiltin": false,
-    "TableName": "Kulas-Heller",
-    "UserDefinedListId": 598,
-    "Rank": 615,
-    "SubGroup": "sed",
-    "MinLevel": 483,
-    "MaxValue": 213,
-    "MinValue": 635,
-    "RequiredLicense": "enim",
+    "TableName": "Simonis LLC",
+    "UserDefinedListId": 623,
+    "Rank": 948,
+    "SubGroup": "earum",
+    "MinLevel": 484,
+    "MaxValue": 1002,
+    "MinValue": 52,
+    "RequiredLicense": "amet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 328
       }
     }
   }

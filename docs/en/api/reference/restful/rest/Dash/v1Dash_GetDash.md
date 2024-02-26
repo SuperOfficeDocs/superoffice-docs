@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,42 +95,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 943,
-  "UniqueId": "est",
-  "Name": "Herzog, Runolfsdottir and Stracke",
-  "Description": "Integrated assymetric task-force",
-  "AssociateId": 91,
-  "Columns": 545,
+  "DashboardId": 327,
+  "UniqueId": "quam",
+  "Name": "Hudson, Runolfsdottir and Schultz",
+  "Description": "Re-engineered logistical ability",
+  "AssociateId": 906,
+  "Columns": 561,
   "Theme": null,
-  "VisibleForAll": 301,
+  "VisibleForAll": 560,
   "VisibleForAssociates": [
-    87,
-    556
+    12,
+    265
   ],
   "VisibleForGroups": [
-    917,
-    16
+    648,
+    709
   ],
-  "PinForAll": 784,
+  "PinForAll": 204,
   "PinForAssociates": [
-    463,
-    313
+    790,
+    63
   ],
   "PinForGroups": [
-    774,
-    840
+    54,
+    676
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 565
+      "FieldType": "System.Int32",
+      "FieldLength": 662
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

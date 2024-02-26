@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 954,
-  "Name": "Sanford LLC",
-  "CreatedDate": "2014-02-15T16:55:29.6504396+01:00",
-  "UpdatedDate": "2021-01-18T16:55:29.6504396+01:00",
-  "AssociateFullName": "Miss Rebecca Missouri Wilderman I",
-  "CreatedBy": "necessitatibus",
+  "ForeignDeviceId": 642,
+  "Name": "Kuhlman, Collier and Kris",
+  "CreatedDate": "2010-10-25T10:30:32.0730519+02:00",
+  "UpdatedDate": "2015-10-29T10:30:32.0730519+01:00",
+  "AssociateFullName": "Miss Violet Wuckert III",
+  "CreatedBy": "modi",
   "UpdatedBy": "et",
-  "DeviceIdentifier": "non",
-  "ForeignAppId": 596
+  "DeviceIdentifier": "vel",
+  "ForeignAppId": 541
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 799,
-  "Name": "Daniel, Ruecker and Prosacco",
-  "CreatedDate": "2010-09-05T16:55:29.6524398+02:00",
-  "UpdatedDate": "2018-08-31T16:55:29.6524398+02:00",
-  "AssociateFullName": "Ms. Maryjane Krajcik",
-  "CreatedBy": "velit",
-  "UpdatedBy": "sed",
-  "DeviceIdentifier": "pariatur",
-  "ForeignAppId": 196,
+  "ForeignDeviceId": 930,
+  "Name": "Rath, Klocko and Weimann",
+  "CreatedDate": "2022-05-11T10:30:32.0730519+02:00",
+  "UpdatedDate": "2008-06-10T10:30:32.0730519+02:00",
+  "AssociateFullName": "Mrs. Florencio Florian Cassin",
+  "CreatedBy": "officiis",
+  "UpdatedBy": "sunt",
+  "DeviceIdentifier": "nobis",
+  "ForeignAppId": 341,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 657
     }
   }
 }

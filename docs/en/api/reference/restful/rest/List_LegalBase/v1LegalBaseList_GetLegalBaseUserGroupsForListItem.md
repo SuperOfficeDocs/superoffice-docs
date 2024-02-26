@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "McCullough, O'Reilly and Simonis",
-    "ToolTip": "Et dolores.",
-    "Deleted": true,
-    "Rank": 776,
-    "Type": "in",
-    "ColorBlock": 228,
-    "IconHint": "aut",
+    "Id": 594,
+    "Name": "Gottlieb Inc and Sons",
+    "ToolTip": "Est ipsam aliquam.",
+    "Deleted": false,
+    "Rank": 629,
+    "Type": "voluptas",
+    "ColorBlock": 340,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2022-03-15T16:55:30.7011901+01:00",
+    "LastChanged": "2017-02-03T10:30:33.0055846+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Jewess-Wunsch",
-        "ToolTip": "Sint nostrum veniam eos ab dolor officia.",
+        "Id": 592,
+        "Name": "Hermann Group",
+        "ToolTip": "Qui eos ut voluptatum.",
         "Deleted": false,
-        "Rank": 388,
-        "Type": "similique",
-        "ColorBlock": 461,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2000-06-23T16:55:30.7011901+02:00",
+        "Rank": 205,
+        "Type": "veniam",
+        "ColorBlock": 619,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2006-01-30T10:30:33.0055846+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Royal Adams",
+        "ExtraInfo": "enim",
+        "StyleHint": "voluptates",
+        "Hidden": false,
+        "FullName": "Mrs. Brendon Russel Labadie DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 268
+            "FieldType": "System.String",
+            "FieldLength": 238
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Pamela Mills",
+    "FullName": "Miss Dixie Jacinto Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 164
       }
     }
   }

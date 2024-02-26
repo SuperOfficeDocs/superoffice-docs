@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dicta",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dicta",
+    "path": "et",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 26,
-  "PrefDescId": 652,
-  "PrefValue": "sapiente",
-  "PrefShowValue": "sit",
-  "Description": "Cross-platform encompassing pricing structure",
+  "PrefDescLineId": 187,
+  "PrefDescId": 808,
+  "PrefValue": "inventore",
+  "PrefShowValue": "est",
+  "Description": "Multi-layered asynchronous monitoring",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   },
   "_Links": {

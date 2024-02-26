@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 107,
-    "TopicId": 657,
+    "ChatSessionId": 705,
+    "TopicId": 698,
     "User": null,
     "Person": null,
-    "CustomerAlias": "aperiam",
-    "CustomerHost": "in",
-    "CustomerName": "Ward-McLaughlin",
-    "CustomerEmail": "clay@rohan.biz",
-    "CustomerPhone": "1-521-913-0664",
+    "CustomerAlias": "aliquam",
+    "CustomerHost": "magni",
+    "CustomerName": "Smitham LLC",
+    "CustomerEmail": "derrick@king.name",
+    "CustomerPhone": "838-637-1676",
     "CustomerConsented": true,
-    "CustomerCompanyName": "Lehner LLC",
+    "CustomerCompanyName": "Funk, Legros and Weber",
     "Status": "Closed",
-    "FirstMessage": "tempore",
-    "LastMessage": "eveniet",
-    "WhenRequested": "2007-08-23T16:54:54.6799155+02:00",
-    "WhenStarted": "1999-11-23T16:54:54.6799155+01:00",
-    "WhenEnded": "2013-05-14T16:54:54.6799155+02:00",
-    "WhenIdle": "2016-03-30T16:54:54.6799155+02:00",
-    "WhenFetched": "2017-02-04T16:54:54.6799155+01:00",
-    "SessionKey": "et",
-    "InitialQueuePos": 482,
-    "AlertLevel": 119,
-    "Rank": 562,
+    "FirstMessage": "rem",
+    "LastMessage": "rerum",
+    "WhenRequested": "2022-12-12T10:30:23.1607945+01:00",
+    "WhenStarted": "2019-11-23T10:30:23.1607945+01:00",
+    "WhenEnded": "1999-10-17T10:30:23.1607945+02:00",
+    "WhenIdle": "2009-02-13T10:30:23.1607945+01:00",
+    "WhenFetched": "2008-02-11T10:30:23.1607945+01:00",
+    "SessionKey": "maxime",
+    "InitialQueuePos": 826,
+    "AlertLevel": 64,
+    "Rank": 145,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
     "Sale": null,
     "Ticket": null,
     "TransferTo": null,
-    "ChatbotIsActive": true,
-    "Rating": 68,
+    "ChatbotIsActive": false,
+    "Rating": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 164
       }
     }
   }

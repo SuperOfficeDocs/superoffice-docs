@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 189,
-  "Name": "Harris LLC",
+  "ScreenChooserId": 867,
+  "Name": "Kerluke, Swift and Kilback",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "earum",
-  "Source": "magnam",
-  "Registered": "2023-07-14T16:55:30.3178157+02:00",
-  "RegisteredAssociateId": 936,
-  "Updated": "2002-05-23T16:55:30.3178157+02:00",
-  "UpdatedAssociateId": 496
+  "Enabled": true,
+  "UniqueIdentifier": "odio",
+  "Source": "repellendus",
+  "Registered": "2014-06-06T10:30:32.6543487+02:00",
+  "RegisteredAssociateId": 106,
+  "Updated": "1998-11-07T10:30:32.6543487+01:00",
+  "UpdatedAssociateId": 525
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 469,
-  "Name": "Blick Group",
+  "ScreenChooserId": 777,
+  "Name": "Littel, Runolfsson and Gottlieb",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quae",
-  "Source": "provident",
-  "Registered": "2004-02-23T16:55:30.3178157+01:00",
-  "RegisteredAssociateId": 510,
-  "Updated": "2017-12-30T16:55:30.3178157+01:00",
-  "UpdatedAssociateId": 693,
+  "UniqueIdentifier": "est",
+  "Source": "ut",
+  "Registered": "2007-02-24T10:30:32.6543487+01:00",
+  "RegisteredAssociateId": 362,
+  "Updated": "2019-04-05T10:30:32.6543487+02:00",
+  "UpdatedAssociateId": 359,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 699
     }
   }
 }

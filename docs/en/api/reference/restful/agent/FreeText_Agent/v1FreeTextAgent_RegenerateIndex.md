@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 8,
-  "Name": "Mraz, Schumm and Hickle",
-  "AssociateId": 190,
-  "DetailsTable": 862,
-  "DetailsRecord": 305,
-  "IsSystemTask": false,
+  "Id": 941,
+  "Name": "Hand-Hand",
+  "AssociateId": 461,
+  "DetailsTable": 504,
+  "DetailsRecord": 750,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "rerum",
-    "ParameterObject2": "et"
+    "ParameterObject1": "totam",
+    "ParameterObject2": "sit"
   },
-  "LastStarted": "2018-04-04T16:54:55.4964643+02:00",
-  "Created": "1998-06-10T16:54:55.4964643+02:00",
-  "StartCount": 960,
-  "DatabaseSerialNumber": "961432",
-  "Context": "nihil",
-  "Result": "quisquam",
+  "LastStarted": "2023-02-25T10:30:23.9272181+01:00",
+  "Created": "2003-02-24T10:30:23.9272181+01:00",
+  "StartCount": 29,
+  "DatabaseSerialNumber": "796340",
+  "Context": "quo",
+  "Result": "velit",
   "State": "All",
-  "Description": "Self-enabling reciprocal software",
-  "Response": "quis",
-  "Request": "necessitatibus",
-  "ProgressDescription": "Polarised radical architecture",
-  "ProgressPercent": 224,
-  "FileName": "Ledner, Spinka and Wisoky",
+  "Description": "Profound needs-based encryption",
+  "Response": "et",
+  "Request": "sed",
+  "ProgressDescription": "Universal neutral functionalities",
+  "ProgressPercent": 553,
+  "FileName": "Prohaska LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

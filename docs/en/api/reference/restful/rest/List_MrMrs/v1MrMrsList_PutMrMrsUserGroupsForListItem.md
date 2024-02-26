@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Gutkowski Inc and Sons",
-    "ToolTip": "Consequuntur optio illum illum exercitationem placeat occaecati.",
+    "Id": 96,
+    "Name": "Lynch, Doyle and Marvin",
+    "ToolTip": "Aut sunt non.",
     "Deleted": false,
-    "Rank": 301,
-    "Type": "cum",
-    "ColorBlock": 550,
-    "IconHint": "corrupti",
+    "Rank": 596,
+    "Type": "labore",
+    "ColorBlock": 730,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "1999-03-02T16:55:30.7181752+01:00",
+    "LastChanged": "1999-04-28T10:30:33.0212063+02:00",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Luettgen Inc and Sons",
-        "ToolTip": "Sint qui veritatis culpa qui et non voluptates.",
+        "Id": 323,
+        "Name": "Nolan LLC",
+        "ToolTip": "Debitis sit quaerat ratione dolore.",
         "Deleted": false,
-        "Rank": 556,
-        "Type": "aut",
-        "ColorBlock": 63,
-        "IconHint": "qui",
+        "Rank": 255,
+        "Type": "officiis",
+        "ColorBlock": 9,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2023-08-12T16:55:30.7181752+02:00",
+        "LastChanged": "2022-02-19T10:30:33.0212063+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Prof. Geoffrey Kennedy Towne II"
+        "ExtraInfo": "laudantium",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Lucie Fahey"
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "harum",
+    "ExtraInfo": "culpa",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Prof. Eliza McKenzie DVM"
+    "FullName": "Miss Elena Ewell Abshire DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Murphy Group",
-    "ToolTip": "Delectus itaque consequatur.",
-    "Deleted": false,
-    "Rank": 15,
-    "Type": "odio",
-    "ColorBlock": 254,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "2010-05-18T16:55:30.7201754+02:00",
+    "Id": 339,
+    "Name": "Little-Macejkovic",
+    "ToolTip": "Tempora quas.",
+    "Deleted": true,
+    "Rank": 741,
+    "Type": "perferendis",
+    "ColorBlock": 610,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2010-03-06T10:30:33.0368376+01:00",
     "ChildItems": [
       {
-        "Id": 480,
-        "Name": "Kshlerin, Johnston and Huel",
-        "ToolTip": "Ducimus eius quaerat eligendi consequatur perspiciatis repellat qui.",
+        "Id": 969,
+        "Name": "Bins, Mohr and Smitham",
+        "ToolTip": "Alias laborum ut asperiores doloribus est minima voluptate.",
         "Deleted": true,
-        "Rank": 729,
-        "Type": "est",
-        "ColorBlock": 4,
-        "IconHint": "veniam",
-        "Selected": false,
-        "LastChanged": "1999-08-04T16:55:30.7201754+02:00",
+        "Rank": 648,
+        "Type": "et",
+        "ColorBlock": 736,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2020-09-21T10:30:33.0368376+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Nicole Ernest Veum V",
+        "ExtraInfo": "totam",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Coby Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 246
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "neque",
-    "Hidden": false,
-    "FullName": "Miss Parker Fritsch DDS",
+    "ExtraInfo": "impedit",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Garrison Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldType": "System.String",
+        "FieldLength": 607
       }
     }
   }

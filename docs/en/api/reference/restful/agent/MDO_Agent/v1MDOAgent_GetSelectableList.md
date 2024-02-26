@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wyman-Kohler",
+  "Name": "Bode-Wuckert",
   "ForceFlatList": false,
-  "AdditionalInfo": "ut",
+  "AdditionalInfo": "qui",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Name": "Blanda Inc and Sons",
-    "ToolTip": "Ut aspernatur sit excepturi ea quam.",
+    "Id": 285,
+    "Name": "Bode, Hyatt and Gutkowski",
+    "ToolTip": "Sint voluptatem.",
     "Deleted": false,
-    "Rank": 396,
-    "Type": "et",
-    "ColorBlock": 474,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2003-03-06T16:54:55.6685097+01:00",
+    "Rank": 842,
+    "Type": "atque",
+    "ColorBlock": 844,
+    "IconHint": "nemo",
+    "Selected": false,
+    "LastChanged": "2005-01-12T10:30:24.1193938+01:00",
     "ChildItems": [
       {
-        "Id": 755,
-        "Name": "Nolan-Leffler",
-        "ToolTip": "Ipsum reiciendis ipsa repellat.",
+        "Id": 427,
+        "Name": "Boyer, Kuvalis and Heidenreich",
+        "ToolTip": "Officiis eos.",
         "Deleted": false,
-        "Rank": 455,
-        "Type": "praesentium",
-        "ColorBlock": 171,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "2011-03-23T16:54:55.6685097+01:00",
+        "Rank": 530,
+        "Type": "omnis",
+        "ColorBlock": 177,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2020-04-14T10:30:24.1193938+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "nam",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Beatrice Douglas",
+        "FullName": "Mrs. Marlin Riley Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldType": "System.String",
+            "FieldLength": 482
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "et",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "aperiam",
     "Hidden": false,
-    "FullName": "Israel Daugherty",
+    "FullName": "Dr. Olaf Fisher DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

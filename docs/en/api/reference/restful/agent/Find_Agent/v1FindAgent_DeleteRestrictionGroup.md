@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "at",
-  "ProviderName": "Lang-Maggio",
-  "StorageKey": "doloremque",
-  "Rank": 263,
-  "Context": "delectus"
+  "StorageType": "nulla",
+  "ProviderName": "Bayer-Shields",
+  "StorageKey": "minus",
+  "Rank": 936,
+  "Context": "sint"
 }
 ```
 

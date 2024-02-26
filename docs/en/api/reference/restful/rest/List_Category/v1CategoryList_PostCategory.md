@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Davis Group",
-  "Tooltip": "hic",
-  "Deleted": true,
-  "UdListDefinitionId": 444,
-  "Rank": 207
+  "Id": 120,
+  "Name": "Glover LLC",
+  "Tooltip": "aliquid",
+  "Deleted": false,
+  "UdListDefinitionId": 549,
+  "Rank": 618
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 294,
-  "Name": "Johnston-Corwin",
-  "Tooltip": "illum",
-  "Deleted": true,
-  "UdListDefinitionId": 138,
-  "Rank": 884,
+  "Id": 145,
+  "Name": "Brown Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 719,
+  "Rank": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 872
     }
   }
 }

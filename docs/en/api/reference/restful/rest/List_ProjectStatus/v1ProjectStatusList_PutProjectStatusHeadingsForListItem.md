@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "DuBuque Group",
-    "ToolTip": "Iure aspernatur vitae.",
-    "Deleted": true,
-    "Rank": 106,
+    "Id": 839,
+    "Name": "Orn-Marvin",
+    "ToolTip": "Consequuntur est nesciunt aut qui.",
+    "Deleted": false,
+    "Rank": 584,
     "Type": "et",
-    "ColorBlock": 315,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "1999-02-15T16:55:30.8388284+01:00",
+    "ColorBlock": 667,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2020-10-15T10:30:33.131835+02:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Carroll Group",
-        "ToolTip": "Ea rerum voluptas ratione amet voluptatem voluptas perspiciatis.",
+        "Id": 450,
+        "Name": "Leannon LLC",
+        "ToolTip": "Ut eum facilis rerum eum dolor et.",
         "Deleted": true,
-        "Rank": 751,
-        "Type": "in",
-        "ColorBlock": 653,
-        "IconHint": "ea",
+        "Rank": 807,
+        "Type": "porro",
+        "ColorBlock": 111,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2019-11-16T16:55:30.8388284+01:00",
+        "LastChanged": "2020-06-23T10:30:33.131835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Reva Bechtelar"
+        "FullName": "Ena Cummerata"
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "minima",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Mr. Sandrine Destany Klein"
+    "FullName": "Ms. Aron Marisa Jast"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 951,
-    "Name": "Kirlin-Weimann",
-    "ToolTip": "Qui mollitia aut dolorem placeat sapiente ut.",
-    "Deleted": false,
-    "Rank": 613,
-    "Type": "qui",
-    "ColorBlock": 156,
-    "IconHint": "quidem",
-    "Selected": false,
-    "LastChanged": "2017-09-01T16:55:30.8398113+02:00",
+    "Id": 663,
+    "Name": "Treutel-Reilly",
+    "ToolTip": "Delectus itaque voluptatem optio adipisci optio amet.",
+    "Deleted": true,
+    "Rank": 784,
+    "Type": "vitae",
+    "ColorBlock": 636,
+    "IconHint": "dignissimos",
+    "Selected": true,
+    "LastChanged": "2017-10-11T10:30:33.131835+02:00",
     "ChildItems": [
       {
-        "Id": 985,
-        "Name": "Kling, Stracke and Mann",
-        "ToolTip": "At vitae qui sapiente id necessitatibus harum.",
+        "Id": 940,
+        "Name": "Hilll LLC",
+        "ToolTip": "Voluptates ut aut itaque itaque ducimus.",
         "Deleted": true,
-        "Rank": 603,
-        "Type": "dolorem",
-        "ColorBlock": 968,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2021-04-22T16:55:30.8398113+02:00",
+        "Rank": 712,
+        "Type": "architecto",
+        "ColorBlock": 32,
+        "IconHint": "porro",
+        "Selected": true,
+        "LastChanged": "2018-06-25T10:30:33.131835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "autem",
+        "ExtraInfo": "quia",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Talon Geo Steuber DDS",
+        "FullName": "Ethan Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 584
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "eaque",
+    "StyleHint": "natus",
     "Hidden": true,
-    "FullName": "Ms. Jermaine Abshire IV",
+    "FullName": "Emile Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldType": "System.Int32",
+        "FieldLength": 734
       }
     }
   }

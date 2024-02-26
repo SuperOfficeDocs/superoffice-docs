@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "placeat"
+  "TriggerScriptUniqueId": "saepe"
 }
 ```
 
@@ -96,16 +96,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "nemo",
-  "LineNumber": 950,
+  "Valid": true,
+  "ErrorMessage": "consequatur",
+  "LineNumber": 899,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

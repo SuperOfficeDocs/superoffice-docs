@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Sanford LLC",
-  "Tooltip": "reiciendis",
+  "Id": 486,
+  "Name": "Williamson Inc and Sons",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 38,
+  "Rank": 684,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "magni",
-  "InUseByUserDefinedFields": true,
+  "ListType": "officia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldLength": 770
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Mertz LLC",
-    "ToolTip": "Natus laboriosam perferendis.",
-    "Deleted": true,
-    "Rank": 582,
-    "Type": "at",
-    "ColorBlock": 435,
-    "IconHint": "animi",
-    "Selected": false,
-    "LastChanged": "1999-05-04T16:55:30.7977354+02:00",
+    "Id": 218,
+    "Name": "Heller LLC",
+    "ToolTip": "Temporibus autem.",
+    "Deleted": false,
+    "Rank": 75,
+    "Type": "ratione",
+    "ColorBlock": 432,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2009-02-22T10:30:33.1005836+01:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Morar, Koelpin and Hickle",
-        "ToolTip": "Quaerat tenetur sunt.",
+        "Id": 347,
+        "Name": "Stokes, Murazik and Feil",
+        "ToolTip": "Reprehenderit nostrum quae consequatur fugit et necessitatibus porro.",
         "Deleted": false,
-        "Rank": 480,
-        "Type": "ipsa",
-        "ColorBlock": 732,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2007-12-05T16:55:30.7977354+01:00",
+        "Rank": 714,
+        "Type": "aut",
+        "ColorBlock": 326,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2001-11-17T10:30:33.1005836+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "quia",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Kayli Dickens MD",
+        "FullName": "Ari Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 953
+            "FieldLength": 33
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "magnam",
     "Hidden": true,
-    "FullName": "Ms. Haylee Jessie Lehner",
+    "FullName": "Teagan Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldType": "System.String",
+        "FieldLength": 116
       }
     }
   }

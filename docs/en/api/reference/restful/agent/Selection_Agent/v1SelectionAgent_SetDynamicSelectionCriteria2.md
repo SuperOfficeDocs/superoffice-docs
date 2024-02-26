@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 700,
-  "Filter": "natus"
+  "SelectionId": 825,
+  "Filter": "inventore"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rosenbaum-Schaden",
-    "Operator": "perferendis",
+    "Name": "Waters-Leffler",
+    "Operator": "aut",
     "Values": [
-      "sapiente",
-      "sed"
+      "aperiam",
+      "ut"
     ],
     "DisplayValues": [
-      "enim",
-      "mollitia"
+      "illo",
+      "eaque"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Haley-Leannon",
-        "Operator": "mollitia",
+        "Name": "Runolfsdottir, Frami and Cartwright",
+        "Operator": "vero",
         "Values": [
-          "eligendi",
-          "in"
+          "minus",
+          "consectetur"
         ],
         "DisplayValues": [
-          "placeat",
-          "quia"
+          "animi",
+          "quasi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 881,
+        "InterParenthesis": 524,
         "InterOperator": "And",
-        "UniqueHash": 225
+        "UniqueHash": 277
       }
     ],
-    "InterParenthesis": 555,
+    "InterParenthesis": 816,
     "InterOperator": "And",
-    "UniqueHash": 149
+    "UniqueHash": 941
   }
 ]
 ```

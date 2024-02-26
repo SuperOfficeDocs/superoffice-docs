@@ -635,6 +635,7 @@ title: Services88.WorkflowAgent WSDL
           <xs:enumeration value="LinkClicked" />
           <xs:enumeration value="ProjectMembership" />
           <xs:enumeration value="SelectionMembership" />
+          <xs:enumeration value="FormData" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="WorkflowSplitOptionType" nillable="true" type="tns:WorkflowSplitOptionType" />
@@ -656,36 +657,17 @@ title: Services88.WorkflowAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="WorkflowStepOptionBase" nillable="true" type="tns:WorkflowStepOptionBase" />
-      <xs:complexType name="WorkflowStepOptionFormSubmission">
+      <xs:complexType name="WorkflowStepOptionFormData">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepOptionBase">
             <xs:sequence>
               <xs:element minOccurs="0" name="FormId" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="WorkflowStepOptionFormSubmission" nillable="true" type="tns:WorkflowStepOptionFormSubmission" />
-      <xs:complexType name="WorkflowStepOptionLinkClicked">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:WorkflowStepOptionBase">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="LinkId" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="WorkflowStepOptionLinkClicked" nillable="true" type="tns:WorkflowStepOptionLinkClicked" />
-      <xs:complexType name="WorkflowStepOptionPersonData">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:WorkflowStepOptionBase">
-            <xs:sequence>
               <xs:element minOccurs="0" name="RestrictionGroups" nillable="true" type="tns:ArrayOfArchiveRestrictionGroup" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="WorkflowStepOptionPersonData" nillable="true" type="tns:WorkflowStepOptionPersonData" />
+      <xs:element name="WorkflowStepOptionFormData" nillable="true" type="tns:WorkflowStepOptionFormData" />
       <xs:complexType name="ArrayOfArchiveRestrictionGroup">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionGroup" nillable="true" type="tns:ArchiveRestrictionGroup" />
@@ -748,6 +730,36 @@ title: Services88.WorkflowAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="InterRestrictionOperator" nillable="true" type="tns:InterRestrictionOperator" />
+      <xs:complexType name="WorkflowStepOptionFormSubmission">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:WorkflowStepOptionBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FormId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowStepOptionFormSubmission" nillable="true" type="tns:WorkflowStepOptionFormSubmission" />
+      <xs:complexType name="WorkflowStepOptionLinkClicked">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:WorkflowStepOptionBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="LinkId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowStepOptionLinkClicked" nillable="true" type="tns:WorkflowStepOptionLinkClicked" />
+      <xs:complexType name="WorkflowStepOptionPersonData">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:WorkflowStepOptionBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="RestrictionGroups" nillable="true" type="tns:ArrayOfArchiveRestrictionGroup" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="WorkflowStepOptionPersonData" nillable="true" type="tns:WorkflowStepOptionPersonData" />
       <xs:complexType name="WorkflowStepOptionProjectMembership">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepOptionBase">

@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 876,
+  "DocumentTemplateId": 765,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "error",
-  "PluginId": 799
+  "LanguageCode": "rerum",
+  "PluginId": 168
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lockman, Wiza and Breitenberg",
-  "Description": "Phased impactful framework",
-  "ExternalReference": "vero",
-  "MimeType": "aperiam",
-  "PluginId": 809
+  "Name": "Hessel, Miller and Gerhold",
+  "Description": "Pre-emptive actuating strategy",
+  "ExternalReference": "numquam",
+  "MimeType": "provident",
+  "PluginId": 710
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Heller-Tremblay",
-    "ToolTip": "Mollitia cum qui dolorum et.",
-    "Deleted": false,
-    "Rank": 278,
-    "Type": "dolores",
-    "ColorBlock": 632,
-    "IconHint": "ipsa",
+    "Id": 486,
+    "Name": "Hackett-Runolfsson",
+    "ToolTip": "Et adipisci porro animi.",
+    "Deleted": true,
+    "Rank": 903,
+    "Type": "voluptatem",
+    "ColorBlock": 302,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2020-05-20T16:55:31.1138138+02:00",
+    "LastChanged": "1998-11-29T10:30:33.2724548+01:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Denesik, Tromp and Thiel",
-        "ToolTip": "Laborum natus dolorem sunt.",
-        "Deleted": true,
-        "Rank": 872,
-        "Type": "porro",
-        "ColorBlock": 442,
-        "IconHint": "veniam",
+        "Id": 864,
+        "Name": "Hackett-Carroll",
+        "ToolTip": "Exercitationem dolorem exercitationem ex.",
+        "Deleted": false,
+        "Rank": 297,
+        "Type": "harum",
+        "ColorBlock": 503,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2015-07-26T16:55:31.1138138+02:00",
+        "LastChanged": "2002-04-23T10:30:33.2724548+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Walter Wisoky"
+        "ExtraInfo": "accusamus",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Prof. Alyson Heller V"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Kaylee Jaskolski"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Dixie Torp"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Bahringer, Larkin and Torphy",
-    "ToolTip": "Explicabo nemo officiis eum expedita accusamus officia magni.",
+    "Id": 42,
+    "Name": "Goyette-Lehner",
+    "ToolTip": "Deleniti ipsum voluptates.",
     "Deleted": false,
-    "Rank": 588,
-    "Type": "officia",
-    "ColorBlock": 4,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2002-03-18T16:55:31.1148135+01:00",
+    "Rank": 967,
+    "Type": "voluptates",
+    "ColorBlock": 719,
+    "IconHint": "quod",
+    "Selected": true,
+    "LastChanged": "2007-11-23T10:30:33.2724548+01:00",
     "ChildItems": [
       {
-        "Id": 393,
-        "Name": "Boyer LLC",
-        "ToolTip": "Ut occaecati et distinctio culpa ullam rerum ut.",
+        "Id": 1002,
+        "Name": "Cummings, Stark and Goodwin",
+        "ToolTip": "Quos nihil autem atque molestiae expedita recusandae.",
         "Deleted": false,
-        "Rank": 271,
-        "Type": "in",
-        "ColorBlock": 855,
-        "IconHint": "soluta",
-        "Selected": false,
-        "LastChanged": "1997-02-01T16:55:31.1148135+01:00",
+        "Rank": 317,
+        "Type": "et",
+        "ColorBlock": 675,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "2001-08-09T10:30:33.2724548+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "numquam",
-        "Hidden": false,
-        "FullName": "Jacklyn Nicolas",
+        "ExtraInfo": "aut",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Prof. Anabel Jaleel Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 433
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Jennings Reinger",
+    "FullName": "Marilyne Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldType": "System.String",
+        "FieldLength": 192
       }
     }
   }

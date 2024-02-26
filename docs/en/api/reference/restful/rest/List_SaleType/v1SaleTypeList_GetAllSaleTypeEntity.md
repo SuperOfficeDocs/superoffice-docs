@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 822,
-    "Name": "Will LLC",
-    "Tooltip": "mollitia",
-    "Rank": 9,
+    "SaleTypeId": 694,
+    "Name": "Kling-Will",
+    "Tooltip": "molestias",
+    "Rank": 696,
     "DurationUnit": "Century",
-    "SaleDuration": 103,
-    "SaleTypeCatId": 519,
+    "SaleDuration": 349,
+    "SaleTypeCatId": 799,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": true,
+    "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 409,
-    "QuoteLinesTemplate": 276,
-    "ConfirmationLinesTemplate": 162,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 131,
+    "QuoteLinesTemplate": 593,
+    "ConfirmationLinesTemplate": 780,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 56,
-    "MinEarningPercent": 573,
-    "GroupQuoteLinesBy": 208,
-    "SortGroupLinesBy": 346,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 81,
+    "MinEarningPercent": 122,
+    "GroupQuoteLinesBy": 834,
+    "SortGroupLinesBy": 403,
     "Stages": [
       {
-        "Id": 876,
-        "Name": "Douglas Group",
-        "ToolTip": "Hic fugit quasi eaque voluptas sit explicabo.",
-        "Deleted": false,
-        "Rank": 674,
-        "Type": "quia",
-        "ColorBlock": 21,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "1997-04-11T16:55:31.0581841+02:00",
+        "Id": 257,
+        "Name": "Dicki Inc and Sons",
+        "ToolTip": "Eum explicabo numquam.",
+        "Deleted": true,
+        "Rank": 309,
+        "Type": "veniam",
+        "ColorBlock": 991,
+        "IconHint": "sapiente",
+        "Selected": true,
+        "LastChanged": "2023-12-17T10:30:33.2255818+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "quia",
+        "ExtraInfo": "quia",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Giovanny Altenwerth",
+        "FullName": "Noble Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldLength": 157
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldType": "System.Int32",
+        "FieldLength": 946
       }
     }
   }

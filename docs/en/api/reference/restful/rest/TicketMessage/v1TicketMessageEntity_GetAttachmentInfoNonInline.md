@@ -56,6 +56,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -76,19 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 89,
-    "Name": "Shields-Champlin",
-    "ContentType": "beatae",
-    "AttSize": 582,
-    "InlineImage": false,
-    "ContentId": "porro",
-    "AuthKey": "omnis",
+    "AttachmentId": 457,
+    "Name": "Wuckert Inc and Sons",
+    "ContentType": "modi",
+    "AttSize": 177,
+    "InlineImage": true,
+    "ContentId": "ut",
+    "AuthKey": "aut",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldLength": 65
       }
     }
   }

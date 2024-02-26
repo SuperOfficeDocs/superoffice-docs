@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 803
+  "PersonId": 997
 }
 ```
 
@@ -92,35 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 535,
-  "PlainParsed": "pariatur",
-  "HtmlParsed": "itaque",
+  "ReplyTemplateId": 588,
+  "PlainParsed": "et",
+  "HtmlParsed": "atque",
   "Attachments": [
     {
-      "AttachmentId": 777,
-      "Name": "Dickinson-Berge",
-      "ContentType": "sed",
-      "AttSize": 621,
-      "InlineImage": false,
-      "ContentId": "aut",
-      "AuthKey": "culpa",
+      "AttachmentId": 944,
+      "Name": "Romaguera-Graham",
+      "ContentType": "quia",
+      "AttSize": 361,
+      "InlineImage": true,
+      "ContentId": "itaque",
+      "AuthKey": "voluptas",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 178
         }
       }
     }
   ],
-  "Subject": "fuga",
+  "Subject": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 860
     }
   }
 }

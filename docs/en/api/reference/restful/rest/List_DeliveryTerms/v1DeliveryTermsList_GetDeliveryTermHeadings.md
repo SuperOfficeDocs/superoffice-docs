@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 543,
-    "Name": "Mills LLC",
-    "Tooltip": "ex",
+    "HeadingId": 140,
+    "Name": "Satterfield Inc and Sons",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 458,
-    "UdListDefinitionId": 294,
+    "Rank": 653,
+    "UdListDefinitionId": 787,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldType": "System.String",
+        "FieldLength": 644
       }
     }
   }

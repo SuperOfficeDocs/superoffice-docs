@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Bahringer, Stokes and Aufderhar",
-    "ToolTip": "Praesentium sapiente sapiente quisquam.",
+    "Id": 333,
+    "Name": "Kozey-Moore",
+    "ToolTip": "Recusandae esse id velit earum occaecati a adipisci.",
     "Deleted": true,
-    "Rank": 421,
-    "Type": "omnis",
-    "ColorBlock": 826,
-    "IconHint": "molestias",
-    "Selected": false,
-    "LastChanged": "2015-06-10T16:55:30.3528162+02:00",
+    "Rank": 858,
+    "Type": "aut",
+    "ColorBlock": 224,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2010-01-23T10:30:32.7012205+01:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Kiehn-Kutch",
-        "ToolTip": "Error vitae maxime consectetur.",
-        "Deleted": false,
-        "Rank": 906,
-        "Type": "ut",
-        "ColorBlock": 99,
-        "IconHint": "quaerat",
+        "Id": 502,
+        "Name": "Bauch Inc and Sons",
+        "ToolTip": "Error iure veniam iusto nihil minus exercitationem nostrum.",
+        "Deleted": true,
+        "Rank": 408,
+        "Type": "rerum",
+        "ColorBlock": 649,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2013-12-07T16:55:30.3528162+01:00",
+        "LastChanged": "2007-10-13T10:30:32.7012205+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "ad",
+        "ExtraInfo": "et",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Lizeth Schmitt",
+        "FullName": "Elian O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 20
+            "FieldType": "System.Int32",
+            "FieldLength": 897
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Mr. Carrie Jarvis Adams DDS",
+    "ExtraInfo": "facilis",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Miss Brenden Larue Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 151
       }
     }
   }

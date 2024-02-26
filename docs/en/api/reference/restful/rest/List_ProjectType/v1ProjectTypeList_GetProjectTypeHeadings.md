@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 889,
-    "Name": "Witting-Bahringer",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "Rank": 834,
-    "UdListDefinitionId": 262,
+    "HeadingId": 752,
+    "Name": "Boyer Inc and Sons",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "Rank": 787,
+    "UdListDefinitionId": 454,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 774
+        "FieldType": "System.Int32",
+        "FieldLength": 885
       }
     }
   }

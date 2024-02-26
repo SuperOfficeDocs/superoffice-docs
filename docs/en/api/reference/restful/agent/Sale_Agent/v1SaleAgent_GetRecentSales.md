@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 338,
-  "Count": 271
+  "AmountLimit": 359,
+  "Count": 641
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Wolf, Brakus and Cormier",
-    "SaleDate": "2014-09-30T16:54:56.2564966+02:00",
-    "SaleId": 262,
-    "Probability": 323,
-    "Title": "nemo",
-    "Amount": 16635.272,
-    "Currency": "eos",
-    "ProjectName": "Osinski-Bechtelar",
-    "AssociateFullName": "Rosa Funk",
-    "Description": "Pre-emptive object-oriented utilisation",
+    "ContactName": "Ruecker LLC",
+    "SaleDate": "2004-06-28T10:30:24.5283735+02:00",
+    "SaleId": 68,
+    "Probability": 730,
+    "Title": "et",
+    "Amount": 23445.453999999998,
+    "Currency": "earum",
+    "ProjectName": "Dooley, Gottlieb and Hauck",
+    "AssociateFullName": "Abdullah Jaskolski",
+    "Description": "Ergonomic encompassing monitoring",
     "Status": "Lost",
-    "WeightedAmount": 2018.2959999999998,
-    "ProjectId": 760,
-    "EarningPercent": 19540.489999999998,
-    "Earning": 25711.336,
-    "ContactId": 558,
-    "AssociateId": 394,
-    "PersonId": 413,
-    "SaleTypeId": 414,
-    "SaleTypeName": "Conroy, Schneider and Schmidt",
-    "PersonFullName": "Prof. Adell Deckow",
+    "WeightedAmount": 8803.405999999999,
+    "ProjectId": 968,
+    "EarningPercent": 272.658,
+    "Earning": 17964.088,
+    "ContactId": 880,
+    "AssociateId": 514,
+    "PersonId": 519,
+    "SaleTypeId": 217,
+    "SaleTypeName": "Boyle LLC",
+    "PersonFullName": "Mr. Georgette Manley Dach I",
     "Completed": "Completed",
-    "ActiveErpLinks": 512,
-    "NextDueDate": "1999-06-24T16:54:56.2564966+02:00",
-    "Number": "1294602",
+    "ActiveErpLinks": 93,
+    "NextDueDate": "1997-04-16T10:30:24.5283735+02:00",
+    "Number": "846644",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldType": "System.String",
+        "FieldLength": 571
       }
     }
   }

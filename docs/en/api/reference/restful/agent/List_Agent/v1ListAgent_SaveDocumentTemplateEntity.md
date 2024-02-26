@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 613,
-  "Name": "Gerhold, Lindgren and Hessel",
-  "Tooltip": "quos",
-  "SaveInDb": 905,
-  "Filename": "odio",
-  "DefaultOref": "repellendus",
+  "DocumentTemplateId": 580,
+  "Name": "Rogahn Group",
+  "Tooltip": "blanditiis",
+  "SaveInDb": 860,
+  "Filename": "fugit",
+  "DefaultOref": "omnis",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 795,
-  "IntentId": 747,
-  "IsDefaultPublished": true,
-  "Rank": 950,
-  "LoadTemplateFromPlugin": 396,
-  "MimeType": "quam",
+  "AutoeventId": 150,
+  "IntentId": 559,
+  "IsDefaultPublished": false,
+  "Rank": 373,
+  "LoadTemplateFromPlugin": 660,
+  "MimeType": "aut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 28,
+  "DocumentTypeKey": 466,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "hailie_kautzer@stantonsawayn.co.uk",
+  "EmailSubject": "crawford_stamm@ferry.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "marvin_lindgren@breitenbergkrajcik.uk",
+  "SenderEmailAddress": "art@hermanfarrell.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 967,
-  "Name": "Harris LLC",
-  "Tooltip": "maiores",
-  "SaveInDb": 545,
-  "Filename": "voluptas",
-  "DefaultOref": "dolore",
+  "DocumentTemplateId": 386,
+  "Name": "Mraz, Beer and Cronin",
+  "Tooltip": "quis",
+  "SaveInDb": 195,
+  "Filename": "necessitatibus",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 911,
-  "IntentId": 5,
-  "IsDefaultPublished": false,
-  "Rank": 405,
-  "LoadTemplateFromPlugin": 947,
-  "MimeType": "molestiae",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 510,
+  "AutoeventId": 610,
+  "IntentId": 400,
+  "IsDefaultPublished": true,
+  "Rank": 757,
+  "LoadTemplateFromPlugin": 296,
+  "MimeType": "distinctio",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 245,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "antonietta@stehrbarrows.ca",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "griffin@marvin.name",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "johnson@wilderman.info",
+  "SenderEmailAddress": "lamont_kutch@schneider.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 166
     }
   }
 }

@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 23,
-  "Section": "qui",
-  "Key": "consequuntur",
-  "Name": "Zemlak, Leannon and Tromp",
+  "PrefDescId": 445,
+  "Section": "nobis",
+  "Key": "rem",
+  "Name": "Okuneva-Kemmer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic secondary model",
-  "IsBuiltin": false,
-  "TableName": "Graham Group",
-  "UserDefinedListId": 827,
-  "Rank": 71,
-  "SubGroup": "veniam",
-  "MinLevel": 526,
-  "MaxValue": 722,
-  "MinValue": 139,
-  "RequiredLicense": "qui",
+  "Description": "Reverse-engineered zero administration info-mediaries",
+  "IsBuiltin": true,
+  "TableName": "Upton Inc and Sons",
+  "UserDefinedListId": 128,
+  "Rank": 337,
+  "SubGroup": "corrupti",
+  "MinLevel": 872,
+  "MaxValue": 228,
+  "MinValue": 480,
+  "RequiredLicense": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 15
     }
   },
   "_Links": {

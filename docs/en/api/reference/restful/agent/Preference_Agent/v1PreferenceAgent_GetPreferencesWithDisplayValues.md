@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "error",
-      "Key": "quaerat"
+      "Section": "quia",
+      "Key": "saepe"
     },
     {
-      "Section": "error",
-      "Key": "quaerat"
+      "Section": "quia",
+      "Key": "saepe"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "nisi",
+    "RawValue": "cumque",
     "Specification": null,
-    "DisplayValue": "qui",
-    "DisplayTooltip": "pariatur",
+    "DisplayValue": "quis",
+    "DisplayTooltip": "sint",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 266,
-    "PrefDescId": 373,
-    "TableName": "Denesik, Daniel and Towne",
-    "UserPreferenceId": 583,
+    "TargetId": 400,
+    "PrefDescId": 158,
+    "TableName": "Davis Group",
+    "UserPreferenceId": 364,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 490
       }
     }
   }

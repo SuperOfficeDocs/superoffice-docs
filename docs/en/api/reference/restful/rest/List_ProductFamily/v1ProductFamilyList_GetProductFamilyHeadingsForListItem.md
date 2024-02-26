@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "Barrows-Kassulke",
-    "ToolTip": "Corrupti optio nesciunt debitis quae.",
+    "Id": 932,
+    "Name": "Sanford, Abernathy and Jones",
+    "ToolTip": "Odio eveniet error dolorem alias.",
     "Deleted": true,
-    "Rank": 246,
-    "Type": "suscipit",
-    "ColorBlock": 862,
-    "IconHint": "perferendis",
+    "Rank": 209,
+    "Type": "soluta",
+    "ColorBlock": 390,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2005-04-07T16:55:30.8138138+02:00",
+    "LastChanged": "1997-05-21T10:30:33.1162087+02:00",
     "ChildItems": [
       {
-        "Id": 278,
-        "Name": "McDermott-Mann",
-        "ToolTip": "Exercitationem ea accusamus nobis rerum laudantium illum.",
-        "Deleted": false,
-        "Rank": 231,
-        "Type": "eius",
-        "ColorBlock": 187,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2003-09-19T16:55:30.814804+02:00",
+        "Id": 849,
+        "Name": "Marks, Schimmel and Barton",
+        "ToolTip": "Vel voluptas sint nulla aperiam ut nam.",
+        "Deleted": true,
+        "Rank": 683,
+        "Type": "doloribus",
+        "ColorBlock": 183,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2014-07-31T10:30:33.1162087+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Dayna Price",
+        "ExtraInfo": "modi",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Miss Herman Nathanial Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 478
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "iure",
-    "Hidden": true,
-    "FullName": "Maximo Schneider DDS",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "molestias",
+    "Hidden": false,
+    "FullName": "Ms. Esther Vallie Schiller III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 589
       }
     }
   }

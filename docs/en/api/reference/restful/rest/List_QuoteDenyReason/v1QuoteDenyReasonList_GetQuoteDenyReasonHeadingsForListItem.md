@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Kerluke, Goyette and Pfannerstill",
-    "ToolTip": "Et possimus officiis distinctio deserunt ut nihil.",
+    "Id": 366,
+    "Name": "Larson-Langosh",
+    "ToolTip": "Culpa aperiam sunt.",
     "Deleted": false,
-    "Rank": 80,
-    "Type": "voluptate",
-    "ColorBlock": 286,
-    "IconHint": "laborum",
-    "Selected": false,
-    "LastChanged": "2018-03-16T16:55:30.9941873+01:00",
+    "Rank": 253,
+    "Type": "laborum",
+    "ColorBlock": 392,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2005-10-17T10:30:33.178709+02:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Harvey-Harris",
-        "ToolTip": "Est nulla modi et.",
+        "Id": 391,
+        "Name": "Yundt-Hoppe",
+        "ToolTip": "Qui nostrum est sint vero.",
         "Deleted": false,
-        "Rank": 965,
-        "Type": "est",
-        "ColorBlock": 88,
-        "IconHint": "rem",
+        "Rank": 542,
+        "Type": "amet",
+        "ColorBlock": 56,
+        "IconHint": "veniam",
         "Selected": true,
-        "LastChanged": "2009-05-26T16:55:30.9941873+02:00",
+        "LastChanged": "2007-11-12T10:30:33.178709+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
+        "ExtraInfo": "quo",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Cole Hartmann",
+        "FullName": "Amparo Schultz V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 519
+            "FieldLength": 544
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "odio",
+    "ExtraInfo": "non",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Berneice Collins",
+    "FullName": "Reyes Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 904
       }
     }
   }

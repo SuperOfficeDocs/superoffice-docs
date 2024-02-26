@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 12,
-  "CurrencyId": 25
+  "QuoteConnectionId": 754,
+  "CurrencyId": 857
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 181,
-    "ERPPriceListKey": "ut",
-    "QuoteConnectionId": 470,
-    "Name": "Schuppe-Schuppe",
-    "Description": "Visionary national methodology",
-    "Currency": "quia",
-    "CurrencyName": "Jaskolski, Waters and VonRueden",
-    "ValidFrom": "1999-08-24T16:54:56.1431452+02:00",
-    "ValidTo": "2002-04-20T16:54:56.1431452+02:00",
+    "PriceListId": 274,
+    "ERPPriceListKey": "aut",
+    "QuoteConnectionId": 943,
+    "Name": "Sawayn Inc and Sons",
+    "Description": "Up-sized hybrid flexibility",
+    "Currency": "recusandae",
+    "CurrencyName": "Fritsch, Barton and Mills",
+    "ValidFrom": "2017-10-26T10:30:24.4346264+02:00",
+    "ValidTo": "2002-05-15T10:30:24.4346264+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldType": "System.String",
+        "FieldLength": 520
       }
     }
   }

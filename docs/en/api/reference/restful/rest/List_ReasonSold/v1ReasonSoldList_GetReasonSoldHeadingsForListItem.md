@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Ebert Group",
-    "ToolTip": "Perspiciatis ea.",
+    "Id": 468,
+    "Name": "Schamberger Group",
+    "ToolTip": "Sit nemo rerum optio.",
     "Deleted": false,
-    "Rank": 895,
-    "Type": "voluptatum",
-    "ColorBlock": 912,
-    "IconHint": "aliquid",
-    "Selected": true,
-    "LastChanged": "2002-10-13T16:55:31.0351834+02:00",
+    "Rank": 96,
+    "Type": "enim",
+    "ColorBlock": 455,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "2006-02-09T10:30:33.2099635+01:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Doyle Group",
-        "ToolTip": "Harum aut nobis.",
+        "Id": 561,
+        "Name": "Robel, Prohaska and Mills",
+        "ToolTip": "Autem quia mollitia modi quaerat cum expedita et.",
         "Deleted": false,
-        "Rank": 756,
-        "Type": "nesciunt",
-        "ColorBlock": 811,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2019-06-13T16:55:31.0351834+02:00",
+        "Rank": 447,
+        "Type": "corrupti",
+        "ColorBlock": 305,
+        "IconHint": "sapiente",
+        "Selected": false,
+        "LastChanged": "2004-06-20T10:30:33.2099635+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Emiliano Schimmel",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Hollie Lakin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldType": "System.String",
+            "FieldLength": 536
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "sit",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Marques Parisian",
+    "FullName": "Dillon Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 877
+        "FieldType": "System.Int32",
+        "FieldLength": 802
       }
     }
   }

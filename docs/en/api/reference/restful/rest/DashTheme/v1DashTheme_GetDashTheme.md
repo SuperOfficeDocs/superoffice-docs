@@ -78,7 +78,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 404,
-  "Name": "Stamm Group",
-  "Config": "qui",
-  "Rank": 769,
-  "Client": "molestiae",
-  "Style": "ullam",
+  "DashboardThemeId": 900,
+  "Name": "Kovacek Group",
+  "Config": "nihil",
+  "Rank": 317,
+  "Client": "tempore",
+  "Style": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 698
     }
   },
   "_Links": {

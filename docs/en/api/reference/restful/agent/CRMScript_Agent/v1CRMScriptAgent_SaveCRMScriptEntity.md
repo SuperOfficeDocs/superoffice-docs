@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 319,
-  "UniqueIdentifier": "numquam",
-  "Name": "Rohan, Murray and Terry",
-  "Description": "Realigned radical conglomeration",
-  "IncludeId": "quibusdam",
-  "HierarchyId": 873,
-  "Source": "sit",
-  "Registered": "2006-05-05T16:54:55.0572741+02:00",
-  "RegisteredAssociateId": 607,
-  "Updated": "2012-07-03T16:54:55.0572741+02:00",
-  "UpdatedAssociateId": 205
+  "EjscriptId": 69,
+  "UniqueIdentifier": "facere",
+  "Name": "O'Connell LLC",
+  "Description": "Synergized real-time emulation",
+  "IncludeId": "qui",
+  "HierarchyId": 427,
+  "Source": "est",
+  "Registered": "2005-10-05T10:30:23.4039465+02:00",
+  "RegisteredAssociateId": 740,
+  "Updated": "1999-08-15T10:30:23.4039465+02:00",
+  "UpdatedAssociateId": 919
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 346,
-  "UniqueIdentifier": "doloribus",
-  "Name": "O'Kon-Schowalter",
-  "Description": "Assimilated optimal hierarchy",
-  "IncludeId": "eos",
-  "HierarchyId": 374,
-  "Source": "dolore",
-  "Registered": "2000-11-02T16:54:55.0572741+01:00",
-  "RegisteredAssociateId": 150,
-  "Updated": "2007-09-02T16:54:55.0572741+02:00",
-  "UpdatedAssociateId": 622,
+  "EjscriptId": 473,
+  "UniqueIdentifier": "dolores",
+  "Name": "Herman-Kautzer",
+  "Description": "Customizable upward-trending system engine",
+  "IncludeId": "eaque",
+  "HierarchyId": 728,
+  "Source": "quia",
+  "Registered": "2021-08-26T10:30:23.4049883+02:00",
+  "RegisteredAssociateId": 129,
+  "Updated": "2005-05-13T10:30:23.4049883+02:00",
+  "UpdatedAssociateId": 51,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

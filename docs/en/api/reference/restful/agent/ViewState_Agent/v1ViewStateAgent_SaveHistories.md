@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "DuBuque, Kohler and Ondricka",
+  "HistoryName": "Turcotte, Pouros and Kessler",
   "History": [
     {
-      "Rank": 271,
-      "Id": 588,
-      "HistoryName": "Tillman Group",
-      "HistoryId": 755,
-      "AssociateId": 89,
-      "Name": "Jakubowski, Bins and Reynolds",
-      "ItemInfo": "dolores"
+      "Rank": 925,
+      "Id": 785,
+      "HistoryName": "Hartmann Inc and Sons",
+      "HistoryId": 332,
+      "AssociateId": 346,
+      "Name": "Dach-Beier",
+      "ItemInfo": "consequatur"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 187,
-    "Id": 903,
-    "HistoryName": "Haley, Runolfsdottir and Leannon",
-    "HistoryId": 614,
-    "AssociateId": 718,
-    "Name": "Crona Inc and Sons",
-    "ItemInfo": "dignissimos",
+    "Rank": 786,
+    "Id": 223,
+    "HistoryName": "Jacobi, Maggio and Schroeder",
+    "HistoryId": 525,
+    "AssociateId": 933,
+    "Name": "O'Keefe-Weimann",
+    "ItemInfo": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 774
+        "FieldType": "System.Int32",
+        "FieldLength": 847
       }
     }
   }

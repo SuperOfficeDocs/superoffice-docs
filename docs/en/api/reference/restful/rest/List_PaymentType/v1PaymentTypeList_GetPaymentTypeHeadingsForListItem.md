@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 414,
-    "Name": "Zulauf Inc and Sons",
-    "ToolTip": "Unde consequatur molestias vitae earum aperiam.",
+    "Id": 591,
+    "Name": "Rau-Shanahan",
+    "ToolTip": "Neque mollitia aut tenetur sunt velit numquam dolorem.",
     "Deleted": false,
-    "Rank": 44,
-    "Type": "culpa",
-    "ColorBlock": 350,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2017-04-24T16:55:30.7571922+02:00",
+    "Rank": 297,
+    "Type": "voluptatibus",
+    "ColorBlock": 328,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2023-10-11T10:30:33.0524566+02:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Effertz Inc and Sons",
-        "ToolTip": "Odit id eaque placeat eos minima.",
+        "Id": 287,
+        "Name": "Ratke Group",
+        "ToolTip": "Ut qui quod ut et dolorem natus.",
         "Deleted": true,
-        "Rank": 632,
-        "Type": "consequatur",
-        "ColorBlock": 735,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2003-09-06T16:55:30.7571922+02:00",
+        "Rank": 239,
+        "Type": "et",
+        "ColorBlock": 754,
+        "IconHint": "occaecati",
+        "Selected": true,
+        "LastChanged": "2002-09-16T10:30:33.0524566+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "maxime",
-        "Hidden": false,
-        "FullName": "Sabryna Emard",
+        "ExtraInfo": "omnis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Kelly Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 704
+            "FieldLength": 722
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "maxime",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Aimee Wiza",
+    "FullName": "Jaeden Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 92
       }
     }
   }

@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 55,
-  "Currency": "et"
+  "QuoteConnectionId": 740,
+  "Currency": "dolor"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 368,
-    "ERPPriceListKey": "commodi",
-    "QuoteConnectionId": 928,
-    "Name": "Walter, Howell and Walker",
-    "Description": "Optional 6th generation portal",
-    "Currency": "totam",
-    "CurrencyName": "Metz LLC",
-    "ValidFrom": "2007-12-29T16:54:56.1431452+01:00",
-    "ValidTo": "2002-09-06T16:54:56.1431452+02:00",
+    "PriceListId": 751,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 37,
+    "Name": "Rohan Inc and Sons",
+    "Description": "Configurable solution-oriented migration",
+    "Currency": "ut",
+    "CurrencyName": "Eichmann-O'Connell",
+    "ValidFrom": "2021-10-05T10:30:24.4346264+02:00",
+    "ValidTo": "1998-09-08T10:30:24.4346264+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldType": "System.Int32",
+        "FieldLength": 146
       }
     }
   }

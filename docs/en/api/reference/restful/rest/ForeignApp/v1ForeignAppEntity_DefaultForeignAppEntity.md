@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 27 Jul 2007 16:55:29 G7T
+Last-Modified: Tue, 06 Jan 2004 10:30:32 G1T
 
 {
-  "ForeignAppId": 884,
-  "Name": "Wolff-Cruickshank",
-  "CreatedDate": "2001-03-31T16:55:29.6364377+02:00",
-  "UpdatedDate": "2007-07-27T16:55:29.6364377+02:00",
+  "ForeignAppId": 389,
+  "Name": "Schowalter, Mohr and Mitchell",
+  "CreatedDate": "2007-12-10T10:30:32.0574265+01:00",
+  "UpdatedDate": "2004-01-06T10:30:32.0574265+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 251,
-      "Name": "Wolf-Streich",
-      "CreatedDate": "2001-01-13T16:55:29.6364377+01:00",
-      "UpdatedDate": "2001-02-14T16:55:29.6364377+01:00",
-      "AssociateFullName": "Miss Jules Heaven Gleichner",
-      "CreatedBy": "rerum",
+      "ForeignDeviceId": 641,
+      "Name": "Kuhn, Reinger and Ward",
+      "CreatedDate": "2019-07-28T10:30:32.0574265+02:00",
+      "UpdatedDate": "2010-01-02T10:30:32.0574265+01:00",
+      "AssociateFullName": "Mrs. Clementina Theo Cronin",
+      "CreatedBy": "error",
       "UpdatedBy": "facilis",
-      "DeviceIdentifier": "voluptas",
-      "ForeignAppId": 231,
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 475,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 554
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Fri, 27 Jul 2007 16:55:29 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 111
     }
   }
 }

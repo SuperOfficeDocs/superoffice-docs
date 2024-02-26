@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 108,
+  "DocumentId": 410,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequuntur",
-  "Header": "quibusdam",
-  "Name": "Kertzmann Group",
-  "OurRef": "dicta",
-  "YourRef": "et",
-  "CreatedDate": "2010-09-24T16:54:55.1679933+02:00",
-  "UpdatedDate": "1997-06-25T16:54:55.1679933+02:00",
-  "Description": "De-engineered even-keeled analyzer",
+  "Attention": "est",
+  "Header": "perferendis",
+  "Name": "Ward Group",
+  "OurRef": "sit",
+  "YourRef": "quo",
+  "CreatedDate": "2019-10-04T10:30:23.6093354+02:00",
+  "UpdatedDate": "2015-01-30T10:30:23.6093354+01:00",
+  "Description": "Customizable multi-tasking extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-11-05T16:54:55.1709031+01:00",
-  "ExternalRef": "quae",
+  "Date": "2000-08-01T10:30:23.6093354+02:00",
+  "ExternalRef": "ullam",
   "Completed": "Completed",
-  "ActiveLinks": 668,
+  "ActiveLinks": 198,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pacocha-Mertz",
-      "Id": 447,
-      "Description": "Secured exuding Graphical User Interface",
-      "ExtraInfo": "maiores",
-      "LinkId": 670,
+      "EntityName": "McKenzie-Mosciski",
+      "Id": 269,
+      "Description": "Ergonomic even-keeled function",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 851,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldType": "System.Int32",
+          "FieldLength": 37
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 65,
-  "Snum": 188,
+  "SuggestedDocumentId": 635,
+  "Snum": 961,
   "UserDefinedFields": {
-    "SuperOffice:1": "Florida Hazel Hegmann Jr.",
-    "SuperOffice:2": "1816651502"
+    "SuperOffice:1": "Mrs. Marcelle Lisette Toy",
+    "SuperOffice:2": "Leonard Frami"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "quidem"
+    "CustomFields1": "explicabo",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2012-05-11T16:54:55.1719916+02:00",
-  "PublishTo": "2007-11-20T16:54:55.1719916+01:00",
-  "PublishFrom": "2002-06-18T16:54:55.1719916+02:00",
+  "PublishEventDate": "2012-11-12T10:30:23.6093354+01:00",
+  "PublishTo": "2003-01-13T10:30:23.6093354+01:00",
+  "PublishFrom": "2001-04-09T10:30:23.6093354+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 379,
+      "VisibleId": 428,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 434
         }
       }
     },
     {
-      "VisibleId": 379,
+      "VisibleId": 428,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 434
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 820
     }
   }
 }

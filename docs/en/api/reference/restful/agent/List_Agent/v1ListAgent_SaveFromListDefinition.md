@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 205,
-  "UdListDefinitionId": 537,
+  "Id": 436,
+  "UdListDefinitionId": 193,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 653,
-  "Name": "Hahn LLC",
-  "Tooltip": "culpa",
-  "Deleted": true,
-  "UdListDefinitionId": 465,
-  "Rank": 690,
+  "Id": 507,
+  "Name": "Reichert Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 61,
+  "Rank": 7,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 422
     }
   }
 }

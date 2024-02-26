@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 977
+  "AssociateId": 334
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Kertzmann, Yundt and Weber",
-    "DeviceIdentifier": "similique",
-    "PocketVersion": "qui",
-    "Language": "culpa",
-    "PNSHandle": "magni",
+    "DeviceName": "Muller LLC",
+    "DeviceIdentifier": "eligendi",
+    "PocketVersion": "est",
+    "Language": "inventore",
+    "PNSHandle": "consequuntur",
     "Platform": "Apple",
-    "OSVersion": "nostrum",
-    "TimeZoneId": 548
+    "OSVersion": "eaque",
+    "TimeZoneId": 6
   }
 ]
 ```

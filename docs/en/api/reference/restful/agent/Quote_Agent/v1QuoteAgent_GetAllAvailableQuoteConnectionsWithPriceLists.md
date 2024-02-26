@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 416,
-    "ERPName": "Reinger, Waters and Lind",
-    "DisplayName": "Baumbach, Russel and Reinger",
-    "DisplayDescription": "Cloned maximized forecast",
-    "Rank": 723,
-    "ConnectorName": "Lakin-Hackett",
-    "ErpConnectionId": 301,
-    "ExtraData": "eos",
+    "QuoteConnectionId": 622,
+    "ERPName": "Cartwright Inc and Sons",
+    "DisplayName": "Skiles-Kirlin",
+    "DisplayDescription": "Integrated 3rd generation circuit",
+    "Rank": 938,
+    "ConnectorName": "Rempel, Cormier and Parisian",
+    "ErpConnectionId": 679,
+    "ExtraData": "accusamus",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 707,
-        "ERPPriceListKey": "aut",
-        "QuoteConnectionId": 6,
-        "Name": "Harber LLC",
-        "Description": "Robust zero administration focus group",
-        "Currency": "ipsam",
-        "CurrencyName": "Larkin Group",
-        "ValidFrom": "2000-10-03T16:54:56.1361404+02:00",
-        "ValidTo": "2002-02-19T16:54:56.1361404+01:00",
+        "PriceListId": 352,
+        "ERPPriceListKey": "asperiores",
+        "QuoteConnectionId": 521,
+        "Name": "Breitenberg, Koss and Kuhn",
+        "Description": "Synchronised homogeneous utilisation",
+        "Currency": "aut",
+        "CurrencyName": "Daugherty-Hilpert",
+        "ValidFrom": "2009-02-19T10:30:24.4190067+01:00",
+        "ValidTo": "1998-09-02T10:30:24.4190067+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 964
+            "FieldLength": 187
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      554,
-      773
+      507,
+      724
     ],
     "AssociateAccessIds": [
-      455,
-      555
+      733,
+      669
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 5
       }
     }
   }

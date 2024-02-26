@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 393,
-    "Name": "Miller-Daugherty",
-    "Tooltip": "porro",
+    "HeadingId": 573,
+    "Name": "Nikolaus, Stanton and O'Keefe",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 212,
-    "UdListDefinitionId": 782
+    "Rank": 519,
+    "UdListDefinitionId": 659
   },
   {
-    "HeadingId": 393,
-    "Name": "Miller-Daugherty",
-    "Tooltip": "porro",
+    "HeadingId": 573,
+    "Name": "Nikolaus, Stanton and O'Keefe",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 212,
-    "UdListDefinitionId": 782
+    "Rank": 519,
+    "UdListDefinitionId": 659
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 866,
-    "Name": "Farrell-Lakin",
-    "Tooltip": "est",
+    "HeadingId": 93,
+    "Name": "Reinger Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 872,
-    "UdListDefinitionId": 674,
+    "Rank": 920,
+    "UdListDefinitionId": 615,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 801
       }
     }
   }

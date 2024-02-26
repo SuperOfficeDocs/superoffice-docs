@@ -119,14 +119,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 887,
-  "PersonId": 756,
-  "AppointmentId": 629,
-  "DocumentId": 861,
-  "SaleId": 550,
-  "SelectionId": 608,
-  "ProjectId": 723,
-  "UiCulture": "neque"
+  "ContactId": 690,
+  "PersonId": 217,
+  "AppointmentId": 803,
+  "DocumentId": 352,
+  "SaleId": 252,
+  "SelectionId": 82,
+  "ProjectId": 66,
+  "UiCulture": "ut"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 645,
+  "DocumentId": 641,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sit",
-  "Header": "velit",
-  "Name": "Hyatt, Nitzsche and Hauck",
-  "OurRef": "et",
-  "YourRef": "nobis",
-  "CreatedDate": "2021-01-11T16:54:55.2509078+01:00",
-  "UpdatedDate": "2023-05-12T16:54:55.2509078+02:00",
-  "Description": "Grass-roots needs-based collaboration",
+  "Attention": "fuga",
+  "Header": "maiores",
+  "Name": "Fay-Schmeler",
+  "OurRef": "eos",
+  "YourRef": "ut",
+  "CreatedDate": "2003-06-20T10:30:23.6886831+02:00",
+  "UpdatedDate": "2019-01-23T10:30:23.6886831+01:00",
+  "Description": "Cloned homogeneous data-warehouse",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-02-13T16:54:55.2529075+01:00",
-  "ExternalRef": "corrupti",
+  "Date": "2018-07-12T10:30:23.6886831+02:00",
+  "ExternalRef": "quas",
   "Completed": "Completed",
-  "ActiveLinks": 89,
+  "ActiveLinks": 840,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jakubowski, Padberg and DuBuque",
-      "Id": 1002,
-      "Description": "Synergized dedicated functionalities",
-      "ExtraInfo": "ea",
-      "LinkId": 467,
+      "EntityName": "Becker-West",
+      "Id": 1000,
+      "Description": "Balanced web-enabled analyzer",
+      "ExtraInfo": "dolor",
+      "LinkId": 147,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldType": "System.String",
+          "FieldLength": 444
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 562,
-  "Snum": 278,
+  "SuggestedDocumentId": 760,
+  "Snum": 106,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Ophelia Lynch",
+    "SuperOffice:2": "Prof. Verner Keyshawn Kertzmann"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "consequuntur",
-    "CustomFields2": "qui"
+    "CustomFields1": "rem",
+    "CustomFields2": "totam"
   },
-  "PublishEventDate": "2002-06-25T16:54:55.253908+02:00",
-  "PublishTo": "2016-12-30T16:54:55.253908+01:00",
-  "PublishFrom": "1998-05-08T16:54:55.253908+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-07-02T10:30:23.6886831+02:00",
+  "PublishTo": "1997-09-07T10:30:23.6886831+02:00",
+  "PublishFrom": "2023-08-10T10:30:23.6886831+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 575,
+      "VisibleId": 237,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     },
     {
-      "VisibleId": 575,
+      "VisibleId": 237,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 763
     }
   }
 }

@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 26
+  "ProjectId": 812
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 564,
-  "Name": "Johnston, Stiedemann and Kozey",
-  "Description": "Optimized real-time benchmark",
+  "ProjectId": 122,
+  "Name": "Swaniawski LLC",
+  "Description": "Innovative didactic superstructure",
   "URL": "http://www.example.com/",
-  "Type": "nemo",
-  "AssociateId": 933,
-  "AssociateFullName": "Ardella Saul White DVM",
-  "TypeId": 873,
-  "Updated": "2001-07-14T16:54:56.0701382+02:00",
-  "StatusId": 667,
-  "Status": "similique",
-  "TextId": 642,
-  "PublishTo": "2001-08-23T16:54:56.0701382+02:00",
-  "PublishFrom": "2021-08-10T16:54:56.0701382+02:00",
-  "IsPublished": false,
+  "Type": "adipisci",
+  "AssociateId": 831,
+  "AssociateFullName": "Prof. Martina Cummerata",
+  "TypeId": 654,
+  "Updated": "2015-08-06T10:30:24.3705833+02:00",
+  "StatusId": 202,
+  "Status": "et",
+  "TextId": 498,
+  "PublishTo": "2015-03-13T10:30:24.3705833+01:00",
+  "PublishFrom": "2002-02-09T10:30:24.3705833+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1147264",
-  "ActiveErpLinks": 985,
+  "ProjectNumber": "770195",
+  "ActiveErpLinks": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 326
     }
   }
 }

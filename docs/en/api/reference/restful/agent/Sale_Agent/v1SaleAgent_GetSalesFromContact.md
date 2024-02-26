@@ -102,8 +102,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 843,
-  "OnlyOpenSales": false
+  "ContactId": 563,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hammes, Rohan and Torphy",
-    "SaleDate": "2005-03-27T16:54:56.2615203+02:00",
-    "SaleId": 776,
-    "Probability": 453,
-    "Title": "perspiciatis",
-    "Amount": 16575.726,
-    "Currency": "non",
-    "ProjectName": "Braun Inc and Sons",
-    "AssociateFullName": "Julius Keeling",
-    "Description": "Configurable dedicated encryption",
+    "ContactName": "Roob-Terry",
+    "SaleDate": "2010-08-22T10:30:24.5439994+02:00",
+    "SaleId": 599,
+    "Probability": 734,
+    "Title": "vel",
+    "Amount": 15203.034,
+    "Currency": "ab",
+    "ProjectName": "Doyle, Hessel and Lindgren",
+    "AssociateFullName": "Estefania Turcotte",
+    "Description": "Public-key 4th generation artificial intelligence",
     "Status": "Lost",
-    "WeightedAmount": 2842.538,
-    "ProjectId": 341,
-    "EarningPercent": 22248.266,
-    "Earning": 19098.595999999998,
-    "ContactId": 236,
-    "AssociateId": 668,
-    "PersonId": 543,
-    "SaleTypeId": 798,
-    "SaleTypeName": "Gerhold-Gleason",
-    "PersonFullName": "Lisandro Pagac",
+    "WeightedAmount": 5230.646,
+    "ProjectId": 305,
+    "EarningPercent": 12664.493999999999,
+    "Earning": 19095.462,
+    "ContactId": 245,
+    "AssociateId": 393,
+    "PersonId": 644,
+    "SaleTypeId": 617,
+    "SaleTypeName": "Leannon-Cole",
+    "PersonFullName": "Scottie Wehner",
     "Completed": "Completed",
-    "ActiveErpLinks": 430,
-    "NextDueDate": "2023-02-10T16:54:56.2615203+01:00",
-    "Number": "1322315",
+    "ActiveErpLinks": 441,
+    "NextDueDate": "2006-10-06T10:30:24.5439994+02:00",
+    "Number": "375565",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 892
       }
     }
   }

@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=812
+GET /api/v1/Contact/{contactId}/Summary?limit=668
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 826,
-      "TicketStatus": 182,
-      "Title": "illo",
-      "Registered": "2016-02-14T16:55:29.4958341+01:00",
-      "IconHint": "natus"
+      "TicketId": 638,
+      "TicketStatus": 51,
+      "Title": "consectetur",
+      "Registered": "1997-06-06T10:30:31.9324368+02:00",
+      "IconHint": "molestiae"
     },
     {
-      "TicketId": 826,
-      "TicketStatus": 182,
-      "Title": "illo",
-      "Registered": "2016-02-14T16:55:29.4958341+01:00",
-      "IconHint": "natus"
+      "TicketId": 638,
+      "TicketStatus": 51,
+      "Title": "consectetur",
+      "Registered": "1997-06-06T10:30:31.9324368+02:00",
+      "IconHint": "molestiae"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 352,
-      "DocumentId": 163,
-      "Date": "2009-12-05T16:55:29.4958341+01:00",
-      "Description": "Proactive local Graphical User Interface",
+      "AppointmentId": 429,
+      "DocumentId": 464,
+      "Date": "2000-03-08T10:30:31.9324368+01:00",
+      "Description": "Synchronised logistical alliance",
       "Completed": "Completed",
-      "Registered": "2021-12-28T16:55:29.4958341+01:00"
+      "Registered": "2007-07-27T10:30:31.9324368+02:00"
     },
     {
-      "AppointmentId": 352,
-      "DocumentId": 163,
-      "Date": "2009-12-05T16:55:29.4958341+01:00",
-      "Description": "Proactive local Graphical User Interface",
+      "AppointmentId": 429,
+      "DocumentId": 464,
+      "Date": "2000-03-08T10:30:31.9324368+01:00",
+      "Description": "Synchronised logistical alliance",
       "Completed": "Completed",
-      "Registered": "2021-12-28T16:55:29.4958341+01:00"
+      "Registered": "2007-07-27T10:30:31.9324368+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 96,
-      "DocumentId": 683,
-      "Date": "2016-11-29T16:55:29.4958341+01:00",
-      "Description": "Programmable context-sensitive knowledge user",
+      "AppointmentId": 442,
+      "DocumentId": 699,
+      "Date": "2021-04-15T10:30:31.9324368+02:00",
+      "Description": "Phased logistical synergy",
       "Completed": "Completed",
-      "Registered": "2009-11-30T16:55:29.4958341+01:00"
+      "Registered": "2013-12-24T10:30:31.9324368+01:00"
     },
     {
-      "AppointmentId": 96,
-      "DocumentId": 683,
-      "Date": "2016-11-29T16:55:29.4958341+01:00",
-      "Description": "Programmable context-sensitive knowledge user",
+      "AppointmentId": 442,
+      "DocumentId": 699,
+      "Date": "2021-04-15T10:30:31.9324368+02:00",
+      "Description": "Phased logistical synergy",
       "Completed": "Completed",
-      "Registered": "2009-11-30T16:55:29.4958341+01:00"
+      "Registered": "2013-12-24T10:30:31.9324368+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 385,
-      "SaleDate": "2004-08-14T16:55:29.4958341+02:00",
-      "Probability": 343,
-      "Heading": "qui",
-      "Amount": 21806.372,
-      "Currency": "ullam",
-      "AmountInBaseCurrency": 1576.402,
+      "SaleId": 256,
+      "SaleDate": "2021-06-10T10:30:31.9324368+02:00",
+      "Probability": 146,
+      "Heading": "odio",
+      "Amount": 25206.762,
+      "Currency": "quisquam",
+      "AmountInBaseCurrency": 1905.472,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2012-11-25T16:55:29.4958341+01:00"
+      "Registered": "2023-12-16T10:30:31.9324368+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 568,
-      "Name": "Homenick, Larkin and Fay",
-      "CompanyName": "Kshlerin Group",
-      "FirstMessage": "delectus",
-      "LastMessage": "numquam",
-      "WhenRequested": "2017-11-26T16:55:29.4958341+01:00",
-      "WhenEnded": "2000-01-03T16:55:29.4958341+01:00"
+      "ChatSessionId": 800,
+      "Name": "Kling, Bogisich and Boyle",
+      "CompanyName": "Fay, Mitchell and Renner",
+      "FirstMessage": "quidem",
+      "LastMessage": "architecto",
+      "WhenRequested": "2018-06-05T10:30:31.9324368+02:00",
+      "WhenEnded": "2004-04-29T10:30:31.9324368+02:00"
     }
   ]
 }

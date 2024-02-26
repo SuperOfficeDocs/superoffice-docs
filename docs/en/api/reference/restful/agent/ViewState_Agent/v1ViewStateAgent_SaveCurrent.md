@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 774,
-  "Id": 33,
-  "HistoryName": "Wuckert, Schultz and White",
-  "HistoryId": 170,
-  "AssociateId": 540,
-  "Name": "Christiansen, Mayert and Ledner",
-  "ItemInfo": "delectus",
+  "Rank": 886,
+  "Id": 406,
+  "HistoryName": "Thompson-Tremblay",
+  "HistoryId": 68,
+  "AssociateId": 490,
+  "Name": "Fadel, Howe and Zulauf",
+  "ItemInfo": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldType": "System.String",
+      "FieldLength": 491
     }
   }
 }

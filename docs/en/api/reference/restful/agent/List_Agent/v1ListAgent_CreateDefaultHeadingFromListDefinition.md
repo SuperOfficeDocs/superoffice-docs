@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 563
+  "UdListDefinitionId": 903
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 318,
-  "Name": "Moen, Langosh and Reichert",
-  "Tooltip": "error",
+  "HeadingId": 732,
+  "Name": "Bode-Green",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 198,
-  "UdListDefinitionId": 591,
+  "Rank": 408,
+  "UdListDefinitionId": 49,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 543
     }
   }
 }

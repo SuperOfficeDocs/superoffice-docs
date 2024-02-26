@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "King, Ritchie and Medhurst",
-  "Tooltip": "quasi",
-  "Deleted": false,
-  "UdListDefinitionId": 439,
-  "Rank": 378
+  "Id": 521,
+  "Name": "Kshlerin-Yost",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 10,
+  "Rank": 805
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 598,
-  "Name": "Gislason-Hand",
-  "Tooltip": "occaecati",
+  "Id": 512,
+  "Name": "Harber Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 637,
-  "Rank": 474,
+  "UdListDefinitionId": 369,
+  "Rank": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

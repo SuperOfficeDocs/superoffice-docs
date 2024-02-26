@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Kirlin Group",
-    "Tooltip": "fugit",
-    "Deleted": true,
-    "UdListDefinitionId": 890,
-    "Rank": 629,
+    "Id": 339,
+    "Name": "Lesch-Nader",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 781,
+    "Rank": 643,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 477
       }
     }
   }

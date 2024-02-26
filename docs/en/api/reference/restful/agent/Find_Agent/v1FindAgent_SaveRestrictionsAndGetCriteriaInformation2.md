@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "inventore",
-  "ProviderName": "Morissette Group",
-  "StorageKey": "maiores",
-  "Restrictions": "est",
-  "StaticColumns": "voluptas"
+  "StorageType": "dignissimos",
+  "ProviderName": "Bins, Reilly and Hegmann",
+  "StorageKey": "et",
+  "Restrictions": "sit",
+  "StaticColumns": "quia"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kozey, Bailey and Johnston",
-      "Operator": "placeat",
+      "Name": "Deckow-Wolf",
+      "Operator": "ut",
       "Values": [
-        "doloremque",
-        "soluta"
+        "natus",
+        "corrupti"
       ],
       "DisplayValues": [
-        "nam",
-        "harum"
+        "earum",
+        "nihil"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 290,
+      "InterParenthesis": 284,
       "InterOperator": "And",
-      "UniqueHash": 770
+      "UniqueHash": 499
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Quigley, Hagenes and Wintheiser",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "debitis",
-      "CanOrderBy": false,
-      "Name": "Effertz Group",
+      "DisplayName": "Beer Inc and Sons",
+      "DisplayTooltip": "quasi",
+      "DisplayType": "quos",
+      "CanOrderBy": true,
+      "Name": "Lynch-Carroll",
       "CanRestrictBy": false,
       "RestrictionType": "mollitia",
-      "RestrictionListName": "Jacobs-Baumbach",
+      "RestrictionListName": "Greenfelder, Rosenbaum and Kihn",
       "IsVisible": true,
-      "ExtraInfo": "in",
-      "Width": "error",
-      "IconHint": "illum",
-      "HeadingIconHint": "mollitia"
+      "ExtraInfo": "ea",
+      "Width": "rerum",
+      "IconHint": "magnam",
+      "HeadingIconHint": "ut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Friesen LLC",
-      "PrimaryKey": 94,
+      "EntityName": "Windler-Kertzmann",
+      "PrimaryKey": 996,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "mollitia",
-          "TooltipHint": "tenetur",
-          "LinkHint": "modi"
+          "DisplayValue": "aut",
+          "TooltipHint": "alias",
+          "LinkHint": "ipsa"
         }
       },
-      "LinkHint": "nam",
+      "LinkHint": "rerum",
       "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldType": "System.String",
+          "FieldLength": 956
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schiller, Runte and Smith",
-      "Description": "Multi-lateral neutral hardware",
-      "Rank": 637,
+      "Name": "Murray-Nolan",
+      "Description": "Multi-lateral systemic toolset",
+      "Rank": 343,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schiller, Runte and Smith",
-      "Description": "Multi-lateral neutral hardware",
-      "Rank": 637,
+      "Name": "Murray-Nolan",
+      "Description": "Multi-lateral systemic toolset",
+      "Rank": 343,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 458
     }
   }
 }

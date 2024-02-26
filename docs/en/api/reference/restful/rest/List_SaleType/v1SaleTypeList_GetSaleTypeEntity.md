@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 319,
-  "Name": "Keeling, Langworth and Olson",
-  "Tooltip": "est",
-  "Rank": 333,
+  "SaleTypeId": 618,
+  "Name": "Feest Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 732,
   "DurationUnit": "Century",
-  "SaleDuration": 494,
-  "SaleTypeCatId": 185,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 253,
+  "SaleTypeCatId": 425,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 455,
-  "QuoteLinesTemplate": 148,
-  "ConfirmationLinesTemplate": 966,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 309,
-  "MinEarningPercent": 557,
-  "GroupQuoteLinesBy": 134,
-  "SortGroupLinesBy": 241,
+  "DefaultQuoteValidity": 799,
+  "QuoteLinesTemplate": 135,
+  "ConfirmationLinesTemplate": 607,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 681,
+  "MinEarningPercent": 733,
+  "GroupQuoteLinesBy": 159,
+  "SortGroupLinesBy": 270,
   "Stages": [
     {
-      "Id": 187,
-      "Name": "Connelly, Bailey and Ritchie",
-      "ToolTip": "Quidem ut libero.",
+      "Id": 951,
+      "Name": "Schimmel Group",
+      "ToolTip": "Consequatur quam sequi voluptatem.",
       "Deleted": true,
-      "Rank": 408,
-      "Type": "iste",
-      "ColorBlock": 235,
-      "IconHint": "adipisci",
-      "Selected": false,
-      "LastChanged": "1997-11-01T16:55:31.0621865+01:00",
+      "Rank": 498,
+      "Type": "velit",
+      "ColorBlock": 58,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2015-07-31T10:30:33.2412121+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "delectus",
-      "StyleHint": "nesciunt",
-      "Hidden": true,
-      "FullName": "Prof. Sherwood Mohr",
+      "ExtraInfo": "quis",
+      "StyleHint": "similique",
+      "Hidden": false,
+      "FullName": "Annamae Hartmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 53
+          "FieldType": "System.Int32",
+          "FieldLength": 27
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 693
     }
   }
 }

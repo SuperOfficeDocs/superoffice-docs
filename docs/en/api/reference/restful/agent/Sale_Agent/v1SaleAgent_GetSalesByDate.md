@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2017-11-18T16:54:56.2585204+01:00",
-  "ToDate": "2012-10-22T16:54:56.2585204+02:00",
-  "AmountLimit": 599,
+  "FromDate": "2010-06-21T10:30:24.5283735+02:00",
+  "ToDate": "2008-04-10T10:30:24.5283735+02:00",
+  "AmountLimit": 693,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hilpert-DuBuque",
-    "SaleDate": "2007-09-17T16:54:56.2595203+02:00",
-    "SaleId": 683,
-    "Probability": 199,
-    "Title": "distinctio",
-    "Amount": 18358.971999999998,
-    "Currency": "sequi",
-    "ProjectName": "Cronin, Nader and Mayer",
-    "AssociateFullName": "Brown Ebert",
-    "Description": "Intuitive modular ability",
+    "ContactName": "Swift-Connelly",
+    "SaleDate": "1996-10-01T10:30:24.5283735+02:00",
+    "SaleId": 812,
+    "Probability": 688,
+    "Title": "necessitatibus",
+    "Amount": 12232.002,
+    "Currency": "quasi",
+    "ProjectName": "Davis LLC",
+    "AssociateFullName": "Vinnie Jenkins",
+    "Description": "Organic needs-based open architecture",
     "Status": "Lost",
-    "WeightedAmount": 4237.168,
-    "ProjectId": 713,
-    "EarningPercent": 27290.872,
-    "Earning": 13400.984,
-    "ContactId": 536,
-    "AssociateId": 56,
-    "PersonId": 77,
-    "SaleTypeId": 105,
-    "SaleTypeName": "Abbott-Towne",
-    "PersonFullName": "Ms. Aiyana Harber",
+    "WeightedAmount": 1357.022,
+    "ProjectId": 662,
+    "EarningPercent": 22461.378,
+    "Earning": 7261.478,
+    "ContactId": 761,
+    "AssociateId": 551,
+    "PersonId": 644,
+    "SaleTypeId": 576,
+    "SaleTypeName": "Stanton LLC",
+    "PersonFullName": "Dr. Cynthia Thiel II",
     "Completed": "Completed",
-    "ActiveErpLinks": 681,
-    "NextDueDate": "2020-02-26T16:54:56.2595203+01:00",
-    "Number": "980231",
+    "ActiveErpLinks": 941,
+    "NextDueDate": "1998-03-19T10:30:24.5283735+01:00",
+    "Number": "373423",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldType": "System.String",
+        "FieldLength": 77
       }
     }
   }

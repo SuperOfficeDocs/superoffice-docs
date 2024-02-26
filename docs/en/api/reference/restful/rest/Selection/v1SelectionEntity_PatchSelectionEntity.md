@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "in",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots heuristic definition",
-  "Postit": "sapiente",
+  "Description": "Enterprise-wide 24 hour encryption",
+  "Postit": "magni",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 274,
-  "IncludePerson": 44,
-  "MemberCount": 35,
-  "Name": "Bartoletti-Murphy",
-  "PostitTextId": 323,
-  "CreatedDate": "2017-01-18T16:55:30.1330407+01:00",
-  "SelectionId": 587,
-  "SoundEx": "eveniet",
-  "Source": 470,
-  "TextId": 824,
-  "UpdatedDate": "1998-04-19T16:55:30.1330407+02:00",
-  "UpdatedCount": 52,
-  "Visibility": 728,
+  "GroupIdx": 537,
+  "IncludePerson": 9,
+  "MemberCount": 12,
+  "Name": "Hintz-Kutch",
+  "PostitTextId": 550,
+  "CreatedDate": "2008-01-11T10:30:32.4968779+01:00",
+  "SelectionId": 530,
+  "SoundEx": "aspernatur",
+  "Source": 610,
+  "TextId": 116,
+  "UpdatedDate": "2012-08-08T10:30:32.4968779+02:00",
+  "UpdatedCount": 413,
+  "Visibility": 127,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 629,
-  "TargetTableName": "Zboncak LLC",
+  "TargetTableNumber": 636,
+  "TargetTableName": "Satterfield Group",
   "Completed": false,
-  "LeftSelectionId": 238,
-  "RightSelectionId": 63,
+  "LeftSelectionId": 124,
+  "RightSelectionId": 796,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Pacocha, Parisian and Herzog",
-  "ShadowProviderName": "Bashirian-Rohan",
-  "ChartKey": "dolores",
-  "LastLoaded": "2004-03-17T16:55:30.1330407+01:00",
-  "LastLoadedBy": 463,
+  "MainProviderName": "Gerhold, Hegmann and Flatley",
+  "ShadowProviderName": "Bode-Roob",
+  "ChartKey": "occaecati",
+  "LastLoaded": "2011-11-18T10:30:32.4968779+01:00",
+  "LastLoadedBy": 422,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-11-29T16:55:30.1330407+01:00",
-  "LastMembershipChangeBy": 3,
+  "LastMembershipChange": "1999-12-09T10:30:32.4968779+01:00",
+  "LastMembershipChangeBy": 259,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Thiel, Greenholt and Rolfson",
-  "DashboardTileDefinitionId": 409,
+  "MainHeading": "exercitationem",
+  "MemberTabHeading": "nisi",
+  "MailingsProviderName": "Rolfson-Rau",
+  "DashboardTileDefinitionId": 759,
   "VisibleFor": [
     {
-      "VisibleId": 652,
+      "VisibleId": 879,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 314
+          "FieldLength": 626
         }
       }
     },
     {
-      "VisibleId": 652,
+      "VisibleId": 879,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 314
+          "FieldLength": 626
         }
       }
     }
@@ -244,13 +244,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 437
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

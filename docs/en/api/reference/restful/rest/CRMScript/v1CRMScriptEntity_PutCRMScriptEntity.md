@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 499,
-  "UniqueIdentifier": "ex",
-  "Name": "VonRueden Inc and Sons",
-  "Description": "Reactive directional encoding",
-  "IncludeId": "aliquid",
-  "HierarchyId": 432,
-  "Source": "accusantium",
-  "Registered": "2016-11-30T16:55:29.5298322+01:00",
-  "RegisteredAssociateId": 655,
-  "Updated": "1997-08-31T16:55:29.5298322+02:00",
-  "UpdatedAssociateId": 80
+  "EjscriptId": 643,
+  "UniqueIdentifier": "quae",
+  "Name": "Pfannerstill-Kirlin",
+  "Description": "Implemented intangible strategy",
+  "IncludeId": "perferendis",
+  "HierarchyId": 847,
+  "Source": "aut",
+  "Registered": "2000-04-13T10:30:31.9636795+02:00",
+  "RegisteredAssociateId": 971,
+  "Updated": "2015-11-28T10:30:31.9636795+01:00",
+  "UpdatedAssociateId": 736
 }
 ```
 
@@ -126,23 +126,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 375,
-  "UniqueIdentifier": "delectus",
-  "Name": "Eichmann-Corwin",
-  "Description": "Cross-group 4th generation hardware",
-  "IncludeId": "quaerat",
-  "HierarchyId": 302,
-  "Source": "cumque",
-  "Registered": "2021-11-14T16:55:29.5298322+01:00",
-  "RegisteredAssociateId": 258,
-  "Updated": "2011-05-14T16:55:29.5298322+02:00",
-  "UpdatedAssociateId": 162,
+  "EjscriptId": 358,
+  "UniqueIdentifier": "esse",
+  "Name": "Russel-Hickle",
+  "Description": "Cloned neutral service-desk",
+  "IncludeId": "aperiam",
+  "HierarchyId": 65,
+  "Source": "voluptates",
+  "Registered": "2009-02-13T10:30:31.9636795+01:00",
+  "RegisteredAssociateId": 712,
+  "Updated": "1997-12-03T10:30:31.9636795+01:00",
+  "UpdatedAssociateId": 727,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 181
     }
   },
   "_Links": {

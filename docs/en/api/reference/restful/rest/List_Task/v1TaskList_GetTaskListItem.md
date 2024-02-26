@@ -84,16 +84,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 81,
-  "Value": "dolorem",
+  "TaskListItemId": 288,
+  "Value": "incidunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "est",
-  "Deleted": false,
-  "IntentId": 498,
-  "Rank": 543,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "Tooltip": "et",
+  "Deleted": true,
+  "IntentId": 72,
+  "Rank": 650,
+  "IsDefaultAlldayEvent": true,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   }
 }

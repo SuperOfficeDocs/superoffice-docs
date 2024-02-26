@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 735,
+  "PersonId": 737,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cormier-Herman",
-    "SaleDate": "2009-09-14T16:54:56.2635208+02:00",
-    "SaleId": 848,
-    "Probability": 477,
-    "Title": "enim",
-    "Amount": 2021.4299999999998,
-    "Currency": "eligendi",
-    "ProjectName": "Leannon, Cummerata and Purdy",
-    "AssociateFullName": "Ursula Franecki",
-    "Description": "Synergized background capability",
+    "ContactName": "Ortiz Inc and Sons",
+    "SaleDate": "2013-02-02T10:30:24.5439994+01:00",
+    "SaleId": 6,
+    "Probability": 365,
+    "Title": "quae",
+    "Amount": 15463.155999999999,
+    "Currency": "at",
+    "ProjectName": "Blanda Inc and Sons",
+    "AssociateFullName": "Citlalli Wilson Bruen DDS",
+    "Description": "Programmable intermediate algorithm",
     "Status": "Lost",
-    "WeightedAmount": 13335.17,
-    "ProjectId": 531,
-    "EarningPercent": 1758.174,
-    "Earning": 25169.154,
-    "ContactId": 145,
-    "AssociateId": 771,
-    "PersonId": 321,
-    "SaleTypeId": 677,
-    "SaleTypeName": "Barton Group",
-    "PersonFullName": "Dean Schulist",
+    "WeightedAmount": 31252.248,
+    "ProjectId": 360,
+    "EarningPercent": 9815.688,
+    "Earning": 31020.332,
+    "ContactId": 791,
+    "AssociateId": 816,
+    "PersonId": 890,
+    "SaleTypeId": 108,
+    "SaleTypeName": "Eichmann, Wehner and Armstrong",
+    "PersonFullName": "Prof. Lucius Shanahan DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 732,
-    "NextDueDate": "2008-05-27T16:54:56.2635208+02:00",
-    "Number": "949226",
+    "ActiveErpLinks": 377,
+    "NextDueDate": "2022-10-21T10:30:24.5439994+02:00",
+    "Number": "1061665",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 353
       }
     }
   }

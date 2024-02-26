@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 01 Jul 1998 16:55:29 G7T
+Last-Modified: Sat, 05 Sep 2015 10:30:32 G9T
 
 {
-  "BlobId": 431,
-  "BlobSize": 993,
-  "Description": "Compatible maximized migration",
-  "ExtraInfo": "voluptatem",
+  "BlobId": 630,
+  "BlobSize": 3,
+  "Description": "User-centric real-time info-mediaries",
+  "ExtraInfo": "placeat",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 532,
-  "CreatedDate": "1999-10-13T16:55:29.9718981+02:00",
-  "UpdatedDate": "1998-07-01T16:55:29.9718981+02:00",
+  "MimeType": "earum",
+  "OriginalSize": 264,
+  "CreatedDate": "2018-01-25T10:30:32.2449231+01:00",
+  "UpdatedDate": "2015-09-05T10:30:32.2449231+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quae",
+  "ConceptualType": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 22
     }
   }
 }

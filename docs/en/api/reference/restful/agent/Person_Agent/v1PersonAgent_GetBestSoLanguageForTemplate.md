@@ -73,8 +73,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 696,
-  "TemplateId": 300
+  "PersonId": 647,
+  "TemplateId": 587
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rerum"
+"laborum"
 ```

@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "nisi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "nisi",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 873,
-  "ERPPriceListKey": "dolorem",
-  "QuoteConnectionId": 173,
-  "Name": "Leffler LLC",
-  "Description": "Diverse transitional forecast",
-  "Currency": "quo",
-  "CurrencyName": "Erdman, Windler and McClure",
-  "ValidFrom": "2022-02-27T16:55:30.7771756+01:00",
-  "ValidTo": "2009-01-04T16:55:30.7771756+01:00",
-  "IsActive": false,
+  "PriceListId": 608,
+  "ERPPriceListKey": "omnis",
+  "QuoteConnectionId": 841,
+  "Name": "Kunze, Mante and Beatty",
+  "Description": "Quality-focused homogeneous structure",
+  "Currency": "autem",
+  "CurrencyName": "Walsh, Hermiston and Heaney",
+  "ValidFrom": "2013-03-19T10:30:33.0849147+01:00",
+  "ValidTo": "2000-04-19T10:30:33.0849147+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 23
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

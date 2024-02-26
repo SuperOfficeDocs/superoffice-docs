@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -132,62 +132,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 387,
+  "EjMessageId": 814,
   "Ticket": null,
-  "CreatedAt": "2003-07-13T16:55:30.2919076+02:00",
+  "CreatedAt": "2023-08-06T10:30:32.6230979+02:00",
   "CreatedBy": null,
-  "Author": "quas",
+  "Author": "veritatis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "similique",
-  "TimeSpent": 772,
-  "Body": "voluptatem",
-  "HtmlBody": "laboriosam",
-  "EmailHeader": "maryse@gerlach.name",
-  "DebugInfo": "optio",
-  "MailSorter": "quis",
+  "MessageId": "qui",
+  "TimeSpent": 68,
+  "Body": "nesciunt",
+  "HtmlBody": "nemo",
+  "EmailHeader": "clovis@herman.us",
+  "DebugInfo": "nemo",
+  "MailSorter": "nihil",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptas",
+  "SearchTitle": "fugit",
   "MessageHeaders": [
     {
-      "Id": 211,
-      "Name": "Nienow Group",
-      "Value": "porro",
+      "Id": 162,
+      "Name": "Kessler-Pollich",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 211,
-      "Name": "Nienow Group",
-      "Value": "porro",
+      "Id": 162,
+      "Name": "Kessler-Pollich",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "nihil",
-  "Sentiment": 624,
-  "SentimentConfidence": 57,
+  "Important": false,
+  "Language": "fugiat",
+  "Sentiment": 147,
+  "SentimentConfidence": 307,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 355,
-      "Name": "Hintz LLC",
-      "ContentType": "cumque",
-      "AttSize": 662,
+      "AttachmentId": 391,
+      "Name": "Larson, Lubowitz and Heathcote",
+      "ContentType": "deserunt",
+      "AttSize": 571,
       "InlineImage": false,
-      "ContentId": "quas",
-      "AuthKey": "nihil"
+      "ContentId": "possimus",
+      "AuthKey": "nam",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "tenetur"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "officiis"
+    "CustomFields1": "cumque",
+    "CustomFields2": "accusantium"
   }
 }
 ```
@@ -199,78 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 563,
+  "EjMessageId": 873,
   "Ticket": null,
-  "CreatedAt": "2022-04-21T16:55:30.2978163+02:00",
+  "CreatedAt": "2001-08-14T10:30:32.638722+02:00",
   "CreatedBy": null,
-  "Author": "ratione",
+  "Author": "error",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 916,
-  "Body": "vitae",
-  "HtmlBody": "laboriosam",
-  "EmailHeader": "heidi@smitham.info",
-  "DebugInfo": "aspernatur",
-  "MailSorter": "unde",
+  "MessageId": "occaecati",
+  "TimeSpent": 125,
+  "Body": "necessitatibus",
+  "HtmlBody": "tempore",
+  "EmailHeader": "samanta.jaskolski@bayer.name",
+  "DebugInfo": "ut",
+  "MailSorter": "vel",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reprehenderit",
+  "SearchTitle": "unde",
   "MessageHeaders": [
     {
-      "Id": 161,
-      "Name": "McKenzie Group",
-      "Value": "ducimus",
+      "Id": 597,
+      "Name": "Jones, Herzog and Kulas",
+      "Value": "vero",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 15
+          "FieldType": "System.String",
+          "FieldLength": 985
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "autem",
-  "Sentiment": 15,
-  "SentimentConfidence": 57,
+  "Important": true,
+  "Language": "aut",
+  "Sentiment": 680,
+  "SentimentConfidence": 800,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 746,
-      "Name": "Wolf Group",
-      "ContentType": "sit",
-      "AttSize": 20,
-      "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "explicabo",
+      "AttachmentId": 750,
+      "Name": "Carter Inc and Sons",
+      "ContentType": "laborum",
+      "AttSize": 39,
+      "InlineImage": true,
+      "ContentId": "fuga",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldType": "System.String",
+          "FieldLength": 870
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "nulla"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 232
     }
   }
 }

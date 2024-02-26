@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "perspiciatis",
+    "path": "inventore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "perspiciatis",
+    "path": "inventore",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 674,
-  "Name": "Renner Inc and Sons",
-  "Tooltip": "expedita",
-  "PassiveText": "quidem",
-  "Deleted": true,
-  "Rank": 334,
+  "ReldefId": 48,
+  "Name": "Yost LLC",
+  "Tooltip": "deserunt",
+  "PassiveText": "aut",
+  "Deleted": false,
+  "Rank": 431,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldLength": 423
     }
   },
   "_Links": {

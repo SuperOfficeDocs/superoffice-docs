@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 904
+  "QuoteVersionId": 398
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 710,
-  "ERPQuoteVersionKey": "qui",
-  "QuoteId": 373,
-  "Description": "Cross-platform human-resource knowledge base",
-  "Number": "153694",
+  "QuoteVersionId": 466,
+  "ERPQuoteVersionKey": "mollitia",
+  "QuoteId": 516,
+  "Description": "Automated eco-centric implementation",
+  "Number": "601786",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "facilitate value-added networks",
-  "LikelyQuoteAlternativeId": 467,
-  "SentDate": "1997-09-04T16:54:56.096147+02:00",
-  "FollowupId": 41,
-  "ExpirationDate": "2011-03-15T16:54:56.096147+01:00",
-  "DeliveryCountryId": 900,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 62,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 230,
+  "SentDate": "2007-02-16T10:30:24.3877082+01:00",
+  "FollowupId": 853,
+  "ExpirationDate": "2002-01-29T10:30:24.3877082+01:00",
+  "DeliveryCountryId": 577,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 48,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "facere",
-  "ERPPaymentTypeKey": "eaque",
-  "ERPDeliveryTermsKey": "voluptatem",
-  "ERPDeliveryTypeKey": "inventore",
-  "Rank": 469,
-  "ApprovedBy": 421,
-  "ApprovedText": "autem",
-  "ApprovedRegisteredBy": 521,
-  "ApprovedRegisteredDate": "2002-07-15T16:54:56.096147+02:00",
-  "ExtraField1": "quo",
-  "ExtraField2": "provident",
-  "ExtraField3": "debitis",
-  "ExtraField4": "deserunt",
-  "ExtraField5": "sit",
-  "LastRecalculated": "2006-01-12T16:54:56.0971559+01:00",
-  "Updated": "2009-06-13T16:54:56.0971559+02:00",
-  "UpdatedAssociateId": 578,
-  "Registered": "2022-09-09T16:54:56.0971559+02:00",
-  "RegisteredAssociateId": 941,
-  "RequestAssociateId": 125,
-  "RequestComment": "eum",
+  "ERPPaymentTermsKey": "laboriosam",
+  "ERPPaymentTypeKey": "dicta",
+  "ERPDeliveryTermsKey": "ad",
+  "ERPDeliveryTypeKey": "non",
+  "Rank": 258,
+  "ApprovedBy": 858,
+  "ApprovedText": "magni",
+  "ApprovedRegisteredBy": 384,
+  "ApprovedRegisteredDate": "2020-04-28T10:30:24.3877082+02:00",
+  "ExtraField1": "aliquid",
+  "ExtraField2": "quia",
+  "ExtraField3": "ullam",
+  "ExtraField4": "repellendus",
+  "ExtraField5": "et",
+  "LastRecalculated": "1999-07-19T10:30:24.3877082+02:00",
+  "Updated": "2013-08-06T10:30:24.3877082+02:00",
+  "UpdatedAssociateId": 536,
+  "Registered": "2001-05-13T10:30:24.3877082+02:00",
+  "RegisteredAssociateId": 915,
+  "RequestAssociateId": 90,
+  "RequestComment": "et",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 412,
-      "ERPQuoteAlternativeKey": "natus",
-      "QuoteVersionId": 215,
-      "Name": "Okuneva, Gutmann and Bednar",
-      "Description": "Organic heuristic groupware",
+      "QuoteAlternativeId": 809,
+      "ERPQuoteAlternativeKey": "eos",
+      "QuoteVersionId": 298,
+      "Name": "Hegmann Group",
+      "Description": "Team-oriented maximized artificial intelligence",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 22336.018,
-      "ERPDiscountAmount": 9405.134,
-      "DiscountPercent": 23404.712,
-      "DiscountAmount": 12583.01,
+      "ERPDiscountPercent": 28334.494,
+      "ERPDiscountAmount": 24266.561999999998,
+      "DiscountPercent": 12329.155999999999,
+      "DiscountAmount": 12761.648,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ut",
-      "VAT": 25501.358,
-      "EarningPercent": 10307.726,
-      "EarningAmount": 25341.523999999998,
-      "SubTotal": 19361.852,
-      "TotalPrice": 8019.906,
-      "ExtraField1": "maxime",
-      "ExtraField2": "est",
-      "ExtraField3": "dolorem",
-      "ExtraField4": "praesentium",
-      "ExtraField5": "molestiae",
+      "VATInfo": "aperiam",
+      "VAT": 1231.662,
+      "EarningPercent": 16713.622,
+      "EarningAmount": 10332.797999999999,
+      "SubTotal": 20320.856,
+      "TotalPrice": 20847.368,
+      "ExtraField1": "aut",
+      "ExtraField2": "non",
+      "ExtraField3": "et",
+      "ExtraField4": "nisi",
+      "ExtraField5": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 743
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   }
 }

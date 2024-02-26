@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Denesik, Grimes and Dickens",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "Rank": 513,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 260,
+  "Name": "Welch-Hegmann",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "Rank": 395,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ipsum",
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldType": "System.Int32",
+      "FieldLength": 275
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

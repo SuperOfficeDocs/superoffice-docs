@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 23 Aug 2019 16:55:30 G8T
+Last-Modified: Wed, 11 Jan 2017 10:30:32 G1T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Fri, 23 Aug 2019 16:55:30 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "animi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Fri, 23 Aug 2019 16:55:30 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-11-06T16:55:30.0576141+01:00",
-  "Amount": 10116.552,
-  "SaleId": 476,
-  "Earning": 5409.284,
-  "EarningPercent": 5236.914,
-  "Heading": "dolorum",
-  "Number": "484797",
-  "Probability": 20,
-  "CreatedDate": "2020-02-26T16:55:30.0576141+01:00",
-  "UpdatedDate": "2019-08-23T16:55:30.0576141+02:00",
+  "Saledate": "2003-08-22T10:30:32.4343852+02:00",
+  "Amount": 24138.068,
+  "SaleId": 98,
+  "Earning": 8565.222,
+  "EarningPercent": 394.884,
+  "Heading": "ut",
+  "Number": "981506",
+  "Probability": 203,
+  "CreatedDate": "2005-02-05T10:30:32.4343852+01:00",
+  "UpdatedDate": "2017-01-11T10:30:32.4343852+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 240,
+  "ActiveLinks": 396,
   "Links": [
     {
-      "EntityName": "O'Conner Group",
-      "Id": 396,
-      "Description": "Reduced contextually-based benchmark",
-      "ExtraInfo": "aspernatur",
-      "LinkId": 396,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2017-09-27T16:55:30.0576141+02:00",
-  "Postit": "et",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2003-09-08T16:55:30.0576141+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Bosco LLC",
-      "Comment": "vel",
-      "StakeholderRoleId": 686,
-      "CountryId": 376,
-      "PersonId": 967,
-      "EmailDescription": "clay_franecki@reingergibson.biz",
-      "EmailId": 269,
-      "EmailAddress": "daren_heaney@hettinger.biz",
-      "PhoneId": 742,
-      "ContactName": "Schneider, Schaefer and Bartoletti",
-      "ContactId": 993,
-      "SaleId": 135,
-      "Mrmrs": "tempore",
-      "Firstname": "Nya",
-      "MiddleName": "Champlin, Johns and Hoppe",
-      "Lastname": "Brekke",
-      "SaleStakeholderId": 412,
-      "Rank": 559,
-      "Phone": "1-220-478-5889",
+      "EntityName": "Gutkowski, Shanahan and Smitham",
+      "Id": 392,
+      "Description": "User-centric systematic ability",
+      "ExtraInfo": "sapiente",
+      "LinkId": 141,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 165
+          "FieldLength": 23
         }
       }
     }
   ],
-  "ActiveErpLinks": 467,
-  "UserDefinedFields": {
-    "SuperOffice:1": "293823316",
-    "SuperOffice:2": "907369287"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "quam"
-  },
-  "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "ad"
-  },
-  "PublishEventDate": "2024-01-03T16:55:30.0585037+01:00",
-  "PublishTo": "2009-02-02T16:55:30.0585037+01:00",
-  "PublishFrom": "1997-04-21T16:55:30.0585037+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2021-06-10T10:30:32.4343852+02:00",
+  "Postit": "ullam",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2018-04-26T10:30:32.4343852+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 401,
-      "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "StakeholderRoleName": "Lubowitz, Cole and Spinka",
+      "Comment": "ratione",
+      "StakeholderRoleId": 583,
+      "CountryId": 226,
+      "PersonId": 993,
+      "EmailDescription": "lambert.mosciski@mraz.ca",
+      "EmailId": 166,
+      "EmailAddress": "hal.shields@gislason.biz",
+      "PhoneId": 320,
+      "ContactName": "Schaefer Inc and Sons",
+      "ContactId": 416,
+      "SaleId": 106,
+      "Mrmrs": "rerum",
+      "Firstname": "Bernadette",
+      "MiddleName": "Brown, Hintz and Ryan",
+      "Lastname": "Russel",
+      "SaleStakeholderId": 384,
+      "Rank": 262,
+      "Phone": "876.115.3671 x407",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 351
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 56,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dr. Josefa Krajcik DVM"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "non",
+    "ExtraFields2": "pariatur"
+  },
+  "CustomFields": {
+    "CustomFields1": "eum",
+    "CustomFields2": "facilis"
+  },
+  "PublishEventDate": "1999-08-28T10:30:32.4343852+02:00",
+  "PublishTo": "1999-08-07T10:30:32.4343852+02:00",
+  "PublishFrom": "2013-05-31T10:30:32.4343852+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 716,
+      "Visibility": "All",
+      "DisplayValue": "magni",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     },
     {
-      "VisibleId": 401,
+      "VisibleId": 716,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     }
@@ -261,12 +261,12 @@ Last-Modified: Fri, 23 Aug 2019 16:55:30 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 980
+      "FieldLength": 797
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

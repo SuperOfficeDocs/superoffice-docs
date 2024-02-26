@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 18,
-    "Name": "Hansen-Ward",
-    "Tooltip": "aliquam",
-    "Rank": 641,
-    "Key": "tempore",
-    "MailTemplateId": 278,
+    "ConsentSourceId": 433,
+    "Name": "Leffler-Hoppe",
+    "Tooltip": "enim",
+    "Rank": 789,
+    "Key": "iste",
+    "MailTemplateId": 197,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldType": "System.String",
+        "FieldLength": 645
       }
     }
   }

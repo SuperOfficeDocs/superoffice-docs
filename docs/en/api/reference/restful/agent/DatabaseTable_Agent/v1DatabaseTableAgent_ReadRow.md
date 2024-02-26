@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Blanda, Lang and Volkman",
-  "Id": 19
+  "TableName": "Schroeder, Swift and Leffler",
+  "Id": 376
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "qui",
-    "Values2": "et"
+    "Values1": "rem",
+    "Values2": "quod"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 874
     }
   }
 }

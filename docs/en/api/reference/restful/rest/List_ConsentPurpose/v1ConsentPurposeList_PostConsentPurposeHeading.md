@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 70,
-  "Name": "Schoen-Beahan",
-  "Tooltip": "omnis",
+  "HeadingId": 198,
+  "Name": "Lubowitz Group",
+  "Tooltip": "iure",
   "Deleted": false,
-  "Rank": 448,
-  "UdListDefinitionId": 457
+  "Rank": 776,
+  "UdListDefinitionId": 915
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 639,
-  "Name": "Morar Inc and Sons",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 850,
-  "UdListDefinitionId": 973,
+  "HeadingId": 355,
+  "Name": "Daugherty, Flatley and Terry",
+  "Tooltip": "debitis",
+  "Deleted": false,
+  "Rank": 533,
+  "UdListDefinitionId": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

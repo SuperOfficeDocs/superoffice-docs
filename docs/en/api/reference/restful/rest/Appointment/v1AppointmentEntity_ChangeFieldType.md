@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 510,
-  "ColumnId": 594,
-  "FieldDefault": "omnis",
-  "FieldHeight": 726,
-  "FieldLabel": "nesciunt",
-  "FieldLeft": 403,
-  "FieldTop": 105,
+  "UDefFieldId": 721,
+  "ColumnId": 253,
+  "FieldDefault": "cumque",
+  "FieldHeight": 427,
+  "FieldLabel": "sunt",
+  "FieldLeft": 599,
+  "FieldTop": 411,
   "FieldType": "Checkbox",
-  "FieldWidth": 392,
-  "FormatMask": "neque",
+  "FieldWidth": 45,
+  "FormatMask": "consectetur",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 364,
-  "LabelLeft": 776,
-  "LabelTop": 771,
-  "LabelWidth": 402,
-  "LastVersionId": 775,
-  "ListTableId": 473,
+  "IsIndexed": true,
+  "LabelHeight": 660,
+  "LabelLeft": 953,
+  "LabelTop": 159,
+  "LabelWidth": 191,
+  "LastVersionId": 1002,
+  "ListTableId": 252,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 1002,
-  "ProgId": "consequatur",
+  "Page1LineNo": 889,
+  "ProgId": "quia",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 252,
-  "TextLength": 888,
-  "Tooltip": "deleniti",
-  "UdefIdentity": 550,
-  "UDListDefinitionId": 673,
+  "ShortLabel": "est",
+  "TabOrder": 988,
+  "TextLength": 299,
+  "Tooltip": "libero",
+  "UdefIdentity": 422,
+  "UDListDefinitionId": 585,
   "Justification": "Center",
-  "Version": 300,
-  "TemplateVariableName": "Considine-Boyle",
-  "HasBeenPublished": true,
-  "MdoListName": "Howe, Mayert and Kuhn",
+  "Version": 575,
+  "TemplateVariableName": "Jones, Hagenes and Haley",
+  "HasBeenPublished": false,
+  "MdoListName": "Jast, Pacocha and Kertzmann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldType": "System.Int32",
+      "FieldLength": 882
     }
   }
 }

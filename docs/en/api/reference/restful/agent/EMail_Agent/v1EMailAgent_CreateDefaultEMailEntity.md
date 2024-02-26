@@ -97,156 +97,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 786,
-      "ContactName": "Hyatt Group",
-      "PersonId": 24,
-      "PersonName": "Langosh-Gutmann",
-      "AssociateId": 837,
-      "Address": "corrupti",
-      "EmailId": 935,
+      "ContactId": 603,
+      "ContactName": "Bartoletti-Beahan",
+      "PersonId": 924,
+      "PersonName": "Turcotte-Bartoletti",
+      "AssociateId": 400,
+      "Address": "quod",
+      "EmailId": 268,
       "DuplicatePersonIds": [
-        520,
-        299
+        661,
+        742
       ],
-      "Name": "Douglas, Stroman and Beatty",
+      "Name": "Douglas-Harris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldType": "System.String",
+          "FieldLength": 697
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 16,
-      "ContactName": "Hermiston, Wintheiser and Mante",
-      "PersonId": 162,
-      "PersonName": "Green-Lesch",
-      "AssociateId": 206,
-      "Address": "facere",
-      "EmailId": 484,
+      "ContactId": 111,
+      "ContactName": "Heaney-Wuckert",
+      "PersonId": 888,
+      "PersonName": "Goodwin-Thiel",
+      "AssociateId": 569,
+      "Address": "ad",
+      "EmailId": 989,
       "DuplicatePersonIds": [
-        10,
-        227
+        587,
+        651
       ],
-      "Name": "Tremblay-Anderson",
+      "Name": "Hermiston Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldType": "System.Int32",
+          "FieldLength": 428
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 223,
-      "ContactName": "Hirthe, Tremblay and Satterfield",
-      "PersonId": 732,
-      "PersonName": "Dickinson LLC",
-      "AssociateId": 710,
-      "Address": "voluptas",
-      "EmailId": 781,
+      "ContactId": 245,
+      "ContactName": "Borer-Fay",
+      "PersonId": 501,
+      "PersonName": "Mosciski-O'Conner",
+      "AssociateId": 769,
+      "Address": "temporibus",
+      "EmailId": 115,
       "DuplicatePersonIds": [
-        405,
-        344
+        999,
+        90
       ],
-      "Name": "Cummerata-VonRueden",
+      "Name": "Feest Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldLength": 184
         }
       }
     }
   ],
-  "Subject": "officiis",
-  "HTMLBody": "voluptatum",
+  "Subject": "velit",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2016-10-29T16:54:55.3394198+02:00",
-  "Size": 532,
+  "Sent": "2006-04-30T10:30:23.7668125+02:00",
+  "Size": 221,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolore",
-  "PlainBody": "in",
+  "MessageID": "voluptatem",
+  "PlainBody": "praesentium",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 133,
+  "ServerId": 540,
   "Attachments": [
     {
-      "Description": "Vision-oriented grid-enabled project",
-      "Filename": "cupiditate",
-      "Size": 95,
-      "Type": "ea",
-      "Encoding": "non",
-      "Id": "molestiae",
-      "Disposition": "omnis",
-      "IsSafeFileExtension": true,
+      "Description": "Balanced zero tolerance help-desk",
+      "Filename": "maiores",
+      "Size": 280,
+      "Type": "odio",
+      "Encoding": "et",
+      "Id": "illo",
+      "Disposition": "voluptatem",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 981
+          "FieldType": "System.Int32",
+          "FieldLength": 628
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "McKenzie, Von and Watsica",
+      "Name": "Dooley Group",
       "Values": [
-        "sunt",
-        "reiciendis"
+        "praesentium",
+        "laudantium"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     },
     {
-      "Name": "McKenzie, Von and Watsica",
+      "Name": "Dooley Group",
       "Values": [
-        "sunt",
-        "reiciendis"
+        "praesentium",
+        "laudantium"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     }
   ],
-  "FolderName": "Stoltenberg Inc and Sons",
-  "EmailItemId": 848,
-  "AccountId": 761,
-  "ReceivedAt": "2016-05-15T16:54:55.3404203+02:00",
+  "FolderName": "Beahan Inc and Sons",
+  "EmailItemId": 59,
+  "AccountId": 854,
+  "ReceivedAt": "2021-12-19T10:30:23.7668125+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-03-20T16:54:55.3404203+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2003-03-04T10:30:23.7668125+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Torphy-Mitchell",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 908,
-  "IsCustomList": true,
+  "Id": 793,
+  "Name": "Pacocha LLC",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "Rank": 659,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
-  "InUseByUserDefinedFields": true,
+  "ListType": "maxime",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 810
     }
   },
   "_Links": {

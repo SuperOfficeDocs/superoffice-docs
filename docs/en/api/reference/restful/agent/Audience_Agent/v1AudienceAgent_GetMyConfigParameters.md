@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 56,
-    "Name": "Pouros-Gutkowski",
-    "Value": "voluptatibus",
-    "CreatedDate": "2020-06-12T16:54:54.5923277+02:00",
-    "UpdatedDate": "2018-03-19T16:54:54.5923277+01:00",
-    "CreatedBy": "aspernatur",
-    "UpdatedBy": "magnam",
+    "AudienceLayoutId": 871,
+    "Name": "Weber, Kreiger and Marks",
+    "Value": "aut",
+    "CreatedDate": "2001-12-23T10:30:23.0826686+01:00",
+    "UpdatedDate": "2019-06-03T10:30:23.0826686+02:00",
+    "CreatedBy": "explicabo",
+    "UpdatedBy": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 08 Nov 2019 16:55:29 G11T
+Last-Modified: Tue, 28 Dec 2021 10:30:32 G12T
 
 {
-  "ForeignAppId": 387,
-  "Name": "Heidenreich Group",
-  "CreatedDate": "1997-01-02T16:55:29.6415332+01:00",
-  "UpdatedDate": "2019-11-08T16:55:29.6415332+01:00",
+  "ForeignAppId": 65,
+  "Name": "Littel, Greenholt and Barrows",
+  "CreatedDate": "2001-03-05T10:30:32.0730519+01:00",
+  "UpdatedDate": "2021-12-28T10:30:32.0730519+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 632,
-      "Name": "Sawayn, Grady and Cormier",
-      "CreatedDate": "2008-02-11T16:55:29.6425416+01:00",
-      "UpdatedDate": "1998-03-03T16:55:29.6425416+01:00",
-      "AssociateFullName": "Deontae Terry",
-      "CreatedBy": "aliquid",
-      "UpdatedBy": "eos",
-      "DeviceIdentifier": "animi",
-      "ForeignAppId": 201,
+      "ForeignDeviceId": 184,
+      "Name": "Sawayn LLC",
+      "CreatedDate": "2000-04-01T10:30:32.0730519+02:00",
+      "UpdatedDate": "1998-02-22T10:30:32.0730519+01:00",
+      "AssociateFullName": "Dr. Carole Huel IV",
+      "CreatedBy": "doloremque",
+      "UpdatedBy": "commodi",
+      "DeviceIdentifier": "amet",
+      "ForeignAppId": 5,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldType": "System.String",
+          "FieldLength": 315
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Fri, 08 Nov 2019 16:55:29 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   },
   "_Links": {

@@ -71,8 +71,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 794,
-  "Tags": "tempore"
+  "AssociateId": 321,
+  "Tags": "laudantium"
 }
 ```
 

@@ -26,6 +26,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personId|int|Contact ID: Database ID of the contact row| x |
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
+|ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
@@ -63,6 +64,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |tags|intArray|Tags: Tags connected to a request| x |
 |ownedBy|ejUser|Owner: The owner of the request| x |
+|createdBy|ejUser|Created by: Created by| x |
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
 |sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -117,12 +119,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |ownedBy/role|listAny|Owner - Role: Role| x |
 |ownedBy/assocName|associate|Owner - User ID: User ID| x |
-|ownedBy/assocTooltip|string|Owner - Description: Description|  |
-|ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/assocTooltip|string|Owner - Description: Description|  |
+|ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |ownedBy/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
@@ -221,12 +223,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |person/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 |person/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
-|person/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
-|person/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
+|person/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |person/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |person/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -325,12 +327,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |person/correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |person/correspondingAssociate/userName|string|User name: User name| x |
 |person/correspondingAssociate/personEmail|string|E-mail| x |
@@ -429,12 +431,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |contact/contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |contact/contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|contact/contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|contact/contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|contact/contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |contact/contactAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |contact/contactAssociate/associateDbId|associate|ID| x |
 |contact/contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -533,12 +535,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |sale/time| *None* |Time: Time|  |
 |sale/type|listAny|Type: Displays the type of an activity| x |
@@ -637,12 +639,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/type|listAny|Project type: Displays the project's type| x |
 |project/status|listAny|Status: Displays the project's status| x |
 |project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
-|project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
-|project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
+|project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |project/icon| *None* |Category: Displays the icon for an activity type| x |
 |project/text|string|Text: Displays a descriptive text for the item| x |
 |project/description|string|Description : Description| x |
@@ -735,7 +737,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=timeToClose,createdBy/firstName,person/restrictionAddress/formattedAddress,person/legalBaseStore,contact/contactUdef/SuperOffice:8
+GET /api/v1/archive/ticketfavourites?$select=createdBy/title,person/restrictionAddress/line1,person/personAssociate/assocTooltip,contact/contactExtra/x_contact_integer,sale/heading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

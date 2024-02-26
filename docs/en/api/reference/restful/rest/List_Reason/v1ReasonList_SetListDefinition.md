@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 813,
-  "Name": "Collier-Stracke",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 347,
-  "IsCustomList": true,
+  "Id": 38,
+  "Name": "Towne-Kuhn",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "Rank": 839,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repellat",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 386,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "hic",
+  "Id": 259,
+  "Name": "Anderson LLC",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 198,
+  "Rank": 824,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   }
 }

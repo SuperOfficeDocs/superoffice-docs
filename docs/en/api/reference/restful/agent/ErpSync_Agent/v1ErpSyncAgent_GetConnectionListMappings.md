@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 141
+  "ErpConnectionId": 792
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Bruen-Thompson",
+      "ErpListName": "Heathcote-Pacocha",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Halvorson-Kub",
-      "ErpFieldId": 282,
+      "ErpActorTypeName": "Berge Inc and Sons",
+      "ErpFieldId": 48,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 947
         }
       }
     }
   ],
-  "ErpConnectionId": 872,
-  "ErpConnectionName": "Sporer-Turner",
+  "ErpConnectionId": 712,
+  "ErpConnectionName": "Mosciski Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 359
     }
   }
 }

@@ -583,7 +583,7 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingSelectionId,mailingAddr/person/personAssociateFullName,mailingAddr/person/personAddress/zip,mailingAddr/person/correspondingAssociate/credentialDisplayValue,mailingAddr/person/isMailingRecipient
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=text,mailingAddr/contact/NumberOfTicketsInPeriod,mailingAddr/contact/LastCompletedActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

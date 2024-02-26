@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 666,
-  "Type": "rerum"
+  "AssociateId": 600,
+  "Type": "odit"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2015-11-18T16:54:56.6797331+01:00",
-    "ValidTo": "2000-12-22T16:54:56.6797331+01:00",
-    "Comment": "rerum",
-    "SecretValue": "mollitia",
-    "PublicValue": "et",
+    "ValidFrom": "2020-04-22T10:30:25.0298296+02:00",
+    "ValidTo": "1999-07-13T10:30:25.0298296+02:00",
+    "Comment": "eum",
+    "SecretValue": "sit",
+    "PublicValue": "doloribus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 526
       }
     }
   }

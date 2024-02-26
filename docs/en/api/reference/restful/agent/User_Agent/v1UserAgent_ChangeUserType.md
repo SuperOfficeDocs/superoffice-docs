@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 125,
-  "Name": "Blick Group",
-  "Rank": 909,
-  "Tooltip": "id",
+  "AssociateId": 87,
+  "Name": "Windler-Kessler",
+  "Rank": 433,
+  "Tooltip": "incidunt",
   "LicenseOwners": [
     {
-      "Name": "Brown Inc and Sons",
-      "Description": "Progressive clear-thinking hardware",
+      "Name": "McDermott-Rutherford",
+      "Description": "Optimized executive info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldType": "System.String",
+          "FieldLength": 801
         }
       }
     },
     {
-      "Name": "Brown Inc and Sons",
-      "Description": "Progressive clear-thinking hardware",
+      "Name": "McDermott-Rutherford",
+      "Description": "Optimized executive info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldType": "System.String",
+          "FieldLength": 801
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "maxime",
-      "Tooltip": "dolorem",
-      "Id": 647,
-      "Rank": 109,
+      "Value": "hic",
+      "Tooltip": "quo",
+      "Id": 366,
+      "Rank": 523,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldLength": 254
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2022-01-08T16:54:56.6092943+01:00",
-  "Lastlogout": "2001-06-27T16:54:56.6092943+02:00",
-  "EjUserId": 773,
-  "RequestSignature": "maxime",
+  "Deleted": true,
+  "Lastlogin": "2005-06-28T10:30:24.9517104+02:00",
+  "Lastlogout": "2013-06-10T10:30:24.9517104+02:00",
+  "EjUserId": 659,
+  "RequestSignature": "cupiditate",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "a",
-      "DisplayValue": "corrupti",
+      "Value": "in",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 556
         }
       }
     },
     {
       "Type": null,
-      "Value": "a",
-      "DisplayValue": "corrupti",
+      "Value": "in",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 556
+        }
+      }
+    }
+  ],
+  "UserName": "Christiansen-Schaden",
+  "TicketCategories": [
+    {
+      "Id": 756,
+      "Name": "Bradtke, Hackett and Cummings",
+      "ToolTip": "Accusamus aspernatur.",
+      "Deleted": true,
+      "Rank": 833,
+      "Type": "aperiam",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "quas",
+      "ColorBlock": 614,
+      "ExtraInfo": "dolores",
+      "StyleHint": "dignissimos",
+      "FullName": "Shanie Schaefer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldLength": 679
         }
       }
     }
   ],
-  "UserName": "Grant, Heathcote and Kozey",
-  "TicketCategories": [
-    {
-      "Id": 394,
-      "Name": "McLaughlin, Harber and Schneider",
-      "ToolTip": "Accusantium quis accusantium repellendus repellat est.",
-      "Deleted": true,
-      "Rank": 110,
-      "Type": "et",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ipsum",
-      "ColorBlock": 761,
-      "ExtraInfo": "porro",
-      "StyleHint": "cum",
-      "FullName": "Marcel Kuphal",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 455
-        }
-      }
-    }
-  ],
-  "NickName": "Dickinson-Pagac",
+  "NickName": "VonRueden Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "doloremque"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "unde",
-    "CustomFields2": "autem"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "fugit"
   },
   "PostSaveCommands": [
     {
-      "Name": "Sauer Group",
-      "DisplayName": "Stoltenberg, Kozey and Donnelly",
-      "Description": "Configurable national ability",
-      "ToolTip": "Molestias dolore suscipit adipisci eum aut.",
+      "Name": "Quigley, Gottlieb and Schaefer",
+      "DisplayName": "Moen-Graham",
+      "Description": "Devolved systematic database",
+      "ToolTip": "Eos mollitia dolorum et qui.",
       "Actions": "Implicit",
-      "ActionData": "totam",
+      "ActionData": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldType": "System.Int32",
+          "FieldLength": 765
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldLength": 913
     }
   }
 }

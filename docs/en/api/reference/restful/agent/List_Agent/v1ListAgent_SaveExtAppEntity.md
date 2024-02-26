@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 218,
-  "Name": "Zboncak LLC",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 406,
-  "Filename": "esse",
-  "Parameters": "tempora",
-  "Workdir": "est",
+  "ExtAppId": 981,
+  "Name": "Lindgren-Hermiston",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "Rank": 688,
+  "Filename": "fugit",
+  "Parameters": "ut",
+  "Workdir": "voluptas",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 253,
-  "WaitToFinish": false,
+  "ShowInStatusBar": true,
+  "Icon": 108,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "non"
+  "Path": "voluptas"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 497,
-  "Name": "Hyatt-Mueller",
+  "ExtAppId": 946,
+  "Name": "Leuschke, Pagac and Braun",
   "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 905,
-  "Filename": "aliquam",
-  "Parameters": "harum",
-  "Workdir": "dolorem",
+  "Deleted": true,
+  "Rank": 156,
+  "Filename": "aut",
+  "Parameters": "asperiores",
+  "Workdir": "voluptatum",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 919,
+  "ShowInStatusBar": false,
+  "Icon": 644,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "consequatur",
+  "Path": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 206
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Kozey Inc and Sons",
-  "Tooltip": "porro",
+  "Id": 148,
+  "Name": "Lind-Conn",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "Rank": 609,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 638,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "a",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 997
     }
   },
   "_Links": {

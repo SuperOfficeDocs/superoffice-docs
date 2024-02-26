@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 06 May 2009 16:55:29 G5T
+Last-Modified: Sat, 19 Dec 2020 10:30:32 G12T
 
 {
-  "ForeignAppId": 796,
-  "Name": "Haag, Terry and Harber",
-  "CreatedDate": "2023-11-15T16:55:29.6485264+01:00",
-  "UpdatedDate": "2009-05-06T16:55:29.6485264+02:00",
+  "ForeignAppId": 932,
+  "Name": "Cummerata LLC",
+  "CreatedDate": "2007-07-13T10:30:32.0730519+02:00",
+  "UpdatedDate": "2020-12-19T10:30:32.0730519+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 938,
-      "Name": "Williamson LLC",
-      "CreatedDate": "2018-05-20T16:55:29.6485264+02:00",
-      "UpdatedDate": "2015-05-23T16:55:29.6485264+02:00",
-      "AssociateFullName": "Vilma Bergnaum",
-      "CreatedBy": "tenetur",
-      "UpdatedBy": "vero",
-      "DeviceIdentifier": "ab",
-      "ForeignAppId": 939,
+      "ForeignDeviceId": 973,
+      "Name": "Braun Group",
+      "CreatedDate": "2013-09-24T10:30:32.0730519+02:00",
+      "UpdatedDate": "2007-02-04T10:30:32.0730519+01:00",
+      "AssociateFullName": "Heather Jerde",
+      "CreatedBy": "atque",
+      "UpdatedBy": "numquam",
+      "DeviceIdentifier": "sapiente",
+      "ForeignAppId": 532,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldType": "System.Int32",
+          "FieldLength": 768
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Wed, 06 May 2009 16:55:29 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 402
     }
   }
 }

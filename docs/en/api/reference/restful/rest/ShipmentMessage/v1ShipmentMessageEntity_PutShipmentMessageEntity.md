@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 299,
-  "PlainMessage": "molestias",
-  "HtmlMessage": "sequi",
-  "SmsMessage": "commodi",
-  "Description": "Fully-configurable logistical portal",
-  "Subject": "laudantium",
-  "FolderId": 188,
-  "HeaderField": "et",
-  "Design": "beatae",
+  "ShipmentMessageId": 517,
+  "PlainMessage": "velit",
+  "HtmlMessage": "magnam",
+  "SmsMessage": "rerum",
+  "Description": "Cloned incremental hierarchy",
+  "Subject": "amet",
+  "FolderId": 708,
+  "HeaderField": "quaerat",
+  "Design": "accusantium",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Proactive grid-enabled access",
-  "AccessKey": "qui",
-  "DocumentMessage": 167,
-  "Registered": "2015-05-03T16:55:30.1450214+02:00",
-  "RegisteredAssociateId": 499,
-  "Updated": "2000-06-07T16:55:30.1450214+02:00",
-  "UpdatedAssociateId": 180,
-  "UpdatedCount": 534
+  "LongDescription": "Customizable client-driven challenge",
+  "AccessKey": "quam",
+  "DocumentMessage": 110,
+  "Registered": "2017-01-26T10:30:32.5125031+01:00",
+  "RegisteredAssociateId": 121,
+  "Updated": "2024-01-14T10:30:32.5125031+01:00",
+  "UpdatedAssociateId": 598,
+  "UpdatedCount": 77
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 511,
-  "PlainMessage": "corporis",
-  "HtmlMessage": "architecto",
-  "SmsMessage": "maiores",
-  "Description": "Extended assymetric circuit",
-  "Subject": "est",
-  "FolderId": 419,
-  "HeaderField": "voluptas",
-  "Design": "atque",
+  "ShipmentMessageId": 211,
+  "PlainMessage": "itaque",
+  "HtmlMessage": "accusamus",
+  "SmsMessage": "corporis",
+  "Description": "Focused uniform definition",
+  "Subject": "aut",
+  "FolderId": 85,
+  "HeaderField": "repellendus",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Synergistic context-sensitive task-force",
-  "AccessKey": "ut",
-  "DocumentMessage": 329,
-  "Registered": "2005-01-08T16:55:30.1450214+01:00",
-  "RegisteredAssociateId": 766,
-  "Updated": "2002-10-26T16:55:30.1450214+02:00",
-  "UpdatedAssociateId": 591,
-  "UpdatedCount": 471,
+  "LongDescription": "Centralized 24 hour matrices",
+  "AccessKey": "illum",
+  "DocumentMessage": 524,
+  "Registered": "2018-10-29T10:30:32.5125031+01:00",
+  "RegisteredAssociateId": 944,
+  "Updated": "2010-09-11T10:30:32.5125031+02:00",
+  "UpdatedAssociateId": 977,
+  "UpdatedCount": 113,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

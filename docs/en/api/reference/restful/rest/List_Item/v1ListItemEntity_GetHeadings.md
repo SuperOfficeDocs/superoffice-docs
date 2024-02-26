@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Kuhic-Robel",
-    "ToolTip": "Explicabo est placeat laudantium.",
-    "Deleted": true,
-    "Rank": 34,
-    "Type": "tempore",
-    "ColorBlock": 398,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "2004-10-30T16:55:30.5046978+02:00",
+    "Id": 24,
+    "Name": "Langosh-Wiegand",
+    "ToolTip": "Voluptas accusantium molestiae provident deleniti nihil odio.",
+    "Deleted": false,
+    "Rank": 80,
+    "Type": "explicabo",
+    "ColorBlock": 663,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "2023-01-04T10:30:32.8425633+01:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Blick Inc and Sons",
-        "ToolTip": "Tenetur quos enim aut nulla quis dolorem repellat.",
+        "Id": 169,
+        "Name": "Wilderman-O'Conner",
+        "ToolTip": "Accusamus exercitationem error distinctio repellendus blanditiis.",
         "Deleted": false,
         "Rank": 57,
-        "Type": "consequuntur",
-        "ColorBlock": 963,
-        "IconHint": "distinctio",
+        "Type": "vitae",
+        "ColorBlock": 709,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2018-04-19T16:55:30.5056973+02:00",
+        "LastChanged": "2006-05-17T10:30:32.8425633+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "iste",
+        "ExtraInfo": "rerum",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Miss Johann Evert Reinger",
+        "FullName": "Prof. Brianne Gaston D'Amore DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 442
+            "FieldType": "System.Int32",
+            "FieldLength": 892
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "aut",
+    "StyleHint": "nobis",
     "Hidden": true,
-    "FullName": "Miss Josiah Mekhi Weissnat",
+    "FullName": "Prof. Green Myrtle Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldLength": 861
       }
     }
   }

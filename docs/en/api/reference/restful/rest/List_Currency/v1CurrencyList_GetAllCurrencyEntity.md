@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 972,
-    "Name": "Cummings, Pollich and Hegmann",
-    "Tooltip": "eligendi",
-    "Rank": 101,
-    "Rate": 10188.634,
-    "Units": 28804.593999999997,
+    "CurrencyId": 768,
+    "Name": "Hammes-Reilly",
+    "Tooltip": "quia",
+    "Rank": 745,
+    "Rate": 9358.124,
+    "Units": 30976.456,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldLength": 570
       }
     }
   }

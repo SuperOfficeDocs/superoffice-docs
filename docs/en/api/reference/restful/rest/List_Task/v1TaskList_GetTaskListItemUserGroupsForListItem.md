@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Schinner-Stamm",
-    "ToolTip": "Nam reprehenderit.",
-    "Deleted": false,
-    "Rank": 623,
-    "Type": "quod",
-    "ColorBlock": 442,
-    "IconHint": "quae",
-    "Selected": true,
-    "LastChanged": "2014-06-11T16:55:31.1117934+02:00",
+    "Id": 816,
+    "Name": "Keebler Inc and Sons",
+    "ToolTip": "Fuga ipsum debitis.",
+    "Deleted": true,
+    "Rank": 333,
+    "Type": "quaerat",
+    "ColorBlock": 818,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "2016-05-22T10:30:33.2724548+02:00",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Von-Quitzon",
-        "ToolTip": "Aut quo nemo.",
+        "Id": 189,
+        "Name": "Mitchell-Bauch",
+        "ToolTip": "Temporibus sint rerum blanditiis iure.",
         "Deleted": false,
-        "Rank": 112,
-        "Type": "dolor",
-        "ColorBlock": 837,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2023-12-21T16:55:31.1117934+01:00",
+        "Rank": 827,
+        "Type": "voluptas",
+        "ColorBlock": 360,
+        "IconHint": "quasi",
+        "Selected": true,
+        "LastChanged": "2023-10-07T10:30:33.2724548+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "vitae",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Ladarius Goldner",
+        "FullName": "Milford Nathaniel Morar Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldType": "System.String",
+            "FieldLength": 304
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Mr. Berta Verlie Wisoky",
+    "ExtraInfo": "ut",
+    "StyleHint": "cumque",
+    "Hidden": false,
+    "FullName": "Mrs. Adaline Wisoky Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 110
       }
     }
   }

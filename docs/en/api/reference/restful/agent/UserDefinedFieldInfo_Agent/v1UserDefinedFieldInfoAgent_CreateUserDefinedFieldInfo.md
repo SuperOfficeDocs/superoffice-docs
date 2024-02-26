@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 338,
-  "ColumnId": 111,
-  "FieldDefault": "deleniti",
-  "FieldHeight": 702,
-  "FieldLabel": "earum",
-  "FieldLeft": 559,
-  "FieldTop": 823,
+  "UDefFieldId": 761,
+  "ColumnId": 372,
+  "FieldDefault": "commodi",
+  "FieldHeight": 752,
+  "FieldLabel": "ea",
+  "FieldLeft": 679,
+  "FieldTop": 136,
   "FieldType": "Checkbox",
-  "FieldWidth": 184,
-  "FormatMask": "suscipit",
-  "HideLabel": false,
+  "FieldWidth": 273,
+  "FormatMask": "quasi",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 444,
-  "LabelLeft": 417,
-  "LabelTop": 464,
-  "LabelWidth": 678,
-  "LastVersionId": 297,
-  "ListTableId": 710,
-  "IsMandatory": false,
+  "LabelHeight": 545,
+  "LabelLeft": 481,
+  "LabelTop": 423,
+  "LabelWidth": 356,
+  "LastVersionId": 255,
+  "ListTableId": 807,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 589,
-  "ProgId": "blanditiis",
+  "Page1LineNo": 633,
+  "ProgId": "veritatis",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 969,
-  "TextLength": 746,
-  "Tooltip": "libero",
-  "UdefIdentity": 725,
-  "UDListDefinitionId": 927,
+  "ShortLabel": "ut",
+  "TabOrder": 832,
+  "TextLength": 654,
+  "Tooltip": "et",
+  "UdefIdentity": 597,
+  "UDListDefinitionId": 553,
   "Justification": "Center",
-  "Version": 482,
-  "TemplateVariableName": "Crooks Inc and Sons",
+  "Version": 736,
+  "TemplateVariableName": "Rutherford-Smith",
   "HasBeenPublished": false,
-  "MdoListName": "Kris, Dibbert and Weimann",
+  "MdoListName": "Heaney-Gottlieb",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

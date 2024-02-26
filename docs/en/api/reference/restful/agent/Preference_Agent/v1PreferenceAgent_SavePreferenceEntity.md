@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dolorum",
+  "RawValue": "voluptatum",
   "Specification": null,
-  "DisplayValue": "eveniet",
-  "DisplayTooltip": "omnis",
+  "DisplayValue": "odit",
+  "DisplayTooltip": "consequatur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 220,
-  "PrefDescId": 564,
-  "TableName": "Schmeler-Swift",
-  "UserPreferenceId": 873,
+  "TargetId": 453,
+  "PrefDescId": 493,
+  "TableName": "Daniel-Bailey",
+  "UserPreferenceId": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 621
     }
   }
 }

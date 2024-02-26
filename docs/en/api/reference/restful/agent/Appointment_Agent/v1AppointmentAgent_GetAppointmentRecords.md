@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 69,
-  "RecurrenceRuleId": 582
+  "MotherId": 851,
+  "RecurrenceRuleId": 416
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 3,
-    "StartDate": "2007-03-29T16:54:54.2671034+02:00",
-    "EndDate": "2011-04-25T16:54:54.2671034+02:00",
+    "AppointmentId": 27,
+    "StartDate": "2012-03-15T10:30:22.7220872+01:00",
+    "EndDate": "2008-11-21T10:30:22.7220872+01:00",
     "Type": "BookingForChecklist",
-    "Task": "maiores",
-    "AssociateFullName": "Alvis Fisher",
-    "ContactName": "Hilpert, Collier and Kiehn",
-    "Description": "Right-sized assymetric interface",
-    "PersonFullName": "Claudie Kertzmann",
-    "PersonId": 453,
-    "ContactId": 838,
-    "ProjectId": 811,
-    "ProjectName": "Schimmel Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 423,
-    "ColorIndex": 555,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "Task": "saepe",
+    "AssociateFullName": "Dr. Kurtis Bernier IV",
+    "ContactName": "Kutch, Bernhard and Kuvalis",
+    "Description": "Persevering human-resource definition",
+    "PersonFullName": "Jamey Effertz",
+    "PersonId": 817,
+    "ContactId": 827,
+    "ProjectId": 66,
+    "ProjectName": "Upton, Hahn and Labadie",
+    "IsPublished": true,
+    "AssociateId": 698,
+    "ColorIndex": 226,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 831,
-    "PriorityName": "Abbott LLC",
+    "PriorityId": 391,
+    "PriorityName": "Gusikowski Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2008-11-29T16:54:54.2671034+01:00",
+    "ActiveDate": "2019-05-03T10:30:22.7220872+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-04-26T16:54:54.2671034+02:00",
-    "RecurringEndDate": "2003-06-06T16:54:54.2671034+02:00",
-    "MotherId": 118,
-    "AssignedBy": 798,
-    "AssignedByFullName": "Milford Gavin Cronin I",
+    "RecurringStartDate": "2023-01-10T10:30:22.7220872+01:00",
+    "RecurringEndDate": "2008-10-09T10:30:22.7220872+02:00",
+    "MotherId": 462,
+    "AssignedBy": 534,
+    "AssignedByFullName": "Dr. Delilah Wolf",
     "RejectReason": "",
-    "Location": "saepe",
-    "AlarmLeadTime": "illo",
-    "SaleId": 131,
-    "SaleName": "Rath-Rippin",
-    "AssociateName": "Jakubowski Group",
-    "CreatedDate": "2014-04-07T16:54:54.2671034+02:00",
-    "CreatedBy": "tempora",
-    "CreatedByFullName": "Tillman Boyer II",
-    "CreatedByAssociateId": 951,
+    "Location": "aperiam",
+    "AlarmLeadTime": "porro",
+    "SaleId": 632,
+    "SaleName": "Rippin-Hills",
+    "AssociateName": "Gulgowski Group",
+    "CreatedDate": "2021-10-02T10:30:22.7220872+02:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Hertha Konopelski",
+    "CreatedByAssociateId": 692,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 353,
-    "Title": "cumque",
-    "Agenda": "animi",
-    "InternalNotes": "adipisci",
+    "PreferredTZLocation": 848,
+    "Title": "ducimus",
+    "Agenda": "itaque",
+    "InternalNotes": "architecto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 260
+        "FieldLength": 278
       }
     }
   }

@@ -102,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 199,
-  "StartTime": "2004-04-13T16:54:55.1514678+02:00",
-  "EndTime": "2018-09-20T16:54:55.1514678+02:00",
-  "Count": 173,
-  "DocumentTemplateId": 700
+  "ProjectId": 916,
+  "StartTime": "2005-03-11T10:30:23.5925282+01:00",
+  "EndTime": "2009-12-17T10:30:23.5925282+01:00",
+  "Count": 766,
+  "DocumentTemplateId": 237
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 756,
-    "Attention": "molestiae",
-    "Header": "aspernatur",
-    "Name": "Ward-Doyle",
-    "OurRef": "minima",
-    "YourRef": "saepe",
-    "Description": "Integrated foreground implementation",
-    "DocumentTemplate": "id",
-    "IsPublished": false,
-    "PersonId": 736,
-    "PersonFullName": "Xander Stark",
-    "AssociateFullName": "Javier Welch",
-    "ContactId": 1001,
-    "ContactName": "Trantow-Klocko",
-    "ProjectId": 197,
-    "ProjectName": "Frami, Deckow and Predovic",
-    "AssociateId": 508,
-    "Snum": 177,
-    "SaleId": 110,
-    "SaleName": "Daugherty LLC",
+    "DocumentId": 712,
+    "Attention": "nesciunt",
+    "Header": "ipsam",
+    "Name": "Sanford-Kozey",
+    "OurRef": "sed",
+    "YourRef": "voluptatem",
+    "Description": "Visionary 24/7 approach",
+    "DocumentTemplate": "unde",
+    "IsPublished": true,
+    "PersonId": 527,
+    "PersonFullName": "Adrain Wolf",
+    "AssociateFullName": "Prof. Delta Vallie Hilll",
+    "ContactId": 362,
+    "ContactName": "Russel-Hyatt",
+    "ProjectId": 28,
+    "ProjectName": "Kshlerin-Little",
+    "AssociateId": 411,
+    "Snum": 996,
+    "SaleId": 980,
+    "SaleName": "Russel, McClure and Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldType": "System.String",
+        "FieldLength": 378
       }
     }
   }

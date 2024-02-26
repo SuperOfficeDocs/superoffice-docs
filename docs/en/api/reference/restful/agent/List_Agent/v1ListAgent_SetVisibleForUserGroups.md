@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 803,
-  "ListItemId": 17,
+  "UdListDefinitionId": 211,
+  "ListItemId": 218,
   "UserGroups": [
     {
-      "Id": 990,
-      "Name": "Cummerata-Purdy",
-      "ToolTip": "Adipisci occaecati dolores et nemo voluptatem velit.",
+      "Id": 724,
+      "Name": "Mann-Roberts",
+      "ToolTip": "Voluptas aut mollitia voluptate omnis voluptatem itaque at.",
       "Deleted": false,
-      "Rank": 867,
-      "Type": "inventore",
-      "ColorBlock": 49,
-      "IconHint": "officiis",
-      "Selected": true,
-      "LastChanged": "2012-04-05T16:54:55.5589836+02:00",
+      "Rank": 26,
+      "Type": "aut",
+      "ColorBlock": 574,
+      "IconHint": "sunt",
+      "Selected": false,
+      "LastChanged": "2006-01-02T10:30:23.9944062+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "deserunt",
-      "StyleHint": "quia",
-      "Hidden": false,
-      "FullName": "Ms. Christopher Murphy"
+      "ExtraInfo": "aut",
+      "StyleHint": "quasi",
+      "Hidden": true,
+      "FullName": "Felicity Lafayette Koss III"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Moen-Jones",
-    "ToolTip": "Eaque doloremque minima quod est repellat pariatur impedit.",
-    "Deleted": true,
-    "Rank": 958,
-    "Type": "molestiae",
-    "ColorBlock": 675,
-    "IconHint": "alias",
+    "Id": 649,
+    "Name": "Smitham LLC",
+    "ToolTip": "Voluptatibus fugit quis.",
+    "Deleted": false,
+    "Rank": 753,
+    "Type": "repudiandae",
+    "ColorBlock": 530,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2023-08-30T16:54:55.5599838+02:00",
+    "LastChanged": "2013-04-28T10:30:23.9944062+02:00",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Hintz-Crona",
-        "ToolTip": "Amet doloremque cumque cumque ab distinctio.",
+        "Id": 65,
+        "Name": "Collier-Green",
+        "ToolTip": "Totam et sed explicabo repellat quia.",
         "Deleted": false,
-        "Rank": 751,
-        "Type": "hic",
-        "ColorBlock": 471,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2007-08-06T16:54:55.5599838+02:00",
+        "Rank": 158,
+        "Type": "aspernatur",
+        "ColorBlock": 47,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2022-12-23T10:30:23.9944062+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "debitis",
+        "ExtraInfo": "omnis",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Queenie Volkman",
+        "FullName": "Mrs. Rachelle Elna Sawayn I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 392
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "numquam",
+    "ExtraInfo": "modi",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Mr. Colby Lois Koss IV",
+    "FullName": "Alberta Valentin Durgan Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldType": "System.String",
+        "FieldLength": 401
       }
     }
   }

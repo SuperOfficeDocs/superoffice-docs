@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Wuckert-Boehm",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "UdListDefinitionId": 731,
-  "Rank": 718,
+  "Id": 680,
+  "Name": "Volkman, Powlowski and Fay",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "UdListDefinitionId": 357,
+  "Rank": 942,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 54
     }
   }
 }

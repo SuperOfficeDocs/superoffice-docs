@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=919
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=647
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 186,
-  "CreatedAt": "2010-01-26T16:54:56.5622922+01:00",
+  "TicketMessageId": 255,
+  "CreatedAt": "2013-07-07T10:30:24.9204564+02:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "voluptate",
-  "PersonId": 670,
-  "PersonFullName": "Miss Gianni Ryder Shields",
-  "ContactId": 434,
-  "ContactName": "Stracke Group",
+  "Important": false,
+  "Author": "tenetur",
+  "PersonId": 356,
+  "PersonFullName": "Brenna Moore",
+  "ContactId": 960,
+  "ContactName": "Okuneva-Prohaska",
   "ContactDepartment": "",
-  "NumAttachments": 54,
-  "EmailHeader": "samantha_macejkovic@metz.biz",
+  "NumAttachments": 361,
+  "EmailHeader": "elaina_cruickshank@miller.com",
   "MessageHeaders": [
     {
-      "Id": 907,
-      "Name": "Macejkovic Group",
-      "Value": "et",
+      "Id": 433,
+      "Name": "Labadie-Miller",
+      "Value": "nulla",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldType": "System.Int32",
+          "FieldLength": 405
         }
       }
     }
   ],
-  "Language": "laborum",
-  "Sentiment": 557,
-  "SentimentConfidence": 641,
-  "CreatedBy": 943,
-  "ChangedAt": "2001-11-29T16:54:56.5622922+01:00",
+  "Language": "itaque",
+  "Sentiment": 7,
+  "SentimentConfidence": 607,
+  "CreatedBy": 963,
+  "ChangedAt": "2020-06-19T10:30:24.9204564+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldLength": 861
     }
   }
 }

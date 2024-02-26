@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Fadel Inc and Sons",
-    "ToolTip": "Aut adipisci omnis aut.",
+    "Id": 350,
+    "Name": "Bergnaum Group",
+    "ToolTip": "Rem velit at necessitatibus quam aut animi.",
     "Deleted": false,
-    "Rank": 390,
-    "Type": "sit",
-    "ColorBlock": 906,
-    "IconHint": "odit",
+    "Rank": 164,
+    "Type": "non",
+    "ColorBlock": 889,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2007-12-01T16:55:30.6512154+01:00",
+    "LastChanged": "2002-11-15T10:30:32.9743325+01:00",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Kulas-Nitzsche",
-        "ToolTip": "Sed alias at blanditiis voluptatem.",
+        "Id": 203,
+        "Name": "Stokes, Padberg and Ortiz",
+        "ToolTip": "Fuga sunt rerum unde modi.",
         "Deleted": true,
-        "Rank": 21,
-        "Type": "velit",
-        "ColorBlock": 880,
-        "IconHint": "culpa",
+        "Rank": 546,
+        "Type": "accusantium",
+        "ColorBlock": 142,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2007-12-15T16:55:30.6512154+01:00",
+        "LastChanged": "2012-12-23T10:30:32.9743325+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "veritatis",
-        "Hidden": false,
-        "FullName": "Daphne Hermann Lehner DVM",
+        "ExtraInfo": "earum",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Nichole Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 392
+            "FieldLength": 886
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "nam",
+    "ExtraInfo": "aut",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Miss Claudine Hahn IV",
+    "FullName": "Unique Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldLength": 173
       }
     }
   }

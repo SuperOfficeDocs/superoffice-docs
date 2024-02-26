@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Schroeder, Kemmer and Russel",
-    "Langworth, Hodkiewicz and Ferry"
+    "Will LLC",
+    "Reichel-Hudson"
   ],
-  "Culture": "laudantium",
-  "ActiveOnly": false
+  "Culture": "iusto",
+  "ActiveOnly": true
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Grady-Turner",
-    "ResourceValue": "ut",
-    "Culture": "dolorem",
-    "IsActive": false,
+    "ResourceName": "Dibbert, Abshire and Lehner",
+    "ResourceValue": "veniam",
+    "Culture": "atque",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldType": "System.String",
+        "FieldLength": 506
       }
     }
   },
   {
-    "ResourceName": "Grady-Turner",
-    "ResourceValue": "ut",
-    "Culture": "dolorem",
-    "IsActive": false,
+    "ResourceName": "Dibbert, Abshire and Lehner",
+    "ResourceValue": "veniam",
+    "Culture": "atque",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldType": "System.String",
+        "FieldLength": 506
       }
     }
   }

@@ -83,59 +83,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kulas, Cartwright and Lesch",
-  "Context": "impedit",
+  "ProviderName": "Jacobs-Lemke",
+  "Context": "voluptates",
   "DesiredEntities": [
-    "aut",
-    "asperiores"
+    "magnam",
+    "quae"
   ],
   "Columns": [
-    "sequi",
-    "nulla"
+    "laudantium",
+    "repellat"
   ],
   "SortOrder": [
     {
-      "Name": "Goyette LLC",
+      "Name": "Ankunding Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Goyette LLC",
+      "Name": "Ankunding Group",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Stoltenberg Group",
-      "Operator": "eos",
+      "Name": "Wintheiser, Nienow and Berge",
+      "Operator": "quia",
       "Values": [
-        "tempore",
-        "id"
+        "dicta",
+        "laudantium"
       ],
       "DisplayValues": [
-        "ipsum",
-        "consequatur"
+        "sit",
+        "magnam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 866,
+      "InterParenthesis": 360,
       "InterOperator": "And",
-      "UniqueHash": 624
+      "UniqueHash": 58
     }
   ],
-  "ExportType": "non",
+  "ExportType": "rerum",
   "SelectedRowIds": [
-    "iste",
-    "dignissimos"
+    "provident",
+    "nihil"
   ],
-  "EstimatedRowCount": 144
+  "EstimatedRowCount": 676
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 953,
-  "FileName": "Rowe Inc and Sons",
-  "Message": "minima",
+  "BatchTaskId": 185,
+  "FileName": "Rath, Stracke and Boehm",
+  "Message": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 578
     }
   }
 }

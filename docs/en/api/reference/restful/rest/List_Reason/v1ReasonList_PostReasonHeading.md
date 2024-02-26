@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 328,
-  "Name": "O'Hara Group",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 427,
-  "UdListDefinitionId": 363
+  "HeadingId": 39,
+  "Name": "Greenfelder LLC",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "Rank": 21,
+  "UdListDefinitionId": 399
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 603,
-  "Name": "Zboncak-Strosin",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 766,
-  "UdListDefinitionId": 222,
+  "HeadingId": 735,
+  "Name": "Grimes LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 34,
+  "UdListDefinitionId": 457,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

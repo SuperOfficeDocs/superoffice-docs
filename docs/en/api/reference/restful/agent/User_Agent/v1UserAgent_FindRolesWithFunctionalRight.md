@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Dietrich-Kuhlman"
+  "FunctionalRightName": "White, Gusikowski and Macejkovic"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Johns-O'Connell",
-    "ToolTip": "Facere suscipit id et modi dolores nobis.",
-    "Deleted": false,
-    "Rank": 259,
-    "Type": "aut",
+    "Id": 530,
+    "Name": "Windler LLC",
+    "ToolTip": "Repellendus quam beatae consequatur cupiditate non maiores.",
+    "Deleted": true,
+    "Rank": 43,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 623,
-        "Name": "Kuhic Group",
-        "ToolTip": "Officiis consequatur cumque est consequatur optio inventore.",
+        "Id": 472,
+        "Name": "Hegmann, Christiansen and Koss",
+        "ToolTip": "Autem est est tenetur et.",
         "Deleted": false,
-        "Rank": 949,
-        "Type": "aspernatur",
+        "Rank": 978,
+        "Type": "perferendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 515,
-        "ExtraInfo": "error",
-        "StyleHint": "eos",
-        "FullName": "Mrs. Fred Robel IV",
+        "IconHint": "hic",
+        "ColorBlock": 895,
+        "ExtraInfo": "ut",
+        "StyleHint": "magni",
+        "FullName": "Bridie Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 222
+            "FieldType": "System.Int32",
+            "FieldLength": 80
           }
         }
       }
     ],
-    "IconHint": "quod",
-    "ColorBlock": 328,
-    "ExtraInfo": "est",
-    "StyleHint": "eius",
-    "FullName": "Deion Cremin Jr.",
+    "IconHint": "quis",
+    "ColorBlock": 836,
+    "ExtraInfo": "et",
+    "StyleHint": "molestiae",
+    "FullName": "Noemie Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 659
+        "FieldType": "System.Int32",
+        "FieldLength": 671
       }
     }
   }

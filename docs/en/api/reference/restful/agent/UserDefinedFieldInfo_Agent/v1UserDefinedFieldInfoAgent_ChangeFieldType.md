@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 811,
-  "ColumnId": 574,
-  "FieldDefault": "rerum",
-  "FieldHeight": 96,
-  "FieldLabel": "hic",
-  "FieldLeft": 101,
-  "FieldTop": 895,
+  "UDefFieldId": 973,
+  "ColumnId": 126,
+  "FieldDefault": "sit",
+  "FieldHeight": 623,
+  "FieldLabel": "illo",
+  "FieldLeft": 146,
+  "FieldTop": 715,
   "FieldType": "Checkbox",
-  "FieldWidth": 139,
-  "FormatMask": "illum",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 176,
-  "LabelLeft": 958,
-  "LabelTop": 591,
-  "LabelWidth": 465,
-  "LastVersionId": 458,
-  "ListTableId": 147,
+  "FieldWidth": 482,
+  "FormatMask": "ipsum",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 621,
+  "LabelLeft": 557,
+  "LabelTop": 519,
+  "LabelWidth": 365,
+  "LastVersionId": 968,
+  "ListTableId": 873,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 856,
-  "ProgId": "natus",
+  "Page1LineNo": 980,
+  "ProgId": "quas",
   "IsReadOnly": true,
-  "ShortLabel": "exercitationem",
-  "TabOrder": 36,
-  "TextLength": 671,
-  "Tooltip": "est",
-  "UdefIdentity": 73,
-  "UDListDefinitionId": 589,
+  "ShortLabel": "architecto",
+  "TabOrder": 195,
+  "TextLength": 759,
+  "Tooltip": "illo",
+  "UdefIdentity": 667,
+  "UDListDefinitionId": 170,
   "Justification": "Center",
-  "Version": 436,
-  "TemplateVariableName": "King LLC",
+  "Version": 209,
+  "TemplateVariableName": "Satterfield Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Schultz, Shields and Stoltenberg",
+  "MdoListName": "Jacobs Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 32
+      "FieldType": "System.Int32",
+      "FieldLength": 103
     }
   }
 }

@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 140,
-  "PlainMessage": "aperiam",
-  "HtmlMessage": "saepe",
+  "ShipmentMessageId": 17,
+  "PlainMessage": "autem",
+  "HtmlMessage": "corporis",
   "SmsMessage": "dolorem",
-  "Description": "Reverse-engineered empowering application",
-  "Subject": "odio",
-  "FolderId": 169,
-  "HeaderField": "minima",
-  "Design": "voluptate",
+  "Description": "Multi-layered systematic knowledge base",
+  "Subject": "dolore",
+  "FolderId": 458,
+  "HeaderField": "reprehenderit",
+  "Design": "animi",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Profound needs-based instruction set",
-  "AccessKey": "mollitia",
-  "DocumentMessage": 408,
-  "Registered": "2003-07-03T16:55:30.1430216+02:00",
-  "RegisteredAssociateId": 216,
-  "Updated": "2017-12-01T16:55:30.1430216+01:00",
-  "UpdatedAssociateId": 600,
-  "UpdatedCount": 260
+  "InlineImages": false,
+  "LongDescription": "Optimized object-oriented projection",
+  "AccessKey": "neque",
+  "DocumentMessage": 945,
+  "Registered": "2006-11-04T10:30:32.5125031+01:00",
+  "RegisteredAssociateId": 904,
+  "Updated": "2005-07-16T10:30:32.5125031+02:00",
+  "UpdatedAssociateId": 347,
+  "UpdatedCount": 419
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 693,
-  "PlainMessage": "a",
-  "HtmlMessage": "explicabo",
-  "SmsMessage": "maxime",
-  "Description": "Switchable multimedia local area network",
-  "Subject": "aliquid",
-  "FolderId": 824,
-  "HeaderField": "voluptas",
-  "Design": "non",
+  "ShipmentMessageId": 333,
+  "PlainMessage": "quis",
+  "HtmlMessage": "corporis",
+  "SmsMessage": "autem",
+  "Description": "Stand-alone fault-tolerant function",
+  "Subject": "quis",
+  "FolderId": 810,
+  "HeaderField": "est",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Monitored well-modulated synergy",
-  "AccessKey": "laboriosam",
-  "DocumentMessage": 291,
-  "Registered": "2012-03-01T16:55:30.1440215+01:00",
-  "RegisteredAssociateId": 1002,
-  "Updated": "2022-08-17T16:55:30.1440215+02:00",
-  "UpdatedAssociateId": 629,
-  "UpdatedCount": 125,
+  "InlineImages": true,
+  "LongDescription": "Focused foreground throughput",
+  "AccessKey": "cumque",
+  "DocumentMessage": 607,
+  "Registered": "2010-07-06T10:30:32.5125031+02:00",
+  "RegisteredAssociateId": 997,
+  "Updated": "2004-06-06T10:30:32.5125031+02:00",
+  "UpdatedAssociateId": 261,
+  "UpdatedCount": 443,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldType": "System.Int32",
+      "FieldLength": 426
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

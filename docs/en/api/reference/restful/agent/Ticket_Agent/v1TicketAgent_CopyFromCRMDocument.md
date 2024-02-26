@@ -70,6 +70,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 389
+  "DocumentId": 342
 }
 ```
 
@@ -94,19 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 215,
-  "Name": "Mitchell Inc and Sons",
-  "ContentType": "sed",
-  "AttSize": 91,
+  "AttachmentId": 123,
+  "Name": "Toy-Greenholt",
+  "ContentType": "et",
+  "AttSize": 153,
   "InlineImage": false,
-  "ContentId": "nihil",
-  "AuthKey": "quibusdam",
+  "ContentId": "ducimus",
+  "AuthKey": "quaerat",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   }
 }

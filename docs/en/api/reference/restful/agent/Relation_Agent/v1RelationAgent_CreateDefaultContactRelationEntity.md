@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 77,
-  "SourcePersonId": 680,
-  "DestinationContactId": 84,
-  "DestinationPersonId": 730,
-  "RelationId": 459,
-  "Comment": "laudantium",
-  "RelationDefinitionId": 370,
-  "Reversed": 21,
-  "UpdatedDate": "2017-06-18T16:54:56.164971+02:00",
-  "CreatedDate": "2008-02-07T16:54:56.164971+01:00",
+  "SourceContactId": 796,
+  "SourcePersonId": 569,
+  "DestinationContactId": 643,
+  "DestinationPersonId": 284,
+  "RelationId": 534,
+  "Comment": "iusto",
+  "RelationDefinitionId": 417,
+  "Reversed": 558,
+  "UpdatedDate": "2015-05-23T10:30:24.4502511+02:00",
+  "CreatedDate": "2018-09-08T10:30:24.4502511+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Morar, Altenwerth and Stanton",
-  "SourcePersonName": "Gusikowski LLC",
-  "DestinationContactName": "Steuber-Conroy",
-  "DestinationPersonName": "Wunsch-Dickens",
-  "ActiveText": "id",
-  "PassiveText": "rem",
+  "SourceContactName": "Schuster-Kirlin",
+  "SourcePersonName": "Quigley-Smitham",
+  "DestinationContactName": "Walsh LLC",
+  "DestinationPersonName": "Pfannerstill-Reilly",
+  "ActiveText": "non",
+  "PassiveText": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 394
     }
   }
 }

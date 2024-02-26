@@ -94,20 +94,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 315,
-  "Caption": "accusamus",
-  "Description": "Streamlined next generation access",
-  "SelectionId": 623,
+  "DashboardTileId": 286,
+  "Caption": "dolorum",
+  "Description": "Multi-layered exuding methodology",
+  "SelectionId": 602,
   "VisibleFor": [
     {
-      "VisibleId": 264,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "molestiae"
     },
     {
-      "VisibleId": 264,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "molestiae"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 710,
-  "Caption": "fuga",
-  "Description": "Optimized exuding approach",
-  "ChartName": "Rodriguez, Runolfsdottir and Schimmel",
-  "ChartId": "accusantium",
-  "IsDefault": false,
-  "AssociateId": 626,
-  "GroupId": 41,
-  "SelectionId": 744,
-  "Config": "consectetur",
+  "DashboardTileId": 27,
+  "Caption": "in",
+  "Description": "Object-based next generation alliance",
+  "ChartName": "Heidenreich-Rodriguez",
+  "ChartId": "assumenda",
+  "IsDefault": true,
+  "AssociateId": 58,
+  "GroupId": 245,
+  "SelectionId": 93,
+  "Config": "tempora",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Toy, Hegmann and Hessel",
-      "Description": "Open-source fault-tolerant flexibility",
+      "Name": "Stehr Inc and Sons",
+      "Description": "Multi-tiered grid-enabled ability",
       "Type": "Boolean",
-      "ListName": "Waelchi Inc and Sons",
+      "ListName": "Hagenes, Pouros and Brown",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sit",
+      "Value": "vitae",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldType": "System.Int32",
+          "FieldLength": 838
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 290,
+      "VisibleId": 528,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldLength": 614
         }
       }
     },
     {
-      "VisibleId": 290,
+      "VisibleId": 528,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldLength": 614
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldType": "System.Int32",
+      "FieldLength": 281
     }
   }
 }

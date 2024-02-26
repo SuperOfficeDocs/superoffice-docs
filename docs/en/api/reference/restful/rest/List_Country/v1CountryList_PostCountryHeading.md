@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 717,
-  "Name": "Crona, Nienow and Towne",
-  "Tooltip": "aut",
+  "HeadingId": 990,
+  "Name": "Douglas Group",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 265,
-  "UdListDefinitionId": 411
+  "Rank": 426,
+  "UdListDefinitionId": 917
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 972,
-  "Name": "Grant-Murazik",
-  "Tooltip": "eveniet",
-  "Deleted": true,
-  "Rank": 746,
-  "UdListDefinitionId": 111,
+  "HeadingId": 192,
+  "Name": "Crona-Streich",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 518,
+  "UdListDefinitionId": 120,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 714
+      "FieldLength": 846
     }
   }
 }

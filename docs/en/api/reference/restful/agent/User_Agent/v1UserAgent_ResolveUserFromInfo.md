@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 473,
-  "PersonName": "Stehr, Hilpert and Murray",
+  "ContactId": 667,
+  "PersonName": "Rosenbaum-Rowe",
   "PhoneNumbers": [
-    "849892",
-    "1146023"
+    "1666257",
+    "1183077"
   ],
   "Emails": [
-    "luciano.kutch@auer.biz",
-    "marty_ondricka@kub.info"
+    "agustin_vonrueden@bernhard.biz",
+    "dale@maggio.name"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldType": "System.Int32",
+      "FieldLength": 646
     }
   }
 }

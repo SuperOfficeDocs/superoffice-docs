@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 701,
-  "Username": "recusandae",
+  "ChatTopicId": 628,
+  "Username": "soluta",
   "Useragent": null
 }
 ```
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 190,
+  "TopicId": 915,
   "User": null,
   "CanListen": false,
-  "CanRespond": true,
-  "CanManage": true,
-  "CanNotify": false
+  "CanRespond": false,
+  "CanManage": false,
+  "CanNotify": true
 }
 ```

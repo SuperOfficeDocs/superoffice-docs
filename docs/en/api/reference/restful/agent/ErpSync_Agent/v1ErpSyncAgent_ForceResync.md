@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 286,
+  "ErpConnectionId": 271,
   "InternalKeyIds": [
-    61,
-    482
+    504,
+    165
   ]
 }
 ```
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "harum",
-  "TechExplanation": "repellat",
-  "ErrorCode": "possimus",
+  "UserExplanation": "quis",
+  "TechExplanation": "numquam",
+  "ErrorCode": "eveniet",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldType": "System.Int32",
+      "FieldLength": 975
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "Carroll-Glover",
-  "Tooltip": "totam",
+  "Id": 757,
+  "Name": "Bartell Inc and Sons",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 318,
-  "Rank": 642,
+  "UdListDefinitionId": 114,
+  "Rank": 195,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 635
     }
   }
 }

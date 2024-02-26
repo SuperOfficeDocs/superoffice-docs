@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Nitzsche, Ryan and O'Kon",
-  "Comment": "earum",
-  "StakeholderRoleId": 528,
-  "CountryId": 11,
-  "PersonId": 356,
-  "EmailDescription": "lennie@jast.info",
-  "EmailId": 675,
-  "EmailAddress": "tyler@beer.uk",
-  "PhoneId": 792,
-  "ContactName": "Homenick Inc and Sons",
-  "ContactId": 895,
-  "SaleId": 331,
-  "Mrmrs": "aut",
-  "Firstname": "Magdalen",
-  "MiddleName": "Kerluke, Halvorson and Jerde",
-  "Lastname": "McLaughlin",
-  "SaleStakeholderId": 907,
-  "Rank": 849,
-  "Phone": "193.693.8609 x31464"
+  "StakeholderRoleName": "Wisozk LLC",
+  "Comment": "quaerat",
+  "StakeholderRoleId": 941,
+  "CountryId": 968,
+  "PersonId": 397,
+  "EmailDescription": "lewis@champlin.uk",
+  "EmailId": 225,
+  "EmailAddress": "chanel.mosciski@barrowskirlin.info",
+  "PhoneId": 174,
+  "ContactName": "O'Conner LLC",
+  "ContactId": 770,
+  "SaleId": 486,
+  "Mrmrs": "itaque",
+  "Firstname": "Jackeline",
+  "MiddleName": "Champlin-Dietrich",
+  "Lastname": "Brown",
+  "SaleStakeholderId": 898,
+  "Rank": 562,
+  "Phone": "(801)355-2510 x623"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Daugherty-Waters",
-  "Comment": "pariatur",
-  "StakeholderRoleId": 528,
-  "CountryId": 972,
-  "PersonId": 783,
-  "EmailDescription": "julian.leannon@tillman.uk",
-  "EmailId": 170,
-  "EmailAddress": "julien@gutmann.info",
-  "PhoneId": 539,
-  "ContactName": "Jewess LLC",
-  "ContactId": 611,
-  "SaleId": 369,
-  "Mrmrs": "et",
-  "Firstname": "Lucious",
-  "MiddleName": "Stanton, Ryan and Wisoky",
-  "Lastname": "Welch",
-  "SaleStakeholderId": 391,
-  "Rank": 878,
-  "Phone": "697-823-6716",
+  "StakeholderRoleName": "West Group",
+  "Comment": "et",
+  "StakeholderRoleId": 175,
+  "CountryId": 617,
+  "PersonId": 498,
+  "EmailDescription": "vincenza_breitenberg@jacobson.info",
+  "EmailId": 49,
+  "EmailAddress": "branson@mccullough.com",
+  "PhoneId": 960,
+  "ContactName": "Buckridge, Sawayn and Hessel",
+  "ContactId": 829,
+  "SaleId": 990,
+  "Mrmrs": "distinctio",
+  "Firstname": "Brianne",
+  "MiddleName": "Gottlieb LLC",
+  "Lastname": "Cummerata",
+  "SaleStakeholderId": 548,
+  "Rank": 929,
+  "Phone": "426-717-2747 x781",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 64
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

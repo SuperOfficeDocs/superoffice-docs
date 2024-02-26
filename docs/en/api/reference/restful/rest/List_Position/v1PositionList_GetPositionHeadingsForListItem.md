@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "O'Keefe, Hirthe and Moore",
-    "ToolTip": "Sed et cupiditate quia.",
+    "Id": 213,
+    "Name": "Parker-O'Hara",
+    "ToolTip": "Id sit temporibus amet fuga.",
     "Deleted": false,
-    "Rank": 266,
-    "Type": "maiores",
-    "ColorBlock": 258,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2006-04-17T16:55:30.7701819+02:00",
+    "Rank": 995,
+    "Type": "vel",
+    "ColorBlock": 808,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2011-07-11T10:30:33.0680874+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Kuhlman, Gerhold and Walker",
-        "ToolTip": "Sed dolores enim vero suscipit voluptatem atque laboriosam.",
+        "Id": 346,
+        "Name": "Okuneva-Hessel",
+        "ToolTip": "Quo optio dicta debitis sunt maiores.",
         "Deleted": true,
-        "Rank": 271,
-        "Type": "quo",
-        "ColorBlock": 72,
-        "IconHint": "rerum",
+        "Rank": 956,
+        "Type": "quia",
+        "ColorBlock": 294,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2016-01-04T16:55:30.7701819+01:00",
+        "LastChanged": "2003-07-02T10:30:33.0680874+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "sunt",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "occaecati",
         "Hidden": true,
-        "FullName": "Dr. Camryn Hessel I",
+        "FullName": "Elyse Rempel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 772
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Prof. Liam Halvorson PhD",
+    "FullName": "Karolann Pagac DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 545
+        "FieldLength": 157
       }
     }
   }

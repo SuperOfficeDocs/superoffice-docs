@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Bauch Inc and Sons",
-    "Tooltip": "provident",
+    "Id": 840,
+    "Name": "Gusikowski-Batz",
+    "Tooltip": "odit",
     "Deleted": true,
-    "UdListDefinitionId": 673,
-    "Rank": 585
+    "UdListDefinitionId": 225,
+    "Rank": 46
   },
   {
-    "Id": 71,
-    "Name": "Bauch Inc and Sons",
-    "Tooltip": "provident",
+    "Id": 840,
+    "Name": "Gusikowski-Batz",
+    "Tooltip": "odit",
     "Deleted": true,
-    "UdListDefinitionId": 673,
-    "Rank": 585
+    "UdListDefinitionId": 225,
+    "Rank": 46
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Rempel-Ortiz",
-    "Tooltip": "reprehenderit",
-    "Deleted": false,
-    "UdListDefinitionId": 248,
-    "Rank": 666,
+    "Id": 78,
+    "Name": "Zulauf-Brekke",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 229,
+    "Rank": 589,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 652
       }
     }
   }

@@ -28,7 +28,7 @@ inner participants provider, so that the conflict checking is performed.
 |"associate"|Associate|
 |"resource"|Resource:|
 |"externalPerson"|External users|
-|"emailParticipant"|[!!Email Participant]|
+|"emailParticipant"|[Email Participant]|
 |"hideConflict"|Hide conflict|
 
 ## Supported Columns
@@ -187,7 +187,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=email/emailId,personContact/activeErpLinks,personEmailsInformation
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=associateRestrictionId,personEmailsInformation,personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

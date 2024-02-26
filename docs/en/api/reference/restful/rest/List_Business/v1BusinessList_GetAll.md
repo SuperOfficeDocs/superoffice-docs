@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Witting-Hansen",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "UdListDefinitionId": 109,
-    "Rank": 581,
+    "Id": 196,
+    "Name": "Dooley-Quitzon",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 631,
+    "Rank": 36,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldType": "System.String",
+        "FieldLength": 665
       }
     }
   }

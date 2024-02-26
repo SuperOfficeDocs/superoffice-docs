@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=581
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=909
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Shanahan, Miller and Kovacek",
-  "Comment": "sint",
-  "StakeholderRoleId": 928,
-  "CountryId": 393,
-  "PersonId": 700,
-  "EmailDescription": "idell@pfeffer.co.uk",
-  "EmailId": 421,
-  "EmailAddress": "yolanda@kling.com",
-  "PhoneId": 558,
-  "ContactName": "Kilback, Fisher and Grady",
-  "ContactId": 61,
-  "SaleId": 724,
-  "Mrmrs": "magni",
-  "Firstname": "Vickie",
-  "MiddleName": "Steuber LLC",
-  "Lastname": "Stark",
-  "SaleStakeholderId": 865,
-  "Rank": 281,
-  "Phone": "575-061-7663",
+  "StakeholderRoleName": "Goodwin Inc and Sons",
+  "Comment": "eos",
+  "StakeholderRoleId": 342,
+  "CountryId": 654,
+  "PersonId": 194,
+  "EmailDescription": "mohammed_okon@braun.uk",
+  "EmailId": 863,
+  "EmailAddress": "hassan@jacobson.com",
+  "PhoneId": 781,
+  "ContactName": "Ebert-Pfeffer",
+  "ContactId": 136,
+  "SaleId": 156,
+  "Mrmrs": "ut",
+  "Firstname": "Lenny",
+  "MiddleName": "Herman Inc and Sons",
+  "Lastname": "Smitham",
+  "SaleStakeholderId": 955,
+  "Rank": 289,
+  "Phone": "1-844-516-9324",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 629
+      "FieldLength": 859
     }
   }
 }

@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 398,
-  "Name": "Reichert LLC",
-  "Tooltip": "quisquam",
-  "VisibleColumns": 550,
-  "Rank": 642,
-  "AssocId": 988,
+  "DiaryViewId": 444,
+  "Name": "Kautzer Group",
+  "Tooltip": "ut",
+  "VisibleColumns": 213,
+  "Rank": 63,
+  "AssocId": 500,
   "AssociateList": [
     {
-      "Id": 609,
-      "Name": "Reilly, Dickinson and Quitzon",
-      "ToolTip": "Placeat velit delectus molestiae rerum rerum sit facilis.",
+      "Id": 532,
+      "Name": "Hirthe Group",
+      "ToolTip": "Natus id omnis corrupti libero.",
       "Deleted": false,
-      "Rank": 667,
-      "Type": "ea",
-      "ColorBlock": 844,
-      "IconHint": "minima",
+      "Rank": 972,
+      "Type": "omnis",
+      "ColorBlock": 661,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2007-04-12T16:54:54.8821705+02:00",
+      "LastChanged": "2017-04-12T10:30:23.2418173+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "temporibus",
-      "StyleHint": "illum",
+      "ExtraInfo": "sunt",
+      "StyleHint": "necessitatibus",
       "Hidden": false,
-      "FullName": "Mrs. Vincent Adams",
+      "FullName": "Torey Hyatt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 999
+          "FieldType": "System.Int32",
+          "FieldLength": 765
         }
       }
     }
   ],
-  "TzLocationId": 168,
+  "TzLocationId": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 502
     }
   }
 }

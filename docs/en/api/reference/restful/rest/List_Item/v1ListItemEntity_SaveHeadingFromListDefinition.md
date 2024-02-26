@@ -78,16 +78,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 518,
-  "Name": "Mayert, Bernier and Dach",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "Rank": 97,
-  "UdListDefinitionId": 874
+  "HeadingId": 118,
+  "Name": "Sipes LLC",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 82,
+  "UdListDefinitionId": 768
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 84,
-  "Name": "Wisozk-Zieme",
-  "Tooltip": "minus",
-  "Deleted": true,
-  "Rank": 428,
-  "UdListDefinitionId": 262,
+  "HeadingId": 569,
+  "Name": "Bogisich Group",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 624,
+  "UdListDefinitionId": 660,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

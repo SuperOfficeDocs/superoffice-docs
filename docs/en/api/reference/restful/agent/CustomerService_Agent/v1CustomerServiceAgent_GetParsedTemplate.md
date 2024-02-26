@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 567,
-  "LanguageId": 391,
-  "PersonId": 732,
-  "TicketId": 426
+  "ReplyTemplateId": 742,
+  "LanguageId": 889,
+  "PersonId": 954,
+  "TicketId": 148
 }
 ```
 
@@ -98,24 +98,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 36,
-  "PlainParsed": "et",
-  "HtmlParsed": "sit",
+  "ReplyTemplateId": 542,
+  "PlainParsed": "dolorum",
+  "HtmlParsed": "et",
   "Attachments": [
     {
-      "AttachmentId": 394,
-      "Name": "Hauck-Schneider",
-      "ContentType": "consequatur",
-      "AttSize": 102,
-      "InlineImage": true,
-      "ContentId": "incidunt",
-      "AuthKey": "alias",
+      "AttachmentId": 481,
+      "Name": "Kuhlman LLC",
+      "ContentType": "omnis",
+      "AttSize": 118,
+      "InlineImage": false,
+      "ContentId": "facilis",
+      "AuthKey": "aliquam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldType": "System.String",
+          "FieldLength": 303
         }
       }
     }
@@ -125,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

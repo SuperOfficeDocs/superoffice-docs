@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 416,
-  "Name": "Kris, O'Reilly and Herzog",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 567,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vel",
-  "InUseByUserDefinedFields": false,
+  "Id": 603,
+  "Name": "Kertzmann Group",
+  "Tooltip": "libero",
+  "Deleted": true,
+  "Rank": 206,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quos",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 195
+      "FieldLength": 882
     }
   },
   "_Links": {

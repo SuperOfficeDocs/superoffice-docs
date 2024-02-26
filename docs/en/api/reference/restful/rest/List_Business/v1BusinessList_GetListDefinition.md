@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Brakus-O'Kon",
-  "Tooltip": "ut",
+  "Id": 252,
+  "Name": "D'Amore LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 789,
-  "IsCustomList": false,
+  "Rank": 425,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "natus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 263
     }
   },
   "_Links": {

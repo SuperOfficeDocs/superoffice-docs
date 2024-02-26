@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Wintheiser-Lueilwitz",
-  "Tooltip": "qui",
+  "Id": 250,
+  "Name": "Greenholt-Nikolaus",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "UdListDefinitionId": 855,
-  "Rank": 702,
+  "UdListDefinitionId": 847,
+  "Rank": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 29
     }
   }
 }

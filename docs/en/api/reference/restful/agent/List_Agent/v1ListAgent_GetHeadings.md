@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 67,
-  "ListItemId": 59,
+  "UdListDefinitionId": 140,
+  "ListItemId": 128,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Mraz, Frami and Ondricka",
-    "ToolTip": "Molestiae itaque veniam architecto reprehenderit quas accusantium velit.",
+    "Id": 883,
+    "Name": "Armstrong, Weimann and Rodriguez",
+    "ToolTip": "Laboriosam nulla animi tempora eos qui error.",
     "Deleted": true,
-    "Rank": 862,
-    "Type": "alias",
-    "ColorBlock": 790,
-    "IconHint": "facere",
+    "Rank": 940,
+    "Type": "occaecati",
+    "ColorBlock": 403,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2000-11-09T16:54:55.5669847+01:00",
+    "LastChanged": "2011-09-10T10:30:23.9944062+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Stark, Cummerata and Renner",
-        "ToolTip": "Voluptas magnam natus animi.",
-        "Deleted": true,
-        "Rank": 193,
-        "Type": "occaecati",
-        "ColorBlock": 63,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2012-09-07T16:54:55.5669847+02:00",
+        "Id": 658,
+        "Name": "Haley Group",
+        "ToolTip": "Et ipsam ex.",
+        "Deleted": false,
+        "Rank": 213,
+        "Type": "quidem",
+        "ColorBlock": 118,
+        "IconHint": "ratione",
+        "Selected": false,
+        "LastChanged": "2013-11-20T10:30:23.9944062+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "suscipit",
-        "Hidden": false,
-        "FullName": "Arturo Gislason",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "repudiandae",
+        "Hidden": true,
+        "FullName": "Cristina Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "sequi",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Ms. Waino Alfreda Lehner MD",
+    "FullName": "Karlee Walsh IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 273
       }
     }
   }

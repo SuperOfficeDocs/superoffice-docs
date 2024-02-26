@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized reciprocal toolset",
-  "Postit": "quam",
+  "Description": "Customer-focused secondary forecast",
+  "Postit": "delectus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 842,
-  "IncludePerson": 933,
-  "MemberCount": 452,
-  "Name": "Shanahan-Prosacco",
-  "PostitTextId": 111,
-  "CreatedDate": "2012-07-10T16:54:56.2816014+02:00",
-  "SelectionId": 948,
-  "SoundEx": "repudiandae",
-  "Source": 217,
-  "TextId": 45,
-  "UpdatedDate": "2020-02-04T16:54:56.2816014+01:00",
-  "UpdatedCount": 168,
-  "Visibility": 542,
+  "GroupIdx": 920,
+  "IncludePerson": 114,
+  "MemberCount": 999,
+  "Name": "Okuneva Group",
+  "PostitTextId": 363,
+  "CreatedDate": "2012-06-17T10:30:24.5596239+02:00",
+  "SelectionId": 922,
+  "SoundEx": "officiis",
+  "Source": 852,
+  "TextId": 981,
+  "UpdatedDate": "2019-06-05T10:30:24.5596239+02:00",
+  "UpdatedCount": 999,
+  "Visibility": 275,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 553,
-  "TargetTableName": "Kessler, Kling and Feeney",
+  "CompanyUnique": false,
+  "TargetTableNumber": 626,
+  "TargetTableName": "Rowe Group",
   "Completed": false,
-  "LeftSelectionId": 193,
-  "RightSelectionId": 980,
+  "LeftSelectionId": 83,
+  "RightSelectionId": 150,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mante Group",
-  "ShadowProviderName": "Stamm-Stoltenberg",
-  "ChartKey": "sint",
-  "LastLoaded": "2011-09-30T16:54:56.2816014+02:00",
-  "LastLoadedBy": 601,
+  "MainProviderName": "DuBuque, Veum and Daugherty",
+  "ShadowProviderName": "Ullrich, Leuschke and Bailey",
+  "ChartKey": "ipsa",
+  "LastLoaded": "2020-04-01T10:30:24.5596239+02:00",
+  "LastLoadedBy": 526,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-12-31T16:54:56.2816014+01:00",
-  "LastMembershipChangeBy": 931,
+  "LastMembershipChange": "2009-12-14T10:30:24.5596239+01:00",
+  "LastMembershipChangeBy": 943,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "enim",
-  "MailingsProviderName": "Schuppe-Bosco",
-  "DashboardTileDefinitionId": 872,
+  "MainHeading": "dolorem",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Nienow-Roob",
+  "DashboardTileDefinitionId": 956,
   "VisibleFor": [
     {
-      "VisibleId": 161,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "deserunt"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 161,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "deserunt"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive national portal",
-  "Postit": "quasi",
+  "Description": "Synergistic logistical throughput",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 840,
-  "IncludePerson": 722,
-  "MemberCount": 191,
-  "Name": "O'Hara Group",
-  "PostitTextId": 886,
-  "CreatedDate": "2012-01-01T16:54:56.2865063+01:00",
-  "SelectionId": 865,
-  "SoundEx": "exercitationem",
-  "Source": 577,
-  "TextId": 693,
-  "UpdatedDate": "1997-01-27T16:54:56.2865063+01:00",
-  "UpdatedCount": 936,
-  "Visibility": 491,
+  "GroupIdx": 128,
+  "IncludePerson": 93,
+  "MemberCount": 404,
+  "Name": "Haag LLC",
+  "PostitTextId": 107,
+  "CreatedDate": "2012-04-16T10:30:24.5596239+02:00",
+  "SelectionId": 29,
+  "SoundEx": "aut",
+  "Source": 197,
+  "TextId": 370,
+  "UpdatedDate": "2001-06-13T10:30:24.5596239+02:00",
+  "UpdatedCount": 252,
+  "Visibility": 896,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 205,
-  "TargetTableName": "Effertz-Smith",
+  "TargetTableNumber": 261,
+  "TargetTableName": "Abbott LLC",
   "Completed": false,
-  "LeftSelectionId": 160,
-  "RightSelectionId": 793,
+  "LeftSelectionId": 104,
+  "RightSelectionId": 45,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Adams Group",
-  "ShadowProviderName": "Larkin, Kertzmann and Bernier",
-  "ChartKey": "et",
-  "LastLoaded": "2005-01-12T16:54:56.2865063+01:00",
-  "LastLoadedBy": 19,
+  "MainProviderName": "Crooks Inc and Sons",
+  "ShadowProviderName": "Robel Group",
+  "ChartKey": "sunt",
+  "LastLoaded": "2006-03-11T10:30:24.5596239+01:00",
+  "LastLoadedBy": 753,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-11-25T16:54:56.2875025+01:00",
-  "LastMembershipChangeBy": 8,
+  "LastMembershipChange": "1999-02-07T10:30:24.5596239+01:00",
+  "LastMembershipChangeBy": 105,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nesciunt",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Kutch, Pacocha and Jacobson",
-  "DashboardTileDefinitionId": 670,
+  "MainHeading": "sapiente",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Bernhard Inc and Sons",
+  "DashboardTileDefinitionId": 818,
   "VisibleFor": [
     {
-      "VisibleId": 232,
+      "VisibleId": 997,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldType": "System.String",
+          "FieldLength": 324
         }
       }
     },
     {
-      "VisibleId": 232,
+      "VisibleId": 997,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldType": "System.String",
+          "FieldLength": 324
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 367
     }
   }
 }

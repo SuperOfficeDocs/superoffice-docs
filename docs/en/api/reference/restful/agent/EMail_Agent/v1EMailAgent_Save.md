@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 587,
-      "ContactName": "Smith-Batz",
-      "PersonId": 581,
-      "PersonName": "Conroy, Cremin and Carroll",
-      "AssociateId": 139,
-      "Address": "quia",
-      "EmailId": 840,
+      "ContactId": 963,
+      "ContactName": "Ziemann-Leffler",
+      "PersonId": 143,
+      "PersonName": "Schneider-Hirthe",
+      "AssociateId": 703,
+      "Address": "iusto",
+      "EmailId": 3,
       "DuplicatePersonIds": [
-        969,
-        324
+        167,
+        864
       ],
-      "Name": "Walker-Runolfsdottir",
+      "Name": "Wunsch-Bruen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 381
+          "FieldLength": 255
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 447,
-      "ContactName": "Lindgren-Collins",
-      "PersonId": 763,
-      "PersonName": "Bode-Predovic",
-      "AssociateId": 299,
-      "Address": "rerum",
-      "EmailId": 13,
+      "ContactId": 658,
+      "ContactName": "Weimann, Bernhard and Doyle",
+      "PersonId": 60,
+      "PersonName": "Daniel-Kautzer",
+      "AssociateId": 825,
+      "Address": "eum",
+      "EmailId": 535,
       "DuplicatePersonIds": [
-        50,
-        452
+        335,
+        300
       ],
-      "Name": "Langosh LLC",
+      "Name": "Hammes-Welch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 116
+          "FieldLength": 770
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 437,
-      "ContactName": "Harris Inc and Sons",
-      "PersonId": 767,
-      "PersonName": "Leannon Inc and Sons",
-      "AssociateId": 916,
-      "Address": "qui",
-      "EmailId": 403,
+      "ContactId": 239,
+      "ContactName": "Haag-Koelpin",
+      "PersonId": 446,
+      "PersonName": "Lowe LLC",
+      "AssociateId": 347,
+      "Address": "culpa",
+      "EmailId": 926,
       "DuplicatePersonIds": [
-        656,
-        5
+        153,
+        534
       ],
-      "Name": "Block-Kris",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 258
-        }
-      }
-    }
-  ],
-  "Subject": "alias",
-  "HTMLBody": "voluptate",
-  "From": null,
-  "Sent": "2017-03-16T16:54:55.2934195+01:00",
-  "Size": 81,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "consequuntur",
-  "PlainBody": "iusto",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 992,
-  "Attachments": [
-    {
-      "Description": "Networked intangible superstructure",
-      "Filename": "odio",
-      "Size": 370,
-      "Type": "et",
-      "Encoding": "ut",
-      "Id": "pariatur",
-      "Disposition": "nostrum",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Hauck-Pouros",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 246
+        }
+      }
+    }
+  ],
+  "Subject": "natus",
+  "HTMLBody": "similique",
+  "From": null,
+  "Sent": "2019-06-11T10:30:23.7199314+02:00",
+  "Size": 39,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "sint",
+  "PlainBody": "perspiciatis",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 114,
+  "Attachments": [
+    {
+      "Description": "Pre-emptive upward-trending task-force",
+      "Filename": "voluptatem",
+      "Size": 398,
+      "Type": "officiis",
+      "Encoding": "impedit",
+      "Id": "voluptatem",
+      "Disposition": "harum",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Russel Group",
+      "Name": "Kautzer Inc and Sons",
       "Values": [
-        "sit",
-        "autem"
+        "earum",
+        "id"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 386
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     },
     {
-      "Name": "Russel Group",
+      "Name": "Kautzer Inc and Sons",
       "Values": [
-        "sit",
-        "autem"
+        "earum",
+        "id"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 386
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     }
   ],
-  "FolderName": "Schaden-Doyle",
-  "EmailItemId": 226,
-  "AccountId": 950,
-  "ReceivedAt": "2021-05-05T16:54:55.2934195+02:00",
+  "FolderName": "Bahringer, Runte and Lynch",
+  "EmailItemId": 195,
+  "AccountId": 576,
+  "ReceivedAt": "2020-07-31T10:30:23.7199314+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-10-13T16:54:55.2934195+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-06-19T10:30:23.7199314+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   }
 }

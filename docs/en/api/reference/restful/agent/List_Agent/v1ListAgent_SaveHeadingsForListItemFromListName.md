@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Skiles-Conn",
-  "ListItemId": 30,
+  "UdListDefinitionName": "Bednar-Rowe",
+  "ListItemId": 993,
   "Headings": [
     {
-      "Id": 58,
-      "Name": "Dietrich, Gleichner and Hagenes",
-      "ToolTip": "Est dignissimos vel nulla porro rerum vero.",
+      "Id": 627,
+      "Name": "Rice-McKenzie",
+      "ToolTip": "Inventore reiciendis nostrum nemo possimus iusto dicta facilis.",
       "Deleted": false,
-      "Rank": 536,
-      "Type": "molestiae",
-      "ColorBlock": 327,
-      "IconHint": "qui",
+      "Rank": 981,
+      "Type": "pariatur",
+      "ColorBlock": 751,
+      "IconHint": "animi",
       "Selected": true,
-      "LastChanged": "2014-11-12T16:54:55.5699843+01:00",
+      "LastChanged": "2006-01-14T10:30:23.9944062+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "at",
-      "StyleHint": "dignissimos",
+      "ExtraInfo": "quos",
+      "StyleHint": "nobis",
       "Hidden": true,
-      "FullName": "Shyanne Feeney"
+      "FullName": "Royce Schamberger"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Heidenreich Group",
-    "ToolTip": "Cum placeat.",
-    "Deleted": false,
-    "Rank": 123,
-    "Type": "eius",
-    "ColorBlock": 937,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "2003-05-17T16:54:55.5709841+02:00",
+    "Id": 491,
+    "Name": "Stark Inc and Sons",
+    "ToolTip": "Molestiae maiores non.",
+    "Deleted": true,
+    "Rank": 289,
+    "Type": "qui",
+    "ColorBlock": 693,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2018-09-11T10:30:24.0100212+02:00",
     "ChildItems": [
       {
-        "Id": 996,
-        "Name": "Wunsch, Schowalter and Hodkiewicz",
-        "ToolTip": "Fugiat repudiandae enim ab commodi ratione.",
-        "Deleted": true,
-        "Rank": 126,
-        "Type": "nobis",
-        "ColorBlock": 307,
-        "IconHint": "necessitatibus",
+        "Id": 509,
+        "Name": "Goodwin Group",
+        "ToolTip": "Ad culpa adipisci dignissimos voluptatum autem.",
+        "Deleted": false,
+        "Rank": 709,
+        "Type": "voluptas",
+        "ColorBlock": 361,
+        "IconHint": "sequi",
         "Selected": true,
-        "LastChanged": "2003-12-24T16:54:55.5709841+01:00",
+        "LastChanged": "2019-08-23T10:30:24.0100212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
+        "ExtraInfo": "iusto",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Willy Lueilwitz",
+        "FullName": "Prof. Kristin Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 17
+            "FieldLength": 629
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Cyrus Tromp",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "adipisci",
+    "Hidden": false,
+    "FullName": "Ms. Amani Mabel Mayer Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 540
       }
     }
   }

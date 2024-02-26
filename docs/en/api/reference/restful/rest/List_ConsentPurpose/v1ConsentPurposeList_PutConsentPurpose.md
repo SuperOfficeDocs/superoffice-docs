@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 340,
-  "Name": "Stracke-Rice",
-  "ConsentText": "sunt",
-  "FormText": "voluptatibus",
-  "Key": "reprehenderit",
-  "Tooltip": "itaque",
-  "Active": 272,
-  "UpdatedDate": "2013-06-25T16:55:30.570698+02:00",
+  "ConsentPurposeId": 368,
+  "Name": "West Group",
+  "ConsentText": "rerum",
+  "FormText": "rem",
+  "Key": "reiciendis",
+  "Tooltip": "architecto",
+  "Active": 609,
+  "UpdatedDate": "2017-04-25T10:30:32.9118319+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 6,
-  "PrivacyStatementDesc": "libero",
+  "Deleted": true,
+  "Rank": 622,
+  "PrivacyStatementDesc": "id",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 452,
-  "Name": "Gusikowski-Barrows",
-  "ConsentText": "ut",
-  "FormText": "ea",
-  "Key": "ut",
-  "Tooltip": "voluptatem",
-  "Active": 125,
-  "UpdatedDate": "2002-10-28T16:55:30.570698+01:00",
+  "ConsentPurposeId": 46,
+  "Name": "Thiel, Ziemann and Stanton",
+  "ConsentText": "error",
+  "FormText": "maiores",
+  "Key": "sit",
+  "Tooltip": "error",
+  "Active": 104,
+  "UpdatedDate": "2012-12-21T10:30:32.9118319+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 621,
-  "PrivacyStatementDesc": "id",
+  "Rank": 732,
+  "PrivacyStatementDesc": "ut",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   }
 }

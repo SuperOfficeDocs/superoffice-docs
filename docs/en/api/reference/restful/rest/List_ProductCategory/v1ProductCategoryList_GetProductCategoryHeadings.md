@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 223,
-    "Name": "Stamm-Kunze",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "Rank": 548,
-    "UdListDefinitionId": 808,
+    "HeadingId": 506,
+    "Name": "Gleichner Inc and Sons",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "Rank": 444,
+    "UdListDefinitionId": 961,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldLength": 63
       }
     }
   }

@@ -693,7 +693,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelection?$select=person/rank,person/restrictionAddress/formattedAddress,person/personAssociate/assocType,project/LastCompletedActivity,sale/salePublish/publishedTo
+GET /api/v1/archive/DocumentDynamicSelection?$select=person/personNoMail,person/personSource,person/personExtra/x_person_request_relation,person/correspondingAssociate/isActiveText,contact/streetAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

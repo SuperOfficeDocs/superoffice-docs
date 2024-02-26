@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 962,
-  "AttachmentId": "voluptatem"
+  "MessageServerId": 316,
+  "AttachmentId": "ab"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented reciprocal adapter",
-  "Filename": "non",
-  "Size": 119,
-  "Type": "sunt",
-  "Encoding": "voluptatem",
-  "Id": "officia",
-  "Disposition": "veniam",
+  "Description": "Extended 24/7 array",
+  "Filename": "rerum",
+  "Size": 399,
+  "Type": "est",
+  "Encoding": "laudantium",
+  "Id": "quia",
+  "Disposition": "iusto",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 950
     }
   }
 }

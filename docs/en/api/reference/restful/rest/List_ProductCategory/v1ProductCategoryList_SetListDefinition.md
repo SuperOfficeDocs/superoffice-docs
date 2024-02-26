@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 317,
-  "Name": "Labadie Group",
-  "Tooltip": "beatae",
+  "Id": 250,
+  "Name": "O'Reilly Inc and Sons",
+  "Tooltip": "modi",
   "Deleted": true,
-  "Rank": 51,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
+  "Rank": 987,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 495,
-  "Name": "Ernser, Schimmel and Boyer",
-  "Tooltip": "qui",
+  "Id": 770,
+  "Name": "Greenholt Group",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 699,
-  "IsCustomList": false,
+  "Rank": 287,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 271
     }
   }
 }

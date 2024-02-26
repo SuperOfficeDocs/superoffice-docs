@@ -140,37 +140,37 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 879,
-  "Name": "Flatley, Yost and Schroeder",
-  "Description": "Advanced fault-tolerant paradigm",
-  "WelcomeMessage": "sunt",
+  "ChatTopicId": 328,
+  "Name": "Gleason Inc and Sons",
+  "Description": "Integrated upward-trending complexity",
+  "WelcomeMessage": "aliquam",
   "Language": null,
-  "LastAccept": "1998-07-20T16:55:29.3527808+02:00",
-  "SecondsPrAccept": 303,
-  "AlertRecipient": "architecto",
+  "LastAccept": "2010-02-02T10:30:31.8073876+01:00",
+  "SecondsPrAccept": 949,
+  "AlertRecipient": "itaque",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "corporis",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "asperiores",
-  "WarnNewChatMinutes": 584,
-  "WarnManagerNewChatMinutes": 830,
+  "BadgeHeader": "eaque",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "velit",
+  "WarnNewChatMinutes": 516,
+  "WarnManagerNewChatMinutes": 634,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 129,
-  "WarnManagerChatMessageMinutes": 832,
+  "WarnChatMessageMinutes": 703,
+  "WarnManagerChatMessageMinutes": 750,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 823,
-  "OfflineFormQueueLength": 574,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ut"
+  "OfflineFormTimeLimit": 934,
+  "OfflineFormQueueLength": 205,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "ratione"
 }
 ```
 
@@ -181,21 +181,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 163,
-  "Name": "Schinner, Stamm and Corkery",
-  "Description": "Operative context-sensitive Graphical User Interface",
-  "WelcomeMessage": "voluptas",
+  "ChatTopicId": 208,
+  "Name": "Boyer-Lockman",
+  "Description": "Persistent responsive open system",
+  "WelcomeMessage": "dolores",
   "Language": null,
-  "LastAccept": "2010-04-09T16:55:29.3567815+02:00",
-  "SecondsPrAccept": 560,
-  "AlertRecipient": "quo",
+  "LastAccept": "2008-10-18T10:30:31.823057+02:00",
+  "SecondsPrAccept": 52,
+  "AlertRecipient": "a",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "vel",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "at",
-  "WarnNewChatMinutes": 928,
-  "WarnManagerNewChatMinutes": 266,
+  "CollectConsent": true,
+  "BadgeHeader": "et",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "aut",
+  "WarnNewChatMinutes": 644,
+  "WarnManagerNewChatMinutes": 870,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -205,24 +205,24 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 725,
-  "WarnManagerChatMessageMinutes": 132,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 890,
-  "OfflineFormQueueLength": 39,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "sunt",
+  "WarnChatMessageMinutes": 540,
+  "WarnManagerChatMessageMinutes": 326,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 526,
+  "OfflineFormQueueLength": 955,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

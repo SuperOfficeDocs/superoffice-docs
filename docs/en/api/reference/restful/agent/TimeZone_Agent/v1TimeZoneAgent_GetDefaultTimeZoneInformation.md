@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 675,
-  "TZLocationId": 729,
-  "LocationCode": "neque",
-  "Description": "Self-enabling dynamic alliance",
+  "PreferenceId": 461,
+  "TZLocationId": 902,
+  "LocationCode": "non",
+  "Description": "Integrated optimal software",
   "Country": "Sokovia",
-  "Bias": 483
+  "Bias": 699
 }
 ```

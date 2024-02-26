@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Hansen Group",
-    "ToolTip": "Velit dolores molestias qui laudantium.",
-    "Deleted": true,
-    "Rank": 939,
-    "Type": "harum",
-    "ColorBlock": 81,
-    "IconHint": "dolores",
+    "Id": 326,
+    "Name": "Corwin-Jakubowski",
+    "ToolTip": "Delectus nulla eum molestias odio quidem quis.",
+    "Deleted": false,
+    "Rank": 504,
+    "Type": "animi",
+    "ColorBlock": 717,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2009-01-21T16:55:31.0171842+01:00",
+    "LastChanged": "1999-06-25T10:30:33.1943329+02:00",
     "ChildItems": [
       {
-        "Id": 730,
-        "Name": "Nitzsche LLC",
-        "ToolTip": "In modi voluptatem cum aliquid sunt nulla.",
+        "Id": 987,
+        "Name": "Johnston-Ernser",
+        "ToolTip": "Quia placeat voluptatem nesciunt.",
         "Deleted": false,
-        "Rank": 154,
-        "Type": "nihil",
-        "ColorBlock": 833,
-        "IconHint": "expedita",
+        "Rank": 516,
+        "Type": "eos",
+        "ColorBlock": 659,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2005-01-08T16:55:31.0171842+01:00",
+        "LastChanged": "2018-06-30T10:30:33.1943329+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
+        "ExtraInfo": "commodi",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Hans Sipes"
+        "FullName": "Mr. Noe Esperanza Kihn"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Mrs. Blaze Larissa Crist MD"
+    "FullName": "Landen Metz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Marvin, Bruen and Crona",
-    "ToolTip": "Aliquid dicta nobis.",
+    "Id": 876,
+    "Name": "Kautzer Group",
+    "ToolTip": "Modi est blanditiis quibusdam velit.",
     "Deleted": false,
-    "Rank": 130,
-    "Type": "tenetur",
-    "ColorBlock": 413,
-    "IconHint": "officia",
-    "Selected": false,
-    "LastChanged": "2011-05-29T16:55:31.0191844+02:00",
+    "Rank": 719,
+    "Type": "et",
+    "ColorBlock": 144,
+    "IconHint": "tenetur",
+    "Selected": true,
+    "LastChanged": "1999-11-08T10:30:33.1943329+01:00",
     "ChildItems": [
       {
-        "Id": 318,
-        "Name": "Kuhic Group",
-        "ToolTip": "Rerum ex corrupti.",
+        "Id": 44,
+        "Name": "Gleichner, Franecki and Homenick",
+        "ToolTip": "Quo id.",
         "Deleted": false,
-        "Rank": 350,
-        "Type": "nisi",
-        "ColorBlock": 660,
-        "IconHint": "ex",
-        "Selected": false,
-        "LastChanged": "2000-12-06T16:55:31.0191844+01:00",
+        "Rank": 589,
+        "Type": "quia",
+        "ColorBlock": 738,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "2017-05-02T10:30:33.1943329+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "fuga",
+        "ExtraInfo": "ut",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Prof. Al Skiles Jr.",
+        "FullName": "Mrs. Felton Cloyd Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 422
+            "FieldLength": 90
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Veronica Corkery",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Helena Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 710
       }
     }
   }

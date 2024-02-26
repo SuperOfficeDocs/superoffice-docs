@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=illo
-GET /api/v1/MDOList/{listname}?query=voluptatem
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=fugiat
+GET /api/v1/MDOList/{listname}?query=aut
 ```
 
 
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Hoeger Group",
-    "ToolTip": "Et quia fugiat corporis fuga possimus facere esse.",
+    "Id": 289,
+    "Name": "Romaguera LLC",
+    "ToolTip": "Repudiandae et doloribus sit tempore iusto.",
     "Deleted": false,
-    "Rank": 525,
-    "Type": "voluptate",
+    "Rank": 205,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Reichert Group",
-        "ToolTip": "Accusantium itaque iusto.",
+        "Id": 449,
+        "Name": "Terry, Goldner and Durgan",
+        "ToolTip": "Et id sint iste aut quasi.",
         "Deleted": false,
-        "Rank": 415,
-        "Type": "dolor",
+        "Rank": 220,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 254,
-        "ExtraInfo": "dolores",
-        "StyleHint": "magnam",
-        "FullName": "Bertha Purdy",
+        "IconHint": "eaque",
+        "ColorBlock": 406,
+        "ExtraInfo": "in",
+        "StyleHint": "sit",
+        "FullName": "Delpha Turner Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 352
+            "FieldLength": 208
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 497,
-    "ExtraInfo": "et",
-    "StyleHint": "quia",
-    "FullName": "Kaleigh Carson Stroman I",
+    "IconHint": "quo",
+    "ColorBlock": 358,
+    "ExtraInfo": "unde",
+    "StyleHint": "at",
+    "FullName": "Catharine Pagac PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 375
       }
     }
   }

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 27,
-    "Name": "Sporer LLC",
+    "TicketPriorityId": 18,
+    "Name": "Kuhlman, Kuvalis and Bartell",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 550,
+    "SortOrder": 399,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 720,
-    "MonStart": "2003-04-28T16:54:55.5225771+02:00",
-    "MonStop": "2010-12-29T16:54:55.5225771+01:00",
-    "TueStart": "2016-03-27T16:54:55.5225771+02:00",
-    "TueStop": "2001-02-18T16:54:55.5225771+01:00",
-    "WedStart": "2013-05-08T16:54:55.5225771+02:00",
-    "WedStop": "2008-10-21T16:54:55.5225771+02:00",
-    "ThuStart": "2009-10-18T16:54:55.5225771+02:00",
-    "ThuStop": "2002-09-22T16:54:55.5225771+02:00",
-    "FriStart": "2011-07-07T16:54:55.5225771+02:00",
-    "FriStop": "2003-10-02T16:54:55.5225771+02:00",
-    "SatStart": "2003-06-18T16:54:55.5225771+02:00",
-    "SatStop": "2000-08-05T16:54:55.5225771+02:00",
-    "SunStart": "2016-02-09T16:54:55.5225771+01:00",
-    "SunStop": "2016-09-21T16:54:55.5225771+02:00",
+    "Deadline": 23,
+    "MonStart": "2002-06-25T10:30:23.9428584+02:00",
+    "MonStop": "2003-05-29T10:30:23.9428584+02:00",
+    "TueStart": "2005-09-10T10:30:23.9428584+02:00",
+    "TueStop": "2003-06-20T10:30:23.9428584+02:00",
+    "WedStart": "2007-08-25T10:30:23.9428584+02:00",
+    "WedStop": "1998-07-16T10:30:23.9428584+02:00",
+    "ThuStart": "1997-11-21T10:30:23.9428584+01:00",
+    "ThuStop": "2019-10-30T10:30:23.9428584+01:00",
+    "FriStart": "2000-10-04T10:30:23.9428584+02:00",
+    "FriStop": "2014-10-16T10:30:23.9428584+02:00",
+    "SatStart": "2014-08-31T10:30:23.9428584+02:00",
+    "SatStop": "2009-11-22T10:30:23.9428584+01:00",
+    "SunStart": "2006-11-15T10:30:23.9428584+01:00",
+    "SunStop": "2023-03-21T10:30:23.9428584+01:00",
     "NonDates": [
-      "ex",
-      "ad"
+      "minus",
+      "itaque"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 412,
-        "AlertLevel": 715,
-        "AlertTimeout": 956,
-        "Action": 104,
-        "DelegateTo": 797,
-        "ScriptId": 425,
-        "EmailTo": "hiram.ullrich@collier.uk",
-        "SmsTo": "molestiae",
-        "ReplyTemplateIdCustomer": 699,
-        "ReplyTemplateIdUser": 175,
-        "ReplyTemplateIdCatmast": 587,
-        "ReplyTemplateIdEmail": 685,
-        "RtiCustomerSms": 187,
-        "ReplyTemplateIdUserSms": 939,
-        "ReplyTemplateIdCatmastSms": 266,
-        "ReplyTemplateIdSms": 493,
+        "TicketAlertId": 225,
+        "AlertLevel": 2,
+        "AlertTimeout": 794,
+        "Action": 131,
+        "DelegateTo": 610,
+        "ScriptId": 469,
+        "EmailTo": "abby@hartmann.biz",
+        "SmsTo": "excepturi",
+        "ReplyTemplateIdCustomer": 406,
+        "ReplyTemplateIdUser": 538,
+        "ReplyTemplateIdCatmast": 371,
+        "ReplyTemplateIdEmail": 46,
+        "RtiCustomerSms": 353,
+        "ReplyTemplateIdUserSms": 983,
+        "ReplyTemplateIdCatmastSms": 769,
+        "ReplyTemplateIdSms": 831,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 283
+            "FieldLength": 828
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 902
       }
     }
   }

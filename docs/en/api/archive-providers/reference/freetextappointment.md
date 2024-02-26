@@ -720,7 +720,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=endTime,contact/streetAddress/county,contact/streetAddress/formattedAddress,person/isStakeholder,person/personUdef/SuperOffice:2
+GET /api/v1/archive/FreetextAppointment?$select=recurrenceRuleId,contact/contactAssociate/personEmail,contact/NumberOfActivities,person/personAddress/city,person/correspondingAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

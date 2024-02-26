@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "art@ankundinghayes.us",
+  "EmailAddress": "efren@kunze.info",
   "IcsData": "GIF89....File contents as raw bytes..."
 }
 ```

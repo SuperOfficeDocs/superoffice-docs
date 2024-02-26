@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Blanda Group",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "UdListDefinitionId": 940,
-    "Rank": 897
+    "Id": 854,
+    "Name": "Denesik, Berge and Collier",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 133,
+    "Rank": 913
   },
   {
-    "Id": 141,
-    "Name": "Blanda Group",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "UdListDefinitionId": 940,
-    "Rank": 897
+    "Id": 854,
+    "Name": "Denesik, Berge and Collier",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 133,
+    "Rank": 913
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Rempel, White and Haag",
-    "Tooltip": "suscipit",
-    "Deleted": false,
-    "UdListDefinitionId": 453,
-    "Rank": 105,
+    "Id": 62,
+    "Name": "Smitham Inc and Sons",
+    "Tooltip": "veniam",
+    "Deleted": true,
+    "UdListDefinitionId": 281,
+    "Rank": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldLength": 471
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 460,
-    "Name": "Ankunding, Cremin and Dicki",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "Rank": 609,
-    "UdListDefinitionId": 801,
+    "HeadingId": 849,
+    "Name": "Effertz, Lang and Nader",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 424,
+    "UdListDefinitionId": 277,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Tremblay-Stiedemann",
-  "Tooltip": "tenetur",
+  "Id": 412,
+  "Name": "Leannon Inc and Sons",
+  "Tooltip": "quo",
   "Deleted": true,
-  "Rank": 254,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
-  "InUseByUserDefinedFields": true
+  "Rank": 296,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "vel",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 826,
-  "Name": "Donnelly Group",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "Rank": 815,
-  "IsCustomList": false,
+  "Id": 106,
+  "Name": "Mertz-Waters",
+  "Tooltip": "temporibus",
+  "Deleted": true,
+  "Rank": 311,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldLength": 234
     }
   }
 }

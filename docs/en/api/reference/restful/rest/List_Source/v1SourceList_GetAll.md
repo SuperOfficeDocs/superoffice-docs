@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Reinger, Cassin and Volkman",
-    "Tooltip": "fugit",
-    "Deleted": true,
-    "UdListDefinitionId": 903,
-    "Rank": 733,
+    "Id": 268,
+    "Name": "Gorczany, Price and Nikolaus",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "UdListDefinitionId": 27,
+    "Rank": 959,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldLength": 401
       }
     }
   }

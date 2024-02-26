@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorem",
-  "ProviderName": "Nicolas, Boyle and O'Keefe",
-  "StorageKey": "quis",
+  "StorageType": "inventore",
+  "ProviderName": "Cummings, Jast and Collins",
+  "StorageKey": "quo",
   "DesiredColumnNames": [
-    "Nolan-Mraz",
-    "Rippin-Trantow"
+    "Rempel LLC",
+    "Bergnaum, Runte and Bergnaum"
   ],
   "StaticColumns": [
-    "et",
-    "ut"
+    "non",
+    "eum"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rice Group",
-      "Operator": "ut",
+      "Name": "Mayer-Nikolaus",
+      "Operator": "incidunt",
       "Values": [
-        "laudantium",
-        "autem"
+        "voluptatem",
+        "sequi"
       ],
       "DisplayValues": [
-        "maiores",
-        "tenetur"
+        "officiis",
+        "labore"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 438,
+      "InterParenthesis": 337,
       "InterOperator": "And",
-      "UniqueHash": 375
+      "UniqueHash": 744
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Dietrich-Lockman",
-      "DisplayTooltip": "suscipit",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Schowalter, Crona and Olson",
+      "DisplayName": "Hyatt Inc and Sons",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "ut",
+      "CanOrderBy": false,
+      "Name": "Runolfsson Group",
       "CanRestrictBy": false,
-      "RestrictionType": "laborum",
-      "RestrictionListName": "Herzog LLC",
-      "IsVisible": true,
-      "ExtraInfo": "in",
-      "Width": "aspernatur",
-      "IconHint": "est",
-      "HeadingIconHint": "vero"
+      "RestrictionType": "nesciunt",
+      "RestrictionListName": "Stokes-Johnson",
+      "IsVisible": false,
+      "ExtraInfo": "nobis",
+      "Width": "minima",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "aliquam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ritchie-Hills",
-      "PrimaryKey": 63,
+      "EntityName": "Goodwin, Blanda and Rath",
+      "PrimaryKey": 57,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "iusto",
-          "TooltipHint": "officia",
-          "LinkHint": "rem"
+          "DisplayValue": "aperiam",
+          "TooltipHint": "velit",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "cupiditate",
-      "StyleHint": "dicta",
+      "LinkHint": "non",
+      "StyleHint": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldType": "System.String",
+          "FieldLength": 548
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Reynolds, Harvey and Hoppe",
-      "Description": "Visionary holistic application",
-      "Rank": 319,
+      "Name": "Langworth Inc and Sons",
+      "Description": "Intuitive scalable model",
+      "Rank": 208,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Reynolds, Harvey and Hoppe",
-      "Description": "Visionary holistic application",
-      "Rank": 319,
+      "Name": "Langworth Inc and Sons",
+      "Description": "Intuitive scalable model",
+      "Rank": 208,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 257
     }
   }
 }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "qui"
+  "FileContent": "eos"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 592,
-      "NumberOfLicensesFree": 188,
-      "NumberOfLicensesAdded": 640,
-      "NumberOfLicensesNewTotal": 66,
-      "NumberOfLicensesNewFree": 13,
-      "NumberOfLicensesTotal": 402
+      "NumberOfLicensesInUse": 59,
+      "NumberOfLicensesFree": 153,
+      "NumberOfLicensesAdded": 686,
+      "NumberOfLicensesNewTotal": 456,
+      "NumberOfLicensesNewFree": 797,
+      "NumberOfLicensesTotal": 728
     }
   ],
-  "AccumulatedNextCheckDate": "2002-12-01T16:54:55.5084685+01:00"
+  "AccumulatedNextCheckDate": "2015-10-13T10:30:23.9428584+02:00"
 }
 ```

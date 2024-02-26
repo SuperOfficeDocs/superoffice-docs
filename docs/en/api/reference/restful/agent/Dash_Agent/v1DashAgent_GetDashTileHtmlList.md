@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 204
+  "DashboardTileDefinitionId": 611
 }
 ```
 
@@ -92,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "iste",
-    "Html": "consectetur",
+    "LanguageCode": "ab",
+    "Html": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   },
   {
-    "LanguageCode": "iste",
-    "Html": "consectetur",
+    "LanguageCode": "ab",
+    "Html": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   }

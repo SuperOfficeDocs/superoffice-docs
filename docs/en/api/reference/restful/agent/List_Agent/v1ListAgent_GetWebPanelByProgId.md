@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "qui"
+  "ProgId": "eius"
 }
 ```
 
@@ -109,26 +109,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 872,
-  "Name": "Kutch-Block",
-  "Tooltip": "architecto",
+  "WebPanelId": 939,
+  "Name": "Hansen Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 904,
+  "Rank": 724,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Maggio Group",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Kohler-Grant",
   "Url": "http://www.example.com/",
-  "ProgId": "explicabo",
-  "Icon": 940,
+  "ProgId": "illo",
+  "Icon": 651,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 262
     }
   }
 }

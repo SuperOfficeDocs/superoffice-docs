@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 760,
-    "Name": "Turner LLC",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 891,
-    "UdListDefinitionId": 871
+    "HeadingId": 87,
+    "Name": "Mante-Gibson",
+    "Tooltip": "excepturi",
+    "Deleted": false,
+    "Rank": 432,
+    "UdListDefinitionId": 346
   },
   {
-    "HeadingId": 760,
-    "Name": "Turner LLC",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 891,
-    "UdListDefinitionId": 871
+    "HeadingId": 87,
+    "Name": "Mante-Gibson",
+    "Tooltip": "excepturi",
+    "Deleted": false,
+    "Rank": 432,
+    "UdListDefinitionId": 346
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 887,
-    "Name": "Schuster, Shields and Christiansen",
-    "Tooltip": "eos",
+    "HeadingId": 834,
+    "Name": "Lakin Inc and Sons",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 968,
-    "UdListDefinitionId": 521,
+    "Rank": 992,
+    "UdListDefinitionId": 200,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

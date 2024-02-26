@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Greenholt Group",
-      "Operator": "velit",
+      "Name": "Welch-Deckow",
+      "Operator": "consequuntur",
       "Values": [
-        "voluptatem",
-        "eum"
+        "earum",
+        "expedita"
       ],
       "DisplayValues": [
-        "aspernatur",
-        "soluta"
+        "vitae",
+        "beatae"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 528,
+      "InterParenthesis": 240,
       "InterOperator": "And",
-      "UniqueHash": 51
+      "UniqueHash": 133
     }
   ],
-  "ProviderName": "Veum-Rempel",
-  "PageSize": 637,
-  "PageNumber": 416
+  "ProviderName": "Gulgowski, Kutch and Terry",
+  "PageSize": 738,
+  "PageNumber": 554
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Waters Inc and Sons",
-      "DisplayTooltip": "autem",
-      "DisplayType": "veritatis",
-      "CanOrderBy": false,
-      "Name": "Parisian Inc and Sons",
+      "DisplayName": "Gottlieb, Kozey and Mills",
+      "DisplayTooltip": "asperiores",
+      "DisplayType": "laborum",
+      "CanOrderBy": true,
+      "Name": "Hirthe, Conroy and Konopelski",
       "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Nader-Crona",
-      "IsVisible": true,
-      "ExtraInfo": "officia",
-      "Width": "corporis",
-      "IconHint": "facilis",
-      "HeadingIconHint": "aut"
+      "RestrictionType": "quidem",
+      "RestrictionListName": "Bergnaum-Quitzon",
+      "IsVisible": false,
+      "ExtraInfo": "quidem",
+      "Width": "qui",
+      "IconHint": "quos",
+      "HeadingIconHint": "mollitia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Feeney, Kovacek and Bailey",
-      "PrimaryKey": 789,
+      "EntityName": "Boyle LLC",
+      "PrimaryKey": 693,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "occaecati",
-          "TooltipHint": "soluta",
-          "LinkHint": "corporis"
+          "DisplayValue": "et",
+          "TooltipHint": "est",
+          "LinkHint": "rerum"
         }
       },
-      "LinkHint": "minus",
-      "StyleHint": "ab",
+      "LinkHint": "autem",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 621
+          "FieldLength": 305
         }
       }
     }
   ],
-  "RowCount": 277,
+  "RowCount": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 286
     }
   }
 }

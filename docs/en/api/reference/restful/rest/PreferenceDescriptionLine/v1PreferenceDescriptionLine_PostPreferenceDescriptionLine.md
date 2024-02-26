@@ -90,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 194,
-  "PrefDescId": 837,
-  "PrefValue": "est",
-  "PrefShowValue": "ut",
-  "Description": "Progressive scalable migration",
-  "IsBuiltin": false
+  "PrefDescLineId": 560,
+  "PrefDescId": 962,
+  "PrefValue": "numquam",
+  "PrefShowValue": "consequatur",
+  "Description": "Profit-focused user-facing open system",
+  "IsBuiltin": true
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 95,
-  "PrefDescId": 429,
-  "PrefValue": "aut",
-  "PrefShowValue": "ea",
-  "Description": "Face to face composite system engine",
-  "IsBuiltin": false,
+  "PrefDescLineId": 919,
+  "PrefDescId": 34,
+  "PrefValue": "ipsam",
+  "PrefShowValue": "dicta",
+  "Description": "Quality-focused fault-tolerant conglomeration",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   },
   "_Links": {

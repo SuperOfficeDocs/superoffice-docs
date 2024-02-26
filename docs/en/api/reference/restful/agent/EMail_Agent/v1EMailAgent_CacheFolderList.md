@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kertzmann LLC",
-    "Delimiter": "similique",
-    "Flags": "qui",
-    "TotalItems": 956,
-    "UnreadItems": 184,
-    "Subscribed": false,
-    "EmailFolderId": 500,
+    "Name": "McDermott-Bartell",
+    "Delimiter": "eaque",
+    "Flags": "quibusdam",
+    "TotalItems": 256,
+    "UnreadItems": 598,
+    "Subscribed": true,
+    "EmailFolderId": 644,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 291
       }
     }
   }

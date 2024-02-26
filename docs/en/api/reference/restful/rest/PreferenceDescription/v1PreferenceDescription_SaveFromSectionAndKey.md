@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 296,
-  "Section": "voluptatem",
-  "Key": "hic",
-  "Name": "Rippin, Hyatt and Christiansen",
+  "PrefDescId": 310,
+  "Section": "consequatur",
+  "Key": "vero",
+  "Name": "Schaden LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused optimal project",
-  "IsBuiltin": true,
-  "TableName": "Kohler-Crona",
-  "UserDefinedListId": 832,
-  "Rank": 722,
-  "SubGroup": "iste",
-  "MinLevel": 384,
-  "MaxValue": 995,
-  "MinValue": 534,
-  "RequiredLicense": "odit"
+  "Description": "Reduced impactful strategy",
+  "IsBuiltin": false,
+  "TableName": "Vandervort-Schiller",
+  "UserDefinedListId": 585,
+  "Rank": 951,
+  "SubGroup": "ea",
+  "MinLevel": 114,
+  "MaxValue": 923,
+  "MinValue": 190,
+  "RequiredLicense": "accusantium"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 278,
-  "Section": "ipsum",
-  "Key": "eaque",
-  "Name": "Muller Inc and Sons",
+  "PrefDescId": 701,
+  "Section": "ut",
+  "Key": "aliquid",
+  "Name": "Kuhn, Witting and Schaden",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed upward-trending productivity",
+  "Description": "Managed zero administration encryption",
   "IsBuiltin": false,
-  "TableName": "Lowe-McLaughlin",
-  "UserDefinedListId": 884,
-  "Rank": 31,
-  "SubGroup": "vel",
-  "MinLevel": 784,
-  "MaxValue": 476,
-  "MinValue": 575,
-  "RequiredLicense": "quas",
+  "TableName": "Block, Sauer and Collins",
+  "UserDefinedListId": 731,
+  "Rank": 344,
+  "SubGroup": "excepturi",
+  "MinLevel": 257,
+  "MaxValue": 863,
+  "MinValue": 560,
+  "RequiredLicense": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 78
     }
   }
 }

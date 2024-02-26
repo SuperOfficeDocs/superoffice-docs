@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Roberts-Price",
-    "DisplayName": "Crona-Simonis",
-    "DisplayTooltip": "quisquam",
+    "Name": "Sauer-Runte",
+    "DisplayName": "Mueller Inc and Sons",
+    "DisplayTooltip": "eum",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 918
       }
     }
   },
   {
-    "Name": "Roberts-Price",
-    "DisplayName": "Crona-Simonis",
-    "DisplayTooltip": "quisquam",
+    "Name": "Sauer-Runte",
+    "DisplayName": "Mueller Inc and Sons",
+    "DisplayTooltip": "eum",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 918
       }
     }
   }

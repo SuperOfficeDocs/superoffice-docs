@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 934,
-  "Name": "Parisian Group",
-  "AssociateId": 814,
-  "DetailsTable": 830,
-  "DetailsRecord": 734,
-  "IsSystemTask": false,
+  "Id": 793,
+  "Name": "Schmidt, Cummerata and Sipes",
+  "AssociateId": 88,
+  "DetailsTable": 955,
+  "DetailsRecord": 66,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "est",
-    "ParameterObject2": "voluptate"
+    "ParameterObject1": "dolorem",
+    "ParameterObject2": "cupiditate"
   },
-  "LastStarted": "2002-05-04T16:54:54.6033021+02:00",
-  "Created": "1998-11-11T16:54:54.6033021+01:00",
-  "StartCount": 428,
-  "DatabaseSerialNumber": "211793",
-  "Context": "molestiae",
-  "Result": "alias",
+  "LastStarted": "2003-09-06T10:30:23.0982933+02:00",
+  "Created": "2014-02-02T10:30:23.0982933+01:00",
+  "StartCount": 992,
+  "DatabaseSerialNumber": "849116",
+  "Context": "quasi",
+  "Result": "hic",
   "State": "All",
-  "Description": "Virtual assymetric orchestration",
-  "Response": "in",
-  "Request": "voluptatibus",
-  "ProgressDescription": "Virtual intermediate methodology",
-  "ProgressPercent": 22,
-  "FileName": "Weber LLC",
+  "Description": "Mandatory disintermediate extranet",
+  "Response": "consequuntur",
+  "Request": "debitis",
+  "ProgressDescription": "Organic explicit pricing structure",
+  "ProgressPercent": 307,
+  "FileName": "Marks-Waelchi",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 860
     }
   }
 }

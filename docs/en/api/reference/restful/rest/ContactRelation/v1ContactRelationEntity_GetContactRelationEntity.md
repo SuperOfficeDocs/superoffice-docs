@@ -99,38 +99,38 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 13 Jul 2018 16:55:29 G7T
+Last-Modified: Sun, 06 Oct 2013 10:30:31 G10T
 
 {
-  "SourceContactId": 656,
-  "SourcePersonId": 310,
-  "DestinationContactId": 724,
-  "DestinationPersonId": 899,
-  "RelationId": 572,
-  "Comment": "doloremque",
-  "RelationDefinitionId": 758,
-  "Reversed": 84,
-  "UpdatedDate": "2018-07-13T16:55:29.5208331+02:00",
-  "CreatedDate": "2024-01-22T16:55:29.5208331+01:00",
+  "SourceContactId": 196,
+  "SourcePersonId": 474,
+  "DestinationContactId": 681,
+  "DestinationPersonId": 389,
+  "RelationId": 693,
+  "Comment": "placeat",
+  "RelationDefinitionId": 959,
+  "Reversed": 733,
+  "UpdatedDate": "2013-10-06T10:30:31.9480569+02:00",
+  "CreatedDate": "2007-06-16T10:30:31.9480569+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "McDermott, O'Conner and Ankunding",
-  "SourcePersonName": "Koelpin-Anderson",
-  "DestinationContactName": "Ledner-Langosh",
-  "DestinationPersonName": "Wuckert Inc and Sons",
-  "ActiveText": "ut",
-  "PassiveText": "sit",
+  "SourceContactName": "Schneider-Fadel",
+  "SourcePersonName": "Wiza Inc and Sons",
+  "DestinationContactName": "Marks Group",
+  "DestinationPersonName": "Lebsack, Stark and Metz",
+  "ActiveText": "quis",
+  "PassiveText": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 788
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

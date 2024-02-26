@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 354
+  "MailItemId": 213
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 506,
-  "StartDate": "2008-12-25T16:54:55.3264202+01:00",
-  "EndDate": "2018-04-29T16:54:55.3264202+02:00",
-  "RecurrenceCounter": 609,
+  "RecurrenceId": 814,
+  "StartDate": "2019-07-18T10:30:23.7511796+02:00",
+  "EndDate": "2022-02-26T10:30:23.7511796+01:00",
+  "RecurrenceCounter": 467,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2016-11-11T16:54:55.3264202+01:00",
-      "IsConflict": true,
-      "Description": "Secured grid-enabled neural-net",
-      "DescriptionStyleHint": "Front-line maximized synergy",
-      "Tooltip": "quis"
+      "Date": "2014-12-06T10:30:23.7511796+01:00",
+      "IsConflict": false,
+      "Description": "Customizable didactic instruction set",
+      "DescriptionStyleHint": "Configurable non-volatile core",
+      "Tooltip": "quidem"
     },
     {
-      "Date": "2016-11-11T16:54:55.3264202+01:00",
-      "IsConflict": true,
-      "Description": "Secured grid-enabled neural-net",
-      "DescriptionStyleHint": "Front-line maximized synergy",
-      "Tooltip": "quis"
+      "Date": "2014-12-06T10:30:23.7511796+01:00",
+      "IsConflict": false,
+      "Description": "Customizable didactic instruction set",
+      "DescriptionStyleHint": "Configurable non-volatile core",
+      "Tooltip": "quidem"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

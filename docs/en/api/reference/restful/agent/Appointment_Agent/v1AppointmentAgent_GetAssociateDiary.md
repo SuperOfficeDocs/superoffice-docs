@@ -128,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 278,
-  "StartTime": "2011-09-30T16:54:54.2570099+02:00",
-  "EndTime": "2004-12-12T16:54:54.2570099+01:00",
-  "Count": 381
+  "AssociateId": 956,
+  "StartTime": "2007-02-06T10:30:22.6098897+01:00",
+  "EndTime": "1996-10-08T10:30:22.6098897+02:00",
+  "Count": 523
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 752,
-    "StartDate": "2020-10-11T16:54:54.2580954+02:00",
-    "EndDate": "2016-06-01T16:54:54.2580954+02:00",
+    "AppointmentId": 178,
+    "StartDate": "2007-02-02T10:30:22.6098897+01:00",
+    "EndDate": "2006-06-22T10:30:22.6098897+02:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Miss Samir Reid Walker",
-    "ContactName": "Huel-Ebert",
-    "Description": "Persistent value-added array",
-    "PersonFullName": "Nolan Hamill",
-    "PersonId": 721,
-    "ContactId": 641,
-    "ProjectId": 700,
-    "ProjectName": "Zboncak-Rau",
+    "Task": "ipsum",
+    "AssociateFullName": "Rae Fahey",
+    "ContactName": "Turner LLC",
+    "Description": "Adaptive interactive migration",
+    "PersonFullName": "Sydnie Hagenes DDS",
+    "PersonId": 387,
+    "ContactId": 981,
+    "ProjectId": 848,
+    "ProjectName": "Zemlak LLC",
     "IsPublished": false,
-    "AssociateId": 487,
-    "ColorIndex": 966,
+    "AssociateId": 253,
+    "ColorIndex": 733,
     "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 252,
-    "PriorityName": "Rogahn, Wuckert and Durgan",
+    "PriorityId": 545,
+    "PriorityName": "Pouros Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2017-01-21T16:54:54.2591211+01:00",
+    "ActiveDate": "2005-03-14T10:30:22.6098897+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-09-15T16:54:54.2591211+02:00",
-    "RecurringEndDate": "2012-08-12T16:54:54.2591211+02:00",
-    "MotherId": 350,
-    "AssignedBy": 202,
-    "AssignedByFullName": "Lizzie Schinner",
+    "RecurringStartDate": "2012-08-06T10:30:22.6098897+02:00",
+    "RecurringEndDate": "2012-03-04T10:30:22.6098897+01:00",
+    "MotherId": 293,
+    "AssignedBy": 640,
+    "AssignedByFullName": "Prof. Grant Elise Roberts",
     "RejectReason": "",
-    "Location": "expedita",
-    "AlarmLeadTime": "cum",
-    "SaleId": 265,
-    "SaleName": "Weber-Mohr",
-    "AssociateName": "Price, Strosin and O'Hara",
-    "CreatedDate": "2008-04-24T16:54:54.2591211+02:00",
-    "CreatedBy": "enim",
-    "CreatedByFullName": "Gertrude Hartmann",
-    "CreatedByAssociateId": 691,
+    "Location": "velit",
+    "AlarmLeadTime": "eum",
+    "SaleId": 732,
+    "SaleName": "Hahn, Wolf and Stehr",
+    "AssociateName": "Ondricka Group",
+    "CreatedDate": "2016-04-08T10:30:22.6098897+02:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Audreanne Frami",
+    "CreatedByAssociateId": 71,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 386,
-    "Title": "hic",
-    "Agenda": "vero",
-    "InternalNotes": "non",
+    "PreferredTZLocation": 805,
+    "Title": "deserunt",
+    "Agenda": "non",
+    "InternalNotes": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 23
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

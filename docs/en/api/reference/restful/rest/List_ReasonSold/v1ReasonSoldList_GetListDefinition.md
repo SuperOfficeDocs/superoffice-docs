@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 655,
-  "Name": "Batz LLC",
-  "Tooltip": "qui",
+  "Id": 738,
+  "Name": "Cruickshank, Abshire and Reinger",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 53,
+  "Rank": 874,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cupiditate",
+  "UseGroupsAndHeadings": false,
+  "ListType": "magni",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldLength": 519
     }
   },
   "_Links": {

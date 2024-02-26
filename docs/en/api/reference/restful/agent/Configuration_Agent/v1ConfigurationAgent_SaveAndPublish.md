@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 326,
-  "Name": "Baumbach, Beahan and Sauer",
-  "Description": "Reverse-engineered upward-trending open architecture",
-  "DeltaJson": "delectus",
+  "ConfigurableScreenDeltaId": 878,
+  "Name": "Reinger-Lindgren",
+  "Description": "Fully-configurable exuding archive",
+  "DeltaJson": "earum",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quod",
-  "UpdatedDate": "2015-01-26T16:54:54.8921746+01:00",
-  "CreatedDate": "1997-04-09T16:54:54.8921746+02:00",
+  "RecipeId": "provident",
+  "UpdatedDate": "2003-01-24T10:30:23.2574424+01:00",
+  "CreatedDate": "2001-06-20T10:30:23.2574424+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    751,
-    160
+    62,
+    802
   ],
-  "AppliesToKey": "quis",
+  "AppliesToKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 77
     }
   }
 }

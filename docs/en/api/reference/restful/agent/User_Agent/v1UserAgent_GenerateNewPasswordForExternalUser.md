@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/User/GenerateNewPasswordForExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Upton, Herman and Towne"
+  "AssociateName": "Cummings Group"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"veritatis"
+"distinctio"
 ```

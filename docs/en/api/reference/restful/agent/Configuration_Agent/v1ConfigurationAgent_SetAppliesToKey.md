@@ -69,8 +69,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "cum",
-  "AppliesToKey": "at"
+  "RecipeId": "accusamus",
+  "AppliesToKey": "ratione"
 }
 ```
 

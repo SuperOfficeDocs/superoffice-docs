@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 553,
-  "Name": "Hermiston, Schneider and Dibbert",
-  "Description": "User-centric bottom-line infrastructure",
-  "WelcomeMessage": "quis",
+  "ChatTopicId": 66,
+  "Name": "Wintheiser LLC",
+  "Description": "Versatile human-resource challenge",
+  "WelcomeMessage": "neque",
   "Language": null,
-  "LastAccept": "2018-07-02T16:54:54.6598202+02:00",
-  "SecondsPrAccept": 159,
-  "AlertRecipient": "sint",
+  "LastAccept": "2006-04-26T10:30:23.1451766+02:00",
+  "SecondsPrAccept": 75,
+  "AlertRecipient": "vel",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "voluptatibus",
+  "CollectConsent": true,
+  "BadgeHeader": "corporis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 685,
-  "WarnManagerNewChatMinutes": 654,
-  "TicketEnabled": false,
+  "CustomQueueText": "dolores",
+  "WarnNewChatMinutes": 884,
+  "WarnManagerNewChatMinutes": 294,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 479,
-  "WarnManagerChatMessageMinutes": 81,
+  "WarnChatMessageMinutes": 910,
+  "WarnManagerChatMessageMinutes": 24,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 393,
-  "OfflineFormQueueLength": 733,
+  "OfflineFormTimeLimit": 401,
+  "OfflineFormQueueLength": 378,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "deleniti",
+  "WidgetRatingText": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldLength": 220
     }
   }
 }

@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 20
+  "QuoteVersionId": 176
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 930,
-  "ERPQuoteVersionKey": "nisi",
-  "QuoteId": 318,
-  "Description": "Universal global hierarchy",
-  "Number": "1199849",
+  "QuoteVersionId": 646,
+  "ERPQuoteVersionKey": "tempora",
+  "QuoteId": 561,
+  "Description": "Grass-roots 24 hour complexity",
+  "Number": "1609392",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 594,
-  "SentDate": "2008-09-23T16:54:56.0951594+02:00",
-  "FollowupId": 239,
-  "ExpirationDate": "2005-05-09T16:54:56.0951594+02:00",
-  "DeliveryCountryId": 173,
+  "LikelyQuoteAlternativeId": 895,
+  "SentDate": "1998-12-08T10:30:24.3877082+01:00",
+  "FollowupId": 701,
+  "ExpirationDate": "2014-02-04T10:30:24.3877082+01:00",
+  "DeliveryCountryId": 574,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 920,
+  "InvoiceCountryId": 764,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "ex",
-  "ERPPaymentTypeKey": "doloribus",
-  "ERPDeliveryTermsKey": "mollitia",
-  "ERPDeliveryTypeKey": "autem",
-  "Rank": 359,
-  "ApprovedBy": 369,
-  "ApprovedText": "voluptatum",
-  "ApprovedRegisteredBy": 854,
-  "ApprovedRegisteredDate": "2014-10-29T16:54:56.0951594+01:00",
-  "ExtraField1": "sint",
-  "ExtraField2": "alias",
-  "ExtraField3": "et",
-  "ExtraField4": "facilis",
-  "ExtraField5": "labore",
-  "LastRecalculated": "2020-07-16T16:54:56.0951594+02:00",
-  "Updated": "2007-06-07T16:54:56.0951594+02:00",
-  "UpdatedAssociateId": 253,
-  "Registered": "2004-01-29T16:54:56.0951594+01:00",
-  "RegisteredAssociateId": 546,
-  "RequestAssociateId": 785,
-  "RequestComment": "ipsa",
+  "ERPPaymentTermsKey": "iste",
+  "ERPPaymentTypeKey": "illum",
+  "ERPDeliveryTermsKey": "beatae",
+  "ERPDeliveryTypeKey": "esse",
+  "Rank": 659,
+  "ApprovedBy": 225,
+  "ApprovedText": "et",
+  "ApprovedRegisteredBy": 801,
+  "ApprovedRegisteredDate": "2018-01-11T10:30:24.3877082+01:00",
+  "ExtraField1": "soluta",
+  "ExtraField2": "deleniti",
+  "ExtraField3": "rem",
+  "ExtraField4": "repudiandae",
+  "ExtraField5": "doloribus",
+  "LastRecalculated": "2009-04-08T10:30:24.3877082+02:00",
+  "Updated": "2001-07-16T10:30:24.3877082+02:00",
+  "UpdatedAssociateId": 670,
+  "Registered": "1999-05-07T10:30:24.3877082+02:00",
+  "RegisteredAssociateId": 489,
+  "RequestAssociateId": 327,
+  "RequestComment": "quo",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 259,
-      "ERPQuoteAlternativeKey": "et",
-      "QuoteVersionId": 241,
-      "Name": "Klocko, Tillman and Sipes",
-      "Description": "Face to face tertiary initiative",
+      "QuoteAlternativeId": 553,
+      "ERPQuoteAlternativeKey": "nam",
+      "QuoteVersionId": 224,
+      "Name": "Gusikowski Group",
+      "Description": "Innovative solution-oriented orchestration",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 19806.88,
-      "ERPDiscountAmount": 3152.804,
-      "DiscountPercent": 29961.039999999997,
-      "DiscountAmount": 22505.254,
+      "ERPDiscountPercent": 1814.586,
+      "ERPDiscountAmount": 19775.54,
+      "DiscountPercent": 12887.008,
+      "DiscountAmount": 8264.358,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "qui",
-      "VAT": 26256.652,
-      "EarningPercent": 14372.524,
-      "EarningAmount": 448.162,
-      "SubTotal": 21069.881999999998,
-      "TotalPrice": 2688.9719999999998,
-      "ExtraField1": "architecto",
-      "ExtraField2": "aperiam",
-      "ExtraField3": "non",
-      "ExtraField4": "nulla",
-      "ExtraField5": "et",
+      "VATInfo": "et",
+      "VAT": 1106.302,
+      "EarningPercent": 354.142,
+      "EarningAmount": 16958.074,
+      "SubTotal": 25645.522,
+      "TotalPrice": 12626.886,
+      "ExtraField1": "aliquid",
+      "ExtraField2": "nulla",
+      "ExtraField3": "quo",
+      "ExtraField4": "provident",
+      "ExtraField5": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 605
+          "FieldLength": 901
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 826
     }
   }
 }

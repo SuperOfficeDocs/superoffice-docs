@@ -713,7 +713,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=project/projectAssociate/credentialDisplayValue,project/projectAssociate/userName,contact/saintAmountClass
+GET /api/v1/archive/LinksAppointments?$select=sourceSaleRestrictionId,person/useAsMailingAddress,sale/associate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

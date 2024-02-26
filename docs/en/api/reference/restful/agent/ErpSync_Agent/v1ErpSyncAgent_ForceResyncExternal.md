@@ -86,11 +86,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 599,
+  "ErpConnectionId": 125,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "eaque",
-    "id"
+    "est",
+    "debitis"
   ]
 }
 ```
@@ -102,10 +102,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "explicabo",
-  "TechExplanation": "omnis",
-  "ErrorCode": "sed",
+  "IsOk": true,
+  "UserExplanation": "possimus",
+  "TechExplanation": "dolore",
+  "ErrorCode": "ut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 848
     }
   }
 }

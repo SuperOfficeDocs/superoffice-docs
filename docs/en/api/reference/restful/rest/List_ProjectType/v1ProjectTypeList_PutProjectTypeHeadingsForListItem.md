@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Yundt Group",
-    "ToolTip": "Omnis recusandae eum.",
+    "Id": 522,
+    "Name": "Pfannerstill, Gerlach and Bernhard",
+    "ToolTip": "Sit ipsa sed et iure eos.",
     "Deleted": true,
-    "Rank": 615,
-    "Type": "cupiditate",
-    "ColorBlock": 527,
-    "IconHint": "illo",
-    "Selected": false,
-    "LastChanged": "2022-11-10T16:55:30.8508113+01:00",
+    "Rank": 569,
+    "Type": "nostrum",
+    "ColorBlock": 541,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "2001-09-05T10:30:33.1474583+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Wolff Inc and Sons",
-        "ToolTip": "Id minus ex deserunt.",
+        "Id": 192,
+        "Name": "Pacocha-Weber",
+        "ToolTip": "Voluptates a rerum tenetur itaque sed sunt autem.",
         "Deleted": false,
-        "Rank": 771,
-        "Type": "sequi",
-        "ColorBlock": 681,
-        "IconHint": "beatae",
-        "Selected": true,
-        "LastChanged": "1996-12-12T16:55:30.8508113+01:00",
+        "Rank": 86,
+        "Type": "quaerat",
+        "ColorBlock": 919,
+        "IconHint": "recusandae",
+        "Selected": false,
+        "LastChanged": "1999-06-03T10:30:33.1474583+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "enim",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "quis",
         "Hidden": true,
-        "FullName": "Bret Rosenbaum"
+        "FullName": "Delfina Mauricio Conroy V"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "amet",
+    "ExtraInfo": "autem",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Miles Osinski"
+    "FullName": "Emelie Devyn Brown III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "McLaughlin-Wilkinson",
-    "ToolTip": "Ut omnis pariatur id corporis et iure veritatis.",
-    "Deleted": false,
-    "Rank": 61,
-    "Type": "molestias",
-    "ColorBlock": 667,
-    "IconHint": "impedit",
-    "Selected": true,
-    "LastChanged": "2009-12-17T16:55:30.8518052+01:00",
+    "Id": 193,
+    "Name": "Glover, Lockman and Kunde",
+    "ToolTip": "Nihil officiis consectetur nobis.",
+    "Deleted": true,
+    "Rank": 410,
+    "Type": "quia",
+    "ColorBlock": 640,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2012-11-05T10:30:33.1474583+01:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Eichmann-Ward",
-        "ToolTip": "Sit corporis quas officia impedit necessitatibus nobis.",
-        "Deleted": true,
-        "Rank": 280,
-        "Type": "in",
-        "ColorBlock": 105,
-        "IconHint": "dolorum",
+        "Id": 579,
+        "Name": "Walter Inc and Sons",
+        "ToolTip": "Quam et hic et.",
+        "Deleted": false,
+        "Rank": 208,
+        "Type": "porro",
+        "ColorBlock": 639,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2014-08-19T16:55:30.8518052+02:00",
+        "LastChanged": "2011-07-19T10:30:33.1474583+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Percival Eleonore Kub Jr.",
+        "FullName": "Mrs. Edgar Jessy Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldLength": 886
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "delectus",
+    "ExtraInfo": "est",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ms. Lois Hammes",
+    "FullName": "Mr. Ruthie Gerlach MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldType": "System.String",
+        "FieldLength": 34
       }
     }
   }

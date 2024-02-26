@@ -74,7 +74,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Schmeler, Jacobi and Prohaska",
-    "Tooltip": "alias",
-    "Deleted": true,
-    "Rank": 403,
+    "Id": 741,
+    "Name": "Fisher Inc and Sons",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "Rank": 199,
     "IsCustomList": true,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "magni",
+    "IsMDOList": true,
+    "UseGroupsAndHeadings": true,
+    "ListType": "et",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldLength": 150
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Gorczany-Gleason",
-    "ToolTip": "Quaerat est explicabo aut aut dolorum.",
+    "Id": 271,
+    "Name": "Stiedemann Inc and Sons",
+    "ToolTip": "Similique alias dolorem quis enim similique.",
     "Deleted": true,
-    "Rank": 440,
-    "Type": "aut",
-    "ColorBlock": 29,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "2024-01-06T16:55:30.5336976+01:00",
+    "Rank": 404,
+    "Type": "ut",
+    "ColorBlock": 772,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2021-01-18T10:30:32.858187+01:00",
     "ChildItems": [
       {
-        "Id": 192,
-        "Name": "Sporer, Nienow and Gutmann",
-        "ToolTip": "Illum atque aliquam.",
+        "Id": 332,
+        "Name": "Cassin-Wehner",
+        "ToolTip": "Corporis nam quia quae occaecati est.",
         "Deleted": true,
-        "Rank": 761,
-        "Type": "quia",
-        "ColorBlock": 619,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2016-04-29T16:55:30.5346978+02:00",
+        "Rank": 188,
+        "Type": "non",
+        "ColorBlock": 797,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2004-08-10T10:30:32.858187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "est",
+        "ExtraInfo": "dolores",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Devante Powlowski"
+        "FullName": "Tess Carlie O'Conner PhD"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "nobis",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Ryan Keeling"
+    "FullName": "Sasha Kip Waelchi MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Hermiston LLC",
-    "ToolTip": "Unde mollitia beatae laudantium aperiam autem.",
-    "Deleted": false,
-    "Rank": 22,
-    "Type": "neque",
-    "ColorBlock": 730,
-    "IconHint": "consequuntur",
+    "Id": 205,
+    "Name": "Mills LLC",
+    "ToolTip": "Voluptas officiis consequatur qui.",
+    "Deleted": true,
+    "Rank": 299,
+    "Type": "rerum",
+    "ColorBlock": 184,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2014-07-10T16:55:30.5356933+02:00",
+    "LastChanged": "2021-03-21T10:30:32.8738112+01:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Senger-Johns",
-        "ToolTip": "Iusto perferendis non error sit vitae dignissimos.",
+        "Id": 492,
+        "Name": "Jacobson-Bechtelar",
+        "ToolTip": "Illo odit optio vitae dolorem.",
         "Deleted": false,
-        "Rank": 299,
-        "Type": "atque",
-        "ColorBlock": 873,
-        "IconHint": "odit",
+        "Rank": 125,
+        "Type": "neque",
+        "ColorBlock": 234,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2014-09-28T16:55:30.5356933+02:00",
+        "LastChanged": "2010-02-25T10:30:32.8738112+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "officia",
-        "Hidden": false,
-        "FullName": "Odessa Mariah Homenick DDS",
+        "ExtraInfo": "sed",
+        "StyleHint": "quae",
+        "Hidden": true,
+        "FullName": "Sharon Mueller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldLength": 509
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "minus",
-    "Hidden": false,
-    "FullName": "Dr. Cleve Ferne Kovacek",
+    "ExtraInfo": "velit",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Ashlynn Larson PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldType": "System.String",
+        "FieldLength": 447
       }
     }
   }

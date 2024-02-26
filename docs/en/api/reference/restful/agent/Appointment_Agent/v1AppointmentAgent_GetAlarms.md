@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeInvitations": true,
+  "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 357
+  "DefaultAlarmLeadTimeInMinutes": 554
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 749,
-      "StartTime": "2023-02-10T16:54:54.2741053+01:00",
-      "EndDate": "2002-03-17T16:54:54.2741053+01:00",
-      "AlarmTime": "2001-05-31T16:54:54.2741053+02:00",
-      "PersonId": 53,
-      "PersonFullName": "Miss Juwan Noelia Glover I",
-      "ContactName": "Hahn, O'Keefe and Walter",
-      "ProjectId": 531,
-      "ProjectName": "Jacobi Inc and Sons",
-      "AppointmentText": "quasi",
-      "SaleId": 224,
-      "SaleName": "Pollich, Veum and White",
-      "Location": "alias",
+      "AppointmentId": 726,
+      "StartTime": "2001-12-29T10:30:22.7220872+01:00",
+      "EndDate": "2014-07-18T10:30:22.7220872+02:00",
+      "AlarmTime": "2013-06-30T10:30:22.7220872+02:00",
+      "PersonId": 983,
+      "PersonFullName": "Mr. Valentin Annamarie Emmerich MD",
+      "ContactName": "Lemke, Shields and Gorczany",
+      "ProjectId": 939,
+      "ProjectName": "Green, Wunsch and Johns",
+      "AppointmentText": "dolorem",
+      "SaleId": 752,
+      "SaleName": "Waters, Collins and Kozey",
+      "Location": "dolor",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 648,
+      "ContactId": 578,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Osinski, Rolfson and Schultz",
-      "TaskName": "Treutel-Wilkinson",
+      "FormalName": "Rau-Mitchell",
+      "TaskName": "Rowe Inc and Sons",
       "ContactDepartment": "",
-      "ContactFullName": "Ms. Brandon Miller Sr.",
+      "ContactFullName": "Dr. Eriberto Alexa Cruickshank Jr.",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 72
+          "FieldType": "System.Int32",
+          "FieldLength": 229
         }
       }
     }
   ],
-  "PollingInterval": 658,
-  "SilentAfter": 759,
+  "PollingInterval": 144,
+  "SilentAfter": 611,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 267
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

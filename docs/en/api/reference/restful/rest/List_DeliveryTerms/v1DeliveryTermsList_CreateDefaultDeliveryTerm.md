@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 976,
-  "Name": "Hartmann-West",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "UdListDefinitionId": 957,
-  "Rank": 287,
+  "Id": 798,
+  "Name": "Roberts, Orn and Kovacek",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "UdListDefinitionId": 510,
+  "Rank": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

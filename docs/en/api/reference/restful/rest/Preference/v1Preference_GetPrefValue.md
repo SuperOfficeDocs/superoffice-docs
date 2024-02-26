@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "veniam",
+  "RawValue": "doloribus",
   "Specification": null,
-  "DisplayValue": "iure",
-  "DisplayTooltip": "sit",
+  "DisplayValue": "dolor",
+  "DisplayTooltip": "nam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 194,
-  "PrefDescId": 769,
-  "TableName": "Larson-Botsford",
+  "TargetId": 729,
+  "PrefDescId": 80,
+  "TableName": "Gulgowski Inc and Sons",
   "UserPreferenceId": 203,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

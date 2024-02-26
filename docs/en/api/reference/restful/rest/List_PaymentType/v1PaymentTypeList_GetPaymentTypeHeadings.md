@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 334,
-    "Name": "Runolfsdottir-Haag",
-    "Tooltip": "at",
+    "HeadingId": 794,
+    "Name": "Goodwin Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 144,
-    "UdListDefinitionId": 578,
+    "Rank": 837,
+    "UdListDefinitionId": 621,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 286
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   }

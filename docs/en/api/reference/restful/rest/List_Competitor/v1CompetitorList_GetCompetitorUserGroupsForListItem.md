@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Stanton-Wehner",
-    "ToolTip": "Autem sapiente enim.",
+    "Id": 495,
+    "Name": "Nicolas, Lockman and Emard",
+    "ToolTip": "Illum enim sint odit reiciendis praesentium vel.",
     "Deleted": false,
-    "Rank": 652,
-    "Type": "commodi",
-    "ColorBlock": 70,
-    "IconHint": "quod",
+    "Rank": 529,
+    "Type": "numquam",
+    "ColorBlock": 313,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2012-08-27T16:55:30.5596986+02:00",
+    "LastChanged": "2005-07-31T10:30:32.8805387+02:00",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Dare-Heidenreich",
-        "ToolTip": "Non autem est modi temporibus beatae.",
+        "Id": 113,
+        "Name": "Daugherty-Collins",
+        "ToolTip": "Ipsum sed esse incidunt culpa a enim.",
         "Deleted": true,
-        "Rank": 172,
-        "Type": "nemo",
-        "ColorBlock": 924,
-        "IconHint": "laborum",
+        "Rank": 996,
+        "Type": "consequuntur",
+        "ColorBlock": 582,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2023-02-23T16:55:30.5596986+01:00",
+        "LastChanged": "2014-05-02T10:30:32.8805387+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "quia",
+        "StyleHint": "autem",
         "Hidden": true,
-        "FullName": "Garfield Beier",
+        "FullName": "Miss Jaquan Nicolette Bahringer DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 564
+            "FieldType": "System.String",
+            "FieldLength": 741
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "id",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Dan Schultz I",
+    "FullName": "Lucile Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 800
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

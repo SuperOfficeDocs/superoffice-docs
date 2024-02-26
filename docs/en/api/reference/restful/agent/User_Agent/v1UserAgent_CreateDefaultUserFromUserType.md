@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 47,
-  "Name": "Cruickshank LLC",
-  "Rank": 382,
-  "Tooltip": "doloremque",
+  "AssociateId": 74,
+  "Name": "Schulist-Marvin",
+  "Rank": 92,
+  "Tooltip": "necessitatibus",
   "LicenseOwners": [
     {
-      "Name": "O'Kon, Johnston and Schowalter",
-      "Description": "Proactive well-modulated methodology",
+      "Name": "Nader LLC",
+      "Description": "Integrated fresh-thinking application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldLength": 764
         }
       }
     },
     {
-      "Name": "O'Kon, Johnston and Schowalter",
-      "Description": "Proactive well-modulated methodology",
+      "Name": "Nader LLC",
+      "Description": "Integrated fresh-thinking application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldLength": 764
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "vitae",
-      "Tooltip": "cupiditate",
-      "Id": 560,
-      "Rank": 712,
+      "Value": "placeat",
+      "Tooltip": "ex",
+      "Id": 781,
+      "Rank": 30,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldType": "System.String",
+          "FieldLength": 981
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2011-02-12T16:54:56.6987349+01:00",
-  "Lastlogout": "2018-01-16T16:54:56.6987349+01:00",
-  "EjUserId": 699,
-  "RequestSignature": "voluptas",
+  "Lastlogin": "2023-08-29T10:30:25.0455923+02:00",
+  "Lastlogout": "2007-08-08T10:30:25.0455923+02:00",
+  "EjUserId": 477,
+  "RequestSignature": "eos",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "praesentium",
-      "DisplayValue": "aspernatur",
+      "Value": "voluptate",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 642
         }
       }
     },
     {
       "Type": null,
-      "Value": "praesentium",
-      "DisplayValue": "aspernatur",
+      "Value": "voluptate",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 642
         }
       }
     }
   ],
-  "UserName": "Stiedemann, Harris and Jast",
+  "UserName": "Wilderman-Gutkowski",
   "TicketCategories": [
     {
-      "Id": 313,
-      "Name": "VonRueden, Yundt and Kessler",
-      "ToolTip": "Beatae natus molestiae excepturi occaecati a provident laborum.",
+      "Id": 252,
+      "Name": "Jacobs Group",
+      "ToolTip": "Blanditiis tenetur quia eveniet iste non sed nihil.",
       "Deleted": false,
-      "Rank": 475,
-      "Type": "animi",
+      "Rank": 882,
+      "Type": "cum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "impedit",
-      "ColorBlock": 835,
-      "ExtraInfo": "error",
-      "StyleHint": "dolorem",
-      "FullName": "Tad Feeney",
+      "IconHint": "dolorem",
+      "ColorBlock": 38,
+      "ExtraInfo": "amet",
+      "StyleHint": "praesentium",
+      "FullName": "Gunnar Pollich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 162
+          "FieldType": "System.Int32",
+          "FieldLength": 194
         }
       }
     }
   ],
-  "NickName": "Rippin-Brekke",
-  "WaitingForApproval": true,
+  "NickName": "Dicki Inc and Sons",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "vero"
+    "CustomFields1": "eos",
+    "CustomFields2": "provident"
   },
   "PostSaveCommands": [
     {
-      "Name": "Dare-Bruen",
-      "DisplayName": "Koepp Group",
-      "Description": "Diverse national function",
-      "ToolTip": "Quisquam iure eaque placeat qui labore ut.",
+      "Name": "Cole-Eichmann",
+      "DisplayName": "Walsh, Tillman and Littel",
+      "Description": "Streamlined stable paradigm",
+      "ToolTip": "Rerum mollitia qui voluptatem fuga dolor.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 89
+          "FieldType": "System.Int32",
+          "FieldLength": 865
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 726
     }
   }
 }

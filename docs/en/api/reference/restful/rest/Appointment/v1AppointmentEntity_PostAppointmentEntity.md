@@ -192,7 +192,7 @@ OK
 POST /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -200,105 +200,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-10-17T16:55:29.1210648+02:00",
-  "AppointmentId": 940,
-  "Description": "Business-focused dedicated extranet",
-  "Title": "quibusdam",
-  "Agenda": "distinctio",
-  "InternalNotes": "officia",
-  "StartDate": "2008-03-09T16:55:29.1210648+01:00",
-  "EndDate": "2024-01-11T16:55:29.1210648+01:00",
+  "CreatedDate": "2014-07-09T10:30:31.603057+02:00",
+  "AppointmentId": 647,
+  "Description": "Optional non-volatile matrix",
+  "Title": "nam",
+  "Agenda": "aliquid",
+  "InternalNotes": "dolorem",
+  "StartDate": "2014-10-12T10:30:31.603057+02:00",
+  "EndDate": "1999-06-09T10:30:31.603057+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 593,
+  "MotherId": 234,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-09-28T16:55:29.123058+02:00",
+  "UpdatedDate": "2020-10-15T10:30:31.603057+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 340,
+  "ActiveLinks": 936,
   "Links": [
     {
-      "EntityName": "Boyle, Schimmel and Abshire",
-      "Id": 430,
-      "Description": "Implemented human-resource project",
-      "ExtraInfo": "saepe",
-      "LinkId": 315
+      "EntityName": "Fisher LLC",
+      "Id": 737,
+      "Description": "De-engineered didactic definition",
+      "ExtraInfo": "in",
+      "LinkId": 627
     },
     {
-      "EntityName": "Boyle, Schimmel and Abshire",
-      "Id": 430,
-      "Description": "Implemented human-resource project",
-      "ExtraInfo": "saepe",
-      "LinkId": 315
+      "EntityName": "Fisher LLC",
+      "Id": 737,
+      "Description": "De-engineered didactic definition",
+      "ExtraInfo": "in",
+      "LinkId": 627
     }
   ],
-  "AlarmLeadTime": "numquam",
+  "AlarmLeadTime": "sint",
   "HasAlarm": true,
-  "ColorIndex": 579,
-  "IsFree": true,
+  "ColorIndex": 53,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "illum",
-  "LeadTime": "sed",
-  "Location": "perferendis",
-  "RejectCounter": 172,
+  "LagTime": "autem",
+  "LeadTime": "quia",
+  "Location": "officia",
+  "RejectCounter": 997,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 399,
-      "PersonId": 612,
-      "ContactId": 565,
-      "EmailId": 604,
+      "AssociateId": 60,
+      "PersonId": 485,
+      "ContactId": 531,
+      "EmailId": 336,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "nina_kassulke@bergemurray.uk",
-      "Description": "Reactive zero tolerance installation"
+      "EmailAddress": "reta@lefflertrantow.ca",
+      "Description": "Cross-platform web-enabled firmware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-07-18T16:55:29.123058+02:00",
+  "ActiveDate": "2014-05-13T10:30:31.603057+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 388,
+  "PreferredTZLocation": 604,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 519,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 24,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptatibus",
+  "CentralserviceVideomeetId": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ken Block",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1796217544",
+    "SuperOffice:2": "Angie Wolff II"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "necessitatibus",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "dolore",
+    "CustomFields2": "iste"
   },
-  "PublishEventDate": "2007-10-06T16:55:29.1240838+02:00",
-  "PublishTo": "1998-04-06T16:55:29.1240838+02:00",
-  "PublishFrom": "2012-05-11T16:55:29.1240838+02:00",
+  "PublishEventDate": "2015-11-17T10:30:31.603057+01:00",
+  "PublishTo": "2012-05-20T10:30:31.603057+02:00",
+  "PublishFrom": "2017-06-26T10:30:31.603057+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 18,
+      "VisibleId": 715,
       "Visibility": "All",
-      "DisplayValue": "odio"
+      "DisplayValue": "sint"
     },
     {
-      "VisibleId": 18,
+      "VisibleId": 715,
       "Visibility": "All",
-      "DisplayValue": "odio"
+      "DisplayValue": "sint"
     }
   ]
 }
@@ -315,120 +315,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-05-07T16:55:29.1321476+02:00",
-  "AppointmentId": 986,
-  "Description": "Customer-focused neutral core",
+  "CreatedDate": "2014-11-12T10:30:31.6187359+01:00",
+  "AppointmentId": 79,
+  "Description": "Triple-buffered optimizing extranet",
   "Title": "ex",
-  "Agenda": "qui",
-  "InternalNotes": "laborum",
-  "StartDate": "2004-05-26T16:55:29.1321476+02:00",
-  "EndDate": "2015-03-17T16:55:29.1321476+01:00",
+  "Agenda": "omnis",
+  "InternalNotes": "qui",
+  "StartDate": "2001-12-08T10:30:31.6187359+01:00",
+  "EndDate": "2023-10-29T10:30:31.6187359+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 575,
+  "MotherId": 317,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-04-13T16:55:29.1350397+02:00",
+  "UpdatedDate": "2010-07-27T10:30:31.6187359+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 359,
+  "ActiveLinks": 934,
   "Links": [
     {
-      "EntityName": "Koch, King and Maggio",
-      "Id": 134,
-      "Description": "Future-proofed bottom-line definition",
-      "ExtraInfo": "quia",
-      "LinkId": 483,
+      "EntityName": "Hilll, Wiza and Auer",
+      "Id": 23,
+      "Description": "Organic incremental workforce",
+      "ExtraInfo": "voluptas",
+      "LinkId": 968,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     }
   ],
-  "AlarmLeadTime": "odio",
+  "AlarmLeadTime": "quia",
   "HasAlarm": false,
-  "ColorIndex": 878,
+  "ColorIndex": 754,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "nemo",
-  "LeadTime": "provident",
-  "Location": "et",
-  "RejectCounter": 980,
+  "IsAlldayEvent": true,
+  "LagTime": "sit",
+  "LeadTime": "quia",
+  "Location": "rerum",
+  "RejectCounter": 332,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 447,
-      "PersonId": 825,
-      "ContactId": 219,
-      "EmailId": 926,
-      "SendEmail": false,
+      "AssociateId": 807,
+      "PersonId": 842,
+      "ContactId": 9,
+      "EmailId": 263,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "waino.veum@schaeferdeckow.biz",
-      "Description": "Universal neutral circuit"
+      "EmailAddress": "faustino.kerluke@emmerichlangosh.us",
+      "Description": "Multi-tiered secondary software"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-01-02T16:55:29.1350397+01:00",
+  "ActiveDate": "2015-06-14T10:30:31.6187359+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 216,
+  "PreferredTZLocation": 92,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 431,
+  "SuggestedAppointmentId": 16,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "beatae",
+  "CentralserviceVideomeetId": "numquam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Sister Treutel",
-    "SuperOffice:2": "Conrad Jones DDS"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "ex",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "ratione",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2022-01-31T16:55:29.1370403+01:00",
-  "PublishTo": "2015-02-16T16:55:29.1370403+01:00",
-  "PublishFrom": "2001-07-13T16:55:29.1370403+02:00",
+  "PublishEventDate": "2017-05-05T10:30:31.6187359+02:00",
+  "PublishTo": "1999-09-29T10:30:31.6187359+02:00",
+  "PublishFrom": "2004-08-17T10:30:31.6187359+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 962,
+      "VisibleId": 621,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 657
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     },
     {
-      "VisibleId": 962,
+      "VisibleId": 621,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 657
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     }
@@ -438,7 +438,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldLength": 983
     }
   },
   "_Links": {

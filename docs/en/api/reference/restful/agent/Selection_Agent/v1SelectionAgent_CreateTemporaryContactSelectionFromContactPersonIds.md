@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 39,
-      "ContactId": 106
+      "PersonId": 38,
+      "ContactId": 349
     },
     {
-      "PersonId": 39,
-      "ContactId": 106
+      "PersonId": 38,
+      "ContactId": 349
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots explicit infrastructure",
-  "Postit": "reiciendis",
+  "Description": "Face to face client-server strategy",
+  "Postit": "voluptate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 511,
-  "IncludePerson": 655,
-  "MemberCount": 379,
-  "Name": "Ward LLC",
-  "PostitTextId": 611,
-  "CreatedDate": "2007-05-24T16:54:56.3045199+02:00",
-  "SelectionId": 322,
-  "SoundEx": "labore",
-  "Source": 737,
-  "TextId": 482,
-  "UpdatedDate": "2004-08-29T16:54:56.3045199+02:00",
-  "UpdatedCount": 241,
-  "Visibility": 679,
+  "GroupIdx": 249,
+  "IncludePerson": 789,
+  "MemberCount": 375,
+  "Name": "Kerluke-Hickle",
+  "PostitTextId": 466,
+  "CreatedDate": "2002-11-29T10:30:24.5752485+01:00",
+  "SelectionId": 957,
+  "SoundEx": "veniam",
+  "Source": 87,
+  "TextId": 456,
+  "UpdatedDate": "2017-01-20T10:30:24.5752485+01:00",
+  "UpdatedCount": 119,
+  "Visibility": 77,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 401,
-  "TargetTableName": "Batz-Mraz",
-  "Completed": false,
-  "LeftSelectionId": 80,
-  "RightSelectionId": 322,
+  "CompanyUnique": true,
+  "TargetTableNumber": 289,
+  "TargetTableName": "Schaden-Rippin",
+  "Completed": true,
+  "LeftSelectionId": 437,
+  "RightSelectionId": 1000,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crooks, Rowe and Anderson",
-  "ShadowProviderName": "Ziemann Inc and Sons",
-  "ChartKey": "iste",
-  "LastLoaded": "2005-07-07T16:54:56.3045199+02:00",
-  "LastLoadedBy": 985,
+  "MainProviderName": "Parisian, Marvin and McLaughlin",
+  "ShadowProviderName": "Lemke-Little",
+  "ChartKey": "maiores",
+  "LastLoaded": "2016-04-11T10:30:24.5752485+02:00",
+  "LastLoadedBy": 795,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-09-01T16:54:56.3045199+02:00",
-  "LastMembershipChangeBy": 907,
+  "LastMembershipChange": "2012-04-18T10:30:24.5752485+02:00",
+  "LastMembershipChangeBy": 905,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "amet",
-  "MailingsProviderName": "Langosh-Blanda",
-  "DashboardTileDefinitionId": 452,
+  "MainHeading": "sint",
+  "MemberTabHeading": "debitis",
+  "MailingsProviderName": "Corkery, Legros and Volkman",
+  "DashboardTileDefinitionId": 694,
   "VisibleFor": [
     {
-      "VisibleId": 402,
+      "VisibleId": 363,
       "Visibility": "All",
-      "DisplayValue": "quaerat",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldLength": 651
         }
       }
     },
     {
-      "VisibleId": 402,
+      "VisibleId": 363,
       "Visibility": "All",
-      "DisplayValue": "quaerat",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldLength": 651
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldType": "System.Int32",
+      "FieldLength": 703
     }
   }
 }

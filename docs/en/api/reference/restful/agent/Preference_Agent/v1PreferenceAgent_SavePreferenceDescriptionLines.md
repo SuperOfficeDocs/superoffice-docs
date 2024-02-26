@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 884,
-      "PrefDescId": 272,
-      "PrefValue": "quasi",
-      "PrefShowValue": "ea",
-      "Description": "Multi-layered solution-oriented workforce",
-      "IsBuiltin": true
+      "PrefDescLineId": 108,
+      "PrefDescId": 559,
+      "PrefValue": "praesentium",
+      "PrefShowValue": "nostrum",
+      "Description": "Robust solution-oriented groupware",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 884,
-      "PrefDescId": 272,
-      "PrefValue": "quasi",
-      "PrefShowValue": "ea",
-      "Description": "Multi-layered solution-oriented workforce",
-      "IsBuiltin": true
+      "PrefDescLineId": 108,
+      "PrefDescId": 559,
+      "PrefValue": "praesentium",
+      "PrefShowValue": "nostrum",
+      "Description": "Robust solution-oriented groupware",
+      "IsBuiltin": false
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 486,
-    "PrefDescId": 725,
-    "PrefValue": "tempora",
-    "PrefShowValue": "fuga",
-    "Description": "Business-focused responsive function",
+    "PrefDescLineId": 925,
+    "PrefDescId": 236,
+    "PrefValue": "vitae",
+    "PrefShowValue": "consequatur",
+    "Description": "Multi-lateral intangible algorithm",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 398
       }
     }
   }

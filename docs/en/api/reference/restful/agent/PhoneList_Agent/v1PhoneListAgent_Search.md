@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "dolorem"
+  "SearchString": "et"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "922-917-8239 x636",
-    "PersonCellPhone": "1-738-965-3313",
-    "PersonPrivatePhone": "103.884.1574 x00121",
-    "PersonFaxNumber": "914093",
-    "PersonPagerNumber": "959331",
-    "PersonEmail": "dakota@schinner.com",
-    "Id": 423,
-    "Name": "Runte, Abshire and Roberts",
-    "Tooltip": "officiis",
-    "UniqueId": "nihil",
+    "PersonDirectPhone": "832-443-7988 x6147",
+    "PersonCellPhone": "423-751-5824",
+    "PersonPrivatePhone": "590.640.3698 x2599",
+    "PersonFaxNumber": "904726",
+    "PersonPagerNumber": "722319",
+    "PersonEmail": "gabrielle@kohlergrady.co.uk",
+    "Id": 311,
+    "Name": "Mraz Group",
+    "Tooltip": "et",
+    "UniqueId": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldLength": 560
       }
     }
   }

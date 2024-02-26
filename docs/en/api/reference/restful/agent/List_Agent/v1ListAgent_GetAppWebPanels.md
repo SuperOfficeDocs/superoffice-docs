@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 805,
-    "Name": "Rutherford-Fay",
-    "Tooltip": "officia",
+    "WebPanelId": 499,
+    "Name": "Hane, Marquardt and Hane",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 162,
+    "Rank": 596,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
+    "OnCentral": true,
+    "OnSatellite": false,
     "OnTravel": true,
     "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Durgan, Parisian and Osinski",
+    "WindowName": "Carter-Treutel",
     "Url": "http://www.example.com/",
-    "ProgId": "facilis",
-    "Icon": 608,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "ipsa",
+    "Icon": 739,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 529
       }
     }
   }

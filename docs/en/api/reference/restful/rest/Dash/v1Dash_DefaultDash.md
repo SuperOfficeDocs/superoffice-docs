@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 265,
-  "UniqueId": "sit",
-  "Name": "Shanahan, Kunde and Hand",
-  "Description": "Versatile demand-driven matrix",
-  "AssociateId": 167,
-  "Columns": 691,
+  "DashboardId": 543,
+  "UniqueId": "et",
+  "Name": "Jast, Kuhn and Weimann",
+  "Description": "Universal incremental product",
+  "AssociateId": 368,
+  "Columns": 285,
   "Theme": null,
-  "VisibleForAll": 444,
+  "VisibleForAll": 938,
   "VisibleForAssociates": [
-    620,
-    60
+    272,
+    41
   ],
   "VisibleForGroups": [
-    795,
-    529
+    487,
+    537
   ],
-  "PinForAll": 924,
+  "PinForAll": 42,
   "PinForAssociates": [
-    950,
-    736
+    508,
+    283
   ],
   "PinForGroups": [
-    274,
-    813
+    23,
+    679
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   }
 }

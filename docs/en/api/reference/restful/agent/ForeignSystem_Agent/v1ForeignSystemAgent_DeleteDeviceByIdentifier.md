@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Deckow, Daugherty and Hammes",
-  "DeviceName": "Keeling Group",
-  "DeviceIdentifier": "illum"
+  "ApplicationName": "Marvin Group",
+  "DeviceName": "Kirlin, Nolan and Spencer",
+  "DeviceIdentifier": "corrupti"
 }
 ```
 

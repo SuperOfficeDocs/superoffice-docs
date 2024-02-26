@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 111,
-    "Name": "Bode, Marks and Labadie",
-    "PersonId": 261,
-    "Rank": 535,
-    "Tooltip": "eum",
+    "AssociateId": 63,
+    "Name": "Oberbrunner-Dooley",
+    "PersonId": 279,
+    "Rank": 16,
+    "Tooltip": "occaecati",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 466,
-    "FullName": "Kaci Douglas",
-    "FormalName": "Bode Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 928,
-    "UserName": "Wyman Group",
+    "GroupIdx": 808,
+    "FullName": "Name Howe",
+    "FormalName": "Blick-Hansen",
+    "Deleted": false,
+    "EjUserId": 206,
+    "UserName": "Bode, Farrell and Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 705
+        "FieldType": "System.Int32",
+        "FieldLength": 736
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 439,
-  "Name": "Kemmer Inc and Sons",
-  "Tooltip": "quibusdam",
-  "Deleted": true,
-  "Rank": 863,
+  "Id": 137,
+  "Name": "Kris-Mueller",
+  "Tooltip": "earum",
+  "Deleted": false,
+  "Rank": 76,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldLength": 344
     }
   },
   "_Links": {

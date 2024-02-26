@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 348,
-  "Name": "Waelchi, Hermann and Bechtelar",
-  "Description": "Switchable grid-enabled time-frame",
-  "DeltaJson": "culpa",
+  "ConfigurableScreenDeltaId": 100,
+  "Name": "Lubowitz, Williamson and Windler",
+  "Description": "Synergized intangible protocol",
+  "DeltaJson": "delectus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ea",
-  "UpdatedDate": "2006-05-18T16:54:54.8771701+02:00",
-  "CreatedDate": "1999-01-23T16:54:54.8771701+01:00",
+  "RecipeId": "totam",
+  "UpdatedDate": "2014-10-02T10:30:23.2418173+02:00",
+  "CreatedDate": "2014-11-15T10:30:23.2418173+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    828,
-    950
+    791,
+    537
   ],
-  "AppliesToKey": "rerum",
+  "AppliesToKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

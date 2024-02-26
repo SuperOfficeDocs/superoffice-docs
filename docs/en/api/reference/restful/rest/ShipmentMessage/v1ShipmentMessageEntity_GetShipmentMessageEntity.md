@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 86,
-  "PlainMessage": "aut",
-  "HtmlMessage": "nulla",
-  "SmsMessage": "assumenda",
-  "Description": "De-engineered user-facing protocol",
-  "Subject": "et",
-  "FolderId": 627,
-  "HeaderField": "corrupti",
-  "Design": "sed",
+  "ShipmentMessageId": 624,
+  "PlainMessage": "asperiores",
+  "HtmlMessage": "eos",
+  "SmsMessage": "delectus",
+  "Description": "Re-contextualized incremental moratorium",
+  "Subject": "voluptatibus",
+  "FolderId": 877,
+  "HeaderField": "ipsa",
+  "Design": "quisquam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Progressive assymetric capability",
-  "AccessKey": "in",
-  "DocumentMessage": 270,
-  "Registered": "1997-12-01T16:55:30.1440215+01:00",
-  "RegisteredAssociateId": 996,
-  "Updated": "2002-09-15T16:55:30.1440215+02:00",
-  "UpdatedAssociateId": 600,
-  "UpdatedCount": 724,
+  "InlineImages": true,
+  "LongDescription": "Optional logistical product",
+  "AccessKey": "velit",
+  "DocumentMessage": 856,
+  "Registered": "2011-10-10T10:30:32.5125031+02:00",
+  "RegisteredAssociateId": 638,
+  "Updated": "2003-08-11T10:30:32.5125031+02:00",
+  "UpdatedAssociateId": 409,
+  "UpdatedCount": 420,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldType": "System.String",
+      "FieldLength": 921
     }
   },
   "_Links": {

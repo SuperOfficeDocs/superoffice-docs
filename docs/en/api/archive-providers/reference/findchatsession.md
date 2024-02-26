@@ -470,7 +470,7 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=contact/registeredByFullName,contact/searchPhone/formattedNumber,contact/searchPhone/description,contact/postAddress/wgs84latitude,contact/contactInterestIds
+GET /api/v1/archive/FindChatSession?$select=associate/userName,person/personCountryId,person/personDirectFax/formattedNumber,person/correspondingAssociate/contactId,person/correspondingAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

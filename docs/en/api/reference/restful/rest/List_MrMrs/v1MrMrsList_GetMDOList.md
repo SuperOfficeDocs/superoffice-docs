@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=dicta
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=ipsa
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Luettgen-Mosciski",
-    "ToolTip": "Qui voluptatibus ex voluptas fugit omnis.",
-    "Deleted": true,
-    "Rank": 220,
-    "Type": "voluptatem",
+    "Id": 288,
+    "Name": "Vandervort Group",
+    "ToolTip": "Sit ipsa aliquam distinctio eos aut dolorem.",
+    "Deleted": false,
+    "Rank": 790,
+    "Type": "unde",
     "ChildItems": [
       {
-        "Id": 995,
-        "Name": "Sauer LLC",
-        "ToolTip": "Voluptatem dignissimos in corporis nulla.",
+        "Id": 510,
+        "Name": "Walker-Kassulke",
+        "ToolTip": "Voluptatem consequatur at.",
         "Deleted": false,
-        "Rank": 743,
-        "Type": "commodi",
+        "Rank": 889,
+        "Type": "doloremque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nulla",
-        "ColorBlock": 719,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "sed",
-        "FullName": "Kian Ortiz",
+        "IconHint": "qui",
+        "ColorBlock": 269,
+        "ExtraInfo": "totam",
+        "StyleHint": "nobis",
+        "FullName": "Jaylin Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 254
+            "FieldType": "System.Int32",
+            "FieldLength": 306
           }
         }
       }
     ],
-    "IconHint": "repudiandae",
-    "ColorBlock": 956,
-    "ExtraInfo": "rerum",
-    "StyleHint": "qui",
-    "FullName": "Cory Lowe V",
+    "IconHint": "qui",
+    "ColorBlock": 959,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "veniam",
+    "FullName": "Alysa Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 56
+        "FieldType": "System.Int32",
+        "FieldLength": 63
       }
     }
   }

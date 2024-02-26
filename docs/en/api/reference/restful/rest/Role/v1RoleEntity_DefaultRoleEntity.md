@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 43,
-  "Name": "Brekke-Stoltenberg",
-  "Tooltip": "sunt",
+  "RoleId": 848,
+  "Name": "Torphy-Dibbert",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 728,
-  "Rank": 247,
-  "Created": "2006-09-18T16:55:29.9799964+02:00",
-  "UseCategories": 497,
+  "Deleted": 497,
+  "Rank": 483,
+  "Created": "2014-08-21T10:30:32.260549+02:00",
+  "UseCategories": 862,
   "CreatedBy": null,
-  "Updated": "2006-09-11T16:55:29.9809897+02:00",
+  "Updated": "2000-06-04T10:30:32.260549+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 652
     }
   }
 }

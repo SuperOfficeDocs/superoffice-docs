@@ -25,7 +25,7 @@ Gets all the Competitor items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Competitor/Items?includeDeleted=True
+GET /api/v1/List/Competitor/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Runolfsson Group",
-    "Tooltip": "id",
-    "Deleted": false,
-    "UdListDefinitionId": 224,
-    "Rank": 752,
+    "Id": 191,
+    "Name": "Lakin, Flatley and Mitchell",
+    "Tooltip": "harum",
+    "Deleted": true,
+    "UdListDefinitionId": 354,
+    "Rank": 497,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 789
       }
     }
   }

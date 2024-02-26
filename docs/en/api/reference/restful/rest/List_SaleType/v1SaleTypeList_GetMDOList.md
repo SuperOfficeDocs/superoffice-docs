@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=placeat
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=at
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Walker-Upton",
-    "ToolTip": "Voluptatibus dolorem dicta.",
-    "Deleted": false,
-    "Rank": 492,
-    "Type": "et",
+    "Id": 136,
+    "Name": "Kuhlman-Beahan",
+    "ToolTip": "Dolor eaque et temporibus quis quia inventore.",
+    "Deleted": true,
+    "Rank": 808,
+    "Type": "doloremque",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Mosciski, Maggio and Von",
-        "ToolTip": "Sed necessitatibus aut exercitationem perspiciatis optio.",
-        "Deleted": false,
-        "Rank": 703,
-        "Type": "amet",
+        "Id": 726,
+        "Name": "Nitzsche Group",
+        "ToolTip": "Corrupti autem sapiente sint corrupti sunt illo omnis.",
+        "Deleted": true,
+        "Rank": 798,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "recusandae",
-        "ColorBlock": 23,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "quo",
-        "FullName": "Trey Crona",
+        "IconHint": "corporis",
+        "ColorBlock": 17,
+        "ExtraInfo": "illo",
+        "StyleHint": "illo",
+        "FullName": "Osvaldo Russel Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 844
+            "FieldLength": 913
           }
         }
       }
     ],
-    "IconHint": "dignissimos",
-    "ColorBlock": 597,
-    "ExtraInfo": "suscipit",
-    "StyleHint": "aut",
-    "FullName": "Jena Dare",
+    "IconHint": "quisquam",
+    "ColorBlock": 182,
+    "ExtraInfo": "a",
+    "StyleHint": "expedita",
+    "FullName": "Ashleigh Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 734
       }
     }
   }

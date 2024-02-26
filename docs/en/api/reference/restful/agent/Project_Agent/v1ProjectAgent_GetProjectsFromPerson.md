@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 755
+  "PersonId": 661
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 444,
-    "Name": "Treutel, Schaden and Stoltenberg",
-    "Description": "Synchronised bifurcated Graphical User Interface",
+    "ProjectId": 828,
+    "Name": "Schulist, Moen and Fritsch",
+    "Description": "Total global software",
     "URL": "http://www.example.com/",
-    "Type": "natus",
-    "AssociateId": 469,
-    "AssociateFullName": "Camren Kihn",
-    "TypeId": 516,
-    "Updated": "2021-02-20T16:54:56.0691386+01:00",
-    "StatusId": 67,
-    "Status": "fuga",
-    "TextId": 340,
-    "PublishTo": "2007-01-08T16:54:56.0691386+01:00",
-    "PublishFrom": "2021-04-06T16:54:56.0691386+02:00",
-    "IsPublished": true,
+    "Type": "sed",
+    "AssociateId": 973,
+    "AssociateFullName": "Jordyn Issac Rodriguez Jr.",
+    "TypeId": 646,
+    "Updated": "2000-12-13T10:30:24.3705833+01:00",
+    "StatusId": 769,
+    "Status": "ipsa",
+    "TextId": 441,
+    "PublishTo": "2005-03-28T10:30:24.3705833+02:00",
+    "PublishFrom": "2018-05-30T10:30:24.3705833+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "976802",
-    "ActiveErpLinks": 744,
+    "ProjectNumber": "1155835",
+    "ActiveErpLinks": 793,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 176
       }
     }
   }

@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 5,
+  "AssociateId": 559,
   "Type": "AnonymousAssociate",
-  "PersonId": 988,
-  "UserName": "Brakus Group"
+  "PersonId": 839,
+  "UserName": "Dicki, Fahey and Lang"
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": false,
+  "Result": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 844
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 21,
-  "Name": "Ebert Inc and Sons",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 410,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 391,
+  "Name": "Rempel LLC",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "Rank": 376,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true,
+  "ListType": "distinctio",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldLength": 755
     }
   },
   "_Links": {

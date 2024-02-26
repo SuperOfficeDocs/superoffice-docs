@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Name": "Schuster, Spinka and Denesik",
-    "ToolTip": "Rerum voluptatem natus nisi quis id temporibus qui.",
+    "Id": 417,
+    "Name": "Bartoletti-Gulgowski",
+    "ToolTip": "Adipisci est et dolor voluptates.",
     "Deleted": false,
-    "Rank": 68,
-    "Type": "sint",
-    "ColorBlock": 621,
-    "IconHint": "non",
+    "Rank": 88,
+    "Type": "aut",
+    "ColorBlock": 818,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-08-07T16:55:30.8218075+02:00",
+    "LastChanged": "2014-02-13T10:30:33.1162087+01:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Ankunding Inc and Sons",
-        "ToolTip": "Ut sit dolorem officia eaque.",
-        "Deleted": true,
-        "Rank": 857,
-        "Type": "eos",
-        "ColorBlock": 704,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2005-07-15T16:55:30.8218075+02:00",
+        "Id": 999,
+        "Name": "Shanahan-Bernier",
+        "ToolTip": "Et ipsum ut repellendus sunt quas sit et.",
+        "Deleted": false,
+        "Rank": 35,
+        "Type": "sit",
+        "ColorBlock": 772,
+        "IconHint": "inventore",
+        "Selected": false,
+        "LastChanged": "2005-08-19T10:30:33.1162087+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Ms. Lexi Hellen Bernhard IV",
+        "ExtraInfo": "iusto",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Jeffrey Emard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 305
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eum",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mrs. Bethel Heller",
+    "FullName": "Mrs. Oleta Crooks DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldLength": 724
       }
     }
   }

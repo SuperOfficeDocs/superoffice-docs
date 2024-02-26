@@ -25,7 +25,7 @@ Gets all the Priority items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Priority/Items?includeDeleted=True
+GET /api/v1/List/Priority/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Stehr-Kuhn",
+    "Id": 6,
+    "Name": "Wiegand Inc and Sons",
     "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 318,
-    "Rank": 196,
+    "UdListDefinitionId": 261,
+    "Rank": 982,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 688
       }
     }
   }

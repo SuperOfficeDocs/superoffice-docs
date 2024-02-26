@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 45,
-  "Name": "Lesch Group",
-  "CreatedDate": "1998-02-09T16:55:29.6425416+01:00",
-  "UpdatedDate": "2007-08-31T16:55:29.6425416+02:00",
+  "ForeignAppId": 351,
+  "Name": "Ortiz-Gottlieb",
+  "CreatedDate": "2011-01-30T10:30:32.0730519+01:00",
+  "UpdatedDate": "2007-09-06T10:30:32.0730519+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 337,
-      "Name": "Weimann, Fritsch and Marquardt",
-      "CreatedDate": "2011-09-12T16:55:29.6425416+02:00",
-      "UpdatedDate": "2010-10-31T16:55:29.6425416+01:00",
-      "AssociateFullName": "Jackeline Spencer DVM",
-      "CreatedBy": "mollitia",
-      "UpdatedBy": "eaque",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 162
+      "ForeignDeviceId": 409,
+      "Name": "West, Dare and Block",
+      "CreatedDate": "2020-08-01T10:30:32.0730519+02:00",
+      "UpdatedDate": "2018-08-01T10:30:32.0730519+02:00",
+      "AssociateFullName": "Prof. Fredrick Schmitt",
+      "CreatedBy": "non",
+      "UpdatedBy": "architecto",
+      "DeviceIdentifier": "cumque",
+      "ForeignAppId": 831
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 347,
-  "Name": "Collier, Feest and Ward",
-  "CreatedDate": "2015-07-16T16:55:29.6445317+02:00",
-  "UpdatedDate": "2016-06-17T16:55:29.6445317+02:00",
+  "ForeignAppId": 312,
+  "Name": "Thiel, Murray and Romaguera",
+  "CreatedDate": "2020-01-01T10:30:32.0730519+01:00",
+  "UpdatedDate": "2009-01-02T10:30:32.0730519+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 318,
-      "Name": "Kilback, Hammes and Hirthe",
-      "CreatedDate": "2021-11-11T16:55:29.6445317+01:00",
-      "UpdatedDate": "2008-09-27T16:55:29.6445317+02:00",
-      "AssociateFullName": "German Cole II",
-      "CreatedBy": "laudantium",
-      "UpdatedBy": "debitis",
-      "DeviceIdentifier": "voluptatum",
-      "ForeignAppId": 529,
+      "ForeignDeviceId": 460,
+      "Name": "Reichel, McClure and Fisher",
+      "CreatedDate": "2016-07-23T10:30:32.0730519+02:00",
+      "UpdatedDate": "1997-08-13T10:30:32.0730519+02:00",
+      "AssociateFullName": "Mckayla Cora Wiegand II",
+      "CreatedBy": "nihil",
+      "UpdatedBy": "totam",
+      "DeviceIdentifier": "odio",
+      "ForeignAppId": 189,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldLength": 778
         }
       }
     }
@@ -156,13 +156,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 529
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

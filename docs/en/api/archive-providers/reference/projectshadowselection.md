@@ -779,7 +779,7 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelection?$select=sale/registeredDate,sale/associate/ejUserId,appointment/appointmentUdef/SuperOffice:7,document/associate/assocName,projectMember/personNumber
+GET /api/v1/archive/ProjectShadowSelection?$select=sale/saleStatus,sale/saleUdef/SuperOffice:1,projectMember/infoText,projectMember/personBusiness,projectMember/streetAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

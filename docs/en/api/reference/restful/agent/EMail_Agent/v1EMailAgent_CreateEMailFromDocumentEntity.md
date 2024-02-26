@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 241,
-      "ContactName": "O'Conner, Haag and Balistreri",
-      "PersonId": 535,
-      "PersonName": "Konopelski LLC",
-      "AssociateId": 38,
-      "Address": "aut",
-      "EmailId": 175,
+      "ContactId": 514,
+      "ContactName": "Brown-Batz",
+      "PersonId": 778,
+      "PersonName": "Thompson-Denesik",
+      "AssociateId": 859,
+      "Address": "nemo",
+      "EmailId": 377,
       "DuplicatePersonIds": [
-        579,
-        438
+        714,
+        841
       ],
-      "Name": "Jast, Brown and Adams",
+      "Name": "Roberts, Harvey and Ritchie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 998
+          "FieldType": "System.String",
+          "FieldLength": 570
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 26,
-      "ContactName": "Hartmann-Bernhard",
-      "PersonId": 933,
-      "PersonName": "Weissnat, Crist and Maggio",
-      "AssociateId": 881,
-      "Address": "aut",
-      "EmailId": 7,
+      "ContactId": 559,
+      "ContactName": "Rosenbaum Inc and Sons",
+      "PersonId": 278,
+      "PersonName": "Mante, Huels and Bartell",
+      "AssociateId": 847,
+      "Address": "non",
+      "EmailId": 820,
       "DuplicatePersonIds": [
-        322,
-        123
+        181,
+        199
       ],
-      "Name": "Torp-Becker",
+      "Name": "Wilderman-O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 176
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 584,
-      "ContactName": "Keebler, Runolfsdottir and Shields",
-      "PersonId": 113,
-      "PersonName": "Shanahan LLC",
-      "AssociateId": 637,
-      "Address": "nihil",
-      "EmailId": 393,
+      "ContactId": 743,
+      "ContactName": "Schmeler-Luettgen",
+      "PersonId": 80,
+      "PersonName": "Parisian Inc and Sons",
+      "AssociateId": 898,
+      "Address": "occaecati",
+      "EmailId": 633,
       "DuplicatePersonIds": [
-        466,
-        185
+        4,
+        10
       ],
-      "Name": "Dooley, Blanda and Mueller",
+      "Name": "Jast-Grady",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 88
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "vero",
+  "Subject": "dicta",
+  "HTMLBody": "iusto",
   "From": null,
-  "Sent": "2005-12-15T16:54:55.395063+01:00",
-  "Size": 950,
+  "Sent": "2013-10-13T10:30:23.8293034+02:00",
+  "Size": 116,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "animi",
+  "MessageID": "quo",
+  "PlainBody": "aspernatur",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 292,
+  "ServerId": 681,
   "Attachments": [
     {
-      "Description": "Multi-tiered uniform Graphical User Interface",
-      "Filename": "et",
-      "Size": 626,
-      "Type": "aliquam",
-      "Encoding": "consequatur",
-      "Id": "voluptas",
-      "Disposition": "provident",
+      "Description": "Quality-focused mission-critical solution",
+      "Filename": "ab",
+      "Size": 665,
+      "Type": "sapiente",
+      "Encoding": "praesentium",
+      "Id": "aut",
+      "Disposition": "ex",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 587
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Keeling-Lueilwitz",
+      "Name": "Hyatt, Bahringer and Abernathy",
       "Values": [
-        "in",
-        "provident"
+        "provident",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 576
+          "FieldType": "System.Int32",
+          "FieldLength": 201
         }
       }
     },
     {
-      "Name": "Keeling-Lueilwitz",
+      "Name": "Hyatt, Bahringer and Abernathy",
       "Values": [
-        "in",
-        "provident"
+        "provident",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 576
+          "FieldType": "System.Int32",
+          "FieldLength": 201
         }
       }
     }
   ],
-  "FolderName": "Haag-Lowe",
-  "EmailItemId": 265,
-  "AccountId": 309,
-  "ReceivedAt": "2006-03-07T16:54:55.395063+01:00",
+  "FolderName": "Bashirian, Reichert and Conroy",
+  "EmailItemId": 87,
+  "AccountId": 941,
+  "ReceivedAt": "2010-07-08T10:30:23.8293034+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-01-03T16:54:55.395063+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2002-07-04T10:30:23.8293034+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   }
 }

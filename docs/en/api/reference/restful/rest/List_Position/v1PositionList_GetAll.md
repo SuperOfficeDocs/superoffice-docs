@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Hammes Inc and Sons",
-    "Tooltip": "et",
+    "Id": 206,
+    "Name": "Reynolds, Fisher and Heathcote",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "UdListDefinitionId": 755,
-    "Rank": 978,
+    "UdListDefinitionId": 640,
+    "Rank": 355,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

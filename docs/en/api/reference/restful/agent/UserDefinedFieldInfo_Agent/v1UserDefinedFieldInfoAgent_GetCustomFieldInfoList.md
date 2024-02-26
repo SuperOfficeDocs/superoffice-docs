@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Towne-Labadie",
-  "IncludeStandard": false
+  "TableName": "Feest Group",
+  "IncludeStandard": true
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Breitenberg, Heaney and Marquardt",
-    "DisplayName": "Donnelly Inc and Sons",
-    "Description": "Persevering exuding projection",
-    "ShortLabel": "illum",
+    "FieldName": "Schuster Group",
+    "DisplayName": "Kutch, Ruecker and Kunde",
+    "Description": "Decentralized hybrid software",
+    "ShortLabel": "aut",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsMandatory": true,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 373,
-    "TemplateVariableName": "Altenwerth-Mertz"
+    "Rank": 683,
+    "TemplateVariableName": "Daniel-Rohan"
   }
 ]
 ```

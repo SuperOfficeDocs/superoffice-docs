@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 769,
-  "Name": "Grady Inc and Sons",
-  "Tooltip": "explicabo",
+  "Id": 745,
+  "Name": "Kunde Inc and Sons",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "UdListDefinitionId": 196,
-  "Rank": 800,
+  "UdListDefinitionId": 647,
+  "Rank": 953,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 928
     }
   }
 }

@@ -72,11 +72,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quisquam",
-  "ProviderName": "Goodwin-Wehner",
-  "StorageKey": "iure",
+  "StorageType": "reiciendis",
+  "ProviderName": "Spinka-Emard",
+  "StorageKey": "enim",
   "RestrictionGroup": null,
-  "Context": "nihil"
+  "Context": "minima"
 }
 ```
 

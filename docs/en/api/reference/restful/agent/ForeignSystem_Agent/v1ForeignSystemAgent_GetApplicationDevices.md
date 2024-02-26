@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wintheiser, Walter and Lang"
+  "ApplicationName": "Schiller LLC"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 5,
-    "Name": "Schimmel-Okuneva",
-    "CreatedDate": "2008-04-05T16:54:55.4794679+02:00",
-    "UpdatedDate": "2017-03-19T16:54:55.4794679+01:00",
-    "AssociateFullName": "Dr. Francesca Marguerite Hackett DVM",
-    "CreatedBy": "iste",
-    "UpdatedBy": "cumque",
-    "DeviceIdentifier": "veniam",
-    "ForeignAppId": 288,
+    "ForeignDeviceId": 336,
+    "Name": "Strosin-Rolfson",
+    "CreatedDate": "2006-11-08T10:30:23.9073938+01:00",
+    "UpdatedDate": "1997-09-10T10:30:23.9073938+02:00",
+    "AssociateFullName": "Bella Ritchie",
+    "CreatedBy": "ab",
+    "UpdatedBy": "eveniet",
+    "DeviceIdentifier": "repellat",
+    "ForeignAppId": 790,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldType": "System.String",
+        "FieldLength": 518
       }
     }
   }

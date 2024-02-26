@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "odio",
+  "SaleText": "praesentium",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-11-26T16:54:56.2089916+01:00",
-  "Amount": 11786.974,
-  "SaleId": 993,
-  "Earning": 9599.442,
-  "EarningPercent": 15174.828,
-  "Heading": "dolorum",
-  "Number": "256261",
-  "Probability": 273,
-  "CreatedDate": "2009-06-01T16:54:56.2099899+02:00",
-  "UpdatedDate": "2017-05-25T16:54:56.2099899+02:00",
+  "Saledate": "2021-05-13T10:30:24.4971306+02:00",
+  "Amount": 2529.138,
+  "SaleId": 464,
+  "Earning": 2920.888,
+  "EarningPercent": 827.376,
+  "Heading": "est",
+  "Number": "1832111",
+  "Probability": 459,
+  "CreatedDate": "2003-10-02T10:30:24.4971306+02:00",
+  "UpdatedDate": "2008-05-31T10:30:24.4971306+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 114,
+  "ActiveLinks": 537,
   "Links": [
     {
-      "EntityName": "Mraz-Aufderhar",
-      "Id": 824,
-      "Description": "Multi-tiered modular parallelism",
-      "ExtraInfo": "ut",
-      "LinkId": 107,
+      "EntityName": "Weber Inc and Sons",
+      "Id": 1002,
+      "Description": "Optimized tertiary matrix",
+      "ExtraInfo": "voluptas",
+      "LinkId": 299,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 660
         }
       }
     }
   ],
-  "NextDueDate": "2017-11-10T16:54:56.2099899+01:00",
-  "Postit": "magni",
+  "NextDueDate": "2016-11-27T10:30:24.4971306+01:00",
+  "Postit": "recusandae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-07-27T16:54:56.2099899+02:00",
+  "ReopenDate": "2006-01-24T10:30:24.4971306+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "King-Langworth",
-      "Comment": "dolor",
-      "StakeholderRoleId": 745,
-      "CountryId": 501,
-      "PersonId": 643,
-      "EmailDescription": "okey@ondricka.co.uk",
-      "EmailId": 6,
-      "EmailAddress": "sedrick@vonrueden.com",
-      "PhoneId": 633,
-      "ContactName": "Krajcik LLC",
-      "ContactId": 858,
-      "SaleId": 373,
-      "Mrmrs": "ut",
-      "Firstname": "Bertha",
-      "MiddleName": "Harvey-Hamill",
-      "Lastname": "Hilpert",
-      "SaleStakeholderId": 215,
-      "Rank": 134,
-      "Phone": "620-438-0616",
+      "StakeholderRoleName": "Kertzmann, Padberg and Robel",
+      "Comment": "quia",
+      "StakeholderRoleId": 272,
+      "CountryId": 462,
+      "PersonId": 565,
+      "EmailDescription": "jose@littletromp.com",
+      "EmailId": 510,
+      "EmailAddress": "felicity.streich@cole.co.uk",
+      "PhoneId": 742,
+      "ContactName": "Crooks-Schuppe",
+      "ContactId": 22,
+      "SaleId": 385,
+      "Mrmrs": "adipisci",
+      "Firstname": "Elinor",
+      "MiddleName": "Thiel LLC",
+      "Lastname": "Metz",
+      "SaleStakeholderId": 678,
+      "Rank": 889,
+      "Phone": "178-241-9910 x03299",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 943
         }
       }
     }
   ],
-  "ActiveErpLinks": 945,
+  "ActiveErpLinks": 915,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ervin Bobby Predovic I",
-    "SuperOffice:2": "Carter Armstrong"
+    "SuperOffice:1": "Darrick Brekke",
+    "SuperOffice:2": "1121580329"
   },
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "dolores"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2014-06-14T16:54:56.2099899+02:00",
-  "PublishTo": "2024-01-17T16:54:56.2099899+01:00",
-  "PublishFrom": "2015-05-14T16:54:56.2099899+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-12-09T10:30:24.4971306+01:00",
+  "PublishTo": "2023-12-06T10:30:24.4971306+01:00",
+  "PublishFrom": "2014-06-28T10:30:24.4971306+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 347,
+      "VisibleId": 9,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 18
+          "FieldLength": 792
         }
       }
     },
     {
-      "VisibleId": 347,
+      "VisibleId": 9,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 18
+          "FieldLength": 792
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 961
     }
   }
 }

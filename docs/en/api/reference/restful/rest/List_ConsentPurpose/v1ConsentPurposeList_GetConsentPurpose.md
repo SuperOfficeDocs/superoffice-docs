@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 87,
-  "Name": "Legros Group",
-  "ConsentText": "fugit",
-  "FormText": "et",
-  "Key": "consectetur",
-  "Tooltip": "commodi",
-  "Active": 220,
-  "UpdatedDate": "1997-07-07T16:55:30.5696992+02:00",
+  "ConsentPurposeId": 240,
+  "Name": "Witting-Bradtke",
+  "ConsentText": "vitae",
+  "FormText": "reiciendis",
+  "Key": "porro",
+  "Tooltip": "quaerat",
+  "Active": 608,
+  "UpdatedDate": "2015-02-26T10:30:32.8962093+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 540,
-  "PrivacyStatementDesc": "doloribus",
+  "Rank": 39,
+  "PrivacyStatementDesc": "magni",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

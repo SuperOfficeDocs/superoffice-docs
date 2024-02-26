@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Ruecker-Hickle",
-    "ToolTip": "Nihil hic.",
-    "Deleted": false,
-    "Rank": 632,
-    "Type": "velit",
-    "ColorBlock": 686,
-    "IconHint": "animi",
-    "Selected": true,
-    "LastChanged": "2016-12-09T16:55:30.6392207+01:00",
+    "Id": 562,
+    "Name": "Kling, Kerluke and Cassin",
+    "ToolTip": "Qui enim cupiditate ad.",
+    "Deleted": true,
+    "Rank": 288,
+    "Type": "omnis",
+    "ColorBlock": 125,
+    "IconHint": "veritatis",
+    "Selected": false,
+    "LastChanged": "2014-08-30T10:30:32.9587082+02:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Lebsack Inc and Sons",
-        "ToolTip": "Voluptatem autem est voluptatem quia.",
+        "Id": 217,
+        "Name": "Simonis-Smitham",
+        "ToolTip": "Consequatur porro adipisci doloribus est quas molestiae omnis.",
         "Deleted": false,
-        "Rank": 231,
-        "Type": "ipsam",
-        "ColorBlock": 662,
-        "IconHint": "ut",
+        "Rank": 948,
+        "Type": "nemo",
+        "ColorBlock": 970,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2014-05-18T16:55:30.6392207+02:00",
+        "LastChanged": "1999-10-06T10:30:32.9587082+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "fugiat",
-        "Hidden": false,
-        "FullName": "Prof. Daren Goyette PhD"
+        "ExtraInfo": "soluta",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Frankie Walter Steuber Jr."
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Berniece O'Keefe"
+    "FullName": "Miss Delia Milton Schoen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Connelly, Rogahn and Schaden",
-    "ToolTip": "Autem odio sed tempora voluptatem et architecto.",
+    "Id": 401,
+    "Name": "Senger LLC",
+    "ToolTip": "Eum et molestias.",
     "Deleted": false,
-    "Rank": 305,
-    "Type": "error",
-    "ColorBlock": 400,
-    "IconHint": "sed",
+    "Rank": 973,
+    "Type": "assumenda",
+    "ColorBlock": 804,
+    "IconHint": "explicabo",
     "Selected": true,
-    "LastChanged": "2010-03-19T16:55:30.6402157+01:00",
+    "LastChanged": "2017-09-28T10:30:32.9587082+02:00",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Goodwin-Yundt",
-        "ToolTip": "Eos facere corporis vitae officia molestias est quas.",
-        "Deleted": false,
-        "Rank": 549,
+        "Id": 976,
+        "Name": "Runte Group",
+        "ToolTip": "Est enim.",
+        "Deleted": true,
+        "Rank": 513,
         "Type": "accusamus",
-        "ColorBlock": 653,
-        "IconHint": "est",
+        "ColorBlock": 703,
+        "IconHint": "doloremque",
         "Selected": false,
-        "LastChanged": "2009-06-30T16:55:30.6402157+02:00",
+        "LastChanged": "2000-10-11T10:30:32.9587082+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Autumn Bergnaum",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Emelie Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldType": "System.String",
+            "FieldLength": 200
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "officia",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mrs. Norval Kathleen Kihn Sr.",
+    "FullName": "Dr. May Kyla Goldner DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 811
+        "FieldType": "System.Int32",
+        "FieldLength": 242
       }
     }
   }

@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 256
+  "ContactId": 668
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 998,
-  "BlobSize": 143,
-  "Description": "Decentralized tertiary internet solution",
-  "ExtraInfo": "deleniti",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "quis",
-  "OriginalSize": 987,
-  "CreatedDate": "2013-04-23T16:54:54.6243027+02:00",
-  "UpdatedDate": "2005-05-20T16:54:54.6243027+02:00",
+  "BlobId": 221,
+  "BlobSize": 737,
+  "Description": "Configurable intermediate methodology",
+  "ExtraInfo": "doloremque",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "accusantium",
+  "OriginalSize": 161,
+  "CreatedDate": "1998-07-12T10:30:23.1139183+02:00",
+  "UpdatedDate": "2006-08-03T10:30:23.1139183+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quo",
+  "ConceptualType": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldLength": 130
     }
   }
 }

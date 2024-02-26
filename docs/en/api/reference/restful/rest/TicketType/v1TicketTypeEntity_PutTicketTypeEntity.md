@@ -101,28 +101,28 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 924,
-  "Name": "Corwin Inc and Sons",
-  "Rank": 906,
-  "Tooltip": "numquam",
-  "Icon": "dolor",
-  "DefaultTicketStatus": 394,
+  "TicketTypeId": 668,
+  "Name": "Beahan-Pollich",
+  "Rank": 693,
+  "Tooltip": "rem",
+  "Icon": "vel",
+  "DefaultTicketStatus": 60,
   "TicketStatuses": [
-    607,
-    399
+    146,
+    76
   ],
-  "DefaultTicketPriority": 797,
+  "DefaultTicketPriority": 632,
   "TicketPriorities": [
-    984,
-    227
+    677,
+    182
   ],
-  "ReplyTemplate": 211,
-  "IsExternalVisible": false,
-  "IsDefault": true
+  "ReplyTemplate": 634,
+  "IsExternalVisible": true,
+  "IsDefault": false
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 841,
-  "Name": "Schmidt Inc and Sons",
-  "Rank": 413,
-  "Tooltip": "rerum",
-  "Icon": "distinctio",
-  "DefaultTicketStatus": 593,
+  "TicketTypeId": 468,
+  "Name": "Treutel-Rogahn",
+  "Rank": 944,
+  "Tooltip": "est",
+  "Icon": "alias",
+  "DefaultTicketStatus": 735,
   "TicketStatuses": [
-    210,
-    721
+    68,
+    518
   ],
-  "DefaultTicketPriority": 344,
+  "DefaultTicketPriority": 211,
   "TicketPriorities": [
-    364,
-    172
+    112,
+    453
   ],
-  "ReplyTemplate": 249,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 669,
+  "IsExternalVisible": true,
   "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 205
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   },
   "_Links": {

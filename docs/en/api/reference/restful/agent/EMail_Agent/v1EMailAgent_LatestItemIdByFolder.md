@@ -74,7 +74,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 515
+  "FolderId": 995
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-131
+248
 ```

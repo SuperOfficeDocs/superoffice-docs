@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    579,
-    800
+    460,
+    723
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 316,
-    "MessageId": "commodi",
-    "Subject": "sit",
+    "ServerId": 675,
+    "MessageId": "soluta",
+    "Subject": "et",
     "From": null,
     "To": [
       {
-        "ContactId": 579,
-        "ContactName": "Walsh-Dach",
-        "PersonId": 801,
-        "PersonName": "Kris Inc and Sons",
-        "AssociateId": 402,
-        "Address": "ut",
-        "EmailId": 576,
+        "ContactId": 679,
+        "ContactName": "Steuber LLC",
+        "PersonId": 144,
+        "PersonName": "Halvorson-Thiel",
+        "AssociateId": 248,
+        "Address": "et",
+        "EmailId": 855,
         "DuplicatePersonIds": [
-          96,
-          64
+          677,
+          221
         ],
-        "Name": "Borer Inc and Sons",
+        "Name": "Lang, Mante and Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 486
+            "FieldType": "System.String",
+            "FieldLength": 886
           }
         }
       }
     ],
-    "Sent": "2013-04-24T16:54:55.3910339+02:00",
+    "Sent": "2003-08-26T10:30:23.8136779+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 64,
+    "Size": 560,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldLength": 694
       }
     }
   }

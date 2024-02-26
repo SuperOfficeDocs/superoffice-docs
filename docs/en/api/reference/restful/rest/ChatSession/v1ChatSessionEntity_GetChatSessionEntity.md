@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 304,
-  "TopicId": 876,
+  "ChatSessionId": 359,
+  "TopicId": 999,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sed",
-  "CustomerHost": "atque",
-  "CustomerName": "Hyatt-Koelpin",
-  "CustomerEmail": "glen@treutel.name",
-  "CustomerPhone": "344.329.6436 x03821",
+  "CustomerAlias": "molestiae",
+  "CustomerHost": "ut",
+  "CustomerName": "Mann, Rempel and Gorczany",
+  "CustomerEmail": "ariel@mcglynn.co.uk",
+  "CustomerPhone": "1-219-873-0657",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Willms, Kiehn and Gerlach",
+  "CustomerCompanyName": "Hand Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "dolorum",
-  "LastMessage": "tenetur",
-  "WhenRequested": "2005-12-05T16:55:29.2396616+01:00",
-  "WhenStarted": "2010-05-03T16:55:29.2396616+02:00",
-  "WhenEnded": "2010-06-02T16:55:29.2396616+02:00",
-  "WhenIdle": "2022-03-20T16:55:29.2396616+01:00",
-  "WhenFetched": "2022-03-30T16:55:29.2396616+02:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 248,
-  "AlertLevel": 91,
-  "Rank": 221,
+  "FirstMessage": "eveniet",
+  "LastMessage": "libero",
+  "WhenRequested": "2019-04-10T10:30:31.7124762+02:00",
+  "WhenStarted": "2005-05-24T10:30:31.7124762+02:00",
+  "WhenEnded": "2015-07-18T10:30:31.7124762+02:00",
+  "WhenIdle": "2011-10-03T10:30:31.7124762+02:00",
+  "WhenFetched": "2001-01-18T10:30:31.7124762+01:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 703,
+  "AlertLevel": 517,
+  "Rank": 630,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 990,
+  "Rating": 55,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldType": "System.String",
+      "FieldLength": 624
     }
   },
   "_Links": {

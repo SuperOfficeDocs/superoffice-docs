@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Ritchie, Toy and Cormier",
-    "ToolTip": "Ex expedita accusamus.",
+    "Id": 345,
+    "Name": "Frami-Senger",
+    "ToolTip": "Rerum voluptatem aut.",
     "Deleted": true,
-    "Rank": 819,
-    "Type": "architecto",
-    "ColorBlock": 399,
-    "IconHint": "et",
+    "Rank": 705,
+    "Type": "iste",
+    "ColorBlock": 273,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2000-06-08T16:55:31.090279+02:00",
+    "LastChanged": "2002-11-03T10:30:33.2568344+01:00",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Wolff, Bode and Greenholt",
-        "ToolTip": "Aliquid vero asperiores.",
+        "Id": 239,
+        "Name": "Dooley, Reichel and Herzog",
+        "ToolTip": "Aut corrupti ducimus ex eum natus rerum nulla.",
         "Deleted": false,
-        "Rank": 932,
-        "Type": "perferendis",
-        "ColorBlock": 769,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2013-12-20T16:55:31.090279+01:00",
+        "Rank": 239,
+        "Type": "quo",
+        "ColorBlock": 358,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2006-07-26T10:30:33.2568344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "quos",
-        "Hidden": false,
-        "FullName": "Dr. Tessie Abshire",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "odit",
+        "Hidden": true,
+        "FullName": "Felipe O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "repudiandae",
-    "Hidden": true,
-    "FullName": "Prof. Deontae Murphy IV",
+    "ExtraInfo": "omnis",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Ms. Olen Wilkinson V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 477
       }
     }
   }

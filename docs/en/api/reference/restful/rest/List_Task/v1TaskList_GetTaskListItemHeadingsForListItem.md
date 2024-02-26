@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Ruecker, Adams and Roob",
-    "ToolTip": "Incidunt hic et.",
-    "Deleted": true,
-    "Rank": 351,
-    "Type": "omnis",
-    "ColorBlock": 238,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2011-04-13T16:55:31.1158136+02:00",
+    "Id": 163,
+    "Name": "Torphy, Lubowitz and Reilly",
+    "ToolTip": "Labore aspernatur aut et nihil.",
+    "Deleted": false,
+    "Rank": 737,
+    "Type": "explicabo",
+    "ColorBlock": 293,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2016-04-23T10:30:33.2724548+02:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "O'Connell-Bergstrom",
-        "ToolTip": "Aut reiciendis dolor suscipit molestiae fugit.",
+        "Id": 268,
+        "Name": "Dibbert-Heidenreich",
+        "ToolTip": "Sed architecto iusto eos tenetur.",
         "Deleted": false,
-        "Rank": 904,
-        "Type": "dolorem",
-        "ColorBlock": 753,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "2002-06-11T16:55:31.1158136+02:00",
+        "Rank": 65,
+        "Type": "quia",
+        "ColorBlock": 438,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "1996-10-20T10:30:33.2724548+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "dicta",
+        "ExtraInfo": "itaque",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Hillary Hirthe",
+        "FullName": "Deja Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldType": "System.String",
+            "FieldLength": 125
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Jadon Marquardt",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "ducimus",
+    "Hidden": true,
+    "FullName": "Dr. Lydia Rubye Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 778
       }
     }
   }

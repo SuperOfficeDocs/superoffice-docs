@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 281,
-  "Name": "Boyer-Thiel",
-  "Description": "Monitored reciprocal hub",
-  "DeltaJson": "excepturi",
+  "ConfigurableScreenDeltaId": 345,
+  "Name": "Shields, Barrows and Johnson",
+  "Description": "Business-focused maximized groupware",
+  "DeltaJson": "temporibus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "et",
-  "UpdatedDate": "2019-06-16T16:54:54.8791698+02:00",
-  "CreatedDate": "2015-05-31T16:54:54.8791698+02:00",
+  "RecipeId": "nostrum",
+  "UpdatedDate": "2010-08-20T10:30:23.2418173+02:00",
+  "CreatedDate": "2008-05-15T10:30:23.2418173+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    615,
-    638
+    848,
+    892
   ],
-  "AppliesToKey": "pariatur"
+  "AppliesToKey": "et"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 173,
-  "Name": "Orn-Halvorson",
-  "Description": "Face to face executive core",
-  "DeltaJson": "qui",
+  "ConfigurableScreenDeltaId": 949,
+  "Name": "Leannon-Runte",
+  "Description": "Profit-focused 3rd generation challenge",
+  "DeltaJson": "neque",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "necessitatibus",
-  "UpdatedDate": "1997-11-08T16:54:54.8801704+01:00",
-  "CreatedDate": "2004-10-04T16:54:54.8801704+02:00",
+  "RecipeId": "ad",
+  "UpdatedDate": "2003-03-18T10:30:23.2418173+01:00",
+  "CreatedDate": "2021-11-22T10:30:23.2418173+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    951,
-    628
+    226,
+    327
   ],
-  "AppliesToKey": "error",
+  "AppliesToKey": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 309
     }
   }
 }

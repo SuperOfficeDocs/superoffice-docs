@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem"
+  "Key": "hic"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "voluptatem",
-  "AccessToken": "dicta",
-  "RefreshToken": "velit",
+  "Provider": "error",
+  "AccessToken": "officiis",
+  "RefreshToken": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldType": "System.String",
+      "FieldLength": 425
     }
   }
 }

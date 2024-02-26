@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 708,
+  "DocumentId": 916,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 10,
+  "DocumentId": 520,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "culpa",
-  "Name": "Cremin Inc and Sons",
-  "OurRef": "ex",
-  "YourRef": "sit",
-  "CreatedDate": "2013-01-10T16:54:55.2754226+01:00",
-  "UpdatedDate": "2002-03-02T16:54:55.2754226+01:00",
-  "Description": "Object-based interactive framework",
+  "Attention": "quibusdam",
+  "Header": "officiis",
+  "Name": "Glover, Stark and Orn",
+  "OurRef": "molestias",
+  "YourRef": "in",
+  "CreatedDate": "2008-12-06T10:30:23.7043065+01:00",
+  "UpdatedDate": "2022-10-22T10:30:23.7043065+02:00",
+  "Description": "Monitored heuristic flexibility",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-12-06T16:54:55.2774229+01:00",
-  "ExternalRef": "laudantium",
+  "Date": "2020-06-09T10:30:23.7043065+02:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 15,
+  "ActiveLinks": 725,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Olson-Legros",
-      "Id": 179,
-      "Description": "Innovative maximized data-warehouse",
-      "ExtraInfo": "corrupti",
-      "LinkId": 932,
+      "EntityName": "Adams, Funk and Schumm",
+      "Id": 305,
+      "Description": "Up-sized heuristic hardware",
+      "ExtraInfo": "dolores",
+      "LinkId": 858,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 458
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 725,
-  "Snum": 852,
+  "SuggestedDocumentId": 283,
+  "Snum": 845,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1266381262",
+    "SuperOffice:2": "1183285580"
   },
   "ExtraFields": {
-    "ExtraFields1": "labore",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "autem",
+    "CustomFields2": "hic"
   },
-  "PublishEventDate": "2008-12-30T16:54:55.2784234+01:00",
-  "PublishTo": "2021-12-06T16:54:55.2784234+01:00",
-  "PublishFrom": "2016-10-01T16:54:55.2784234+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2002-05-15T10:30:23.7043065+02:00",
+  "PublishTo": "1997-03-25T10:30:23.7043065+01:00",
+  "PublishFrom": "2018-09-30T10:30:23.7043065+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 73,
+      "VisibleId": 224,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldLength": 485
         }
       }
     },
     {
-      "VisibleId": 73,
+      "VisibleId": 224,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldLength": 485
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   }
 }

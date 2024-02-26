@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 559
+  "ContactId": 473
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 11410.894,
-  "Wgs84Longitude": 24567.426,
+  "Wgs84Latitude": 13523.21,
+  "Wgs84Longitude": 2842.538,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kuvalis-Cremin",
-        "Value": "sequi",
-        "Tooltip": "eum",
-        "Label": "nostrum",
-        "ValueLength": 760,
-        "AddressType": "aut",
+        "Name": "Bergstrom, Schmitt and Powlowski",
+        "Value": "fuga",
+        "Tooltip": "maxime",
+        "Label": "maiores",
+        "ValueLength": 18,
+        "AddressType": "delectus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldLength": 340
           }
         }
       }
     ],
     [
       {
-        "Name": "Strosin-Frami",
-        "Value": "ea",
-        "Tooltip": "totam",
-        "Label": "et",
-        "ValueLength": 612,
-        "AddressType": "sit",
+        "Name": "Williamson Inc and Sons",
+        "Value": "recusandae",
+        "Tooltip": "ipsum",
+        "Label": "officia",
+        "ValueLength": 748,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 693
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "nesciunt",
+  "Formatted": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldType": "System.String",
+      "FieldLength": 404
     }
   }
 }

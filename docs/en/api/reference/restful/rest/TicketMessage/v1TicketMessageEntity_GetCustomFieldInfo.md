@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Johnston, Corkery and McDermott",
-  "DisplayName": "Konopelski-VonRueden",
-  "Description": "De-engineered responsive product",
-  "ShortLabel": "similique",
+  "FieldName": "Towne-Goyette",
+  "DisplayName": "Lubowitz Inc and Sons",
+  "Description": "Upgradable background methodology",
+  "ShortLabel": "ut",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 865,
-  "TemplateVariableName": "Okuneva, Hilpert and O'Kon"
+  "Rank": 313,
+  "TemplateVariableName": "McLaughlin-Tillman"
 }
 ```

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 562,
-  "SaleId": 759,
-  "QuoteConnectionId": 167,
-  "ERPQuoteKey": "natus",
-  "ERPOrderKey": "et",
-  "ActiveQuoteVersionId": 836,
-  "AcceptedQuoteAlternativeId": 258,
-  "UseValuesFromQuote": 728,
-  "DocumentId": 230,
-  "PoNumber": "1007437",
-  "OrderComment": "ut",
-  "PreferredEmailCulture": "forest_schuppe@kozey.com",
+  "QuoteId": 500,
+  "SaleId": 153,
+  "QuoteConnectionId": 151,
+  "ERPQuoteKey": "non",
+  "ERPOrderKey": "ducimus",
+  "ActiveQuoteVersionId": 764,
+  "AcceptedQuoteAlternativeId": 989,
+  "UseValuesFromQuote": 425,
+  "DocumentId": 664,
+  "PoNumber": "1106094",
+  "OrderComment": "voluptate",
+  "PreferredEmailCulture": "danielle@wolff.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldLength": 972
     }
   }
 }

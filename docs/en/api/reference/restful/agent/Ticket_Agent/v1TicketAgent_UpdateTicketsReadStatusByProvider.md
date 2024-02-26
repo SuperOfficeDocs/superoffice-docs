@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "sapiente",
+  "Provider": "nam",
   "Restrictions": [
     {
-      "Name": "Morar Inc and Sons",
-      "Operator": "laudantium",
+      "Name": "Larkin-Koss",
+      "Operator": "et",
       "Values": [
-        "deleniti",
-        "facilis"
+        "dolore",
+        "minima"
       ],
       "DisplayValues": [
-        "harum",
-        "corporis"
+        "eveniet",
+        "maxime"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 899,
+      "InterParenthesis": 839,
       "InterOperator": "And",
-      "UniqueHash": 177
+      "UniqueHash": 871
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  325,
-  164
+  779,
+  426
 ]
 ```

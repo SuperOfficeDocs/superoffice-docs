@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 90,
-    "ERPName": "O'Keefe Inc and Sons",
-    "DisplayName": "Beatty Group",
-    "DisplayDescription": "Optional disintermediate knowledge base",
-    "Rank": 108,
-    "ConnectorName": "Batz LLC",
-    "ErpConnectionId": 633,
-    "ExtraData": "velit",
+    "QuoteConnectionId": 877,
+    "ERPName": "Schamberger, Raynor and Schneider",
+    "DisplayName": "Breitenberg Group",
+    "DisplayDescription": "Implemented composite task-force",
+    "Rank": 518,
+    "ConnectorName": "Osinski Group",
+    "ErpConnectionId": 146,
+    "ExtraData": "sunt",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 794,
-        "ERPPriceListKey": "velit",
-        "QuoteConnectionId": 186,
-        "Name": "Pollich, Daugherty and Ward",
-        "Description": "Cloned bi-directional ability",
-        "Currency": "earum",
-        "CurrencyName": "Spinka, Littel and Smitham",
-        "ValidFrom": "2023-01-14T16:54:56.1351408+01:00",
-        "ValidTo": "2011-09-27T16:54:56.1351408+02:00",
+        "PriceListId": 88,
+        "ERPPriceListKey": "qui",
+        "QuoteConnectionId": 348,
+        "Name": "Mosciski-Beatty",
+        "Description": "Streamlined demand-driven pricing structure",
+        "Currency": "cumque",
+        "CurrencyName": "Hilll-Daugherty",
+        "ValidFrom": "2008-12-05T10:30:24.4190067+01:00",
+        "ValidTo": "2017-05-15T10:30:24.4190067+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 148
+            "FieldType": "System.String",
+            "FieldLength": 593
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      995,
-      972
+      741,
+      787
     ],
     "AssociateAccessIds": [
-      810,
-      6
+      840,
+      383
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldType": "System.String",
+        "FieldLength": 794
       }
     }
   }

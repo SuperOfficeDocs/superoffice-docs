@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schmidt Group",
-  "ProviderName": "Harber-Kulas",
+  "GuiName": "Brown-Pagac",
+  "ProviderName": "Block-Jacobson",
   "ChosenColumns": [
-    "id",
-    "molestiae"
+    "soluta",
+    "dolores"
   ]
 }
 ```

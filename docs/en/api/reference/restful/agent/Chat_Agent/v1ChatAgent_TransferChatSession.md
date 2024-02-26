@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 633,
-  "ToAssociate": "et"
+  "ChatSessionId": 672,
+  "ToAssociate": "minima"
 }
 ```
 
@@ -122,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 791,
-  "TopicId": 711,
+  "ChatSessionId": 774,
+  "TopicId": 625,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ullam",
-  "CustomerHost": "facilis",
-  "CustomerName": "Olson Inc and Sons",
-  "CustomerEmail": "phoebe@homenick.info",
-  "CustomerPhone": "807.561.7597 x14103",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Kozey-Gorczany",
+  "CustomerAlias": "maiores",
+  "CustomerHost": "deleniti",
+  "CustomerName": "Mills Group",
+  "CustomerEmail": "lavern@ziemejacobs.co.uk",
+  "CustomerPhone": "343-659-1633",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Beier-Schinner",
   "Status": "Closed",
-  "FirstMessage": "nihil",
-  "LastMessage": "et",
-  "WhenRequested": "2004-09-13T16:54:54.6898212+02:00",
-  "WhenStarted": "2015-11-17T16:54:54.6898212+01:00",
-  "WhenEnded": "2007-02-15T16:54:54.6898212+01:00",
-  "WhenIdle": "2010-04-10T16:54:54.6898212+02:00",
-  "WhenFetched": "2016-11-16T16:54:54.6898212+01:00",
-  "SessionKey": "excepturi",
-  "InitialQueuePos": 163,
-  "AlertLevel": 447,
-  "Rank": 689,
+  "FirstMessage": "laborum",
+  "LastMessage": "in",
+  "WhenRequested": "2009-06-07T10:30:23.1764169+02:00",
+  "WhenStarted": "2006-09-07T10:30:23.1764169+02:00",
+  "WhenEnded": "1997-12-26T10:30:23.1764169+01:00",
+  "WhenIdle": "2001-05-08T10:30:23.1764169+02:00",
+  "WhenFetched": "2014-04-13T10:30:23.1764169+02:00",
+  "SessionKey": "consequuntur",
+  "InitialQueuePos": 490,
+  "AlertLevel": 733,
+  "Rank": 743,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 551,
+  "ChatbotIsActive": false,
+  "Rating": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 945
     }
   }
 }

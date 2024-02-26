@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Rosenbaum, Morissette and Bailey",
-    "ToolTip": "Qui porro non voluptatem saepe debitis ut quae.",
+    "Id": 302,
+    "Name": "Thompson-Thiel",
+    "ToolTip": "Dolore quo excepturi ut minus.",
     "Deleted": false,
-    "Rank": 980,
-    "Type": "iste",
-    "ColorBlock": 5,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2001-11-21T16:55:30.9901769+01:00",
+    "Rank": 478,
+    "Type": "ipsa",
+    "ColorBlock": 720,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2023-01-23T10:30:33.178709+01:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "McGlynn, Von and Schroeder",
-        "ToolTip": "Doloribus recusandae soluta voluptas quo aliquam facere consectetur.",
+        "Id": 483,
+        "Name": "Batz LLC",
+        "ToolTip": "Qui inventore sequi dolorem aut quaerat.",
         "Deleted": true,
-        "Rank": 34,
-        "Type": "voluptates",
-        "ColorBlock": 118,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2007-12-05T16:55:30.9901769+01:00",
+        "Rank": 366,
+        "Type": "qui",
+        "ColorBlock": 347,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "2005-06-11T10:30:33.178709+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "ratione",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Dr. Marta Kiera Larkin PhD",
+        "FullName": "Jovani Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldLength": 944
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Mrs. Millie Dare Jr.",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Lacy Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 502
       }
     }
   }

@@ -130,16 +130,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 516,
-  "StartTime": "2010-11-12T16:54:54.261008+01:00",
-  "EndTime": "2003-04-18T16:54:54.261008+02:00",
-  "Status": 126,
-  "Type": 964,
-  "AssociateId": 57
+  "Id": 8,
+  "StartTime": "2014-08-31T10:30:22.6098897+02:00",
+  "EndTime": "2000-08-15T10:30:22.6098897+02:00",
+  "Status": 985,
+  "Type": 538,
+  "AssociateId": 310
 }
 ```
 
@@ -150,65 +150,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 939,
-  "StartDate": "2017-03-15T16:54:54.2630241+01:00",
-  "EndDate": "2003-04-05T16:54:54.2630241+02:00",
+  "AppointmentId": 63,
+  "StartDate": "2019-09-11T10:30:22.6098897+02:00",
+  "EndDate": "1999-07-27T10:30:22.6098897+02:00",
   "Type": "BookingForChecklist",
-  "Task": "veniam",
-  "AssociateFullName": "Dr. Tomasa Cartwright",
-  "ContactName": "Boyle, Wilkinson and Hoppe",
-  "Description": "Digitized 5th generation monitoring",
-  "PersonFullName": "Daisha Towne PhD",
-  "PersonId": 23,
-  "ContactId": 918,
-  "ProjectId": 343,
-  "ProjectName": "Johns Group",
+  "Task": "inventore",
+  "AssociateFullName": "Lola Schuppe",
+  "ContactName": "Lindgren LLC",
+  "Description": "Implemented holistic interface",
+  "PersonFullName": "Mrs. Randal Anderson",
+  "PersonId": 826,
+  "ContactId": 150,
+  "ProjectId": 992,
+  "ProjectName": "Hilpert, Volkman and Gutmann",
   "IsPublished": false,
-  "AssociateId": 528,
-  "ColorIndex": 342,
-  "IsFree": false,
+  "AssociateId": 389,
+  "ColorIndex": 162,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 291,
-  "PriorityName": "Torphy-Will",
+  "PriorityId": 419,
+  "PriorityName": "Kiehn-Runolfsdottir",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2021-09-30T16:54:54.2630241+02:00",
+  "IsBooking": true,
+  "ActiveDate": "1998-03-29T10:30:22.6098897+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2014-08-03T16:54:54.2630241+02:00",
-  "RecurringEndDate": "2004-08-08T16:54:54.2630241+02:00",
-  "MotherId": 738,
-  "AssignedBy": 769,
-  "AssignedByFullName": "Miss Barton Loraine Johnson",
+  "RecurringStartDate": "2008-05-01T10:30:22.6098897+02:00",
+  "RecurringEndDate": "2007-10-13T10:30:22.6098897+02:00",
+  "MotherId": 228,
+  "AssignedBy": 5,
+  "AssignedByFullName": "Rhianna Emard",
   "RejectReason": "",
-  "Location": "similique",
-  "AlarmLeadTime": "qui",
-  "SaleId": 30,
-  "SaleName": "Cronin, Lynch and Reichert",
-  "AssociateName": "Wyman, Walker and Nienow",
-  "CreatedDate": "2015-07-30T16:54:54.2630241+02:00",
-  "CreatedBy": "ut",
-  "CreatedByFullName": "Bryon Bartell",
-  "CreatedByAssociateId": 580,
+  "Location": "quaerat",
+  "AlarmLeadTime": "unde",
+  "SaleId": 562,
+  "SaleName": "Cassin Inc and Sons",
+  "AssociateName": "Skiles LLC",
+  "CreatedDate": "1998-05-31T10:30:22.7220872+02:00",
+  "CreatedBy": "qui",
+  "CreatedByFullName": "Oswald Weissnat",
+  "CreatedByAssociateId": 935,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 954,
-  "Title": "dicta",
-  "Agenda": "in",
-  "InternalNotes": "quisquam",
+  "PreferredTZLocation": 398,
+  "Title": "vel",
+  "Agenda": "consequatur",
+  "InternalNotes": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldType": "System.String",
+      "FieldLength": 447
     }
   }
 }

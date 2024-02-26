@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Willms, Swift and Schumm",
-    "Tooltip": "quam",
+    "Id": 841,
+    "Name": "Pagac-Feest",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 313,
-    "Rank": 608,
+    "UdListDefinitionId": 516,
+    "Rank": 302,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 101
       }
     }
   }

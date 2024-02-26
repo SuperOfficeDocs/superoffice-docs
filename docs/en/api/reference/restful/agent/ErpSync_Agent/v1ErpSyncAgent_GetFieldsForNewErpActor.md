@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 621,
+  "ErpConnectionId": 871,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "laudantium",
-    "Rank": 897,
-    "DisplayName": "Schmidt-Parker",
-    "DisplayDescription": "Multi-layered fault-tolerant hierarchy",
+    "FieldKey": "eaque",
+    "Rank": 381,
+    "DisplayName": "Cronin-Collier",
+    "DisplayDescription": "Multi-tiered uniform customer loyalty",
     "FieldType": "Checkbox",
-    "ListName": "Bartoletti, Marquardt and Bartell",
-    "DefaultValue": "praesentium",
-    "MaxLength": 57,
+    "ListName": "Feest, Nienow and Lesch",
+    "DefaultValue": "doloribus",
+    "MaxLength": 593,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 112
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 897,
-    "Name": "Bauch-Larson",
-    "Tooltip": "laboriosam",
+    "HeadingId": 352,
+    "Name": "Walter-Mayer",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 28,
-    "UdListDefinitionId": 468
+    "Rank": 821,
+    "UdListDefinitionId": 433
   },
   {
-    "HeadingId": 897,
-    "Name": "Bauch-Larson",
-    "Tooltip": "laboriosam",
+    "HeadingId": 352,
+    "Name": "Walter-Mayer",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 28,
-    "UdListDefinitionId": 468
+    "Rank": 821,
+    "UdListDefinitionId": 433
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 922,
-    "Name": "Kemmer Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 460,
+    "Name": "Mayert, Yost and Zboncak",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 734,
-    "UdListDefinitionId": 368,
+    "Rank": 108,
+    "UdListDefinitionId": 306,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 526
       }
     }
   }

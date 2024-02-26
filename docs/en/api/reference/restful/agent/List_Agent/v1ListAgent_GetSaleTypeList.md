@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Value": "ad",
-    "Tooltip": "aliquid",
+    "Id": 228,
+    "Value": "error",
+    "Tooltip": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   },
   {
-    "Id": 616,
-    "Value": "ad",
-    "Tooltip": "aliquid",
+    "Id": 228,
+    "Value": "error",
+    "Tooltip": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   }

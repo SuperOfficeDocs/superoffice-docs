@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeSalePrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 867,
-  "NumSentences": 465,
-  "Summary": "fuga",
-  "IsoLangCode": "similique"
+  "SaleId": 620,
+  "NumSentences": 446,
+  "Summary": "architecto",
+  "IsoLangCode": "sunt"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2022-09-23T16:54:54.1932133+02:00",
-  "UserPrompt": "fugiat",
-  "UserDisplayText": "perspiciatis",
-  "BotResponse": "et",
+  "Timestamp": "2010-02-27T10:30:22.5161441+01:00",
+  "UserPrompt": "accusamus",
+  "UserDisplayText": "repellendus",
+  "BotResponse": "repellat",
   "BotActions": {
-    "BotActions1": "eos",
-    "BotActions2": "cupiditate"
+    "BotActions1": "quo",
+    "BotActions2": "cumque"
   },
   "Attachments": [
-    "quia",
-    "consequuntur"
+    "vitae",
+    "voluptatum"
   ]
 }
 ```

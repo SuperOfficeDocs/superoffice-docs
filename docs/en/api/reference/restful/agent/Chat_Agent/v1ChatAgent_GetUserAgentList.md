@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": true
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 455,
-    "Name": "Hickle-Daugherty",
-    "ToolTip": "Impedit voluptatem odit.",
+    "Id": 805,
+    "Name": "Blick-Cummings",
+    "ToolTip": "Sit reprehenderit perferendis distinctio recusandae error excepturi.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "quae",
+    "Rank": 111,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Fay, Towne and Sawayn",
-        "ToolTip": "Perferendis repellat voluptas.",
-        "Deleted": false,
-        "Rank": 885,
-        "Type": "magni",
+        "Id": 77,
+        "Name": "Langosh Group",
+        "ToolTip": "Est ex nostrum officia magni consequatur.",
+        "Deleted": true,
+        "Rank": 749,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 746,
-        "ExtraInfo": "architecto",
-        "StyleHint": "molestiae",
-        "FullName": "Mr. Dagmar Cyrus Rutherford Sr.",
+        "IconHint": "et",
+        "ColorBlock": 876,
+        "ExtraInfo": "et",
+        "StyleHint": "sed",
+        "FullName": "Karlee Wilderman V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 962
+            "FieldType": "System.Int32",
+            "FieldLength": 333
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 855,
-    "ExtraInfo": "et",
-    "StyleHint": "adipisci",
-    "FullName": "Dr. Tre Elian Wiegand",
+    "IconHint": "sapiente",
+    "ColorBlock": 616,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "ut",
+    "FullName": "Ursula Conor Harris MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 642
       }
     }
   }

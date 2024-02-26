@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "similique",
-  "GroupName": "Stehr-Hirthe"
+  "Type": "sed",
+  "GroupName": "Leannon-Balistreri"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "consequatur",
-    "voluptates"
+    "iure",
+    "provident"
   ],
   "Users": [
     {
-      "Value": "cum",
-      "DisplayValue": "excepturi",
+      "Value": "minus",
+      "DisplayValue": "numquam",
       "Columns": [
-        "adipisci",
-        "error"
+        "nostrum",
+        "quis"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 686
         }
       }
     },
     {
-      "Value": "cum",
-      "DisplayValue": "excepturi",
+      "Value": "minus",
+      "DisplayValue": "numquam",
       "Columns": [
-        "adipisci",
-        "error"
+        "nostrum",
+        "quis"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 686
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 442
+      "FieldLength": 264
     }
   }
 }

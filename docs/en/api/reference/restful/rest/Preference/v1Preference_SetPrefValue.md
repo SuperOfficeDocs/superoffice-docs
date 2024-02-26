@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "iure",
+  "RawValue": "quod",
   "Specification": null,
-  "DisplayValue": "officia",
-  "DisplayTooltip": "vero",
+  "DisplayValue": "aut",
+  "DisplayTooltip": "dicta",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 116,
-  "PrefDescId": 360,
-  "TableName": "Schmidt-Wisozk",
-  "UserPreferenceId": 23
+  "TargetId": 135,
+  "PrefDescId": 203,
+  "TableName": "Beatty, Donnelly and Bogisich",
+  "UserPreferenceId": 113
 }
 ```
 

@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhic LLC",
-  "FieldName": "Block Group"
+  "TableName": "Little, O'Connell and Howell",
+  "FieldName": "Stiedemann-Flatley"
 }
 ```
 
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Lowe-Howe",
-  "DisplayName": "Pagac, Okuneva and Farrell",
-  "Description": "Fundamental fresh-thinking throughput",
-  "ShortLabel": "error",
-  "HideLabel": false,
+  "FieldName": "Dach-Mueller",
+  "DisplayName": "Durgan, Torp and Stroman",
+  "Description": "Public-key holistic success",
+  "ShortLabel": "impedit",
+  "HideLabel": true,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
-  "Rank": 734,
-  "TemplateVariableName": "Torphy-Torphy"
+  "Rank": 342,
+  "TemplateVariableName": "Gislason Inc and Sons"
 }
 ```

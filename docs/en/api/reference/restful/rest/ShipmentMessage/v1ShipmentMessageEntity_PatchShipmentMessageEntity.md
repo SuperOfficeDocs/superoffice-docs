@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vero",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vero",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 518,
-  "PlainMessage": "soluta",
-  "HtmlMessage": "in",
-  "SmsMessage": "corporis",
-  "Description": "Self-enabling scalable data-warehouse",
-  "Subject": "sed",
-  "FolderId": 701,
-  "HeaderField": "voluptas",
-  "Design": "eius",
+  "ShipmentMessageId": 431,
+  "PlainMessage": "expedita",
+  "HtmlMessage": "dolorum",
+  "SmsMessage": "voluptas",
+  "Description": "Fundamental foreground emulation",
+  "Subject": "alias",
+  "FolderId": 275,
+  "HeaderField": "numquam",
+  "Design": "omnis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Sharable non-volatile pricing structure",
-  "AccessKey": "illum",
-  "DocumentMessage": 482,
-  "Registered": "2002-03-10T16:55:30.1450214+01:00",
-  "RegisteredAssociateId": 21,
-  "Updated": "2010-11-16T16:55:30.1450214+01:00",
-  "UpdatedAssociateId": 421,
-  "UpdatedCount": 399,
+  "LongDescription": "Centralized interactive forecast",
+  "AccessKey": "harum",
+  "DocumentMessage": 949,
+  "Registered": "2017-08-11T10:30:32.5125031+02:00",
+  "RegisteredAssociateId": 204,
+  "Updated": "2022-01-29T10:30:32.5125031+01:00",
+  "UpdatedAssociateId": 296,
+  "UpdatedCount": 906,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldType": "System.Int32",
+      "FieldLength": 142
     }
   },
   "_Links": {

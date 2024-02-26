@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 845,
-  "Name": "Zulauf, Abshire and Zboncak",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "Rank": 431,
-  "UdListDefinitionId": 57
+  "HeadingId": 617,
+  "Name": "Schamberger, Koss and O'Hara",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "Rank": 777,
+  "UdListDefinitionId": 297
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 235,
-  "Name": "Homenick-Carroll",
-  "Tooltip": "expedita",
+  "HeadingId": 364,
+  "Name": "Wilderman Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 782,
-  "UdListDefinitionId": 635,
+  "Rank": 963,
+  "UdListDefinitionId": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldType": "System.Int32",
+      "FieldLength": 296
     }
   }
 }

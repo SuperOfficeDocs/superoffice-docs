@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 615
+  "CountWords": 907
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Nolan Group",
-    "ToolTip": "Quaerat blanditiis architecto praesentium consequatur.",
+    "Id": 285,
+    "Name": "Jaskolski Group",
+    "ToolTip": "Totam alias non eligendi quisquam velit.",
     "Deleted": true,
-    "Rank": 759,
-    "Type": "quisquam",
+    "Rank": 77,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Bins, Ruecker and Legros",
-        "ToolTip": "Officia a ipsum repellat debitis.",
+        "Id": 936,
+        "Name": "Goyette, Toy and Luettgen",
+        "ToolTip": "Ut odit nobis deleniti deleniti fugiat laborum praesentium.",
         "Deleted": false,
-        "Rank": 368,
-        "Type": "voluptatem",
+        "Rank": 38,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 182,
-        "ExtraInfo": "nihil",
-        "StyleHint": "hic",
-        "FullName": "Reyes Anastacio Heidenreich III",
+        "IconHint": "enim",
+        "ColorBlock": 914,
+        "ExtraInfo": "et",
+        "StyleHint": "nulla",
+        "FullName": "Mrs. Ola Wintheiser IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 867
+            "FieldType": "System.String",
+            "FieldLength": 527
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 898,
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "nemo",
-    "FullName": "Prof. Norberto Jenkins",
+    "IconHint": "atque",
+    "ColorBlock": 426,
+    "ExtraInfo": "alias",
+    "StyleHint": "quo",
+    "FullName": "Monte Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 954
       }
     }
   }

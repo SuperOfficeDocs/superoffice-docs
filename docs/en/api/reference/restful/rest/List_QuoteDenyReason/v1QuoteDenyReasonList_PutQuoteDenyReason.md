@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 767,
-  "Name": "Pfannerstill Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 232,
-  "Rank": 451
+  "Id": 523,
+  "Name": "Kautzer Group",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "UdListDefinitionId": 980,
+  "Rank": 403
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Hyatt-Berge",
-  "Tooltip": "quis",
+  "Id": 285,
+  "Name": "Gottlieb, Johnston and Hane",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "UdListDefinitionId": 802,
-  "Rank": 943,
+  "UdListDefinitionId": 582,
+  "Rank": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldType": "System.String",
+      "FieldLength": 521
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 395,
-    "Name": "Eichmann, Kuhlman and Harris",
-    "OrgNr": "1586965",
+    "ContactId": 499,
+    "Name": "Walker Inc and Sons",
+    "OrgNr": "365946",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "qui",
-    "DirectPhone": "809.644.0901",
-    "AssociateId": 363,
-    "CountryId": 701,
-    "EmailAddress": "merle@kundeprohaska.info",
-    "Kananame": "sed",
-    "EmailAddressName": "isom.vonrueden@franeckimayer.info",
+    "City": "neque",
+    "DirectPhone": "969-894-4038 x64055",
+    "AssociateId": 904,
+    "CountryId": 110,
+    "EmailAddress": "tierra@schimmel.ca",
+    "Kananame": "cupiditate",
+    "EmailAddressName": "breana@aufderhar.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Vicenta Kuhn",
+    "AssociateFullName": "Mrs. Javon Lueilwitz",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "quaerat",
-    "FullName": "Mr. Paul Dach Sr.",
+    "FormattedAddress": "quisquam",
+    "FullName": "Destiny Zechariah Bechtelar DDS",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 530,
-    "Number1": "378501",
-    "Number2": "717290",
+    "ActiveErpLinks": 310,
+    "Number1": "1454951",
+    "Number2": "490562",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldLength": 336
       }
     }
   }

@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 951,
-  "Section": "aliquam",
-  "Key": "ut",
-  "Name": "Morissette LLC",
+  "PrefDescId": 548,
+  "Section": "non",
+  "Key": "id",
+  "Name": "Okuneva Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated value-added flexibility",
-  "IsBuiltin": false,
-  "TableName": "Hackett-McKenzie",
-  "UserDefinedListId": 57,
-  "Rank": 707,
-  "SubGroup": "quia",
-  "MinLevel": 557,
-  "MaxValue": 522,
-  "MinValue": 9,
-  "RequiredLicense": "doloremque"
+  "Description": "Automated assymetric core",
+  "IsBuiltin": true,
+  "TableName": "Boyle Inc and Sons",
+  "UserDefinedListId": 925,
+  "Rank": 19,
+  "SubGroup": "sunt",
+  "MinLevel": 763,
+  "MaxValue": 679,
+  "MinValue": 310,
+  "RequiredLicense": "dignissimos"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 460,
+  "PrefDescId": 947,
   "Section": "et",
-  "Key": "quis",
-  "Name": "Huels Inc and Sons",
+  "Key": "dolorem",
+  "Name": "Shields-Zemlak",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized multi-tasking emulation",
-  "IsBuiltin": true,
-  "TableName": "Braun, Boyer and Price",
-  "UserDefinedListId": 721,
-  "Rank": 522,
-  "SubGroup": "quasi",
-  "MinLevel": 424,
-  "MaxValue": 548,
-  "MinValue": 245,
-  "RequiredLicense": "repellat",
+  "Description": "Managed discrete complexity",
+  "IsBuiltin": false,
+  "TableName": "Monahan Group",
+  "UserDefinedListId": 9,
+  "Rank": 208,
+  "SubGroup": "et",
+  "MinLevel": 467,
+  "MaxValue": 822,
+  "MinValue": 781,
+  "RequiredLicense": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 446
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

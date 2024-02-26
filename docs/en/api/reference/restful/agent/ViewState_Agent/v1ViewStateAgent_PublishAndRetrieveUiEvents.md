@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 522,
+  "LatestKnownEventId": 769,
   "PublishEvents": [
     {
-      "EventId": 818,
-      "EventName": "Hegmann LLC",
-      "EntityType": "debitis",
-      "EntityKey": 564,
-      "AssociateId": 119,
-      "AssociateName": "Goldner, Morar and Gerhold",
-      "EventDateTime": "2003-06-06T16:54:56.7297347+02:00"
+      "EventId": 103,
+      "EventName": "Dooley, Reinger and Medhurst",
+      "EntityType": "facere",
+      "EntityKey": 352,
+      "AssociateId": 403,
+      "AssociateName": "Hodkiewicz Inc and Sons",
+      "EventDateTime": "2017-08-01T10:30:25.076705+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Kerluke Group",
-      "Value": 252
+      "Name": "Runolfsson, Goyette and Mosciski",
+      "Value": 608
     },
     {
-      "Name": "Kerluke Group",
-      "Value": 252
+      "Name": "Runolfsson, Goyette and Mosciski",
+      "Value": 608
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 180,
-    "EventName": "Jakubowski-Sporer",
-    "EntityType": "inventore",
-    "EntityKey": 426,
-    "AssociateId": 505,
-    "AssociateName": "Grady, Marks and Satterfield",
-    "EventDateTime": "2006-12-31T16:54:56.7297347+01:00",
+    "EventId": 291,
+    "EventName": "Kris-Pollich",
+    "EntityType": "tempore",
+    "EntityKey": 974,
+    "AssociateId": 209,
+    "AssociateName": "Fay LLC",
+    "EventDateTime": "2011-01-08T10:30:25.076705+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldLength": 898
       }
     }
   }

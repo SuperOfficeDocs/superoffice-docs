@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Jacobs-Marquardt",
-  "StorageKey": "aspernatur",
+  "StorageType": "sunt",
+  "ProviderName": "Bednar-Pacocha",
+  "StorageKey": "dolorem",
   "Restrictions": [
     {
-      "Name": "Lockman-Gulgowski",
-      "Operator": "molestiae",
+      "Name": "Schulist-Smitham",
+      "Operator": "ut",
       "Values": [
-        "maiores",
-        "aspernatur"
+        "placeat",
+        "quas"
       ],
       "DisplayValues": [
-        "aut",
-        "odio"
+        "aliquam",
+        "vitae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 373,
+      "InterParenthesis": 122,
       "InterOperator": "And",
-      "UniqueHash": 785
+      "UniqueHash": 34
     }
   ]
 }

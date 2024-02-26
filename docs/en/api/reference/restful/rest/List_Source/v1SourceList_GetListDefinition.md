@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 553,
-  "Name": "Braun-Morar",
-  "Tooltip": "minima",
+  "Id": 56,
+  "Name": "Nicolas, Johnson and Casper",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 818,
+  "Rank": 568,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 182
     }
   },
   "_Links": {

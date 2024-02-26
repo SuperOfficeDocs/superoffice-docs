@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=nemo
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=qui
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Kertzmann Group",
-    "ToolTip": "Animi at enim.",
+    "Id": 34,
+    "Name": "Sawayn, Stark and Blick",
+    "ToolTip": "Autem cum officia ea dolore temporibus.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "dolor",
+    "Rank": 523,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Wintheiser, Koelpin and Bogisich",
-        "ToolTip": "Sed architecto totam quo fugit eaque temporibus.",
+        "Id": 689,
+        "Name": "Huels, Erdman and McCullough",
+        "ToolTip": "Et amet eaque deleniti debitis.",
         "Deleted": false,
-        "Rank": 848,
-        "Type": "voluptas",
+        "Rank": 710,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quibusdam",
-        "ColorBlock": 122,
-        "ExtraInfo": "quasi",
-        "StyleHint": "dolorem",
-        "FullName": "Prof. Wilmer Fritz Adams III",
+        "IconHint": "nemo",
+        "ColorBlock": 27,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "qui",
+        "FullName": "Rosalia Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 475
+            "FieldLength": 393
           }
         }
       }
     ],
-    "IconHint": "veritatis",
-    "ColorBlock": 435,
-    "ExtraInfo": "adipisci",
-    "StyleHint": "laudantium",
-    "FullName": "Jedidiah Lind",
+    "IconHint": "soluta",
+    "ColorBlock": 135,
+    "ExtraInfo": "corrupti",
+    "StyleHint": "odit",
+    "FullName": "Toby Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 834
       }
     }
   }

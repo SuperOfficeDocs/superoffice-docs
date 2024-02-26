@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "et",
-  "Children": true
+  "Path": "in",
+  "Children": false
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 249,
+  "HierarchyId": 823,
   "Domain": "Dashboards",
-  "Name": "Fadel LLC",
-  "Fullname": "occaecati",
-  "ParentId": 549,
+  "Name": "Koepp Group",
+  "Fullname": "qui",
+  "ParentId": 674,
   "Children": [
     {
-      "HierarchyId": 92,
+      "HierarchyId": 99,
       "Domain": "Dashboards",
-      "Name": "Zulauf-Vandervort",
-      "Fullname": "eum",
-      "ParentId": 587,
+      "Name": "Rolfson Group",
+      "Fullname": "delectus",
+      "ParentId": 912,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-09-05T16:54:55.6109849+02:00",
-      "RegisteredAssociateId": 854,
-      "Updated": "2017-02-03T16:54:55.6109849+01:00",
-      "UpdatedAssociateId": 583,
+      "Registered": "2009-08-08T10:30:24.0569003+02:00",
+      "RegisteredAssociateId": 104,
+      "Updated": "2004-03-16T10:30:24.0569003+01:00",
+      "UpdatedAssociateId": 101,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldType": "System.String",
+          "FieldLength": 563
         }
       }
     }
   ],
-  "Registered": "2013-03-23T16:54:55.6109849+01:00",
-  "RegisteredAssociateId": 381,
-  "Updated": "2005-01-29T16:54:55.6109849+01:00",
-  "UpdatedAssociateId": 852,
+  "Registered": "2012-07-30T10:30:24.0569003+02:00",
+  "RegisteredAssociateId": 366,
+  "Updated": "2014-02-24T10:30:24.0569003+01:00",
+  "UpdatedAssociateId": 160,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldType": "System.Int32",
+      "FieldLength": 855
     }
   }
 }

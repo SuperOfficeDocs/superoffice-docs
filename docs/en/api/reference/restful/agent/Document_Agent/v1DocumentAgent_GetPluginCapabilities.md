@@ -74,7 +74,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 806
+  "PluginId": 149
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "velit",
-  "2": "provident"
+  "1": "tempore",
+  "2": "omnis"
 }
 ```

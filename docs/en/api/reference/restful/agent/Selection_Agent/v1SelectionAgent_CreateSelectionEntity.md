@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Crona-Berge"
+  "TargetTableName": "Thiel, Stark and Lynch"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive non-volatile algorithm",
-  "Postit": "qui",
+  "Description": "Persevering discrete focus group",
+  "Postit": "doloribus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 778,
-  "IncludePerson": 462,
-  "MemberCount": 896,
-  "Name": "Pfannerstill LLC",
-  "PostitTextId": 882,
-  "CreatedDate": "2016-06-04T16:54:56.2955049+02:00",
-  "SelectionId": 917,
-  "SoundEx": "consequatur",
-  "Source": 247,
-  "TextId": 594,
-  "UpdatedDate": "2016-04-10T16:54:56.2965031+02:00",
-  "UpdatedCount": 610,
-  "Visibility": 210,
+  "GroupIdx": 316,
+  "IncludePerson": 40,
+  "MemberCount": 491,
+  "Name": "Langosh Inc and Sons",
+  "PostitTextId": 779,
+  "CreatedDate": "2010-08-27T10:30:24.5752485+02:00",
+  "SelectionId": 638,
+  "SoundEx": "et",
+  "Source": 343,
+  "TextId": 347,
+  "UpdatedDate": "2020-03-02T10:30:24.5752485+01:00",
+  "UpdatedCount": 904,
+  "Visibility": 177,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 367,
-  "TargetTableName": "Hagenes Group",
-  "Completed": false,
-  "LeftSelectionId": 775,
-  "RightSelectionId": 313,
+  "CompanyUnique": true,
+  "TargetTableNumber": 427,
+  "TargetTableName": "Fritsch, Will and Hauck",
+  "Completed": true,
+  "LeftSelectionId": 295,
+  "RightSelectionId": 577,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nitzsche, Bergnaum and Swaniawski",
-  "ShadowProviderName": "Weber-Hackett",
-  "ChartKey": "ab",
-  "LastLoaded": "2007-10-03T16:54:56.2965031+02:00",
-  "LastLoadedBy": 317,
+  "MainProviderName": "Rohan, Robel and Abshire",
+  "ShadowProviderName": "Denesik-Stamm",
+  "ChartKey": "excepturi",
+  "LastLoaded": "2007-04-23T10:30:24.5752485+02:00",
+  "LastLoadedBy": 511,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-02-03T16:54:56.2965031+01:00",
-  "LastMembershipChangeBy": 838,
+  "LastMembershipChange": "2020-08-01T10:30:24.5752485+02:00",
+  "LastMembershipChangeBy": 122,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tenetur",
-  "MemberTabHeading": "vitae",
-  "MailingsProviderName": "Bernier, Weber and Hammes",
-  "DashboardTileDefinitionId": 284,
+  "MainHeading": "aliquam",
+  "MemberTabHeading": "dignissimos",
+  "MailingsProviderName": "Renner, Borer and Considine",
+  "DashboardTileDefinitionId": 206,
   "VisibleFor": [
     {
-      "VisibleId": 521,
+      "VisibleId": 613,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldType": "System.String",
+          "FieldLength": 217
         }
       }
     },
     {
-      "VisibleId": 521,
+      "VisibleId": 613,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldType": "System.String",
+          "FieldLength": 217
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

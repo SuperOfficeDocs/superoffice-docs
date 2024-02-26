@@ -58,6 +58,7 @@ The AttachmentEntity to be saved.
 | InlineImage | Boolean | True if this attachment is inlined in the html_body. |
 | ContentId | String | The content_id of this attachment, used for inline images |
 | AuthKey | String | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | Boolean | Is file considered to be safe (based on extension and settings) |
 
 ## Response:
 
@@ -78,6 +79,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -88,17 +90,18 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 412,
-  "Name": "Medhurst Inc and Sons",
-  "ContentType": "hic",
-  "AttSize": 295,
-  "InlineImage": false,
-  "ContentId": "reiciendis",
-  "AuthKey": "nemo"
+  "AttachmentId": 343,
+  "Name": "Abshire Inc and Sons",
+  "ContentType": "rerum",
+  "AttSize": 830,
+  "InlineImage": true,
+  "ContentId": "vel",
+  "AuthKey": "ad",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -109,19 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 132,
-  "Name": "Reinger-Yost",
-  "ContentType": "deleniti",
-  "AttSize": 43,
+  "AttachmentId": 351,
+  "Name": "Rutherford, Littel and Hegmann",
+  "ContentType": "sunt",
+  "AttSize": 515,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "quia",
+  "ContentId": "in",
+  "AuthKey": "est",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldType": "System.String",
+      "FieldLength": 200
     }
   },
   "_Links": {

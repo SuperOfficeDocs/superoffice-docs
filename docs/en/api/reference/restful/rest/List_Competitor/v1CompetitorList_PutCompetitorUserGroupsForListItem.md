@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Gleason, Farrell and Heller",
-    "ToolTip": "Eos voluptas.",
-    "Deleted": true,
-    "Rank": 827,
-    "Type": "dolorum",
-    "ColorBlock": 396,
-    "IconHint": "modi",
-    "Selected": false,
-    "LastChanged": "2007-03-30T16:55:30.560698+02:00",
+    "Id": 370,
+    "Name": "Hilpert, Cummerata and Bechtelar",
+    "ToolTip": "Reprehenderit quia porro consequatur qui debitis reprehenderit nostrum.",
+    "Deleted": false,
+    "Rank": 783,
+    "Type": "dolorem",
+    "ColorBlock": 435,
+    "IconHint": "maxime",
+    "Selected": true,
+    "LastChanged": "2001-07-13T10:30:32.8805387+02:00",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Kozey Group",
-        "ToolTip": "Nihil et quia omnis quis.",
+        "Id": 803,
+        "Name": "Waelchi-Kunde",
+        "ToolTip": "Laboriosam et id quo praesentium consequatur.",
         "Deleted": false,
-        "Rank": 639,
-        "Type": "ut",
-        "ColorBlock": 951,
-        "IconHint": "et",
+        "Rank": 887,
+        "Type": "magni",
+        "ColorBlock": 154,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2014-01-06T16:55:30.560698+01:00",
+        "LastChanged": "2015-04-30T10:30:32.8805387+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "quasi",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Mrs. Dayton Addie Kassulke V"
+        "FullName": "Stephen Andre Barton IV"
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "labore",
+    "ExtraInfo": "ut",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Cleta Shields PhD"
+    "FullName": "Mr. Felicita Tina Wyman Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "O'Kon, Ullrich and Hessel",
-    "ToolTip": "Libero in id enim error eos.",
-    "Deleted": true,
-    "Rank": 227,
-    "Type": "voluptates",
-    "ColorBlock": 317,
-    "IconHint": "est",
+    "Id": 953,
+    "Name": "Goodwin LLC",
+    "ToolTip": "Repellat aut architecto.",
+    "Deleted": false,
+    "Rank": 289,
+    "Type": "iure",
+    "ColorBlock": 377,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2016-03-28T16:55:30.5616963+02:00",
+    "LastChanged": "2000-03-14T10:30:32.8962093+01:00",
     "ChildItems": [
       {
-        "Id": 137,
-        "Name": "Murphy Group",
-        "ToolTip": "Perferendis itaque dolores.",
+        "Id": 725,
+        "Name": "Metz LLC",
+        "ToolTip": "Labore voluptates quia.",
         "Deleted": true,
-        "Rank": 470,
-        "Type": "dicta",
-        "ColorBlock": 513,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2020-09-03T16:55:30.5616963+02:00",
+        "Rank": 642,
+        "Type": "repellat",
+        "ColorBlock": 388,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2005-07-04T10:30:32.8962093+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Ernestina Felipe Bernier DVM",
+        "ExtraInfo": "qui",
+        "StyleHint": "delectus",
+        "Hidden": false,
+        "FullName": "Ms. London Nader I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 58
+            "FieldType": "System.Int32",
+            "FieldLength": 346
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "iste",
+    "ExtraInfo": "est",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Prof. Oceane Carolanne Roberts II",
+    "FullName": "Adrain Lorna Kiehn IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 547
       }
     }
   }

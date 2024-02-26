@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 66,
-    "Name": "Stanton Inc and Sons",
-    "Tooltip": "modi",
-    "Deleted": false,
-    "Rank": 721,
-    "UdListDefinitionId": 268,
+    "HeadingId": 442,
+    "Name": "West-Greenholt",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 781,
+    "UdListDefinitionId": 367,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 606
       }
     }
   }

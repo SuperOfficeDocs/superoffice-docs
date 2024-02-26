@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 19 Mar 2016 16:55:30 G3T
+Last-Modified: Sat, 28 Jul 2018 10:30:32 G7T
 
 {
-  "Description": "Managed multimedia Graphical User Interface",
-  "Postit": "et",
+  "Description": "Synchronised bifurcated challenge",
+  "Postit": "libero",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 836,
-  "IncludePerson": 547,
-  "MemberCount": 313,
-  "Name": "Lind, Sanford and Kessler",
-  "PostitTextId": 155,
-  "CreatedDate": "2007-04-11T16:55:30.1230211+02:00",
-  "SelectionId": 95,
-  "SoundEx": "illo",
-  "Source": 688,
-  "TextId": 269,
-  "UpdatedDate": "2016-03-19T16:55:30.1230211+01:00",
-  "UpdatedCount": 277,
-  "Visibility": 648,
+  "GroupIdx": 226,
+  "IncludePerson": 519,
+  "MemberCount": 156,
+  "Name": "Braun-Grimes",
+  "PostitTextId": 748,
+  "CreatedDate": "2007-08-17T10:30:32.4968779+02:00",
+  "SelectionId": 567,
+  "SoundEx": "inventore",
+  "Source": 122,
+  "TextId": 947,
+  "UpdatedDate": "2018-07-28T10:30:32.4968779+02:00",
+  "UpdatedCount": 224,
+  "Visibility": 264,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 938,
-  "TargetTableName": "Littel, Kovacek and Borer",
-  "Completed": true,
-  "LeftSelectionId": 469,
-  "RightSelectionId": 64,
+  "CompanyUnique": false,
+  "TargetTableNumber": 752,
+  "TargetTableName": "Bergstrom, Hansen and Rath",
+  "Completed": false,
+  "LeftSelectionId": 300,
+  "RightSelectionId": 276,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lesch-Towne",
-  "ShadowProviderName": "O'Kon LLC",
-  "ChartKey": "tempora",
-  "LastLoaded": "2005-09-20T16:55:30.1230211+02:00",
-  "LastLoadedBy": 732,
+  "MainProviderName": "Osinski Group",
+  "ShadowProviderName": "Goodwin-Hagenes",
+  "ChartKey": "dicta",
+  "LastLoaded": "2005-01-01T10:30:32.4968779+01:00",
+  "LastLoadedBy": 334,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-06-21T16:55:30.1240203+02:00",
-  "LastMembershipChangeBy": 611,
+  "LastMembershipChange": "2003-03-08T10:30:32.4968779+01:00",
+  "LastMembershipChangeBy": 571,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "culpa",
-  "MemberTabHeading": "id",
-  "MailingsProviderName": "Pagac-Gibson",
-  "DashboardTileDefinitionId": 633,
+  "MainHeading": "vitae",
+  "MemberTabHeading": "sunt",
+  "MailingsProviderName": "O'Connell LLC",
+  "DashboardTileDefinitionId": 585,
   "VisibleFor": [
     {
-      "VisibleId": 304,
+      "VisibleId": 64,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     },
     {
-      "VisibleId": 304,
+      "VisibleId": 64,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Sat, 19 Mar 2016 16:55:30 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldType": "System.String",
+      "FieldLength": 207
     }
   },
   "_Links": {

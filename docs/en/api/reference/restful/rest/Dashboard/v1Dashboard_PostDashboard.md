@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 102,
-  "AssociateId": 73,
-  "Caption": "ad",
+  "DashboardId": 964,
+  "AssociateId": 985,
+  "Caption": "asperiores",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 621,
-      "Caption": "eius",
-      "Description": "Innovative bifurcated throughput",
-      "ChartName": "Watsica LLC",
-      "ChartId": "autem",
+      "DashboardTileId": 967,
+      "Caption": "officia",
+      "Description": "Phased zero administration productivity",
+      "ChartName": "D'Amore, Durgan and Homenick",
+      "ChartId": "ex",
       "IsDefault": false,
-      "AssociateId": 145,
-      "GroupId": 236,
-      "SelectionId": 981,
-      "Config": "et",
+      "AssociateId": 285,
+      "GroupId": 177,
+      "SelectionId": 725,
+      "Config": "laboriosam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 122,
-  "AssociateId": 133,
-  "Caption": "quibusdam",
+  "DashboardId": 633,
+  "AssociateId": 81,
+  "Caption": "natus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 616,
-      "Caption": "voluptas",
-      "Description": "Quality-focused transitional methodology",
-      "ChartName": "Kilback, Weissnat and Kuphal",
-      "ChartId": "temporibus",
-      "IsDefault": false,
-      "AssociateId": 174,
-      "GroupId": 196,
-      "SelectionId": 749,
-      "Config": "odio",
+      "DashboardTileId": 335,
+      "Caption": "reprehenderit",
+      "Description": "Networked encompassing protocol",
+      "ChartName": "Hagenes Inc and Sons",
+      "ChartId": "a",
+      "IsDefault": true,
+      "AssociateId": 83,
+      "GroupId": 971,
+      "SelectionId": 360,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 597
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldLength": 89
     }
   },
   "_Links": {

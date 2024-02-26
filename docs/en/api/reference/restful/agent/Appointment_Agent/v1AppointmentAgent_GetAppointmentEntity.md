@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=196
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=871
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-07-03T16:54:54.3474007+02:00",
-  "AppointmentId": 373,
-  "Description": "Visionary bifurcated success",
-  "Title": "unde",
-  "Agenda": "nihil",
-  "InternalNotes": "iusto",
-  "StartDate": "2015-12-15T16:54:54.3474007+01:00",
-  "EndDate": "2021-01-02T16:54:54.3474007+01:00",
+  "CreatedDate": "2019-09-16T10:30:22.8002126+02:00",
+  "AppointmentId": 778,
+  "Description": "Secured mobile definition",
+  "Title": "laboriosam",
+  "Agenda": "laudantium",
+  "InternalNotes": "sint",
+  "StartDate": "2017-06-26T10:30:22.8002126+02:00",
+  "EndDate": "2017-03-10T10:30:22.8002126+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 619,
+  "MotherId": 800,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-06-26T16:54:54.3493952+02:00",
+  "UpdatedDate": "1999-03-10T10:30:22.8002126+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 149,
+  "ActiveLinks": 773,
   "Links": [
     {
-      "EntityName": "Padberg-Paucek",
-      "Id": 667,
-      "Description": "Profit-focused incremental hardware",
-      "ExtraInfo": "sit",
-      "LinkId": 979,
+      "EntityName": "Dickinson-Legros",
+      "Id": 413,
+      "Description": "Persistent multi-tasking model",
+      "ExtraInfo": "nemo",
+      "LinkId": 99,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 598
         }
       }
     }
   ],
-  "AlarmLeadTime": "adipisci",
-  "HasAlarm": true,
-  "ColorIndex": 127,
-  "IsFree": true,
+  "AlarmLeadTime": "qui",
+  "HasAlarm": false,
+  "ColorIndex": 671,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ad",
-  "LeadTime": "dolor",
-  "Location": "qui",
-  "RejectCounter": 2,
-  "RejectReason": "",
+  "LagTime": "ipsam",
+  "LeadTime": "velit",
+  "Location": "corrupti",
+  "RejectCounter": 121,
+  "RejectReason": "enable impactful applications",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 606,
-      "PersonId": 262,
-      "ContactId": 72,
-      "EmailId": 664,
-      "SendEmail": true,
+      "AssociateId": 484,
+      "PersonId": 596,
+      "ContactId": 421,
+      "EmailId": 669,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "keely@bogan.info",
-      "Description": "Enhanced high-level superstructure"
+      "EmailAddress": "lorna.stroman@littlecollins.co.uk",
+      "Description": "Configurable discrete toolset"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-12-30T16:54:54.3493952+01:00",
+  "ActiveDate": "2021-03-28T10:30:22.8002126+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 120,
+  "PreferredTZLocation": 878,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 809,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 622,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aperiam",
+  "CentralserviceVideomeetId": "cupiditate",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Lila Heller Sr.",
+    "SuperOffice:2": "Christine Zboncak"
   },
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "sit"
+    "CustomFields1": "non",
+    "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2017-08-10T16:54:54.3513038+02:00",
-  "PublishTo": "2011-05-26T16:54:54.3513038+02:00",
-  "PublishFrom": "2017-09-02T16:54:54.3513038+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2009-06-20T10:30:22.8002126+02:00",
+  "PublishTo": "1999-09-24T10:30:22.8002126+02:00",
+  "PublishFrom": "2008-09-08T10:30:22.8002126+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 621,
+      "VisibleId": 383,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 959
         }
       }
     },
     {
-      "VisibleId": 621,
+      "VisibleId": 383,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 959
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 865
     }
   }
 }

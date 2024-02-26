@@ -69,10 +69,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Purdy-Mueller",
+  "GuiName": "Kassulke, Dicki and Prohaska",
   "ColumnWidths": [
-    "et",
-    "accusamus"
+    "similique",
+    "voluptas"
   ]
 }
 ```

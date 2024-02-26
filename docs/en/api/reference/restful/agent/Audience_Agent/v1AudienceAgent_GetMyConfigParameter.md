@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Johnson, Hyatt and Tillman"
+  "ParameterName": "Stracke-Emard"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 286,
-  "Name": "Hoppe, Ledner and Thiel",
-  "Value": "sunt",
-  "CreatedDate": "2020-05-18T16:54:54.5913288+02:00",
-  "UpdatedDate": "2016-10-28T16:54:54.5913288+02:00",
-  "CreatedBy": "recusandae",
-  "UpdatedBy": "voluptatem",
+  "AudienceLayoutId": 774,
+  "Name": "Trantow, Schiller and Hackett",
+  "Value": "non",
+  "CreatedDate": "2013-10-28T10:30:23.0826686+01:00",
+  "UpdatedDate": "2018-11-03T10:30:23.0826686+01:00",
+  "CreatedBy": "et",
+  "UpdatedBy": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

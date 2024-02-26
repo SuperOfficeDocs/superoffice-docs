@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Hirthe LLC",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 824,
-    "Rank": 725
+    "Id": 846,
+    "Name": "Nolan-Yundt",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 575,
+    "Rank": 807
   },
   {
-    "Id": 282,
-    "Name": "Hirthe LLC",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 824,
-    "Rank": 725
+    "Id": 846,
+    "Name": "Nolan-Yundt",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 575,
+    "Rank": 807
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Turner, Lindgren and Herzog",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "UdListDefinitionId": 126,
-    "Rank": 380,
+    "Id": 684,
+    "Name": "Romaguera-Littel",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "UdListDefinitionId": 341,
+    "Rank": 47,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldType": "System.String",
+        "FieldLength": 68
       }
     }
   }

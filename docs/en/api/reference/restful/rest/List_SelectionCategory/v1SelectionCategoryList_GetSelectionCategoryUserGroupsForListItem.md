@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Gulgowski, O'Keefe and Pfannerstill",
-    "ToolTip": "Voluptas optio totam repudiandae porro.",
+    "Id": 175,
+    "Name": "Conroy, Kutch and Grady",
+    "ToolTip": "Aliquid est est qui voluptatem.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "praesentium",
-    "ColorBlock": 35,
-    "IconHint": "quia",
+    "Rank": 143,
+    "Type": "molestiae",
+    "ColorBlock": 427,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2014-10-16T16:55:31.0853446+02:00",
+    "LastChanged": "1999-04-23T10:30:33.2568344+02:00",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Auer, Wehner and Hyatt",
-        "ToolTip": "Eveniet et ea quaerat officiis.",
+        "Id": 86,
+        "Name": "Harber-Denesik",
+        "ToolTip": "Nesciunt iure at nemo maxime occaecati sunt.",
         "Deleted": false,
-        "Rank": 78,
-        "Type": "earum",
-        "ColorBlock": 945,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2019-12-17T16:55:31.0853446+01:00",
+        "Rank": 618,
+        "Type": "vitae",
+        "ColorBlock": 581,
+        "IconHint": "voluptate",
+        "Selected": true,
+        "LastChanged": "2019-10-22T10:30:33.2568344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Ellsworth Ledner",
+        "ExtraInfo": "sit",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Maud Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldType": "System.String",
+            "FieldLength": 357
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Charley Upton",
+    "ExtraInfo": "quos",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Stephany Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldType": "System.Int32",
+        "FieldLength": 334
       }
     }
   }

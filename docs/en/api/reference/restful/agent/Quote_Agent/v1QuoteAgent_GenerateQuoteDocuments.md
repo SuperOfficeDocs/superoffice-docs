@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 687,
-  "EmailBodyTemplateId": 11,
+  "QuoteVersionId": 26,
+  "EmailBodyTemplateId": 762,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 102,
+  "QuotedProductsTemplateId": 990,
   "IncludeAttachments": false,
-  "RawMailSubject": "ut"
+  "RawMailSubject": "sed"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 64,
-  "QuotedProductsId": 104,
+  "QuoteDocumentId": 207,
+  "QuotedProductsId": 424,
   "QuoteAttachmentIds": [
-    734,
-    14
+    182,
+    672
   ],
-  "MailBody": "repellendus",
-  "MailSubject": "ducimus",
-  "ToEmail": "andreane@lakin.com",
-  "ToFullName": "Murray Gibson",
-  "ErrorMessage": "et",
+  "MailBody": "temporibus",
+  "MailSubject": "ipsa",
+  "ToEmail": "prudence@brown.ca",
+  "ToFullName": "Buford Hilll IV",
+  "ErrorMessage": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 990
     }
   }
 }

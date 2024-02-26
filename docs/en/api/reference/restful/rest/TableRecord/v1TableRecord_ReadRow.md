@@ -72,15 +72,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "error",
-    "Values2": "quia"
+    "Values1": "quae",
+    "Values2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldLength": 499
     }
   }
 }

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lubowitz, Lowe and Schaefer",
-  "DeviceName": "Beer Inc and Sons",
-  "DeviceIdentifier": "quia"
+  "ApplicationName": "Ebert, Schowalter and Pfannerstill",
+  "DeviceName": "Bartell, Graham and Bergstrom",
+  "DeviceIdentifier": "distinctio"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 288,
-  "Name": "Abshire-Hintz",
-  "CreatedDate": "2007-12-24T16:54:55.4814681+01:00",
-  "UpdatedDate": "1999-12-17T16:54:55.4814681+01:00",
-  "AssociateFullName": "Jermey Corwin",
-  "CreatedBy": "aspernatur",
-  "UpdatedBy": "culpa",
-  "DeviceIdentifier": "veritatis",
-  "ForeignAppId": 603,
+  "ForeignDeviceId": 477,
+  "Name": "Kub-Collins",
+  "CreatedDate": "2000-06-02T10:30:23.9073938+02:00",
+  "UpdatedDate": "2012-07-01T10:30:23.9073938+02:00",
+  "AssociateFullName": "Mrs. Nicholaus Koss PhD",
+  "CreatedBy": "error",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "totam",
+  "ForeignAppId": 412,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 496
     }
   }
 }

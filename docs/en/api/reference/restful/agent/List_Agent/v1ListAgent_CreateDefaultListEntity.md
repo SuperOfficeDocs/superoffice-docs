@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 394,
-  "Name": "Barrows-Romaguera",
-  "Tooltip": "a",
-  "Deleted": false,
-  "Rank": 790,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 822,
+  "Name": "Moen Inc and Sons",
+  "Tooltip": "error",
+  "Deleted": true,
+  "Rank": 482,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 484
     }
   }
 }

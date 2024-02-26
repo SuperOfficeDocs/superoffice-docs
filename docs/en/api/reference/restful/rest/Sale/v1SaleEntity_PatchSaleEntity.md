@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "esse",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "esse",
+    "path": "in",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "perspiciatis",
+  "SaleText": "qui",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-06-03T16:55:30.0900159+02:00",
-  "Amount": 16923.6,
-  "SaleId": 563,
-  "Earning": 30177.286,
-  "EarningPercent": 17315.35,
-  "Heading": "et",
-  "Number": "1487704",
-  "Probability": 985,
-  "CreatedDate": "2010-09-11T16:55:30.0900159+02:00",
-  "UpdatedDate": "2018-09-04T16:55:30.0900159+02:00",
+  "Saledate": "2007-09-08T10:30:32.4656327+02:00",
+  "Amount": 13657.972,
+  "SaleId": 818,
+  "Earning": 16528.716,
+  "EarningPercent": 27024.482,
+  "Heading": "tempore",
+  "Number": "1333585",
+  "Probability": 662,
+  "CreatedDate": "2015-07-17T10:30:32.4656327+02:00",
+  "UpdatedDate": "2004-11-25T10:30:32.4656327+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 629,
+  "ActiveLinks": 894,
   "Links": [
     {
-      "EntityName": "Halvorson, Hettinger and Roberts",
-      "Id": 433,
-      "Description": "Phased systemic toolset",
-      "ExtraInfo": "ipsum",
-      "LinkId": 638,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 428
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2008-06-14T16:55:30.0900159+02:00",
-  "Postit": "praesentium",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2009-08-11T16:55:30.0900159+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Zemlak-Kshlerin",
-      "Comment": "est",
-      "StakeholderRoleId": 538,
-      "CountryId": 937,
-      "PersonId": 983,
-      "EmailDescription": "tanya_bogan@hodkiewicz.uk",
-      "EmailId": 361,
-      "EmailAddress": "keeley.schmeler@bruen.name",
-      "PhoneId": 765,
-      "ContactName": "Block, Adams and Lemke",
-      "ContactId": 432,
-      "SaleId": 1002,
-      "Mrmrs": "omnis",
-      "Firstname": "Kenneth",
-      "MiddleName": "Beatty, Bins and Haley",
-      "Lastname": "Rohan",
-      "SaleStakeholderId": 993,
-      "Rank": 14,
-      "Phone": "1-595-157-4102",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 607
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 648,
-  "UserDefinedFields": {
-    "SuperOffice:1": "583147084",
-    "SuperOffice:2": "Miss Ollie Lynch Sr."
-  },
-  "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "enim"
-  },
-  "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "est"
-  },
-  "PublishEventDate": "1997-03-14T16:55:30.0910399+01:00",
-  "PublishTo": "2023-11-22T16:55:30.0910399+01:00",
-  "PublishFrom": "2016-08-09T16:55:30.0910399+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 153,
-      "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "EntityName": "DuBuque-Howe",
+      "Id": 211,
+      "Description": "Quality-focused zero defect infrastructure",
+      "ExtraInfo": "maxime",
+      "LinkId": 425,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldLength": 138
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2002-04-11T10:30:32.4656327+02:00",
+  "Postit": "enim",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2019-09-01T10:30:32.4656327+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Pacocha LLC",
+      "Comment": "rem",
+      "StakeholderRoleId": 461,
+      "CountryId": 135,
+      "PersonId": 218,
+      "EmailDescription": "kale@ullrich.us",
+      "EmailId": 505,
+      "EmailAddress": "maurice_macejkovic@homenickwalter.co.uk",
+      "PhoneId": 876,
+      "ContactName": "West LLC",
+      "ContactId": 832,
+      "SaleId": 737,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Kianna",
+      "MiddleName": "Kerluke-Koepp",
+      "Lastname": "Stanton",
+      "SaleStakeholderId": 171,
+      "Rank": 9,
+      "Phone": "240-613-6409",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 739
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 350,
+  "UserDefinedFields": {
+    "SuperOffice:1": "252868683",
+    "SuperOffice:2": "Kendall Hickle"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "qui",
+    "ExtraFields2": "sequi"
+  },
+  "CustomFields": {
+    "CustomFields1": "sapiente",
+    "CustomFields2": "rerum"
+  },
+  "PublishEventDate": "2021-03-05T10:30:32.4656327+01:00",
+  "PublishTo": "2009-06-27T10:30:32.4656327+02:00",
+  "PublishFrom": "2021-10-11T10:30:32.4656327+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 257,
+      "Visibility": "All",
+      "DisplayValue": "natus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 150
         }
       }
     },
     {
-      "VisibleId": 153,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldLength": 150
         }
       }
     }
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 886
     }
   },
   "_Links": {

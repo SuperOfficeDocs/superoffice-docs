@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Dibbert-Monahan",
-  "ProviderName": "Grimes-Murazik",
-  "SortOrder": "aliquam",
-  "Restriction": "qui",
-  "Entities": "quia",
-  "Page": 190,
-  "PageSize": 431
+  "GuiName": "Torphy, Littel and Walter",
+  "ProviderName": "Hagenes, Legros and Lebsack",
+  "SortOrder": "ad",
+  "Restriction": "est",
+  "Entities": "laboriosam",
+  "Page": 464,
+  "PageSize": 423
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jacobs-Quitzon",
-    "PrimaryKey": 612,
+    "EntityName": "Miller-Fisher",
+    "PrimaryKey": 599,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quis",
-        "TooltipHint": "cumque",
-        "LinkHint": "facere"
+        "DisplayValue": "repudiandae",
+        "TooltipHint": "nihil",
+        "LinkHint": "in"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "atque",
+    "LinkHint": "deleniti",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 642
+        "FieldType": "System.Int32",
+        "FieldLength": 662
       }
     }
   }

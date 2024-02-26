@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 280
+  "DocumentId": 928
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 635,
-  "Attention": "dolores",
-  "Header": "impedit",
-  "Name": "Nader, Stiedemann and Bergstrom",
-  "OurRef": "quaerat",
-  "YourRef": "molestiae",
-  "Description": "Multi-channelled heuristic projection",
-  "DocumentTemplate": "autem",
+  "DocumentId": 850,
+  "Attention": "repellendus",
+  "Header": "inventore",
+  "Name": "Hegmann, Boehm and Lakin",
+  "OurRef": "amet",
+  "YourRef": "beatae",
+  "Description": "Cloned client-driven parallelism",
+  "DocumentTemplate": "qui",
   "IsPublished": false,
-  "PersonId": 490,
-  "PersonFullName": "Delmer Hintz",
-  "AssociateFullName": "Deshawn Wyman",
-  "ContactId": 496,
-  "ContactName": "Rowe, Schiller and Koelpin",
-  "ProjectId": 384,
-  "ProjectName": "Luettgen Group",
-  "AssociateId": 585,
-  "Snum": 103,
-  "SaleId": 170,
-  "SaleName": "Sauer Inc and Sons",
+  "PersonId": 335,
+  "PersonFullName": "Miss Stephania Nyah Mraz",
+  "AssociateFullName": "Tre Klein",
+  "ContactId": 164,
+  "ContactName": "Wisoky-Koepp",
+  "ProjectId": 371,
+  "ProjectName": "Deckow Inc and Sons",
+  "AssociateId": 974,
+  "Snum": 25,
+  "SaleId": 701,
+  "SaleName": "Lueilwitz LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

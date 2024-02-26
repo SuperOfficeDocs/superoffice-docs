@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 674
+  "SaleId": 788
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Sporer-Lemke",
-    "Comment": "veniam",
-    "StakeholderRoleId": 925,
-    "CountryId": 840,
-    "PersonId": 811,
-    "EmailDescription": "zane_leuschke@volkmandietrich.ca",
-    "EmailId": 656,
-    "EmailAddress": "hoyt_romaguera@bayerhand.ca",
-    "PhoneId": 838,
-    "ContactName": "Ebert, Keebler and Feeney",
-    "ContactId": 37,
-    "SaleId": 49,
-    "Mrmrs": "porro",
-    "Firstname": "Jannie",
-    "MiddleName": "Crooks-Mueller",
+    "StakeholderRoleName": "Schultz-Walsh",
+    "Comment": "occaecati",
+    "StakeholderRoleId": 473,
+    "CountryId": 915,
+    "PersonId": 100,
+    "EmailDescription": "mariela.hammes@bahringer.name",
+    "EmailId": 758,
+    "EmailAddress": "ashton_kreiger@spencerquigley.co.uk",
+    "PhoneId": 846,
+    "ContactName": "White LLC",
+    "ContactId": 961,
+    "SaleId": 473,
+    "Mrmrs": "iure",
+    "Firstname": "Imogene",
+    "MiddleName": "Corkery-Hauck",
     "Lastname": "Kulas",
-    "SaleStakeholderId": 605,
-    "Rank": 764,
-    "Phone": "(578)479-6128 x831",
+    "SaleStakeholderId": 641,
+    "Rank": 130,
+    "Phone": "334-571-2377 x64156",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 529
       }
     }
   }

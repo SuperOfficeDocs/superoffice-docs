@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "veniam",
+    "path": "ratione",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veniam",
+    "path": "ratione",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 726,
-  "Name": "Gislason-Kuhn",
+  "ScreenChooserId": 399,
+  "Name": "Toy, Goldner and DuBuque",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "earum",
-  "Source": "vitae",
-  "Registered": "2013-09-19T16:55:30.3158175+02:00",
-  "RegisteredAssociateId": 938,
-  "Updated": "2009-11-29T16:55:30.3158175+01:00",
-  "UpdatedAssociateId": 165,
+  "Enabled": false,
+  "UniqueIdentifier": "molestiae",
+  "Source": "ut",
+  "Registered": "1999-07-02T10:30:32.6543487+02:00",
+  "RegisteredAssociateId": 678,
+  "Updated": "1997-01-10T10:30:32.6543487+01:00",
+  "UpdatedAssociateId": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldType": "System.String",
+      "FieldLength": 790
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

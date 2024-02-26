@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=quia
+GET /api/v1/List/PaymentType/MDOItems?query=optio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Thiel-Keeling",
-    "ToolTip": "Omnis nihil cumque rem.",
+    "Id": 408,
+    "Name": "Ondricka-Paucek",
+    "ToolTip": "Non voluptates maiores dolorum.",
     "Deleted": false,
-    "Rank": 196,
-    "Type": "harum",
+    "Rank": 44,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 623,
-        "Name": "O'Reilly-Casper",
-        "ToolTip": "Ullam iure facere ut qui quisquam nulla dolore.",
+        "Id": 903,
+        "Name": "Baumbach, Friesen and Bergstrom",
+        "ToolTip": "Iure architecto.",
         "Deleted": false,
-        "Rank": 157,
-        "Type": "quaerat",
+        "Rank": 177,
+        "Type": "nemo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 930,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "alias",
-        "FullName": "Domenico Gorczany",
+        "IconHint": "aut",
+        "ColorBlock": 647,
+        "ExtraInfo": "fugit",
+        "StyleHint": "sint",
+        "FullName": "Mrs. Wilson Stephen Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 549
+            "FieldType": "System.String",
+            "FieldLength": 815
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 117,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "quia",
-    "FullName": "Lauren Fay",
+    "IconHint": "non",
+    "ColorBlock": 253,
+    "ExtraInfo": "sit",
+    "StyleHint": "tempore",
+    "FullName": "Shannon Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 448
       }
     }
   }

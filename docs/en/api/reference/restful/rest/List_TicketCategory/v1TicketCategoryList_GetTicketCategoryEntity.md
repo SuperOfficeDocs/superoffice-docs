@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 903,
-  "ParentId": 121,
-  "Name": "Denesik, Okuneva and Rohan",
-  "Fullname": "maxime",
-  "CategoryMaster": 222,
+  "TicketCategoryId": 765,
+  "ParentId": 588,
+  "Name": "Harris-Schmeler",
+  "Fullname": "error",
+  "CategoryMaster": 482,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wolff-Jacobson",
+  "ExternalName": "Hettinger-Olson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 386,
-  "ReplyTemplate": 87,
-  "NotificationEmail": "edwin_bartell@schmitt.name",
+  "AssignmentLag": 742,
+  "ReplyTemplate": 245,
+  "NotificationEmail": "jena@hamill.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 321,
+  "EffectiveReplyTemplateId": 250,
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "et"
+    "CustomFields1": "repellat",
+    "CustomFields2": "culpa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

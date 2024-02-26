@@ -20,7 +20,10 @@ The name of the MDO list is 'mergetags'.
 
 | Description | Name | Example Value |
 |-----|-----|------|
-|Include ticket parser variables| includeTicket|False|
+|Include ticket parser variables. Default = false| includeTicket|False|
+|Include company variables. Default = true| includeCompanies|True|
+|Include our contact variables. Default = true| includeOurContact|True|
+|Include our service contact variables. Default = true| includeOurServiceContact|True|
 
 
 

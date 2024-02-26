@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 879,
-  "Name": "Oberbrunner Inc and Sons",
-  "Tooltip": "ut",
-  "Rank": 531,
-  "Key": "pariatur",
+  "LegalBaseId": 397,
+  "Name": "Fisher-VonRueden",
+  "Tooltip": "aut",
+  "Rank": 384,
+  "Key": "et",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 124
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 460,
-    "ColumnId": 237,
-    "FieldDefault": "et",
-    "FieldHeight": 689,
-    "FieldLabel": "soluta",
-    "FieldLeft": 514,
-    "FieldTop": 477,
+    "UDefFieldId": 807,
+    "ColumnId": 656,
+    "FieldDefault": "iusto",
+    "FieldHeight": 158,
+    "FieldLabel": "facere",
+    "FieldLeft": 124,
+    "FieldTop": 368,
     "FieldType": "Checkbox",
-    "FieldWidth": 955,
-    "FormatMask": "ratione",
-    "HideLabel": false,
+    "FieldWidth": 560,
+    "FormatMask": "repudiandae",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 206,
-    "LabelLeft": 609,
-    "LabelTop": 718,
-    "LabelWidth": 55,
-    "LastVersionId": 810,
-    "ListTableId": 419,
+    "LabelHeight": 734,
+    "LabelLeft": 504,
+    "LabelTop": 970,
+    "LabelWidth": 304,
+    "LastVersionId": 437,
+    "ListTableId": 801,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 883,
-    "ProgId": "ex",
+    "Page1LineNo": 99,
+    "ProgId": "molestiae",
     "IsReadOnly": false,
-    "ShortLabel": "ea",
-    "TabOrder": 395,
-    "TextLength": 11,
-    "Tooltip": "id",
-    "UdefIdentity": 934,
-    "UDListDefinitionId": 624,
+    "ShortLabel": "dolorem",
+    "TabOrder": 534,
+    "TextLength": 686,
+    "Tooltip": "accusamus",
+    "UdefIdentity": 98,
+    "UDListDefinitionId": 272,
     "Justification": "Center",
-    "Version": 354,
-    "TemplateVariableName": "Bartell-Turcotte",
+    "Version": 141,
+    "TemplateVariableName": "Robel, Koepp and Lueilwitz",
     "HasBeenPublished": false,
-    "MdoListName": "Lehner Group",
+    "MdoListName": "Fahey, Hand and Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 954
       }
     }
   }

@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    780,
-    442
+    515,
+    643
   ],
-  "TargetTableNumber": 683
+  "TargetTableNumber": 820
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured directional solution",
-  "Postit": "doloremque",
+  "Description": "Organized zero tolerance array",
+  "Postit": "accusantium",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 87,
-  "IncludePerson": 740,
-  "MemberCount": 22,
-  "Name": "Hermiston Group",
-  "PostitTextId": 176,
-  "CreatedDate": "2001-06-02T16:54:56.3245022+02:00",
-  "SelectionId": 22,
-  "SoundEx": "dignissimos",
-  "Source": 947,
-  "TextId": 533,
-  "UpdatedDate": "2000-07-23T16:54:56.3245022+02:00",
-  "UpdatedCount": 613,
-  "Visibility": 473,
+  "GroupIdx": 298,
+  "IncludePerson": 457,
+  "MemberCount": 737,
+  "Name": "Lang LLC",
+  "PostitTextId": 449,
+  "CreatedDate": "2018-04-28T10:30:24.7017104+02:00",
+  "SelectionId": 712,
+  "SoundEx": "quis",
+  "Source": 105,
+  "TextId": 795,
+  "UpdatedDate": "2020-08-23T10:30:24.7017104+02:00",
+  "UpdatedCount": 256,
+  "Visibility": 499,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 82,
-  "TargetTableName": "Daugherty, Weber and Bartoletti",
+  "CompanyUnique": true,
+  "TargetTableNumber": 118,
+  "TargetTableName": "Glover, Kunde and Wuckert",
   "Completed": false,
-  "LeftSelectionId": 94,
-  "RightSelectionId": 670,
+  "LeftSelectionId": 595,
+  "RightSelectionId": 19,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sporer Group",
-  "ShadowProviderName": "Bernhard, King and Osinski",
-  "ChartKey": "molestiae",
-  "LastLoaded": "1999-01-28T16:54:56.3245022+01:00",
-  "LastLoadedBy": 882,
+  "MainProviderName": "Kuhlman Group",
+  "ShadowProviderName": "Ritchie, Kemmer and Bosco",
+  "ChartKey": "nam",
+  "LastLoaded": "2014-12-04T10:30:24.7017104+01:00",
+  "LastLoadedBy": 442,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-08-10T16:54:56.3255022+02:00",
-  "LastMembershipChangeBy": 668,
+  "LastMembershipChange": "2003-04-10T10:30:24.7017104+02:00",
+  "LastMembershipChangeBy": 228,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "accusamus",
-  "MemberTabHeading": "error",
-  "MailingsProviderName": "Reynolds, Ankunding and Stokes",
-  "DashboardTileDefinitionId": 738,
+  "MainHeading": "vel",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Ryan, Rippin and Dach",
+  "DashboardTileDefinitionId": 787,
   "VisibleFor": [
     {
-      "VisibleId": 654,
+      "VisibleId": 294,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 920
+          "FieldType": "System.Int32",
+          "FieldLength": 471
         }
       }
     },
     {
-      "VisibleId": 654,
+      "VisibleId": 294,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 920
+          "FieldType": "System.Int32",
+          "FieldLength": 471
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

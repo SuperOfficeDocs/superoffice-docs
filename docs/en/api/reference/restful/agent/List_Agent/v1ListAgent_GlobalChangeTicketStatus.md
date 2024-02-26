@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/List/GlobalChangeTicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketStatusId": 425,
-  "ToTicketStatusId": 901
+  "FromTicketStatusId": 676,
+  "ToTicketStatusId": 481
 }
 ```
 

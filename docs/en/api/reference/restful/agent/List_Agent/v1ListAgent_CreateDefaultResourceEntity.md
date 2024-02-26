@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 373,
-  "Name": "Murphy LLC",
-  "Rank": 673,
-  "Tooltip": "aperiam",
-  "Deleted": true,
+  "ResourceId": 742,
+  "Name": "Wolff Inc and Sons",
+  "Rank": 927,
+  "Tooltip": "pariatur",
+  "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "sapiente",
+  "LocationAddress": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldLength": 528
     }
   }
 }

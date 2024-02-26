@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 476,
-    "Name": "Koss Inc and Sons",
-    "ToolTip": "Sit sint quia id.",
-    "Deleted": false,
-    "Rank": 487,
-    "Type": "ab",
-    "ColorBlock": 908,
-    "IconHint": "quae",
+    "Id": 918,
+    "Name": "Pfannerstill Inc and Sons",
+    "ToolTip": "Et culpa sint neque voluptas non.",
+    "Deleted": true,
+    "Rank": 121,
+    "Type": "harum",
+    "ColorBlock": 473,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2011-06-12T16:55:30.7531728+02:00",
+    "LastChanged": "1997-09-11T10:30:33.0524566+02:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Kihn-Jast",
-        "ToolTip": "Eius minus eius.",
+        "Id": 805,
+        "Name": "Sipes-Hansen",
+        "ToolTip": "Sunt vitae similique excepturi laboriosam eum eius aspernatur.",
         "Deleted": false,
-        "Rank": 427,
-        "Type": "voluptates",
-        "ColorBlock": 775,
-        "IconHint": "ipsam",
+        "Rank": 778,
+        "Type": "hic",
+        "ColorBlock": 693,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1999-07-11T16:55:30.7531728+02:00",
+        "LastChanged": "2001-08-17T10:30:33.0524566+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "autem",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "saepe",
         "Hidden": true,
-        "FullName": "Mr. Nicklaus Witting"
+        "FullName": "Mose Crist"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "modi",
+    "ExtraInfo": "sequi",
+    "StyleHint": "recusandae",
     "Hidden": true,
-    "FullName": "Hailee Lubowitz"
+    "FullName": "Beau Dooley"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Strosin, Gulgowski and Schaefer",
-    "ToolTip": "Nulla sint molestias in placeat est ea quia.",
-    "Deleted": true,
-    "Rank": 883,
-    "Type": "ipsam",
-    "ColorBlock": 467,
-    "IconHint": "dolores",
+    "Id": 841,
+    "Name": "Brown, Gibson and Cartwright",
+    "ToolTip": "Harum neque commodi et et nostrum praesentium rerum.",
+    "Deleted": false,
+    "Rank": 993,
+    "Type": "cumque",
+    "ColorBlock": 157,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2011-11-01T16:55:30.7552101+01:00",
+    "LastChanged": "2023-09-10T10:30:33.0524566+02:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Zboncak Inc and Sons",
-        "ToolTip": "Vitae consectetur est deserunt vel.",
-        "Deleted": true,
-        "Rank": 784,
-        "Type": "voluptatum",
-        "ColorBlock": 849,
-        "IconHint": "quos",
+        "Id": 407,
+        "Name": "McLaughlin, Wilderman and Tromp",
+        "ToolTip": "Quam dolores atque quas maiores amet.",
+        "Deleted": false,
+        "Rank": 641,
+        "Type": "aliquam",
+        "ColorBlock": 377,
+        "IconHint": "rerum",
         "Selected": true,
-        "LastChanged": "2005-07-13T16:55:30.7552101+02:00",
+        "LastChanged": "2009-09-17T10:30:33.0524566+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "soluta",
+        "ExtraInfo": "dolor",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Miss Raymundo Stamm III",
+        "FullName": "Mr. Vita Osvaldo Cummerata I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 130
+            "FieldLength": 431
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "eos",
+    "ExtraInfo": "ut",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Miller Cole",
+    "FullName": "Augustine Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 729
       }
     }
   }

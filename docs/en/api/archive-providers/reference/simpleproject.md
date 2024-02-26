@@ -123,7 +123,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleProject?$select=projectAssociate/ejStatus,projectUrl/URLAddress,projectAssociate/role
+GET /api/v1/archive/SimpleProject?$select=imageThumbnail,projectEvent/eventDate,projectAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 480
+  "TemplateHeadingId": 494
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 605,
-    "Attention": "corrupti",
-    "Header": "blanditiis",
-    "Name": "Kihn LLC",
-    "OurRef": "impedit",
-    "YourRef": "reiciendis",
-    "Description": "Proactive global info-mediaries",
-    "DocumentTemplate": "dicta",
+    "DocumentId": 114,
+    "Attention": "et",
+    "Header": "minima",
+    "Name": "Kiehn-Weimann",
+    "OurRef": "consequatur",
+    "YourRef": "quasi",
+    "Description": "Fundamental even-keeled solution",
+    "DocumentTemplate": "perferendis",
     "IsPublished": false,
-    "PersonId": 900,
-    "PersonFullName": "Lottie Dickens",
-    "AssociateFullName": "Sydnee Veum Sr.",
-    "ContactId": 234,
-    "ContactName": "Batz, Mayer and Bechtelar",
-    "ProjectId": 530,
-    "ProjectName": "West Inc and Sons",
-    "AssociateId": 555,
-    "Snum": 81,
-    "SaleId": 534,
-    "SaleName": "Williamson Inc and Sons",
+    "PersonId": 586,
+    "PersonFullName": "Ora Alene Robel MD",
+    "AssociateFullName": "Miss David Danika Upton Sr.",
+    "ContactId": 397,
+    "ContactName": "Stark LLC",
+    "ProjectId": 8,
+    "ProjectName": "Ondricka, Baumbach and Moen",
+    "AssociateId": 797,
+    "Snum": 370,
+    "SaleId": 444,
+    "SaleName": "Vandervort Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 165
       }
     }
   }

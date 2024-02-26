@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Spencer-Koepp",
-    "AssociateId": 982,
-    "DetailsTable": 336,
-    "DetailsRecord": 343,
-    "IsSystemTask": false,
+    "Id": 49,
+    "Name": "Osinski, Lowe and Krajcik",
+    "AssociateId": 444,
+    "DetailsTable": 777,
+    "DetailsRecord": 43,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nam",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "quia",
+      "ParameterObject2": "dolorum"
     },
-    "LastStarted": "2014-12-26T16:54:54.6023043+01:00",
-    "Created": "2009-09-27T16:54:54.6023043+02:00",
-    "StartCount": 17,
-    "DatabaseSerialNumber": "488191",
-    "Context": "ullam",
-    "Result": "sunt",
+    "LastStarted": "2007-10-07T10:30:23.0826686+02:00",
+    "Created": "2017-08-14T10:30:23.0826686+02:00",
+    "StartCount": 830,
+    "DatabaseSerialNumber": "1458395",
+    "Context": "alias",
+    "Result": "omnis",
     "State": "All",
-    "Description": "Optional explicit attitude",
-    "Response": "optio",
-    "Request": "qui",
-    "ProgressDescription": "Managed high-level paradigm",
-    "ProgressPercent": 948,
-    "FileName": "Ratke-Pollich",
+    "Description": "Configurable bifurcated conglomeration",
+    "Response": "tempora",
+    "Request": "est",
+    "ProgressDescription": "Enhanced interactive circuit",
+    "ProgressPercent": 380,
+    "FileName": "Weissnat-Dooley",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 36
       }
     }
   }

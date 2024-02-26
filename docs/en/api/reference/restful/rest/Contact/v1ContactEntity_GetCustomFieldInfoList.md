@@ -67,7 +67,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schowalter-Langworth",
-    "DisplayName": "Leffler Inc and Sons",
-    "Description": "Right-sized uniform neural-net",
-    "ShortLabel": "quas",
+    "FieldName": "Koss-Hessel",
+    "DisplayName": "Runte-Monahan",
+    "Description": "Open-architected 4th generation parallelism",
+    "ShortLabel": "eum",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 219,
-    "TemplateVariableName": "Sanford, Weissnat and Wilderman"
+    "IsExternal": true,
+    "Rank": 606,
+    "TemplateVariableName": "Koss, Walsh and Feest"
   }
 ]
 ```

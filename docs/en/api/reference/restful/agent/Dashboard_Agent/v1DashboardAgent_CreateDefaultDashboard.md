@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 354,
-  "AssociateId": 9,
-  "Caption": "sit",
+  "DashboardId": 787,
+  "AssociateId": 909,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 518,
-      "Caption": "magni",
-      "Description": "Cloned solution-oriented migration",
-      "ChartName": "Hirthe, Gerhold and Gutmann",
-      "ChartId": "et",
+      "DashboardTileId": 1000,
+      "Caption": "facere",
+      "Description": "Realigned zero administration attitude",
+      "ChartName": "Rohan, Rowe and Fay",
+      "ChartId": "sint",
       "IsDefault": false,
-      "AssociateId": 737,
-      "GroupId": 544,
-      "SelectionId": 220,
-      "Config": "laudantium",
+      "AssociateId": 629,
+      "GroupId": 461,
+      "SelectionId": 370,
+      "Config": "occaecati",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 676
+      "FieldLength": 762
     }
   }
 }

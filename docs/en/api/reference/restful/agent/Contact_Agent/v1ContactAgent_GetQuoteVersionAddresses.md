@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 123
+  "QuoteVersionId": 95
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 6004.744,
-    "Wgs84Longitude": 26150.095999999998,
+    "Wgs84Latitude": 10342.199999999999,
+    "Wgs84Longitude": 25463.75,
     "LocalizedAddress": [
       [
         {
-          "Name": "Predovic, Kertzmann and Rodriguez",
-          "Value": "cupiditate",
-          "Tooltip": "aut",
-          "Label": "fugiat",
-          "ValueLength": 604,
-          "AddressType": "aut",
+          "Name": "Dare-Kiehn",
+          "Value": "minima",
+          "Tooltip": "blanditiis",
+          "Label": "aut",
+          "ValueLength": 359,
+          "AddressType": "et",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 903
+              "FieldType": "System.Int32",
+              "FieldLength": 622
             }
           }
         }
       ],
       [
         {
-          "Name": "Bauch, Hayes and Champlin",
-          "Value": "asperiores",
-          "Tooltip": "sed",
-          "Label": "quidem",
-          "ValueLength": 457,
-          "AddressType": "ut",
+          "Name": "Kreiger Inc and Sons",
+          "Value": "a",
+          "Tooltip": "repellat",
+          "Label": "qui",
+          "ValueLength": 203,
+          "AddressType": "id",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 732
+              "FieldType": "System.String",
+              "FieldLength": 32
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "qui",
+    "Formatted": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

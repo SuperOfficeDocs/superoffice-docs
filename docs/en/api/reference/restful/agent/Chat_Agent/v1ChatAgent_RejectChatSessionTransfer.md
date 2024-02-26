@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 462
+  "ChatSessionId": 43
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 252,
-  "TopicId": 589,
+  "ChatSessionId": 757,
+  "TopicId": 847,
   "User": null,
   "Person": null,
-  "CustomerAlias": "veritatis",
-  "CustomerHost": "laudantium",
-  "CustomerName": "Blick-Hackett",
-  "CustomerEmail": "darion@romaguera.com",
-  "CustomerPhone": "456-784-1464",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Renner, Jenkins and Blanda",
+  "CustomerAlias": "numquam",
+  "CustomerHost": "ut",
+  "CustomerName": "Ullrich LLC",
+  "CustomerEmail": "chris@ortizlueilwitz.info",
+  "CustomerPhone": "1-368-774-7610",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "McClure LLC",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "dolor",
-  "WhenRequested": "2009-04-05T16:54:54.8276504+02:00",
-  "WhenStarted": "2002-07-02T16:54:54.8276504+02:00",
-  "WhenEnded": "2002-10-13T16:54:54.8276504+02:00",
-  "WhenIdle": "1998-02-21T16:54:54.8276504+01:00",
-  "WhenFetched": "2020-06-04T16:54:54.8276504+02:00",
-  "SessionKey": "quas",
-  "InitialQueuePos": 669,
-  "AlertLevel": 465,
-  "Rank": 389,
+  "FirstMessage": "vero",
+  "LastMessage": "eos",
+  "WhenRequested": "2017-07-08T10:30:23.1949025+02:00",
+  "WhenStarted": "2003-03-09T10:30:23.1949025+01:00",
+  "WhenEnded": "2000-06-25T10:30:23.1949025+02:00",
+  "WhenIdle": "2021-04-30T10:30:23.1949025+02:00",
+  "WhenFetched": "2007-10-11T10:30:23.1949025+02:00",
+  "SessionKey": "ab",
+  "InitialQueuePos": 165,
+  "AlertLevel": 184,
+  "Rank": 535,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 451,
+  "ChatbotIsActive": true,
+  "Rating": 537,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 176
     }
   }
 }

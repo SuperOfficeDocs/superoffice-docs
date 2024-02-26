@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 756,
-  "ERPProductKey": "in",
-  "ERPPriceListKey": "animi",
-  "Name": "Schuster, Langworth and Conn",
-  "Description": "Mandatory assymetric challenge",
-  "Code": "quidem",
-  "PriceUnit": "modi",
-  "QuantityUnit": "voluptates",
+  "ProductId": 210,
+  "ERPProductKey": "eaque",
+  "ERPPriceListKey": "ea",
+  "Name": "Rowe, Fisher and Hilpert",
+  "Description": "Proactive asynchronous installation",
+  "Code": "minima",
+  "PriceUnit": "velit",
+  "QuantityUnit": "itaque",
   "IsSubscription": false,
-  "SubscriptionUnit": "ab",
-  "DefaultSubscriptionQuantity": 28654.162,
-  "ItemNumber": "741920",
+  "SubscriptionUnit": "accusamus",
+  "DefaultSubscriptionQuantity": 7227.004,
+  "ItemNumber": "834090",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "hic",
-  "ProductTypeKey": "dolor",
-  "VAT": 2118.584,
-  "VATInfo": "dolores",
-  "UnitCost": 17343.556,
-  "UnitMinimumPrice": 7985.432,
-  "UnitListPrice": 16237.253999999999,
-  "InAssortment": false,
-  "Supplier": "unde",
+  "ProductFamilyKey": "error",
+  "ProductTypeKey": "illum",
+  "VAT": 6941.8099999999995,
+  "VATInfo": "natus",
+  "UnitCost": 3829.748,
+  "UnitMinimumPrice": 5904.456,
+  "UnitListPrice": 23630.36,
+  "InAssortment": true,
+  "Supplier": "vero",
   "SupplierCode": "et",
-  "Rights": "dolores",
-  "Rule": "iure",
+  "Rights": "iure",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Bins-Jakubowski",
-      "Value": "explicabo",
+      "Name": "Nienow, Lehner and Nitzsche",
+      "Value": "cumque",
       "Type": "Image"
     },
     {
-      "Name": "Bins-Jakubowski",
-      "Value": "explicabo",
+      "Name": "Nienow, Lehner and Nitzsche",
+      "Value": "cumque",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "sit",
-  "ExtraField2": "voluptates",
-  "ExtraField3": "excepturi",
-  "ExtraField4": "possimus",
-  "ExtraField5": "dignissimos",
-  "InStock": 31083.012
+  "RawExtraInfo": "aut",
+  "ExtraField1": "neque",
+  "ExtraField2": "eos",
+  "ExtraField3": "dicta",
+  "ExtraField4": "tenetur",
+  "ExtraField5": "aut",
+  "InStock": 25175.422
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 943,
-  "ERPProductKey": "debitis",
-  "ERPPriceListKey": "reprehenderit",
-  "Name": "Skiles Inc and Sons",
-  "Description": "Profound bandwidth-monitored database",
-  "Code": "ea",
-  "PriceUnit": "natus",
-  "QuantityUnit": "consequuntur",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sunt",
-  "DefaultSubscriptionQuantity": 12144.25,
-  "ItemNumber": "264813",
+  "ProductId": 193,
+  "ERPProductKey": "velit",
+  "ERPPriceListKey": "voluptatem",
+  "Name": "Langworth Inc and Sons",
+  "Description": "Persistent solution-oriented database",
+  "Code": "excepturi",
+  "PriceUnit": "sequi",
+  "QuantityUnit": "necessitatibus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptate",
+  "DefaultSubscriptionQuantity": 12137.982,
+  "ItemNumber": "802140",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "totam",
-  "ProductTypeKey": "rerum",
-  "VAT": 1604.608,
-  "VATInfo": "eligendi",
-  "UnitCost": 2134.254,
-  "UnitMinimumPrice": 12169.322,
-  "UnitListPrice": 14663.985999999999,
-  "InAssortment": false,
-  "Supplier": "fuga",
-  "SupplierCode": "ipsam",
-  "Rights": "ipsa",
-  "Rule": "et",
+  "ProductFamilyKey": "voluptate",
+  "ProductTypeKey": "repudiandae",
+  "VAT": 22122.906,
+  "VATInfo": "quae",
+  "UnitCost": 19386.924,
+  "UnitMinimumPrice": 3243.69,
+  "UnitListPrice": 14607.573999999999,
+  "InAssortment": true,
+  "Supplier": "voluptatem",
+  "SupplierCode": "id",
+  "Rights": "et",
+  "Rule": "iusto",
   "ExtraInfo": [
     {
-      "Name": "Pouros, Torp and Bauch",
-      "Value": "debitis",
+      "Name": "McDermott, McCullough and Blick",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 599
         }
       }
     },
     {
-      "Name": "Pouros, Torp and Bauch",
-      "Value": "debitis",
+      "Name": "McDermott, McCullough and Blick",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 599
         }
       }
     }
   ],
-  "RawExtraInfo": "ipsa",
-  "ExtraField1": "qui",
-  "ExtraField2": "reprehenderit",
-  "ExtraField3": "qui",
-  "ExtraField4": "fugiat",
-  "ExtraField5": "tempora",
-  "InStock": 19888.363999999998,
+  "RawExtraInfo": "exercitationem",
+  "ExtraField1": "itaque",
+  "ExtraField2": "fugit",
+  "ExtraField3": "nobis",
+  "ExtraField4": "doloremque",
+  "ExtraField5": "quia",
+  "InStock": 8872.354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 780
     }
   }
 }

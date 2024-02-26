@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Toy, Gusikowski and Heathcote",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 4,
-    "Rank": 465
+    "Id": 198,
+    "Name": "Kozey Inc and Sons",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 276,
+    "Rank": 853
   },
   {
-    "Id": 331,
-    "Name": "Toy, Gusikowski and Heathcote",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 4,
-    "Rank": 465
+    "Id": 198,
+    "Name": "Kozey Inc and Sons",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 276,
+    "Rank": 853
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Hansen Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 797,
-    "Rank": 407,
+    "Id": 815,
+    "Name": "Cartwright, Ziemann and Koepp",
+    "Tooltip": "unde",
+    "Deleted": false,
+    "UdListDefinitionId": 94,
+    "Rank": 283,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 885
       }
     }
   }

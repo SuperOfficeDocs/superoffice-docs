@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 931,
-  "Username": "sit",
-  "AccessAllRequests": true
+  "PersonId": 733,
+  "Username": "repellat",
+  "AccessAllRequests": false
 }
 ```
 
@@ -97,16 +97,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 434,
-  "PersonId": 414,
-  "SecretKey": "nemo",
-  "SecretValue": "sint",
+  "UserCandidateId": 260,
+  "PersonId": 294,
+  "SecretKey": "et",
+  "SecretValue": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 302
     }
   }
 }

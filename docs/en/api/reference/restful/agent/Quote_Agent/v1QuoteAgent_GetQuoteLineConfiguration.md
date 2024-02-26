@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 152
+  "QuoteLineConfigurationId": 900
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 437,
-  "FieldName": "Schiller, Dooley and Deckow",
-  "Label": "odio",
-  "Tooltip": "porro",
-  "Editable": true,
+  "QuoteLineConfigurationId": 255,
+  "FieldName": "Monahan LLC",
+  "Label": "voluptas",
+  "Tooltip": "perferendis",
+  "Editable": false,
   "InUse": true,
   "Mandatory": false,
-  "Rank": 195,
-  "RestrictEdit": false,
+  "Rank": 186,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

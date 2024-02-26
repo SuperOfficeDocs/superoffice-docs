@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=quas
+GET /api/v1/List/SelectionCategory/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Ondricka, Eichmann and Huels",
-    "ToolTip": "Quisquam dolorum.",
-    "Deleted": true,
-    "Rank": 433,
-    "Type": "ut",
+    "Id": 84,
+    "Name": "Rempel-Waters",
+    "ToolTip": "Dolorem nulla.",
+    "Deleted": false,
+    "Rank": 518,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Kuhn, Harvey and Nienow",
-        "ToolTip": "Distinctio natus.",
+        "Id": 173,
+        "Name": "Kling-Witting",
+        "ToolTip": "Enim aut laboriosam dolore qui.",
         "Deleted": false,
-        "Rank": 34,
-        "Type": "voluptatem",
+        "Rank": 930,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 990,
-        "ExtraInfo": "rerum",
-        "StyleHint": "ut",
-        "FullName": "Prof. Dennis Schuyler Stroman I",
+        "IconHint": "corporis",
+        "ColorBlock": 626,
+        "ExtraInfo": "magnam",
+        "StyleHint": "in",
+        "FullName": "Ellis Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 913
+            "FieldLength": 759
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 668,
-    "ExtraInfo": "deleniti",
-    "StyleHint": "quod",
-    "FullName": "Ms. Blaze Obie Strosin Sr.",
+    "IconHint": "voluptatem",
+    "ColorBlock": 300,
+    "ExtraInfo": "commodi",
+    "StyleHint": "officia",
+    "FullName": "Dr. Maude Schmeler V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldType": "System.Int32",
+        "FieldLength": 112
       }
     }
   }

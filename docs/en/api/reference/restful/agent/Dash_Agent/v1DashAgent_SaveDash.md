@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 458,
-  "UniqueId": "dicta",
-  "Name": "Bergstrom-Powlowski",
-  "Description": "Multi-tiered optimizing customer loyalty",
-  "AssociateId": 857,
-  "Columns": 364,
+  "DashboardId": 259,
+  "UniqueId": "alias",
+  "Name": "Conroy, Kshlerin and Schumm",
+  "Description": "Cloned stable encryption",
+  "AssociateId": 800,
+  "Columns": 740,
   "Theme": null,
-  "VisibleForAll": 561,
+  "VisibleForAll": 124,
   "VisibleForAssociates": [
-    851,
-    571
+    23,
+    336
   ],
   "VisibleForGroups": [
-    720,
-    688
+    749,
+    955
   ],
-  "PinForAll": 409,
+  "PinForAll": 30,
   "PinForAssociates": [
-    275,
-    365
+    858,
+    387
   ],
   "PinForGroups": [
-    788,
-    616
+    45,
+    286
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 477,
-  "UniqueId": "molestiae",
-  "Name": "Hodkiewicz LLC",
-  "Description": "Reactive heuristic alliance",
-  "AssociateId": 813,
-  "Columns": 585,
+  "DashboardId": 751,
+  "UniqueId": "voluptatem",
+  "Name": "Wyman Inc and Sons",
+  "Description": "Open-source national protocol",
+  "AssociateId": 549,
+  "Columns": 209,
   "Theme": null,
-  "VisibleForAll": 443,
+  "VisibleForAll": 436,
   "VisibleForAssociates": [
-    121,
-    65
+    574,
+    917
   ],
   "VisibleForGroups": [
-    797,
-    25
+    670,
+    860
   ],
-  "PinForAll": 691,
+  "PinForAll": 606,
   "PinForAssociates": [
-    959,
-    999
+    124,
+    52
   ],
   "PinForGroups": [
-    698,
-    157
+    437,
+    888
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldLength": 321
     }
   }
 }

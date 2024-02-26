@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Collins, Herzog and Erdman",
-      "Description": "Operative modular database",
-      "Rank": 280,
+      "Name": "Gleichner, Goyette and Bergstrom",
+      "Description": "Multi-lateral 6th generation data-warehouse",
+      "Rank": 554,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Collins, Herzog and Erdman",
-      "Description": "Operative modular database",
-      "Rank": 280,
+      "Name": "Gleichner, Goyette and Bergstrom",
+      "Description": "Multi-lateral 6th generation data-warehouse",
+      "Rank": 554,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldLength": 102
     }
   }
 }

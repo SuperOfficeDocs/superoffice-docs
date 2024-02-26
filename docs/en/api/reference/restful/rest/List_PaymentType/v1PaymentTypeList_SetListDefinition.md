@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Waters LLC",
-  "Tooltip": "corporis",
+  "Id": 475,
+  "Name": "Russel Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 558,
+  "Rank": 918,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "modi",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "McClure, Conroy and Kshlerin",
-  "Tooltip": "suscipit",
+  "Id": 248,
+  "Name": "Emmerich, Kessler and Pfeffer",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 874,
-  "IsCustomList": true,
+  "Rank": 614,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldType": "System.String",
+      "FieldLength": 798
     }
   }
 }

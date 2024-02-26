@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 742,
-  "Name": "VonRueden LLC",
+  "ScreenChooserId": 162,
+  "Name": "Fritsch, Kuphal and Aufderhar",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "laborum",
-  "Source": "qui",
-  "Registered": "1999-04-07T16:55:30.3118157+02:00",
-  "RegisteredAssociateId": 347,
-  "Updated": "2023-04-01T16:55:30.3118157+02:00",
-  "UpdatedAssociateId": 248,
+  "UniqueIdentifier": "saepe",
+  "Source": "ducimus",
+  "Registered": "2016-04-24T10:30:32.6543487+02:00",
+  "RegisteredAssociateId": 79,
+  "Updated": "2004-10-10T10:30:32.6543487+02:00",
+  "UpdatedAssociateId": 340,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldLength": 682
     }
   }
 }

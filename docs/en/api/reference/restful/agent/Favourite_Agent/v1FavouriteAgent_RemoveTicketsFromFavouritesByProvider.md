@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gaylord, Lynch and Ebert",
+  "ProviderName": "Howe, Feeney and Gutkowski",
   "Restrictions": [
     {
-      "Name": "Little Inc and Sons",
-      "Operator": "aliquid",
+      "Name": "Borer-Cruickshank",
+      "Operator": "aut",
       "Values": [
-        "asperiores",
-        "est"
+        "veritatis",
+        "necessitatibus"
       ],
       "DisplayValues": [
-        "aliquam",
-        "aspernatur"
+        "sit",
+        "eius"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 325,
+      "InterParenthesis": 422,
       "InterOperator": "And",
-      "UniqueHash": 653
+      "UniqueHash": 698
     }
   ],
-  "AssociateId": 277
+  "AssociateId": 447
 }
 ```
 

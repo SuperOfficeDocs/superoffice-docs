@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 369,
-  "Name": "Jacobi Group"
+  "DashTileId": 823,
+  "Name": "Murphy, Pollich and Rowe"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 432,
-  "DashboardId": 314,
-  "Height": 456,
-  "Width": 784,
-  "Rank": 423,
+  "DashboardTileId": 66,
+  "DashboardId": 483,
+  "Height": 592,
+  "Width": 708,
+  "Rank": 35,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 47
     }
   }
 }

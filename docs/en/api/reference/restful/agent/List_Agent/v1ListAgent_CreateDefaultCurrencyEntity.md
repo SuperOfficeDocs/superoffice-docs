@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 441,
-  "Name": "Bahringer LLC",
-  "Tooltip": "rerum",
-  "Rank": 37,
-  "Rate": 2284.686,
-  "Units": 30572.17,
-  "Deleted": true,
+  "CurrencyId": 930,
+  "Name": "Toy-Hermann",
+  "Tooltip": "perferendis",
+  "Rank": 581,
+  "Rate": 31092.414,
+  "Units": 6499.916,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 339
     }
   }
 }

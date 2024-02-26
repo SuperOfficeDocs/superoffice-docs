@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Ryan-Breitenberg",
-  "AssociateId": 129,
-  "DetailsTable": 314,
-  "DetailsRecord": 78,
+  "Id": 679,
+  "Name": "Hamill Group",
+  "AssociateId": 360,
+  "DetailsTable": 996,
+  "DetailsRecord": 906,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nemo",
-    "ParameterObject2": "odit"
+    "ParameterObject1": "voluptatem",
+    "ParameterObject2": "enim"
   },
-  "LastStarted": "1999-10-31T16:55:30.3228173+01:00",
-  "Created": "2016-04-22T16:55:30.3228173+02:00",
-  "StartCount": 232,
-  "DatabaseSerialNumber": "1679302",
-  "Context": "rem",
-  "Result": "perspiciatis",
+  "LastStarted": "1999-02-09T10:30:32.6699717+01:00",
+  "Created": "2005-04-15T10:30:32.6699717+02:00",
+  "StartCount": 588,
+  "DatabaseSerialNumber": "1275157",
+  "Context": "voluptatem",
+  "Result": "iusto",
   "State": "All",
-  "Description": "Total bottom-line hardware",
-  "Response": "sint",
-  "Request": "omnis",
-  "ProgressDescription": "Networked fault-tolerant portal",
-  "ProgressPercent": 315,
-  "FileName": "Reynolds-Wyman",
+  "Description": "Intuitive scalable capacity",
+  "Response": "expedita",
+  "Request": "velit",
+  "ProgressDescription": "Diverse system-worthy pricing structure",
+  "ProgressPercent": 531,
+  "FileName": "Schulist Inc and Sons",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 671,
-  "Name": "Moore, Reilly and Mohr",
-  "AssociateId": 385,
-  "DetailsTable": 916,
-  "DetailsRecord": 765,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 842,
+  "Name": "Roob, Russel and Weber",
+  "AssociateId": 395,
+  "DetailsTable": 187,
+  "DetailsRecord": 677,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "rerum",
-    "ParameterObject2": "numquam"
+    "ParameterObject1": "doloribus",
+    "ParameterObject2": "quae"
   },
-  "LastStarted": "2014-08-27T16:55:30.3238594+02:00",
-  "Created": "2020-03-01T16:55:30.3238594+01:00",
-  "StartCount": 555,
-  "DatabaseSerialNumber": "342136",
-  "Context": "adipisci",
-  "Result": "est",
+  "LastStarted": "2015-08-09T10:30:32.6699717+02:00",
+  "Created": "2003-11-14T10:30:32.6699717+01:00",
+  "StartCount": 681,
+  "DatabaseSerialNumber": "1373744",
+  "Context": "earum",
+  "Result": "rerum",
   "State": "All",
-  "Description": "Persevering zero defect info-mediaries",
-  "Response": "molestiae",
-  "Request": "eligendi",
-  "ProgressDescription": "Innovative intangible knowledge base",
-  "ProgressPercent": 892,
-  "FileName": "Thiel Group",
+  "Description": "Robust zero tolerance array",
+  "Response": "non",
+  "Request": "optio",
+  "ProgressDescription": "Open-architected systematic local area network",
+  "ProgressPercent": 137,
+  "FileName": "Hudson LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldType": "System.Int32",
+      "FieldLength": 103
     }
   }
 }

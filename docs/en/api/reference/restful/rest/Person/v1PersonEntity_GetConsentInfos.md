@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 655,
-    "Comment": "eveniet",
-    "Registered": "1998-05-01T16:55:29.8925202+02:00",
-    "RegisteredAssociateId": 665,
-    "Updated": "2010-05-26T16:55:29.8925202+02:00",
-    "UpdatedAssociateId": 343,
-    "LegalBaseId": 496,
-    "LegalBaseKey": "autem",
-    "LegalBaseName": "Rutherford LLC",
-    "ConsentPurposeId": 366,
-    "ConsentPurposeKey": "quod",
-    "ConsentPurposeName": "Schinner-Okuneva",
-    "ConsentSourceId": 690,
-    "ConsentSourceKey": "debitis",
-    "ConsentSourceName": "Douglas-Kilback",
+    "ConsentPersonId": 949,
+    "Comment": "reiciendis",
+    "Registered": "2010-04-01T10:30:32.1668022+02:00",
+    "RegisteredAssociateId": 37,
+    "Updated": "2008-12-14T10:30:32.1668022+01:00",
+    "UpdatedAssociateId": 418,
+    "LegalBaseId": 474,
+    "LegalBaseKey": "similique",
+    "LegalBaseName": "Graham-Farrell",
+    "ConsentPurposeId": 471,
+    "ConsentPurposeKey": "autem",
+    "ConsentPurposeName": "Heathcote, Dooley and Rippin",
+    "ConsentSourceId": 143,
+    "ConsentSourceKey": "molestias",
+    "ConsentSourceName": "Murazik, Roob and Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

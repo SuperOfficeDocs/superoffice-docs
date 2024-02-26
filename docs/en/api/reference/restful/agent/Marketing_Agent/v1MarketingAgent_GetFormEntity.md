@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=191
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=902
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 623,
-  "FormKey": "illo",
-  "Name": "Quitzon, Zulauf and Gutkowski",
-  "Description": "User-friendly actuating pricing structure",
-  "Config": "quia",
-  "FolderId": 332,
-  "ScriptId": 45,
-  "ResponseShipmentId": 882,
+  "FormId": 100,
+  "FormKey": "cumque",
+  "Name": "Koss, Dickinson and Gerhold",
+  "Description": "Open-architected user-facing system engine",
+  "Config": "quos",
+  "FolderId": 653,
+  "ScriptId": 286,
+  "ResponseShipmentId": 897,
   "Active": true,
-  "Expires": "2017-07-09T16:54:55.6509931+02:00",
+  "Expires": "2000-06-24T10:30:24.1037706+02:00",
   "MaxSubmits": 890,
   "Type": "Normal",
-  "Recipe": "odio",
-  "GroupId": 636,
-  "NewTicket": false,
+  "Recipe": "voluptatibus",
+  "GroupId": 236,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2005-11-22T16:54:55.6509931+01:00",
-  "RegisteredAssociateId": 261,
-  "Updated": "2004-09-11T16:54:55.6509931+02:00",
-  "UpdatedAssociateId": 133,
-  "UpdatedCount": 251,
-  "FolderName": "Hamill, Daniel and Schaefer",
+  "Registered": "2003-09-25T10:30:24.1037706+02:00",
+  "RegisteredAssociateId": 334,
+  "Updated": "2001-03-09T10:30:24.1037706+01:00",
+  "UpdatedAssociateId": 472,
+  "UpdatedCount": 275,
+  "FolderName": "Corkery Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldLength": 955
     }
   }
 }

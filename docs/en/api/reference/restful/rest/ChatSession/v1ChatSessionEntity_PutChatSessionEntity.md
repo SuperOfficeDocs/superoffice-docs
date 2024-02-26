@@ -139,33 +139,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 562,
-  "TopicId": 84,
+  "ChatSessionId": 852,
+  "TopicId": 907,
   "User": null,
   "Person": null,
-  "CustomerAlias": "illum",
-  "CustomerHost": "dolor",
-  "CustomerName": "Corwin LLC",
-  "CustomerEmail": "hayden.wuckert@weimann.info",
-  "CustomerPhone": "280-820-0816 x0658",
+  "CustomerAlias": "quo",
+  "CustomerHost": "quaerat",
+  "CustomerName": "Schultz-Murazik",
+  "CustomerEmail": "ephraim@doylerussel.us",
+  "CustomerPhone": "1-105-414-5598 x77652",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hermann Group",
+  "CustomerCompanyName": "Bergstrom-O'Keefe",
   "Status": "Closed",
-  "FirstMessage": "minus",
-  "LastMessage": "dolorem",
-  "WhenRequested": "2021-10-20T16:55:29.2476177+02:00",
-  "WhenStarted": "2020-08-22T16:55:29.2476177+02:00",
-  "WhenEnded": "2018-09-01T16:55:29.2476177+02:00",
-  "WhenIdle": "2013-01-22T16:55:29.2476177+01:00",
-  "WhenFetched": "2006-01-26T16:55:29.2476177+01:00",
-  "SessionKey": "temporibus",
-  "InitialQueuePos": 377,
-  "AlertLevel": 446,
-  "Rank": 102,
+  "FirstMessage": "et",
+  "LastMessage": "vel",
+  "WhenRequested": "2009-09-04T10:30:31.7281008+02:00",
+  "WhenStarted": "2019-07-25T10:30:31.7281008+02:00",
+  "WhenEnded": "2010-11-19T10:30:31.7281008+01:00",
+  "WhenIdle": "2019-07-15T10:30:31.7281008+02:00",
+  "WhenFetched": "1999-07-16T10:30:31.7281008+02:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 704,
+  "AlertLevel": 617,
+  "Rank": 390,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 820
+  "Rating": 629
 }
 ```
 
@@ -184,29 +184,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 833,
-  "TopicId": 554,
+  "ChatSessionId": 711,
+  "TopicId": 94,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "ea",
-  "CustomerName": "Jacobs-Kiehn",
-  "CustomerEmail": "arianna_armstrong@farrell.info",
-  "CustomerPhone": "365.226.4801",
+  "CustomerAlias": "laborum",
+  "CustomerHost": "animi",
+  "CustomerName": "Goldner, Medhurst and Konopelski",
+  "CustomerEmail": "zena@cristmante.biz",
+  "CustomerPhone": "(964)407-1579 x6035",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Flatley, Fritsch and Spinka",
+  "CustomerCompanyName": "Murphy Group",
   "Status": "Closed",
-  "FirstMessage": "quo",
-  "LastMessage": "eos",
-  "WhenRequested": "2010-12-07T16:55:29.2576182+01:00",
-  "WhenStarted": "2006-02-20T16:55:29.2576182+01:00",
-  "WhenEnded": "2015-07-02T16:55:29.2576182+02:00",
-  "WhenIdle": "2020-05-25T16:55:29.2576182+02:00",
-  "WhenFetched": "2006-11-14T16:55:29.2576182+01:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 359,
-  "AlertLevel": 55,
-  "Rank": 344,
+  "FirstMessage": "minus",
+  "LastMessage": "culpa",
+  "WhenRequested": "2011-11-13T10:30:31.7281008+01:00",
+  "WhenStarted": "2002-09-20T10:30:31.7281008+02:00",
+  "WhenEnded": "2006-06-03T10:30:31.7281008+02:00",
+  "WhenIdle": "2013-03-10T10:30:31.7281008+01:00",
+  "WhenFetched": "2005-08-30T10:30:31.7281008+02:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 424,
+  "AlertLevel": 318,
+  "Rank": 672,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -214,13 +214,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 562,
+  "Rating": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   },
   "_Links": {

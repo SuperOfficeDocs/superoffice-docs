@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=156
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=472
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 911,
-  "WorkflowStepId": 939,
-  "WorkflowId": 768,
-  "Rank": 573,
+  "WorkflowWaitForActionId": 353,
+  "WorkflowStepId": 361,
+  "WorkflowId": 32,
+  "Rank": 477,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Cremin-Lebsack",
-      "Description": "Virtual optimal superstructure",
-      "Rank": 495,
+      "Name": "Gutmann-Runolfsdottir",
+      "Description": "Decentralized real-time challenge",
+      "Rank": 361,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cremin-Lebsack",
-      "Description": "Virtual optimal superstructure",
-      "Rank": 495,
+      "Name": "Gutmann-Runolfsdottir",
+      "Description": "Decentralized real-time challenge",
+      "Rank": 361,
       "Restrictions": [
         {},
         {}
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 578
     }
   }
 }

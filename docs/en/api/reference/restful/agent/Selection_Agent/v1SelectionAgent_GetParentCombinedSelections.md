@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Selection/GetParentCombinedSelections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 55
+  "SelectionId": 292
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  239,
-  405
+  964,
+  142
 ]
 ```

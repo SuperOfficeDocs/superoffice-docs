@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wiza-Mante",
-  "DeviceName": "Kling Group",
-  "DeviceIdentifier": "inventore",
+  "ApplicationName": "Streich, Ullrich and Bergstrom",
+  "DeviceName": "Upton-Kerluke",
+  "DeviceIdentifier": "et",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 436,
-  "Name": "Littel, Borer and Bogan",
-  "CreatedDate": "2005-02-05T16:54:55.4834681+01:00",
-  "UpdatedDate": "1998-04-01T16:54:55.4834681+02:00",
-  "AssociateFullName": "Rowan Wiegand",
-  "CreatedBy": "nisi",
-  "UpdatedBy": "nesciunt",
-  "DeviceIdentifier": "modi",
-  "ForeignAppId": 362,
+  "ForeignDeviceId": 799,
+  "Name": "O'Connell-Turcotte",
+  "CreatedDate": "2009-08-26T10:30:23.9073938+02:00",
+  "UpdatedDate": "2014-01-10T10:30:23.9073938+01:00",
+  "AssociateFullName": "John Durgan",
+  "CreatedBy": "adipisci",
+  "UpdatedBy": "omnis",
+  "DeviceIdentifier": "sint",
+  "ForeignAppId": 746,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldLength": 839
     }
   }
 }

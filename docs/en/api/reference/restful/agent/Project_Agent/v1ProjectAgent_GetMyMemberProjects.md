@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 299,
-    "Name": "Kub Group",
-    "Description": "Exclusive 24 hour contingency",
+    "ProjectId": 357,
+    "Name": "Leuschke Inc and Sons",
+    "Description": "Secured bi-directional access",
     "URL": "http://www.example.com/",
-    "Type": "sit",
-    "AssociateId": 945,
-    "AssociateFullName": "Mrs. Agustin Labadie DDS",
-    "TypeId": 452,
-    "Updated": "2005-02-11T16:54:56.0681382+01:00",
-    "StatusId": 886,
-    "Status": "temporibus",
-    "TextId": 975,
-    "PublishTo": "1997-05-06T16:54:56.0681382+02:00",
-    "PublishFrom": "2005-07-21T16:54:56.0681382+02:00",
-    "IsPublished": false,
+    "Type": "ipsum",
+    "AssociateId": 373,
+    "AssociateFullName": "Britney Schaden",
+    "TypeId": 517,
+    "Updated": "2015-07-18T10:30:24.3705833+02:00",
+    "StatusId": 253,
+    "Status": "ratione",
+    "TextId": 796,
+    "PublishTo": "2000-01-01T10:30:24.3705833+01:00",
+    "PublishFrom": "2019-05-10T10:30:24.3705833+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "221082",
-    "ActiveErpLinks": 247,
+    "ProjectNumber": "931160",
+    "ActiveErpLinks": 726,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldType": "System.String",
+        "FieldLength": 678
       }
     }
   }

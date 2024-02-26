@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 701,
-    "ParentId": 690,
-    "Name": "Zboncak-Waelchi",
-    "Fullname": "fuga",
-    "CategoryMaster": 59,
+    "TicketCategoryId": 332,
+    "ParentId": 316,
+    "Name": "Effertz-Collins",
+    "Fullname": "et",
+    "CategoryMaster": 682,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Haley Group",
+    "ExternalName": "Dibbert-Kilback",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 195,
-    "ReplyTemplate": 526,
-    "NotificationEmail": "jamarcus@okon.com",
+    "AssignmentLag": 897,
+    "ReplyTemplate": 644,
+    "NotificationEmail": "gust@swift.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 360,
+    "EffectiveReplyTemplateId": 578,
     "ExtraFields": {
-      "ExtraFields1": "hic",
-      "ExtraFields2": "ipsum"
+      "ExtraFields1": "quis",
+      "ExtraFields2": "qui"
     },
     "CustomFields": {
-      "CustomFields1": "et",
-      "CustomFields2": "iste"
+      "CustomFields1": "aspernatur",
+      "CustomFields2": "dolor"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 814
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=fugit
+GET /api/v1/List/Source/MDOItems?query=maxime
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Waters-Shields",
-    "ToolTip": "Dolores quo earum placeat dicta rerum natus.",
-    "Deleted": true,
-    "Rank": 757,
-    "Type": "asperiores",
+    "Id": 588,
+    "Name": "Watsica, Lueilwitz and Rowe",
+    "ToolTip": "Et doloribus voluptatem.",
+    "Deleted": false,
+    "Rank": 125,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 478,
-        "Name": "Hirthe, Lynch and Ziemann",
-        "ToolTip": "Et velit temporibus occaecati sapiente veniam minus dicta.",
-        "Deleted": false,
-        "Rank": 56,
-        "Type": "doloremque",
+        "Id": 275,
+        "Name": "Mraz Inc and Sons",
+        "ToolTip": "Est accusamus quos ab rem voluptatem.",
+        "Deleted": true,
+        "Rank": 872,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 358,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "mollitia",
-        "FullName": "Kaitlyn Vicky Kuhn III",
+        "IconHint": "in",
+        "ColorBlock": 522,
+        "ExtraInfo": "quam",
+        "StyleHint": "libero",
+        "FullName": "Hortense Jewess II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 266
+            "FieldType": "System.Int32",
+            "FieldLength": 489
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 147,
-    "ExtraInfo": "accusamus",
-    "StyleHint": "beatae",
-    "FullName": "Margaretta Hammes",
+    "IconHint": "itaque",
+    "ColorBlock": 68,
+    "ExtraInfo": "aliquid",
+    "StyleHint": "error",
+    "FullName": "Alford Johns PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 15
       }
     }
   }

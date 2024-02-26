@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 805,
-  "Name": "Herman Inc and Sons",
-  "Tooltip": "accusamus",
+  "HeadingId": 40,
+  "Name": "Stanton-Sanford",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 23,
-  "UdListDefinitionId": 838,
+  "Rank": 370,
+  "UdListDefinitionId": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

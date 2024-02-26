@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Tillman Group",
-  "AdditionalInfo": "fugit",
-  "SearchValue": "velit"
+  "Name": "Nitzsche LLC",
+  "AdditionalInfo": "laboriosam",
+  "SearchValue": "est"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "Fisher-Moore",
-    "ToolTip": "Sit est quia eos natus eos ipsam.",
-    "Deleted": false,
-    "Rank": 55,
-    "Type": "explicabo",
-    "ColorBlock": 866,
-    "IconHint": "consequatur",
+    "Id": 824,
+    "Name": "Roob Group",
+    "ToolTip": "Consectetur sit cum.",
+    "Deleted": true,
+    "Rank": 652,
+    "Type": "voluptatem",
+    "ColorBlock": 611,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2002-01-20T16:54:55.66551+01:00",
+    "LastChanged": "2004-07-10T10:30:24.1193938+02:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Hegmann-Turner",
-        "ToolTip": "Est voluptatem minus sit iusto voluptas quia.",
-        "Deleted": true,
-        "Rank": 723,
-        "Type": "laudantium",
-        "ColorBlock": 529,
-        "IconHint": "perferendis",
-        "Selected": false,
-        "LastChanged": "2007-09-11T16:54:55.66551+02:00",
+        "Id": 582,
+        "Name": "McCullough LLC",
+        "ToolTip": "Quam dignissimos et adipisci commodi magni.",
+        "Deleted": false,
+        "Rank": 3,
+        "Type": "velit",
+        "ColorBlock": 238,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2014-02-22T10:30:24.1193938+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "nemo",
-        "Hidden": false,
-        "FullName": "Travis Koss",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Asia Waters",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 324
+            "FieldLength": 184
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "iste",
+    "ExtraInfo": "vero",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Danial Tremblay",
+    "FullName": "Antonina Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 611
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

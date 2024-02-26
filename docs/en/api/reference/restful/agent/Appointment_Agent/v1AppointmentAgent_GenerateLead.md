@@ -92,18 +92,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 621,
-  "LeadDescription": "Switchable systemic system engine",
-  "Relation": "saepe",
-  "RelationId": 310,
-  "LeadContact": "architecto",
-  "LeadPersonFirstname": "Maudie",
-  "LeadPersonLastname": "Luettgen",
-  "LeadPersonEmail": "sammy@konopelskischumm.info",
-  "LeadPhoneNumber": "1578173",
-  "CreatorsContact": "qui",
-  "CreatorsFirstname": "Jerod",
-  "CreatorsLastname": "Denesik"
+  "AssociateIdForNewContact": 899,
+  "LeadDescription": "Horizontal grid-enabled neural-net",
+  "Relation": "temporibus",
+  "RelationId": 434,
+  "LeadContact": "mollitia",
+  "LeadPersonFirstname": "Javier",
+  "LeadPersonLastname": "Schmitt",
+  "LeadPersonEmail": "destany@torp.ca",
+  "LeadPhoneNumber": "1017671",
+  "CreatorsContact": "ex",
+  "CreatorsFirstname": "Caden",
+  "CreatorsLastname": "Hintz"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 621,
-      "Name": "Kuhic-Stokes",
-      "OrgNr": "1889229",
+      "ContactId": 190,
+      "Name": "Blanda, Johnston and Buckridge",
+      "OrgNr": "1012613",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "qui",
-      "DirectPhone": "028.554.4718 x53019",
-      "AssociateId": 501,
-      "CountryId": 424,
-      "EmailAddress": "verner_flatley@koch.co.uk",
-      "Kananame": "voluptatibus",
-      "EmailAddressName": "gustave_paucek@schaden.ca",
+      "City": "omnis",
+      "DirectPhone": "(375)545-4614",
+      "AssociateId": 344,
+      "CountryId": 986,
+      "EmailAddress": "antwon@sipes.uk",
+      "Kananame": "tenetur",
+      "EmailAddressName": "stewart_wisozk@keebler.ca",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Oswaldo Bashirian",
+      "AssociateFullName": "Mr. Adrienne Alexandria Kris",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "exercitationem",
-      "FullName": "Georgianna Jakubowski",
+      "FormattedAddress": "dolorem",
+      "FullName": "Glen Hahn",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 570,
-      "Number1": "828689",
-      "Number2": "1435244",
+      "ActiveErpLinks": 100,
+      "Number1": "521894",
+      "Number2": "1075646",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 286
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 694
     }
   }
 }

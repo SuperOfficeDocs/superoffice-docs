@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 366,
+  "TargetDimensionId": 437,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "perspiciatis",
-  "DimensionListName": "Weber-Kuhic",
-  "DimensionListId": 993,
-  "DimensionListLabel": "minima",
+  "DimensionListField": "dolore",
+  "DimensionListName": "Stroman Group",
+  "DimensionListId": 8,
+  "DimensionListLabel": "laborum",
   "SelectedDimensions": [
-    646,
-    838
+    832,
+    761
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 150,
+  "TargetDimensionId": 261,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "cupiditate",
-  "DimensionListName": "Grimes-Roberts",
-  "DimensionListId": 724,
-  "DimensionListLabel": "natus",
+  "DimensionListField": "saepe",
+  "DimensionListName": "Dietrich, Greenholt and Stracke",
+  "DimensionListId": 63,
+  "DimensionListLabel": "cum",
   "SelectedDimensions": [
-    893,
-    499
+    880,
+    109
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 533
     }
   }
 }

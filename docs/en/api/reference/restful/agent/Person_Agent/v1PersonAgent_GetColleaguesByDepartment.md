@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 679
+  "DepartmentId": 140
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "cumque",
-    "PersonId": 418,
-    "Mrmrs": "nulla",
-    "Firstname": "Martin",
-    "Lastname": "Hessel",
-    "MiddleName": "Goldner, Jacobs and Farrell",
-    "Title": "asperiores",
-    "Description": "Optimized optimizing emulation",
-    "Email": "dorthy@rice.uk",
-    "FullName": "Hershel Alberto Jast Sr.",
-    "DirectPhone": "649.233.2348 x2416",
-    "FormalName": "Bosco-Krajcik",
-    "CountryId": 981,
-    "ContactId": 862,
-    "ContactName": "Keeling-Leuschke",
-    "Retired": 195,
-    "Rank": 486,
-    "ActiveInterests": 864,
+    "Position": "aut",
+    "PersonId": 271,
+    "Mrmrs": "earum",
+    "Firstname": "Paul",
+    "Lastname": "Prohaska",
+    "MiddleName": "Denesik, Robel and Green",
+    "Title": "ab",
+    "Description": "Up-sized dedicated parallelism",
+    "Email": "shanon@erdman.biz",
+    "FullName": "Miss Friedrich Melisa Gulgowski DVM",
+    "DirectPhone": "(000)872-1811",
+    "FormalName": "Marks, Berge and Dickinson",
+    "CountryId": 773,
+    "ContactId": 551,
+    "ContactName": "Feest, Howe and Nienow",
+    "Retired": 992,
+    "Rank": 979,
+    "ActiveInterests": 387,
     "ContactDepartment": "",
-    "ContactCountryId": 672,
-    "ContactOrgNr": "1283234",
-    "FaxPhone": "128.209.2399",
-    "MobilePhone": "1-186-141-9718 x74098",
-    "ContactPhone": "665-900-5843",
-    "AssociateName": "Heidenreich-O'Kon",
-    "AssociateId": 47,
+    "ContactCountryId": 200,
+    "ContactOrgNr": "1330941",
+    "FaxPhone": "715-461-3160 x96005",
+    "MobilePhone": "723-845-5408",
+    "ContactPhone": "318-843-6540 x9569",
+    "AssociateName": "Brakus, Medhurst and Ziemann",
+    "AssociateId": 198,
     "UsePersonAddress": false,
-    "ContactFax": "aspernatur",
-    "Kanafname": "sed",
-    "Kanalname": "nisi",
-    "Post1": "assumenda",
-    "Post2": "et",
-    "Post3": "labore",
-    "EmailName": "duane@hermiston.us",
-    "ContactFullName": "Alice Macejkovic",
-    "ActiveErpLinks": 834,
-    "TicketPriorityId": 47,
-    "SupportLanguageId": 436,
-    "SupportAssociateId": 140,
+    "ContactFax": "doloribus",
+    "Kanafname": "earum",
+    "Kanalname": "soluta",
+    "Post1": "iusto",
+    "Post2": "distinctio",
+    "Post3": "odio",
+    "EmailName": "keyon@bradtke.info",
+    "ContactFullName": "Miss Rafaela Shanahan Sr.",
+    "ActiveErpLinks": 312,
+    "TicketPriorityId": 749,
+    "SupportLanguageId": 512,
+    "SupportAssociateId": 622,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 415
       }
     }
   }

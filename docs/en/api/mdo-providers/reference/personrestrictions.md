@@ -43,27 +43,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|147|Adm0|||
-|148|Adm1|||
-|149|Adm2|||
-|150|Adm3|||
-|151|Adm4|||
-|152|Adm5|||
-|223|Adm6|||
-|9|Admin Adminson|||
-|183|AdmNS02 NetServer|||
-|126|Ænnhild Ænesen|||
-|124|Ænvald Ærbe|||
-|123|Ærling Ærestad|||
-|125|Æse Ærvelid|||
-|131|Åge Ågesen|||
-|141|Älve Äström|||
-|132|Åmund Ås|||
-|140|Änners Ännurlunda|||
-|221|Another Kitty|||
-|22|Arjan Abelsen|||
-|139|Ärle Älström|||
-|19|Arne Arnesen|||
+|147|Adm0||associate_id=11&contact_id=2|
+|148|Adm1||associate_id=12&contact_id=2|
+|149|Adm2||associate_id=13&contact_id=2|
+|150|Adm3||associate_id=14&contact_id=2|
+|151|Adm4||associate_id=15&contact_id=2|
+|152|Adm5||associate_id=16&contact_id=2|
+|223|Adm6||associate_id=106&contact_id=2|
+|9|Admin Adminson||associate_id=1&contact_id=2|
+|183|AdmNS02 NetServer||associate_id=63&contact_id=2|
+|126|Ænnhild Ænesen||contact_id=56|
+|124|Ænvald Ærbe||contact_id=55|
+|123|Ærling Ærestad||contact_id=55|
+|125|Æse Ærvelid||contact_id=56|
+|131|Åge Ågesen||contact_id=59|
+|141|Älve Äström||contact_id=62|
+|132|Åmund Ås||contact_id=59|
+|140|Änners Ännurlunda||contact_id=61|
+|221|Another Kitty||contact_id=125|
+|22|Arjan Abelsen||associate_id=90&contact_id=4|
+|139|Ärle Älström||contact_id=61|
+|19|Arne Arnesen||contact_id=3|
 
 
 ## Related MDO Lists

@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 87,
-  "ConnectorName": "Spinka-Collier"
+  "ConnectionId": 449,
+  "ConnectorName": "Jast Inc and Sons"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "neque",
-    "Rank": 409,
-    "DisplayName": "Denesik, Will and Beer",
-    "DisplayDescription": "Multi-lateral context-sensitive groupware",
+    "FieldKey": "commodi",
+    "Rank": 170,
+    "DisplayName": "Kautzer-Hirthe",
+    "DisplayDescription": "Cross-platform logistical process improvement",
     "FieldType": "Checkbox",
-    "ListName": "Hahn, Smith and Mohr",
-    "DefaultValue": "vel",
-    "MaxLength": 107,
+    "ListName": "Brekke, Romaguera and Casper",
+    "DefaultValue": "perspiciatis",
+    "MaxLength": 729,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 471
       }
     }
   }

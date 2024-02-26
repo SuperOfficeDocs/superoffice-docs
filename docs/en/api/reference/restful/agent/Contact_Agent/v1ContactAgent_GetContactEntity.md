@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=735
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=308
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 844,
-  "Name": "Pollich Group",
+  "ContactId": 512,
+  "Name": "Hilpert, Wisoky and Von",
   "Department": "",
-  "OrgNr": "784301",
-  "Number1": "1057203",
-  "Number2": "85656",
-  "UpdatedDate": "2009-03-06T16:54:54.9441753+01:00",
-  "CreatedDate": "2004-04-17T16:54:54.9441753+02:00",
+  "OrgNr": "456571",
+  "Number1": "845819",
+  "Number2": "963018",
+  "UpdatedDate": "2021-11-08T10:30:23.3043168+01:00",
+  "CreatedDate": "2022-05-17T10:30:23.3043168+02:00",
   "Emails": [
     {
-      "Value": "sint",
-      "StrippedValue": "non",
-      "Description": "Monitored systematic toolset",
+      "Value": "inventore",
+      "StrippedValue": "est",
+      "Description": "Persevering interactive projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 247
         }
       }
     },
     {
-      "Value": "sint",
-      "StrippedValue": "non",
-      "Description": "Monitored systematic toolset",
+      "Value": "inventore",
+      "StrippedValue": "est",
+      "Description": "Persevering interactive projection",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 247
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 118,
-      "Name": "Effertz-Stiedemann",
-      "ToolTip": "Ducimus et quibusdam necessitatibus.",
-      "Deleted": true,
-      "Rank": 343,
-      "Type": "voluptatem",
-      "ColorBlock": 711,
-      "IconHint": "saepe",
+      "Id": 758,
+      "Name": "Ryan Inc and Sons",
+      "ToolTip": "Numquam accusantium exercitationem numquam.",
+      "Deleted": false,
+      "Rank": 26,
+      "Type": "ipsam",
+      "ColorBlock": 888,
+      "IconHint": "architecto",
       "Selected": false,
-      "LastChanged": "1999-02-03T16:54:54.9441753+01:00",
+      "LastChanged": "2022-07-08T10:30:23.3043168+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rem",
-      "StyleHint": "cupiditate",
+      "ExtraInfo": "neque",
+      "StyleHint": "minima",
       "Hidden": true,
-      "FullName": "Prof. Samanta Hildegard Beatty IV",
+      "FullName": "Clyde Kiehn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldLength": 360
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "nihil",
-      "StrippedValue": "sit",
-      "Description": "Cloned analyzing moratorium",
+      "Value": "sint",
+      "StrippedValue": "enim",
+      "Description": "Mandatory intangible service-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldType": "System.String",
+          "FieldLength": 727
         }
       }
     },
     {
-      "Value": "nihil",
-      "StrippedValue": "sit",
-      "Description": "Cloned analyzing moratorium",
+      "Value": "sint",
+      "StrippedValue": "enim",
+      "Description": "Mandatory intangible service-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldType": "System.String",
+          "FieldLength": 727
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "quasi",
-      "StrippedValue": "non",
-      "Description": "Ameliorated solution-oriented matrix",
+      "Value": "qui",
+      "StrippedValue": "molestiae",
+      "Description": "Stand-alone high-level application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 488
         }
       }
     },
     {
-      "Value": "quasi",
-      "StrippedValue": "non",
-      "Description": "Ameliorated solution-oriented matrix",
+      "Value": "qui",
+      "StrippedValue": "molestiae",
+      "Description": "Stand-alone high-level application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 488
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "fugiat",
-      "StrippedValue": "iusto",
-      "Description": "Face to face regional leverage",
+      "Value": "quia",
+      "StrippedValue": "nobis",
+      "Description": "Universal context-sensitive collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldLength": 209
         }
       }
     },
     {
-      "Value": "fugiat",
-      "StrippedValue": "iusto",
-      "Description": "Face to face regional leverage",
+      "Value": "quia",
+      "StrippedValue": "nobis",
+      "Description": "Universal context-sensitive collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldLength": 209
         }
       }
     }
   ],
-  "Description": "Configurable asynchronous product",
+  "Description": "Managed dedicated task-force",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "commodi",
-      "PersonId": 447,
-      "Mrmrs": "rerum",
-      "Firstname": "Kaya",
-      "Lastname": "Cormier",
-      "MiddleName": "Kuphal-Stokes",
-      "Title": "qui",
-      "Description": "Versatile explicit functionalities",
-      "Email": "lavinia@baumbach.info",
-      "FullName": "Miss Ottis Oda Schuppe III",
-      "DirectPhone": "121-218-5253 x29469",
-      "FormalName": "Reichel-Zemlak",
-      "CountryId": 63,
-      "ContactId": 512,
-      "ContactName": "Koepp LLC",
-      "Retired": 379,
-      "Rank": 645,
-      "ActiveInterests": 556,
+      "Position": "ea",
+      "PersonId": 699,
+      "Mrmrs": "nobis",
+      "Firstname": "Bret",
+      "Lastname": "Strosin",
+      "MiddleName": "Osinski LLC",
+      "Title": "consectetur",
+      "Description": "Robust 24/7 moratorium",
+      "Email": "maximo@reillypfannerstill.com",
+      "FullName": "Kitty Dietrich",
+      "DirectPhone": "(375)469-9494 x73752",
+      "FormalName": "Harris, McKenzie and Dietrich",
+      "CountryId": 329,
+      "ContactId": 740,
+      "ContactName": "Leannon Group",
+      "Retired": 832,
+      "Rank": 866,
+      "ActiveInterests": 156,
       "ContactDepartment": "",
-      "ContactCountryId": 691,
-      "ContactOrgNr": "1080316",
-      "FaxPhone": "1-369-950-0168 x16304",
-      "MobilePhone": "1-181-644-9583 x144",
-      "ContactPhone": "(167)968-2885 x9056",
-      "AssociateName": "Harber Inc and Sons",
-      "AssociateId": 257,
+      "ContactCountryId": 225,
+      "ContactOrgNr": "951285",
+      "FaxPhone": "484-563-4066",
+      "MobilePhone": "534-295-6658 x477",
+      "ContactPhone": "411.731.4462",
+      "AssociateName": "Moore Group",
+      "AssociateId": 276,
       "UsePersonAddress": true,
-      "ContactFax": "et",
-      "Kanafname": "quo",
-      "Kanalname": "iste",
-      "Post1": "deleniti",
-      "Post2": "soluta",
-      "Post3": "rerum",
-      "EmailName": "micah@beckerreilly.us",
-      "ContactFullName": "Ottis Kozey",
-      "ActiveErpLinks": 228,
-      "TicketPriorityId": 877,
-      "SupportLanguageId": 537,
-      "SupportAssociateId": 41,
+      "ContactFax": "voluptatem",
+      "Kanafname": "possimus",
+      "Kanalname": "ipsum",
+      "Post1": "possimus",
+      "Post2": "mollitia",
+      "Post3": "et",
+      "EmailName": "andreane@adams.us",
+      "ContactFullName": "Roderick Kilback",
+      "ActiveErpLinks": 933,
+      "TicketPriorityId": 236,
+      "SupportLanguageId": 544,
+      "SupportAssociateId": 449,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 607
+          "FieldType": "System.Int32",
+          "FieldLength": 280
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "distinctio",
+  "Kananame": "nihil",
   "Xstop": false,
-  "ActiveInterests": 568,
-  "GroupId": 202,
-  "ActiveStatusMonitorId": 431,
+  "ActiveInterests": 536,
+  "GroupId": 657,
+  "ActiveStatusMonitorId": 565,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 65,
-  "DbiAgentId": 453,
-  "DbiLastSyncronized": "2014-02-26T16:54:54.9471756+01:00",
-  "DbiKey": "sit",
-  "DbiLastModified": "1999-04-05T16:54:54.9471756+02:00",
+  "Deleted": 28,
+  "DbiAgentId": 486,
+  "DbiLastSyncronized": "2010-03-18T10:30:23.3043168+01:00",
+  "DbiKey": "excepturi",
+  "DbiLastModified": "1996-10-27T10:30:23.3043168+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 431,
-  "ActiveErpLinks": 221,
+  "Source": 711,
+  "ActiveErpLinks": 67,
   "BounceEmails": [
-    "emma.padberg@wolf.biz",
-    "rubie@streich.com"
+    "toney@bergebraun.biz",
+    "vladimir.conroy@feest.uk"
   ],
   "Domains": [
-    "aspernatur",
-    "doloribus"
+    "ab",
+    "repellat"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "665192700",
-    "SuperOffice:2": "Kennith Schaefer"
+    "SuperOffice:1": "1184832285",
+    "SuperOffice:2": "1468807370"
   },
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "assumenda"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "aliquam"
+    "CustomFields1": "minus",
+    "CustomFields2": "commodi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldType": "System.Int32",
+      "FieldLength": 576
     }
   }
 }

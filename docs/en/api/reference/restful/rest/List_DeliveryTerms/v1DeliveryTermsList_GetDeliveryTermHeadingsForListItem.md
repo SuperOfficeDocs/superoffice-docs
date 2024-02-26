@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 347,
-    "Name": "Dibbert Group",
-    "ToolTip": "Est dicta magnam odio veniam ea.",
+    "Id": 713,
+    "Name": "Goyette LLC",
+    "ToolTip": "Alias odio maxime tempora ipsa quos.",
     "Deleted": false,
-    "Rank": 450,
-    "Type": "qui",
-    "ColorBlock": 286,
-    "IconHint": "dolorem",
+    "Rank": 360,
+    "Type": "omnis",
+    "ColorBlock": 4,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2023-07-16T16:55:30.6562367+02:00",
+    "LastChanged": "2005-11-13T10:30:32.9743325+01:00",
     "ChildItems": [
       {
-        "Id": 765,
-        "Name": "Sauer-Donnelly",
-        "ToolTip": "Hic error consequuntur non aperiam vero nesciunt nisi.",
+        "Id": 955,
+        "Name": "Greenfelder, Casper and Bartell",
+        "ToolTip": "Earum amet corporis sint vel ipsa.",
         "Deleted": false,
-        "Rank": 145,
-        "Type": "voluptas",
-        "ColorBlock": 349,
-        "IconHint": "nostrum",
+        "Rank": 715,
+        "Type": "sint",
+        "ColorBlock": 741,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2015-01-10T16:55:30.6562367+01:00",
+        "LastChanged": "2014-01-31T10:30:32.9743325+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "corporis",
+        "StyleHint": "quisquam",
         "Hidden": true,
-        "FullName": "Humberto Cornelius Wisoky II",
+        "FullName": "Dante Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 912
+            "FieldType": "System.Int32",
+            "FieldLength": 237
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Dr. Kirstin Marquardt MD",
+    "ExtraInfo": "dolor",
+    "StyleHint": "iusto",
+    "Hidden": true,
+    "FullName": "Mr. Milan Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldType": "System.String",
+        "FieldLength": 411
       }
     }
   }

@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    369,
-    643
+    163,
+    807
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 39,
-    "ColumnId": 282,
-    "FieldDefault": "velit",
-    "FieldHeight": 845,
-    "FieldLabel": "praesentium",
-    "FieldLeft": 484,
-    "FieldTop": 115,
+    "UDefFieldId": 978,
+    "ColumnId": 798,
+    "FieldDefault": "numquam",
+    "FieldHeight": 863,
+    "FieldLabel": "nostrum",
+    "FieldLeft": 753,
+    "FieldTop": 894,
     "FieldType": "Checkbox",
-    "FieldWidth": 401,
-    "FormatMask": "hic",
-    "HideLabel": false,
+    "FieldWidth": 545,
+    "FormatMask": "itaque",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 776,
-    "LabelLeft": 8,
-    "LabelTop": 624,
-    "LabelWidth": 425,
-    "LastVersionId": 709,
-    "ListTableId": 517,
+    "LabelHeight": 136,
+    "LabelLeft": 436,
+    "LabelTop": 268,
+    "LabelWidth": 644,
+    "LastVersionId": 651,
+    "ListTableId": 996,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 686,
-    "ProgId": "dolorem",
-    "IsReadOnly": true,
-    "ShortLabel": "possimus",
-    "TabOrder": 707,
-    "TextLength": 330,
-    "Tooltip": "quidem",
-    "UdefIdentity": 806,
-    "UDListDefinitionId": 998,
+    "Page1LineNo": 881,
+    "ProgId": "nostrum",
+    "IsReadOnly": false,
+    "ShortLabel": "vitae",
+    "TabOrder": 303,
+    "TextLength": 225,
+    "Tooltip": "et",
+    "UdefIdentity": 901,
+    "UDListDefinitionId": 907,
     "Justification": "Center",
-    "Version": 236,
-    "TemplateVariableName": "Sanford, Little and Konopelski",
+    "Version": 688,
+    "TemplateVariableName": "Kunde, Wisoky and Osinski",
     "HasBeenPublished": true,
-    "MdoListName": "Parker-Dooley",
+    "MdoListName": "Ondricka Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldLength": 447
       }
     }
   }

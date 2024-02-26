@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 444,
-  "Currency": "recusandae"
+  "QuoteConnectionId": 975,
+  "Currency": "corrupti"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 538,
-    "ERPPriceListKey": "quos",
-    "QuoteConnectionId": 36,
-    "Name": "Nitzsche-Robel",
-    "Description": "Multi-lateral homogeneous projection",
-    "Currency": "qui",
-    "CurrencyName": "Walter, Wuckert and Block",
-    "ValidFrom": "2007-10-10T16:54:56.1411407+02:00",
-    "ValidTo": "2016-03-18T16:54:56.1411407+01:00",
-    "IsActive": false,
+    "PriceListId": 133,
+    "ERPPriceListKey": "dignissimos",
+    "QuoteConnectionId": 547,
+    "Name": "Frami Inc and Sons",
+    "Description": "Operative neutral benchmark",
+    "Currency": "est",
+    "CurrencyName": "Koss LLC",
+    "ValidFrom": "1996-10-23T10:30:24.4346264+02:00",
+    "ValidTo": "2002-09-27T10:30:24.4346264+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldType": "System.String",
+        "FieldLength": 636
       }
     }
   }

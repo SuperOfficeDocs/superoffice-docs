@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 68
+  "ShipmentId": 643
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2008-01-20T16:54:55.6519927+01:00",
+  "StartDate": "2010-08-15T10:30:24.1037706+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 605,
-  "ShipmentDescription": "Inverse holistic firmware",
-  "FromAddress": "est",
-  "Configuration": 962,
-  "PersonId": 123,
-  "PersonFullName": "Prof. Romaine Will",
-  "ShipmentType": "eos",
-  "MessageId": 650,
-  "MessageSubject": "iste",
-  "DocumentMessageId": 377,
-  "NumSent": 696,
-  "NumOpened": 318,
-  "NumBounced": 546,
-  "NumClicks": 53,
+  "ShipmentId": 614,
+  "ShipmentDescription": "De-engineered next generation approach",
+  "FromAddress": "voluptas",
+  "Configuration": 630,
+  "PersonId": 929,
+  "PersonFullName": "Alayna Vandervort",
+  "ShipmentType": "blanditiis",
+  "MessageId": 370,
+  "MessageSubject": "quo",
+  "DocumentMessageId": 760,
+  "NumSent": 501,
+  "NumOpened": 439,
+  "NumBounced": 145,
+  "NumClicks": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldType": "System.Int32",
+      "FieldLength": 55
     }
   }
 }

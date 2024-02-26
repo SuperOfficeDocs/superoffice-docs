@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,41 +102,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quaerat",
-    "InputValues2": "labore"
+    "InputValues1": "molestias",
+    "InputValues2": "quae"
   },
   "BlockExecution": true,
-  "NavigateTo": "eos",
-  "Message": "qui",
-  "ShowDialog": "dolorem",
+  "NavigateTo": "quas",
+  "Message": "velit",
+  "ShowDialog": "dolores",
   "OutputValues": {
-    "OutputValues1": "iure",
-    "OutputValues2": "eum"
+    "OutputValues1": "provident",
+    "OutputValues2": "quo"
   },
   "StateValues": {
-    "StateValues1": "eos",
-    "StateValues2": "qui"
+    "StateValues1": "nisi",
+    "StateValues2": "omnis"
   },
-  "Exception": "repellat",
+  "Exception": "minima",
   "ParserValues": {
-    "ParserValues1": "odio",
-    "ParserValues2": "dolores"
+    "ParserValues1": "quia",
+    "ParserValues2": "iusto"
   },
   "CgiVariables": {
-    "CgiVariables1": "rerum",
-    "CgiVariables2": "repellendus"
+    "CgiVariables1": "nulla",
+    "CgiVariables2": "ex"
   },
-  "CgiContent": "rerum",
+  "CgiContent": "incidunt",
   "Headers": {
-    "Headers1": "error",
-    "Headers2": "aperiam"
+    "Headers1": "qui",
+    "Headers2": "itaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldType": "System.Int32",
+      "FieldLength": 712
     }
   }
 }

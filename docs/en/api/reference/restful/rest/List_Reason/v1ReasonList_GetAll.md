@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 557,
-    "Name": "Douglas, Harris and Runolfsson",
-    "Tooltip": "molestias",
+    "Id": 212,
+    "Name": "Gutkowski LLC",
+    "Tooltip": "facere",
     "Deleted": false,
-    "UdListDefinitionId": 155,
-    "Rank": 892,
+    "UdListDefinitionId": 746,
+    "Rank": 796,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldType": "System.Int32",
+        "FieldLength": 603
       }
     }
   }

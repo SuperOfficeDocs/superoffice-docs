@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 240,
-  "Name": "Greenholt-Hartmann",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 229,
-  "UdListDefinitionId": 695
+  "HeadingId": 158,
+  "Name": "Zulauf-Haley",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "Rank": 282,
+  "UdListDefinitionId": 636
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 977,
-  "Name": "Friesen LLC",
-  "Tooltip": "ducimus",
+  "HeadingId": 904,
+  "Name": "Kunde, Fritsch and Emard",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 981,
-  "UdListDefinitionId": 802,
+  "Rank": 103,
+  "UdListDefinitionId": 201,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

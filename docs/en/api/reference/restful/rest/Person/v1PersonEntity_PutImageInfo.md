@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 592,
-  "BlobSize": 856,
-  "Description": "Down-sized value-added focus group",
-  "ExtraInfo": "omnis",
+  "BlobId": 845,
+  "BlobSize": 897,
+  "Description": "Seamless demand-driven moderator",
+  "ExtraInfo": "maxime",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "sit",
-  "OriginalSize": 632,
-  "CreatedDate": "2015-02-07T16:55:29.9156145+01:00",
-  "UpdatedDate": "2014-10-23T16:55:29.9156145+02:00",
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 732,
+  "CreatedDate": "2014-07-27T10:30:32.1980491+02:00",
+  "UpdatedDate": "2020-12-19T10:30:32.1980491+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deserunt"
+  "ConceptualType": "quasi"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 422,
-  "BlobSize": 316,
-  "Description": "Organic foreground architecture",
-  "ExtraInfo": "aut",
+  "BlobId": 452,
+  "BlobSize": 554,
+  "Description": "Fully-configurable client-server projection",
+  "ExtraInfo": "beatae",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "mollitia",
-  "OriginalSize": 637,
-  "CreatedDate": "2004-05-21T16:55:29.916522+02:00",
-  "UpdatedDate": "2006-06-07T16:55:29.916522+02:00",
+  "MimeType": "et",
+  "OriginalSize": 318,
+  "CreatedDate": "2007-03-03T10:30:32.1980491+01:00",
+  "UpdatedDate": "2009-01-01T10:30:32.1980491+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "itaque",
+  "ConceptualType": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 800
     }
   }
 }

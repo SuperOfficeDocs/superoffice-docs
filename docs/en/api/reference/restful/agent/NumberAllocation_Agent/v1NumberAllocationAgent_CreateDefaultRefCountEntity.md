@@ -77,41 +77,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 247,
-  "Field": "temporibus",
-  "RecordId": 856,
+  "RefCountsId": 181,
+  "Field": "autem",
+  "RecordId": 105,
   "SuggestedRecords": [
     {
-      "Id": 347,
-      "Name": "Dickens, Sipes and Kuphal",
-      "ToolTip": "Ad possimus adipisci inventore ab odit quo iste.",
-      "Deleted": false,
-      "Rank": 230,
-      "Type": "nihil",
+      "Id": 23,
+      "Name": "Dooley-Hegmann",
+      "ToolTip": "Aut expedita.",
+      "Deleted": true,
+      "Rank": 523,
+      "Type": "omnis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "id",
-      "ColorBlock": 743,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "quis",
-      "FullName": "Elmira Kuhlman",
+      "IconHint": "ea",
+      "ColorBlock": 139,
+      "ExtraInfo": "aut",
+      "StyleHint": "consectetur",
+      "FullName": "Jedediah Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 324
         }
       }
     }
   ],
-  "CurrentValue": 631,
-  "TravelPrefix": 420,
-  "SatPrefix": 257,
+  "CurrentValue": 728,
+  "TravelPrefix": 73,
+  "SatPrefix": 994,
   "Allocate": false,
-  "Unique": true,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 554
     }
   }
 }

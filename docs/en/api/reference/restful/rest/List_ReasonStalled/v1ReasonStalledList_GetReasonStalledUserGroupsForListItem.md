@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Ullrich Group",
-    "ToolTip": "Et reprehenderit voluptatem maxime corrupti est.",
-    "Deleted": false,
-    "Rank": 198,
-    "Type": "dolores",
-    "ColorBlock": 660,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "2001-08-01T16:55:31.0471834+02:00",
+    "Id": 322,
+    "Name": "West-Dickens",
+    "ToolTip": "Id et velit incidunt.",
+    "Deleted": true,
+    "Rank": 901,
+    "Type": "quis",
+    "ColorBlock": 686,
+    "IconHint": "cum",
+    "Selected": true,
+    "LastChanged": "2017-01-24T10:30:33.2255818+01:00",
     "ChildItems": [
       {
-        "Id": 65,
-        "Name": "Wiegand-Goyette",
-        "ToolTip": "Quo asperiores dolorum quo nostrum.",
-        "Deleted": false,
-        "Rank": 463,
-        "Type": "necessitatibus",
-        "ColorBlock": 276,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2015-01-27T16:55:31.0471834+01:00",
+        "Id": 317,
+        "Name": "Larkin LLC",
+        "ToolTip": "Qui molestiae alias veniam unde magnam culpa reiciendis.",
+        "Deleted": true,
+        "Rank": 148,
+        "Type": "cumque",
+        "ColorBlock": 382,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2009-03-16T10:30:33.2255818+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Mrs. Micah Queenie Leffler",
+        "FullName": "Anissa Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 602
+            "FieldLength": 342
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Abigale Wilderman",
+    "ExtraInfo": "fuga",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Chad Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 183
       }
     }
   }

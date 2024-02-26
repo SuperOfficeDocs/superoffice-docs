@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Kerluke LLC",
-    "ToolTip": "Voluptas repudiandae vero ratione voluptas fugit repellendus.",
-    "Deleted": true,
-    "Rank": 204,
-    "Type": "occaecati",
-    "ColorBlock": 94,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2000-01-05T16:55:30.7502601+01:00",
+    "Id": 921,
+    "Name": "Conroy Group",
+    "ToolTip": "Non ut ab error.",
+    "Deleted": false,
+    "Rank": 153,
+    "Type": "quia",
+    "ColorBlock": 665,
+    "IconHint": "totam",
+    "Selected": false,
+    "LastChanged": "2013-01-29T10:30:33.0524566+01:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "Christiansen-Littel",
-        "ToolTip": "Distinctio molestiae voluptate similique aut voluptas culpa voluptatem.",
-        "Deleted": false,
-        "Rank": 101,
-        "Type": "amet",
-        "ColorBlock": 871,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2023-06-09T16:55:30.7512864+02:00",
+        "Id": 626,
+        "Name": "Johnson Inc and Sons",
+        "ToolTip": "Et soluta.",
+        "Deleted": true,
+        "Rank": 152,
+        "Type": "aut",
+        "ColorBlock": 777,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2008-04-22T10:30:33.0524566+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "dolores",
+        "ExtraInfo": "cumque",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Mr. Giovanna Breitenberg III",
+        "FullName": "Vinnie Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 173
+            "FieldLength": 650
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "non",
+    "ExtraInfo": "officia",
+    "StyleHint": "eum",
     "Hidden": true,
-    "FullName": "Valentin Gulgowski",
+    "FullName": "Mr. Laisha Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 417
       }
     }
   }

@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 999,
-  "StartTime": "2000-05-03T16:54:55.154494+02:00",
-  "EndTime": "1997-05-16T16:54:55.154494+02:00",
-  "Count": 877
+  "ProjectId": 58,
+  "StartTime": "2021-06-24T10:30:23.5925282+02:00",
+  "EndTime": "2010-07-20T10:30:23.5925282+02:00",
+  "Count": 306
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 232,
-    "Attention": "in",
-    "Header": "provident",
-    "Name": "Conroy-Bayer",
-    "OurRef": "velit",
-    "YourRef": "itaque",
-    "Description": "User-friendly static contingency",
-    "DocumentTemplate": "a",
+    "DocumentId": 853,
+    "Attention": "autem",
+    "Header": "occaecati",
+    "Name": "Lebsack Group",
+    "OurRef": "quaerat",
+    "YourRef": "qui",
+    "Description": "Operative reciprocal emulation",
+    "DocumentTemplate": "itaque",
     "IsPublished": true,
-    "PersonId": 974,
-    "PersonFullName": "Grayce Crona",
-    "AssociateFullName": "Emmalee Thompson",
-    "ContactId": 487,
-    "ContactName": "Lowe, Runolfsson and McGlynn",
-    "ProjectId": 228,
-    "ProjectName": "Berge-Murray",
-    "AssociateId": 354,
-    "Snum": 455,
-    "SaleId": 91,
-    "SaleName": "Collins-Farrell",
+    "PersonId": 918,
+    "PersonFullName": "Krista Feest",
+    "AssociateFullName": "Nils Quigley II",
+    "ContactId": 408,
+    "ContactName": "Spencer Inc and Sons",
+    "ProjectId": 539,
+    "ProjectName": "Bernhard Group",
+    "AssociateId": 283,
+    "Snum": 700,
+    "SaleId": 809,
+    "SaleName": "Zboncak Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 168
       }
     }
   }

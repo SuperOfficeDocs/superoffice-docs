@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Thompson LLC",
+  "TaskName": "Breitenberg-Bradtke",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Turner, Bradtke and Abshire",
-    "AssociateId": 958,
-    "DetailsTable": 869,
-    "DetailsRecord": 128,
-    "IsSystemTask": true,
+    "Id": 196,
+    "Name": "Shields Inc and Sons",
+    "AssociateId": 509,
+    "DetailsTable": 582,
+    "DetailsRecord": 956,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "vel",
-      "ParameterObject2": "placeat"
+      "ParameterObject1": "excepturi",
+      "ParameterObject2": "autem"
     },
-    "LastStarted": "1997-10-11T16:54:54.6073054+02:00",
-    "Created": "2005-12-07T16:54:54.6073054+01:00",
-    "StartCount": 523,
-    "DatabaseSerialNumber": "1344011",
-    "Context": "nihil",
-    "Result": "enim",
+    "LastStarted": "2014-10-02T10:30:23.0982933+02:00",
+    "Created": "2000-07-21T10:30:23.0982933+02:00",
+    "StartCount": 963,
+    "DatabaseSerialNumber": "1372916",
+    "Context": "distinctio",
+    "Result": "ratione",
     "State": "All",
-    "Description": "Vision-oriented multimedia task-force",
-    "Response": "sunt",
-    "Request": "est",
-    "ProgressDescription": "Vision-oriented upward-trending architecture",
-    "ProgressPercent": 924,
-    "FileName": "Wuckert, Mayert and Brown",
+    "Description": "Profit-focused 3rd generation neural-net",
+    "Response": "ut",
+    "Request": "eius",
+    "ProgressDescription": "Stand-alone uniform analyzer",
+    "ProgressPercent": 293,
+    "FileName": "Jakubowski-Rodriguez",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldLength": 612
       }
     }
   }

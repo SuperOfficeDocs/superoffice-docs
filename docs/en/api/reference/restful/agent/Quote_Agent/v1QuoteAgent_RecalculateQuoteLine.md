@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "veritatis",
-    "ut"
+    "fugiat",
+    "quia"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 137,
-  "ERPQuoteLineKey": "nemo",
-  "QuoteAlternativeId": 886,
-  "ERPProductKey": "cum",
+  "QuoteLineId": 161,
+  "ERPQuoteLineKey": "eos",
+  "QuoteAlternativeId": 80,
+  "ERPProductKey": "ratione",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 26306.796,
-  "DeliveredQuantity": 30393.532,
-  "Rank": 445,
-  "Name": "Keebler-Bartell",
-  "Description": "Monitored multi-state product",
-  "Code": "incidunt",
-  "QuantityUnit": "dolorum",
-  "PriceUnit": "harum",
-  "ItemNumber": "1585186",
+  "Quantity": 14993.055999999999,
+  "DeliveredQuantity": 526.512,
+  "Rank": 365,
+  "Name": "Hickle Inc and Sons",
+  "Description": "Multi-channelled systemic Graphic Interface",
+  "Code": "dolore",
+  "QuantityUnit": "reprehenderit",
+  "PriceUnit": "nihil",
+  "ItemNumber": "1112070",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "id",
-  "ProductTypeKey": "voluptate",
-  "Supplier": "saepe",
-  "SupplierCode": "iste",
-  "Thumbnail": "corrupti",
-  "VATInfo": "accusamus",
-  "VAT": 22802.984,
-  "UnitCost": 13814.671999999999,
-  "UnitMinimumPrice": 25705.068,
-  "UnitListPrice": 20809.76,
+  "ProductFamilyKey": "velit",
+  "ProductTypeKey": "ab",
+  "Supplier": "ipsum",
+  "SupplierCode": "neque",
+  "Thumbnail": "enim",
+  "VATInfo": "qui",
+  "VAT": 10972.134,
+  "UnitCost": 22661.953999999998,
+  "UnitMinimumPrice": 13830.341999999999,
+  "UnitListPrice": 12771.05,
   "ExtraInfo": [
     {
-      "Name": "Dare Inc and Sons",
-      "Value": "sed",
+      "Name": "Luettgen, Larkin and Erdman",
+      "Value": "occaecati",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 94
         }
       }
     },
     {
-      "Name": "Dare Inc and Sons",
-      "Value": "sed",
+      "Name": "Luettgen, Larkin and Erdman",
+      "Value": "occaecati",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 94
         }
       }
     }
   ],
-  "RawExtraInfo": "velit",
-  "IsSubscription": true,
-  "SubscriptionUnit": "esse",
-  "SubscriptionQuantity": 14582.502,
-  "SubscriptionStart": "2015-02-02T16:54:56.0871628+01:00",
-  "ERPDiscountPercent": 8195.41,
-  "ERPDiscountAmount": 27416.232,
-  "DiscountPercent": 18719.381999999998,
-  "DiscountAmount": 10132.222,
+  "RawExtraInfo": "consequatur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "doloremque",
+  "SubscriptionQuantity": 28158.989999999998,
+  "SubscriptionStart": "2020-09-15T10:30:24.3877082+02:00",
+  "ERPDiscountPercent": 18199.138,
+  "ERPDiscountAmount": 6296.206,
+  "DiscountPercent": 9975.521999999999,
+  "DiscountAmount": 1733.1019999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 8035.576,
-  "EarningAmount": 5744.6219999999994,
-  "SubTotal": 11730.562,
-  "TotalPrice": 3061.918,
-  "Rights": "sit",
-  "Rule": "sed",
-  "ExtraField1": "quod",
-  "ExtraField2": "nisi",
-  "ExtraField3": "ex",
-  "ExtraField4": "itaque",
-  "ExtraField5": "impedit",
+  "EarningPercent": 16519.314,
+  "EarningAmount": 3350.246,
+  "SubTotal": 2867.61,
+  "TotalPrice": 5584.788,
+  "Rights": "expedita",
+  "Rule": "excepturi",
+  "ExtraField1": "atque",
+  "ExtraField2": "quas",
+  "ExtraField3": "mollitia",
+  "ExtraField4": "iusto",
+  "ExtraField5": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   }
 }

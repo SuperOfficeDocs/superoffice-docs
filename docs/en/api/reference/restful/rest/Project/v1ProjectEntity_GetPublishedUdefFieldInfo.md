@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 789,
-  "ColumnId": 845,
-  "FieldDefault": "et",
-  "FieldHeight": 154,
-  "FieldLabel": "perferendis",
-  "FieldLeft": 34,
-  "FieldTop": 824,
+  "UDefFieldId": 607,
+  "ColumnId": 434,
+  "FieldDefault": "unde",
+  "FieldHeight": 92,
+  "FieldLabel": "sed",
+  "FieldLeft": 218,
+  "FieldTop": 222,
   "FieldType": "Checkbox",
-  "FieldWidth": 92,
-  "FormatMask": "non",
-  "HideLabel": false,
+  "FieldWidth": 845,
+  "FormatMask": "aliquam",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 862,
-  "LabelLeft": 167,
-  "LabelTop": 87,
-  "LabelWidth": 416,
-  "LastVersionId": 297,
-  "ListTableId": 185,
+  "LabelHeight": 995,
+  "LabelLeft": 149,
+  "LabelTop": 837,
+  "LabelWidth": 313,
+  "LastVersionId": 759,
+  "ListTableId": 972,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 594,
-  "ProgId": "quo",
+  "Page1LineNo": 654,
+  "ProgId": "similique",
   "IsReadOnly": false,
-  "ShortLabel": "debitis",
-  "TabOrder": 670,
-  "TextLength": 609,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 684,
-  "UDListDefinitionId": 646,
+  "ShortLabel": "totam",
+  "TabOrder": 686,
+  "TextLength": 461,
+  "Tooltip": "iure",
+  "UdefIdentity": 979,
+  "UDListDefinitionId": 992,
   "Justification": "Center",
-  "Version": 965,
-  "TemplateVariableName": "Ledner Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Kunze-Grant",
+  "Version": 838,
+  "TemplateVariableName": "Wilderman-Stoltenberg",
+  "HasBeenPublished": false,
+  "MdoListName": "Carroll, Sanford and Heaney",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 605
     }
   }
 }

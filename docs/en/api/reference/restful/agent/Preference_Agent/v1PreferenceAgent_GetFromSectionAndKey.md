@@ -95,8 +95,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "fuga",
-  "Key": "ut"
+  "Section": "non",
+  "Key": "placeat"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 803,
-  "Section": "culpa",
-  "Key": "dolorum",
-  "Name": "Rath-Altenwerth",
+  "PrefDescId": 559,
+  "Section": "iste",
+  "Key": "non",
+  "Name": "Mitchell, Schmeler and Witting",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse executive projection",
-  "IsBuiltin": true,
-  "TableName": "Trantow, Kirlin and Yost",
-  "UserDefinedListId": 758,
-  "Rank": 235,
-  "SubGroup": "aliquam",
-  "MinLevel": 778,
-  "MaxValue": 245,
-  "MinValue": 260,
-  "RequiredLicense": "quibusdam",
+  "Description": "Re-engineered fresh-thinking application",
+  "IsBuiltin": false,
+  "TableName": "Wiegand-Runte",
+  "UserDefinedListId": 940,
+  "Rank": 802,
+  "SubGroup": "autem",
+  "MinLevel": 153,
+  "MaxValue": 760,
+  "MinValue": 280,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

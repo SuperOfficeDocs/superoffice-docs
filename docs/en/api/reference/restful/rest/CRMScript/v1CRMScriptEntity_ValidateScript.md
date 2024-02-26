@@ -78,15 +78,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "quis",
-  "LineNumber": 243,
+  "ErrorMessage": "quas",
+  "LineNumber": 756,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 834
     }
   }
 }

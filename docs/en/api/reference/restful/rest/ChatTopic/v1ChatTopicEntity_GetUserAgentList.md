@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Stanton Group",
-    "ToolTip": "Repudiandae nihil.",
+    "Id": 56,
+    "Name": "Dietrich, Feil and Schumm",
+    "ToolTip": "Occaecati consequatur dolores impedit eaque ut omnis sit.",
     "Deleted": false,
-    "Rank": 308,
-    "Type": "optio",
+    "Rank": 572,
+    "Type": "voluptates",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Roberts-Quitzon",
-        "ToolTip": "Ab voluptatum itaque explicabo perferendis ipsum.",
-        "Deleted": false,
-        "Rank": 36,
-        "Type": "consequatur",
+        "Id": 166,
+        "Name": "O'Keefe-Hahn",
+        "ToolTip": "Dolore perspiciatis dolorum a ut facilis.",
+        "Deleted": true,
+        "Rank": 887,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minus",
-        "ColorBlock": 993,
-        "ExtraInfo": "aut",
-        "StyleHint": "dignissimos",
-        "FullName": "Lauryn Stiedemann",
+        "IconHint": "amet",
+        "ColorBlock": 360,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "accusamus",
+        "FullName": "Jaeden Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 408
+            "FieldLength": 62
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 836,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "est",
-    "FullName": "Johan Denesik",
+    "IconHint": "accusamus",
+    "ColorBlock": 591,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "unde",
+    "FullName": "Nasir Cassin II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldLength": 916
       }
     }
   }

@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Audience/SetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Douglas-Weber",
+  "LayoutName": "Balistreri, Jacobson and Jenkins",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

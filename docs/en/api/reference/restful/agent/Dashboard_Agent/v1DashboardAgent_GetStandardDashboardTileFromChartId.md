@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "sunt"
+  "ChartId": "laborum"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 967,
-  "Caption": "quia",
-  "Description": "Re-contextualized value-added projection",
-  "ChartName": "Will Group",
-  "ChartId": "suscipit",
-  "IsDefault": false,
-  "AssociateId": 682,
-  "GroupId": 931,
-  "SelectionId": 206,
-  "Config": "saepe",
+  "DashboardTileId": 903,
+  "Caption": "quas",
+  "Description": "Integrated scalable analyzer",
+  "ChartName": "Kautzer Inc and Sons",
+  "ChartId": "numquam",
+  "IsDefault": true,
+  "AssociateId": 992,
+  "GroupId": 140,
+  "SelectionId": 870,
+  "Config": "et",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Shanahan, Nitzsche and Hirthe",
-      "Description": "Right-sized client-server attitude",
+      "Name": "Fay, Lehner and Kunze",
+      "Description": "Cloned tertiary middleware",
       "Type": "Boolean",
-      "ListName": "Collins, Wyman and Wiegand",
+      "ListName": "Kemmer-VonRueden",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "minima",
-      "DefaultDataOption": true,
+      "Value": "dolores",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 224
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 401,
+      "VisibleId": 927,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 366
         }
       }
     },
     {
-      "VisibleId": 401,
+      "VisibleId": 927,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 366
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 91
     }
   }
 }

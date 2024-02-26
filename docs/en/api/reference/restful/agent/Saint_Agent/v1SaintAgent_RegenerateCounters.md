@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "Jacobs, Smith and Kunze",
-  "AssociateId": 808,
-  "DetailsTable": 203,
-  "DetailsRecord": 439,
+  "Id": 876,
+  "Name": "Rath Inc and Sons",
+  "AssociateId": 701,
+  "DetailsTable": 352,
+  "DetailsRecord": 788,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "veritatis",
-    "ParameterObject2": "odit"
+    "ParameterObject1": "unde",
+    "ParameterObject2": "velit"
   },
-  "LastStarted": "2017-09-11T16:54:56.1979912+02:00",
-  "Created": "2024-01-14T16:54:56.1979912+01:00",
-  "StartCount": 754,
-  "DatabaseSerialNumber": "525237",
-  "Context": "ut",
-  "Result": "tempore",
+  "LastStarted": "2014-10-14T10:30:24.4815013+02:00",
+  "Created": "1996-12-27T10:30:24.4815013+01:00",
+  "StartCount": 348,
+  "DatabaseSerialNumber": "668894",
+  "Context": "a",
+  "Result": "vel",
   "State": "All",
-  "Description": "Down-sized systemic groupware",
-  "Response": "velit",
-  "Request": "quidem",
-  "ProgressDescription": "Innovative reciprocal forecast",
-  "ProgressPercent": 110,
-  "FileName": "Schinner, Nader and Friesen",
+  "Description": "Pre-emptive disintermediate policy",
+  "Response": "numquam",
+  "Request": "ullam",
+  "ProgressDescription": "Open-source attitude-oriented archive",
+  "ProgressPercent": 308,
+  "FileName": "Terry, Trantow and Lakin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

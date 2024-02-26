@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 714,
-  "EmailAddress": "marjory_johnston@schowalterbogisich.uk",
-  "EmailTemplateId": 941,
-  "CultureLcidId": 985,
-  "Subject": "ut"
+  "PersonId": 151,
+  "EmailAddress": "rickie@wisokyhilll.ca",
+  "EmailTemplateId": 899,
+  "CultureLcidId": 52,
+  "Subject": "voluptatem"
 }
 ```
 

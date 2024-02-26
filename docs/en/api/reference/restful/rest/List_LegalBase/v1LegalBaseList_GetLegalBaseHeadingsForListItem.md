@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Steuber, Gleason and Reichert",
-    "ToolTip": "Sit aliquid totam.",
-    "Deleted": false,
-    "Rank": 203,
-    "Type": "molestiae",
-    "ColorBlock": 221,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2008-11-13T16:55:30.7063068+01:00",
+    "Id": 682,
+    "Name": "Jewess-Beatty",
+    "ToolTip": "Voluptatum voluptatem voluptas laboriosam iste id.",
+    "Deleted": true,
+    "Rank": 868,
+    "Type": "soluta",
+    "ColorBlock": 931,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "1998-07-03T10:30:33.0212063+02:00",
     "ChildItems": [
       {
-        "Id": 219,
-        "Name": "Emard Group",
-        "ToolTip": "Quod voluptatem alias sit ipsam.",
+        "Id": 910,
+        "Name": "Huels, Grimes and Renner",
+        "ToolTip": "Animi veniam ullam.",
         "Deleted": false,
-        "Rank": 703,
-        "Type": "cum",
-        "ColorBlock": 659,
-        "IconHint": "eos",
+        "Rank": 964,
+        "Type": "quo",
+        "ColorBlock": 878,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2019-04-22T16:55:30.7063068+02:00",
+        "LastChanged": "2010-01-23T10:30:33.0212063+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Mr. Kiley Rosenbaum",
+        "ExtraInfo": "itaque",
+        "StyleHint": "natus",
+        "Hidden": true,
+        "FullName": "Alize Nolan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 68
+            "FieldLength": 815
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "quo",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Madeline Lockman",
+    "FullName": "Ms. Ambrose Casper DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldType": "System.Int32",
+        "FieldLength": 663
       }
     }
   }

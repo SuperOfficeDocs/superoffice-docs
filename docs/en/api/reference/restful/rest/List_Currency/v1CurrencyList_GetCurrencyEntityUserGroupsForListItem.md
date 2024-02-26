@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Abernathy, Johnson and Morar",
-    "ToolTip": "Nesciunt fugit in iure dolorem.",
-    "Deleted": false,
-    "Rank": 653,
-    "Type": "molestias",
-    "ColorBlock": 301,
-    "IconHint": "aliquam",
+    "Id": 507,
+    "Name": "Kuhic-Pfeffer",
+    "ToolTip": "Voluptatibus vel.",
+    "Deleted": true,
+    "Rank": 134,
+    "Type": "reiciendis",
+    "ColorBlock": 435,
+    "IconHint": "enim",
     "Selected": true,
-    "LastChanged": "2000-12-15T16:55:30.6323022+01:00",
+    "LastChanged": "2018-05-28T10:30:32.9587082+02:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "O'Conner, Bradtke and Murphy",
-        "ToolTip": "Aut voluptatem aut.",
+        "Id": 195,
+        "Name": "Heathcote-Purdy",
+        "ToolTip": "Dolor aperiam.",
         "Deleted": false,
-        "Rank": 864,
-        "Type": "ut",
-        "ColorBlock": 7,
-        "IconHint": "asperiores",
+        "Rank": 963,
+        "Type": "illum",
+        "ColorBlock": 898,
+        "IconHint": "beatae",
         "Selected": true,
-        "LastChanged": "2010-07-19T16:55:30.6323022+02:00",
+        "LastChanged": "2016-06-09T10:30:32.9587082+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "id",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "repellat",
         "Hidden": true,
-        "FullName": "Mrs. Brycen Bogisich IV",
+        "FullName": "Prof. Andres Dashawn Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 309
+            "FieldType": "System.String",
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "vitae",
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Caroline McLaughlin",
+    "FullName": "Dino Greenfelder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 792
       }
     }
   }

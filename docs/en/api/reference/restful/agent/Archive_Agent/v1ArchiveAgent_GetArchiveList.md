@@ -108,47 +108,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Zulauf, Wuckert and Sanford",
-  "ProviderName": "Leuschke, Rodriguez and Reilly",
+  "GuiName": "Kemmer, Gerhold and Bartoletti",
+  "ProviderName": "Dare Group",
   "SortOrder": [
     {
-      "Name": "Schneider-Wilderman",
+      "Name": "Crooks, Graham and Franecki",
       "Direction": "ASC"
     },
     {
-      "Name": "Schneider-Wilderman",
+      "Name": "Crooks, Graham and Franecki",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Purdy Inc and Sons",
-      "Operator": "at",
+      "Name": "Rice Inc and Sons",
+      "Operator": "laboriosam",
       "Values": [
-        "consequatur",
-        "dignissimos"
+        "aspernatur",
+        "ea"
       ],
       "DisplayValues": [
-        "est",
-        "veniam"
+        "illo",
+        "voluptatum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 921,
+      "InterParenthesis": 136,
       "InterOperator": "And",
-      "UniqueHash": 723
+      "UniqueHash": 892
     }
   ],
   "Entities": [
-    "sint",
-    "dolor"
+    "id",
+    "incidunt"
   ],
-  "Page": 151,
-  "PageSize": 524
+  "Page": 520,
+  "PageSize": 639
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Windler-Boehm",
-    "PrimaryKey": 511,
+    "EntityName": "Murazik-Bogisich",
+    "PrimaryKey": 460,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "omnis",
-        "TooltipHint": "perferendis",
-        "LinkHint": "architecto"
+        "DisplayValue": "dolore",
+        "TooltipHint": "sint",
+        "LinkHint": "id"
       }
     },
-    "LinkHint": "neque",
-    "StyleHint": "velit",
+    "LinkHint": "qui",
+    "StyleHint": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 162
       }
     }
   }

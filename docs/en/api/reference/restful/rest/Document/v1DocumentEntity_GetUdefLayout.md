@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 510,
-    "ColumnId": 656,
-    "FieldDefault": "corrupti",
-    "FieldHeight": 752,
-    "FieldLabel": "unde",
-    "FieldLeft": 19,
-    "FieldTop": 368,
+    "UDefFieldId": 140,
+    "ColumnId": 891,
+    "FieldDefault": "et",
+    "FieldHeight": 845,
+    "FieldLabel": "ut",
+    "FieldLeft": 195,
+    "FieldTop": 317,
     "FieldType": "Checkbox",
-    "FieldWidth": 677,
-    "FormatMask": "soluta",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 851,
-    "LabelLeft": 994,
-    "LabelTop": 689,
-    "LabelWidth": 581,
-    "LastVersionId": 699,
-    "ListTableId": 940,
-    "IsMandatory": false,
+    "FieldWidth": 999,
+    "FormatMask": "recusandae",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 713,
+    "LabelLeft": 602,
+    "LabelTop": 832,
+    "LabelWidth": 954,
+    "LastVersionId": 485,
+    "ListTableId": 785,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 868,
-    "ProgId": "est",
+    "Page1LineNo": 758,
+    "ProgId": "similique",
     "IsReadOnly": true,
-    "ShortLabel": "ea",
-    "TabOrder": 805,
-    "TextLength": 69,
-    "Tooltip": "at",
-    "UdefIdentity": 161,
-    "UDListDefinitionId": 577,
+    "ShortLabel": "rerum",
+    "TabOrder": 403,
+    "TextLength": 847,
+    "Tooltip": "rerum",
+    "UdefIdentity": 84,
+    "UDListDefinitionId": 212,
     "Justification": "Center",
-    "Version": 828,
-    "TemplateVariableName": "Gibson, Crooks and Lowe",
-    "HasBeenPublished": false,
-    "MdoListName": "Auer, Feest and Goldner",
+    "Version": 614,
+    "TemplateVariableName": "Stark LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Howe Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldType": "System.Int32",
+        "FieldLength": 289
       }
     }
   }

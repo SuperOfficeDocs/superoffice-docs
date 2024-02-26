@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 951,
-  "PlainMessage": "quidem",
-  "HtmlMessage": "quod",
-  "SmsMessage": "explicabo",
-  "Description": "Cloned mission-critical workforce",
-  "Subject": "a",
-  "FolderId": 756,
-  "HeaderField": "architecto",
-  "Design": "alias",
+  "ShipmentMessageId": 937,
+  "PlainMessage": "porro",
+  "HtmlMessage": "sed",
+  "SmsMessage": "illo",
+  "Description": "Optimized static groupware",
+  "Subject": "quae",
+  "FolderId": 870,
+  "HeaderField": "tempora",
+  "Design": "sed",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Profit-focused 4th generation internet solution",
-  "AccessKey": "vitae",
-  "DocumentMessage": 275,
-  "Registered": "2014-03-09T16:54:55.6489923+01:00",
-  "RegisteredAssociateId": 103,
-  "Updated": "2000-03-25T16:54:55.6489923+01:00",
-  "UpdatedAssociateId": 481,
-  "UpdatedCount": 86,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Synchronised zero tolerance function",
+  "AccessKey": "est",
+  "DocumentMessage": 621,
+  "Registered": "2022-02-25T10:30:24.1037706+01:00",
+  "RegisteredAssociateId": 176,
+  "Updated": "2009-11-07T10:30:24.1037706+01:00",
+  "UpdatedAssociateId": 937,
+  "UpdatedCount": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldType": "System.Int32",
+      "FieldLength": 322
     }
   }
 }

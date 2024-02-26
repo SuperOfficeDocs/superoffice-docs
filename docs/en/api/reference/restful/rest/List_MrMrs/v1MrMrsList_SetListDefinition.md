@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 173,
-  "Name": "Mayer Group",
-  "Tooltip": "voluptatem",
+  "Id": 239,
+  "Name": "Welch Group",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 987,
+  "Rank": 722,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nobis",
+  "ListType": "non",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 594,
-  "Name": "Koch, Willms and Halvorson",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 144,
+  "Id": 506,
+  "Name": "Lind-Fahey",
+  "Tooltip": "fuga",
+  "Deleted": false,
+  "Rank": 172,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "odio",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   }
 }

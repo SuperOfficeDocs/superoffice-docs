@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Rempel, Hettinger and Heidenreich",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 112,
-  "IsCustomList": false,
+  "Id": 694,
+  "Name": "Kozey LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 974,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "facere",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 967,
-  "Name": "Bauch, Kling and Bogan",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 140,
+  "Id": 881,
+  "Name": "Keebler, Kerluke and Gerhold",
+  "Tooltip": "facilis",
+  "Deleted": true,
+  "Rank": 948,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 442
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 198,
-    "ColumnId": 562,
-    "FieldDefault": "amet",
-    "FieldHeight": 537,
-    "FieldLabel": "labore",
-    "FieldLeft": 906,
-    "FieldTop": 116,
+    "UDefFieldId": 379,
+    "ColumnId": 530,
+    "FieldDefault": "sequi",
+    "FieldHeight": 588,
+    "FieldLabel": "eos",
+    "FieldLeft": 558,
+    "FieldTop": 630,
     "FieldType": "Checkbox",
-    "FieldWidth": 300,
-    "FormatMask": "ullam",
-    "HideLabel": true,
+    "FieldWidth": 907,
+    "FormatMask": "officia",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 681,
-    "LabelLeft": 376,
-    "LabelTop": 277,
-    "LabelWidth": 379,
-    "LastVersionId": 685,
-    "ListTableId": 224,
-    "IsMandatory": true,
+    "LabelHeight": 463,
+    "LabelLeft": 282,
+    "LabelTop": 729,
+    "LabelWidth": 704,
+    "LastVersionId": 459,
+    "ListTableId": 857,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 355,
-    "ProgId": "autem",
-    "IsReadOnly": true,
-    "ShortLabel": "dolores",
-    "TabOrder": 999,
-    "TextLength": 877,
-    "Tooltip": "laborum",
-    "UdefIdentity": 63,
-    "UDListDefinitionId": 755,
+    "Page1LineNo": 202,
+    "ProgId": "dolorem",
+    "IsReadOnly": false,
+    "ShortLabel": "labore",
+    "TabOrder": 277,
+    "TextLength": 704,
+    "Tooltip": "eum",
+    "UdefIdentity": 903,
+    "UDListDefinitionId": 196,
     "Justification": "Center",
-    "Version": 914,
-    "TemplateVariableName": "Murazik, Hilpert and Jacobi",
-    "HasBeenPublished": true,
-    "MdoListName": "Murazik, Kessler and Gusikowski",
+    "Version": 228,
+    "TemplateVariableName": "Rutherford LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Nienow Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

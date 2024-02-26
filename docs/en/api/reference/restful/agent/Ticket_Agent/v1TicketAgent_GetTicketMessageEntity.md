@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=440
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=701
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 855,
+  "EjMessageId": 773,
   "Ticket": null,
-  "CreatedAt": "2004-03-15T16:54:56.5662896+01:00",
+  "CreatedAt": "1997-05-04T10:30:24.9204564+02:00",
   "CreatedBy": null,
-  "Author": "eos",
+  "Author": "nobis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sit",
-  "TimeSpent": 515,
-  "Body": "dolorum",
-  "HtmlBody": "autem",
-  "EmailHeader": "nigel@stiedemann.com",
-  "DebugInfo": "voluptates",
-  "MailSorter": "odio",
+  "MessageId": "occaecati",
+  "TimeSpent": 742,
+  "Body": "labore",
+  "HtmlBody": "voluptas",
+  "EmailHeader": "olen.kshlerin@raynorframi.ca",
+  "DebugInfo": "ut",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nostrum",
+  "SearchTitle": "recusandae",
   "MessageHeaders": [
     {
-      "Id": 106,
-      "Name": "Rau, Dicki and Wintheiser",
-      "Value": "dolor",
+      "Id": 923,
+      "Name": "Effertz-Ortiz",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,49 +131,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 118
+          "FieldLength": 929
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "et",
-  "Sentiment": 179,
-  "SentimentConfidence": 504,
+  "Important": false,
+  "Language": "odio",
+  "Sentiment": 276,
+  "SentimentConfidence": 412,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 130,
-      "Name": "Lind Inc and Sons",
-      "ContentType": "reiciendis",
-      "AttSize": 688,
+      "AttachmentId": 3,
+      "Name": "Hodkiewicz-Hessel",
+      "ContentType": "ea",
+      "AttSize": 196,
       "InlineImage": false,
-      "ContentId": "non",
-      "AuthKey": "eum",
+      "ContentId": "incidunt",
+      "AuthKey": "fuga",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 414
+          "FieldType": "System.Int32",
+          "FieldLength": 676
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "repellendus"
   },
   "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "et"
+    "CustomFields1": "sed",
+    "CustomFields2": "commodi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

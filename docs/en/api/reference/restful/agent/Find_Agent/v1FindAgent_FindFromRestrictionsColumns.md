@@ -106,34 +106,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Reichel-Ullrich",
-      "Operator": "perspiciatis",
+      "Name": "Hermann Group",
+      "Operator": "placeat",
       "Values": [
-        "omnis",
-        "et"
+        "in",
+        "possimus"
       ],
       "DisplayValues": [
-        "ipsam",
-        "sint"
+        "iste",
+        "sunt"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 348,
+      "InterParenthesis": 324,
       "InterOperator": "And",
-      "UniqueHash": 451
+      "UniqueHash": 239
     }
   ],
-  "ProviderName": "Schinner, Schinner and Crist",
+  "ProviderName": "Nolan, Witting and Durgan",
   "DesiredColumns": [
-    "doloribus",
-    "sint"
+    "et",
+    "consequatur"
   ],
-  "PageSize": 188,
-  "PageNumber": 25
+  "PageSize": 3,
+  "PageNumber": 76
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gleason-Stroman",
-      "DisplayTooltip": "itaque",
-      "DisplayType": "ut",
-      "CanOrderBy": false,
-      "Name": "Sauer-Treutel",
-      "CanRestrictBy": false,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Keeling-O'Connell",
+      "DisplayName": "Marvin Inc and Sons",
+      "DisplayTooltip": "quae",
+      "DisplayType": "consectetur",
+      "CanOrderBy": true,
+      "Name": "Konopelski-Bergstrom",
+      "CanRestrictBy": true,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Kreiger, Boyer and Feil",
       "IsVisible": true,
-      "ExtraInfo": "incidunt",
-      "Width": "voluptatem",
-      "IconHint": "aut",
-      "HeadingIconHint": "dolor"
+      "ExtraInfo": "excepturi",
+      "Width": "alias",
+      "IconHint": "quia",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Terry, Konopelski and Reinger",
-      "PrimaryKey": 743,
+      "EntityName": "Tromp LLC",
+      "PrimaryKey": 213,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "mollitia",
-          "TooltipHint": "voluptate",
-          "LinkHint": "similique"
+          "DisplayValue": "ducimus",
+          "TooltipHint": "quas",
+          "LinkHint": "aspernatur"
         }
       },
-      "LinkHint": "architecto",
-      "StyleHint": "et",
+      "LinkHint": "dolor",
+      "StyleHint": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 373
         }
       }
     }
   ],
-  "RowCount": 802,
+  "RowCount": 763,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 504
+      "FieldLength": 761
     }
   }
 }

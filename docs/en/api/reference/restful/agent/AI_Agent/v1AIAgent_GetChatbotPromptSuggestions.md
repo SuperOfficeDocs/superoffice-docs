@@ -82,9 +82,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "exercitationem",
-  "SoProtocol": "placeat",
-  "CurrentId": 454
+  "IsoLangCode": "veritatis",
+  "SoProtocol": "dolor",
+  "CurrentId": 295
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2011-05-15T16:54:54.1831886+02:00",
-  "UserPrompt": "culpa",
-  "UserDisplayText": "ut",
-  "BotResponse": "quidem",
+  "Timestamp": "1997-05-24T10:30:22.5161441+02:00",
+  "UserPrompt": "repudiandae",
+  "UserDisplayText": "fugiat",
+  "BotResponse": "libero",
   "BotActions": {
-    "BotActions1": "debitis",
-    "BotActions2": "velit"
+    "BotActions1": "fugiat",
+    "BotActions2": "quia"
   },
   "Attachments": [
-    "eius",
-    "exercitationem"
+    "nesciunt",
+    "excepturi"
   ]
 }
 ```

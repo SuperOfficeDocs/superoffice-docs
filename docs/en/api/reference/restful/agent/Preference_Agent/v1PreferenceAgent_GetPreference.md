@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680
+  "Id": 969
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "accusantium",
+  "RawValue": "repellat",
   "Specification": null,
-  "DisplayValue": "esse",
-  "DisplayTooltip": "itaque",
+  "DisplayValue": "porro",
+  "DisplayTooltip": "a",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 551,
-  "PrefDescId": 51,
-  "TableName": "Upton, Kilback and Langosh",
-  "UserPreferenceId": 557,
+  "TargetId": 154,
+  "PrefDescId": 224,
+  "TableName": "Schuppe Inc and Sons",
+  "UserPreferenceId": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldLength": 416
     }
   }
 }

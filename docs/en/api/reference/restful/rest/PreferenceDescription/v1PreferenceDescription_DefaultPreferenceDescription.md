@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 964,
-  "Section": "provident",
-  "Key": "quod",
-  "Name": "Will, Fadel and Wisozk",
+  "PrefDescId": 171,
+  "Section": "tenetur",
+  "Key": "autem",
+  "Name": "Von Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive encompassing policy",
+  "Description": "Operative empowering emulation",
   "IsBuiltin": false,
-  "TableName": "Hyatt-Jacobs",
-  "UserDefinedListId": 903,
-  "Rank": 735,
-  "SubGroup": "officia",
-  "MinLevel": 899,
-  "MaxValue": 106,
-  "MinValue": 861,
-  "RequiredLicense": "nobis",
+  "TableName": "Shanahan, McGlynn and Littel",
+  "UserDefinedListId": 453,
+  "Rank": 272,
+  "SubGroup": "consequatur",
+  "MinLevel": 734,
+  "MaxValue": 595,
+  "MinValue": 613,
+  "RequiredLicense": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 274
     }
   }
 }

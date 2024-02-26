@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 354
+  "DepartmentId": 257
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "655.646.5990 x6279",
-    "PersonCellPhone": "856.378.7783",
-    "PersonPrivatePhone": "113-904-1175 x59172",
-    "PersonFaxNumber": "1083384",
-    "PersonPagerNumber": "1296288",
-    "PersonEmail": "alysson@emmerich.ca",
-    "Id": 801,
-    "Name": "Rau-Kohler",
-    "Tooltip": "tenetur",
-    "UniqueId": "ex",
+    "PersonDirectPhone": "617.831.9434",
+    "PersonCellPhone": "252.381.2353 x3336",
+    "PersonPrivatePhone": "1-119-628-6477 x33313",
+    "PersonFaxNumber": "1162977",
+    "PersonPagerNumber": "621868",
+    "PersonEmail": "emmalee@mitchell.info",
+    "Id": 90,
+    "Name": "Ondricka-Rosenbaum",
+    "Tooltip": "quibusdam",
+    "UniqueId": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

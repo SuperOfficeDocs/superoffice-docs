@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Willms Inc and Sons",
-    "ToolTip": "Sit quaerat molestiae animi magnam perspiciatis.",
+    "Id": 99,
+    "Name": "Romaguera, Walter and Olson",
+    "ToolTip": "Alias et excepturi dignissimos eos nemo consequuntur.",
     "Deleted": true,
-    "Rank": 131,
-    "Type": "temporibus",
-    "ColorBlock": 199,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "2006-07-11T16:55:30.622217+02:00",
+    "Rank": 685,
+    "Type": "eos",
+    "ColorBlock": 36,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2020-09-22T10:30:32.9430827+02:00",
     "ChildItems": [
       {
-        "Id": 236,
-        "Name": "Mosciski LLC",
-        "ToolTip": "Rem itaque ea non facere incidunt consectetur.",
+        "Id": 93,
+        "Name": "Rodriguez-Christiansen",
+        "ToolTip": "Fuga et nulla sunt qui aut sunt dolores.",
         "Deleted": false,
-        "Rank": 207,
-        "Type": "tempora",
-        "ColorBlock": 999,
-        "IconHint": "et",
+        "Rank": 459,
+        "Type": "est",
+        "ColorBlock": 563,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2005-07-29T16:55:30.622217+02:00",
+        "LastChanged": "2004-06-02T10:30:32.9430827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "est",
+        "ExtraInfo": "qui",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Ms. Celestino Hettinger",
+        "FullName": "Fiona Christiansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 441
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "quia",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Dr. Josianne Kshlerin Sr.",
+    "FullName": "Janick Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 681
       }
     }
   }

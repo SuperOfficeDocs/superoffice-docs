@@ -71,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Lemke Inc and Sons",
+  "LayoutName": "Anderson, Glover and Labadie",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

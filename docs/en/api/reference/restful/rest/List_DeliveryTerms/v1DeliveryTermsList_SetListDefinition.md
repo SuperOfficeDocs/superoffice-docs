@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 259,
-  "Name": "Robel, Corwin and Roberts",
-  "Tooltip": "ipsa",
+  "Id": 376,
+  "Name": "Watsica Group",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 307,
+  "Rank": 218,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 841,
-  "Name": "Monahan-Baumbach",
-  "Tooltip": "repellat",
-  "Deleted": false,
-  "Rank": 293,
-  "IsCustomList": false,
+  "Id": 41,
+  "Name": "Wyman Group",
+  "Tooltip": "nobis",
+  "Deleted": true,
+  "Rank": 827,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquid",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 628
     }
   }
 }

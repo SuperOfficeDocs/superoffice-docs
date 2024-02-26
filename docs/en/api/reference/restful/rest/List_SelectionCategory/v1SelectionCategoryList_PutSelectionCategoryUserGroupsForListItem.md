@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Stroman Group",
-    "ToolTip": "Ea consequatur.",
-    "Deleted": true,
-    "Rank": 235,
-    "Type": "unde",
-    "ColorBlock": 376,
-    "IconHint": "et",
+    "Id": 98,
+    "Name": "Koch-McLaughlin",
+    "ToolTip": "Delectus non et.",
+    "Deleted": false,
+    "Rank": 269,
+    "Type": "earum",
+    "ColorBlock": 436,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2022-08-11T16:55:31.0863652+02:00",
+    "LastChanged": "1997-12-01T10:30:33.2568344+01:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Ritchie-Ortiz",
-        "ToolTip": "Error quae provident.",
-        "Deleted": false,
+        "Id": 397,
+        "Name": "Streich-Berge",
+        "ToolTip": "Quos aliquam molestiae laborum qui magni.",
+        "Deleted": true,
         "Rank": 548,
-        "Type": "architecto",
-        "ColorBlock": 330,
-        "IconHint": "repudiandae",
+        "Type": "ut",
+        "ColorBlock": 15,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2023-12-12T16:55:31.0863652+01:00",
+        "LastChanged": "2006-11-02T10:30:33.2568344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Novella Judge Borer Jr."
+        "ExtraInfo": "et",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Santina Wyman"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quis",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "delectus",
     "Hidden": true,
-    "FullName": "Norbert Durgan"
+    "FullName": "Amber Albertha Predovic Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "Wisozk, Dare and Lang",
-    "ToolTip": "Quis provident est consectetur.",
-    "Deleted": true,
-    "Rank": 328,
-    "Type": "rem",
-    "ColorBlock": 449,
-    "IconHint": "aliquam",
-    "Selected": true,
-    "LastChanged": "2021-08-03T16:55:31.0882782+02:00",
+    "Id": 696,
+    "Name": "Rau Inc and Sons",
+    "ToolTip": "Non veniam enim quis aliquid enim iusto.",
+    "Deleted": false,
+    "Rank": 231,
+    "Type": "ex",
+    "ColorBlock": 5,
+    "IconHint": "neque",
+    "Selected": false,
+    "LastChanged": "2015-09-06T10:30:33.2568344+02:00",
     "ChildItems": [
       {
-        "Id": 884,
-        "Name": "Moore-Wolf",
-        "ToolTip": "Dolores perspiciatis facere recusandae quas et.",
-        "Deleted": true,
-        "Rank": 733,
-        "Type": "exercitationem",
-        "ColorBlock": 59,
-        "IconHint": "vel",
+        "Id": 117,
+        "Name": "Fahey, Spencer and Heaney",
+        "ToolTip": "Vitae ut voluptas voluptatibus saepe et.",
+        "Deleted": false,
+        "Rank": 727,
+        "Type": "enim",
+        "ColorBlock": 597,
+        "IconHint": "eum",
         "Selected": true,
-        "LastChanged": "1998-02-11T16:55:31.0882782+01:00",
+        "LastChanged": "2007-02-05T10:30:33.2568344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Mrs. Bridie Marquise Abernathy DDS",
+        "ExtraInfo": "dolores",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Daryl Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldType": "System.Int32",
+            "FieldLength": 248
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "porro",
+    "ExtraInfo": "et",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Boris Kaitlyn McLaughlin IV",
+    "FullName": "Jared Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 99
+        "FieldType": "System.Int32",
+        "FieldLength": 31
       }
     }
   }

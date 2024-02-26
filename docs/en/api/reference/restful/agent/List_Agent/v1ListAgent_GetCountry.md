@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=13
+POST /api/v1/Agents/List/GetCountry?countryId=732
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 321,
-  "Name": "Bins-Stracke",
-  "CurrencyId": 884,
-  "EnglishName": "Upton-Bergnaum",
+  "CountryId": 232,
+  "Name": "Padberg, Kirlin and Bins",
+  "CurrencyId": 775,
+  "EnglishName": "VonRueden-Weimann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Advanced tangible emulation",
-  "OrgNrText": "1182584",
-  "InterAreaPrefix": "alias",
-  "DialInPrefix": "et",
-  "ZipPrefix": "enim",
-  "DomainName": "Ratke, Rutherford and Sawayn",
-  "AddressLayoutId": 673,
-  "DomesticAddressLayoutId": 44,
-  "ForeignAddressLayoutId": 483,
-  "Rank": 443,
-  "Tooltip": "enim",
+  "ImageDescription": "Visionary dedicated support",
+  "OrgNrText": "852754",
+  "InterAreaPrefix": "reiciendis",
+  "DialInPrefix": "expedita",
+  "ZipPrefix": "qui",
+  "DomainName": "Brekke, Flatley and Walker",
+  "AddressLayoutId": 849,
+  "DomesticAddressLayoutId": 929,
+  "ForeignAddressLayoutId": 493,
+  "Rank": 984,
+  "Tooltip": "vel",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldLength": 231
     }
   }
 }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 234,
-  "ModuleOwner": "ex"
+  "AssociateId": 611,
+  "ModuleOwner": "reiciendis"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 402,
-    "Tooltip": "aut",
-    "CanAssign": false,
-    "Free": 694,
-    "InUse": 215,
+    "Total": 804,
+    "Tooltip": "omnis",
+    "CanAssign": true,
+    "Free": 544,
+    "InUse": 1001,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 21,
-    "Name": "Lebsack, Schuster and Bins",
-    "Description": "Open-source 24 hour protocol",
-    "PrerequisiteModuleName": "Haag-Yundt",
-    "SortOrder": 334,
-    "ExtraFlags": 19,
+    "ModuleLicenseId": 133,
+    "Name": "White-Hahn",
+    "Description": "Persevering user-facing success",
+    "PrerequisiteModuleName": "Von, Borer and Murazik",
+    "SortOrder": 949,
+    "ExtraFlags": 594,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 559
       }
     }
   }

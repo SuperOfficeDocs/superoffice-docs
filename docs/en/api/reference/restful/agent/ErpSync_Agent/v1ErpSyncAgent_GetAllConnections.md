@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 484,
-    "ErpConnectorId": 286,
-    "DisplayName": "Gerlach-Dare",
-    "DisplayDescription": "Multi-channelled global ability",
-    "Active": false,
-    "ConnectionId": "animi",
-    "MostRecentTimestamp": "ducimus",
+    "ErpConnectionId": 744,
+    "ErpConnectorId": 912,
+    "DisplayName": "Cole Inc and Sons",
+    "DisplayDescription": "Versatile reciprocal standardization",
+    "Active": true,
+    "ConnectionId": "quisquam",
+    "MostRecentTimestamp": "alias",
     "ConfigFields": {
-      "ConfigFields1": "praesentium",
-      "ConfigFields2": "assumenda"
+      "ConfigFields1": "suscipit",
+      "ConfigFields2": "asperiores"
     },
-    "Deleted": true,
+    "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      923,
-      289
+      813,
+      473
     ],
     "AssociateAccessIds": [
-      251,
-      806
+      542,
+      617
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 741
       }
     }
   }

@@ -133,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 301,
-  "ERPProductKey": "sint",
-  "ERPPriceListKey": "sit",
-  "Name": "Koelpin LLC",
-  "Description": "Intuitive heuristic initiative",
-  "Code": "omnis",
-  "PriceUnit": "maxime",
-  "QuantityUnit": "quos",
-  "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 6343.2159999999994,
-  "ItemNumber": "1021023",
+  "ProductId": 719,
+  "ERPProductKey": "nostrum",
+  "ERPPriceListKey": "ab",
+  "Name": "Huels, Hilpert and Buckridge",
+  "Description": "Synergistic even-keeled flexibility",
+  "Code": "at",
+  "PriceUnit": "iusto",
+  "QuantityUnit": "velit",
+  "IsSubscription": true,
+  "SubscriptionUnit": "excepturi",
+  "DefaultSubscriptionQuantity": 1438.5059999999999,
+  "ItemNumber": "1537722",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "unde",
-  "VAT": 7393.106,
-  "VATInfo": "quia",
-  "UnitCost": 2294.0879999999997,
-  "UnitMinimumPrice": 25307.05,
-  "UnitListPrice": 4694.732,
-  "InAssortment": true,
-  "Supplier": "quidem",
-  "SupplierCode": "voluptatem",
-  "Rights": "cumque",
-  "Rule": "et",
+  "ProductFamilyKey": "molestias",
+  "ProductTypeKey": "eligendi",
+  "VAT": 19590.634,
+  "VATInfo": "commodi",
+  "UnitCost": 25087.67,
+  "UnitMinimumPrice": 10520.838,
+  "UnitListPrice": 7712.7739999999994,
+  "InAssortment": false,
+  "Supplier": "quibusdam",
+  "SupplierCode": "occaecati",
+  "Rights": "eligendi",
+  "Rule": "alias",
   "ExtraInfo": [
     {
-      "Name": "Predovic, Rosenbaum and Gottlieb",
-      "Value": "minus",
+      "Name": "Volkman-O'Conner",
+      "Value": "ratione",
       "Type": "Image"
     },
     {
-      "Name": "Predovic, Rosenbaum and Gottlieb",
-      "Value": "minus",
+      "Name": "Volkman-O'Conner",
+      "Value": "ratione",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "beatae",
-  "ExtraField2": "veritatis",
-  "ExtraField3": "corporis",
-  "ExtraField4": "reprehenderit",
-  "ExtraField5": "magnam",
-  "InStock": 17443.844
+  "RawExtraInfo": "ullam",
+  "ExtraField1": "veniam",
+  "ExtraField2": "nostrum",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "dignissimos",
+  "ExtraField5": "nam",
+  "InStock": 21254.788
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 179,
-  "ERPProductKey": "delectus",
-  "ERPPriceListKey": "quae",
-  "Name": "Batz-Pagac",
-  "Description": "Ergonomic non-volatile groupware",
-  "Code": "aperiam",
-  "PriceUnit": "rerum",
-  "QuantityUnit": "sed",
+  "ProductId": 637,
+  "ERPProductKey": "possimus",
+  "ERPPriceListKey": "cumque",
+  "Name": "Jacobi LLC",
+  "Description": "Sharable client-driven complexity",
+  "Code": "facere",
+  "PriceUnit": "assumenda",
+  "QuantityUnit": "quos",
   "IsSubscription": false,
-  "SubscriptionUnit": "sapiente",
-  "DefaultSubscriptionQuantity": 18327.631999999998,
-  "ItemNumber": "274243",
+  "SubscriptionUnit": "harum",
+  "DefaultSubscriptionQuantity": 27670.086,
+  "ItemNumber": "994581",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "exercitationem",
-  "ProductTypeKey": "est",
-  "VAT": 20728.275999999998,
-  "VATInfo": "aliquam",
-  "UnitCost": 22354.822,
-  "UnitMinimumPrice": 31186.433999999997,
-  "UnitListPrice": 18161.53,
+  "ProductFamilyKey": "fugiat",
+  "ProductTypeKey": "saepe",
+  "VAT": 12097.24,
+  "VATInfo": "quae",
+  "UnitCost": 5515.84,
+  "UnitMinimumPrice": 23342.032,
+  "UnitListPrice": 18822.804,
   "InAssortment": true,
-  "Supplier": "consequatur",
-  "SupplierCode": "omnis",
-  "Rights": "ipsa",
-  "Rule": "amet",
+  "Supplier": "praesentium",
+  "SupplierCode": "voluptas",
+  "Rights": "blanditiis",
+  "Rule": "molestiae",
   "ExtraInfo": [
     {
-      "Name": "O'Hara-Lang",
-      "Value": "incidunt",
+      "Name": "Bartell Group",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 632
         }
       }
     },
     {
-      "Name": "O'Hara-Lang",
-      "Value": "incidunt",
+      "Name": "Bartell Group",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 632
         }
       }
     }
   ],
-  "RawExtraInfo": "minus",
-  "ExtraField1": "fuga",
-  "ExtraField2": "rerum",
-  "ExtraField3": "dignissimos",
-  "ExtraField4": "et",
-  "ExtraField5": "quibusdam",
-  "InStock": 23116.384,
+  "RawExtraInfo": "in",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "nemo",
+  "ExtraField3": "alias",
+  "ExtraField4": "atque",
+  "ExtraField5": "dolorum",
+  "InStock": 8013.638,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 449
     }
   }
 }

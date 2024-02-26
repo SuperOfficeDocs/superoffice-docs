@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 628,
-  "Name": "Hagenes, Luettgen and Tremblay",
+  "SelectionId": 546,
+  "Name": "Bayer Inc and Sons",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable encompassing database",
-  "Postit": "et",
+  "Description": "User-centric actuating process improvement",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 785,
-  "IncludePerson": 276,
-  "MemberCount": 37,
-  "Name": "Friesen, Sawayn and Schmitt",
-  "PostitTextId": 75,
-  "CreatedDate": "2023-09-21T16:54:56.2995019+02:00",
-  "SelectionId": 274,
-  "SoundEx": "vero",
-  "Source": 441,
-  "TextId": 920,
-  "UpdatedDate": "2012-11-09T16:54:56.2995019+01:00",
-  "UpdatedCount": 272,
-  "Visibility": 989,
+  "GroupIdx": 95,
+  "IncludePerson": 421,
+  "MemberCount": 947,
+  "Name": "Funk LLC",
+  "PostitTextId": 617,
+  "CreatedDate": "2010-12-09T10:30:24.5752485+01:00",
+  "SelectionId": 164,
+  "SoundEx": "in",
+  "Source": 82,
+  "TextId": 755,
+  "UpdatedDate": "2011-10-06T10:30:24.5752485+02:00",
+  "UpdatedCount": 790,
+  "Visibility": 105,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 912,
-  "TargetTableName": "Rodriguez, Langosh and Sporer",
-  "Completed": false,
-  "LeftSelectionId": 439,
-  "RightSelectionId": 529,
+  "CompanyUnique": false,
+  "TargetTableNumber": 288,
+  "TargetTableName": "Dickinson LLC",
+  "Completed": true,
+  "LeftSelectionId": 780,
+  "RightSelectionId": 768,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wyman Inc and Sons",
-  "ShadowProviderName": "Schaden-Wiza",
-  "ChartKey": "et",
-  "LastLoaded": "2009-03-08T16:54:56.3005209+01:00",
-  "LastLoadedBy": 469,
+  "MainProviderName": "Fritsch, Wiegand and Hansen",
+  "ShadowProviderName": "Boehm, Carter and Romaguera",
+  "ChartKey": "at",
+  "LastLoaded": "2019-10-31T10:30:24.5752485+01:00",
+  "LastLoadedBy": 841,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-10-03T16:54:56.3005209+02:00",
-  "LastMembershipChangeBy": 975,
+  "LastMembershipChange": "1998-06-02T10:30:24.5752485+02:00",
+  "LastMembershipChangeBy": 505,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fuga",
-  "MemberTabHeading": "fuga",
-  "MailingsProviderName": "Jewess, Price and O'Kon",
-  "DashboardTileDefinitionId": 143,
+  "MainHeading": "velit",
+  "MemberTabHeading": "inventore",
+  "MailingsProviderName": "Donnelly-Hills",
+  "DashboardTileDefinitionId": 975,
   "VisibleFor": [
     {
-      "VisibleId": 841,
+      "VisibleId": 226,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 191
         }
       }
     },
     {
-      "VisibleId": 841,
+      "VisibleId": 226,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 191
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 248
     }
   }
 }

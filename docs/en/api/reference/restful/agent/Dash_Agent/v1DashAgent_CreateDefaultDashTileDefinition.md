@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 266,
-  "Name": "Kozey, Heidenreich and Nitzsche",
-  "Description": "Fundamental encompassing framework",
-  "DefaultHeight": 396,
-  "DefaultWidth": 648,
+  "DashboardTileDefinitionId": 45,
+  "Name": "Blanda Group",
+  "Description": "Monitored well-modulated neural-net",
+  "DefaultHeight": 892,
+  "DefaultWidth": 650,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Schroeder-Turcotte",
-  "SelectionId": 524,
+  "EntityName": "Rodriguez, Feeney and Parisian",
+  "SelectionId": 455,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quos",
+  "CurrencyCode": "at",
   "Measure": "Average",
-  "MeasureField": "modi",
-  "SortBy": "error",
-  "LayoutConfig": "vel",
-  "SecondarySelectionId": 473,
-  "MeasureByField": "animi",
+  "MeasureField": "ipsum",
+  "SortBy": "quae",
+  "LayoutConfig": "consequatur",
+  "SecondarySelectionId": 661,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Tillman, Bins and Pagac",
+  "ProviderName": "Marvin-Collins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 61
     }
   }
 }

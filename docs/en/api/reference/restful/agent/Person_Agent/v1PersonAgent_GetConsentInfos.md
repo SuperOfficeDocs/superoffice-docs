@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 138
+  "PersonId": 334
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 380,
-    "Comment": "atque",
-    "Registered": "2020-08-17T16:54:55.8103953+02:00",
-    "RegisteredAssociateId": 699,
-    "Updated": "2000-11-11T16:54:55.8103953+01:00",
-    "UpdatedAssociateId": 70,
-    "LegalBaseId": 107,
-    "LegalBaseKey": "atque",
-    "LegalBaseName": "Weissnat-Rempel",
-    "ConsentPurposeId": 911,
-    "ConsentPurposeKey": "ut",
-    "ConsentPurposeName": "Corkery, Tromp and Conn",
-    "ConsentSourceId": 827,
-    "ConsentSourceKey": "repudiandae",
-    "ConsentSourceName": "Kirlin, Morissette and Boyle",
+    "ConsentPersonId": 472,
+    "Comment": "unde",
+    "Registered": "2001-12-09T10:30:24.2443912+01:00",
+    "RegisteredAssociateId": 231,
+    "Updated": "2015-01-31T10:30:24.2443912+01:00",
+    "UpdatedAssociateId": 886,
+    "LegalBaseId": 11,
+    "LegalBaseKey": "voluptatem",
+    "LegalBaseName": "Muller-Conn",
+    "ConsentPurposeId": 666,
+    "ConsentPurposeKey": "repellendus",
+    "ConsentPurposeName": "Crist-Feeney",
+    "ConsentSourceId": 558,
+    "ConsentSourceKey": "facilis",
+    "ConsentSourceName": "Waters Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldType": "System.String",
+        "FieldLength": 156
       }
     }
   }

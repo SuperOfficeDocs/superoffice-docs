@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ullam",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ullam",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -145,23 +145,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 613,
-  "UniqueIdentifier": "et",
-  "Name": "Ritchie-Howe",
-  "Description": "Centralized logistical knowledge user",
-  "IncludeId": "qui",
-  "HierarchyId": 493,
-  "Source": "reiciendis",
-  "Registered": "1997-12-20T16:55:29.5298322+01:00",
-  "RegisteredAssociateId": 841,
-  "Updated": "2016-03-17T16:55:29.5298322+01:00",
-  "UpdatedAssociateId": 219,
+  "EjscriptId": 20,
+  "UniqueIdentifier": "quos",
+  "Name": "Corwin Inc and Sons",
+  "Description": "Triple-buffered real-time extranet",
+  "IncludeId": "itaque",
+  "HierarchyId": 920,
+  "Source": "et",
+  "Registered": "2013-11-12T10:30:31.9636795+01:00",
+  "RegisteredAssociateId": 328,
+  "Updated": "2022-10-12T10:30:31.9636795+02:00",
+  "UpdatedAssociateId": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 181
     }
   },
   "_Links": {

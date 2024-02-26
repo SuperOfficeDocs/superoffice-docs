@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 518,
-    "Name": "Witting LLC",
-    "ToolTip": "Earum quo corrupti.",
-    "Deleted": true,
-    "Rank": 593,
-    "Type": "consequuntur",
-    "ColorBlock": 557,
-    "IconHint": "ut",
+    "Id": 892,
+    "Name": "Thompson-Abbott",
+    "ToolTip": "Et ut odit et sunt alias.",
+    "Deleted": false,
+    "Rank": 555,
+    "Type": "in",
+    "ColorBlock": 112,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2006-06-04T16:55:31.0021898+02:00",
+    "LastChanged": "1998-10-27T10:30:33.178709+01:00",
     "ChildItems": [
       {
-        "Id": 257,
-        "Name": "Crona-Hirthe",
-        "ToolTip": "Culpa ut.",
+        "Id": 532,
+        "Name": "Gislason-Swaniawski",
+        "ToolTip": "Non delectus est libero est maxime.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "id",
-        "ColorBlock": 490,
-        "IconHint": "repellendus",
+        "Rank": 522,
+        "Type": "eos",
+        "ColorBlock": 652,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2007-01-10T16:55:31.0021898+01:00",
+        "LastChanged": "2009-02-27T10:30:33.178709+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "non",
+        "StyleHint": "unde",
         "Hidden": true,
-        "FullName": "Ms. Nels Stewart Conn I"
+        "FullName": "Raquel Ondricka MD"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "officia",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Meredith Welch"
+    "FullName": "Walter Graham"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Trantow-Strosin",
-    "ToolTip": "Odit voluptatem magnam quibusdam est possimus eum.",
+    "Id": 638,
+    "Name": "Koss, Reichel and Leannon",
+    "ToolTip": "Modi voluptatum molestiae ut vel tenetur.",
     "Deleted": false,
-    "Rank": 413,
+    "Rank": 395,
     "Type": "quia",
-    "ColorBlock": 716,
-    "IconHint": "blanditiis",
-    "Selected": true,
-    "LastChanged": "2000-01-09T16:55:31.0041872+01:00",
+    "ColorBlock": 56,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2015-05-10T10:30:33.178709+02:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Kuvalis LLC",
-        "ToolTip": "Totam voluptatum in ullam commodi maiores rem illo.",
-        "Deleted": true,
-        "Rank": 650,
-        "Type": "non",
-        "ColorBlock": 349,
-        "IconHint": "nulla",
+        "Id": 922,
+        "Name": "Gulgowski Group",
+        "ToolTip": "Officia ad.",
+        "Deleted": false,
+        "Rank": 945,
+        "Type": "molestias",
+        "ColorBlock": 895,
+        "IconHint": "sapiente",
         "Selected": true,
-        "LastChanged": "1997-03-03T16:55:31.0041872+01:00",
+        "LastChanged": "2002-11-25T10:30:33.178709+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "possimus",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "provident",
         "Hidden": true,
-        "FullName": "Mrs. Bruce Lemuel Mayer",
+        "FullName": "Ms. Aliza Funk DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 966
+            "FieldLength": 588
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Rashad Lynch",
+    "FullName": "Cyrus Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldLength": 938
       }
     }
   }

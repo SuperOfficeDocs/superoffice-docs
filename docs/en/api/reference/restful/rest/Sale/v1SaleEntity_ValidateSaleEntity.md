@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quam",
+  "SaleText": "expedita",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-02-27T16:55:30.1000412+01:00",
-  "Amount": 7813.062,
-  "SaleId": 882,
-  "Earning": 56.412,
-  "EarningPercent": 28121.381999999998,
-  "Heading": "vel",
-  "Number": "1314679",
-  "Probability": 32,
-  "CreatedDate": "1996-12-14T16:55:30.1000412+01:00",
-  "UpdatedDate": "2018-09-06T16:55:30.1000412+02:00",
+  "Saledate": "2002-01-04T10:30:32.4656327+01:00",
+  "Amount": 6054.888,
+  "SaleId": 38,
+  "Earning": 27281.469999999998,
+  "EarningPercent": 23852.874,
+  "Heading": "sit",
+  "Number": "1009475",
+  "Probability": 715,
+  "CreatedDate": "2000-05-19T10:30:32.4656327+02:00",
+  "UpdatedDate": "2008-08-17T10:30:32.4656327+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 750,
+  "ActiveLinks": 86,
   "Links": [
     {
-      "EntityName": "Gulgowski, Waelchi and Kirlin",
-      "Id": 658,
-      "Description": "Robust incremental portal",
-      "ExtraInfo": "explicabo",
-      "LinkId": 411
+      "EntityName": "Haley Group",
+      "Id": 304,
+      "Description": "Intuitive needs-based focus group",
+      "ExtraInfo": "ipsum",
+      "LinkId": 494
     },
     {
-      "EntityName": "Gulgowski, Waelchi and Kirlin",
-      "Id": 658,
-      "Description": "Robust incremental portal",
-      "ExtraInfo": "explicabo",
-      "LinkId": 411
+      "EntityName": "Haley Group",
+      "Id": 304,
+      "Description": "Intuitive needs-based focus group",
+      "ExtraInfo": "ipsum",
+      "LinkId": 494
     }
   ],
-  "NextDueDate": "2001-12-20T16:55:30.1000412+01:00",
-  "Postit": "quia",
+  "NextDueDate": "2000-06-30T10:30:32.4656327+02:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-04-10T16:55:30.1000412+02:00",
+  "ReopenDate": "1998-07-14T10:30:32.4656327+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Paucek, Donnelly and Berge",
-      "Comment": "repellat",
-      "StakeholderRoleId": 266,
-      "CountryId": 115,
-      "PersonId": 812,
-      "EmailDescription": "marshall@larsonconnelly.ca",
-      "EmailId": 31,
-      "EmailAddress": "elisha@heidenreich.biz",
-      "PhoneId": 854,
-      "ContactName": "Kuhlman, Wisoky and Okuneva",
-      "ContactId": 614,
-      "SaleId": 524,
-      "Mrmrs": "illo",
-      "Firstname": "Kieran",
-      "MiddleName": "Green Inc and Sons",
-      "Lastname": "Ortiz",
-      "SaleStakeholderId": 643,
-      "Rank": 629,
-      "Phone": "1-578-929-0023 x9554"
+      "StakeholderRoleName": "Rohan Inc and Sons",
+      "Comment": "et",
+      "StakeholderRoleId": 747,
+      "CountryId": 648,
+      "PersonId": 262,
+      "EmailDescription": "uriah@kris.co.uk",
+      "EmailId": 4,
+      "EmailAddress": "marques@kreiger.info",
+      "PhoneId": 755,
+      "ContactName": "Lueilwitz LLC",
+      "ContactId": 303,
+      "SaleId": 92,
+      "Mrmrs": "modi",
+      "Firstname": "Kevon",
+      "MiddleName": "Purdy-Jaskolski",
+      "Lastname": "Koelpin",
+      "SaleStakeholderId": 454,
+      "Rank": 434,
+      "Phone": "1-317-317-5838 x52671"
     }
   ],
-  "ActiveErpLinks": 382,
+  "ActiveErpLinks": 422,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Devyn Kovacek",
-    "SuperOffice:2": "Miss Clyde Little IV"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "vero"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "aut"
+    "CustomFields1": "sunt",
+    "CustomFields2": "sapiente"
   },
-  "PublishEventDate": "2002-12-03T16:55:30.1010394+01:00",
-  "PublishTo": "2007-02-09T16:55:30.1010394+01:00",
-  "PublishFrom": "2013-12-18T16:55:30.1010394+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-02-13T10:30:32.4656327+01:00",
+  "PublishTo": "2019-07-11T10:30:32.4656327+02:00",
+  "PublishFrom": "2007-10-13T10:30:32.4656327+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 929,
+      "VisibleId": 1000,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "quia"
     },
     {
-      "VisibleId": 929,
+      "VisibleId": 1000,
       "Visibility": "All",
-      "DisplayValue": "sunt"
+      "DisplayValue": "quia"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "inventore",
+  "1": "earum",
   "2": "qui"
 }
 ```

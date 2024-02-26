@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 781,
-  "PlainMessage": "quidem",
-  "HtmlMessage": "tempore",
-  "SmsMessage": "exercitationem",
-  "Description": "Re-engineered stable array",
-  "Subject": "quis",
-  "FolderId": 693,
-  "HeaderField": "doloremque",
-  "Design": "nihil",
+  "ShipmentMessageId": 988,
+  "PlainMessage": "totam",
+  "HtmlMessage": "optio",
+  "SmsMessage": "vitae",
+  "Description": "Public-key user-facing strategy",
+  "Subject": "fugit",
+  "FolderId": 536,
+  "HeaderField": "aut",
+  "Design": "rem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Open-architected systemic budgetary management",
-  "AccessKey": "recusandae",
-  "DocumentMessage": 846,
-  "Registered": "2021-12-28T16:55:30.1420215+01:00",
-  "RegisteredAssociateId": 733,
-  "Updated": "2019-02-16T16:55:30.1420215+01:00",
-  "UpdatedAssociateId": 971,
-  "UpdatedCount": 898,
+  "LongDescription": "Fully-configurable mobile pricing structure",
+  "AccessKey": "est",
+  "DocumentMessage": 235,
+  "Registered": "2004-01-20T10:30:32.5125031+01:00",
+  "RegisteredAssociateId": 216,
+  "Updated": "2011-02-12T10:30:32.5125031+01:00",
+  "UpdatedAssociateId": 950,
+  "UpdatedCount": 488,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldType": "System.Int32",
+      "FieldLength": 549
     }
   }
 }

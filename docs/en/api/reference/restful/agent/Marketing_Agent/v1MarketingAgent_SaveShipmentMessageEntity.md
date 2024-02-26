@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 388,
-  "PlainMessage": "odit",
-  "HtmlMessage": "eius",
-  "SmsMessage": "dolorem",
-  "Description": "Inverse multi-state workforce",
-  "Subject": "molestiae",
-  "FolderId": 351,
-  "HeaderField": "illo",
-  "Design": "occaecati",
+  "ShipmentMessageId": 793,
+  "PlainMessage": "at",
+  "HtmlMessage": "odio",
+  "SmsMessage": "repudiandae",
+  "Description": "Configurable scalable function",
+  "Subject": "quos",
+  "FolderId": 623,
+  "HeaderField": "vitae",
+  "Design": "omnis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Mandatory heuristic structure",
-  "AccessKey": "adipisci",
-  "DocumentMessage": 590,
-  "Registered": "2002-06-03T16:54:55.6489923+02:00",
-  "RegisteredAssociateId": 755,
-  "Updated": "2019-08-11T16:54:55.6489923+02:00",
-  "UpdatedAssociateId": 185,
-  "UpdatedCount": 622
+  "InlineImages": false,
+  "LongDescription": "Stand-alone actuating data-warehouse",
+  "AccessKey": "in",
+  "DocumentMessage": 568,
+  "Registered": "2017-11-23T10:30:24.1037706+01:00",
+  "RegisteredAssociateId": 309,
+  "Updated": "2012-07-16T10:30:24.1037706+02:00",
+  "UpdatedAssociateId": 157,
+  "UpdatedCount": 523
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 519,
-  "PlainMessage": "similique",
-  "HtmlMessage": "dolorum",
-  "SmsMessage": "pariatur",
-  "Description": "Polarised foreground encoding",
-  "Subject": "eligendi",
-  "FolderId": 699,
-  "HeaderField": "ex",
-  "Design": "qui",
+  "ShipmentMessageId": 743,
+  "PlainMessage": "nisi",
+  "HtmlMessage": "illo",
+  "SmsMessage": "velit",
+  "Description": "Fundamental holistic attitude",
+  "Subject": "fugit",
+  "FolderId": 835,
+  "HeaderField": "velit",
+  "Design": "amet",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Visionary 5th generation encryption",
-  "AccessKey": "dignissimos",
-  "DocumentMessage": 645,
-  "Registered": "2002-06-14T16:54:55.6499933+02:00",
-  "RegisteredAssociateId": 19,
-  "Updated": "2013-05-15T16:54:55.6499933+02:00",
-  "UpdatedAssociateId": 797,
-  "UpdatedCount": 685,
+  "InlineImages": false,
+  "LongDescription": "Configurable dedicated product",
+  "AccessKey": "accusamus",
+  "DocumentMessage": 570,
+  "Registered": "2007-09-07T10:30:24.1037706+02:00",
+  "RegisteredAssociateId": 52,
+  "Updated": "2001-10-07T10:30:24.1037706+02:00",
+  "UpdatedAssociateId": 901,
+  "UpdatedCount": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldType": "System.String",
+      "FieldLength": 836
     }
   }
 }

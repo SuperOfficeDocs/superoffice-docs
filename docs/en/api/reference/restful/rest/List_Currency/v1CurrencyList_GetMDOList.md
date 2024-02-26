@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=perspiciatis
+GET /api/v1/List/Currency/MDOItems?query=provident
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 198,
-    "Name": "Greenfelder-Kunze",
-    "ToolTip": "Earum consequatur ullam dicta animi tempore repellendus.",
+    "Id": 60,
+    "Name": "Breitenberg-Beer",
+    "ToolTip": "Et eos ratione eaque.",
     "Deleted": false,
-    "Rank": 34,
-    "Type": "non",
+    "Rank": 970,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Kub, Hodkiewicz and Hand",
-        "ToolTip": "Est tempora consequatur et.",
-        "Deleted": false,
-        "Rank": 738,
-        "Type": "enim",
+        "Id": 739,
+        "Name": "Cummings, Champlin and Wintheiser",
+        "ToolTip": "Est impedit ea a accusamus exercitationem accusamus.",
+        "Deleted": true,
+        "Rank": 226,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 771,
-        "ExtraInfo": "accusamus",
-        "StyleHint": "aspernatur",
-        "FullName": "Mr. Earl Price IV",
+        "IconHint": "dolores",
+        "ColorBlock": 170,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "perspiciatis",
+        "FullName": "Russell Swaniawski DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 896
+            "FieldLength": 261
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 157,
-    "ExtraInfo": "expedita",
-    "StyleHint": "autem",
-    "FullName": "Clementine Dietrich",
+    "IconHint": "mollitia",
+    "ColorBlock": 120,
+    "ExtraInfo": "non",
+    "StyleHint": "maxime",
+    "FullName": "Amely Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 796
+        "FieldType": "System.Int32",
+        "FieldLength": 276
       }
     }
   }

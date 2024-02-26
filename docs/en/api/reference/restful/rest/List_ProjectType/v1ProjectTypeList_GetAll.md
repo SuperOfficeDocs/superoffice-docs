@@ -25,7 +25,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=False
+GET /api/v1/List/ProjectType/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Nitzsche LLC",
-    "Tooltip": "velit",
+    "Id": 273,
+    "Name": "Zulauf Group",
+    "Tooltip": "vel",
     "Deleted": false,
-    "UdListDefinitionId": 634,
-    "Rank": 565,
+    "UdListDefinitionId": 126,
+    "Rank": 872,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldType": "System.String",
+        "FieldLength": 806
       }
     }
   }

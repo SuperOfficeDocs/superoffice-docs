@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 824
+  "ErpConnectorId": 504
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "illum",
-    "Rank": 532,
-    "DisplayName": "O'Kon, Mohr and Gibson",
-    "DisplayDescription": "Multi-channelled asynchronous website",
+    "FieldKey": "fuga",
+    "Rank": 1000,
+    "DisplayName": "Bashirian, Adams and Bradtke",
+    "DisplayDescription": "Customizable uniform definition",
     "FieldType": "Checkbox",
-    "ListName": "Herman, Considine and Reichert",
-    "DefaultValue": "molestiae",
-    "MaxLength": 762,
+    "ListName": "Kling-Tremblay",
+    "DefaultValue": "eaque",
+    "MaxLength": 119,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 559
       }
     }
   }

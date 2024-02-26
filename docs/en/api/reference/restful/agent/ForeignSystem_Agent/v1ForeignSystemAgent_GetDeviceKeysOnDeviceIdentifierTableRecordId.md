@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schiller Inc and Sons",
-  "DeviceName": "Effertz LLC",
-  "DeviceIdentifier": "non",
-  "TableName": "Franecki, Schoen and Schiller",
-  "RecordId": 665
+  "ApplicationName": "Boyle, Streich and Reichert",
+  "DeviceName": "Bernhard Inc and Sons",
+  "DeviceIdentifier": "praesentium",
+  "TableName": "Conn, Bogan and Hilpert",
+  "RecordId": 710
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ut",
-    "Value": "est",
-    "RecordId": 989,
-    "CreatedDate": "2004-05-23T16:54:55.4934647+02:00",
-    "UpdatedDate": "2016-07-11T16:54:55.4934647+02:00",
-    "UpdatedBy": "dolorum",
-    "CreatedBy": "commodi",
-    "TableName": "Strosin, Schiller and Bauch",
+    "Key": "vitae",
+    "Value": "blanditiis",
+    "RecordId": 313,
+    "CreatedDate": "2018-06-17T10:30:23.9261861+02:00",
+    "UpdatedDate": "2008-08-02T10:30:23.9261861+02:00",
+    "UpdatedBy": "qui",
+    "CreatedBy": "repellat",
+    "TableName": "Nitzsche, Runolfsson and Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldLength": 722
       }
     }
   }

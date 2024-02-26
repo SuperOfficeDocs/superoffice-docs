@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 768,
-    "Name": "Hane, Pfannerstill and Nitzsche",
-    "CurrencyId": 253,
-    "EnglishName": "Bergnaum LLC",
+    "CountryId": 347,
+    "Name": "Conn, Kemmer and Simonis",
+    "CurrencyId": 29,
+    "EnglishName": "Dibbert-Cole",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Managed demand-driven benchmark",
-    "OrgNrText": "302780",
-    "InterAreaPrefix": "placeat",
+    "ImageDescription": "Fundamental mobile benchmark",
+    "OrgNrText": "966933",
+    "InterAreaPrefix": "nihil",
     "DialInPrefix": "non",
-    "ZipPrefix": "facere",
-    "DomainName": "McClure, Abbott and Bogisich",
-    "AddressLayoutId": 308,
-    "DomesticAddressLayoutId": 424,
-    "ForeignAddressLayoutId": 928,
-    "Rank": 729,
-    "Tooltip": "aliquam",
+    "ZipPrefix": "rerum",
+    "DomainName": "Nicolas Inc and Sons",
+    "AddressLayoutId": 670,
+    "DomesticAddressLayoutId": 769,
+    "ForeignAddressLayoutId": 219,
+    "Rank": 813,
+    "Tooltip": "quia",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldType": "System.String",
+        "FieldLength": 397
       }
     }
   }

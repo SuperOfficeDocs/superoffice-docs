@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 311,
-  "Name": "Kreiger, Robel and Casper",
-  "Description": "Enterprise-wide intermediate firmware",
+  "ReportLabelLayoutId": 912,
+  "Name": "Greenfelder-Graham",
+  "Description": "Sharable tangible portal",
   "Orientation": "Landscape",
-  "PaperWidth": 631,
-  "PaperHeight": 477,
-  "LeftMargin": 551,
-  "RightMargin": 831,
-  "TopMargin": 104,
-  "BottomMargin": 654,
-  "CountColumns": 856,
-  "CountRows": 457,
+  "PaperWidth": 430,
+  "PaperHeight": 276,
+  "LeftMargin": 938,
+  "RightMargin": 790,
+  "TopMargin": 455,
+  "BottomMargin": 320,
+  "CountColumns": 75,
+  "CountRows": 71,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldLength": 868
     }
   }
 }

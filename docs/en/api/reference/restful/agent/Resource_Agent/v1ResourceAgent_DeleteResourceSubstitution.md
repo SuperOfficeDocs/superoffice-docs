@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Resource/DeleteResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Mertz Group",
-  "Culture": "est"
+  "ResourceName": "Koss, Grant and Hettinger",
+  "Culture": "a"
 }
 ```
 

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 584,
-    "Name": "Quigley Group",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 42,
-    "UdListDefinitionId": 550,
+    "HeadingId": 151,
+    "Name": "Halvorson-Watsica",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 984,
+    "UdListDefinitionId": 235,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 229
       }
     }
   }

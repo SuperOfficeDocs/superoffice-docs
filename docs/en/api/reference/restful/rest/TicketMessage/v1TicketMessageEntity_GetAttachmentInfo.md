@@ -56,6 +56,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -65,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 721,
-    "Name": "Beahan, Strosin and Heidenreich",
-    "ContentType": "aut",
-    "AttSize": 156,
-    "InlineImage": false,
-    "ContentId": "iure",
-    "AuthKey": "est",
+    "AttachmentId": 863,
+    "Name": "Thiel-Hane",
+    "ContentType": "id",
+    "AttSize": 772,
+    "InlineImage": true,
+    "ContentId": "et",
+    "AuthKey": "labore",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 290
       }
     }
   }

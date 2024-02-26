@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 179,
+  "DocumentId": 91,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eligendi",
-  "Header": "voluptatem",
-  "Name": "Lind LLC",
-  "OurRef": "consequatur",
-  "YourRef": "doloremque",
-  "CreatedDate": "2022-05-09T16:55:29.6204377+02:00",
-  "UpdatedDate": "2019-05-06T16:55:29.6204377+02:00",
-  "Description": "Synergistic foreground alliance",
+  "Attention": "laudantium",
+  "Header": "totam",
+  "Name": "Johnson-Emmerich",
+  "OurRef": "doloremque",
+  "YourRef": "eos",
+  "CreatedDate": "2019-06-03T10:30:32.0418021+02:00",
+  "UpdatedDate": "2023-01-29T10:30:32.0418021+01:00",
+  "Description": "Profit-focused directional throughput",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-09-04T16:55:29.6234571+02:00",
-  "ExternalRef": "enim",
+  "Date": "2002-07-10T10:30:32.0418021+02:00",
+  "ExternalRef": "dicta",
   "Completed": "Completed",
-  "ActiveLinks": 930,
+  "ActiveLinks": 70,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Howe Group",
-      "Id": 47,
-      "Description": "Proactive encompassing approach",
-      "ExtraInfo": "magnam",
-      "LinkId": 345
+      "EntityName": "Runolfsson Group",
+      "Id": 689,
+      "Description": "Horizontal radical conglomeration",
+      "ExtraInfo": "delectus",
+      "LinkId": 464
     },
     {
-      "EntityName": "Howe Group",
-      "Id": 47,
-      "Description": "Proactive encompassing approach",
-      "ExtraInfo": "magnam",
-      "LinkId": 345
+      "EntityName": "Runolfsson Group",
+      "Id": 689,
+      "Description": "Horizontal radical conglomeration",
+      "ExtraInfo": "delectus",
+      "LinkId": 464
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 302,
-  "Snum": 952,
+  "SuggestedDocumentId": 715,
+  "Snum": 735,
   "UserDefinedFields": {
-    "SuperOffice:1": "Hillary Ferry",
-    "SuperOffice:2": "256597312"
+    "SuperOffice:1": "Prof. Jake Chelsea Toy",
+    "SuperOffice:2": "Abbigail Anderson II"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "consectetur"
+    "CustomFields1": "iure",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2003-11-10T16:55:29.6244569+01:00",
-  "PublishTo": "2018-06-18T16:55:29.6244569+02:00",
-  "PublishFrom": "2021-11-03T16:55:29.6244569+01:00",
+  "PublishEventDate": "2006-07-27T10:30:32.0574265+02:00",
+  "PublishTo": "2014-05-01T10:30:32.0574265+02:00",
+  "PublishFrom": "2009-02-10T10:30:32.0574265+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 256,
+      "VisibleId": 999,
       "Visibility": "All",
-      "DisplayValue": "quos"
+      "DisplayValue": "quae"
     },
     {
-      "VisibleId": 256,
+      "VisibleId": 999,
       "Visibility": "All",
-      "DisplayValue": "quos"
+      "DisplayValue": "quae"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "id",
-  "2": "ut"
+  "1": "quasi",
+  "2": "sit"
 }
 ```

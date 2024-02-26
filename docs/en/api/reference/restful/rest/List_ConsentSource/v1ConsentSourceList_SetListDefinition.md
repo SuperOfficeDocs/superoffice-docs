@@ -84,18 +84,18 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "Name": "Wolf LLC",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 34,
-  "IsCustomList": true,
+  "Id": 386,
+  "Name": "Yost LLC",
+  "Tooltip": "debitis",
+  "Deleted": false,
+  "Rank": 560,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
+  "UseGroupsAndHeadings": false,
   "ListType": "commodi",
   "InUseByUserDefinedFields": false
 }
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "Name": "Boyle Inc and Sons",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 247,
-  "IsCustomList": true,
+  "Id": 960,
+  "Name": "Abbott Inc and Sons",
+  "Tooltip": "ab",
+  "Deleted": false,
+  "Rank": 920,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldLength": 418
     }
   }
 }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Adams, Rempel and Hintz",
-  "StorageKey": "quas",
-  "Restrictions": "necessitatibus",
-  "Context": "ex"
+  "StorageType": "omnis",
+  "ProviderName": "Durgan, Harris and Lang",
+  "StorageKey": "nihil",
+  "Restrictions": "consectetur",
+  "Context": "asperiores"
 }
 ```
 

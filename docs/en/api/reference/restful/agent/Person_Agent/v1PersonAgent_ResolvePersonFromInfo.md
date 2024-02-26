@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 467,
-  "PersonName": "Anderson, Wiegand and Hoppe",
+  "ContactId": 83,
+  "PersonName": "Eichmann Group",
   "PhoneNumbers": [
-    "762635",
-    "1180625"
+    "1357276",
+    "761936"
   ],
   "Emails": [
-    "faustino@walker.us",
-    "grant.herzog@smith.us"
+    "justine.price@balistreri.co.uk",
+    "floyd.considine@dickensboyer.ca"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldType": "System.Int32",
+      "FieldLength": 948
     }
   }
 }

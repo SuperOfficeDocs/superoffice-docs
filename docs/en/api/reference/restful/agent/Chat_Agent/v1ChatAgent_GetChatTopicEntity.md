@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=277
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=409
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 608,
-  "Name": "Russel-Cremin",
-  "Description": "Operative transitional contingency",
-  "WelcomeMessage": "ad",
+  "ChatTopicId": 332,
+  "Name": "Haley, Kling and Hettinger",
+  "Description": "Networked non-volatile utilisation",
+  "WelcomeMessage": "in",
   "Language": null,
-  "LastAccept": "2014-05-12T16:54:54.8612802+02:00",
-  "SecondsPrAccept": 927,
-  "AlertRecipient": "quaerat",
+  "LastAccept": "2021-06-26T10:30:23.2261925+02:00",
+  "SecondsPrAccept": 647,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "illo",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "est",
-  "WarnNewChatMinutes": 921,
-  "WarnManagerNewChatMinutes": 525,
-  "TicketEnabled": false,
+  "BadgeHeader": "ipsam",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 72,
+  "WarnManagerNewChatMinutes": 843,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 254,
-  "WarnManagerChatMessageMinutes": 250,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 628,
+  "WarnManagerChatMessageMinutes": 46,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 183,
-  "OfflineFormQueueLength": 728,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "dolores",
+  "OfflineFormTimeLimit": 273,
+  "OfflineFormQueueLength": 590,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldLength": 282
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Monahan Group",
-    "ToolTip": "Ab quibusdam nisi ipsum.",
+    "Id": 611,
+    "Name": "Rempel LLC",
+    "ToolTip": "Eos omnis labore cupiditate temporibus esse.",
     "Deleted": false,
-    "Rank": 810,
-    "Type": "eveniet",
-    "ColorBlock": 743,
-    "IconHint": "molestiae",
+    "Rank": 971,
+    "Type": "aut",
+    "ColorBlock": 935,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2000-10-12T16:55:30.6382151+02:00",
+    "LastChanged": "2004-01-04T10:30:32.9587082+01:00",
     "ChildItems": [
       {
-        "Id": 33,
-        "Name": "Brakus-Krajcik",
-        "ToolTip": "Velit quod reiciendis dolorem temporibus quis doloremque nostrum.",
+        "Id": 477,
+        "Name": "DuBuque-Keeling",
+        "ToolTip": "Deserunt aut rerum necessitatibus harum.",
         "Deleted": false,
-        "Rank": 383,
-        "Type": "perspiciatis",
-        "ColorBlock": 404,
-        "IconHint": "possimus",
+        "Rank": 573,
+        "Type": "aut",
+        "ColorBlock": 291,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2001-01-04T16:55:30.6382151+01:00",
+        "LastChanged": "2014-06-21T10:30:32.9587082+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "culpa",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Winifred DuBuque",
+        "FullName": "Mozell Orn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 59
+            "FieldLength": 610
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "quia",
+    "ExtraInfo": "saepe",
+    "StyleHint": "quas",
     "Hidden": true,
-    "FullName": "Ms. Elena Wuckert DDS",
+    "FullName": "Lolita Lemke I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

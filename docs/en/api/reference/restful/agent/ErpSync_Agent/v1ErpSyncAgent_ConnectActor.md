@@ -71,31 +71,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 250,
-  "CrmRecordId": 973,
+  "ErpConnectionId": 79,
+  "CrmRecordId": 805,
   "CrmActorType": "Contact",
-  "ErpKey": "culpa",
+  "ErpKey": "quisquam",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Herzog-Stanton",
-      "CrmFieldKey": "fuga",
-      "Value": "quidem",
-      "DisplayValue": "nam",
-      "SyncToCrm": false,
-      "SyncToErp": true
+      "DisplayName": "Powlowski-Hamill",
+      "CrmFieldKey": "distinctio",
+      "Value": "porro",
+      "DisplayValue": "non",
+      "SyncToCrm": true,
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Herzog-Stanton",
-      "CrmFieldKey": "fuga",
-      "Value": "quidem",
-      "DisplayValue": "nam",
-      "SyncToCrm": false,
-      "SyncToErp": true
+      "DisplayName": "Powlowski-Hamill",
+      "CrmFieldKey": "distinctio",
+      "Value": "porro",
+      "DisplayValue": "non",
+      "SyncToCrm": true,
+      "SyncToErp": false
     }
   ]
 }

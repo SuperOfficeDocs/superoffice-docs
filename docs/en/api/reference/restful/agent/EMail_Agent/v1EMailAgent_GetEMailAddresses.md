@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    911,
-    488
+    370,
+    613
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 942,
-    "ContactName": "Carroll Inc and Sons",
-    "PersonId": 615,
-    "PersonName": "Goldner Inc and Sons",
-    "AssociateId": 962,
-    "Address": "et",
-    "EmailId": 422,
+    "ContactId": 947,
+    "ContactName": "Ritchie, Haley and Zemlak",
+    "PersonId": 861,
+    "PersonName": "Harris Group",
+    "AssociateId": 53,
+    "Address": "non",
+    "EmailId": 356,
     "DuplicatePersonIds": [
-      182,
-      766
+      270,
+      419
     ],
-    "Name": "Rosenbaum, Roob and Armstrong",
+    "Name": "Reichel-VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 744
       }
     }
   }

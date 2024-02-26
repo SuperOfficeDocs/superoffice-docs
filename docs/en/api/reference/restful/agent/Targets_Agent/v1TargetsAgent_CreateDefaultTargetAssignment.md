@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 466,
+  "TargetAssignmentInfoId": 80,
   "Values": [
-    688,
-    765
+    26,
+    839
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 857,
-  "DimensionListItemDisplayName": "Hackett-Nienow",
+  "DimensionListItem": 894,
+  "DimensionListItemDisplayName": "Hoeger, Herzog and Beahan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 712
     }
   }
 }

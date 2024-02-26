@@ -89,11 +89,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 635,
+  "TargetYear": 22,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 615,
-  "DimensionId": 242
+  "Id": 123,
+  "DimensionId": 115
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 571,
+  "TargetAssignmentInfoId": 445,
   "Values": [
-    228,
-    963
+    365,
+    662
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 344,
-  "DimensionListItemDisplayName": "Runte, Mante and Tromp",
+  "DimensionListItem": 858,
+  "DimensionListItemDisplayName": "Koch-Torp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldType": "System.String",
+      "FieldLength": 351
     }
   }
 }

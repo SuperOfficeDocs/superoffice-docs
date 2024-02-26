@@ -468,6 +468,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -505,6 +506,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
+|request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -535,12 +537,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
 |request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
-|request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
-|request/createdBy/otherGroups|userGroup|Created by - Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
+|request/createdBy/otherGroups|userGroup|Created by - Other groups: Other groups|  |
 |request/createdBy/userName|string|Created by - User name: User name| x |
 |request/createdBy/personEmail|string|Created by - E-mail| x |
 |request/ownedBy/firstName|string|Owner - First name: Displays the contact's first name| x |
@@ -639,12 +641,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/projectAssociate/role|listAny|Role : Role| x |
 |projectMembers/projectAssociate/assocName|associate|User ID : User ID| x |
 |projectMembers/projectAssociate/assocTooltip|string|Description : Description|  |
-|projectMembers/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|projectMembers/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|projectMembers/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMembers/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |projectMembers/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |projectMembers/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -743,12 +745,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
 |personAppointment/appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |personAppointment/appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
-|personAppointment/appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
-|personAppointment/associate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
+|personAppointment/associate/firstName|string|First name: Displays the contact's first name| x |
 |personAppointment/associate/lastName|string|Last name: Displays the contact's last name| x |
 |personAppointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |personAppointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -788,7 +790,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personAddress/addressId,personTargetRelation/birthDay,restrictionAddress/wgs84longitude,request/ownedBy/usergroup,projectMembers/LastSale
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personEmail/emailLastBounce,personExtra/x_person_time,correspondingAssociate/role,streetAddress/addressId,contactUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

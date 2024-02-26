@@ -75,18 +75,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Upton, Renner and Haag",
+  "ProviderName": "Kohler Inc and Sons",
   "Restrictions": [
     {
-      "Name": "O'Kon-Moen",
-      "Operator": "et",
+      "Name": "Jones, Kassulke and Connelly",
+      "Operator": "praesentium",
       "Values": [
-        "fugit",
-        "ut"
+        "aspernatur",
+        "voluptas"
       ],
       "DisplayValues": [
-        "culpa",
-        "minima"
+        "iste",
+        "aliquid"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 150,
+      "InterParenthesis": 184,
       "InterOperator": "And",
-      "UniqueHash": 81
+      "UniqueHash": 744
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  688,
-  937
+  189,
+  473
 ]
 ```

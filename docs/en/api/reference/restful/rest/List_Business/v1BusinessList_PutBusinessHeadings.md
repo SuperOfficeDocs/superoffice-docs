@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 958,
-    "Name": "Cremin-Ullrich",
-    "Tooltip": "quis",
+    "HeadingId": 563,
+    "Name": "Barrows-Barrows",
+    "Tooltip": "earum",
     "Deleted": false,
-    "Rank": 103,
-    "UdListDefinitionId": 673
+    "Rank": 534,
+    "UdListDefinitionId": 11
   },
   {
-    "HeadingId": 958,
-    "Name": "Cremin-Ullrich",
-    "Tooltip": "quis",
+    "HeadingId": 563,
+    "Name": "Barrows-Barrows",
+    "Tooltip": "earum",
     "Deleted": false,
-    "Rank": 103,
-    "UdListDefinitionId": 673
+    "Rank": 534,
+    "UdListDefinitionId": 11
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 541,
-    "Name": "Upton, Veum and Jewess",
-    "Tooltip": "reprehenderit",
+    "HeadingId": 637,
+    "Name": "Lueilwitz LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 871,
-    "UdListDefinitionId": 219,
+    "Rank": 600,
+    "UdListDefinitionId": 81,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

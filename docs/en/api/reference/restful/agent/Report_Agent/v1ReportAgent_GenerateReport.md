@@ -77,32 +77,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 85,
-  "LabelLayoutId": 792,
-  "Filename": "voluptatibus",
-  "Language": "laborum",
-  "FileType": "culpa",
+  "ReportId": 71,
+  "LabelLayoutId": 36,
+  "Filename": "alias",
+  "Language": "ea",
+  "FileType": "non",
   "Restrictions": [
     {
-      "Name": "O'Conner Inc and Sons",
-      "Operator": "illum",
+      "Name": "Baumbach, Collier and Sawayn",
+      "Operator": "molestias",
       "Values": [
-        "facilis",
-        "est"
+        "ducimus",
+        "quis"
       ],
       "DisplayValues": [
-        "et",
-        "similique"
+        "ea",
+        "minus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 108,
+      "InterParenthesis": 978,
       "InterOperator": "And",
-      "UniqueHash": 496
+      "UniqueHash": 179
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vel"
+"quisquam"
 ```

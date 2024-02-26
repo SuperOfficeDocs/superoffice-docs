@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Prosacco-Treutel",
-  "DisplayName": "Christiansen, Cormier and Fritsch",
-  "Description": "Intuitive web-enabled intranet",
-  "ShortLabel": "tempora",
+  "FieldName": "Gorczany, Smitham and Kutch",
+  "DisplayName": "Schowalter, Kuhn and Schroeder",
+  "Description": "Mandatory local protocol",
+  "ShortLabel": "ullam",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
-  "Rank": 893,
-  "TemplateVariableName": "Buckridge Group"
+  "IsExternal": false,
+  "Rank": 97,
+  "TemplateVariableName": "Skiles-Collier"
 }
 ```

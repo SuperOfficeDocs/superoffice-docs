@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 210,
-  "Rank": 388,
-  "DefaultTask": 857,
-  "DefaultTaskText": "eos",
-  "IsVisual": true,
-  "LastGenerated": "1998-12-04T16:54:56.1959714+01:00",
-  "Description": "Reverse-engineered needs-based extranet",
-  "Name": "Lueilwitz Group",
-  "StatusMonitorId": 278,
-  "PictureId": 821,
+  "OwnerTable": 794,
+  "Rank": 328,
+  "DefaultTask": 643,
+  "DefaultTaskText": "debitis",
+  "IsVisual": false,
+  "LastGenerated": "2003-11-09T10:30:24.4815013+01:00",
+  "Description": "Profit-focused fresh-thinking pricing structure",
+  "Name": "Von-Kohler",
+  "StatusMonitorId": 707,
+  "PictureId": 406,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 424,
-  "NumNeedUpdate": 188,
-  "GenerationStart": "2018-10-13T16:54:56.1959714+02:00"
+  "Deleted": false,
+  "NumMatches": 939,
+  "NumNeedUpdate": 960,
+  "GenerationStart": "2015-11-03T10:30:24.4815013+01:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 702,
-  "Rank": 22,
-  "DefaultTask": 853,
-  "DefaultTaskText": "odit",
-  "IsVisual": true,
-  "LastGenerated": "2011-05-04T16:54:56.1959714+02:00",
-  "Description": "Balanced clear-thinking paradigm",
-  "Name": "Walter Inc and Sons",
-  "StatusMonitorId": 827,
-  "PictureId": 738,
+  "OwnerTable": 322,
+  "Rank": 643,
+  "DefaultTask": 848,
+  "DefaultTaskText": "ea",
+  "IsVisual": false,
+  "LastGenerated": "2013-05-07T10:30:24.4815013+02:00",
+  "Description": "Innovative intangible toolset",
+  "Name": "Corwin-Glover",
+  "StatusMonitorId": 599,
+  "PictureId": 9,
   "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 340,
-  "NumNeedUpdate": 338,
-  "GenerationStart": "2015-01-07T16:54:56.1959714+01:00",
+  "Deleted": false,
+  "NumMatches": 276,
+  "NumNeedUpdate": 30,
+  "GenerationStart": "2012-10-18T10:30:24.4815013+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 146
     }
   }
 }

@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et"
+  "ProgId": "assumenda"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 621,
-  "Name": "Altenwerth Group",
-  "Tooltip": "est",
-  "TableName": "D'Amore-Koss",
-  "Area": "est",
+  "TaskMenuId": 954,
+  "Name": "Bednar Group",
+  "Tooltip": "odio",
+  "TableName": "Gleason-Emmerich",
+  "Area": "ut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 141,
+  "CrmScriptId": 932,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 666,
+  "Rank": 30,
   "Encoding": "ANSI",
-  "ProgId": "et",
-  "Deleted": true,
+  "ProgId": "exercitationem",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

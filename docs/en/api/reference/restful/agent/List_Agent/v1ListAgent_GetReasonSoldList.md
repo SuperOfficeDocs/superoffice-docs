@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetReasonSoldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Value": "sint",
-    "Tooltip": "aperiam",
+    "Id": 649,
+    "Value": "autem",
+    "Tooltip": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 867
       }
     }
   },
   {
-    "Id": 773,
-    "Value": "sint",
-    "Tooltip": "aperiam",
+    "Id": 649,
+    "Value": "autem",
+    "Tooltip": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 867
       }
     }
   }

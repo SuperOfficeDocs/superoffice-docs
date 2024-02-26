@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 622
+  "DocumentId": 159
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 676,
-      "ContactName": "Bernier, Jast and Ryan",
-      "PersonId": 515,
-      "PersonName": "Smith-Ziemann",
-      "AssociateId": 29,
-      "Address": "in",
-      "EmailId": 974,
+      "ContactId": 763,
+      "ContactName": "Zboncak, Luettgen and Cummings",
+      "PersonId": 907,
+      "PersonName": "Corwin LLC",
+      "AssociateId": 360,
+      "Address": "quos",
+      "EmailId": 260,
       "DuplicatePersonIds": [
-        233,
-        228
+        66,
+        531
       ],
-      "Name": "Maggio-Abshire",
+      "Name": "Schumm-Metz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 318
+          "FieldType": "System.Int32",
+          "FieldLength": 774
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 618,
-      "ContactName": "Howe Group",
-      "PersonId": 697,
-      "PersonName": "Koepp, Schultz and Gorczany",
-      "AssociateId": 571,
-      "Address": "eveniet",
-      "EmailId": 523,
+      "ContactId": 494,
+      "ContactName": "Nader, Kovacek and Barton",
+      "PersonId": 76,
+      "PersonName": "Bogan Inc and Sons",
+      "AssociateId": 74,
+      "Address": "vel",
+      "EmailId": 631,
       "DuplicatePersonIds": [
-        140,
-        377
+        391,
+        982
       ],
-      "Name": "Beer Inc and Sons",
+      "Name": "Konopelski, Hayes and Price",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 143
+          "FieldType": "System.Int32",
+          "FieldLength": 387
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 292,
-      "ContactName": "Collier-Wilkinson",
-      "PersonId": 74,
-      "PersonName": "Leffler, Crooks and Schneider",
-      "AssociateId": 322,
-      "Address": "aut",
-      "EmailId": 893,
+      "ContactId": 471,
+      "ContactName": "Kutch-Leannon",
+      "PersonId": 557,
+      "PersonName": "Kuhn-Zulauf",
+      "AssociateId": 328,
+      "Address": "minus",
+      "EmailId": 351,
       "DuplicatePersonIds": [
-        248,
-        621
+        648,
+        47
       ],
-      "Name": "Berge-Heaney",
+      "Name": "Mueller-Goldner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 531
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     }
   ],
-  "Subject": "dolorem",
-  "HTMLBody": "ipsam",
+  "Subject": "perferendis",
+  "HTMLBody": "placeat",
   "From": null,
-  "Sent": "2006-01-02T16:54:55.3174197+01:00",
-  "Size": 547,
+  "Sent": "2012-10-19T10:30:23.7511796+02:00",
+  "Size": 340,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ducimus",
-  "PlainBody": "dignissimos",
+  "MessageID": "iste",
+  "PlainBody": "unde",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 975,
+  "ServerId": 150,
   "Attachments": [
     {
-      "Description": "Customer-focused systematic application",
-      "Filename": "voluptatum",
-      "Size": 733,
-      "Type": "eos",
-      "Encoding": "quis",
-      "Id": "in",
-      "Disposition": "quae",
+      "Description": "Seamless actuating concept",
+      "Filename": "delectus",
+      "Size": 328,
+      "Type": "voluptatem",
+      "Encoding": "omnis",
+      "Id": "modi",
+      "Disposition": "accusamus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 184
+          "FieldLength": 94
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schulist Group",
+      "Name": "Schroeder-Watsica",
       "Values": [
-        "est",
-        "quod"
+        "vero",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 215
         }
       }
     },
     {
-      "Name": "Schulist Group",
+      "Name": "Schroeder-Watsica",
       "Values": [
-        "est",
-        "quod"
+        "vero",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 215
         }
       }
     }
   ],
-  "FolderName": "Schoen, Dickinson and Emard",
-  "EmailItemId": 901,
-  "AccountId": 217,
-  "ReceivedAt": "2023-11-23T16:54:55.3174197+01:00",
+  "FolderName": "Bashirian Group",
+  "EmailItemId": 78,
+  "AccountId": 175,
+  "ReceivedAt": "2021-09-15T10:30:23.7511796+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-06-26T16:54:55.3184197+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2002-08-08T10:30:23.7511796+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 914
+      "FieldType": "System.Int32",
+      "FieldLength": 214
     }
   }
 }

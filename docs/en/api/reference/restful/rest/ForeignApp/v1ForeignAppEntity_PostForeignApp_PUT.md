@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 819,
-  "Name": "Ullrich Group",
-  "CreatedDate": "1998-08-24T16:55:29.6315304+02:00",
-  "UpdatedDate": "2018-10-26T16:55:29.6315304+02:00",
+  "ForeignAppId": 219,
+  "Name": "Terry-Schulist",
+  "CreatedDate": "2014-11-03T10:30:32.0574265+01:00",
+  "UpdatedDate": "2021-09-29T10:30:32.0574265+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 570,
-      "Name": "Powlowski, Bruen and Auer",
-      "CreatedDate": "2014-02-25T16:55:29.6325465+01:00",
-      "UpdatedDate": "2001-12-14T16:55:29.6325465+01:00",
-      "AssociateFullName": "Hayley Rosenbaum",
-      "CreatedBy": "iure",
-      "UpdatedBy": "repudiandae",
-      "DeviceIdentifier": "vel",
-      "ForeignAppId": 249,
+      "ForeignDeviceId": 62,
+      "Name": "Becker Inc and Sons",
+      "CreatedDate": "2010-08-12T10:30:32.0574265+02:00",
+      "UpdatedDate": "2020-05-10T10:30:32.0574265+02:00",
+      "AssociateFullName": "Dr. Palma Rey Cartwright",
+      "CreatedBy": "est",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 256,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 974
+          "FieldType": "System.Int32",
+          "FieldLength": 218
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 406
     }
   }
 }

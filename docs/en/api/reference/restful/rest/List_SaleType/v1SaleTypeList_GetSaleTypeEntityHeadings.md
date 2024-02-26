@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 491,
-    "Name": "Gerlach, Schultz and Ernser",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 898,
-    "UdListDefinitionId": 288,
+    "HeadingId": 841,
+    "Name": "Corkery Inc and Sons",
+    "Tooltip": "eaque",
+    "Deleted": false,
+    "Rank": 870,
+    "UdListDefinitionId": 355,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 278
       }
     }
   }

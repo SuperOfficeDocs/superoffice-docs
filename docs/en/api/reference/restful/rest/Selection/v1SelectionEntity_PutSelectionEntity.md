@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive human-resource migration",
-  "Postit": "cupiditate",
+  "Description": "Visionary regional service-desk",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 881,
-  "IncludePerson": 438,
-  "MemberCount": 737,
-  "Name": "Heidenreich, Bartell and Zemlak",
-  "PostitTextId": 829,
-  "CreatedDate": "2015-12-13T16:55:30.1250215+01:00",
-  "SelectionId": 444,
-  "SoundEx": "quos",
-  "Source": 64,
-  "TextId": 573,
-  "UpdatedDate": "2015-11-07T16:55:30.1260233+01:00",
-  "UpdatedCount": 86,
-  "Visibility": 975,
+  "GroupIdx": 801,
+  "IncludePerson": 178,
+  "MemberCount": 683,
+  "Name": "Marquardt, Barton and Lindgren",
+  "PostitTextId": 299,
+  "CreatedDate": "2021-05-03T10:30:32.4968779+02:00",
+  "SelectionId": 46,
+  "SoundEx": "est",
+  "Source": 664,
+  "TextId": 670,
+  "UpdatedDate": "2021-05-29T10:30:32.4968779+02:00",
+  "UpdatedCount": 775,
+  "Visibility": 661,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 541,
-  "TargetTableName": "Kreiger, Wyman and Hammes",
-  "Completed": true,
-  "LeftSelectionId": 76,
-  "RightSelectionId": 441,
+  "TargetTableNumber": 166,
+  "TargetTableName": "Skiles-Wunsch",
+  "Completed": false,
+  "LeftSelectionId": 307,
+  "RightSelectionId": 797,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rau, Cremin and Schaefer",
-  "ShadowProviderName": "Schinner Group",
-  "ChartKey": "et",
-  "LastLoaded": "2015-02-12T16:55:30.1260233+01:00",
-  "LastLoadedBy": 940,
+  "MainProviderName": "Schowalter, Mraz and Lemke",
+  "ShadowProviderName": "Olson Inc and Sons",
+  "ChartKey": "eum",
+  "LastLoaded": "2017-03-18T10:30:32.4968779+01:00",
+  "LastLoadedBy": 663,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-06-12T16:55:30.1260233+02:00",
-  "LastMembershipChangeBy": 510,
+  "LastMembershipChange": "2001-04-30T10:30:32.4968779+02:00",
+  "LastMembershipChangeBy": 611,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ullam",
-  "MemberTabHeading": "officia",
-  "MailingsProviderName": "Stehr Group",
-  "DashboardTileDefinitionId": 829,
+  "MainHeading": "soluta",
+  "MemberTabHeading": "saepe",
+  "MailingsProviderName": "Harber Group",
+  "DashboardTileDefinitionId": 530,
   "VisibleFor": [
     {
-      "VisibleId": 153,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "harum"
+      "DisplayValue": "amet"
     },
     {
-      "VisibleId": 153,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "harum"
+      "DisplayValue": "amet"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Progressive context-sensitive standardization",
-  "Postit": "iusto",
+  "Description": "Mandatory static firmware",
+  "Postit": "ex",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 681,
-  "IncludePerson": 633,
-  "MemberCount": 754,
-  "Name": "Feest, Skiles and Rempel",
-  "PostitTextId": 405,
-  "CreatedDate": "2002-09-02T16:55:30.1290443+02:00",
-  "SelectionId": 413,
-  "SoundEx": "at",
-  "Source": 775,
-  "TextId": 899,
-  "UpdatedDate": "2011-08-22T16:55:30.1290443+02:00",
-  "UpdatedCount": 407,
-  "Visibility": 619,
+  "GroupIdx": 862,
+  "IncludePerson": 378,
+  "MemberCount": 459,
+  "Name": "White Group",
+  "PostitTextId": 946,
+  "CreatedDate": "2008-05-18T10:30:32.4968779+02:00",
+  "SelectionId": 822,
+  "SoundEx": "blanditiis",
+  "Source": 348,
+  "TextId": 781,
+  "UpdatedDate": "2017-02-01T10:30:32.4968779+01:00",
+  "UpdatedCount": 878,
+  "Visibility": 786,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 43,
-  "TargetTableName": "Hyatt, Green and Botsford",
+  "TargetTableNumber": 250,
+  "TargetTableName": "Bednar Group",
   "Completed": false,
-  "LeftSelectionId": 201,
-  "RightSelectionId": 546,
+  "LeftSelectionId": 481,
+  "RightSelectionId": 104,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Luettgen Inc and Sons",
-  "ShadowProviderName": "Hane, Stark and Hegmann",
-  "ChartKey": "consectetur",
-  "LastLoaded": "2006-12-13T16:55:30.1290443+01:00",
-  "LastLoadedBy": 292,
+  "MainProviderName": "Beer, Cremin and Rohan",
+  "ShadowProviderName": "Heaney, Cummerata and Wolff",
+  "ChartKey": "eum",
+  "LastLoaded": "2009-08-03T10:30:32.4968779+02:00",
+  "LastLoadedBy": 731,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-05-13T16:55:30.1290443+02:00",
-  "LastMembershipChangeBy": 331,
+  "LastMembershipChange": "2019-12-18T10:30:32.4968779+01:00",
+  "LastMembershipChangeBy": 925,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consectetur",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Grant-Tromp",
-  "DashboardTileDefinitionId": 13,
+  "MainHeading": "sequi",
+  "MemberTabHeading": "facere",
+  "MailingsProviderName": "Lind, Abernathy and Weber",
+  "DashboardTileDefinitionId": 388,
   "VisibleFor": [
     {
-      "VisibleId": 586,
+      "VisibleId": 766,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 665
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     },
     {
-      "VisibleId": 586,
+      "VisibleId": 766,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 665
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     }
@@ -298,13 +298,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 568
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

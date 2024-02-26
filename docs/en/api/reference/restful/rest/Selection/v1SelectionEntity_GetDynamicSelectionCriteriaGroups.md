@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hickle-Jakubowski",
-    "Description": "Extended didactic info-mediaries",
-    "Rank": 128,
+    "Name": "Thompson Group",
+    "Description": "Multi-channelled real-time protocol",
+    "Rank": 151,
     "Restrictions": [
       {
-        "Name": "Kuphal, Ortiz and Cummerata",
-        "Operator": "rerum",
+        "Name": "Gottlieb-Gerlach",
+        "Operator": "sunt",
         "Values": [
-          "voluptatem",
-          "ut"
+          "odit",
+          "beatae"
         ],
         "DisplayValues": [
-          "qui",
-          "qui"
+          "cumque",
+          "nemo"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 146,
+        "InterParenthesis": 456,
         "InterOperator": "And",
-        "UniqueHash": 16
+        "UniqueHash": 236
       }
     ]
   },
   {
-    "Name": "Hickle-Jakubowski",
-    "Description": "Extended didactic info-mediaries",
-    "Rank": 128,
+    "Name": "Thompson Group",
+    "Description": "Multi-channelled real-time protocol",
+    "Rank": 151,
     "Restrictions": [
       {
-        "Name": "Kuphal, Ortiz and Cummerata",
-        "Operator": "rerum",
+        "Name": "Gottlieb-Gerlach",
+        "Operator": "sunt",
         "Values": [
-          "voluptatem",
-          "ut"
+          "odit",
+          "beatae"
         ],
         "DisplayValues": [
-          "qui",
-          "qui"
+          "cumque",
+          "nemo"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 146,
+        "InterParenthesis": 456,
         "InterOperator": "And",
-        "UniqueHash": 16
+        "UniqueHash": 236
       }
     ]
   }

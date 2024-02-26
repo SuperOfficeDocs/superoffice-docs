@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 632,
-    "Name": "Miller Inc and Sons",
-    "Tooltip": "laborum",
-    "Deleted": true,
-    "Rank": 47,
-    "UdListDefinitionId": 892
+    "HeadingId": 180,
+    "Name": "Cartwright, West and Daugherty",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 756,
+    "UdListDefinitionId": 219
   },
   {
-    "HeadingId": 632,
-    "Name": "Miller Inc and Sons",
-    "Tooltip": "laborum",
-    "Deleted": true,
-    "Rank": 47,
-    "UdListDefinitionId": 892
+    "HeadingId": 180,
+    "Name": "Cartwright, West and Daugherty",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 756,
+    "UdListDefinitionId": 219
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 94,
-    "Name": "Schuppe-Muller",
-    "Tooltip": "adipisci",
+    "HeadingId": 376,
+    "Name": "Luettgen, Stark and Schuppe",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 243,
-    "UdListDefinitionId": 695,
+    "Rank": 391,
+    "UdListDefinitionId": 85,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 593
+        "FieldType": "System.Int32",
+        "FieldLength": 468
       }
     }
   }

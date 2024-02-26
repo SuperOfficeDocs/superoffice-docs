@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 520,
-    "Name": "Rosenbaum LLC",
-    "Tooltip": "repellat",
+    "HeadingId": 197,
+    "Name": "McClure-Emmerich",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 1000,
-    "UdListDefinitionId": 222,
+    "Rank": 525,
+    "UdListDefinitionId": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 318
       }
     }
   }

@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 45,
-  "SourcePersonId": 656,
-  "DestinationContactId": 20,
-  "DestinationPersonId": 400,
-  "RelationId": 298,
-  "Comment": "maxime",
-  "RelationDefinitionId": 555,
-  "Reversed": 865,
-  "UpdatedDate": "2015-01-09T16:55:29.5158311+01:00",
-  "CreatedDate": "2011-05-27T16:55:29.5158311+02:00",
+  "SourceContactId": 557,
+  "SourcePersonId": 907,
+  "DestinationContactId": 618,
+  "DestinationPersonId": 676,
+  "RelationId": 638,
+  "Comment": "et",
+  "RelationDefinitionId": 648,
+  "Reversed": 921,
+  "UpdatedDate": "2020-11-23T10:30:31.9480569+01:00",
+  "CreatedDate": "2022-06-24T10:30:31.9480569+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Yundt, Hills and Lynch",
-  "SourcePersonName": "Fahey Inc and Sons",
-  "DestinationContactName": "Schinner, McGlynn and Considine",
-  "DestinationPersonName": "Nikolaus, Dooley and Barton",
-  "ActiveText": "qui",
-  "PassiveText": "omnis"
+  "SourceContactName": "Weimann-Kessler",
+  "SourcePersonName": "Lakin Group",
+  "DestinationContactName": "Pacocha, Farrell and Lakin",
+  "DestinationPersonName": "Nolan, Ward and Schmidt",
+  "ActiveText": "perferendis",
+  "PassiveText": "est"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 797,
-  "SourcePersonId": 143,
-  "DestinationContactId": 217,
-  "DestinationPersonId": 800,
-  "RelationId": 542,
-  "Comment": "a",
-  "RelationDefinitionId": 231,
-  "Reversed": 1002,
-  "UpdatedDate": "2005-07-22T16:55:29.5188308+02:00",
-  "CreatedDate": "2016-05-05T16:55:29.5188308+02:00",
+  "SourceContactId": 162,
+  "SourcePersonId": 544,
+  "DestinationContactId": 292,
+  "DestinationPersonId": 677,
+  "RelationId": 42,
+  "Comment": "inventore",
+  "RelationDefinitionId": 705,
+  "Reversed": 664,
+  "UpdatedDate": "1997-09-19T10:30:31.9480569+02:00",
+  "CreatedDate": "2010-05-22T10:30:31.9480569+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Davis, Kub and Heathcote",
-  "SourcePersonName": "Kozey, Johnson and Labadie",
-  "DestinationContactName": "Gaylord LLC",
-  "DestinationPersonName": "Spinka Group",
-  "ActiveText": "eveniet",
-  "PassiveText": "itaque",
+  "SourceContactName": "Boyer, Jaskolski and Roob",
+  "SourcePersonName": "Reichert Inc and Sons",
+  "DestinationContactName": "Larson-Feest",
+  "DestinationPersonName": "Spinka Inc and Sons",
+  "ActiveText": "sed",
+  "PassiveText": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 390
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

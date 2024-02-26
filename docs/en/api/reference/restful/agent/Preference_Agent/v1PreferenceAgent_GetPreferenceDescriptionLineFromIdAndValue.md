@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 835,
-  "PrefValue": "facere"
+  "PrefDescId": 842,
+  "PrefValue": "autem"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 622,
-  "PrefDescId": 216,
-  "PrefValue": "dolor",
-  "PrefShowValue": "molestias",
-  "Description": "Compatible optimizing array",
-  "IsBuiltin": true,
+  "PrefDescLineId": 180,
+  "PrefDescId": 345,
+  "PrefValue": "nesciunt",
+  "PrefShowValue": "unde",
+  "Description": "Proactive upward-trending portal",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 83
     }
   }
 }

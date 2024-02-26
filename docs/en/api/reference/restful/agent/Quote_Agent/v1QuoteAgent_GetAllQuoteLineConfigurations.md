@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 288,
-    "FieldName": "Brekke-Towne",
-    "Label": "eum",
-    "Tooltip": "sed",
+    "QuoteLineConfigurationId": 833,
+    "FieldName": "Ledner Group",
+    "Label": "ut",
+    "Tooltip": "eius",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 884,
-    "RestrictEdit": true,
+    "Rank": 441,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 323
       }
     }
   }

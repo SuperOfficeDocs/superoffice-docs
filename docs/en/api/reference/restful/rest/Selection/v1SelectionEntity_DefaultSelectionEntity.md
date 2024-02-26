@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 22 Sep 2002 16:55:30 G9T
+Last-Modified: Sat, 13 Nov 2021 10:30:32 G11T
 
 {
-  "Description": "Distributed empowering infrastructure",
-  "Postit": "dolores",
+  "Description": "Fully-configurable zero administration internet solution",
+  "Postit": "repellat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 844,
-  "IncludePerson": 184,
-  "MemberCount": 234,
-  "Name": "Rempel-Brown",
-  "PostitTextId": 528,
-  "CreatedDate": "1998-12-21T16:55:30.1120402+01:00",
-  "SelectionId": 445,
-  "SoundEx": "accusamus",
-  "Source": 41,
-  "TextId": 889,
-  "UpdatedDate": "2002-09-22T16:55:30.1120402+02:00",
-  "UpdatedCount": 897,
-  "Visibility": 349,
+  "GroupIdx": 791,
+  "IncludePerson": 266,
+  "MemberCount": 275,
+  "Name": "Yost, Schamberger and Quitzon",
+  "PostitTextId": 869,
+  "CreatedDate": "1997-04-26T10:30:32.4812531+02:00",
+  "SelectionId": 20,
+  "SoundEx": "omnis",
+  "Source": 619,
+  "TextId": 570,
+  "UpdatedDate": "2021-11-13T10:30:32.4812531+01:00",
+  "UpdatedCount": 839,
+  "Visibility": 272,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 605,
-  "TargetTableName": "Hartmann Group",
-  "Completed": true,
-  "LeftSelectionId": 213,
-  "RightSelectionId": 971,
+  "TargetTableNumber": 91,
+  "TargetTableName": "Green Group",
+  "Completed": false,
+  "LeftSelectionId": 57,
+  "RightSelectionId": 860,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Grady-Hansen",
-  "ShadowProviderName": "Brakus Inc and Sons",
-  "ChartKey": "dolores",
-  "LastLoaded": "1997-05-11T16:55:30.1120402+02:00",
-  "LastLoadedBy": 198,
+  "MainProviderName": "Homenick LLC",
+  "ShadowProviderName": "Hermann-Mayert",
+  "ChartKey": "omnis",
+  "LastLoaded": "2006-10-13T10:30:32.4812531+02:00",
+  "LastLoadedBy": 225,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-05-25T16:55:30.1120402+02:00",
-  "LastMembershipChangeBy": 895,
+  "LastMembershipChange": "2010-08-11T10:30:32.4812531+02:00",
+  "LastMembershipChangeBy": 482,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "labore",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Casper, Greenfelder and Lockman",
-  "DashboardTileDefinitionId": 214,
+  "MainHeading": "magnam",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Bashirian Group",
+  "DashboardTileDefinitionId": 634,
   "VisibleFor": [
     {
-      "VisibleId": 35,
+      "VisibleId": 489,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldLength": 26
         }
       }
     },
     {
-      "VisibleId": 35,
+      "VisibleId": 489,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldLength": 26
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Sun, 22 Sep 2002 16:55:30 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 975
     }
   }
 }

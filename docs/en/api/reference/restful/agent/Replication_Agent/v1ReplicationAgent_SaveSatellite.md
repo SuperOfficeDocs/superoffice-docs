@@ -83,17 +83,17 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 872,
-  "Created": "1998-03-15T16:54:56.1749705+01:00",
+  "SatelliteId": 515,
+  "Created": "2020-06-29T10:30:24.4502511+02:00",
   "CreatedBy": null,
-  "Updated": "2016-03-09T16:54:56.1749705+01:00",
+  "Updated": "2007-02-15T10:30:24.4658786+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Senger-Weber",
-      "Description": "Proactive optimizing collaboration",
+      "Name": "Weber-Rowe",
+      "Description": "Seamless incremental task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Senger-Weber",
-      "Description": "Proactive optimizing collaboration",
+      "Name": "Weber-Rowe",
+      "Description": "Seamless incremental task-force",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 884,
-  "Created": "2007-07-18T16:54:56.178977+02:00",
+  "SatelliteId": 95,
+  "Created": "2012-08-17T10:30:24.4658786+02:00",
   "CreatedBy": null,
-  "Updated": "1997-05-22T16:54:56.1799764+02:00",
+  "Updated": "1997-03-14T10:30:24.4658786+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Jast LLC",
-      "Description": "Phased multi-tasking framework",
+      "Name": "Kris, Hagenes and Doyle",
+      "Description": "Customer-focused responsive throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 959
+          "FieldLength": 896
         }
       }
     },
     {
-      "Name": "Jast LLC",
-      "Description": "Phased multi-tasking framework",
+      "Name": "Kris, Hagenes and Doyle",
+      "Description": "Customer-focused responsive throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 959
+          "FieldLength": 896
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Satterfield, Gulgowski and Hayes",
-    "Tooltip": "perspiciatis",
+    "Id": 895,
+    "Name": "Daugherty, Parisian and Wilderman",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 80,
-    "Rank": 5
+    "UdListDefinitionId": 124,
+    "Rank": 229
   },
   {
-    "Id": 690,
-    "Name": "Satterfield, Gulgowski and Hayes",
-    "Tooltip": "perspiciatis",
+    "Id": 895,
+    "Name": "Daugherty, Parisian and Wilderman",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 80,
-    "Rank": 5
+    "UdListDefinitionId": 124,
+    "Rank": 229
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Will, Carter and Lynch",
-    "Tooltip": "numquam",
+    "Id": 73,
+    "Name": "Wunsch-Brown",
+    "Tooltip": "eius",
     "Deleted": false,
-    "UdListDefinitionId": 468,
-    "Rank": 448,
+    "UdListDefinitionId": 153,
+    "Rank": 880,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldLength": 538
       }
     }
   }

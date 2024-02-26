@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 108,
-    "Name": "Schumm, Stiedemann and Ullrich",
-    "CurrencyId": 756,
-    "EnglishName": "Fadel-Reynolds",
+    "CountryId": 844,
+    "Name": "Lynch, Hahn and Christiansen",
+    "CurrencyId": 347,
+    "EnglishName": "Rolfson Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Adaptive needs-based encryption",
-    "OrgNrText": "367309",
-    "InterAreaPrefix": "qui",
-    "DialInPrefix": "et",
-    "ZipPrefix": "quis",
-    "DomainName": "Yost, Konopelski and Hamill",
-    "AddressLayoutId": 4,
-    "DomesticAddressLayoutId": 103,
-    "ForeignAddressLayoutId": 836,
-    "Rank": 89,
-    "Tooltip": "sit",
+    "ImageDescription": "Innovative web-enabled portal",
+    "OrgNrText": "1420457",
+    "InterAreaPrefix": "molestiae",
+    "DialInPrefix": "ab",
+    "ZipPrefix": "et",
+    "DomainName": "Stoltenberg Inc and Sons",
+    "AddressLayoutId": 540,
+    "DomesticAddressLayoutId": 525,
+    "ForeignAddressLayoutId": 710,
+    "Rank": 986,
+    "Tooltip": "magnam",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldType": "System.Int32",
+        "FieldLength": 914
       }
     }
   }

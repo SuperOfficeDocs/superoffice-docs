@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=dolorum
+GET /api/v1/List/Category/MDOItems?query=assumenda
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Gibson, Walsh and Herman",
-    "ToolTip": "Asperiores voluptatem illo asperiores.",
-    "Deleted": true,
-    "Rank": 690,
-    "Type": "corporis",
+    "Id": 77,
+    "Name": "Brown LLC",
+    "ToolTip": "Sed totam doloribus id.",
+    "Deleted": false,
+    "Rank": 192,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Braun-Reichel",
-        "ToolTip": "Optio voluptatum qui autem doloribus.",
-        "Deleted": false,
-        "Rank": 743,
-        "Type": "delectus",
+        "Id": 398,
+        "Name": "Block Group",
+        "ToolTip": "Tempora placeat sed est.",
+        "Deleted": true,
+        "Rank": 689,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "atque",
-        "ColorBlock": 395,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "ut",
-        "FullName": "Ms. Levi Wuckert",
+        "IconHint": "libero",
+        "ColorBlock": 4,
+        "ExtraInfo": "a",
+        "StyleHint": "excepturi",
+        "FullName": "Eino Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldLength": 956
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 540,
-    "ExtraInfo": "sint",
-    "StyleHint": "corrupti",
-    "FullName": "Toy Gottlieb",
+    "IconHint": "quas",
+    "ColorBlock": 337,
+    "ExtraInfo": "est",
+    "StyleHint": "dolorem",
+    "FullName": "Amelia Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

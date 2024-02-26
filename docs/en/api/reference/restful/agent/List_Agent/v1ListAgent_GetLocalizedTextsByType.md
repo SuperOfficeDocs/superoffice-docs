@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "qui",
-    "voluptas"
+    "distinctio",
+    "est"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 477,
-    "ResourceId": 45,
-    "Text": "expedita",
+    "LanguageId": 674,
+    "ResourceId": 371,
+    "Text": "quisquam",
     "Type": "Column",
-    "LocalizedTextId": 919,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 1001,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 906
       }
     }
   }

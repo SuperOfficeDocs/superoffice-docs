@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 420
+  "ProjectId": 112
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "eligendi",
-  "SignOffText": "sunt",
-  "SignOnConfirmationText": "enim",
-  "SignOnText": "consequatur",
-  "EventDate": "2015-05-31T16:54:56.0631407+02:00",
+  "SignOffConfirmationText": "voluptatem",
+  "SignOffText": "fugit",
+  "SignOnConfirmationText": "esse",
+  "SignOnText": "dolorem",
+  "EventDate": "2004-08-05T10:30:24.3549569+02:00",
   "Enabled": true,
-  "CreatedDate": "2008-07-28T16:54:56.0631407+02:00",
+  "CreatedDate": "2011-01-11T10:30:24.3549569+01:00",
   "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 642,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 5,
   "SignOffTriggersAssign": false,
-  "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 448,
+  "SignOn": false,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 336,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2010-11-11T16:54:56.0631407+01:00",
+  "UpdatedDate": "2000-07-29T10:30:24.3549569+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 709,
-  "Id": 177,
-  "PublishFrom": "2022-07-02T16:54:56.0631407+02:00",
+  "ProjectId": 396,
+  "Id": 70,
+  "PublishFrom": "2002-03-08T10:30:24.3549569+01:00",
   "PublishType": "External",
-  "PublishTo": "2018-11-07T16:54:56.0631407+01:00",
+  "PublishTo": "2008-03-22T10:30:24.3549569+01:00",
   "VisibleForCategories": [
     {
-      "Id": 740,
-      "Name": "Bayer Group",
-      "ToolTip": "Iure et consequuntur.",
+      "Id": 415,
+      "Name": "Berge LLC",
+      "ToolTip": "Minima consequatur est.",
       "Deleted": true,
-      "Rank": 853,
-      "Type": "in",
+      "Rank": 428,
+      "Type": "harum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "deserunt",
-      "ColorBlock": 571,
-      "ExtraInfo": "quae",
-      "StyleHint": "doloribus",
-      "FullName": "Pat Susana Bergstrom MD",
+      "IconHint": "error",
+      "ColorBlock": 586,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "cum",
+      "FullName": "Burdette Weimann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldType": "System.Int32",
+          "FieldLength": 422
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 488,
-      "Name": "Grant Group",
-      "ToolTip": "Qui ipsa accusamus.",
-      "Deleted": true,
-      "Rank": 587,
-      "Type": "ut",
+      "Id": 463,
+      "Name": "Monahan-Volkman",
+      "ToolTip": "Enim sunt voluptatem omnis rerum et voluptatem.",
+      "Deleted": false,
+      "Rank": 26,
+      "Type": "repellat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "atque",
-      "ColorBlock": 744,
-      "ExtraInfo": "repellat",
-      "StyleHint": "distinctio",
-      "FullName": "Dr. Elvis Elna Kozey",
+      "IconHint": "ut",
+      "ColorBlock": 260,
+      "ExtraInfo": "et",
+      "StyleHint": "corrupti",
+      "FullName": "Adam Casper",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 658
+          "FieldType": "System.Int32",
+          "FieldLength": 903
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 428,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 313,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 336
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

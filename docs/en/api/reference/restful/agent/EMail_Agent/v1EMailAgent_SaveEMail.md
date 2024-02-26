@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 714,
-      "ContactName": "Marquardt-Reichel",
-      "PersonId": 663,
-      "PersonName": "Blick, Welch and Wyman",
-      "AssociateId": 359,
-      "Address": "omnis",
-      "EmailId": 372,
+      "ContactId": 81,
+      "ContactName": "Hegmann-Konopelski",
+      "PersonId": 579,
+      "PersonName": "Ortiz, Crona and White",
+      "AssociateId": 369,
+      "Address": "a",
+      "EmailId": 403,
       "DuplicatePersonIds": [
-        692,
-        219
+        63,
+        160
       ],
-      "Name": "Jaskolski-Prosacco",
+      "Name": "Parker, Purdy and Hermann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldType": "System.Int32",
+          "FieldLength": 638
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 813,
-      "ContactName": "Greenholt-Blick",
-      "PersonId": 144,
-      "PersonName": "Jacobi, Nikolaus and Krajcik",
-      "AssociateId": 157,
-      "Address": "ut",
-      "EmailId": 913,
+      "ContactId": 485,
+      "ContactName": "Casper-Lynch",
+      "PersonId": 527,
+      "PersonName": "Gibson, Von and Harber",
+      "AssociateId": 253,
+      "Address": "vero",
+      "EmailId": 28,
       "DuplicatePersonIds": [
-        467,
-        358
+        909,
+        614
       ],
-      "Name": "Mertz Inc and Sons",
+      "Name": "Quitzon Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 472
+          "FieldType": "System.Int32",
+          "FieldLength": 847
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 783,
-      "ContactName": "Schimmel-Jenkins",
-      "PersonId": 70,
-      "PersonName": "Okuneva Group",
-      "AssociateId": 844,
-      "Address": "iusto",
-      "EmailId": 399,
+      "ContactId": 997,
+      "ContactName": "Jacobson, Spencer and Greenfelder",
+      "PersonId": 939,
+      "PersonName": "Morissette, Hettinger and Towne",
+      "AssociateId": 972,
+      "Address": "sapiente",
+      "EmailId": 230,
       "DuplicatePersonIds": [
-        264,
-        87
+        402,
+        905
       ],
-      "Name": "Adams-Schumm",
+      "Name": "Bogisich-Bradtke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldType": "System.String",
+          "FieldLength": 520
         }
       }
     }
   ],
-  "Subject": "culpa",
-  "HTMLBody": "recusandae",
+  "Subject": "alias",
+  "HTMLBody": "commodi",
   "From": null,
-  "Sent": "2000-06-16T16:54:55.3709476+02:00",
-  "Size": 556,
+  "Sent": "2016-09-15T10:30:23.798054+02:00",
+  "Size": 41,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "exercitationem",
-  "PlainBody": "id",
+  "MessageID": "omnis",
+  "PlainBody": "omnis",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 331,
+  "ServerId": 554,
   "Attachments": [
     {
-      "Description": "Multi-tiered tangible interface",
-      "Filename": "reiciendis",
-      "Size": 147,
-      "Type": "doloremque",
-      "Encoding": "quia",
-      "Id": "voluptate",
-      "Disposition": "blanditiis",
+      "Description": "Self-enabling background productivity",
+      "Filename": "tempore",
+      "Size": 979,
+      "Type": "impedit",
+      "Encoding": "quas",
+      "Id": "maxime",
+      "Disposition": "libero",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 56
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schuppe-Dare",
+      "Name": "Wisozk, West and Hermiston",
       "Values": [
-        "est",
-        "deserunt"
+        "nemo",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 769
         }
       }
     },
     {
-      "Name": "Schuppe-Dare",
+      "Name": "Wisozk, West and Hermiston",
       "Values": [
-        "est",
-        "deserunt"
+        "nemo",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 769
         }
       }
     }
   ],
-  "FolderName": "Langworth, Jaskolski and Nikolaus",
-  "EmailItemId": 944,
-  "AccountId": 486,
-  "ReceivedAt": "1997-08-15T16:54:55.3719479+02:00",
+  "FolderName": "Monahan-Gleichner",
+  "EmailItemId": 878,
+  "AccountId": 361,
+  "ReceivedAt": "2004-11-18T10:30:23.798054+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-03-02T16:54:55.3719479+01:00",
+  "RepliedAt": "1999-02-11T10:30:23.798054+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 830
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

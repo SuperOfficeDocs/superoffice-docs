@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 295,
-  "TargetDimensionId": 255
+  "Year": 767,
+  "TargetDimensionId": 369
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 873,
+    "TargetAssignmentInfoId": 47,
     "Values": [
-      883,
-      748
+      518,
+      125
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 950,
-    "DimensionListItemDisplayName": "Sporer, Harvey and Von",
+    "DimensionListItem": 765,
+    "DimensionListItemDisplayName": "Friesen Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   }

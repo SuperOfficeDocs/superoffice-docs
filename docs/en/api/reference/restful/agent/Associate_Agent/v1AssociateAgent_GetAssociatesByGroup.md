@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 348,
-  "Type": 176
+  "GroupId": 821,
+  "Type": 270
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 50,
-    "Name": "Hodkiewicz-Gerlach",
-    "PersonId": 896,
-    "Rank": 269,
-    "Tooltip": "quos",
+    "AssociateId": 948,
+    "Name": "Hahn-Bode",
+    "PersonId": 858,
+    "Rank": 512,
+    "Tooltip": "autem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 671,
-    "FullName": "Miss Frank Windler DVM",
-    "FormalName": "Hoppe, Swaniawski and Braun",
+    "GroupIdx": 700,
+    "FullName": "Izabella Kaley Halvorson V",
+    "FormalName": "Little, Raynor and Bednar",
     "Deleted": false,
-    "EjUserId": 602,
-    "UserName": "Renner LLC",
+    "EjUserId": 742,
+    "UserName": "Rath, O'Conner and Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   }

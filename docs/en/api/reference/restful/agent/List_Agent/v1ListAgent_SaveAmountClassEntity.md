@@ -81,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 483,
-  "Name": "Conroy-Bernier",
-  "Tooltip": "odio",
-  "Rank": 926,
-  "AmountFrom": 27215.656,
-  "AmountTo": 25429.275999999998,
+  "AmountClassId": 962,
+  "Name": "Rosenbaum-Russel",
+  "Tooltip": "consequuntur",
+  "Rank": 713,
+  "AmountFrom": 11796.376,
+  "AmountTo": 14513.554,
   "Deleted": false,
-  "CurrencyId": 540
+  "CurrencyId": 500
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 934,
-  "Name": "Davis, Koelpin and Sauer",
-  "Tooltip": "nihil",
-  "Rank": 678,
-  "AmountFrom": 6452.906,
-  "AmountTo": 30594.108,
+  "AmountClassId": 478,
+  "Name": "Ward, Schamberger and Mraz",
+  "Tooltip": "ab",
+  "Rank": 269,
+  "AmountFrom": 2090.378,
+  "AmountTo": 22824.922,
   "Deleted": false,
-  "CurrencyId": 138,
+  "CurrencyId": 364,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

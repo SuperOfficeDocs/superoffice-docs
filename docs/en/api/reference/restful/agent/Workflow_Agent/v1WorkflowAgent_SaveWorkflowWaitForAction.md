@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 784,
-  "WorkflowStepId": 538,
-  "WorkflowId": 566,
-  "Rank": 19,
+  "WorkflowWaitForActionId": 64,
+  "WorkflowStepId": 263,
+  "WorkflowId": 974,
+  "Rank": 532,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Reichel-Kerluke",
-      "Description": "De-engineered upward-trending standardization",
-      "Rank": 575,
+      "Name": "Douglas Group",
+      "Description": "Triple-buffered context-sensitive methodology",
+      "Rank": 485,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Reichel-Kerluke",
-      "Description": "De-engineered upward-trending standardization",
-      "Rank": 575,
+      "Name": "Douglas Group",
+      "Description": "Triple-buffered context-sensitive methodology",
+      "Rank": 485,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 686,
-  "WorkflowStepId": 526,
-  "WorkflowId": 781,
-  "Rank": 431,
+  "WorkflowWaitForActionId": 389,
+  "WorkflowStepId": 60,
+  "WorkflowId": 608,
+  "Rank": 878,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Larson-Bailey",
-      "Description": "Object-based uniform workforce",
-      "Rank": 478,
+      "Name": "Mante Inc and Sons",
+      "Description": "Distributed interactive definition",
+      "Rank": 398,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Larson-Bailey",
-      "Description": "Object-based uniform workforce",
-      "Rank": 478,
+      "Name": "Mante Inc and Sons",
+      "Description": "Distributed interactive definition",
+      "Rank": 398,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldType": "System.Int32",
+      "FieldLength": 667
     }
   }
 }

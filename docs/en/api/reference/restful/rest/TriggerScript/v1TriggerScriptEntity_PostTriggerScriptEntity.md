@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 615,
-  "Name": "Walter-Bergstrom",
+  "ScreenChooserId": 785,
+  "Name": "Langworth, Quigley and Roob",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "deserunt",
-  "Source": "et",
-  "Registered": "2015-03-27T16:55:30.312817+01:00",
-  "RegisteredAssociateId": 417,
-  "Updated": "2005-01-25T16:55:30.312817+01:00",
-  "UpdatedAssociateId": 210
+  "Enabled": false,
+  "UniqueIdentifier": "expedita",
+  "Source": "qui",
+  "Registered": "1999-01-01T10:30:32.6543487+01:00",
+  "RegisteredAssociateId": 909,
+  "Updated": "2017-11-01T10:30:32.6543487+01:00",
+  "UpdatedAssociateId": 343
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 462,
-  "Name": "Cole Inc and Sons",
+  "ScreenChooserId": 911,
+  "Name": "Goyette-Nolan",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "nulla",
-  "Source": "expedita",
-  "Registered": "2019-12-27T16:55:30.312817+01:00",
-  "RegisteredAssociateId": 736,
-  "Updated": "2006-12-25T16:55:30.312817+01:00",
-  "UpdatedAssociateId": 70,
+  "Enabled": false,
+  "UniqueIdentifier": "voluptas",
+  "Source": "eum",
+  "Registered": "2020-03-01T10:30:32.6543487+01:00",
+  "RegisteredAssociateId": 9,
+  "Updated": "2013-01-24T10:30:32.6543487+01:00",
+  "UpdatedAssociateId": 515,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldType": "System.Int32",
+      "FieldLength": 345
     }
   },
   "_Links": {

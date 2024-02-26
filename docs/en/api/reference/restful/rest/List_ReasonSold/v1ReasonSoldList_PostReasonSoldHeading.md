@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 596,
-  "Name": "Stracke, Ondricka and Gerlach",
-  "Tooltip": "inventore",
+  "HeadingId": 715,
+  "Name": "Harris-Kunze",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 570,
-  "UdListDefinitionId": 453
+  "Rank": 525,
+  "UdListDefinitionId": 674
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 928,
-  "Name": "Leannon-Abbott",
-  "Tooltip": "voluptas",
+  "HeadingId": 660,
+  "Name": "Gottlieb Group",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 12,
-  "UdListDefinitionId": 570,
+  "Rank": 953,
+  "UdListDefinitionId": 170,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 91
     }
   }
 }

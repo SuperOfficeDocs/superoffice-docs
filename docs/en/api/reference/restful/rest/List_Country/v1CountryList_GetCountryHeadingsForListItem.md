@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Blanda, Harris and Wolf",
-    "ToolTip": "Quia iusto id non possimus quia.",
-    "Deleted": true,
-    "Rank": 874,
-    "Type": "voluptas",
-    "ColorBlock": 810,
-    "IconHint": "et",
+    "Id": 380,
+    "Name": "Gleichner LLC",
+    "ToolTip": "Libero cupiditate necessitatibus et qui.",
+    "Deleted": false,
+    "Rank": 666,
+    "Type": "cum",
+    "ColorBlock": 398,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2009-12-10T16:55:30.6082351+01:00",
+    "LastChanged": "2016-02-01T10:30:32.9274257+01:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Bartell-Bosco",
-        "ToolTip": "Aut cupiditate sunt dignissimos.",
+        "Id": 833,
+        "Name": "Lindgren-Fahey",
+        "ToolTip": "Reiciendis est.",
         "Deleted": false,
-        "Rank": 324,
-        "Type": "quia",
-        "ColorBlock": 321,
-        "IconHint": "eos",
+        "Rank": 192,
+        "Type": "et",
+        "ColorBlock": 367,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2001-12-05T16:55:30.6082351+01:00",
+        "LastChanged": "2005-11-06T10:30:32.9274257+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Mr. Rhiannon Marques Roob",
+        "ExtraInfo": "sed",
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Michele Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 964
+            "FieldLength": 864
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "optio",
-    "Hidden": true,
-    "FullName": "Mrs. Sheila Kerluke DVM",
+    "ExtraInfo": "harum",
+    "StyleHint": "nulla",
+    "Hidden": false,
+    "FullName": "Dashawn Ima Ward III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldLength": 433
       }
     }
   }

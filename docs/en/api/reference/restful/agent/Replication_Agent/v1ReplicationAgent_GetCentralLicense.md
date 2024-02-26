@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gerlach, Witting and Bode",
-    "Description": "Visionary content-based archive",
+    "Name": "Kertzmann, Osinski and Pacocha",
+    "Description": "Cross-group zero tolerance superstructure",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 537,
-        "Tooltip": "ullam",
+        "Total": 320,
+        "Tooltip": "animi",
         "CanAssign": false,
-        "Free": 810,
-        "InUse": 296,
+        "Free": 31,
+        "InUse": 198,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 515,
-        "Name": "Collier Inc and Sons",
-        "Description": "Implemented optimal attitude",
-        "PrerequisiteModuleName": "Funk-Kertzmann",
-        "SortOrder": 416,
-        "ExtraFlags": 461,
+        "Assigned": false,
+        "ModuleLicenseId": 293,
+        "Name": "Mann-Bergstrom",
+        "Description": "Customer-focused systemic focus group",
+        "PrerequisiteModuleName": "Lubowitz, Bednar and Murray",
+        "SortOrder": 16,
+        "ExtraFlags": 918,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 651
+            "FieldLength": 583
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 255,
-        "Tooltip": "ut",
+        "Unrestricted": true,
+        "Total": 319,
+        "Tooltip": "modi",
         "CanAssign": false,
-        "Free": 317,
-        "InUse": 579,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 686,
-        "Name": "Collins Group",
-        "Description": "Sharable multimedia middleware",
-        "PrerequisiteModuleName": "Predovic, Pouros and Morissette",
-        "SortOrder": 626,
-        "ExtraFlags": 542,
+        "Free": 843,
+        "InUse": 207,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 679,
+        "Name": "Klocko, Lynch and Heathcote",
+        "Description": "Ameliorated 24 hour customer loyalty",
+        "PrerequisiteModuleName": "Prosacco, Kertzmann and Braun",
+        "SortOrder": 948,
+        "ExtraFlags": 644,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldLength": 497
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldLength": 551
       }
     }
   },
   {
-    "Name": "Gerlach, Witting and Bode",
-    "Description": "Visionary content-based archive",
+    "Name": "Kertzmann, Osinski and Pacocha",
+    "Description": "Cross-group zero tolerance superstructure",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 537,
-        "Tooltip": "ullam",
+        "Total": 320,
+        "Tooltip": "animi",
         "CanAssign": false,
-        "Free": 810,
-        "InUse": 296,
+        "Free": 31,
+        "InUse": 198,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 515,
-        "Name": "Collier Inc and Sons",
-        "Description": "Implemented optimal attitude",
-        "PrerequisiteModuleName": "Funk-Kertzmann",
-        "SortOrder": 416,
-        "ExtraFlags": 461,
+        "Assigned": false,
+        "ModuleLicenseId": 293,
+        "Name": "Mann-Bergstrom",
+        "Description": "Customer-focused systemic focus group",
+        "PrerequisiteModuleName": "Lubowitz, Bednar and Murray",
+        "SortOrder": 16,
+        "ExtraFlags": 918,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 651
+            "FieldLength": 583
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 255,
-        "Tooltip": "ut",
+        "Unrestricted": true,
+        "Total": 319,
+        "Tooltip": "modi",
         "CanAssign": false,
-        "Free": 317,
-        "InUse": 579,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 686,
-        "Name": "Collins Group",
-        "Description": "Sharable multimedia middleware",
-        "PrerequisiteModuleName": "Predovic, Pouros and Morissette",
-        "SortOrder": 626,
-        "ExtraFlags": 542,
+        "Free": 843,
+        "InUse": 207,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 679,
+        "Name": "Klocko, Lynch and Heathcote",
+        "Description": "Ameliorated 24 hour customer loyalty",
+        "PrerequisiteModuleName": "Prosacco, Kertzmann and Braun",
+        "SortOrder": 948,
+        "ExtraFlags": 644,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldLength": 497
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldLength": 551
       }
     }
   }

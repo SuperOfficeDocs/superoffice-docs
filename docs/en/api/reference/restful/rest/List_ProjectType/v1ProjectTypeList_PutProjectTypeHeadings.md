@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 736,
-    "Name": "Sawayn LLC",
-    "Tooltip": "rerum",
+    "HeadingId": 572,
+    "Name": "Ernser, Mayer and Kunze",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 563
+    "Rank": 451,
+    "UdListDefinitionId": 537
   },
   {
-    "HeadingId": 736,
-    "Name": "Sawayn LLC",
-    "Tooltip": "rerum",
+    "HeadingId": 572,
+    "Name": "Ernser, Mayer and Kunze",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 563
+    "Rank": 451,
+    "UdListDefinitionId": 537
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 797,
-    "Name": "Rice-Schmitt",
-    "Tooltip": "iusto",
+    "HeadingId": 832,
+    "Name": "Legros LLC",
+    "Tooltip": "ex",
     "Deleted": false,
-    "Rank": 842,
-    "UdListDefinitionId": 302,
+    "Rank": 649,
+    "UdListDefinitionId": 755,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 942
+        "FieldType": "System.Int32",
+        "FieldLength": 545
       }
     }
   }

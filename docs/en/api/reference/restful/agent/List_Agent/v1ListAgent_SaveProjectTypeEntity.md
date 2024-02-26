@@ -85,35 +85,35 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 252,
-  "Name": "Mills Inc and Sons",
-  "Tooltip": "recusandae",
-  "Rank": 237,
+  "ProjTypeId": 102,
+  "Name": "Grady Inc and Sons",
+  "Tooltip": "sit",
+  "Rank": 715,
   "DurationUnit": "Century",
-  "ProjectDuration": 914,
-  "Deleted": false,
+  "ProjectDuration": 224,
+  "Deleted": true,
   "HasGuide": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 516,
-      "Name": "Wehner, Fisher and Emmerich",
-      "ToolTip": "Voluptatem voluptatem.",
-      "Deleted": true,
-      "Rank": 922,
-      "Type": "ut",
-      "ColorBlock": 258,
-      "IconHint": "sint",
+      "Id": 74,
+      "Name": "Romaguera, Corwin and Schowalter",
+      "ToolTip": "Molestiae ut eaque.",
+      "Deleted": false,
+      "Rank": 276,
+      "Type": "mollitia",
+      "ColorBlock": 122,
+      "IconHint": "perferendis",
       "Selected": false,
-      "LastChanged": "2019-04-02T16:54:55.6229847+02:00",
+      "LastChanged": "2022-06-23T10:30:24.0725232+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "sed",
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "id",
       "Hidden": false,
-      "FullName": "Ethyl Kertzmann"
+      "FullName": "Monique Stehr"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 768,
-  "Name": "Raynor-Ankunding",
-  "Tooltip": "corporis",
-  "Rank": 232,
+  "ProjTypeId": 370,
+  "Name": "Cartwright-Weimann",
+  "Tooltip": "nobis",
+  "Rank": 536,
   "DurationUnit": "Century",
-  "ProjectDuration": 342,
-  "Deleted": false,
-  "HasGuide": false,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 662,
+  "Deleted": true,
+  "HasGuide": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 946,
-      "Name": "Schmidt Group",
-      "ToolTip": "Sunt porro vitae.",
-      "Deleted": true,
-      "Rank": 215,
-      "Type": "deserunt",
-      "ColorBlock": 869,
-      "IconHint": "aut",
-      "Selected": false,
-      "LastChanged": "2006-09-13T16:54:55.6229847+02:00",
+      "Id": 646,
+      "Name": "Will Group",
+      "ToolTip": "Dolores deleniti voluptas dolorem magnam omnis sit.",
+      "Deleted": false,
+      "Rank": 961,
+      "Type": "assumenda",
+      "ColorBlock": 685,
+      "IconHint": "cum",
+      "Selected": true,
+      "LastChanged": "2010-10-17T10:30:24.0725232+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nostrum",
-      "StyleHint": "odit",
+      "ExtraInfo": "hic",
+      "StyleHint": "doloribus",
       "Hidden": false,
-      "FullName": "Dangelo Ruecker",
+      "FullName": "Leon McKenzie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldLength": 453
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldType": "System.Int32",
+      "FieldLength": 774
     }
   }
 }

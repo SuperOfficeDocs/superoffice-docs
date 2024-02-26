@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "magnam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "magnam",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 112,
+  "HierarchyId": 693,
   "Domain": "Dashboards",
-  "Name": "Greenholt, Stehr and Collins",
-  "Fullname": "modi",
-  "ParentId": 450,
+  "Name": "Gerlach, Lockman and Bogisich",
+  "Fullname": "aut",
+  "ParentId": 499,
   "Children": [
     {
-      "HierarchyId": 586,
+      "HierarchyId": 4,
       "Domain": "Dashboards",
-      "Name": "Hirthe-Beer",
-      "Fullname": "ut",
-      "ParentId": 987,
+      "Name": "Kovacek-Conn",
+      "Fullname": "nihil",
+      "ParentId": 58,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-01-01T16:55:29.663459+01:00",
-      "RegisteredAssociateId": 175,
-      "Updated": "2007-02-15T16:55:29.663459+01:00",
-      "UpdatedAssociateId": 29,
+      "Registered": "2023-04-23T10:30:32.0886795+02:00",
+      "RegisteredAssociateId": 971,
+      "Updated": "2014-11-16T10:30:32.0886795+01:00",
+      "UpdatedAssociateId": 545,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 543
         }
       }
     }
   ],
-  "Registered": "1997-07-18T16:55:29.663459+02:00",
-  "RegisteredAssociateId": 455,
-  "Updated": "2013-07-12T16:55:29.663459+02:00",
-  "UpdatedAssociateId": 678,
+  "Registered": "2009-08-15T10:30:32.0886795+02:00",
+  "RegisteredAssociateId": 395,
+  "Updated": "2014-01-22T10:30:32.0886795+01:00",
+  "UpdatedAssociateId": 125,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 167
     }
   },
   "_Links": {

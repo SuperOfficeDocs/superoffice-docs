@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Larson-Kozey",
-  "DeviceName": "Thompson Inc and Sons",
-  "KeyName": "Grady, Langosh and Cummings",
-  "KeyValue": "non",
-  "TableName": "Zemlak Group"
+  "ApplicationName": "Hermann-Kub",
+  "DeviceName": "Auer Group",
+  "KeyName": "Russel-Tremblay",
+  "KeyValue": "suscipit",
+  "TableName": "Kris, O'Keefe and Willms"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sit",
-  "Value": "aliquam",
-  "RecordId": 11,
-  "CreatedDate": "2016-09-13T16:54:55.4874648+02:00",
-  "UpdatedDate": "2004-10-04T16:54:55.4874648+02:00",
-  "UpdatedBy": "temporibus",
-  "CreatedBy": "in",
-  "TableName": "Wiza Inc and Sons",
+  "Key": "amet",
+  "Value": "non",
+  "RecordId": 940,
+  "CreatedDate": "2018-06-04T10:30:23.9073938+02:00",
+  "UpdatedDate": "2022-12-27T10:30:23.9073938+01:00",
+  "UpdatedBy": "eius",
+  "CreatedBy": "tempore",
+  "TableName": "Herman Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 725
     }
   }
 }

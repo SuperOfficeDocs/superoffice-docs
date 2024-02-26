@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=998
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=102
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic zero administration analyzer",
-  "Postit": "placeat",
+  "Description": "Right-sized user-facing hardware",
+  "Postit": "nam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 939,
-  "IncludePerson": 351,
-  "MemberCount": 558,
-  "Name": "Homenick, Boyer and Eichmann",
-  "PostitTextId": 870,
-  "CreatedDate": "2017-10-21T16:54:56.2925038+02:00",
-  "SelectionId": 573,
-  "SoundEx": "perferendis",
-  "Source": 808,
-  "TextId": 991,
-  "UpdatedDate": "2011-10-16T16:54:56.2925038+02:00",
-  "UpdatedCount": 252,
-  "Visibility": 383,
+  "GroupIdx": 866,
+  "IncludePerson": 309,
+  "MemberCount": 45,
+  "Name": "Cummerata, Abernathy and Nitzsche",
+  "PostitTextId": 460,
+  "CreatedDate": "2021-06-16T10:30:24.5596239+02:00",
+  "SelectionId": 206,
+  "SoundEx": "cum",
+  "Source": 672,
+  "TextId": 577,
+  "UpdatedDate": "2010-10-31T10:30:24.5596239+01:00",
+  "UpdatedCount": 53,
+  "Visibility": 247,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 667,
-  "TargetTableName": "Simonis-White",
+  "TargetTableNumber": 908,
+  "TargetTableName": "Kunze Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 737,
-  "RightSelectionId": 21,
+  "LeftSelectionId": 771,
+  "RightSelectionId": 458,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "White-Labadie",
-  "ShadowProviderName": "Gislason-Hoppe",
-  "ChartKey": "hic",
-  "LastLoaded": "2001-03-16T16:54:56.2925038+01:00",
-  "LastLoadedBy": 505,
+  "MainProviderName": "Keebler-Kreiger",
+  "ShadowProviderName": "Legros Group",
+  "ChartKey": "numquam",
+  "LastLoaded": "2015-08-22T10:30:24.5596239+02:00",
+  "LastLoadedBy": 167,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-07-24T16:54:56.2925038+02:00",
-  "LastMembershipChangeBy": 311,
+  "LastMembershipChange": "2008-11-11T10:30:24.5596239+01:00",
+  "LastMembershipChangeBy": 664,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "rerum",
-  "MemberTabHeading": "eius",
-  "MailingsProviderName": "Nienow-Fadel",
-  "DashboardTileDefinitionId": 670,
+  "MainHeading": "qui",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Smitham, Hansen and Turner",
+  "DashboardTileDefinitionId": 792,
   "VisibleFor": [
     {
-      "VisibleId": 878,
+      "VisibleId": 374,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 134
+          "FieldType": "System.String",
+          "FieldLength": 38
         }
       }
     },
     {
-      "VisibleId": 878,
+      "VisibleId": 374,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 134
+          "FieldType": "System.String",
+          "FieldLength": 38
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

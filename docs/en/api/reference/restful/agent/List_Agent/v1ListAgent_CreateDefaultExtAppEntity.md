@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 871,
-  "Name": "Little-Ankunding",
-  "Tooltip": "perspiciatis",
+  "ExtAppId": 791,
+  "Name": "Torphy-Marquardt",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 124,
-  "Filename": "qui",
-  "Parameters": "dignissimos",
-  "Workdir": "quas",
+  "Rank": 632,
+  "Filename": "pariatur",
+  "Parameters": "quae",
+  "Workdir": "eos",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 951,
-  "WaitToFinish": false,
+  "Icon": 604,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "consequatur",
+  "Path": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldType": "System.Int32",
+      "FieldLength": 313
     }
   }
 }

@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 155,
-  "Name": "Crona Inc and Sons",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "UdListDefinitionId": 609,
-  "Rank": 564
+  "Id": 36,
+  "Name": "Durgan LLC",
+  "Tooltip": "rem",
+  "Deleted": false,
+  "UdListDefinitionId": 684,
+  "Rank": 172
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 741,
-  "Name": "McGlynn-Johnston",
-  "Tooltip": "esse",
-  "Deleted": false,
-  "UdListDefinitionId": 675,
-  "Rank": 293,
+  "Id": 322,
+  "Name": "Paucek Group",
+  "Tooltip": "odit",
+  "Deleted": true,
+  "UdListDefinitionId": 537,
+  "Rank": 408,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

@@ -71,11 +71,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bogisich-Lang",
-  "UsergroupId": 650,
+  "UdListDefinitionName": "Wunsch-Kemmer",
+  "UsergroupId": 969,
   "ListItemsID": [
-    130,
-    928
+    132,
+    504
   ],
   "Enable": false
 }

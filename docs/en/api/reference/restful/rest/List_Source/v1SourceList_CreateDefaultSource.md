@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 636,
-  "Name": "Ledner-Bergstrom",
-  "Tooltip": "aut",
+  "Id": 573,
+  "Name": "Upton, Steuber and Runolfsson",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 651,
-  "Rank": 698,
+  "UdListDefinitionId": 273,
+  "Rank": 479,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 275
     }
   }
 }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 276
+  "AssociateId": 670
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reynolds, Schuster and Conroy",
-    "Description": "Profound mission-critical superstructure",
+    "Name": "Schiller-Jacobson",
+    "Description": "Public-key scalable superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 647,
-        "Tooltip": "enim",
+        "Unrestricted": false,
+        "Total": 629,
+        "Tooltip": "iste",
         "CanAssign": false,
-        "Free": 113,
-        "InUse": 219,
-        "IsHidden": false,
+        "Free": 934,
+        "InUse": 555,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 957,
-        "Name": "Strosin LLC",
-        "Description": "Operative client-server benchmark",
-        "PrerequisiteModuleName": "O'Conner, Lebsack and Lueilwitz",
-        "SortOrder": 58,
-        "ExtraFlags": 28,
+        "ModuleLicenseId": 104,
+        "Name": "Mraz-Fritsch",
+        "Description": "Cloned uniform strategy",
+        "PrerequisiteModuleName": "Erdman Group",
+        "SortOrder": 356,
+        "ExtraFlags": 57,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldType": "System.Int32",
+            "FieldLength": 353
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 335,
-        "Tooltip": "itaque",
+        "Total": 553,
+        "Tooltip": "magni",
         "CanAssign": false,
-        "Free": 178,
-        "InUse": 694,
+        "Free": 693,
+        "InUse": 208,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 281,
-        "Name": "Lebsack-Halvorson",
-        "Description": "Fully-configurable coherent help-desk",
-        "PrerequisiteModuleName": "Leuschke Inc and Sons",
-        "SortOrder": 755,
-        "ExtraFlags": 858,
+        "Assigned": true,
+        "ModuleLicenseId": 222,
+        "Name": "Lind, O'Kon and Hintz",
+        "Description": "Fundamental empowering benchmark",
+        "PrerequisiteModuleName": "Heller LLC",
+        "SortOrder": 870,
+        "ExtraFlags": 314,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldLength": 590
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 8
       }
     }
   },
   {
-    "Name": "Reynolds, Schuster and Conroy",
-    "Description": "Profound mission-critical superstructure",
+    "Name": "Schiller-Jacobson",
+    "Description": "Public-key scalable superstructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 647,
-        "Tooltip": "enim",
+        "Unrestricted": false,
+        "Total": 629,
+        "Tooltip": "iste",
         "CanAssign": false,
-        "Free": 113,
-        "InUse": 219,
-        "IsHidden": false,
+        "Free": 934,
+        "InUse": 555,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 957,
-        "Name": "Strosin LLC",
-        "Description": "Operative client-server benchmark",
-        "PrerequisiteModuleName": "O'Conner, Lebsack and Lueilwitz",
-        "SortOrder": 58,
-        "ExtraFlags": 28,
+        "ModuleLicenseId": 104,
+        "Name": "Mraz-Fritsch",
+        "Description": "Cloned uniform strategy",
+        "PrerequisiteModuleName": "Erdman Group",
+        "SortOrder": 356,
+        "ExtraFlags": 57,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldType": "System.Int32",
+            "FieldLength": 353
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 335,
-        "Tooltip": "itaque",
+        "Total": 553,
+        "Tooltip": "magni",
         "CanAssign": false,
-        "Free": 178,
-        "InUse": 694,
+        "Free": 693,
+        "InUse": 208,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 281,
-        "Name": "Lebsack-Halvorson",
-        "Description": "Fully-configurable coherent help-desk",
-        "PrerequisiteModuleName": "Leuschke Inc and Sons",
-        "SortOrder": 755,
-        "ExtraFlags": 858,
+        "Assigned": true,
+        "ModuleLicenseId": 222,
+        "Name": "Lind, O'Kon and Hintz",
+        "Description": "Fundamental empowering benchmark",
+        "PrerequisiteModuleName": "Heller LLC",
+        "SortOrder": 870,
+        "ExtraFlags": 314,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldLength": 590
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 8
       }
     }
   }

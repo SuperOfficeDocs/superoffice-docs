@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 187,
-  "Name": "Torp-Aufderhar",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "Rank": 748,
+  "WebPanelId": 915,
+  "Name": "Leffler, Schimmel and Turner",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 399,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Lemke Inc and Sons",
+  "WindowName": "O'Reilly-Farrell",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatibus",
-  "Icon": 819,
+  "ProgId": "omnis",
+  "Icon": 817,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

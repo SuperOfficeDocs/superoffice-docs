@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 738,
-  "PersonId": 737,
-  "AppointmentId": 933,
-  "DocumentId": 985,
-  "SaleId": 206,
-  "SelectionId": 241,
-  "ProjectId": 142,
+  "ContactId": 692,
+  "PersonId": 830,
+  "AppointmentId": 644,
+  "DocumentId": 435,
+  "SaleId": 648,
+  "SelectionId": 463,
+  "ProjectId": 200,
   "CustomTags": [
-    "repellendus",
-    "consequatur"
+    "delectus",
+    "ipsa"
   ],
   "CustomValues": [
-    "amet",
-    "magnam"
+    "velit",
+    "non"
   ],
-  "UiCulture": "enim"
+  "UiCulture": "numquam"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 284,
+  "DocumentId": 527,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "facilis",
-  "Header": "consequatur",
-  "Name": "Rippin-Schaefer",
-  "OurRef": "ad",
-  "YourRef": "enim",
-  "CreatedDate": "2018-09-20T16:54:55.2289035+02:00",
-  "UpdatedDate": "2016-12-21T16:54:55.2289035+01:00",
-  "Description": "Total static pricing structure",
+  "Attention": "magnam",
+  "Header": "officia",
+  "Name": "Parker-Yost",
+  "OurRef": "repellat",
+  "YourRef": "sed",
+  "CreatedDate": "2017-10-27T10:30:23.6574366+02:00",
+  "UpdatedDate": "2001-10-09T10:30:23.6574366+02:00",
+  "Description": "Intuitive modular project",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-03-11T16:54:55.2319032+01:00",
-  "ExternalRef": "ab",
+  "Date": "2003-06-30T10:30:23.6730584+02:00",
+  "ExternalRef": "quidem",
   "Completed": "Completed",
-  "ActiveLinks": 581,
+  "ActiveLinks": 741,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ankunding, Veum and Larkin",
-      "Id": 374,
-      "Description": "Robust 24/7 knowledge base",
-      "ExtraInfo": "vel",
-      "LinkId": 116,
+      "EntityName": "Gibson-Nicolas",
+      "Id": 960,
+      "Description": "Monitored interactive customer loyalty",
+      "ExtraInfo": "sapiente",
+      "LinkId": 205,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldLength": 824
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 215,
-  "Snum": 354,
+  "SuggestedDocumentId": 747,
+  "Snum": 824,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Ursula Dorian Carter",
-    "SuperOffice:2": "76701972"
+    "SuperOffice:1": "Dean Hayes",
+    "SuperOffice:2": "1449605060"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "nemo"
+    "CustomFields1": "maxime",
+    "CustomFields2": "iusto"
   },
-  "PublishEventDate": "2017-04-27T16:54:55.2329002+02:00",
-  "PublishTo": "2002-01-26T16:54:55.2329002+01:00",
-  "PublishFrom": "2000-05-04T16:54:55.2329002+02:00",
+  "PublishEventDate": "2018-08-25T10:30:23.6730584+02:00",
+  "PublishTo": "2001-09-25T10:30:23.6730584+02:00",
+  "PublishFrom": "2015-02-03T10:30:23.6730584+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 841,
+      "VisibleId": 917,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldLength": 711
         }
       }
     },
     {
-      "VisibleId": 841,
+      "VisibleId": 917,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldLength": 711
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 871
     }
   }
 }

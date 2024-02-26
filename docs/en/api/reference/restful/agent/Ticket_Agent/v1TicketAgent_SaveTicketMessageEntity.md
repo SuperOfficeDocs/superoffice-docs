@@ -113,66 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 416,
+  "EjMessageId": 215,
   "Ticket": null,
-  "CreatedAt": "1999-05-26T16:54:56.4221346+02:00",
+  "CreatedAt": "1998-07-31T10:30:24.7954621+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "repellat",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quo",
-  "TimeSpent": 869,
-  "Body": "corporis",
-  "HtmlBody": "id",
-  "EmailHeader": "fritz@corkery.co.uk",
-  "DebugInfo": "tempora",
-  "MailSorter": "excepturi",
+  "MessageId": "saepe",
+  "TimeSpent": 237,
+  "Body": "iusto",
+  "HtmlBody": "perspiciatis",
+  "EmailHeader": "darrion@hilpert.co.uk",
+  "DebugInfo": "dolorum",
+  "MailSorter": "consequatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ab",
+  "SearchTitle": "velit",
   "MessageHeaders": [
     {
-      "Id": 122,
-      "Name": "Reilly, Jerde and Daniel",
-      "Value": "dolorem",
+      "Id": 119,
+      "Name": "Bailey, Quitzon and Gutmann",
+      "Value": "soluta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 122,
-      "Name": "Reilly, Jerde and Daniel",
-      "Value": "dolorem",
+      "Id": 119,
+      "Name": "Bailey, Quitzon and Gutmann",
+      "Value": "soluta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "at",
-  "Sentiment": 377,
-  "SentimentConfidence": 509,
+  "Important": false,
+  "Language": "consequatur",
+  "Sentiment": 891,
+  "SentimentConfidence": 87,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 212,
-      "Name": "Lemke LLC",
-      "ContentType": "officiis",
-      "AttSize": 807,
+      "AttachmentId": 576,
+      "Name": "Dickinson-Harvey",
+      "ContentType": "vero",
+      "AttSize": 180,
       "InlineImage": false,
-      "ContentId": "blanditiis",
-      "AuthKey": "est"
+      "ContentId": "veniam",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "non"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "dolore"
+    "CustomFields1": "quia",
+    "CustomFields2": "sequi"
   }
 }
 ```
@@ -184,78 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 331,
+  "EjMessageId": 992,
   "Ticket": null,
-  "CreatedAt": "2002-04-16T16:54:56.4301318+02:00",
+  "CreatedAt": "2002-05-06T10:30:24.7954621+02:00",
   "CreatedBy": null,
-  "Author": "quae",
+  "Author": "soluta",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sequi",
-  "TimeSpent": 835,
-  "Body": "quisquam",
-  "HtmlBody": "adipisci",
-  "EmailHeader": "thora@jerde.ca",
-  "DebugInfo": "ipsa",
-  "MailSorter": "ut",
+  "MessageId": "error",
+  "TimeSpent": 864,
+  "Body": "non",
+  "HtmlBody": "praesentium",
+  "EmailHeader": "carolyn.labadie@kohlerstehr.biz",
+  "DebugInfo": "quibusdam",
+  "MailSorter": "recusandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "laboriosam",
+  "SearchTitle": "veniam",
   "MessageHeaders": [
     {
-      "Id": 896,
-      "Name": "Lowe-Schamberger",
-      "Value": "eos",
+      "Id": 956,
+      "Name": "Von-Nikolaus",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 538
+          "FieldType": "System.Int32",
+          "FieldLength": 803
         }
       }
     }
   ],
   "Important": false,
-  "Language": "rerum",
-  "Sentiment": 155,
-  "SentimentConfidence": 52,
+  "Language": "maiores",
+  "Sentiment": 974,
+  "SentimentConfidence": 999,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 992,
-      "Name": "Dickinson-Padberg",
-      "ContentType": "ut",
-      "AttSize": 790,
-      "InlineImage": false,
-      "ContentId": "temporibus",
-      "AuthKey": "consequatur",
+      "AttachmentId": 491,
+      "Name": "Will Group",
+      "ContentType": "sit",
+      "AttSize": 875,
+      "InlineImage": true,
+      "ContentId": "voluptas",
+      "AuthKey": "sed",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldLength": 651
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "ullam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 931
     }
   }
 }

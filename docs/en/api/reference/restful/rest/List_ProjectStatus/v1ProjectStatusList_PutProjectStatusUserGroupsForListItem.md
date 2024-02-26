@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Nicolas, Runolfsson and O'Connell",
-    "ToolTip": "Maiores nostrum quibusdam officiis eveniet odit.",
-    "Deleted": true,
-    "Rank": 701,
-    "Type": "est",
-    "ColorBlock": 576,
-    "IconHint": "impedit",
+    "Id": 577,
+    "Name": "Hane Inc and Sons",
+    "ToolTip": "Ullam recusandae voluptas.",
+    "Deleted": false,
+    "Rank": 288,
+    "Type": "distinctio",
+    "ColorBlock": 570,
+    "IconHint": "maiores",
     "Selected": true,
-    "LastChanged": "2008-09-23T16:55:30.8347351+02:00",
+    "LastChanged": "2016-08-17T10:30:33.131835+02:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Zboncak, DuBuque and Hermann",
-        "ToolTip": "Aliquam distinctio sit eius eum sit iure.",
-        "Deleted": false,
-        "Rank": 664,
-        "Type": "commodi",
-        "ColorBlock": 944,
-        "IconHint": "ex",
+        "Id": 734,
+        "Name": "Emard-Orn",
+        "ToolTip": "Velit et error sunt velit nemo.",
+        "Deleted": true,
+        "Rank": 741,
+        "Type": "quis",
+        "ColorBlock": 416,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2009-12-02T16:55:30.8347351+01:00",
+        "LastChanged": "2000-07-10T10:30:33.131835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "est",
+        "ExtraInfo": "et",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Mittie VonRueden PhD"
+        "FullName": "Loyce Volkman"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Oleta Haley"
+    "FullName": "Dovie Kris"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Wunsch Group",
-    "ToolTip": "Quasi suscipit consequatur consequatur voluptas eum aspernatur enim.",
+    "Id": 307,
+    "Name": "Wilderman, Toy and Olson",
+    "ToolTip": "Optio possimus omnis sed quibusdam atque similique provident.",
     "Deleted": false,
-    "Rank": 264,
-    "Type": "non",
-    "ColorBlock": 725,
-    "IconHint": "consequatur",
+    "Rank": 842,
+    "Type": "veniam",
+    "ColorBlock": 39,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2015-05-14T16:55:30.8357201+02:00",
+    "LastChanged": "2021-09-20T10:30:33.131835+02:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Mante-Sanford",
-        "ToolTip": "Corporis quos deserunt fuga quia rerum fugit explicabo.",
-        "Deleted": true,
-        "Rank": 787,
-        "Type": "dolores",
-        "ColorBlock": 276,
-        "IconHint": "aliquid",
-        "Selected": false,
-        "LastChanged": "2006-04-04T16:55:30.8357201+02:00",
+        "Id": 956,
+        "Name": "Rempel Inc and Sons",
+        "ToolTip": "Dolore omnis voluptatem quas ut sed.",
+        "Deleted": false,
+        "Rank": 880,
+        "Type": "dolore",
+        "ColorBlock": 253,
+        "IconHint": "similique",
+        "Selected": true,
+        "LastChanged": "2019-08-28T10:30:33.131835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "eum",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Hilda Rolfson",
+        "FullName": "Otha Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 234
+            "FieldLength": 524
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "ducimus",
-    "Hidden": true,
-    "FullName": "Cody Javon Gaylord Jr.",
+    "ExtraInfo": "ratione",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Gail Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldType": "System.String",
+        "FieldLength": 564
       }
     }
   }

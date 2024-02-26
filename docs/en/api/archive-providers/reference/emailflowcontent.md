@@ -651,7 +651,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/mailingAddr/person/personAssociate/personId,shipment/associate/otherGroups,shipment/mailingAddr/contact/contactAssociate/ejUserId
+GET /api/v1/archive/EmailFlowContent?$select=shipment/mailingAddr/contact/contactAssociate/ejDisplayName,shipment/mailingAddr/contact/contactAssociate/credentialType,shipment/mailingAddr/contact/contactUdef/SuperOffice:8,shipment/mailingAddr/contact/contactUdef/SuperOffice:12,shipment/mailingAddr/contact/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 169,
-  "UdListDefinitionName": "Senger Inc and Sons"
+  "Id": 157,
+  "UdListDefinitionName": "Rogahn-O'Conner"
 }
 ```
 

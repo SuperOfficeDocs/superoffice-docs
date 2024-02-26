@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Gleichner LLC",
-    "ToolTip": "Quibusdam tempore expedita eligendi.",
+    "Id": 556,
+    "Name": "Rowe LLC",
+    "ToolTip": "Eum earum sint.",
     "Deleted": true,
-    "Rank": 714,
-    "Type": "commodi",
-    "ColorBlock": 689,
-    "IconHint": "repudiandae",
+    "Rank": 756,
+    "Type": "eligendi",
+    "ColorBlock": 994,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "2014-01-17T16:55:30.0035942+01:00",
+    "LastChanged": "2009-02-15T10:30:32.276171+01:00",
     "ChildItems": [
       {
-        "Id": 121,
-        "Name": "Hills, O'Reilly and Schmitt",
-        "ToolTip": "Cumque necessitatibus sed adipisci soluta rem.",
+        "Id": 885,
+        "Name": "Hickle Inc and Sons",
+        "ToolTip": "Nisi aut quia ea autem placeat nobis quia.",
         "Deleted": false,
-        "Rank": 537,
-        "Type": "suscipit",
-        "ColorBlock": 686,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "2004-12-10T16:55:30.0035942+01:00",
+        "Rank": 927,
+        "Type": "quia",
+        "ColorBlock": 849,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2000-04-11T10:30:32.276171+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "eaque",
+        "ExtraInfo": "totam",
+        "StyleHint": "recusandae",
         "Hidden": true,
-        "FullName": "Miss Ronny Roosevelt Dicki PhD",
+        "FullName": "Cheyenne Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 881
+            "FieldLength": 116
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "corporis",
-    "Hidden": true,
-    "FullName": "Mrs. Cassandre Nick Bradtke Sr.",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Mr. Tiffany Johnston DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldLength": 895
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "VonRueden, Senger and Corwin",
-    "ToolTip": "Labore aut.",
+    "Id": 106,
+    "Name": "Walker Inc and Sons",
+    "ToolTip": "Vitae et vero sit ut eum error ea.",
     "Deleted": false,
-    "Rank": 219,
-    "Type": "ut",
-    "ColorBlock": 9,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2004-01-11T16:55:30.5476993+01:00",
+    "Rank": 300,
+    "Type": "quo",
+    "ColorBlock": 981,
+    "IconHint": "iure",
+    "Selected": true,
+    "LastChanged": "2015-12-02T10:30:32.8805387+01:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Mohr, Kuhlman and Schmitt",
-        "ToolTip": "Nihil earum iusto sit officia qui officiis et.",
+        "Id": 760,
+        "Name": "VonRueden-Skiles",
+        "ToolTip": "Assumenda aut qui quo quia fugit.",
         "Deleted": false,
-        "Rank": 8,
-        "Type": "voluptas",
-        "ColorBlock": 262,
-        "IconHint": "excepturi",
-        "Selected": true,
-        "LastChanged": "2004-08-18T16:55:30.5486991+02:00",
+        "Rank": 728,
+        "Type": "eos",
+        "ColorBlock": 943,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2018-12-25T10:30:32.8805387+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "autem",
+        "ExtraInfo": "corporis",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Ellen Reva King Sr."
+        "FullName": "Marguerite Hansen"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Narciso Davis II"
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Kristoffer Javonte Fahey Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Trantow-Reichert",
-    "ToolTip": "Facilis dolores voluptate cum quia omnis consequuntur.",
+    "Id": 710,
+    "Name": "Robel, Adams and Schoen",
+    "ToolTip": "Magni quia commodi.",
     "Deleted": false,
-    "Rank": 139,
-    "Type": "ad",
-    "ColorBlock": 726,
-    "IconHint": "aperiam",
+    "Rank": 159,
+    "Type": "est",
+    "ColorBlock": 516,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2017-04-22T16:55:30.5486991+02:00",
+    "LastChanged": "2010-09-18T10:30:32.8805387+02:00",
     "ChildItems": [
       {
-        "Id": 943,
-        "Name": "Bauch Inc and Sons",
-        "ToolTip": "Esse omnis quia odio quo.",
+        "Id": 615,
+        "Name": "Kuphal LLC",
+        "ToolTip": "Eum sint esse.",
         "Deleted": false,
-        "Rank": 407,
-        "Type": "quo",
-        "ColorBlock": 74,
-        "IconHint": "qui",
+        "Rank": 846,
+        "Type": "dolorem",
+        "ColorBlock": 62,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2023-12-28T16:55:30.5496979+01:00",
+        "LastChanged": "2019-09-14T10:30:32.8805387+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Haley Hellen Cruickshank Jr.",
+        "ExtraInfo": "magni",
+        "StyleHint": "suscipit",
+        "Hidden": true,
+        "FullName": "Prof. Garett Lebsack II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 920
+            "FieldLength": 83
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Antonette DuBuque",
+    "ExtraInfo": "amet",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Pat Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 145
       }
     }
   }

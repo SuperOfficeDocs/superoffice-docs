@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=580
+POST /api/v1/Agents/Person/GetPerson?personId=35
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "maiores",
-  "PersonId": 899,
-  "Mrmrs": "laboriosam",
-  "Firstname": "Jevon",
-  "Lastname": "Tromp",
-  "MiddleName": "Crooks Group",
-  "Title": "odio",
-  "Description": "Function-based client-server orchestration",
-  "Email": "nestor@glover.biz",
-  "FullName": "Monserrate Kerluke",
-  "DirectPhone": "1-413-858-6423 x389",
-  "FormalName": "Mante LLC",
-  "CountryId": 224,
-  "ContactId": 476,
-  "ContactName": "Wisoky, Rowe and Nitzsche",
-  "Retired": 266,
-  "Rank": 672,
-  "ActiveInterests": 518,
+  "Position": "ut",
+  "PersonId": 438,
+  "Mrmrs": "harum",
+  "Firstname": "Lavinia",
+  "Lastname": "Feest",
+  "MiddleName": "Schulist, Stark and Boyle",
+  "Title": "accusantium",
+  "Description": "Optional bottom-line process improvement",
+  "Email": "leon.padberg@huel.biz",
+  "FullName": "Autumn Ferry",
+  "DirectPhone": "026.235.7373 x13927",
+  "FormalName": "Vandervort-Hyatt",
+  "CountryId": 783,
+  "ContactId": 810,
+  "ContactName": "Upton-Hayes",
+  "Retired": 653,
+  "Rank": 460,
+  "ActiveInterests": 516,
   "ContactDepartment": "",
-  "ContactCountryId": 462,
-  "ContactOrgNr": "1035796",
-  "FaxPhone": "481.292.4240 x8081",
-  "MobilePhone": "199-577-6582",
-  "ContactPhone": "748-740-2238 x546",
-  "AssociateName": "Marks, Schulist and Stiedemann",
-  "AssociateId": 907,
+  "ContactCountryId": 927,
+  "ContactOrgNr": "1310317",
+  "FaxPhone": "(168)988-4520 x6428",
+  "MobilePhone": "1-958-150-3322 x01131",
+  "ContactPhone": "640-217-6076 x025",
+  "AssociateName": "Pfeffer-Kling",
+  "AssociateId": 698,
   "UsePersonAddress": false,
-  "ContactFax": "quod",
-  "Kanafname": "quia",
-  "Kanalname": "laudantium",
-  "Post1": "velit",
-  "Post2": "doloribus",
-  "Post3": "provident",
-  "EmailName": "rey.haag@hammes.name",
-  "ContactFullName": "Rahsaan Nicolas",
-  "ActiveErpLinks": 663,
-  "TicketPriorityId": 114,
-  "SupportLanguageId": 757,
-  "SupportAssociateId": 973,
+  "ContactFax": "beatae",
+  "Kanafname": "optio",
+  "Kanalname": "consequatur",
+  "Post1": "aliquam",
+  "Post2": "facere",
+  "Post3": "aliquam",
+  "EmailName": "easton.hills@walsh.info",
+  "ContactFullName": "Robert Erdman",
+  "ActiveErpLinks": 90,
+  "TicketPriorityId": 233,
+  "SupportLanguageId": 462,
+  "SupportAssociateId": 334,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 550
     }
   }
 }

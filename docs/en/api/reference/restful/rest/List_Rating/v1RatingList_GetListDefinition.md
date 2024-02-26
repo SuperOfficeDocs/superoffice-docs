@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Lind, Upton and Heathcote",
-  "Tooltip": "nostrum",
+  "Id": 310,
+  "Name": "Bednar LLC",
+  "Tooltip": "minus",
   "Deleted": false,
-  "Rank": 517,
+  "Rank": 67,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldLength": 104
     }
   },
   "_Links": {

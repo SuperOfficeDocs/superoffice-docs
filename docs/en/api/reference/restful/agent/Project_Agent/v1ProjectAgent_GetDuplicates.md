@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Torphy-Simonis"
+  "Name": "Jacobson LLC"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Glover Group",
-    "SoPrimaryKey": 218,
-    "EntryName": "Smith-Moore",
-    "EntryIdentifier": "recusandae",
-    "RuleDisplayName": "Romaguera-Okuneva",
+    "RuleName": "Steuber-Wyman",
+    "SoPrimaryKey": 201,
+    "EntryName": "Kuhic-Block",
+    "EntryIdentifier": "deserunt",
+    "RuleDisplayName": "Wintheiser-Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 263
+        "FieldType": "System.Int32",
+        "FieldLength": 470
       }
     }
   }

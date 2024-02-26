@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Weimann Group",
-    "ToolTip": "Sint dolores dolorem officiis saepe non sapiente in.",
+    "Id": 374,
+    "Name": "Herzog LLC",
+    "ToolTip": "Sed provident ea sapiente eveniet qui.",
     "Deleted": true,
-    "Rank": 154,
-    "Type": "ea",
-    "ColorBlock": 62,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "1997-09-03T16:55:30.5756981+02:00",
+    "Rank": 669,
+    "Type": "error",
+    "ColorBlock": 87,
+    "IconHint": "neque",
+    "Selected": false,
+    "LastChanged": "2020-07-19T10:30:32.9118319+02:00",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Runolfsdottir, Daniel and Hettinger",
-        "ToolTip": "Ea ducimus architecto aperiam et labore.",
+        "Id": 965,
+        "Name": "Ledner Inc and Sons",
+        "ToolTip": "Aliquam necessitatibus quis dicta expedita natus.",
         "Deleted": false,
-        "Rank": 555,
-        "Type": "exercitationem",
-        "ColorBlock": 836,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2016-10-08T16:55:30.5756981+02:00",
+        "Rank": 680,
+        "Type": "facilis",
+        "ColorBlock": 49,
+        "IconHint": "officia",
+        "Selected": true,
+        "LastChanged": "2020-05-16T10:30:32.9118319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "aut",
+        "ExtraInfo": "non",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Dr. Alva Sister Bogan"
+        "FullName": "Bradley Larson V"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "qui",
+    "ExtraInfo": "dolores",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Mrs. Aliya Stark DVM"
+    "FullName": "Clark Rau"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Pollich, Towne and Satterfield",
-    "ToolTip": "Molestiae rem.",
-    "Deleted": true,
-    "Rank": 808,
-    "Type": "delectus",
-    "ColorBlock": 564,
-    "IconHint": "nesciunt",
+    "Id": 844,
+    "Name": "VonRueden-King",
+    "ToolTip": "Est architecto at nostrum voluptate consequuntur dolores.",
+    "Deleted": false,
+    "Rank": 461,
+    "Type": "voluptates",
+    "ColorBlock": 112,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2022-01-15T16:55:30.5778171+01:00",
+    "LastChanged": "2008-03-26T10:30:32.9118319+01:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Kunde LLC",
-        "ToolTip": "Impedit qui praesentium dignissimos aut commodi.",
+        "Id": 387,
+        "Name": "Lowe, Wintheiser and Marks",
+        "ToolTip": "Magnam non veritatis deleniti reiciendis reiciendis ut.",
         "Deleted": false,
-        "Rank": 421,
-        "Type": "iure",
-        "ColorBlock": 435,
-        "IconHint": "nemo",
+        "Rank": 247,
+        "Type": "nostrum",
+        "ColorBlock": 15,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2005-09-14T16:55:30.5778171+02:00",
+        "LastChanged": "2000-07-18T10:30:32.9118319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Ms. Emmanuelle Waino Conroy Sr.",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Dr. Carson Deckow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldLength": 620
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "non",
+    "ExtraInfo": "et",
+    "StyleHint": "illum",
     "Hidden": true,
-    "FullName": "Bradly Daniel",
+    "FullName": "Dusty Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 889
       }
     }
   }

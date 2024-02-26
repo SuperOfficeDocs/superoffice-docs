@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 377,
-  "InstanceLayout": "explicabo",
-  "InstanceName": "Jast, Kuhn and Harvey",
-  "CreatedDate": "2006-02-05T16:54:54.5954157+01:00",
-  "UpdatedDate": "2012-08-02T16:54:54.5954157+02:00",
+  "AudienceLayoutId": 651,
+  "InstanceLayout": "aut",
+  "InstanceName": "Bechtelar Inc and Sons",
+  "CreatedDate": "2008-12-23T10:30:23.0826686+01:00",
+  "UpdatedDate": "2003-10-26T10:30:23.0826686+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldLength": 67
     }
   }
 }

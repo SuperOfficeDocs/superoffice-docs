@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 981,
-    "Name": "Kulas, Cartwright and Kulas",
-    "Description": "Extended methodical toolset",
-    "DeltaJson": "rerum",
+    "ConfigurableScreenDeltaId": 322,
+    "Name": "Howe LLC",
+    "Description": "Expanded zero defect application",
+    "DeltaJson": "sed",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "architecto",
-    "UpdatedDate": "1997-07-14T16:54:54.8881745+02:00",
-    "CreatedDate": "2000-02-19T16:54:54.8881745+01:00",
+    "RecipeId": "nulla",
+    "UpdatedDate": "2006-04-22T10:30:23.2574424+02:00",
+    "CreatedDate": "2018-05-04T10:30:23.2574424+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      779,
-      234
+      247,
+      829
     ],
-    "AppliesToKey": "veritatis",
+    "AppliesToKey": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldLength": 73
       }
     }
   }

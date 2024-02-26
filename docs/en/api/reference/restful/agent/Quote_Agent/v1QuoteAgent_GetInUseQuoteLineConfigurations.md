@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 341,
-    "FieldName": "Collins Group",
-    "Label": "quod",
-    "Tooltip": "error",
-    "Editable": false,
-    "InUse": false,
-    "Mandatory": true,
-    "Rank": 613,
+    "QuoteLineConfigurationId": 427,
+    "FieldName": "Tillman-Lemke",
+    "Label": "ut",
+    "Tooltip": "et",
+    "Editable": true,
+    "InUse": true,
+    "Mandatory": false,
+    "Rank": 651,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 881
       }
     }
   }

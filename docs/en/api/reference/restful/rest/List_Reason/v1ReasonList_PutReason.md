@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Heidenreich-Legros",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "UdListDefinitionId": 61,
-  "Rank": 240
+  "Id": 182,
+  "Name": "Schuster Group",
+  "Tooltip": "saepe",
+  "Deleted": false,
+  "UdListDefinitionId": 978,
+  "Rank": 763
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 386,
-  "Name": "Pagac-Ferry",
-  "Tooltip": "voluptatibus",
+  "Id": 824,
+  "Name": "Goodwin-Braun",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 30,
-  "Rank": 293,
+  "UdListDefinitionId": 127,
+  "Rank": 625,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldType": "System.Int32",
+      "FieldLength": 530
     }
   }
 }

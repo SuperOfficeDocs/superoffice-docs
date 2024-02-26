@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 138,
-  "ColumnId": 544,
-  "FieldDefault": "iste",
-  "FieldHeight": 942,
-  "FieldLabel": "delectus",
-  "FieldLeft": 416,
-  "FieldTop": 20,
+  "UDefFieldId": 409,
+  "ColumnId": 325,
+  "FieldDefault": "et",
+  "FieldHeight": 91,
+  "FieldLabel": "soluta",
+  "FieldLeft": 655,
+  "FieldTop": 164,
   "FieldType": "Checkbox",
-  "FieldWidth": 399,
-  "FormatMask": "consequatur",
+  "FieldWidth": 282,
+  "FormatMask": "qui",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 701,
-  "LabelLeft": 769,
-  "LabelTop": 634,
-  "LabelWidth": 772,
-  "LastVersionId": 177,
-  "ListTableId": 124,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 888,
+  "LabelLeft": 83,
+  "LabelTop": 689,
+  "LabelWidth": 758,
+  "LastVersionId": 600,
+  "ListTableId": 286,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 223,
-  "ProgId": "quae",
+  "Page1LineNo": 831,
+  "ProgId": "laborum",
   "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 307,
-  "TextLength": 798,
-  "Tooltip": "autem",
-  "UdefIdentity": 10,
-  "UDListDefinitionId": 886,
+  "ShortLabel": "voluptas",
+  "TabOrder": 996,
+  "TextLength": 322,
+  "Tooltip": "et",
+  "UdefIdentity": 584,
+  "UDListDefinitionId": 636,
   "Justification": "Center",
-  "Version": 700,
-  "TemplateVariableName": "Corkery LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Dickens, Wintheiser and Larkin",
+  "Version": 296,
+  "TemplateVariableName": "Emmerich-Rodriguez",
+  "HasBeenPublished": true,
+  "MdoListName": "King LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 531
     }
   }
 }

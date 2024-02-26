@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 698,
-  "SaleId": 173,
+  "SuggestedAppointmentId": 633,
+  "SaleId": 67,
   "CreateNow": false,
-  "OwnerId": 160
+  "OwnerId": 960
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-07-01T16:54:54.4645882+02:00",
-  "AppointmentId": 811,
-  "Description": "Reduced context-sensitive task-force",
-  "Title": "et",
-  "Agenda": "eos",
-  "InternalNotes": "officiis",
-  "StartDate": "2012-11-17T16:54:54.4645882+01:00",
-  "EndDate": "2014-01-04T16:54:54.4645882+01:00",
+  "CreatedDate": "2007-06-03T10:30:22.9420513+02:00",
+  "AppointmentId": 664,
+  "Description": "Compatible regional analyzer",
+  "Title": "quo",
+  "Agenda": "reprehenderit",
+  "InternalNotes": "dolorum",
+  "StartDate": "2014-07-15T10:30:22.9420513+02:00",
+  "EndDate": "2011-04-17T10:30:22.9420513+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 779,
+  "MotherId": 127,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-08-26T16:54:54.4675866+02:00",
+  "UpdatedDate": "2007-11-28T10:30:22.957675+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 830,
+  "ActiveLinks": 232,
   "Links": [
     {
-      "EntityName": "Bartoletti, Breitenberg and King",
-      "Id": 829,
-      "Description": "Monitored system-worthy ability",
-      "ExtraInfo": "natus",
-      "LinkId": 432,
+      "EntityName": "Stehr LLC",
+      "Id": 717,
+      "Description": "Self-enabling multimedia customer loyalty",
+      "ExtraInfo": "ipsam",
+      "LinkId": 343,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldLength": 829
         }
       }
     }
   ],
-  "AlarmLeadTime": "rerum",
+  "AlarmLeadTime": "pariatur",
   "HasAlarm": true,
-  "ColorIndex": 729,
+  "ColorIndex": 227,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "laboriosam",
-  "LeadTime": "excepturi",
-  "Location": "aut",
-  "RejectCounter": 492,
+  "LagTime": "voluptas",
+  "LeadTime": "quia",
+  "Location": "laborum",
+  "RejectCounter": 682,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 309,
-      "PersonId": 411,
-      "ContactId": 600,
-      "EmailId": 759,
+      "AssociateId": 909,
+      "PersonId": 328,
+      "ContactId": 929,
+      "EmailId": 909,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "katelyn@leannon.biz",
-      "Description": "Triple-buffered next generation superstructure"
+      "EmailAddress": "eunice@conn.us",
+      "Description": "Decentralized multi-tasking protocol"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-02-21T16:54:54.4675866+01:00",
+  "ActiveDate": "2021-01-17T10:30:22.957675+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 220,
+  "PreferredTZLocation": 604,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 279,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 429,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quia",
+  "CentralserviceVideomeetId": "aliquam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Abner Kuhn",
-    "SuperOffice:2": "Jerel Tromp"
+    "SuperOffice:1": "Kaleigh Streich I",
+    "SuperOffice:2": "Milan Langworth"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "distinctio"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "facere"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "numquam"
   },
-  "PublishEventDate": "2016-12-14T16:54:54.4705871+01:00",
-  "PublishTo": "2022-06-23T16:54:54.4705871+02:00",
-  "PublishFrom": "2005-07-09T16:54:54.4705871+02:00",
+  "PublishEventDate": "2024-01-28T10:30:22.957675+01:00",
+  "PublishTo": "2021-03-25T10:30:22.957675+01:00",
+  "PublishFrom": "2016-02-04T10:30:22.957675+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 741,
+      "VisibleId": 496,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldType": "System.String",
+          "FieldLength": 119
         }
       }
     },
     {
-      "VisibleId": 741,
+      "VisibleId": 496,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldType": "System.String",
+          "FieldLength": 119
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldType": "System.String",
+      "FieldLength": 973
     }
   }
 }

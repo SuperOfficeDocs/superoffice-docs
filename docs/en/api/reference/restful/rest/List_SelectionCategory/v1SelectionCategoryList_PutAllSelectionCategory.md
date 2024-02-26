@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Williamson Group",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "UdListDefinitionId": 338,
-    "Rank": 849
+    "Id": 831,
+    "Name": "O'Hara-Weber",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 708,
+    "Rank": 93
   },
   {
-    "Id": 742,
-    "Name": "Williamson Group",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "UdListDefinitionId": 338,
-    "Rank": 849
+    "Id": 831,
+    "Name": "O'Hara-Weber",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 708,
+    "Rank": 93
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Bosco LLC",
-    "Tooltip": "asperiores",
+    "Id": 977,
+    "Name": "Hahn Inc and Sons",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "UdListDefinitionId": 796,
-    "Rank": 919,
+    "UdListDefinitionId": 62,
+    "Rank": 549,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 125
+        "FieldLength": 618
       }
     }
   }

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 421,
-  "BlobSize": 75,
-  "Description": "Distributed uniform Graphic Interface",
-  "ExtraInfo": "ratione",
-  "IsEncrypted": false,
+  "BlobId": 612,
+  "BlobSize": 7,
+  "Description": "Robust zero tolerance hierarchy",
+  "ExtraInfo": "incidunt",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "beatae",
-  "OriginalSize": 648,
-  "CreatedDate": "2009-04-08T16:55:29.3923359+02:00",
-  "UpdatedDate": "1997-04-16T16:55:29.3923359+02:00",
+  "MimeType": "optio",
+  "OriginalSize": 622,
+  "CreatedDate": "1999-12-11T10:30:31.8386823+01:00",
+  "UpdatedDate": "2014-11-04T10:30:31.8386823+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eaque"
+  "ConceptualType": "atque"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 623,
-  "BlobSize": 44,
-  "Description": "Networked executive conglomeration",
-  "ExtraInfo": "deleniti",
+  "BlobId": 332,
+  "BlobSize": 555,
+  "Description": "Future-proofed system-worthy circuit",
+  "ExtraInfo": "et",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "eveniet",
-  "OriginalSize": 743,
-  "CreatedDate": "2003-08-02T16:55:29.3933354+02:00",
-  "UpdatedDate": "1996-11-30T16:55:29.3933354+01:00",
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 463,
+  "CreatedDate": "2005-10-13T10:30:31.8543093+02:00",
+  "UpdatedDate": "2005-06-04T10:30:31.8543093+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "blanditiis",
+  "ConceptualType": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldType": "System.Int32",
+      "FieldLength": 174
     }
   }
 }

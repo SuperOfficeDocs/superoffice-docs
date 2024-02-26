@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 167,
-  "Name": "Yost Inc and Sons",
-  "Tooltip": "aut",
-  "Rank": 328,
+  "SuggestedAppointmentId": 795,
+  "Name": "Howell LLC",
+  "Tooltip": "quia",
+  "Rank": 382,
   "Deleted": false,
-  "DaysFuture": 447,
-  "Duration": "expedita",
+  "DaysFuture": 938,
+  "Duration": "temporibus",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "quia",
+  "Text": "aut",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 237,
-  "Name": "Kling-McDermott",
-  "Tooltip": "dolor",
-  "Rank": 416,
-  "Deleted": false,
-  "DaysFuture": 485,
-  "Duration": "nulla",
-  "AutoSuggest": false,
-  "IsMilestone": true,
-  "AssignToMember": false,
-  "Text": "fugit",
+  "SuggestedAppointmentId": 46,
+  "Name": "Gleason-O'Hara",
+  "Tooltip": "et",
+  "Rank": 789,
+  "Deleted": true,
+  "DaysFuture": 683,
+  "Duration": "quibusdam",
+  "AutoSuggest": true,
+  "IsMilestone": false,
+  "AssignToMember": true,
+  "Text": "tenetur",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 821
     }
   }
 }

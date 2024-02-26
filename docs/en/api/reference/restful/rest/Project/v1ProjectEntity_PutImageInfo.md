@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=806
+PUT /api/v1/Project/{id}/ImageInfo?projectId=901
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 589,
-  "BlobSize": 759,
-  "Description": "Profit-focused clear-thinking complexity",
-  "ExtraInfo": "ipsa",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "suscipit",
-  "OriginalSize": 406,
-  "CreatedDate": "2000-10-18T16:55:29.9739855+02:00",
-  "UpdatedDate": "1998-12-10T16:55:29.9739855+01:00",
+  "BlobId": 235,
+  "BlobSize": 240,
+  "Description": "Profit-focused systemic hardware",
+  "ExtraInfo": "distinctio",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "quas",
+  "OriginalSize": 741,
+  "CreatedDate": "2018-05-23T10:30:32.2449231+02:00",
+  "UpdatedDate": "2021-09-04T10:30:32.2449231+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "quibusdam"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 159,
-  "BlobSize": 77,
-  "Description": "Mandatory 3rd generation array",
-  "ExtraInfo": "non",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "maxime",
-  "OriginalSize": 488,
-  "CreatedDate": "2000-07-31T16:55:29.975082+02:00",
-  "UpdatedDate": "2001-11-26T16:55:29.975082+01:00",
+  "BlobId": 466,
+  "BlobSize": 297,
+  "Description": "Customer-focused global project",
+  "ExtraInfo": "assumenda",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "voluptas",
+  "OriginalSize": 732,
+  "CreatedDate": "2008-09-05T10:30:32.2449231+02:00",
+  "UpdatedDate": "2012-01-26T10:30:32.2449231+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "provident",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldLength": 749
     }
   }
 }

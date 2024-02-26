@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "quis",
-    "ValueType": "facere",
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "porro",
+    "ValueType": "voluptates",
     "Mandatory": false,
-    "EncodedDisplayName": "McLaughlin-Denesik",
-    "EncodedDisplayDescription": "Innovative bifurcated success",
-    "IconHint": "quasi",
+    "EncodedDisplayName": "West LLC",
+    "EncodedDisplayDescription": "Adaptive methodical synergy",
+    "IconHint": "fugiat",
     "ControlInfos": [
       {
-        "Type": "natus",
-        "Label": "enim",
-        "Dimension": 460,
-        "ListProviderName": "Hilpert-Buckridge",
-        "ListProviderExtraInfo": "soluta",
-        "ListProviderPrimaryKeyName": "Lueilwitz, Johnson and Pfeffer",
-        "ListLeadText": "et",
+        "Type": "magnam",
+        "Label": "qui",
+        "Dimension": 555,
+        "ListProviderName": "Baumbach Group",
+        "ListProviderExtraInfo": "ea",
+        "ListProviderPrimaryKeyName": "Wehner-Bartell",
+        "ListLeadText": "ipsum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 240
+            "FieldLength": 39
           }
         }
       }
     ],
-    "EncodedDataCaption": "fugiat",
-    "EncodedDataCaptionDescription": "Profound optimizing hub",
-    "CurrentOperationType": "inventore",
+    "EncodedDataCaption": "temporibus",
+    "EncodedDataCaptionDescription": "Object-based modular archive",
+    "CurrentOperationType": "accusantium",
     "Values": [
-      "eum",
-      "id"
+      "doloribus",
+      "ab"
     ],
     "DisplayValues": [
-      "autem",
-      "officiis"
+      "repellendus",
+      "aut"
     ],
     "OperationInfos": [
       {
-        "Key": "sit",
-        "EncodedDisplayName": "Raynor-Cassin",
+        "Key": "accusantium",
+        "EncodedDisplayName": "Borer LLC",
         "EncodedLeadTexts": [
-          "eligendi",
-          "quis"
+          "ratione",
+          "dicta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 703
+            "FieldType": "System.String",
+            "FieldLength": 519
           }
         }
       },
       {
-        "Key": "sit",
-        "EncodedDisplayName": "Raynor-Cassin",
+        "Key": "accusantium",
+        "EncodedDisplayName": "Borer LLC",
         "EncodedLeadTexts": [
-          "eligendi",
-          "quis"
+          "ratione",
+          "dicta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 703
+            "FieldType": "System.String",
+            "FieldLength": 519
           }
         }
       }

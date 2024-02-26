@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jakubowski, Reichel and Pollich",
-    "Records": 957,
+    "EntityName": "Bergstrom-Lakin",
+    "Records": 486,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   },
   {
-    "EntityName": "Jakubowski, Reichel and Pollich",
-    "Records": 957,
+    "EntityName": "Bergstrom-Lakin",
+    "Records": 486,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   }

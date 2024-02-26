@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Hermiston, Blanda and Farrell",
-  "Tooltip": "doloremque",
-  "Deleted": true,
-  "UdListDefinitionId": 182,
-  "Rank": 378,
+  "Id": 338,
+  "Name": "Leannon, Pfannerstill and Thompson",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 201,
+  "Rank": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldType": "System.Int32",
+      "FieldLength": 589
     }
   }
 }

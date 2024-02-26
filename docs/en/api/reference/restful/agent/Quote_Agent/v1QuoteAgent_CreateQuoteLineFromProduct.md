@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 565,
+  "QuoteAlternativeId": 744,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 145,
-  "ERPQuoteLineKey": "aliquid",
-  "QuoteAlternativeId": 545,
-  "ERPProductKey": "eaque",
+  "QuoteLineId": 564,
+  "ERPQuoteLineKey": "necessitatibus",
+  "QuoteAlternativeId": 138,
+  "ERPProductKey": "quis",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 4873.37,
-  "DeliveredQuantity": 19192.615999999998,
-  "Rank": 534,
-  "Name": "Ankunding-Miller",
-  "Description": "Fundamental zero tolerance portal",
-  "Code": "iure",
-  "QuantityUnit": "debitis",
-  "PriceUnit": "ratione",
-  "ItemNumber": "1070010",
+  "Reason": "repurpose sexy e-markets",
+  "Quantity": 29165.004,
+  "DeliveredQuantity": 28851.604,
+  "Rank": 105,
+  "Name": "McGlynn, Quigley and Purdy",
+  "Description": "Seamless incremental emulation",
+  "Code": "consectetur",
+  "QuantityUnit": "dolores",
+  "PriceUnit": "omnis",
+  "ItemNumber": "1268147",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "saepe",
-  "ProductTypeKey": "et",
-  "Supplier": "amet",
-  "SupplierCode": "quia",
-  "Thumbnail": "provident",
-  "VATInfo": "praesentium",
-  "VAT": 3569.6259999999997,
-  "UnitCost": 30703.798,
-  "UnitMinimumPrice": 5609.86,
-  "UnitListPrice": 16487.974,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "magnam",
+  "Supplier": "quidem",
+  "SupplierCode": "praesentium",
+  "Thumbnail": "possimus",
+  "VATInfo": "totam",
+  "VAT": 29537.95,
+  "UnitCost": 18778.928,
+  "UnitMinimumPrice": 1482.382,
+  "UnitListPrice": 3688.718,
   "ExtraInfo": [
     {
-      "Name": "Stracke LLC",
-      "Value": "est",
+      "Name": "Gibson-Zemlak",
+      "Value": "placeat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 288
+          "FieldType": "System.Int32",
+          "FieldLength": 180
         }
       }
     },
     {
-      "Name": "Stracke LLC",
-      "Value": "est",
+      "Name": "Gibson-Zemlak",
+      "Value": "placeat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 288
+          "FieldType": "System.Int32",
+          "FieldLength": 180
         }
       }
     }
   ],
-  "RawExtraInfo": "doloremque",
-  "IsSubscription": true,
-  "SubscriptionUnit": "rem",
-  "SubscriptionQuantity": 977.808,
-  "SubscriptionStart": "2010-12-12T16:54:56.1559649+01:00",
-  "ERPDiscountPercent": 6032.95,
-  "ERPDiscountAmount": 21477.302,
-  "DiscountPercent": 14949.18,
-  "DiscountAmount": 8320.77,
+  "RawExtraInfo": "nesciunt",
+  "IsSubscription": false,
+  "SubscriptionUnit": "explicabo",
+  "SubscriptionQuantity": 11034.814,
+  "SubscriptionStart": "2013-03-08T10:30:24.4346264+01:00",
+  "ERPDiscountPercent": 16108.76,
+  "ERPDiscountAmount": 22577.336,
+  "DiscountPercent": 19129.935999999998,
+  "DiscountAmount": 7474.59,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 2830.002,
-  "EarningAmount": 20565.308,
-  "SubTotal": 11699.222,
-  "TotalPrice": 25727.005999999998,
-  "Rights": "atque",
-  "Rule": "quia",
-  "ExtraField1": "maiores",
-  "ExtraField2": "placeat",
-  "ExtraField3": "error",
-  "ExtraField4": "impedit",
-  "ExtraField5": "aut",
+  "EarningPercent": 23555.144,
+  "EarningAmount": 3359.6479999999997,
+  "SubTotal": 10414.282,
+  "TotalPrice": 18067.51,
+  "Rights": "eum",
+  "Rule": "officiis",
+  "ExtraField1": "tenetur",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "in",
+  "ExtraField4": "sapiente",
+  "ExtraField5": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldLength": 925
     }
   }
 }

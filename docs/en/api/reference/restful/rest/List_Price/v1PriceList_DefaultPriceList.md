@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 651,
-  "ERPPriceListKey": "laborum",
-  "QuoteConnectionId": 257,
-  "Name": "O'Reilly-Johnston",
-  "Description": "Function-based real-time monitoring",
-  "Currency": "iusto",
-  "CurrencyName": "Conn-Feeney",
-  "ValidFrom": "2021-12-07T16:55:30.7751722+01:00",
-  "ValidTo": "2007-05-10T16:55:30.7751722+02:00",
+  "PriceListId": 634,
+  "ERPPriceListKey": "corporis",
+  "QuoteConnectionId": 423,
+  "Name": "Price-Farrell",
+  "Description": "Optimized bandwidth-monitored protocol",
+  "Currency": "quo",
+  "CurrencyName": "Schroeder-Boehm",
+  "ValidFrom": "2021-04-06T10:30:33.0680874+02:00",
+  "ValidTo": "2019-11-20T10:30:33.0680874+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 29
     }
   }
 }

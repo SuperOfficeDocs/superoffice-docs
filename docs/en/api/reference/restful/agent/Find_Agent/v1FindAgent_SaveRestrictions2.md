@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deleniti",
-  "ProviderName": "Corkery Group",
+  "StorageType": "ea",
+  "ProviderName": "O'Hara, Pfeffer and Armstrong",
   "StorageKey": "et",
-  "Restrictions": "quis"
+  "Restrictions": "enim"
 }
 ```
 

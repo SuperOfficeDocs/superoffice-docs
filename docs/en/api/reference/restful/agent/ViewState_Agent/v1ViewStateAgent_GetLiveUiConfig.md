@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/ViewState/GetLiveUiConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,14 +76,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsEnabled": false,
-  "PollingInterval": 777,
+  "IsEnabled": true,
+  "PollingInterval": 483,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 388
     }
   }
 }

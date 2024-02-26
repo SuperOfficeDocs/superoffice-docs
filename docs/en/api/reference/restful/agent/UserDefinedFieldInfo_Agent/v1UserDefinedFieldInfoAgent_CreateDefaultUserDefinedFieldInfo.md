@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 625,
-  "ColumnId": 796,
-  "FieldDefault": "ut",
-  "FieldHeight": 179,
-  "FieldLabel": "quis",
-  "FieldLeft": 868,
-  "FieldTop": 106,
+  "UDefFieldId": 218,
+  "ColumnId": 288,
+  "FieldDefault": "et",
+  "FieldHeight": 399,
+  "FieldLabel": "quia",
+  "FieldLeft": 470,
+  "FieldTop": 145,
   "FieldType": "Checkbox",
-  "FieldWidth": 867,
-  "FormatMask": "dolores",
+  "FieldWidth": 539,
+  "FormatMask": "a",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 863,
-  "LabelLeft": 893,
-  "LabelTop": 53,
-  "LabelWidth": 453,
-  "LastVersionId": 300,
-  "ListTableId": 976,
-  "IsMandatory": false,
+  "LabelHeight": 4,
+  "LabelLeft": 246,
+  "LabelTop": 377,
+  "LabelWidth": 116,
+  "LastVersionId": 105,
+  "ListTableId": 377,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 54,
-  "ProgId": "voluptates",
-  "IsReadOnly": false,
-  "ShortLabel": "modi",
-  "TabOrder": 63,
-  "TextLength": 999,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 273,
-  "UDListDefinitionId": 659,
+  "Page1LineNo": 779,
+  "ProgId": "quia",
+  "IsReadOnly": true,
+  "ShortLabel": "praesentium",
+  "TabOrder": 840,
+  "TextLength": 806,
+  "Tooltip": "aut",
+  "UdefIdentity": 630,
+  "UDListDefinitionId": 206,
   "Justification": "Center",
-  "Version": 280,
-  "TemplateVariableName": "Funk Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Stracke, Towne and Kirlin",
+  "Version": 423,
+  "TemplateVariableName": "Jacobi LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Becker, Zieme and Skiles",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldType": "System.String",
+      "FieldLength": 852
     }
   }
 }

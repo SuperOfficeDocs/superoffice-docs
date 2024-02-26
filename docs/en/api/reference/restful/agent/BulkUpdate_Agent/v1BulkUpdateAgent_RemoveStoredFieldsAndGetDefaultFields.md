@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Fisher Group",
-  "Context": "quia"
+  "TableName": "Balistreri-Rippin",
+  "Context": "nisi"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": true,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "aut",
-    "ValueType": "voluptatem",
+    "Key": "distinctio",
+    "ValueType": "atque",
     "Mandatory": false,
-    "EncodedDisplayName": "Reichel-Metz",
-    "EncodedDisplayDescription": "Profit-focused client-driven methodology",
-    "IconHint": "quis",
+    "EncodedDisplayName": "Hermiston, McClure and Mills",
+    "EncodedDisplayDescription": "Managed empowering attitude",
+    "IconHint": "numquam",
     "ControlInfos": [
       {
-        "Type": "corrupti",
-        "Label": "minus",
-        "Dimension": 821,
-        "ListProviderName": "Glover, Rodriguez and Koelpin",
-        "ListProviderExtraInfo": "tenetur",
-        "ListProviderPrimaryKeyName": "Waelchi Group",
-        "ListLeadText": "in",
+        "Type": "reprehenderit",
+        "Label": "praesentium",
+        "Dimension": 312,
+        "ListProviderName": "Batz, McClure and Sipes",
+        "ListProviderExtraInfo": "aut",
+        "ListProviderPrimaryKeyName": "Jacobson-Hegmann",
+        "ListLeadText": "expedita",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldType": "System.Int32",
+            "FieldLength": 193
           }
         }
       }
     ],
-    "EncodedDataCaption": "aut",
-    "EncodedDataCaptionDescription": "Cross-group incremental archive",
-    "CurrentOperationType": "et",
+    "EncodedDataCaption": "sit",
+    "EncodedDataCaptionDescription": "Integrated logistical middleware",
+    "CurrentOperationType": "in",
     "Values": [
-      "iusto",
-      "eligendi"
+      "beatae",
+      "quos"
     ],
     "DisplayValues": [
-      "quasi",
-      "totam"
+      "omnis",
+      "non"
     ],
     "OperationInfos": [
       {
-        "Key": "dolorem",
-        "EncodedDisplayName": "Wilderman, Mueller and Armstrong",
+        "Key": "vitae",
+        "EncodedDisplayName": "Rogahn, Volkman and Waters",
         "EncodedLeadTexts": [
-          "in",
-          "aut"
+          "magnam",
+          "fugiat"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 97
+            "FieldLength": 513
           }
         }
       },
       {
-        "Key": "dolorem",
-        "EncodedDisplayName": "Wilderman, Mueller and Armstrong",
+        "Key": "vitae",
+        "EncodedDisplayName": "Rogahn, Volkman and Waters",
         "EncodedLeadTexts": [
-          "in",
-          "aut"
+          "magnam",
+          "fugiat"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 97
+            "FieldLength": 513
           }
         }
       }

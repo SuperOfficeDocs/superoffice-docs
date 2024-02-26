@@ -1108,7 +1108,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/associateType,person/personUdef/SuperOffice:11,person/correspondingAssociate/assocName,contact/contactExtra/x_contact_contact_relation,project/SaintStatus3
+GET /api/v1/archive/LinksSales?$select=person/middleName,person/consentSourceEmarketing,contact/updatedByFullName,project/SaintStatus3,project/saintTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

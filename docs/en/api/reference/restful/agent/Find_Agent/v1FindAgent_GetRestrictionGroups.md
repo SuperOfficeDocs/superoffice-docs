@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "distinctio",
-  "ProviderName": "Balistreri, Kohler and Willms",
-  "StorageKey": "maiores",
-  "Context": "quia"
+  "StorageType": "nihil",
+  "ProviderName": "Keeling-Wisoky",
+  "StorageKey": "sed",
+  "Context": "modi"
 }
 ```
 
@@ -96,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Adams-West",
-    "Description": "Programmable static utilisation",
-    "Rank": 436,
+    "Name": "Murphy, Cruickshank and Beer",
+    "Description": "Compatible real-time encoding",
+    "Rank": 543,
     "Restrictions": [
       {
-        "Name": "Predovic, Kreiger and Sporer",
-        "Operator": "dicta",
+        "Name": "Batz-Ernser",
+        "Operator": "ut",
         "Values": [
-          "quaerat",
-          "non"
+          "aliquam",
+          "id"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "sunt"
+          "fugiat",
+          "enim"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 808,
+        "InterParenthesis": 348,
         "InterOperator": "And",
-        "UniqueHash": 752
+        "UniqueHash": 471
       }
     ]
   },
   {
-    "Name": "Adams-West",
-    "Description": "Programmable static utilisation",
-    "Rank": 436,
+    "Name": "Murphy, Cruickshank and Beer",
+    "Description": "Compatible real-time encoding",
+    "Rank": 543,
     "Restrictions": [
       {
-        "Name": "Predovic, Kreiger and Sporer",
-        "Operator": "dicta",
+        "Name": "Batz-Ernser",
+        "Operator": "ut",
         "Values": [
-          "quaerat",
-          "non"
+          "aliquam",
+          "id"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "sunt"
+          "fugiat",
+          "enim"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 808,
+        "InterParenthesis": 348,
         "InterOperator": "And",
-        "UniqueHash": 752
+        "UniqueHash": 471
       }
     ]
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Altenwerth, Cassin and Ullrich",
-    "ToolTip": "Impedit reiciendis natus cum quisquam dolorem non.",
+    "Id": 969,
+    "Name": "Gottlieb, Skiles and Franecki",
+    "ToolTip": "Et voluptas autem iure quo eos.",
     "Deleted": false,
-    "Rank": 382,
-    "Type": "libero",
-    "ColorBlock": 224,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2004-04-26T16:55:30.8007354+02:00",
+    "Rank": 8,
+    "Type": "nesciunt",
+    "ColorBlock": 682,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "1999-06-22T10:30:33.1005836+02:00",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Okuneva LLC",
-        "ToolTip": "Delectus aut non quis adipisci et consequatur.",
-        "Deleted": true,
-        "Rank": 138,
-        "Type": "molestias",
-        "ColorBlock": 837,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2003-08-04T16:55:30.8007354+02:00",
+        "Id": 111,
+        "Name": "Bradtke-Cartwright",
+        "ToolTip": "In sit aut distinctio quas.",
+        "Deleted": false,
+        "Rank": 462,
+        "Type": "dolore",
+        "ColorBlock": 128,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2015-01-10T10:30:33.1005836+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "id",
+        "ExtraInfo": "id",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Wendy Herta Yost PhD",
+        "FullName": "Mr. Alessandro Hamill DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 520
+            "FieldLength": 801
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "autem",
+    "ExtraInfo": "ut",
+    "StyleHint": "doloribus",
     "Hidden": true,
-    "FullName": "Hiram Macejkovic",
+    "FullName": "Darlene Kassulke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 94
       }
     }
   }

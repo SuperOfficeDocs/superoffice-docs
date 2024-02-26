@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 970,
-    "Tooltip": "saepe",
-    "CanAssign": true,
-    "Free": 913,
-    "InUse": 244,
-    "IsHidden": false,
+    "Total": 949,
+    "Tooltip": "qui",
+    "CanAssign": false,
+    "Free": 236,
+    "InUse": 138,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 231,
-    "Name": "Skiles Inc and Sons",
-    "Description": "Adaptive local capacity",
-    "PrerequisiteModuleName": "Collins Inc and Sons",
-    "SortOrder": 510,
-    "ExtraFlags": 573,
+    "ModuleLicenseId": 976,
+    "Name": "Durgan-Stiedemann",
+    "Description": "Profound dedicated Graphical User Interface",
+    "PrerequisiteModuleName": "Vandervort LLC",
+    "SortOrder": 660,
+    "ExtraFlags": 63,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldLength": 755
       }
     }
   }

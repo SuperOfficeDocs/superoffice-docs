@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Larson LLC",
-  "TypicalSearchId": 939
+  "EntityName": "Maggio-Stracke",
+  "TypicalSearchId": 570
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Renner Inc and Sons",
-  "SelectionId": 323,
-  "CanSaveAsSelection": true,
-  "MainHeading": "excepturi",
-  "FilterScreenHeading": "incidunt",
-  "SelectionEntityHeading": "facere",
+  "ProviderName": "Armstrong, Frami and Satterfield",
+  "SelectionId": 101,
+  "CanSaveAsSelection": false,
+  "MainHeading": "unde",
+  "FilterScreenHeading": "fugiat",
+  "SelectionEntityHeading": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 359
     }
   }
 }

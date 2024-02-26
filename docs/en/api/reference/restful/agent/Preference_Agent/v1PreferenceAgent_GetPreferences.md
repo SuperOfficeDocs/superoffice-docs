@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "voluptate",
-      "Key": "et"
+      "Section": "et",
+      "Key": "id"
     },
     {
-      "Section": "voluptate",
-      "Key": "et"
+      "Section": "et",
+      "Key": "id"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "repellendus",
+    "RawValue": "ullam",
     "Specification": null,
-    "DisplayValue": "ducimus",
-    "DisplayTooltip": "consequuntur",
+    "DisplayValue": "nam",
+    "DisplayTooltip": "et",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 765,
-    "PrefDescId": 411,
-    "TableName": "Balistreri-Crona",
-    "UserPreferenceId": 604,
+    "TargetId": 525,
+    "PrefDescId": 648,
+    "TableName": "Lemke, Bogan and Watsica",
+    "UserPreferenceId": 336,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 269
       }
     }
   }

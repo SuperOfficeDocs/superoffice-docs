@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 420,
-  "Name": "Braun, Anderson and Parisian",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 675,
+  "WebPanelId": 117,
+  "Name": "Metz LLC",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 72,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Monahan-Hintz",
+  "WindowName": "Thiel-Wunsch",
   "Url": "http://www.example.com/",
-  "ProgId": "deleniti",
-  "Icon": 153,
+  "ProgId": "qui",
+  "Icon": 485,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 642
     }
   }
 }

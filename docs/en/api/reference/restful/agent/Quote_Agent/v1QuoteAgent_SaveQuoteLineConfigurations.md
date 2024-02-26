@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 312,
-      "FieldName": "Gleichner-Hickle",
-      "Label": "consequatur",
-      "Tooltip": "laboriosam",
-      "Editable": true,
+      "QuoteLineConfigurationId": 692,
+      "FieldName": "Mayer-Botsford",
+      "Label": "laborum",
+      "Tooltip": "at",
+      "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 834,
+      "Rank": 875,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 671,
-    "FieldName": "Kris Group",
-    "Label": "hic",
-    "Tooltip": "molestias",
-    "Editable": false,
+    "QuoteLineConfigurationId": 554,
+    "FieldName": "Koch-Becker",
+    "Label": "eius",
+    "Tooltip": "eum",
+    "Editable": true,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 859,
+    "Mandatory": true,
+    "Rank": 262,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 695
       }
     }
   }

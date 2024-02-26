@@ -107,16 +107,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 827,
-  "Name": "Casper Inc and Sons",
-  "Tooltip": "aut",
+  "RoleId": 76,
+  "Name": "Block LLC",
+  "Tooltip": "sint",
   "RoleType": "Anonymous",
-  "Deleted": 880,
-  "Rank": 29,
-  "Created": "1998-11-13T16:55:29.9879903+01:00",
-  "UseCategories": 195,
+  "Deleted": 750,
+  "Rank": 960,
+  "Created": "2019-01-29T10:30:32.260549+01:00",
+  "UseCategories": 330,
   "CreatedBy": null,
-  "Updated": "2003-05-01T16:55:29.9879903+02:00",
+  "Updated": "2014-06-22T10:30:32.260549+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 916,
-  "Name": "Goldner, Ritchie and Harvey",
-  "Tooltip": "nesciunt",
+  "RoleId": 646,
+  "Name": "Shields, Feest and Hodkiewicz",
+  "Tooltip": "libero",
   "RoleType": "Anonymous",
-  "Deleted": 463,
-  "Rank": 604,
-  "Created": "2008-05-04T16:55:29.9905019+02:00",
-  "UseCategories": 315,
+  "Deleted": 352,
+  "Rank": 504,
+  "Created": "2018-04-24T10:30:32.260549+02:00",
+  "UseCategories": 961,
   "CreatedBy": null,
-  "Updated": "2019-04-28T16:55:29.9905019+02:00",
+  "Updated": "2009-03-25T10:30:32.260549+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 696
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

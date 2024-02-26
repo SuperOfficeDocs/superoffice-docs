@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wisozk LLC",
+  "ProviderName": "Block Inc and Sons",
   "DesiredColumns": [
-    "quidem",
-    "blanditiis"
+    "occaecati",
+    "neque"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Watsica Inc and Sons",
+    "Name": "Haag, Deckow and Kunde",
     "Direction": "ASC"
   },
   {
-    "Name": "Watsica Inc and Sons",
+    "Name": "Haag, Deckow and Kunde",
     "Direction": "ASC"
   }
 ]

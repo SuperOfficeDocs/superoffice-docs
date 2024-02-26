@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 566,
-  "Name": "Wisozk, Kemmer and Ondricka",
-  "Tooltip": "nemo",
+  "HeadingId": 110,
+  "Name": "Weber LLC",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 547,
-  "UdListDefinitionId": 531
+  "Rank": 262,
+  "UdListDefinitionId": 986
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 12,
-  "Name": "Bruen, Conroy and Windler",
-  "Tooltip": "ut",
+  "HeadingId": 85,
+  "Name": "Corkery, Rolfson and Gerlach",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 589,
-  "UdListDefinitionId": 811,
+  "Rank": 218,
+  "UdListDefinitionId": 221,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldType": "System.String",
+      "FieldLength": 607
     }
   }
 }

@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 122,
-  "EmailAddress": "anderson.dare@bruen.uk",
+  "PersonId": 330,
+  "EmailAddress": "seamus@towne.uk",
   "SetAsPrimaryEmail": false
 }
 ```

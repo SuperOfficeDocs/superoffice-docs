@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 903,
-  "ERPProductKey": "sed",
-  "ERPPriceListKey": "praesentium",
-  "Name": "Hickle LLC",
-  "Description": "Progressive next generation hardware",
-  "Code": "nam",
-  "PriceUnit": "quis",
-  "QuantityUnit": "consequatur",
+  "ProductId": 883,
+  "ERPProductKey": "sint",
+  "ERPPriceListKey": "aperiam",
+  "Name": "Frami Group",
+  "Description": "Expanded eco-centric local area network",
+  "Code": "iste",
+  "PriceUnit": "qui",
+  "QuantityUnit": "perspiciatis",
   "IsSubscription": false,
-  "SubscriptionUnit": "dolores",
-  "DefaultSubscriptionQuantity": 26745.556,
-  "ItemNumber": "1257390",
+  "SubscriptionUnit": "repudiandae",
+  "DefaultSubscriptionQuantity": 20941.388,
+  "ItemNumber": "1059433",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "itaque",
-  "VAT": 27021.347999999998,
-  "VATInfo": "reprehenderit",
-  "UnitCost": 26883.451999999997,
-  "UnitMinimumPrice": 13153.398,
-  "UnitListPrice": 10937.66,
+  "ProductFamilyKey": "veritatis",
+  "ProductTypeKey": "voluptas",
+  "VAT": 5334.068,
+  "VATInfo": "ea",
+  "UnitCost": 25448.079999999998,
+  "UnitMinimumPrice": 22668.221999999998,
+  "UnitListPrice": 12338.557999999999,
   "InAssortment": false,
-  "Supplier": "sit",
-  "SupplierCode": "similique",
-  "Rights": "quo",
-  "Rule": "quidem",
+  "Supplier": "consectetur",
+  "SupplierCode": "itaque",
+  "Rights": "placeat",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Prohaska, Larkin and Rodriguez",
-      "Value": "excepturi",
+      "Name": "Mitchell, Heidenreich and Stiedemann",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldType": "System.String",
+          "FieldLength": 700
         }
       }
     },
     {
-      "Name": "Prohaska, Larkin and Rodriguez",
-      "Value": "excepturi",
+      "Name": "Mitchell, Heidenreich and Stiedemann",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldType": "System.String",
+          "FieldLength": 700
         }
       }
     }
   ],
-  "RawExtraInfo": "quaerat",
-  "ExtraField1": "sint",
-  "ExtraField2": "incidunt",
-  "ExtraField3": "repudiandae",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "laborum",
-  "InStock": 17164.917999999998,
+  "RawExtraInfo": "ullam",
+  "ExtraField1": "blanditiis",
+  "ExtraField2": "corporis",
+  "ExtraField3": "necessitatibus",
+  "ExtraField4": "deleniti",
+  "ExtraField5": "laboriosam",
+  "InStock": 19208.286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 303
     }
   }
 }

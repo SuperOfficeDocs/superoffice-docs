@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,30 +76,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 255,
-  "Name": "Rolfson Inc and Sons",
-  "Rank": 763,
-  "Tooltip": "qui",
-  "Icon": "similique",
-  "DefaultTicketStatus": 690,
+  "TicketTypeId": 729,
+  "Name": "Ward-Brekke",
+  "Rank": 898,
+  "Tooltip": "aut",
+  "Icon": "omnis",
+  "DefaultTicketStatus": 359,
   "TicketStatuses": [
-    806,
-    912
+    617,
+    833
   ],
-  "DefaultTicketPriority": 295,
+  "DefaultTicketPriority": 34,
   "TicketPriorities": [
-    153,
-    697
+    285,
+    181
   ],
-  "ReplyTemplate": 936,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 568,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldType": "System.String",
+      "FieldLength": 7
     }
   }
 }

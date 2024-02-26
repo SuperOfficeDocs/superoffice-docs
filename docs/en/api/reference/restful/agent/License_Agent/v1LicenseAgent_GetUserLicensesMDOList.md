@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Nader-Leannon",
-    "ToolTip": "Facere possimus.",
-    "Deleted": false,
-    "Rank": 108,
-    "Type": "nesciunt",
-    "ColorBlock": 151,
-    "IconHint": "quae",
+    "Id": 809,
+    "Name": "Leannon, Legros and Ernser",
+    "ToolTip": "Aut qui ut velit.",
+    "Deleted": true,
+    "Rank": 591,
+    "Type": "vitae",
+    "ColorBlock": 816,
+    "IconHint": "rem",
     "Selected": false,
-    "LastChanged": "2009-12-17T16:54:55.5064695+01:00",
+    "LastChanged": "2021-05-25T10:30:23.9272181+02:00",
     "ChildItems": [
       {
-        "Id": 496,
-        "Name": "Kris, Schinner and Kub",
-        "ToolTip": "Et ipsa omnis.",
-        "Deleted": false,
-        "Rank": 347,
-        "Type": "ea",
-        "ColorBlock": 892,
-        "IconHint": "consequatur",
+        "Id": 7,
+        "Name": "Maggio LLC",
+        "ToolTip": "Repellat est et qui quibusdam veritatis.",
+        "Deleted": true,
+        "Rank": 143,
+        "Type": "facilis",
+        "ColorBlock": 884,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2001-05-07T16:54:55.5064695+02:00",
+        "LastChanged": "2021-01-27T10:30:23.9272181+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "rerum",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Prof. Jonas Obie Schoen IV",
+        "FullName": "Christina Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Dr. Rashawn Ulises Greenfelder III",
+    "FullName": "Dr. Constantin Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 208
       }
     }
   }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 26 Dec 2005 16:55:29 G12T
+Last-Modified: Mon, 10 Jan 2000 10:30:32 G1T
 
 {
-  "Key": "aspernatur",
-  "Value": "reprehenderit",
-  "RecordId": 85,
-  "CreatedDate": "2002-08-19T16:55:29.6544397+02:00",
-  "UpdatedDate": "2005-12-26T16:55:29.6544397+01:00",
-  "UpdatedBy": "dignissimos",
-  "CreatedBy": "nesciunt",
-  "TableName": "Medhurst Inc and Sons",
+  "Key": "sint",
+  "Value": "magnam",
+  "RecordId": 234,
+  "CreatedDate": "2009-07-29T10:30:32.0730519+02:00",
+  "UpdatedDate": "2000-01-10T10:30:32.0730519+01:00",
+  "UpdatedBy": "aliquid",
+  "CreatedBy": "praesentium",
+  "TableName": "Kilback Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldType": "System.Int32",
+      "FieldLength": 91
     }
   }
 }

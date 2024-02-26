@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 928,
-    "Tooltip": "mollitia",
-    "CanAssign": true,
-    "Free": 347,
-    "InUse": 440,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 418,
-    "Name": "Pollich-Senger",
-    "Description": "Triple-buffered asynchronous internet solution",
-    "PrerequisiteModuleName": "Bednar-Howe",
-    "SortOrder": 279,
-    "ExtraFlags": 268,
+    "Unrestricted": true,
+    "Total": 131,
+    "Tooltip": "odio",
+    "CanAssign": false,
+    "Free": 602,
+    "InUse": 123,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 257,
+    "Name": "Dibbert Group",
+    "Description": "Seamless fresh-thinking solution",
+    "PrerequisiteModuleName": "Considine Inc and Sons",
+    "SortOrder": 985,
+    "ExtraFlags": 823,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldType": "System.String",
+        "FieldLength": 295
       }
     }
   }

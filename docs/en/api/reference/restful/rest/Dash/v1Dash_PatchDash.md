@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "laborum",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laborum",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 963,
-  "UniqueId": "quia",
-  "Name": "Ziemann Group",
-  "Description": "Pre-emptive fault-tolerant analyzer",
-  "AssociateId": 683,
-  "Columns": 869,
+  "DashboardId": 651,
+  "UniqueId": "itaque",
+  "Name": "Bins, McGlynn and Heathcote",
+  "Description": "Universal intermediate application",
+  "AssociateId": 79,
+  "Columns": 703,
   "Theme": null,
-  "VisibleForAll": 3,
+  "VisibleForAll": 871,
   "VisibleForAssociates": [
-    629,
-    85
+    490,
+    84
   ],
   "VisibleForGroups": [
-    23,
-    873
+    667,
+    748
   ],
-  "PinForAll": 502,
+  "PinForAll": 347,
   "PinForAssociates": [
-    204,
-    567
+    466,
+    932
   ],
   "PinForGroups": [
-    659,
-    815
+    207,
+    851
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 762
     }
   },
   "_Links": {

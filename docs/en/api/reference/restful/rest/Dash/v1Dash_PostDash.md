@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 944,
-  "UniqueId": "rerum",
-  "Name": "Deckow LLC",
-  "Description": "Enterprise-wide 3rd generation productivity",
-  "AssociateId": 684,
-  "Columns": 388,
+  "DashboardId": 156,
+  "UniqueId": "neque",
+  "Name": "Bartoletti-Denesik",
+  "Description": "Pre-emptive disintermediate pricing structure",
+  "AssociateId": 431,
+  "Columns": 59,
   "Theme": null,
-  "VisibleForAll": 115,
+  "VisibleForAll": 812,
   "VisibleForAssociates": [
-    730,
-    140
+    416,
+    452
   ],
   "VisibleForGroups": [
-    375,
-    411
+    386,
+    657
   ],
-  "PinForAll": 429,
+  "PinForAll": 608,
   "PinForAssociates": [
-    10,
-    718
+    902,
+    765
   ],
   "PinForGroups": [
-    121,
-    319
+    817,
+    539
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 270,
-  "UniqueId": "et",
-  "Name": "O'Reilly-Marquardt",
-  "Description": "Reactive fault-tolerant Graphical User Interface",
-  "AssociateId": 9,
-  "Columns": 467,
+  "DashboardId": 649,
+  "UniqueId": "eos",
+  "Name": "Schmitt, Grant and Daniel",
+  "Description": "Multi-channelled systematic Graphical User Interface",
+  "AssociateId": 394,
+  "Columns": 485,
   "Theme": null,
-  "VisibleForAll": 830,
+  "VisibleForAll": 642,
   "VisibleForAssociates": [
-    19,
-    856
+    811,
+    32
   ],
   "VisibleForGroups": [
-    138,
-    298
+    245,
+    862
   ],
-  "PinForAll": 708,
+  "PinForAll": 504,
   "PinForAssociates": [
-    409,
-    761
+    791,
+    215
   ],
   "PinForGroups": [
-    97,
-    977
+    285,
+    312
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 364
     }
   },
   "_Links": {

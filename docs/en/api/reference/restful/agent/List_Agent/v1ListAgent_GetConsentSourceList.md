@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 808,
-    "Name": "Ondricka Inc and Sons",
-    "Tooltip": "aut",
-    "Rank": 12,
-    "Key": "consectetur",
-    "MailTemplateId": 114,
-    "Deleted": false,
+    "ConsentSourceId": 319,
+    "Name": "Stroman Group",
+    "Tooltip": "consequatur",
+    "Rank": 567,
+    "Key": "maiores",
+    "MailTemplateId": 11,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 763
       }
     }
   }

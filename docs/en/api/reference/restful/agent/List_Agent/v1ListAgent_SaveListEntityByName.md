@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/List/SaveListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kassulke, Koelpin and Glover",
+  "Name": "Lindgren, Swift and Price",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126,
-  "Name": "Mueller-Shields",
-  "Tooltip": "eos",
+  "Id": 999,
+  "Name": "Nader-Berge",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 715,
+  "Rank": 568,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequuntur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 779
     }
   }
 }

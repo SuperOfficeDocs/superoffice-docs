@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Mraz-Hessel",
-    "ToolTip": "Eaque tempore qui aliquid quia veniam ut.",
+    "Id": 322,
+    "Name": "Gerhold Group",
+    "ToolTip": "Nam cupiditate minima omnis laboriosam commodi neque.",
     "Deleted": false,
-    "Rank": 345,
-    "Type": "dolorem",
+    "Rank": 991,
+    "Type": "illum",
     "ChildItems": [
       {
-        "Id": 286,
-        "Name": "Jacobson-Weissnat",
-        "ToolTip": "Quia porro sed iste molestiae enim quibusdam voluptate.",
+        "Id": 510,
+        "Name": "Batz, Gerhold and Kovacek",
+        "ToolTip": "Id nihil vel.",
         "Deleted": true,
-        "Rank": 544,
-        "Type": "consequatur",
+        "Rank": 575,
+        "Type": "excepturi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 116,
-        "ExtraInfo": "nemo",
-        "StyleHint": "dolore",
-        "FullName": "Ms. Oran Smitham DDS",
+        "IconHint": "eum",
+        "ColorBlock": 664,
+        "ExtraInfo": "libero",
+        "StyleHint": "vel",
+        "FullName": "Elias Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 684
+            "FieldType": "System.Int32",
+            "FieldLength": 667
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 953,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "dolor",
-    "FullName": "Mozell Emard",
+    "IconHint": "suscipit",
+    "ColorBlock": 280,
+    "ExtraInfo": "pariatur",
+    "StyleHint": "enim",
+    "FullName": "Chadrick Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 871
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   }

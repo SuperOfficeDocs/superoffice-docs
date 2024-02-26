@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptatum",
-  "Key": "nostrum",
+  "Section": "provident",
+  "Key": "est",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 819,
-  "Section": "est",
-  "Key": "impedit",
-  "Name": "Stracke, Marks and D'Amore",
+  "PrefDescId": 170,
+  "Section": "porro",
+  "Key": "rerum",
+  "Name": "Brown-Dach",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed multi-state groupware",
+  "Description": "Secured 24/7 frame",
   "IsBuiltin": true,
-  "TableName": "Romaguera, Weimann and Mayer",
-  "UserDefinedListId": 931,
-  "Rank": 626,
-  "SubGroup": "fugiat",
-  "MinLevel": 264,
-  "MaxValue": 676,
-  "MinValue": 435,
-  "RequiredLicense": "quia",
+  "TableName": "Schroeder-Stoltenberg",
+  "UserDefinedListId": 523,
+  "Rank": 916,
+  "SubGroup": "possimus",
+  "MinLevel": 89,
+  "MaxValue": 249,
+  "MinValue": 151,
+  "RequiredLicense": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 329
     }
   }
 }

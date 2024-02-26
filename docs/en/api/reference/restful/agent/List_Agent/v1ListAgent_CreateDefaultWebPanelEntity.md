@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 492,
-  "Name": "Funk Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 82,
+  "WebPanelId": 132,
+  "Name": "Jacobi, Harvey and Bartell",
+  "Tooltip": "ex",
+  "Deleted": true,
+  "Rank": 441,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Smith-Schiller",
+  "WindowName": "Schmeler LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "possimus",
-  "Icon": 543,
+  "ProgId": "laboriosam",
+  "Icon": 981,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

@@ -88,18 +88,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 832,
+  "SelectionId": 455,
   "Criteria": [
     {
-      "Name": "Willms Inc and Sons",
-      "Operator": "officia",
+      "Name": "Braun-Schamberger",
+      "Operator": "corrupti",
       "Values": [
-        "quia",
-        "inventore"
+        "asperiores",
+        "illo"
       ],
       "DisplayValues": [
-        "adipisci",
-        "doloremque"
+        "aut",
+        "ipsum"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 429,
+      "InterParenthesis": 82,
       "InterOperator": "And",
-      "UniqueHash": 279
+      "UniqueHash": 875
     }
   ],
-  "Filter": "quisquam"
+  "Filter": "ex"
 }
 ```
 
@@ -124,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quigley-Pollich",
-    "Operator": "incidunt",
+    "Name": "Murazik Group",
+    "Operator": "sunt",
     "Values": [
-      "incidunt",
-      "est"
+      "illo",
+      "modi"
     ],
     "DisplayValues": [
-      "maiores",
-      "similique"
+      "doloremque",
+      "velit"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Runolfsson-Stark",
-        "Operator": "perferendis",
+        "Name": "Haley, Pfeffer and Ortiz",
+        "Operator": "excepturi",
         "Values": [
-          "rerum",
-          "non"
+          "delectus",
+          "labore"
         ],
         "DisplayValues": [
-          "quos",
-          "et"
+          "eligendi",
+          "repellendus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 479,
+        "InterParenthesis": 780,
         "InterOperator": "And",
-        "UniqueHash": 788
+        "UniqueHash": 913
       }
     ],
-    "InterParenthesis": 174,
+    "InterParenthesis": 536,
     "InterOperator": "And",
-    "UniqueHash": 560
+    "UniqueHash": 880
   }
 ]
 ```

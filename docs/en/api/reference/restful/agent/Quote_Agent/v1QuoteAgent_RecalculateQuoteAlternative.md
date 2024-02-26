@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 46
+  "QuoteAlternative": 734
 }
 ```
 
@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 450
+      "FieldType": "System.Int32",
+      "FieldLength": 737
     }
   }
 }

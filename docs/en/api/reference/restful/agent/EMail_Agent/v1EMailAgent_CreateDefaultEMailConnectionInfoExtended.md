@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 60,
-  "ServerName": "Wilkinson-McCullough",
-  "Protocol": "sunt",
-  "UserName": "Walsh, Feest and Veum",
-  "Password": "praesentium",
-  "UseSSL": false,
-  "Folder": "aliquam",
+  "Port": 649,
+  "ServerName": "Marks, Blanda and Gulgowski",
+  "Protocol": "iure",
+  "UserName": "Berge LLC",
+  "Password": "laudantium",
+  "UseSSL": true,
+  "Folder": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 910
     }
   }
 }

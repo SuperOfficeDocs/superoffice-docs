@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Abernathy-Ruecker",
-  "SaleDate": "2012-11-24T16:55:30.1010394+01:00",
-  "SaleId": 668,
-  "Probability": 843,
-  "Title": "nihil",
-  "Amount": 4440.878,
-  "Currency": "eum",
-  "ProjectName": "Strosin LLC",
-  "AssociateFullName": "Karlee Legros",
-  "Description": "Digitized coherent ability",
+  "ContactName": "Romaguera, O'Conner and Eichmann",
+  "SaleDate": "2006-11-17T10:30:32.4656327+01:00",
+  "SaleId": 800,
+  "Probability": 248,
+  "Title": "magnam",
+  "Amount": 11009.742,
+  "Currency": "architecto",
+  "ProjectName": "Wilderman-Herman",
+  "AssociateFullName": "Mr. Reina Ignatius Gibson PhD",
+  "Description": "Organized didactic monitoring",
   "Status": "Lost",
-  "WeightedAmount": 10846.774,
-  "ProjectId": 740,
-  "EarningPercent": 868.11799999999994,
-  "Earning": 12401.238,
-  "ContactId": 565,
-  "AssociateId": 974,
-  "PersonId": 429,
-  "SaleTypeId": 36,
-  "SaleTypeName": "Reynolds-Macejkovic",
-  "PersonFullName": "Lizzie McCullough III",
+  "WeightedAmount": 10668.136,
+  "ProjectId": 336,
+  "EarningPercent": 16970.61,
+  "Earning": 20640.523999999998,
+  "ContactId": 867,
+  "AssociateId": 816,
+  "PersonId": 101,
+  "SaleTypeId": 415,
+  "SaleTypeName": "Wiegand-McLaughlin",
+  "PersonFullName": "Mrs. Coy Nola Marks PhD",
   "Completed": "Completed",
-  "ActiveErpLinks": 870,
-  "NextDueDate": "2006-07-12T16:55:30.1020273+02:00",
-  "Number": "822490",
+  "ActiveErpLinks": 618,
+  "NextDueDate": "2009-11-08T10:30:32.4656327+01:00",
+  "Number": "899321",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

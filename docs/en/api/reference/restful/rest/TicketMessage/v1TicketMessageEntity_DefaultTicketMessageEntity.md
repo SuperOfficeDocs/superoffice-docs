@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,78 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 556,
+  "EjMessageId": 497,
   "Ticket": null,
-  "CreatedAt": "2011-01-13T16:55:30.2640669+01:00",
+  "CreatedAt": "2022-11-03T10:30:32.6074787+01:00",
   "CreatedBy": null,
-  "Author": "aliquid",
+  "Author": "eos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rem",
-  "TimeSpent": 736,
-  "Body": "et",
-  "HtmlBody": "neque",
-  "EmailHeader": "malcolm@jacobson.info",
-  "DebugInfo": "commodi",
-  "MailSorter": "ea",
+  "MessageId": "nam",
+  "TimeSpent": 465,
+  "Body": "similique",
+  "HtmlBody": "unde",
+  "EmailHeader": "saige@streich.ca",
+  "DebugInfo": "deserunt",
+  "MailSorter": "sapiente",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "impedit",
+  "SearchTitle": "ex",
   "MessageHeaders": [
     {
-      "Id": 670,
-      "Name": "Howell, Reilly and Glover",
-      "Value": "eos",
+      "Id": 767,
+      "Name": "Schowalter-Rutherford",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 443
+          "FieldType": "System.String",
+          "FieldLength": 547
         }
       }
     }
   ],
   "Important": false,
-  "Language": "eveniet",
-  "Sentiment": 520,
-  "SentimentConfidence": 484,
+  "Language": "illo",
+  "Sentiment": 598,
+  "SentimentConfidence": 475,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 892,
-      "Name": "Schuppe LLC",
-      "ContentType": "dolorem",
-      "AttSize": 371,
+      "AttachmentId": 189,
+      "Name": "Price Group",
+      "ContentType": "voluptate",
+      "AttSize": 422,
       "InlineImage": false,
-      "ContentId": "harum",
-      "AuthKey": "quisquam",
+      "ContentId": "quis",
+      "AuthKey": "quia",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 265
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "enim"
+    "CustomFields1": "libero",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   }
 }

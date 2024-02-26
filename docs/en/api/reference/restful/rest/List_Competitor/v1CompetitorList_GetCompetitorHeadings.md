@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 743,
-    "Name": "Conroy, Kozey and Dare",
-    "Tooltip": "quasi",
+    "HeadingId": 833,
+    "Name": "Bednar Group",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 980,
-    "UdListDefinitionId": 530,
+    "Rank": 821,
+    "UdListDefinitionId": 196,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 636
+        "FieldType": "System.String",
+        "FieldLength": 661
       }
     }
   }

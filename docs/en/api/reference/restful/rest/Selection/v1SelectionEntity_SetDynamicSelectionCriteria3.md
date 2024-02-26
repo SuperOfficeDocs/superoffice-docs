@@ -95,49 +95,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Smitham LLC",
-    "Operator": "voluptatum",
+    "Name": "Emmerich, Schowalter and Reichert",
+    "Operator": "repellendus",
     "Values": [
-      "unde",
-      "maiores"
+      "perspiciatis",
+      "rem"
     ],
     "DisplayValues": [
-      "facere",
-      "enim"
+      "eligendi",
+      "ullam"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Herman LLC",
-        "Operator": "nostrum",
+        "Name": "Kuphal-Schmitt",
+        "Operator": "et",
         "Values": [
-          "non",
-          "consectetur"
+          "qui",
+          "quaerat"
         ],
         "DisplayValues": [
-          "omnis",
-          "ut"
+          "dicta",
+          "molestiae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 64,
+        "InterParenthesis": 568,
         "InterOperator": "And",
-        "UniqueHash": 60
+        "UniqueHash": 225
       }
     ],
-    "InterParenthesis": 930,
+    "InterParenthesis": 973,
     "InterOperator": "And",
-    "UniqueHash": 761
+    "UniqueHash": 501
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nader-Waters",
-    "Operator": "dolorem",
+    "Name": "Mueller Inc and Sons",
+    "Operator": "debitis",
     "Values": [
-      "commodi",
-      "et"
+      "labore",
+      "excepturi"
     ],
     "DisplayValues": [
-      "est",
-      "accusantium"
+      "vitae",
+      "consectetur"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Walker-Sauer",
-        "Operator": "occaecati",
+        "Name": "Walsh-Stokes",
+        "Operator": "mollitia",
         "Values": [
-          "mollitia",
-          "mollitia"
+          "vero",
+          "eaque"
         ],
         "DisplayValues": [
-          "labore",
-          "eveniet"
+          "quae",
+          "culpa"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 431,
+        "InterParenthesis": 221,
         "InterOperator": "And",
-        "UniqueHash": 346
+        "UniqueHash": 344
       }
     ],
-    "InterParenthesis": 356,
+    "InterParenthesis": 643,
     "InterOperator": "And",
-    "UniqueHash": 435
+    "UniqueHash": 652
   }
 ]
 ```

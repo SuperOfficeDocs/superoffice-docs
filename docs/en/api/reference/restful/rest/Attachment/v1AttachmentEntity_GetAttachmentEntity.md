@@ -69,6 +69,7 @@ AttachmentEntity found.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -79,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,19 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 999,
-  "Name": "Roob-Turner",
-  "ContentType": "quaerat",
-  "AttSize": 980,
+  "AttachmentId": 181,
+  "Name": "Batz-Lubowitz",
+  "ContentType": "dignissimos",
+  "AttSize": 338,
   "InlineImage": false,
-  "ContentId": "dolorem",
-  "AuthKey": "magni",
+  "ContentId": "perspiciatis",
+  "AuthKey": "sed",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldType": "System.Int32",
+      "FieldLength": 972
     }
   },
   "_Links": {

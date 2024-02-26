@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 760,
-  "Name": "Legros LLC",
-  "CreatedDate": "2015-03-30T16:55:29.6534425+02:00",
-  "UpdatedDate": "2020-04-30T16:55:29.6534425+02:00",
-  "AssociateFullName": "Alverta Stokes",
-  "CreatedBy": "asperiores",
-  "UpdatedBy": "modi",
-  "DeviceIdentifier": "rem",
-  "ForeignAppId": 810,
+  "ForeignDeviceId": 276,
+  "Name": "Rippin, Oberbrunner and O'Kon",
+  "CreatedDate": "2004-06-05T10:30:32.0730519+02:00",
+  "UpdatedDate": "2001-10-04T10:30:32.0730519+02:00",
+  "AssociateFullName": "Kendra Funk",
+  "CreatedBy": "quia",
+  "UpdatedBy": "sequi",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 24,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 840
     }
   }
 }

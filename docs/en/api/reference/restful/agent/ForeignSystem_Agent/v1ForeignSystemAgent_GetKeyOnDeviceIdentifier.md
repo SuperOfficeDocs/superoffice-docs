@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Nolan, Ondricka and Braun",
-  "DeviceName": "Cormier, Hansen and Strosin",
-  "DeviceIdentifier": "nulla",
-  "KeyName": "Parisian, Graham and Quigley",
-  "TableName": "Crooks-Spencer",
-  "RecordId": 184
+  "ApplicationName": "Borer, Gerhold and Franecki",
+  "DeviceName": "Emard, Greenfelder and Lehner",
+  "DeviceIdentifier": "neque",
+  "KeyName": "Abernathy Group",
+  "TableName": "Cartwright Inc and Sons",
+  "RecordId": 604
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "similique",
-  "Value": "exercitationem",
-  "RecordId": 903,
-  "CreatedDate": "2012-08-31T16:54:55.4844672+02:00",
-  "UpdatedDate": "2009-03-04T16:54:55.4844672+01:00",
-  "UpdatedBy": "incidunt",
-  "CreatedBy": "suscipit",
-  "TableName": "Braun, Hammes and Cartwright",
+  "Key": "modi",
+  "Value": "neque",
+  "RecordId": 43,
+  "CreatedDate": "2019-07-29T10:30:23.9073938+02:00",
+  "UpdatedDate": "2000-11-23T10:30:23.9073938+01:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "occaecati",
+  "TableName": "Armstrong-Sipes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 431
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

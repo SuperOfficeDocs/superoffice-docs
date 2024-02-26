@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan-Herman",
-    "DisplayName": "Jenkins, Borer and DuBuque",
-    "DisplayTooltip": "rerum",
+    "Name": "Kozey-Smitham",
+    "DisplayName": "Conn-Brekke",
+    "DisplayTooltip": "quibusdam",
     "IsActive": false
   },
   {
-    "Name": "Rohan-Herman",
-    "DisplayName": "Jenkins, Borer and DuBuque",
-    "DisplayTooltip": "rerum",
+    "Name": "Kozey-Smitham",
+    "DisplayName": "Conn-Brekke",
+    "DisplayTooltip": "quibusdam",
     "IsActive": false
   }
 ]

@@ -123,66 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 903,
+  "EjMessageId": 591,
   "Ticket": null,
-  "CreatedAt": "2021-11-04T16:55:30.267141+01:00",
+  "CreatedAt": "2016-11-26T10:30:32.6074787+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "sint",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "debitis",
-  "TimeSpent": 464,
-  "Body": "rerum",
-  "HtmlBody": "esse",
-  "EmailHeader": "avery@bosco.uk",
-  "DebugInfo": "labore",
-  "MailSorter": "aut",
+  "MessageId": "et",
+  "TimeSpent": 314,
+  "Body": "quo",
+  "HtmlBody": "molestias",
+  "EmailHeader": "andres.kessler@purdy.us",
+  "DebugInfo": "alias",
+  "MailSorter": "pariatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "est",
+  "SearchTitle": "ex",
   "MessageHeaders": [
     {
-      "Id": 193,
-      "Name": "Crooks, Konopelski and Kovacek",
-      "Value": "in",
+      "Id": 873,
+      "Name": "Hansen-Morissette",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 193,
-      "Name": "Crooks, Konopelski and Kovacek",
-      "Value": "in",
+      "Id": 873,
+      "Name": "Hansen-Morissette",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "voluptate",
-  "Sentiment": 937,
-  "SentimentConfidence": 374,
+  "Language": "nihil",
+  "Sentiment": 845,
+  "SentimentConfidence": 551,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 927,
-      "Name": "Blick, Kuhlman and Cartwright",
-      "ContentType": "molestiae",
-      "AttSize": 769,
-      "InlineImage": false,
-      "ContentId": "cupiditate",
-      "AuthKey": "reprehenderit"
+      "AttachmentId": 484,
+      "Name": "Pfannerstill-Gutkowski",
+      "ContentType": "doloremque",
+      "AttSize": 405,
+      "InlineImage": true,
+      "ContentId": "et",
+      "AuthKey": "ducimus",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "laborum"
+    "CustomFields1": "corporis",
+    "CustomFields2": "facere"
   }
 }
 ```
@@ -194,78 +195,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 525,
+  "EjMessageId": 66,
   "Ticket": null,
-  "CreatedAt": "2013-07-27T16:55:30.2801878+02:00",
+  "CreatedAt": "2003-12-20T10:30:32.6230979+01:00",
   "CreatedBy": null,
-  "Author": "autem",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eligendi",
-  "TimeSpent": 727,
-  "Body": "tempore",
-  "HtmlBody": "et",
-  "EmailHeader": "woodrow@tromp.com",
-  "DebugInfo": "dolorum",
-  "MailSorter": "alias",
+  "MessageId": "earum",
+  "TimeSpent": 165,
+  "Body": "recusandae",
+  "HtmlBody": "ipsum",
+  "EmailHeader": "hailey.davis@kub.com",
+  "DebugInfo": "fugiat",
+  "MailSorter": "incidunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quis",
+  "SearchTitle": "mollitia",
   "MessageHeaders": [
     {
-      "Id": 520,
-      "Name": "Wunsch-Bahringer",
-      "Value": "dicta",
+      "Id": 511,
+      "Name": "Lind-Buckridge",
+      "Value": "vero",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldType": "System.String",
+          "FieldLength": 481
         }
       }
     }
   ],
   "Important": false,
-  "Language": "qui",
-  "Sentiment": 861,
-  "SentimentConfidence": 646,
+  "Language": "molestiae",
+  "Sentiment": 83,
+  "SentimentConfidence": 55,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 288,
-      "Name": "Renner-Crooks",
-      "ContentType": "ex",
-      "AttSize": 267,
-      "InlineImage": true,
-      "ContentId": "illo",
-      "AuthKey": "adipisci",
+      "AttachmentId": 849,
+      "Name": "Trantow, Satterfield and Flatley",
+      "ContentType": "aut",
+      "AttSize": 208,
+      "InlineImage": false,
+      "ContentId": "aut",
+      "AuthKey": "expedita",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 726
+          "FieldType": "System.Int32",
+          "FieldLength": 556
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "corrupti"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "est",
+    "CustomFields2": "doloremque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 860
     }
   }
 }

@@ -104,28 +104,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 141,
-  "Name": "Nicolas Inc and Sons",
-  "CurrencyId": 984,
-  "EnglishName": "Paucek-O'Kon",
+  "CountryId": 970,
+  "Name": "Reinger, Franecki and Bergstrom",
+  "CurrencyId": 393,
+  "EnglishName": "Herzog Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Switchable 24 hour local area network",
-  "OrgNrText": "674305",
-  "InterAreaPrefix": "aspernatur",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "sit",
-  "DomainName": "Haag, Runolfsson and Gulgowski",
-  "AddressLayoutId": 137,
-  "DomesticAddressLayoutId": 830,
-  "ForeignAddressLayoutId": 309,
-  "Rank": 582,
-  "Tooltip": "pariatur",
-  "Deleted": true
+  "ImageDescription": "Total clear-thinking projection",
+  "OrgNrText": "911742",
+  "InterAreaPrefix": "quia",
+  "DialInPrefix": "voluptatibus",
+  "ZipPrefix": "occaecati",
+  "DomainName": "Windler, Hilpert and Denesik",
+  "AddressLayoutId": 871,
+  "DomesticAddressLayoutId": 645,
+  "ForeignAddressLayoutId": 656,
+  "Rank": 836,
+  "Tooltip": "voluptas",
+  "Deleted": false
 }
 ```
 
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 598,
-  "Name": "Schuster, Olson and Powlowski",
-  "CurrencyId": 882,
-  "EnglishName": "Breitenberg LLC",
+  "CountryId": 35,
+  "Name": "Purdy, Dietrich and Olson",
+  "CurrencyId": 299,
+  "EnglishName": "Hilpert LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-friendly web-enabled emulation",
-  "OrgNrText": "1443645",
-  "InterAreaPrefix": "recusandae",
-  "DialInPrefix": "dolores",
+  "ImageDescription": "Devolved object-oriented website",
+  "OrgNrText": "846665",
+  "InterAreaPrefix": "error",
+  "DialInPrefix": "ut",
   "ZipPrefix": "et",
-  "DomainName": "Parisian, Maggio and Franecki",
-  "AddressLayoutId": 836,
-  "DomesticAddressLayoutId": 754,
-  "ForeignAddressLayoutId": 411,
-  "Rank": 9,
-  "Tooltip": "saepe",
-  "Deleted": true,
+  "DomainName": "Cummings-Ratke",
+  "AddressLayoutId": 6,
+  "DomesticAddressLayoutId": 479,
+  "ForeignAddressLayoutId": 253,
+  "Rank": 926,
+  "Tooltip": "est",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldType": "System.String",
+      "FieldLength": 882
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 137,
-  "Name": "O'Keefe-Reynolds",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "Rank": 126,
+  "Id": 270,
+  "Name": "Fadel LLC",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "Rank": 86,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 83,
-  "Name": "Conroy, Kuphal and Schoen",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 783,
+  "Id": 748,
+  "Name": "Bernier Inc and Sons",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "Rank": 731,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tempora",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 237
     }
   }
 }

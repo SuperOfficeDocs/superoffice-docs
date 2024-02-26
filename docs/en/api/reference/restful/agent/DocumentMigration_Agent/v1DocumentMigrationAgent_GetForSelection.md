@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 510,
-  "SelectionId": 137,
+  "DocumentPluginId": 798,
+  "SelectionId": 364,
   "IncludeEmails": true
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 882,
-  "NumDocumentsAlreadyMigrated": 134,
+  "NumDocumentsOmitted": 461,
+  "NumDocumentsAlreadyMigrated": 845,
   "Documents": [
     {
-      "DocumentId": 352,
-      "ContactId": 523,
-      "PersonId": 890,
-      "SaleId": 997,
-      "ProjectId": 284,
-      "DocTmplId": 861,
-      "AssociateId": 779,
-      "UserGroupId": 114,
-      "VisibleForId": 1001
+      "DocumentId": 155,
+      "ContactId": 246,
+      "PersonId": 633,
+      "SaleId": 359,
+      "ProjectId": 714,
+      "DocTmplId": 310,
+      "AssociateId": 60,
+      "UserGroupId": 421,
+      "VisibleForId": 294
     }
   ],
   "Associates": [
     {
-      "AssociateId": 67,
-      "EmailAddress": "dan.sawayn@mueller.ca"
+      "AssociateId": 337,
+      "EmailAddress": "bruce.crona@grady.ca"
     },
     {
-      "AssociateId": 67,
-      "EmailAddress": "dan.sawayn@mueller.ca"
+      "AssociateId": 337,
+      "EmailAddress": "bruce.crona@grady.ca"
     }
   ]
 }

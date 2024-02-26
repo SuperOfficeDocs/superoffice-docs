@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 774,
-  "TopicId": 729,
+  "ChatSessionId": 91,
+  "TopicId": 307,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vitae",
-  "CustomerHost": "dolorem",
-  "CustomerName": "Fadel, Wintheiser and McDermott",
-  "CustomerEmail": "dallin@kiehn.co.uk",
-  "CustomerPhone": "(409)075-0578 x0592",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Smith-Anderson",
+  "CustomerAlias": "ea",
+  "CustomerHost": "minus",
+  "CustomerName": "Dach Inc and Sons",
+  "CustomerEmail": "kendall.kling@bartoletti.info",
+  "CustomerPhone": "130.211.0800",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Waters-Wilderman",
   "Status": "Closed",
-  "FirstMessage": "quidem",
-  "LastMessage": "incidunt",
-  "WhenRequested": "2006-06-27T16:55:29.3347833+02:00",
-  "WhenStarted": "2017-02-21T16:55:29.3347833+01:00",
-  "WhenEnded": "1999-11-21T16:55:29.3347833+01:00",
-  "WhenIdle": "2023-02-26T16:55:29.3347833+01:00",
-  "WhenFetched": "2012-04-03T16:55:29.3347833+02:00",
+  "FirstMessage": "et",
+  "LastMessage": "quasi",
+  "WhenRequested": "2006-04-25T10:30:31.8073876+02:00",
+  "WhenStarted": "2021-05-04T10:30:31.8073876+02:00",
+  "WhenEnded": "2011-03-04T10:30:31.8073876+01:00",
+  "WhenIdle": "2023-11-28T10:30:31.8073876+01:00",
+  "WhenFetched": "2011-03-29T10:30:31.8073876+02:00",
   "SessionKey": "enim",
-  "InitialQueuePos": 103,
-  "AlertLevel": 366,
-  "Rank": 682,
+  "InitialQueuePos": 935,
+  "AlertLevel": 24,
+  "Rank": 257,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 378,
+  "Rating": 967,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 85
     }
   }
 }

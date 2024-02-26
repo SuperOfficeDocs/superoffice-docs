@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Fadel, Grady and Hettinger",
-    "ToolTip": "Debitis autem exercitationem temporibus corrupti dolorum.",
+    "Id": 898,
+    "Name": "Stanton-Rempel",
+    "ToolTip": "Et non aut accusantium.",
     "Deleted": true,
-    "Rank": 315,
-    "Type": "voluptas",
-    "ColorBlock": 636,
-    "IconHint": "dolor",
+    "Rank": 642,
+    "Type": "iusto",
+    "ColorBlock": 547,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "1998-11-09T16:55:30.767279+01:00",
+    "LastChanged": "2000-04-19T10:30:33.0680874+02:00",
     "ChildItems": [
       {
-        "Id": 263,
-        "Name": "Bode, Bergnaum and Runte",
-        "ToolTip": "Nostrum deleniti esse dicta non.",
-        "Deleted": false,
-        "Rank": 540,
-        "Type": "pariatur",
-        "ColorBlock": 60,
-        "IconHint": "minima",
+        "Id": 294,
+        "Name": "Kautzer, Mills and Fahey",
+        "ToolTip": "Reiciendis incidunt rerum excepturi ut consequatur iure.",
+        "Deleted": true,
+        "Rank": 499,
+        "Type": "optio",
+        "ColorBlock": 128,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "1997-10-28T16:55:30.767279+01:00",
+        "LastChanged": "2022-10-23T10:30:33.0680874+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "velit",
+        "ExtraInfo": "est",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Carolina Kiehn"
+        "FullName": "Tyreek Haley"
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Marcos Glover"
+    "ExtraInfo": "iure",
+    "StyleHint": "tempore",
+    "Hidden": true,
+    "FullName": "Aylin Francis Quigley Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 565,
-    "Name": "Strosin-Ernser",
-    "ToolTip": "Necessitatibus illum tempore saepe.",
+    "Id": 265,
+    "Name": "Block, Rowe and Trantow",
+    "ToolTip": "Autem maiores labore optio.",
     "Deleted": false,
-    "Rank": 42,
-    "Type": "ducimus",
-    "ColorBlock": 467,
-    "IconHint": "fugit",
+    "Rank": 576,
+    "Type": "quo",
+    "ColorBlock": 981,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2003-03-11T16:55:30.7682579+01:00",
+    "LastChanged": "1997-06-18T10:30:33.0680874+02:00",
     "ChildItems": [
       {
-        "Id": 486,
-        "Name": "Towne, Langosh and Krajcik",
-        "ToolTip": "Aut qui iure qui.",
-        "Deleted": false,
-        "Rank": 307,
-        "Type": "molestiae",
-        "ColorBlock": 33,
-        "IconHint": "saepe",
+        "Id": 280,
+        "Name": "Kuvalis-Rice",
+        "ToolTip": "Ullam nobis mollitia omnis ut in voluptatem.",
+        "Deleted": true,
+        "Rank": 175,
+        "Type": "sunt",
+        "ColorBlock": 647,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2014-05-31T16:55:30.7682579+02:00",
+        "LastChanged": "1998-11-15T10:30:33.0680874+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "occaecati",
-        "Hidden": true,
-        "FullName": "Mr. Ansley Pearline Reynolds",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Miss Janie Nella Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldType": "System.String",
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Alexandria Kirlin",
+    "ExtraInfo": "dolores",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Marcellus Cooper McGlynn III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldType": "System.Int32",
+        "FieldLength": 909
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 505,
-  "Select": "in"
+  "SelectionId": 28,
+  "Select": "sint"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "McDermott Group",
-    "PrimaryKey": 211,
+    "EntityName": "Jewess Group",
+    "PrimaryKey": 50,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolores",
-        "TooltipHint": "asperiores",
-        "LinkHint": "expedita"
+        "DisplayValue": "eveniet",
+        "TooltipHint": "corrupti",
+        "LinkHint": "est"
       }
     },
-    "LinkHint": "fugit",
-    "StyleHint": "ut",
+    "LinkHint": "aliquid",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 597
       }
     }
   }

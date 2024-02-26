@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Heaney Group",
-    "ToolTip": "Rerum et quo modi.",
-    "Deleted": true,
-    "Rank": 751,
-    "Type": "velit",
-    "ColorBlock": 222,
-    "IconHint": "et",
+    "Id": 683,
+    "Name": "Bruen LLC",
+    "ToolTip": "Fugit quia in ut in dignissimos.",
+    "Deleted": false,
+    "Rank": 203,
+    "Type": "quidem",
+    "ColorBlock": 564,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2019-03-16T16:55:31.0671868+01:00",
+    "LastChanged": "2015-06-13T10:30:33.2412121+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Schroeder, Runte and Beer",
-        "ToolTip": "Et sint et unde.",
+        "Id": 967,
+        "Name": "Rath, Denesik and Macejkovic",
+        "ToolTip": "Cumque ut sunt natus magnam numquam.",
         "Deleted": false,
-        "Rank": 505,
-        "Type": "quam",
-        "ColorBlock": 881,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2021-10-24T16:55:31.0671868+02:00",
+        "Rank": 832,
+        "Type": "expedita",
+        "ColorBlock": 242,
+        "IconHint": "nesciunt",
+        "Selected": true,
+        "LastChanged": "2011-07-13T10:30:33.2412121+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Antonietta Legros"
+        "ExtraInfo": "magnam",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Doyle Quincy Sporer DVM"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ipsam",
-    "Hidden": false,
-    "FullName": "Mrs. Beulah Jast"
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Mrs. Boyd Hickle IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Name": "Parisian Group",
-    "ToolTip": "Totam beatae omnis.",
-    "Deleted": false,
-    "Rank": 780,
-    "Type": "voluptatem",
-    "ColorBlock": 946,
-    "IconHint": "maxime",
-    "Selected": false,
-    "LastChanged": "2012-08-05T16:55:31.0691875+02:00",
+    "Id": 240,
+    "Name": "Yundt LLC",
+    "ToolTip": "Architecto eum totam sunt facere sit.",
+    "Deleted": true,
+    "Rank": 795,
+    "Type": "quaerat",
+    "ColorBlock": 587,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "1997-12-28T10:30:33.2412121+01:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Terry Group",
-        "ToolTip": "Tempora accusantium nihil quod.",
+        "Id": 345,
+        "Name": "Cummerata Group",
+        "ToolTip": "Iste est aliquam.",
         "Deleted": false,
-        "Rank": 971,
-        "Type": "rerum",
-        "ColorBlock": 551,
-        "IconHint": "eos",
+        "Rank": 446,
+        "Type": "aut",
+        "ColorBlock": 34,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2000-06-29T16:55:31.0691875+02:00",
+        "LastChanged": "2006-10-29T10:30:33.2412121+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Kristina Spinka",
+        "ExtraInfo": "omnis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Prof. Laurine Rippin I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 752
+            "FieldType": "System.Int32",
+            "FieldLength": 237
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "commodi",
-    "Hidden": true,
-    "FullName": "Vergie Reinger",
+    "ExtraInfo": "sed",
+    "StyleHint": "repudiandae",
+    "Hidden": false,
+    "FullName": "Don Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldType": "System.Int32",
+        "FieldLength": 574
       }
     }
   }

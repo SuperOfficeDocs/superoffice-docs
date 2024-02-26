@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "voluptatibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "voluptatibus",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Gaylord-Cartwright",
-  "Comment": "praesentium",
-  "StakeholderRoleId": 679,
-  "CountryId": 312,
-  "PersonId": 455,
-  "EmailDescription": "elna@kuphalfisher.info",
-  "EmailId": 368,
-  "EmailAddress": "brock@tromp.co.uk",
-  "PhoneId": 354,
-  "ContactName": "Torphy Group",
-  "ContactId": 389,
-  "SaleId": 876,
-  "Mrmrs": "quia",
-  "Firstname": "Hershel",
-  "MiddleName": "Schamberger Inc and Sons",
-  "Lastname": "Rutherford",
-  "SaleStakeholderId": 988,
-  "Rank": 543,
-  "Phone": "(198)984-3261 x897",
+  "StakeholderRoleName": "Crona-Schneider",
+  "Comment": "tempore",
+  "StakeholderRoleId": 225,
+  "CountryId": 599,
+  "PersonId": 511,
+  "EmailDescription": "katharina.parisian@hoppe.com",
+  "EmailId": 312,
+  "EmailAddress": "raegan_ankunding@bergnaum.uk",
+  "PhoneId": 511,
+  "ContactName": "Grady-Schmitt",
+  "ContactId": 861,
+  "SaleId": 25,
+  "Mrmrs": "commodi",
+  "Firstname": "Maya",
+  "MiddleName": "Gutmann, Ortiz and Yundt",
+  "Lastname": "Braun",
+  "SaleStakeholderId": 225,
+  "Rank": 918,
+  "Phone": "520.309.2401 x7183",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 486
     }
   },
   "_Links": {

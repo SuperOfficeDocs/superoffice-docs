@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 891,
-  "Name": "Baumbach Group",
-  "AssociateId": 301,
-  "DetailsTable": 350,
-  "DetailsRecord": 417,
+  "Id": 289,
+  "Name": "Feil LLC",
+  "AssociateId": 635,
+  "DetailsTable": 603,
+  "DetailsRecord": 947,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "id",
-    "ParameterObject2": "dolore"
+    "ParameterObject1": "expedita",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "1999-03-08T16:55:30.3208171+01:00",
-  "Created": "2012-08-12T16:55:30.3208171+02:00",
-  "StartCount": 438,
-  "DatabaseSerialNumber": "1305299",
-  "Context": "dolores",
-  "Result": "quo",
+  "LastStarted": "2002-03-08T10:30:32.6699717+01:00",
+  "Created": "2019-04-05T10:30:32.6699717+02:00",
+  "StartCount": 857,
+  "DatabaseSerialNumber": "986897",
+  "Context": "eum",
+  "Result": "sint",
   "State": "All",
-  "Description": "Automated solution-oriented analyzer",
-  "Response": "rerum",
-  "Request": "eos",
-  "ProgressDescription": "Total dedicated attitude",
-  "ProgressPercent": 800,
-  "FileName": "Hand-Abbott",
+  "Description": "Right-sized dynamic adapter",
+  "Response": "voluptatem",
+  "Request": "cumque",
+  "ProgressDescription": "Future-proofed discrete project",
+  "ProgressPercent": 379,
+  "FileName": "Gusikowski LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 604
     }
   }
 }

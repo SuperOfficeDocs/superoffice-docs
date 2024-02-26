@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 974,
-    "Name": "Mueller LLC",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 537,
-    "UdListDefinitionId": 542
+    "HeadingId": 195,
+    "Name": "Von, Hirthe and Wilderman",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "Rank": 267,
+    "UdListDefinitionId": 293
   },
   {
-    "HeadingId": 974,
-    "Name": "Mueller LLC",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 537,
-    "UdListDefinitionId": 542
+    "HeadingId": 195,
+    "Name": "Von, Hirthe and Wilderman",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "Rank": 267,
+    "UdListDefinitionId": 293
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 230,
-    "Name": "Upton Group",
-    "Tooltip": "necessitatibus",
-    "Deleted": false,
-    "Rank": 421,
-    "UdListDefinitionId": 186,
+    "HeadingId": 506,
+    "Name": "Lesch-Baumbach",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 725,
+    "UdListDefinitionId": 669,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 285
       }
     }
   }

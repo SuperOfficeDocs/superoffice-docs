@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Marks Group",
-    "ToolTip": "Officiis voluptas soluta beatae laboriosam velit sed sed.",
+    "Id": 370,
+    "Name": "Wiza-Gutkowski",
+    "ToolTip": "Cumque officiis reprehenderit aliquam odio non.",
     "Deleted": false,
-    "Rank": 204,
-    "Type": "expedita",
-    "ColorBlock": 917,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2019-11-15T16:55:31.0201843+01:00",
+    "Rank": 6,
+    "Type": "dolore",
+    "ColorBlock": 275,
+    "IconHint": "voluptates",
+    "Selected": true,
+    "LastChanged": "2009-11-24T10:30:33.1943329+01:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Gaylord LLC",
-        "ToolTip": "Inventore quaerat est.",
+        "Id": 415,
+        "Name": "Runolfsdottir, Vandervort and Langworth",
+        "ToolTip": "Voluptas est optio pariatur.",
         "Deleted": false,
-        "Rank": 788,
-        "Type": "voluptatem",
-        "ColorBlock": 237,
-        "IconHint": "ea",
+        "Rank": 118,
+        "Type": "qui",
+        "ColorBlock": 684,
+        "IconHint": "dignissimos",
         "Selected": true,
-        "LastChanged": "2010-05-29T16:55:31.0201843+02:00",
+        "LastChanged": "2014-11-05T10:30:33.2099635+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "sunt",
+        "ExtraInfo": "alias",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Rhiannon Little",
+        "FullName": "Gerry Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldType": "System.String",
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "sequi",
+    "ExtraInfo": "et",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Patricia Nicolas PhD",
+    "FullName": "Mr. London Santino Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldLength": 318
       }
     }
   }

@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 186,
-    "ColumnId": 692,
-    "FieldDefault": "explicabo",
-    "FieldHeight": 980,
-    "FieldLabel": "voluptatem",
-    "FieldLeft": 513,
-    "FieldTop": 821,
+    "UDefFieldId": 665,
+    "ColumnId": 666,
+    "FieldDefault": "amet",
+    "FieldHeight": 987,
+    "FieldLabel": "expedita",
+    "FieldLeft": 295,
+    "FieldTop": 694,
     "FieldType": "Checkbox",
-    "FieldWidth": 384,
-    "FormatMask": "ea",
+    "FieldWidth": 938,
+    "FormatMask": "cum",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 257,
-    "LabelLeft": 802,
-    "LabelTop": 561,
-    "LabelWidth": 78,
-    "LastVersionId": 647,
-    "ListTableId": 784,
+    "LabelHeight": 174,
+    "LabelLeft": 464,
+    "LabelTop": 662,
+    "LabelWidth": 294,
+    "LastVersionId": 402,
+    "ListTableId": 187,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 27,
-    "ProgId": "culpa",
+    "Page1LineNo": 818,
+    "ProgId": "dolores",
     "IsReadOnly": false,
-    "ShortLabel": "sit",
-    "TabOrder": 104,
-    "TextLength": 619,
-    "Tooltip": "architecto",
-    "UdefIdentity": 774,
-    "UDListDefinitionId": 327,
+    "ShortLabel": "corrupti",
+    "TabOrder": 842,
+    "TextLength": 780,
+    "Tooltip": "cupiditate",
+    "UdefIdentity": 159,
+    "UDListDefinitionId": 749,
     "Justification": "Center",
-    "Version": 185,
-    "TemplateVariableName": "Hand, Stamm and Wilderman",
-    "HasBeenPublished": true,
-    "MdoListName": "Hills-Abbott",
+    "Version": 543,
+    "TemplateVariableName": "Wyman Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Hilll-Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldType": "System.String",
+        "FieldLength": 516
       }
     }
   }

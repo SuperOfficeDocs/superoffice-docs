@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ortiz-Swaniawski",
+  "Name": "Macejkovic Inc and Sons",
   "Entities": [
     {
-      "HeadingId": 116,
-      "Name": "Reichert Inc and Sons",
-      "Tooltip": "rerum",
+      "HeadingId": 220,
+      "Name": "Murazik-Keeling",
+      "Tooltip": "vitae",
       "Deleted": false,
-      "Rank": 431,
-      "UdListDefinitionId": 946
+      "Rank": 291,
+      "UdListDefinitionId": 237
     },
     {
-      "HeadingId": 116,
-      "Name": "Reichert Inc and Sons",
-      "Tooltip": "rerum",
+      "HeadingId": 220,
+      "Name": "Murazik-Keeling",
+      "Tooltip": "vitae",
       "Deleted": false,
-      "Rank": 431,
-      "UdListDefinitionId": 946
+      "Rank": 291,
+      "UdListDefinitionId": 237
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 949,
-    "Name": "Bayer LLC",
-    "Tooltip": "qui",
+    "HeadingId": 561,
+    "Name": "Moore Group",
+    "Tooltip": "consectetur",
     "Deleted": true,
-    "Rank": 17,
-    "UdListDefinitionId": 435,
+    "Rank": 114,
+    "UdListDefinitionId": 522,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 155
+        "FieldLength": 262
       }
     }
   }

@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "McGlynn, Spencer and Runolfsdottir",
-  "DeviceName": "Romaguera LLC",
-  "DeviceIdentifier": "quo"
+  "ApplicationName": "Bergnaum Group",
+  "DeviceName": "Hermann LLC",
+  "DeviceIdentifier": "similique"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "illo",
-  "RecordId": 55,
-  "CreatedDate": "2007-04-23T16:54:55.4864803+02:00",
-  "UpdatedDate": "2012-03-11T16:54:55.4864803+01:00",
-  "UpdatedBy": "est",
-  "CreatedBy": "quae",
-  "TableName": "Emard Inc and Sons",
+  "Key": "nostrum",
+  "Value": "quia",
+  "RecordId": 314,
+  "CreatedDate": "2015-01-05T10:30:23.9073938+01:00",
+  "UpdatedDate": "2007-07-20T10:30:23.9073938+02:00",
+  "UpdatedBy": "eos",
+  "CreatedBy": "culpa",
+  "TableName": "Rutherford, Spencer and Borer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

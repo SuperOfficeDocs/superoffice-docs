@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 854,
-  "Name": "Kessler, Bradtke and Hackett",
-  "Description": "User-friendly encompassing synergy",
+  "ReportLabelLayoutId": 948,
+  "Name": "Lynch, Reichel and Durgan",
+  "Description": "Face to face dedicated migration",
   "Orientation": "Landscape",
-  "PaperWidth": 464,
-  "PaperHeight": 906,
-  "LeftMargin": 774,
-  "RightMargin": 374,
-  "TopMargin": 527,
-  "BottomMargin": 887,
-  "CountColumns": 969,
-  "CountRows": 449
+  "PaperWidth": 98,
+  "PaperHeight": 394,
+  "LeftMargin": 953,
+  "RightMargin": 79,
+  "TopMargin": 172,
+  "BottomMargin": 109,
+  "CountColumns": 721,
+  "CountRows": 815
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 136,
-  "Name": "Hirthe, Prosacco and Reichel",
-  "Description": "Versatile multi-tasking access",
+  "ReportLabelLayoutId": 550,
+  "Name": "Tillman, Feest and Oberbrunner",
+  "Description": "Team-oriented asynchronous encryption",
   "Orientation": "Landscape",
-  "PaperWidth": 539,
-  "PaperHeight": 415,
-  "LeftMargin": 376,
-  "RightMargin": 842,
-  "TopMargin": 516,
-  "BottomMargin": 238,
-  "CountColumns": 913,
-  "CountRows": 657,
+  "PaperWidth": 785,
+  "PaperHeight": 757,
+  "LeftMargin": 695,
+  "RightMargin": 451,
+  "TopMargin": 359,
+  "BottomMargin": 847,
+  "CountColumns": 302,
+  "CountRows": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldType": "System.String",
+      "FieldLength": 826
     }
   }
 }

@@ -102,46 +102,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 80,
-  "Caption": "ut",
-  "Description": "Synergistic radical paradigm",
-  "ChartName": "Schiller-Grant",
-  "ChartId": "id",
+  "DashboardTileId": 826,
+  "Caption": "quod",
+  "Description": "Organic foreground frame",
+  "ChartName": "Kihn-Buckridge",
+  "ChartId": "ea",
   "IsDefault": false,
-  "AssociateId": 653,
-  "GroupId": 293,
-  "SelectionId": 143,
-  "Config": "ut",
+  "AssociateId": 835,
+  "GroupId": 902,
+  "SelectionId": 252,
+  "Config": "molestiae",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Corkery, Cormier and Hackett",
-      "Description": "Proactive 24 hour challenge",
+      "Name": "Littel, Schinner and Dare",
+      "Description": "Phased eco-centric infrastructure",
       "Type": "Boolean",
-      "ListName": "Wunsch-Orn",
+      "ListName": "Welch Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "asperiores",
+      "Value": "velit",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 856,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "animi"
+      "DisplayValue": "suscipit"
     },
     {
-      "VisibleId": 856,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "animi"
+      "DisplayValue": "suscipit"
     }
   ]
 }
@@ -154,64 +154,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 120,
-  "Caption": "autem",
-  "Description": "Digitized multi-state solution",
-  "ChartName": "Lindgren, Cartwright and Steuber",
-  "ChartId": "odio",
-  "IsDefault": false,
-  "AssociateId": 83,
-  "GroupId": 469,
-  "SelectionId": 201,
-  "Config": "ut",
+  "DashboardTileId": 543,
+  "Caption": "blanditiis",
+  "Description": "Up-sized optimizing pricing structure",
+  "ChartName": "Mills Inc and Sons",
+  "ChartId": "tempora",
+  "IsDefault": true,
+  "AssociateId": 46,
+  "GroupId": 102,
+  "SelectionId": 821,
+  "Config": "quia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Harvey Inc and Sons",
-      "Description": "Re-engineered dedicated contingency",
+      "Name": "Lubowitz-Corkery",
+      "Description": "Business-focused clear-thinking service-desk",
       "Type": "Boolean",
-      "ListName": "Buckridge Inc and Sons",
+      "ListName": "Braun Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sed",
-      "DefaultDataOption": true,
+      "Value": "aut",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 25
+          "FieldLength": 720
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 288,
+      "VisibleId": 458,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 999
         }
       }
     },
     {
-      "VisibleId": 288,
+      "VisibleId": 458,
       "Visibility": "All",
-      "DisplayValue": "deserunt",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 999
         }
       }
     }
@@ -221,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 903
     }
   },
   "_Links": {

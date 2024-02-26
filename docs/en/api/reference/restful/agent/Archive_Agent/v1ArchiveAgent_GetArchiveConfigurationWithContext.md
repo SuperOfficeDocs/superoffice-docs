@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Macejkovic LLC",
-  "ProviderName": "Stokes Group",
-  "Context": "deserunt"
+  "GuiName": "Hansen Group",
+  "ProviderName": "Terry LLC",
+  "Context": "explicabo"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Roob LLC",
-      "DisplayTooltip": "cumque",
-      "DisplayType": "et",
+      "DisplayName": "Jast, Okuneva and Beier",
+      "DisplayTooltip": "aut",
+      "DisplayType": "consequatur",
       "CanOrderBy": false,
-      "Name": "Tromp, Wehner and Durgan",
+      "Name": "Johns Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "tempora",
-      "RestrictionListName": "Bode LLC",
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Oberbrunner Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "rem",
-      "Width": "ea",
-      "IconHint": "sunt",
-      "HeadingIconHint": "sunt"
+      "ExtraInfo": "qui",
+      "Width": "debitis",
+      "IconHint": "eligendi",
+      "HeadingIconHint": "dolor"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 344,
-      "Name": "Hills-Romaguera",
-      "ToolTip": "Error quam nobis dicta laudantium nihil autem quia.",
-      "Deleted": false,
-      "Rank": 522,
-      "Type": "molestiae",
-      "ColorBlock": 81,
-      "IconHint": "voluptas",
-      "Selected": false,
-      "LastChanged": "2016-10-01T16:54:54.5593052+02:00",
+      "Id": 873,
+      "Name": "Bednar Inc and Sons",
+      "ToolTip": "Velit et officia accusantium fugiat fugiat.",
+      "Deleted": true,
+      "Rank": 341,
+      "Type": "rem",
+      "ColorBlock": 396,
+      "IconHint": "tempora",
+      "Selected": true,
+      "LastChanged": "2020-04-11T10:30:23.0514184+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cum",
-      "StyleHint": "modi",
+      "ExtraInfo": "illum",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Deborah Daniel",
+      "FullName": "Mrs. Westley Murray PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 579
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Bailey, Kohler and Gleichner",
+      "Name": "Hermann-Strosin",
       "Direction": "ASC"
     },
     {
-      "Name": "Bailey, Kohler and Gleichner",
+      "Name": "Hermann-Strosin",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "libero",
+  "OwnerKeys": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

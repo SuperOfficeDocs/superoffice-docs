@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 381,
-  "NickName": "Deckow-Mohr"
+  "AssociateId": 603,
+  "NickName": "Zulauf, Welch and Koelpin"
 }
 ```
 

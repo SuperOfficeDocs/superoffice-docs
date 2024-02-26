@@ -118,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 19,
-  "SourcePersonId": 736,
-  "DestinationContactId": 379,
-  "DestinationPersonId": 449,
-  "RelationId": 897,
-  "Comment": "ut",
-  "RelationDefinitionId": 66,
-  "Reversed": 625,
-  "UpdatedDate": "2024-02-04T16:55:29.5218316+01:00",
-  "CreatedDate": "2017-07-05T16:55:29.5218316+02:00",
+  "SourceContactId": 760,
+  "SourcePersonId": 809,
+  "DestinationContactId": 131,
+  "DestinationPersonId": 318,
+  "RelationId": 384,
+  "Comment": "dolores",
+  "RelationDefinitionId": 435,
+  "Reversed": 811,
+  "UpdatedDate": "2002-07-23T10:30:31.9480569+02:00",
+  "CreatedDate": "2019-09-07T10:30:31.9480569+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Lakin Inc and Sons",
-  "SourcePersonName": "Cummerata Group",
-  "DestinationContactName": "Crist Inc and Sons",
-  "DestinationPersonName": "Boyle, Ankunding and Von",
-  "ActiveText": "voluptatem",
-  "PassiveText": "quibusdam"
+  "SourceContactName": "Legros-Thiel",
+  "SourcePersonName": "Tromp, Waelchi and Mueller",
+  "DestinationContactName": "Jones LLC",
+  "DestinationPersonName": "Funk-Erdman",
+  "ActiveText": "tempore",
+  "PassiveText": "dolorum"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 265,
-  "SourcePersonId": 253,
-  "DestinationContactId": 496,
-  "DestinationPersonId": 887,
-  "RelationId": 306,
-  "Comment": "distinctio",
-  "RelationDefinitionId": 690,
-  "Reversed": 591,
-  "UpdatedDate": "2010-11-01T16:55:29.5238364+01:00",
-  "CreatedDate": "2019-02-10T16:55:29.5238364+01:00",
+  "SourceContactId": 159,
+  "SourcePersonId": 811,
+  "DestinationContactId": 151,
+  "DestinationPersonId": 692,
+  "RelationId": 165,
+  "Comment": "et",
+  "RelationDefinitionId": 664,
+  "Reversed": 116,
+  "UpdatedDate": "2014-07-08T10:30:31.9480569+02:00",
+  "CreatedDate": "2012-09-18T10:30:31.9480569+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Howell-Block",
-  "SourcePersonName": "Satterfield LLC",
-  "DestinationContactName": "Mraz Inc and Sons",
-  "DestinationPersonName": "Stoltenberg Inc and Sons",
-  "ActiveText": "dicta",
-  "PassiveText": "sapiente",
+  "SourceContactName": "Franecki, Stracke and King",
+  "SourcePersonName": "D'Amore Inc and Sons",
+  "DestinationContactName": "Cummings-Nolan",
+  "DestinationPersonName": "Mayer LLC",
+  "ActiveText": "delectus",
+  "PassiveText": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

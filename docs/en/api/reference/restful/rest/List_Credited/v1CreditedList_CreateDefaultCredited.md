@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 879,
-  "Name": "Connelly Group",
-  "Tooltip": "qui",
+  "Id": 979,
+  "Name": "Walker Inc and Sons",
+  "Tooltip": "illum",
   "Deleted": false,
-  "UdListDefinitionId": 350,
-  "Rank": 135,
+  "UdListDefinitionId": 752,
+  "Rank": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 335
     }
   }
 }

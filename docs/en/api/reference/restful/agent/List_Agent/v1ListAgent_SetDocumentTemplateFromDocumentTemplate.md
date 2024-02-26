@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 718,
+  "SourceDocumentTemplateId": 158,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 596,
-  "Name": "Dooley LLC",
-  "Tooltip": "quae",
-  "SaveInDb": 703,
-  "Filename": "vel",
-  "DefaultOref": "quia",
+  "DocumentTemplateId": 519,
+  "Name": "Leffler Group",
+  "Tooltip": "pariatur",
+  "SaveInDb": 806,
+  "Filename": "aut",
+  "DefaultOref": "iste",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 837,
-  "IntentId": 222,
+  "AutoeventId": 804,
+  "IntentId": 615,
   "IsDefaultPublished": false,
-  "Rank": 657,
-  "LoadTemplateFromPlugin": 219,
-  "MimeType": "quia",
+  "Rank": 4,
+  "LoadTemplateFromPlugin": 599,
+  "MimeType": "at",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 870,
+  "DocumentTypeKey": 741,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elian@crist.info",
-  "IncludeSignature": true,
+  "EmailSubject": "dariana.bauch@fisherkuphal.com",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alfreda@kuvalis.com",
+  "SenderEmailAddress": "rusty_rohan@feeney.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 675
     }
   }
 }

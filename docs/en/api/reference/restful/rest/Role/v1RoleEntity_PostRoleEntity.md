@@ -105,16 +105,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 90,
-  "Name": "Kuvalis-West",
-  "Tooltip": "est",
+  "RoleId": 284,
+  "Name": "Morissette, Zboncak and Schumm",
+  "Tooltip": "incidunt",
   "RoleType": "Anonymous",
-  "Deleted": 907,
-  "Rank": 87,
-  "Created": "2006-05-04T16:55:29.9819903+02:00",
-  "UseCategories": 618,
+  "Deleted": 981,
+  "Rank": 393,
+  "Created": "2006-01-31T10:30:32.260549+01:00",
+  "UseCategories": 653,
   "CreatedBy": null,
-  "Updated": "2015-06-08T16:55:29.9819903+02:00",
+  "Updated": "2004-04-25T10:30:32.260549+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 991,
-  "Name": "Friesen, Zulauf and Lesch",
-  "Tooltip": "sit",
+  "RoleId": 912,
+  "Name": "West Group",
+  "Tooltip": "odio",
   "RoleType": "Anonymous",
-  "Deleted": 550,
-  "Rank": 753,
-  "Created": "1998-08-16T16:55:29.9849908+02:00",
-  "UseCategories": 719,
+  "Deleted": 115,
+  "Rank": 239,
+  "Created": "2022-06-11T10:30:32.260549+02:00",
+  "UseCategories": 322,
   "CreatedBy": null,
-  "Updated": "2004-12-10T16:55:29.9849908+01:00",
+  "Updated": "2017-03-22T10:30:32.260549+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 72
     }
   },
   "_Links": {

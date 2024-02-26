@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rau, Hilpert and Breitenberg"
+  "OwnerName": "Jaskolski LLC"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 149,
-      "NumberOfLicensesFree": 122,
-      "NumberOfLicensesAdded": 873,
-      "NumberOfLicensesNewTotal": 61,
-      "NumberOfLicensesNewFree": 44,
-      "NumberOfLicensesTotal": 243
+      "NumberOfLicensesInUse": 286,
+      "NumberOfLicensesFree": 57,
+      "NumberOfLicensesAdded": 26,
+      "NumberOfLicensesNewTotal": 389,
+      "NumberOfLicensesNewFree": 756,
+      "NumberOfLicensesTotal": 101
     }
   ],
-  "AccumulatedNextCheckDate": "2012-02-10T16:54:55.5004702+01:00"
+  "AccumulatedNextCheckDate": "1999-01-15T10:30:23.9272181+01:00"
 }
 ```

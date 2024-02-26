@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 528,
-  "ERPPriceListKey": "saepe",
-  "QuoteConnectionId": 259,
-  "Name": "Witting Group",
-  "Description": "Open-source foreground standardization",
-  "Currency": "distinctio",
-  "CurrencyName": "Conroy Inc and Sons",
-  "ValidFrom": "2021-06-18T16:54:56.10916+02:00",
-  "ValidTo": "1999-04-25T16:54:56.10916+02:00",
-  "IsActive": false
+  "PriceListId": 62,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 176,
+  "Name": "Schowalter Inc and Sons",
+  "Description": "Persistent clear-thinking productivity",
+  "Currency": "quia",
+  "CurrencyName": "Ryan-Cremin",
+  "ValidFrom": "2008-10-06T10:30:24.4033765+02:00",
+  "ValidTo": "2001-09-27T10:30:24.4033765+02:00",
+  "IsActive": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 961,
-  "ERPPriceListKey": "deserunt",
-  "QuoteConnectionId": 746,
-  "Name": "Stanton, Berge and Littel",
-  "Description": "Programmable bottom-line monitoring",
-  "Currency": "similique",
-  "CurrencyName": "Huels Group",
-  "ValidFrom": "2016-05-14T16:54:56.10916+02:00",
-  "ValidTo": "2016-03-19T16:54:56.10916+01:00",
+  "PriceListId": 105,
+  "ERPPriceListKey": "nihil",
+  "QuoteConnectionId": 909,
+  "Name": "Sauer, Fadel and Quitzon",
+  "Description": "Progressive homogeneous architecture",
+  "Currency": "est",
+  "CurrencyName": "Abbott-Moore",
+  "ValidFrom": "2018-06-15T10:30:24.4033765+02:00",
+  "ValidTo": "2021-03-31T10:30:24.4033765+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldType": "System.Int32",
+      "FieldLength": 187
     }
   }
 }

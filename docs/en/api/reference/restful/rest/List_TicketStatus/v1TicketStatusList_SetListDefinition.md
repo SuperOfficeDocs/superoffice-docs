@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Bashirian Inc and Sons",
-  "Tooltip": "et",
+  "Id": 821,
+  "Name": "Homenick-Breitenberg",
+  "Tooltip": "voluptate",
   "Deleted": true,
-  "Rank": 637,
-  "IsCustomList": false,
+  "Rank": 876,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Kerluke, Marvin and Quigley",
-  "Tooltip": "delectus",
-  "Deleted": false,
-  "Rank": 162,
+  "Id": 507,
+  "Name": "Kuphal, Maggio and Franecki",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "Rank": 956,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 613
     }
   }
 }

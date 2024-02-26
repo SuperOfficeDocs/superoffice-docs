@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 220,
-    "Name": "Morar, Walter and McCullough",
-    "Tooltip": "laudantium",
-    "TableName": "Connelly, Schiller and Parker",
-    "Area": "voluptatem",
+    "TaskMenuId": 371,
+    "Name": "Pacocha Group",
+    "Tooltip": "doloremque",
+    "TableName": "Jacobson-Gleason",
+    "Area": "aut",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 126,
+    "CrmScriptId": 305,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 847,
+    "Rank": 507,
     "Encoding": "ANSI",
-    "ProgId": "error",
+    "ProgId": "ut",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 880
       }
     }
   }

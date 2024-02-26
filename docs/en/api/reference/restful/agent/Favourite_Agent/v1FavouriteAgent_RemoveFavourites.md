@@ -70,12 +70,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bernhard-Bednar",
+  "TableName": "Sauer Inc and Sons",
   "RecordIds": [
-    446,
-    823
+    336,
+    735
   ],
-  "AssociateId": 439
+  "AssociateId": 798
 }
 ```
 

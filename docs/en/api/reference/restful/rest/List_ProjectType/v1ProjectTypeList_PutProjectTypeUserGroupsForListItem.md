@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Hintz, Kiehn and Mohr",
-    "ToolTip": "Beatae vero qui asperiores atque.",
-    "Deleted": false,
-    "Rank": 60,
-    "Type": "dolores",
-    "ColorBlock": 295,
-    "IconHint": "perferendis",
+    "Id": 659,
+    "Name": "Tremblay, Morissette and Bradtke",
+    "ToolTip": "Officia minus odit sunt.",
+    "Deleted": true,
+    "Rank": 977,
+    "Type": "at",
+    "ColorBlock": 712,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "2023-03-15T16:55:30.8478113+01:00",
+    "LastChanged": "2000-06-12T10:30:33.1474583+02:00",
     "ChildItems": [
       {
-        "Id": 690,
-        "Name": "Jacobs, Terry and Bins",
-        "ToolTip": "Dolorem assumenda similique praesentium consequatur esse consequatur qui.",
-        "Deleted": true,
-        "Rank": 72,
-        "Type": "quasi",
-        "ColorBlock": 967,
-        "IconHint": "sequi",
-        "Selected": true,
-        "LastChanged": "2018-08-27T16:55:30.8478113+02:00",
+        "Id": 39,
+        "Name": "Sawayn LLC",
+        "ToolTip": "Iste occaecati nulla asperiores ut nostrum quam voluptatem.",
+        "Deleted": false,
+        "Rank": 384,
+        "Type": "impedit",
+        "ColorBlock": 112,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2012-02-02T10:30:33.1474583+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Perry Ernser"
+        "ExtraInfo": "placeat",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mason Bednar"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "nihil",
+    "ExtraInfo": "itaque",
+    "StyleHint": "voluptate",
     "Hidden": false,
-    "FullName": "Winona Dach"
+    "FullName": "Ignacio Schaden"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Koelpin, Ruecker and Rutherford",
-    "ToolTip": "Aliquam aliquid dolores est tenetur aut molestiae.",
-    "Deleted": false,
-    "Rank": 448,
-    "Type": "est",
-    "ColorBlock": 98,
-    "IconHint": "sed",
+    "Id": 487,
+    "Name": "Farrell-Steuber",
+    "ToolTip": "Cum omnis deleniti vero molestiae illum dolore.",
+    "Deleted": true,
+    "Rank": 492,
+    "Type": "quae",
+    "ColorBlock": 187,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2009-07-27T16:55:30.8478113+02:00",
+    "LastChanged": "2014-02-17T10:30:33.1474583+01:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Mraz, Pfannerstill and Berge",
-        "ToolTip": "Nisi beatae et nam eaque sed blanditiis velit.",
+        "Id": 479,
+        "Name": "Zemlak, Franecki and Waters",
+        "ToolTip": "Ipsa sit alias culpa iste.",
         "Deleted": false,
-        "Rank": 64,
-        "Type": "et",
-        "ColorBlock": 308,
-        "IconHint": "reiciendis",
+        "Rank": 782,
+        "Type": "molestiae",
+        "ColorBlock": 233,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2021-10-17T16:55:30.848825+02:00",
+        "LastChanged": "2009-12-22T10:30:33.1474583+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sunt",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Dr. Delores Leatha Haag V",
+        "FullName": "Harold Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 801
+            "FieldType": "System.String",
+            "FieldLength": 415
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "sed",
+    "ExtraInfo": "eos",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Mr. Ladarius Margarita Skiles II",
+    "FullName": "Edd Dooley PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 226
       }
     }
   }

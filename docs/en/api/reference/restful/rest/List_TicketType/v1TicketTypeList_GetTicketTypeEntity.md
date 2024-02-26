@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 396,
-  "Name": "Cruickshank-Jacobson",
-  "Rank": 98,
-  "Tooltip": "molestiae",
-  "Icon": "unde",
-  "DefaultTicketStatus": 276,
+  "TicketTypeId": 133,
+  "Name": "Mayert-Blanda",
+  "Rank": 248,
+  "Tooltip": "minus",
+  "Icon": "blanditiis",
+  "DefaultTicketStatus": 425,
   "TicketStatuses": [
-    486,
-    882
+    184,
+    809
   ],
-  "DefaultTicketPriority": 248,
+  "DefaultTicketPriority": 382,
   "TicketPriorities": [
-    915,
-    33
+    126,
+    649
   ],
-  "ReplyTemplate": 608,
+  "ReplyTemplate": 525,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 613
     }
   }
 }

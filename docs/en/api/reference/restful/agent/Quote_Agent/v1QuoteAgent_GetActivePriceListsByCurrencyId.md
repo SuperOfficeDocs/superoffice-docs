@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 189,
-  "CurrencyId": 556
+  "QuoteConnectionId": 404,
+  "CurrencyId": 666
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 81,
-    "ERPPriceListKey": "accusantium",
-    "QuoteConnectionId": 487,
-    "Name": "Hermann-Abshire",
-    "Description": "Re-engineered context-sensitive time-frame",
-    "Currency": "et",
-    "CurrencyName": "Aufderhar, Wunsch and Windler",
-    "ValidFrom": "2013-10-14T16:54:56.1411407+02:00",
-    "ValidTo": "2009-09-27T16:54:56.1411407+02:00",
+    "PriceListId": 292,
+    "ERPPriceListKey": "asperiores",
+    "QuoteConnectionId": 658,
+    "Name": "Shields-Jacobs",
+    "Description": "Integrated actuating internet solution",
+    "Currency": "dolores",
+    "CurrencyName": "Nitzsche, Reichel and Huels",
+    "ValidFrom": "1998-07-11T10:30:24.4346264+02:00",
+    "ValidTo": "2008-08-05T10:30:24.4346264+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 930
       }
     }
   }

@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,78 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 137,
+  "EjMessageId": 453,
   "Ticket": null,
-  "CreatedAt": "2014-10-13T16:55:30.2898073+02:00",
+  "CreatedAt": "2013-09-21T10:30:32.6230979+02:00",
   "CreatedBy": null,
-  "Author": "ea",
+  "Author": "aliquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ad",
-  "TimeSpent": 707,
-  "Body": "sapiente",
-  "HtmlBody": "aperiam",
-  "EmailHeader": "cedrick@hermiston.us",
-  "DebugInfo": "beatae",
-  "MailSorter": "ea",
+  "MessageId": "veritatis",
+  "TimeSpent": 402,
+  "Body": "similique",
+  "HtmlBody": "voluptate",
+  "EmailHeader": "rebeka_jacobs@terry.us",
+  "DebugInfo": "omnis",
+  "MailSorter": "ducimus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "numquam",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 568,
-      "Name": "Metz-Shanahan",
-      "Value": "non",
+      "Id": 629,
+      "Name": "Considine-Kris",
+      "Value": "magnam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 73
+          "FieldType": "System.Int32",
+          "FieldLength": 783
         }
       }
     }
   ],
   "Important": false,
-  "Language": "repudiandae",
-  "Sentiment": 484,
-  "SentimentConfidence": 564,
+  "Language": "saepe",
+  "Sentiment": 771,
+  "SentimentConfidence": 259,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 480,
-      "Name": "Kuphal, Runte and Hayes",
-      "ContentType": "hic",
-      "AttSize": 106,
-      "InlineImage": false,
-      "ContentId": "expedita",
-      "AuthKey": "enim",
+      "AttachmentId": 990,
+      "Name": "Bernier-Rice",
+      "ContentType": "eum",
+      "AttSize": 35,
+      "InlineImage": true,
+      "ContentId": "dignissimos",
+      "AuthKey": "suscipit",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldType": "System.Int32",
+          "FieldLength": 100
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "earum"
+    "CustomFields1": "id",
+    "CustomFields2": "eligendi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   }
 }

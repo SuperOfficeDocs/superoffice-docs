@@ -772,7 +772,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=number,sale/updatedBy,sale/associate/contactId,projectMember/personAddress/line3
+GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=projectId,NumberOfSalesInPeriod,saintTicketCategory,sale/heading,projectMember/correspondingAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

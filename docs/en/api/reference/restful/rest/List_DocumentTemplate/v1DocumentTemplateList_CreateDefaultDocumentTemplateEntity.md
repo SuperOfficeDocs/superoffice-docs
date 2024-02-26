@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 333,
-  "Name": "Buckridge-Corkery",
-  "Tooltip": "cupiditate",
-  "SaveInDb": 881,
-  "Filename": "quo",
-  "DefaultOref": "voluptatum",
+  "DocumentTemplateId": 839,
+  "Name": "Kreiger, Terry and Leuschke",
+  "Tooltip": "iure",
+  "SaveInDb": 913,
+  "Filename": "nesciunt",
+  "DefaultOref": "excepturi",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 433,
-  "IntentId": 550,
-  "IsDefaultPublished": true,
-  "Rank": 939,
-  "LoadTemplateFromPlugin": 448,
-  "MimeType": "non",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 760,
+  "AutoeventId": 154,
+  "IntentId": 43,
+  "IsDefaultPublished": false,
+  "Rank": 145,
+  "LoadTemplateFromPlugin": 175,
+  "MimeType": "ullam",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 12,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "zoe@wolf.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "nash.little@kirlin.us",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jayda_mann@adams.co.uk",
+  "SenderEmailAddress": "rodolfo@lubowitz.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 351
     }
   }
 }

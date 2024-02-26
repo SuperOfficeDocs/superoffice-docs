@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 136,
-  "StartTime": "2015-08-18T16:54:54.2393839+02:00",
-  "EndTime": "2014-02-18T16:54:54.2393839+01:00",
-  "Count": 465,
-  "TaskId": 753
+  "ContactId": 438,
+  "StartTime": "2006-12-25T10:30:22.5786487+01:00",
+  "EndTime": "2000-07-06T10:30:22.5786487+02:00",
+  "Count": 490,
+  "TaskId": 520
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 138,
-    "StartDate": "2022-06-11T16:54:54.2402886+02:00",
-    "EndDate": "2015-07-27T16:54:54.2402886+02:00",
+    "AppointmentId": 537,
+    "StartDate": "2001-10-20T10:30:22.5786487+02:00",
+    "EndDate": "1996-12-19T10:30:22.5786487+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eaque",
-    "AssociateFullName": "Dr. Deshaun Shanahan",
-    "ContactName": "Daniel, Kshlerin and Wolf",
-    "Description": "Decentralized tangible superstructure",
-    "PersonFullName": "Prof. Kendrick Teagan Langworth",
-    "PersonId": 6,
-    "ContactId": 906,
-    "ProjectId": 964,
-    "ProjectName": "Gulgowski-Robel",
+    "Task": "cupiditate",
+    "AssociateFullName": "Dylan Olson",
+    "ContactName": "McCullough-Daugherty",
+    "Description": "Distributed even-keeled challenge",
+    "PersonFullName": "Dr. Jewell Cordell Haley",
+    "PersonId": 964,
+    "ContactId": 434,
+    "ProjectId": 549,
+    "ProjectName": "Haley Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 462,
-    "ColorIndex": 400,
+    "AssociateId": 102,
+    "ColorIndex": 845,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 612,
-    "PriorityName": "Fritsch, Strosin and Wunsch",
+    "PriorityId": 800,
+    "PriorityName": "Morissette LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2002-09-26T16:54:54.2413662+02:00",
+    "ActiveDate": "2021-03-09T10:30:22.5786487+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-02-04T16:54:54.2413662+01:00",
-    "RecurringEndDate": "2020-09-04T16:54:54.2413662+02:00",
-    "MotherId": 346,
-    "AssignedBy": 547,
-    "AssignedByFullName": "Javon McClure",
+    "RecurringStartDate": "2015-05-23T10:30:22.5786487+02:00",
+    "RecurringEndDate": "2005-10-16T10:30:22.5786487+02:00",
+    "MotherId": 792,
+    "AssignedBy": 395,
+    "AssignedByFullName": "Berneice Parker",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "itaque",
-    "SaleId": 273,
-    "SaleName": "Veum Inc and Sons",
-    "AssociateName": "Parker, Hermiston and Hoeger",
-    "CreatedDate": "1998-03-19T16:54:54.2413662+01:00",
-    "CreatedBy": "ratione",
-    "CreatedByFullName": "Kenya Monahan",
-    "CreatedByAssociateId": 547,
+    "Location": "eius",
+    "AlarmLeadTime": "non",
+    "SaleId": 508,
+    "SaleName": "Crona Group",
+    "AssociateName": "Leuschke Inc and Sons",
+    "CreatedDate": "2004-01-05T10:30:22.5942688+01:00",
+    "CreatedBy": "eveniet",
+    "CreatedByFullName": "Mrs. Jarret Tatyana Mueller",
+    "CreatedByAssociateId": 451,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 429,
-    "Title": "facere",
-    "Agenda": "at",
-    "InternalNotes": "harum",
+    "PreferredTZLocation": 805,
+    "Title": "aut",
+    "Agenda": "accusamus",
+    "InternalNotes": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldLength": 11
       }
     }
   }

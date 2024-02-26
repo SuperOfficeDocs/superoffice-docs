@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 641,
-    "Name": "Sporer, Heathcote and Larson",
-    "Tooltip": "maiores",
-    "Rank": 224,
-    "Key": "occaecati",
-    "Deleted": true,
+    "LegalBaseId": 665,
+    "Name": "Dickinson-Mayer",
+    "Tooltip": "sed",
+    "Rank": 443,
+    "Key": "nihil",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 447
       }
     }
   }

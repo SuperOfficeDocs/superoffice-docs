@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 57,
+  "DocumentId": 547,
   "AllowedReturnType": [
-    "molestiae",
-    "ut"
+    "eos",
+    "velit"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "doloremque",
-  "VersionId": "explicabo",
-  "Success": false,
+  "ExternalReference": "repellendus",
+  "VersionId": "quia",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "quasi",
-  "AdditionalInfo": "aperiam"
+  "Value": "et",
+  "AdditionalInfo": "et"
 }
 ```

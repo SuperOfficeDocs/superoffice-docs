@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 440,
-    "Name": "Hoeger, Hamill and Powlowski",
-    "Description": "Multi-lateral tangible methodology",
+    "ProjectId": 235,
+    "Name": "McClure-Osinski",
+    "Description": "Decentralized tangible website",
     "URL": "http://www.example.com/",
-    "Type": "minus",
-    "AssociateId": 778,
-    "AssociateFullName": "Jarvis Marquardt MD",
-    "TypeId": 413,
-    "Updated": "2020-08-19T16:54:56.0671382+02:00",
-    "StatusId": 362,
-    "Status": "ut",
-    "TextId": 71,
-    "PublishTo": "2019-04-29T16:54:56.0671382+02:00",
-    "PublishFrom": "2017-08-21T16:54:56.0671382+02:00",
+    "Type": "cupiditate",
+    "AssociateId": 431,
+    "AssociateFullName": "Prof. Marina Yessenia Sipes PhD",
+    "TypeId": 446,
+    "Updated": "2007-06-29T10:30:24.3705833+02:00",
+    "StatusId": 677,
+    "Status": "et",
+    "TextId": 596,
+    "PublishTo": "2004-01-05T10:30:24.3705833+01:00",
+    "PublishFrom": "2021-07-22T10:30:24.3705833+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1054508",
-    "ActiveErpLinks": 978,
+    "ProjectNumber": "1088235",
+    "ActiveErpLinks": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldLength": 543
       }
     }
   }

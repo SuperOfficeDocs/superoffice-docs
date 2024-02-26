@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 577
+  "AssociateId": 885
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 57,
-    "AssociateId": 432,
-    "Caption": "adipisci",
+    "DashboardId": 742,
+    "AssociateId": 563,
+    "Caption": "aut",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 419,
-        "Caption": "assumenda",
-        "Description": "Multi-layered coherent productivity",
-        "ChartName": "Rice, Lowe and Hand",
-        "ChartId": "praesentium",
+        "DashboardTileId": 406,
+        "Caption": "perferendis",
+        "Description": "Total value-added frame",
+        "ChartName": "Rohan-VonRueden",
+        "ChartId": "rerum",
         "IsDefault": false,
-        "AssociateId": 94,
-        "GroupId": 362,
-        "SelectionId": 115,
-        "Config": "veniam",
+        "AssociateId": 968,
+        "GroupId": 287,
+        "SelectionId": 955,
+        "Config": "aut",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 314
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 366
+        "FieldType": "System.Int32",
+        "FieldLength": 440
       }
     }
   }

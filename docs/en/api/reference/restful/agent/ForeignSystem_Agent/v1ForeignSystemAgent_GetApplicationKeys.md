@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Emard, Kunze and Hayes"
+  "ApplicationName": "Schumm Group"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sint",
-    "Value": "voluptatem",
-    "RecordId": 956,
-    "CreatedDate": "2007-01-07T16:54:55.4924677+01:00",
-    "UpdatedDate": "2023-12-10T16:54:55.4924677+01:00",
-    "UpdatedBy": "qui",
-    "CreatedBy": "blanditiis",
-    "TableName": "Bayer, Padberg and Schroeder",
+    "Key": "aut",
+    "Value": "velit",
+    "RecordId": 914,
+    "CreatedDate": "2016-04-26T10:30:23.9230375+02:00",
+    "UpdatedDate": "2013-12-14T10:30:23.9230375+01:00",
+    "UpdatedBy": "provident",
+    "CreatedBy": "harum",
+    "TableName": "Welch-Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldType": "System.String",
+        "FieldLength": 152
       }
     }
   }

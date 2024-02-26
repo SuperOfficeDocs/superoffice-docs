@@ -94,14 +94,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 850,
-  "AssociateId": 764,
-  "Block": "omnis",
-  "Registered": "2021-06-17T16:55:30.1410215+02:00",
-  "RegisteredAssociateId": 682,
-  "Updated": "2003-11-05T16:55:30.1410215+01:00",
-  "UpdatedAssociateId": 773,
-  "UpdatedCount": 805
+  "ShipmentMessageBlockId": 878,
+  "AssociateId": 91,
+  "Block": "enim",
+  "Registered": "2006-10-20T10:30:32.5125031+02:00",
+  "RegisteredAssociateId": 147,
+  "Updated": "2023-03-07T10:30:32.5125031+01:00",
+  "UpdatedAssociateId": 417,
+  "UpdatedCount": 74
 }
 ```
 
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 109,
-  "AssociateId": 565,
-  "Block": "non",
-  "Registered": "2004-08-05T16:55:30.1410215+02:00",
-  "RegisteredAssociateId": 979,
-  "Updated": "1996-12-23T16:55:30.1410215+01:00",
-  "UpdatedAssociateId": 661,
-  "UpdatedCount": 546,
+  "ShipmentMessageBlockId": 182,
+  "AssociateId": 327,
+  "Block": "quod",
+  "Registered": "2002-06-26T10:30:32.5125031+02:00",
+  "RegisteredAssociateId": 390,
+  "Updated": "2013-05-09T10:30:32.5125031+02:00",
+  "UpdatedAssociateId": 183,
+  "UpdatedCount": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldLength": 217
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

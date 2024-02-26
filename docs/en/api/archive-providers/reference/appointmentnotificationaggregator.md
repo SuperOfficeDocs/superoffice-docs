@@ -44,11 +44,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |recurrencePattern| *None* |!!recurrencePattern| x |
 |rejectReason| *None* |!!rejectReason| x |
 |isAssignment| *None* |!!isAssignment|  |
+|isFree| *None* |!!isFree: bool| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotificationAggregator?$select=title,endDateTime
+GET /api/v1/archive/AppointmentNotificationAggregator?$select=title,location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

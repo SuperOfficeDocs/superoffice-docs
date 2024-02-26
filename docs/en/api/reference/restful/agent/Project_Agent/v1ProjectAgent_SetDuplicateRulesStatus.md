@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Cartwright Inc and Sons",
-      "DisplayName": "Nienow-Hickle",
-      "DisplayTooltip": "molestiae",
-      "IsActive": false
+      "Name": "Goodwin-Klocko",
+      "DisplayName": "Hauck-Haag",
+      "DisplayTooltip": "rerum",
+      "IsActive": true
     },
     {
-      "Name": "Cartwright Inc and Sons",
-      "DisplayName": "Nienow-Hickle",
-      "DisplayTooltip": "molestiae",
-      "IsActive": false
+      "Name": "Goodwin-Klocko",
+      "DisplayName": "Hauck-Haag",
+      "DisplayTooltip": "rerum",
+      "IsActive": true
     }
   ]
 }

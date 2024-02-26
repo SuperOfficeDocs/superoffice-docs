@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "McKenzie-DuBuque",
-  "Tooltip": "alias",
+  "Id": 480,
+  "Name": "Bergstrom, Anderson and Roob",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "UdListDefinitionId": 891,
-  "Rank": 502
+  "UdListDefinitionId": 544,
+  "Rank": 688
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 263,
-  "Name": "Dach Inc and Sons",
-  "Tooltip": "labore",
+  "Id": 890,
+  "Name": "Baumbach LLC",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 568,
-  "Rank": 838,
+  "UdListDefinitionId": 847,
+  "Rank": 258,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   }
 }

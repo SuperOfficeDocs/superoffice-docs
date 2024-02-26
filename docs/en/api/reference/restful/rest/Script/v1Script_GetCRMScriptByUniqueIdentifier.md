@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "neque",
-  "Name": "Schroeder-Wilkinson",
-  "Description": "Cloned tangible migration",
-  "IncludeId": "quae",
-  "Source": "mollitia",
-  "Registered": "2006-04-11T16:55:30.4121261+02:00",
-  "RegisteredBy": "id",
-  "Updated": "2005-10-19T16:55:30.4121261+02:00",
-  "UpdatedBy": "eveniet",
-  "Path": "rerum",
+  "UniqueIdentifier": "nam",
+  "Name": "Wintheiser, Wolff and Friesen",
+  "Description": "Synchronised static time-frame",
+  "IncludeId": "illum",
+  "Source": "ea",
+  "Registered": "2018-12-17T10:30:32.7488178+01:00",
+  "RegisteredBy": "omnis",
+  "Updated": "2007-05-15T10:30:32.7488178+02:00",
+  "UpdatedBy": "impedit",
+  "Path": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldType": "System.String",
+      "FieldLength": 836
     }
   }
 }

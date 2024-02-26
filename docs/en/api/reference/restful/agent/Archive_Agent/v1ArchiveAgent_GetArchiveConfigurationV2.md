@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Stoltenberg-Renner",
-  "ProviderName": "Wintheiser Inc and Sons",
-  "Context": "minus",
-  "OwnerKeys": "sed"
+  "GuiName": "Trantow-Zulauf",
+  "ProviderName": "Will-Ritchie",
+  "Context": "et",
+  "OwnerKeys": "at"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Willms-Erdman",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "dolores",
+      "DisplayName": "Shields, Bahringer and Parisian",
+      "DisplayTooltip": "assumenda",
+      "DisplayType": "vitae",
       "CanOrderBy": false,
-      "Name": "Kihn, Braun and Hagenes",
-      "CanRestrictBy": false,
+      "Name": "Muller LLC",
+      "CanRestrictBy": true,
       "RestrictionType": "enim",
-      "RestrictionListName": "Kutch LLC",
-      "IsVisible": true,
-      "ExtraInfo": "voluptas",
-      "Width": "culpa",
-      "IconHint": "nisi",
-      "HeadingIconHint": "sed"
+      "RestrictionListName": "Maggio-Lynch",
+      "IsVisible": false,
+      "ExtraInfo": "dolores",
+      "Width": "eveniet",
+      "IconHint": "vel",
+      "HeadingIconHint": "tenetur"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 472,
-      "Name": "Jacobi LLC",
-      "ToolTip": "Beatae quisquam maxime distinctio amet exercitationem nisi aut.",
+      "Id": 50,
+      "Name": "Boehm Inc and Sons",
+      "ToolTip": "Labore quibusdam quam explicabo animi sapiente quia.",
       "Deleted": false,
-      "Rank": 367,
-      "Type": "aperiam",
-      "ColorBlock": 974,
-      "IconHint": "deleniti",
+      "Rank": 994,
+      "Type": "est",
+      "ColorBlock": 98,
+      "IconHint": "perspiciatis",
       "Selected": true,
-      "LastChanged": "1997-09-27T16:54:54.5613019+02:00",
+      "LastChanged": "2011-05-19T10:30:23.0514184+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "placeat",
-      "StyleHint": "nihil",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Vito Stokes",
+      "FullName": "Mr. Giovani Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 101
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Franecki, Cummings and Williamson",
+      "Name": "D'Amore-Kris",
       "Direction": "ASC"
     },
     {
-      "Name": "Franecki, Cummings and Williamson",
+      "Name": "D'Amore-Kris",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "qui",
+  "OwnerKeys": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 937
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=voluptas
+GET /api/v1/List/Task/MDOItems?query=officiis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Mertz-McGlynn",
-    "ToolTip": "Quaerat reprehenderit est nostrum dolorem.",
-    "Deleted": false,
-    "Rank": 724,
-    "Type": "deserunt",
+    "Id": 893,
+    "Name": "Lang-Kunde",
+    "ToolTip": "Laudantium vel necessitatibus sunt.",
+    "Deleted": true,
+    "Rank": 309,
+    "Type": "magnam",
     "ChildItems": [
       {
-        "Id": 988,
-        "Name": "Mosciski LLC",
-        "ToolTip": "Vero rerum fugit.",
+        "Id": 319,
+        "Name": "Sipes Inc and Sons",
+        "ToolTip": "Neque dolores ex sapiente.",
         "Deleted": false,
-        "Rank": 845,
-        "Type": "nobis",
+        "Rank": 172,
+        "Type": "architecto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 926,
-        "ExtraInfo": "qui",
-        "StyleHint": "dicta",
-        "FullName": "Dr. Jackson Kutch II",
+        "IconHint": "possimus",
+        "ColorBlock": 33,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "et",
+        "FullName": "Donavon Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 609
+            "FieldType": "System.String",
+            "FieldLength": 684
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 801,
-    "ExtraInfo": "vel",
-    "StyleHint": "consequatur",
-    "FullName": "Kelli Fritsch",
+    "IconHint": "impedit",
+    "ColorBlock": 267,
+    "ExtraInfo": "aut",
+    "StyleHint": "occaecati",
+    "FullName": "Mr. Bill Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 738
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

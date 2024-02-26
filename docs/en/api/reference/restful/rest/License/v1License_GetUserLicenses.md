@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergstrom Inc and Sons",
-    "Description": "Organized user-facing approach",
+    "Name": "Gibson, Strosin and Marvin",
+    "Description": "Open-source contextually-based middleware",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 483,
-        "Tooltip": "impedit",
+        "Total": 994,
+        "Tooltip": "sunt",
         "CanAssign": false,
-        "Free": 816,
-        "InUse": 595,
+        "Free": 668,
+        "InUse": 620,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 283,
-        "Name": "Stoltenberg LLC",
-        "Description": "Optimized coherent array",
-        "PrerequisiteModuleName": "Rath, Rosenbaum and Schneider",
-        "SortOrder": 161,
-        "ExtraFlags": 745,
+        "ModuleLicenseId": 417,
+        "Name": "Wehner Inc and Sons",
+        "Description": "Multi-layered explicit policy",
+        "PrerequisiteModuleName": "Walker-Lynch",
+        "SortOrder": 499,
+        "ExtraFlags": 723,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldLength": 510
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 559,
-        "Tooltip": "doloremque",
+        "Total": 867,
+        "Tooltip": "facere",
         "CanAssign": false,
-        "Free": 35,
-        "InUse": 690,
+        "Free": 227,
+        "InUse": 971,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 798,
-        "Name": "Predovic, Anderson and Friesen",
-        "Description": "Fully-configurable executive definition",
-        "PrerequisiteModuleName": "Bogisich LLC",
-        "SortOrder": 755,
-        "ExtraFlags": 751,
+        "ModuleLicenseId": 842,
+        "Name": "Spencer-Murphy",
+        "Description": "Digitized zero tolerance website",
+        "PrerequisiteModuleName": "Hermann Group",
+        "SortOrder": 632,
+        "ExtraFlags": 307,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 925
+            "FieldLength": 167
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 9
       }
     }
   },
   {
-    "Name": "Bergstrom Inc and Sons",
-    "Description": "Organized user-facing approach",
+    "Name": "Gibson, Strosin and Marvin",
+    "Description": "Open-source contextually-based middleware",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 483,
-        "Tooltip": "impedit",
+        "Total": 994,
+        "Tooltip": "sunt",
         "CanAssign": false,
-        "Free": 816,
-        "InUse": 595,
+        "Free": 668,
+        "InUse": 620,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 283,
-        "Name": "Stoltenberg LLC",
-        "Description": "Optimized coherent array",
-        "PrerequisiteModuleName": "Rath, Rosenbaum and Schneider",
-        "SortOrder": 161,
-        "ExtraFlags": 745,
+        "ModuleLicenseId": 417,
+        "Name": "Wehner Inc and Sons",
+        "Description": "Multi-layered explicit policy",
+        "PrerequisiteModuleName": "Walker-Lynch",
+        "SortOrder": 499,
+        "ExtraFlags": 723,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldLength": 510
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 559,
-        "Tooltip": "doloremque",
+        "Total": 867,
+        "Tooltip": "facere",
         "CanAssign": false,
-        "Free": 35,
-        "InUse": 690,
+        "Free": 227,
+        "InUse": 971,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 798,
-        "Name": "Predovic, Anderson and Friesen",
-        "Description": "Fully-configurable executive definition",
-        "PrerequisiteModuleName": "Bogisich LLC",
-        "SortOrder": 755,
-        "ExtraFlags": 751,
+        "ModuleLicenseId": 842,
+        "Name": "Spencer-Murphy",
+        "Description": "Digitized zero tolerance website",
+        "PrerequisiteModuleName": "Hermann Group",
+        "SortOrder": 632,
+        "ExtraFlags": 307,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 925
+            "FieldLength": 167
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 9
       }
     }
   }

@@ -88,18 +88,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hirthe, Aufderhar and Senger",
+  "Name": "Hills, Steuber and Metz",
   "ForceFlatList": false,
-  "AdditionalInfo": "quia",
+  "AdditionalInfo": "maxime",
   "HistoryItems": [
-    344,
-    28
+    20,
+    573
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Howe Group",
-    "ToolTip": "Illo ea voluptate ut eos id numquam necessitatibus.",
+    "Id": 715,
+    "Name": "Bode LLC",
+    "ToolTip": "Velit exercitationem.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "molestiae",
+    "Rank": 935,
+    "Type": "totam",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "Pagac-Padberg",
-        "ToolTip": "Voluptatem quia architecto suscipit ut sed quidem.",
-        "Deleted": true,
-        "Rank": 623,
-        "Type": "libero",
+        "Id": 686,
+        "Name": "Beatty, Beer and West",
+        "ToolTip": "Est temporibus ut enim occaecati numquam.",
+        "Deleted": false,
+        "Rank": 611,
+        "Type": "fugit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "recusandae",
-        "ColorBlock": 56,
-        "ExtraInfo": "ratione",
-        "StyleHint": "sunt",
-        "FullName": "Jarod Langworth Jr.",
+        "IconHint": "est",
+        "ColorBlock": 858,
+        "ExtraInfo": "et",
+        "StyleHint": "quidem",
+        "FullName": "Willard Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 491
+            "FieldType": "System.Int32",
+            "FieldLength": 937
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 231,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "rerum",
-    "FullName": "Karl Friesen",
+    "IconHint": "porro",
+    "ColorBlock": 165,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "alias",
+    "FullName": "Margaret Aditya Bartoletti MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 681
       }
     }
   }

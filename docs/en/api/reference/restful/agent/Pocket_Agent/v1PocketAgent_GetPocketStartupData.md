@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "a",
-    "nemo"
+    "et",
+    "tempore"
   ],
-  "CurrentClientTime": "2008-04-21T16:54:55.864111+02:00"
+  "CurrentClientTime": "2012-12-01T10:30:24.2924636+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "doloribus",
-    "enim"
+    "praesentium",
+    "atque"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 862,
-  "NotificationsCount": 757,
+  "OverdueSalesCount": 186,
+  "NotificationsCount": 102,
   "SystemWebPanels": [
     {
-      "WebPanelId": 668,
-      "Name": "Beatty Inc and Sons",
-      "Tooltip": "eum",
+      "WebPanelId": 17,
+      "Name": "Murazik-Romaguera",
+      "Tooltip": "eos",
       "Deleted": false,
-      "Rank": 896,
+      "Rank": 918,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": true,
       "OnSatellite": true,
-      "OnTravel": false,
-      "OnSalesMarketingWeb": true,
+      "OnTravel": true,
+      "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": false,
-      "ShowInToolBar": true,
-      "ShowInAddressBar": true,
+      "ShowInMenuBar": true,
+      "ShowInToolBar": false,
+      "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Bashirian Group",
+      "WindowName": "Hansen, Toy and Cummings",
       "Url": "http://www.example.com/",
-      "ProgId": "nihil",
-      "Icon": 902,
-      "AlwaysReloadOnShow": false,
+      "ProgId": "dolores",
+      "Icon": 776,
+      "AlwaysReloadOnShow": true,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 545
+          "FieldType": "System.Int32",
+          "FieldLength": 500
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "doloremque",
+      "RawValue": "consequatur",
       "Specification": null,
-      "DisplayValue": "incidunt",
-      "DisplayTooltip": "nostrum",
+      "DisplayValue": "unde",
+      "DisplayTooltip": "doloremque",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 327,
-      "PrefDescId": 414,
-      "TableName": "Reinger-Wolff",
-      "UserPreferenceId": 193,
+      "TargetId": 951,
+      "PrefDescId": 166,
+      "TableName": "Ziemann, White and Huel",
+      "UserPreferenceId": 361,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 573
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "eum",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 444
     }
   }
 }

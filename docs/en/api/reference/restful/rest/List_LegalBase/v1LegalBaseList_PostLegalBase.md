@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 890,
-  "Name": "Price LLC",
-  "Tooltip": "dolorem",
-  "Rank": 490,
-  "Key": "alias",
-  "Deleted": false
+  "LegalBaseId": 442,
+  "Name": "Hoeger Inc and Sons",
+  "Tooltip": "sit",
+  "Rank": 645,
+  "Key": "vel",
+  "Deleted": true
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 341,
-  "Name": "Reynolds, McLaughlin and Kihn",
-  "Tooltip": "qui",
-  "Rank": 841,
-  "Key": "rerum",
+  "LegalBaseId": 398,
+  "Name": "Raynor-Vandervort",
+  "Tooltip": "tempore",
+  "Rank": 443,
+  "Key": "eligendi",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 761
     }
   }
 }

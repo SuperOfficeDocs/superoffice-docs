@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project",
-  "Context": "nulla"
+  "Tablename": "contact",
+  "Context": "a"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "velit",
-    "ValueType": "mollitia",
+    "DefaultShowInSelector": true,
+    "IsActive": true,
+    "Key": "voluptatem",
+    "ValueType": "officia",
     "Mandatory": false,
-    "EncodedDisplayName": "Orn-Botsford",
-    "EncodedDisplayDescription": "Persevering intermediate productivity",
-    "IconHint": "tempora",
+    "EncodedDisplayName": "Cronin Group",
+    "EncodedDisplayDescription": "Secured holistic firmware",
+    "IconHint": "aut",
     "ControlInfos": [
       {
-        "Type": "id",
-        "Label": "cumque",
-        "Dimension": 388,
-        "ListProviderName": "Toy, Mraz and Olson",
-        "ListProviderExtraInfo": "iusto",
-        "ListProviderPrimaryKeyName": "Terry, Zemlak and Bergstrom",
-        "ListLeadText": "impedit",
+        "Type": "dolorem",
+        "Label": "esse",
+        "Dimension": 770,
+        "ListProviderName": "Nicolas-Spinka",
+        "ListProviderExtraInfo": "error",
+        "ListProviderPrimaryKeyName": "Keeling-Streich",
+        "ListLeadText": "eius",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 933
+            "FieldType": "System.String",
+            "FieldLength": 226
           }
         }
       }
     ],
-    "EncodedDataCaption": "molestiae",
-    "EncodedDataCaptionDescription": "Assimilated national utilisation",
-    "CurrentOperationType": "ut",
+    "EncodedDataCaption": "enim",
+    "EncodedDataCaptionDescription": "Open-architected attitude-oriented moratorium",
+    "CurrentOperationType": "perferendis",
     "Values": [
-      "rerum",
-      "illo"
+      "sequi",
+      "et"
     ],
     "DisplayValues": [
-      "minima",
-      "quo"
+      "deserunt",
+      "ipsa"
     ],
     "OperationInfos": [
       {
-        "Key": "placeat",
-        "EncodedDisplayName": "Ullrich-Mills",
+        "Key": "eos",
+        "EncodedDisplayName": "Kshlerin LLC",
         "EncodedLeadTexts": [
-          "sequi",
-          "consequuntur"
+          "alias",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 735
+            "FieldLength": 366
           }
         }
       },
       {
-        "Key": "placeat",
-        "EncodedDisplayName": "Ullrich-Mills",
+        "Key": "eos",
+        "EncodedDisplayName": "Kshlerin LLC",
         "EncodedLeadTexts": [
-          "sequi",
-          "consequuntur"
+          "alias",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 735
+            "FieldLength": 366
           }
         }
       }

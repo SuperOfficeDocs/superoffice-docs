@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "occaecati",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laudantium",
+    "path": "occaecati",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 344,
+  "SystemEventId": 759,
   "Scope": "Database",
-  "Eta": "2022-09-03T16:55:30.1520205+02:00",
-  "Eventkey": "nihil",
-  "Eventmess": "rerum",
-  "ExtraInfo": 280,
-  "Owner": 23,
-  "UpdatedCount": 599,
-  "Registered": "2001-05-17T16:55:30.1520205+02:00",
+  "Eta": "2015-09-02T10:30:32.5281261+02:00",
+  "Eventkey": "et",
+  "Eventmess": "ut",
+  "ExtraInfo": 674,
+  "Owner": 623,
+  "UpdatedCount": 726,
+  "Registered": "2011-09-08T10:30:32.5281261+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 433
     }
   },
   "_Links": {

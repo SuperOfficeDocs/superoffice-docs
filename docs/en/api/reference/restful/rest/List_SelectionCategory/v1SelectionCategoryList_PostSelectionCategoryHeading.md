@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 465,
-  "Name": "Harvey, Balistreri and Cummings",
-  "Tooltip": "voluptatem",
+  "HeadingId": 619,
+  "Name": "Nikolaus Inc and Sons",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 648,
-  "UdListDefinitionId": 986
+  "Rank": 137,
+  "UdListDefinitionId": 170
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 496,
-  "Name": "Abbott Inc and Sons",
-  "Tooltip": "laborum",
-  "Deleted": false,
-  "Rank": 55,
-  "UdListDefinitionId": 548,
+  "HeadingId": 255,
+  "Name": "McGlynn Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 852,
+  "UdListDefinitionId": 744,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

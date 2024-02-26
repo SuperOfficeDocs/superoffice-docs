@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "est",
-    "Type": "inventore",
-    "Description": "Implemented attitude-oriented artificial intelligence",
+    "DisplayType": "vel",
+    "Type": "voluptatum",
+    "Description": "Phased uniform orchestration",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldType": "System.String",
+        "FieldLength": 719
       }
     }
   }

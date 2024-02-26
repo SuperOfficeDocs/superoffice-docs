@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 674,
-  "ModuleOwner": "in",
+  "AssociateId": 270,
+  "ModuleOwner": "est",
   "ModuleLicenseNames": [
-    "Emard Group",
-    "Legros, Yundt and Cassin"
+    "Koch, Hoppe and Heller",
+    "Bailey Inc and Sons"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 407,
-    "Tooltip": "quas",
-    "CanAssign": true,
-    "Free": 558,
-    "InUse": 515,
+    "Unrestricted": true,
+    "Total": 317,
+    "Tooltip": "eos",
+    "CanAssign": false,
+    "Free": 960,
+    "InUse": 581,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 930,
-    "Name": "Rodriguez LLC",
-    "Description": "Total modular data-warehouse",
-    "PrerequisiteModuleName": "Witting Inc and Sons",
-    "SortOrder": 443,
-    "ExtraFlags": 778,
+    "Assigned": true,
+    "ModuleLicenseId": 627,
+    "Name": "Parker, Crist and Considine",
+    "Description": "Stand-alone bi-directional adapter",
+    "PrerequisiteModuleName": "Medhurst LLC",
+    "SortOrder": 83,
+    "ExtraFlags": 106,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldType": "System.Int32",
+        "FieldLength": 645
       }
     }
   }

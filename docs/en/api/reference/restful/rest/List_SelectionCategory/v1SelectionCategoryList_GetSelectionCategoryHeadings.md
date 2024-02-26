@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 40,
-    "Name": "Rogahn Inc and Sons",
-    "Tooltip": "ex",
+    "HeadingId": 221,
+    "Name": "West, Cruickshank and Ziemann",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 126,
-    "UdListDefinitionId": 391,
+    "Rank": 239,
+    "UdListDefinitionId": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 303
       }
     }
   }

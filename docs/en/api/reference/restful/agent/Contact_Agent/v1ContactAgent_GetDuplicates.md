@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Monahan-Terry"
+  "Name": "Connelly, Roberts and Nikolaus"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Mertz, Moen and Lindgren",
-    "SoPrimaryKey": 98,
-    "EntryName": "Hudson Group",
-    "EntryIdentifier": "dolorem",
-    "RuleDisplayName": "Connelly, Collier and Eichmann",
+    "RuleName": "Gislason-Wolf",
+    "SoPrimaryKey": 956,
+    "EntryName": "Muller, Lang and Williamson",
+    "EntryIdentifier": "voluptas",
+    "RuleDisplayName": "Heller-Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 542
       }
     }
   }

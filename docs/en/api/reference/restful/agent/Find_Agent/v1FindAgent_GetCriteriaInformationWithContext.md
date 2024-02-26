@@ -82,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "accusamus",
-  "ProviderName": "Huels Inc and Sons",
-  "StorageKey": "ut",
+  "StorageType": "rem",
+  "ProviderName": "Larson-Halvorson",
+  "StorageKey": "commodi",
   "StaticColumns": [
-    "non",
-    "blanditiis"
+    "minus",
+    "aperiam"
   ],
   "Context": "qui"
 }
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "King, Koepp and Kunze",
-      "Operator": "autem",
+      "Name": "Weissnat, Ernser and Mosciski",
+      "Operator": "cumque",
       "Values": [
-        "tempore",
-        "quia"
+        "ea",
+        "beatae"
       ],
       "DisplayValues": [
-        "quos",
-        "non"
+        "dolores",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 344,
+      "InterParenthesis": 500,
       "InterOperator": "And",
-      "UniqueHash": 447
+      "UniqueHash": 727
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bednar, Collier and Okuneva",
-      "DisplayTooltip": "vero",
-      "DisplayType": "non",
+      "DisplayName": "Hyatt-Mertz",
+      "DisplayTooltip": "distinctio",
+      "DisplayType": "sint",
       "CanOrderBy": false,
-      "Name": "Reichert LLC",
+      "Name": "Miller-Mosciski",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Pagac-Smith",
+      "RestrictionType": "magni",
+      "RestrictionListName": "Wunsch-Kshlerin",
       "IsVisible": true,
-      "ExtraInfo": "at",
-      "Width": "alias",
-      "IconHint": "iure",
+      "ExtraInfo": "nihil",
+      "Width": "id",
+      "IconHint": "deserunt",
       "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Walsh-Hickle",
-      "PrimaryKey": 889,
+      "EntityName": "Blick-Rempel",
+      "PrimaryKey": 660,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "tempore",
-          "LinkHint": "qui"
+          "DisplayValue": "fugiat",
+          "TooltipHint": "aut",
+          "LinkHint": "sequi"
         }
       },
-      "LinkHint": "rem",
-      "StyleHint": "sunt",
+      "LinkHint": "nesciunt",
+      "StyleHint": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 396
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Gusikowski-Hammes",
-      "Description": "Fully-configurable solution-oriented methodology",
-      "Rank": 35,
+      "Name": "Baumbach, Jewess and Pagac",
+      "Description": "Fully-configurable background architecture",
+      "Rank": 145,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gusikowski-Hammes",
-      "Description": "Fully-configurable solution-oriented methodology",
-      "Rank": 35,
+      "Name": "Baumbach, Jewess and Pagac",
+      "Description": "Fully-configurable background architecture",
+      "Rank": 145,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 707,
-      "ContactName": "Lemke-Bosco",
-      "PersonId": 501,
-      "PersonName": "Murphy Group",
-      "AssociateId": 472,
-      "Address": "sequi",
-      "EmailId": 279,
+      "ContactId": 684,
+      "ContactName": "Rogahn, Mitchell and Braun",
+      "PersonId": 283,
+      "PersonName": "Paucek-Kautzer",
+      "AssociateId": 669,
+      "Address": "omnis",
+      "EmailId": 852,
       "DuplicatePersonIds": [
-        249,
-        865
+        501,
+        93
       ],
-      "Name": "Krajcik LLC",
+      "Name": "Rippin, Ledner and Brown",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 998
+          "FieldType": "System.Int32",
+          "FieldLength": 102
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 500,
-      "ContactName": "Watsica Group",
-      "PersonId": 901,
-      "PersonName": "Nader, Quitzon and Barrows",
-      "AssociateId": 965,
-      "Address": "ullam",
-      "EmailId": 618,
+      "ContactId": 439,
+      "ContactName": "Terry-Effertz",
+      "PersonId": 678,
+      "PersonName": "Gutkowski-Heathcote",
+      "AssociateId": 770,
+      "Address": "cumque",
+      "EmailId": 620,
       "DuplicatePersonIds": [
-        939,
-        185
+        908,
+        611
       ],
-      "Name": "Mann Group",
+      "Name": "Ratke-Nitzsche",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 81
+          "FieldType": "System.Int32",
+          "FieldLength": 663
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 38,
-      "ContactName": "Kreiger, Dickinson and Sawayn",
-      "PersonId": 143,
-      "PersonName": "O'Conner-McDermott",
-      "AssociateId": 205,
-      "Address": "sequi",
-      "EmailId": 540,
+      "ContactId": 345,
+      "ContactName": "Shields LLC",
+      "PersonId": 46,
+      "PersonName": "Kessler Inc and Sons",
+      "AssociateId": 167,
+      "Address": "eos",
+      "EmailId": 667,
       "DuplicatePersonIds": [
-        962,
-        289
+        167,
+        817
       ],
-      "Name": "Dooley-Schroeder",
+      "Name": "Schultz LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldLength": 921
         }
       }
     }
   ],
-  "Subject": "magnam",
-  "HTMLBody": "dolorem",
+  "Subject": "sit",
+  "HTMLBody": "incidunt",
   "From": null,
-  "Sent": "2020-01-03T16:54:55.2954192+01:00",
-  "Size": 544,
+  "Sent": "2014-03-06T10:30:23.7199314+01:00",
+  "Size": 263,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "iure",
-  "IsSent": false,
+  "MessageID": "autem",
+  "PlainBody": "quidem",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 252,
+  "ServerId": 295,
   "Attachments": [
     {
-      "Description": "Face to face foreground intranet",
-      "Filename": "libero",
-      "Size": 949,
-      "Type": "non",
-      "Encoding": "saepe",
-      "Id": "deserunt",
-      "Disposition": "veritatis",
+      "Description": "Polarised eco-centric budgetary management",
+      "Filename": "deserunt",
+      "Size": 75,
+      "Type": "culpa",
+      "Encoding": "animi",
+      "Id": "ut",
+      "Disposition": "ipsam",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 106
+          "FieldLength": 132
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Sporer-Collier",
+      "Name": "Bernhard-Blanda",
       "Values": [
-        "doloremque",
-        "praesentium"
+        "velit",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldLength": 587
         }
       }
     },
     {
-      "Name": "Sporer-Collier",
+      "Name": "Bernhard-Blanda",
       "Values": [
-        "doloremque",
-        "praesentium"
+        "velit",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldLength": 587
         }
       }
     }
   ],
-  "FolderName": "Koepp, Heller and Bechtelar",
-  "EmailItemId": 7,
-  "AccountId": 23,
-  "ReceivedAt": "2003-10-16T16:54:55.2954192+02:00",
+  "FolderName": "Jacobs, Shields and Renner",
+  "EmailItemId": 813,
+  "AccountId": 363,
+  "ReceivedAt": "2002-01-21T10:30:23.7199314+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-08-17T16:54:55.2954192+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2011-07-09T10:30:23.7199314+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 91,
-  "Name": "Ortiz LLC",
-  "Tooltip": "animi",
-  "PassiveText": "non",
+  "ReldefId": 984,
+  "Name": "Swift, Bartoletti and Kuhn",
+  "Tooltip": "voluptates",
+  "PassiveText": "aut",
   "Deleted": false,
-  "Rank": 726,
+  "Rank": 444,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 496
     }
   }
 }

@@ -91,9 +91,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nostrum",
-  "ProviderName": "O'Kon, Gislason and Goyette",
-  "StorageKey": "dolore"
+  "StorageType": "est",
+  "ProviderName": "Dicki Group",
+  "StorageKey": "rerum"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Wolf Inc and Sons",
-    "DisplayTooltip": "et",
-    "DisplayType": "est",
+    "DisplayName": "Harber-Block",
+    "DisplayTooltip": "eos",
+    "DisplayType": "tenetur",
     "CanOrderBy": true,
-    "Name": "Wyman-Smith",
-    "CanRestrictBy": false,
-    "RestrictionType": "sit",
-    "RestrictionListName": "Moen-Bogan",
+    "Name": "Herman LLC",
+    "CanRestrictBy": true,
+    "RestrictionType": "aut",
+    "RestrictionListName": "Shields Inc and Sons",
     "IsVisible": true,
-    "ExtraInfo": "eligendi",
-    "Width": "consequatur",
-    "IconHint": "id",
-    "HeadingIconHint": "vel"
+    "ExtraInfo": "dolorum",
+    "Width": "quis",
+    "IconHint": "odio",
+    "HeadingIconHint": "aut"
   }
 ]
 ```

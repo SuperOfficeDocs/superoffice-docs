@@ -71,7 +71,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Olson-Torp",
-  "DisplayName": "Schaden, Kuvalis and Tillman",
-  "Description": "Cross-platform 6th generation initiative",
-  "ShortLabel": "assumenda",
-  "HideLabel": false,
-  "HideField": true,
+  "FieldName": "Wintheiser LLC",
+  "DisplayName": "Keebler Group",
+  "Description": "Customer-focused discrete secured line",
+  "ShortLabel": "dolores",
+  "HideLabel": true,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": true,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 980,
-  "TemplateVariableName": "Crona, Swift and Heller"
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "Rank": 161,
+  "TemplateVariableName": "Schmeler, Dietrich and Dickinson"
 }
 ```

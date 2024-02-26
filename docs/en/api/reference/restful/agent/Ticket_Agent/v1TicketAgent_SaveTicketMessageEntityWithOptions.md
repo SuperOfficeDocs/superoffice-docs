@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": true,
   "AttachmentIds": [
-    907,
-    62
+    902,
+    220
   ],
-  "UpdateRepliedAt": true
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -122,78 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 846,
+  "EjMessageId": 554,
   "Ticket": null,
-  "CreatedAt": "2005-12-30T16:54:56.5862916+01:00",
+  "CreatedAt": "2007-07-12T10:30:24.9360824+02:00",
   "CreatedBy": null,
-  "Author": "fuga",
+  "Author": "ducimus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nisi",
-  "TimeSpent": 956,
-  "Body": "consectetur",
-  "HtmlBody": "aut",
-  "EmailHeader": "jamarcus_mills@simonis.name",
-  "DebugInfo": "similique",
-  "MailSorter": "blanditiis",
+  "MessageId": "labore",
+  "TimeSpent": 797,
+  "Body": "est",
+  "HtmlBody": "voluptas",
+  "EmailHeader": "nathen@wiza.name",
+  "DebugInfo": "quaerat",
+  "MailSorter": "hic",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quod",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 568,
-      "Name": "Balistreri LLC",
-      "Value": "perferendis",
+      "Id": 628,
+      "Name": "Bahringer-Pfannerstill",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldType": "System.String",
+          "FieldLength": 970
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "et",
-  "Sentiment": 501,
-  "SentimentConfidence": 790,
+  "Important": true,
+  "Language": "perferendis",
+  "Sentiment": 118,
+  "SentimentConfidence": 894,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 290,
-      "Name": "Reynolds-Stokes",
-      "ContentType": "sapiente",
-      "AttSize": 920,
+      "AttachmentId": 169,
+      "Name": "Hickle-Rippin",
+      "ContentType": "consequatur",
+      "AttSize": 766,
       "InlineImage": false,
-      "ContentId": "laudantium",
-      "AuthKey": "deleniti",
+      "ContentId": "ut",
+      "AuthKey": "voluptas",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 984
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "est",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "porro"
+    "CustomFields1": "quis",
+    "CustomFields2": "voluptatem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 337
     }
   }
 }

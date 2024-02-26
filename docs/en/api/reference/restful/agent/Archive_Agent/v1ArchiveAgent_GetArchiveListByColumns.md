@@ -107,50 +107,50 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gleichner, Wehner and Upton",
+  "ProviderName": "Veum-Bergstrom",
   "Columns": [
-    "quia",
-    "aut"
+    "sint",
+    "libero"
   ],
   "SortOrder": [
     {
-      "Name": "Mayer LLC",
+      "Name": "Kuhic Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Mayer LLC",
+      "Name": "Kuhic Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kohler, McCullough and Koch",
-      "Operator": "omnis",
+      "Name": "Schmitt, Schmeler and Pacocha",
+      "Operator": "vel",
       "Values": [
-        "officiis",
-        "earum"
+        "iste",
+        "quo"
       ],
       "DisplayValues": [
-        "sunt",
-        "minus"
+        "rerum",
+        "iusto"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 777,
+      "InterParenthesis": 99,
       "InterOperator": "And",
-      "UniqueHash": 784
+      "UniqueHash": 198
     }
   ],
   "Entities": [
-    "fugiat",
-    "veniam"
+    "corrupti",
+    "voluptatem"
   ],
-  "Page": 903,
-  "PageSize": 252
+  "Page": 670,
+  "PageSize": 68
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Graham Group",
-    "PrimaryKey": 416,
+    "EntityName": "Kassulke, Oberbrunner and Predovic",
+    "PrimaryKey": 887,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "a",
-        "TooltipHint": "animi",
-        "LinkHint": "ullam"
+        "DisplayValue": "amet",
+        "TooltipHint": "corporis",
+        "LinkHint": "est"
       }
     },
-    "LinkHint": "expedita",
-    "StyleHint": "voluptatibus",
+    "LinkHint": "alias",
+    "StyleHint": "dolores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldType": "System.String",
+        "FieldLength": 973
       }
     }
   }

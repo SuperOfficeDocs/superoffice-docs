@@ -54,6 +54,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,19 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 436,
-  "Name": "Daugherty, Johns and Maggio",
-  "ContentType": "amet",
-  "AttSize": 843,
+  "AttachmentId": 60,
+  "Name": "Eichmann-Botsford",
+  "ContentType": "placeat",
+  "AttSize": 572,
   "InlineImage": false,
-  "ContentId": "unde",
-  "AuthKey": "quidem",
+  "ContentId": "magni",
+  "AuthKey": "enim",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 239
     }
   }
 }

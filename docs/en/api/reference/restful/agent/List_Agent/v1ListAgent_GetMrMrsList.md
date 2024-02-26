@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 875,
-    "Value": "autem",
-    "Tooltip": "aperiam",
+    "Id": 310,
+    "Value": "commodi",
+    "Tooltip": "perferendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldType": "System.Int32",
+        "FieldLength": 46
       }
     }
   },
   {
-    "Id": 875,
-    "Value": "autem",
-    "Tooltip": "aperiam",
+    "Id": 310,
+    "Value": "commodi",
+    "Tooltip": "perferendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldType": "System.Int32",
+        "FieldLength": 46
       }
     }
   }

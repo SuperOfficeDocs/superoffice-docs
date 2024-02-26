@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 349,
-  "StartTime": "2012-11-05T16:54:55.1353658+01:00",
-  "EndTime": "2004-09-04T16:54:55.1353658+02:00",
-  "Count": 978
+  "ContactId": 226,
+  "StartTime": "2003-05-06T10:30:23.5769016+02:00",
+  "EndTime": "2018-12-19T10:30:23.5769016+01:00",
+  "Count": 264
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 912,
-    "Attention": "delectus",
-    "Header": "voluptatem",
-    "Name": "Metz, Sanford and Fadel",
-    "OurRef": "odio",
-    "YourRef": "doloremque",
-    "Description": "Quality-focused solution-oriented strategy",
-    "DocumentTemplate": "quibusdam",
+    "DocumentId": 999,
+    "Attention": "ut",
+    "Header": "inventore",
+    "Name": "Welch-Goldner",
+    "OurRef": "exercitationem",
+    "YourRef": "voluptatem",
+    "Description": "User-centric motivating complexity",
+    "DocumentTemplate": "aliquid",
     "IsPublished": false,
-    "PersonId": 460,
-    "PersonFullName": "Evalyn Dell Will V",
-    "AssociateFullName": "Ara Hane",
-    "ContactId": 776,
-    "ContactName": "Bartoletti, Beer and Keebler",
-    "ProjectId": 284,
-    "ProjectName": "Ledner-Wiza",
-    "AssociateId": 236,
-    "Snum": 906,
-    "SaleId": 863,
-    "SaleName": "Schmidt-Kreiger",
+    "PersonId": 472,
+    "PersonFullName": "Joyce Beer",
+    "AssociateFullName": "Bobby Strosin",
+    "ContactId": 81,
+    "ContactName": "O'Reilly, Mraz and Beier",
+    "ProjectId": 673,
+    "ProjectName": "Kovacek, Parker and McKenzie",
+    "AssociateId": 501,
+    "Snum": 909,
+    "SaleId": 279,
+    "SaleName": "Bins Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

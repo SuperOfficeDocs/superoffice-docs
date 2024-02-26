@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Simonis-Kuhlman",
-  "Description": "Customer-focused grid-enabled capacity",
-  "IncludeId": "iure",
-  "Source": "saepe",
-  "Registered": "2009-11-30T16:55:30.4131485+01:00",
-  "RegisteredBy": "nisi",
-  "Updated": "2007-02-28T16:55:30.4131485+01:00",
-  "UpdatedBy": "ad",
-  "Path": "fugit"
+  "UniqueIdentifier": "et",
+  "Name": "Feest-Davis",
+  "Description": "Assimilated next generation model",
+  "IncludeId": "repellendus",
+  "Source": "non",
+  "Registered": "2000-02-14T10:30:32.7488178+01:00",
+  "RegisteredBy": "aperiam",
+  "Updated": "1996-12-02T10:30:32.7488178+01:00",
+  "UpdatedBy": "alias",
+  "Path": "nulla"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "consequuntur",
-  "Name": "Frami Inc and Sons",
-  "Description": "Proactive non-volatile system engine",
-  "IncludeId": "ipsum",
-  "Source": "qui",
-  "Registered": "2007-10-01T16:55:30.4131485+02:00",
-  "RegisteredBy": "omnis",
-  "Updated": "2019-07-25T16:55:30.4131485+02:00",
-  "UpdatedBy": "quod",
-  "Path": "recusandae",
+  "UniqueIdentifier": "est",
+  "Name": "Thompson-Lubowitz",
+  "Description": "Advanced solution-oriented data-warehouse",
+  "IncludeId": "nulla",
+  "Source": "vel",
+  "Registered": "1998-11-15T10:30:32.7488178+01:00",
+  "RegisteredBy": "nihil",
+  "Updated": "2016-10-18T10:30:32.7488178+02:00",
+  "UpdatedBy": "ratione",
+  "Path": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 204
     }
   }
 }

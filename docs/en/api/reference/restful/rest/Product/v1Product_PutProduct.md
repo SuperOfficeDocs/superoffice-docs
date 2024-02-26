@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 40,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "alias",
-  "Name": "VonRueden Inc and Sons",
-  "Description": "Persistent reciprocal product",
-  "Code": "itaque",
-  "PriceUnit": "ducimus",
-  "QuantityUnit": "libero",
-  "IsSubscription": false,
-  "SubscriptionUnit": "dolorem",
-  "DefaultSubscriptionQuantity": 29939.102,
-  "ItemNumber": "642940",
+  "ProductId": 211,
+  "ERPProductKey": "tempora",
+  "ERPPriceListKey": "ut",
+  "Name": "Emmerich, Lakin and Weber",
+  "Description": "Sharable composite solution",
+  "Code": "eum",
+  "PriceUnit": "asperiores",
+  "QuantityUnit": "sapiente",
+  "IsSubscription": true,
+  "SubscriptionUnit": "repellat",
+  "DefaultSubscriptionQuantity": 13024.904,
+  "ItemNumber": "213376",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "aut",
-  "VAT": 23921.822,
-  "VATInfo": "voluptatibus",
-  "UnitCost": 29114.86,
-  "UnitMinimumPrice": 17556.667999999998,
-  "UnitListPrice": 482.63599999999997,
-  "InAssortment": false,
-  "Supplier": "natus",
-  "SupplierCode": "a",
-  "Rights": "eligendi",
-  "Rule": "nihil",
+  "ProductFamilyKey": "expedita",
+  "ProductTypeKey": "quisquam",
+  "VAT": 18274.354,
+  "VATInfo": "deleniti",
+  "UnitCost": 21724.888,
+  "UnitMinimumPrice": 25031.257999999998,
+  "UnitListPrice": 24630.106,
+  "InAssortment": true,
+  "Supplier": "in",
+  "SupplierCode": "culpa",
+  "Rights": "consequatur",
+  "Rule": "neque",
   "ExtraInfo": [
     {
-      "Name": "Auer Inc and Sons",
-      "Value": "eum",
+      "Name": "Torp-Reichel",
+      "Value": "magnam",
       "Type": "Image"
     },
     {
-      "Name": "Auer Inc and Sons",
-      "Value": "eum",
+      "Name": "Torp-Reichel",
+      "Value": "magnam",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "cum",
-  "ExtraField1": "enim",
-  "ExtraField2": "consequuntur",
-  "ExtraField3": "molestiae",
-  "ExtraField4": "ut",
-  "ExtraField5": "non",
-  "InStock": 8377.1819999999989
+  "RawExtraInfo": "sint",
+  "ExtraField1": "molestiae",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "pariatur",
+  "ExtraField5": "nulla",
+  "InStock": 13407.252
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 304,
-  "ERPProductKey": "consequuntur",
-  "ERPPriceListKey": "veniam",
-  "Name": "Larkin LLC",
-  "Description": "Digitized dynamic orchestration",
-  "Code": "dolorum",
-  "PriceUnit": "quas",
-  "QuantityUnit": "assumenda",
-  "IsSubscription": true,
-  "SubscriptionUnit": "perspiciatis",
-  "DefaultSubscriptionQuantity": 24473.406,
-  "ItemNumber": "905515",
+  "ProductId": 434,
+  "ERPProductKey": "facere",
+  "ERPPriceListKey": "placeat",
+  "Name": "Fahey-Bartoletti",
+  "Description": "Reduced global core",
+  "Code": "distinctio",
+  "PriceUnit": "a",
+  "QuantityUnit": "dolor",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ea",
+  "DefaultSubscriptionQuantity": 6656.616,
+  "ItemNumber": "957886",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vel",
-  "ProductTypeKey": "quia",
-  "VAT": 22417.502,
-  "VATInfo": "quis",
-  "UnitCost": 6468.576,
-  "UnitMinimumPrice": 16663.478,
-  "UnitListPrice": 24642.642,
-  "InAssortment": false,
-  "Supplier": "reprehenderit",
-  "SupplierCode": "maiores",
-  "Rights": "vel",
-  "Rule": "eum",
+  "ProductFamilyKey": "eum",
+  "ProductTypeKey": "cupiditate",
+  "VAT": 27315.944,
+  "VATInfo": "dolorum",
+  "UnitCost": 2864.476,
+  "UnitMinimumPrice": 15911.318,
+  "UnitListPrice": 18898.02,
+  "InAssortment": true,
+  "Supplier": "animi",
+  "SupplierCode": "necessitatibus",
+  "Rights": "modi",
+  "Rule": "itaque",
   "ExtraInfo": [
     {
-      "Name": "Zboncak-Sanford",
-      "Value": "est",
+      "Name": "Kassulke, Schneider and Erdman",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldType": "System.String",
+          "FieldLength": 401
         }
       }
     },
     {
-      "Name": "Zboncak-Sanford",
-      "Value": "est",
+      "Name": "Kassulke, Schneider and Erdman",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldType": "System.String",
+          "FieldLength": 401
         }
       }
     }
   ],
-  "RawExtraInfo": "inventore",
-  "ExtraField1": "quaerat",
-  "ExtraField2": "qui",
-  "ExtraField3": "sint",
-  "ExtraField4": "molestias",
-  "ExtraField5": "aliquam",
-  "InStock": 26341.27,
+  "RawExtraInfo": "voluptas",
+  "ExtraField1": "vel",
+  "ExtraField2": "molestias",
+  "ExtraField3": "dolores",
+  "ExtraField4": "vitae",
+  "ExtraField5": "quis",
+  "InStock": 21007.201999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 80
     }
   }
 }

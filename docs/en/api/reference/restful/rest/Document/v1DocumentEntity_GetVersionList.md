@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ducimus",
-    "DocumentId": 253,
-    "VersionId": "facere",
-    "CheckedInDate": "2010-07-14T16:55:29.6174591+02:00",
-    "CheckedInByName": "Jenkins, Brown and McLaughlin",
-    "CheckedInByAssociateId": 676,
-    "Description": "Switchable 3rd generation parallelism",
-    "DisplayText": "ratione",
+    "ExternalReference": "quod",
+    "DocumentId": 806,
+    "VersionId": "tenetur",
+    "CheckedInDate": "1997-01-16T10:30:32.0418021+01:00",
+    "CheckedInByName": "Pacocha-Hudson",
+    "CheckedInByAssociateId": 786,
+    "Description": "Right-sized tertiary Graphical User Interface",
+    "DisplayText": "sapiente",
     "ExtraFields": [
-      "et",
-      "iusto"
+      "sed",
+      "illum"
     ]
   }
 ]

@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 651,
-  "InstanceLayout": "delectus",
-  "InstanceName": "Skiles Group",
-  "CreatedDate": "2016-12-21T16:54:54.5873066+01:00",
-  "UpdatedDate": "1999-01-01T16:54:54.5873066+01:00",
+  "AudienceLayoutId": 673,
+  "InstanceLayout": "occaecati",
+  "InstanceName": "Lynch Inc and Sons",
+  "CreatedDate": "2009-12-28T10:30:23.0670435+01:00",
+  "UpdatedDate": "2010-06-08T10:30:23.0670435+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 960,
-  "InstanceLayout": "et",
-  "InstanceName": "Corkery LLC",
-  "CreatedDate": "2020-01-02T16:54:54.588304+01:00",
-  "UpdatedDate": "2022-10-12T16:54:54.588304+02:00",
+  "AudienceLayoutId": 233,
+  "InstanceLayout": "minima",
+  "InstanceName": "Wilderman-VonRueden",
+  "CreatedDate": "2000-02-24T10:30:23.0826686+01:00",
+  "UpdatedDate": "2021-12-09T10:30:23.0826686+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 409
     }
   }
 }

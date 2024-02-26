@@ -77,26 +77,26 @@ OK
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 909,
+  "ChatTopicId": 999,
   "Useragents": [
     {
-      "TopicId": 345,
+      "TopicId": 596,
       "User": null,
       "CanListen": true,
       "CanRespond": false,
-      "CanManage": true,
+      "CanManage": false,
       "CanNotify": false
     },
     {
-      "TopicId": 345,
+      "TopicId": 596,
       "User": null,
       "CanListen": true,
       "CanRespond": false,
-      "CanManage": true,
+      "CanManage": false,
       "CanNotify": false
     }
   ]
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 852,
+    "TopicId": 176,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
-    "CanManage": false,
+    "CanManage": true,
     "CanNotify": false
   },
   {
-    "TopicId": 852,
+    "TopicId": 176,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
-    "CanManage": false,
+    "CanManage": true,
     "CanNotify": false
   }
 ]

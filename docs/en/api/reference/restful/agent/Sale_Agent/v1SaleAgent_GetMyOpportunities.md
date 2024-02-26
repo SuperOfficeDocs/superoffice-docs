@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 890
+  "Count": 430
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lehner-Rath",
-    "SaleDate": "2001-07-10T16:54:56.2550126+02:00",
-    "SaleId": 191,
-    "Probability": 991,
-    "Title": "labore",
-    "Amount": 24739.796,
-    "Currency": "autem",
-    "ProjectName": "Spencer Inc and Sons",
-    "AssociateFullName": "Lydia Liana Waters I",
-    "Description": "Realigned analyzing system engine",
+    "ContactName": "Carter-Bartoletti",
+    "SaleDate": "2016-12-14T10:30:24.5283735+01:00",
+    "SaleId": 140,
+    "Probability": 872,
+    "Title": "velit",
+    "Amount": 9912.842,
+    "Currency": "non",
+    "ProjectName": "Purdy Inc and Sons",
+    "AssociateFullName": "Prof. Ryann Johanna Bernhard IV",
+    "Description": "Digitized systemic benchmark",
     "Status": "Lost",
-    "WeightedAmount": 19954.178,
-    "ProjectId": 905,
-    "EarningPercent": 9013.384,
-    "Earning": 241.31799999999998,
-    "ContactId": 973,
-    "AssociateId": 95,
-    "PersonId": 448,
-    "SaleTypeId": 69,
-    "SaleTypeName": "Schneider-Conn",
-    "PersonFullName": "Verner Lakin",
+    "WeightedAmount": 5669.406,
+    "ProjectId": 861,
+    "EarningPercent": 6653.482,
+    "Earning": 16149.501999999999,
+    "ContactId": 100,
+    "AssociateId": 202,
+    "PersonId": 528,
+    "SaleTypeId": 301,
+    "SaleTypeName": "Sporer, Botsford and Jenkins",
+    "PersonFullName": "Robyn Feeney IV",
     "Completed": "Completed",
-    "ActiveErpLinks": 266,
-    "NextDueDate": "2006-04-23T16:54:56.2559926+02:00",
-    "Number": "1275926",
+    "ActiveErpLinks": 635,
+    "NextDueDate": "2013-07-10T10:30:24.5283735+02:00",
+    "Number": "1108056",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 238
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 158,
-    "Name": "Kling Group",
-    "Tooltip": "amet",
-    "SaveInDb": 260,
-    "Filename": "voluptatem",
-    "DefaultOref": "amet",
+    "DocumentTemplateId": 610,
+    "Name": "Greenholt, Bednar and Schoen",
+    "Tooltip": "dolor",
+    "SaveInDb": 117,
+    "Filename": "a",
+    "DefaultOref": "molestiae",
     "RecordType": "Appointment",
-    "Deleted": 721,
+    "Deleted": 140,
     "Direction": "Incoming",
-    "AutoeventId": 25,
+    "AutoeventId": 66,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldType": "System.String",
+        "FieldLength": 54
       }
     }
   }

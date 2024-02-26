@@ -92,28 +92,28 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 742,
-  "Name": "Macejkovic-Leannon",
-  "Rank": 42,
-  "Tooltip": "ut",
-  "Icon": "est",
-  "DefaultTicketStatus": 48,
+  "TicketTypeId": 986,
+  "Name": "Russel, O'Keefe and Windler",
+  "Rank": 408,
+  "Tooltip": "dolor",
+  "Icon": "ut",
+  "DefaultTicketStatus": 382,
   "TicketStatuses": [
-    385,
-    599
+    299,
+    621
   ],
-  "DefaultTicketPriority": 537,
+  "DefaultTicketPriority": 757,
   "TicketPriorities": [
-    284,
-    730
+    890,
+    469
   ],
-  "ReplyTemplate": 664,
-  "IsExternalVisible": true,
-  "IsDefault": false
+  "ReplyTemplate": 224,
+  "IsExternalVisible": false,
+  "IsDefault": true
 }
 ```
 
@@ -124,30 +124,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 788,
-  "Name": "Osinski Inc and Sons",
-  "Rank": 501,
-  "Tooltip": "et",
-  "Icon": "rem",
-  "DefaultTicketStatus": 834,
+  "TicketTypeId": 944,
+  "Name": "Pagac-Purdy",
+  "Rank": 318,
+  "Tooltip": "eius",
+  "Icon": "sint",
+  "DefaultTicketStatus": 786,
   "TicketStatuses": [
-    111,
-    451
+    511,
+    31
   ],
-  "DefaultTicketPriority": 102,
+  "DefaultTicketPriority": 969,
   "TicketPriorities": [
-    944,
-    137
+    997,
+    302
   ],
-  "ReplyTemplate": 23,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 155,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 992
     }
   }
 }

@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "et",
-  "ProviderName": "Wolf Group",
-  "DesiredColumns": "sequi",
-  "OrderBy": "ipsa",
-  "PageSize": 592,
-  "PageNumber": 789
+  "Restrictions": "voluptatem",
+  "ProviderName": "Collier-Pfeffer",
+  "DesiredColumns": "voluptatem",
+  "OrderBy": "ipsam",
+  "PageSize": 91,
+  "PageNumber": 432
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schulist LLC",
-      "DisplayTooltip": "voluptatibus",
-      "DisplayType": "nostrum",
+      "DisplayName": "Kub-Miller",
+      "DisplayTooltip": "optio",
+      "DisplayType": "cum",
       "CanOrderBy": false,
-      "Name": "Towne Inc and Sons",
+      "Name": "Fay-Mertz",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Pouros LLC",
+      "RestrictionType": "recusandae",
+      "RestrictionListName": "Thiel, Gulgowski and Johns",
       "IsVisible": false,
-      "ExtraInfo": "modi",
-      "Width": "ut",
-      "IconHint": "vero",
-      "HeadingIconHint": "non"
+      "ExtraInfo": "ea",
+      "Width": "voluptas",
+      "IconHint": "pariatur",
+      "HeadingIconHint": "omnis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Runte-Considine",
-      "PrimaryKey": 967,
+      "EntityName": "Weber Group",
+      "PrimaryKey": 930,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nihil",
-          "TooltipHint": "ex",
-          "LinkHint": "commodi"
+          "DisplayValue": "pariatur",
+          "TooltipHint": "animi",
+          "LinkHint": "accusamus"
         }
       },
-      "LinkHint": "nulla",
-      "StyleHint": "cupiditate",
+      "LinkHint": "quis",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 23
         }
       }
     }
   ],
-  "RowCount": 367,
+  "RowCount": 502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

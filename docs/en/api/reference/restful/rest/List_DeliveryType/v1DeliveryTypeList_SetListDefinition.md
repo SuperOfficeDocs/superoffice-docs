@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 111,
-  "Name": "VonRueden-King",
-  "Tooltip": "explicabo",
-  "Deleted": false,
-  "Rank": 746,
-  "IsCustomList": true,
+  "Id": 452,
+  "Name": "Metz-Nader",
+  "Tooltip": "quasi",
+  "Deleted": true,
+  "Rank": 58,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 74,
-  "Name": "Schneider-Schmitt",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "Rank": 723,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": true,
+  "Id": 443,
+  "Name": "Leuschke Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 278,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "esse",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   }
 }

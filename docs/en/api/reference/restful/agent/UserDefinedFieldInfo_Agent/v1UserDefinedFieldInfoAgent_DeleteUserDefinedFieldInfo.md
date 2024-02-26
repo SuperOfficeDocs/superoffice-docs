@@ -25,7 +25,7 @@ Deletes the UserDefinedFieldInfo
 | UserDefinedFieldInfoId | int32 | **Required** The id of the UserDefinedFieldInfo to be deleted. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?UserDefinedFieldInfoId=919
+POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?UserDefinedFieldInfoId=889
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

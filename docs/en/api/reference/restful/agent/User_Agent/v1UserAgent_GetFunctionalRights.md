@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 239
+  "RoleId": 842
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Jacobson Group",
-    "ToolTip": "Delectus sunt perferendis quia.",
+    "Id": 340,
+    "Name": "Boehm, Harris and Fahey",
+    "ToolTip": "Blanditiis dolorem esse voluptate quidem inventore.",
     "Deleted": false,
-    "Rank": 704,
-    "Type": "quia",
-    "ColorBlock": 543,
-    "IconHint": "saepe",
-    "Selected": true,
-    "LastChanged": "1999-04-26T16:54:56.6542051+02:00",
+    "Rank": 502,
+    "Type": "et",
+    "ColorBlock": 932,
+    "IconHint": "dignissimos",
+    "Selected": false,
+    "LastChanged": "2000-11-10T10:30:24.9985809+01:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Crona, Stanton and Champlin",
-        "ToolTip": "Excepturi quis nulla sunt ex a et.",
+        "Id": 102,
+        "Name": "Schmitt-Pollich",
+        "ToolTip": "Enim rem sequi iste.",
         "Deleted": false,
-        "Rank": 962,
-        "Type": "molestiae",
-        "ColorBlock": 802,
-        "IconHint": "earum",
+        "Rank": 310,
+        "Type": "minima",
+        "ColorBlock": 63,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2015-10-10T16:54:56.6542051+02:00",
+        "LastChanged": "2017-03-17T10:30:24.9985809+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Marcella Anna Leuschke IV",
+        "FullName": "Prof. Chris Leuschke DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 606
+            "FieldLength": 977
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "sunt",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Dr. Alfredo Hermiston",
+    "FullName": "Mr. Jude Marquardt II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 924
       }
     }
   }

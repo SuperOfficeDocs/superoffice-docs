@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 874,
-  "Name": "Wiza LLC",
-  "Tooltip": "ut",
-  "Rank": 926,
-  "Rate": 13770.796,
-  "Units": 5271.388,
+  "CurrencyId": 140,
+  "Name": "Tremblay, Johnston and Gulgowski",
+  "Tooltip": "repellendus",
+  "Rank": 777,
+  "Rate": 15231.24,
+  "Units": 2641.962,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 674,
-  "Name": "Hane, Hermann and Hoppe",
-  "Tooltip": "non",
-  "Rank": 463,
-  "Rate": 5352.8719999999994,
-  "Units": 15710.742,
+  "CurrencyId": 346,
+  "Name": "Kuvalis, Vandervort and Bauch",
+  "Tooltip": "voluptas",
+  "Rank": 681,
+  "Rate": 9774.946,
+  "Units": 6778.842,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 422
     }
   }
 }

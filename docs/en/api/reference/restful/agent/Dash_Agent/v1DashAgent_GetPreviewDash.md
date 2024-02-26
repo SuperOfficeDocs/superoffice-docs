@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 573
+  "DashboardId": 91
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cruickshank LLC",
-  "Description": "Cross-platform optimizing forecast",
-  "OwnedByFullName": "Jordi Davis",
-  "Registered": "2009-03-16T16:54:55.1112907+01:00",
+  "Name": "Daniel Inc and Sons",
+  "Description": "Advanced assymetric budgetary management",
+  "OwnedByFullName": "Uriel Bode",
+  "Registered": "2023-03-08T10:30:23.4519051+01:00",
   "Tiles": [
     {
-      "Name": "Mayer, Nicolas and Considine",
+      "Name": "Heathcote, Frami and Hammes",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldType": "System.String",
+          "FieldLength": 804
         }
       }
     },
     {
-      "Name": "Mayer, Nicolas and Considine",
+      "Name": "Heathcote, Frami and Hammes",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldType": "System.String",
+          "FieldLength": 804
         }
       }
     }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 226
     }
   }
 }

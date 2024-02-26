@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
+  "UniqueIdentifier": "accusamus",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sunt",
-  "Name": "Yost-Nienow",
-  "Description": "Self-enabling solution-oriented function",
-  "IncludeId": "nobis",
-  "Source": "dolor",
-  "Registered": "2007-01-10T16:54:55.0622709+01:00",
-  "RegisteredBy": "architecto",
-  "Updated": "2014-05-11T16:54:55.0622709+02:00",
-  "UpdatedBy": "nihil",
-  "Path": "velit",
+  "UniqueIdentifier": "laboriosam",
+  "Name": "Balistreri, Bergstrom and Hirthe",
+  "Description": "Sharable real-time solution",
+  "IncludeId": "vero",
+  "Source": "minus",
+  "Registered": "2017-11-03T10:30:23.4049883+01:00",
+  "RegisteredBy": "sunt",
+  "Updated": "2019-09-29T10:30:23.4049883+02:00",
+  "UpdatedBy": "ducimus",
+  "Path": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 372
     }
   }
 }

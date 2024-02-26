@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 470
+  "EntityId": 699
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 690,
-    "ConnectionName": "Miller-Schumm",
-    "Connected": true,
+    "ErpConnectionId": 123,
+    "ConnectionName": "Sawayn, Hintz and Bartoletti",
+    "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "perferendis",
-        "Rank": 260,
-        "DisplayName": "Zemlak, Abshire and Walker",
-        "DisplayDescription": "Down-sized assymetric ability",
+        "FieldKey": "enim",
+        "Rank": 471,
+        "DisplayName": "Sawayn-Stiedemann",
+        "DisplayDescription": "Pre-emptive full-range moratorium",
         "FieldType": "Checkbox",
-        "ListName": "Kessler Inc and Sons",
-        "DefaultValue": "asperiores",
-        "MaxLength": 17,
+        "ListName": "Turcotte, Wilkinson and Kassulke",
+        "DefaultValue": "pariatur",
+        "MaxLength": 713,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldType": "System.String",
+            "FieldLength": 540
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "culpa",
-      "sunt"
+      "est",
+      "quae"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 922
       }
     }
   }

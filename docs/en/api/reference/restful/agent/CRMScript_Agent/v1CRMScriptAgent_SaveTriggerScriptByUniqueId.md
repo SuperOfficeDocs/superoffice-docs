@@ -92,7 +92,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "est",
+  "TriggerScriptUniqueId": "molestiae",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 418,
-  "Name": "Streich Inc and Sons",
+  "ScreenChooserId": 936,
+  "Name": "Ritchie, Rosenbaum and Yundt",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "ab",
-  "Source": "qui",
-  "Registered": "2006-10-05T16:54:55.0712705+02:00",
-  "RegisteredAssociateId": 873,
-  "Updated": "2006-08-05T16:54:55.0712705+02:00",
-  "UpdatedAssociateId": 418,
+  "UniqueIdentifier": "vel",
+  "Source": "natus",
+  "Registered": "2010-09-17T10:30:23.4206552+02:00",
+  "RegisteredAssociateId": 815,
+  "Updated": "2017-12-11T10:30:23.4206552+01:00",
+  "UpdatedAssociateId": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 153
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Koss-Klein",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 614,
-    "UdListDefinitionId": 489,
+    "HeadingId": 529,
+    "Name": "Hartmann-Hirthe",
+    "Tooltip": "corrupti",
+    "Deleted": false,
+    "Rank": 322,
+    "UdListDefinitionId": 233,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 890
       }
     }
   }

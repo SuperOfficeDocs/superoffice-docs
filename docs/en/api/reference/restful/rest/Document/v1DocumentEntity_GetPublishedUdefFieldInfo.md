@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 406,
-  "ColumnId": 321,
-  "FieldDefault": "dolorum",
-  "FieldHeight": 976,
-  "FieldLabel": "eos",
-  "FieldLeft": 916,
-  "FieldTop": 772,
+  "UDefFieldId": 90,
+  "ColumnId": 20,
+  "FieldDefault": "id",
+  "FieldHeight": 735,
+  "FieldLabel": "beatae",
+  "FieldLeft": 695,
+  "FieldTop": 207,
   "FieldType": "Checkbox",
-  "FieldWidth": 452,
-  "FormatMask": "quia",
-  "HideLabel": false,
+  "FieldWidth": 747,
+  "FormatMask": "exercitationem",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 350,
-  "LabelLeft": 380,
-  "LabelTop": 470,
-  "LabelWidth": 426,
-  "LastVersionId": 882,
-  "ListTableId": 798,
-  "IsMandatory": true,
+  "LabelHeight": 393,
+  "LabelLeft": 461,
+  "LabelTop": 691,
+  "LabelWidth": 913,
+  "LastVersionId": 245,
+  "ListTableId": 113,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 536,
-  "ProgId": "totam",
-  "IsReadOnly": true,
-  "ShortLabel": "in",
-  "TabOrder": 1002,
-  "TextLength": 924,
-  "Tooltip": "corrupti",
-  "UdefIdentity": 972,
-  "UDListDefinitionId": 166,
+  "Page1LineNo": 410,
+  "ProgId": "deleniti",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 408,
+  "TextLength": 20,
+  "Tooltip": "et",
+  "UdefIdentity": 645,
+  "UDListDefinitionId": 709,
   "Justification": "Center",
-  "Version": 719,
-  "TemplateVariableName": "Armstrong, Hermann and Bahringer",
+  "Version": 429,
+  "TemplateVariableName": "Becker Group",
   "HasBeenPublished": false,
-  "MdoListName": "Conroy Inc and Sons",
+  "MdoListName": "Lockman, Murphy and Roberts",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 224
     }
   }
 }

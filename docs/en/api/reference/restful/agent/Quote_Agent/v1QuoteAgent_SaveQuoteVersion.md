@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 968,
-  "ERPQuoteVersionKey": "nostrum",
-  "QuoteId": 56,
-  "Description": "Persevering multi-state matrix",
-  "Number": "511617",
+  "QuoteVersionId": 750,
+  "ERPQuoteVersionKey": "recusandae",
+  "QuoteId": 347,
+  "Description": "Polarised encompassing matrix",
+  "Number": "1307851",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 477,
-  "SentDate": "2022-03-30T16:54:56.1001396+02:00",
-  "FollowupId": 716,
-  "ExpirationDate": "2003-07-08T16:54:56.1001396+02:00",
-  "DeliveryCountryId": 724,
+  "LikelyQuoteAlternativeId": 254,
+  "SentDate": "2017-03-06T10:30:24.3877082+01:00",
+  "FollowupId": 10,
+  "ExpirationDate": "1998-11-20T10:30:24.3877082+01:00",
+  "DeliveryCountryId": 583,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 570,
+  "InvoiceCountryId": 557,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "corrupti",
-  "ERPPaymentTypeKey": "labore",
-  "ERPDeliveryTermsKey": "aut",
-  "ERPDeliveryTypeKey": "excepturi",
-  "Rank": 366,
-  "ApprovedBy": 475,
-  "ApprovedText": "hic",
-  "ApprovedRegisteredBy": 32,
-  "ApprovedRegisteredDate": "2000-12-08T16:54:56.1001396+01:00",
-  "ExtraField1": "est",
-  "ExtraField2": "sed",
-  "ExtraField3": "quia",
-  "ExtraField4": "dolores",
-  "ExtraField5": "nostrum",
-  "LastRecalculated": "2023-10-25T16:54:56.1001396+02:00",
-  "Updated": "2011-02-28T16:54:56.1001396+01:00",
-  "UpdatedAssociateId": 894,
-  "Registered": "2006-02-28T16:54:56.1001396+01:00",
-  "RegisteredAssociateId": 54,
-  "RequestAssociateId": 223,
-  "RequestComment": "vitae",
+  "ERPPaymentTermsKey": "velit",
+  "ERPPaymentTypeKey": "maxime",
+  "ERPDeliveryTermsKey": "natus",
+  "ERPDeliveryTypeKey": "iusto",
+  "Rank": 401,
+  "ApprovedBy": 355,
+  "ApprovedText": "nostrum",
+  "ApprovedRegisteredBy": 413,
+  "ApprovedRegisteredDate": "2001-10-08T10:30:24.3877082+02:00",
+  "ExtraField1": "in",
+  "ExtraField2": "velit",
+  "ExtraField3": "nemo",
+  "ExtraField4": "perferendis",
+  "ExtraField5": "molestiae",
+  "LastRecalculated": "2022-08-27T10:30:24.3877082+02:00",
+  "Updated": "2003-05-04T10:30:24.3877082+02:00",
+  "UpdatedAssociateId": 921,
+  "Registered": "2007-10-17T10:30:24.3877082+02:00",
+  "RegisteredAssociateId": 845,
+  "RequestAssociateId": 209,
+  "RequestComment": "architecto",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 900,
-      "ERPQuoteAlternativeKey": "facilis",
-      "QuoteVersionId": 890,
-      "Name": "Howell Inc and Sons",
-      "Description": "Persistent 5th generation matrix",
+      "QuoteAlternativeId": 805,
+      "ERPQuoteAlternativeKey": "nihil",
+      "QuoteVersionId": 474,
+      "Name": "Abshire Inc and Sons",
+      "Description": "Monitored actuating support",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 5428.088,
-      "ERPDiscountAmount": 5334.068,
-      "DiscountPercent": 15312.724,
-      "DiscountAmount": 16594.53,
+      "ERPDiscountPercent": 6615.874,
+      "ERPDiscountAmount": 10100.882,
+      "DiscountPercent": 2626.292,
+      "DiscountAmount": 19277.234,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "similique",
-      "VAT": 1413.434,
-      "EarningPercent": 28431.647999999997,
-      "EarningAmount": 24956.041999999998,
-      "SubTotal": 23580.216,
-      "TotalPrice": 26551.248,
-      "ExtraField1": "occaecati",
-      "ExtraField2": "animi",
-      "ExtraField3": "voluptas",
-      "ExtraField4": "cupiditate",
-      "ExtraField5": "veritatis",
+      "VATInfo": "ut",
+      "VAT": 20994.666,
+      "EarningPercent": 13999.578,
+      "EarningAmount": 7838.134,
+      "SubTotal": 20903.78,
+      "TotalPrice": 5647.468,
+      "ExtraField1": "necessitatibus",
+      "ExtraField2": "velit",
+      "ExtraField3": "nisi",
+      "ExtraField4": "ut",
+      "ExtraField5": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 829
     }
   }
 }

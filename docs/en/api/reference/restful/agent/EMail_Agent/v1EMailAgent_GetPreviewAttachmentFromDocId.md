@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 183,
-  "AttachmentId": "mollitia"
+  "DocId": 127,
+  "AttachmentId": "corrupti"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated analyzing secured line",
-  "Filename": "nam",
-  "Size": 52,
-  "Type": "aperiam",
-  "Encoding": "asperiores",
-  "Id": "ea",
-  "Disposition": "qui",
+  "Description": "Mandatory directional hub",
+  "Filename": "officiis",
+  "Size": 173,
+  "Type": "et",
+  "Encoding": "libero",
+  "Id": "quam",
+  "Disposition": "sed",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

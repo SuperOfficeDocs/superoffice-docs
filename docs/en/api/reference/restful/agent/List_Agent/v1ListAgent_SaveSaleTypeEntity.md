@@ -109,47 +109,47 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 745,
-  "Name": "Jacobs Group",
-  "Tooltip": "nam",
-  "Rank": 208,
+  "SaleTypeId": 911,
+  "Name": "Paucek Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 251,
   "DurationUnit": "Century",
-  "SaleDuration": 966,
-  "SaleTypeCatId": 434,
-  "Deleted": true,
+  "SaleDuration": 903,
+  "SaleTypeCatId": 437,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 271,
-  "QuoteLinesTemplate": 515,
-  "ConfirmationLinesTemplate": 201,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 817,
+  "QuoteLinesTemplate": 389,
+  "ConfirmationLinesTemplate": 48,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 789,
-  "MinEarningPercent": 305,
-  "GroupQuoteLinesBy": 813,
-  "SortGroupLinesBy": 968,
+  "MaxDiscountPercent": 57,
+  "MinEarningPercent": 1001,
+  "GroupQuoteLinesBy": 795,
+  "SortGroupLinesBy": 978,
   "Stages": [
     {
-      "Id": 926,
-      "Name": "Rohan LLC",
-      "ToolTip": "Et magnam quo quibusdam qui voluptatum.",
+      "Id": 700,
+      "Name": "Adams-McGlynn",
+      "ToolTip": "Ea alias natus perspiciatis.",
       "Deleted": true,
-      "Rank": 394,
-      "Type": "fuga",
-      "ColorBlock": 300,
-      "IconHint": "est",
+      "Rank": 602,
+      "Type": "at",
+      "ColorBlock": 163,
+      "IconHint": "voluptatum",
       "Selected": false,
-      "LastChanged": "1997-03-21T16:54:55.6279847+01:00",
+      "LastChanged": "2008-04-03T10:30:24.0725232+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "et",
+      "ExtraInfo": "quis",
+      "StyleHint": "ullam",
       "Hidden": false,
-      "FullName": "Tom McDermott DVM"
+      "FullName": "Jett Nadia Lebsack V"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 743,
-  "Name": "Okuneva-Pfeffer",
-  "Tooltip": "illo",
-  "Rank": 293,
+  "SaleTypeId": 641,
+  "Name": "Witting-Thompson",
+  "Tooltip": "modi",
+  "Rank": 906,
   "DurationUnit": "Century",
-  "SaleDuration": 636,
-  "SaleTypeCatId": 197,
-  "Deleted": false,
+  "SaleDuration": 800,
+  "SaleTypeCatId": 969,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 584,
-  "QuoteLinesTemplate": 515,
-  "ConfirmationLinesTemplate": 399,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 251,
-  "MinEarningPercent": 194,
-  "GroupQuoteLinesBy": 539,
-  "SortGroupLinesBy": 635,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 169,
+  "QuoteLinesTemplate": 942,
+  "ConfirmationLinesTemplate": 83,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 215,
+  "MinEarningPercent": 891,
+  "GroupQuoteLinesBy": 483,
+  "SortGroupLinesBy": 950,
   "Stages": [
     {
-      "Id": 433,
-      "Name": "Lubowitz LLC",
-      "ToolTip": "Vero voluptatibus dolores eius voluptatem officia est officiis.",
+      "Id": 24,
+      "Name": "Berge, Cassin and Senger",
+      "ToolTip": "Quia nihil.",
       "Deleted": false,
-      "Rank": 966,
-      "Type": "velit",
-      "ColorBlock": 605,
-      "IconHint": "architecto",
+      "Rank": 284,
+      "Type": "iure",
+      "ColorBlock": 695,
+      "IconHint": "inventore",
       "Selected": false,
-      "LastChanged": "2016-06-30T16:54:55.6279847+02:00",
+      "LastChanged": "2011-11-20T10:30:24.0725232+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "dolor",
-      "Hidden": false,
-      "FullName": "Mrs. Lori Hackett DVM",
+      "ExtraInfo": "porro",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Amelie Schmidt DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 548
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 586
     }
   }
 }

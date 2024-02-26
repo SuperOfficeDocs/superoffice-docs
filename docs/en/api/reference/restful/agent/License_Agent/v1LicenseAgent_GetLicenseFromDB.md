@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Langosh Group"
+  "OwnerName": "Murphy Inc and Sons"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "extend virtual functionalities",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 553,
-      "NumberOfLicensesFree": 69,
-      "NumberOfLicensesAdded": 423,
-      "NumberOfLicensesNewTotal": 21,
-      "NumberOfLicensesNewFree": 227,
-      "NumberOfLicensesTotal": 990
+      "NumberOfLicensesInUse": 781,
+      "NumberOfLicensesFree": 472,
+      "NumberOfLicensesAdded": 115,
+      "NumberOfLicensesNewTotal": 577,
+      "NumberOfLicensesNewFree": 858,
+      "NumberOfLicensesTotal": 351
     }
   ],
-  "AccumulatedNextCheckDate": "1999-06-27T16:54:55.502471+02:00"
+  "AccumulatedNextCheckDate": "2020-06-27T10:30:23.9272181+02:00"
 }
 ```

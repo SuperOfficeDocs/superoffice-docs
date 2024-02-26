@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Lubowitz, DuBuque and Bartell",
-  "ModuleName": "Smith, Kunde and Koepp"
+  "OwnerName": "Grady Group",
+  "ModuleName": "Cruickshank Group"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kautzer Group",
-  "ModuleName": "Hansen, Halvorson and Gaylord",
-  "ModuleDescription": "Monitored hybrid migration",
-  "ModuleTooltip": "quidem",
-  "ModuleVersion": "explicabo",
+  "OwnerName": "Graham Group",
+  "ModuleName": "Schowalter-D'Amore",
+  "ModuleDescription": "Open-source zero administration circuit",
+  "ModuleTooltip": "vel",
+  "ModuleVersion": "aliquam",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 374,
-  "ExtraFlags": 519,
-  "ExtraInfo": "aliquam",
-  "SortOrder": 897,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Stark LLC",
-  "Signature": "sint"
+  "NumberOfLicenses": 94,
+  "ExtraFlags": 25,
+  "ExtraInfo": "labore",
+  "SortOrder": 336,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Robel LLC",
+  "Signature": "dolores"
 }
 ```

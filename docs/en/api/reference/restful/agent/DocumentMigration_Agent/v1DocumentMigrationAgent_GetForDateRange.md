@@ -83,9 +83,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 27,
-  "MinDate": "1999-03-23T16:54:55.2894197+01:00",
-  "MaxDate": "2006-04-17T16:54:55.2894197+02:00",
+  "DocumentPluginId": 735,
+  "MinDate": "2022-08-02T10:30:23.7199314+02:00",
+  "MaxDate": "2011-10-22T10:30:23.7199314+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 687,
-  "NumDocumentsAlreadyMigrated": 688,
+  "NumDocumentsOmitted": 924,
+  "NumDocumentsAlreadyMigrated": 773,
   "Documents": [
     {
-      "DocumentId": 657,
-      "ContactId": 167,
-      "PersonId": 328,
-      "SaleId": 17,
-      "ProjectId": 168,
-      "DocTmplId": 756,
-      "AssociateId": 444,
-      "UserGroupId": 897,
-      "VisibleForId": 354
+      "DocumentId": 67,
+      "ContactId": 230,
+      "PersonId": 100,
+      "SaleId": 898,
+      "ProjectId": 930,
+      "DocTmplId": 816,
+      "AssociateId": 474,
+      "UserGroupId": 573,
+      "VisibleForId": 57
     }
   ],
   "Associates": [
     {
-      "AssociateId": 807,
-      "EmailAddress": "myrna.ruecker@davis.com"
+      "AssociateId": 85,
+      "EmailAddress": "elyssa@okuneva.co.uk"
     },
     {
-      "AssociateId": 807,
-      "EmailAddress": "myrna.ruecker@davis.com"
+      "AssociateId": 85,
+      "EmailAddress": "elyssa@okuneva.co.uk"
     }
   ]
 }

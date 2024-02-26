@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 294,
-    "Name": "Harber, Brown and Padberg",
-    "ToolTip": "Est nemo molestias maxime.",
+    "Id": 143,
+    "Name": "Swift, Cummings and Littel",
+    "ToolTip": "Id voluptatem enim autem rerum.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "voluptates",
-    "ColorBlock": 925,
-    "IconHint": "voluptas",
+    "Rank": 763,
+    "Type": "illo",
+    "ColorBlock": 626,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2012-04-18T16:55:30.7977354+02:00",
+    "LastChanged": "2023-11-04T10:30:33.1005836+01:00",
     "ChildItems": [
       {
-        "Id": 300,
-        "Name": "Torp-Kuhlman",
-        "ToolTip": "Dolores consectetur asperiores possimus mollitia maxime fugit aut.",
-        "Deleted": false,
-        "Rank": 397,
-        "Type": "voluptatem",
-        "ColorBlock": 321,
-        "IconHint": "eligendi",
-        "Selected": false,
-        "LastChanged": "2000-10-04T16:55:30.7977354+02:00",
+        "Id": 76,
+        "Name": "Grant, Lang and Bauch",
+        "ToolTip": "Sit itaque ipsa quasi veniam sapiente laborum.",
+        "Deleted": true,
+        "Rank": 683,
+        "Type": "ut",
+        "ColorBlock": 847,
+        "IconHint": "veritatis",
+        "Selected": true,
+        "LastChanged": "2003-04-18T10:30:33.1005836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "eligendi",
-        "Hidden": true,
-        "FullName": "Mr. Elyssa Dare"
+        "ExtraInfo": "ut",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Miss Arvilla Nikko Lang"
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "maiores",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Prof. Simone Barry Wintheiser"
+    "FullName": "Oma Mayer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Casper Group",
-    "ToolTip": "Vero iusto non eos eum qui.",
-    "Deleted": false,
-    "Rank": 243,
-    "Type": "enim",
-    "ColorBlock": 629,
-    "IconHint": "nihil",
+    "Id": 401,
+    "Name": "Lowe LLC",
+    "ToolTip": "Voluptatem sed illo voluptatibus numquam unde cupiditate maxime.",
+    "Deleted": true,
+    "Rank": 341,
+    "Type": "repellat",
+    "ColorBlock": 947,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2001-10-13T16:55:30.7987361+02:00",
+    "LastChanged": "2009-10-03T10:30:33.1005836+02:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Langosh-Gaylord",
-        "ToolTip": "Cupiditate ducimus quo.",
+        "Id": 968,
+        "Name": "Shanahan-Bins",
+        "ToolTip": "Adipisci ex.",
         "Deleted": false,
-        "Rank": 150,
-        "Type": "porro",
-        "ColorBlock": 632,
-        "IconHint": "rerum",
+        "Rank": 255,
+        "Type": "quas",
+        "ColorBlock": 972,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "2018-09-26T16:55:30.7987361+02:00",
+        "LastChanged": "2003-04-20T10:30:33.1005836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "aut",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Martin Davis",
+        "FullName": "Dortha Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 644
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Mrs. Alyson Liam Pacocha",
+    "ExtraInfo": "sit",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Mr. Jewel Jamar Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 523
       }
     }
   }

@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Block-Ankunding",
+  "Name": "Larkin-Schuster",
   "ForceFlatList": false,
-  "AdditionalInfo": "est",
-  "OnlyHistory": false
+  "AdditionalInfo": "dolore",
+  "OnlyHistory": true
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Breitenberg, Durgan and Sauer",
-    "ToolTip": "Esse quis architecto vitae sed.",
-    "Deleted": false,
-    "Rank": 888,
-    "Type": "aut",
+    "Id": 468,
+    "Name": "Marvin-Johns",
+    "ToolTip": "Minus reprehenderit culpa voluptate.",
+    "Deleted": true,
+    "Rank": 849,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Bechtelar-Zemlak",
-        "ToolTip": "Laudantium blanditiis pariatur.",
-        "Deleted": true,
-        "Rank": 28,
-        "Type": "voluptatem",
+        "Id": 442,
+        "Name": "Littel, Leuschke and Jaskolski",
+        "ToolTip": "Quia sequi voluptatem.",
+        "Deleted": false,
+        "Rank": 35,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 543,
-        "ExtraInfo": "tenetur",
-        "StyleHint": "iusto",
-        "FullName": "Mrs. Erika Wiza",
+        "IconHint": "modi",
+        "ColorBlock": 861,
+        "ExtraInfo": "doloremque",
+        "StyleHint": "ea",
+        "FullName": "Haylee Herzog",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldType": "System.String",
+            "FieldLength": 325
           }
         }
       }
     ],
-    "IconHint": "ipsum",
-    "ColorBlock": 221,
-    "ExtraInfo": "debitis",
-    "StyleHint": "sed",
-    "FullName": "Earlene Renner",
+    "IconHint": "praesentium",
+    "ColorBlock": 701,
+    "ExtraInfo": "dolorum",
+    "StyleHint": "soluta",
+    "FullName": "Ms. Julien Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 538
+        "FieldType": "System.Int32",
+        "FieldLength": 380
       }
     }
   }

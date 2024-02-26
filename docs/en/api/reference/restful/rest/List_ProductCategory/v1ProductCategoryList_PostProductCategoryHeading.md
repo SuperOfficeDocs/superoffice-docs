@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 585,
-  "Name": "Brown Group",
-  "Tooltip": "commodi",
+  "HeadingId": 337,
+  "Name": "Schamberger-Kozey",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 432,
-  "UdListDefinitionId": 474
+  "Rank": 523,
+  "UdListDefinitionId": 224
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 608,
-  "Name": "Bins, Parisian and Graham",
-  "Tooltip": "qui",
+  "HeadingId": 513,
+  "Name": "Larkin-King",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 862,
-  "UdListDefinitionId": 216,
+  "Rank": 465,
+  "UdListDefinitionId": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

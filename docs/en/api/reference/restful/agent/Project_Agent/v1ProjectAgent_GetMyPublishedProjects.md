@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 755,
-    "Name": "Considine Group",
-    "Description": "Front-line zero administration moderator",
+    "ProjectId": 254,
+    "Name": "Bauch, Hayes and Bauch",
+    "Description": "Multi-tiered disintermediate knowledge user",
     "URL": "http://www.example.com/",
-    "Type": "eum",
-    "AssociateId": 852,
-    "AssociateFullName": "Mr. Torrey Claudia Zieme DVM",
-    "TypeId": 820,
-    "Updated": "2008-11-10T16:54:56.0721409+01:00",
-    "StatusId": 750,
-    "Status": "est",
-    "TextId": 560,
-    "PublishTo": "2019-04-15T16:54:56.0721409+02:00",
-    "PublishFrom": "2008-07-27T16:54:56.0721409+02:00",
-    "IsPublished": false,
+    "Type": "nulla",
+    "AssociateId": 369,
+    "AssociateFullName": "Prof. Madalyn Goldner V",
+    "TypeId": 277,
+    "Updated": "2002-01-05T10:30:24.3705833+01:00",
+    "StatusId": 845,
+    "Status": "qui",
+    "TextId": 310,
+    "PublishTo": "1998-06-05T10:30:24.3705833+02:00",
+    "PublishFrom": "2002-07-10T10:30:24.3705833+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "822366",
-    "ActiveErpLinks": 259,
+    "ProjectNumber": "1469259",
+    "ActiveErpLinks": 958,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 274
+        "FieldType": "System.Int32",
+        "FieldLength": 720
       }
     }
   }

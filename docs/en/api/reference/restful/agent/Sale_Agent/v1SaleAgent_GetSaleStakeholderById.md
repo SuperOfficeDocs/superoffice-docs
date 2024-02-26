@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    643,
-    147
+    555,
+    246
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Bartoletti Inc and Sons",
-    "Comment": "qui",
-    "StakeholderRoleId": 933,
-    "CountryId": 953,
-    "PersonId": 224,
-    "EmailDescription": "augustus@abernathy.info",
-    "EmailId": 826,
-    "EmailAddress": "golda@hessel.us",
-    "PhoneId": 80,
-    "ContactName": "Cartwright, Schumm and Roberts",
-    "ContactId": 721,
-    "SaleId": 352,
-    "Mrmrs": "minus",
-    "Firstname": "Kasey",
-    "MiddleName": "Schmidt Inc and Sons",
-    "Lastname": "Stehr",
-    "SaleStakeholderId": 578,
-    "Rank": 279,
-    "Phone": "(154)997-0284",
+    "StakeholderRoleName": "Harber LLC",
+    "Comment": "odit",
+    "StakeholderRoleId": 660,
+    "CountryId": 205,
+    "PersonId": 52,
+    "EmailDescription": "mack.legros@witting.uk",
+    "EmailId": 614,
+    "EmailAddress": "woodrow@mertz.biz",
+    "PhoneId": 219,
+    "ContactName": "Howe, Gerhold and Schneider",
+    "ContactId": 199,
+    "SaleId": 239,
+    "Mrmrs": "perspiciatis",
+    "Firstname": "Casimir",
+    "MiddleName": "Weissnat LLC",
+    "Lastname": "Ward",
+    "SaleStakeholderId": 123,
+    "Rank": 156,
+    "Phone": "702-598-9081 x440",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 211
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 536,
-    "Name": "Becker Inc and Sons",
-    "Tooltip": "rerum",
+    "HeadingId": 321,
+    "Name": "Davis, Rodriguez and Rosenbaum",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 734,
-    "UdListDefinitionId": 258
+    "Rank": 559,
+    "UdListDefinitionId": 373
   },
   {
-    "HeadingId": 536,
-    "Name": "Becker Inc and Sons",
-    "Tooltip": "rerum",
+    "HeadingId": 321,
+    "Name": "Davis, Rodriguez and Rosenbaum",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 734,
-    "UdListDefinitionId": 258
+    "Rank": 559,
+    "UdListDefinitionId": 373
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 13,
-    "Name": "Fisher, Pagac and Russel",
-    "Tooltip": "ducimus",
+    "HeadingId": 382,
+    "Name": "Simonis-White",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 541,
-    "UdListDefinitionId": 823,
+    "Rank": 168,
+    "UdListDefinitionId": 928,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldLength": 139
       }
     }
   }

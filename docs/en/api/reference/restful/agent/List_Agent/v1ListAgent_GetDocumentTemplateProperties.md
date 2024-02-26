@@ -69,14 +69,14 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateProperties
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 736,
+  "DocumentTemplateId": 981,
   "RequestedProperties": [
-    "earum",
-    "aperiam"
+    "corporis",
+    "omnis"
   ]
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quis",
-  "2": "explicabo"
+  "1": "unde",
+  "2": "sit"
 }
 ```

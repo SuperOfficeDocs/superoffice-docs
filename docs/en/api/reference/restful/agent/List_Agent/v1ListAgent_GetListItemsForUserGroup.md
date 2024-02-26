@@ -92,8 +92,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 323,
-  "GroupId": 208
+  "UdListDefinitionId": 945,
+  "GroupId": 820
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Kshlerin-Kemmer",
-    "ToolTip": "Eius fugit iure in quia.",
-    "Deleted": false,
-    "Rank": 134,
-    "Type": "dolorum",
-    "ColorBlock": 714,
-    "IconHint": "deserunt",
+    "Id": 299,
+    "Name": "Schinner Group",
+    "ToolTip": "Sed voluptatibus explicabo voluptatum quia magnam aut et.",
+    "Deleted": true,
+    "Rank": 66,
+    "Type": "a",
+    "ColorBlock": 761,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "1998-07-18T16:54:55.5629859+02:00",
+    "LastChanged": "2010-10-16T10:30:23.9944062+02:00",
     "ChildItems": [
       {
-        "Id": 486,
-        "Name": "Cummerata-Watsica",
-        "ToolTip": "Et quae labore recusandae ex distinctio qui.",
-        "Deleted": false,
-        "Rank": 1001,
-        "Type": "ut",
-        "ColorBlock": 667,
-        "IconHint": "ipsam",
+        "Id": 139,
+        "Name": "Carter, Blanda and Bernier",
+        "ToolTip": "Non et eos id nobis qui.",
+        "Deleted": true,
+        "Rank": 719,
+        "Type": "saepe",
+        "ColorBlock": 578,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2021-05-06T16:54:55.5629859+02:00",
+        "LastChanged": "2012-11-01T10:30:23.9944062+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Giovanni Reinger",
+        "ExtraInfo": "velit",
+        "StyleHint": "a",
+        "Hidden": true,
+        "FullName": "Anne Mayert MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 412
+            "FieldLength": 32
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "a",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Miss Malinda Ondricka Jr.",
+    "FullName": "Zack Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

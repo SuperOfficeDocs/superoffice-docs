@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Heller, Gaylord and Mraz",
-  "Tooltip": "rerum",
+  "Id": 137,
+  "Name": "Nicolas-Pacocha",
+  "Tooltip": "distinctio",
   "Deleted": true,
-  "Rank": 378,
+  "Rank": 612,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Ziemann Group",
-  "Tooltip": "magnam",
+  "Id": 546,
+  "Name": "Block, Lueilwitz and Hills",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 74,
+  "Rank": 997,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "vel",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 963
     }
   }
 }

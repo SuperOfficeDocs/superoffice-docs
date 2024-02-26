@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 854,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2012-02-26T16:54:55.1558942+01:00",
-  "EndTime": "2007-12-02T16:54:55.1558942+01:00",
-  "Count": 734,
+  "PersonId": 41,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2014-03-03T10:30:23.5925282+01:00",
+  "EndTime": "2000-01-25T10:30:23.5925282+01:00",
+  "Count": 279,
   "DocumentTemplateIds": [
-    155,
-    489
+    695,
+    529
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 959,
-    "Attention": "assumenda",
-    "Header": "est",
-    "Name": "Cruickshank, Predovic and Pagac",
-    "OurRef": "maiores",
-    "YourRef": "magnam",
-    "Description": "Cloned foreground approach",
-    "DocumentTemplate": "reiciendis",
+    "DocumentId": 755,
+    "Attention": "qui",
+    "Header": "a",
+    "Name": "Kunde-Rippin",
+    "OurRef": "quo",
+    "YourRef": "ut",
+    "Description": "User-friendly transitional encryption",
+    "DocumentTemplate": "voluptatem",
     "IsPublished": true,
-    "PersonId": 725,
-    "PersonFullName": "Miss Lolita Kozey",
-    "AssociateFullName": "Audie Sanford",
-    "ContactId": 216,
-    "ContactName": "Senger Group",
-    "ProjectId": 119,
+    "PersonId": 27,
+    "PersonFullName": "Dr. Dorcas Delpha Welch III",
+    "AssociateFullName": "Dante Reichel IV",
+    "ContactId": 757,
+    "ContactName": "Blick, Mayer and Towne",
+    "ProjectId": 481,
     "ProjectName": "Brekke Inc and Sons",
-    "AssociateId": 887,
-    "Snum": 1001,
-    "SaleId": 718,
-    "SaleName": "Lindgren, Kunze and Metz",
+    "AssociateId": 955,
+    "Snum": 721,
+    "SaleId": 816,
+    "SaleName": "Hettinger Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 730
       }
     }
   }

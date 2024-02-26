@@ -14,7 +14,9 @@ so.topic: reference
 ## All API changes
 
 * [Version 10.3.1][1]
+* [Version 10.3.2][2]
 
 <!-- Referenced links-->
 
 [1]: 10.3.1-update.md
+[2]: 10.3.2-update.md

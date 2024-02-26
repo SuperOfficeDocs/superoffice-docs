@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "Leuschke Inc and Sons",
-    "ToolTip": "Autem quibusdam est commodi molestiae et libero.",
-    "Deleted": false,
-    "Rank": 381,
-    "Type": "itaque",
-    "ColorBlock": 232,
-    "IconHint": "dolorem",
+    "Id": 63,
+    "Name": "Jast, McLaughlin and Kovacek",
+    "ToolTip": "Alias facere vero voluptatibus quod voluptatem voluptatem.",
+    "Deleted": true,
+    "Rank": 39,
+    "Type": "repellat",
+    "ColorBlock": 585,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2005-08-13T16:55:30.6572161+02:00",
+    "LastChanged": "2020-05-05T10:30:32.9743325+02:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Rosenbaum LLC",
-        "ToolTip": "Molestias minus quia et veniam praesentium.",
+        "Id": 962,
+        "Name": "Heller-Gulgowski",
+        "ToolTip": "Rem iusto laudantium.",
         "Deleted": true,
-        "Rank": 176,
-        "Type": "ab",
-        "ColorBlock": 962,
-        "IconHint": "voluptas",
+        "Rank": 600,
+        "Type": "maxime",
+        "ColorBlock": 638,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2000-01-26T16:55:30.6572161+01:00",
+        "LastChanged": "1997-04-08T10:30:32.9743325+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "deserunt",
+        "ExtraInfo": "qui",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Amya Pfannerstill"
+        "FullName": "Giovanny Dawson Corkery DDS"
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "et",
+    "ExtraInfo": "qui",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Lenore Schiller"
+    "FullName": "Jayson Beer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Koelpin-Cormier",
-    "ToolTip": "Blanditiis placeat velit qui.",
-    "Deleted": false,
-    "Rank": 91,
-    "Type": "a",
-    "ColorBlock": 510,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2020-05-27T16:55:30.6582152+02:00",
+    "Id": 75,
+    "Name": "Cummings-Schmidt",
+    "ToolTip": "Neque veniam quia temporibus.",
+    "Deleted": true,
+    "Rank": 379,
+    "Type": "veniam",
+    "ColorBlock": 705,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2016-06-08T10:30:32.9743325+02:00",
     "ChildItems": [
       {
-        "Id": 305,
-        "Name": "Lehner, Abernathy and Roberts",
-        "ToolTip": "Id temporibus quia aut.",
-        "Deleted": true,
-        "Rank": 155,
-        "Type": "voluptas",
-        "ColorBlock": 928,
-        "IconHint": "eius",
+        "Id": 628,
+        "Name": "Yost Inc and Sons",
+        "ToolTip": "Perferendis perferendis magnam hic.",
+        "Deleted": false,
+        "Rank": 353,
+        "Type": "laboriosam",
+        "ColorBlock": 18,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2023-04-17T16:55:30.6582152+02:00",
+        "LastChanged": "2018-11-11T10:30:32.9743325+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Prof. Mack Wisoky",
+        "ExtraInfo": "quia",
+        "StyleHint": "ipsum",
+        "Hidden": true,
+        "FullName": "Leila Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 596
+            "FieldLength": 960
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quasi",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Ms. Kenyatta Bayer DDS",
+    "FullName": "Tracy Georgianna Pollich PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldType": "System.Int32",
+        "FieldLength": 110
       }
     }
   }

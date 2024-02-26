@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 580,
-  "Name": "Hilpert Inc and Sons",
-  "Tooltip": "at",
-  "Deleted": false,
-  "Rank": 816,
-  "UdListDefinitionId": 430
+  "HeadingId": 976,
+  "Name": "Greenfelder-Schneider",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "Rank": 517,
+  "UdListDefinitionId": 421
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 866,
-  "Name": "Kessler, Krajcik and Larkin",
-  "Tooltip": "accusamus",
+  "HeadingId": 32,
+  "Name": "Emard LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 23,
-  "UdListDefinitionId": 34,
+  "Rank": 286,
+  "UdListDefinitionId": 845,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldType": "System.String",
+      "FieldLength": 318
     }
   }
 }

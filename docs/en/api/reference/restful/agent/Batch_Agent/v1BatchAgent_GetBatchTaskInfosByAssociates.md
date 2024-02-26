@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    892,
-    731
+    369,
+    417
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Stracke-Flatley",
-    "AssociateId": 528,
-    "DetailsTable": 115,
-    "DetailsRecord": 587,
-    "IsSystemTask": false,
+    "Id": 904,
+    "Name": "Hagenes, Ritchie and Fisher",
+    "AssociateId": 57,
+    "DetailsTable": 102,
+    "DetailsRecord": 741,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "qui"
+      "ParameterObject1": "sed",
+      "ParameterObject2": "voluptate"
     },
-    "LastStarted": "1997-08-16T16:54:54.6004168+02:00",
-    "Created": "1997-09-08T16:54:54.6004168+02:00",
-    "StartCount": 333,
-    "DatabaseSerialNumber": "339659",
-    "Context": "molestiae",
-    "Result": "in",
+    "LastStarted": "2013-04-02T10:30:23.0826686+02:00",
+    "Created": "1999-12-09T10:30:23.0826686+01:00",
+    "StartCount": 910,
+    "DatabaseSerialNumber": "259838",
+    "Context": "debitis",
+    "Result": "amet",
     "State": "All",
-    "Description": "Progressive high-level pricing structure",
-    "Response": "et",
-    "Request": "assumenda",
-    "ProgressDescription": "Open-source well-modulated standardization",
-    "ProgressPercent": 401,
-    "FileName": "Hoppe, Feest and McLaughlin",
+    "Description": "Virtual coherent initiative",
+    "Response": "quia",
+    "Request": "rerum",
+    "ProgressDescription": "Fundamental clear-thinking orchestration",
+    "ProgressPercent": 3,
+    "FileName": "Dooley-Ortiz",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldLength": 492
       }
     }
   }

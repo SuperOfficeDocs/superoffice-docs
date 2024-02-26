@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Simonis, Corwin and Quitzon"
+  "FieldName": "Bernhard, Kihn and Schmidt"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 129,
-  "FieldName": "Emmerich, Stanton and Veum",
-  "Label": "qui",
-  "Tooltip": "earum",
-  "Editable": true,
+  "QuoteLineConfigurationId": 833,
+  "FieldName": "Ritchie, Will and Stiedemann",
+  "Label": "dolor",
+  "Tooltip": "enim",
+  "Editable": false,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 814,
-  "RestrictEdit": false,
+  "Mandatory": false,
+  "Rank": 821,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldType": "System.String",
+      "FieldLength": 708
     }
   }
 }

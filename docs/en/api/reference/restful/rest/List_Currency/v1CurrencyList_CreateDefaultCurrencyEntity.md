@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 536,
-  "Name": "Blanda Group",
-  "Tooltip": "voluptates",
-  "Rank": 745,
-  "Rate": 15905.05,
-  "Units": 7599.95,
-  "Deleted": true,
+  "CurrencyId": 276,
+  "Name": "Wintheiser, Barton and Jewess",
+  "Tooltip": "voluptas",
+  "Rank": 205,
+  "Rate": 28572.678,
+  "Units": 3779.604,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldLength": 80
     }
   }
 }

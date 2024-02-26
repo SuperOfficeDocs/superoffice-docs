@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Kub, Baumbach and Casper",
-    "ToolTip": "Dolore aut velit.",
-    "Deleted": true,
-    "Rank": 797,
-    "Type": "a",
-    "ColorBlock": 277,
-    "IconHint": "hic",
+    "Id": 13,
+    "Name": "Lesch, Kub and Larson",
+    "ToolTip": "Quo eum accusamus omnis saepe veniam autem commodi.",
+    "Deleted": false,
+    "Rank": 585,
+    "Type": "ex",
+    "ColorBlock": 622,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "1999-01-24T16:55:30.5056973+01:00",
+    "LastChanged": "1999-07-10T10:30:32.8425633+02:00",
     "ChildItems": [
       {
-        "Id": 530,
-        "Name": "Walter, Marquardt and McCullough",
-        "ToolTip": "Et et cumque nesciunt cupiditate aperiam eveniet.",
-        "Deleted": false,
-        "Rank": 925,
-        "Type": "consequatur",
-        "ColorBlock": 959,
-        "IconHint": "vel",
+        "Id": 66,
+        "Name": "Ratke, Luettgen and Haag",
+        "ToolTip": "Voluptatem ratione suscipit labore non voluptatem.",
+        "Deleted": true,
+        "Rank": 250,
+        "Type": "dignissimos",
+        "ColorBlock": 164,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2014-04-29T16:55:30.5056973+02:00",
+        "LastChanged": "2005-04-14T10:30:32.8425633+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "et",
+        "ExtraInfo": "iusto",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Mrs. Woodrow Maudie Bartoletti"
+        "FullName": "Betty Abdul Ondricka MD"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Bridget Kulas"
+    "ExtraInfo": "aut",
+    "StyleHint": "distinctio",
+    "Hidden": false,
+    "FullName": "Enrico Greenfelder"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Kuvalis LLC",
-    "ToolTip": "Ea ex suscipit veniam corrupti aut consequatur.",
-    "Deleted": true,
-    "Rank": 507,
-    "Type": "doloribus",
-    "ColorBlock": 358,
-    "IconHint": "dolorem",
+    "Id": 23,
+    "Name": "Walker LLC",
+    "ToolTip": "Ea ea commodi pariatur voluptatem.",
+    "Deleted": false,
+    "Rank": 689,
+    "Type": "laborum",
+    "ColorBlock": 452,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2003-08-28T16:55:30.5076975+02:00",
+    "LastChanged": "2008-06-24T10:30:32.8425633+02:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Bahringer, Goyette and Collins",
-        "ToolTip": "Sit deserunt quis qui.",
-        "Deleted": false,
-        "Rank": 11,
-        "Type": "voluptates",
-        "ColorBlock": 814,
-        "IconHint": "quis",
+        "Id": 186,
+        "Name": "Hermann-Marvin",
+        "ToolTip": "Neque labore.",
+        "Deleted": true,
+        "Rank": 805,
+        "Type": "vitae",
+        "ColorBlock": 127,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2006-08-14T16:55:30.5076975+02:00",
+        "LastChanged": "2014-03-24T10:30:32.8425633+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "ex",
+        "ExtraInfo": "fugit",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Sebastian Loy Bayer V",
+        "FullName": "Miss Dave Feeney DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 412
+            "FieldLength": 528
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "commodi",
+    "ExtraInfo": "numquam",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Anjali Maggio",
+    "FullName": "Prof. Erika Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 422
       }
     }
   }

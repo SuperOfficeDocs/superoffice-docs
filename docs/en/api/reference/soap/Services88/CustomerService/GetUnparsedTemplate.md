@@ -76,6 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <CustomerService:InlineImage xsi:type="xsd:boolean">false</CustomerService:InlineImage>
       <CustomerService:ContentId xsi:type="xsd:string"></CustomerService:ContentId>
       <CustomerService:AuthKey xsi:type="xsd:string"></CustomerService:AuthKey>
+      <CustomerService:IsSafeFileExtension xsi:type="xsd:boolean">false</CustomerService:IsSafeFileExtension>
      </CustomerService:AttachmentEntity>
     </CustomerService:Attachments>
     <CustomerService:Subject xsi:type="xsd:string"></CustomerService:Subject>

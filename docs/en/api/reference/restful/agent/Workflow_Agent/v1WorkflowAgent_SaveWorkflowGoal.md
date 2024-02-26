@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 808,
-  "WorkflowId": 868,
+  "WorkflowGoalId": 299,
+  "WorkflowId": 94,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Schmitt Group",
-      "Description": "Triple-buffered regional hardware",
-      "Rank": 530,
+      "Name": "Hudson, Legros and Armstrong",
+      "Description": "Centralized empowering workforce",
+      "Rank": 113,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schmitt Group",
-      "Description": "Triple-buffered regional hardware",
-      "Rank": 530,
+      "Name": "Hudson, Legros and Armstrong",
+      "Description": "Centralized empowering workforce",
+      "Rank": 113,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 798,
-  "WorkflowId": 110,
+  "WorkflowGoalId": 19,
+  "WorkflowId": 783,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Brakus-Nicolas",
-      "Description": "Switchable national firmware",
-      "Rank": 95,
+      "Name": "Marks, Nicolas and Conroy",
+      "Description": "Centralized motivating interface",
+      "Rank": 61,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Brakus-Nicolas",
-      "Description": "Switchable national firmware",
-      "Rank": 95,
+      "Name": "Marks, Nicolas and Conroy",
+      "Description": "Centralized motivating interface",
+      "Rank": 61,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldLength": 825
     }
   }
 }

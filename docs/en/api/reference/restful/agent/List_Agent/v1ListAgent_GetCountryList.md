@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 903,
-    "Name": "Gutmann, Heaney and Larson",
-    "CurrencyId": 593,
-    "EnglishName": "Bechtelar, Beahan and Ortiz",
+    "CountryId": 12,
+    "Name": "Witting, Klein and Kunde",
+    "CurrencyId": 608,
+    "EnglishName": "Sawayn-Krajcik",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Realigned well-modulated knowledge base",
-    "OrgNrText": "410077",
-    "InterAreaPrefix": "iure",
-    "DialInPrefix": "harum",
-    "ZipPrefix": "provident",
-    "DomainName": "Williamson-Nitzsche",
-    "AddressLayoutId": 358,
-    "DomesticAddressLayoutId": 784,
-    "ForeignAddressLayoutId": 958,
-    "Rank": 523,
-    "Tooltip": "in",
+    "ImageDescription": "Reduced optimizing intranet",
+    "OrgNrText": "1113912",
+    "InterAreaPrefix": "voluptate",
+    "DialInPrefix": "quia",
+    "ZipPrefix": "velit",
+    "DomainName": "Schimmel Group",
+    "AddressLayoutId": 340,
+    "DomesticAddressLayoutId": 747,
+    "ForeignAddressLayoutId": 759,
+    "Rank": 155,
+    "Tooltip": "vel",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   }

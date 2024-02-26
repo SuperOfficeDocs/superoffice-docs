@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 867,
+  "RecordId": 192,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Legros-Hermann",
-    "CrmFieldKey": "suscipit",
-    "Value": "mollitia",
-    "DisplayValue": "vero",
-    "SyncToCrm": false,
+    "DisplayName": "Anderson Group",
+    "CrmFieldKey": "id",
+    "Value": "quam",
+    "DisplayValue": "quia",
+    "SyncToCrm": true,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 561
+        "FieldType": "System.Int32",
+        "FieldLength": 292
       }
     }
   }

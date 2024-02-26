@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 979,
-  "Name": "Hayes Group",
-  "Tooltip": "pariatur",
+  "Id": 132,
+  "Name": "Dickens-Jacobson",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 315,
-  "Rank": 163,
+  "UdListDefinitionId": 818,
+  "Rank": 722,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 433
     }
   }
 }

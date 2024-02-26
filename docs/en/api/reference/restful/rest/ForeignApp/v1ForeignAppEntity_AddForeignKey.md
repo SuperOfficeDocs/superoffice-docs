@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "ducimus",
-  "RecordId": 14,
-  "CreatedDate": "2005-03-29T16:55:29.6584399+02:00",
-  "UpdatedDate": "2013-07-19T16:55:29.6584399+02:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "ab",
-  "TableName": "Barton LLC"
+  "Key": "omnis",
+  "Value": "aut",
+  "RecordId": 2,
+  "CreatedDate": "2009-01-21T10:30:32.0730519+01:00",
+  "UpdatedDate": "2021-08-16T10:30:32.0730519+02:00",
+  "UpdatedBy": "deserunt",
+  "CreatedBy": "accusamus",
+  "TableName": "Kozey-Little"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aliquam",
-  "Value": "vitae",
-  "RecordId": 283,
-  "CreatedDate": "1997-11-22T16:55:29.6584399+01:00",
-  "UpdatedDate": "2014-11-23T16:55:29.6584399+01:00",
-  "UpdatedBy": "sit",
-  "CreatedBy": "vero",
-  "TableName": "O'Keefe-Greenfelder",
+  "Key": "sapiente",
+  "Value": "quae",
+  "RecordId": 158,
+  "CreatedDate": "1998-07-21T10:30:32.0886795+02:00",
+  "UpdatedDate": "2010-06-14T10:30:32.0886795+02:00",
+  "UpdatedBy": "quis",
+  "CreatedBy": "doloribus",
+  "TableName": "Cole Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   }
 }

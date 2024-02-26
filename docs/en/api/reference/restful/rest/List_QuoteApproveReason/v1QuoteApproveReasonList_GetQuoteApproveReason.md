@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
-  "Name": "Bins, Hahn and Quigley",
-  "Tooltip": "quia",
+  "Id": 430,
+  "Name": "Braun, Moen and Emard",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 453,
-  "Rank": 429,
+  "UdListDefinitionId": 392,
+  "Rank": 59,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

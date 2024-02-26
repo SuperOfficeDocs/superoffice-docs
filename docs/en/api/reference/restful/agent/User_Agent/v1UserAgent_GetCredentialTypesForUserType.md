@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "dolorum",
-    "Type": "aspernatur",
-    "Description": "Customizable dedicated hub",
+    "DisplayType": "nemo",
+    "Type": "molestiae",
+    "Description": "Horizontal incremental Graphic Interface",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": true,
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldType": "System.String",
+        "FieldLength": 176
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Bayer, White and McClure",
-    "ToolTip": "Optio voluptas sint nam.",
-    "Deleted": true,
-    "Rank": 235,
-    "Type": "est",
-    "ColorBlock": 911,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2013-09-25T16:55:30.6172345+02:00",
+    "Id": 885,
+    "Name": "Roberts Inc and Sons",
+    "ToolTip": "Et eos sunt et.",
+    "Deleted": false,
+    "Rank": 373,
+    "Type": "sint",
+    "ColorBlock": 783,
+    "IconHint": "numquam",
+    "Selected": false,
+    "LastChanged": "1998-11-16T10:30:32.9430827+01:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Wiegand-Parker",
-        "ToolTip": "Aut dolor et eveniet suscipit quas harum.",
-        "Deleted": false,
-        "Rank": 113,
-        "Type": "et",
-        "ColorBlock": 150,
-        "IconHint": "laboriosam",
+        "Id": 672,
+        "Name": "Becker-Price",
+        "ToolTip": "Voluptatum asperiores reiciendis impedit voluptatem sapiente aut excepturi.",
+        "Deleted": true,
+        "Rank": 40,
+        "Type": "ut",
+        "ColorBlock": 543,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2014-12-10T16:55:30.6172345+01:00",
+        "LastChanged": "1996-10-21T10:30:32.9430827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eos",
+        "ExtraInfo": "ut",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Mr. Nicolas Cassidy Kemmer",
+        "FullName": "Prof. Jo Brandyn Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldType": "System.String",
+            "FieldLength": 738
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "velit",
+    "ExtraInfo": "modi",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Jordane Bergstrom",
+    "FullName": "Dock Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 235
+        "FieldType": "System.Int32",
+        "FieldLength": 57
       }
     }
   }

@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Crist-Rempel",
+      "Name": "Schiller LLC",
       "Delimiter": "rerum",
-      "Flags": "architecto",
-      "TotalItems": 289,
-      "UnreadItems": 831,
+      "Flags": "quia",
+      "TotalItems": 273,
+      "UnreadItems": 560,
       "Subscribed": true,
-      "EmailFolderId": 532
+      "EmailFolderId": 233
     }
   ]
 }

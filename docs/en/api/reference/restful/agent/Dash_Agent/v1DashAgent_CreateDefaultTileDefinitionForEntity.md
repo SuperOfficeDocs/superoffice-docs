@@ -95,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Braun, Kerluke and Buckridge"
+  "EntityName": "Koss Inc and Sons"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 408,
-  "Name": "Stamm Inc and Sons",
-  "Description": "Front-line full-range focus group",
-  "DefaultHeight": 8,
-  "DefaultWidth": 991,
+  "DashboardTileDefinitionId": 638,
+  "Name": "Hamill-McKenzie",
+  "Description": "Centralized mission-critical leverage",
+  "DefaultHeight": 372,
+  "DefaultWidth": 398,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Prosacco-Maggio",
-  "SelectionId": 328,
+  "EntityName": "Mraz-Ullrich",
+  "SelectionId": 407,
   "CurrencyMode": "Base",
-  "CurrencyCode": "omnis",
+  "CurrencyCode": "asperiores",
   "Measure": "Average",
-  "MeasureField": "porro",
-  "SortBy": "sapiente",
-  "LayoutConfig": "totam",
-  "SecondarySelectionId": 1002,
-  "MeasureByField": "sapiente",
+  "MeasureField": "dolor",
+  "SortBy": "eum",
+  "LayoutConfig": "inventore",
+  "SecondarySelectionId": 213,
+  "MeasureByField": "distinctio",
   "Usage": "Dashboard",
-  "ProviderName": "Armstrong-Towne",
+  "ProviderName": "Reinger, Hauck and Leuschke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldType": "System.String",
+      "FieldLength": 872
     }
   }
 }

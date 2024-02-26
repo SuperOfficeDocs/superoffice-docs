@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/Sale/GetNextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 171
+  "SaleId": 594
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2016-02-20T16:54:56.2500123+01:00"
+"1999-09-01T10:30:24.5283735+02:00"
 ```

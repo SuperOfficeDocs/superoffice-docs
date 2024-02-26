@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=714
-POST /api/v1/Document/{documentId}/Content?personId=911
-POST /api/v1/Document/{documentId}/Content?appointmentId=208
-POST /api/v1/Document/{documentId}/Content?saleId=326
-POST /api/v1/Document/{documentId}/Content?selectionId=796
-POST /api/v1/Document/{documentId}/Content?projectId=701
-POST /api/v1/Document/{documentId}/Content?uiCulture=ea
+POST /api/v1/Document/{documentId}/Content?contactId=595
+POST /api/v1/Document/{documentId}/Content?personId=662
+POST /api/v1/Document/{documentId}/Content?appointmentId=279
+POST /api/v1/Document/{documentId}/Content?saleId=535
+POST /api/v1/Document/{documentId}/Content?selectionId=631
+POST /api/v1/Document/{documentId}/Content?projectId=699
+POST /api/v1/Document/{documentId}/Content?uiCulture=nobis
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 983,
+  "DocumentId": 684,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptas",
-  "Header": "sint",
-  "Name": "Dickens-Cremin",
-  "OurRef": "fuga",
-  "YourRef": "earum",
-  "CreatedDate": "1997-07-11T16:55:29.613458+02:00",
-  "UpdatedDate": "2012-06-18T16:55:29.613458+02:00",
-  "Description": "Function-based composite forecast",
+  "Attention": "dolores",
+  "Header": "repellat",
+  "Name": "Sporer-Greenholt",
+  "OurRef": "nihil",
+  "YourRef": "dignissimos",
+  "CreatedDate": "2003-07-04T10:30:32.0418021+02:00",
+  "UpdatedDate": "2001-11-22T10:30:32.0418021+01:00",
+  "Description": "User-friendly solution-oriented hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-09-26T16:55:29.6154574+02:00",
-  "ExternalRef": "veritatis",
+  "Date": "2016-12-13T10:30:32.0418021+01:00",
+  "ExternalRef": "consequatur",
   "Completed": "Completed",
-  "ActiveLinks": 8,
+  "ActiveLinks": 734,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bogan, Stehr and Reynolds",
-      "Id": 190,
-      "Description": "Visionary foreground implementation",
-      "ExtraInfo": "aut",
-      "LinkId": 532,
+      "EntityName": "Bayer, Schmidt and Zulauf",
+      "Id": 10,
+      "Description": "Right-sized clear-thinking service-desk",
+      "ExtraInfo": "et",
+      "LinkId": 856,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 327
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 993,
-  "Snum": 984,
+  "SuggestedDocumentId": 461,
+  "Snum": 6,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Dana Nitzsche",
+    "SuperOffice:2": "1632856326"
   },
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "iste",
+    "CustomFields2": "explicabo"
   },
-  "PublishEventDate": "2021-08-14T16:55:29.6164591+02:00",
-  "PublishTo": "2022-05-08T16:55:29.6164591+02:00",
-  "PublishFrom": "2009-07-12T16:55:29.6164591+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2020-11-25T10:30:32.0418021+01:00",
+  "PublishTo": "2011-12-04T10:30:32.0418021+01:00",
+  "PublishFrom": "2006-06-29T10:30:32.0418021+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 624,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     },
     {
-      "VisibleId": 624,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 149
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
@@ -221,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 90
     }
   }
 }

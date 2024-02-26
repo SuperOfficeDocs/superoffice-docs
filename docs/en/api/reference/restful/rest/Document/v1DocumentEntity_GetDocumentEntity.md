@@ -33,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=False
+GET /api/v1/Document/{id}?fk=True
 ```
 
 
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 24 May 2004 16:55:29 G5T
+Last-Modified: Tue, 08 May 2018 10:30:31 G5T
 
 {
-  "DocumentId": 797,
+  "DocumentId": 215,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "tempora",
-  "Header": "odit",
-  "Name": "McCullough Group",
-  "OurRef": "omnis",
-  "YourRef": "nobis",
-  "CreatedDate": "2009-07-26T16:55:29.568832+02:00",
-  "UpdatedDate": "2004-05-24T16:55:29.568832+02:00",
-  "Description": "Right-sized logistical synergy",
+  "Attention": "autem",
+  "Header": "repellendus",
+  "Name": "Durgan, Jerde and Lind",
+  "OurRef": "sapiente",
+  "YourRef": "repellat",
+  "CreatedDate": "1998-11-07T10:30:31.9949332+01:00",
+  "UpdatedDate": "2018-05-08T10:30:31.9949332+02:00",
+  "Description": "Quality-focused non-volatile monitoring",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-10-14T16:55:29.5719209+02:00",
-  "ExternalRef": "unde",
+  "Date": "2010-01-22T10:30:31.9949332+01:00",
+  "ExternalRef": "ipsa",
   "Completed": "Completed",
-  "ActiveLinks": 79,
+  "ActiveLinks": 37,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Nitzsche Group",
-      "Id": 856,
-      "Description": "Open-architected object-oriented productivity",
-      "ExtraInfo": "ut",
-      "LinkId": 404,
+      "EntityName": "Welch Inc and Sons",
+      "Id": 106,
+      "Description": "Public-key discrete project",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 304,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 669
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 412,
-  "Snum": 118,
+  "SuggestedDocumentId": 546,
+  "Snum": 3,
   "UserDefinedFields": {
-    "SuperOffice:1": "607268996",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Augusta Schroeder",
+    "SuperOffice:2": "Miss Joesph Kiarra Nader"
   },
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "sequi",
-    "CustomFields2": "quo"
+    "CustomFields1": "at",
+    "CustomFields2": "deserunt"
   },
-  "PublishEventDate": "2015-11-07T16:55:29.5728744+01:00",
-  "PublishTo": "2023-11-04T16:55:29.5728744+01:00",
-  "PublishFrom": "2016-01-08T16:55:29.5728744+01:00",
+  "PublishEventDate": "2008-06-15T10:30:31.9949332+02:00",
+  "PublishTo": "1997-06-15T10:30:31.9949332+02:00",
+  "PublishFrom": "2017-07-10T10:30:31.9949332+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 659,
+      "VisibleId": 573,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 445
         }
       }
     },
     {
-      "VisibleId": 659,
+      "VisibleId": 573,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 445
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Mon, 24 May 2004 16:55:29 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 171
     }
   },
   "_Links": {

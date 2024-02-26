@@ -102,16 +102,16 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 578,
+  "EmailId": 542,
   "AttachmentIds": [
-    "neque",
-    "et"
+    "ut",
+    "veniam"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 607,
-      "ContactName": "Oberbrunner-Block",
-      "PersonId": 221,
-      "PersonName": "Hackett Inc and Sons",
-      "AssociateId": 821,
-      "Address": "consequatur",
-      "EmailId": 642,
+      "ContactId": 181,
+      "ContactName": "Romaguera-Pfannerstill",
+      "PersonId": 233,
+      "PersonName": "Bashirian, Schuppe and Lind",
+      "AssociateId": 521,
+      "Address": "aspernatur",
+      "EmailId": 593,
       "DuplicatePersonIds": [
-        368,
-        565
+        885,
+        662
       ],
-      "Name": "Beier, Walsh and Bauch",
+      "Name": "Walker Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 438
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 828,
-      "ContactName": "Torp-Thompson",
-      "PersonId": 791,
-      "PersonName": "Price Group",
-      "AssociateId": 33,
-      "Address": "impedit",
-      "EmailId": 149,
+      "ContactId": 535,
+      "ContactName": "Donnelly-Greenfelder",
+      "PersonId": 350,
+      "PersonName": "Kreiger-Lueilwitz",
+      "AssociateId": 296,
+      "Address": "officia",
+      "EmailId": 334,
       "DuplicatePersonIds": [
-        160,
-        153
+        312,
+        138
       ],
-      "Name": "Padberg Inc and Sons",
+      "Name": "Strosin-Brekke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 97
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 799,
-      "ContactName": "Konopelski Group",
-      "PersonId": 56,
-      "PersonName": "Fay-Berge",
-      "AssociateId": 89,
-      "Address": "temporibus",
-      "EmailId": 14,
+      "ContactId": 11,
+      "ContactName": "Gerlach LLC",
+      "PersonId": 909,
+      "PersonName": "Mitchell LLC",
+      "AssociateId": 469,
+      "Address": "ipsum",
+      "EmailId": 529,
       "DuplicatePersonIds": [
-        293,
-        543
+        349,
+        705
       ],
-      "Name": "Gottlieb-Boehm",
+      "Name": "Hansen, Schmitt and Kshlerin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 731
         }
       }
     }
   ],
-  "Subject": "officia",
-  "HTMLBody": "omnis",
+  "Subject": "quo",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2013-05-07T16:54:55.3819481+02:00",
-  "Size": 125,
+  "Sent": "2019-10-22T10:30:23.8136779+02:00",
+  "Size": 846,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "voluptatem",
+  "MessageID": "aut",
+  "PlainBody": "numquam",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 817,
+  "ServerId": 139,
   "Attachments": [
     {
-      "Description": "Compatible uniform benchmark",
-      "Filename": "consequatur",
-      "Size": 818,
-      "Type": "voluptatem",
-      "Encoding": "eaque",
-      "Id": "harum",
-      "Disposition": "sed",
-      "IsSafeFileExtension": true,
+      "Description": "Implemented static flexibility",
+      "Filename": "magni",
+      "Size": 169,
+      "Type": "ullam",
+      "Encoding": "nulla",
+      "Id": "ut",
+      "Disposition": "ducimus",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 907
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mann, Smitham and Harvey",
+      "Name": "Herzog-Wunsch",
       "Values": [
-        "ipsa",
-        "sit"
+        "atque",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldLength": 336
         }
       }
     },
     {
-      "Name": "Mann, Smitham and Harvey",
+      "Name": "Herzog-Wunsch",
       "Values": [
-        "ipsa",
-        "sit"
+        "atque",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldLength": 336
         }
       }
     }
   ],
-  "FolderName": "Cronin-Littel",
-  "EmailItemId": 78,
-  "AccountId": 244,
-  "ReceivedAt": "2003-08-08T16:54:55.3819481+02:00",
+  "FolderName": "Medhurst, Strosin and Funk",
+  "EmailItemId": 574,
+  "AccountId": 471,
+  "ReceivedAt": "2009-03-22T10:30:23.8136779+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-06-23T16:54:55.3819481+02:00",
+  "RepliedAt": "2023-04-02T10:30:23.8136779+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 648
     }
   }
 }

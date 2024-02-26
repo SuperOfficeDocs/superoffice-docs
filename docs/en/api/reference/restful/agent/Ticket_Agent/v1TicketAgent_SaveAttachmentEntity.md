@@ -46,6 +46,7 @@ The AttachmentEntity to be saved.
 | InlineImage | Boolean | True if this attachment is inlined in the html_body. |
 | ContentId | String | The content_id of this attachment, used for inline images |
 | AuthKey | String | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | Boolean | Is file considered to be safe (based on extension and settings) |
 
 ## Response:
 
@@ -66,6 +67,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -75,17 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 599,
-  "Name": "Schroeder Group",
-  "ContentType": "dolores",
-  "AttSize": 529,
+  "AttachmentId": 645,
+  "Name": "Jerde-Schowalter",
+  "ContentType": "ipsam",
+  "AttSize": 98,
   "InlineImage": false,
-  "ContentId": "sed",
-  "AuthKey": "autem"
+  "ContentId": "et",
+  "AuthKey": "occaecati",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -96,19 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 220,
-  "Name": "Casper-Okuneva",
-  "ContentType": "laboriosam",
-  "AttSize": 626,
+  "AttachmentId": 64,
+  "Name": "Kunde-Anderson",
+  "ContentType": "ab",
+  "AttSize": 122,
   "InlineImage": false,
-  "ContentId": "aut",
-  "AuthKey": "reprehenderit",
+  "ContentId": "architecto",
+  "AuthKey": "laudantium",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldType": "System.Int32",
+      "FieldLength": 729
     }
   }
 }

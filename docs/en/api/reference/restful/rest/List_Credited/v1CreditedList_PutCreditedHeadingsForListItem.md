@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Kub, Conroy and Dicki",
-    "ToolTip": "Labore et cumque.",
+    "Id": 148,
+    "Name": "Kutch, Hermann and Pfeffer",
+    "ToolTip": "Voluptates et voluptas aut ea nemo ipsum.",
     "Deleted": true,
-    "Rank": 846,
-    "Type": "suscipit",
-    "ColorBlock": 345,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2004-03-12T16:55:30.6232404+01:00",
+    "Rank": 543,
+    "Type": "enim",
+    "ColorBlock": 501,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2000-11-27T10:30:32.9430827+01:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Leuschke LLC",
-        "ToolTip": "Voluptate eveniet culpa delectus aliquam.",
+        "Id": 497,
+        "Name": "Jones, Hayes and Koss",
+        "ToolTip": "Distinctio error rerum eveniet aut labore voluptatum.",
         "Deleted": false,
-        "Rank": 947,
-        "Type": "dolores",
-        "ColorBlock": 700,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2006-06-15T16:55:30.6232404+02:00",
+        "Rank": 461,
+        "Type": "minima",
+        "ColorBlock": 70,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2004-08-20T10:30:32.9430827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Christa Hodkiewicz III"
+        "ExtraInfo": "voluptate",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Marlene Metz IV"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "autem",
+    "StyleHint": "praesentium",
     "Hidden": true,
-    "FullName": "Sadie Runolfsdottir I"
+    "FullName": "Genoveva Stracke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "Bruen, Little and Crona",
-    "ToolTip": "Aut doloribus doloremque unde perferendis.",
+    "Id": 93,
+    "Name": "Russel, Raynor and Bogisich",
+    "ToolTip": "Asperiores laboriosam eos.",
     "Deleted": false,
-    "Rank": 776,
-    "Type": "saepe",
-    "ColorBlock": 124,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2003-08-06T16:55:30.6242367+02:00",
+    "Rank": 285,
+    "Type": "similique",
+    "ColorBlock": 334,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "2003-01-27T10:30:32.9430827+01:00",
     "ChildItems": [
       {
-        "Id": 459,
-        "Name": "Harvey Group",
-        "ToolTip": "Consequuntur facilis.",
-        "Deleted": false,
-        "Rank": 850,
-        "Type": "suscipit",
-        "ColorBlock": 350,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2000-04-29T16:55:30.6242367+02:00",
+        "Id": 816,
+        "Name": "Ullrich, Kuhlman and Schaden",
+        "ToolTip": "Cupiditate non amet.",
+        "Deleted": true,
+        "Rank": 679,
+        "Type": "assumenda",
+        "ColorBlock": 288,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2002-06-12T10:30:32.9430827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Iliana Baumbach",
+        "ExtraInfo": "corporis",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Parker Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 674
+            "FieldType": "System.Int32",
+            "FieldLength": 805
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Dr. Kianna Corwin",
+    "ExtraInfo": "magnam",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Dr. Meghan Cristina Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

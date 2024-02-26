@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kozey-Koss"
+  "Name": "Will, Mosciski and Erdman"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Value": "odit",
-    "Tooltip": "ut",
+    "Id": 580,
+    "Value": "rerum",
+    "Tooltip": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 966
       }
     }
   },
   {
-    "Id": 641,
-    "Value": "odit",
-    "Tooltip": "ut",
+    "Id": 580,
+    "Value": "rerum",
+    "Tooltip": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 966
       }
     }
   }

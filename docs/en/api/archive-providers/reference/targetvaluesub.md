@@ -393,7 +393,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=contact/contactSupportPerson/personUdef/SuperOffice:10,contact/contactSupportPerson/personExtra/y_rental/id,contact/contactExtra/x_contact_short_dropdown
+GET /api/v1/archive/TargetValueSub?$select=associate/ejStatus,contact/contactSupportAssociate/assocType,contact/streetAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

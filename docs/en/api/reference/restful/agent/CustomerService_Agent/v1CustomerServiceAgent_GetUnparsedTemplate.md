@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 318,
-  "LanguageId": 628
+  "ReplyTemplateId": 894,
+  "LanguageId": 22
 }
 ```
 
@@ -96,35 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 92,
-  "PlainParsed": "eaque",
-  "HtmlParsed": "dolor",
+  "ReplyTemplateId": 378,
+  "PlainParsed": "mollitia",
+  "HtmlParsed": "asperiores",
   "Attachments": [
     {
-      "AttachmentId": 596,
-      "Name": "Breitenberg, Von and Daniel",
-      "ContentType": "sit",
-      "AttSize": 27,
-      "InlineImage": true,
-      "ContentId": "quos",
-      "AuthKey": "inventore",
+      "AttachmentId": 231,
+      "Name": "Conroy, Kassulke and Langworth",
+      "ContentType": "sint",
+      "AttSize": 359,
+      "InlineImage": false,
+      "ContentId": "tenetur",
+      "AuthKey": "enim",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 436
+          "FieldType": "System.Int32",
+          "FieldLength": 725
         }
       }
     }
   ],
-  "Subject": "iusto",
+  "Subject": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

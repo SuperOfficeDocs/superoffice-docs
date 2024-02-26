@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Person/SetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 736,
+  "PersonId": 49,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

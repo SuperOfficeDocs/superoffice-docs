@@ -87,28 +87,28 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 340,
-  "Name": "Doyle-Kohler",
-  "Rank": 615,
-  "Tooltip": "ut",
-  "Icon": "in",
-  "DefaultTicketStatus": 162,
+  "TicketTypeId": 44,
+  "Name": "Grimes, Hyatt and Runolfsdottir",
+  "Rank": 931,
+  "Tooltip": "in",
+  "Icon": "necessitatibus",
+  "DefaultTicketStatus": 711,
   "TicketStatuses": [
-    767,
-    837
+    412,
+    733
   ],
-  "DefaultTicketPriority": 532,
+  "DefaultTicketPriority": 293,
   "TicketPriorities": [
-    50,
-    244
+    143,
+    686
   ],
-  "ReplyTemplate": 255,
+  "ReplyTemplate": 716,
   "IsExternalVisible": false,
-  "IsDefault": true
+  "IsDefault": false
 }
 ```
 
@@ -119,30 +119,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 97,
-  "Name": "Effertz-Schumm",
-  "Rank": 158,
-  "Tooltip": "incidunt",
-  "Icon": "animi",
-  "DefaultTicketStatus": 762,
+  "TicketTypeId": 957,
+  "Name": "Carter, Schmeler and Upton",
+  "Rank": 212,
+  "Tooltip": "ad",
+  "Icon": "consequatur",
+  "DefaultTicketStatus": 189,
   "TicketStatuses": [
-    639,
-    521
+    540,
+    964
   ],
-  "DefaultTicketPriority": 290,
+  "DefaultTicketPriority": 463,
   "TicketPriorities": [
-    427,
-    276
+    496,
+    468
   ],
-  "ReplyTemplate": 442,
+  "ReplyTemplate": 132,
   "IsExternalVisible": false,
   "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldType": "System.String",
+      "FieldLength": 729
     }
   }
 }

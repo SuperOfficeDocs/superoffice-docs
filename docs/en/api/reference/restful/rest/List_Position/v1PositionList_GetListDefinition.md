@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Bradtke Group",
-  "Tooltip": "incidunt",
-  "Deleted": false,
-  "Rank": 832,
+  "Id": 997,
+  "Name": "Hettinger, Will and Dicki",
+  "Tooltip": "nemo",
+  "Deleted": true,
+  "Rank": 875,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldLength": 540
     }
   },
   "_Links": {

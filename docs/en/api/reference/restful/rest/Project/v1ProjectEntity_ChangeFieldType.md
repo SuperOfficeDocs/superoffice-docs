@@ -30,7 +30,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 957,
-  "ColumnId": 483,
-  "FieldDefault": "accusantium",
-  "FieldHeight": 863,
-  "FieldLabel": "veritatis",
-  "FieldLeft": 46,
-  "FieldTop": 674,
+  "UDefFieldId": 436,
+  "ColumnId": 105,
+  "FieldDefault": "officia",
+  "FieldHeight": 851,
+  "FieldLabel": "enim",
+  "FieldLeft": 853,
+  "FieldTop": 96,
   "FieldType": "Checkbox",
-  "FieldWidth": 47,
-  "FormatMask": "sed",
+  "FieldWidth": 595,
+  "FormatMask": "consectetur",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 801,
-  "LabelLeft": 762,
-  "LabelTop": 897,
-  "LabelWidth": 68,
-  "LastVersionId": 231,
-  "ListTableId": 332,
+  "IsIndexed": true,
+  "LabelHeight": 460,
+  "LabelLeft": 54,
+  "LabelTop": 873,
+  "LabelWidth": 580,
+  "LastVersionId": 96,
+  "ListTableId": 954,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 279,
-  "ProgId": "natus",
+  "Page1LineNo": 870,
+  "ProgId": "aut",
   "IsReadOnly": true,
-  "ShortLabel": "maiores",
-  "TabOrder": 29,
-  "TextLength": 709,
-  "Tooltip": "natus",
-  "UdefIdentity": 980,
-  "UDListDefinitionId": 72,
+  "ShortLabel": "pariatur",
+  "TabOrder": 250,
+  "TextLength": 328,
+  "Tooltip": "velit",
+  "UdefIdentity": 850,
+  "UDListDefinitionId": 790,
   "Justification": "Center",
-  "Version": 104,
-  "TemplateVariableName": "Monahan-Orn",
-  "HasBeenPublished": true,
-  "MdoListName": "Boehm-Schultz",
+  "Version": 471,
+  "TemplateVariableName": "Boyer, Hayes and Weber",
+  "HasBeenPublished": false,
+  "MdoListName": "Schowalter-McCullough",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 771
     }
   }
 }

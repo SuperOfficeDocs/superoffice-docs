@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
 GET /api/v1/List/DeliveryTerm/MDOItems?query=qui
 ```
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Crist, O'Kon and Brown",
-    "ToolTip": "Consequatur et eaque voluptates officia.",
+    "Id": 855,
+    "Name": "Rutherford Group",
+    "ToolTip": "Cumque dolores voluptas dolorum.",
     "Deleted": false,
-    "Rank": 188,
-    "Type": "adipisci",
+    "Rank": 250,
+    "Type": "minima",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Schroeder, Auer and Parisian",
-        "ToolTip": "Non numquam dolorem blanditiis rem tempore eos voluptas.",
+        "Id": 685,
+        "Name": "Boyle-Glover",
+        "ToolTip": "Minima impedit dolor mollitia nostrum nobis incidunt vel.",
         "Deleted": false,
-        "Rank": 919,
-        "Type": "deleniti",
+        "Rank": 638,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 484,
-        "ExtraInfo": "beatae",
-        "StyleHint": "deleniti",
-        "FullName": "Marcelina Pfeffer DVM",
+        "IconHint": "qui",
+        "ColorBlock": 951,
+        "ExtraInfo": "omnis",
+        "StyleHint": "excepturi",
+        "FullName": "Katlynn Kemmer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 68
           }
         }
       }
     ],
-    "IconHint": "debitis",
-    "ColorBlock": 915,
-    "ExtraInfo": "id",
-    "StyleHint": "id",
-    "FullName": "Benton Wintheiser DVM",
+    "IconHint": "sunt",
+    "ColorBlock": 203,
+    "ExtraInfo": "laborum",
+    "StyleHint": "et",
+    "FullName": "Adrien Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 419
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 755,
-    "Name": "Bernier LLC",
-    "Tooltip": "quae",
-    "Rank": 219,
-    "Key": "eos",
+    "LegalBaseId": 745,
+    "Name": "Welch-Carter",
+    "Tooltip": "dignissimos",
+    "Rank": 38,
+    "Key": "numquam",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldLength": 920
       }
     }
   }

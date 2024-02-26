@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Nicolas, Larson and Cremin",
-    "ToolTip": "Harum quos rerum vitae eum expedita nemo.",
+    "Id": 922,
+    "Name": "Kohler Inc and Sons",
+    "ToolTip": "Quia omnis.",
     "Deleted": false,
-    "Rank": 161,
-    "Type": "corrupti",
-    "ColorBlock": 62,
-    "IconHint": "nihil",
+    "Rank": 564,
+    "Type": "et",
+    "ColorBlock": 721,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "1999-08-13T16:55:30.0006108+02:00",
+    "LastChanged": "2004-05-24T10:30:32.260549+02:00",
     "ChildItems": [
       {
-        "Id": 369,
-        "Name": "Howe-Sanford",
-        "ToolTip": "Veritatis officia quia.",
+        "Id": 580,
+        "Name": "Hessel-Block",
+        "ToolTip": "A illum repudiandae laborum nobis.",
         "Deleted": false,
-        "Rank": 267,
-        "Type": "corrupti",
-        "ColorBlock": 899,
-        "IconHint": "dolore",
+        "Rank": 229,
+        "Type": "blanditiis",
+        "ColorBlock": 656,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2013-11-10T16:55:30.0006108+01:00",
+        "LastChanged": "2019-04-13T10:30:32.260549+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "aliquam",
-        "Hidden": false,
-        "FullName": "Mrs. Loyce Jalon Jaskolski II",
+        "ExtraInfo": "laborum",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Miss Eldred Yundt Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 385
+            "FieldType": "System.Int32",
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "amet",
+    "ExtraInfo": "expedita",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Macie Heathcote",
+    "FullName": "Edwina Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 383
       }
     }
   }

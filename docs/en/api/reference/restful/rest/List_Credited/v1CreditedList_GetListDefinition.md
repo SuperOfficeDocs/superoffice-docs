@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
-  "Name": "Hills, Lesch and Mosciski",
-  "Tooltip": "ullam",
+  "Id": 74,
+  "Name": "Roob LLC",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "Rank": 627,
+  "Rank": 748,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eius",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 816
     }
   },
   "_Links": {

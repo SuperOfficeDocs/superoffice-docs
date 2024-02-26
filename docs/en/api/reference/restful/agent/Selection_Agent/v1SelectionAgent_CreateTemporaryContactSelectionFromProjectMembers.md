@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 620
+  "ProjectId": 542
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional cohesive artificial intelligence",
-  "Postit": "in",
+  "Description": "Multi-layered solution-oriented superstructure",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 624,
-  "IncludePerson": 875,
-  "MemberCount": 369,
-  "Name": "Shanahan-Kling",
-  "PostitTextId": 476,
-  "CreatedDate": "2022-03-21T16:54:56.3085219+01:00",
-  "SelectionId": 859,
-  "SoundEx": "quia",
-  "Source": 549,
-  "TextId": 263,
-  "UpdatedDate": "2002-02-27T16:54:56.3085219+01:00",
-  "UpdatedCount": 704,
-  "Visibility": 280,
+  "GroupIdx": 494,
+  "IncludePerson": 97,
+  "MemberCount": 577,
+  "Name": "Reichel-Stamm",
+  "PostitTextId": 324,
+  "CreatedDate": "2005-01-24T10:30:24.5752485+01:00",
+  "SelectionId": 816,
+  "SoundEx": "qui",
+  "Source": 597,
+  "TextId": 100,
+  "UpdatedDate": "2014-03-01T10:30:24.5752485+01:00",
+  "UpdatedCount": 38,
+  "Visibility": 584,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 759,
-  "TargetTableName": "Hyatt Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 45,
+  "TargetTableName": "Effertz, Wolf and Lehner",
   "Completed": true,
-  "LeftSelectionId": 49,
-  "RightSelectionId": 497,
+  "LeftSelectionId": 766,
+  "RightSelectionId": 168,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hahn Group",
-  "ShadowProviderName": "Rau-Feil",
-  "ChartKey": "iste",
-  "LastLoaded": "2021-11-06T16:54:56.3085219+01:00",
-  "LastLoadedBy": 495,
+  "MainProviderName": "Gulgowski, Dibbert and Anderson",
+  "ShadowProviderName": "Hermiston-Pacocha",
+  "ChartKey": "consequatur",
+  "LastLoaded": "2019-04-05T10:30:24.5752485+02:00",
+  "LastLoadedBy": 781,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-01-30T16:54:56.3085219+01:00",
-  "LastMembershipChangeBy": 821,
+  "LastMembershipChange": "2019-02-10T10:30:24.5752485+01:00",
+  "LastMembershipChangeBy": 309,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "consectetur",
-  "MailingsProviderName": "Thompson Inc and Sons",
-  "DashboardTileDefinitionId": 350,
+  "MainHeading": "aut",
+  "MemberTabHeading": "harum",
+  "MailingsProviderName": "Will-Cruickshank",
+  "DashboardTileDefinitionId": 990,
   "VisibleFor": [
     {
-      "VisibleId": 737,
+      "VisibleId": 691,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldLength": 504
         }
       }
     },
     {
-      "VisibleId": 737,
+      "VisibleId": 691,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldLength": 504
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 273
     }
   }
 }

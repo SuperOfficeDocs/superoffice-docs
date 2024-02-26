@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 389,
-  "Name": "Schmeler Group",
-  "Tooltip": "occaecati",
-  "Rank": 349,
-  "DoctmplId": 284,
-  "Header": "omnis",
-  "OurRef": "consequatur",
-  "Deleted": true,
+  "SuggestedDocumentId": 586,
+  "Name": "Murazik, Weissnat and Keebler",
+  "Tooltip": "aut",
+  "Rank": 330,
+  "DoctmplId": 411,
+  "Header": "sed",
+  "OurRef": "aliquam",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 311,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "quaerat",
-  "Rank": 869,
-  "DoctmplId": 632,
-  "Header": "qui",
-  "OurRef": "voluptatibus",
-  "Deleted": true,
+  "SuggestedDocumentId": 654,
+  "Name": "Yost Inc and Sons",
+  "Tooltip": "eligendi",
+  "Rank": 926,
+  "DoctmplId": 638,
+  "Header": "distinctio",
+  "OurRef": "minus",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 463
     }
   }
 }

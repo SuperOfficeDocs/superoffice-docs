@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 20,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 592,
-  "Name": "Brakus LLC",
-  "Description": "Expanded intangible project",
-  "Currency": "nesciunt",
-  "CurrencyName": "Lockman Group",
-  "ValidFrom": "2009-08-08T16:55:30.7761776+02:00",
-  "ValidTo": "2019-12-01T16:55:30.7761776+01:00",
-  "IsActive": true
+  "PriceListId": 178,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 668,
+  "Name": "Tremblay-Kassulke",
+  "Description": "Seamless disintermediate artificial intelligence",
+  "Currency": "nihil",
+  "CurrencyName": "Auer, Brekke and Parisian",
+  "ValidFrom": "2023-01-15T10:30:33.0838716+01:00",
+  "ValidTo": "2022-12-09T10:30:33.0838716+01:00",
+  "IsActive": false
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 65,
-  "ERPPriceListKey": "repudiandae",
-  "QuoteConnectionId": 349,
-  "Name": "Brakus, Heidenreich and Flatley",
-  "Description": "Multi-lateral scalable local area network",
-  "Currency": "rem",
-  "CurrencyName": "Kessler, Kris and Nicolas",
-  "ValidFrom": "2004-03-14T16:55:30.7771756+01:00",
-  "ValidTo": "2002-05-29T16:55:30.7771756+02:00",
-  "IsActive": false,
+  "PriceListId": 162,
+  "ERPPriceListKey": "enim",
+  "QuoteConnectionId": 99,
+  "Name": "Denesik-Quitzon",
+  "Description": "Face to face local open architecture",
+  "Currency": "quia",
+  "CurrencyName": "Ruecker, Prosacco and Howe",
+  "ValidFrom": "1998-04-06T10:30:33.0838716+02:00",
+  "ValidTo": "2018-01-26T10:30:33.0838716+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldType": "System.String",
+      "FieldLength": 770
     }
   },
   "_Links": {

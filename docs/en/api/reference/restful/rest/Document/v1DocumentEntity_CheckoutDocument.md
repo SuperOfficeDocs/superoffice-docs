@@ -82,11 +82,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "aliquid",
-  "VersionId": "laborum",
+  "ExternalReference": "atque",
+  "VersionId": "harum",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "nobis",
-  "AdditionalInfo": "autem"
+  "Value": "eum",
+  "AdditionalInfo": "enim"
 }
 ```

@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 367
+  "ContactId": 266
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bernhard, Mante and Wintheiser",
-    "SaleDate": "2013-04-29T16:54:56.2605202+02:00",
-    "SaleId": 814,
-    "Probability": 379,
-    "Title": "laudantium",
-    "Amount": 29030.242,
-    "Currency": "qui",
-    "ProjectName": "Mitchell-Wolf",
-    "AssociateFullName": "Rodrick Hoeger",
-    "Description": "Upgradable motivating ability",
+    "ContactName": "Smitham, Brown and Schaefer",
+    "SaleDate": "2020-07-31T10:30:24.5439994+02:00",
+    "SaleId": 997,
+    "Probability": 299,
+    "Title": "officiis",
+    "Amount": 29117.994,
+    "Currency": "vel",
+    "ProjectName": "Waelchi LLC",
+    "AssociateFullName": "Mr. Georgianna Hector Denesik I",
+    "Description": "Switchable logistical infrastructure",
     "Status": "Lost",
-    "WeightedAmount": 24542.354,
-    "ProjectId": 942,
-    "EarningPercent": 184.906,
-    "Earning": 29139.932,
-    "ContactId": 530,
-    "AssociateId": 596,
-    "PersonId": 779,
-    "SaleTypeId": 343,
-    "SaleTypeName": "Toy-Senger",
-    "PersonFullName": "Prof. Tabitha Hessel",
+    "WeightedAmount": 20402.34,
+    "ProjectId": 746,
+    "EarningPercent": 16409.624,
+    "Earning": 23561.412,
+    "ContactId": 954,
+    "AssociateId": 932,
+    "PersonId": 965,
+    "SaleTypeId": 544,
+    "SaleTypeName": "Homenick, Willms and Kerluke",
+    "PersonFullName": "Soledad Fisher",
     "Completed": "Completed",
-    "ActiveErpLinks": 491,
-    "NextDueDate": "2020-09-22T16:54:56.2605202+02:00",
-    "Number": "1697066",
+    "ActiveErpLinks": 253,
+    "NextDueDate": "2016-05-04T10:30:24.5439994+02:00",
+    "Number": "968593",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 948
+        "FieldType": "System.Int32",
+        "FieldLength": 864
       }
     }
   }

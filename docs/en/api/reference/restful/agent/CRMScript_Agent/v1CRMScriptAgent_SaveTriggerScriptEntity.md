@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 595,
-  "Name": "Kerluke, Larkin and O'Connell",
+  "ScreenChooserId": 495,
+  "Name": "Durgan, Berge and Kuhic",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "provident",
-  "Registered": "2013-05-25T16:54:55.0592703+02:00",
-  "RegisteredAssociateId": 840,
-  "Updated": "1998-06-21T16:54:55.0592703+02:00",
-  "UpdatedAssociateId": 70
+  "UniqueIdentifier": "ducimus",
+  "Source": "amet",
+  "Registered": "2001-09-12T10:30:23.4049883+02:00",
+  "RegisteredAssociateId": 870,
+  "Updated": "2022-12-09T10:30:23.4049883+01:00",
+  "UpdatedAssociateId": 928
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 215,
-  "Name": "Gleason Inc and Sons",
+  "ScreenChooserId": 401,
+  "Name": "Mraz-Beatty",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "aut",
-  "Source": "doloribus",
-  "Registered": "2018-04-20T16:54:55.0592703+02:00",
-  "RegisteredAssociateId": 486,
-  "Updated": "2003-11-23T16:54:55.0592703+01:00",
-  "UpdatedAssociateId": 502,
+  "Enabled": true,
+  "UniqueIdentifier": "illo",
+  "Source": "et",
+  "Registered": "2000-12-07T10:30:23.4049883+01:00",
+  "RegisteredAssociateId": 441,
+  "Updated": "2007-05-10T10:30:23.4049883+02:00",
+  "UpdatedAssociateId": 828,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 309
     }
   }
 }

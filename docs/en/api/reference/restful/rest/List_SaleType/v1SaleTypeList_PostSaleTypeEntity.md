@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 915,
-  "Name": "Goyette, Prosacco and Heidenreich",
-  "Tooltip": "commodi",
-  "Rank": 301,
+  "SaleTypeId": 741,
+  "Name": "King, Wiza and Kemmer",
+  "Tooltip": "eos",
+  "Rank": 392,
   "DurationUnit": "Century",
-  "SaleDuration": 290,
-  "SaleTypeCatId": 742,
-  "Deleted": true,
+  "SaleDuration": 373,
+  "SaleTypeCatId": 921,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 715,
-  "QuoteLinesTemplate": 10,
-  "ConfirmationLinesTemplate": 101,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 820,
-  "MinEarningPercent": 842,
-  "GroupQuoteLinesBy": 648,
-  "SortGroupLinesBy": 555,
+  "DefaultQuoteValidity": 180,
+  "QuoteLinesTemplate": 746,
+  "ConfirmationLinesTemplate": 177,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 60,
+  "MinEarningPercent": 771,
+  "GroupQuoteLinesBy": 20,
+  "SortGroupLinesBy": 340,
   "Stages": [
     {
-      "Id": 101,
-      "Name": "Barrows LLC",
-      "ToolTip": "Autem et quasi tempore animi rerum quia tempore.",
+      "Id": 423,
+      "Name": "Heaney-Rice",
+      "ToolTip": "Eveniet quaerat laboriosam et quibusdam quia et velit.",
       "Deleted": false,
-      "Rank": 696,
-      "Type": "quo",
-      "ColorBlock": 457,
-      "IconHint": "ut",
+      "Rank": 320,
+      "Type": "hic",
+      "ColorBlock": 730,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2013-09-29T16:55:31.0581841+02:00",
+      "LastChanged": "1997-02-28T10:30:33.2255818+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veniam",
-      "StyleHint": "saepe",
+      "ExtraInfo": "qui",
+      "StyleHint": "deserunt",
       "Hidden": false,
-      "FullName": "Arch Kshlerin"
+      "FullName": "Mrs. Krista Dominic Weber II"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 586,
-  "Name": "Schmitt Group",
-  "Tooltip": "iste",
-  "Rank": 218,
+  "SaleTypeId": 898,
+  "Name": "Kohler-Morar",
+  "Tooltip": "omnis",
+  "Rank": 406,
   "DurationUnit": "Century",
-  "SaleDuration": 28,
-  "SaleTypeCatId": 456,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 189,
+  "SaleTypeCatId": 871,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 649,
-  "QuoteLinesTemplate": 362,
-  "ConfirmationLinesTemplate": 191,
+  "DefaultQuoteValidity": 303,
+  "QuoteLinesTemplate": 881,
+  "ConfirmationLinesTemplate": 24,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 422,
-  "MinEarningPercent": 517,
-  "GroupQuoteLinesBy": 419,
-  "SortGroupLinesBy": 106,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 95,
+  "MinEarningPercent": 194,
+  "GroupQuoteLinesBy": 722,
+  "SortGroupLinesBy": 486,
   "Stages": [
     {
-      "Id": 757,
-      "Name": "Schmeler, Mraz and Stiedemann",
-      "ToolTip": "Optio ducimus non.",
+      "Id": 818,
+      "Name": "Carter Inc and Sons",
+      "ToolTip": "Aut impedit repellendus voluptate occaecati laboriosam natus.",
       "Deleted": false,
-      "Rank": 118,
-      "Type": "rerum",
-      "ColorBlock": 14,
-      "IconHint": "voluptatum",
-      "Selected": false,
-      "LastChanged": "2009-05-11T16:55:31.0601858+02:00",
+      "Rank": 694,
+      "Type": "aut",
+      "ColorBlock": 51,
+      "IconHint": "provident",
+      "Selected": true,
+      "LastChanged": "2000-11-24T10:30:33.2255818+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "labore",
-      "StyleHint": "ut",
+      "ExtraInfo": "eligendi",
+      "StyleHint": "deleniti",
       "Hidden": false,
-      "FullName": "Dr. Jacklyn Lila Brekke DDS",
+      "FullName": "Liana Pacocha",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldType": "System.String",
+          "FieldLength": 746
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 759
     }
   }
 }

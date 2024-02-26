@@ -45,7 +45,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1000097|Use academic title||[SR_PD_Functions_NAME]|
-|1000506|Enable sounds|bold|[SR_PD_Visual_NAME]|
+|1000511|Enable sounds|bold|[SR_PD_Visual_NAME]|
 |1000152|Address separator|bold|[SR_PD_Mail_NAME]|
 |1000074|Alarm on follow-up||[SR_PD_DiaryView_NAME]|
 |1000061|All-day end time|bold|[SR_PD_DiaryView_NAME]|
@@ -60,11 +60,11 @@ foreach (var item in listProvider.RootItems) {
 |1000159|Archive e-mail to associates||[SR_PD_Mail_NAME]|
 |1000099|Ask to edit or read||[SR_PD_Functions_NAME]|
 |1000160|Use iCalendar attachment||[SR_PD_Mail_NAME]|
-|1000372|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
-|1000426|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
+|1000377|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
+|1000431|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
 |1000100|Limit for auto-loading||[SR_PD_Functions_NAME]|
-|1000365|Autologout time||[SR_PD_PocketTasks_NAME]|
-|1000375|Automatically quote the last message||[SR_PD_request_NAME]|
+|1000370|Autologout time||[SR_PD_PocketTasks_NAME]|
+|1000380|Automatically quote the last message||[SR_PD_request_NAME]|
 
 
 ## Related MDO Lists

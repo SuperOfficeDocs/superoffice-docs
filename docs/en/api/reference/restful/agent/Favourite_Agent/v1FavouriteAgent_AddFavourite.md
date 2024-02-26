@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rowe-Yost",
-  "RecordId": 742,
-  "AssociateId": 18,
-  "ExtraInfo": "atque"
+  "TableName": "Pagac Group",
+  "RecordId": 518,
+  "AssociateId": 609,
+  "ExtraInfo": "eaque"
 }
 ```
 

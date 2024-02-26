@@ -1276,7 +1276,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=person/personUdef/SuperOffice:4,contact/updatedBy,contact/contactExtra/x_contact_dropdown,associate/ejDisplayName,document/associate/contactFullName
+GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=completed,person/personAssociateFullName,person/personUdef/SuperOffice:2,person/personAssociate/middleName,contact/deletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=reiciendis
+GET /api/v1/List/Reason/MDOItems?query=excepturi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Bode-Heller",
-    "ToolTip": "Aut illo.",
+    "Id": 944,
+    "Name": "Jast LLC",
+    "ToolTip": "Reprehenderit aut.",
     "Deleted": false,
-    "Rank": 300,
-    "Type": "consectetur",
+    "Rank": 994,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Hilll, Hudson and Stiedemann",
-        "ToolTip": "Omnis nostrum et qui accusamus molestiae alias.",
+        "Id": 904,
+        "Name": "Miller LLC",
+        "ToolTip": "Repellat velit sed eos nihil consequuntur ratione impedit.",
         "Deleted": false,
-        "Rank": 750,
-        "Type": "commodi",
+        "Rank": 530,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 36,
-        "ExtraInfo": "soluta",
-        "StyleHint": "velit",
-        "FullName": "Constance Boehm",
+        "IconHint": "ullam",
+        "ColorBlock": 240,
+        "ExtraInfo": "ut",
+        "StyleHint": "repudiandae",
+        "FullName": "Amos Hyatt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 928
+            "FieldType": "System.Int32",
+            "FieldLength": 902
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 294,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "est",
-    "FullName": "Adam Lang",
+    "IconHint": "sed",
+    "ColorBlock": 316,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "nam",
+    "FullName": "Leonel Unique Pollich PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 611
       }
     }
   }

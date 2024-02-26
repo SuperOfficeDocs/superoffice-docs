@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,36 +106,36 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "ContactName": "Weber LLC",
-    "SaleDate": "2014-06-04T16:54:56.2539976+02:00",
-    "SaleId": 94,
-    "Probability": 674,
-    "Title": "cumque",
-    "Amount": 21342.54,
-    "Currency": "iusto",
-    "ProjectName": "Koepp, Ebert and Brekke",
-    "AssociateFullName": "Fidel Bogisich DDS",
-    "Description": "Advanced uniform parallelism",
+    "SaleDate": "2014-11-08T10:30:24.5283735+01:00",
+    "SaleId": 268,
+    "Probability": 836,
+    "Title": "similique",
+    "Amount": 16936.136,
+    "Currency": "optio",
+    "ProjectName": "Swaniawski-Terry",
+    "AssociateFullName": "Tyrese Bergnaum",
+    "Description": "Fully-configurable zero tolerance challenge",
     "Status": "Lost",
-    "WeightedAmount": 19145.606,
-    "ProjectId": 283,
-    "EarningPercent": 26930.462,
-    "Earning": 25341.523999999998,
-    "ContactId": 822,
-    "AssociateId": 162,
-    "PersonId": 605,
-    "SaleTypeId": 662,
-    "SaleTypeName": "Hilpert LLC",
-    "PersonFullName": "Kaylee Pfeffer",
+    "WeightedAmount": 12498.392,
+    "ProjectId": 456,
+    "EarningPercent": 2880.1459999999997,
+    "Earning": 4397.0019999999995,
+    "ContactId": 849,
+    "AssociateId": 582,
+    "PersonId": 743,
+    "SaleTypeId": 395,
+    "SaleTypeName": "Shanahan-McClure",
+    "PersonFullName": "Daphnee Kreiger",
     "Completed": "Completed",
-    "ActiveErpLinks": 166,
-    "NextDueDate": "2001-09-04T16:54:56.2550126+02:00",
-    "Number": "839834",
+    "ActiveErpLinks": 399,
+    "NextDueDate": "2014-08-07T10:30:24.5283735+02:00",
+    "Number": "1049583",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldType": "System.String",
+        "FieldLength": 326
       }
     }
   }

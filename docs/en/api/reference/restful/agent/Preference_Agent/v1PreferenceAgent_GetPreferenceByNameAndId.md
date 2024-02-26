@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quo",
-  "PrefKey": "earum",
+  "PrefSection": "sit",
+  "PrefKey": "iure",
   "PrefLevel": "Database",
-  "OwnerId": 442
+  "OwnerId": 277
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptatem",
+  "RawValue": "est",
   "Specification": null,
-  "DisplayValue": "quis",
-  "DisplayTooltip": "quo",
+  "DisplayValue": "quidem",
+  "DisplayTooltip": "dolores",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 732,
-  "PrefDescId": 650,
-  "TableName": "Gorczany, Eichmann and Conn",
-  "UserPreferenceId": 696,
+  "TargetId": 897,
+  "PrefDescId": 928,
+  "TableName": "Treutel Group",
+  "UserPreferenceId": 444,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldLength": 372
     }
   }
 }

@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "similique",
-  "PluginId": 821
+  "LanguageCode": "quae",
+  "PluginId": 770
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 110,
-  "Name": "Bosco Group",
-  "Tooltip": "odio",
-  "SaveInDb": 1002,
-  "Filename": "consequatur",
-  "DefaultOref": "assumenda",
+  "DocumentTemplateId": 106,
+  "Name": "Green-Fay",
+  "Tooltip": "aut",
+  "SaveInDb": 254,
+  "Filename": "rerum",
+  "DefaultOref": "ipsum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 959,
-  "IntentId": 531,
+  "AutoeventId": 692,
+  "IntentId": 809,
   "IsDefaultPublished": false,
-  "Rank": 530,
-  "LoadTemplateFromPlugin": 842,
-  "MimeType": "totam",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 726,
+  "Rank": 295,
+  "LoadTemplateFromPlugin": 571,
+  "MimeType": "eligendi",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 473,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kaitlyn.schmitt@hacketthamill.com",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "brendon_cummings@parisiankertzmann.biz",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alfonzo_powlowski@creminnicolas.co.uk",
+  "SenderEmailAddress": "tracey.anderson@von.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 104
     }
   }
 }

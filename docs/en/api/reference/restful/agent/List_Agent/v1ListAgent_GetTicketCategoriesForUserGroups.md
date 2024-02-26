@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    889,
-    242
+    601,
+    783
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Wilderman LLC",
-    "ToolTip": "Provident porro nihil quis ea.",
-    "Deleted": true,
-    "Rank": 530,
-    "Type": "odio",
+    "Id": 113,
+    "Name": "Harber Group",
+    "ToolTip": "Nam aliquid possimus.",
+    "Deleted": false,
+    "Rank": 101,
+    "Type": "pariatur",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Stehr-Raynor",
-        "ToolTip": "Consectetur et accusantium.",
-        "Deleted": false,
-        "Rank": 190,
-        "Type": "voluptatem",
+        "Id": 295,
+        "Name": "Orn LLC",
+        "ToolTip": "Ratione voluptas autem debitis.",
+        "Deleted": true,
+        "Rank": 623,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 299,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "omnis",
-        "FullName": "Zander Rau",
+        "IconHint": "voluptas",
+        "ColorBlock": 369,
+        "ExtraInfo": "aliquid",
+        "StyleHint": "sint",
+        "FullName": "Lazaro Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 133
+            "FieldLength": 442
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 434,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "blanditiis",
-    "FullName": "Gail Marta Carter I",
+    "IconHint": "accusamus",
+    "ColorBlock": 920,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "consequuntur",
+    "FullName": "Miss Eve Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   }

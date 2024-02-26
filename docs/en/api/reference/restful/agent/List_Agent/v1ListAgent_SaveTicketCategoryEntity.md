@@ -101,29 +101,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 630,
-  "ParentId": 519,
-  "Name": "Rippin, Stracke and Kertzmann",
-  "Fullname": "voluptatem",
-  "CategoryMaster": 360,
+  "TicketCategoryId": 645,
+  "ParentId": 210,
+  "Name": "Miller, Reichert and Rice",
+  "Fullname": "ea",
+  "CategoryMaster": 439,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Goodwin-Dickens",
+  "ExternalName": "Lindgren, Towne and Wisoky",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 87,
-  "ReplyTemplate": 327,
-  "NotificationEmail": "newell@cassinberge.uk",
+  "AssignmentLag": 291,
+  "ReplyTemplate": 873,
+  "NotificationEmail": "devonte@kerlukenitzsche.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 267,
+  "EffectiveReplyTemplateId": 674,
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "in"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "omnis"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 116,
-  "ParentId": 190,
-  "Name": "Mohr, Lang and Krajcik",
-  "Fullname": "distinctio",
-  "CategoryMaster": 354,
+  "TicketCategoryId": 764,
+  "ParentId": 858,
+  "Name": "Robel Group",
+  "Fullname": "id",
+  "CategoryMaster": 147,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Vandervort-Hodkiewicz",
+  "ExternalName": "Moen Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 428,
-  "ReplyTemplate": 489,
-  "NotificationEmail": "nedra_morissette@feil.info",
+  "AssignmentLag": 711,
+  "ReplyTemplate": 731,
+  "NotificationEmail": "nikita_stamm@jones.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 702,
+  "EffectiveReplyTemplateId": 667,
   "ExtraFields": {
-    "ExtraFields1": "aliquid",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "eaque",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "expedita"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "quibusdam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldLength": 413
     }
   }
 }

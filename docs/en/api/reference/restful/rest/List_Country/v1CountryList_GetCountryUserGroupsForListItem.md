@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Watsica LLC",
-    "ToolTip": "Deserunt quos iure harum assumenda.",
+    "Id": 5,
+    "Name": "Halvorson-Prohaska",
+    "ToolTip": "Et sed est aut.",
     "Deleted": false,
-    "Rank": 263,
-    "Type": "error",
-    "ColorBlock": 292,
-    "IconHint": "aspernatur",
+    "Rank": 358,
+    "Type": "aut",
+    "ColorBlock": 801,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2021-12-04T16:55:30.6042169+01:00",
+    "LastChanged": "1998-12-11T10:30:32.9274257+01:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "Fahey, Watsica and Mills",
-        "ToolTip": "Voluptatum fugit ducimus dolore id eos soluta magnam.",
-        "Deleted": false,
-        "Rank": 246,
-        "Type": "facere",
-        "ColorBlock": 671,
-        "IconHint": "nobis",
+        "Id": 775,
+        "Name": "Lebsack LLC",
+        "ToolTip": "Maxime quibusdam qui suscipit aut saepe.",
+        "Deleted": true,
+        "Rank": 289,
+        "Type": "quisquam",
+        "ColorBlock": 431,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "1998-02-19T16:55:30.6042169+01:00",
+        "LastChanged": "2022-07-31T10:30:32.9274257+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "omnis",
+        "ExtraInfo": "ex",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Walter Nicolas",
+        "FullName": "Johanna Gerhold Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 894
+            "FieldLength": 233
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "qui",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Mr. Tara Bartoletti",
+    "FullName": "Janiya Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 324
       }
     }
   }

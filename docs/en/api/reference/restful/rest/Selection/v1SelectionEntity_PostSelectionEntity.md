@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented next generation open architecture",
-  "Postit": "molestiae",
+  "Description": "Phased radical customer loyalty",
+  "Postit": "ipsam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 151,
-  "IncludePerson": 332,
-  "MemberCount": 421,
-  "Name": "Fadel-Thompson",
-  "PostitTextId": 826,
-  "CreatedDate": "2023-08-16T16:55:30.1151121+02:00",
-  "SelectionId": 939,
-  "SoundEx": "et",
-  "Source": 195,
-  "TextId": 356,
-  "UpdatedDate": "2010-10-26T16:55:30.1151121+02:00",
-  "UpdatedCount": 113,
-  "Visibility": 871,
+  "GroupIdx": 420,
+  "IncludePerson": 789,
+  "MemberCount": 289,
+  "Name": "Kuphal, Toy and Donnelly",
+  "PostitTextId": 836,
+  "CreatedDate": "2018-07-14T10:30:32.4812531+02:00",
+  "SelectionId": 383,
+  "SoundEx": "vel",
+  "Source": 401,
+  "TextId": 151,
+  "UpdatedDate": "1999-10-31T10:30:32.4812531+01:00",
+  "UpdatedCount": 151,
+  "Visibility": 42,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 83,
-  "TargetTableName": "Abshire Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 433,
-  "RightSelectionId": 412,
+  "CompanyUnique": true,
+  "TargetTableNumber": 222,
+  "TargetTableName": "Ratke Group",
+  "Completed": false,
+  "LeftSelectionId": 268,
+  "RightSelectionId": 325,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bednar, Altenwerth and Wunsch",
-  "ShadowProviderName": "Brakus Group",
-  "ChartKey": "inventore",
-  "LastLoaded": "1999-12-17T16:55:30.1151121+01:00",
-  "LastLoadedBy": 84,
+  "MainProviderName": "Marvin-Schaefer",
+  "ShadowProviderName": "Champlin Inc and Sons",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2004-06-07T10:30:32.4812531+02:00",
+  "LastLoadedBy": 22,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-07-07T16:55:30.1151121+02:00",
-  "LastMembershipChangeBy": 736,
+  "LastMembershipChange": "2003-07-23T10:30:32.4812531+02:00",
+  "LastMembershipChangeBy": 920,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "quam",
-  "MailingsProviderName": "Kunze, Wolff and Brown",
-  "DashboardTileDefinitionId": 316,
+  "MainHeading": "odit",
+  "MemberTabHeading": "voluptatibus",
+  "MailingsProviderName": "Kertzmann, Medhurst and Goyette",
+  "DashboardTileDefinitionId": 217,
   "VisibleFor": [
     {
-      "VisibleId": 858,
+      "VisibleId": 340,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "similique"
     },
     {
-      "VisibleId": 858,
+      "VisibleId": 340,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "similique"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed directional workforce",
-  "Postit": "non",
+  "Description": "Programmable 4th generation paradigm",
+  "Postit": "quae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 956,
-  "IncludePerson": 498,
-  "MemberCount": 221,
-  "Name": "Champlin-Corkery",
-  "PostitTextId": 634,
-  "CreatedDate": "2022-12-14T16:55:30.1181146+01:00",
-  "SelectionId": 665,
-  "SoundEx": "quisquam",
-  "Source": 260,
-  "TextId": 100,
-  "UpdatedDate": "1999-12-13T16:55:30.1190223+01:00",
-  "UpdatedCount": 77,
-  "Visibility": 946,
+  "GroupIdx": 883,
+  "IncludePerson": 157,
+  "MemberCount": 397,
+  "Name": "Fisher Group",
+  "PostitTextId": 672,
+  "CreatedDate": "2023-09-11T10:30:32.4812531+02:00",
+  "SelectionId": 713,
+  "SoundEx": "consequuntur",
+  "Source": 475,
+  "TextId": 892,
+  "UpdatedDate": "2018-12-07T10:30:32.4812531+01:00",
+  "UpdatedCount": 927,
+  "Visibility": 987,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 172,
-  "TargetTableName": "Marquardt LLC",
+  "TargetTableNumber": 130,
+  "TargetTableName": "Walsh LLC",
   "Completed": false,
-  "LeftSelectionId": 3,
-  "RightSelectionId": 422,
+  "LeftSelectionId": 973,
+  "RightSelectionId": 158,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Boyer Inc and Sons",
-  "ShadowProviderName": "Abshire, Macejkovic and Wyman",
-  "ChartKey": "molestias",
-  "LastLoaded": "2023-09-26T16:55:30.1190223+02:00",
-  "LastLoadedBy": 904,
+  "MainProviderName": "Becker-Runolfsdottir",
+  "ShadowProviderName": "Jenkins-Reilly",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2023-08-05T10:30:32.4812531+02:00",
+  "LastLoadedBy": 591,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-01-23T16:55:30.1190223+01:00",
-  "LastMembershipChangeBy": 783,
+  "LastMembershipChange": "2016-01-21T10:30:32.4968779+01:00",
+  "LastMembershipChangeBy": 574,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsa",
-  "MemberTabHeading": "nemo",
-  "MailingsProviderName": "Gleichner, Corkery and Gaylord",
-  "DashboardTileDefinitionId": 142,
+  "MainHeading": "tempora",
+  "MemberTabHeading": "sapiente",
+  "MailingsProviderName": "Bechtelar Group",
+  "DashboardTileDefinitionId": 361,
   "VisibleFor": [
     {
-      "VisibleId": 198,
+      "VisibleId": 685,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 490
+          "FieldLength": 649
         }
       }
     },
     {
-      "VisibleId": 198,
+      "VisibleId": 685,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 490
+          "FieldLength": 649
         }
       }
     }
@@ -295,12 +295,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 370
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

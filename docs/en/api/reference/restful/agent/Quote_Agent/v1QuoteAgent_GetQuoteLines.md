@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 684
+  "QuoteAlternativeId": 762
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 752,
-    "ERPQuoteLineKey": "nemo",
-    "QuoteAlternativeId": 805,
-    "ERPProductKey": "ut",
+    "QuoteLineId": 980,
+    "ERPQuoteLineKey": "omnis",
+    "QuoteAlternativeId": 516,
+    "ERPProductKey": "et",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 28901.748,
-    "DeliveredQuantity": 30976.456,
-    "Rank": 853,
-    "Name": "Kihn, Kovacek and Schultz",
-    "Description": "Future-proofed homogeneous utilisation",
-    "Code": "in",
-    "QuantityUnit": "est",
-    "PriceUnit": "ullam",
-    "ItemNumber": "958305",
+    "Quantity": 18355.838,
+    "DeliveredQuantity": 14638.913999999999,
+    "Rank": 441,
+    "Name": "Smith-Lind",
+    "Description": "Up-sized interactive architecture",
+    "Code": "voluptate",
+    "QuantityUnit": "aperiam",
+    "PriceUnit": "reprehenderit",
+    "ItemNumber": "1336941",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "id",
-    "ProductTypeKey": "enim",
-    "Supplier": "qui",
-    "SupplierCode": "veritatis",
-    "Thumbnail": "cumque",
-    "VATInfo": "dolores",
-    "VAT": 3898.696,
-    "UnitCost": 9063.528,
-    "UnitMinimumPrice": 13416.654,
-    "UnitListPrice": 30252.502,
+    "ProductFamilyKey": "nihil",
+    "ProductTypeKey": "reiciendis",
+    "Supplier": "non",
+    "SupplierCode": "mollitia",
+    "Thumbnail": "non",
+    "VATInfo": "magnam",
+    "VAT": 11241.658,
+    "UnitCost": 6305.608,
+    "UnitMinimumPrice": 17017.62,
+    "UnitListPrice": 7709.6399999999994,
     "ExtraInfo": [
       {
-        "Name": "Doyle, Streich and Powlowski",
-        "Value": "repellendus",
+        "Name": "Schiller LLC",
+        "Value": "esse",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 366
+            "FieldType": "System.Int32",
+            "FieldLength": 651
           }
         }
       },
       {
-        "Name": "Doyle, Streich and Powlowski",
-        "Value": "repellendus",
+        "Name": "Schiller LLC",
+        "Value": "esse",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 366
+            "FieldType": "System.Int32",
+            "FieldLength": 651
           }
         }
       }
     ],
-    "RawExtraInfo": "sequi",
-    "IsSubscription": true,
-    "SubscriptionUnit": "repellat",
-    "SubscriptionQuantity": 16193.377999999999,
-    "SubscriptionStart": "2012-02-06T16:54:56.1629709+01:00",
-    "ERPDiscountPercent": 28187.196,
-    "ERPDiscountAmount": 26764.36,
-    "DiscountPercent": 15381.671999999999,
-    "DiscountAmount": 6919.8719999999994,
+    "RawExtraInfo": "et",
+    "IsSubscription": false,
+    "SubscriptionUnit": "et",
+    "SubscriptionQuantity": 7208.2,
+    "SubscriptionStart": "2009-07-22T10:30:24.4502511+02:00",
+    "ERPDiscountPercent": 13686.178,
+    "ERPDiscountAmount": 25009.32,
+    "DiscountPercent": 13563.952,
+    "DiscountAmount": 29870.154,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 14902.17,
-    "EarningAmount": 31057.94,
-    "SubTotal": 15337.796,
-    "TotalPrice": 20076.404,
-    "Rights": "id",
-    "Rule": "occaecati",
-    "ExtraField1": "eius",
-    "ExtraField2": "eum",
-    "ExtraField3": "eum",
-    "ExtraField4": "eos",
-    "ExtraField5": "cum",
+    "EarningPercent": 21938.0,
+    "EarningAmount": 23373.372,
+    "SubTotal": 19042.184,
+    "TotalPrice": 8668.644,
+    "Rights": "molestias",
+    "Rule": "ut",
+    "ExtraField1": "dignissimos",
+    "ExtraField2": "quo",
+    "ExtraField3": "soluta",
+    "ExtraField4": "exercitationem",
+    "ExtraField5": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldType": "System.String",
+        "FieldLength": 826
       }
     }
   }

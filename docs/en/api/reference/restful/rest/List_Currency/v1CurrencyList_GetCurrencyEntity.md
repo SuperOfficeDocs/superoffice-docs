@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 398,
-  "Name": "Kshlerin-Ryan",
-  "Tooltip": "possimus",
-  "Rank": 168,
-  "Rate": 20013.724,
-  "Units": 30935.714,
-  "Deleted": false,
+  "CurrencyId": 764,
+  "Name": "Hansen LLC",
+  "Tooltip": "omnis",
+  "Rank": 587,
+  "Rate": 20800.358,
+  "Units": 29885.824,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 277
     }
   }
 }

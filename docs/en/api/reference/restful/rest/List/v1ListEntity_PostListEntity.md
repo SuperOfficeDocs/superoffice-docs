@@ -98,15 +98,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 213,
-  "Name": "Murray Inc and Sons",
-  "Tooltip": "veritatis",
-  "Deleted": false,
-  "Rank": 518,
-  "IsCustomList": true,
+  "Id": 62,
+  "Name": "Auer Group",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "Rank": 524,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
+  "UseGroupsAndHeadings": true,
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 956,
-  "Name": "Kshlerin, Hermiston and Grady",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 977,
+  "Id": 241,
+  "Name": "Lueilwitz Inc and Sons",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 947,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "facere",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldType": "System.String",
+      "FieldLength": 297
     }
   },
   "_Links": {

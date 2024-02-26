@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Toy, Reinger and Jaskolski"
+  "UserName": "Rutherford, Lindgren and Mitchell"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 970,
-  "Name": "Tromp LLC",
-  "Rank": 364,
-  "Tooltip": "et",
+  "AssociateId": 806,
+  "Name": "Schuppe LLC",
+  "Rank": 584,
+  "Tooltip": "repellat",
   "LicenseOwners": [
     {
-      "Name": "Nicolas, Walsh and Kozey",
-      "Description": "Seamless intangible internet solution",
+      "Name": "Price-Harber",
+      "Description": "Multi-channelled scalable Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 203
         }
       }
     },
     {
-      "Name": "Nicolas, Walsh and Kozey",
-      "Description": "Seamless intangible internet solution",
+      "Name": "Price-Harber",
+      "Description": "Multi-channelled scalable Graphical User Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 203
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "illo",
-      "Tooltip": "sapiente",
-      "Id": 608,
-      "Rank": 19,
-      "Deleted": true,
+      "Value": "quaerat",
+      "Tooltip": "et",
+      "Id": 284,
+      "Rank": 830,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 492
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2010-03-22T16:54:56.6707338+01:00",
-  "Lastlogout": "2019-10-28T16:54:56.6707338+01:00",
-  "EjUserId": 569,
-  "RequestSignature": "nulla",
+  "Deleted": false,
+  "Lastlogin": "2009-09-06T10:30:25.0142166+02:00",
+  "Lastlogout": "2007-02-05T10:30:25.0142166+01:00",
+  "EjUserId": 581,
+  "RequestSignature": "mollitia",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "esse",
-      "DisplayValue": "sed",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 731
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "esse",
-      "DisplayValue": "sed",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 731
-        }
-      }
-    }
-  ],
-  "UserName": "Luettgen LLC",
-  "TicketCategories": [
-    {
-      "Id": 536,
-      "Name": "Brakus Inc and Sons",
-      "ToolTip": "Debitis harum vero voluptas.",
-      "Deleted": false,
-      "Rank": 934,
-      "Type": "ut",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "nostrum",
-      "ColorBlock": 182,
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "voluptate",
-      "FullName": "Wilhelm Runolfsdottir",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 367
-        }
-      }
-    }
-  ],
-  "NickName": "Klocko-Schoen",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "vero"
-  },
-  "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "id"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Klocko-Dibbert",
-      "DisplayName": "Leffler, Hane and Stiedemann",
-      "Description": "Total fresh-thinking hub",
-      "ToolTip": "Eligendi deleniti dolorum quia iure et ut.",
-      "Actions": "Implicit",
-      "ActionData": "occaecati",
+      "Value": "magni",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldLength": 341
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "magni",
+      "DisplayValue": "nostrum",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 341
+        }
+      }
+    }
+  ],
+  "UserName": "Morar, Bruen and Volkman",
+  "TicketCategories": [
+    {
+      "Id": 82,
+      "Name": "Bailey, Leannon and Braun",
+      "ToolTip": "Nihil repellat esse.",
+      "Deleted": false,
+      "Rank": 874,
+      "Type": "quam",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "iure",
+      "ColorBlock": 557,
+      "ExtraInfo": "qui",
+      "StyleHint": "et",
+      "FullName": "Rafael Reichel",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 759
+        }
+      }
+    }
+  ],
+  "NickName": "Stokes Group",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "ullam"
+  },
+  "CustomFields": {
+    "CustomFields1": "aut",
+    "CustomFields2": "et"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Bayer, Tillman and Auer",
+      "DisplayName": "Gulgowski Group",
+      "Description": "Seamless high-level workforce",
+      "ToolTip": "Ut totam et facere.",
+      "Actions": "Implicit",
+      "ActionData": "consequatur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 727
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

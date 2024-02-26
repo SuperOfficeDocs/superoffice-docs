@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 871,
-  "Name": "O'Keefe Inc and Sons",
-  "Tooltip": "cumque",
+  "Id": 813,
+  "Name": "Dicki, Ankunding and Haag",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "UdListDefinitionId": 502,
-  "Rank": 760
+  "UdListDefinitionId": 676,
+  "Rank": 816
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 737,
-  "Name": "Murazik, Zboncak and Jaskolski",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "UdListDefinitionId": 754,
-  "Rank": 227,
+  "Id": 418,
+  "Name": "Halvorson, Grimes and Jacobson",
+  "Tooltip": "magni",
+  "Deleted": false,
+  "UdListDefinitionId": 592,
+  "Rank": 414,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 642
     }
   }
 }

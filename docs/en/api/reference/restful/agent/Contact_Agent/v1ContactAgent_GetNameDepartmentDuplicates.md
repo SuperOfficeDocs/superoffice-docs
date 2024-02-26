@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mayert, Kulas and Denesik",
+  "Name": "Friesen, Wolf and Hahn",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Beahan-Jaskolski",
-    "SoPrimaryKey": 229,
-    "EntryName": "Trantow-Hessel",
-    "EntryIdentifier": "qui",
-    "RuleDisplayName": "Roob, Bogisich and Schuppe",
+    "RuleName": "Weissnat-Kuphal",
+    "SoPrimaryKey": 774,
+    "EntryName": "Stamm, Veum and Rodriguez",
+    "EntryIdentifier": "accusamus",
+    "RuleDisplayName": "West, Bergnaum and Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 374
       }
     }
   }

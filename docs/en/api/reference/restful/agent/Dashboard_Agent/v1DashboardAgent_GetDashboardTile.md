@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=661
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=893
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 987,
-  "Caption": "sit",
-  "Description": "Object-based regional support",
-  "ChartName": "Jakubowski LLC",
-  "ChartId": "laborum",
+  "DashboardTileId": 793,
+  "Caption": "facere",
+  "Description": "Stand-alone mobile ability",
+  "ChartName": "McLaughlin Inc and Sons",
+  "ChartId": "incidunt",
   "IsDefault": false,
-  "AssociateId": 617,
-  "GroupId": 949,
-  "SelectionId": 678,
-  "Config": "est",
+  "AssociateId": 315,
+  "GroupId": 864,
+  "SelectionId": 420,
+  "Config": "iste",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Carter LLC",
-      "Description": "Mandatory national groupware",
+      "Name": "Bogan, Medhurst and Haag",
+      "Description": "Versatile value-added capacity",
       "Type": "Boolean",
-      "ListName": "Gibson LLC",
+      "ListName": "Buckridge, Dietrich and Ruecker",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "iure",
+      "Value": "voluptatem",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 53
+          "FieldLength": 828
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 583,
+      "VisibleId": 530,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 737
         }
       }
     },
     {
-      "VisibleId": 583,
+      "VisibleId": 530,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 737
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 826
+      "FieldType": "System.Int32",
+      "FieldLength": 771
     }
   }
 }

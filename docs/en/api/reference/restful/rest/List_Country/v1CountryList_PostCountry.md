@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 143,
-  "Name": "Swaniawski-Bartell",
-  "CurrencyId": 319,
-  "EnglishName": "Bechtelar, Heaney and Kemmer",
+  "CountryId": 704,
+  "Name": "Kunze-Rath",
+  "CurrencyId": 135,
+  "EnglishName": "Nader, Koepp and Deckow",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Advanced systemic database",
-  "OrgNrText": "1552608",
-  "InterAreaPrefix": "sit",
-  "DialInPrefix": "autem",
-  "ZipPrefix": "et",
-  "DomainName": "Bartell-Lang",
-  "AddressLayoutId": 991,
-  "DomesticAddressLayoutId": 885,
-  "ForeignAddressLayoutId": 101,
-  "Rank": 639,
-  "Tooltip": "incidunt",
+  "ImageDescription": "Re-engineered attitude-oriented implementation",
+  "OrgNrText": "1509757",
+  "InterAreaPrefix": "tenetur",
+  "DialInPrefix": "reprehenderit",
+  "ZipPrefix": "est",
+  "DomainName": "Gorczany Group",
+  "AddressLayoutId": 149,
+  "DomesticAddressLayoutId": 857,
+  "ForeignAddressLayoutId": 551,
+  "Rank": 845,
+  "Tooltip": "quidem",
   "Deleted": true
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 304,
-  "Name": "Schowalter, Hand and Olson",
-  "CurrencyId": 717,
-  "EnglishName": "Bode Inc and Sons",
+  "CountryId": 213,
+  "Name": "Farrell, Lind and Braun",
+  "CurrencyId": 185,
+  "EnglishName": "Olson Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Profit-focused client-driven approach",
-  "OrgNrText": "952501",
-  "InterAreaPrefix": "placeat",
-  "DialInPrefix": "magni",
-  "ZipPrefix": "est",
-  "DomainName": "McDermott-Crona",
-  "AddressLayoutId": 985,
-  "DomesticAddressLayoutId": 953,
-  "ForeignAddressLayoutId": 543,
-  "Rank": 493,
-  "Tooltip": "quasi",
-  "Deleted": true,
+  "ImageDescription": "Re-engineered transitional application",
+  "OrgNrText": "1069219",
+  "InterAreaPrefix": "eius",
+  "DialInPrefix": "accusamus",
+  "ZipPrefix": "similique",
+  "DomainName": "Goyette Group",
+  "AddressLayoutId": 267,
+  "DomesticAddressLayoutId": 682,
+  "ForeignAddressLayoutId": 501,
+  "Rank": 1001,
+  "Tooltip": "officiis",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 295
     }
   }
 }

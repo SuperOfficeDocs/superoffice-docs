@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "Halvorson-Bradtke",
-  "StorageKey": "et",
+  "StorageType": "corporis",
+  "ProviderName": "Rohan Group",
+  "StorageKey": "incidunt",
   "ExtraRestrictions": [
     {
-      "Name": "Sipes, Bailey and Schmidt",
-      "Operator": "unde",
+      "Name": "Kulas LLC",
+      "Operator": "ex",
       "Values": [
-        "quasi",
-        "quis"
+        "optio",
+        "et"
       ],
       "DisplayValues": [
-        "tenetur",
-        "non"
+        "ducimus",
+        "minus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 522,
+      "InterParenthesis": 582,
       "InterOperator": "And",
-      "UniqueHash": 996
+      "UniqueHash": 673
     }
   ],
   "OrderBy": [
     {
-      "Name": "Boyer, West and Spencer",
+      "Name": "Hackett-Wiegand",
       "Direction": "ASC"
     },
     {
-      "Name": "Boyer, West and Spencer",
+      "Name": "Hackett-Wiegand",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "numquam",
-    "quod"
+    "porro",
+    "et"
   ],
-  "PageSize": 718,
-  "PageNumber": 975
+  "PageSize": 543,
+  "PageNumber": 715
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jaskolski, Rempel and Harber",
-      "DisplayTooltip": "cumque",
-      "DisplayType": "aliquid",
-      "CanOrderBy": false,
-      "Name": "Hand, Turcotte and Zulauf",
+      "DisplayName": "Haag-Flatley",
+      "DisplayTooltip": "voluptatum",
+      "DisplayType": "laudantium",
+      "CanOrderBy": true,
+      "Name": "Dooley LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "quis",
-      "RestrictionListName": "Gibson-Zemlak",
-      "IsVisible": false,
-      "ExtraInfo": "consectetur",
-      "Width": "ea",
-      "IconHint": "quo",
-      "HeadingIconHint": "id"
+      "RestrictionType": "quo",
+      "RestrictionListName": "Wyman-Bednar",
+      "IsVisible": true,
+      "ExtraInfo": "exercitationem",
+      "Width": "reprehenderit",
+      "IconHint": "saepe",
+      "HeadingIconHint": "vel"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Nienow Inc and Sons",
-      "PrimaryKey": 677,
+      "EntityName": "Nitzsche-Koss",
+      "PrimaryKey": 614,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "asperiores",
-          "LinkHint": "et"
+          "DisplayValue": "asperiores",
+          "TooltipHint": "dicta",
+          "LinkHint": "nam"
         }
       },
-      "LinkHint": "reiciendis",
-      "StyleHint": "dolor",
+      "LinkHint": "quidem",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 555
+          "FieldType": "System.Int32",
+          "FieldLength": 20
         }
       }
     }
   ],
-  "RowCount": 789,
+  "RowCount": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 27
+      "FieldLength": 792
     }
   }
 }

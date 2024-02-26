@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=illum
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Krajcik, Grady and Nicolas",
-    "ToolTip": "Perferendis aliquid atque et laborum.",
-    "Deleted": false,
-    "Rank": 684,
-    "Type": "accusantium",
+    "Id": 433,
+    "Name": "Kunde-Macejkovic",
+    "ToolTip": "Qui quia architecto perspiciatis repellat quo alias officia.",
+    "Deleted": true,
+    "Rank": 176,
+    "Type": "possimus",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Ebert-Mills",
-        "ToolTip": "Qui facere voluptate culpa qui.",
+        "Id": 465,
+        "Name": "Lemke LLC",
+        "ToolTip": "Eos eum quisquam explicabo repellendus aliquid rerum.",
         "Deleted": false,
-        "Rank": 221,
-        "Type": "temporibus",
+        "Rank": 519,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 521,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "provident",
-        "FullName": "Osvaldo Gibson",
+        "IconHint": "recusandae",
+        "ColorBlock": 553,
+        "ExtraInfo": "aut",
+        "StyleHint": "ullam",
+        "FullName": "Fritz Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 848
+            "FieldType": "System.Int32",
+            "FieldLength": 985
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 740,
-    "ExtraInfo": "aut",
-    "StyleHint": "soluta",
-    "FullName": "Victoria Watsica",
+    "IconHint": "soluta",
+    "ColorBlock": 727,
+    "ExtraInfo": "neque",
+    "StyleHint": "accusantium",
+    "FullName": "Ms. Al Koby Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldLength": 491
       }
     }
   }

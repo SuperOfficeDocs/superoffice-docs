@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 867,
-  "ERPProductKey": "soluta"
+  "QuoteAlternativeId": 171,
+  "ERPProductKey": "quaerat"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 853,
-  "ERPQuoteLineKey": "non",
-  "QuoteAlternativeId": 735,
-  "ERPProductKey": "qui",
+  "QuoteLineId": 216,
+  "ERPQuoteLineKey": "qui",
+  "QuoteAlternativeId": 536,
+  "ERPProductKey": "dolorem",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 7628.156,
-  "DeliveredQuantity": 17095.97,
-  "Rank": 455,
-  "Name": "Littel Inc and Sons",
-  "Description": "Face to face client-server adapter",
-  "Code": "aspernatur",
-  "QuantityUnit": "eveniet",
-  "PriceUnit": "sunt",
-  "ItemNumber": "359207",
+  "Quantity": 128.494,
+  "DeliveredQuantity": 29892.092,
+  "Rank": 418,
+  "Name": "Pagac-McDermott",
+  "Description": "Persevering stable analyzer",
+  "Code": "repudiandae",
+  "QuantityUnit": "quia",
+  "PriceUnit": "et",
+  "ItemNumber": "1055697",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dignissimos",
-  "ProductTypeKey": "quam",
-  "Supplier": "voluptatibus",
-  "SupplierCode": "soluta",
-  "Thumbnail": "nihil",
-  "VATInfo": "consequatur",
-  "VAT": 25106.474,
-  "UnitCost": 21217.18,
-  "UnitMinimumPrice": 21405.219999999998,
-  "UnitListPrice": 2037.1,
+  "ProductFamilyKey": "pariatur",
+  "ProductTypeKey": "saepe",
+  "Supplier": "autem",
+  "SupplierCode": "amet",
+  "Thumbnail": "enim",
+  "VATInfo": "molestiae",
+  "VAT": 27889.466,
+  "UnitCost": 25977.726,
+  "UnitMinimumPrice": 24344.912,
+  "UnitListPrice": 16770.034,
   "ExtraInfo": [
     {
-      "Name": "Spencer-Grant",
-      "Value": "quae",
+      "Name": "Ward-Ferry",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldType": "System.Int32",
+          "FieldLength": 100
         }
       }
     },
     {
-      "Name": "Spencer-Grant",
-      "Value": "quae",
+      "Name": "Ward-Ferry",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldType": "System.Int32",
+          "FieldLength": 100
         }
       }
     }
   ],
-  "RawExtraInfo": "aspernatur",
-  "IsSubscription": true,
-  "SubscriptionUnit": "aperiam",
-  "SubscriptionQuantity": 28005.424,
-  "SubscriptionStart": "2017-07-04T16:54:56.1534543+02:00",
-  "ERPDiscountPercent": 29653.908,
-  "ERPDiscountAmount": 9207.692,
-  "DiscountPercent": 27037.018,
-  "DiscountAmount": 28209.134,
+  "RawExtraInfo": "incidunt",
+  "IsSubscription": false,
+  "SubscriptionUnit": "exercitationem",
+  "SubscriptionQuantity": 1438.5059999999999,
+  "SubscriptionStart": "2023-02-22T10:30:24.4346264+01:00",
+  "ERPDiscountPercent": 20875.574,
+  "ERPDiscountAmount": 29277.827999999998,
+  "DiscountPercent": 25648.656,
+  "DiscountAmount": 3814.078,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 14651.449999999999,
-  "EarningAmount": 1278.672,
-  "SubTotal": 26222.178,
-  "TotalPrice": 31283.588,
-  "Rights": "placeat",
-  "Rule": "et",
-  "ExtraField1": "sint",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "cum",
-  "ExtraField4": "quo",
-  "ExtraField5": "quod",
+  "EarningPercent": 1341.3519999999999,
+  "EarningAmount": 25902.51,
+  "SubTotal": 1573.268,
+  "TotalPrice": 18080.046,
+  "Rights": "dicta",
+  "Rule": "vel",
+  "ExtraField1": "eveniet",
+  "ExtraField2": "ipsum",
+  "ExtraField3": "vel",
+  "ExtraField4": "maiores",
+  "ExtraField5": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldType": "System.String",
+      "FieldLength": 487
     }
   }
 }

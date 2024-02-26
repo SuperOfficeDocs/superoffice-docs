@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 893,
-  "ColumnId": 849,
-  "FieldDefault": "rerum",
-  "FieldHeight": 643,
-  "FieldLabel": "soluta",
-  "FieldLeft": 60,
-  "FieldTop": 195,
+  "UDefFieldId": 624,
+  "ColumnId": 807,
+  "FieldDefault": "eius",
+  "FieldHeight": 686,
+  "FieldLabel": "deleniti",
+  "FieldLeft": 788,
+  "FieldTop": 103,
   "FieldType": "Checkbox",
-  "FieldWidth": 762,
-  "FormatMask": "molestiae",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 717,
-  "LabelLeft": 23,
-  "LabelTop": 977,
-  "LabelWidth": 937,
-  "LastVersionId": 216,
-  "ListTableId": 389,
+  "FieldWidth": 277,
+  "FormatMask": "ut",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 791,
+  "LabelLeft": 530,
+  "LabelTop": 176,
+  "LabelWidth": 12,
+  "LastVersionId": 33,
+  "ListTableId": 350,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 208,
-  "ProgId": "repellat",
+  "Page1LineNo": 935,
+  "ProgId": "quibusdam",
   "IsReadOnly": false,
-  "ShortLabel": "minima",
-  "TabOrder": 752,
-  "TextLength": 810,
-  "Tooltip": "est",
-  "UdefIdentity": 932,
-  "UDListDefinitionId": 106,
+  "ShortLabel": "assumenda",
+  "TabOrder": 966,
+  "TextLength": 106,
+  "Tooltip": "quia",
+  "UdefIdentity": 610,
+  "UDListDefinitionId": 973,
   "Justification": "Center",
-  "Version": 177,
-  "TemplateVariableName": "Bruen Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Kerluke LLC",
+  "Version": 951,
+  "TemplateVariableName": "Kling Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Fahey-Gottlieb",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldLength": 232
     }
   }
 }

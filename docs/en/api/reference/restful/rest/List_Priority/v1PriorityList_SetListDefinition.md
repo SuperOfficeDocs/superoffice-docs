@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Schinner, Waters and Gislason",
-  "Tooltip": "quia",
+  "Id": 225,
+  "Name": "Balistreri-Armstrong",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 169,
-  "IsCustomList": false,
+  "Rank": 294,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 279,
-  "Name": "Schowalter-Krajcik",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 542,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 84,
+  "Name": "Herzog-White",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 824,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quos",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 226
     }
   }
 }

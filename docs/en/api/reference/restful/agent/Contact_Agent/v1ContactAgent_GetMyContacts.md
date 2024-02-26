@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 964,
-    "Name": "Schmeler, Lakin and Luettgen",
-    "OrgNr": "942201",
+    "ContactId": 676,
+    "Name": "Gutkowski, Jacobs and Lesch",
+    "OrgNr": "1507573",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "laboriosam",
-    "DirectPhone": "(305)093-1073",
-    "AssociateId": 951,
-    "CountryId": 415,
-    "EmailAddress": "clementine@larson.info",
-    "Kananame": "veritatis",
-    "EmailAddressName": "kayli@leschherzog.ca",
+    "City": "qui",
+    "DirectPhone": "242.736.1895 x9457",
+    "AssociateId": 795,
+    "CountryId": 891,
+    "EmailAddress": "zechariah@gislasonhermann.uk",
+    "Kananame": "quo",
+    "EmailAddressName": "dora@kerluke.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Trevion Breanne Gulgowski IV",
+    "AssociateFullName": "Ms. Lulu Kiehn",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "veritatis",
-    "FullName": "Jamison Luettgen",
+    "FormattedAddress": "atque",
+    "FullName": "Eldon Stokes",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 980,
-    "Number1": "1498228",
-    "Number2": "1296049",
+    "ActiveErpLinks": 669,
+    "Number1": "843874",
+    "Number2": "1141473",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 157
+        "FieldType": "System.Int32",
+        "FieldLength": 145
       }
     }
   }

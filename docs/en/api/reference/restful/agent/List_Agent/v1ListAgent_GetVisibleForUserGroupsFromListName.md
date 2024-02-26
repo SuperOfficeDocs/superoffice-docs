@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Murray, Reilly and Hansen",
-  "ListItemId": 97
+  "UdListDefinitionName": "Bogisich LLC",
+  "ListItemId": 308
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Deckow, Johnston and Reilly",
-    "ToolTip": "Corporis aut quia est quod aut perferendis labore.",
-    "Deleted": true,
-    "Rank": 298,
-    "Type": "iusto",
-    "ColorBlock": 545,
-    "IconHint": "modi",
+    "Id": 274,
+    "Name": "Huels, Spencer and Reichert",
+    "ToolTip": "Ducimus rerum.",
+    "Deleted": false,
+    "Rank": 246,
+    "Type": "fuga",
+    "ColorBlock": 711,
+    "IconHint": "nostrum",
     "Selected": true,
-    "LastChanged": "2007-06-29T16:54:55.5569839+02:00",
+    "LastChanged": "2007-07-31T10:30:23.978726+02:00",
     "ChildItems": [
       {
-        "Id": 230,
-        "Name": "Haag, Kunde and Jewess",
-        "ToolTip": "Vel distinctio cumque at architecto fugiat est.",
+        "Id": 761,
+        "Name": "Pagac Group",
+        "ToolTip": "Dolores ut.",
         "Deleted": true,
-        "Rank": 792,
-        "Type": "eius",
-        "ColorBlock": 981,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2020-12-04T16:54:55.5569839+01:00",
+        "Rank": 990,
+        "Type": "et",
+        "ColorBlock": 624,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "1996-10-19T10:30:23.978726+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "molestias",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Dr. Cicero Dustin Skiles",
+        "FullName": "Alf Gerlach Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 374
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
+    "ExtraInfo": "aperiam",
     "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Randal Kunde Sr.",
+    "Hidden": false,
+    "FullName": "Chauncey Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldType": "System.String",
+        "FieldLength": 58
       }
     }
   }

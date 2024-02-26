@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 533,
-  "StartTime": "2004-04-16T16:54:55.1312921+02:00",
-  "EndTime": "2009-11-14T16:54:55.1312921+01:00",
-  "Count": 54,
+  "ContactId": 725,
+  "StartTime": "2021-09-09T10:30:23.5769016+02:00",
+  "EndTime": "1999-05-25T10:30:23.5769016+02:00",
+  "Count": 182,
   "DocumentTemplateIds": [
-    930,
-    115
+    223,
+    584
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 434,
-    "Attention": "nesciunt",
-    "Header": "dicta",
-    "Name": "Rodriguez, Murphy and Graham",
-    "OurRef": "tempore",
-    "YourRef": "natus",
-    "Description": "Vision-oriented needs-based utilisation",
-    "DocumentTemplate": "est",
+    "DocumentId": 591,
+    "Attention": "qui",
+    "Header": "similique",
+    "Name": "Ebert, Ryan and Hackett",
+    "OurRef": "consequatur",
+    "YourRef": "aut",
+    "Description": "Future-proofed client-driven budgetary management",
+    "DocumentTemplate": "reprehenderit",
     "IsPublished": false,
-    "PersonId": 588,
-    "PersonFullName": "Miss Mustafa Steuber",
-    "AssociateFullName": "Ardith Satterfield",
-    "ContactId": 914,
-    "ContactName": "Stamm, Hills and Mraz",
-    "ProjectId": 6,
-    "ProjectName": "Veum Group",
-    "AssociateId": 867,
-    "Snum": 279,
-    "SaleId": 231,
-    "SaleName": "Rosenbaum-Hudson",
+    "PersonId": 615,
+    "PersonFullName": "Merritt Una Wunsch MD",
+    "AssociateFullName": "Emil Janice Rice V",
+    "ContactId": 927,
+    "ContactName": "Jaskolski-Cruickshank",
+    "ProjectId": 543,
+    "ProjectName": "Pfeffer-Shields",
+    "AssociateId": 936,
+    "Snum": 597,
+    "SaleId": 225,
+    "SaleName": "Goyette, Reilly and Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

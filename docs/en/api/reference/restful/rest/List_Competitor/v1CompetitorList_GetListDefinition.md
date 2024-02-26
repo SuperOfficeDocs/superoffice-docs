@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 972,
-  "Name": "Carter Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 263,
+  "Id": 267,
+  "Name": "Harris, Rempel and Dicki",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 30,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldLength": 217
     }
   },
   "_Links": {

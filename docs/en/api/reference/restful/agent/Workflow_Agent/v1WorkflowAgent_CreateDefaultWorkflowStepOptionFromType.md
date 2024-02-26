@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OptionType": "FormSubmission"
+  "OptionType": "FormData"
 }
 ```
 
@@ -92,24 +92,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OptionType": "FormSubmission",
-  "WorkflowStepOptionId": 242,
-  "WorkflowStepId": 144,
-  "WorkflowId": 158,
-  "Name": "Gaylord, Koelpin and Franecki",
-  "Rank": 329,
+  "OptionType": "FormData",
+  "WorkflowStepOptionId": 881,
+  "WorkflowStepId": 439,
+  "WorkflowId": 270,
+  "Name": "Collins-Strosin",
+  "Rank": 979,
   "Steps": [
     {
-      "WorkflowStepId": 241,
-      "WorkflowId": 912,
+      "WorkflowStepId": 88,
+      "WorkflowId": 298,
       "StepType": "AddToList",
-      "Rank": 822
+      "Rank": 347
     },
     {
-      "WorkflowStepId": 241,
-      "WorkflowId": 912,
+      "WorkflowStepId": 88,
+      "WorkflowId": 298,
       "StepType": "AddToList",
-      "Rank": 822
+      "Rank": 347
     }
   ]
 }

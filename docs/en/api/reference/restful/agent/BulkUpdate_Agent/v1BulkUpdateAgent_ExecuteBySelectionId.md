@@ -79,29 +79,29 @@ Content-Type: application/json; charset=utf-8
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "ipsa",
-      "ValueType": "nobis",
-      "Mandatory": true,
-      "EncodedDisplayName": "Russel Inc and Sons",
-      "EncodedDisplayDescription": "Digitized high-level paradigm",
-      "IconHint": "quo",
+      "Key": "quia",
+      "ValueType": "soluta",
+      "Mandatory": false,
+      "EncodedDisplayName": "Schneider, Reinger and Donnelly",
+      "EncodedDisplayDescription": "Compatible fault-tolerant contingency",
+      "IconHint": "voluptates",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "quis",
-      "EncodedDataCaptionDescription": "Switchable 3rd generation frame",
-      "CurrentOperationType": "consequuntur",
+      "EncodedDataCaption": "explicabo",
+      "EncodedDataCaptionDescription": "Right-sized global core",
+      "CurrentOperationType": "qui",
       "Values": [
-        "vel",
-        "assumenda"
+        "esse",
+        "quos"
       ],
       "DisplayValues": [
-        "unde",
-        "est"
+        "odio",
+        "eum"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Romaguera Inc and Sons",
-  "Context": "earum",
-  "SelectionId": 40,
+  "TableName": "Olson, Sporer and Gusikowski",
+  "Context": "voluptas",
+  "SelectionId": 899,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-277
+952
 ```

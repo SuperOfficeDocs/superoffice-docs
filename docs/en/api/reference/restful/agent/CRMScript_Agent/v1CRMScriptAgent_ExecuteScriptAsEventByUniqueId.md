@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "velit",
+  "CRMScriptUniqueId": "asperiores",
   "EventData": null
 }
 ```
@@ -109,41 +109,41 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "unde",
-    "InputValues2": "ea"
+    "InputValues1": "iste",
+    "InputValues2": "consectetur"
   },
   "BlockExecution": false,
-  "NavigateTo": "placeat",
-  "Message": "est",
-  "ShowDialog": "architecto",
+  "NavigateTo": "reprehenderit",
+  "Message": "veritatis",
+  "ShowDialog": "sit",
   "OutputValues": {
-    "OutputValues1": "expedita",
-    "OutputValues2": "minus"
+    "OutputValues1": "at",
+    "OutputValues2": "veniam"
   },
   "StateValues": {
-    "StateValues1": "quod",
-    "StateValues2": "qui"
+    "StateValues1": "sunt",
+    "StateValues2": "sed"
   },
-  "Exception": "asperiores",
+  "Exception": "reiciendis",
   "ParserValues": {
-    "ParserValues1": "aperiam",
-    "ParserValues2": "qui"
+    "ParserValues1": "enim",
+    "ParserValues2": "porro"
   },
   "CgiVariables": {
-    "CgiVariables1": "omnis",
-    "CgiVariables2": "et"
+    "CgiVariables1": "earum",
+    "CgiVariables2": "rerum"
   },
-  "CgiContent": "incidunt",
+  "CgiContent": "unde",
   "Headers": {
-    "Headers1": "nam",
-    "Headers2": "fugiat"
+    "Headers1": "officiis",
+    "Headers2": "possimus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 678
     }
   }
 }

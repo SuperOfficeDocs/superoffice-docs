@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 432,
-    "Name": "Runolfsson, Reynolds and Maggio",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 194,
-    "UdListDefinitionId": 261,
+    "HeadingId": 115,
+    "Name": "Vandervort Group",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "Rank": 791,
+    "UdListDefinitionId": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldLength": 534
       }
     }
   }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 621,
-  "CountryId": 74
+  "ContactId": 263,
+  "CountryId": 754
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 26795.7,
-  "Wgs84Longitude": 24144.336,
+  "Wgs84Latitude": 980.942,
+  "Wgs84Longitude": 28613.42,
   "LocalizedAddress": [
     [
       {
-        "Name": "Block Inc and Sons",
-        "Value": "rerum",
-        "Tooltip": "delectus",
-        "Label": "et",
-        "ValueLength": 628,
-        "AddressType": "et",
+        "Name": "Legros-Goodwin",
+        "Value": "ab",
+        "Tooltip": "expedita",
+        "Label": "incidunt",
+        "ValueLength": 482,
+        "AddressType": "iste",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 855
+            "FieldLength": 148
           }
         }
       }
     ],
     [
       {
-        "Name": "Hartmann-Streich",
-        "Value": "numquam",
-        "Tooltip": "illum",
-        "Label": "ullam",
-        "ValueLength": 635,
-        "AddressType": "et",
+        "Name": "Becker-Lemke",
+        "Value": "incidunt",
+        "Tooltip": "libero",
+        "Label": "ut",
+        "ValueLength": 690,
+        "AddressType": "quasi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 691
+            "FieldLength": 769
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "ex",
+  "Formatted": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldType": "System.String",
+      "FieldLength": 16
     }
   }
 }

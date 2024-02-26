@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
+  "Id": 452,
   "Entities": [
     {
-      "HeadingId": 94,
-      "Name": "Hane Inc and Sons",
-      "Tooltip": "dolor",
-      "Deleted": true,
-      "Rank": 464,
-      "UdListDefinitionId": 886
+      "HeadingId": 714,
+      "Name": "O'Conner Inc and Sons",
+      "Tooltip": "quibusdam",
+      "Deleted": false,
+      "Rank": 892,
+      "UdListDefinitionId": 93
     },
     {
-      "HeadingId": 94,
-      "Name": "Hane Inc and Sons",
-      "Tooltip": "dolor",
-      "Deleted": true,
-      "Rank": 464,
-      "UdListDefinitionId": 886
+      "HeadingId": 714,
+      "Name": "O'Conner Inc and Sons",
+      "Tooltip": "quibusdam",
+      "Deleted": false,
+      "Rank": 892,
+      "UdListDefinitionId": 93
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 230,
-    "Name": "Littel-Thiel",
-    "Tooltip": "commodi",
+    "HeadingId": 936,
+    "Name": "Ziemann-Stoltenberg",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 918,
-    "UdListDefinitionId": 852,
+    "Rank": 953,
+    "UdListDefinitionId": 844,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 715
       }
     }
   }

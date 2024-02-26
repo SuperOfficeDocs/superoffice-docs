@@ -81,13 +81,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 507,
+  "ReportId": 481,
   "ReportCategory": "All",
-  "Description": "Robust fresh-thinking success",
+  "Description": "Open-architected zero administration strategy",
   "ReportLayout": "CalendarMonth",
-  "Name": "Medhurst, Tromp and Becker",
-  "AssociateId": 990,
-  "TemplateId": 85,
+  "Name": "Klein Inc and Sons",
+  "AssociateId": 690,
+  "TemplateId": 902,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 13,
+  "ReportId": 258,
   "ReportCategory": "All",
-  "Description": "Programmable attitude-oriented monitoring",
+  "Description": "Mandatory system-worthy capacity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hyatt LLC",
-  "AssociateId": 367,
-  "TemplateId": 787,
+  "Name": "Stark-Hessel",
+  "AssociateId": 129,
+  "TemplateId": 454,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 902
     }
   }
 }

@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 187
+  "ChatSessionId": 480
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 496,
-  "TopicId": 686,
+  "ChatSessionId": 666,
+  "TopicId": 624,
   "User": null,
   "Person": null,
-  "CustomerAlias": "itaque",
-  "CustomerHost": "praesentium",
-  "CustomerName": "DuBuque Inc and Sons",
-  "CustomerEmail": "jackeline.ohara@hegmann.us",
-  "CustomerPhone": "1-922-002-9845 x6570",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Corwin-Schimmel",
+  "CustomerAlias": "voluptas",
+  "CustomerHost": "ratione",
+  "CustomerName": "Cronin, Trantow and Donnelly",
+  "CustomerEmail": "holden.jakubowski@anderson.info",
+  "CustomerPhone": "1-436-382-2179",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Labadie, Bradtke and Lemke",
   "Status": "Closed",
-  "FirstMessage": "illum",
-  "LastMessage": "et",
-  "WhenRequested": "2005-10-11T16:54:54.8376478+02:00",
-  "WhenStarted": "2010-02-14T16:54:54.8376478+01:00",
-  "WhenEnded": "2019-02-20T16:54:54.8376478+01:00",
-  "WhenIdle": "2007-06-06T16:54:54.8376478+02:00",
-  "WhenFetched": "2021-04-09T16:54:54.8376478+02:00",
-  "SessionKey": "rerum",
-  "InitialQueuePos": 38,
-  "AlertLevel": 273,
-  "Rank": 417,
+  "FirstMessage": "enim",
+  "LastMessage": "dolor",
+  "WhenRequested": "2023-02-05T10:30:23.2105694+01:00",
+  "WhenStarted": "2023-12-24T10:30:23.2105694+01:00",
+  "WhenEnded": "2011-10-03T10:30:23.2105694+02:00",
+  "WhenIdle": "2020-08-04T10:30:23.2105694+02:00",
+  "WhenFetched": "1998-10-20T10:30:23.2105694+02:00",
+  "SessionKey": "a",
+  "InitialQueuePos": 461,
+  "AlertLevel": 451,
+  "Rank": 839,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 540,
+  "Rating": 809,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldLength": 45
     }
   }
 }

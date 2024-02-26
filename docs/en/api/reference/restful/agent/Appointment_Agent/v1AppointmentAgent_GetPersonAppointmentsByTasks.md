@@ -132,18 +132,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 173,
+  "PersonId": 374,
   "IncludeProjectAppointments": false,
-  "StartTime": "2004-03-06T16:54:54.2211887+01:00",
-  "EndTime": "2001-11-06T16:54:54.2211887+01:00",
-  "Count": 733,
+  "StartTime": "2007-01-12T10:30:22.56302+01:00",
+  "EndTime": "2016-09-30T10:30:22.56302+02:00",
+  "Count": 199,
   "TaskIds": [
-    384,
-    621
+    516,
+    686
   ]
 }
 ```
@@ -156,65 +156,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 585,
-    "StartDate": "2001-05-19T16:54:54.2221946+02:00",
-    "EndDate": "2007-05-06T16:54:54.2221946+02:00",
+    "AppointmentId": 825,
+    "StartDate": "1997-09-11T10:30:22.56302+02:00",
+    "EndDate": "2018-11-14T10:30:22.56302+01:00",
     "Type": "BookingForChecklist",
-    "Task": "sed",
-    "AssociateFullName": "Jenifer Lebsack",
-    "ContactName": "Witting Group",
-    "Description": "Configurable static concept",
-    "PersonFullName": "Prof. Lance Barton III",
-    "PersonId": 720,
-    "ContactId": 839,
-    "ProjectId": 571,
-    "ProjectName": "Wilkinson Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 174,
-    "ColorIndex": 401,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "dolor",
+    "AssociateFullName": "Ervin Hyatt",
+    "ContactName": "Kuhlman-Rutherford",
+    "Description": "Robust grid-enabled analyzer",
+    "PersonFullName": "Miss Earl Vincent Feil III",
+    "PersonId": 988,
+    "ContactId": 121,
+    "ProjectId": 338,
+    "ProjectName": "Hartmann-West",
+    "IsPublished": false,
+    "AssociateId": 309,
+    "ColorIndex": 738,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 552,
-    "PriorityName": "Cruickshank LLC",
+    "PriorityId": 208,
+    "PriorityName": "Rogahn Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2008-10-08T16:54:54.223212+02:00",
+    "ActiveDate": "2019-04-17T10:30:22.56302+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-05-13T16:54:54.223212+02:00",
-    "RecurringEndDate": "2004-03-08T16:54:54.223212+01:00",
-    "MotherId": 705,
-    "AssignedBy": 169,
-    "AssignedByFullName": "Mrs. Dante Renner",
-    "RejectReason": "",
-    "Location": "iure",
-    "AlarmLeadTime": "culpa",
-    "SaleId": 158,
-    "SaleName": "Kuphal Group",
-    "AssociateName": "Walker-Wuckert",
-    "CreatedDate": "2015-04-02T16:54:54.223212+02:00",
-    "CreatedBy": "nemo",
-    "CreatedByFullName": "Marcel Hintz",
-    "CreatedByAssociateId": 857,
+    "RecurringStartDate": "2019-04-28T10:30:22.56302+02:00",
+    "RecurringEndDate": "2022-09-28T10:30:22.56302+02:00",
+    "MotherId": 177,
+    "AssignedBy": 982,
+    "AssignedByFullName": "Mohammed Prosacco",
+    "RejectReason": "architect integrated channels",
+    "Location": "et",
+    "AlarmLeadTime": "aut",
+    "SaleId": 421,
+    "SaleName": "Willms Inc and Sons",
+    "AssociateName": "Wolff LLC",
+    "CreatedDate": "2003-09-03T10:30:22.56302+02:00",
+    "CreatedBy": "ipsa",
+    "CreatedByFullName": "Lela Hayes",
+    "CreatedByAssociateId": 703,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 666,
-    "Title": "similique",
-    "Agenda": "impedit",
-    "InternalNotes": "dignissimos",
+    "PreferredTZLocation": 486,
+    "Title": "consequuntur",
+    "Agenda": "omnis",
+    "InternalNotes": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 422
+        "FieldType": "System.Int32",
+        "FieldLength": 793
       }
     }
   }

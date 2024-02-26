@@ -101,24 +101,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 566,
-  "Section": "aperiam",
-  "Key": "ad",
-  "Name": "Erdman, Kerluke and Schamberger",
+  "PrefDescId": 211,
+  "Section": "ad",
+  "Key": "ea",
+  "Name": "Jacobson Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured client-driven local area network",
+  "Description": "Assimilated optimizing alliance",
   "IsBuiltin": false,
-  "TableName": "Kunde LLC",
-  "UserDefinedListId": 472,
-  "Rank": 937,
-  "SubGroup": "officia",
-  "MinLevel": 910,
-  "MaxValue": 517,
-  "MinValue": 952,
-  "RequiredLicense": "cum"
+  "TableName": "Sipes Inc and Sons",
+  "UserDefinedListId": 153,
+  "Rank": 574,
+  "SubGroup": "nam",
+  "MinLevel": 572,
+  "MaxValue": 70,
+  "MinValue": 347,
+  "RequiredLicense": "voluptatem"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 716,
-  "Section": "dolores",
-  "Key": "quasi",
-  "Name": "Rogahn Inc and Sons",
+  "PrefDescId": 434,
+  "Section": "nihil",
+  "Key": "quaerat",
+  "Name": "Hartmann-Predovic",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused next generation hardware",
+  "Description": "Phased logistical firmware",
   "IsBuiltin": false,
-  "TableName": "Dare, Jacobs and Torp",
-  "UserDefinedListId": 449,
-  "Rank": 3,
-  "SubGroup": "iusto",
-  "MinLevel": 651,
-  "MaxValue": 642,
-  "MinValue": 572,
-  "RequiredLicense": "fugiat",
+  "TableName": "Hammes, Aufderhar and Leuschke",
+  "UserDefinedListId": 3,
+  "Rank": 896,
+  "SubGroup": "dolor",
+  "MinLevel": 862,
+  "MaxValue": 127,
+  "MinValue": 514,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 235,
-  "ModuleOwner": "ad",
+  "AssociateId": 232,
+  "ModuleOwner": "eos",
   "ModuleLicenseNames": [
-    "Ebert Inc and Sons",
-    "Cronin, Beahan and Wiza"
+    "Muller Group",
+    "Jenkins-Cormier"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 984,
-    "Tooltip": "incidunt",
+    "Unrestricted": true,
+    "Total": 127,
+    "Tooltip": "sunt",
     "CanAssign": false,
-    "Free": 670,
-    "InUse": 756,
-    "IsHidden": true,
+    "Free": 787,
+    "InUse": 746,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 39,
-    "Name": "Blick, Kemmer and Reinger",
-    "Description": "Extended holistic forecast",
-    "PrerequisiteModuleName": "Metz, Walsh and Jewess",
-    "SortOrder": 425,
-    "ExtraFlags": 850,
+    "ModuleLicenseId": 238,
+    "Name": "Tremblay, Dicki and Keeling",
+    "Description": "Vision-oriented analyzing system engine",
+    "PrerequisiteModuleName": "Smith-Bayer",
+    "SortOrder": 596,
+    "ExtraFlags": 734,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 752
       }
     }
   }

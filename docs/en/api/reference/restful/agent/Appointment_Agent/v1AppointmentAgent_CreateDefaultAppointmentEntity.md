@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-07-24T16:54:54.3030054+02:00",
-  "AppointmentId": 737,
-  "Description": "Total interactive implementation",
-  "Title": "asperiores",
-  "Agenda": "sed",
-  "InternalNotes": "est",
-  "StartDate": "2021-11-16T16:54:54.3030054+01:00",
-  "EndDate": "2012-05-28T16:54:54.3030054+02:00",
+  "CreatedDate": "2006-06-19T10:30:22.7533342+02:00",
+  "AppointmentId": 45,
+  "Description": "Object-based full-range hub",
+  "Title": "minus",
+  "Agenda": "non",
+  "InternalNotes": "eligendi",
+  "StartDate": "2012-08-06T10:30:22.7533342+02:00",
+  "EndDate": "1999-08-09T10:30:22.7533342+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 987,
+  "MotherId": 542,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-11-25T16:54:54.305005+01:00",
+  "UpdatedDate": "2017-11-20T10:30:22.7533342+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 822,
+  "ActiveLinks": 885,
   "Links": [
     {
-      "EntityName": "McGlynn Group",
-      "Id": 719,
-      "Description": "Distributed exuding focus group",
-      "ExtraInfo": "quis",
-      "LinkId": 434,
+      "EntityName": "Lebsack, Shields and Von",
+      "Id": 406,
+      "Description": "Universal zero administration hub",
+      "ExtraInfo": "fugiat",
+      "LinkId": 981,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 147
         }
       }
     }
   ],
-  "AlarmLeadTime": "quam",
+  "AlarmLeadTime": "aliquid",
   "HasAlarm": false,
-  "ColorIndex": 371,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "saepe",
-  "LeadTime": "at",
-  "Location": "dolore",
-  "RejectCounter": 713,
+  "ColorIndex": 397,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "ut",
+  "LeadTime": "atque",
+  "Location": "dolorum",
+  "RejectCounter": 378,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 622,
-      "PersonId": 603,
-      "ContactId": 133,
-      "EmailId": 325,
-      "SendEmail": true,
+      "AssociateId": 648,
+      "PersonId": 767,
+      "ContactId": 317,
+      "EmailId": 294,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jude_bode@gottlieb.co.uk",
-      "Description": "Switchable transitional groupware"
+      "EmailAddress": "helene@abshirepaucek.co.uk",
+      "Description": "Multi-tiered executive complexity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-04-23T16:54:54.305005+02:00",
+  "ActiveDate": "2012-12-19T10:30:22.7533342+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 851,
+  "PreferredTZLocation": 284,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 497,
+  "SuggestedAppointmentId": 598,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "soluta",
+  "CentralserviceVideomeetId": "amet",
   "UserDefinedFields": {
-    "SuperOffice:1": "305513866",
-    "SuperOffice:2": "1962732373"
+    "SuperOffice:1": "Althea Michale Wunsch III",
+    "SuperOffice:2": "Mrs. Reyna Sigmund Terry"
   },
   "ExtraFields": {
-    "ExtraFields1": "necessitatibus",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "inventore",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "2017-10-06T16:54:54.3080054+02:00",
-  "PublishTo": "1999-08-13T16:54:54.3080054+02:00",
-  "PublishFrom": "2004-09-17T16:54:54.3080054+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-02-16T10:30:22.7533342+01:00",
+  "PublishTo": "2012-05-22T10:30:22.7533342+02:00",
+  "PublishFrom": "2013-10-22T10:30:22.7533342+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 659,
+      "VisibleId": 581,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 72
+          "FieldType": "System.String",
+          "FieldLength": 742
         }
       }
     },
     {
-      "VisibleId": 659,
+      "VisibleId": 581,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 72
+          "FieldType": "System.String",
+          "FieldLength": 742
         }
       }
     }
@@ -251,8 +251,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Feeney Inc and Sons",
-      "Operator": "aspernatur",
+      "Name": "Durgan-Heller",
+      "Operator": "hic",
       "Values": [
-        "est",
-        "ut"
+        "beatae",
+        "nihil"
       ],
       "DisplayValues": [
-        "eligendi",
-        "aut"
+        "quidem",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 31,
+      "InterParenthesis": 851,
       "InterOperator": "And",
-      "UniqueHash": 716
+      "UniqueHash": 592
     }
   ],
   "Columns": [
-    "nemo",
-    "et"
+    "animi",
+    "totam"
   ],
-  "ConnectionId": 4,
+  "ConnectionId": 1001,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "cumque",
-        "distinctio"
+        "animi",
+        "sed"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "tempore",
+      "ExternalKey": "facilis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 260
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Lebsack, Mraz and Carter",
-      "DisplayName": "Wyman Group",
+      "Name": "Waelchi-Harvey",
+      "DisplayName": "Reichel-Hettinger",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 661
         }
       }
     },
     {
-      "Name": "Lebsack, Mraz and Carter",
-      "DisplayName": "Wyman Group",
+      "Name": "Waelchi-Harvey",
+      "DisplayName": "Reichel-Hettinger",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 661
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldType": "System.String",
+      "FieldLength": 420
     }
   }
 }

@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "amet",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-05-08T16:55:30.0645218+02:00",
-  "Amount": 25147.216,
-  "SaleId": 227,
-  "Earning": 3046.248,
-  "EarningPercent": 12084.704,
-  "Heading": "aut",
-  "Number": "1135855",
-  "Probability": 227,
-  "CreatedDate": "2005-04-29T16:55:30.0645218+02:00",
-  "UpdatedDate": "1998-07-16T16:55:30.0645218+02:00",
+  "Saledate": "2014-10-12T10:30:32.4343852+02:00",
+  "Amount": 5553.4479999999994,
+  "SaleId": 423,
+  "Earning": 17904.541999999998,
+  "EarningPercent": 9492.886,
+  "Heading": "deleniti",
+  "Number": "1305570",
+  "Probability": 640,
+  "CreatedDate": "2009-06-17T10:30:32.4343852+02:00",
+  "UpdatedDate": "2004-04-08T10:30:32.4343852+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 884,
+  "ActiveLinks": 158,
   "Links": [
     {
-      "EntityName": "Waters, Morissette and Lemke",
-      "Id": 637,
-      "Description": "Stand-alone reciprocal functionalities",
-      "ExtraInfo": "vel",
-      "LinkId": 615
+      "EntityName": "Reichert-Nitzsche",
+      "Id": 606,
+      "Description": "Organized heuristic conglomeration",
+      "ExtraInfo": "sit",
+      "LinkId": 293
     },
     {
-      "EntityName": "Waters, Morissette and Lemke",
-      "Id": 637,
-      "Description": "Stand-alone reciprocal functionalities",
-      "ExtraInfo": "vel",
-      "LinkId": 615
+      "EntityName": "Reichert-Nitzsche",
+      "Id": 606,
+      "Description": "Organized heuristic conglomeration",
+      "ExtraInfo": "sit",
+      "LinkId": 293
     }
   ],
-  "NextDueDate": "2014-11-12T16:55:30.0655062+01:00",
-  "Postit": "est",
+  "NextDueDate": "2020-05-08T10:30:32.4343852+02:00",
+  "Postit": "voluptates",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-11-23T16:55:30.0655062+01:00",
+  "ReopenDate": "2012-02-13T10:30:32.4343852+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gulgowski-Trantow",
-      "Comment": "corrupti",
-      "StakeholderRoleId": 71,
-      "CountryId": 582,
-      "PersonId": 1002,
-      "EmailDescription": "drake.kemmer@bradtke.biz",
-      "EmailId": 828,
-      "EmailAddress": "aric@denesikrogahn.co.uk",
-      "PhoneId": 54,
-      "ContactName": "Goldner-Mueller",
-      "ContactId": 554,
-      "SaleId": 877,
-      "Mrmrs": "vitae",
-      "Firstname": "Shana",
-      "MiddleName": "Denesik LLC",
-      "Lastname": "Feest",
-      "SaleStakeholderId": 348,
-      "Rank": 258,
-      "Phone": "229-428-2251"
+      "StakeholderRoleName": "Doyle Inc and Sons",
+      "Comment": "hic",
+      "StakeholderRoleId": 573,
+      "CountryId": 504,
+      "PersonId": 443,
+      "EmailDescription": "daphnee@schaden.biz",
+      "EmailId": 786,
+      "EmailAddress": "danika.windler@braun.com",
+      "PhoneId": 431,
+      "ContactName": "Hammes, VonRueden and Altenwerth",
+      "ContactId": 908,
+      "SaleId": 491,
+      "Mrmrs": "unde",
+      "Firstname": "Felipa",
+      "MiddleName": "Walter, Bins and Gutkowski",
+      "Lastname": "Orn",
+      "SaleStakeholderId": 968,
+      "Rank": 386,
+      "Phone": "963.461.1644"
     }
   ],
-  "ActiveErpLinks": 955,
+  "ActiveErpLinks": 709,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Maxine Tanner Lowe MD",
+    "SuperOffice:2": "923007685"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "delectus"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "deleniti"
+    "CustomFields1": "unde",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2016-07-28T16:55:30.0665907+02:00",
-  "PublishTo": "2015-11-19T16:55:30.0665907+01:00",
-  "PublishFrom": "2006-11-30T16:55:30.0665907+01:00",
+  "PublishEventDate": "2012-05-15T10:30:32.4343852+02:00",
+  "PublishTo": "2011-10-07T10:30:32.4343852+02:00",
+  "PublishFrom": "2016-03-09T10:30:32.4343852+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 765,
+      "VisibleId": 535,
       "Visibility": "All",
-      "DisplayValue": "debitis"
+      "DisplayValue": "voluptatibus"
     },
     {
-      "VisibleId": 765,
+      "VisibleId": 535,
       "Visibility": "All",
-      "DisplayValue": "debitis"
+      "DisplayValue": "voluptatibus"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nam",
+  "SaleText": "aut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-02-09T16:55:30.0755079+01:00",
-  "Amount": 24326.108,
-  "SaleId": 577,
-  "Earning": 12420.042,
-  "EarningPercent": 15121.55,
-  "Heading": "et",
-  "Number": "1593263",
-  "Probability": 919,
-  "CreatedDate": "2008-09-27T16:55:30.0755079+02:00",
-  "UpdatedDate": "1999-07-03T16:55:30.0755079+02:00",
+  "Saledate": "2022-01-02T10:30:32.4500038+01:00",
+  "Amount": 17682.028,
+  "SaleId": 651,
+  "Earning": 8261.224,
+  "EarningPercent": 10088.346,
+  "Heading": "laboriosam",
+  "Number": "870323",
+  "Probability": 428,
+  "CreatedDate": "2019-06-15T10:30:32.4500038+02:00",
+  "UpdatedDate": "2007-07-20T10:30:32.4500038+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 657,
+  "ActiveLinks": 908,
   "Links": [
     {
-      "EntityName": "Oberbrunner-Towne",
-      "Id": 111,
-      "Description": "Profound coherent migration",
-      "ExtraInfo": "ea",
-      "LinkId": 404,
+      "EntityName": "Hirthe, VonRueden and Erdman",
+      "Id": 456,
+      "Description": "Re-contextualized web-enabled budgetary management",
+      "ExtraInfo": "in",
+      "LinkId": 330,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 572
         }
       }
     }
   ],
-  "NextDueDate": "2024-01-28T16:55:30.0765075+01:00",
-  "Postit": "sit",
+  "NextDueDate": "2000-08-31T10:30:32.4500038+02:00",
+  "Postit": "porro",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-11-30T16:55:30.0765075+01:00",
+  "ReopenDate": "1997-01-12T10:30:32.4500038+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wolff Inc and Sons",
-      "Comment": "sit",
-      "StakeholderRoleId": 801,
-      "CountryId": 421,
-      "PersonId": 28,
-      "EmailDescription": "isadore_dickinson@lind.name",
-      "EmailId": 735,
-      "EmailAddress": "dayne@ward.biz",
-      "PhoneId": 402,
-      "ContactName": "Mohr, Fay and Bashirian",
-      "ContactId": 568,
-      "SaleId": 121,
-      "Mrmrs": "enim",
-      "Firstname": "Gayle",
-      "MiddleName": "Boyle, Von and Armstrong",
-      "Lastname": "Rice",
-      "SaleStakeholderId": 367,
-      "Rank": 68,
-      "Phone": "152.400.1512 x28761",
+      "StakeholderRoleName": "O'Connell, Will and Kuhic",
+      "Comment": "aut",
+      "StakeholderRoleId": 217,
+      "CountryId": 791,
+      "PersonId": 793,
+      "EmailDescription": "beryl.oconnell@lang.biz",
+      "EmailId": 219,
+      "EmailAddress": "jesus@mueller.biz",
+      "PhoneId": 406,
+      "ContactName": "Casper-Mosciski",
+      "ContactId": 538,
+      "SaleId": 415,
+      "Mrmrs": "architecto",
+      "Firstname": "Kristina",
+      "MiddleName": "Labadie, Effertz and Kulas",
+      "Lastname": "Wisozk",
+      "SaleStakeholderId": 251,
+      "Rank": 791,
+      "Phone": "900.393.5093",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 933
         }
       }
     }
   ],
-  "ActiveErpLinks": 741,
+  "ActiveErpLinks": 126,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1588471130"
+    "SuperOffice:1": "Bryce Armstrong",
+    "SuperOffice:2": "Adonis Moore"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempora",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
+    "CustomFields1": "aut",
     "CustomFields2": "expedita"
   },
-  "PublishEventDate": "2012-03-15T16:55:30.077508+01:00",
-  "PublishTo": "2013-02-01T16:55:30.077508+01:00",
-  "PublishFrom": "2002-05-31T16:55:30.077508+02:00",
+  "PublishEventDate": "2019-02-19T10:30:32.4500038+01:00",
+  "PublishTo": "1998-07-28T10:30:32.4500038+02:00",
+  "PublishFrom": "2000-07-27T10:30:32.4500038+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 419,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 623
         }
       }
     },
     {
-      "VisibleId": 419,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 623
         }
       }
     }
@@ -412,12 +412,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 287
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

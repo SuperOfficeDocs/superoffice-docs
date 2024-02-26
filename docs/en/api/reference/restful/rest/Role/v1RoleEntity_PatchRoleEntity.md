@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "animi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "animi",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 723,
-  "Name": "Beer-Murray",
-  "Tooltip": "autem",
+  "RoleId": 620,
+  "Name": "Hills, Harris and Grimes",
+  "Tooltip": "eaque",
   "RoleType": "Anonymous",
-  "Deleted": 696,
-  "Rank": 543,
-  "Created": "2018-04-05T16:55:29.9925022+02:00",
-  "UseCategories": 722,
+  "Deleted": 936,
+  "Rank": 339,
+  "Created": "2013-05-16T10:30:32.260549+02:00",
+  "UseCategories": 359,
   "CreatedBy": null,
-  "Updated": "2014-11-26T16:55:29.9925022+01:00",
+  "Updated": "2019-05-22T10:30:32.260549+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 75
     }
   },
   "_Links": {

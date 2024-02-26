@@ -103,10 +103,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 223,
+  "TicketId": 704,
   "MessageIds": [
-    141,
-    354
+    43,
+    457
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 433,
+    "EjMessageId": 625,
     "Ticket": null,
-    "CreatedAt": "2020-01-31T16:54:56.5602908+01:00",
+    "CreatedAt": "1999-01-24T10:30:24.9204564+01:00",
     "CreatedBy": null,
-    "Author": "fuga",
+    "Author": "ipsum",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "sed",
-    "TimeSpent": 791,
-    "Body": "et",
-    "HtmlBody": "ut",
-    "EmailHeader": "trey@schoenpacocha.com",
-    "DebugInfo": "qui",
-    "MailSorter": "aliquid",
+    "MessageId": "aut",
+    "TimeSpent": 508,
+    "Body": "est",
+    "HtmlBody": "sed",
+    "EmailHeader": "ottis.schneider@bayer.co.uk",
+    "DebugInfo": "reprehenderit",
+    "MailSorter": "enim",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "suscipit",
+    "SearchTitle": "sed",
     "MessageHeaders": [
       {
-        "Id": 987,
-        "Name": "Conroy-Weimann",
-        "Value": "non",
+        "Id": 474,
+        "Name": "Halvorson-Rice",
+        "Value": "nesciunt",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,49 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldLength": 303
           }
         }
       }
     ],
-    "Important": true,
-    "Language": "laborum",
-    "Sentiment": 613,
-    "SentimentConfidence": 852,
+    "Important": false,
+    "Language": "ut",
+    "Sentiment": 352,
+    "SentimentConfidence": 319,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 73,
-        "Name": "Kirlin, Hand and Olson",
-        "ContentType": "velit",
-        "AttSize": 775,
-        "InlineImage": true,
-        "ContentId": "molestiae",
-        "AuthKey": "enim",
+        "AttachmentId": 336,
+        "Name": "Wyman-Bahringer",
+        "ContentType": "porro",
+        "AttSize": 312,
+        "InlineImage": false,
+        "ContentId": "porro",
+        "AuthKey": "veritatis",
+        "IsSafeFileExtension": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 530
+            "FieldLength": 657
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "quidem"
+      "ExtraFields1": "vitae",
+      "ExtraFields2": "debitis"
     },
     "CustomFields": {
-      "CustomFields1": "blanditiis",
+      "CustomFields1": "molestiae",
       "CustomFields2": "non"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 981
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 26,
-  "Name": "Ruecker Inc and Sons",
-  "TZLocationCode": "aut",
-  "TZLocationCities": "voluptatem",
-  "IsoNumber": 882,
+  "TZLocationID": 617,
+  "Name": "Schroeder-Beatty",
+  "TZLocationCode": "dolor",
+  "TZLocationCities": "et",
+  "IsoNumber": 984,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 101,
-      "StartMonth": 658,
-      "EndDay": 634,
-      "EndMonth": 487,
-      "TZOffset": 834,
-      "StartRulePattern": "est",
-      "EndRulePattern": "et"
+      "StartDay": 690,
+      "StartMonth": 27,
+      "EndDay": 264,
+      "EndMonth": 517,
+      "TZOffset": 777,
+      "StartRulePattern": "aut",
+      "EndRulePattern": "non"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 248,
-      "StartMonth": 977,
-      "EndDay": 179,
-      "EndMonth": 541,
-      "TZOffset": 628,
-      "StartRulePattern": "unde",
-      "EndRulePattern": "ut"
+      "StartDay": 673,
+      "StartMonth": 577,
+      "EndDay": 432,
+      "EndMonth": 755,
+      "TZOffset": 966,
+      "StartRulePattern": "dolore",
+      "EndRulePattern": "qui"
     }
   }
 }

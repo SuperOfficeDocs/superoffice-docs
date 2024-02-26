@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 728,
-    "Name": "McCullough-Brakus",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "Rank": 86,
-    "UdListDefinitionId": 575
+    "HeadingId": 131,
+    "Name": "Marvin-Hand",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 598,
+    "UdListDefinitionId": 512
   },
   {
-    "HeadingId": 728,
-    "Name": "McCullough-Brakus",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "Rank": 86,
-    "UdListDefinitionId": 575
+    "HeadingId": 131,
+    "Name": "Marvin-Hand",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 598,
+    "UdListDefinitionId": 512
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 962,
-    "Name": "Pacocha-Feeney",
-    "Tooltip": "fugiat",
-    "Deleted": true,
-    "Rank": 306,
-    "UdListDefinitionId": 618,
+    "HeadingId": 402,
+    "Name": "Crona Inc and Sons",
+    "Tooltip": "recusandae",
+    "Deleted": false,
+    "Rank": 430,
+    "UdListDefinitionId": 563,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldType": "System.String",
+        "FieldLength": 816
       }
     }
   }

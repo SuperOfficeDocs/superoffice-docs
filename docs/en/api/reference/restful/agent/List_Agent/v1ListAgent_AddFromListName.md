@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Waters-Hettinger",
+  "UdListDefinitionName": "Kutch, Lynch and Schumm",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 902,
-  "Name": "Schoen LLC",
-  "Tooltip": "illo",
-  "Deleted": true,
+  "Id": 36,
+  "Name": "Gulgowski, Considine and Hodkiewicz",
+  "Tooltip": "odit",
+  "Deleted": false,
   "UdListDefinitionId": 345,
-  "Rank": 619,
+  "Rank": 614,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 656
     }
   }
 }

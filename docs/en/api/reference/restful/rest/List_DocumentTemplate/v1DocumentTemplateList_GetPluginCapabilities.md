@@ -56,7 +56,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "deleniti",
-  "2": "in"
+  "1": "iste",
+  "2": "ullam"
 }
 ```

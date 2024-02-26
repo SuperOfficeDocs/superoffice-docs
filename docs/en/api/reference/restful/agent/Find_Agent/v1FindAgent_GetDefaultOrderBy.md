@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Auer LLC",
-  "StorageKey": "corrupti"
+  "StorageType": "velit",
+  "ProviderName": "Zboncak Group",
+  "StorageKey": "natus"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsson, Glover and Batz",
+    "Name": "Veum LLC",
     "Direction": "ASC"
   },
   {
-    "Name": "Runolfsson, Glover and Batz",
+    "Name": "Veum LLC",
     "Direction": "ASC"
   }
 ]

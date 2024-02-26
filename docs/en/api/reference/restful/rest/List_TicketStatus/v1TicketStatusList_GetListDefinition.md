@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "Name": "Predovic Inc and Sons",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 227,
-  "IsCustomList": false,
+  "Id": 994,
+  "Name": "Kuhlman-Dibbert",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 193,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sequi",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldType": "System.Int32",
+      "FieldLength": 382
     }
   },
   "_Links": {

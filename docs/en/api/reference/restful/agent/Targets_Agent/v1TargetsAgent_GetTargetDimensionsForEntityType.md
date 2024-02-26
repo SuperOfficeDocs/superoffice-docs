@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 569,
+    "TargetDimensionId": 590,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "cumque",
-    "DimensionListName": "Greenfelder, Lang and Cartwright",
-    "DimensionListId": 192,
-    "DimensionListLabel": "ut",
+    "DimensionListField": "ut",
+    "DimensionListName": "Schultz-Wehner",
+    "DimensionListId": 630,
+    "DimensionListLabel": "ipsa",
     "SelectedDimensions": [
-      355,
-      505
+      382,
+      565
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 359
       }
     }
   }

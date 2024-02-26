@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 170,
-    "Name": "Ratke, Considine and Ortiz",
-    "ToolTip": "Eum sit atque eos et et magnam.",
+    "Id": 377,
+    "Name": "Block-Littel",
+    "ToolTip": "Eos ab eos nihil.",
     "Deleted": true,
-    "Rank": 540,
-    "Type": "voluptatibus",
-    "ColorBlock": 232,
-    "IconHint": "et",
+    "Rank": 308,
+    "Type": "sapiente",
+    "ColorBlock": 169,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2023-02-20T16:55:30.8347351+01:00",
+    "LastChanged": "2012-07-28T10:30:33.131835+02:00",
     "ChildItems": [
       {
-        "Id": 604,
-        "Name": "Legros Inc and Sons",
-        "ToolTip": "Sed est facere totam est cum.",
-        "Deleted": false,
-        "Rank": 326,
-        "Type": "placeat",
-        "ColorBlock": 151,
-        "IconHint": "modi",
+        "Id": 579,
+        "Name": "Osinski, Wuckert and Hoppe",
+        "ToolTip": "Fuga ad praesentium quis.",
+        "Deleted": true,
+        "Rank": 41,
+        "Type": "odio",
+        "ColorBlock": 327,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "2015-08-04T16:55:30.8347351+02:00",
+        "LastChanged": "2019-05-10T10:30:33.131835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Elsa Roberts",
+        "ExtraInfo": "et",
+        "StyleHint": "enim",
+        "Hidden": false,
+        "FullName": "Napoleon Cruickshank",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 732
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "alias",
+    "ExtraInfo": "omnis",
+    "StyleHint": "reiciendis",
     "Hidden": true,
-    "FullName": "Alfonso Kunde",
+    "FullName": "Mr. Sonia Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 223
       }
     }
   }

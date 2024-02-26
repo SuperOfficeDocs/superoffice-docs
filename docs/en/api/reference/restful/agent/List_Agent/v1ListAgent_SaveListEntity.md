@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 65,
-  "Name": "Nienow LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 223,
+  "Id": 497,
+  "Name": "Simonis, Berge and Durgan",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 195,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": false
+  "ListType": "sit",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 215,
-  "Name": "Klein-Schoen",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 532,
+  "Id": 758,
+  "Name": "Maggio-Treutel",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 689,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quasi",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "corrupti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 300
     }
   }
 }

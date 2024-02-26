@@ -709,7 +709,7 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelection?$select=contact/name,person/personAssociateFullName,person/personPager/description,person/personExtra/x_person_appointment_relation,project/updatedByFullName
+GET /api/v1/archive/AppointmentShadowSelection?$select=location,contact/number,contact/postAddress/addressId,person/email/emailDescription,person/correspondingAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

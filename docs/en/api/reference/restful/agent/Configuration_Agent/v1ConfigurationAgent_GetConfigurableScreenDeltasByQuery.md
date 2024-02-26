@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 329,
-    "Name": "Satterfield-Medhurst",
-    "Description": "Multi-channelled context-sensitive projection",
-    "DeltaJson": "quis",
+    "ConfigurableScreenDeltaId": 609,
+    "Name": "Stokes, Casper and Hickle",
+    "Description": "Ameliorated contextually-based array",
+    "DeltaJson": "voluptatem",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "voluptas",
-    "UpdatedDate": "1997-06-11T16:54:54.890176+02:00",
-    "CreatedDate": "2005-07-01T16:54:54.890176+02:00",
+    "RecipeId": "beatae",
+    "UpdatedDate": "2022-02-12T10:30:23.2574424+01:00",
+    "CreatedDate": "2022-05-14T10:30:23.2574424+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      961,
-      965
+      889,
+      440
     ],
-    "AppliesToKey": "at",
+    "AppliesToKey": "iste",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

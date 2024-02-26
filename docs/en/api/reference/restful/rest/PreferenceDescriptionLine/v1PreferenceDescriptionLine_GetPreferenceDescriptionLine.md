@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 645,
-  "PrefDescId": 779,
-  "PrefValue": "quo",
-  "PrefShowValue": "debitis",
-  "Description": "Implemented optimal architecture",
-  "IsBuiltin": false,
+  "PrefDescLineId": 77,
+  "PrefDescId": 992,
+  "PrefValue": "perferendis",
+  "PrefShowValue": "corporis",
+  "Description": "Polarised optimal local area network",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldLength": 905
     }
   },
   "_Links": {

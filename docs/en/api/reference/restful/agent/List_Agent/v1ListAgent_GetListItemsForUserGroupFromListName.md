@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schulist LLC",
-  "GroupId": 514
+  "UdListDefinitionName": "Stroman-White",
+  "GroupId": 414
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 338,
-    "Name": "Ferry LLC",
-    "ToolTip": "Veniam ipsam et dolor temporibus reiciendis quasi.",
+    "Id": 445,
+    "Name": "Deckow, Parisian and Gerlach",
+    "ToolTip": "Ut accusamus.",
     "Deleted": false,
-    "Rank": 953,
-    "Type": "accusantium",
-    "ColorBlock": 561,
-    "IconHint": "qui",
+    "Rank": 452,
+    "Type": "quam",
+    "ColorBlock": 491,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2014-02-04T16:54:55.563984+01:00",
+    "LastChanged": "2016-08-07T10:30:23.9944062+02:00",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Lakin Inc and Sons",
-        "ToolTip": "Perferendis tempora explicabo porro.",
+        "Id": 736,
+        "Name": "Hudson-Torphy",
+        "ToolTip": "Commodi a molestias tenetur nihil iusto aut sed.",
         "Deleted": false,
-        "Rank": 263,
-        "Type": "totam",
-        "ColorBlock": 172,
-        "IconHint": "debitis",
+        "Rank": 972,
+        "Type": "qui",
+        "ColorBlock": 317,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2016-02-13T16:54:55.5649841+01:00",
+        "LastChanged": "2015-04-22T10:30:23.9944062+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quas",
+        "ExtraInfo": "ut",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Kaleigh Kuhn III",
+        "FullName": "Constance Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 553
+            "FieldLength": 182
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "fuga",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Vesta Mosciski",
+    "FullName": "Genevieve Helmer Vandervort IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldType": "System.String",
+        "FieldLength": 998
       }
     }
   }

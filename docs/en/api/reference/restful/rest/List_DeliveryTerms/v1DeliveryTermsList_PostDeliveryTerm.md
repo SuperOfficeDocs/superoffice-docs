@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 42,
-  "Name": "Rogahn Inc and Sons",
-  "Tooltip": "laudantium",
+  "Id": 967,
+  "Name": "Grant-O'Conner",
+  "Tooltip": "optio",
   "Deleted": false,
-  "UdListDefinitionId": 643,
-  "Rank": 473
+  "UdListDefinitionId": 764,
+  "Rank": 81
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Muller-Marks",
-  "Tooltip": "rerum",
+  "Id": 467,
+  "Name": "Stehr-Kunze",
+  "Tooltip": "minima",
   "Deleted": false,
-  "UdListDefinitionId": 503,
-  "Rank": 332,
+  "UdListDefinitionId": 292,
+  "Rank": 498,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 442
     }
   }
 }

@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sit",
+  "RawValue": "sunt",
   "Specification": null,
-  "DisplayValue": "voluptatum",
-  "DisplayTooltip": "dolorum",
+  "DisplayValue": "provident",
+  "DisplayTooltip": "dolorem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 417,
-  "PrefDescId": 242,
-  "TableName": "Wuckert, Stiedemann and Bogisich",
-  "UserPreferenceId": 269
+  "TargetId": 314,
+  "PrefDescId": 527,
+  "TableName": "Langosh-O'Reilly",
+  "UserPreferenceId": 423
 }
 ```
 

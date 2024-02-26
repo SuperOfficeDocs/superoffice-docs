@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dooley, Veum and Trantow",
-  "DeviceName": "Jast LLC",
-  "DeviceIdentifier": "nam"
+  "ApplicationName": "Bins, Stanton and Marvin",
+  "DeviceName": "Muller, Franecki and Nader",
+  "DeviceIdentifier": "architecto"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "officiis",
-    "Value": "excepturi",
-    "RecordId": 580,
-    "CreatedDate": "1997-03-25T16:54:55.4924677+01:00",
-    "UpdatedDate": "1997-10-30T16:54:55.4924677+01:00",
-    "UpdatedBy": "quia",
-    "CreatedBy": "dignissimos",
-    "TableName": "Wisozk, Cartwright and Hane",
+    "Key": "provident",
+    "Value": "voluptatibus",
+    "RecordId": 600,
+    "CreatedDate": "2008-06-29T10:30:23.9230375+02:00",
+    "UpdatedDate": "2004-04-28T10:30:23.9230375+02:00",
+    "UpdatedBy": "atque",
+    "CreatedBy": "voluptatem",
+    "TableName": "Jacobson-Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 802
       }
     }
   }

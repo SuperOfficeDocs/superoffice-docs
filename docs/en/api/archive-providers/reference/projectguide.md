@@ -1394,7 +1394,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/person/contactId,appointmentInstance/person/personExtra/y_rental/x_end,appointmentInstance/person/correspondingAssociate/fullName,appointmentInstance/person/withdrawnEmarketingConsent,appointmentInstance/appointmentUdef/SuperOffice:6
+GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/contact/number,appointmentInstance/contact/searchPhone/description,appointmentInstance/contact/postAddress/state,appointmentInstance/contact/restrictionAddress/city,appointmentInstance/contact/contactAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

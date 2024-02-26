@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 325,
-    "Name": "Langworth, Goldner and Nader",
-    "Tooltip": "ut",
-    "Rank": 661,
-    "Rate": 20931.986,
-    "Units": 8837.88,
-    "Deleted": true,
+    "CurrencyId": 188,
+    "Name": "Daniel LLC",
+    "Tooltip": "non",
+    "Rank": 800,
+    "Rate": 25272.576,
+    "Units": 28152.721999999998,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldType": "System.Int32",
+        "FieldLength": 191
       }
     }
   }

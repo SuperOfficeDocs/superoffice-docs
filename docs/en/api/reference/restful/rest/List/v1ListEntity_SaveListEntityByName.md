@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Friesen Inc and Sons",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "Rank": 555,
+  "Id": 380,
+  "Name": "Dooley LLC",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "Rank": 348,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "animi",
-  "InUseByUserDefinedFields": true
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 486,
-  "Name": "Kuvalis, Kemmer and Ratke",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 46,
+  "Id": 801,
+  "Name": "Price Inc and Sons",
+  "Tooltip": "nam",
+  "Deleted": true,
+  "Rank": 63,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "at",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 829
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Cormier-Zieme",
-    "ToolTip": "Qui debitis.",
+    "Id": 287,
+    "Name": "Graham-Conroy",
+    "ToolTip": "Soluta ab autem nulla laborum.",
     "Deleted": false,
-    "Rank": 14,
-    "Type": "cupiditate",
-    "ColorBlock": 22,
-    "IconHint": "nesciunt",
+    "Rank": 74,
+    "Type": "nam",
+    "ColorBlock": 130,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2017-02-23T16:55:30.7381718+01:00",
+    "LastChanged": "2016-08-28T10:30:33.0524566+02:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Carroll-Kautzer",
-        "ToolTip": "Magni at in accusantium delectus.",
+        "Id": 221,
+        "Name": "Ryan, Rohan and Rice",
+        "ToolTip": "Enim cum.",
         "Deleted": false,
-        "Rank": 933,
-        "Type": "unde",
-        "ColorBlock": 558,
-        "IconHint": "accusantium",
+        "Rank": 1001,
+        "Type": "et",
+        "ColorBlock": 294,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "1999-12-18T16:55:30.7381718+01:00",
+        "LastChanged": "2023-07-22T10:30:33.0524566+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "qui",
+        "ExtraInfo": "cumque",
+        "StyleHint": "quae",
         "Hidden": true,
-        "FullName": "Loyce Braun",
+        "FullName": "Travis Howell III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 875
+            "FieldType": "System.Int32",
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "magnam",
+    "ExtraInfo": "fuga",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Kurtis Mann",
+    "FullName": "Lucius Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldLength": 993
       }
     }
   }

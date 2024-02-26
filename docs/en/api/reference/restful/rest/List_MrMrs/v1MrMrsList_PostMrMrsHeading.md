@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 814,
-  "Name": "Reichel Group",
-  "Tooltip": "voluptatem",
+  "HeadingId": 706,
+  "Name": "Blanda-Cartwright",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 827,
-  "UdListDefinitionId": 506
+  "Rank": 733,
+  "UdListDefinitionId": 966
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 633,
-  "Name": "Grady, Ortiz and Bechtelar",
-  "Tooltip": "voluptatem",
+  "HeadingId": 515,
+  "Name": "Bins Inc and Sons",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 470,
-  "UdListDefinitionId": 644,
+  "Rank": 648,
+  "UdListDefinitionId": 431,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldLength": 492
     }
   }
 }

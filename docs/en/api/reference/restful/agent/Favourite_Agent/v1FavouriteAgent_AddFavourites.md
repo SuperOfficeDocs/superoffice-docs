@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Beier-Mante",
+  "TableName": "Wiegand Group",
   "RecordIds": [
-    968,
-    117
+    975,
+    757
   ],
-  "AssociateId": 866,
-  "ExtraInfo": "quod"
+  "AssociateId": 993,
+  "ExtraInfo": "ipsum"
 }
 ```
 

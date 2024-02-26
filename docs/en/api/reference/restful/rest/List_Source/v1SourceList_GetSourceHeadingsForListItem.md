@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Gutmann-Langosh",
-    "ToolTip": "Maiores dignissimos recusandae nam.",
-    "Deleted": true,
-    "Rank": 692,
-    "Type": "numquam",
-    "ColorBlock": 618,
-    "IconHint": "sequi",
+    "Id": 457,
+    "Name": "Kuhic, Hamill and Rowe",
+    "ToolTip": "Ut id maiores possimus distinctio nostrum incidunt.",
+    "Deleted": false,
+    "Rank": 923,
+    "Type": "eligendi",
+    "ColorBlock": 508,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2017-10-10T16:55:31.1027945+02:00",
+    "LastChanged": "2012-12-01T10:30:33.2724548+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Rosenbaum Group",
-        "ToolTip": "Reiciendis nihil facere dignissimos est aut nemo quaerat.",
-        "Deleted": true,
-        "Rank": 180,
-        "Type": "dignissimos",
-        "ColorBlock": 431,
-        "IconHint": "corrupti",
+        "Id": 993,
+        "Name": "Bosco LLC",
+        "ToolTip": "Fugit eaque tenetur quas vero accusamus.",
+        "Deleted": false,
+        "Rank": 626,
+        "Type": "inventore",
+        "ColorBlock": 593,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "1998-05-22T16:55:31.1027945+02:00",
+        "LastChanged": "2006-04-05T10:30:33.2724548+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "maxime",
-        "Hidden": false,
-        "FullName": "Miss Dave Myriam Walker",
+        "ExtraInfo": "non",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Lavina Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 868
+            "FieldLength": 473
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Robert Beatty",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "corrupti",
+    "Hidden": false,
+    "FullName": "Jed Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldType": "System.Int32",
+        "FieldLength": 529
       }
     }
   }

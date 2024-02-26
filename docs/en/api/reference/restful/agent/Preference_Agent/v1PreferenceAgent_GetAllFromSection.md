@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "libero"
+  "Section": "ipsum"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 328,
-    "Section": "quos",
-    "Key": "atque",
-    "Name": "Carroll Inc and Sons",
+    "PrefDescId": 751,
+    "Section": "officiis",
+    "Key": "voluptas",
+    "Name": "Zemlak, Stamm and Hand",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Quality-focused clear-thinking complexity",
+    "Description": "Realigned maximized circuit",
     "IsBuiltin": false,
-    "TableName": "Harber, Dibbert and Moen",
-    "UserDefinedListId": 368,
-    "Rank": 948,
-    "SubGroup": "error",
-    "MinLevel": 308,
-    "MaxValue": 652,
+    "TableName": "Berge, Reichel and Krajcik",
+    "UserDefinedListId": 579,
+    "Rank": 378,
+    "SubGroup": "nostrum",
+    "MinLevel": 790,
+    "MaxValue": 693,
     "MinValue": 369,
-    "RequiredLicense": "qui",
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 297
+        "FieldLength": 141
       }
     }
   }

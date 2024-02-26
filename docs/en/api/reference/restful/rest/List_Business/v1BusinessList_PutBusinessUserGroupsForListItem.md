@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Kuvalis, Homenick and Bartell",
-    "ToolTip": "Quae iste voluptas rerum sit veritatis.",
+    "Id": 355,
+    "Name": "Smitham-Grady",
+    "ToolTip": "Tenetur sunt.",
     "Deleted": false,
-    "Rank": 243,
-    "Type": "impedit",
-    "ColorBlock": 802,
-    "IconHint": "dolorem",
+    "Rank": 69,
+    "Type": "distinctio",
+    "ColorBlock": 472,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2004-09-21T16:55:30.5316986+02:00",
+    "LastChanged": "2011-04-18T10:30:32.858187+02:00",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Crist, Gusikowski and Kovacek",
-        "ToolTip": "Et sed deserunt aliquam consectetur.",
-        "Deleted": true,
-        "Rank": 111,
+        "Id": 960,
+        "Name": "Klein Group",
+        "ToolTip": "Facilis fuga voluptates placeat enim omnis quam dolor.",
+        "Deleted": false,
+        "Rank": 949,
         "Type": "et",
-        "ColorBlock": 407,
-        "IconHint": "deleniti",
-        "Selected": false,
-        "LastChanged": "1998-08-01T16:55:30.5316986+02:00",
+        "ColorBlock": 116,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2000-08-21T10:30:32.858187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Larissa Aufderhar"
+        "ExtraInfo": "et",
+        "StyleHint": "optio",
+        "Hidden": false,
+        "FullName": "Roxanne Sporer"
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Alva Elwin Brakus I"
+    "ExtraInfo": "iusto",
+    "StyleHint": "minima",
+    "Hidden": true,
+    "FullName": "Adriel Rolfson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Paucek-Homenick",
-    "ToolTip": "Voluptatem omnis earum.",
+    "Id": 245,
+    "Name": "Jacobi, Schiller and Kemmer",
+    "ToolTip": "Nulla et.",
     "Deleted": true,
-    "Rank": 868,
-    "Type": "velit",
-    "ColorBlock": 258,
-    "IconHint": "quos",
+    "Rank": 397,
+    "Type": "aut",
+    "ColorBlock": 702,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2020-09-12T16:55:30.5326977+02:00",
+    "LastChanged": "2010-11-08T10:30:32.858187+01:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Treutel-McKenzie",
-        "ToolTip": "Maxime aspernatur assumenda sapiente aliquid recusandae.",
-        "Deleted": false,
-        "Rank": 15,
-        "Type": "qui",
-        "ColorBlock": 111,
-        "IconHint": "et",
+        "Id": 498,
+        "Name": "Ryan, Kertzmann and Feeney",
+        "ToolTip": "Rerum sunt ut nostrum doloremque ratione.",
+        "Deleted": true,
+        "Rank": 600,
+        "Type": "commodi",
+        "ColorBlock": 912,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2007-11-18T16:55:30.5326977+01:00",
+        "LastChanged": "2011-05-28T10:30:32.858187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Granville Bailey V",
+        "ExtraInfo": "hic",
+        "StyleHint": "temporibus",
+        "Hidden": false,
+        "FullName": "Mrs. Alene Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 766
+            "FieldLength": 835
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "hic",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Dayne Murray",
+    "FullName": "Jadyn Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 117
+        "FieldLength": 409
       }
     }
   }

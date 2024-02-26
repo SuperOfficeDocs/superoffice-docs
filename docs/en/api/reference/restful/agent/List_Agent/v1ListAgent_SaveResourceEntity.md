@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 518,
-  "Name": "Leuschke, Rempel and Rutherford",
-  "Rank": 394,
-  "Tooltip": "dolorum",
-  "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "architecto"
+  "ResourceId": 811,
+  "Name": "Kessler, Bernhard and Lebsack",
+  "Rank": 344,
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "IsLocation": false,
+  "LocationAddress": "iusto"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 952,
-  "Name": "Kunde-Lebsack",
-  "Rank": 887,
-  "Tooltip": "voluptate",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "ipsam",
+  "ResourceId": 846,
+  "Name": "Runolfsdottir, Klocko and Bruen",
+  "Rank": 120,
+  "Tooltip": "quia",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 228
+  "AttachmentId": 626
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gottlieb Inc and Sons",
-  "Type": "voluptatem",
-  "Size": 746,
+  "Name": "Halvorson-Hamill",
+  "Type": "nemo",
+  "Size": 168,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 72
     }
   }
 }

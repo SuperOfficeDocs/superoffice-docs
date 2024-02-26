@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 276,
-  "Section": "nobis",
-  "Key": "aut",
-  "Name": "Boyle, Leffler and Kuhn",
+  "PrefDescId": 887,
+  "Section": "qui",
+  "Key": "odio",
+  "Name": "Glover Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Exclusive stable utilisation",
+  "Description": "Devolved contextually-based methodology",
   "IsBuiltin": false,
-  "TableName": "Quitzon-Kilback",
-  "UserDefinedListId": 659,
-  "Rank": 269,
-  "SubGroup": "voluptas",
-  "MinLevel": 516,
-  "MaxValue": 60,
-  "MinValue": 206,
-  "RequiredLicense": "aut"
+  "TableName": "Mraz LLC",
+  "UserDefinedListId": 472,
+  "Rank": 372,
+  "SubGroup": "consequatur",
+  "MinLevel": 746,
+  "MaxValue": 53,
+  "MinValue": 824,
+  "RequiredLicense": "est"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 225,
-  "Section": "ad",
-  "Key": "placeat",
-  "Name": "Parker-Rodriguez",
+  "PrefDescId": 694,
+  "Section": "corrupti",
+  "Key": "et",
+  "Name": "Mraz Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering asynchronous archive",
-  "IsBuiltin": true,
-  "TableName": "Cummings-Mraz",
-  "UserDefinedListId": 535,
-  "Rank": 309,
-  "SubGroup": "animi",
-  "MinLevel": 675,
-  "MaxValue": 470,
-  "MinValue": 516,
-  "RequiredLicense": "quo",
+  "Description": "Phased 6th generation intranet",
+  "IsBuiltin": false,
+  "TableName": "Casper Inc and Sons",
+  "UserDefinedListId": 199,
+  "Rank": 56,
+  "SubGroup": "facilis",
+  "MinLevel": 509,
+  "MaxValue": 691,
+  "MinValue": 694,
+  "RequiredLicense": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   },
   "_Links": {

@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 433,
-  "WorkflowId": 909,
+  "WorkflowTriggerId": 152,
+  "WorkflowId": 456,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Cormier Inc and Sons",
-      "Description": "User-centric assymetric workforce",
-      "Rank": 526,
+      "Name": "Klocko, Hauck and Kiehn",
+      "Description": "Function-based background extranet",
+      "Rank": 328,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cormier Inc and Sons",
-      "Description": "User-centric assymetric workforce",
-      "Rank": 526,
+      "Name": "Klocko, Hauck and Kiehn",
+      "Description": "Function-based background extranet",
+      "Rank": 328,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

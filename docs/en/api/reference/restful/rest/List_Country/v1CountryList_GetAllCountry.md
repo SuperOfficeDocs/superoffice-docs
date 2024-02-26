@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 279,
-    "Name": "McKenzie, Mills and McKenzie",
-    "CurrencyId": 390,
-    "EnglishName": "Boyle-Schaden",
+    "CountryId": 806,
+    "Name": "D'Amore-Sanford",
+    "CurrencyId": 92,
+    "EnglishName": "Fahey Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Phased transitional model",
-    "OrgNrText": "1534973",
-    "InterAreaPrefix": "ad",
-    "DialInPrefix": "quas",
-    "ZipPrefix": "aperiam",
-    "DomainName": "McKenzie, Daugherty and Moore",
-    "AddressLayoutId": 620,
-    "DomesticAddressLayoutId": 123,
-    "ForeignAddressLayoutId": 530,
-    "Rank": 130,
-    "Tooltip": "exercitationem",
+    "ImageDescription": "Profit-focused motivating flexibility",
+    "OrgNrText": "1340206",
+    "InterAreaPrefix": "delectus",
+    "DialInPrefix": "et",
+    "ZipPrefix": "sed",
+    "DomainName": "Gerhold LLC",
+    "AddressLayoutId": 479,
+    "DomesticAddressLayoutId": 14,
+    "ForeignAddressLayoutId": 210,
+    "Rank": 270,
+    "Tooltip": "officiis",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

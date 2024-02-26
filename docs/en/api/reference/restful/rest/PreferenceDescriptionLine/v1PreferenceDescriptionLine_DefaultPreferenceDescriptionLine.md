@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 734,
-  "PrefDescId": 677,
-  "PrefValue": "quo",
-  "PrefShowValue": "ipsa",
-  "Description": "Business-focused well-modulated contingency",
-  "IsBuiltin": false,
+  "PrefDescLineId": 805,
+  "PrefDescId": 316,
+  "PrefValue": "recusandae",
+  "PrefShowValue": "et",
+  "Description": "Mandatory scalable standardization",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   }
 }

@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 164,
+  "AppointmentId": 350,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-03-20T16:54:54.4358802+01:00",
-  "AppointmentId": 509,
-  "Description": "Future-proofed full-range analyzer",
-  "Title": "voluptatum",
-  "Agenda": "enim",
-  "InternalNotes": "et",
-  "StartDate": "2005-10-17T16:54:54.4358802+02:00",
-  "EndDate": "2015-08-17T16:54:54.4358802+02:00",
+  "CreatedDate": "2023-01-24T10:30:22.910753+01:00",
+  "AppointmentId": 333,
+  "Description": "Cross-platform multi-tasking application",
+  "Title": "et",
+  "Agenda": "suscipit",
+  "InternalNotes": "nisi",
+  "StartDate": "1998-08-05T10:30:22.910753+02:00",
+  "EndDate": "2003-11-17T10:30:22.910753+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 555,
+  "MotherId": 74,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-10-12T16:54:54.4378798+02:00",
+  "UpdatedDate": "1997-06-10T10:30:22.910753+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 672,
+  "ActiveLinks": 106,
   "Links": [
     {
-      "EntityName": "Hammes-Von",
-      "Id": 442,
-      "Description": "Front-line mission-critical methodology",
-      "ExtraInfo": "alias",
-      "LinkId": 37,
+      "EntityName": "McCullough-Huels",
+      "Id": 461,
+      "Description": "Robust cohesive local area network",
+      "ExtraInfo": "perferendis",
+      "LinkId": 765,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 158
+          "FieldType": "System.Int32",
+          "FieldLength": 555
         }
       }
     }
   ],
-  "AlarmLeadTime": "hic",
+  "AlarmLeadTime": "dolores",
   "HasAlarm": false,
-  "ColorIndex": 761,
-  "IsFree": false,
+  "ColorIndex": 578,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "eos",
-  "LeadTime": "voluptatem",
-  "Location": "harum",
-  "RejectCounter": 683,
-  "RejectReason": "",
+  "LagTime": "asperiores",
+  "LeadTime": "sint",
+  "Location": "nam",
+  "RejectCounter": 686,
+  "RejectReason": "recontextualize cutting-edge technologies",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 763,
-      "PersonId": 550,
-      "ContactId": 497,
-      "EmailId": 552,
+      "AssociateId": 337,
+      "PersonId": 902,
+      "ContactId": 859,
+      "EmailId": 738,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "amalia@dare.co.uk",
-      "Description": "Exclusive 3rd generation encoding"
+      "EmailAddress": "aylin@greenholt.ca",
+      "Description": "Configurable mission-critical function"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-10-26T16:54:54.4378798+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2000-03-28T10:30:22.910753+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 739,
+  "PreferredTZLocation": 310,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 277,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 328,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "optio",
+  "CentralserviceVideomeetId": "nihil",
   "UserDefinedFields": {
-    "SuperOffice:1": "1161425691",
-    "SuperOffice:2": "Maurice Littel"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Shanon Greenholt"
   },
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "quasi"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "cum"
   },
-  "PublishEventDate": "2015-06-22T16:54:54.4388786+02:00",
-  "PublishTo": "2020-07-16T16:54:54.4388786+02:00",
-  "PublishFrom": "1997-07-03T16:54:54.4388786+02:00",
+  "PublishEventDate": "1997-11-29T10:30:22.910753+01:00",
+  "PublishTo": "2021-05-16T10:30:22.910753+02:00",
+  "PublishFrom": "2004-01-10T10:30:22.910753+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 864,
+      "VisibleId": 469,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 559
         }
       }
     },
     {
-      "VisibleId": 864,
+      "VisibleId": 469,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 559
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 507
     }
   }
 }

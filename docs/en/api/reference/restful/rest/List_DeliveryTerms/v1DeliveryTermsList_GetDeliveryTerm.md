@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 847,
-  "Name": "Reynolds-Yost",
-  "Tooltip": "doloremque",
+  "Id": 729,
+  "Name": "Koss, Bernier and Stroman",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "UdListDefinitionId": 501,
-  "Rank": 292,
+  "UdListDefinitionId": 331,
+  "Rank": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 154
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Welch-Bernier",
-  "DisplayName": "Cartwright LLC",
-  "Description": "User-friendly executive help-desk",
-  "ShortLabel": "itaque",
+  "FieldName": "Weissnat Inc and Sons",
+  "DisplayName": "Sawayn LLC",
+  "Description": "Optional stable service-desk",
+  "ShortLabel": "aspernatur",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 560,
-  "TemplateVariableName": "Kautzer, Champlin and Kshlerin"
+  "Rank": 690,
+  "TemplateVariableName": "Senger-Gleichner"
 }
 ```

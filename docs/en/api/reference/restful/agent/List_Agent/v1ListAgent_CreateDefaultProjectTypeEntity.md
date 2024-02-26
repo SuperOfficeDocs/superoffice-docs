@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 232,
-  "Name": "Heaney-Goodwin",
-  "Tooltip": "vel",
-  "Rank": 36,
+  "ProjTypeId": 51,
+  "Name": "Runte LLC",
+  "Tooltip": "blanditiis",
+  "Rank": 464,
   "DurationUnit": "Century",
-  "ProjectDuration": 302,
+  "ProjectDuration": 333,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 158,
-      "Name": "Klocko, Hand and Hane",
-      "ToolTip": "Rerum tenetur accusantium sint tempora.",
-      "Deleted": true,
-      "Rank": 401,
-      "Type": "quas",
-      "ColorBlock": 567,
-      "IconHint": "sit",
+      "Id": 867,
+      "Name": "Schneider, Breitenberg and Goldner",
+      "ToolTip": "Et autem reiciendis.",
+      "Deleted": false,
+      "Rank": 286,
+      "Type": "dolores",
+      "ColorBlock": 226,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2014-07-30T16:54:55.6219851+02:00",
+      "LastChanged": "2010-08-27T10:30:24.0725232+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "vero",
-      "Hidden": false,
-      "FullName": "Mr. Emmanuelle Kassulke",
+      "ExtraInfo": "assumenda",
+      "StyleHint": "magni",
+      "Hidden": true,
+      "FullName": "Jessyca Henriette Pfannerstill I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 491
     }
   }
 }

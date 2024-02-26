@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=703
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=250
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -94,29 +94,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": false,
-  "UserInfoId": 959,
-  "UserName": "Fadel-Wilkinson",
-  "PersonId": 454,
-  "Rank": 35,
-  "Tooltip": "omnis",
-  "UserGroupId": 879,
-  "EjUserId": 176,
+  "UserInfoId": 677,
+  "UserName": "Ward-Heathcote",
+  "PersonId": 652,
+  "Rank": 895,
+  "Tooltip": "molestiae",
+  "UserGroupId": 227,
+  "EjUserId": 23,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "totam",
-    "iure"
+    "sed",
+    "aliquid"
   ],
   "CanLogon": false,
-  "RoleName": "Hansen Inc and Sons",
-  "RoleTooltip": "qui",
-  "UserGroupName": "Crist, Schumm and Torphy",
-  "UserGroupTooltip": "illum",
+  "RoleName": "Cronin Group",
+  "RoleTooltip": "dolorum",
+  "UserGroupName": "Stokes-Herman",
+  "UserGroupTooltip": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldType": "System.String",
+      "FieldLength": 434
     }
   }
 }

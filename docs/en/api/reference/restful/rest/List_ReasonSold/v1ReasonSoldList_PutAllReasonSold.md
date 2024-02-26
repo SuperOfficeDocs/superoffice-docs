@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Weber-Metz",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 525,
-    "Rank": 911
+    "Id": 617,
+    "Name": "Erdman Group",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 173,
+    "Rank": 863
   },
   {
-    "Id": 1002,
-    "Name": "Weber-Metz",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 525,
-    "Rank": 911
+    "Id": 617,
+    "Name": "Erdman Group",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 173,
+    "Rank": 863
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 962,
-    "Name": "O'Kon LLC",
-    "Tooltip": "deserunt",
+    "Id": 818,
+    "Name": "Lang-Muller",
+    "Tooltip": "beatae",
     "Deleted": false,
-    "UdListDefinitionId": 594,
-    "Rank": 641,
+    "UdListDefinitionId": 576,
+    "Rank": 867,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 1000
       }
     }
   }

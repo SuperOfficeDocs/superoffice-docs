@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 373,
-  "AssociateId": 594,
-  "Caption": "neque",
+  "DashboardId": 840,
+  "AssociateId": 323,
+  "Caption": "voluptatem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 439,
-      "Caption": "corrupti",
-      "Description": "Horizontal hybrid customer loyalty",
-      "ChartName": "Torphy, O'Conner and Hansen",
-      "ChartId": "voluptas",
+      "DashboardTileId": 840,
+      "Caption": "perferendis",
+      "Description": "Versatile optimizing extranet",
+      "ChartName": "D'Amore Inc and Sons",
+      "ChartId": "rerum",
       "IsDefault": true,
-      "AssociateId": 706,
-      "GroupId": 462,
-      "SelectionId": 17,
-      "Config": "rerum",
+      "AssociateId": 491,
+      "GroupId": 155,
+      "SelectionId": 703,
+      "Config": "illo",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldLength": 338
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldType": "System.Int32",
+      "FieldLength": 855
     }
   }
 }

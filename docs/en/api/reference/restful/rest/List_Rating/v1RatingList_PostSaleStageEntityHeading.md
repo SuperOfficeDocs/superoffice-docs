@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 665,
-  "Name": "Sporer-Durgan",
-  "Tooltip": "dolorem",
+  "HeadingId": 718,
+  "Name": "Wiegand, Klein and Klocko",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 197,
-  "UdListDefinitionId": 153
+  "Rank": 567,
+  "UdListDefinitionId": 813
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 454,
-  "Name": "O'Hara-Jaskolski",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 860,
-  "UdListDefinitionId": 972,
+  "HeadingId": 940,
+  "Name": "Gibson-Spinka",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "Rank": 16,
+  "UdListDefinitionId": 266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 708
     }
   }
 }

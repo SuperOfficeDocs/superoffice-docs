@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 476,
-    "Name": "Goyette-Maggio",
-    "ToolTip": "Quibusdam numquam et dolorem ut.",
+    "Id": 873,
+    "Name": "Donnelly LLC",
+    "ToolTip": "Qui ratione necessitatibus accusantium temporibus est optio.",
     "Deleted": true,
-    "Rank": 70,
-    "Type": "necessitatibus",
-    "ColorBlock": 463,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2017-07-28T16:55:31.0907889+02:00",
+    "Rank": 724,
+    "Type": "voluptatum",
+    "ColorBlock": 721,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2005-09-23T10:30:33.2568344+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Rempel Group",
-        "ToolTip": "Iusto rerum qui velit eveniet impedit molestiae dolor.",
-        "Deleted": false,
-        "Rank": 353,
-        "Type": "repudiandae",
-        "ColorBlock": 805,
-        "IconHint": "nesciunt",
+        "Id": 43,
+        "Name": "Gaylord, Wiza and Wiza",
+        "ToolTip": "Voluptas asperiores repellat nisi eum reprehenderit explicabo.",
+        "Deleted": true,
+        "Rank": 621,
+        "Type": "possimus",
+        "ColorBlock": 663,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2002-12-03T16:55:31.0907889+01:00",
+        "LastChanged": "2023-03-02T10:30:33.2568344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quis",
+        "ExtraInfo": "fuga",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ubaldo Blanda"
+        "FullName": "Trevion Jacobs II"
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "est",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Evan Price"
+    "FullName": "Isaiah Rashad Adams Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Wiegand-Stoltenberg",
-    "ToolTip": "Totam totam nesciunt amet nisi et.",
+    "Id": 228,
+    "Name": "Flatley Group",
+    "ToolTip": "Omnis quia sed sit qui earum aliquam sed.",
     "Deleted": false,
-    "Rank": 464,
-    "Type": "voluptatem",
-    "ColorBlock": 618,
-    "IconHint": "dolores",
+    "Rank": 614,
+    "Type": "fugiat",
+    "ColorBlock": 678,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2009-03-31T16:55:31.0927988+02:00",
+    "LastChanged": "2009-04-16T10:30:33.2568344+02:00",
     "ChildItems": [
       {
-        "Id": 211,
-        "Name": "Moore-Treutel",
-        "ToolTip": "Et ullam magnam omnis cupiditate sapiente cumque nihil.",
-        "Deleted": false,
-        "Rank": 688,
-        "Type": "neque",
-        "ColorBlock": 657,
-        "IconHint": "veritatis",
+        "Id": 581,
+        "Name": "Kohler-Bayer",
+        "ToolTip": "Voluptatem est quisquam aliquam explicabo.",
+        "Deleted": true,
+        "Rank": 321,
+        "Type": "architecto",
+        "ColorBlock": 245,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "1998-04-13T16:55:31.0927988+02:00",
+        "LastChanged": "2001-11-21T10:30:33.2568344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "hic",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Neha Larson",
+        "FullName": "Prof. Tessie Will V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 559
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "nulla",
-    "Hidden": true,
-    "FullName": "Stephany Walker",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "dignissimos",
+    "Hidden": false,
+    "FullName": "Christa Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 760
       }
     }
   }

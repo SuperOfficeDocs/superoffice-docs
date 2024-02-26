@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 24,
-  "Name": "Dickens, Altenwerth and Nader",
-  "Tooltip": "nostrum",
-  "Rank": 263,
+  "SaleTypeId": 307,
+  "Name": "Raynor, Jakubowski and Kutch",
+  "Tooltip": "optio",
+  "Rank": 111,
   "DurationUnit": "Century",
-  "SaleDuration": 997,
-  "SaleTypeCatId": 779,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "SaleDuration": 903,
+  "SaleTypeCatId": 756,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 764,
-  "QuoteLinesTemplate": 941,
-  "ConfirmationLinesTemplate": 751,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 21,
+  "QuoteLinesTemplate": 210,
+  "ConfirmationLinesTemplate": 699,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 468,
-  "MinEarningPercent": 272,
-  "GroupQuoteLinesBy": 461,
-  "SortGroupLinesBy": 283,
+  "MaxDiscountPercent": 903,
+  "MinEarningPercent": 363,
+  "GroupQuoteLinesBy": 379,
+  "SortGroupLinesBy": 687,
   "Stages": [
     {
-      "Id": 140,
-      "Name": "Hermann, Jacobi and Ratke",
-      "ToolTip": "Quo incidunt eum nostrum fugit.",
-      "Deleted": true,
-      "Rank": 561,
-      "Type": "dignissimos",
-      "ColorBlock": 324,
-      "IconHint": "quos",
+      "Id": 889,
+      "Name": "Zieme Inc and Sons",
+      "ToolTip": "Corporis sed voluptatum neque error commodi.",
+      "Deleted": false,
+      "Rank": 660,
+      "Type": "culpa",
+      "ColorBlock": 243,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2009-10-04T16:55:31.0611872+02:00",
+      "LastChanged": "1998-06-02T10:30:33.2412121+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "quidem",
-      "Hidden": true,
-      "FullName": "Marley Grimes",
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "laborum",
+      "Hidden": false,
+      "FullName": "Anjali Nicolas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 635
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldType": "System.String",
+      "FieldLength": 514
     }
   }
 }

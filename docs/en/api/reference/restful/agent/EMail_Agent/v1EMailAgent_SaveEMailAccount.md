@@ -87,16 +87,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 705,
-  "EMailAddress": "perferendis",
-  "AssociateId": 918,
+  "EMailAccountId": 455,
+  "EMailAddress": "est",
+  "AssociateId": 44,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 200,
-  "ErrorCount": 505,
+  "AccountStatus": 4,
+  "ErrorCount": 782,
   "ErrorReason": "",
-  "InboxFolder": "inventore",
-  "SentFolder": "ipsum"
+  "InboxFolder": "ipsa",
+  "SentFolder": "est"
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 254,
-  "EMailAddress": "a",
-  "AssociateId": 316,
+  "EMailAccountId": 514,
+  "EMailAddress": "magnam",
+  "AssociateId": 637,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 149,
-  "ErrorCount": 405,
+  "AccountStatus": 117,
+  "ErrorCount": 337,
   "ErrorReason": "",
-  "InboxFolder": "quam",
-  "SentFolder": "qui",
+  "InboxFolder": "enim",
+  "SentFolder": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 864
     }
   }
 }

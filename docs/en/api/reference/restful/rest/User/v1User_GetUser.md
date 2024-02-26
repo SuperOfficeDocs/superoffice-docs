@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 758,
-  "Name": "Will LLC",
-  "Rank": 109,
-  "Tooltip": "ipsam",
+  "AssociateId": 703,
+  "Name": "Bednar, Parisian and Beatty",
+  "Rank": 688,
+  "Tooltip": "occaecati",
   "LicenseOwners": [
     {
-      "Name": "Stokes-Koepp",
-      "Description": "Customizable user-facing throughput",
+      "Name": "Carroll, Gulgowski and Kreiger",
+      "Description": "Polarised modular protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,14 +132,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldType": "System.String",
+          "FieldLength": 302
         }
       }
     },
     {
-      "Name": "Stokes-Koepp",
-      "Description": "Customizable user-facing throughput",
+      "Name": "Carroll, Gulgowski and Kreiger",
+      "Description": "Polarised modular protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldType": "System.String",
+          "FieldLength": 302
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "nisi",
-      "Id": 683,
-      "Rank": 821,
+      "Value": "ut",
+      "Tooltip": "et",
+      "Id": 822,
+      "Rank": 263,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 108
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2000-01-01T16:55:30.4311463+01:00",
-  "Lastlogout": "2018-08-27T16:55:30.4311463+02:00",
-  "EjUserId": 10,
-  "RequestSignature": "voluptates",
+  "Lastlogin": "2004-12-16T10:30:32.7644382+01:00",
+  "Lastlogout": "2014-04-18T10:30:32.7644382+02:00",
+  "EjUserId": 41,
+  "RequestSignature": "odio",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quia",
-      "DisplayValue": "in",
+      "Value": "velit",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldLength": 139
         }
       }
     },
     {
       "Type": null,
-      "Value": "quia",
-      "DisplayValue": "in",
+      "Value": "velit",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldLength": 139
         }
       }
     }
   ],
-  "UserName": "Walter, Schaden and Reynolds",
+  "UserName": "Upton-Osinski",
   "TicketCategories": [
     {
-      "Id": 75,
-      "Name": "Mann, Kassulke and Littel",
-      "ToolTip": "Unde sit.",
+      "Id": 491,
+      "Name": "Hilpert-Fisher",
+      "ToolTip": "Error aperiam.",
       "Deleted": false,
-      "Rank": 724,
-      "Type": "libero",
+      "Rank": 809,
+      "Type": "vitae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "corporis",
-      "ColorBlock": 381,
-      "ExtraInfo": "et",
-      "StyleHint": "praesentium",
-      "FullName": "Maude Kemmer",
+      "IconHint": "harum",
+      "ColorBlock": 549,
+      "ExtraInfo": "eius",
+      "StyleHint": "aut",
+      "FullName": "Guillermo Denesik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldType": "System.String",
+          "FieldLength": 649
         }
       }
     }
   ],
-  "NickName": "Bergnaum Group",
+  "NickName": "Bayer Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "ab",
+    "CustomFields2": "ea"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kemmer LLC",
-      "DisplayName": "Harvey-Wuckert",
-      "Description": "Mandatory stable task-force",
-      "ToolTip": "Cupiditate hic.",
+      "Name": "Lockman-Pfannerstill",
+      "DisplayName": "Hamill LLC",
+      "Description": "Ergonomic static archive",
+      "ToolTip": "Maiores quibusdam repudiandae saepe velit quod ex.",
       "Actions": "Implicit",
-      "ActionData": "pariatur",
+      "ActionData": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 597
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 360
     }
   },
   "_Links": {

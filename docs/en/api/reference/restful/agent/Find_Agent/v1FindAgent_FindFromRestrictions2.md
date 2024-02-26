@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "omnis",
-  "ProviderName": "Dibbert, Schultz and Murray",
-  "PageSize": 934,
-  "PageNumber": 185
+  "Restrictions": "at",
+  "ProviderName": "Haag Inc and Sons",
+  "PageSize": 938,
+  "PageNumber": 650
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Rodriguez Group",
-      "DisplayTooltip": "aut",
-      "DisplayType": "rerum",
+      "DisplayName": "Hoeger, Jenkins and Bergnaum",
+      "DisplayTooltip": "et",
+      "DisplayType": "at",
       "CanOrderBy": true,
-      "Name": "Pagac, Batz and Langosh",
+      "Name": "Crona Group",
       "CanRestrictBy": false,
-      "RestrictionType": "explicabo",
-      "RestrictionListName": "Greenfelder, Marquardt and Torp",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "temporibus",
-      "IconHint": "a",
-      "HeadingIconHint": "dolor"
+      "RestrictionType": "et",
+      "RestrictionListName": "Terry-Watsica",
+      "IsVisible": true,
+      "ExtraInfo": "at",
+      "Width": "molestiae",
+      "IconHint": "nobis",
+      "HeadingIconHint": "veritatis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Block Group",
-      "PrimaryKey": 344,
+      "EntityName": "Ondricka, Haag and Larkin",
+      "PrimaryKey": 411,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "omnis",
-          "LinkHint": "laborum"
+          "DisplayValue": "sed",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "distinctio"
         }
       },
       "LinkHint": "qui",
-      "StyleHint": "odit",
+      "StyleHint": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldLength": 738
         }
       }
     }
   ],
-  "RowCount": 279,
+  "RowCount": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldLength": 278
     }
   }
 }

@@ -72,8 +72,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 177,
-  "Type": "qui",
+  "AssociateId": 194,
+  "Type": "quibusdam",
   "Credentials": null
 }
 ```

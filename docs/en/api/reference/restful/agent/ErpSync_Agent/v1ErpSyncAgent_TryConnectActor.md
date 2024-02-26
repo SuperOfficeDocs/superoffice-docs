@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 635,
-  "CrmRecordId": 903,
+  "ErpConnectionId": 365,
+  "CrmRecordId": 210,
   "CrmActorType": "Contact",
-  "ErpKey": "et",
+  "ErpKey": "in",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Legros, Krajcik and Labadie",
-      "CrmFieldKey": "non",
-      "Value": "ratione",
-      "DisplayValue": "possimus",
+      "DisplayName": "Gorczany LLC",
+      "CrmFieldKey": "assumenda",
+      "Value": "qui",
+      "DisplayValue": "quam",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Legros, Krajcik and Labadie",
-      "CrmFieldKey": "non",
-      "Value": "ratione",
-      "DisplayValue": "possimus",
+      "DisplayName": "Gorczany LLC",
+      "CrmFieldKey": "assumenda",
+      "Value": "qui",
+      "DisplayValue": "quam",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }

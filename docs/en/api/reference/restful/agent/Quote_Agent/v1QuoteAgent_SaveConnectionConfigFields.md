@@ -73,10 +73,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 9,
+  "QuoteConnectionId": 666,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "eveniet",
-    "ConnectionConfigFields2": "reiciendis"
+    "ConnectionConfigFields1": "suscipit",
+    "ConnectionConfigFields2": "eos"
   }
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "id",
-  "2": "vel"
+  "1": "sit",
+  "2": "dolores"
 }
 ```

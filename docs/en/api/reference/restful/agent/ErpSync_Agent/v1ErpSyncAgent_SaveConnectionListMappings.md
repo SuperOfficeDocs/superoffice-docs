@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Sawayn-Treutel",
+      "ErpListName": "Gaylord-Schaden",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Abernathy LLC",
-      "ErpFieldId": 967,
+      "ErpActorTypeName": "Ankunding, Gibson and Gaylord",
+      "ErpFieldId": 191,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldLength": 962
         }
       }
     }
   ],
-  "ErpConnectionId": 655,
-  "ErpConnectionName": "Bins Inc and Sons",
+  "ErpConnectionId": 561,
+  "ErpConnectionName": "Williamson, McClure and Marvin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 150
     }
   }
 }

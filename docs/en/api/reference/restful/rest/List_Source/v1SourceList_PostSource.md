@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 113,
-  "Name": "Deckow Inc and Sons",
-  "Tooltip": "maxime",
+  "Id": 521,
+  "Name": "Leannon, Langworth and Mante",
+  "Tooltip": "ut",
   "Deleted": true,
-  "UdListDefinitionId": 860,
-  "Rank": 709
+  "UdListDefinitionId": 827,
+  "Rank": 405
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 714,
-  "Name": "Robel Group",
-  "Tooltip": "aperiam",
+  "Id": 710,
+  "Name": "Hickle, Rath and Altenwerth",
+  "Tooltip": "iure",
   "Deleted": false,
-  "UdListDefinitionId": 771,
-  "Rank": 913,
+  "UdListDefinitionId": 79,
+  "Rank": 470,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 639
     }
   }
 }

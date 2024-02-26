@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 569,
-  "Rank": 112,
-  "DefaultTask": 27,
-  "DefaultTaskText": "et",
-  "IsVisual": true,
-  "LastGenerated": "2011-07-03T16:54:56.1949725+02:00",
-  "Description": "Reactive intermediate data-warehouse",
-  "Name": "Graham, Friesen and Kub",
-  "StatusMonitorId": 740,
-  "PictureId": 442,
+  "OwnerTable": 856,
+  "Rank": 3,
+  "DefaultTask": 317,
+  "DefaultTaskText": "hic",
+  "IsVisual": false,
+  "LastGenerated": "2000-11-04T10:30:24.4815013+01:00",
+  "Description": "Seamless bottom-line pricing structure",
+  "Name": "Bernier, Larkin and Runolfsson",
+  "StatusMonitorId": 231,
+  "PictureId": 344,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 919,
-  "NumNeedUpdate": 609,
-  "GenerationStart": "2012-01-21T16:54:56.1949725+01:00",
+  "Deleted": false,
+  "NumMatches": 713,
+  "NumNeedUpdate": 737,
+  "GenerationStart": "2023-11-10T10:30:24.4815013+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 315
     }
   }
 }

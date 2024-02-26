@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 114,
+  "EjMessageId": 865,
   "Ticket": null,
-  "CreatedAt": "2004-05-23T16:54:56.4201352+02:00",
+  "CreatedAt": "2016-04-04T10:30:24.7954621+02:00",
   "CreatedBy": null,
-  "Author": "sunt",
+  "Author": "accusamus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "odio",
-  "TimeSpent": 974,
-  "Body": "voluptas",
-  "HtmlBody": "cum",
-  "EmailHeader": "flavio.volkman@heidenreichjohnston.name",
-  "DebugInfo": "officia",
-  "MailSorter": "similique",
+  "MessageId": "totam",
+  "TimeSpent": 415,
+  "Body": "magnam",
+  "HtmlBody": "tenetur",
+  "EmailHeader": "garth_funk@reinger.co.uk",
+  "DebugInfo": "nihil",
+  "MailSorter": "facilis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "magni",
   "MessageHeaders": [
     {
-      "Id": 988,
-      "Name": "Zieme LLC",
-      "Value": "itaque",
+      "Id": 558,
+      "Name": "Pagac-Schmidt",
+      "Value": "ex",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 668
+          "FieldLength": 34
         }
       }
     }
   ],
   "Important": false,
-  "Language": "earum",
-  "Sentiment": 64,
-  "SentimentConfidence": 794,
+  "Language": "facilis",
+  "Sentiment": 948,
+  "SentimentConfidence": 975,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 596,
-      "Name": "Champlin Group",
-      "ContentType": "distinctio",
-      "AttSize": 388,
+      "AttachmentId": 401,
+      "Name": "Ankunding, Quitzon and Becker",
+      "ContentType": "tempora",
+      "AttSize": 429,
       "InlineImage": false,
-      "ContentId": "nemo",
-      "AuthKey": "nobis",
+      "ContentId": "cumque",
+      "AuthKey": "quos",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldType": "System.String",
+          "FieldLength": 715
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "ullam"
   },
   "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "aut"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "a"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 293,
-    "Name": "Keebler LLC",
+    "QuickReplyId": 987,
+    "Name": "Zboncak LLC",
     "HtmlBody": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldType": "System.Int32",
+        "FieldLength": 255
       }
     }
   },
   {
-    "QuickReplyId": 293,
-    "Name": "Keebler LLC",
+    "QuickReplyId": 987,
+    "Name": "Zboncak LLC",
     "HtmlBody": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldType": "System.Int32",
+        "FieldLength": 255
       }
     }
   }

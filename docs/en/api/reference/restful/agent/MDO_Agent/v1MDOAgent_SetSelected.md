@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thiel LLC",
-  "AdditionalInfo": "impedit",
+  "Name": "Borer LLC",
+  "AdditionalInfo": "molestias",
   "SelectableMDOList": [
     {
-      "Id": 765,
-      "Name": "Mills-Hammes",
-      "ToolTip": "Dolor ea ea molestiae eaque expedita.",
+      "Id": 680,
+      "Name": "Brakus Group",
+      "ToolTip": "Deserunt voluptatem aliquid quis labore esse autem quo.",
       "Deleted": false,
-      "Rank": 872,
-      "Type": "sit",
-      "ColorBlock": 527,
-      "IconHint": "quasi",
-      "Selected": true,
-      "LastChanged": "2016-04-26T16:54:55.6685097+02:00",
+      "Rank": 388,
+      "Type": "occaecati",
+      "ColorBlock": 203,
+      "IconHint": "nemo",
+      "Selected": false,
+      "LastChanged": "2021-05-31T10:30:24.1193938+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iure",
-      "StyleHint": "ea",
+      "ExtraInfo": "commodi",
+      "StyleHint": "officia",
       "Hidden": false,
-      "FullName": "Shanie Deckow"
+      "FullName": "Mariane Rutherford"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Gorczany, Adams and Wuckert",
-    "ToolTip": "Totam eos assumenda eaque sed dolor dolorum.",
+    "Id": 289,
+    "Name": "Swift-Conn",
+    "ToolTip": "Pariatur nam repellendus reprehenderit.",
     "Deleted": false,
-    "Rank": 631,
-    "Type": "voluptates",
-    "ColorBlock": 377,
-    "IconHint": "hic",
+    "Rank": 646,
+    "Type": "iure",
+    "ColorBlock": 274,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "1997-08-30T16:54:55.6695098+02:00",
+    "LastChanged": "2012-05-10T10:30:24.1193938+02:00",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Hayes-Luettgen",
-        "ToolTip": "Quasi aut eos non reiciendis et.",
+        "Id": 434,
+        "Name": "Wiegand, Bosco and Muller",
+        "ToolTip": "Nemo eum.",
         "Deleted": false,
-        "Rank": 812,
-        "Type": "animi",
-        "ColorBlock": 914,
-        "IconHint": "esse",
+        "Rank": 399,
+        "Type": "autem",
+        "ColorBlock": 838,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2005-02-01T16:54:55.6705102+01:00",
+        "LastChanged": "2001-07-26T10:30:24.1193938+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Kendrick Murray",
+        "ExtraInfo": "officia",
+        "StyleHint": "tenetur",
+        "Hidden": false,
+        "FullName": "Mr. Jamie Zemlak Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 565
+            "FieldLength": 411
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "provident",
-    "Hidden": true,
-    "FullName": "Clinton Chloe Schmeler II",
+    "ExtraInfo": "et",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Ms. Soledad Stanford Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 82
       }
     }
   }

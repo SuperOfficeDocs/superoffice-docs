@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 846,
-  "Name": "Mueller LLC",
+  "WebhookId": 766,
+  "Name": "Bernier-Kreiger",
   "Events": [
-    "optio",
-    "alias"
+    "in",
+    "aperiam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolorem",
+  "Secret": "dolore",
   "State": "Active",
   "Type": "non",
   "Headers": {
-    "Headers1": "rem",
-    "Headers2": "perspiciatis"
+    "Headers1": "vel",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-02-08T16:54:56.7327368+01:00",
+  "Registered": "2004-07-25T10:30:25.076705+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-06-07T16:54:56.7327368+02:00",
+  "Updated": "2002-09-16T10:30:25.076705+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "gene@dietrich.us"
+  "ErrorsEmail": "marilyne_windler@stamm.us"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 471,
-  "Name": "McDermott LLC",
+  "WebhookId": 355,
+  "Name": "White LLC",
   "Events": [
-    "voluptatem",
-    "voluptatum"
+    "velit",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "autem",
+  "Secret": "et",
   "State": "Active",
-  "Type": "quis",
+  "Type": "et",
   "Headers": {
-    "Headers1": "est",
+    "Headers1": "dolor",
     "Headers2": "consequatur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-09-25T16:54:56.7337361+02:00",
+  "Registered": "2019-11-18T10:30:25.076705+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-03-16T16:54:56.7397211+01:00",
+  "Updated": "2000-07-16T10:30:25.076705+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "lorenza@hane.ca"
+  "ErrorsEmail": "lenny@ruecker.ca"
 }
 ```

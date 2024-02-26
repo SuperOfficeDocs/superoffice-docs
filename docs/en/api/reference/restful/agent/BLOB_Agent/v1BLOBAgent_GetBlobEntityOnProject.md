@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 224
+  "ProjectId": 434
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 556,
-  "BlobSize": 46,
-  "Description": "Right-sized client-driven artificial intelligence",
-  "ExtraInfo": "amet",
+  "BlobId": 791,
+  "BlobSize": 897,
+  "Description": "Profit-focused zero administration forecast",
+  "ExtraInfo": "officiis",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "sed",
-  "OriginalSize": 226,
-  "CreatedDate": "2005-09-05T16:54:54.6163225+02:00",
-  "UpdatedDate": "2020-11-17T16:54:54.6163225+01:00",
+  "IsZipped": false,
+  "MimeType": "minima",
+  "OriginalSize": 986,
+  "CreatedDate": "2002-06-21T10:30:23.0982933+02:00",
+  "UpdatedDate": "2018-01-25T10:30:23.0982933+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "esse",
+  "ConceptualType": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldLength": 53
     }
   }
 }

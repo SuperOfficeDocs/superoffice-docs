@@ -56,6 +56,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -76,19 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 794,
-    "Name": "Collier Group",
-    "ContentType": "earum",
-    "AttSize": 119,
+    "AttachmentId": 523,
+    "Name": "Dickens Group",
+    "ContentType": "voluptates",
+    "AttSize": 293,
     "InlineImage": false,
-    "ContentId": "non",
-    "AuthKey": "mollitia",
+    "ContentId": "aperiam",
+    "AuthKey": "voluptatem",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 522
       }
     }
   }

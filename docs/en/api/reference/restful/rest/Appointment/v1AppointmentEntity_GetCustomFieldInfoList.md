@@ -67,7 +67,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schiller LLC",
-    "DisplayName": "Price-Sporer",
-    "Description": "Virtual bandwidth-monitored Graphical User Interface",
-    "ShortLabel": "quia",
-    "HideLabel": true,
+    "FieldName": "Wiza, Hills and Mosciski",
+    "DisplayName": "Mills-Dickinson",
+    "Description": "Compatible methodical challenge",
+    "ShortLabel": "sunt",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 845,
-    "TemplateVariableName": "Bauch, Bartoletti and Lemke"
+    "Rank": 353,
+    "TemplateVariableName": "Weber, Walker and Klocko"
   }
 ]
 ```

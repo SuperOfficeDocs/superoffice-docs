@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 360,
-  "ContactId": 619,
-  "ProjectId": 916,
-  "ContactName": "Ratke-Bernier",
+  "ProjectmemberId": 839,
+  "ContactId": 258,
+  "ProjectId": 801,
+  "ContactName": "Rosenbaum Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Nolan Inc and Sons",
-  "EmailId": 337,
-  "EmailAddress": "shany.jerde@hermann.name",
-  "CountryId": 139,
-  "Firstname": "Reuben",
-  "MiddleName": "Bruen LLC",
-  "Lastname": "Becker",
-  "PersonId": 835,
-  "Mrmrs": "cupiditate",
-  "ProjectMemberTypeName": "Wilkinson Group",
-  "Phone": "176-115-9322 x720",
-  "PhoneId": 889,
-  "ProjectMemberTypeId": 136,
-  "EmailAddressName": "mauricio.harris@dickinsonhermiston.co.uk",
-  "Comment": "quia",
-  "FullName": "Genevieve Thompson",
+  "ProjectName": "Rice-Lubowitz",
+  "EmailId": 506,
+  "EmailAddress": "douglas@pourosschroeder.co.uk",
+  "CountryId": 761,
+  "Firstname": "Araceli",
+  "MiddleName": "West LLC",
+  "Lastname": "Nitzsche",
+  "PersonId": 414,
+  "Mrmrs": "libero",
+  "ProjectMemberTypeName": "Denesik-Cole",
+  "Phone": "794-191-0414 x711",
+  "PhoneId": 781,
+  "ProjectMemberTypeId": 1000,
+  "EmailAddressName": "dangelo_bednar@conroyemard.co.uk",
+  "Comment": "qui",
+  "FullName": "Eriberto Turcotte",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 494,
-  "Name": "Swaniawski LLC",
-  "Tooltip": "nisi",
-  "Deleted": false,
-  "Rank": 294,
+  "Id": 162,
+  "Name": "Grady-Olson",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 610,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "enim",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 730,
-  "Name": "Stoltenberg-Connelly",
-  "Tooltip": "velit",
+  "Id": 509,
+  "Name": "Sauer, Christiansen and Kuhn",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 143,
+  "Rank": 543,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "ListType": "mollitia",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 936
     }
   }
 }

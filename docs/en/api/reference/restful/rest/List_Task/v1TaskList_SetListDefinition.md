@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Goyette, O'Reilly and Cormier",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 206,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "deserunt",
+  "Id": 374,
+  "Name": "Reichert LLC",
+  "Tooltip": "ab",
+  "Deleted": false,
+  "Rank": 96,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "laudantium",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 193,
-  "Name": "Schoen LLC",
-  "Tooltip": "vero",
+  "Id": 52,
+  "Name": "Lowe LLC",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 572,
+  "Rank": 59,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "vitae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

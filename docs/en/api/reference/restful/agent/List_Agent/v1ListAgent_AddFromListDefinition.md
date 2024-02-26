@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 367,
+  "UdListDefinitionId": 75,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 842,
-  "Name": "Cartwright, Barrows and Kuhlman",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "UdListDefinitionId": 938,
-  "Rank": 441,
+  "Id": 617,
+  "Name": "Padberg LLC",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "UdListDefinitionId": 986,
+  "Rank": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 859
     }
   }
 }

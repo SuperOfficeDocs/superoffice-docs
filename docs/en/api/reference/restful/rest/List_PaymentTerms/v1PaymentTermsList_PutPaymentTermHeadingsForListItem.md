@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Olson Group",
-    "ToolTip": "Dolore facilis sapiente impedit esse.",
-    "Deleted": false,
-    "Rank": 897,
-    "Type": "sunt",
-    "ColorBlock": 468,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2003-10-13T16:55:30.7381718+02:00",
+    "Id": 926,
+    "Name": "Mitchell-Cartwright",
+    "ToolTip": "Dicta ipsum pariatur esse.",
+    "Deleted": true,
+    "Rank": 391,
+    "Type": "ad",
+    "ColorBlock": 727,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2001-03-02T10:30:33.0524566+01:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Bechtelar, Leuschke and Jacobi",
-        "ToolTip": "Ut labore qui aut nihil non.",
-        "Deleted": true,
-        "Rank": 146,
-        "Type": "maiores",
-        "ColorBlock": 330,
-        "IconHint": "officiis",
+        "Id": 887,
+        "Name": "Stehr, Hickle and Schmidt",
+        "ToolTip": "Mollitia eius quia optio.",
+        "Deleted": false,
+        "Rank": 91,
+        "Type": "rerum",
+        "ColorBlock": 765,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "1998-04-08T16:55:30.7381718+02:00",
+        "LastChanged": "2007-03-27T10:30:33.0524566+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Miss Carmen Idella Cremin DDS"
+        "ExtraInfo": "placeat",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Lizeth Jakubowski"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Cleo Moen"
+    "ExtraInfo": "aut",
+    "StyleHint": "reprehenderit",
+    "Hidden": false,
+    "FullName": "Prof. Alize Denesik I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "McLaughlin-Bins",
-    "ToolTip": "Animi officia mollitia eaque.",
+    "Id": 919,
+    "Name": "Hickle, Russel and Robel",
+    "ToolTip": "Qui aut distinctio corporis.",
     "Deleted": true,
-    "Rank": 1000,
-    "Type": "id",
-    "ColorBlock": 858,
-    "IconHint": "dicta",
+    "Rank": 422,
+    "Type": "voluptatem",
+    "ColorBlock": 7,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2023-08-26T16:55:30.7411916+02:00",
+    "LastChanged": "2001-12-26T10:30:33.0524566+01:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Braun LLC",
-        "ToolTip": "Quae commodi.",
+        "Id": 391,
+        "Name": "Macejkovic LLC",
+        "ToolTip": "Quo mollitia.",
         "Deleted": true,
-        "Rank": 312,
-        "Type": "tenetur",
-        "ColorBlock": 888,
-        "IconHint": "mollitia",
+        "Rank": 272,
+        "Type": "illum",
+        "ColorBlock": 473,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2017-04-16T16:55:30.7411916+02:00",
+        "LastChanged": "2018-11-29T10:30:33.0524566+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "ad",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Eldridge Dickens",
+        "FullName": "Kristin Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Dr. Carmen Feeney",
+    "ExtraInfo": "aut",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Teagan Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldType": "System.String",
+        "FieldLength": 359
       }
     }
   }

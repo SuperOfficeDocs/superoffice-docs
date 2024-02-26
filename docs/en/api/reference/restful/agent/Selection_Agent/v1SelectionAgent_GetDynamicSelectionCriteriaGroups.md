@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 474
+  "SelectionId": 807
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Eichmann Group",
-    "Description": "Versatile local local area network",
-    "Rank": 748,
+    "Name": "Hauck LLC",
+    "Description": "Public-key impactful alliance",
+    "Rank": 421,
     "Restrictions": [
       {
-        "Name": "Effertz Group",
-        "Operator": "harum",
+        "Name": "Spinka-Connelly",
+        "Operator": "magni",
         "Values": [
-          "et",
-          "repudiandae"
+          "tenetur",
+          "quas"
         ],
         "DisplayValues": [
-          "iusto",
-          "eum"
+          "alias",
+          "in"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 345,
+        "InterParenthesis": 131,
         "InterOperator": "And",
-        "UniqueHash": 775
+        "UniqueHash": 863
       }
     ]
   },
   {
-    "Name": "Eichmann Group",
-    "Description": "Versatile local local area network",
-    "Rank": 748,
+    "Name": "Hauck LLC",
+    "Description": "Public-key impactful alliance",
+    "Rank": 421,
     "Restrictions": [
       {
-        "Name": "Effertz Group",
-        "Operator": "harum",
+        "Name": "Spinka-Connelly",
+        "Operator": "magni",
         "Values": [
-          "et",
-          "repudiandae"
+          "tenetur",
+          "quas"
         ],
         "DisplayValues": [
-          "iusto",
-          "eum"
+          "alias",
+          "in"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 345,
+        "InterParenthesis": 131,
         "InterOperator": "And",
-        "UniqueHash": 775
+        "UniqueHash": 863
       }
     ]
   }

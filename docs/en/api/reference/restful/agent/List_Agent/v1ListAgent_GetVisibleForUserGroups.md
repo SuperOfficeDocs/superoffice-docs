@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 35,
-  "ListItemId": 95
+  "UdListDefinitionId": 416,
+  "ListItemId": 969
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Jakubowski Group",
-    "ToolTip": "Porro odio.",
-    "Deleted": true,
-    "Rank": 47,
-    "Type": "consectetur",
-    "ColorBlock": 977,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "2005-05-23T16:54:55.5559786+02:00",
+    "Id": 963,
+    "Name": "Mayer Group",
+    "ToolTip": "Ad dolore blanditiis rem vel quo.",
+    "Deleted": false,
+    "Rank": 95,
+    "Type": "ut",
+    "ColorBlock": 191,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2019-09-27T10:30:23.978726+02:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "Stehr Inc and Sons",
-        "ToolTip": "Nulla nam.",
-        "Deleted": false,
-        "Rank": 521,
-        "Type": "qui",
-        "ColorBlock": 751,
-        "IconHint": "accusantium",
+        "Id": 14,
+        "Name": "Bins, Trantow and Renner",
+        "ToolTip": "Est rerum reiciendis rerum accusamus et ratione excepturi.",
+        "Deleted": true,
+        "Rank": 730,
+        "Type": "exercitationem",
+        "ColorBlock": 860,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2002-06-28T16:54:55.5559786+02:00",
+        "LastChanged": "2013-12-25T10:30:23.978726+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quo",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Ms. Paolo Monahan I",
+        "FullName": "Mrs. Janis Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 389
+            "FieldLength": 747
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "quidem",
-    "Hidden": true,
-    "FullName": "Kallie Dibbert",
+    "ExtraInfo": "dolores",
+    "StyleHint": "beatae",
+    "Hidden": false,
+    "FullName": "Lambert Andrew Schuppe MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldLength": 572
       }
     }
   }

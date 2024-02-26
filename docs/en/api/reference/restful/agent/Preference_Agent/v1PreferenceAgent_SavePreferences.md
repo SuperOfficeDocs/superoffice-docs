@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "voluptatem",
+      "RawValue": "autem",
       "Specification": null,
-      "DisplayValue": "in",
-      "DisplayTooltip": "cum",
+      "DisplayValue": "quidem",
+      "DisplayTooltip": "dolorem",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 333,
-      "PrefDescId": 422,
-      "TableName": "Pollich-Kuhlman",
-      "UserPreferenceId": 156
+      "TargetId": 236,
+      "PrefDescId": 923,
+      "TableName": "Bednar LLC",
+      "UserPreferenceId": 996
     }
   ]
 }

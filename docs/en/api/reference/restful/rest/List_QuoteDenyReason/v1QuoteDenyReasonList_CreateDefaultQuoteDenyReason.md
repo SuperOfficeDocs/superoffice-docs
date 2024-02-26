@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Senger LLC",
-  "Tooltip": "non",
-  "Deleted": true,
-  "UdListDefinitionId": 443,
-  "Rank": 62,
+  "Id": 891,
+  "Name": "Kreiger Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 334,
+  "Rank": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldType": "System.Int32",
+      "FieldLength": 211
     }
   }
 }

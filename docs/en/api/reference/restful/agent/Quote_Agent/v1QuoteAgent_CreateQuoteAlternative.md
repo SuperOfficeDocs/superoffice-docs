@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 490,
-  "QuoteAlternativeName": "VonRueden, Dicki and Mertz",
-  "QuoteAlternativeDescription": "Distributed 6th generation interface"
+  "QuoteVersionId": 793,
+  "QuoteAlternativeName": "Lehner LLC",
+  "QuoteAlternativeDescription": "Versatile regional contingency"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 858,
-  "ERPQuoteAlternativeKey": "voluptatem",
-  "QuoteVersionId": 590,
-  "Name": "Cartwright-Hackett",
-  "Description": "Reduced upward-trending flexibility",
+  "QuoteAlternativeId": 870,
+  "ERPQuoteAlternativeKey": "praesentium",
+  "QuoteVersionId": 183,
+  "Name": "Borer LLC",
+  "Description": "Vision-oriented exuding capacity",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 1190.92,
-  "ERPDiscountAmount": 8091.9879999999994,
-  "DiscountPercent": 20374.134,
-  "DiscountAmount": 22505.254,
+  "ERPDiscountPercent": 30581.572,
+  "ERPDiscountAmount": 17791.718,
+  "DiscountPercent": 30208.626,
+  "DiscountAmount": 11802.644,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "rerum",
-  "VAT": 2645.096,
-  "EarningPercent": 11022.278,
-  "EarningAmount": 6813.316,
-  "SubTotal": 19784.942,
-  "TotalPrice": 2159.326,
-  "ExtraField1": "impedit",
-  "ExtraField2": "animi",
-  "ExtraField3": "eos",
-  "ExtraField4": "omnis",
-  "ExtraField5": "molestias",
+  "VATInfo": "iure",
+  "VAT": 19289.77,
+  "EarningPercent": 5750.8899999999994,
+  "EarningAmount": 15516.434,
+  "SubTotal": 8399.119999999999,
+  "TotalPrice": 3958.2419999999997,
+  "ExtraField1": "corrupti",
+  "ExtraField2": "perspiciatis",
+  "ExtraField3": "sed",
+  "ExtraField4": "culpa",
+  "ExtraField5": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldType": "System.Int32",
+      "FieldLength": 252
     }
   }
 }

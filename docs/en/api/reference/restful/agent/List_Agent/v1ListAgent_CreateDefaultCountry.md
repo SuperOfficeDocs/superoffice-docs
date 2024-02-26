@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 539,
-  "Name": "Pfeffer-Halvorson",
-  "CurrencyId": 796,
-  "EnglishName": "Zboncak Group",
+  "CountryId": 840,
+  "Name": "Larson LLC",
+  "CurrencyId": 781,
+  "EnglishName": "Emard-Fay",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Stand-alone 24/7 encoding",
-  "OrgNrText": "1107957",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "impedit",
-  "ZipPrefix": "a",
-  "DomainName": "Hartmann Group",
-  "AddressLayoutId": 391,
-  "DomesticAddressLayoutId": 80,
-  "ForeignAddressLayoutId": 254,
-  "Rank": 596,
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
+  "ImageDescription": "Quality-focused hybrid support",
+  "OrgNrText": "326624",
+  "InterAreaPrefix": "expedita",
+  "DialInPrefix": "excepturi",
+  "ZipPrefix": "qui",
+  "DomainName": "Block LLC",
+  "AddressLayoutId": 879,
+  "DomesticAddressLayoutId": 585,
+  "ForeignAddressLayoutId": 958,
+  "Rank": 639,
+  "Tooltip": "maiores",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

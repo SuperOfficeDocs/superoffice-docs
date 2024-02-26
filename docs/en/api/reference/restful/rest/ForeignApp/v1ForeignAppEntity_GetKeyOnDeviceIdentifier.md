@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 25 Sep 2019 16:55:29 G9T
+Last-Modified: Sat, 02 Apr 2016 10:30:32 G4T
 
 {
-  "Key": "enim",
-  "Value": "dolorum",
-  "RecordId": 631,
-  "CreatedDate": "2009-05-21T16:55:29.6555447+02:00",
-  "UpdatedDate": "2019-09-25T16:55:29.6555447+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "quos",
-  "TableName": "Gleason-Marks",
+  "Key": "ad",
+  "Value": "ratione",
+  "RecordId": 165,
+  "CreatedDate": "2016-07-02T10:30:32.0730519+02:00",
+  "UpdatedDate": "2016-04-02T10:30:32.0730519+02:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "perspiciatis",
+  "TableName": "Konopelski-Willms",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldLength": 521
     }
   }
 }

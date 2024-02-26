@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Welch-Keeling",
-    "ToolTip": "Vitae asperiores vero quos magni.",
+    "Id": 517,
+    "Name": "Jewess-Greenholt",
+    "ToolTip": "Accusantium ut voluptas.",
     "Deleted": true,
-    "Rank": 542,
-    "Type": "et",
-    "ColorBlock": 736,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2019-06-09T16:55:30.7861989+02:00",
+    "Rank": 741,
+    "Type": "mollitia",
+    "ColorBlock": 294,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "2018-09-20T10:30:33.0849147+02:00",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Crist Inc and Sons",
-        "ToolTip": "Est quia eos nesciunt corporis est.",
-        "Deleted": true,
-        "Rank": 817,
-        "Type": "sit",
-        "ColorBlock": 786,
-        "IconHint": "et",
+        "Id": 289,
+        "Name": "Harris LLC",
+        "ToolTip": "Beatae eos deleniti.",
+        "Deleted": false,
+        "Rank": 365,
+        "Type": "autem",
+        "ColorBlock": 52,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2002-03-16T16:55:30.7871988+01:00",
+        "LastChanged": "2023-07-22T10:30:33.0849147+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "minus",
+        "ExtraInfo": "ea",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Miss Claud Patsy Reynolds DDS",
+        "FullName": "Mr. Sonya Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldLength": 889
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "provident",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Kale Konopelski",
+    "FullName": "Shanon Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldLength": 297
       }
     }
   }

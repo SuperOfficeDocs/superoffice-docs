@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 143,
-  "TopicId": 868,
+  "ChatSessionId": 713,
+  "TopicId": 514,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fugiat",
-  "CustomerHost": "quaerat",
-  "CustomerName": "Steuber Group",
-  "CustomerEmail": "darron.schulist@kerluke.co.uk",
-  "CustomerPhone": "757-110-5145",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schmidt, Kutch and Wintheiser",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "velit",
+  "CustomerName": "Johnson-Schuppe",
+  "CustomerEmail": "lawrence_crist@deckow.co.uk",
+  "CustomerPhone": "695.552.7993 x5534",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Kulas, Roberts and Rippin",
   "Status": "Closed",
-  "FirstMessage": "odit",
-  "LastMessage": "quisquam",
-  "WhenRequested": "2020-12-09T16:55:29.3878068+01:00",
-  "WhenStarted": "2001-12-27T16:55:29.3878068+01:00",
-  "WhenEnded": "2021-04-24T16:55:29.3878068+02:00",
-  "WhenIdle": "2021-08-14T16:55:29.3878068+02:00",
-  "WhenFetched": "2013-08-23T16:55:29.3878068+02:00",
-  "SessionKey": "hic",
-  "InitialQueuePos": 573,
-  "AlertLevel": 788,
-  "Rank": 264,
+  "FirstMessage": "qui",
+  "LastMessage": "ut",
+  "WhenRequested": "2015-01-20T10:30:31.8386823+01:00",
+  "WhenStarted": "2006-09-21T10:30:31.8386823+02:00",
+  "WhenEnded": "2017-04-13T10:30:31.8386823+02:00",
+  "WhenIdle": "2020-03-04T10:30:31.8386823+01:00",
+  "WhenFetched": "2020-05-07T10:30:31.8386823+02:00",
+  "SessionKey": "id",
+  "InitialQueuePos": 857,
+  "AlertLevel": 913,
+  "Rank": 178,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -129,13 +129,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 722,
+  "Rating": 564,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 790
     }
   }
 }

@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Quitzon-Funk",
-  "Restrictions": "sunt"
+  "ProviderName": "Maggio, Herzog and Davis",
+  "Restrictions": "nisi"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bauch, Mayer and McLaughlin",
-    "DisplayTooltip": "perferendis",
-    "DisplayType": "recusandae",
+    "DisplayName": "Schmitt-Leuschke",
+    "DisplayTooltip": "libero",
+    "DisplayType": "doloribus",
     "CanOrderBy": false,
-    "Name": "Schaden-Cronin",
+    "Name": "Von Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "optio",
-    "RestrictionListName": "Lehner, Mante and Nitzsche",
-    "IsVisible": false,
-    "ExtraInfo": "natus",
-    "Width": "at",
-    "IconHint": "similique",
-    "HeadingIconHint": "error"
+    "RestrictionType": "veniam",
+    "RestrictionListName": "Orn LLC",
+    "IsVisible": true,
+    "ExtraInfo": "atque",
+    "Width": "laborum",
+    "IconHint": "dolor",
+    "HeadingIconHint": "numquam"
   }
 ]
 ```

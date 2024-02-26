@@ -70,6 +70,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 438
+  "TicketMessageEntityId": 481
 }
 ```
 
@@ -95,19 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 684,
-    "Name": "Gerhold, Schuppe and Harvey",
-    "ContentType": "ullam",
-    "AttSize": 507,
-    "InlineImage": false,
-    "ContentId": "eos",
-    "AuthKey": "officiis",
+    "AttachmentId": 591,
+    "Name": "Goodwin, Schaden and Sipes",
+    "ContentType": "odit",
+    "AttSize": 675,
+    "InlineImage": true,
+    "ContentId": "nemo",
+    "AuthKey": "provident",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 82
       }
     }
   }

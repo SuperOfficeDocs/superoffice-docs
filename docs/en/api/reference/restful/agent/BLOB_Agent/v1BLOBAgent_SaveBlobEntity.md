@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 968,
-  "BlobSize": 197,
-  "Description": "Enhanced eco-centric protocol",
-  "ExtraInfo": "labore",
+  "BlobId": 64,
+  "BlobSize": 881,
+  "Description": "Customer-focused radical pricing structure",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ullam",
-  "OriginalSize": 50,
-  "CreatedDate": "2011-10-23T16:54:54.6113032+02:00",
-  "UpdatedDate": "2021-10-06T16:54:54.6113032+02:00",
+  "MimeType": "voluptas",
+  "OriginalSize": 281,
+  "CreatedDate": "2009-07-10T10:30:23.0982933+02:00",
+  "UpdatedDate": "2005-02-11T10:30:23.0982933+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sed"
+  "ConceptualType": "ex"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 874,
-  "BlobSize": 579,
-  "Description": "Ameliorated zero administration budgetary management",
-  "ExtraInfo": "voluptatem",
+  "BlobId": 114,
+  "BlobSize": 363,
+  "Description": "Multi-lateral encompassing matrix",
+  "ExtraInfo": "incidunt",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "eos",
-  "OriginalSize": 820,
-  "CreatedDate": "2007-07-17T16:54:54.6123033+02:00",
-  "UpdatedDate": "1999-03-11T16:54:54.6123033+01:00",
+  "MimeType": "sequi",
+  "OriginalSize": 615,
+  "CreatedDate": "1999-10-30T10:30:23.0982933+02:00",
+  "UpdatedDate": "2007-05-20T10:30:23.0982933+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "corporis",
+  "ConceptualType": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 700
     }
   }
 }

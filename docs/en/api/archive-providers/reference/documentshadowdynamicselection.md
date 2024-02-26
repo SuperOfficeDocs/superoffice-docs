@@ -693,7 +693,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/personUpdatedBy,person/personAddress/line1,person/personAddress/formattedMultiLineAddress,contact/streetAddress/zip,project/statusRank
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=suggestedDocumentId,person/restrictionAddress/line1,person/personAssociate/assocTooltip,person/correspondingAssociate/contactFullName,project/projectUrl/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

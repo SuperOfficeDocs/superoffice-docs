@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetRevisionHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 606
+  "TargetAssignmentInfoId": 392
 }
 ```
 
@@ -90,13 +90,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 83,
-  "Year": 127,
+  "TargetGroupId": 731,
+  "Year": 489,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2000-01-13T16:54:56.3851316+01:00",
+      "When": "1999-12-22T10:30:24.7642118+01:00",
       "Changes": [
         {},
         {}
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 91
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2000-01-13T16:54:56.3851316+01:00",
+      "When": "1999-12-22T10:30:24.7642118+01:00",
       "Changes": [
         {},
         {}
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 91
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 963
     }
   }
 }

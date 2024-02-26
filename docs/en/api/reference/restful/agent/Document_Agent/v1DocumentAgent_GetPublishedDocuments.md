@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    343,
-    927
+    192,
+    269
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 838,
-    "Attention": "nihil",
-    "Header": "ut",
-    "Name": "Boyle LLC",
-    "OurRef": "sed",
-    "YourRef": "corrupti",
-    "Description": "Reduced coherent superstructure",
-    "DocumentTemplate": "nihil",
+    "DocumentId": 843,
+    "Attention": "reprehenderit",
+    "Header": "dolor",
+    "Name": "Mertz, Orn and Dibbert",
+    "OurRef": "ex",
+    "YourRef": "reprehenderit",
+    "Description": "Intuitive zero administration projection",
+    "DocumentTemplate": "possimus",
     "IsPublished": false,
-    "PersonId": 654,
-    "PersonFullName": "Miss Nathanael Rodrick Runolfsson",
-    "AssociateFullName": "Ms. Maureen Aliza Stehr Sr.",
-    "ContactId": 676,
-    "ContactName": "Bednar, Carroll and Morar",
-    "ProjectId": 295,
-    "ProjectName": "Kovacek LLC",
-    "AssociateId": 992,
-    "Snum": 15,
-    "SaleId": 915,
-    "SaleName": "Koelpin LLC",
+    "PersonId": 298,
+    "PersonFullName": "Ceasar Homenick",
+    "AssociateFullName": "Alexander Bauch II",
+    "ContactId": 375,
+    "ContactName": "Champlin-Ebert",
+    "ProjectId": 927,
+    "ProjectName": "Pfannerstill-Weimann",
+    "AssociateId": 454,
+    "Snum": 886,
+    "SaleId": 482,
+    "SaleName": "Reichel-O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 413
       }
     }
   }

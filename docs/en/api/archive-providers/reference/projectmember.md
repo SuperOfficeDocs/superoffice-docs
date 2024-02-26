@@ -526,7 +526,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=contact/searchPhone/formattedNumber,contact/LastActivity,person/personPrivate/formattedNumber
+GET /api/v1/archive/ProjectMember?$select=person/personNumber,person/kanaFirstName,person/correspondingAssociate/contactCategory,contact/stop,contact/email/emailLastBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

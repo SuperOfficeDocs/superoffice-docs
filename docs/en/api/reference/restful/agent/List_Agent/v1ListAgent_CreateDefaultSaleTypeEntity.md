@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 725,
-  "Name": "Harber-O'Kon",
-  "Tooltip": "qui",
-  "Rank": 666,
+  "SaleTypeId": 115,
+  "Name": "Wilderman, Watsica and Jerde",
+  "Tooltip": "sit",
+  "Rank": 355,
   "DurationUnit": "Century",
-  "SaleDuration": 931,
-  "SaleTypeCatId": 423,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 507,
+  "SaleTypeCatId": 544,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 567,
-  "QuoteLinesTemplate": 283,
-  "ConfirmationLinesTemplate": 66,
+  "DefaultQuoteValidity": 933,
+  "QuoteLinesTemplate": 305,
+  "ConfirmationLinesTemplate": 622,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 357,
-  "MinEarningPercent": 561,
-  "GroupQuoteLinesBy": 230,
-  "SortGroupLinesBy": 464,
+  "MaxDiscountPercent": 675,
+  "MinEarningPercent": 480,
+  "GroupQuoteLinesBy": 116,
+  "SortGroupLinesBy": 892,
   "Stages": [
     {
-      "Id": 705,
-      "Name": "Jacobson-Christiansen",
-      "ToolTip": "Quis voluptas est sint tenetur id quis.",
+      "Id": 935,
+      "Name": "Greenholt-Renner",
+      "ToolTip": "Incidunt illum eius asperiores qui tempore.",
       "Deleted": false,
-      "Rank": 399,
-      "Type": "occaecati",
-      "ColorBlock": 813,
-      "IconHint": "mollitia",
+      "Rank": 755,
+      "Type": "aut",
+      "ColorBlock": 306,
+      "IconHint": "soluta",
       "Selected": true,
-      "LastChanged": "1997-04-09T16:54:55.6269846+02:00",
+      "LastChanged": "2004-04-28T10:30:24.0725232+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iure",
-      "StyleHint": "quidem",
+      "ExtraInfo": "id",
+      "StyleHint": "inventore",
       "Hidden": false,
-      "FullName": "Mr. Walker Halvorson MD",
+      "FullName": "Braden Wintheiser IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldType": "System.String",
+          "FieldLength": 667
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

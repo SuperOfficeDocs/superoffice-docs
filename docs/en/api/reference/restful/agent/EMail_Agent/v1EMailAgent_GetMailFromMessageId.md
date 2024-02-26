@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "deleniti"
+  "MessageId": "beatae"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 685,
-      "ContactName": "Donnelly-Kuhlman",
-      "PersonId": 540,
-      "PersonName": "Kris Group",
-      "AssociateId": 723,
-      "Address": "maiores",
-      "EmailId": 599,
+      "ContactId": 66,
+      "ContactName": "Schultz-Heller",
+      "PersonId": 94,
+      "PersonName": "Welch-Ryan",
+      "AssociateId": 934,
+      "Address": "sint",
+      "EmailId": 88,
       "DuplicatePersonIds": [
-        65,
-        215
+        552,
+        77
       ],
-      "Name": "Herzog LLC",
+      "Name": "Hirthe-Bogan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 368
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 369,
-      "ContactName": "Ritchie, Tromp and Schmitt",
-      "PersonId": 493,
-      "PersonName": "Feest-Tillman",
-      "AssociateId": 248,
-      "Address": "earum",
-      "EmailId": 399,
+      "ContactId": 93,
+      "ContactName": "Glover-Witting",
+      "PersonId": 567,
+      "PersonName": "Marks-Ondricka",
+      "AssociateId": 244,
+      "Address": "maiores",
+      "EmailId": 491,
       "DuplicatePersonIds": [
-        269,
-        396
+        420,
+        893
       ],
-      "Name": "Moen-Wisoky",
+      "Name": "Johnston Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 97
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 954,
-      "ContactName": "Swift-Nolan",
-      "PersonId": 267,
-      "PersonName": "Lakin, Brown and Kemmer",
-      "AssociateId": 500,
-      "Address": "nostrum",
-      "EmailId": 775,
+      "ContactId": 500,
+      "ContactName": "Denesik, Erdman and Nader",
+      "PersonId": 595,
+      "PersonName": "Quitzon-Emmerich",
+      "AssociateId": 843,
+      "Address": "molestiae",
+      "EmailId": 310,
       "DuplicatePersonIds": [
-        417,
-        327
+        103,
+        157
       ],
-      "Name": "Weber-Swaniawski",
+      "Name": "Bradtke Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 400
         }
       }
     }
   ],
-  "Subject": "eius",
-  "HTMLBody": "maxime",
+  "Subject": "quasi",
+  "HTMLBody": "placeat",
   "From": null,
-  "Sent": "1999-07-13T16:54:55.307421+02:00",
-  "Size": 901,
+  "Sent": "2021-10-24T10:30:23.7355582+02:00",
+  "Size": 52,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "cum",
-  "PlainBody": "recusandae",
-  "IsSent": true,
+  "MessageID": "eligendi",
+  "PlainBody": "aliquid",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 865,
+  "ServerId": 162,
   "Attachments": [
     {
-      "Description": "Organic hybrid contingency",
-      "Filename": "ut",
-      "Size": 722,
-      "Type": "expedita",
-      "Encoding": "labore",
-      "Id": "quas",
-      "Disposition": "iusto",
+      "Description": "Reduced 24 hour framework",
+      "Filename": "voluptatem",
+      "Size": 918,
+      "Type": "nam",
+      "Encoding": "placeat",
+      "Id": "exercitationem",
+      "Disposition": "sint",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 950
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rice LLC",
+      "Name": "Murray-Carroll",
       "Values": [
-        "dolore",
-        "optio"
+        "laborum",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 496
+          "FieldLength": 188
         }
       }
     },
     {
-      "Name": "Rice LLC",
+      "Name": "Murray-Carroll",
       "Values": [
-        "dolore",
-        "optio"
+        "laborum",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 496
+          "FieldLength": 188
         }
       }
     }
   ],
-  "FolderName": "Fadel Inc and Sons",
-  "EmailItemId": 395,
-  "AccountId": 256,
-  "ReceivedAt": "2000-08-06T16:54:55.3084193+02:00",
+  "FolderName": "Kuhn-Graham",
+  "EmailItemId": 39,
+  "AccountId": 546,
+  "ReceivedAt": "2019-09-07T10:30:23.7355582+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-10-09T16:54:55.3084193+02:00",
+  "RepliedAt": "2022-11-25T10:30:23.7355582+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 928
     }
   }
 }

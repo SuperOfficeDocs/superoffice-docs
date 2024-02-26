@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 482,
-  "Select": "sint"
+  "SelectionId": 79,
+  "Select": "at"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Powlowski-Ziemann",
-    "PrimaryKey": 46,
+    "EntityName": "Farrell-Lesch",
+    "PrimaryKey": 356,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nobis",
-        "TooltipHint": "soluta",
-        "LinkHint": "quidem"
+        "DisplayValue": "sit",
+        "TooltipHint": "enim",
+        "LinkHint": "labore"
       }
     },
-    "LinkHint": "delectus",
-    "StyleHint": "ea",
+    "LinkHint": "suscipit",
+    "StyleHint": "a",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 447
       }
     }
   }

@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 371,
+  "DocumentId": 336,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "vel",
-  "Name": "Schaefer-Schinner",
-  "OurRef": "nam",
-  "YourRef": "error",
-  "CreatedDate": "2000-11-18T16:55:29.601526+01:00",
-  "UpdatedDate": "2023-04-05T16:55:29.601526+02:00",
-  "Description": "Virtual even-keeled capability",
+  "Attention": "ipsam",
+  "Header": "totam",
+  "Name": "Bailey, Collins and Bernhard",
+  "OurRef": "commodi",
+  "YourRef": "est",
+  "CreatedDate": "2002-10-10T10:30:32.0261799+02:00",
+  "UpdatedDate": "2011-12-29T10:30:32.0261799+01:00",
+  "Description": "Progressive fresh-thinking info-mediaries",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-04-18T16:55:29.6044395+02:00",
-  "ExternalRef": "voluptate",
+  "Date": "2013-10-15T10:30:32.0261799+02:00",
+  "ExternalRef": "laudantium",
   "Completed": "Completed",
-  "ActiveLinks": 748,
+  "ActiveLinks": 367,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Weber, McClure and Lockman",
-      "Id": 229,
-      "Description": "Reduced discrete local area network",
-      "ExtraInfo": "illo",
-      "LinkId": 866,
+      "EntityName": "Leannon Inc and Sons",
+      "Id": 346,
+      "Description": "Optional web-enabled monitoring",
+      "ExtraInfo": "deleniti",
+      "LinkId": 559,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 730
+          "FieldLength": 661
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 82,
-  "Snum": 738,
+  "SuggestedDocumentId": 781,
+  "Snum": 641,
   "UserDefinedFields": {
-    "SuperOffice:1": "Shad Metz",
-    "SuperOffice:2": "Mrs. Jensen Lynch Jr."
+    "SuperOffice:1": "700293625",
+    "SuperOffice:2": "Alexandrea Nader MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eos"
+    "CustomFields1": "aut",
+    "CustomFields2": "doloremque"
   },
-  "PublishEventDate": "2021-03-06T16:55:29.60544+01:00",
-  "PublishTo": "2005-05-30T16:55:29.60544+02:00",
-  "PublishFrom": "1998-10-14T16:55:29.60544+02:00",
+  "PublishEventDate": "2001-09-01T10:30:32.0261799+02:00",
+  "PublishTo": "2019-05-08T10:30:32.0261799+02:00",
+  "PublishFrom": "2006-06-04T10:30:32.0261799+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 773,
+      "VisibleId": 81,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldLength": 459
         }
       }
     },
     {
-      "VisibleId": 773,
+      "VisibleId": 81,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldLength": 459
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldType": "System.String",
+      "FieldLength": 228
     }
   }
 }

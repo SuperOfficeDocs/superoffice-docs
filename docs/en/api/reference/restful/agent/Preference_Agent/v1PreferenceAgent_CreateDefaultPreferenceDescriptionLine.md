@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 411,
-  "PrefDescId": 312,
-  "PrefValue": "est",
-  "PrefShowValue": "ad",
-  "Description": "Robust scalable capability",
-  "IsBuiltin": false,
+  "PrefDescLineId": 520,
+  "PrefDescId": 495,
+  "PrefValue": "eum",
+  "PrefShowValue": "hic",
+  "Description": "Mandatory non-volatile challenge",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 225
     }
   }
 }

@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 530,
-  "Name": "Kilback-Nikolaus",
-  "Tooltip": "quod",
-  "VisibleColumns": 293,
-  "Rank": 790,
-  "AssocId": 120,
+  "DiaryViewId": 685,
+  "Name": "Auer LLC",
+  "Tooltip": "neque",
+  "VisibleColumns": 598,
+  "Rank": 926,
+  "AssocId": 802,
   "AssociateList": [
     {
-      "Id": 614,
-      "Name": "Cartwright-Rogahn",
-      "ToolTip": "Necessitatibus deserunt ducimus eius omnis officia.",
-      "Deleted": true,
-      "Rank": 593,
-      "Type": "est",
-      "ColorBlock": 1000,
-      "IconHint": "voluptas",
-      "Selected": true,
-      "LastChanged": "1998-06-28T16:54:54.8821705+02:00",
+      "Id": 650,
+      "Name": "Runolfsson-Walsh",
+      "ToolTip": "Vero consequatur animi alias nobis quia molestiae.",
+      "Deleted": false,
+      "Rank": 364,
+      "Type": "suscipit",
+      "ColorBlock": 764,
+      "IconHint": "tempore",
+      "Selected": false,
+      "LastChanged": "2000-06-14T10:30:23.2418173+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odio",
-      "StyleHint": "odit",
+      "ExtraInfo": "aut",
+      "StyleHint": "deleniti",
       "Hidden": false,
-      "FullName": "Dion Gulgowski"
+      "FullName": "Sophie Kub"
     }
   ],
-  "TzLocationId": 279
+  "TzLocationId": 421
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 437,
-  "Name": "Kovacek Inc and Sons",
-  "Tooltip": "atque",
-  "VisibleColumns": 165,
-  "Rank": 899,
-  "AssocId": 720,
+  "DiaryViewId": 76,
+  "Name": "Boyle LLC",
+  "Tooltip": "et",
+  "VisibleColumns": 417,
+  "Rank": 895,
+  "AssocId": 648,
   "AssociateList": [
     {
-      "Id": 887,
-      "Name": "Schaefer-Schmidt",
-      "ToolTip": "Quis et dignissimos blanditiis aut qui est.",
-      "Deleted": false,
-      "Rank": 84,
-      "Type": "et",
-      "ColorBlock": 713,
-      "IconHint": "tempore",
-      "Selected": true,
-      "LastChanged": "2004-05-05T16:54:54.8831705+02:00",
+      "Id": 548,
+      "Name": "Heller, Rau and Nolan",
+      "ToolTip": "Laborum qui velit nihil.",
+      "Deleted": true,
+      "Rank": 813,
+      "Type": "rerum",
+      "ColorBlock": 7,
+      "IconHint": "illo",
+      "Selected": false,
+      "LastChanged": "2017-06-11T10:30:23.2418173+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "porro",
-      "StyleHint": "rerum",
-      "Hidden": true,
-      "FullName": "Emilio Wyman MD",
+      "ExtraInfo": "maiores",
+      "StyleHint": "non",
+      "Hidden": false,
+      "FullName": "Mrs. Patsy Ruth Wyman II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 441
+          "FieldType": "System.Int32",
+          "FieldLength": 249
         }
       }
     }
   ],
-  "TzLocationId": 117,
+  "TzLocationId": 543,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 590
     }
   }
 }

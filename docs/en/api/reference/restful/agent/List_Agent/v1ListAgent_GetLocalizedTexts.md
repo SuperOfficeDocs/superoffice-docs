@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 245,
-    "ResourceId": 370,
-    "Text": "repellendus",
+    "LanguageId": 857,
+    "ResourceId": 129,
+    "Text": "neque",
     "Type": "Column",
-    "LocalizedTextId": 895,
+    "LocalizedTextId": 748,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 401
       }
     }
   }

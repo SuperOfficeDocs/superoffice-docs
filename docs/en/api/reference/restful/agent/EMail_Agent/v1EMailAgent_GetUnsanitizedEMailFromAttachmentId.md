@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 657,
+  "EmailId": 637,
   "AttachmentIds": [
-    "voluptatum",
-    "quis"
+    "aut",
+    "consequatur"
   ],
   "IncludeAttachments": false
 }
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 796,
-      "ContactName": "Sporer-Gislason",
-      "PersonId": 627,
-      "PersonName": "Rosenbaum-Johnston",
-      "AssociateId": 929,
-      "Address": "sunt",
-      "EmailId": 508,
+      "ContactId": 585,
+      "ContactName": "Stark-Will",
+      "PersonId": 458,
+      "PersonName": "Senger, Hermann and Mitchell",
+      "AssociateId": 716,
+      "Address": "sequi",
+      "EmailId": 818,
       "DuplicatePersonIds": [
-        51,
-        913
+        108,
+        516
       ],
-      "Name": "Bauch Group",
+      "Name": "Goodwin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 493
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 880,
-      "ContactName": "West-Brakus",
-      "PersonId": 746,
-      "PersonName": "Mertz Group",
-      "AssociateId": 365,
-      "Address": "qui",
-      "EmailId": 690,
+      "ContactId": 329,
+      "ContactName": "McCullough-Watsica",
+      "PersonId": 967,
+      "PersonName": "Williamson-Mohr",
+      "AssociateId": 434,
+      "Address": "tenetur",
+      "EmailId": 415,
       "DuplicatePersonIds": [
-        505,
-        251
+        405,
+        143
       ],
-      "Name": "Cronin, Bernier and Crist",
+      "Name": "Murphy, McLaughlin and O'Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 291
+          "FieldLength": 238
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 924,
-      "ContactName": "Stroman-Homenick",
-      "PersonId": 33,
-      "PersonName": "Pagac Group",
-      "AssociateId": 596,
-      "Address": "quas",
-      "EmailId": 836,
+      "ContactId": 816,
+      "ContactName": "Koss, Lemke and Davis",
+      "PersonId": 482,
+      "PersonName": "Howe Inc and Sons",
+      "AssociateId": 734,
+      "Address": "voluptas",
+      "EmailId": 695,
       "DuplicatePersonIds": [
-        751,
-        166
+        558,
+        245
       ],
-      "Name": "Kerluke, Hoppe and Kilback",
+      "Name": "Bartell, Strosin and Thiel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldLength": 182
         }
       }
     }
   ],
-  "Subject": "in",
-  "HTMLBody": "in",
+  "Subject": "et",
+  "HTMLBody": "voluptatem",
   "From": null,
-  "Sent": "2018-06-28T16:54:55.3839571+02:00",
-  "Size": 100,
+  "Sent": "2016-06-28T10:30:23.8136779+02:00",
+  "Size": 509,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iusto",
-  "PlainBody": "eum",
+  "MessageID": "et",
+  "PlainBody": "culpa",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 979,
+  "ServerId": 595,
   "Attachments": [
     {
-      "Description": "Phased object-oriented installation",
-      "Filename": "incidunt",
-      "Size": 725,
-      "Type": "est",
-      "Encoding": "quidem",
-      "Id": "dignissimos",
-      "Disposition": "at",
+      "Description": "Intuitive high-level matrices",
+      "Filename": "nostrum",
+      "Size": 126,
+      "Type": "voluptas",
+      "Encoding": "et",
+      "Id": "suscipit",
+      "Disposition": "aliquid",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldType": "System.Int32",
+          "FieldLength": 292
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gibson Inc and Sons",
+      "Name": "Hills, Hodkiewicz and Deckow",
       "Values": [
-        "qui",
-        "rerum"
+        "in",
+        "eaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 798
         }
       }
     },
     {
-      "Name": "Gibson Inc and Sons",
+      "Name": "Hills, Hodkiewicz and Deckow",
       "Values": [
-        "qui",
-        "rerum"
+        "in",
+        "eaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 798
         }
       }
     }
   ],
-  "FolderName": "Gibson, Breitenberg and Feest",
-  "EmailItemId": 407,
-  "AccountId": 535,
-  "ReceivedAt": "2018-08-02T16:54:55.3849472+02:00",
+  "FolderName": "Beahan-Anderson",
+  "EmailItemId": 929,
+  "AccountId": 396,
+  "ReceivedAt": "2013-07-30T10:30:23.8136779+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-11-15T16:54:55.3849472+01:00",
+  "RepliedAt": "2000-02-05T10:30:23.8136779+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   }
 }

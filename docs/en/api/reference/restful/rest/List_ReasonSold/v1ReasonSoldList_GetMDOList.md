@@ -27,7 +27,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=delectus
+GET /api/v1/List/ReasonSold/MDOItems?query=soluta
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Kshlerin, Murphy and Runte",
-    "ToolTip": "Est quidem mollitia.",
-    "Deleted": true,
-    "Rank": 237,
-    "Type": "quasi",
+    "Id": 388,
+    "Name": "Gulgowski-Gerlach",
+    "ToolTip": "Quidem exercitationem maxime.",
+    "Deleted": false,
+    "Rank": 897,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Quigley Inc and Sons",
-        "ToolTip": "Et neque.",
-        "Deleted": false,
-        "Rank": 637,
-        "Type": "voluptates",
+        "Id": 836,
+        "Name": "Lindgren Group",
+        "ToolTip": "Alias minus et incidunt.",
+        "Deleted": true,
+        "Rank": 780,
+        "Type": "porro",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 242,
-        "ExtraInfo": "quasi",
-        "StyleHint": "cumque",
-        "FullName": "Mr. Rossie Schmitt Sr.",
+        "IconHint": "omnis",
+        "ColorBlock": 333,
+        "ExtraInfo": "maxime",
+        "StyleHint": "voluptas",
+        "FullName": "Mr. Lilly Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 530
+            "FieldType": "System.String",
+            "FieldLength": 795
           }
         }
       }
     ],
-    "IconHint": "blanditiis",
-    "ColorBlock": 217,
-    "ExtraInfo": "tenetur",
-    "StyleHint": "modi",
-    "FullName": "Madilyn Auer",
+    "IconHint": "labore",
+    "ColorBlock": 322,
+    "ExtraInfo": "eius",
+    "StyleHint": "distinctio",
+    "FullName": "Prof. Corbin Ferry Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldLength": 917
       }
     }
   }

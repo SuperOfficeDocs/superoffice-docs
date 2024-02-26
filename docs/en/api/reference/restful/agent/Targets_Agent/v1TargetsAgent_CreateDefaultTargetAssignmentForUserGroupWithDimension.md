@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 250,
-  "TargetDimensionId": 3
+  "UserGroupId": 273,
+  "TargetDimensionId": 960
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 138,
+    "TargetAssignmentInfoId": 582,
     "Values": [
-      851,
-      964
+      398,
+      431
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 942,
-    "DimensionListItemDisplayName": "Walter, Smith and Fay",
+    "DimensionListItem": 123,
+    "DimensionListItemDisplayName": "Metz-Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldLength": 81
       }
     }
   }

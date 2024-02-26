@@ -71,32 +71,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Collier-Schultz",
+  "ProviderName": "Stehr, Breitenberg and Romaguera",
   "Restrictions": [
     {
-      "Name": "Swift Group",
-      "Operator": "facere",
+      "Name": "Considine-Kling",
+      "Operator": "voluptatem",
       "Values": [
-        "modi",
-        "cum"
+        "praesentium",
+        "quia"
       ],
       "DisplayValues": [
-        "qui",
-        "molestias"
+        "sed",
+        "quod"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 997,
+      "InterParenthesis": 800,
       "InterOperator": "And",
-      "UniqueHash": 846
+      "UniqueHash": 237
     }
   ],
-  "AssociateId": 219,
-  "ExtraInfo": "assumenda"
+  "AssociateId": 93,
+  "ExtraInfo": "natus"
 }
 ```
 

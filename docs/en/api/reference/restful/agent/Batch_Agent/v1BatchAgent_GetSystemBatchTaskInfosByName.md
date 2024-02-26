@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Mann, Satterfield and Schroeder"
+  "TaskName": "Schneider, Altenwerth and Ebert"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Kreiger-Will",
-    "AssociateId": 597,
-    "DetailsTable": 767,
-    "DetailsRecord": 852,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 796,
+    "Name": "Wehner Inc and Sons",
+    "AssociateId": 545,
+    "DetailsTable": 24,
+    "DetailsRecord": 438,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptas",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "et",
+      "ParameterObject2": "reprehenderit"
     },
-    "LastStarted": "2007-12-21T16:54:54.6083022+01:00",
-    "Created": "2013-06-09T16:54:54.6083022+02:00",
-    "StartCount": 613,
-    "DatabaseSerialNumber": "1095371",
-    "Context": "ut",
-    "Result": "sunt",
+    "LastStarted": "2001-12-21T10:30:23.0982933+01:00",
+    "Created": "2022-08-08T10:30:23.0982933+02:00",
+    "StartCount": 837,
+    "DatabaseSerialNumber": "676769",
+    "Context": "ratione",
+    "Result": "doloribus",
     "State": "All",
-    "Description": "Customer-focused transitional parallelism",
-    "Response": "quam",
-    "Request": "magnam",
-    "ProgressDescription": "Extended foreground emulation",
-    "ProgressPercent": 180,
-    "FileName": "Wolff LLC",
+    "Description": "Decentralized bi-directional forecast",
+    "Response": "adipisci",
+    "Request": "eligendi",
+    "ProgressDescription": "Progressive grid-enabled attitude",
+    "ProgressPercent": 63,
+    "FileName": "Hilll, Padberg and Gerhold",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldLength": 288
       }
     }
   }

@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized tangible time-frame",
-  "Postit": "est",
+  "Description": "Robust multi-state array",
+  "Postit": "dolorum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 799,
-  "IncludePerson": 319,
-  "MemberCount": 190,
-  "Name": "Marks Group",
-  "PostitTextId": 135,
-  "CreatedDate": "2020-06-24T16:54:56.313619+02:00",
-  "SelectionId": 330,
-  "SoundEx": "et",
-  "Source": 943,
-  "TextId": 929,
-  "UpdatedDate": "2013-09-07T16:54:56.313619+02:00",
-  "UpdatedCount": 190,
-  "Visibility": 285,
+  "GroupIdx": 742,
+  "IncludePerson": 81,
+  "MemberCount": 50,
+  "Name": "Casper LLC",
+  "PostitTextId": 228,
+  "CreatedDate": "2009-04-11T10:30:24.5908785+02:00",
+  "SelectionId": 505,
+  "SoundEx": "quia",
+  "Source": 809,
+  "TextId": 22,
+  "UpdatedDate": "2008-08-02T10:30:24.5908785+02:00",
+  "UpdatedCount": 315,
+  "Visibility": 739,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 837,
-  "TargetTableName": "Klocko, Bosco and Simonis",
+  "CompanyUnique": true,
+  "TargetTableNumber": 973,
+  "TargetTableName": "Flatley-Hammes",
   "Completed": true,
-  "LeftSelectionId": 866,
-  "RightSelectionId": 719,
+  "LeftSelectionId": 177,
+  "RightSelectionId": 692,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Goldner-Fisher",
-  "ShadowProviderName": "Turcotte Group",
-  "ChartKey": "nihil",
-  "LastLoaded": "1997-08-05T16:54:56.313619+02:00",
-  "LastLoadedBy": 568,
+  "MainProviderName": "Reichert Inc and Sons",
+  "ShadowProviderName": "VonRueden, Hoeger and Bradtke",
+  "ChartKey": "quis",
+  "LastLoaded": "2014-01-17T10:30:24.5908785+01:00",
+  "LastLoadedBy": 224,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-04-02T16:54:56.314605+02:00",
-  "LastMembershipChangeBy": 77,
+  "LastMembershipChange": "1999-09-12T10:30:24.5908785+02:00",
+  "LastMembershipChangeBy": 131,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sunt",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Koss LLC",
-  "DashboardTileDefinitionId": 328,
+  "MainHeading": "iste",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Bernier LLC",
+  "DashboardTileDefinitionId": 91,
   "VisibleFor": [
     {
-      "VisibleId": 976,
+      "VisibleId": 833,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldType": "System.String",
+          "FieldLength": 830
         }
       }
     },
     {
-      "VisibleId": 976,
+      "VisibleId": 833,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 965
+          "FieldType": "System.String",
+          "FieldLength": 830
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldLength": 5
     }
   }
 }

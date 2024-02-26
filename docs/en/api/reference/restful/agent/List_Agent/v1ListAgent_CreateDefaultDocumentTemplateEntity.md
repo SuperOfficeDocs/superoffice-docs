@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 798,
-  "Name": "Grimes, Stoltenberg and Swaniawski",
-  "Tooltip": "sint",
-  "SaveInDb": 453,
-  "Filename": "aut",
-  "DefaultOref": "quia",
+  "DocumentTemplateId": 18,
+  "Name": "Rippin-Hamill",
+  "Tooltip": "beatae",
+  "SaveInDb": 432,
+  "Filename": "dolorem",
+  "DefaultOref": "sunt",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 588,
-  "IntentId": 696,
-  "IsDefaultPublished": true,
-  "Rank": 532,
-  "LoadTemplateFromPlugin": 646,
-  "MimeType": "ipsa",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 593,
+  "AutoeventId": 178,
+  "IntentId": 914,
+  "IsDefaultPublished": false,
+  "Rank": 732,
+  "LoadTemplateFromPlugin": 786,
+  "MimeType": "sunt",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 655,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "vincenza_dubuque@corwin.name",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "mohammed@beahanrobel.name",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "twila.stark@kozeymorissette.ca",
+  "SenderEmailAddress": "dortha_mueller@walsh.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 444
     }
   }
 }

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 572,
-  "ConnectionId": 418,
-  "FirstAlternativeName": "Streich Inc and Sons"
+  "SaleId": 730,
+  "ConnectionId": 52,
+  "FirstAlternativeName": "Towne, Buckridge and McDermott"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 777,
-  "SaleId": 768,
-  "QuoteConnectionId": 169,
-  "ERPQuoteKey": "accusamus",
-  "ERPOrderKey": "inventore",
-  "ActiveQuoteVersionId": 590,
-  "AcceptedQuoteAlternativeId": 815,
-  "UseValuesFromQuote": 459,
-  "DocumentId": 60,
-  "PoNumber": "915106",
-  "OrderComment": "dolor",
-  "PreferredEmailCulture": "anabel_abshire@bednar.info",
+  "QuoteId": 442,
+  "SaleId": 493,
+  "QuoteConnectionId": 210,
+  "ERPQuoteKey": "perspiciatis",
+  "ERPOrderKey": "nam",
+  "ActiveQuoteVersionId": 617,
+  "AcceptedQuoteAlternativeId": 17,
+  "UseValuesFromQuote": 6,
+  "DocumentId": 704,
+  "PoNumber": "1458411",
+  "OrderComment": "dolorum",
+  "PreferredEmailCulture": "rosalia_durgan@bergnaum.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 705,
-      "ERPQuoteVersionKey": "perferendis",
-      "QuoteId": 593,
-      "Description": "Cloned scalable orchestration",
-      "Number": "1095238",
+      "QuoteVersionId": 417,
+      "ERPQuoteVersionKey": "consequuntur",
+      "QuoteId": 214,
+      "Description": "Centralized upward-trending application",
+      "Number": "809328",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 135,
-      "SentDate": "2003-07-09T16:54:56.1459355+02:00",
-      "FollowupId": 109,
-      "ExpirationDate": "2008-08-03T16:54:56.1459355+02:00",
-      "DeliveryCountryId": 671,
+      "LikelyQuoteAlternativeId": 105,
+      "SentDate": "2016-06-11T10:30:24.4346264+02:00",
+      "FollowupId": 493,
+      "ExpirationDate": "2018-05-18T10:30:24.4346264+02:00",
+      "DeliveryCountryId": 839,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 929,
+      "InvoiceCountryId": 597,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "dolorem",
-      "ERPPaymentTypeKey": "eveniet",
-      "ERPDeliveryTermsKey": "voluptatum",
-      "ERPDeliveryTypeKey": "consequatur",
-      "Rank": 564,
-      "ApprovedBy": 977,
-      "ApprovedText": "cum",
-      "ApprovedRegisteredBy": 963,
-      "ApprovedRegisteredDate": "2022-06-20T16:54:56.1459355+02:00",
-      "ExtraField1": "molestiae",
-      "ExtraField2": "architecto",
-      "ExtraField3": "autem",
-      "ExtraField4": "perspiciatis",
-      "ExtraField5": "vel",
-      "LastRecalculated": "2002-11-17T16:54:56.1459355+01:00",
-      "Updated": "2014-04-11T16:54:56.1459355+02:00",
-      "UpdatedAssociateId": 951,
-      "Registered": "2011-12-27T16:54:56.1459355+01:00",
-      "RegisteredAssociateId": 153,
-      "RequestAssociateId": 624,
-      "RequestComment": "iusto",
+      "ERPPaymentTermsKey": "accusamus",
+      "ERPPaymentTypeKey": "accusantium",
+      "ERPDeliveryTermsKey": "non",
+      "ERPDeliveryTypeKey": "eligendi",
+      "Rank": 519,
+      "ApprovedBy": 507,
+      "ApprovedText": "neque",
+      "ApprovedRegisteredBy": 140,
+      "ApprovedRegisteredDate": "2003-03-09T10:30:24.4346264+01:00",
+      "ExtraField1": "voluptatem",
+      "ExtraField2": "ut",
+      "ExtraField3": "quibusdam",
+      "ExtraField4": "at",
+      "ExtraField5": "natus",
+      "LastRecalculated": "2000-09-30T10:30:24.4346264+02:00",
+      "Updated": "2012-07-23T10:30:24.4346264+02:00",
+      "UpdatedAssociateId": 444,
+      "Registered": "2022-01-26T10:30:24.4346264+01:00",
+      "RegisteredAssociateId": 185,
+      "RequestAssociateId": 22,
+      "RequestComment": "reprehenderit",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 603
+          "FieldLength": 713
         }
       }
     }
@@ -174,8 +174,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldType": "System.String",
+      "FieldLength": 117
     }
   }
 }

@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 411,
-  "AttachmentId": "eius"
+  "DocId": 809,
+  "AttachmentId": "veniam"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable demand-driven moratorium",
-  "Filename": "ut",
-  "Size": 83,
-  "Type": "soluta",
-  "Encoding": "ut",
-  "Id": "repudiandae",
-  "Disposition": "ut",
-  "IsSafeFileExtension": false,
+  "Description": "Up-sized disintermediate neural-net",
+  "Filename": "quia",
+  "Size": 369,
+  "Type": "dolorum",
+  "Encoding": "hic",
+  "Id": "ducimus",
+  "Disposition": "officia",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 788
     }
   }
 }

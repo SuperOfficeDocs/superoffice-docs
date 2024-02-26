@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Goldner-Little",
-  "ListItemId": 160,
+  "UdListDefinitionName": "Simonis, Purdy and Collier",
+  "ListItemId": 319,
   "UserGroups": [
     {
-      "Id": 502,
-      "Name": "Cormier, Bergstrom and McCullough",
-      "ToolTip": "Recusandae consequatur ea quo.",
+      "Id": 346,
+      "Name": "Lindgren-Kris",
+      "ToolTip": "Ut odio.",
       "Deleted": false,
-      "Rank": 565,
-      "Type": "labore",
-      "ColorBlock": 713,
-      "IconHint": "quos",
-      "Selected": true,
-      "LastChanged": "2002-05-09T16:54:55.5599838+02:00",
+      "Rank": 685,
+      "Type": "minus",
+      "ColorBlock": 556,
+      "IconHint": "omnis",
+      "Selected": false,
+      "LastChanged": "2014-10-29T10:30:23.9944062+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "omnis",
+      "ExtraInfo": "sit",
+      "StyleHint": "quibusdam",
       "Hidden": true,
-      "FullName": "Brennan Schultz MD"
+      "FullName": "Mr. Francesca Kreiger IV"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 763,
-    "Name": "Fritsch-Lind",
-    "ToolTip": "Possimus soluta harum.",
-    "Deleted": true,
-    "Rank": 935,
-    "Type": "omnis",
-    "ColorBlock": 280,
-    "IconHint": "sed",
+    "Id": 513,
+    "Name": "Kautzer, Kunze and Raynor",
+    "ToolTip": "Placeat nisi suscipit veniam sit ut.",
+    "Deleted": false,
+    "Rank": 802,
+    "Type": "odio",
+    "ColorBlock": 290,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2023-08-24T16:54:55.5609838+02:00",
+    "LastChanged": "2011-12-12T10:30:23.9944062+01:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Kuhn-Rolfson",
-        "ToolTip": "Molestiae non a facere ut.",
+        "Id": 204,
+        "Name": "Daugherty Inc and Sons",
+        "ToolTip": "Ad adipisci doloribus et iste error porro eaque.",
         "Deleted": true,
-        "Rank": 674,
-        "Type": "quia",
-        "ColorBlock": 535,
-        "IconHint": "sunt",
+        "Rank": 882,
+        "Type": "similique",
+        "ColorBlock": 530,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2015-05-30T16:54:55.5609838+02:00",
+        "LastChanged": "2007-03-18T10:30:23.9944062+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Dr. Perry Thurman Johnson",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "excepturi",
+        "Hidden": true,
+        "FullName": "Phyllis Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 741
+            "FieldType": "System.String",
+            "FieldLength": 303
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "error",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Kennith Welch",
+    "FullName": "Juwan Rau",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 251
       }
     }
   }

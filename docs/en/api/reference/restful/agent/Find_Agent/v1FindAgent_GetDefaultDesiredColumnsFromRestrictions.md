@@ -86,32 +86,32 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kreiger-Pouros",
+  "ProviderName": "O'Connell Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Rath LLC",
-      "Operator": "ut",
+      "Name": "McLaughlin LLC",
+      "Operator": "aut",
       "Values": [
-        "repellendus",
-        "harum"
+        "voluptatem",
+        "debitis"
       ],
       "DisplayValues": [
-        "enim",
-        "tempore"
+        "quae",
+        "cupiditate"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 995,
+      "InterParenthesis": 479,
       "InterOperator": "And",
-      "UniqueHash": 892
+      "UniqueHash": 86
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Moen, Langosh and Nader",
-    "DisplayTooltip": "maiores",
-    "DisplayType": "et",
-    "CanOrderBy": true,
-    "Name": "Davis Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "itaque",
-    "RestrictionListName": "Nienow Inc and Sons",
-    "IsVisible": false,
-    "ExtraInfo": "error",
+    "DisplayName": "Gulgowski Inc and Sons",
+    "DisplayTooltip": "saepe",
+    "DisplayType": "maxime",
+    "CanOrderBy": false,
+    "Name": "McDermott, Feil and Nicolas",
+    "CanRestrictBy": true,
+    "RestrictionType": "sit",
+    "RestrictionListName": "Schaefer Inc and Sons",
+    "IsVisible": true,
+    "ExtraInfo": "quasi",
     "Width": "et",
-    "IconHint": "hic",
-    "HeadingIconHint": "laudantium"
+    "IconHint": "deleniti",
+    "HeadingIconHint": "aperiam"
   }
 ]
 ```

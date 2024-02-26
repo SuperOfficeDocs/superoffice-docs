@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 342,
-    "ColumnId": 342,
-    "FieldDefault": "alias",
-    "FieldHeight": 914,
-    "FieldLabel": "occaecati",
-    "FieldLeft": 254,
-    "FieldTop": 409,
+    "UDefFieldId": 67,
+    "ColumnId": 7,
+    "FieldDefault": "sed",
+    "FieldHeight": 374,
+    "FieldLabel": "quos",
+    "FieldLeft": 152,
+    "FieldTop": 300,
     "FieldType": "Checkbox",
-    "FieldWidth": 295,
-    "FormatMask": "natus",
+    "FieldWidth": 21,
+    "FormatMask": "in",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 557,
-    "LabelLeft": 319,
-    "LabelTop": 100,
-    "LabelWidth": 377,
-    "LastVersionId": 892,
-    "ListTableId": 384,
+    "IsIndexed": false,
+    "LabelHeight": 648,
+    "LabelLeft": 100,
+    "LabelTop": 709,
+    "LabelWidth": 596,
+    "LastVersionId": 457,
+    "ListTableId": 365,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 517,
-    "ProgId": "fugiat",
+    "Page1LineNo": 623,
+    "ProgId": "eius",
     "IsReadOnly": false,
-    "ShortLabel": "eos",
-    "TabOrder": 762,
-    "TextLength": 207,
-    "Tooltip": "pariatur",
-    "UdefIdentity": 700,
-    "UDListDefinitionId": 30,
+    "ShortLabel": "vel",
+    "TabOrder": 597,
+    "TextLength": 984,
+    "Tooltip": "dicta",
+    "UdefIdentity": 966,
+    "UDListDefinitionId": 538,
     "Justification": "Center",
-    "Version": 229,
-    "TemplateVariableName": "Maggio, Johns and Hansen",
+    "Version": 523,
+    "TemplateVariableName": "Gleason-Mertz",
     "HasBeenPublished": true,
-    "MdoListName": "Hand Group",
+    "MdoListName": "Lakin Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldType": "System.String",
+        "FieldLength": 45
       }
     }
   }

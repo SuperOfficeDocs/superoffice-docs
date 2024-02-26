@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 461,
-  "Name": "Johns Group",
-  "Tooltip": "voluptas",
+  "Id": 86,
+  "Name": "Veum-Witting",
+  "Tooltip": "sint",
   "Deleted": false,
-  "UdListDefinitionId": 9,
-  "Rank": 490,
+  "UdListDefinitionId": 545,
+  "Rank": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldType": "System.String",
+      "FieldLength": 961
     }
   }
 }

@@ -43,7 +43,8 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1|Contact data|||
-|2|Form submission|||
+|2|Form submission yes/no|||
+|6|Form data|||
 |3|Link Clicked|||
 |4|Project membership|||
 |5|Selection member|||

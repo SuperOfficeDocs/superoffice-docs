@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 603,
-  "Name": "Heidenreich Inc and Sons",
+  "TicketPriorityId": 863,
+  "Name": "Green, Kunze and Cassin",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 41,
+  "SortOrder": 294,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 400,
-  "MonStart": "2017-11-11T16:54:55.6319847+01:00",
-  "MonStop": "1999-05-12T16:54:55.6319847+02:00",
-  "TueStart": "2011-09-19T16:54:55.6319847+02:00",
-  "TueStop": "2012-07-13T16:54:55.6319847+02:00",
-  "WedStart": "2009-05-13T16:54:55.6319847+02:00",
-  "WedStop": "2009-02-01T16:54:55.6319847+01:00",
-  "ThuStart": "2003-09-30T16:54:55.6319847+02:00",
-  "ThuStop": "2002-01-27T16:54:55.6319847+01:00",
-  "FriStart": "1998-10-29T16:54:55.6319847+01:00",
-  "FriStop": "2014-02-13T16:54:55.6319847+01:00",
-  "SatStart": "2012-03-04T16:54:55.6319847+01:00",
-  "SatStop": "2015-06-21T16:54:55.6319847+02:00",
-  "SunStart": "2006-06-22T16:54:55.6319847+02:00",
-  "SunStop": "2004-11-14T16:54:55.6319847+01:00",
+  "Deadline": 12,
+  "MonStart": "2016-05-13T10:30:24.088153+02:00",
+  "MonStop": "2005-06-28T10:30:24.088153+02:00",
+  "TueStart": "2006-09-05T10:30:24.088153+02:00",
+  "TueStop": "2008-12-14T10:30:24.088153+01:00",
+  "WedStart": "2019-08-13T10:30:24.088153+02:00",
+  "WedStop": "2003-08-21T10:30:24.088153+02:00",
+  "ThuStart": "2013-06-27T10:30:24.088153+02:00",
+  "ThuStop": "2000-07-12T10:30:24.088153+02:00",
+  "FriStart": "2021-02-11T10:30:24.088153+01:00",
+  "FriStop": "2012-12-16T10:30:24.088153+01:00",
+  "SatStart": "2002-05-26T10:30:24.088153+02:00",
+  "SatStop": "2020-02-03T10:30:24.088153+01:00",
+  "SunStart": "2012-03-05T10:30:24.088153+01:00",
+  "SunStop": "2020-04-17T10:30:24.088153+02:00",
   "NonDates": [
-    "quia",
-    "quo"
+    "laborum",
+    "commodi"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 386,
-      "AlertLevel": 521,
-      "AlertTimeout": 934,
-      "Action": 593,
-      "DelegateTo": 547,
-      "ScriptId": 564,
-      "EmailTo": "manuel@schulist.ca",
-      "SmsTo": "a",
-      "ReplyTemplateIdCustomer": 568,
-      "ReplyTemplateIdUser": 801,
-      "ReplyTemplateIdCatmast": 324,
-      "ReplyTemplateIdEmail": 237,
-      "RtiCustomerSms": 748,
-      "ReplyTemplateIdUserSms": 231,
-      "ReplyTemplateIdCatmastSms": 24,
-      "ReplyTemplateIdSms": 986,
+      "TicketAlertId": 837,
+      "AlertLevel": 859,
+      "AlertTimeout": 847,
+      "Action": 923,
+      "DelegateTo": 129,
+      "ScriptId": 647,
+      "EmailTo": "dagmar_lindgren@hicklewisoky.ca",
+      "SmsTo": "nihil",
+      "ReplyTemplateIdCustomer": 216,
+      "ReplyTemplateIdUser": 967,
+      "ReplyTemplateIdCatmast": 325,
+      "ReplyTemplateIdEmail": 455,
+      "RtiCustomerSms": 415,
+      "ReplyTemplateIdUserSms": 195,
+      "ReplyTemplateIdCatmastSms": 153,
+      "ReplyTemplateIdSms": 323,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 892
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldType": "System.String",
+      "FieldLength": 932
     }
   }
 }

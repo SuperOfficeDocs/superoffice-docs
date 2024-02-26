@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnectors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,14 +81,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Satterfield-Rau",
-    "ToolTip": "Non dolor cumque ad repellat."
+    "Id": 952,
+    "Name": "Bergnaum, Wintheiser and Kertzmann",
+    "ToolTip": "Est unde."
   },
   {
-    "Id": 765,
-    "Name": "Satterfield-Rau",
-    "ToolTip": "Non dolor cumque ad repellat."
+    "Id": 952,
+    "Name": "Bergnaum, Wintheiser and Kertzmann",
+    "ToolTip": "Est unde."
   }
 ]
 ```

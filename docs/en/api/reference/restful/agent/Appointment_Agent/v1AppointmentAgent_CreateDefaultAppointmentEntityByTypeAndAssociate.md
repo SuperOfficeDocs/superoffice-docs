@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 239
+  "AssociateId": 375
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-08-26T16:54:54.4498891+02:00",
-  "AppointmentId": 365,
-  "Description": "Re-engineered assymetric Graphic Interface",
-  "Title": "hic",
-  "Agenda": "ab",
+  "CreatedDate": "2004-12-10T10:30:22.9264257+01:00",
+  "AppointmentId": 115,
+  "Description": "Customer-focused national attitude",
+  "Title": "suscipit",
+  "Agenda": "qui",
   "InternalNotes": "blanditiis",
-  "StartDate": "2019-04-11T16:54:54.4498891+02:00",
-  "EndDate": "2020-09-11T16:54:54.4498891+02:00",
+  "StartDate": "2011-09-17T10:30:22.9264257+02:00",
+  "EndDate": "1997-03-30T10:30:22.9264257+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 436,
+  "MotherId": 636,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-03-31T16:54:54.4519817+02:00",
+  "UpdatedDate": "2001-08-01T10:30:22.9264257+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 212,
+  "ActiveLinks": 183,
   "Links": [
     {
-      "EntityName": "Nicolas, Bogan and Quitzon",
-      "Id": 539,
-      "Description": "Vision-oriented grid-enabled definition",
-      "ExtraInfo": "veritatis",
-      "LinkId": 63,
+      "EntityName": "Bode LLC",
+      "Id": 68,
+      "Description": "Extended optimizing encoding",
+      "ExtraInfo": "et",
+      "LinkId": 596,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 71
+          "FieldType": "System.Int32",
+          "FieldLength": 302
         }
       }
     }
   ],
-  "AlarmLeadTime": "exercitationem",
-  "HasAlarm": false,
-  "ColorIndex": 148,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "qui",
-  "LeadTime": "sed",
-  "Location": "voluptas",
-  "RejectCounter": 8,
+  "AlarmLeadTime": "suscipit",
+  "HasAlarm": true,
+  "ColorIndex": 775,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "sint",
+  "LeadTime": "repellendus",
+  "Location": "eum",
+  "RejectCounter": 539,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 864,
-      "PersonId": 642,
-      "ContactId": 423,
-      "EmailId": 238,
+      "AssociateId": 620,
+      "PersonId": 775,
+      "ContactId": 960,
+      "EmailId": 401,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "nadia_crooks@gleichnerberge.info",
-      "Description": "Synergized 24 hour matrices"
+      "EmailAddress": "leo@paucek.co.uk",
+      "Description": "Realigned 3rd generation groupware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-07-15T16:54:54.4529835+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2015-07-27T10:30:22.9264257+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 203,
+  "PreferredTZLocation": 7,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 829,
+  "SuggestedAppointmentId": 619,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quo",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Kristin Keebler",
-    "SuperOffice:2": "Mr. Bridgette Dock Roob Jr."
+    "SuperOffice:1": "Miss Garland Rodriguez DVM",
+    "SuperOffice:2": "Hassie Lubowitz"
   },
   "ExtraFields": {
-    "ExtraFields1": "ex",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "ullam"
+    "CustomFields1": "tempora",
+    "CustomFields2": "libero"
   },
-  "PublishEventDate": "2017-07-13T16:54:54.454582+02:00",
-  "PublishTo": "2000-12-16T16:54:54.454582+01:00",
-  "PublishFrom": "2016-05-15T16:54:54.454582+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-12-07T10:30:22.9420513+01:00",
+  "PublishTo": "2019-02-12T10:30:22.9420513+01:00",
+  "PublishFrom": "2021-06-04T10:30:22.9420513+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 169,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 307
         }
       }
     },
     {
-      "VisibleId": 169,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 307
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

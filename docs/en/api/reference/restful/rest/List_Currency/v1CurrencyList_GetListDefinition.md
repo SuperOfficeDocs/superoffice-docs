@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Koss-VonRueden",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "Rank": 310,
+  "Id": 653,
+  "Name": "Nicolas Group",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 742,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "maxime",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   },
   "_Links": {

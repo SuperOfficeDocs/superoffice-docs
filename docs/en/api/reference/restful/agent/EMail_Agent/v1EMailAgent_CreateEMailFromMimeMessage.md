@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "inventore"
+  "MimeMessage": "non"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 834,
-      "ContactName": "Dietrich-Green",
-      "PersonId": 638,
-      "PersonName": "Moen Inc and Sons",
-      "AssociateId": 698,
-      "Address": "ipsum",
-      "EmailId": 205,
+      "ContactId": 743,
+      "ContactName": "Langworth-Pfeffer",
+      "PersonId": 131,
+      "PersonName": "Tremblay, Lebsack and Conroy",
+      "AssociateId": 213,
+      "Address": "atque",
+      "EmailId": 584,
       "DuplicatePersonIds": [
-        657,
-        119
+        435,
+        186
       ],
-      "Name": "Terry LLC",
+      "Name": "Olson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 971
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 268,
-      "ContactName": "Bailey-Towne",
-      "PersonId": 192,
-      "PersonName": "Reynolds, McCullough and Emmerich",
-      "AssociateId": 451,
-      "Address": "modi",
-      "EmailId": 800,
+      "ContactId": 646,
+      "ContactName": "Heathcote Group",
+      "PersonId": 538,
+      "PersonName": "Stroman-Krajcik",
+      "AssociateId": 472,
+      "Address": "tempore",
+      "EmailId": 577,
       "DuplicatePersonIds": [
-        359,
-        261
+        1000,
+        88
       ],
-      "Name": "Raynor-Langworth",
+      "Name": "Bartoletti, Kulas and Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 324
+          "FieldType": "System.Int32",
+          "FieldLength": 570
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 708,
-      "ContactName": "Gerhold, Hauck and Zemlak",
-      "PersonId": 411,
-      "PersonName": "Schmidt Group",
-      "AssociateId": 811,
-      "Address": "sit",
-      "EmailId": 873,
+      "ContactId": 89,
+      "ContactName": "Wolff Group",
+      "PersonId": 875,
+      "PersonName": "Hand-Zboncak",
+      "AssociateId": 262,
+      "Address": "facilis",
+      "EmailId": 196,
       "DuplicatePersonIds": [
-        316,
-        582
+        486,
+        964
       ],
-      "Name": "Hamill-Howe",
+      "Name": "Bednar, Harber and Douglas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 974
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "ad",
+  "Subject": "voluptatem",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2014-09-27T16:54:55.3970355+02:00",
-  "Size": 555,
+  "Sent": "2002-07-05T10:30:23.8293034+02:00",
+  "Size": 296,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "ut",
-  "IsSent": false,
+  "MessageID": "sed",
+  "PlainBody": "architecto",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 344,
+  "ServerId": 593,
   "Attachments": [
     {
-      "Description": "Right-sized optimal help-desk",
-      "Filename": "labore",
-      "Size": 828,
-      "Type": "sit",
-      "Encoding": "unde",
-      "Id": "sit",
-      "Disposition": "officiis",
-      "IsSafeFileExtension": false,
+      "Description": "Customizable discrete info-mediaries",
+      "Filename": "quis",
+      "Size": 978,
+      "Type": "accusantium",
+      "Encoding": "voluptate",
+      "Id": "maiores",
+      "Disposition": "in",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldType": "System.String",
+          "FieldLength": 74
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Reilly, Collier and Daugherty",
+      "Name": "Ritchie Inc and Sons",
       "Values": [
-        "modi",
-        "sit"
+        "dicta",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 178
         }
       }
     },
     {
-      "Name": "Reilly, Collier and Daugherty",
+      "Name": "Ritchie Inc and Sons",
       "Values": [
-        "modi",
-        "sit"
+        "dicta",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 178
         }
       }
     }
   ],
-  "FolderName": "Berge Group",
-  "EmailItemId": 950,
-  "AccountId": 670,
-  "ReceivedAt": "2019-06-02T16:54:55.3970355+02:00",
+  "FolderName": "Schneider, Paucek and Boyle",
+  "EmailItemId": 754,
+  "AccountId": 400,
+  "ReceivedAt": "2024-02-11T10:30:23.8293034+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-12-13T16:54:55.3970355+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2008-03-20T10:30:23.8293034+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 372
     }
   }
 }

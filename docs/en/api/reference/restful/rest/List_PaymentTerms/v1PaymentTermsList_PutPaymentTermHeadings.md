@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 816,
-    "Name": "Kuphal Inc and Sons",
-    "Tooltip": "est",
+    "HeadingId": 175,
+    "Name": "Bailey Inc and Sons",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 540,
-    "UdListDefinitionId": 342
+    "Rank": 893,
+    "UdListDefinitionId": 758
   },
   {
-    "HeadingId": 816,
-    "Name": "Kuphal Inc and Sons",
-    "Tooltip": "est",
+    "HeadingId": 175,
+    "Name": "Bailey Inc and Sons",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 540,
-    "UdListDefinitionId": 342
+    "Rank": 893,
+    "UdListDefinitionId": 758
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 116,
-    "Name": "O'Kon Group",
-    "Tooltip": "autem",
+    "HeadingId": 451,
+    "Name": "Cartwright, Walter and Roob",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 504,
-    "UdListDefinitionId": 377,
+    "Rank": 824,
+    "UdListDefinitionId": 127,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 581
+        "FieldType": "System.Int32",
+        "FieldLength": 388
       }
     }
   }

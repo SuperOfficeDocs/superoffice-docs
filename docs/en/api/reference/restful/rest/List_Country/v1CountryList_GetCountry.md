@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 410,
-  "Name": "Jacobs-Gibson",
-  "CurrencyId": 881,
-  "EnglishName": "Waters LLC",
+  "CountryId": 419,
+  "Name": "Leffler Inc and Sons",
+  "CurrencyId": 680,
+  "EnglishName": "Kling Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergized methodical approach",
-  "OrgNrText": "1165919",
-  "InterAreaPrefix": "autem",
-  "DialInPrefix": "est",
-  "ZipPrefix": "rerum",
-  "DomainName": "Stracke, Howell and Bins",
-  "AddressLayoutId": 962,
-  "DomesticAddressLayoutId": 707,
-  "ForeignAddressLayoutId": 411,
-  "Rank": 340,
-  "Tooltip": "odit",
+  "ImageDescription": "Phased foreground archive",
+  "OrgNrText": "968788",
+  "InterAreaPrefix": "at",
+  "DialInPrefix": "sunt",
+  "ZipPrefix": "quibusdam",
+  "DomainName": "Yost, Barrows and Hickle",
+  "AddressLayoutId": 377,
+  "DomesticAddressLayoutId": 437,
+  "ForeignAddressLayoutId": 611,
+  "Rank": 674,
+  "Tooltip": "praesentium",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 737
     }
   }
 }

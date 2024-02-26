@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Quitzon, Gulgowski and Kuhic",
-  "AllowPersonal": true,
-  "UiCulture": "quas"
+  "TemplateName": "Jones-Jacobs",
+  "AllowPersonal": false,
+  "UiCulture": "aperiam"
 }
 ```
 

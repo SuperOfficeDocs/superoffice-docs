@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 880,
-  "BlobSize": 121,
-  "Description": "Synergized actuating orchestration",
-  "ExtraInfo": "atque",
+  "BlobId": 707,
+  "BlobSize": 217,
+  "Description": "Multi-channelled dedicated attitude",
+  "ExtraInfo": "odit",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "modi",
-  "OriginalSize": 298,
-  "CreatedDate": "1999-08-20T16:55:30.3780057+02:00",
-  "UpdatedDate": "2015-01-22T16:55:30.3780057+01:00",
+  "IsZipped": true,
+  "MimeType": "reiciendis",
+  "OriginalSize": 671,
+  "CreatedDate": "1998-07-20T10:30:32.7175195+02:00",
+  "UpdatedDate": "2011-03-28T10:30:32.7175195+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "placeat"
+  "ConceptualType": "facere"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 581,
-  "BlobSize": 148,
-  "Description": "Managed well-modulated capacity",
-  "ExtraInfo": "iste",
-  "IsEncrypted": true,
+  "BlobId": 632,
+  "BlobSize": 544,
+  "Description": "Re-engineered exuding help-desk",
+  "ExtraInfo": "enim",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "iusto",
-  "OriginalSize": 784,
-  "CreatedDate": "2007-05-08T16:55:30.3800051+02:00",
-  "UpdatedDate": "2013-01-06T16:55:30.3800051+01:00",
+  "MimeType": "necessitatibus",
+  "OriginalSize": 10,
+  "CreatedDate": "2020-12-04T10:30:32.7175195+01:00",
+  "UpdatedDate": "2016-02-26T10:30:32.7175195+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "velit",
+  "ConceptualType": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   }
 }

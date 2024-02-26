@@ -71,7 +71,7 @@ OK
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Marks Inc and Sons",
-  "DisplayName": "Towne Group",
-  "Description": "Centralized transitional standardization",
-  "ShortLabel": "repellendus",
-  "HideLabel": true,
+  "FieldName": "Purdy, Nitzsche and Homenick",
+  "DisplayName": "Gutkowski LLC",
+  "Description": "Organic attitude-oriented forecast",
+  "ShortLabel": "odio",
+  "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsIndexed": true,
+  "IsMandatory": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 80,
-  "TemplateVariableName": "Stroman, Bednar and Ziemann"
+  "Rank": 705,
+  "TemplateVariableName": "Kuhn-Barton"
 }
 ```

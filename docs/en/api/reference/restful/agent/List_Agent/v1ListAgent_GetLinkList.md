@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Langosh-Konopelski",
-    "Id": 82,
-    "Description": "Multi-channelled didactic toolset",
-    "ExtraInfo": "facilis",
-    "LinkId": 311,
+    "EntityName": "Heller Group",
+    "Id": 409,
+    "Description": "Multi-layered multi-state customer loyalty",
+    "ExtraInfo": "consequatur",
+    "LinkId": 682,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 411
       }
     }
   }

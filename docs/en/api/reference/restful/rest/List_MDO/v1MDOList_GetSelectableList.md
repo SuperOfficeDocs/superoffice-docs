@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=modi
+GET /api/v1/MDOList/{listname}/selectable?additional=voluptas
 GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Legros, Casper and Purdy",
-    "ToolTip": "Modi quis omnis esse ea ut.",
+    "Id": 600,
+    "Name": "Rohan, Skiles and Bernier",
+    "ToolTip": "Quidem aut id dicta aut temporibus aliquam.",
     "Deleted": false,
-    "Rank": 532,
-    "Type": "officiis",
-    "ColorBlock": 840,
-    "IconHint": "libero",
+    "Rank": 614,
+    "Type": "esse",
+    "ColorBlock": 697,
+    "IconHint": "blanditiis",
     "Selected": true,
-    "LastChanged": "1997-12-25T16:55:30.7131756+01:00",
+    "LastChanged": "2020-07-28T10:30:33.0212063+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Stracke LLC",
-        "ToolTip": "Ipsa illo temporibus et modi doloremque.",
-        "Deleted": true,
-        "Rank": 147,
-        "Type": "quo",
-        "ColorBlock": 226,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "1998-04-22T16:55:30.7141769+02:00",
+        "Id": 660,
+        "Name": "Will-Terry",
+        "ToolTip": "Voluptatem nihil molestiae sunt minima.",
+        "Deleted": false,
+        "Rank": 766,
+        "Type": "voluptatibus",
+        "ColorBlock": 161,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2001-12-06T10:30:33.0212063+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "quod",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Meta Lynch",
+        "FullName": "Liliana Urban Johnston MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 946
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "temporibus",
-    "Hidden": false,
-    "FullName": "Carmela Collins",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Duane Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldLength": 405
       }
     }
   }

@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    390,
-    160
+    962,
+    446
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 664,
-    "Name": "Farrell-Schiller",
-    "Description": "Virtual discrete parallelism",
+    "ProjectId": 639,
+    "Name": "Rodriguez Group",
+    "Description": "Front-line mobile policy",
     "URL": "http://www.example.com/",
-    "Type": "eum",
-    "AssociateId": 42,
-    "AssociateFullName": "Gia Feil",
-    "TypeId": 587,
-    "Updated": "2012-03-05T16:54:56.071138+01:00",
-    "StatusId": 856,
-    "Status": "illo",
-    "TextId": 33,
-    "PublishTo": "2001-06-19T16:54:56.071138+02:00",
-    "PublishFrom": "1997-07-11T16:54:56.071138+02:00",
+    "Type": "reprehenderit",
+    "AssociateId": 508,
+    "AssociateFullName": "Jude Nienow",
+    "TypeId": 318,
+    "Updated": "2008-09-19T10:30:24.3705833+02:00",
+    "StatusId": 653,
+    "Status": "sint",
+    "TextId": 576,
+    "PublishTo": "2006-04-04T10:30:24.3705833+02:00",
+    "PublishFrom": "2004-07-11T10:30:24.3705833+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1131127",
-    "ActiveErpLinks": 220,
+    "ProjectNumber": "1020271",
+    "ActiveErpLinks": 73,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 685
       }
     }
   }

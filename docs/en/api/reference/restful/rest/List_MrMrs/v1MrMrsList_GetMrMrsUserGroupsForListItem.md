@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Kutch-Zboncak",
-    "ToolTip": "Atque impedit voluptatem.",
+    "Id": 146,
+    "Name": "Hyatt-Kilback",
+    "ToolTip": "Omnis numquam autem quibusdam ut eos soluta.",
     "Deleted": false,
-    "Rank": 426,
-    "Type": "quia",
-    "ColorBlock": 545,
-    "IconHint": "excepturi",
-    "Selected": false,
-    "LastChanged": "2014-02-21T16:55:30.7181752+01:00",
+    "Rank": 86,
+    "Type": "placeat",
+    "ColorBlock": 121,
+    "IconHint": "occaecati",
+    "Selected": true,
+    "LastChanged": "2017-11-09T10:30:33.0212063+01:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Abbott LLC",
-        "ToolTip": "Ut voluptatem non id beatae.",
+        "Id": 755,
+        "Name": "Trantow, Ziemann and O'Kon",
+        "ToolTip": "Voluptatem corrupti voluptas eos.",
         "Deleted": false,
-        "Rank": 973,
+        "Rank": 307,
         "Type": "est",
-        "ColorBlock": 734,
-        "IconHint": "sunt",
+        "ColorBlock": 347,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2016-07-23T16:55:30.7181752+02:00",
+        "LastChanged": "1997-07-28T10:30:33.0212063+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "inventore",
-        "Hidden": true,
-        "FullName": "Ayla Sanford",
+        "ExtraInfo": "officiis",
+        "StyleHint": "dolorem",
+        "Hidden": false,
+        "FullName": "Hertha Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 566
+            "FieldType": "System.String",
+            "FieldLength": 641
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "ut",
+    "ExtraInfo": "et",
+    "StyleHint": "laboriosam",
     "Hidden": false,
-    "FullName": "Miss Keaton Jenkins DVM",
+    "FullName": "Ron Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 151
       }
     }
   }

@@ -64,9 +64,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ShipmentMessageBlockId xsi:type="xsd:int">0</Marketing:ShipmentMessageBlockId>
     <Marketing:AssociateId xsi:type="xsd:int">0</Marketing:AssociateId>
     <Marketing:Block xsi:type="xsd:string"></Marketing:Block>
-    <Marketing:Registered xsi:type="xsd:dateTime">2024-01-18T22:02:44Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2024-02-15T09:29:11Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2024-01-18T22:02:44Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2024-02-15T09:29:11Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>

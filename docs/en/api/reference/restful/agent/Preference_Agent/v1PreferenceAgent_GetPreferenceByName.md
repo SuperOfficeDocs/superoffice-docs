@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quibusdam",
-  "PrefKey": "laborum",
+  "PrefSection": "vel",
+  "PrefKey": "sit",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "ipsam",
   "Specification": null,
-  "DisplayValue": "dolor",
-  "DisplayTooltip": "vel",
+  "DisplayValue": "quia",
+  "DisplayTooltip": "voluptas",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 536,
-  "PrefDescId": 838,
-  "TableName": "Windler Inc and Sons",
-  "UserPreferenceId": 941,
+  "TargetId": 63,
+  "PrefDescId": 198,
+  "TableName": "Emard, Thompson and Skiles",
+  "UserPreferenceId": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldLength": 558
     }
   }
 }

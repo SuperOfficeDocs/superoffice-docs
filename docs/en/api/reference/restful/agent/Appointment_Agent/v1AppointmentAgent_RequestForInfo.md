@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 756,
-  "Channel": "vero",
-  "Regarding": "numquam",
-  "ContactName": "Flatley-Trantow",
-  "PersonFirstname": "Dolly",
-  "PersonLastname": "Gorczany",
-  "EmailAddress": "marjorie@kautzer.info",
-  "PhoneNumber": "1425736"
+  "AssociateIdForNewContact": 947,
+  "Channel": "aperiam",
+  "Regarding": "nulla",
+  "ContactName": "Boyer Inc and Sons",
+  "PersonFirstname": "Chelsea",
+  "PersonLastname": "Raynor",
+  "EmailAddress": "annette@goyette.info",
+  "PhoneNumber": "332849"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 736,
-      "Name": "Klein LLC",
-      "OrgNr": "1538849",
+      "ContactId": 850,
+      "Name": "Cole, Littel and Abbott",
+      "OrgNr": "1245827",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "velit",
-      "DirectPhone": "1-228-439-8352",
-      "AssociateId": 628,
-      "CountryId": 748,
-      "EmailAddress": "shanie@schroedermertz.info",
-      "Kananame": "aspernatur",
-      "EmailAddressName": "anne@yostmitchell.us",
+      "City": "et",
+      "DirectPhone": "1-822-231-0007 x7075",
+      "AssociateId": 831,
+      "CountryId": 885,
+      "EmailAddress": "wilson@waelchi.name",
+      "Kananame": "modi",
+      "EmailAddressName": "jeanette_williamson@aufderhardonnelly.biz",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Kaycee Tillman",
+      "AssociateFullName": "Mrs. Mohammad Bahringer",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "iusto",
-      "FullName": "Lenny Konopelski",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 976,
-      "Number1": "67064",
-      "Number2": "749067",
+      "FormattedAddress": "sit",
+      "FullName": "Ms. Wellington Johns",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 241,
+      "Number1": "709831",
+      "Number2": "334849",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldType": "System.String",
+          "FieldLength": 432
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 18
     }
   }
 }

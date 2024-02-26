@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 233,
-    "ColumnId": 787,
-    "FieldDefault": "debitis",
-    "FieldHeight": 959,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 719,
-    "FieldTop": 191,
+    "UDefFieldId": 982,
+    "ColumnId": 998,
+    "FieldDefault": "aperiam",
+    "FieldHeight": 112,
+    "FieldLabel": "qui",
+    "FieldLeft": 151,
+    "FieldTop": 866,
     "FieldType": "Checkbox",
-    "FieldWidth": 632,
-    "FormatMask": "sint",
+    "FieldWidth": 239,
+    "FormatMask": "debitis",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 741,
-    "LabelLeft": 801,
-    "LabelTop": 919,
-    "LabelWidth": 307,
-    "LastVersionId": 164,
-    "ListTableId": 921,
-    "IsMandatory": true,
+    "LabelHeight": 662,
+    "LabelLeft": 665,
+    "LabelTop": 861,
+    "LabelWidth": 924,
+    "LastVersionId": 682,
+    "ListTableId": 501,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 650,
-    "ProgId": "beatae",
+    "Page1LineNo": 533,
+    "ProgId": "est",
     "IsReadOnly": true,
-    "ShortLabel": "voluptas",
-    "TabOrder": 112,
-    "TextLength": 857,
-    "Tooltip": "odio",
-    "UdefIdentity": 46,
-    "UDListDefinitionId": 78,
+    "ShortLabel": "aut",
+    "TabOrder": 876,
+    "TextLength": 475,
+    "Tooltip": "tenetur",
+    "UdefIdentity": 244,
+    "UDListDefinitionId": 487,
     "Justification": "Center",
-    "Version": 328,
-    "TemplateVariableName": "Daugherty-Kemmer",
-    "HasBeenPublished": true,
-    "MdoListName": "Ortiz, Stark and Ortiz",
+    "Version": 134,
+    "TemplateVariableName": "Lehner, Rosenbaum and Bahringer",
+    "HasBeenPublished": false,
+    "MdoListName": "Harvey Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldType": "System.String",
+        "FieldLength": 830
       }
     }
   }

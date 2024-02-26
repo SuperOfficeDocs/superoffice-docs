@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=est
+GET /api/v1/List/Competitor/MDOItems?query=sequi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Howe-Steuber",
-    "ToolTip": "Beatae amet dolorem vero.",
+    "Id": 456,
+    "Name": "Konopelski, Koch and Schulist",
+    "ToolTip": "Velit magnam doloremque.",
     "Deleted": false,
-    "Rank": 855,
-    "Type": "dolores",
+    "Rank": 181,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Carter-Kuhic",
-        "ToolTip": "Debitis assumenda est numquam.",
-        "Deleted": true,
-        "Rank": 212,
-        "Type": "eos",
+        "Id": 572,
+        "Name": "Braun-Windler",
+        "ToolTip": "Perferendis deleniti magnam.",
+        "Deleted": false,
+        "Rank": 380,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reiciendis",
-        "ColorBlock": 103,
-        "ExtraInfo": "quo",
-        "StyleHint": "omnis",
-        "FullName": "Mr. Chauncey Franecki DDS",
+        "IconHint": "est",
+        "ColorBlock": 939,
+        "ExtraInfo": "quos",
+        "StyleHint": "et",
+        "FullName": "Adeline Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldLength": 456
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 374,
-    "ExtraInfo": "delectus",
-    "StyleHint": "maiores",
-    "FullName": "Mrs. Dexter Reilly",
+    "IconHint": "sit",
+    "ColorBlock": 231,
+    "ExtraInfo": "quia",
+    "StyleHint": "aut",
+    "FullName": "Dr. Myrtle Lilliana Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldType": "System.String",
+        "FieldLength": 957
       }
     }
   }

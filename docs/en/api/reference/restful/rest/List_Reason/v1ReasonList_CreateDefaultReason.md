@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 141,
-  "Name": "Christiansen, Bartoletti and Williamson",
-  "Tooltip": "ipsa",
+  "Id": 343,
+  "Name": "Stehr, Klein and Rodriguez",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 551,
-  "Rank": 189,
+  "UdListDefinitionId": 797,
+  "Rank": 357,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 612
     }
   }
 }

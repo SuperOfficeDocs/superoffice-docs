@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Dickens Inc and Sons"
+  "OwnerName": "Turcotte-Dietrich"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "ut",
+  "Message": "et",
   "Url": "http://www.example.com/"
 }
 ```

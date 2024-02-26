@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "O'Kon, Schmidt and O'Connell",
-    "ToolTip": "Placeat ut alias.",
+    "Id": 253,
+    "Name": "Luettgen, Jakubowski and Beier",
+    "ToolTip": "Tenetur et quisquam quae culpa illo delectus eum.",
     "Deleted": false,
-    "Rank": 615,
-    "Type": "quas",
-    "ColorBlock": 885,
-    "IconHint": "vitae",
+    "Rank": 990,
+    "Type": "qui",
+    "ColorBlock": 625,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2009-10-19T16:55:30.5296989+02:00",
+    "LastChanged": "2021-04-03T10:30:32.858187+02:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Lynch-Casper",
-        "ToolTip": "Cupiditate numquam iste quia voluptas qui.",
-        "Deleted": false,
-        "Rank": 490,
-        "Type": "accusamus",
-        "ColorBlock": 709,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2001-08-30T16:55:30.5296989+02:00",
+        "Id": 813,
+        "Name": "Simonis, Parisian and Kovacek",
+        "ToolTip": "Fugit sed occaecati ea.",
+        "Deleted": true,
+        "Rank": 377,
+        "Type": "aliquam",
+        "ColorBlock": 570,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2015-11-03T10:30:32.858187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Jamar Zemlak",
+        "ExtraInfo": "nulla",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Darian Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 489
+            "FieldType": "System.Int32",
+            "FieldLength": 236
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Mrs. Drake Shields V",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Dr. Bobby Jacquelyn Bartell Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

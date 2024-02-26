@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 430
+  "SuggestedDocumentId": 99
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 665,
+  "DocumentId": 399,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "hic",
-  "Header": "porro",
-  "Name": "Kertzmann Inc and Sons",
-  "OurRef": "est",
-  "YourRef": "est",
-  "CreatedDate": "2015-09-04T16:54:55.2654256+02:00",
-  "UpdatedDate": "2011-02-26T16:54:55.2654256+01:00",
-  "Description": "Exclusive cohesive support",
+  "Attention": "similique",
+  "Header": "praesentium",
+  "Name": "Erdman LLC",
+  "OurRef": "fuga",
+  "YourRef": "consequatur",
+  "CreatedDate": "1999-07-23T10:30:23.6886831+02:00",
+  "UpdatedDate": "2001-04-22T10:30:23.6886831+02:00",
+  "Description": "Configurable homogeneous local area network",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-01-03T16:54:55.2684241+01:00",
-  "ExternalRef": "excepturi",
+  "Date": "2023-06-08T10:30:23.7043065+02:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 916,
+  "ActiveLinks": 944,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Macejkovic, Lebsack and Kuhic",
-      "Id": 910,
-      "Description": "Decentralized dynamic moratorium",
-      "ExtraInfo": "tempore",
-      "LinkId": 360,
+      "EntityName": "Gusikowski, Stamm and Wisozk",
+      "Id": 544,
+      "Description": "Horizontal systemic data-warehouse",
+      "ExtraInfo": "quia",
+      "LinkId": 932,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldType": "System.String",
+          "FieldLength": 445
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 956,
-  "Snum": 72,
+  "SuggestedDocumentId": 73,
+  "Snum": 794,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Noemi Hansen Sr.",
-    "SuperOffice:2": "1010770055"
+    "SuperOffice:1": "Prof. Lyla Pollich",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "quia"
+    "CustomFields1": "neque",
+    "CustomFields2": "commodi"
   },
-  "PublishEventDate": "2014-08-24T16:54:55.269423+02:00",
-  "PublishTo": "2013-06-03T16:54:55.269423+02:00",
-  "PublishFrom": "2017-02-02T16:54:55.269423+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-05-21T10:30:23.7043065+02:00",
+  "PublishTo": "1999-04-07T10:30:23.7043065+02:00",
+  "PublishFrom": "1998-08-18T10:30:23.7043065+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 870,
+      "VisibleId": 78,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 207
         }
       }
     },
     {
-      "VisibleId": 870,
+      "VisibleId": 78,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 207
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldLength": 775
     }
   }
 }

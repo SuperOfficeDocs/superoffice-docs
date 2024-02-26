@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 380,
+  "DocumentId": 162,
   "AllowedReturnTypes": [
     "ut",
-    "eligendi"
+    "voluptatem"
   ],
-  "VersionDescription": "Exclusive object-oriented ability",
+  "VersionDescription": "Horizontal context-sensitive software",
   "VersionExtraFields": [
-    "quis",
-    "quas"
+    "aspernatur",
+    "facilis"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "alias",
-  "VersionId": "eligendi",
+  "ExternalReference": "error",
+  "VersionId": "maxime",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "fugit",
-  "AdditionalInfo": "velit"
+  "Value": "voluptas",
+  "AdditionalInfo": "exercitationem"
 }
 ```

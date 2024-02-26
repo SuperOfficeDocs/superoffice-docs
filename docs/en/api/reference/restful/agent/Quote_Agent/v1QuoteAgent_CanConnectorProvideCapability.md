@@ -73,8 +73,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 915,
-  "CapabilityName": "Ondricka, Torphy and Huel"
+  "QuoteConnectionId": 211,
+  "CapabilityName": "Gusikowski, Prohaska and Gusikowski"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

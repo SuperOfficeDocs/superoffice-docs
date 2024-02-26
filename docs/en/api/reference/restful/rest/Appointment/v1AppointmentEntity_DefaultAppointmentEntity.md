@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 15 Dec 2008 16:55:29 G12T
+Last-Modified: Thu, 10 Jun 1999 10:30:31 G6T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2007-07-25T16:55:29.1030396+02:00",
-  "AppointmentId": 983,
-  "Description": "Sharable optimal utilisation",
-  "Title": "minima",
-  "Agenda": "quia",
-  "InternalNotes": "eos",
-  "StartDate": "1998-09-06T16:55:29.1030396+02:00",
-  "EndDate": "2008-01-23T16:55:29.1030396+01:00",
+  "CreatedDate": "2015-12-04T10:30:31.5811188+01:00",
+  "AppointmentId": 417,
+  "Description": "Customer-focused real-time intranet",
+  "Title": "quia",
+  "Agenda": "similique",
+  "InternalNotes": "vero",
+  "StartDate": "2008-09-15T10:30:31.5811188+02:00",
+  "EndDate": "2016-04-24T10:30:31.5811188+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 232,
+  "MotherId": 532,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-12-15T16:55:29.1050579+01:00",
+  "UpdatedDate": "1999-06-10T10:30:31.5811188+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 835,
+  "ActiveLinks": 359,
   "Links": [
     {
-      "EntityName": "Legros Group",
-      "Id": 910,
-      "Description": "Future-proofed bifurcated adapter",
-      "ExtraInfo": "et",
-      "LinkId": 96,
+      "EntityName": "Johnson Inc and Sons",
+      "Id": 788,
+      "Description": "Fully-configurable motivating implementation",
+      "ExtraInfo": "rerum",
+      "LinkId": 739,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 189
         }
       }
     }
   ],
-  "AlarmLeadTime": "ab",
+  "AlarmLeadTime": "veniam",
   "HasAlarm": false,
-  "ColorIndex": 412,
-  "IsFree": false,
+  "ColorIndex": 694,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "veritatis",
-  "LeadTime": "nesciunt",
-  "Location": "natus",
-  "RejectCounter": 774,
+  "LagTime": "quia",
+  "LeadTime": "ab",
+  "Location": "dolores",
+  "RejectCounter": 812,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 67,
-      "PersonId": 676,
-      "ContactId": 35,
-      "EmailId": 211,
+      "AssociateId": 2,
+      "PersonId": 525,
+      "ContactId": 686,
+      "EmailId": 743,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "willie.considine@cremin.name",
-      "Description": "Multi-tiered directional open system"
+      "EmailAddress": "afton.hane@marvingutmann.co.uk",
+      "Description": "Monitored encompassing collaboration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-08-23T16:55:29.1060403+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1998-12-23T10:30:31.5811188+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 600,
+  "PreferredTZLocation": 691,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 443,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 657,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloremque",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Sheila Kuhn",
-    "SuperOffice:2": "Savannah Reichel"
+    "SuperOffice:1": "Moses Herzog",
+    "SuperOffice:2": "807926710"
   },
   "ExtraFields": {
-    "ExtraFields1": "aliquid",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "explicabo",
-    "CustomFields2": "aut"
+    "CustomFields1": "quo",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2002-03-05T16:55:29.107039+01:00",
-  "PublishTo": "2004-10-21T16:55:29.107039+02:00",
-  "PublishFrom": "2002-02-24T16:55:29.107039+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-10-26T10:30:31.5967454+02:00",
+  "PublishTo": "2006-10-31T10:30:31.5967454+01:00",
+  "PublishFrom": "2022-03-08T10:30:31.5967454+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 495,
+      "VisibleId": 443,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 325
         }
       }
     },
     {
-      "VisibleId": 495,
+      "VisibleId": 443,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 325
         }
       }
     }
@@ -253,7 +253,7 @@ Last-Modified: Mon, 15 Dec 2008 16:55:29 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 966
     }
   }
 }

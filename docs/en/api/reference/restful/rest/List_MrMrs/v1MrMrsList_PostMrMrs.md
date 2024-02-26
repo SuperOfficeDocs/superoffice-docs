@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 746,
-  "Name": "Jakubowski LLC",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 173,
-  "Rank": 89
+  "Id": 652,
+  "Name": "Prohaska LLC",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "UdListDefinitionId": 269,
+  "Rank": 329
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 48,
-  "Name": "Heller-Lindgren",
-  "Tooltip": "unde",
+  "Id": 67,
+  "Name": "Yundt Inc and Sons",
+  "Tooltip": "quia",
   "Deleted": true,
-  "UdListDefinitionId": 930,
-  "Rank": 329,
+  "UdListDefinitionId": 646,
+  "Rank": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldType": "System.Int32",
+      "FieldLength": 607
     }
   }
 }

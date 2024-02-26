@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Jacobi Inc and Sons",
-    "Konopelski-Johnston"
+    "Bartoletti-Bartoletti",
+    "Deckow, Breitenberg and Dietrich"
   ],
-  "Culture": "assumenda"
+  "Culture": "consectetur"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Kozey LLC",
-    "ResourceValue": "est",
-    "Culture": "voluptatem",
-    "IsActive": true,
+    "ResourceName": "Ratke LLC",
+    "ResourceValue": "minima",
+    "Culture": "perferendis",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 283
       }
     }
   },
   {
-    "ResourceName": "Kozey LLC",
-    "ResourceValue": "est",
-    "Culture": "voluptatem",
-    "IsActive": true,
+    "ResourceName": "Ratke LLC",
+    "ResourceValue": "minima",
+    "Culture": "perferendis",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 283
       }
     }
   }

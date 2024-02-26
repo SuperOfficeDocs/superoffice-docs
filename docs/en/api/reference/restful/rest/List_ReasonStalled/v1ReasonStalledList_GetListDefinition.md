@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 470,
-  "Name": "Shields LLC",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 676,
+  "Id": 371,
+  "Name": "Nitzsche Group",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "Rank": 416,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "delectus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 903
     }
   },
   "_Links": {

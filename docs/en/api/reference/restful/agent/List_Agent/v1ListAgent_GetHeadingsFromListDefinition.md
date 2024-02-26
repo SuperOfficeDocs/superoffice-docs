@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 582
+  "Id": 727
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 673,
-    "Name": "Wintheiser, Murray and Schimmel",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "Rank": 861,
-    "UdListDefinitionId": 527,
+    "HeadingId": 24,
+    "Name": "Torphy LLC",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "Rank": 697,
+    "UdListDefinitionId": 714,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 667
       }
     }
   }

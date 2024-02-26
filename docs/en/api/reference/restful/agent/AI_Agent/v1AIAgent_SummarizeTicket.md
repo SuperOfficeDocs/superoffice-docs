@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 564,
-  "NumSentences": 899,
-  "IsoLangCode": "ab"
+  "TicketId": 69,
+  "NumSentences": 326,
+  "IsoLangCode": "vel"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dicta"
+"qui"
 ```

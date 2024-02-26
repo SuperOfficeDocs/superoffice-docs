@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Skiles, Grimes and Reilly",
-    "ToolTip": "Perferendis impedit odit consequatur porro.",
+    "Id": 588,
+    "Name": "Kuhn Group",
+    "ToolTip": "Nemo magnam cumque fuga similique.",
     "Deleted": false,
-    "Rank": 695,
-    "Type": "possimus",
-    "ColorBlock": 544,
-    "IconHint": "modi",
-    "Selected": true,
-    "LastChanged": "1998-07-26T16:55:31.0372023+02:00",
+    "Rank": 691,
+    "Type": "nostrum",
+    "ColorBlock": 423,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "1999-11-20T10:30:33.2099635+01:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Sawayn, Shanahan and Weissnat",
-        "ToolTip": "Esse suscipit sequi laboriosam ipsum esse consequatur.",
+        "Id": 537,
+        "Name": "Gibson-Schmeler",
+        "ToolTip": "Sint molestias velit ut voluptates consequatur praesentium sequi.",
         "Deleted": false,
-        "Rank": 456,
-        "Type": "cumque",
-        "ColorBlock": 527,
-        "IconHint": "molestiae",
+        "Rank": 155,
+        "Type": "temporibus",
+        "ColorBlock": 721,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2021-12-18T16:55:31.0372023+01:00",
+        "LastChanged": "1998-05-14T10:30:33.2099635+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "qui",
+        "ExtraInfo": "nisi",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Manley Swift"
+        "FullName": "Miss Delmer Cassin"
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "iure",
+    "ExtraInfo": "eum",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Adell Wilderman"
+    "FullName": "Brendon Bogan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 170,
-    "Name": "Ankunding, Rice and Tremblay",
-    "ToolTip": "Labore vero deleniti natus rem aut modi.",
+    "Id": 576,
+    "Name": "Funk-Borer",
+    "ToolTip": "Esse vero.",
     "Deleted": false,
-    "Rank": 678,
-    "Type": "qui",
-    "ColorBlock": 157,
-    "IconHint": "excepturi",
-    "Selected": true,
-    "LastChanged": "1996-12-06T16:55:31.0381841+01:00",
+    "Rank": 155,
+    "Type": "blanditiis",
+    "ColorBlock": 950,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2020-05-30T10:30:33.2099635+02:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Hagenes LLC",
-        "ToolTip": "Ut perferendis fugit aliquam deleniti est.",
+        "Id": 650,
+        "Name": "Bashirian-Grant",
+        "ToolTip": "Ea enim labore laborum vel molestias.",
         "Deleted": true,
-        "Rank": 833,
-        "Type": "eos",
-        "ColorBlock": 141,
-        "IconHint": "ex",
-        "Selected": false,
-        "LastChanged": "1996-11-27T16:55:31.0381841+01:00",
+        "Rank": 594,
+        "Type": "enim",
+        "ColorBlock": 824,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "1997-10-06T10:30:33.2099635+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Ms. Ella Runte IV",
+        "ExtraInfo": "et",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Mario Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "id",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Susanna Quigley",
+    "FullName": "Mrs. Annette Rudolph Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 73
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 781,
-  "Name": "Gulgowski, Dare and Wisozk",
-  "Rank": 875,
-  "Tooltip": "consequatur",
+  "AssociateId": 271,
+  "Name": "Bernier, Kunde and Kilback",
+  "Rank": 563,
+  "Tooltip": "ad",
   "LicenseOwners": [
     {
-      "Name": "Prohaska LLC",
-      "Description": "Cloned heuristic focus group",
+      "Name": "Casper Group",
+      "Description": "Reverse-engineered client-driven policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,14 +111,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldType": "System.String",
+          "FieldLength": 145
         }
       }
     },
     {
-      "Name": "Prohaska LLC",
-      "Description": "Cloned heuristic focus group",
+      "Name": "Casper Group",
+      "Description": "Reverse-engineered client-driven policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldType": "System.String",
+          "FieldLength": 145
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "error",
-      "Tooltip": "molestiae",
-      "Id": 767,
-      "Rank": 630,
+      "Value": "debitis",
+      "Tooltip": "et",
+      "Id": 311,
+      "Rank": 232,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldType": "System.String",
+          "FieldLength": 686
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2000-01-21T16:55:30.4751316+01:00",
-  "Lastlogout": "2010-11-29T16:55:30.4751316+01:00",
-  "EjUserId": 394,
-  "RequestSignature": "quibusdam",
+  "Lastlogin": "2014-09-29T10:30:32.8113095+02:00",
+  "Lastlogout": "2018-06-21T10:30:32.8113095+02:00",
+  "EjUserId": 710,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "velit",
-      "DisplayValue": "sunt",
+      "Value": "ullam",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldType": "System.String",
+          "FieldLength": 255
         }
       }
     },
     {
       "Type": null,
-      "Value": "velit",
-      "DisplayValue": "sunt",
+      "Value": "ullam",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldType": "System.String",
+          "FieldLength": 255
         }
       }
     }
   ],
-  "UserName": "Conroy, Berge and Reichert",
+  "UserName": "Weissnat, Wiza and O'Hara",
   "TicketCategories": [
     {
-      "Id": 649,
-      "Name": "Fahey-Gerlach",
-      "ToolTip": "Nihil error soluta.",
+      "Id": 646,
+      "Name": "Effertz Group",
+      "ToolTip": "Sed sapiente.",
       "Deleted": false,
-      "Rank": 928,
-      "Type": "et",
+      "Rank": 512,
+      "Type": "autem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellendus",
-      "ColorBlock": 864,
-      "ExtraInfo": "doloribus",
-      "StyleHint": "iure",
-      "FullName": "Colby Volkman",
+      "IconHint": "sequi",
+      "ColorBlock": 962,
+      "ExtraInfo": "iure",
+      "StyleHint": "alias",
+      "FullName": "Danika Hoeger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldType": "System.String",
+          "FieldLength": 438
         }
       }
     }
   ],
-  "NickName": "Roberts-Schinner",
-  "WaitingForApproval": true,
+  "NickName": "Jones-Kerluke",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "ut"
+    "CustomFields1": "quo",
+    "CustomFields2": "velit"
   },
   "PostSaveCommands": [
     {
-      "Name": "Stoltenberg-Zboncak",
-      "DisplayName": "Schmidt Group",
-      "Description": "Synchronised mobile intranet",
-      "ToolTip": "Accusantium harum quam.",
+      "Name": "Rolfson Group",
+      "DisplayName": "Schiller LLC",
+      "Description": "Multi-layered client-driven circuit",
+      "ToolTip": "Harum sed recusandae autem voluptas nobis sit.",
       "Actions": "Implicit",
-      "ActionData": "ipsa",
+      "ActionData": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 319
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   }
 }

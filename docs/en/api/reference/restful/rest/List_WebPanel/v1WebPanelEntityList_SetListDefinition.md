@@ -88,12 +88,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 159,
-  "Name": "Brekke-Grady",
-  "Tooltip": "labore",
+  "Id": 627,
+  "Name": "Donnelly Inc and Sons",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 309,
-  "IsCustomList": true,
+  "Rank": 768,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "quis",
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 416,
-  "Name": "Kiehn LLC",
-  "Tooltip": "eos",
+  "Id": 814,
+  "Name": "Rohan Inc and Sons",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 154,
+  "Rank": 182,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laboriosam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "itaque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 300
     }
   }
 }

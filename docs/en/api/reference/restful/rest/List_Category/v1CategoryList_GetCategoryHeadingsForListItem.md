@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Kuhlman, Jewess and Renner",
-    "ToolTip": "Suscipit quis excepturi deserunt tempore.",
-    "Deleted": true,
-    "Rank": 43,
-    "Type": "non",
-    "ColorBlock": 376,
-    "IconHint": "temporibus",
+    "Id": 646,
+    "Name": "Douglas, Stokes and Lindgren",
+    "ToolTip": "Sit expedita dolores et dolores odio.",
+    "Deleted": false,
+    "Rank": 373,
+    "Type": "impedit",
+    "ColorBlock": 988,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2018-02-03T16:55:30.5476993+01:00",
+    "LastChanged": "2007-05-15T10:30:32.8805387+02:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Rowe LLC",
-        "ToolTip": "Amet et aut aspernatur.",
-        "Deleted": true,
-        "Rank": 386,
-        "Type": "ut",
-        "ColorBlock": 812,
-        "IconHint": "omnis",
+        "Id": 503,
+        "Name": "Wiegand, Nitzsche and Kemmer",
+        "ToolTip": "Consequatur sapiente qui dolores hic animi.",
+        "Deleted": false,
+        "Rank": 604,
+        "Type": "expedita",
+        "ColorBlock": 172,
+        "IconHint": "quo",
         "Selected": true,
-        "LastChanged": "2014-08-12T16:55:30.5476993+02:00",
+        "LastChanged": "2005-04-28T10:30:32.8805387+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Sarah Lowe",
+        "ExtraInfo": "hic",
+        "StyleHint": "placeat",
+        "Hidden": false,
+        "FullName": "Rubye Prosacco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 546
+            "FieldType": "System.Int32",
+            "FieldLength": 327
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Ms. Gilberto Kasandra O'Keefe PhD",
+    "ExtraInfo": "sit",
+    "StyleHint": "quisquam",
+    "Hidden": false,
+    "FullName": "Samir Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldType": "System.String",
+        "FieldLength": 598
       }
     }
   }

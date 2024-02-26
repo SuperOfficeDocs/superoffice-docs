@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 514,
-  "Name": "Schaden Inc and Sons",
-  "Description": "Synergized 24 hour project",
-  "WelcomeMessage": "omnis",
+  "ChatTopicId": 690,
+  "Name": "O'Hara LLC",
+  "Description": "Public-key dedicated info-mediaries",
+  "WelcomeMessage": "laborum",
   "Language": null,
-  "LastAccept": "2014-05-22T16:55:29.3597814+02:00",
-  "SecondsPrAccept": 59,
-  "AlertRecipient": "optio",
+  "LastAccept": "2020-06-07T10:30:31.823057+02:00",
+  "SecondsPrAccept": 9,
+  "AlertRecipient": "esse",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "praesentium",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "hic",
-  "WarnNewChatMinutes": 313,
-  "WarnManagerNewChatMinutes": 82,
-  "TicketEnabled": true,
+  "CollectConsent": false,
+  "BadgeHeader": "consectetur",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "porro",
+  "WarnNewChatMinutes": 779,
+  "WarnManagerNewChatMinutes": 461,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 349,
-  "WarnManagerChatMessageMinutes": 355,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 932,
-  "OfflineFormQueueLength": 696,
+  "WarnChatMessageMinutes": 721,
+  "WarnManagerChatMessageMinutes": 188,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 95,
+  "OfflineFormQueueLength": 992,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "qui",
+  "WidgetRatingText": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 394
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

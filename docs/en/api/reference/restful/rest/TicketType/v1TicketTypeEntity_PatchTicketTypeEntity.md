@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "natus",
+    "path": "quo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "natus",
+    "path": "quo",
     "value": {}
   }
 ]
@@ -143,30 +143,30 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 195,
-  "Name": "Hamill Group",
-  "Rank": 694,
-  "Tooltip": "modi",
-  "Icon": "sed",
-  "DefaultTicketStatus": 977,
+  "TicketTypeId": 877,
+  "Name": "Conn-Thiel",
+  "Rank": 407,
+  "Tooltip": "eius",
+  "Icon": "quo",
+  "DefaultTicketStatus": 812,
   "TicketStatuses": [
-    308,
-    251
+    798,
+    690
   ],
-  "DefaultTicketPriority": 380,
+  "DefaultTicketPriority": 913,
   "TicketPriorities": [
-    493,
-    376
+    273,
+    556
   ],
-  "ReplyTemplate": 381,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 347,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 7
     }
   },
   "_Links": {

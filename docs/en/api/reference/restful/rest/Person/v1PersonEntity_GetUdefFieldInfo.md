@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 708,
-  "ColumnId": 819,
-  "FieldDefault": "nihil",
-  "FieldHeight": 729,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 231,
-  "FieldTop": 660,
+  "UDefFieldId": 270,
+  "ColumnId": 473,
+  "FieldDefault": "sapiente",
+  "FieldHeight": 929,
+  "FieldLabel": "quaerat",
+  "FieldLeft": 166,
+  "FieldTop": 61,
   "FieldType": "Checkbox",
-  "FieldWidth": 674,
-  "FormatMask": "repudiandae",
+  "FieldWidth": 54,
+  "FormatMask": "facere",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 416,
-  "LabelLeft": 979,
-  "LabelTop": 149,
-  "LabelWidth": 33,
-  "LastVersionId": 817,
-  "ListTableId": 908,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 61,
+  "LabelLeft": 773,
+  "LabelTop": 288,
+  "LabelWidth": 426,
+  "LastVersionId": 772,
+  "ListTableId": 150,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 569,
-  "ProgId": "dolor",
+  "Page1LineNo": 129,
+  "ProgId": "blanditiis",
   "IsReadOnly": false,
-  "ShortLabel": "minus",
-  "TabOrder": 428,
-  "TextLength": 555,
-  "Tooltip": "voluptate",
-  "UdefIdentity": 353,
-  "UDListDefinitionId": 375,
+  "ShortLabel": "voluptate",
+  "TabOrder": 209,
+  "TextLength": 47,
+  "Tooltip": "qui",
+  "UdefIdentity": 819,
+  "UDListDefinitionId": 693,
   "Justification": "Center",
-  "Version": 716,
-  "TemplateVariableName": "Kemmer LLC",
+  "Version": 342,
+  "TemplateVariableName": "Lind, Hansen and Donnelly",
   "HasBeenPublished": false,
-  "MdoListName": "Miller-Stracke",
+  "MdoListName": "Kutch LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 307
+      "FieldType": "System.Int32",
+      "FieldLength": 867
     }
   }
 }

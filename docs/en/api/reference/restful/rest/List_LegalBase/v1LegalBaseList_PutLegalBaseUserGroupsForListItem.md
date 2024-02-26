@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Adams Inc and Sons",
-    "ToolTip": "Et reprehenderit aut odio nisi.",
+    "Id": 300,
+    "Name": "Moore-Will",
+    "ToolTip": "Doloremque itaque corporis laborum sed suscipit sit quibusdam.",
     "Deleted": false,
-    "Rank": 936,
-    "Type": "qui",
-    "ColorBlock": 608,
-    "IconHint": "facilis",
-    "Selected": false,
-    "LastChanged": "2019-08-19T16:55:30.7021717+02:00",
+    "Rank": 501,
+    "Type": "minima",
+    "ColorBlock": 151,
+    "IconHint": "aspernatur",
+    "Selected": true,
+    "LastChanged": "2015-04-21T10:30:33.0055846+02:00",
     "ChildItems": [
       {
-        "Id": 76,
-        "Name": "Keebler Group",
-        "ToolTip": "Omnis ut.",
-        "Deleted": true,
-        "Rank": 261,
-        "Type": "esse",
-        "ColorBlock": 342,
-        "IconHint": "quidem",
+        "Id": 939,
+        "Name": "Willms-Rogahn",
+        "ToolTip": "Et culpa sint.",
+        "Deleted": false,
+        "Rank": 149,
+        "Type": "iure",
+        "ColorBlock": 908,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2021-11-09T16:55:30.7021717+01:00",
+        "LastChanged": "2023-09-10T10:30:33.0055846+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Dr. Olin Graham"
+        "ExtraInfo": "tempora",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Maximus Roberts"
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Ismael Blanda Sr."
+    "ExtraInfo": "sit",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Syble Fahey"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Hackett-Goyette",
-    "ToolTip": "Recusandae adipisci cupiditate vel neque eveniet molestias aut.",
-    "Deleted": false,
-    "Rank": 147,
-    "Type": "et",
-    "ColorBlock": 615,
-    "IconHint": "itaque",
+    "Id": 386,
+    "Name": "Herman-Batz",
+    "ToolTip": "Harum temporibus eos quia doloremque rerum ea.",
+    "Deleted": true,
+    "Rank": 209,
+    "Type": "enim",
+    "ColorBlock": 565,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2010-11-04T16:55:30.7021717+01:00",
+    "LastChanged": "2010-02-20T10:30:33.0212063+01:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Mohr Inc and Sons",
-        "ToolTip": "At quis nobis quo iure blanditiis sit id.",
+        "Id": 946,
+        "Name": "Dare Group",
+        "ToolTip": "Accusantium fuga laudantium enim qui.",
         "Deleted": false,
-        "Rank": 773,
-        "Type": "minima",
-        "ColorBlock": 333,
-        "IconHint": "sunt",
+        "Rank": 84,
+        "Type": "aliquam",
+        "ColorBlock": 574,
+        "IconHint": "provident",
         "Selected": true,
-        "LastChanged": "2017-09-03T16:55:30.7052725+02:00",
+        "LastChanged": "2002-10-27T10:30:33.0212063+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
+        "ExtraInfo": "accusamus",
         "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Tessie Murazik MD",
+        "Hidden": true,
+        "FullName": "Prof. Destinee Dicki II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 231
+            "FieldType": "System.Int32",
+            "FieldLength": 478
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Marjolaine Mayert Jr.",
+    "ExtraInfo": "rerum",
+    "StyleHint": "iste",
+    "Hidden": false,
+    "FullName": "Miss Timmy Hartmann V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 434
       }
     }
   }

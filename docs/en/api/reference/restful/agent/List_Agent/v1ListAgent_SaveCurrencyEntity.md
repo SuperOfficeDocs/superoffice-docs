@@ -79,13 +79,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 481,
-  "Name": "Legros, Zemlak and Borer",
-  "Tooltip": "molestiae",
-  "Rank": 333,
-  "Rate": 9022.786,
-  "Units": 1682.9579999999999,
-  "Deleted": true
+  "CurrencyId": 813,
+  "Name": "Tromp, Beatty and Buckridge",
+  "Tooltip": "rerum",
+  "Rank": 145,
+  "Rate": 17769.78,
+  "Units": 23705.576,
+  "Deleted": false
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 596,
-  "Name": "Jacobi Group",
-  "Tooltip": "numquam",
-  "Rank": 397,
-  "Rate": 22702.696,
-  "Units": 9449.01,
-  "Deleted": true,
+  "CurrencyId": 183,
+  "Name": "Herzog Inc and Sons",
+  "Tooltip": "dolorem",
+  "Rank": 503,
+  "Rate": 28904.881999999998,
+  "Units": 10188.634,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldType": "System.String",
+      "FieldLength": 881
     }
   }
 }

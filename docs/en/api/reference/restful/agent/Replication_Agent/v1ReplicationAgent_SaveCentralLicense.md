@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Lehner, Cassin and Murray",
-      "Description": "Secured fault-tolerant info-mediaries",
+      "Name": "Ward-Botsford",
+      "Description": "Switchable dedicated hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Lehner, Cassin and Murray",
-      "Description": "Secured fault-tolerant info-mediaries",
+      "Name": "Ward-Botsford",
+      "Description": "Switchable dedicated hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lynch, Goldner and Herman",
-    "Description": "Networked global firmware",
+    "Name": "Hirthe-Erdman",
+    "Description": "Fundamental didactic encryption",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 467,
-        "Tooltip": "vel",
-        "CanAssign": true,
-        "Free": 480,
-        "InUse": 127,
+        "Total": 428,
+        "Tooltip": "odio",
+        "CanAssign": false,
+        "Free": 162,
+        "InUse": 889,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 246,
-        "Name": "O'Kon, Jones and Graham",
-        "Description": "Virtual client-driven focus group",
-        "PrerequisiteModuleName": "Shields-Kuhlman",
-        "SortOrder": 685,
-        "ExtraFlags": 428,
+        "Assigned": true,
+        "ModuleLicenseId": 732,
+        "Name": "Heathcote, Wyman and Terry",
+        "Description": "Triple-buffered bottom-line installation",
+        "PrerequisiteModuleName": "Wintheiser-Buckridge",
+        "SortOrder": 47,
+        "ExtraFlags": 409,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 933
+            "FieldLength": 284
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 434,
-        "Tooltip": "porro",
+        "Total": 238,
+        "Tooltip": "quidem",
         "CanAssign": false,
-        "Free": 814,
-        "InUse": 538,
+        "Free": 786,
+        "InUse": 852,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 309,
-        "Name": "Mohr Inc and Sons",
-        "Description": "Seamless foreground capacity",
-        "PrerequisiteModuleName": "Frami, Fahey and Conn",
-        "SortOrder": 522,
-        "ExtraFlags": 187,
+        "Assigned": false,
+        "ModuleLicenseId": 206,
+        "Name": "Schaefer, Nolan and Kilback",
+        "Description": "Synergized bi-directional implementation",
+        "PrerequisiteModuleName": "Morissette Inc and Sons",
+        "SortOrder": 125,
+        "ExtraFlags": 630,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 698
+            "FieldType": "System.Int32",
+            "FieldLength": 80
           }
         }
       }
@@ -178,35 +178,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 185
       }
     }
   },
   {
-    "Name": "Lynch, Goldner and Herman",
-    "Description": "Networked global firmware",
+    "Name": "Hirthe-Erdman",
+    "Description": "Fundamental didactic encryption",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 467,
-        "Tooltip": "vel",
-        "CanAssign": true,
-        "Free": 480,
-        "InUse": 127,
+        "Total": 428,
+        "Tooltip": "odio",
+        "CanAssign": false,
+        "Free": 162,
+        "InUse": 889,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 246,
-        "Name": "O'Kon, Jones and Graham",
-        "Description": "Virtual client-driven focus group",
-        "PrerequisiteModuleName": "Shields-Kuhlman",
-        "SortOrder": 685,
-        "ExtraFlags": 428,
+        "Assigned": true,
+        "ModuleLicenseId": 732,
+        "Name": "Heathcote, Wyman and Terry",
+        "Description": "Triple-buffered bottom-line installation",
+        "PrerequisiteModuleName": "Wintheiser-Buckridge",
+        "SortOrder": 47,
+        "ExtraFlags": 409,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 933
+            "FieldLength": 284
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 434,
-        "Tooltip": "porro",
+        "Total": 238,
+        "Tooltip": "quidem",
         "CanAssign": false,
-        "Free": 814,
-        "InUse": 538,
+        "Free": 786,
+        "InUse": 852,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 309,
-        "Name": "Mohr Inc and Sons",
-        "Description": "Seamless foreground capacity",
-        "PrerequisiteModuleName": "Frami, Fahey and Conn",
-        "SortOrder": 522,
-        "ExtraFlags": 187,
+        "Assigned": false,
+        "ModuleLicenseId": 206,
+        "Name": "Schaefer, Nolan and Kilback",
+        "Description": "Synergized bi-directional implementation",
+        "PrerequisiteModuleName": "Morissette Inc and Sons",
+        "SortOrder": 125,
+        "ExtraFlags": 630,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 698
+            "FieldType": "System.Int32",
+            "FieldLength": 80
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 185
       }
     }
   }

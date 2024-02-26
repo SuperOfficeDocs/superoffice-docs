@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 608,
-    "Name": "Stehr Group",
-    "Tooltip": "voluptas",
+    "HeadingId": 615,
+    "Name": "Fritsch, Hahn and Nikolaus",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 173,
+    "Rank": 985,
+    "UdListDefinitionId": 226,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 713
+        "FieldLength": 639
       }
     }
   }

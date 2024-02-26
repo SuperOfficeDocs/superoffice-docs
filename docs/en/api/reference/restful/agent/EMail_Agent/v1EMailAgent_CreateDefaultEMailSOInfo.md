@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 708,
-  "AppointmentId": 229,
-  "ProjectId": 718,
-  "SaleId": 656,
+  "DocumentId": 454,
+  "AppointmentId": 314,
+  "ProjectId": 337,
+  "SaleId": 730,
   "Archived": true,
-  "ArchivedAt": "2001-09-24T16:54:55.3424251+02:00",
-  "ArchivedBy": 975,
-  "ArchivedDisplayName": "Barrows-Lindgren",
+  "ArchivedAt": "2001-05-17T10:30:23.7824305+02:00",
+  "ArchivedBy": 26,
+  "ArchivedDisplayName": "Johnston Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 141
     }
   }
 }

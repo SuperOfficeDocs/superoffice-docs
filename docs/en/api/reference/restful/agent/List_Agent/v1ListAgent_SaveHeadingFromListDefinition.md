@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
+  "Id": 193,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 914,
-  "Name": "Pacocha Inc and Sons",
-  "Tooltip": "veniam",
+  "HeadingId": 135,
+  "Name": "Steuber, Zulauf and Ruecker",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 853,
-  "UdListDefinitionId": 888,
+  "Rank": 608,
+  "UdListDefinitionId": 318,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldLength": 632
     }
   }
 }

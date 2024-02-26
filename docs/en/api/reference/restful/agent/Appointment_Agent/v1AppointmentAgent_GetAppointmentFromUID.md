@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "quisquam"
+  "UID": "et"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-10-02T16:54:54.5245902+02:00",
-  "AppointmentId": 708,
-  "Description": "Open-source eco-centric functionalities",
-  "Title": "qui",
-  "Agenda": "omnis",
-  "InternalNotes": "consequatur",
-  "StartDate": "2019-03-05T16:54:54.5245902+01:00",
-  "EndDate": "2016-07-30T16:54:54.5245902+02:00",
+  "CreatedDate": "2008-12-04T10:30:23.0201695+01:00",
+  "AppointmentId": 886,
+  "Description": "Business-focused clear-thinking access",
+  "Title": "corporis",
+  "Agenda": "doloribus",
+  "InternalNotes": "dolore",
+  "StartDate": "2005-12-07T10:30:23.0201695+01:00",
+  "EndDate": "2006-12-21T10:30:23.0201695+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 16,
+  "MotherId": 709,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2023-02-04T16:54:54.5265912+01:00",
+  "UpdatedDate": "1998-01-17T10:30:23.0201695+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 849,
+  "ActiveLinks": 286,
   "Links": [
     {
-      "EntityName": "Kris Group",
-      "Id": 109,
-      "Description": "Object-based discrete customer loyalty",
-      "ExtraInfo": "ex",
-      "LinkId": 254,
+      "EntityName": "Harvey-Carroll",
+      "Id": 148,
+      "Description": "Diverse scalable initiative",
+      "ExtraInfo": "aspernatur",
+      "LinkId": 139,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 833
+          "FieldType": "System.Int32",
+          "FieldLength": 361
         }
       }
     }
   ],
-  "AlarmLeadTime": "fugiat",
+  "AlarmLeadTime": "dicta",
   "HasAlarm": false,
-  "ColorIndex": 356,
+  "ColorIndex": 169,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "impedit",
-  "LeadTime": "accusamus",
-  "Location": "laboriosam",
-  "RejectCounter": 626,
+  "LagTime": "et",
+  "LeadTime": "veniam",
+  "Location": "sunt",
+  "RejectCounter": 860,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 112,
-      "PersonId": 113,
-      "ContactId": 537,
-      "EmailId": 257,
+      "AssociateId": 649,
+      "PersonId": 528,
+      "ContactId": 295,
+      "EmailId": 156,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "garrick_cassin@kihn.co.uk",
-      "Description": "Monitored national forecast"
+      "EmailAddress": "adalberto.mayert@littel.com",
+      "Description": "Pre-emptive value-added framework"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-04-25T16:54:54.5265912+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2000-02-23T10:30:23.0201695+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 209,
+  "PreferredTZLocation": 68,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 370,
+  "SuggestedAppointmentId": 935,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eligendi",
+  "CentralserviceVideomeetId": "eos",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Ernestina Yundt"
+    "SuperOffice:1": "1511125542",
+    "SuperOffice:2": "Dr. Wilber Hardy Lakin"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "iste"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "enim"
+    "CustomFields1": "tenetur",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2008-08-19T16:54:54.5286152+02:00",
-  "PublishTo": "2002-04-24T16:54:54.5286152+02:00",
-  "PublishFrom": "2014-02-14T16:54:54.5286152+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-03-08T10:30:23.0201695+01:00",
+  "PublishTo": "2014-11-17T10:30:23.0201695+01:00",
+  "PublishFrom": "2010-07-21T10:30:23.0201695+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 379,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldType": "System.String",
+          "FieldLength": 687
         }
       }
     },
     {
-      "VisibleId": 379,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldType": "System.String",
+          "FieldLength": 687
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 399
     }
   }
 }

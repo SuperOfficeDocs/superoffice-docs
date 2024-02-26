@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 590,
-  "Name": "Bauch, Lang and Gerhold",
-  "Tooltip": "error",
+  "RoleId": 302,
+  "Name": "Schmeler, Haley and Schneider",
+  "Tooltip": "quaerat",
   "RoleType": "Anonymous",
-  "Deleted": 624,
-  "Rank": 657,
-  "Created": "2022-08-30T16:54:56.6562051+02:00",
-  "UseCategories": 261,
+  "Deleted": 738,
+  "Rank": 907,
+  "Created": "2009-02-24T10:30:24.9985809+01:00",
+  "UseCategories": 676,
   "CreatedBy": null,
-  "Updated": "2013-07-06T16:54:56.6567093+02:00",
+  "Updated": "2014-05-02T10:30:24.9985809+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 621
     }
   }
 }

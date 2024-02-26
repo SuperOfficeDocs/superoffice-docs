@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Bergstrom, Lakin and Ebert",
-    "ToolTip": "Est ipsam velit et omnis itaque.",
-    "Deleted": true,
-    "Rank": 494,
-    "Type": "aut",
-    "ColorBlock": 119,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2009-11-20T16:55:30.498696+01:00",
+    "Id": 837,
+    "Name": "Goodwin, Rippin and Simonis",
+    "ToolTip": "Distinctio dolorum blanditiis et nam asperiores non architecto.",
+    "Deleted": false,
+    "Rank": 234,
+    "Type": "ea",
+    "ColorBlock": 398,
+    "IconHint": "ullam",
+    "Selected": false,
+    "LastChanged": "2023-08-30T10:30:32.8269372+02:00",
     "ChildItems": [
       {
-        "Id": 493,
-        "Name": "Harris, Johns and Mayer",
-        "ToolTip": "Est natus eum.",
-        "Deleted": false,
-        "Rank": 937,
-        "Type": "in",
-        "ColorBlock": 427,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2002-08-25T16:55:30.498696+02:00",
+        "Id": 968,
+        "Name": "Kertzmann Inc and Sons",
+        "ToolTip": "Porro ipsam qui nam fugiat.",
+        "Deleted": true,
+        "Rank": 366,
+        "Type": "accusamus",
+        "ColorBlock": 635,
+        "IconHint": "perspiciatis",
+        "Selected": true,
+        "LastChanged": "2003-08-04T10:30:32.8269372+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Virginie O'Connell",
+        "ExtraInfo": "cumque",
+        "StyleHint": "quisquam",
+        "Hidden": true,
+        "FullName": "Torrey Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 815
+            "FieldLength": 620
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "rerum",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Yolanda Heidenreich",
+    "FullName": "Denis Vandervort",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 577
       }
     }
   }

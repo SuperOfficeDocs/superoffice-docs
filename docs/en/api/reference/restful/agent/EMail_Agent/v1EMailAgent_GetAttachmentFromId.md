@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 803,
+  "MailItemId": 508,
   "AttachmentId": "est"
 }
 ```
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible eco-centric initiative",
-  "Filename": "natus",
-  "Size": 45,
-  "Type": "recusandae",
-  "Encoding": "fugit",
-  "Id": "corrupti",
-  "Disposition": "unde",
-  "IsSafeFileExtension": true,
+  "Description": "Multi-lateral non-volatile productivity",
+  "Filename": "rerum",
+  "Size": 324,
+  "Type": "rem",
+  "Encoding": "perspiciatis",
+  "Id": "voluptatem",
+  "Disposition": "nesciunt",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldType": "System.String",
+      "FieldLength": 409
     }
   }
 }

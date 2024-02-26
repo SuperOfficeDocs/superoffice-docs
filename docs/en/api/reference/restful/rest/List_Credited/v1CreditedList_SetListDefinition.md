@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 281,
-  "Name": "Emard Inc and Sons",
-  "Tooltip": "nobis",
+  "Id": 468,
+  "Name": "Beatty, Schinner and Cormier",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 513,
+  "Rank": 263,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "amet",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 661,
-  "Name": "Ankunding, Christiansen and Grimes",
-  "Tooltip": "molestiae",
+  "Id": 411,
+  "Name": "Jerde-O'Kon",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 474,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
+  "Rank": 369,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aperiam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 461
     }
   }
 }

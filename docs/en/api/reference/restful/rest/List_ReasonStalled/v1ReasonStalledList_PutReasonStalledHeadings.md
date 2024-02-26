@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 923,
-    "Name": "Baumbach Inc and Sons",
-    "Tooltip": "quod",
+    "HeadingId": 261,
+    "Name": "Nitzsche-Mertz",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 348,
-    "UdListDefinitionId": 244
+    "Rank": 948,
+    "UdListDefinitionId": 525
   },
   {
-    "HeadingId": 923,
-    "Name": "Baumbach Inc and Sons",
-    "Tooltip": "quod",
+    "HeadingId": 261,
+    "Name": "Nitzsche-Mertz",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 348,
-    "UdListDefinitionId": 244
+    "Rank": 948,
+    "UdListDefinitionId": 525
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 249,
-    "Name": "Huel, Berge and Lowe",
-    "Tooltip": "facilis",
+    "HeadingId": 443,
+    "Name": "Little-Hilll",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "Rank": 786,
-    "UdListDefinitionId": 68,
+    "Rank": 593,
+    "UdListDefinitionId": 300,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 845
       }
     }
   }

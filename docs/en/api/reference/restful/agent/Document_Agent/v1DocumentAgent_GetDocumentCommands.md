@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 686,
+  "DocumentId": 583,
   "AllowedReturnTypes": [
-    "voluptatem",
-    "debitis"
+    "maxime",
+    "accusantium"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beahan, Sipes and Johnson",
-    "DisplayName": "Larkin LLC",
-    "DisplayTooltip": "ex",
-    "IconHint": "qui",
+    "Name": "Bogan Inc and Sons",
+    "DisplayName": "Volkman Group",
+    "DisplayTooltip": "sint",
+    "IconHint": "consequatur",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Beahan, Sipes and Johnson",
-    "DisplayName": "Larkin LLC",
-    "DisplayTooltip": "ex",
-    "IconHint": "qui",
+    "Name": "Bogan Inc and Sons",
+    "DisplayName": "Volkman Group",
+    "DisplayTooltip": "sint",
+    "IconHint": "consequatur",
     "ReturnType": "CustomGui"
   }
 ]

@@ -97,12 +97,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 587,
-  "Name": "Bruen Inc and Sons",
-  "Tooltip": "vel",
-  "PassiveText": "odit",
+  "ReldefId": 16,
+  "Name": "Beatty-Stokes",
+  "Tooltip": "eius",
+  "PassiveText": "molestiae",
   "Deleted": false,
-  "Rank": 121,
+  "Rank": 765,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -116,11 +116,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ReldefId": 37,
-  "Name": "Strosin, Block and Will",
-  "Tooltip": "velit",
-  "PassiveText": "molestiae",
-  "Deleted": false,
-  "Rank": 561,
+  "Name": "Reynolds, Rodriguez and Rohan",
+  "Tooltip": "ut",
+  "PassiveText": "cupiditate",
+  "Deleted": true,
+  "Rank": 548,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 581
     }
   },
   "_Links": {

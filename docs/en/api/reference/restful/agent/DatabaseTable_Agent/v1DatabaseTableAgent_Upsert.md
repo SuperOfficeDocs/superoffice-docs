@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bradtke, Champlin and Anderson",
+  "TableName": "Schowalter, Ortiz and Kessler",
   "Columns": [
-    "est",
-    "amet"
+    "qui",
+    "facilis"
   ],
   "Keys": [
-    "quos",
-    "pariatur"
+    "facilis",
+    "quo"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "impedit",
-  "Inserts": 469,
-  "Updates": 246,
-  "Deletes": 719,
+  "Success": true,
+  "Message": "voluptatum",
+  "Inserts": 344,
+  "Updates": 209,
+  "Deletes": 35,
   "RowStatus": [
     {
-      "PrimaryKey": 228,
+      "PrimaryKey": 327,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quam",
-        "itaque"
+        "enim",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 933
         }
       }
     },
     {
-      "PrimaryKey": 228,
+      "PrimaryKey": 327,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quam",
-        "itaque"
+        "enim",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 933
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 277
     }
   }
 }

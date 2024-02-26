@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 840,
+  "HierarchyId": 413,
   "Domain": "Dashboards",
-  "Name": "Dare, Jakubowski and Eichmann",
-  "Fullname": "voluptas",
-  "ParentId": 795,
+  "Name": "Luettgen-Balistreri",
+  "Fullname": "harum",
+  "ParentId": 854,
   "Children": [
     {
-      "HierarchyId": 268,
+      "HierarchyId": 678,
       "Domain": "Dashboards",
-      "Name": "Smitham-Hudson",
-      "Fullname": "nam",
-      "ParentId": 3,
+      "Name": "Flatley-Kulas",
+      "Fullname": "corporis",
+      "ParentId": 605,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-06-20T16:55:29.6644398+02:00",
-      "RegisteredAssociateId": 44,
-      "Updated": "2005-10-17T16:55:29.6644398+02:00",
-      "UpdatedAssociateId": 824
+      "Registered": "1997-04-17T10:30:32.0886795+02:00",
+      "RegisteredAssociateId": 123,
+      "Updated": "2008-10-03T10:30:32.0886795+02:00",
+      "UpdatedAssociateId": 279
     }
   ],
-  "Registered": "2004-03-24T16:55:29.6644398+01:00",
-  "RegisteredAssociateId": 780,
-  "Updated": "2008-10-10T16:55:29.6644398+02:00",
-  "UpdatedAssociateId": 688
+  "Registered": "2017-10-22T10:30:32.0886795+02:00",
+  "RegisteredAssociateId": 78,
+  "Updated": "1999-07-28T10:30:32.0886795+02:00",
+  "UpdatedAssociateId": 540
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 886,
+  "HierarchyId": 18,
   "Domain": "Dashboards",
-  "Name": "Mraz, Abernathy and Schuppe",
-  "Fullname": "repellendus",
-  "ParentId": 900,
+  "Name": "Connelly Group",
+  "Fullname": "in",
+  "ParentId": 578,
   "Children": [
     {
-      "HierarchyId": 480,
+      "HierarchyId": 534,
       "Domain": "Dashboards",
-      "Name": "Stark, Treutel and Heidenreich",
-      "Fullname": "quo",
-      "ParentId": 215,
+      "Name": "Stiedemann, Toy and Orn",
+      "Fullname": "non",
+      "ParentId": 796,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-06-01T16:55:29.6654609+02:00",
-      "RegisteredAssociateId": 921,
-      "Updated": "2001-04-12T16:55:29.6654609+02:00",
-      "UpdatedAssociateId": 306,
+      "Registered": "2008-07-13T10:30:32.0886795+02:00",
+      "RegisteredAssociateId": 641,
+      "Updated": "1999-01-23T10:30:32.0886795+01:00",
+      "UpdatedAssociateId": 825,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 29
+          "FieldLength": 591
         }
       }
     }
   ],
-  "Registered": "2016-08-25T16:55:29.6654609+02:00",
-  "RegisteredAssociateId": 402,
-  "Updated": "2023-07-20T16:55:29.6654609+02:00",
-  "UpdatedAssociateId": 83,
+  "Registered": "2022-09-01T10:30:32.0886795+02:00",
+  "RegisteredAssociateId": 437,
+  "Updated": "2012-06-09T10:30:32.0886795+02:00",
+  "UpdatedAssociateId": 155,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldLength": 332
     }
   }
 }

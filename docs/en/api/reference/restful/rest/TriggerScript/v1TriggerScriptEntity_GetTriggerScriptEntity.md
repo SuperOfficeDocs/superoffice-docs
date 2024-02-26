@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 530,
-  "Name": "Lynch Group",
+  "ScreenChooserId": 827,
+  "Name": "Durgan-Green",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "voluptate",
-  "Source": "quod",
-  "Registered": "2004-11-14T16:55:30.3138161+01:00",
-  "RegisteredAssociateId": 586,
-  "Updated": "2016-10-24T16:55:30.3138161+02:00",
-  "UpdatedAssociateId": 206,
+  "UniqueIdentifier": "illo",
+  "Source": "at",
+  "Registered": "2017-02-06T10:30:32.6543487+01:00",
+  "RegisteredAssociateId": 180,
+  "Updated": "2022-03-11T10:30:32.6543487+01:00",
+  "UpdatedAssociateId": 946,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 521
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Douglas, Hudson and Anderson",
-    "ToolTip": "Ab fugiat occaecati est in veniam asperiores.",
-    "Deleted": true,
-    "Rank": 547,
-    "Type": "et",
-    "ColorBlock": 909,
-    "IconHint": "laudantium",
-    "Selected": true,
-    "LastChanged": "2017-01-03T16:55:30.8498459+01:00",
+    "Id": 790,
+    "Name": "Beer LLC",
+    "ToolTip": "Assumenda aut cum laboriosam et.",
+    "Deleted": false,
+    "Rank": 708,
+    "Type": "a",
+    "ColorBlock": 27,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2005-04-29T10:30:33.1474583+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Hahn, Walsh and Effertz",
-        "ToolTip": "Ut dolores.",
+        "Id": 861,
+        "Name": "Nicolas Group",
+        "ToolTip": "Quia quos tempora porro tenetur rerum vel impedit.",
         "Deleted": false,
-        "Rank": 964,
-        "Type": "minus",
-        "ColorBlock": 546,
-        "IconHint": "odio",
+        "Rank": 974,
+        "Type": "dolorem",
+        "ColorBlock": 873,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "1997-08-23T16:55:30.8498459+02:00",
+        "LastChanged": "2008-05-03T10:30:33.1474583+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "fuga",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Kayden Parker IV",
+        "FullName": "Prof. Aliya Ludie Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 519
+            "FieldLength": 761
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
+    "ExtraInfo": "voluptatum",
     "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Mrs. Kaycee Ericka Littel PhD",
+    "Hidden": false,
+    "FullName": "Keshawn Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 683
       }
     }
   }

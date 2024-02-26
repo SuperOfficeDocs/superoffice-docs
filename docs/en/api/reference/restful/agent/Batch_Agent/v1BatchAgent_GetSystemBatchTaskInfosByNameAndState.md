@@ -99,7 +99,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hudson Inc and Sons",
+  "TaskName": "Wolf, VonRueden and Predovic",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Lang-Shields",
-    "AssociateId": 462,
-    "DetailsTable": 279,
-    "DetailsRecord": 450,
+    "Id": 495,
+    "Name": "Sawayn, Hintz and Roberts",
+    "AssociateId": 838,
+    "DetailsTable": 436,
+    "DetailsRecord": 185,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "eligendi",
-      "ParameterObject2": "perspiciatis"
+      "ParameterObject1": "maxime",
+      "ParameterObject2": "doloribus"
     },
-    "LastStarted": "1999-01-16T16:54:54.6083022+01:00",
-    "Created": "1999-06-13T16:54:54.6083022+02:00",
-    "StartCount": 218,
-    "DatabaseSerialNumber": "698443",
-    "Context": "quia",
-    "Result": "ullam",
+    "LastStarted": "2017-10-01T10:30:23.0982933+02:00",
+    "Created": "2015-07-05T10:30:23.0982933+02:00",
+    "StartCount": 542,
+    "DatabaseSerialNumber": "1003551",
+    "Context": "officia",
+    "Result": "in",
     "State": "All",
-    "Description": "Organized multi-tasking local area network",
-    "Response": "quisquam",
-    "Request": "eaque",
-    "ProgressDescription": "User-centric dynamic moderator",
-    "ProgressPercent": 944,
-    "FileName": "Funk-Metz",
+    "Description": "Self-enabling zero defect strategy",
+    "Response": "aut",
+    "Request": "praesentium",
+    "ProgressDescription": "Re-engineered directional local area network",
+    "ProgressPercent": 610,
+    "FileName": "Kub-Koepp",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 951
+        "FieldType": "System.Int32",
+        "FieldLength": 940
       }
     }
   }

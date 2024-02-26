@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nemo",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nemo",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 901,
-  "Name": "Marquardt, Wolff and Kirlin",
-  "Config": "ut",
-  "Rank": 994,
-  "Client": "consequatur",
-  "Style": "est",
+  "DashboardThemeId": 747,
+  "Name": "Halvorson, Kerluke and Quitzon",
+  "Config": "consequatur",
+  "Rank": 245,
+  "Client": "et",
+  "Style": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldLength": 72
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

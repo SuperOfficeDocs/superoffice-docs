@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 804,
-  "ERPProductKey": "blanditiis",
-  "ERPPriceListKey": "necessitatibus",
-  "Name": "Doyle, Rohan and Tromp",
-  "Description": "Focused heuristic complexity",
-  "Code": "et",
-  "PriceUnit": "facere",
-  "QuantityUnit": "dolorem",
+  "ProductId": 122,
+  "ERPProductKey": "saepe",
+  "ERPPriceListKey": "velit",
+  "Name": "Cassin, Quigley and Ondricka",
+  "Description": "Public-key human-resource open architecture",
+  "Code": "error",
+  "PriceUnit": "consectetur",
+  "QuantityUnit": "quae",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatum",
-  "DefaultSubscriptionQuantity": 24166.273999999998,
-  "ItemNumber": "632078",
+  "SubscriptionUnit": "aspernatur",
+  "DefaultSubscriptionQuantity": 24275.964,
+  "ItemNumber": "734661",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fugiat",
-  "ProductTypeKey": "saepe",
-  "VAT": 2278.418,
-  "VATInfo": "fugiat",
-  "UnitCost": 25209.896,
-  "UnitMinimumPrice": 2974.1659999999997,
-  "UnitListPrice": 30258.77,
-  "InAssortment": false,
-  "Supplier": "eum",
-  "SupplierCode": "magnam",
-  "Rights": "voluptas",
-  "Rule": "nemo",
+  "ProductFamilyKey": "sequi",
+  "ProductTypeKey": "impedit",
+  "VAT": 26419.62,
+  "VATInfo": "est",
+  "UnitCost": 18976.37,
+  "UnitMinimumPrice": 23078.775999999998,
+  "UnitListPrice": 11000.34,
+  "InAssortment": true,
+  "Supplier": "sed",
+  "SupplierCode": "est",
+  "Rights": "ut",
+  "Rule": "non",
   "ExtraInfo": [
     {
-      "Name": "Cummerata-Kerluke",
-      "Value": "dolores",
+      "Name": "Leuschke LLC",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldLength": 998
         }
       }
     },
     {
-      "Name": "Cummerata-Kerluke",
-      "Value": "dolores",
+      "Name": "Leuschke LLC",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldLength": 998
         }
       }
     }
   ],
-  "RawExtraInfo": "omnis",
-  "ExtraField1": "laborum",
-  "ExtraField2": "occaecati",
-  "ExtraField3": "architecto",
-  "ExtraField4": "itaque",
-  "ExtraField5": "deserunt",
-  "InStock": 20446.216,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "velit",
+  "ExtraField2": "ut",
+  "ExtraField3": "ab",
+  "ExtraField4": "cupiditate",
+  "ExtraField5": "aut",
+  "InStock": 12952.822,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   }
 }

@@ -71,8 +71,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 139,
-  "MessageId": 364
+  "EmailFlowId": 979,
+  "MessageId": 785
 }
 ```
 

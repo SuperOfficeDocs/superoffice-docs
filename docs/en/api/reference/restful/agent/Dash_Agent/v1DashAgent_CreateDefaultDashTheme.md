@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 146,
-  "Name": "Kutch, Flatley and Larkin",
-  "Config": "ex",
-  "Rank": 761,
-  "Client": "quo",
-  "Style": "est",
+  "DashboardThemeId": 825,
+  "Name": "Pollich-Corkery",
+  "Config": "in",
+  "Rank": 240,
+  "Client": "expedita",
+  "Style": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 694
     }
   }
 }

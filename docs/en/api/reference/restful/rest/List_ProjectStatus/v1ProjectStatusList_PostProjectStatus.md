@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "Name": "McKenzie-Aufderhar",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "UdListDefinitionId": 769,
-  "Rank": 332
+  "Id": 399,
+  "Name": "Cremin Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": true,
+  "UdListDefinitionId": 795,
+  "Rank": 894
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 301,
-  "Name": "O'Connell Inc and Sons",
-  "Tooltip": "quis",
+  "Id": 261,
+  "Name": "Ortiz Group",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "UdListDefinitionId": 63,
-  "Rank": 798,
+  "UdListDefinitionId": 664,
+  "Rank": 703,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 238
     }
   }
 }

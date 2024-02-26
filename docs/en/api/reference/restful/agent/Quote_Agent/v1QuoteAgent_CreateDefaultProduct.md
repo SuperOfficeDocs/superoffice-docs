@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 753,
-  "ERPProductKey": "earum",
-  "ERPPriceListKey": "id",
-  "Name": "Quigley, Nienow and Toy",
-  "Description": "Pre-emptive real-time algorithm",
-  "Code": "dolor",
-  "PriceUnit": "iusto",
-  "QuantityUnit": "earum",
-  "IsSubscription": true,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 18973.236,
-  "ItemNumber": "1101896",
+  "ProductId": 571,
+  "ERPProductKey": "ex",
+  "ERPPriceListKey": "et",
+  "Name": "Moen-Bailey",
+  "Description": "Persevering neutral encoding",
+  "Code": "sunt",
+  "PriceUnit": "repudiandae",
+  "QuantityUnit": "et",
+  "IsSubscription": false,
+  "SubscriptionUnit": "aut",
+  "DefaultSubscriptionQuantity": 11103.761999999999,
+  "ItemNumber": "1057944",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quod",
+  "ProductFamilyKey": "ea",
   "ProductTypeKey": "deleniti",
-  "VAT": 12767.916,
-  "VATInfo": "eum",
-  "UnitCost": 5992.208,
-  "UnitMinimumPrice": 16102.492,
-  "UnitListPrice": 8590.294,
+  "VAT": 30039.39,
+  "VATInfo": "possimus",
+  "UnitCost": 12946.554,
+  "UnitMinimumPrice": 27406.829999999998,
+  "UnitListPrice": 22016.35,
   "InAssortment": false,
-  "Supplier": "culpa",
-  "SupplierCode": "esse",
-  "Rights": "voluptatibus",
-  "Rule": "id",
+  "Supplier": "voluptatibus",
+  "SupplierCode": "dolor",
+  "Rights": "magni",
+  "Rule": "quas",
   "ExtraInfo": [
     {
-      "Name": "Greenholt, Zulauf and Lubowitz",
-      "Value": "aliquam",
+      "Name": "Collier, Johnson and Kulas",
+      "Value": "eos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 359
         }
       }
     },
     {
-      "Name": "Greenholt, Zulauf and Lubowitz",
-      "Value": "aliquam",
+      "Name": "Collier, Johnson and Kulas",
+      "Value": "eos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 359
         }
       }
     }
   ],
-  "RawExtraInfo": "non",
-  "ExtraField1": "unde",
-  "ExtraField2": "porro",
-  "ExtraField3": "odit",
-  "ExtraField4": "eum",
-  "ExtraField5": "consequuntur",
-  "InStock": 3613.502,
+  "RawExtraInfo": "expedita",
+  "ExtraField1": "aut",
+  "ExtraField2": "laudantium",
+  "ExtraField3": "nihil",
+  "ExtraField4": "non",
+  "ExtraField5": "quaerat",
+  "InStock": 12630.02,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

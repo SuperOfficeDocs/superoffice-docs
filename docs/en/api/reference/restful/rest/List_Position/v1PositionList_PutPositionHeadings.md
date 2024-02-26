@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 740,
-    "Name": "Reichel, Hauck and Mills",
-    "Tooltip": "aut",
+    "HeadingId": 276,
+    "Name": "Gerhold, Graham and Hartmann",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 663,
-    "UdListDefinitionId": 22
+    "Rank": 586,
+    "UdListDefinitionId": 594
   },
   {
-    "HeadingId": 740,
-    "Name": "Reichel, Hauck and Mills",
-    "Tooltip": "aut",
+    "HeadingId": 276,
+    "Name": "Gerhold, Graham and Hartmann",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 663,
-    "UdListDefinitionId": 22
+    "Rank": 586,
+    "UdListDefinitionId": 594
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 382,
-    "Name": "Kuhn-Nitzsche",
-    "Tooltip": "dolore",
+    "HeadingId": 163,
+    "Name": "Osinski LLC",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 33,
-    "UdListDefinitionId": 456,
+    "Rank": 456,
+    "UdListDefinitionId": 122,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldType": "System.String",
+        "FieldLength": 307
       }
     }
   }

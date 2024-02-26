@@ -844,6 +844,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/personId| *None* |Contact ID: Database ID of the contact row| x |
 |request/saleId| *None* |Sale ID: The database ID of the sale record| x |
 |request/projectId| *None* |Project ID: Database ID of project record| x |
+|request/ticketTypeName| *None* |Request type: Request type| x |
 |request/ticketStatusName| *None* |Status: Request status| x |
 |request/categoryFullName| *None* |Category: Request category| x |
 |request/priorityName| *None* |Priority: Service priority| x |
@@ -851,11 +852,11 @@ This is the archive Provider for the Selection contact/person archive.
 |request/title| *None* |Title: Displays the request title| x |
 |request/createdAt| *None* |Created: Displays when the request was created| x |
 |request/lastChanged| *None* |Last changed: Displays when the request was last changed| x |
-|request/author| *None* |Author: Displays the author of the request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/author| *None* |Author: Displays the author of the request| x |
 |request/readByOwner| *None* |Read by owner: Displays when the request was read by the owner| x |
 |request/firstReadByOwner| *None* |First read by owner: Displays when the request was read by owner for the first time| x |
 |request/firstReadByUser| *None* |First read by user: Displays when the request was read by user for the first time| x |
@@ -885,6 +886,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags| *None* |Tags: Tags connected to a request| x |
 |request/ownedBy| *None* |Owner: The owner of the request| x |
+|request/createdBy| *None* |Created by: Created by| x |
 |request/content| *None* |Content: Search for content in messages related to requests| x |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
 |request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
@@ -954,12 +956,12 @@ This is the archive Provider for the Selection contact/person archive.
 |request/extra/x\_ticket\_longtext| *None* |Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
 |request/extra/x\_ticket\_date| *None* |Extra date: Custom date field on Request. No default value| x |
 |request/extra/x\_ticket\_datetime| *None* |Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
-|request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
-|request/extra/x\_ticket\_boolean| *None* |Extra boolean: Custom boolean on Ticket.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
+|request/extra/x\_ticket\_boolean| *None* |Extra boolean: Custom boolean on Ticket.| x |
 |request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
 |request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
@@ -1058,12 +1060,12 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/LastDoBySale| *None* |Date of last non-completed sale|  |
 |projectMembers/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |projectMembers/saintSaleStatus| *None* |With status|  |
-|projectMembers/saintAmountClass| *None* |Amount class|  |
-|projectMembers/saintActivityType| *None* |SAINT type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintAmountClass| *None* |Amount class|  |
+|projectMembers/saintActivityType| *None* |SAINT type|  |
 |projectMembers/saintDirection| *None* |Direction|  |
 |projectMembers/saintIntention| *None* |Intention|  |
 |projectMembers/saintTicketStatus| *None* |Status|  |
@@ -1166,7 +1168,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=updatedBy,contactAssociate/portraitThumbnail,targetRelation/registeredBy,sale/text,sale/associate/credentialDisplayValue
+GET /api/v1/archive/ContactPersonSelectionV2?$select=streetAddress/line2,sourceRelation/orgnr,appointment/appointment/agenda,document/associate/ejUserId,document/associate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

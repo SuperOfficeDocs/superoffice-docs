@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 890
+  "UserGroupId": 941
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 915,
-    "ColumnId": 59,
-    "FieldDefault": "autem",
-    "FieldHeight": 725,
-    "FieldLabel": "quia",
-    "FieldLeft": 901,
-    "FieldTop": 106,
+    "UDefFieldId": 736,
+    "ColumnId": 495,
+    "FieldDefault": "fugiat",
+    "FieldHeight": 653,
+    "FieldLabel": "libero",
+    "FieldLeft": 603,
+    "FieldTop": 719,
     "FieldType": "Checkbox",
-    "FieldWidth": 382,
-    "FormatMask": "fuga",
-    "HideLabel": false,
+    "FieldWidth": 308,
+    "FormatMask": "consequuntur",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 541,
-    "LabelLeft": 827,
-    "LabelTop": 152,
-    "LabelWidth": 401,
-    "LastVersionId": 133,
-    "ListTableId": 861,
-    "IsMandatory": false,
+    "LabelHeight": 912,
+    "LabelLeft": 672,
+    "LabelTop": 812,
+    "LabelWidth": 67,
+    "LastVersionId": 767,
+    "ListTableId": 618,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 993,
-    "ProgId": "vero",
+    "Page1LineNo": 291,
+    "ProgId": "officia",
     "IsReadOnly": true,
-    "ShortLabel": "qui",
-    "TabOrder": 403,
-    "TextLength": 687,
-    "Tooltip": "sint",
-    "UdefIdentity": 604,
-    "UDListDefinitionId": 110,
+    "ShortLabel": "eveniet",
+    "TabOrder": 660,
+    "TextLength": 108,
+    "Tooltip": "veniam",
+    "UdefIdentity": 505,
+    "UDListDefinitionId": 911,
     "Justification": "Center",
-    "Version": 37,
-    "TemplateVariableName": "Parker Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Rodriguez-Kub",
+    "Version": 694,
+    "TemplateVariableName": "Hirthe Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Schimmel, Legros and Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 319
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

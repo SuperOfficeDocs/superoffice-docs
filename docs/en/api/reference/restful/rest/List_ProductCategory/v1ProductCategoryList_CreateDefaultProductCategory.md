@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 474,
-  "Name": "Donnelly, Stracke and Carter",
-  "Tooltip": "deserunt",
+  "Id": 413,
+  "Name": "Kshlerin, Christiansen and Hickle",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "UdListDefinitionId": 809,
-  "Rank": 193,
+  "UdListDefinitionId": 363,
+  "Rank": 293,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldType": "System.Int32",
+      "FieldLength": 727
     }
   }
 }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 901,
-  "ErpConnectorId": 18,
-  "DisplayName": "Prosacco Inc and Sons",
-  "DisplayDescription": "Front-line contextually-based adapter",
-  "Active": false,
-  "ConnectionId": "quia",
-  "MostRecentTimestamp": "porro",
+  "ErpConnectionId": 969,
+  "ErpConnectorId": 342,
+  "DisplayName": "Pouros Inc and Sons",
+  "DisplayDescription": "Face to face bifurcated installation",
+  "Active": true,
+  "ConnectionId": "praesentium",
+  "MostRecentTimestamp": "enim",
   "ConfigFields": {
-    "ConfigFields1": "id",
-    "ConfigFields2": "ullam"
+    "ConfigFields1": "cum",
+    "ConfigFields2": "unde"
   },
   "Deleted": true,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    631,
-    606
+    725,
+    725
   ],
   "AssociateAccessIds": [
-    244,
-    801
+    503,
+    952
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 255
     }
   }
 }

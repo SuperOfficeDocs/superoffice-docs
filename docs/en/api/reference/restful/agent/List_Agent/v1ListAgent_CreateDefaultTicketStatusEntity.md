@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 732,
-  "Name": "Gerlach LLC",
+  "TicketStatusId": 990,
+  "Name": "Keebler LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "accusamus",
-  "ProviderName": "Buckridge LLC"
+  "StorageType": "ducimus",
+  "ProviderName": "Wilderman Inc and Sons"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "itaque",
-  "fuga"
+  "reprehenderit",
+  "ut"
 ]
 ```

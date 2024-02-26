@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 911,
+  "SelectionId": 866,
   "SelectionMemberIds": [
-    374,
-    341
+    372,
+    702
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group interactive extranet",
-  "Postit": "eveniet",
+  "Description": "Down-sized hybrid groupware",
+  "Postit": "officia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 782,
-  "IncludePerson": 982,
-  "MemberCount": 385,
-  "Name": "Flatley, Daugherty and Bernier",
-  "PostitTextId": 164,
-  "CreatedDate": "1997-09-19T16:54:56.3175028+02:00",
-  "SelectionId": 472,
-  "SoundEx": "sapiente",
-  "Source": 319,
-  "TextId": 754,
-  "UpdatedDate": "2004-11-30T16:54:56.3175028+01:00",
-  "UpdatedCount": 322,
-  "Visibility": 390,
+  "GroupIdx": 809,
+  "IncludePerson": 998,
+  "MemberCount": 529,
+  "Name": "Robel, Wolff and Quigley",
+  "PostitTextId": 688,
+  "CreatedDate": "1998-03-03T10:30:24.7017104+01:00",
+  "SelectionId": 804,
+  "SoundEx": "necessitatibus",
+  "Source": 970,
+  "TextId": 863,
+  "UpdatedDate": "2022-05-31T10:30:24.7017104+02:00",
+  "UpdatedCount": 975,
+  "Visibility": 662,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 339,
-  "TargetTableName": "Tromp LLC",
-  "Completed": true,
-  "LeftSelectionId": 309,
-  "RightSelectionId": 489,
+  "CompanyUnique": false,
+  "TargetTableNumber": 156,
+  "TargetTableName": "Koepp-Hilpert",
+  "Completed": false,
+  "LeftSelectionId": 449,
+  "RightSelectionId": 826,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beahan LLC",
-  "ShadowProviderName": "Schulist, Bashirian and Zemlak",
-  "ChartKey": "repudiandae",
-  "LastLoaded": "2017-04-07T16:54:56.3175028+02:00",
-  "LastLoadedBy": 842,
+  "MainProviderName": "Waelchi-Walsh",
+  "ShadowProviderName": "Dickinson, Wisozk and Hermann",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2010-05-13T10:30:24.7017104+02:00",
+  "LastLoadedBy": 277,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-02-26T16:54:56.3175028+01:00",
-  "LastMembershipChangeBy": 957,
+  "LastMembershipChange": "2014-05-23T10:30:24.7017104+02:00",
+  "LastMembershipChangeBy": 312,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Koelpin Inc and Sons",
-  "DashboardTileDefinitionId": 761,
+  "MainHeading": "repudiandae",
+  "MemberTabHeading": "excepturi",
+  "MailingsProviderName": "Hand, Ritchie and Lockman",
+  "DashboardTileDefinitionId": 908,
   "VisibleFor": [
     {
-      "VisibleId": 98,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldType": "System.String",
+          "FieldLength": 817
         }
       }
     },
     {
-      "VisibleId": 98,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldType": "System.String",
+          "FieldLength": 817
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 609
     }
   }
 }

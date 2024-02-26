@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 599,
-    "Name": "Collins LLC",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 191,
-    "UdListDefinitionId": 892
+    "HeadingId": 732,
+    "Name": "Pouros Inc and Sons",
+    "Tooltip": "porro",
+    "Deleted": true,
+    "Rank": 425,
+    "UdListDefinitionId": 633
   },
   {
-    "HeadingId": 599,
-    "Name": "Collins LLC",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 191,
-    "UdListDefinitionId": 892
+    "HeadingId": 732,
+    "Name": "Pouros Inc and Sons",
+    "Tooltip": "porro",
+    "Deleted": true,
+    "Rank": 425,
+    "UdListDefinitionId": 633
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 943,
-    "Name": "Kshlerin, Nienow and Weissnat",
-    "Tooltip": "voluptate",
+    "HeadingId": 976,
+    "Name": "Padberg Group",
+    "Tooltip": "in",
     "Deleted": true,
-    "Rank": 416,
-    "UdListDefinitionId": 515,
+    "Rank": 746,
+    "UdListDefinitionId": 64,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldLength": 495
       }
     }
   }

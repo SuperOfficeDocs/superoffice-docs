@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Borer-Langosh",
-    "ToolTip": "Corrupti dolore soluta.",
-    "Deleted": false,
-    "Rank": 653,
-    "Type": "voluptatem",
-    "ColorBlock": 310,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2010-11-14T16:55:30.5746941+01:00",
+    "Id": 110,
+    "Name": "Wuckert Inc and Sons",
+    "ToolTip": "Debitis saepe velit hic rerum non dolorem molestias.",
+    "Deleted": true,
+    "Rank": 143,
+    "Type": "nihil",
+    "ColorBlock": 681,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2017-11-28T10:30:32.9118319+01:00",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Hoeger-Sawayn",
-        "ToolTip": "Earum magni magni voluptas doloremque ipsum quis labore.",
+        "Id": 475,
+        "Name": "Rogahn-Cartwright",
+        "ToolTip": "Et et pariatur et eos.",
         "Deleted": false,
-        "Rank": 638,
-        "Type": "quia",
-        "ColorBlock": 439,
-        "IconHint": "architecto",
+        "Rank": 158,
+        "Type": "facilis",
+        "ColorBlock": 403,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2019-12-20T16:55:30.5746941+01:00",
+        "LastChanged": "2005-06-04T10:30:32.9118319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Kyleigh Considine",
+        "ExtraInfo": "id",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Mrs. Naomie Henriette Hermann III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 99
+            "FieldType": "System.String",
+            "FieldLength": 760
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "similique",
+    "ExtraInfo": "sint",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Pauline Friesen",
+    "FullName": "Leopold Ronny Emard III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldType": "System.Int32",
+        "FieldLength": 92
       }
     }
   }

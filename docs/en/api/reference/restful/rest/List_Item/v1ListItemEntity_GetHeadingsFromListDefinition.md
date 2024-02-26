@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 147,
-    "Name": "Auer-Luettgen",
-    "Tooltip": "impedit",
+    "HeadingId": 409,
+    "Name": "Stiedemann, Emard and Johnson",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 815,
-    "UdListDefinitionId": 395,
+    "Rank": 849,
+    "UdListDefinitionId": 101,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldLength": 16
       }
     }
   }

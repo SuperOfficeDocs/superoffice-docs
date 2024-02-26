@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 370,
-  "ListItemId": 717,
+  "UdListDefinitionId": 332,
+  "ListItemId": 118,
   "Headings": [
     {
-      "Id": 716,
-      "Name": "Welch-Willms",
-      "ToolTip": "Omnis earum quibusdam pariatur labore aliquam consequuntur.",
+      "Id": 639,
+      "Name": "Wisozk Group",
+      "ToolTip": "Iusto eligendi fugit nostrum quo sequi.",
       "Deleted": false,
-      "Rank": 609,
-      "Type": "ullam",
-      "ColorBlock": 892,
-      "IconHint": "velit",
-      "Selected": false,
-      "LastChanged": "2004-04-15T16:54:55.5679841+02:00",
+      "Rank": 739,
+      "Type": "eos",
+      "ColorBlock": 845,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2017-04-11T10:30:23.9944062+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maiores",
-      "StyleHint": "iusto",
+      "ExtraInfo": "sequi",
+      "StyleHint": "numquam",
       "Hidden": false,
-      "FullName": "Annalise Dare"
+      "FullName": "Cassandre Hermann"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Lang, Bruen and Runolfsdottir",
-    "ToolTip": "Reprehenderit expedita impedit natus.",
-    "Deleted": false,
-    "Rank": 37,
-    "Type": "aperiam",
-    "ColorBlock": 479,
-    "IconHint": "accusantium",
+    "Id": 6,
+    "Name": "Beatty Inc and Sons",
+    "ToolTip": "Ea voluptates maiores inventore voluptatem.",
+    "Deleted": true,
+    "Rank": 26,
+    "Type": "quis",
+    "ColorBlock": 127,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2000-08-25T16:54:55.5699843+02:00",
+    "LastChanged": "2019-09-18T10:30:23.9944062+02:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "Hirthe Inc and Sons",
-        "ToolTip": "Id sunt.",
-        "Deleted": true,
-        "Rank": 399,
+        "Id": 358,
+        "Name": "Watsica Inc and Sons",
+        "ToolTip": "Rem deserunt nihil dolor ipsum atque similique fugit.",
+        "Deleted": false,
+        "Rank": 976,
         "Type": "et",
-        "ColorBlock": 359,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "2010-05-17T16:54:55.5699843+02:00",
+        "ColorBlock": 149,
+        "IconHint": "libero",
+        "Selected": false,
+        "LastChanged": "2018-10-02T10:30:23.9944062+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Pansy Kunze",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "consectetur",
+        "Hidden": true,
+        "FullName": "Mrs. Trinity Hintz III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldLength": 994
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "sed",
+    "ExtraInfo": "earum",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Gretchen Pfeffer",
+    "FullName": "Prof. Bradly Filiberto Wuckert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 937
+        "FieldType": "System.Int32",
+        "FieldLength": 14
       }
     }
   }

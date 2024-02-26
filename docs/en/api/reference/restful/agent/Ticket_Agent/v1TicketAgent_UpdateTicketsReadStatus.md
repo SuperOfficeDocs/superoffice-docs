@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    951,
-    307
+    41,
+    563
   ],
   "NewStatus": "Green"
 }
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  193,
-  283
+  643,
+  31
 ]
 ```

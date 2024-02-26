@@ -91,17 +91,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 949,
-  "Value": "asperiores",
+  "TaskListItemId": 365,
+  "Value": "saepe",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "nulla",
+  "Tooltip": "quae",
   "Deleted": false,
-  "IntentId": 588,
-  "Rank": 281,
-  "IsDefaultAlldayEvent": true,
+  "IntentId": 411,
+  "Rank": 34,
+  "IsDefaultAlldayEvent": false,
   "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -114,15 +114,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 829,
-  "Value": "iusto",
+  "TaskListItemId": 228,
+  "Value": "repudiandae",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "eius",
+  "Tooltip": "eum",
   "Deleted": false,
-  "IntentId": 933,
-  "Rank": 274,
-  "IsDefaultAlldayEvent": false,
+  "IntentId": 814,
+  "Rank": 420,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldType": "System.String",
+      "FieldLength": 625
     }
   }
 }

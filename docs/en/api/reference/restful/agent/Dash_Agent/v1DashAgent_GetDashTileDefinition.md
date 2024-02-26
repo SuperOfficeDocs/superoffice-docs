@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=668
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=338
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 722,
-  "Name": "Wiza, Grady and Fay",
-  "Description": "Inverse disintermediate budgetary management",
-  "DefaultHeight": 353,
-  "DefaultWidth": 290,
+  "DashboardTileDefinitionId": 595,
+  "Name": "Breitenberg-Lehner",
+  "Description": "Mandatory encompassing ability",
+  "DefaultHeight": 943,
+  "DefaultWidth": 302,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rohan Inc and Sons",
-  "SelectionId": 565,
+  "EntityName": "Reilly, Wolff and Crona",
+  "SelectionId": 510,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aliquid",
+  "CurrencyCode": "dicta",
   "Measure": "Average",
-  "MeasureField": "numquam",
-  "SortBy": "facere",
-  "LayoutConfig": "ab",
-  "SecondarySelectionId": 396,
-  "MeasureByField": "in",
+  "MeasureField": "eligendi",
+  "SortBy": "quos",
+  "LayoutConfig": "autem",
+  "SecondarySelectionId": 930,
+  "MeasureByField": "minima",
   "Usage": "Dashboard",
-  "ProviderName": "Hilll LLC",
+  "ProviderName": "Rutherford, Kirlin and Wisoky",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 70
     }
   }
 }

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 627,
+  "TicketMessageEntityId": 127,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,78 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 632,
+  "EjMessageId": 989,
   "Ticket": null,
-  "CreatedAt": "2007-12-03T16:54:56.5992957+01:00",
+  "CreatedAt": "2002-09-10T10:30:24.9517104+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "sunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "architecto",
-  "TimeSpent": 522,
-  "Body": "est",
-  "HtmlBody": "quasi",
-  "EmailHeader": "leora@hahnrodriguez.uk",
-  "DebugInfo": "dolor",
-  "MailSorter": "quod",
+  "MessageId": "doloremque",
+  "TimeSpent": 27,
+  "Body": "veritatis",
+  "HtmlBody": "ea",
+  "EmailHeader": "annalise_renner@larson.uk",
+  "DebugInfo": "totam",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "nesciunt",
   "MessageHeaders": [
     {
-      "Id": 200,
-      "Name": "Moen Inc and Sons",
-      "Value": "unde",
+      "Id": 476,
+      "Name": "Daugherty Inc and Sons",
+      "Value": "incidunt",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldType": "System.String",
+          "FieldLength": 58
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "asperiores",
-  "Sentiment": 793,
-  "SentimentConfidence": 594,
+  "Important": false,
+  "Language": "et",
+  "Sentiment": 367,
+  "SentimentConfidence": 181,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 798,
-      "Name": "Cummings-Hilll",
-      "ContentType": "voluptatem",
-      "AttSize": 832,
+      "AttachmentId": 298,
+      "Name": "Bernier Inc and Sons",
+      "ContentType": "dolorem",
+      "AttSize": 659,
       "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "quos",
+      "ContentId": "rerum",
+      "AuthKey": "totam",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 620
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "provident"
+    "CustomFields1": "ut",
+    "CustomFields2": "quam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 639
     }
   }
 }

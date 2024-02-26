@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=quam
+GET /api/v1/List/ConsentPurpose/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 417,
-    "Name": "Mosciski Group",
-    "ToolTip": "Excepturi doloribus voluptas a.",
+    "Id": 504,
+    "Name": "Adams-Thompson",
+    "ToolTip": "Molestiae tempore eos itaque illo dolor.",
     "Deleted": false,
-    "Rank": 801,
-    "Type": "alias",
+    "Rank": 341,
+    "Type": "eligendi",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Predovic, Monahan and Abshire",
-        "ToolTip": "Unde in distinctio et ut itaque.",
-        "Deleted": false,
-        "Rank": 39,
-        "Type": "voluptatem",
+        "Id": 408,
+        "Name": "Tillman-O'Connell",
+        "ToolTip": "Nobis sed blanditiis sed.",
+        "Deleted": true,
+        "Rank": 759,
+        "Type": "labore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 292,
-        "ExtraInfo": "sint",
+        "IconHint": "quia",
+        "ColorBlock": 850,
+        "ExtraInfo": "voluptas",
         "StyleHint": "quia",
-        "FullName": "Ms. Soledad Johnson",
+        "FullName": "Lavonne Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 332
+            "FieldType": "System.Int32",
+            "FieldLength": 560
           }
         }
       }
     ],
-    "IconHint": "tempora",
-    "ColorBlock": 96,
-    "ExtraInfo": "repellat",
-    "StyleHint": "non",
-    "FullName": "Madyson Swaniawski IV",
+    "IconHint": "architecto",
+    "ColorBlock": 500,
+    "ExtraInfo": "consectetur",
+    "StyleHint": "ducimus",
+    "FullName": "Craig Wuckert Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 392
       }
     }
   }

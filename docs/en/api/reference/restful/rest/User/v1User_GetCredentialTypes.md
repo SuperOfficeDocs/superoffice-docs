@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "et",
-    "Type": "est",
-    "Description": "Stand-alone actuating open system",
+    "DisplayType": "nesciunt",
+    "Type": "ab",
+    "Description": "Proactive asynchronous productivity",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "CanCreatePerson": true,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldLength": 952
       }
     }
   }

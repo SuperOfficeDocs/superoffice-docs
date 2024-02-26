@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 955,
-    "Name": "Kovacek Group",
-    "Tooltip": "amet",
+    "HeadingId": 366,
+    "Name": "Becker, Walter and Murazik",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 77,
-    "UdListDefinitionId": 570
+    "Rank": 592,
+    "UdListDefinitionId": 780
   },
   {
-    "HeadingId": 955,
-    "Name": "Kovacek Group",
-    "Tooltip": "amet",
+    "HeadingId": 366,
+    "Name": "Becker, Walter and Murazik",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 77,
-    "UdListDefinitionId": 570
+    "Rank": 592,
+    "UdListDefinitionId": 780
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 969,
-    "Name": "Jewess Group",
-    "Tooltip": "ullam",
-    "Deleted": true,
-    "Rank": 995,
-    "UdListDefinitionId": 560,
+    "HeadingId": 4,
+    "Name": "Maggio-Herman",
+    "Tooltip": "labore",
+    "Deleted": false,
+    "Rank": 704,
+    "UdListDefinitionId": 127,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldLength": 785
       }
     }
   }

@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 61,
-  "PersonId": 25,
-  "AppointmentId": 633,
-  "DocumentId": 191,
-  "SaleId": 312,
-  "SelectionId": 945,
-  "ProjectId": 585,
+  "ContactId": 270,
+  "PersonId": 435,
+  "AppointmentId": 458,
+  "DocumentId": 600,
+  "SaleId": 126,
+  "SelectionId": 653,
+  "ProjectId": 926,
   "CustomTags": {
-    "CustomTags1": "quia",
-    "CustomTags2": "minus"
+    "CustomTags1": "adipisci",
+    "CustomTags2": "eius"
   },
-  "UiCulture": "porro"
+  "UiCulture": "dolorem"
 }
 ```
 
@@ -142,67 +142,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 255,
+  "DocumentId": 222,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "exercitationem",
-  "Name": "Paucek-Corwin",
-  "OurRef": "ipsa",
-  "YourRef": "molestiae",
-  "CreatedDate": "2004-12-15T16:54:55.239903+01:00",
-  "UpdatedDate": "2000-04-03T16:54:55.239903+02:00",
-  "Description": "Enhanced didactic extranet",
+  "Attention": "doloribus",
+  "Header": "ducimus",
+  "Name": "Lockman-Purdy",
+  "OurRef": "reiciendis",
+  "YourRef": "et",
+  "CreatedDate": "2000-03-27T10:30:23.6730584+02:00",
+  "UpdatedDate": "2013-06-08T10:30:23.6730584+02:00",
+  "Description": "Face to face non-volatile framework",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-06-16T16:54:55.2419139+02:00",
-  "ExternalRef": "ipsum",
+  "Date": "2003-09-16T10:30:23.6730584+02:00",
+  "ExternalRef": "autem",
   "Completed": "Completed",
-  "ActiveLinks": 649,
+  "ActiveLinks": 105,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Johnston, Grady and Schuster",
-      "Id": 966,
-      "Description": "Cross-group homogeneous groupware",
-      "ExtraInfo": "repudiandae",
-      "LinkId": 562,
+      "EntityName": "Lynch Group",
+      "Id": 130,
+      "Description": "Front-line high-level solution",
+      "ExtraInfo": "impedit",
+      "LinkId": 375,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldLength": 780
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 887,
-  "Snum": 988,
+  "SuggestedDocumentId": 359,
+  "Snum": 656,
   "UserDefinedFields": {
-    "SuperOffice:1": "2030321577",
-    "SuperOffice:2": "1585095809"
+    "SuperOffice:1": "Alfreda Lebsack",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "reiciendis",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "et"
+    "CustomFields1": "nisi",
+    "CustomFields2": "veritatis"
   },
-  "PublishEventDate": "2001-03-26T16:54:55.2429113+02:00",
-  "PublishTo": "2000-03-12T16:54:55.2429113+01:00",
-  "PublishFrom": "2000-01-03T16:54:55.2429113+01:00",
+  "PublishEventDate": "2007-09-17T10:30:23.6730584+02:00",
+  "PublishTo": "2009-01-08T10:30:23.6730584+01:00",
+  "PublishFrom": "2024-02-03T10:30:23.6730584+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 513,
+      "VisibleId": 93,
       "Visibility": "All",
       "DisplayValue": "dolorem",
       "TableRight": null,
@@ -210,12 +210,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 209
         }
       }
     },
     {
-      "VisibleId": 513,
+      "VisibleId": 93,
       "Visibility": "All",
       "DisplayValue": "dolorem",
       "TableRight": null,
@@ -223,7 +223,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 209
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 267
     }
   }
 }

@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 733,
-  "Name": "Legros, Greenfelder and Satterfield",
-  "Tooltip": "quo",
-  "Rank": 677,
-  "Key": "nihil",
+  "LegalBaseId": 46,
+  "Name": "Lindgren-Weimann",
+  "Tooltip": "quia",
+  "Rank": 767,
+  "Key": "quia",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldLength": 929
     }
   }
 }

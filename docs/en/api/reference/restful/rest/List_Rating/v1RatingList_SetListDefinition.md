@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 788,
-  "Name": "Batz-Flatley",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "Rank": 181,
+  "Id": 768,
+  "Name": "Runte, Bartell and Gutmann",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "Rank": 508,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 842,
-  "Name": "Bruen-Zieme",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 59,
+  "Id": 156,
+  "Name": "Kub-Schuster",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "Rank": 449,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "earum",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "fugiat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 627
     }
   }
 }

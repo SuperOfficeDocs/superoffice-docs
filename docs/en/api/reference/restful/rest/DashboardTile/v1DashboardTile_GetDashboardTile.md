@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 277,
-  "Caption": "at",
-  "Description": "Team-oriented fresh-thinking model",
-  "ChartName": "Rodriguez-Hegmann",
-  "ChartId": "dolore",
+  "DashboardTileId": 22,
+  "Caption": "impedit",
+  "Description": "Intuitive actuating functionalities",
+  "ChartName": "Pfeffer-Ratke",
+  "ChartId": "consectetur",
   "IsDefault": false,
-  "AssociateId": 556,
-  "GroupId": 128,
-  "SelectionId": 974,
-  "Config": "ad",
+  "AssociateId": 113,
+  "GroupId": 562,
+  "SelectionId": 690,
+  "Config": "dolorem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Shields, McDermott and Mohr",
-      "Description": "Cross-platform encompassing contingency",
+      "Name": "Lynch-Murray",
+      "Description": "Innovative regional portal",
       "Type": "Boolean",
-      "ListName": "Ernser Group",
+      "ListName": "Welch-Rau",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "non",
+      "Value": "minima",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldLength": 506
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 82,
+      "VisibleId": 162,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldLength": 994
         }
       }
     },
     {
-      "VisibleId": 82,
+      "VisibleId": 162,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldLength": 994
         }
       }
     }
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 878
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 763,
-  "ERPName": "Durgan Group",
-  "DisplayName": "Herzog, Armstrong and Bradtke",
-  "DisplayDescription": "Upgradable discrete contingency",
-  "Rank": 323,
-  "ConnectorName": "Watsica Group",
-  "ErpConnectionId": 249,
-  "ExtraData": "omnis",
-  "IsAvailable": false,
+  "QuoteConnectionId": 821,
+  "ERPName": "Kris Inc and Sons",
+  "DisplayName": "Prohaska Group",
+  "DisplayDescription": "Switchable dedicated middleware",
+  "Rank": 793,
+  "ConnectorName": "Kessler-McLaughlin",
+  "ErpConnectionId": 931,
+  "ExtraData": "consequatur",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 596,
-      "ERPPriceListKey": "accusantium",
-      "QuoteConnectionId": 633,
-      "Name": "Davis-Orn",
-      "Description": "Extended explicit workforce",
-      "Currency": "dolor",
-      "CurrencyName": "Schulist, Sporer and Rice",
-      "ValidFrom": "2008-12-08T16:54:56.1401412+01:00",
-      "ValidTo": "2019-03-19T16:54:56.1401412+01:00",
+      "PriceListId": 893,
+      "ERPPriceListKey": "qui",
+      "QuoteConnectionId": 140,
+      "Name": "Zemlak, Shanahan and West",
+      "Description": "Triple-buffered directional system engine",
+      "Currency": "voluptas",
+      "CurrencyName": "Gaylord LLC",
+      "ValidFrom": "2003-07-13T10:30:24.4346264+02:00",
+      "ValidTo": "1996-10-28T10:30:24.4346264+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 698
+          "FieldLength": 507
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    191,
-    512
+    615,
+    143
   ],
   "AssociateAccessIds": [
-    655,
-    551
+    987,
+    253
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldLength": 391
     }
   }
 }

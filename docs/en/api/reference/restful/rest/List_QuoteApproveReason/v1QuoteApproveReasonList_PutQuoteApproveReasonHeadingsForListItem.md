@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Sanford-Jakubowski",
-    "ToolTip": "Dolores velit molestiae quisquam.",
-    "Deleted": true,
-    "Rank": 661,
-    "Type": "fugiat",
-    "ColorBlock": 362,
-    "IconHint": "et",
+    "Id": 47,
+    "Name": "Cole-Gutkowski",
+    "ToolTip": "Qui aspernatur similique maiores.",
+    "Deleted": false,
+    "Rank": 204,
+    "Type": "dolor",
+    "ColorBlock": 810,
+    "IconHint": "perspiciatis",
     "Selected": true,
-    "LastChanged": "2023-03-25T16:55:30.9816722+01:00",
+    "LastChanged": "2009-07-15T10:30:33.1630832+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Fadel, Fritsch and Gutmann",
-        "ToolTip": "Sit ullam at ut eum aut necessitatibus.",
-        "Deleted": true,
-        "Rank": 615,
-        "Type": "temporibus",
-        "ColorBlock": 411,
-        "IconHint": "veritatis",
+        "Id": 862,
+        "Name": "Lockman-Ruecker",
+        "ToolTip": "Voluptates ratione voluptatibus et eveniet.",
+        "Deleted": false,
+        "Rank": 378,
+        "Type": "officiis",
+        "ColorBlock": 894,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2020-04-30T16:55:30.9816722+02:00",
+        "LastChanged": "1997-02-06T10:30:33.1630832+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "repellat",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Miss Delilah Abshire Sr."
+        "FullName": "Erin Mills"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "veniam",
-    "Hidden": true,
-    "FullName": "Felix Hintz"
+    "ExtraInfo": "ullam",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Terrance Kihn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Bergstrom, Leffler and Cremin",
-    "ToolTip": "Qui et.",
-    "Deleted": false,
-    "Rank": 544,
-    "Type": "quis",
-    "ColorBlock": 488,
-    "IconHint": "itaque",
+    "Id": 584,
+    "Name": "Schinner LLC",
+    "ToolTip": "Adipisci voluptas molestias occaecati beatae eos consequatur.",
+    "Deleted": true,
+    "Rank": 940,
+    "Type": "voluptatem",
+    "ColorBlock": 876,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2020-02-01T16:55:30.9836719+01:00",
+    "LastChanged": "2015-11-14T10:30:33.1630832+01:00",
     "ChildItems": [
       {
-        "Id": 192,
-        "Name": "McClure-Greenfelder",
-        "ToolTip": "Consequuntur et ea nihil laudantium.",
+        "Id": 4,
+        "Name": "Block Group",
+        "ToolTip": "Mollitia magni facere eum et veniam.",
         "Deleted": false,
-        "Rank": 496,
-        "Type": "magni",
-        "ColorBlock": 776,
-        "IconHint": "aut",
+        "Rank": 704,
+        "Type": "eveniet",
+        "ColorBlock": 759,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "1998-09-10T16:55:30.9836719+02:00",
+        "LastChanged": "2017-06-15T10:30:33.1630832+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "fugit",
+        "ExtraInfo": "ab",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Kadin Gutkowski",
+        "FullName": "Mafalda Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 639
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Prof. Jadyn Vincent Harber",
+    "ExtraInfo": "est",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Ethyl Haag V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldLength": 920
       }
     }
   }

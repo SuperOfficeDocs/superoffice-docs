@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 760,
-    "Name": "Schumm Inc and Sons",
-    "ToolTip": "Neque excepturi odit.",
-    "Deleted": false,
-    "Rank": 190,
-    "Type": "omnis",
-    "ColorBlock": 577,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2012-03-21T16:55:30.7211752+01:00",
+    "Id": 337,
+    "Name": "Gislason-Mohr",
+    "ToolTip": "Reprehenderit enim in.",
+    "Deleted": true,
+    "Rank": 793,
+    "Type": "asperiores",
+    "ColorBlock": 297,
+    "IconHint": "ducimus",
+    "Selected": false,
+    "LastChanged": "2017-05-26T10:30:33.0368376+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Kertzmann, Little and Buckridge",
-        "ToolTip": "Et sed doloribus quisquam.",
-        "Deleted": true,
-        "Rank": 214,
-        "Type": "aspernatur",
-        "ColorBlock": 818,
-        "IconHint": "aut",
+        "Id": 699,
+        "Name": "Feest LLC",
+        "ToolTip": "Nobis dolor qui.",
+        "Deleted": false,
+        "Rank": 205,
+        "Type": "quas",
+        "ColorBlock": 562,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "1999-03-11T16:55:30.7211752+01:00",
+        "LastChanged": "2001-02-27T10:30:33.0368376+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "odit",
-        "Hidden": true,
-        "FullName": "Ricardo Amelie Auer Jr.",
+        "ExtraInfo": "enim",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Wilber Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldLength": 161
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Alexys Koepp",
+    "ExtraInfo": "qui",
+    "StyleHint": "iusto",
+    "Hidden": false,
+    "FullName": "Hermina Jaleel Ruecker PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldType": "System.String",
+        "FieldLength": 8
       }
     }
   }

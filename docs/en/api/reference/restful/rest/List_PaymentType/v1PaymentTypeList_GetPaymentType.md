@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Kessler Group",
-  "Tooltip": "itaque",
+  "Id": 306,
+  "Name": "Von, Labadie and Jacobi",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 636,
-  "Rank": 952,
+  "UdListDefinitionId": 709,
+  "Rank": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldType": "System.String",
+      "FieldLength": 235
     }
   }
 }

@@ -1272,7 +1272,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindSale?$select=person/personDirectFax/description,person/personUrl/URLAddress,contact/contactExtra/x_contact_datetime,appointment/appointmentId,appointment/appointmentPublish/publishedTo
+GET /api/v1/archive/FindSale?$select=userGroup,description,person/personAssociate/credentialType,contact/contactAssociate/isActiveText,associate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

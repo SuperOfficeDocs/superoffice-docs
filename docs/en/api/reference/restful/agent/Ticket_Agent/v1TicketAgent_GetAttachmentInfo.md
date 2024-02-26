@@ -70,6 +70,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 2
+  "TicketMessageEntityId": 423
 }
 ```
 
@@ -95,19 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 562,
-    "Name": "McDermott, Nader and Terry",
+    "AttachmentId": 802,
+    "Name": "Botsford, Senger and Effertz",
     "ContentType": "aut",
-    "AttSize": 640,
+    "AttSize": 993,
     "InlineImage": false,
-    "ContentId": "hic",
-    "AuthKey": "quo",
+    "ContentId": "harum",
+    "AuthKey": "qui",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

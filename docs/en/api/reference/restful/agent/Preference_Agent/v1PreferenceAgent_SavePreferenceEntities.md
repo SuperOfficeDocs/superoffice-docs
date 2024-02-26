@@ -72,19 +72,19 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "sit",
+      "RawValue": "autem",
       "Specification": null,
-      "DisplayValue": "velit",
-      "DisplayTooltip": "tempore",
+      "DisplayValue": "aspernatur",
+      "DisplayTooltip": "qui",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 973,
-      "PrefDescId": 774,
-      "TableName": "Borer LLC",
-      "UserPreferenceId": 594
+      "TargetId": 299,
+      "PrefDescId": 106,
+      "TableName": "Pfannerstill Group",
+      "UserPreferenceId": 775
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

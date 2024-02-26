@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 716,
-  "FormKey": "sunt",
-  "Name": "Waters Inc and Sons",
-  "Description": "Operative context-sensitive architecture",
-  "Config": "et",
-  "FolderId": 534,
-  "ScriptId": 231,
-  "ResponseShipmentId": 40,
+  "FormId": 912,
+  "FormKey": "iste",
+  "Name": "Osinski Group",
+  "Description": "Secured national Graphic Interface",
+  "Config": "quis",
+  "FolderId": 359,
+  "ScriptId": 136,
+  "ResponseShipmentId": 468,
   "Active": false,
-  "Expires": "2007-10-04T16:54:55.6459935+02:00",
-  "MaxSubmits": 952,
+  "Expires": "2009-01-14T10:30:24.1037706+01:00",
+  "MaxSubmits": 808,
   "Type": "Normal",
-  "Recipe": "rerum",
-  "GroupId": 859,
-  "NewTicket": false,
+  "Recipe": "error",
+  "GroupId": 238,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2018-12-30T16:54:55.6459935+01:00",
-  "RegisteredAssociateId": 340,
-  "Updated": "2013-06-16T16:54:55.6459935+02:00",
-  "UpdatedAssociateId": 609,
-  "UpdatedCount": 289,
-  "FolderName": "Konopelski-Kerluke",
+  "Registered": "1998-01-30T10:30:24.1037706+01:00",
+  "RegisteredAssociateId": 172,
+  "Updated": "2011-03-11T10:30:24.1037706+01:00",
+  "UpdatedAssociateId": 524,
+  "UpdatedCount": 756,
+  "FolderName": "Anderson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 85
+      "FieldType": "System.Int32",
+      "FieldLength": 103
     }
   }
 }

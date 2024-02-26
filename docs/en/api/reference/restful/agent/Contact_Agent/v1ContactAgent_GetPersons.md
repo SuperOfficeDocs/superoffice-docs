@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 986
+  "ContactId": 725
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sit",
-    "PersonId": 162,
-    "Mrmrs": "aspernatur",
-    "Firstname": "Gracie",
-    "Lastname": "Schowalter",
-    "MiddleName": "Mante, Heidenreich and Bernhard",
-    "Title": "rem",
-    "Description": "Advanced incremental system engine",
-    "Email": "joany@farrellgulgowski.co.uk",
-    "FullName": "Megane Robel",
-    "DirectPhone": "422-549-5527 x45777",
-    "FormalName": "Schultz, Balistreri and Kihn",
-    "CountryId": 782,
-    "ContactId": 278,
-    "ContactName": "O'Conner Group",
-    "Retired": 878,
-    "Rank": 673,
-    "ActiveInterests": 261,
+    "Position": "eligendi",
+    "PersonId": 120,
+    "Mrmrs": "ut",
+    "Firstname": "Johnny",
+    "Lastname": "Wunsch",
+    "MiddleName": "Wintheiser, Murphy and Bradtke",
+    "Title": "quas",
+    "Description": "Ergonomic optimal ability",
+    "Email": "jackson@luettgen.uk",
+    "FullName": "Damian Breitenberg",
+    "DirectPhone": "1-373-407-4516 x988",
+    "FormalName": "Satterfield-Treutel",
+    "CountryId": 748,
+    "ContactId": 715,
+    "ContactName": "Frami Group",
+    "Retired": 1001,
+    "Rank": 676,
+    "ActiveInterests": 573,
     "ContactDepartment": "",
-    "ContactCountryId": 12,
-    "ContactOrgNr": "1836544",
-    "FaxPhone": "494-355-1053",
-    "MobilePhone": "1-259-208-6837",
-    "ContactPhone": "934-656-4402",
-    "AssociateName": "Hessel, Legros and Turcotte",
-    "AssociateId": 664,
-    "UsePersonAddress": false,
-    "ContactFax": "quo",
-    "Kanafname": "impedit",
-    "Kanalname": "ipsum",
-    "Post1": "expedita",
-    "Post2": "earum",
-    "Post3": "amet",
-    "EmailName": "vern.wilderman@hagenes.co.uk",
-    "ContactFullName": "Lue Cummings",
-    "ActiveErpLinks": 499,
-    "TicketPriorityId": 739,
-    "SupportLanguageId": 103,
-    "SupportAssociateId": 127,
+    "ContactCountryId": 245,
+    "ContactOrgNr": "1783704",
+    "FaxPhone": "104-204-9937 x5704",
+    "MobilePhone": "1-634-639-0143 x744",
+    "ContactPhone": "(545)807-4889",
+    "AssociateName": "Bernier, Beier and Ledner",
+    "AssociateId": 898,
+    "UsePersonAddress": true,
+    "ContactFax": "enim",
+    "Kanafname": "dolorum",
+    "Kanalname": "et",
+    "Post1": "consequatur",
+    "Post2": "id",
+    "Post3": "earum",
+    "EmailName": "laurence.von@rogahn.com",
+    "ContactFullName": "Mrs. Rebecca Funk",
+    "ActiveErpLinks": 804,
+    "TicketPriorityId": 87,
+    "SupportLanguageId": 799,
+    "SupportAssociateId": 272,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 915
       }
     }
   }

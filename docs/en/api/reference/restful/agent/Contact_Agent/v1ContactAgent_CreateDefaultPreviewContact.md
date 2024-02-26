@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 141,
-  "Name": "Lueilwitz-Ebert",
+  "ContactId": 636,
+  "Name": "Shanahan, Lemke and Schmitt",
   "Department": "",
-  "CountryId": 304,
-  "Number2": "587149",
-  "DirectPhone": "967.795.1812 x155",
+  "CountryId": 340,
+  "Number2": "500563",
+  "DirectPhone": "944-853-0634 x26319",
   "URL": "http://www.example.com/",
-  "EmailAddress": "danny@collinspfeffer.com",
+  "EmailAddress": "amina@kunde.us",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Miss Maymie Greenholt II",
+  "AssociateFullName": "Kyle Doyle",
   "Address": null
 }
 ```

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 788,
-    "Name": "Robel, Kuhn and Stanton",
-    "Tooltip": "autem",
+    "HeadingId": 898,
+    "Name": "Denesik, Lesch and Mayer",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 677,
+    "Rank": 342,
+    "UdListDefinitionId": 688,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 949
+        "FieldLength": 634
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Windler, Fadel and Leannon",
-    "ToolTip": "Quam accusantium magnam voluptatem sed eos labore delectus.",
+    "Id": 497,
+    "Name": "Yundt LLC",
+    "ToolTip": "Facilis quae quaerat assumenda impedit nostrum molestiae ea.",
     "Deleted": false,
-    "Rank": 701,
-    "Type": "voluptatum",
-    "ColorBlock": 478,
-    "IconHint": "ut",
+    "Rank": 179,
+    "Type": "unde",
+    "ColorBlock": 196,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2008-01-06T16:55:30.8007354+01:00",
+    "LastChanged": "2023-09-12T10:30:33.1005836+02:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Jacobson-Bruen",
-        "ToolTip": "Nostrum corporis voluptates dolore perferendis cum et.",
-        "Deleted": true,
-        "Rank": 264,
-        "Type": "vel",
-        "ColorBlock": 49,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2007-11-28T16:55:30.8007354+01:00",
+        "Id": 294,
+        "Name": "Corwin Group",
+        "ToolTip": "Aliquam voluptatem deleniti repudiandae nihil qui et a.",
+        "Deleted": false,
+        "Rank": 881,
+        "Type": "necessitatibus",
+        "ColorBlock": 259,
+        "IconHint": "laudantium",
+        "Selected": false,
+        "LastChanged": "2018-10-26T10:30:33.1005836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "numquam",
+        "ExtraInfo": "ut",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Mr. Nelson O'Kon"
+        "FullName": "Cale Medhurst"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "culpa",
+    "ExtraInfo": "iste",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Nola Durgan V"
+    "FullName": "Carole Wiegand DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Hodkiewicz, Rogahn and Kuvalis",
-    "ToolTip": "Mollitia ea voluptatibus.",
-    "Deleted": false,
-    "Rank": 324,
-    "Type": "alias",
-    "ColorBlock": 715,
-    "IconHint": "facere",
+    "Id": 759,
+    "Name": "Nicolas-Predovic",
+    "ToolTip": "Quia nostrum.",
+    "Deleted": true,
+    "Rank": 475,
+    "Type": "voluptatum",
+    "ColorBlock": 959,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2020-03-08T16:55:30.8017171+01:00",
+    "LastChanged": "2023-10-14T10:30:33.1005836+02:00",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Vandervort, Leffler and DuBuque",
-        "ToolTip": "Asperiores maiores velit vel esse architecto non exercitationem.",
+        "Id": 792,
+        "Name": "Swaniawski Inc and Sons",
+        "ToolTip": "Magnam modi adipisci harum sapiente.",
         "Deleted": true,
-        "Rank": 668,
-        "Type": "saepe",
-        "ColorBlock": 173,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "2016-04-26T16:55:30.8017171+02:00",
+        "Rank": 705,
+        "Type": "dolorum",
+        "ColorBlock": 289,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2023-08-16T10:30:33.1005836+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Fannie Becker",
+        "ExtraInfo": "tempora",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Walter Alayna Buckridge V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldType": "System.String",
+            "FieldLength": 771
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "ut",
+    "ExtraInfo": "ea",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Murray Dandre Gislason III",
+    "FullName": "Mr. Weldon Mariano Doyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldType": "System.Int32",
+        "FieldLength": 871
       }
     }
   }

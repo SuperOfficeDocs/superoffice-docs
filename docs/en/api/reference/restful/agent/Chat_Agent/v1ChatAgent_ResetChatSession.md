@@ -109,7 +109,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 324
+  "ChatSessionId": 33
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 125,
-  "TopicId": 878,
+  "ChatSessionId": 691,
+  "TopicId": 406,
   "User": null,
   "Person": null,
-  "CustomerAlias": "reprehenderit",
-  "CustomerHost": "animi",
-  "CustomerName": "Berge, Lebsack and Lynch",
-  "CustomerEmail": "russ@ornkunze.biz",
-  "CustomerPhone": "042-541-0669 x7793",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Simonis Group",
+  "CustomerAlias": "eos",
+  "CustomerHost": "quis",
+  "CustomerName": "Howell Inc and Sons",
+  "CustomerEmail": "larissa@nader.uk",
+  "CustomerPhone": "(049)761-2894 x64093",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Williamson Group",
   "Status": "Closed",
-  "FirstMessage": "nobis",
-  "LastMessage": "sequi",
-  "WhenRequested": "2004-11-24T16:54:54.8561705+01:00",
-  "WhenStarted": "2008-12-11T16:54:54.8561705+01:00",
-  "WhenEnded": "1998-05-14T16:54:54.8561705+02:00",
-  "WhenIdle": "2003-03-15T16:54:54.8561705+01:00",
-  "WhenFetched": "2012-04-05T16:54:54.8561705+02:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 131,
-  "AlertLevel": 51,
-  "Rank": 10,
+  "FirstMessage": "qui",
+  "LastMessage": "fugit",
+  "WhenRequested": "2008-11-29T10:30:23.2261925+01:00",
+  "WhenStarted": "2002-09-07T10:30:23.2261925+02:00",
+  "WhenEnded": "2006-03-15T10:30:23.2261925+01:00",
+  "WhenIdle": "2007-07-05T10:30:23.2261925+02:00",
+  "WhenFetched": "2005-04-25T10:30:23.2261925+02:00",
+  "SessionKey": "doloribus",
+  "InitialQueuePos": 854,
+  "AlertLevel": 572,
+  "Rank": 177,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 890,
+  "Rating": 518,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldLength": 587
     }
   }
 }

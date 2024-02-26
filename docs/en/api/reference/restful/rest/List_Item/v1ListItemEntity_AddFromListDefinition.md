@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 370,
-  "Name": "Schroeder Inc and Sons",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 209,
-  "Rank": 643
+  "Id": 714,
+  "Name": "Veum, Schaden and Greenfelder",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "UdListDefinitionId": 833,
+  "Rank": 85
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Murazik, Runte and Koss",
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "UdListDefinitionId": 733,
-  "Rank": 643,
+  "Id": 735,
+  "Name": "Kshlerin Group",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "UdListDefinitionId": 926,
+  "Rank": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldLength": 842
     }
   }
 }

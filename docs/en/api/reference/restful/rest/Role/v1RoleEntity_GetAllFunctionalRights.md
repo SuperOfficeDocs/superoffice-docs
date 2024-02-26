@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Boehm, Herzog and Hoppe",
-    "ToolTip": "Porro vitae sed distinctio est.",
-    "Deleted": true,
-    "Rank": 763,
-    "Type": "qui",
-    "ColorBlock": 330,
-    "IconHint": "harum",
+    "Id": 435,
+    "Name": "Stracke, Hyatt and Swift",
+    "ToolTip": "Doloremque ut et laudantium adipisci sit eos.",
+    "Deleted": false,
+    "Rank": 37,
+    "Type": "quia",
+    "ColorBlock": 224,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2010-10-26T16:55:30.0015942+02:00",
+    "LastChanged": "2017-06-02T10:30:32.260549+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Beahan, Gutmann and Welch",
-        "ToolTip": "Quia rem veritatis fuga architecto.",
+        "Id": 198,
+        "Name": "Strosin-VonRueden",
+        "ToolTip": "Veniam ipsa qui id ab qui dolores.",
         "Deleted": false,
-        "Rank": 12,
-        "Type": "error",
-        "ColorBlock": 802,
-        "IconHint": "eius",
+        "Rank": 936,
+        "Type": "debitis",
+        "ColorBlock": 651,
+        "IconHint": "consectetur",
         "Selected": true,
-        "LastChanged": "2007-09-05T16:55:30.0025952+02:00",
+        "LastChanged": "2019-03-20T10:30:32.260549+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "dolor",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Kaitlin Reichel",
+        "FullName": "Ms. Karen Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 381
+            "FieldType": "System.Int32",
+            "FieldLength": 362
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "ad",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Libby Heller",
+    "FullName": "Mrs. Elta Krajcik V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 822
       }
     }
   }

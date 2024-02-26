@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 837,
-      "ContactName": "Hintz-Stamm",
-      "PersonId": 913,
-      "PersonName": "Bashirian-Jacobs",
-      "AssociateId": 50,
-      "Address": "non",
-      "EmailId": 567,
+      "ContactId": 402,
+      "ContactName": "Gibson LLC",
+      "PersonId": 769,
+      "PersonName": "Okuneva-Sawayn",
+      "AssociateId": 26,
+      "Address": "est",
+      "EmailId": 623,
       "DuplicatePersonIds": [
-        744,
-        957
+        631,
+        775
       ],
-      "Name": "Vandervort-Leuschke",
+      "Name": "Mohr Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 646
+          "FieldType": "System.Int32",
+          "FieldLength": 43
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 695,
-      "ContactName": "Yundt Group",
-      "PersonId": 57,
-      "PersonName": "Dickens, Hermiston and VonRueden",
-      "AssociateId": 212,
-      "Address": "et",
-      "EmailId": 925,
+      "ContactId": 457,
+      "ContactName": "Daniel LLC",
+      "PersonId": 164,
+      "PersonName": "Bailey, Huel and Ziemann",
+      "AssociateId": 983,
+      "Address": "laboriosam",
+      "EmailId": 52,
       "DuplicatePersonIds": [
-        325,
-        635
+        710,
+        643
       ],
-      "Name": "Dibbert-Wolff",
+      "Name": "Skiles Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 950
+          "FieldLength": 744
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 641,
-      "ContactName": "Legros, Schroeder and Nicolas",
-      "PersonId": 530,
-      "PersonName": "Durgan-Monahan",
-      "AssociateId": 868,
-      "Address": "quo",
-      "EmailId": 465,
+      "ContactId": 696,
+      "ContactName": "Gusikowski-Quitzon",
+      "PersonId": 764,
+      "PersonName": "Stamm, McDermott and White",
+      "AssociateId": 871,
+      "Address": "repellendus",
+      "EmailId": 301,
       "DuplicatePersonIds": [
-        323,
-        46
+        917,
+        371
       ],
-      "Name": "Bosco, Thompson and McClure",
+      "Name": "Corwin, Kuhn and Tremblay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 699
+          "FieldLength": 439
         }
       }
     }
   ],
-  "Subject": "dolorum",
-  "HTMLBody": "ad",
+  "Subject": "eius",
+  "HTMLBody": "velit",
   "From": null,
-  "Sent": "1999-06-22T16:54:55.3144201+02:00",
-  "Size": 406,
+  "Sent": "2018-06-26T10:30:23.7511796+02:00",
+  "Size": 933,
   "Priority": "High",
   "Flags": "Answered",
   "MessageID": "est",
-  "PlainBody": "occaecati",
+  "PlainBody": "quidem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 236,
+  "ServerId": 445,
   "Attachments": [
     {
-      "Description": "Virtual regional strategy",
-      "Filename": "assumenda",
-      "Size": 852,
-      "Type": "ut",
-      "Encoding": "sint",
-      "Id": "ab",
-      "Disposition": "asperiores",
-      "IsSafeFileExtension": true,
+      "Description": "Innovative responsive leverage",
+      "Filename": "illo",
+      "Size": 955,
+      "Type": "aperiam",
+      "Encoding": "dolore",
+      "Id": "illo",
+      "Disposition": "non",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ankunding-Crooks",
+      "Name": "Hintz-Bergstrom",
       "Values": [
-        "nihil",
-        "possimus"
+        "velit",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldLength": 91
         }
       }
     },
     {
-      "Name": "Ankunding-Crooks",
+      "Name": "Hintz-Bergstrom",
       "Values": [
-        "nihil",
-        "possimus"
+        "velit",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldLength": 91
         }
       }
     }
   ],
-  "FolderName": "Davis, Towne and Purdy",
-  "EmailItemId": 496,
-  "AccountId": 106,
-  "ReceivedAt": "1997-02-19T16:54:55.3154194+01:00",
+  "FolderName": "Konopelski-Mueller",
+  "EmailItemId": 290,
+  "AccountId": 983,
+  "ReceivedAt": "2018-05-23T10:30:23.7511796+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-07-31T16:54:55.3154194+02:00",
+  "RepliedAt": "2015-10-19T10:30:23.7511796+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 451
     }
   }
 }

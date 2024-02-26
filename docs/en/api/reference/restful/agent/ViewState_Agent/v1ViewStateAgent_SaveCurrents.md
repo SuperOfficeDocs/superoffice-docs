@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 668,
-      "Id": 662,
-      "HistoryName": "Dickens, Gleichner and Abbott",
-      "HistoryId": 926,
-      "AssociateId": 270,
-      "Name": "DuBuque, Leffler and Heller",
-      "ItemInfo": "fugit"
+      "Rank": 110,
+      "Id": 613,
+      "HistoryName": "Marks, Abshire and Kilback",
+      "HistoryId": 256,
+      "AssociateId": 208,
+      "Name": "Emard LLC",
+      "ItemInfo": "quod"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 288,
-    "Id": 771,
-    "HistoryName": "Jacobs, Schuppe and Little",
-    "HistoryId": 443,
-    "AssociateId": 517,
-    "Name": "Beer-Muller",
-    "ItemInfo": "sequi",
+    "Rank": 481,
+    "Id": 171,
+    "HistoryName": "Hauck, Wolff and Dare",
+    "HistoryId": 375,
+    "AssociateId": 511,
+    "Name": "Bartell LLC",
+    "ItemInfo": "perferendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 8
       }
     }
   }

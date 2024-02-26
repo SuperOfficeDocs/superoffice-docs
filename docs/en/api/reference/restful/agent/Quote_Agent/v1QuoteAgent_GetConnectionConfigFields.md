@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 881
+  "QuoteConnectionId": 293
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatum",
-  "2": "qui"
+  "1": "adipisci",
+  "2": "laborum"
 }
 ```

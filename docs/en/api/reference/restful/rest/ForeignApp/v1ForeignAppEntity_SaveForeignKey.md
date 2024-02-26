@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "sunt",
-  "RecordId": 535,
-  "CreatedDate": "2022-12-01T16:55:29.6574614+01:00",
-  "UpdatedDate": "2021-10-02T16:55:29.6574614+02:00",
-  "UpdatedBy": "iusto",
-  "CreatedBy": "dolor",
-  "TableName": "Labadie Inc and Sons"
+  "Key": "quia",
+  "Value": "et",
+  "RecordId": 813,
+  "CreatedDate": "2020-12-23T10:30:32.0730519+01:00",
+  "UpdatedDate": "2014-04-07T10:30:32.0730519+02:00",
+  "UpdatedBy": "natus",
+  "CreatedBy": "voluptatem",
+  "TableName": "Sawayn-Bartoletti"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolor",
-  "Value": "et",
-  "RecordId": 17,
-  "CreatedDate": "2023-01-04T16:55:29.6574614+01:00",
-  "UpdatedDate": "2011-08-27T16:55:29.6574614+02:00",
-  "UpdatedBy": "eligendi",
-  "CreatedBy": "velit",
-  "TableName": "Jast, Beer and Koepp",
+  "Key": "voluptatem",
+  "Value": "tenetur",
+  "RecordId": 863,
+  "CreatedDate": "2023-06-12T10:30:32.0730519+02:00",
+  "UpdatedDate": "2020-02-22T10:30:32.0730519+01:00",
+  "UpdatedBy": "dolores",
+  "CreatedBy": "repudiandae",
+  "TableName": "Ledner-Heller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 939
     }
   }
 }

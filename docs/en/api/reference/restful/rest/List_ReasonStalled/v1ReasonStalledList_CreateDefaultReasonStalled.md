@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Turner, Koss and Streich",
-  "Tooltip": "eos",
+  "Id": 849,
+  "Name": "Jacobs Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 236,
-  "Rank": 424,
+  "UdListDefinitionId": 943,
+  "Rank": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 104
     }
   }
 }

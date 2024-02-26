@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bayer-Grimes"
+  "TableName": "Leffler, Beatty and Ullrich"
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "voluptatem",
-  "Inserts": 556,
-  "Updates": 278,
-  "Deletes": 300,
+  "Success": true,
+  "Message": "soluta",
+  "Inserts": 65,
+  "Updates": 921,
+  "Deletes": 583,
   "RowStatus": [
     {
-      "PrimaryKey": 81,
+      "PrimaryKey": 118,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "animi",
-        "molestias"
+        "consequuntur",
+        "nemo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     },
     {
-      "PrimaryKey": 81,
+      "PrimaryKey": 118,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "animi",
-        "molestias"
+        "consequuntur",
+        "nemo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 968
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Name": "Kemmer LLC",
-    "ToolTip": "Omnis facilis fugit praesentium quia earum animi.",
+    "Id": 433,
+    "Name": "Morar-Rutherford",
+    "ToolTip": "Natus ut.",
     "Deleted": false,
-    "Rank": 523,
+    "Rank": 413,
     "Type": "et",
-    "ColorBlock": 447,
-    "IconHint": "ex",
+    "ColorBlock": 935,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "1998-09-15T16:55:30.7652789+02:00",
+    "LastChanged": "2009-12-23T10:30:33.0680874+01:00",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "Pagac-Frami",
-        "ToolTip": "Voluptas praesentium.",
+        "Id": 229,
+        "Name": "Baumbach-Champlin",
+        "ToolTip": "Ducimus perspiciatis nemo consequatur nihil autem dolor.",
         "Deleted": false,
-        "Rank": 681,
-        "Type": "aliquid",
-        "ColorBlock": 262,
-        "IconHint": "quam",
+        "Rank": 545,
+        "Type": "eos",
+        "ColorBlock": 848,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2010-09-05T16:55:30.7662571+02:00",
+        "LastChanged": "2003-09-06T10:30:33.0680874+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "facilis",
-        "Hidden": true,
-        "FullName": "Lamar Oberbrunner I",
+        "ExtraInfo": "vel",
+        "StyleHint": "quisquam",
+        "Hidden": false,
+        "FullName": "Eulah Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 492
+            "FieldType": "System.Int32",
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Mohamed Collier",
+    "ExtraInfo": "neque",
+    "StyleHint": "accusantium",
+    "Hidden": true,
+    "FullName": "Thelma Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

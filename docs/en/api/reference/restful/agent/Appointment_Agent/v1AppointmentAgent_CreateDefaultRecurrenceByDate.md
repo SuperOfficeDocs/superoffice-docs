@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2002-04-15T16:54:54.4398941+02:00"
+  "StartDate": "2011-06-15T10:30:22.910753+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 29,
-  "StartDate": "2023-09-10T16:54:54.4409853+02:00",
-  "EndDate": "1998-01-08T16:54:54.4409853+01:00",
-  "RecurrenceCounter": 922,
+  "RecurrenceId": 155,
+  "StartDate": "2013-11-14T10:30:22.910753+01:00",
+  "EndDate": "2003-09-21T10:30:22.910753+02:00",
+  "RecurrenceCounter": 333,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2023-06-01T16:54:54.4409853+02:00",
-      "IsConflict": true,
-      "Description": "Customizable heuristic core",
-      "DescriptionStyleHint": "Grass-roots object-oriented approach",
-      "Tooltip": "enim"
+      "Date": "1997-10-27T10:30:22.910753+01:00",
+      "IsConflict": false,
+      "Description": "Exclusive methodical leverage",
+      "DescriptionStyleHint": "Monitored content-based superstructure",
+      "Tooltip": "excepturi"
     },
     {
-      "Date": "2023-06-01T16:54:54.4409853+02:00",
-      "IsConflict": true,
-      "Description": "Customizable heuristic core",
-      "DescriptionStyleHint": "Grass-roots object-oriented approach",
-      "Tooltip": "enim"
+      "Date": "1997-10-27T10:30:22.910753+01:00",
+      "IsConflict": false,
+      "Description": "Exclusive methodical leverage",
+      "DescriptionStyleHint": "Monitored content-based superstructure",
+      "Tooltip": "excepturi"
     }
   ],
   "IsRecurrence": false

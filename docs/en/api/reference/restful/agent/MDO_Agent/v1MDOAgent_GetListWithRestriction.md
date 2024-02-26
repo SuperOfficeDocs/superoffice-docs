@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Graham-Ritchie",
-  "AdditionalInfo": "ratione",
-  "SearchValue": "voluptatibus"
+  "Name": "Ward, Wiza and Skiles",
+  "AdditionalInfo": "molestiae",
+  "SearchValue": "nisi"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Gusikowski Inc and Sons",
-    "ToolTip": "Ipsum necessitatibus ut ipsam porro et distinctio.",
+    "Id": 455,
+    "Name": "O'Connell Group",
+    "ToolTip": "Quisquam consequuntur eveniet.",
     "Deleted": true,
-    "Rank": 952,
-    "Type": "fugit",
+    "Rank": 848,
+    "Type": "nulla",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "Marquardt, Mertz and Walker",
-        "ToolTip": "Distinctio labore cupiditate ut sit.",
-        "Deleted": false,
-        "Rank": 992,
-        "Type": "voluptatem",
+        "Id": 798,
+        "Name": "Osinski, Senger and Turner",
+        "ToolTip": "Dignissimos veniam possimus inventore quia quas qui.",
+        "Deleted": true,
+        "Rank": 232,
+        "Type": "quibusdam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 672,
-        "ExtraInfo": "vitae",
-        "StyleHint": "nisi",
-        "FullName": "Santina Ledner",
+        "IconHint": "accusantium",
+        "ColorBlock": 513,
+        "ExtraInfo": "sit",
+        "StyleHint": "culpa",
+        "FullName": "Buck Medhurst IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 149
+            "FieldLength": 903
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 32,
-    "ExtraInfo": "ullam",
-    "StyleHint": "beatae",
-    "FullName": "Luna Feil",
+    "IconHint": "temporibus",
+    "ColorBlock": 757,
+    "ExtraInfo": "aut",
+    "StyleHint": "esse",
+    "FullName": "Braxton Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldLength": 170
       }
     }
   }

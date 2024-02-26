@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 610,
-    "Name": "Pfannerstill, Crooks and Schumm",
-    "Tooltip": "quae",
+    "HeadingId": 154,
+    "Name": "Swift, Prosacco and Reichel",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 957,
-    "UdListDefinitionId": 347
+    "Rank": 819,
+    "UdListDefinitionId": 474
   },
   {
-    "HeadingId": 610,
-    "Name": "Pfannerstill, Crooks and Schumm",
-    "Tooltip": "quae",
+    "HeadingId": 154,
+    "Name": "Swift, Prosacco and Reichel",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 957,
-    "UdListDefinitionId": 347
+    "Rank": 819,
+    "UdListDefinitionId": 474
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 213,
-    "Name": "Beier Inc and Sons",
-    "Tooltip": "mollitia",
+    "HeadingId": 584,
+    "Name": "Bernier-Strosin",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 307,
-    "UdListDefinitionId": 671,
+    "Rank": 975,
+    "UdListDefinitionId": 867,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 783
       }
     }
   }

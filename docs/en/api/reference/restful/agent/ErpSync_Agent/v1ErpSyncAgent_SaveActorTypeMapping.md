@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 977,
+  "ErpConnectionId": 418,
   "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 584,
-      "CrmFieldKey": "magni",
-      "CrmDisplayName": "Senger Group",
-      "CrmDisplayTooltip": "sit",
-      "ErpFieldKey": "ipsa",
+      "ErpFieldId": 180,
+      "CrmFieldKey": "ut",
+      "CrmDisplayName": "Kreiger, Nader and Blick",
+      "CrmDisplayTooltip": "et",
+      "ErpFieldKey": "sunt",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Sporer-Walter",
-      "ErpDisplayTooltip": "sit",
+      "ErpDisplayName": "Wisozk-Moore",
+      "ErpDisplayTooltip": "neque",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
+      "AlreadyMapped": true,
       "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "voluptatum",
+      "ListReference": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 100
+          "FieldLength": 283
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldType": "System.Int32",
+      "FieldLength": 345
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jaskolski, Veum and Greenholt",
-  "Comment": "et",
-  "StakeholderRoleId": 214,
-  "CountryId": 614,
-  "PersonId": 540,
-  "EmailDescription": "ida_wolff@tremblay.biz",
-  "EmailId": 599,
-  "EmailAddress": "paris@mclaughlin.ca",
-  "PhoneId": 328,
-  "ContactName": "Kshlerin Group",
-  "ContactId": 244,
-  "SaleId": 558,
-  "Mrmrs": "molestiae",
-  "Firstname": "Cordelia",
-  "MiddleName": "Reynolds, Swaniawski and Predovic",
-  "Lastname": "Oberbrunner",
-  "SaleStakeholderId": 834,
-  "Rank": 575,
-  "Phone": "156-178-4708",
+  "StakeholderRoleName": "Hayes Group",
+  "Comment": "possimus",
+  "StakeholderRoleId": 778,
+  "CountryId": 391,
+  "PersonId": 744,
+  "EmailDescription": "domenica@grant.us",
+  "EmailId": 237,
+  "EmailAddress": "twila@cole.info",
+  "PhoneId": 639,
+  "ContactName": "Gleichner-Torp",
+  "ContactId": 809,
+  "SaleId": 545,
+  "Mrmrs": "dolorum",
+  "Firstname": "Marisa",
+  "MiddleName": "Schimmel, Reynolds and Klocko",
+  "Lastname": "Prosacco",
+  "SaleStakeholderId": 20,
+  "Rank": 927,
+  "Phone": "(253)890-0708 x09848",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 880
     }
   }
 }

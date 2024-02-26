@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 891,
-  "Name": "Parisian-Bergnaum",
-  "AssociateId": 646,
-  "DetailsTable": 171,
-  "DetailsRecord": 743,
+  "Id": 108,
+  "Name": "Hartmann Inc and Sons",
+  "AssociateId": 603,
+  "DetailsTable": 883,
+  "DetailsRecord": 74,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "voluptas",
-    "ParameterObject2": "temporibus"
+    "ParameterObject1": "cum",
+    "ParameterObject2": "maxime"
   },
-  "LastStarted": "2023-11-14T16:55:30.3208171+01:00",
-  "Created": "2020-09-13T16:55:30.3208171+02:00",
-  "StartCount": 834,
-  "DatabaseSerialNumber": "1007905",
-  "Context": "perspiciatis",
-  "Result": "quia",
+  "LastStarted": "2006-04-26T10:30:32.6699717+02:00",
+  "Created": "2006-12-13T10:30:32.6699717+01:00",
+  "StartCount": 410,
+  "DatabaseSerialNumber": "791167",
+  "Context": "quo",
+  "Result": "tempore",
   "State": "All",
-  "Description": "Balanced maximized extranet",
-  "Response": "numquam",
-  "Request": "quia",
-  "ProgressDescription": "Proactive well-modulated emulation",
-  "ProgressPercent": 914,
-  "FileName": "McGlynn LLC",
+  "Description": "Distributed zero administration superstructure",
+  "Response": "maiores",
+  "Request": "omnis",
+  "ProgressDescription": "Profound national array",
+  "ProgressPercent": 443,
+  "FileName": "Zieme, Konopelski and Reynolds",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-819
+386
 ```

@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=accusamus
+GET /api/v1/List/LegalBase/MDOItems?query=iusto
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Name": "Schroeder-Pacocha",
-    "ToolTip": "Optio quia quo.",
-    "Deleted": true,
-    "Rank": 909,
-    "Type": "doloribus",
+    "Id": 849,
+    "Name": "Monahan, Gutkowski and Crist",
+    "ToolTip": "Qui enim culpa est aperiam esse.",
+    "Deleted": false,
+    "Rank": 620,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Cassin Inc and Sons",
-        "ToolTip": "Molestiae error velit exercitationem ut et.",
-        "Deleted": true,
-        "Rank": 249,
-        "Type": "et",
+        "Id": 123,
+        "Name": "Klocko, Mraz and Hilll",
+        "ToolTip": "Ex sed maiores vero.",
+        "Deleted": false,
+        "Rank": 769,
+        "Type": "culpa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 756,
-        "ExtraInfo": "error",
-        "StyleHint": "sunt",
-        "FullName": "Chandler Koepp",
+        "IconHint": "laborum",
+        "ColorBlock": 862,
+        "ExtraInfo": "rem",
+        "StyleHint": "atque",
+        "FullName": "Bettye Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 907
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 990,
-    "ExtraInfo": "laudantium",
-    "StyleHint": "corrupti",
-    "FullName": "Victoria Jerde",
+    "IconHint": "dolores",
+    "ColorBlock": 499,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "illum",
+    "FullName": "Dr. Taya McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 99
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

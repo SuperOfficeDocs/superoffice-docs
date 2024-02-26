@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 726,
-  "Name": "Effertz Group",
-  "Tooltip": "illum",
-  "SaveInDb": 94,
-  "Filename": "minima",
-  "DefaultOref": "ipsa",
+  "DocumentTemplateId": 265,
+  "Name": "Jakubowski-Wyman",
+  "Tooltip": "deleniti",
+  "SaveInDb": 491,
+  "Filename": "voluptatem",
+  "DefaultOref": "magnam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 152,
-  "IntentId": 690,
-  "IsDefaultPublished": true,
-  "Rank": 847,
-  "LoadTemplateFromPlugin": 220,
-  "MimeType": "officia",
+  "AutoeventId": 537,
+  "IntentId": 664,
+  "IsDefaultPublished": false,
+  "Rank": 528,
+  "LoadTemplateFromPlugin": 988,
+  "MimeType": "iure",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 243,
+  "DocumentTypeKey": 203,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "berta.hansen@jacobson.biz",
+  "EmailSubject": "tamara_yundt@homenick.info",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "webster.fisher@kuhlman.name",
+  "SenderEmailAddress": "zena@hegmannrussel.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 217,
-  "Name": "Bartell, Schaden and Donnelly",
-  "Tooltip": "quos",
-  "SaveInDb": 559,
-  "Filename": "ut",
-  "DefaultOref": "eos",
+  "DocumentTemplateId": 3,
+  "Name": "Paucek-Donnelly",
+  "Tooltip": "molestiae",
+  "SaveInDb": 803,
+  "Filename": "quae",
+  "DefaultOref": "accusamus",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 841,
-  "IntentId": 366,
+  "AutoeventId": 439,
+  "IntentId": 692,
   "IsDefaultPublished": true,
-  "Rank": 975,
-  "LoadTemplateFromPlugin": 963,
-  "MimeType": "neque",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 771,
+  "Rank": 557,
+  "LoadTemplateFromPlugin": 706,
+  "MimeType": "perspiciatis",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 126,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "edd@ritchie.co.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "salvatore_willms@wintheiser.name",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "garrison@kerluke.info",
+  "SenderEmailAddress": "mona.ryan@kuhlmanmcdermott.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 533
     }
   }
 }

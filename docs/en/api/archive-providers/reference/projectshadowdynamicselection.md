@@ -774,7 +774,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=hasGuide,sale/earning,sale/hasQuote,appointment/appointmentUdef/SuperOffice:3,appointment/appointment/isConverted
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=LastDoByActivity,sale/competitor,sale/stalledComment,sale/associate/contactId,appointment/appointmentUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

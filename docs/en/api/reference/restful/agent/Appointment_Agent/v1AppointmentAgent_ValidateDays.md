@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "pariatur",
-    "totam"
+    "eveniet",
+    "cupiditate"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2005-04-08T16:54:54.3968641+02:00",
-    "IsConflict": false,
-    "Description": "Distributed high-level access",
-    "DescriptionStyleHint": "Down-sized stable synergy",
-    "Tooltip": "animi"
+    "Date": "1997-02-28T10:30:22.8627082+01:00",
+    "IsConflict": true,
+    "Description": "Adaptive foreground instruction set",
+    "DescriptionStyleHint": "Robust homogeneous capacity",
+    "Tooltip": "omnis"
   },
   {
-    "Date": "2005-04-08T16:54:54.3968641+02:00",
-    "IsConflict": false,
-    "Description": "Distributed high-level access",
-    "DescriptionStyleHint": "Down-sized stable synergy",
-    "Tooltip": "animi"
+    "Date": "1997-02-28T10:30:22.8627082+01:00",
+    "IsConflict": true,
+    "Description": "Adaptive foreground instruction set",
+    "DescriptionStyleHint": "Robust homogeneous capacity",
+    "Tooltip": "omnis"
   }
 ]
 ```

@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 647,
-  "Name": "Torp, Jones and Ryan",
+  "ScreenChooserId": 393,
+  "Name": "Rohan, Bechtelar and Keeling",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eum",
-  "Source": "voluptas",
-  "Registered": "2013-06-09T16:54:55.0582723+02:00",
-  "RegisteredAssociateId": 262,
-  "Updated": "1997-08-16T16:54:55.0582723+02:00",
-  "UpdatedAssociateId": 926,
+  "UniqueIdentifier": "quia",
+  "Source": "voluptatem",
+  "Registered": "2022-01-25T10:30:23.4049883+01:00",
+  "RegisteredAssociateId": 1002,
+  "Updated": "2022-11-01T10:30:23.4049883+01:00",
+  "UpdatedAssociateId": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 171
     }
   }
 }

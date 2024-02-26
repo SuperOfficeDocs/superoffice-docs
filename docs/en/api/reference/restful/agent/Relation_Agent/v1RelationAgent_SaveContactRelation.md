@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 29,
-  "SourcePersonId": 858,
-  "DestinationContactId": 49,
-  "DestinationPersonId": 211,
-  "RelationId": 624,
-  "Comment": "debitis",
-  "RelationDefinitionId": 273,
-  "Reversed": 751,
-  "UpdatedDate": "1999-04-18T16:54:56.1689707+02:00",
-  "CreatedDate": "2000-07-24T16:54:56.1689707+02:00",
+  "SourceContactId": 573,
+  "SourcePersonId": 245,
+  "DestinationContactId": 846,
+  "DestinationPersonId": 645,
+  "RelationId": 149,
+  "Comment": "dolores",
+  "RelationDefinitionId": 243,
+  "Reversed": 383,
+  "UpdatedDate": "1997-01-16T10:30:24.4502511+01:00",
+  "CreatedDate": "2019-05-02T10:30:24.4502511+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Glover Group",
-  "SourcePersonName": "Hansen, Braun and Parisian",
-  "DestinationContactName": "Carter, Ritchie and McLaughlin",
-  "DestinationPersonName": "Schaefer, Fisher and Kuphal",
-  "ActiveText": "earum",
-  "PassiveText": "ea",
+  "SourceContactName": "Heaney Inc and Sons",
+  "SourcePersonName": "Zieme, Swift and Davis",
+  "DestinationContactName": "Nader, Goldner and Botsford",
+  "DestinationPersonName": "Graham LLC",
+  "ActiveText": "quia",
+  "PassiveText": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldType": "System.String",
+      "FieldLength": 808
     }
   }
 }

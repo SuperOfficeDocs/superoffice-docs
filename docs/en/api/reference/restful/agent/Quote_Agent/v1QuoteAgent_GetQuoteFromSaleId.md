@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 336
+  "SaleId": 851
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 704,
-  "SaleId": 48,
-  "QuoteConnectionId": 555,
-  "ERPQuoteKey": "et",
-  "ERPOrderKey": "enim",
-  "ActiveQuoteVersionId": 199,
-  "AcceptedQuoteAlternativeId": 650,
-  "UseValuesFromQuote": 260,
-  "DocumentId": 695,
-  "PoNumber": "192145",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "tia@ritchiegulgowski.info",
+  "QuoteId": 451,
+  "SaleId": 955,
+  "QuoteConnectionId": 920,
+  "ERPQuoteKey": "ratione",
+  "ERPOrderKey": "fugit",
+  "ActiveQuoteVersionId": 259,
+  "AcceptedQuoteAlternativeId": 612,
+  "UseValuesFromQuote": 601,
+  "DocumentId": 208,
+  "PoNumber": "936344",
+  "OrderComment": "asperiores",
+  "PreferredEmailCulture": "matt@botsfordhermiston.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 854
     }
   }
 }

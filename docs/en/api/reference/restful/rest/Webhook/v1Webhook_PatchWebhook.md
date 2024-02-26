@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "id",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "id",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 141,
-  "Name": "D'Amore-Marks",
+  "WebhookId": 770,
+  "Name": "Stark, Lockman and Borer",
   "Events": [
-    "et",
-    "autem"
+    "in",
+    "impedit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "autem",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "quam",
+  "Type": "recusandae",
   "Headers": {
-    "Headers1": "cum",
-    "Headers2": "numquam"
+    "Headers1": "dolor",
+    "Headers2": "cupiditate"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-07-05T16:55:30.4917121+02:00",
+  "Registered": "2005-05-07T10:30:32.8269372+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-04-01T16:55:30.4927127+02:00",
+  "Updated": "2013-08-23T10:30:32.8269372+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "marcellus@kuhlman.us",
+  "ErrorsEmail": "jolie@weissnat.co.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

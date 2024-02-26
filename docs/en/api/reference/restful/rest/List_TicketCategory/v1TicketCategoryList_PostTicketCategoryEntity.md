@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 938,
-  "ParentId": 562,
-  "Name": "Dietrich Inc and Sons",
-  "Fullname": "aliquid",
-  "CategoryMaster": 962,
+  "TicketCategoryId": 298,
+  "ParentId": 732,
+  "Name": "Funk, Leffler and Wiza",
+  "Fullname": "voluptas",
+  "CategoryMaster": 133,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Medhurst LLC",
+  "ExternalName": "Langworth, Klein and Hermiston",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 714,
-  "ReplyTemplate": 703,
-  "NotificationEmail": "donnie_kassulke@fritsch.biz",
+  "AssignmentLag": 602,
+  "ReplyTemplate": 485,
+  "NotificationEmail": "carol_marks@williamsonschaden.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 411,
+  "EffectiveReplyTemplateId": 646,
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "accusantium"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "nam"
+    "CustomFields1": "unde",
+    "CustomFields2": "laboriosam"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 878,
-  "ParentId": 411,
-  "Name": "Labadie-Rempel",
-  "Fullname": "provident",
-  "CategoryMaster": 999,
+  "TicketCategoryId": 809,
+  "ParentId": 105,
+  "Name": "Beahan, Little and Terry",
+  "Fullname": "sint",
+  "CategoryMaster": 393,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kirlin, Padberg and Labadie",
+  "ExternalName": "Yundt-Mraz",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 806,
-  "ReplyTemplate": 781,
-  "NotificationEmail": "merle_vonrueden@jacobi.us",
+  "AssignmentLag": 256,
+  "ReplyTemplate": 684,
+  "NotificationEmail": "keagan@roob.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 386,
+  "EffectiveReplyTemplateId": 154,
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "et"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "est"
+    "CustomFields1": "corporis",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 808
     }
   }
 }

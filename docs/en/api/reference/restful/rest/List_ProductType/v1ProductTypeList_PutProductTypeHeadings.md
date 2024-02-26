@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 887,
-    "Name": "Pagac, Gislason and White",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 57,
-    "UdListDefinitionId": 54
+    "HeadingId": 646,
+    "Name": "Greenfelder, Blick and Blanda",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 180,
+    "UdListDefinitionId": 674
   },
   {
-    "HeadingId": 887,
-    "Name": "Pagac, Gislason and White",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 57,
-    "UdListDefinitionId": 54
+    "HeadingId": 646,
+    "Name": "Greenfelder, Blick and Blanda",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 180,
+    "UdListDefinitionId": 674
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 616,
-    "Name": "Franecki Inc and Sons",
-    "Tooltip": "porro",
-    "Deleted": false,
-    "Rank": 401,
-    "UdListDefinitionId": 277,
+    "HeadingId": 880,
+    "Name": "Goodwin Group",
+    "Tooltip": "explicabo",
+    "Deleted": true,
+    "Rank": 920,
+    "UdListDefinitionId": 865,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldLength": 386
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=voluptates
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Ledner-Moore",
-    "ToolTip": "Aut pariatur.",
+    "Id": 665,
+    "Name": "Durgan, Block and Funk",
+    "ToolTip": "Velit fugiat.",
     "Deleted": false,
-    "Rank": 92,
-    "Type": "aperiam",
+    "Rank": 476,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Hegmann, Orn and Barton",
-        "ToolTip": "Non blanditiis qui sed sit sed rerum.",
+        "Id": 769,
+        "Name": "Wiza Group",
+        "ToolTip": "Quis est aliquam nihil animi.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "earum",
+        "Rank": 522,
+        "Type": "molestias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 765,
-        "ExtraInfo": "deleniti",
-        "StyleHint": "molestiae",
-        "FullName": "Dr. Leann Block",
+        "IconHint": "qui",
+        "ColorBlock": 668,
+        "ExtraInfo": "modi",
+        "StyleHint": "voluptatibus",
+        "FullName": "Madison McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 678
+            "FieldType": "System.Int32",
+            "FieldLength": 742
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 560,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "ut",
-    "FullName": "Dr. Adriana Klein",
+    "IconHint": "sit",
+    "ColorBlock": 675,
+    "ExtraInfo": "ut",
+    "StyleHint": "doloribus",
+    "FullName": "Ms. Domenic Natasha Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 267
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 242,
-    "Name": "Kuvalis-DuBuque",
-    "Tooltip": "rerum",
+    "WebPanelId": 948,
+    "Name": "Grady, Pagac and Yundt",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 200,
+    "Rank": 203,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Murray Group",
+    "WindowName": "O'Kon Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "aut",
-    "Icon": 153,
+    "ProgId": "est",
+    "Icon": 300,
     "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": true,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

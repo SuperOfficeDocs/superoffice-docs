@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 996,
-  "Name": "Orn Inc and Sons",
-  "Description": "Optional scalable encoding"
+  "SourceId": 613,
+  "Name": "Brown, Oberbrunner and Purdy",
+  "Description": "Profound systemic emulation"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 865,
+  "ReportId": 527,
   "ReportCategory": "All",
-  "Description": "Function-based hybrid installation",
+  "Description": "Business-focused incremental local area network",
   "ReportLayout": "CalendarMonth",
-  "Name": "Kessler-Emard",
-  "AssociateId": 311,
-  "TemplateId": 262,
+  "Name": "Koelpin, D'Amore and Gottlieb",
+  "AssociateId": 535,
+  "TemplateId": 619,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 758
     }
   }
 }

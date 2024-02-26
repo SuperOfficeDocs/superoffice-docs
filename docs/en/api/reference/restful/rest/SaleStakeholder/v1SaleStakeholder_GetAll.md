@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SaleStakeholder?$select=name,department,category/id
 GET /api/v1/SaleStakeholder?$filter=name begins 'S'
 GET /api/v1/SaleStakeholder?$orderBy=name asc
-GET /api/v1/SaleStakeholder?$entities=laudantium
-GET /api/v1/SaleStakeholder?$top=527
-GET /api/v1/SaleStakeholder?$skip=67
+GET /api/v1/SaleStakeholder?$entities=commodi
+GET /api/v1/SaleStakeholder?$top=997
+GET /api/v1/SaleStakeholder?$skip=954
 GET /api/v1/SaleStakeholder?$mode=Full
 GET /api/v1/SaleStakeholder?$options=GrandTotal=true
-GET /api/v1/SaleStakeholder?$context=aperiam
+GET /api/v1/SaleStakeholder?$context=quasi
 GET /api/v1/SaleStakeholder?$format=JSON
-GET /api/v1/SaleStakeholder?$jsonSafe=True
+GET /api/v1/SaleStakeholder?$jsonSafe=False
 GET /api/v1/SaleStakeholder?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nisi",
+  "odata.nextLink": "facilis",
   "value": [
     {
-      "PrimaryKey": 1751,
+      "PrimaryKey": 2484,
       "EntityName": "sale",
-      "saleId": 1751,
-      "contactId": 3331,
-      "name": "Terry-Bartoletti"
+      "saleId": 2484,
+      "contactId": 7484,
+      "name": "Reilly Group"
     },
     {
-      "PrimaryKey": 3633,
+      "PrimaryKey": 388,
       "EntityName": "sale",
-      "saleId": 3633,
-      "contactId": 9334,
-      "name": "Senger, Nader and Haley"
+      "saleId": 388,
+      "contactId": 2935,
+      "name": "Hane, Graham and Maggio"
     }
   ]
 }

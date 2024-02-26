@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 834,
-    "Attention": "qui",
-    "Header": "rerum",
-    "Name": "McDermott, McKenzie and Nolan",
-    "OurRef": "aliquam",
-    "YourRef": "non",
-    "Description": "Front-line dynamic open system",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 92,
-    "PersonFullName": "Miss Caden Wanda Hessel",
-    "AssociateFullName": "Santino Ondricka",
-    "ContactId": 651,
-    "ContactName": "Prohaska, Heathcote and Funk",
-    "ProjectId": 910,
-    "ProjectName": "McGlynn-Cronin",
-    "AssociateId": 199,
-    "Snum": 599,
-    "SaleId": 451,
-    "SaleName": "Haag-Nikolaus",
+    "DocumentId": 747,
+    "Attention": "voluptatem",
+    "Header": "voluptatum",
+    "Name": "Bashirian-Schultz",
+    "OurRef": "necessitatibus",
+    "YourRef": "doloremque",
+    "Description": "Future-proofed 5th generation capability",
+    "DocumentTemplate": "qui",
+    "IsPublished": true,
+    "PersonId": 329,
+    "PersonFullName": "Khalid McClure Sr.",
+    "AssociateFullName": "Okey Russel",
+    "ContactId": 488,
+    "ContactName": "Doyle-Boyer",
+    "ProjectId": 826,
+    "ProjectName": "Jaskolski, Fahey and Howe",
+    "AssociateId": 148,
+    "Snum": 295,
+    "SaleId": 341,
+    "SaleName": "Littel, Kutch and Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldType": "System.String",
+        "FieldLength": 841
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Kovacek-Dooley",
-    "ToolTip": "Velit at non.",
-    "Deleted": false,
-    "Rank": 818,
-    "Type": "tempora",
-    "ColorBlock": 280,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2008-11-05T16:55:30.59021+01:00",
+    "Id": 311,
+    "Name": "Kovacek, Schinner and Terry",
+    "ToolTip": "Nesciunt ut eos aperiam et est recusandae.",
+    "Deleted": true,
+    "Rank": 788,
+    "Type": "pariatur",
+    "ColorBlock": 662,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2017-08-23T10:30:32.9118319+02:00",
     "ChildItems": [
       {
-        "Id": 650,
-        "Name": "Wolf Inc and Sons",
-        "ToolTip": "Rerum ea quo.",
+        "Id": 515,
+        "Name": "Mraz, Schaefer and Nolan",
+        "ToolTip": "Fugiat non accusantium enim doloribus.",
         "Deleted": false,
-        "Rank": 96,
-        "Type": "qui",
-        "ColorBlock": 236,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2018-01-20T16:55:30.59021+01:00",
+        "Rank": 169,
+        "Type": "aut",
+        "ColorBlock": 795,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2015-07-04T10:30:32.9118319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Dr. Kylie Leopoldo Schimmel",
+        "ExtraInfo": "ut",
+        "StyleHint": "voluptatum",
+        "Hidden": false,
+        "FullName": "Ms. Angeline Francesco Runolfsson I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 781
+            "FieldLength": 497
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "inventore",
+    "ExtraInfo": "libero",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Dr. Vada Monahan",
+    "FullName": "Lurline Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldLength": 703
       }
     }
   }

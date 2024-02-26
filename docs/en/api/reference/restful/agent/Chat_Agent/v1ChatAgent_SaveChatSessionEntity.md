@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 679,
-  "TopicId": 347,
+  "ChatSessionId": 917,
+  "TopicId": 939,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aliquid",
-  "CustomerHost": "corrupti",
-  "CustomerName": "Crona Inc and Sons",
-  "CustomerEmail": "corrine.dare@wiegand.uk",
-  "CustomerPhone": "762.861.1410 x316",
+  "CustomerAlias": "autem",
+  "CustomerHost": "maiores",
+  "CustomerName": "Dietrich, Wiza and Hegmann",
+  "CustomerEmail": "chyna@kutch.co.uk",
+  "CustomerPhone": "(123)002-7249 x8175",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Ledner-Anderson",
+  "CustomerCompanyName": "Lind, Stoltenberg and Erdman",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "molestiae",
-  "WhenRequested": "2002-03-17T16:54:54.6473074+01:00",
-  "WhenStarted": "2021-12-17T16:54:54.6473074+01:00",
-  "WhenEnded": "2007-02-10T16:54:54.6473074+01:00",
-  "WhenIdle": "2002-11-07T16:54:54.6473074+01:00",
-  "WhenFetched": "2017-03-15T16:54:54.6473074+01:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 412,
-  "AlertLevel": 126,
-  "Rank": 964,
+  "FirstMessage": "ea",
+  "LastMessage": "earum",
+  "WhenRequested": "2016-02-13T10:30:23.129545+01:00",
+  "WhenStarted": "2023-04-03T10:30:23.129545+02:00",
+  "WhenEnded": "2006-02-05T10:30:23.129545+01:00",
+  "WhenIdle": "2010-11-01T10:30:23.129545+01:00",
+  "WhenFetched": "2004-02-12T10:30:23.129545+01:00",
+  "SessionKey": "sint",
+  "InitialQueuePos": 975,
+  "AlertLevel": 477,
+  "Rank": 936,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 231
+  "Rating": 637
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 391,
-  "TopicId": 122,
+  "ChatSessionId": 372,
+  "TopicId": 635,
   "User": null,
   "Person": null,
-  "CustomerAlias": "alias",
-  "CustomerHost": "autem",
-  "CustomerName": "Powlowski Group",
-  "CustomerEmail": "heidi@metz.uk",
-  "CustomerPhone": "(619)442-7896 x8492",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Welch LLC",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Jacobson Group",
+  "CustomerEmail": "else@jerde.ca",
+  "CustomerPhone": "130-413-4102 x2634",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Kuhlman, Metz and Osinski",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "nemo",
-  "WhenRequested": "2016-11-11T16:54:54.6558194+01:00",
-  "WhenStarted": "2014-07-28T16:54:54.6558194+02:00",
-  "WhenEnded": "2013-03-10T16:54:54.6558194+01:00",
-  "WhenIdle": "2008-11-01T16:54:54.6558194+01:00",
-  "WhenFetched": "1998-12-29T16:54:54.6558194+01:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 264,
-  "AlertLevel": 742,
-  "Rank": 941,
+  "FirstMessage": "sapiente",
+  "LastMessage": "optio",
+  "WhenRequested": "2002-09-05T10:30:23.129545+02:00",
+  "WhenStarted": "2001-10-11T10:30:23.129545+02:00",
+  "WhenEnded": "2002-05-07T10:30:23.129545+02:00",
+  "WhenIdle": "1999-12-12T10:30:23.129545+01:00",
+  "WhenFetched": "2015-01-14T10:30:23.129545+01:00",
+  "SessionKey": "illo",
+  "InitialQueuePos": 202,
+  "AlertLevel": 621,
+  "Rank": 293,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 371,
+  "Rating": 306,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldLength": 819
     }
   }
 }

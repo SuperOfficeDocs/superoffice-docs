@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 643,
-  "UniqueIdentifier": "sed",
-  "Name": "Emard, O'Connell and Torphy",
-  "Description": "Profound upward-trending functionalities",
-  "IncludeId": "atque",
-  "HierarchyId": 895,
-  "Source": "consequatur",
-  "Registered": "2006-11-19T16:54:55.0572741+01:00",
-  "RegisteredAssociateId": 858,
-  "Updated": "2024-02-05T16:54:55.0572741+01:00",
-  "UpdatedAssociateId": 845,
+  "EjscriptId": 785,
+  "UniqueIdentifier": "non",
+  "Name": "Strosin Group",
+  "Description": "Inverse tertiary initiative",
+  "IncludeId": "non",
+  "HierarchyId": 426,
+  "Source": "eaque",
+  "Registered": "2001-07-25T10:30:23.4039465+02:00",
+  "RegisteredAssociateId": 753,
+  "Updated": "2019-12-27T10:30:23.4039465+01:00",
+  "UpdatedAssociateId": 763,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

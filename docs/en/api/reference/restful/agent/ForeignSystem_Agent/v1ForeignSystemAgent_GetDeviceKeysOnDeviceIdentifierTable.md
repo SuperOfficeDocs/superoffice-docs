@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Corwin, Lebsack and Corkery",
-  "DeviceName": "Parisian LLC",
-  "DeviceIdentifier": "sed",
-  "TableName": "Harris LLC"
+  "ApplicationName": "Wisoky-Kreiger",
+  "DeviceName": "Jaskolski LLC",
+  "DeviceIdentifier": "deserunt",
+  "TableName": "Jewess, Bednar and Adams"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolorem",
-    "Value": "et",
-    "RecordId": 51,
-    "CreatedDate": "2004-11-10T16:54:55.4924677+01:00",
-    "UpdatedDate": "2013-07-22T16:54:55.4924677+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "delectus",
-    "TableName": "Lind Inc and Sons",
+    "Key": "itaque",
+    "Value": "omnis",
+    "RecordId": 812,
+    "CreatedDate": "1997-09-03T10:30:23.9261861+02:00",
+    "UpdatedDate": "1998-12-14T10:30:23.9261861+01:00",
+    "UpdatedBy": "minus",
+    "CreatedBy": "velit",
+    "TableName": "Fay, Weissnat and Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldLength": 31
       }
     }
   }

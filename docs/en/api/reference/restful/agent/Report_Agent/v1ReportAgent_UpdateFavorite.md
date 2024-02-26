@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 580,
+  "ReportId": 691,
   "ReportCategory": "All",
-  "Description": "Vision-oriented system-worthy monitoring",
+  "Description": "Quality-focused asynchronous groupware",
   "ReportLayout": "CalendarMonth",
-  "Name": "Denesik-Douglas",
-  "AssociateId": 419,
-  "TemplateId": 980,
-  "Published": false,
+  "Name": "Block LLC",
+  "AssociateId": 889,
+  "TemplateId": 353,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

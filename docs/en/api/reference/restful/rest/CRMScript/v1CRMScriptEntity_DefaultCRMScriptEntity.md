@@ -70,7 +70,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 403,
-  "UniqueIdentifier": "assumenda",
-  "Name": "Schaden-Rohan",
-  "Description": "Switchable executive utilisation",
-  "IncludeId": "quia",
-  "HierarchyId": 306,
-  "Source": "unde",
-  "Registered": "2009-06-20T16:55:29.5278315+02:00",
-  "RegisteredAssociateId": 362,
-  "Updated": "2003-11-23T16:55:29.5278315+01:00",
-  "UpdatedAssociateId": 673,
+  "EjscriptId": 209,
+  "UniqueIdentifier": "quae",
+  "Name": "Murazik Group",
+  "Description": "Open-source analyzing challenge",
+  "IncludeId": "a",
+  "HierarchyId": 863,
+  "Source": "voluptatem",
+  "Registered": "2016-04-20T10:30:31.9636795+02:00",
+  "RegisteredAssociateId": 561,
+  "Updated": "2003-02-13T10:30:31.9636795+01:00",
+  "UpdatedAssociateId": 881,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldType": "System.String",
+      "FieldLength": 570
     }
   }
 }

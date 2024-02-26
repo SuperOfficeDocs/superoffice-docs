@@ -83,26 +83,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maiores",
-  "ProviderName": "Mosciski-Fisher",
-  "StorageKey": "ut",
+  "StorageType": "labore",
+  "ProviderName": "Metz, McDermott and Bednar",
+  "StorageKey": "praesentium",
   "DesiredColumns": [
-    "assumenda",
-    "et"
+    "voluptatem",
+    "amet"
   ],
-  "PageSize": 262,
-  "PageNumber": 182,
+  "PageSize": 901,
+  "PageNumber": 567,
   "OrderBy": [
     {
-      "Name": "Lindgren-Kohler",
+      "Name": "Doyle, Rutherford and Nitzsche",
       "Direction": "ASC"
     },
     {
-      "Name": "Lindgren-Kohler",
+      "Name": "Doyle, Rutherford and Nitzsche",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Wisozk-Jerde",
-      "DisplayTooltip": "recusandae",
-      "DisplayType": "iste",
+      "DisplayName": "Stark-Russel",
+      "DisplayTooltip": "totam",
+      "DisplayType": "nostrum",
       "CanOrderBy": false,
-      "Name": "Welch, Flatley and Rath",
-      "CanRestrictBy": true,
-      "RestrictionType": "architecto",
-      "RestrictionListName": "Pollich, Nolan and Kreiger",
+      "Name": "Morissette, Frami and Durgan",
+      "CanRestrictBy": false,
+      "RestrictionType": "est",
+      "RestrictionListName": "Jewess-Schaden",
       "IsVisible": false,
-      "ExtraInfo": "labore",
-      "Width": "eligendi",
-      "IconHint": "doloribus",
-      "HeadingIconHint": "natus"
+      "ExtraInfo": "unde",
+      "Width": "nam",
+      "IconHint": "earum",
+      "HeadingIconHint": "voluptatum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Mohr, Boehm and Borer",
-      "PrimaryKey": 598,
+      "EntityName": "Fay Group",
+      "PrimaryKey": 986,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "repellat",
-          "TooltipHint": "quia",
-          "LinkHint": "similique"
+          "DisplayValue": "occaecati",
+          "TooltipHint": "non",
+          "LinkHint": "ipsam"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "aut",
+      "LinkHint": "distinctio",
+      "StyleHint": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldLength": 578
         }
       }
     }
   ],
-  "RowCount": 474,
+  "RowCount": 500,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

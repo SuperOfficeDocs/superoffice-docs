@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "784.588.7285 x9452",
-    "PersonCellPhone": "459-772-0669 x5236",
-    "PersonPrivatePhone": "1-556-945-4116",
-    "PersonFaxNumber": "502123",
-    "PersonPagerNumber": "919968",
-    "PersonEmail": "izaiah_stanton@reingerlang.biz",
-    "Id": 452,
-    "Name": "Kemmer, Konopelski and Cremin",
-    "Tooltip": "eum",
-    "UniqueId": "est",
+    "PersonDirectPhone": "300.167.9338",
+    "PersonCellPhone": "1-817-833-2685 x834",
+    "PersonPrivatePhone": "1-405-120-9055 x2595",
+    "PersonFaxNumber": "1149776",
+    "PersonPagerNumber": "1118694",
+    "PersonEmail": "vance@johnsonhirthe.us",
+    "Id": 769,
+    "Name": "McClure Inc and Sons",
+    "Tooltip": "culpa",
+    "UniqueId": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldType": "System.Int32",
+        "FieldLength": 296
       }
     }
   }

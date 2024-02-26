@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=magni
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=iusto
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Shanahan, Watsica and Boehm",
-    "ToolTip": "Aspernatur recusandae quos dolor quam.",
-    "Deleted": false,
-    "Rank": 518,
-    "Type": "sit",
+    "Id": 249,
+    "Name": "Stokes-Macejkovic",
+    "ToolTip": "Laudantium ad perspiciatis quod pariatur corporis quos.",
+    "Deleted": true,
+    "Rank": 397,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Ward, Daugherty and Abernathy",
-        "ToolTip": "Qui sint molestiae nostrum possimus pariatur tenetur.",
-        "Deleted": true,
-        "Rank": 575,
-        "Type": "officia",
+        "Id": 959,
+        "Name": "Quigley, Gerlach and Roob",
+        "ToolTip": "In id suscipit commodi.",
+        "Deleted": false,
+        "Rank": 429,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 901,
-        "ExtraInfo": "beatae",
-        "StyleHint": "eum",
-        "FullName": "Rudy Lowe",
+        "IconHint": "reiciendis",
+        "ColorBlock": 681,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "sed",
+        "FullName": "Johnny Schoen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldLength": 540
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 535,
-    "ExtraInfo": "dolores",
-    "StyleHint": "fuga",
-    "FullName": "Miss Marlene Selina Kuhic II",
+    "IconHint": "qui",
+    "ColorBlock": 24,
+    "ExtraInfo": "eius",
+    "StyleHint": "distinctio",
+    "FullName": "Branson Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 792
       }
     }
   }

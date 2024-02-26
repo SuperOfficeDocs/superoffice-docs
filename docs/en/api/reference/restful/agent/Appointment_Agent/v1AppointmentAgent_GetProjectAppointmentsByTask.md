@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 82,
-  "StartTime": "2014-03-01T16:54:54.2262082+01:00",
-  "EndTime": "2022-03-21T16:54:54.2262082+01:00",
-  "Count": 171,
-  "TaskId": 161
+  "ProjectId": 539,
+  "StartTime": "2007-08-30T10:30:22.56302+02:00",
+  "EndTime": "1997-08-15T10:30:22.56302+02:00",
+  "Count": 895,
+  "TaskId": 312
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 932,
-    "StartDate": "2007-06-25T16:54:54.2272099+02:00",
-    "EndDate": "2020-07-11T16:54:54.2272099+02:00",
+    "AppointmentId": 558,
+    "StartDate": "2008-10-23T10:30:22.56302+02:00",
+    "EndDate": "2020-06-28T10:30:22.56302+02:00",
     "Type": "BookingForChecklist",
-    "Task": "perferendis",
-    "AssociateFullName": "Peggie Pollich",
-    "ContactName": "Romaguera Group",
-    "Description": "Synergistic explicit parallelism",
-    "PersonFullName": "Maximillia Price",
-    "PersonId": 637,
-    "ContactId": 128,
-    "ProjectId": 10,
-    "ProjectName": "Stehr-Rowe",
-    "IsPublished": false,
-    "AssociateId": 439,
-    "ColorIndex": 89,
+    "Task": "sit",
+    "AssociateFullName": "Angelina Nannie Bogan MD",
+    "ContactName": "Howell-Pollich",
+    "Description": "Advanced object-oriented website",
+    "PersonFullName": "Stan Wolf",
+    "PersonId": 277,
+    "ContactId": 881,
+    "ProjectId": 191,
+    "ProjectName": "Funk-Howell",
+    "IsPublished": true,
+    "AssociateId": 430,
+    "ColorIndex": 18,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 516,
-    "PriorityName": "Graham, Lebsack and Herman",
+    "PriorityId": 918,
+    "PriorityName": "Dooley-Kirlin",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2019-05-09T16:54:54.2272099+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2019-10-14T10:30:22.56302+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-05-04T16:54:54.2272099+02:00",
-    "RecurringEndDate": "2002-06-24T16:54:54.2272099+02:00",
-    "MotherId": 748,
-    "AssignedBy": 522,
-    "AssignedByFullName": "Catherine Reilly",
+    "RecurringStartDate": "2004-04-20T10:30:22.56302+02:00",
+    "RecurringEndDate": "2019-07-16T10:30:22.56302+02:00",
+    "MotherId": 229,
+    "AssignedBy": 281,
+    "AssignedByFullName": "Connie Crona",
     "RejectReason": "",
-    "Location": "inventore",
-    "AlarmLeadTime": "eaque",
-    "SaleId": 760,
-    "SaleName": "Marvin-Gleason",
-    "AssociateName": "Kling LLC",
-    "CreatedDate": "2016-12-11T16:54:54.2272099+01:00",
-    "CreatedBy": "culpa",
-    "CreatedByFullName": "Mrs. Roberta Schinner",
-    "CreatedByAssociateId": 118,
+    "Location": "fugit",
+    "AlarmLeadTime": "ea",
+    "SaleId": 303,
+    "SaleName": "Beahan-Glover",
+    "AssociateName": "Parisian Group",
+    "CreatedDate": "2023-10-23T10:30:22.56302+02:00",
+    "CreatedBy": "optio",
+    "CreatedByFullName": "Damien Denesik",
+    "CreatedByAssociateId": 65,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 659,
-    "Title": "ut",
-    "Agenda": "doloremque",
-    "InternalNotes": "fugiat",
+    "PreferredTZLocation": 167,
+    "Title": "eum",
+    "Agenda": "molestiae",
+    "InternalNotes": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 472
       }
     }
   }

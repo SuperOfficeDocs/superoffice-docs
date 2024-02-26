@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Schaefer-Mitchell",
-    "ToolTip": "Rerum fugit voluptas rerum ut porro tempore voluptas.",
+    "Id": 153,
+    "Name": "Yundt, Medhurst and Morar",
+    "ToolTip": "Ex ut laudantium.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "quos",
-    "ColorBlock": 788,
-    "IconHint": "porro",
+    "Rank": 741,
+    "Type": "eius",
+    "ColorBlock": 265,
+    "IconHint": "autem",
     "Selected": true,
-    "LastChanged": "2007-07-10T16:55:30.6182357+02:00",
+    "LastChanged": "1999-11-26T10:30:32.9430827+01:00",
     "ChildItems": [
       {
-        "Id": 654,
-        "Name": "Von-Lubowitz",
-        "ToolTip": "Autem in.",
-        "Deleted": true,
-        "Rank": 828,
-        "Type": "nihil",
-        "ColorBlock": 137,
-        "IconHint": "illo",
+        "Id": 939,
+        "Name": "Botsford Group",
+        "ToolTip": "Perferendis nihil unde quidem aut tempora dolore pariatur.",
+        "Deleted": false,
+        "Rank": 470,
+        "Type": "consectetur",
+        "ColorBlock": 905,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2007-09-09T16:55:30.6182357+02:00",
+        "LastChanged": "2001-12-31T10:30:32.9430827+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "dolor",
+        "ExtraInfo": "facilis",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Myra Burdette Crona IV"
+        "FullName": "Edwardo VonRueden Sr."
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Prof. Francisco Kihn"
+    "ExtraInfo": "eius",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Kendrick Johnston PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 969,
-    "Name": "McGlynn, Schuppe and Kuhn",
-    "ToolTip": "Ex doloribus consequatur eius qui amet.",
-    "Deleted": true,
-    "Rank": 489,
-    "Type": "quis",
-    "ColorBlock": 668,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2011-10-16T16:55:30.6202161+02:00",
+    "Id": 868,
+    "Name": "Gutmann Inc and Sons",
+    "ToolTip": "Libero adipisci animi fugit sed aut vitae.",
+    "Deleted": false,
+    "Rank": 467,
+    "Type": "natus",
+    "ColorBlock": 493,
+    "IconHint": "odio",
+    "Selected": true,
+    "LastChanged": "2004-02-04T10:30:32.9430827+01:00",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Auer LLC",
-        "ToolTip": "Sed aut aut fuga ipsum sunt omnis.",
-        "Deleted": true,
-        "Rank": 637,
-        "Type": "dolor",
-        "ColorBlock": 857,
-        "IconHint": "voluptas",
+        "Id": 460,
+        "Name": "Carter LLC",
+        "ToolTip": "Iste occaecati dolorum.",
+        "Deleted": false,
+        "Rank": 717,
+        "Type": "sunt",
+        "ColorBlock": 475,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2015-08-21T16:55:30.6202161+02:00",
+        "LastChanged": "1997-07-23T10:30:32.9430827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "modi",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Willard Smitham",
+        "FullName": "Beth Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldType": "System.String",
+            "FieldLength": 656
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Dr. Weldon Boyle",
+    "ExtraInfo": "soluta",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Dr. Moshe Hettinger Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 742
       }
     }
   }

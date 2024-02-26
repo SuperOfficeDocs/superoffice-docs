@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=eum
-GET /api/v1/Pricelist/{id}/Products?$top=634
-GET /api/v1/Pricelist/{id}/Products?$skip=526
+GET /api/v1/Pricelist/{id}/Products?$entities=consequuntur
+GET /api/v1/Pricelist/{id}/Products?$top=877
+GET /api/v1/Pricelist/{id}/Products?$skip=477
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=nesciunt
+GET /api/v1/Pricelist/{id}/Products?$context=voluptatem
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
-GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
+GET /api/v1/Pricelist/{id}/Products?$jsonSafe=True
 GET /api/v1/Pricelist/{id}/Products?$output=Display
 ```
 
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Pricelist/{id}/Products
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ducimus",
+  "odata.nextLink": "reprehenderit",
   "value": [
     {
-      "PrimaryKey": 4211,
+      "PrimaryKey": 6985,
       "EntityName": "sale",
-      "saleId": 4211,
-      "contactId": 7782,
-      "name": "Walter Group"
+      "saleId": 6985,
+      "contactId": 3819,
+      "name": "Kuvalis-Legros"
     },
     {
-      "PrimaryKey": 3977,
+      "PrimaryKey": 6282,
       "EntityName": "sale",
-      "saleId": 3977,
-      "contactId": 7584,
-      "name": "Bayer, Grimes and Rutherford"
+      "saleId": 6282,
+      "contactId": 5937,
+      "name": "Crooks, Kirlin and Koss"
     }
   ]
 }

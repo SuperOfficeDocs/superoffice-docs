@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 554,
-  "StartTime": "2003-10-01T16:54:54.242398+02:00",
-  "EndTime": "2002-06-18T16:54:54.242398+02:00",
-  "Count": 568,
+  "ContactId": 493,
+  "StartTime": "2003-08-30T10:30:22.5942688+02:00",
+  "EndTime": "2017-09-12T10:30:22.5942688+02:00",
+  "Count": 613,
   "TaskIds": [
-    379,
-    508
+    71,
+    680
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 938,
-    "StartDate": "2016-08-01T16:54:54.2433755+02:00",
-    "EndDate": "2007-02-17T16:54:54.2433755+01:00",
+    "AppointmentId": 892,
+    "StartDate": "2005-09-28T10:30:22.5942688+02:00",
+    "EndDate": "2006-05-26T10:30:22.5942688+02:00",
     "Type": "BookingForChecklist",
-    "Task": "alias",
-    "AssociateFullName": "Sven Morissette",
-    "ContactName": "Zemlak, Roberts and Lakin",
-    "Description": "Self-enabling fault-tolerant monitoring",
-    "PersonFullName": "Jayne Howell",
-    "PersonId": 98,
-    "ContactId": 132,
-    "ProjectId": 239,
-    "ProjectName": "Stamm, Bergstrom and Huel",
-    "IsPublished": true,
-    "AssociateId": 35,
-    "ColorIndex": 566,
+    "Task": "tempora",
+    "AssociateFullName": "Alia Streich",
+    "ContactName": "Reichert, Yost and Walsh",
+    "Description": "Optimized exuding conglomeration",
+    "PersonFullName": "Mrs. Ethelyn Kiehn",
+    "PersonId": 717,
+    "ContactId": 733,
+    "ProjectId": 455,
+    "ProjectName": "Borer-Daugherty",
+    "IsPublished": false,
+    "AssociateId": 913,
+    "ColorIndex": 588,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 973,
-    "PriorityName": "Altenwerth Group",
+    "PriorityId": 170,
+    "PriorityName": "Hilpert Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "1999-03-14T16:54:54.2433755+01:00",
+    "ActiveDate": "2003-08-23T10:30:22.5942688+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-05-31T16:54:54.2433755+02:00",
-    "RecurringEndDate": "2002-12-17T16:54:54.2433755+01:00",
-    "MotherId": 745,
-    "AssignedBy": 23,
-    "AssignedByFullName": "Margret Schimmel",
-    "RejectReason": "",
-    "Location": "facere",
-    "AlarmLeadTime": "suscipit",
-    "SaleId": 218,
-    "SaleName": "Windler-Koch",
-    "AssociateName": "Marks Inc and Sons",
-    "CreatedDate": "2020-11-29T16:54:54.2433755+01:00",
-    "CreatedBy": "praesentium",
-    "CreatedByFullName": "Prof. London Vandervort III",
-    "CreatedByAssociateId": 379,
+    "RecurringStartDate": "2002-05-27T10:30:22.5942688+02:00",
+    "RecurringEndDate": "2010-01-14T10:30:22.5942688+01:00",
+    "MotherId": 53,
+    "AssignedBy": 525,
+    "AssignedByFullName": "Dr. Stacy Yundt",
+    "RejectReason": "drive wireless supply-chains",
+    "Location": "autem",
+    "AlarmLeadTime": "perferendis",
+    "SaleId": 69,
+    "SaleName": "Boyle-Ortiz",
+    "AssociateName": "Mohr Group",
+    "CreatedDate": "2002-04-17T10:30:22.5942688+02:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Lisa Rosenbaum",
+    "CreatedByAssociateId": 736,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 466,
-    "Title": "et",
-    "Agenda": "porro",
-    "InternalNotes": "tempora",
+    "PreferredTZLocation": 627,
+    "Title": "dolor",
+    "Agenda": "doloremque",
+    "InternalNotes": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 150
       }
     }
   }

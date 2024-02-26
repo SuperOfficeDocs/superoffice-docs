@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 614,
-    "ParentId": 383,
-    "Name": "Effertz Group",
-    "Fullname": "est",
-    "CategoryMaster": 616,
+    "TicketCategoryId": 450,
+    "ParentId": 173,
+    "Name": "Boyle, Windler and Kuhic",
+    "Fullname": "autem",
+    "CategoryMaster": 140,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Jacobson-Russel",
+    "ExternalName": "Schaefer, Bernhard and Hyatt",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 277,
-    "ReplyTemplate": 417,
-    "NotificationEmail": "oma.hermiston@thompsonharris.com",
+    "AssignmentLag": 279,
+    "ReplyTemplate": 962,
+    "NotificationEmail": "izaiah@blickmcglynn.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 892,
+    "EffectiveReplyTemplateId": 893,
     "ExtraFields": {
       "ExtraFields1": "voluptatem",
-      "ExtraFields2": "maxime"
+      "ExtraFields2": "adipisci"
     },
     "CustomFields": {
-      "CustomFields1": "voluptatibus",
-      "CustomFields2": "voluptates"
+      "CustomFields1": "natus",
+      "CustomFields2": "esse"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 527
       }
     }
   }

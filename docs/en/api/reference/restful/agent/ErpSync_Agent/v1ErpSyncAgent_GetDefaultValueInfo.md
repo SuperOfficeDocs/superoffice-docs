@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 400
+  "ErpFieldId": 585
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 123,
-  "DefaultValue": "cumque",
+  "ErpFieldId": 472,
+  "DefaultValue": "eveniet",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "ducimus",
+  "FirstSyncDefaultValue": "repudiandae",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "aut",
+  "ErpFieldKey": "consequuntur",
   "FieldType": "Checkbox",
-  "ListName": "Pacocha Inc and Sons",
+  "ListName": "Reichel, Quitzon and Gibson",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 642
     }
   }
 }

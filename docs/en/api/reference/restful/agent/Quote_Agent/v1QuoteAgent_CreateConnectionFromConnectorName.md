@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Fay-Ernser"
+  "ConnectorName": "Nader LLC"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 489,
-  "ERPName": "Hoppe-Legros",
-  "DisplayName": "Satterfield-Stark",
-  "DisplayDescription": "Synergistic mobile initiative",
-  "Rank": 11,
-  "ConnectorName": "Ledner-Konopelski",
-  "ErpConnectionId": 202,
-  "ExtraData": "dolorem",
+  "QuoteConnectionId": 218,
+  "ERPName": "Cole, VonRueden and Bergstrom",
+  "DisplayName": "Bernhard LLC",
+  "DisplayDescription": "Self-enabling needs-based software",
+  "Rank": 629,
+  "ConnectorName": "Wyman LLC",
+  "ErpConnectionId": 819,
+  "ExtraData": "autem",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 510,
-      "ERPPriceListKey": "eum",
-      "QuoteConnectionId": 818,
-      "Name": "Legros LLC",
-      "Description": "Pre-emptive radical process improvement",
-      "Currency": "a",
-      "CurrencyName": "Goyette LLC",
-      "ValidFrom": "2012-10-01T16:54:56.1371405+02:00",
-      "ValidTo": "2009-05-23T16:54:56.1371405+02:00",
+      "PriceListId": 992,
+      "ERPPriceListKey": "quibusdam",
+      "QuoteConnectionId": 706,
+      "Name": "Connelly, Little and Von",
+      "Description": "Realigned secondary conglomeration",
+      "Currency": "omnis",
+      "CurrencyName": "Wisoky Group",
+      "ValidFrom": "2020-04-06T10:30:24.4190067+02:00",
+      "ValidTo": "2009-09-25T10:30:24.4190067+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": false,
+  "AllAccess": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    840,
-    906
+    789,
+    1002
   ],
   "AssociateAccessIds": [
-    90,
-    667
+    129,
+    282
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldType": "System.String",
+      "FieldLength": 311
     }
   }
 }

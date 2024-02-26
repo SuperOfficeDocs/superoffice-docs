@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellat",
+    "path": "atque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellat",
+    "path": "atque",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 352,
-  "TopicId": 384,
+  "ChatSessionId": 442,
+  "TopicId": 933,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "quibusdam",
-  "CustomerName": "Bergstrom, Nader and Tillman",
-  "CustomerEmail": "trenton_bogisich@christiansen.co.uk",
-  "CustomerPhone": "110.874.4671 x731",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Brown Group",
+  "CustomerAlias": "voluptatum",
+  "CustomerHost": "magnam",
+  "CustomerName": "Bradtke, Osinski and Gerhold",
+  "CustomerEmail": "velma@mueller.co.uk",
+  "CustomerPhone": "(131)099-2185 x55331",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Eichmann-Gibson",
   "Status": "Closed",
-  "FirstMessage": "perferendis",
-  "LastMessage": "aliquid",
-  "WhenRequested": "2014-05-05T16:55:29.2696215+02:00",
-  "WhenStarted": "2012-02-01T16:55:29.2696215+01:00",
-  "WhenEnded": "2017-02-06T16:55:29.2696215+01:00",
-  "WhenIdle": "2010-11-29T16:55:29.2696215+01:00",
-  "WhenFetched": "2006-08-09T16:55:29.2696215+02:00",
-  "SessionKey": "corrupti",
-  "InitialQueuePos": 167,
-  "AlertLevel": 627,
-  "Rank": 380,
+  "FirstMessage": "ut",
+  "LastMessage": "explicabo",
+  "WhenRequested": "2007-05-11T10:30:31.7437351+02:00",
+  "WhenStarted": "2004-07-04T10:30:31.7437351+02:00",
+  "WhenEnded": "2022-09-30T10:30:31.7437351+02:00",
+  "WhenIdle": "2007-04-16T10:30:31.7437351+02:00",
+  "WhenFetched": "2008-09-27T10:30:31.7437351+02:00",
+  "SessionKey": "eveniet",
+  "InitialQueuePos": 650,
+  "AlertLevel": 643,
+  "Rank": 68,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 509,
+  "Rating": 761,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldType": "System.String",
+      "FieldLength": 650
     }
   },
   "_Links": {

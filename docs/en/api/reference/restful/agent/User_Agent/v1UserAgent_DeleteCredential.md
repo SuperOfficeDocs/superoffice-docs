@@ -75,8 +75,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 124,
-  "CredentialType": "dolor"
+  "UserId": 826,
+  "CredentialType": "qui"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

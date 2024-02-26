@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hermiston, VonRueden and Feil",
-  "DeviceName": "Yost Inc and Sons",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Gleason, Waelchi and O'Hara",
+  "DeviceName": "Walker, Witting and Bayer",
+  "DeviceIdentifier": "magnam"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 322,
-  "Name": "Lueilwitz LLC",
-  "CreatedDate": "2003-05-11T16:54:55.482468+02:00",
-  "UpdatedDate": "1997-04-27T16:54:55.482468+02:00",
-  "AssociateFullName": "Waldo Bashirian",
-  "CreatedBy": "dolorum",
-  "UpdatedBy": "atque",
-  "DeviceIdentifier": "libero",
-  "ForeignAppId": 680,
+  "ForeignDeviceId": 966,
+  "Name": "Christiansen-Bashirian",
+  "CreatedDate": "2002-07-19T10:30:23.9073938+02:00",
+  "UpdatedDate": "2001-06-05T10:30:23.9073938+02:00",
+  "AssociateFullName": "Sallie Hegmann",
+  "CreatedBy": "est",
+  "UpdatedBy": "commodi",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 811,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

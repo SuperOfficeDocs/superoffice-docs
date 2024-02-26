@@ -17,6 +17,15 @@ Contents of the list are based on the display_field for the table
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ExtraTableDropdownProvider">ExtraTableDropdownProvider</see> class.
 The name of the MDO list is 'y_equipment'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Create hierarchical dropdown.| hierarchy|False|
+|Use name from a display field. Otherwise, if it's setup, a name from full name field will be used.| shortNames|False|
+|Show all custom table dropdown values immediately. If not, no values will be shown until a search is executed.| useDropDown|False|
+
+
 
 
 

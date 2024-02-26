@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "ratione",
-      "HTMLBody": "id",
+      "Subject": "odit",
+      "HTMLBody": "accusamus",
       "From": null,
-      "Sent": "2012-01-06T16:54:55.2964193+01:00",
-      "Size": 66,
+      "Sent": "2001-03-24T10:30:23.7199314+01:00",
+      "Size": 750,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "maxime",
-      "PlainBody": "provident",
+      "MessageID": "a",
+      "PlainBody": "architecto",
       "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 436,
+      "ServerId": 282,
       "Attachments": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Jaskolski, Ryan and Harber",
-      "EmailItemId": 560,
-      "AccountId": 64,
-      "ReceivedAt": "2021-12-12T16:54:55.2964193+01:00",
+      "FolderName": "Satterfield-Jacobi",
+      "EmailItemId": 782,
+      "AccountId": 640,
+      "ReceivedAt": "2005-11-18T10:30:23.7199314+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2016-12-27T16:54:55.2964193+01:00",
-      "HasCalendarData": false,
+      "RepliedAt": "2020-03-22T10:30:23.7199314+01:00",
+      "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -162,147 +162,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 1002,
-        "ContactName": "Denesik Inc and Sons",
-        "PersonId": 459,
-        "PersonName": "Hickle Group",
-        "AssociateId": 830,
-        "Address": "incidunt",
-        "EmailId": 346,
+        "ContactId": 225,
+        "ContactName": "Padberg LLC",
+        "PersonId": 441,
+        "PersonName": "Raynor, Hermann and Quigley",
+        "AssociateId": 892,
+        "Address": "officia",
+        "EmailId": 466,
         "DuplicatePersonIds": [
-          504,
-          706
+          709,
+          190
         ],
-        "Name": "Carter Inc and Sons",
+        "Name": "Roberts LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 755
+            "FieldType": "System.Int32",
+            "FieldLength": 596
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 247,
-        "ContactName": "Sporer, O'Reilly and Wyman",
-        "PersonId": 660,
-        "PersonName": "Stokes, Jacobs and Marks",
-        "AssociateId": 880,
-        "Address": "hic",
-        "EmailId": 135,
+        "ContactId": 908,
+        "ContactName": "Lemke Group",
+        "PersonId": 983,
+        "PersonName": "Torp, Pollich and Zemlak",
+        "AssociateId": 854,
+        "Address": "nobis",
+        "EmailId": 858,
         "DuplicatePersonIds": [
-          699,
-          761
+          393,
+          9
         ],
-        "Name": "Rutherford-Bergnaum",
+        "Name": "O'Kon Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 290
+            "FieldType": "System.String",
+            "FieldLength": 192
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 940,
-        "ContactName": "Hane LLC",
-        "PersonId": 137,
-        "PersonName": "Bins, Schroeder and Franecki",
-        "AssociateId": 434,
-        "Address": "est",
-        "EmailId": 209,
+        "ContactId": 977,
+        "ContactName": "Koss-Kohler",
+        "PersonId": 354,
+        "PersonName": "Farrell LLC",
+        "AssociateId": 23,
+        "Address": "libero",
+        "EmailId": 68,
         "DuplicatePersonIds": [
-          579,
-          658
+          529,
+          346
         ],
-        "Name": "Mayer, Klein and Leuschke",
+        "Name": "Wuckert, Mante and Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 498
+            "FieldType": "System.Int32",
+            "FieldLength": 571
           }
         }
       }
     ],
-    "Subject": "aut",
-    "HTMLBody": "labore",
+    "Subject": "quisquam",
+    "HTMLBody": "aspernatur",
     "From": null,
-    "Sent": "2007-08-07T16:54:55.2984192+02:00",
-    "Size": 880,
+    "Sent": "2008-10-06T10:30:23.7355582+02:00",
+    "Size": 209,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "pariatur",
-    "PlainBody": "rerum",
-    "IsSent": false,
+    "MessageID": "accusantium",
+    "PlainBody": "sint",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 987,
+    "ServerId": 339,
     "Attachments": [
       {
-        "Description": "Versatile client-server moderator",
+        "Description": "Synergistic dedicated core",
         "Filename": "sint",
-        "Size": 544,
-        "Type": "laboriosam",
+        "Size": 906,
+        "Type": "labore",
         "Encoding": "et",
-        "Id": "velit",
-        "Disposition": "quia",
+        "Id": "amet",
+        "Disposition": "enim",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 171
+            "FieldType": "System.Int32",
+            "FieldLength": 795
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Koss, Gerlach and Blick",
+        "Name": "Considine LLC",
         "Values": [
-          "culpa",
-          "facere"
+          "odit",
+          "harum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 217
+            "FieldType": "System.String",
+            "FieldLength": 256
           }
         }
       },
       {
-        "Name": "Koss, Gerlach and Blick",
+        "Name": "Considine LLC",
         "Values": [
-          "culpa",
-          "facere"
+          "odit",
+          "harum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 217
+            "FieldType": "System.String",
+            "FieldLength": 256
           }
         }
       }
     ],
-    "FolderName": "McKenzie-Kshlerin",
-    "EmailItemId": 671,
-    "AccountId": 55,
-    "ReceivedAt": "2015-07-06T16:54:55.2994192+02:00",
+    "FolderName": "Koepp, Zulauf and Gulgowski",
+    "EmailItemId": 481,
+    "AccountId": 512,
+    "ReceivedAt": "2002-04-29T10:30:23.7355582+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2016-08-28T16:54:55.2994192+02:00",
+    "RepliedAt": "2017-04-19T10:30:23.7355582+02:00",
     "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -310,8 +310,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 266
       }
     }
   }

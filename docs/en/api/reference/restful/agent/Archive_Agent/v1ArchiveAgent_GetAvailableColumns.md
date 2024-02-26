@@ -90,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Brown, O'Connell and Homenick",
-  "Context": "maiores"
+  "ProviderName": "Casper Inc and Sons",
+  "Context": "magni"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kub Group",
-    "DisplayTooltip": "enim",
-    "DisplayType": "sed",
+    "DisplayName": "Stoltenberg-Powlowski",
+    "DisplayTooltip": "doloremque",
+    "DisplayType": "doloribus",
     "CanOrderBy": false,
-    "Name": "Zboncak, Quigley and Mitchell",
-    "CanRestrictBy": false,
-    "RestrictionType": "odio",
-    "RestrictionListName": "Wolff, Fahey and Volkman",
-    "IsVisible": false,
-    "ExtraInfo": "qui",
-    "Width": "incidunt",
-    "IconHint": "ut",
-    "HeadingIconHint": "quaerat"
+    "Name": "Johnston-Rogahn",
+    "CanRestrictBy": true,
+    "RestrictionType": "maiores",
+    "RestrictionListName": "Dicki LLC",
+    "IsVisible": true,
+    "ExtraInfo": "quod",
+    "Width": "nisi",
+    "IconHint": "maiores",
+    "HeadingIconHint": "et"
   }
 ]
 ```

@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 290,
+  "QuoteVersionId": 713,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 940
+  "CountryId": 796
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 11818.314,
-  "Wgs84Longitude": 21029.14,
+  "Wgs84Latitude": 27745.302,
+  "Wgs84Longitude": 25375.998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Trantow Inc and Sons",
-        "Value": "quo",
-        "Tooltip": "ea",
-        "Label": "aut",
-        "ValueLength": 784,
-        "AddressType": "et",
+        "Name": "Lindgren-Miller",
+        "Value": "saepe",
+        "Tooltip": "dolorem",
+        "Label": "excepturi",
+        "ValueLength": 680,
+        "AddressType": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 351
+            "FieldType": "System.String",
+            "FieldLength": 208
           }
         }
       }
     ],
     [
       {
-        "Name": "Paucek-Pagac",
-        "Value": "quasi",
-        "Tooltip": "suscipit",
-        "Label": "nemo",
-        "ValueLength": 254,
-        "AddressType": "amet",
+        "Name": "Powlowski-Beahan",
+        "Value": "non",
+        "Tooltip": "vero",
+        "Label": "doloremque",
+        "ValueLength": 897,
+        "AddressType": "dicta",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 560
+            "FieldType": "System.Int32",
+            "FieldLength": 940
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "cum",
+  "Formatted": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 711
     }
   }
 }

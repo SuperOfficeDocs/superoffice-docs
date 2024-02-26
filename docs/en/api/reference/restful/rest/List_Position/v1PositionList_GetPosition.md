@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Lueilwitz Group",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "UdListDefinitionId": 868,
-  "Rank": 122,
+  "Id": 95,
+  "Name": "Kling LLC",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 749,
+  "Rank": 625,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldType": "System.String",
+      "FieldLength": 508
     }
   }
 }

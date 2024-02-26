@@ -56,6 +56,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -75,19 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 925,
-  "Name": "Hauck Inc and Sons",
-  "ContentType": "dicta",
-  "AttSize": 932,
-  "InlineImage": true,
-  "ContentId": "amet",
-  "AuthKey": "ea",
+  "AttachmentId": 899,
+  "Name": "Hayes LLC",
+  "ContentType": "hic",
+  "AttSize": 781,
+  "InlineImage": false,
+  "ContentId": "est",
+  "AuthKey": "accusantium",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 54
     }
   }
 }

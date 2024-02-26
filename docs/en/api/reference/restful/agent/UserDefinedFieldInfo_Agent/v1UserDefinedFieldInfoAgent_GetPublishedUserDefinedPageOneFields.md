@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 313
+  "UserGroupId": 516
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 528,
-    "ColumnId": 152,
-    "FieldDefault": "non",
-    "FieldHeight": 927,
-    "FieldLabel": "voluptatem",
-    "FieldLeft": 294,
-    "FieldTop": 155,
+    "UDefFieldId": 212,
+    "ColumnId": 135,
+    "FieldDefault": "dolor",
+    "FieldHeight": 214,
+    "FieldLabel": "sed",
+    "FieldLeft": 36,
+    "FieldTop": 550,
     "FieldType": "Checkbox",
-    "FieldWidth": 456,
-    "FormatMask": "magni",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 793,
-    "LabelLeft": 199,
-    "LabelTop": 803,
-    "LabelWidth": 849,
-    "LastVersionId": 672,
-    "ListTableId": 26,
+    "FieldWidth": 819,
+    "FormatMask": "repellendus",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 461,
+    "LabelLeft": 611,
+    "LabelTop": 32,
+    "LabelWidth": 271,
+    "LastVersionId": 992,
+    "ListTableId": 740,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 519,
-    "ProgId": "reiciendis",
+    "Page1LineNo": 554,
+    "ProgId": "beatae",
     "IsReadOnly": false,
-    "ShortLabel": "enim",
-    "TabOrder": 563,
-    "TextLength": 275,
-    "Tooltip": "officiis",
-    "UdefIdentity": 598,
-    "UDListDefinitionId": 946,
+    "ShortLabel": "libero",
+    "TabOrder": 504,
+    "TextLength": 350,
+    "Tooltip": "expedita",
+    "UdefIdentity": 60,
+    "UDListDefinitionId": 568,
     "Justification": "Center",
-    "Version": 449,
-    "TemplateVariableName": "Hermann-Gorczany",
-    "HasBeenPublished": true,
-    "MdoListName": "Reilly-Reynolds",
+    "Version": 751,
+    "TemplateVariableName": "Homenick-Jenkins",
+    "HasBeenPublished": false,
+    "MdoListName": "Powlowski Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldLength": 81
       }
     }
   }

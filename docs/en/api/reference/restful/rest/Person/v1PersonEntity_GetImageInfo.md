@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Nov 2009 16:55:29 G11T
+Last-Modified: Fri, 28 Sep 2018 10:30:32 G9T
 
 {
-  "BlobId": 224,
-  "BlobSize": 943,
-  "Description": "Versatile hybrid initiative",
-  "ExtraInfo": "dolorem",
+  "BlobId": 661,
+  "BlobSize": 524,
+  "Description": "Managed context-sensitive emulation",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 400,
-  "CreatedDate": "2001-09-22T16:55:29.9145433+02:00",
-  "UpdatedDate": "2009-11-26T16:55:29.9145433+01:00",
+  "MimeType": "eveniet",
+  "OriginalSize": 998,
+  "CreatedDate": "2019-08-28T10:30:32.1980491+02:00",
+  "UpdatedDate": "2018-09-28T10:30:32.1980491+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "magnam",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldType": "System.String",
+      "FieldLength": 329
     }
   }
 }

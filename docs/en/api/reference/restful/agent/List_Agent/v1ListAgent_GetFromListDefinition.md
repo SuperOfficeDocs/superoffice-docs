@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "UdListDefinitionId": 327
+  "Id": 404,
+  "UdListDefinitionId": 817
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253,
-  "Name": "Upton-Williamson",
-  "Tooltip": "magnam",
+  "Id": 359,
+  "Name": "Kris, Turcotte and Cummings",
+  "Tooltip": "ex",
   "Deleted": false,
-  "UdListDefinitionId": 682,
-  "Rank": 414,
+  "UdListDefinitionId": 718,
+  "Rank": 861,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 622
     }
   }
 }

@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 485,
-    "Section": "consectetur",
-    "Key": "quia",
-    "Name": "Gislason, Fay and Friesen",
+    "PrefDescId": 502,
+    "Section": "sed",
+    "Key": "odio",
+    "Name": "Jast Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Synergistic systematic Graphical User Interface",
-    "IsBuiltin": false,
-    "TableName": "Boyer Group",
-    "UserDefinedListId": 305,
-    "Rank": 654,
-    "SubGroup": "omnis",
-    "MinLevel": 788,
-    "MaxValue": 406,
-    "MinValue": 819,
-    "RequiredLicense": "et",
+    "Description": "Open-source fault-tolerant hub",
+    "IsBuiltin": true,
+    "TableName": "Hoppe-Hegmann",
+    "UserDefinedListId": 556,
+    "Rank": 274,
+    "SubGroup": "velit",
+    "MinLevel": 265,
+    "MaxValue": 617,
+    "MinValue": 303,
+    "RequiredLicense": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldType": "System.String",
+        "FieldLength": 756
       }
     }
   }

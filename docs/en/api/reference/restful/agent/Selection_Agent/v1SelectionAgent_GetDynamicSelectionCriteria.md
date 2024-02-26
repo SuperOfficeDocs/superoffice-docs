@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 310
+  "SelectionId": 673
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Armstrong, Daniel and Miller",
-    "Operator": "soluta",
+    "Name": "Hahn-Howell",
+    "Operator": "autem",
     "Values": [
-      "cumque",
-      "ipsa"
+      "reprehenderit",
+      "et"
     ],
     "DisplayValues": [
-      "alias",
-      "natus"
+      "dolorem",
+      "eaque"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Fahey Group",
-        "Operator": "in",
+        "Name": "Steuber LLC",
+        "Operator": "et",
         "Values": [
-          "sequi",
-          "hic"
+          "omnis",
+          "quaerat"
         ],
         "DisplayValues": [
-          "tempora",
-          "labore"
+          "quam",
+          "incidunt"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 433,
+        "InterParenthesis": 921,
         "InterOperator": "And",
-        "UniqueHash": 964
+        "UniqueHash": 899
       }
     ],
-    "InterParenthesis": 631,
+    "InterParenthesis": 935,
     "InterOperator": "And",
-    "UniqueHash": 745
+    "UniqueHash": 960
   }
 ]
 ```

@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 849,
-  "Name": "Hackett Inc and Sons",
-  "Tooltip": "alias",
+  "HeadingId": 341,
+  "Name": "Rohan Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 84,
-  "UdListDefinitionId": 532
+  "Rank": 869,
+  "UdListDefinitionId": 68
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 811,
-  "Name": "Hauck Group",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 63,
-  "UdListDefinitionId": 758,
+  "HeadingId": 392,
+  "Name": "Hoeger Group",
+  "Tooltip": "consectetur",
+  "Deleted": false,
+  "Rank": 193,
+  "UdListDefinitionId": 421,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 531
     }
   }
 }

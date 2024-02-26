@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 826,
-    "Name": "Fadel, Waelchi and Mosciski",
-    "Tooltip": "corrupti",
-    "Deleted": true,
-    "Rank": 983,
-    "UdListDefinitionId": 852
+    "HeadingId": 188,
+    "Name": "Hessel, Ebert and Mayer",
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "Rank": 481,
+    "UdListDefinitionId": 90
   },
   {
-    "HeadingId": 826,
-    "Name": "Fadel, Waelchi and Mosciski",
-    "Tooltip": "corrupti",
-    "Deleted": true,
-    "Rank": 983,
-    "UdListDefinitionId": 852
+    "HeadingId": 188,
+    "Name": "Hessel, Ebert and Mayer",
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "Rank": 481,
+    "UdListDefinitionId": 90
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "Lindgren-Gutkowski",
-    "Tooltip": "nesciunt",
-    "Deleted": true,
-    "Rank": 24,
-    "UdListDefinitionId": 902,
+    "HeadingId": 982,
+    "Name": "Stamm-Jones",
+    "Tooltip": "voluptates",
+    "Deleted": false,
+    "Rank": 396,
+    "UdListDefinitionId": 601,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 323
       }
     }
   }

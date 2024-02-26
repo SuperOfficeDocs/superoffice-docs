@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptByString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "commodi",
+  "Script": "voluptatem",
   "Parameters": {
-    "Parameters1": "dolor",
-    "Parameters2": "recusandae"
+    "Parameters1": "voluptas",
+    "Parameters2": "dolorem"
   },
   "EventData": null
 }
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "ut",
+  "Output": "debitis",
   "Parameters": {
-    "Parameters1": "libero",
-    "Parameters2": "iste"
+    "Parameters1": "molestiae",
+    "Parameters2": "est"
   },
   "TraceRun": null,
   "Eventdata": null,
-  "Success": false,
+  "Success": true,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldLength": 682
     }
   }
 }

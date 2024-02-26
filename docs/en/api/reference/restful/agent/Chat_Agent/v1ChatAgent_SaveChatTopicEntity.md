@@ -123,25 +123,25 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 907,
-  "Name": "Nolan LLC",
-  "Description": "Right-sized 24 hour moderator",
-  "WelcomeMessage": "animi",
+  "ChatTopicId": 45,
+  "Name": "Nienow-Maggio",
+  "Description": "Re-contextualized optimizing firmware",
+  "WelcomeMessage": "accusamus",
   "Language": null,
-  "LastAccept": "2003-03-25T16:54:54.6608197+01:00",
-  "SecondsPrAccept": 12,
-  "AlertRecipient": "hic",
+  "LastAccept": "2007-09-09T10:30:23.1451766+02:00",
+  "SecondsPrAccept": 588,
+  "AlertRecipient": "laboriosam",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "sit",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "suscipit",
-  "WarnNewChatMinutes": 143,
-  "WarnManagerNewChatMinutes": 186,
+  "CollectConsent": true,
+  "BadgeHeader": "tempora",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "nobis",
+  "WarnNewChatMinutes": 731,
+  "WarnManagerNewChatMinutes": 976,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 640,
-  "WarnManagerChatMessageMinutes": 500,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 991,
+  "WarnManagerChatMessageMinutes": 19,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 854,
-  "OfflineFormQueueLength": 712,
+  "OfflineFormTimeLimit": 984,
+  "OfflineFormQueueLength": 382,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "quas"
+  "WidgetRatingText": "aut"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 259,
-  "Name": "Pouros-Luettgen",
-  "Description": "Open-source web-enabled intranet",
-  "WelcomeMessage": "reprehenderit",
+  "ChatTopicId": 602,
+  "Name": "Klocko Inc and Sons",
+  "Description": "Fundamental maximized installation",
+  "WelcomeMessage": "voluptatum",
   "Language": null,
-  "LastAccept": "2023-06-29T16:54:54.6628204+02:00",
-  "SecondsPrAccept": 863,
-  "AlertRecipient": "aut",
+  "LastAccept": "2021-06-01T10:30:23.1451766+02:00",
+  "SecondsPrAccept": 298,
+  "AlertRecipient": "eum",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "ad",
+  "BadgeHeader": "perferendis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sint",
-  "WarnNewChatMinutes": 504,
-  "WarnManagerNewChatMinutes": 528,
+  "CustomQueueText": "impedit",
+  "WarnNewChatMinutes": 18,
+  "WarnManagerNewChatMinutes": 363,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 709,
-  "WarnManagerChatMessageMinutes": 306,
+  "WarnChatMessageMinutes": 456,
+  "WarnManagerChatMessageMinutes": 737,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 454,
-  "OfflineFormQueueLength": 591,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "numquam",
+  "OfflineFormTimeLimit": 210,
+  "OfflineFormQueueLength": 91,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

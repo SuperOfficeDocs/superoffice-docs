@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Marquardt, Ondricka and Nolan",
-    "Tooltip": "pariatur",
+    "Id": 119,
+    "Name": "Kovacek Inc and Sons",
+    "Tooltip": "vero",
     "Deleted": false,
-    "UdListDefinitionId": 877,
-    "Rank": 570,
+    "UdListDefinitionId": 153,
+    "Rank": 564,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 170
       }
     }
   }

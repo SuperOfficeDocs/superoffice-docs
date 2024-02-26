@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "cumque",
-  "IsoLangCode": "rerum",
-  "UserPrompt": "est",
-  "DisplayValue": "error",
+  "ChatId": "eligendi",
+  "IsoLangCode": "ut",
+  "UserPrompt": "culpa",
+  "DisplayValue": "consequatur",
   "PreviousTurns": [
     {
-      "Timestamp": "2020-12-18T16:54:54.1812787+01:00",
-      "UserPrompt": "et",
-      "UserDisplayText": "sed",
-      "BotResponse": "corrupti",
+      "Timestamp": "2010-05-22T10:30:22.5161441+02:00",
+      "UserPrompt": "laborum",
+      "UserDisplayText": "suscipit",
+      "BotResponse": "voluptas",
       "BotActions": {
-        "BotActions1": "provident",
-        "BotActions2": "non"
+        "BotActions1": "illo",
+        "BotActions2": "est"
       },
       "Attachments": [
-        "maiores",
-        "cupiditate"
+        "similique",
+        "sed"
       ]
     },
     {
-      "Timestamp": "2020-12-18T16:54:54.1812787+01:00",
-      "UserPrompt": "et",
-      "UserDisplayText": "sed",
-      "BotResponse": "corrupti",
+      "Timestamp": "2010-05-22T10:30:22.5161441+02:00",
+      "UserPrompt": "laborum",
+      "UserDisplayText": "suscipit",
+      "BotResponse": "voluptas",
       "BotActions": {
-        "BotActions1": "provident",
-        "BotActions2": "non"
+        "BotActions1": "illo",
+        "BotActions2": "est"
       },
       "Attachments": [
-        "maiores",
-        "cupiditate"
+        "similique",
+        "sed"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2018-01-14T16:54:54.1831886+01:00",
-  "UserPrompt": "repellendus",
-  "UserDisplayText": "non",
-  "BotResponse": "vel",
+  "Timestamp": "2008-07-13T10:30:22.5161441+02:00",
+  "UserPrompt": "voluptatem",
+  "UserDisplayText": "id",
+  "BotResponse": "cumque",
   "BotActions": {
-    "BotActions1": "sint",
-    "BotActions2": "minus"
+    "BotActions1": "quia",
+    "BotActions2": "corporis"
   },
   "Attachments": [
-    "minus",
-    "qui"
+    "architecto",
+    "est"
   ]
 }
 ```

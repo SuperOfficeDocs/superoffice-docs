@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 616
+  "PersonId": 530
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 81,
-  "Name": "Witting, Haag and Kub",
-  "PersonId": 841,
-  "Rank": 989,
-  "Tooltip": "explicabo",
+  "AssociateId": 406,
+  "Name": "Dach Group",
+  "PersonId": 32,
+  "Rank": 843,
+  "Tooltip": "voluptatem",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 37,
-  "FullName": "Nickolas Micah Hudson PhD",
-  "FormalName": "Hoppe, Smith and Schulist",
-  "Deleted": false,
-  "EjUserId": 53,
-  "UserName": "Will LLC",
+  "GroupIdx": 715,
+  "FullName": "Prof. Alek Mosciski Jr.",
+  "FormalName": "Hagenes-Lowe",
+  "Deleted": true,
+  "EjUserId": 209,
+  "UserName": "Schmidt Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   }
 }

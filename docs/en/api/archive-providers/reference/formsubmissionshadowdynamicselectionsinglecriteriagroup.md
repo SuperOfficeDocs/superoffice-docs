@@ -463,7 +463,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=person/personNoMail,person/personAddress/line3,person/personAddress/formattedAddress,person/restrictionAddress/county,person/correspondingAssociate/contactFullName
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=associate/otherGroups,person/personExtra/x_person_timespan,person/correspondingAssociate/assocTooltip,person/correspondingAssociate/isActiveText,person/legalBaseEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

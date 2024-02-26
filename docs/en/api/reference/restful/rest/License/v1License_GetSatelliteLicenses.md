@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Maggio Inc and Sons",
-    "Description": "Exclusive motivating protocol",
+    "Name": "Leffler Inc and Sons",
+    "Description": "User-centric non-volatile monitoring",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 750,
-        "Tooltip": "quod",
+        "Unrestricted": true,
+        "Total": 18,
+        "Tooltip": "nostrum",
         "CanAssign": false,
-        "Free": 555,
-        "InUse": 536,
+        "Free": 849,
+        "InUse": 256,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 691,
-        "Name": "Murphy-Cruickshank",
-        "Description": "Assimilated 24 hour flexibility",
-        "PrerequisiteModuleName": "Hudson Group",
-        "SortOrder": 195,
-        "ExtraFlags": 96,
+        "ModuleLicenseId": 222,
+        "Name": "Lehner, Harris and Kemmer",
+        "Description": "Streamlined 24/7 definition",
+        "PrerequisiteModuleName": "Goodwin-Rohan",
+        "SortOrder": 756,
+        "ExtraFlags": 390,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 700
+            "FieldLength": 483
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 699,
-        "Tooltip": "hic",
-        "CanAssign": true,
-        "Free": 56,
-        "InUse": 243,
+        "Unrestricted": false,
+        "Total": 545,
+        "Tooltip": "distinctio",
+        "CanAssign": false,
+        "Free": 348,
+        "InUse": 111,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 142,
-        "Name": "Heathcote LLC",
-        "Description": "Centralized multi-tasking local area network",
-        "PrerequisiteModuleName": "Heidenreich, Wuckert and Franecki",
-        "SortOrder": 990,
-        "ExtraFlags": 532,
+        "ModuleLicenseId": 531,
+        "Name": "Ebert-Kuhn",
+        "Description": "Innovative intermediate framework",
+        "PrerequisiteModuleName": "Watsica-Goodwin",
+        "SortOrder": 883,
+        "ExtraFlags": 314,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldLength": 6
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldType": "System.String",
+        "FieldLength": 194
       }
     }
   },
   {
-    "Name": "Maggio Inc and Sons",
-    "Description": "Exclusive motivating protocol",
+    "Name": "Leffler Inc and Sons",
+    "Description": "User-centric non-volatile monitoring",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 750,
-        "Tooltip": "quod",
+        "Unrestricted": true,
+        "Total": 18,
+        "Tooltip": "nostrum",
         "CanAssign": false,
-        "Free": 555,
-        "InUse": 536,
+        "Free": 849,
+        "InUse": 256,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 691,
-        "Name": "Murphy-Cruickshank",
-        "Description": "Assimilated 24 hour flexibility",
-        "PrerequisiteModuleName": "Hudson Group",
-        "SortOrder": 195,
-        "ExtraFlags": 96,
+        "ModuleLicenseId": 222,
+        "Name": "Lehner, Harris and Kemmer",
+        "Description": "Streamlined 24/7 definition",
+        "PrerequisiteModuleName": "Goodwin-Rohan",
+        "SortOrder": 756,
+        "ExtraFlags": 390,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 700
+            "FieldLength": 483
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 699,
-        "Tooltip": "hic",
-        "CanAssign": true,
-        "Free": 56,
-        "InUse": 243,
+        "Unrestricted": false,
+        "Total": 545,
+        "Tooltip": "distinctio",
+        "CanAssign": false,
+        "Free": 348,
+        "InUse": 111,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 142,
-        "Name": "Heathcote LLC",
-        "Description": "Centralized multi-tasking local area network",
-        "PrerequisiteModuleName": "Heidenreich, Wuckert and Franecki",
-        "SortOrder": 990,
-        "ExtraFlags": 532,
+        "ModuleLicenseId": 531,
+        "Name": "Ebert-Kuhn",
+        "Description": "Innovative intermediate framework",
+        "PrerequisiteModuleName": "Watsica-Goodwin",
+        "SortOrder": 883,
+        "ExtraFlags": 314,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldLength": 6
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldType": "System.String",
+        "FieldLength": 194
       }
     }
   }

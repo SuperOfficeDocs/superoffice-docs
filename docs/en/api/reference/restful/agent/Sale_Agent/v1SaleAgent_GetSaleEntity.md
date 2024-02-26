@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=746
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=275
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "maxime",
+  "SaleText": "nostrum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-02-04T16:54:56.2469963+01:00",
-  "Amount": 31333.732,
-  "SaleId": 711,
-  "Earning": 9320.516,
-  "EarningPercent": 30136.543999999998,
-  "Heading": "quo",
-  "Number": "861828",
-  "Probability": 981,
-  "CreatedDate": "2021-01-05T16:54:56.2469963+01:00",
-  "UpdatedDate": "2001-09-28T16:54:56.2469963+02:00",
+  "Saledate": "2006-02-19T10:30:24.5283735+01:00",
+  "Amount": 5754.0239999999994,
+  "SaleId": 97,
+  "Earning": 22066.494,
+  "EarningPercent": 3792.14,
+  "Heading": "harum",
+  "Number": "1001572",
+  "Probability": 49,
+  "CreatedDate": "2003-04-17T10:30:24.5283735+02:00",
+  "UpdatedDate": "2000-01-02T10:30:24.5283735+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 713,
+  "ActiveLinks": 545,
   "Links": [
     {
-      "EntityName": "Dooley LLC",
-      "Id": 448,
-      "Description": "Business-focused neutral installation",
-      "ExtraInfo": "asperiores",
-      "LinkId": 747,
+      "EntityName": "Kutch Inc and Sons",
+      "Id": 786,
+      "Description": "Decentralized client-driven secured line",
+      "ExtraInfo": "nisi",
+      "LinkId": 738,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 991
+          "FieldLength": 802
         }
       }
     }
   ],
-  "NextDueDate": "2022-02-28T16:54:56.2469963+01:00",
-  "Postit": "delectus",
+  "NextDueDate": "1996-11-10T10:30:24.5283735+01:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2016-05-01T16:54:56.2469963+02:00",
+  "ReopenDate": "2016-12-10T10:30:24.5283735+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Nolan LLC",
-      "Comment": "deserunt",
-      "StakeholderRoleId": 730,
-      "CountryId": 339,
-      "PersonId": 865,
-      "EmailDescription": "wilber.roberts@swaniawski.name",
-      "EmailId": 299,
-      "EmailAddress": "pearline_tillman@cruickshankmayer.ca",
-      "PhoneId": 103,
-      "ContactName": "Huel-Kutch",
-      "ContactId": 988,
-      "SaleId": 241,
-      "Mrmrs": "explicabo",
-      "Firstname": "Vicky",
-      "MiddleName": "Dickens, Okuneva and Gusikowski",
-      "Lastname": "Miller",
-      "SaleStakeholderId": 871,
-      "Rank": 306,
-      "Phone": "485.458.5118",
+      "StakeholderRoleName": "Hessel Inc and Sons",
+      "Comment": "eum",
+      "StakeholderRoleId": 558,
+      "CountryId": 792,
+      "PersonId": 273,
+      "EmailDescription": "leopold_price@abernathy.co.uk",
+      "EmailId": 859,
+      "EmailAddress": "darby@corkery.uk",
+      "PhoneId": 614,
+      "ContactName": "Homenick-Stiedemann",
+      "ContactId": 371,
+      "SaleId": 542,
+      "Mrmrs": "quae",
+      "Firstname": "Vincenzo",
+      "MiddleName": "Trantow Inc and Sons",
+      "Lastname": "Cruickshank",
+      "SaleStakeholderId": 654,
+      "Rank": 556,
+      "Phone": "176-438-5747",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 312
+          "FieldLength": 191
         }
       }
     }
   ],
-  "ActiveErpLinks": 703,
+  "ActiveErpLinks": 33,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lisandro Sawayn",
-    "SuperOffice:2": "1977184606"
+    "SuperOffice:1": "Ford Reilly",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "sit",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2020-04-24T16:54:56.2480124+02:00",
-  "PublishTo": "2004-07-13T16:54:56.2480124+02:00",
-  "PublishFrom": "2018-06-11T16:54:56.2480124+02:00",
+  "PublishEventDate": "2007-07-14T10:30:24.5283735+02:00",
+  "PublishTo": "2016-03-31T10:30:24.5283735+02:00",
+  "PublishFrom": "1998-01-25T10:30:24.5283735+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 457,
+      "VisibleId": 688,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 392
+          "FieldType": "System.String",
+          "FieldLength": 139
         }
       }
     },
     {
-      "VisibleId": 457,
+      "VisibleId": 688,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 392
+          "FieldType": "System.String",
+          "FieldLength": 139
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 348
     }
   }
 }

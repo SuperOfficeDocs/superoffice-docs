@@ -669,6 +669,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -706,6 +707,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
+|request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -741,12 +743,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy/userName|string|Created by - User name: User name| x |
 |request/createdBy/personEmail|string|Created by - E-mail| x |
 |request/ownedBy/firstName|string|Owner - First name: Displays the contact's first name| x |
-|request/ownedBy/lastName|string|Owner - Last name: Displays the contact's last name| x |
-|request/ownedBy/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/lastName|string|Owner - Last name: Displays the contact's last name| x |
+|request/ownedBy/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
 |request/ownedBy/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |request/ownedBy/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
 |request/ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
@@ -845,12 +847,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |projectMembers/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |projectMembers/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|projectMembers/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |projectMembers/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |projectMembers/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
@@ -949,12 +951,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/lastName|string|Last name: Displays the contact's last name| x |
 |personAppointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |personAppointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|personAppointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|personAppointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|personAppointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |personAppointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/associateDbId|associate|ID| x |
@@ -989,7 +991,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/personfavourites?$select=personSource,personSourceRelation/personUpdatedBy,personContact/email/emailId,personContact/restrictionAddress/county,personContact/contactSupportAssociate/simultaneousEjUser
+GET /api/v1/archive/personfavourites?$select=personExtra/x_person_float,personSourceRelation/personNumber,personSourceRelation/portraitThumbnail,personAssociate/contactFullName,personAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

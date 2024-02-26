@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Muller, Ondricka and Bergstrom",
-  "Tooltip": "consequatur",
+  "Id": 867,
+  "Name": "Kemmer Group",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 469,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 47,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 762
     }
   },
   "_Links": {

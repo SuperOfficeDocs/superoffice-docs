@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "est",
-    "vel"
+    "deleniti",
+    "iste"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Russel-Nicolas",
-    "Delimiter": "illo",
-    "Flags": "quisquam",
-    "TotalItems": 33,
-    "UnreadItems": 611,
+    "Name": "Legros-Hand",
+    "Delimiter": "iste",
+    "Flags": "et",
+    "TotalItems": 986,
+    "UnreadItems": 981,
     "Subscribed": false,
-    "EmailFolderId": 742,
+    "EmailFolderId": 252,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldType": "System.String",
+        "FieldLength": 178
       }
     }
   }

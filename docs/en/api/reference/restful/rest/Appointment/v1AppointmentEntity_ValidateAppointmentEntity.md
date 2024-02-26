@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-06-22T16:55:29.1890494+02:00",
-  "AppointmentId": 1000,
-  "Description": "Upgradable fault-tolerant throughput",
-  "Title": "aliquid",
-  "Agenda": "porro",
-  "InternalNotes": "sint",
-  "StartDate": "1998-06-05T16:55:29.1895595+02:00",
-  "EndDate": "2007-05-19T16:55:29.1895595+02:00",
+  "CreatedDate": "2018-04-21T10:30:31.665602+02:00",
+  "AppointmentId": 512,
+  "Description": "Grass-roots grid-enabled moderator",
+  "Title": "ratione",
+  "Agenda": "eos",
+  "InternalNotes": "ea",
+  "StartDate": "2017-04-08T10:30:31.665602+02:00",
+  "EndDate": "2011-05-20T10:30:31.665602+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 396,
+  "MotherId": 422,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-05-27T16:55:29.1915688+02:00",
+  "UpdatedDate": "2021-02-13T10:30:31.665602+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 554,
+  "ActiveLinks": 5,
   "Links": [
     {
-      "EntityName": "Shields-Emmerich",
-      "Id": 109,
-      "Description": "Open-source bi-directional strategy",
-      "ExtraInfo": "repellat",
-      "LinkId": 432
+      "EntityName": "Hermann LLC",
+      "Id": 818,
+      "Description": "Reactive discrete encryption",
+      "ExtraInfo": "explicabo",
+      "LinkId": 618
     },
     {
-      "EntityName": "Shields-Emmerich",
-      "Id": 109,
-      "Description": "Open-source bi-directional strategy",
-      "ExtraInfo": "repellat",
-      "LinkId": 432
+      "EntityName": "Hermann LLC",
+      "Id": 818,
+      "Description": "Reactive discrete encryption",
+      "ExtraInfo": "explicabo",
+      "LinkId": 618
     }
   ],
-  "AlarmLeadTime": "officia",
-  "HasAlarm": true,
-  "ColorIndex": 852,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "sed",
-  "LeadTime": "at",
-  "Location": "maiores",
-  "RejectCounter": 848,
+  "AlarmLeadTime": "cum",
+  "HasAlarm": false,
+  "ColorIndex": 691,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "aperiam",
+  "LeadTime": "vitae",
+  "Location": "voluptatem",
+  "RejectCounter": 377,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 877,
-      "PersonId": 833,
-      "ContactId": 97,
-      "EmailId": 941,
-      "SendEmail": false,
+      "AssociateId": 371,
+      "PersonId": 258,
+      "ContactId": 304,
+      "EmailId": 632,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "edgar_jenkins@nolan.us",
-      "Description": "Devolved 3rd generation architecture"
+      "EmailAddress": "serena@rohanstamm.co.uk",
+      "Description": "Profit-focused client-server leverage"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-03-08T16:55:29.1915688+01:00",
+  "ActiveDate": "2009-11-06T10:30:31.6812266+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 238,
+  "PreferredTZLocation": 805,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 965,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 191,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
+  "CentralserviceVideomeetId": "laboriosam",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "779922798"
+    "SuperOffice:1": "Lesly Gibson",
+    "SuperOffice:2": "1193443814"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "et"
+    "ExtraFields1": "est",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "atque"
   },
-  "PublishEventDate": "1999-11-29T16:55:29.1925682+01:00",
-  "PublishTo": "2011-08-16T16:55:29.1925682+02:00",
-  "PublishFrom": "2004-10-10T16:55:29.1925682+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-12-04T10:30:31.6812266+01:00",
+  "PublishTo": "2020-11-13T10:30:31.6812266+01:00",
+  "PublishFrom": "1999-08-21T10:30:31.6812266+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 585,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "odit"
+      "DisplayValue": "ratione"
     },
     {
-      "VisibleId": 585,
+      "VisibleId": 356,
       "Visibility": "All",
-      "DisplayValue": "odit"
+      "DisplayValue": "ratione"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ratione",
-  "2": "minima"
+  "1": "non",
+  "2": "quia"
 }
 ```

@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 917,
-  "EMailAddress": "laborum",
-  "AssociateId": 591,
+  "EMailAccountId": 653,
+  "EMailAddress": "aut",
+  "AssociateId": 941,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 412,
-  "ErrorCount": 80,
+  "AccountStatus": 236,
+  "ErrorCount": 504,
   "ErrorReason": "",
-  "InboxFolder": "laudantium",
-  "SentFolder": "placeat",
+  "InboxFolder": "voluptatem",
+  "SentFolder": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 794
     }
   }
 }

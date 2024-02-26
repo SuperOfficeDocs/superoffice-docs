@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "optio",
-  "ProviderName": "Zulauf, Ziemann and Casper",
-  "StorageKey": "debitis",
-  "Rank": 597,
-  "Context": "error"
+  "StorageType": "qui",
+  "ProviderName": "Hilll LLC",
+  "StorageKey": "eos",
+  "Rank": 987,
+  "Context": "sint"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Orn, Murphy and Padberg",
-  "Description": "Digitized impactful approach",
-  "Rank": 848,
+  "Name": "Hilpert Group",
+  "Description": "Synergized intangible access",
+  "Rank": 588,
   "Restrictions": [
     {
-      "Name": "McGlynn, Mills and Bahringer",
-      "Operator": "veniam",
+      "Name": "Connelly, Rowe and Raynor",
+      "Operator": "pariatur",
       "Values": [
-        "ut",
-        "sit"
+        "aperiam",
+        "culpa"
       ],
       "DisplayValues": [
-        "sed",
-        "porro"
+        "et",
+        "rem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 594,
+      "InterParenthesis": 957,
       "InterOperator": "And",
-      "UniqueHash": 838
+      "UniqueHash": 858
     }
   ]
 }

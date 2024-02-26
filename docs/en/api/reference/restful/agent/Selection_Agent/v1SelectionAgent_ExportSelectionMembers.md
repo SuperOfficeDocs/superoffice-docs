@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 820,
-  "TemplateName": "Spencer-Ebert",
+  "SelectionId": 183,
+  "TemplateName": "Breitenberg, Skiles and Schuppe",
   "UseContacts": false
 }
 ```

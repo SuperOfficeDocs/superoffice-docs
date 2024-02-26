@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Jakubowski Inc and Sons",
-    "ToolTip": "Iste et.",
-    "Deleted": false,
-    "Rank": 261,
-    "Type": "illum",
-    "ColorBlock": 452,
-    "IconHint": "sit",
+    "Id": 990,
+    "Name": "Nolan Inc and Sons",
+    "ToolTip": "Quia voluptatem odit reiciendis recusandae.",
+    "Deleted": true,
+    "Rank": 360,
+    "Type": "ut",
+    "ColorBlock": 203,
+    "IconHint": "tempora",
     "Selected": true,
-    "LastChanged": "2016-08-03T16:55:30.5942148+02:00",
+    "LastChanged": "2008-12-03T10:30:32.9274257+01:00",
     "ChildItems": [
       {
-        "Id": 790,
-        "Name": "Kirlin-Rippin",
-        "ToolTip": "Ex ullam qui quis ad fugit.",
+        "Id": 138,
+        "Name": "Hirthe-Heaney",
+        "ToolTip": "Laboriosam qui quis quia animi.",
         "Deleted": false,
-        "Rank": 509,
-        "Type": "illum",
-        "ColorBlock": 983,
-        "IconHint": "enim",
+        "Rank": 686,
+        "Type": "modi",
+        "ColorBlock": 821,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2019-10-11T16:55:30.5942148+02:00",
+        "LastChanged": "2021-05-11T10:30:32.9274257+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "possimus",
+        "ExtraInfo": "qui",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Prof. Magnolia Kattie Predovic IV",
+        "FullName": "Maybelle Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 10
+            "FieldType": "System.String",
+            "FieldLength": 907
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "atque",
+    "ExtraInfo": "et",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Mr. Lila Mafalda Cremin",
+    "FullName": "Assunta Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 325
       }
     }
   }

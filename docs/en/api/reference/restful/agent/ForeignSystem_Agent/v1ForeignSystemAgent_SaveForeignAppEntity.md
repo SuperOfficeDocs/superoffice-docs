@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 48,
-  "Name": "Frami Inc and Sons",
-  "CreatedDate": "2022-03-02T16:54:55.4714693+01:00",
-  "UpdatedDate": "2019-02-03T16:54:55.4714693+01:00",
+  "ForeignAppId": 604,
+  "Name": "Moen-Wisozk",
+  "CreatedDate": "2019-03-15T10:30:23.8918024+01:00",
+  "UpdatedDate": "2010-05-02T10:30:23.8918024+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 420,
-      "Name": "Bode Group",
-      "CreatedDate": "2006-07-10T16:54:55.472469+02:00",
-      "UpdatedDate": "2022-12-22T16:54:55.472469+01:00",
-      "AssociateFullName": "Savanna Keebler",
-      "CreatedBy": "eos",
-      "UpdatedBy": "rerum",
-      "DeviceIdentifier": "dolore",
-      "ForeignAppId": 442
+      "ForeignDeviceId": 357,
+      "Name": "Zemlak-Emard",
+      "CreatedDate": "2023-12-19T10:30:23.8918024+01:00",
+      "UpdatedDate": "2021-08-01T10:30:23.8918024+02:00",
+      "AssociateFullName": "Dr. Rhianna Dickens",
+      "CreatedBy": "est",
+      "UpdatedBy": "repellat",
+      "DeviceIdentifier": "sed",
+      "ForeignAppId": 926
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 662,
-  "Name": "Weber Group",
-  "CreatedDate": "2005-01-13T16:54:55.4744685+01:00",
-  "UpdatedDate": "2020-02-07T16:54:55.4744685+01:00",
+  "ForeignAppId": 923,
+  "Name": "Hagenes-Weimann",
+  "CreatedDate": "2016-12-14T10:30:23.8918024+01:00",
+  "UpdatedDate": "2007-11-21T10:30:23.8918024+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 588,
-      "Name": "Schneider Inc and Sons",
-      "CreatedDate": "1999-06-03T16:54:55.4754677+02:00",
-      "UpdatedDate": "2021-09-26T16:54:55.4754677+02:00",
-      "AssociateFullName": "Delilah Terry",
-      "CreatedBy": "aut",
-      "UpdatedBy": "dolorem",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 965,
+      "ForeignDeviceId": 851,
+      "Name": "Wilkinson LLC",
+      "CreatedDate": "2009-07-12T10:30:23.9073938+02:00",
+      "UpdatedDate": "2007-02-21T10:30:23.9073938+01:00",
+      "AssociateFullName": "Colby Fern Hansen Jr.",
+      "CreatedBy": "temporibus",
+      "UpdatedBy": "tempore",
+      "DeviceIdentifier": "inventore",
+      "ForeignAppId": 689,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 945
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 520
     }
   }
 }

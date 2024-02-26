@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=279
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=664
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 19,
+  "DocumentId": 528,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "modi",
-  "Header": "nihil",
-  "Name": "Eichmann Inc and Sons",
-  "OurRef": "non",
+  "Attention": "et",
+  "Header": "facilis",
+  "Name": "Murphy-Rodriguez",
+  "OurRef": "voluptas",
   "YourRef": "voluptas",
-  "CreatedDate": "2015-11-28T16:54:55.1969865+01:00",
-  "UpdatedDate": "2006-04-10T16:54:55.1969865+02:00",
-  "Description": "Programmable mobile Graphic Interface",
+  "CreatedDate": "2004-03-14T10:30:23.6407269+01:00",
+  "UpdatedDate": "2010-09-01T10:30:23.6407269+02:00",
+  "Description": "Object-based 5th generation circuit",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-03-21T16:54:55.198991+01:00",
-  "ExternalRef": "rerum",
+  "Date": "2021-02-12T10:30:23.6417657+01:00",
+  "ExternalRef": "optio",
   "Completed": "Completed",
-  "ActiveLinks": 153,
+  "ActiveLinks": 91,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kovacek-Koss",
-      "Id": 735,
-      "Description": "Persistent global encoding",
-      "ExtraInfo": "harum",
-      "LinkId": 66,
+      "EntityName": "Streich, Welch and Brekke",
+      "Id": 683,
+      "Description": "Configurable exuding implementation",
+      "ExtraInfo": "eveniet",
+      "LinkId": 116,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 78
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 220,
-  "Snum": 25,
+  "SuggestedDocumentId": 197,
+  "Snum": 191,
   "UserDefinedFields": {
-    "SuperOffice:1": "Eloy Kunde IV",
-    "SuperOffice:2": "Miss Maurice Gorczany II"
+    "SuperOffice:1": "Asia Lakin DVM",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
     "CustomFields1": "et",
-    "CustomFields2": "sit"
+    "CustomFields2": "eaque"
   },
-  "PublishEventDate": "2019-07-21T16:54:55.198991+02:00",
-  "PublishTo": "2017-05-01T16:54:55.198991+02:00",
-  "PublishFrom": "1998-03-06T16:54:55.198991+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-12-09T10:30:23.6417657+01:00",
+  "PublishTo": "2006-11-13T10:30:23.6417657+01:00",
+  "PublishFrom": "2020-07-21T10:30:23.6417657+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 879,
+      "VisibleId": 812,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldLength": 736
         }
       }
     },
     {
-      "VisibleId": 879,
+      "VisibleId": 812,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldLength": 736
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldType": "System.Int32",
+      "FieldLength": 973
     }
   }
 }

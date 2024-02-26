@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 282,
-  "Name": "Ankunding LLC",
-  "Tooltip": "reprehenderit",
+  "RoleId": 19,
+  "Name": "Greenholt-Jacobs",
+  "Tooltip": "consequatur",
   "RoleType": "Anonymous",
-  "Deleted": 169,
-  "Rank": 20,
-  "Created": "2000-08-25T16:55:30.0055879+02:00",
-  "UseCategories": 842,
+  "Deleted": 31,
+  "Rank": 624,
+  "Created": "2013-07-07T10:30:32.276171+02:00",
+  "UseCategories": 512,
   "CreatedBy": null,
-  "Updated": "1997-08-10T16:55:30.0055879+02:00",
+  "Updated": "2003-06-30T10:30:32.276171+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 2
     }
   }
 }

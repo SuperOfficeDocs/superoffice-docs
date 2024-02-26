@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 332
+  "PrefDescId": 756
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 607,
-    "PrefDescId": 776,
-    "PrefValue": "laudantium",
-    "PrefShowValue": "fugiat",
-    "Description": "Business-focused human-resource help-desk",
+    "PrefDescLineId": 675,
+    "PrefDescId": 971,
+    "PrefValue": "quis",
+    "PrefShowValue": "dolor",
+    "Description": "Synergistic zero defect software",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldType": "System.Int32",
+        "FieldLength": 867
       }
     }
   }

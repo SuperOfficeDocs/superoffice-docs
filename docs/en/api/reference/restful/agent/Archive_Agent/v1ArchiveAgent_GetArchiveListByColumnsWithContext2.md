@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Carter-Nicolas",
-  "Columns": "quia",
-  "SortOrder": "et",
-  "Restriction": "laborum",
-  "Entities": "saepe",
-  "Page": 425,
-  "PageSize": 61,
-  "Context": "quo"
+  "ProviderName": "Block, Crist and Bradtke",
+  "Columns": "et",
+  "SortOrder": "animi",
+  "Restriction": "distinctio",
+  "Entities": "dolorem",
+  "Page": 914,
+  "PageSize": 698,
+  "Context": "dolorem"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Renner-Kris",
-    "PrimaryKey": 738,
+    "EntityName": "Pacocha, Lubowitz and Brown",
+    "PrimaryKey": 251,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "occaecati",
-        "TooltipHint": "asperiores",
-        "LinkHint": "id"
+        "DisplayValue": "doloremque",
+        "TooltipHint": "ipsa",
+        "LinkHint": "nihil"
       }
     },
-    "LinkHint": "esse",
-    "StyleHint": "placeat",
+    "LinkHint": "cupiditate",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

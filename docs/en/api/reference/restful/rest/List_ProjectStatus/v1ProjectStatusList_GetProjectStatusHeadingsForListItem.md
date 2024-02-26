@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Kuphal, Howell and Wolff",
-    "ToolTip": "Ut aut repellat.",
-    "Deleted": true,
-    "Rank": 21,
-    "Type": "beatae",
-    "ColorBlock": 726,
-    "IconHint": "id",
+    "Id": 163,
+    "Name": "Schroeder, Mayer and Fay",
+    "ToolTip": "Natus et qui aut nam et.",
+    "Deleted": false,
+    "Rank": 727,
+    "Type": "voluptatem",
+    "ColorBlock": 935,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2022-01-13T16:55:30.8377356+01:00",
+    "LastChanged": "2008-06-23T10:30:33.131835+02:00",
     "ChildItems": [
       {
-        "Id": 432,
-        "Name": "Stokes Inc and Sons",
-        "ToolTip": "Ducimus expedita maiores ut eius at et.",
+        "Id": 400,
+        "Name": "Lockman, Shields and Grimes",
+        "ToolTip": "Et consequatur sed vitae aut inventore temporibus id.",
         "Deleted": false,
-        "Rank": 408,
-        "Type": "esse",
-        "ColorBlock": 25,
-        "IconHint": "saepe",
-        "Selected": true,
-        "LastChanged": "1998-10-11T16:55:30.8377356+02:00",
+        "Rank": 461,
+        "Type": "vel",
+        "ColorBlock": 592,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2000-09-05T10:30:33.131835+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Eliseo Zboncak",
+        "ExtraInfo": "sed",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Rebekah Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldType": "System.String",
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "dolorum",
-    "Hidden": false,
-    "FullName": "Marco Farrell IV",
+    "ExtraInfo": "nobis",
+    "StyleHint": "dicta",
+    "Hidden": true,
+    "FullName": "Emmie Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldType": "System.Int32",
+        "FieldLength": 214
       }
     }
   }

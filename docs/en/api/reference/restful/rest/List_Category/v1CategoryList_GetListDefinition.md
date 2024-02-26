@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Medhurst, Gottlieb and Quigley",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 614,
+  "Id": 587,
+  "Name": "Hegmann-Kiehn",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 891,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "ListType": "placeat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

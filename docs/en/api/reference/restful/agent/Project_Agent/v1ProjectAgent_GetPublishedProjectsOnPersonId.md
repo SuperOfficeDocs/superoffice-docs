@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 878
+  "PersonId": 214
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 682,
-    "Name": "Bailey-Adams",
-    "Description": "Ameliorated background groupware",
+    "ProjectId": 999,
+    "Name": "Ledner Group",
+    "Description": "Optimized 4th generation orchestration",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 767,
-    "AssociateFullName": "Bradley King",
-    "TypeId": 886,
-    "Updated": "2007-01-01T16:54:56.0731408+01:00",
-    "StatusId": 964,
-    "Status": "suscipit",
-    "TextId": 953,
-    "PublishTo": "2014-12-19T16:54:56.0731408+01:00",
-    "PublishFrom": "1997-08-09T16:54:56.0731408+02:00",
+    "Type": "quae",
+    "AssociateId": 423,
+    "AssociateFullName": "Glen O'Reilly",
+    "TypeId": 116,
+    "Updated": "2016-05-21T10:30:24.3705833+02:00",
+    "StatusId": 814,
+    "Status": "molestiae",
+    "TextId": 158,
+    "PublishTo": "2022-09-03T10:30:24.3705833+02:00",
+    "PublishFrom": "2003-08-14T10:30:24.3705833+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "612235",
-    "ActiveErpLinks": 909,
+    "ProjectNumber": "335536",
+    "ActiveErpLinks": 464,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldLength": 357
       }
     }
   }

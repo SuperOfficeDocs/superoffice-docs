@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 431,
-      "ContactName": "Pacocha-Stark",
-      "PersonId": 446,
-      "PersonName": "Luettgen Inc and Sons",
-      "AssociateId": 200,
-      "Address": "illum",
-      "EmailId": 558,
+      "ContactId": 230,
+      "ContactName": "Hane-Hammes",
+      "PersonId": 429,
+      "PersonName": "Jakubowski LLC",
+      "AssociateId": 235,
+      "Address": "ipsa",
+      "EmailId": 903,
       "DuplicatePersonIds": [
-        177,
-        899
+        195,
+        956
       ],
-      "Name": "Bogan-Parker",
+      "Name": "Bernier, Mosciski and Miller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 490
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 493,
-      "ContactName": "Johnson-Lemke",
-      "PersonId": 715,
-      "PersonName": "Mertz, White and Hilll",
-      "AssociateId": 490,
-      "Address": "nam",
-      "EmailId": 507,
+      "ContactId": 573,
+      "ContactName": "Stroman, Maggio and Rippin",
+      "PersonId": 8,
+      "PersonName": "Schoen, Kris and McDermott",
+      "AssociateId": 877,
+      "Address": "sed",
+      "EmailId": 644,
       "DuplicatePersonIds": [
-        962,
-        32
+        879,
+        114
       ],
-      "Name": "Kuhic-Maggio",
+      "Name": "Luettgen Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 206
+          "FieldLength": 910
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 665,
-      "ContactName": "Bosco Inc and Sons",
-      "PersonId": 413,
-      "PersonName": "Marks-Nicolas",
-      "AssociateId": 56,
-      "Address": "incidunt",
-      "EmailId": 200,
+      "ContactId": 936,
+      "ContactName": "Crist-Swift",
+      "PersonId": 966,
+      "PersonName": "Osinski-Franecki",
+      "AssociateId": 536,
+      "Address": "impedit",
+      "EmailId": 966,
       "DuplicatePersonIds": [
-        924,
-        130
+        167,
+        702
       ],
-      "Name": "Blick LLC",
+      "Name": "Feil LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 335
         }
       }
     }
   ],
-  "Subject": "minima",
-  "HTMLBody": "vitae",
+  "Subject": "nemo",
+  "HTMLBody": "expedita",
   "From": null,
-  "Sent": "2021-08-20T16:54:55.3014197+02:00",
-  "Size": 645,
+  "Sent": "2006-11-05T10:30:23.7355582+01:00",
+  "Size": 653,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "blanditiis",
-  "PlainBody": "molestiae",
+  "MessageID": "rem",
+  "PlainBody": "modi",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 982,
+  "ServerId": 9,
   "Attachments": [
     {
-      "Description": "Programmable exuding portal",
-      "Filename": "eligendi",
-      "Size": 694,
-      "Type": "maxime",
-      "Encoding": "doloribus",
-      "Id": "nihil",
-      "Disposition": "amet",
+      "Description": "Focused tertiary firmware",
+      "Filename": "itaque",
+      "Size": 731,
+      "Type": "doloribus",
+      "Encoding": "voluptatum",
+      "Id": "impedit",
+      "Disposition": "ut",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 955
+          "FieldType": "System.Int32",
+          "FieldLength": 832
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bashirian, Deckow and Block",
+      "Name": "Romaguera, Conroy and Turcotte",
       "Values": [
-        "molestiae",
-        "et"
+        "quo",
+        "dolore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 436
+          "FieldType": "System.Int32",
+          "FieldLength": 751
         }
       }
     },
     {
-      "Name": "Bashirian, Deckow and Block",
+      "Name": "Romaguera, Conroy and Turcotte",
       "Values": [
-        "molestiae",
-        "et"
+        "quo",
+        "dolore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 436
+          "FieldType": "System.Int32",
+          "FieldLength": 751
         }
       }
     }
   ],
-  "FolderName": "Runolfsdottir-Herman",
-  "EmailItemId": 832,
-  "AccountId": 526,
-  "ReceivedAt": "2015-09-27T16:54:55.3014197+02:00",
+  "FolderName": "Kling-Shields",
+  "EmailItemId": 968,
+  "AccountId": 904,
+  "ReceivedAt": "2016-10-25T10:30:23.7355582+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-02-15T16:54:55.3014197+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-02-27T10:30:23.7355582+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

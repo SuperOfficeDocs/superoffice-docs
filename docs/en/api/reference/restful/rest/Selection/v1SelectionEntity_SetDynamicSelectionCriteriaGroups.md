@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sawayn LLC",
-    "Description": "Switchable didactic info-mediaries",
-    "Rank": 686,
+    "Name": "Cremin, Rath and Gerhold",
+    "Description": "Adaptive radical model",
+    "Rank": 617,
     "Restrictions": [
       {
-        "Name": "Crist LLC",
-        "Operator": "occaecati",
+        "Name": "Ruecker Inc and Sons",
+        "Operator": "reiciendis",
         "Values": [
-          "labore",
-          "officiis"
+          "unde",
+          "est"
         ],
         "DisplayValues": [
-          "sed",
-          "rerum"
+          "consequatur",
+          "laborum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 854,
+        "InterParenthesis": 3,
         "InterOperator": "And",
-        "UniqueHash": 129
+        "UniqueHash": 773
       }
     ]
   },
   {
-    "Name": "Sawayn LLC",
-    "Description": "Switchable didactic info-mediaries",
-    "Rank": 686,
+    "Name": "Cremin, Rath and Gerhold",
+    "Description": "Adaptive radical model",
+    "Rank": 617,
     "Restrictions": [
       {
-        "Name": "Crist LLC",
-        "Operator": "occaecati",
+        "Name": "Ruecker Inc and Sons",
+        "Operator": "reiciendis",
         "Values": [
-          "labore",
-          "officiis"
+          "unde",
+          "est"
         ],
         "DisplayValues": [
-          "sed",
-          "rerum"
+          "consequatur",
+          "laborum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 854,
+        "InterParenthesis": 3,
         "InterOperator": "And",
-        "UniqueHash": 129
+        "UniqueHash": 773
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heller-Ritchie",
-    "Description": "Implemented fresh-thinking process improvement",
-    "Rank": 856,
+    "Name": "Schuster, Ebert and Koch",
+    "Description": "Automated 3rd generation database",
+    "Rank": 703,
     "Restrictions": [
       {
-        "Name": "Dooley, Hyatt and Lemke",
-        "Operator": "quia",
+        "Name": "Kulas-Kuhic",
+        "Operator": "sunt",
         "Values": [
-          "hic",
-          "earum"
+          "perferendis",
+          "excepturi"
         ],
         "DisplayValues": [
-          "explicabo",
-          "deleniti"
+          "minus",
+          "fuga"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 397,
+        "InterParenthesis": 284,
         "InterOperator": "And",
-        "UniqueHash": 243
+        "UniqueHash": 393
       }
     ]
   },
   {
-    "Name": "Heller-Ritchie",
-    "Description": "Implemented fresh-thinking process improvement",
-    "Rank": 856,
+    "Name": "Schuster, Ebert and Koch",
+    "Description": "Automated 3rd generation database",
+    "Rank": 703,
     "Restrictions": [
       {
-        "Name": "Dooley, Hyatt and Lemke",
-        "Operator": "quia",
+        "Name": "Kulas-Kuhic",
+        "Operator": "sunt",
         "Values": [
-          "hic",
-          "earum"
+          "perferendis",
+          "excepturi"
         ],
         "DisplayValues": [
-          "explicabo",
-          "deleniti"
+          "minus",
+          "fuga"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 397,
+        "InterParenthesis": 284,
         "InterOperator": "And",
-        "UniqueHash": 243
+        "UniqueHash": 393
       }
     ]
   }

@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nam",
-  "ProviderName": "Emard LLC",
-  "StorageKey": "minima",
+  "StorageType": "velit",
+  "ProviderName": "Volkman Group",
+  "StorageKey": "ut",
   "StaticColumns": [
-    "consequatur",
-    "et"
+    "voluptatibus",
+    "ullam"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kilback-Bradtke",
-      "Operator": "nobis",
+      "Name": "Turner Inc and Sons",
+      "Operator": "quis",
       "Values": [
-        "doloremque",
-        "deserunt"
+        "veritatis",
+        "saepe"
       ],
       "DisplayValues": [
-        "sunt",
-        "voluptate"
+        "quam",
+        "fuga"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 745,
+      "InterParenthesis": 267,
       "InterOperator": "And",
-      "UniqueHash": 177
+      "UniqueHash": 641
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Russel, Stiedemann and Bradtke",
-      "DisplayTooltip": "veritatis",
-      "DisplayType": "voluptas",
+      "DisplayName": "Jones-Strosin",
+      "DisplayTooltip": "velit",
+      "DisplayType": "rerum",
       "CanOrderBy": false,
-      "Name": "Gusikowski, Mayer and Tromp",
-      "CanRestrictBy": true,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Stokes-Stiedemann",
-      "IsVisible": false,
-      "ExtraInfo": "quis",
-      "Width": "quidem",
-      "IconHint": "iste",
-      "HeadingIconHint": "suscipit"
+      "Name": "Collins Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "velit",
+      "RestrictionListName": "Crona, Kris and Corkery",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "quas",
+      "IconHint": "perspiciatis",
+      "HeadingIconHint": "aliquam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bins-Rosenbaum",
-      "PrimaryKey": 155,
+      "EntityName": "Ziemann-Weissnat",
+      "PrimaryKey": 615,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorem",
-          "TooltipHint": "fuga",
-          "LinkHint": "ad"
+          "DisplayValue": "voluptatum",
+          "TooltipHint": "ut",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "optio",
-      "StyleHint": "odit",
+      "LinkHint": "quia",
+      "StyleHint": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 128
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schiller LLC",
-      "Description": "Universal content-based emulation",
-      "Rank": 931,
+      "Name": "Sawayn-Block",
+      "Description": "Optional encompassing functionalities",
+      "Rank": 556,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schiller LLC",
-      "Description": "Universal content-based emulation",
-      "Rank": 931,
+      "Name": "Sawayn-Block",
+      "Description": "Optional encompassing functionalities",
+      "Rank": 556,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldType": "System.String",
+      "FieldLength": 868
     }
   }
 }

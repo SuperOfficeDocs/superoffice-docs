@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 924,
-    "Section": "ipsa",
-    "Key": "aspernatur",
-    "Name": "Romaguera Group",
+    "PrefDescId": 165,
+    "Section": "quia",
+    "Key": "accusantium",
+    "Name": "Bradtke Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reactive next generation matrix",
+    "Description": "Organized well-modulated hardware",
     "IsBuiltin": false,
-    "TableName": "Flatley, Jakubowski and Ziemann",
-    "UserDefinedListId": 221,
-    "Rank": 764,
-    "SubGroup": "voluptatem",
-    "MinLevel": 716,
-    "MaxValue": 458,
-    "MinValue": 648,
-    "RequiredLicense": "est",
+    "TableName": "Pouros-Feil",
+    "UserDefinedListId": 27,
+    "Rank": 60,
+    "SubGroup": "quam",
+    "MinLevel": 2,
+    "MaxValue": 873,
+    "MinValue": 613,
+    "RequiredLicense": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldLength": 855
       }
     }
   }

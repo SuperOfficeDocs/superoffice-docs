@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 437,
-  "Name": "Stamm-Larkin",
-  "Tooltip": "at",
-  "Deleted": true,
-  "UdListDefinitionId": 892,
-  "Rank": 637,
+  "Id": 626,
+  "Name": "Buckridge Group",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "UdListDefinitionId": 678,
+  "Rank": 83,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   }
 }

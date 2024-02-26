@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Connelly LLC",
-  "Tooltip": "quam",
+  "Id": 538,
+  "Name": "Johnson, Dietrich and D'Amore",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 905,
+  "Rank": 510,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 495,
-  "Name": "Denesik-Abshire",
-  "Tooltip": "in",
+  "Id": 858,
+  "Name": "Rau-Schaden",
+  "Tooltip": "neque",
   "Deleted": true,
-  "Rank": 469,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 876,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 181
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

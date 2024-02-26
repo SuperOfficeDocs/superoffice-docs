@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "veniam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "veniam",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 944,
-  "SourcePersonId": 38,
-  "DestinationContactId": 501,
-  "DestinationPersonId": 261,
-  "RelationId": 800,
-  "Comment": "ex",
-  "RelationDefinitionId": 398,
-  "Reversed": 725,
-  "UpdatedDate": "2004-04-07T16:55:29.5258528+02:00",
-  "CreatedDate": "2002-04-20T16:55:29.5258528+02:00",
+  "SourceContactId": 848,
+  "SourcePersonId": 304,
+  "DestinationContactId": 839,
+  "DestinationPersonId": 369,
+  "RelationId": 795,
+  "Comment": "aliquid",
+  "RelationDefinitionId": 268,
+  "Reversed": 21,
+  "UpdatedDate": "2014-10-20T10:30:31.9636795+02:00",
+  "CreatedDate": "2011-11-10T10:30:31.9636795+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jacobson-Hagenes",
-  "SourcePersonName": "Reynolds Group",
-  "DestinationContactName": "Gottlieb-Rempel",
-  "DestinationPersonName": "Goyette-Thiel",
-  "ActiveText": "est",
-  "PassiveText": "nesciunt",
+  "SourceContactName": "Macejkovic, Cruickshank and Purdy",
+  "SourcePersonName": "Hamill, Wuckert and Collier",
+  "DestinationContactName": "Davis LLC",
+  "DestinationPersonName": "Hettinger-Yost",
+  "ActiveText": "a",
+  "PassiveText": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   },
   "_Links": {

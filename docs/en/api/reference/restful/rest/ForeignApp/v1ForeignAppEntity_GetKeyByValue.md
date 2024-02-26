@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=officiis
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=repudiandae
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 07 Dec 2006 16:55:29 G12T
+Last-Modified: Sun, 19 Jun 2022 10:30:32 G6T
 
 {
-  "Key": "inventore",
-  "Value": "velit",
-  "RecordId": 891,
-  "CreatedDate": "2011-02-14T16:55:29.6594388+01:00",
-  "UpdatedDate": "2006-12-07T16:55:29.6594388+01:00",
-  "UpdatedBy": "iusto",
-  "CreatedBy": "est",
-  "TableName": "Altenwerth, Weber and Brakus",
+  "Key": "unde",
+  "Value": "numquam",
+  "RecordId": 235,
+  "CreatedDate": "2001-04-28T10:30:32.0886795+02:00",
+  "UpdatedDate": "2022-06-19T10:30:32.0886795+02:00",
+  "UpdatedBy": "tempora",
+  "CreatedBy": "dicta",
+  "TableName": "Simonis LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

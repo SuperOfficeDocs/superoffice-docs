@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 796,
-  "ERPQuoteAlternativeKey": "facere",
-  "QuoteVersionId": 686,
-  "Name": "Jast, Wyman and Goyette",
-  "Description": "Inverse well-modulated knowledge user",
+  "QuoteAlternativeId": 690,
+  "ERPQuoteAlternativeKey": "repellendus",
+  "QuoteVersionId": 754,
+  "Name": "Bergnaum Group",
+  "Description": "Monitored background access",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 5891.92,
-  "ERPDiscountAmount": 13589.024,
-  "DiscountPercent": 19976.115999999998,
-  "DiscountAmount": 24382.52,
+  "ERPDiscountPercent": 6713.0279999999993,
+  "ERPDiscountAmount": 24448.334,
+  "DiscountPercent": 12103.508,
+  "DiscountAmount": 16284.264,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "doloribus",
-  "VAT": 542.182,
-  "EarningPercent": 1488.6499999999999,
-  "EarningAmount": 26805.102,
-  "SubTotal": 24448.334,
-  "TotalPrice": 200.576,
-  "ExtraField1": "repudiandae",
-  "ExtraField2": "qui",
-  "ExtraField3": "corporis",
-  "ExtraField4": "omnis",
-  "ExtraField5": "sit",
+  "VATInfo": "quia",
+  "VAT": 26190.838,
+  "EarningPercent": 12172.456,
+  "EarningAmount": 8170.338,
+  "SubTotal": 25824.16,
+  "TotalPrice": 16027.276,
+  "ExtraField1": "et",
+  "ExtraField2": "expedita",
+  "ExtraField3": "est",
+  "ExtraField4": "est",
+  "ExtraField5": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 488
     }
   }
 }

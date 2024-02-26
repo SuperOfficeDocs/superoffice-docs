@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 400,
-  "QuoteAlternativeId": 103,
-  "QuoteAlternativeName": "Christiansen, Bergstrom and Friesen"
+  "QuoteVersionId": 796,
+  "QuoteAlternativeId": 716,
+  "QuoteAlternativeName": "Wiza, Nicolas and Raynor"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 453,
-  "ERPQuoteAlternativeKey": "ex",
-  "QuoteVersionId": 529,
-  "Name": "Douglas LLC",
-  "Description": "Multi-channelled needs-based strategy",
+  "QuoteAlternativeId": 341,
+  "ERPQuoteAlternativeKey": "numquam",
+  "QuoteVersionId": 247,
+  "Name": "Lakin, Schimmel and Shields",
+  "Description": "Future-proofed cohesive customer loyalty",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 25761.48,
-  "ERPDiscountAmount": 29603.764,
-  "DiscountPercent": 25799.088,
-  "DiscountAmount": 14798.748,
+  "ERPDiscountPercent": 6390.226,
+  "ERPDiscountAmount": 21038.541999999998,
+  "DiscountPercent": 1899.204,
+  "DiscountAmount": 15425.547999999999,
   "UserValueOverride": "DiscountAmount",
   "VATInfo": "non",
-  "VAT": 22420.636,
-  "EarningPercent": 26259.786,
-  "EarningAmount": 25137.814,
-  "SubTotal": 26419.62,
-  "TotalPrice": 28998.902,
-  "ExtraField1": "harum",
-  "ExtraField2": "omnis",
-  "ExtraField3": "possimus",
-  "ExtraField4": "neque",
-  "ExtraField5": "nobis",
+  "VAT": 28039.897999999997,
+  "EarningPercent": 27735.899999999998,
+  "EarningAmount": 21192.108,
+  "SubTotal": 25391.667999999998,
+  "TotalPrice": 4397.0019999999995,
+  "ExtraField1": "quis",
+  "ExtraField2": "vitae",
+  "ExtraField3": "quod",
+  "ExtraField4": "excepturi",
+  "ExtraField5": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldLength": 170
     }
   }
 }

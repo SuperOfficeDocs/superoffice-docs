@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    478,
-    775
+    102,
+    412
   ],
-  "StartTime": "1996-11-24T16:54:54.2640202+01:00",
-  "EndTime": "2005-11-27T16:54:54.2640202+01:00"
+  "StartTime": "2002-04-27T10:30:22.7220872+02:00",
+  "EndTime": "2022-01-02T10:30:22.7220872+01:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 750,
-    "StartDate": "2003-02-04T16:54:54.2640202+01:00",
-    "EndDate": "2005-07-03T16:54:54.2640202+02:00",
+    "AppointmentId": 407,
+    "StartDate": "2001-02-15T10:30:22.7220872+01:00",
+    "EndDate": "2015-06-09T10:30:22.7220872+02:00",
     "Type": "BookingForChecklist",
-    "Task": "exercitationem",
-    "AssociateFullName": "Nicklaus Bergstrom",
-    "ContactName": "Schmidt LLC",
-    "Description": "Pre-emptive scalable model",
-    "PersonFullName": "Jerrod Funk MD",
-    "PersonId": 724,
-    "ContactId": 27,
-    "ProjectId": 430,
-    "ProjectName": "Rempel LLC",
-    "IsPublished": false,
-    "AssociateId": 34,
-    "ColorIndex": 401,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "illum",
+    "AssociateFullName": "Prof. Alvena Paucek Sr.",
+    "ContactName": "Gerhold-Huel",
+    "Description": "Self-enabling high-level complexity",
+    "PersonFullName": "Vernie Ray Abernathy Jr.",
+    "PersonId": 744,
+    "ContactId": 400,
+    "ProjectId": 990,
+    "ProjectName": "Bayer, Stanton and Tromp",
+    "IsPublished": true,
+    "AssociateId": 785,
+    "ColorIndex": 750,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 748,
-    "PriorityName": "Bernier-Wehner",
+    "PriorityId": 628,
+    "PriorityName": "Rice-Greenfelder",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2015-09-09T16:54:54.2651213+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2001-04-16T10:30:22.7220872+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-10-07T16:54:54.2651213+02:00",
-    "RecurringEndDate": "2007-07-16T16:54:54.2651213+02:00",
-    "MotherId": 652,
-    "AssignedBy": 242,
-    "AssignedByFullName": "Ms. Kelvin Mike Ritchie DDS",
+    "RecurringStartDate": "2012-06-03T10:30:22.7220872+02:00",
+    "RecurringEndDate": "2014-05-06T10:30:22.7220872+02:00",
+    "MotherId": 798,
+    "AssignedBy": 67,
+    "AssignedByFullName": "Joany Price",
     "RejectReason": "",
-    "Location": "delectus",
-    "AlarmLeadTime": "quidem",
-    "SaleId": 291,
-    "SaleName": "Beer-Medhurst",
-    "AssociateName": "Botsford-Aufderhar",
-    "CreatedDate": "2004-05-04T16:54:54.2651213+02:00",
-    "CreatedBy": "sit",
-    "CreatedByFullName": "Lilla McClure",
-    "CreatedByAssociateId": 885,
+    "Location": "sed",
+    "AlarmLeadTime": "inventore",
+    "SaleId": 195,
+    "SaleName": "Bins-Quigley",
+    "AssociateName": "Vandervort-Smitham",
+    "CreatedDate": "2011-02-05T10:30:22.7220872+01:00",
+    "CreatedBy": "quibusdam",
+    "CreatedByFullName": "Fritz Hoppe",
+    "CreatedByAssociateId": 927,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 395,
-    "Title": "ea",
-    "Agenda": "sed",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 791,
+    "Title": "nobis",
+    "Agenda": "culpa",
+    "InternalNotes": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 170
       }
     }
   }

@@ -135,13 +135,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-08-07T16:54:54.3908637+02:00",
-  "AppointmentId": 164,
-  "Description": "De-engineered stable orchestration",
-  "Title": "quasi",
-  "Agenda": "expedita",
-  "InternalNotes": "doloribus",
-  "StartDate": "2010-09-09T16:54:54.3908637+02:00",
-  "EndDate": "2007-03-21T16:54:54.3908637+01:00",
+  "CreatedDate": "2019-11-01T10:30:22.8470892+01:00",
+  "AppointmentId": 701,
+  "Description": "Ergonomic well-modulated concept",
+  "Title": "reprehenderit",
+  "Agenda": "cum",
+  "InternalNotes": "atque",
+  "StartDate": "2005-10-06T10:30:22.8470892+02:00",
+  "EndDate": "2019-05-12T10:30:22.8470892+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 464,
+  "MotherId": 128,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-08-26T16:54:54.3938637+02:00",
+  "UpdatedDate": "2000-04-01T10:30:22.8627082+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 773,
+  "ActiveLinks": 626,
   "Links": [
     {
-      "EntityName": "Turcotte-Braun",
-      "Id": 744,
-      "Description": "Team-oriented attitude-oriented system engine",
-      "ExtraInfo": "eum",
-      "LinkId": 795,
+      "EntityName": "Turcotte Group",
+      "Id": 179,
+      "Description": "Business-focused object-oriented encryption",
+      "ExtraInfo": "recusandae",
+      "LinkId": 575,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 865
+          "FieldType": "System.String",
+          "FieldLength": 396
         }
       }
     }
   ],
-  "AlarmLeadTime": "necessitatibus",
-  "HasAlarm": true,
-  "ColorIndex": 587,
+  "AlarmLeadTime": "reprehenderit",
+  "HasAlarm": false,
+  "ColorIndex": 772,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "nisi",
-  "LeadTime": "enim",
-  "Location": "distinctio",
-  "RejectCounter": 203,
+  "IsAlldayEvent": false,
+  "LagTime": "tempora",
+  "LeadTime": "dolorem",
+  "Location": "assumenda",
+  "RejectCounter": 928,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 87,
-      "PersonId": 117,
-      "ContactId": 732,
-      "EmailId": 414,
-      "SendEmail": false,
+      "AssociateId": 953,
+      "PersonId": 361,
+      "ContactId": 709,
+      "EmailId": 692,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dorris.walker@feeneynikolaus.uk",
-      "Description": "Future-proofed context-sensitive workforce"
+      "EmailAddress": "dasia.mills@walker.ca",
+      "Description": "Multi-layered well-modulated moratorium"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-12-23T16:54:54.3938637+01:00",
+  "ActiveDate": "2004-08-07T10:30:22.8627082+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 820,
+  "PreferredTZLocation": 67,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 619,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 445,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eum",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Webster Travis Ledner",
-    "SuperOffice:2": "Mrs. Preston Kris III"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Lucius Auer Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "harum"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "totam",
+    "CustomFields2": "illum"
   },
-  "PublishEventDate": "2014-11-03T16:54:54.3958632+01:00",
-  "PublishTo": "2005-01-01T16:54:54.3958632+01:00",
-  "PublishFrom": "2023-12-11T16:54:54.3958632+01:00",
+  "PublishEventDate": "2005-08-15T10:30:22.8627082+02:00",
+  "PublishTo": "2003-02-27T10:30:22.8627082+01:00",
+  "PublishFrom": "2007-03-21T10:30:22.8627082+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 907,
+      "VisibleId": 759,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 685
+          "FieldType": "System.Int32",
+          "FieldLength": 191
         }
       }
     },
     {
-      "VisibleId": 907,
+      "VisibleId": 759,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 685
+          "FieldType": "System.Int32",
+          "FieldLength": 191
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   }
 }

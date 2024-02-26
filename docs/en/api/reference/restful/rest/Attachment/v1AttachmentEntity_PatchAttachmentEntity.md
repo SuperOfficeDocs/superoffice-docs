@@ -104,6 +104,7 @@ AttachmentEntity  updated.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -120,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "id",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "id",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -138,19 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 128,
-  "Name": "Schaefer, Hahn and Simonis",
-  "ContentType": "quia",
-  "AttSize": 824,
-  "InlineImage": false,
-  "ContentId": "voluptatem",
-  "AuthKey": "consequatur",
+  "AttachmentId": 984,
+  "Name": "Koepp Group",
+  "ContentType": "aut",
+  "AttSize": 269,
+  "InlineImage": true,
+  "ContentId": "magnam",
+  "AuthKey": "voluptas",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldLength": 487
     }
   },
   "_Links": {

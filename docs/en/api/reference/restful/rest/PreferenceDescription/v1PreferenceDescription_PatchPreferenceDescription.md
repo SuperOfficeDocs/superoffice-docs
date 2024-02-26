@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "consequatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "consequatur",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 489,
-  "Section": "ea",
-  "Key": "ut",
-  "Name": "Satterfield, Ledner and Ziemann",
+  "PrefDescId": 264,
+  "Section": "ut",
+  "Key": "qui",
+  "Name": "Ondricka-Kemmer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Self-enabling foreground infrastructure",
-  "IsBuiltin": true,
-  "TableName": "Pouros-Haag",
-  "UserDefinedListId": 85,
-  "Rank": 169,
-  "SubGroup": "perferendis",
-  "MinLevel": 806,
-  "MaxValue": 557,
-  "MinValue": 253,
-  "RequiredLicense": "voluptate",
+  "Description": "Compatible encompassing neural-net",
+  "IsBuiltin": false,
+  "TableName": "Skiles Group",
+  "UserDefinedListId": 362,
+  "Rank": 129,
+  "SubGroup": "blanditiis",
+  "MinLevel": 337,
+  "MaxValue": 735,
+  "MinValue": 45,
+  "RequiredLicense": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 540
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

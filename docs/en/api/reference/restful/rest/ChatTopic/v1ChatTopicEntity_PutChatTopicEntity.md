@@ -139,25 +139,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 982,
-  "Name": "Stehr LLC",
-  "Description": "Function-based web-enabled Graphic Interface",
-  "WelcomeMessage": "sequi",
+  "ChatTopicId": 866,
+  "Name": "Stanton, Donnelly and Donnelly",
+  "Description": "Customizable multi-state process improvement",
+  "WelcomeMessage": "saepe",
   "Language": null,
-  "LastAccept": "1999-10-31T16:55:29.3607808+01:00",
-  "SecondsPrAccept": 841,
-  "AlertRecipient": "aut",
+  "LastAccept": "2018-03-27T10:30:31.823057+02:00",
+  "SecondsPrAccept": 693,
+  "AlertRecipient": "ipsum",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "rerum",
+  "CollectConsent": true,
+  "BadgeHeader": "error",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quis",
-  "WarnNewChatMinutes": 322,
-  "WarnManagerNewChatMinutes": 737,
+  "CustomQueueText": "id",
+  "WarnNewChatMinutes": 112,
+  "WarnManagerNewChatMinutes": 769,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -166,14 +166,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 848,
-  "WarnManagerChatMessageMinutes": 885,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 655,
+  "WarnManagerChatMessageMinutes": 236,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 832,
-  "OfflineFormQueueLength": 316,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "iure"
+  "OfflineFormTimeLimit": 296,
+  "OfflineFormQueueLength": 586,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "voluptas"
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 424,
-  "Name": "Luettgen-Klocko",
-  "Description": "Enterprise-wide transitional approach",
-  "WelcomeMessage": "quasi",
+  "ChatTopicId": 558,
+  "Name": "Bosco, Kassulke and Kulas",
+  "Description": "Persevering coherent core",
+  "WelcomeMessage": "est",
   "Language": null,
-  "LastAccept": "2009-03-20T16:55:29.3637808+01:00",
-  "SecondsPrAccept": 466,
-  "AlertRecipient": "quia",
+  "LastAccept": "2003-09-27T10:30:31.823057+02:00",
+  "SecondsPrAccept": 573,
+  "AlertRecipient": "ipsam",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "fugit",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "iure",
-  "WarnNewChatMinutes": 50,
-  "WarnManagerNewChatMinutes": 267,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "quasi",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "omnis",
+  "WarnNewChatMinutes": 687,
+  "WarnManagerNewChatMinutes": 40,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 299,
-  "WarnManagerChatMessageMinutes": 777,
+  "WarnChatMessageMinutes": 252,
+  "WarnManagerChatMessageMinutes": 447,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 540,
-  "OfflineFormQueueLength": 318,
+  "OfflineFormTimeLimit": 508,
+  "OfflineFormQueueLength": 654,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "perferendis",
+  "WidgetRatingText": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

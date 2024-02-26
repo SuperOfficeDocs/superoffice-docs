@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Type": "non"
+  "Id": 61,
+  "Type": "est"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 50,
-    "Rank": 774,
-    "DefaultTask": 127,
-    "DefaultTaskText": "quo",
-    "IsVisual": true,
-    "LastGenerated": "2003-11-01T16:54:56.1969713+01:00",
-    "Description": "Seamless hybrid circuit",
-    "Name": "Hauck Inc and Sons",
-    "StatusMonitorId": 276,
-    "PictureId": 622,
+    "OwnerTable": 364,
+    "Rank": 913,
+    "DefaultTask": 548,
+    "DefaultTaskText": "dolor",
+    "IsVisual": false,
+    "LastGenerated": "2000-02-19T10:30:24.4815013+01:00",
+    "Description": "Open-architected user-facing array",
+    "Name": "Schaden, Weissnat and Moen",
+    "StatusMonitorId": 586,
+    "PictureId": 345,
     "NeedsUpdate": false,
-    "Deleted": false,
-    "NumMatches": 761,
-    "NumNeedUpdate": 980,
-    "GenerationStart": "2011-12-11T16:54:56.1969713+01:00",
+    "Deleted": true,
+    "NumMatches": 847,
+    "NumNeedUpdate": 99,
+    "GenerationStart": "1998-11-24T10:30:24.4815013+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 935
+        "FieldType": "System.Int32",
+        "FieldLength": 441
       }
     }
   }

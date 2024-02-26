@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 736,
-  "Name": "Koepp, Wisoky and Kreiger",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "Rank": 832,
+  "Id": 546,
+  "Name": "Gottlieb, Predovic and McDermott",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 249,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "odit",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "quod",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 704,
-  "Name": "Christiansen LLC",
-  "Tooltip": "quia",
+  "Id": 760,
+  "Name": "Turcotte, Braun and Collins",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 555,
+  "Rank": 966,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "error",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 32
     }
   }
 }

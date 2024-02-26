@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 816,
-  "DefaultValue": "eos",
+  "ErpFieldId": 33,
+  "DefaultValue": "ea",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "porro",
+  "FirstSyncDefaultValue": "quia",
   "PromptUser": false,
-  "Mandatory": true,
-  "ErpFieldKey": "alias",
+  "Mandatory": false,
+  "ErpFieldKey": "et",
   "FieldType": "Checkbox",
-  "ListName": "Smitham-Lubowitz",
+  "ListName": "Marvin LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

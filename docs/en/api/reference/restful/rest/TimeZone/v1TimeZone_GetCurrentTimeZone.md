@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 386,
-  "Name": "Homenick Group",
-  "TZLocationCode": "voluptas",
-  "TZLocationCities": "nihil",
-  "IsoNumber": 964,
+  "TZLocationID": 210,
+  "Name": "Stanton LLC",
+  "TZLocationCode": "et",
+  "TZLocationCities": "voluptas",
+  "IsoNumber": 430,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 43,
-      "StartMonth": 615,
-      "EndDay": 615,
-      "EndMonth": 251,
-      "TZOffset": 433,
-      "StartRulePattern": "perferendis",
-      "EndRulePattern": "sed"
+      "StartDay": 677,
+      "StartMonth": 849,
+      "EndDay": 852,
+      "EndMonth": 994,
+      "TZOffset": 684,
+      "StartRulePattern": "sed",
+      "EndRulePattern": "repellat"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 197,
-      "StartMonth": 827,
-      "EndDay": 403,
-      "EndMonth": 29,
-      "TZOffset": 242,
-      "StartRulePattern": "cumque",
-      "EndRulePattern": "et"
+      "StartDay": 929,
+      "StartMonth": 54,
+      "EndDay": 315,
+      "EndMonth": 468,
+      "TZOffset": 314,
+      "StartRulePattern": "accusantium",
+      "EndRulePattern": "aut"
     }
   }
 }

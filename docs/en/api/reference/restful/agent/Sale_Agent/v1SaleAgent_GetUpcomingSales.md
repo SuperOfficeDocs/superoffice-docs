@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 65,
-  "Count": 83
+  "WeightedAmountLimit": 410,
+  "Count": 528
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Volkman-Hyatt",
-    "SaleDate": "2000-02-28T16:54:56.2575238+01:00",
-    "SaleId": 399,
-    "Probability": 57,
-    "Title": "ea",
-    "Amount": 22082.164,
-    "Currency": "distinctio",
-    "ProjectName": "Cronin-Mertz",
-    "AssociateFullName": "Zachary Lind",
-    "Description": "Multi-channelled full-range model",
+    "ContactName": "Rempel-Considine",
+    "SaleDate": "2015-02-09T10:30:24.5283735+01:00",
+    "SaleId": 164,
+    "Probability": 270,
+    "Title": "sit",
+    "Amount": 23583.35,
+    "Currency": "aut",
+    "ProjectName": "Robel Group",
+    "AssociateFullName": "Sophie Runolfsdottir",
+    "Description": "Visionary cohesive time-frame",
     "Status": "Lost",
-    "WeightedAmount": 19242.76,
-    "ProjectId": 668,
-    "EarningPercent": 18440.456,
-    "Earning": 27663.818,
-    "ContactId": 824,
-    "AssociateId": 942,
-    "PersonId": 174,
-    "SaleTypeId": 26,
-    "SaleTypeName": "Hyatt, Gutmann and Koch",
-    "PersonFullName": "Georgianna Kihn Sr.",
+    "WeightedAmount": 30302.646,
+    "ProjectId": 505,
+    "EarningPercent": 23213.538,
+    "Earning": 2209.47,
+    "ContactId": 922,
+    "AssociateId": 113,
+    "PersonId": 989,
+    "SaleTypeId": 710,
+    "SaleTypeName": "Doyle-Schmeler",
+    "PersonFullName": "Dr. Tad Cremin",
     "Completed": "Completed",
-    "ActiveErpLinks": 430,
-    "NextDueDate": "2013-02-13T16:54:56.2585204+01:00",
-    "Number": "473460",
+    "ActiveErpLinks": 258,
+    "NextDueDate": "2001-10-28T10:30:24.5283735+01:00",
+    "Number": "661844",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 407
       }
     }
   }

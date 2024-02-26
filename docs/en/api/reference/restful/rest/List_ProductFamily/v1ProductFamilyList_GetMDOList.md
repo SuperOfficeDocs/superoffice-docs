@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=eaque
+GET /api/v1/List/ProductFamily/MDOItems?query=id
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Strosin-Effertz",
-    "ToolTip": "Rerum consequatur fuga deserunt hic.",
+    "Id": 779,
+    "Name": "Hintz, Jones and Mosciski",
+    "ToolTip": "Saepe atque quidem dignissimos sed.",
     "Deleted": false,
-    "Rank": 450,
-    "Type": "consequatur",
+    "Rank": 941,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Miller-Heathcote",
-        "ToolTip": "Quia eos doloribus.",
-        "Deleted": true,
-        "Rank": 179,
-        "Type": "in",
+        "Id": 861,
+        "Name": "Bruen Group",
+        "ToolTip": "Autem repellat quia tempore aspernatur ullam aut.",
+        "Deleted": false,
+        "Rank": 251,
+        "Type": "mollitia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "alias",
-        "ColorBlock": 309,
-        "ExtraInfo": "molestias",
-        "StyleHint": "consequatur",
-        "FullName": "Alden Kuvalis",
+        "IconHint": "in",
+        "ColorBlock": 928,
+        "ExtraInfo": "sunt",
+        "StyleHint": "omnis",
+        "FullName": "Carolyn Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 103
+            "FieldLength": 517
           }
         }
       }
     ],
-    "IconHint": "officiis",
-    "ColorBlock": 452,
-    "ExtraInfo": "ex",
-    "StyleHint": "consectetur",
-    "FullName": "Dr. Travis Bergstrom",
+    "IconHint": "earum",
+    "ColorBlock": 555,
+    "ExtraInfo": "qui",
+    "StyleHint": "esse",
+    "FullName": "Mrs. April Charlotte Brown DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldType": "System.Int32",
+        "FieldLength": 83
       }
     }
   }

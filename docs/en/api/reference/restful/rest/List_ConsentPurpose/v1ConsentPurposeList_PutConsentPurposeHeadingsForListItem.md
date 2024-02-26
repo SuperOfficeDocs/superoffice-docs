@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Senger LLC",
-    "ToolTip": "Et numquam molestias consequatur sunt.",
-    "Deleted": true,
-    "Rank": 653,
-    "Type": "temporibus",
-    "ColorBlock": 250,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "1997-03-07T16:55:30.5797906+01:00",
+    "Id": 278,
+    "Name": "Hauck-Hessel",
+    "ToolTip": "Omnis consequuntur suscipit dolor.",
+    "Deleted": false,
+    "Rank": 996,
+    "Type": "officia",
+    "ColorBlock": 658,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2002-08-21T10:30:32.9118319+02:00",
     "ChildItems": [
       {
-        "Id": 655,
-        "Name": "Bergnaum Group",
-        "ToolTip": "Ea adipisci est ab et odit deserunt sed.",
-        "Deleted": false,
-        "Rank": 801,
-        "Type": "assumenda",
-        "ColorBlock": 525,
-        "IconHint": "necessitatibus",
+        "Id": 288,
+        "Name": "Gusikowski Inc and Sons",
+        "ToolTip": "Ea et assumenda quam.",
+        "Deleted": true,
+        "Rank": 663,
+        "Type": "sint",
+        "ColorBlock": 369,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2023-08-18T16:55:30.5797906+02:00",
+        "LastChanged": "2021-02-04T10:30:32.9118319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Mrs. Mariano Runte"
+        "ExtraInfo": "eum",
+        "StyleHint": "fugit",
+        "Hidden": true,
+        "FullName": "Nathanael Barton"
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "nisi",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Wilhelm Howe MD"
+    "FullName": "Kimberly Nolan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Parker, Frami and O'Kon",
-    "ToolTip": "Eveniet hic quia iure eos rerum totam officia.",
-    "Deleted": false,
-    "Rank": 459,
-    "Type": "enim",
-    "ColorBlock": 414,
-    "IconHint": "voluptates",
+    "Id": 181,
+    "Name": "Marquardt Inc and Sons",
+    "ToolTip": "Rerum repellat voluptas dolorem quos sapiente.",
+    "Deleted": true,
+    "Rank": 884,
+    "Type": "omnis",
+    "ColorBlock": 723,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2014-12-15T16:55:30.5808026+01:00",
+    "LastChanged": "2003-05-25T10:30:32.9118319+02:00",
     "ChildItems": [
       {
-        "Id": 898,
-        "Name": "Schoen Inc and Sons",
-        "ToolTip": "Aperiam animi debitis est minus totam itaque aut.",
-        "Deleted": true,
-        "Rank": 444,
-        "Type": "et",
-        "ColorBlock": 338,
-        "IconHint": "et",
+        "Id": 64,
+        "Name": "Goodwin Group",
+        "ToolTip": "Unde occaecati qui est velit explicabo voluptatem.",
+        "Deleted": false,
+        "Rank": 623,
+        "Type": "necessitatibus",
+        "ColorBlock": 366,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2023-03-31T16:55:30.5817941+02:00",
+        "LastChanged": "2018-01-23T10:30:32.9118319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Prof. Gwen Cartwright MD",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Haleigh O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Shannon Della Hoppe III",
+    "ExtraInfo": "dolores",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Viva Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 900
+        "FieldLength": 934
       }
     }
   }

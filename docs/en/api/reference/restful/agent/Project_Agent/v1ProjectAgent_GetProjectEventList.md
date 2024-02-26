@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,34 +102,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Dee Rath",
-    "Description": "Devolved object-oriented attitude",
-    "ProjectId": 372,
-    "EventName": "Dibbert, Denesik and Leannon",
-    "AssociateId": 212,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "odio",
-    "SignOffText": "quis",
+    "AssociateFullName": "Dale O'Keefe",
+    "Description": "Mandatory human-resource support",
+    "ProjectId": 692,
+    "EventName": "Deckow-Rodriguez",
+    "AssociateId": 124,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "excepturi",
+    "SignOffText": "cum",
     "SignOnConfirmationText": "officia",
-    "SignOnText": "nobis",
-    "EventDate": "2012-05-18T16:54:56.0651395+02:00",
-    "Enabled": true,
-    "SignOff": true,
-    "SignOffTaskEnable": true,
+    "SignOnText": "eos",
+    "EventDate": "2011-09-15T10:30:24.3549569+02:00",
+    "Enabled": false,
+    "SignOff": false,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": true,
-    "SignOn": true,
-    "SignOffTaskId": 101,
-    "SignOnTaskId": 65,
-    "SignOffTriggersAssign": true,
+    "SignOn": false,
+    "SignOffTaskId": 744,
+    "SignOnTaskId": 553,
+    "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
     "SignOnPersonId": 954,
-    "SignOffPersonId": 594,
+    "SignOffPersonId": 157,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldType": "System.String",
+        "FieldLength": 527
       }
     }
   }

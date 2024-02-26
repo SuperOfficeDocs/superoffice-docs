@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 962,
-  "Name": "Blick LLC",
+  "SelectionId": 624,
+  "Name": "Emard-Carroll",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive fresh-thinking leverage",
-  "Postit": "modi",
+  "Description": "Object-based discrete capability",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 702,
-  "IncludePerson": 375,
-  "MemberCount": 193,
-  "Name": "Volkman, McKenzie and Schroeder",
-  "PostitTextId": 196,
-  "CreatedDate": "2007-10-08T16:54:56.3285019+02:00",
-  "SelectionId": 935,
-  "SoundEx": "qui",
-  "Source": 781,
-  "TextId": 16,
-  "UpdatedDate": "2002-10-12T16:54:56.3285019+02:00",
-  "UpdatedCount": 727,
-  "Visibility": 815,
+  "GroupIdx": 190,
+  "IncludePerson": 872,
+  "MemberCount": 304,
+  "Name": "Cronin-O'Connell",
+  "PostitTextId": 692,
+  "CreatedDate": "2017-05-05T10:30:24.7017104+02:00",
+  "SelectionId": 575,
+  "SoundEx": "molestiae",
+  "Source": 859,
+  "TextId": 549,
+  "UpdatedDate": "2014-06-17T10:30:24.7017104+02:00",
+  "UpdatedCount": 596,
+  "Visibility": 211,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 698,
-  "TargetTableName": "Cremin-Hansen",
-  "Completed": true,
-  "LeftSelectionId": 277,
-  "RightSelectionId": 441,
+  "CompanyUnique": true,
+  "TargetTableNumber": 619,
+  "TargetTableName": "Turcotte-Baumbach",
+  "Completed": false,
+  "LeftSelectionId": 634,
+  "RightSelectionId": 882,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Blick Inc and Sons",
-  "ShadowProviderName": "Herzog Group",
-  "ChartKey": "rerum",
-  "LastLoaded": "1998-01-24T16:54:56.3285019+01:00",
-  "LastLoadedBy": 526,
+  "MainProviderName": "Ernser LLC",
+  "ShadowProviderName": "Kutch, Schultz and Dietrich",
+  "ChartKey": "modi",
+  "LastLoaded": "2015-11-03T10:30:24.7017104+01:00",
+  "LastLoadedBy": 988,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-08-29T16:54:56.3295025+02:00",
-  "LastMembershipChangeBy": 227,
+  "LastMembershipChange": "2015-06-20T10:30:24.7017104+02:00",
+  "LastMembershipChangeBy": 658,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "aliquid",
-  "MailingsProviderName": "Schmeler, Daniel and Hansen",
-  "DashboardTileDefinitionId": 538,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Lowe, Jast and Harvey",
+  "DashboardTileDefinitionId": 943,
   "VisibleFor": [
     {
-      "VisibleId": 724,
+      "VisibleId": 943,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 920
+          "FieldLength": 263
         }
       }
     },
     {
-      "VisibleId": 724,
+      "VisibleId": 943,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 920
+          "FieldLength": 263
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 481
     }
   }
 }

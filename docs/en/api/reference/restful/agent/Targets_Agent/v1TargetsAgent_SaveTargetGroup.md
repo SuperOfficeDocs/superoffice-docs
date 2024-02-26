@@ -77,24 +77,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 693,
-  "Year": 725,
+  "TargetGroupId": 875,
+  "Year": 87,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 681,
+      "TargetAssignmentInfoId": 148,
       "Values": [
-        797,
-        592
+        372,
+        283
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 137,
-      "DimensionListItemDisplayName": "Fahey LLC"
+      "DimensionListItem": 999,
+      "DimensionListItemDisplayName": "McLaughlin, Windler and Jones"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 685,
-  "Year": 787,
+  "TargetGroupId": 955,
+  "Year": 51,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 535,
+      "TargetAssignmentInfoId": 958,
       "Values": [
-        182,
-        132
+        218,
+        999
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 162,
-      "DimensionListItemDisplayName": "Bode-Toy",
+      "DimensionListItem": 814,
+      "DimensionListItemDisplayName": "Rowe Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 21
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 715
     }
   }
 }

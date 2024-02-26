@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Predovic Group",
-    "DisplayName": "Wehner-Bernhard",
-    "Description": "Universal zero defect strategy",
-    "ShortLabel": "repudiandae",
+    "FieldName": "McDermott-Greenholt",
+    "DisplayName": "Torphy LLC",
+    "Description": "Polarised 6th generation productivity",
+    "ShortLabel": "quae",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 718,
-    "TemplateVariableName": "Swift-Simonis"
+    "Rank": 157,
+    "TemplateVariableName": "Reynolds, Thiel and Hayes"
   }
 ]
 ```

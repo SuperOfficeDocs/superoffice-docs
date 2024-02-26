@@ -54,6 +54,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -63,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 753,
-  "Name": "Schinner, Fritsch and Nikolaus",
-  "ContentType": "quo",
-  "AttSize": 411,
-  "InlineImage": false,
-  "ContentId": "iusto",
-  "AuthKey": "dolore",
+  "AttachmentId": 329,
+  "Name": "Russel, Gutkowski and Senger",
+  "ContentType": "ut",
+  "AttSize": 122,
+  "InlineImage": true,
+  "ContentId": "possimus",
+  "AuthKey": "id",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 442
     }
   }
 }

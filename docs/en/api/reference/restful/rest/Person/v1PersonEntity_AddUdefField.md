@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 818,
-  "ColumnId": 323,
-  "FieldDefault": "officia",
-  "FieldHeight": 182,
-  "FieldLabel": "impedit",
-  "FieldLeft": 656,
-  "FieldTop": 936,
+  "UDefFieldId": 37,
+  "ColumnId": 206,
+  "FieldDefault": "ratione",
+  "FieldHeight": 617,
+  "FieldLabel": "molestiae",
+  "FieldLeft": 368,
+  "FieldTop": 152,
   "FieldType": "Checkbox",
-  "FieldWidth": 992,
-  "FormatMask": "minus",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 394,
-  "LabelLeft": 741,
-  "LabelTop": 842,
-  "LabelWidth": 911,
-  "LastVersionId": 860,
-  "ListTableId": 481,
+  "FieldWidth": 174,
+  "FormatMask": "nihil",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 338,
+  "LabelLeft": 120,
+  "LabelTop": 299,
+  "LabelWidth": 78,
+  "LastVersionId": 130,
+  "ListTableId": 248,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 836,
-  "ProgId": "similique",
+  "Page1LineNo": 156,
+  "ProgId": "laborum",
   "IsReadOnly": false,
-  "ShortLabel": "commodi",
-  "TabOrder": 803,
-  "TextLength": 200,
-  "Tooltip": "quia",
-  "UdefIdentity": 25,
-  "UDListDefinitionId": 640,
+  "ShortLabel": "delectus",
+  "TabOrder": 955,
+  "TextLength": 605,
+  "Tooltip": "quasi",
+  "UdefIdentity": 3,
+  "UDListDefinitionId": 722,
   "Justification": "Center",
-  "Version": 302,
-  "TemplateVariableName": "Schaefer, Leuschke and Homenick",
+  "Version": 827,
+  "TemplateVariableName": "Torp Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Kuhn-Boyer",
+  "MdoListName": "Hansen, Hintz and Greenfelder",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

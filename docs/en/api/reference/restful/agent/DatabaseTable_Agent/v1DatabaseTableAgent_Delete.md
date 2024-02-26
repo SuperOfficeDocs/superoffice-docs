@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dibbert, Hermann and Kertzmann",
+  "TableName": "Paucek, Volkman and Stamm",
   "IDs": [
-    624,
-    534
+    415,
+    358
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "adipisci",
-  "Inserts": 109,
-  "Updates": 488,
-  "Deletes": 118,
+  "Success": true,
+  "Message": "enim",
+  "Inserts": 490,
+  "Updates": 673,
+  "Deletes": 102,
   "RowStatus": [
     {
-      "PrimaryKey": 570,
+      "PrimaryKey": 757,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "provident",
-        "et"
+        "cupiditate",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 950
         }
       }
     },
     {
-      "PrimaryKey": 570,
+      "PrimaryKey": 757,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "provident",
-        "et"
+        "cupiditate",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 950
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 932
     }
   }
 }

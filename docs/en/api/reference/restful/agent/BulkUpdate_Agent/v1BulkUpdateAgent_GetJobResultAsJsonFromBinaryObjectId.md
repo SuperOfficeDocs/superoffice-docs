@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhlman, Kunze and Robel",
-  "BinaryObjectId": 995
+  "TableName": "McLaughlin Inc and Sons",
+  "BinaryObjectId": 421
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequatur"
+"beatae"
 ```

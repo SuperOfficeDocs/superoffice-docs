@@ -79,15 +79,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 207,
+  "DashboardTileDefinitionId": 389,
   "Languages": [
     {
-      "LanguageCode": "recusandae",
-      "Html": "quisquam"
+      "LanguageCode": "nulla",
+      "Html": "suscipit"
     },
     {
-      "LanguageCode": "recusandae",
-      "Html": "quisquam"
+      "LanguageCode": "nulla",
+      "Html": "suscipit"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "ea",
-    "Html": "nisi",
+    "LanguageCode": "quis",
+    "Html": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 838
       }
     }
   },
   {
-    "LanguageCode": "ea",
-    "Html": "nisi",
+    "LanguageCode": "quis",
+    "Html": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 838
       }
     }
   }

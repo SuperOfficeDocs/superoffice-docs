@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=33
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=199
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 329,
-  "ParentId": 122,
-  "Name": "Huel Inc and Sons",
-  "Fullname": "sit",
-  "CategoryMaster": 940,
+  "TicketCategoryId": 256,
+  "ParentId": 88,
+  "Name": "Schuppe LLC",
+  "Fullname": "veniam",
+  "CategoryMaster": 438,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gutkowski-Gleason",
+  "ExternalName": "Schmeler LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 960,
-  "ReplyTemplate": 548,
-  "NotificationEmail": "lysanne.collins@terrygoldner.biz",
+  "AssignmentLag": 740,
+  "ReplyTemplate": 111,
+  "NotificationEmail": "melba@bednar.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 333,
+  "EffectiveReplyTemplateId": 10,
   "ExtraFields": {
-    "ExtraFields1": "error",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "fuga"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldType": "System.Int32",
+      "FieldLength": 382
     }
   }
 }

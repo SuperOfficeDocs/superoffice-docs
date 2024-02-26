@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Ruecker Group",
-  "OldPassword": "aut",
-  "NewPassword": "quis"
+  "AssociateName": "Lakin Inc and Sons",
+  "OldPassword": "ut",
+  "NewPassword": "quo"
 }
 ```
 

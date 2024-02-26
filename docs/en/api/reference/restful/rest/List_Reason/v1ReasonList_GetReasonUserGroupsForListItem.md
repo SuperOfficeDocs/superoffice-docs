@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Predovic, Gleason and Miller",
-    "ToolTip": "Et aut magnam.",
+    "Id": 347,
+    "Name": "Wisoky-Haag",
+    "ToolTip": "Laborum placeat et blanditiis.",
     "Deleted": false,
-    "Rank": 85,
-    "Type": "voluptate",
-    "ColorBlock": 934,
-    "IconHint": "sed",
+    "Rank": 451,
+    "Type": "mollitia",
+    "ColorBlock": 464,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2017-10-12T16:55:31.0151823+02:00",
+    "LastChanged": "2011-03-28T10:30:33.1943329+02:00",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "Barton Inc and Sons",
-        "ToolTip": "Enim soluta iste earum cum.",
-        "Deleted": false,
-        "Rank": 471,
-        "Type": "velit",
-        "ColorBlock": 772,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2020-05-08T16:55:31.0151823+02:00",
+        "Id": 233,
+        "Name": "Price Group",
+        "ToolTip": "Illo beatae ipsum.",
+        "Deleted": true,
+        "Rank": 933,
+        "Type": "voluptate",
+        "ColorBlock": 125,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2022-11-05T10:30:33.1943329+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Miss Raven Schultz DVM",
+        "ExtraInfo": "velit",
+        "StyleHint": "error",
+        "Hidden": false,
+        "FullName": "Jackie Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 441
+            "FieldType": "System.Int32",
+            "FieldLength": 745
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "cum",
-    "Hidden": false,
-    "FullName": "Austen Heidenreich",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Dr. Everett Marques Beier DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldType": "System.String",
+        "FieldLength": 173
       }
     }
   }

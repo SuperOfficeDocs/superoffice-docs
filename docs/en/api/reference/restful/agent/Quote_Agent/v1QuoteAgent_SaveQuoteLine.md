@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 24,
-  "ERPQuoteLineKey": "tempora",
-  "QuoteAlternativeId": 895,
-  "ERPProductKey": "ipsa",
+  "QuoteLineId": 536,
+  "ERPQuoteLineKey": "sed",
+  "QuoteAlternativeId": 569,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 4368.796,
-  "DeliveredQuantity": 2344.232,
-  "Rank": 775,
-  "Name": "Rosenbaum LLC",
-  "Description": "Organic motivating algorithm",
-  "Code": "error",
-  "QuantityUnit": "et",
-  "PriceUnit": "cum",
-  "ItemNumber": "1116426",
+  "Quantity": 12564.206,
+  "DeliveredQuantity": 5841.776,
+  "Rank": 28,
+  "Name": "Baumbach LLC",
+  "Description": "Synergistic next generation software",
+  "Code": "necessitatibus",
+  "QuantityUnit": "illo",
+  "PriceUnit": "dolorem",
+  "ItemNumber": "493064",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "itaque",
-  "ProductTypeKey": "ea",
-  "Supplier": "nisi",
-  "SupplierCode": "animi",
-  "Thumbnail": "non",
-  "VATInfo": "iusto",
-  "VAT": 26635.865999999998,
-  "UnitCost": 1479.248,
-  "UnitMinimumPrice": 28691.77,
-  "UnitListPrice": 341.606,
+  "ProductFamilyKey": "incidunt",
+  "ProductTypeKey": "necessitatibus",
+  "Supplier": "eligendi",
+  "SupplierCode": "doloribus",
+  "Thumbnail": "quos",
+  "VATInfo": "totam",
+  "VAT": 8815.942,
+  "UnitCost": 20198.63,
+  "UnitMinimumPrice": 4475.352,
+  "UnitListPrice": 28716.842,
   "ExtraInfo": [
     {
-      "Name": "Medhurst Inc and Sons",
-      "Value": "architecto",
+      "Name": "Considine-Langworth",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldType": "System.String",
+          "FieldLength": 694
         }
       }
     },
     {
-      "Name": "Medhurst Inc and Sons",
-      "Value": "architecto",
+      "Name": "Considine-Langworth",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldType": "System.String",
+          "FieldLength": 694
         }
       }
     }
   ],
-  "RawExtraInfo": "temporibus",
+  "RawExtraInfo": "harum",
   "IsSubscription": false,
-  "SubscriptionUnit": "officiis",
-  "SubscriptionQuantity": 27406.829999999998,
-  "SubscriptionStart": "2011-01-11T16:54:56.1579756+01:00",
-  "ERPDiscountPercent": 29356.178,
-  "ERPDiscountAmount": 28074.372,
-  "DiscountPercent": 30330.852,
-  "DiscountAmount": 29914.03,
+  "SubscriptionUnit": "cum",
+  "SubscriptionQuantity": 13071.913999999999,
+  "SubscriptionStart": "2011-02-04T10:30:24.4502511+01:00",
+  "ERPDiscountPercent": 16378.284,
+  "ERPDiscountAmount": 7111.0459999999994,
+  "DiscountPercent": 21565.054,
+  "DiscountAmount": 1918.008,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 4343.724,
-  "EarningAmount": 29635.104,
-  "SubTotal": 25617.316,
-  "TotalPrice": 28039.897999999997,
-  "Rights": "officia",
-  "Rule": "doloremque",
-  "ExtraField1": "ab",
+  "EarningPercent": 26548.113999999998,
+  "EarningAmount": 460.698,
+  "SubTotal": 25864.902,
+  "TotalPrice": 21765.63,
+  "Rights": "aliquam",
+  "Rule": "cumque",
+  "ExtraField1": "nostrum",
   "ExtraField2": "et",
-  "ExtraField3": "voluptate",
-  "ExtraField4": "assumenda",
-  "ExtraField5": "consequatur",
+  "ExtraField3": "beatae",
+  "ExtraField4": "esse",
+  "ExtraField5": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldType": "System.String",
+      "FieldLength": 225
     }
   }
 }

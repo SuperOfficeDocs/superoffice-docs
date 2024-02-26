@@ -74,15 +74,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Waelchi-Sauer",
-  "DeviceName": "Shields-Murazik",
-  "KeyName": "Parisian Inc and Sons",
-  "TableName": "Trantow LLC",
-  "RecordId": 556
+  "ApplicationName": "Stamm-Hyatt",
+  "DeviceName": "Osinski, Lindgren and Sanford",
+  "KeyName": "Purdy, Heller and Will",
+  "TableName": "Feeney-Nienow",
+  "RecordId": 6
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"cumque"
+"consequatur"
 ```

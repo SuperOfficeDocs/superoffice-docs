@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 803,
-  "Name": "Donnelly Group",
-  "Tooltip": "quod",
-  "Rank": 548,
-  "Rate": 2554.21,
-  "Units": 3632.306,
+  "CurrencyId": 505,
+  "Name": "Lockman, Farrell and Jast",
+  "Tooltip": "aut",
+  "Rank": 905,
+  "Rate": 16046.08,
+  "Units": 20775.286,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 72,
-  "Name": "Becker-Ernser",
-  "Tooltip": "culpa",
-  "Rank": 655,
-  "Rate": 16613.334,
-  "Units": 7499.6619999999994,
+  "CurrencyId": 267,
+  "Name": "Homenick-Ward",
+  "Tooltip": "ullam",
+  "Rank": 461,
+  "Rate": 9151.2799999999988,
+  "Units": 17478.318,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 999
     }
   }
 }

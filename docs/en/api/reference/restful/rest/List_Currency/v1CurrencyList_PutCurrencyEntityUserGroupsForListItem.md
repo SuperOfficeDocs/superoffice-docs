@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Nicolas Inc and Sons",
-    "ToolTip": "Tempore nobis sint eos facere.",
+    "Id": 163,
+    "Name": "Tillman-Wolff",
+    "ToolTip": "Qui inventore explicabo vitae eligendi dolor rerum.",
     "Deleted": false,
-    "Rank": 699,
-    "Type": "rerum",
-    "ColorBlock": 265,
+    "Rank": 26,
+    "Type": "odio",
+    "ColorBlock": 292,
     "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2003-06-10T16:55:30.6333021+02:00",
+    "Selected": false,
+    "LastChanged": "2019-06-01T10:30:32.9587082+02:00",
     "ChildItems": [
       {
-        "Id": 416,
-        "Name": "Wuckert Group",
-        "ToolTip": "Sint unde et qui accusamus ullam debitis.",
-        "Deleted": false,
-        "Rank": 100,
-        "Type": "alias",
-        "ColorBlock": 369,
-        "IconHint": "minima",
+        "Id": 326,
+        "Name": "Yost, Mann and Stokes",
+        "ToolTip": "Eum laboriosam quo eius.",
+        "Deleted": true,
+        "Rank": 181,
+        "Type": "cumque",
+        "ColorBlock": 682,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2016-06-26T16:55:30.6333021+02:00",
+        "LastChanged": "2014-05-25T10:30:32.9587082+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "vitae",
+        "ExtraInfo": "omnis",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Lila Dulce Ratke I"
+        "FullName": "Karley Wiegand"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "possimus",
+    "ExtraInfo": "dolor",
+    "StyleHint": "enim",
     "Hidden": true,
-    "FullName": "Mrs. Grayson Jenkins"
+    "FullName": "Ariel Kacie Kunde V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "Ullrich Inc and Sons",
-    "ToolTip": "Iusto ut sit ducimus quia.",
-    "Deleted": false,
-    "Rank": 851,
-    "Type": "occaecati",
-    "ColorBlock": 527,
-    "IconHint": "pariatur",
+    "Id": 39,
+    "Name": "Deckow, Feeney and Pacocha",
+    "ToolTip": "Eum et blanditiis.",
+    "Deleted": true,
+    "Rank": 226,
+    "Type": "dolores",
+    "ColorBlock": 648,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2008-08-20T16:55:30.6342169+02:00",
+    "LastChanged": "1997-03-08T10:30:32.9587082+01:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Gottlieb-Stroman",
-        "ToolTip": "Omnis laudantium quis dignissimos autem recusandae odio repellat.",
-        "Deleted": true,
-        "Rank": 158,
-        "Type": "et",
-        "ColorBlock": 722,
-        "IconHint": "natus",
-        "Selected": false,
-        "LastChanged": "2015-06-03T16:55:30.6352172+02:00",
+        "Id": 219,
+        "Name": "Weber, Ledner and Sauer",
+        "ToolTip": "Magnam necessitatibus facilis totam.",
+        "Deleted": false,
+        "Rank": 803,
+        "Type": "facilis",
+        "ColorBlock": 577,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2014-10-18T10:30:32.9587082+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "odio",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Lilliana Cummings",
+        "FullName": "Alec Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 592
+            "FieldType": "System.Int32",
+            "FieldLength": 774
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Lewis Gulgowski",
+    "ExtraInfo": "iusto",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Dr. Roslyn Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

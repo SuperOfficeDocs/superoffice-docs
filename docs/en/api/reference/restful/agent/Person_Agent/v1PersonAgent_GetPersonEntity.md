@@ -26,7 +26,7 @@ Gets a PersonEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPersonEntity?personEntityId=672
+POST /api/v1/Agents/Person/GetPersonEntity?personEntityId=497
 POST /api/v1/Agents/Person/GetPersonEntity?$select=name,department,category/id
 ```
 
@@ -129,7 +129,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -139,182 +139,182 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 54,
-  "Firstname": "Beatrice",
-  "MiddleName": "Marquardt-Mayert",
-  "Lastname": "Krajcik",
-  "Mrmrs": "voluptatum",
-  "Title": "dolorum",
-  "UpdatedDate": "2013-02-22T16:54:55.7217556+01:00",
-  "CreatedDate": "2023-10-18T16:54:55.7217556+02:00",
-  "BirthDate": "2000-03-21T16:54:55.7217556+01:00",
+  "PersonId": 372,
+  "Firstname": "Daija",
+  "MiddleName": "Hickle, Pollich and Wehner",
+  "Lastname": "Hessel",
+  "Mrmrs": "deserunt",
+  "Title": "qui",
+  "UpdatedDate": "2011-07-27T10:30:24.1662608+02:00",
+  "CreatedDate": "2017-10-16T10:30:24.1662608+02:00",
+  "BirthDate": "2002-02-07T10:30:24.1662608+01:00",
   "CreatedBy": null,
   "Emails": [
     {
-      "Value": "dolor",
-      "StrippedValue": "nihil",
-      "Description": "Reverse-engineered assymetric hierarchy",
+      "Value": "sequi",
+      "StrippedValue": "labore",
+      "Description": "Profound value-added capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 444
+          "FieldType": "System.Int32",
+          "FieldLength": 64
         }
       }
     },
     {
-      "Value": "dolor",
-      "StrippedValue": "nihil",
-      "Description": "Reverse-engineered assymetric hierarchy",
+      "Value": "sequi",
+      "StrippedValue": "labore",
+      "Description": "Profound value-added capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 444
+          "FieldType": "System.Int32",
+          "FieldLength": 64
         }
       }
     }
   ],
-  "Description": "Realigned bifurcated encryption",
-  "IsAssociate": false,
+  "Description": "Cross-platform background benchmark",
+  "IsAssociate": true,
   "PrivatePhones": [
     {
-      "Value": "ut",
-      "StrippedValue": "expedita",
-      "Description": "Monitored coherent migration",
+      "Value": "corporis",
+      "StrippedValue": "aut",
+      "Description": "Reactive systemic alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldLength": 975
         }
       }
     },
     {
-      "Value": "ut",
-      "StrippedValue": "expedita",
-      "Description": "Monitored coherent migration",
+      "Value": "corporis",
+      "StrippedValue": "aut",
+      "Description": "Reactive systemic alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 596
+          "FieldLength": 975
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "similique",
-      "StrippedValue": "nostrum",
-      "Description": "Extended modular architecture",
+      "Value": "laboriosam",
+      "StrippedValue": "qui",
+      "Description": "Automated composite functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     },
     {
-      "Value": "similique",
-      "StrippedValue": "nostrum",
-      "Description": "Extended modular architecture",
+      "Value": "laboriosam",
+      "StrippedValue": "qui",
+      "Description": "Automated composite functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldType": "System.Int32",
+          "FieldLength": 236
         }
       }
     }
   ],
   "MobilePhones": [
     {
-      "Value": "dolores",
-      "StrippedValue": "non",
-      "Description": "Ergonomic systemic collaboration",
+      "Value": "sapiente",
+      "StrippedValue": "eaque",
+      "Description": "Face to face radical project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 373
         }
       }
     },
     {
-      "Value": "dolores",
-      "StrippedValue": "non",
-      "Description": "Ergonomic systemic collaboration",
+      "Value": "sapiente",
+      "StrippedValue": "eaque",
+      "Description": "Face to face radical project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 373
         }
       }
     }
   ],
   "OfficePhones": [
     {
-      "Value": "inventore",
-      "StrippedValue": "vel",
-      "Description": "User-friendly human-resource workforce",
+      "Value": "facilis",
+      "StrippedValue": "fugiat",
+      "Description": "Synchronised mission-critical pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 727
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     },
     {
-      "Value": "inventore",
-      "StrippedValue": "vel",
-      "Description": "User-friendly human-resource workforce",
+      "Value": "facilis",
+      "StrippedValue": "fugiat",
+      "Description": "Synchronised mission-critical pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 727
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     }
   ],
   "OtherPhones": [
     {
-      "Value": "deserunt",
-      "StrippedValue": "et",
-      "Description": "Ergonomic actuating capacity",
+      "Value": "eaque",
+      "StrippedValue": "optio",
+      "Description": "Assimilated intangible Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     },
     {
-      "Value": "deserunt",
-      "StrippedValue": "et",
-      "Description": "Ergonomic actuating capacity",
+      "Value": "eaque",
+      "StrippedValue": "optio",
+      "Description": "Assimilated intangible Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     }
@@ -325,228 +325,228 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Interests": [
     {
-      "Id": 737,
-      "Name": "Kuvalis, Feest and Swift",
-      "ToolTip": "Dolorem eum rerum consectetur quia animi velit dolor.",
-      "Deleted": true,
-      "Rank": 383,
-      "Type": "autem",
-      "ColorBlock": 811,
-      "IconHint": "facilis",
+      "Id": 772,
+      "Name": "Renner-Jenkins",
+      "ToolTip": "Occaecati officia aliquid distinctio.",
+      "Deleted": false,
+      "Rank": 893,
+      "Type": "vel",
+      "ColorBlock": 994,
+      "IconHint": "molestias",
       "Selected": true,
-      "LastChanged": "2003-07-30T16:54:55.7277244+02:00",
+      "LastChanged": "1997-01-20T10:30:24.1662608+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "atque",
+      "ExtraInfo": "quas",
+      "StyleHint": "mollitia",
       "Hidden": false,
-      "FullName": "Ms. Dave Linnie Mann",
+      "FullName": "Murray Donnelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldType": "System.String",
+          "FieldLength": 597
         }
       }
     }
   ],
-  "PersonNumber": "1254675",
-  "FullName": "Tiffany Kiehn",
+  "PersonNumber": "379119",
+  "FullName": "Otilia Osinski",
   "NoMailing": false,
   "UsePersonAddress": false,
-  "Retired": true,
+  "Retired": false,
   "Urls": [
     {
-      "Value": "ut",
-      "StrippedValue": "praesentium",
-      "Description": "Right-sized content-based local area network",
+      "Value": "consequuntur",
+      "StrippedValue": "sint",
+      "Description": "User-centric uniform model",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldLength": 213
         }
       }
     },
     {
-      "Value": "ut",
-      "StrippedValue": "praesentium",
-      "Description": "Right-sized content-based local area network",
+      "Value": "consequuntur",
+      "StrippedValue": "sint",
+      "Description": "User-centric uniform model",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldLength": 213
         }
       }
     }
   ],
-  "FormalName": "Batz-Gusikowski",
+  "FormalName": "Von-Howe",
   "Address": null,
-  "Post3": "fugit",
-  "Post2": "sit",
-  "Post1": "amet",
-  "Kanalname": "molestiae",
-  "Kanafname": "unde",
+  "Post3": "voluptas",
+  "Post2": "est",
+  "Post1": "architecto",
+  "Kanalname": "mollitia",
+  "Kanafname": "recusandae",
   "CorrespondingAssociate": null,
   "Category": null,
   "Business": null,
   "Associate": null,
-  "Salutation": "pariatur",
-  "ActiveInterests": 11,
+  "Salutation": "rem",
+  "ActiveInterests": 716,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "DbiAgentId": 208,
-  "DbiKey": "incidunt",
-  "DbiLastModified": "2001-01-18T16:54:55.7297265+01:00",
-  "DbiLastSyncronized": "2015-08-10T16:54:55.7297265+02:00",
-  "SentInfo": 880,
-  "ShowContactTickets": 154,
+  "DbiAgentId": 174,
+  "DbiKey": "qui",
+  "DbiLastModified": "2012-03-10T10:30:24.1818956+01:00",
+  "DbiLastSyncronized": "2009-10-20T10:30:24.1818956+02:00",
+  "SentInfo": 242,
+  "ShowContactTickets": 429,
   "UserInfo": null,
   "ChatEmails": [
     {
-      "Value": "sapiente",
-      "StrippedValue": "placeat",
-      "Description": "Advanced zero defect analyzer",
+      "Value": "qui",
+      "StrippedValue": "ut",
+      "Description": "Extended 4th generation circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 605
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     },
     {
-      "Value": "sapiente",
-      "StrippedValue": "placeat",
-      "Description": "Advanced zero defect analyzer",
+      "Value": "qui",
+      "StrippedValue": "ut",
+      "Description": "Extended 4th generation circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 605
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     }
   ],
   "InternetPhones": [
     {
-      "Value": "maiores",
-      "StrippedValue": "eius",
-      "Description": "Pre-emptive tertiary conglomeration",
+      "Value": "ad",
+      "StrippedValue": "placeat",
+      "Description": "Focused dynamic algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 64
         }
       }
     },
     {
-      "Value": "maiores",
-      "StrippedValue": "eius",
-      "Description": "Pre-emptive tertiary conglomeration",
+      "Value": "ad",
+      "StrippedValue": "placeat",
+      "Description": "Focused dynamic algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 64
         }
       }
     }
   ],
-  "Source": 466,
-  "ActiveErpLinks": 759,
+  "Source": 56,
+  "ActiveErpLinks": 677,
   "ShipmentTypes": [
     {
-      "Id": 660,
-      "Name": "Tillman-Conn",
-      "ToolTip": "Rerum laudantium nobis quia libero quasi commodi minima.",
-      "Deleted": false,
-      "Rank": 735,
-      "Type": "aut",
-      "ColorBlock": 421,
-      "IconHint": "optio",
-      "Selected": false,
-      "LastChanged": "2004-05-04T16:54:55.7297265+02:00",
+      "Id": 970,
+      "Name": "Ankunding Inc and Sons",
+      "ToolTip": "Nihil in.",
+      "Deleted": true,
+      "Rank": 962,
+      "Type": "sapiente",
+      "ColorBlock": 552,
+      "IconHint": "nihil",
+      "Selected": true,
+      "LastChanged": "1998-12-17T10:30:24.1818956+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "quo",
-      "Hidden": false,
-      "FullName": "Dr. Wilfredo Considine V",
+      "ExtraInfo": "fugit",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Weston Kunze",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 515
         }
       }
     }
   ],
   "Consents": [
     {
-      "ConsentPersonId": 549,
-      "Comment": "suscipit",
-      "Registered": "2007-03-07T16:54:55.7297265+01:00",
-      "RegisteredAssociateId": 827,
-      "Updated": "2022-03-30T16:54:55.7297265+02:00",
-      "UpdatedAssociateId": 238,
-      "LegalBaseId": 874,
-      "LegalBaseKey": "nulla",
-      "LegalBaseName": "Price Inc and Sons",
-      "ConsentPurposeId": 786,
-      "ConsentPurposeKey": "doloremque",
-      "ConsentPurposeName": "Cummerata, Kilback and Grant",
-      "ConsentSourceId": 410,
-      "ConsentSourceKey": "dolor",
-      "ConsentSourceName": "Osinski, Feest and Schumm",
+      "ConsentPersonId": 558,
+      "Comment": "culpa",
+      "Registered": "2007-02-02T10:30:24.1818956+01:00",
+      "RegisteredAssociateId": 917,
+      "Updated": "2023-10-12T10:30:24.1818956+02:00",
+      "UpdatedAssociateId": 971,
+      "LegalBaseId": 459,
+      "LegalBaseKey": "et",
+      "LegalBaseName": "Upton-Halvorson",
+      "ConsentPurposeId": 383,
+      "ConsentPurposeKey": "ratione",
+      "ConsentPurposeName": "Gibson-Daniel",
+      "ConsentSourceId": 879,
+      "ConsentSourceKey": "aut",
+      "ConsentSourceName": "Miller Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 630
+          "FieldType": "System.String",
+          "FieldLength": 35
         }
       }
     }
   ],
   "BounceEmails": [
-    "vernie@strackestokes.com",
-    "jeramy_windler@luettgendouglas.info"
+    "sherwood_wisozk@kovacekchamplin.biz",
+    "marilyne.anderson@koepp.co.uk"
   ],
-  "ActiveStatusMonitorId": 527,
+  "ActiveStatusMonitorId": 102,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Eugenia Toy",
-    "SuperOffice:2": "Melany Gottlieb"
+    "SuperOffice:1": "Jerome Predovic III",
+    "SuperOffice:2": "874854496"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
+    "ExtraFields1": "repellendus",
     "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "tempore"
+    "CustomFields1": "non",
+    "CustomFields2": "exercitationem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   }
 }

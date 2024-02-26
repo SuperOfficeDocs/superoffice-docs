@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=et
+GET /api/v1/List/ProductType/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 599,
-    "Name": "Kohler-Douglas",
-    "ToolTip": "Nihil veniam non ipsa similique illo ut.",
+    "Id": 343,
+    "Name": "Ebert, Denesik and Gleason",
+    "ToolTip": "Ipsum natus aliquid deserunt ea.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "quo",
+    "Rank": 106,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Wiegand-Hand",
-        "ToolTip": "Provident amet vero eligendi velit accusamus.",
+        "Id": 426,
+        "Name": "Collins-Altenwerth",
+        "ToolTip": "Consequuntur qui est optio consectetur atque qui harum.",
         "Deleted": false,
-        "Rank": 396,
-        "Type": "explicabo",
+        "Rank": 310,
+        "Type": "reprehenderit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptate",
-        "ColorBlock": 220,
-        "ExtraInfo": "qui",
-        "StyleHint": "ipsum",
-        "FullName": "Ova Kautzer",
+        "IconHint": "occaecati",
+        "ColorBlock": 947,
+        "ExtraInfo": "dolores",
+        "StyleHint": "est",
+        "FullName": "John Magali Deckow Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 746
           }
         }
       }
     ],
-    "IconHint": "nisi",
-    "ColorBlock": 542,
-    "ExtraInfo": "iusto",
-    "StyleHint": "voluptatem",
-    "FullName": "Annabelle Pouros",
+    "IconHint": "aut",
+    "ColorBlock": 837,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "voluptatibus",
+    "FullName": "Carol Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldType": "System.String",
+        "FieldLength": 252
       }
     }
   }

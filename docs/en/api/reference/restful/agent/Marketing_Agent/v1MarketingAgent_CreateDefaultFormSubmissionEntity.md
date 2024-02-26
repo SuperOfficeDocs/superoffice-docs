@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 150,
-  "FormId": 523,
-  "WhenSubmitted": "2012-04-14T16:54:55.6469927+02:00",
-  "ContactId": 109,
-  "PersonId": 820,
-  "EmailAddress": "lane_lowe@hansen.info",
-  "ResponseShipmentAddrId": 390,
-  "Response": "omnis",
+  "FormSubmissionId": 415,
+  "FormId": 319,
+  "WhenSubmitted": "2014-03-13T10:30:24.1037706+01:00",
+  "ContactId": 402,
+  "PersonId": 928,
+  "EmailAddress": "kennith@bechtelar.uk",
+  "ResponseShipmentAddrId": 252,
+  "Response": "quis",
   "Status": "EmailVerification",
-  "ProcessingLog": "laborum",
+  "ProcessingLog": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

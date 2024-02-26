@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 404,
-  "TileId": 642,
-  "Position": 147
+  "DashboardId": 66,
+  "TileId": 492,
+  "Position": 15
 }
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 240,
-  "AssociateId": 601,
-  "Caption": "sit",
+  "DashboardId": 789,
+  "AssociateId": 548,
+  "Caption": "eaque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 247,
-      "Caption": "est",
-      "Description": "Front-line 4th generation circuit",
-      "ChartName": "Rolfson Group",
-      "ChartId": "doloribus",
-      "IsDefault": true,
-      "AssociateId": 542,
-      "GroupId": 375,
-      "SelectionId": 323,
-      "Config": "blanditiis",
+      "DashboardTileId": 259,
+      "Caption": "dolores",
+      "Description": "Organized demand-driven local area network",
+      "ChartName": "Stokes-Douglas",
+      "ChartId": "voluptas",
+      "IsDefault": false,
+      "AssociateId": 336,
+      "GroupId": 81,
+      "SelectionId": 167,
+      "Config": "veritatis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 680
+          "FieldType": "System.Int32",
+          "FieldLength": 166
         }
       }
     }
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Morar LLC",
-  "Comment": "animi",
-  "StakeholderRoleId": 555,
-  "CountryId": 495,
-  "PersonId": 586,
-  "EmailDescription": "bettie.mccullough@wunsch.com",
-  "EmailId": 698,
-  "EmailAddress": "fredy@nicolas.us",
-  "PhoneId": 304,
-  "ContactName": "Schroeder LLC",
-  "ContactId": 75,
-  "SaleId": 431,
-  "Mrmrs": "nesciunt",
-  "Firstname": "Talia",
-  "MiddleName": "Tremblay, O'Kon and Hoppe",
-  "Lastname": "Runolfsson",
-  "SaleStakeholderId": 177,
-  "Rank": 320,
-  "Phone": "1-532-792-9422 x03478",
+  "StakeholderRoleName": "Harris Inc and Sons",
+  "Comment": "enim",
+  "StakeholderRoleId": 609,
+  "CountryId": 816,
+  "PersonId": 571,
+  "EmailDescription": "jonatan.bailey@crist.com",
+  "EmailId": 359,
+  "EmailAddress": "nelson.funk@schinner.uk",
+  "PhoneId": 179,
+  "ContactName": "Hammes Inc and Sons",
+  "ContactId": 695,
+  "SaleId": 502,
+  "Mrmrs": "iusto",
+  "Firstname": "Ubaldo",
+  "MiddleName": "Considine-Fay",
+  "Lastname": "Volkman",
+  "SaleStakeholderId": 521,
+  "Rank": 743,
+  "Phone": "1-295-676-2133 x50792",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldLength": 925
     }
   },
   "_Links": {

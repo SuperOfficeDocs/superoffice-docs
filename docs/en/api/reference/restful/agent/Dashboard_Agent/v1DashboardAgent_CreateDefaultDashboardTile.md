@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 440,
-  "Caption": "velit",
-  "Description": "Ergonomic radical pricing structure",
-  "ChartName": "Dach, Keebler and Tromp",
-  "ChartId": "libero",
-  "IsDefault": false,
-  "AssociateId": 158,
-  "GroupId": 769,
-  "SelectionId": 410,
-  "Config": "molestias",
+  "DashboardTileId": 816,
+  "Caption": "enim",
+  "Description": "Managed full-range archive",
+  "ChartName": "Rogahn, Yundt and Wyman",
+  "ChartId": "ex",
+  "IsDefault": true,
+  "AssociateId": 628,
+  "GroupId": 874,
+  "SelectionId": 832,
+  "Config": "sint",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Cremin LLC",
-      "Description": "Up-sized human-resource policy",
+      "Name": "Lueilwitz, Carter and Hilpert",
+      "Description": "Multi-channelled attitude-oriented application",
       "Type": "Boolean",
-      "ListName": "Sanford-Crist",
+      "ListName": "Macejkovic, Kirlin and Shields",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "qui",
-      "DefaultDataOption": true,
+      "Value": "quia",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 270,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 612
         }
       }
     },
     {
-      "VisibleId": 270,
+      "VisibleId": 698,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 612
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 730
     }
   }
 }

@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": false
+  "Children": true
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 220,
+    "HierarchyId": 910,
     "Domain": "Dashboards",
-    "Name": "Shields, Denesik and Pollich",
-    "Fullname": "ad",
-    "ParentId": 628,
+    "Name": "Maggio-Hartmann",
+    "Fullname": "culpa",
+    "ParentId": 131,
     "Children": [
       {
-        "HierarchyId": 100,
+        "HierarchyId": 686,
         "Domain": "Dashboards",
-        "Name": "D'Amore, Pfannerstill and Durgan",
-        "Fullname": "et",
-        "ParentId": 539,
+        "Name": "Dickens-Ernser",
+        "Fullname": "velit",
+        "ParentId": 692,
         "Children": [
           {},
           {}
         ],
-        "Registered": "1999-06-21T16:54:55.6109849+02:00",
-        "RegisteredAssociateId": 376,
-        "Updated": "2007-05-29T16:54:55.6109849+02:00",
-        "UpdatedAssociateId": 650,
+        "Registered": "2011-05-28T10:30:24.0569003+02:00",
+        "RegisteredAssociateId": 499,
+        "Updated": "2012-11-04T10:30:24.0569003+01:00",
+        "UpdatedAssociateId": 578,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 447
+            "FieldType": "System.Int32",
+            "FieldLength": 3
           }
         }
       }
     ],
-    "Registered": "2014-04-14T16:54:55.6109849+02:00",
-    "RegisteredAssociateId": 247,
-    "Updated": "2017-04-30T16:54:55.6109849+02:00",
-    "UpdatedAssociateId": 613,
+    "Registered": "2008-11-27T10:30:24.0569003+01:00",
+    "RegisteredAssociateId": 999,
+    "Updated": "1998-09-05T10:30:24.0569003+02:00",
+    "UpdatedAssociateId": 482,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldLength": 982
       }
     }
   }

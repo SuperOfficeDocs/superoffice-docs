@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 628,
-  "Caption": "sunt",
-  "Description": "Business-focused 3rd generation monitoring",
-  "ChartName": "Tromp Inc and Sons",
-  "ChartId": "consectetur",
-  "IsDefault": true,
-  "AssociateId": 665,
-  "GroupId": 258,
-  "SelectionId": 583,
-  "Config": "quod",
+  "DashboardTileId": 394,
+  "Caption": "maiores",
+  "Description": "Vision-oriented system-worthy model",
+  "ChartName": "Reichel, Schumm and Rolfson",
+  "ChartId": "possimus",
+  "IsDefault": false,
+  "AssociateId": 117,
+  "GroupId": 755,
+  "SelectionId": 948,
+  "Config": "reiciendis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Champlin LLC",
-      "Description": "Exclusive optimizing access",
+      "Name": "Reichert-Shields",
+      "Description": "Expanded incremental implementation",
       "Type": "Boolean",
-      "ListName": "Greenholt, Larson and Schinner",
+      "ListName": "Auer-Thiel",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "et",
+      "Value": "accusantium",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldLength": 231
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 441,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 303
         }
       }
     },
     {
-      "VisibleId": 441,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 303
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 688
     }
   }
 }

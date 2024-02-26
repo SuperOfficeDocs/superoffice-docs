@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 515,
-    "Name": "Renner, Keebler and Zboncak",
-    "Tooltip": "modi",
-    "SaveInDb": 92,
-    "Filename": "in",
-    "DefaultOref": "nulla",
+    "DocumentTemplateId": 977,
+    "Name": "Little-Von",
+    "Tooltip": "aut",
+    "SaveInDb": 779,
+    "Filename": "officia",
+    "DefaultOref": "suscipit",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 976,
-    "IntentId": 687,
+    "AutoeventId": 899,
+    "IntentId": 544,
     "IsDefaultPublished": false,
-    "Rank": 18,
-    "LoadTemplateFromPlugin": 93,
-    "MimeType": "porro",
+    "Rank": 38,
+    "LoadTemplateFromPlugin": 849,
+    "MimeType": "id",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 469,
+    "DocumentTypeKey": 821,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "laurine@stiedemannklein.biz",
+    "EmailSubject": "brooke_witting@bogisichrath.co.uk",
     "IncludeSignature": false,
-    "ShowCurrents": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jean_waters@gibson.name",
+    "SenderEmailAddress": "ali@jacobi.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldLength": 814
       }
     }
   }

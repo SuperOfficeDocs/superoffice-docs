@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 455,
+  "Id": 803,
   "IncludeAttachments": false
 }
 ```
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 864,
-      "ContactName": "Gerlach-Blanda",
-      "PersonId": 870,
-      "PersonName": "Schoen-Anderson",
-      "AssociateId": 690,
-      "Address": "quis",
-      "EmailId": 60,
+      "ContactId": 102,
+      "ContactName": "Gleason-Batz",
+      "PersonId": 669,
+      "PersonName": "Murazik-Mayert",
+      "AssociateId": 817,
+      "Address": "voluptates",
+      "EmailId": 226,
       "DuplicatePersonIds": [
-        965,
-        68
+        42,
+        666
       ],
-      "Name": "Balistreri Inc and Sons",
+      "Name": "Reichert, Abshire and Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 613
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 674,
-      "ContactName": "O'Hara-Ferry",
-      "PersonId": 917,
-      "PersonName": "Bergnaum LLC",
-      "AssociateId": 1002,
-      "Address": "cumque",
-      "EmailId": 757,
+      "ContactId": 636,
+      "ContactName": "O'Hara Inc and Sons",
+      "PersonId": 646,
+      "PersonName": "Mueller Inc and Sons",
+      "AssociateId": 486,
+      "Address": "ut",
+      "EmailId": 594,
       "DuplicatePersonIds": [
-        306,
-        422
+        701,
+        609
       ],
-      "Name": "Kshlerin, Harber and Mertz",
+      "Name": "Kerluke Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 623
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 8,
-      "ContactName": "Schoen, Mayer and Spinka",
-      "PersonId": 386,
-      "PersonName": "Haag-Emard",
-      "AssociateId": 337,
-      "Address": "atque",
-      "EmailId": 259,
+      "ContactId": 462,
+      "ContactName": "Boehm LLC",
+      "PersonId": 819,
+      "PersonName": "Hoppe-King",
+      "AssociateId": 424,
+      "Address": "nemo",
+      "EmailId": 345,
       "DuplicatePersonIds": [
-        898,
-        464
+        653,
+        465
       ],
-      "Name": "Rice-Marks",
+      "Name": "Homenick Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 406
+          "FieldType": "System.Int32",
+          "FieldLength": 903
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "quae",
+  "Subject": "et",
+  "HTMLBody": "sed",
   "From": null,
-  "Sent": "2005-01-10T16:54:55.4090381+01:00",
-  "Size": 437,
+  "Sent": "1998-05-24T10:30:23.8293034+02:00",
+  "Size": 933,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "illo",
-  "PlainBody": "dolores",
-  "IsSent": false,
+  "MessageID": "ea",
+  "PlainBody": "officia",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 293,
+  "ServerId": 356,
   "Attachments": [
     {
-      "Description": "Up-sized multi-tasking throughput",
-      "Filename": "officiis",
-      "Size": 546,
-      "Type": "dolor",
-      "Encoding": "vitae",
-      "Id": "voluptas",
-      "Disposition": "velit",
-      "IsSafeFileExtension": true,
+      "Description": "Vision-oriented dynamic forecast",
+      "Filename": "quasi",
+      "Size": 820,
+      "Type": "quos",
+      "Encoding": "eligendi",
+      "Id": "autem",
+      "Disposition": "animi",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 776
+          "FieldType": "System.Int32",
+          "FieldLength": 951
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Glover, Reichel and Heathcote",
+      "Name": "Homenick, Lang and Satterfield",
       "Values": [
-        "inventore",
-        "eum"
+        "dolorem",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 828
+          "FieldType": "System.Int32",
+          "FieldLength": 56
         }
       }
     },
     {
-      "Name": "Glover, Reichel and Heathcote",
+      "Name": "Homenick, Lang and Satterfield",
       "Values": [
-        "inventore",
-        "eum"
+        "dolorem",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 828
+          "FieldType": "System.Int32",
+          "FieldLength": 56
         }
       }
     }
   ],
-  "FolderName": "Farrell, Hessel and Gottlieb",
-  "EmailItemId": 135,
-  "AccountId": 14,
-  "ReceivedAt": "2013-05-01T16:54:55.4090381+02:00",
+  "FolderName": "Breitenberg-Glover",
+  "EmailItemId": 782,
+  "AccountId": 562,
+  "ReceivedAt": "2016-11-03T10:30:23.8293034+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-05-07T16:54:55.4090381+02:00",
+  "RepliedAt": "2020-06-25T10:30:23.8293034+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

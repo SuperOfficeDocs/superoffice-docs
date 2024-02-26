@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=quisquam
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Ullrich LLC",
-    "ToolTip": "Commodi eaque ut rem est aut facilis eos.",
+    "Id": 713,
+    "Name": "Rodriguez-Marks",
+    "ToolTip": "Illo sapiente ullam explicabo neque laboriosam.",
     "Deleted": false,
-    "Rank": 641,
-    "Type": "voluptas",
+    "Rank": 821,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Howe LLC",
-        "ToolTip": "Quia consectetur voluptatem assumenda explicabo omnis repellat.",
+        "Id": 276,
+        "Name": "Lemke Inc and Sons",
+        "ToolTip": "Commodi dolore ratione in qui exercitationem beatae.",
         "Deleted": false,
-        "Rank": 13,
-        "Type": "eaque",
+        "Rank": 380,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 201,
-        "ExtraInfo": "ut",
-        "StyleHint": "aut",
-        "FullName": "Haylie Rau",
+        "IconHint": "fuga",
+        "ColorBlock": 560,
+        "ExtraInfo": "dolor",
+        "StyleHint": "asperiores",
+        "FullName": "Edgar Rath PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 144
+            "FieldLength": 670
           }
         }
       }
     ],
-    "IconHint": "modi",
-    "ColorBlock": 822,
-    "ExtraInfo": "sed",
-    "StyleHint": "magni",
-    "FullName": "Cathrine Ledner",
+    "IconHint": "tempore",
+    "ColorBlock": 915,
+    "ExtraInfo": "rerum",
+    "StyleHint": "molestiae",
+    "FullName": "Mr. Donato Pearlie Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 847
+        "FieldLength": 253
       }
     }
   }

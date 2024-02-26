@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Jerde, Schultz and Christiansen",
-    "ToolTip": "Nostrum officiis nobis et quae.",
+    "Id": 704,
+    "Name": "Russel LLC",
+    "ToolTip": "Autem molestiae maiores.",
     "Deleted": false,
-    "Rank": 992,
-    "Type": "aperiam",
-    "ColorBlock": 112,
-    "IconHint": "quas",
+    "Rank": 423,
+    "Type": "sint",
+    "ColorBlock": 682,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2004-01-16T16:55:30.498696+01:00",
+    "LastChanged": "2015-03-07T10:30:32.8269372+01:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "White LLC",
-        "ToolTip": "Repellendus accusamus quia tenetur distinctio sit.",
+        "Id": 443,
+        "Name": "Dickens LLC",
+        "ToolTip": "Aut illum dolorem.",
         "Deleted": false,
-        "Rank": 257,
-        "Type": "et",
-        "ColorBlock": 759,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "2002-04-18T16:55:30.498696+02:00",
+        "Rank": 817,
+        "Type": "numquam",
+        "ColorBlock": 673,
+        "IconHint": "tempore",
+        "Selected": false,
+        "LastChanged": "2014-03-24T10:30:32.8269372+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "rerum",
+        "ExtraInfo": "possimus",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Woodrow Wisozk"
+        "FullName": "Friedrich Turner"
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Dr. Donald Thalia Lakin"
+    "ExtraInfo": "optio",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Chaya Graham"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Strosin, Runolfsdottir and Graham",
-    "ToolTip": "Eos eligendi.",
-    "Deleted": false,
-    "Rank": 786,
-    "Type": "voluptatem",
-    "ColorBlock": 793,
-    "IconHint": "repellat",
+    "Id": 713,
+    "Name": "Hagenes, Nicolas and Ondricka",
+    "ToolTip": "Blanditiis atque aut minima fuga.",
+    "Deleted": true,
+    "Rank": 232,
+    "Type": "consectetur",
+    "ColorBlock": 873,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2001-11-07T16:55:30.5006966+01:00",
+    "LastChanged": "2010-09-16T10:30:32.8269372+02:00",
     "ChildItems": [
       {
-        "Id": 475,
-        "Name": "Lindgren Group",
-        "ToolTip": "Sed magni aut dolores sint quis ea.",
-        "Deleted": true,
-        "Rank": 733,
-        "Type": "nulla",
-        "ColorBlock": 831,
-        "IconHint": "deserunt",
+        "Id": 774,
+        "Name": "Daugherty, Considine and Toy",
+        "ToolTip": "Voluptate pariatur iusto.",
+        "Deleted": false,
+        "Rank": 718,
+        "Type": "quam",
+        "ColorBlock": 731,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "1998-11-26T16:55:30.5006966+01:00",
+        "LastChanged": "2021-03-31T10:30:32.8269372+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "iusto",
-        "Hidden": false,
-        "FullName": "Felix Renner",
+        "ExtraInfo": "animi",
+        "StyleHint": "earum",
+        "Hidden": true,
+        "FullName": "Herminio Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 602
+            "FieldType": "System.String",
+            "FieldLength": 405
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
+    "ExtraInfo": "ipsum",
     "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Turner Heathcote",
+    "FullName": "Dr. Vanessa Spencer MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldType": "System.String",
+        "FieldLength": 48
       }
     }
   }

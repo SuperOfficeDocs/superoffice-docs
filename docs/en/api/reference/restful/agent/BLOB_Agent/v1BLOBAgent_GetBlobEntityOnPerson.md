@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 833
+  "PersonId": 293
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 30,
-  "BlobSize": 752,
-  "Description": "Streamlined zero defect architecture",
-  "ExtraInfo": "maiores",
-  "IsEncrypted": false,
+  "BlobId": 790,
+  "BlobSize": 544,
+  "Description": "Face to face multimedia instruction set",
+  "ExtraInfo": "dignissimos",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "dolorem",
-  "OriginalSize": 746,
-  "CreatedDate": "2015-03-20T16:54:54.6183047+01:00",
-  "UpdatedDate": "2023-10-22T16:54:54.6183047+02:00",
+  "MimeType": "sunt",
+  "OriginalSize": 489,
+  "CreatedDate": "2007-01-20T10:30:23.0982933+01:00",
+  "UpdatedDate": "1999-08-31T10:30:23.0982933+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "labore",
+  "ConceptualType": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   }
 }

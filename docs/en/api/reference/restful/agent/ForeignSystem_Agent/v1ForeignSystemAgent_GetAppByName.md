@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Muller, Becker and Kuhic"
+  "ApplicationName": "Lynch Group"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 6,
-  "Name": "Heidenreich LLC",
-  "CreatedDate": "2018-05-28T16:54:55.4784689+02:00",
-  "UpdatedDate": "2018-07-05T16:54:55.4784689+02:00",
+  "ForeignAppId": 578,
+  "Name": "Kuhlman-Mueller",
+  "CreatedDate": "2004-04-04T10:30:23.9073938+02:00",
+  "UpdatedDate": "2013-04-30T10:30:23.9073938+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 292,
-      "Name": "Feest LLC",
-      "CreatedDate": "2004-12-21T16:54:55.4794679+01:00",
-      "UpdatedDate": "2011-10-30T16:54:55.4794679+01:00",
-      "AssociateFullName": "Gilda D'Amore",
-      "CreatedBy": "provident",
-      "UpdatedBy": "fuga",
-      "DeviceIdentifier": "rerum",
-      "ForeignAppId": 782,
+      "ForeignDeviceId": 520,
+      "Name": "Graham Inc and Sons",
+      "CreatedDate": "2000-09-28T10:30:23.9073938+02:00",
+      "UpdatedDate": "1999-07-03T10:30:23.9073938+02:00",
+      "AssociateFullName": "Ephraim Frami",
+      "CreatedBy": "et",
+      "UpdatedBy": "ipsum",
+      "DeviceIdentifier": "reprehenderit",
+      "ForeignAppId": 729,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldType": "System.Int32",
+          "FieldLength": 728
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldLength": 872
     }
   }
 }

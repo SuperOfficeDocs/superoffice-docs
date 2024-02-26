@@ -1586,6 +1586,7 @@ title: Services88.CustomerServiceAgent WSDL
               <xs:element minOccurs="0" name="InlineImage" type="xs:boolean" />
               <xs:element minOccurs="0" name="ContentId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="AuthKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IsSafeFileExtension" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

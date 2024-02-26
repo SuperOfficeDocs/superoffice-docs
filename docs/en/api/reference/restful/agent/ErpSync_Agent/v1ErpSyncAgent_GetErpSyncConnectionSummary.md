@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 523
+  "ErpSyncConnectionId": 987
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Dach, Corwin and Stokes",
-  "DisplayDescription": "Switchable even-keeled ability",
+  "DisplayName": "Keeling Group",
+  "DisplayDescription": "Distributed client-driven intranet",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2007-05-19T16:54:55.4200345+02:00",
+  "LastSync": "2014-08-08T10:30:23.8449272+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "autem",
-      "Mappings": "modi",
+      "Defaults": "optio",
+      "Mappings": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldType": "System.String",
+          "FieldLength": 80
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "autem",
-      "Mappings": "modi",
+      "Defaults": "optio",
+      "Mappings": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldType": "System.String",
+          "FieldLength": 80
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 23
     }
   }
 }

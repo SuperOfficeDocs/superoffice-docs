@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 930,
-  "Name": "Mertz LLC",
-  "Tooltip": "ex",
-  "Deleted": false,
-  "UdListDefinitionId": 108,
-  "Rank": 889,
+  "Id": 99,
+  "Name": "Haley-Marvin",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "UdListDefinitionId": 540,
+  "Rank": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldType": "System.String",
+      "FieldLength": 158
     }
   }
 }

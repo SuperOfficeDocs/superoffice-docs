@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Rogahn-Funk",
-    "ToolTip": "Quaerat dolorem expedita molestiae.",
-    "Deleted": true,
-    "Rank": 531,
-    "Type": "at",
-    "ColorBlock": 203,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2017-12-15T16:55:30.7712158+01:00",
+    "Id": 57,
+    "Name": "Reichert Group",
+    "ToolTip": "Nam reiciendis praesentium ad eaque quidem cumque.",
+    "Deleted": false,
+    "Rank": 342,
+    "Type": "temporibus",
+    "ColorBlock": 871,
+    "IconHint": "laboriosam",
+    "Selected": true,
+    "LastChanged": "2003-06-26T10:30:33.0680874+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Kulas-Balistreri",
-        "ToolTip": "Vero nemo sit sed expedita officia quas.",
+        "Id": 262,
+        "Name": "Berge Group",
+        "ToolTip": "Autem laboriosam.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "cumque",
-        "ColorBlock": 961,
-        "IconHint": "laudantium",
+        "Rank": 10,
+        "Type": "et",
+        "ColorBlock": 489,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2000-11-29T16:55:30.7712158+01:00",
+        "LastChanged": "2009-12-16T10:30:33.0680874+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "amet",
-        "Hidden": false,
-        "FullName": "Mr. Bettye Walsh III"
+        "ExtraInfo": "ut",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Ms. Eli Dickinson V"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "ut",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Geovanny Kassulke II"
+    "FullName": "Mrs. Barney Nels Ondricka DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "McDermott Inc and Sons",
-    "ToolTip": "Omnis assumenda dolor aliquid.",
-    "Deleted": false,
-    "Rank": 57,
-    "Type": "at",
-    "ColorBlock": 56,
-    "IconHint": "voluptatem",
+    "Id": 496,
+    "Name": "Shields, Kuvalis and Haag",
+    "ToolTip": "Quo aliquam.",
+    "Deleted": true,
+    "Rank": 892,
+    "Type": "sit",
+    "ColorBlock": 398,
+    "IconHint": "veritatis",
     "Selected": true,
-    "LastChanged": "2012-03-20T16:55:30.7722628+01:00",
+    "LastChanged": "2014-08-22T10:30:33.0680874+02:00",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Becker-Wuckert",
-        "ToolTip": "Eum quia iure laudantium.",
+        "Id": 237,
+        "Name": "Lockman-Zulauf",
+        "ToolTip": "Et consequatur qui corrupti porro commodi.",
         "Deleted": false,
-        "Rank": 738,
-        "Type": "cumque",
-        "ColorBlock": 546,
-        "IconHint": "commodi",
+        "Rank": 20,
+        "Type": "quasi",
+        "ColorBlock": 257,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2007-07-30T16:55:30.7722628+02:00",
+        "LastChanged": "2017-10-27T10:30:33.0680874+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Melvina Oberbrunner",
+        "FullName": "Ms. Werner Lillie Volkman MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 328
+            "FieldType": "System.String",
+            "FieldLength": 244
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Athena Bernita Larkin II",
+    "ExtraInfo": "aut",
+    "StyleHint": "maxime",
+    "Hidden": false,
+    "FullName": "Lesly Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

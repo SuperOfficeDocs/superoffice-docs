@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 58,
-    "Name": "Bayer LLC",
+    "TicketPriorityId": 922,
+    "Name": "Greenholt Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 661,
+    "SortOrder": 210,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 782,
-    "MonStart": "2006-02-06T16:55:31.1317952+01:00",
-    "MonStop": "2022-03-27T16:55:31.1317952+02:00",
-    "TueStart": "2012-03-11T16:55:31.1317952+01:00",
-    "TueStop": "2015-07-08T16:55:31.1317952+02:00",
-    "WedStart": "2011-06-17T16:55:31.1317952+02:00",
-    "WedStop": "2017-04-17T16:55:31.1317952+02:00",
-    "ThuStart": "2017-09-27T16:55:31.1317952+02:00",
-    "ThuStop": "2011-04-10T16:55:31.1317952+02:00",
-    "FriStart": "2011-03-28T16:55:31.1317952+02:00",
-    "FriStop": "2023-06-30T16:55:31.1317952+02:00",
-    "SatStart": "2017-01-17T16:55:31.1317952+01:00",
-    "SatStop": "2020-10-10T16:55:31.1317952+02:00",
-    "SunStart": "2020-03-26T16:55:31.1317952+01:00",
-    "SunStop": "2011-06-03T16:55:31.1317952+02:00",
+    "Deadline": 539,
+    "MonStart": "2020-01-30T10:30:33.2897031+01:00",
+    "MonStop": "1997-07-18T10:30:33.2897031+02:00",
+    "TueStart": "2011-11-23T10:30:33.2897031+01:00",
+    "TueStop": "2014-04-02T10:30:33.2897031+02:00",
+    "WedStart": "2010-05-15T10:30:33.2897031+02:00",
+    "WedStop": "2018-01-29T10:30:33.2897031+01:00",
+    "ThuStart": "2006-07-12T10:30:33.2897031+02:00",
+    "ThuStop": "2017-11-22T10:30:33.2897031+01:00",
+    "FriStart": "2022-06-12T10:30:33.2897031+02:00",
+    "FriStop": "1998-01-04T10:30:33.2897031+01:00",
+    "SatStart": "2006-11-27T10:30:33.2897031+01:00",
+    "SatStop": "2012-10-13T10:30:33.2897031+02:00",
+    "SunStart": "2016-05-06T10:30:33.2897031+02:00",
+    "SunStop": "2011-02-20T10:30:33.2897031+01:00",
     "NonDates": [
-      "dicta",
-      "iste"
+      "hic",
+      "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 917,
-        "AlertLevel": 715,
-        "AlertTimeout": 755,
-        "Action": 75,
-        "DelegateTo": 261,
-        "ScriptId": 961,
-        "EmailTo": "maurice@haleytreutel.name",
-        "SmsTo": "maxime",
-        "ReplyTemplateIdCustomer": 381,
-        "ReplyTemplateIdUser": 780,
-        "ReplyTemplateIdCatmast": 137,
-        "ReplyTemplateIdEmail": 529,
-        "RtiCustomerSms": 322,
-        "ReplyTemplateIdUserSms": 36,
-        "ReplyTemplateIdCatmastSms": 511,
-        "ReplyTemplateIdSms": 374,
+        "TicketAlertId": 481,
+        "AlertLevel": 671,
+        "AlertTimeout": 438,
+        "Action": 828,
+        "DelegateTo": 235,
+        "ScriptId": 207,
+        "EmailTo": "maddison@fritschlueilwitz.ca",
+        "SmsTo": "doloribus",
+        "ReplyTemplateIdCustomer": 549,
+        "ReplyTemplateIdUser": 943,
+        "ReplyTemplateIdCatmast": 442,
+        "ReplyTemplateIdEmail": 526,
+        "RtiCustomerSms": 611,
+        "ReplyTemplateIdUserSms": 326,
+        "ReplyTemplateIdCatmastSms": 162,
+        "ReplyTemplateIdSms": 584,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 853
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 153
       }
     }
   }

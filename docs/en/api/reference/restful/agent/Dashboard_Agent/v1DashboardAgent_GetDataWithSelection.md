@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 774,
-  "SelectionId": 426,
-  "Restrictions": "nesciunt"
+  "DashboardTileId": 155,
+  "SelectionId": 785,
+  "Restrictions": "ipsa"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "O'Conner LLC",
-        "DisplayTooltip": "necessitatibus",
-        "DisplayType": "reiciendis",
+        "DisplayName": "Blanda, Crist and Schumm",
+        "DisplayTooltip": "modi",
+        "DisplayType": "velit",
         "CanOrderBy": true,
-        "Name": "Spinka Inc and Sons",
+        "Name": "Leannon-Breitenberg",
         "CanRestrictBy": false,
-        "RestrictionType": "mollitia",
-        "RestrictionListName": "Schmitt, Mann and Emmerich",
-        "IsVisible": true,
-        "ExtraInfo": "blanditiis",
-        "Width": "deleniti",
-        "IconHint": "quisquam",
-        "HeadingIconHint": "eligendi"
+        "RestrictionType": "ipsum",
+        "RestrictionListName": "Baumbach Inc and Sons",
+        "IsVisible": false,
+        "ExtraInfo": "enim",
+        "Width": "numquam",
+        "IconHint": "ut",
+        "HeadingIconHint": "laudantium"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "O'Conner LLC",
-        "DisplayTooltip": "necessitatibus",
-        "DisplayType": "reiciendis",
+        "DisplayName": "Blanda, Crist and Schumm",
+        "DisplayTooltip": "modi",
+        "DisplayType": "velit",
         "CanOrderBy": true,
-        "Name": "Spinka Inc and Sons",
+        "Name": "Leannon-Breitenberg",
         "CanRestrictBy": false,
-        "RestrictionType": "mollitia",
-        "RestrictionListName": "Schmitt, Mann and Emmerich",
-        "IsVisible": true,
-        "ExtraInfo": "blanditiis",
-        "Width": "deleniti",
-        "IconHint": "quisquam",
-        "HeadingIconHint": "eligendi"
+        "RestrictionType": "ipsum",
+        "RestrictionListName": "Baumbach Inc and Sons",
+        "IsVisible": false,
+        "ExtraInfo": "enim",
+        "Width": "numquam",
+        "IconHint": "ut",
+        "HeadingIconHint": "laudantium"
       }
     ],
     "Result": null

@@ -90,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 343
+  "ErpConnectionId": 182
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 950,
-  "ErpConnectorId": 211,
-  "DisplayName": "Mitchell-Kuphal",
-  "DisplayDescription": "Fundamental holistic strategy",
-  "Active": false,
-  "ConnectionId": "doloribus",
-  "MostRecentTimestamp": "ratione",
+  "ErpConnectionId": 65,
+  "ErpConnectorId": 35,
+  "DisplayName": "Hickle Group",
+  "DisplayDescription": "Versatile 3rd generation implementation",
+  "Active": true,
+  "ConnectionId": "nihil",
+  "MostRecentTimestamp": "recusandae",
   "ConfigFields": {
-    "ConfigFields1": "eaque",
-    "ConfigFields2": "natus"
+    "ConfigFields1": "molestiae",
+    "ConfigFields2": "ut"
   },
   "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    332,
-    760
+    460,
+    291
   ],
   "AssociateAccessIds": [
-    300,
-    748
+    936,
+    12
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 277
     }
   }
 }

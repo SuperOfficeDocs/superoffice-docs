@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Ankunding-Schultz",
-    "ToolTip": "Officia odit porro beatae earum modi.",
+    "Id": 567,
+    "Name": "Ernser, Ziemann and Deckow",
+    "ToolTip": "Praesentium fugiat animi.",
     "Deleted": true,
-    "Rank": 700,
-    "Type": "quibusdam",
-    "ColorBlock": 807,
-    "IconHint": "expedita",
+    "Rank": 358,
+    "Type": "delectus",
+    "ColorBlock": 187,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2009-02-25T16:55:30.5336976+01:00",
+    "LastChanged": "2006-10-01T10:30:32.858187+02:00",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Rosenbaum, Murray and Walsh",
-        "ToolTip": "Ut temporibus.",
-        "Deleted": false,
-        "Rank": 158,
-        "Type": "qui",
-        "ColorBlock": 114,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "1996-11-11T16:55:30.5336976+01:00",
+        "Id": 509,
+        "Name": "Cruickshank-Blanda",
+        "ToolTip": "Vel neque ad minima eveniet.",
+        "Deleted": true,
+        "Rank": 750,
+        "Type": "pariatur",
+        "ColorBlock": 668,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2020-05-22T10:30:32.858187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "eos",
+        "ExtraInfo": "minus",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Zion Hane PhD",
+        "FullName": "Miss Ivory Fritsch V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 771
+            "FieldLength": 910
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "commodi",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Nadia Kohler",
+    "FullName": "Imelda Walker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   }

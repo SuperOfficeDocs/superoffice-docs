@@ -72,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "sunt",
-  "Instance": "ut",
-  "ForAllAssociates": false
+  "Application": "dolor",
+  "Instance": "est",
+  "ForAllAssociates": true
 }
 ```
 

@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Haag, Barton and Lebsack"
+  "Name": "Nikolaus LLC"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 344,
-  "Name": "Doyle Inc and Sons",
-  "Tooltip": "vitae",
+  "Id": 508,
+  "Name": "Bins-Hirthe",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 254,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 400,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "labore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "necessitatibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   }
 }

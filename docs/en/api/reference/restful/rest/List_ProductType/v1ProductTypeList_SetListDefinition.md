@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 633,
-  "Name": "Welch Group",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "Rank": 177,
+  "Id": 681,
+  "Name": "Cronin-Rice",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 309,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ducimus",
+  "ListType": "non",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 110,
-  "Name": "Gusikowski-Gerhold",
-  "Tooltip": "rerum",
+  "Id": 781,
+  "Name": "Thompson Inc and Sons",
+  "Tooltip": "exercitationem",
   "Deleted": true,
-  "Rank": 148,
+  "Rank": 848,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 522
     }
   }
 }

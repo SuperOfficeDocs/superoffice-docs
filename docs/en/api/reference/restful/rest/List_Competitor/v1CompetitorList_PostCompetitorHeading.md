@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 999,
-  "Name": "Reinger-Jewess",
-  "Tooltip": "non",
+  "HeadingId": 297,
+  "Name": "Keebler LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 248,
-  "UdListDefinitionId": 163
+  "Rank": 818,
+  "UdListDefinitionId": 81
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 63,
-  "Name": "Hills, Towne and Walsh",
-  "Tooltip": "odit",
-  "Deleted": false,
-  "Rank": 603,
-  "UdListDefinitionId": 837,
+  "HeadingId": 459,
+  "Name": "Kling LLC",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 23,
+  "UdListDefinitionId": 469,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 690
     }
   }
 }

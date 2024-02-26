@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=qui
+GET /api/v1/List/DocumentTemplate/MDOItems?query=aperiam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Nitzsche-Morar",
-    "ToolTip": "Sequi culpa voluptatem quos et.",
+    "Id": 169,
+    "Name": "Roberts-Nienow",
+    "ToolTip": "Dolores sed aliquid provident minima et.",
     "Deleted": false,
-    "Rank": 222,
-    "Type": "voluptas",
+    "Rank": 50,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "Stark, Jerde and Satterfield",
-        "ToolTip": "Sunt expedita voluptas.",
-        "Deleted": false,
-        "Rank": 968,
-        "Type": "est",
+        "Id": 407,
+        "Name": "Shanahan, Bogan and Jacobson",
+        "ToolTip": "Vel quibusdam pariatur aut est ex necessitatibus explicabo.",
+        "Deleted": true,
+        "Rank": 102,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 74,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "debitis",
-        "FullName": "Renee Quigley",
+        "IconHint": "qui",
+        "ColorBlock": 654,
+        "ExtraInfo": "dolores",
+        "StyleHint": "atque",
+        "FullName": "Kristina Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 655
+            "FieldLength": 968
           }
         }
       }
     ],
-    "IconHint": "eaque",
-    "ColorBlock": 243,
-    "ExtraInfo": "id",
-    "StyleHint": "id",
-    "FullName": "Kurt Fredy Reichert III",
+    "IconHint": "aut",
+    "ColorBlock": 258,
+    "ExtraInfo": "enim",
+    "StyleHint": "nesciunt",
+    "FullName": "Dr. Mariela Yesenia Hane V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 622
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

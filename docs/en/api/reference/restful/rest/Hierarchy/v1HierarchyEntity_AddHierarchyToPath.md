@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 922,
+  "HierarchyId": 90,
   "Domain": "Dashboards",
-  "Name": "Gorczany, Ernser and Hackett",
-  "Fullname": "et",
-  "ParentId": 463,
+  "Name": "McCullough Group",
+  "Fullname": "in",
+  "ParentId": 415,
   "Children": [
     {
-      "HierarchyId": 16,
+      "HierarchyId": 320,
       "Domain": "Dashboards",
-      "Name": "Sporer-Sawayn",
-      "Fullname": "qui",
-      "ParentId": 934,
+      "Name": "Stark, Veum and Jaskolski",
+      "Fullname": "error",
+      "ParentId": 665,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-07-25T16:55:29.6654609+02:00",
-      "RegisteredAssociateId": 772,
-      "Updated": "2004-02-27T16:55:29.6654609+01:00",
-      "UpdatedAssociateId": 458,
+      "Registered": "2022-10-03T10:30:32.0886795+02:00",
+      "RegisteredAssociateId": 312,
+      "Updated": "2001-09-13T10:30:32.0886795+02:00",
+      "UpdatedAssociateId": 44,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 961
         }
       }
     }
   ],
-  "Registered": "2009-05-13T16:55:29.6654609+02:00",
-  "RegisteredAssociateId": 369,
-  "Updated": "1998-03-12T16:55:29.6654609+01:00",
-  "UpdatedAssociateId": 62,
+  "Registered": "2016-12-21T10:30:32.0886795+01:00",
+  "RegisteredAssociateId": 786,
+  "Updated": "2000-12-02T10:30:32.0886795+01:00",
+  "UpdatedAssociateId": 538,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldLength": 920
     }
   }
 }

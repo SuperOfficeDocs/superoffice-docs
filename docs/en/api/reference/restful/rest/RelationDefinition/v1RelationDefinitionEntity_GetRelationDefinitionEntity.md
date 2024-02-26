@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 82,
-  "Name": "Kerluke-Bruen",
-  "Tooltip": "velit",
-  "PassiveText": "illo",
+  "ReldefId": 50,
+  "Name": "Cruickshank, Watsica and Fisher",
+  "Tooltip": "aut",
+  "PassiveText": "in",
   "Deleted": false,
-  "Rank": 644,
+  "Rank": 269,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,12 +103,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 901
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

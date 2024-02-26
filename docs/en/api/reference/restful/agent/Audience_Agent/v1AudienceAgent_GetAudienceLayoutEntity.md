@@ -26,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=376
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=242
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 271,
-  "InstanceLayout": "quam",
-  "InstanceName": "Stroman LLC",
-  "CreatedDate": "1999-10-08T16:54:54.5933681+02:00",
-  "UpdatedDate": "2020-11-02T16:54:54.5933681+01:00",
+  "AudienceLayoutId": 289,
+  "InstanceLayout": "laboriosam",
+  "InstanceName": "Leannon Inc and Sons",
+  "CreatedDate": "1998-03-08T10:30:23.0826686+01:00",
+  "UpdatedDate": "2016-04-13T10:30:23.0826686+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 709
     }
   }
 }

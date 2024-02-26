@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 242,
-  "Name": "Block-Mann",
+  "ScreenChooserId": 152,
+  "Name": "Beier LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "pariatur",
-  "Source": "consequatur",
-  "Registered": "2020-01-08T16:55:30.3138161+01:00",
-  "RegisteredAssociateId": 894,
-  "Updated": "2009-11-08T16:55:30.3138161+01:00",
-  "UpdatedAssociateId": 406
+  "UniqueIdentifier": "ipsam",
+  "Source": "facilis",
+  "Registered": "2000-07-18T10:30:32.6543487+02:00",
+  "RegisteredAssociateId": 210,
+  "Updated": "2002-02-18T10:30:32.6543487+01:00",
+  "UpdatedAssociateId": 182
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 333,
-  "Name": "Olson, Armstrong and Lehner",
+  "ScreenChooserId": 231,
+  "Name": "Marvin Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "architecto",
-  "Registered": "2002-05-22T16:55:30.3158175+02:00",
-  "RegisteredAssociateId": 413,
-  "Updated": "2004-08-04T16:55:30.3158175+02:00",
-  "UpdatedAssociateId": 783,
+  "Enabled": true,
+  "UniqueIdentifier": "debitis",
+  "Source": "et",
+  "Registered": "1996-12-24T10:30:32.6543487+01:00",
+  "RegisteredAssociateId": 368,
+  "Updated": "2012-11-18T10:30:32.6543487+01:00",
+  "UpdatedAssociateId": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldType": "System.String",
+      "FieldLength": 355
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

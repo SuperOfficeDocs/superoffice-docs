@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 313,
-    "DisplayName": "Ortiz LLC",
-    "OngoingChats": 676,
-    "Present": false,
+    "UserId": 809,
+    "DisplayName": "Schowalter-Flatley",
+    "OngoingChats": 327,
+    "Present": true,
     "ChatTopics": [
-      596,
-      404
+      131,
+      389
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 661
       }
     }
   }

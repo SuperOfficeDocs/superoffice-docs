@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/24/2005 16:55:33
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/08/2018 16:55:33
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=358
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/25/2011 10:30:35
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=08/08/2003 10:30:35
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=347
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 675,
-  "ERPPriceListKey": "dolor",
-  "QuoteConnectionId": 909,
-  "Name": "Kuphal, Schowalter and Beatty",
-  "Description": "Total bandwidth-monitored conglomeration",
-  "Currency": "consequatur",
-  "CurrencyName": "Hilpert-Emard",
-  "ValidFrom": "2019-03-10T16:55:30.7781761+01:00",
-  "ValidTo": "2022-11-15T16:55:30.7781761+01:00",
+  "PriceListId": 441,
+  "ERPPriceListKey": "quae",
+  "QuoteConnectionId": 68,
+  "Name": "Feeney Inc and Sons",
+  "Description": "Proactive discrete policy",
+  "Currency": "quod",
+  "CurrencyName": "Nitzsche-Schultz",
+  "ValidFrom": "2022-08-05T10:30:33.0849147+02:00",
+  "ValidTo": "2017-05-02T10:30:33.0849147+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

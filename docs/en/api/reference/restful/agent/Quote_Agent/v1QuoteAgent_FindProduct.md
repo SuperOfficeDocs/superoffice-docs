@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 65,
-  "UserInput": "ut",
-  "PriceListKey": "dolor"
+  "QuoteAlternativeId": 482,
+  "UserInput": "nihil",
+  "PriceListKey": "dolores"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 145,
-    "ERPProductKey": "rerum",
-    "ERPPriceListKey": "impedit",
-    "Name": "Russel-Barton",
-    "Description": "Persevering stable local area network",
-    "Code": "aut",
-    "PriceUnit": "ratione",
-    "QuantityUnit": "aliquid",
-    "IsSubscription": true,
-    "SubscriptionUnit": "vel",
-    "DefaultSubscriptionQuantity": 26670.34,
-    "ItemNumber": "830030",
+    "ProductId": 495,
+    "ERPProductKey": "quia",
+    "ERPPriceListKey": "qui",
+    "Name": "Considine-McGlynn",
+    "Description": "Reactive clear-thinking product",
+    "Code": "excepturi",
+    "PriceUnit": "enim",
+    "QuantityUnit": "magni",
+    "IsSubscription": false,
+    "SubscriptionUnit": "eius",
+    "DefaultSubscriptionQuantity": 29274.694,
+    "ItemNumber": "703846",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "maiores",
-    "ProductTypeKey": "qui",
-    "VAT": 14388.194,
-    "VATInfo": "magnam",
-    "UnitCost": 3864.2219999999998,
-    "UnitMinimumPrice": 28080.64,
-    "UnitListPrice": 26385.146,
+    "ProductFamilyKey": "voluptates",
+    "ProductTypeKey": "labore",
+    "VAT": 22489.584,
+    "VATInfo": "voluptatum",
+    "UnitCost": 4375.064,
+    "UnitMinimumPrice": 21351.942,
+    "UnitListPrice": 7038.964,
     "InAssortment": true,
-    "Supplier": "dolor",
-    "SupplierCode": "doloremque",
-    "Rights": "ut",
-    "Rule": "voluptatum",
+    "Supplier": "aut",
+    "SupplierCode": "repudiandae",
+    "Rights": "explicabo",
+    "Rule": "hic",
     "ExtraInfo": [
       {
-        "Name": "Emard-Rogahn",
-        "Value": "omnis",
+        "Name": "Champlin, Bauch and Lemke",
+        "Value": "perferendis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 520
+            "FieldType": "System.Int32",
+            "FieldLength": 569
           }
         }
       },
       {
-        "Name": "Emard-Rogahn",
-        "Value": "omnis",
+        "Name": "Champlin, Bauch and Lemke",
+        "Value": "perferendis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 520
+            "FieldType": "System.Int32",
+            "FieldLength": 569
           }
         }
       }
     ],
-    "RawExtraInfo": "voluptate",
-    "ExtraField1": "fugiat",
-    "ExtraField2": "odio",
-    "ExtraField3": "sit",
-    "ExtraField4": "quo",
-    "ExtraField5": "et",
-    "InStock": 10975.268,
+    "RawExtraInfo": "provident",
+    "ExtraField1": "labore",
+    "ExtraField2": "earum",
+    "ExtraField3": "assumenda",
+    "ExtraField4": "ab",
+    "ExtraField5": "at",
+    "InStock": 26795.7,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

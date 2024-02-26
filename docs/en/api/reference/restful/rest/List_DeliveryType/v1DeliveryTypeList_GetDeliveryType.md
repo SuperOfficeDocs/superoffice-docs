@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 104,
-  "Name": "Lynch-Bogisich",
-  "Tooltip": "animi",
+  "Id": 275,
+  "Name": "Kub-Carter",
+  "Tooltip": "est",
   "Deleted": true,
-  "UdListDefinitionId": 590,
-  "Rank": 401,
+  "UdListDefinitionId": 963,
+  "Rank": 77,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldLength": 501
     }
   }
 }

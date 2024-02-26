@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Keebler Group",
-    "ToolTip": "Nostrum eius tempore et voluptatem delectus aut nihil.",
+    "Id": 448,
+    "Name": "McLaughlin Inc and Sons",
+    "ToolTip": "Facilis fugiat velit eaque.",
     "Deleted": true,
-    "Rank": 312,
-    "Type": "qui",
-    "ColorBlock": 941,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2022-01-08T16:55:31.0331825+01:00",
+    "Rank": 306,
+    "Type": "similique",
+    "ColorBlock": 678,
+    "IconHint": "odio",
+    "Selected": false,
+    "LastChanged": "2020-03-08T10:30:33.2099635+01:00",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Barrows-Miller",
-        "ToolTip": "Illum eius.",
+        "Id": 944,
+        "Name": "Stamm Inc and Sons",
+        "ToolTip": "Autem rerum ut dolore quibusdam voluptatem provident.",
         "Deleted": true,
-        "Rank": 798,
-        "Type": "qui",
-        "ColorBlock": 757,
-        "IconHint": "nihil",
+        "Rank": 275,
+        "Type": "dolores",
+        "ColorBlock": 735,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2001-01-29T16:55:31.0331825+01:00",
+        "LastChanged": "2008-03-04T10:30:33.2099635+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "et",
+        "ExtraInfo": "error",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Danika Naomie Lind Sr."
+        "FullName": "Bertha Swift"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "quod",
+    "ExtraInfo": "et",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Maximillia Gusikowski"
+    "FullName": "Eliane Mayer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Hintz Inc and Sons",
-    "ToolTip": "Et laborum error ipsam.",
+    "Id": 549,
+    "Name": "Nitzsche LLC",
+    "ToolTip": "Adipisci dolores saepe.",
     "Deleted": false,
-    "Rank": 960,
-    "Type": "commodi",
-    "ColorBlock": 705,
-    "IconHint": "eos",
+    "Rank": 77,
+    "Type": "quis",
+    "ColorBlock": 565,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2015-03-08T16:55:31.0341818+01:00",
+    "LastChanged": "1998-11-25T10:30:33.2099635+01:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Lubowitz-Hammes",
-        "ToolTip": "Fugit nulla accusantium odit nobis sunt voluptatem quibusdam.",
+        "Id": 242,
+        "Name": "Murazik-Schmeler",
+        "ToolTip": "Optio blanditiis et in.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "rem",
-        "ColorBlock": 907,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "1999-08-07T16:55:31.0341818+02:00",
+        "Rank": 872,
+        "Type": "nisi",
+        "ColorBlock": 589,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2017-07-09T10:30:33.2099635+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "quidem",
-        "Hidden": true,
-        "FullName": "Mrs. Maximilian Schneider IV",
+        "ExtraInfo": "ut",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Carson Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 150
+            "FieldLength": 567
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Miss Cecilia Carmine West",
+    "ExtraInfo": "dolore",
+    "StyleHint": "quidem",
+    "Hidden": true,
+    "FullName": "Steve Kassulke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 781
       }
     }
   }

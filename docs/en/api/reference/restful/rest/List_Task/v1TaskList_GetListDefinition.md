@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 127,
-  "Name": "Altenwerth-Abernathy",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "Rank": 660,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
+  "Id": 611,
+  "Name": "Ferry LLC",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "Rank": 599,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aliquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 698
+      "FieldType": "System.Int32",
+      "FieldLength": 540
     }
   },
   "_Links": {

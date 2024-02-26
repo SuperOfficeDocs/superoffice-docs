@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kshlerin LLC"
+  "Name": "Aufderhar LLC"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Name": "Murray, Towne and Simonis",
-    "ToolTip": "Nihil repudiandae molestiae nulla.",
+    "Id": 561,
+    "Name": "Padberg-Hackett",
+    "ToolTip": "Totam vel.",
     "Deleted": false,
-    "Rank": 919,
-    "Type": "incidunt",
+    "Rank": 314,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "D'Amore-Jast",
-        "ToolTip": "Error consectetur quidem dolorum facilis facere molestiae.",
+        "Id": 673,
+        "Name": "Gulgowski, Volkman and Thompson",
+        "ToolTip": "Culpa et aut aspernatur eaque quam culpa cumque.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "aut",
+        "Rank": 90,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 738,
-        "ExtraInfo": "autem",
-        "StyleHint": "nam",
-        "FullName": "Providenci Pacocha",
+        "IconHint": "modi",
+        "ColorBlock": 359,
+        "ExtraInfo": "dolores",
+        "StyleHint": "aut",
+        "FullName": "Prof. Laurine Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldType": "System.Int32",
+            "FieldLength": 755
           }
         }
       }
     ],
-    "IconHint": "accusantium",
-    "ColorBlock": 315,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ut",
-    "FullName": "Dr. Liam Padberg",
+    "IconHint": "sequi",
+    "ColorBlock": 481,
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptatibus",
+    "FullName": "Miss Cydney Ines Jenkins I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 335
       }
     }
   }

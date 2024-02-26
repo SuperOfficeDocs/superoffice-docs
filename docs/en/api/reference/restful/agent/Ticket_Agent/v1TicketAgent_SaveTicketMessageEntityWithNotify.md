@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,78 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 722,
+  "EjMessageId": 357,
   "Ticket": null,
-  "CreatedAt": "2002-03-11T16:54:56.5791998+01:00",
+  "CreatedAt": "2017-12-06T10:30:24.9360824+01:00",
   "CreatedBy": null,
-  "Author": "placeat",
+  "Author": "aliquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "temporibus",
-  "TimeSpent": 567,
-  "Body": "ipsa",
-  "HtmlBody": "et",
-  "EmailHeader": "cody_smitham@watsicakirlin.info",
-  "DebugInfo": "dignissimos",
-  "MailSorter": "eligendi",
+  "MessageId": "quos",
+  "TimeSpent": 254,
+  "Body": "voluptatibus",
+  "HtmlBody": "omnis",
+  "EmailHeader": "kristoffer.roberts@pacochakuhn.ca",
+  "DebugInfo": "vero",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "ut",
   "MessageHeaders": [
     {
-      "Id": 779,
-      "Name": "Mosciski Inc and Sons",
-      "Value": "illo",
+      "Id": 985,
+      "Name": "Erdman, Torp and Rohan",
+      "Value": "blanditiis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 679
+          "FieldType": "System.Int32",
+          "FieldLength": 858
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "sit",
-  "Sentiment": 356,
-  "SentimentConfidence": 828,
+  "Important": false,
+  "Language": "adipisci",
+  "Sentiment": 309,
+  "SentimentConfidence": 801,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 276,
-      "Name": "Larkin Group",
-      "ContentType": "omnis",
-      "AttSize": 197,
-      "InlineImage": true,
-      "ContentId": "aut",
-      "AuthKey": "sunt",
+      "AttachmentId": 142,
+      "Name": "Fadel LLC",
+      "ContentType": "numquam",
+      "AttSize": 50,
+      "InlineImage": false,
+      "ContentId": "iusto",
+      "AuthKey": "vel",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldType": "System.String",
+          "FieldLength": 838
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "quod"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "et"
+    "CustomFields1": "molestias",
+    "CustomFields2": "voluptates"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldLength": 412
     }
   }
 }

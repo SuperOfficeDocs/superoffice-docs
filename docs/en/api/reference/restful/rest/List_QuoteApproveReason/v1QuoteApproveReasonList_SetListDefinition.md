@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Ziemann, Zieme and Jerde",
-  "Tooltip": "quisquam",
-  "Deleted": false,
-  "Rank": 909,
-  "IsCustomList": true,
+  "Id": 220,
+  "Name": "Langworth-Hahn",
+  "Tooltip": "officiis",
+  "Deleted": true,
+  "Rank": 409,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
+  "ListType": "amet",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Little Group",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 955,
+  "Id": 875,
+  "Name": "Will Group",
+  "Tooltip": "quae",
+  "Deleted": false,
+  "Rank": 237,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "animi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldType": "System.String",
+      "FieldLength": 903
     }
   }
 }

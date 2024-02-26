@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 753
+  "QuoteLineId": 423
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 587,
-  "ERPQuoteLineKey": "vitae",
-  "QuoteAlternativeId": 512,
-  "ERPProductKey": "ut",
+  "QuoteLineId": 352,
+  "ERPQuoteLineKey": "rem",
+  "QuoteAlternativeId": 138,
+  "ERPProductKey": "dolorum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 4287.312,
-  "DeliveredQuantity": 16306.202,
-  "Rank": 839,
-  "Name": "McCullough, Goldner and Auer",
-  "Description": "Assimilated bi-directional matrix",
-  "Code": "voluptas",
-  "QuantityUnit": "sapiente",
-  "PriceUnit": "blanditiis",
-  "ItemNumber": "1058234",
+  "Quantity": 20374.134,
+  "DeliveredQuantity": 26980.606,
+  "Rank": 981,
+  "Name": "Schneider-Hettinger",
+  "Description": "De-engineered analyzing policy",
+  "Code": "unde",
+  "QuantityUnit": "quo",
+  "PriceUnit": "at",
+  "ItemNumber": "1209289",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "id",
-  "ProductTypeKey": "ullam",
-  "Supplier": "nisi",
-  "SupplierCode": "et",
-  "Thumbnail": "est",
-  "VATInfo": "quaerat",
-  "VAT": 28694.904,
-  "UnitCost": 9038.456,
-  "UnitMinimumPrice": 12905.812,
-  "UnitListPrice": 30976.456,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "excepturi",
+  "Supplier": "alias",
+  "SupplierCode": "a",
+  "Thumbnail": "culpa",
+  "VATInfo": "suscipit",
+  "VAT": 2945.96,
+  "UnitCost": 29657.041999999998,
+  "UnitMinimumPrice": 4456.548,
+  "UnitListPrice": 13275.624,
   "ExtraInfo": [
     {
-      "Name": "Abshire Inc and Sons",
-      "Value": "vel",
+      "Name": "Kirlin, Erdman and Braun",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 863
         }
       }
     },
     {
-      "Name": "Abshire Inc and Sons",
-      "Value": "vel",
+      "Name": "Kirlin, Erdman and Braun",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 863
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
+  "RawExtraInfo": "adipisci",
   "IsSubscription": false,
-  "SubscriptionUnit": "ipsum",
-  "SubscriptionQuantity": 22395.564,
-  "SubscriptionStart": "2005-01-15T16:54:56.1619709+01:00",
-  "ERPDiscountPercent": 12915.214,
-  "ERPDiscountAmount": 24623.838,
-  "DiscountPercent": 23492.464,
-  "DiscountAmount": 11529.985999999999,
+  "SubscriptionUnit": "ut",
+  "SubscriptionQuantity": 14808.15,
+  "SubscriptionStart": "2017-03-22T10:30:24.4502511+01:00",
+  "ERPDiscountPercent": 16958.074,
+  "ERPDiscountAmount": 27168.646,
+  "DiscountPercent": 23483.061999999998,
+  "DiscountAmount": 28600.884,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10232.51,
-  "EarningAmount": 7634.424,
-  "SubTotal": 14353.72,
-  "TotalPrice": 29763.597999999998,
-  "Rights": "placeat",
-  "Rule": "voluptatem",
-  "ExtraField1": "velit",
-  "ExtraField2": "facilis",
-  "ExtraField3": "odio",
-  "ExtraField4": "eaque",
-  "ExtraField5": "distinctio",
+  "EarningPercent": 11313.74,
+  "EarningAmount": 29208.879999999997,
+  "SubTotal": 7800.526,
+  "TotalPrice": 12799.256,
+  "Rights": "eos",
+  "Rule": "eligendi",
+  "ExtraField1": "nesciunt",
+  "ExtraField2": "sint",
+  "ExtraField3": "fugit",
+  "ExtraField4": "non",
+  "ExtraField5": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 806,
-  "Name": "Leuschke LLC",
-  "Description": "Multi-lateral user-facing protocol",
+  "ProjectId": 909,
+  "Name": "Kutch, Rutherford and Hessel",
+  "Description": "De-engineered attitude-oriented productivity",
   "URL": "http://www.example.com/",
-  "Type": "consequatur",
-  "AssociateId": 709,
-  "AssociateFullName": "Stacey Aufderhar",
-  "TypeId": 244,
-  "Updated": "2001-03-24T16:55:29.9659869+01:00",
-  "StatusId": 352,
-  "Status": "velit",
-  "TextId": 988,
-  "PublishTo": "2002-12-17T16:55:29.9659869+01:00",
-  "PublishFrom": "2020-10-05T16:55:29.9659869+02:00",
-  "IsPublished": true,
+  "Type": "est",
+  "AssociateId": 861,
+  "AssociateFullName": "Mr. Jose Quigley",
+  "TypeId": 495,
+  "Updated": "2007-11-29T10:30:32.2449231+01:00",
+  "StatusId": 411,
+  "Status": "ipsam",
+  "TextId": 327,
+  "PublishTo": "2012-01-18T10:30:32.2449231+01:00",
+  "PublishFrom": "2000-01-30T10:30:32.2449231+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "908814",
-  "ActiveErpLinks": 54,
+  "ProjectNumber": "1174390",
+  "ActiveErpLinks": 329,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

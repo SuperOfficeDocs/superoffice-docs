@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 971,
-  "Name": "Tremblay-Schinner",
-  "Tooltip": "delectus",
+  "Id": 248,
+  "Name": "Lockman, Fadel and Muller",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 252,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "Rank": 989,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 825,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "impedit",
-  "Deleted": true,
-  "Rank": 969,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 8,
+  "Name": "Haley-Frami",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "Rank": 594,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 85
     }
   }
 }

@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 806
+  "SaleId": 338
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-03-04T16:54:54.4806078+01:00",
-  "AppointmentId": 936,
-  "Description": "Advanced tertiary conglomeration",
-  "Title": "doloremque",
-  "Agenda": "quas",
-  "InternalNotes": "dicta",
-  "StartDate": "2002-12-04T16:54:54.4806078+01:00",
-  "EndDate": "2002-04-21T16:54:54.4806078+02:00",
+  "CreatedDate": "2005-07-25T10:30:22.9733+02:00",
+  "AppointmentId": 641,
+  "Description": "Automated zero defect policy",
+  "Title": "non",
+  "Agenda": "qui",
+  "InternalNotes": "enim",
+  "StartDate": "2016-05-08T10:30:22.9733+02:00",
+  "EndDate": "2014-03-28T10:30:22.9733+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 893,
+  "MotherId": 476,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-02-23T16:54:54.4836067+01:00",
+  "UpdatedDate": "2017-07-27T10:30:22.9733+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 374,
+  "ActiveLinks": 55,
   "Links": [
     {
-      "EntityName": "Stroman, Lindgren and Johnson",
-      "Id": 528,
-      "Description": "Integrated 6th generation neural-net",
-      "ExtraInfo": "voluptas",
-      "LinkId": 635,
+      "EntityName": "Corkery, Gibson and Harvey",
+      "Id": 681,
+      "Description": "Multi-tiered optimal success",
+      "ExtraInfo": "praesentium",
+      "LinkId": 157,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 143
+          "FieldLength": 614
         }
       }
     }
   ],
-  "AlarmLeadTime": "mollitia",
+  "AlarmLeadTime": "aliquid",
   "HasAlarm": false,
-  "ColorIndex": 226,
+  "ColorIndex": 1001,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "commodi",
-  "LeadTime": "ad",
-  "Location": "dolores",
-  "RejectCounter": 24,
+  "LagTime": "doloribus",
+  "LeadTime": "ea",
+  "Location": "et",
+  "RejectCounter": 630,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 828,
-      "PersonId": 729,
-      "ContactId": 859,
-      "EmailId": 272,
+      "AssociateId": 333,
+      "PersonId": 215,
+      "ContactId": 906,
+      "EmailId": 93,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "eduardo@abshirereichel.biz",
-      "Description": "Automated neutral system engine"
+      "EmailAddress": "erna@paucek.biz",
+      "Description": "Networked incremental flexibility"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-07-30T16:54:54.4836067+02:00",
+  "ActiveDate": "2021-02-06T10:30:22.9733+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 105,
+  "PreferredTZLocation": 181,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 165,
+  "SuggestedAppointmentId": 125,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
+  "CentralserviceVideomeetId": "libero",
   "UserDefinedFields": {
-    "SuperOffice:1": "Willie Sporer",
-    "SuperOffice:2": "Dr. Maria Kuhlman IV"
+    "SuperOffice:1": "1280499917",
+    "SuperOffice:2": "506451696"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "non"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "maxime",
+    "CustomFields2": "nam"
   },
-  "PublishEventDate": "2003-06-24T16:54:54.4846071+02:00",
-  "PublishTo": "1999-05-05T16:54:54.4846071+02:00",
-  "PublishFrom": "2007-09-28T16:54:54.4846071+02:00",
+  "PublishEventDate": "2012-02-14T10:30:22.9733+01:00",
+  "PublishTo": "2003-01-01T10:30:22.9733+01:00",
+  "PublishFrom": "2008-05-10T10:30:22.9733+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 806,
+      "VisibleId": 651,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 724
+          "FieldLength": 644
         }
       }
     },
     {
-      "VisibleId": 806,
+      "VisibleId": 651,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 724
+          "FieldLength": 644
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 460
     }
   }
 }

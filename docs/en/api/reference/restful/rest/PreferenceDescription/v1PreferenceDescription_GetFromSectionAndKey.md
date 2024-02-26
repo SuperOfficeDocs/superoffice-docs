@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 747,
-  "Section": "ex",
-  "Key": "officia",
-  "Name": "Haag, Kris and Klein",
+  "PrefDescId": 224,
+  "Section": "et",
+  "Key": "et",
+  "Name": "Hahn-Emmerich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Switchable national extranet",
-  "IsBuiltin": true,
-  "TableName": "Lynch-Frami",
-  "UserDefinedListId": 639,
-  "Rank": 350,
-  "SubGroup": "eaque",
-  "MinLevel": 890,
-  "MaxValue": 373,
-  "MinValue": 110,
-  "RequiredLicense": "consectetur",
+  "Description": "User-friendly reciprocal standardization",
+  "IsBuiltin": false,
+  "TableName": "Bauch, Rau and Kuhlman",
+  "UserDefinedListId": 278,
+  "Rank": 976,
+  "SubGroup": "cupiditate",
+  "MinLevel": 438,
+  "MaxValue": 13,
+  "MinValue": 882,
+  "RequiredLicense": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

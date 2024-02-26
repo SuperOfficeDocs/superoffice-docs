@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 315,
-  "Section": "nesciunt",
-  "Key": "et",
-  "Name": "O'Connell, Swaniawski and Fay",
+  "PrefDescId": 914,
+  "Section": "velit",
+  "Key": "est",
+  "Name": "Runolfsson-Thiel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Universal executive approach",
-  "IsBuiltin": false,
-  "TableName": "Carroll-Barrows",
-  "UserDefinedListId": 605,
-  "Rank": 8,
-  "SubGroup": "temporibus",
-  "MinLevel": 559,
-  "MaxValue": 689,
-  "MinValue": 40,
-  "RequiredLicense": "officiis",
+  "Description": "Multi-lateral clear-thinking local area network",
+  "IsBuiltin": true,
+  "TableName": "Tromp Group",
+  "UserDefinedListId": 658,
+  "Rank": 880,
+  "SubGroup": "veniam",
+  "MinLevel": 943,
+  "MaxValue": 538,
+  "MinValue": 860,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 779
     }
   }
 }

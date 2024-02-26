@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 586,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 398,
-  "Name": "Okuneva Inc and Sons",
-  "Description": "Visionary eco-centric initiative",
-  "Currency": "ex",
-  "CurrencyName": "King, Roob and Strosin",
-  "ValidFrom": "2022-04-21T16:55:30.7761776+02:00",
-  "ValidTo": "2013-10-10T16:55:30.7761776+02:00",
-  "IsActive": false,
+  "PriceListId": 918,
+  "ERPPriceListKey": "consequatur",
+  "QuoteConnectionId": 210,
+  "Name": "Bruen-Langworth",
+  "Description": "User-friendly contextually-based conglomeration",
+  "Currency": "ipsum",
+  "CurrencyName": "Moen-Mitchell",
+  "ValidFrom": "2009-04-10T10:30:33.0680874+02:00",
+  "ValidTo": "1999-02-03T10:30:33.0680874+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 688
     }
   },
   "_Links": {

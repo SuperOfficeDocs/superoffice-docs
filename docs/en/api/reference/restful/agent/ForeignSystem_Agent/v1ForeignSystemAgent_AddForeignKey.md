@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Luettgen-Schneider",
-  "DeviceName": "Anderson-Howe",
-  "DeviceIdentifier": "velit"
+  "ApplicationName": "Morar-Crist",
+  "DeviceName": "Wiegand, Kshlerin and Quigley",
+  "DeviceIdentifier": "beatae"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "perferendis",
-  "Value": "neque",
-  "RecordId": 351,
-  "CreatedDate": "2017-03-30T16:54:55.4864803+02:00",
-  "UpdatedDate": "2003-06-16T16:54:55.4864803+02:00",
-  "UpdatedBy": "ea",
-  "CreatedBy": "aliquam",
-  "TableName": "Spinka-Heathcote",
+  "Key": "sed",
+  "Value": "quidem",
+  "RecordId": 96,
+  "CreatedDate": "2009-12-23T10:30:23.9073938+01:00",
+  "UpdatedDate": "2007-10-27T10:30:23.9073938+02:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "aut",
+  "TableName": "Runte-Becker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldType": "System.String",
+      "FieldLength": 620
     }
   }
 }

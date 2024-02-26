@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Gislason, Jerde and McDermott",
-    "ToolTip": "Aut adipisci sit.",
-    "Deleted": true,
-    "Rank": 110,
-    "Type": "at",
-    "ColorBlock": 336,
-    "IconHint": "voluptates",
-    "Selected": false,
-    "LastChanged": "2020-10-06T16:55:30.5787857+02:00",
+    "Id": 195,
+    "Name": "Greenfelder, Streich and Cremin",
+    "ToolTip": "Minus laboriosam dolore libero libero.",
+    "Deleted": false,
+    "Rank": 952,
+    "Type": "tenetur",
+    "ColorBlock": 412,
+    "IconHint": "odio",
+    "Selected": true,
+    "LastChanged": "2020-08-20T10:30:32.9118319+02:00",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Gutkowski LLC",
-        "ToolTip": "Et et quas.",
+        "Id": 357,
+        "Name": "Murray-Weimann",
+        "ToolTip": "Quibusdam voluptates quae suscipit.",
         "Deleted": true,
-        "Rank": 803,
-        "Type": "impedit",
-        "ColorBlock": 949,
-        "IconHint": "quis",
+        "Rank": 136,
+        "Type": "possimus",
+        "ColorBlock": 719,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2005-04-30T16:55:30.5787857+02:00",
+        "LastChanged": "2023-05-14T10:30:32.9118319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "numquam",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Mr. Gertrude Abigayle Becker II",
+        "FullName": "Laverna Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 98
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "perspiciatis",
-    "Hidden": false,
-    "FullName": "Jaren Schmeler",
+    "ExtraInfo": "aut",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Nico Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 587
       }
     }
   }

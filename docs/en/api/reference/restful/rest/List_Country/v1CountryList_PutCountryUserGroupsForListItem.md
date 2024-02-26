@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Schuppe Inc and Sons",
-    "ToolTip": "Facilis eveniet.",
+    "Id": 415,
+    "Name": "Ondricka, Brakus and Bartoletti",
+    "ToolTip": "Quia ad incidunt.",
     "Deleted": true,
-    "Rank": 174,
-    "Type": "et",
-    "ColorBlock": 804,
-    "IconHint": "voluptatum",
-    "Selected": true,
-    "LastChanged": "2021-03-25T16:55:30.6052152+01:00",
+    "Rank": 232,
+    "Type": "aut",
+    "ColorBlock": 818,
+    "IconHint": "expedita",
+    "Selected": false,
+    "LastChanged": "1997-04-20T10:30:32.9274257+02:00",
     "ChildItems": [
       {
-        "Id": 485,
-        "Name": "Williamson, Welch and Smith",
-        "ToolTip": "Nihil eos aliquid quis.",
+        "Id": 460,
+        "Name": "Purdy-Lueilwitz",
+        "ToolTip": "Consequatur nemo.",
         "Deleted": false,
-        "Rank": 188,
-        "Type": "esse",
-        "ColorBlock": 665,
-        "IconHint": "iste",
+        "Rank": 707,
+        "Type": "qui",
+        "ColorBlock": 647,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2004-08-07T16:55:30.6052152+02:00",
+        "LastChanged": "2023-06-22T10:30:32.9274257+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "soluta",
-        "Hidden": false,
-        "FullName": "Ms. Vinnie Amelie Schoen"
+        "ExtraInfo": "in",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Heidi Upton"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "doloribus",
-    "Hidden": false,
-    "FullName": "Zoe Bailey"
+    "ExtraInfo": "aut",
+    "StyleHint": "debitis",
+    "Hidden": true,
+    "FullName": "Erwin Adams"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Kreiger-Davis",
-    "ToolTip": "Dolores aperiam consequatur voluptatem quod consectetur.",
-    "Deleted": true,
-    "Rank": 344,
-    "Type": "qui",
-    "ColorBlock": 572,
-    "IconHint": "et",
+    "Id": 998,
+    "Name": "Mraz Group",
+    "ToolTip": "Commodi odio.",
+    "Deleted": false,
+    "Rank": 327,
+    "Type": "dignissimos",
+    "ColorBlock": 398,
+    "IconHint": "nam",
     "Selected": false,
-    "LastChanged": "2001-07-12T16:55:30.6062346+02:00",
+    "LastChanged": "2003-08-13T10:30:32.9274257+02:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "DuBuque, Prohaska and Considine",
-        "ToolTip": "Qui ut officia molestiae nulla eveniet incidunt.",
-        "Deleted": true,
-        "Rank": 441,
-        "Type": "est",
-        "ColorBlock": 919,
-        "IconHint": "inventore",
+        "Id": 694,
+        "Name": "Durgan, Roob and Wolff",
+        "ToolTip": "Dolore pariatur nobis consectetur magnam.",
+        "Deleted": false,
+        "Rank": 874,
+        "Type": "tempora",
+        "ColorBlock": 875,
+        "IconHint": "ab",
         "Selected": true,
-        "LastChanged": "2013-09-07T16:55:30.6062346+02:00",
+        "LastChanged": "2018-03-17T10:30:32.9274257+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "vero",
+        "ExtraInfo": "ab",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Ms. Danny Corwin",
+        "FullName": "Mr. Carmella Lubowitz I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 923
+            "FieldLength": 40
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Dr. Rick Glennie Muller Jr.",
+    "ExtraInfo": "laborum",
+    "StyleHint": "consectetur",
+    "Hidden": true,
+    "FullName": "Mr. Russel Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldType": "System.String",
+        "FieldLength": 812
       }
     }
   }

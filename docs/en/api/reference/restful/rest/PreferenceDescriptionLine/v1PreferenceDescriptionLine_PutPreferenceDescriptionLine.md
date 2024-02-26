@@ -89,16 +89,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 669,
-  "PrefDescId": 625,
-  "PrefValue": "in",
-  "PrefShowValue": "consequatur",
-  "Description": "Self-enabling 24 hour open architecture",
-  "IsBuiltin": false
+  "PrefDescLineId": 43,
+  "PrefDescId": 964,
+  "PrefValue": "eius",
+  "PrefShowValue": "culpa",
+  "Description": "Reduced maximized methodology",
+  "IsBuiltin": true
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 63,
-  "PrefDescId": 795,
-  "PrefValue": "aut",
-  "PrefShowValue": "molestias",
-  "Description": "Open-source attitude-oriented collaboration",
-  "IsBuiltin": true,
+  "PrefDescLineId": 541,
+  "PrefDescId": 990,
+  "PrefValue": "at",
+  "PrefShowValue": "consequatur",
+  "Description": "Versatile needs-based open system",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 585
     }
   },
   "_Links": {

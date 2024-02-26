@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "recusandae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "recusandae",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 576,
-  "Name": "Bosco-Klein",
-  "CreatedDate": "2006-04-20T16:55:29.6455283+02:00",
-  "UpdatedDate": "2019-10-14T16:55:29.6455283+02:00",
+  "ForeignAppId": 778,
+  "Name": "Moore Group",
+  "CreatedDate": "2015-12-22T10:30:32.0730519+01:00",
+  "UpdatedDate": "2018-08-10T10:30:32.0730519+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 146,
-      "Name": "Fritsch-Botsford",
-      "CreatedDate": "2003-12-16T16:55:29.6475236+01:00",
-      "UpdatedDate": "2003-10-12T16:55:29.6475236+02:00",
-      "AssociateFullName": "Maureen Ernser",
-      "CreatedBy": "modi",
-      "UpdatedBy": "facere",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 528,
+      "ForeignDeviceId": 197,
+      "Name": "Daniel-Ward",
+      "CreatedDate": "2011-04-06T10:30:32.0730519+02:00",
+      "UpdatedDate": "2023-09-06T10:30:32.0730519+02:00",
+      "AssociateFullName": "Foster Lang DDS",
+      "CreatedBy": "omnis",
+      "UpdatedBy": "beatae",
+      "DeviceIdentifier": "nam",
+      "ForeignAppId": 43,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldLength": 584
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldType": "System.Int32",
+      "FieldLength": 616
     }
   },
   "_Links": {

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 294,
-  "MessageId": "quos",
-  "Subject": "tempore",
+  "ServerId": 568,
+  "MessageId": "vero",
+  "Subject": "non",
   "From": null,
   "To": [
     {
-      "ContactId": 486,
-      "ContactName": "O'Connell, Sawayn and Rippin",
-      "PersonId": 739,
-      "PersonName": "McLaughlin, Boyer and Harris",
-      "AssociateId": 85,
-      "Address": "recusandae",
-      "EmailId": 109,
+      "ContactId": 72,
+      "ContactName": "Schneider Inc and Sons",
+      "PersonId": 461,
+      "PersonName": "Paucek Group",
+      "AssociateId": 3,
+      "Address": "ea",
+      "EmailId": 813,
       "DuplicatePersonIds": [
-        681,
-        72
+        215,
+        454
       ],
-      "Name": "Shields-Dare",
+      "Name": "Jaskolski, Cummings and Tremblay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldType": "System.String",
+          "FieldLength": 606
         }
       }
     }
   ],
-  "Sent": "2003-11-15T16:54:55.3414255+01:00",
+  "Sent": "2021-09-04T10:30:23.7824305+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 403,
+  "Size": 572,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 537
     }
   }
 }

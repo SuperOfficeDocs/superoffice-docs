@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Value": "sint",
-    "Tooltip": "non",
+    "Id": 698,
+    "Value": "asperiores",
+    "Tooltip": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   },
   {
-    "Id": 675,
-    "Value": "sint",
-    "Tooltip": "non",
+    "Id": 698,
+    "Value": "asperiores",
+    "Tooltip": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 798,
-  "ColumnId": 545,
-  "FieldDefault": "odio",
-  "FieldHeight": 524,
-  "FieldLabel": "nobis",
-  "FieldLeft": 828,
-  "FieldTop": 509,
+  "UDefFieldId": 714,
+  "ColumnId": 771,
+  "FieldDefault": "rerum",
+  "FieldHeight": 137,
+  "FieldLabel": "quo",
+  "FieldLeft": 264,
+  "FieldTop": 494,
   "FieldType": "Checkbox",
-  "FieldWidth": 832,
-  "FormatMask": "autem",
-  "HideLabel": true,
+  "FieldWidth": 334,
+  "FormatMask": "provident",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 798,
-  "LabelLeft": 359,
-  "LabelTop": 942,
-  "LabelWidth": 31,
-  "LastVersionId": 3,
-  "ListTableId": 401,
+  "LabelHeight": 765,
+  "LabelLeft": 86,
+  "LabelTop": 859,
+  "LabelWidth": 717,
+  "LastVersionId": 818,
+  "ListTableId": 931,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 758,
-  "ProgId": "nobis",
+  "Page1LineNo": 632,
+  "ProgId": "deserunt",
   "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 456,
-  "TextLength": 730,
-  "Tooltip": "ea",
-  "UdefIdentity": 232,
-  "UDListDefinitionId": 56,
+  "ShortLabel": "laudantium",
+  "TabOrder": 838,
+  "TextLength": 125,
+  "Tooltip": "pariatur",
+  "UdefIdentity": 680,
+  "UDListDefinitionId": 966,
   "Justification": "Center",
-  "Version": 408,
-  "TemplateVariableName": "Becker-Stokes",
-  "HasBeenPublished": false,
-  "MdoListName": "Zulauf, Keebler and Langosh",
+  "Version": 344,
+  "TemplateVariableName": "Steuber LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Block LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 576
     }
   }
 }

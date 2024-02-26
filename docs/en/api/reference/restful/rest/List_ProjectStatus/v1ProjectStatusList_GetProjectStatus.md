@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 580,
-  "Name": "Turcotte-Ferry",
-  "Tooltip": "facilis",
+  "Id": 329,
+  "Name": "Kihn-Larkin",
+  "Tooltip": "ullam",
   "Deleted": true,
-  "UdListDefinitionId": 554,
-  "Rank": 964,
+  "UdListDefinitionId": 796,
+  "Rank": 970,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 33
     }
   }
 }

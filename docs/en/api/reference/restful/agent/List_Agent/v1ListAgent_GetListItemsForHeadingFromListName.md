@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hauck, Lang and Stanton",
-  "HeadingId": 31
+  "UdListDefinitionName": "Sawayn-Farrell",
+  "HeadingId": 451
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Schumm Inc and Sons",
-    "ToolTip": "Perferendis et aut.",
+    "Id": 941,
+    "Name": "Yundt-Schmitt",
+    "ToolTip": "Sunt et voluptas libero molestias et odio.",
     "Deleted": false,
-    "Rank": 792,
-    "Type": "ut",
-    "ColorBlock": 764,
-    "IconHint": "nisi",
+    "Rank": 820,
+    "Type": "praesentium",
+    "ColorBlock": 70,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2000-09-14T16:54:55.5739846+02:00",
+    "LastChanged": "2014-03-01T10:30:24.0100212+01:00",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Kunde, Bechtelar and Nicolas",
-        "ToolTip": "Eligendi iure perferendis nostrum est iusto.",
-        "Deleted": true,
-        "Rank": 220,
-        "Type": "expedita",
-        "ColorBlock": 149,
-        "IconHint": "quae",
+        "Id": 115,
+        "Name": "Grant-Baumbach",
+        "ToolTip": "Tempora placeat explicabo magni dolor.",
+        "Deleted": false,
+        "Rank": 53,
+        "Type": "adipisci",
+        "ColorBlock": 241,
+        "IconHint": "labore",
         "Selected": true,
-        "LastChanged": "2016-11-08T16:54:55.5739846+01:00",
+        "LastChanged": "2016-08-29T10:30:24.0100212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aspernatur",
-        "Hidden": false,
-        "FullName": "Kennedi Miller MD",
+        "ExtraInfo": "ut",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Josefina Ledner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 255
+            "FieldLength": 35
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "facere",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Euna Hahn II",
+    "FullName": "Aurelia O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldType": "System.String",
+        "FieldLength": 253
       }
     }
   }

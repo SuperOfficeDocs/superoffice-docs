@@ -72,31 +72,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "1998-02-03T16:54:56.3546172+01:00",
+  "When": "1997-03-18T10:30:24.7329688+01:00",
   "Changes": [
     {
-      "FieldIdentifier": "quibusdam",
-      "ValueChangeFrom": 21220.314,
-      "ValueChangeTo": 6007.878,
+      "FieldIdentifier": "possimus",
+      "ValueChangeFrom": 13178.47,
+      "ValueChangeTo": 21784.433999999997,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 510
         }
       }
     },
     {
-      "FieldIdentifier": "quibusdam",
-      "ValueChangeFrom": 21220.314,
-      "ValueChangeTo": 6007.878,
+      "FieldIdentifier": "possimus",
+      "ValueChangeFrom": 13178.47,
+      "ValueChangeTo": 21784.433999999997,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 510
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 721
     }
   }
 }

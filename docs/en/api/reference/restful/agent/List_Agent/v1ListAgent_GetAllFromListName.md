@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wolf Group",
+  "UdListDefinitionName": "Cummerata-Paucek",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Nicolas-Hane",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "UdListDefinitionId": 424,
-    "Rank": 969,
+    "Id": 300,
+    "Name": "Gerlach, Feil and Quitzon",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "UdListDefinitionId": 170,
+    "Rank": 669,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldType": "System.String",
+        "FieldLength": 471
       }
     }
   }

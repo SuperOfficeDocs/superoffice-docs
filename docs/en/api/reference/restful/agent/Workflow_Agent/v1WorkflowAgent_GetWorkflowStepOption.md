@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 865
+  "WorkflowStepOptionId": 998
 }
 ```
 
@@ -92,24 +92,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OptionType": "FormSubmission",
-  "WorkflowStepOptionId": 263,
-  "WorkflowStepId": 829,
-  "WorkflowId": 460,
-  "Name": "Mohr LLC",
-  "Rank": 564,
+  "OptionType": "FormData",
+  "WorkflowStepOptionId": 32,
+  "WorkflowStepId": 649,
+  "WorkflowId": 161,
+  "Name": "Toy-Hyatt",
+  "Rank": 573,
   "Steps": [
     {
-      "WorkflowStepId": 154,
-      "WorkflowId": 686,
+      "WorkflowStepId": 119,
+      "WorkflowId": 885,
       "StepType": "AddToList",
-      "Rank": 705
+      "Rank": 514
     },
     {
-      "WorkflowStepId": 154,
-      "WorkflowId": 686,
+      "WorkflowStepId": 119,
+      "WorkflowId": 885,
       "StepType": "AddToList",
-      "Rank": 705
+      "Rank": 514
     }
   ]
 }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=placeat
-GET /api/v1/Document?$top=895
-GET /api/v1/Document?$skip=888
+GET /api/v1/Document?$entities=recusandae
+GET /api/v1/Document?$top=507
+GET /api/v1/Document?$skip=730
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=corporis
+GET /api/v1/Document?$context=voluptate
 GET /api/v1/Document?$format=JSON
-GET /api/v1/Document?$jsonSafe=True
+GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "porro",
+  "odata.nextLink": "commodi",
   "value": [
     {
-      "PrimaryKey": 4021,
+      "PrimaryKey": 4498,
       "EntityName": "sale",
-      "saleId": 4021,
-      "contactId": 8906,
-      "name": "Torphy Group"
+      "saleId": 4498,
+      "contactId": 6010,
+      "name": "Luettgen-McCullough"
     },
     {
-      "PrimaryKey": 7253,
+      "PrimaryKey": 7115,
       "EntityName": "sale",
-      "saleId": 7253,
-      "contactId": 681,
-      "name": "Gulgowski LLC"
+      "saleId": 7115,
+      "contactId": 2204,
+      "name": "Rath, Treutel and Senger"
     }
   ]
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 800,
-    "Name": "Schaden LLC",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "Rank": 924,
-    "UdListDefinitionId": 326,
+    "HeadingId": 191,
+    "Name": "Swaniawski, Kerluke and Fadel",
+    "Tooltip": "rerum",
+    "Deleted": true,
+    "Rank": 940,
+    "UdListDefinitionId": 638,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldType": "System.String",
+        "FieldLength": 455
       }
     }
   }

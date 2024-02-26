@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 442
+  "ProjectId": 526
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 834,
-    "Attention": "dolore",
-    "Header": "consequatur",
-    "Name": "Blick, Buckridge and Boyer",
-    "OurRef": "et",
-    "YourRef": "aut",
-    "Description": "Polarised object-oriented open architecture",
-    "DocumentTemplate": "accusantium",
+    "DocumentId": 84,
+    "Attention": "architecto",
+    "Header": "assumenda",
+    "Name": "Huel-Hayes",
+    "OurRef": "nihil",
+    "YourRef": "iste",
+    "Description": "Enterprise-wide bifurcated process improvement",
+    "DocumentTemplate": "dolores",
     "IsPublished": false,
-    "PersonId": 937,
-    "PersonFullName": "Ms. Diana Hilario Blanda",
-    "AssociateFullName": "Johan Grady",
-    "ContactId": 585,
-    "ContactName": "Streich, Morar and Weissnat",
-    "ProjectId": 572,
-    "ProjectName": "Welch-Sanford",
-    "AssociateId": 137,
-    "Snum": 317,
-    "SaleId": 292,
-    "SaleName": "Collier Group",
+    "PersonId": 220,
+    "PersonFullName": "Mervin Gibson",
+    "AssociateFullName": "Brycen Nader I",
+    "ContactId": 494,
+    "ContactName": "Jakubowski-Schaden",
+    "ProjectId": 559,
+    "ProjectName": "Rutherford-Goodwin",
+    "AssociateId": 306,
+    "Snum": 594,
+    "SaleId": 125,
+    "SaleName": "Emmerich LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 514
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

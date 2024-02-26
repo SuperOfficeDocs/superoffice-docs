@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Konopelski, Lesch and Hilpert",
-  "AssociateId": 631
+  "TableName": "Roberts-Keeling",
+  "AssociateId": 794
 }
 ```
 

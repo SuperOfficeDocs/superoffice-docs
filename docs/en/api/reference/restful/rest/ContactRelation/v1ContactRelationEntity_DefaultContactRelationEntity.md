@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 08 Sep 2015 16:55:29 G9T
+Last-Modified: Fri, 15 Dec 2006 10:30:31 G12T
 
 {
-  "SourceContactId": 595,
-  "SourcePersonId": 85,
-  "DestinationContactId": 47,
-  "DestinationPersonId": 934,
-  "RelationId": 778,
-  "Comment": "sint",
-  "RelationDefinitionId": 103,
-  "Reversed": 16,
-  "UpdatedDate": "2015-09-08T16:55:29.5148457+02:00",
-  "CreatedDate": "2008-11-02T16:55:29.5148457+01:00",
+  "SourceContactId": 829,
+  "SourcePersonId": 918,
+  "DestinationContactId": 231,
+  "DestinationPersonId": 210,
+  "RelationId": 94,
+  "Comment": "dicta",
+  "RelationDefinitionId": 499,
+  "Reversed": 393,
+  "UpdatedDate": "2006-12-15T10:30:31.9480569+01:00",
+  "CreatedDate": "2001-08-06T10:30:31.9480569+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Swift-Hickle",
-  "SourcePersonName": "Marks, Howell and Stanton",
-  "DestinationContactName": "Medhurst, Schoen and Buckridge",
-  "DestinationPersonName": "Gutkowski Inc and Sons",
-  "ActiveText": "voluptas",
-  "PassiveText": "voluptas",
+  "SourceContactName": "Ortiz LLC",
+  "SourcePersonName": "Balistreri Inc and Sons",
+  "DestinationContactName": "Homenick LLC",
+  "DestinationPersonName": "Okuneva-Lowe",
+  "ActiveText": "cupiditate",
+  "PassiveText": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

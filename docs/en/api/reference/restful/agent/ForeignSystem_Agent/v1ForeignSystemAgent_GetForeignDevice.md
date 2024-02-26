@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=675
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=91
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 218,
-  "Name": "Heaney Inc and Sons",
-  "CreatedDate": "2014-04-21T16:54:55.4884647+02:00",
-  "UpdatedDate": "2009-02-07T16:54:55.4884647+01:00",
-  "AssociateFullName": "Leola DuBuque",
-  "CreatedBy": "perferendis",
-  "UpdatedBy": "harum",
-  "DeviceIdentifier": "quasi",
-  "ForeignAppId": 607,
+  "ForeignDeviceId": 978,
+  "Name": "Green-Volkman",
+  "CreatedDate": "2003-11-24T10:30:23.9073938+01:00",
+  "UpdatedDate": "2002-09-12T10:30:23.9073938+02:00",
+  "AssociateFullName": "Lucious Koch",
+  "CreatedBy": "ea",
+  "UpdatedBy": "est",
+  "DeviceIdentifier": "voluptatum",
+  "ForeignAppId": 796,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 621
     }
   }
 }

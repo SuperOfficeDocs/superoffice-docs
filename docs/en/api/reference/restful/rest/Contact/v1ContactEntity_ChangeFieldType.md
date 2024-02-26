@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 762,
-  "ColumnId": 753,
-  "FieldDefault": "saepe",
-  "FieldHeight": 676,
-  "FieldLabel": "corrupti",
-  "FieldLeft": 181,
-  "FieldTop": 99,
+  "UDefFieldId": 554,
+  "ColumnId": 908,
+  "FieldDefault": "rerum",
+  "FieldHeight": 21,
+  "FieldLabel": "deserunt",
+  "FieldLeft": 713,
+  "FieldTop": 6,
   "FieldType": "Checkbox",
-  "FieldWidth": 406,
-  "FormatMask": "et",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 640,
-  "LabelLeft": 960,
-  "LabelTop": 96,
-  "LabelWidth": 619,
-  "LastVersionId": 874,
-  "ListTableId": 194,
+  "FieldWidth": 285,
+  "FormatMask": "omnis",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 928,
+  "LabelLeft": 858,
+  "LabelTop": 12,
+  "LabelWidth": 834,
+  "LastVersionId": 789,
+  "ListTableId": 363,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 199,
-  "ProgId": "eos",
+  "Page1LineNo": 386,
+  "ProgId": "ad",
   "IsReadOnly": true,
-  "ShortLabel": "dignissimos",
-  "TabOrder": 206,
-  "TextLength": 974,
-  "Tooltip": "dolore",
-  "UdefIdentity": 176,
-  "UDListDefinitionId": 875,
+  "ShortLabel": "et",
+  "TabOrder": 208,
+  "TextLength": 281,
+  "Tooltip": "quaerat",
+  "UdefIdentity": 570,
+  "UDListDefinitionId": 922,
   "Justification": "Center",
-  "Version": 128,
-  "TemplateVariableName": "Braun, Bernhard and Brakus",
+  "Version": 869,
+  "TemplateVariableName": "Gleason, Littel and Ullrich",
   "HasBeenPublished": false,
-  "MdoListName": "Schoen LLC",
+  "MdoListName": "Dibbert-Hirthe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldLength": 561
     }
   }
 }

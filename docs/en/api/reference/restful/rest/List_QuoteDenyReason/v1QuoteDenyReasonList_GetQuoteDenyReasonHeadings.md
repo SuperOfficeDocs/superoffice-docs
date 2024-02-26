@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 195,
-    "Name": "Fisher-Cremin",
-    "Tooltip": "assumenda",
+    "HeadingId": 75,
+    "Name": "Kihn-Oberbrunner",
+    "Tooltip": "fugit",
     "Deleted": true,
-    "Rank": 388,
-    "UdListDefinitionId": 469,
+    "Rank": 742,
+    "UdListDefinitionId": 150,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldType": "System.Int32",
+        "FieldLength": 557
       }
     }
   }

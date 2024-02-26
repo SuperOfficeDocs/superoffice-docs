@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 440,
-  "LanguageCode": "sed"
+  "DocumentTemplateId": 800,
+  "LanguageCode": "repudiandae"
 }
 ```
 

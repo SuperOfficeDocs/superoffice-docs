@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Jenkins-Ullrich",
-  "ProviderName": "Lemke, Jones and Stoltenberg",
-  "Context": "nesciunt",
-  "OwnerKeys": "tempora",
+  "GuiName": "Ziemann, Effertz and Dach",
+  "ProviderName": "Ritchie, Jones and Keeling",
+  "Context": "est",
+  "OwnerKeys": "modi",
   "Entities": [
-    "non",
-    "alias"
+    "ipsum",
+    "omnis"
   ]
 }
 ```

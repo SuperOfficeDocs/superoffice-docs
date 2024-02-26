@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 406,
-  "FieldName": "Pacocha Inc and Sons",
-  "Label": "cumque",
-  "Tooltip": "saepe",
+  "QuoteLineConfigurationId": 993,
+  "FieldName": "Kemmer, Collins and Romaguera",
+  "Label": "adipisci",
+  "Tooltip": "vero",
   "Editable": false,
   "InUse": true,
   "Mandatory": true,
-  "Rank": 206,
+  "Rank": 525,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 751
     }
   }
 }

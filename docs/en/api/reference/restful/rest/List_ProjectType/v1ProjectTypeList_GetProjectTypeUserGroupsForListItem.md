@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Satterfield Group",
-    "ToolTip": "Nam et nulla commodi veniam est voluptatem occaecati.",
+    "Id": 991,
+    "Name": "Rippin-Nicolas",
+    "ToolTip": "Quos error autem.",
     "Deleted": false,
-    "Rank": 510,
-    "Type": "eos",
-    "ColorBlock": 73,
-    "IconHint": "quas",
+    "Rank": 48,
+    "Type": "nobis",
+    "ColorBlock": 592,
+    "IconHint": "ducimus",
     "Selected": true,
-    "LastChanged": "2010-06-28T16:55:30.8467171+02:00",
+    "LastChanged": "2014-05-21T10:30:33.1474583+02:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Goldner-Nicolas",
-        "ToolTip": "Consequatur delectus.",
-        "Deleted": false,
-        "Rank": 807,
-        "Type": "libero",
-        "ColorBlock": 677,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2009-09-22T16:55:30.8467171+02:00",
+        "Id": 591,
+        "Name": "Lakin, Homenick and Murphy",
+        "ToolTip": "Fugiat omnis.",
+        "Deleted": true,
+        "Rank": 963,
+        "Type": "alias",
+        "ColorBlock": 789,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "2018-10-23T10:30:33.1474583+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "illum",
-        "Hidden": true,
-        "FullName": "Cathryn Toy",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Alec Betty Braun Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 871
+            "FieldLength": 267
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Johnny Mateo Padberg III",
+    "ExtraInfo": "vero",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Eryn Prosacco IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldType": "System.String",
+        "FieldLength": 606
       }
     }
   }

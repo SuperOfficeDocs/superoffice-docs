@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "eveniet"
+  "QuoteListType": "saepe"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "nesciunt",
-    "DisplayValue": "ratione",
-    "DisplayDescription": "Mandatory explicit challenge",
+    "ERPQuoteListItemKey": "iste",
+    "DisplayValue": "rem",
+    "DisplayDescription": "Self-enabling 24 hour alliance",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "nesciunt",
-    "DisplayValue": "ratione",
-    "DisplayDescription": "Mandatory explicit challenge",
+    "ERPQuoteListItemKey": "iste",
+    "DisplayValue": "rem",
+    "DisplayDescription": "Self-enabling 24 hour alliance",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

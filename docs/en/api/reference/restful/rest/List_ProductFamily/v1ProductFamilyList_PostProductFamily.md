@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 343,
-  "Name": "Streich Group",
-  "Tooltip": "at",
+  "Id": 889,
+  "Name": "Cormier, Hermann and Champlin",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 197,
-  "Rank": 775
+  "UdListDefinitionId": 742,
+  "Rank": 112
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Name": "Homenick LLC",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "UdListDefinitionId": 540,
-  "Rank": 582,
+  "Id": 730,
+  "Name": "Erdman, Kuvalis and Ratke",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "UdListDefinitionId": 198,
+  "Rank": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 225
     }
   }
 }

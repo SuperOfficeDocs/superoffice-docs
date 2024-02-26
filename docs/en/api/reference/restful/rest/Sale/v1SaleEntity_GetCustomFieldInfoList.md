@@ -67,7 +67,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Will Group",
-    "DisplayName": "Orn, Koss and Hauck",
-    "Description": "Versatile 5th generation challenge",
-    "ShortLabel": "perferendis",
+    "FieldName": "Bruen, Rippin and Durgan",
+    "DisplayName": "Hayes-Feil",
+    "Description": "Digitized heuristic knowledge user",
+    "ShortLabel": "autem",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 207,
-    "TemplateVariableName": "Yost LLC"
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "Rank": 68,
+    "TemplateVariableName": "Trantow-Runolfsson"
   }
 ]
 ```

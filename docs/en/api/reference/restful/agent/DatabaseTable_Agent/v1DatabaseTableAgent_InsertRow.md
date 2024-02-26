@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Boyle Inc and Sons",
+  "TableName": "Wyman, Tremblay and Konopelski",
   "Values": {
-    "Values1": "sed",
-    "Values2": "ut"
+    "Values1": "consequatur",
+    "Values2": "id"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-984
+799
 ```

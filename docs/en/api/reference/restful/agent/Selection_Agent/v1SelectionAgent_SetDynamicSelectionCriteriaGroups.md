@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 405,
+  "SelectionId": 903,
   "Criteria": [
     {
-      "Name": "Gutmann Group",
-      "Description": "Progressive executive product",
-      "Rank": 191,
+      "Name": "Dicki-Wuckert",
+      "Description": "Horizontal zero tolerance internet solution",
+      "Rank": 144,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutmann Group",
-      "Description": "Progressive executive product",
-      "Rank": 191,
+      "Name": "Dicki-Wuckert",
+      "Description": "Horizontal zero tolerance internet solution",
+      "Rank": 144,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fisher-Rohan",
-    "Description": "Face to face homogeneous groupware",
-    "Rank": 781,
+    "Name": "Veum-Oberbrunner",
+    "Description": "Business-focused systemic leverage",
+    "Rank": 298,
     "Restrictions": [
       {
-        "Name": "Kozey Inc and Sons",
-        "Operator": "perspiciatis",
+        "Name": "Schmitt, Ebert and Metz",
+        "Operator": "qui",
         "Values": [
-          "maxime",
-          "maxime"
+          "quidem",
+          "officia"
         ],
         "DisplayValues": [
-          "et",
-          "quia"
+          "labore",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 927,
+        "InterParenthesis": 2,
         "InterOperator": "And",
-        "UniqueHash": 682
+        "UniqueHash": 70
       }
     ]
   },
   {
-    "Name": "Fisher-Rohan",
-    "Description": "Face to face homogeneous groupware",
-    "Rank": 781,
+    "Name": "Veum-Oberbrunner",
+    "Description": "Business-focused systemic leverage",
+    "Rank": 298,
     "Restrictions": [
       {
-        "Name": "Kozey Inc and Sons",
-        "Operator": "perspiciatis",
+        "Name": "Schmitt, Ebert and Metz",
+        "Operator": "qui",
         "Values": [
-          "maxime",
-          "maxime"
+          "quidem",
+          "officia"
         ],
         "DisplayValues": [
-          "et",
-          "quia"
+          "labore",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 927,
+        "InterParenthesis": 2,
         "InterOperator": "And",
-        "UniqueHash": 682
+        "UniqueHash": 70
       }
     ]
   }

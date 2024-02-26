@@ -140,16 +140,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=quaerat
-GET /api/v1/Archive/{archiveProviderName}?$top=930
-GET /api/v1/Archive/{archiveProviderName}?$skip=594
+GET /api/v1/Archive/{archiveProviderName}?$entities=vel
+GET /api/v1/Archive/{archiveProviderName}?$top=174
+GET /api/v1/Archive/{archiveProviderName}?$skip=396
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=cumque
+GET /api/v1/Archive/{archiveProviderName}?$context=id
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=illo
+GET /api/v1/Archive/{archiveProviderName}?$metadata=aut
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -201,21 +201,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ratione",
+  "odata.nextLink": "id",
   "value": [
     {
-      "PrimaryKey": 478,
+      "PrimaryKey": 9363,
       "EntityName": "sale",
-      "saleId": 478,
-      "contactId": 2528,
-      "name": "Fahey Inc and Sons"
+      "saleId": 9363,
+      "contactId": 4854,
+      "name": "Dietrich-Waters"
     },
     {
-      "PrimaryKey": 3944,
+      "PrimaryKey": 7446,
       "EntityName": "sale",
-      "saleId": 3944,
-      "contactId": 8840,
-      "name": "Considine-Fisher"
+      "saleId": 7446,
+      "contactId": 5221,
+      "name": "Schmitt Inc and Sons"
     }
   ]
 }

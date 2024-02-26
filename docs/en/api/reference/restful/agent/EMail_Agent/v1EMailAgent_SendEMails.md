@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "est",
-      "HTMLBody": "suscipit",
+      "Subject": "ut",
+      "HTMLBody": "et",
       "From": null,
-      "Sent": "2019-05-16T16:54:55.3659474+02:00",
-      "Size": 197,
+      "Sent": "2007-09-05T10:30:23.798054+02:00",
+      "Size": 732,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "voluptas",
-      "PlainBody": "recusandae",
-      "IsSent": false,
+      "MessageID": "qui",
+      "PlainBody": "deserunt",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 227,
+      "ServerId": 202,
       "Attachments": [
         {},
         {}
@@ -141,12 +141,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Weimann-McClure",
-      "EmailItemId": 874,
-      "AccountId": 729,
-      "ReceivedAt": "2023-06-06T16:54:55.3659474+02:00",
+      "FolderName": "Haley, Wuckert and Hettinger",
+      "EmailItemId": 303,
+      "AccountId": 746,
+      "ReceivedAt": "1998-01-19T10:30:23.798054+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2011-02-04T16:54:55.3659474+01:00",
+      "RepliedAt": "2018-10-18T10:30:23.798054+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -166,96 +166,96 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 87,
-        "ContactName": "Frami-McClure",
-        "PersonId": 456,
-        "PersonName": "Hessel-Effertz",
-        "AssociateId": 316,
-        "Address": "explicabo",
-        "EmailId": 644,
+        "ContactId": 680,
+        "ContactName": "Harvey, Wolf and Reichel",
+        "PersonId": 396,
+        "PersonName": "O'Conner LLC",
+        "AssociateId": 472,
+        "Address": "repellendus",
+        "EmailId": 282,
         "DuplicatePersonIds": [
-          349,
-          450
+          602,
+          63
         ],
-        "Name": "Gottlieb, Bradtke and Trantow",
+        "Name": "Jakubowski-Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 953
+            "FieldLength": 12
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 158,
-        "ContactName": "Walker Group",
-        "PersonId": 76,
-        "PersonName": "Beer-Hahn",
-        "AssociateId": 179,
-        "Address": "minima",
-        "EmailId": 938,
+        "ContactId": 944,
+        "ContactName": "Denesik-Will",
+        "PersonId": 377,
+        "PersonName": "Pollich-Boyer",
+        "AssociateId": 800,
+        "Address": "maxime",
+        "EmailId": 984,
         "DuplicatePersonIds": [
-          518,
-          312
+          310,
+          391
         ],
-        "Name": "Hagenes LLC",
+        "Name": "Bayer Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 428
+            "FieldLength": 475
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 750,
-        "ContactName": "Koss, Monahan and Hackett",
-        "PersonId": 275,
-        "PersonName": "Murazik LLC",
-        "AssociateId": 587,
-        "Address": "maiores",
-        "EmailId": 345,
+        "ContactId": 989,
+        "ContactName": "Langosh Inc and Sons",
+        "PersonId": 561,
+        "PersonName": "Ondricka-Klein",
+        "AssociateId": 478,
+        "Address": "autem",
+        "EmailId": 204,
         "DuplicatePersonIds": [
-          649,
-          210
+          70,
+          285
         ],
-        "Name": "Heathcote Group",
+        "Name": "Sporer Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 510
+            "FieldType": "System.Int32",
+            "FieldLength": 978
           }
         }
       }
     ],
-    "Subject": "non",
-    "HTMLBody": "mollitia",
+    "Subject": "distinctio",
+    "HTMLBody": "eius",
     "From": null,
-    "Sent": "2004-10-31T16:54:55.3689475+01:00",
-    "Size": 115,
+    "Sent": "2001-09-29T10:30:23.798054+02:00",
+    "Size": 53,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "exercitationem",
-    "PlainBody": "facere",
-    "IsSent": false,
+    "MessageID": "ut",
+    "PlainBody": "quo",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 867,
+    "ServerId": 847,
     "Attachments": [
       {
-        "Description": "Polarised transitional policy",
-        "Filename": "quia",
-        "Size": 491,
-        "Type": "blanditiis",
-        "Encoding": "adipisci",
-        "Id": "perferendis",
+        "Description": "Visionary incremental infrastructure",
+        "Filename": "consequatur",
+        "Size": 739,
+        "Type": "qui",
+        "Encoding": "deserunt",
+        "Id": "ut",
         "Disposition": "est",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
@@ -263,51 +263,51 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 108
+            "FieldType": "System.Int32",
+            "FieldLength": 178
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Runolfsson, Hyatt and Lakin",
+        "Name": "Murphy, Crist and Wilderman",
         "Values": [
-          "blanditiis",
-          "ut"
+          "sequi",
+          "praesentium"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 452
+            "FieldType": "System.Int32",
+            "FieldLength": 570
           }
         }
       },
       {
-        "Name": "Runolfsson, Hyatt and Lakin",
+        "Name": "Murphy, Crist and Wilderman",
         "Values": [
-          "blanditiis",
-          "ut"
+          "sequi",
+          "praesentium"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 452
+            "FieldType": "System.Int32",
+            "FieldLength": 570
           }
         }
       }
     ],
-    "FolderName": "Bergnaum Inc and Sons",
-    "EmailItemId": 990,
-    "AccountId": 868,
-    "ReceivedAt": "2000-09-26T16:54:55.3689475+02:00",
+    "FolderName": "Miller Group",
+    "EmailItemId": 922,
+    "AccountId": 11,
+    "ReceivedAt": "2021-01-26T10:30:23.798054+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2019-05-23T16:54:55.3689475+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2020-12-21T10:30:23.798054+01:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -315,7 +315,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 90
       }
     }
   }

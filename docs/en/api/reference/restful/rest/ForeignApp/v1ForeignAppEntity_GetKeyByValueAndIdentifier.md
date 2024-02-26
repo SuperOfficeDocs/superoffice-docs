@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=reprehenderit
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sunt
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Jul 2005 16:55:29 G7T
+Last-Modified: Sat, 17 Nov 2001 10:30:32 G11T
 
 {
-  "Key": "dicta",
-  "Value": "saepe",
-  "RecordId": 545,
-  "CreatedDate": "2015-01-21T16:55:29.6594388+01:00",
-  "UpdatedDate": "2005-07-02T16:55:29.6604374+02:00",
-  "UpdatedBy": "a",
-  "CreatedBy": "unde",
-  "TableName": "Spinka LLC",
+  "Key": "ut",
+  "Value": "id",
+  "RecordId": 908,
+  "CreatedDate": "2012-05-07T10:30:32.0886795+02:00",
+  "UpdatedDate": "2001-11-17T10:30:32.0886795+01:00",
+  "UpdatedBy": "tempore",
+  "CreatedBy": "possimus",
+  "TableName": "Dickens, Kovacek and Beatty",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldLength": 899
     }
   }
 }

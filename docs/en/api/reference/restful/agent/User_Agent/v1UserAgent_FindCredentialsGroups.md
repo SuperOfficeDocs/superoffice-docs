@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "doloribus",
-  "SearchString": "ipsum"
+  "Type": "quaerat",
+  "SearchString": "neque"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "VonRueden, Daniel and Beier",
-    "DisplayName": "Hoeger-Frami",
+    "Name": "Bogisich-Marvin",
+    "DisplayName": "Langosh-Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldLength": 596
       }
     }
   },
   {
-    "Name": "VonRueden, Daniel and Beier",
-    "DisplayName": "Hoeger-Frami",
+    "Name": "Bogisich-Marvin",
+    "DisplayName": "Langosh-Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldLength": 596
       }
     }
   }

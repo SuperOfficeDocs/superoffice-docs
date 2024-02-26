@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=quae
+GET /api/v1/List/ProjectType/MDOItems?query=dolor
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 801,
-    "Name": "Stehr Inc and Sons",
-    "ToolTip": "Dicta qui non praesentium.",
+    "Id": 36,
+    "Name": "Veum-Cronin",
+    "ToolTip": "Et laudantium similique.",
     "Deleted": false,
-    "Rank": 185,
-    "Type": "nesciunt",
+    "Rank": 101,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Reinger, Gislason and Wilkinson",
-        "ToolTip": "Nostrum nostrum aut quibusdam et.",
+        "Id": 44,
+        "Name": "Kovacek, Koepp and Tromp",
+        "ToolTip": "Ut quod.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "vitae",
+        "Rank": 263,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 611,
-        "ExtraInfo": "sequi",
-        "StyleHint": "laudantium",
-        "FullName": "Mallie Lockman",
+        "IconHint": "ratione",
+        "ColorBlock": 571,
+        "ExtraInfo": "sunt",
+        "StyleHint": "illum",
+        "FullName": "Thurman Christiansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 329
+            "FieldType": "System.Int32",
+            "FieldLength": 857
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 821,
-    "ExtraInfo": "dolore",
-    "StyleHint": "sed",
-    "FullName": "Reba Runte",
+    "IconHint": "rerum",
+    "ColorBlock": 584,
+    "ExtraInfo": "beatae",
+    "StyleHint": "hic",
+    "FullName": "Carolanne Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 784
+        "FieldLength": 838
       }
     }
   }

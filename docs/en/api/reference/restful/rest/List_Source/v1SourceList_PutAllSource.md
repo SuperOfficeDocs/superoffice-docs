@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Morar-Kessler",
-    "Tooltip": "debitis",
+    "Id": 651,
+    "Name": "Kshlerin Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 715,
-    "Rank": 504
+    "UdListDefinitionId": 737,
+    "Rank": 976
   },
   {
-    "Id": 976,
-    "Name": "Morar-Kessler",
-    "Tooltip": "debitis",
+    "Id": 651,
+    "Name": "Kshlerin Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 715,
-    "Rank": 504
+    "UdListDefinitionId": 737,
+    "Rank": 976
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Price-Kshlerin",
+    "Id": 990,
+    "Name": "Mayert Group",
     "Tooltip": "minima",
-    "Deleted": false,
-    "UdListDefinitionId": 464,
-    "Rank": 122,
+    "Deleted": true,
+    "UdListDefinitionId": 659,
+    "Rank": 165,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 171
       }
     }
   }

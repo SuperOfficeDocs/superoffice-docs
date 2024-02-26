@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 124,
-  "StartTime": "2019-02-08T16:54:55.1323895+01:00",
-  "EndTime": "2000-11-25T16:54:55.1323895+01:00",
-  "Count": 339,
-  "DocumentTemplateId": 885
+  "ContactId": 296,
+  "StartTime": "2019-04-06T10:30:23.5769016+02:00",
+  "EndTime": "2013-12-27T10:30:23.5769016+01:00",
+  "Count": 740,
+  "DocumentTemplateId": 28
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 916,
+    "DocumentId": 815,
     "Attention": "qui",
-    "Header": "excepturi",
-    "Name": "Ritchie-Schuppe",
-    "OurRef": "mollitia",
-    "YourRef": "reiciendis",
-    "Description": "Configurable 24 hour frame",
-    "DocumentTemplate": "iusto",
+    "Header": "explicabo",
+    "Name": "Jerde LLC",
+    "OurRef": "illum",
+    "YourRef": "et",
+    "Description": "Seamless motivating adapter",
+    "DocumentTemplate": "recusandae",
     "IsPublished": false,
-    "PersonId": 217,
-    "PersonFullName": "Rupert Reichel",
-    "AssociateFullName": "Mrs. Kathryne Felton Bahringer MD",
-    "ContactId": 718,
-    "ContactName": "Hodkiewicz Group",
-    "ProjectId": 663,
-    "ProjectName": "Jacobi, Bernhard and Lynch",
-    "AssociateId": 20,
-    "Snum": 367,
-    "SaleId": 344,
-    "SaleName": "O'Conner, Larson and Lubowitz",
+    "PersonId": 951,
+    "PersonFullName": "Selmer Rutherford",
+    "AssociateFullName": "Aditya Sawayn",
+    "ContactId": 307,
+    "ContactName": "Pollich LLC",
+    "ProjectId": 883,
+    "ProjectName": "Gutmann Group",
+    "AssociateId": 431,
+    "Snum": 448,
+    "SaleId": 464,
+    "SaleName": "Bogisich-Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 134
       }
     }
   }

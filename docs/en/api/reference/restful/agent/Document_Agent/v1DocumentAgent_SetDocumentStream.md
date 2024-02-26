@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": false
+  "OverwriteExistingData": true
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 561,
+  "DocumentId": 445,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "in",
-  "Header": "quam",
-  "Name": "Little, Wiza and Beatty",
-  "OurRef": "cupiditate",
-  "YourRef": "qui",
-  "CreatedDate": "2023-10-09T16:54:55.2069383+02:00",
-  "UpdatedDate": "2023-10-11T16:54:55.2069383+02:00",
-  "Description": "Persistent foreground archive",
+  "Attention": "consequatur",
+  "Header": "qui",
+  "Name": "Thompson, Vandervort and Gislason",
+  "OurRef": "nobis",
+  "YourRef": "dicta",
+  "CreatedDate": "2010-10-13T10:30:23.6417657+02:00",
+  "UpdatedDate": "2003-09-06T10:30:23.6417657+02:00",
+  "Description": "Monitored bandwidth-monitored application",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-02-03T16:54:55.2090189+01:00",
-  "ExternalRef": "ea",
+  "Date": "2010-08-17T10:30:23.6417657+02:00",
+  "ExternalRef": "recusandae",
   "Completed": "Completed",
-  "ActiveLinks": 618,
+  "ActiveLinks": 70,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rohan, Quitzon and Hayes",
-      "Id": 965,
-      "Description": "Enhanced national hierarchy",
-      "ExtraInfo": "eius",
-      "LinkId": 491,
+      "EntityName": "Hodkiewicz-Koepp",
+      "Id": 517,
+      "Description": "Organic hybrid process improvement",
+      "ExtraInfo": "commodi",
+      "LinkId": 782,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 720
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 433,
-  "Snum": 597,
+  "SuggestedDocumentId": 350,
+  "Snum": 696,
   "UserDefinedFields": {
-    "SuperOffice:1": "Addison Christiansen",
-    "SuperOffice:2": "Rebekah Jacobson"
+    "SuperOffice:1": "1333613764",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "illo"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "velit"
+    "CustomFields1": "totam",
+    "CustomFields2": "earum"
   },
-  "PublishEventDate": "2018-02-12T16:54:55.2099853+01:00",
-  "PublishTo": "2003-03-06T16:54:55.2099853+01:00",
-  "PublishFrom": "2008-09-08T16:54:55.2099853+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-02-12T10:30:23.6417657+01:00",
+  "PublishTo": "2019-06-30T10:30:23.6417657+02:00",
+  "PublishFrom": "2018-03-30T10:30:23.6417657+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 888,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldType": "System.Int32",
+          "FieldLength": 447
         }
       }
     },
     {
-      "VisibleId": 888,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldType": "System.Int32",
+          "FieldLength": 447
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

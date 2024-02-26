@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 124,
-    "Name": "Reichert Inc and Sons",
-    "Description": "Focused interactive knowledge user",
+    "ProjectId": 747,
+    "Name": "Cremin Group",
+    "Description": "Fully-configurable heuristic forecast",
     "URL": "http://www.example.com/",
-    "Type": "consequatur",
-    "AssociateId": 66,
-    "AssociateFullName": "Beryl Lind",
-    "TypeId": 881,
-    "Updated": "2001-02-22T16:54:56.0681382+01:00",
-    "StatusId": 988,
-    "Status": "dicta",
-    "TextId": 744,
-    "PublishTo": "2022-01-15T16:54:56.0681382+01:00",
-    "PublishFrom": "2023-06-30T16:54:56.0681382+02:00",
+    "Type": "dolores",
+    "AssociateId": 131,
+    "AssociateFullName": "Dr. Christian Francisca Dibbert I",
+    "TypeId": 886,
+    "Updated": "2009-08-09T10:30:24.3705833+02:00",
+    "StatusId": 696,
+    "Status": "eos",
+    "TextId": 576,
+    "PublishTo": "2001-05-01T10:30:24.3705833+02:00",
+    "PublishFrom": "1998-07-16T10:30:24.3705833+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "846683",
-    "ActiveErpLinks": 841,
+    "ProjectNumber": "928425",
+    "ActiveErpLinks": 31,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 177
       }
     }
   }

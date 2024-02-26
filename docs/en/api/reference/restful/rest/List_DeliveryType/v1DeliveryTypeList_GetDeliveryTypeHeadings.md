@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 535,
-    "Name": "Runte Group",
-    "Tooltip": "tempore",
-    "Deleted": true,
-    "Rank": 913,
-    "UdListDefinitionId": 331,
+    "HeadingId": 387,
+    "Name": "Stehr-Corkery",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "Rank": 102,
+    "UdListDefinitionId": 46,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 781
+        "FieldLength": 413
       }
     }
   }

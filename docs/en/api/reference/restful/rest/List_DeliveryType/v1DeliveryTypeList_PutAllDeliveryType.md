@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Schowalter LLC",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "UdListDefinitionId": 897,
-    "Rank": 755
+    "Id": 790,
+    "Name": "Gerhold-Hayes",
+    "Tooltip": "similique",
+    "Deleted": true,
+    "UdListDefinitionId": 49,
+    "Rank": 144
   },
   {
-    "Id": 96,
-    "Name": "Schowalter LLC",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "UdListDefinitionId": 897,
-    "Rank": 755
+    "Id": 790,
+    "Name": "Gerhold-Hayes",
+    "Tooltip": "similique",
+    "Deleted": true,
+    "UdListDefinitionId": 49,
+    "Rank": 144
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Kozey LLC",
-    "Tooltip": "repudiandae",
+    "Id": 423,
+    "Name": "Wyman LLC",
+    "Tooltip": "at",
     "Deleted": false,
-    "UdListDefinitionId": 633,
-    "Rank": 9,
+    "UdListDefinitionId": 714,
+    "Rank": 12,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 300
+        "FieldType": "System.Int32",
+        "FieldLength": 689
       }
     }
   }

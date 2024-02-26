@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Klocko-Kiehn",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 983,
-  "Rank": 627,
+  "Id": 722,
+  "Name": "Muller-Mertz",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 743,
+  "Rank": 838,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 937
     }
   }
 }

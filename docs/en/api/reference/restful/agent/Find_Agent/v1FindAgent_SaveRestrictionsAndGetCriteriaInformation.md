@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Osinski Group",
-  "StorageKey": "tempore",
+  "StorageType": "voluptas",
+  "ProviderName": "Lockman, Roob and Effertz",
+  "StorageKey": "minima",
   "Restrictions": [
     {
-      "Name": "Turner, Gutkowski and Boyle",
-      "Operator": "in",
+      "Name": "Koelpin LLC",
+      "Operator": "ducimus",
       "Values": [
-        "eos",
-        "atque"
+        "provident",
+        "aut"
       ],
       "DisplayValues": [
-        "reprehenderit",
-        "facilis"
+        "quas",
+        "officiis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 442,
+      "InterParenthesis": 290,
       "InterOperator": "And",
-      "UniqueHash": 321
+      "UniqueHash": 114
     }
   ],
   "StaticColumns": [
     "est",
-    "vitae"
+    "hic"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wuckert-Durgan",
-      "Operator": "voluptatem",
+      "Name": "Auer, Kassulke and Erdman",
+      "Operator": "beatae",
       "Values": [
-        "consequatur",
-        "natus"
+        "dolores",
+        "eum"
       ],
       "DisplayValues": [
-        "dolorem",
-        "exercitationem"
+        "dicta",
+        "eaque"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 853,
+      "InterParenthesis": 836,
       "InterOperator": "And",
-      "UniqueHash": 624
+      "UniqueHash": 113
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Homenick Group",
-      "DisplayTooltip": "modi",
-      "DisplayType": "et",
-      "CanOrderBy": false,
-      "Name": "Hamill, Schuster and Ondricka",
+      "DisplayName": "Maggio-Kling",
+      "DisplayTooltip": "aliquam",
+      "DisplayType": "qui",
+      "CanOrderBy": true,
+      "Name": "Kiehn-Shanahan",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Connelly Inc and Sons",
+      "RestrictionType": "aliquam",
+      "RestrictionListName": "Moen, Prohaska and Hirthe",
       "IsVisible": false,
-      "ExtraInfo": "hic",
-      "Width": "temporibus",
-      "IconHint": "vero",
-      "HeadingIconHint": "porro"
+      "ExtraInfo": "dolorem",
+      "Width": "sunt",
+      "IconHint": "repellendus",
+      "HeadingIconHint": "ducimus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Legros, Von and Corkery",
-      "PrimaryKey": 449,
+      "EntityName": "Denesik-Beahan",
+      "PrimaryKey": 612,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "veniam",
-          "LinkHint": "aut"
+          "DisplayValue": "quam",
+          "TooltipHint": "nam",
+          "LinkHint": "nostrum"
         }
       },
-      "LinkHint": "numquam",
-      "StyleHint": "soluta",
+      "LinkHint": "enim",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 606
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jaskolski-Welch",
-      "Description": "Triple-buffered next generation encryption",
-      "Rank": 994,
+      "Name": "Hane, Roob and Tillman",
+      "Description": "Synergistic scalable knowledge base",
+      "Rank": 738,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jaskolski-Welch",
-      "Description": "Triple-buffered next generation encryption",
-      "Rank": 994,
+      "Name": "Hane, Roob and Tillman",
+      "Description": "Synergistic scalable knowledge base",
+      "Rank": 738,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldLength": 434
     }
   }
 }

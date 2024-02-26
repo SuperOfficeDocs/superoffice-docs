@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 400,
-  "AssociateId": 924,
-  "Caption": "fuga",
+  "DashboardId": 334,
+  "AssociateId": 265,
+  "Caption": "perferendis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 136,
-      "Caption": "qui",
-      "Description": "Synchronised scalable complexity",
-      "ChartName": "Rau-Corwin",
-      "ChartId": "natus",
-      "IsDefault": true,
-      "AssociateId": 895,
-      "GroupId": 557,
-      "SelectionId": 987,
-      "Config": "dolorum",
+      "DashboardTileId": 492,
+      "Caption": "libero",
+      "Description": "Seamless object-oriented customer loyalty",
+      "ChartName": "Treutel Group",
+      "ChartId": "vero",
+      "IsDefault": false,
+      "AssociateId": 756,
+      "GroupId": 124,
+      "SelectionId": 241,
+      "Config": "harum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldLength": 703
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 914
     }
   },
   "_Links": {

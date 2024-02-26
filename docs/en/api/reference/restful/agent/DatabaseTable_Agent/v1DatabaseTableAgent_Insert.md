@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Reilly LLC",
+  "TableName": "Jones, Miller and Hoppe",
   "Columns": [
-    "sunt",
-    "occaecati"
+    "numquam",
+    "consequuntur"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "optio",
-  "Inserts": 680,
-  "Updates": 178,
-  "Deletes": 441,
+  "Success": false,
+  "Message": "beatae",
+  "Inserts": 287,
+  "Updates": 177,
+  "Deletes": 592,
   "RowStatus": [
     {
-      "PrimaryKey": 924,
+      "PrimaryKey": 32,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "in",
-        "expedita"
+        "consequuntur",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 400
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     },
     {
-      "PrimaryKey": 924,
+      "PrimaryKey": 32,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "in",
-        "expedita"
+        "consequuntur",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 400
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 293
     }
   }
 }

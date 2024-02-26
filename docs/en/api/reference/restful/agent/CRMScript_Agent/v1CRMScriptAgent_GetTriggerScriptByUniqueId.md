@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "mollitia"
+  "TriggerScriptUniqueId": "sequi"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 967,
-  "Name": "Hauck LLC",
+  "ScreenChooserId": 715,
+  "Name": "Considine Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "sapiente",
-  "Registered": "2010-12-20T16:54:55.0712705+01:00",
-  "RegisteredAssociateId": 120,
-  "Updated": "2006-10-19T16:54:55.0712705+02:00",
-  "UpdatedAssociateId": 933,
+  "UniqueIdentifier": "rerum",
+  "Source": "aliquid",
+  "Registered": "2017-08-02T10:30:23.4049883+02:00",
+  "RegisteredAssociateId": 789,
+  "Updated": "2007-11-11T10:30:23.4049883+01:00",
+  "UpdatedAssociateId": 538,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 326
     }
   }
 }

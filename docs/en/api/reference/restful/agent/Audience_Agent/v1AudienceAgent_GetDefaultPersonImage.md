@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Ondricka, Mann and Kunde"
+  "LayoutName": "Terry-Beier"
 }
 ```
 

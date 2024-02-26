@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 345,
-    "Attention": "numquam",
-    "Header": "tenetur",
-    "Name": "Schuster Group",
-    "OurRef": "nesciunt",
-    "YourRef": "quia",
-    "Description": "Optimized disintermediate secured line",
-    "DocumentTemplate": "aut",
+    "DocumentId": 154,
+    "Attention": "illum",
+    "Header": "maiores",
+    "Name": "Gaylord Group",
+    "OurRef": "rem",
+    "YourRef": "laboriosam",
+    "Description": "Sharable tertiary hierarchy",
+    "DocumentTemplate": "autem",
     "IsPublished": false,
-    "PersonId": 593,
-    "PersonFullName": "Marion Prosacco",
-    "AssociateFullName": "Zita Huel I",
-    "ContactId": 534,
-    "ContactName": "Brekke Group",
-    "ProjectId": 805,
-    "ProjectName": "Kohler-Skiles",
-    "AssociateId": 872,
-    "Snum": 891,
-    "SaleId": 678,
-    "SaleName": "Lynch, Kohler and Gottlieb",
+    "PersonId": 107,
+    "PersonFullName": "Arely Alanna Conroy II",
+    "AssociateFullName": "Ms. Emilio Hagenes",
+    "ContactId": 494,
+    "ContactName": "Davis, Russel and Mayert",
+    "ProjectId": 673,
+    "ProjectName": "Purdy, Fritsch and Koss",
+    "AssociateId": 971,
+    "Snum": 609,
+    "SaleId": 155,
+    "SaleName": "Padberg-Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 763
       }
     }
   }

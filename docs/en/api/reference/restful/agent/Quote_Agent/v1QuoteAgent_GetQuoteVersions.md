@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 874
+  "QuoteId": 609
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 53,
-    "ERPQuoteVersionKey": "tenetur",
-    "QuoteId": 71,
-    "Description": "Vision-oriented encompassing parallelism",
-    "Number": "1139816",
+    "QuoteVersionId": 390,
+    "ERPQuoteVersionKey": "ut",
+    "QuoteId": 504,
+    "Description": "Focused high-level infrastructure",
+    "Number": "874376",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 991,
-    "SentDate": "2008-07-01T16:54:56.0981615+02:00",
-    "FollowupId": 506,
-    "ExpirationDate": "2006-11-17T16:54:56.0981615+01:00",
-    "DeliveryCountryId": 595,
+    "LikelyQuoteAlternativeId": 673,
+    "SentDate": "2005-03-22T10:30:24.3877082+01:00",
+    "FollowupId": 703,
+    "ExpirationDate": "2020-09-14T10:30:24.3877082+02:00",
+    "DeliveryCountryId": 13,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 404,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "quae",
-    "ERPPaymentTypeKey": "aut",
-    "ERPDeliveryTermsKey": "maxime",
-    "ERPDeliveryTypeKey": "et",
-    "Rank": 314,
-    "ApprovedBy": 527,
-    "ApprovedText": "ratione",
-    "ApprovedRegisteredBy": 937,
-    "ApprovedRegisteredDate": "2020-08-28T16:54:56.0981615+02:00",
-    "ExtraField1": "ex",
-    "ExtraField2": "et",
-    "ExtraField3": "et",
-    "ExtraField4": "soluta",
-    "ExtraField5": "quisquam",
-    "LastRecalculated": "2008-07-08T16:54:56.099141+02:00",
-    "Updated": "2016-12-18T16:54:56.099141+01:00",
-    "UpdatedAssociateId": 603,
-    "Registered": "2019-02-08T16:54:56.099141+01:00",
-    "RegisteredAssociateId": 935,
-    "RequestAssociateId": 923,
-    "RequestComment": "quod",
+    "InvoiceCountryId": 796,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "cupiditate",
+    "ERPPaymentTypeKey": "quam",
+    "ERPDeliveryTermsKey": "et",
+    "ERPDeliveryTypeKey": "sunt",
+    "Rank": 742,
+    "ApprovedBy": 535,
+    "ApprovedText": "est",
+    "ApprovedRegisteredBy": 321,
+    "ApprovedRegisteredDate": "2007-09-13T10:30:24.3877082+02:00",
+    "ExtraField1": "eaque",
+    "ExtraField2": "magni",
+    "ExtraField3": "laborum",
+    "ExtraField4": "animi",
+    "ExtraField5": "pariatur",
+    "LastRecalculated": "2005-03-16T10:30:24.3877082+01:00",
+    "Updated": "2017-01-17T10:30:24.3877082+01:00",
+    "UpdatedAssociateId": 900,
+    "Registered": "2014-09-14T10:30:24.3877082+02:00",
+    "RegisteredAssociateId": 375,
+    "RequestAssociateId": 896,
+    "RequestComment": "in",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 660,
-        "ERPQuoteAlternativeKey": "mollitia",
-        "QuoteVersionId": 860,
-        "Name": "Blick-Keeling",
-        "Description": "Ergonomic object-oriented flexibility",
+        "QuoteAlternativeId": 246,
+        "ERPQuoteAlternativeKey": "debitis",
+        "QuoteVersionId": 984,
+        "Name": "Runolfsdottir-Brekke",
+        "Description": "Team-oriented real-time solution",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 27416.232,
-        "ERPDiscountAmount": 13980.774,
-        "DiscountPercent": 22354.822,
-        "DiscountAmount": 2074.708,
+        "ERPDiscountPercent": 5205.574,
+        "ERPDiscountAmount": 16729.291999999998,
+        "DiscountPercent": 29992.379999999997,
+        "DiscountAmount": 886.922,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "libero",
-        "VAT": 27337.881999999998,
-        "EarningPercent": 23962.564,
-        "EarningAmount": 20562.174,
-        "SubTotal": 7518.4659999999994,
-        "TotalPrice": 9630.782,
-        "ExtraField1": "optio",
-        "ExtraField2": "molestiae",
-        "ExtraField3": "ut",
-        "ExtraField4": "nihil",
-        "ExtraField5": "fugiat",
+        "VATInfo": "nobis",
+        "VAT": 18330.766,
+        "EarningPercent": 8602.83,
+        "EarningAmount": 2394.3759999999997,
+        "SubTotal": 16215.315999999999,
+        "TotalPrice": 29929.7,
+        "ExtraField1": "rem",
+        "ExtraField2": "praesentium",
+        "ExtraField3": "expedita",
+        "ExtraField4": "libero",
+        "ExtraField5": "nesciunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 740
+            "FieldLength": 20
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 950
       }
     }
   }

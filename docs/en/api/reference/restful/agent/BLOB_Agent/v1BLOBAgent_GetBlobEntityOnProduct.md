@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 70
+  "ProductId": 291
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 871,
-  "BlobSize": 140,
-  "Description": "Cross-group neutral Graphical User Interface",
-  "ExtraInfo": "beatae",
+  "BlobId": 217,
+  "BlobSize": 335,
+  "Description": "Open-source regional synergy",
+  "ExtraInfo": "non",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 206,
-  "CreatedDate": "2021-04-26T16:54:54.6213027+02:00",
-  "UpdatedDate": "2001-09-02T16:54:54.6213027+02:00",
+  "MimeType": "dolorem",
+  "OriginalSize": 741,
+  "CreatedDate": "2023-09-12T10:30:23.1139183+02:00",
+  "UpdatedDate": "2014-08-22T10:30:23.1139183+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "asperiores",
+  "ConceptualType": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldType": "System.Int32",
+      "FieldLength": 843
     }
   }
 }

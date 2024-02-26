@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Brakus LLC",
-    "Tooltip": "provident",
+    "Id": 398,
+    "Name": "Kutch, Daniel and Baumbach",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 561,
-    "Rank": 685,
+    "UdListDefinitionId": 884,
+    "Rank": 879,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldType": "System.Int32",
+        "FieldLength": 462
       }
     }
   }

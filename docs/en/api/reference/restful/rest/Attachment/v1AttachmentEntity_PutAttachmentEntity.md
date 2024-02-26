@@ -60,6 +60,7 @@ The AttachmentEntity to be saved.
 | InlineImage | Boolean | True if this attachment is inlined in the html_body. |
 | ContentId | String | The content_id of this attachment, used for inline images |
 | AuthKey | String | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | Boolean | Is file considered to be safe (based on extension and settings) |
 
 ## Response:
 
@@ -81,6 +82,7 @@ AttachmentEntity updated.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -91,17 +93,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 117,
-  "Name": "Greenholt, Ullrich and Kling",
-  "ContentType": "repellat",
-  "AttSize": 244,
+  "AttachmentId": 988,
+  "Name": "Ullrich Inc and Sons",
+  "ContentType": "quas",
+  "AttSize": 174,
   "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "totam"
+  "ContentId": "ea",
+  "AuthKey": "quia",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -112,19 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 493,
-  "Name": "Boyer LLC",
-  "ContentType": "temporibus",
-  "AttSize": 426,
-  "InlineImage": true,
-  "ContentId": "magni",
-  "AuthKey": "dolores",
+  "AttachmentId": 124,
+  "Name": "Harvey-Mosciski",
+  "ContentType": "sed",
+  "AttSize": 557,
+  "InlineImage": false,
+  "ContentId": "aut",
+  "AuthKey": "mollitia",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 256
     }
   },
   "_Links": {

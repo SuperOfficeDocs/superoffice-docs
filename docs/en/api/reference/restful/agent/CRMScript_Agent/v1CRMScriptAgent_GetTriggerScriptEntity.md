@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=488
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=825
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 430,
-  "Name": "Swift Group",
+  "ScreenChooserId": 339,
+  "Name": "Altenwerth, Rau and Treutel",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "accusantium",
+  "UniqueIdentifier": "quo",
   "Source": "sunt",
-  "Registered": "2000-08-15T16:54:55.070271+02:00",
-  "RegisteredAssociateId": 85,
-  "Updated": "2004-11-06T16:54:55.070271+01:00",
-  "UpdatedAssociateId": 912,
+  "Registered": "1997-01-20T10:30:23.4049883+01:00",
+  "RegisteredAssociateId": 615,
+  "Updated": "2016-05-29T10:30:23.4049883+02:00",
+  "UpdatedAssociateId": 734,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldLength": 317
     }
   }
 }

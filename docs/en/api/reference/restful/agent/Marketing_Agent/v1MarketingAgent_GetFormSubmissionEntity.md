@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=55
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=225
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 857,
-  "FormId": 66,
-  "WhenSubmitted": "2000-12-25T16:54:55.6509931+01:00",
-  "ContactId": 41,
-  "PersonId": 585,
-  "EmailAddress": "belle@beattyeichmann.co.uk",
-  "ResponseShipmentAddrId": 142,
-  "Response": "doloribus",
+  "FormSubmissionId": 312,
+  "FormId": 445,
+  "WhenSubmitted": "2003-01-25T10:30:24.1037706+01:00",
+  "ContactId": 104,
+  "PersonId": 58,
+  "EmailAddress": "joanie@quigleykeeling.co.uk",
+  "ResponseShipmentAddrId": 324,
+  "Response": "quae",
   "Status": "EmailVerification",
-  "ProcessingLog": "eius",
+  "ProcessingLog": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 411
     }
   }
 }

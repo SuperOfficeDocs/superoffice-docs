@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 510,
-    "Name": "Rippin, Ebert and Schinner",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 121,
-    "UdListDefinitionId": 962
+    "HeadingId": 7,
+    "Name": "Hane, Shields and Feest",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 103,
+    "UdListDefinitionId": 663
   },
   {
-    "HeadingId": 510,
-    "Name": "Rippin, Ebert and Schinner",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 121,
-    "UdListDefinitionId": 962
+    "HeadingId": 7,
+    "Name": "Hane, Shields and Feest",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 103,
+    "UdListDefinitionId": 663
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 18,
-    "Name": "Pacocha, Stroman and Schowalter",
-    "Tooltip": "velit",
+    "HeadingId": 758,
+    "Name": "Johnston Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 871,
-    "UdListDefinitionId": 165,
+    "Rank": 595,
+    "UdListDefinitionId": 115,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldType": "System.Int32",
+        "FieldLength": 810
       }
     }
   }

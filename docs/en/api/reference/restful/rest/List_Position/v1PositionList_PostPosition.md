@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 127,
-  "Name": "Murray-Moore",
-  "Tooltip": "sint",
+  "Id": 697,
+  "Name": "Daugherty-McKenzie",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 682,
-  "Rank": 672
+  "UdListDefinitionId": 192,
+  "Rank": 787
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "Waelchi Inc and Sons",
-  "Tooltip": "fuga",
+  "Id": 641,
+  "Name": "Lueilwitz LLC",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 599,
-  "Rank": 494,
+  "UdListDefinitionId": 420,
+  "Rank": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 531
     }
   }
 }

@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 18963.834,
-  "FromCurrency": "eveniet",
-  "ToCurrency": "provident"
+  "Amount": 6026.682,
+  "FromCurrency": "ut",
+  "ToCurrency": "dicta"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-3152.804
+30124.007999999998
 ```

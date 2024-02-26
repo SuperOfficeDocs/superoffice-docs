@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 29 Jun 2005 16:55:29 G6T
+Last-Modified: Sun, 17 Sep 2023 10:30:31 G9T
 
 {
-  "BlobId": 941,
-  "BlobSize": 582,
-  "Description": "Centralized assymetric service-desk",
-  "ExtraInfo": "fugit",
+  "BlobId": 997,
+  "BlobSize": 165,
+  "Description": "Reduced contextually-based architecture",
+  "ExtraInfo": "quam",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "laboriosam",
-  "OriginalSize": 466,
-  "CreatedDate": "2014-01-30T16:55:29.3923359+01:00",
-  "UpdatedDate": "2005-06-29T16:55:29.3923359+02:00",
+  "IsZipped": true,
+  "MimeType": "modi",
+  "OriginalSize": 635,
+  "CreatedDate": "2018-08-08T10:30:31.8386823+02:00",
+  "UpdatedDate": "2023-09-17T10:30:31.8386823+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quis",
+  "ConceptualType": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 90
     }
   }
 }

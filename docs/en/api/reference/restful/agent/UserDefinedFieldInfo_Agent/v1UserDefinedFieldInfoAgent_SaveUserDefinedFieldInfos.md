@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 953,
-      "ColumnId": 7,
-      "FieldDefault": "illo",
-      "FieldHeight": 203,
-      "FieldLabel": "accusamus",
-      "FieldLeft": 474,
-      "FieldTop": 802,
+      "UDefFieldId": 92,
+      "ColumnId": 982,
+      "FieldDefault": "harum",
+      "FieldHeight": 462,
+      "FieldLabel": "dolore",
+      "FieldLeft": 377,
+      "FieldTop": 934,
       "FieldType": "Checkbox",
-      "FieldWidth": 115,
-      "FormatMask": "qui",
+      "FieldWidth": 686,
+      "FormatMask": "vero",
       "HideLabel": false,
-      "IsIndexed": true,
-      "LabelHeight": 38,
-      "LabelLeft": 583,
-      "LabelTop": 974,
-      "LabelWidth": 913,
-      "LastVersionId": 12,
-      "ListTableId": 380,
+      "IsIndexed": false,
+      "LabelHeight": 327,
+      "LabelLeft": 842,
+      "LabelTop": 803,
+      "LabelWidth": 981,
+      "LastVersionId": 82,
+      "ListTableId": 55,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 959,
-      "ProgId": "cupiditate",
-      "IsReadOnly": true,
-      "ShortLabel": "nihil",
-      "TabOrder": 140,
-      "TextLength": 396,
-      "Tooltip": "aut",
-      "UdefIdentity": 475,
-      "UDListDefinitionId": 422,
+      "Page1LineNo": 933,
+      "ProgId": "deleniti",
+      "IsReadOnly": false,
+      "ShortLabel": "voluptates",
+      "TabOrder": 737,
+      "TextLength": 463,
+      "Tooltip": "est",
+      "UdefIdentity": 367,
+      "UDListDefinitionId": 724,
       "Justification": "Center",
-      "Version": 114,
-      "TemplateVariableName": "Harvey LLC",
+      "Version": 646,
+      "TemplateVariableName": "Rowe, Maggio and Gulgowski",
       "HasBeenPublished": true,
-      "MdoListName": "Buckridge, Feest and Hilpert"
+      "MdoListName": "Gibson, Metz and Bode"
     }
   ]
 }

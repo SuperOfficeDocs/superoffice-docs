@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Value": "incidunt",
-    "Tooltip": "sed",
+    "Id": 259,
+    "Value": "ut",
+    "Tooltip": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldType": "System.String",
+        "FieldLength": 230
       }
     }
   },
   {
-    "Id": 549,
-    "Value": "incidunt",
-    "Tooltip": "sed",
+    "Id": 259,
+    "Value": "ut",
+    "Tooltip": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldType": "System.String",
+        "FieldLength": 230
       }
     }
   }

@@ -78,14 +78,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 519,
-  "RecaptchaSiteKey": "amet",
+  "TZOffset": 41,
+  "RecaptchaSiteKey": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

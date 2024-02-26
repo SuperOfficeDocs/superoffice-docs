@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 796,
-  "ParentId": 650,
-  "Name": "Waelchi-Von",
-  "Fullname": "eos",
-  "CategoryMaster": 368,
+  "TicketCategoryId": 969,
+  "ParentId": 949,
+  "Name": "Spencer, Sauer and Hane",
+  "Fullname": "vel",
+  "CategoryMaster": 332,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Herman, Schimmel and Cummings",
+  "ExternalName": "Douglas, Adams and Smitham",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 281,
-  "ReplyTemplate": 768,
-  "NotificationEmail": "cordie@rau.info",
+  "AssignmentLag": 926,
+  "ReplyTemplate": 661,
+  "NotificationEmail": "earline.schinner@ratke.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 49,
+  "EffectiveReplyTemplateId": 251,
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "et"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "sit"
+    "CustomFields1": "soluta",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 140
     }
   }
 }

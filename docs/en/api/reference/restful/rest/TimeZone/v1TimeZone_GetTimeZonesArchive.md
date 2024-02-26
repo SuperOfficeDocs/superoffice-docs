@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=quia
-GET /api/v1/TimeZone?$top=334
-GET /api/v1/TimeZone?$skip=36
+GET /api/v1/TimeZone?$entities=sunt
+GET /api/v1/TimeZone?$top=784
+GET /api/v1/TimeZone?$skip=363
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=expedita
+GET /api/v1/TimeZone?$context=explicabo
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eius",
+  "odata.nextLink": "natus",
   "value": [
     {
-      "PrimaryKey": 4069,
+      "PrimaryKey": 1139,
       "EntityName": "sale",
-      "saleId": 4069,
-      "contactId": 4881,
-      "name": "Swaniawski LLC"
+      "saleId": 1139,
+      "contactId": 6621,
+      "name": "Willms Inc and Sons"
     },
     {
-      "PrimaryKey": 2826,
+      "PrimaryKey": 5202,
       "EntityName": "sale",
-      "saleId": 2826,
-      "contactId": 4543,
-      "name": "Gusikowski-Hilll"
+      "saleId": 5202,
+      "contactId": 7481,
+      "name": "Reilly Group"
     }
   ]
 }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 539,
-    "ERPName": "Durgan Inc and Sons",
-    "DisplayName": "Bode-Hintz",
-    "DisplayDescription": "Total foreground solution",
-    "Rank": 436,
-    "ConnectorName": "Ebert-Schuppe",
-    "ErpConnectionId": 662,
-    "ExtraData": "quaerat",
-    "IsAvailable": false,
+    "QuoteConnectionId": 672,
+    "ERPName": "Fahey Inc and Sons",
+    "DisplayName": "Crist, Wilkinson and Moen",
+    "DisplayDescription": "Self-enabling object-oriented budgetary management",
+    "Rank": 144,
+    "ConnectorName": "Hamill-Orn",
+    "ErpConnectionId": 431,
+    "ExtraData": "quia",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 988,
-        "ERPPriceListKey": "libero",
-        "QuoteConnectionId": 677,
-        "Name": "Schmeler, Kling and Beatty",
-        "Description": "Expanded interactive moderator",
-        "Currency": "vero",
-        "CurrencyName": "Conn-Kautzer",
-        "ValidFrom": "2002-05-07T16:54:56.1351408+02:00",
-        "ValidTo": "2007-07-28T16:54:56.1351408+02:00",
+        "PriceListId": 150,
+        "ERPPriceListKey": "quis",
+        "QuoteConnectionId": 723,
+        "Name": "Feest, Gutmann and Bode",
+        "Description": "Right-sized eco-centric model",
+        "Currency": "rem",
+        "CurrencyName": "Lubowitz, Medhurst and Jerde",
+        "ValidFrom": "1999-07-20T10:30:24.4190067+02:00",
+        "ValidTo": "2006-06-07T10:30:24.4190067+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 405
+            "FieldLength": 424
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      650,
-      61
+      444,
+      73
     ],
     "AssociateAccessIds": [
-      605,
-      114
+      512,
+      836
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldType": "System.Int32",
+        "FieldLength": 898
       }
     }
   }

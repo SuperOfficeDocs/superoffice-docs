@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,14 +77,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 340,
-  "Name": "Wintheiser LLC",
-  "Tooltip": "eligendi",
-  "Rank": 14,
-  "DoctmplId": 804,
-  "Header": "facilis",
-  "OurRef": "corporis",
-  "Deleted": true,
+  "SuggestedDocumentId": 699,
+  "Name": "Schuster, White and Larkin",
+  "Tooltip": "enim",
+  "Rank": 503,
+  "DoctmplId": 728,
+  "Header": "sit",
+  "OurRef": "est",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldType": "System.String",
+      "FieldLength": 129
     }
   }
 }

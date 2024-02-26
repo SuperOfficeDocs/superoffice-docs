@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Ziemann-Hessel",
-    "Tooltip": "earum",
+    "Id": 508,
+    "Name": "Predovic Inc and Sons",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 313,
-    "Rank": 682
+    "UdListDefinitionId": 956,
+    "Rank": 437
   },
   {
-    "Id": 505,
-    "Name": "Ziemann-Hessel",
-    "Tooltip": "earum",
+    "Id": 508,
+    "Name": "Predovic Inc and Sons",
+    "Tooltip": "molestias",
     "Deleted": false,
-    "UdListDefinitionId": 313,
-    "Rank": 682
+    "UdListDefinitionId": 956,
+    "Rank": 437
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Wyman-Carroll",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "UdListDefinitionId": 16,
-    "Rank": 899,
+    "Id": 88,
+    "Name": "Krajcik, Heathcote and Dietrich",
+    "Tooltip": "voluptate",
+    "Deleted": false,
+    "UdListDefinitionId": 258,
+    "Rank": 786,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldLength": 16
       }
     }
   }

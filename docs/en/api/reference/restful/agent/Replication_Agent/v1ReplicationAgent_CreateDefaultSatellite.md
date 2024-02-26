@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 449,
-  "Created": "1999-05-19T16:54:56.1719713+02:00",
+  "SatelliteId": 899,
+  "Created": "1998-03-14T10:30:24.4502511+01:00",
   "CreatedBy": null,
-  "Updated": "2015-10-04T16:54:56.1719713+02:00",
+  "Updated": "2008-03-19T10:30:24.4502511+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Murphy-Kirlin",
-      "Description": "Organized zero administration focus group",
+      "Name": "Cormier, Champlin and Terry",
+      "Description": "Persistent eco-centric pricing structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 751
+          "FieldType": "System.Int32",
+          "FieldLength": 452
         }
       }
     },
     {
-      "Name": "Murphy-Kirlin",
-      "Description": "Organized zero administration focus group",
+      "Name": "Cormier, Champlin and Terry",
+      "Description": "Persistent eco-centric pricing structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 751
+          "FieldType": "System.Int32",
+          "FieldLength": 452
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 747
     }
   }
 }

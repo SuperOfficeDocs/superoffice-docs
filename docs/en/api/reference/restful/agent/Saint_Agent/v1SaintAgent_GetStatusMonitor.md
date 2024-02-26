@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 367
+  "Id": 89
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 846,
-  "Rank": 99,
-  "DefaultTask": 796,
-  "DefaultTaskText": "qui",
+  "OwnerTable": 498,
+  "Rank": 891,
+  "DefaultTask": 820,
+  "DefaultTaskText": "molestias",
   "IsVisual": true,
-  "LastGenerated": "2009-06-17T16:54:56.1969713+02:00",
-  "Description": "Expanded context-sensitive solution",
-  "Name": "Senger Inc and Sons",
-  "StatusMonitorId": 143,
-  "PictureId": 87,
+  "LastGenerated": "2017-08-12T10:30:24.4815013+02:00",
+  "Description": "Devolved didactic approach",
+  "Name": "Bednar, Muller and Wuckert",
+  "StatusMonitorId": 858,
+  "PictureId": 880,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 704,
-  "NumNeedUpdate": 516,
-  "GenerationStart": "2022-06-07T16:54:56.1969713+02:00",
+  "Deleted": true,
+  "NumMatches": 590,
+  "NumNeedUpdate": 188,
+  "GenerationStart": "2007-02-22T10:30:24.4815013+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 777
     }
   }
 }

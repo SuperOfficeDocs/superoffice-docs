@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 735,
-  "Name": "Koepp, Rutherford and Vandervort",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 740,
-  "UdListDefinitionId": 8
+  "HeadingId": 479,
+  "Name": "Bradtke, Wunsch and Brown",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 690,
+  "UdListDefinitionId": 931
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 830,
-  "Name": "Fritsch LLC",
-  "Tooltip": "eius",
+  "HeadingId": 834,
+  "Name": "Jast Group",
+  "Tooltip": "sed",
   "Deleted": true,
-  "Rank": 365,
-  "UdListDefinitionId": 384,
+  "Rank": 50,
+  "UdListDefinitionId": 340,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldType": "System.String",
+      "FieldLength": 507
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=891
+POST /api/v1/Agents/Contact/GetContact?contactId=615
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 468,
-  "Name": "McCullough Group",
-  "OrgNr": "890574",
+  "ContactId": 344,
+  "Name": "Spencer Inc and Sons",
+  "OrgNr": "1280421",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "occaecati",
-  "DirectPhone": "080.061.3276 x783",
-  "AssociateId": 927,
-  "CountryId": 107,
-  "EmailAddress": "vicenta.sawayn@hermanncrona.com",
-  "Kananame": "dicta",
-  "EmailAddressName": "matilde@kertzmannmckenzie.ca",
+  "City": "saepe",
+  "DirectPhone": "684.368.1782 x597",
+  "AssociateId": 242,
+  "CountryId": 787,
+  "EmailAddress": "evans_johns@schultz.info",
+  "Kananame": "qui",
+  "EmailAddressName": "skylar@lindgren.info",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Bert Lemke",
+  "AssociateFullName": "Mrs. Kellen Alta Gibson MD",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "dignissimos",
-  "FullName": "Joaquin Corkery",
+  "FormattedAddress": "provident",
+  "FullName": "Alfonzo Metz",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 94,
-  "Number1": "1142512",
-  "Number2": "798693",
+  "ActiveErpLinks": 77,
+  "Number1": "810657",
+  "Number2": "1653691",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldLength": 330
     }
   }
 }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 560,
-  "Name": "Hirthe Inc and Sons",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 362,
-  "Rank": 258,
+  "Id": 668,
+  "Name": "Stroman LLC",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "UdListDefinitionId": 343,
+  "Rank": 947,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

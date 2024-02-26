@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 341,
-  "Name": "Bayer Inc and Sons",
+  "TicketStatusId": 39,
+  "Name": "Dibbert LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
   "IsDefault": true,
-  "UsedInQueue": false
+  "UsedInQueue": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 961,
-  "Name": "Cormier Group",
+  "TicketStatusId": 265,
+  "Name": "Fahey, Senger and Gaylord",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": false,
+  "NoEmailReopen": false,
+  "IsDefault": true,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 28
     }
   }
 }

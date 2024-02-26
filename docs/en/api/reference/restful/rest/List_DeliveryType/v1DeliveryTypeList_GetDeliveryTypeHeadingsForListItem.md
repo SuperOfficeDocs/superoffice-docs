@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "Leffler Inc and Sons",
-    "ToolTip": "Enim voluptas saepe.",
+    "Id": 73,
+    "Name": "Stracke-Ankunding",
+    "ToolTip": "Sed non.",
     "Deleted": true,
-    "Rank": 924,
-    "Type": "fugit",
-    "ColorBlock": 468,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2015-08-16T16:55:30.6699851+02:00",
+    "Rank": 502,
+    "Type": "debitis",
+    "ColorBlock": 978,
+    "IconHint": "quam",
+    "Selected": true,
+    "LastChanged": "2019-07-29T10:30:32.9899559+02:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Waelchi, Stokes and Quigley",
-        "ToolTip": "Omnis pariatur ipsam quam quo et praesentium.",
+        "Id": 112,
+        "Name": "Kemmer LLC",
+        "ToolTip": "Qui voluptatum atque et consequatur.",
         "Deleted": true,
-        "Rank": 892,
-        "Type": "qui",
-        "ColorBlock": 683,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2001-10-24T16:55:30.671108+02:00",
+        "Rank": 504,
+        "Type": "maxime",
+        "ColorBlock": 454,
+        "IconHint": "molestias",
+        "Selected": true,
+        "LastChanged": "2010-08-17T10:30:32.9899559+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "magnam",
+        "ExtraInfo": "et",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Jasen Bruen",
+        "FullName": "Mrs. Sheila Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldLength": 451
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "est",
+    "ExtraInfo": "facilis",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Ms. Mina Reinger V",
+    "FullName": "Mr. Kaitlyn Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 767
       }
     }
   }

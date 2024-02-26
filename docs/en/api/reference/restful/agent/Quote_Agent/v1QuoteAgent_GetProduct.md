@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 958,
-  "ERPProductKey": "sit"
+  "QuoteConnectionId": 527,
+  "ERPProductKey": "soluta"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 23,
-  "ERPProductKey": "asperiores",
-  "ERPPriceListKey": "atque",
-  "Name": "Armstrong Inc and Sons",
-  "Description": "Re-contextualized dynamic conglomeration",
-  "Code": "nisi",
-  "PriceUnit": "repellendus",
-  "QuantityUnit": "qui",
+  "ProductId": 405,
+  "ERPProductKey": "porro",
+  "ERPPriceListKey": "omnis",
+  "Name": "Fahey-Lind",
+  "Description": "Multi-lateral hybrid instruction set",
+  "Code": "doloremque",
+  "PriceUnit": "error",
+  "QuantityUnit": "maiores",
   "IsSubscription": false,
-  "SubscriptionUnit": "similique",
-  "DefaultSubscriptionQuantity": 18669.238,
-  "ItemNumber": "398358",
+  "SubscriptionUnit": "voluptas",
+  "DefaultSubscriptionQuantity": 23605.288,
+  "ItemNumber": "1401161",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veritatis",
-  "ProductTypeKey": "rerum",
-  "VAT": 20527.7,
-  "VATInfo": "quo",
-  "UnitCost": 30804.086,
-  "UnitMinimumPrice": 26877.183999999997,
-  "UnitListPrice": 7245.808,
-  "InAssortment": false,
-  "Supplier": "sint",
-  "SupplierCode": "et",
-  "Rights": "maxime",
-  "Rule": "magni",
+  "ProductFamilyKey": "temporibus",
+  "ProductTypeKey": "architecto",
+  "VAT": 20076.404,
+  "VATInfo": "sint",
+  "UnitCost": 20142.218,
+  "UnitMinimumPrice": 3459.9359999999997,
+  "UnitListPrice": 14375.658,
+  "InAssortment": true,
+  "Supplier": "id",
+  "SupplierCode": "temporibus",
+  "Rights": "ut",
+  "Rule": "fugiat",
   "ExtraInfo": [
     {
-      "Name": "Wilderman, Homenick and Kohler",
-      "Value": "qui",
+      "Name": "Batz-Hills",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldType": "System.String",
+          "FieldLength": 18
         }
       }
     },
     {
-      "Name": "Wilderman, Homenick and Kohler",
-      "Value": "qui",
+      "Name": "Batz-Hills",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldType": "System.String",
+          "FieldLength": 18
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "aliquid",
-  "ExtraField2": "officiis",
-  "ExtraField3": "ut",
-  "ExtraField4": "et",
-  "ExtraField5": "et",
-  "InStock": 23761.987999999998,
+  "RawExtraInfo": "vel",
+  "ExtraField1": "harum",
+  "ExtraField2": "cumque",
+  "ExtraField3": "rerum",
+  "ExtraField4": "delectus",
+  "ExtraField5": "illum",
+  "InStock": 18399.714,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldLength": 362
     }
   }
 }

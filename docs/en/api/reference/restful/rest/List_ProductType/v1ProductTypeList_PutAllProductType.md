@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Halvorson-Towne",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "UdListDefinitionId": 148,
-    "Rank": 861
+    "Id": 932,
+    "Name": "Marquardt Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "UdListDefinitionId": 289,
+    "Rank": 384
   },
   {
-    "Id": 733,
-    "Name": "Halvorson-Towne",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "UdListDefinitionId": 148,
-    "Rank": 861
+    "Id": 932,
+    "Name": "Marquardt Inc and Sons",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "UdListDefinitionId": 289,
+    "Rank": 384
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 939,
-    "Name": "Bechtelar-O'Connell",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 409,
-    "Rank": 459,
+    "Id": 902,
+    "Name": "Hills-Reichert",
+    "Tooltip": "veritatis",
+    "Deleted": true,
+    "UdListDefinitionId": 248,
+    "Rank": 171,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldType": "System.String",
+        "FieldLength": 35
       }
     }
   }

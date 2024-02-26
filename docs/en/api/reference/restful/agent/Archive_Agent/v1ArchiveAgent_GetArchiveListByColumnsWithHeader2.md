@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Daugherty-Weimann",
-  "Columns": "nemo",
-  "SortOrder": "eligendi",
-  "Restriction": "aut",
-  "Entities": "praesentium",
-  "Page": 942,
-  "PageSize": 465,
-  "Options": "magni"
+  "ProviderName": "Senger-Mraz",
+  "Columns": "aut",
+  "SortOrder": "veritatis",
+  "Restriction": "blanditiis",
+  "Entities": "iure",
+  "Page": 416,
+  "PageSize": 420,
+  "Options": "repudiandae"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 566,
+  "RowCount": 462,
   "Rows": [
     {
-      "EntityName": "Rutherford-Osinski",
-      "PrimaryKey": 584,
+      "EntityName": "Wehner LLC",
+      "PrimaryKey": 32,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolor",
-          "TooltipHint": "inventore",
-          "LinkHint": "laudantium"
+          "DisplayValue": "sapiente",
+          "TooltipHint": "eos",
+          "LinkHint": "expedita"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "aperiam",
+      "LinkHint": "numquam",
+      "StyleHint": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldLength": 235
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldType": "System.String",
+      "FieldLength": 179
     }
   }
 }

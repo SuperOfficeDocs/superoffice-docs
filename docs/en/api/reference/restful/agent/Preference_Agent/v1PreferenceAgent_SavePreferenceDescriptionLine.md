@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 132,
-  "PrefDescId": 206,
-  "PrefValue": "ad",
-  "PrefShowValue": "tempora",
-  "Description": "Reactive zero tolerance concept",
+  "PrefDescLineId": 721,
+  "PrefDescId": 541,
+  "PrefValue": "sed",
+  "PrefShowValue": "et",
+  "Description": "Exclusive bandwidth-monitored open system",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 677,
-  "PrefDescId": 265,
-  "PrefValue": "ipsam",
-  "PrefShowValue": "dolorum",
-  "Description": "Exclusive static artificial intelligence",
-  "IsBuiltin": true,
+  "PrefDescLineId": 13,
+  "PrefDescId": 423,
+  "PrefValue": "modi",
+  "PrefShowValue": "delectus",
+  "Description": "Advanced optimizing data-warehouse",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 480
     }
   }
 }

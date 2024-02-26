@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2001-06-07T16:54:54.5547041+02:00",
-  "ToDate": "2016-01-16T16:54:54.5547041+01:00",
+  "FromDate": "2000-02-12T10:30:23.0359181+01:00",
+  "ToDate": "2009-03-06T10:30:23.0359181+01:00",
   "AssociateList": [
     {
-      "Id": 142,
-      "Name": "O'Kon-Gaylord",
-      "ToolTip": "At aut veritatis optio magnam qui.",
+      "Id": 555,
+      "Name": "Hoeger, Bosco and Kerluke",
+      "ToolTip": "Sit dolores unde quis accusantium quae.",
       "Deleted": false,
-      "Rank": 147,
-      "Type": "voluptatem",
-      "ColorBlock": 800,
-      "IconHint": "quibusdam",
+      "Rank": 922,
+      "Type": "quia",
+      "ColorBlock": 341,
+      "IconHint": "temporibus",
       "Selected": true,
-      "LastChanged": "2000-08-03T16:54:54.5547041+02:00",
+      "LastChanged": "2018-01-24T10:30:23.0359181+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "similique",
-      "Hidden": true,
-      "FullName": "Dillon Spencer MD",
+      "ExtraInfo": "suscipit",
+      "StyleHint": "veritatis",
+      "Hidden": false,
+      "FullName": "Mrs. Krystal Zulauf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldType": "System.String",
+          "FieldLength": 869
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 723,
-      "Name": "Collins-Toy",
-      "ToolTip": "Earum molestiae.",
+      "Id": 324,
+      "Name": "Wiza LLC",
+      "ToolTip": "Et et quod.",
       "Deleted": false,
-      "Rank": 967,
-      "Type": "fugiat",
-      "ColorBlock": 413,
-      "IconHint": "facilis",
-      "Selected": true,
-      "LastChanged": "2022-04-16T16:54:54.5547041+02:00",
+      "Rank": 492,
+      "Type": "eaque",
+      "ColorBlock": 395,
+      "IconHint": "maxime",
+      "Selected": false,
+      "LastChanged": "2015-05-05T10:30:23.0514184+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "at",
-      "StyleHint": "doloribus",
+      "ExtraInfo": "enim",
+      "StyleHint": "quo",
       "Hidden": false,
-      "FullName": "Trycia Kerluke",
+      "FullName": "Sven Kirlin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldType": "System.String",
+          "FieldLength": 988
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 302,
-      "Name": "Effertz-Denesik",
-      "ToolTip": "Itaque omnis quam vel.",
+      "Id": 799,
+      "Name": "Bergnaum Inc and Sons",
+      "ToolTip": "Nobis et voluptas rerum ab earum.",
       "Deleted": false,
-      "Rank": 945,
-      "Type": "consequatur",
+      "Rank": 973,
+      "Type": "eveniet",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatibus",
-      "ColorBlock": 12,
-      "ExtraInfo": "eos",
-      "StyleHint": "facilis",
-      "FullName": "Prof. Bonnie Reichert MD",
+      "IconHint": "sunt",
+      "ColorBlock": 994,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "facere",
+      "FullName": "Greta Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldType": "System.String",
+          "FieldLength": 90
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 110
     }
   }
 }

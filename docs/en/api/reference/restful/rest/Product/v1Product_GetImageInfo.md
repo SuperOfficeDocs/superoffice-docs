@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 17 Jan 2020 16:55:30 G1T
+Last-Modified: Fri, 23 Sep 2022 10:30:32 G9T
 
 {
-  "BlobId": 283,
-  "BlobSize": 870,
-  "Description": "Fully-configurable optimal portal",
-  "ExtraInfo": "ut",
+  "BlobId": 305,
+  "BlobSize": 661,
+  "Description": "Balanced secondary toolset",
+  "ExtraInfo": "similique",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "tenetur",
-  "OriginalSize": 669,
-  "CreatedDate": "1998-02-19T16:55:30.3769563+01:00",
-  "UpdatedDate": "2020-01-17T16:55:30.3769563+01:00",
+  "MimeType": "consectetur",
+  "OriginalSize": 138,
+  "CreatedDate": "2004-07-01T10:30:32.7175195+02:00",
+  "UpdatedDate": "2022-09-23T10:30:32.7175195+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptates",
+  "ConceptualType": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldType": "System.Int32",
+      "FieldLength": 902
     }
   }
 }

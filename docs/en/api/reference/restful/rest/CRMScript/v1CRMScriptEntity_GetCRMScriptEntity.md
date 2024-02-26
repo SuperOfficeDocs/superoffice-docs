@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,28 +96,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 493,
-  "UniqueIdentifier": "laborum",
-  "Name": "Ratke, Halvorson and Braun",
-  "Description": "Face to face contextually-based standardization",
-  "IncludeId": "ea",
-  "HierarchyId": 622,
-  "Source": "recusandae",
-  "Registered": "2019-12-01T16:55:29.5288327+01:00",
-  "RegisteredAssociateId": 365,
-  "Updated": "2018-05-07T16:55:29.5288327+02:00",
-  "UpdatedAssociateId": 957,
+  "EjscriptId": 576,
+  "UniqueIdentifier": "rerum",
+  "Name": "Jacobson LLC",
+  "Description": "Triple-buffered clear-thinking protocol",
+  "IncludeId": "excepturi",
+  "HierarchyId": 946,
+  "Source": "vel",
+  "Registered": "2021-07-31T10:30:31.9636795+02:00",
+  "RegisteredAssociateId": 454,
+  "Updated": "2023-12-31T10:30:31.9636795+01:00",
+  "UpdatedAssociateId": 410,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 995
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

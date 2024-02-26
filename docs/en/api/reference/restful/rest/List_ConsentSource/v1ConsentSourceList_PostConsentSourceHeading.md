@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 340,
-  "Name": "Flatley-Wisozk",
-  "Tooltip": "minima",
+  "HeadingId": 76,
+  "Name": "Nikolaus-Raynor",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 175,
-  "UdListDefinitionId": 850
+  "Rank": 316,
+  "UdListDefinitionId": 623
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 349,
-  "Name": "Torp, Ebert and Ondricka",
-  "Tooltip": "sed",
+  "HeadingId": 408,
+  "Name": "Hauck Group",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 424,
-  "UdListDefinitionId": 224,
+  "Rank": 103,
+  "UdListDefinitionId": 710,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 236
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   }
 }

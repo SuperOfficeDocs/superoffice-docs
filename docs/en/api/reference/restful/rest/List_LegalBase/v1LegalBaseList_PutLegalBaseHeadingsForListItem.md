@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Hilll, Sawayn and Willms",
-    "ToolTip": "Nesciunt qui dolores esse asperiores asperiores dolorem.",
+    "Id": 419,
+    "Name": "Welch Inc and Sons",
+    "ToolTip": "Nihil rerum in id dolorum qui cum dignissimos.",
     "Deleted": false,
-    "Rank": 889,
-    "Type": "ea",
-    "ColorBlock": 269,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "2007-08-29T16:55:30.7072794+02:00",
+    "Rank": 195,
+    "Type": "non",
+    "ColorBlock": 437,
+    "IconHint": "quasi",
+    "Selected": true,
+    "LastChanged": "2004-05-14T10:30:33.0212063+02:00",
     "ChildItems": [
       {
-        "Id": 243,
-        "Name": "McLaughlin, Hamill and Kuphal",
-        "ToolTip": "Sed ut pariatur exercitationem non dolorum iusto.",
+        "Id": 402,
+        "Name": "Langworth Inc and Sons",
+        "ToolTip": "Voluptas atque cumque facilis.",
         "Deleted": false,
-        "Rank": 143,
-        "Type": "voluptatem",
-        "ColorBlock": 295,
-        "IconHint": "fugiat",
-        "Selected": true,
-        "LastChanged": "2018-08-07T16:55:30.7072794+02:00",
+        "Rank": 664,
+        "Type": "aut",
+        "ColorBlock": 783,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "1997-10-27T10:30:33.0212063+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "nam",
+        "ExtraInfo": "et",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Adelle Franecki"
+        "FullName": "Marilyne Freddie Gutmann I"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "ut",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Mariam Bogisich I"
+    "FullName": "Sarai Homenick I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Rogahn-Bauch",
-    "ToolTip": "Voluptatem non quo.",
+    "Id": 621,
+    "Name": "Rice, Hirthe and Kiehn",
+    "ToolTip": "Temporibus eius.",
     "Deleted": true,
-    "Rank": 237,
-    "Type": "laboriosam",
-    "ColorBlock": 223,
-    "IconHint": "consectetur",
-    "Selected": true,
-    "LastChanged": "2020-10-14T16:55:30.7082709+02:00",
+    "Rank": 27,
+    "Type": "quam",
+    "ColorBlock": 606,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2013-05-05T10:30:33.0212063+02:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Considine, Herzog and Lowe",
-        "ToolTip": "Molestiae et delectus nihil quia at quia.",
+        "Id": 135,
+        "Name": "Morissette Inc and Sons",
+        "ToolTip": "Fugiat aut aut illo et tempora nostrum sapiente.",
         "Deleted": true,
-        "Rank": 580,
-        "Type": "eius",
-        "ColorBlock": 691,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2012-05-31T16:55:30.7082709+02:00",
+        "Rank": 345,
+        "Type": "ex",
+        "ColorBlock": 545,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2000-08-17T10:30:33.0212063+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "beatae",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "magni",
         "Hidden": true,
-        "FullName": "Annamae Mertz",
+        "FullName": "Dulce Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 386
+            "FieldType": "System.String",
+            "FieldLength": 922
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "animi",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Mr. Vaughn Columbus Hettinger MD",
+    "FullName": "Fiona Eliane Emmerich II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 975
       }
     }
   }

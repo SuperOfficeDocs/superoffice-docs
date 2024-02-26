@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 481,
+  "TargetYear": 668,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 797
+  "Id": 92
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 748,
+  "TargetAssignmentInfoId": 675,
   "Values": [
-    23,
-    29
+    465,
+    496
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 213,
-  "DimensionListItemDisplayName": "Lebsack-Lehner",
+  "DimensionListItem": 959,
+  "DimensionListItemDisplayName": "Kunde-Pollich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldLength": 452
     }
   }
 }

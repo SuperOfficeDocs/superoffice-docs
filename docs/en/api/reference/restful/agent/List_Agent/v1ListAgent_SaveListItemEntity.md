@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 128,
-  "Name": "Ziemann-Swift",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "UdListDefinitionId": 33,
-  "Rank": 891,
+  "Id": 525,
+  "Name": "Conroy-Okuneva",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 916,
+  "Rank": 550,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 882
     }
   }
 }

@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 433
+  "PersonId": 484
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 965,
-  "InstanceLayout": "et",
-  "InstanceName": "Fritsch-Brekke",
-  "CreatedDate": "2011-10-05T16:54:54.5983969+02:00",
-  "UpdatedDate": "2017-08-26T16:54:54.5983969+02:00",
+  "AudienceLayoutId": 765,
+  "InstanceLayout": "est",
+  "InstanceName": "Schumm-Jacobs",
+  "CreatedDate": "2021-02-18T10:30:23.0826686+01:00",
+  "UpdatedDate": "2000-03-20T10:30:23.0826686+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldType": "System.String",
+      "FieldLength": 460
     }
   }
 }

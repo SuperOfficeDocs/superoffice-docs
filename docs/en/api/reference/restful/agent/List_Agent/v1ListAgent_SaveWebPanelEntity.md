@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 16,
-  "Name": "Hahn Group",
-  "Tooltip": "ut",
+  "WebPanelId": 157,
+  "Name": "Gerhold-Conroy",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 478,
+  "Rank": 721,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Ullrich-Keebler",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Kuphal, Bogan and Reichert",
   "Url": "http://www.example.com/",
-  "ProgId": "earum",
-  "Icon": 807,
+  "ProgId": "aut",
+  "Icon": 499,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 545,
-  "Name": "Borer, Runte and Dibbert",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 464,
+  "WebPanelId": 798,
+  "Name": "Quigley, Thompson and Marks",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 232,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Pagac, Wolf and Eichmann",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Hickle Group",
   "Url": "http://www.example.com/",
-  "ProgId": "dolores",
-  "Icon": 406,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "harum",
+  "Icon": 159,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 89
     }
   }
 }

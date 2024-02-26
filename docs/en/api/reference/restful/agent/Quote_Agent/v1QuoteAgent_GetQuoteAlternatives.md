@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 670
+  "QuoteVersionId": 326
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 149,
-    "ERPQuoteAlternativeKey": "hic",
-    "QuoteVersionId": 232,
-    "Name": "Padberg-Ruecker",
-    "Description": "Optimized upward-trending secured line",
+    "QuoteAlternativeId": 762,
+    "ERPQuoteAlternativeKey": "dolorum",
+    "QuoteVersionId": 282,
+    "Name": "Aufderhar-Kshlerin",
+    "Description": "Intuitive coherent encryption",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 686.346,
-    "ERPDiscountAmount": 15760.885999999999,
-    "DiscountPercent": 20208.032,
-    "DiscountAmount": 23830.935999999998,
+    "ERPDiscountPercent": 23395.309999999998,
+    "ERPDiscountAmount": 16923.6,
+    "DiscountPercent": 30368.46,
+    "DiscountAmount": 4534.898,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "unde",
-    "VAT": 19176.946,
-    "EarningPercent": 18625.362,
-    "EarningAmount": 11736.83,
-    "SubTotal": 9768.678,
-    "TotalPrice": 1958.75,
-    "ExtraField1": "delectus",
-    "ExtraField2": "dolor",
-    "ExtraField3": "natus",
-    "ExtraField4": "aliquid",
-    "ExtraField5": "quo",
+    "VATInfo": "molestiae",
+    "VAT": 10125.954,
+    "EarningPercent": 29412.59,
+    "EarningAmount": 4732.34,
+    "SubTotal": 733.356,
+    "TotalPrice": 181.772,
+    "ExtraField1": "accusamus",
+    "ExtraField2": "cum",
+    "ExtraField3": "expedita",
+    "ExtraField4": "temporibus",
+    "ExtraField5": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldLength": 593
       }
     }
   }

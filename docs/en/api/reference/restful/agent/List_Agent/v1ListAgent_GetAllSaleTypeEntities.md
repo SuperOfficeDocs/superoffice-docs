@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 384,
-    "Name": "Bosco, Fahey and Hodkiewicz",
-    "Tooltip": "illo",
-    "Rank": 988,
+    "SaleTypeId": 354,
+    "Name": "Ziemann-Daugherty",
+    "Tooltip": "harum",
+    "Rank": 734,
     "DurationUnit": "Century",
-    "SaleDuration": 781,
-    "SaleTypeCatId": 257,
+    "SaleDuration": 769,
+    "SaleTypeCatId": 748,
     "Deleted": false,
     "HasGuide": true,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 816,
-    "QuoteLinesTemplate": 503,
-    "ConfirmationLinesTemplate": 304,
+    "DefaultQuoteValidity": 916,
+    "QuoteLinesTemplate": 180,
+    "ConfirmationLinesTemplate": 734,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 219,
-    "MinEarningPercent": 921,
-    "GroupQuoteLinesBy": 757,
-    "SortGroupLinesBy": 298,
+    "MaxDiscountPercent": 362,
+    "MinEarningPercent": 933,
+    "GroupQuoteLinesBy": 419,
+    "SortGroupLinesBy": 934,
     "Stages": [
       {
-        "Id": 323,
-        "Name": "Hand LLC",
-        "ToolTip": "Iste laboriosam praesentium commodi in fugit assumenda.",
+        "Id": 422,
+        "Name": "Daniel, Gerhold and Lang",
+        "ToolTip": "Dolor doloremque enim sit.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "voluptatibus",
-        "ColorBlock": 343,
-        "IconHint": "facilis",
+        "Rank": 236,
+        "Type": "incidunt",
+        "ColorBlock": 572,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2011-03-06T16:54:55.5474743+01:00",
+        "LastChanged": "2010-07-17T10:30:23.978726+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "architecto",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Miss Pablo Susie Nader MD",
+        "FullName": "Lucas Wilfrid Gutmann DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 48
+            "FieldLength": 880
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 670
+        "FieldType": "System.Int32",
+        "FieldLength": 306
       }
     }
   }

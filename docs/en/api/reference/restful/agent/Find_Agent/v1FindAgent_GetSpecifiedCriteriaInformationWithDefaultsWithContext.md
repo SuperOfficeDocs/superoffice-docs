@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsa",
-  "ProviderName": "Bahringer-Lueilwitz",
-  "StorageKey": "laborum",
+  "StorageType": "et",
+  "ProviderName": "Gottlieb, Wolf and VonRueden",
+  "StorageKey": "repellat",
   "DesiredColumnNames": [
-    "Hirthe Inc and Sons",
-    "Heidenreich LLC"
+    "Lubowitz Group",
+    "Simonis-Jerde"
   ],
   "StaticColumns": [
-    "est",
-    "minus"
+    "maiores",
+    "ut"
   ],
-  "Context": "alias"
+  "Context": "odit"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Daugherty, Schultz and Fahey",
-      "Operator": "mollitia",
+      "Name": "Nicolas, Armstrong and Lakin",
+      "Operator": "quasi",
       "Values": [
-        "minima",
-        "corporis"
+        "animi",
+        "neque"
       ],
       "DisplayValues": [
-        "velit",
-        "tenetur"
+        "non",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 282,
+      "InterParenthesis": 114,
       "InterOperator": "And",
-      "UniqueHash": 188
+      "UniqueHash": 666
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kirlin, Ritchie and Hayes",
-      "DisplayTooltip": "quis",
-      "DisplayType": "repudiandae",
-      "CanOrderBy": true,
-      "Name": "Hegmann, Lynch and Howe",
+      "DisplayName": "Will Group",
+      "DisplayTooltip": "corporis",
+      "DisplayType": "minus",
+      "CanOrderBy": false,
+      "Name": "Kunde, Schamberger and Keebler",
       "CanRestrictBy": false,
-      "RestrictionType": "velit",
-      "RestrictionListName": "Schmitt, Thompson and Von",
+      "RestrictionType": "voluptas",
+      "RestrictionListName": "Franecki LLC",
       "IsVisible": true,
-      "ExtraInfo": "temporibus",
-      "Width": "et",
-      "IconHint": "quis",
-      "HeadingIconHint": "doloribus"
+      "ExtraInfo": "et",
+      "Width": "quo",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "aut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Wiza Group",
-      "PrimaryKey": 928,
+      "EntityName": "Mante-Von",
+      "PrimaryKey": 340,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "delectus",
-          "TooltipHint": "omnis",
-          "LinkHint": "et"
+          "DisplayValue": "dolorem",
+          "TooltipHint": "dolore",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "accusamus",
-      "StyleHint": "odit",
+      "LinkHint": "est",
+      "StyleHint": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 383
+          "FieldType": "System.Int32",
+          "FieldLength": 298
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Farrell-Collins",
-      "Description": "Universal dynamic model",
-      "Rank": 765,
+      "Name": "Cole-Marvin",
+      "Description": "Horizontal multimedia moratorium",
+      "Rank": 786,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Farrell-Collins",
-      "Description": "Universal dynamic model",
-      "Rank": 765,
+      "Name": "Cole-Marvin",
+      "Description": "Horizontal multimedia moratorium",
+      "Rank": 786,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 218
     }
   }
 }

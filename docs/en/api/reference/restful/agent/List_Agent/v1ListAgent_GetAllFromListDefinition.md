@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 954,
+  "UdListDefinitionId": 65,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Funk Group",
-    "Tooltip": "ratione",
+    "Id": 778,
+    "Name": "Carter, Stanton and Baumbach",
+    "Tooltip": "maxime",
     "Deleted": true,
-    "UdListDefinitionId": 423,
-    "Rank": 945,
+    "UdListDefinitionId": 174,
+    "Rank": 130,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldType": "System.String",
+        "FieldLength": 434
       }
     }
   }

@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 772,
-  "Name": "Feil-Bernhard",
-  "CreatedDate": "2017-01-09T16:55:29.6375261+01:00",
-  "UpdatedDate": "1999-11-27T16:55:29.6375261+01:00",
+  "ForeignAppId": 153,
+  "Name": "Bins-Schinner",
+  "CreatedDate": "2005-05-23T10:30:32.0574265+02:00",
+  "UpdatedDate": "1996-12-26T10:30:32.0574265+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 525,
-      "Name": "Mante, Bergnaum and Hermann",
-      "CreatedDate": "2000-05-06T16:55:29.6385306+02:00",
-      "UpdatedDate": "2001-07-09T16:55:29.6385306+02:00",
-      "AssociateFullName": "Rebecca Bartell",
-      "CreatedBy": "fugit",
-      "UpdatedBy": "corrupti",
-      "DeviceIdentifier": "officia",
-      "ForeignAppId": 632
+      "ForeignDeviceId": 237,
+      "Name": "Gaylord Inc and Sons",
+      "CreatedDate": "2006-07-27T10:30:32.0574265+02:00",
+      "UpdatedDate": "2004-12-22T10:30:32.0574265+01:00",
+      "AssociateFullName": "Mrs. Joan Nienow",
+      "CreatedBy": "sunt",
+      "UpdatedBy": "hic",
+      "DeviceIdentifier": "autem",
+      "ForeignAppId": 640
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 296,
-  "Name": "Gibson-Mayer",
-  "CreatedDate": "2008-01-09T16:55:29.6405261+01:00",
-  "UpdatedDate": "2001-07-29T16:55:29.6405261+02:00",
+  "ForeignAppId": 820,
+  "Name": "Jones, Labadie and Corkery",
+  "CreatedDate": "2009-05-30T10:30:32.0730519+02:00",
+  "UpdatedDate": "2003-11-23T10:30:32.0730519+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 846,
-      "Name": "Ebert, Abbott and Bashirian",
-      "CreatedDate": "1997-02-10T16:55:29.6405261+01:00",
-      "UpdatedDate": "2014-11-26T16:55:29.6405261+01:00",
-      "AssociateFullName": "Misty Ritchie",
-      "CreatedBy": "recusandae",
-      "UpdatedBy": "molestiae",
-      "DeviceIdentifier": "quisquam",
-      "ForeignAppId": 626,
+      "ForeignDeviceId": 23,
+      "Name": "Shields-Gutmann",
+      "CreatedDate": "1998-09-19T10:30:32.0730519+02:00",
+      "UpdatedDate": "2007-08-27T10:30:32.0730519+02:00",
+      "AssociateFullName": "Ms. Kiara Legros III",
+      "CreatedBy": "ut",
+      "UpdatedBy": "vero",
+      "DeviceIdentifier": "repellendus",
+      "ForeignAppId": 58,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldLength": 185
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldType": "System.String",
+      "FieldLength": 700
     }
   },
   "_Links": {

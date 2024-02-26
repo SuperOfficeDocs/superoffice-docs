@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "voluptas",
+  "SearchString": "suscipit",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "785.425.7067 x4816",
-    "PersonCellPhone": "(628)361-6199 x63589",
-    "PersonPrivatePhone": "315-257-8541",
-    "PersonFaxNumber": "1124213",
-    "PersonPagerNumber": "1386329",
-    "PersonEmail": "linda.stiedemann@altenwerth.name",
-    "Id": 381,
-    "Name": "Reichert, Effertz and Langworth",
-    "Tooltip": "laudantium",
-    "UniqueId": "modi",
+    "PersonDirectPhone": "439.545.2016",
+    "PersonCellPhone": "492-955-8303",
+    "PersonPrivatePhone": "561.922.8042",
+    "PersonFaxNumber": "753052",
+    "PersonPagerNumber": "1232052",
+    "PersonEmail": "keyon@beahanwhite.com",
+    "Id": 232,
+    "Name": "Hettinger-Swaniawski",
+    "Tooltip": "voluptatem",
+    "UniqueId": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 391,
-  "Name": "Ferry LLC",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 533,
+  "Id": 783,
+  "Name": "Jones-Gislason",
+  "Tooltip": "adipisci",
+  "Deleted": false,
+  "Rank": 815,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "aliquam",
-  "InUseByUserDefinedFields": true
+  "ListType": "neque",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 546,
-  "Name": "Greenfelder, Wiza and Schaefer",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "Rank": 679,
+  "Id": 788,
+  "Name": "Wyman-Waelchi",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 931,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 469
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 446,
-    "Name": "Abshire, Schmitt and Tremblay",
-    "Tooltip": "quisquam",
+    "HeadingId": 102,
+    "Name": "Schamberger-Braun",
+    "Tooltip": "ratione",
     "Deleted": true,
-    "Rank": 866,
-    "UdListDefinitionId": 631,
+    "Rank": 634,
+    "UdListDefinitionId": 595,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldType": "System.String",
+        "FieldLength": 13
       }
     }
   }

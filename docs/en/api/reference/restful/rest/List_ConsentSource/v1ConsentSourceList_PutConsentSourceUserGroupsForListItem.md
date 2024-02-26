@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Jacobi Group",
-    "ToolTip": "Ad aliquam.",
-    "Deleted": false,
-    "Rank": 158,
-    "Type": "sunt",
-    "ColorBlock": 361,
-    "IconHint": "eum",
+    "Id": 750,
+    "Name": "Schinner, Nicolas and Herman",
+    "ToolTip": "Rerum quibusdam sit fugit est aliquam blanditiis explicabo.",
+    "Deleted": true,
+    "Rank": 281,
+    "Type": "fugit",
+    "ColorBlock": 584,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2003-06-12T16:55:30.5912617+02:00",
+    "LastChanged": "1999-06-06T10:30:32.9118319+02:00",
     "ChildItems": [
       {
-        "Id": 785,
-        "Name": "Schneider, Schneider and Terry",
-        "ToolTip": "Quia similique.",
-        "Deleted": false,
-        "Rank": 167,
-        "Type": "ea",
-        "ColorBlock": 17,
-        "IconHint": "vel",
+        "Id": 160,
+        "Name": "Runolfsdottir Inc and Sons",
+        "ToolTip": "Qui aperiam quo illum et.",
+        "Deleted": true,
+        "Rank": 735,
+        "Type": "quaerat",
+        "ColorBlock": 376,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2018-04-29T16:55:30.5912617+02:00",
+        "LastChanged": "2005-06-05T10:30:32.9274257+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "ut",
+        "ExtraInfo": "delectus",
+        "StyleHint": "quos",
         "Hidden": true,
-        "FullName": "Jackeline Satterfield"
+        "FullName": "Dr. Nicole Jennie Haley"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "maiores",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Rosemary Kerluke I"
+    "FullName": "Darron Kreiger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Kuvalis Group",
-    "ToolTip": "Itaque corrupti culpa esse et.",
+    "Id": 86,
+    "Name": "Stanton, Weimann and Feeney",
+    "ToolTip": "Suscipit unde rerum eveniet.",
     "Deleted": false,
-    "Rank": 382,
-    "Type": "omnis",
-    "ColorBlock": 396,
-    "IconHint": "laboriosam",
+    "Rank": 195,
+    "Type": "magnam",
+    "ColorBlock": 584,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2001-09-17T16:55:30.5923148+02:00",
+    "LastChanged": "2019-07-28T10:30:32.9274257+02:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Hoppe, Corwin and Swaniawski",
-        "ToolTip": "Veritatis velit animi porro aliquid.",
+        "Id": 894,
+        "Name": "Cronin, Romaguera and Kirlin",
+        "ToolTip": "Quia dolorem.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "unde",
-        "ColorBlock": 165,
-        "IconHint": "repudiandae",
+        "Rank": 102,
+        "Type": "quam",
+        "ColorBlock": 268,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2020-12-28T16:55:30.5923148+01:00",
+        "LastChanged": "2000-01-21T10:30:32.9274257+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "asperiores",
-        "Hidden": true,
-        "FullName": "Halie Torp",
+        "ExtraInfo": "non",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Dr. Reynold Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldLength": 556
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "magnam",
-    "Hidden": true,
-    "FullName": "Ms. Heber Gonzalo Zemlak DDS",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Dr. Rowland Conroy II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldType": "System.String",
+        "FieldLength": 522
       }
     }
   }

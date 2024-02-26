@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Boehm LLC",
-    "ToolTip": "Voluptatem nihil laudantium velit.",
-    "Deleted": true,
-    "Rank": 939,
-    "Type": "ut",
-    "ColorBlock": 370,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2022-03-19T16:54:56.6502049+01:00",
+    "Id": 294,
+    "Name": "Schaefer Group",
+    "ToolTip": "Earum ipsum ut optio sunt.",
+    "Deleted": false,
+    "Rank": 23,
+    "Type": "quis",
+    "ColorBlock": 510,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2003-04-23T10:30:24.9985809+02:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Stehr-Beier",
-        "ToolTip": "Dignissimos aliquam quibusdam.",
+        "Id": 668,
+        "Name": "Christiansen-Crooks",
+        "ToolTip": "Occaecati quia perspiciatis aperiam voluptatem eum.",
         "Deleted": false,
-        "Rank": 304,
-        "Type": "asperiores",
-        "ColorBlock": 107,
-        "IconHint": "reiciendis",
+        "Rank": 828,
+        "Type": "qui",
+        "ColorBlock": 454,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2023-07-10T16:54:56.6502049+02:00",
+        "LastChanged": "1998-07-05T10:30:24.9985809+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "est",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Lynn Gleichner",
+        "FullName": "Miss Anabelle Cynthia Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 51
+            "FieldLength": 499
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
+    "ExtraInfo": "dolor",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Aglae Schoen",
+    "FullName": "Dr. Chaya Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 964
+        "FieldType": "System.Int32",
+        "FieldLength": 846
       }
     }
   }

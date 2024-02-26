@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 601
+  "ReplyTemplateId": 160
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feil Group",
-  "Description": "Mandatory local intranet",
-  "OwnedByFullName": "Vernice Mante",
-  "Updated": "2000-05-16T16:54:55.0832906+02:00",
-  "Body": "quae",
+  "Name": "Boyer Group",
+  "Description": "Enterprise-wide directional data-warehouse",
+  "OwnedByFullName": "Miss Jacklyn Krajcik",
+  "Updated": "2018-05-01T10:30:23.4206552+02:00",
+  "Body": "incidunt",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldLength": 103
     }
   }
 }

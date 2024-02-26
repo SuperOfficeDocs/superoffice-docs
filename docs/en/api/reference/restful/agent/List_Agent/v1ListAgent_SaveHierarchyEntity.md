@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 926,
+  "HierarchyId": 843,
   "Domain": "Dashboards",
-  "Name": "McDermott Group",
-  "Fullname": "recusandae",
-  "ParentId": 516,
+  "Name": "Douglas-Streich",
+  "Fullname": "voluptas",
+  "ParentId": 956,
   "Children": [
     {
-      "HierarchyId": 356,
+      "HierarchyId": 769,
       "Domain": "Dashboards",
-      "Name": "Fisher-Volkman",
-      "Fullname": "amet",
-      "ParentId": 204,
+      "Name": "Kuhn, Bahringer and Mueller",
+      "Fullname": "sint",
+      "ParentId": 410,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-12-08T16:54:55.6199845+01:00",
-      "RegisteredAssociateId": 175,
-      "Updated": "2002-10-15T16:54:55.6199845+02:00",
-      "UpdatedAssociateId": 923
+      "Registered": "2004-11-01T10:30:24.0725232+01:00",
+      "RegisteredAssociateId": 860,
+      "Updated": "1999-12-23T10:30:24.0725232+01:00",
+      "UpdatedAssociateId": 674
     }
   ],
-  "Registered": "2001-10-28T16:54:55.6199845+01:00",
-  "RegisteredAssociateId": 78,
-  "Updated": "2010-10-21T16:54:55.6199845+02:00",
-  "UpdatedAssociateId": 275
+  "Registered": "2018-08-16T10:30:24.0725232+02:00",
+  "RegisteredAssociateId": 394,
+  "Updated": "2002-12-17T10:30:24.0725232+01:00",
+  "UpdatedAssociateId": 410
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 678,
+  "HierarchyId": 191,
   "Domain": "Dashboards",
-  "Name": "Murray Inc and Sons",
-  "Fullname": "iste",
-  "ParentId": 150,
+  "Name": "Schneider, DuBuque and Nienow",
+  "Fullname": "fuga",
+  "ParentId": 383,
   "Children": [
     {
-      "HierarchyId": 412,
+      "HierarchyId": 462,
       "Domain": "Dashboards",
-      "Name": "Spinka-Cruickshank",
-      "Fullname": "officiis",
-      "ParentId": 692,
+      "Name": "Rice-Osinski",
+      "Fullname": "repudiandae",
+      "ParentId": 845,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-04-10T16:54:55.6199845+02:00",
-      "RegisteredAssociateId": 65,
-      "Updated": "2016-02-17T16:54:55.6199845+01:00",
-      "UpdatedAssociateId": 610,
+      "Registered": "2008-10-25T10:30:24.0725232+02:00",
+      "RegisteredAssociateId": 411,
+      "Updated": "2012-10-15T10:30:24.0725232+02:00",
+      "UpdatedAssociateId": 403,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 580
         }
       }
     }
   ],
-  "Registered": "2019-11-14T16:54:55.6199845+01:00",
-  "RegisteredAssociateId": 212,
-  "Updated": "2002-09-13T16:54:55.6199845+02:00",
-  "UpdatedAssociateId": 684,
+  "Registered": "2000-04-05T10:30:24.0725232+02:00",
+  "RegisteredAssociateId": 146,
+  "Updated": "2013-09-27T10:30:24.0725232+02:00",
+  "UpdatedAssociateId": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=numquam
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Bradtke, McKenzie and Considine",
-    "ToolTip": "Hic consequatur exercitationem eos officia et incidunt.",
+    "Id": 807,
+    "Name": "Nader, Herman and Dickinson",
+    "ToolTip": "Aut ut rerum optio.",
     "Deleted": false,
-    "Rank": 994,
-    "Type": "magnam",
+    "Rank": 966,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Reilly, Watsica and Volkman",
-        "ToolTip": "Vitae ratione est facere perferendis corporis velit molestiae.",
-        "Deleted": true,
-        "Rank": 185,
-        "Type": "quidem",
+        "Id": 11,
+        "Name": "Botsford-Senger",
+        "ToolTip": "Repellendus quia non ipsam eaque assumenda.",
+        "Deleted": false,
+        "Rank": 617,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 46,
-        "ExtraInfo": "est",
-        "StyleHint": "aut",
-        "FullName": "Retta Harvey",
+        "IconHint": "aut",
+        "ColorBlock": 835,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "autem",
+        "FullName": "Geo Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 184
+            "FieldType": "System.Int32",
+            "FieldLength": 576
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 473,
-    "ExtraInfo": "dolor",
-    "StyleHint": "neque",
-    "FullName": "Oleta Jacobs",
+    "IconHint": "placeat",
+    "ColorBlock": 188,
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "amet",
+    "FullName": "Ayla Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 984
       }
     }
   }

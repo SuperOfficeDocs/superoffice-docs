@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 317,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "iure",
-  "Deleted": false,
-  "Rank": 43,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 229,
+  "Name": "Walsh LLC",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "Rank": 634,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sint",
+  "ListType": "cum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 603,
-  "Name": "Hane-Durgan",
-  "Tooltip": "eveniet",
+  "Id": 152,
+  "Name": "Keebler, Spinka and Quitzon",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 479,
+  "Rank": 141,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 815
     }
   }
 }

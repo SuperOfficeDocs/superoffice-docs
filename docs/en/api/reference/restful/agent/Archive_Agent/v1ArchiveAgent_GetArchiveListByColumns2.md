@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Leuschke Inc and Sons",
-  "Columns": "qui",
-  "SortOrder": "sit",
-  "Restrictions": "a",
-  "Entities": "ut",
-  "Page": 464,
-  "PageSize": 302
+  "ProviderName": "Franecki LLC",
+  "Columns": "quis",
+  "SortOrder": "perferendis",
+  "Restrictions": "impedit",
+  "Entities": "sit",
+  "Page": 155,
+  "PageSize": 14
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hodkiewicz, Koss and Zulauf",
-    "PrimaryKey": 205,
+    "EntityName": "Hand Inc and Sons",
+    "PrimaryKey": 787,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "excepturi",
-        "TooltipHint": "dolores",
-        "LinkHint": "ea"
+        "DisplayValue": "illum",
+        "TooltipHint": "ut",
+        "LinkHint": "vel"
       }
     },
-    "LinkHint": "iusto",
-    "StyleHint": "fugiat",
+    "LinkHint": "assumenda",
+    "StyleHint": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldType": "System.String",
+        "FieldLength": 515
       }
     }
   }

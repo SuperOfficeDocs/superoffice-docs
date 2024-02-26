@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 138,
+  "HierarchyId": 742,
   "Domain": "Dashboards",
-  "Name": "Keebler-Zulauf",
-  "Fullname": "quis",
-  "ParentId": 765,
+  "Name": "Koch Inc and Sons",
+  "Fullname": "praesentium",
+  "ParentId": 23,
   "Children": [
     {
-      "HierarchyId": 187,
+      "HierarchyId": 411,
       "Domain": "Dashboards",
-      "Name": "Harris, Thiel and Kiehn",
-      "Fullname": "voluptatem",
-      "ParentId": 505,
+      "Name": "Bruen, Effertz and Hoeger",
+      "Fullname": "aut",
+      "ParentId": 617,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-03-25T16:55:29.6644398+01:00",
-      "RegisteredAssociateId": 205,
-      "Updated": "2018-07-29T16:55:29.6644398+02:00",
-      "UpdatedAssociateId": 840,
+      "Registered": "1997-10-13T10:30:32.0886795+02:00",
+      "RegisteredAssociateId": 856,
+      "Updated": "2013-12-30T10:30:32.0886795+01:00",
+      "UpdatedAssociateId": 428,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldType": "System.String",
+          "FieldLength": 106
         }
       }
     }
   ],
-  "Registered": "2016-01-15T16:55:29.6644398+01:00",
-  "RegisteredAssociateId": 309,
-  "Updated": "1996-10-28T16:55:29.6644398+01:00",
-  "UpdatedAssociateId": 291,
+  "Registered": "2017-01-24T10:30:32.0886795+01:00",
+  "RegisteredAssociateId": 915,
+  "Updated": "1998-01-30T10:30:32.0886795+01:00",
+  "UpdatedAssociateId": 599,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

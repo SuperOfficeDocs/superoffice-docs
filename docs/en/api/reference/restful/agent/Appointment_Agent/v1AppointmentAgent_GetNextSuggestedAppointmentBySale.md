@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 652,
-  "CurrentAppointmentId": 434,
-  "SkipCompleteCheck": true
+  "SaleId": 447,
+  "CurrentAppointmentId": 138,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 521,
-  "Deleted": 832,
-  "DaysFuture": 667,
-  "Tooltip": "sapiente",
-  "Text": "aliquid",
-  "TaskId": 86,
-  "SuggestedAppointmentId": 93,
-  "SaleTypeStageLinkId": 140,
-  "RegisteredAssociateId": 534,
-  "Rank": 860,
-  "ProjectTypeStatusLinkId": 105,
-  "Name": "O'Connell-Erdman",
-  "Duration": 967,
+  "AutoSuggest": 328,
+  "Deleted": 530,
+  "DaysFuture": 449,
+  "Tooltip": "delectus",
+  "Text": "magni",
+  "TaskId": 523,
+  "SuggestedAppointmentId": 869,
+  "SaleTypeStageLinkId": 477,
+  "RegisteredAssociateId": 939,
+  "Rank": 245,
+  "ProjectTypeStatusLinkId": 431,
+  "Name": "Weimann Inc and Sons",
+  "Duration": 323,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldLength": 471
     }
   }
 }

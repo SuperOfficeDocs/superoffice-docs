@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Torp-Collier",
-    "ToolTip": "Veniam aut vero ex.",
-    "Deleted": true,
-    "Rank": 459,
-    "Type": "quia",
-    "ColorBlock": 521,
-    "IconHint": "accusamus",
+    "Id": 573,
+    "Name": "Kunze LLC",
+    "ToolTip": "Magni assumenda porro.",
+    "Deleted": false,
+    "Rank": 973,
+    "Type": "voluptas",
+    "ColorBlock": 273,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2007-05-01T16:55:30.6665849+02:00",
+    "LastChanged": "2004-12-29T10:30:32.9743325+01:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Fritsch-Stiedemann",
-        "ToolTip": "Tempore labore alias cum ipsam.",
+        "Id": 279,
+        "Name": "Schumm, Kilback and Lebsack",
+        "ToolTip": "Eos suscipit in nihil rem et occaecati rerum.",
         "Deleted": false,
-        "Rank": 529,
-        "Type": "consequatur",
-        "ColorBlock": 590,
-        "IconHint": "quam",
+        "Rank": 703,
+        "Type": "deleniti",
+        "ColorBlock": 315,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2006-08-25T16:55:30.6665849+02:00",
+        "LastChanged": "2012-06-27T10:30:32.9743325+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Mr. Adolfo Cruickshank DVM",
+        "ExtraInfo": "hic",
+        "StyleHint": "commodi",
+        "Hidden": true,
+        "FullName": "Janis Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldType": "System.String",
+            "FieldLength": 291
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Dr. Liam Melba Ebert DVM",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Adell Bernier Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 312
+        "FieldType": "System.Int32",
+        "FieldLength": 839
       }
     }
   }

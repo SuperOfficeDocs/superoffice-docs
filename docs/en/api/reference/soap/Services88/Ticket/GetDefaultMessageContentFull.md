@@ -76,6 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Ticket:InlineImage xsi:type="xsd:boolean">false</Ticket:InlineImage>
       <Ticket:ContentId xsi:type="xsd:string"></Ticket:ContentId>
       <Ticket:AuthKey xsi:type="xsd:string"></Ticket:AuthKey>
+      <Ticket:IsSafeFileExtension xsi:type="xsd:boolean">false</Ticket:IsSafeFileExtension>
      </Ticket:AttachmentEntity>
     </Ticket:AttachmentsInfo>
    </Ticket:Response>

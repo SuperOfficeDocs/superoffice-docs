@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 797,
-  "Name": "Schowalter LLC",
-  "Tooltip": "quam",
+  "Id": 308,
+  "Name": "Spencer-Veum",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 582,
-  "Rank": 118,
+  "UdListDefinitionId": 316,
+  "Rank": 340,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 134
     }
   }
 }

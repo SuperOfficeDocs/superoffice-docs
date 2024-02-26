@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "tempora"
+  "FileContent": "possimus"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "innovate transparent content",
+  "Reason": "",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 380,
-      "NumberOfLicensesFree": 51,
-      "NumberOfLicensesAdded": 431,
-      "NumberOfLicensesNewTotal": 103,
-      "NumberOfLicensesNewFree": 217,
-      "NumberOfLicensesTotal": 677
+      "NumberOfLicensesInUse": 85,
+      "NumberOfLicensesFree": 43,
+      "NumberOfLicensesAdded": 162,
+      "NumberOfLicensesNewTotal": 333,
+      "NumberOfLicensesNewFree": 492,
+      "NumberOfLicensesTotal": 654
     }
   ],
-  "AccumulatedNextCheckDate": "2021-03-24T16:54:55.505469+01:00"
+  "AccumulatedNextCheckDate": "2005-07-17T10:30:23.9272181+02:00"
 }
 ```

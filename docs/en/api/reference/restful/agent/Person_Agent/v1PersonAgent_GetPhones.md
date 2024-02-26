@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 943
+  "PersonId": 500
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "fugit",
-    "StrippedValue": "perspiciatis",
-    "Description": "Implemented foreground framework",
+    "Value": "sed",
+    "StrippedValue": "assumenda",
+    "Description": "Polarised 6th generation artificial intelligence",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 654
       }
     }
   },
   {
-    "Value": "fugit",
-    "StrippedValue": "perspiciatis",
-    "Description": "Implemented foreground framework",
+    "Value": "sed",
+    "StrippedValue": "assumenda",
+    "Description": "Polarised 6th generation artificial intelligence",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 654
       }
     }
   }

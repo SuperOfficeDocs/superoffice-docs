@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 396,
-  "ParentId": 649,
-  "Name": "Batz, Lebsack and Bartell",
-  "Fullname": "eos",
-  "CategoryMaster": 429,
+  "TicketCategoryId": 405,
+  "ParentId": 225,
+  "Name": "Sauer, Lowe and Russel",
+  "Fullname": "qui",
+  "CategoryMaster": 701,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wehner-Hane",
+  "ExternalName": "Langworth-Homenick",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 635,
-  "ReplyTemplate": 319,
-  "NotificationEmail": "foster.weissnat@shanahan.ca",
+  "AssignmentLag": 208,
+  "ReplyTemplate": 465,
+  "NotificationEmail": "blake@dietrich.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 864,
+  "EffectiveReplyTemplateId": 295,
   "ExtraFields": {
-    "ExtraFields1": "quae",
-    "ExtraFields2": "et"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "dolor",
+    "CustomFields2": "non"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

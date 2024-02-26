@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 911,
-    "Name": "Legros, Reichel and Kemmer",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "Rank": 593,
-    "UdListDefinitionId": 950,
+    "HeadingId": 151,
+    "Name": "Kemmer-Luettgen",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "Rank": 590,
+    "UdListDefinitionId": 978,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 914
+        "FieldType": "System.Int32",
+        "FieldLength": 919
       }
     }
   }

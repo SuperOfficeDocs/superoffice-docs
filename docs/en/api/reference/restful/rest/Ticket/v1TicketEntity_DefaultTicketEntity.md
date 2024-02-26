@@ -114,7 +114,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 476,
-  "Title": "omnis",
-  "CreatedAt": "1997-03-29T16:55:30.1601408+01:00",
-  "LastChanged": "2012-10-12T16:55:30.1601408+02:00",
-  "ReadByOwner": "2005-07-26T16:55:30.1601408+02:00",
-  "ReadByCustomer": "2010-05-13T16:55:30.1601408+02:00",
-  "FirstReadByOwner": "2009-05-23T16:55:30.1601408+02:00",
-  "FirstReadByUser": "2008-09-23T16:55:30.1601408+02:00",
-  "Activate": "2000-10-07T16:55:30.1601408+02:00",
-  "ClosedAt": "2004-11-30T16:55:30.1601408+01:00",
-  "RepliedAt": "2013-02-28T16:55:30.1601408+01:00",
-  "AlertTimeout": "2003-07-09T16:55:30.1601408+02:00",
-  "Deadline": "2003-05-02T16:55:30.1601408+02:00",
+  "TicketId": 454,
+  "Title": "dolor",
+  "CreatedAt": "2009-08-25T10:30:32.5281261+02:00",
+  "LastChanged": "2017-02-10T10:30:32.5281261+01:00",
+  "ReadByOwner": "2014-09-13T10:30:32.5281261+02:00",
+  "ReadByCustomer": "1999-06-10T10:30:32.5281261+02:00",
+  "FirstReadByOwner": "2022-09-20T10:30:32.5281261+02:00",
+  "FirstReadByUser": "2022-01-31T10:30:32.5281261+01:00",
+  "Activate": "1998-08-25T10:30:32.5281261+02:00",
+  "ClosedAt": "2001-02-24T10:30:32.5281261+01:00",
+  "RepliedAt": "2004-08-24T10:30:32.5281261+02:00",
+  "AlertTimeout": "2021-09-13T10:30:32.5281261+02:00",
+  "Deadline": "2000-05-15T10:30:32.5281261+02:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "est",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,162 +149,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "magni",
-      "PersonId": 805,
-      "Mrmrs": "earum",
-      "Firstname": "Carey",
-      "Lastname": "Marquardt",
-      "MiddleName": "Quigley, Schaden and Abbott",
-      "Title": "dolorum",
-      "Description": "Upgradable user-facing conglomeration",
-      "Email": "jeremy@bergstrombernhard.com",
-      "FullName": "Lottie Conn II",
-      "DirectPhone": "127.586.5243",
-      "FormalName": "Rippin Group",
-      "CountryId": 83,
-      "ContactId": 378,
-      "ContactName": "Windler, Erdman and Conroy",
-      "Retired": 46,
-      "Rank": 750,
-      "ActiveInterests": 634,
+      "Position": "eius",
+      "PersonId": 806,
+      "Mrmrs": "illo",
+      "Firstname": "Brandt",
+      "Lastname": "Mann",
+      "MiddleName": "Mayer, Ziemann and Sporer",
+      "Title": "voluptates",
+      "Description": "Seamless regional implementation",
+      "Email": "johnson@mccullough.uk",
+      "FullName": "Prof. Halle Nicolas MD",
+      "DirectPhone": "189-399-3255 x87196",
+      "FormalName": "Heidenreich-Bernhard",
+      "CountryId": 10,
+      "ContactId": 473,
+      "ContactName": "Skiles, Connelly and Gerlach",
+      "Retired": 70,
+      "Rank": 176,
+      "ActiveInterests": 556,
       "ContactDepartment": "",
-      "ContactCountryId": 931,
-      "ContactOrgNr": "1438862",
-      "FaxPhone": "1-569-581-3738",
-      "MobilePhone": "1-424-629-5794 x53078",
-      "ContactPhone": "(419)502-4330",
-      "AssociateName": "Cole, Doyle and Ullrich",
-      "AssociateId": 259,
+      "ContactCountryId": 663,
+      "ContactOrgNr": "168278",
+      "FaxPhone": "936.246.1840 x974",
+      "MobilePhone": "1-874-840-1220 x4361",
+      "ContactPhone": "(211)506-9073 x41238",
+      "AssociateName": "Kuhlman, Ritchie and Friesen",
+      "AssociateId": 800,
       "UsePersonAddress": false,
-      "ContactFax": "aperiam",
-      "Kanafname": "ducimus",
-      "Kanalname": "voluptatem",
-      "Post1": "excepturi",
-      "Post2": "dolor",
-      "Post3": "rerum",
-      "EmailName": "abraham.jenkins@brown.info",
-      "ContactFullName": "Khalid Rutherford",
-      "ActiveErpLinks": 152,
-      "TicketPriorityId": 138,
-      "SupportLanguageId": 774,
-      "SupportAssociateId": 587,
+      "ContactFax": "facere",
+      "Kanafname": "et",
+      "Kanalname": "consectetur",
+      "Post1": "omnis",
+      "Post2": "illo",
+      "Post3": "corporis",
+      "EmailName": "charlotte.hickle@crist.co.uk",
+      "ContactFullName": "Ms. Corbin Lyda Hyatt",
+      "ActiveErpLinks": 668,
+      "TicketPriorityId": 88,
+      "SupportLanguageId": 875,
+      "SupportAssociateId": 972,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldLength": 604
         }
       }
     }
   ],
-  "AlertLevel": 868,
-  "ConnectId": 680,
+  "AlertLevel": 709,
+  "ConnectId": 120,
   "ReadStatus": "Green",
-  "TimeToReply": 117,
-  "RealTimeToReply": 867,
-  "TimeToClose": 494,
-  "RealTimeToClose": 382,
-  "TimeSpentInternally": 253,
-  "TimeSpentExternally": 769,
-  "TimeSpentQueue": 165,
-  "RealTimeSpentInternally": 78,
-  "RealTimeSpentExternally": 159,
-  "RealTimeSpentQueue": 53,
-  "TimeSpent": 973,
+  "TimeToReply": 21,
+  "RealTimeToReply": 98,
+  "TimeToClose": 822,
+  "RealTimeToClose": 538,
+  "TimeSpentInternally": 737,
+  "TimeSpentExternally": 461,
+  "TimeSpentQueue": 865,
+  "RealTimeSpentInternally": 432,
+  "RealTimeSpentExternally": 176,
+  "RealTimeSpentQueue": 767,
+  "TimeSpent": 781,
   "HasAttachment": false,
-  "NumReplies": 492,
-  "NumMessages": 289,
-  "FromAddress": "sed",
+  "NumReplies": 864,
+  "NumMessages": 95,
+  "FromAddress": "consequatur",
   "Messages": [
     {
-      "TicketMessageId": 102,
-      "CreatedAt": "2009-02-28T16:55:30.1641152+01:00",
+      "TicketMessageId": 419,
+      "CreatedAt": "2023-01-29T10:30:32.5281261+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "rerum",
-      "PersonId": 732,
-      "PersonFullName": "Miss Karli Brakus IV",
-      "ContactId": 898,
-      "ContactName": "Rosenbaum, Zieme and Bernier",
+      "Author": "molestiae",
+      "PersonId": 32,
+      "PersonFullName": "Gerry Pfannerstill Jr.",
+      "ContactId": 659,
+      "ContactName": "Spinka, Volkman and Sanford",
       "ContactDepartment": "",
-      "NumAttachments": 82,
-      "EmailHeader": "coty@kautzerquitzon.uk",
+      "NumAttachments": 603,
+      "EmailHeader": "laney.nolan@morar.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "in",
-      "Sentiment": 511,
-      "SentimentConfidence": 846,
-      "CreatedBy": 969,
-      "ChangedAt": "2009-10-12T16:55:30.1641152+02:00",
+      "Language": "ut",
+      "Sentiment": 196,
+      "SentimentConfidence": 209,
+      "CreatedBy": 734,
+      "ChangedAt": "2009-05-20T10:30:32.5281261+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 179
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 665,
-      "Name": "Hahn, Leuschke and Swaniawski",
-      "ToolTip": "Consectetur natus enim harum consequatur illo molestiae maiores.",
+      "Id": 437,
+      "Name": "Kerluke-Monahan",
+      "ToolTip": "Voluptatem tenetur hic quia molestias debitis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 356
         }
       }
     },
     {
-      "Id": 665,
-      "Name": "Hahn, Leuschke and Swaniawski",
-      "ToolTip": "Consectetur natus enim harum consequatur illo molestiae maiores.",
+      "Id": 437,
+      "Name": "Kerluke-Monahan",
+      "ToolTip": "Voluptatem tenetur hic quia molestias debitis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 356
         }
       }
     }
   ],
-  "Language": "rem",
-  "Sentiment": 631,
-  "SentimentConfidence": 597,
-  "SuggestedCategoryId": 500,
+  "Language": "sequi",
+  "Sentiment": 73,
+  "SentimentConfidence": 187,
+  "SuggestedCategoryId": 748,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 461,
-  "IconHint": "nihil",
+  "OrigHumanCategoryId": 100,
+  "IconHint": "est",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 962,
+  "ActiveStatusMonitorId": 801,
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "itaque",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "id",
+    "CustomFields2": "eos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

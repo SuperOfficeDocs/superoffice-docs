@@ -98,27 +98,27 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 108,
-  "Name": "Abernathy-King",
-  "Rank": 244,
-  "Tooltip": "dolorem",
-  "Icon": "ea",
-  "DefaultTicketStatus": 940,
+  "TicketTypeId": 298,
+  "Name": "Hane Inc and Sons",
+  "Rank": 496,
+  "Tooltip": "adipisci",
+  "Icon": "ab",
+  "DefaultTicketStatus": 630,
   "TicketStatuses": [
-    802,
-    552
+    735,
+    903
   ],
-  "DefaultTicketPriority": 131,
+  "DefaultTicketPriority": 984,
   "TicketPriorities": [
-    653,
-    990
+    529,
+    957
   ],
-  "ReplyTemplate": 374,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 726,
+  "IsExternalVisible": true,
   "IsDefault": true
 }
 ```
@@ -130,35 +130,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 610,
-  "Name": "Keeling-Kuhn",
-  "Rank": 215,
-  "Tooltip": "molestiae",
-  "Icon": "ut",
-  "DefaultTicketStatus": 650,
+  "TicketTypeId": 270,
+  "Name": "Jast-Schumm",
+  "Rank": 242,
+  "Tooltip": "est",
+  "Icon": "et",
+  "DefaultTicketStatus": 579,
   "TicketStatuses": [
-    486,
-    599
+    389,
+    288
   ],
-  "DefaultTicketPriority": 225,
+  "DefaultTicketPriority": 841,
   "TicketPriorities": [
-    210,
-    230
+    253,
+    856
   ],
-  "ReplyTemplate": 330,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 352,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldLength": 987
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 456,
-      "UniqueId": "sed",
-      "Name": "Schumm Inc and Sons",
-      "Description": "Adaptive national product",
-      "AssociateId": 214,
-      "Columns": 859,
+      "DashboardId": 277,
+      "UniqueId": "perferendis",
+      "Name": "Quigley, Muller and Breitenberg",
+      "Description": "Assimilated empowering emulation",
+      "AssociateId": 436,
+      "Columns": 739,
       "Theme": null,
-      "VisibleForAll": 525,
+      "VisibleForAll": 470,
       "VisibleForAssociates": [
-        409,
-        677
+        42,
+        159
       ],
       "VisibleForGroups": [
-        838,
-        945
+        277,
+        523
       ],
-      "PinForAll": 468,
+      "PinForAll": 629,
       "PinForAssociates": [
-        586,
-        431
+        415,
+        497
       ],
       "PinForGroups": [
-        756,
-        297
+        477,
+        595
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 984
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 718,
-      "UniqueId": "ullam",
-      "Name": "Gutkowski-Green",
-      "Description": "Total optimizing strategy",
-      "AssociateId": 472,
-      "Columns": 534,
+      "DashboardId": 676,
+      "UniqueId": "sit",
+      "Name": "Kilback, Purdy and Goodwin",
+      "Description": "Team-oriented actuating pricing structure",
+      "AssociateId": 627,
+      "Columns": 51,
       "Theme": null,
-      "VisibleForAll": 810,
+      "VisibleForAll": 9,
       "VisibleForAssociates": [
-        30,
-        894
+        52,
+        782
       ],
       "VisibleForGroups": [
-        663,
-        772
+        471,
+        774
       ],
-      "PinForAll": 37,
+      "PinForAll": 222,
       "PinForAssociates": [
-        129,
-        699
+        948,
+        678
       ],
       "PinForGroups": [
-        970,
-        705
+        838,
+        406
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 498
+          "FieldType": "System.Int32",
+          "FieldLength": 452
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 246,
-      "UniqueId": "accusamus",
-      "Name": "Bartoletti Group",
-      "Description": "Face to face national analyzer",
-      "AssociateId": 260,
-      "Columns": 137,
+      "DashboardId": 726,
+      "UniqueId": "earum",
+      "Name": "Kunde-Schroeder",
+      "Description": "Devolved impactful time-frame",
+      "AssociateId": 399,
+      "Columns": 361,
       "Theme": null,
-      "VisibleForAll": 97,
+      "VisibleForAll": 853,
       "VisibleForAssociates": [
-        658,
-        32
+        561,
+        878
       ],
       "VisibleForGroups": [
-        90,
-        84
+        956,
+        746
       ],
-      "PinForAll": 605,
+      "PinForAll": 178,
       "PinForAssociates": [
-        267,
-        247
+        674,
+        691
       ],
       "PinForGroups": [
-        503,
-        344
+        259,
+        301
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldType": "System.Int32",
+          "FieldLength": 278
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   }
 }

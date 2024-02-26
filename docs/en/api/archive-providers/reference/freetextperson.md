@@ -680,6 +680,7 @@ as well as before any ORDER BY, are applied.
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -717,6 +718,7 @@ as well as before any ORDER BY, are applied.
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
+|request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -756,12 +758,12 @@ as well as before any ORDER BY, are applied.
 |request/ownedBy/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
 |request/ownedBy/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |request/ownedBy/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
-|request/ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
-|request/ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
+|request/ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |request/ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |request/ownedBy/associateDbId|associate|Owner - ID| x |
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
@@ -860,12 +862,12 @@ as well as before any ORDER BY, are applied.
 |projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |projectMembers/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |projectMembers/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|projectMembers/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|projectMembers/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMembers/projectAssociate/userName|string|User name: User name| x |
 |projectMembers/projectAssociate/personEmail|string|E-mail| x |
 |projectMembers/projectUdef/SuperOffice:1|string|projectshorttext| x |
@@ -964,12 +966,12 @@ as well as before any ORDER BY, are applied.
 |personAppointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |personAppointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|personAppointment/associate/associateDbId|associate|ID| x |
-|personAppointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/associateDbId|associate|ID| x |
+|personAppointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |personAppointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |personAppointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |personAppointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -1000,7 +1002,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personSourceRelation/hasInfoText,personAssociate/firstName,personContact/activeErpLinks,personContact/email/emailAddress,personContact/contactSupportPerson/personRegisteredDate
+GET /api/v1/archive/FreetextPerson?$select=personHasInterests,personUdef/SuperOffice:8,personExtra/x_person_hidden_integer,personContact/contactAssociate/contactFullName,personContact/contactAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

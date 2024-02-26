@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Conroy LLC",
-    "ToolTip": "Aut facilis exercitationem.",
+    "Id": 761,
+    "Name": "Douglas Group",
+    "ToolTip": "Voluptatem numquam.",
     "Deleted": false,
-    "Rank": 665,
-    "Type": "quia",
-    "ColorBlock": 63,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2015-12-29T16:55:31.0997979+01:00",
+    "Rank": 813,
+    "Type": "ipsum",
+    "ColorBlock": 137,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2021-04-27T10:30:33.2568344+02:00",
     "ChildItems": [
       {
-        "Id": 279,
-        "Name": "Kassulke Inc and Sons",
-        "ToolTip": "Aspernatur amet omnis iste.",
+        "Id": 875,
+        "Name": "Swaniawski Inc and Sons",
+        "ToolTip": "Sint quia.",
         "Deleted": false,
-        "Rank": 145,
-        "Type": "hic",
-        "ColorBlock": 134,
-        "IconHint": "aliquid",
-        "Selected": true,
-        "LastChanged": "2016-11-10T16:55:31.0997979+01:00",
+        "Rank": 852,
+        "Type": "excepturi",
+        "ColorBlock": 431,
+        "IconHint": "aspernatur",
+        "Selected": false,
+        "LastChanged": "2009-02-12T10:30:33.2568344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "aut",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Prof. Mazie Fanny Considine"
+        "FullName": "Brook Reinger"
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "aut",
+    "ExtraInfo": "corporis",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Daniela O'Hara"
+    "FullName": "Jovanny Cindy Lebsack DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Kulas-Trantow",
-    "ToolTip": "Minima rerum.",
-    "Deleted": true,
-    "Rank": 972,
-    "Type": "sit",
-    "ColorBlock": 176,
-    "IconHint": "voluptates",
+    "Id": 116,
+    "Name": "Littel-Collins",
+    "ToolTip": "A consequatur non.",
+    "Deleted": false,
+    "Rank": 382,
+    "Type": "nam",
+    "ColorBlock": 512,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2015-09-05T16:55:31.1007978+02:00",
+    "LastChanged": "2007-10-10T10:30:33.2724548+02:00",
     "ChildItems": [
       {
-        "Id": 307,
-        "Name": "Halvorson-Gottlieb",
-        "ToolTip": "Pariatur dolore autem doloremque nostrum perferendis et soluta.",
+        "Id": 186,
+        "Name": "Rowe, Schimmel and Jakubowski",
+        "ToolTip": "Excepturi sint.",
         "Deleted": false,
-        "Rank": 765,
-        "Type": "consequuntur",
-        "ColorBlock": 285,
-        "IconHint": "placeat",
+        "Rank": 990,
+        "Type": "enim",
+        "ColorBlock": 856,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2010-08-10T16:55:31.1007978+02:00",
+        "LastChanged": "2007-12-13T10:30:33.2724548+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Ellie Nikolaus",
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Stanton Tressie Boyle MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 310
+            "FieldLength": 820
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "quod",
+    "ExtraInfo": "aut",
+    "StyleHint": "fugiat",
     "Hidden": true,
-    "FullName": "Neil Bahringer",
+    "FullName": "Rozella Bauch I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldType": "System.String",
+        "FieldLength": 647
       }
     }
   }

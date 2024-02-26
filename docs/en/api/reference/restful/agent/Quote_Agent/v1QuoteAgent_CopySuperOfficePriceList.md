@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 163,
-  "NewName": "Waelchi-Waters",
-  "ValidFrom": "2009-08-04T16:54:56.1201622+02:00",
-  "ValidTo": "2003-12-23T16:54:56.1201622+01:00",
-  "NewCurrencyId": 54,
+  "OriginalPriceListId": 723,
+  "NewName": "McDermott Inc and Sons",
+  "ValidFrom": "2002-12-22T10:30:24.4033765+01:00",
+  "ValidTo": "2002-05-01T10:30:24.4033765+02:00",
+  "NewCurrencyId": 140,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 161,
-  "ERPPriceListKey": "consequuntur",
-  "QuoteConnectionId": 145,
-  "Name": "Veum, Christiansen and Goldner",
-  "Description": "Decentralized content-based infrastructure",
-  "Currency": "in",
-  "CurrencyName": "Wilkinson Inc and Sons",
-  "ValidFrom": "2003-01-30T16:54:56.1201622+01:00",
-  "ValidTo": "2013-03-02T16:54:56.1201622+01:00",
-  "IsActive": true,
+  "PriceListId": 939,
+  "ERPPriceListKey": "quasi",
+  "QuoteConnectionId": 372,
+  "Name": "Dare Inc and Sons",
+  "Description": "Optional transitional encryption",
+  "Currency": "non",
+  "CurrencyName": "Schiller, Dietrich and Kutch",
+  "ValidFrom": "2002-06-03T10:30:24.4033765+02:00",
+  "ValidTo": "2009-05-01T10:30:24.4033765+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldLength": 713
     }
   }
 }

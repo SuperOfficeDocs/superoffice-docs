@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 674
+  "LanguageId": 897
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 888,
-    "ResourceId": 187,
-    "Text": "sit",
+    "LanguageId": 601,
+    "ResourceId": 979,
+    "Text": "facilis",
     "Type": "Column",
-    "LocalizedTextId": 677,
+    "LocalizedTextId": 409,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 381
+        "FieldType": "System.Int32",
+        "FieldLength": 12
       }
     }
   }

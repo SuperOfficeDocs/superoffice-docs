@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 516,
+  "SystemEventId": 284,
   "Scope": "Database",
-  "Eta": "2010-01-25T16:55:30.1510206+01:00",
-  "Eventkey": "sunt",
-  "Eventmess": "quia",
-  "ExtraInfo": 704,
-  "Owner": 758,
-  "UpdatedCount": 386,
-  "Registered": "2016-05-28T16:55:30.1510206+02:00",
+  "Eta": "1997-12-26T10:30:32.5125031+01:00",
+  "Eventkey": "dicta",
+  "Eventmess": "labore",
+  "ExtraInfo": 105,
+  "Owner": 497,
+  "UpdatedCount": 895,
+  "Registered": "2021-06-03T10:30:32.5125031+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 792,
+  "SystemEventId": 7,
   "Scope": "Database",
-  "Eta": "2011-07-13T16:55:30.1510206+02:00",
-  "Eventkey": "suscipit",
-  "Eventmess": "qui",
-  "ExtraInfo": 576,
-  "Owner": 887,
-  "UpdatedCount": 802,
-  "Registered": "2019-03-04T16:55:30.1510206+01:00",
+  "Eta": "2022-02-25T10:30:32.5125031+01:00",
+  "Eventkey": "animi",
+  "Eventmess": "ut",
+  "ExtraInfo": 888,
+  "Owner": 672,
+  "UpdatedCount": 490,
+  "Registered": "2011-02-04T10:30:32.5125031+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   },
   "_Links": {

@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    896,
-    611
+    259,
+    478
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 320,
-    "UniqueId": "tempora",
-    "Name": "Dietrich LLC",
-    "Description": "Advanced responsive structure",
-    "AssociateId": 225,
-    "Columns": 522,
+    "DashboardId": 804,
+    "UniqueId": "iusto",
+    "Name": "Spinka-Kub",
+    "Description": "Proactive hybrid knowledge base",
+    "AssociateId": 457,
+    "Columns": 301,
     "Theme": null,
-    "VisibleForAll": 799,
+    "VisibleForAll": 60,
     "VisibleForAssociates": [
-      83,
-      380
+      547,
+      117
     ],
     "VisibleForGroups": [
-      913,
-      816
+      504,
+      739
     ],
-    "PinForAll": 891,
+    "PinForAll": 72,
     "PinForAssociates": [
-      73,
-      18
+      800,
+      914
     ],
     "PinForGroups": [
-      24,
-      657
+      454,
+      20
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 748
       }
     }
   }

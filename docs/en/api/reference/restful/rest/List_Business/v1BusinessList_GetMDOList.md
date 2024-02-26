@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=officiis
+GET /api/v1/List/Business/MDOItems?query=nihil
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Adams LLC",
-    "ToolTip": "Eveniet itaque est.",
+    "Id": 528,
+    "Name": "Feeney Group",
+    "ToolTip": "Quisquam et rerum voluptas laboriosam et voluptas.",
     "Deleted": false,
-    "Rank": 354,
-    "Type": "dolore",
+    "Rank": 888,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Gibson, Hand and Ritchie",
-        "ToolTip": "Vel rerum veniam illo corporis facilis ex autem.",
+        "Id": 815,
+        "Name": "Rohan Group",
+        "ToolTip": "Aut corporis ea at doloribus voluptatem architecto non.",
         "Deleted": false,
-        "Rank": 752,
-        "Type": "velit",
+        "Rank": 234,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 54,
-        "ExtraInfo": "itaque",
-        "StyleHint": "inventore",
-        "FullName": "Yasmeen Klein I",
+        "IconHint": "ducimus",
+        "ColorBlock": 141,
+        "ExtraInfo": "et",
+        "StyleHint": "deleniti",
+        "FullName": "Mr. Nikolas Labadie II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 704
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 160,
-    "ExtraInfo": "minima",
-    "StyleHint": "repellendus",
-    "FullName": "Dulce Kovacek",
+    "IconHint": "aut",
+    "ColorBlock": 292,
+    "ExtraInfo": "sunt",
+    "StyleHint": "ad",
+    "FullName": "Trudie Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 475
       }
     }
   }

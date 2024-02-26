@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,75 +93,75 @@ Content-Type: application/json; charset=utf-8
 {
   "UserType": "AnonymousAssociate",
   "Associate": "omnis",
-  "AssociateId": 691,
+  "AssociateId": 303,
   "IsPerson": true,
-  "PersonId": 920,
-  "CountryId": 836,
+  "PersonId": 511,
+  "CountryId": 181,
   "HomeCountryId": 4,
-  "ContactId": 784,
-  "GroupId": 673,
-  "BusinessId": 115,
-  "CategoryId": 443,
-  "ContactOwner": 213,
-  "RoleId": 913,
-  "RoleName": "Luettgen, Pfeffer and Haag",
-  "RoleDescription": "Polarised web-enabled model",
+  "ContactId": 464,
+  "GroupId": 5,
+  "BusinessId": 594,
+  "CategoryId": 636,
+  "ContactOwner": 600,
+  "RoleId": 487,
+  "RoleName": "Wilkinson, Schuppe and Sauer",
+  "RoleDescription": "Devolved disintermediate support",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 135,
-      "OwnerName": "Nitzsche-Roob",
-      "OwnerDescription": "Grass-roots mobile software",
-      "ModuleId": 87,
-      "Name": "Kunze-Kerluke",
-      "Description": "Integrated value-added encryption",
-      "Version": "est",
+      "OwnerId": 688,
+      "OwnerName": "Cole-D'Amore",
+      "OwnerDescription": "Managed 5th generation knowledge base",
+      "ModuleId": 67,
+      "Name": "Altenwerth-Balistreri",
+      "Description": "Quality-focused mobile focus group",
+      "Version": "maxime",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 163,
-      "ExtraInfo": "voluptatem",
-      "SortOrder": 329,
-      "LicenseNumber": 291,
+      "ExtraFlags": 900,
+      "ExtraInfo": "qui",
+      "SortOrder": 979,
+      "LicenseNumber": 696,
       "IsHidden": false,
-      "IsUnrestricted": true,
-      "ExpiryDate": "2012-12-18T16:55:30.4771407+01:00",
+      "IsUnrestricted": false,
+      "ExpiryDate": "2002-05-17T10:30:32.8113095+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldLength": 493
         }
       }
     }
   ],
-  "FullName": "Shayne Hand",
-  "EMailAddress": "nihil",
+  "FullName": "Jonathan Hettinger",
+  "EMailAddress": "id",
   "FunctionRights": [
-    "nihil",
-    "sint"
+    "nesciunt",
+    "est"
   ],
-  "EjUserId": 39,
-  "EjAccessLevel": 935,
+  "EjUserId": 755,
+  "EjAccessLevel": 229,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "quisquam",
-      "SearchName": "Jones-Labadie",
-      "DisplayName": "McGlynn-Larson",
-      "CredentialId": 414
+      "Type": "excepturi",
+      "SearchName": "O'Hara-Armstrong",
+      "DisplayName": "Hand-Padberg",
+      "CredentialId": 248
     },
     {
-      "Type": "quisquam",
-      "SearchName": "Jones-Labadie",
-      "DisplayName": "McGlynn-Larson",
-      "CredentialId": 414
+      "Type": "excepturi",
+      "SearchName": "O'Hara-Armstrong",
+      "DisplayName": "Hand-Padberg",
+      "CredentialId": 248
     }
   ],
   "SecondaryGroups": [
-    110,
-    334
+    162,
+    399
   ],
-  "DatabaseContextIdentifier": "sit",
-  "UserName": "Altenwerth, Lowe and Harris"
+  "DatabaseContextIdentifier": "ullam",
+  "UserName": "Kiehn LLC"
 }
 ```

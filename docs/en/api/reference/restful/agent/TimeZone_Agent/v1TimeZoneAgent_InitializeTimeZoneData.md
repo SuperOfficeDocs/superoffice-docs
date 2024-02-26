@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 421,
-    "Name": "Mueller, Maggio and Collins",
-    "TZLocationCode": "dignissimos",
-    "TZLocationCities": "rerum",
-    "IsoNumber": 713,
+    "TZLocationID": 49,
+    "Name": "Wisozk Group",
+    "TZLocationCode": "voluptatem",
+    "TZLocationCities": "est",
+    "IsoNumber": 502,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 168,
-        "StartMonth": 487,
-        "EndDay": 410,
-        "EndMonth": 573,
-        "TZOffset": 188,
-        "StartRulePattern": "sequi",
-        "EndRulePattern": "omnis"
+        "StartDay": 617,
+        "StartMonth": 17,
+        "EndDay": 441,
+        "EndMonth": 924,
+        "TZOffset": 81,
+        "StartRulePattern": "ea",
+        "EndRulePattern": "nam"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 454,
-        "StartMonth": 584,
-        "EndDay": 663,
-        "EndMonth": 251,
-        "TZOffset": 122,
-        "StartRulePattern": "dolore",
-        "EndRulePattern": "veniam"
+        "StartDay": 899,
+        "StartMonth": 571,
+        "EndDay": 256,
+        "EndMonth": 656,
+        "TZOffset": 230,
+        "StartRulePattern": "veniam",
+        "EndRulePattern": "quidem"
       }
     }
   }

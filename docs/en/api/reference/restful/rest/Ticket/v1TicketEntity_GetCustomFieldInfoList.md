@@ -67,7 +67,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mann-Kihn",
-    "DisplayName": "Toy Inc and Sons",
-    "Description": "Robust non-volatile migration",
-    "ShortLabel": "voluptas",
+    "FieldName": "Skiles-Osinski",
+    "DisplayName": "Labadie-Lindgren",
+    "Description": "Customer-focused fresh-thinking firmware",
+    "ShortLabel": "et",
     "HideLabel": true,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 904,
-    "TemplateVariableName": "Franecki, Metz and White"
+    "Rank": 718,
+    "TemplateVariableName": "Moore, Veum and Reinger"
   }
 ]
 ```

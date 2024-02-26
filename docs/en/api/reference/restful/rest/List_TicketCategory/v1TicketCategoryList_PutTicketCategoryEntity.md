@@ -108,29 +108,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 315,
-  "ParentId": 199,
-  "Name": "Stanton-Schiller",
-  "Fullname": "velit",
-  "CategoryMaster": 71,
+  "TicketCategoryId": 99,
+  "ParentId": 900,
+  "Name": "Gleason LLC",
+  "Fullname": "quisquam",
+  "CategoryMaster": 895,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ritchie-Kuhlman",
+  "ExternalName": "Weimann, Reinger and Jerde",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 930,
-  "ReplyTemplate": 34,
-  "NotificationEmail": "rachelle@hintz.com",
+  "AssignmentLag": 896,
+  "ReplyTemplate": 457,
+  "NotificationEmail": "gino_fisher@pfannerstill.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 436,
+  "EffectiveReplyTemplateId": 974,
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "modi",
+    "CustomFields2": "laborum"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 718,
-  "ParentId": 24,
-  "Name": "Balistreri Inc and Sons",
-  "Fullname": "nostrum",
-  "CategoryMaster": 359,
+  "TicketCategoryId": 364,
+  "ParentId": 705,
+  "Name": "Stanton LLC",
+  "Fullname": "error",
+  "CategoryMaster": 752,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Lockman LLC",
+  "ExternalName": "Walsh-Cummerata",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 328,
-  "ReplyTemplate": 153,
-  "NotificationEmail": "ali_lowe@blandajewess.com",
+  "AssignmentLag": 902,
+  "ReplyTemplate": 935,
+  "NotificationEmail": "maybell_hayes@ruecker.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 514,
+  "EffectiveReplyTemplateId": 625,
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "ipsam"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "ad"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

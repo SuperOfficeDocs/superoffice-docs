@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Collier-Schoen",
-    "Tooltip": "odit",
+    "Id": 271,
+    "Name": "Harber Group",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "UdListDefinitionId": 766,
-    "Rank": 148
+    "UdListDefinitionId": 340,
+    "Rank": 684
   },
   {
-    "Id": 850,
-    "Name": "Collier-Schoen",
-    "Tooltip": "odit",
+    "Id": 271,
+    "Name": "Harber Group",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "UdListDefinitionId": 766,
-    "Rank": 148
+    "UdListDefinitionId": 340,
+    "Rank": 684
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Parker LLC",
-    "Tooltip": "repudiandae",
+    "Id": 867,
+    "Name": "Schiller Inc and Sons",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "UdListDefinitionId": 372,
-    "Rank": 28,
+    "UdListDefinitionId": 736,
+    "Rank": 720,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldType": "System.String",
+        "FieldLength": 979
       }
     }
   }

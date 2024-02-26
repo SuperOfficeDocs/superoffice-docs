@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 221,
-  "UniqueId": "veritatis",
-  "Name": "Schulist-Cassin",
-  "Description": "Ameliorated analyzing installation",
-  "AssociateId": 305,
-  "Columns": 838,
+  "DashboardId": 484,
+  "UniqueId": "culpa",
+  "Name": "Heaney, Walter and Flatley",
+  "Description": "Integrated maximized success",
+  "AssociateId": 904,
+  "Columns": 950,
   "Theme": null,
-  "VisibleForAll": 925,
+  "VisibleForAll": 687,
   "VisibleForAssociates": [
-    405,
-    634
+    997,
+    193
   ],
   "VisibleForGroups": [
-    4,
-    988
+    825,
+    958
   ],
-  "PinForAll": 914,
+  "PinForAll": 598,
   "PinForAssociates": [
-    997,
-    15
+    774,
+    967
   ],
   "PinForGroups": [
-    744,
-    364
+    497,
+    663
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 14,
-  "UniqueId": "aut",
-  "Name": "Johnson Group",
-  "Description": "Vision-oriented intermediate parallelism",
-  "AssociateId": 232,
-  "Columns": 45,
+  "DashboardId": 622,
+  "UniqueId": "nesciunt",
+  "Name": "Kozey, VonRueden and Reichel",
+  "Description": "Profit-focused 24/7 matrices",
+  "AssociateId": 849,
+  "Columns": 777,
   "Theme": null,
-  "VisibleForAll": 90,
+  "VisibleForAll": 915,
   "VisibleForAssociates": [
-    882,
-    858
+    849,
+    788
   ],
   "VisibleForGroups": [
-    445,
-    715
+    534,
+    118
   ],
-  "PinForAll": 828,
+  "PinForAll": 682,
   "PinForAssociates": [
-    24,
-    353
+    622,
+    291
   ],
   "PinForGroups": [
-    467,
-    248
+    544,
+    183
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 93
     }
   },
   "_Links": {

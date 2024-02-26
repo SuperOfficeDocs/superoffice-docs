@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 301,
-  "ERPPriceListKey": "accusamus",
-  "QuoteConnectionId": 168,
-  "Name": "Dickens LLC",
-  "Description": "Progressive actuating synergy",
-  "Currency": "dolores",
-  "CurrencyName": "Jones LLC",
-  "ValidFrom": "2010-12-15T16:54:56.10916+01:00",
-  "ValidTo": "1998-08-10T16:54:56.10916+02:00",
-  "IsActive": false,
+  "PriceListId": 250,
+  "ERPPriceListKey": "sunt",
+  "QuoteConnectionId": 552,
+  "Name": "Spinka Group",
+  "Description": "Right-sized 24 hour standardization",
+  "Currency": "illo",
+  "CurrencyName": "Crist, Schuster and Blanda",
+  "ValidFrom": "2019-11-08T10:30:24.4033765+01:00",
+  "ValidTo": "1996-12-19T10:30:24.4033765+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldType": "System.String",
+      "FieldLength": 863
     }
   }
 }

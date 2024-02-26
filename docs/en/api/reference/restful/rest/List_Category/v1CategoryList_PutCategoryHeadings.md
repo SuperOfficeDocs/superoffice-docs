@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 425,
-    "Name": "Grant, Moore and Hahn",
-    "Tooltip": "iusto",
-    "Deleted": false,
-    "Rank": 648,
-    "UdListDefinitionId": 439
+    "HeadingId": 916,
+    "Name": "Block, O'Keefe and Jast",
+    "Tooltip": "natus",
+    "Deleted": true,
+    "Rank": 845,
+    "UdListDefinitionId": 243
   },
   {
-    "HeadingId": 425,
-    "Name": "Grant, Moore and Hahn",
-    "Tooltip": "iusto",
-    "Deleted": false,
-    "Rank": 648,
-    "UdListDefinitionId": 439
+    "HeadingId": 916,
+    "Name": "Block, O'Keefe and Jast",
+    "Tooltip": "natus",
+    "Deleted": true,
+    "Rank": 845,
+    "UdListDefinitionId": 243
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 414,
-    "Name": "Balistreri Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 823,
-    "UdListDefinitionId": 520,
+    "HeadingId": 160,
+    "Name": "Jakubowski Inc and Sons",
+    "Tooltip": "excepturi",
+    "Deleted": true,
+    "Rank": 461,
+    "UdListDefinitionId": 929,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

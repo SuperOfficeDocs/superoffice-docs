@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 725,
-  "Name": "Volkman, Rogahn and D'Amore",
-  "CreatedDate": "2022-05-30T16:55:29.6335301+02:00",
-  "UpdatedDate": "2015-06-16T16:55:29.6335301+02:00",
+  "ForeignAppId": 713,
+  "Name": "Watsica-Stokes",
+  "CreatedDate": "2020-07-22T10:30:32.0574265+02:00",
+  "UpdatedDate": "2019-07-21T10:30:32.0574265+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 818,
-      "Name": "Weissnat-Dickinson",
-      "CreatedDate": "1997-01-23T16:55:29.6335301+01:00",
-      "UpdatedDate": "1999-10-25T16:55:29.6335301+02:00",
-      "AssociateFullName": "Luz VonRueden",
-      "CreatedBy": "nihil",
-      "UpdatedBy": "reprehenderit",
-      "DeviceIdentifier": "deserunt",
-      "ForeignAppId": 511,
+      "ForeignDeviceId": 18,
+      "Name": "Lehner, Cassin and Halvorson",
+      "CreatedDate": "2007-04-24T10:30:32.0574265+02:00",
+      "UpdatedDate": "1997-07-07T10:30:32.0574265+02:00",
+      "AssociateFullName": "Estel Jerald Wiegand II",
+      "CreatedBy": "eaque",
+      "UpdatedBy": "unde",
+      "DeviceIdentifier": "eos",
+      "ForeignAppId": 98,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldType": "System.String",
+          "FieldLength": 958
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldType": "System.Int32",
+      "FieldLength": 393
     }
   }
 }

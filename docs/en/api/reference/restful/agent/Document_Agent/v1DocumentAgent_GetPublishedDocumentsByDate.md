@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 481,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2011-06-24T16:54:55.1302918+02:00",
-  "EndTime": "2005-11-16T16:54:55.1302918+01:00",
-  "Count": 216
+  "PersonId": 11,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2005-09-01T10:30:23.4675291+02:00",
+  "EndTime": "2005-10-04T10:30:23.4675291+02:00",
+  "Count": 193
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 386,
-    "Attention": "minima",
-    "Header": "eaque",
-    "Name": "Bernier, Gorczany and Turcotte",
+    "DocumentId": 382,
+    "Attention": "ut",
+    "Header": "aut",
+    "Name": "Kovacek LLC",
     "OurRef": "voluptatem",
-    "YourRef": "rerum",
-    "Description": "Fundamental modular algorithm",
-    "DocumentTemplate": "molestiae",
-    "IsPublished": false,
-    "PersonId": 270,
-    "PersonFullName": "Riley Alivia Macejkovic V",
-    "AssociateFullName": "Duncan Kuvalis",
-    "ContactId": 562,
-    "ContactName": "Mitchell, Thompson and Glover",
-    "ProjectId": 470,
-    "ProjectName": "Wintheiser, Purdy and Hayes",
-    "AssociateId": 215,
-    "Snum": 735,
-    "SaleId": 937,
-    "SaleName": "O'Conner, Wilderman and Wolff",
+    "YourRef": "eos",
+    "Description": "Switchable zero tolerance open architecture",
+    "DocumentTemplate": "consequatur",
+    "IsPublished": true,
+    "PersonId": 68,
+    "PersonFullName": "Kaylin Kuvalis",
+    "AssociateFullName": "Alba Reynolds",
+    "ContactId": 695,
+    "ContactName": "Leuschke, Flatley and Miller",
+    "ProjectId": 312,
+    "ProjectName": "Welch-Powlowski",
+    "AssociateId": 298,
+    "Snum": 202,
+    "SaleId": 306,
+    "SaleName": "Becker, Bins and Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldLength": 512
       }
     }
   }

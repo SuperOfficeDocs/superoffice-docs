@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Swift, Rice and Weimann",
+  "LayoutName": "Krajcik-Gerlach",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

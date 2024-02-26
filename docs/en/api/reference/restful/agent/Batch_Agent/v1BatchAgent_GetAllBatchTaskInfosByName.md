@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Kris Inc and Sons"
+  "TaskName": "Abbott Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Keeling, Nicolas and Kiehn",
-    "AssociateId": 494,
-    "DetailsTable": 958,
-    "DetailsRecord": 209,
+    "Id": 62,
+    "Name": "Mertz-Fahey",
+    "AssociateId": 394,
+    "DetailsTable": 715,
+    "DetailsRecord": 35,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "dolor",
-      "ParameterObject2": "deserunt"
+      "ParameterObject1": "omnis",
+      "ParameterObject2": "ea"
     },
-    "LastStarted": "2006-10-12T16:54:54.6063035+02:00",
-    "Created": "2005-01-19T16:54:54.6063035+01:00",
-    "StartCount": 632,
-    "DatabaseSerialNumber": "674768",
-    "Context": "soluta",
-    "Result": "quos",
+    "LastStarted": "2006-11-29T10:30:23.0982933+01:00",
+    "Created": "2011-03-12T10:30:23.0982933+01:00",
+    "StartCount": 848,
+    "DatabaseSerialNumber": "1155788",
+    "Context": "non",
+    "Result": "dolore",
     "State": "All",
-    "Description": "Intuitive intangible help-desk",
-    "Response": "ea",
-    "Request": "deleniti",
-    "ProgressDescription": "Phased empowering function",
-    "ProgressPercent": 311,
-    "FileName": "Prohaska LLC",
+    "Description": "Quality-focused heuristic synergy",
+    "Response": "et",
+    "Request": "nemo",
+    "ProgressDescription": "Cross-group scalable functionalities",
+    "ProgressPercent": 806,
+    "FileName": "Gorczany-Block",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 658
+        "FieldLength": 134
       }
     }
   }

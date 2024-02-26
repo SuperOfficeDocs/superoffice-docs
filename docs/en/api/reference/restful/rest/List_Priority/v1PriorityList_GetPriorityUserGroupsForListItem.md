@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Daugherty-Farrell",
-    "ToolTip": "Blanditiis consequatur.",
+    "Id": 349,
+    "Name": "Stiedemann, McKenzie and Jacobs",
+    "ToolTip": "Doloribus cupiditate veniam aut et omnis sunt fuga.",
     "Deleted": false,
-    "Rank": 711,
-    "Type": "quis",
-    "ColorBlock": 991,
-    "IconHint": "expedita",
-    "Selected": true,
-    "LastChanged": "2002-05-06T16:55:30.7831972+02:00",
+    "Rank": 78,
+    "Type": "quam",
+    "ColorBlock": 648,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2002-03-09T10:30:33.0849147+01:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Nicolas LLC",
-        "ToolTip": "Ut ea aut aliquam facere.",
-        "Deleted": true,
-        "Rank": 299,
-        "Type": "est",
-        "ColorBlock": 873,
-        "IconHint": "rem",
-        "Selected": true,
-        "LastChanged": "2003-02-04T16:55:30.7831972+01:00",
+        "Id": 287,
+        "Name": "Effertz LLC",
+        "ToolTip": "Nihil id voluptatibus.",
+        "Deleted": false,
+        "Rank": 488,
+        "Type": "voluptas",
+        "ColorBlock": 258,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2009-12-11T10:30:33.0849147+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Miss Joana Hermiston III",
+        "ExtraInfo": "vitae",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Antone Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldType": "System.String",
+            "FieldLength": 219
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Una Hand",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Zachariah Orrin McLaughlin III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 688
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

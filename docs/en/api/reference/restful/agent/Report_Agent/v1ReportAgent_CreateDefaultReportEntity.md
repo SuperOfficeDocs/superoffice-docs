@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 183,
+  "ReportId": 814,
   "ReportCategory": "All",
-  "Description": "Reactive interactive leverage",
+  "Description": "Virtual context-sensitive firmware",
   "ReportLayout": "CalendarMonth",
-  "Name": "Langworth, Bradtke and Sauer",
-  "AssociateId": 650,
-  "TemplateId": 994,
+  "Name": "Witting-Jerde",
+  "AssociateId": 728,
+  "TemplateId": 454,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

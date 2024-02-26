@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 785,
-  "Name": "O'Reilly-Grady",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "UdListDefinitionId": 301,
-  "Rank": 726,
+  "Id": 23,
+  "Name": "Runte Group",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "UdListDefinitionId": 85,
+  "Rank": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   }
 }

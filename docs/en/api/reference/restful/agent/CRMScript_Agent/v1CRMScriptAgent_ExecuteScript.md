@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 685,
+  "CRMScriptId": 6,
   "Parameters": {
-    "Parameters1": "eum",
-    "Parameters2": "aut"
+    "Parameters1": "voluptatem",
+    "Parameters2": "nemo"
   }
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sint"
+"amet"
 ```

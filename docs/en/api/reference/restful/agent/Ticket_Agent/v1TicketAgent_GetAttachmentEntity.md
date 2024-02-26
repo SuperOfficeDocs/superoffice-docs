@@ -26,7 +26,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=197
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=866
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -64,6 +64,7 @@ OK
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 | AuthKey | string | The key used for authenticating access to this attachment. |
+| IsSafeFileExtension | bool | Is file considered to be safe (based on extension and settings) |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -83,19 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 430,
-  "Name": "Howell-Zieme",
-  "ContentType": "atque",
-  "AttSize": 611,
+  "AttachmentId": 672,
+  "Name": "Weber Group",
+  "ContentType": "vel",
+  "AttSize": 294,
   "InlineImage": false,
-  "ContentId": "consequatur",
-  "AuthKey": "quae",
+  "ContentId": "sed",
+  "AuthKey": "quas",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 579
     }
   }
 }

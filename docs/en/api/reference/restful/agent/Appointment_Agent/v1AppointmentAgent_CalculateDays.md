@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 175,
-  "StartDate": "2008-08-21T16:54:54.3968641+02:00",
-  "EndDate": "2021-08-26T16:54:54.3968641+02:00",
-  "RecurrenceCounter": 873,
+  "RecurrenceId": 108,
+  "StartDate": "2007-01-21T10:30:22.8627082+01:00",
+  "EndDate": "2020-01-03T10:30:22.8627082+01:00",
+  "RecurrenceCounter": 609,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2008-01-16T16:54:54.3968641+01:00",
+      "Date": "2007-01-07T10:30:22.8627082+01:00",
       "IsConflict": false,
-      "Description": "Multi-channelled leading edge open system",
-      "DescriptionStyleHint": "Vision-oriented exuding attitude",
-      "Tooltip": "maiores"
+      "Description": "Synchronised discrete toolset",
+      "DescriptionStyleHint": "Total background synergy",
+      "Tooltip": "in"
     },
     {
-      "Date": "2008-01-16T16:54:54.3968641+01:00",
+      "Date": "2007-01-07T10:30:22.8627082+01:00",
       "IsConflict": false,
-      "Description": "Multi-channelled leading edge open system",
-      "DescriptionStyleHint": "Vision-oriented exuding attitude",
-      "Tooltip": "maiores"
+      "Description": "Synchronised discrete toolset",
+      "DescriptionStyleHint": "Total background synergy",
+      "Tooltip": "in"
     }
   ],
   "IsRecurrence": true

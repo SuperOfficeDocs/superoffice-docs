@@ -840,6 +840,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -849,11 +850,11 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
-|request/firstReadByOwner|datetime|First read by owner: Displays when the request was read by owner for the first time| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/firstReadByOwner|datetime|First read by owner: Displays when the request was read by owner for the first time| x |
 |request/firstReadByUser|datetime|First read by user: Displays when the request was read by user for the first time| x |
 |request/readByCustomer|datetime|Read by contact: Displays when the request was read by the contact| x |
 |request/status|listAny|Internal status: Shows only system defined statuses for a request| x |
@@ -881,6 +882,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
+|request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -952,12 +954,12 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/extra/x\_ticket\_datetime|datetime|Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
 |request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
 |request/extra/x\_ticket\_boolean|bool|Extra boolean: Custom boolean on Ticket.| x |
-|request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
-|request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
+|request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
@@ -1056,12 +1058,12 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |projectMembers/saintSaleStatus|listAny|With status|  |
 |projectMembers/saintAmountClass|listAny|Amount class|  |
 |projectMembers/saintActivityType|listAny|SAINT type|  |
-|projectMembers/saintDirection|listAny|Direction|  |
-|projectMembers/saintIntention|listAny|Intention|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintDirection|listAny|Direction|  |
+|projectMembers/saintIntention|listAny|Intention|  |
 |projectMembers/saintTicketStatus|listAny|Status|  |
 |projectMembers/saintTicketCategory|listAny|Category|  |
 |projectMembers/project/textId|int|Text ID| x |
@@ -1161,7 +1163,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactUdef/SuperOffice:9,targetRelation/associateId,appointment/time,appointment/associate/isActiveText,document/associate/associateDbId
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=document/subject,document/suggestedDocumentId,document/associate/assocType,document/associate/userName,personSourceRelation/birthDay
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

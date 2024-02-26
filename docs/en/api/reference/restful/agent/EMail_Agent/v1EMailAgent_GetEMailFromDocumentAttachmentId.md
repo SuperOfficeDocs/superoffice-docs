@@ -106,12 +106,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 265,
+  "DocId": 476,
   "AttachmentIds": [
-    "officiis",
-    "et"
+    "cumque",
+    "ipsam"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -124,148 +124,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 687,
-      "ContactName": "Schaefer Inc and Sons",
-      "PersonId": 761,
-      "PersonName": "Bosco, Walter and Renner",
-      "AssociateId": 114,
-      "Address": "quae",
-      "EmailId": 439,
+      "ContactId": 317,
+      "ContactName": "Kuhlman-Zulauf",
+      "PersonId": 420,
+      "PersonName": "Kub-Walker",
+      "AssociateId": 471,
+      "Address": "quidem",
+      "EmailId": 714,
       "DuplicatePersonIds": [
-        221,
-        713
+        406,
+        569
       ],
-      "Name": "Miller, Hermiston and Erdman",
+      "Name": "Greenfelder-Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 531
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 232,
-      "ContactName": "Gulgowski, Marvin and Hessel",
-      "PersonId": 418,
-      "PersonName": "Gutmann, Wilkinson and Towne",
-      "AssociateId": 834,
-      "Address": "dolorum",
-      "EmailId": 649,
+      "ContactId": 571,
+      "ContactName": "Toy, Beatty and Hartmann",
+      "PersonId": 351,
+      "PersonName": "Paucek-Rogahn",
+      "AssociateId": 77,
+      "Address": "laudantium",
+      "EmailId": 820,
       "DuplicatePersonIds": [
-        797,
-        8
+        695,
+        418
       ],
-      "Name": "Paucek Inc and Sons",
+      "Name": "Lesch-Waters",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldType": "System.String",
+          "FieldLength": 655
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 14,
-      "ContactName": "Herman Inc and Sons",
-      "PersonId": 129,
-      "PersonName": "Mraz-Heaney",
-      "AssociateId": 909,
-      "Address": "aut",
-      "EmailId": 239,
+      "ContactId": 608,
+      "ContactName": "Schinner Inc and Sons",
+      "PersonId": 114,
+      "PersonName": "Weimann-Runolfsdottir",
+      "AssociateId": 733,
+      "Address": "quisquam",
+      "EmailId": 327,
       "DuplicatePersonIds": [
-        418,
-        367
+        366,
+        220
       ],
-      "Name": "Zulauf Inc and Sons",
+      "Name": "Keeling-Carter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldType": "System.String",
+          "FieldLength": 91
         }
       }
     }
   ],
-  "Subject": "reiciendis",
-  "HTMLBody": "velit",
+  "Subject": "et",
+  "HTMLBody": "doloremque",
   "From": null,
-  "Sent": "1997-07-19T16:54:55.3869485+02:00",
-  "Size": 535,
+  "Sent": "2008-11-24T10:30:23.8136779+01:00",
+  "Size": 313,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sit",
-  "PlainBody": "reprehenderit",
-  "IsSent": true,
+  "MessageID": "nemo",
+  "PlainBody": "deserunt",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 596,
+  "ServerId": 472,
   "Attachments": [
     {
-      "Description": "Horizontal object-oriented process improvement",
-      "Filename": "ad",
-      "Size": 429,
-      "Type": "iure",
-      "Encoding": "distinctio",
-      "Id": "vero",
-      "Disposition": "ducimus",
+      "Description": "Networked zero defect application",
+      "Filename": "temporibus",
+      "Size": 506,
+      "Type": "quia",
+      "Encoding": "aliquam",
+      "Id": "tempora",
+      "Disposition": "repellat",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 759
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Abbott, Christiansen and Kiehn",
+      "Name": "Dare-Grady",
       "Values": [
-        "quia",
-        "et"
+        "officia",
+        "fugiat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 735
         }
       }
     },
     {
-      "Name": "Abbott, Christiansen and Kiehn",
+      "Name": "Dare-Grady",
       "Values": [
-        "quia",
-        "et"
+        "officia",
+        "fugiat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 735
         }
       }
     }
   ],
-  "FolderName": "Kuhn, Tremblay and Tillman",
-  "EmailItemId": 409,
-  "AccountId": 112,
-  "ReceivedAt": "2015-03-16T16:54:55.3869485+01:00",
+  "FolderName": "Grimes-Lubowitz",
+  "EmailItemId": 558,
+  "AccountId": 383,
+  "ReceivedAt": "2022-06-20T10:30:23.8136779+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-07-13T16:54:55.3869485+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2014-01-27T10:30:23.8136779+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 806
     }
   }
 }

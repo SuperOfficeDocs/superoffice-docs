@@ -85,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Collins-Schamberger",
+  "ConnectorName": "Fadel Group",
   "ConnectionData": {
-    "ConnectionData1": "veritatis",
-    "ConnectionData2": "quia"
+    "ConnectionData1": "corporis",
+    "ConnectionData2": "adipisci"
   }
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "animi",
-  "TechExplanation": "temporibus",
-  "ErrorCode": "sequi",
+  "IsOk": false,
+  "UserExplanation": "et",
+  "TechExplanation": "eaque",
+  "ErrorCode": "quos",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 2
     }
   }
 }

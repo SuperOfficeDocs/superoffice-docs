@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 985
+  "DocumentId": 160
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "eveniet",
-    "DocumentId": 558,
-    "VersionId": "aut",
-    "CheckedInDate": "2000-11-15T16:54:55.2574198+01:00",
-    "CheckedInByName": "Herman Inc and Sons",
-    "CheckedInByAssociateId": 256,
-    "Description": "Multi-lateral secondary utilisation",
-    "DisplayText": "dolor",
+    "ExternalReference": "molestias",
+    "DocumentId": 366,
+    "VersionId": "suscipit",
+    "CheckedInDate": "2000-03-06T10:30:23.6886831+01:00",
+    "CheckedInByName": "Cremin, Leffler and Hegmann",
+    "CheckedInByAssociateId": 84,
+    "Description": "Face to face zero administration customer loyalty",
+    "DisplayText": "expedita",
     "ExtraFields": [
-      "natus",
-      "est"
+      "laborum",
+      "natus"
     ]
   }
 ]

@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "itaque",
+    "path": "consequatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "itaque",
+    "path": "consequatur",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 157,
+  "DocumentId": 395,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quam",
-  "Header": "qui",
-  "Name": "Schroeder, Volkman and Kunde",
-  "OurRef": "nesciunt",
-  "YourRef": "corrupti",
-  "CreatedDate": "2022-10-25T16:55:29.5925341+02:00",
-  "UpdatedDate": "1998-04-02T16:55:29.5925341+02:00",
-  "Description": "Reverse-engineered client-server migration",
+  "Attention": "totam",
+  "Header": "illo",
+  "Name": "Davis, Lemke and Halvorson",
+  "OurRef": "atque",
+  "YourRef": "est",
+  "CreatedDate": "2002-08-02T10:30:32.0261799+02:00",
+  "UpdatedDate": "2008-08-14T10:30:32.0261799+02:00",
+  "Description": "Cross-platform local encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-02-14T16:55:29.59555+01:00",
-  "ExternalRef": "necessitatibus",
+  "Date": "2001-02-15T10:30:32.0261799+01:00",
+  "ExternalRef": "quibusdam",
   "Completed": "Completed",
-  "ActiveLinks": 210,
+  "ActiveLinks": 390,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Feil LLC",
-      "Id": 319,
-      "Description": "Integrated assymetric moratorium",
-      "ExtraInfo": "suscipit",
-      "LinkId": 598,
+      "EntityName": "Wyman LLC",
+      "Id": 65,
+      "Description": "Fundamental multi-tasking concept",
+      "ExtraInfo": "velit",
+      "LinkId": 952,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 410
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 538,
-  "Snum": 567,
+  "SuggestedDocumentId": 858,
+  "Snum": 512,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Jacklyn Marcus Schiller MD",
-    "SuperOffice:2": "Ms. Scarlett Franecki"
+    "SuperOffice:1": "Marianne Hyatt",
+    "SuperOffice:2": "Jack Jast II"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "odio"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "ad"
   },
-  "PublishEventDate": "2013-09-10T16:55:29.5965279+02:00",
-  "PublishTo": "2021-08-29T16:55:29.5965279+02:00",
-  "PublishFrom": "2006-09-12T16:55:29.5965279+02:00",
+  "PublishEventDate": "2013-02-01T10:30:32.0261799+01:00",
+  "PublishTo": "2015-01-29T10:30:32.0261799+01:00",
+  "PublishFrom": "2020-07-18T10:30:32.0261799+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 477,
+      "VisibleId": 381,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 846
         }
       }
     },
     {
-      "VisibleId": 477,
+      "VisibleId": 381,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 846
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 287
     }
   },
   "_Links": {

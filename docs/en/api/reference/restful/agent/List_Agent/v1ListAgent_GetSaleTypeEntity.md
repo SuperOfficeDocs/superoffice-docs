@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=555
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=147
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 248,
-  "Name": "Huel-Hane",
-  "Tooltip": "qui",
-  "Rank": 337,
+  "SaleTypeId": 468,
+  "Name": "Ankunding Inc and Sons",
+  "Tooltip": "aliquam",
+  "Rank": 663,
   "DurationUnit": "Century",
-  "SaleDuration": 347,
-  "SaleTypeCatId": 181,
+  "SaleDuration": 39,
+  "SaleTypeCatId": 263,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 214,
-  "QuoteLinesTemplate": 2,
-  "ConfirmationLinesTemplate": 774,
+  "DefaultQuoteValidity": 339,
+  "QuoteLinesTemplate": 779,
+  "ConfirmationLinesTemplate": 881,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 634,
-  "MinEarningPercent": 199,
-  "GroupQuoteLinesBy": 854,
-  "SortGroupLinesBy": 791,
+  "MaxDiscountPercent": 225,
+  "MinEarningPercent": 595,
+  "GroupQuoteLinesBy": 861,
+  "SortGroupLinesBy": 26,
   "Stages": [
     {
-      "Id": 348,
-      "Name": "Rempel Group",
-      "ToolTip": "Consequatur ab corrupti consectetur quia.",
+      "Id": 306,
+      "Name": "Gulgowski, Rath and Connelly",
+      "ToolTip": "Et aliquid neque debitis asperiores exercitationem in.",
       "Deleted": false,
-      "Rank": 191,
-      "Type": "earum",
-      "ColorBlock": 768,
-      "IconHint": "sit",
-      "Selected": false,
-      "LastChanged": "1997-12-09T16:54:55.5454782+01:00",
+      "Rank": 260,
+      "Type": "ea",
+      "ColorBlock": 737,
+      "IconHint": "explicabo",
+      "Selected": true,
+      "LastChanged": "2007-10-02T10:30:23.978726+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "vitae",
+      "ExtraInfo": "quia",
+      "StyleHint": "cum",
       "Hidden": false,
-      "FullName": "Mrs. Jalon Spencer Mohr MD",
+      "FullName": "Fabian Emmerich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldLength": 978
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 860
     }
   }
 }

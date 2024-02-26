@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 872,
-  "Name": "Jewess-Corkery",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 858,
-  "UdListDefinitionId": 940
+  "HeadingId": 530,
+  "Name": "Davis LLC",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 304,
+  "UdListDefinitionId": 151
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 149,
-  "Name": "Denesik Group",
-  "Tooltip": "impedit",
+  "HeadingId": 374,
+  "Name": "Moore, Murray and Swaniawski",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 100,
-  "UdListDefinitionId": 249,
+  "Rank": 695,
+  "UdListDefinitionId": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   }
 }

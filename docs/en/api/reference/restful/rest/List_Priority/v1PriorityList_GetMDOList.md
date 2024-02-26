@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=porro
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Brakus Inc and Sons",
-    "ToolTip": "Sunt voluptas nihil deleniti et totam unde dolor.",
-    "Deleted": false,
-    "Rank": 863,
-    "Type": "repellat",
+    "Id": 825,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Et in sunt aut porro.",
+    "Deleted": true,
+    "Rank": 778,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 739,
-        "Name": "Weimann LLC",
-        "ToolTip": "Culpa nobis eaque exercitationem consectetur.",
+        "Id": 517,
+        "Name": "Mills-Williamson",
+        "ToolTip": "Non dicta incidunt earum et omnis voluptas asperiores.",
         "Deleted": true,
-        "Rank": 840,
-        "Type": "saepe",
+        "Rank": 508,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 454,
-        "ExtraInfo": "voluptate",
-        "StyleHint": "ea",
-        "FullName": "Estella Bartell DVM",
+        "IconHint": "et",
+        "ColorBlock": 536,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "ut",
+        "FullName": "Clay Delilah Hansen DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 212
+            "FieldLength": 615
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 508,
-    "ExtraInfo": "eaque",
-    "StyleHint": "quia",
-    "FullName": "Ardith Mertz",
+    "IconHint": "quibusdam",
+    "ColorBlock": 195,
+    "ExtraInfo": "harum",
+    "StyleHint": "quae",
+    "FullName": "Osbaldo Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldLength": 777
       }
     }
   }

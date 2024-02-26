@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Nienow-Beatty",
-    "Tooltip": "voluptatibus",
-    "Deleted": true,
-    "Rank": 399,
-    "UdListDefinitionId": 970,
+    "HeadingId": 346,
+    "Name": "Walker Inc and Sons",
+    "Tooltip": "asperiores",
+    "Deleted": false,
+    "Rank": 359,
+    "UdListDefinitionId": 404,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 730
+        "FieldType": "System.Int32",
+        "FieldLength": 380
       }
     }
   }

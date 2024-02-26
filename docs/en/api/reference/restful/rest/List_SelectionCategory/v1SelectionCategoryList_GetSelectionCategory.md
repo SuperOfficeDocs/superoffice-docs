@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 809,
-  "Name": "Medhurst Inc and Sons",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "UdListDefinitionId": 433,
-  "Rank": 782,
+  "Id": 947,
+  "Name": "Hackett-Murphy",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "UdListDefinitionId": 627,
+  "Rank": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldType": "System.String",
+      "FieldLength": 436
     }
   }
 }

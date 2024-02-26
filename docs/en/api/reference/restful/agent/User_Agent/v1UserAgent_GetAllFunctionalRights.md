@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Bruen-Lueilwitz",
-    "ToolTip": "Qui totam quaerat tempore ad ad voluptate suscipit.",
-    "Deleted": true,
-    "Rank": 405,
-    "Type": "quasi",
-    "ColorBlock": 240,
-    "IconHint": "fugiat",
+    "Id": 459,
+    "Name": "Cormier Group",
+    "ToolTip": "Explicabo non minima tempore.",
+    "Deleted": false,
+    "Rank": 203,
+    "Type": "minima",
+    "ColorBlock": 453,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2011-10-02T16:54:56.6512044+02:00",
+    "LastChanged": "1998-07-15T10:30:24.9985809+02:00",
     "ChildItems": [
       {
-        "Id": 574,
-        "Name": "Braun LLC",
-        "ToolTip": "Est sed alias nesciunt eos animi non doloribus.",
-        "Deleted": true,
-        "Rank": 995,
-        "Type": "earum",
-        "ColorBlock": 469,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2004-09-27T16:54:56.6512044+02:00",
+        "Id": 883,
+        "Name": "Parisian Inc and Sons",
+        "ToolTip": "Officiis et nihil facere reprehenderit praesentium.",
+        "Deleted": false,
+        "Rank": 889,
+        "Type": "alias",
+        "ColorBlock": 930,
+        "IconHint": "alias",
+        "Selected": false,
+        "LastChanged": "2014-11-29T10:30:24.9985809+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Dr. Maryse Greenholt",
+        "ExtraInfo": "vitae",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Dario Buckridge IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 420
+            "FieldLength": 755
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "a",
-    "Hidden": true,
-    "FullName": "Phoebe Xander O'Conner III",
+    "ExtraInfo": "illo",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Russ Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 610
+        "FieldLength": 392
       }
     }
   }

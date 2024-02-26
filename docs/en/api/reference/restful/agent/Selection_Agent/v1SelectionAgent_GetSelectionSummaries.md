@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    967,
-    203
+    457,
+    967
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 799,
-    "Name": "Beahan-Boyer",
-    "TargetTable": "tempore",
-    "Registered": "2003-10-18T16:54:56.3436168+02:00",
-    "ProviderName": "Runte Inc and Sons"
+    "SelectionId": 310,
+    "Name": "Schimmel, Wisoky and Weber",
+    "TargetTable": "laudantium",
+    "Registered": "2019-12-06T10:30:24.7173369+01:00",
+    "ProviderName": "Jacobi, Goodwin and Roob"
   },
   {
-    "SelectionId": 799,
-    "Name": "Beahan-Boyer",
-    "TargetTable": "tempore",
-    "Registered": "2003-10-18T16:54:56.3436168+02:00",
-    "ProviderName": "Runte Inc and Sons"
+    "SelectionId": 310,
+    "Name": "Schimmel, Wisoky and Weber",
+    "TargetTable": "laudantium",
+    "Registered": "2019-12-06T10:30:24.7173369+01:00",
+    "ProviderName": "Jacobi, Goodwin and Roob"
   }
 ]
 ```

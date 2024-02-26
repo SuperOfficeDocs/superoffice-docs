@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 631,
-  "Name": "Miller, Gleichner and White",
-  "Description": "Adaptive grid-enabled hardware",
-  "DefaultHeight": 507,
-  "DefaultWidth": 386,
+  "DashboardTileDefinitionId": 163,
+  "Name": "Zulauf Inc and Sons",
+  "Description": "Grass-roots uniform firmware",
+  "DefaultHeight": 26,
+  "DefaultWidth": 657,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Wisozk, Dicki and Rolfson",
-  "SelectionId": 514,
+  "EntityName": "Hamill, Paucek and Kub",
+  "SelectionId": 1002,
   "CurrencyMode": "Base",
   "CurrencyCode": "ut",
   "Measure": "Average",
-  "MeasureField": "vel",
-  "SortBy": "adipisci",
-  "LayoutConfig": "est",
-  "SecondarySelectionId": 409,
-  "MeasureByField": "et",
+  "MeasureField": "ex",
+  "SortBy": "similique",
+  "LayoutConfig": "fugiat",
+  "SecondarySelectionId": 796,
+  "MeasureByField": "dicta",
   "Usage": "Dashboard",
-  "ProviderName": "Leuschke-Breitenberg",
+  "ProviderName": "Crooks, Christiansen and Reilly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldLength": 752
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

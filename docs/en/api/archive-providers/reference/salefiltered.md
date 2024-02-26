@@ -1098,7 +1098,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=person/correspondingAssociate/contactDepartment,contact/postAddress/formattedMultiLineAddress,contact/streetAddress/state,saleStakeholder/person/position,saleStakeholder/person/restrictionAddress/wgs84latitude
+GET /api/v1/archive/SaleFiltered?$select=activeErpLinks,person/email/emailLastSent,person/personAssociate/lastName,person/personAssociate/assocTooltip,contact/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

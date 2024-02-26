@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 892,
-  "Restrictions": "nesciunt"
+  "DashboardTileId": 531,
+  "Restrictions": "accusantium"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bartell-Zulauf",
-        "DisplayTooltip": "sequi",
-        "DisplayType": "non",
-        "CanOrderBy": false,
-        "Name": "Stroman Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "dicta",
-        "RestrictionListName": "Koepp, Hane and Moen",
-        "IsVisible": true,
-        "ExtraInfo": "ab",
-        "Width": "debitis",
-        "IconHint": "atque",
-        "HeadingIconHint": "non"
+        "DisplayName": "Schaden, Dibbert and Blick",
+        "DisplayTooltip": "distinctio",
+        "DisplayType": "consectetur",
+        "CanOrderBy": true,
+        "Name": "Kuvalis-Rohan",
+        "CanRestrictBy": true,
+        "RestrictionType": "dolorem",
+        "RestrictionListName": "Beier, Wolf and Littel",
+        "IsVisible": false,
+        "ExtraInfo": "officiis",
+        "Width": "dolore",
+        "IconHint": "qui",
+        "HeadingIconHint": "eos"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bartell-Zulauf",
-        "DisplayTooltip": "sequi",
-        "DisplayType": "non",
-        "CanOrderBy": false,
-        "Name": "Stroman Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "dicta",
-        "RestrictionListName": "Koepp, Hane and Moen",
-        "IsVisible": true,
-        "ExtraInfo": "ab",
-        "Width": "debitis",
-        "IconHint": "atque",
-        "HeadingIconHint": "non"
+        "DisplayName": "Schaden, Dibbert and Blick",
+        "DisplayTooltip": "distinctio",
+        "DisplayType": "consectetur",
+        "CanOrderBy": true,
+        "Name": "Kuvalis-Rohan",
+        "CanRestrictBy": true,
+        "RestrictionType": "dolorem",
+        "RestrictionListName": "Beier, Wolf and Littel",
+        "IsVisible": false,
+        "ExtraInfo": "officiis",
+        "Width": "dolore",
+        "IconHint": "qui",
+        "HeadingIconHint": "eos"
       }
     ],
     "Result": null

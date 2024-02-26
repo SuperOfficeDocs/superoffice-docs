@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 865,
+  "SaleId": 457,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Monahan, Witting and Denesik",
-      "Comment": "provident",
-      "StakeholderRoleId": 910,
-      "CountryId": 622,
-      "PersonId": 811,
-      "EmailDescription": "blair_little@kovacek.co.uk",
-      "EmailId": 484,
-      "EmailAddress": "elenora@willadams.co.uk",
-      "PhoneId": 452,
-      "ContactName": "Ruecker-Christiansen",
-      "ContactId": 789,
-      "SaleId": 536,
-      "Mrmrs": "reprehenderit",
-      "Firstname": "George",
-      "MiddleName": "Romaguera, Boehm and Yost",
-      "Lastname": "Will",
-      "SaleStakeholderId": 95,
-      "Rank": 253,
-      "Phone": "052-136-0022 x412"
+      "StakeholderRoleName": "Mills Inc and Sons",
+      "Comment": "hic",
+      "StakeholderRoleId": 838,
+      "CountryId": 849,
+      "PersonId": 803,
+      "EmailDescription": "hilda@hagenes.name",
+      "EmailId": 205,
+      "EmailAddress": "adell@block.co.uk",
+      "PhoneId": 182,
+      "ContactName": "Botsford-Hickle",
+      "ContactId": 411,
+      "SaleId": 232,
+      "Mrmrs": "tenetur",
+      "Firstname": "Anna",
+      "MiddleName": "Heathcote LLC",
+      "Lastname": "Langworth",
+      "SaleStakeholderId": 956,
+      "Rank": 32,
+      "Phone": "873.221.9872 x58865"
     }
   ]
 }

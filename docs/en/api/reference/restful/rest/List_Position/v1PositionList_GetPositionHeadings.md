@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 473,
-    "Name": "Graham, Lakin and Prohaska",
-    "Tooltip": "sed",
+    "HeadingId": 971,
+    "Name": "Hodkiewicz, Reinger and Wyman",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 7,
-    "UdListDefinitionId": 855,
+    "Rank": 989,
+    "UdListDefinitionId": 558,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

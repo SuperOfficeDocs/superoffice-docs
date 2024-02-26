@@ -121,18 +121,18 @@ DashboardTile  updated.
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "iste",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iste",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -145,64 +145,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 901,
-  "Caption": "ipsa",
-  "Description": "Multi-tiered intangible analyzer",
-  "ChartName": "Lebsack, Walker and Kerluke",
-  "ChartId": "saepe",
-  "IsDefault": true,
-  "AssociateId": 394,
-  "GroupId": 913,
-  "SelectionId": 476,
-  "Config": "quae",
+  "DashboardTileId": 578,
+  "Caption": "eos",
+  "Description": "Decentralized actuating core",
+  "ChartName": "Mueller Inc and Sons",
+  "ChartId": "suscipit",
+  "IsDefault": false,
+  "AssociateId": 490,
+  "GroupId": 626,
+  "SelectionId": 501,
+  "Config": "molestias",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Pfannerstill LLC",
-      "Description": "Distributed secondary parallelism",
+      "Name": "Stanton, McClure and Barrows",
+      "Description": "Integrated 24/7 moderator",
       "Type": "Boolean",
-      "ListName": "Kshlerin, Mills and Gusikowski",
+      "ListName": "Kuvalis-Trantow",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eius",
-      "DefaultDataOption": true,
+      "Value": "quis",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldLength": 17
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 95,
+      "VisibleId": 767,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldLength": 923
         }
       }
     },
     {
-      "VisibleId": 95,
+      "VisibleId": 767,
       "Visibility": "All",
-      "DisplayValue": "iusto",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldLength": 923
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldType": "System.Int32",
+      "FieldLength": 873
     }
   },
   "_Links": {

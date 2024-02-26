@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 721,
-  "ERPPriceListKey": "quas",
-  "QuoteConnectionId": 263,
-  "Name": "Towne Inc and Sons",
-  "Description": "Assimilated radical hub",
-  "Currency": "repellat",
-  "CurrencyName": "McLaughlin-Gibson",
-  "ValidFrom": "1999-10-19T16:55:30.7761776+02:00",
-  "ValidTo": "2010-10-03T16:55:30.7761776+02:00",
-  "IsActive": false
+  "PriceListId": 174,
+  "ERPPriceListKey": "fuga",
+  "QuoteConnectionId": 376,
+  "Name": "Stamm Inc and Sons",
+  "Description": "Virtual eco-centric monitoring",
+  "Currency": "exercitationem",
+  "CurrencyName": "Dicki Inc and Sons",
+  "ValidFrom": "2014-05-14T10:30:33.0680874+02:00",
+  "ValidTo": "2014-08-09T10:30:33.0680874+02:00",
+  "IsActive": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 620,
-  "ERPPriceListKey": "eos",
-  "QuoteConnectionId": 107,
-  "Name": "Schoen Inc and Sons",
-  "Description": "Persevering impactful standardization",
-  "Currency": "animi",
-  "CurrencyName": "Paucek-Casper",
-  "ValidFrom": "1998-11-01T16:55:30.7761776+01:00",
-  "ValidTo": "2021-12-05T16:55:30.7761776+01:00",
+  "PriceListId": 897,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 623,
+  "Name": "Crona-Hagenes",
+  "Description": "Automated demand-driven open architecture",
+  "Currency": "nostrum",
+  "CurrencyName": "Hayes-Leuschke",
+  "ValidFrom": "2022-03-02T10:30:33.0680874+01:00",
+  "ValidTo": "2000-02-10T10:30:33.0680874+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldLength": 653
     }
   },
   "_Links": {

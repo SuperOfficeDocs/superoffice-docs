@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2000-02-18T16:54:54.9371716+01:00",
+  "ActivityStartTime": "2015-04-10T10:30:23.2886916+02:00",
   "ContactCategories": [
-    196,
-    400
+    690,
+    648
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 514,
+    "ContactId": 476,
     "Department": "",
-    "OrgNr": "868686",
-    "Name": "Moen Inc and Sons",
+    "OrgNr": "701033",
+    "Name": "Boyer Group",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Jace Olson",
+    "AssociateFullName": "Mrs. Lester Murazik",
     "Action": "ActivityCompleted",
-    "ActionTime": "2006-05-27T16:54:54.9381707+02:00",
+    "ActionTime": "2010-11-08T10:30:23.3043168+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Halvorson-Hauck",
-    "ActionId": 224,
-    "PersonId": 701,
-    "ActivityPersonId": 59,
-    "AssociateId": 641,
+    "ActivityPersonName": "Medhurst, Ullrich and Jones",
+    "ActionId": 719,
+    "PersonId": 636,
+    "ActivityPersonId": 605,
+    "AssociateId": 137,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 414
+        "FieldType": "System.Int32",
+        "FieldLength": 697
       }
     }
   }

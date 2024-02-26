@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 15 Jun 2012 16:55:29 G6T
+Last-Modified: Mon, 23 Nov 1998 10:30:32 G11T
 
 [
   {
-    "ForeignDeviceId": 969,
-    "Name": "Schamberger-Kemmer",
-    "CreatedDate": "2018-10-08T16:55:29.6485264+02:00",
-    "UpdatedDate": "2012-06-15T16:55:29.6485264+02:00",
-    "AssociateFullName": "Miss Elliott Collins",
-    "CreatedBy": "officiis",
-    "UpdatedBy": "expedita",
-    "DeviceIdentifier": "aut",
-    "ForeignAppId": 720,
+    "ForeignDeviceId": 213,
+    "Name": "Homenick LLC",
+    "CreatedDate": "2009-09-30T10:30:32.0730519+02:00",
+    "UpdatedDate": "1998-11-23T10:30:32.0730519+01:00",
+    "AssociateFullName": "Emory Crona II",
+    "CreatedBy": "hic",
+    "UpdatedBy": "commodi",
+    "DeviceIdentifier": "quo",
+    "ForeignAppId": 609,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldLength": 947
       }
     }
   }

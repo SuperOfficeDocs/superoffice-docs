@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Mueller Inc and Sons",
+  "LayoutName": "Rippin, Luettgen and Buckridge",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 673,
-  "Name": "Shanahan Inc and Sons",
-  "Value": "rerum",
-  "CreatedDate": "2001-09-20T16:54:54.5893036+02:00",
-  "UpdatedDate": "2016-11-12T16:54:54.5893036+01:00",
-  "CreatedBy": "ut",
-  "UpdatedBy": "ut",
+  "AudienceLayoutId": 861,
+  "Name": "Thiel, Schmidt and Wolff",
+  "Value": "nobis",
+  "CreatedDate": "2008-02-13T10:30:23.0826686+01:00",
+  "UpdatedDate": "2017-05-13T10:30:23.0826686+02:00",
+  "CreatedBy": "alias",
+  "UpdatedBy": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 241
     }
   }
 }

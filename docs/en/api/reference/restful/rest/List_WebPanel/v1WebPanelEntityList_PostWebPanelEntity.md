@@ -107,30 +107,30 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 414,
-  "Name": "McDermott, Armstrong and Swaniawski",
-  "Tooltip": "aut",
+  "WebPanelId": 895,
+  "Name": "Kihn Inc and Sons",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "Rank": 433,
+  "Rank": 882,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Mohr, Veum and Douglas",
+  "WindowName": "Weissnat, Stroman and Grimes",
   "Url": "http://www.example.com/",
-  "ProgId": "iure",
-  "Icon": 884,
+  "ProgId": "temporibus",
+  "Icon": 175,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 328,
-  "Name": "Cruickshank-Cremin",
-  "Tooltip": "accusamus",
+  "WebPanelId": 287,
+  "Name": "Rau, Cartwright and Hamill",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 176,
+  "Rank": 214,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Mertz-Nader",
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Smitham, Kris and Ullrich",
   "Url": "http://www.example.com/",
-  "ProgId": "ab",
-  "Icon": 188,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "atque",
+  "Icon": 969,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

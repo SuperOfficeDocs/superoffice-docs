@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Bins LLC",
-      "EntityOrParentId": 762,
+      "EntityName": "Bruen LLC",
+      "EntityOrParentId": 460,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Bins LLC",
-      "EntityOrParentId": 762,
+      "EntityName": "Bruen LLC",
+      "EntityOrParentId": 460,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 199,
-    "Id": 579,
-    "HistoryName": "Connelly-Gerhold",
-    "HistoryId": 287,
-    "AssociateId": 726,
-    "Name": "Parker-Kiehn",
-    "ItemInfo": "at",
+    "Rank": 516,
+    "Id": 511,
+    "HistoryName": "Auer, Jast and Block",
+    "HistoryId": 344,
+    "AssociateId": 499,
+    "Name": "Langosh Group",
+    "ItemInfo": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldLength": 186
       }
     }
   }

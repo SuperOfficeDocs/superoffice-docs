@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Doyle-White",
-  "DeviceName": "Kunze, Lemke and Schoen"
+  "ApplicationName": "Bradtke, Barrows and Pollich",
+  "DeviceName": "Connelly, Effertz and Hermiston"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sunt",
-    "Value": "officiis",
-    "RecordId": 320,
-    "CreatedDate": "2019-11-03T16:54:55.4914647+01:00",
-    "UpdatedDate": "2001-06-18T16:54:55.4914647+02:00",
-    "UpdatedBy": "rem",
-    "CreatedBy": "delectus",
-    "TableName": "Abbott Inc and Sons",
+    "Key": "quis",
+    "Value": "aperiam",
+    "RecordId": 869,
+    "CreatedDate": "2023-11-07T10:30:23.9230375+01:00",
+    "UpdatedDate": "2008-01-11T10:30:23.9230375+01:00",
+    "UpdatedBy": "voluptatem",
+    "CreatedBy": "placeat",
+    "TableName": "Brakus Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldType": "System.Int32",
+        "FieldLength": 130
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 532,
-    "Tooltip": "provident",
+    "Total": 434,
+    "Tooltip": "distinctio",
     "CanAssign": false,
-    "Free": 342,
-    "InUse": 550,
+    "Free": 726,
+    "InUse": 943,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 840,
-    "Name": "Rau, Ziemann and Bednar",
-    "Description": "Cross-group responsive frame",
-    "PrerequisiteModuleName": "Mertz, Adams and Gorczany",
-    "SortOrder": 818,
-    "ExtraFlags": 805,
+    "ModuleLicenseId": 668,
+    "Name": "Kautzer Inc and Sons",
+    "Description": "Profound mission-critical initiative",
+    "PrerequisiteModuleName": "Bergstrom-Ritchie",
+    "SortOrder": 641,
+    "ExtraFlags": 507,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldType": "System.Int32",
+        "FieldLength": 954
       }
     }
   }

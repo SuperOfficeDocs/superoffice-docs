@@ -85,28 +85,28 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 499,
-  "Name": "Hickle-Rippin",
-  "Rank": 396,
-  "Tooltip": "sed",
-  "Icon": "quas",
-  "DefaultTicketStatus": 722,
+  "TicketTypeId": 751,
+  "Name": "Flatley, Dickinson and Rodriguez",
+  "Rank": 497,
+  "Tooltip": "voluptas",
+  "Icon": "dolor",
+  "DefaultTicketStatus": 587,
   "TicketStatuses": [
-    680,
-    959
+    283,
+    504
   ],
-  "DefaultTicketPriority": 545,
+  "DefaultTicketPriority": 243,
   "TicketPriorities": [
-    5,
-    678
+    747,
+    775
   ],
-  "ReplyTemplate": 625,
-  "IsExternalVisible": true,
-  "IsDefault": false
+  "ReplyTemplate": 810,
+  "IsExternalVisible": false,
+  "IsDefault": true
 }
 ```
 
@@ -117,30 +117,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 46,
-  "Name": "Bradtke, McLaughlin and Mraz",
-  "Rank": 322,
-  "Tooltip": "cum",
-  "Icon": "culpa",
-  "DefaultTicketStatus": 604,
+  "TicketTypeId": 692,
+  "Name": "Schowalter, Treutel and Dietrich",
+  "Rank": 585,
+  "Tooltip": "fugiat",
+  "Icon": "aspernatur",
+  "DefaultTicketStatus": 8,
   "TicketStatuses": [
-    510,
-    288
+    737,
+    328
   ],
-  "DefaultTicketPriority": 777,
+  "DefaultTicketPriority": 5,
   "TicketPriorities": [
-    91,
-    974
+    479,
+    489
   ],
-  "ReplyTemplate": 648,
+  "ReplyTemplate": 272,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 390
     }
   }
 }

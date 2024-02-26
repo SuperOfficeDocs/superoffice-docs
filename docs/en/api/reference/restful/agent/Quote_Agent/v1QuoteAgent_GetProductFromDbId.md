@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 418
+  "ProductId": 757
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 49,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "molestias",
-  "Name": "Dicki Group",
-  "Description": "Public-key asynchronous hardware",
-  "Code": "ex",
-  "PriceUnit": "eum",
-  "QuantityUnit": "ab",
+  "ProductId": 648,
+  "ERPProductKey": "aut",
+  "ERPPriceListKey": "aut",
+  "Name": "Douglas, Walker and Emard",
+  "Description": "Multi-layered client-server website",
+  "Code": "cumque",
+  "PriceUnit": "soluta",
+  "QuantityUnit": "unde",
   "IsSubscription": false,
-  "SubscriptionUnit": "aperiam",
-  "DefaultSubscriptionQuantity": 28491.194,
-  "ItemNumber": "1098320",
+  "SubscriptionUnit": "mollitia",
+  "DefaultSubscriptionQuantity": 9232.764,
+  "ItemNumber": "1670325",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eaque",
-  "ProductTypeKey": "earum",
-  "VAT": 31217.773999999998,
-  "VATInfo": "autem",
-  "UnitCost": 17462.648,
-  "UnitMinimumPrice": 1284.94,
-  "UnitListPrice": 18547.012,
-  "InAssortment": true,
-  "Supplier": "suscipit",
-  "SupplierCode": "explicabo",
-  "Rights": "quia",
-  "Rule": "voluptatem",
+  "ProductFamilyKey": "soluta",
+  "ProductTypeKey": "at",
+  "VAT": 20471.288,
+  "VATInfo": "debitis",
+  "UnitCost": 9633.916,
+  "UnitMinimumPrice": 6807.048,
+  "UnitListPrice": 30587.84,
+  "InAssortment": false,
+  "Supplier": "sed",
+  "SupplierCode": "eos",
+  "Rights": "provident",
+  "Rule": "similique",
   "ExtraInfo": [
     {
-      "Name": "Heathcote, Rosenbaum and Oberbrunner",
-      "Value": "non",
+      "Name": "Yost LLC",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 402
+          "FieldType": "System.String",
+          "FieldLength": 405
         }
       }
     },
     {
-      "Name": "Heathcote, Rosenbaum and Oberbrunner",
-      "Value": "non",
+      "Name": "Yost LLC",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 402
+          "FieldType": "System.String",
+          "FieldLength": 405
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
-  "ExtraField1": "ea",
-  "ExtraField2": "blanditiis",
-  "ExtraField3": "atque",
-  "ExtraField4": "at",
-  "ExtraField5": "ullam",
-  "InStock": 26237.847999999998,
+  "RawExtraInfo": "voluptates",
+  "ExtraField1": "nostrum",
+  "ExtraField2": "quo",
+  "ExtraField3": "veritatis",
+  "ExtraField4": "ut",
+  "ExtraField5": "impedit",
+  "InStock": 26219.043999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 782
+      "FieldLength": 120
     }
   }
 }

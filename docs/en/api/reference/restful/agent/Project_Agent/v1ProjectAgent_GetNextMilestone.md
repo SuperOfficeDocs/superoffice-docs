@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 782
+  "ProjectId": 301
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 820,
-  "StartDate": "2021-06-25T16:54:56.0486313+02:00",
-  "EndDate": "2011-03-20T16:54:56.0486313+01:00",
+  "AppointmentId": 890,
+  "StartDate": "2020-11-20T10:30:24.3549569+01:00",
+  "EndDate": "2024-01-08T10:30:24.3549569+01:00",
   "Type": "BookingForChecklist",
-  "Task": "minus",
-  "AssociateFullName": "Dr. Giovani Brekke Jr.",
-  "ContactName": "Koss-Toy",
-  "Description": "Distributed responsive protocol",
-  "PersonFullName": "Estel Greenfelder",
-  "PersonId": 317,
-  "ContactId": 491,
-  "ProjectId": 965,
-  "ProjectName": "Powlowski Group",
-  "IsPublished": true,
-  "AssociateId": 253,
-  "ColorIndex": 935,
+  "Task": "corrupti",
+  "AssociateFullName": "Kim Gleichner",
+  "ContactName": "Blick-Kunde",
+  "Description": "Self-enabling radical process improvement",
+  "PersonFullName": "Norberto Kulas",
+  "PersonId": 870,
+  "ContactId": 59,
+  "ProjectId": 418,
+  "ProjectName": "Gutkowski-Hilll",
+  "IsPublished": false,
+  "AssociateId": 751,
+  "ColorIndex": 387,
   "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "HasAlarm": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 896,
-  "PriorityName": "Doyle, Simonis and Jacobi",
+  "PriorityId": 672,
+  "PriorityName": "Block-Tremblay",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsBookingMain": true,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2013-10-14T16:54:56.0486313+02:00",
+  "ActiveDate": "2007-11-17T10:30:24.3549569+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-01-14T16:54:56.0486313+01:00",
-  "RecurringEndDate": "2022-02-06T16:54:56.0486313+01:00",
-  "MotherId": 171,
-  "AssignedBy": 902,
-  "AssignedByFullName": "Hulda Schamberger",
+  "RecurringStartDate": "2000-11-18T10:30:24.3549569+01:00",
+  "RecurringEndDate": "2009-12-15T10:30:24.3549569+01:00",
+  "MotherId": 116,
+  "AssignedBy": 53,
+  "AssignedByFullName": "Ms. Leta Armand Hartmann",
   "RejectReason": "",
-  "Location": "enim",
-  "AlarmLeadTime": "beatae",
-  "SaleId": 638,
-  "SaleName": "Parisian Group",
-  "AssociateName": "Dickens, Haley and Wintheiser",
-  "CreatedDate": "2005-09-15T16:54:56.0496315+02:00",
-  "CreatedBy": "id",
-  "CreatedByFullName": "Dr. Era Daugherty",
-  "CreatedByAssociateId": 858,
+  "Location": "iure",
+  "AlarmLeadTime": "et",
+  "SaleId": 172,
+  "SaleName": "Towne LLC",
+  "AssociateName": "Bruen-Gleichner",
+  "CreatedDate": "2012-05-29T10:30:24.3549569+02:00",
+  "CreatedBy": "sint",
+  "CreatedByFullName": "Mr. Ari William Kreiger",
+  "CreatedByAssociateId": 940,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 890,
-  "Title": "natus",
-  "Agenda": "perspiciatis",
-  "InternalNotes": "reiciendis",
+  "PreferredTZLocation": 814,
+  "Title": "corrupti",
+  "Agenda": "est",
+  "InternalNotes": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 935
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }
