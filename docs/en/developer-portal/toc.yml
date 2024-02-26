@@ -50,12 +50,16 @@ items:
       href: partner/update-profile.md
     - name: Update partner settings
       href: partner/update-partner-settings.md
+    - name: Update technical contacts
+      href: partner/manage-technical-contacts.md
     - name: Partner settings (reference)
       href: partner/partner-settings.md
     - name: Add user
       href: partner/add-user.md
     - name: Update user
       href: partner/edit-user.md
+    - name: Remove user
+      href: partner/remove-user.md
     - name: User settings (reference)
       href: partner/user-settings.md
     - name: Manage permissions

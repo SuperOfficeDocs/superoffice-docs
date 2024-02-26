@@ -129,6 +129,8 @@ landingContent:
             url: "partner/update-partner-settings.md"
           - text: Change technical contact
             url: "faq/update-contact-person.md"
+          - text: Manage technical contacts
+            url: "partner/manage-technical-contacts.md"
           - text: Add a user
             url: "partner/add-user.md"
           - text: Manage permissions within the organization
