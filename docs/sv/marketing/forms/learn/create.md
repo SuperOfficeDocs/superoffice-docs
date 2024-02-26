@@ -205,7 +205,7 @@ Här kan du ange hur ett inlämnat formulär ska bearbetas. Fyll i följande fä
 * [Publicera formulär][2]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
+[1]: ../../tracked-links/learn/ga-tutorial.md
 [2]: publish.md
 [4]: field-options.md
 [5]: submissions/index.md

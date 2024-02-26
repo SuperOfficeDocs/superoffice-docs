@@ -48,8 +48,8 @@ Baserad på feedback från mottagarna uppdateras prenumerationsinställningarna 
 > Du kan dock åsidosätta inställningarna "inget samtycke/ingen prenumeration" från **Alternativ** i den nedre delen av fönstret **Mottagare** (se Steg 4: Mottagare).
 
 <!-- Referenced links -->
-[2]: ../../tracked-links/learn/examples.md
-[1]: manage-email-subscriptions.md
+[2]: ../../tracked-links/learn/index.md#ex
+[1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/icons/marketing-and-forms/link.png

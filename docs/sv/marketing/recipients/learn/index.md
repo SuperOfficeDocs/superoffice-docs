@@ -61,7 +61,7 @@ Att tänka på när du vill segmentera databasen:
 
 ![Kontrollera vad en kontaktperson är intresserad av på fliken Intresse på kontaktkortet -screenshot][img1]
 
-## Urval som mållistor
+## <a id ="selections" />Urval som mållistor
 
 Använd urval för att skapa dina mållistor och se till att du har rätt målgrupp som tar emot dina utskick.
 

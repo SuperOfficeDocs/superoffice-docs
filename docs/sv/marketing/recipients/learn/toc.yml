@@ -3,8 +3,6 @@ items:
     href: index.md
   - name: Hantera prenumerationer
     href: manage-email-subscriptions.md
-  - name: Lägga till länk för avregistrering (GDPR)
-    href: add-unsubscribe-link.md
   - name: Mottagarlista
     href: look-at-recipient-list.md
   - name: Hantera returer

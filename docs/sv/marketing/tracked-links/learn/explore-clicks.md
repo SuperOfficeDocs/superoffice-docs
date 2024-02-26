@@ -2,54 +2,58 @@
 uid: help-sv-tracked-links-view
 title: Jobba med spårade länkar efter utskicket
 description: Jobba med spårade länkar efter utskicket
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marknadsföring
-so.topic: help
+keywords: Marknadsföring, spårade länkar, utskikt, e-postmeddeland
+author: Bergfrid Dias
+so.date: 02.26.2024
+so.version: 10
+so.topic: howto
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Jobba med spårade länkar efter utskicket
 
-Du kan inkludera länkar (URL-adresser) i ett e-postmeddelande eller formulärsvar och spåra dem. Med hjälp av dessa kan du se hur många mottagare som har klickat på dem.
+Införliva länkar (URL: er) i dina e-postmeddeland eller formulärsvar förbättrar inte bara interaktiviteten utan ger också värdefull insikt. Genom att spåra dessa länkar får du synlighet i mottagarens engagemang, kvantifierat av antalet klick. Dessa data kan vara avgörande för att finslipa din kommunikationsstrategi och optimera framtida interaktioner.
 
-## Var kan jag hitta länkarna?
+Låt oss fördjupa oss i hur du kan arbeta med dessa spårade länkar efter att utskicket har skickats.
 
-* Om du vill se länkarna för ett enskilt utskick kan du öppna det relevanta utskicket, klicka på fliken **Spårade länkar** och sedan klicka på den länk som du vill arbeta med.
+## Steg
 
-    > [!NOTE]
-    > Fliken **Spårade länkar** finns inte tillgänglig för dokumentutskick.
+1. Lokalisera länkarna:
 
-* Om du vill se länkarna för alla utskick kan du klicka på fliken **Spårade länkar** på huvudskärmen i SuperOffice Marknadsföring. Om du inte hittar den länk som du vill arbeta med, klicka på **Alla länkar**. Klicka på den länk som du vill arbeta med.
+    * **Enskilt utskick**: Öppna utskicket, välj fliken **Sparade länkar**.
 
-    > [!NOTE]
-    > Endast [registrerade länkar][2] visas här. Om du lägger till "normala" länkar i utskicket måste du välja alternativet **Spåra alla länkar** i Steg 1: Konfiguration.
+        Den här fliken är inte tillgänglig för dokumentutskick.
 
-## Utforska klick
+    * **Alla utskick**: Från huvudskärmen i SuperOffice Marketing, välj fliken **Sparade länkar**. Om du inte hittar din länk, klicka på **Alla länkar**.
 
-1. Välj fliken **Spårade länkar** i det aktiva utskicket.
+        Endast [registrerade länkar][2] visas här. För att spåra alla länkar i ett utskick, aktivera alternativet **Spåra alla länkar** i Steg 1: Konfiguration.
 
-2. Klicka på den relevanta länken i länklistan. Skärmen **Visa länk** kommer då upp.
+2. Välj din länk från listan.
+
+3. Utforska klick:
 
     Här kan du se antalet klick för länken samt alla [åtgärder som specificerats för länken][4]. I listan **Klickare** kan du se vem som klickat på länken och i vilket utskick de klickade på den.
 
-3. Klicka på **OK** när du vill stänga skärmen **Visa länk**.
+4. Nästa steg: Bestäm vad du vill göra härnäst.
 
-## Lägga till klickare i ett nytt urval eller projekt
+    * [Lägga till klickare i ett urval eller projekt][3].
+    * [Redigera länken][2] (klicka på knappen **Redigera**).
+    * [Jobba med mottagarlistan][1].
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+5. Klicka på **OK** när du vill stänga skärmen **Visa länk**.
 
-## Lägga till klickare i ett befintligt urval eller projekt
+## Så här kontrollerar du resultatet av ditt utskick i Google Analytics
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+Du kan kontrollera resultatet av dina utskick genom att logga in på ditt Google Analytics-konto. Dina utskick ska vara synliga i Google Channel-rapporterna under E-post.
 
-## Vad vill du göra nu?
-
-* [Redigera länken][2] (Klicka på knappen **Redigera**.)
-* [Jobba med mottagarlistan][1]
+> [!NOTE]
+> Ge Google Analytics lite tid att behandla din spårningsinformation. Det kan ta någonstans mellan 1–24 timmar innan din e-postkälla registreras i dina rapporter.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/look-at-recipient-list.md
+[3]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [2]: create-links.md
 [4]: define-link-actions.md
 

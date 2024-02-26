@@ -3,8 +3,8 @@ uid: help-sv-mailing
 title: Arbeta med utskick
 description: Arbeta med utskick
 keywords: Marknadsföring
-author: SuperOffice RnD
-so.date: 02.12.2024
+author: SuperOffice RnD, Jeanette Small Strøm
+so.date: 02.26.2024
 so.version: 10
 so.topic: concept
 language: sv
@@ -64,6 +64,14 @@ Du kan koppla utskicket till ett urval och/eller ett projekt för att hålla red
 
 Exempel: Om du skickar ut flera utskick för att göra reklam för ett visst evenemang kan du lägga till dessa utskick i ett urval kallat "Evenemang 2015" för att på så sätt få en komplett lista över alla utskick för evenemanget. Och om du skapar ett projekt för evenemanget kan du på liknande sätt ha en lista över alla projektrelaterade utskick på detaljkortet **Aktiviteter**.
 
+## Betydelsen av e-postleverans
+
+E-postmarknadsföring är en kostnadseffektiv marknadsföringsstrategi som kan resultera i [hög avkastning på investeringen][20]. Men för att få ut mesta möjliga av detta marknadsföringsverktyg måste dina e-postmeddelanden nå fram till målgruppens inkorgar, inte deras skräppostmapp.
+
+Föreställ dig detta scenario: du har noggrant skapat en e-postkampanj med förstklassigt innehåll och design, tryckt på skicka-knappen och får lite till ingen respons. Din öppningsfrekvens är nedslående, och det finns många studsar eller, ännu värre, du blir märkt som skräppost.
+
+**E-postleverans** är viktig eftersom det avgör om dina e-postmeddelanden faktiskt når abonnenternas inkorgar eller inte. Om de inte levereras kommer de inte att ses eller läsas av din målgrupp, vilket innebär förlorade möjligheter och lägre framgång för dina e-postmarknadsföringskampanjer. Kolla in våra [bästa praxis][9].
+
 ## <a id="after" />Hur gör jag för att följa upp utskick?
 
 När ditt utskick är skickat är det alltid spännande att se hur bra det har presterat. För att se om allt ditt hårda arbete har lönat sig. Det är också ett utmärkt tillfälle att kontrollera och förbättra kvaliteten på den information som registreras i din CRM-databas.
@@ -79,7 +87,8 @@ När ditt utskick är skickat är det alltid spännande att se hur bra det har p
 [3]: create/send-test-email.md
 [2]: view-statistics.md
 [4]: ../../forms/learn/create.md
-[6]: ../../recipients/learn/add-unsubscribe-link.md
+[6]: ../../editor/learn/add-unsubscribe-link.md
+[9]: ../../learn/best-practices.md
 [8]: ../../recipients/learn/index.md
 [11]: ../../recipients/learn/look-at-recipient-list.md
 [12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
@@ -87,5 +96,6 @@ När ditt utskick är skickat är det alltid spännande att se hur bra det har p
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md
 [5]: https://www.superoffice.co.uk/resources/articles/integrated-web-forms/
+[20]: https://www.superoffice.com/blog/email-marketing-strategy/
 
 <!-- Referenced images -->

@@ -49,7 +49,7 @@ I sidopanelen kan du dra och släppa element från avsnittet **Innehåll** till 
 
 ## Flytta, kopiera och ta bort innehåll
 
-Du kan markera ett avsnitt och använda knapparna för att flytta ( ![ikon][img6] ), duplicera ( ![ikon][img8] ) eller ta bort det ( ![ikon][img7] ).
+Du kan markera ett avsnitt och använda knapparna för att flytta ![ikon][img6], duplicera ![ikon][img8] eller ta bort det ![ikon][img7].
 
 ## Redigera format och layout
 
@@ -142,12 +142,12 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 
 <!-- Referenced links -->
 [3]: ../../learn/best-practices.md#mobile
+[9]: ../../learn/message-templates.md
 [1]: add-content.md
 [5]: edit-paragraph.md
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
-[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
-[9]: ../../learn/message-templates.md
+[8]: add-tracked-link-to-msg.md
 [2]: https://help.superoffice.com/Documentation/Help/SE/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->

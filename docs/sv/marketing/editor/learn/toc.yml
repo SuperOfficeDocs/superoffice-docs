@@ -11,3 +11,7 @@ items:
   href: add-merge-tag.md
 - name: Lägga till länk för att visa meddelande i webbläsaren
   href: add-link-to-display-message-in-browser.md
+- name: Lägga till länk för avregistrering (GDPR)
+  href: add-unsubscribe-link.md
+- name: Lägga till spårad länk i meddelande
+  href: add-tracked-link-to-msg.md

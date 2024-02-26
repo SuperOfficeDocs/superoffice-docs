@@ -55,13 +55,13 @@ När du har lagt till en bild kan du lägga till egenskaper, till exempel en vis
 ## Använda en bild i online-bildbibliotek (royaltyfritt)
 
 > [!NOTE]
-> Om avsnittet **Bilder** (![ikon][img2]) inte visas kan denna inställning ha inaktiverats på grund av organisatoriska integritetsregler.
+> Om avsnittet **Bilder** ![ikon][img2] inte visas kan denna inställning ha inaktiverats på grund av organisatoriska integritetsregler.
 
 Välj bland miljontals bilder från det royaltyfria online-bildbiblioteket.
 
 1. Gå till skärmen **Innehåll** i utskicket eller öppna en mall för redigering.
 
-2. Välj **Bilder** (![ikon][img2]).
+2. Välj **Bilder** ![ikon][img2].
 
 3. Ange söktermer i sökfältet och tryck på **RETUR**. Bilder som matchar din fråga visas.
 
@@ -98,7 +98,7 @@ Bilden du vill använda för ditt utskick kanske inte alltid har rätt storlek. 
 
 <!-- Referenced links -->
 [1]: ../../learn/add-images.md
-[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
+[2]: add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png

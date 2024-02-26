@@ -39,14 +39,9 @@ Om administratören har aktiverat den [globala inställningen][2] **Använd enda
 Om du försöker skicka från en domän som inte har en giltig SPF-post visas en varning och du kan inte skicka från den domänen. Detta gäller för alla e-postdomäner även om valideringsinställningen inte är aktiverad.
 
 > [!NOTE]
-> Om **Vår kontaktadress** har en e-postdomän som inte har validerats skickas utskicket automatiskt från den adress som anges i listrutan **Använd annars** .
-
-## Relaterade ämnen
-
-* [Maximera din framgång för e-postmarknadsföring med dessa tips för att öka chanserna att meddelandet kommer fram][1] – blogg
+> Om **Vår kontaktadress** har en e-postdomän som inte har validerats skickas utskicket automatiskt från den adress som anges i listrutan **Använd annars**.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/email-deliverability-tips/
 [2]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
 [4]: ../../../../learn/create-folder.md
 

@@ -2,136 +2,113 @@
 uid: help-sv-define-link-actions
 title: Definiera länkningsåtgärder
 description: I den här guiden lär du dig hur du använder länkar i utskick för att automatisera åtgärder.
-author: SuperOffice RnD
-so.date: 02.20.2023
-keywords: Marknadsföring
+keywords: Marknadsföring, utskikt, länkåtgärd, automatisera
+author: Bergfrid Dias
+so.date: 02.26.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Använd länkar för att automatisera olika åtgärder
 
-Du kan snabba upp ditt arbete genom att behandla svaren du får från ett utskick med automatiska länkåtgärder.
+Uppdatering av 500 kontaktkort manuellt är tidskrävande och onödigt. Automatiserade länkåtgärder kan effektivisera denna process.
 
-Tänk dig att ditt utskick blir en stor framgång. Över 500 personer öppnade ditt meddelande och klickade på länkarna du inkluderade. Den uppgift som väntar är att behandla alla dessa svar från dina mottagare. Tänk dig hur lång tid det skulle ta om du var tvungen att göra det manuellt.
+Så här fungerar automatiserade länkåtgärder:
 
-I SuperOffice Marknadsföring kan du lägga till åtgärder för dina länkar. Dessa åtgärder utförs när mottagaren klickar på en länk.
+* En mottagares klick på en CTA-länk kan automatiskt lägga till dem i ett urval eller ett projekt i SuperOffice CRM.
+* SuperOffice CRM kan automatiskt uppdatera relevant information, som intressen, på kontaktkortet.
 
-![Definiera dina länkningsåtgärder -screenshot][img3]
+Automatisering sparar tid som annars skulle spenderas på att hantera svar. När en läsare klickar på en länk i din utskick, utför systemet länkåtgärder åt dig!
+
+Du kan dra nytta av den insamlade informationen på flera sätt:
+
+* Generera ett urval baserat på vem som klickade på en specifik länk och skicka ett riktat svar till denna grupp med ett anpassat meddelande.
+* Planera uppföljningsaktiviteter för dina teammedlemmar att personligen engagera sig med respondenter.
+* Skapa serviceärenden till ditt kundtjänstteam för att plocka upp och undersöka.
+
+![Definiera dina länkåtgärder -screenshot][img3]
+
+## Tillgängliga åtgärder
+
+Baserat på din utskicks mål och CTAkan du uppdatera din databas. Denna information kan förbättra segmenteringen eller hjälpa till att följa upp med intresserade individer.
 
 | Flik | Åtgärd |
 |---|---|
-| Svar | Lägg till landningssida eller återkopplingstext. |
-| Konfigurera fält | Lägg till ett värde till ett extrafält för kundkontakter |
-| Intressen | Uppdatera intressen. |
-| Urval/projekt | Lägga till eller ta bort kontakt från urval eller projekt. |
-| Uppföljning | Skapa en uppföljning (uppgift eller möte) i SuperOffice CRM. |
-| Ärende | Skapa ett nytt ärende. |
-| Skript | Köra ett skript. |
+| [Svar](#response) | Lägg till landningssida eller återkopplingstext. |
+| [Konfigurera fält](#set-field) | Lägg till ett värde till ett [extrafält][5] för kundkontakter |
+| [Intressen](#interests) | Uppdatera intressen. |
+| [Urval/projekt](#selection) | Lägga till eller ta bort kontakt från urval eller projekt. |
+| [Uppföljning](#follow-up) | Skapa en uppföljning (uppgift eller möte) i SuperOffice CRM. |
+| [Ärende](#request) | Skapa ett nytt ärende. |
+| [Skript](#script) | Köra ett skript. |
 
-## Svar
+> [!TIP]
+> Du kan välja mer än en åtgärd för en spårad länk.
 
-* **Dirigera om till ny webbplats**: Välj detta alternativ om du vill dirigera om mottagarna till en webbplats när de klickar på länken. Ange webbadressen i fältet **URL till ny sida**.
+## <a id="response" />Svar
 
-* **Visa återkopplingstext**: Välj detta alternativ om du vill att återkopplingstexten ska visas när mottagaren klickar på länken. Ange texten i fältet nedan.
+Välj vad som ska hända när mottagaren klickar på länken.
 
-## Uppdatera din databas
+* **Dirigera om till ny webbplatsa**: Ange URL:en i det angivna fältet.
+* Eller, **Visa återkopplingstext**: Ange texten som ska visas. Klicka på ![ikonen][img4] redigeringsknappen för att visa verktygsfältet för rik text.
 
-Beroende på mål och vilken uppmaning du använder i ditt utskick kan du uppdatera information i din databas. När en person klickar på länken i ditt utskick gör SuperOffice CRM något av följande:
+## <a id="set-field" />Konfigurera fält
 
-* Ger ett anpassat svar eller omdirigerar till webbsidan,
-* Lägger till en kontakt till ett specifikt projekt eller ett urval,
-* Uppdaterar en kontakts intresse,
-* Lägger till information i ett fält i kontaktkortet,
-* Skapar en uppföljningsaktivitet för en kontakt,
-* Skapar ett kundtjänstärende för en kontakt,
-* Köra ett skript.
+På fliken **Konfigurera fält** kan du ange ett värde som ska läggas till i ett extrafält när mottagaren klickar på länken. Detta registrerar ytterligare kundinformation.
 
-En del av denna information hjälper dig att segmentera din databas på ett ännu bättre sätt, medan annan information hjälper dig att följa upp personer som har visat intresse för ditt meddelande.
-
-## Konfigurera fält
-
-På fliken **Konfigurera fält** kan du ange att ett värde ska läggas till i ett extrafält när mottagaren klickar på länken. Detta kan vara användbart om du vill registrera ytterligare information om de kunder som klickar på länken.
-
-Välj ett fält i listrutan **Ange extrafält** och ange ett värde i fältet **Värde**.
+Välj ett fält och ange ett värde.
 
 ## <a id="interests" />Intressen
 
-Här kan du ange att ett länkklick ska lägga till eller ta bort intressen för kontakten. Du kan t.ex. lägga till intresset "Produktnyheter" om mottagaren klickar på länken "Ja tack! Jag vill veta mer om nya produkter". Alternativt kan du ta bort intresset "Produktnyheter" om mottagaren klickar på länken "Avregistrera sig" i ett nyhetsbrev.
+Ange att ett länkklick ska ändra kontaktens intressen. Till exempel, lägg till intresset "Produktnyheter" om länken "Ja tack! Jag vill veta mer om nya produkter" klickas, eller ta bort det om länken "Avsluta prenumeration" klickas.
 
-* I listrutan **Ange intresse** kan du välja ett intresse som ska läggas till för kontakterna om de klickar på länken.
+* **Ange intresse**: välj ett intresse som ska läggas till för kontakterna när de klickar på länken.
+* **Ta bort intresse**: välj ett intresse som ska tas bort för kontakterna när de klickar på länken.
 
-* I listrutan **Ta bort intresse** kan du välja ett intresse som ska tas bort för kontakterna om de klickar på länken.
+[Hur du skapar ett anmälningsformulär för nyhetsbrev][1]
 
-[Hur man skapar ett anmälningsformulär för nyhetsbrev][1]
+## <a id="selection" />Urval/Projekt
 
-## Urval/projekt
+Ange att mottagare som klickar på länken kommer att läggas till eller tas bort från urval eller projekt. Börja skriva ett namn för att starta en snabbsökning.
 
-Här kan du ange att mottagare som klickar på länken ska läggas till i eller tas bort från urval eller projekt. Skriv början av ett namn för att starta snabbsökningen.
+## <a id="follow-up" />Uppföljning (möte/uppgift)
 
-## Uppföljning (uppgift/möte)
+På fliken **Uppföljning** kan du ställa in att ett länkklick ska generera möten eller uppgifter i SuperOffice CRM. Välj uppföljningstyp, ange en beskrivning, länka den till ett projekt, välj uppgiftstyp, tilldela ansvar och ställ in varaktigheten.
 
-På fliken **Uppföljning** kan du ange att ett länkklick ska generera uppgifter eller möter i SuperOffice CRM.
+Aktivera denna funktion genom att välja **Uppföljning**.
 
-1. Markera **Uppföljning** om du vill aktivera denna funktion.
+[Hur du skapar en uppföljning][4]
 
-2. **Uppgift/Bokning**: Välj vilken typ av händelse du vill skapa.
+> [!TIP]
+> Som beskrivning, ange vilken utskick den avser, vilken länk mottagaren klickade på och eventuellt hur uppgiften eller mötet ska följas upp.
+>
+> När du ställer in **Skapad av** eller **Standardmottagare** kan du klicka på knappen **Välj aktiv användare** ![ikonen][img1] för att välja dig själv.
 
-3. **Beskrivning**: Ange en beskrivning av händelsen. T.ex. vilket utskick det gäller, vilken länk mottagaren har klickat på och eventuellt hur händelsen ska följas upp.
+## <a id="request" />Ärende
 
-4. **Projekt**: Här väljer du ett projekt som händelsen ska kopplas till. Skriv början av ett namn för att starta snabbsökningen.
+På fliken **Ärende** kan du ställa in att ett länkklick ska skapa ett ärende. Markera rutan för att registrera ett nytt ärende, ange en titel, välj prioritet och kategori, och välj ägaren. Du kan även välja **Tilldelas automatiskt** eller **Otilldelat**.
 
-5. **Uppgift**: Välj önskad typ händelse.
+[Hur du skapar ett ärende][3]
 
-6. **Skapad av**: Välj vilken användare som ska vara ansvarig för händelsen eller klicka på knappen **Välj aktiv användare** ![ikon][img1] om du vill välja dig själv.
+## <a id="script" />Skript
 
-7. **Tilldela vår kontakt om tillgänglig**: Kryssa i här om händelsen ska tilldelas "vår kontakt" för mottagaren, (den person som är ansvarig för den aktuella kunden).
+På fliken **Skript** kan du välja ett CRMSkript eller makro som ska köras när länken klickas på. Aktivera denna funktion genom att välja **Kör skript**, och välj sedan det önskade skriptet från listan.
 
-8. **Standardmottagare**: Välj en standardmottagare som händelsen ska tilldelas eller klicka på knappen **Välj aktiv användare** ![ikon][img1] om du vill välja dig själv.
+Variabler tillgängliga i skriptet inkluderar custId, linkId, shipmentId, linkUrl, linkHits, och returnUrl.
 
-9. **Varaktighet**: Klicka på knappen **Välj tidsperiod** ![ikon][img2] bredvid detta fält för att ange händelsens varaktighet.
-
-## Ärende
-
-På fliken **Ärende** kan du ange att ett ärende ska skapas i SuperOffice Service för kontakter som klickar på en länk.
-
-1. **Skapa ett nytt ärende**: Kryssa här om du vill registrera ett nytt ärende när kunden klickar på länken.
-2. **Titel**: Ange önskad titel på det nya ärendet.
-3. **Prioritet**: Välj vilken prioritet ärendet ska ha.
-4. **Kategori**: Välj önskad kategori.
-5. **Ägare**: Ange önskad ägare för det nya ärendet. Du kan även välja **Tilldelas automatiskt** eller **Otilldelat**.
-
-## Skript
-
-På fliken **Skript** kan du välja ett skript eller makro som ska köras när mottagaren klickar på länken.
-
-1. Välj **Kör skript** om du vill aktivera denna funktion.
-2. Klicka på listan **Skript** och välj önskat skript i den lista som visas. Följande variabler finns tillgängliga i skriptet: custId, linkId, shipmentId, linkUrl och linkHits. Du kan också använda variabeln returnUrl om du vill åsidosätta den webbadress som anges i länken.
-
-## Exempel
-
-Manuell uppdatering av 500 kontaktkort tar tid och är egentligen onödigt. Vi kan istället automatisera den här processen med hjälp av automatiska länkåtgärder.
-
-Exempel på automatiska länkåtgärder som används:
-
-* När en mottagare klickar på din uppmaningslänk lägger SuperOffice CRM automatiskt till honom eller henne i ett urval eller projekt.
-
-* SuperOffice CRM kan också automatiskt uppdatera relevant information, till exempel intressen, på kontaktkortet.
-
-Genom att automatisera dessa uppgifter sparar du mycket tid som du annars skulle lägga på att hantera svar. När läsaren klickar på en länk i ditt utskick utför systemet länkåtgärderna åt dig!
-
-Du kan använda den information du har samlat in i detta utskick på flera olika sätt:
-
-* Automatiskt generera ett urval baserat på personer som klickade på en viss länk. Därefter skicka ett riktat uppföljningsutskick till just denna grupp med ett skräddarsytt meddelande.
-
-* Lägga till uppföljningsaktiviteter i dina teammedlemmars kalendrar så att de personligen kan följa upp kontakter som har svarat.
-
-* Generera serviceärenden som ditt kundtjänstteam kan plocka upp för att undersöka ärendet.
+[Hur du skapar eller redigerar ett CRMScript][6]
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/examples.md#newsletter-sign-up
+[3]: ../../../request/learn/howto/create.md
+[4]: ../../../diary/learn/create-follow-up.md
+[5]: ../../../custom-objects/learn/extra-field.md
+[6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png
-[img2]: ../../../../../common/icons/pref-diary.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
+[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
