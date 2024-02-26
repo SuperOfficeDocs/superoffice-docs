@@ -65,7 +65,7 @@ The migration wizard has 3 steps. Each step must be completed (passed) before yo
 
 All SuperOffice users with a user plan must log in to CRM Online AFTER configuration and BEFORE migration. Otherwise, the migration-tool cannot create documents in SharePoint on behalf of the user.
 
-To move orphaned documents (those without a SharePoint owner), we need a **Global Administrator** to authorize the SuperOffice Documents library app. This app has already been approved if customers are using Visible for.​
+To move orphaned documents (those without a SharePoint owner), we need a **Global Administrator** to authorize the SuperOffice Documents library app. This app has already been approved if customers are using Visible for.​ To [add the SuperOffice Document Library app in SharePoint][8], a Global Administrator user must sign in once to give the app permission to access the selected site.
 
 ## Limitations
 
@@ -147,6 +147,7 @@ If you have a third-party app that creates documents in SuperOffice, you need to
 [5]: best-practices.md
 [6]: steps.md
 [7]: troubleshooting.md#approve-app
+[8]: ../configure-superoffice.md#step-4
 
 <!-- Referenced images -->
 [img5]: media/sharepoint-wizard.png
