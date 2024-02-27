@@ -2,54 +2,58 @@
 uid: help-de-tracked-links-view
 title: Nach der Kampagne mit überwachten Links arbeiten
 description: Nach der Kampagne mit überwachten Links arbeiten
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+keywords: Marketing, Kampagne, Aussendung, Überwachte Links
+author: Bergfrid Dias
+so.date: 02.27.2024
+so.version: 10
+so.topic: howto
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Nach der Kampagne mit überwachten Links arbeiten
 
-Sie können Links (URLs) in eine E-Mail-Kampagne oder Formularantwort aufnehmen und überwachen. Mit anderen Worten ausgedrückt können Sie feststellen, wie viele Empfänger auf die Links geklickt haben.
+Die Einbindung von Links (URLs) in Ihre E-Mail-Kampagne oder Formularantworten verbessert nicht nur die Interaktivität, sondern ermöglicht auch wertvolle Erkenntnisse. Durch das überwachten dieser Links erhalten Sie Einblick in die Interaktion der Empfänger, quantifiziert durch die Anzahl der Klicks. Diese Daten können entscheidend sein, um Ihre Kommunikationsstrategie zu optimieren und zukünftige Interaktionen zu verbessern.
 
-## Wo sind die Links?
+Schauen wir uns an, wie Sie nach dem Versand mit diesen verfolgten Links arbeiten können.
 
-* Um sich die Links für eine einzelne Kampagne anzeigen zu lassen, öffnen Sie die entsprechende Kampagne, klicken Sie auf die Registerkarte **Überwachte Links** und danach auf den Link, mit dem Sie arbeiten möchten.
+## Schritte
 
-    > [!NOTE]
-    > Die Registerkarte **Überwachte Links** ist nicht für Dokumentenkampagnen verfügbar.
+1. Lokalisieren Sie die Links:
 
-* Um sich die Links für alle Kampagnen anzeigen zu lassen, klicken Sie in der Hauptansicht von SuperOffice Marketing auf die Registerkarte **Überwachte Links**. Wenn Sie den Link, mit dem arbeiten möchten, nicht finden, klicken Sie auf **Alle Links**. Klicken Sie auf den Link, mit dem Sie arbeiten möchten.
+    * **Einzelne Kampagne**: Öffnen Sie die Kampagne und wählen Sie den Tab **Überwachte Links**.
 
-    > [!NOTE]
-    > Hier werden ausschließlich [erfasste Links][2] angezeigt. Wenn Sie "reguläre" Links zur Kampagne hinzugefügt haben, müssen Sie die Option **Alle Links überwachen** im Schritt 1 auswählen: Einstellungen.
+        Dieser Tab ist für Dokumentenkampagnen nicht verfügbar.
 
-## Klicks durchsuchen
+    * **Alle Kampagnen**: Vom Hauptbildschirm von SuperOffice Marketing aus wählen Sie den Tab **Überwachte Links**. Wenn Sie Ihren Link nicht finden können, klicken Sie auf **Alle Links**.
 
-1. Wählen Sie in der aktiven Kampagne die Registerkarte **Überwachte Links**.
+        Nur [erfasste Links][2] erscheinen hier. Um alle Links in einer Kampagne zu verfolgen, aktivieren Sie die Option **Alle Links überwachen** im Schritt 1: Einstellungen.
 
-2. Klicken Sie auf den entsprechenden Link aus der Linkliste. Die Ansicht **Link anzeigen** wird angezeigt.
+2. Wählen Sie Ihren Link aus der Liste.
 
-    Hier können Sie die Anzahl der Klicks für diesen Link und alle [für den Link festgelegte Aktionen][4] anzeigen lassen. In der Liste **Klicker** können Sie sehen, wer den Link in welcher Kampagne angeklickt hat.
+3. Erkunden Sie die Klicks:
 
-3. Klicken Sie auf **OK**, um die Ansicht **Link anzeigen** zu schließen.
+    Hier sehen Sie die Anzahl der Klicks für den Link und alle [für den Link festgelegten Aktionen][4]. In der Liste **Klicker** können Sie sehen, wer auf den Link geklickt hat und in welcher Kampagne sie auf den Link geklickt haben.
 
-## Klicker einer neuen oder vorhandenen Selektion bzw. einem Projekt hinzufügen
+4. Nächste Schritte: Entscheiden Sie, was Sie als Nächstes tun möchten.
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+    * [Klicker einer Selektion bzw. einem Projekt hinzufügen][3].
+    * [Link bearbeiten][2] (Klicken Sie auf die Schaltfläche **bearbeiten**).
+    * [Mit der Empfängerliste arbeiten][1].
 
-## Klicker einer vorhandenen Selektion bzw. einem vorhandenen Projekt hinzufügen
+5. Klicken Sie auf **OK**, um die Ansicht **Link anzeigen** zu schließen.
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+## Wie man Kampagnenergebnisse in Google Analytics überprüft
 
-## Was möchten Sie als Nächstes tun?
+Sie können die Ergebnisse Ihrer Kampagnen überprüfen, indem Sie sich in Ihr Google Analytics-Konto einloggen. Ihre Kampagnen sollten in den Google Channel-Berichten unter E-Mail sichtbar sein.
 
-* [Link bearbeiten][2] (Klicken Sie auf die Schaltfläche **bearbeiten**)
-* [Mit der Empfängerliste arbeiten][1]
+> [!NOTE]
+> Geben Sie Google Analytics etwas Zeit, um Ihre Tracking-Informationen zu verarbeiten. Es kann zwischen 1 und 24 Stunden dauern, bis Ihre Kampagnenquelle in Ihren Berichten erfasst wurde.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/look-at-recipient-list.md
+[3]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [2]: create-links.md
 [4]: define-link-actions.md
 

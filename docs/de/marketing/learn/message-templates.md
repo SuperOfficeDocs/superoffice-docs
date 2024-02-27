@@ -131,7 +131,7 @@ Zusätzlich zu den Vorlagen, die von Ihnen und Ihren Kollegen erstellt wurden, h
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
 [5]: ../editor/learn/index.md#old
-[6]: ../recipients/learn/add-unsubscribe-link.md
+[6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

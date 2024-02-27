@@ -4,7 +4,7 @@ title: Einen Abmeldelink hinzufügen
 description: "Wenn Sie eine Kampagne versenden, müssen Sie den Empfängern die Möglichkeit geben, sich abzumelden. Erfahren Sie in dieser Anleitung, wie Sie Ihrer Kampagne einen Abmeldelink hinzufügen können."
 keywords: Marketing
 author: SuperOffice RnD
-so.date: 02.09.2024
+so.date: 02.27.2024
 so.version: 10
 so.topic: howto
 language: de
@@ -48,8 +48,8 @@ Auf der Grundlage des Feedbacks von den Empfängern werden die Abonnementeinstel
 > Sie haben jedoch die Möglichkeit, die Einstellungen "Keine Einwilligung/Kein Abonnement" über **Optionen** im unteren Teil der Ansicht **Empfänger** zu umgehen (siehe Schritt 4: Empfänger).
 
 <!-- Referenced links -->
-[2]: ../../tracked-links/learn/examples.md
-[1]: manage-email-subscriptions.md
+[2]: ../../tracked-links/learn/index.md#ex
+[1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/icons/marketing-and-forms/link.png

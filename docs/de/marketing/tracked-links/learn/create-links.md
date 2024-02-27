@@ -2,31 +2,31 @@
 uid: help-de-mailing-create-tracked-link
 title: Überwachte Links erstellen
 description: Überwachte Links erstellen
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+keywords: Marketing, Kampagne, Aussendung, Überwachte Links
+author: Bergfrid Dias
+so.date: 02.27.2024
+so.version: 10
+so.topic: howto
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Überwachte Links erstellen
 
-Sie können URLs verfolgen, die in E-Mails eingefügt wurden. Die Registerkarte **Überwachte Links** wird verwendet, um die überwachbaren Links zu verwalten. Die hier erstellten Links sind für Sie und andere Benutzer beim Bearbeiten des Inhalts der Kampagne verfügbar.
+Sie können überwachbaren URLs im Tab **Überwachte Links** erstellen. Diese Links stehen dann zur Verfügung, wenn Sie und andere Benutzer des Inhalts der Kampagne bearbeiten. Dies ermöglicht eine effiziente Verfolgung der Benutzerinteraktion mit den E-Mails.
 
-> [!NOTE]
-> Sie können neue Links auch während der Bearbeitung des Inhalts erstellen.
+Sie können neue Links auch während der Bearbeitung des Inhalts erstellen.
 
-**Schritte:**
+## Schritte
 
 1. Wählen Sie die Registerkarte **Überwachte Links**.
 
-2. Optional: Wählen Sie einen Ordner aus oder erstellen Sie einen neuen Ordner.
+2. Optional: Wählen Sie einen Ordner aus oder [erstellen Sie einen neuen Ordner][2].
 
-    [Wie man einen Kampagnen-Ordner erstellt][19]
+3. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Hinzufügen**.
 
-3. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Hinzufügen**. Sie gelangen zur Ansicht **Eigenschaften des Links**.
-
-4. Geben Sie einen aussagekräftigen Namen für den Link in das Feld **Name** ein.
+4. Geben Sie einen aussagekräftigen **Namen** für den Link ein.
 
 5. Unter **Link-Aktionen** im unteren Bereich der Ansicht können Sie die [Aktionen auswählen][1], die durchgeführt werden sollen, wenn der Empfänger auf den Link in der Mitteilung klickt.
 
@@ -36,7 +36,7 @@ Ein kleiner Punkt auf den Registerkarten für Verknüpfungsaktionen gibt an, wel
 
 <!-- Referenced links -->
 [1]: define-link-actions.md
-[19]: ../../learn/create-folder.md
+[2]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

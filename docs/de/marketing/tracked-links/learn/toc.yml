@@ -1,17 +1,15 @@
 items:
-  - name: Überblick
-    href: index.md
-  - name: Überwachter Link erstellen
-    href: create-links.md
-  - name: Verknüpfungsaktionen definieren
-    href: define-link-actions.md
-  - name: Überwachter Link zu einer Mitteilung hinzufügen
-    href: add-tracked-link-to-msg.md
-  - name: Google Analytics Tags hinzufügen
-    href: add-google-analytics-tag.md
-  - name: Verwendungsbeispiele
-    href: examples.md
-  - name: Klicks nach dem Senden durchsuchen
-    href: explore-clicks.md
-  - name: Zähler zurücksetzen
-    href: reset-counter.md
+- name: Überblick
+  href: index.md
+- name: Überwachter Link erstellen
+  href: create-links.md
+- name: Verknüpfungsaktionen definieren
+  href: define-link-actions.md
+- name: Google Analytics Tags hinzufügen
+  href: add-google-analytics-tag.md
+- name: Klicks nach dem Senden durchsuchen
+  href: explore-clicks.md
+- name: Zähler zurücksetzen
+  href: reset-counter.md
+- name: Tutorial
+  href: ga-tutorial.md

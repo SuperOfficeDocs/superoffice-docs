@@ -24,7 +24,7 @@ Fügen Sie Ihrer Mitteilung Inhalte hinzu, indem Sie die Seitenleiste verwenden.
 Im Abschnitt **Inhalt** können Sie alle Inhaltstypen hinzufügen, z. B. Spalten, Textblöcke, Bilder, Menüs/Schaltflächen und SoMe-Links. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab. Klicken Sie auf den Inhalt, um ihn in der Seitenleiste zu [bearbeiten][2].
 
 | Symbol | Name | Funktion |
-|------|------|----------|
+|:-:|---|----------|
 | ![Symbol][img2] | Spalten | Verwenden Sie Spalten, um Ihre Nachricht in Spalten und Zeilen zu strukturieren. |
 | ![Symbol][img3] | Schaltflächen | Verwenden Sie Schaltflächen, um überwachte Links, reguläre URLs oder Abonnementlinks hinzuzufügen. |
 | ![Symbol][img4] | Trennlinie | Verwenden Sie Trennlinien, um Textblöcke und andere Inhalte zu trennen. |
@@ -53,9 +53,22 @@ In diesem Bereich können Sie die globalen Eigenschaften und das Layout für die
 
 Fügen Sie Bilder aus der SuperOffice-Datenbank oder aus der lizenzfreien Online-Bilddatenbank hinzu. [Wie man Bilder in die Mitteilung einfügt][1].
 
+## Spezielle Links hinzufügen
+
+Sie können Ihrer Kampagne auch **spezielle Links hinzufügen**. Je nachdem, was Sie erreichen möchten, können Sie zwischen folgendem wählen:
+
+* [Link zur Online-Anzeige der Mitteilung][3]
+* [Abonnements verwalten][6]
+* [Abmelden][4]
+* [Überwachte Links][5]
+
 <!-- Referenced links -->
 [1]: insert-images-in-message.md
 [2]: edit-paragraph.md
+[3]: add-link-to-display-message-in-browser.md
+[4]: add-unsubscribe-link.md
+[5]: add-tracked-link-to-msg.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content.png
