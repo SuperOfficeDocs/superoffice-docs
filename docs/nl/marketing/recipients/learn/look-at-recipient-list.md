@@ -4,7 +4,7 @@ title: Werken met de ontvangerslijst na de mailing
 description: Werken met de ontvangerslijst na de mailing
 keywords: Marketing, ontvanger
 author: SuperOffice RnD
-so.date: 02.09.2024
+so.date: 02.27.2024
 so.version: 10
 so.topic: howto
 language: nl
@@ -34,7 +34,7 @@ Nadat de mailing is verzonden, verzamelt SuperOffice Marketing gegevens over de 
 
 4. Gebruik de selectievakjes in de linkerkolom om alle of specifieke ontvangers te selecteren.
 
-5. Klik op de menuknop ![pictogram][img2]. U hebt hier de volgende opties:
+5. Klik op de menuknop **Acties**. U hebt hier de volgende opties:
     * De geselecteerde ontvangers naar een Excel-, HTML- of tekstbestand exporteren.
     * [De geselecteerde ontvangers toevoegen aan een nieuw(e) of bestaand(e) selectie of project](#add-recipients).
     * de mailing opnieuw verzenden naar de geselecteerde ontvangers.
@@ -66,18 +66,29 @@ Als de status **Gereed voor verzending** is, hoeft u niets te doen. SuperOffice 
 <!-- markdownlint-disable-file MD013 -->
 ## <a id="add-recipients" />Ontvangers toevoegen aan selecties of projecten
 
-Met de ![pictogram][img2] menuknop kunt u ontvangers en klikkers toevoegen aan een selectie of project.
+Met de **Acties** menuknop kunt u ontvangers en klikkers toevoegen aan een selectie of project.
 
 > [!NOTE]
 > Alleen personen die al zijn geregistreerd in de database van SuperOffice, worden toegevoegd aan de selectie of het project. Een contactpictogram ![pictogram][img3] in de kolom **Type** geeft aan dat een persoon is geregistreerd in de database van SuperOffice. Ontvangers die zijn geïmporteerd vanaf externe lijsten, worden niet geregistreerd.
 
 ### Klikkers toevoegen aan een nieuw(e) selectie of project
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+1. Selecteer de desbetreffende personen in de lijst.
+2. Klik op de menuknop **Acties**.
+3. Klik op **Toevoegen aan nieuwe selectie** of **Toevoegen aan nieuw project**.
+4. Voer de naam in van de nieuwe selectie of het nieuwe project.
+5. Klik op **OK**.
 
 ### Klikkers toevoegen aan een bestaand(e) selectie of project
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+1. Selecteer de desbetreffende personen in de lijst.
+2. Klik op de menuknop **Acties**.
+3. Klik op **Toevoegen aan bestaande selectie** of **Toevoegen aan bestaand project**.
+4. Zoek de naam van de selectie of het project in te voeren door het begin ervan in te voeren.
+5. Klik op de selectie of het project in de lijst.
+6. Klik op **OK**.
+
+Open de selectie of het project om te controleren of de personen zijn toegevoegd.
 
 ## Verwante onderwerpen
 
@@ -91,6 +102,5 @@ Met de ![pictogram][img2] menuknop kunt u ontvangers en klikkers toevoegen aan e
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

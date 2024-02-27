@@ -98,7 +98,7 @@ De afbeelding die u voor uw mailing wilt gebruiken, heeft mogelijk niet altijd d
 
 <!-- Referenced links -->
 [1]: ../../learn/add-images.md
-[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
+[2]: add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png

@@ -2,31 +2,31 @@
 uid: help-nl-mailing-create-tracked-link
 title: Gevolgde links maken
 description: Gevolgde links maken
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+keywords: Marketing, koppelingen, mailing, gevolgde links
+author: Bergfrid Dias
+so.date: 02.27.2024
+so.version: 10
+so.topic: howto
 language: nl
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Gevolgde links maken
 
-U kunt URL's bijhouden die in e-mails zijn ingevoegd. Via het tabblad **Gevolgde links** kunt u die traceerbare links beheren. De links die hier worden gemaakt, zijn beschikbaar wanneer u en andere gebruikers de inhoud van uw mailings willen bewerken.
+Je kunt traceerbare URL's aanmaken in het tabblad **Gevolgde links**. Deze links zijn dan beschikbaar wanneer jij en andere gebruikers de inhoud van je mailings bewerken. Dit maakt een efficiënte bijhouden van de gebruikersinteractie met de e-mails mogelijk.
 
-> [!NOTE]
-> U kunt ook nieuwe links maken op het moment dat u de inhoud bewerkt.
+U kunt ook nieuwe links maken op het moment dat u de inhoud bewerkt.
 
-**Stappen:**
+## Stappen
 
 1. Selecteer het tabblad **Gevolgde links**.
 
-2. Optioneel: Selecteer een map of maak een nieuwe map.
+2. Optioneel: Selecteer een map of [maak een nieuwe map][2].
 
-    [Hoe maak ik een mailingmap?][19]
+3. Klik op de knop ![pictogram][img1] **Toevoegen**.
 
-3. Klik op de knop ![pictogram][img1] **Toevoegen**. Het scherm **Linkeigenschappen** wordt geopend.
-
-4. Voer in het veld **Naam** een herkenbare naam in voor de link.
+4. Voer in een herkenbare **Naam** voor de link.
 
 5. Bij **Linkacties** onder in het scherm kunt u [aangeven wat er moet gebeuren][1] wanneer de ontvanger op de link in het bericht klikt.
 
@@ -36,7 +36,7 @@ Een kleine stip op de linkactietabbladen geeft aan welke linkacties actief zijn.
 
 <!-- Referenced links -->
 [1]: define-link-actions.md
-[19]: ../../learn/create-folder.md
+[2]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

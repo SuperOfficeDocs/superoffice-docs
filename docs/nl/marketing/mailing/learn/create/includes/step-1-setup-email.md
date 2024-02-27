@@ -41,12 +41,7 @@ Als u probeert te verzenden vanuit een domein dat geen geldige SPF-record heeft,
 > [!NOTE]
 > Als **Ons contactadres** een e-maildomein heeft dat niet is gevalideerd, wordt de mailing automatisch verzonden vanaf het adres dat is opgegeven in de vervolgkeuzelijst **Anders gebruiken**.
 
-## Verwante onderwerpen
-
-* [Maximaliseer uw e-mailmarketingsucces met deze blog met tips][1] voor afleverbaarheid
-
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/email-deliverability-tips/
 [2]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
 [4]: ../../../../learn/create-folder.md
 

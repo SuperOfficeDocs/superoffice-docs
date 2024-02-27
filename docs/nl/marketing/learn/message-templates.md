@@ -131,7 +131,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
 [5]: ../editor/learn/index.md#old
-[6]: ../recipients/learn/add-unsubscribe-link.md
+[6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

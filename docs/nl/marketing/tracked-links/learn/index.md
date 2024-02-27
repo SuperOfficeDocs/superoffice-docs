@@ -2,20 +2,23 @@
 uid: help-nl-mailing-tracked-links
 title: Gevolgde links
 description: "Een koppeling die u in een mailing opneemt, kan worden gebruikt om reacties van uw klanten en prospects bij te houden. Wanneer de ontvangers van uw mailing op de koppeling klikken, wordt een actie geactiveerd." 
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
+keywords: Marketing, koppelingen, mailing, nieuwsbrief, gevolgde links
+author: Bergfrid Dias
+so.date: 02.27.2024
+so.version: 10
 so.topic: concept
 language: nl
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Gevolgde links
 
-Het doel van uw nieuwsbrief of e-mailcampagne bepaalt welke koppelingen u moet gebruiken. Elk doel heeft zijn eigen oproep tot actie om een reactie van de ontvanger te activeren die u wilt volgen. Op deze manier kunt u uw ontvangers opvolgen nadat u alle resultaten hebt ontvangen.
+De links die je gebruikt in je nieuwsbrief of e-mailcampagne worden bepaald door je doelen. Elk doel heeft een unieke oproep tot actie die een reactie van de ontvanger uitlokt, die je kunt volgen. Dit stelt je in staat om op te volgen met je ontvangers zodra je alle resultaten hebt verzameld.
 
-Als u bijvoorbeeld op een koppeling klikt, kan een nieuwe website worden geopend of de persoonskaart van uw ontvanger worden bijgewerkt. De actie kan ook een service-verzoek toevoegen in Service en op het sectietabblad Verzoek op de persoonskaart. Het gebruik van koppelingen is alleen beschikbaar voor gebruikers die zich abonneren op het Marketingplan.
+Bijvoorbeeld, een linkklik kan een nieuwe website openen of de persoonskaart van een ontvanger bijwerken. Het kan ook een [service-verzoek][8] toevoegen.
 
-Voordat u begint met de eigenlijke mailing, kunt u de koppelingen instellen die u vaak in uw mailings zult gebruiken. Nadat u ze hebt ingesteld, kunt u ze steeds opnieuw gebruiken, waardoor u tijd kunt besparen. De meest voorkomende koppelingen om te gebruiken zijn bijvoorbeeld:
+Je kunt vaak gebruikte links instellen, zelfs voordat je inhoud maakt. Dit stelt je in staat om deze links opnieuw te gebruiken en tijd te besparen. Vaak gebruikte links zijn onder andere:
 
 * Afmeldpagina's
 * Contactformulieren
@@ -23,30 +26,52 @@ Voordat u begint met de eigenlijke mailing, kunt u de koppelingen instellen die 
 
 ![In het scherm Koppelingseigenschappen kunt u koppelingen toevoegen die u wilt bijhouden -screenshot][img4]
 
-U kunt links (URL's) in een bericht opnemen en deze traceren. Met andere woorden: u kunt nagaan hoeveel ontvangers op de links hebben geklikt.
-
 De URL's moeten uniek zijn voor elke ontvanger, zodat u er zeker van kunt zijn dat verschillende ontvangers op de koppelingen hebben geklikt (en niet dezelfde ontvanger er meerdere keren op heeft geklikt). Bovendien moeten de URL's verwijzen naar de SuperOffice-server, zodat deze kunnen worden geteld voordat ze worden omgeleid naar de doel-URL. Dit alles wordt automatisch geregeld wanneer u aangeeft welke URL's in het bericht u wilt traceren.
+
+## Welke koppelingen volg ik?
+
+Als u [alle koppelingen een mailing wilt weergeven][4], opent u de mailing in de weergavemodus en selecteert u het tabblad **Gevolgde koppelingen**.
+
+## Tabblad Gevolgde links
 
 Het tabblad **Gevolgde links** bevat de volgende opties:
 
 | Pictogram | Optie | Lees meer |
-|---|---|---|
-| ![pictogram][img2] | Bericht | [Een nieuwe koppeling maken][1] |
+|:-:|---|---|
+| ![pictogram][img2] | Bericht | [Een nieuwe koppeling maken][1], [Linkacties definiëren][7] |
 | ![pictogram][img3] | Map toevoegen | [Een map maken][5] voor uw koppelingen |
 | Koppeling | Klik op een link om het scherm **Link weergeven** te openen. | [Werken met gevolgde koppelingen na de mailing][2] |
 | ![pictogram][img1] | Menu | Klik op de knop naast een koppeling om meer opties te gebruiken. |
 
 Menuopties:
 
-* **Weergeven**. [Werken met gevolgde koppelingen na de mailing][2].
-* **Bewerken**. [Gevolgde koppelingen maken][1].
-* **Opnieuw instellen**. [Tellers voor koppelingen opnieuw instellen][2].
-* **Verplaatsen naar map**. Wordt gebruikt om de koppeling naar een andere map te verplaatsen.
-* **Verwijderen**. Verwijdert de koppeling.
+* [**Weergeven**][2]
+* [**Bewerken**][1]
+* [**Opnieuw instellen**][10] (Tellers voor koppelingen)
+* **Verplaatsen naar map** (verplaats de koppeling naar een andere map)
+* **Verwijderen**
 
-## Welke koppelingen volg ik?
+## <a id="ex" />Use cases
 
-Als u [alle koppelingen een mailing wilt weergeven][4], opent u de mailing in de weergavemodus en selecteert u het tabblad **Gevolgde koppelingen**.
+Sporbare links kunnen op verschillende manieren worden gebruikt:
+
+* **Respons**: Registreer elk klik van een ontvanger op een link, zoals een nieuwe productpagina, om interesse te meten over meerdere mailings.
+
+* **Prospectlijst**: Voor de lancering van een nieuw product kunnen ontvangers interesse tonen door op de link "Stuur me meer informatie" te klikken. Klikkers kunnen worden toegevoegd aan een [statische selectie][9] voor verdere contactbeheer.
+
+* **CRM-vervolgactiviteit**: In plaats van een prospectlijst, genereer een taak of vergadering voor elk länkklik en wijs deze toe aan een verkoper of klantcontact. Bijvoorbeeld, een klik op de link "Neem contact met mij op" kan een vervolgactiviteit met "Telefoon - uitgaand" genereren.
+
+* **Uitschrijven**: Voeg een [uitschrijflink][4] in de inhoudseditor in om een specifiek type mailing te stoppen. Klanten kunnen zich ook uitschrijven voor individuele ontvangerlijsten.
+
+    Voeg een link toe (bijvoorbeeld "Klik hier als u onze nieuwsbrieven niet langer wilt ontvangen") om klanten uit de ontvangerlijst te verwijderen. Als een nieuwsbrief alleen wordt verzonden naar contacten met het interesse "Nieuwsbrief", kan dit interesse worden verwijderd voor klikkers.
+
+    > [!TIP]
+    > Volg abonnement opzeggingen op door link klikkers toe te voegen aan een aparte selectie, bijvoorbeeld "Nieuwsbrief 2024 - uitschrijvingen". Meerdere acties kunnen worden toegevoegd aan dezelfde link.
+
+* **Boek consultant**: Voor een grote productupdate, voeg een link toe voor klanten om een consultant te boeken. Elk länkklik registreert een nieuwe serviceverzoek, toegewezen aan de categorie "Consultant". De klant ontvangt feedback dat ze zullen worden gecontacteerd door een consultant.
+
+> [!NOTE]
+> Deze voorbeelden werken even goed voor gewone links, maar in dat geval worden alleen de klikken voor de afzonderlijke mailing geregistreerd.
 
 ## <a id="google" />Google Analytics
 
@@ -71,17 +96,19 @@ De Google Analytics-functie in SuperOffice Marketing identificeert uw mailings i
 
 * [Links opnemen die u wilt traceren][3]
 * [Links voor abonnement toevoegen][4]
-* [Eenvoudige e-mailtracering van Google Analytics][6] - blog
-* [Linkacties definiëren][7]
+* [Eenvoudige e-mailtracering van Google Analytics][6]
 
 <!-- Referenced links -->
 [1]: create-links.md
 [2]: explore-clicks.md
-[3]: add-tracked-link-to-msg.md
-[4]: ../../recipients/learn/add-unsubscribe-link.md
-[5]: ../../learn/create-folder.md
-[6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
 [7]: define-link-actions.md
+[6]: ga-tutorial.md
+[10]: reset-counter.md
+[3]: ../../editor/learn/add-tracked-link-to-msg.md
+[4]: ../../editor/learn/add-unsubscribe-link.md
+[5]: ../../learn/create-folder.md
+[8]: ../../../request/learn/index.md
+[9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

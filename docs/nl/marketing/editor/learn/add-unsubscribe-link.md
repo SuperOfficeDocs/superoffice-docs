@@ -4,7 +4,7 @@ title: Koppeling voor uitschrijven toevoegen
 description: "Wanneer u een mailing verstuurt, is het verplicht om ontvangers de mogelijkheid te geven om zich af te melden. Lees in deze handleiding hoe u een afmeldlink aan uw mailing kunt toevoegen."
 keywords: marketing
 author: SuperOffice RnD
-so.date: 02.09.2024
+so.date: 02.27.2024
 so.version: 10
 so.topic: howto
 language: nl
@@ -48,8 +48,8 @@ Op basis van de feedback van de ontvangers worden de voorkeuren van het abonneme
 > U kunt echter de instellingen "geen toestemming/geen abonnement" overschrijven bij **Opties** in het onderste deel van het scherm **Ontvangers** (zie Stap 4: Ontvangers).
 
 <!-- Referenced links -->
-[2]: ../../tracked-links/learn/examples.md
-[1]: manage-email-subscriptions.md
+[2]: ../../tracked-links/learn/index.md#ex
+[1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/icons/marketing-and-forms/link.png

@@ -2,54 +2,58 @@
 uid: help-nl-tracked-links-view
 title: Werken met gevolgde koppelingen na de mailing
 description: Werken met gevolgde koppelingen na de mailing
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+keywords: Marketing, koppelingen, mailing, gevolgde links
+author: Bergfrid Dias
+so.date: 02.27.2024
+so.version: 10
+so.topic: howto
 language: nl
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Werken met gevolgde koppelingen na de mailing
 
-U kunt links (URL's) opnemen in een e-mail-mailing of een formulierantwoord en deze traceren. Met andere woorden: u kunt nagaan hoeveel ontvangers op de links hebben geklikt.
+Het opnemen van links (URLs) in je e-mailmailings of formulierantwoord verhoogt niet alleen de interactiviteit, maar biedt ook waardevolle inzichten. Door deze links te volgen, krijg je inzicht in de betrokkenheid van de ontvanger, gekwantificeerd door het aantal klikken. Deze gegevens kunnen van belang zijn bij het verfijnen van je communicatiestrategie en het optimaliseren van toekomstige interacties.
 
-## Waar kunt u de koppelingen vinden?
+Laten we eens kijken hoe je kunt werken met deze gevolgde links nadat de mailing is verzonden.
 
-* Als u de links voor een enkele mailing wilt weergeven, opent u de desbetreffende mailing, klikt u op het tabblad **Gevolgde links** en klikt u op de link waarmee u wilt werken.
+## Stappen
 
-    > [!NOTE]
-    > Het tabblad **Gevolgde koppelingen** is niet beschikbaar voor mailings met documenten.
+1. Zoek de links:
 
-* Als u de links voor alle mailings wilt weergeven, klikt u op het tabblad **Gevolgde koppelingen** in het hoofdscherm van SuperOffice Marketing. Als u de link waarmee u wilt werken, niet kunt vinden, klikt u op **Alle links**. Klik op de link waarmee u wilt werken.
+    * **Enkele mailing**: Open de mailing, selecteer het tabblad **Gevolgde koppelingen**.
 
-    > [!NOTE]
-    > Hier worden alleen [geregistreerde koppelingen][2] weergegeven. Als u "gewone" koppelingen toevoegt aan de mailing, moet u de optie **Alle koppelingen traceren** selecteren in stap 1: Instellingen.
+        Dit tabblad is niet beschikbaar voor documentmailings.
 
-## Koppelingen verkennen
+    * **Alle mailings**: Vanuit het hoofdscherm van SuperOffice Marketing, selecteer het tabblad **Gevolgde koppelingen**. Als je je link niet kunt vinden, klik dan op **Alle links**.
 
-1. Selecteer in de actieve mailing het tabblad **Gevolgde links**.
+        Alleen [geregistreerde koppelingen][2] worden hier weergegeven. Om alle links in een mailing te volgen, activeer je de optie **Alle links traceren** in Stap 1: Instellingen.
 
-2. Klik op de desbetreffende link in de lijst met links. Het scherm **Link weergeven** wordt weergegeven.
+2. Kies je link uit de lijst.
 
-    Hier ziet u het aantal klikken op de koppeling en eventuele [acties die voor de koppeling zijn opgegeven][4]. In de lijst **Klikkers** kunt u zien wie er heeft geklikt op de koppeling en in welke mailing er is geklikt op de koppeling.
+3. Verken de klikken:
 
-3. Klik op **OK** om het scherm **Link weergeven** te sluiten.
+    Hier zie je het aantal klikken voor de link en eventuele [voor de link gespecificeerde acties][4]. In de lijst **Klikkers** kun je zien wie op de link heeft geklikt en in welke mailing ze op de link hebben geklikt.
 
-## Klikkers toevoegen aan een nieuw(e) selectie of project
+4. Volgende stappen: Beslis wat je hierna wilt doen.
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+    * [Klikkers toevoegen aan een nieuw(e) selectie of project][3].
+    * [De koppeling bewerken][2] (klik op de knop **Bewerken**).
+    * [Werken met de ontvangerslijst][1].
 
-## Klikkers toevoegen aan een bestaand(e) selectie of project
+5. Klik op **OK** om het scherm **Link weergeven** te sluiten.
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+## De resultaten van uw mailing controleren in Google Analytics
 
-## Wat wilt u nu doen?
+U kunt de resultaten van uw mailings controleren door in te loggen op uw Google Analytics-account. Uw mailings moeten zichtbaar zijn in de Google Channel-rapporten onder E-mail.
 
-* [De koppeling bewerken][2] (klik op de knop **Bewerken**.)
-* [Werken met de ontvangerslijst][1]
+> [!NOTE]
+> Geef Google Analytics enige tijd om uw trackinginformatie te verwerken. Het kan 1-24 uur duren voordat uw mailingbron zich in uw rapporten heeft geregistreerd.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/look-at-recipient-list.md
+[3]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [2]: create-links.md
 [4]: define-link-actions.md
 
