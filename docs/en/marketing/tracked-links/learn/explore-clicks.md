@@ -34,7 +34,7 @@ Let us delve into how you can work with these tracked links after the mailing is
 
 3. Explore clicks:
 
-    Here you can see the number of clicks for the link and any actions specified for the link. In the **Clickers** list, you can see who clicked the link and in which mailing they clicked the link.
+    Here you can see the number of clicks for the link and any [actions specified for the link][4]. In the **Clickers** list, you can see who clicked the link and in which mailing they clicked the link.
 
 4. Next steps: Decide what you want to do next.
 

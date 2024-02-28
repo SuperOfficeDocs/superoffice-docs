@@ -41,7 +41,7 @@ Crafting a good message that is relevant to your audience is where it should all
 
 * **Make sure people recognize you**. When people look at your email in their inbox, they should immediately recognize it is from your company. Again, be real with your audience. Why would they open a message from someone they do not know?
 
-![Select from name to make your email recognizable][img2]
+![Select from name to make your email recognizable -screenshot][img2]
 
 **Avoid:**
 
@@ -53,7 +53,7 @@ Having the right message will take you far, but to make sure you are hitting the
 
 ## Take care of your subscriber list
 
-Getting a good reputation as an email sender is also about taking care of your subscriber lists. This means first making sure **information about your contacts is updated**. Having a lot of [bounces][2] (those returned emails of people who do not work at a company anymore or have changed addressed) can really jeopardize your reputation, making you a candidate for the SPAM folder. 
+Getting a good reputation as an email sender is also about taking care of your subscriber lists. This means first making sure **information about your contacts is updated**. Having a lot of [bounces][2] (those returned emails of people who do not work at a company anymore or have changed addressed) can really jeopardize your reputation, making you a candidate for the SPAM folder.
 
 It also means making sure people are interested in your messages. If a large part of your audience does not open or engage with your messages for a long time, it may be time to try some different approach with them. As you know, **engagement is a key factor in deliverability**, so make sure to check inactive users that have not opened your emails in a while.
 
@@ -98,3 +98,4 @@ To adjust mobile-specific settings for a message, select a section in the messag
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/marketing-and-forms/mobile.png
+[img2]: ../../../media/loc/en/marketing/from-name.gif

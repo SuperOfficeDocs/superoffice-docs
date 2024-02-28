@@ -34,7 +34,7 @@ After the mailing is sent, SuperOffice Marketing collects data about the status 
 
 4. Use the checkboxes in the left column to select all or specific recipients.
 
-5. Click the ![icon][img2] menu button. Here you have the following options:
+5. Click the **Actions** menu button. Here you have the following options:
     * Export the selected recipients to an Excel, HTML, or text file.
     * [Add the selected recipients to a new or existing selection or project](#add-recipients).
     * Resend the mailing to the selected recipients.
@@ -99,6 +99,5 @@ Using the **Action** button you can add recipients and clickers to a selection o
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

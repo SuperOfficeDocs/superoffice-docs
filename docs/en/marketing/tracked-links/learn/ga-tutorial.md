@@ -6,7 +6,7 @@ keywords: Marketing, mailing, Google Analytics, track
 author: Alex Pelan
 so.date: 06.25.2015
 so.version: 8
-so.topic: howto
+so.topic: tutorial
 language: en
 so.audience: person
 so.audience.tooltip: SuperOffice Marketing
@@ -14,6 +14,7 @@ so.audience.tooltip: SuperOffice Marketing
 
 # Tutorial - simple Google Analytics email tracking
 
+<!-- markdownlint-disable-next-line MD036 -->
 *Blog post by Alex Pelan*
 
 Email marketing has become an important part of companies' marketing strategies, but there are countless ways to carry out digital marketing these days. Email marketing is only one part of the big picture. When one should analyze the results of for example a campaign, it is useful to gather data from all marketing channels into one system in order to get the overall picture.
@@ -30,7 +31,7 @@ To follow this guide you will need a existing website with a domain name.
 
 Go to [analytics.google.com][1] and sign up to access Google Analytics. When creating a new account give it an appropriate account name.
 
-![New Google Analytics account screenshot][img2]
+![New Google Analytics account -screenshot][img2]
 
 Next you will need to set up the property (website), like this:
 
@@ -48,7 +49,7 @@ When you have implemented the code, enter the URL of your website in your browse
 
 First, you need to setup a new mailing. In this example, I have created a newsletter where I would like to track how many users have clicked the Read More link. Of course, we would like to view these data in Google Analytics. We will only be going through the part of creating the link.
 
-![Superoffice tracking link -screenshot][img6]
+![SuperOffice tracking link -screenshot][img6]
 
 When creating the link in SuperOffice we it asks for an URL. To be able to see that the user is coming from the newsletter you need to add some relevant parameters to the URL. These are:
 

@@ -109,6 +109,5 @@ Variables available in the script include custId, linkId, shipmentId, linkUrl, l
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png
-[img2]: ../../../../../common/icons/pref-diary.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
 [img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

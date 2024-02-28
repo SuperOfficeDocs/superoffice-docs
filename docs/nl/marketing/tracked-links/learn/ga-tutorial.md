@@ -1,86 +1,87 @@
 ---
 uid: help-nl-mailing-google-analytics-tutorial
-title: Tutorial - simple Google Analytics email tracking
-description: In this tutorial, you will learn how to set up a Google Analytics account, create Links and Tracked Links in SuperOffice that will post results to Google Analytics, and display these results in Google Analytics.
-keywords: Marketing, mailing, Google Analytics, track
+title: Handleiding - eenvoudige Google Analytics e-mailtracking
+description: Deze handleiding zal uitleggen hoe je resultaten van een mailing kunt volgen met SuperOffice en deze kunt opzoeken in Google Analytics samen met al je andere gegevens.
+keywords: Marketing, mailing, Google Analytics, e-mailtracking, gevolgde links, tracking-ID, UTM, campagne, nieuwsbrief
 author: Alex Pelan
 so.date: 06.25.2015
 so.version: 8
 so.topic: howto
 language: nl
+so.translationtype: MT
 so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
-# Tutorial - simple Google Analytics email tracking
+# Handleiding - eenvoudige Google Analytics e-mailtracking
 
 <!-- markdownlint-disable-next-line MD036 -->
-*Blog post by Alex Pelan*
+*Blogpost door Alex Pelan*
 
-Email marketing has become an important part of companies' marketing strategies, but there are countless ways to carry out digital marketing these days. Email marketing is only one part of the big picture. When one should analyze the results of for example a campaign, it is useful to gather data from all marketing channels into one system in order to get the overall picture.
+E-mailmarketing is een belangrijk onderdeel geworden van de marketingstrategieën van bedrijven, maar er zijn talloze manieren om tegenwoordig digitale marketing uit te voeren. E-mailmarketing is slechts een deel van het grote geheel. Wanneer men bijvoorbeeld de resultaten van een campagne wil analyseren, is het nuttig om gegevens van alle marketingkanalen in één systeem te verzamelen om het totaalbeeld te krijgen.
 
-This tutorial will explain how you can track results from a Mailing using SuperOffice and look it up in Google Analytics together with all your other data.
+Deze handleiding zal uitleggen hoe je resultaten van een mailing kunt volgen met SuperOffice en deze kunt opzoeken in Google Analytics samen met al je andere gegevens.
 
-## What we will be doing
+## Wat we gaan doen
 
-We will be setting up a Google Analytics account. Creating Links and Tracked Links in SuperOffice that will post results to Google Analytics. Then finally display these results in Google Analytics.
+We gaan een Google Analytics-account opzetten. Links en gevolgde links in SuperOffice maken die resultaten naar Google Analytics zullen posten. Vervolgens tonen we deze resultaten in Google Analytics.
 
-To follow this guide you will need a existing website with a domain name.
+Om deze gids te volgen, heb je een bestaande website met een domeinnaam nodig.
 
-## Set up a Google Analytics account
+## Stel een Google Analytics-account in
 
-Go to [analytics.google.com][1] and sign up to access Google Analytics. When creating a new account give it an appropriate account name.
+Ga naar [analytics.google.com][1] en meld je aan om toegang te krijgen tot Google Analytics. Wanneer je een nieuw account aanmaakt, geef het dan een passende accountnaam.
 
-![New Google Analytics account screenshot][img2]
+![Nieuwe Google Analytics-account -screenshot][img2]
 
-Next you will need to set up the property (website), like this:
+Vervolgens moet je de eigenschap (website) instellen, zoals dit:
 
-![Google Analytics - setting up your property -screenshot][img3]
+![Google Analytics - het instellen van uw eigendom -screenshot][img3]
 
-Now you can go grab your tracking code. Copy and paste this into the code of every page you want to track. Place it right before the ending `</head >` tag.
+Nu kun je je trackingcode ophalen. Kopieer en plak dit in de code van elke pagina die je wilt volgen. Plaats het net voor de afsluitende `</head >`-tag.
 
-![Google Analytics tracking ID -screenshot][img4]
+![Google Analytics tracking-ID -screenshot][img4]
 
-When you have implemented the code, enter the URL of your website in your browser. Now go back to **Google Analytics** > **Reporting** > **Real-Time** > **Overview**. If you did everything correct, the widget Right now should display 1 active user.
+Nadat je de code hebt geïmplementeerd, voer je de URL van je website in je browser in. Ga nu terug naar **Google Analytics** > **Rapportage** > **Realtime** > **Overzicht**. Als je alles correct hebt gedaan, zou de widget Nu moeten 1 actieve gebruiker weergeven.
 
-![Google Analytics - overview -screenshot][img5]
+![Google Analytics - overzicht -screenshot][img5]
 
-## Create trackable links in SuperOffice
+## Maak traceerbare links in SuperOffice
 
-First, you need to setup a new mailing. In this example, I have created a newsletter where I would like to track how many users have clicked the Read More link. Of course, we would like to view these data in Google Analytics. We will only be going through the part of creating the link.
+Eerst moet je een nieuwe mailing instellen. In dit voorbeeld heb ik een nieuwsbrief gemaakt waarbij ik wil bijhouden hoeveel gebruikers op de link Meer lezen hebben geklikt. Natuurlijk willen we deze gegevens in Google Analytics zien. We zullen alleen het deel van het maken van de link doornemen.
 
-![SuperOffice tracking link -screenshot][img6]
+![SuperOffice trackinglink -screenshot][img6]
 
-When creating the link in SuperOffice we it asks for an URL. To be able to see that the user is coming from the newsletter you need to add some relevant parameters to the URL. These are:
+Bij het maken van de link in SuperOffice vragen we om een URL. Om te kunnen zien dat de gebruiker van de nieuwsbrief komt, moet je enkele relevante parameters aan de URL toevoegen. Deze zijn:
 
-| Setting | UTM parameter | Required | Description |
+| Instelling | UTM-parameter | Vereist | Beschrijving |
 |---|---|:-:|---|
-| Campaign Source | utm_source | X | Identifies a search engine, newsletter name, or other source. Example: `utm_source=newsletter June 2015` |
-| Campaign Medium | utm_medium | X | Identifies a medium such as email or cost-per-click. Example: `utm_medium=email` |
-| Campaign Content | utm_content | | Used for A/B testing and content-targeted ads. Use utm_content to differentiate ads or links that point to the same URL. Examples: `utm_content=logolink`, `utm_content=textlink` |
-| Campaign Name | utm_campaign | | Used for keyword analysis. Identifies a specific product promotion or strategic campaign. Example: `utm_campaign=newsletters` |
+| Campagnebron | utm_source | X | Identificeert een zoekmachine, nieuwsbriefnaam of andere bron. Voorbeeld: `utm_source=newsletter June 2015` |
+| Campagnemedium | utm_medium | X | Identificeert een medium zoals e-mail of kosten-per-klik. Voorbeeld: `utm_medium=email` |
+| Campagne-inhoud | utm_content | | Wordt gebruikt voor A/B-testen en inhoudsgerichte advertenties. Gebruik utm_content om advertenties of links te onderscheiden die naar dezelfde URL wijzen. Voorbeelden: `utm_content=logolink`, `utm_content=textlink` |
+| Campagnenaam | utm_campaign | | Wordt gebruikt voor trefwoordanalyse. Identificeert een specifieke productpromotie of strategische campagne. Voorbeeld: `utm_campaign=newsletters` |
 
-The final URL should be something like this:
+De uiteindelijke URL zou er zo uit moeten zien:
 
 `http://www.somecorp.com/index.html?utm_source=newsletter%20june%202015&utm_medium=email&utm_content=textlink&utm__campaign=newsletters`
 
-Remember that URLs do not handle spaces, so you need to replace spaces with %20 in the URL. Try [Google's URL builder][2] to help you generate these URLs.
+Onthoud dat URL's geen spaties verwerken, dus je moet spaties in de URL vervangen door %20. Probeer [Google's URL-builder][2] om je te helpen deze URL's te genereren.
 
-The URL you created or generated with URL builder you paste in the URL field for a link, like shown below:
+De URL die je hebt gemaakt of gegenereerd met de URL-builder plak je in het URL-veld voor een link, zoals hieronder getoond:
 
 ![URL -screenshot][img7]
 
-Or you can insert the same URL in a tracked link, like this:
+Of je kunt dezelfde URL invoegen in een gevolgde link, zoals dit:
 
-![Insert URL -screenshot][img8]
+![URL invoegen -screenshot][img8]
 
-Now we are ready to send the newsletter. When you have sent the newsletter, head on over back to Google Analytics.
+Nu zijn we klaar om de nieuwsbrief te verzenden. Nadat je de nieuwsbrief hebt verzonden, ga je terug naar Google Analytics.
 
 ![Google Analytics -screenshot][img9]
 
-You will now see the traffic generated by your email newsletter. As you see in the image, you can see statistics for the campaign **Newsletter June 2015**. You will also see which medium these users are coming from and the number of clicks for each medium. This will enable us to compare which medium is generating most clicks.
+Je zult nu het verkeer zien dat door je e-mailnieuwsbrief is gegenereerd. Zoals je op de afbeelding kunt zien, kun je statistieken zien voor de campagne **Nieuwsbrief juni 2015**. Je zult ook zien van welk medium deze gebruikers komen en het aantal klikken voor elk medium. Dit stelt ons in staat om te vergelijken welk medium de meeste klikken genereert.
 
-Start exploring the possibilities!
+Begin met het verkennen van de mogelijkheden!
 
 <!-- Referenced links -->
 [1]: http://analytics.google.com

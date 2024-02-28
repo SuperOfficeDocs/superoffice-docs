@@ -1,86 +1,87 @@
 ---
 uid: help-no-mailing-google-analytics-tutorial
-title: Tutorial - simple Google Analytics email tracking
-description: In this tutorial, you will learn how to set up a Google Analytics account, create Links and Tracked Links in SuperOffice that will post results to Google Analytics, and display these results in Google Analytics.
-keywords: Marketing, mailing, Google Analytics, track
+title: Veiledning - enkel sporing av Google Analytics e-post
+description: Denne veiledningen vil forklare hvordan du kan spore resultater fra en utsendelse ved hjelp av SuperOffice og slå det opp i Google Analytics sammen med alle dine andre data.
+keywords: Marketing, markedsføring, utsendelse, Google Analytics, sporing, sporingslenke, UTM, kampanje, nyhetsbrev
 author: Alex Pelan
 so.date: 06.25.2015
 so.version: 8
-so.topic: howto
+so.topic: tutorial
 language: no
+so.translationtype: MT
 so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
-# Tutorial - simple Google Analytics email tracking
+# Veiledning - enkel sporing av Google Analytics e-post
 
 <!-- markdownlint-disable-next-line MD036 -->
-*Blog post by Alex Pelan*
+*Blogginnlegg av Alex Pelan*
 
-Email marketing has become an important part of companies' marketing strategies, but there are countless ways to carry out digital marketing these days. Email marketing is only one part of the big picture. When one should analyze the results of for example a campaign, it is useful to gather data from all marketing channels into one system in order to get the overall picture.
+E-postmarkedsføring har blitt en viktig del av bedrifters markedsføringsstrategier, men det er utallige måter å utføre digital markedsføring på i disse dager. E-postmarkedsføring er bare en del av det store bildet. Når man skal analysere resultatene av for eksempel en kampanje, er det nyttig å samle data fra alle markedsføringskanaler i ett system for å få det overordnede bildet.
 
-This tutorial will explain how you can track results from a Mailing using SuperOffice and look it up in Google Analytics together with all your other data.
+Denne veiledningen vil forklare hvordan du kan spore resultater fra en utsendelse ved hjelp av SuperOffice og slå det opp i Google Analytics sammen med alle dine andre data.
 
-## What we will be doing
+## Hva vi skal gjøre
 
-We will be setting up a Google Analytics account. Creating Links and Tracked Links in SuperOffice that will post results to Google Analytics. Then finally display these results in Google Analytics.
+Vi skal sette opp en Google Analytics-konto. Opprette lenker og sporbare lenker i SuperOffice som vil poste resultater til Google Analytics. Deretter endelig vise disse resultatene i Google Analytics.
 
-To follow this guide you will need a existing website with a domain name.
+For å følge denne veiledningen trenger du en eksisterende nettside med et domenenavn.
 
-## Set up a Google Analytics account
+## Sett opp en Google Analytics-konto
 
-Go to [analytics.google.com][1] and sign up to access Google Analytics. When creating a new account give it an appropriate account name.
+Gå til [analytics.google.com][1] og registrer deg for å få tilgang til Google Analytics. Når du oppretter en ny konto, gi den et passende kontonavn.
 
-![New Google Analytics account screenshot][img2]
+![Ny Google Analytics-konto -screenshot][img2]
 
-Next you will need to set up the property (website), like this:
+Deretter må du sette opp nettstedet, slik:
 
-![Google Analytics - setting up your property -screenshot][img3]
+![Google Analytics - setter opp nettstedet -screenshot][img3]
 
-Now you can go grab your tracking code. Copy and paste this into the code of every page you want to track. Place it right before the ending `</head >` tag.
+Nå kan du hente sporingskoden din. Kopier og lim inn dette i koden på hver side du vil spore. Plasser den rett før den avsluttende `</head >`-taggen.
 
-![Google Analytics tracking ID -screenshot][img4]
+![Google Analytics sporings-ID -screenshot][img4]
 
-When you have implemented the code, enter the URL of your website in your browser. Now go back to **Google Analytics** > **Reporting** > **Real-Time** > **Overview**. If you did everything correct, the widget Right now should display 1 active user.
+Når du har implementert koden, skriv inn URL-en til nettstedet ditt i nettleseren din. Gå nå tilbake til **Google Analytics** > **Rapportering** > **Sanntid** > **Oversikt**. Hvis du gjorde alt riktig, skal widgeten Akkurat nå vise 1 aktiv bruker.
 
-![Google Analytics - overview -screenshot][img5]
+![Google Analytics - oversikt -screenshot][img5]
 
-## Create trackable links in SuperOffice
+## Opprett sporingslenker i SuperOffice
 
-First, you need to setup a new mailing. In this example, I have created a newsletter where I would like to track how many users have clicked the Read More link. Of course, we would like to view these data in Google Analytics. We will only be going through the part of creating the link.
+Først må du sette opp en ny utsendelse. I dette eksemplet har jeg laget et nyhetsbrev der jeg ønsker å spore hvor mange brukere som har klikket på Les mer-lenken. Selvfølgelig ønsker vi å se disse dataene i Google Analytics. Vi skal bare gå gjennom delen om å opprette lenken.
 
-![SuperOffice tracking link -screenshot][img6]
+![SuperOffice sporingslenke -screenshot][img6]
 
-When creating the link in SuperOffice we it asks for an URL. To be able to see that the user is coming from the newsletter you need to add some relevant parameters to the URL. These are:
+Når du oppretter lenken i SuperOffice, ber den om en URL. For å kunne se at brukeren kommer fra nyhetsbrevet, må du legge til noen relevante parametere i URL-en. Disse er:
 
-| Setting | UTM parameter | Required | Description |
+| Innstilling | UTM-parameter | Påkrevd | Beskrivelse |
 |---|---|:-:|---|
-| Campaign Source | utm_source | X | Identifies a search engine, newsletter name, or other source. Example: `utm_source=newsletter June 2015` |
-| Campaign Medium | utm_medium | X | Identifies a medium such as email or cost-per-click. Example: `utm_medium=email` |
-| Campaign Content | utm_content | | Used for A/B testing and content-targeted ads. Use utm_content to differentiate ads or links that point to the same URL. Examples: `utm_content=logolink`, `utm_content=textlink` |
-| Campaign Name | utm_campaign | | Used for keyword analysis. Identifies a specific product promotion or strategic campaign. Example: `utm_campaign=newsletters` |
+| Kampanjekilde | utm_source | X | Identifiserer en søkemotor, nyhetsbrevnavn eller annen kilde. Eksempel: `utm_source=newsletter June 2015` |
+| Kampanjemedium | utm_medium | X | Identifiserer et medium som e-post eller kostnad-per-klikk. Eksempel: `utm_medium=email` |
+| Kampanjeinnhold | utm_content | | Brukes til A/B-testing og innholdsrettede annonser. Bruk utm_content for å differensiere annonser eller lenker som peker til samme URL. Eksempler: `utm_content=logolink`, `utm_content=textlink` |
+| Kampanjenavn | utm_campaign | | Brukes til nøkkelordsanalyse. Identifiserer en spesifikk produktfremming eller strategisk kampanje. Eksempel: `utm_campaign=newsletters` |
 
-The final URL should be something like this:
+Den endelige URL-en skal være noe som dette:
 
 `http://www.somecorp.com/index.html?utm_source=newsletter%20june%202015&utm_medium=email&utm_content=textlink&utm__campaign=newsletters`
 
-Remember that URLs do not handle spaces, so you need to replace spaces with %20 in the URL. Try [Google's URL builder][2] to help you generate these URLs.
+Husk at URL-er ikke håndterer mellomrom, så du må erstatte mellomrom med %20 i URL-en. Prøv [Google's URL builder][2] for å hjelpe deg med å generere disse URL-ene.
 
-The URL you created or generated with URL builder you paste in the URL field for a link, like shown below:
+URL-en du opprettet eller genererte med URL-builderen limer du inn i URL-feltet for en lenke, som vist nedenfor:
 
 ![URL -screenshot][img7]
 
-Or you can insert the same URL in a tracked link, like this:
+Eller du kan sette inn den samme URL-en i en sporbar lenke, slik:
 
-![Insert URL -screenshot][img8]
+![Sett inn URL -screenshot][img8]
 
-Now we are ready to send the newsletter. When you have sent the newsletter, head on over back to Google Analytics.
+Nå er vi klare til å sende nyhetsbrevet. Når du har sendt nyhetsbrevet, gå tilbake til Google Analytics.
 
 ![Google Analytics -screenshot][img9]
 
-You will now see the traffic generated by your email newsletter. As you see in the image, you can see statistics for the campaign **Newsletter June 2015**. You will also see which medium these users are coming from and the number of clicks for each medium. This will enable us to compare which medium is generating most clicks.
+Du vil nå se trafikken generert av e-postnyhetsbrevet ditt. Som du ser på bildet, kan du se statistikk for kampanjen **Nyhetsbrev juni 2015**. Du vil også se hvilket medium disse brukerne kommer fra og antall klikk for hvert medium. Dette vil gjøre det mulig for oss å sammenligne hvilket medium som genererer flest klikk.
 
-Start exploring the possibilities!
+Begynn å utforske mulighetene!
 
 <!-- Referenced links -->
 [1]: http://analytics.google.com

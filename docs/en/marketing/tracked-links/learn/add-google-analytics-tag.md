@@ -2,7 +2,7 @@
 uid: help-en-mailing-add-google-analytics
 title: How to add your Google Analytics tag to a mailing
 description: In this how-to guide, you will learn how to track your visitors.
-keywords: Marketing
+keywords: Marketing, Google Analytics, mailing
 author: Bergfrid Dias
 so.date: 02.20.2024
 so.version: 10

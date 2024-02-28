@@ -1,6 +1,6 @@
 ---
 uid: help-no-define-link-actions
-title: Definere automatiskekoblingshandlinger
+title: Definere automatiske koblingshandlinger
 description: I denne veiledningen lærer du hvordan du bruker koblinger i utsendelser til å automatisere handlinger.
 keywords: Markedsføring
 author: Bergfrid Dias
