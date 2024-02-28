@@ -11,3 +11,7 @@ items:
   href: add-merge-tag.md
 - name: Legge til kobling for å vise melding i nettleseren
   href: add-link-to-display-message-in-browser.md
+- name: Legge til lenke for å avslutte abonnement (GDPR)
+  href: add-unsubscribe-link.md
+- name: Legge til sporet kobling i en melding
+  href: add-tracked-link-to-msg.md

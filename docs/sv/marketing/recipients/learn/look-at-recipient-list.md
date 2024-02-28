@@ -8,7 +8,7 @@ so.date: 02.09.2024
 so.version: 10
 so.topic: howto
 language: sv
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -34,7 +34,7 @@ SuperOffice Marknadsföring samlar in data om statusen för varje skickat e-post
 
 4. Använd kryssrutorna i den vänstra kolumnen för att välja alla eller specifika mottagare.
 
-5. Klicka på ![ikon][img2] menyknappen. Här har du följande alternativ:
+5. Klicka på **Åtgärder** menyknappen. Här har du följande alternativ:
     * Exportera de valda mottagarna till en Excel-, HTML- eller textfil.
     * [Lägg till de valda mottagarna till ett nytt eller befintligt urval eller projekt](#add-recipients).
     * Skicka om utskicket till de valda mottagarna.
@@ -66,18 +66,29 @@ Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice s
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="add-recipients" />Lägga till mottagare till urval eller projekt
 
-Med hjälp av ![ikon][img2] menyknappen kan du lägga till mottagare och klickare i ett urval eller projekt.
+Med hjälp av **Åtgärder** menyknappen kan du lägga till mottagare och klickare i ett urval eller projekt.
 
 > [!NOTE]
 > Endast kontakter som redan är registrerade i SuperOffice-databasen läggs till i urvalet eller projektet. En kontaktikon ![ikon][img3] i kolumnen **Typ** anger att en kontakt är registrerad i SuperOffice-databasen. Mottagare som har importerats från externa listor registreras normalt inte.
 
 ### Lägga till klickare i ett nytt urval eller projekt
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+1. Välj de relevanta kontakterna i listan.
+2. Klicka på **Åtgärder** menyknappen.
+3. Klicka på **Lägg till i nytt urval** eller **Lägg till i nytt projekt**.
+4. Skriv namnet på det nya urvalet eller projektet.
+5. Klicka på **OK**.
 
 ### Lägg till klickare i ett befintligt urval eller projekt
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+1. Välj de relevanta kontakterna i listan.
+2. Klicka på **Åtgärder** menyknappen.
+3. Klicka på **Lägg till i befintligt urval** eller **Lägg till i befintligt projekt**.
+4. Börja skriva namnet på det urval eller projekt som du vill söka efter.
+5. Klicka på urvalet eller projektet i listan.
+6. Klicka på **OK**.
+
+Öppna urvalet eller projektet och kontrollera att kontakterna lades till.
 
 ## Relaterade ämnen
 
@@ -91,6 +102,5 @@ Med hjälp av ![ikon][img2] menyknappen kan du lägga till mottagare och klickar
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

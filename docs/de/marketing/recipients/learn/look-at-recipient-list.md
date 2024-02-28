@@ -4,11 +4,11 @@ title: Nach der Kampagne mit der Empfängerliste arbeiten
 description: Nach der Kampagne mit der Empfängerliste arbeiten
 keywords: Marketing, Empfänger
 author: SuperOffice RnD
-so.date: 02.09.2024
+so.date: 02.27.2024
 so.version: 10
 so.topic: howto
 language: de
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -34,7 +34,7 @@ Nach dem Senden der Kampagne sammelt SuperOffice Marketing Daten über den Statu
 
 4. Verwenden Sie die Kontrollkästchen in der linken Spalte, um alle oder einzelne Empfänger auszuwählen.
 
-5. Klicken Sie auf die Schaltfläche Menü ![Symbol][img2]. Sie haben hier die folgenden Optionen:
+5. Klicken Sie auf die Schaltfläche Menü **Actionen**. Sie haben hier die folgenden Optionen:
     * Ausgewählte Empfänger in eine Excel-, HTML- oder Textdatei exportieren.
     * [Ausgewählte Empfänger einer neuen oder vorhandenen Selektion bzw. einem Projekt hinzufügen](#add-recipients).
     * Die Kampagne erneut an die ausgewählten Empfänger senden.
@@ -66,18 +66,29 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 <!-- markdownlint-disable-next-line MD013 -->
 ## <a id="add-recipients" />Empfänger Selektionen oder Projekten hinzufügen
 
-Über die Menüschaltfläche ![Symbol][img2] können Sie Empfänger und Klicker zu einer Selektion oder einem Projekt hinzufügen.
+Über die Menüschaltfläche **Actionen** können Sie Empfänger und Klicker zu einer Selektion oder einem Projekt hinzufügen.
 
 > [!NOTE]
 > Es werden ausschließlich Personen zur Selektion oder zum Projekt hinzugefügt, die in der Datenbank von SuperOffice erfasst sind. Ein Personensymbol ![Symbol][img3] in der Spalte **Typ** gibt an, dass eine Person in der Datenbank von SuperOffice erfasst ist. Empfänger, die aus externen Listen importiert worden sind, werden in der Regel nicht erfasst.
 
 ### Klicker einer neuen oder vorhandenen Selektion bzw. einem Projekt hinzufügen
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+1. Wählen Sie die entsprechenden Personen aus der Liste aus.
+2. Klicken Sie auf die Schaltfläche Menü **Actionen**.
+3. Klicken Sie auf **Zu neuer Selektion hinzufügen** oder **Zu neuem Projekt hinzufügen**.
+4. Geben Sie den Namen der neuen Selektion bzw. des neuen Projekts ein.
+5. Klicken Sie auf **OK**.
 
 ### Klicker einer vorhandenen Selektion bzw. einem vorhandenen Projekt hinzufügen
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+1. Wählen Sie die entsprechenden Personen aus der Liste aus.
+2. Klicken Sie auf die Schaltfläche Menü **Actionen**.
+3. Klicken Sie auf **Zu vorhandener Selektion hinzufügen** oder **Zu vorhandenem Projekt hinzufügen**.
+4. Beginnen Sie mit der Eingabe des Namens der gesuchten Selektion bzw. des Projekts.
+5. Klicken Sie auf eine Selektion oder ein Projekt in der Liste.
+6. Klicken Sie auf **OK**.
+
+Öffnen Sie die Selektion bzw. das Projekt und überprüfen Sie, ob die Personen hinzugefügt wurden.
 
 ## Verwandte Themen
 
@@ -91,6 +102,5 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

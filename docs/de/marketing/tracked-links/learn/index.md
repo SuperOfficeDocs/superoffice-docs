@@ -2,22 +2,23 @@
 uid: help-de-mailing-tracked-links
 title: Überwachte Links
 description: "Ein in eine Kampagne eingefügter Link kann verwendet werden, um die Antworten Ihrer Kunden und Interessenten zu verfolgen. Wenn die Empfänger Ihrer Kampagne auf den Link klicken, wird eine Aktion ausgelöst." 
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
+keywords: Marketing, Kampagne, Aussendung, Newsletters, Überwachte Links
+author: Bergfrid Dias
+so.date: 02.27.2024
+so.version: 10
 so.topic: concept
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Überwachte Links
 
-[!include[Requirement](includes/req-marketing.md)]
+Die Links, die Sie in Ihrem Newsletter oder Ihrer E-Mail-Kampagne verwenden, werden durch Ihre Ziele bestimmt. Jedes Ziel hat einen einzigartigen Handlungsanreize, die eine Reaktion des Empfängers auslöst, die Sie verfolgen können. Dies ermöglicht es Ihnen, mit Ihren Empfängern in Kontakt zu treten, sobald Sie alle Ergebnisse gesammelt haben.
 
-Das Ziel Ihres Newsletters oder Ihrer E-Mail-Kampagne bestimmt, welche Links Sie verwenden sollten. Jedes Ziel hat ihre eigenen Handlungsanreize, um eine Antwort des Empfängers auszulösen, den Sie verfolgen möchten. Auf diese Weise können Sie Ihre Empfänger nachverfolgen, nachdem Sie alle Ergebnisse erhalten haben.
+Beispielsweise könnte ein Klick auf einen Link eine neue Website öffnen oder die Kontaktinformationen eines Empfängers aktualisieren. Es könnte auch eine [Serviceanfrage][8] hinzufügen.
 
-Wenn Sie zum Beispiel auf einen Link klicken, wird möglicherweise eine neue Website geöffnet oder die Personenkarte des Empfängers aktualisiert. Die Aktion kann auch eine Serviceanfrage in Service und auf der Bereichsregisterkarte Anfrage in der Personenkarte hinzufügen. Die Verwendung von Links ist nur für Benutzer verfügbar, die den Marketingplan abonniert haben.
-
-Bevor Sie mit der eigentlichen Kampagne beginnen, können Sie die Links einrichten, die Sie häufig in Ihren Kampagnen verwenden werden. Nachdem Sie sie eingerichtet haben, können Sie sie immer wieder verwenden, um Zeit zu sparen. Die gebräuchlichsten Links sind zum Beispiel:
+Sie können häufig verwendete Links sogar schon vor der Erstellung von Inhalten einrichten. Dies ermöglicht es Ihnen, diese Links wiederzuverwenden und Zeit zu sparen. Die gebräuchlichsten Links sind unter anderem:
 
 * Abmeldeseiten
 * Kontaktformulare
@@ -25,30 +26,52 @@ Bevor Sie mit der eigentlichen Kampagne beginnen, können Sie die Links einricht
 
 ![In der Anzeige Link-Eigenschaften können Sie Links hinzufügen, die Sie verfolgen möchten -screenshot][img4]
 
-Sie können Links (URLs) in eine Nachricht aufnehmen und überwachen. Mit anderen Worten ausgedrückt können Sie feststellen, wie viele Empfänger auf die Links geklickt haben.
-
 Die URLs der einzelnen Empfänger muss eindeutig sein. So können Sie sicher sein, dass es verschiedene Empfänger waren, die auf die Links geklickt haben, und nicht ein und derselbe Benutzer mehrmals auf die Links geklickt hat. Darüber hinaus müssen die URLs auf den SuperOffice-Server verweisen, damit sie gezählt werden können, bevor sie an die Ziel-URL weitergeleitet werden. Das Programm führt diese Vorgänge automatisch aus, wenn Sie die URLs in der Nachricht auswählen, die Sie überwachen möchten.
+
+## Welche Links werden verfolgt?
+
+Wenn Sie **alle Links für eine Kampagne anzeigen** möchten, müssen Sie die Kampagne im Übersichtsmodus öffnen und die Registerkarte [Überwachte Links][4] auswählen.
+
+## Registerkarte Überwachte Links
 
 Auf der Registerkarte **Überwachte Links** stehen folgende Optionen zur Verfügung:
 
 | Symbol | Option | Weiterlesen |
-|---|---|---|
-| ![Symbol][img2] | Nachricht | [Neuen Link erstellen][1] |
+|:-:|---|---|
+| ![Symbol][img2] | Nachricht | [Neuen Link erstellen][1], [Verknüpfungsaktionen definieren][7] |
 | ![Symbol][img3] | Ordner hinzufügen | Für Ihre Links einen [Ordner erstellen][5] |
 | Link | Klicken Sie auf einen Link, um die Ansicht **Link anzeigen** zu öffnen. | [Nach der Kampagne mit überwachten Links arbeiten][2] |
 | ![Symbol][img1] | Menü | Klicken Sie auf die Menüschaltfläche neben einem Link, um mehr Optionen aufzurufen. |
 
 Menüoptionen:
 
-* **Ansicht**. [Wie man mit überwachten Links nach der Kampagne arbeitet][2].
-* **Bearbeiten**. [Wie man überwachte Links erstellt][1].
-* **Zurücksetzen**. [Wie man Zähler für Links zurückstellt][2].
-* **In Ordner verschieben**. Wird verwendet, um den Link in einen anderen Ordner zu verschieben.
-* **Löschen**. Löscht den Link.
+* [**Ansicht**][2]
+* [**Bearbeiten**][1]
+* [**Zurücksetzen**][10] (Zähler für Links)
+* **In Ordner verschieben** (verschiebt den Link in einen anderen Ordner)
+* **Löschen**
 
-## Welche Links werden verfolgt?
+## <a id="ex" />Use cases
 
-Wenn Sie **alle Links für eine Kampagne anzeigen** möchten, müssen Sie die Kampagne im Übersichtsmodus öffnen und die Registerkarte [Überwachte Links][4] auswählen.
+Überwachbare Links können auf verschiedene Arten genutzt werden:
+
+* **Antwort**: Erfassen Sie jeden Klick eines Empfängers auf einen Link, wie z. B. eine neue Produktseite, um das Interesse über mehrere Kampagnen hinweg zu messen.
+
+* **Interessentenliste**: Für den Start eines neuen Produkts können Empfänger ihr Interesse bekunden, indem sie auf den Link "Bitte senden Sie mir weitere Informationen zu" klicken. Klicker können einer [statischen Selektion][9] für weiteres Kontaktmanagement hinzugefügt werden.
+
+* **CRM-Folgeaufgaben**: Anstelle einer Interessentenliste generieren Sie für jeden Linkklick eine Aufgabe oder Besprechung und weisen Sie diese einem Verkäufer oder Kundenkontakt zu. Ein Klick auf den Link "Bitte setzen Sie sich mit mir in Verbindung" könnte beispielsweise eine "Abgehender Anruf" auslösen.
+
+* **Abmeldung**: Fügen Sie einen [Abmelde-Link][4] in den Inhalts-Editor ein, um einen bestimmten Kampagnentyp zu stoppen. Kunden können sich auch von einzelnen Empfängerlisten abmelden.
+
+    Fügen Sie einen Link hinzu (z. B. "Klicken Sie hier, wenn Sie unsere Newsletter nicht mehr erhalten möchten"), um Kunden aus der Empfängerliste zu entfernen. Wenn ein Newsletter nur an Kontakte mit dem Interesse "Newsletter" gesendet wird, kann dieses Interesse für Linkklicker entfernt werden.
+
+    > [!TIP]
+    > Überwachen Sie Abonnementkündigungen, indem Sie Linkklicker zu einer separaten Selektion hinzufügen, z. B. "Newsletter 2024 - stornierte Abonnements". Mehrere Aktionen können demselben Link hinzugefügt werden.
+
+* **Berater buchen**: Für ein großes Produktupdate fügen Sie einen Link hinzu, über den Kunden einen Berater buchen können. Jeder Linkklick registriert eine neue Serviceanfrage, die der Kategorie "Berater" zugeordnet ist. Der Kunde erhält die Rückmeldung, dass er von einem Berater kontaktiert wird.
+
+> [!NOTE]
+> Diese Beispiele funktionieren genauso gut für normale Links, aber in diesem Fall werden nur die Klicks für die jeweilige Aussendung erfasst.
 
 ## <a id="google" />Google Analytics
 
@@ -73,17 +96,19 @@ Die Google Analytics-Funktion in SuperOffice Marketing identifiziert Ihre Kampag
 
 * [Links einfügen, die Sie überwachen möchten][3]
 * [Links für Abonnement hinzufügen][4]
-* [Einfache E-Mail-Überwachung mit Google Analytics][6] - Blog
-* [Verknüpfungsaktionen definieren][7]
+* [Einfache E-Mail-Überwachung mit Google Analytics][6]
 
 <!-- Referenced links -->
 [1]: create-links.md
 [2]: explore-clicks.md
-[3]: add-tracked-link-to-msg.md
-[4]: ../../recipients/learn/add-unsubscribe-link.md
-[5]: ../../learn/create-folder.md
-[6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
 [7]: define-link-actions.md
+[6]: ga-tutorial.md
+[10]: reset-counter.md
+[3]: ../../editor/learn/add-tracked-link-to-msg.md
+[4]: ../../editor/learn/add-unsubscribe-link.md
+[5]: ../../learn/create-folder.md
+[8]: ../../../request/learn/index.md
+[9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

@@ -8,7 +8,7 @@ so.date: 02.07.2024
 so.version: 10
 so.topic: howto
 language: sv
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -24,7 +24,7 @@ Lägga till innehåll till ditt meddelande med hjälp av sidopanelen.
 Från avsnittet **Innehåll** kan du lägga till alla typer av innehåll, såsom kolumner, textblock, bilder, menyer/knappar och SoME-länkar. Dra och släpp innehåll från det här avsnittet till meddelandet. Klicka på innehållet för att [redigera][2] det i sidopanelen.
 
 | Ikon | Namn | Funktion |
-|------|------|----------|
+|:-:|---|----------|
 | ![ikon][img2] | Kolumner | Använd kolumner för att strukturera meddelandet i kolumner och rader. |
 | ![ikon][img3] | Knapp | Använd knappar för att lägga till spårade länkar, vanliga webbadresser eller prenumerera på länkar. |
 | ![ikon][img4] | Linjer | Använd linjer för att avgränsa textblock och annat innehåll. |
@@ -53,9 +53,22 @@ I det här avsnittet kan du redigera de globala egenskaperna och layouten för m
 
 Lägg till bilder från SuperOffice-databasen eller från den royaltyfria online-bilddatabasen. [Så här lägger du in bilder i meddelandet][1].
 
+## Lägga till speciallänkar
+
+Du kan också **lägga till speciallänkar** i ditt utskick. Beroende på vad du vill uppnå kan du välja mellan att:
+
+* [Länka för att visa meddelandet online][3]
+* [Hantera prenumerationer][6]
+* [Avregistrering][4]
+* [Spårade länkar][5]
+
 <!-- Referenced links -->
 [1]: insert-images-in-message.md
 [2]: edit-paragraph.md
+[3]: add-link-to-display-message-in-browser.md
+[4]: add-unsubscribe-link.md
+[5]: add-tracked-link-to-msg.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content.png

@@ -8,7 +8,7 @@ so.date: 02.06.2024
 so.version: 10
 so.topic: concept
 language: no
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -142,12 +142,12 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 
 <!-- Referenced links -->
 [3]: ../../learn/best-practices.md#mobile
+[9]: ../../learn/message-templates.md
 [1]: add-content.md
 [5]: edit-paragraph.md
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
-[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
-[9]: ../../learn/message-templates.md
+[8]: add-tracked-link-to-msg.md
 [2]: https://help.superoffice.com/Documentation/Help/NO/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->

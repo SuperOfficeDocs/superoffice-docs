@@ -8,7 +8,7 @@ so.date: 02.12.2024
 so.version: 10
 so.topic: concept
 language: sv
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -108,7 +108,7 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 [3]: ../tracked-links/learn/define-link-actions.md
 [5]: ../mailing/learn/create/index.md
 [8]: ../recipients/learn/manage-email-subscriptions.md
-[10]: ../recipients/learn/add-unsubscribe-link.md
+[10]: ../editor/learn/add-unsubscribe-link.md
 [4]: ../../dashboard/learn/show-marketing.md
 [7]: ../../security/privacy/learn/index.md
 [9]: ../../security/privacy/learn/send-privacy-confirmation-email.md

@@ -8,7 +8,7 @@ so.date: 02.09.2024
 so.version: 10
 so.topic: howto
 language: no
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -61,7 +61,7 @@ Hva du bør tenke på når du vil segmentere databasen:
 
 ![Finn ut hvilke interesser en person har i fanen Interesse på personkortet -screenshot][img1]
 
-## Utvalg som mållister
+## <a id ="selections" />Utvalg som mållister
 
 Bruk utvalgene til å opprette mållistene dine for å sikre at du har riktig målgruppe for utsendelsene.
 

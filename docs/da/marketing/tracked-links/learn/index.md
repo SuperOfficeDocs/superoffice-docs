@@ -3,21 +3,22 @@ uid: help-da-mailing-tracked-links
 title: Sporede links
 description: "Et link, der sættes ind i en mailudsendelse, kan bruges til at spore besvarelser fra både eksisterende og potentielle kunder. Når modtagerne af din mailudsendelse klikker på linket, aktiveres en handling." 
 author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Marketing
+so.date: 02.26.2024
+so.version: 10
 so.topic: concept
 language: da
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Sporede links
 
-[!include[Requirement](includes/req-marketing.md)]
+De links, som du bruger i dit nyhedsbrev eller e-mailkampagne, bestemmes af dine mål. Hver mål har en unik opfordring til handling, der udløser en respons fra modtageren, som du kan spore. Dette gør det muligt for dig at følge op med dine modtagere, når du har modtaget alle svarene.
 
-Formålet med dit nyhedsbrev eller din e-mailkampagne er det der afgør, hvilke links du skal bruge. Hvert formål vil udløse en bestemt respons fra den modtager, du ønsker at spore. På den måde kan du følge op på dine modtagere, så snart du har modtaget alle svarene.
+For eksempel kan et linkklik åbne en ny hjemmeside eller opdatere en modtagers kontaktkort. Det kan også tilføje en [Service-sag][8].
 
-For eksempel kan et klik på et link åbne en ny hjemmeside eller opdatere din modtagers kontaktoplysninger. Handlingen kan også oprette en service-sag i Service og i fanen Sag på visitkortet. Brugen af links er kun tilgængelig for brugere, der abonnerer på Marketingplanen.
-
-Før du iværksætter den egentlige mailudsendelse, kan du sætte de links ind, som du ofte bruger i dine mailudsendelser. Når du har konfigureret dem, kan du bruge dem igen og igen, hvilket hjælper dig med at spare tid. De links, der er mest almindelige at bruge, er f.eks:
+Du kan oprette ofte brugte links, selv før du opretter indhold. Dette giver dig mulighed for at genbruge disse links og spare tid. Almindeligt anvendte links inkluderer:
 
 * Afmeldelseslink
 * Kontaktformularer
@@ -25,30 +26,52 @@ Før du iværksætter den egentlige mailudsendelse, kan du sætte de links ind, 
 
 ![På skærmbilledet for indstillinger af links kan du tilføje links, du vil spore -screenshot][img4].
 
-Du kan i en meddelelse medtage links (URL-adresser), som du kan spore. Med andre ord kan du se, hvor mange modtagere der har klikket på dem.
-
 URL'erne skal være unikke for hver enkelt modtager, så du kan være sikker på, at det var forskellige modtagere, der klikkede på linket, og ikke den samme, der klikkede flere gange. Derudover skal URL-adresser pege på SuperOffice-serveren, så de kan tælles, før de omdirigeres til den oprindelige URL-adresse. Dette klarer programmet automatisk, når du vælger, hvilke af URL-adresserne i meddelelsen, du ønsker at spore.
+
+## Hvilke links bliver sporet?
+
+For at se alle links i en mailudsendelse, skal du åbne udsendelsen i visningstilstand og vælge fanen **Sporede links**.
+
+## Fanen Sporede links
 
 I fanebladet **Sporede links** har du følgende valgmuligheder:
 
 | Ikon | Mulighed | Læs mere |
-|---|---|---|
-| ![Ikon][img2] | Tilføj | [Opret et nyt link][1] |
+|:-:|---|---|
+| ![Ikon][img2] | Tilføj | [Opret et nyt link][1], [Definer linkhandlinger][7] |
 | ![Ikon][img3] | Tilføj mappe | [Opret en mappe][5] til dine links |
 | Link | Klik på et link for at åbne **Visning af link** -skærmbilledet. | [Arbejde med sporede links efter udsendelsen][2] |
 | ![Ikon][img1] | Menu | Klik på knappen ud for et link for at få adgang til flere indstillinger: |
 
 Menuindstillinger:
 
-* **Vis**. [Sådan arbejder du med sporede links efter mailudsendelsen][2].
-* **Rediger**. [Sådan opretter du sporede links][1].
-* **Nulstil**. [Sådan nulstiller du linktællere][2].
-* **Flyt til mappe**. Bruges til at flytte linket til en anden mappe.
-* **Slet**. Sletter linket.
+* [**Vis**][2]
+* [**Rediger**][1]
+* [**Nulstil**][10] (linktællere)
+* **Flyt til mappe** (flytter linket til en anden mappe)
+* **Slet**
 
-## Hvilke links bliver sporet?
+## <a id="ex" />Eksempler på brug
 
-For at [se alle links i en mailudsendelse][4], skal du åbne udsendelsen i visningstilstand og vælge fanen **Sporede links**.
+Sporbare links kan bruges på forskellige måder:
+
+* **Svar**: Optag hvert modtagerklik på et link, som f.eks. en ny produktside, for at måle interesse på tværs af flere udsendelser.
+
+* **Prospektliste**: For en lancering af et nyt produkt kan modtagere vise interesse ved at klikke på linket "Send mig mere info". Klikkere kan tilføjes til et [statisk udtræk][9] til at håndtere den videre kontakt med disse kunder.
+
+* **CRM-opfølgning**: Generer i stedet for en prospektliste en opgave eller møde for hvert linkklik og tildel det til en salgsmedarbejder eller kundekontakt. For eksempel kan et klik på linket "Kontakt mig" generere en opfølgning med "Udgående telefonopkald".
+
+* **Afmelding**: Indsæt en [afmeldingslink][4] i indholdsredigeringsværktøjet for at stoppe en bestemt type udsendelse. Alternativt kan kunder afmelde sig fra individuelle modtagerlister.
+
+    Tilføj et link (f.eks. "Klik her, hvis du ikke længere ønsker at modtage vores nyhedsbreve") for at fjerne kunder fra modtagerlisten. Hvis et nyhedsbrev kun sendes til kontakter med interesse for "Nyhedsbrev", kan denne interesse fjernes for linkklikkerne.
+
+    > [!TIP]
+    > Overvåg afmeldinger ved at tilføje linkklikkerne til et separat udtræk, f.eks. "Nyhedsbrev 2024 - afmeldte abonnementer". Flere handlinger kan tilføjes det samme link.
+
+* **Book konsulent**: Til en større produktopdatering, tilføj et link til kunderne for at booke en konsulent. Hvert linkklik registrerer en ny Service-sag, tildelt til kategorien "Konsulent". Kunden modtager feedback om, at de vil blive kontaktet af en konsulent.
+
+> [!NOTE]
+> Disse eksempler fungerer lige så godt for almindelige links, men i så fald registreres kun klik for den enkelte udsendelse.
 
 ## <a id="google" />Google Analytics
 
@@ -73,17 +96,19 @@ Google Analytics-funktionen i SuperOffice Marketing identificerer dine mailudsen
 
 * [Medtage links, du vil spore][3]
 * [Tilføje abonnement-links][4]
-* [Enkel e-mailsporing med Google Analytics][6] - blog
-* [Definer linkhandlinger][7]
+* [Enkel e-mailsporing med Google Analytics][6]
 
 <!-- Referenced links -->
 [1]: create-links.md
 [2]: explore-clicks.md
-[3]: add-tracked-link-to-msg.md
-[4]: ../../recipients/learn/add-unsubscribe-link.md
-[5]: ../../learn/create-folder.md
-[6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
 [7]: define-link-actions.md
+[6]: ga-tutorial.md
+[10]: reset-counter.md
+[3]: ../../editor/learn/add-tracked-link-to-msg.md
+[4]: ../../editor/learn/add-unsubscribe-link.md
+[5]: ../../learn/create-folder.md
+[8]: ../../../request/learn/index.md
+[9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

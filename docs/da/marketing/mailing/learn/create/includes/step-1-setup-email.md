@@ -39,14 +39,9 @@ Hvis din administrator har aktiveret [generelle indstillinger][2] i form af **Br
 Hvis du forsøger at sende fra et domæne, der ikke har en gyldig SPF-registrering, får du vist en advarsel, og du kan ikke sende fra det domæne. Det gælder for alle e-maildomæner, også selvom valideringspræferencen ikke er aktiveret.
 
 > [!NOTE]
-> Hvis **Vores kontaktadresse** har et e-maildomæne, der ikke er valideret, sendes mailudsendelsen automatisk fra den adresse, der er angivet i rullelisten **Ellers brug** .
-
-## Relaterede emner
-
-* [Maksimér din succes med e-mailmarkedsføring med disse tips om levering][1] - blog
+> Hvis **Vores kontaktadresse** har et e-maildomæne, der ikke er valideret, sendes mailudsendelsen automatisk fra den adresse, der er angivet i rullelisten **Ellers brug**.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/email-deliverability-tips/
 [2]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
 [4]: ../../../../learn/create-folder.md
 

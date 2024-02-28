@@ -11,3 +11,7 @@ items:
   href: add-merge-tag.md
 - name: Einen Link hinzufügen, um die Mitteilung im Browser anzuzeigen
   href: add-link-to-display-message-in-browser.md
+- name: Abmeldelink hinzufügen (DSGVO)
+  href: add-unsubscribe-link.md
+- name: Überwachter Link zu einer Mitteilung hinzufügen
+  href: add-tracked-link-to-msg.md

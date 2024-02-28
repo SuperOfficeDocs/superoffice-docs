@@ -8,7 +8,7 @@ so.date: 02.06.2024
 so.version: 10
 so.topic: howto
 language: nl
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -24,7 +24,7 @@ Inhoud toevoegen aan uw bericht met behulp van het zijpaneel.
 In de sectie **Inhoud** kunt u alle soorten inhoud toevoegen, zoals kolommen, tekstblokken, afbeeldingen, menu's/buttons en SoMe-links. Inhoud van deze sectie naar het bericht slepen en neerzetten. Klik op de inhoud om deze in het zijpaneel te [bewerken][2].
 
 | Pictogram | Naam | Functie |
-|------|------|----------|
+|:-:|---|----------|
 | ![pictogram][img2] | Kolommen | Gebruik kolommen om uw bericht te structureren in kolommen en rijen. |
 | ![pictogram][img3] | Knop | Gebruik buttons om gevolgde links, normale URL's of links voor abonnementen toe te voegen. |
 | ![pictogram][img4] | Scheidingslijn | Gebruik divider-lijnen om tekstblokken en andere inhoud te scheiden. |
@@ -53,9 +53,22 @@ In deze sectie kunt u de algemene eigenschappen en layout voor het bericht bewer
 
 Voeg afbeeldingen toe uit de SuperOffice-database of uit de royaltyvrije afbeeldingendatabase. [Afbeeldingen in het bericht invoegen][1].
 
+## Speciale koppelingen toevoegen
+
+U kunt ook **speciale koppelingen toevoegen** aan uw mailing. Afhankelijk van wat u wilt bereiken, kunt u kiezen tussen:
+
+* [Koppeling om bericht online te bekijken][3]
+* [Abonnementen beheren][6]
+* [Uitschrijven][4]
+* [Gevolgde links][5]
+
 <!-- Referenced links -->
 [1]: insert-images-in-message.md
 [2]: edit-paragraph.md
+[3]: add-link-to-display-message-in-browser.md
+[4]: add-unsubscribe-link.md
+[5]: add-tracked-link-to-msg.md
+[6]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content.png

@@ -3,46 +3,41 @@ uid: help-sv-mailing-add-google-analytics
 title: Så här lägger du till din Google Analytics-tagg i ett utskick
 description: I den här guiden förklarar vi hur du spårar dina besökare.
 author: Bergfrid Dias
-so.date: 02.20.2023
 keywords: Marknadsföring
+so.date: 02.09.2024
+so.version: 10
 so.topic: howto
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Så här lägger du till din Google Analytics-tagg i ett utskick
 
-Du kan spåra personer som besöker din webbplats eftersom de läst dina utskick genom att använda Google Analytics-funktionen i SuperOffice Marknadsföring. Google Analytics-spårningen måste konfigureras i det [första steget för varje utskick][1] du skapar.
+Med Google Analytics aktiverat kan du spåra webbplatsbesök från mottagare som klickar på länkarna i din utskick. Inställningen för Google Analytics-spårning är inställd på en per-utskicksbasis, vilket ger dig möjlighet att selektivt spåra specifika utskick. Det är inte en generell inställning, vilket ger dig mer kontroll över din dataspårningsstrategi.
 
 ## Krav
 
 Om du vill använda [Google Analytics-funktionen][2] behöver du ett Google Analytics-konto som är kopplat till din webbplats.
 
-[!include[Requirement](includes/req-marketing.md)]
-
 ## Steg
 
-1. Börja med att öppna utskicket du vill spåra med Google Analytics eller skapa ett nytt utskick. Gå till det första steget i e-postguiden (Konfiguration). Rubriken **Spårning** finns i det nedre högra hörnet. Här kan du markera rutorna **Spåra alla länkar** och **Använd Google Analytics**. När du markerar Använd Google Analytics visas textfälten i Google Analytics.
+1. Öppna det utskick du vill spåra eller [skapa ett nytt utskick][1]. I det första steget av e-postguiden (Konfiguration) väljer du **Spåra alla länkar** och **Använd Google Analytics** under rubriken **Spårning**.
 
-    ![Markera rutan för Google Analytics och spåra alla länkar -screenshot][img1]
+    ![Välj Google Analytics och spåra alla länkar -screenshot][img1]
 
-2. I fälten **Google Analytics-spårning** är "E-post" fördefinierat som medium. Det innebär att spårade utskick som skickas från SuperOffice CRM nu finns i Google Channel-rapporter under **E-post** istället för **Annat**.
+2. **Google Analytics-spårning:** "E-post" är fördefinierat som mediet, så spårade e-poster från SuperOffice CRM visas under E-post i Google Channel-rapporter.
 
-3. För att identifiera ett specifikt utskick som källa måste fälten för Källa och Kampanj också fyllas i.
+3. **Källa och kampanj:** Identifiera ett specifikt utskick genom att fylla i fälten **Källa** och **Kampanj**.
 
-    * I fältet **Källa** kan du lägga till källan till din webbplatstrafik. Här kan du välja att använda de olika e-marknadsföringsprenumerationerna, som till exempel Månadsnyhetsbrev, Kampanjutskick etc.
+    * **Källa**-fältet kan inkludera olika e-marknadsföringsprenumerationer som Månadsnyhetsbrev eller Kampanjutskick.
+    * **Kampanj**-fältet kan innehålla kampanjnamn som julförsäljningskampanj eller höstreaskampanj.
 
-    * I fältet **Kampanj** kan du ange namnet på den kampanj du genomför. Detta gör det lättare att spåra och rapportera resultatet av det utskick du har skickat ut. Här kan du ange kampanjnamn, till exempel julförsäljningskampanj eller höstförsäljningskampanj och så vidare.
+4. **Följ utskicks-guiden:** Efter att ha ställt in spårningsdetaljerna fortsätter du med guiden. Välj din mall, lägg till innehåll, lägg till mottagare och skicka utskicket.
 
-4. När du har konfigurerat alla detaljer du vill använda för att spåra ditt utskick i Google Analytics kan du följa stegen i e-postguiden. Klicka på **Nästa** för att välja mall, lägga till innehåll, lägga till mottagare och skicka ditt utskick.
+    Alla länkar som läggs till i det tredje steget (Innehåll) spåras automatiskt.
 
-Alla länkar du lägger till i det tredje steget (Innehåll) spåras automatiskt eftersom du har aktiverat Google Analytics-funktionen. När dina mottagare klickar på länkarna till din webbplats kan du spåra deras besök på din webbplats i Google Analytics.
-
-## Så här kontrollerar du resultatet av ditt utskick i Google Analytics
-
-Du kan kontrollera resultatet av dina utskick genom att logga in på ditt Google Analytics-konto. Dina utskick ska vara synliga i Google Channel-rapporterna under E-post.
-
-> [!NOTE]
-> Ge Google Analytics lite tid att behandla din spårningsinformation. Det kan ta någonstans mellan 1–24 timmar innan din e-postkälla registreras i dina rapporter.
+När dina mottagare klickar på länkarna till din webbplats kan du spåra deras besök på din webbplats i Google Analytics.
 
 <!-- Referenced links -->
 [1]: ../../mailing/learn/create/tutorial-email-mailing.yml

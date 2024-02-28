@@ -8,7 +8,7 @@ so.date: 02.06.2024
 so.version: 10
 so.topic: howto
 language: en
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -98,7 +98,7 @@ Bildet du vil bruke i utsendelsen, har kanskje ikke alltid riktig størrelse. I 
 
 <!-- Referenced links -->
 [1]: ../../learn/add-images.md
-[2]: ../../tracked-links/learn/add-tracked-link-to-msg.md
+[2]: add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png

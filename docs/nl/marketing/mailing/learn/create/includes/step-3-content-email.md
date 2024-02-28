@@ -22,8 +22,8 @@ U kunt inhoudsblokken maken en opslaan waaruit al uw gebruikers kunnen kiezen, z
 [3]: ../../../../editor/learn/add-content.md
 [4]: ../../../../editor/learn/edit-paragraph.md
 [5]: ../../../../editor/learn/add-merge-tag.md
-[11]: ../../../../tracked-links/learn/add-tracked-link-to-msg.md
-[8]: ../../../../recipients/learn/add-unsubscribe-link.md
+[11]: ../../../../editor/learn/add-tracked-link-to-msg.md
+[8]: ../../../../editor/learn/add-unsubscribe-link.md
 [7]: ../send-test-email.md
 
 <!-- Referenced images -->

@@ -2,47 +2,42 @@
 uid: help-de-mailing-add-google-analytics
 title: Wie man Ihr Google Analytics-Tag zu einer Kampagne hinzufügt
 description: "In dieser Anleitung lernen Sie, wie Sie Ihre Besucher nachverfolgen können."
+keywords: Marketing, Google Analytics, verfolgen, Kampagne, Aussendung, Datenverfolgungsstrategie
 author: Bergfrid Dias
-so.date: 02.20.2023
-keywords: Marketing
+so.date: 02.27.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Wie man Ihr Google Analytics-Tag zu einer Kampagne hinzufügt
 
-Sie können die Besucher Ihrer Website verfolgen, nachdem sie Ihre Kampagnen gelesen haben, indem Sie die Google Analytics-Funktion in SuperOffice Marketing verwenden. Die Google Analytics Tracking muss in [erster Schritt für jede Kampagne][1] eingestellt werden, die Sie erstellen.
+Mit Google Analytics aktiviert können Sie Website-Besuche von Empfängern verfolgen, die auf die Links in Ihrer Aussendung klicken. Die Einstellung für das Google Analytics-Tracking wird auf einer pro-Aussendung-Basis festgelegt, was es Ihnen ermöglicht, gezielt bestimmte Aussendungen zu verfolgen. Es handelt sich nicht um eine generelle Einstellung, was Ihnen mehr Kontrolle über Ihre Datenverfolgungsstrategie gibt.
 
 ## Anforderungen
 
 Um die [Google Analytics-Funktion][2] nutzen zu können, benötigen Sie ein Google Analytics-Konto, das mit Ihrer Website verbunden ist.
 
-[!include[Requirement](includes/req-marketing.md)]
-
 ## Schritte
 
-1. Öffnen Sie zunächst die Kampagne, die Sie mit Google Analytics verfolgen möchten oder erstellen Sie eine neue Kampagne. Gehen Sie zum ersten Schritt des Kampagnenassistenten (Setup). Die Überschrift **Tracking** befindet sich in der unteren rechten Ecke. Hier können Sie die Kontrollkästchen **Alle Links verfolgen** und **Google Analytics verwenden**aktivieren. Wenn Sie Google Analytics verwenden aktivieren, werden die Google Analytics-Textfelder angezeigt.
+1. Öffnen Sie die Kampagne, die Sie verfolgen möchten, oder [erstellen Sie eine neue Kampagne][1]. Im ersten Schritt des Kampagnenassistenten (Setup) wählen Sie **Alle Links verfolgen** und **Google Analytics verwenden** unter der Überschrift **Tracking**.
 
     ![Aktivieren Sie das Kontrollkästchen für Google Analytics und verfolgen Sie alle Links -screenshot][img1]
 
-2. In den Feldern **Google Analytics Tracking** ist "E-Mail" als Mittel voreingestellt. Dies bedeutet, dass nachverfolgte Kampagnen , die von SuperOffice gesendet werden, in Google Channel-Berichten unter **E-Mails** anstatt **Andere** zu suchen sind.
+2. **Google Analytics Tracking:** "E-Mail" ist als Mittel voreingestellt, sodass nachverfolgte E-Mails aus SuperOffice CRM in Google Channel-Berichten unter **E-Mails** angezeigt werden.
 
-3. Um eine bestimmte Kampagne als Quelle zu identifizieren, müssen auch die Felder für Quelle und Kampagne ausgefüllt werden.
+3. **Quelle und Kampagne:** Identifizieren Sie eine bestimmte Kampagne, indem Sie die Felder **Quelle** und **Kampagne** ausfüllen.
 
-    * Im Feld **Quelle** können Sie die Quelle Ihres Website-Datenverkehrs hinzufügen. Hier können Sie wählen, ob Sie die verschiedenen E-Marketing-Abonnements verwenden möchten, wie z. B. den monatlichen Newsletter, die Werbekampagne usw.
+    * Das **Quelle**-Feld kann verschiedene E-Marketing-Abonnements wie Monatlicher Newsletter oder Werbekampagne enthalten.
+    * Das **Kampagne**-Feld kann Kampagnennamen wie Weihnachtsverkaufskampagne oder Herbstverkaufskampagne enthalten.
 
-    * Im Feld **Kampagne** können Sie den Namen der Kampagne eingeben, die Sie ausführen. Dies erleichtert die Nachverfolgung und Berichterstattung über die Ergebnisse der von Ihnen gesendeten Kampagne. Hier können Sie Kampagnennamen eingeben, wie zum Beispiel Weihnachtsverkaufskampagne oder Herbstverkaufskampagne usw.
+4. **Folgen Sie dem Kampagnen-Assistenten:** Nachdem Sie die Verfolgungsdetails eingerichtet haben, fahren Sie mit dem Assistenten fort. Wählen Sie Ihre Vorlage aus, fügen Sie Inhalte hinzu, fügen Sie Empfänger hinzu und senden Sie die Kampagne.
 
-4. Nachdem Sie alle Details eingerichtet haben, mit denen Sie Ihre Kampagne in Google Analytics verfolgen möchten, können Sie den Schritten des Kampagnen-Assistenten folgen. Klicken Sie auf **Weiter** um Ihre Vorlage auszuwählen, Inhalte hinzuzufügen, Empfänger hinzuzufügen und Ihr Kampagne zu senden.
+    * Alle Links, die Sie im dritten Schritt (Inhalt) hinzufügen, werden automatisch verfolgt.
 
-Alle Links, die Sie im dritten Schritt (Inhalt) hinzufügen, werden automatisch verfolgt, da Sie die Google Analytics-Funktion aktiviert haben. Sobald Ihre Empfänger auf die Links zu Ihrer Website klicken, können Sie deren Besuche auf Ihrer Website in Google Analytics verfolgen.
-
-## Wie man Kampagnenergebnisse in Google Analytics überprüft
-
-Sie können die Ergebnisse Ihrer Kampagnen überprüfen, indem Sie sich in Ihr Google Analytics-Konto einloggen. Ihre Kampagnen sollten in den Google Channel-Berichten unter E-Mail sichtbar sein.
-
-> [!NOTE]
-> Geben Sie Google Analytics etwas Zeit, um Ihre Tracking-Informationen zu verarbeiten. Es kann zwischen 1 und 24 Stunden dauern, bis Ihre Kampagnenquelle in Ihren Berichten erfasst wurde.
+Sobald Ihre Empfänger auf die Links zu Ihrer Website klicken, können Sie deren Besuche auf Ihrer Website in Google Analytics verfolgen.
 
 <!-- Referenced links -->
 [1]: ../../mailing/learn/create/tutorial-email-mailing.yml

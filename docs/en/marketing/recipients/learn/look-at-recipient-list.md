@@ -8,7 +8,7 @@ so.date: 02.09.2024
 so.version: 10
 so.topic: howto
 language: en
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -34,7 +34,7 @@ After the mailing is sent, SuperOffice Marketing collects data about the status 
 
 4. Use the checkboxes in the left column to select all or specific recipients.
 
-5. Click the ![icon][img2] menu button. Here you have the following options:
+5. Click the **Actions** menu button. Here you have the following options:
     * Export the selected recipients to an Excel, HTML, or text file.
     * [Add the selected recipients to a new or existing selection or project](#add-recipients).
     * Resend the mailing to the selected recipients.
@@ -65,18 +65,27 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 ## <a id="add-recipients" />Add recipients to selections or projects
 
-Using the ![icon][img2] menu button you can add recipients and clickers to a selection or project.
+Using the **Action** button you can add recipients and clickers to a selection or project.
 
 > [!NOTE]
 > Only contacts already registered in the SuperOffice database will be added to the selection or project. A contact icon ![icon][img3] in the **Type** column indicates that a contact is registered in the SuperOffice database. Recipients imported from external lists will typically not be registered.
 
 ### Add clickers to a new selection or project
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+1. Select the relevant contacts in the list.
+2. Click the **Action** button.
+3. Click **Add to existing selection** or **Add to existing project**.
+4. Start writing the name of the selection or project to search.
+5. Click the selection or project in the list.
+6. Click **OK**.
 
 ### Add clickers to an existing selection or project
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+1. Select the relevant contacts in the list.
+2. Click the **Action** menu button.
+3. Click **Add to new selection** or **Add to new project**.
+4. Write the name of the new selection or project.
+5. Click **OK**.
 
 ## Related topics
 
@@ -90,6 +99,5 @@ Using the ![icon][img2] menu button you can add recipients and clickers to a sel
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

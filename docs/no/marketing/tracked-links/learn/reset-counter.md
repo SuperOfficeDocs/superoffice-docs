@@ -2,11 +2,14 @@
 uid: help-no-tracked-links-reset
 title: Nullstille tellere for koblinger
 description: Nullstille tellere for koblinger
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Markedsføring
-so.topic: help
+keywords: Markedsføring, utsendelse, kobling, teller
+author: Bergfrid Dias
+so.date: 02.23.2024
+so.version: 10
+so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Nullstille tellere for koblinger

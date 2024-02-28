@@ -8,7 +8,7 @@ so.date: 02.09.2024
 so.version: 10
 so.topic: howto
 language: nl
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -61,7 +61,7 @@ Waar u aan moet denken als u uw database wilt segmenteren:
 
 ![Controleer wat de interesses van een contactpersoon zijn op het tabblad Interesse op de persoonskaart -screenshot][img1]
 
-## Selecties als doellijsten
+## <a id ="selections" />Selecties als doellijsten
 
 Gebruik selecties om uw doellijsten te maken om ervoor te zorgen dat u de juiste doelgroep hebt om uw mailings te ontvangen.
 

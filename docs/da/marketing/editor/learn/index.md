@@ -8,7 +8,7 @@ so.date: 02.07.2024
 so.version: 10
 so.topic: concept
 language: da
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -49,7 +49,7 @@ I sidepanelet kan du trække og slippe elementer fra afsnittet **Indhold** til m
 
 ## Flyt, kopier og slet indhold
 
-Du kan markere et afsnit og bruge knapperne til at flytte (![ikon][img6]), kopiere (![ikon][img8]) og slette (![ikon][img7]) den.
+Du kan markere et afsnit og bruge knapperne til at flytte ![ikon][img6], kopiere ![ikon][img8] og slette ![ikon][img7] den.
 
 ## Rediger format and layout
 
@@ -142,12 +142,12 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 
 <!-- Referenced links -->
 [3]: ../../learn/best-practices.md#mobile
+[9]: ../../learn/message-templates.md
 [1]: add-content.md
 [5]: edit-paragraph.md
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
-[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
-[9]: ../../learn/message-templates.md
+[8]: add-tracked-link-to-msg.md
 [2]: https://help.superoffice.com/Documentation/Help/NO/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->

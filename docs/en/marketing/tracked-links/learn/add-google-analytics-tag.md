@@ -2,47 +2,42 @@
 uid: help-en-mailing-add-google-analytics
 title: How to add your Google Analytics tag to a mailing
 description: In this how-to guide, you will learn how to track your visitors.
+keywords: Marketing, Google Analytics, mailing
 author: Bergfrid Dias
-so.date: 02.20.2023
-keywords: Marketing
+so.date: 02.20.2024
+so.version: 10
 so.topic: howto
 language: en
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # How to add your Google Analytics tag to a mailing
 
-You can track the people visiting your website as a result of them reading your mailings by using the Google Analytics feature in SuperOffice Marketing. The Google Analytics tracking must be set in the [first step of for every mailing][1] you create.
+With Google Analytics enabled, you can track website visits from recipients who click on the links in your mailing. The Google Analytics tracking setting is set on a per-mailing basis, allowing you to selectively track specific mailings. It is not a blanket setting, giving you more control over your data tracking strategy.
 
 ## Requirements
 
 To use the [Google Analytics feature][2], you need a Google Analytics account connected to your website.
 
-[!include[Requirement](includes/req-marketing.md)]
-
 ## Steps
 
-1. Start by opening the mailing you want to track with Google Analytics or create a new mailing. Go to the first step of the mailing wizard (Setup). The heading **Tracking** is located in the bottom-right corner. Here you can check the boxes **Track all links** and **Use Google Analytics**. When you check Use Google Analytics, the Google Analytics text fields will appear.
+1. Open the mailing you want to track or [create a new mailing][1]. In the first step of the mailing wizard (Setup), check **Track all links** and **Use Google Analytics** under the **Tracking** heading.
 
     ![Check off the box for Google Analytics and track all links -screenshot][img1]
 
-2. In the **Google Analytics tracking** fields, "Email" is pre-defined as the medium. This means that tracked mailings sent from SuperOffice CRM are now found in Google Channel reports under **Email** rather than **Other**.
+2. **Google Analytics Tracking:** "Email" is pre-defined as the medium, so tracked mailings from SuperOffice CRM appear under Email in Google Channel reports.
 
-3. To identify a specific mailing as a source, the fields for Source and Campaign also need to be completed.
+3. **Source and Campaign:** Identify a specific mailing by completing the **Source** and **Campaign** fields.
 
-    * In the **Source** field you can add the source of your website traffic. Here you can choose to use the different E-marketing subscriptions, like, for example, Monthly newsletter, Promotion mailing, etc.
+    * The **Source** field can include different E-marketing subscriptions, like Monthly newsletter or Promotion mailing.
+    * The **Campaign** field can contain campaign names, like Christmas sales campaign or Autumn sales campaign.
 
-    * In the **Campaign** field you can enter the name of the campaign you are running. This will make it easier to track and report the results of the mailing you have sent out. Here you can enter campaign names, like, for example, Christmas sales campaign or Autumn sales campaign, and so on.
+4. **Follow the mailing wizard:** After setting up tracking details, proceed with the mailing wizard. Choose your template, add content, add recipients, and send your mailing.
 
-4. After you have set up all the details you want to use to track your mailing in Google Analytics, you can follow the steps of the mailing wizard. Click **Next** to choose your template, add content, add recipients and send your mailing.
+    * All links added in the Content step will be automatically tracked.
 
-All the links you add in the third step (Content) will automatically be tracked because you have turned on the Google Analytics feature. As soon as your recipients click on the links to your website, you can track their visits to your website in Google Analytics.
-
-## How to check your mailing's results in Google Analytics
-
-You can check the results of your mailings by logging in to your Google Analytics account. Your mailings should be visible in the Google Channel reports under Email.
-
-> [!NOTE]
-> Please allow Google Analytics some time to process your tracking information. Your mailing source may take somewhere between 1-24 hours to register in your reports.
+As soon as your recipients click on the links to your website, you can track their visits to your website in Google Analytics.
 
 <!-- Referenced links -->
 [1]: ../../mailing/learn/create/tutorial-email-mailing.yml

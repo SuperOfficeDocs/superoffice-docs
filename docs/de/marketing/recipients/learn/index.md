@@ -8,7 +8,7 @@ so.date: 02.09.2024
 so.version: 10
 so.topic: howto
 language: de
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -61,7 +61,7 @@ Woran Sie denken sollten, wenn Sie Ihre Datenbank segmentieren möchten:
 
 ![Überprüfen Sie die Interessen einer Person in der Registerkarte Interessen auf der Personenkarte -screenshot][img1]
 
-## Selektionen als Ziellisten
+## <a id ="selections" />Selektionen als Ziellisten
 
 Verwenden Sie Selektionen, um Ihre Ziellisten zu erstellen, damit Sie sicher sind, dass Sie die richtige Audience für den Erhalt Ihrer Kampagnen haben.
 

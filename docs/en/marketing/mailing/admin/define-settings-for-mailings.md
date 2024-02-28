@@ -9,7 +9,7 @@ so.version: 10
 so.topic: howto
 language: en
 so.envir: onsite
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 

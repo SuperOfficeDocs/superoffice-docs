@@ -2,22 +2,23 @@
 uid: help-sv-mailing-tracked-links
 title: Spårade länkar
 description: En länk som du inkluderar i ett utskick kan användas för att spåra svar från dina befintliga och potentiella kunder. När mottagarna av ditt utskick klickar på länken utförs en åtgärd. 
+keywords: Marknadsföring, sporade länker
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marknadsföring
-so.topic: concept
+so.date: 02.09.2024
+so.version: 10
+so.topic: howto
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Spårade länkar
 
-[!include[Requirement](includes/req-marketing.md)]
+De länkar du använder i ditt nyhetsbrev eller e-postkampanj bestäms av dina mål. Varje mål har en unik handlingsuppmaning som utlöser en respons från mottagaren, vilken du kan spåra. Detta gör det möjligt för dig att följa upp med dina mottagare när du har samlat in alla resultat.
 
-Målet med ditt nyhetsbrev eller din e-postkampanj avgör vilka länkar du ska använda. Varje mål har sin egen uppmaning som utlöser ett svar från mottagaren som du vill spåra. På så sätt kan du följa upp dina mottagare efter att du har fått alla resultat.
+Till exempel kan ett klick på en länk öppna en ny webbplats eller uppdatera en mottagares kontaktinformation. Den kan också lägga till ett [serviceärende][8].
 
-Om du till exempel klickar på en länk kan du öppna en ny webbplats eller uppdatera mottagarens kontaktkort. Åtgärden kan också lägga till ett serviceärende i Service och på detaljkortet Ärende på kontaktkortet. Användningen av länkar är endast tillgänglig för användare som prenumererar på marknadsföringsplanen.
-
-Innan du påbörjar själva utskicket kan du ställa in de länkar du kommer att använda ofta i dina utskick. När du har ställt in dem kan du använda dem om och om igen, vilket gör att du kan spara tid. De vanligaste länkarna att använda är till exempel:
+Du kan skapa ofta använda länkar även innan du skapar innehållet. Detta gör att du kan återanvända dessa länkar och spara tid. Vanligt använda länkar inkluderar:
 
 * Sidor för avregistrering
 * Kontaktformulär
@@ -25,30 +26,52 @@ Innan du påbörjar själva utskicket kan du ställa in de länkar du kommer att
 
 ![I fönstret Länkegenskaper kan du lägga till länkar som du vill spåra -screenshot][img4]
 
-Du kan inkludera spårbara länkar (URL-adresser) i meddelanden. Med hjälp av dessa kan du se hur många mottagare som har klickat på dem.
-
 URL-adresserna måste vara unika för varje mottagare så att du kan vara säker på att det är olika mottagare som har klickat på dem och inte samma mottagare som har klickat flera gånger. Dessutom måste URL-adresserna peka mot SuperOffice-servern så att besökarna kan räknas innan de omdirigeras till den faktiska URL-adressen. Detta sköter programmet automatiskt när du väljer vilka URL-adresser i meddelandet som du vill spåra.
+
+## Vilka länkar spårar jag?
+
+Om du vill [visa alla länkar i ett utskick][4] kan du öppna utskicket i visningsläge och välja fliken **Spårade länkar**.
+
+## Fliken Spårade länkar
 
 På fliken **Spårade länkar** har du följande alternativ:
 
 | Ikon | Alternativ | Läs mer |
-|---|---|---|
-| ![ikon][img2] | Lägga till | [Skapa en ny länk][1] |
+|:-:|---|---|
+| ![ikon][img2] | Lägga till | [Skapa en ny länk][1], [Definiera länkningsåtgärder][7] |
 | ![ikon][img3] | Lägg till mapp | [Skapa en mapp][5] för dina länkar |
 | Länk | Klicka på en länk om du vill öppna skärmen **Visa länk**. | [Jobba med spårade länkar efter utskicket][2] |
 | ![ikon][img1] | Meny | Klicka på menyknappen bredvid en länk för att få tillgång till fler alternativ. |
 
 Menyalternativ:
 
-* **Visa**. [Så här jobbar du med spårade länkar efter utskicket][2].
-* **Redigera**. [Så här skapar du spårade länkar][1].
-* **Återställ**. [Så här nollställer du räknare för länkar][2].
-* **Flytta till mall**. Används för att flytta länken till en annan mapp.
-* **Ta bort**. Tar bort länken.
+* [**Visa**][2]
+* [**Redigera**][1]
+* [**Återställ**][10] (reknare för länkar)
+* **Flytta till mall** (flytta länken till en annan mapp)
+* **Ta bort**
 
-## Vilka länkar spårar jag?
+## <a id="ex" />Use cases
 
-Om du vill [visa alla länkar i ett utskick][4] kan du öppna utskicket i visningsläge och välja fliken **Spårade länkar**.
+Sporbara länkar kan användas på olika sätt:
+
+* **Respons**: Registrera varje mottagares klick på en länk, som en ny produktsida, för att mäta intresset över flera utskick.
+
+* **Prospektlista**: För en lansering av en ny produkt kan mottagare uttrycka intresse genom att klicka på länken "Ja tack, jag vill få ett erbjudande". Klickare kan läggas till i ett [statisk urval][9] för att hantera den fortsatta kontakten med dessa kunder.
+
+* **CRM-händelse**: Istället för en prospektlista kan du generera en att-göra eller möte för varje länkklick och tilldela det till en säljare eller kundkontakt. Till exempel kan ett klick på länken "Kontakta mig" generera en uppföljning med "Telefon ut".
+
+* **Avsluta prenumeration**: Infoga en [avslutningslänk][4] i innehållsredigeraren för att stoppa en specifik typ av utskick. Alternativt kan kunder avsluta prenumerationen från individuella mottagarlistor.
+
+    Lägg till en länk (till exempel "Klicka här om du inte vill ha fler nyhetsbrev från oss") för att ta bort kunder från mottagarlistan. Om ett nyhetsbrev endast skickas till kontakter med intresse för "Nyhetsbrev" kan detta intresse tas bort för länkklickare.
+
+    > [!TIP]
+    > Övervaka prenumerationsavslut genom att lägga till länkklickare i ett separat urval, till exempel "Nyhetsbrev 2024 - avslutade prenumerationer". Flera åtgärder kan läggas till samma länk.
+
+* **Boka konsult**: För en stor produktuppdatering, lägg till en länk för kunder att boka en konsult. Varje länkklick registrerar ett nytt ärende, tilldelad till kategorin "Konsult". Kunden får feedback att de kommer att bli kontaktade av en konsult.
+
+> [!NOTE]
+> Dessa exempel fungerar lika bra för vanliga länkar, men i det fallet registreras endast klick för det enskilda utskicket.
 
 ## <a id="google" />Google Analytics
 
@@ -73,17 +96,19 @@ Google Analytics-funktionen i SuperOffice Marknadsföring identifierar dina utsk
 
 * [Inkludera länkar som du vill kunna spåra][3]
 * [Lägg till prenumerationslänkar][4]
-* [Simple Google Analytics e-mail tracking][6] – blogg
-* [Definiera länkningsåtgärder][7]
+* [Simple Google Analytics e-mail tracking][6]
 
 <!-- Referenced links -->
 [1]: create-links.md
 [2]: explore-clicks.md
-[3]: add-tracked-link-to-msg.md
-[4]: ../../recipients/learn/add-unsubscribe-link.md
-[5]: ../../learn/create-folder.md
-[6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
 [7]: define-link-actions.md
+[6]: ga-tutorial.md
+[10]: reset-counter.md
+[3]: ../../editor/learn/add-tracked-link-to-msg.md
+[4]: ../../editor/learn/add-unsubscribe-link.md
+[5]: ../../learn/create-folder.md
+[8]: ../../../request/learn/index.md
+[9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

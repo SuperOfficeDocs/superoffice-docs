@@ -11,3 +11,7 @@ items:
   href: add-merge-tag.md
 - name: Koppeling toevoegen om bericht in browser weer te geven
   href: add-link-to-display-message-in-browser.md
+- name: Koppeling voor afmelden toevoegen (AVG)
+  href: add-unsubscribe-link.md
+- name: Gevolgde koppelingen aan bericht toevoegen
+  href: add-tracked-link-to-msg.md

@@ -1,139 +1,114 @@
 ---
 uid: help-de-define-link-actions
-title: Verknüpfungsaktionen definieren
-description: "In dieser Anleitung lernen Sie, wie Sie Links in Kampagnen verwenden, um Aktionen zu automatisieren."
-author: SuperOffice RnD
-so.date: 02.20.2023
-keywords: Marketing
+title: Automatisierte Linkaktionen definieren
+description: In dieser Anleitung lernen Sie, wie Sie Links in Kampagnen verwenden, um Aktionen zu automatisieren.
+keywords: Marketing, Kampagne, Aussendung, Überwachte Links, Linkaktion, automatisieren
+author: Bergfrid Dias
+so.date: 02.27.2024
+so.version: 10
 so.topic: howto
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
-# Verwenden Sie Links, um verschiedene Aktionen zu automatisieren
+# Automatisierte Linkaktionen definieren
 
-[!include[Requirement](includes/req-marketing.md)]
+Das manuelle Aktualisieren von 500 Personenkarten ist zeitaufwendig und unnötig. Automatisierte Linkaktionen können diesen Prozess optimieren.
 
-Sie können Ihre Arbeit beschleunigen, indem Sie die Antworten, die Sie von einer Kampagne erhalten, mit automatisierten Link-Aktionen verarbeiten.
+So funktionieren automatisierte Linkaktionen:
 
-Stellen Sie sich vor, dass Ihre Kampagne ein großer Erfolg wird. Über 500 Personen haben Ihre Mitteilung geöffnet und auf die von Ihnen einbezogenen Links geklickt. Sie müssen jetzt noch all diese Antworten Ihrer Empfänger verarbeiten. Denken Sie darüber nach, wie viel Zeit dies in Anspruch nehmen würde, wenn Sie es manuell tun müssten.
+* Das Klicken eines Empfängers auf einen Call-to-Action-Link kann sie automatisch zu einer Selektion oder einem Projekt in SuperOffice CRM hinzufügen.
+* SuperOffice CRM kann automatisch relevante Informationen wie Interessen auf der Personenkarte aktualisieren.
 
-In SuperOffice Marketing können Sie Aktionen zu Ihren Links hinzufügen. Diese Aktionen werden ausgelöst, wenn Empfänger auf einen Link klicken.
+Automatisierung spart Zeit, die sonst für die Bearbeitung von Antworten aufgewendet würde. Wenn ein Leser auf einen Link in Ihrer Kampagne klickt, führt das System die Linkaktionen für Sie aus!
 
-![Links-Aktionen festlegen -screenshot][img3]
+Sie können die gesammelten Informationen auf verschiedene Arten nutzen:
+
+* Generieren Sie eine Selektion basierend auf denen, die auf einen bestimmten Link geklickt haben, und senden Sie eine gezielte Antwort an diese Gruppe mit einer maßgeschneiderten Mitteilung.
+* Planen Sie Folgeaktivitäten für Ihre Teammitglieder, um persönlich mit den Respondenten zu interagieren.
+* Erstellen Sie Anfragen für Ihr Kundendienst-Team, um diese zu aufgreifen und zu untersuchen.
+
+![Definieren Sie Ihre Linkaktionen -screenshot][img3]
+
+## Verfügbare Aktionen
+
+Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank aktualisieren. Diese Informationen können die Segmentierung verbessern oder helfen, mit interessierten Personen in Kontakt zu bleiben.
 
 | Registerkarte | Aktion |
 |---|---|
-| Antwort | Zielseite oder benutzerdefinierten Text hinzufügen. |
-| Feld festlegen | Einem Zusatzfeld einen Wert für die Personen des Kunden hinzufügen |
-| Interessen | Interessen aktualisieren. |
-| Selektion/Projekt | Ansprechpartner zu Selektion oder Projekt hinzufügen bzw. daraus entfernen. |
-| Folgeaufgabe | Erstellt eine Folgeaufgabe (Aufgabe oder Besprechung) in SuperOffice CRM. |
-| Anfrage | Eine neue Anfrage erstellen. |
-| Skript | Ein Skript ausführen. |
+| [Antwort](#response) | Zielseite oder benutzerdefinierten Text hinzufügen. |
+| [Feld festlegen](#set-field) | Einem [Zusatzfeld][5] einen Wert für die Personen des Kunden hinzufügen |
+| [Interessen](#interests) | Interessen aktualisieren. |
+| [Selektion/Projekt](#selection) | Ansprechpartner zu Selektion oder Projekt hinzufügen bzw. daraus entfernen. |
+| [Folgeaufgabe](#follow-up) | Erstellt eine Folgeaufgabe (Aufgabe oder Besprechung) in SuperOffice CRM. |
+| [Anfrage](#request) | Eine neue Anfrage erstellen. |
+| [Skript](#script) | Ein Skript ausführen. |
 
-## Antwort
+> [!TIP]
+> Du kannst mehr als eine Aktion für einen verfolgten Link auswählen.
 
-* **Auf neue Webseite umleiten**: Wählen Sie diese Option aus, um Empfänger beim Klicken auf den Link an eine Webseite weiterzuleiten. Gibt die URL im Feld **URL der neuen Webseite** ein.
+## <a id="response" />Antwort
 
-* **Benutzerdefinierten Text anzeigen**: Wählen Sie diese Option aus, wenn benutzerdefinierter Text angezeigt werden soll, wenn der Empfänger auf den Link klickt. Geben Sie den Text in das Feld unten ein.
+Wählen Sie aus, was passieren soll, wenn der Empfänger auf den Link klickt.
 
-## Aktualisierung Ihrer Datenbank
+* **Auf neue Webseite umleiten**: Geben Sie die URL im vorgesehenen Feld ein.
+* Oder, **Benutzerdefinierten Text anzeigen**: Geben Sie den anzuzeigenden Text ein. Klicken Sie auf das Bearbeitungssymbol ![Symbol][img4], um die Rich-Text-Toolbar anzuzeigen.
 
-Je nach dem Ziel und den Handlungsanreizen, die Sie in Ihrer Kampagne verwenden, können Sie Informationen in Ihrer Datenbank aktualisieren. Wenn eine Person auf den Link in Ihrer Kampagne klickt, führt SuperOffice CRM einen der folgenden Schritte aus:
+## <a id="set-field" />Feld festlegen
 
-* Geben Sie eine benutzerdefinierte Antwort oder leiten Sie auf eine Webseite um
-* Fügen Sie eine Person zu einem bestimmten Projekt oder einer Selektion hinzu
-* Aktualisieren Sie das Interesse einer Person
-* Fügen Sie Informationen zu einem Feld auf der Personenkarte hinzu
-* Erstellen Sie eine Folgeaktivität für eine Person
-* Erstellen Sie eine Kundendienstanfrage für eine Person
-* Ein Skript ausführen
+Auf der Registerkarte **Feld festlegen** können Sie einen Wert festlegen, der einem Zusatzfeld hinzugefügt wird, wenn der Empfänger auf den Link klickt. Dies zeichnet zusätzliche Kundendaten auf.
 
-Einige dieser Informationen helfen Ihnen, Ihre Datenbank noch besser zu segmentieren, während andere Informationen Sei bei der Überwachung von Personen unterstützen, die Interesse an Ihrer Mitteilung gezeigt haben.
-
-## Feld festlegen
-
-Auf der Registerkarte **Feld festlegen** können Sie festlegen, dass einem Zusatzfeld ein Wert hinzugefügt werden soll, wenn der Empfänger auf den Link klickt. Dies kann nützlich sein, wenn Sie Zusatzinformationen über Kunden, die auf den Link klicken, erfassen möchten.
-
-Wählen Sie im Listenfeld **Zusatzfeld festlegen** ein Feld aus und geben im Feld **Wert** einen Wert ein.
+Wählen Sie ein Feld aus und geben Sie einen Wert ein.
 
 ## <a id="interests" />Interessen
 
-Hier können Sie festlegen, dass beim Klicken auf den Link Interessen für eine Person hinzugefügt oder entfernt werden sollen. Sie könnten beispielsweise das Interesse "Neuigkeiten zu Produkten" hinzufügen, wenn der Empfänger auf den Link "Ja, ich möchte über neue Produkte informiert werden" klickt. Alternativ könnten Sie das Interesse "Neuigkeiten zu Produkten" entfernen, wenn der Benutzer in einem Newsletter auf den Link "Abmelden" klickt.
+Geben Sie an, dass ein Link-Klick die Interessen des Kontakts ändern soll. Fügen Sie zum Beispiel das Interesse "Neuigkeiten zu Produkten" hinzu, wenn auf den Link "Ja, ich möchte über neue Produkte informiert werden" geklickt wird, oder entfernen Sie es, wenn auf den Link "Abmelden" geklickt wird.
 
-* Im Listenfeld **Interessen festlegen** können Sie auswählen, ob bestimmte Interessen beim Klicken auf den Link zu den Personen hinzugefügt werden sollen.
-
-* Im Listenfeld **Interesse löschen** können Sie auswählen, ob bestimmte Interessen beim Klicken auf den Link von den Personen entfernt werden sollen.
+* **Interesse festlegen**: Wählen Sie ein Interesse aus, das für den Personen hinzugefügt werden soll, wenn sie auf den Link klicken.
+* **Interesse löschen** wählen Sie ein Interesse aus, das für den Personen entfernt werden soll, wenn sie auf den Link klicken.
 
 [Wie man ein Anmeldeformular für den Newsletter erstellt][1]
 
-## Selektion/Projekt
+## <a id="selection" />Selektion/Projekt
 
-Hier können Sie festlegen, dass Empfänger, die auf den Link klicken, Selektionen bzw. Projekten hinzugefügt bzw. daraus entfernt werden sollen. Geben Sie den Anfang eines Namens ein, um die Schnellsuche zu starten.
+Geben Sie an, dass Empfänger, die auf den Link klicken, zu Selektion oder Projekten hinzugefügt oder daraus entfernt werden. Beginnen Sie einen Namen zu tippen, um die Schnellsuche zu starten.
 
-## Folgeaufgabe (Aufgabe/Besprechung)
+## <a id="follow-up" />Folgeaufgabe (Aufgabe/Besprechung)
 
-Auf der Registerkarte **Folgeaufgabe** können Sie festlegen, dass beim Klicken auf den Link Aufgaben bzw. Besprechungen in SuperOffice CRM erstellt werden sollen.
+Auf der Registerkarte **Folgeaufgabe** setzen Sie einen Link-Klick, um Aufgaben bzw. Besprechungen in SuperOffice CRM zu generieren. Wählen Sie der Folgeaufgabentyp, geben Sie eine Beschreibung an, verlinke sie mit einem Projekt, wählen Sie den Aufgabentyp, ordnen die Verantwortlichkeit zu und setzen Sie die Dauer.
 
-1. Mit dem Kontrollkästchen für **Folgeaufgabe** aktivieren Sie diese Funktion.
+Aktiviere diese Funktion, indem du **Folgeaufgabe** auswählst.
 
-2. **Aufgabe/Termin**: Wählen Sie aus, welcher Folgeaufgabentyp erstellt werden soll.
+[Wie man eine Folgeaufgabe erstellt][4]
 
-3. **Beschreibung**: Geben Sie eine Beschreibung der Folgeaufgabe bzw. des Termins ein. Zum Beispiel, welche Kampagne dazu gehört, auf welchen Link der Empfänger geklickt hat und möglicherweise wie im Anschluss an die Aufgabe bzw. die Besprechung vorgegangen werden soll.
+> [!TIP]
+> Als Beschreibung geben Sie an, zu welcher Kampagne es gehört, welchen Link der Empfänger geklickt hat und möglicherweise, wie die Aufgabe bzw. die Besprechung weiterverfolgt werden soll.
+>
+> Bei der Einstellung von **Erstellt von** oder **Standardempfänger** können Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1] klicken, um sich selbst auszuwählen.
 
-4. **Projekt**: Hier wählen Sie ein Projekt aus, mit dem die Folgeaufgabe bzw. der Termin verknüpft werden soll. Geben Sie den Anfang eines Namens ein, um die Schnellsuche zu starten.
+## <a id="request" />Anfrage
 
-5. **Aufgabe**: Wählen Sie den erforderlichen Folgeaufgaben- bzw. Termintyp aus.
+Auf der Registerkarte **Anfrage** setzen Sie einen Link-Klick, um eine Service-Anfrage zu erstellen. Setzen Sie das Häkchen, um eine neue Anfrage zu registrieren, geben Sie einen Titel an, wählen Sie die Priorität und Kategorie aus und wählen Sie den Eigentümer. Du kannst auch **Automatisch zugeordnet** oder **Nicht zugeordnet** auswählen.
 
-6. **Erstellt von**: Wählen Sie die für die Folgeaufgabe bzw. den Termin verantwortliche Person oder klicken Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1], um sich selbst auszuwählen.
+[Wie man eine Anfrage erstellt][3]
 
-7. **Verantwortlichen Benutzer zuordnen, falls vorhanden**: Klicken Sie hier, wenn die Folgeaufgabe bzw. der Termin dem verantwortlichen Benutzer des Empfängers zugewiesen werden soll (der Person, die sich um diesen Kunden kümmert).
+## <a id="script" />Skript
 
-8. **Standardempfänger**: Wählen Sie einen Standardempfänger aus, dem Sie die Folgeaufgabe bzw. den Termin zuweisen möchten, oder klicken Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1], um sich selbst auszuwählen.
+Auf der Registerkarte **Skript** wählen Sie ein CRMSkript oder eine Makro aus, das beim Klicken des Links ausgeführt werden soll. Aktiviere diese Funktion, indem Sie **Skript ausführen** wählen und dann das erforderliche Skript aus der Liste auswählen.
 
-9. **Dauer**: Klicken Sie auf die Schaltfläche **Zeitraum auswählen** ![Symbol][img2] neben diesem Feld, um die Dauer der Folgeaufgabe bzw. des Termins festzulegen.
+In dem Skript verfügbare Variablen sind custId, linkId, shipmentId, linkUrl, linkHits und returnUrl.
 
-## Anfrage
-
-Auf der Registerkarte **Anfrage** können Sie festlegen, dass eine SuperOffice Service-Anfrage für die Personen erstellt werden soll, die auf eine Link klicken.
-
-1. **Neue Anfrage erstellen**: Aktivieren Sie dieses Kontrollkästchen, um eine neue Anfrage zu erfassen, wenn der Kunden auf den Link klickt.
-2. **Titel**: Geben Sie hier den Titel für die neue Anfrage ein.
-3. **Priorität**: Wählen Sie die Priorität für die Anfrage aus.
-4. **Kategorie**: Wählen Sie die gewünschte Kategorie aus.
-5. **Eigentümer**: Wählen Sie den Eigentümer für die neue Anfrage aus. Sie können auch die Option **Automatisch zugeordnet** oder **Nicht zugeordnet** auswählen.
-
-## Skript
-
-Auf der Registerkarte **Skript** können Sie ein Skript oder Makro auswählen, das ausgeführt werden soll, wenn der Empfänger auf den Link klickt.
-
-1. Wählen Sie **Skript ausführen**, um diese Funktion auszuführen.
-2. Zum Auswählen eines Skripts klicken Sie auf die Liste **Skript** und wählen Sie das erforderliche Skript in der angezeigten Liste aus. Im Skript sind folgende Variablen verfügbar: custId, linkId, shipmentId, linkUrl und linkHits. Sie können auch die Variable returnUrl verwenden, um die angegebene Link-URL zu überschreiben.
-
-## Beispiel
-
-Die manuelle Aktualisierung von 500 Personenkarten nimmt Zeit in Anspruch und ist wirklich unnötig. Wir möchten stattdessen diesen Prozess automatisieren, indem wir automatisierte Link-Aktionen verwenden.
-
-Beispiele für angewendete automatisierte Link-Aktionen:
-
-* Wenn ein Empfänger auf Ihre Handlungsanreize klickt, fügt SuperOffice CRM ihn automatisch zu einer Selektion oder einem Projekt hinzu.
-
-* Anderenfalls aktualisiert SuperOffice CRM automatisch relevante Informationen, wie zum Beispiel Interessen, auf der Personenkarte.
-
-Durch die Automatisierung dieser Aufgaben sparen Sie viel Zeit, die Sie sonst für die Bearbeitung von Antworten aufwenden würden. Wenn der Leser auf einen Link in Ihrer Kampagne klickt, führt das System die Link-Aktionen für Sie aus!
-
-Sie können die Informationen, die Sie in dieser Kampagne gesammelt haben, auf verschiedene Weise verwenden:
-
-* Generieren Sie automatisch eine Selektion anhand der Personen, die auf einen bestimmten Link geklickt haben. Senden Sie dann ein gezieltes Folgekampagne mit einer maßgeschneiderten Mitteilung an diese bestimmte Gruppe.
-
-* Fügen Sie zu den Kalender Ihrer Teammitglieder Folgeaktivitäten hinzu, damit Sie persönlich Personen nachverfolgen können, die geantwortet haben.
-
-* Erstellen Sie Serviceanfragen, damit Ihr Kundendienst-Team die Angelegenheit aufgreift und untersucht.
+[Wie man ein CRMSkript erstellt oder bearbeitet][6]
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/examples.md#newsletter-sign-up
+[3]: ../../../request/learn/howto/create.md
+[4]: ../../../diary/learn/create-follow-up.md
+[5]: ../../../custom-objects/learn/extra-field.md
+[6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-contact.png
-[img2]: ../../../../../common/icons/pref-diary.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
+[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

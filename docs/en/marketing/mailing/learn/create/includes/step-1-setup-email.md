@@ -41,12 +41,7 @@ Attempting to send from a domain that does not have a valid SPF record will prom
 > [!NOTE]
 > If the **Our contact address** has an email domain that has not been validated, the mailing will automatically be sent from the address specified in the **Otherwise use** drop-down list options.
 
-## Related topics
-
-* [Maximize your email marketing success with these deliverability tips][1] - blog
-
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/email-deliverability-tips/
 [2]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
 [4]: ../../../../learn/create-folder.md
 

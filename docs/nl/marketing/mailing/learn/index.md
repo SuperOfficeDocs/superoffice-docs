@@ -2,13 +2,13 @@
 uid: help-nl-mailing
 title: Werken met mailings
 description: Werken met mailings
-keywords: Marketing
-author: SuperOffice RnD
-so.date: 02.12.2024
+keywords: Marketing, mailings, e-mailcampagne, E-maillevering
+author: SuperOffice RnD, Jeanette Small Strøm
+so.date: 02.27.2024
 so.version: 10
 so.topic: concept
 language: nl
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -64,6 +64,14 @@ U kunt de mailing koppelen aan een selectie en/of een project om alle mailings m
 
 Bijvoorbeeld: als u meerdere mailings verzendt voor de promotie van een evenement, kunt u deze mailings toevoegen aan een selectie met de naam "Evenement 2015" voor een volledige lijst met alle mailings voor dit evenement. Op dezelfde manier kunt u, als u een project maakt voor uw evenement, een lijst met alle projectgerelateerde mailings bijhouden op het sectietabblad **Activiteiten**.
 
+## De Betekenis van E-maillevering
+
+E-mailmarketing is een kosteneffectieve marketingstrategie die kan resulteren in [een hoog rendement op investering][20]. Maar om het meeste uit dit marketinginstrument te halen, moeten uw e-mails bij de inbox van uw doelgroep belanden, niet in hun SPAM-map.
+
+Stel je dit scenario voor: je hebt zorgvuldig een e-mailcampagne met eersteklas inhoud en ontwerp gemaakt, op de verzendknop gedrukt en krijgt weinig tot geen respons. Je openingspercentage is teleurstellend en er zijn veel bounces, of nog erger, je wordt gemarkeerd als spam.
+
+**E-maillevering** is cruciaal omdat het bepaalt of uw e-mails daadwerkelijk de inbox van abonnees bereiken of niet. Als ze niet worden bezorgd, worden ze niet gezien of gelezen door uw doelgroep, wat betekent dat er kansen verloren gaan en het succes van uw e-mailmarketingcampagnes lager is. Bekijk onze [best practices][9].
+
 ## <a id="after" />Hoe kan ik dit opvolgen?
 
 * [Bekijk de statistieken][2] van de mailing en krijg informatie over eventuele problemen die zich hebben voorgedaan.
@@ -77,7 +85,8 @@ Bijvoorbeeld: als u meerdere mailings verzendt voor de promotie van een evenemen
 [3]: create/send-test-email.md
 [2]: view-statistics.md
 [4]: ../../forms/learn/create.md
-[6]: ../../recipients/learn/add-unsubscribe-link.md
+[6]: ../../editor/learn/add-unsubscribe-link.md
+[9]: ../../learn/best-practices.md
 [8]: ../../recipients/learn/index.md
 [11]: ../../recipients/learn/look-at-recipient-list.md
 [12]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
@@ -85,5 +94,6 @@ Bijvoorbeeld: als u meerdere mailings verzendt voor de promotie van een evenemen
 [14]: ../../tracked-links/learn/explore-clicks.md
 [7]: ../../tracked-links/learn/index.md
 [5]: https://www.superoffice.co.uk/resources/articles/integrated-web-forms/
+[20]: https://www.superoffice.com/blog/email-marketing-strategy/
 
 <!-- Referenced images -->

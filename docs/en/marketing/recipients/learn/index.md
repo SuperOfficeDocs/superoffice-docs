@@ -8,7 +8,7 @@ so.date: 02.09.2024
 so.version: 10
 so.topic: howto
 language: en
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -61,7 +61,7 @@ What to think of when you want to segment your database:
 
 ![Check what a contact person's interests are in the Interest tab on the Contact card -screenshot][img1]
 
-## Selections as target lists
+## <a id ="selections" />Selections as target lists
 
 Use selections to create your target lists to make sure you have the correct audience to receive your mailings.
 

@@ -8,7 +8,7 @@ so.date: 02.09.2024
 so.version: 10
 so.topic: howto
 language: no
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -34,7 +34,7 @@ SuperOffice Marketing samler inn data om statusen for hver sendte e-post. I fane
 
 4. Bruk avmerkingsboksene i venstre kolonne for å velge alle eller bestemte mottakere.
 
-5. Klikk på menyknappen ![ikon][img2]. Her har du følgende alternativer:
+5. Klikk på menyknappen **Handlinger**. Her har du følgende alternativer:
     * Eksporter de valgte mottakerne til en Excel-, HTML- eller tekstfil.
     * [Legg de valgte mottakerne til i et nytt eller eksisterende utvalg eller prosjekt.](#add-recipients)
     * Send utsendelsen på nytt til de valgte mottakerne.
@@ -65,18 +65,29 @@ Hvis statusen er **Klar til å sendes**, trenger du ikke å gjøre noe. SuperOff
 
 ## <a id="add-recipients" />Legge til mottakere i utvalg eller prosjekter
 
-Ved å bruke menyknappen ![ikon][img2] kan du legge til mottakere eller klikkere i et utvalg eller prosjekt.
+Ved å bruke menyknappen **Handlinger** kan du legge til mottakere eller klikkere i et utvalg eller prosjekt.
 
 > [!NOTE]
 > Bare personer som allerede er registrert i SuperOffice-databasen, vil bli lagt til i utvalget eller prosjektet. Et personikon ![ikon][img3] i **Type**-kolonnen indikerer at en person er registrert i SuperOffice-databasen. Mottakere som er importert fra eksterne lister, vil vanligvis ikke bli registrert.
 
 ### Legge til klikkere i et nytt utvalg eller prosjekt
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+1. Velg de aktuelle personene i listen.
+2. Klikk på **Handlinger**.
+3. Klikk på **Legg til i eksisterende utvalg** eller **Legg til i eksisterende prosjekt**.
+4. Begynn med å skrive inn navnet på utvalget eller prosjektet for å søke.
+5. Klikk på utvalget eller prosjektet i listen.
+6. Klikk på **OK**.
 
 ### Legge til klikkere i et eksisterende utvalg eller prosjekt
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+1. Velg de aktuelle personene i listen.
+2. Klikk på **Handlinger**.
+3. Klikk på **Legg til i nytt utvalg** eller **Legg til i nytt prosjekt**.
+4. Skriv inn navnet på det nye utvalget eller prosjektet.
+5. Klikk på **OK**.
+
+Åpne utvalget eller prosjektet for å bekrefte at personene ble lagt til.
 
 ## Aktuelle emner
 
@@ -90,6 +101,5 @@ Ved å bruke menyknappen ![ikon][img2] kan du legge til mottakere eller klikkere
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

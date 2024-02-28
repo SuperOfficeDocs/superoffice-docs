@@ -41,12 +41,7 @@ Wenn Sie versuchen, von einer Domain zu senden, die keinen gültigen SPF-Eintrag
 > [!NOTE]
 > Wenn die **Unsere Kontaktadresse**eine nicht validierte E-Mail-Domäne hat, wird die Kampagne automatisch von der Adresse gesendet, die in den Optionen der Dropdown-Liste **Andernfalls verwenden** angegeben ist.
 
-## Verwandte Themen
-
-* [Maximieren Sie Ihren E-Mail-Marketing-Erfolg mit diesen Zustellbarkeitstipps][1] - Blog
-
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/email-deliverability-tips/
 [2]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
 [4]: ../../../../learn/create-folder.md
 

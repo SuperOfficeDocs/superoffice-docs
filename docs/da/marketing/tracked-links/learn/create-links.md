@@ -1,43 +1,42 @@
 ---
 uid: help-da-mailing-create-tracked-link
 title: Oprette sporede links
-description: Oprette sporede links
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+description: Oprette sporede links i SuperOffice. Disse links vil derefter være tilgængelige, når du og andre brugere redigerer indholdet af dine udsendelser. Dette muliggør effektiv sporing af brugerinteraktion med e-mails.
+keywords: Marketing, sporede links, udsendelse
+author: Bergfrid Dias
+so.date: 02.26.2024
+so.version: 10
+so.topic: howto
 language: da
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Opret sporede links
 
-[!include[Requirement](includes/req-marketing.md)]
+Du kan oprette sporbare URL'er i fanen **Sporede links**. Disse links vil derefter være tilgængelige, når du og andre brugere redigerer indholdet af dine udsendelser. Dette muliggør effektiv sporing af brugerinteraktion med e-mails.
 
-Du kan spore webadresser, der er indsat i e-mails. Fanen **Sporede links** bruges til at administrere disse sporbare links. De links, der er oprettet her, vil være tilgængelige, når du og andre brugere redigerer indholdet af dine udsendelser.
+Du kan også oprette nye links, mens du redigerer indholdet.
 
-> [!NOTE]
-> Du kan også oprette nye links, mens du redigerer indholdet.
-
-**Trin:**
+## Trin
 
 1. Vælg fanen **Sporede links**.
 
-2. Valgfrit: Vælg mappe eller opret ny mappe.
+2. Valgfrit: Vælg mappe eller [opret ny mappe][2].
 
-    [Hvordan opretter jeg en mappe til mailudsendelser?][19]
+3. Klik på ![ikonet][img1] **Tilføj**.
 
-3. Klik på ![ikonet][img1] **Opgave**. Du kommer til skærmbilledet **Egenskaber for link**.
+4. Angiv et beskrivende **Navn** for linket.
 
-4. Angiv et beskrivende navn for linket i feltet **Navn**.
-
-5. Under **Linkhandlinger** nederst i skærmbilledet kan du vælge, hvad der skal ske, når modtagerne klikker på linket i meddelelsen.
+5. Under **Linkhandlinger** nederst i skærmbilledet kan du [vælge, hvad der skal ske][1], når modtagerne klikker på linket i meddelelsen.
 
 6. Klik på **OK**, når du er færdig.
 
 En lille prik på fanen linkhandlinger viser, hvilke linkhandlinger der er aktive. Flere linkhandlinger kan være aktive for det samme link.
 
 <!-- Referenced links -->
-[19]: ../../learn/create-folder.md
+[1]: define-link-actions.md
+[2]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

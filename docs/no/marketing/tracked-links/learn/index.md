@@ -1,23 +1,24 @@
 ---
 uid: help-no-mailing-tracked-links
 title: Sporede koblinger
-description: "En kobling som du inkluderer i en utsendelse, kan brukes til å spore svar fra kunder og potensielle kunder. Når mottakerne av utsendelsen klikker på koblingen, utløses det en handling." 
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Markedsføring
-so.topic: concept
+description: En kobling som du inkluderer i en utsendelse, kan brukes til å spore svar fra kunder og potensielle kunder. Når mottakerne av utsendelsen klikker på koblingen, utløses det en handling.
+keywords: Markedsføring, utsendelse, sporet kobling, Google Analytics
+author: Bergfrid Dias
+so.date: 02.23.2024
+so.version: 10
+so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Sporede koblinger
 
-[!include[Requirement](includes/req-marketing.md)]
+Koblingene du bruker i nyhetsbrevet eller e-postkampanjen din bestemmes av målene dine. Hvert mål har en unik CTA som utløser et svar fra mottakeren, som du kan spore. Dette lar deg følge opp mottakerne dine etter at du har mottatt alle resultatene.
 
-Målet med nyhetsbrevet eller e-postkampanjen din vil avgjøre hvilke koblinger du bør bruke. Hvert mål har sin egen CTA for å utløse et svar fra mottakeren du ønsker å spore. På denne måten kan du følge opp mottakerne etter at du har mottatt alle resultatene.
+For eksempel kan det å klikke på en kobling åpne en ny nettside eller oppdatere et mottakers personkort. Det kan også legge til en [service-sak][8].
 
-For eksempel kan det å klikke på en kobling åpne en ny webside eller oppdatere personkortet til mottakeren. Handlingen kan også legge til en service-sak i Service og i detaljkortet Sak på personkortet. Bruk av koblinger er bare tilgjengelig for brukere som abonnerer på markedsføringsplanen.
-
-Før du starter selve utsendelsene, kan du konfigurere koblingene du ofte vil bruke i utsendelsene. Etter at du har konfigurert dem, kan du bruke dem om og om igjen, noe som vil være tidsbesparende. De vanligste koblingene som skal brukes, er for eksempel:
+Du kan sette opp ofte brukte koblinger selv før du lager innhold. Dette lar deg gjenbruke disse koblingene, noe som sparer tid. Ofte brukte koblinger inkluderer:
 
 * Avmeldingssider
 * Personskjemaer
@@ -25,30 +26,52 @@ Før du starter selve utsendelsene, kan du konfigurere koblingene du ofte vil br
 
 ![I bildet Egenskaper for kobling kan du legge til koblinger du vil spore -screenshot][img4]
 
-I en melding kan du inkludere koblinger (URL-adresser) som du kan spore. På denne måten kan du se hvor mange mottakere som har klikket på dem.
-
 URL-adressene må være unike for hver mottaker, slik at du kan være sikker på at det er ulike mottakere som har klikket på dem, og ikke samme mottaker som har klikket flere ganger. I tillegg må URL-adressene peke mot SuperOffice-serveren, slik at de kan telles før de omdirigeres til den opprinnelige URL-adressen. Dette ordner programmet automatisk når du velger hvilke av URL-adressene i meldingen du vil spore.
+
+## Hvilke koblinger sporer jeg?
+
+For å se alle koblingene i en utsendelse, åpner du utsendelsen i visningsmodus og velger fanen **Sporede koblinger**.
+
+## Fanen Sporede koblinger
 
 I fanen **Sporede koblinger** har du følgende alternativer:
 
 | Ikon | Alternativ | Les mer |
-|---|---|---|
-| ![ikon][img2] | Legg til | [Opprett en ny kobling][1] |
+|:-:|---|---|
+| ![ikon][img2] | Legg til | [Opprett en ny kobling][1], [Definere koblingshandlinger][7] |
 | ![ikon][img3] | Legg til mappe | [Opprett en mappe][5] for koblingene |
 | Kobling | Klikk på en kobling for å åpne bildet **Vis kobling**. | [Arbeide med sporede koblinger i etterkant av utsendelsen][2] |
 | ![ikon][img1] | Meny | Klikk på knappen ved siden av en kobling for å få tilgang til flere alternativer. |
 
 Menyalternativer:
 
-* **Vis**. [Slik arbeider du med sporede koblinger i etterkant av utsendelsen][2].
-* **Rediger**. [Slik oppretter du sporede koblinger][1].
-* **Tilbakestill**. [Slik tilbakestiller du tellere for koblinger][2].
-* **Flytt til mappe**. Brukes til å flytte koblingen til en annen mappe.
-* **Slett**. Sletter koblingen.
+* [**Vis**][2]
+* [**Rediger**][1]
+* [**Tilbakestill**][10] (tellere for koblinger)
+* **Flytt til mappe** (flytter koblingen til en annen mappe)
+* **Slett**
 
-## Hvilke koblinger sporer jeg?
+## <a id="ex" />Use cases
 
-Hvis du vil [vise alle koblingene i en utsendelse][4], åpner du utsendelsen i visningsmodus og velger fanen **Sporede koblinger**.
+Sporbare koblingr kan brukes på forskjellige måter:
+
+* **Respons**: Registrer hvert mottakers klikk på en kobling, for eksempel til en ny produktside, for å måle interesse over flere utsendelser.
+
+* **Prospektliste**: For en ny produktlansering kan mottakere uttrykke interesse ved å klikke på koblingn "Jeg vil gjerne ha et tilbu". Klikkere kan legges til i et [statisk utvalg][9] som selgerne kan bruke til å behandle videre kontakt med kundene.
+
+* **CRM-oppfølginger**: I stedet for en prospektliste, gener en to-do eller et møte for hvert koblingklikk og tildel det til en selger eller kundekontakt. For eksempel kan et "Kontakt meg" koblingklikk generere en "Telefon ut" oppfølging.
+
+* **Avmelding**: Sett inn en [avmeldingskobling][4] i innholdsredigeringsprogrammet for å stoppe en bestemt utsendelsestype. Alternativt kan kunder melde seg av individuelle mottakerlister.
+
+    Legg til en kobling (for eksempel, "Klikk her hvis du ikke ønsker å motta nyhetsbrev fra oss") for å fjerne kunder fra mottakerlisten. Hvis et nyhetsbrev bare sendes til kontakter med interessen "Nyhetsbrev", kan denne interessen fjernes for koblingklikkere.
+
+    > [!TIP]
+    > Overvåk abonnementsavbestillinger ved å legge til koblingklikkere i et separat utvalg, for eksempel, "Nyhetsbrev 2024 – avsluttede abonnementer". Flere handlinger kan legges til samme kobling.
+
+* **Bestill konsulent**: For en større produktoppdatering, legg til en kobling for kunder å bestille en konsulent. Hvert koblingklikk registrerer en ny sak i Service, tildelt til "Konsulent"-kategorien. Kunden mottar tilbakemelding om at de vil bli kontaktet av en konsulent.
+
+> [!NOTE]
+> Disse eksemplene fungerer like bra for vanlige koblinger, men klikkene måles da bare for den enkelte utsendelse.
 
 ## <a id="google" />Google Analytics
 
@@ -56,7 +79,7 @@ Når du setter opp en utsendelse, har du muligheten til å bruke Google Analytic
 
 Google Analytics er den mest populære digitale analyseprogramvaren som finnes. Ved å spore hvordan besøkende på websiden din finner og bruker den, gir tjenesten bedriften din nyttig innsikt som hjelper deg med å gjøre de digitale markedsføringsstrategiene dine mer vellykkede.
 
-Standarden er at Google Analytics ikke identifiserer besøkende som kommer fra bestemte utsendelser. Du må legge en emneknagg til lenkene i e-posten din for å kunne:
+Standarden er at Google Analytics ikke identifiserer besøkende som kommer fra bestemte utsendelser. Du må legge en emneknagg til koblingne i e-posten din for å kunne:
 
 * Identifiser hvilke koblinger mottakerne har klikket på,
 * Se hvilke websider de besøkte etter at de landet på websiden din.
@@ -65,7 +88,7 @@ Når du legger til en kobling til websiden din i utsendelsen din uten en emnekna
 
 Google Analytics-funksjonen i SuperOffice Marketing identifiserer utsendelsene dine i rapportene. Ved å legge en unik emneknagg til alle koblingene du bruker i utsendelsen din, vil Google Analytics gjenkjenne utsendelsen din som kilden der de besøkende kommer fra. Google Analytics gir deg også innsikt i de besøkendes vei gjennom websiden din.
 
-**Medium**: "E-post" er det forhåndsdefinerte mediet i automatiserte UTM-koder. Det betyr at sporede lenker i utsendelser som sendes fra SuperOffice, finnes i Google Channel-rapporter under "E-post" (i motsetning til "andre").
+**Medium**: "E-post" er det forhåndsdefinerte mediet i automatiserte UTM-koder. Det betyr at sporede koblingr i utsendelser som sendes fra SuperOffice, finnes i Google Channel-rapporter under "E-post" (i motsetning til "andre").
 
 **Kilde** og **Kampanje**: Disse feltene identifiserer denne spesifikke utsendelsen som kilden, og gir mulighet for en mer nøyaktig sporing og rapportering i Google.
 
@@ -73,17 +96,19 @@ Google Analytics-funksjonen i SuperOffice Marketing identifiserer utsendelsene d
 
 * [Inkludere koblinger du vil spore][3]
 * [Legge til påmeldingskoblinger][4]
-* [Enkel Google Analytics e-postsporing][6] – blogg
-* [Definere koblingshandlinger][7]
+* [Enkel Google Analytics e-postsporing][6]
 
 <!-- Referenced links -->
 [1]: create-links.md
 [2]: explore-clicks.md
-[3]: add-tracked-link-to-msg.md
-[4]: ../../recipients/learn/add-unsubscribe-link.md
-[5]: ../../learn/create-folder.md
-[6]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
 [7]: define-link-actions.md
+[6]: ga-tutorial.md
+[10]: reset-counter.md
+[3]: ../../editor/learn/add-tracked-link-to-msg.md
+[4]: ../../editor/learn/add-unsubscribe-link.md
+[5]: ../../learn/create-folder.md
+[8]: ../../../request/learn/index.md
+[9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

@@ -8,7 +8,7 @@ so.date: 02.07.2024
 so.version: 10
 so.topic: howto
 language: nl
-so.audience: user
+so.audience: person
 so.audience.tooltip: SuperOffice Marketing
 ---
 
@@ -79,8 +79,8 @@ Klik op **Volgende** als u klaar bent met bewerken.
 [3]: add-link-to-display-message-in-browser.md
 [4]: insert-images-in-message.md
 [5]: add-content.md
-[7]: ../../recipients/learn/add-unsubscribe-link.md
-[8]: ../../tracked-links/learn/add-tracked-link-to-msg.md
+[7]: add-unsubscribe-link.md
+[8]: add-tracked-link-to-msg.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png

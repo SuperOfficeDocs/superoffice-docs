@@ -2,54 +2,58 @@
 uid: help-no-tracked-links-view
 title: Arbeide med sporede koblinger i etterkant av utsendelsen
 description: Arbeide med sporede koblinger i etterkant av utsendelsen
-author: SuperOffice RnD
-so.date: 06.29.2022
 keywords: Markedsføring
-so.topic: help
+author: Bergfrid Dias
+so.date: 02.23.2024
+so.version: 10
+so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Arbeide med sporede koblinger i etterkant av utsendelsen
 
-Du kan inkludere koblinger (URL-adresser) i en e-postutsendelse eller et skjemasvar og spore dem. På denne måten kan du se hvor mange mottakere som har klikket på dem.
+Å inkludere koblinger (URLer) i e-postutsendelsene dine eller skjemasvar øker ikke bare interaktiviteten, men gir også verdifull innsikt. Ved å spore disse koblingene, får du innsikt i mottakerengasjement, kvantifisert av antall klikk. Disse dataene kan være avgjørende for å forbedre kommunikasjonsstrategien din og optimalisere fremtidige interaksjoner.
 
-## Hvor finner jeg koblingene?
+La oss se nærmere på hvordan du kan jobbe med disse sporede koblingene etter at utsendelsen er sendt.
 
-* Hvis du vil vise koblingene for én enkelt utsendelse, åpner du den aktuelle utsendelsen, klikker på fanen **Sporede koblinger** og klikker på koblingen du vil arbeide med.
+## Trinn
 
-    > [!NOTE]
-    >Fanen **Sporede koblinger** er ikke tilgjengelig for utsendelse av dokumenter.
+1. Finn koblingene:
 
-* Hvis du vil vise koblingene for alle utsendelser, klikker du på fanen **Sporede koblinger** i hovedbildet i SuperOffice Marketing. Hvis du ikke finner koblingen du vil arbeide med, klikker du på **Alle koblinger**. Klikk på koblingen du vil arbeide med.
+    * **Enkeltutsendelse**: Åpne utsendelsen, velg fanen **Sporede koblinger**.
 
-    > [!NOTE]
-    > Det er bare [registrerte koblinger][2] som vises her. Hvis du legger til "vanlige" koblinger i utsendelsen, må du velge alternativet **Spor alle koblinger** i Trinn 1: Oppsett.
+        Denne fanen er ikke tilgjengelig for utsendelse av dokumenter.
 
-## Utforsk klikk
+    * **Alle utsendelser**: Fra hovedskjermen i SuperOffice Marketing, velg fanen **Sporede koblinger**. Hvis du ikke finner koblingen din, klikk på **Alle koblinger**.
 
-1. I den aktive utsendelsen velger du fanen **Sporede koblinger**.
+        Bare [registrerte koblinger][2] vises her. For å spore alle koblinger i en e-post, aktiver alternativet **Spor alle koblinger** i Trinn 1: Oppsett.
 
-2. Klikk på den aktuelle koblingen i koblingslisten. Bildet **Vis kobling** vises.
+2. Velg koblingen du vil arbeide med fra listen.
 
-    Her kan du se antall klikk for koblingen og eventuelle [handlinger som er angitt for koblingen][4]. I listen **Klikkere** kan du se hvem som har klikket på koblingen og i hvilken utsendelse de klikket på koblingen.
+3. Utforsk klikk:
 
-3. Klikk på **OK** for å lukke bildet **Vis kobling**.
+    Her kan du se antall klikk for koblingen og eventuelle [handlinger som er angitt for koblingen][4]. I listen **Klikkere** kan du se hvem som klikket på koblingen og i hvilken e-post de klikket på koblingen.
 
-## Legge til klikkere i et nytt utvalg eller prosjekt
+4. Neste trinn: Bestem hva du vil gjøre videre.
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-new.md)]
+    * [Legge til klikkere i et utvalg eller prosjekt][3].
+    * [Redigere koblingen][2] (Klikk på knappen **Rediger**.)
+    * [Arbeide med mottakerlisten][1].
 
-## Legge til klikkere i et eksisterende utvalg eller prosjekt
+5. Klikk på **OK** for å lukke bildet **Vis kobling**.
 
-[!include[How to](../../learn/includes/howto-add-person-to-selection-existing.md)]
+## Slik sjekker du resultatene for utsendelsen din i Google Analytics
 
-## Hva vil du gjøre nå?
+Du kan sjekke resultatene for utsendelsene dine ved å logge inn på Google Analytics-kontoen din. Utsendelsene dine skal være synlige i kanalrapportene fra Google under E-post.
 
-* [Redigere koblingen][2] (Klikk på knappen **Rediger**.)
-* [Arbeide med mottakerlisten][1]
+> [!NOTE]
+> Gi Google Analytics litt tid til å behandle sporingsinformasjonen din. Det kan ta mellom 1 og 24 timer før kilden til utsendelsen registreres i rapportene dine.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/look-at-recipient-list.md
+[3]: ../../recipients/learn/look-at-recipient-list.md#add-recipients
 [2]: create-links.md
 [4]: define-link-actions.md
 

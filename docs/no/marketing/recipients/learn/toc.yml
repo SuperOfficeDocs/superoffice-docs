@@ -3,8 +3,6 @@ items:
     href: index.md
   - name: Administrere abonnementer
     href: manage-email-subscriptions.md
-  - name: Legg til lenke for å avslutte abonnement (GDPR)
-    href: add-unsubscribe-link.md
   - name: Liste over mottakere
     href: look-at-recipient-list.md
   - name: Behandle returmeldinger
