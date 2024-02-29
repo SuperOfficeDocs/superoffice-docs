@@ -2,11 +2,13 @@
 uid: help-en-forms
 title: Work with forms
 description: SuperOffice web forms are a great way to gather customer information and feedback. Web forms allow the people visiting your website to get in touch with you and leave their contact details.
+keywords: form, double opt-in
 author: SuperOffice RnD
-so.date: 02.21.2023
-keywords: Forms
+so.date: 02.29.2024
+so.version: 10
 so.topic: concept
 language: en
+so.audience: person
 ---
 
 # Work with forms
@@ -20,7 +22,7 @@ It is easy to create a form and post it on any web page you want it to show, lik
 Examples of forms: start free trial, contact us, update data, consent management.
 [How to create forms (examples)][1]
 
-## What can I use Web forms for
+## Use cases
 
 You can use web forms to capture your website visitors' details – their name, email address, preferences, comments, and feedback, and possibly convert them into customers. The data you get via web forms can be automatically imported to your SuperOffice CRM database, saving you time and effort.
 
@@ -34,7 +36,7 @@ You can use web forms to capture your website visitors' details – their name, 
 
 ## Where can you find forms?
 
-There are several ways to find forms. Go to either the Forms tab, form templates or the form submissions tab.
+There are several ways to find forms. Go to either the **Forms** tab, form templates or the form submissions tab.
 
 ![There are several ways to find forms -screenshot][img2]
 
@@ -54,7 +56,31 @@ Creating a form follows roughly this workflow:
 4. [Track form submissions and view statistics][5] - view the response rate in real-time.
 5. [Process form submissions][6] - update SuperOffice with the submitted data, either manually or automatically. SuperOffice can identify existing contacts based on email addresses or create new contacts and companies.
 
-## Use dashboards to get an overview of form submission
+## What is double opt-in?
+
+With double opt-in, the customers must verify their email address by clicking the link in a confirmation email in addition to submitting the form.
+
+This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct.
+The link is valid for 30 minutes by default.
+
+This means that your mailing list will be more reliable, which will help raise the opening rates of your mailings. As an added bonus, you won't have to spend time correcting spelling mistakes in email addresses or deleting email addresses that do not exist. And it also will help you in your effort to stay GDPR-compliant.
+
+## Form submissions
+
+When a form is submitted from a Customer Centre or website, the data is collected and displayed in the **Form submissions** tab. A red icon on the tab indicates new form submissions ![icon][img3].
+
+In the **Form submissions** tab you can view all submitted forms. Use the filter options at the bottom of the list to view only submissions with specific statuses.
+
+> [!NOTE]
+> You can also [view submissions for individual forms][5] by opening a form in the **Forms** tab.
+
+### Form status
+
+* **Processed**: The form was submitted and automatically processed.
+* **Submitted**: The form was submitted, but not processed yet. [How to process form submissions][6]
+* **Awaiting confirmation**: The form was submitted, but the sender must confirm their email address (double-opt in).
+
+### Use dashboards to get an overview of form submission
 
 Having a dashboard for form submission makes it easy to measure and visualize their data. The dashboard allows you to keep track on performance, trends and productivity. Learn more about dashboards for form submission.
 
@@ -69,3 +95,4 @@ Having a dashboard for form submission makes it easy to measure and visualize th
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
+[img3]: ../../../../media/icons/marketing-and-forms/form-notification.png

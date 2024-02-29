@@ -74,7 +74,9 @@ This is an overview of special options in some of the available fields.
 
 ## View elements
 
-* **Text block**: Enter a text to display in the form, such as a short introduction or detailed description. Click **Show/hide toolbar** ![icon][img2] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img3] to edit the text in a larger editor.
+* **Text block**: Enter a text to display in the form, such as a short introduction or detailed description.
+
+    [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 
 * **Image**: Add an image to the form. Click the link to select an image or drag and drop an image to the **Image** field. Use the **Position** radio buttons to place the image on the form.
 
@@ -87,5 +89,3 @@ This is an overview of special options in some of the available fields.
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/add-icon.png
-[img2]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img3]: ../../../../../common/icons/pop-out-icon.png

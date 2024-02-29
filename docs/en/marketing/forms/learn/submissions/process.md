@@ -79,7 +79,14 @@ To work more efficient, you can filter the records to show one or more form stat
 
 ![Different filter options on form submissions -screenshot][img1]
 
+## Related topics
+
+* [Track form submissions][1]
+* [Analyze your mailing results][4]
+
 <!-- Referenced links -->
+[1]: track.md
+[4]: ../../../mailing/learn/follow-up/view-statistics.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/marketing/form-submissions-filter.png

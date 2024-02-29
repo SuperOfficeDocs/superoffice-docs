@@ -91,7 +91,7 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 | Blocked email addresses | Handle bounced emails and spam complaints. | [Blocked email addresses][12], [spam][16] |
 | Forms | Contains all forms and create new ones. | [Create a new form][1] |
 | Form templates | Contains all form templates. | [Work with the form templates][18] |
-| Form submissions | Contains submitted forms. | [Form submissions][19] |
+| Form submissions | Contains submitted forms. | [Track form submissions][19] |
 
 ## What would you like to do now?
 
@@ -116,7 +116,7 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 [14]: ../tracked-links/learn/create-links.md
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
-[19]: ../forms/learn/submissions/index.md
+[19]: ../forms/learn/submissions/track.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png
