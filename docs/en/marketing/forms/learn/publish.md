@@ -17,11 +17,13 @@ After creating a form and (if relevant) the form response, you can publish the f
 
 2. Click the form to open it in view mode.
 
-3. Set the form to **Active** (![icon][img1]) in the header.
+3. Set the form to **Active** ![icon][img1] in the header.
 
 4. Go to the **Publish** tab.
 
-5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. If no field identifiers are added, you have probably not added these IDs to the fields in the form. Useful for [pre-filling fields in the forms][1] with existing customer data from SuperOffice.
+5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. Useful for [pre-filling fields in the forms][1] with existing customer data from SuperOffice.
+
+    If no field identifiers are added, you have probably not added these IDs to the fields in the form.
 
 6. On the left side of the screen, select a publishing option for the form:
     * **Direct link**: A direct link to the form.
@@ -31,7 +33,9 @@ After creating a form and (if relevant) the form response, you can publish the f
 
 7. Copy the links/tags into a newsletter, website or customer centre to publish it to your customers or prospects.
 
-A notification on the **Form submissions** tab (![icon][img2]) indicates that you have received form submissions.
+A notification on the **Form submissions** tab ![icon][img2] indicates that you have received form submissions.
+
+Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions are received.
 
 ## What would you like to do now?
 
