@@ -2,7 +2,7 @@
 uid: help-en-form-create
 title: Create a new form
 description: Learn how you can create a web form in this how-to guide.
-keywords: form
+keywords: form, form template, multi-page
 author: SuperOffice RnD
 so.date: 02.29.2024
 so.version: 10
@@ -13,25 +13,25 @@ so.audience: person
 
 # Create a new form
 
-Web forms make it easier to interact with customers and prospects via your website or customer centre.
-
-You can either create your own form from scratch, use a template from the form templates or choose one from our Online template library.
+Web forms make it easier to interact with customers and prospects via your website or customer centre. You have three options: create a form from scratch, create and use a custom form template, or select a free template from the **Online Template Library** in SuperOffice Marketing.
 
 Watch this video to learn how you can create a web form (video length - 7:49) or follow the steps below.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
-## Create new
+## Create new (from scratch)
 
 1. Go to the **Forms** tab.
 2. If required, click **Add folder** to [create a folder for the form][8].
-3. Click the **Form** button below **Create new** on the right side of the screen. The **Edit form** screen opens.
-4. Enter a descriptive **Form name**.
+3. Click the **Form** button below **Create new** on the right side of the screen.
+4. In the **Edit form** dialog, enter a descriptive **Form name**.
 5. [Fill in the fields](#fields) as described below. Remember to click **Apply now** regularly to save your work. The form will not be auto-saved.
 6. Click **Save** when you are done.
 
-## Create a new form based on a form template
+![Set properties for new contact me form -screenshot][img15]
+
+## Create new form based on template
 
 1. Select the **Form templates** tab.
 2. Click **All templates**.
@@ -39,13 +39,13 @@ Watch this video to learn how you can create a web form (video length - 7:49) or
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog.
 5. [Activate and publish the form][2].
 
-## <a id="multi-page" />Create multi-page forms
+## <a id="multi-page" />Create multi-page form
 
 To enhance user-friendliness and facilitate readability, consider dividing a form with many fields into multiple pages. Users can navigate through the form using **Next** and **Previous** buttons, and a progress bar can be added to indicate the remaining fields.
 
 1. Create a form as described above.
-2. Go to the **Fields** category.
-3. Click the **Add** button (![icon][img2]).
+2. Select **Fields** from the left menu (in the dialog).
+3. Click the **Add** button ![icon][img2].
 4. In the **Add element** window, select **View elements**.
 5. Select **Section** and click **Add**. The window closes and a section is added to the form. You can also see the section In the form preview.
 6. Click ![icon][img3] at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
@@ -80,13 +80,15 @@ To enhance user-friendliness and facilitate readability, consider dividing a for
 
 In the **Fields** category you add the fields that should be included in the form. As you add and edit fields, the preview is automatically updated.
 
-1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button are added to the new form.
+1. Select **Fields** from the left menu. By default, the **Contact - name** field and **OK** button are added to the new form.
 
 2. Click the **Add** button ![icon][img2].
 
 3. In the **Add element** window, select one of the following field categories:
     * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
+
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
+
     * **View elements**: Sections, texts and images. Use sections to [create multi-page forms](#multi-page).
 
 4. Select a field in the list.
@@ -112,9 +114,9 @@ In the **Fields** category you add the fields that should be included in the for
 
 ### Style
 
-In the **Style** category you can define the look and feel of the form. You can among other things set the number of columns, placement of field names, borders, background, font color/size and form size.
+Select **Style** from the left menu to define the look and feel of the form. For example, set the number of columns, placement of field names, borders, background, font color/size, and form size.
 
-The preview on the right is updated automatically when you change any settings. If you do not specify the height and width of the form, the form will automatically adapt to the screen size (desktop, tablet or mobile).
+The preview on the right updates automatically when you change any settings. If you do not specify the height and width of the form, the form will automatically adapt to the screen size (desktop, tablet or mobile).
 
 > [!TIP]
 > You can add a progress bar to the form, so the user can see how much is left to fill in. Click the check box next to **Progress bar color**, and select a color. The progress bar is displayed at the bottom of the form. See also [Create multi-page forms](#multi-page).
@@ -139,7 +141,7 @@ Watch this video to learn how to use the double opt-in feature on your web form 
     1. **Subject**: Enter the subject of the confirmation email.
     2. **Sender address**: Enter the email address to display in the **From** field in the confirmation mail.
     3. **Confirmation text**: Enter the body text of the email.
-    4. Select **Insert confirm link** ![icon][img9] from the toolbar (click ![icon][img7] to show). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img10].
+    4. Select **Insert confirm link** ![icon][img9] from the toolbar (click ![icon][img7] to show). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img8].
 4. Click **Apply now** when you are done.
 
 If double opt-in is activated for a form, all submissions for this form have status **Awaiting confirmation** until the email address is confirmed.
@@ -151,9 +153,7 @@ If double opt-in is activated for a form, all submissions for this form have sta
 
 When a person completes and submits a form, you should thank them and let them know what will happen next. It is always nice to say thank you. People really appreciate it.
 
-Besides saying thank you, you can use this page to inform your visitors about other products or events. Simply add your inspirational copy to the page and link it to specific places on your website. This way the customer can continue to explore your website after they've submitted their details.
-
-The effect will be uplifting – a "Thank you" page will both elevate their customer experience and boost your customer loyalty.
+Use the "Thank You" page to promote other products or events, linking to relevant parts of your website. This enhances the user experience and fosters customer loyalty.
 
 Watch this video to learn how to add a "Thank you" page to your web form (video length - 1:48) or follow the steps below.
 
@@ -195,8 +195,9 @@ Here you can [define what happens when someone submits a form response][3].
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
+[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
 [img5]: ../../../../../common/icons/cog-wheel.png
 [img6]: ../../../../../common/icons/duplicate-icon.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
 [img9]: ../../../../../common/icons/new-window-icon.png
-[img10]: ../../../../../common/icons/edit-black.png
+[img8]: ../../../../../common/icons/edit-black.png
+[img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

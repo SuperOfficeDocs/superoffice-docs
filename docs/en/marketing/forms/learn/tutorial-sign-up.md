@@ -3,7 +3,7 @@ uid: help-en-forms-sign-up
 title: How to create a newsletter sign-up form
 description: This tutorial walks you through how to create a newsletter sign-up form in SuperOffice Marketing.
 keywords: form, double opt-in, sign-up
-author: SuperOffice RnD
+author: Bergfrid Dias
 so.date: 02.29.2024
 so.version: 10
 so.topic: tutorial
@@ -23,28 +23,34 @@ The example does not cover every field and option, but you can find comprehensiv
 
 ## Start here
 
-1. Open SuperOffice CRM and create a static selection of companies/contacts called "Newsletter subscribers (form)". We will use this selection later in this guide.
+1. In SuperOffice, [create a static selection][7] of companies/contacts called "Newsletter subscribers (form)". We will use this selection later in this guide.
 
-1. Open SuperOffice Marketing and go to the **Forms** tab.
+1. Go to **Marketing** and select the **Forms** tab.
 
-1. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
+1. Click the **Form** button below **Create new** on the right side of the screen.
 
-1. Enter "Newsletter sign-up" in the **Form name** field.
+1. In the **Edit form** dialog, enter "Newsletter sign-up" in the **Form name** field.
 
-1. Fill in the options/fields in the **Properties** category as relevant. Do NOT activate any options under **Deactivate form automatically**.
+1. Select **Properties**, enter a description, and set other form properties as relevant. Do NOT activate any options under **Deactivate form automatically**.
 
 1. Click **Apply now** to save the form and continue editing.
 
 ## Fields
 
-1. In the **Fields** category, click ![icon][img1] and add the following fields:
+1. Select **Fields** from the left menu.
 
-    * First and last name (remove the **Contact - Name field**)
+1. Select the **Contact - Name** field, and click the red X to remove this field.
+
+1. Click ![icon][img1] and add the following fields:
+
+    * First and last name.
+
     * **Contact - Email** (make this field mandatory)
+
     * Contact - Subscription
-        * Select one or more newsletters which should be available
+        * Select one or more newsletters that should be available
         * Set the field to **Mandatory**.
-        * Change the name of the field to "Select your subscriptions".
+        * Change the name of the field to "Choose your subscriptions".
 
 1. Select the **OK** field, change the name to "Submit", and edit the font/background color and position.
 
@@ -54,21 +60,23 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Click **Apply now** to save the form and continue editing.
 
+![Add fields to new sign-up form -screenshot][img7]
+
 ## Style
 
-1. In the **Style** category, edit the layout, colors, size and fonts of the form. Consider involving your web design colleagues.
+1. Select **Style** from the left menu to define the look and feel of the form. Edit the layout, colors, size, and fonts of the form. Consider involving your web design colleagues.
 
 1. Click **Apply now** to save the form and continue editing.
 
+![Style new sign-up form -screenshot][img8]
+
 ## Double opt-in
 
-1. In the **Double opt-in** category, select **Enable double opt-in**.
+1. Select ***Double opt-in** from the left menu.
 
-## Message and confirmation email
+1. Check **Enable double opt-in**.
 
-[!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
-
-1. In the **Message** tab, enter the text to display after the form is submitted. This message should inform the customer that they will receive an email confirmation.
+1. Select the **Message** tab and enter the text to show after the form is submitted. This message should inform the customer that they will receive an email confirmation.
 
     <details><summary>Example</summary>
 
@@ -81,7 +89,9 @@ The example does not cover every field and option, but you can find comprehensiv
     SuperShop
     </details>
 
-1. In the **Email** tab, create the confirmation email sent to the persons submitting the form.
+    [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
+
+1. Select the **Email** tab and create the confirmation email sent to the persons submitting the form.
 
     <details><summary>Example</summary>
 
@@ -102,19 +112,23 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Click **Apply now** to save the form and continue editing.
 
+![Add double opt-in to new sign-up form -screenshot][img9]
+
 ## Landing pages
 
-1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for subscribing"). This will display after the customer verifies their email address.
+1. Select **Thank you page**.
 
-1. Click **Apply now** to save the form and continue editing.
+1. Select **Show this message** and enter "Thank you for subscribing". This is shown after the customer verifies their email address.
 
-1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it is set to inactive.
+1. Select **Page for inactive form**.
+
+1. Select **Redirect to external website** and enter a URL. If a customer accesses the form after it is marked as inactive, they will be sent to this page.
 
 1. Click **Apply now** to save the form and continue editing.
 
 ## Form actions
 
-1. In the **Actions** category, you must set up the actions to be performed when the form is processed:
+1. Select **Actions** from the left menu to choose what happens after submission:
 
     * Do not select **Create request**. The subscriptions will activate automatically, so no action is required by the support team.
 
@@ -126,11 +140,13 @@ The example does not cover every field and option, but you can find comprehensiv
 
     * **Email response**: Select or [create a form response][2] to send to contacts when their form is processed. For example, to inform the customer of your company's privacy policy. The email can also include a link to [manage subscriptions][6].
 
+![Define your form actions -screenshot][img6]
+
 ## Save and launch
 
-1. Click **Save**. The form is saved and the **Edit form** screen closes.
+1. Click **Save**. The form is saved and the **Edit form** dialog closes.
 
-1. Set the form to **Active** ![icon][img6] in the header.
+1. Set the form to **Active** ![icon][img4] in the header.
 
 1. Go to the **Publish** tab.
 
@@ -143,16 +159,24 @@ The example does not cover every field and option, but you can find comprehensiv
 * [Track form submissions and view statistics][4]
 * [Process form submissions][5]
 
+> [!TIP]
+> You might also be interested in our [contact-me form][7] tutorial.
+
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [4]: submissions/track.md
 [5]: submissions/process.md
+[2]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [6]: ../../recipients/learn/manage-email-subscriptions.md
+[7]: ../../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->
+[img5]: ../../../../../common/icons/edit-black.png
+[img3]: ../../../../../common/icons/new-window-icon.png
 [img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img3]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img5]: ../../../../../common/icons/edit-black.png
-[img6]: ../../../../media/icons/marketing-and-forms/form-active.png
+[img4]: ../../../../media/icons/marketing-and-forms/form-active.png
+[img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
+[img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
+[img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png
+[img9]: ../../../../media/loc/en/marketing/sign-up-form-double-opt-in.png

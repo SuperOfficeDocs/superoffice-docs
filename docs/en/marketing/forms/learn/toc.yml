@@ -19,7 +19,7 @@ items:
   href: submissions/track.md
 - name: Process form submissions
   href: submissions/process.md
-- name: Tutorial - Newsletter sign-up
-  href: tutorial-sign-up.md
 - name: Tutorial - Contact me
   href: tutorial-contact-me.md
+- name: Tutorial - Newsletter sign-up
+  href: tutorial-sign-up.md

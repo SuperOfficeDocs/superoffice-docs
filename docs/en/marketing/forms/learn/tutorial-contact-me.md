@@ -3,7 +3,7 @@ uid: help-en-forms-contact-me
 title: How to create a Contact me form
 description: This tutorial walks you through how to create a Contact me form in SuperOffice Marketing.
 keywords: form, contact me
-author: SuperOffice RnD
+author: Bergfrid Dias
 so.date: 02.29.2024
 so.version: 10
 so.topic: tutorial
@@ -25,21 +25,33 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Open SuperOffice Marketing and go to the **Forms** tab.
 
-1. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
+1. Click the **Form** button below **Create new** on the right side of the screen.
 
-1. Enter "Contact me (support)" in the **Form name** field.
+1. In the **Edit form** dialog, enter "Contact me (support)" in the **Form name** field.
 
-1. Fill in the options/fields in the **Properties** category as relevant. Do NOT activate any options under **Deactivate form automatically**.
+1. Select **Properties**, enter a description, and set other form properties as relevant. Do NOT activate any options under **Deactivate form automatically**.
+
+![Set properties for new contact me form -screenshot][img5]
 
 ## Fields
 
-1. In the **Fields** category, click ![icon][img1] and add the following fields:
+1. Select **Fields** from the left menu.
 
-    * First and last name. Remove the **Contact - Name field**.
+1. Select the **Contact - Name** field, and click the red X to remove this field.
+
+1. Click ![icon][img1] and add the following fields:
+
+    * First and last name.
+
     * **View elements** > **Text block**: Enter the text in "How can we contact you?" in bold.
+
     * **Contact - Mobile**: Enter an example of a correctly formatted phone number for your country (include the country code) in the **Placeholder** field (example: +47 999 88 777).
+
     * **Contact - Email**
+
     * **Form elements** > **Text area**: Change the name of the field to "Comment (optional)" and write "How can we help you today?" in the **Placeholder** field.
+
+    [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 
 1. Select the **OK** field, change the name to "Submit", and edit the font/background color and position.
 
@@ -49,21 +61,27 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Click **Apply now** to save the form and continue editing.
 
+![Add fields to new contact me form -screenshot][img6]
+
 ## Style
 
-1. In the **Style** category, edit the layout, colors, size and fonts of the form. Consider involving your web design colleagues.
+1. Select **Style** from the left menu to define the look and feel of the form. Edit the layout, colors, size, and fonts of the form. Consider involving your web design colleagues.
 
 1. Click **Apply now** to save the form and continue editing.
 
 ## Landing pages
 
-1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for contacting us. We will be in touch shortly."). This will display after the customer submits the form.
+1. Select **Thank you page**.
 
-1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it is marked as inactive.
+1. Select **Show this message** and enter "Thank you for contacting us. We will be in touch shortly." This will be shown after the customer submits the form.
+
+1. Select **Page for inactive form**.
+
+1. Select **Redirect to external website** and enter a URL. If a customer accesses the form after it is marked as inactive, they will be sent to this page.
 
 ## Form actions
 
-1. In the **Actions** category, you must set up the actions to be performed when the form is processed:
+1. Select **Actions** from the left menu to choose what happens after submission:
 
     * Select **Create request** and do the following:
         1. Enter a descriptive title for the requests that will be generated from this form.
@@ -74,11 +92,13 @@ The example does not cover every field and option, but you can find comprehensiv
 
     * **Email response**: Select or [create a form response][2] to send to contacts when their form is processed. For example, to inform the customer of your company's privacy policy. The email can also include a link to [manage subscriptions][6].
 
+![Define your form actions -screenshot][img7]
+
 ## Save and launch
 
-1. Click **Save**. The form is saved and the **Edit form** screen closes.
+1. Click **Save**. The form is saved and the **Edit form** dialog closes.
 
-1. Set the form to **Active** ![icon][img6] in the header.
+1. In the header, set the form to **Active** ![icon][img3].
 
 1. Go to the **Publish** tab.
 
@@ -86,13 +106,13 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Open the link to the form, fill in the form and check that everything works as expected.
 
-> [!TIP]
-> You might also be interested in our [newsletter sign-up][7] tutorial. Let your customers sign up for one or more of your newsletters.
-
 ## What happens now?
 
 * [Track form submissions and view statistics][4]
 * [Process form submissions][5]
+
+> [!TIP]
+> You might also be interested in our [newsletter sign-up][7] tutorial. Let your customers sign up for one or more of your newsletters.
 
 <!-- Referenced links -->
 [1]: create.md
@@ -105,4 +125,7 @@ The example does not cover every field and option, but you can find comprehensiv
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img6]: ../../../../media/icons/marketing-and-forms/form-active.png
+[img3]: ../../../../media/icons/marketing-and-forms/form-active.png
+[img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img6]: ../../../../media/loc/en/marketing/contact-me-form-fields.png
+[img7]: ../../../../media/loc/en/marketing/contact-me-form-actions.png

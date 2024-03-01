@@ -1,12 +1,14 @@
 ---
 uid: help-en-form-field-options
 title: Field options
-description: Field options
+description: List of fields (and their options) you can add to a SuperOffice Marketing form.
+keywords: form, form element, view element
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Forms
+so.date: 02.29.2024
+so.version: 10
 so.topic: reference
 language: en
+so.audience: person
 ---
 
 # Field options
