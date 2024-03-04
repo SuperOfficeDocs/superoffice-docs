@@ -12,7 +12,7 @@ so.client: online
 
 # How to set up a DKIM Record
 
-Before creating the DKIM record for your domain, it is important to find out what the server address for the mail service to be authorized (which is going to be permitted to send emails on your behalf).
+Before creating the DKIM record for your domain, it is important to find out what is the server address for the mail service to be authorized (which is going to be permitted to send emails on your behalf).
 
 ## Overview
 
@@ -33,7 +33,7 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 
 1. Fill in the [DKIM ORDER FORM][1] and submit it.
 2. We will reply with the DKIM to the submitted email address.
-3. You will now need to add this DKIM to your DNS, see next step.
+3. You will now need to add this DKIM to your DNS, see the next step.
 
 [!include[Limitation](../includes/multiple-dkims.md )]
 
@@ -50,14 +50,14 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 2. We want to add the DKIM record from Mailgun. Click **Add New** to add the new DKIM record.
     * Add "Host name" value ("xxx._domainkey.[yourdomainName]") you received from us.
     * Add "Address" value ("k=rsa; p=XXX..") you received from us (see note below)
-    * Choose "txt" as record type
+    * Choose "txt" as the record type
 
     ![x -screenshot][img4]
 
     > [!NOTE]
     > Some DNS servers may require "version of DKIM". If you are sure your DNS needs it, add it by adding "v=DKIM1; " in front of the key. Example: "k=rsa; p=XXX..."  -->  "v=DKIM1; k=rsa; p=XXX..."
 
-3. We also need to add an SPF record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain. In this case (using DKIM) we need to add 'inlude:mailgun.org ~all' to be able to send and receive emails. Read [this article on how to update the spf record][8].
+3. We also need to add an SPF record that identifies which mail servers are permitted to send an email on behalf of your domain and/or can't send on behalf of your domain. In this case (using DKIM) we need to add '_spf.online.superoffice.com' (or 'inlude:mailgun.org ~all') to be able to send and receive emails. Read [this article on how to update the spf record][8].
 4. Click **Save** to update the information.
 
 [!include[ALT](../includes/note-dns-propagation-time.md)]
@@ -87,7 +87,7 @@ Here, we have used [MX Toolbox][7]. "DKIM Record Lookup"
 
     ![x -screenshot][img1]
 
-2. Add your domain name and "DKIM Selector" you received from us, and click **DKIM Lookup**.
+2. Add your domain name and the "DKIM Selector" you received from us, and click **DKIM Lookup**.
 
 3. The result should show the values of your public DKIM key data:
 
