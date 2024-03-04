@@ -108,10 +108,10 @@ This means that your mailing list will be more reliable, which will help raise t
 [8]: define-form-actions.md
 [3]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [4]: publish.md
-[5]: submissions/track.md
-[6]: submissions/process.md
+[5]: view-statistics.md
+[6]: process-submissions.md
 [7]: form-templates.md
-[11]: ../../../learn/add-fav.md
+[11]: ../../learn/add-fav.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-form.png

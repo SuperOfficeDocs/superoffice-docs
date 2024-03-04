@@ -116,7 +116,7 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 [14]: ../tracked-links/learn/create-links.md
 [15]: add-images.md
 [18]: ../forms/learn/form-templates.md
-[19]: ../forms/learn/submissions/track.md
+[19]: ../forms/learn/view-statistics.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png

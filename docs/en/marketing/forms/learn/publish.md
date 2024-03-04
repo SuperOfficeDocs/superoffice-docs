@@ -23,8 +23,6 @@ After creating a form and (if relevant) the form response, you can publish the f
 
 5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. Useful for [pre-filling fields in the forms][1] with existing customer data from SuperOffice.
 
-    If no field identifiers are added, you have probably not added these IDs to the fields in the form.
-
 6. On the left side of the screen, select a publishing option for the form:
     * **Direct link**: A direct link to the form.
     * **Embed inline**: A script tag used to add the form on a web page.
@@ -44,8 +42,8 @@ Forms can be deactivated manually, or are automatically deactivated at a specifi
 
 <!-- Referenced links -->
 [1]: form-prefilled.md
-[2]: submissions/track.md
-[3]: submissions/process.md
+[2]: view-statistics.md
+[3]: process-submissions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/form-active.png

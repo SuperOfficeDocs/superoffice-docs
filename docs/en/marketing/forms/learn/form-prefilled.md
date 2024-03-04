@@ -26,6 +26,8 @@ To save your customers the time and trouble of filling in their name, email addr
     ...formId=F-FH2K4Vru&field-name-1=&field-mail=
     ```
 
+    If no field identifiers are added, you have probably not added these IDs to the fields in the form.
+
 5. Copy the link or JavaScript to a text editor or similar.
 
 6. Enter the relevant [template variables][3] between two square brackets AFTER the equal sign:

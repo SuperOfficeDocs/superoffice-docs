@@ -1,8 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: View forms
-  href: view.md
 - name: Create new form
   href: create.md
 - name: Field options
@@ -16,9 +14,9 @@ items:
 - name: Using pre-filled fields
   href: form-prefilled.md
 - name: Track form submissions, view statistics
-  href: submissions/track.md
+  href: view-statistics.md
 - name: Process form submissions
-  href: submissions/process.md
+  href: process-submissions.md
 - name: Tutorial - Contact me
   href: tutorial-contact-me.md
 - name: Tutorial - Newsletter sign-up

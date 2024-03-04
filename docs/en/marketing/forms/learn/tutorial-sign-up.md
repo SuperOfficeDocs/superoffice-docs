@@ -164,8 +164,8 @@ The example does not cover every field and option, but you can find comprehensiv
 
 <!-- Referenced links -->
 [1]: create.md
-[4]: submissions/track.md
-[5]: submissions/process.md
+[4]: view-statistics.md
+[5]: process-submissions.md
 [2]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [6]: ../../recipients/learn/manage-email-subscriptions.md
 [7]: ../../../search-options/selection/learn/create/tutorial.yml

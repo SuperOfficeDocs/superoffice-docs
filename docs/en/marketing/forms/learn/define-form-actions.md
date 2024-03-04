@@ -65,7 +65,7 @@ Here you can select actions to perform when a form is processed (automatically o
 
 <!-- Referenced links -->
 [2]: publish.md
-[6]: submissions/process.md
+[6]: process-submissions.md
 [7]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [8]: ../../../request/learn/howto/create.md
 [9]: ../../../automation/crmscript/learn/index.md
