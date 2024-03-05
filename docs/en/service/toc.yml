@@ -65,7 +65,5 @@ items:
     href: integrate/index.md
   - name: API options
     href: soap/toc.yml
-  - name: Google reCaptcha in forms
-    href: ../marketing/forms/recaptcha.md
   - name: Time zones
     href: time-zones.md

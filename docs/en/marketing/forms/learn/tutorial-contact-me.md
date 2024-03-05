@@ -9,6 +9,7 @@ so.version: 10
 so.topic: tutorial
 language: en
 so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # How to create a Contact me form
@@ -106,19 +107,12 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Open the link to the form, fill in the form and check that everything works as expected.
 
-## What happens now?
-
-* [Track form submissions and view statistics][4]
-* [Process form submissions][5]
-
 > [!TIP]
 > You might also be interested in our [newsletter sign-up][7] tutorial. Let your customers sign up for one or more of your newsletters.
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../mailing/learn/create/tutorial-form-mailing.yml
-[4]: view-statistics.md
-[5]: process-submissions.md
 [6]: ../../recipients/learn/manage-email-subscriptions.md
 [7]: tutorial-sign-up.md
 

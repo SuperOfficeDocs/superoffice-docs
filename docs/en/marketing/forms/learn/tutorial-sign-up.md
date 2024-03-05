@@ -2,13 +2,14 @@
 uid: help-en-forms-sign-up
 title: How to create a newsletter sign-up form
 description: This tutorial walks you through how to create a newsletter sign-up form in SuperOffice Marketing.
-keywords: form, double opt-in, sign-up
+keywords: form, double opt-in, sign-up, newsletter
 author: Bergfrid Dias
 so.date: 02.29.2024
 so.version: 10
 so.topic: tutorial
 language: en
 so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # How to create a newsletter sign-up form
@@ -72,7 +73,9 @@ The example does not cover every field and option, but you can find comprehensiv
 
 ## Double opt-in
 
-1. Select ***Double opt-in** from the left menu.
+[!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
+
+1. Select **Double opt-in** from the left menu.
 
 1. Check **Enable double opt-in**.
 
@@ -88,8 +91,6 @@ The example does not cover every field and option, but you can find comprehensiv
 
     SuperShop
     </details>
-
-    [!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 
 1. Select the **Email** tab and create the confirmation email sent to the persons submitting the form.
 
@@ -132,9 +133,9 @@ The example does not cover every field and option, but you can find comprehensiv
 
     * Do not select **Create request**. The subscriptions will activate automatically, so no action is required by the support team.
 
-    * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
+    * Select **Manually if submitter is unknown. Automatically if submitter is known**. If the email address submitted in the form matches an email address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 
-    * **Add contact to selection**: Select the selection you created in step 1. Use this selection to keep track of contacts added via this form.
+    * **Add contact to selection**. Choose the selection you created in step 1. Use this selection to keep track of contacts added via this form.
 
     * **Add interest to contact**: Select the interest called **Newsletter**. This interest will be added to contacts who submit this form.
 
@@ -154,18 +155,11 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Open the link to the form, fill in the form and check that everything works as expected.
 
-## What happens now?
-
-* [Track form submissions and view statistics][4]
-* [Process form submissions][5]
-
 > [!TIP]
 > You might also be interested in our [contact-me form][7] tutorial.
 
 <!-- Referenced links -->
 [1]: create.md
-[4]: view-statistics.md
-[5]: process-submissions.md
 [2]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [6]: ../../recipients/learn/manage-email-subscriptions.md
 [7]: ../../../search-options/selection/learn/create/tutorial.yml

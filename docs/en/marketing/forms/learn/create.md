@@ -9,6 +9,7 @@ so.version: 10
 so.topic: howto
 language: en
 so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Create a new form
@@ -31,7 +32,7 @@ Watch this video to learn how you can create a web form (video length - 7:49) or
 
 ![Set properties for new contact me form -screenshot][img15]
 
-## Create new form based on template
+## Create new based on form template
 
 1. Select the **Form templates** tab.
 2. Click **All templates**.

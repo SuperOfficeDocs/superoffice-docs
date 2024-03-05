@@ -2,7 +2,7 @@
 uid: help-en-form-submissions-process
 title: Process form submissions
 description: In this how-to guide you will learn how to process form submissions manually.
-keywords: form, submission, submitted, submitter, process
+keywords: form, form data, submission, submitted, submitter, process, data from form
 author: Bergfrid Dias
 so.date: 03.04.2024
 so.version: 10
@@ -18,7 +18,12 @@ As soon as the form submissions start flooding in, it is time to process them. F
 
 Form submissions with status **Submitted** must be processed manually. This means reviewing the form contents and linking the submitter to an existing or a new contact and/or company in SuperOffice.
 
-The main reason for choosing manual processing is to have more control of the contacts added to your database through form submissions. Specifically, you can prevent duplicate contacts by checking whether a person is already registered in SuperOffice CRM.
+The main reason for choosing manual processing is to have more control of the contacts added to your database through form submissions. Specifically, you can prevent duplicate contacts by checking whether a person is already registered. SuperOffice validates the email address in the form to ensure it is a valid domain. Basic email syntax is also checked.
+
+When a form is submitted, SuperOffice attempts to link the form to an existing contact using the email address provided.
+
+* If a match is found, you can display the contact's information, requests, sales, follow-ups, and previous chat sessions.
+* If no match is found, search for the correct contact or create a new one.
 
 Watch this video (or follow the step-by-step guide below) to learn how you can manually process a submitted web form (video length - 4:30) or follow the steps below.
 
@@ -27,7 +32,7 @@ Watch this video (or follow the step-by-step guide below) to learn how you can m
 
 ## Steps
 
-### Locate and open the form submission
+### 1- Locate and open the form submission
 
 Do one of the following:
 
@@ -43,7 +48,7 @@ Do one of the following:
 
     3. Double-click the row with the submission you want to process.
 
-### Review data and process
+### 2- Review and process data
 
 In the **Form submission** window:
 
@@ -51,32 +56,23 @@ In the **Form submission** window:
 
 2. Select the **Actions** tab to view the actions that are performed on the form data when you process it.
 
-3. In the **Submitter** side panel, [link the submitter to an existing or new SuperOffice contact](#submitter) (see details below the screenshot).
+3. In the **Submitter** side panel, link the submitter to an existing or new SuperOffice contact:
+
+    * **Use suggested contact:** If SuperOffice finds matching contacts, they are listed under **This contact could be...**. Click a contact to link it to this form submission.
+
+    * **Search for a contact:** If the correct contact is not found, use the search field to find it. You can also select from history and favorites.
+
+    * **Change contact:** If you have selected the wrong contact, click **Change contact** to search again.
+
+    * **Create new company and contact:** If the submitter is not found in SuperOffice, create a new contact and company:
+
+      1. Click **Create new company and contact**. Some fields are pre-filled with form data.
+      2. Complete the relevant fields.
+      3. Click **Add** to add the new contact and company to SuperOffice.
 
 4. Click **Process**.
 
 ![Form submission, Data from form -screenshot][img1]
-
-### <a id="submitter" />Link submitter to a SuperOffice contact and company
-
-When a form is submitted, SuperOffice attempts to link the form to an existing contact using the email address provided. If a match is found, you can display the contact's information, requests, sales, follow-ups, and previous chat sessions.
-
-If no match is found, search for the correct contact or create a new one.
-
-* **Use suggested contact:** If SuperOffice finds matching contacts, they are listed under **This contact could be...**. Click a contact to link it to this form submission.
-
-* **Search for a contact:** If the correct contact is not found, use the search field to find it. You can also select from history and favorites.
-
-* **Change contact:** If you have selected the wrong contact, click **Change contact** to search again.
-
-* **Create new company and contact:** If the submitter is not found in SuperOffice, create a new contact and company:
-
-    1. Click **Create new company and contact**. Some fields are pre-filled with form data.
-    2. Complete the relevant fields.
-    3. Click **Add** to add the new contact and company to SuperOffice.
-
-> [!NOTE]
-> SuperOffice validates the email address in the form to ensure it is a valid domain. Basic email syntax is also checked.
 
 ## Related topics
 

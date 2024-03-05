@@ -9,6 +9,7 @@ so.version: 10
 so.topic: howto
 language: en
 so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Define form actions

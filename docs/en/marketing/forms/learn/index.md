@@ -9,6 +9,7 @@ so.version: 10
 so.topic: concept
 language: en
 so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Work with forms
@@ -19,7 +20,7 @@ It is easy to create a form and post it on any web page you want it to show, and
 
 ![You can use a web form to ask people to sign up for your next webinar or seminar, or to contact your company with their questions -screenshot][img1]
 
-## Use cases
+## <a id="ex" />Use cases
 
 You can use web forms to capture your website visitors' details – their name, email address, preferences, comments, and feedback, and possibly convert them into customers. The data you get via web forms can be automatically imported to your SuperOffice CRM database, saving you time and effort.
 
@@ -87,10 +88,10 @@ Use the filter options at the bottom of the list to view only submissions with s
 > [!NOTE]
 > You can also [view submissions for individual forms][5] by opening a form in the **Forms** tab.
 
-### <a id="status" />Form status
+### <a id="status" />Status
 
 * **Processed**: The form was submitted and automatically processed.
-* **Submitted**: The form was submitted, but not processed yet. [How to process form submissions][6]
+* **Submitted**: The form was submitted, but not processed yet. [How to process form submissions][6].
 * **Awaiting confirmation**: The form was submitted, but the sender must confirm their email address (double-opt in).
 
 ## <a id="opt-in" />What is double opt-in?

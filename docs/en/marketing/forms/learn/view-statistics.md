@@ -28,9 +28,13 @@ To view statistics about your form, go to the **Forms** tab and click the form i
   * **Completion rate**: Status for submitted forms.
   * **Mailing:** This link provides access to the [form response mailing][2] used by this form. Click the link to view additional statistics.
 
+  ![Form submission report-screenshot][img3]
+
 * **Reports:** Charts show statistics for the form (mouse-over to view exact numbers).
 
-* **Form submissions:** Here you can view and process all submitted forms. A red icon on the tab indicates new form submissions.
+    ![Form submission report-screenshot][img2]
+
+* **Form submissions:** Here you can view and [process all submitted forms][1]. A red icon on the tab indicates new form submissions.
 
 ## <a id="filter" />Filter the form submissions overview
 
@@ -43,8 +47,11 @@ To work more efficient, you can filter the records to show one or more form stat
 Having a [dashboard for form submissions][3] simplifies the process of measuring and visualizing data. With this dashboard, you can easily track performance, identify trends, and monitor productivity.
 
 <!-- Referenced links -->
+[1]: process-submissions.md
 [2]: ../../mailing/learn/follow-up/view-statistics.md
 [3]: ../../../dashboard/learn/show-marketing.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submissions-filter.png
+[img2]: ../../../../media/loc/en/marketing/form-report-dx.png
+[img3]: ../../../../media/loc/en/marketing/form-summary-dx.png
