@@ -45,6 +45,8 @@ The lowest layer of NetServer is only used by clients or an application server i
 * [Entities][3]: high-level business model classes that abstract multiple table joins.
 * [Archive providers][4] and [MDO Providers][17]: provide read-only search capabilities.
 
+[Read more about to configure NetServer Core using dependency injection][26].
+
 ### Web service APIs
 
 NetServer web service data access is provided by the following types of [web service endpoints][15]
@@ -64,52 +66,14 @@ At the highest level, encapsulated in the **SuperOffice.Services namespace**, is
 
 [Read more about web services.][5]
 
-## Search
-
-[Archive providers][4] are similar to database views and simplify **searching and retrieving** collections of related data efficiently. They let you execute complex queries while masking the join logic and handling the security.
-
-Each provider describes a set of related **columns** from the database and supports a set of methods for finding out what columns are available.
-
-[Read more about archive providers.][4]
-
-## Relational database layer (entities)
-
-The relational database (RDB) layer, conceptually the **business logic** layer, is encapsulated within the [**SuperOffice.CRM.Entities namespace**][20]. Relational database objects, such as `Contact`, `ContactCollection`, `Person`, and `PersonCollection`, are all found here. These objects abstract away all of the complexities required to aggregate related data from the multiple tables in the database.
-
-RDB objects expose the data as neat and logical classes commonly referred to as [entities][3]. Entities **represent real-world objects**, such as companies and contacts.
-
-> [!TIP]
-> This layer is great for **creating and saving** new entities, such as creating a new `Contact` or `Sale`, but may not be as performant as more lower layers when retrieving many entities at one time.
-
-[Read more about Entities.][3]
-
-## High-level database layer (rows)
-
-The high-level database (HDB) classes, found under the [**SuperOffice.CRM.Rows namespace**][21], is a table-object view of the database. This layer exposes **database tables** and the information they contain as row objects, such as `ContactRow` and `ContactRows`.
-
-Unlike RDB object properties, which are full-blown entities themselves, HDB object properties contain **ID values** that represent ID field values in a corresponding table.
-
-> [!NOTE]
-> The Row objects **do not contain any business logic**, so here you need to maintain the relationship between rows yourself.
-
-[Read more about Row and Rows.][2]
-
-## Objectified SQL (OSQL)
-
-At the lowest levels of the framework are the Objectified-SQL (OSQL) classes.
-
-[OSQL][1] encompasses all **common SQL elements**, such as SELECT, JOIN, WHERE, AND, OR, and more. It exposes all of these elements as **classes**, to be used in an "object-orientated" manner.
-
-OSQL has the **best performance** of all NetServer API layers. When using OSQL, the code will be more responsive and efficient than when using the Services, RDB, or the HDB layers.
-
-[Read more about OSQL.][1]
-
 ## Programming with NetServer APIs
 
 Every solution that uses NetServer packages directly needs a [SuperOffice section][12] in the application configuration file. This only pertains to the following nuget packages:
 
 * [SuperOffice.NetServer.Core][22] (onsite clients and plugin development)
 * [SuperOffice.NetServer.Services][23] (SOAP proxy and utility classes)
+* [SuperOffice.WebApi][24] (HTTP RPC proxy and utility classes)
+* [@SuperOffice/WebApi][25] (NPM package for JavaScript/TypeScript applications)
 
 Configuration requirements:
 
@@ -149,6 +113,9 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [21]: <xref:SuperOffice.CRM.Rows>
 [22]: https://www.nuget.org/packages/superoffice.netserver.core
 [23]: https://www.nuget.org/packages/superoffice.netserver.services
+[24]: https://www.nuget.org/packages/superoffice.webapi
+[25]: https://www.npmjs.com/package/@superoffice/webapi
+[26]: ../reference/netserver/core/index.md
 
 <!-- Referenced images -->
 [img3]: media/netserver-components-overview.png

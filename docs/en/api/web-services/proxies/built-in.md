@@ -21,17 +21,13 @@ Whether targeting a local or remote database, an **SoSession** is the object tha
 
 ## Locally
 
-In this case, everything runs within the same process.
+In this case, everything runs within the same process. [Follow the guide to bootstrap NetServer][4] in your application using dependency injection.
 
 ![03][img1]
 
 To call a NetServer web service locally:
 
-1. Add the following NetServer binaries to your application (project references).
-
-    * SoCore.dll
-    * SuperOffice.Service.dll
-    * SuperOffice.Service.Implementation.dll
+1. Add the [SuperOffice.NetServer.Services][3] package to your application (project references).
 
 2. In the application’s configuration file, set `DefaultMode` to **Local**.
 
@@ -65,7 +61,11 @@ To call a NetServer web service locally:
 
 ## Remotely
 
-The application calls the services proxy, which calls the remote web services via SOAP. This corresponds to the following diagram:
+The application calls the services proxy, which calls the remote web services via SOAP.
+
+[Follow the guide to bootstrap NetServer][4] in your application using dependency injection.
+
+This corresponds to the following diagram:
 
 ![04][img2]
 
@@ -123,6 +123,8 @@ For more information, see the [NetServer configuration][1] section.
 <!-- Referenced links -->
 [1]: ../../config/services.md
 [2]: ../../authentication/overview.md
+[3]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
+[4]: ../../reference/netserver/services/index.md
 
 <!-- Referenced images -->
 [img1]: media/image003.gif

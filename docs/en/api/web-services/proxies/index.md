@@ -32,8 +32,8 @@ There is flexibility in using SuperOffice **proxies**.
 
 **Options:**
 
-* Use NetServer proxies ([NuGet packages][6])
-* Generate a [custom proxy][3] by adding a web service
+* Use [SuperOffice.NetServer.Services][6] nuget package for SOAP proxy calls.
+* Generate a [custom proxy][3] by adding a web service.
 
 ### NetServer proxies
 

@@ -11,82 +11,15 @@ so.envir: onsite
 
 # NetServer configuration
 
-## Dependency injection.
+NetServer is a multi-tiered database access layer that bridges communication between clients and the SuperOffice database. It contains both low-level classes for managing data access in onsite domain environments as well as high-level web services for access from anywhere in the world.
 
-Since version 10, SuperOffice uses dependency injection to establish configuration options and parameters.
+For API consumers using either the SuperOffice.NetServer.Core or SuperOffice.NetServer.Services assembly, it is important to understand the configuration requirements and options. This article provides an introduction to the NetServer configuration file for SuperOffice with explanations and examples for each section.
 
-### Session Mode Changes
-The config file setting for Session Mode has been removed. This has been replaced with a session handling implementation to AddNetServerCore. 
+Bootstrapping NetServer in your application required some dependency injection (DI) configuration. See the appropriate DI section for your application type:
 
-```csharp
-class Startup
-{
-    public IConfigurationRoot Configuration { get; set; }
+* SuperOffice.NetServer.Core: [Dependency injection configuration][2]
+* SuperOffice.NetServer.Services: [Dependency injection configuration][3]
 
-    public virtual void Configure(IServiceCollection services)
-    {
-        services.AddLogging(a =>
-        {
-            a.AddConfiguration(Configuration.GetSection("Logging"));
-        });
-        //services.AddNetServerCore() // v10.0
-        services.AddNetServerCore<ThreadContextProvider>( options => { 
-          options.UseOnPremAD(); // See config section: ActiveDirectoryCredentialPlugin
-        }) // v10.2.1
-        .AddSoDatabase()
-        .AddServicesImplementation()
-    }
-
-    public void ConfigureServices(IServiceProvider serviceProvider)
-    {
-        var netServerServiceProvider = serviceProvider.RegisterWithNetServer();
-    }
-}
-```
-
-There are several default implementations of ISoContextProvider located in SoCore.
-
-* ThreadContextProvider
-* ContextContextProvider
-* ProcessContextProvider
-
-Another is HttpContextProvider, located in SuperOffice.DCFWeb.
-
-### Services Mode Changes
-
-The Setting for Services Local or Remote NetServer mode has been removed from the Config.  This has been replaced with extension methods to IServiceCollection.
-
-For Local mode calling Services Implementation, use:
-
-* services.AddDCFServicesImplementation();
-* services.AddServicesImplementation();
-* services.AddMessagingServicesImplementation();
-
-For remote mode using proxies, use:
-
-* services.AddServicesProxies();
-
-```csharp
-class Startup
-{
-    public IConfigurationRoot Configuration { get; set; }
-
-    public virtual void Configure(IServiceCollection services)
-    {
-        services.AddLogging(a =>
-        {
-            a.AddConfiguration(Configuration.GetSection("Logging"));
-        });
-        services.AddNetServerCore<ThreadContextProvider>()
-        .AddServicesProxies();
-    }
-
-    public void ConfigureServices(IServiceProvider serviceProvider)
-    {
-        var netServerServiceProvider = serviceProvider.RegisterWithNetServer();
-    }
-}
-```
 
 ## Configuration Files
 
@@ -130,5 +63,7 @@ View one of the available sections to learn more about the property settings ava
 
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile>
+[2]: <xref:netserver_core_api>
+[3]: <xref:netserver_services_api>
 
 <!-- Referenced images -->
