@@ -3,9 +3,9 @@ uid: help-en-email-service
 title: Service emails
 description: Service emails
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.06.2024
 keywords: Settings and maintenance
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -24,7 +24,7 @@ In the **Email** screen, you control the mechanisms that manage inbound and outb
 * [Blocked email][5]
 
 <!-- Referenced links -->
-[1]: kb-aliases/index.md
+[1]: screen/index.md
 [2]: email-filters/index.md
 [3]: screen/tab-inbox-for-email.md
 [4]: screen/tab-outbox-for-email.md

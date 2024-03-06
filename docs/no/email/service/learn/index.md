@@ -3,9 +3,9 @@ uid: help-no-email-service
 title: Service-e-poster
 description: Service-e-poster
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.06.2024
 keywords: Innstillinger og vedlikehold
-so.topic: help
+so.topic: concept
 language: no
 ---
 
@@ -24,7 +24,7 @@ I **E-post**-skjermbildet kontrollerer du mekanismene som håndterer innkommende
 * [Blokkert e-post][5]
 
 <!-- Referenced links -->
-[1]: kb-aliases/index.md
+[1]: screen/index.md
 [2]: email-filters/index.md
 [3]: screen/tab-inbox-for-email.md
 [4]: screen/tab-outbox-for-email.md

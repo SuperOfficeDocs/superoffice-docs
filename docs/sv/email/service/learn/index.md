@@ -3,9 +3,9 @@ uid: help-sv-email-service
 title: Servicemejl
 description: Servicemejl
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.06.2024
 keywords: Inställningar och underhåll
-so.topic: help
+so.topic: concept
 language: sv
 ---
 
@@ -24,7 +24,7 @@ I fönstret **E-post** kontrollerar du de mekanismer som styr inkommande och utg
 * [Blockerad e-post][5]
 
 <!-- Referenced links -->
-[1]: kb-aliases/index.md
+[1]: screen/index.md
 [2]: email-filters/index.md
 [3]: screen/tab-inbox-for-email.md
 [4]: screen/tab-outbox-for-email.md

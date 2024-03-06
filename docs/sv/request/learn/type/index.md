@@ -3,7 +3,7 @@ uid: help-sv-request-type
 title: Ärendetyp
 description: Ärendetyp
 author: Bergfrid Dias
-so.date: 02.22.2024
+so.date: 03.06.2024
 so.version: 10.3.2
 keywords: ärende, typ
 so.topic: concept
@@ -49,8 +49,8 @@ Finansteamet använder ärenden för att hantera inkommande fakturakrav och krä
 
 ## Relaterat innehåll
 
-* [Skapa ärendetype][1]
-* [Ta bort ärendetype][2]
+* [Skapa ärendetyp][1]
+* [Ta bort ärendetyp][2]
 
 <!-- Referenced links -->
 [1]: create.md

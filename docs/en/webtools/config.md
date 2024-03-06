@@ -35,9 +35,10 @@ The following registry entries in *HKCU\Software\SuperOffice\DocLink* are availa
 | ClientId | REG_SZ | The identifier which uniquely identifies the user and machine when multiple WebTools from the same user are connecting to one installation. Incorrect values of ClientId result in loss of functionality. |
 | LogFile | REG_SZ | Path incl. Filename where general logging is stored. Empty or missing value results in no logging. |
 | DisableHttpExpect100Header | REG_DWORD | 1 to disable. Disables the Expect: 100-continue HTTP header in violation of HTTP-spec when working with proxies. Required when working against squid-proxies. |
+| ProxyUrl | REG_SZ | Hardcoded URL for proxy to use |
 | ProxyUsesDefaultCredentials | REG_DWORD | 1 to enable. Use the logged-in user's Windows credentials for authenticating towards the proxy. |
-| DisableTls10 | REG_DWORD | 1 to disable. Disable TLS 1.0. (Only support TLS 1.1 and 1.2) |
 | ProxyCredentialType | REG_SZ | Set the credential type when authenticating towards a proxy. Valid values: Windows, Ntlm, Digest, and Basic. ProxyUsesDefaultCredentials must be set to 1 for this setting to take effect. |
+| DisableTls10 | REG_DWORD | 1 to disable. Disable TLS 1.0. (Only support TLS 1.1 and 1.2) |
 
 ### When authenticating towards a proxy
 

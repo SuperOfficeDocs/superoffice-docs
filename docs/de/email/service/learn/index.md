@@ -3,9 +3,9 @@ uid: help-de-email-service
 title: Service-E-Mails
 description: Service-E-Mails
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.06.2024
 keywords: Einstellungen und Verwaltung
-so.topic: help
+so.topic: concept
 language: de
 ---
 
@@ -24,7 +24,7 @@ In der Ansicht **E-Mail** konfigurieren Sie die Mechanismen, nach denen eingehen
 * [Blockierte E-Mails][5]
 
 <!-- Referenced links -->
-[1]: kb-aliases/index.md
+[1]: screen/index.md
 [2]: email-filters/index.md
 [3]: screen/tab-inbox-for-email.md
 [4]: screen/tab-outbox-for-email.md
