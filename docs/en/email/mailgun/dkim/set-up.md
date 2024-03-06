@@ -46,7 +46,7 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 
 1. Go to **Host Records** in the DNS console. The existing records for your Google account are there by default.
 
-    ![x -screenshot][img3]
+    ![DNS default -screenshot][img3]
 
 2. Next, add the DKIM record from Mailgun:
 
@@ -61,9 +61,9 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 
     1. Choose *TXT* as the record type.
 
-    ![x -screenshot][img4]
+    ![Add TXT record -screenshot][img4]
 
-3. You also need to establish an SPF record. This identifies the mail servers authorized to send (and/or can't send) emails on your domain's behalf. For DKIM usage, include `_spf.online.superoffice.com` (or `include:mailgun.org ~all`) to enable email sending and receiving. Read [this article on how to update the spf record][8].
+3. You also need to establish an SPF record. This identifies the mail servers authorized to send (and/or can't send) emails on your domain's behalf. For DKIM usage, include `_spf.online.superoffice.com ~all` (or `include:mailgun.org ~all`) to enable email sending and receiving. Read [this article on how to update the spf record][8].
 
 4. Click **Save** to update the information.
 
@@ -92,13 +92,13 @@ Here, we have used [MX Toolbox][7]. "DKIM Record Lookup"
 
 1. Open the DKIM tool:
 
-    ![x -screenshot][img1]
+    ![MXtoolbox tool -screenshot][img1]
 
 2. Add your domain name and the "DKIM Selector" you received from SuperOffice, and click **DKIM Lookup**.
 
 3. The result should show the values of your public DKIM key data:
 
-    ![x -screenshot][img2]
+    ![Test DKIM record -screenshot][img2]
 
 ## Verify back to SuperOffice
 
