@@ -3,9 +3,9 @@ uid: help-da-email-service
 title: E-mails om service
 description: E-mails om service
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.06.2024
 keywords: Indstillinger og vedligeholdelse
-so.topic: help
+so.topic: concept
 language: da
 ---
 
@@ -24,7 +24,7 @@ I skærmbilledet **E-mail** kontrollerer du de mekanismer, som styrer indgående
 * [Blokeret e-mail][5]
 
 <!-- Referenced links -->
-[1]: kb-aliases/index.md
+[1]: screen/index.md
 [2]: email-filters/index.md
 [3]: screen/tab-inbox-for-email.md
 [4]: screen/tab-outbox-for-email.md
