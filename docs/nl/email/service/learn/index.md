@@ -3,9 +3,9 @@ uid: help-nl-email-service
 title: Service-e-mails
 description: Service-e-mails
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.06.2024
 keywords: Instellingen en onderhoud
-so.topic: help
+so.topic: concept
 language: nl
 ---
 
@@ -24,7 +24,7 @@ In het scherm **E-mail** beheert u de mechanismen die worden gebruikt voor het b
 * [Geblokkeerde e-mail][5]
 
 <!-- Referenced links -->
-[1]: kb-aliases/index.md
+[1]: screen/index.md
 [2]: email-filters/index.md
 [3]: screen/tab-inbox-for-email.md
 [4]: screen/tab-outbox-for-email.md
