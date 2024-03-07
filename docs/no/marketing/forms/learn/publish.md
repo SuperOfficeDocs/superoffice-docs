@@ -2,26 +2,31 @@
 uid: help-no-form-publish
 title: Publisere skjemaer
 description: Publisere skjemaer
+keywords: skjema, publisere skjema, aktivere skjema, forhåndsutfylling av felt, forhåndsutfylt felt
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Skjemaer
+so.date: 03.07.2024
+so.version: 10
 so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Publisere skjemaer
 
 Når du har opprettet et skjema og (eventuelt) svaret på skjemaet, kan du publisere skjemaet.
 
+## Trinn
+
 1. Gå til fanen **Skjemaer**.
 
 2. Klikk på skjemaet for å åpne det i visningsmodus.
 
-3. Sett skjemaet til **Aktiv** (![icon][img1]) i overskriften.
+3. Sett skjemaet til **Aktiv** ![icon][img1] i overskriften.
 
 4. Gå til fanen **Publiser**.
 
-5. (valgfritt) Velg **Vis med forhåndsutfylte felt**for å legge til feltidentifikatorer i koblingen/JavaScript. Hvis ingen feltidentifikatorer legges til, har du sannsynligvis ikke lagt til disse ID-ene i feltene i skjemaet. Nyttig for [forhåndsutfylling av felt i skjemaer][1] med eksisterende kundedata fra SuperOffice.
+5. (valgfritt) Velg **Vis med forhåndsutfylte felt**for å legge til feltidentifikatorer i koblingen/JavaScript. Nyttig for [forhåndsutfylling av felt i skjemaer][1] med eksisterende kundedata fra SuperOffice.
 
 6. Til venstre i bildet velger du et publiseringsalternativ for skjemaet:
     * **Direktekobling**: En direktekobling til skjemaet.
@@ -31,18 +36,19 @@ Når du har opprettet et skjema og (eventuelt) svaret på skjemaet, kan du publi
 
 7. Kopier koblingene/emneknaggene til et nyhetsbrev, webside eller kundesenter for å publisere dem til kundene eller potensielle kunder.
 
-Et varsel i fanen**Skjemainnsendinger** (![icon][img2]) angir at du har mottatt skjemainnsendinger .
+![Publiser skjema, direktekobling -screenshot][img3]
 
-## Hva vil du gjøre nå?
+## Hva skjer nå?
 
-* [Spore skjemainnsendinger og vise statistikk][2]
-* [Behandle skjemainnsendinger][3]
+Et varsel på fanen **Skjemainnsendinger** indikerer at du har [mottatt skjemainnsendinger][2], som kanskje må [behandles manuelt][3].
+
+Skjemaer kan deaktiveres manuelt, eller deaktiveres automatisk på en bestemt dato eller når et bestemt antall innsendelser er mottatt.
 
 <!-- Referenced links -->
 [1]: form-prefilled.md
-[2]: submissions/track.md
-[3]: submissions/process.md
+[2]: view-statistics.md
+[3]: process-submissions.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/marketing-and-forms/form-active.png
-[img2]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img3]: ../../../../media/loc/en/marketing/form-publish.png

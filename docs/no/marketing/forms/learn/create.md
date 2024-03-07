@@ -1,36 +1,38 @@
 ---
 uid: help-no-form-create
 title: Opprette et nytt skjema
-description: Lær hvordan du kan opprette et webskjema i denne veiledningen.
+description: Lær hvordan du kan opprette et nettskjema i denne veiledningen.
+keywords: skjema, webskjema, nettskjema, påmelding
 author: SuperOffice RnD
-so.date: 02.21.2023
-keywords: skjema, påmelding
+so.date: 02.29.2024
+so.version: 10
 so.topic: howto
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice Marketing
 ---
 
 # Opprette et nytt skjema
 
-Webskjemaer gjør det enklere å samhandle med kunder og potensielle kunder via websiden eller kundesenteret.
+Nettskjemaer gjør det enklere å samhandle med kunder og potensielle kunder via websiden eller kundesenteret. Du har tre alternativer: opprett et skjema fra bunnen av, lag og bruk en tilpasset skjemamal, eller velg en gratis mal fra **Online Template Library** i SuperOffice Marketing.
 
-Du kan enten lage ditt eget skjema fra bunnen av, bruke en mal fra skjemamalene eller velge et fra vårt online malbibliotek.
-
-Se denne videoen for å lære hvordan du kan opprette et webskjema (videolengde – 7:49), eller følg fremgangsmåten nedenfor.
+Se denne videoen for å lære hvordan du kan lage et nettskjema (videolengde - 7:49) eller følg fremgangsmåten nedenfor.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
-## Opprette nytt
+## Opprette nytt (fra bunnen av)
 
 1. Gå til fanen **Skjemaer**.
-2. Hvis det er nødvendig, klikker du på **Legg til mappe** for å [opprette en mappe for skjemaet][8].
-3. Velg **Skjema** under **Opprett nytt** på høyre side av skjermbildet. Bildet **Rediger skjema** vises.
-4. Angi et beskrivende navn på malen i feltet **Skjemanavn**.
-5. Fyll ut feltene som beskrevet nedenfor.
-6. Husk å klikke på **Bruk nå** regelmessig for å lagre arbeidet ditt. Skjemaet blir ikke automatisk lagret.
-7. Klikk på **Lagre** når du er ferdig.
+2. Hvis nødvendig, klikk på **Legg til mappe** for å [opprette en mappe for skjemaet][8].
+3. Klikk på **Skjema**-knappen under **Opprett nytt** på høyre side av skjermen.
+4. I dialogboksen **Rediger skjema**, skriv inn et beskrivende **Skjemanavn**.
+5. [Fyll ut feltene](#fields) som beskrevet nedenfor. Husk å klikke på **Bruk nå** regelmessig for å lagre arbeidet ditt. Skjemaet lagres ikke automatisk.
+6. Klikk på **Lagre** når du er ferdig.
 
-## Vil du opprette et nytt skjema basert på en skjemamal?
+![Set properties for new contact me form -screenshot][img15]
+
+## Opprette nytt skjema basert på skjemamal
 
 1. Velg fanen **Skjemamaler**.
 2. Klikk på **Alle maler**.
@@ -38,13 +40,13 @@ Se denne videoen for å lære hvordan du kan opprette et webskjema (videolengde 
 4. Velg **Kopier til nytt skjema**. Malen åpnes i dialogboksen **Rediger skjema**.
 5. [Aktivere og publisere skjemaet][2].
 
-## <a id="multi-page" />Opprette skjemaer med flere sider
+## <a id="multi-page" />Opprette skjema med flere sider
 
-Hvis du oppretter et skjema med mange felt, kan det være nyttig å dele inn skjemaet i flere sider. Dette gjør skjemaet mer brukervennlig og enklere å lese. Brukeren kan navigere ved hjelp av **Neste**- og **Forrige**-knappene, og du kan også legge til en fremdriftsindikator for å angi hvor mye som er igjen å fylle ut.
+For å øke brukervennligheten og lette lesbarheten, vurder å dele et skjema med mange felt inn i flere sider. Brukere kan navigere gjennom skjemaet ved hjelp av **Neste**- og **Forrige**-knappene, og en fremdriftslinje kan legges til for å indikere gjenværende felt.
 
 1. Opprett et skjema som beskrevet ovenfor.
-2. Gå til kategorien **Felt**.
-3. Klikk på **Legg til**-knappen (![icon][img2]).
+2. Velg **Felt** fra venstremenyen (i dialogboksen).
+3. Klikk på **Legg til**-knappen ![icon][img2].
 4. I vinduet **Legg til element** velger du **Vis elementer**.
 5. Velg **Seksjon** og klikk på **Legg til** . Vinduet lukkes og en seksjon legges til i skjemaet. Du kan også se seksjonen i forhåndsvisningen av skjemaet.
 6. Klikk på ![ikonet][img3] øverst i seksjonen og dra det til ønsket posisjon i skjemaet. Feltene over og under seksjonen vil være på to separate sider i skjemaet.
@@ -54,13 +56,11 @@ Hvis du oppretter et skjema med mange felt, kan det være nyttig å dele inn skj
 > [!TIP]
 > Du kan legge til en fremdriftsindikator i skjemaet, slik at brukeren kan se hvor mye som gjenstår å fylle ut. Gå til kategorien **Stil**, klikk på avmerkingsboksen ved siden av **Farge**, på fremdriftsindikatoren, og velg en farge.
 
-## Fylle ut skjemafelt
+## <a id="fields" />Fylle ut skjemafelt
 
-Klikk på overskriftene for å lære hvordan du fyller ut feltene i de ulike kategoriene:
+[!include[Show toolbar](includes/tip-show-toolbar-open-editor.md)]
 
 ### Egenskaper
-
-Fyll ut følgende informasjon i kategorien **Egenskaper**:
 
 * **Mappe**: Velg hvor skjemaet skal plasseres, eller [opprett en ny mappe][8].
 
@@ -81,13 +81,16 @@ Fyll ut følgende informasjon i kategorien **Egenskaper**:
 
 I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du legger til og redigerer felt, oppdateres forhåndsvisningen automatisk.
 
-1. Gå til kategorien **Felt**. Som standard blir feltet **Person - navn** og **OK**-knappen lagt til i det nye skjemaet.
+1. Velg **Felt** fra venstremenyen. Som standard blir feltet **Person - navn** og **OK**-knappen lagt til i det nye skjemaet.
 
 2. Klikk på **Legg til**-knappen ![icon][img2].
 
 3. I vinduet **Legg til element** velger du en av følgende feltkategorier:
+
     * **SuperOffice-elementer**: Felt som er koblet til SuperOffice-data, for eksempel personnavn, land, e-postadresse og så videre. Avhengig av felttypen kan verdier fra innsendte skjemaer enten erstatte eksisterende verdier (for eksempel land eller tittel) eller legges til det relevante SuperOffice-feltet (for eksempel mobiltelefon).
+
     * **Skjemaelementer**: Felt for å angi tekst eller dato, felt for å velge verdier (lister, avmerkingsbokser og alternativknapper) og felt for opplasting av filer.
+
     * **Visningselementer**: Seksjoner, tekster og bilder. Bruk seksjoner til å opprette [skjemaer med flere sider](#multi-page).
 
 4. Velg et felt fra listen.
@@ -113,21 +116,16 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
 ### Stil
 
-I kategorien **Stil** kan du definere utseendet på skjemaet. Du kan blant annet angi antall kolonner, plassering av feltnavn, kantlinjer, bakgrunn, skriftfarge/størrelse og skjemastørrelse.
+Velg **Stil** fra venstremenyen for å definere utseendet til skjemaet. For eksempel, antall kolonner, plassering av feltnavn, kantlinjer, bakgrunn, skriftfarge/størrelse og skjemastørrelse.
 
 Forhåndsvisningen til høyre oppdateres automatisk når du endrer innstillingene. Hvis du ikke angir høyden og bredden på skjemaet, tilpasses skjemaet automatisk til skjermstørrelsen (stasjonær datamaskin, nettbrett eller mobiltelefon).
 
 > [!TIP]
 > Du kan legge til en fremdriftsindikator i skjemaet, slik at brukeren kan se hvor mye som gjenstår å fylle ut. Klikk på avmerkingsboksen ved siden av **Fremdriftsindikator**, og velg en farge. Fremdriftsindikatoren vises nederst i skjemaet. Se også [Opprette skjemaer med flere sider](#multi-page).
 
-### Aktiver dobbel opt-in
+### Aktiver dobbel opt-in (valgfritt)
 
-Dobbel opt-in er et ekstra trinn i skjemainnsendingsprosessen, der en person må bekrefte e-postadressen sin for å fullføre skjemainnsendingen. De får en e-post med en kobling de må klikke på for å bekrefte at e-postadressen er riktig.
-
-> [!NOTE]
-> Koblingen er gyldig i 30 minutter som standard.
-
-Bruk av dobbel opt-in-funksjonen vil garantere at folk sender inn riktig e-postadresse. Dette betyr at adresselisten din vil være mer pålitelig, noe som vil bidra til å øke åpningsfrekvensen for utsendelsene dine. Som en ekstra bonus trenger du ikke å bruke tid på å rette stavefeil i e-postadresser eller slette e-postadresser som ikke eksisterer. Og det vil også hjelpe deg i din innsats for å holde deg GDPR-kompatibel.
+Dobbel opt-in (bekreftelse) er et ekstra trinn i skjemainnsendingsprosessen som vil garantere at folk sender inn riktig e-postadresse.
 
 Se denne videoen for å lære hvordan du bruker funksjonen for dobbel opt-in på webskjemaet ditt (videolengde - 3:45), eller følg trinnene nedenfor.
 
@@ -137,15 +135,18 @@ Se denne videoen for å lære hvordan du bruker funksjonen for dobbel opt-in på
 **Trinn:**
 
 1. Klikk på **Aktiver dobbel opt-in**.
-2. I fanen**Melding** skriver du inn teksten som skal vises etter at skjemaet er sendt. Klikk **Vis/skjul verktøylinjen** ![icon][img7] for å vise formateringsalternativer for teksten.
+
+2. I fanen**Melding** skriver du inn teksten som skal vises etter at skjemaet er sendt.
+
 3. I **E-post**-fanen oppretter du e-postbekreftelsen som sendes til personene som sender skjemaet.
     1. **Overskrift**: Skriv inn overskriften for e-postbekreftelsen.
     2. **Avsenderadresse**: Skriv inn e-postadressen som skal vises, i **Fra**-feltet i e-postbekreftelsen.
-    3. **Bekreftelsestekst**: Skriv inn brødteksten i e-posten. Klikk **Vis/skjul verktøylinjen** ![icon][img7] for å vise formateringsalternativer for teksten. Klikk **Åpne tekstredigeringsprogram** ![icon][img8] for å redigere teksten i et større redigeringsprogram.
-    4. Klikk på **Vis/skjul verktøylinje** ![icon][img7] og klikk deretter **Sett inn, bekreftelseskobling** ![icon][img9]. Bekreftelseskoblingen settes inn i brødteksten. Hvis du vil redigere koblingen, klikker du på den og velger **Rediger kobling** ![icon][img10].
+    3. **Bekreftelsestekst**: Skriv inn brødteksten i e-posten.
+    4. Velg **Sett inn bekreftelseslenke** ![ikon][img9] fra verktøylinjen (klikk ![ikon][img7] for å vise). Bekreftelseskoblingen settes inn i brødteksten. Hvis du vil redigere koblingen, klikker du på den og velger **Rediger kobling** ![icon][img8].
+
 4. Klikk på **Bruk nå** når du er ferdig.
 
-Hvis dobbel pålogging er aktivert for et skjema, har alle [innsendinger for dette skjemaet][5] status **Venter på bekreftelse** til e-postadressen er bekreftet.
+Hvis dobbel pålogging er aktivert for et skjema, har alle innsendinger for dette skjemaet status **Venter på bekreftelse** til e-postadressen er bekreftet.
 
 > [!NOTE]
 > Husk å legge til **Person - e-post**-feltet i **Felt**-kategorien.
@@ -154,9 +155,7 @@ Hvis dobbel pålogging er aktivert for et skjema, har alle [innsendinger for det
 
 Når en person fyller ut og sender inn et skjema, bør du takke dem og la dem få vite hva som vil skje videre. Det er alltid hyggelig å si takk. Folk setter stor pris på det.
 
-I tillegg til å si takk, kan du bruke denne siden til å informere besøkende om andre produkter eller arrangementer. Bare legg til din inspirerende kopi på siden og koble den til bestemte steder på websiden din. På denne måten kan kunden fortsette å utforske websiden din etter at de har sendt inn detaljene sine.
-
-Effekten vil være oppløftende - en "Takk" -side vil både heve kundeopplevelsen og øke kundelojaliteten din.
+Bruk "Takk"-siden til å promotere andre produkter eller arrangementer, og lenk til relevante deler av nettsiden din. Dette hever kundeopplevelsen og fremmer kundelojalitet.
 
 Se denne videoen for å lære hvordan du legger til en "Takk"-side i webskjemaet (videolengde - 1:48), eller følg trinnene nedenfor.
 
@@ -167,38 +166,21 @@ Velg ett av følgende alternativer:
 
 * **Videresend til ekstern webside**: Skriv inn koblingen til websiden med mer informasjon.
 * **Vis denne meldingen**: Skriv inn teksten som skal vises.
-  * Klikk **Vis/skjul verktøylinjen** ![icon][img7] for å vise formateringsalternativer for teksten.
-  * Klikk **Åpne tekstredigeringsprogram** ![icon][img8] for å redigere teksten i et større redigeringsprogram.
 
 ### Side for inaktivt skjema
 
 Hvis en person åpner et skjema som er inaktivt, kan du enten omdirigere vedkommende til en annen nettside eller vise en melding.
 
 * **Videresend til eksternt websted**: Angi koblingen til nettstedet.
-* **Vis denne meldingen**: Skriv inn teksten som skal vises. Klikk **Vis/skjul verktøylinjen** ![icon][img7] for å vise formateringsalternativer for teksten. Klikk **Åpne tekstredigeringsprogram** ![icon][img8] for å redigere teksten i et større redigeringsprogram.
+* **Vis denne meldingen**: Skriv inn teksten som skal vises.
 
 ### Handlinger
 
-Her kan du definere hvordan et innsendt skjema skal behandles. Fyll ut følgende felt:
+Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 
-**Varsle om innsendinger ved å opprette saker**: Velg dette alternativet for å opprette en sak for hvert skjema som sendes ut. Skriv en tittel, og velg kategori og prioritet for saken. Innsendte skjemaer vil være tilgjengelige under **Saker** i SuperOffice Service og i detaljkortet **Saker** i skjermbildene firma og Person i SuperOffice CRM.
-
-**Hvordan skal en skjemainnsending behandles?** Her kan du definere om de innsendte skjemaene skal behandles automatisk.
-
-* **Behandle alle innsendinger automatisk. Opprett ny kontakt dersom ingen treff ble funnet**: Alle skjemainnsendinger behandles automatisk. Det vil ikke bli varslet om innsendte skjemaer.
-* **Manuelt hvis innsender er ukjent. Automatisk – hvis innsender er kjent**: Hvis e-postadressen som er oppgitt i skjemaet, samsvarer med en e-postadresse i SuperOffice, behandles skjemainnsendingen automatisk. Hvis ikke, behandles den manuelt. Du vil motta et varsel (![icon][img11]). Se [Behandle skjemainnsendinger][6].
-* **Manuelt for alle innsendinger**: Du vil motta et varsel (![icon][img11]) for hvert innsendte skjema. Hvis du vil behandle skjemainnsendinger manuelt, kan du se [Behandle skjemainnsendinger][6].
-
-**Hva skal skje når skjemaet behandles?** Her kan du velge handlinger som skal utføres når et skjema behandles (automatisk eller manuelt):
-
-* **Legg til person i utvalg**: Hvis du valgte automatisk behandling ovenfor, bør du legge til et utvalg her for å holde oversikt over personer som er lagt til via dette skjemaet. Dette gjør det også enklere å fjerne irrelevante personer (og firmaer).
-* **Legg til person på prosjekt**: Velg et prosjekt. Personer som sender inn dette skjemaet, blir lagt til i dette prosjektet.
-* **Legg til interesse for person**: Velg en interesse. Denne interessen blir lagt til personer som sender dette skjemaet.
-* **E-postsvar**: Velg et skjemasvar som du vil sende til personer når skjemaet deres behandles. [Slik oppretter du et skjemasvar][7].
-* **Opprette sak**: Hvis du har lagt til et saksfelt i kategorien **Felt** må du også velge en standardkategori og prioritet for sakene som opprettes fra dette skjemaet. Innsendte skjemaer vil være tilgjengelige under **Saker** i SuperOffice Service og i detaljkortet **Saker** i skjermbildene firma og person i SuperOffice CRM.
-* **Kjør CRMScript**: Velg et skript eller en makro som skal kjøres når en skjemainnsending behandles. Se [CRMScript][9].
-* **Standard kategori** / **Standard bransje**: Velg en standard kategori og bransje for alle personer eller firmaer som legges til SuperOffice basert på innsendte skjemaer. Med dette alternativet kan du gruppere skjemainnleveringer og nye personer / firma til en bestemt kategori og / eller bransje.
-    Hvis du for eksempel har et skjema for potensielle kunder, velger du potensielle kunder som kategori. Deretter kan du enkelt opprette utvalg basert på denne kategorien og/eller bransje.
+* Varsle om innsendinger ved å opprette saker
+* Hvordan skal en skjemainnsending behandles?
+* Hva skal skje når skjemaet behandles?
 
 ## Hva vil du gjøre nå?
 
@@ -207,21 +189,17 @@ Her kan du definere hvordan et innsendt skjema skal behandles. Fyll ut følgende
 <!-- Referenced links -->
 [1]: ../../tracked-links/learn/ga-tutorial.md
 [2]: publish.md
+[3]: define-form-actions.md
 [4]: field-options.md
-[5]: submissions/index.md
-[6]: submissions/process.md
-[7]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [8]: ../../learn/create-folder.md
-[9]: ../../../automation/crmscript/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
+[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
 [img5]: ../../../../../common/icons/cog-wheel.png
 [img6]: ../../../../../common/icons/duplicate-icon.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img8]: ../../../../../common/icons/pop-out-icon.png
 [img9]: ../../../../../common/icons/new-window-icon.png
-[img10]: ../../../../../common/icons/edit-black.png
-[img11]: ../../../../media/icons/marketing-and-forms/form-notification.png
+[img8]: ../../../../../common/icons/edit-black.png
+[img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
