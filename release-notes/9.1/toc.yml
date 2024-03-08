@@ -1,5 +1,5 @@
 items:
-- name: Introduction
+- name: Release overview
   href: index.md
 - name: Standard crm
   href: standard-crm/index.md
