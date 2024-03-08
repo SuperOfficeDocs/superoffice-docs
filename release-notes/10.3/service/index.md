@@ -13,10 +13,11 @@ so.audience.tooltip: SuperOffice Service
 
 # New and improved Service
 
-* [Request types for efficient support (10.3.2)][4]
+* [Request - simplify attachment handling (10.3.3)][5]
+* [Request types - for efficient support (10.3.2)][4]
 * [Right-click to take ownership of requests (10.3.1)][1]
 * [Show SAINT status monitor on Requests screen (10.3.1)][1]
-* [System design - show extrafield in Request Properties sidebar (10.3.1)][2]
+* [System design - show extra-field in Request Properties sidebar (10.3.1)][2]
 * [Dashboard - Request tiles (10.3.1)][3]
 
 <!-- Referenced links-->
@@ -24,3 +25,4 @@ so.audience.tooltip: SuperOffice Service
 [2]: ../admin/10.3.1-update.md
 [3]: ../core-crm/10.3.1-update.md
 [4]: 10.3.2-update.md
+[5]: 10.3.3-update.md
