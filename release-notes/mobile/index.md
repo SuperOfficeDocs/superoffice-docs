@@ -16,7 +16,7 @@ so.audience.tooltip: SuperOffice Mobile CRM
 
 ## Version 10.2
 
-<!-- * [Follow-up - Add email address as attendee (10.2.18)][34]-->
+* [Follow-up - Add email address as attendee (10.2.18)][34]
 * [Request - Request types for more efficient support (10.2.16)][33]
 * [Drill down on Dashboard (10.2.12)][32]
 * [Request with sale and project fields (10.2.11)][31]
